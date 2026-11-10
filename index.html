@@ -95,7 +95,7 @@ button.sm{padding:4px 9px;font-size:.82rem}
 .cover{border-bottom:2px solid var(--sheet-ink);padding-bottom:20px;margin-bottom:24px}
 .cover .kicker{font:600 .75rem var(--f-mono);letter-spacing:.12em;text-transform:uppercase}
 .cover h2{font:800 clamp(1.6rem,4vw,2.3rem)/1.05 var(--f-display);font-stretch:80%;margin:6px 0 16px;color:var(--sheet-ink)}
-.cover input{font:inherit;color:inherit;background:transparent;border:0;border-bottom:1px dashed #b9bdc6;width:100%;padding:0;border-radius:0}
+.cover input{font-size:max(.6em,min(1em,6vw));font-family:inherit;font-weight:inherit;color:inherit;background:transparent;border:0;border-bottom:1px dashed #b9bdc6;width:100%;padding:0;border-radius:0}
 .cover-grid{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:20px}
 @media (max-width:620px){.cover-grid{grid-template-columns:1fr}}
 .cover ul{margin:0;padding-left:18px;font-size:.92rem}
@@ -185,7 +185,7 @@ details summary{cursor:pointer;font-weight:600;font-size:.9rem}
   </section>
   <section id="tab-import" data-view="import" hidden>
     <h2>Import a past paper</h2>
-    <p class="lede">Download an exam and its marking guidelines from THSC Online, then upload both PDFs here. Claude splits the exam into individual questions, tags each with a syllabus topic and its marks, and matches the marking guide to each question. You check the crops before anything is saved.</p>
+    <p class="lede">Download an exam and its marking guidelines from THSC Online, then upload both PDFs here. With a Claude API key, Claude splits the exam into individual questions, tags each with a syllabus topic and its marks, and matches the marking guide to each question. You check the crops before anything is saved.</p>
     <div id="importBody" class="stack"></div>
   </section>
   <section id="tab-bank" data-view="bank" hidden>
@@ -198,6 +198,7 @@ details summary{cursor:pointer;font-weight:600;font-size:.9rem}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 <script>
 "use strict";
 /* ---------- Syllabus data (NESA Stage 6 syllabuses examined from 2019 HSC) ---------- */
@@ -241,12 +242,13 @@ const normLabel = s => String(s||"").toLowerCase().replace(/^q(uestion)?\s*/,"")
 const lsGet = k => { try { return JSON.parse(localStorage.getItem(k)); } catch { return null; } };
 const lsSet = (k,v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} };
 const errMsg = e => (e && (e.message || e.code)) || String(e);
+const mk = n => `${n} mark${n===1?"":"s"}`;
 function workingTime(marks){ return Math.max(5, Math.round(marks*1.8/5)*5); }
 function fmtMins(m){ const hh=Math.floor(m/60), mm=m%60; return (hh? hh+" hour"+(hh>1?"s":""):"") + (hh&&mm?" ":"") + (mm? mm+" minutes":""); }
 
 /* ---------- App state ---------- */
-const S = { db:null, user:null, assets:null, sample:null, downloads:null, ready:false, dbFailed:false,
-  questions:[], papers:[], extraTopics:{}, canEdit:false };
+const S = { ready:false, dbFailed:false, loadError:"",
+  questions:[], papers:[], extraTopics:{}, canEdit:true };
 function topicsFor(subject){ return [...(SUBJECTS[subject]?.topics||[]), ...((S.extraTopics||{})[subject]||[])]; }
 
 /* ---------- Tabs ---------- */
@@ -257,33 +259,173 @@ function showTab(){
 }
 window.addEventListener("hashchange", showTab);
 
-/* ---------- Capabilities ---------- */
+/* ---------- Storage: this browser's IndexedDB + optional published bank in the repo (bank/) ---------- */
+const IDB = {
+  db:null,
+  open(){ return new Promise((res,rej)=>{ const r = indexedDB.open("hsc-paper-builder", 1);
+    r.onupgradeneeded = () => { const d=r.result; ["papers","questions","images","config"].forEach(n=>{ if(!d.objectStoreNames.contains(n)) d.createObjectStore(n); }); };
+    r.onsuccess = () => { IDB.db = r.result; res(); }; r.onerror = () => rej(r.error); }); },
+  tx(store, mode, fn){ return new Promise((res,rej)=>{ const t = IDB.db.transaction(store, mode); const out = fn(t.objectStore(store)); t.oncomplete = () => res(out && out.result!==undefined ? out.result : out); t.onerror = () => rej(t.error); t.onabort = () => rej(t.error||new Error("Storage write aborted")); }); },
+  all(store){ return new Promise((res,rej)=>{ const out=[]; const r = IDB.db.transaction(store).objectStore(store).openCursor(); r.onsuccess = () => { const c=r.result; if(c){ out.push([c.key,c.value]); c.continue(); } else res(out); }; r.onerror = () => rej(r.error); }); },
+  put(store, key, val){ return IDB.tx(store, "readwrite", s => { s.put(val, key); }); },
+  del(store, key){ return IDB.tx(store, "readwrite", s => { s.delete(key); }); },
+  get(store, key){ return new Promise((res,rej)=>{ const r = IDB.db.transaction(store).objectStore(store).get(key); r.onsuccess=()=>res(r.result); r.onerror=()=>rej(r.error); }); },
+};
+const imgUrls = new Map();       // asset id -> object URL (local) or bank/pages URL (published)
+const imageUrl = a => imgUrls.get(a) || `bank/pages/${a}.jpg`;
+const Store = {
+  local:{papers:[], questions:[]}, published:{papers:[], questions:[]},
+  async load(){
+    await IDB.open();
+    const [papers, questions, cfg] = await Promise.all([IDB.all("papers"), IDB.all("questions"), IDB.get("config","topics")]);
+    Store.local.papers = papers.map(([id,v])=>({...v, id}));
+    Store.local.questions = questions.map(([id,v])=>({...v, id}));
+    S.extraTopics = cfg || {};
+    try {
+      const r = await fetch("bank/index.json", {cache:"no-cache"});
+      if (r.ok){ const j = await r.json();
+        Store.published.papers = (j.papers||[]).map(p=>({...p, published:true}));
+        Store.published.questions = (j.questions||[]).map(q=>({...q, published:true}));
+        for (const [s,list] of Object.entries(j.extraTopics||{})) S.extraTopics[s] = [...new Set([...(S.extraTopics[s]||[]), ...list])];
+      }
+    } catch {}
+    Store.merge();
+  },
+  merge(){
+    const pm = new Map(); [...Store.published.papers, ...Store.local.papers].forEach(p => pm.set(p.id, p));
+    const qm = new Map(); [...Store.published.questions, ...Store.local.questions].forEach(q => qm.set(q.id, q));
+    S.papers = [...pm.values()]; S.questions = [...qm.values()];
+  },
+  async imageFor(a){                 // local blob URL on demand
+    if (imgUrls.has(a)) return imgUrls.get(a);
+    const b = await IDB.get("images", a);
+    if (b){ const u = URL.createObjectURL(b); imgUrls.set(a, u); return u; }
+    return `bank/pages/${a}.jpg`;
+  },
+  async preloadImages(){ const rows = await IDB.all("images"); rows.forEach(([a,b]) => { if(!imgUrls.has(a)) imgUrls.set(a, URL.createObjectURL(b)); }); },
+  async putImage(blob){ const a = uid()+uid(); await IDB.put("images", a, blob); imgUrls.set(a, URL.createObjectURL(blob)); return a; },
+  async savePaper(paper, questions){
+    await IDB.put("papers", paper.id, paper);
+    for (const q of questions) await IDB.put("questions", q.id, q);
+    Store.local.papers.push(paper); Store.local.questions.push(...questions); Store.merge(); changed();
+  },
+  async updateQuestion(q, patch){
+    const nq = {...q, ...patch}; delete nq.published;
+    await IDB.put("questions", q.id, nq);
+    const i = Store.local.questions.findIndex(x=>x.id===q.id); if (i>=0) Store.local.questions[i]=nq; else Store.local.questions.push(nq);
+    if (q.published && !Store.local.papers.some(p=>p.id===q.paperId)){ const p = Store.published.papers.find(p=>p.id===q.paperId); if (p){ const np={...p}; delete np.published; await IDB.put("papers", np.id, np); Store.local.papers.push(np); } }
+    Store.merge(); changed();
+  },
+  async deletePaper(p){
+    const qs = Store.local.questions.filter(q=>q.paperId===p.id);
+    for (const q of qs) await IDB.del("questions", q.id);
+    await IDB.del("papers", p.id);
+    const stillUsed = new Set(Store.local.questions.filter(q=>q.paperId!==p.id).flatMap(q=>[...(q.segs||[]),...(q.sol||[])].map(s=>s.a)));
+    for (const a of (p.assetIds||[])) if (!stillUsed.has(a)){ await IDB.del("images", a).catch(()=>{}); const u=imgUrls.get(a); if(u&&u.startsWith("blob:")){ URL.revokeObjectURL(u); imgUrls.delete(a);} }
+    Store.local.papers = Store.local.papers.filter(x=>x.id!==p.id); Store.local.questions = Store.local.questions.filter(q=>q.paperId!==p.id);
+    Store.merge(); changed();
+  },
+  async setTopics(extra){ await IDB.put("config","topics", extra); S.extraTopics = extra; changed(); },
+  isPublished(p){ return Store.published.papers.some(x=>x.id===p.id) && !Store.local.papers.some(x=>x.id===p.id); },
+};
+function changed(){ updateStat(); renderBuildPanel(); renderBank(); renderPaper(); }
+
+/* Export the whole bank as a zip with bank/index.json + bank/pages/*.jpg, ready to commit to the repo */
+async function exportBank(btn){
+  if (!window.JSZip){ bankMsg = "The zip library didn't load. Reload and try again."; renderBank(); return; }
+  const old = btn.textContent; btn.disabled = true;
+  try {
+    const zip = new JSZip(); const pages = zip.folder("bank").folder("pages");
+    const ids = new Set(S.questions.flatMap(q=>[...(q.segs||[]),...(q.sol||[])].map(s=>s.a)));
+    let i = 0;
+    for (const a of ids){
+      btn.textContent = `Packing images ${++i}/${ids.size}…`;
+      let blob = await IDB.get("images", a);
+      if (!blob){ const r = await fetch(`bank/pages/${a}.jpg`); if (r.ok) blob = await r.blob(); }
+      if (blob) pages.file(`${a}.jpg`, blob);
+    }
+    const clean = o => { const c={...o}; delete c.published; return c; };
+    zip.folder("bank").file("index.json", JSON.stringify({version:1, exportedAt:new Date().toISOString(), extraTopics:S.extraTopics||{}, papers:S.papers.map(clean), questions:S.questions.map(clean)}));
+    btn.textContent = "Compressing…";
+    const blob = await zip.generateAsync({type:"blob"});
+    saveFile(blob, "hsc-question-bank.zip");
+    bankMsg = "Exported. Unzip it at the root of the repo (it contains a bank/ folder) and commit, and everyone who opens the site gets these questions.";
+  } catch(e){ bankMsg = "Export failed: "+errMsg(e); }
+  btn.disabled = false; btn.textContent = old; renderBank();
+}
+async function importBank(file){
+  try {
+    const zip = await JSZip.loadAsync(file);
+    const idx = zip.file("bank/index.json") || zip.file("index.json");
+    if (!idx) throw new Error("No bank/index.json in this zip");
+    const j = JSON.parse(await idx.async("string"));
+    const have = new Set(S.papers.map(p=>p.id)); let added = 0;
+    for (const p of (j.papers||[])){
+      if (have.has(p.id)) continue;
+      const qs = (j.questions||[]).filter(q=>q.paperId===p.id);
+      for (const a of (p.assetIds||[])){ const f = zip.file(`bank/pages/${a}.jpg`) || zip.file(`pages/${a}.jpg`); if (f){ const b = new Blob([await f.async("arraybuffer")], {type:"image/jpeg"}); await IDB.put("images", a, b); imgUrls.set(a, URL.createObjectURL(b)); } }
+      await IDB.put("papers", p.id, p); for (const q of qs) await IDB.put("questions", q.id, q);
+      Store.local.papers.push(p); Store.local.questions.push(...qs); added++;
+    }
+    if (j.extraTopics){ const ex = {...S.extraTopics}; for (const [s,l] of Object.entries(j.extraTopics)) ex[s] = [...new Set([...(ex[s]||[]), ...l])]; await IDB.put("config","topics",ex); S.extraTopics = ex; }
+    Store.merge(); bankMsg = added ? `Imported ${added} paper${added>1?"s":""}.` : "Nothing new in that file: every paper is already in your bank."; changed();
+  } catch(e){ bankMsg = "Import failed: "+errMsg(e); renderBank(); }
+}
+function saveFile(blob, name){
+  const u = URL.createObjectURL(blob); const a = h("a",{href:u, download:name}); document.body.append(a); a.click(); a.remove();
+  setTimeout(()=>URL.revokeObjectURL(u), 60000);
+}
+
+/* ---------- Claude API (key stays in this browser) ---------- */
+const API = { get key(){ try { return localStorage.getItem("hpb-key")||""; } catch { return ""; } },
+  set key(v){ try { v ? localStorage.setItem("hpb-key", v) : localStorage.removeItem("hpb-key"); } catch {} },
+  get model(){ try { return localStorage.getItem("hpb-model")||"claude-sonnet-5-5"; } catch { return "claude-sonnet-5-5"; } },
+  set model(v){ try { localStorage.setItem("hpb-model", v); } catch {} } };
+const blobToB64 = b => new Promise((res,rej)=>{ const r = new FileReader(); r.onload = () => res(String(r.result).split(",")[1]); r.onerror = () => rej(r.error); r.readAsDataURL(b); });
+function parseJsonReply(text){
+  const t = String(text||"").trim();
+  try { return JSON.parse(t); } catch {}
+  const f = t.match(/```(?:json)?\s*([\s\S]*?)```/); if (f){ try { return JSON.parse(f[1]); } catch {} }
+  const i = t.indexOf("{"), k = t.lastIndexOf("}"); if (i>=0 && k>i){ try { return JSON.parse(t.slice(i,k+1)); } catch {} }
+  const e = new Error("Claude's reply wasn't valid JSON"); e.code = "invalid_json"; throw e;
+}
+async function callClaude(prompt, images){
+  const content = [];
+  for (const b of images) content.push({type:"image", source:{type:"base64", media_type:"image/jpeg", data: await blobToB64(b)}});
+  content.push({type:"text", text: prompt});
+  const body = JSON.stringify({model:API.model, max_tokens:8000, messages:[{role:"user", content}]});
+  for (let attempt=0; attempt<3; attempt++){
+    let r;
+    try {
+      r = await fetch("https://api.anthropic.com/v1/messages", {method:"POST", headers:{
+        "content-type":"application/json", "x-api-key":API.key, "anthropic-version":"2023-06-01",
+        "anthropic-dangerous-direct-browser-access":"true"}, body});
+    } catch(e){ const err = new Error("Couldn't reach the Claude API. Check your connection."); err.code="network"; throw err; }
+    if (r.ok){ const j = await r.json(); return parseJsonReply((j.content||[]).filter(c=>c.type==="text").map(c=>c.text).join("")); }
+    let msg = ""; try { msg = (await r.json())?.error?.message || ""; } catch {}
+    if ((r.status===429 || r.status===529 || r.status>=500) && attempt<2){ await new Promise(s=>setTimeout(s, (attempt+1)*15000)); continue; }
+    const err = new Error(msg || `Claude API error ${r.status}`);
+    err.code = r.status===401||r.status===403 ? "bad_key" : r.status===429 ? "rate_limited" : r.status===404 ? "bad_model" : r.status===400 && /credit|billing/i.test(msg) ? "billing" : "api_error";
+    throw err;
+  }
+}
+
 async function init(){
   showTab(); renderBuildPanel(); renderPaper(); renderImport(); renderBank();
-  if (!window.claude?.use){ S.dbFailed=true; updateStat(); renderAll(); return; }
-  const get = n => window.claude.use(n).catch(()=>null);
-  const [db,user,assets,sample,downloads] = await Promise.all(["db","user","assets","sample","downloads"].map(get));
-  Object.assign(S,{db,user,assets,sample,downloads});
-  S.canEdit = !!assets;
-  if (!db){ S.dbFailed=true; updateStat(); renderAll(); return; }
-  const timer = setTimeout(()=>{ if(!S.ready){ S.dbFailed=true; updateStat(); renderAll(); } }, 10000);
-  db.collection("questions").onSnapshot(snap => {
-    S.questions = snap.docs.map(d => ({id:d.id, ...d.data()}));
-    S.ready = true; S.dbFailed=false; clearTimeout(timer); updateStat(); renderBuildPanel(); renderBank(); refreshPaperIfNeeded();
-  }, e => { S.dbFailed=true; clearTimeout(timer); updateStat(); renderAll(); });
-  db.collection("papers").onSnapshot(snap => { S.papers = snap.docs.map(d => ({id:d.id, ...d.data()})); renderBank(); }, ()=>{});
-  db.doc("config/topics").onSnapshot(d => { S.extraTopics = (d.exists && d.data().extra) || {}; renderBuildPanel(); }, ()=>{});
+  try { await Store.load(); await Store.preloadImages(); S.ready = true; }
+  catch(e){ S.dbFailed = true; S.loadError = errMsg(e); }
+  updateStat(); renderAll();
 }
 function renderAll(){ renderBuildPanel(); renderPaper(); renderImport(); renderBank(); }
 function updateStat(){
   const el = $("#bankStat");
-  if (S.dbFailed && !S.ready) el.textContent = "bank unavailable";
+  if (S.dbFailed && !S.ready) el.textContent = "storage unavailable";
   else if (!S.ready) el.textContent = "loading bank…";
   else { const marks = S.questions.reduce((a,q)=>a+(q.marks||0),0); el.textContent = `${S.questions.length} questions · ${marks} marks banked`; }
 }
 
 /* ---------- Crop rendering ---------- */
-const blobUrl = a => "/_blob/" + a;
+const blobUrl = a => imageUrl(a);
 function cropEl(seg, url){
   const span = Math.max(0.005, seg.b - seg.t);
   const wrap = h("div",{class:"crop"});
@@ -348,7 +490,7 @@ function renderBuildPanel(){
     h("button",{class:"sm", onclick:async()=>{
       const v = $("#newTopic").value.trim(); if(!v || topicsFor(subj).includes(v)) return;
       const extra = {...(S.extraTopics||{})}; extra[subj] = [...(extra[subj]||[]), v];
-      try { await S.db.doc("config/topics").set({extra}); } catch(e){ alert(errMsg(e)); }
+      try { await Store.setTopics(extra); } catch(e){ toast("Topic not saved: "+errMsg(e)); }
     }}, "Add"));
 
   p.append(
@@ -368,7 +510,7 @@ function renderBuildPanel(){
         h("button",{class:"ghost sm", onclick:()=>{B.excluded[subj]=[]; saveB(); renderBuildPanel();}},"All"),
         h("button",{class:"ghost sm", onclick:()=>{B.excluded[subj]=topics.slice(); saveB(); renderBuildPanel();}},"None")),
       h("div",{class:"topics"}, topicRows),
-      S.ready && S.db && S.canEdit ? h("button",{class:"ghost sm", style:"align-self:flex-start", onclick:()=>{addTopicBox.hidden=!addTopicBox.hidden;}},"+ Add a topic") : null,
+      S.ready ? h("button",{class:"ghost sm", style:"align-self:flex-start", onclick:()=>{addTopicBox.hidden=!addTopicBox.hidden;}},"+ Add a topic") : null,
       addTopicBox),
     h("div",{id:"poolLine", class:"stat"}),
     h("button",{class:"primary", id:"genBtn", disabled:!S.ready, onclick:generate}, "Generate paper"),
@@ -378,7 +520,7 @@ function renderBuildPanel(){
 }
 function updatePoolLine(){
   const el = $("#poolLine"); if (!el) return;
-  if (!S.ready){ el.textContent = S.dbFailed ? "The question bank could not be loaded in this view." : "Loading question bank…"; return; }
+  if (!S.ready){ el.textContent = S.dbFailed ? "This browser blocked local storage, so the question bank can't load. Leave private browsing and reload." : "Loading question bank…"; return; }
   const pool = poolFor(B.subject);
   const m = pool.filter(q=>q.type==="mcq"), w = pool.filter(q=>q.type!=="mcq");
   el.textContent = `Available: ${m.length} multiple choice · ${w.length} written (${w.reduce((a,q)=>a+(q.marks||0),0)} marks)`;
@@ -450,7 +592,7 @@ function renderPaper(){
       empty ? h("ol",{}, h("li",{},"Download an HSC or trial exam and its marking guidelines from THSC Online."),
                        h("li",{},"Upload both PDFs under Import papers. Claude splits the exam into questions and tags topics and marks."),
                        h("li",{},"Come back here, choose topics and total marks, and generate a paper with its marking guide."))
-            : h("p",{class:"muted"}, S.ready ? "Choose a subject, topics and total marks, then select Generate paper. Questions are drawn from your bank and renumbered into one paper, with a matching marking guide." : (S.dbFailed ? "The question bank isn't available in this view. Open the page signed in to claude.ai." : "Loading your question bank…")),
+            : h("p",{class:"muted"}, S.ready ? "Choose a subject, topics and total marks, then select Generate paper. Questions are drawn from your bank and renumbered into one paper, with a matching marking guide." : (S.dbFailed ? "This browser blocked local storage, so the question bank can't load. Leave private browsing and reload." : "Loading your question bank…")),
       empty ? h("a",{class:"btn primary", href:"#import", style:"text-decoration:none;display:inline-flex;background:var(--accent);color:var(--accent-ink);border-color:var(--accent)"},"Import a paper") : null));
     return;
   }
@@ -485,8 +627,8 @@ function renderPaper(){
         h("li",{},"For questions in Section II, show relevant working"))),
       h("div",{class:"marksbox"},
         h("div",{},`Total marks: ${total}`),
-        mcqs.length ? h("div",{}, h("b",{},"Section I – "), `${mMarks} marks`, h("br"), `Attempt Questions 1–${mcqs.length}`) : null,
-        ws.length ? h("div",{}, h("b",{},`Section ${mcqs.length?"II":"I"} – `), `${wMarks} marks`, h("br"), `Attempt Questions ${mcqs.length+1}–${qs.length}`) : null))));
+        mcqs.length ? h("div",{}, h("b",{},"Section I – "), mk(mMarks), h("br"), `Attempt Questions 1–${mcqs.length}`) : null,
+        ws.length ? h("div",{}, h("b",{},`Section ${mcqs.length?"II":"I"} – `), mk(wMarks), h("br"), `Attempt Questions ${mcqs.length+1}–${qs.length}`) : null))));
 
   if (paperView==="guide" && mcqs.length){
     const nums = mcqs.map((q,i)=>i+1);
@@ -502,8 +644,8 @@ function renderPaper(){
   const section = (title, sub) => sheet.append(h("div",{class:"section-h"}, title, h("span",{}, sub)));
   qs.forEach((q, i) => {
     n = i+1;
-    if (i===0 && q.type==="mcq") section(`Section I — ${mMarks} marks`, `Attempt Questions 1–${mcqs.length}. Allow about ${workingTime(mMarks)} minutes.`);
-    if (q.type!=="mcq" && (i===0 || qs[i-1].type==="mcq")) section(`Section ${mcqs.length?"II":"I"} — ${wMarks} marks`, `Attempt Questions ${mcqs.length+1}–${qs.length}. Allow about ${workingTime(wMarks)} minutes.`);
+    if (i===0 && q.type==="mcq") section(`Section I — ${mk(mMarks)}`, `Attempt Questions 1–${mcqs.length}. Allow about ${workingTime(mMarks)} minutes.`);
+    if (q.type!=="mcq" && (i===0 || qs[i-1].type==="mcq")) section(`Section ${mcqs.length?"II":"I"} — ${mk(wMarks)}`, `Attempt Questions ${mcqs.length+1}–${qs.length}. Allow about ${workingTime(wMarks)} minutes.`);
     if (paperView==="guide" && q.type==="mcq" && !(q.sol||[]).length) return;
     const head = h("div",{class:"qh"},
       h("b",{},`Question ${n}`), h("span",{class:"mk"}, `${q.marks} mark${q.marks===1?"":"s"}`),
@@ -555,8 +697,8 @@ async function downloadPdf(mode){
     gi.forEach((t,i)=>doc.text("•  "+t, M+2, 78+i*7));
     let by = 116; doc.setFillColor(233,234,236); doc.rect(M, by, W, 9, "F"); doc.setDrawColor(20); doc.rect(M, by, W, 9 + (mcqs.length?14:0) + (ws.length?14:0));
     doc.setFont("helvetica","bold"); doc.text(`Total marks: ${total}`, M+3, by+6); by += 9;
-    if (mcqs.length){ doc.setFont("helvetica","bold"); doc.text(`Section I – ${mM} marks`, M+3, by+6); doc.setFont("helvetica","normal"); doc.text(`Attempt Questions 1–${mcqs.length}`, M+3, by+11.5); by+=14; }
-    if (ws.length){ doc.setFont("helvetica","bold"); doc.text(`Section ${mcqs.length?"II":"I"} – ${wM} marks`, M+3, by+6); doc.setFont("helvetica","normal"); doc.text(`Attempt Questions ${mcqs.length+1}–${qs.length}`, M+3, by+11.5); }
+    if (mcqs.length){ doc.setFont("helvetica","bold"); doc.text(`Section I – ${mk(mM)}`, M+3, by+6); doc.setFont("helvetica","normal"); doc.text(`Attempt Questions 1–${mcqs.length}`, M+3, by+11.5); by+=14; }
+    if (ws.length){ doc.setFont("helvetica","bold"); doc.text(`Section ${mcqs.length?"II":"I"} – ${mk(wM)}`, M+3, by+6); doc.setFont("helvetica","normal"); doc.text(`Attempt Questions ${mcqs.length+1}–${qs.length}`, M+3, by+11.5); }
     doc.addPage(); let y = M;
     const need = hgt => { if (y + hgt > BOT){ doc.addPage(); y = M; } };
     const sectionBar = (t) => { need(14); doc.setFillColor(233,234,236); doc.rect(M, y, W, 8, "F"); doc.setFont("helvetica","bold"); doc.setFontSize(11); doc.text(t, M+2.5, y+5.5); y += 12; };
@@ -574,8 +716,8 @@ async function downloadPdf(mode){
     for (let i=0;i<qs.length;i++){
       const q = qs[i], n = i+1;
       btn.textContent = `Building PDF… ${n}/${qs.length}`;
-      if (i===0 && q.type==="mcq") sectionBar(`Section I – ${mM} marks   ·   Attempt Questions 1–${mcqs.length}`);
-      if (q.type!=="mcq" && (i===0 || qs[i-1].type==="mcq")) sectionBar(`Section ${mcqs.length?"II":"I"} – ${wM} marks   ·   Attempt Questions ${mcqs.length+1}–${qs.length}`);
+      if (i===0 && q.type==="mcq") sectionBar(`Section I – ${mk(mM)}   ·   Attempt Questions 1–${mcqs.length}`);
+      if (q.type!=="mcq" && (i===0 || qs[i-1].type==="mcq")) sectionBar(`Section ${mcqs.length?"II":"I"} – ${mk(wM)}   ·   Attempt Questions ${mcqs.length+1}–${qs.length}`);
       const segs = mode==="paper" ? (q.segs||[]) : (q.sol||[]);
       if (mode==="guide" && q.type==="mcq" && !segs.length) continue;
       const crops = []; for (const s of segs) crops.push(await cropData(s));
@@ -597,8 +739,7 @@ async function downloadPdf(mode){
     for (let p=2;p<=pages;p++){ doc.setPage(p); doc.setFontSize(8); doc.setTextColor(120); doc.text(`${P.title} – ${p-1}`, 105, 297-8, {align:"center"}); doc.setTextColor(0); }
     const blob = doc.output("blob");
     const name = (P.title||"practice-paper").replace(/[^\w\- ]+/g,"").trim().replace(/\s+/g,"-") + (mode==="paper"?"":"-marking-guide") + ".pdf";
-    if (!S.downloads){ toast("Downloads aren't available in this view. Open the page on claude.ai to save PDFs."); return; }
-    await S.downloads.save({filename:name, data:blob}).catch(e => { if (!/cancel|declin|dismiss|abort/i.test(e?.code||"")) toast("The PDF couldn't be saved: "+errMsg(e)); });
+    saveFile(blob, name);
   } catch(e){ toast(errMsg(e)); }
   finally { btn.disabled=false; btn.textContent=old; }
 }
@@ -721,16 +862,16 @@ function band(page, it){
   return {t:r4(t), b:r4(b)};
 }
 
+const pagesOf = which => which==="exam" ? I.pages : I.gpages;
 async function analyse(which){
-  if (!S.sample){ I.err = "Claude isn't available in this view, so questions can't be split automatically. Add them by hand below."; I.status="review"; buildItems(); renderImport(); return; }
-  try { const lim = await S.sample.limits(); imgMax = lim?.images?.maxCount || 0; } catch { imgMax = 0; }
-  if (!imgMax){ I.err = "This view can't send page images to Claude. Add questions by hand below, or open the page in a desktop browser."; I.status="review"; buildItems(); renderImport(); return; }
-  const pages = which==="exam" ? I.pages : I.gpages;
+  if (!API.key){ I.err = "No Claude API key is set, so questions weren't split automatically. Add a key under Claude settings and select Retry, or add questions by hand below."; pagesOf(which).forEach(p=>{ if(I.pstate[which+p.n]!=="done") I.pstate[which+p.n]="failed"; }); if (which==="exam") buildItems(); else attachGuide(); I.status="review"; renderImport(); return; }
+  I.err = "";
+  const pages = pagesOf(which);
   const todo = pages.filter(p => I.pstate[which+p.n]!=="done");
-  const per = Math.max(1, Math.min(4, imgMax));
+  const per = 4;
   const batches = []; for (let i=0;i<todo.length;i+=per) batches.push(todo.slice(i,i+per));
   todo.forEach(p => I.pstate[which+p.n]="queued");
-  I.status = which==="exam" ? "analysing" : "guiding"; I.stopReason=""; renderImport();
+  I.status = which==="exam" ? "analysing" : "guiding"; I.stopReason=""; I.pfail=""; renderImport();
   let k = 0;
   const worker = async () => {
     while (k < batches.length && !I.stopReason){
@@ -738,7 +879,7 @@ async function analyse(which){
       batch.forEach(p => I.pstate[which+p.n]="working"); renderImportProgress();
       try {
         const images = []; for (const p of batch) images.push(await claudeImage(p));
-        const res = await S.sample.json(which==="exam" ? examPrompt(batch) : guidePrompt(batch), {images, modelTier:"default"});
+        const res = await callClaude(which==="exam" ? examPrompt(batch) : guidePrompt(batch), images);
         const list = Array.isArray(res?.pages) ? res.pages : [];
         batch.forEach((p, idx) => {
           const pr = list.find(x => Number(x.page)===p.n) || (list.length===batch.length ? list[idx] : null);
@@ -748,9 +889,12 @@ async function analyse(which){
       } catch(e){
         batch.forEach(p => I.pstate[which+p.n]="failed");
         const c = e?.code || "";
-        if (["not_granted","sampling_disabled","not_declared","capability_disabled","images_unavailable"].includes(c)) I.stopReason = "Claude access was declined or isn't available here, so the remaining pages were skipped.";
-        else if (c==="rate_limited") I.stopReason = "Claude's usage limit was reached. Retry the failed pages later.";
-        else if (c==="session_expired") I.stopReason = "Your claude.ai session expired. Sign in again, then retry the failed pages.";
+        if (c==="bad_key") I.stopReason = "The Claude API key was rejected. Check it under Claude settings, then retry the failed pages.";
+        else if (c==="billing") I.stopReason = "The Claude API account has no credit left. Add credit in the Claude Console, then retry the failed pages.";
+        else if (c==="bad_model") I.stopReason = `The model "${API.model}" wasn't found. Pick another under Claude settings, then retry.`;
+        else if (c==="rate_limited") I.stopReason = "The Claude API rate limit was reached. Wait a minute, then retry the failed pages.";
+        else if (c==="network") I.stopReason = errMsg(e);
+        else I.pfail = errMsg(e);
       }
       renderImportProgress();
     }
@@ -877,12 +1021,12 @@ function renderImportProgress(){
   };
   box.append(sec("exam", I.pages, "Exam") || "", sec("guide", I.gpages, "Marking guide") || "");
   if (I.stopReason) box.append(h("div",{class:"note bad"}, I.stopReason));
+  else if (I.pfail && [...I.pages.map(p=>"exam"+p.n), ...I.gpages.map(p=>"guide"+p.n)].some(k=>I.pstate[k]==="failed")) box.append(h("div",{class:"note warn"}, "Some pages failed: "+I.pfail));
 }
 
 function renderImport(){
   const body = $("#importBody"); body.replaceChildren();
-  if (S.ready && !S.canEdit){ body.append(h("div",{class:"note"},"Only editors of this page can import papers. You can still build papers from the existing bank.")); return; }
-  if (!S.ready && S.dbFailed){ body.append(h("div",{class:"note bad"},"The question bank isn't available in this view, so papers can't be saved. Open the page signed in to claude.ai.")); return; }
+  if (!S.ready && S.dbFailed){ body.append(h("div",{class:"note bad"},"This browser blocked local storage, so the question bank can't load. Leave private browsing and reload.")); return; }
   if (I.saving){ body.append(h("div",{class:"panel stack"}, h("h3",{},"Saving to your bank…"), h("div",{class:"stat"}, I.saving.text), h("div",{class:"progress"}, h("i",{style:`width:${I.saving.pct}%`})))); return; }
   const busy = ["loading","analysing","guiding"].includes(I.status);
   const cfg = SUBJECTS[I.subject];
@@ -893,6 +1037,16 @@ function renderImport(){
       h("b",{}, title), h("span",{class:"muted", style:"font-size:.85rem"}, f ? f.name : sub),
       h("input",{type:"file", accept:"application/pdf", id:"f-"+which, disabled:busy||I.status==="review", onchange:e=>{ const file=e.target.files[0]||null; if(which==="exam") I.examFile=file; else I.guideFile=file; renderImport(); }}));
   };
+  const keyIn = h("input",{type:"password", id:"apiKey", autocomplete:"off", placeholder:"sk-ant-…", value:API.key, onchange:e=>{ API.key=e.target.value.trim(); renderImport(); }});
+  const api = h("details",{class:"panel", open: API.key ? null : true},
+    h("summary",{}, "Claude settings ", h("span",{class:"stat"}, API.key ? `· key saved · ${API.model}` : "· add an API key to split papers automatically")),
+    h("div",{class:"stack", style:"margin-top:12px"},
+      h("div",{class:"row"},
+        h("label",{class:"f", style:"flex:3 1 260px"},"Claude API key", keyIn),
+        h("label",{class:"f", style:"flex:1 1 180px"},"Model", h("select",{id:"apiModel", onchange:e=>{API.model=e.target.value; renderImport();}},
+          ["claude-sonnet-5-5","claude-opus-5-5","claude-haiku-5-5"].map(m=>h("option",{value:m, selected:m===API.model}, m)))),
+        API.key ? h("button",{class:"ghost", onclick:()=>{ API.key=""; renderImport(); }},"Forget key") : null),
+      h("div",{class:"stat"},"Create a key in the Claude Console (console.anthropic.com). It's saved only in this browser and sent only to api.anthropic.com. Splitting uses your API credit: roughly one request per four pages.")));
   const details = h("div",{class:"panel stack"},
     h("div",{class:"eyebrow"},"1 · Paper details"),
     h("div",{class:"row"},
@@ -909,10 +1063,10 @@ function renderImport(){
     h("div",{id:"impProgress", class:"stack", style:"gap:10px"}),
     I.status==="idle" ? h("div",{class:"row"},
       h("button",{class:"primary", id:"analyseBtn", disabled:!I.examFile, onclick:startImport},"Split into questions"),
-      h("span",{class:"stat"},"Each page is sent to Claude to find questions, marks and topics. A 40-page paper takes a few minutes.")) : null,
+      h("span",{class:"stat"},API.key ? "Each page is sent to Claude to find questions, marks and topics. A 40-page paper takes a few minutes." : "Without an API key you'll crop questions by hand.")) : null,
     I.status==="loading" ? h("div",{class:"stat"},"Reading PDFs…") : null,
     busy && I.status!=="loading" ? h("div",{class:"stat"},"Claude is reading the pages. Keep this tab open.") : null);
-  body.append(details, files);
+  body.append(api, details, files);
   renderImportProgress();
 
   if (I.status==="review"){
@@ -946,36 +1100,28 @@ function resetImport(){
   renderImport();
 }
 async function saveImport(){
-  if (!S.db || !S.assets){ alert("Saving isn't available in this view."); return; }
   const items = I.items.filter(it=>it.segs.length);
-  const keys = new Set(); items.forEach(it => [...it.segs, ...it.sol].forEach(s => keys.add(s.doc+":"+s.p)));
-  const total = keys.size + items.length + 1; let done = 0;
-  const tick = text => { done++; I.saving = {text, pct: done/total*100}; renderImport(); };
-  I.saving = {text:"Uploading pages…", pct:0}; renderImport();
+  const keys = new Set(); items.forEach(it => [...it.segs, ...it.sol].forEach(k => keys.add(k.doc+":"+k.p)));
+  I.saving = {text:"Saving pages…", pct:0}; renderImport();
   try {
-    const map = {};
+    const map = {}; let done = 0;
     for (const k of keys){
       const [doc, n] = k.split(":"); const pg = (doc==="exam"?I.pages:I.gpages).find(p=>p.n===parseInt(n));
-      const up = await S.assets.upload(pg.blob, {type:"image/jpeg"});
-      map[k] = {a:up.id, r:r4(pg.r)}; tick(`Uploaded ${doc==="exam"?"exam":"guide"} page ${n}`);
+      map[k] = {a: await Store.putImage(pg.blob), r:r4(pg.r)};
+      I.saving = {text:`Saved ${doc==="exam"?"exam":"guide"} page ${n}`, pct: ++done/keys.size*90}; renderImport();
     }
-    const conv = s => ({a:map[s.doc+":"+s.p].a, r:map[s.doc+":"+s.p].r, t:r4(s.t), b:r4(s.b)});
-    const paperRef = S.db.collection("papers").doc();
+    const conv = k => ({a:map[k.doc+":"+k.p].a, r:map[k.doc+":"+k.p].r, t:r4(k.t), b:r4(k.b)});
     const meta = {subject:I.subject, source:sourceName(), year:I.year, kind:I.kind};
-    await paperRef.set({...meta, createdAt:Date.now(), questionCount:items.length, totalMarks:items.reduce((a,it)=>a+it.marks,0), assetIds:Object.values(map).map(m=>m.a)});
-    tick("Saved paper details");
-    for (let i=0;i<items.length;i++){
-      const it = items[i];
-      await S.db.collection("questions").doc().set({...meta, paperId:paperRef.id, label:it.label, type:it.type, marks:it.marks, topics:it.topics,
-        segs:it.segs.map(conv), sol:it.sol.map(conv), ans:it.ans||"", pos: items.length>1 ? r4(i/(items.length-1)) : 0, createdAt:Date.now()});
-      tick(`Saved question ${i+1} of ${items.length}`);
-    }
+    const paperId = uid()+uid();
+    const qs = items.map((it,i) => ({id:uid()+uid(), ...meta, paperId, label:it.label, type:it.type, marks:it.marks, topics:it.topics,
+      segs:it.segs.map(conv), sol:it.sol.map(conv), ans:it.ans||"", pos: items.length>1 ? r4(i/(items.length-1)) : 0, createdAt:Date.now()}));
+    await Store.savePaper({id:paperId, ...meta, createdAt:Date.now(), questionCount:qs.length, totalMarks:qs.reduce((a,q)=>a+q.marks,0), assetIds:Object.values(map).map(m=>m.a)}, qs);
     I.saving = null; const src = meta.source; resetImport();
-    location.hash = "#bank"; bankMsg = `Saved ${items.length} questions from ${src}.`; renderBank();
+    bankMsg = `Saved ${qs.length} questions from ${src}.`; location.hash = "#bank"; renderBank();
   } catch(e){
     I.saving = null; renderImport();
-    const c = e?.code; const txt = c==="quota_exceeded" ? "The bank's storage is full. Delete an older paper and try again." : "Saving stopped: "+errMsg(e)+". Already-saved questions stay in the bank.";
-    $("#importBody").prepend(h("div",{class:"note bad"}, txt));
+    const full = e && (e.name==="QuotaExceededError" || /quota/i.test(errMsg(e)));
+    $("#importBody").prepend(h("div",{class:"note bad"}, full ? "This browser's storage is full. Export your bank, delete older papers, and try again." : "Saving stopped: "+errMsg(e)));
   }
 }
 
@@ -985,13 +1131,16 @@ async function saveImport(){
 const openPapers = new Set(); const confirming = new Set(); let bankSubject = ""; let bankMsg = "";
 function renderBank(){
   const body = $("#bankBody"); if (!body) return; body.replaceChildren();
-  if (!S.ready){ body.append(h("div",{class:"note"}, S.dbFailed ? "The question bank isn't available in this view." : "Loading question bank…")); return; }
+  if (!S.ready){ body.append(h("div",{class:"note"}, S.dbFailed ? "This browser blocked local storage, so the question bank can't load. Leave private browsing and reload." : "Loading question bank…")); return; }
   if (bankMsg) body.append(h("div",{class:"note ok"}, bankMsg));
   const byPaper = new Map(); S.questions.forEach(q => { if(!byPaper.has(q.paperId)) byPaper.set(q.paperId, []); byPaper.get(q.paperId).push(q); });
   const papers = S.papers.filter(p => !bankSubject || p.subject===bankSubject).sort((a,b)=> a.subject.localeCompare(b.subject) || (b.year-a.year) || a.source.localeCompare(b.source));
   body.append(h("div",{class:"row", style:"align-items:center"},
     h("label",{class:"f", style:"flex:0 1 280px"},"Subject", h("select",{id:"bankSubj", onchange:e=>{bankSubject=e.target.value; renderBank();}}, h("option",{value:""},"All subjects"), SUBJ_NAMES.map(n=>h("option",{value:n, selected:n===bankSubject}, n)))),
-    h("span",{class:"stat", style:"margin-left:auto"}, `${papers.length} paper${papers.length===1?"":"s"}`)));
+    h("span",{class:"stat", style:"margin-left:auto"}, `${papers.length} paper${papers.length===1?"":"s"}`),
+    h("button",{class:"sm", disabled:!S.questions.length, title:"Download the whole bank as a zip to commit to the repo or move to another device", onclick:e=>exportBank(e.currentTarget)},"Export bank"),
+    h("label",{class:"btn sm", for:"bankZip", style:"padding:4px 9px;font-size:.82rem"},"Import bank", h("input",{type:"file", id:"bankZip", accept:".zip,application/zip", hidden:true, onchange:e=>{ const f=e.target.files[0]; if(f) importBank(f); }}))));
+  body.append(h("div",{class:"stat"},"Papers you import are saved in this browser. Papers marked “published” come from the bank/ folder in the GitHub repo and are available to everyone who opens the site."));
   if (!papers.length){ body.append(h("div",{class:"empty"}, h("h3",{},"No papers here yet"), h("p",{class:"muted"},"Imported papers and their questions appear here, grouped by source."), h("a",{href:"#import"},"Import a paper"))); return; }
   const list = h("div",{class:"papers"});
   for (const p of papers){
@@ -1001,12 +1150,12 @@ function renderBank(){
     const isOpen = openPapers.has(p.id);
     const el = h("div",{class:"paper"},
       h("div",{class:"ph"},
-        h("span",{class:"t"}, `${p.source} · ${SUBJECTS[p.subject]?.short||p.subject}`),
+        h("span",{class:"t"}, `${p.source} · ${SUBJECTS[p.subject]?.short||p.subject}`, Store.isPublished(p) ? h("span",{class:"chip", style:"margin-left:8px;padding-right:10px;font-family:var(--f-body)"},"published") : null),
         h("span",{class:"meta"}, `${qs.length} Q · ${marks} marks · ${withSol}/${qs.length} with solutions`),
         h("button",{class:"sm", "aria-expanded":String(isOpen), onclick:()=>{ isOpen?openPapers.delete(p.id):openPapers.add(p.id); renderBank(); }}, isOpen?"Hide questions":"Show questions"),
-        S.canEdit ? h("button",{class:"sm danger", onclick:()=>{ confirming.add(p.id); renderBank(); }},"Delete") : null));
+        Store.isPublished(p) ? null : h("button",{class:"sm danger", onclick:()=>{ confirming.add(p.id); renderBank(); }},"Delete")));
     if (confirming.has(p.id)) el.append(h("div",{style:"padding:0 14px 12px"}, h("div",{class:"confirm"},
-      `Delete ${p.source} and its ${qs.length} questions? This can't be undone.`,
+      `Delete ${p.source} and its ${qs.length} questions from this browser? This can't be undone.`,
       h("button",{class:"sm danger", onclick:()=>deletePaper(p, qs)},"Delete paper"),
       h("button",{class:"sm", onclick:()=>{ confirming.delete(p.id); renderBank(); }},"Cancel"))));
     if (isOpen){
@@ -1030,13 +1179,11 @@ function topicPickerBank(q){
   const item = {topics:[...(q.topics||[])]};
   return topicPicker(item, ()=>updateQ(q,{topics:item.topics.slice()}), q.subject);
 }
-async function updateQ(q, patch){ try { await S.db.doc("questions/"+q.id).update(patch); } catch(e){ bankMsg = "Change not saved: "+errMsg(e); renderBank(); } }
+async function updateQ(q, patch){ try { await Store.updateQuestion(q, patch); } catch(e){ bankMsg = "Change not saved: "+errMsg(e); renderBank(); } }
 async function deletePaper(p, qs){
   confirming.delete(p.id); bankMsg = `Deleting ${p.source}…`; renderBank();
   try {
-    for (const q of qs) await S.db.doc("questions/"+q.id).delete();
-    await S.db.doc("papers/"+p.id).delete();
-    if (S.assets) for (const a of (p.assetIds||[])) await S.assets.delete(a).catch(()=>{});
+    await Store.deletePaper(p);
     bankMsg = `Deleted ${p.source}.`;
   } catch(e){ bankMsg = "Delete stopped: "+errMsg(e); }
   renderBank();
