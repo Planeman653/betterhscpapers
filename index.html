@@ -1,0 +1,1049 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>HSC Paper Builder</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..800&family=JetBrains+Mono:wght@400;600&family=Source+Sans+3:wght@400;600;700&display=swap">
+<style>
+/* Layout: app bar + tabs; Build = sticky settings column beside a white exam-sheet preview; Import = upload, progress, review cards; Bank = papers grouped by source */
+:root{
+  --bg:#f3f5f8; --surface:#ffffff; --ink:#151922; --muted:#5a6375; --line:#d8dde6; --line-2:#e8ebf0;
+  --accent:#2347c5; --accent-ink:#ffffff; --accent-soft:#e7ecfb;
+  --ok:#1d7a4b; --warn:#9a5b00; --warn-soft:#fff3dc; --bad:#b42318; --bad-soft:#fde8e6;
+  --sheet:#ffffff; --sheet-ink:#111318; --sheet-grey:#e9eaec;
+  --f-display:"Archivo","Arial Narrow",Arial,sans-serif;
+  --f-body:"Source Sans 3","Segoe UI",Arial,sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+  --r:8px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#10131a; --surface:#181c25; --ink:#e6e9ef; --muted:#9aa3b3; --line:#2a303c; --line-2:#222833;
+  --accent:#7f9cff; --accent-ink:#0d1330; --accent-soft:#1d2748;
+  --ok:#5fc48f; --warn:#e5a849; --warn-soft:#3a2c12; --bad:#ff8a7d; --bad-soft:#3d1c19;
+  --sheet:#ffffff; --sheet-ink:#111318; --sheet-grey:#e9eaec; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#10131a; --surface:#181c25; --ink:#e6e9ef; --muted:#9aa3b3; --line:#2a303c; --line-2:#222833;
+  --accent:#7f9cff; --accent-ink:#0d1330; --accent-soft:#1d2748;
+  --ok:#5fc48f; --warn:#e5a849; --warn-soft:#3a2c12; --bad:#ff8a7d; --bad-soft:#3d1c19;
+  --sheet:#ffffff; --sheet-ink:#111318; --sheet-grey:#e9eaec; color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0}
+img{max-width:100%}
+[hidden]{display:none!important}
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{background:var(--bg);color:var(--ink);font:16px/1.5 var(--f-body)}
+.wrap{max-width:1240px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header.bar{background:var(--surface);border-bottom:1px solid var(--line)}
+header.bar .wrap{display:flex;align-items:center;gap:16px 24px;flex-wrap:wrap;padding-block:14px}
+.brand{display:flex;align-items:baseline;gap:10px;margin-right:auto}
+.brand h1{font:800 1.35rem/1 var(--f-display);font-stretch:85%;letter-spacing:-.01em;margin:0}
+.brand span{font:500 .78rem var(--f-mono);color:var(--muted)}
+nav.tabs{display:flex;gap:4px;background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:3px}
+nav.tabs a{font:600 .92rem var(--f-body);color:var(--muted);text-decoration:none;padding:6px 14px;border-radius:999px}
+nav.tabs a[aria-current="page"]{background:var(--surface);color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.08)}
+nav.tabs a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+main{padding-block:24px 64px}
+h2{font:700 1.35rem/1.2 var(--f-display);font-stretch:90%;margin:0 0 4px;text-wrap:balance}
+h3{font:700 1rem/1.3 var(--f-display);margin:0}
+.lede{color:var(--muted);margin:0 0 18px;max-width:68ch}
+.eyebrow{font:600 .72rem var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:18px}
+.stack{display:flex;flex-direction:column;gap:14px}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:end}
+.row>*{min-width:0}
+label.f{display:flex;flex-direction:column;gap:4px;font-size:.85rem;font-weight:600;color:var(--muted);flex:1 1 120px}
+input[type=text],input[type=number],select{font:inherit;font-size:.95rem;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:7px 9px;width:100%;min-width:0}
+input[type=number]{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+button,.btn{font:600 .92rem var(--f-body);border-radius:6px;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:8px 14px;cursor:pointer;display:inline-flex;align-items:center;gap:6px;justify-content:center}
+button:hover{border-color:var(--muted)}
+button.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+button.primary:hover{filter:brightness(1.08)}
+button.ghost{background:transparent;border-color:transparent;color:var(--muted);padding:6px 8px}
+button.ghost:hover{color:var(--ink);background:var(--bg)}
+button.danger{color:var(--bad)}
+button:disabled{opacity:.5;cursor:not-allowed}
+button.sm{padding:4px 9px;font-size:.82rem}
+.muted{color:var(--muted)}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.note{font-size:.88rem;border-radius:6px;padding:9px 12px;background:var(--bg);border:1px solid var(--line)}
+.note.warn{background:var(--warn-soft);border-color:transparent;color:var(--ink)}
+.note.bad{background:var(--bad-soft);border-color:transparent;color:var(--ink)}
+.note.ok{border-left:3px solid var(--ok)}
+
+/* Build */
+.build{display:grid;grid-template-columns:340px minmax(0,1fr);gap:24px;align-items:start}
+.build aside{position:sticky;top:calc(env(safe-area-inset-top,0px) + 12px)}
+@media (max-width:900px){.build{grid-template-columns:1fr}.build aside{position:static}}
+.topics{display:flex;flex-direction:column;gap:2px;max-height:360px;overflow:auto;border:1px solid var(--line-2);border-radius:6px;padding:4px}
+.topic{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:8px;align-items:center;padding:5px 6px;border-radius:4px;font-size:.88rem;cursor:pointer}
+.topic:hover{background:var(--bg)}
+.topic .cnt{font:400 .75rem var(--f-mono);color:var(--muted);white-space:nowrap}
+.topic.none .cnt{color:var(--bad)}
+.checks{display:flex;gap:14px;flex-wrap:wrap;font-size:.9rem}
+.checks label{display:flex;gap:6px;align-items:center}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.seg button{border:0;border-radius:0;background:var(--surface)}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--surface)}
+.spacer{flex:1}
+
+/* Exam sheet */
+.sheet{background:var(--sheet);color:var(--sheet-ink);border-radius:4px;box-shadow:0 1px 3px rgba(0,0,0,.12),0 8px 24px rgba(0,0,0,.06);padding:clamp(18px,4vw,48px);max-width:860px}
+.cover{border-bottom:2px solid var(--sheet-ink);padding-bottom:20px;margin-bottom:24px}
+.cover .kicker{font:600 .75rem var(--f-mono);letter-spacing:.12em;text-transform:uppercase}
+.cover h2{font:800 clamp(1.6rem,4vw,2.3rem)/1.05 var(--f-display);font-stretch:80%;margin:6px 0 16px;color:var(--sheet-ink)}
+.cover input{font:inherit;color:inherit;background:transparent;border:0;border-bottom:1px dashed #b9bdc6;width:100%;padding:0;border-radius:0}
+.cover-grid{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:20px}
+@media (max-width:620px){.cover-grid{grid-template-columns:1fr}}
+.cover ul{margin:0;padding-left:18px;font-size:.92rem}
+.marksbox{border:1.5px solid var(--sheet-ink);font-size:.9rem}
+.marksbox div{padding:8px 12px;border-top:1px solid #c9ccd2}
+.marksbox div:first-child{border-top:0;background:var(--sheet-grey);font-weight:700}
+.section-h{background:var(--sheet-grey);padding:8px 12px;margin:28px 0 14px;font-weight:700;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.section-h span{font-weight:400;font-size:.88rem}
+.q{margin:0 0 26px;break-inside:avoid}
+.qh{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;border-bottom:1px solid #d5d8de;padding-bottom:4px;margin-bottom:8px}
+.qh b{font:700 1.02rem var(--f-display)}
+.qh .mk{font:600 .85rem var(--f-mono)}
+.qh .src{font:400 .75rem var(--f-mono);color:#5d6573;margin-left:auto}
+.qh button{color:#3b4250;background:#f2f3f5;border-color:#d5d8de}
+.crop{position:relative;overflow:hidden;width:100%;background:#fff;max-width:100%}
+.crop img{position:absolute;left:0;width:100%;max-width:none;height:auto;display:block}
+.crop+.crop{margin-top:4px}
+.missing{font-size:.88rem;color:#7a5200;background:#fff6e3;padding:8px 10px;border-radius:4px}
+table.ans{border-collapse:collapse;font-size:.92rem}
+table.ans th,table.ans td{border:1px solid #c9ccd2;padding:5px 12px;text-align:center}
+table.ans th{background:var(--sheet-grey)}
+.empty{padding:40px clamp(18px,4vw,40px);border:1.5px dashed var(--line);border-radius:var(--r);background:var(--surface);max-width:860px}
+.empty ol{margin:12px 0 18px;padding-left:20px;color:var(--muted)}
+
+/* Import */
+.drop{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.file{border:1.5px dashed var(--line);border-radius:var(--r);padding:16px;display:flex;flex-direction:column;gap:6px;background:var(--bg)}
+.file.has{border-style:solid;border-color:var(--accent);background:var(--accent-soft)}
+.file input{font-size:.85rem;max-width:100%}
+.pagechips{display:flex;flex-wrap:wrap;gap:4px}
+.pc{font:600 .72rem var(--f-mono);padding:3px 6px;border-radius:4px;background:var(--bg);border:1px solid var(--line);color:var(--muted)}
+.pc.working{border-color:var(--accent);color:var(--accent)}
+.pc.done{background:var(--ok);border-color:var(--ok);color:var(--surface)}
+.pc.failed{background:var(--bad);border-color:var(--bad);color:var(--surface)}
+.progress{height:6px;background:var(--line-2);border-radius:3px;overflow:hidden}
+.progress i{display:block;height:100%;background:var(--accent);width:0;transition:width .3s}
+.items{display:flex;flex-direction:column;gap:14px}
+.item{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px;display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:16px}
+.item.flag{box-shadow:inset 3px 0 0 var(--warn)}
+@media (max-width:820px){.item{grid-template-columns:1fr}}
+.item .crops{display:flex;flex-direction:column;gap:10px;min-width:0}
+.segbox{border:1px solid var(--line-2);border-radius:6px;padding:8px;display:flex;flex-direction:column;gap:6px}
+.segbox .crop{border:1px solid var(--line-2);max-height:none}
+.segctl{display:grid;grid-template-columns:auto minmax(0,1fr) auto minmax(0,1fr) auto;gap:6px 8px;align-items:center;font-size:.78rem;color:var(--muted)}
+.segctl select{width:auto;padding:3px 6px;font-size:.8rem}
+.segctl input[type=range]{width:100%;accent-color:var(--accent)}
+@media (max-width:520px){.segctl{grid-template-columns:auto minmax(0,1fr)}}
+.chips{display:flex;flex-wrap:wrap;gap:4px}
+.chip{font-size:.78rem;background:var(--accent-soft);color:var(--ink);border-radius:999px;padding:2px 4px 2px 10px;display:inline-flex;align-items:center;gap:2px}
+.chip button{padding:0 6px;border:0;background:transparent;color:var(--muted);font-size:.9rem}
+.sol-h{display:flex;justify-content:space-between;align-items:center;gap:8px}
+details summary{cursor:pointer;font-weight:600;font-size:.9rem}
+
+/* Bank */
+.papers{display:flex;flex-direction:column;gap:10px}
+.paper{background:var(--surface);border:1px solid var(--line);border-radius:var(--r)}
+.paper>.ph{display:flex;align-items:center;gap:10px 16px;flex-wrap:wrap;padding:12px 14px}
+.paper .ph .t{font:700 1rem var(--f-display);margin-right:auto}
+.paper .ph .meta{font:400 .8rem var(--f-mono);color:var(--muted)}
+.qrows{border-top:1px solid var(--line);display:flex;flex-direction:column}
+.qrow{display:grid;grid-template-columns:200px minmax(0,1fr);gap:14px;padding:12px 14px;border-top:1px solid var(--line-2)}
+.qrow:first-child{border-top:0}
+.qrow .thumb{max-height:150px;overflow:hidden;border:1px solid var(--line-2);border-radius:4px}
+@media (max-width:620px){.qrow{grid-template-columns:1fr}}
+.confirm{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:.88rem;background:var(--bad-soft);padding:8px 12px;border-radius:6px}
+.stat{font:400 .82rem var(--f-mono);color:var(--muted)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<header class="bar"><div class="wrap">
+  <div class="brand"><h1>HSC Paper Builder</h1><span id="bankStat">loading bank…</span></div>
+  <nav class="tabs" aria-label="Sections">
+    <a href="#build" data-tab="build">Build paper</a>
+    <a href="#import" data-tab="import">Import papers</a>
+    <a href="#bank" data-tab="bank">Question bank</a>
+  </nav>
+</div></header>
+
+<main class="wrap">
+  <section id="tab-build" data-view="build">
+    <div class="build">
+      <aside class="panel stack" id="buildPanel"></aside>
+      <div id="paperOut"></div>
+    </div>
+  </section>
+  <section id="tab-import" data-view="import" hidden>
+    <h2>Import a past paper</h2>
+    <p class="lede">Download an exam and its marking guidelines from THSC Online, then upload both PDFs here. Claude splits the exam into individual questions, tags each with a syllabus topic and its marks, and matches the marking guide to each question. You check the crops before anything is saved.</p>
+    <div id="importBody" class="stack"></div>
+  </section>
+  <section id="tab-bank" data-view="bank" hidden>
+    <h2>Question bank</h2>
+    <p class="lede">Every imported paper and its questions. Edit marks or topics here; changes apply to future papers.</p>
+    <div id="bankBody" class="stack"></div>
+  </section>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script>
+"use strict";
+/* ---------- Syllabus data (NESA Stage 6 syllabuses examined from 2019 HSC) ---------- */
+const SUBJECTS = {
+  "Mathematics Advanced": {short:"Maths Advanced", mcq:10, total:100, split:"part", topics:[
+    "MA-F1 Working with Functions","MA-F2 Graphing Techniques","MA-T1 Trigonometry and Measure of Angles","MA-T2 Trigonometric Functions and Identities","MA-T3 Trigonometric Functions and Graphs","MA-C1 Introduction to Differentiation","MA-C2 Differential Calculus","MA-C3 Applications of Differentiation","MA-C4 Integral Calculus","MA-E1 Logarithms and Exponentials","MA-M1 Modelling Financial Situations","MA-S1 Probability and Discrete Probability Distributions","MA-S2 Descriptive Statistics and Bivariate Data Analysis","MA-S3 Random Variables"]},
+  "Mathematics Extension 1": {short:"Maths Ext 1", mcq:10, total:70, split:"part", topics:[
+    "ME-F1 Further Work with Functions","ME-F2 Polynomials","ME-T1 Inverse Trigonometric Functions","ME-T2 Further Trigonometric Identities","ME-T3 Trigonometric Equations","ME-C1 Rates of Change","ME-C2 Further Calculus Skills","ME-C3 Applications of Calculus","ME-A1 Working with Combinatorics","ME-P1 Proof by Mathematical Induction","ME-V1 Introduction to Vectors","ME-S1 The Binomial Distribution"]},
+  "Mathematics Extension 2": {short:"Maths Ext 2", mcq:10, total:100, split:"part", topics:[
+    "MEX-P1 The Nature of Proof","MEX-P2 Further Proof by Mathematical Induction","MEX-V1 Further Work with Vectors","MEX-N1 Introduction to Complex Numbers","MEX-N2 Using Complex Numbers","MEX-C1 Further Integration","MEX-M1 Applications of Calculus to Mechanics"]},
+  "Physics": {short:"Physics", mcq:20, total:100, split:"whole", topics:[
+    "Module 1: Kinematics","Module 2: Dynamics","Module 3: Waves and Thermodynamics","Module 4: Electricity and Magnetism","Module 5: Advanced Mechanics","Module 6: Electromagnetism","Module 7: The Nature of Light","Module 8: From the Universe to the Atom"]},
+  "Chemistry": {short:"Chemistry", mcq:20, total:100, split:"whole", topics:[
+    "Module 1: Properties and Structure of Matter","Module 2: Introduction to Quantitative Chemistry","Module 3: Reactive Chemistry","Module 4: Drivers of Reactions","Module 5: Equilibrium and Acid Reactions","Module 6: Acid/Base Reactions","Module 7: Organic Chemistry","Module 8: Applying Chemical Ideas"]},
+};
+const SUBJ_NAMES = Object.keys(SUBJECTS);
+const UNTAGGED = "Untagged";
+
+/* ---------- Helpers ---------- */
+const $ = (s, r=document) => r.querySelector(s);
+function h(tag, props, ...kids){
+  const e = document.createElement(tag);
+  for (const [k,v] of Object.entries(props||{})){
+    if (v==null || v===false) continue;
+    if (k==="class") e.className = v;
+    else if (k==="text") e.textContent = v;
+    else if (k==="value") e.value = v;
+    else if (k==="checked") e.checked = !!v;
+    else if (k==="selected") e.selected = !!v;
+    else if (k.startsWith("on") && typeof v==="function") e.addEventListener(k.slice(2), v);
+    else e.setAttribute(k, v===true ? "" : v);
+  }
+  for (const c of kids.flat(Infinity)){ if (c==null||c===false) continue; e.append(c instanceof Node ? c : document.createTextNode(String(c))); }
+  return e;
+}
+const clamp = (x,a,b) => Math.min(b, Math.max(a, x));
+const uid = () => Math.random().toString(36).slice(2,10);
+const shuffle = a => { a=a.slice(); for (let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; };
+const r4 = x => Math.round(x*10000)/10000;
+const normLabel = s => String(s||"").toLowerCase().replace(/^q(uestion)?\s*/,"").replace(/\s+/g,"");
+const lsGet = k => { try { return JSON.parse(localStorage.getItem(k)); } catch { return null; } };
+const lsSet = (k,v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} };
+const errMsg = e => (e && (e.message || e.code)) || String(e);
+function workingTime(marks){ return Math.max(5, Math.round(marks*1.8/5)*5); }
+function fmtMins(m){ const hh=Math.floor(m/60), mm=m%60; return (hh? hh+" hour"+(hh>1?"s":""):"") + (hh&&mm?" ":"") + (mm? mm+" minutes":""); }
+
+/* ---------- App state ---------- */
+const S = { db:null, user:null, assets:null, sample:null, downloads:null, ready:false, dbFailed:false,
+  questions:[], papers:[], extraTopics:{}, canEdit:false };
+function topicsFor(subject){ return [...(SUBJECTS[subject]?.topics||[]), ...((S.extraTopics||{})[subject]||[])]; }
+
+/* ---------- Tabs ---------- */
+function showTab(){
+  const t = ["build","import","bank"].includes(location.hash.slice(1)) ? location.hash.slice(1) : "build";
+  document.querySelectorAll("[data-view]").forEach(s => s.hidden = s.dataset.view!==t);
+  document.querySelectorAll("nav.tabs a").forEach(a => { if (a.dataset.tab===t) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current"); });
+}
+window.addEventListener("hashchange", showTab);
+
+/* ---------- Capabilities ---------- */
+async function init(){
+  showTab(); renderBuildPanel(); renderPaper(); renderImport(); renderBank();
+  if (!window.claude?.use){ S.dbFailed=true; updateStat(); renderAll(); return; }
+  const get = n => window.claude.use(n).catch(()=>null);
+  const [db,user,assets,sample,downloads] = await Promise.all(["db","user","assets","sample","downloads"].map(get));
+  Object.assign(S,{db,user,assets,sample,downloads});
+  S.canEdit = !!assets;
+  if (!db){ S.dbFailed=true; updateStat(); renderAll(); return; }
+  const timer = setTimeout(()=>{ if(!S.ready){ S.dbFailed=true; updateStat(); renderAll(); } }, 10000);
+  db.collection("questions").onSnapshot(snap => {
+    S.questions = snap.docs.map(d => ({id:d.id, ...d.data()}));
+    S.ready = true; S.dbFailed=false; clearTimeout(timer); updateStat(); renderBuildPanel(); renderBank(); refreshPaperIfNeeded();
+  }, e => { S.dbFailed=true; clearTimeout(timer); updateStat(); renderAll(); });
+  db.collection("papers").onSnapshot(snap => { S.papers = snap.docs.map(d => ({id:d.id, ...d.data()})); renderBank(); }, ()=>{});
+  db.doc("config/topics").onSnapshot(d => { S.extraTopics = (d.exists && d.data().extra) || {}; renderBuildPanel(); }, ()=>{});
+}
+function renderAll(){ renderBuildPanel(); renderPaper(); renderImport(); renderBank(); }
+function updateStat(){
+  const el = $("#bankStat");
+  if (S.dbFailed && !S.ready) el.textContent = "bank unavailable";
+  else if (!S.ready) el.textContent = "loading bank…";
+  else { const marks = S.questions.reduce((a,q)=>a+(q.marks||0),0); el.textContent = `${S.questions.length} questions · ${marks} marks banked`; }
+}
+
+/* ---------- Crop rendering ---------- */
+const blobUrl = a => "/_blob/" + a;
+function cropEl(seg, url){
+  const span = Math.max(0.005, seg.b - seg.t);
+  const wrap = h("div",{class:"crop"});
+  wrap.style.aspectRatio = `1 / ${(seg.r*span).toFixed(5)}`;
+  const img = h("img",{src:url, alt:"", loading:"lazy", draggable:"false"});
+  img.style.top = `${(-seg.t/span*100).toFixed(4)}%`;
+  wrap.append(img);
+  return wrap;
+}
+function srcText(q){ return `${q.source} · Q${q.label}`; }
+
+/* =====================================================================
+   BUILD
+   ===================================================================== */
+const B = lsGet("hpb-build") || {};
+B.subject = SUBJ_NAMES.includes(B.subject) ? B.subject : "Mathematics Extension 1";
+B.excluded = B.excluded || {};          // subject -> [topics]
+B.kinds = B.kinds || {HSC:true, Trial:true};
+B.yearFrom = B.yearFrom || ""; B.yearTo = B.yearTo || "";
+B.total = B.total || {}; B.mcq = B.mcq || {};
+let P = lsGet("hpb-paper");             // {subject,title,ids:[...],marks,view}
+let paperView = "paper";
+function saveB(){ lsSet("hpb-build", B); }
+
+function poolFor(subject, opts={}){
+  const ex = new Set(B.excluded[subject]||[]);
+  const yf = parseInt(B.yearFrom)||0, yt = parseInt(B.yearTo)||9999;
+  return S.questions.filter(q => q.subject===subject
+    && (opts.ignoreKinds || B.kinds[q.kind==="HSC"?"HSC":"Trial"])
+    && (q.year||0)>=yf && (q.year||0)<=yt
+    && (opts.ignoreTopics || topicsOk(q, ex)));
+}
+function topicsOk(q, ex){ const ts = (q.topics&&q.topics.length) ? q.topics : [UNTAGGED]; return ts.every(t => !ex.has(t)); }
+
+function renderBuildPanel(){
+  const p = $("#buildPanel"); p.replaceChildren();
+  const subj = B.subject, cfg = SUBJECTS[subj];
+  const total = B.total[subj] ?? cfg.total, mcq = B.mcq[subj] ?? cfg.mcq;
+  const base = poolFor(subj, {ignoreTopics:true});
+  const topics = topicsFor(subj).slice();
+  if (base.some(q => !q.topics || !q.topics.length)) topics.push(UNTAGGED);
+  const ex = new Set(B.excluded[subj]||[]);
+
+  const subjSel = h("select",{id:"bSubject", onchange:e=>{B.subject=e.target.value; saveB(); renderBuildPanel();}},
+    SUBJ_NAMES.map(n => h("option",{value:n, selected:n===subj}, n)));
+  const totalIn = h("input",{type:"number", id:"bTotal", min:"1", max:"300", value:total, oninput:e=>{B.total[subj]=parseInt(e.target.value)||0; saveB();}});
+  const mcqIn = h("input",{type:"number", id:"bMcq", min:"0", max:"40", value:mcq, oninput:e=>{B.mcq[subj]=parseInt(e.target.value)||0; saveB();}});
+
+  const topicRows = topics.map(t => {
+    const qs = base.filter(q => ((q.topics&&q.topics.length)?q.topics:[UNTAGGED]).includes(t));
+    const marks = qs.reduce((a,q)=>a+(q.marks||0),0);
+    const id = "t-"+btoa(unescape(encodeURIComponent(t))).replace(/[^a-z0-9]/gi,"");
+    return h("label",{class:"topic"+(qs.length?"":" none"), for:id},
+      h("input",{type:"checkbox", id, checked:!ex.has(t), onchange:e=>{
+        const s = new Set(B.excluded[subj]||[]); e.target.checked ? s.delete(t) : s.add(t); B.excluded[subj]=[...s]; saveB(); updatePoolLine(); }}),
+      h("span",{}, t),
+      h("span",{class:"cnt"}, qs.length ? `${qs.length} Q · ${marks} mk` : "none"));
+  });
+
+  const addTopicBox = h("div",{class:"row", hidden:true},
+    h("input",{type:"text", id:"newTopic", placeholder:"e.g. Working Scientifically"}),
+    h("button",{class:"sm", onclick:async()=>{
+      const v = $("#newTopic").value.trim(); if(!v || topicsFor(subj).includes(v)) return;
+      const extra = {...(S.extraTopics||{})}; extra[subj] = [...(extra[subj]||[]), v];
+      try { await S.db.doc("config/topics").set({extra}); } catch(e){ alert(errMsg(e)); }
+    }}, "Add"));
+
+  p.append(
+    h("div",{}, h("div",{class:"eyebrow"},"Paper settings"), h("h2",{style:"margin-top:4px"},"Build a paper")),
+    h("label",{class:"f"},"Subject", subjSel),
+    h("div",{class:"row"}, h("label",{class:"f"},"Total marks", totalIn), h("label",{class:"f"},"Multiple choice", mcqIn)),
+    h("div",{class:"stack", style:"gap:6px"},
+      h("div",{class:"eyebrow"},"Sources"),
+      h("div",{class:"checks"},
+        ["HSC","Trial"].map(k => h("label",{}, h("input",{type:"checkbox", id:"k-"+k, checked:B.kinds[k], onchange:e=>{B.kinds[k]=e.target.checked; saveB(); renderBuildPanel();}}), k==="HSC"?"HSC papers":"Trial papers"))),
+      h("div",{class:"row"},
+        h("label",{class:"f"},"From year", h("input",{type:"number", id:"yf", placeholder:"any", value:B.yearFrom, onchange:e=>{B.yearFrom=e.target.value; saveB(); renderBuildPanel();}})),
+        h("label",{class:"f"},"To year", h("input",{type:"number", id:"yt", placeholder:"any", value:B.yearTo, onchange:e=>{B.yearTo=e.target.value; saveB(); renderBuildPanel();}})))),
+    h("div",{class:"stack", style:"gap:6px"},
+      h("div",{class:"row", style:"align-items:center"},
+        h("div",{class:"eyebrow", style:"margin-right:auto"},"Topics to include"),
+        h("button",{class:"ghost sm", onclick:()=>{B.excluded[subj]=[]; saveB(); renderBuildPanel();}},"All"),
+        h("button",{class:"ghost sm", onclick:()=>{B.excluded[subj]=topics.slice(); saveB(); renderBuildPanel();}},"None")),
+      h("div",{class:"topics"}, topicRows),
+      S.ready && S.db && S.canEdit ? h("button",{class:"ghost sm", style:"align-self:flex-start", onclick:()=>{addTopicBox.hidden=!addTopicBox.hidden;}},"+ Add a topic") : null,
+      addTopicBox),
+    h("div",{id:"poolLine", class:"stat"}),
+    h("button",{class:"primary", id:"genBtn", disabled:!S.ready, onclick:generate}, "Generate paper"),
+    h("div",{id:"genMsg"})
+  );
+  updatePoolLine();
+}
+function updatePoolLine(){
+  const el = $("#poolLine"); if (!el) return;
+  if (!S.ready){ el.textContent = S.dbFailed ? "The question bank could not be loaded in this view." : "Loading question bank…"; return; }
+  const pool = poolFor(B.subject);
+  const m = pool.filter(q=>q.type==="mcq"), w = pool.filter(q=>q.type!=="mcq");
+  el.textContent = `Available: ${m.length} multiple choice · ${w.length} written (${w.reduce((a,q)=>a+(q.marks||0),0)} marks)`;
+}
+
+/* Topic-interleaved shuffle: round-robin across topics so early picks spread over the syllabus */
+function interleave(qs){
+  const groups = new Map();
+  for (const q of shuffle(qs)){ const k=(q.topics&&q.topics[0])||UNTAGGED; if(!groups.has(k)) groups.set(k,[]); groups.get(k).push(q); }
+  const lists = shuffle([...groups.values()]); const out=[];
+  while (lists.some(l=>l.length)) for (const l of lists) if (l.length) out.push(l.shift());
+  return out;
+}
+/* Random exact subset-sum: pick written questions totalling `target` marks */
+function pickMarks(cands, target){
+  const order = interleave(cands);
+  const reach = new Array(target+1).fill(-1); reach[0] = -2;
+  order.forEach((q,i) => { const m=q.marks|0; if (m<=0) return; for (let s=target; s>=m; s--) if (reach[s]===-1 && reach[s-m]!==-1) reach[s]=i; });
+  let s = target; while (s>0 && reach[s]===-1) s--;
+  const picked=[]; let cur=s; while (cur>0){ const i=reach[cur]; picked.push(order[i]); cur -= order[i].marks|0; }
+  return {picked, reached:s};
+}
+function orderPaper(qs){
+  const pos = q => (typeof q.pos==="number" ? q.pos : 0.5) + Math.random()*0.02;
+  const m = qs.filter(q=>q.type==="mcq").map(q=>[pos(q),q]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]);
+  const w = qs.filter(q=>q.type!=="mcq").map(q=>[pos(q),q]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]);
+  return [...m, ...w];
+}
+function generate(){
+  const subj = B.subject, cfg = SUBJECTS[subj];
+  const total = B.total[subj] ?? cfg.total; const nMcq = Math.min(B.mcq[subj] ?? cfg.mcq, total);
+  const pool = poolFor(subj); const msgs = [];
+  const mPool = interleave(pool.filter(q=>q.type==="mcq"));
+  const mcqs = mPool.slice(0, nMcq);
+  if (mcqs.length < nMcq) msgs.push(`Only ${mcqs.length} of ${nMcq} multiple-choice questions match these filters.`);
+  const mcqMarks = mcqs.reduce((a,q)=>a+(q.marks||1),0);
+  const target = Math.max(0, total - mcqMarks);
+  const {picked, reached} = pickMarks(pool.filter(q=>q.type!=="mcq"), target);
+  if (reached < target) msgs.push(`The written questions available only reach ${reached} of the ${target} marks needed.`);
+  const qs = orderPaper([...mcqs, ...picked]);
+  const marks = qs.reduce((a,q)=>a+(q.marks||0),0);
+  const out = $("#genMsg"); out.replaceChildren();
+  if (!qs.length){ out.append(h("div",{class:"note bad"},"No questions match these settings. Include more topics or sources, or import more papers.")); return; }
+  if (msgs.length) out.append(h("div",{class:"note warn"}, msgs.join(" ")));
+  P = {subject:subj, title:`${subj} Practice Paper`, ids:qs.map(q=>q.id), marks, created:Date.now()};
+  lsSet("hpb-paper", P); paperView="paper"; renderPaper();
+  if (window.innerWidth<900) $("#paperOut").scrollIntoView({behavior:"smooth"});
+}
+function refreshPaperIfNeeded(){ renderPaper(); }
+function paperQs(){ if(!P) return []; const by = new Map(S.questions.map(q=>[q.id,q])); return P.ids.map(id=>by.get(id)).filter(Boolean); }
+
+function swapQ(q){
+  const inPaper = new Set(P.ids);
+  const c = poolFor(P.subject).filter(x => !inPaper.has(x.id) && x.type===q.type && x.marks===q.marks);
+  if (!c.length){ toast(`No other ${q.marks}-mark ${q.type==="mcq"?"multiple-choice":"written"} question matches your filters.`); return; }
+  const same = c.filter(x => (x.topics||[])[0]===(q.topics||[])[0]);
+  const pick = shuffle(same.length?same:c)[0];
+  P.ids = P.ids.map(id => id===q.id ? pick.id : id); lsSet("hpb-paper",P); renderPaper();
+}
+function toast(t){ const out=$("#genMsg"); if(out){ out.replaceChildren(h("div",{class:"note warn"},t)); } }
+
+function renderPaper(){
+  const out = $("#paperOut"); out.replaceChildren();
+  if (!S.ready || !S.questions.length || !P){
+    const empty = !S.ready ? null : !S.questions.length;
+    out.append(h("div",{class:"empty"},
+      h("div",{class:"eyebrow"}, empty ? "Question bank is empty" : "No paper yet"),
+      h("h2",{style:"margin-top:6px"}, empty ? "Import a past paper to start your bank" : "Your generated paper appears here"),
+      empty ? h("ol",{}, h("li",{},"Download an HSC or trial exam and its marking guidelines from THSC Online."),
+                       h("li",{},"Upload both PDFs under Import papers. Claude splits the exam into questions and tags topics and marks."),
+                       h("li",{},"Come back here, choose topics and total marks, and generate a paper with its marking guide."))
+            : h("p",{class:"muted"}, S.ready ? "Choose a subject, topics and total marks, then select Generate paper. Questions are drawn from your bank and renumbered into one paper, with a matching marking guide." : (S.dbFailed ? "The question bank isn't available in this view. Open the page signed in to claude.ai." : "Loading your question bank…")),
+      empty ? h("a",{class:"btn primary", href:"#import", style:"text-decoration:none;display:inline-flex;background:var(--accent);color:var(--accent-ink);border-color:var(--accent)"},"Import a paper") : null));
+    return;
+  }
+  const qs = paperQs();
+  const missing = P.ids.length - qs.length;
+  const mcqs = qs.filter(q=>q.type==="mcq"), ws = qs.filter(q=>q.type!=="mcq");
+  const mMarks = mcqs.reduce((a,q)=>a+(q.marks||0),0), wMarks = ws.reduce((a,q)=>a+(q.marks||0),0), total = mMarks+wMarks;
+  const noSol = qs.filter(q => q.type==="mcq" ? !q.ans && !(q.sol||[]).length : !(q.sol||[]).length).length;
+
+  const tb = h("div",{class:"toolbar"},
+    h("div",{class:"seg", role:"group", "aria-label":"View"},
+      h("button",{"aria-pressed":String(paperView==="paper"), onclick:()=>{paperView="paper"; renderPaper();}},"Paper"),
+      h("button",{"aria-pressed":String(paperView==="guide"), onclick:()=>{paperView="guide"; renderPaper();}},"Marking guide")),
+    h("span",{class:"spacer"}),
+    h("button",{onclick:generate},"Regenerate"),
+    h("button",{class:"primary", id:"dlBtn", onclick:()=>downloadPdf(paperView)}, paperView==="paper"?"Download paper PDF":"Download guide PDF"));
+  out.append(tb);
+  if (missing) out.append(h("div",{class:"note warn", style:"margin-bottom:12px"}, `${missing} question${missing>1?"s":""} in this paper were removed from the bank.`));
+  if (paperView==="guide" && noSol) out.append(h("div",{class:"note warn", style:"margin-bottom:12px"}, `${noSol} question${noSol>1?"s have":" has"} no marking guide saved. Import the matching marking guidelines to fill these in.`));
+
+  const sheet = h("div",{class:"sheet"});
+  const mins = workingTime(total);
+  const titleIn = h("input",{type:"text", id:"paperTitle", value:P.title, "aria-label":"Paper title", oninput:e=>{P.title=e.target.value; lsSet("hpb-paper",P);}});
+  sheet.append(h("div",{class:"cover"},
+    h("div",{class:"kicker"}, paperView==="paper" ? "Practice Examination" : "Marking Guidelines"),
+    h("h2",{}, titleIn),
+    h("div",{class:"cover-grid"},
+      h("div",{}, h("b",{},"General Instructions"), h("ul",{},
+        h("li",{},`Working time – ${fmtMins(mins)} (suggested)`),
+        h("li",{},"Write using black pen"),
+        SUBJECTS[P.subject].split==="part" ? h("li",{},"Calculators approved by NESA may be used") : h("li",{},"Draw diagrams using pencil"),
+        h("li",{},"For questions in Section II, show relevant working"))),
+      h("div",{class:"marksbox"},
+        h("div",{},`Total marks: ${total}`),
+        mcqs.length ? h("div",{}, h("b",{},"Section I – "), `${mMarks} marks`, h("br"), `Attempt Questions 1–${mcqs.length}`) : null,
+        ws.length ? h("div",{}, h("b",{},`Section ${mcqs.length?"II":"I"} – `), `${wMarks} marks`, h("br"), `Attempt Questions ${mcqs.length+1}–${qs.length}`) : null))));
+
+  if (paperView==="guide" && mcqs.length){
+    const nums = mcqs.map((q,i)=>i+1);
+    const rows = [];
+    for (let i=0;i<nums.length;i+=10){
+      const slice = mcqs.slice(i,i+10);
+      rows.push(h("tr",{}, h("th",{},"Question"), slice.map((q,j)=>h("th",{}, i+j+1))));
+      rows.push(h("tr",{}, h("td",{},"Answer"), slice.map(q=>h("td",{class:"mono"}, q.ans || "–"))));
+    }
+    sheet.append(h("div",{class:"section-h"},"Section I – Multiple-choice answer key"), h("div",{style:"overflow-x:auto"}, h("table",{class:"ans"}, rows)));
+  }
+  let n = 0;
+  const section = (title, sub) => sheet.append(h("div",{class:"section-h"}, title, h("span",{}, sub)));
+  qs.forEach((q, i) => {
+    n = i+1;
+    if (i===0 && q.type==="mcq") section(`Section I — ${mMarks} marks`, `Attempt Questions 1–${mcqs.length}. Allow about ${workingTime(mMarks)} minutes.`);
+    if (q.type!=="mcq" && (i===0 || qs[i-1].type==="mcq")) section(`Section ${mcqs.length?"II":"I"} — ${wMarks} marks`, `Attempt Questions ${mcqs.length+1}–${qs.length}. Allow about ${workingTime(wMarks)} minutes.`);
+    if (paperView==="guide" && q.type==="mcq" && !(q.sol||[]).length) return;
+    const head = h("div",{class:"qh"},
+      h("b",{},`Question ${n}`), h("span",{class:"mk"}, `${q.marks} mark${q.marks===1?"":"s"}`),
+      paperView==="guide" && q.type==="mcq" && q.ans ? h("span",{class:"mk"},`Answer: ${q.ans}`) : null,
+      h("span",{class:"src", title:(q.topics||[]).join(", ")}, srcText(q)),
+      paperView==="paper" ? h("button",{class:"sm", title:"Replace with another question worth the same marks", onclick:()=>swapQ(q)},"Swap") : null);
+    const body = h("div",{});
+    const segs = paperView==="paper" ? (q.segs||[]) : (q.sol||[]);
+    if (!segs.length) body.append(h("div",{class:"missing"}, paperView==="paper" ? "Question image missing." : "No marking guide saved for this question."));
+    segs.forEach(s => body.append(cropEl(s, blobUrl(s.a))));
+    sheet.append(h("div",{class:"q"}, head, body));
+  });
+  out.append(sheet);
+  out.append(h("p",{class:"stat", style:"margin-top:10px;max-width:860px"}, "Questions keep their original numbering inside each image; the bold heading above each one is its number in this paper."));
+}
+
+/* ---------- PDF export ---------- */
+const imgCache = new Map();
+function loadImg(url){
+  if (!imgCache.has(url)) imgCache.set(url, new Promise((res,rej)=>{ const i=new Image(); i.onload=()=>res(i); i.onerror=()=>rej(new Error("Image failed to load")); i.src=url; }));
+  return imgCache.get(url);
+}
+async function cropData(seg){
+  const img = await loadImg(blobUrl(seg.a));
+  const W = img.naturalWidth, H = img.naturalHeight;
+  const c = document.createElement("canvas"); c.width = W; c.height = Math.max(1, Math.round(H*(seg.b-seg.t)));
+  const ctx = c.getContext("2d"); ctx.fillStyle="#fff"; ctx.fillRect(0,0,c.width,c.height);
+  ctx.drawImage(img, 0, -H*seg.t);
+  return {data:c.toDataURL("image/jpeg",0.88), ratio:c.height/c.width};
+}
+async function downloadPdf(mode){
+  const btn = $("#dlBtn"); const old = btn.textContent; btn.disabled = true; btn.textContent = "Building PDF…";
+  try {
+    if (!window.jspdf) throw new Error("The PDF library didn't load. Reload the page and try again.");
+    const qs = paperQs(); const {jsPDF} = window.jspdf;
+    const doc = new jsPDF({unit:"mm", format:"a4"});
+    const M=16, W=210-2*M, BOT=297-16;
+    const mcqs = qs.filter(q=>q.type==="mcq"), ws = qs.filter(q=>q.type!=="mcq");
+    const mM = mcqs.reduce((a,q)=>a+q.marks,0), wM = ws.reduce((a,q)=>a+q.marks,0), total=mM+wM;
+    // Cover
+    doc.setFont("helvetica","bold"); doc.setFontSize(9); doc.text(mode==="paper"?"PRACTICE EXAMINATION":"MARKING GUIDELINES", M, 30);
+    doc.setFontSize(24); doc.text(doc.splitTextToSize(P.title||"Practice Paper", W), M, 42);
+    doc.setLineWidth(0.6); doc.line(M, 58, M+W, 58);
+    doc.setFontSize(11); doc.text("General Instructions", M, 70);
+    doc.setFont("helvetica","normal");
+    const gi = [`Working time – ${fmtMins(workingTime(total))} (suggested)`, "Write using black pen",
+      SUBJECTS[P.subject].split==="part" ? "Calculators approved by NESA may be used" : "Draw diagrams using pencil",
+      "For questions in Section II, show relevant working"];
+    gi.forEach((t,i)=>doc.text("•  "+t, M+2, 78+i*7));
+    let by = 116; doc.setFillColor(233,234,236); doc.rect(M, by, W, 9, "F"); doc.setDrawColor(20); doc.rect(M, by, W, 9 + (mcqs.length?14:0) + (ws.length?14:0));
+    doc.setFont("helvetica","bold"); doc.text(`Total marks: ${total}`, M+3, by+6); by += 9;
+    if (mcqs.length){ doc.setFont("helvetica","bold"); doc.text(`Section I – ${mM} marks`, M+3, by+6); doc.setFont("helvetica","normal"); doc.text(`Attempt Questions 1–${mcqs.length}`, M+3, by+11.5); by+=14; }
+    if (ws.length){ doc.setFont("helvetica","bold"); doc.text(`Section ${mcqs.length?"II":"I"} – ${wM} marks`, M+3, by+6); doc.setFont("helvetica","normal"); doc.text(`Attempt Questions ${mcqs.length+1}–${qs.length}`, M+3, by+11.5); }
+    doc.addPage(); let y = M;
+    const need = hgt => { if (y + hgt > BOT){ doc.addPage(); y = M; } };
+    const sectionBar = (t) => { need(14); doc.setFillColor(233,234,236); doc.rect(M, y, W, 8, "F"); doc.setFont("helvetica","bold"); doc.setFontSize(11); doc.text(t, M+2.5, y+5.5); y += 12; };
+    if (mode==="guide" && mcqs.length){
+      sectionBar("Section I – Multiple-choice answer key");
+      doc.setFontSize(10);
+      for (let i=0;i<mcqs.length;i+=10){
+        const slice = mcqs.slice(i,i+10); need(16); const cw = W/11;
+        doc.setFillColor(233,234,236); doc.rect(M, y, W, 7, "F");
+        doc.setFont("helvetica","bold"); doc.text("Question", M+1.5, y+5); slice.forEach((q,j)=>doc.text(String(i+j+1), M+cw*(j+1)+cw/2, y+5, {align:"center"}));
+        doc.setFont("helvetica","normal"); doc.text("Answer", M+1.5, y+12); slice.forEach((q,j)=>doc.text(q.ans||"–", M+cw*(j+1)+cw/2, y+12, {align:"center"}));
+        doc.setDrawColor(190); doc.rect(M, y, cw*(slice.length+1), 14); y += 18;
+      }
+    }
+    for (let i=0;i<qs.length;i++){
+      const q = qs[i], n = i+1;
+      btn.textContent = `Building PDF… ${n}/${qs.length}`;
+      if (i===0 && q.type==="mcq") sectionBar(`Section I – ${mM} marks   ·   Attempt Questions 1–${mcqs.length}`);
+      if (q.type!=="mcq" && (i===0 || qs[i-1].type==="mcq")) sectionBar(`Section ${mcqs.length?"II":"I"} – ${wM} marks   ·   Attempt Questions ${mcqs.length+1}–${qs.length}`);
+      const segs = mode==="paper" ? (q.segs||[]) : (q.sol||[]);
+      if (mode==="guide" && q.type==="mcq" && !segs.length) continue;
+      const crops = []; for (const s of segs) crops.push(await cropData(s));
+      const firstH = crops.length ? Math.min(W*crops[0].ratio, BOT-M-10) : 8;
+      need(9 + firstH);
+      doc.setFont("helvetica","bold"); doc.setFontSize(11.5); doc.text(`Question ${n}`, M, y+5);
+      doc.setFont("helvetica","normal"); doc.setFontSize(10); doc.text(`(${q.marks} mark${q.marks===1?"":"s"})${mode==="guide"&&q.type==="mcq"&&q.ans?"   Answer: "+q.ans:""}`, M+24, y+5);
+      doc.setFontSize(8); doc.setTextColor(110); doc.text(srcText(q), M+W, y+5, {align:"right"}); doc.setTextColor(0);
+      doc.setDrawColor(200); doc.line(M, y+7, M+W, y+7); y += 9;
+      if (!crops.length){ doc.setFontSize(10); doc.text(mode==="paper"?"Question image missing.":"No marking guide saved for this question.", M, y+5); y += 10; }
+      for (const c of crops){
+        let w = W, hh = W*c.ratio; const maxH = BOT-M;
+        if (hh > maxH){ w = W*maxH/hh; hh = maxH; }
+        need(hh); doc.addImage(c.data, "JPEG", M, y, w, hh); y += hh + 2;
+      }
+      y += 5;
+    }
+    const pages = doc.getNumberOfPages();
+    for (let p=2;p<=pages;p++){ doc.setPage(p); doc.setFontSize(8); doc.setTextColor(120); doc.text(`${P.title} – ${p-1}`, 105, 297-8, {align:"center"}); doc.setTextColor(0); }
+    const blob = doc.output("blob");
+    const name = (P.title||"practice-paper").replace(/[^\w\- ]+/g,"").trim().replace(/\s+/g,"-") + (mode==="paper"?"":"-marking-guide") + ".pdf";
+    if (!S.downloads){ toast("Downloads aren't available in this view. Open the page on claude.ai to save PDFs."); return; }
+    await S.downloads.save({filename:name, data:blob}).catch(e => { if (!/cancel|declin|dismiss|abort/i.test(e?.code||"")) toast("The PDF couldn't be saved: "+errMsg(e)); });
+  } catch(e){ toast(errMsg(e)); }
+  finally { btn.disabled=false; btn.textContent=old; }
+}
+
+/* =====================================================================
+   IMPORT
+   ===================================================================== */
+const I = { subject:"Mathematics Extension 1", kind:"HSC", year:new Date().getFullYear()-1, school:"", split:null,
+  examFile:null, guideFile:null, pages:[], gpages:[], loading:null, status:"idle", pstate:{}, results:{exam:{},guide:{}},
+  items:[], stopReason:"", saving:null, err:"" };
+let imgMax = 4;
+
+function sourceName(){ return I.kind==="HSC" ? `${I.year} HSC` : `${I.year} Trial${I.school?" · "+I.school.trim():""}`; }
+
+async function renderPdfPages(file, which){
+  const buf = await file.arrayBuffer();
+  const pdf = await pdfjsLib.getDocument({data:buf, isEvalSupported:false}).promise;
+  const pages = [];
+  for (let i=1;i<=pdf.numPages;i++){
+    I.loading = {which, i, n:pdf.numPages}; renderImportProgress();
+    const pg = await pdf.getPage(i);
+    const vp1 = pg.getViewport({scale:1});
+    const vp = pg.getViewport({scale: 1240/vp1.width});
+    const c = document.createElement("canvas"); c.width=Math.round(vp.width); c.height=Math.round(vp.height);
+    const ctx = c.getContext("2d"); ctx.fillStyle="#fff"; ctx.fillRect(0,0,c.width,c.height);
+    await pg.render({canvasContext:ctx, viewport:vp}).promise;
+    const blob = await new Promise(r=>c.toBlob(r,"image/jpeg",0.85));
+    let lines = [];
+    try { const tc = await pg.getTextContent(); lines = groupLines(tc.items, vp1); } catch {}
+    pages.push({n:i, blob, url:URL.createObjectURL(blob), r:c.height/c.width, lines});
+    c.width = c.height = 0;
+  }
+  I.loading = null;
+  return pages;
+}
+function groupLines(items, vp){
+  const toks = [];
+  for (const it of items){
+    if (!it.str || !it.str.trim()) continue;
+    const tx = pdfjsLib.Util.transform(vp.transform, it.transform);
+    const fh = Math.hypot(tx[2],tx[3]) || Math.abs(it.height) || 8;
+    toks.push({x:tx[4], base:tx[5], fh, s:it.str});
+  }
+  toks.sort((a,b)=>a.base-b.base);
+  const lines = [];
+  for (const t of toks){
+    const L = lines[lines.length-1];
+    if (L && Math.abs(t.base-L.base) < Math.max(2, Math.min(t.fh,L.fh)*0.45)){ L.toks.push(t); L.top=Math.min(L.top,t.base-t.fh*0.85); L.bot=Math.max(L.bot,t.base+t.fh*0.2); }
+    else lines.push({base:t.base, top:t.base-t.fh*0.85, bot:t.base+t.fh*0.2, toks:[t]});
+  }
+  return lines.map(L => ({top:clamp(L.top/vp.height,0,1), bot:clamp(L.bot/vp.height,0,1),
+    text:L.toks.sort((a,b)=>a.x-b.x).map(t=>t.s).join(" ").replace(/\s+/g," ").trim()}));
+}
+async function claudeImage(page){
+  const img = await loadImg(page.url);
+  const W = 1000, H = Math.round(W*page.r);
+  const c = document.createElement("canvas"); c.width=W; c.height=H;
+  const ctx = c.getContext("2d"); ctx.drawImage(img,0,0,W,H);
+  ctx.fillStyle = "rgba(215,0,0,.9)"; ctx.font = "bold 12px sans-serif";
+  if (page.lines.length) page.lines.forEach((L,i)=>ctx.fillText("L"+i, 2, L.bot*H));
+  else { ctx.strokeStyle="rgba(215,0,0,.5)"; for (let k=0;k<=20;k++){ const y=k/20*H; ctx.beginPath(); ctx.moveTo(0,y); ctx.lineTo(24,y); ctx.stroke(); ctx.fillText((k/20).toFixed(2), 26, y+4); } }
+  return await new Promise(r=>c.toBlob(r,"image/jpeg",0.78));
+}
+function linesText(page){
+  if (!page.lines.length) return `PAGE ${page.n}: no text layer (scanned) — use top/bottom fractions.`;
+  const long = page.lines.length > 140;
+  return `PAGE ${page.n} text lines:\n` + page.lines.map((L,i)=>`L${i} [${L.top.toFixed(3)}] ${long?L.text.slice(0,50):L.text.slice(0,110)}`).join("\n");
+}
+function examPrompt(batch){
+  const split = I.split || SUBJECTS[I.subject].split;
+  return `You are splitting pages of an NSW HSC ${I.subject} exam paper ("${sourceName()}") into individual questions for a question bank.
+
+You get ${batch.length} page image(s), in this order: pages ${batch.map(p=>p.n).join(", ")}. For each page you also get its text lines, numbered L0, L1, … from top to bottom, each with its vertical position (0 = top of page, 1 = bottom). The same line numbers are printed in red in the left margin of the images.
+
+Rules:
+- Unit of splitting: ${split==="part" ? "each lettered part, e.g. 11(a), 11(b). Keep roman-numeral sub-parts (i), (ii) inside their lettered part. If a lettered part depends on an earlier part or on a shared stem, diagram or table, keep those parts together as one item labelled with the range, e.g. 13(b)-(c)." : "each whole numbered question, e.g. 21, 22, including all of its parts."}
+- Multiple-choice questions: each numbered question is one item with type "mcq" and 1 mark.
+- Labels: the question number, then part letters in brackets, with no spaces and no "Q": "3", "11(a)", "13(b)-(c)", "24".
+- marks: the total marks for the item (add up the marks shown in the margin or in brackets for all its parts).
+- topics: 1 or 2 topics, copied exactly from this list:
+${topicsFor(I.subject).map(t=>"  - "+t).join("\n")}
+- Crop each item from the line where its label starts down to just before the next item. Keep diagrams, graphs, tables and answer lines/space that belong to it. Leave out section headings, "Attempt Questions …", "Question 11 (15 marks) Use the Question 11 Writing Booklet" headers, "End of Question …", "Please turn over", page numbers and footers.
+- start = number of the first text line of the item. end = number of the first line after the item that is NOT part of it (the next item's first line, or a heading, footer or page-number line), or null if the item runs to the bottom of the page.
+- Always also give top and bottom as fractions of the page height (your best estimate). If a page has no text lines, use the red scale in its margin for these and set start and end to null.
+- If the top of a page continues a question from the previous page (no new label), add an item with "cont": true and the label of the question it continues.
+- Cover pages, instructions, blank pages, reference/formula sheets, data sheets and multiple-choice answer sheets have no items: return "items": [] for them.
+
+Reply with only JSON in this shape:
+{"pages":[{"page":5,"items":[{"label":"11(a)","cont":false,"type":"written","marks":3,"topics":["${topicsFor(I.subject)[0]}"],"start":4,"end":15,"top":0.12,"bottom":0.41}]}]}
+
+${batch.map(linesText).join("\n\n")}`;
+}
+function guidePrompt(batch){
+  const labels = I.items.map(it=>it.label);
+  return `These are pages of the marking guidelines / worked solutions for the NSW HSC ${I.subject} paper "${sourceName()}". The exam's questions in the question bank are labelled: ${labels.join(", ")}.
+
+You get ${batch.length} page image(s), in this order: pages ${batch.map(p=>p.n).join(", ")}, with each page's numbered text lines (also printed in red in the image margins).
+
+For each page:
+- mcq: if the page lists multiple-choice answers (e.g. a table of question numbers and letters), return each as {"label":"1","answer":"C"}.
+- items: crop each region that is the marking criteria and/or sample answer for a question, and label it with the matching exam label from the list above. If one region covers several labels, use the first label it covers. Worked explanations for a multiple-choice question get that question's number as label.
+- start = first text line of the region; end = first line after it that is not part of it, or null to the bottom of the page. Always also give top and bottom as fractions of page height.
+- If the top of a page continues the previous page's region, add an item with "cont": true and that label.
+- Leave out page headers/footers, the document title and general notes. Cover pages and pages with nothing to crop return empty lists.
+
+Reply with only JSON in this shape:
+{"pages":[{"page":2,"mcq":[{"label":"1","answer":"B"}],"items":[{"label":"11(a)","cont":false,"start":3,"end":20,"top":0.1,"bottom":0.5}]}]}
+
+${batch.map(linesText).join("\n\n")}`;
+}
+function band(page, it){
+  let t, b; const L = page.lines;
+  const si = Number.isInteger(it.start) ? it.start : null, ei = Number.isInteger(it.end) ? it.end : null;
+  if (L.length && si!=null && L[si]){
+    t = L[si].top - 0.008;
+    if (ei!=null && L[ei] && ei>si) b = L[ei].top - 0.004;
+    else b = (typeof it.bottom==="number" && it.bottom > t) ? it.bottom : 0.975;
+  } else { t = typeof it.top==="number" ? it.top : 0; b = typeof it.bottom==="number" ? it.bottom : 1; }
+  t = clamp(t, 0, 0.98); b = clamp(b, t+0.01, 1);
+  return {t:r4(t), b:r4(b)};
+}
+
+async function analyse(which){
+  if (!S.sample){ I.err = "Claude isn't available in this view, so questions can't be split automatically. Add them by hand below."; I.status="review"; buildItems(); renderImport(); return; }
+  try { const lim = await S.sample.limits(); imgMax = lim?.images?.maxCount || 0; } catch { imgMax = 0; }
+  if (!imgMax){ I.err = "This view can't send page images to Claude. Add questions by hand below, or open the page in a desktop browser."; I.status="review"; buildItems(); renderImport(); return; }
+  const pages = which==="exam" ? I.pages : I.gpages;
+  const todo = pages.filter(p => I.pstate[which+p.n]!=="done");
+  const per = Math.max(1, Math.min(4, imgMax));
+  const batches = []; for (let i=0;i<todo.length;i+=per) batches.push(todo.slice(i,i+per));
+  todo.forEach(p => I.pstate[which+p.n]="queued");
+  I.status = which==="exam" ? "analysing" : "guiding"; I.stopReason=""; renderImport();
+  let k = 0;
+  const worker = async () => {
+    while (k < batches.length && !I.stopReason){
+      const batch = batches[k++];
+      batch.forEach(p => I.pstate[which+p.n]="working"); renderImportProgress();
+      try {
+        const images = []; for (const p of batch) images.push(await claudeImage(p));
+        const res = await S.sample.json(which==="exam" ? examPrompt(batch) : guidePrompt(batch), {images, modelTier:"default"});
+        const list = Array.isArray(res?.pages) ? res.pages : [];
+        batch.forEach((p, idx) => {
+          const pr = list.find(x => Number(x.page)===p.n) || (list.length===batch.length ? list[idx] : null);
+          I.results[which][p.n] = pr || {items:[]};
+          I.pstate[which+p.n] = "done";
+        });
+      } catch(e){
+        batch.forEach(p => I.pstate[which+p.n]="failed");
+        const c = e?.code || "";
+        if (["not_granted","sampling_disabled","not_declared","capability_disabled","images_unavailable"].includes(c)) I.stopReason = "Claude access was declined or isn't available here, so the remaining pages were skipped.";
+        else if (c==="rate_limited") I.stopReason = "Claude's usage limit was reached. Retry the failed pages later.";
+        else if (c==="session_expired") I.stopReason = "Your claude.ai session expired. Sign in again, then retry the failed pages.";
+      }
+      renderImportProgress();
+    }
+  };
+  await Promise.all([worker(), worker()]);
+  if (I.stopReason) pages.forEach(p => { if (I.pstate[which+p.n]==="queued") I.pstate[which+p.n]="failed"; });
+  if (which==="exam"){ buildItems(); if (I.gpages.length && !I.stopReason) return analyse("guide"); }
+  else attachGuide();
+  I.status = "review"; renderImport();
+}
+function buildItems(){
+  const items = [];
+  for (const p of I.pages){
+    const res = I.results.exam[p.n]; if (!res) continue;
+    for (const it of (res.items||[])){
+      const bd = band(p, it);
+      if (it.cont && items.length){ items[items.length-1].segs.push({doc:"exam", p:p.n, ...bd}); continue; }
+      const allowed = topicsFor(I.subject);
+      items.push({ id:uid(), label:normLabel(it.label)||"?", type:it.type==="mcq"?"mcq":"written",
+        marks: Math.max(1, parseInt(it.marks)||1), topics:[...new Set((Array.isArray(it.topics)?it.topics:[]).map(t=>matchTopic(t, allowed)).filter(Boolean))].slice(0,2),
+        segs:[{doc:"exam", p:p.n, ...bd}], sol:[], ans:"" });
+    }
+  }
+  I.items = items;
+}
+function matchTopic(t, allowed){
+  t = String(t||"").trim(); if (allowed.includes(t)) return t;
+  const code = a => (a.match(/^(MEX?-[A-Z]\d|MA-[A-Z]\d|Module \d)/)||[])[0];
+  return allowed.find(a => code(a) && t.toLowerCase().includes(code(a).toLowerCase())) || allowed.find(a => a.toLowerCase()===t.toLowerCase()) || null;
+}
+function attachGuide(){
+  const entries = []; const mcq = {};
+  for (const p of I.gpages){
+    const res = I.results.guide[p.n]; if (!res) continue;
+    for (const m of (res.mcq||[])) if (m && m.label) mcq[normLabel(m.label)] = String(m.answer||"").trim().toUpperCase().slice(0,1);
+    for (const it of (res.items||[])){
+      const bd = band(p, it);
+      if (it.cont && entries.length){ entries[entries.length-1].segs.push({doc:"guide", p:p.n, ...bd}); continue; }
+      entries.push({label:normLabel(it.label), segs:[{doc:"guide", p:p.n, ...bd}]});
+    }
+  }
+  for (const it of I.items){
+    const L = it.label, first = L.split("-")[0];
+    if (it.type==="mcq" && mcq[L]) it.ans = mcq[L];
+    const match = entries.filter(g => g.label===L || g.label===first || g.label.startsWith(first+"(") || (first.startsWith(g.label+"(")));
+    const exact = match.filter(g => g.label===L || g.label===first || g.label.startsWith(first+"("));
+    const use = exact.length ? exact : match;
+    it.sol = use.flatMap(g => g.segs.map(s=>({...s})));
+  }
+}
+
+function pageOf(seg){ return (seg.doc==="exam" ? I.pages : I.gpages).find(p => p.n===seg.p); }
+function segEditor(item, list, idx){
+  const seg = list[idx]; const pages = seg.doc==="exam" ? I.pages : I.gpages;
+  const holder = h("div",{});
+  const draw = () => { const pg = pageOf(seg); holder.replaceChildren(pg ? cropEl({...seg, r:pg.r}, pg.url) : h("div",{class:"missing"},"Page not found")); };
+  draw();
+  const rng = (key) => h("input",{type:"range", min:"0", max:"1000", step:"1", value:Math.round(seg[key]*1000), "aria-label":key==="t"?"Top edge":"Bottom edge",
+    oninput:e=>{ const v=e.target.value/1000; if(key==="t") seg.t=Math.min(v, seg.b-0.01); else seg.b=Math.max(v, seg.t+0.01); draw(); }});
+  return h("div",{class:"segbox"}, holder,
+    h("div",{class:"segctl"},
+      h("span",{},"Page"), h("select",{onchange:e=>{seg.p=parseInt(e.target.value); draw();}}, pages.map(p=>h("option",{value:p.n, selected:p.n===seg.p}, p.n))),
+      h("span",{},"Top"), rng("t"),
+      h("button",{class:"ghost sm", title:"Remove this crop", onclick:()=>{ list.splice(idx,1); renderReview(); }},"Remove"),
+      h("span",{},""), h("span",{},""), h("span",{},"Bottom"), rng("b"), h("span",{},"")));
+}
+function topicPicker(item, onChange, subject){
+  const allowed = topicsFor(subject || I.subject);
+  const box = h("div",{class:"stack", style:"gap:6px"});
+  const draw = () => {
+    box.replaceChildren(
+      h("div",{class:"chips"}, item.topics.length ? item.topics.map(t => h("span",{class:"chip"}, t, h("button",{title:"Remove topic", "aria-label":"Remove "+t, onclick:()=>{ item.topics=item.topics.filter(x=>x!==t); draw(); onChange&&onChange(); }},"×"))) : h("span",{class:"muted", style:"font-size:.82rem"},"No topic yet")),
+      h("select",{"aria-label":"Add topic", onchange:e=>{ if(e.target.value && !item.topics.includes(e.target.value)){ item.topics.push(e.target.value); draw(); onChange&&onChange(); } }},
+        h("option",{value:""},"+ Add topic…"), allowed.filter(t=>!item.topics.includes(t)).map(t=>h("option",{value:t},t))));
+  };
+  draw(); return box;
+}
+function renderReview(){
+  const list = $("#reviewList"); if (!list) return; list.replaceChildren();
+  const marks = I.items.reduce((a,it)=>a+(it.marks||0),0);
+  const flagged = I.items.filter(it=>!it.topics.length).length;
+  const sum = $("#reviewSum");
+  if (sum) sum.textContent = `${I.items.length} questions · ${marks} marks detected` + (flagged?` · ${flagged} need a topic`:"");
+  I.items.forEach((it, i) => {
+    const solBox = h("details",{},
+      h("summary",{}, `Marking guide (${it.sol.length ? it.sol.length+" crop"+(it.sol.length>1?"s":"") : "none matched"})`),
+      h("div",{class:"crops", style:"margin-top:8px"},
+        it.sol.map((s,j)=>segEditor(it, it.sol, j)),
+        I.gpages.length ? h("button",{class:"sm", style:"align-self:flex-start", onclick:()=>{ it.sol.push({doc:"guide", p:I.gpages[0].n, t:0.1, b:0.4}); renderReview(); }},"+ Add marking guide crop") : h("span",{class:"muted", style:"font-size:.85rem"},"No marking guide PDF uploaded.")));
+    list.append(h("div",{class:"item"+(it.topics.length?"":" flag")},
+      h("div",{class:"crops"},
+        it.segs.map((s,j)=>segEditor(it, it.segs, j)),
+        h("button",{class:"sm", style:"align-self:flex-start", onclick:()=>{ const last=it.segs[it.segs.length-1]; const np = last ? Math.min(last.p+1, I.pages[I.pages.length-1].n) : I.pages[0].n; it.segs.push({doc:"exam", p:np, t:0.05, b:0.3}); renderReview(); }},"+ Add continuation crop"),
+        solBox),
+      h("div",{class:"stack", style:"gap:10px"},
+        h("div",{class:"row"},
+          h("label",{class:"f"},"Label", h("input",{type:"text", value:it.label, oninput:e=>{it.label=normLabel(e.target.value);}})),
+          h("label",{class:"f", style:"flex:0 1 80px"},"Marks", h("input",{type:"number", min:"1", max:"30", value:it.marks, oninput:e=>{it.marks=Math.max(1,parseInt(e.target.value)||1); const s=$("#reviewSum"); if(s){ s.textContent = s.textContent.replace(/\d+ marks/, I.items.reduce((a,x)=>a+x.marks,0)+" marks"); }}}))),
+        h("label",{class:"f"},"Type", h("select",{onchange:e=>{it.type=e.target.value; renderReview();}},
+          h("option",{value:"written", selected:it.type==="written"},"Written response"), h("option",{value:"mcq", selected:it.type==="mcq"},"Multiple choice"))),
+        it.type==="mcq" ? h("label",{class:"f"},"Correct answer", h("select",{onchange:e=>{it.ans=e.target.value;}}, ["","A","B","C","D"].map(a=>h("option",{value:a, selected:it.ans===a}, a||"Unknown")))) : null,
+        h("div",{}, h("div",{class:"eyebrow", style:"margin-bottom:4px"},"Topics"), topicPicker(it, ()=>{ renderReviewFlags(); })),
+        h("div",{class:"row"},
+          i>0 ? h("button",{class:"sm", title:"Merge into the question above", onclick:()=>{ const prev=I.items[i-1]; prev.segs.push(...it.segs); prev.sol.push(...it.sol); prev.marks+=it.marks; I.items.splice(i,1); renderReview(); }},"Merge up") : null,
+          h("button",{class:"sm danger", onclick:()=>{ I.items.splice(i,1); renderReview(); }},"Delete")))));
+  });
+  if (!I.items.length) list.append(h("div",{class:"note"},"No questions yet. Use Add question to crop one by hand."));
+}
+function renderReviewFlags(){
+  document.querySelectorAll("#reviewList .item").forEach((el,i)=>el.classList.toggle("flag", !I.items[i]?.topics.length));
+  const sum=$("#reviewSum"); if (sum){ const f=I.items.filter(it=>!it.topics.length).length; sum.textContent = sum.textContent.replace(/ · \d+ need a topic/,"") + (f?` · ${f} need a topic`:""); }
+}
+function renderImportProgress(){
+  const box = $("#impProgress"); if (!box) return; box.replaceChildren();
+  if (I.loading){ box.append(h("div",{class:"stat"}, `Reading ${I.loading.which==="exam"?"exam":"marking guide"} page ${I.loading.i} of ${I.loading.n}…`), h("div",{class:"progress"}, h("i",{style:`width:${I.loading.i/I.loading.n*100}%`}))); return; }
+  const sec = (which, pages, title) => {
+    if (!pages.length) return null;
+    const st = pages.map(p=>I.pstate[which+p.n]);
+    if (!st.some(Boolean)) return null;
+    const done = st.filter(s=>s==="done").length;
+    return h("div",{class:"stack", style:"gap:6px"},
+      h("div",{class:"stat"}, `${title}: ${done} of ${pages.length} pages analysed`),
+      h("div",{class:"pagechips"}, pages.map(p => h("span",{class:"pc "+(I.pstate[which+p.n]||""), title:I.pstate[which+p.n]||"waiting"}, p.n))));
+  };
+  box.append(sec("exam", I.pages, "Exam") || "", sec("guide", I.gpages, "Marking guide") || "");
+  if (I.stopReason) box.append(h("div",{class:"note bad"}, I.stopReason));
+}
+
+function renderImport(){
+  const body = $("#importBody"); body.replaceChildren();
+  if (S.ready && !S.canEdit){ body.append(h("div",{class:"note"},"Only editors of this page can import papers. You can still build papers from the existing bank.")); return; }
+  if (!S.ready && S.dbFailed){ body.append(h("div",{class:"note bad"},"The question bank isn't available in this view, so papers can't be saved. Open the page signed in to claude.ai.")); return; }
+  if (I.saving){ body.append(h("div",{class:"panel stack"}, h("h3",{},"Saving to your bank…"), h("div",{class:"stat"}, I.saving.text), h("div",{class:"progress"}, h("i",{style:`width:${I.saving.pct}%`})))); return; }
+  const busy = ["loading","analysing","guiding"].includes(I.status);
+  const cfg = SUBJECTS[I.subject];
+
+  const fileBox = (which, title, sub) => {
+    const f = which==="exam" ? I.examFile : I.guideFile;
+    return h("div",{class:"file"+(f?" has":"")},
+      h("b",{}, title), h("span",{class:"muted", style:"font-size:.85rem"}, f ? f.name : sub),
+      h("input",{type:"file", accept:"application/pdf", id:"f-"+which, disabled:busy||I.status==="review", onchange:e=>{ const file=e.target.files[0]||null; if(which==="exam") I.examFile=file; else I.guideFile=file; renderImport(); }}));
+  };
+  const details = h("div",{class:"panel stack"},
+    h("div",{class:"eyebrow"},"1 · Paper details"),
+    h("div",{class:"row"},
+      h("label",{class:"f", style:"flex:2 1 220px"},"Subject", h("select",{id:"iSubject", disabled:I.status!=="idle", onchange:e=>{I.subject=e.target.value; I.split=null; renderImport();}}, SUBJ_NAMES.map(n=>h("option",{value:n, selected:n===I.subject}, n)))),
+      h("label",{class:"f"},"Paper", h("select",{id:"iKind", disabled:I.status!=="idle", onchange:e=>{I.kind=e.target.value; renderImport();}}, h("option",{value:"HSC", selected:I.kind==="HSC"},"HSC exam"), h("option",{value:"Trial", selected:I.kind==="Trial"},"Trial exam"))),
+      h("label",{class:"f", style:"flex:0 1 110px"},"Year", h("input",{type:"number", id:"iYear", disabled:I.status!=="idle", value:I.year, oninput:e=>{I.year=parseInt(e.target.value)||I.year; $("#srcName").textContent=sourceName();}})),
+      I.kind==="Trial" ? h("label",{class:"f", style:"flex:2 1 200px"},"School", h("input",{type:"text", id:"iSchool", disabled:I.status!=="idle", value:I.school, placeholder:"e.g. Baulkham Hills HS", oninput:e=>{I.school=e.target.value; $("#srcName").textContent=sourceName();}})) : null,
+      h("label",{class:"f"},"Split questions into", h("select",{id:"iSplit", disabled:I.status!=="idle", onchange:e=>{I.split=e.target.value;}},
+        h("option",{value:"part", selected:(I.split||cfg.split)==="part"},"Lettered parts (a), (b)…"), h("option",{value:"whole", selected:(I.split||cfg.split)==="whole"},"Whole numbered questions")))),
+    h("div",{class:"stat"},"Saved as: ", h("b",{id:"srcName"}, sourceName())));
+  const files = h("div",{class:"panel stack"},
+    h("div",{class:"eyebrow"},"2 · PDFs from THSC Online"),
+    h("div",{class:"drop"}, fileBox("exam","Exam paper","Required · the question booklet PDF"), fileBox("guide","Marking guidelines","Optional · solutions or marking guide PDF")),
+    h("div",{id:"impProgress", class:"stack", style:"gap:10px"}),
+    I.status==="idle" ? h("div",{class:"row"},
+      h("button",{class:"primary", id:"analyseBtn", disabled:!I.examFile, onclick:startImport},"Split into questions"),
+      h("span",{class:"stat"},"Each page is sent to Claude to find questions, marks and topics. A 40-page paper takes a few minutes.")) : null,
+    I.status==="loading" ? h("div",{class:"stat"},"Reading PDFs…") : null,
+    busy && I.status!=="loading" ? h("div",{class:"stat"},"Claude is reading the pages. Keep this tab open.") : null);
+  body.append(details, files);
+  renderImportProgress();
+
+  if (I.status==="review"){
+    const failedE = I.pages.filter(p=>I.pstate["exam"+p.n]==="failed").length, failedG = I.gpages.filter(p=>I.pstate["guide"+p.n]==="failed").length;
+    const rv = h("div",{class:"stack"},
+      h("div",{class:"row", style:"align-items:center"},
+        h("div",{style:"margin-right:auto"}, h("div",{class:"eyebrow"},"3 · Check the questions"), h("div",{id:"reviewSum", style:"font-weight:600"})),
+        failedE||failedG ? h("button",{onclick:async()=>{ I.stopReason=""; if(failedE) await analyse("exam"); else await analyse("guide"); }}, `Retry ${failedE+failedG} failed page${failedE+failedG>1?"s":""}`) : null,
+        h("button",{onclick:()=>{ I.items.push({id:uid(), label:"?", type:"written", marks:1, topics:[], segs:[{doc:"exam", p:I.pages[0]?.n||1, t:0.1, b:0.3}], sol:[], ans:""}); renderReview(); }},"Add question"),
+        h("button",{class:"ghost", onclick:resetImport},"Start over"),
+        h("button",{class:"primary", disabled:!I.items.length, onclick:saveImport},"Save to bank")),
+      I.err ? h("div",{class:"note warn"}, I.err) : null,
+      h("div",{class:"note"}, `Drag the Top and Bottom sliders to adjust a crop. A question split across pages gets a continuation crop. Expected total for an HSC ${cfg.short} paper: ${cfg.total} marks.`),
+      h("div",{class:"items", id:"reviewList"}));
+    body.append(rv);
+    renderReview();
+  }
+}
+async function startImport(){
+  I.status="loading"; I.err=""; renderImport();
+  try {
+    if (!window.pdfjsLib) throw new Error("The PDF reader didn't load. Reload the page and try again.");
+    I.pages = await renderPdfPages(I.examFile, "exam");
+    I.gpages = I.guideFile ? await renderPdfPages(I.guideFile, "guide") : [];
+  } catch(e){ I.status="idle"; I.loading=null; renderImport(); $("#impProgress").append(h("div",{class:"note bad"}, "This PDF couldn't be read: "+errMsg(e))); return; }
+  await analyse("exam");
+}
+function resetImport(){
+  [...I.pages, ...I.gpages].forEach(p=>URL.revokeObjectURL(p.url));
+  Object.assign(I, {examFile:null, guideFile:null, pages:[], gpages:[], status:"idle", pstate:{}, results:{exam:{},guide:{}}, items:[], stopReason:"", err:""});
+  renderImport();
+}
+async function saveImport(){
+  if (!S.db || !S.assets){ alert("Saving isn't available in this view."); return; }
+  const items = I.items.filter(it=>it.segs.length);
+  const keys = new Set(); items.forEach(it => [...it.segs, ...it.sol].forEach(s => keys.add(s.doc+":"+s.p)));
+  const total = keys.size + items.length + 1; let done = 0;
+  const tick = text => { done++; I.saving = {text, pct: done/total*100}; renderImport(); };
+  I.saving = {text:"Uploading pages…", pct:0}; renderImport();
+  try {
+    const map = {};
+    for (const k of keys){
+      const [doc, n] = k.split(":"); const pg = (doc==="exam"?I.pages:I.gpages).find(p=>p.n===parseInt(n));
+      const up = await S.assets.upload(pg.blob, {type:"image/jpeg"});
+      map[k] = {a:up.id, r:r4(pg.r)}; tick(`Uploaded ${doc==="exam"?"exam":"guide"} page ${n}`);
+    }
+    const conv = s => ({a:map[s.doc+":"+s.p].a, r:map[s.doc+":"+s.p].r, t:r4(s.t), b:r4(s.b)});
+    const paperRef = S.db.collection("papers").doc();
+    const meta = {subject:I.subject, source:sourceName(), year:I.year, kind:I.kind};
+    await paperRef.set({...meta, createdAt:Date.now(), questionCount:items.length, totalMarks:items.reduce((a,it)=>a+it.marks,0), assetIds:Object.values(map).map(m=>m.a)});
+    tick("Saved paper details");
+    for (let i=0;i<items.length;i++){
+      const it = items[i];
+      await S.db.collection("questions").doc().set({...meta, paperId:paperRef.id, label:it.label, type:it.type, marks:it.marks, topics:it.topics,
+        segs:it.segs.map(conv), sol:it.sol.map(conv), ans:it.ans||"", pos: items.length>1 ? r4(i/(items.length-1)) : 0, createdAt:Date.now()});
+      tick(`Saved question ${i+1} of ${items.length}`);
+    }
+    I.saving = null; const src = meta.source; resetImport();
+    location.hash = "#bank"; bankMsg = `Saved ${items.length} questions from ${src}.`; renderBank();
+  } catch(e){
+    I.saving = null; renderImport();
+    const c = e?.code; const txt = c==="quota_exceeded" ? "The bank's storage is full. Delete an older paper and try again." : "Saving stopped: "+errMsg(e)+". Already-saved questions stay in the bank.";
+    $("#importBody").prepend(h("div",{class:"note bad"}, txt));
+  }
+}
+
+/* =====================================================================
+   BANK
+   ===================================================================== */
+const openPapers = new Set(); const confirming = new Set(); let bankSubject = ""; let bankMsg = "";
+function renderBank(){
+  const body = $("#bankBody"); if (!body) return; body.replaceChildren();
+  if (!S.ready){ body.append(h("div",{class:"note"}, S.dbFailed ? "The question bank isn't available in this view." : "Loading question bank…")); return; }
+  if (bankMsg) body.append(h("div",{class:"note ok"}, bankMsg));
+  const byPaper = new Map(); S.questions.forEach(q => { if(!byPaper.has(q.paperId)) byPaper.set(q.paperId, []); byPaper.get(q.paperId).push(q); });
+  const papers = S.papers.filter(p => !bankSubject || p.subject===bankSubject).sort((a,b)=> a.subject.localeCompare(b.subject) || (b.year-a.year) || a.source.localeCompare(b.source));
+  body.append(h("div",{class:"row", style:"align-items:center"},
+    h("label",{class:"f", style:"flex:0 1 280px"},"Subject", h("select",{id:"bankSubj", onchange:e=>{bankSubject=e.target.value; renderBank();}}, h("option",{value:""},"All subjects"), SUBJ_NAMES.map(n=>h("option",{value:n, selected:n===bankSubject}, n)))),
+    h("span",{class:"stat", style:"margin-left:auto"}, `${papers.length} paper${papers.length===1?"":"s"}`)));
+  if (!papers.length){ body.append(h("div",{class:"empty"}, h("h3",{},"No papers here yet"), h("p",{class:"muted"},"Imported papers and their questions appear here, grouped by source."), h("a",{href:"#import"},"Import a paper"))); return; }
+  const list = h("div",{class:"papers"});
+  for (const p of papers){
+    const qs = (byPaper.get(p.id)||[]).sort((a,b)=>(a.pos??0)-(b.pos??0));
+    const marks = qs.reduce((a,q)=>a+(q.marks||0),0);
+    const withSol = qs.filter(q=>(q.sol||[]).length || q.ans).length;
+    const isOpen = openPapers.has(p.id);
+    const el = h("div",{class:"paper"},
+      h("div",{class:"ph"},
+        h("span",{class:"t"}, `${p.source} · ${SUBJECTS[p.subject]?.short||p.subject}`),
+        h("span",{class:"meta"}, `${qs.length} Q · ${marks} marks · ${withSol}/${qs.length} with solutions`),
+        h("button",{class:"sm", "aria-expanded":String(isOpen), onclick:()=>{ isOpen?openPapers.delete(p.id):openPapers.add(p.id); renderBank(); }}, isOpen?"Hide questions":"Show questions"),
+        S.canEdit ? h("button",{class:"sm danger", onclick:()=>{ confirming.add(p.id); renderBank(); }},"Delete") : null));
+    if (confirming.has(p.id)) el.append(h("div",{style:"padding:0 14px 12px"}, h("div",{class:"confirm"},
+      `Delete ${p.source} and its ${qs.length} questions? This can't be undone.`,
+      h("button",{class:"sm danger", onclick:()=>deletePaper(p, qs)},"Delete paper"),
+      h("button",{class:"sm", onclick:()=>{ confirming.delete(p.id); renderBank(); }},"Cancel"))));
+    if (isOpen){
+      el.append(h("div",{class:"qrows"}, qs.map(q => {
+        const first = (q.segs||[])[0];
+        return h("div",{class:"qrow"},
+          h("div",{class:"thumb"}, first ? cropEl(first, blobUrl(first.a)) : "No image"),
+          h("div",{class:"stack", style:"gap:8px"},
+            h("div",{class:"row", style:"align-items:center"},
+              h("b",{class:"mono"}, "Q"+q.label), h("span",{class:"stat"}, q.type==="mcq" ? `Multiple choice${q.ans?" · answer "+q.ans:""}` : "Written"),
+              S.canEdit ? h("label",{class:"f", style:"flex:0 0 90px;flex-direction:row;align-items:center"}, "Marks ", h("input",{type:"number", min:"1", max:"30", value:q.marks, onchange:e=>updateQ(q,{marks:Math.max(1,parseInt(e.target.value)||1)})})) : h("span",{class:"stat"}, q.marks+" marks"),
+              h("span",{class:"stat"}, (q.sol||[]).length ? "solution saved" : "no solution")),
+            S.canEdit ? topicPickerBank(q) : h("div",{class:"chips"}, (q.topics||[]).map(t=>h("span",{class:"chip", style:"padding-right:10px"}, t)))));
+      })));
+    }
+    list.append(el);
+  }
+  body.append(list);
+}
+function topicPickerBank(q){
+  const item = {topics:[...(q.topics||[])]};
+  return topicPicker(item, ()=>updateQ(q,{topics:item.topics.slice()}), q.subject);
+}
+async function updateQ(q, patch){ try { await S.db.doc("questions/"+q.id).update(patch); } catch(e){ bankMsg = "Change not saved: "+errMsg(e); renderBank(); } }
+async function deletePaper(p, qs){
+  confirming.delete(p.id); bankMsg = `Deleting ${p.source}…`; renderBank();
+  try {
+    for (const q of qs) await S.db.doc("questions/"+q.id).delete();
+    await S.db.doc("papers/"+p.id).delete();
+    if (S.assets) for (const a of (p.assetIds||[])) await S.assets.delete(a).catch(()=>{});
+    bankMsg = `Deleted ${p.source}.`;
+  } catch(e){ bankMsg = "Delete stopped: "+errMsg(e); }
+  renderBank();
+}
+
+if (window.pdfjsLib) pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
+init();
+</script>
+</body>
+</html>
