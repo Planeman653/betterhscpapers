@@ -6,16 +6,20 @@ Subjects: Mathematics Advanced, Mathematics Extension 1, Mathematics Extension 2
 
 ## Using it
 
-1. **Import papers** – upload an exam PDF and, optionally, its marking guidelines PDF. The site splits the paper into questions in your browser, for free:
-   - Question numbers, lettered parts and margin marks are read from the PDF's text layer.
-   - Topics come from the **mapping grid** at the end of NESA marking guidelines. Without one (e.g. trial papers), topics are guessed from keywords.
-   - The marking guide is split by its "Question 11 (a)" headings, and the multiple-choice answer key is read automatically.
-   - Scanned PDFs (no text layer) are read with OCR (Tesseract.js), also in the browser.
+1. **Import papers** – upload a paper PDF. Most THSC trial papers have the solutions at the back of the same file; the site finds where they start (you can change the page). If the marking guidelines are a separate PDF (as with NESA HSC papers), add it as well. Everything runs free in your browser:
+   - Question numbers, lettered parts and margin marks are read from the PDF's text layer. Scanned pages, and pages whose fonts produce unreadable text, are read with OCR (Tesseract.js).
+   - Solutions are matched to questions whatever the layout: NESA marking guidelines, "Question 11 (a)" headings, solution tables with "15a" / "13(a)(i)" row labels, or an annotated copy of the whole paper.
+   - Multiple-choice answers come from answer keys (columns, rows or tables). In annotated copies, the circled or coloured option is detected from the page images.
    - You review and adjust every crop before saving.
 2. **Build paper** – choose subject, total marks, number of multiple-choice questions, HSC/trial sources, year range and topics. Questions are picked to hit the mark total exactly, spread across topics, and ordered by their position in the original paper. *Swap* replaces a question with another worth the same marks.
 3. **Download** the paper and marking guide as A4 PDFs.
 
-Tested on the 2022 NESA HSC papers for Maths Advanced, Maths Extension 1, Physics and Chemistry: every question found, marks matched the paper totals exactly, and every topic came from the mapping grid.
+## Topics
+
+- **Maths** uses the focus areas of the NESA 2024 syllabuses (Advanced 14, Extension 1 11, Extension 2 5), first examined in the 2027 HSC. **Physics and Chemistry** use the Year 12 modules (5–8) examined in the HSC.
+- When NESA marking guidelines are supplied, topics come from their **mapping grid** (older 2017 codes such as `ME-C1` are translated to 2024 focus areas).
+- Otherwise a **classifier** (`model.json`) suggests topics from the question and solution text. It was trained on every NESA HSC exam since the current syllabuses, labelled by NESA's own grids. On held-out years it ranks the correct topic first 77–96% of the time depending on subject (see `tools/README.md`). Unsure suggestions are flagged for checking.
+- Questions you save teach it: a near-identical question in your bank reuses your topics, and similar ones nudge the suggestion.
 
 Optional: *Splitting method → Claude API* uses a Claude API key instead (paid per use). The free method is the default.
 
@@ -37,8 +41,9 @@ GitHub Pages, deployed from the `main` branch root. `index.html` is self-contain
 ## Data model (`bank/index.json`)
 
 - `papers[]` – `id, subject, source, year, kind (HSC|Trial), questionCount, totalMarks, assetIds[], createdAt`
-- `questions[]` – `id, paperId, subject, source, year, kind, label, type (mcq|written), marks, topics[], segs[], sol[], ans, pos, createdAt`
+- `questions[]` – `id, paperId, subject, source, year, kind, label, type (mcq|written), marks, topics[], segs[], sol[], ans, text, solText, pos, createdAt`
   - `segs` / `sol`: crops `{a: imageId, r: pageHeight/width, t: top, b: bottom}` (fractions of page height); image at `bank/pages/<a>.jpg`
+  - `text` / `solText`: question and solution text, used to improve topic suggestions
   - `pos`: 0–1 position in the original paper, used for ordering
 
 ## Notes

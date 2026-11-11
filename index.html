@@ -202,18 +202,57 @@ details summary{cursor:pointer;font-weight:600;font-size:.9rem}
 <script>
 "use strict";
 /* ---------- Syllabus data (NESA Stage 6 syllabuses examined from 2019 HSC) ---------- */
+/* Maths topics are the focus areas of the NESA 2024 syllabuses (Year 11 then Year 12), first examined in the 2027 HSC.
+   Physics and Chemistry use the Stage 6 (2017) modules. */
 const SUBJECTS = {
   "Mathematics Advanced": {short:"Maths Advanced", mcq:10, total:100, split:"part", topics:[
-    "MA-F1 Working with Functions","MA-F2 Graphing Techniques","MA-T1 Trigonometry and Measure of Angles","MA-T2 Trigonometric Functions and Identities","MA-T3 Trigonometric Functions and Graphs","MA-C1 Introduction to Differentiation","MA-C2 Differential Calculus","MA-C3 Applications of Differentiation","MA-C4 Integral Calculus","MA-E1 Logarithms and Exponentials","MA-M1 Modelling Financial Situations","MA-S1 Probability and Discrete Probability Distributions","MA-S2 Descriptive Statistics and Bivariate Data Analysis","MA-S3 Random Variables"]},
+    "Working with functions","Graph transformations","Trigonometry and measure of angles","Trigonometric identities and equations","Exponential and logarithmic functions","Introduction to differentiation","Probability and data",
+    "Further graph transformations and modelling","Sequences and series","Differential calculus","Integral calculus","Applications of calculus","Random variables","Financial mathematics"]},
   "Mathematics Extension 1": {short:"Maths Ext 1", mcq:10, total:70, split:"part", topics:[
-    "ME-F1 Further Work with Functions","ME-F2 Polynomials","ME-T1 Inverse Trigonometric Functions","ME-T2 Further Trigonometric Identities","ME-T3 Trigonometric Equations","ME-C1 Rates of Change","ME-C2 Further Calculus Skills","ME-C3 Applications of Calculus","ME-A1 Working with Combinatorics","ME-P1 Proof by Mathematical Induction","ME-V1 Introduction to Vectors","ME-S1 The Binomial Distribution"]},
+    "Further work with functions","Polynomials","Further trigonometry","Permutations and combinations","The binomial theorem",
+    "Proof by mathematical induction","Introduction to vectors","Inverse trigonometric functions","Further calculus skills","Further applications of calculus","The binomial distribution and the sampling distribution of the mean"]},
   "Mathematics Extension 2": {short:"Maths Ext 2", mcq:10, total:100, split:"part", topics:[
-    "MEX-P1 The Nature of Proof","MEX-P2 Further Proof by Mathematical Induction","MEX-V1 Further Work with Vectors","MEX-N1 Introduction to Complex Numbers","MEX-N2 Using Complex Numbers","MEX-C1 Further Integration","MEX-M1 Applications of Calculus to Mechanics"]},
+    "The nature of proof","Further work with vectors","Introduction to complex numbers","Further integration","Applications of calculus to mechanics"]},
   "Physics": {short:"Physics", mcq:20, total:100, split:"whole", topics:[
     "Module 1: Kinematics","Module 2: Dynamics","Module 3: Waves and Thermodynamics","Module 4: Electricity and Magnetism","Module 5: Advanced Mechanics","Module 6: Electromagnetism","Module 7: The Nature of Light","Module 8: From the Universe to the Atom"]},
   "Chemistry": {short:"Chemistry", mcq:20, total:100, split:"whole", topics:[
     "Module 1: Properties and Structure of Matter","Module 2: Introduction to Quantitative Chemistry","Module 3: Reactive Chemistry","Module 4: Drivers of Reactions","Module 5: Equilibrium and Acid Reactions","Module 6: Acid/Base Reactions","Module 7: Organic Chemistry","Module 8: Applying Chemical Ideas"]},
 };
+/* 2017 syllabus codes (used in past NESA mapping grids) -> 2024 focus areas.
+   A function decides between two focus areas when the old topic was split. */
+const FIN_RX = /interest|annuit|loan|invest|depreciat|superannuation|repayment|deposit|future value|present value|compound|\$/i;
+const LEGACY = {
+  "MA-F1":"Working with functions", "MA-F2":"Graph transformations", "MA-T1":"Trigonometry and measure of angles",
+  "MA-T2":"Trigonometric identities and equations", "MA-T3":"Further graph transformations and modelling",
+  "MA-C1":"Introduction to differentiation", "MA-C2":"Differential calculus", "MA-C3":"Applications of calculus", "MA-C4":"Integral calculus",
+  "MA-E1":"Exponential and logarithmic functions",
+  "MA-M1": t => FIN_RX.test(t) ? "Financial mathematics" : "Sequences and series",
+  "MA-S1": t => /random variable|expected value|e\s*\(\s*x\s*\)|variance|probability distribution|standard deviation/i.test(t) ? "Random variables" : "Probability and data",
+  "MA-S2":"Probability and data", "MA-S3":"Random variables",
+  "ME-F1":"Further work with functions", "ME-F2":"Polynomials", "ME-T1":"Inverse trigonometric functions",
+  "ME-T2":"Further trigonometry", "ME-T3":"Further trigonometry", "ME-C1":"Further applications of calculus",
+  "ME-C2":"Further calculus skills", "ME-C3":"Further applications of calculus",
+  "ME-A1": t => /binomial (theorem|expansion|coefficient)|coefficient of|expansion of|pascal|\(\s*1\s*\+\s*x\s*\)|independent of x|term/i.test(t) ? "The binomial theorem" : "Permutations and combinations",
+  "ME-P1":"Proof by mathematical induction", "ME-V1":"Introduction to vectors",
+  "ME-S1":"The binomial distribution and the sampling distribution of the mean",
+  "MEX-P1":"The nature of proof", "MEX-P2":"The nature of proof", "MEX-V1":"Further work with vectors",
+  "MEX-N1":"Introduction to complex numbers", "MEX-N2":"Introduction to complex numbers",
+  "MEX-C1":"Further integration", "MEX-M1":"Applications of calculus to mechanics",
+};
+function legacyTopic(code, text){ const v = LEGACY[code]; return typeof v==="function" ? v(text||"") : v || null; }
+/* Bring a stored topic list up to date (old "MA-C4 Integral Calculus" style names -> 2024 focus areas) */
+function migrateTopics(list, subject, text){
+  if (!Array.isArray(list)) return [];
+  const allowed = topicsFor(subject); const out = [];
+  for (const t of list){
+    let v = allowed.includes(t) ? t : null;
+    if (!v){ const m = String(t).match(/^(MEX?-[A-Z]\d|MA-[A-Z]\d)\b/); if (m) v = legacyTopic(m[1], text); }
+    if (!v){ const m = String(t).match(/^Module\s*(\d)/i); if (m) v = allowed.find(a=>a.startsWith(`Module ${m[1]}:`)); }
+    if (!v) v = allowed.find(a => a.toLowerCase()===String(t).toLowerCase()) || null;
+    if (v && !out.includes(v)) out.push(v);
+  }
+  return out;
+}
 const SUBJ_NAMES = Object.keys(SUBJECTS);
 const UNTAGGED = "Untagged";
 
@@ -294,7 +333,9 @@ const Store = {
   merge(){
     const pm = new Map(); [...Store.published.papers, ...Store.local.papers].forEach(p => pm.set(p.id, p));
     const qm = new Map(); [...Store.published.questions, ...Store.local.questions].forEach(q => qm.set(q.id, q));
-    S.papers = [...pm.values()]; S.questions = [...qm.values()];
+    S.papers = [...pm.values()];
+    S.questions = [...qm.values()].map(q => { const t = migrateTopics(q.topics, q.subject, (q.text||"")+" "+(q.solText||"")); return t.join("|")===(q.topics||[]).join("|") ? q : {...q, topics:t}; });
+    bankVecs.clear();
   },
   async imageFor(a){                 // local blob URL on demand
     if (imgUrls.has(a)) return imgUrls.get(a);
@@ -591,8 +632,8 @@ function renderPaper(){
     out.append(h("div",{class:"empty"},
       h("div",{class:"eyebrow"}, empty ? "Question bank is empty" : "No paper yet"),
       h("h2",{style:"margin-top:6px"}, empty ? "Import a past paper to start your bank" : "Your generated paper appears here"),
-      empty ? h("ol",{}, h("li",{},"Download an HSC or trial exam and its marking guidelines from THSC Online."),
-                       h("li",{},"Upload both PDFs under Import papers. Claude splits the exam into questions and tags topics and marks."),
+      empty ? h("ol",{}, h("li",{},"Download an HSC or trial paper from THSC Online (most include the solutions at the back)."),
+                       h("li",{},"Upload it under Import papers. The site splits it into questions, reads the marks and solutions, and tags syllabus topics."),
                        h("li",{},"Come back here, choose topics and total marks, and generate a paper with its marking guide."))
             : h("p",{class:"muted"}, S.ready ? "Choose a subject, topics and total marks, then select Generate paper. Questions are drawn from your bank and renumbered into one paper, with a matching marking guide." : (S.dbFailed ? "This browser blocked local storage, so the question bank can't load. Leave private browsing and reload." : "Loading your question bank…")),
       empty ? h("a",{class:"btn primary", href:"#import", style:"text-decoration:none;display:inline-flex;background:var(--accent);color:var(--accent-ink);border-color:var(--accent)"},"Import a paper") : null));
@@ -751,12 +792,12 @@ async function downloadPdf(mode){
    ===================================================================== */
 const I = { subject:"Mathematics Extension 1", kind:"HSC", year:new Date().getFullYear()-1, school:"", split:null,
   examFile:null, guideFile:null, pages:[], gpages:[], loading:null, status:"idle", pstate:{}, results:{exam:{},guide:{}},
-  items:[], stopReason:"", saving:null, err:"" };
+  items:[], stopReason:"", saving:null, err:"", allPages:[], gfilePages:[], solStart:null, solAuto:null, solStartManual:undefined };
 let imgMax = 4;
 
 function sourceName(){ return I.kind==="HSC" ? `${I.year} HSC` : `${I.year} Trial${I.school?" · "+I.school.trim():""}`; }
 
-async function renderPdfPages(file, which){
+async function renderPdfPages(file, which, opts={}){
   const buf = await file.arrayBuffer();
   const pdf = await pdfjsLib.getDocument({data:buf, isEvalSupported:false}).promise;
   const pages = [];
@@ -765,6 +806,7 @@ async function renderPdfPages(file, which){
     const pg = await pdf.getPage(i);
     const vp1 = pg.getViewport({scale:1});
     const vp = pg.getViewport({scale: 1240/vp1.width});
+    if (opts.textOnly){ let lines=[]; try { lines = groupLines((await pg.getTextContent()).items, vp1); } catch {} pages.push({n:i, r:vp.height/vp.width, w:Math.round(vp.width), h:Math.round(vp.height), lines}); continue; }
     const c = document.createElement("canvas"); c.width=Math.round(vp.width); c.height=Math.round(vp.height);
     const ctx = c.getContext("2d"); ctx.fillStyle="#fff"; ctx.fillRect(0,0,c.width,c.height);
     await pg.render({canvasContext:ctx, viewport:vp}).promise;
@@ -821,8 +863,8 @@ async function ocrPage(page){
 /* ---------- Free splitter: reads question numbers, parts and margin marks from the page text ---------- */
 const RX = {
   pageNum: /^[–—-]\s*\d+\s*[–—-]$|^page\s+\d+(\s+of\s+\d+)?$/i,
-  barcode: /^[\d\s]{6,}$/,
-  misc: /^©|education standards authority\s*$|do not write in this area|^student number|^centre number/i,
+  barcode: /^\d{6,}$|^\d{3,6}\s+\d{4,}$/,
+  misc: /^©|education standards authority\s*$|do not write in this area|^student number|^centre number|lOMoARcPSD|downloaded by .{0,60}@|studocu/i,
   continued: /^(question|q)\s*\d+\s*\(?\s*continued\s*\)?/i,
   segEnd: /please turn over|office use only|continues on (page|the next)|^question\s+\d+\s+continues/i,
   close: /^end of (question|section|paper|exam|test)|^section\s+(i{1,3}|[123])\b|^mapping grid/i,
@@ -832,7 +874,20 @@ const RX = {
   num: /^(\d{1,2})(?:\s*[.)])?(?:\s+|$)/,
   skipTitle: /blank page|extra writing space|reference sheet|data sheet|formulae? sheet|periodic table|answer booklet|general\s+instructions|reading time|higher school certificate/i,
 };
-function isNoise(L){ const t = L.text; return L.top < 0.02 || L.top > 0.96 || (L.top > 0.92 && t.length <= 7 && /^[\s\d–—\-|.]+$/.test(t)) || RX.pageNum.test(t) || RX.barcode.test(t) || RX.misc.test(t) || RX.continued.test(t); }
+/* "QUESTION TWENTY-ONE" -> "Question 21" */
+const NUMW = {one:1,two:2,three:3,four:4,five:5,six:6,seven:7,eight:8,nine:9,ten:10,eleven:11,twelve:12,thirteen:13,fourteen:14,fifteen:15,sixteen:16,seventeen:17,eighteen:18,nineteen:19,twenty:20,thirty:30,forty:40};
+function wordsToNum(w){ const parts = w.toLowerCase().split(/[-\s]+/); let n = 0; for (const x of parts){ if (!(x in NUMW)) return null; n += NUMW[x]; } return n || null; }
+function normHead(t){ return t.replace(/^(question|q)\s+((?:twenty|thirty|forty|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen)(?:[-\s](?:one|two|three|four|five|six|seven|eight|nine))?)\b/i, (m,q,w) => { const n = wordsToNum(w); return n ? `Question ${n}` : m; }); }
+/* Lines repeated at the same spot on many pages (running headers/footers) are not content */
+function markRepeats(pages){
+  const key = L => L.text.toLowerCase().replace(/\d+/g,"#").replace(/\s+/g," ").trim();
+  const count = new Map();
+  const ok = L => (L.top < 0.14 || L.top > 0.88) && L.text.length > 3 && !/^(question|q\s*\d|section|part\b|\(?[a-z]\)|\d)/i.test(normHead(L.text));
+  for (const p of pages){ const seen = new Set(); for (const L of p.lines) if (ok(L)){ const k = key(L); if (!seen.has(k)){ seen.add(k); count.set(k, (count.get(k)||0)+1); } } }
+  const min = Math.max(3, Math.ceil(pages.length*0.3));
+  for (const p of pages) for (const L of p.lines){ if (ok(L) && (count.get(key(L))||0) >= min) L.rep = true; L.text = normHead(L.text); }
+}
+function isNoise(L){ const t = L.text; return L.rep || L.top < 0.02 || L.top > 0.96 || (L.top > 0.92 && t.length <= 7 && /^[\s\d–—\-|.]+$/.test(t)) || RX.pageNum.test(t) || RX.barcode.test(t) || RX.misc.test(t) || RX.continued.test(t); }
 function headerMatch(t){
   const m = t.match(RX.header); if (!m || RX.continued.test(t) || /continues/i.test(t)) return null;
   if (!m[2] && /booklet|attached|^question\s+\d+\s*[-–]/i.test(t)) return null;
@@ -901,7 +956,7 @@ function splitExam(pages, split){
       if (RX.close.test(t)){
         endSeg(L.top); cur = null;
         const s = t.match(RX.section);
-        if (s){ const v = s[1].toLowerCase(); section = (v==="i"||v==="1") ? "I" : "II"; curQ = null; }
+        if (s && items.length){ const v = s[1].toLowerCase(); section = (v==="i"||v==="1") ? "I" : "II"; curQ = null; }
         if (/^end of question/i.test(t)) curQ = null;
         continue;
       }
@@ -944,9 +999,17 @@ function splitExam(pages, split){
 }
 
 /* ---------- Free marking-guide parser: answer key, solution regions, NESA mapping grid ---------- */
+/* Solution headings come in many shapes: "Question 11 (a)", "Q11(a)", "13(a)(i)", "29.c.", or "(a)" under a "Question 11" heading */
+const PART = "\\(\\s*(?:[a-h]|i{1,3}|iv|vi{0,3}|ix)\\s*\\)";
+const SOLHEAD = [
+  [new RegExp(`^(?:question|q)\\s*\\.?\\s*(\\d{1,2})\\b\\.?\\s*((?:${PART}\\s*)*)`, "i"), m => [m[1], m[2]]],
+  [new RegExp(`^(\\d{1,2})\\s*((?:${PART}\\s*)+)`, "i"), m => [m[1], m[2]]],
+  [/^(\d{1,2})\s*[.)]\s*([a-h])\s*[.)](?:\s*\(?\s*(i{1,3}|iv|vi{0,3})\s*[.)])?/i, m => [m[1], `(${m[2]})` + (m[3] ? `(${m[3]})` : "")]],
+];
 function parseGuide(pages){
-  const regions = [], mcq = {}, grid = [], orphans = []; let cur = null, inGrid = false;
+  const regions = [], mcq = {}, grid = [], orphans = []; let cur = null, inGrid = false, curNum = null, curPart = null;
   const startsByPage = {};
+  const closeSeg = (top) => { if (cur){ const last = cur.segs[cur.segs.length-1]; if (last && last.open){ last.open = false; if (top!=null) last.endTop = top; } } };
   for (const p of pages){
     const lines = p.lines; const content = lines.map(L => !isNoise(L) && !(L.top < 0.09 && /marking guidelines\s*$/i.test(L.text)));
     if (cur){ const last = cur.segs[cur.segs.length-1]; if (last) last.open = false; }
@@ -954,23 +1017,38 @@ function parseGuide(pages){
     const g = pageGeom(lines, content); startsByPage[p.n] = [];
     for (let i=0;i<lines.length;i++){
       if (!content[i]) continue;
-      const L = lines[i], t = L.text;
+      const L = lines[i], t = L.text, atLeft = L.x <= g.left + 0.06;
       if (/^mapping grid/i.test(t)){ inGrid = true; cur = null; continue; }
       if (inGrid){
         const m = t.match(/^(\d{1,2})\s*((?:\(\s*[a-z]{1,4}\s*\)\s*)*)\s+(\d{1,2})\b\s*(.*)$/i);
         if (m) grid.push({label:normLabel(m[1]+m[2]), marks:+m[3], content:m[4], p:p.n, top:L.top});
-        else if (/\b(MEX?-[A-Z]\d|MA-[A-Z]\d|Mod(ule)?\s*\d)\b/i.test(t)) orphans.push({p:p.n, top:L.top, text:t});
+        else if (/\b(MEX?|MA)[\s-]?[A-Z]\d\b|\bM(od(ule)?)?\s*\d\b/.test(t)) orphans.push({p:p.n, top:L.top, text:t});
         continue;
       }
-      const k = t.match(/^(\d{1,2})\s*[.)]?\s+\(?([A-D])\)?$/);
-      if (k && !cur){ mcq[k[1]] = k[2]; continue; }
-      const hq = t.match(/^question((?:\s+\d{1,2}){2,})$/i), ha = lines[i+1] && lines[i+1].text.match(/^answer((?:\s+[A-D]){2,})$/i);
+      // Multiple-choice answer keys: "1 C", "Q1. (C)", or a table row ending in the letter
+      const mcqZone = !cur || /^\d+$/.test(cur.label);
+      const k = mcqZone && (t.match(/^(?:q(?:uestion)?\s*)?(\d{1,2})\s*[.):]?\s+\(?([A-D])\)?(?:\s*$|\s+(?![A-Za-z]{2,}\b))/) || (t.length < 100 && t.match(/^(?:q(?:uestion)?\s*)?(\d{1,2})\b.{0,90}\s\(?([A-D])\)?$/)));
+      if (k && +k[1] <= 40 && !mcq[k[1]] && !/^(question|q)\s*\d+\s*\(/i.test(t)){ mcq[k[1]] = k[2]; if (!cur) continue; }
+      const hq = t.match(/^(?:question)?((?:\s*\d{1,2}){3,})$/i), ha = lines[i+1] && lines[i+1].text.match(/^(?:answers?)?((?:\s*[A-D]){3,})$/i);
       if (hq && ha){ const ns = hq[1].trim().split(/\s+/), as = ha[1].trim().split(/\s+/); ns.forEach((n,j)=>{ if(as[j]) mcq[n]=as[j]; }); i++; continue; }
-      const hd = L.x <= g.left + 0.06 && !RX.continued.test(t) && !/continues/i.test(t) ? t.match(/^(?:question|q)\s*(\d{1,2})\b\.?\s*((?:\(\s*[a-z]{1,4}\s*\)\s*)*)/i) : null;
-      if (hd){ cur = {label:normLabel(hd[1]+hd[2]), segs:[{p:p.n, si:i, ei:i, open:true}]}; regions.push(cur); startsByPage[p.n].push(L.top - 0.006); continue; }
-      if (RX.close.test(t)){ if (cur){ const last = cur.segs[cur.segs.length-1]; if (last && last.open){ last.open=false; last.endTop=L.top; } } cur = null; continue; }
-      if (RX.segEnd.test(t)){ if (cur){ const last = cur.segs[cur.segs.length-1]; if (last && last.open){ last.open=false; last.endTop=L.top; } } continue; }
-      if (cur){ const last = cur.segs[cur.segs.length-1]; if (last && last.p===p.n && last.open) last.ei = i; else cur.segs.push({p:p.n, si:i, ei:i, open:true}); }
+      let label = null;
+      if (atLeft && !RX.continued.test(t) && !/continues/i.test(t)){
+        for (const [rx, f] of SOLHEAD){ const m = t.match(rx); if (m && +m[1] >= 1 && +m[1] <= 60){ const [n, parts] = f(m); label = normLabel(n + parts); curNum = +n; curPart = (parts.match(/[a-h]/)||[])[0] || null; break; } }
+        if (!label){   // table rows: "15a", "16 a ii", or a bare next question number "14"
+          const m = t.match(/^(\d{1,2})\s*([a-h])(?:\s*\(?(i{1,3}|iv|vi{0,3})\)?)?(?=\s|$|[.:)])/i) || (curNum && t.match(/^(\d{1,2})(?=\s|$)/));
+          if (m && (+m[1] === curNum + 1 || (+m[1] === curNum && m[2]) || (!curNum && +m[1] >= 11)) && +m[1] <= 60){ curNum = +m[1]; curPart = m[2] ? m[2].toLowerCase() : null; label = normLabel(`${m[1]}${m[2] ? `(${m[2]})` : ""}${m[3] ? `(${m[3]})` : ""}`); }
+        }
+        if (!label && curNum){   // a part on its own: "(b)", "b)", "b", "bi", "c(ii)"
+          const pm = t.match(/^\(\s*([a-h])\s*\)|^([a-h])\s*\)|^([a-h])(?:\s*\(?(i{1,3}|iv|vi{0,3})\)?)?(?=\s|$)/);
+          const letter = pm && (pm[1]||pm[2]||pm[3]);
+          const next = curPart ? String.fromCharCode(curPart.charCodeAt(0)+1) : "a";
+          if (letter && (letter===next || (letter===curPart && pm[4]) || pm[1] || pm[2])){ curPart = letter; label = normLabel(`${curNum}(${letter})${pm[4] ? `(${pm[4]})` : ""}`); }
+        }
+      }
+      if (label){ closeSeg(); cur = {label, segs:[{p:p.n, si:i, ei:i, open:true}], text:[t]}; regions.push(cur); startsByPage[p.n].push(L.top - 0.006); continue; }
+      if (RX.close.test(t)){ closeSeg(L.top); cur = null; continue; }
+      if (RX.segEnd.test(t)){ closeSeg(L.top); continue; }
+      if (cur){ cur.text.push(t); const last = cur.segs[cur.segs.length-1]; if (last && last.p===p.n && last.open) last.ei = i; else cur.segs.push({p:p.n, si:i, ei:i, open:true}); }
     }
   }
   regions.forEach(r => r.segs = toBands("guide", pages, r.segs, startsByPage));
@@ -980,11 +1058,58 @@ function parseGuide(pages){
   }
   return {regions, mcq, grid};
 }
-function gridTopics(content, subject){
-  const allowed = topicsFor(subject); const out = [];
-  const codes = [...String(content).matchAll(/\b(MEX-[A-Z]\d|ME-[A-Z]\d|MA-[A-Z]\d)\b/g)].map(m=>m[1]);
-  for (const m of String(content).matchAll(/\bMod(?:ule)?\s*(\d)\b/gi)) codes.push("Module "+m[1]);
-  for (const c of codes){ const t = allowed.find(a => a===c || a.startsWith(c+" ") || a.startsWith(c+":")); if (t && !out.includes(t)) out.push(t); }
+/* Solutions that are a full annotated copy of the paper: split them like an exam, then use any labels the
+   heading parser missed */
+function guideFromPages(gpages, split, examItems){
+  const g = parseGuide(gpages);
+  const written = examItems.filter(it => it.type!=="mcq");
+  const covered = it => g.regions.some(r => labelCovers(it.label, r.label) || it.label.startsWith(r.label+"("));
+  const useWritten = written.length && written.filter(covered).length < written.length * 0.6;
+  const mcqLabels = new Set(examItems.filter(it => it.type==="mcq").map(it => it.label));
+  for (const it of splitExam(gpages, split)){
+    if (g.regions.some(r => labelCovers(it.label, r.label) || labelCovers(r.label, it.label))) continue;
+    const isMcqCopy = mcqLabels.has(it.label) && it.text.filter(t => /^\(?[A-D][.)]/.test(t)).length >= 3;   // a repeated multiple-choice question
+    if (isMcqCopy || (useWritten && !mcqLabels.has(it.label))) g.regions.push({label:it.label, segs:it.segs.map(s => ({...s, doc:"guide"})), text:it.text});
+  }
+  return g;
+}
+/* Where do the solutions start in a combined questions + solutions PDF? Signals: a marking-criteria table, an
+   answer-table header, a "Solutions"/"Marking scheme" title, or pages that repeat the paper (annotated copy). */
+const SOL_TITLE = /(^|[\s–\-:|])(solutions|worked solutions|marking (guidelines|guide|scheme|criteria)|suggested (answers|solutions)|answer key|answers|sample answers?)\s*($|[–\-:|&(]|and\b)/i;
+const INSTRUCTION = /writing booklet|answer sheet|answer booklet|spaces? provided|each question|show relevant|all relevant|black pen|reading time|working time|attempt questions|calculators|marks? for this|clearly indicate|use this space/i;
+function solScores(pages){
+  const sigs = new Map(), seenQ = new Set(); let firstQ = null; const out = [];
+  for (const p of pages){
+    const lines = p.lines.filter(L => !isNoise(L)); const r = {n:p.n, score:0, why:[]};
+    if (lines.length){
+      if (lines.some(L => /^(marking\s+)?criteria\b.{0,20}\b(marks?|mk)\b|^marks?\s+criteria\b|\bcriteria\s+(marks?|mk)$/i.test(L.text))){ r.score += 3; r.why.push("criteria table"); }
+      if (lines.some(L => /^(q|question)\s+(answers?|solutions?|working)\b/i.test(L.text))){ r.score += 3; r.why.push("answer table"); }
+      if (lines.some(L => L.top < 0.4 && L.text.length <= 100 && SOL_TITLE.test(L.text) && !INSTRUCTION.test(L.text) && !/^(answer|use|write|attempt|show|allow)\b/i.test(L.text))){ r.score += 2; r.why.push("title"); }
+      const skip = pageSkip(p.lines, p.lines.map(L=>!isNoise(L))) || /extra writing space|blank/i.test(lines.slice(0,3).map(L=>L.text).join(" "));
+      const sig = lines.slice(0,4).map(L => L.text.toLowerCase().replace(/[^a-z0-9]+/g,"")).join("|");
+      if (!skip && sig.length > 25){ if (sigs.has(sig) && firstQ){ r.score += 3; r.why.push("repeats page "+sigs.get(sig)); } else if (!sigs.has(sig)) sigs.set(sig, p.n); }
+      const nums = lines.filter(L => L.x < 0.3).map(L => (L.text.match(/^(?:question|q)\s*(\d{1,2})\b/i)||[])[1]).filter(Boolean).map(Number);
+      if (firstQ && nums.some(n => seenQ.has(n))){ r.score += 2; r.why.push("repeats question numbers"); }
+      nums.forEach(n => seenQ.add(n));
+      if (!firstQ && (nums.length || lines.some(L => /^1(\s|\.|\))/.test(L.text) && L.x < 0.3))) firstQ = p.n;
+    }
+    out.push(r);
+  }
+  return {out, firstQ};
+}
+function detectSolStart(pages){
+  const {out, firstQ} = solScores(pages); if (!firstQ) return null;
+  let i = out.findIndex(r => r.n > firstQ && r.score >= 2); if (i < 0) return null;
+  // If the page before is the solutions' own cover or repeated cover, start there
+  while (i > 0 && out[i-1].n > firstQ && out[i-1].why.some(w => w.startsWith("repeats page") || w==="title")) i--;
+  return out[i].n;
+}
+function gridTopics(content, subject, text){
+  const allowed = topicsFor(subject); const out = []; const c = String(content);
+  const push = t => { if (t && allowed.includes(t) && !out.includes(t)) out.push(t); };
+  for (const m of c.matchAll(/\b(MEX|ME|MA)[\s-]?([A-Z]\d)\b/g)) push(legacyTopic(`${m[1]}-${m[2]}`, text));
+  for (const m of c.matchAll(/\bM(?:od(?:ule)?)?\s*(\d)\b/g)) push(allowed.find(a=>a.startsWith(`Module ${m[1]}:`)));
+  const low = c.toLowerCase(); for (const a of allowed) if (low.includes(a.toLowerCase())) push(a);   // grids written with 2024 focus-area names
   return out;
 }
 const labelCovers = (item, g) => g===item || g.startsWith(item+"(");
@@ -994,83 +1119,122 @@ function applyGuide(items, guide, subject){
     if (it.type==="mcq" && guide.mcq[L]) it.ans = guide.mcq[L];
     const regs = guide.regions.filter(r => labelCovers(L, r.label)).length ? guide.regions.filter(r => labelCovers(L, r.label)) : guide.regions.filter(r => L.startsWith(r.label+"("));
     it.sol = regs.flatMap(r => r.segs.map(s=>({...s})));
+    it.solText = regs.flatMap(r => r.text||[]);
     const gs = guide.grid.filter(g => labelCovers(L, g.label));
     const gp = gs.length ? gs : guide.grid.filter(g => L.startsWith(g.label+"("));
     if (gp.length){
-      const tp = [...new Set(gp.flatMap(g => gridTopics(g.content, subject)))];
+      const txt = it.text.join(" ") + " " + it.solText.join(" ");
+      const tp = [...new Set(gp.flatMap(g => gridTopics(g.content, subject, txt)))];
       if (tp.length){ it.topics = tp.slice(0,3); it.topicSource = "grid"; }
     }
     if (gs.length){ const m = gs.reduce((a,g)=>a+g.marks,0); if (m && m!==it.marks){ it.marks = m; it.warn = ""; } else if (m) it.warn = ""; }
   }
 }
 
-/* Keyword topic tagging, used when the marking guide has no mapping grid */
-const TOPIC_KW = {
-  "MA-F1": /domain|range|quadratic|linear function|parabola|gradient|odd function|even function|composite|f\s*\(\s*g\s*\(/gi,
-  "MA-F2": /transform|translat|dilat|reflect(ed|ion) in|horizontal(ly)? shift|vertical(ly)? shift|y\s*=\s*k\s*f|y\s*=\s*f\s*\(\s*kx/gi,
-  "MA-T1": /radian|arc length|sector|sine rule|cosine rule|bearing|angle of (elevation|depression)|area of (the )?triangle/gi,
-  "MA-T2": /identit|sec\b|cosec|cot\b|prove that|tan\s*\^?2|sin\s*\^?2/gi,
-  "MA-T3": /period|amplitude|phase|graph of y\s*=\s*\w*\s*(sin|cos|tan)/gi,
-  "MA-C1": /first principles|average rate|rate of change|instantaneous/gi,
-  "MA-C2": /differentiat|derivative|dy\s*\/?\s*dx|chain rule|product rule|quotient rule/gi,
-  "MA-C3": /stationary|turning point|concav|inflexion|inflection|maximum|minimum|second derivative|increasing|decreasing|optimi/gi,
-  "MA-C4": /integra|∫|⌠|area (bounded|between|under|enclosed)|trapezoidal|primitive|antiderivative/gi,
-  "MA-E1": /\blog|\bln\b|exponential|e\s*\^/gi,
-  "MA-M1": /interest|annuit|loan|invest|depreciat|arithmetic (sequence|series|progression)|geometric (sequence|series|progression)|limiting sum|future value|present value|superannuation|repayment/gi,
-  "MA-S1": /probabilit|dice|coin|venn|independent|mutually exclusive|conditional|tree diagram/gi,
-  "MA-S2": /median|correlation|regression|line of best fit|bivariate|scatter|outlier|interquartile|box.?plot|pearson|least.squares/gi,
-  "MA-S3": /normal distribution|z.?score|probability density|cumulative distribution|continuous random|standard normal|expected value|variance|discrete random/gi,
-  "ME-F1": /inverse function|parametric|inequalit|absolute value|\|\s*x\s*\||reciprocal/gi,
-  "ME-F2": /polynomial|roots?\b|zeros? of|remainder|factor theorem|α|β|alpha|beta|monic/gi,
-  "ME-T1": /arcsin|arccos|arctan|sin\s*[−-]\s*1|cos\s*[−-]\s*1|tan\s*[−-]\s*1|inverse trig/gi,
-  "ME-T2": /compound angle|double angle|t\s*=\s*tan|t.formula|R\s*sin|R\s*cos|sum to product/gi,
-  "ME-T3": /general solution|solve.*(sin|cos|tan)|trigonometric equation/gi,
-  "ME-C1": /related rate|rate at which|newton.{0,10}cooling|exponential (growth|decay)|dV\s*\/\s*dt|dh\s*\/\s*dt|dr\s*\/\s*dt/gi,
-  "ME-C2": /substitution|integrate|sin\s*2\s*x|cos\s*2\s*x|derivative of.*inverse/gi,
-  "ME-C3": /volume|rotat|revolution|differential equation|slope field|direction field|separat(ion|e) of variables|logistic/gi,
-  "ME-A1": /arrange|permutation|combination|pigeonhole|committee|how many ways|binomial (expansion|theorem|coefficient)|coefficient of|pascal|chosen/gi,
-  "ME-P1": /induction/gi,
-  "ME-V1": /vector|projectile|projection|scalar product|dot product|unit vector/gi,
-  "ME-S1": /binomial distribution|bernoulli|sample proportion|normal approximation|p̂/gi,
-  "MEX-P1": /prove|proof|contradiction|contrapositive|converse|inequality|for all (real|positive)/gi,
-  "MEX-P2": /induction/gi,
-  "MEX-V1": /vector|three dimension|3D|sphere|\(\s*x\s*,\s*y\s*,\s*z\s*\)|line .* passes through/gi,
-  "MEX-N1": /complex|modulus|argument|conjugate|argand|\bz\s*=|re\s*\(|im\s*\(/gi,
-  "MEX-N2": /de moivre|roots of unity|locus|cis\b|e\s*\^\s*i/gi,
-  "MEX-C1": /integra|∫|⌠|partial fraction|by parts/gi,
-  "MEX-M1": /resist|terminal velocity|simple harmonic|SHM|particle|acceleration|velocity|displacement|kg\b/gi,
-  "Module 1": /displacement.time|velocity.time|uniform acceleration|relative velocity|kinematic/gi,
-  "Module 2": /friction|newton'?s (first|second|third)|momentum|impulse|collision|kinetic energy|work done|inclined plane/gi,
-  "Module 3": /wavelength|frequency|\bwaves?\b|sound|doppler|resonan|specific heat|thermal|refraction|standing wave|beats|intensity/gi,
-  "Module 4": /electric field|charge|coulomb|current|resistan|circuit|ohm|potential difference/gi,
-  "Module 5": /projectile|circular motion|centripetal|orbit|satellite|gravitational|kepler|escape velocity|banked|torque/gi,
-  "Module 6": /motor|generator|transformer|induct|lenz|faraday|emf|magnetic flux|eddy|solenoid|magnetic field/gi,
-  "Module 7": /photoelectric|photon|black.?body|wien|planck|polari|malus|diffraction|double.slit|young|relativ|time dilation|length contraction|maxwell|spectr|speed of light/gi,
-  "Module 8": /nucle|radioactiv|half.?life|decay|fission|fusion|binding energy|mass defect|bohr|rutherford|quark|lepton|hadron|standard model|de broglie|hertzsprung|\bstars?\b|big bang|hubble|thomson|millikan|chadwick|cathode ray/gi,
-};
-const CHEM_KW = {
-  "Module 1": /isotope|electron configuration|periodic|ionisation energy|electronegativ|mixture|separation|atomic structure|intermolecular|ionic|covalent|metallic/gi,
-  "Module 2": /\bmoles?\b|molar mass|avogadro|empirical formula|percentage composition|dilution|limiting reagent|ideal gas|gas law|stoichiometr/gi,
-  "Module 3": /precipitat|galvanic|oxidation|reduction|redox|reactivity series|displacement reaction|rate of reaction|activation energy|catalyst|combustion/gi,
-  "Module 4": /enthalpy|ΔH|entropy|ΔS|gibbs|ΔG|calorimet|hess|bond energ|spontaneous|exothermic|endothermic|heat of combustion/gi,
-  "Module 5": /equilibrium|le chatelier|K\s*eq|K\s*sp|solubility product|reversible|closed system/gi,
-  "Module 6": /\bacids?\b|\bbases?\b|\bpH\b|titration|buffer|conjugate|indicator|neutralis|br[øo]nsted|\bKa\b|pKa|conductometric/gi,
-  "Module 7": /alkan|alken|alkyn|alcohol|carboxylic|ester|amine|amide|polymer|isomer|IUPAC|haloalkane|functional group|soap|detergent|fuel|hydrocarbon/gi,
-  "Module 8": /mass spectr|infrared|IR spectrum|NMR|chemical shift|flame test|atomic absorption|AAS|colorimetr|UV.?vis|qualitative|quantitative analysis|cation|anion|synthesis/gi,
-};
-function keywordTopics(text, subject){
-  const allowed = topicsFor(subject); const kw = subject==="Chemistry" ? CHEM_KW : TOPIC_KW;
-  const scores = allowed.map(a => { const code = Object.keys(kw).find(k => a===k || a.startsWith(k+" ") || a.startsWith(k+":")); const rx = code && kw[code];
-    if (subject!=="Chemistry" && subject!=="Physics" && code && code.startsWith("Module")) return [a,0];
-    if ((subject==="Physics") !== (code||"").startsWith("Module") && subject!=="Chemistry") return [a,0];
-    return [a, rx ? (String(text).match(rx)||[]).length : 0]; }).filter(x=>x[1]>0).sort((x,y)=>y[1]-x[1]);
-  if (!scores.length) return [];
-  return scores.filter((s,i)=> i===0 || (i===1 && s[1]>=scores[0][1]*0.75)).map(s=>s[0]);
+/* ---------- Topic classifier ----------
+   A linear SVM per subject over words and letter patterns from the question and its solution, trained on every
+   NESA HSC exam since the current syllabuses (2019–2025), labelled by NESA's own mapping grids (model.json).
+   Questions in your bank are used too: a near-identical saved question reuses your topics, and similar ones
+   nudge the scores, so corrections you save improve later tagging. */
+const STOP = new Set(("the a an of and or to in on for is are be by with that this from as at it its which what when where who why how find show hence given using use used value values " +
+  "each following diagram shown below above answer answers marks mark question questions part parts your their there these those then than into not all any can has have may must will " +
+  "one two three four five first second third correct correctly provides provide gives give obtains obtain equivalent merit sample criteria working calculate determine explain " +
+  "write state let such so if do does done also only both other same some more most less very per about between up out over under nesa hsc page continues continued end").split(" "));
+function tokenize(text){
+  const t = String(text||"").toLowerCase().normalize("NFKD")
+    .replace(/[∫⌠⌡]/g," zint ").replace(/√/g," zsqrt ").replace(/[Σ∑]/g," zsum ").replace(/[≤≥]/g," zineq ").replace(/[→⟶]/g," zarrow ").replace(/[ḭj̰ṵv̰a̰b̰c̰]/g," zvec ")
+    .replace(/[′']/g," zprime ").replace(/\|/g," zabs ").replace(/°/g," zdeg ").replace(/%/g," zpct ").replace(/\$/g," zdollar ");
+  const w = (t.match(/[a-z]{2,}/g)||[]).filter(x => !STOP.has(x));
+  const out = w.slice();
+  for (let i=0;i+1<w.length;i++) out.push(w[i]+"_"+w[i+1]);
+  return out;
+}
+let MODEL = null, MODEL_PROMISE = null;
+function loadModel(){ return MODEL_PROMISE ||= fetch("model.json").then(r => r.ok ? r.json() : null).then(m => (MODEL = m)).catch(() => null); }
+function charGrams(text){   // same as scikit-learn's char_wb analyser, n = 2..4
+  const out = new Map();
+  for (const word of text.split(" ")){ if (!word) continue; const w = " " + word + " ";
+    for (let n=2;n<=4;n++){ let o = 0; for (;;){ const g = w.slice(o, o+n); out.set(g, (out.get(g)||0)+1); if (o+n >= w.length) break; o++; } if (o===0 && n >= w.length) break; } }
+  return out;
+}
+function featureVector(sm, qText, sText){   // {feature: tf-idf weight}, two L2-normalised blocks as in training
+  const wc = new Map(); const add = (k,c=1) => wc.set(k, (wc.get(k)||0)+c);
+  for (const t of tokenize(qText)) add("w|"+t);
+  for (const t of tokenize(sText)){ add("w|s:"+t); add("w|"+t); }
+  const raw = (qText + " " + sText).toLowerCase().replace(/\s+/g," ").trim();
+  const cc = new Map(); for (const [g,c] of charGrams(raw)) cc.set("c|"+g, c);
+  const x = {};
+  for (const block of [wc, cc]){
+    let norm = 0; const part = [];
+    for (const [k,c] of block){ const f = sm.f[k]; if (!f) continue; const v = (1 + Math.log(c)) * f[0]; part.push([k,v]); norm += v*v; }
+    norm = Math.sqrt(norm) || 1; for (const [k,v] of part) x[k] = v / norm;
+  }
+  return x;
+}
+const bankVecs = new Map();
+function bankVectors(subject, sm){
+  if (bankVecs.has(subject)) return bankVecs.get(subject);
+  const list = S.questions.filter(q => q.subject===subject && (q.topics||[]).length && (q.text || q.solText))
+    .map(q => ({topics:q.topics, x:featureVector(sm, q.text||"", q.solText||"")}));
+  bankVecs.set(subject, list); return list;
+}
+function cosine(a, b){ let s = 0; for (const k in a) if (b[k]) s += a[k]*b[k]; return s / 2; }   // each vector has two unit blocks
+function classifyTopics(subject, qText, sText){
+  const sm = MODEL && MODEL.subjects && MODEL.subjects[subject];
+  const allowed = topicsFor(subject);
+  if (!sm) return {topics:[], conf:"none"};
+  const x = featureVector(sm, qText, sText);
+  const score = {}; sm.topics.forEach((t,i) => score[t] = sm.b[i]);
+  for (const k in x){ const f = sm.f[k]; for (let j=1;j<f.length;j+=2) score[sm.topics[f[j]]] += x[k] * f[j+1]; }
+  // Your bank: reuse topics of a near-identical question, otherwise nudge towards topics of similar ones
+  const sims = bankVectors(subject, sm).map(b => [cosine(x, b.x), b]).filter(s => s[0] > 0.25).sort((a,b)=>b[0]-a[0]).slice(0,5);
+  if (sims.length && sims[0][0] >= 0.8) return {topics:sims[0][1].topics.filter(t=>allowed.includes(t)), conf:"bank"};
+  for (const [s,b] of sims) for (const t of b.topics) score[t] = (score[t] ?? -1) + 0.8*s/b.topics.length;
+  const ranked = Object.entries(score).filter(([t]) => allowed.includes(t)).sort((a,b)=>b[1]-a[1]);
+  if (!ranked.length) return {topics:[], conf:"none"};
+  const pick = [ranked[0][0]]; if (ranked[1] && ranked[1][1] > 0) pick.push(ranked[1][0]);
+  const conf = !ranked[1] || ranked[0][1] - ranked[1][1] > 0.15 ? "high" : "low";   // ~90% right when high (held-out NESA years)
+  return {topics:pick, conf};
 }
 function tagTopics(items, subject){
-  for (const it of items) if (!it.topics.length){ it.topics = keywordTopics(it.text.join(" "), subject); if (it.topics.length) it.topicSource = "keywords"; }
+  for (const it of items){
+    if (it.topics.length) continue;
+    const r = classifyTopics(subject, it.text.join(" "), (it.solText||[]).join(" "));
+    it.topics = r.topics; it.topicConf = r.conf;
+    if (r.topics.length) it.topicSource = r.conf==="bank" ? "bank" : "model";
+  }
 }
 
+/* Annotated-copy solutions mark the answer by circling its letter or printing the option in colour:
+   score each A–D option by coloured pixels on its line plus new ink in a box around its letter */
+async function inferMcqAnswers(items, examPages, solPages){
+  const px = new Map();
+  const pixels = async (p) => { if (!px.has(p)){ const img = await loadImg(p.url); const c = document.createElement("canvas"); c.width = p.w; c.height = p.h;
+    const ctx = c.getContext("2d", {willReadFrequently:true}); ctx.drawImage(img, 0, 0); px.set(p, ctx.getImageData(0, 0, p.w, p.h).data); c.width = c.height = 0; } return px.get(p); };
+  const count = (d, W, H, t, b, x0, x1, test) => { let n = 0; const y0 = Math.max(0, Math.floor(t*H)), y1 = Math.min(H-1, Math.ceil(b*H)), a = Math.max(0, Math.floor(x0*W)), z = Math.min(W-1, Math.ceil(x1*W));
+    for (let y=y0; y<=y1; y++){ const row = y*W*4; for (let x=a; x<=z; x++){ const k = row + x*4; if (test(d[k], d[k+1], d[k+2])) n++; } } return n; };
+  const dark = (r,g,b) => r+g+b < 600, colour = (r,g,b) => Math.max(r,g,b) - Math.min(r,g,b) > 70 && r+g+b < 650;
+  for (const it of items){
+    if (it.type!=="mcq" || it.ans || !it.sol.length || !it.segs.length) continue;
+    const es = it.segs[0], ss = it.sol[0];
+    const ep = examPages.find(p=>p.n===es.p), sp = solPages.find(p=>p.n===ss.p); if (!ep || !sp || !ep.url || !sp.url) continue;
+    const optsIn = (page, band) => { const o = {}; for (const L of page.lines){ if (L.top < band.t - 0.01 || L.top > band.b) continue; const m = L.text.match(/^\(?([A-D])[.)]/); if (m && !o[m[1]]) o[m[1]] = L; } return o; };
+    const opts = optsIn(ep, es); if (Object.keys(opts).length < 4) continue;
+    const sopts = optsIn(sp, {t:ss.t, b:it.sol[it.sol.length-1].p===ss.p ? it.sol[it.sol.length-1].b : 1});
+    if (Object.keys(sopts).length < 4) continue;
+    try {
+      const de = await pixels(ep), ds = await pixels(sp);
+      const sc = Object.entries(opts).map(([k,L]) => {
+        const t = L.top - 0.006, b = L.bot + 0.006, tk = L.toks[0], x0 = tk.x - 0.03, x1 = (tk.xr || tk.x + 0.03) + 0.03;
+        const SL = sopts[k], st = SL.top - 0.006, sb = SL.bot + 0.006, sx = SL.toks[0].x - tk.x;
+        const col = count(ds, sp.w, sp.h, st-0.01, sb+0.01, x0+sx, x1+sx, colour) - count(de, ep.w, ep.h, t-0.01, b+0.01, x0, x1, colour);
+        const circ = count(ds, sp.w, sp.h, st-0.01, sb+0.01, x0+sx, x1+sx, dark) - count(de, ep.w, ep.h, t-0.01, b+0.01, x0, x1, dark);
+        return [k, Math.max(0, col) + Math.max(0, circ)];
+      }).sort((a,b)=>b[1]-a[1]);
+      if (sc[0][1] > 30 && sc[0][1] > 2*Math.max(sc[1][1], 10)){ it.ans = sc[0][0]; it.ansGuess = true; }
+    } catch {}
+  }
+}
 /* Shrink each crop's bottom edge to the last row of ink, so papers don't carry blank space */
 async function trimBands(pages, bands){
   const cache = new Map();
@@ -1088,9 +1252,15 @@ async function trimBands(pages, bands){
     if (last > 0) s.b = r4(Math.min(s.b, (last + 16)/H));
   }
 }
+/* Some PDFs have fonts with no real character mapping, so their text layer is gibberish: read those with OCR */
+function garbled(lines){
+  const chars = lines.map(L=>L.text).join(" ").replace(/[\s.…_·\-–—]/g,""); if (chars.length < 60) return false;
+  return (chars.match(/\p{L}/gu)||[]).length / chars.length < 0.25;
+}
 async function analyseFree(){
   I.status = "analysing"; I.err = ""; I.stopReason = ""; I.pfail = ""; renderImport();
-  const all = [...I.pages.map(p=>["exam",p]), ...I.gpages.map(p=>["guide",p])];
+  const all = [...I.allPages.map(p=>["exam",p]), ...I.gfilePages.map(p=>["guide",p])];
+  for (const [w,p] of all) if (!p.ocr && garbled(p.lines)){ p.lines = []; p.garbled = true; }
   const scanned = all.filter(([w,p]) => p.lines.length < 3 && I.pstate[w+p.n]!=="done");
   all.forEach(([w,p]) => { if (!scanned.includes(all.find(x=>x[1]===p))) I.pstate[w+p.n] = "done"; else I.pstate[w+p.n] = "queued"; });
   renderImportProgress();
@@ -1101,13 +1271,22 @@ async function analyseFree(){
     renderImportProgress();
   }
   I.ocrNote = "";
+  markRepeats(I.allPages); if (I.gfilePages.length) markRepeats(I.gfilePages);
   const split = I.split || SUBJECTS[I.subject].split;
+  if (I.gfilePages.length){ I.solStart = null; I.pages = I.allPages; I.gpages = I.gfilePages; }
+  else {
+    I.solAuto = detectSolStart(I.allPages);
+    I.solStart = I.solStartManual === undefined ? I.solAuto : I.solStartManual;
+    I.pages = I.solStart ? I.allPages.filter(p => p.n < I.solStart) : I.allPages;
+    I.gpages = I.solStart ? I.allPages.filter(p => p.n >= I.solStart) : [];
+  }
   I.items = splitExam(I.pages, split);
-  if (I.gpages.length){ const g = parseGuide(I.gpages); applyGuide(I.items, g, I.subject); I.gridFound = g.grid.length > 0; }
-  tagTopics(I.items, I.subject);
+  if (I.gpages.length){ const g = guideFromPages(I.gpages, split, I.items); applyGuide(I.items, g, I.subject); I.gridFound = g.grid.length > 0; }
+  if (I.gpages.length) try { await inferMcqAnswers(I.items, I.pages, I.gpages); } catch {}
+  await loadModel(); tagTopics(I.items, I.subject);
   try { await trimBands(I.pages, I.items.flatMap(it=>it.segs)); await trimBands(I.gpages, I.items.flatMap(it=>it.sol)); } catch {}
   if (!I.items.length) I.err = "No questions were recognised in this PDF. Check the subject and how questions are split, or add questions by hand.";
-  else if (scanned.length) I.err = `${scanned.length} page${scanned.length>1?"s were":" was"} scanned, so the text was read with OCR. Check those crops carefully.`;
+  else if (scanned.length) I.err = `${scanned.length} page${scanned.length>1?"s were":" was"} scanned or had unreadable text, so ${scanned.length>1?"they were":"it was"} read with OCR. Check those crops carefully.`;
   I.status = "review"; renderImport();
 }
 
@@ -1240,8 +1419,7 @@ function buildItems(){
 }
 function matchTopic(t, allowed){
   t = String(t||"").trim(); if (allowed.includes(t)) return t;
-  const code = a => (a.match(/^(MEX?-[A-Z]\d|MA-[A-Z]\d|Module \d)/)||[])[0];
-  return allowed.find(a => code(a) && t.toLowerCase().includes(code(a).toLowerCase())) || allowed.find(a => a.toLowerCase()===t.toLowerCase()) || null;
+  return allowed.find(a => a.toLowerCase()===t.toLowerCase()) || allowed.find(a => t.toLowerCase().includes(a.toLowerCase())) || null;
 }
 function attachGuide(){
   const entries = []; const mcq = {};
@@ -1290,19 +1468,24 @@ function topicPicker(item, onChange, subject){
   };
   draw(); return box;
 }
+function topicNote(it){
+  return it.topicSource==="grid" ? "from NESA mapping grid" : it.topicSource==="bank" ? "matches a question in your bank"
+    : it.topicSource==="model" ? (it.topicConf==="low" ? "suggested, unsure – please check" : "suggested") : "";
+}
+function needsCheck(it){ return !it.topics.length || !!it.warn || (it.topicSource==="model" && it.topicConf==="low"); }
 function renderReview(){
   const list = $("#reviewList"); if (!list) return; list.replaceChildren();
   const marks = I.items.reduce((a,it)=>a+(it.marks||0),0);
-  const flagged = I.items.filter(it=>!it.topics.length).length;
+  const flagged = I.items.filter(needsCheck).length;
   const sum = $("#reviewSum");
-  if (sum) sum.textContent = `${I.items.length} questions · ${marks} marks detected` + (flagged?` · ${flagged} need a topic`:"");
+  if (sum) sum.textContent = `${I.items.length} questions · ${marks} marks detected` + (flagged?` · ${flagged} to check`:"");
   I.items.forEach((it, i) => {
     const solBox = h("details",{},
       h("summary",{}, `Marking guide (${it.sol.length ? it.sol.length+" crop"+(it.sol.length>1?"s":"") : "none matched"})`),
       h("div",{class:"crops", style:"margin-top:8px"},
         it.sol.map((s,j)=>segEditor(it, it.sol, j)),
         I.gpages.length ? h("button",{class:"sm", style:"align-self:flex-start", onclick:()=>{ it.sol.push({doc:"guide", p:I.gpages[0].n, t:0.1, b:0.4}); renderReview(); }},"+ Add marking guide crop") : h("span",{class:"muted", style:"font-size:.85rem"},"No marking guide PDF uploaded.")));
-    list.append(h("div",{class:"item"+(it.topics.length && !it.warn?"":" flag")},
+    list.append(h("div",{class:"item"+(needsCheck(it)?" flag":"")},
       h("div",{class:"crops"},
         it.segs.map((s,j)=>segEditor(it, it.segs, j)),
         h("button",{class:"sm", style:"align-self:flex-start", onclick:()=>{ const last=it.segs[it.segs.length-1]; const np = last ? Math.min(last.p+1, I.pages[I.pages.length-1].n) : I.pages[0].n; it.segs.push({doc:"exam", p:np, t:0.05, b:0.3}); renderReview(); }},"+ Add continuation crop"),
@@ -1315,7 +1498,7 @@ function renderReview(){
           h("option",{value:"written", selected:it.type==="written"},"Written response"), h("option",{value:"mcq", selected:it.type==="mcq"},"Multiple choice"))),
         it.type==="mcq" ? h("label",{class:"f"},"Correct answer", h("select",{onchange:e=>{it.ans=e.target.value;}}, ["","A","B","C","D"].map(a=>h("option",{value:a, selected:it.ans===a}, a||"Unknown")))) : null,
         it.warn ? h("div",{class:"note warn", style:"font-size:.82rem;padding:6px 10px"}, it.warn) : null,
-        h("div",{}, h("div",{class:"eyebrow", style:"margin-bottom:4px"},"Topics", it.topicSource==="keywords" ? h("span",{style:"text-transform:none;letter-spacing:0"}," · guessed from keywords") : it.topicSource==="grid" ? h("span",{style:"text-transform:none;letter-spacing:0"}," · from mapping grid") : null), topicPicker(it, ()=>{ it.topicSource=""; renderReviewFlags(); })),
+        h("div",{}, h("div",{class:"eyebrow", style:"margin-bottom:4px"},"Topics", topicNote(it) ? h("span",{style:"text-transform:none;letter-spacing:0"}," · "+topicNote(it)) : null), topicPicker(it, ()=>{ it.topicSource="you"; it.topicConf=""; renderReviewFlags(); })),
         h("div",{class:"row"},
           i>0 ? h("button",{class:"sm", title:"Merge into the question above", onclick:()=>{ const prev=I.items[i-1]; prev.segs.push(...it.segs); prev.sol.push(...it.sol); prev.marks+=it.marks; I.items.splice(i,1); renderReview(); }},"Merge up") : null,
           h("button",{class:"sm danger", onclick:()=>{ I.items.splice(i,1); renderReview(); }},"Delete")))));
@@ -1323,8 +1506,8 @@ function renderReview(){
   if (!I.items.length) list.append(h("div",{class:"note"},"No questions yet. Use Add question to crop one by hand."));
 }
 function renderReviewFlags(){
-  document.querySelectorAll("#reviewList .item").forEach((el,i)=>el.classList.toggle("flag", !I.items[i]?.topics.length));
-  const sum=$("#reviewSum"); if (sum){ const f=I.items.filter(it=>!it.topics.length).length; sum.textContent = sum.textContent.replace(/ · \d+ need a topic/,"") + (f?` · ${f} need a topic`:""); }
+  document.querySelectorAll("#reviewList .item").forEach((el,i)=>el.classList.toggle("flag", !!I.items[i] && needsCheck(I.items[i])));
+  const sum=$("#reviewSum"); if (sum){ const f=I.items.filter(needsCheck).length; sum.textContent = sum.textContent.replace(/ · \d+ to check/,"") + (f?` · ${f} to check`:""); }
 }
 function renderImportProgress(){
   const box = $("#impProgress"); if (!box) return; box.replaceChildren();
@@ -1338,9 +1521,10 @@ function renderImportProgress(){
       h("div",{class:"stat"}, `${title}: ${done} of ${pages.length} pages analysed`),
       h("div",{class:"pagechips"}, pages.map(p => h("span",{class:"pc "+(I.pstate[which+p.n]||""), title:I.pstate[which+p.n]||"waiting"}, p.n))));
   };
-  box.append(sec("exam", I.pages, "Exam") || "", sec("guide", I.gpages, "Marking guide") || "");
+  const ex = API.method==="claude" ? I.pages : I.allPages, gd = API.method==="claude" ? I.gpages : I.gfilePages;
+  box.append(sec("exam", ex, I.gfilePages.length ? "Exam" : "Paper") || "", sec("guide", gd, "Marking guidelines") || "");
   if (I.stopReason) box.append(h("div",{class:"note bad"}, I.stopReason));
-  else if (I.pfail && [...I.pages.map(p=>"exam"+p.n), ...I.gpages.map(p=>"guide"+p.n)].some(k=>I.pstate[k]==="failed")) box.append(h("div",{class:"note warn"}, "Some pages failed: "+I.pfail));
+  else if (I.pfail && [...ex.map(p=>"exam"+p.n), ...gd.map(p=>"guide"+p.n)].some(k=>I.pstate[k]==="failed")) box.append(h("div",{class:"note warn"}, "Some pages failed: "+I.pfail));
 }
 
 function renderImport(){
@@ -1383,7 +1567,7 @@ function renderImport(){
     h("div",{class:"stat"},"Saved as: ", h("b",{id:"srcName"}, sourceName())));
   const files = h("div",{class:"panel stack"},
     h("div",{class:"eyebrow"},"2 · PDFs from THSC Online"),
-    h("div",{class:"drop"}, fileBox("exam","Exam paper","Required · the question booklet PDF"), fileBox("guide","Marking guidelines","Optional · solutions or marking guide PDF")),
+    h("div",{class:"drop"}, fileBox("exam","Paper","Required · the questions, plus solutions if they're in the same PDF"), fileBox("guide","Separate solutions","Optional · only if the marking guidelines are a separate PDF")),
     h("div",{id:"impProgress", class:"stack", style:"gap:10px"}),
     I.status==="idle" ? h("div",{class:"row"},
       h("button",{class:"primary", id:"analyseBtn", disabled:!I.examFile, onclick:startImport},"Split into questions"),
@@ -1404,24 +1588,36 @@ function renderImport(){
         h("button",{class:"ghost", onclick:resetImport},"Start over"),
         h("button",{class:"primary", disabled:!I.items.length, onclick:saveImport},"Save to bank")),
       I.err ? h("div",{class:"note warn"}, I.err) : null,
+      API.method!=="claude" && !I.gfilePages.length ? solControl() : null,
       h("div",{class:"note"}, `Drag the Top and Bottom sliders to adjust a crop. A question split across pages gets a continuation crop. Expected total for an HSC ${cfg.short} paper: ${cfg.total} marks.`),
       h("div",{class:"items", id:"reviewList"}));
     body.append(rv);
     renderReview();
   }
 }
+function solControl(){
+  const last = I.allPages.length ? I.allPages[I.allPages.length-1].n : 0;
+  const msg = I.solStart ? `Questions: pages 1–${I.solStart-1} · Solutions: pages ${I.solStart}–${last}` + (I.solStart===I.solAuto ? " (found automatically)" : "")
+    : I.solAuto===null && I.solStartManual===undefined ? "No solutions found in this PDF. If they're at the back, enter the page they start on." : "Solutions turned off for this PDF.";
+  const inp = h("input",{type:"number", id:"solStart", min:"2", max:String(last), placeholder:"none", value:I.solStart||"", style:"width:90px"});
+  return h("div",{class:"panel row", style:"align-items:center;padding:12px 14px"},
+    h("span",{style:"margin-right:auto;font-size:.92rem"}, msg),
+    h("label",{class:"f", style:"flex:0 0 auto;flex-direction:row;align-items:center;gap:8px"}, "Solutions start on page", inp),
+    h("button",{class:"sm", onclick:()=>{ const v = parseInt(inp.value); I.solStartManual = v>=2 && v<=last ? v : null; analyseFree(); }},"Re-split"));
+}
 async function startImport(){
   I.status="loading"; I.err=""; renderImport();
   try {
     if (!window.pdfjsLib) throw new Error("The PDF reader didn't load. Reload the page and try again.");
-    I.pages = await renderPdfPages(I.examFile, "exam");
-    I.gpages = I.guideFile ? await renderPdfPages(I.guideFile, "guide") : [];
+    I.allPages = await renderPdfPages(I.examFile, "exam");
+    I.gfilePages = I.guideFile ? await renderPdfPages(I.guideFile, "guide") : [];
+    I.pages = I.allPages; I.gpages = I.gfilePages; I.solStartManual = undefined;
   } catch(e){ I.status="idle"; I.loading=null; renderImport(); $("#impProgress").append(h("div",{class:"note bad"}, "This PDF couldn't be read: "+errMsg(e))); return; }
   if (API.method==="claude") await analyse("exam"); else await analyseFree();
 }
 function resetImport(){
-  [...I.pages, ...I.gpages].forEach(p=>URL.revokeObjectURL(p.url));
-  Object.assign(I, {examFile:null, guideFile:null, pages:[], gpages:[], status:"idle", pstate:{}, results:{exam:{},guide:{}}, items:[], stopReason:"", err:""});
+  [...I.allPages, ...I.gfilePages].forEach(p=>p.url && URL.revokeObjectURL(p.url));
+  Object.assign(I, {examFile:null, guideFile:null, pages:[], gpages:[], allPages:[], gfilePages:[], solStart:null, solAuto:null, solStartManual:undefined, status:"idle", pstate:{}, results:{exam:{},guide:{}}, items:[], stopReason:"", err:""});
   renderImport();
 }
 async function saveImport(){
@@ -1439,7 +1635,8 @@ async function saveImport(){
     const meta = {subject:I.subject, source:sourceName(), year:I.year, kind:I.kind};
     const paperId = uid()+uid();
     const qs = items.map((it,i) => ({id:uid()+uid(), ...meta, paperId, label:it.label, type:it.type, marks:it.marks, topics:it.topics,
-      segs:it.segs.map(conv), sol:it.sol.map(conv), ans:it.ans||"", pos: items.length>1 ? r4(i/(items.length-1)) : 0, createdAt:Date.now()}));
+      segs:it.segs.map(conv), sol:it.sol.map(conv), ans:it.ans||"",
+      text:(it.text||[]).join(" ").slice(0,4000), solText:(it.solText||[]).join(" ").slice(0,4000), pos: items.length>1 ? r4(i/(items.length-1)) : 0, createdAt:Date.now()}));
     await Store.savePaper({id:paperId, ...meta, createdAt:Date.now(), questionCount:qs.length, totalMarks:qs.reduce((a,q)=>a+q.marks,0), assetIds:Object.values(map).map(m=>m.a)}, qs);
     I.saving = null; const src = meta.source; resetImport();
     bankMsg = `Saved ${qs.length} questions from ${src}.`; location.hash = "#bank"; renderBank();
