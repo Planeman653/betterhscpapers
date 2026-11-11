@@ -6,9 +6,18 @@ Subjects: Mathematics Advanced, Mathematics Extension 1, Mathematics Extension 2
 
 ## Using it
 
-1. **Import papers** – add a Claude API key under *Claude settings* (create one at console.anthropic.com), then upload an exam PDF and, optionally, its marking guidelines PDF. Claude finds each question's crop, label, marks and syllabus topic, and matches marking-guide regions and multiple-choice answers. Review and adjust crops, then save. Without a key, questions can be cropped by hand.
+1. **Import papers** – upload an exam PDF and, optionally, its marking guidelines PDF. The site splits the paper into questions in your browser, for free:
+   - Question numbers, lettered parts and margin marks are read from the PDF's text layer.
+   - Topics come from the **mapping grid** at the end of NESA marking guidelines. Without one (e.g. trial papers), topics are guessed from keywords.
+   - The marking guide is split by its "Question 11 (a)" headings, and the multiple-choice answer key is read automatically.
+   - Scanned PDFs (no text layer) are read with OCR (Tesseract.js), also in the browser.
+   - You review and adjust every crop before saving.
 2. **Build paper** – choose subject, total marks, number of multiple-choice questions, HSC/trial sources, year range and topics. Questions are picked to hit the mark total exactly, spread across topics, and ordered by their position in the original paper. *Swap* replaces a question with another worth the same marks.
 3. **Download** the paper and marking guide as A4 PDFs.
+
+Tested on the 2022 NESA HSC papers for Maths Advanced, Maths Extension 1, Physics and Chemistry: every question found, marks matched the paper totals exactly, and every topic came from the mapping grid.
+
+Optional: *Splitting method → Claude API* uses a Claude API key instead (paid per use). The free method is the default.
 
 ## Where data lives
 
@@ -17,13 +26,13 @@ Subjects: Mathematics Advanced, Mathematics Extension 1, Mathematics Extension 2
 
 To publish your imports for everyone: *Question bank → Export bank* downloads `hsc-question-bank.zip`. Unzip it at the repo root (it replaces the `bank/` folder) and commit. *Import bank* loads a zip into another browser.
 
-## API key
+## Optional Claude API method
 
-The key is saved only in your browser's localStorage and sent only to `api.anthropic.com` (direct browser access). Splitting uses your API credit, roughly one request per four pages. Never commit a key to this repo.
+Only used if you switch the splitting method to Claude API. The key is saved only in your browser's localStorage and sent only to `api.anthropic.com`. Never commit a key to this repo.
 
 ## Hosting
 
-GitHub Pages, deployed from the `main` branch root. `index.html` is self-contained; libraries load from cdnjs (PDF.js 3.11.174, jsPDF 2.5.1, JSZip 3.10.1).
+GitHub Pages, deployed from the `main` branch root. `index.html` is self-contained; libraries load from CDNs (PDF.js 3.11.174, jsPDF 2.5.1, JSZip 3.10.1, and Tesseract.js 5.1.1 only when a scanned page needs OCR).
 
 ## Data model (`bank/index.json`)
 
