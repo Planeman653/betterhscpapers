@@ -29,6 +29,7 @@
     hideEmpty: true,
     basket: new Set(store.get("basket:" + COURSE, [])),
     opened: new Set(),                    // per-question answers opened manually
+    prevOpen: new Set(),                  // per-question "previous parts" opened
   };
 
   /* ---------------- markdown + maths ---------------- */
@@ -178,15 +179,28 @@
     const ansLabel = p.answers === "short" ? "Answer" : SCIENCE ? "Sample answer" : "Worked solution";
     const ans = show ? `<div class="ans"><div class="ans-label">${ansLabel}${q.kind === "mc" && q.correct ? " — " + q.correct : ""}</div><div class="ans-body">${q.kind === "mc" && q.answer.replace(/\*/g, "").trim() === q.correct ? "" : md(q.answer)}${ansImgs}</div></div>` : "";
     const dps = q.dotpoints.map((d) => d).join(", ");
+    const prev = q.prev || [];
+    const prevShown = S.prevOpen.has(q.id);
+    const prevBtn = prev.length ? `<button class="prev-btn${prevShown ? " on" : ""}" data-prev="${q.id}" aria-expanded="${prevShown}">${prevShown ? "Hide" : "Show"} previous part${prev.length === 1 ? "" : "s"} (${prev.length})</button>` : "";
+    const prevBlock = prev.length && prevShown ? `<div class="prev-parts"><div class="prev-label">Earlier parts of this question — ${esc(p.label)}</div>${prev.map(prevHtml).join("")}</div>` : "";
     return `<article class="q" id="${q.id}">
       <div class="q-head"><span class="q-title">Question ${num} <span class="marks">(${q.marks} mark${q.marks === 1 ? "" : "s"})</span></span>
         <span class="diff d${q.difficulty}" title="Difficulty ${q.difficulty}/5 — ${DIFF[q.difficulty]}">${[1, 2, 3, 4, 5].map((i) => `<i class="${i <= q.difficulty ? "f" : ""}"></i>`).join("")}&nbsp;${DIFF[q.difficulty]}</span>
         <span class="grow"></span>
-        <label class="pick"><input type="checkbox" data-pick="${q.id}" ${S.basket.has(q.id) ? "checked" : ""}> Add to PDF</label></div>
-      <div class="q-body">${md(q.question)}${imgs}</div>${opts}
+        <span class="q-actions"><label class="pick"><input type="checkbox" data-pick="${q.id}" ${S.basket.has(q.id) ? "checked" : ""}> Add to PDF</label>${prevBtn}</span></div>
+      ${prevBlock}<div class="q-body">${md(q.question)}${imgs}</div>${opts}
       <div class="src">Source: ${esc(p.label)}, ${esc(q.ref)}${q.kind === "mc" ? " (multiple choice)" : ""} · <span class="dps">Dot point${q.dotpoints.length > 1 ? "s" : ""} ${dps}</span></div>
       ${S.showAnswers ? "" : `<div class="ans-toggle"><button class="linkish" data-ans="${q.id}">${show ? "Hide" : "Show"} ${ansLabel.toLowerCase()}</button></div>`}
       ${ans}</article>`;
+  }
+
+  function prevHtml(x) {
+    if (x.dropped != null) return `<div class="prev-part dropped"><div class="prev-ref">${esc(x.ref)}</div><div class="prev-note">Not included on this site${x.dropped ? ": " + esc(x.dropped) : ""}.</div></div>`;
+    const opts = x.kind === "mc" && x.options ? `<div class="opts">${x.options.map((o, i) => `<div><b>(${"ABCD"[i]})</b><span>${md(o, true)}</span></div>`).join("")}</div>` : "";
+    const imgs = (x.images || []).map((s) => `<img src="${esc(s)}" alt="Diagram for ${esc(x.ref)}" loading="lazy">`).join("");
+    const ansImgs = (x.answer_images || []).map((s) => `<img src="${esc(s)}" alt="Solution diagram" loading="lazy">`).join("");
+    const ans = `<details class="prev-ans"><summary>Show ${SCIENCE ? "sample answer" : "solution"}</summary><div class="ans"><div class="ans-body">${x.kind === "mc" && x.correct ? `<p><b>${x.correct}</b></p>` : ""}${x.kind === "mc" && String(x.answer).replace(/\*/g, "").trim() === x.correct ? "" : md(x.answer)}${ansImgs}</div></div></details>`;
+    return `<div class="prev-part"><div class="prev-ref">${esc(x.ref)} <span class="marks">(${x.marks} mark${x.marks === 1 ? "" : "s"})</span></div><div class="q-body">${md(x.question)}${imgs}</div>${opts}${ans}</div>`;
   }
 
   function groupKey(q) {
@@ -292,6 +306,12 @@
   }
   function alertBox(msg) { const el = document.getElementById("toast"); el.textContent = msg; el.style.display = "block"; setTimeout(() => (el.style.display = "none"), 2500); }
 
+  function rerenderQ(id) {
+    const q = S.data.questions.find((x) => x.id === id), el = document.getElementById(id);
+    const num = el.querySelector(".q-title").firstChild.textContent.replace(/\D/g, "");
+    el.outerHTML = qHtml(q, +num);
+  }
+
   /* ---------------- events ---------------- */
   function bind() {
     const $ = (id) => document.getElementById(id);
@@ -320,8 +340,10 @@
     $("tree").addEventListener("click", (e) => { if (e.target.matches("summary input")) e.stopPropagation(); }, true);
     $("papers").addEventListener("change", (e) => { const id = e.target.dataset.paper; if (!id) return; e.target.checked ? S.papers.add(id) : S.papers.delete(id); refresh(true); });
     $("questions").addEventListener("click", (e) => {
+      const pv = e.target.closest("[data-prev]");
+      if (pv) { const id = pv.dataset.prev; S.prevOpen.has(id) ? S.prevOpen.delete(id) : S.prevOpen.add(id); rerenderQ(id); return; }
       const a = e.target.closest("[data-ans]");
-      if (a) { const id = a.dataset.ans; S.opened.has(id) ? S.opened.delete(id) : S.opened.add(id); const q = S.data.questions.find((x) => x.id === id); const el = document.getElementById(id); const num = el.querySelector(".q-title").firstChild.textContent.replace(/\D/g, ""); el.outerHTML = qHtml(q, +num); }
+      if (a) { const id = a.dataset.ans; S.opened.has(id) ? S.opened.delete(id) : S.opened.add(id); rerenderQ(id); return; }
     });
     $("questions").addEventListener("change", (e) => { const id = e.target.dataset.pick; if (!id) return; e.target.checked ? S.basket.add(id) : S.basket.delete(id); updateBasket(); });
     $("add-all").addEventListener("click", () => { const l = sorted(S.data.questions.filter(passes)); l.forEach((q) => S.basket.add(q.id)); render(); updateBasket(); alertBox(`Added ${l.length} questions to the PDF.`); });

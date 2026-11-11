@@ -102,6 +102,18 @@ button{cursor:pointer}
 .q-head .grow{flex:1}
 .pick{display:flex;align-items:center;gap:5px;font-size:13px;color:var(--muted);cursor:pointer;user-select:none}
 .pick input{accent-color:var(--accent)}
+.q-actions{display:flex;flex-direction:column;align-items:flex-end;gap:4px}
+.prev-btn{font-size:12.5px;color:var(--accent);background:none;border:1px solid var(--line);border-radius:999px;padding:2px 10px;cursor:pointer;white-space:nowrap}
+.prev-btn:hover,.prev-btn.on{background:var(--ans)}
+.prev-parts{margin:4px 0 12px;padding:10px 14px;border:1px dashed var(--line);border-radius:6px;background:var(--head)}
+.prev-label{font-size:12px;text-transform:uppercase;letter-spacing:.7px;color:var(--muted);font-weight:700;margin-bottom:6px}
+.prev-part{padding:8px 0;border-top:1px solid var(--line)}
+.prev-part:first-of-type{border-top:none}
+.prev-ref{font-weight:600;font-size:14px}
+.prev-ref .marks{font-weight:400;color:var(--muted)}
+.prev-part .q-body{font-size:15.5px}
+.prev-part.dropped .prev-note{font-size:13.5px;color:var(--muted);font-style:italic}
+.prev-ans summary{cursor:pointer;font-size:13px;color:var(--muted);margin-top:4px}
 .q-body{font-family:var(--serif);font-size:16.5px;line-height:1.6}
 .q-body p{margin:6px 0}
 .q-body img,.ans-body img{max-width:min(100%,560px);height:auto;display:block;margin:10px 0;border-radius:4px;background:#fff}

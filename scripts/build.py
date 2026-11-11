@@ -54,6 +54,50 @@ def balanced_dollars(text):
     return t.count("$") % 2 == 0
 
 
+ROMAN = {"i": 1, "ii": 2, "iii": 3, "iv": 4, "v": 5, "vi": 6, "vii": 7, "viii": 8, "ix": 9, "x": 10}
+
+
+def ref_key(ref):
+    """Q16(a)(iv) -> (16, 1, 4) for ordering parts within a paper."""
+    m = re.match(r"\s*Q?(\d+)", ref or "")
+    key = [int(m.group(1)) if m else 0]
+    for lvl, b in enumerate(re.findall(r"\(([^)]*)\)", ref or "")):
+        b = b.strip().lower()
+        if lvl >= 1 and b in ROMAN:
+            key.append(ROMAN[b])
+        elif b.isdigit():
+            key.append(int(b))
+        else:
+            key.append(ord(b[0]) - 96 if b else 0)
+    return tuple(key)
+
+
+def ref_group(ref):
+    """Q16(a)(iv) -> 'Q16(a)';  Q23(b) -> 'Q23';  Q7 -> None."""
+    m = re.match(r"^(.*)\([^()]*\)\s*$", (ref or "").strip())
+    return m.group(1) if m and "(" in ref else None
+
+
+PREV_FIELDS = ("ref", "kind", "marks", "question", "options", "images", "answer", "answer_images", "correct")
+
+
+def add_previous_parts(items, dropped):
+    """Give each part the earlier parts of the same question (same paper), incl. dropped ones."""
+    parts = [(ref_key(it["ref"]), it["ref"], {k: it[k] for k in PREV_FIELDS if k in it}) for it in items]
+    for d in dropped:
+        # a dropped ref may cover a range, e.g. Q12(a)-(b): file it under its first part
+        first = re.split(r"\s*[-\u2013,]\s*", d.get("ref", ""))[0]
+        parts.append((ref_key(first), first, {"ref": d.get("ref"), "dropped": d.get("reason", "")}))
+    for it in items:
+        g = ref_group(it["ref"])
+        if not g:
+            continue
+        k = ref_key(it["ref"])
+        prev = sorted((p for p in parts if p[1].startswith(g + "(") and p[0] < k), key=lambda p: p[0])
+        if prev:
+            it["prev"] = [p[2] for p in prev]
+
+
 def main():
     check_only = "--check" in sys.argv
     syl = {c: load_syllabus(c) for c in COURSES}
@@ -77,7 +121,7 @@ def main():
                 "thsc": p.get("thsc"), "indexed": p.get("indexed"),
                 "count": len(p.get("questions", [])), "dropped": len(p.get("dropped", []))}
         papers_meta.append(meta)
-        seen = set()
+        seen, paper_items = set(), []
         for i, q in enumerate(p.get("questions", []), 1):
             where = f"{rel} #{i} ({q.get('ref')})"
             c = q.get("course", p["course"])
@@ -119,6 +163,8 @@ def main():
             item.setdefault("images", []); item.setdefault("answer_images", [])
             out[c]["questions"].append(item)
             out[c]["papers"][pid] = meta
+            paper_items.append(item)
+        add_previous_parts(paper_items, p.get("dropped", []))
     if errors:
         print("\n".join(errors)); print(f"\n{len(errors)} error(s)"); sys.exit(1)
     total = sum(len(out[c]["questions"]) for c in COURSES)
