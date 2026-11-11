@@ -1,0 +1,757 @@
+{
+ "id": "ext2-2026-girraween",
+ "course": "extension2",
+ "school": "Girraween",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "Girraween 2026 w. sol"
+ },
+ "indexed": "2026-11-11",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "The angle between the vectors $\\begin{pmatrix}1\\\\2\\\\-1\\end{pmatrix}$ and $\\begin{pmatrix}3\\\\4\\\\6\\end{pmatrix}$ is",
+   "answer": "$\\cos\\theta = \\dfrac{\\mathbf{a}\\cdot\\mathbf{b}}{|\\mathbf{a}||\\mathbf{b}|} = \\dfrac{3+8-6}{\\sqrt{6}\\,\\sqrt{61}} = \\dfrac{5}{\\sqrt{366}}$, so $\\theta \\approx 74.8^\\circ \\approx 75^\\circ$.",
+   "options": [
+    "$15^\\circ$",
+    "$50^\\circ$",
+    "$75^\\circ$",
+    "$105^\\circ$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.6",
+    "12.2.1.7"
+   ],
+   "question": "The straight lines\n$$\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix} = \\begin{pmatrix}1\\\\7\\\\0\\end{pmatrix} + \\lambda\\begin{pmatrix}3\\\\4\\\\-1\\end{pmatrix} \\quad\\text{and}\\quad \\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix} = \\begin{pmatrix}-5\\\\-1\\\\2\\end{pmatrix} + \\mu\\begin{pmatrix}-6\\\\-8\\\\2\\end{pmatrix}$$\nare",
+   "answer": "$\\begin{pmatrix}-6\\\\-8\\\\2\\end{pmatrix} = -2\\begin{pmatrix}3\\\\4\\\\-1\\end{pmatrix}$, so the lines are parallel. Also $\\begin{pmatrix}1\\\\7\\\\0\\end{pmatrix} - 2\\begin{pmatrix}3\\\\4\\\\-1\\end{pmatrix} = \\begin{pmatrix}-5\\\\-1\\\\2\\end{pmatrix}$, so the point $(-5,-1,2)$ lies on the first line (at $\\lambda=-2$). Parallel lines sharing a point are the same line.",
+   "options": [
+    "Parallel",
+    "Perpendicular",
+    "Neither parallel or perpendicular",
+    "The same line"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.7",
+    "12.1.1.6"
+   ],
+   "question": "Consider the statement: $\\exists\\, x \\in \\mathbb{Z}$ such that $\\dfrac{1}{x} > x$.\n\nThe negation of this statement is",
+   "answer": "The negation of \"there exists $x$ with $P(x)$\" is \"for all $x$, not $P(x)$\": $\\forall x \\in \\mathbb{Z},\\ \\dfrac{1}{x} \\le x$. Option A is the intended answer (the paper's key is A).\n\n*Note: strictly the negation of $\\frac1x > x$ is $\\frac1x \\le x$, not $\\frac1x < x$; A is the closest option.*",
+   "options": [
+    "$\\forall\\, x \\in \\mathbb{Z},\\ \\dfrac{1}{x} < x$",
+    "$\\exists\\, x \\in \\mathbb{Z}$ such that $\\dfrac{1}{x} < x$",
+    "$\\forall\\, x \\in \\mathbb{Z},\\ \\dfrac{1}{x} > x$",
+    "$\\exists\\, x \\in \\mathbb{Z}$ such that $\\dfrac{1}{x} = x$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.11"
+   ],
+   "question": "The contrapositive of the statement\n\n\"If a number is irrational, its square root will be irrational\"\n\nis",
+   "answer": "Contrapositive of $P \\Rightarrow Q$ is $\\neg Q \\Rightarrow \\neg P$: \"if the square root of a number is rational, then the number is rational\". Calling the square root \"a number\", the original number is its square: \"If a number is rational, its square will be rational\".",
+   "options": [
+    "“If a number is irrational, its square will be irrational”",
+    "“If a number is rational its square root will be rational”",
+    "“If a number is irrational its square root will be rational”",
+    "“If a number is rational its square will be rational”"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.9",
+    "12.3.4.11"
+   ],
+   "question": "For two complex numbers $z_1$ and $z_2$, $|z_1| = |z_2| = 1$ and $|z_1 + z_2| = \\dfrac{6}{5}$.\n\n$|z_1 - z_2| =$",
+   "answer": "With $\\overrightarrow{OA} = z_1$, $\\overrightarrow{OB} = z_2$, $\\overrightarrow{OC} = z_1+z_2$, $OACB$ is a rhombus (sides 1), whose diagonals bisect each other at right angles at $D$. $OD = \\tfrac12\\cdot\\tfrac65 = \\tfrac35$, so $DA = \\sqrt{1-\\tfrac{9}{25}} = \\tfrac45$ (Pythagoras), and $|z_1 - z_2| = BA = 2\\times\\tfrac45 = \\tfrac85$.",
+   "options": [
+    "$\\dfrac{3}{5}$",
+    "$\\dfrac{4}{5}$",
+    "$1$",
+    "$\\dfrac{8}{5}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.7",
+    "12.3.2.5"
+   ],
+   "question": "Below is a diagram of the complex number $z$, where $|z| < 1$ as shown.\n\nOne of the square roots of $z$ could be",
+   "answer": "$z$ is in the third quadrant: $-\\pi < \\operatorname{Arg} z < -\\dfrac{\\pi}{2}$ and $0<|z|<1$. A square root $\\sqrt{z}$ has argument half of this, $-\\dfrac{\\pi}{2} < \\operatorname{Arg}\\sqrt z < -\\dfrac{\\pi}{4}$ (or that plus $\\pi$, in the second quadrant between $\\frac{\\pi}{2}$ and $\\frac{3\\pi}{4}$), and $|z| < |\\sqrt z| < 1$.\n\nA is in the wrong quadrant; B has modulus too small (less than $|z|$); C has modulus greater than 1. D satisfies both conditions.",
+   "options": [
+    "![Graph A](assets/img/ext2-2026-girraween/q6a.png)",
+    "![Graph B](assets/img/ext2-2026-girraween/q6b.png)",
+    "![Graph C](assets/img/ext2-2026-girraween/q6c.png)",
+    "![Graph D](assets/img/ext2-2026-girraween/q6d.png)"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/ext2-2026-girraween/q6.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.1",
+    "12.5.1.2"
+   ],
+   "question": "The following diagram is a graph of the velocity ($v$) of a particle with respect to its position ($x$). The graph crosses the $x$-axis at $x=0$, has a local maximum at $x = 1$ and touches the $x$-axis at $x=3$.\n\nThe graph of the acceleration ($a$) in terms of $x$ would look like",
+   "answer": "$a = v\\dfrac{dv}{dx}$, so $a = 0$ where $v = 0$ ($x$-intercepts $x=0$ and $x=3$) or where $\\dfrac{dv}{dx} = 0$ (turning points $x = 1$ and $x=3$). So $a = 0$ only at $x = 0, 1, 3$, and at $x=3$ both factors vanish, so the graph of $a$ is flat there (a stationary point of inflection). Only graph B has this shape.",
+   "options": [
+    "![Graph A](assets/img/ext2-2026-girraween/q7a.png)",
+    "![Graph B](assets/img/ext2-2026-girraween/q7b.png)",
+    "![Graph C](assets/img/ext2-2026-girraween/q7c.png)",
+    "![Graph D](assets/img/ext2-2026-girraween/q7d.png)"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/ext2-2026-girraween/q7.png"
+   ]
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.2",
+    "12.5.1.4"
+   ],
+   "question": "A $5\\text{ kg}$ weight is slipping down a plane inclined at an angle of $30^\\circ$ to the horizontal with an acceleration of $2\\ \\text{m/s}^2$. It is slipping due to gravity, which has an acceleration of $10\\ \\text{m/s}^2$. The slipping is being resisted by friction $F$ (see diagram).\n\nThe force due to friction is",
+   "answer": "Component of gravity down the plane $= 5\\times10\\sin30^\\circ = 25\\text{ N}$. Net force down the plane $= ma = 5\\times 2 = 10\\text{ N}$.\n\n$25 - F = 10 \\Rightarrow F = 15$ Newtons.",
+   "options": [
+    "3 Newtons",
+    "10 Newtons",
+    "15 Newtons",
+    "40 Newtons"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/ext2-2026-girraween/q8.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.11",
+    "12.3.4.9"
+   ],
+   "question": "In the complex plane, $\\overrightarrow{OA} = a$, $\\overrightarrow{OB} = b$ and $\\overrightarrow{OC} = a + b$, where $\\dfrac{a+b}{a-b}$ is entirely imaginary and $|a + b| \\neq |a - b|$.\n\n$OABC$ is a",
+   "answer": "$O, A, C, B$ form a parallelogram with diagonals $\\overrightarrow{OC} = a+b$ and $\\overrightarrow{BA} = a-b$. Since $\\dfrac{a+b}{a-b}$ is purely imaginary, $\\arg(a+b) - \\arg(a-b) = \\pm\\dfrac{\\pi}{2}$, so the diagonals are perpendicular: the parallelogram is a rhombus. Since $|a+b| \\ne |a-b|$ the diagonals are unequal, so it is not a square. It is a rhombus.",
+   "options": [
+    "rhombus",
+    "rectangle",
+    "square",
+    "trapezium"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.12",
+    "12.2.1.13"
+   ],
+   "question": "One of these curves is exactly the same as the spiral $\\begin{pmatrix}\\cos t\\\\ \\sin t\\\\ t\\end{pmatrix}$.\n\nThe equivalent curve is",
+   "answer": "A: $\\cos\\left(\\frac{\\pi}{2}-2t\\right) = \\sin 2t$, giving $(\\sin 2t, \\cos 2t, 2t)$ — not the same.\nB: $\\cos(\\pi - 2t) = -\\cos 2t$ — not the same.\nC: $-\\sin\\left(\\frac{3\\pi}{2}-2t\\right) = -(-\\cos 2t) = \\cos 2t$ and $-\\cos\\left(\\frac{3\\pi}{2}-2t\\right) = -(-\\sin 2t) = \\sin 2t$, so C is $\\begin{pmatrix}\\cos 2t\\\\ \\sin 2t\\\\ 2t\\end{pmatrix}$; letting $u = 2t$ gives $\\begin{pmatrix}\\cos u\\\\ \\sin u\\\\ u\\end{pmatrix}$, the same spiral.\nD: $\\sin(2\\pi - 2t) = -\\sin 2t$ — not the same.",
+   "options": [
+    "$\\begin{pmatrix}\\cos\\left(\\frac{\\pi}{2}-2t\\right)\\\\ \\sin\\left(\\frac{\\pi}{2}-2t\\right)\\\\ 2t\\end{pmatrix}$",
+    "$\\begin{pmatrix}\\cos(\\pi-2t)\\\\ \\sin(\\pi-2t)\\\\ 2t\\end{pmatrix}$",
+    "$\\begin{pmatrix}-\\sin\\left(\\frac{3\\pi}{2}-2t\\right)\\\\ -\\cos\\left(\\frac{3\\pi}{2}-2t\\right)\\\\ 2t\\end{pmatrix}$",
+    "$\\begin{pmatrix}\\cos(2\\pi-2t)\\\\ \\sin(2\\pi-2t)\\\\ 2t\\end{pmatrix}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.13"
+   ],
+   "question": "Find $\\dfrac{-\\sqrt3 + i}{-1 - i}$ in Cartesian form.",
+   "answer": "$$\\frac{-\\sqrt3+i}{-1-i}\\times\\frac{-1+i}{-1+i} = \\frac{\\sqrt3 - \\sqrt3 i - i + i^2}{(-1)^2 - i^2} = \\frac{(\\sqrt3 - 1) - i(\\sqrt3+1)}{2}$$\n$$= \\frac{\\sqrt3-1}{2} - \\frac{\\sqrt3+1}{2}\\,i.$$"
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.6"
+   ],
+   "question": "Express $-\\sqrt3 + i$ in modulus–argument (polar) form.",
+   "answer": "$|-\\sqrt3+i| = \\sqrt{3+1} = 2$. The point is in the second quadrant with $\\tan\\alpha = \\frac{1}{\\sqrt3}$, so $\\arg = \\pi - \\frac{\\pi}{6} = \\frac{5\\pi}{6}$.\n$$-\\sqrt3 + i = 2\\operatorname{cis}\\frac{5\\pi}{6} = 2\\left(\\cos\\frac{5\\pi}{6} + i\\sin\\frac{5\\pi}{6}\\right).$$"
+  },
+  {
+   "ref": "Q11(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.5",
+    "12.3.2.6"
+   ],
+   "question": "Given that $-\\sqrt3 + i = 2\\operatorname{cis}\\dfrac{5\\pi}{6}$, $-1 - i = \\sqrt2\\operatorname{cis}\\left(-\\dfrac{3\\pi}{4}\\right)$ and\n$$\\frac{-\\sqrt3+i}{-1-i} = \\frac{\\sqrt3-1}{2} - \\frac{\\sqrt3+1}{2}\\,i,$$\nfind the exact value of $\\cos\\dfrac{19\\pi}{12}$.",
+   "answer": "$$\\frac{-\\sqrt3+i}{-1-i} = \\frac{2\\operatorname{cis}\\frac{5\\pi}{6}}{\\sqrt2\\operatorname{cis}\\left(-\\frac{3\\pi}{4}\\right)} = \\sqrt2\\operatorname{cis}\\left(\\frac{5\\pi}{6}+\\frac{3\\pi}{4}\\right) = \\sqrt2\\left(\\cos\\frac{19\\pi}{12} + i\\sin\\frac{19\\pi}{12}\\right).$$\nEquating real parts with the Cartesian form:\n$$\\sqrt2\\cos\\frac{19\\pi}{12} = \\frac{\\sqrt3-1}{2} \\quad\\Rightarrow\\quad \\cos\\frac{19\\pi}{12} = \\frac{\\sqrt3-1}{2\\sqrt2} = \\frac{\\sqrt6-\\sqrt2}{4}.$$"
+  },
+  {
+   "ref": "Q11(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.14"
+   ],
+   "question": "Find the two square roots of $55 + 48i$.",
+   "answer": "Let $(x+iy)^2 = 55 + 48i$ with $x, y$ real. Then $x^2 - y^2 = 55$ (1) and $2xy = 48$, i.e. $y = \\dfrac{24}{x}$ (2).\n\nSubstituting (2) in (1): $x^2 - \\dfrac{576}{x^2} = 55 \\Rightarrow x^4 - 55x^2 - 576 = 0 \\Rightarrow (x^2+9)(x^2-64) = 0$.\n\nAs $x$ is real, $x = \\pm 8$, and then $y = \\pm 3$ (same sign).\n\nThe square roots are $\\pm(8 + 3i)$.\n\n(Alternatively: $x^2+y^2 = |55+48i| = \\sqrt{5329} = 73$; adding to (1) gives $2x^2 = 128$, $x = \\pm8$, and $y=\\pm3$ with the same sign since $xy>0$.)"
+  },
+  {
+   "ref": "Q11(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.1"
+   ],
+   "question": "Given that the square roots of $55+48i$ are $\\pm(8+3i)$, solve the equation\n$$z^2 - (2 + i)z - (13 + 11i) = 0.$$",
+   "answer": "$\\Delta = b^2 - 4ac = (2+i)^2 + 4(13+11i) = 3 + 4i + 52 + 44i = 55 + 48i$.\n$$z = \\frac{(2+i) \\pm \\sqrt{55+48i}}{2} = \\frac{(2+i) \\pm (8+3i)}{2}$$\n$$z = 5 + 2i \\quad\\text{or}\\quad z = -3 - i.$$"
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.5",
+    "12.3.5.3",
+    "12.3.5.4"
+   ],
+   "question": "Sketch on an Argand diagram the region where $|z + 2i| \\le 2$ and $-\\dfrac{\\pi}{2} \\le \\operatorname{Arg} z < -\\dfrac{\\pi}{4}$.",
+   "answer": "$|z+2i| \\le 2$ is the closed disc with centre $-2i$ and radius 2 (it passes through $0$ and $-4i$).\n\n$-\\frac{\\pi}{2} \\le \\operatorname{Arg} z < -\\frac{\\pi}{4}$ is the sector between the ray along the negative imaginary axis (included) and the ray $\\operatorname{Arg} z = -\\frac{\\pi}{4}$ (excluded), with the origin excluded.\n\nThe ray $\\operatorname{Arg} z = -\\frac{\\pi}{4}$ meets the circle at $2 - 2i$ (since $|2-2i+2i| = 2$).\n\nThe region is the part of the disc between these rays: bounded by the imaginary axis from $0$ to $-4i$ (included, except $0$), the arc of the circle from $-4i$ to $2-2i$ (included), and the segment from $0$ to $2-2i$ (excluded, dashed). The points $0$ and $2-2i$ are open circles.",
+   "answer_images": [
+    "assets/img/ext2-2026-girraween/q11c-sol.png"
+   ]
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.7"
+   ],
+   "question": "Find the seven seventh roots of $-128i$. Leave your answer in modulus–argument form.",
+   "answer": "$-128i = 128\\operatorname{cis}\\left(-\\dfrac{\\pi}{2}\\right)$, and $128 = 2^7$.\n\nIf $z^7 = 128\\operatorname{cis}\\left(-\\frac{\\pi}{2} + 2k\\pi\\right)$ then by de Moivre's theorem\n$$z = 2\\operatorname{cis}\\left(-\\frac{\\pi}{14} + \\frac{2k\\pi}{7}\\right),\\quad k = 0, 1, \\dots, 6.$$\nThe roots are\n$$2\\operatorname{cis}\\left(-\\frac{\\pi}{14}\\right),\\ 2\\operatorname{cis}\\frac{3\\pi}{14},\\ 2\\operatorname{cis}\\frac{\\pi}{2},\\ 2\\operatorname{cis}\\frac{11\\pi}{14},\\ 2\\operatorname{cis}\\frac{15\\pi}{14},\\ 2\\operatorname{cis}\\frac{19\\pi}{14},\\ 2\\operatorname{cis}\\frac{23\\pi}{14},$$\ni.e. with principal arguments: $2\\operatorname{cis}\\left(-\\frac{\\pi}{14}\\right)$, $2\\operatorname{cis}\\frac{3\\pi}{14}$, $2\\operatorname{cis}\\frac{\\pi}{2}$, $2\\operatorname{cis}\\frac{11\\pi}{14}$, $2\\operatorname{cis}\\left(-\\frac{13\\pi}{14}\\right)$, $2\\operatorname{cis}\\left(-\\frac{9\\pi}{14}\\right)$, $2\\operatorname{cis}\\left(-\\frac{5\\pi}{14}\\right)$."
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.5",
+    "12.4.1.6"
+   ],
+   "question": "Find $\\displaystyle\\int \\frac{1}{\\sin x + \\cos x + 1}\\,dx$.",
+   "answer": "Let $t = \\tan\\dfrac{x}{2}$, so $\\dfrac{dt}{dx} = \\dfrac12\\sec^2\\dfrac{x}{2} = \\dfrac{1+t^2}{2}$, i.e. $dx = \\dfrac{2\\,dt}{1+t^2}$, and $\\sin x = \\dfrac{2t}{1+t^2}$, $\\cos x = \\dfrac{1-t^2}{1+t^2}$.\n$$\\int\\frac{1}{\\frac{2t}{1+t^2} + \\frac{1-t^2}{1+t^2} + 1}\\cdot\\frac{2}{1+t^2}\\,dt = \\int\\frac{2}{2t + 1 - t^2 + 1 + t^2}\\,dt = \\int\\frac{2}{2t+2}\\,dt = \\int\\frac{1}{t+1}\\,dt$$\n$$= \\ln|t+1| + C = \\ln\\left|1 + \\tan\\frac{x}{2}\\right| + C.$$"
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Find $A$, $B$ and $C$ so that\n$$\\frac{-7x-43}{(x+4)^2(x-1)} = \\frac{A}{(x+4)^2} + \\frac{B}{x+4} + \\frac{C}{x-1}.$$",
+   "answer": "Multiplying by $(x+4)^2(x-1)$:\n$$A(x-1) + B(x+4)(x-1) + C(x+4)^2 = -7x - 43. \\quad (1)$$\n$x = 1$: $25C = -7 - 43 = -50 \\Rightarrow C = -2$.\n\n$x = -4$: $-5A = 28 - 43 = -15 \\Rightarrow A = 3$.\n\n$x = 0$: $-A - 4B + 16C = -43 \\Rightarrow -3 - 4B - 32 = -43 \\Rightarrow B = 2$.\n\n(Or equate coefficients: $x^2$: $B + C = 0$; $x$: $A + 3B + 8C = -7$; constant: $16C - 4B - A = -43$.)\n\nSo $A = 3$, $B = 2$, $C = -2$."
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.8"
+   ],
+   "question": "Given that\n$$\\frac{-7x-43}{(x+4)^2(x-1)} = \\frac{3}{(x+4)^2} + \\frac{2}{x+4} - \\frac{2}{x-1},$$\nfind $\\displaystyle\\int \\frac{-7x-43}{(x+4)^2(x-1)}\\,dx$.",
+   "answer": "$$\\int\\left(\\frac{3}{(x+4)^2} + \\frac{2}{x+4} - \\frac{2}{x-1}\\right)dx = -\\frac{3}{x+4} + 2\\ln|x+4| - 2\\ln|x-1| + C.$$"
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.13",
+    "12.4.1.11"
+   ],
+   "question": "Find $\\displaystyle\\int \\operatorname{cosec}^3 x\\,dx$.",
+   "answer": "Write $\\operatorname{cosec}^3 x = \\operatorname{cosec} x\\cdot\\operatorname{cosec}^2 x$ and integrate by parts with $u = \\operatorname{cosec} x$, $v' = \\operatorname{cosec}^2 x$, so $u' = -\\operatorname{cosec} x\\cot x$, $v = -\\cot x$:\n$$\\int\\operatorname{cosec}^3 x\\,dx = -\\operatorname{cosec} x\\cot x - \\int\\operatorname{cosec} x\\cot^2 x\\,dx = -\\operatorname{cosec} x\\cot x - \\int\\operatorname{cosec} x(\\operatorname{cosec}^2 x - 1)\\,dx$$\n$$= -\\operatorname{cosec} x\\cot x - \\int\\operatorname{cosec}^3 x\\,dx + \\int\\operatorname{cosec} x\\,dx.$$\nSo $2\\displaystyle\\int\\operatorname{cosec}^3 x\\,dx = -\\operatorname{cosec} x\\cot x + \\int\\operatorname{cosec} x\\,dx$.\n\nNow, since $\\dfrac{d}{dx}(\\operatorname{cosec} x + \\cot x) = -\\operatorname{cosec} x\\cot x - \\operatorname{cosec}^2 x$,\n$$\\int\\operatorname{cosec} x\\,dx = -\\int\\frac{-\\operatorname{cosec} x(\\operatorname{cosec} x + \\cot x)}{\\operatorname{cosec} x + \\cot x}\\,dx = -\\ln|\\operatorname{cosec} x + \\cot x| + C.$$\nTherefore\n$$\\int\\operatorname{cosec}^3 x\\,dx = -\\frac12\\operatorname{cosec} x\\cot x - \\frac12\\ln|\\operatorname{cosec} x + \\cot x| + C.$$"
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Find $\\displaystyle\\int \\frac{x^2}{\\sqrt{1-x^2}}\\,dx$.",
+   "answer": "Let $x = \\sin\\theta$, $dx = \\cos\\theta\\,d\\theta$, with $-\\frac{\\pi}{2} < \\theta < \\frac{\\pi}{2}$ so $\\sqrt{1-\\sin^2\\theta} = \\cos\\theta$:\n$$\\int\\frac{\\sin^2\\theta}{\\cos\\theta}\\cos\\theta\\,d\\theta = \\int\\sin^2\\theta\\,d\\theta = \\frac12\\int(1-\\cos2\\theta)\\,d\\theta = \\frac12\\left(\\theta - \\frac12\\sin2\\theta\\right) + C$$\n$$= \\frac12\\theta - \\frac12\\sin\\theta\\cos\\theta + C = \\frac12\\sin^{-1}x - \\frac12 x\\sqrt{1-x^2} + C.$$"
+  },
+  {
+   "ref": "Q12(e)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_N = \\displaystyle\\int_0^{\\frac{\\pi}{4}} \\tan^N x\\,dx$. Show that $I_N = \\dfrac{1}{N-1} - I_{N-2}$.",
+   "answer": "$$I_N = \\int_0^{\\frac{\\pi}{4}}\\tan^{N-2}x\\tan^2 x\\,dx = \\int_0^{\\frac{\\pi}{4}}\\tan^{N-2}x(\\sec^2 x - 1)\\,dx = \\int_0^{\\frac{\\pi}{4}}\\tan^{N-2}x\\sec^2 x\\,dx - \\int_0^{\\frac{\\pi}{4}}\\tan^{N-2}x\\,dx$$\n$$= \\left[\\frac{\\tan^{N-1}x}{N-1}\\right]_0^{\\frac{\\pi}{4}} - I_{N-2} = \\frac{1}{N-1} - I_{N-2}.$$"
+  },
+  {
+   "ref": "Q12(e)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_N = \\displaystyle\\int_0^{\\frac{\\pi}{4}} \\tan^N x\\,dx$, where $I_N = \\dfrac{1}{N-1} - I_{N-2}$. Find $I_4$.",
+   "answer": "$I_0 = \\displaystyle\\int_0^{\\frac{\\pi}{4}}1\\,dx = \\frac{\\pi}{4}$.\n\n$I_2 = \\dfrac{1}{1} - I_0 = 1 - \\dfrac{\\pi}{4}$.\n\n$I_4 = \\dfrac{1}{3} - I_2 = \\dfrac13 - 1 + \\dfrac{\\pi}{4} = \\dfrac{\\pi}{4} - \\dfrac{2}{3}$."
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.9",
+    "12.5.2.4"
+   ],
+   "question": "A particle moves with simple harmonic motion about $x = 0$. It starts at $x = 0$ and takes 2 seconds to reach its first stopping point at $x = 3$.\n\nWrite a formula for the particle's motion in terms of time ($t$).",
+   "answer": "It starts at the centre of motion, so use $x = a\\sin nt$.\n\nAmplitude $a = 3$. Centre to extremity is a quarter of a period, so period $= 4\\times2 = 8$ seconds.\n\n$\\dfrac{2\\pi}{n} = 8 \\Rightarrow n = \\dfrac{\\pi}{4}$.\n$$x = 3\\sin\\frac{\\pi t}{4}.$$"
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.2",
+    "12.5.2.4",
+    "12.5.1.4"
+   ],
+   "question": "A particle of mass $4\\text{ kg}$ moves with simple harmonic motion about $x = 0$ according to $x = 3\\sin\\dfrac{\\pi t}{4}$.\n\nFind the force which produces the maximum acceleration of the particle.",
+   "answer": "$\\ddot x = -n^2 x = -\\dfrac{\\pi^2}{16}x$. The maximum acceleration occurs at an extremity; at $x = -3$:\n$$\\ddot x = -\\frac{\\pi^2}{16}\\times(-3) = \\frac{3\\pi^2}{16}\\ \\text{m/s}^2.$$\n$$F = m\\ddot x = 4\\times\\frac{3\\pi^2}{16} = \\frac{3\\pi^2}{4}\\ \\text{N}\\ (\\approx 7.4\\text{ N}).$$\n(Alternatively $\\ddot x = -\\frac{3\\pi^2}{16}\\sin\\frac{\\pi t}{4}$, which is maximum $\\frac{3\\pi^2}{16}$ when $t = 6$.)"
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.8",
+    "12.5.2.10"
+   ],
+   "question": "A particle is moving with simple harmonic motion about $x = 1$. Its speed when at $x = 1$ is $1\\text{ m/s}$ and its speed at $x = 2$ is $\\dfrac{\\sqrt3}{2}\\text{ m/s}$. Find the period and amplitude of the particle's motion.\n\n(You may use $v^2 = n^2\\left(a^2 - (x - c)^2\\right)$.)",
+   "answer": "Centre $c = 1$, so $v^2 = n^2\\left(a^2 - (x-1)^2\\right)$.\n\nAt $x = 1$: $1 = n^2a^2$ (1).\n\nAt $x = 2$: $\\dfrac34 = n^2(a^2 - 1) = n^2a^2 - n^2$ (2).\n\n(1) $-$ (2): $n^2 = \\dfrac14 \\Rightarrow n = \\dfrac12$.\n\nPeriod $= \\dfrac{2\\pi}{n} = 4\\pi$ seconds. From (1): $\\dfrac14a^2 = 1 \\Rightarrow a = 2$.\n\nPeriod $4\\pi$ seconds, amplitude $2$ m."
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.2.3"
+   ],
+   "question": "Prove by contradiction that $\\log_5 11$ is irrational.",
+   "answer": "Assume $\\log_5 11$ is rational. Since $\\log_5 11 > 0$, write $\\log_5 11 = \\dfrac{p}{q}$ with $p, q$ positive integers.\n\nThen $5^{p/q} = 11$, so $5^p = 11^q$.\n\nBut $5^p$ has only the prime factor 5 and $11^q$ has only the prime factor 11, so the same number would have two different prime factorisations, contradicting the fundamental theorem of arithmetic (equivalently: $5^p$ is a multiple of 5 but $11^q$ is not).\n\nThis is a contradiction, so $\\log_5 11$ is irrational."
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.3.3"
+   ],
+   "question": "Prove by contradiction that $\\sqrt5 + \\sqrt6 \\ge \\sqrt{21}$.",
+   "answer": "Assume $\\sqrt5 + \\sqrt6 < \\sqrt{21}$. Both sides are positive, so squaring preserves the inequality:\n$$5 + 2\\sqrt{30} + 6 < 21 \\Rightarrow 2\\sqrt{30} < 10 \\Rightarrow \\sqrt{30} < 5 \\Rightarrow 30 < 25,$$\nwhich is false. This contradiction shows $\\sqrt5 + \\sqrt6 \\ge \\sqrt{21}$."
+  },
+  {
+   "ref": "Q13(e)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.2",
+    "12.1.3.6"
+   ],
+   "question": "If $a, b, c$ are real numbers, prove $a^2 + b^2 + c^2 \\ge ab + ac + bc$.\n\n(You may use $a^2 + b^2 \\ge 2ab$.)",
+   "answer": "For all real $a, b, c$:\n$$a^2 + b^2 \\ge 2ab,\\qquad a^2 + c^2 \\ge 2ac,\\qquad b^2 + c^2 \\ge 2bc.$$\nAdding: $2(a^2 + b^2 + c^2) \\ge 2(ab + ac + bc)$, and dividing by 2,\n$$a^2 + b^2 + c^2 \\ge ab + ac + bc.$$"
+  },
+  {
+   "ref": "Q13(e)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.7",
+    "12.1.3.6"
+   ],
+   "question": "If $a, b, c$ are the lengths of the sides of a triangle, prove that $c^2 \\le 2a^2 + 2b^2$.",
+   "answer": "By the triangle inequality $0 < c < a + b$, so\n$$c^2 < (a+b)^2 = a^2 + 2ab + b^2 \\le a^2 + (a^2 + b^2) + b^2 = 2a^2 + 2b^2,$$\nusing $2ab \\le a^2 + b^2$. Hence $c^2 \\le 2a^2 + 2b^2$."
+  },
+  {
+   "ref": "Q13(e)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.7",
+    "12.1.3.6"
+   ],
+   "question": "For real numbers $a, b, c$ it is known that $a^2 + b^2 + c^2 \\ge ab + ac + bc$, and if $a, b, c$ are the sides of a triangle then $c^2 \\le 2a^2 + 2b^2$.\n\nHence, or otherwise, prove $3a^2 + 3b^2 \\ge ab + ac + bc$ if $a, b, c$ are the sides of a triangle.",
+   "answer": "$$3a^2 + 3b^2 = a^2 + b^2 + (2a^2 + 2b^2) \\ge a^2 + b^2 + c^2 \\ge ab + ac + bc,$$\nusing $c^2 \\le 2a^2 + 2b^2$ and then $a^2+b^2+c^2 \\ge ab+ac+bc$. Hence $3a^2 + 3b^2 \\ge ab + ac + bc$."
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.4.10"
+   ],
+   "question": "Solve $4k^2 - 2k - 1 > 0$ where $k > 0$.",
+   "answer": "Roots of $4k^2 - 2k - 1 = 0$: $k = \\dfrac{2 \\pm \\sqrt{4 + 16}}{8} = \\dfrac{1 \\pm \\sqrt5}{4}$.\n\nThe parabola is concave up, so $4k^2 - 2k - 1 > 0$ for $k < \\frac{1-\\sqrt5}{4}$ or $k > \\frac{1+\\sqrt5}{4}$. With $k > 0$:\n$$k > \\frac{1 + \\sqrt5}{4}.$$",
+   "course": "advanced"
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.2"
+   ],
+   "question": "Prove by induction that $5^N > 6N^2$ for all integers $N \\ge 2$.\n\n(You may use the fact that $4k^2 - 2k - 1 > 0$ for $k > \\frac{1+\\sqrt5}{4}$.)",
+   "answer": "**Step 1** ($N = 2$): LHS $= 5^2 = 25$, RHS $= 6\\times2^2 = 24$. $25 > 24$, so true for $N = 2$.\n\n**Step 2:** Assume true for $N = k$ ($k \\ge 2$): $5^k > 6k^2$.\n\n**Step 3:** Prove true for $N = k+1$, i.e. $5^{k+1} > 6(k+1)^2$.\n$$5^{k+1} = 5\\times5^k > 5\\times6k^2 = 30k^2 \\quad\\text{(by the assumption).}$$\nNow\n$$30k^2 - 6(k+1)^2 = 24k^2 - 12k - 6 = 6(4k^2 - 2k - 1) > 0$$\nsince $k \\ge 2 > \\frac{1+\\sqrt5}{4}$. So $30k^2 > 6(k+1)^2$ and hence $5^{k+1} > 6(k+1)^2$.\n\nSo if the result is true for $N = k$ it is true for $N = k+1$. Since it is true for $N = 2$, by the principle of mathematical induction it is true for all integers $N \\ge 2$."
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.5"
+   ],
+   "question": "A $5\\text{ kg}$ weight hangs at $C$, suspended from two taut non-elastic ropes $CA$ and $CB$ at angles of $30^\\circ$ and $60^\\circ$ to the horizontal respectively (see diagram). The acceleration due to gravity is $10\\ \\text{m/s}^2$.\n\nIf the weight is stationary and the only forces acting on it are gravity and the tensions $T_1$ (in $CA$) and $T_2$ (in $CB$), find the tensions in the ropes.",
+   "answer": "The weight is $5\\times10 = 50$ N. Resolving:\n\nHorizontally: $T_1\\cos30^\\circ = T_2\\cos60^\\circ$ (1)\n\nVertically: $T_1\\sin30^\\circ + T_2\\sin60^\\circ = 50$ (2)\n\nFrom (1): $T_2 = T_1\\dfrac{\\cos30^\\circ}{\\cos60^\\circ} = \\sqrt3\\,T_1$.\n\nSubstituting in (2): $\\dfrac{T_1}{2} + \\sqrt3\\,T_1\\cdot\\dfrac{\\sqrt3}{2} = 50 \\Rightarrow 2T_1 = 50 \\Rightarrow T_1 = 25$ N.\n\nThen $T_2 = 25\\sqrt3$ N.",
+   "images": [
+    "assets/img/ext2-2026-girraween/q14b.png"
+   ]
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.1.2"
+   ],
+   "question": "A weight hangs at $C$ from two ropes $CA$ and $CB$, where $A$ and $B$ lie on a horizontal line and $D$ is the point on $AB$ directly above $C$ (see diagram). Rope $CA$ makes an angle of $30^\\circ$ with the horizontal and rope $CB$ makes an angle of $60^\\circ$ with the horizontal.\n\nIf the distance $DB = x$ metres, show that the distance $AD = 3x$ metres.",
+   "answer": "Let $h = CD$. In right-angled $\\triangle CDB$: $\\tan60^\\circ = \\dfrac{h}{x} \\Rightarrow h = \\sqrt3\\,x$.\n\nIn right-angled $\\triangle CDA$: $\\tan30^\\circ = \\dfrac{h}{AD} \\Rightarrow \\dfrac{1}{\\sqrt3} = \\dfrac{\\sqrt3\\,x}{AD} \\Rightarrow AD = 3x$ metres.",
+   "course": "advanced",
+   "images": [
+    "assets/img/ext2-2026-girraween/q14b.png"
+   ]
+  },
+  {
+   "ref": "Q14(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.1.2"
+   ],
+   "question": "A weight hangs at $C$ from two ropes $CA$ and $CB$, where $A$ and $B$ are fixed points on a horizontal line and $D$ is the point on $AB$ directly above $C$, with $AD = 3x$ metres and $DB = x$ metres.\n\nThe weight is now winched up vertically (so $D$ is still directly above $C$) until $\\angle DBC = 30^\\circ$ (see diagram). Find the new angle $\\alpha = \\angle DAC$.",
+   "answer": "Let $h_2 = CD$. In $\\triangle DBC$: $\\tan30^\\circ = \\dfrac{h_2}{x} \\Rightarrow h_2 = \\dfrac{x}{\\sqrt3}$.\n\nIn $\\triangle DAC$: $\\tan\\alpha = \\dfrac{h_2}{AD} = \\dfrac{x/\\sqrt3}{3x} = \\dfrac{1}{3\\sqrt3}$.\n$$\\alpha = \\tan^{-1}\\frac{1}{3\\sqrt3} \\approx 10^\\circ 54'.$$",
+   "course": "advanced",
+   "images": [
+    "assets/img/ext2-2026-girraween/q14b3.png"
+   ]
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.3",
+    "12.5.4.5"
+   ],
+   "question": "A bullet with a mass of 20 grams is fired horizontally at $400\\ \\text{m/s}$. It encounters air resistance of $0.0048v$ Newtons in a horizontal direction. Ignoring gravity:\n\nShow that $x = \\dfrac{10\\,000 - 25v}{6}$ and show that the bullet has travelled 1500 metres when its velocity has dropped to $40\\ \\text{m/s}$.",
+   "answer": "$m = 0.02$ kg. $F = m\\ddot x$: $0.02\\,a = -0.0048v \\Rightarrow a = -0.24v$.\n\nUsing $a = v\\dfrac{dv}{dx}$: $v\\dfrac{dv}{dx} = -0.24v \\Rightarrow \\dfrac{dv}{dx} = -0.24 = -\\dfrac{6}{25} \\Rightarrow \\dfrac{dx}{dv} = -\\dfrac{25}{6}$.\n$$x = -\\frac{25v}{6} + C.$$\nWhen $x = 0$, $v = 400$: $0 = -\\dfrac{25\\times400}{6} + C \\Rightarrow C = \\dfrac{10\\,000}{6}$.\n$$x = \\frac{10\\,000 - 25v}{6}.$$\nWhen $v = 40$: $x = \\dfrac{10\\,000 - 1000}{6} = 1500$ metres."
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.2",
+    "12.5.4.5"
+   ],
+   "question": "A bullet with a mass of 20 grams is fired horizontally at $400\\ \\text{m/s}$. It encounters air resistance of $0.0048v$ Newtons in a horizontal direction, so that its acceleration is $a = -0.24v$. Ignoring gravity:\n\nShow that the time of flight in seconds is given by $t = -\\dfrac{25}{6}\\ln\\left(\\dfrac{v}{400}\\right)$ and find the time taken for the bullet's velocity to drop to $40\\ \\text{m/s}$.",
+   "answer": "$\\dfrac{dv}{dt} = -0.24v = -\\dfrac{6v}{25} \\Rightarrow \\dfrac{dt}{dv} = -\\dfrac{25}{6v}$.\n$$t = -\\frac{25}{6}\\int\\frac{1}{v}\\,dv = -\\frac{25}{6}\\ln|v| + C.$$\nWhen $t = 0$, $v = 400$: $C = \\dfrac{25}{6}\\ln400$. Since $v > 0$ at all times,\n$$t = -\\frac{25}{6}\\ln v + \\frac{25}{6}\\ln400 = -\\frac{25}{6}\\ln\\left(\\frac{v}{400}\\right).$$\nWhen $v = 40$: $t = -\\dfrac{25}{6}\\ln\\dfrac{1}{10} = \\dfrac{25}{6}\\ln10 \\approx 9.59$ seconds."
+  },
+  {
+   "ref": "Q15(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.17"
+   ],
+   "question": "State the centre and radius of the sphere $(x - 2)^2 + (y + 3)^2 + (z - 1)^2 = 169$.",
+   "answer": "Centre $(2, -3, 1)$, i.e. $\\begin{pmatrix}2\\\\-3\\\\1\\end{pmatrix}$; radius $\\sqrt{169} = 13$."
+  },
+  {
+   "ref": "Q15(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.18",
+    "12.2.1.3"
+   ],
+   "question": "The sphere $(x - 2)^2 + (y + 3)^2 + (z - 1)^2 = 169$ has centre $(2,-3,1)$. Show that the distance $d$ of any point on the line $\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix} = \\begin{pmatrix}0\\\\-1\\\\29\\end{pmatrix} + \\lambda\\begin{pmatrix}4\\\\3\\\\-2\\end{pmatrix}$ from the centre of the sphere is given by\n$$d^2 = 29\\lambda^2 - 116\\lambda + 792.$$",
+   "answer": "A point on the line is $(4\\lambda,\\ 3\\lambda - 1,\\ 29 - 2\\lambda)$.\n$$d^2 = (4\\lambda - 2)^2 + (3\\lambda - 1 + 3)^2 + (29 - 2\\lambda - 1)^2 = (4\\lambda-2)^2 + (3\\lambda+2)^2 + (28 - 2\\lambda)^2$$\n$$= (16\\lambda^2 - 16\\lambda + 4) + (9\\lambda^2 + 12\\lambda + 4) + (4\\lambda^2 - 112\\lambda + 784) = 29\\lambda^2 - 116\\lambda + 792.$$"
+  },
+  {
+   "ref": "Q15(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.18",
+    "12.2.2.5"
+   ],
+   "question": "The distance $d$ of any point on the line $\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix} = \\begin{pmatrix}0\\\\-1\\\\29\\end{pmatrix} + \\lambda\\begin{pmatrix}4\\\\3\\\\-2\\end{pmatrix}$ from the point $(2,-3,1)$ (the centre of a sphere) satisfies $d^2 = 29\\lambda^2 - 116\\lambda + 792$.\n\nHence, or otherwise, find the minimum distance from the line to the centre of the sphere.",
+   "answer": "$d^2$ is a concave-up quadratic in $\\lambda$, minimised at $\\lambda = -\\dfrac{b}{2a} = \\dfrac{116}{58} = 2$.\n$$d^2_{\\min} = 29(4) - 116(2) + 792 = 676, \\qquad d_{\\min} = \\sqrt{676} = 26 \\text{ units}.$$\n(Otherwise: with $A(0,-1,29)$ on the line and centre $C(2,-3,1)$, $\\overrightarrow{AC} = \\begin{pmatrix}2\\\\-2\\\\-28\\end{pmatrix}$; its projection on $\\begin{pmatrix}4\\\\3\\\\-2\\end{pmatrix}$ is $\\frac{58}{29}\\begin{pmatrix}4\\\\3\\\\-2\\end{pmatrix} = \\begin{pmatrix}8\\\\6\\\\-4\\end{pmatrix}$, and the distance is $\\left|\\begin{pmatrix}-6\\\\-8\\\\-24\\end{pmatrix}\\right| = 26$.)"
+  },
+  {
+   "ref": "Q15(a)(iv)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.11",
+    "12.2.1.10"
+   ],
+   "question": "Show that the line $\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix} = \\begin{pmatrix}2\\\\-3\\\\1\\end{pmatrix} + \\mu\\begin{pmatrix}0\\\\3\\\\-1\\end{pmatrix}$ is skew to the line $\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix} = \\begin{pmatrix}0\\\\-1\\\\29\\end{pmatrix} + \\lambda\\begin{pmatrix}4\\\\3\\\\-2\\end{pmatrix}$.",
+   "answer": "**Intersection?** Equate components:\n\n$x$: $2 = 4\\lambda$ (1)\n\n$y$: $-3 + 3\\mu = -1 + 3\\lambda$ (2)\n\n$z$: $1 - \\mu = 29 - 2\\lambda$ (3)\n\nFrom (1), $\\lambda = \\frac12$. Then (2): $-3 + 3\\mu = \\frac12 \\Rightarrow \\mu = \\frac76$.\n\nCheck (3): LHS $= 1 - \\frac76 = -\\frac16$, RHS $= 29 - 1 = 28$. LHS $\\ne$ RHS, so the lines do not intersect.\n\n**Parallel?** If $\\begin{pmatrix}4\\\\3\\\\-2\\end{pmatrix} = k\\begin{pmatrix}0\\\\3\\\\-1\\end{pmatrix}$ then $4 = 0$, impossible (also the $y$ and $z$ components give $k = 1$ and $k = 2$). So the lines are not parallel.\n\nThe lines neither intersect nor are parallel, so they are skew."
+  },
+  {
+   "ref": "Q15(a)(v)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.1.3"
+   ],
+   "question": "Find the equation of the line that is perpendicular to both $\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix} = \\begin{pmatrix}0\\\\-1\\\\29\\end{pmatrix} + \\lambda\\begin{pmatrix}4\\\\3\\\\-2\\end{pmatrix}$ and $\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix} = \\begin{pmatrix}2\\\\-3\\\\1\\end{pmatrix} + \\mu\\begin{pmatrix}0\\\\3\\\\-1\\end{pmatrix}$ that passes through the centre $(2, -3, 1)$ of the sphere $(x - 2)^2 + (y + 3)^2 + (z - 1)^2 = 169$.",
+   "answer": "Let the direction be $\\begin{pmatrix}x_1\\\\y_1\\\\z_1\\end{pmatrix}$. Perpendicular to both directions:\n$$\\begin{pmatrix}0\\\\3\\\\-1\\end{pmatrix}\\cdot\\begin{pmatrix}x_1\\\\y_1\\\\z_1\\end{pmatrix} = 0 \\Rightarrow 3y_1 - z_1 = 0 \\quad (1)$$\n$$\\begin{pmatrix}4\\\\3\\\\-2\\end{pmatrix}\\cdot\\begin{pmatrix}x_1\\\\y_1\\\\z_1\\end{pmatrix} = 0 \\Rightarrow 4x_1 + 3y_1 - 2z_1 = 0 \\quad (2)$$\nFrom (1), $z_1 = 3y_1$; in (2): $4x_1 + 3y_1 - 6y_1 = 0 \\Rightarrow 4x_1 = 3y_1$.\n\nChoose $x_1 = 3$: $y_1 = 4$, $z_1 = 12$. The line is\n$$\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix} = \\begin{pmatrix}2\\\\-3\\\\1\\end{pmatrix} + t\\begin{pmatrix}3\\\\4\\\\12\\end{pmatrix}$$\n(any non-zero multiple of the direction vector is acceptable)."
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.5.1",
+    "12.5.5.2"
+   ],
+   "question": "A projectile with mass $m$ is fired vertically upwards with initial velocity $U$ m/s. It experiences a force due to gravity of $mg$ Newtons and air resistance of $mkv^2$ Newtons.\n\nTaking up as positive, state the acceleration in terms of the velocity and show that the vertical displacement $x$ is given by\n$$x = \\frac{1}{2k}\\ln\\left(\\frac{g + kU^2}{g + kv^2}\\right).$$",
+   "answer": "While moving upwards both forces act downwards: $m\\ddot x = -mg - mkv^2$, so\n$$\\ddot x = -(g + kv^2).$$\nUsing $\\ddot x = v\\dfrac{dv}{dx}$: $v\\dfrac{dv}{dx} = -(g + kv^2) \\Rightarrow \\dfrac{dx}{dv} = -\\dfrac{v}{g + kv^2}$.\n$$x = -\\frac{1}{2k}\\int\\frac{2kv}{g + kv^2}\\,dv = -\\frac{1}{2k}\\ln(g + kv^2) + C.$$\nWhen $x = 0$, $v = U$: $C = \\dfrac{1}{2k}\\ln(g + kU^2)$. Hence\n$$x = \\frac{1}{2k}\\ln(g + kU^2) - \\frac{1}{2k}\\ln(g + kv^2) = \\frac{1}{2k}\\ln\\left(\\frac{g + kU^2}{g + kv^2}\\right).$$"
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.5.6"
+   ],
+   "question": "A projectile with mass $m$ is fired vertically upwards with initial velocity $U$ m/s, experiencing gravity $mg$ N and air resistance $mkv^2$ N. Its vertical displacement while rising is\n$$x = \\frac{1}{2k}\\ln\\left(\\frac{g + kU^2}{g + kv^2}\\right).$$\nFind the greatest height the projectile reaches. Express your answer in terms of $g$, $k$ and $U$.",
+   "answer": "At the greatest height $v = 0$:\n$$x_{\\max} = \\frac{1}{2k}\\ln\\left(\\frac{g + kU^2}{g}\\right)\\ \\text{metres}.$$"
+  },
+  {
+   "ref": "Q16(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.11",
+    "12.3.1.10"
+   ],
+   "question": "Prove for any complex number $z$, $z\\overline{z} = |z|^2$.",
+   "answer": "Let $z = x + iy$ with $x, y$ real, so $\\overline z = x - iy$.\n$$z\\overline z = (x+iy)(x-iy) = x^2 - i^2y^2 = x^2 + y^2 = |z|^2.$$"
+  },
+  {
+   "ref": "Q16(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.3.4",
+    "12.3.1.11"
+   ],
+   "question": "The roots of the equation $9z^4 - 18z^3 + 26z^2 - 18z + 9 = 0$ are $\\alpha$, $\\overline\\alpha$, $\\beta$ and $\\overline\\beta$ where $|\\alpha| = |\\beta| = 1$.\n\nShow that the quadratic equation with roots $\\alpha + \\overline\\alpha$ and $\\beta + \\overline\\beta$ is $9z^2 - 18z + 8 = 0$.",
+   "answer": "**Sum** of the new roots: $(\\alpha + \\overline\\alpha) + (\\beta + \\overline\\beta)$ = sum of the roots of the quartic $= \\dfrac{18}{9} = 2$.\n\n**Product** of the new roots:\n$$(\\alpha + \\overline\\alpha)(\\beta + \\overline\\beta) = \\alpha\\beta + \\alpha\\overline\\beta + \\overline\\alpha\\beta + \\overline\\alpha\\overline\\beta$$\n$$= \\left(\\alpha\\overline\\alpha + \\alpha\\beta + \\alpha\\overline\\beta + \\overline\\alpha\\beta + \\overline\\alpha\\overline\\beta + \\beta\\overline\\beta\\right) - (\\alpha\\overline\\alpha + \\beta\\overline\\beta).$$\nThe bracket is the sum of the roots taken two at a time $= \\dfrac{26}{9}$, and $\\alpha\\overline\\alpha = |\\alpha|^2 = 1$, $\\beta\\overline\\beta = |\\beta|^2 = 1$. So the product is $\\dfrac{26}{9} - 2 = \\dfrac{8}{9}$.\n\nThe quadratic is $z^2 - 2z + \\dfrac89 = 0$, i.e. $9z^2 - 18z + 8 = 0$."
+  },
+  {
+   "ref": "Q16(a)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "The roots of $9z^4 - 18z^3 + 26z^2 - 18z + 9 = 0$ are $\\alpha$, $\\overline\\alpha$, $\\beta$, $\\overline\\beta$ with $|\\alpha| = |\\beta| = 1$, and $\\alpha + \\overline\\alpha$ and $\\beta + \\overline\\beta$ are the roots of $9z^2 - 18z + 8 = 0$.\n\nBy solving this quadratic, find $\\alpha + \\overline\\alpha$ and $\\beta + \\overline\\beta$.",
+   "answer": "$9z^2 - 18z + 8 = (3z - 2)(3z - 4) = 0$, so $z = \\dfrac23$ or $\\dfrac43$.\n\n$\\alpha + \\overline\\alpha = \\dfrac23$ and $\\beta + \\overline\\beta = \\dfrac43$ (or vice versa)."
+  },
+  {
+   "ref": "Q16(a)(iv)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.4",
+    "12.3.1.12"
+   ],
+   "question": "Show that if $|\\alpha| = 1$ and $\\arg\\alpha = \\theta$, then $\\alpha + \\overline\\alpha = 2\\cos\\theta$.",
+   "answer": "$\\alpha = \\cos\\theta + i\\sin\\theta$ and $\\overline\\alpha = \\cos\\theta - i\\sin\\theta$. Adding, $\\alpha + \\overline\\alpha = 2\\cos\\theta$."
+  },
+  {
+   "ref": "Q16(a)(v)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.4",
+    "12.3.2.6"
+   ],
+   "question": "The roots of $9z^4 - 18z^3 + 26z^2 - 18z + 9 = 0$ are $\\alpha$, $\\overline\\alpha$, $\\beta$, $\\overline\\beta$ with $|\\alpha| = |\\beta| = 1$, where $\\alpha + \\overline\\alpha = \\dfrac23$ and $\\beta + \\overline\\beta = \\dfrac43$. Also, if $|\\alpha| = 1$ and $\\arg\\alpha = \\theta$, then $\\alpha + \\overline\\alpha = 2\\cos\\theta$.\n\nHence, or otherwise, solve $9z^4 - 18z^3 + 26z^2 - 18z + 9 = 0$.",
+   "answer": "Let $\\arg\\alpha = \\theta_1$: $2\\cos\\theta_1 = \\frac23 \\Rightarrow \\cos\\theta_1 = \\frac13$, $\\sin\\theta_1 = \\pm\\sqrt{1 - \\frac19} = \\pm\\frac{2\\sqrt2}{3}$. So\n$$\\alpha, \\overline\\alpha = \\frac{1 \\pm 2\\sqrt2\\,i}{3}.$$\nLet $\\arg\\beta = \\theta_2$: $2\\cos\\theta_2 = \\frac43 \\Rightarrow \\cos\\theta_2 = \\frac23$, $\\sin\\theta_2 = \\pm\\sqrt{1 - \\frac49} = \\pm\\frac{\\sqrt5}{3}$. So\n$$\\beta, \\overline\\beta = \\frac{2 \\pm \\sqrt5\\,i}{3}.$$\nThe solutions are $z = \\dfrac{1 \\pm 2\\sqrt2\\,i}{3},\\ \\dfrac{2 \\pm \\sqrt5\\,i}{3}$.\n\n(Otherwise: divide by $z^2$ and let $u = z + \\frac1z$: $9\\left(z^2 + \\frac{1}{z^2}\\right) - 18\\left(z + \\frac1z\\right) + 26 = 0 \\Rightarrow 9u^2 - 18u + 8 = 0$, so $u = \\frac23$ or $\\frac43$, giving $3z^2 - 2z + 3 = 0$ or $3z^2 - 4z + 3 = 0$, with the same roots.)\n\n*Note: the paper's final line gives $\\frac{2 \\pm i\\sqrt5}{2}$; its own working (and $|\\beta| = 1$) gives $\\frac{2 \\pm i\\sqrt5}{3}$.*"
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.11",
+    "12.3.2.8"
+   ],
+   "question": "Prove that for a complex number $z$, if $|z| = 1$ and $\\operatorname{Arg} z = \\theta$, $0 < \\theta < \\pi$, then\n$$\\operatorname{Arg}(z - 1) = \\frac{\\theta + \\pi}{2} \\quad\\text{and}\\quad \\operatorname{Arg}(z + 1) = \\frac{\\theta}{2}.$$",
+   "answer": "**Geometric proof.** Let $\\overrightarrow{OA} = z$ and $\\overrightarrow{OB} = z + 1$, so $AB = 1$ is parallel to the real axis. Then $OA = AB = 1$, so $\\triangle OAB$ is isosceles. $\\angle OAB = \\pi - \\theta$ (co-interior angles, $AB \\parallel Ox$), so $\\angle ABO = \\angle AOB = \\frac12(\\pi - (\\pi - \\theta)) = \\frac{\\theta}{2}$, and $\\angle BOx = \\theta - \\frac{\\theta}{2} = \\frac{\\theta}{2}$. So $\\operatorname{Arg}(z+1) = \\frac{\\theta}{2}$.\n\nNow let $\\overrightarrow{OC} = z - 1$, so $\\overrightarrow{CA} = 1$ is parallel to the real axis. $\\triangle OAC$ is isosceles with $CA = 1 = OA$, and $\\angle CAO = \\theta$ (alternate angles, $CA \\parallel Ox$), so $\\angle COA = \\frac12(\\pi - \\theta) = \\frac{\\pi}{2} - \\frac{\\theta}{2}$, giving $\\operatorname{Arg}(z - 1) = \\theta + \\frac{\\pi}{2} - \\frac{\\theta}{2} = \\frac{\\theta + \\pi}{2}$.\n\n**Algebraic check.** With $z = \\operatorname{cis}\\theta$:\n$$z + 1 = \\operatorname{cis}\\tfrac{\\theta}{2}\\left(\\operatorname{cis}\\tfrac{\\theta}{2} + \\operatorname{cis}\\left(-\\tfrac{\\theta}{2}\\right)\\right) = 2\\cos\\tfrac{\\theta}{2}\\operatorname{cis}\\tfrac{\\theta}{2},$$\n$$z - 1 = \\operatorname{cis}\\tfrac{\\theta}{2}\\left(\\operatorname{cis}\\tfrac{\\theta}{2} - \\operatorname{cis}\\left(-\\tfrac{\\theta}{2}\\right)\\right) = 2i\\sin\\tfrac{\\theta}{2}\\operatorname{cis}\\tfrac{\\theta}{2} = 2\\sin\\tfrac{\\theta}{2}\\operatorname{cis}\\tfrac{\\theta + \\pi}{2}.$$\nFor $0 < \\theta < \\pi$, $\\cos\\frac{\\theta}{2} > 0$ and $\\sin\\frac{\\theta}{2} > 0$, and $\\frac{\\theta}{2}$, $\\frac{\\theta+\\pi}{2}$ lie in $(-\\pi, \\pi]$, so these are the principal arguments."
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.5"
+   ],
+   "question": "State the roots of $z^n - 1 = 0$.",
+   "answer": "$z = \\operatorname{cis}\\dfrac{2k\\pi}{n}$, $k = 0, 1, 2, \\dots, n-1$."
+  },
+  {
+   "ref": "Q16(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.12",
+    "12.3.4.9"
+   ],
+   "question": "In the diagram, $\\overrightarrow{OA} = 1$, $\\overrightarrow{AB} = w$, $\\overrightarrow{BC} = w^2$, $\\overrightarrow{CD} = w^3$, etc., where $w = \\operatorname{cis}\\dfrac{2\\pi}{n}$ is the root of $z^n - 1 = 0$ with the smallest positive argument.\n\nYou may use the result: if $|z| = 1$ and $\\operatorname{Arg} z = \\theta$, $0 < \\theta < \\pi$, then $\\operatorname{Arg}(z - 1) = \\frac{\\theta + \\pi}{2}$ and $\\operatorname{Arg}(z + 1) = \\frac{\\theta}{2}$.\n\nState $\\operatorname{Arg}(1 + w)$ and show that $|1 + w| = \\dfrac{\\sin\\left(\\frac{2\\pi}{n}\\right)}{\\sin\\left(\\frac{\\pi}{n}\\right)}$.",
+   "answer": "$\\overrightarrow{OB} = 1 + w$. Since $|w| = 1$ and $\\operatorname{Arg} w = \\frac{2\\pi}{n}$, by the given result\n$$\\operatorname{Arg}(1 + w) = \\frac12\\cdot\\frac{2\\pi}{n} = \\frac{\\pi}{n}.$$\nIn $\\triangle OAB$: $\\angle AOB = \\frac{\\pi}{n}$, $\\angle OAB = \\pi - \\frac{2\\pi}{n}$, $AB = 1$. By the sine rule:\n$$\\frac{OB}{\\sin\\left(\\pi - \\frac{2\\pi}{n}\\right)} = \\frac{AB}{\\sin\\frac{\\pi}{n}} \\Rightarrow OB = \\frac{\\sin\\frac{2\\pi}{n}}{\\sin\\frac{\\pi}{n}},$$\nsince $\\sin(\\pi - \\phi) = \\sin\\phi$. So $|1 + w| = \\dfrac{\\sin\\left(\\frac{2\\pi}{n}\\right)}{\\sin\\left(\\frac{\\pi}{n}\\right)}$.\n\n(Equivalently $1 + w = 2\\cos\\frac{\\pi}{n}\\operatorname{cis}\\frac{\\pi}{n}$ and $2\\cos\\frac{\\pi}{n} = \\frac{\\sin\\frac{2\\pi}{n}}{\\sin\\frac{\\pi}{n}}$.)",
+   "images": [
+    "assets/img/ext2-2026-girraween/q16b.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)(iv)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.12",
+    "12.3.2.8"
+   ],
+   "question": "Let $w = \\operatorname{cis}\\dfrac{2\\pi}{n}$, the root of $z^n - 1 = 0$ with the smallest positive argument, and let $k$ be a positive integer with $k + 1 < n$. In the diagram, $\\overrightarrow{OA} = 1$, $\\overrightarrow{AB} = w$, $\\overrightarrow{BC} = w^2$, $\\overrightarrow{CD} = w^3$, etc.\n\nYou may use the result: if $|z| = 1$ and $\\operatorname{Arg} z = \\theta$, $0 < \\theta < \\pi$, then $\\operatorname{Arg}(z - 1) = \\frac{\\theta + \\pi}{2}$.\n\nShow that\n$$\\operatorname{Arg}\\frac{1 + w + w^2 + w^3 + \\dots + w^k}{1 + w + w^2 + w^3 + \\dots + w^{k-1}} = \\frac{\\pi}{n}\n\\quad\\text{and}\\quad\n\\left|1 + w + w^2 + w^3 + \\dots + w^k\\right| = \\frac{\\sin\\left(\\frac{(k+1)\\pi}{n}\\right)}{\\sin\\left(\\frac{\\pi}{n}\\right)}.$$",
+   "answer": "By the geometric series formula, for $m \\ge 1$:\n$$1 + w + \\dots + w^{m-1} = \\frac{w^m - 1}{w - 1}.$$\n**Argument.**\n$$\\frac{1 + w + \\dots + w^k}{1 + w + \\dots + w^{k-1}} = \\frac{w^{k+1} - 1}{w - 1}\\cdot\\frac{w - 1}{w^k - 1} = \\frac{w^{k+1} - 1}{w^k - 1}.$$\nFor $1 \\le m < n$, $w^m = \\operatorname{cis}\\frac{2m\\pi}{n}$ has modulus 1, and\n$$w^m - 1 = \\operatorname{cis}\\tfrac{m\\pi}{n}\\left(\\operatorname{cis}\\tfrac{m\\pi}{n} - \\operatorname{cis}\\left(-\\tfrac{m\\pi}{n}\\right)\\right) = 2\\sin\\tfrac{m\\pi}{n}\\operatorname{cis}\\left(\\tfrac{m\\pi}{n} + \\tfrac{\\pi}{2}\\right),$$\nwith $\\sin\\frac{m\\pi}{n} > 0$. (When $\\frac{2m\\pi}{n} < \\pi$ this is the given result $\\operatorname{Arg}(w^m - 1) = \\frac{2m\\pi/n + \\pi}{2}$.) Hence\n$$\\arg\\frac{w^{k+1} - 1}{w^k - 1} = \\left(\\frac{(k+1)\\pi}{n} + \\frac{\\pi}{2}\\right) - \\left(\\frac{k\\pi}{n} + \\frac{\\pi}{2}\\right) = \\frac{\\pi}{n},$$\nwhich lies in $(-\\pi, \\pi]$, so it is the principal argument.\n\n**Modulus.** From the same expression, $|w^m - 1| = 2\\sin\\frac{m\\pi}{n}$. So\n$$\\left|1 + w + \\dots + w^k\\right| = \\frac{|w^{k+1} - 1|}{|w - 1|} = \\frac{2\\sin\\frac{(k+1)\\pi}{n}}{2\\sin\\frac{\\pi}{n}} = \\frac{\\sin\\left(\\frac{(k+1)\\pi}{n}\\right)}{\\sin\\left(\\frac{\\pi}{n}\\right)}.$$\n(The paper finds $|w^{k+1} - 1|$ and $|w - 1| = 2\\sin\\frac{\\pi}{n}$ geometrically with the sine rule in the isosceles triangles $OAC$ formed by $w^m$ and $w^m - 1$.)",
+   "images": [
+    "assets/img/ext2-2026-girraween/q16b.png"
+   ]
+  }
+ ]
+}

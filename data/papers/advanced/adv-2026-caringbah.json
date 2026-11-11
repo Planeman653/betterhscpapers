@@ -1,0 +1,727 @@
+{
+ "id": "adv-2026-caringbah",
+ "course": "advanced",
+ "school": "Caringbah",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5328",
+  "title": "Caringbah 2026 w. sol"
+ },
+ "indexed": "2026-11-11",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q4",
+   "reason": "Not in 2024 syllabus: mean, standard deviation and IQR of a dataset"
+  },
+  {
+   "ref": "Q12(a)-(b)",
+   "reason": "Not in 2024 syllabus: box plots, skewness and quartiles of a dataset"
+  },
+  {
+   "ref": "Q28(a)-(b)",
+   "reason": "Not in 2024 syllabus: bivariate data, correlation and least-squares regression"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.3.1",
+    "11.1.3.6"
+   ],
+   "question": "Which of the following could be the graph of $3x + y = 5$?",
+   "answer": "Rearranging, $y = -3x + 5$: the gradient is negative and the $y$-intercept is $5 > 0$. Graph B has a negative gradient and cuts the $y$-axis above the origin.",
+   "options": [
+    "![Graph A](assets/img/adv-2026-caringbah/q1a.png)",
+    "![Graph B](assets/img/adv-2026-caringbah/q1b.png)",
+    "![Graph C](assets/img/adv-2026-caringbah/q1c.png)",
+    "![Graph D](assets/img/adv-2026-caringbah/q1d.png)"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.2.2"
+   ],
+   "question": "In an arithmetic series, the first term is $-2$ and the third term is $8$. What is the sum of the first 15 terms?",
+   "answer": "$a = -2$ and $a + 2d = 8$, so $d = 5$. Then $S_{15} = \\dfrac{15}{2}\\left(2(-2) + 14(5)\\right) = \\dfrac{15}{2}(66) = 495$.",
+   "options": [
+    "$395$",
+    "$450$",
+    "$495$",
+    "$540$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.5.2.5"
+   ],
+   "question": "Consider $x = \\log_a(2y)$, where $a > 1$. Which of the following is the correct expression for the function, with $y$ as the subject?",
+   "answer": "$x = \\log_a(2y) \\Rightarrow 2y = a^x \\Rightarrow y = \\dfrac{a^x}{2}$.",
+   "options": [
+    "$y = a^{\\frac{x}{2}}$",
+    "$y = a^{2x}$",
+    "$y = \\dfrac{a^x}{2}$",
+    "$y = 2a^x$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Which of the following is equivalent to $\\displaystyle\\int \\frac{1}{(2x+1)^2}\\,dx$?",
+   "answer": "$$\\int (2x+1)^{-2}\\,dx = \\frac{(2x+1)^{-1}}{(-1)\\times 2} + C = \\frac{-1}{2(2x+1)} + C.$$",
+   "options": [
+    "$\\dfrac{-1}{2(2x+1)} + C$",
+    "$\\dfrac{-1}{4(2x+1)} + C$",
+    "$\\dfrac{-1}{3(2x+1)^3} + C$",
+    "$\\dfrac{-1}{6(2x+1)^3} + C$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.6.1.6",
+    "11.6.1.10"
+   ],
+   "question": "The cubic function $y = (x-4)^3 + 5$ is reflected about the $y$-axis and then translated 3 units to the left. What is the equation of the resulting cubic?",
+   "answer": "Reflecting in the $y$-axis (replace $x$ by $-x$): $y = (-x-4)^3 + 5 = -(x+4)^3 + 5$.\nTranslating 3 units left (replace $x$ by $x+3$): $y = -(x+3+4)^3 + 5 = -(x+7)^3 + 5$.",
+   "options": [
+    "$y = -(x+1)^3 + 2$",
+    "$y = -(x+7)^3 + 5$",
+    "$y = (x+1)^3 + 2$",
+    "$y = (x+7)^3 + 5$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.3",
+    "11.4.3.10"
+   ],
+   "question": "Consider the function $f(x) = (4x-1)^3 + 2x - 3$. The derivative $f'(x)$ has a minimum value of $p$. What is the value of $p$?",
+   "answer": "$f'(x) = 12(4x-1)^2 + 2$. Since $(4x-1)^2 \\ge 0$ with equality at $x = \\frac14$ (equivalently $f''(x) = 96(4x-1) = 0$ there), the minimum of $f'(x)$ is $f'\\left(\\frac14\\right) = 0 + 2 = 2$. So $p = 2$.",
+   "options": [
+    "$p = -1$",
+    "$p = 0$",
+    "$p = 1$",
+    "$p = 2$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.2.3"
+   ],
+   "question": "A bag contains eucalyptus lollies and lemon lollies. The probability of randomly selecting a lemon lolly is $\\dfrac{4}{7}$. After six lemon lollies are removed, the probability of randomly selecting a lemon lolly becomes $\\dfrac{5}{11}$. How many eucalyptus lollies are in the bag?",
+   "answer": "Lemon : eucalyptus $= 4:3$, so let there be $4k$ lemon and $3k$ eucalyptus. After removing 6 lemon lollies, lemon : eucalyptus $= 5:6$:\n$$\\frac{4k - 6}{3k} = \\frac{5}{6} \\Rightarrow 24k - 36 = 15k \\Rightarrow k = 4.$$\nSo there are $3k = 12$ eucalyptus lollies (check: $16 - 6 = 10$ lemon, and $10 : 12 = 5 : 6$).",
+   "options": [
+    "$3$",
+    "$6$",
+    "$9$",
+    "$12$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.6",
+    "12.4.3.2"
+   ],
+   "question": "The graph of the derivative function $y = f'(x)$, for $0 \\le x \\le 6$, is shown below. The graph consists of a semicircle of radius 2 centred on the $x$-axis (below the axis, from $x = 0$ to $x = 4$), and a straight line from $(4, 0)$ to $(6, 3)$.\n\nGiven that $f(0) = 5$, what is the exact value of $f(6)$?",
+   "answer": "$$f(6) - f(0) = \\int_0^6 f'(x)\\,dx = -\\tfrac12\\pi(2)^2 + \\tfrac12(2)(3) = -2\\pi + 3.$$\nSo $f(6) = 5 + 3 - 2\\pi = 8 - 2\\pi$.",
+   "options": [
+    "$5 + 2\\pi$",
+    "$11 - 2\\pi$",
+    "$8 - 2\\pi$",
+    "$8 + 2\\pi$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/adv-2026-caringbah/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.5.2.3"
+   ],
+   "question": "Rachita is training for a marathon and uses an app on her phone to track her physical activity and fitness. The app calculates the number of calories that Rachita burns **per minute** as modelled by the function\n$$f(V) = \\frac{1}{100}\\left(\\frac{V^3}{800} - \\frac{V^2}{2} + 57V\\right),$$\nwhere $V$ is Rachita's speed in metres per minute.\n\nIf Rachita runs for 10 km at a constant speed, what is the minimum number of calories that she burns?",
+   "answer": "10 km $= 10\\,000$ m, so the time taken is $T = \\dfrac{10\\,000}{V}$ minutes. Total calories:\n$$C(V) = f(V)\\times\\frac{10\\,000}{V} = 100\\left(\\frac{V^2}{800} - \\frac{V}{2} + 57\\right) = \\frac{V^2}{8} - 50V + 5700.$$\n$C'(V) = \\dfrac{V}{4} - 50 = 0 \\Rightarrow V = 200$, and $C''(V) = \\frac14 > 0$, so this is a minimum.\n$C(200) = \\dfrac{200^2}{8} - 50(200) + 5700 = 5000 - 10\\,000 + 5700 = 700$ calories.",
+   "options": [
+    "200 calories",
+    "500 calories",
+    "600 calories",
+    "700 calories"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q11",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.11.6"
+   ],
+   "question": "Solve $|4 - 3x| = 11$.",
+   "answer": "$4 - 3x = 11$ or $4 - 3x = -11$, so $-3x = 7$ or $-3x = -15$.\n$$x = -\\frac{7}{3} \\quad\\text{or}\\quad x = 5.$$"
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.3.6"
+   ],
+   "question": "The diagram shows a circle of radius 5 cm and a minor arc of length $\\ell$ cm subtending an angle of $\\dfrac{3\\pi}{4}$ radians at the centre. The major sector is shaded.\n\nFind the exact length of the minor arc, $\\ell$ cm.",
+   "answer": "$$\\ell = r\\theta = 5\\times\\frac{3\\pi}{4} = \\frac{15\\pi}{4}\\text{ cm}.$$",
+   "images": [
+    "assets/img/adv-2026-caringbah/q13.png"
+   ]
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.7",
+    "11.2.3.8"
+   ],
+   "question": "The diagram shows a circle of radius 5 cm and a minor arc subtending an angle of $\\dfrac{3\\pi}{4}$ radians at the centre. The major sector is shaded.\n\nFind the exact area of the major sector.",
+   "answer": "The major sector has angle $2\\pi - \\dfrac{3\\pi}{4} = \\dfrac{5\\pi}{4}$.\n$$A = \\frac12 r^2\\theta = \\frac12\\times 5^2\\times\\frac{5\\pi}{4} = \\frac{125\\pi}{8}\\text{ cm}^2.$$",
+   "images": [
+    "assets/img/adv-2026-caringbah/q13.png"
+   ]
+  },
+  {
+   "ref": "Q14",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.9.8",
+    "11.1.9.3"
+   ],
+   "question": "Given that $f(x) = x - 2$ and $g(x) = -\\sqrt{x+3}$, find the range of $f(g(x))$.",
+   "answer": "$$f(g(x)) = -\\sqrt{x+3} - 2,\\quad x \\ge -3.$$\nSince $\\sqrt{x+3}$ takes all values $\\ge 0$, $-\\sqrt{x+3}$ takes all values $\\le 0$, so the range is $y \\le -2$."
+  },
+  {
+   "ref": "Q15",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.3.9",
+    "12.3.4.1"
+   ],
+   "question": "Find, in simplest form, $\\dfrac{d}{dx}\\left(\\dfrac{\\sin^2 x}{e^x}\\right)$.",
+   "answer": "By the quotient rule,\n$$\\frac{d}{dx}\\left(\\frac{\\sin^2 x}{e^x}\\right) = \\frac{2\\sin x\\cos x\\cdot e^x - \\sin^2 x\\cdot e^x}{(e^x)^2} = \\frac{e^x\\sin x(2\\cos x - \\sin x)}{e^{2x}} = \\frac{\\sin x(2\\cos x - \\sin x)}{e^x}.$$"
+  },
+  {
+   "ref": "Q16(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.1.3",
+    "12.6.1.9"
+   ],
+   "question": "On any given school day, the discrete random variable $X$ represents the number of students who leave early due to illness.\n\n| $x$ | 0 | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|---|\n| $P(X = x)$ | $p$ | 0.25 | 0.25 | 0.13 | 0.07 | 0.04 |\n\nFind the value of $p$.",
+   "answer": "The probabilities sum to 1: $p + 0.25 + 0.25 + 0.13 + 0.07 + 0.04 = 1$, so $p = 0.26$."
+  },
+  {
+   "ref": "Q16(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.6",
+    "12.6.1.9"
+   ],
+   "question": "On any given school day, the discrete random variable $X$ represents the number of students who leave early due to illness.\n\n| $x$ | 0 | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|---|\n| $P(X = x)$ | $p$ | 0.25 | 0.25 | 0.13 | 0.07 | 0.04 |\n\nGiven that $p = 0.26$, find the number of students, $E(X)$, who are expected to leave early due to illness on any given school day.",
+   "answer": "$$E(X) = \\sum xP(x) = 0(0.26) + 1(0.25) + 2(0.25) + 3(0.13) + 4(0.07) + 5(0.04) = 0 + 0.25 + 0.5 + 0.39 + 0.28 + 0.2 = 1.62.$$"
+  },
+  {
+   "ref": "Q16(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.3.4",
+    "12.6.1.9"
+   ],
+   "question": "On any given school day, the discrete random variable $X$ represents the number of students who leave early due to illness.\n\n| $x$ | 0 | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|---|\n| $P(X = x)$ | $p$ | 0.25 | 0.25 | 0.13 | 0.07 | 0.04 |\n\nGiven that $p = 0.26$: it is known that at least one student left school early due to illness on a particular day. Find the probability that four students left early on that day.",
+   "answer": "$$P(X = 4 \\mid X \\ge 1) = \\frac{P(X = 4)}{1 - P(X = 0)} = \\frac{0.07}{1 - 0.26} = \\frac{0.07}{0.74} = \\frac{7}{74}.$$"
+  },
+  {
+   "ref": "Q17(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.3.8"
+   ],
+   "question": "A can of soft drink is taken from a cupboard and placed in a cooler filled with ice and water. The temperature of the can in degrees Celsius, $T$, can be modelled by the equation $T = 25e^{-0.1t}$, where $t$ is the number of minutes since the can was placed in the cooler.\n\nWhat was the initial temperature of the can?",
+   "answer": "At $t = 0$: $T = 25e^0 = 25$. The initial temperature was $25^\\circ$C."
+  },
+  {
+   "ref": "Q17(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.3.8"
+   ],
+   "question": "A can of soft drink is taken from a cupboard and placed in a cooler filled with ice and water. The temperature of the can in degrees Celsius, $T$, can be modelled by the equation $T = 25e^{-0.1t}$, where $t$ is the number of minutes since the can was placed in the cooler.\n\nWhat is the temperature of the can after it has been in the cooler for 5 minutes? Answer correct to the nearest degree Celsius.",
+   "answer": "At $t = 5$: $T = 25e^{-0.5} = 15.163\\ldots \\approx 15^\\circ$C."
+  },
+  {
+   "ref": "Q17(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.8",
+    "11.5.2.9"
+   ],
+   "question": "A can of soft drink is taken from a cupboard and placed in a cooler filled with ice and water. The temperature of the can in degrees Celsius, $T$, can be modelled by the equation $T = 25e^{-0.1t}$, where $t$ is the number of minutes since the can was placed in the cooler.\n\nAfter how long will the temperature of the can fall below $4^\\circ$C? Answer correct to the nearest second.",
+   "answer": "Solve $25e^{-0.1t} = 4$:\n$$e^{-0.1t} = \\frac{4}{25} \\Rightarrow -0.1t = \\ln\\frac{4}{25} \\Rightarrow t = -10\\ln\\frac{4}{25} = 18.325\\ldots\\text{ minutes}.$$\nSince $T$ is decreasing, the temperature falls below $4^\\circ$C after about 18 minutes 20 seconds."
+  },
+  {
+   "ref": "Q18(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "A triangular plot of land, $ABC$, is enclosed by fences measuring $AB = 30$ m, $BC = 50$ m and $AC = 70$ m.\n\nFind the size of $\\angle ABC$.",
+   "answer": "By the cosine rule,\n$$\\cos\\angle ABC = \\frac{30^2 + 50^2 - 70^2}{2(30)(50)} = \\frac{-1500}{3000} = -\\frac12,$$\nso $\\angle ABC = 120^\\circ$.",
+   "images": [
+    "assets/img/adv-2026-caringbah/q18.png"
+   ]
+  },
+  {
+   "ref": "Q18(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "A triangular plot of land, $ABC$, is enclosed by fences measuring $AB = 30$ m, $BC = 50$ m and $AC = 70$ m.\n\nGiven that $\\angle ABC = 120^\\circ$, find the exact area of the plot of land.",
+   "answer": "$$\\text{Area} = \\frac12\\times 30\\times 50\\times\\sin 120^\\circ = 750\\times\\frac{\\sqrt3}{2} = 375\\sqrt3\\text{ m}^2.$$",
+   "images": [
+    "assets/img/adv-2026-caringbah/q18.png"
+   ]
+  },
+  {
+   "ref": "Q18(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.10",
+    "11.2.1.2"
+   ],
+   "question": "A triangular plot of land, $ABC$, is enclosed by fences measuring $AB = 30$ m, $BC = 50$ m and $AC = 70$ m.\n\nThe area of the plot is $375\\sqrt3$ m$^2$. A goat is tethered to the fence post at point $B$ using a 20 m long rope. Determine whether the rope is long enough for the goat to reach the fence $AC$.",
+   "answer": "Let $h$ be the perpendicular distance from $B$ to $AC$. Using $AC$ as the base:\n$$\\frac12\\times 70\\times h = 375\\sqrt3 \\Rightarrow h = \\frac{75\\sqrt3}{7} = 18.557\\ldots\\text{ m}.$$\nSince $18.56 < 20$, yes, the rope is long enough for the goat to reach the fence $AC$.",
+   "images": [
+    "assets/img/adv-2026-caringbah/q18.png"
+   ]
+  },
+  {
+   "ref": "Q19(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.9",
+    "11.1.1.6"
+   ],
+   "question": "The diagram shows the graphs of the curve $y = x - 3\\sqrt{x}$ and the line $y = \\frac14 x$, which intersect at the points $O(0,0)$ and $P$.\n\nShow that the $x$-coordinate of $P$ is 16.",
+   "answer": "At the intersection, $x - 3\\sqrt x = \\frac14 x$, so $\\frac34 x = 3\\sqrt x$. Squaring: $\\frac{9}{16}x^2 = 9x$, so $9x\\left(\\frac{1}{16}x - 1\\right) = 0$, giving $x = 0$ or $x = 16$. $x = 0$ is the origin, so $P$ has $x = 16$ (check: $16 - 3(4) = 4 = \\frac14(16)$).",
+   "images": [
+    "assets/img/adv-2026-caringbah/q19.png"
+   ]
+  },
+  {
+   "ref": "Q19(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.5",
+    "12.4.8.1"
+   ],
+   "question": "The diagram shows the graphs of the curve $y = x - 3\\sqrt{x}$ and the line $y = \\frac14 x$, which intersect at the points $O(0,0)$ and $P$.\n\nGiven that $P$ has $x$-coordinate 16, find the exact area of the shaded region enclosed by the curve and the line.",
+   "answer": "The line lies above the curve for $0 \\le x \\le 16$:\n$$A = \\int_0^{16}\\left[\\frac14 x - \\left(x - 3\\sqrt x\\right)\\right]dx = \\int_0^{16}\\left(3x^{\\frac12} - \\frac34 x\\right)dx = \\left[2x^{\\frac32} - \\frac38 x^2\\right]_0^{16}$$\n$$= 2(64) - \\frac38(256) - 0 = 128 - 96 = 32\\text{ units}^2.$$",
+   "images": [
+    "assets/img/adv-2026-caringbah/q19.png"
+   ]
+  },
+  {
+   "ref": "Q20(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.6.1.8",
+    "11.6.1.9",
+    "11.6.1.1"
+   ],
+   "question": "Consider the circle $x^2 + y^2 - 2y - 15 = 0$. The circle is reflected in the $x$-axis. Using an appropriate scale, sketch the reflected circle, showing the coordinates of the centre and the radius.",
+   "answer": "Completing the square: $x^2 + (y^2 - 2y + 1) = 16$, i.e. $x^2 + (y-1)^2 = 16$: centre $(0, 1)$, radius 4.\n\nReflecting in the $x$-axis (replace $y$ by $-y$): $x^2 + (y+1)^2 = 16$, a circle with **centre $(0, -1)$ and radius 4**.\n\nSketch: the circle passes through $(\\pm 4, -1)$, $(0, 3)$ and $(0, -5)$, and cuts the $x$-axis at $(\\pm\\sqrt{15}, 0)$ (from $x^2 + 1 = 16$)."
+  },
+  {
+   "ref": "Q20(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.11.5",
+    "11.6.1.7"
+   ],
+   "question": "The circle $x^2 + y^2 - 2y - 15 = 0$ is reflected in the $x$-axis, giving the circle $x^2 + (y+1)^2 = 16$. The vertex of $y = |x + c|$ lies on the reflected circle. What are the possible values of $c$? Leave your answer(s) in exact form.",
+   "answer": "The vertex of $y = |x + c|$ is $(-c, 0)$. Substituting into $x^2 + (y+1)^2 = 16$:\n$$c^2 + (0 + 1)^2 = 16 \\Rightarrow c^2 = 15 \\Rightarrow c = \\pm\\sqrt{15}.$$"
+  },
+  {
+   "ref": "Q21",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.14",
+    "12.6.3.10"
+   ],
+   "question": "The finishing times in minutes of the participants in the Oztown Charity Fun Run were normally distributed with mean $\\mu$ and standard deviation $\\sigma$. A time of 28 minutes had a $z$-score of $-2.5$ and a time of 64 minutes had a $z$-score of $1.5$. Find the values of $\\mu$ and $\\sigma$.",
+   "answer": "$$-2.5 = \\frac{28 - \\mu}{\\sigma} \\Rightarrow -2.5\\sigma = 28 - \\mu \\quad (1)$$\n$$1.5 = \\frac{64 - \\mu}{\\sigma} \\Rightarrow 1.5\\sigma = 64 - \\mu \\quad (2)$$\n$(2) - (1)$: $4\\sigma = 36$, so $\\sigma = 9$. Then from (2): $13.5 = 64 - \\mu$, so $\\mu = 50.5$.\n\n$\\mu = 50.5$ minutes, $\\sigma = 9$ minutes."
+  },
+  {
+   "ref": "Q22(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.2.4",
+    "12.7.2.2"
+   ],
+   "question": "The table shows the future value interest factors of an annuity of \\$1.\n\n| Period (years) | 1% | 2% | 3% | 4% |\n|---|---|---|---|---|\n| 4 | 4.060 | 4.122 | 4.184 | 4.246 |\n| 5 | 5.101 | 5.204 | 5.309 | 5.416 |\n| 6 | 6.152 | 6.308 | 6.468 | 6.633 |\n\nAn annuity is opened and annual contributions of \\$3000 are made at the end of each year for six years. The interest earned by the annuity is calculated just before each contribution is made according to the following rates:\n\n- 3% per annum, compounding annually, for the first four years\n- 4% per annum, compounding annually, in the fifth year\n- $r$% per annum, compounding annually, in the sixth year\n\nUsing the table, find the total balance of the annuity after the first four years.",
+   "answer": "Using the factor for 4 periods at 3%: $\\$3000\\times 4.184 = \\$12\\,552$."
+  },
+  {
+   "ref": "Q22(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.2"
+   ],
+   "question": "The table shows the future value interest factors of an annuity of \\$1.\n\n| Period (years) | 1% | 2% | 3% | 4% |\n|---|---|---|---|---|\n| 4 | 4.060 | 4.122 | 4.184 | 4.246 |\n| 5 | 5.101 | 5.204 | 5.309 | 5.416 |\n| 6 | 6.152 | 6.308 | 6.468 | 6.633 |\n\nAn annuity is opened and annual contributions of \\$3000 are made at the end of each year for six years. The interest earned by the annuity is calculated just before each contribution is made according to the following rates:\n\n- 3% per annum, compounding annually, for the first four years\n- 4% per annum, compounding annually, in the fifth year\n- $r$% per annum, compounding annually, in the sixth year\n\nThe balance after the first four years is \\$12 552. Show that the balance of the annuity immediately after the fifth contribution is \\$16 054.08.",
+   "answer": "Before the 5th contribution: $\\$12\\,552\\times 1.04 = \\$13\\,054.08$.\nAfter the 5th contribution: $\\$13\\,054.08 + \\$3000 = \\$16\\,054.08$."
+  },
+  {
+   "ref": "Q22(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.2",
+    "12.7.2.4"
+   ],
+   "question": "The table shows the future value interest factors of an annuity of \\$1.\n\n| Period (years) | 1% | 2% | 3% | 4% |\n|---|---|---|---|---|\n| 4 | 4.060 | 4.122 | 4.184 | 4.246 |\n| 5 | 5.101 | 5.204 | 5.309 | 5.416 |\n| 6 | 6.152 | 6.308 | 6.468 | 6.633 |\n\nAn annuity is opened and annual contributions of \\$3000 are made at the end of each year for six years. The interest earned by the annuity is calculated just before each contribution is made according to the following rates:\n\n- 3% per annum, compounding annually, for the first four years\n- 4% per annum, compounding annually, in the fifth year\n- $r$% per annum, compounding annually, in the sixth year\n\nThe balance immediately after the fifth contribution is \\$16 054.08. If the annuity's balance immediately after the sixth contribution is \\$19 800, find the interest rate, $r$%, for the sixth year. Give your answer correct to two decimal places.",
+   "answer": "$$19\\,800 = 16\\,054.08\\left(1 + \\frac{r}{100}\\right) + 3000$$\n$$1 + \\frac{r}{100} = \\frac{16\\,800}{16\\,054.08} \\Rightarrow \\frac{r}{100} = \\frac{745.92}{16\\,054.08} = 0.046462\\ldots$$\nSo $r = 4.65$ (to 2 decimal places), i.e. 4.65% p.a."
+  },
+  {
+   "ref": "Q23(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.5",
+    "12.4.5.2"
+   ],
+   "question": "The duration, $T$, in seconds of social media videos uploaded by a content creator is given by the probability density function\n$$T(t) = \\begin{cases} \\dfrac{1}{20}e^{-\\frac{1}{20}(t-20)}, & t \\ge 20 \\\\ 0, & t < 20 \\end{cases}$$\n\nCalculate $P(T < 34)$, expressing your answer correct to one decimal place.",
+   "answer": "$$P(T < 34) = \\int_{20}^{34}\\frac{1}{20}e^{-\\frac{1}{20}(t-20)}\\,dt = \\left[-e^{-\\frac{1}{20}(t-20)}\\right]_{20}^{34} = -\\left(e^{-\\frac{14}{20}} - e^0\\right) = 1 - e^{-0.7} = 0.5034\\ldots \\approx 0.5.$$"
+  },
+  {
+   "ref": "Q23(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.2.7"
+   ],
+   "question": "The duration, $T$, in seconds of social media videos uploaded by a content creator is given by the probability density function\n$$T(t) = \\begin{cases} \\dfrac{1}{20}e^{-\\frac{1}{20}(t-20)}, & t \\ge 20 \\\\ 0, & t < 20 \\end{cases}$$\n\nIt is found that $P(T < 34) \\approx 0.5$. Interpret this answer in the given context.",
+   "answer": "Approximately half of the videos uploaded by the content creator are less than 34 seconds long (i.e. between 20 and 34 seconds)."
+  },
+  {
+   "ref": "Q23(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.7",
+    "12.6.2.9",
+    "11.5.2.9"
+   ],
+   "question": "The duration, $T$, in seconds of social media videos uploaded by a content creator is given by the probability density function\n$$T(t) = \\begin{cases} \\dfrac{1}{20}e^{-\\frac{1}{20}(t-20)}, & t \\ge 20 \\\\ 0, & t < 20 \\end{cases}$$\n\nIt is known that 90% of the videos uploaded by the content creator have a duration of less than $m$ seconds. Find the value of $m$, correct to the nearest whole number.",
+   "answer": "$$\\int_{20}^{m}\\frac{1}{20}e^{-\\frac{1}{20}(t-20)}\\,dt = 0.9 \\Rightarrow 1 - e^{-\\frac{1}{20}(m-20)} = 0.9$$\n$$e^{-\\frac{1}{20}(m-20)} = 0.1 \\Rightarrow -\\frac{1}{20}(m-20) = \\ln 0.1 \\Rightarrow m = 20 + 20\\ln 10 = 66.05\\ldots$$\nSo $m = 66$ seconds."
+  },
+  {
+   "ref": "Q24(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.1.2"
+   ],
+   "question": "The water level of a sea channel rises and falls according to changes in the tide. The channel's water level can be modelled by the function $h(t) = A\\cos(bt) + 13$, where $h$ is the water level in metres above the sea bed and $t$ is the number of hours after 8 am on a Saturday.\n\nSerena observes the water level from 8 am until midnight on Saturday. At 8 am, during a low tide, the water level is 10 m. At 2 pm, during a high tide, the water level is 16 m. The graph shows the changes in water level that Serena observed during the 16-hour period. Serena's ship requires the water level to be at least 11.5 m to sail safely.\n\nFind the values of $A$ and $b$.",
+   "answer": "The amplitude is $16 - 13 = 3$, and the graph is an inverted cosine (minimum at $t = 0$), so $A = -3$.\nLow tide to high tide takes 6 hours, so the period is 12 hours: $\\dfrac{2\\pi}{b} = 12 \\Rightarrow b = \\dfrac{\\pi}{6}$.",
+   "images": [
+    "assets/img/adv-2026-caringbah/q24.png"
+   ]
+  },
+  {
+   "ref": "Q24(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.1.3"
+   ],
+   "question": "The water level of a sea channel rises and falls according to changes in the tide. The channel's water level can be modelled by the function $h(t) = A\\cos(bt) + 13$, where $h$ is the water level in metres above the sea bed and $t$ is the number of hours after 8 am on a Saturday.\n\nSerena observes the water level from 8 am until midnight on Saturday. At 8 am, during a low tide, the water level is 10 m. At 2 pm, during a high tide, the water level is 16 m. The graph shows the changes in water level that Serena observed during the 16-hour period. Serena's ship requires the water level to be at least 11.5 m to sail safely.\n\nGiven that $h(t) = -3\\cos\\left(\\dfrac{\\pi t}{6}\\right) + 13$, at what times between 8 am and midnight on Saturday can Serena safely sail her ship?",
+   "answer": "Need $h(t) \\ge 11.5$ for $0 \\le t \\le 16$, so $0 \\le \\frac{\\pi t}{6} \\le \\frac{8\\pi}{3}$. Solve\n$$-3\\cos\\left(\\frac{\\pi t}{6}\\right) + 13 = 11.5 \\Rightarrow \\cos\\left(\\frac{\\pi t}{6}\\right) = \\frac12$$\n$$\\frac{\\pi t}{6} = \\frac{\\pi}{3}, \\frac{5\\pi}{3}, \\frac{7\\pi}{3} \\Rightarrow t = 2, 10, 14.$$\nFrom the graph, $h(t) \\ge 11.5$ when $2 \\le t \\le 10$ and $14 \\le t \\le 16$.\n\nSerena can safely sail from 10 am to 6 pm, and from 10 pm to midnight.",
+   "images": [
+    "assets/img/adv-2026-caringbah/q24.png"
+   ]
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.1.12"
+   ],
+   "question": "Show that\n$$\\frac{\\sin x}{1 - \\sin x} - \\frac{\\sin x}{1 + \\sin x} = 2\\tan^2 x.$$",
+   "answer": "$$\\text{LHS} = \\frac{\\sin x(1 + \\sin x) - \\sin x(1 - \\sin x)}{(1 - \\sin x)(1 + \\sin x)} = \\frac{\\sin x + \\sin^2 x - \\sin x + \\sin^2 x}{1 - \\sin^2 x} = \\frac{2\\sin^2 x}{\\cos^2 x} = 2\\tan^2 x = \\text{RHS}.$$"
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.7.1",
+    "11.3.1.11",
+    "12.4.8.1"
+   ],
+   "question": "Using the identity $\\dfrac{\\sin x}{1 - \\sin x} - \\dfrac{\\sin x}{1 + \\sin x} = 2\\tan^2 x$, find in simplest exact form\n$$\\int_{\\frac{\\pi}{4}}^{\\frac{\\pi}{3}}\\left(\\frac{\\sin x}{1 - \\sin x} - \\frac{\\sin x}{1 + \\sin x}\\right)dx.$$",
+   "answer": "$$\\int_{\\frac{\\pi}{4}}^{\\frac{\\pi}{3}} 2\\tan^2 x\\,dx = 2\\int_{\\frac{\\pi}{4}}^{\\frac{\\pi}{3}}\\left(\\sec^2 x - 1\\right)dx = 2\\Big[\\tan x - x\\Big]_{\\frac{\\pi}{4}}^{\\frac{\\pi}{3}}$$\n$$= 2\\left(\\sqrt3 - \\frac{\\pi}{3} - 1 + \\frac{\\pi}{4}\\right) = 2\\sqrt3 - 2 - \\frac{\\pi}{6}.$$"
+  },
+  {
+   "ref": "Q26",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.13",
+    "12.6.3.10"
+   ],
+   "question": "A random variable $Z$ is normally distributed with a mean of 0 and a standard deviation of 1. The table gives the probability that this random variable lies below $z$ for some negative values of $z$ (represented by the shaded area in the diagram).\n\n| $z$ | $-2.39$ | $-2.38$ | $-2.37$ | $-2.36$ | $-2.35$ | $-2.34$ | $-2.33$ | $-2.32$ | $-2.31$ | $-2.30$ |\n|---|---|---|---|---|---|---|---|---|---|---|\n| $P(Z < z)$ | 0.0084 | 0.0087 | 0.0089 | 0.0091 | 0.0094 | 0.0096 | 0.0099 | 0.0102 | 0.0104 | 0.0107 |\n\nThe weight of babies at birth in NSW has a mean of 3.35 kilograms and a standard deviation of 0.52 kilograms. In a group of 1000 babies born in NSW, how many would be expected to weigh more than 2.128 kilograms?",
+   "answer": "$$z = \\frac{2.128 - 3.35}{0.52} = -2.35.$$\n$$P(X > 2.128) = P(Z > -2.35) = 1 - P(Z < -2.35) = 1 - 0.0094 = 0.9906.$$\nExpected number $= 1000\\times 0.9906 = 990.6 \\approx 991$ babies.",
+   "images": [
+    "assets/img/adv-2026-caringbah/q26.png"
+   ]
+  },
+  {
+   "ref": "Q27",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.3.5",
+    "11.4.3.3"
+   ],
+   "question": "The diagram shows the curve $y = \\dfrac{1}{x}$, where $x > 0$, and the tangent to the curve at the point where $x = a$. The tangent meets the $x$-axis at $M$ and the $y$-axis at $N$.\n\nShow that the area of the triangle $OMN$ is independent of $a$.",
+   "answer": "$y = x^{-1} \\Rightarrow y' = -\\dfrac{1}{x^2}$, so at $x = a$ the gradient is $-\\dfrac{1}{a^2}$ and the point is $\\left(a, \\frac1a\\right)$. Tangent:\n$$y - \\frac1a = -\\frac{1}{a^2}(x - a) \\Rightarrow a^2y - a = -x + a \\Rightarrow x + a^2y - 2a = 0.$$\n$M$ ($y = 0$): $x = 2a$, so $M(2a, 0)$. $N$ ($x = 0$): $y = \\dfrac{2}{a}$, so $N\\left(0, \\frac2a\\right)$.\n$$\\text{Area }\\triangle OMN = \\frac12\\times 2a\\times\\frac{2}{a} = 2\\text{ units}^2,$$\nwhich does not depend on $a$.",
+   "images": [
+    "assets/img/adv-2026-caringbah/q27.png"
+   ]
+  },
+  {
+   "ref": "Q29(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.5",
+    "12.2.3.8"
+   ],
+   "question": "At the end of 2020, Noel and Noelle bought a farm with a plantation of 2000 Christmas trees. At the start of each year, they plant a number of new trees equal to 5% of the total number of trees in the plantation at the end of the previous year. Towards the end of each year, they cut down and sell 150 trees.\n\nLet $A_n$ denote the number of trees in the plantation at the end of the $n$th year so that\n$$A_0 = 2000 \\quad\\text{and}\\quad A_n = A_{n-1}\\times 1.05 - 150 \\text{ for } n = 1, 2, 3, \\ldots$$\n\nShow that $A_n = 3000 - 1000\\times 1.05^n$ for $n = 1, 2, 3, \\ldots$",
+   "answer": "$A_1 = 2000\\times 1.05 - 150$\n$A_2 = (2000\\times 1.05 - 150)\\times 1.05 - 150 = 2000\\times 1.05^2 - 150\\times 1.05 - 150$\n$A_3 = 2000\\times 1.05^3 - 150\\times 1.05^2 - 150\\times 1.05 - 150$\n\nContinuing the pattern,\n$$A_n = 2000\\times 1.05^n - 150\\left(1 + 1.05 + 1.05^2 + \\cdots + 1.05^{n-1}\\right) = 2000\\times 1.05^n - 150\\times\\frac{1.05^n - 1}{1.05 - 1}$$\n$$= 2000\\times 1.05^n - 3000(1.05^n - 1) = 3000 - 1000\\times 1.05^n.$$"
+  },
+  {
+   "ref": "Q29(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.3.8",
+    "11.5.2.9"
+   ],
+   "question": "At the end of 2020, Noel and Noelle bought a farm with a plantation of 2000 Christmas trees. At the start of each year, they plant a number of new trees equal to 5% of the total number of trees in the plantation at the end of the previous year. Towards the end of each year, they cut down and sell 150 trees.\n\nLet $A_n$ denote the number of trees in the plantation at the end of the $n$th year so that\n$$A_0 = 2000 \\quad\\text{and}\\quad A_n = A_{n-1}\\times 1.05 - 150 \\text{ for } n = 1, 2, 3, \\ldots$$\n\nGiven that $A_n = 3000 - 1000\\times 1.05^n$, find the first calendar year in which fewer than 50 new trees are planted.",
+   "answer": "The trees planted at the start of year $n+1$ number $0.05A_n$. Want $0.05A_n < 50$, i.e. $A_n < 1000$:\n$$3000 - 1000\\times 1.05^n < 1000 \\Rightarrow 1.05^n > 2 \\Rightarrow n > \\frac{\\ln 2}{\\ln 1.05} = 14.2\\ldots$$\nCheck: $n = 14$ (end of 2034): $A_{14} = 1020.06\\ldots$; $n = 15$ (end of 2035): $A_{15} = 921.07\\ldots$.\nSo the number planted at the start of 2036 is $0.05\\times 921 \\approx 46 < 50$. The first such calendar year is **2036**."
+  },
+  {
+   "ref": "Q30(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.3",
+    "11.2.3.7"
+   ],
+   "question": "Alisha has been asked by her local council to design a small community playground. The playground must have a rectangular shape with circular sectors (each of radius $r$ and angle $45^\\circ$) attached to the two shorter sides, as shown in the diagram. The rectangle has a length of $r$ metres and a width of $y$ metres.\n\nThe total area of the playground must be 400 m$^2$. The council wants the fence around the playground to be as short as possible. Let $F$ be the length of the fence in metres.\n\nShow that $y = \\dfrac{400}{r} - \\dfrac{\\pi r}{4}$.",
+   "answer": "Each sector has area $\\frac12 r^2\\cdot\\frac{\\pi}{4} = \\frac{\\pi r^2}{8}$. So\n$$400 = yr + 2\\times\\frac{\\pi r^2}{8} = yr + \\frac{\\pi r^2}{4} \\Rightarrow yr = 400 - \\frac{\\pi r^2}{4} \\Rightarrow y = \\frac{400}{r} - \\frac{\\pi r}{4}.$$",
+   "images": [
+    "assets/img/adv-2026-caringbah/q30.png"
+   ]
+  },
+  {
+   "ref": "Q30(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.3",
+    "11.2.3.6"
+   ],
+   "question": "Alisha has been asked by her local council to design a small community playground. The playground must have a rectangular shape with circular sectors (each of radius $r$ and angle $45^\\circ$) attached to the two shorter sides, as shown in the diagram. The rectangle has a length of $r$ metres and a width of $y$ metres.\n\nThe total area of the playground must be 400 m$^2$. The council wants the fence around the playground to be as short as possible. Let $F$ be the length of the fence in metres.\n\nGiven $y = \\dfrac{400}{r} - \\dfrac{\\pi r}{4}$, show that $F(r) = \\dfrac{800}{r} + 2r$.",
+   "answer": "The fence consists of the two sides of length $y$, the two straight radii of length $r$, and two arcs each of length $r\\cdot\\frac{\\pi}{4}$:\n$$F = 2y + 2r + 2\\times\\frac{\\pi r}{4} = 2\\left(\\frac{400}{r} - \\frac{\\pi r}{4}\\right) + 2r + \\frac{\\pi r}{2} = \\frac{800}{r} - \\frac{\\pi r}{2} + 2r + \\frac{\\pi r}{2} = \\frac{800}{r} + 2r.$$",
+   "images": [
+    "assets/img/adv-2026-caringbah/q30.png"
+   ]
+  },
+  {
+   "ref": "Q30(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.5.1.8"
+   ],
+   "question": "Alisha has been asked by her local council to design a small community playground. The playground must have a rectangular shape with circular sectors (each of radius $r$ and angle $45^\\circ$) attached to the two shorter sides, as shown in the diagram. The rectangle has a length of $r$ metres and a width of $y$ metres.\n\nThe total area of the playground must be 400 m$^2$. The council wants the fence around the playground to be as short as possible. Let $F$ be the length of the fence in metres.\n\nGiven $F(r) = \\dfrac{800}{r} + 2r$, find the minimum value of $F$. Justify why your answer corresponds to the minimum of the function.",
+   "answer": "$$F'(r) = -\\frac{800}{r^2} + 2 = 0 \\Rightarrow r^2 = 400 \\Rightarrow r = 20 \\quad (r > 0).$$\n$F''(r) = \\dfrac{1600}{r^3}$, so $F''(20) = \\dfrac{1600}{8000} = \\dfrac15 > 0$: concave up, so $r = 20$ gives a minimum (and since it is the only stationary point for $r > 0$, it is the global minimum).\n$$F(20) = \\frac{800}{20} + 2(20) = 80.$$\nThe minimum fence length is 80 m.",
+   "images": [
+    "assets/img/adv-2026-caringbah/q30.png"
+   ]
+  },
+  {
+   "ref": "Q31(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.7",
+    "12.3.1.4",
+    "11.4.3.10"
+   ],
+   "question": "Consider the function defined by the geometric series\n$$f(x) = e^{-x} + e^{-2x} + e^{-3x} + \\cdots \\quad\\text{for } x > 0.$$\n\nShow that $f'(x) = \\dfrac{-e^x}{(e^x - 1)^2}$.",
+   "answer": "This is a geometric series with $a = e^{-x}$ and $r = e^{-x}$, and $|r| < 1$ since $x > 0$. So\n$$f(x) = \\frac{e^{-x}}{1 - e^{-x}} = \\frac{1}{e^x - 1} = (e^x - 1)^{-1}.$$\nBy the chain rule,\n$$f'(x) = -(e^x - 1)^{-2}\\times e^x = \\frac{-e^x}{(e^x - 1)^2}.$$"
+  },
+  {
+   "ref": "Q31(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.5"
+   ],
+   "question": "Consider the function defined by the geometric series\n$$f(x) = e^{-x} + e^{-2x} + e^{-3x} + \\cdots \\quad\\text{for } x > 0.$$\n\nIt is known that $f''(x) = \\dfrac{e^x(e^x + 1)}{(e^x - 1)^3}$. Explain why $f''(x) > 0$.",
+   "answer": "Since $x > 0$, $e^x > 1$. So $e^x(e^x + 1) > 0$ and $e^x - 1 > 0$, giving $(e^x - 1)^3 > 0$. Hence $f''(x) > 0$, as a quotient of positive quantities."
+  },
+  {
+   "ref": "Q31(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.8.11"
+   ],
+   "question": "Consider the function defined by the geometric series\n$$f(x) = e^{-x} + e^{-2x} + e^{-3x} + \\cdots \\quad\\text{for } x > 0.$$\n\nIt can be shown that $f(x) = \\dfrac{1}{e^x - 1}$. Use the Trapezoidal rule with three function values to approximate $\\displaystyle\\int_1^2 f(x)\\,dx$, correct to three decimal places.",
+   "answer": "| $x$ | 1 | 1.5 | 2 |\n|---|---|---|---|\n| $f(x)$ | $\\frac{1}{e - 1}$ | $\\frac{1}{e^{1.5} - 1}$ | $\\frac{1}{e^2 - 1}$ |\n\nWith $h = 0.5$:\n$$\\int_1^2 f(x)\\,dx \\approx \\frac{0.5}{2}\\left[\\frac{1}{e - 1} + 2\\left(\\frac{1}{e^{1.5} - 1}\\right) + \\frac{1}{e^2 - 1}\\right] = 0.25(0.58198 + 0.57444 + 0.15652) = 0.328\\ (3\\text{ d.p.}).$$"
+  },
+  {
+   "ref": "Q31(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.6.3",
+    "11.5.2.9"
+   ],
+   "question": "Consider the function defined by the geometric series\n$$f(x) = e^{-x} + e^{-2x} + e^{-3x} + \\cdots \\quad\\text{for } x > 0.$$\n\nIt can be shown that $f(x) = \\dfrac{e^{-x}}{1 - e^{-x}}$. Find the exact value of $\\displaystyle\\int_1^2 f(x)\\,dx$.",
+   "answer": "The numerator is the derivative of the denominator, so\n$$\\int_1^2\\frac{e^{-x}}{1 - e^{-x}}\\,dx = \\Big[\\ln(1 - e^{-x})\\Big]_1^2 = \\ln(1 - e^{-2}) - \\ln(1 - e^{-1}) = \\ln\\frac{(1 + e^{-1})(1 - e^{-1})}{1 - e^{-1}}$$\n$$= \\ln(1 + e^{-1}) = \\ln\\frac{e + 1}{e} = \\ln(e + 1) - 1.$$"
+  },
+  {
+   "ref": "Q31(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.8.11",
+    "12.5.1.5"
+   ],
+   "question": "Consider the function defined by the geometric series\n$$f(x) = e^{-x} + e^{-2x} + e^{-3x} + \\cdots \\quad\\text{for } x > 0.$$\n\nIt is known that $f''(x) > 0$ for $x > 0$, that the Trapezoidal rule with three function values gives $\\displaystyle\\int_1^2 f(x)\\,dx \\approx 0.328$ (to 3 d.p.), and that $\\displaystyle\\int_1^2 f(x)\\,dx = \\ln(e + 1) - 1$. Using these results, show that $\\ln(e + 1) < \\dfrac{4}{3}$.",
+   "answer": "Since $f''(x) > 0$, $f$ is concave up, so each chord lies above the curve and the Trapezoidal rule overestimates the integral:\n$$\\ln(e + 1) - 1 < 0.3282\\ldots$$\nHence $\\ln(e + 1) < 1.3282\\ldots < 1.3333\\ldots = \\dfrac43$, so $\\ln(e + 1) < \\dfrac43$."
+  }
+ ]
+}

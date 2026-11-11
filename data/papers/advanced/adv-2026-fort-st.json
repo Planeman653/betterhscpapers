@@ -1,0 +1,703 @@
+{
+ "id": "adv-2026-fort-st",
+ "course": "advanced",
+ "school": "Fort St",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5328",
+  "title": "Fort St 2026 w. sol"
+ },
+ "indexed": "2026-11-11",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q3",
+   "reason": "Not in 2024 syllabus: quartiles, box plots and outliers of a dataset"
+  },
+  {
+   "ref": "Q11(a)",
+   "reason": "Not in 2024 syllabus: box plots (shape of distribution from a box plot)"
+  },
+  {
+   "ref": "Q11(b)",
+   "reason": "Not in 2024 syllabus: box plots and quartiles"
+  },
+  {
+   "ref": "Q14(b)",
+   "reason": "Not in 2024 syllabus: bivariate data, least-squares regression line (Q14(c) kept with the line stated)"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.7.1",
+    "11.1.7.3"
+   ],
+   "question": "In a warehouse, the time $t$ minutes taken to process an order varies directly with the number of orders placed, $n$. If 40 orders are placed on a certain day, the processing time for each order is 16 minutes.\n\nWhich of the following diagrams best represents the relationship between $t$ and $n$?",
+   "answer": "Direct variation means $t = kn$, a straight line through the origin. The point has $n = 40$ and $t = 16$, i.e. $(40, 16)$ on axes with $n$ horizontal. This is graph B.",
+   "options": [
+    "![Graph A](assets/img/adv-2026-fort-st/q1a.png)",
+    "![Graph B](assets/img/adv-2026-fort-st/q1b.png)",
+    "![Graph C](assets/img/adv-2026-fort-st/q1c.png)",
+    "![Graph D](assets/img/adv-2026-fort-st/q1d.png)"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.2"
+   ],
+   "question": "In an arithmetic series, the first term is $-2$ and the third term is $8$. What is the $10^{\\text{th}}$ term?",
+   "answer": "$T_3 = a + 2d$: $-2 + 2d = 8$, so $d = 5$. Then $T_{10} = -2 + 9 \\times 5 = 43$.",
+   "options": [
+    "$38$",
+    "$41$",
+    "$43$",
+    "$45$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.9.7",
+    "11.1.9.3"
+   ],
+   "question": "Let $f(x) = \\sqrt{x}$ and $g(x) = \\dfrac{1}{x - 1}$. What are the domain and range of $f(g(x))$?",
+   "answer": "$f(g(x)) = \\sqrt{\\dfrac{1}{x - 1}} = \\dfrac{1}{\\sqrt{x - 1}}$. We need $\\dfrac{1}{x-1} \\ge 0$ and $x \\ne 1$, so $x > 1$: domain $(1, \\infty)$. On this domain $\\dfrac{1}{\\sqrt{x-1}}$ takes every positive value and never $0$, so the range is $(0, \\infty)$.",
+   "options": [
+    "Domain $[-1, 1]$, range $(-\\infty, \\infty)$",
+    "Domain $(0, \\infty)$, range $(-\\infty, 0) \\cup (0, \\infty)$",
+    "Domain $[0, \\infty)$, range $(0, \\infty)$",
+    "Domain $(1, \\infty)$, range $(0, \\infty)$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.8.5",
+    "12.4.8.6"
+   ],
+   "question": "The graph of $y = f(x)$ is shown. The horizontal line is a tangent to the curve at the local maximum $(b, f(b))$. The curve crosses the $x$-axis at $(a, 0)$. The shaded area is bounded by the graph of $f(x)$, the coordinate axes and the horizontal line, as shown.\n\nWhich is the correct expression for the area of the shaded region?",
+   "answer": "The rectangle from $x = 0$ to $x = b$ under the line $y = f(b)$ has area $b\\,f(b)$. Remove the region under the curve between $x = a$ and $x = b$ (where $f(x) \\ge 0$), which has area $\\displaystyle\\int_a^b f(x)\\,dx$. The shaded area is $b\\,f(b) - \\displaystyle\\int_a^b f(x)\\,dx$.",
+   "options": [
+    "$a\\,f(b) - \\displaystyle\\int_a^b f(x)\\,dx$",
+    "$a\\,f(b) + \\displaystyle\\int_a^b f(x)\\,dx$",
+    "$b\\,f(b) - \\displaystyle\\int_a^b f(x)\\,dx$",
+    "$-b\\,f(b) + \\displaystyle\\int_0^b f(x)\\,dx$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/adv-2026-fort-st/q5.png"
+   ]
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.7",
+    "12.2.3.5"
+   ],
+   "question": "The limiting sum of a geometric series is $\\dfrac{10}{9}$ and the sum of its first three terms is $\\dfrac{26}{25}$. What is the common ratio of this series?",
+   "answer": "$S_\\infty = \\dfrac{a}{1 - r} = \\dfrac{10}{9}$ and $S_3 = \\dfrac{a(1 - r^3)}{1 - r} = \\dfrac{10}{9}(1 - r^3) = \\dfrac{26}{25}$.\n\nSo $1 - r^3 = \\dfrac{9 \\times 26}{10 \\times 25} = \\dfrac{117}{125}$, giving $r^3 = \\dfrac{8}{125}$ and $r = \\dfrac{2}{5} = 0.40$.",
+   "options": [
+    "$1.39$",
+    "$1.25$",
+    "$0.40$",
+    "$0.25$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.2",
+    "12.3.2.3"
+   ],
+   "question": "The normal to the graph of $f(x) = \\ln\\left(\\dfrac{1}{x + 2}\\right)$ at the point $P$ has a gradient of $4$. What is the $x$-coordinate of $P$?",
+   "answer": "$f(x) = \\ln 1 - \\ln(x + 2) = -\\ln(x + 2)$, so $f'(x) = -\\dfrac{1}{x + 2}$. The normal has gradient $-\\dfrac{1}{f'(x)} = x + 2$. Setting $x + 2 = 4$ gives $x = 2$.",
+   "options": [
+    "$x = 2$",
+    "$x = -2$",
+    "$x = \\frac{1}{2}$",
+    "$x = -\\frac{1}{2}$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "What is $\\displaystyle\\int \\frac{1}{(2x + 1)^2}\\,dx$?",
+   "answer": "$\\displaystyle\\int (2x + 1)^{-2}\\,dx = \\frac{(2x + 1)^{-1}}{(-1) \\times 2} + C = \\frac{-1}{2(2x + 1)} + C$.",
+   "options": [
+    "$\\dfrac{-1}{2(2x + 1)} + C$",
+    "$\\dfrac{-1}{4(2x + 1)} + C$",
+    "$\\dfrac{-1}{3(2x + 1)^3} + C$",
+    "$\\dfrac{-1}{6(2x + 1)^3} + C$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.2.7",
+    "11.1.1.6"
+   ],
+   "question": "In a bag of $n$ coloured discs, exactly 7 are red. Two discs are selected at random, without replacement. The probability that both discs are red is $\\dfrac{21}{55}$.\n\nWhich quadratic equation could be used to find the value of $n$?",
+   "answer": "$P(\\text{both red}) = \\dfrac{7}{n} \\times \\dfrac{6}{n - 1} = \\dfrac{21}{55}$, so $42 \\times 55 = 21n(n - 1)$, i.e. $n(n - 1) = 110$, giving $n^2 - n - 110 = 0$.",
+   "options": [
+    "$n^2 + n + 110 = 0$",
+    "$n^2 - n - 110 = 0$",
+    "$n^2 + n - 110 = 0$",
+    "$n^2 - n + 110 = 0$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.10",
+    "11.2.3.4"
+   ],
+   "question": "Consider the equation $\\left(\\sin\\theta - \\dfrac{\\sqrt{2}}{2}\\right)\\left(\\tan 2\\theta - \\dfrac{\\sqrt{3}}{3}\\right) = 0$.\n\nHow many solutions are there in the interval $0 \\le \\theta \\le \\pi$?",
+   "answer": "Either $\\sin\\theta = \\dfrac{\\sqrt2}{2}$, giving $\\theta = \\dfrac{\\pi}{4}, \\dfrac{3\\pi}{4}$. But at these values $2\\theta = \\dfrac{\\pi}{2}, \\dfrac{3\\pi}{2}$ and $\\tan 2\\theta$ is undefined, so the left-hand side is undefined and these are not solutions.\n\nOr $\\tan 2\\theta = \\dfrac{\\sqrt3}{3} = \\dfrac{1}{\\sqrt3}$ with $0 \\le 2\\theta \\le 2\\pi$: $2\\theta = \\dfrac{\\pi}{6}, \\dfrac{7\\pi}{6}$, so $\\theta = \\dfrac{\\pi}{12}, \\dfrac{7\\pi}{12}$.\n\nThere are 2 solutions.",
+   "options": [
+    "$1$",
+    "$2$",
+    "$3$",
+    "$4$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q12",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.6.1.8"
+   ],
+   "question": "The equation of a circle is given by $x^2 + 2x + y^2 - 4y = 0$. Find the centre and radius of the circle.",
+   "answer": "Complete the squares:\n$$(x + 1)^2 - 1 + (y - 2)^2 - 4 = 0 \\;\\Rightarrow\\; (x + 1)^2 + (y - 2)^2 = 5.$$\nThe centre is $(-1, 2)$ and the radius is $\\sqrt5$."
+  },
+  {
+   "ref": "Q13",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.7",
+    "11.2.3.6"
+   ],
+   "question": "In the diagram, $AOB$ is a sector of a circle with centre $O$ and radius $r$ cm. The angle $AOB$ at the centre is $\\dfrac{4\\pi}{5}$ and the length of arc $AB$ is $8\\pi$ cm.\n\nFind the exact area of the sector.",
+   "answer": "Using $l = r\\theta$: $8\\pi = r \\times \\dfrac{4\\pi}{5}$, so $r = \\dfrac{5 \\times 8}{4} = 10$ cm.\n\nArea $= \\dfrac{1}{2}r^2\\theta = \\dfrac12 \\times 10^2 \\times \\dfrac{4\\pi}{5} = 40\\pi\\ \\text{cm}^2$.",
+   "images": [
+    "assets/img/adv-2026-fort-st/q13.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.6.1",
+    "12.2.2.3"
+   ],
+   "question": "Over five weeks, Ivy's expenses, which were originally \\$200 per week, increase by \\$20 each week. Write an equation for Ivy's expenses $E$ (in dollars) in week $w$.",
+   "answer": "The expenses start at \\$200 and grow by \\$20 per week, a linear function of $w$:\n$$E = 20w + 200.$$\n(This is the paper's answer. If \"originally\" is read as week 1, $E = 20w + 180$ is also reasonable.)"
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.6.4",
+    "11.1.6.3"
+   ],
+   "question": "Ivy's weekly expenses are modelled by $E = 20w + 200$ and her weekly income by $I = 60w + 80$, where $w$ is the week number. Find the point of intersection of these two lines.",
+   "answer": "Set $20w + 200 = 60w + 80$: $40w = 120$, so $w = 3$. Then $E = I = 20(3) + 200 = 260$.\n\nThe lines intersect at $(3, 260)$: in week 3 Ivy's income equals her expenses, \\$260."
+  },
+  {
+   "ref": "Q15",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.6",
+    "11.1.1.7"
+   ],
+   "question": "Let $f(x) = x^2 + kx - 6$. Find the values of $k$ for which the two roots of $f(x) = 0$ have a difference of $7$.",
+   "answer": "$\\Delta = k^2 - 4(1)(-6) = k^2 + 24 > 0$, so there are always two real roots\n$$x_1 = \\frac{-k + \\sqrt{\\Delta}}{2}, \\qquad x_2 = \\frac{-k - \\sqrt{\\Delta}}{2}.$$\nTheir difference is $x_1 - x_2 = \\sqrt{\\Delta} = \\sqrt{k^2 + 24}$.\n\nSet $\\sqrt{k^2 + 24} = 7$: $k^2 + 24 = 49$, $k^2 = 25$, so $k = \\pm 5$.\n\n(Check: $k = 5$ gives roots $1$ and $-6$; $k = -5$ gives $6$ and $-1$. Both differ by 7.)"
+  },
+  {
+   "ref": "Q16",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.6.1.6",
+    "11.6.1.10"
+   ],
+   "question": "Consider the function $f(x) = (x + 1)^2$. The following transformations are applied to the graph of $y = f(x)$, in this order:\n\n1. Horizontal translation to the right by 4 units\n2. Horizontal dilation by a factor of $\\frac{4}{3}$\n3. Vertical dilation by a factor of $\\frac{1}{3}$\n4. Vertical translation down by 3 units\n5. Reflection in the $x$-axis\n\nFind the equation of the transformed function.",
+   "answer": "1. Replace $x$ by $x - 4$: $y = (x - 4 + 1)^2 = (x - 3)^2$.\n2. Replace $x$ by $\\dfrac{x}{4/3} = \\dfrac{3x}{4}$: $y = \\left(\\dfrac{3x}{4} - 3\\right)^2$.\n3. Multiply by $\\dfrac13$: $y = \\dfrac13\\left(\\dfrac{3x}{4} - 3\\right)^2$.\n4. Subtract 3: $y = \\dfrac13\\left(\\dfrac{3x}{4} - 3\\right)^2 - 3$.\n5. Reflect in the $x$-axis ($y \\to -y$):\n$$y = -\\left[\\frac13\\left(\\frac{3x}{4} - 3\\right)^2 - 3\\right] = 3 - \\frac13\\left(\\frac{3x}{4} - 3\\right)^2.$$"
+  },
+  {
+   "ref": "Q17(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "On any given school day, the discrete random variable $X$ represents the number of students who leave early due to illness. The probability distribution is shown below:\n\n| $x$ | 0 | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|---|\n| $P(X = x)$ | $p$ | 0.25 | 0.25 | 0.13 | 0.07 | 0.04 |\n\nFind the value of $p$.",
+   "answer": "The probabilities sum to 1: $p + 0.25 + 0.25 + 0.13 + 0.07 + 0.04 = 1$, so $p + 0.74 = 1$ and $p = 0.26$."
+  },
+  {
+   "ref": "Q17(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.6",
+    "12.6.1.5"
+   ],
+   "question": "On any given school day, the discrete random variable $X$ represents the number of students who leave early due to illness. The probability distribution is shown below:\n\n| $x$ | 0 | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|---|\n| $P(X = x)$ | $p$ | 0.25 | 0.25 | 0.13 | 0.07 | 0.04 |\n\nwhere $P(X = 0) = 0.26$.\n\nFind the number of students, $E(X)$, who are expected to leave early due to illness on any given school day.",
+   "answer": "$$E(X) = \\sum x\\,P(X = x) = 0(0.26) + 1(0.25) + 2(0.25) + 3(0.13) + 4(0.07) + 5(0.04)$$\n$$= 0 + 0.25 + 0.5 + 0.39 + 0.28 + 0.2 = 1.62.$$"
+  },
+  {
+   "ref": "Q17(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.7.3.4",
+    "12.6.1.9"
+   ],
+   "question": "On any given school day, the discrete random variable $X$ represents the number of students who leave early due to illness. The probability distribution is shown below:\n\n| $x$ | 0 | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|---|\n| $P(X = x)$ | $p$ | 0.25 | 0.25 | 0.13 | 0.07 | 0.04 |\n\nwhere $P(X = 0) = 0.26$.\n\nIt is known that at least one student left school early due to illness on a particular day. Find the probability that four students left early on that day.",
+   "answer": "$$P(X = 4 \\mid X \\ge 1) = \\frac{P(X = 4 \\cap X \\ge 1)}{P(X \\ge 1)} = \\frac{P(X = 4)}{P(X \\ge 1)}$$\n$$= \\frac{0.07}{0.25 + 0.25 + 0.13 + 0.07 + 0.04} = \\frac{0.07}{0.74} = \\frac{7}{74} \\approx 0.0946.$$"
+  },
+  {
+   "ref": "Q18(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "A triangular plot of land, $ABC$, is enclosed by fences with $AB = 30$ m, $BC = 50$ m and $CA = 70$ m, as shown.\n\nFind the size of $\\angle ABC$, correct to the nearest degree.",
+   "answer": "By the cosine rule,\n$$\\cos\\angle ABC = \\frac{30^2 + 50^2 - 70^2}{2 \\times 30 \\times 50} = \\frac{900 + 2500 - 4900}{3000} = -0.5,$$\nso $\\angle ABC = 120^\\circ$.",
+   "images": [
+    "assets/img/adv-2026-fort-st/q18.png"
+   ]
+  },
+  {
+   "ref": "Q18(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "A triangular plot of land, $ABC$, is enclosed by fences with $AB = 30$ m, $BC = 50$ m and $CA = 70$ m, as shown. It is known that $\\angle ABC = 120^\\circ$.\n\nFind the area of the plot of land, correct to the nearest square metre.",
+   "answer": "$$\\text{Area} = \\frac12 ab\\sin C = \\frac12 \\times 50 \\times 30 \\times \\sin 120^\\circ = 750 \\times \\frac{\\sqrt3}{2} \\approx 649.5 \\approx 650\\ \\text{m}^2.$$",
+   "images": [
+    "assets/img/adv-2026-fort-st/q18.png"
+   ]
+  },
+  {
+   "ref": "Q18(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.10",
+    "11.2.1.2"
+   ],
+   "question": "A triangular plot of land, $ABC$, is enclosed by fences with $AB = 30$ m, $BC = 50$ m and $CA = 70$ m, as shown. The area of the plot is $375\\sqrt3 \\approx 650\\ \\text{m}^2$.\n\nA goat is tethered to the fence post at point $B$ using a 20 metre long rope. Determine whether the rope is long enough for the goat to reach the fence $AC$.",
+   "answer": "The shortest distance from $B$ to the fence $AC$ is the perpendicular height $h$ of the triangle on base $AC = 70$ m:\n$$\\frac12 \\times 70 \\times h = 375\\sqrt3 \\;\\Rightarrow\\; h = \\frac{750\\sqrt3}{70} \\approx 18.6\\ \\text{m}.$$\n(Equivalently: if $h$ were 20 m the area would be $\\frac12 \\times 70 \\times 20 = 700\\ \\text{m}^2$, more than the actual $650\\ \\text{m}^2$, so $h < 20$ m.)\n\nSince $18.6 < 20$, the rope is long enough for the goat to reach the fence $AC$.",
+   "images": [
+    "assets/img/adv-2026-fort-st/q18c.png"
+   ]
+  },
+  {
+   "ref": "Q19",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.2.9",
+    "11.5.2.7"
+   ],
+   "question": "Consider the simultaneous equations\n$$\\begin{cases} \\log_{10}(xy) = 2 \\\\[4pt] \\log_{10}\\left(\\dfrac{x}{y}\\right) = 1 \\end{cases}$$\nwhere $x, y > 0$. Find the values of $x$ and $y$ which satisfy both equations.",
+   "answer": "Using log laws: $\\log_{10}x + \\log_{10}y = 2$ and $\\log_{10}x - \\log_{10}y = 1$.\n\nLet $X = \\log_{10}x$, $Y = \\log_{10}y$: $X + Y = 2$, $X - Y = 1$. Adding, $2X = 3$, so $X = 1.5$ and $Y = 0.5$.\n\nHence $x = 10^{1.5} = 10\\sqrt{10}$ and $y = 10^{0.5} = \\sqrt{10}$."
+  },
+  {
+   "ref": "Q20",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.2",
+    "11.4.3.5"
+   ],
+   "question": "The diagram shows the curve $y = \\dfrac{1}{x}$, $x > 0$, and the tangent to the curve at the point where $x = a$. The tangent meets the $x$-axis at $M$ and the $y$-axis at $N$.\n\nShow that the area of the triangle $OMN$ is independent of $a$.",
+   "answer": "$\\dfrac{dy}{dx} = -\\dfrac{1}{x^2}$, so at $x = a$ the gradient is $-\\dfrac{1}{a^2}$ and the point is $\\left(a, \\dfrac1a\\right)$.\n\nTangent: $y - \\dfrac1a = -\\dfrac{1}{a^2}(x - a)$, i.e. $y = -\\dfrac{x}{a^2} + \\dfrac{2}{a}$.\n\nWhen $x = 0$: $y = \\dfrac2a$, so $N = \\left(0, \\dfrac2a\\right)$. When $y = 0$: $\\dfrac{x}{a^2} = \\dfrac2a$, so $x = 2a$ and $M = (2a, 0)$.\n\n$$\\text{Area of } \\triangle OMN = \\frac12 \\times 2a \\times \\frac{2}{a} = 2 \\text{ units}^2,$$\nwhich does not depend on $a$.",
+   "images": [
+    "assets/img/adv-2026-fort-st/q20.png"
+   ]
+  },
+  {
+   "ref": "Q21(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.9.5"
+   ],
+   "question": "Consider the function $f(x) = x^4 - 6x^2$. Show that $f(x)$ is an even function.",
+   "answer": "$f(-x) = (-x)^4 - 6(-x)^2 = x^4 - 6x^2 = f(x)$ for all $x$, so $f$ is even."
+  },
+  {
+   "ref": "Q21(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.2.11",
+    "11.1.1.2"
+   ],
+   "question": "Consider the function $f(x) = x^4 - 6x^2$. Find the coordinates of the $x$-intercepts.",
+   "answer": "$x^4 - 6x^2 = 0 \\Rightarrow x^2(x^2 - 6) = 0 \\Rightarrow x^2(x - \\sqrt6)(x + \\sqrt6) = 0$.\n\nThe $x$-intercepts are $(0, 0)$, $(-\\sqrt6, 0)$ and $(\\sqrt6, 0)$."
+  },
+  {
+   "ref": "Q21(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.4",
+    "12.5.1.8"
+   ],
+   "question": "Consider the function $f(x) = x^4 - 6x^2$. Find the stationary points and determine their nature.",
+   "answer": "$f'(x) = 4x^3 - 12x = 4x(x - \\sqrt3)(x + \\sqrt3)$, so stationary points occur at $x = 0, \\pm\\sqrt3$.\n\n$f(0) = 0$; $f(\\pm\\sqrt3) = 9 - 18 = -9$. Stationary points: $(0, 0)$, $(\\sqrt3, -9)$, $(-\\sqrt3, -9)$.\n\n$f''(x) = 12x^2 - 12 = 12(x - 1)(x + 1)$.\n- $f''(0) = -12 < 0$: $(0, 0)$ is a local maximum.\n- $f''(\\pm\\sqrt3) = 24 > 0$: $(\\sqrt3, -9)$ and $(-\\sqrt3, -9)$ are local minima."
+  },
+  {
+   "ref": "Q21(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.7",
+    "12.5.1.6"
+   ],
+   "question": "Consider the function $f(x) = x^4 - 6x^2$. Show that there are two points of inflection, and find the gradient of the curve at those points.",
+   "answer": "$f''(x) = 12x^2 - 12 = 12(x - 1)(x + 1)$, which is zero at $x = \\pm1$. $f''$ is a quadratic that changes sign at each of these simple roots ($f'' > 0$ for $|x| > 1$, $f'' < 0$ for $|x| < 1$), so concavity changes and both are points of inflection.\n\n$f(1) = 1 - 6 = -5$ and $f'(1) = 4 - 12 = -8$: inflection point $(1, -5)$ with gradient $-8$.\n\nSince $f$ is even, there is also an inflection point at $(-1, -5)$, with gradient $f'(-1) = -4 + 12 = 8$."
+  },
+  {
+   "ref": "Q21(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.9"
+   ],
+   "question": "Consider the function $f(x) = x^4 - 6x^2$. It has $x$-intercepts $(0, 0)$, $(\\pm\\sqrt6, 0)$; a local maximum at $(0, 0)$; local minima at $(\\pm\\sqrt3, -9)$; and points of inflection at $(1, -5)$ (gradient $-8$) and $(-1, -5)$ (gradient $8$).\n\nSketch the curve, showing the stationary points, the inflection points, the slopes at all those points, and the intercepts with the two axes.",
+   "answer": "A W-shaped quartic, symmetric about the $y$-axis, with $f(x) \\to \\infty$ as $x \\to \\pm\\infty$:\n- crosses the $x$-axis at $-\\sqrt6$ and $\\sqrt6$, and touches it at the origin (the $y$-intercept), which is a local maximum (slope 0);\n- local minima (slope 0) at $(\\pm\\sqrt3, -9)$;\n- points of inflection at $(-1, -5)$ with slope $8$ and $(1, -5)$ with slope $-8$;\n- concave up for $|x| > 1$, concave down for $|x| < 1$.",
+   "answer_images": [
+    "assets/img/adv-2026-fort-st/q21e-sol.png"
+   ]
+  },
+  {
+   "ref": "Q22",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.1.4",
+    "12.5.1.4"
+   ],
+   "question": "The curves of the functions $f(x) = 1 + x + e^{a - x}$ and $g(x) = b + x - e^{-a + x}$ have the same turning point $R(p, 1)$, as shown on the diagram.\n\nFind the coordinates of the point $R$ and the values of $a$ and $b$.",
+   "answer": "$f'(x) = 1 - e^{a - x} = 0$ when $e^{a - x} = 1$, i.e. $x = a$. So the turning point of $f$ is at $x = a$, giving $p = a$.\n\n$g'(x) = 1 - e^{x - a} = 0$ also when $x = a$, so $g$ also turns at $x = a$.\n\n$f(a) = 1 + a + e^0 = 2 + a$ and $g(a) = b + a - e^0 = b + a - 1$. Since the turning points coincide, $b + a - 1 = 2 + a$, so $b = 3$.\n\nThe $y$-coordinate is 1: $f(a) = 2 + a = 1$, so $a = -1$.\n\nHence $a = -1$, $b = 3$ and $R = (-1, 1)$.",
+   "images": [
+    "assets/img/adv-2026-fort-st/q22.png"
+   ]
+  },
+  {
+   "ref": "Q23",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.4.5",
+    "12.4.7.1"
+   ],
+   "question": "Find $\\displaystyle\\int \\sec^2 x\\sqrt{\\tan x + 5}\\,dx$.",
+   "answer": "Let $u = \\tan x + 5$, so $\\dfrac{du}{dx} = \\sec^2 x$. By the reverse chain rule,\n$$\\int \\sec^2 x\\,(\\tan x + 5)^{\\frac12}\\,dx = \\frac{(\\tan x + 5)^{\\frac32}}{\\frac32} + C = \\frac23(\\tan x + 5)^{\\frac32} + C.$$"
+  },
+  {
+   "ref": "Q24(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.3",
+    "12.6.2.11"
+   ],
+   "question": "The time a student takes to complete an online assignment is modelled by the continuous random variable $T$, where $t$ is in hours. The cumulative distribution function of $T$ is\n$$F(t) = \\begin{cases} \\dfrac{1}{1728}t^3, & 0 \\le t \\le 12 \\\\[4pt] 1, & t > 12 \\end{cases}$$\nFind, to the nearest hour, the time within which 60% of students finish the assignment.",
+   "answer": "Solve $F(t) = 0.6$: $\\dfrac{t^3}{1728} = 0.6$, so $t^3 = 1036.8$ and $t = \\sqrt[3]{1036.8} \\approx 10.1$.\n\nAbout 10 hours."
+  },
+  {
+   "ref": "Q24(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.12",
+    "12.6.2.5"
+   ],
+   "question": "The time a student takes to complete an online assignment is modelled by the continuous random variable $T$, where $t$ is in hours. The cumulative distribution function of $T$ is\n$$F(t) = \\begin{cases} \\dfrac{1}{1728}t^3, & 0 \\le t \\le 12 \\\\[4pt] 1, & t > 12 \\end{cases}$$\nDefine the probability density function of $T$, for all values of $t$.",
+   "answer": "$f(t) = F'(t) = \\dfrac{3t^2}{1728} = \\dfrac{t^2}{576}$ for $0 \\le t \\le 12$, and $0$ elsewhere:\n$$f(t) = \\begin{cases} \\dfrac{t^2}{576}, & 0 \\le t \\le 12 \\\\[4pt] 0, & \\text{otherwise.} \\end{cases}$$\n(The paper's solution gives only $f(t) = \\dfrac{t^2}{576}$; the question asks for all values of $t$, so the zero part is needed.)"
+  },
+  {
+   "ref": "Q24(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.14",
+    "12.6.2.7"
+   ],
+   "question": "The time a student takes to complete an online assignment is modelled by the continuous random variable $T$, where $t$ is in hours. The cumulative distribution function of $T$ is\n$$F(t) = \\begin{cases} \\dfrac{1}{1728}t^3, & 0 \\le t \\le 12 \\\\[4pt] 1, & t > 12 \\end{cases}$$\nIt is given that $E(T) = 9$ and $E(T^2) = 86.4$ (you do not need to prove this).\n\nFind the probability, to the nearest percent, that a student takes more than one standard deviation above the mean to complete the assignment.",
+   "answer": "$\\operatorname{Var}(T) = E(T^2) - [E(T)]^2 = 86.4 - 81 = 5.4$, so $\\sigma = \\sqrt{5.4} \\approx 2.32379$.\n\n$$P(T > 9 + 2.32379) = P(T > 11.32379) = 1 - F(11.32379) = 1 - \\frac{11.32379^3}{1728} \\approx 1 - 0.8403 = 0.1597.$$\n\nThe probability is about 16%."
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.3",
+    "11.4.3.10"
+   ],
+   "question": "Differentiate $f(x) = (\\ln x)^2$.",
+   "answer": "By the chain rule, $f'(x) = 2\\ln x \\times \\dfrac1x = \\dfrac{2\\ln x}{x} = \\dfrac{\\ln(x^2)}{x}$."
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.8.1",
+    "12.4.4.5"
+   ],
+   "question": "Given that $\\dfrac{d}{dx}(\\ln x)^2 = \\dfrac{2\\ln x}{x}$, or otherwise, find $\\displaystyle\\int_1^e \\frac{\\ln(x^2)}{x}\\,dx$.",
+   "answer": "Since $\\ln(x^2) = 2\\ln x$ for $x > 0$, the integrand is the derivative of $(\\ln x)^2$:\n$$\\int_1^e \\frac{\\ln(x^2)}{x}\\,dx = \\Big[(\\ln x)^2\\Big]_1^e = (\\ln e)^2 - (\\ln 1)^2 = 1 - 0 = 1.$$"
+  },
+  {
+   "ref": "Q26",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.12",
+    "11.3.1.11"
+   ],
+   "question": "Prove that $\\dfrac{\\sec^4 x - \\tan^4 x}{\\operatorname{cosec}^2 x + 2\\tan^2 x - \\cot^2 x} = 1$.",
+   "answer": "Use $\\sec^2 x = 1 + \\tan^2 x$ and $\\operatorname{cosec}^2 x = 1 + \\cot^2 x$.\n\nNumerator: $\\sec^4 x - \\tan^4 x = (\\sec^2 x - \\tan^2 x)(\\sec^2 x + \\tan^2 x) = 1 \\times (1 + 2\\tan^2 x)$.\n\nDenominator: $(1 + \\cot^2 x) + 2\\tan^2 x - \\cot^2 x = 1 + 2\\tan^2 x$.\n\n$$\\text{LHS} = \\frac{1 + 2\\tan^2 x}{1 + 2\\tan^2 x} = 1 = \\text{RHS}.$$"
+  },
+  {
+   "ref": "Q27",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.4",
+    "11.1.9.3",
+    "12.3.1.4"
+   ],
+   "question": "The diagram shows the graph of the function $f(x) = e^{nx} + ke^{-nx}$, where $k > 1$ and $n > 0$. Find the range of $f(x)$ in simplest form.",
+   "answer": "The range is from the minimum value upwards. $f'(x) = ne^{nx} - kne^{-nx}$.\n\n$f'(x) = 0 \\Rightarrow e^{nx} = ke^{-nx} \\Rightarrow e^{2nx} = k \\Rightarrow x = \\dfrac{\\ln k}{2n}$.\n\nAt this point $e^{nx} = e^{\\frac12\\ln k} = \\sqrt k$, so\n$$f\\!\\left(\\frac{\\ln k}{2n}\\right) = \\sqrt k + \\frac{k}{\\sqrt k} = 2\\sqrt k.$$\nThis is the only stationary point and $f(x) \\to \\infty$ as $x \\to \\pm\\infty$ (also $f''(x) = n^2(e^{nx} + ke^{-nx}) > 0$), so it is the global minimum.\n\nRange: $[2\\sqrt k, \\infty)$, i.e. $y \\ge 2\\sqrt k$.",
+   "images": [
+    "assets/img/adv-2026-fort-st/q27.png"
+   ]
+  },
+  {
+   "ref": "Q28(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.1.3",
+    "11.3.1.1"
+   ],
+   "question": "The diagram shows $AB$ and $CD$, two vertical towers of height $h$ and $2h$ metres respectively. $AB$ is south of tower $CD$, at a distance $d$ metres from it ($AC = d$). $O$ is a point on the ground, west of $CD$ and at the same level as $A$ and $C$. The distance $OC$ is $\\frac34 d$ metres. The angle of elevation of $B$ from $O$ is $30^\\circ$ and the angle of elevation of $D$ from $O$ is $\\alpha$.\n\nShow that $h = \\dfrac38 d\\tan\\alpha$.",
+   "answer": "In right-angled triangle $OCD$: $\\tan\\alpha = \\dfrac{CD}{OC} = \\dfrac{2h}{\\frac34 d} = \\dfrac{8h}{3d}$, so $h = \\dfrac{3d\\tan\\alpha}{8}$.",
+   "course": "extension1",
+   "images": [
+    "assets/img/adv-2026-fort-st/q28.png"
+   ]
+  },
+  {
+   "ref": "Q28(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.3.1.3",
+    "11.3.1.1"
+   ],
+   "question": "The diagram shows $AB$ and $CD$, two vertical towers of height $h$ and $2h$ metres respectively. $AB$ is south of tower $CD$, at a distance $d$ metres from it ($AC = d$). $O$ is a point on the ground, west of $CD$ and at the same level as $A$ and $C$. The distance $OC$ is $\\frac34 d$ metres. The angle of elevation of $B$ from $O$ is $30^\\circ$ and the angle of elevation of $D$ from $O$ is $\\alpha$. It is known that $h = \\dfrac38 d\\tan\\alpha$.\n\nBy finding another expression for $h$, find the angle of elevation $\\alpha$ to the nearest minute.",
+   "answer": "In right-angled triangle $OAB$: $\\tan 30^\\circ = \\dfrac{h}{OA}$, so $h = \\dfrac{OA}{\\sqrt3}$.\n\n$O$ is west of $C$ and $A$ is south of $C$, so $\\angle OCA = 90^\\circ$ and by Pythagoras\n$$OA^2 = d^2 + \\left(\\frac{3d}{4}\\right)^2 = \\frac{25}{16}d^2 \\;\\Rightarrow\\; OA = \\frac54 d.$$\nSo $h = \\dfrac{5d}{4\\sqrt3}$. Equating with $h = \\dfrac{3d}{8}\\tan\\alpha$:\n$$\\tan\\alpha = \\frac{5}{4\\sqrt3} \\times \\frac{8}{3} = \\frac{10}{3\\sqrt3} \\approx 1.9245,$$\nso $\\alpha \\approx 62^\\circ 33'$.",
+   "course": "extension1",
+   "images": [
+    "assets/img/adv-2026-fort-st/q28.png"
+   ]
+  },
+  {
+   "ref": "Q29",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.3.6",
+    "11.3.1.10"
+   ],
+   "question": "A cricket player hits a ball with an angle of elevation $\\theta^\\circ$, where $\\theta$ is normally distributed with a mean of $30^\\circ$ and a standard deviation of $15^\\circ$. The horizontal distance travelled by the ball before hitting the ground is given by $d = 80\\sin 2\\theta$, where $d$ is in metres.\n\nFind the probability that the ball travels more than 40 metres horizontally before landing (give your answer to 2 decimal places).",
+   "answer": "$$P(d > 40) = P(80\\sin 2\\theta > 40) = P\\left(\\sin 2\\theta > \\tfrac12\\right) = P(30^\\circ < 2\\theta < 150^\\circ) = P(15^\\circ < \\theta < 75^\\circ).$$\nWith $\\mu = 30^\\circ$, $\\sigma = 15^\\circ$, this is $P(\\mu - \\sigma < \\theta < \\mu + 3\\sigma)$.\n\nBy the empirical rule, $P(\\mu - \\sigma < \\theta < \\mu) = 0.34$ and $P(\\mu < \\theta < \\mu + 3\\sigma) = \\dfrac{0.997}{2} = 0.4985$, so\n$$P(d > 40) = 0.34 + 0.4985 = 0.8385 \\approx 0.84.$$\n(Using $z$-tables, $P(-1 < z < 3) \\approx 0.8400$, also $0.84$.)"
+  },
+  {
+   "ref": "Q30(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.3"
+   ],
+   "question": "A closed water tank in the shape of a half-cylinder with diameter $2r$ metres and length $h$ metres is to be made from sheet metal, as shown. The surface area of the tank is $A$ square metres and the volume of the tank is $V$ cubic metres, where $V$ is constant.\n\nGiven that $V = \\dfrac12\\pi r^2 h$, show that $A = \\pi r^2 + \\dfrac{2V}{\\pi}\\left(\\dfrac{2 + \\pi}{r}\\right)$.",
+   "answer": "The surface consists of two semicircular ends, the rectangular top ($2r \\times h$) and the curved half-cylinder:\n$$A = 2 \\times \\frac12\\pi r^2 + 2rh + \\frac12(2\\pi r)h = \\pi r^2 + rh(2 + \\pi).$$\nFrom $V = \\dfrac12\\pi r^2 h$: $h = \\dfrac{2V}{\\pi r^2}$, so $rh = \\dfrac{2V}{\\pi r}$. Hence\n$$A = \\pi r^2 + \\frac{2V}{\\pi r}(2 + \\pi) = \\pi r^2 + \\frac{2V}{\\pi}\\left(\\frac{2 + \\pi}{r}\\right).$$",
+   "images": [
+    "assets/img/adv-2026-fort-st/q30.png"
+   ]
+  },
+  {
+   "ref": "Q30(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.5.1.8"
+   ],
+   "question": "A closed water tank in the shape of a half-cylinder with diameter $2r$ metres and length $h$ metres is to be made from sheet metal, as shown. The surface area of the tank is $A$ square metres and the volume of the tank is $V$ cubic metres, where $V$ is constant. It is known that $A = \\pi r^2 + \\dfrac{2V}{\\pi}\\left(\\dfrac{2 + \\pi}{r}\\right)$.\n\nShow that the amount of sheet metal is minimised when $r = \\sqrt[3]{\\dfrac{V(2 + \\pi)}{\\pi^2}}$.",
+   "answer": "$$\\frac{dA}{dr} = 2\\pi r - \\frac{2V(2 + \\pi)}{\\pi r^2}.$$\n$\\dfrac{dA}{dr} = 0$ when $2\\pi r = \\dfrac{2V(2 + \\pi)}{\\pi r^2}$, i.e. $r^3 = \\dfrac{V(2 + \\pi)}{\\pi^2}$, so $r = \\sqrt[3]{\\dfrac{V(2 + \\pi)}{\\pi^2}}$.\n\n$$\\frac{d^2A}{dr^2} = 2\\pi + \\frac{4V(2 + \\pi)}{\\pi r^3} > 0 \\text{ for all } r > 0,$$\nso the curve is concave up and this stationary point is a minimum. Hence the sheet metal is minimised when $r = \\sqrt[3]{\\dfrac{V(2 + \\pi)}{\\pi^2}}$.\n\n(The paper's solution writes the second term of $\\frac{d^2A}{dr^2}$ as $\\frac{2V(2+\\pi)}{\\pi} \\times 2r^3$; it should be $\\times\\, 2r^{-3}$. The conclusion is unaffected.)",
+   "images": [
+    "assets/img/adv-2026-fort-st/q30.png"
+   ]
+  },
+  {
+   "ref": "Q31(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.7",
+    "12.2.3.6"
+   ],
+   "question": "Consider the function defined by the geometric series $f(x) = e^{-x} + e^{-2x} + e^{-3x} + \\cdots$ for $x > 0$. Show that $f(x) = \\dfrac{1}{e^x - 1}$.",
+   "answer": "This is a geometric series with first term $a = e^{-x}$ and ratio $r = e^{-x}$. Since $x > 0$, $0 < e^{-x} < 1$, so the series converges and\n$$f(x) = \\frac{e^{-x}}{1 - e^{-x}} = \\frac{e^{-x}}{1 - e^{-x}} \\times \\frac{e^x}{e^x} = \\frac{1}{e^x - 1}.$$"
+  },
+  {
+   "ref": "Q31(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.4",
+    "11.4.3.10"
+   ],
+   "question": "Let $f(x) = \\dfrac{1}{e^x - 1}$ for $x > 0$. Show that $f'(x) = \\dfrac{-e^x}{(e^x - 1)^2}$.",
+   "answer": "$f(x) = (e^x - 1)^{-1}$, so by the chain rule $f'(x) = -(e^x - 1)^{-2} \\times e^x = \\dfrac{-e^x}{(e^x - 1)^2}$.\n\n(Note $f'(x) < 0$, so $f$ is decreasing.)"
+  },
+  {
+   "ref": "Q31(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.5"
+   ],
+   "question": "Let $f(x) = \\dfrac{1}{e^x - 1}$ for $x > 0$. It is known that $f''(x) = \\dfrac{e^x(e^x + 1)}{(e^x - 1)^3}$. Explain why $f''(x) > 0$.",
+   "answer": "For $x > 0$, $e^x > 1$, so $e^x - 1 > 0$ and the denominator $(e^x - 1)^3 > 0$. In the numerator $e^x > 0$ and $e^x + 1 > 2 > 0$. So $f''(x)$ is a quotient of positive quantities and $f''(x) > 0$: the curve is concave up for $x > 0$."
+  },
+  {
+   "ref": "Q31(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.8.11"
+   ],
+   "question": "Let $f(x) = \\dfrac{1}{e^x - 1}$. Use the Trapezoidal rule with three function values to approximate $\\displaystyle\\int_1^2 f(x)\\,dx$, correct to three decimal places.",
+   "answer": "With $h = 0.5$ and $x = 1, 1.5, 2$:\n$$\\int_1^2 f(x)\\,dx \\approx \\frac{0.5}{2}\\Big[f(1) + 2f(1.5) + f(2)\\Big] = \\frac14\\left[\\frac{1}{e - 1} + \\frac{2}{e^{1.5} - 1} + \\frac{1}{e^2 - 1}\\right]$$\n$$\\approx \\frac14\\,[0.58198 + 0.57444 + 0.15652] \\approx 0.328.$$"
+  },
+  {
+   "ref": "Q31(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.6.3",
+    "12.4.8.1"
+   ],
+   "question": "Let $f(x) = \\dfrac{1}{e^x - 1}$. Find the exact value of $\\displaystyle\\int_1^2 f(x)\\,dx$.",
+   "answer": "Multiply top and bottom by $e^{-x}$: $\\dfrac{1}{e^x - 1} = \\dfrac{e^{-x}}{1 - e^{-x}}$, and $\\dfrac{d}{dx}(1 - e^{-x}) = e^{-x}$. So\n$$\\int_1^2 \\frac{e^{-x}}{1 - e^{-x}}\\,dx = \\Big[\\ln(1 - e^{-x})\\Big]_1^2 = \\ln\\frac{1 - e^{-2}}{1 - e^{-1}} = \\ln\\frac{e^2 - 1}{e^2 - e} = \\ln\\frac{(e - 1)(e + 1)}{e(e - 1)}$$\n$$= \\ln\\frac{e + 1}{e} = \\ln(e + 1) - 1.$$"
+  },
+  {
+   "ref": "Q31(f)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.8.11",
+    "12.5.1.5"
+   ],
+   "question": "Let $f(x) = \\dfrac{1}{e^x - 1}$ for $x > 0$. It is known that:\n- $f''(x) > 0$ for $x > 0$;\n- the Trapezoidal rule with three function values gives $\\displaystyle\\int_1^2 f(x)\\,dx \\approx 0.328$ (to 3 decimal places);\n- $\\displaystyle\\int_1^2 f(x)\\,dx = \\ln(e + 1) - 1$.\n\nUsing these results, show that $\\ln(e + 1) < \\dfrac43$.",
+   "answer": "Since $f''(x) > 0$, the curve is concave up, so on each subinterval the straight chord of the trapezium lies above the curve. The Trapezoidal rule therefore overestimates the integral:\n$$\\ln(e + 1) - 1 = \\int_1^2 f(x)\\,dx < 0.328\\ldots < \\frac13 = 0.333\\ldots$$\n(The trapezoidal value is $0.32824$, which is less than $\\frac13$.) Hence $\\ln(e + 1) < 1 + \\dfrac13 = \\dfrac43$."
+  }
+ ]
+}

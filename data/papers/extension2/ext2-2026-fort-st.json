@@ -1,0 +1,656 @@
+{
+ "id": "ext2-2026-fort-st",
+ "course": "extension2",
+ "school": "Fort St",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "Fort St 2026 w. sol"
+ },
+ "indexed": "2026-11-11",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.3",
+    "12.5.2.1"
+   ],
+   "question": "A particle's motion can be described by $\\ddot{x} = -9x$. Which equation below could be a representation of the particle's displacement at any time $t$?",
+   "options": [
+    "$x = 3\\sin(t)$",
+    "$x = 3t\\sin(t)$",
+    "$x = 3\\sin(3t)$",
+    "$x = 3t\\sin(3t)$"
+   ],
+   "correct": "C",
+   "answer": "$\\ddot{x} = -9x = -3^2x$ is SHM with $n = 3$, so $x = A\\sin(3t+\\alpha)$. Check: $x = 3\\sin 3t \\Rightarrow \\ddot{x} = -27\\sin 3t = -9x$. Hence C."
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "Given $z = \\cos\\dfrac{\\pi}{8} + i\\sin\\dfrac{\\pi}{8}$, what is the value of $z^8$?",
+   "options": [
+    "$1$",
+    "$-1$",
+    "$i$",
+    "$-i$"
+   ],
+   "correct": "B",
+   "answer": "By de Moivre's theorem, $z^8 = \\cos\\pi + i\\sin\\pi = -1$."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.3",
+    "12.3.1.10"
+   ],
+   "question": "What is the value of $\\arg\\overline{z}$ given the complex number $z = -1 - i\\sqrt{3}$?",
+   "options": [
+    "$-\\dfrac{2\\pi}{3}$",
+    "$-\\dfrac{\\pi}{3}$",
+    "$\\dfrac{2\\pi}{3}$",
+    "$\\dfrac{\\pi}{3}$"
+   ],
+   "correct": "C",
+   "answer": "$\\overline{z} = -1 + i\\sqrt{3}$ lies in the second quadrant with $\\tan\\theta = -\\sqrt{3}$, so $\\arg\\overline{z} = \\dfrac{2\\pi}{3}$."
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.7"
+   ],
+   "question": "Which of the following points lies on the line $\\mathbf{r} = \\begin{pmatrix}1\\\\2\\\\3\\end{pmatrix} + \\lambda\\begin{pmatrix}2\\\\-1\\\\4\\end{pmatrix}$?",
+   "options": [
+    "$(5, 0, 11)$",
+    "$(3, 1, 5)$",
+    "$(7, -1, 13)$",
+    "$(5, 1, 11)$"
+   ],
+   "correct": "A",
+   "answer": "Points on the line are $(1+2\\lambda,\\ 2-\\lambda,\\ 3+4\\lambda)$. With $\\lambda = 2$: $(5, 0, 11)$. (B needs $\\lambda=1$ from $x$ but gives $z=7$; C needs $\\lambda = 3$ but gives $y = -1$, $z=15$; D fails in $y$.)"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.1.1",
+    "12.5.1.2"
+   ],
+   "question": "The velocity, $v$ m s$^{-1}$, of a particle moving in a straight line is given by $v = 2\\sin(3x)$, where $x$ is the position of the particle from the origin. What is the acceleration of the particle when it is at the origin?",
+   "options": [
+    "$12\\text{ m s}^{-2}$",
+    "$24\\text{ m s}^{-2}$",
+    "$6\\text{ m s}^{-2}$",
+    "$0\\text{ m s}^{-2}$"
+   ],
+   "correct": "D",
+   "answer": "$\\tfrac12 v^2 = 2\\sin^2(3x)$, so $\\ddot{x} = \\dfrac{d}{dx}\\left(\\tfrac12v^2\\right) = 12\\sin(3x)\\cos(3x)$. At $x = 0$, $\\ddot{x} = 0$."
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.12",
+    "12.3.2.3"
+   ],
+   "question": "Consider the complex number $z$ such that $\\text{Re}(z) < 0$ and $\\text{Im}(z) > 0$. What is the value of $\\text{Arg}\\left(\\dfrac{\\overline{z} + z}{\\overline{z}z(\\overline{z} - z)}\\right)$?",
+   "options": [
+    "$\\dfrac{\\pi}{2}$",
+    "$\\pi$",
+    "$-\\dfrac{\\pi}{2}$",
+    "$0$"
+   ],
+   "correct": "C",
+   "answer": "Let $z = x + iy$ with $x < 0$, $y > 0$. Then $\\overline{z}+z = 2x$, $\\overline{z}z = x^2+y^2$, $\\overline{z}-z = -2iy$, so\n$$\\frac{\\overline{z}+z}{\\overline{z}z(\\overline{z}-z)} = \\frac{2x}{(x^2+y^2)(-2iy)} = \\frac{2x\\,i}{2y(x^2+y^2)}.$$\nSince $x<0$, $y>0$ this is a negative imaginary number, so its principal argument is $-\\dfrac{\\pi}{2}$."
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.3",
+    "12.5.3.2"
+   ],
+   "question": "A smooth plane is inclined at an angle of $30^\\circ$ to the horizontal. A mass of $M$ kg is attached to a smooth pulley using a light inextensible string and is moving down the ramp with an acceleration of $2$ m s$^{-2}$. A $5$ kg mass hangs vertically at the other end of the string, as shown.\n\nAssuming the acceleration due to gravity is $10$ m s$^{-2}$, what is the value of $M$?",
+   "options": [
+    "$25$ kg",
+    "$20$ kg",
+    "$10$ kg",
+    "$\\dfrac{10(5\\sqrt{3}+3)}{11}$ kg"
+   ],
+   "correct": "B",
+   "answer": "The $5$ kg mass accelerates upward at $2$: $5\\times 2 = T - 50$, so $T = 60$ N.\nFor $M$ down the slope: $2M = 10M\\sin 30^\\circ - T = 5M - 60$, so $3M = 60$ and $M = 20$ kg.",
+   "images": [
+    "assets/img/ext2-2026-fort-st/q7.png"
+   ]
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Which expression is equal to $\\displaystyle\\int \\frac{1}{x\\sqrt{1 - \\ln^2 x}}\\,dx$?",
+   "options": [
+    "$\\sin^{-1}(\\ln x) + c$",
+    "$\\ln\\left(\\sqrt{1 - \\ln^2 x}\\right) + c$",
+    "$\\tan^{-1}(\\ln x) + c$",
+    "$\\ln\\left(1 - \\ln^2 x\\right) + c$"
+   ],
+   "correct": "A",
+   "answer": "Let $u = \\ln x$, $du = \\dfrac{dx}{x}$: $\\displaystyle\\int\\frac{du}{\\sqrt{1-u^2}} = \\sin^{-1}u + c = \\sin^{-1}(\\ln x) + c$."
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.11"
+   ],
+   "question": "Which of the following is an expression for $\\displaystyle\\int \\cos^2 x\\sin^7 x\\,dx$?",
+   "options": [
+    "$\\dfrac{\\cos^3 x}{3} - \\dfrac{3\\cos^5 x}{5} + \\dfrac{3\\cos^7 x}{7} - \\dfrac{\\cos^9 x}{9} + c$",
+    "$\\cos^3 x - 3\\cos^5 x + 3\\cos^7 x - \\cos^9 x + c$",
+    "$-\\dfrac{\\cos^3 x}{3} + \\dfrac{3\\cos^5 x}{5} - \\dfrac{3\\cos^7 x}{7} + \\dfrac{\\cos^9 x}{9} + c$",
+    "$-\\cos^3 x + 3\\cos^5 x - 3\\cos^7 x + \\cos^9 x + c$"
+   ],
+   "correct": "C",
+   "answer": "Write $\\sin^7 x = \\sin x(1-\\cos^2x)^3$ and let $u = \\cos x$, $du = -\\sin x\\,dx$:\n$$-\\int u^2(1-u^2)^3\\,du = -\\int\\left(u^2 - 3u^4 + 3u^6 - u^8\\right)du = -\\frac{u^3}{3} + \\frac{3u^5}{5} - \\frac{3u^7}{7} + \\frac{u^9}{9} + c,$$\nwith $u = \\cos x$. Hence C."
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.10",
+    "12.3.1.10"
+   ],
+   "question": "Let $a, b, c, d$ be complex numbers such that $a \\ne b$ and $c \\ne d$. Which of the following is a necessary and sufficient condition for the line through $a$ and $b$ to be perpendicular to the line through $c$ and $d$?",
+   "options": [
+    "$\\dfrac{a-b}{c-d} = -\\dfrac{\\overline{a}-\\overline{b}}{\\overline{c}-\\overline{d}}\\,i$",
+    "$\\dfrac{a-b}{c-d} = -\\dfrac{\\overline{a}-\\overline{b}}{\\overline{c}-\\overline{d}}$",
+    "$\\dfrac{a-b}{c-d} = \\dfrac{\\overline{a}-\\overline{b}}{\\overline{c}-\\overline{d}}\\,i$",
+    "$\\dfrac{a-b}{c-d} = \\dfrac{\\overline{a}-\\overline{b}}{\\overline{c}-\\overline{d}}$"
+   ],
+   "correct": "B",
+   "answer": "The lines are perpendicular iff $a - b = ki(c-d)$ for some real $k \\ne 0$, i.e. iff $w = \\dfrac{a-b}{c-d}$ is purely imaginary. That holds iff $w + \\overline{w} = 0$, i.e. $\\dfrac{a-b}{c-d} = -\\dfrac{\\overline{a}-\\overline{b}}{\\overline{c}-\\overline{d}}$."
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.10",
+    "12.3.2.1"
+   ],
+   "question": "The complex number $z = 1 + 2i$ is plotted on an Argand diagram. On the same diagram, indicate the location of $-2zi$.",
+   "answer": "$-2zi = -2i(1+2i) = -2i + 4 = 4 - 2i$, plotted at $(4, -2)$. (Geometrically: $z$ rotated clockwise by $\\frac{\\pi}{2}$ and enlarged by factor $2$.)",
+   "answer_images": [
+    "assets/img/ext2-2026-fort-st/q11a-ans.png"
+   ]
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.10",
+    "12.3.4.9"
+   ],
+   "question": "The complex number $z = 1 + 2i$ is plotted on an Argand diagram. On the same diagram, indicate the location of $\\overline{z} - z$.",
+   "answer": "$\\overline{z} - z = (1 - 2i) - (1 + 2i) = -4i$, plotted at $(0, -4)$ on the imaginary axis.",
+   "answer_images": [
+    "assets/img/ext2-2026-fort-st/q11a-ans.png"
+   ]
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.5"
+   ],
+   "question": "The complex numbers $z$ and $w$ are given by $z = 2\\,\\text{cis}\\dfrac{\\pi}{6}$ and $w = 3\\,\\text{cis}\\dfrac{2\\pi}{3}$. Find the modulus and argument of $\\dfrac{z}{w}$.",
+   "answer": "$$\\frac{z}{w} = \\frac{2\\,\\text{cis}\\frac{\\pi}{6}}{3\\,\\text{cis}\\frac{2\\pi}{3}} = \\frac{2}{3}\\,\\text{cis}\\left(\\frac{\\pi}{6} - \\frac{2\\pi}{3}\\right) = \\frac{2}{3}\\,\\text{cis}\\left(-\\frac{\\pi}{2}\\right).$$\nSo $\\left|\\dfrac{z}{w}\\right| = \\dfrac{2}{3}$ and $\\text{Arg}\\left(\\dfrac{z}{w}\\right) = -\\dfrac{\\pi}{2}$."
+  },
+  {
+   "ref": "Q11(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.14"
+   ],
+   "question": "Show that $\\sqrt{3 + 4i} = \\pm(2 + i)$.",
+   "answer": "$\\left[\\pm(2+i)\\right]^2 = (2+i)^2 = 4 + 4i + i^2 = 3 + 4i$.\n\nHence the square roots of $3 + 4i$ are $\\pm(2+i)$.\n\n(Alternatively, let $(x+iy)^2 = 3+4i$: $x^2 - y^2 = 3$, $2xy = 4$. Then $x^2 - \\frac{4}{x^2} = 3 \\Rightarrow x^4 - 3x^2 - 4 = 0 \\Rightarrow (x^2-4)(x^2+1) = 0$, so $x = \\pm 2$, $y = \\pm 1$ with the same sign.)"
+  },
+  {
+   "ref": "Q11(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.1",
+    "12.3.1.14"
+   ],
+   "question": "Given that $\\sqrt{3+4i} = \\pm(2+i)$, solve $z^2 - (4 - 2i)z - 8i = 0$, where $z \\in \\mathbb{C}$, by completing the square.",
+   "answer": "$$z^2 - (4-2i)z + (2-i)^2 - 8i = (2-i)^2$$\n$$\\left(z - (2-i)\\right)^2 = (2-i)^2 + 8i = 4 - 4i - 1 + 8i = 3 + 4i$$\n$$z = (2 - i) \\pm \\sqrt{3+4i} = (2-i) \\pm (2+i).$$\nSo $z = 4$ or $z = -2i$."
+  },
+  {
+   "ref": "Q11(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.1.5"
+   ],
+   "question": "Three forces are acting on an object in such a way that the object is stationary. Given the first force vector $\\mathbf{F}_1 = \\mathbf{i} + 2\\mathbf{j} - 2\\mathbf{k}$, show that the magnitude of $\\mathbf{F}_1$ is $3$ newtons.",
+   "answer": "$|\\mathbf{F}_1| = \\sqrt{1^2 + 2^2 + (-2)^2} = \\sqrt{9} = 3$ N."
+  },
+  {
+   "ref": "Q11(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.5"
+   ],
+   "question": "Three forces are acting on an object so that it is stationary. The first force is $\\mathbf{F}_1 = \\mathbf{i} + 2\\mathbf{j} - 2\\mathbf{k}$, with magnitude $3$ N. The second force vector $\\mathbf{F}_2$ has double the magnitude of $\\mathbf{F}_1$ and is parallel to $\\mathbf{r} = \\mathbf{i} + \\mathbf{j} + \\mathbf{k}$ (in the same direction). Show that $\\mathbf{F}_2 = 2\\sqrt{3}\\left(\\mathbf{i} + \\mathbf{j} + \\mathbf{k}\\right)$.",
+   "answer": "The unit vector in the direction of $\\mathbf{r}$ is\n$$\\hat{\\mathbf{r}} = \\frac{\\mathbf{i}+\\mathbf{j}+\\mathbf{k}}{\\sqrt{1+1+1}} = \\frac{1}{\\sqrt{3}}(\\mathbf{i}+\\mathbf{j}+\\mathbf{k}).$$\n$|\\mathbf{F}_2| = 2\\times 3 = 6$, so\n$$\\mathbf{F}_2 = 6\\hat{\\mathbf{r}} = \\frac{6}{\\sqrt{3}}(\\mathbf{i}+\\mathbf{j}+\\mathbf{k}) = 2\\sqrt{3}(\\mathbf{i}+\\mathbf{j}+\\mathbf{k}).$$"
+  },
+  {
+   "ref": "Q11(d)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.5",
+    "12.5.1.3"
+   ],
+   "question": "Three forces act on an object so that it is stationary. The first two are $\\mathbf{F}_1 = \\mathbf{i} + 2\\mathbf{j} - 2\\mathbf{k}$ and $\\mathbf{F}_2 = 2\\sqrt{3}\\left(\\mathbf{i} + \\mathbf{j} + \\mathbf{k}\\right)$. Find the third force vector $\\mathbf{F}_3$ acting on the object.",
+   "answer": "Since the object is stationary, the resultant force is zero: $\\mathbf{F}_1 + \\mathbf{F}_2 + \\mathbf{F}_3 = \\mathbf{0}$.\n$$\\mathbf{F}_3 = -\\mathbf{F}_1 - \\mathbf{F}_2 = -(\\mathbf{i}+2\\mathbf{j}-2\\mathbf{k}) - 2\\sqrt{3}(\\mathbf{i}+\\mathbf{j}+\\mathbf{k})$$\n$$= (-1-2\\sqrt{3})\\mathbf{i} + (-2-2\\sqrt{3})\\mathbf{j} + (2-2\\sqrt{3})\\mathbf{k}.$$"
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.10"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^1 \\frac{2x^2 - x + 1}{x - 2}\\,dx$.",
+   "answer": "Since $2x^2 - x + 1 = (x-2)(2x+3) + 7$,\n$$\\int_0^1\\frac{2x^2-x+1}{x-2}\\,dx = \\int_0^1\\left(2x + 3 + \\frac{7}{x-2}\\right)dx = \\Big[x^2 + 3x + 7\\ln|x-2|\\Big]_0^1$$\n$$= (1 + 3 + 7\\ln 1) - (0 + 0 + 7\\ln 2) = 4 - 7\\ln 2.$$"
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.11"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^{\\frac{\\pi}{4}} \\frac{\\sec x}{\\cos x + \\sin x}\\,dx$.",
+   "answer": "Divide numerator and denominator by $\\cos x$:\n$$\\int_0^{\\frac{\\pi}{4}}\\frac{\\sec x}{\\cos x + \\sin x}\\,dx = \\int_0^{\\frac{\\pi}{4}}\\frac{\\sec^2 x}{1 + \\tan x}\\,dx = \\Big[\\ln(1 + \\tan x)\\Big]_0^{\\frac{\\pi}{4}}$$\n$$= \\ln\\left(1 + \\tan\\frac{\\pi}{4}\\right) - \\ln(1 + \\tan 0) = \\ln 2 - \\ln 1 = \\ln 2.$$\n\n(Alternative: $\\dfrac{1}{\\cos x(\\cos x+\\sin x)} = \\dfrac{\\sin x}{\\cos x} + \\dfrac{\\cos x - \\sin x}{\\cos x + \\sin x}$, giving $\\Big[-\\ln\\cos x + \\ln(\\cos x + \\sin x)\\Big]_0^{\\frac{\\pi}{4}} = \\ln\\left(\\sqrt2\\cdot\\frac{2}{\\sqrt2}\\right) = \\ln 2$.)"
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.3",
+    "12.5.4.1"
+   ],
+   "question": "A particle is moving in a straight line, horizontally away from a fixed point $O$, such that its displacement from $O$ at time $t$ seconds is $x$ metres. The only force acting on the particle is a resistance force of magnitude $mkv^2$ newtons, where $k$ is a positive constant. The particle starts its motion at $O$ with a positive initial velocity of $u$ m s$^{-1}$.\n\nShow that the displacement of the particle is given by $x = \\dfrac{1}{k}\\ln\\left(\\dfrac{u}{v}\\right)$.",
+   "answer": "$m\\ddot{x} = -mkv^2 \\Rightarrow v\\dfrac{dv}{dx} = -kv^2 \\Rightarrow \\dfrac{dv}{dx} = -kv$.\n$$\\int\\frac{1}{v}\\,dv = \\int -k\\,dx \\Rightarrow \\ln|v| = -kx + c.$$\nAt $x = 0$, $v = u$: $c = \\ln u$. So\n$$-kx = \\ln v - \\ln u \\Rightarrow x = \\frac{1}{k}\\ln\\left(\\frac{u}{v}\\right)\\quad (v > 0).$$"
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.2"
+   ],
+   "question": "A particle moves in a straight line, horizontally away from a fixed point $O$. The only force acting on it is a resistance force of magnitude $mkv^2$ newtons, where $k$ is a positive constant. The particle starts at $O$ at $t = 0$ with initial velocity $u > 0$ m s$^{-1}$.\n\nShow that the velocity of the particle at any time $t$ is given by $v = \\dfrac{u}{kut + 1}$.",
+   "answer": "$\\dfrac{dv}{dt} = -kv^2$, so\n$$\\int\\frac{1}{v^2}\\,dv = \\int -k\\,dt \\Rightarrow -\\frac{1}{v} = -kt + c.$$\nAt $t = 0$, $v = u$: $c = -\\dfrac{1}{u}$. Hence\n$$\\frac{1}{v} = kt + \\frac{1}{u} = \\frac{kut + 1}{u} \\Rightarrow v = \\frac{u}{kut + 1}.$$"
+  },
+  {
+   "ref": "Q12(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.5"
+   ],
+   "question": "A particle moves in a straight line away from a fixed point $O$ subject only to a resistance of magnitude $mkv^2$ newtons. It starts at $O$ with velocity $u > 0$. It can be shown that its displacement is $x = \\dfrac{1}{k}\\ln\\left(\\dfrac{u}{v}\\right)$ and its velocity at time $t$ is $v = \\dfrac{u}{kut + 1}$.\n\nUsing these results, find an expression for the displacement of the particle after $\\dfrac{1}{u}$ seconds, in terms of $k$.",
+   "answer": "At $t = \\dfrac{1}{u}$: $v = \\dfrac{u}{k + 1}$. Then\n$$x = \\frac{1}{k}\\ln\\left(\\frac{u}{\\;\\frac{u}{k+1}\\;}\\right) = \\frac{1}{k}\\ln(k + 1)\\ \\text{metres}.$$"
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.5"
+   ],
+   "question": "Sketch the region of the complex plane defined by $\\left|z^2 - \\overline{z}^2\\right| > 4$.",
+   "answer": "Let $z = x + iy$. Then\n$$z^2 - \\overline{z}^2 = (x^2 - y^2 + 2xyi) - (x^2 - y^2 - 2xyi) = 4xyi.$$\nSo $|4xyi| > 4 \\iff |xy| > 1$, i.e. $xy > 1$ or $xy < -1$: $y > \\dfrac1x$ or $y < -\\dfrac1x$ appropriately in each quadrant.\n\nThe region is the set of points beyond the four branches of the hyperbolas $xy = 1$ and $xy = -1$ (away from the axes), with the hyperbolas drawn dashed (not included). The branches pass through $(1,1)$, $(-1,-1)$, $(-1,1)$ and $(1,-1)$.",
+   "answer_images": [
+    "assets/img/ext2-2026-fort-st/q12c-ans.png"
+   ]
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Find $\\displaystyle\\int \\frac{\\left(\\sqrt{x} + 1\\right)^{10}}{\\sqrt{x}}\\,dx$.",
+   "answer": "Let $u = \\sqrt{x} + 1$, so $du = \\dfrac{1}{2\\sqrt{x}}\\,dx$, i.e. $\\dfrac{dx}{\\sqrt{x}} = 2\\,du$.\n$$\\int\\frac{(\\sqrt{x}+1)^{10}}{\\sqrt{x}}\\,dx = \\int 2u^{10}\\,du = \\frac{2}{11}u^{11} + c = \\frac{2}{11}\\left(\\sqrt{x}+1\\right)^{11} + c.$$"
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.3",
+    "12.3.2.6"
+   ],
+   "question": "Consider the complex numbers $z = \\sqrt{2} + i\\sqrt{6}$ and $w = \\sqrt{3} - i$. Find the smallest positive integer value of $n$ for which $\\dfrac{z^n}{w^n}$ is purely real.",
+   "answer": "$|z| = \\sqrt{2+6} = 2\\sqrt2$, $\\text{Arg}(z) = \\tan^{-1}\\sqrt3 = \\dfrac{\\pi}{3}$; $|w| = 2$, $\\text{Arg}(w) = -\\dfrac{\\pi}{6}$.\n$$\\frac{z}{w} = \\frac{2\\sqrt2}{2}\\,\\text{cis}\\left(\\frac{\\pi}{3} + \\frac{\\pi}{6}\\right) = \\sqrt2\\,\\text{cis}\\frac{\\pi}{2} = \\sqrt2\\,i.$$\nBy de Moivre's theorem, $\\left(\\dfrac{z}{w}\\right)^n = (\\sqrt2)^n\\,\\text{cis}\\dfrac{n\\pi}{2}$, which is purely real when $\\sin\\dfrac{n\\pi}{2} = 0$, i.e. $n$ even. The smallest is $n = 2$, giving $\\left(\\dfrac{z}{w}\\right)^2 = 2\\,\\text{cis}\\,\\pi = -2$."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.10",
+    "12.3.4.11"
+   ],
+   "question": "The centre of an equilateral triangle is at the origin, and one vertex is at $z_1 = \\sqrt3 + i$. Using $\\text{Arg}(z_1)$, find the complex numbers giving the other two vertices, in the form $a + ib$.",
+   "answer": "$|z_1| = \\sqrt{3+1} = 2$ and $\\text{Arg}(z_1) = \\tan^{-1}\\dfrac{1}{\\sqrt3} = \\dfrac{\\pi}{6}$, so $z_1 = 2\\,\\text{cis}\\dfrac{\\pi}{6}$.\n\nThe other vertices are obtained by rotating $z_1$ about the origin through $\\pm\\dfrac{2\\pi}{3}$:\n$$z_2 = z_1\\,\\text{cis}\\frac{2\\pi}{3} = 2\\,\\text{cis}\\frac{5\\pi}{6} = -\\sqrt3 + i,$$\n$$z_3 = z_1\\,\\text{cis}\\left(-\\frac{2\\pi}{3}\\right) = 2\\,\\text{cis}\\left(-\\frac{\\pi}{2}\\right) = -2i.$$"
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.5",
+    "12.5.2.4"
+   ],
+   "question": "A particle is moving in simple harmonic motion with speed $v$ m s$^{-1}$ given by\n$$v^2 = -2\\pi^2x^2 - 4\\pi^2x + 16\\pi^2,$$\nwhere $x$ is the displacement from the origin, in metres. Find the exact period of the particle's motion.",
+   "answer": "$\\tfrac12 v^2 = -\\pi^2x^2 - 2\\pi^2x + 8\\pi^2$, so\n$$\\ddot{x} = \\frac{d}{dx}\\left(\\tfrac12v^2\\right) = -2\\pi^2x - 2\\pi^2 = -2\\pi^2(x + 1).$$\nThis is SHM, $\\ddot{x} = -n^2(x - c)$, with $n^2 = 2\\pi^2$, $n = \\sqrt2\\,\\pi$ (centre $x = -1$).\n$$\\text{Period} = \\frac{2\\pi}{n} = \\frac{2\\pi}{\\sqrt2\\,\\pi} = \\sqrt2\\ \\text{seconds}.$$\n\n*Note: the paper's solution writes $-2\\pi^2(x-1)$; the correct factorisation is $-2\\pi^2(x+1)$ (centre $x=-1$). The period is unaffected.*"
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.5.2.10"
+   ],
+   "question": "A particle is moving in simple harmonic motion with speed $v$ m s$^{-1}$ given by\n$$v^2 = -2\\pi^2x^2 - 4\\pi^2x + 16\\pi^2,$$\nwhere $x$ is the displacement from the origin, in metres. Find the maximum and minimum $x$-values between which the particle oscillates.",
+   "answer": "The particle is at the extremes of its motion when $v = 0$:\n$$-2\\pi^2x^2 - 4\\pi^2x + 16\\pi^2 = 0 \\Rightarrow x^2 + 2x - 8 = 0 \\Rightarrow (x+4)(x-2) = 0.$$\nSo the particle oscillates between $x = -4$ m (minimum) and $x = 2$ m (maximum)."
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.1",
+    "12.2.2.5"
+   ],
+   "question": "Find the acute angle between unit vectors $\\mathbf{a}$ and $\\mathbf{b}$ such that $\\left|\\sqrt3\\,\\mathbf{a} - \\mathbf{b}\\right| = 1$.",
+   "answer": "Let $\\theta$ be the angle between $\\mathbf{a}$ and $\\mathbf{b}$, with $|\\mathbf{a}| = |\\mathbf{b}| = 1$.\n$$\\left|\\sqrt3\\mathbf{a} - \\mathbf{b}\\right|^2 = (\\sqrt3\\mathbf{a} - \\mathbf{b})\\cdot(\\sqrt3\\mathbf{a} - \\mathbf{b}) = 3|\\mathbf{a}|^2 + |\\mathbf{b}|^2 - 2\\sqrt3\\,\\mathbf{a}\\cdot\\mathbf{b}.$$\nSo $1 = 3 + 1 - 2\\sqrt3\\cos\\theta$, giving\n$$\\cos\\theta = \\frac{3}{2\\sqrt3} = \\frac{\\sqrt3}{2} \\Rightarrow \\theta = \\frac{\\pi}{6}.$$"
+  },
+  {
+   "ref": "Q13(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.8"
+   ],
+   "question": "Find $\\displaystyle\\int \\frac{dx}{e^{3x} - 1}$.",
+   "answer": "Let $u = e^{3x}$, so $du = 3e^{3x}\\,dx = 3u\\,dx$, i.e. $dx = \\dfrac{du}{3u}$.\n$$\\int\\frac{dx}{e^{3x}-1} = \\frac13\\int\\frac{du}{u(u-1)}.$$\nPartial fractions: $\\dfrac{1}{u(u-1)} = \\dfrac{A}{u-1} + \\dfrac{B}{u}$ with $Au + B(u-1) = 1$; $u = 0 \\Rightarrow B = -1$, $u = 1 \\Rightarrow A = 1$.\n$$\\frac13\\int\\left(\\frac{1}{u-1} - \\frac{1}{u}\\right)du = \\frac13\\left(\\ln|u-1| - \\ln|u|\\right) + c = \\frac13\\ln\\left|\\frac{e^{3x}-1}{e^{3x}}\\right| + c.$$"
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Given that $I_n = \\displaystyle\\int_0^{\\frac{\\pi}{2}} \\sin^n x\\,dx$, show that $I_n = \\dfrac{n-1}{n}I_{n-2}$ for $n \\ge 2$.",
+   "answer": "$I_n = \\displaystyle\\int_0^{\\frac{\\pi}{2}}\\sin^{n-1}x\\,\\sin x\\,dx$. Let $u = \\sin^{n-1}x$, $v' = \\sin x$, so $u' = (n-1)\\sin^{n-2}x\\cos x$, $v = -\\cos x$.\n$$I_n = \\Big[-\\cos x\\sin^{n-1}x\\Big]_0^{\\frac{\\pi}{2}} + (n-1)\\int_0^{\\frac{\\pi}{2}}\\cos^2x\\sin^{n-2}x\\,dx.$$\nThe boundary term is $0$ (since $\\cos\\frac{\\pi}{2} = 0$ and $\\sin 0 = 0$ for $n \\ge 2$). Using $\\cos^2 x = 1 - \\sin^2 x$:\n$$I_n = (n-1)\\int_0^{\\frac{\\pi}{2}}\\sin^{n-2}x\\,dx - (n-1)\\int_0^{\\frac{\\pi}{2}}\\sin^n x\\,dx = (n-1)I_{n-2} - (n-1)I_n.$$\nSo $nI_n = (n-1)I_{n-2}$, i.e. $I_n = \\dfrac{n-1}{n}I_{n-2}$."
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Given that $I_n = \\displaystyle\\int_0^{\\frac{\\pi}{2}} \\sin^n x\\,dx$ satisfies $I_n = \\dfrac{n-1}{n}I_{n-2}$ for $n \\ge 2$, evaluate $\\displaystyle\\int_0^{\\frac{\\pi}{2}}\\sin^7 x\\,dx$.",
+   "answer": "$$I_7 = \\frac67 I_5 = \\frac67\\cdot\\frac45 I_3 = \\frac67\\cdot\\frac45\\cdot\\frac23 I_1 = \\frac{16}{35}\\int_0^{\\frac{\\pi}{2}}\\sin x\\,dx = \\frac{16}{35}\\Big[-\\cos x\\Big]_0^{\\frac{\\pi}{2}} = \\frac{16}{35}(0 + 1) = \\frac{16}{35}.$$"
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.5.2",
+    "12.5.5.6"
+   ],
+   "question": "A particle is projected vertically upwards in a resistant medium. The velocity of projection is $u$ m s$^{-1}$, the mass of the particle is $m$ kg and the resistance force is $mkv^2$ newtons, where $k$ is a positive constant. Let $g$ be the acceleration due to gravity.\n\nShow that the maximum height attained is given by $h = \\dfrac{1}{2k}\\ln\\left(1 + \\dfrac{k}{g}u^2\\right)$.",
+   "answer": "Taking upwards as positive, with $x = 0$, $v = u$ at $t = 0$:\n$$m\\ddot{x} = -mg - mkv^2 \\Rightarrow v\\frac{dv}{dx} = -(g + kv^2).$$\n$$\\int\\frac{v}{g + kv^2}\\,dv = -\\int dx \\Rightarrow \\frac{1}{2k}\\ln(g + kv^2) = -x + c.$$\nAt $x = 0$, $v = u$: $c = \\dfrac{1}{2k}\\ln(g + ku^2)$. So\n$$x = \\frac{1}{2k}\\ln\\left(\\frac{g + ku^2}{g + kv^2}\\right).$$\nAt maximum height $v = 0$:\n$$h = \\frac{1}{2k}\\ln\\left(\\frac{g + ku^2}{g}\\right) = \\frac{1}{2k}\\ln\\left(1 + \\frac{k}{g}u^2\\right).$$"
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.5.6",
+    "12.5.5.5",
+    "12.5.5.2"
+   ],
+   "question": "A particle of mass $m$ kg is projected vertically upwards with speed $u$ m s$^{-1}$ in a medium where the resistance force is $mkv^2$ newtons ($k > 0$ a constant) and $g$ is the acceleration due to gravity. The maximum height attained is $h = \\dfrac{1}{2k}\\ln\\left(1 + \\dfrac{k}{g}u^2\\right)$.\n\nIf the speed of projection is half the terminal velocity, find the ratio of the velocity on return to the projection point to the velocity of projection.",
+   "answer": "**Terminal velocity:** when falling, $\\ddot{x} = 0$ when $mg = mkv^2$, so $v_T = \\sqrt{\\dfrac{g}{k}}$. Hence $u = \\dfrac12\\sqrt{\\dfrac gk}$, i.e. $u^2 = \\dfrac{g}{4k}$.\n\n**Descent:** take downwards as positive from the top ($x = 0$, $v = 0$):\n$$v\\frac{dv}{dx} = g - kv^2 \\Rightarrow \\int\\frac{v}{g - kv^2}\\,dv = \\int dx \\Rightarrow x = -\\frac{1}{2k}\\ln|g - kv^2| + c.$$\nWith $x = 0$, $v = 0$: $c = \\dfrac{1}{2k}\\ln g$, so $x = \\dfrac{1}{2k}\\ln\\left(\\dfrac{g}{g - kv^2}\\right)$.\n\n**Return to projection point:** the particle falls a distance $h$, where\n$$h = \\frac{1}{2k}\\ln\\left(1 + \\frac kg\\cdot\\frac{g}{4k}\\right) = \\frac{1}{2k}\\ln\\frac54.$$\nSo\n$$\\ln\\frac54 = \\ln\\left(\\frac{g}{g - kv^2}\\right) \\Rightarrow 5(g - kv^2) = 4g \\Rightarrow v^2 = \\frac{g}{5k}.$$\n\n**Ratio:**\n$$\\frac{v^2}{u^2} = \\frac{g}{5k}\\div\\frac{g}{4k} = \\frac45 \\Rightarrow \\frac{v}{u} = \\frac{2}{\\sqrt5} = \\frac{2\\sqrt5}{5}.$$"
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.4"
+   ],
+   "question": "Consider the points $P$ and $Q$ with position vectors $\\mathbf{p} = \\begin{pmatrix}4\\\\-2\\\\2\\end{pmatrix}$ and $\\mathbf{q} = \\begin{pmatrix}-2\\\\3\\\\1\\end{pmatrix}$ respectively. Find the vector equation of the line $l$ passing through $P$ and $Q$.",
+   "answer": "$\\overrightarrow{PQ} = \\mathbf{q} - \\mathbf{p} = \\begin{pmatrix}-6\\\\5\\\\-1\\end{pmatrix}$, so\n$$l:\\ \\mathbf{r} = \\begin{pmatrix}4\\\\-2\\\\2\\end{pmatrix} + \\lambda\\begin{pmatrix}-6\\\\5\\\\-1\\end{pmatrix},\\quad \\lambda\\in\\mathbb{R}.$$"
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.18",
+    "12.2.1.17"
+   ],
+   "question": "The line $l$ has vector equation $\\mathbf{r} = \\begin{pmatrix}4\\\\-2\\\\2\\end{pmatrix} + \\lambda\\begin{pmatrix}-6\\\\5\\\\-1\\end{pmatrix}$. A sphere has centre $(1, 1, 4)$ and radius $R$ units. Find the value of $R$ for which the line $l$ is a tangent to the sphere.",
+   "answer": "Sphere: $(x-1)^2 + (y-1)^2 + (z-4)^2 = R^2$. A point on $l$ is $(4 - 6\\lambda,\\ -2 + 5\\lambda,\\ 2 - \\lambda)$. Substituting:\n$$(3 - 6\\lambda)^2 + (-3 + 5\\lambda)^2 + (-2 - \\lambda)^2 = R^2$$\n$$(36 + 25 + 1)\\lambda^2 + (-36 - 30 + 4)\\lambda + 9 + 9 + 4 - R^2 = 0$$\n$$62\\lambda^2 - 62\\lambda + 22 - R^2 = 0.$$\nFor the line to be tangent there is exactly one point of contact, so $\\Delta = 0$:\n$$62^2 - 4(62)(22 - R^2) = 0 \\Rightarrow 22 - R^2 = \\frac{62}{4} \\Rightarrow R^2 = \\frac{13}{2}.$$\nSo $R = \\sqrt{\\dfrac{13}{2}} = \\dfrac{\\sqrt{26}}{2}$ units ($R > 0$)."
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.10",
+    "12.2.2.5"
+   ],
+   "question": "The points $O(0, 0, 0)$, $P(5, -15, 10)$ and $Q(10, -10, 5)$ are the vertices of a triangle $OPQ$ as shown below. The point $S$ lies on $OQ$ such that $OS : SQ = 2 : 3$, and the point $T$ lies on $OP$ such that $OT : TP = 2 : 3$. The intervals $PS$ and $QT$ intersect at $R$.\n\nBy using vector methods, find the coordinates of $R$.",
+   "answer": "$\\overrightarrow{OS} = \\tfrac25\\overrightarrow{OQ} = (4, -4, 2)$ and $\\overrightarrow{OT} = \\tfrac25\\overrightarrow{OP} = (2, -6, 4)$.\n\nLine $SP$: $\\mathbf{r} = \\begin{pmatrix}4\\\\-4\\\\2\\end{pmatrix} + \\lambda\\begin{pmatrix}1\\\\-11\\\\8\\end{pmatrix}$; line $TQ$: $\\mathbf{r} = \\begin{pmatrix}2\\\\-6\\\\4\\end{pmatrix} + \\mu\\begin{pmatrix}8\\\\-4\\\\1\\end{pmatrix}$.\n\nEquating components:\n$$4 + \\lambda = 2 + 8\\mu \\quad (1),\\qquad -4 - 11\\lambda = -6 - 4\\mu \\quad (2),\\qquad 2 + 8\\lambda = 4 + \\mu \\quad (3).$$\nFrom (1), $\\lambda = 8\\mu - 2$. Into (2): $-4 - 11(8\\mu - 2) = -6 - 4\\mu \\Rightarrow 84\\mu = 24 \\Rightarrow \\mu = \\dfrac27$, $\\lambda = \\dfrac27$.\n\nCheck (3): $2 + \\frac{16}{7} = \\frac{30}{7}$ and $4 + \\frac27 = \\frac{30}{7}$. ✓\n\n$$\\overrightarrow{OR} = \\begin{pmatrix}4\\\\-4\\\\2\\end{pmatrix} + \\frac27\\begin{pmatrix}1\\\\-11\\\\8\\end{pmatrix} = \\left(\\frac{30}{7},\\ -\\frac{50}{7},\\ \\frac{30}{7}\\right).$$",
+   "images": [
+    "assets/img/ext2-2026-fort-st/q15a.png"
+   ]
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.15",
+    "12.4.1.6"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^{\\pi} \\frac{x\\sin x}{1 + \\cos^2 x}\\,dx$.",
+   "answer": "Let $I$ be the integral. Using $\\displaystyle\\int_0^a f(x)\\,dx = \\int_0^a f(a - x)\\,dx$, and $\\sin(\\pi - x) = \\sin x$, $\\cos^2(\\pi - x) = \\cos^2 x$:\n$$I = \\int_0^{\\pi}\\frac{(\\pi - x)\\sin x}{1 + \\cos^2x}\\,dx.$$\nAdding the two forms:\n$$2I = \\pi\\int_0^{\\pi}\\frac{\\sin x}{1 + \\cos^2 x}\\,dx = \\pi\\Big[-\\tan^{-1}(\\cos x)\\Big]_0^{\\pi} = -\\pi\\left(\\tan^{-1}(-1) - \\tan^{-1}(1)\\right) = -\\pi\\left(-\\frac{\\pi}{4} - \\frac{\\pi}{4}\\right) = \\frac{\\pi^2}{2}.$$\nHence $I = \\dfrac{\\pi^2}{4}$."
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.4",
+    "12.3.4.3"
+   ],
+   "question": "Prove that $(1 + i\\tan\\theta)^n + (1 - i\\tan\\theta)^n = 2\\sec^n(\\theta)\\cos(n\\theta)$.",
+   "answer": "$$\\text{LHS} = \\left(1 + i\\frac{\\sin\\theta}{\\cos\\theta}\\right)^n + \\left(1 - i\\frac{\\sin\\theta}{\\cos\\theta}\\right)^n = \\frac{(\\cos\\theta + i\\sin\\theta)^n + (\\cos\\theta - i\\sin\\theta)^n}{\\cos^n\\theta}.$$\nBy de Moivre's theorem (with $\\cos\\theta - i\\sin\\theta = \\cos(-\\theta) + i\\sin(-\\theta)$):\n$$= \\frac{1}{\\cos^n\\theta}\\left(\\cos n\\theta + i\\sin n\\theta + \\cos n\\theta - i\\sin n\\theta\\right) = \\sec^n\\theta\\,(2\\cos n\\theta) = 2\\sec^n(\\theta)\\cos(n\\theta) = \\text{RHS}.$$"
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.4",
+    "12.3.1.12"
+   ],
+   "question": "It can be shown that $(1 + i\\tan\\theta)^n + (1 - i\\tan\\theta)^n = 2\\sec^n(\\theta)\\cos(n\\theta)$. Using this result, express $\\text{Re}\\left(\\left(1 + i\\tan\\dfrac{\\pi}{8}\\right)^8\\right)$ in the form $a\\sqrt2 + b$, where $a$ and $b$ are integers. (You must justify your answer.)",
+   "answer": "Since $1 - i\\tan\\frac{\\pi}{8}$ is the conjugate of $1 + i\\tan\\frac{\\pi}{8}$, and $\\text{Re}(w) = \\frac12(w + \\overline{w})$:\n$$\\text{Re}\\left(\\left(1 + i\\tan\\tfrac{\\pi}{8}\\right)^8\\right) = \\frac12\\left[\\left(1 + i\\tan\\tfrac{\\pi}{8}\\right)^8 + \\left(1 - i\\tan\\tfrac{\\pi}{8}\\right)^8\\right] = \\sec^8\\tfrac{\\pi}{8}\\cos\\pi = -\\sec^8\\tfrac{\\pi}{8}.$$\nNow $\\cos^2\\dfrac{\\pi}{8} = \\dfrac12\\left(1 + \\cos\\dfrac{\\pi}{4}\\right) = \\dfrac12\\left(1 + \\dfrac{1}{\\sqrt2}\\right) = \\dfrac{\\sqrt2 + 1}{2\\sqrt2}$, so\n$$\\sec^2\\frac{\\pi}{8} = \\frac{2\\sqrt2}{\\sqrt2 + 1}\\cdot\\frac{\\sqrt2 - 1}{\\sqrt2 - 1} = 2\\sqrt2(\\sqrt2 - 1) = 4 - 2\\sqrt2.$$\nThen $\\sec^4\\frac{\\pi}{8} = (4 - 2\\sqrt2)^2 = 24 - 16\\sqrt2$ and\n$$\\sec^8\\frac{\\pi}{8} = (24 - 16\\sqrt2)^2 = 576 - 768\\sqrt2 + 512 = 1088 - 768\\sqrt2.$$\nTherefore\n$$\\text{Re}\\left(\\left(1 + i\\tan\\tfrac{\\pi}{8}\\right)^8\\right) = -(1088 - 768\\sqrt2) = 768\\sqrt2 - 1088,$$\nso $a = 768$, $b = -1088$. (Check: $\\approx -1.88$, and $|1 + i\\tan\\frac{\\pi}{8}|^8 \\approx 1.88$ with argument $8\\cdot\\frac{\\pi}{8} = \\pi$.)\n\n*Note: the paper's solution gives $1088 - 768\\sqrt2$, dropping the minus sign from $\\cos\\pi = -1$ (it writes $-\\sec^8\\frac{\\pi}{8} = (-4 + 2\\sqrt2)^4$); the correct value is $768\\sqrt2 - 1088$.*"
+  },
+  {
+   "ref": "Q16(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.1.17"
+   ],
+   "question": "Three spheres $S_1$, $S_2$, $S_3$ are placed on a horizontal surface (the $xy$-plane) such that they are touching each other.\n\n- Sphere $S_1$ has centre $A$ and touches the surface at $O(0, 0, 0)$.\n- Sphere $S_2$ has centre $B$ and touches the surface at $P(16, 0, 0)$.\n- Sphere $S_3$ has centre $C$ and touches the surface at $Q(16, 30, 0)$.\n\nThe diagram shows the centres of the spheres and their points of contact with the $xy$-plane; $a$, $b$, $c$ are the radii of $S_1$, $S_2$, $S_3$.\n\nBy finding the vectors $\\overrightarrow{AB}$, $\\overrightarrow{BC}$ and $\\overrightarrow{AC}$, find the coordinates of the centres $A$, $B$ and $C$ of the three spheres.",
+   "answer": "Let the radii be $a, b, c$, so $A = (0, 0, a)$, $B = (16, 0, b)$, $C = (16, 30, c)$. Touching spheres have centres a distance equal to the sum of their radii apart.\n\n$\\overrightarrow{AB} = \\begin{pmatrix}16\\\\0\\\\b-a\\end{pmatrix}$, $|\\overrightarrow{AB}| = a + b$:\n$$16^2 + (b-a)^2 = (a+b)^2 \\Rightarrow 256 = 4ab \\Rightarrow ab = 64 \\quad (1)$$\n$\\overrightarrow{AC} = \\begin{pmatrix}16\\\\30\\\\c-a\\end{pmatrix}$, $|\\overrightarrow{AC}| = a + c$:\n$$16^2 + 30^2 + (c-a)^2 = (a+c)^2 \\Rightarrow 1156 = 4ac \\Rightarrow ac = 289 \\quad (2)$$\n$\\overrightarrow{BC} = \\begin{pmatrix}0\\\\30\\\\c-b\\end{pmatrix}$, $|\\overrightarrow{BC}| = b + c$:\n$$30^2 + (c-b)^2 = (b+c)^2 \\Rightarrow 900 = 4bc \\Rightarrow bc = 225 \\quad (3)$$\nFrom (1) and (3), $a = \\dfrac{64}{b}$, $c = \\dfrac{225}{b}$. Into (2): $\\dfrac{64\\times225}{b^2} = 289 \\Rightarrow b = \\dfrac{8\\times15}{17} = \\dfrac{120}{17}$ ($b > 0$).\n\nThen $a = \\dfrac{64}{b} = \\dfrac{136}{15}$ and $c = \\dfrac{225}{b} = \\dfrac{255}{8}$.\n\n$$A = \\left(0, 0, \\tfrac{136}{15}\\right),\\quad B = \\left(16, 0, \\tfrac{120}{17}\\right),\\quad C = \\left(16, 30, \\tfrac{255}{8}\\right),$$\ni.e. heights $9\\tfrac{1}{15}$, $7\\tfrac{1}{17}$ and $31\\tfrac78$.",
+   "images": [
+    "assets/img/ext2-2026-fort-st/q16a.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.5",
+    "12.3.3.2"
+   ],
+   "question": "Define $f_n(x) = x^{2n} + x^n + 1$, where $n \\in \\mathbb{Z}^+$, and $\\omega = \\cos\\dfrac{2\\pi}{3} + i\\sin\\dfrac{2\\pi}{3}$. Show that $f_1(x) = (x - \\omega)(x - \\omega^2)$.",
+   "answer": "$$(x - \\omega)(x - \\omega^2) = x^2 - (\\omega + \\omega^2)x + \\omega^3.$$\nBy de Moivre, $\\omega^3 = \\cos 2\\pi + i\\sin2\\pi = 1$ and $\\omega^2 = \\text{cis}\\dfrac{4\\pi}{3} = \\text{cis}\\left(-\\dfrac{2\\pi}{3}\\right) = \\overline{\\omega}$. So\n$$\\omega + \\omega^2 = \\omega + \\overline{\\omega} = 2\\,\\text{Re}(\\omega) = 2\\cos\\frac{2\\pi}{3} = -1.$$\nHence $(x - \\omega)(x - \\omega^2) = x^2 + x + 1 = f_1(x)$."
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.5",
+    "12.3.4.12"
+   ],
+   "question": "Define $f_n(x) = x^{2n} + x^n + 1$, where $n \\in \\mathbb{Z}^+$, and $\\omega = \\cos\\dfrac{2\\pi}{3} + i\\sin\\dfrac{2\\pi}{3}$. Calculate $f_{3k}(\\omega)$, where $k$ is a positive integer.",
+   "answer": "$f_{3k}(\\omega) = \\omega^{6k} + \\omega^{3k} + 1$. Since $\\omega^3 = \\cos2\\pi + i\\sin2\\pi = 1$,\n$$f_{3k}(\\omega) = (\\omega^3)^{2k} + (\\omega^3)^k + 1 = 1 + 1 + 1 = 3.$$"
+  },
+  {
+   "ref": "Q16(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Using integration by parts, show that\n$$\\int_x^{x+1}\\sin\\left(t^2\\right)dt = \\frac{\\cos\\left(x^2\\right)}{2x} - \\frac{\\cos\\left[(x+1)^2\\right]}{2(x+1)} - \\int_x^{x+1}\\frac{\\cos\\left(t^2\\right)}{2t^2}\\,dt,\\qquad x > 0.$$",
+   "answer": "Write $\\sin(t^2) = \\dfrac{1}{2t}\\cdot 2t\\sin(t^2)$. Let $u = \\dfrac{1}{2t}$, $v' = 2t\\sin(t^2)$; then $u' = -\\dfrac{1}{2t^2}$, $v = -\\cos(t^2)$.\n$$\\int_x^{x+1}\\sin(t^2)\\,dt = \\left[-\\frac{\\cos(t^2)}{2t}\\right]_x^{x+1} - \\int_x^{x+1}\\left(-\\cos t^2\\right)\\left(-\\frac{1}{2t^2}\\right)dt$$\n$$= \\frac{\\cos(x^2)}{2x} - \\frac{\\cos\\left[(x+1)^2\\right]}{2(x+1)} - \\int_x^{x+1}\\frac{\\cos(t^2)}{2t^2}\\,dt.$$"
+  },
+  {
+   "ref": "Q16(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.1.3.4"
+   ],
+   "question": "It is given that, for $x > 0$,\n$$\\int_x^{x+1}\\sin\\left(t^2\\right)dt = \\frac{\\cos\\left(x^2\\right)}{2x} - \\frac{\\cos\\left[(x+1)^2\\right]}{2(x+1)} - \\int_x^{x+1}\\frac{\\cos\\left(t^2\\right)}{2t^2}\\,dt.$$\nUsing this, and given $|a + b + c| \\le |a| + |b| + |c|$, deduce that $\\left|\\displaystyle\\int_x^{x+1}\\sin\\left(t^2\\right)dt\\right| \\le \\dfrac{1}{x}$ for $x > 0$.",
+   "answer": "By the triangle inequality,\n$$\\left|\\int_x^{x+1}\\sin(t^2)\\,dt\\right| \\le \\left|\\frac{\\cos x^2}{2x}\\right| + \\left|\\frac{\\cos(x+1)^2}{2(x+1)}\\right| + \\left|\\int_x^{x+1}\\frac{\\cos t^2}{2t^2}\\,dt\\right|.$$\nSince $|\\cos\\theta| \\le 1$ and $x > 0$ (so $t > 0$ on the interval):\n$$\\le \\frac{1}{2x} + \\frac{1}{2(x+1)} + \\int_x^{x+1}\\frac{1}{2t^2}\\,dt = \\frac{1}{2x} + \\frac{1}{2(x+1)} + \\left[-\\frac{1}{2t}\\right]_x^{x+1}$$\n$$= \\frac{1}{2x} + \\frac{1}{2(x+1)} - \\frac{1}{2(x+1)} + \\frac{1}{2x} = \\frac1x.$$"
+  },
+  {
+   "ref": "Q16(d)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.6.2",
+    "12.5.6.1"
+   ],
+   "question": "A soccer ball of mass $m$ is kicked from ground level, from the origin, with initial speed $u$ at an angle of projection $\\theta$. The only forces acting on the ball are gravity and air resistance; the air resistance has magnitude $mkv$ newtons (where $v$ is the speed and $k$ is a positive constant) and acts opposite to the direction of motion.\n\nThe ball is kicked so that it reaches the top corner of the goal, modelled as the point $(L, H)$, where $L$ is the horizontal distance from the initial position of the ball to the goal and $H$ is the height of the ball when it goes into the goal.\n\nIf $(L, H) = (12, 2)$, and the acceleration due to gravity is $10$ m s$^{-2}$, find the angle of projection of the ball in terms of $k$ if the ball reaches this point after one second.",
+   "answer": "**Horizontal:** $\\ddot{x} = -k\\dot{x}$, so $\\dot{x} = u\\cos\\theta\\,e^{-kt}$ (using $\\dot{x} = u\\cos\\theta$ at $t = 0$). Integrating with $x = 0$ at $t = 0$:\n$$x = \\frac{u\\cos\\theta}{k}\\left(1 - e^{-kt}\\right).$$\n**Vertical:** $\\ddot{y} = -(10 + k\\dot{y})$, so $\\dfrac{1}{k}\\ln(10 + k\\dot{y}) = -t + c$, i.e. $10 + k\\dot{y} = Ae^{-kt}$. At $t = 0$, $\\dot{y} = u\\sin\\theta$: $A = uk\\sin\\theta + 10$, so\n$$\\dot{y} = \\frac1k\\left[(uk\\sin\\theta + 10)e^{-kt} - 10\\right].$$\nIntegrating with $y = 0$ at $t = 0$:\n$$y = \\frac{uk\\sin\\theta + 10}{k^2}\\left(1 - e^{-kt}\\right) - \\frac{10t}{k}.$$\n**At $t = 1$, $x = 12$, $y = 2$:**\n$$12 = \\frac{u\\cos\\theta}{k}\\left(1 - e^{-k}\\right) \\Rightarrow u\\cos\\theta = \\frac{12k}{1 - e^{-k}} \\quad (1)$$\n$$2 = \\frac{uk\\sin\\theta + 10}{k^2}\\left(1 - e^{-k}\\right) - \\frac{10}{k} \\Rightarrow uk\\sin\\theta + 10 = \\frac{k(2k + 10)}{1 - e^{-k}}$$\n$$\\Rightarrow u\\sin\\theta = \\frac{2k + 10}{1 - e^{-k}} - \\frac{10}{k} = \\frac{k(2k+10) - 10(1 - e^{-k})}{k(1 - e^{-k})} \\quad (2)$$\nDividing (2) by (1):\n$$\\tan\\theta = \\frac{k(2k + 10) - 10(1 - e^{-k})}{12k^2} = \\frac{k^2 + 5k - 5(1 - e^{-k})}{6k^2}.$$\n$$\\therefore\\ \\theta = \\tan^{-1}\\left[\\frac{k^2 + 5k - 5\\left(1 - e^{-k}\\right)}{6k^2}\\right].$$",
+   "images": [
+    "assets/img/ext2-2026-fort-st/q16d.png"
+   ]
+  }
+ ]
+}

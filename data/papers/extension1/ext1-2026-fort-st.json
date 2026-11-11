@@ -1,0 +1,479 @@
+{
+ "id": "ext1-2026-fort-st",
+ "course": "extension1",
+ "school": "Fort St",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "Fort St 2026 w. sol"
+ },
+ "indexed": "2026-11-11",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q7",
+   "reason": "Not in 2024 syllabus: pigeonhole principle"
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "reason": "Not in 2024 syllabus: graphing y = √f(x) (graphs of y² = f(x))"
+  },
+  {
+   "ref": "Q13(b)",
+   "reason": "Not in 2024 syllabus: sample proportions and their normal approximation"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.9"
+   ],
+   "question": "Given that $\\overrightarrow{OA} = \\begin{pmatrix} -4 \\\\ 3 \\end{pmatrix}$ and $\\overrightarrow{OB} = \\begin{pmatrix} 2 \\\\ 7 \\end{pmatrix}$, what is $\\overrightarrow{AB}$?",
+   "options": [
+    "$\\begin{pmatrix} -2 \\\\ 10 \\end{pmatrix}$",
+    "$\\begin{pmatrix} -2 \\\\ -4 \\end{pmatrix}$",
+    "$\\begin{pmatrix} -6 \\\\ -4 \\end{pmatrix}$",
+    "$\\begin{pmatrix} 6 \\\\ 4 \\end{pmatrix}$"
+   ],
+   "correct": "D",
+   "answer": "$$\\overrightarrow{AB} = \\overrightarrow{OB} - \\overrightarrow{OA} = \\begin{pmatrix} 2-(-4) \\\\ 7-3 \\end{pmatrix} = \\begin{pmatrix} 6 \\\\ 4 \\end{pmatrix}.$$"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.4",
+    "12.3.2.12"
+   ],
+   "question": "What is the range of the function $f(x) = 3\\cos^{-1}\\sqrt{x}$?",
+   "options": [
+    "$\\left[0, \\frac{\\pi}{2}\\right]$",
+    "$[0, \\pi]$",
+    "$\\left[0, \\frac{3\\pi}{2}\\right]$",
+    "$[0, 3\\pi]$"
+   ],
+   "correct": "C",
+   "answer": "The domain is $0 \\le x \\le 1$, so $0 \\le \\sqrt{x} \\le 1$ and $0 \\le \\cos^{-1}\\sqrt{x} \\le \\dfrac{\\pi}{2}$. Multiplying by 3, the range is $\\left[0, \\dfrac{3\\pi}{2}\\right]$."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.9",
+    "12.5.4.4"
+   ],
+   "question": "The direction (slope) field for a certain first order differential equation is shown. This differential equation could be:",
+   "options": [
+    "$\\dfrac{dy}{dx} = x^2 y$",
+    "$\\dfrac{dy}{dx} = \\dfrac{x^2}{y}$",
+    "$\\dfrac{dy}{dx} = y^2 - x^2$",
+    "$\\dfrac{dy}{dx} = -\\dfrac{y^2}{x}$"
+   ],
+   "correct": "C",
+   "answer": "The slopes are zero (horizontal) along the lines $y = x$ and $y = -x$, and become very steep away from these lines. Only $\\dfrac{dy}{dx} = y^2 - x^2$ is zero exactly when $y = \\pm x$. (Also, A would give zero slope along both axes, B undefined slopes on the $x$-axis, D undefined slopes on the $y$-axis.)",
+   "images": [
+    "assets/img/ext1-2026-fort-st/q3.png"
+   ]
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.16",
+    "12.5.4.15"
+   ],
+   "question": "How many years will it take for a bacteria population to reach 8000 if the population is modelled by\n$$P = \\frac{10000}{1 + e^{-0.12(t-20)}}\\ ?$$",
+   "options": [
+    "$t = 30$",
+    "$t = 31.6$",
+    "$t = \\ln 0.12$",
+    "$t = \\ln 0.25$"
+   ],
+   "correct": "B",
+   "answer": "$$8000 = \\frac{10000}{1 + e^{-0.12(t-20)}} \\Rightarrow 1 + e^{-0.12(t-20)} = 1.25 \\Rightarrow e^{-0.12(t-20)} = 0.25$$\n$$-0.12(t-20) = \\ln 0.25 \\Rightarrow t = 20 + \\frac{\\ln 4}{0.12} \\approx 31.6.$$"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.8"
+   ],
+   "question": "Given $X \\sim \\text{Bin}(n, p)$, $E(X) = 24$ and $\\text{Var}(X) = 18$, find the value of $n$.",
+   "options": [
+    "6",
+    "24",
+    "36",
+    "96"
+   ],
+   "correct": "D",
+   "answer": "$np = 24$ and $np(1-p) = 18$, so $1 - p = \\dfrac{18}{24} = \\dfrac{3}{4}$, giving $p = \\dfrac14$ and $n = \\dfrac{24}{1/4} = 96$."
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Which of the following is the derivative of $\\tan^{-1}(e^{2x})$?",
+   "options": [
+    "$\\dfrac{2e^{2x}}{1+e^{4x}}$",
+    "$\\dfrac{2e^{2x}}{1+e^{2x}}$",
+    "$\\dfrac{2e^{4x}}{1+e^{4x}}$",
+    "$\\dfrac{e^{2x}}{1+e^{4x}}$"
+   ],
+   "correct": "A",
+   "answer": "$$\\frac{d}{dx}\\tan^{-1}(e^{2x}) = \\frac{2e^{2x}}{1 + (e^{2x})^2} = \\frac{2e^{2x}}{1 + e^{4x}}.$$"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.2",
+    "11.1.4.3"
+   ],
+   "question": "Which of the following is the solution set of the inequation $\\dfrac{2}{|x-1|} \\le 3$?",
+   "options": [
+    "$x < 1$ and $x \\ge \\frac{5}{3}$",
+    "$x \\le \\frac{1}{3}$ and $x \\ge \\frac{5}{3}$",
+    "$1 < x \\le \\frac{5}{3}$",
+    "$\\frac{1}{3} \\le x \\le \\frac{5}{3}$"
+   ],
+   "correct": "B",
+   "answer": "For $x \\ne 1$, $|x-1| > 0$, so $\\dfrac{2}{|x-1|} \\le 3 \\iff |x - 1| \\ge \\dfrac{2}{3}$, i.e. $x - 1 \\le -\\dfrac23$ or $x - 1 \\ge \\dfrac23$. Hence $x \\le \\dfrac13$ or $x \\ge \\dfrac53$."
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.4",
+    "11.2.3.2"
+   ],
+   "question": "The polynomial equation $x^3 - 2x^2 + 3x - 4 = 0$ has roots $\\alpha$, $\\beta$ and $\\gamma$. What is the exact value of $\\alpha^3 + \\beta^3 + \\gamma^3$?",
+   "options": [
+    "2",
+    "8",
+    "10",
+    "14"
+   ],
+   "correct": "A",
+   "answer": "$\\alpha + \\beta + \\gamma = 2$, $\\alpha\\beta + \\beta\\gamma + \\gamma\\alpha = 3$, $\\alpha\\beta\\gamma = 4$, so $\\alpha^2 + \\beta^2 + \\gamma^2 = 2^2 - 2(3) = -2$.\n\nEach root satisfies $x^3 = 2x^2 - 3x + 4$; summing over the three roots:\n$$\\alpha^3 + \\beta^3 + \\gamma^3 = 2(-2) - 3(2) + 3(4) = 2.$$"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.9",
+    "12.3.2.10"
+   ],
+   "question": "Which graph represents the function $y = \\cos^{-1}(\\cos x)$?",
+   "options": [
+    "![Graph A](assets/img/ext1-2026-fort-st/q10a.png)",
+    "![Graph B](assets/img/ext1-2026-fort-st/q10b.png)",
+    "![Graph C](assets/img/ext1-2026-fort-st/q10c.png)",
+    "![Graph D](assets/img/ext1-2026-fort-st/q10d.png)"
+   ],
+   "correct": "A",
+   "answer": "The range of $\\cos^{-1}$ is $[0, \\pi]$, so $y \\ge 0$ (rules out C and D). For $0 \\le x \\le \\pi$, $y = x$; since $\\cos x$ is even, $y = |x|$ on $[-\\pi, \\pi]$, so $y = 0$ at $x = 0$ and the graph is a periodic zig-zag with period $2\\pi$, peaks of $\\pi$ at $x = \\pm\\pi$ and zeros at $0, \\pm 2\\pi$. This is graph A."
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.1.3"
+   ],
+   "question": "The graph of $y = f(x)$ is shown. It passes through the origin $O$ (a minimum turning point), has a maximum turning point at $(2, 3)$, and cuts the $x$-axis at $x = 3$.\n\nSketch the graph of $y = f(|x|)$.",
+   "answer": "For $x \\ge 0$, $f(|x|) = f(x)$, so keep the part of the graph to the right of the $y$-axis. For $x < 0$, $f(|x|) = f(-x)$, so the left half is the reflection of the right half in the $y$-axis (the original left branch is discarded).\n\nThe resulting even graph has a minimum at $O(0, 0)$, maximum turning points at $(2, 3)$ and $(-2, 3)$, and $x$-intercepts at $x = -3$, $0$ and $3$, decreasing without bound for $|x| > 3$.",
+   "images": [
+    "assets/img/ext1-2026-fort-st/q11a.png"
+   ],
+   "answer_images": [
+    "assets/img/ext1-2026-fort-st/q11a-i-ans.png"
+   ]
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Solve $\\dfrac{5}{x-4} \\ge x$.",
+   "answer": "$x \\ne 4$. Multiply both sides by $(x-4)^2 > 0$:\n$$5(x-4) \\ge x(x-4)^2$$\n$$x(x-4)^2 - 5(x-4) \\le 0$$\n$$(x-4)\\left[x(x-4) - 5\\right] \\le 0$$\n$$(x-4)(x^2 - 4x - 5) \\le 0$$\n$$(x-4)(x-5)(x+1) \\le 0.$$\nThe cubic $y = (x+1)(x-4)(x-5)$ is positive-leading, so it is $\\le 0$ for $x \\le -1$ or $4 \\le x \\le 5$. Excluding $x = 4$:\n$$x \\le -1 \\quad \\text{or} \\quad 4 < x \\le 5.$$"
+  },
+  {
+   "ref": "Q11(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.2.5",
+    "11.1.2.7"
+   ],
+   "question": "Given that $f(x) = (x-3)^2$ for $x \\ge 3$, find the inverse function $f^{-1}(x)$ and state its domain and range.",
+   "answer": "Let $y = (x-3)^2$, $x \\ge 3$. Interchange $x$ and $y$: $x = (y-3)^2$ with $y \\ge 3$, so $y - 3 = \\sqrt{x}$ (positive root since $y \\ge 3$).\n$$f^{-1}(x) = 3 + \\sqrt{x}.$$\nDomain of $f^{-1}$ = range of $f$: $x \\ge 0$. Range of $f^{-1}$ = domain of $f$: $y \\ge 3$."
+  },
+  {
+   "ref": "Q11(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.2.12"
+   ],
+   "question": "Given that $f(x) = (x-3)^2$ for $x \\ge 3$, find the point of intersection of $y = f(x)$ and $y = f^{-1}(x)$ for $x \\ge 3$. Leave your answer in exact form.",
+   "answer": "Since $f$ is increasing, the graphs of $f$ and $f^{-1}$ meet on the line $y = x$:\n$$(x-3)^2 = x \\Rightarrow x^2 - 7x + 9 = 0 \\Rightarrow x = \\frac{7 \\pm \\sqrt{49 - 36}}{2} = \\frac{7 \\pm \\sqrt{13}}{2}.$$\nSince $x \\ge 3$, $x = \\dfrac{7 + \\sqrt{13}}{2}$ ($\\dfrac{7 - \\sqrt{13}}{2} \\approx 1.70$ is rejected). The point of intersection is\n$$\\left(\\frac{7+\\sqrt{13}}{2}, \\frac{7+\\sqrt{13}}{2}\\right).$$"
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.5.9"
+   ],
+   "question": "A particle moves so that its velocity at time $t$ is given by\n$$\\mathbf{v}(t) = -4\\sin(4t)\\,\\mathbf{i} - 4\\cos(4t)\\,\\mathbf{j}, \\quad 0 \\le t \\le \\frac{\\pi}{2}.$$\nGiven that $\\mathbf{r}(0) = -2\\mathbf{i} + 3\\mathbf{j}$, find the position vector $\\mathbf{r}(t)$ of the particle at any time $t$.",
+   "answer": "Integrating each component:\n$$\\mathbf{r}(t) = \\cos(4t)\\,\\mathbf{i} - \\sin(4t)\\,\\mathbf{j} + \\mathbf{c}.$$\nAt $t = 0$: $-2\\mathbf{i} + 3\\mathbf{j} = \\mathbf{i} + \\mathbf{c}$, so $\\mathbf{c} = -3\\mathbf{i} + 3\\mathbf{j}$.\n$$\\mathbf{r}(t) = \\big(\\cos(4t) - 3\\big)\\mathbf{i} + \\big(3 - \\sin(4t)\\big)\\mathbf{j}.$$"
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.5.4",
+    "11.1.3.3"
+   ],
+   "question": "A particle has position vector\n$$\\mathbf{r}(t) = \\big(\\cos(4t) - 3\\big)\\mathbf{i} + \\big(3 - \\sin(4t)\\big)\\mathbf{j}, \\quad 0 \\le t \\le \\frac{\\pi}{2}.$$\nFind the Cartesian equation of the path followed by the particle.",
+   "answer": "$x = -3 + \\cos(4t) \\Rightarrow \\cos(4t) = x + 3$, and $y = 3 - \\sin(4t) \\Rightarrow \\sin(4t) = 3 - y$.\n\nUsing $\\cos^2(4t) + \\sin^2(4t) = 1$:\n$$(x+3)^2 + (y-3)^2 = 1,$$\na circle with centre $(-3, 3)$ and radius 1 (traced once, since $0 \\le 4t \\le 2\\pi$)."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.2",
+    "11.3.3.3"
+   ],
+   "question": "Express $\\sin 2x + 2\\cos 2x - 2 = 0$ in the form $R\\sin(2x + \\alpha) = 2$, where $R > 0$ and $0 < \\alpha < \\dfrac{\\pi}{2}$. Do not solve the equation and leave $\\alpha$ in exact form.",
+   "answer": "$R\\sin(2x + \\alpha) = R\\cos\\alpha\\sin 2x + R\\sin\\alpha\\cos 2x$. Equating with $\\sin 2x + 2\\cos 2x$:\n$$R\\cos\\alpha = 1, \\quad R\\sin\\alpha = 2.$$\nSquaring and adding: $R^2 = 1 + 4 = 5$, so $R = \\sqrt5$. Dividing: $\\tan\\alpha = 2$, so $\\alpha = \\tan^{-1} 2$ (in the first quadrant as required).\n\nHence the equation is\n$$\\sqrt5\\sin\\left(2x + \\tan^{-1}2\\right) = 2.$$"
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.10",
+    "12.4.2.1",
+    "12.4.2.2"
+   ],
+   "question": "Find the particular solution to the differential equation $\\sqrt{1 - x^2}\\,\\dfrac{dy}{dx} = 1 + x$ that passes through the point $(0, 1)$.",
+   "answer": "For $-1 < x < 1$:\n$$\\frac{dy}{dx} = \\frac{1 + x}{\\sqrt{1 - x^2}} = \\frac{1}{\\sqrt{1-x^2}} + \\frac{x}{\\sqrt{1 - x^2}} = \\frac{1}{\\sqrt{1-x^2}} - \\frac12(-2x)(1-x^2)^{-1/2}.$$\nIntegrating:\n$$y = \\sin^{-1}x - \\frac12 \\cdot 2(1-x^2)^{1/2} + C = \\sin^{-1}x - \\sqrt{1-x^2} + C.$$\nAt $(0, 1)$: $1 = 0 - 1 + C$, so $C = 2$.\n$$y = \\sin^{-1}x - \\sqrt{1 - x^2} + 2.$$"
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.2",
+    "12.4.2.1"
+   ],
+   "question": "Use the substitution $u = \\ln x$ to find\n$$\\int \\frac{dx}{x\\sqrt{1 - (\\ln x)^2}}.$$",
+   "answer": "$u = \\ln x \\Rightarrow du = \\dfrac{1}{x}\\,dx$.\n$$\\int \\frac{dx}{x\\sqrt{1 - (\\ln x)^2}} = \\int \\frac{du}{\\sqrt{1 - u^2}} = \\sin^{-1}u + C = \\sin^{-1}(\\ln x) + C$$\n(valid where $-1 < \\ln x < 1$, i.e. $e^{-1} < x < e$)."
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.19",
+    "11.4.1.17"
+   ],
+   "question": "A committee of 4 people is to be chosen at random from a group of 5 students, 4 teachers and 3 parents. Find the probability that the committee will consist of no students.",
+   "answer": "Total number of committees: $\\binom{12}{4} = 495$.\n\nCommittees with no students are chosen from the 7 teachers and parents: $\\binom{7}{4} = 35$.\n$$P(\\text{no students}) = \\frac{35}{495} = \\frac{7}{99}.$$"
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.19",
+    "11.4.1.18"
+   ],
+   "question": "A committee of 4 people is to be chosen at random from a group of 5 students, 4 teachers and 3 parents. Find the probability that the committee will consist of at least 2 students, no more than 1 teacher and no more than 1 parent.",
+   "answer": "Possible (students, teachers, parents) compositions:\n\n| S | T | P | Number of ways |\n|---|---|---|---|\n| 4 | 0 | 0 | $\\binom54 = 5$ |\n| 3 | 1 | 0 | $\\binom53\\binom41 = 40$ |\n| 3 | 0 | 1 | $\\binom53\\binom31 = 30$ |\n| 2 | 1 | 1 | $\\binom52\\binom41\\binom31 = 120$ |\n\nTotal $= 195$ out of $\\binom{12}{4} = 495$:\n$$P = \\frac{195}{495} = \\frac{13}{33}.$$"
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.10"
+   ],
+   "question": "Given the vectors $\\mathbf{a} = 2\\mathbf{i} - 3\\mathbf{j}$ and $\\mathbf{b} = -2\\mathbf{i} + 5\\mathbf{j}$, find the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$.",
+   "answer": "$\\mathbf{b}\\cdot\\mathbf{a} = (-2)(2) + (5)(-3) = -19$ and $|\\mathbf{a}|^2 = 4 + 9 = 13$.\n$$\\text{proj}_{\\mathbf{a}}\\mathbf{b} = \\frac{\\mathbf{b}\\cdot\\mathbf{a}}{|\\mathbf{a}|^2}\\,\\mathbf{a} = -\\frac{19}{13}(2\\mathbf{i} - 3\\mathbf{j}) = -\\frac{38}{13}\\mathbf{i} + \\frac{57}{13}\\mathbf{j}.$$"
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.5",
+    "12.2.4.7"
+   ],
+   "question": "Given the vectors $\\mathbf{a} = 2\\mathbf{i} - 3\\mathbf{j}$ and $\\mathbf{b} = -2\\mathbf{i} + 5\\mathbf{j}$, the vector projection of $\\mathbf{b}$ onto $\\mathbf{a}$ is $-\\dfrac{19}{13}(2\\mathbf{i} - 3\\mathbf{j})$. Write the general form for a vector perpendicular to this vector projection.",
+   "answer": "The projection is parallel to $2\\mathbf{i} - 3\\mathbf{j}$, and $(3\\mathbf{i} + 2\\mathbf{j})\\cdot(2\\mathbf{i} - 3\\mathbf{j}) = 6 - 6 = 0$. So any perpendicular vector has the form\n$$\\lambda(3\\mathbf{i} + 2\\mathbf{j}), \\quad \\lambda \\in \\mathbb{R},\\ \\lambda \\ne 0.$$"
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.1.6",
+    "11.5.1.7"
+   ],
+   "question": "It is given that if $k$ is a constant then\n$$\\left(1 + k\\sqrt3\\right)^4 \\equiv 892 - 336\\sqrt3.$$\nFind the value of $k$.",
+   "answer": "Expanding with the binomial theorem:\n$$(1 + k\\sqrt3)^4 = 1 + 4k\\sqrt3 + 6(3k^2) + 4(3\\sqrt3k^3) + 9k^4 = (1 + 18k^2 + 9k^4) + (4k + 12k^3)\\sqrt3.$$\nEquating rational and irrational parts (with $k$ rational):\n$$1 + 18k^2 + 9k^4 = 892, \\qquad 4k + 12k^3 = -336.$$\nFrom the first: $9k^4 + 18k^2 - 891 = 0 \\Rightarrow k^4 + 2k^2 - 99 = 0 \\Rightarrow (k^2 + 11)(k^2 - 9) = 0$, so $k^2 = 9$ ($k^2 \\ne -11$), $k = \\pm 3$.\n\nCheck in the second: $k = 3$ gives $12 + 324 = 336 \\ne -336$; $k = -3$ gives $-12 - 324 = -336$. ✓\n\n$$k = -3.$$"
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3",
+    "12.3.2.12"
+   ],
+   "question": "A solid of revolution is formed by rotating the region bounded by the curve $y = 6\\cos^{-1}\\left(-\\dfrac{x}{4}\\right)$ and the lines $x = 4$ and $y = 3\\pi$ about the $y$-axis, as shown in the diagram (the shaded region lies to the right of the curve, for $0 \\le x \\le 4$, above $y = 3\\pi$).\n\nShow that the volume is\n$$V = 48\\pi^2 - 16\\pi\\int_{3\\pi}^{6\\pi} \\cos^2\\left(\\frac{y}{6}\\right)dy.$$",
+   "answer": "At $x = 0$, $y = 6\\cos^{-1}0 = 3\\pi$; at $x = 4$, $y = 6\\cos^{-1}(-1) = 6\\pi$. So the region spans $3\\pi \\le y \\le 6\\pi$.\n\nMaking $x$ the subject: $\\dfrac{y}{6} = \\cos^{-1}\\left(-\\dfrac{x}{4}\\right) \\Rightarrow x = -4\\cos\\left(\\dfrac{y}{6}\\right)$.\n\nThe solid is a cylinder of radius 4 and height $6\\pi - 3\\pi = 3\\pi$, minus the solid formed by rotating the region between the curve and the $y$-axis:\n$$V = \\pi(4)^2(3\\pi) - \\pi\\int_{3\\pi}^{6\\pi} x^2\\,dy = 48\\pi^2 - \\pi\\int_{3\\pi}^{6\\pi} 16\\cos^2\\left(\\frac{y}{6}\\right)dy = 48\\pi^2 - 16\\pi\\int_{3\\pi}^{6\\pi}\\cos^2\\left(\\frac{y}{6}\\right)dy.$$",
+   "images": [
+    "assets/img/ext1-2026-fort-st/q14c.png"
+   ]
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.3",
+    "12.5.3.3"
+   ],
+   "question": "The volume of a solid of revolution is given by\n$$V = 48\\pi^2 - 16\\pi\\int_{3\\pi}^{6\\pi} \\cos^2\\left(\\frac{y}{6}\\right)dy.$$\nFind the volume of the solid.",
+   "answer": "Using $\\cos^2\\theta = \\frac12(1 + \\cos 2\\theta)$:\n$$V = 48\\pi^2 - 16\\pi\\int_{3\\pi}^{6\\pi}\\frac12\\left(1 + \\cos\\frac{y}{3}\\right)dy = 48\\pi^2 - 8\\pi\\left[y + 3\\sin\\frac{y}{3}\\right]_{3\\pi}^{6\\pi}$$\n$$= 48\\pi^2 - 8\\pi\\left[(6\\pi + 3\\sin 2\\pi) - (3\\pi + 3\\sin\\pi)\\right] = 48\\pi^2 - 8\\pi(3\\pi) = 24\\pi^2 \\text{ units}^3.$$"
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "Prove by mathematical induction that $3^n + 19^n$ is a multiple of 11 for any odd integer $n \\ge 1$.",
+   "answer": "**Base case** $n = 1$: $3 + 19 = 22 = 2 \\times 11$. True.\n\n**Inductive step.** Assume true for some odd integer $n = k$: $3^k + 19^k = 11M$ for some integer $M$, i.e. $3^k = 11M - 19^k$.\n\nProve true for the next odd integer $n = k + 2$:\n$$3^{k+2} + 19^{k+2} = 9\\cdot 3^k + 361\\cdot 19^k = 9(11M - 19^k) + 361\\cdot19^k = 99M + 352\\cdot 19^k = 11(9M + 32\\cdot 19^k),$$\nwhich is a multiple of 11 since $9M + 32\\cdot19^k$ is an integer.\n\nHence, by mathematical induction, $3^n + 19^n$ is a multiple of 11 for all odd integers $n \\ge 1$."
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.6",
+    "12.2.3.7"
+   ],
+   "question": "Three light inextensible strings are tied to an object $P$ and pull on it with forces of $3.5$ N, $6.5$ N and $F$ N. Relative to the horizontal line $AB$ through $P$ (see diagram): the $3.5$ N force acts towards the $A$ side at $20^\\circ$ above $AB$; the $6.5$ N force acts towards the $A$ side at $60^\\circ$ below $AB$; the force $F$ acts towards the $B$ side at angle $\\theta$ above $AB$.\n\nGiven that these three forces are in equilibrium, find the values of $F$ and $\\theta$. Round your answers to 2 decimal places.",
+   "answer": "Take $\\mathbf{i}$ along $\\overrightarrow{AB}$ and $\\mathbf{j}$ upward. For equilibrium the components sum to zero.\n\nHorizontal: $F\\cos\\theta = 3.5\\cos20^\\circ + 6.5\\cos60^\\circ = 3.5\\cos20^\\circ + 3.25 \\approx 6.5389 \\quad (1)$\n\nVertical: $F\\sin\\theta + 3.5\\sin20^\\circ = 6.5\\sin60^\\circ \\Rightarrow F\\sin\\theta = \\dfrac{13\\sqrt3}{4} - 3.5\\sin20^\\circ \\approx 4.4321 \\quad (2)$\n\n$(1)^2 + (2)^2$: $F^2 = (3.25 + 3.5\\cos20^\\circ)^2 + \\left(\\dfrac{13\\sqrt3}{4} - 3.5\\sin20^\\circ\\right)^2 \\approx 62.4009$, so $F \\approx 7.8994 \\approx 7.90$ N.\n\nFrom (1): $\\theta = \\cos^{-1}\\left(\\dfrac{3.25 + 3.5\\cos20^\\circ}{F}\\right) \\approx 34.13^\\circ$.\n\n$$F \\approx 7.90 \\text{ N}, \\quad \\theta \\approx 34.13^\\circ.$$",
+   "images": [
+    "assets/img/ext1-2026-fort-st/q15b.png"
+   ]
+  },
+  {
+   "ref": "Q15(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.6.8",
+    "12.2.6.5"
+   ],
+   "question": "Two particles, $P$ and $Q$, are fired simultaneously from points $A$ and $B$ respectively, which are located 120 metres apart on horizontal ground, as shown in the diagram ($A$ at the origin, $B$ at $(120, 0)$, both particles fired towards each other). The particle $P$ has an initial speed of 32 m/s and an angle of projection $\\alpha$, where $\\alpha = \\tan^{-1}\\left(\\dfrac34\\right)$. The particle $Q$ has an initial speed of 24 m/s with an angle of projection $\\beta$, where $\\beta = \\tan^{-1}\\left(\\dfrac43\\right)$. Assume $g = 9.8\\ \\text{m s}^{-2}$.\n\nThe velocity of a projected particle $M$ is given by\n$$\\mathbf{v}_M = U\\cos\\theta\\,\\mathbf{i} + (U\\sin\\theta - gt)\\,\\mathbf{j},$$\nwhere $U$ is the initial speed and $\\theta$ the angle of projection. Do NOT prove this.\n\nFind when and where particles $P$ and $Q$ collide.",
+   "answer": "$\\tan\\alpha = \\frac34 \\Rightarrow \\cos\\alpha = \\frac45,\\ \\sin\\alpha = \\frac35$. $\\tan\\beta = \\frac43 \\Rightarrow \\cos\\beta = \\frac35,\\ \\sin\\beta = \\frac45$.\n\n**Particle $P$** (from $A$, moving right):\n$$\\mathbf{v}_P = \\frac{128}{5}\\mathbf{i} + \\left(\\frac{96}{5} - 9.8t\\right)\\mathbf{j} \\Rightarrow \\mathbf{r}_P = \\frac{128t}{5}\\mathbf{i} + \\left(\\frac{96t}{5} - 4.9t^2\\right)\\mathbf{j}$$\n(constant of integration zero since $\\mathbf{r}_P(0) = \\mathbf{0}$).\n\n**Particle $Q$** (from $B$, moving left):\n$$\\mathbf{v}_Q = -\\frac{72}{5}\\mathbf{i} + \\left(\\frac{96}{5} - 9.8t\\right)\\mathbf{j} \\Rightarrow \\mathbf{r}_Q = \\left(120 - \\frac{72t}{5}\\right)\\mathbf{i} + \\left(\\frac{96t}{5} - 4.9t^2\\right)\\mathbf{j}$$\nusing $\\mathbf{r}_Q(0) = 120\\mathbf{i}$.\n\nThe vertical components are identical for all $t$, so the particles collide when the horizontal components are equal:\n$$\\frac{128t}{5} = 120 - \\frac{72t}{5} \\Rightarrow 40t = 120 \\Rightarrow t = 3.$$\nAt $t = 3$: $x = \\dfrac{128 \\times 3}{5} = 76.8$ m and $y = \\dfrac{96 \\times 3}{5} - 4.9(9) = 57.6 - 44.1 = 13.5$ m (still above ground).\n\nThe particles collide after 3 seconds, at the point 76.8 m horizontally from $A$ and 13.5 m above the ground.",
+   "images": [
+    "assets/img/ext1-2026-fort-st/q15c.png"
+   ]
+  },
+  {
+   "ref": "Q16(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2",
+    "12.5.2.1"
+   ],
+   "question": "Liquid is poured into a container at a constant rate of $3\\pi\\ \\text{cm}^3\\,\\text{s}^{-1}$. The container initially contains some liquid, with height 2 cm, and when the height of liquid is $h$ cm the volume of liquid is\n$$V = \\pi(h^2 + 4h - 2)\\ \\text{cm}^3.$$\nFind the exact rate at which the height of the liquid is rising 1 minute after the liquid started pouring into the container.",
+   "answer": "Initially $h = 2$, so $V = \\pi(4 + 8 - 2) = 10\\pi$. After 60 seconds an extra $3\\pi \\times 60 = 180\\pi$ has been added, so $V = 190\\pi$:\n$$190 = h^2 + 4h - 2 \\Rightarrow h^2 + 4h - 192 = 0 \\Rightarrow (h + 16)(h - 12) = 0 \\Rightarrow h = 12 \\ (h > 0).$$\n$\\dfrac{dV}{dh} = \\pi(2h + 4)$ and $\\dfrac{dV}{dt} = 3\\pi$, so\n$$\\frac{dh}{dt} = \\frac{dV/dt}{dV/dh} = \\frac{3\\pi}{\\pi(2h+4)} = \\frac{3}{2h + 4}.$$\nAt $h = 12$: $\\dfrac{dh}{dt} = \\dfrac{3}{28}$ cm/s."
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.5"
+   ],
+   "question": "$O$ is a point inside $\\triangle ABC$. Let $\\overrightarrow{OA} = \\mathbf{a}$, $\\overrightarrow{OB} = \\mathbf{b}$ and $\\overrightarrow{OC} = \\mathbf{c}$, where $\\mathbf{a} + \\mathbf{b} + \\mathbf{c} = \\mathbf{0}$, and $|\\mathbf{a}| = 6$, $|\\mathbf{b}| = 3$, $|\\mathbf{c}| = 4$.\n\nShow that $|\\mathbf{a}|^2 + |\\mathbf{b}|^2 + 2\\,\\mathbf{a}\\cdot\\mathbf{b} = |\\mathbf{c}|^2$.",
+   "answer": "From $\\mathbf{a} + \\mathbf{b} + \\mathbf{c} = \\mathbf{0}$, $\\mathbf{a} + \\mathbf{b} = -\\mathbf{c}$, so $|\\mathbf{a} + \\mathbf{b}|^2 = |-\\mathbf{c}|^2 = |\\mathbf{c}|^2$.\n$$|\\mathbf{a} + \\mathbf{b}|^2 = (\\mathbf{a} + \\mathbf{b})\\cdot(\\mathbf{a} + \\mathbf{b}) = \\mathbf{a}\\cdot\\mathbf{a} + 2\\,\\mathbf{a}\\cdot\\mathbf{b} + \\mathbf{b}\\cdot\\mathbf{b} = |\\mathbf{a}|^2 + |\\mathbf{b}|^2 + 2\\,\\mathbf{a}\\cdot\\mathbf{b}.$$\nHence $|\\mathbf{a}|^2 + |\\mathbf{b}|^2 + 2\\,\\mathbf{a}\\cdot\\mathbf{b} = |\\mathbf{c}|^2$.",
+   "images": [
+    "assets/img/ext1-2026-fort-st/q16b.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.4.6",
+    "12.2.4.3"
+   ],
+   "question": "$O$ is a point inside $\\triangle ABC$. Let $\\overrightarrow{OA} = \\mathbf{a}$, $\\overrightarrow{OB} = \\mathbf{b}$ and $\\overrightarrow{OC} = \\mathbf{c}$, where $\\mathbf{a} + \\mathbf{b} + \\mathbf{c} = \\mathbf{0}$, and $|\\mathbf{a}| = 6$, $|\\mathbf{b}| = 3$, $|\\mathbf{c}| = 4$. It is known that $|\\mathbf{a}|^2 + |\\mathbf{b}|^2 + 2\\,\\mathbf{a}\\cdot\\mathbf{b} = |\\mathbf{c}|^2$.\n\nUsing this result, find the area of $\\triangle AOB$.",
+   "answer": "$16 = 36 + 9 + 2\\,\\mathbf{a}\\cdot\\mathbf{b} \\Rightarrow \\mathbf{a}\\cdot\\mathbf{b} = -\\dfrac{29}{2}$.\n\nLet $\\theta = \\angle AOB$. Then $\\mathbf{a}\\cdot\\mathbf{b} = |\\mathbf{a}||\\mathbf{b}|\\cos\\theta$:\n$$-\\frac{29}{2} = 18\\cos\\theta \\Rightarrow \\cos\\theta = -\\frac{29}{36}.$$\nSince $0 < \\theta < \\pi$, $\\sin\\theta > 0$:\n$$\\sin\\theta = \\sqrt{1 - \\frac{841}{1296}} = \\frac{\\sqrt{455}}{36}.$$\n$$\\text{Area of } \\triangle AOB = \\frac12|\\mathbf{a}||\\mathbf{b}|\\sin\\theta = \\frac12(6)(3)\\frac{\\sqrt{455}}{36} = \\frac{\\sqrt{455}}{4} \\text{ units}^2.$$",
+   "images": [
+    "assets/img/ext1-2026-fort-st/q16b.png"
+   ]
+  }
+ ]
+}

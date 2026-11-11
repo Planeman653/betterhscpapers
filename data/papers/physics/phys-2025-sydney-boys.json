@@ -1,0 +1,753 @@
+{
+ "id": "phys-2025-sydney-boys",
+ "course": "physics",
+ "school": "Sydney Boys",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "6528",
+  "title": "Sydney Boys 2025 w. sol"
+ },
+ "indexed": "2026-11-11",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q15",
+   "reason": "Year 11 content (not examined in the HSC): dispersion/refraction of light in a prism (Module 3)."
+  },
+  {
+   "ref": "Q24",
+   "reason": "Flawed question: for projectiles launched from the same level, equal range and B's flight time being half of A's cannot both hold, so no consistent velocity ratio exists (the paper's sqrt(2) ignores B's own time of flight)."
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.3"
+   ],
+   "question": "An object is flying in a circle of radius 5.0 m with a constant speed. One revolution takes 4.0 s. What is the object's centripetal acceleration?",
+   "options": [
+    "$12.3\\ \\text{m s}^{-2}$",
+    "$24.0\\ \\text{m s}^{-2}$",
+    "$7.9\\ \\text{m s}^{-2}$",
+    "$8.0\\ \\text{m s}^{-2}$"
+   ],
+   "correct": "A",
+   "answer": "$v = \\dfrac{2\\pi r}{T} = \\dfrac{2\\pi \\times 5.0}{4.0} = 7.85\\ \\text{m s}^{-1}$, so\n$$a_c = \\frac{v^2}{r} = \\frac{7.85^2}{5.0} \\approx 12.3\\ \\text{m s}^{-2}.$$"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.4.1"
+   ],
+   "question": "Which one of the following is required for the function of a DC electric motor?",
+   "options": [
+    "A rotating magnetic field",
+    "An alternating electric current",
+    "A slip-ring commutator",
+    "A split ring commutator"
+   ],
+   "correct": "D",
+   "answer": "A DC motor needs a split ring commutator to reverse the current in the coil every half turn so that the torque keeps acting in the same direction."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.4",
+    "12.5.1.1"
+   ],
+   "question": "With what speed must a projectile be launched horizontally off a cliff, 200.0 m above the ocean, so that it lands exactly 50.0 m from the base of the cliff?",
+   "options": [
+    "$6.4\\ \\text{m s}^{-1}$",
+    "$7.8\\ \\text{m s}^{-1}$",
+    "$9.9\\ \\text{m s}^{-1}$",
+    "$12.2\\ \\text{m s}^{-1}$"
+   ],
+   "correct": "B",
+   "answer": "Vertically: $200.0 = \\tfrac{1}{2}(9.8)t^2 \\Rightarrow t = 6.39$ s. Horizontally: $u_x = \\dfrac{50.0}{6.39} \\approx 7.8\\ \\text{m s}^{-1}$."
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "A positively charged particle ($1.6 \\times 10^{-19}$ C) travelling at $3.0 \\times 10^{5}\\ \\text{m s}^{-1}$ enters a magnetic field of strength 2.0 T. What is the force experienced by the particle, assuming the entry angle to the direction of the magnetic field is $30^\\circ$?",
+   "options": [
+    "$4.8 \\times 10^{-14}$ N",
+    "$8.4 \\times 10^{-14}$ N",
+    "$2.4 \\times 10^{-14}$ N",
+    "$9.6 \\times 10^{-14}$ N"
+   ],
+   "correct": "A",
+   "answer": "$F = qvB\\sin\\theta = 1.6 \\times 10^{-19} \\times 3.0 \\times 10^{5} \\times 2.0 \\times \\sin 30^\\circ = 4.8 \\times 10^{-14}$ N."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.3.3"
+   ],
+   "question": "The table below shows transitions between electron orbits in the Bohr model of the hydrogen atom.\n\n| Option | Initial electron energy level | Final electron energy level |\n|:-:|:-:|:-:|\n| A | 1 | 4 |\n| B | 2 | 5 |\n| C | 4 | 2 |\n| D | 5 | 3 |\n\nWhich transition corresponds to an electron absorbing the highest energy photon?",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "correct": "A",
+   "answer": "Absorption requires the electron to move up to a higher level, so only A and B qualify. Since $E_n \\propto -\\dfrac{1}{n^2}$, the gap from $n=1$ to $n=4$ ($\\tfrac{1}{1}-\\tfrac{1}{16} = 0.94$) is far larger than from $n=2$ to $n=5$ ($\\tfrac14 - \\tfrac1{25} = 0.21$)."
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.5"
+   ],
+   "question": "The mass of Mars is $6.4 \\times 10^{23}$ kg. The radius of Mars is $3.4 \\times 10^{6}$ m. How much faster does a rocket need to be travelling to leave Earth's gravitational influence compared to Mars' gravitational influence? (Earth: $M = 6.0 \\times 10^{24}$ kg, $R = 6.371 \\times 10^{6}$ m.)",
+   "options": [
+    "0.2 times",
+    "1.2 times",
+    "2.2 times",
+    "3.2 times"
+   ],
+   "correct": "C",
+   "answer": "$v_{esc} = \\sqrt{\\dfrac{2GM}{r}}$, so\n$$\\frac{v_E}{v_M} = \\sqrt{\\frac{M_E/R_E}{M_M/R_M}} = \\sqrt{\\frac{6.0\\times10^{24}/6.371\\times10^{6}}{6.4\\times10^{23}/3.4\\times10^{6}}} = \\sqrt{5.0} \\approx 2.2.$$"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "A spaceship is travelling at $0.9c$ when an astronaut aboard is instructed to clean the ship. Mission control is watching from Earth and sees the astronaut cleaning for exactly 30 minutes. How long did the cleaning take in the astronaut's frame of reference?",
+   "options": [
+    "6.8 mins",
+    "13.1 mins",
+    "68.9 mins",
+    "94.8 mins"
+   ],
+   "correct": "B",
+   "answer": "The astronaut measures the proper time: $t_0 = t\\sqrt{1 - \\dfrac{v^2}{c^2}} = 30\\sqrt{1 - 0.81} \\approx 13.1$ minutes."
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.2",
+    "12.6.3.1"
+   ],
+   "question": "A circular coil of wire with a radius of 0.04 m and 500 circular loops is placed in an electromagnet with the magnetic field decreasing at a rate of $0.200\\ \\text{T s}^{-1}$. The angle between the plane of the coil and the magnetic field is $30^\\circ$. What is the magnitude of the induced emf?",
+   "options": [
+    "0.251 V",
+    "0.435 V",
+    "0.870 V",
+    "1.53 V"
+   ],
+   "correct": "A",
+   "answer": "The component of $B$ perpendicular to the plane of the coil is $B\\sin 30^\\circ$, and $A = \\pi(0.04)^2 = 5.03 \\times 10^{-3}\\ \\text{m}^2$.\n$$\\varepsilon = N A \\sin 30^\\circ \\frac{\\Delta B}{\\Delta t} = 500 \\times 5.03\\times10^{-3} \\times 0.5 \\times 0.200 \\approx 0.251\\ \\text{V}.$$"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.4.1"
+   ],
+   "question": "Einstein considered many thought experiments prior to his paper on special relativity. In one, he is running with velocity $c$ alongside a beam of light. What did Einstein speculate he would see?",
+   "options": [
+    "An oscillating electromagnetic wave propagating at $c$.",
+    "An oscillating electromagnetic wave propagating at $2c$.",
+    "A non-oscillating electromagnetic wave propagating at $c$.",
+    "A non-oscillating electromagnetic wave propagating at $2c$."
+   ],
+   "correct": "A",
+   "answer": "Classically he would see a frozen (stationary) wave, which Maxwell's equations do not allow. Einstein resolved this by postulating that light always travels at $c$ in every inertial frame, so he would still see an oscillating electromagnetic wave travelling at $c$."
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "Unpolarised light is incident upon two consecutive polarisers as shown. Both polarisers are fixed and cannot be rotated. The original intensity of $I_2$ is zero.\n\nA third polariser is then placed between the first and second polariser at an angle $\\theta$ to the first polariser. With this third polariser in place, the intensity $I_2$ becomes 25% of the intensity of the unpolarised light.\n\nWhat is the value of the expression $\\cos^2\\theta \\times \\cos^2(90^\\circ - \\theta)$?",
+   "options": [
+    "1",
+    "2",
+    "0.5",
+    "1.5"
+   ],
+   "correct": "C",
+   "answer": "Since $I_2$ was originally zero, the two polarisers are crossed ($90^\\circ$). The first polariser halves the unpolarised intensity, then Malus' law applies at each later polariser:\n$$I_2 = \\tfrac12 I_0 \\cos^2\\theta \\cos^2(90^\\circ-\\theta) = 0.25 I_0 \\Rightarrow \\cos^2\\theta\\cos^2(90^\\circ-\\theta) = 0.5.$$\nNote: since $\\cos^2\\theta\\sin^2\\theta = \\tfrac14\\sin^2 2\\theta \\le 0.25$, the 25% in the question is not physically achievable (the maximum is 12.5%); the intended answer is the algebraic result 0.5.",
+   "images": [
+    "assets/img/phys-2025-sydney-boys/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.3"
+   ],
+   "question": "Two long, identical wires are arranged parallel to each other and connected to the same AC source, as shown. Which graph best shows the force between the two wires?",
+   "options": [
+    "![Graph A](assets/img/phys-2025-sydney-boys/q11a.png)",
+    "![Graph B](assets/img/phys-2025-sydney-boys/q11b.png)",
+    "![Graph C](assets/img/phys-2025-sydney-boys/q11c.png)",
+    "![Graph D](assets/img/phys-2025-sydney-boys/q11d.png)"
+   ],
+   "correct": "A",
+   "answer": "Both wires carry the same alternating current in the same direction at every instant, so the force is always attractive. Since $F \\propto I_1 I_2 = I^2$, the force varies from zero to a maximum twice per cycle without ever becoming repulsive (graph A).",
+   "images": [
+    "assets/img/phys-2025-sydney-boys/q11.png"
+   ]
+  },
+  {
+   "ref": "Q12",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.3.3"
+   ],
+   "question": "Which form of electromagnetic radiation has the highest energy per photon?",
+   "options": [
+    "X-rays.",
+    "Ultraviolet.",
+    "Infrared.",
+    "Microwaves."
+   ],
+   "correct": "A",
+   "answer": "$E = hf$; X-rays have the highest frequency of the options, so the highest photon energy."
+  },
+  {
+   "ref": "Q13",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "Which change would result in the greatest increase in the gravitational force between two objects?",
+   "options": [
+    "Double the distance between the objects.",
+    "Double the mass of one object.",
+    "Double the mass of both objects.",
+    "Halve the mass of both objects."
+   ],
+   "correct": "C",
+   "answer": "$F = \\dfrac{GMm}{r^2}$: doubling both masses multiplies $F$ by 4 (doubling one mass gives $\\times 2$, doubling $r$ gives $\\times\\tfrac14$, halving both masses gives $\\times\\tfrac14$)."
+  },
+  {
+   "ref": "Q14",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.8.3.1"
+   ],
+   "question": "Which of the following observations could not be explained by Rutherford's atomic model?",
+   "options": [
+    "Most alpha particles passed through gold foil.",
+    "Some alpha particles were deflected at large angles.",
+    "Atoms are mostly empty space.",
+    "Atoms emit discrete spectral lines."
+   ],
+   "correct": "D",
+   "answer": "Rutherford's model has electrons orbiting with no restriction on energy, so it cannot explain discrete emission lines (this needed Bohr's quantised energy levels). The other observations are what the model was built to explain."
+  },
+  {
+   "ref": "Q16",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.5",
+    "12.5.3.4"
+   ],
+   "question": "As a satellite following an elliptical orbit moves closer to Earth, what happens to its kinetic and potential energy?",
+   "options": [
+    "Both kinetic and potential energy increase.",
+    "Kinetic energy increases, potential energy decreases.",
+    "Both kinetic and potential energy decrease.",
+    "Kinetic energy decreases, potential energy increases."
+   ],
+   "correct": "B",
+   "answer": "$U = -\\dfrac{GMm}{r}$ becomes more negative (decreases) as $r$ decreases. Total energy is conserved, so kinetic energy increases (the satellite speeds up nearer Earth)."
+  },
+  {
+   "ref": "Q17",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.4.1",
+    "12.6.4.3"
+   ],
+   "question": "The supplied EMF and back EMF generated by a rotating motor are graphed below. The motor is made to rotate at a speed X, with no load, as shown on the graph. At this rotational speed, when the motor is left to rotate freely, with no mechanical load, it will:",
+   "options": [
+    "slow down until it is stopped.",
+    "begin to speed up.",
+    "remain spinning at the same speed.",
+    "begin to slow down."
+   ],
+   "correct": "D",
+   "answer": "At speed X the back emf is greater than the supplied emf, so the net emf and current reverse and the torque opposes the rotation. The motor slows down until the back emf equals the supplied emf (it does not stop).",
+   "images": [
+    "assets/img/phys-2025-sydney-boys/q17.png"
+   ]
+  },
+  {
+   "ref": "Q18",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "The diagram shows a car on a frictionless banked curve. Which of the following factors primarily determines the banking angle needed to negotiate the curve safely?",
+   "options": [
+    "The mass of the car.",
+    "The speed of the car.",
+    "The width of the tyres.",
+    "The type of surface material."
+   ],
+   "correct": "B",
+   "answer": "On a frictionless bank the horizontal component of the normal force provides the centripetal force: $\\tan\\theta = \\dfrac{v^2}{rg}$. The angle depends on the speed (and radius), not on the mass.",
+   "images": [
+    "assets/img/phys-2025-sydney-boys/q18.png"
+   ]
+  },
+  {
+   "ref": "Q19",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.3.4"
+   ],
+   "question": "Incomplete flux linkage in a transformer will cause:",
+   "options": [
+    "greater resistance in the secondary coil.",
+    "a lower primary voltage.",
+    "a lower secondary voltage.",
+    "more eddy currents in the core."
+   ],
+   "correct": "C",
+   "answer": "If not all of the primary's flux passes through the secondary, the rate of change of flux in the secondary is smaller, so the induced secondary voltage is lower than the ideal value."
+  },
+  {
+   "ref": "Q20",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.2.2",
+    "12.7.2.1"
+   ],
+   "question": "A beam of light passes through a diffraction grating. Compared to passing through a single slit, the diffraction grating causes:",
+   "options": [
+    "Broader and less distinct fringes.",
+    "Narrower and more distinct fringes.",
+    "No interference at all.",
+    "Complete polarisation of the light."
+   ],
+   "correct": "B",
+   "answer": "With many slits, waves interfere constructively only at very precise angles, giving sharp, narrow, bright maxima that are widely separated."
+  },
+  {
+   "ref": "Q21(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2",
+    "12.5.2.3"
+   ],
+   "question": "A lunar rover is navigating the surface of the Moon, where the gravitational acceleration is $1.62\\ \\text{m s}^{-2}$. The rover has a mass of 200 kg. It drives over a circular hill of radius 30 m at a constant speed of $8.0\\ \\text{m s}^{-1}$.\n\nCalculate the normal force acting on the rover at the top of the hill.",
+   "answer": "At the top of the hill the net (downward) force must provide the centripetal force:\n$$mg - F_N = \\frac{mv^2}{r} \\Rightarrow F_N = mg - \\frac{mv^2}{r} = 200 \\times 1.62 - \\frac{200 \\times 8.0^2}{30} = 324 - 427 = -103\\ \\text{N}.$$\nA normal force cannot be negative: the weight (324 N) is less than the centripetal force required (427 N), so the rover leaves the surface at the top of the hill. Therefore $F_N = 0$."
+  },
+  {
+   "ref": "Q21(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "A rover of mass 200 kg drives over a circular hill of radius 30 m at a constant speed of $8.0\\ \\text{m s}^{-1}$. On the Moon ($g = 1.62\\ \\text{m s}^{-2}$) the required centripetal force exceeds the rover's weight, so the normal force at the top is zero and the rover leaves the surface.\n\nExplain the differences in normal force if the same hill were on Earth instead of the Moon.",
+   "answer": "On Earth $g = 9.8\\ \\text{m s}^{-2}$, much larger than $1.62\\ \\text{m s}^{-2}$, so the rover's weight is much greater ($200 \\times 9.8 = 1960$ N compared with 324 N). The centripetal force needed to travel over the hill is unchanged, $\\dfrac{mv^2}{r} = 427$ N, because it depends only on mass, speed and radius.\n\nAt the top, $F_N = mg - \\dfrac{mv^2}{r} = 1960 - 427 \\approx 1.5 \\times 10^{3}$ N. Because the weight is now greater than the required centripetal force, the normal force is positive and large: the rover stays in contact with the surface on Earth, whereas on the Moon it would lose contact."
+  },
+  {
+   "ref": "Q22(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.2",
+    "12.6.3.1"
+   ],
+   "question": "A rectangular coil with 20 turns (100 cm × 200 cm) is placed in a uniform magnetic field of 0.30 T, as shown. The coil is rotated at a constant angular velocity of 150 rpm about an axis perpendicular to the magnetic field.\n\nThe diagram shows the coil at a particular instant in its rotation. Using this diagram, explain why the induced emf is at a minimum when the coil is in the position shown.",
+   "answer": "In the position shown, the plane of the coil is perpendicular to the magnetic field, so the magnetic flux through the coil, $\\Phi = BA\\cos\\theta$, is at a maximum. At this point in the rotation the flux is momentarily not changing (the sides of the coil are moving parallel to the field, not cutting field lines), so the rate of change of flux is zero. By Faraday's law, $\\varepsilon = -N\\dfrac{\\Delta\\Phi}{\\Delta t}$, the induced emf is therefore zero (a minimum).",
+   "images": [
+    "assets/img/phys-2025-sydney-boys/q22.png"
+   ]
+  },
+  {
+   "ref": "Q22(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.2",
+    "12.6.4.2"
+   ],
+   "question": "A rectangular coil with 20 turns, 100 cm wide and 200 cm long, is placed in a uniform magnetic field of 0.30 T with the plane of the coil perpendicular to the field (as shown). The coil is rotated at a constant angular velocity of 150 rpm about an axis perpendicular to the magnetic field.\n\nDetermine the maximum induced emf generated in the coil after it has rotated through 90 degrees from its shown position.",
+   "answer": "Flux through the coil initially: $\\Phi = BA = 0.30 \\times (1.0 \\times 2.0) = 0.60$ Wb. After $90^\\circ$ the plane is parallel to the field, so $\\Phi = 0$ and $\\Delta\\Phi = 0.60$ Wb.\n\nPeriod: $T = \\dfrac{60}{150} = 0.40$ s, so a quarter turn takes $\\Delta t = 0.10$ s.\n\nAverage emf over the quarter turn (Faraday's law):\n$$\\varepsilon_{avg} = N\\frac{\\Delta\\Phi}{\\Delta t} = 20 \\times \\frac{0.60}{0.10} = 120\\ \\text{V}.$$\n\nThe instantaneous emf is greatest at the $90^\\circ$ position, where the flux is changing fastest: with $\\omega = 2\\pi \\times \\dfrac{150}{60} = 5\\pi\\ \\text{rad s}^{-1}$,\n$$\\varepsilon_{max} = NBA\\omega = 20 \\times 0.30 \\times 2.0 \\times 5\\pi \\approx 1.9 \\times 10^{2}\\ \\text{V}.$$\n\nNote: the paper's marking guideline gives 120 V, which is the *average* emf over the quarter turn; the true maximum (peak) emf, reached at the $90^\\circ$ position, is about 190 V.",
+   "images": [
+    "assets/img/phys-2025-sydney-boys/q22.png"
+   ]
+  },
+  {
+   "ref": "Q23(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.3"
+   ],
+   "question": "An approximate value of the Planck constant $h$ can be determined in the laboratory using light-emitting diodes (LEDs). An LED suddenly starts to conduct and emit monochromatic light when the potential difference across it exceeds a minimum value $V_0$. $V_0$ and the wavelength $\\lambda$ of the emitted light are related by\n$$V_0 = \\left(\\frac{hc}{e}\\right) \\times \\frac{1}{\\lambda}$$\nwhere $e$ is the elementary charge and $c$ is the speed of light in a vacuum. The graph shows data points plotted by a student on a $V_0$ against $\\dfrac{1}{\\lambda}$ graph for five different LEDs.\n\nThe potential difference across each LED was measured using a digital voltmeter with divisions $\\pm 0.01$ V. The values for the wavelengths are accurate and were provided by the manufacturer of the LEDs. The value of $V_0$ was determined by directly observing the state of the LED in the brightly lit laboratory.\n\nDraw the straight line of best fit on the graph and determine the gradient of the line.",
+   "answer": "The line of best fit is a straight line through the points that does **not** pass through the origin (it has an intercept of about 0.4 V on the $V_0$ axis), as shown.\n\nUsing two points on the line, e.g. $(0,\\ 0.4)$ and $(2.5 \\times 10^{6},\\ 3.6)$:\n$$\\text{gradient} = \\frac{\\Delta V_0}{\\Delta(1/\\lambda)} = \\frac{3.6 - 0.4}{2.5 \\times 10^{6}} \\approx 1.3 \\times 10^{-6}\\ \\text{V m}$$\n(accepted range $1.2$–$1.4 \\times 10^{-6}$ V m).",
+   "images": [
+    "assets/img/phys-2025-sydney-boys/q23.png"
+   ],
+   "answer_images": [
+    "assets/img/phys-2025-sydney-boys/q23a-sol.png"
+   ]
+  },
+  {
+   "ref": "Q23(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.3"
+   ],
+   "question": "An approximate value of the Planck constant $h$ can be determined in the laboratory using light-emitting diodes (LEDs). An LED suddenly starts to conduct and emit monochromatic light when the potential difference across it exceeds a minimum value $V_0$. $V_0$ and the wavelength $\\lambda$ of the emitted light are related by\n$$V_0 = \\left(\\frac{hc}{e}\\right) \\times \\frac{1}{\\lambda}$$\nwhere $e$ is the elementary charge and $c$ is the speed of light in a vacuum. The graph shows data points plotted by a student on a $V_0$ against $\\dfrac{1}{\\lambda}$ graph for five different LEDs.\n\nThe potential difference across each LED was measured using a digital voltmeter with divisions $\\pm 0.01$ V. The values for the wavelengths are accurate and were provided by the manufacturer of the LEDs. The value of $V_0$ was determined by directly observing the state of the LED in the brightly lit laboratory.\n\nThe gradient of the line of best fit through the data is $1.3 \\times 10^{-6}$ V m. Determine the experimental value of $h$ for this investigation. Show your working.",
+   "answer": "From the equation, the gradient of a $V_0$ vs $\\dfrac{1}{\\lambda}$ graph is\n$$\\text{gradient} = \\frac{hc}{e} \\Rightarrow h = \\frac{e \\times \\text{gradient}}{c} = \\frac{1.60 \\times 10^{-19} \\times 1.3 \\times 10^{-6}}{3.00 \\times 10^{8}} \\approx 6.9 \\times 10^{-34}\\ \\text{J s}.$$",
+   "images": [
+    "assets/img/phys-2025-sydney-boys/q23.png"
+   ]
+  },
+  {
+   "ref": "Q23(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.3.3"
+   ],
+   "question": "A student's experimental value of the Planck constant (from an LED experiment) is $6.9 \\times 10^{-34}$ J s. Calculate the percentage difference between this value and the accepted value of the Planck constant ($6.63 \\times 10^{-34}$ J s).",
+   "answer": "$$\\%\\ \\text{difference} = \\frac{6.9 \\times 10^{-34} - 6.63 \\times 10^{-34}}{6.63 \\times 10^{-34}} \\times 100\\% \\approx 4.1\\%.$$"
+  },
+  {
+   "ref": "Q23(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.3"
+   ],
+   "question": "An approximate value of the Planck constant $h$ can be determined in the laboratory using light-emitting diodes (LEDs). An LED suddenly starts to conduct and emit monochromatic light when the potential difference across it exceeds a minimum value $V_0$. $V_0$ and the wavelength $\\lambda$ of the emitted light are related by\n$$V_0 = \\left(\\frac{hc}{e}\\right) \\times \\frac{1}{\\lambda}$$\nwhere $e$ is the elementary charge and $c$ is the speed of light in a vacuum. The graph shows data points plotted by a student on a $V_0$ against $\\dfrac{1}{\\lambda}$ graph for five different LEDs.\n\nThe potential difference across each LED was measured using a digital voltmeter with divisions $\\pm 0.01$ V. The values for the wavelengths are accurate and were provided by the manufacturer of the LEDs. The value of $V_0$ was determined by directly observing the state of the LED in the brightly lit laboratory.\n\nIdentify the two types of errors shown by the data in the graph and suggest how you could have refined the experiment to reduce or eliminate these errors.",
+   "answer": "- **Random error:** the data points are scattered about the line of best fit. This can be reduced by taking many repeat readings of $V_0$ for each LED and averaging them, and/or by testing more LEDs of different frequencies.\n- **Systematic error:** the line of best fit does not pass through the origin (non-zero intercept), as $V_0$ was consistently judged too high because it is hard to see when the LED first lights in a brightly lit room. This can be eliminated by conducting the experiment in a darkened room or viewing the LED through a black tube, and by checking the voltmeter has no zero error.",
+   "images": [
+    "assets/img/phys-2025-sydney-boys/q23.png"
+   ]
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.4.1"
+   ],
+   "question": "Students constructed a simple electric motor with an insulated copper coil, paperclips, a magnet and a battery, as shown. The teacher instructed the students to only sand one side of the copper wire (removing the insulation on one side only) where it contacts the paperclips.\n\nIdentify which part of a DC motor works in the same way as the half-sanded wire section.",
+   "answer": "The (split ring) commutator.",
+   "images": [
+    "assets/img/phys-2025-sydney-boys/q25-motor.png",
+    "assets/img/phys-2025-sydney-boys/q25-wire.png"
+   ]
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.4.1"
+   ],
+   "question": "Students constructed a simple electric motor with an insulated copper coil, paperclips, a magnet and a battery, as shown. The teacher instructed the students to only sand one side of the copper wire (removing the insulation on one side only) where it contacts the paperclips.\n\nExplain and justify the sanding instruction.",
+   "answer": "The wire is coated with an insulating layer, so it must be sanded to expose the conducting copper so that current can flow from the paperclips into the coil.\n\nSanding only one side means current flows for only half of each rotation. When the bare side touches the paperclips, current flows in the coil and the motor effect ($F = nIlB$) on the sides of the coil produces a torque that turns it. When the coil has turned half a revolution, the insulated side touches the paperclips and the current stops; without this, the current in each side would now produce a torque in the opposite direction that would push the coil back. With no current, the coil coasts through this half turn on its momentum until the bare side makes contact again. This intermittent current means the torque always acts in the same direction, giving continuous rotation in one direction, just as a split ring commutator does in a DC motor.",
+   "images": [
+    "assets/img/phys-2025-sydney-boys/q25-motor.png",
+    "assets/img/phys-2025-sydney-boys/q25-wire.png"
+   ]
+  },
+  {
+   "ref": "Q25(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.4.1"
+   ],
+   "question": "Students constructed a simple electric motor with an insulated copper coil, paperclips, a magnet and a battery. The teacher instructed them to sand only one side of the insulated copper wire where it contacts the paperclips. One student did not follow the instruction properly and sanded both sides of the wire.\n\nDescribe what will happen to this student's coil when the power is turned on.",
+   "answer": "Current flows in the coil continuously, in the same direction, whatever its orientation. The coil will turn part of the way and then, because the torque reverses direction every half turn, it will rock (oscillate) back and forth about the position where its plane is perpendicular to the field and come to rest there, instead of rotating continuously.",
+   "images": [
+    "assets/img/phys-2025-sydney-boys/q25-motor.png"
+   ]
+  },
+  {
+   "ref": "Q25(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.4.1",
+    "12.6.4.3"
+   ],
+   "question": "Students constructed a simple electric motor with an insulated copper coil, paperclips, a magnet and a battery, sanding only one side of the insulated wire where it contacts the paperclips. One student sanded both sides, so their coil did not rotate continuously. When the students measured the currents through their motors, this student noticed their current was significantly higher than the other students'.\n\nExplain this observation.",
+   "answer": "In a working motor the rotating coil cuts the magnetic field, so by Faraday's and Lenz's laws a back emf is induced that opposes the supply emf. The net emf, and hence the current $I = \\dfrac{V_{supply} - \\varepsilon_{back}}{R}$, is reduced.\n\nThe student's coil was not rotating continuously, so little or no back emf was generated. The full battery voltage acted across the very low resistance coil, producing a much larger current than in the other students' spinning motors."
+  },
+  {
+   "ref": "Q26",
+   "kind": "written",
+   "marks": 6,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.1.1",
+    "12.7.1.2"
+   ],
+   "question": "Explain how Maxwell's equations predicted the existence of electromagnetic waves and outline how this prediction was later verified experimentally.",
+   "answer": "Maxwell unified electricity and magnetism in a set of equations. They show that a changing magnetic field produces an electric field (Faraday's law) and, through his addition of the displacement current, that a changing electric field produces a magnetic field. An accelerating (oscillating) charge therefore produces a changing electric field, which produces a changing magnetic field, which in turn produces a changing electric field, and so on. Maxwell predicted that these mutually perpendicular, oscillating electric and magnetic fields would sustain each other and propagate through space as an electromagnetic wave.\n\nFrom his equations he calculated the speed of these waves as $c = \\dfrac{1}{\\sqrt{\\mu_0\\varepsilon_0}} \\approx 3 \\times 10^{8}\\ \\text{m s}^{-1}$, which matched the measured speed of light, suggesting that light itself is an electromagnetic wave.\n\nHeinrich Hertz verified this prediction in 1887. He used an induction coil to make sparks oscillate across a gap in a transmitter, producing radio waves, and detected them with a receiving loop with a small gap, where sparks appeared. He showed that these waves could be reflected, refracted, polarised, diffracted and made to interfere, as light is. Using standing waves he measured their wavelength and, with the known frequency, calculated their speed as $v = f\\lambda \\approx 3 \\times 10^{8}\\ \\text{m s}^{-1}$, the speed of light. This confirmed Maxwell's prediction of electromagnetic waves travelling at the speed of light."
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "The Moon is Earth's only natural satellite. It has a mass of $7.35 \\times 10^{22}$ kg and, on average, the distance from the centre of the Moon to the surface of the Earth is $3.84 \\times 10^{8}$ m. (Earth: $M = 6.0 \\times 10^{24}$ kg, radius $6.371 \\times 10^{6}$ m.)\n\nShow that the force due to gravity between the Moon and the Earth is $1.93 \\times 10^{20}$ N.",
+   "answer": "The separation must be measured centre to centre, so add Earth's radius: $r = 3.84 \\times 10^{8} + 6.371 \\times 10^{6} = 3.904 \\times 10^{8}$ m.\n$$F = \\frac{GMm}{r^2} = \\frac{6.67 \\times 10^{-11} \\times 6.0 \\times 10^{24} \\times 7.35 \\times 10^{22}}{(3.84 \\times 10^{8} + 6.371 \\times 10^{6})^2} = 1.93 \\times 10^{20}\\ \\text{N}.$$"
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.5"
+   ],
+   "question": "A large rock is stationary in space and located at a distance $1.0 \\times 10^{7}$ m from the centre of an unknown planet. It takes 1.0 MJ of work to move the rock to a stationary point $2.0 \\times 10^{7}$ m from the centre of the unknown planet.\n\nCalculate how much work needs to be done to move the rock from $2.0 \\times 10^{7}$ m away from the centre of the unknown planet to a stationary point $8.0 \\times 10^{7}$ m from the centre of the unknown planet.",
+   "answer": "The rock starts and ends at rest, so the work done equals the change in gravitational potential energy, $W = \\Delta U = U_f - U_i$ with $U = -\\dfrac{GMm}{r}$:\n$$1.0 \\times 10^{6} = -\\frac{GMm}{2.0 \\times 10^{7}} + \\frac{GMm}{1.0 \\times 10^{7}} = GMm\\left(\\frac{1}{1.0 \\times 10^{7}} - \\frac{1}{2.0 \\times 10^{7}}\\right) \\Rightarrow GMm = 2.0 \\times 10^{13}\\ \\text{N m}^2.$$\nThen\n$$W = GMm\\left(\\frac{1}{r_i} - \\frac{1}{r_f}\\right) = 2.0 \\times 10^{13}\\left(\\frac{1}{2.0 \\times 10^{7}} - \\frac{1}{8.0 \\times 10^{7}}\\right) = 7.5 \\times 10^{5}\\ \\text{J} = 750\\ \\text{kJ}.$$"
+  },
+  {
+   "ref": "Q28",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.8.3.4",
+    "12.7.2.2"
+   ],
+   "question": "A green laser with a wavelength of 530 nm is directed at a diffraction grating with a spacing of 3.2 µm, projecting a pattern on a screen 85 cm away. The laser is then replaced with electrons accelerated through 150 V.\n\nDetermine how many electron diffraction fringes appear between the central maximum and the first-order bright fringe of the green laser.",
+   "answer": "**Laser:** $d\\sin\\theta = m\\lambda$ with $m = 1$:\n$$\\sin\\theta = \\frac{530 \\times 10^{-9}}{3.2 \\times 10^{-6}} \\Rightarrow \\theta = 9.53^\\circ, \\qquad \\Delta x = L\\tan\\theta = 0.85 \\tan 9.53^\\circ = 0.1427\\ \\text{m}.$$\n\n**Electrons:** speed from $qV = \\tfrac12 mv^2$:\n$$v = \\sqrt{\\frac{2qV}{m}} = \\sqrt{\\frac{2 \\times 1.602 \\times 10^{-19} \\times 150}{9.109 \\times 10^{-31}}} = 7.263 \\times 10^{6}\\ \\text{m s}^{-1}.$$\nde Broglie wavelength:\n$$\\lambda_e = \\frac{h}{mv} = \\frac{6.626 \\times 10^{-34}}{9.109 \\times 10^{-31} \\times 7.263 \\times 10^{6}} = 1.0 \\times 10^{-10}\\ \\text{m}.$$\nThe angles are tiny, so $\\sin\\theta \\approx \\tan\\theta = \\dfrac{\\Delta x}{L}$ and the electron fringe spacing is\n$$\\Delta x_e = \\frac{\\lambda_e L}{d} = \\frac{1.0 \\times 10^{-10} \\times 0.85}{3.2 \\times 10^{-6}} = 2.656 \\times 10^{-5}\\ \\text{m}.$$\n\n**Number of electron fringes** between the central maximum and the laser's first-order fringe:\n$$\\frac{0.1427}{2.656 \\times 10^{-5}} \\approx 5372,$$\ni.e. about $5.4 \\times 10^{3}$ fringes (round down, since only complete fringes inside that distance count)."
+  },
+  {
+   "ref": "Q29",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.2.2"
+   ],
+   "question": "Describe how TWO experiments have contributed to our understanding of the nucleus of the atom.",
+   "answer": "**Geiger–Marsden experiment:** a thin gold foil was bombarded with alpha particles and the scattering was detected on a fluorescent screen. Almost all the particles passed straight through, showing that the atom is mostly empty space; a very small number were deflected through large angles (some back towards the source), showing that the positive charge and almost all the mass are concentrated in a tiny, dense nucleus. Rutherford used this to propose the nuclear model of the atom.\n\n**Chadwick's experiment:** alpha particles striking a beryllium target produced a very penetrating, uncharged radiation (it was not deflected by electric or magnetic fields). When this radiation hit paraffin wax it knocked out protons. By applying conservation of momentum and energy to the ejected protons, Chadwick showed the radiation consisted of neutral particles with a mass about equal to the proton's, not gamma rays. This was the neutron, showing the nucleus contains neutrons as well as protons, which explained why atomic masses are greater than the proton number alone predicts."
+  },
+  {
+   "ref": "Q30(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.1"
+   ],
+   "question": "The diagram shows the black body radiation distribution of Earth (intensity against frequency). The curve peaks at a frequency of 30 on the horizontal axis.\n\nShow that the temperature of Earth is 290 K.",
+   "answer": "Reading the peak frequency from the graph, $f_{max} = 30 \\times 10^{12}$ Hz. Using Wien's law with $\\lambda_{max} = \\dfrac{c}{f_{max}}$:\n$$\\lambda_{max} = \\frac{3.0 \\times 10^{8}}{30 \\times 10^{12}} = 1.0 \\times 10^{-5}\\ \\text{m}, \\qquad T = \\frac{b}{\\lambda_{max}} = \\frac{2.898 \\times 10^{-3}}{1.0 \\times 10^{-5}} \\approx 290\\ \\text{K}.$$\n\nNote: the axis on the paper is labelled GHz, but with $f = 30$ GHz this gives $T = 0.29$ K (the paper's worked answer); the scale must be THz to obtain Earth's temperature of 290 K.",
+   "images": [
+    "assets/img/phys-2025-sydney-boys/q30.png"
+   ]
+  },
+  {
+   "ref": "Q30(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.1",
+    "12.8.1.4"
+   ],
+   "question": "The diagram shows the black body radiation distribution of Earth (intensity against frequency), which peaks at about $30 \\times 10^{12}$ Hz. A second curve showing the Sun's black body radiation is to be drawn on the same diagram.\n\nExplain the differences that will be seen between the Sun's curve and the Earth's.",
+   "answer": "- **Peak position:** the Sun's surface (about 5800 K) is much hotter than Earth (290 K). By Wien's law, $\\lambda_{max} = \\dfrac{b}{T}$, the peak wavelength is about 20 times shorter, so on this frequency axis the Sun's peak is much further to the right (at a much higher frequency, in the visible region rather than the infrared).\n- **Height and area:** a hotter black body emits more radiation at every frequency, so the Sun's curve lies above Earth's curve at all frequencies and its peak is far higher. The total area under the curve (total power emitted per unit area) is therefore much greater for the Sun.",
+   "images": [
+    "assets/img/phys-2025-sydney-boys/q30.png"
+   ]
+  },
+  {
+   "ref": "Q31(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.4.2"
+   ],
+   "question": "An AC induction motor operates by using a rotating magnetic field produced by a three-phase AC power supply.\n\nExplain how an AC induction motor produces torque in the rotor without direct electrical contact.",
+   "answer": "The three-phase AC supply is connected to the stator coils, which are arranged so that the currents, out of phase with each other, produce a magnetic field that rotates around the stator.\n\nAs this field rotates past the rotor (a squirrel cage of conducting bars), the magnetic flux through the rotor's conducting loops changes. By Faraday's law, an emf and therefore currents are induced in the rotor bars; by Lenz's law these currents oppose the relative motion between the field and the rotor.\n\nThe induced currents in the rotor bars lie in the stator's magnetic field, so by the motor effect ($F = lIB\\sin\\theta$) forces act on them, producing a torque that turns the rotor in the same direction as the rotating field (always slightly slower). The current in the rotor is induced, not supplied, so no direct electrical contact is needed."
+  },
+  {
+   "ref": "Q31(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.4.2",
+    "12.6.4.1"
+   ],
+   "question": "Describe one advantage and one limitation of using an AC induction motor compared to a DC motor.",
+   "answer": "**Advantage:** an AC induction motor has no brushes or commutator, so there is no sparking or brush wear; it is simpler and cheaper to build, needs less maintenance and is more durable.\n\n**Limitation:** it needs an AC (ideally three-phase) supply, and its speed is tied to the supply frequency, so its speed and torque are harder to control, especially at low speeds, than a DC motor's, which can be controlled simply by varying the supply voltage."
+  },
+  {
+   "ref": "Q32(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.3",
+    "12.7.3.2"
+   ],
+   "question": "The graph shows the relationship between the frequency of light used to irradiate two different metals, A and B, and the maximum kinetic energy of the photoelectrons emitted. Metal A has threshold frequency $f_0$ and metal B has threshold frequency $f_1$ ($f_1 > f_0$). The graph was obtained by applying a stopping voltage that reduced the photocurrent to zero at various frequencies of light.\n\nDescribe the stopping voltage and photocurrent measured for both metals in the region where the frequency increases from $f_0$ to $f_1$. Assume the radiation intensity is constant.",
+   "answer": "| Metal | Between $f_0$ and $f_1$ |\n|:-:|:--|\n| A | **Stopping voltage:** increases linearly with frequency, since $eV_s = K_{max} = hf - \\phi_A$ and $f$ is above A's threshold. **Photocurrent:** photoelectrons are emitted, so there is a photocurrent (when no stopping voltage is applied); it stays roughly constant because the intensity is constant. |\n| B | **Stopping voltage:** zero, because $f$ is below B's threshold frequency $f_1$, so no photoelectrons are emitted. **Photocurrent:** zero, regardless of intensity. |",
+   "images": [
+    "assets/img/phys-2025-sydney-boys/q32.png"
+   ]
+  },
+  {
+   "ref": "Q32(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.2",
+    "12.7.3.3"
+   ],
+   "question": "Explain how an experimental result of the photoelectric effect was able to support the concept of quantisation.",
+   "answer": "Classical wave theory predicted that light energy spreads continuously over the wavefront, so at low intensity electrons would need time to absorb enough energy, giving a delay before emission, and that any frequency would eventually eject electrons if the light were intense enough.\n\nExperimentally, electrons were emitted instantly (no measurable time delay) even at very low intensity, provided the frequency was above the threshold; and below the threshold frequency no electrons were emitted no matter how intense the light.\n\nThis is explained if light energy is quantised into photons of energy $E = hf$, each absorbed whole by a single electron: an electron is ejected immediately if one photon's energy exceeds the work function ($hf > \\phi$), and never if it does not, since energies cannot accumulate from many low-energy photons. The results therefore supported Einstein's (and Planck's) concept of quantised energy."
+  },
+  {
+   "ref": "Q33",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.2.1"
+   ],
+   "question": "A student recreated Millikan's experiment and found the elementary charge on the oil drops to be $1.85 \\times 10^{-19}$ C. They then recreated Thomson's experiment and calculated the charge to mass ratio of the electron to be $1.81 \\times 10^{11}\\ \\text{C kg}^{-1}$.\n\nQuantitatively assess the accuracy of their results.",
+   "answer": "Accepted values: $e = 1.602 \\times 10^{-19}$ C and\n$$\\frac{q}{m} = \\frac{1.602 \\times 10^{-19}}{9.109 \\times 10^{-31}} = 1.759 \\times 10^{11}\\ \\text{C kg}^{-1}.$$\n\nMillikan: $\\%\\ \\text{error} = \\dfrac{1.85 - 1.602}{1.602} \\times 100\\% \\approx 15\\%$ (about 85% accurate).\n\nThomson: $\\%\\ \\text{error} = \\dfrac{1.81 - 1.759}{1.759} \\times 100\\% \\approx 2.9\\%$ (about 97% accurate).\n\nThe charge-to-mass ratio is accurate (within about 3% of the accepted value), but the value of the elementary charge is inaccurate (about 15% too high), so the Millikan result is much less accurate than the Thomson result."
+  },
+  {
+   "ref": "Q34",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.3"
+   ],
+   "question": "A 1 W beam of EMR transfers 1 J per second from one point to another.\n\nWith reference to the particle model of light, contrast a 1 W beam of infrared light with a 1 W beam of ultraviolet light.",
+   "answer": "In the particle model, light consists of photons each carrying energy $E = hf$. Infrared light has a lower frequency than ultraviolet, so each infrared photon carries less energy than an ultraviolet photon. Both beams deliver the same total energy (1 J each second), so the infrared beam must carry many more photons per second than the ultraviolet beam, while each ultraviolet photon is individually more energetic."
+  },
+  {
+   "ref": "Q35(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.4",
+    "12.5.3.5"
+   ],
+   "question": "A planet orbits the Sun in an elliptical path. The distance between the planet and the Sun varies as the planet moves in its orbit. Explain, using the relevant law, how the speed of the planet changes as it moves along its orbit.",
+   "answer": "By Kepler's second law, a line joining the planet to the Sun sweeps out equal areas in equal times. When the planet is close to the Sun this line is short, so the planet must travel a longer distance along its orbit in a given time to sweep out the same area: it moves fastest at its closest point (perihelion) and slowest at its furthest point (aphelion). This is consistent with conservation of energy: as the planet moves closer to the Sun its gravitational potential energy decreases, so its kinetic energy and speed increase."
+  },
+  {
+   "ref": "Q35(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.3.2",
+    "12.5.3.4"
+   ],
+   "question": "Given that the orbit of a planet is nearly circular, the time taken for one full revolution around the Sun is 365 days, and the average radius of the orbit is $1.5 \\times 10^{11}$ m, calculate the orbital speed of the planet.",
+   "answer": "$$v = \\frac{2\\pi r}{T} = \\frac{2\\pi \\times 1.5 \\times 10^{11}}{365 \\times 24 \\times 3600} \\approx 3.0 \\times 10^{4}\\ \\text{m s}^{-1}.$$"
+  },
+  {
+   "ref": "Q36(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.3.3"
+   ],
+   "question": "The Bohr model of the atom explains the energy of photons emitted when an electron falls from an initial orbit $n_i$ to a final orbit $n_f$. The values of $\\left(\\dfrac{1}{n_f^2} - \\dfrac{1}{n_i^2}\\right)$ for values of $n_i$ and $n_f$ from 1 to 6 for hydrogen are shown in the table.\n\n| $n_f \\backslash n_i$ | 1 | 2 | 3 | 4 | 5 | 6 |\n|:-:|:-:|:-:|:-:|:-:|:-:|:-:|\n| **1** | – | 0.7500 | 0.8889 | 0.9375 | 0.9600 | 0.9722 |\n| **2** | – | – | 0.1389 | 0.1875 | 0.2100 | 0.2222 |\n| **3** | – | – | – | 0.0486 | 0.0711 | 0.0833 |\n| **4** | – | – | – | – | 0.0225 | 0.0347 |\n| **5** | – | – | – | – | – | 0.0122 |\n| **6** | – | – | – | – | – | – |\n\nIdentify why some values in the table are blank.",
+   "answer": "The table describes the emission of photons, which happens only when an electron falls from a higher energy level to a lower one ($n_i > n_f$). Where $n_f \\ge n_i$ the electron is not dropping in energy (it would need to absorb energy instead, or there is no transition), so no photon is emitted and the entries are blank."
+  },
+  {
+   "ref": "Q36(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.3.3"
+   ],
+   "question": "The Bohr model of the atom explains the energy of photons emitted when an electron falls from an initial orbit $n_i$ to a final orbit $n_f$. The values of $\\left(\\dfrac{1}{n_f^2} - \\dfrac{1}{n_i^2}\\right)$ for hydrogen are shown in the table.\n\n| $n_f \\backslash n_i$ | 1 | 2 | 3 | 4 | 5 | 6 |\n|:-:|:-:|:-:|:-:|:-:|:-:|:-:|\n| **1** | – | 0.7500 | 0.8889 | 0.9375 | 0.9600 | 0.9722 |\n| **2** | – | – | 0.1389 | 0.1875 | 0.2100 | 0.2222 |\n| **3** | – | – | – | 0.0486 | 0.0711 | 0.0833 |\n| **4** | – | – | – | – | 0.0225 | 0.0347 |\n| **5** | – | – | – | – | – | 0.0122 |\n| **6** | – | – | – | – | – | – |\n\nCalculate the energy of the photon emitted when an electron in a hydrogen atom falls from $n_i = 5$ to $n_f = 3$.",
+   "answer": "From the table, $\\dfrac{1}{3^2} - \\dfrac{1}{5^2} = 0.0711$. Using the Rydberg equation:\n$$\\frac{1}{\\lambda} = R\\left(\\frac{1}{n_f^2} - \\frac{1}{n_i^2}\\right) = 1.097 \\times 10^{7} \\times 0.0711 = 7.80 \\times 10^{5}\\ \\text{m}^{-1}.$$\nThen\n$$E = hf = \\frac{hc}{\\lambda} = 6.626 \\times 10^{-34} \\times 3.00 \\times 10^{8} \\times 7.80 \\times 10^{5} \\approx 1.55 \\times 10^{-19}\\ \\text{J}.$$"
+  }
+ ]
+}

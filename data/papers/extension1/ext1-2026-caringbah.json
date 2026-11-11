@@ -1,0 +1,476 @@
+{
+ "id": "ext1-2026-caringbah",
+ "course": "extension1",
+ "school": "Caringbah",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "Caringbah 2026 w. sol"
+ },
+ "indexed": "2026-11-11",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q11(e)",
+   "reason": "Not in 2024 syllabus: sketching y = √f(x) (graphs of y² = f(x) removed)"
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "reason": "Not in 2024 syllabus: normal approximation to the binomial distribution"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.4.1"
+   ],
+   "question": "What is the solution of the inequality $x(x-2)(x+2) < 0$?",
+   "options": [
+    "$(-2,\\ 2)$",
+    "$(-\\infty,\\ -2) \\cup (2,\\ \\infty)$",
+    "$(-2,\\ 0) \\cup (2,\\ \\infty)$",
+    "$(-\\infty,\\ -2) \\cup (0,\\ 2)$"
+   ],
+   "correct": "D",
+   "answer": "The zeros are $x = -2, 0, 2$. The cubic has positive leading coefficient, so it is negative to the left of $-2$ and between $0$ and $2$:\n$$x(x-2)(x+2) < 0 \\iff x \\in (-\\infty,\\ -2) \\cup (0,\\ 2).$$"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "Consider the vectors $\\overrightarrow{OA} = \\begin{pmatrix} 2 \\\\ 3 \\end{pmatrix}$ and $\\overrightarrow{OB} = \\begin{pmatrix} 4 \\\\ -3 \\end{pmatrix}$. What is the angle $\\theta$ between $\\overrightarrow{OA}$ and $\\overrightarrow{OB}$, in terms of $\\cos\\theta$?",
+   "options": [
+    "$\\cos\\theta = \\dfrac{17}{5\\sqrt{13}}$",
+    "$\\cos\\theta = \\dfrac{-1}{5\\sqrt{13}}$",
+    "$\\cos\\theta = \\dfrac{-1}{65}$",
+    "$\\cos\\theta = 0$"
+   ],
+   "correct": "B",
+   "answer": "$\\overrightarrow{OA}\\cdot\\overrightarrow{OB} = 2(4) + 3(-3) = -1$, $|\\overrightarrow{OA}| = \\sqrt{13}$, $|\\overrightarrow{OB}| = 5$, so\n$$\\cos\\theta = \\frac{-1}{5\\sqrt{13}}.$$"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "The roots of $x^3 + x^2 - 2x = 0$ are $\\alpha$, $\\beta$ and $\\gamma$. What is the value of $\\alpha^2 + \\beta^2 + \\gamma^2$?",
+   "options": [
+    "$2$",
+    "$3$",
+    "$4$",
+    "$5$"
+   ],
+   "correct": "D",
+   "answer": "$\\alpha+\\beta+\\gamma = -\\frac{b}{a} = -1$ and $\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha = \\frac{c}{a} = -2$, so\n$$\\alpha^2+\\beta^2+\\gamma^2 = (\\alpha+\\beta+\\gamma)^2 - 2(\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha) = 1 + 4 = 5.$$"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.4",
+    "12.2.2.9"
+   ],
+   "question": "Consider the points $A(1, 2)$, $B(3, 6)$ and $C(5, 10)$. Which of the following statements is true?",
+   "options": [
+    "The points are not collinear because $\\overrightarrow{AC} = \\frac{1}{2}\\overrightarrow{AB}$",
+    "The points are not collinear because $\\overrightarrow{AB}$ and $\\overrightarrow{AC}$ are perpendicular",
+    "The points are collinear because $\\overrightarrow{AC} = 2\\overrightarrow{AB}$",
+    "The points are collinear because $\\overrightarrow{AB} = 2\\overrightarrow{AC}$"
+   ],
+   "correct": "C",
+   "answer": "$\\overrightarrow{AB} = \\begin{pmatrix} 2 \\\\ 4 \\end{pmatrix}$ and $\\overrightarrow{AC} = \\begin{pmatrix} 4 \\\\ 8 \\end{pmatrix} = 2\\overrightarrow{AB}$. The vectors are parallel and share the point $A$, so $A$, $B$, $C$ are collinear."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.8"
+   ],
+   "question": "The discrete random variable $X$ has a binomial distribution with parameters $n$ and $p$. Its mean is twice its standard deviation. If $p = \\dfrac{1}{4}$, what is the value of $n$?",
+   "options": [
+    "$6$",
+    "$12$",
+    "$18$",
+    "$24$"
+   ],
+   "correct": "B",
+   "answer": "Mean $np = \\frac{n}{4}$; standard deviation $\\sqrt{np(1-p)} = \\sqrt{\\frac{3n}{16}} = \\frac{\\sqrt{3n}}{4}$.\n$$\\frac{n}{4} = 2\\cdot\\frac{\\sqrt{3n}}{4} \\implies n^2 = 12n \\implies n = 12 \\quad (n > 0).$$"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.5"
+   ],
+   "question": "If $\\operatorname{cosec} x + \\cot x = 2$, what is the value of $t = \\tan\\left(\\dfrac{x}{2}\\right)$?",
+   "options": [
+    "$\\dfrac{1}{4}$",
+    "$\\dfrac{1}{2}$",
+    "$2$",
+    "$4$"
+   ],
+   "correct": "B",
+   "answer": "Using the $t$-formulas $\\sin x = \\dfrac{2t}{1+t^2}$ and $\\cos x = \\dfrac{1-t^2}{1+t^2}$:\n$$\\operatorname{cosec} x + \\cot x = \\frac{1+t^2}{2t} + \\frac{1-t^2}{2t} = \\frac{2}{2t} = \\frac{1}{t} = 2 \\implies t = \\frac{1}{2}.$$",
+   "course": "extension2"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.6",
+    "11.2.2.5"
+   ],
+   "question": "The graph of an even polynomial function $P(x)$ passes through the point $(2, 0)$. What is the remainder when $P(x)$ is divided by $(x^2 - 4)$?",
+   "options": [
+    "$0$",
+    "$-2$",
+    "$2$",
+    "$-4$"
+   ],
+   "correct": "A",
+   "answer": "Since $P$ is even, $P(-2) = P(2) = 0$. By the factor theorem $(x-2)$ and $(x+2)$ are both factors, so $(x-2)(x+2) = x^2 - 4$ is a factor of $P(x)$ and the remainder is $0$."
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.2.4"
+   ],
+   "question": "Which of the following is an expression for $\\displaystyle\\int \\frac{\\cos(2x)}{(\\cos x + \\sin x)^2}\\,dx$?",
+   "options": [
+    "$\\ln|\\cos x + \\sin x| + C$",
+    "$\\dfrac{-1}{\\cos x + \\sin x} + C$",
+    "$\\dfrac{\\cos x - \\sin x}{\\cos x + \\sin x} + C$",
+    "$\\dfrac{\\sin x - \\cos x}{\\cos x + \\sin x} + C$"
+   ],
+   "correct": "A",
+   "answer": "$$\\int \\frac{\\cos^2 x - \\sin^2 x}{(\\cos x + \\sin x)^2}\\,dx = \\int \\frac{(\\cos x + \\sin x)(\\cos x - \\sin x)}{(\\cos x + \\sin x)^2}\\,dx = \\int \\frac{\\cos x - \\sin x}{\\cos x + \\sin x}\\,dx.$$\nThe numerator is the derivative of the denominator, so the integral is $\\ln|\\cos x + \\sin x| + C$."
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.7",
+    "12.5.2.4"
+   ],
+   "question": "At time $t$ years after observation begins, the population size $P$ of an animal colony is given by $P = 600 - 500e^{-0.1t}$. What is the population size when it is increasing at a rate of 25 animals per year?",
+   "options": [
+    "$250$",
+    "$300$",
+    "$350$",
+    "$400$"
+   ],
+   "correct": "C",
+   "answer": "$\\dfrac{dP}{dt} = 50e^{-0.1t} = \\dfrac{1}{10}\\left(500e^{-0.1t}\\right) = \\dfrac{1}{10}(600 - P)$.\n\nSetting $\\dfrac{dP}{dt} = 25$: $600 - P = 250$, so $P = 350$."
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.2",
+    "12.4.2.1"
+   ],
+   "question": "What is the value of $\\displaystyle\\int_0^1 \\frac{\\tan^{-1} x}{1 + x^2}\\,dx$?",
+   "options": [
+    "$\\dfrac{\\pi^2}{32}$",
+    "$\\dfrac{\\pi^2}{48}$",
+    "$\\dfrac{\\pi^2}{16}$",
+    "$\\dfrac{\\pi^2}{8}$"
+   ],
+   "correct": "A",
+   "answer": "Let $u = \\tan^{-1}x$, so $du = \\dfrac{dx}{1+x^2}$ and the integral is\n$$\\int_0^1 \\frac{\\tan^{-1}x}{1+x^2}\\,dx = \\left[\\tfrac{1}{2}\\left(\\tan^{-1}x\\right)^2\\right]_0^1 = \\frac{1}{2}\\left(\\frac{\\pi}{4}\\right)^2 = \\frac{\\pi^2}{32}.$$"
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Solve for $x$:\n$$\\frac{x^2 + 1}{x} \\geq \\frac{5}{2}.$$",
+   "answer": "Note $x \\neq 0$. Find the critical values by solving the equality:\n$$\\frac{x^2+1}{x} = \\frac52 \\implies 2x^2 + 2 = 5x \\implies 2x^2 - 5x + 2 = 0 \\implies (2x-1)(x-2) = 0 \\implies x = \\tfrac12,\\ 2.$$\nCritical values on the number line: $0$ (excluded), $\\tfrac12$, $2$. Testing a point in each region:\n- $x = -1$: $-2 \\geq 2.5$? No.\n- $x = \\tfrac14$: $\\tfrac{17}{4} \\geq 2.5$? Yes.\n- $x = 1$: $2 \\geq 2.5$? No.\n- $x = 3$: $\\tfrac{10}{3} \\geq 2.5$? Yes.\n\n$$\\therefore\\ 0 < x \\leq \\tfrac12 \\quad\\text{or}\\quad x \\geq 2.$$"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.6",
+    "11.3.2.2"
+   ],
+   "question": "Find the exact value of\n$$\\cos\\left[\\sin^{-1}\\left(\\frac{3}{8}\\right) - \\tan^{-1}\\left(\\frac{1}{4}\\right)\\right].$$\nYou may leave your answer with an irrational denominator.",
+   "answer": "Let $\\alpha = \\sin^{-1}\\frac38$, so $\\sin\\alpha = \\frac38$ with $\\alpha$ acute; the adjacent side is $\\sqrt{64-9} = \\sqrt{55}$, so $\\cos\\alpha = \\frac{\\sqrt{55}}{8}$.\n\nLet $\\beta = \\tan^{-1}\\frac14$, so $\\tan\\beta = \\frac14$ with $\\beta$ acute; the hypotenuse is $\\sqrt{17}$, so $\\sin\\beta = \\frac{1}{\\sqrt{17}}$, $\\cos\\beta = \\frac{4}{\\sqrt{17}}$.\n\n$$\\cos(\\alpha - \\beta) = \\cos\\alpha\\cos\\beta + \\sin\\alpha\\sin\\beta = \\frac{\\sqrt{55}}{8}\\cdot\\frac{4}{\\sqrt{17}} + \\frac38\\cdot\\frac{1}{\\sqrt{17}} = \\frac{4\\sqrt{55} + 3}{8\\sqrt{17}}.$$"
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.5",
+    "11.2.2.2"
+   ],
+   "question": "The polynomial $P(x) = ax^4 - x^3 - 28x^2 + bx - 7$ has a remainder of $-2x - 3$ when divided by $x^2 + 3x - 4$. Find the values of $a$ and $b$.",
+   "answer": "$x^2 + 3x - 4 = (x+4)(x-1)$, so $P(x) = (x+4)(x-1)Q(x) - 2x - 3$ for some polynomial $Q(x)$.\n\n$x = 1$: $P(1) = a - 1 - 28 + b - 7 = a + b - 36$ and $R(1) = -5$, so\n$$a + b = 31 \\quad (1)$$\n$x = -4$: $P(-4) = 256a + 64 - 448 - 4b - 7 = 256a - 4b - 391$ and $R(-4) = 5$, so\n$$256a - 4b = 396 \\implies 64a - b = 99 \\quad (2)$$\nAdding (1) and (2): $65a = 130$, so $a = 2$ and $b = 29$."
+  },
+  {
+   "ref": "Q11(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.2"
+   ],
+   "question": "Write $\\sin x + \\sqrt{3}\\cos x$ in the form $R\\sin(x + \\alpha)$, where $R > 0$ and $0 \\leq \\alpha \\leq \\dfrac{\\pi}{2}$.",
+   "answer": "$R = \\sqrt{1^2 + (\\sqrt3)^2} = 2$.\n\n$R\\sin(x+\\alpha) = R\\sin x\\cos\\alpha + R\\cos x\\sin\\alpha$, so equating coefficients: $2\\cos\\alpha = 1$ and $2\\sin\\alpha = \\sqrt3$, giving $\\cos\\alpha = \\frac12$, $\\sin\\alpha = \\frac{\\sqrt3}{2}$, so $\\alpha = \\frac{\\pi}{3}$.\n$$\\sin x + \\sqrt3\\cos x = 2\\sin\\left(x + \\frac{\\pi}{3}\\right).$$"
+  },
+  {
+   "ref": "Q11(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.3"
+   ],
+   "question": "It is given that $\\sin x + \\sqrt{3}\\cos x = 2\\sin\\left(x + \\dfrac{\\pi}{3}\\right)$. Hence, or otherwise, solve the equation\n$$\\sin x + \\sqrt{3}\\cos x = 1, \\quad 0 \\leq x \\leq 2\\pi.$$",
+   "answer": "$$2\\sin\\left(x + \\frac{\\pi}{3}\\right) = 1 \\implies \\sin\\left(x + \\frac{\\pi}{3}\\right) = \\frac12, \\qquad \\frac{\\pi}{3} \\leq x + \\frac{\\pi}{3} \\leq \\frac{7\\pi}{3}.$$\nThe related acute angle is $\\frac{\\pi}{6}$; sine is positive in quadrants 1 and 2. In the given range,\n$$x + \\frac{\\pi}{3} = \\frac{5\\pi}{6},\\ \\frac{13\\pi}{6} \\implies x = \\frac{\\pi}{2},\\ \\frac{11\\pi}{6}.$$\n($x + \\frac{\\pi}{3} = \\frac{\\pi}{6}$ is below the range.)"
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.2",
+    "12.5.2.1"
+   ],
+   "question": "A large cube of ice is melting. As it melts, its side length $x$ millimetres changes at the rate of $-0.8$ millimetres per second.\n\nFind the rate at which the surface area of the cube of ice is changing when the side length of the cube is 10 millimetres.",
+   "answer": "Surface area $A = 6x^2$, so $\\dfrac{dA}{dx} = 12x$. With $\\dfrac{dx}{dt} = -0.8$:\n$$\\frac{dA}{dt} = \\frac{dA}{dx}\\cdot\\frac{dx}{dt} = 12x \\times (-0.8) = -9.6x.$$\nWhen $x = 10$: $\\dfrac{dA}{dt} = -96$ mm²/s, i.e. the surface area is decreasing at $96$ mm² per second."
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.2.10",
+    "11.1.2.4"
+   ],
+   "question": "Let $f(x) = \\dfrac{x+1}{\\sqrt{x}}$. The graph of $y = f(x)$ has a minimum turning point at $P$, as shown.\n\nThe domain of $f(x)$ is restricted to $x \\geq a$ so that its inverse, $f^{-1}(x)$, is a function. Find the value of $a$.",
+   "answer": "Write $f(x) = x^{1/2} + x^{-1/2}$. Then\n$$f'(x) = \\tfrac12 x^{-1/2} - \\tfrac12 x^{-3/2} = \\frac{x - 1}{2x\\sqrt{x}}.$$\n$f'(x) = 0 \\iff x = 1$, so $P$ is at $x = 1$. For $x > 1$, $f'(x) > 0$, so $f$ is strictly increasing (one-to-one) on $x \\geq 1$. Hence $a = 1$.",
+   "images": [
+    "assets/img/ext1-2026-caringbah/q12b.png"
+   ]
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.2.5",
+    "11.1.2.7"
+   ],
+   "question": "Let $f(x) = \\dfrac{x+1}{\\sqrt{x}}$ with its domain restricted to $x \\geq 1$ (to the right of its minimum turning point at $x = 1$), so that its inverse function exists. Find $f^{-1}(x)$.",
+   "answer": "Let $y = f^{-1}(x)$, so $x = f(y) = \\sqrt{y} + \\dfrac{1}{\\sqrt{y}}$ with $y \\geq 1$ (and $x \\geq f(1) = 2$).\n\nSquaring: $x^2 = y + 2 + \\dfrac1y \\implies x^2 y = y^2 + 2y + 1 \\implies y^2 - (x^2 - 2)y + 1 = 0.$\n\nBy the quadratic formula,\n$$y = \\frac{(x^2-2) \\pm \\sqrt{(x^2-2)^2 - 4}}{2} = \\frac{x^2 - 2 \\pm \\sqrt{x^4 - 4x^2}}{2} = \\frac{x^2 - 2 \\pm x\\sqrt{x^2-4}}{2}$$\n(using $x > 0$). Since $y \\geq 1$ we take the positive sign (the two roots have product $1$, so the larger one is $\\geq 1$):\n$$f^{-1}(x) = \\frac{x^2 - 2 + x\\sqrt{x^2 - 4}}{2}, \\quad x \\geq 2.$$"
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.6",
+    "12.6.2.9"
+   ],
+   "question": "A bag contains five cards numbered 2, 3, 4, 5, 6. Four cards are drawn at random from the bag, one at a time, with replacement. Find, in simplest fraction form, the probability that the sum of the four numbers chosen is odd.",
+   "answer": "The sum is odd exactly when an odd number of the cards drawn are odd. Let $X$ be the number of odd cards (3 or 5) chosen; $X \\sim \\text{Bin}\\left(4, \\frac25\\right)$.\n$$P(\\text{sum odd}) = P(X=1) + P(X=3) = \\binom41\\left(\\frac25\\right)\\left(\\frac35\\right)^3 + \\binom43\\left(\\frac25\\right)^3\\left(\\frac35\\right) = \\frac{216}{625} + \\frac{96}{625} = \\frac{312}{625}.$$"
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2",
+    "12.4.2.1"
+   ],
+   "question": "Use the substitution $u = x - 1$ to evaluate\n$$\\int_{0.5}^{1.5} \\frac{1}{\\sqrt{2x - x^2}}\\,dx.$$\nGive the answer in simplest exact form.",
+   "answer": "With $u = x - 1$: $du = dx$; $x = 1.5 \\Rightarrow u = 0.5$, $x = 0.5 \\Rightarrow u = -0.5$, and\n$$2x - x^2 = 2(u+1) - (u+1)^2 = 1 - u^2.$$\n$$\\int_{0.5}^{1.5} \\frac{dx}{\\sqrt{2x-x^2}} = \\int_{-0.5}^{0.5} \\frac{du}{\\sqrt{1-u^2}} = \\Big[\\sin^{-1}u\\Big]_{-0.5}^{0.5} = \\frac{\\pi}{6} - \\left(-\\frac{\\pi}{6}\\right) = \\frac{\\pi}{3}.$$"
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.10"
+   ],
+   "question": "The diagram shows the points $A(1, 2)$ and $B(6, 2)$. The point $P$ is the closest point on the line $OB$ to $A$.\n\nUsing the vector projection of $\\overrightarrow{OA}$ onto $\\overrightarrow{OB}$, or otherwise, find $\\overrightarrow{OP}$ in the form $x\\mathbf{i} + y\\mathbf{j}$.",
+   "answer": "$P$ is the foot of the perpendicular from $A$ to $OB$, so $\\overrightarrow{OP} = \\text{proj}_{\\overrightarrow{OB}}\\overrightarrow{OA}$.\n$$\\overrightarrow{OP} = \\frac{\\overrightarrow{OA}\\cdot\\overrightarrow{OB}}{|\\overrightarrow{OB}|^2}\\,\\overrightarrow{OB} = \\frac{1(6) + 2(2)}{6^2 + 2^2}(6\\mathbf{i} + 2\\mathbf{j}) = \\frac14(6\\mathbf{i} + 2\\mathbf{j}) = \\frac32\\mathbf{i} + \\frac12\\mathbf{j}.$$",
+   "images": [
+    "assets/img/ext1-2026-caringbah/q13a.png"
+   ]
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.4"
+   ],
+   "question": "The points are $A(1, 2)$ and $B(6, 2)$, and $P$ is the closest point on the line $OB$ to $A$, where $\\overrightarrow{OP} = \\dfrac32\\mathbf{i} + \\dfrac12\\mathbf{j}$.\n\nGiven $\\overrightarrow{OB} = k\\overrightarrow{OP}$, find the value of $k$.",
+   "answer": "$$\\begin{pmatrix} 6 \\\\ 2 \\end{pmatrix} = k\\begin{pmatrix} \\frac32 \\\\ \\frac12 \\end{pmatrix} \\implies k = 4.$$",
+   "images": [
+    "assets/img/ext1-2026-caringbah/q13a.png"
+   ]
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.6",
+    "12.2.3.3"
+   ],
+   "question": "$OAB$ is a triangle where $\\overrightarrow{OA} = 8\\mathbf{a}$, $\\overrightarrow{OB} = 4\\mathbf{b}$ and $P$ lies on $AB$ such that $AP : PB = 3 : 1$.\n\nShow that $\\overrightarrow{OP} = 2\\mathbf{a} + 3\\mathbf{b}$.",
+   "answer": "$$\\overrightarrow{OP} = \\overrightarrow{OA} + \\overrightarrow{AP} = \\overrightarrow{OA} + \\frac34\\overrightarrow{AB} = \\overrightarrow{OA} + \\frac34\\left(\\overrightarrow{OB} - \\overrightarrow{OA}\\right) = \\frac14\\overrightarrow{OA} + \\frac34\\overrightarrow{OB}$$\n$$= \\frac14(8\\mathbf{a}) + \\frac34(4\\mathbf{b}) = 2\\mathbf{a} + 3\\mathbf{b}.$$\n\n*Note: the printed question text gives $\\overrightarrow{OA} = 6\\mathbf{a}$, but the diagram (and the marking solution) use $\\overrightarrow{OA} = 8\\mathbf{a}$, which is required for the stated result; the question here uses $8\\mathbf{a}$.*",
+   "images": [
+    "assets/img/ext1-2026-caringbah/q13b.png"
+   ]
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.4"
+   ],
+   "question": "Show that\n$$\\tan(4\\theta) = \\frac{4\\tan\\theta - 4\\tan^3\\theta}{1 - 6\\tan^2\\theta + \\tan^4\\theta}.$$",
+   "answer": "Let $t = \\tan\\theta$. Then $\\tan 2\\theta = \\dfrac{2t}{1-t^2}$ and\n$$\\tan 4\\theta = \\frac{2\\tan 2\\theta}{1 - \\tan^2 2\\theta} = \\frac{\\dfrac{4t}{1-t^2}}{1 - \\dfrac{4t^2}{(1-t^2)^2}} = \\frac{4t}{1-t^2}\\cdot\\frac{(1-t^2)^2}{(1-t^2)^2 - 4t^2}$$\n$$= \\frac{4t(1-t^2)}{1 - 2t^2 + t^4 - 4t^2} = \\frac{4\\tan\\theta - 4\\tan^3\\theta}{1 - 6\\tan^2\\theta + \\tan^4\\theta}.$$"
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.3.3.1",
+    "11.3.2.4"
+   ],
+   "question": "It is given that\n$$\\tan(4\\theta) = \\frac{4\\tan\\theta - 4\\tan^3\\theta}{1 - 6\\tan^2\\theta + \\tan^4\\theta}.$$\nHence, by letting $x = \\tan\\theta$ where $0 \\leq \\theta \\leq \\pi$, find the values of $x$ such that\n$$x^4 - 4x^3 - 6x^2 + 4x + 1 = 0.$$",
+   "answer": "Rearrange: $x^4 - 6x^2 + 1 = 4x^3 - 4x$, so (when $x^4 - 6x^2 + 1 \\neq 0$)\n$$\\frac{4x - 4x^3}{1 - 6x^2 + x^4} = -1.$$\nWith $x = \\tan\\theta$ the left side is $\\tan 4\\theta$, so $\\tan 4\\theta = -1$.\n\nFor $0 \\leq \\theta \\leq \\pi$, $0 \\leq 4\\theta \\leq 4\\pi$. Tangent is negative in quadrants 2 and 4 with related angle $\\frac{\\pi}{4}$:\n$$4\\theta = \\frac{3\\pi}{4},\\ \\frac{7\\pi}{4},\\ \\frac{11\\pi}{4},\\ \\frac{15\\pi}{4} \\implies \\theta = \\frac{3\\pi}{16},\\ \\frac{7\\pi}{16},\\ \\frac{11\\pi}{16},\\ \\frac{15\\pi}{16}.$$\nThese give four distinct values of $x$, which are the four roots of the quartic:\n$$x = \\tan\\frac{3\\pi}{16},\\ \\tan\\frac{7\\pi}{16},\\ \\tan\\frac{11\\pi}{16},\\ \\tan\\frac{15\\pi}{16}.$$"
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3",
+    "12.4.2.2",
+    "12.4.2.3"
+   ],
+   "question": "The curve $y = \\dfrac{1}{x^2 + 1}$ for $0 \\leq x \\leq 1$ is rotated about the $x$-axis.\n\nFind the volume of the solid of revolution formed, using the substitution $x = \\tan\\theta$.",
+   "answer": "$$V = \\pi\\int_0^1 y^2\\,dx = \\pi\\int_0^1 \\frac{dx}{(x^2+1)^2}.$$\nLet $x = \\tan\\theta$: $dx = \\sec^2\\theta\\,d\\theta$; $x = 0 \\Rightarrow \\theta = 0$, $x = 1 \\Rightarrow \\theta = \\frac{\\pi}{4}$.\n$$V = \\pi\\int_0^{\\pi/4} \\frac{\\sec^2\\theta}{(\\tan^2\\theta + 1)^2}\\,d\\theta = \\pi\\int_0^{\\pi/4} \\frac{\\sec^2\\theta}{\\sec^4\\theta}\\,d\\theta = \\pi\\int_0^{\\pi/4}\\cos^2\\theta\\,d\\theta$$\n$$= \\frac{\\pi}{2}\\int_0^{\\pi/4}(1 + \\cos 2\\theta)\\,d\\theta = \\frac{\\pi}{2}\\left[\\theta + \\frac{\\sin 2\\theta}{2}\\right]_0^{\\pi/4} = \\frac{\\pi}{2}\\left(\\frac{\\pi}{4} + \\frac12\\right) = \\frac{\\pi^2}{8} + \\frac{\\pi}{4} \\text{ units}^3.$$",
+   "images": [
+    "assets/img/ext1-2026-caringbah/q13d.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.11",
+    "11.4.1.18"
+   ],
+   "question": "Ten people arrive to eat at a restaurant. The only seating available for them is at two circular tables, one that seats six people and another that seats four.\n\nUsing these tables, how many different seating arrangements are there for the ten people?",
+   "answer": "Choose the 6 people for the large table in $\\binom{10}{6}$ ways; arrange them in a circle in $5!$ ways and the remaining 4 in $3!$ ways:\n$$\\binom{10}{6}\\times 5! \\times 3! = 210 \\times 120 \\times 6 = 151\\,200.$$"
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.19",
+    "11.4.1.11"
+   ],
+   "question": "Ten people arrive to eat at a restaurant. The only seating available for them is at two circular tables, one that seats six people and another that seats four. Assuming that the seating arrangement is random, what is the probability that a particular couple will be seated at the same table?",
+   "answer": "Couple at the large table: choose the other 4 for that table from 8: $\\binom84 \\times 5! \\times 3!$.\n\nCouple at the small table: choose the other 2 for that table from 8: $\\binom82 \\times 3! \\times 5!$.\n$$P = \\frac{\\left(\\binom84 + \\binom82\\right)\\times 5!\\times 3!}{151\\,200} = \\frac{(70 + 28)\\times 720}{151\\,200} = \\frac{7}{15}.$$\nAlternatively: $P = \\frac{6}{10}\\cdot\\frac59 + \\frac{4}{10}\\cdot\\frac39 = \\frac{30 + 12}{90} = \\frac{7}{15}$."
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.1.2",
+    "11.4.1.2"
+   ],
+   "question": "Use mathematical induction to prove that for all positive integers $n \\geq 1$,\n$$\\frac{(x+0)!}{0!} + \\frac{(x+1)!}{1!} + \\frac{(x+2)!}{2!} + \\cdots + \\frac{(x+n-1)!}{(n-1)!} = \\frac{(x+n)!}{(x+1)(n-1)!}.$$",
+   "answer": "**Base case** $n = 1$: LHS $= \\dfrac{x!}{0!} = x!$. RHS $= \\dfrac{(x+1)!}{(x+1)\\,0!} = \\dfrac{(x+1)\\,x!}{x+1} = x!$. True for $n = 1$.\n\n**Inductive step.** Assume true for $n = k$ (some positive integer $k$):\n$$\\frac{(x+0)!}{0!} + \\cdots + \\frac{(x+k-1)!}{(k-1)!} = \\frac{(x+k)!}{(x+1)(k-1)!}.$$\nRequired to prove for $n = k+1$:\n$$\\frac{(x+0)!}{0!} + \\cdots + \\frac{(x+k-1)!}{(k-1)!} + \\frac{(x+k)!}{k!} = \\frac{(x+k+1)!}{(x+1)\\,k!}.$$\nUsing the assumption,\n$$\\text{LHS} = \\frac{(x+k)!}{(x+1)(k-1)!} + \\frac{(x+k)!}{k!} = (x+k)!\\left[\\frac{1}{(x+1)(k-1)!} + \\frac{1}{k\\,(k-1)!}\\right]$$\n$$= (x+k)!\\,\\frac{k + (x+1)}{(x+1)\\,k!} = \\frac{(x+k+1)\\,(x+k)!}{(x+1)\\,k!} = \\frac{(x+k+1)!}{(x+1)\\,k!} = \\text{RHS}.$$\nSo if the statement is true for $n = k$ it is true for $n = k+1$. Since it is true for $n = 1$, by mathematical induction it is true for all integers $n \\geq 1$."
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "11.5.1.9",
+    "11.5.1.7"
+   ],
+   "question": "By considering the expansion of $(1 - x^2)^n$ for a positive even number $n$, show that\n$$\\binom{n}{0}^2 - \\binom{n}{1}^2 + \\binom{n}{2}^2 - \\binom{n}{3}^2 + \\cdots - \\binom{n}{n-1}^2 + \\binom{n}{n}^2 = \\binom{n}{\\frac{n}{2}}(-1)^{\\frac{n}{2}}.$$",
+   "answer": "**LHS expansion.** $(1 - x^2)^n = \\displaystyle\\sum_{r=0}^{n}\\binom{n}{r}(-x^2)^r$. Since $n$ is even, the $x^n$ term comes from $r = \\frac n2$, so the coefficient of $x^n$ is $\\dbinom{n}{\\frac n2}(-1)^{\\frac n2}$.\n\n**Product form.** $(1 - x^2)^n = (1-x)^n(1+x)^n$, where\n$$(1-x)^n = \\sum_{r=0}^{n}\\binom nr(-1)^r x^r, \\qquad (1+x)^n = \\sum_{s=0}^{n}\\binom ns x^s.$$\nThe $x^n$ terms of the product come from pairing $x^r$ in the first with $x^{n-r}$ in the second, so the coefficient of $x^n$ is\n$$\\sum_{r=0}^{n}(-1)^r\\binom nr\\binom{n}{n-r} = \\sum_{r=0}^{n}(-1)^r\\binom nr^2 \\quad\\text{since } \\binom{n}{n-r} = \\binom nr.$$\nBecause $n$ is even, the last term $(-1)^n\\binom nn^2$ is positive, so this is $\\binom n0^2 - \\binom n1^2 + \\binom n2^2 - \\cdots - \\binom{n}{n-1}^2 + \\binom nn^2$.\n\n**Equating** the coefficients of $x^n$:\n$$\\binom{n}{0}^2 - \\binom{n}{1}^2 + \\binom{n}{2}^2 - \\cdots + \\binom{n}{n}^2 = \\binom{n}{\\frac{n}{2}}(-1)^{\\frac{n}{2}}.$$"
+  },
+  {
+   "ref": "Q14(d)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.6.8",
+    "12.2.6.7"
+   ],
+   "question": "A golfer hits a golf ball at 80 metres per second from the bottom of a steep hill. The hill is at an angle of $30^\\circ$ to the horizontal, and the golf ball is hit at an angle of $45^\\circ$ to the horizontal. The golf ball is hit from $O$ and lands at $P$ on the hill, as shown in the first diagram.\n\nThe flight path of the ball is given by\n$$x = 40\\sqrt2\\,t, \\qquad y = -5t^2 + 40\\sqrt2\\,t$$\n(do NOT prove these), where $t$ is the time in seconds since the golf ball was hit, and $x$ and $y$ are in metres.\n\nThe golf ball impacts the ground at an angle of $\\theta$ to the hill, as shown in the second diagram. Find the size of $\\theta$, correct to the nearest degree.",
+   "answer": "**Time of impact.** On the hill $y = x\\tan 30^\\circ$, i.e. $x = \\sqrt3\\,y$:\n$$40\\sqrt2\\,t = \\sqrt3\\left(-5t^2 + 40\\sqrt2\\,t\\right) \\implies 5\\sqrt3\\,t^2 + 40\\sqrt2\\,t - 40\\sqrt6\\,t = 0 \\implies 5t\\left(\\sqrt3\\,t + 8\\sqrt2 - 8\\sqrt6\\right) = 0.$$\n$t \\neq 0$, so $t = \\dfrac{8(\\sqrt6 - \\sqrt2)}{\\sqrt3} \\approx 4.78$ s.\n\n**Velocity at impact.** $\\dot x = 40\\sqrt2$, $\\dot y = -10t + 40\\sqrt2$. At impact\n$$\\dot y = -\\frac{80(\\sqrt6-\\sqrt2)}{\\sqrt3} + 40\\sqrt2 \\approx 8.75 \\text{ m/s} > 0,$$\nso the ball is still rising when it hits the hill.\n\n**Angle.** If the velocity makes angle $\\alpha$ with the horizontal,\n$$\\tan\\alpha = \\frac{\\dot y}{\\dot x} = \\frac{8.75\\ldots}{40\\sqrt2} \\approx 0.1547 \\implies \\alpha \\approx 8.79^\\circ.$$\n(Exactly, $\\tan\\alpha = \\frac{2}{\\sqrt3} - 1$.) The hill is at $30^\\circ$, so\n$$\\theta = 30^\\circ - 8.79^\\circ \\approx 21.2^\\circ \\approx 21^\\circ.$$",
+   "images": [
+    "assets/img/ext1-2026-caringbah/q14d-1.png",
+    "assets/img/ext1-2026-caringbah/q14d-2.png"
+   ]
+  }
+ ]
+}
