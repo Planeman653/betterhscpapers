@@ -1,0 +1,477 @@
+{
+ "id": "ext1-2023-james-ruse",
+ "course": "extension1",
+ "school": "James Ruse",
+ "year": 2023,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "James Ruse 2023 w. sol"
+ },
+ "indexed": "2026-11-12",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q1",
+   "reason": "Not in 2024 syllabus: classifying differential equations as linear or non-linear"
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "reason": "Not in 2024 syllabus: normal approximation to the binomial distribution"
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "reason": "Not in 2024 syllabus: graphs of $y^2 = f(x)$"
+  },
+  {
+   "ref": "Q15(c)(i)-(iii)",
+   "reason": "Not in 2024 syllabus: normal approximation for sample proportions"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.6",
+    "12.2.3.7"
+   ],
+   "question": "A plane experiences two forces: 10 N of gravity straight down, and 60 N of thrust at an angle of 15° above the horizontal. What is the magnitude of the net force, to the nearest newton?",
+   "answer": "$\\mathbf{F} = 60\\cos 15°\\,\\mathbf{i} + (60\\sin 15° - 10)\\mathbf{j} = 57.96\\mathbf{i} + 5.53\\mathbf{j}$, so $|\\mathbf{F}| = \\sqrt{57.96^2 + 5.53^2} \\approx 58$ N.",
+   "options": [
+    "50 N",
+    "53 N",
+    "58 N",
+    "70 N"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "$\\displaystyle\\int \\frac{1}{25 + 16x^2}\\,dx =$",
+   "answer": "$$\\int \\frac{1}{25 + 16x^2}\\,dx = \\frac{1}{16}\\int \\frac{1}{\\left(\\frac{5}{4}\\right)^2 + x^2}\\,dx = \\frac{1}{16}\\cdot\\frac{4}{5}\\tan^{-1}\\frac{4x}{5} + C = \\frac{1}{20}\\tan^{-1}\\frac{4x}{5} + C.$$",
+   "options": [
+    "$\\frac{5}{4}\\tan^{-1}\\frac{4x}{5} + C$",
+    "$\\frac{1}{20}\\tan^{-1}\\frac{4x}{5} + C$",
+    "$\\tan^{-1}\\frac{4x}{5} + C$",
+    "$\\frac{1}{5}\\tan^{-1}\\frac{4x}{5} + C$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.2.6"
+   ],
+   "question": "A function is defined by $f(x) = \\begin{cases} 2, & x < 3 \\\\ x - 1, & x \\ge 3 \\end{cases}$. The value of $\\displaystyle\\int_1^5 f(x)\\,dx$ is",
+   "answer": "$$\\int_1^3 2\\,dx + \\int_3^5 (x - 1)\\,dx = 4 + \\left[\\frac{x^2}{2} - x\\right]_3^5 = 4 + (7.5 - 1.5) = 10.$$",
+   "course": "advanced",
+   "options": [
+    "2",
+    "6",
+    "8",
+    "10"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.2.5",
+    "12.3.1.6"
+   ],
+   "question": "Given $f(x) = 2\\sec x$ for $0 \\le x < \\frac{\\pi}{2}$, then $f^{-1}(x) =$",
+   "answer": "Swap $x$ and $y$: $x = 2\\sec y = \\dfrac{2}{\\cos y}$, so $\\cos y = \\dfrac{2}{x}$ and $y = \\cos^{-1}\\dfrac{2}{x}$ (with $0 \\le y < \\frac{\\pi}{2}$, matching the range of $\\cos^{-1}$ for $\\frac{2}{x} \\in (0, 1]$).",
+   "options": [
+    "$2\\cos^{-1}\\frac{1}{x}$",
+    "$2\\cos^{-1}x$",
+    "$\\cos^{-1}\\frac{2}{x}$",
+    "$\\cos^{-1}\\frac{1}{2x}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.1",
+    "11.2.1.10"
+   ],
+   "question": "What is the multiplicity of the root $x = 1$ of the equation $P(x) = 3x^5 - 5x^4 + 5x - 3$?",
+   "answer": "$P(1) = 3 - 5 + 5 - 3 = 0$; $P'(x) = 15x^4 - 20x^3 + 5$, $P'(1) = 0$; $P''(x) = 60x^3 - 60x^2$, $P''(1) = 0$; $P'''(x) = 180x^2 - 120x$, $P'''(1) = 60 \\ne 0$. So the multiplicity is 3.",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.9",
+    "12.2.4.10"
+   ],
+   "question": "Let $\\mathbf{u} = 2\\mathbf{i} + 5\\mathbf{j}$ and $\\mathbf{v} = 3\\mathbf{i} + m\\mathbf{j}$. If $|\\text{proj}_{\\mathbf{u}}\\mathbf{v}| = |\\text{proj}_{\\mathbf{v}}\\mathbf{u}|$, then a possible value of $m$ is",
+   "answer": "$|\\text{proj}_{\\mathbf{u}}\\mathbf{v}| = \\dfrac{|\\mathbf{u}\\cdot\\mathbf{v}|}{|\\mathbf{u}|}$ and $|\\text{proj}_{\\mathbf{v}}\\mathbf{u}| = \\dfrac{|\\mathbf{u}\\cdot\\mathbf{v}|}{|\\mathbf{v}|}$. With $\\mathbf{u}\\cdot\\mathbf{v} = 6 + 5m \\ne 0$, we need $|\\mathbf{u}| = |\\mathbf{v}|$: $4 + 25 = 9 + m^2$, so $m = \\pm\\sqrt{20}$.",
+   "options": [
+    "20",
+    "4",
+    "$\\sqrt{20}$",
+    "2"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.2"
+   ],
+   "question": "Suppose $a, b, c$ form a Pythagorean triple where $a < b < c$. What is the maximum value the function $f(x) = \\dfrac{1}{a\\sin x + b\\cos x + 2c}$ can attain?",
+   "answer": "$a\\sin x + b\\cos x = R\\sin(x + \\alpha)$ with $R = \\sqrt{a^2 + b^2} = c$, so it ranges over $[-c, c]$. The denominator is at least $2c - c = c > 0$, so the maximum of $f$ is $\\dfrac{1}{c}$.",
+   "options": [
+    "$\\frac{1}{3c}$",
+    "$\\frac{1}{c}$",
+    "$\\frac{\\sqrt{2}}{(\\sqrt{2} - 1)c}$",
+    "$\\frac{\\sqrt{2}}{(\\sqrt{2} + 1)c}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.9",
+    "12.5.4.13"
+   ],
+   "question": "The slope field shown is best represented by the differential equation:",
+   "answer": "The field shows closed curves around the origin, taller than they are wide, with zero slope on the $y$-axis and vertical slopes on the $x$-axis. For $\\dfrac{dy}{dx} = -\\dfrac{2x}{y}$: $\\int y\\,dy = -\\int 2x\\,dx$, giving $2x^2 + y^2 = C$ — ellipses with the longer axis along the $y$-axis. (B gives ellipses $x^2 + 2y^2 = C$, wider than tall; A gives hyperbolas.)",
+   "options": [
+    "$\\dfrac{dy}{dx} = \\dfrac{2x}{y}$",
+    "$\\dfrac{dy}{dx} = -\\dfrac{x}{2y}$",
+    "$\\dfrac{dy}{dx} = -\\dfrac{2x}{y}$",
+    "$\\dfrac{dy}{dx} = \\dfrac{y^2}{2} + x^2$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/ext1-2023-james-ruse/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.9"
+   ],
+   "question": "Find an expression for the number of ways all the letters of the word EPSILON can be arranged such that the three vowels are all next to each other.",
+   "answer": "Treat the vowels E, I, O as one block: arrange the block and P, S, L, N in $5!$ ways, and the vowels within the block in $3!$ ways: $3! \\times 5!$.",
+   "options": [
+    "7!",
+    "5!",
+    "$4! \\times 5!$",
+    "$3! \\times 5!$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.4.3"
+   ],
+   "question": "Two vectors $\\mathbf{a}$ and $\\mathbf{b}$ have $|\\mathbf{a}| = 3$ and $|\\mathbf{b}| = 5$, and the angle between them is $120°$ (as shown). Let $\\mathbf{c}$ be the vector such that $\\mathbf{a} + \\mathbf{b} + \\mathbf{c} = \\mathbf{0}$.\n\nFind $\\mathbf{a}\\cdot\\mathbf{b}$.",
+   "answer": "$$\\mathbf{a}\\cdot\\mathbf{b} = |\\mathbf{a}||\\mathbf{b}|\\cos 120° = 3 \\times 5 \\times \\left(-\\frac{1}{2}\\right) = -\\frac{15}{2}.$$",
+   "images": [
+    "assets/img/ext1-2023-james-ruse/q11a.png"
+   ]
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.5"
+   ],
+   "question": "Two vectors $\\mathbf{a}$ and $\\mathbf{b}$ have $|\\mathbf{a}| = 3$ and $|\\mathbf{b}| = 5$, and the angle between them is $120°$ (as shown). Let $\\mathbf{c}$ be the vector such that $\\mathbf{a} + \\mathbf{b} + \\mathbf{c} = \\mathbf{0}$. Also $\\mathbf{a}\\cdot\\mathbf{b} = -\\frac{15}{2}$.\n\nExpand and evaluate $(\\mathbf{a} + \\mathbf{b})\\cdot(\\mathbf{a} + \\mathbf{b})$.",
+   "answer": "$$(\\mathbf{a} + \\mathbf{b})\\cdot(\\mathbf{a} + \\mathbf{b}) = \\mathbf{a}\\cdot\\mathbf{a} + 2\\mathbf{a}\\cdot\\mathbf{b} + \\mathbf{b}\\cdot\\mathbf{b} = |\\mathbf{a}|^2 + 2\\mathbf{a}\\cdot\\mathbf{b} + |\\mathbf{b}|^2 = 9 - 15 + 25 = 19.$$",
+   "images": [
+    "assets/img/ext1-2023-james-ruse/q11a.png"
+   ]
+  },
+  {
+   "ref": "Q11(a)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.5"
+   ],
+   "question": "Two vectors $\\mathbf{a}$ and $\\mathbf{b}$ have $|\\mathbf{a}| = 3$ and $|\\mathbf{b}| = 5$, and the angle between them is $120°$ (as shown). Let $\\mathbf{c}$ be the vector such that $\\mathbf{a} + \\mathbf{b} + \\mathbf{c} = \\mathbf{0}$. Also $(\\mathbf{a} + \\mathbf{b})\\cdot(\\mathbf{a} + \\mathbf{b}) = 19$.\n\nFind $|\\mathbf{c}|$.",
+   "answer": "$\\mathbf{c} = -(\\mathbf{a} + \\mathbf{b})$, so $|\\mathbf{c}|^2 = (\\mathbf{a} + \\mathbf{b})\\cdot(\\mathbf{a} + \\mathbf{b}) = 19$ and $|\\mathbf{c}| = \\sqrt{19}$.\n\n(Alternatively, $\\mathbf{a}$, $\\mathbf{b}$, $\\mathbf{c}$ placed head to tail form a triangle with an angle of $60°$ between sides 3 and 5: $|\\mathbf{c}|^2 = 9 + 25 - 2(3)(5)\\cos 60° = 19$.)",
+   "images": [
+    "assets/img/ext1-2023-james-ruse/q11a.png"
+   ]
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Prove by mathematical induction that, for all integers $n \\ge 1$,\n$$\\frac{2}{1\\times 3} + \\frac{2}{2\\times 4} + \\frac{2}{3\\times 5} + \\dots + \\frac{2}{n(n+2)} = \\frac{3}{2} - \\frac{2n + 3}{(n+1)(n+2)}.$$",
+   "answer": "**$n = 1$:** LHS $= \\frac{2}{3}$; RHS $= \\frac{3}{2} - \\frac{5}{6} = \\frac{4}{6} = \\frac{2}{3}$. True.\n\n**Assume true for $n = k$:** $\\frac{2}{1\\times3} + \\dots + \\frac{2}{k(k+2)} = \\frac{3}{2} - \\frac{2k+3}{(k+1)(k+2)}$.\n\n**Prove for $n = k + 1$:** required RHS $= \\frac{3}{2} - \\frac{2k+5}{(k+2)(k+3)}$.\n$$\\text{LHS} = \\frac{3}{2} - \\frac{2k+3}{(k+1)(k+2)} + \\frac{2}{(k+1)(k+3)} = \\frac{3}{2} - \\frac{(2k+3)(k+3) - 2(k+2)}{(k+1)(k+2)(k+3)}$$\n$$= \\frac{3}{2} - \\frac{2k^2 + 7k + 5}{(k+1)(k+2)(k+3)} = \\frac{3}{2} - \\frac{(2k+5)(k+1)}{(k+1)(k+2)(k+3)} = \\frac{3}{2} - \\frac{2k+5}{(k+2)(k+3)}.$$\nSo true for $n = k + 1$ if true for $n = k$. Hence true for all integers $n \\ge 1$ by mathematical induction."
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.7"
+   ],
+   "question": "Three distinct non-zero vectors are given by $\\overrightarrow{OA} = \\mathbf{a}$, $\\overrightarrow{OB} = \\mathbf{b}$ and $\\overrightarrow{OC} = \\mathbf{c}$. If $\\overrightarrow{OA}$ is perpendicular to $\\overrightarrow{BC}$ and $\\overrightarrow{OB}$ is perpendicular to $\\overrightarrow{CA}$, show that $\\overrightarrow{OC}$ is perpendicular to $\\overrightarrow{AB}$.",
+   "answer": "$\\overrightarrow{OA} \\perp \\overrightarrow{BC}$: $\\mathbf{a}\\cdot(\\mathbf{c} - \\mathbf{b}) = 0$, so $\\mathbf{a}\\cdot\\mathbf{b} = \\mathbf{a}\\cdot\\mathbf{c}$. (1)\n\n$\\overrightarrow{OB} \\perp \\overrightarrow{CA}$: $\\mathbf{b}\\cdot(\\mathbf{a} - \\mathbf{c}) = 0$, so $\\mathbf{a}\\cdot\\mathbf{b} = \\mathbf{b}\\cdot\\mathbf{c}$. (2)\n\nFrom (1) and (2), $\\mathbf{a}\\cdot\\mathbf{c} = \\mathbf{b}\\cdot\\mathbf{c}$, so $\\mathbf{c}\\cdot(\\mathbf{b} - \\mathbf{a}) = 0$. Since $\\mathbf{b} - \\mathbf{a} = \\overrightarrow{AB}$, $\\overrightarrow{OC}$ is perpendicular to $\\overrightarrow{AB}$."
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.2"
+   ],
+   "question": "Show that $\\tan\\dfrac{\\pi}{12} = 2 - \\sqrt{3}$.",
+   "answer": "$$\\tan\\frac{\\pi}{12} = \\tan\\left(\\frac{\\pi}{3} - \\frac{\\pi}{4}\\right) = \\frac{\\sqrt{3} - 1}{1 + \\sqrt{3}} \\times \\frac{1 - \\sqrt{3}}{1 - \\sqrt{3}} = \\frac{\\sqrt{3} - 3 - 1 + \\sqrt{3}}{1 - 3} = \\frac{-4 + 2\\sqrt{3}}{-2} = 2 - \\sqrt{3}.$$\n(Alternatively, use $\\tan\\frac{\\pi}{6} = \\frac{2t}{1 - t^2}$ with $t = \\tan\\frac{\\pi}{12}$, solve $t^2 + 2\\sqrt{3}t - 1 = 0$ and take the positive root since $\\frac{\\pi}{12}$ is in the first quadrant.)"
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.2"
+   ],
+   "question": "Given that $\\sin(x + \\alpha) = k\\cos(x - \\alpha)$, show that $\\tan x = \\dfrac{k - \\tan\\alpha}{1 - k\\tan\\alpha}$.",
+   "answer": "$$\\sin x\\cos\\alpha + \\cos x\\sin\\alpha = k\\cos x\\cos\\alpha + k\\sin x\\sin\\alpha.$$\nDivide by $\\cos x\\cos\\alpha$: $\\tan x + \\tan\\alpha = k + k\\tan x\\tan\\alpha$, so $\\tan x(1 - k\\tan\\alpha) = k - \\tan\\alpha$ and\n$$\\tan x = \\frac{k - \\tan\\alpha}{1 - k\\tan\\alpha}.$$"
+  },
+  {
+   "ref": "Q12(b)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.1",
+    "11.3.2.2"
+   ],
+   "question": "It is known that $\\tan\\dfrac{\\pi}{12} = 2 - \\sqrt{3}$, and that if $\\sin(x + \\alpha) = k\\cos(x - \\alpha)$ then $\\tan x = \\dfrac{k - \\tan\\alpha}{1 - k\\tan\\alpha}$. Using these results, solve, for $0 < x < 2\\pi$, the equation\n$$(\\sqrt{3} - 1)\\sin\\left(x + \\frac{\\pi}{3}\\right) = \\cos\\left(x - \\frac{\\pi}{3}\\right).$$",
+   "answer": "Here $\\alpha = \\frac{\\pi}{3}$ and $k = \\frac{1}{\\sqrt{3} - 1}$:\n$$\\tan x = \\frac{\\frac{1}{\\sqrt{3} - 1} - \\sqrt{3}}{1 - \\frac{\\sqrt{3}}{\\sqrt{3} - 1}} = \\frac{1 - \\sqrt{3}(\\sqrt{3} - 1)}{\\sqrt{3} - 1 - \\sqrt{3}} = \\frac{1 - 3 + \\sqrt{3}}{-1} = 2 - \\sqrt{3} = \\tan\\frac{\\pi}{12}.$$\nSo $x = \\dfrac{\\pi}{12}$ or $x = \\dfrac{13\\pi}{12}$."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "Find $k$ such that $\\displaystyle\\int_0^k \\frac{1}{\\sqrt{9 - x^2}}\\,dx = \\frac{\\pi}{2}$.",
+   "answer": "$$\\left[\\sin^{-1}\\frac{x}{3}\\right]_0^k = \\sin^{-1}\\frac{k}{3} = \\frac{\\pi}{2} \\Rightarrow \\frac{k}{3} = 1 \\Rightarrow k = 3.$$"
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.6"
+   ],
+   "question": "In a large pool of people, it is known that 10% of them take less than 12 minutes to complete a particular test. 15 people are selected at random. What is the probability that fewer than 2 people will take less than 12 minutes to complete the test, to 3 decimal places?",
+   "answer": "$X \\sim \\text{Bin}(15, 0.1)$:\n$$P(X < 2) = P(X = 0) + P(X = 1) = (0.9)^{15} + 15(0.1)(0.9)^{14} = 0.549 \\text{ (3 d.p.)}.$$"
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.1"
+   ],
+   "question": "A four-metre-long water tank, open at the top, is in the shape of a triangular prism. The triangular face is a right isosceles triangle with congruent sides of length 1 m, with the right angle at the bottom (as shown). Initially the tank is completely full of water, but it develops a leak and loses water at a constant rate of 0.08 cubic metres per hour. Let $h$ be the depth of water, in metres, in the tank after $t$ hours.\n\nShow that the volume, $V$, of water in the tank in cubic metres is given by $V = 4h^2$.",
+   "answer": "The water's cross-section is a right isosceles triangle similar to the end face, with its right angle at the bottom. Its height (depth) is $h$ and the angle between each sloping side and the vertical is $45°$, so the width of the water surface is $2h$.\nCross-sectional area $= \\frac{1}{2} \\times 2h \\times h = h^2$, so $V = 4h^2$.",
+   "images": [
+    "assets/img/ext1-2023-james-ruse/q14a.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "A four-metre-long water tank, open at the top, is in the shape of a triangular prism. The triangular face is a right isosceles triangle with congruent sides of length 1 m, with the right angle at the bottom (as shown). Initially the tank is completely full of water, but it develops a leak and loses water at a constant rate of 0.08 cubic metres per hour. Let $h$ be the depth of water, in metres, in the tank after $t$ hours. The volume of water is $V = 4h^2$.\n\nDetermine the rate of change of the depth when the depth is 0.6 metres.",
+   "answer": "$\\frac{dV}{dt} = -0.08$ and $\\frac{dV}{dh} = 8h$.\n$$\\frac{dh}{dt} = \\frac{dV}{dt} \\div \\frac{dV}{dh} = \\frac{-0.08}{8 \\times 0.6} = -\\frac{1}{60} \\text{ m/h}.$$\nThe depth is decreasing at $\\frac{1}{60}$ m per hour.",
+   "images": [
+    "assets/img/ext1-2023-james-ruse/q14a.png"
+   ]
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.1.3"
+   ],
+   "question": "The diagram shows the graph of $y = f(x)$, where $f(x) = \\dfrac{4x + 4}{x + 2}$, $x > -2$. Sketch the graph of $y = |f(x)|$, showing clearly the intercepts on the axes and the equations of any asymptotes.",
+   "answer": "$f(x) = 4 - \\dfrac{4}{x + 2}$, with $x$-intercept $-1$ and $y$-intercept 2.\n\nFor $x \\ge -1$, $y = |f(x)|$ is the same as $y = f(x)$: rising from $(-1, 0)$ through $(0, 2)$ towards the asymptote $y = 4$. For $-2 < x < -1$, the part below the axis is reflected above it, rising to $+\\infty$ as $x \\to -2^+$ (vertical asymptote $x = -2$). There is a sharp point (cusp) at $(-1, 0)$.",
+   "images": [
+    "assets/img/ext1-2023-james-ruse/q14b.png"
+   ]
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Find $\\displaystyle\\int 3x^2\\left(x^3 - 1\\right)^4 dx$ using the substitution $u = x^3 - 1$.",
+   "answer": "$du = 3x^2\\,dx$:\n$$\\int 3x^2(x^3 - 1)^4\\,dx = \\int u^4\\,du = \\frac{u^5}{5} + C = \\frac{(x^3 - 1)^5}{5} + C.$$"
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "Consider the expansion of $\\left(\\dfrac{x^3}{2} + \\dfrac{a}{x}\\right)^8$. If the constant term is 5103, determine the possible value(s) of $a$.",
+   "answer": "General term: $\\binom{8}{r}\\left(\\frac{x^3}{2}\\right)^{8-r}\\left(\\frac{a}{x}\\right)^r = \\binom{8}{r}2^{-(8-r)}a^r x^{3(8-r) - r}$.\nConstant term: $24 - 4r = 0 \\Rightarrow r = 6$:\n$$\\binom{8}{6}2^{-2}a^6 = 7a^6 = 5103 \\Rightarrow a^6 = 729 \\Rightarrow a = \\pm 3.$$"
+  },
+  {
+   "ref": "Q16(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Find $\\dfrac{d}{dx}\\left(\\cos^{-1}x + \\cos^{-1}(-x)\\right)$.",
+   "answer": "$$\\frac{d}{dx}\\left(\\cos^{-1}x + \\cos^{-1}(-x)\\right) = \\frac{-1}{\\sqrt{1 - x^2}} + \\frac{-(-1)}{\\sqrt{1 - (-x)^2}} = 0.$$"
+  },
+  {
+   "ref": "Q16(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.5",
+    "12.4.1.6"
+   ],
+   "question": "Given that $\\dfrac{d}{dx}\\left(\\cos^{-1}x + \\cos^{-1}(-x)\\right) = 0$, prove that $\\cos^{-1}x + \\cos^{-1}(-x) = \\pi$.",
+   "answer": "Since the derivative is 0 on $(-1, 1)$, $\\cos^{-1}x + \\cos^{-1}(-x) = C$ there. At $x = 0$: $\\frac{\\pi}{2} + \\frac{\\pi}{2} = \\pi$, so $C = \\pi$.\nAt the endpoints: $\\cos^{-1}(1) + \\cos^{-1}(-1) = 0 + \\pi = \\pi$ and $\\cos^{-1}(-1) + \\cos^{-1}(1) = \\pi$.\nHence $\\cos^{-1}x + \\cos^{-1}(-x) = \\pi$ for all $x \\in [-1, 1]$."
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.4"
+   ],
+   "question": "A liquid is being heated in an oven maintained at a constant temperature of 180°C. The rate of increase of the temperature of the liquid at any time $t$ minutes is proportional to $180 - \\theta$, where $\\theta$°C is the temperature of the liquid at that time.\n\nWrite a differential equation connecting $\\theta$ and $t$.",
+   "answer": "$\\dfrac{d\\theta}{dt} = k(180 - \\theta)$, where $k > 0$ is a constant."
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.7",
+    "12.5.4.11"
+   ],
+   "question": "A liquid is being heated in an oven maintained at a constant temperature of 180°C. The rate of increase of the temperature of the liquid at any time $t$ minutes is proportional to $180 - \\theta$, where $\\theta$°C is the temperature of the liquid at that time. So $\\frac{d\\theta}{dt} = k(180 - \\theta)$.\n\nWhen the liquid was placed in the oven its temperature was 25°C, and 5 minutes later its temperature had risen to 75°C. Find the temperature of the liquid after another 5 minutes.",
+   "answer": "Separate variables: $\\displaystyle\\int \\frac{d\\theta}{180 - \\theta} = \\int k\\,dt \\Rightarrow -\\ln(180 - \\theta) = kt + c$.\nAt $t = 0$, $\\theta = 25$: $c = -\\ln 155$, so $\\ln\\dfrac{155}{180 - \\theta} = kt$.\nAt $t = 5$, $\\theta = 75$: $5k = \\ln\\dfrac{155}{105} = \\ln\\dfrac{31}{21}$.\nAt $t = 10$: $\\ln\\dfrac{155}{180 - \\theta} = 2\\ln\\dfrac{31}{21}$, so\n$$180 - \\theta = 155\\left(\\frac{21}{31}\\right)^2 = \\frac{2205}{31} \\Rightarrow \\theta = \\frac{3375}{31} \\approx 109°\\text{C}.$$"
+  },
+  {
+   "ref": "Q17(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.3.3.1"
+   ],
+   "question": "The design for a company logo is shown. The upper border of the logo is part of the curve $y = \\dfrac{9\\pi^2 - 16x^2}{32}$, while the lower border is part of the curve $y = -1 + 2\\sin^2 x$. The curves intersect on the $x$-axis.\n\nSolve for the $x$-coordinates at which the two curves intersect.",
+   "answer": "On the $x$-axis: $9\\pi^2 - 16x^2 = 0 \\Rightarrow x = \\pm\\dfrac{3\\pi}{4}$. Check: $-1 + 2\\sin^2\\frac{3\\pi}{4} = -1 + 2\\left(\\frac{1}{2}\\right) = 0$ ✓.",
+   "images": [
+    "assets/img/ext1-2023-james-ruse/q17a.png"
+   ]
+  },
+  {
+   "ref": "Q17(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.1",
+    "12.4.2.3"
+   ],
+   "question": "The design for a company logo is shown. The upper border of the logo is part of the curve $y = \\dfrac{9\\pi^2 - 16x^2}{32}$, while the lower border is part of the curve $y = -1 + 2\\sin^2 x$. The curves intersect on the $x$-axis. They intersect at $x = \\pm\\frac{3\\pi}{4}$.\n\nDetermine the area of the company logo correct to 2 decimal places.",
+   "answer": "Note $-1 + 2\\sin^2 x = -\\cos 2x$.\n$$A = \\int_{-3\\pi/4}^{3\\pi/4}\\left(\\frac{9\\pi^2 - 16x^2}{32} + \\cos 2x\\right)dx = 2\\left[\\frac{9\\pi^2x}{32} - \\frac{x^3}{6} + \\frac{\\sin 2x}{2}\\right]_0^{3\\pi/4}$$\n$$= 2\\left(\\frac{27\\pi^3}{128} - \\frac{9\\pi^3}{128} - \\frac{1}{2}\\right) = \\frac{9\\pi^3}{32} - 1 \\approx 7.72 \\text{ units}^2.$$",
+   "images": [
+    "assets/img/ext1-2023-james-ruse/q17a.png"
+   ]
+  },
+  {
+   "ref": "Q17(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "The diagram shows the vertical cross-section through the centre of a goldfish bowl. The glass part of the bowl sits on a solid base (shaded). Each horizontal cross-section is a circle. The vertical cross-section through the centre of the bowl is symmetrical about the $y$-axis and can be described by the equation\n$$\\frac{x^2}{64} + \\frac{(y - 5)^2}{16} = 1.$$\nThe dashed horizontal line represents the diameter of the open top of the bowl. Given that the open top has a diameter of 15 cm, and that this is above the diameter of the bowl at its widest point, find the capacity of the glass part of the bowl, assuming that the thickness of the glass may be regarded as negligible.",
+   "answer": "The bowl's bottom is the lowest point of the ellipse, $y = 1$. At the top, $x = 7.5$:\n$$(y - 5)^2 = 16\\left(1 - \\frac{56.25}{64}\\right) = \\frac{31}{16} \\Rightarrow y = 5 + \\frac{\\sqrt{31}}{4} \\text{ (above the widest point, } y = 5\\text{)}.$$\nWith $x^2 = 64 - 4(y - 5)^2$ and $u = y - 5$:\n$$V = \\pi\\int_{-4}^{\\sqrt{31}/4}\\left(64 - 4u^2\\right)du = \\pi\\left[64u - \\frac{4u^3}{3}\\right]_{-4}^{\\sqrt{31}/4} = \\pi\\left(16\\sqrt{31} - \\frac{31\\sqrt{31}}{48} + 256 - \\frac{256}{3}\\right)$$\n$$= \\pi\\left(\\frac{737\\sqrt{31}}{48} + \\frac{512}{3}\\right) \\approx 805 \\text{ cm}^3.$$\n(No solution was provided for this question; this working is our own.)",
+   "images": [
+    "assets/img/ext1-2023-james-ruse/q17b.png"
+   ]
+  }
+ ]
+}
