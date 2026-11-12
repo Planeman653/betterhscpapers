@@ -1,0 +1,672 @@
+{
+ "id": "ext2-2022-james-ruse",
+ "course": "extension2",
+ "school": "James Ruse",
+ "year": 2022,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "James Ruse 2022 w. sol"
+ },
+ "indexed": "2026-11-12",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q13(a)",
+   "reason": "Not in 2024 syllabus: complex exponential $e^z$ (Euler form)"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Which expression is equal to $\\displaystyle\\int x^2\\sin x\\,dx$?",
+   "answer": "By parts with $u = x^2$, $dv = \\sin x\\,dx$: $\\int x^2\\sin x\\,dx = -x^2\\cos x + \\int 2x\\cos x\\,dx$.",
+   "options": [
+    "$-x^2\\cos x - \\displaystyle\\int 2x\\cos x\\,dx$",
+    "$-2x\\cos x + \\displaystyle\\int x^2\\cos x\\,dx$",
+    "$-x^2\\cos x + \\displaystyle\\int 2x\\cos x\\,dx$",
+    "$-2x\\cos x - \\displaystyle\\int x^2\\cos x\\,dx$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.9"
+   ],
+   "question": "Given that $(1 + i)^n = ai$, where $a$ is a non-zero real constant, then $(1 + i)^{2n+2}$ simplifies to",
+   "answer": "$(1 + i)^{2n+2} = \\left((1 + i)^n\\right)^2(1 + i)^2 = (ai)^2(2i) = -2a^2i$.",
+   "options": [
+    "$a^4$",
+    "$2a^2i$",
+    "$1 + a^2i$",
+    "$-2a^2i$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.7"
+   ],
+   "question": "A line in 3D space has equation $\\mathbf{r} = \\begin{pmatrix} 4 \\\\ -3 \\\\ 1 \\end{pmatrix} + \\lambda\\begin{pmatrix} -2 \\\\ 5 \\\\ 1 \\end{pmatrix}$, where $\\lambda$ is a real constant. Which of the following statements is true?",
+   "answer": "$\\lambda = 1$ gives $(4 - 2, -3 + 5, 1 + 1) = (2, 2, 2)$.",
+   "options": [
+    "The line passes through the origin.",
+    "The point $(-2, 5, 1)$ lies on the line.",
+    "The point $(2, 2, 2)$ lies on the line.",
+    "The vector $4\\mathbf{i} - 3\\mathbf{j} + \\mathbf{k}$ points in the direction of the line."
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.7"
+   ],
+   "question": "A particle moves in simple harmonic motion represented by the displacement–time graph shown. Which of the following represents the velocity of the particle as a function of time?",
+   "answer": "Amplitude 4, period 2, starting at the maximum: $x = 4\\cos\\pi t$, so $v = -4\\pi\\sin\\pi t$.",
+   "options": [
+    "$v(t) = 4\\cos\\pi t$",
+    "$v(t) = \\pi\\cos\\pi t$",
+    "$v(t) = -4\\pi\\sin\\pi t$",
+    "$v(t) = -4\\sin\\pi t$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/ext2-2022-james-ruse/q4.png"
+   ]
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.11"
+   ],
+   "question": "Which of the following options is the contrapositive of the statement: \"You win the game if you know the rules but are not overconfident.\"?",
+   "answer": "The statement is (know rules $\\wedge$ not overconfident) $\\Rightarrow$ win. The contrapositive is $\\neg$win $\\Rightarrow$ $\\neg$(know $\\wedge$ not overconfident), i.e. lose $\\Rightarrow$ (don't know rules $\\vee$ overconfident).",
+   "options": [
+    "If you lose the game, then you don't know the rules or you are overconfident.",
+    "If you don't know the rules or are overconfident, you lose the game.",
+    "If you know the rules or are overconfident, then you win the game.",
+    "A necessary condition that you know the rules or you are not overconfident is that you win the game."
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "If $1 + ki$ is a root of the quadratic $z^2 + kz + 5$, where $k$ is a real number, what is the value of $k$?",
+   "answer": "Real coefficients, so the roots are $1 \\pm ki$. Sum: $2 = -k$, so $k = -2$; product: $1 + k^2 = 5$ ✓.",
+   "options": [
+    "$k = 2$ only",
+    "$k = -2$ only",
+    "$k = 2$ and $k = -2$",
+    "No real value of $k$ exists."
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "Let $z = \\sqrt{3} + i$. If $z^n + (\\bar{z})^n$ is rational, which of the following is NOT a possible value of $n$?",
+   "answer": "$z = 2\\,\\text{cis}\\frac{\\pi}{6}$, so $z^n + \\bar{z}^n = 2^{n+1}\\cos\\frac{n\\pi}{6}$. For $n = 5$, $\\cos\\frac{5\\pi}{6} = -\\frac{\\sqrt{3}}{2}$ is irrational; for $n = 2, 3, 6$ the values $\\frac{1}{2}, 0, -1$ are rational.",
+   "options": [
+    "2",
+    "3",
+    "5",
+    "6"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.10",
+    "12.1.2.2"
+   ],
+   "question": "Consider the statements below.\n\nI. $f(x) \\le g(x) \\iff f'(x) \\le g'(x)$\n\nII. $f(x) \\le g(x)$ for all $x \\in [a, b]$ $\\iff \\displaystyle\\int_a^b f(x)\\,dx \\le \\int_a^b g(x)\\,dx$.\n\nWhich of the following options are true?",
+   "answer": "I: $f(x) = 0 \\le g(x) = 1 - x$ on $[0, 1]$ but $f' = 0 > g' = -1$. II: the forward direction holds, but not the converse — e.g. $f(x) = x$, $g(x) = 0$ on $[-1, 1]$ have equal integrals but $f > g$ for $x > 0$. Both are false.",
+   "options": [
+    "I and II are both false.",
+    "I is false but II is true.",
+    "I is true but II is false.",
+    "I and II are both true."
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.1"
+   ],
+   "question": "A particle is moving along a straight line so that initially its displacement is $x = 1$, its velocity is $v = 2$, and its acceleration is $a = 4$. Which is a possible equation describing the motion of the particle?",
+   "answer": "Use $a = v\\frac{dv}{dx}$ at $x = 1$. A: $v = 2$, $\\frac{dv}{dx} = 2$, $a = 4$ ✓. B gives $a = 8$; C gives $v^2 < 0$; D gives $v = 7$.",
+   "options": [
+    "$v = 2\\sin(x - 1) + 2$",
+    "$v = 2 + 4\\ln x$",
+    "$v^2 = 4(x^2 - 2)$",
+    "$v = x^2 + 2x + 4$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.13"
+   ],
+   "question": "Let $\\mathbf{r}(t)$ be a curve in 3D space. The diagrams show projections of $\\mathbf{r}(t)$ onto the $xy$, $xz$ and $yz$ planes (not to scale). Which of the following is the correct vector representation of $\\mathbf{r}(t)$?",
+   "answer": "The $xy$ projection is an upward parabola with endpoints: $x = 2\\cos t$, $y = 4\\cos 2t = 2x^2 - 4$ fits ($x = 2\\sin t$ would give $y = 4 - 2x^2$, opening downwards). The $xz$ and $yz$ projections are regular waves of constant wavelength, so $z = t$ (not $\\sqrt{t}$), with $y$ oscillating twice as fast as $x$.",
+   "options": [
+    "$\\mathbf{r}(t) = (2\\sin t)\\mathbf{i} + (4\\cos 2t)\\mathbf{j} + t\\mathbf{k}$",
+    "$\\mathbf{r}(t) = (2\\sin t)\\mathbf{i} + (4\\sin 2t)\\mathbf{j} + t\\mathbf{k}$",
+    "$\\mathbf{r}(t) = (2\\cos t)\\mathbf{i} + (4\\cos 2t)\\mathbf{j} + t\\mathbf{k}$",
+    "$\\mathbf{r}(t) = (2\\cos t)\\mathbf{i} + (4\\sin 2t)\\mathbf{j} + \\sqrt{t}\\mathbf{k}$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/ext2-2022-james-ruse/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.7",
+    "12.1.1.6"
+   ],
+   "question": "Write the negation of the statement $P$ below using logic symbols.\n$$P:\\ \\forall x \\in \\mathbb{Z}^+, \\exists y \\in \\mathbb{Z}^+, y = x - 1.$$",
+   "answer": "$\\neg P:\\ \\exists x \\in \\mathbb{Z}^+, \\forall y \\in \\mathbb{Z}^+, y \\ne x - 1$."
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.2.2"
+   ],
+   "question": "Prove that the statement $P:\\ \\forall x \\in \\mathbb{Z}^+, \\exists y \\in \\mathbb{Z}^+, y = x - 1$ is false by providing a counterexample.",
+   "answer": "Take $x = 1$: then $y = x - 1 = 0 \\notin \\mathbb{Z}^+$, so no positive integer $y$ works. Hence $P$ is false."
+  },
+  {
+   "ref": "Q11(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.3.5"
+   ],
+   "question": "Prove that $x + y \\ge 2\\sqrt{xy}$ for positive real numbers $x$ and $y$.",
+   "answer": "$\\left(\\sqrt{x} - \\sqrt{y}\\right)^2 \\ge 0 \\Rightarrow x - 2\\sqrt{xy} + y \\ge 0 \\Rightarrow x + y \\ge 2\\sqrt{xy}$."
+  },
+  {
+   "ref": "Q11(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.5",
+    "12.1.3.6"
+   ],
+   "question": "It is known that $a + b \\ge 2\\sqrt{ab}$ for positive reals $a, b$. Hence, or otherwise, find the minimum value of the function\n$$f(x) = \\frac{9x^2\\sin^2x + 4}{x\\sin x}$$\nin the domain $0 < x < \\pi$.",
+   "answer": "On $0 < x < \\pi$, $x\\sin x > 0$, so\n$$f(x) = 9x\\sin x + \\frac{4}{x\\sin x} \\ge 2\\sqrt{9x\\sin x\\cdot\\frac{4}{x\\sin x}} = 12.$$\nEquality needs $9x\\sin x = \\frac{4}{x\\sin x}$, i.e. $x\\sin x = \\frac{2}{3}$, which has a solution in $(0, \\pi)$ since $x\\sin x$ is continuous, tends to 0 at both ends and equals $\\frac{\\pi}{2} > \\frac{2}{3}$ at $x = \\frac{\\pi}{2}$. So the minimum value is 12."
+  },
+  {
+   "ref": "Q11(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.9"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{1}{\\sqrt{3 + 2x - x^2}}\\,dx$.",
+   "answer": "$3 + 2x - x^2 = 4 - (x - 1)^2$, so $\\displaystyle\\int\\frac{dx}{\\sqrt{4 - (x - 1)^2}} = \\sin^{-1}\\left(\\frac{x - 1}{2}\\right) + C$."
+  },
+  {
+   "ref": "Q11(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.8"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{x + 7}{1 - x^2}\\,dx$.",
+   "answer": "$\\dfrac{x + 7}{(1 - x)(1 + x)} = \\dfrac{A}{1 - x} + \\dfrac{B}{1 + x}$: $x + 7 = A(1 + x) + B(1 - x)$. $x = 1$: $A = 4$; $x = -1$: $B = 3$.\n$$\\int\\left(\\frac{4}{1 - x} + \\frac{3}{1 + x}\\right)dx = -4\\ln|1 - x| + 3\\ln|1 + x| + C.$$"
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.6",
+    "12.2.2.1"
+   ],
+   "question": "Determine whether the line through the points $(2, 0, 9)$ and $(-4, 1, 5)$ and the line given by $\\mathbf{r} = \\begin{pmatrix} 5 \\\\ 2 \\\\ -8 \\end{pmatrix} + \\lambda\\begin{pmatrix} 0 \\\\ -9 \\\\ -3 \\end{pmatrix}$ are parallel, perpendicular or neither. You must show all your working.",
+   "answer": "Direction of the first line: $(-4, 1, 5) - (2, 0, 9) = (-6, 1, -4)$. It is not a multiple of $(0, -9, -3)$ (first components $-6$ and $0$), so the lines are not parallel.\n$(-6, 1, -4)\\cdot(0, -9, -3) = 0 - 9 + 12 = 3 \\ne 0$, so they are not perpendicular. Neither."
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "Let $\\mathbf{a}$ and $\\mathbf{b}$ be non-zero vectors and $\\mathbf{F}(t) = e^{2t}\\mathbf{a} + e^{-2t}\\mathbf{b}$. Prove that $\\mathbf{F}''(t)$ has the same direction as $\\mathbf{F}(t)$.",
+   "answer": "$\\mathbf{F}'(t) = 2e^{2t}\\mathbf{a} - 2e^{-2t}\\mathbf{b}$ and $\\mathbf{F}''(t) = 4e^{2t}\\mathbf{a} + 4e^{-2t}\\mathbf{b} = 4\\mathbf{F}(t)$. Since $4 > 0$, $\\mathbf{F}''(t)$ is a positive multiple of $\\mathbf{F}(t)$, so they have the same direction (whenever $\\mathbf{F}(t) \\ne \\mathbf{0}$)."
+  },
+  {
+   "ref": "Q11(f)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.5"
+   ],
+   "question": "Show that a particle which moves according to the equation $v^2 = 36 - 6x - 2x^2$ is undergoing simple harmonic motion, where $v$ is the velocity of the particle and $x$ is the displacement of the particle.",
+   "answer": "$$\\ddot{x} = \\frac{d}{dx}\\left(\\frac{1}{2}v^2\\right) = \\frac{1}{2}(-6 - 4x) = -2\\left(x + \\frac{3}{2}\\right).$$\nThis is of the form $\\ddot{x} = -n^2(x - c)$ with $n = \\sqrt{2}$, $c = -\\frac{3}{2}$, so the motion is simple harmonic about $x = -\\frac{3}{2}$."
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.1.19"
+   ],
+   "question": "Find the Cartesian equation of the vector function $\\mathbf{r}(t) = \\begin{pmatrix} \\frac{1}{2}(\\cos t - \\sin t) \\\\ \\cos^3t - \\sin^3t \\end{pmatrix}$.",
+   "answer": "$x = \\frac{1}{2}(\\cos t - \\sin t)$ and $y = (\\cos t - \\sin t)(1 + \\sin t\\cos t)$.\nFrom $(\\cos t - \\sin t)^2 = 1 - 2\\sin t\\cos t$: $4x^2 = 1 - 2\\sin t\\cos t$, so $\\sin t\\cos t = \\frac{1 - 4x^2}{2}$.\n$$y = 2x\\left(1 + \\frac{1 - 4x^2}{2}\\right) = x(3 - 4x^2) = 3x - 4x^3.$$\nSince $\\cos t - \\sin t = \\sqrt{2}\\cos\\left(t + \\frac{\\pi}{4}\\right)$, $-\\frac{\\sqrt{2}}{2} \\le x \\le \\frac{\\sqrt{2}}{2}$."
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.5.1"
+   ],
+   "question": "A particle of unit mass is projected vertically upwards from the ground at a speed of $V$ m s⁻¹. The particle is acted on by both gravity and air resistance of magnitude $\\frac{v^2}{40}$, where $v$ is the velocity of the particle in m s⁻¹. After $t$ seconds, the particle's height from the ground is $x$ metres.\n\nDraw a force diagram illustrating all the forces acting on the particle while the particle is moving upwards and derive the equation of motion $\\ddot{x} = -\\left(g + \\dfrac{v^2}{40}\\right)$.",
+   "answer": "While moving upwards, both forces act downwards: the weight $mg = g$ and the resistance $\\frac{v^2}{40}$. Taking up as positive with $m = 1$:\n$$\\ddot{x} = -g - \\frac{v^2}{40} = -\\left(g + \\frac{v^2}{40}\\right).$$"
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.5.2"
+   ],
+   "question": "A particle of unit mass is projected vertically upwards from the ground at a speed of $V$ m s⁻¹. The particle is acted on by both gravity and air resistance of magnitude $\\frac{v^2}{40}$, where $v$ is the velocity of the particle in m s⁻¹. After $t$ seconds, the particle's height from the ground is $x$ metres. While rising, $\\ddot{x} = -\\left(g + \\dfrac{v^2}{40}\\right)$.\n\nShow that the greatest height the particle reaches is $h = 20\\ln\\left(\\dfrac{40g + V^2}{40g}\\right)$.",
+   "answer": "$v\\dfrac{dv}{dx} = -\\dfrac{40g + v^2}{40}$, so $\\dfrac{dx}{dv} = -\\dfrac{40v}{40g + v^2}$.\n$$h = \\int_V^0 -\\frac{40v}{40g + v^2}\\,dv = 20\\left[\\ln(40g + v^2)\\right]_0^V = 20\\ln\\left(\\frac{40g + V^2}{40g}\\right).$$"
+  },
+  {
+   "ref": "Q12(b)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.5.2"
+   ],
+   "question": "A particle of unit mass is projected vertically upwards from the ground at a speed of $V$ m s⁻¹. The particle is acted on by both gravity and air resistance of magnitude $\\frac{v^2}{40}$, where $v$ is the velocity of the particle in m s⁻¹. After $t$ seconds, the particle's height from the ground is $x$ metres. While rising, $\\ddot{x} = -\\left(g + \\dfrac{v^2}{40}\\right)$.\n\nFind the time taken to reach the greatest height.",
+   "answer": "$\\dfrac{dv}{dt} = -\\dfrac{40g + v^2}{40}$, so\n$$T = \\int_0^V\\frac{40}{40g + v^2}\\,dv = \\frac{40}{\\sqrt{40g}}\\left[\\tan^{-1}\\frac{v}{\\sqrt{40g}}\\right]_0^V = \\sqrt{\\frac{40}{g}}\\tan^{-1}\\left(\\frac{V}{\\sqrt{40g}}\\right) \\text{ seconds}.$$"
+  },
+  {
+   "ref": "Q12(b)(iv)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.5.5"
+   ],
+   "question": "A particle of unit mass is projected vertically upwards from the ground at a speed of $V$ m s⁻¹. The particle is acted on by both gravity and air resistance of magnitude $\\frac{v^2}{40}$, where $v$ is the velocity of the particle in m s⁻¹. After $t$ seconds, the particle's height from the ground is $x$ metres.\n\nHaving reached its maximum height, the particle falls back down towards its initial point of projection. Assume that only gravity and air resistance act on the particle. Find the terminal velocity of the particle on its way down.",
+   "answer": "Taking down as positive, $\\ddot{x} = g - \\dfrac{v^2}{40}$. Terminal velocity when $\\ddot{x} = 0$: $v_T = \\sqrt{40g}$ m s⁻¹ (about 19.8 m s⁻¹ with $g = 9.8$)."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.6"
+   ],
+   "question": "Use mathematical induction to prove that the number of diagonals of a convex polygon with $n$ vertices is $\\frac{1}{2}n(n - 3)$ for $n \\ge 4$.",
+   "answer": "**$n = 4$:** a quadrilateral has 2 diagonals, and $\\frac{1}{2}(4)(1) = 2$. True.\n\n**Assume true for $n = k$:** a convex $k$-gon has $\\frac{1}{2}k(k - 3)$ diagonals.\n\n**Prove for $n = k + 1$:** a convex $(k+1)$-gon is formed from a convex $k$-gon by adding a vertex $V$ between two adjacent vertices $A$ and $B$. The old side $AB$ becomes a diagonal (+1), and $V$ joins to each of the $k - 2$ vertices other than $A$ and $B$ by a diagonal. So the number of diagonals is\n$$\\frac{1}{2}k(k - 3) + 1 + (k - 2) = \\frac{k^2 - k - 2}{2} = \\frac{1}{2}(k + 1)(k - 2) = \\frac{1}{2}(k + 1)\\left((k + 1) - 3\\right).$$\nHence true for all $n \\ge 4$ by mathematical induction."
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.11"
+   ],
+   "question": "A function $f(x)$ with domain $\\mathcal{D}$ is called *injective* if $\\forall x_1, x_2 \\in \\mathcal{D}$, $x_1 \\ne x_2 \\Rightarrow f(x_1) \\ne f(x_2)$. Write down an equivalent statement for $f(x)$ to be injective.",
+   "answer": "Using the contrapositive: $\\forall x_1, x_2 \\in \\mathcal{D}$, $f(x_1) = f(x_2) \\Rightarrow x_1 = x_2$."
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.12"
+   ],
+   "question": "A function $f(x)$ with domain $\\mathcal{D}$ is injective if $\\forall x_1, x_2 \\in \\mathcal{D}$, $f(x_1) = f(x_2) \\Rightarrow x_1 = x_2$. Prove that $f(x) = 3x + 4$ is an injective function across its natural domain.",
+   "answer": "The natural domain is $\\mathbb{R}$. Let $x_1, x_2 \\in \\mathbb{R}$ with $f(x_1) = f(x_2)$. Then $3x_1 + 4 = 3x_2 + 4 \\Rightarrow 3x_1 = 3x_2 \\Rightarrow x_1 = x_2$. So $f$ is injective."
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.8"
+   ],
+   "question": "Three points $A$, $B$ and $C$ have position vectors $-2\\mathbf{a} + 3\\mathbf{b} + 5\\mathbf{c}$, $\\mathbf{a} + 2\\mathbf{b} + 3\\mathbf{c}$ and $7\\mathbf{a} - \\mathbf{c}$ respectively. The point $B$ lies between $A$ and $C$. Show that $A$, $B$ and $C$ are collinear.",
+   "answer": "$\\overrightarrow{AB} = (\\mathbf{a} + 2\\mathbf{b} + 3\\mathbf{c}) - (-2\\mathbf{a} + 3\\mathbf{b} + 5\\mathbf{c}) = 3\\mathbf{a} - \\mathbf{b} - 2\\mathbf{c}$.\n$\\overrightarrow{BC} = (7\\mathbf{a} - \\mathbf{c}) - (\\mathbf{a} + 2\\mathbf{b} + 3\\mathbf{c}) = 6\\mathbf{a} - 2\\mathbf{b} - 4\\mathbf{c} = 2\\overrightarrow{AB}$.\n$\\overrightarrow{AB}$ and $\\overrightarrow{BC}$ are parallel and share the point $B$, so $A$, $B$, $C$ are collinear."
+  },
+  {
+   "ref": "Q13(e)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.13"
+   ],
+   "question": "The stairs of a cylindrical tower spiral upwards from the ground to an observation deck at point $B$, as shown. The path begins at point $A$ on the ground along the $x$-axis and finishes at $B$. The time taken in seconds for Hannah to walk along the spiral path starting at $A$ is $t$. It takes Hannah $70\\pi$ seconds to reach point $B$. Her position on this path is\n$$\\mathbf{r}(t) = \\begin{pmatrix} 15\\cos(0.5t) \\\\ 15\\sin(0.5t) \\\\ 0.3t \\end{pmatrix} \\text{ metres}.$$\n\nDetermine the height of the observation deck above the ground correct to 2 decimal places.",
+   "answer": "$z(70\\pi) = 0.3 \\times 70\\pi = 21\\pi \\approx 65.97$ m.",
+   "images": [
+    "assets/img/ext2-2022-james-ruse/q13e.png"
+   ]
+  },
+  {
+   "ref": "Q13(e)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.13"
+   ],
+   "question": "The stairs of a cylindrical tower spiral upwards from the ground to an observation deck at point $B$, as shown. The path begins at point $A$ on the ground along the $x$-axis and finishes at $B$. The time taken in seconds for Hannah to walk along the spiral path starting at $A$ is $t$. It takes Hannah $70\\pi$ seconds to reach point $B$. Her position on this path is\n$$\\mathbf{r}(t) = \\begin{pmatrix} 15\\cos(0.5t) \\\\ 15\\sin(0.5t) \\\\ 0.3t \\end{pmatrix} \\text{ metres}.$$\n\nHannah walks one loop around the tower and ends up directly above point $A$. At what time and height does this occur?",
+   "answer": "One loop: $0.5t = 2\\pi \\Rightarrow t = 4\\pi \\approx 12.57$ s, at height $0.3 \\times 4\\pi = 1.2\\pi \\approx 3.77$ m.",
+   "images": [
+    "assets/img/ext2-2022-james-ruse/q13e.png"
+   ]
+  },
+  {
+   "ref": "Q13(e)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.13"
+   ],
+   "question": "The stairs of a cylindrical tower spiral upwards from the ground to an observation deck at point $B$, as shown. The path begins at point $A$ on the ground along the $x$-axis and finishes at $B$. The time taken in seconds for Hannah to walk along the spiral path starting at $A$ is $t$. It takes Hannah $70\\pi$ seconds to reach point $B$. Her position on this path is\n$$\\mathbf{r}(t) = \\begin{pmatrix} 15\\cos(0.5t) \\\\ 15\\sin(0.5t) \\\\ 0.3t \\end{pmatrix} \\text{ metres}.$$\n\nHannah walks one loop around the tower (to $t = 4\\pi$). Find Hannah's speed at this point.",
+   "answer": "$\\dot{\\mathbf{r}}(t) = (-7.5\\sin 0.5t, 7.5\\cos 0.5t, 0.3)$, so\n$$|\\dot{\\mathbf{r}}| = \\sqrt{56.25(\\sin^2 0.5t + \\cos^2 0.5t) + 0.09} = \\sqrt{56.34} \\approx 7.51 \\text{ m s}^{-1}$$\n(constant, so the same at $t = 4\\pi$).",
+   "images": [
+    "assets/img/ext2-2022-james-ruse/q13e.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.5.5",
+    "12.3.1.11"
+   ],
+   "question": "Let $P$ be the point which represents the complex number $z = x + iy$ in the complex plane. Sketch the curve traced out by $P$ if $|z - 1 - i| = \\text{Im}(z + 1 + i)$.",
+   "answer": "$\\sqrt{(x - 1)^2 + (y - 1)^2} = y + 1$ (so $y \\ge -1$). Squaring: $(x - 1)^2 + (y - 1)^2 = (y + 1)^2 \\Rightarrow (x - 1)^2 = 4y$.\nThe curve is the parabola $y = \\frac{1}{4}(x - 1)^2$: vertex $(1, 0)$, concave up, $y$-intercept $\\frac{1}{4}$, focus $(1, 1)$ (the point $1 + i$) and directrix $y = -1$."
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.10"
+   ],
+   "question": "Let $z = x + iy$. Show that $-(\\overline{iz}) = y + ix$.",
+   "answer": "$iz = i(x + iy) = -y + ix$, so $\\overline{iz} = -y - ix$ and $-(\\overline{iz}) = y + ix$."
+  },
+  {
+   "ref": "Q14(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.10"
+   ],
+   "question": "The point $P$ representing $z = x + iy$ traces the parabola $(x - 1)^2 = 4y$ (from $|z - 1 - i| = \\text{Im}(z + 1 + i)$). The point $Q$ represents the complex number $-(\\overline{iz}) = y + ix$. Sketch the curve traced out by $Q$ on the same diagram. Show all necessary features.",
+   "answer": "$Q$ is the reflection of $P$ in the line $y = x$ (the coordinates are swapped). So $Q$ traces $(y - 1)^2 = 4x$: a parabola opening to the right with vertex $(0, 1)$, $x$-intercept $\\frac{1}{4}$, focus $(1, 1)$ and directrix $x = -1$. The two parabolas are mirror images in $y = x$."
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "For $n = 0, 1, 2, \\dots$ define $I_n = \\displaystyle\\int_0^{\\pi/4}\\tan^n\\theta\\,d\\theta$.\n\nShow that $I_1 = \\frac{1}{2}\\ln 2$.",
+   "answer": "$I_1 = \\left[-\\ln\\cos\\theta\\right]_0^{\\pi/4} = -\\ln\\frac{1}{\\sqrt{2}} = \\frac{1}{2}\\ln 2$."
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "For $n = 0, 1, 2, \\dots$ define $I_n = \\displaystyle\\int_0^{\\pi/4}\\tan^n\\theta\\,d\\theta$.\n\nShow that for $n \\ge 2$, $I_n + I_{n-2} = \\dfrac{1}{n - 1}$.",
+   "answer": "$$I_n + I_{n-2} = \\int_0^{\\pi/4}\\tan^{n-2}\\theta(\\tan^2\\theta + 1)\\,d\\theta = \\int_0^{\\pi/4}\\tan^{n-2}\\theta\\sec^2\\theta\\,d\\theta = \\left[\\frac{\\tan^{n-1}\\theta}{n - 1}\\right]_0^{\\pi/4} = \\frac{1}{n - 1}.$$"
+  },
+  {
+   "ref": "Q14(b)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.9",
+    "12.4.1.14"
+   ],
+   "question": "For $n = 0, 1, 2, \\dots$ define $I_n = \\displaystyle\\int_0^{\\pi/4}\\tan^n\\theta\\,d\\theta$. It is known that $I_n + I_{n-2} = \\dfrac{1}{n - 1}$ for $n \\ge 2$.\n\nFor $n \\ge 2$, explain why $I_n < I_{n-2}$, and deduce that $\\dfrac{1}{2(n + 1)} < I_n < \\dfrac{1}{2(n - 1)}$.",
+   "answer": "For $0 < \\theta < \\frac{\\pi}{4}$, $0 < \\tan\\theta < 1$, so $\\tan^n\\theta < \\tan^{n-2}\\theta$ and hence $I_n < I_{n-2}$.\nUpper bound: $2I_n < I_n + I_{n-2} = \\frac{1}{n - 1}$, so $I_n < \\frac{1}{2(n - 1)}$.\nLower bound: $I_{n+2} < I_n$, so $\\frac{1}{n + 1} = I_{n+2} + I_n < 2I_n$, giving $I_n > \\frac{1}{2(n + 1)}$."
+  },
+  {
+   "ref": "Q14(b)(iv)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14",
+    "12.1.3.6"
+   ],
+   "question": "For $n = 0, 1, 2, \\dots$ define $I_n = \\displaystyle\\int_0^{\\pi/4}\\tan^n\\theta\\,d\\theta$. It is known that $I_1 = \\frac{1}{2}\\ln 2$, $I_n + I_{n-2} = \\frac{1}{n - 1}$ and $\\frac{1}{2(n + 1)} < I_n < \\frac{1}{2(n - 1)}$ for $n \\ge 2$.\n\nBy using the recurrence relation, find $I_5$ and deduce that $\\dfrac{2}{3} < \\ln 2 < \\dfrac{3}{4}$.",
+   "answer": "$I_3 = \\frac{1}{2} - I_1$ and $I_5 = \\frac{1}{4} - I_3 = \\frac{1}{2}\\ln 2 - \\frac{1}{4}$.\nWith $n = 5$: $\\frac{1}{12} < \\frac{1}{2}\\ln 2 - \\frac{1}{4} < \\frac{1}{8}$, so $\\frac{1}{3} < \\frac{1}{2}\\ln 2 < \\frac{3}{8}$ and $\\frac{2}{3} < \\ln 2 < \\frac{3}{4}$."
+  },
+  {
+   "ref": "Q15(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.17"
+   ],
+   "question": "Let $\\mathcal{S}_1$ be a sphere with equation $\\left|\\mathbf{r} - \\begin{pmatrix} 0 \\\\ -1 \\\\ 6 \\end{pmatrix}\\right| = 15$.\n\nShow that the point $P(4.2, -1, 0.4)$ lies inside the sphere $\\mathcal{S}_1$.",
+   "answer": "Distance from the centre $(0, -1, 6)$: $\\sqrt{4.2^2 + 0^2 + (-5.6)^2} = \\sqrt{49} = 7 < 15$, so $P$ is inside."
+  },
+  {
+   "ref": "Q15(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.4"
+   ],
+   "question": "Let $\\mathcal{S}_1$ be a sphere with equation $\\left|\\mathbf{r} - \\begin{pmatrix} 0 \\\\ -1 \\\\ 6 \\end{pmatrix}\\right| = 15$.\n\nFind the equation of the line $\\ell$ passing through the centre of the sphere $\\mathcal{S}_1$ and the point $P(4.2, -1, 0.4)$. Express the direction vector of your line as a unit vector.",
+   "answer": "Direction $(4.2, 0, -5.6)$ has length 7, so the unit vector is $(0.6, 0, -0.8)$:\n$$\\ell:\\ \\mathbf{r} = \\begin{pmatrix} 0 \\\\ -1 \\\\ 6 \\end{pmatrix} + \\lambda\\begin{pmatrix} 0.6 \\\\ 0 \\\\ -0.8 \\end{pmatrix}.$$"
+  },
+  {
+   "ref": "Q15(a)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.18"
+   ],
+   "question": "Let $\\mathcal{S}_1$ be a sphere with equation $\\left|\\mathbf{r} - \\begin{pmatrix} 0 \\\\ -1 \\\\ 6 \\end{pmatrix}\\right| = 15$. The line $\\ell:\\ \\mathbf{r} = (0, -1, 6) + \\lambda(0.6, 0, -0.8)$ passes through its centre and the point $P(4.2, -1, 0.4)$.\n\nAnother sphere $\\mathcal{S}_2$ has radius 10. Its centre is free to move along the line $\\ell$. Find all possible vector equations of sphere $\\mathcal{S}_2$ such that it is internally tangent to $\\mathcal{S}_1$.",
+   "answer": "Internal tangency requires the distance between the centres to equal $15 - 10 = 5$. Since the direction vector is a unit vector, the centre is at $\\lambda = \\pm 5$: $(3, -1, 2)$ or $(-3, -1, 10)$.\n$$\\left|\\mathbf{r} - \\begin{pmatrix} 3 \\\\ -1 \\\\ 2 \\end{pmatrix}\\right| = 10 \\quad\\text{or}\\quad \\left|\\mathbf{r} - \\begin{pmatrix} -3 \\\\ -1 \\\\ 10 \\end{pmatrix}\\right| = 10.$$"
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.5.1.4"
+   ],
+   "question": "Two particles with opposite charges are attracted to each other with a force numerically equal to $\\frac{k^2}{x^2}$, where $x$ is their distance apart in metres. Particle $A$ is fixed and particle $B$, of mass $m$ kg, is released from rest at a distance $2a$ metres from $A$, as shown.\n\nShow that the speed $v$ of particle $B$ can be given by $v^2 = \\dfrac{2k^2}{m}\\left(\\dfrac{1}{x} - \\dfrac{1}{2a}\\right)$.",
+   "answer": "The force acts towards $A$ (decreasing $x$): $m\\ddot{x} = -\\dfrac{k^2}{x^2}$, so\n$$\\frac{d}{dx}\\left(\\frac{1}{2}v^2\\right) = -\\frac{k^2}{mx^2} \\Rightarrow \\frac{1}{2}v^2 = \\frac{k^2}{mx} + C.$$\nAt $x = 2a$, $v = 0$: $C = -\\frac{k^2}{2am}$. So $v^2 = \\dfrac{2k^2}{m}\\left(\\dfrac{1}{x} - \\dfrac{1}{2a}\\right)$.",
+   "images": [
+    "assets/img/ext2-2022-james-ruse/q15b.png"
+   ]
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.4.1.6"
+   ],
+   "question": "Two particles with opposite charges are attracted to each other with a force numerically equal to $\\frac{k^2}{x^2}$, where $x$ is their distance apart in metres. Particle $A$ is fixed and particle $B$, of mass $m$ kg, is released from rest at a distance $2a$ metres from $A$, as shown. The speed satisfies $v^2 = \\dfrac{2k^2}{m}\\left(\\dfrac{1}{x} - \\dfrac{1}{2a}\\right)$.\n\nFind the time taken for particle $B$ to reach halfway to $A$ from the start.",
+   "answer": "$v^2 = \\dfrac{k^2}{am}\\cdot\\dfrac{2a - x}{x}$ and $B$ moves towards $A$, so $\\dfrac{dx}{dt} = -\\dfrac{k}{\\sqrt{am}}\\sqrt{\\dfrac{2a - x}{x}}$.\n$$T = \\frac{\\sqrt{am}}{k}\\int_a^{2a}\\sqrt{\\frac{x}{2a - x}}\\,dx.$$\nLet $x = 2a\\sin^2\\theta$, $dx = 4a\\sin\\theta\\cos\\theta\\,d\\theta$, $\\sqrt{\\frac{x}{2a - x}} = \\tan\\theta$; $x = a \\to \\theta = \\frac{\\pi}{4}$, $x = 2a \\to \\theta = \\frac{\\pi}{2}$.\n$$\\int_{\\pi/4}^{\\pi/2}4a\\sin^2\\theta\\,d\\theta = 2a\\left[\\theta - \\frac{\\sin 2\\theta}{2}\\right]_{\\pi/4}^{\\pi/2} = 2a\\left(\\frac{\\pi}{4} + \\frac{1}{2}\\right) = a\\left(\\frac{\\pi}{2} + 1\\right).$$\n$$T = \\frac{a\\sqrt{am}}{k}\\left(\\frac{\\pi}{2} + 1\\right) = \\frac{(\\pi + 2)a\\sqrt{am}}{2k} \\text{ seconds}.$$",
+   "images": [
+    "assets/img/ext2-2022-james-ruse/q15b.png"
+   ]
+  },
+  {
+   "ref": "Q16(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.12"
+   ],
+   "question": "Let $w$ be the fifth root of unity with smallest positive argument.\n\nShow that $1 + w + w^2 + w^3 + w^4 = 0$.",
+   "answer": "$w^5 = 1$ and $w \\ne 1$, so $1 + w + w^2 + w^3 + w^4 = \\dfrac{w^5 - 1}{w - 1} = 0$."
+  },
+  {
+   "ref": "Q16(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.12"
+   ],
+   "question": "Let $w$ be the fifth root of unity with smallest positive argument. It is known that $1 + w + w^2 + w^3 + w^4 = 0$.\n\nHence, or otherwise, show that $1 + 2w + 3w^2 + 4w^3 + 5w^4 = \\dfrac{5}{w - 1}$.",
+   "answer": "Let $S = 1 + 2w + 3w^2 + 4w^3 + 5w^4$. Then $wS = w + 2w^2 + 3w^3 + 4w^4 + 5w^5$ and\n$$S - wS = 1 + w + w^2 + w^3 + w^4 - 5w^5 = 0 - 5 = -5.$$\nSo $S(1 - w) = -5$ and $S = \\dfrac{5}{w - 1}$."
+  },
+  {
+   "ref": "Q16(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.12"
+   ],
+   "question": "Let $w$ be the fifth root of unity with smallest positive argument.\n\nBy expressing $z^5 - 1$ as a product of its factors, deduce that $(1 - w)(1 - w^2)(1 - w^3)(1 - w^4) = 5$.",
+   "answer": "The roots of $z^5 = 1$ are $1, w, w^2, w^3, w^4$, so $z^5 - 1 = (z - 1)(z - w)(z - w^2)(z - w^3)(z - w^4)$. Dividing by $z - 1$:\n$$1 + z + z^2 + z^3 + z^4 = (z - w)(z - w^2)(z - w^3)(z - w^4).$$\nSetting $z = 1$: $(1 - w)(1 - w^2)(1 - w^3)(1 - w^4) = 5$."
+  },
+  {
+   "ref": "Q16(a)(iv)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.12"
+   ],
+   "question": "Let $w$ be the fifth root of unity with smallest positive argument.\n\nIf $k$ is a positive integer, show that\n$$1 + w^k + w^{2k} + w^{3k} + w^{4k} = \\begin{cases} 5, & \\text{if } k \\text{ is divisible by } 5 \\\\ 0, & \\text{otherwise.} \\end{cases}$$",
+   "answer": "If $5 \\mid k$, then $w^k = (w^5)^{k/5} = 1$ and the sum is 5.\nOtherwise $w^k \\ne 1$ (as $w = \\text{cis}\\frac{2\\pi}{5}$ has order 5), and it is a geometric series with ratio $w^k$:\n$$\\frac{(w^k)^5 - 1}{w^k - 1} = \\frac{(w^5)^k - 1}{w^k - 1} = 0.$$"
+  },
+  {
+   "ref": "Q16(a)(v)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.12"
+   ],
+   "question": "Let $w$ be the fifth root of unity with smallest positive argument. It is known that $1 + w^k + w^{2k} + w^{3k} + w^{4k}$ equals 5 if $5 \\mid k$ and 0 otherwise.\n\nLet $\\ell$ be the largest integer such that $5\\ell \\le n$. Use the binomial theorem to show that for $n \\in \\mathbb{Z}^+$,\n$$\\frac{1}{5}\\left[2^n + (1 + w)^n + (1 + w^2)^n + (1 + w^3)^n + (1 + w^4)^n\\right] = \\binom{n}{0} + \\binom{n}{5} + \\binom{n}{10} + \\dots + \\binom{n}{5\\ell}.$$",
+   "answer": "Since $2 = 1 + w^0$, the bracket is $\\sum_{j=0}^{4}(1 + w^j)^n = \\sum_{j=0}^{4}\\sum_{r=0}^{n}\\binom{n}{r}w^{jr} = \\sum_{r=0}^{n}\\binom{n}{r}\\left(1 + w^r + w^{2r} + w^{3r} + w^{4r}\\right)$.\nThe inner sum is 5 when $5 \\mid r$ and 0 otherwise, so the bracket equals $5\\left[\\binom{n}{0} + \\binom{n}{5} + \\dots + \\binom{n}{5\\ell}\\right]$. Dividing by 5 gives the result."
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "Show that, for non-zero vectors $\\mathbf{u}$ and $\\mathbf{v}$, and non-zero real scalars $\\alpha$ and $\\beta$, $\\text{proj}_{\\beta\\mathbf{v}}(\\alpha\\mathbf{u}) = \\alpha\\,\\text{proj}_{\\mathbf{v}}(\\mathbf{u})$.",
+   "answer": "$$\\text{proj}_{\\beta\\mathbf{v}}(\\alpha\\mathbf{u}) = \\frac{\\alpha\\mathbf{u}\\cdot\\beta\\mathbf{v}}{\\beta\\mathbf{v}\\cdot\\beta\\mathbf{v}}\\,\\beta\\mathbf{v} = \\frac{\\alpha\\beta^2}{\\beta^2}\\cdot\\frac{\\mathbf{u}\\cdot\\mathbf{v}}{\\mathbf{v}\\cdot\\mathbf{v}}\\,\\mathbf{v} = \\alpha\\,\\text{proj}_{\\mathbf{v}}(\\mathbf{u}).$$"
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.2.2.1",
+    "12.2.2.5"
+   ],
+   "question": "Consider the sequences of vectors $\\{\\mathbf{a}_n\\}$ and $\\{\\mathbf{b}_n\\}$ defined by\n$$\\mathbf{a}_n = \\frac{1}{5^n}\\begin{pmatrix} (-1)^{n+1}\\times 2 \\\\ 3 \\\\ (-1)^n \\end{pmatrix} \\quad\\text{and}\\quad \\mathbf{b}_n = \\frac{1}{2^n}\\begin{pmatrix} 1 \\\\ -8 \\\\ 7 \\end{pmatrix}$$\nfor all integers $n \\ge 0$. A sequence of projection vectors $\\{\\mathbf{c}_n\\}$ is defined by $\\mathbf{c}_n = \\text{proj}_{\\mathbf{a}_n}(\\mathbf{b}_n)$ for all integers $n \\ge 0$. You may use $\\text{proj}_{\\beta\\mathbf{v}}(\\alpha\\mathbf{u}) = \\alpha\\,\\text{proj}_{\\mathbf{v}}(\\mathbf{u})$. Find $\\displaystyle\\sum_{n=0}^{\\infty}\\mathbf{c}_n$.",
+   "answer": "Let $\\mathbf{b} = (1, -8, 7)$. By the result, $\\mathbf{c}_n = \\frac{1}{2^n}\\text{proj}_{\\mathbf{p}_n}\\mathbf{b}$, where $\\mathbf{p}_n = 5^n\\mathbf{a}_n$ alternates:\n- $n$ even: $\\mathbf{p} = (-2, 3, 1)$, $\\mathbf{p}\\cdot\\mathbf{b} = -19$, $|\\mathbf{p}|^2 = 14$: $\\text{proj} = -\\frac{19}{14}(-2, 3, 1)$.\n- $n$ odd: $\\mathbf{p} = (2, 3, -1)$, $\\mathbf{p}\\cdot\\mathbf{b} = -29$, $|\\mathbf{p}|^2 = 14$: $\\text{proj} = -\\frac{29}{14}(2, 3, -1)$.\n\n$\\sum_{\\text{even}}2^{-n} = \\frac{4}{3}$ and $\\sum_{\\text{odd}}2^{-n} = \\frac{2}{3}$, so\n$$\\sum_{n=0}^{\\infty}\\mathbf{c}_n = \\frac{4}{3}\\cdot\\left(-\\frac{19}{14}\\right)(-2, 3, 1) + \\frac{2}{3}\\cdot\\left(-\\frac{29}{14}\\right)(2, 3, -1) = \\frac{1}{42}(36, -402, -18) = \\frac{1}{7}\\begin{pmatrix} 6 \\\\ -67 \\\\ -3 \\end{pmatrix}.$$"
+  }
+ ]
+}
