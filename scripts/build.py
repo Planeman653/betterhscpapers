@@ -83,7 +83,7 @@ PREV_FIELDS = ("ref", "kind", "marks", "question", "options", "images", "answer"
 
 
 def add_previous_parts(items, dropped):
-    """Give each part the earlier parts of the same question (same paper), incl. dropped ones."""
+    """Give each sub-part the earlier sub-parts of the same part (same paper), incl. dropped ones."""
     parts = [(ref_key(it["ref"]), it["ref"], {k: it[k] for k in PREV_FIELDS if k in it}) for it in items]
     for d in dropped:
         # a dropped ref may cover a range, e.g. Q12(a)-(b): file it under its first part
@@ -92,6 +92,11 @@ def add_previous_parts(items, dropped):
     for it in items:
         g = ref_group(it["ref"])
         if not g:
+            continue
+        # Only sub-parts share context: Q12(c)(iii) gets Q12(c)(i)-(ii); Q12(d) gets nothing
+        # (Q12(a)-(c) are separate parts). Exception: roman parts directly under a question, Q15(ii).
+        last = re.findall(r"\(([^)]*)\)", it["ref"])[-1].strip().lower()
+        if "(" not in g and not (last in ROMAN and last not in "abcdefgh"):
             continue
         k = ref_key(it["ref"])
         prev = sorted((p for p in parts if p[1].startswith(g + "(") and p[0] < k), key=lambda p: p[0])
