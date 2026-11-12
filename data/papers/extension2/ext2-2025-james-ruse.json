@@ -1,0 +1,699 @@
+{
+ "id": "ext2-2025-james-ruse",
+ "course": "extension2",
+ "school": "James Ruse",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "James Ruse 2025 w. sol"
+ },
+ "indexed": "2026-11-12",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.18"
+   ],
+   "question": "What is the distance of the point $(2, 3, 7)$ from the $xz$-plane?",
+   "answer": "The $xz$-plane is $y = 0$, so the distance is $|y| = 3$.",
+   "options": [
+    "2",
+    "3",
+    "7",
+    "9"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.2.3",
+    "12.1.2.2"
+   ],
+   "question": "If $a$, $b$, $c$ and $d$ are consecutive integers, then which of the following statements may be false?",
+   "answer": "$a + b + c + d = 4a + 6$, which is even but never divisible by 4 (e.g. $1 + 2 + 3 + 4 = 10$). Among four consecutive integers there are two even numbers, so the product is divisible by 4 (indeed by 24).",
+   "options": [
+    "$a + b + c + d$ is divisible by 2.",
+    "$a + b + c + d$ is divisible by 4.",
+    "$a \\times b \\times c \\times d$ is divisible by 2.",
+    "$a \\times b \\times c \\times d$ is divisible by 4."
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.2"
+   ],
+   "question": "The acceleration, $a$ m s⁻², of a particle that starts from rest and moves in a straight line is $a = v + 1$, where $v$ m s⁻¹ is its velocity after $t$ seconds. The velocity of the particle after $\\ln(e + 1)$ seconds is",
+   "answer": "$\\dfrac{dv}{dt} = v + 1 \\Rightarrow \\ln(v + 1) = t$ (as $v = 0$ at $t = 0$), so $v = e^t - 1$. At $t = \\ln(e + 1)$: $v = e$.",
+   "options": [
+    "$e$",
+    "$e + 1$",
+    "$e^2 + 1$",
+    "$\\ln(1 + e) + 1$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.5.5"
+   ],
+   "question": "A skydiver jumps out of a plane and experiences a resistive force of $m(v + v^2)$. Let the acceleration due to gravity be 10 m s⁻². What is the terminal velocity of the skydiver?",
+   "answer": "$\\ddot{x} = 10 - v - v^2 = 0 \\Rightarrow v^2 + v - 10 = 0 \\Rightarrow v = \\frac{-1 + \\sqrt{41}}{2}$ (positive root).",
+   "options": [
+    "$\\frac{\\sqrt{39} + 1}{2}$ m s⁻¹",
+    "$\\frac{\\sqrt{39} - 1}{2}$ m s⁻¹",
+    "$\\frac{\\sqrt{41} + 1}{2}$ m s⁻¹",
+    "$\\frac{\\sqrt{41} - 1}{2}$ m s⁻¹"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "The area bounded by the curve $y = \\cos^{-1}x$ and the coordinate axes is rotated about the $y$-axis. The volume of the solid formed is given by:",
+   "answer": "$x = \\cos y$ for $0 \\le y \\le \\frac{\\pi}{2}$: $V = \\pi\\int_0^{\\pi/2}\\cos^2y\\,dy$. With $u = \\sin y$, $du = \\cos y\\,dy$ and $\\cos y = \\sqrt{1 - u^2}$; the limits become 0 to 1: $V = \\pi\\int_0^1\\sqrt{1 - u^2}\\,du$.",
+   "course": "extension1",
+   "options": [
+    "$\\pi\\displaystyle\\int_0^1(\\cos^{-1}x)^2\\,dx$",
+    "$\\pi\\displaystyle\\int_0^1\\cos y\\sqrt{1 - \\sin^2y}\\,dy$",
+    "$\\pi\\displaystyle\\int_0^{\\pi/2}\\sqrt{1 - u^2}\\,du$, where $u = \\sin y$",
+    "$\\pi\\displaystyle\\int_0^1\\sqrt{1 - u^2}\\,du$, where $u = \\sin y$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.18"
+   ],
+   "question": "The sphere $(x - a)^2 + (y - b)^2 + (z - c)^2 = 1$ lies entirely within the sphere $x^2 + y^2 + z^2 = 9$. What is the maximum value of $a^2 + b^2 + c^2$?",
+   "answer": "The small sphere (radius 1) lies inside the large one (radius 3) when the distance between centres is at most $3 - 1 = 2$: $\\sqrt{a^2 + b^2 + c^2} \\le 2$, so the maximum is 4.",
+   "options": [
+    "8",
+    "4",
+    "3",
+    "2"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.6",
+    "12.1.1.5"
+   ],
+   "question": "Consider the propositions\n$P$: $\\forall x > 0$, $\\exists n \\in \\mathbb{Z}$ such that $x > \\frac{1}{n}$;\n$Q$: $\\exists n \\in \\mathbb{Z}$ such that $\\forall x > 0$, $x > \\frac{1}{n}$.\nWhich of the following is false?",
+   "answer": "$P$ is true (for any $x > 0$ take a large positive $n$). $Q$ is also true: $n = -1$ gives $x > -1$ for all $x > 0$. So $Q \\Rightarrow \\neg P$ is \"true $\\Rightarrow$ false\", which is false. The other three implications are true.",
+   "options": [
+    "$Q \\Rightarrow \\neg P$",
+    "$\\neg P \\Rightarrow Q$",
+    "$\\neg Q \\Rightarrow P$",
+    "$P \\Rightarrow Q$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.15"
+   ],
+   "question": "For what values of $a$ and $b$, with $a < b$, does the integral $\\displaystyle\\int_a^b(5x - 6 - x^2)e^{|x|}\\,dx$ attain its maximum value?",
+   "answer": "$5x - 6 - x^2 = -(x - 2)(x - 3)$ is positive only for $2 < x < 3$, and $e^{|x|} > 0$. The integral is largest when it covers exactly the interval where the integrand is positive: $a = 2$, $b = 3$.",
+   "options": [
+    "$a = -1$, $b = 6$",
+    "$a = -2$, $b = 3$",
+    "$a = 1$, $b = 6$",
+    "$a = 2$, $b = 3$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.4",
+    "12.3.2.3"
+   ],
+   "question": "Which of the graphs shown represents the curve $\\text{Arg}(z^2) = |z|$, where $\\text{Arg}(z)$ is the principal argument of $z$?",
+   "answer": "Let $z = r\\,\\text{cis}\\,\\theta$, $\\theta \\in (-\\pi, \\pi]$. We need $r = \\text{Arg}(z^2) \\in (0, \\pi]$.\n- $0 < \\theta \\le \\frac{\\pi}{2}$: $\\text{Arg}(z^2) = 2\\theta$, so $r = 2\\theta$ — a spiral arc from the origin to $\\pi i$ in the first quadrant.\n- $-\\pi < \\theta \\le -\\frac{\\pi}{2}$: $\\text{Arg}(z^2) = 2\\theta + 2\\pi$, so $r = 2\\theta + 2\\pi$ — an arc in the third quadrant from the origin to $-\\pi i$.\n- Other $\\theta$ give a negative principal argument, so there are no points.\n\nThe origin is excluded. This is graph B.",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/ext2-2025-james-ruse/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "Let $\\mathbf{u} = 2\\mathbf{i} - 2\\mathbf{j} + \\mathbf{k}$, and suppose $\\mathbf{v}$ is a vector in three dimensions. Let $\\mathbf{p}$ be the vector projection of $\\mathbf{u}$ onto $\\mathbf{v}$, and let $\\mathbf{n}$ be the vector component of $\\mathbf{u}$ perpendicular to $\\mathbf{v}$, so $\\mathbf{u} = \\mathbf{p} + \\mathbf{n}$. If $|\\mathbf{p}| > |\\mathbf{n}|$, which of the following could be $\\mathbf{v}$?",
+   "answer": "$|\\mathbf{u}|^2 = 9 = |\\mathbf{p}|^2 + |\\mathbf{n}|^2$, so we need $|\\mathbf{p}|^2 = \\frac{(\\mathbf{u}\\cdot\\mathbf{v})^2}{|\\mathbf{v}|^2} > 4.5$.\nA: $\\frac{1}{3}$. B: $\\frac{100}{14} \\approx 7.1$ ✓. C: $\\frac{9}{11}$. D: 0.",
+   "options": [
+    "$\\mathbf{i} + \\mathbf{j} + \\mathbf{k}$",
+    "$3\\mathbf{i} - \\mathbf{j} + 2\\mathbf{k}$",
+    "$\\mathbf{i} + 3\\mathbf{j} + \\mathbf{k}$",
+    "$3\\mathbf{i} + 4\\mathbf{j} + 2\\mathbf{k}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.9"
+   ],
+   "question": "Let $u = 2 + i$ and $v = -1 - i$. Find $\\text{Im}(uv)$.",
+   "answer": "$uv = (2 + i)(-1 - i) = -2 - 2i - i - i^2 = -1 - 3i$, so $\\text{Im}(uv) = -3$ (not $-3i$)."
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.11"
+   ],
+   "question": "Let $u = 2 + i$ and $v = -1 - i$. Evaluate $|u - v|^2$.",
+   "answer": "$u - v = 3 + 2i$, so $|u - v|^2 = 9 + 4 = 13$."
+  },
+  {
+   "ref": "Q11(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.13"
+   ],
+   "question": "Let $u = 2 + i$ and $v = -1 - i$. Express $\\dfrac{u}{v}$ in the form $a + ib$, where $a$ and $b$ are real numbers.",
+   "answer": "$$\\frac{2 + i}{-1 - i}\\times\\frac{-1 + i}{-1 + i} = \\frac{-2 + 2i - i - 1}{2} = -\\frac{3}{2} + \\frac{1}{2}i.$$"
+  },
+  {
+   "ref": "Q11(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.14"
+   ],
+   "question": "Find the square roots of $2i$, giving the answers in the form $x + iy$, where $x$ and $y$ are real numbers.",
+   "answer": "$(x + iy)^2 = 2i$: $x^2 - y^2 = 0$ and $2xy = 2$. So $x = y$ and $x^2 = 1$: $z = 1 + i$ or $-1 - i$."
+  },
+  {
+   "ref": "Q11(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.1"
+   ],
+   "question": "The square roots of $2i$ are $\\pm(1 + i)$. Hence, solve $2z^2 + 2\\sqrt{2}z + 1 - i = 0$.",
+   "answer": "$$z = \\frac{-2\\sqrt{2} \\pm \\sqrt{8 - 8(1 - i)}}{4} = \\frac{-2\\sqrt{2} \\pm \\sqrt{8i}}{4} = \\frac{-2\\sqrt{2} \\pm 2(1 + i)}{4},$$\nusing $\\sqrt{8i} = 2\\sqrt{2i}$. So $z = \\dfrac{1 - \\sqrt{2}}{2} + \\dfrac{1}{2}i$ or $z = \\dfrac{-1 - \\sqrt{2}}{2} - \\dfrac{1}{2}i$."
+  },
+  {
+   "ref": "Q11(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.3.5"
+   ],
+   "question": "Let $a, b$ be positive real numbers. Show that $\\dfrac{a + b}{2} \\ge \\sqrt{ab}$.",
+   "answer": "$\\left(\\sqrt{a} - \\sqrt{b}\\right)^2 \\ge 0 \\Rightarrow a + b \\ge 2\\sqrt{ab}$."
+  },
+  {
+   "ref": "Q11(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "It is known that $\\dfrac{x + y}{2} \\ge \\sqrt{xy}$ for non-negative $x, y$. Hence, show that for $a, b > 0$ and $c \\ge 0$,\n$$a^2b^2 + b^2c^2 + c^2a^2 \\ge abc(a + b + c).$$",
+   "answer": "Applying the result to pairs of terms:\n$a^2b^2 + b^2c^2 \\ge 2\\sqrt{a^2b^4c^2} = 2ab^2c$, $\\quad b^2c^2 + c^2a^2 \\ge 2abc^2$, $\\quad c^2a^2 + a^2b^2 \\ge 2a^2bc$.\nAdding: $2(a^2b^2 + b^2c^2 + c^2a^2) \\ge 2abc(a + b + c)$, which gives the result."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.10"
+   ],
+   "question": "By making an appropriate substitution, or otherwise, evaluate $\\displaystyle\\int_0^1\\frac{e^{3x}}{1 + e^x}\\,dx$.",
+   "answer": "Let $u = 1 + e^x$, $du = e^x\\,dx$, $e^{2x} = (u - 1)^2$; $x = 0 \\to u = 2$, $x = 1 \\to u = 1 + e$.\n$$\\int_2^{1+e}\\frac{(u - 1)^2}{u}\\,du = \\int_2^{1+e}\\left(u - 2 + \\frac{1}{u}\\right)du = \\left[\\frac{u^2}{2} - 2u + \\ln u\\right]_2^{1+e} = \\frac{e^2}{2} - e + \\frac{1}{2} + \\ln\\left(\\frac{1 + e}{2}\\right).$$"
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "Let $\\mathbf{u} = \\begin{pmatrix} 1 \\\\ 2 \\\\ 3 \\end{pmatrix}$ and $\\mathbf{v} = \\begin{pmatrix} 2 \\\\ -1 \\\\ 1 \\end{pmatrix}$. Find the area of the triangle formed by $\\mathbf{u}$, $\\mathbf{v}$ and $\\mathbf{u} - \\mathbf{v}$, given that the area can be calculated using the formula $A = \\sqrt{(|\\mathbf{u}||\\mathbf{v}|)^2 - (\\mathbf{u}\\cdot\\mathbf{v})^2}$. You do NOT need to prove this formula.",
+   "answer": "$|\\mathbf{u}|^2 = 14$, $|\\mathbf{v}|^2 = 6$, $\\mathbf{u}\\cdot\\mathbf{v} = 2 - 2 + 3 = 3$.\n$$A = \\sqrt{14 \\times 6 - 9} = \\sqrt{75} = 5\\sqrt{3} \\text{ units}^2.$$\nNote: the formula as given is actually the area of the parallelogram spanned by $\\mathbf{u}$ and $\\mathbf{v}$; the triangle's area is half of this, $\\frac{5\\sqrt{3}}{2}$. The expected answer using the stated formula is $5\\sqrt{3}$."
+  },
+  {
+   "ref": "Q11(f)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.1"
+   ],
+   "question": "A particle moves along a straight line. When the particle is $x$ m from a fixed point $O$, its velocity $v$ m s⁻¹ is given by $v = \\dfrac{3x + 2}{2x - 1}$, where $x \\ge 1$. Find the acceleration of the particle when $x = 2$.",
+   "answer": "$\\dfrac{dv}{dx} = \\dfrac{3(2x - 1) - 2(3x + 2)}{(2x - 1)^2} = \\dfrac{-7}{(2x - 1)^2}$, and $a = v\\dfrac{dv}{dx}$.\nAt $x = 2$: $v = \\frac{8}{3}$, $\\frac{dv}{dx} = -\\frac{7}{9}$, so $a = -\\dfrac{56}{27}$ m s⁻²."
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.10",
+    "12.1.2.3"
+   ],
+   "question": "Prove for all integers $n$ that $n^2$ is odd if and only if $n$ is odd.",
+   "answer": "($\\Leftarrow$) If $n = 2k + 1$, then $n^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1$ is odd.\n($\\Rightarrow$) Contrapositive: if $n$ is even, $n = 2k$, then $n^2 = 4k^2 = 2(2k^2)$ is even. So if $n^2$ is odd, $n$ is odd.\nBoth directions hold, so $n^2$ is odd $\\iff$ $n$ is odd."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.13"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^{\\pi/3}\\sin x\\ln(\\cos x)\\,dx$.",
+   "answer": "Let $u = \\cos x$, $du = -\\sin x\\,dx$; $x = 0 \\to u = 1$, $x = \\frac{\\pi}{3} \\to u = \\frac{1}{2}$.\n$$\\int_{1/2}^{1}\\ln u\\,du = \\left[u\\ln u - u\\right]_{1/2}^{1} = -1 - \\left(\\frac{1}{2}\\ln\\frac{1}{2} - \\frac{1}{2}\\right) = \\frac{1}{2}\\ln 2 - \\frac{1}{2}.$$"
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.4.3"
+   ],
+   "question": "Use mathematical induction to prove that, for all integers $n > 0$,\n$$\\frac{d^n}{dx^n}\\left(xe^{2x}\\right) = 2^{n-1}(2x + n)e^{2x}.$$",
+   "answer": "**$n = 1$:** $\\frac{d}{dx}(xe^{2x}) = e^{2x} + 2xe^{2x} = 2^0(2x + 1)e^{2x}$. True.\n\n**Assume true for $n = k$:** $\\frac{d^k}{dx^k}(xe^{2x}) = 2^{k-1}(2x + k)e^{2x}$.\n\n**Prove for $n = k + 1$:**\n$$\\frac{d^{k+1}}{dx^{k+1}}(xe^{2x}) = \\frac{d}{dx}\\left[2^{k-1}(2x + k)e^{2x}\\right] = 2^{k-1}\\left[2e^{2x} + 2(2x + k)e^{2x}\\right] = 2^k(2x + k + 1)e^{2x}.$$\nHence true for all integers $n > 0$ by mathematical induction."
+  },
+  {
+   "ref": "Q12(d)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.9",
+    "12.5.2.3"
+   ],
+   "question": "The vertical displacement, $y(t)$ centimetres, of the seat of a toy horse from the mean position after $t$ seconds obeys $\\dfrac{d^2y}{dt^2} = -\\left(\\dfrac{\\pi}{2}\\right)^2y$. The vertical motion of each toy horse spans 50 centimetres, and the seat is at the mean position at the start of the ride.\n\nDetermine the vertical displacement function, $y(t)$.",
+   "answer": "SHM with $n = \\frac{\\pi}{2}$ and amplitude $\\frac{50}{2} = 25$ cm. Starting at the centre (taking it to move upwards first):\n$$y(t) = 25\\sin\\left(\\frac{\\pi t}{2}\\right).$$"
+  },
+  {
+   "ref": "Q12(d)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.4"
+   ],
+   "question": "The vertical displacement, $y(t)$ centimetres, of the seat of a toy horse from the mean position after $t$ seconds obeys $\\dfrac{d^2y}{dt^2} = -\\left(\\dfrac{\\pi}{2}\\right)^2y$. The vertical motion of each toy horse spans 50 centimetres, and the seat is at the mean position at the start of the ride. Its displacement is $y(t) = 25\\sin\\left(\\frac{\\pi t}{2}\\right)$.\n\nDetermine the maximum vertical speed of the toy horse, correct to the nearest centimetre per second.",
+   "answer": "Maximum speed $= An = 25 \\times \\frac{\\pi}{2} \\approx 39$ cm s⁻¹."
+  },
+  {
+   "ref": "Q12(e)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.4.1"
+   ],
+   "question": "An object of mass 70 kg, initially at rest, is pulled along a horizontal surface by a constant horizontal force of 140 N. It experiences a resistance proportional to its speed, $v$. When the speed is 10 m s⁻¹, the acceleration is 1 m s⁻². Let $x$ be the displacement in metres from the initial position.\n\nShow that the equation of motion is $\\ddot{x} = 2 - \\dfrac{1}{10}v$.",
+   "answer": "$70\\ddot{x} = 140 - kv$. At $v = 10$, $\\ddot{x} = 1$: $70 = 140 - 10k \\Rightarrow k = 7$. So $\\ddot{x} = 2 - \\frac{7}{70}v = 2 - \\frac{1}{10}v$."
+  },
+  {
+   "ref": "Q12(e)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.3"
+   ],
+   "question": "An object of mass 70 kg, initially at rest, is pulled along a horizontal surface by a constant horizontal force of 140 N. It experiences a resistance proportional to its speed, $v$. When the speed is 10 m s⁻¹, the acceleration is 1 m s⁻². Let $x$ be the displacement in metres from the initial position. The equation of motion is $\\ddot{x} = 2 - \\dfrac{1}{10}v$.\n\nFind an expression for $x$ as a function of $v$.",
+   "answer": "$v\\dfrac{dv}{dx} = \\dfrac{20 - v}{10} \\Rightarrow \\dfrac{dx}{dv} = \\dfrac{10v}{20 - v} = 10\\left(-1 + \\dfrac{20}{20 - v}\\right)$.\n$$x = \\int_0^v 10\\left(-1 + \\frac{20}{20 - u}\\right)du = -10v + 200\\ln\\left(\\frac{20}{20 - v}\\right).$$"
+  },
+  {
+   "ref": "Q12(e)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.5"
+   ],
+   "question": "An object of mass 70 kg, initially at rest, is pulled along a horizontal surface by a constant horizontal force of 140 N. It experiences a resistance proportional to its speed, $v$. When the speed is 10 m s⁻¹, the acceleration is 1 m s⁻². Let $x$ be the displacement in metres from the initial position. The equation of motion is $\\ddot{x} = 2 - \\dfrac{1}{10}v$, and $x = 200\\ln\\left(\\dfrac{20}{20 - v}\\right) - 10v$.\n\nShow that the object's speed cannot exceed 20 m s⁻¹.",
+   "answer": "$\\dfrac{dv}{dt} = \\dfrac{20 - v}{10}$ gives $v = 20\\left(1 - e^{-t/10}\\right) < 20$ for all $t$. (Equivalently, $x \\to \\infty$ as $v \\to 20^-$, so the speed 20 m s⁻¹ is never reached; it is the limiting speed.)"
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Find constants $A$ and $B$ such that\n$$\\frac{1}{u^2 + u - 1} = \\frac{A}{u + \\frac{1 + \\sqrt{5}}{2}} + \\frac{B}{u + \\frac{1 - \\sqrt{5}}{2}}.$$",
+   "answer": "Note $u^2 + u - 1 = \\left(u + \\frac{1 + \\sqrt{5}}{2}\\right)\\left(u + \\frac{1 - \\sqrt{5}}{2}\\right)$.\n$1 = A\\left(u + \\frac{1 - \\sqrt{5}}{2}\\right) + B\\left(u + \\frac{1 + \\sqrt{5}}{2}\\right)$: $A + B = 0$ and $A\\cdot\\frac{1 - \\sqrt{5}}{2} + B\\cdot\\frac{1 + \\sqrt{5}}{2} = 1$, so $-\\sqrt{5}A = 1$.\n$A = -\\dfrac{1}{\\sqrt{5}}$, $B = \\dfrac{1}{\\sqrt{5}}$."
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.8",
+    "12.4.1.11"
+   ],
+   "question": "It is known that $\\dfrac{1}{u^2 + u - 1} = \\dfrac{1}{\\sqrt{5}}\\left(\\dfrac{1}{u + \\frac{1 - \\sqrt{5}}{2}} - \\dfrac{1}{u + \\frac{1 + \\sqrt{5}}{2}}\\right)$. Hence, find $\\displaystyle\\int\\frac{\\cos x}{\\sin x - \\cos^2x}\\,dx$.",
+   "answer": "$\\sin x - \\cos^2x = \\sin^2x + \\sin x - 1$. Let $u = \\sin x$, $du = \\cos x\\,dx$:\n$$\\int\\frac{du}{u^2 + u - 1} = \\frac{1}{\\sqrt{5}}\\ln\\left|\\frac{u + \\frac{1 - \\sqrt{5}}{2}}{u + \\frac{1 + \\sqrt{5}}{2}}\\right| + C = \\frac{1}{\\sqrt{5}}\\ln\\left|\\frac{2\\sin x + 1 - \\sqrt{5}}{2\\sin x + 1 + \\sqrt{5}}\\right| + C.$$"
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.3",
+    "12.1.2.1"
+   ],
+   "question": "Prove that if $a$ and $b$ have no common factors other than 1, then $a^2$ and $b$ also have no common factors other than 1.",
+   "answer": "Suppose not: then some prime $p$ divides both $a^2$ and $b$. A prime dividing $a^2 = a \\times a$ must divide $a$. So $p$ divides both $a$ and $b$, contradicting that their only common factor is 1."
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.2.3"
+   ],
+   "question": "It is known that if $a$ and $b$ have no common factors other than 1, then neither do $a^2$ and $b$. Let $x$ be a positive rational number different from 1. Prove that $x + \\dfrac{1}{x}$ can never be an integer.",
+   "answer": "Let $x = \\frac{a}{b}$ with $a, b$ positive integers having no common factor. Suppose $x + \\frac{1}{x} = \\frac{a^2 + b^2}{ab} = k$, an integer. Then $a^2 = b(ka - b)$, so $b \\mid a^2$; but $a^2$ and $b$ share no factor other than 1, so $b = 1$. Similarly $b^2 = a(kb - a)$ gives $a = 1$. Then $x = 1$, a contradiction. So $x + \\frac{1}{x}$ is not an integer."
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.4",
+    "12.3.1.12"
+   ],
+   "question": "Prove that $\\cos\\theta = \\frac{1}{2}\\left(\\text{cis}\\,\\theta + \\text{cis}(-\\theta)\\right)$ and $\\sin\\theta = \\frac{1}{2i}\\left(\\text{cis}\\,\\theta - \\text{cis}(-\\theta)\\right)$.",
+   "answer": "$\\text{cis}(-\\theta) = \\cos\\theta - i\\sin\\theta$. Adding to $\\text{cis}\\,\\theta = \\cos\\theta + i\\sin\\theta$ gives $2\\cos\\theta$; subtracting gives $2i\\sin\\theta$. Dividing by 2 and $2i$ respectively gives the results.\n(The original uses exponential form $e^{i\\theta}$; it is written here in cis form for the 2024 syllabus.)"
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Using $\\cos\\theta = \\frac{1}{2}\\left(\\text{cis}\\,\\theta + \\text{cis}(-\\theta)\\right)$ and $\\sin\\theta = \\frac{1}{2i}\\left(\\text{cis}\\,\\theta - \\text{cis}(-\\theta)\\right)$, prove that for all real $\\alpha$ and $\\beta$,\n$$\\cos 2(\\alpha + \\beta) - \\cos 2\\alpha - \\cos 2\\beta + 1 = -4\\sin\\alpha\\sin\\beta\\cos(\\alpha + \\beta).$$",
+   "answer": "Let $A = \\text{cis}\\,\\alpha$, $B = \\text{cis}\\,\\beta$, so $A^{-1} = \\text{cis}(-\\alpha)$ and $A^n = \\text{cis}\\,n\\alpha$ (de Moivre).\n$$\\text{RHS} = -4\\cdot\\frac{(A - A^{-1})(B - B^{-1})}{(2i)^2}\\cdot\\frac{AB + A^{-1}B^{-1}}{2} = \\frac{1}{2}(A - A^{-1})(B - B^{-1})(AB + A^{-1}B^{-1}).$$\nExpanding $(AB - AB^{-1} - A^{-1}B + A^{-1}B^{-1})(AB + A^{-1}B^{-1})$:\n$$A^2B^2 + 1 - A^2 - B^{-2} - B^2 - A^{-2} + 1 + A^{-2}B^{-2}.$$\nSo RHS $= \\frac{1}{2}\\left(A^2B^2 + A^{-2}B^{-2}\\right) - \\frac{1}{2}\\left(A^2 + A^{-2}\\right) - \\frac{1}{2}\\left(B^2 + B^{-2}\\right) + 1 = \\cos 2(\\alpha + \\beta) - \\cos 2\\alpha - \\cos 2\\beta + 1$."
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.1",
+    "12.1.2.1"
+   ],
+   "question": "Suppose that the non-zero vectors $\\mathbf{a}$ and $\\mathbf{b}$ satisfy $\\text{proj}_{\\mathbf{b}}\\mathbf{a} = \\lambda\\mathbf{b}$ and $\\text{proj}_{\\mathbf{a}}\\mathbf{b} = (1 - \\lambda)\\mathbf{a}$, where $\\lambda$ is a real constant. Prove that $\\mathbf{a}$ and $\\mathbf{b}$ are not parallel.",
+   "answer": "Suppose, for contradiction, that $\\mathbf{a} = k\\mathbf{b}$ for some $k \\ne 0$. Then $\\text{proj}_{\\mathbf{b}}\\mathbf{a} = \\mathbf{a} = k\\mathbf{b}$, so $\\lambda = k$. Also $\\text{proj}_{\\mathbf{a}}\\mathbf{b} = \\mathbf{b} = \\frac{1}{k}\\mathbf{a}$, so $1 - \\lambda = \\frac{1}{k}$.\nHence $k + \\frac{1}{k} = 1$, i.e. $k^2 - k + 1 = 0$, whose discriminant is $1 - 4 = -3 < 0$: no real $k$. Contradiction, so $\\mathbf{a}$ and $\\mathbf{b}$ are not parallel."
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n = \\displaystyle\\int_0^1 x^n\\sqrt{1 - x^2}\\,dx$. Show that, for $n \\ge 2$, $I_n = \\dfrac{n - 1}{n + 2}I_{n-2}$.",
+   "answer": "By parts with $u = x^{n-1}$ and $dv = x\\sqrt{1 - x^2}\\,dx$, $v = -\\frac{1}{3}(1 - x^2)^{3/2}$:\n$$I_n = \\left[-\\frac{x^{n-1}(1 - x^2)^{3/2}}{3}\\right]_0^1 + \\frac{n - 1}{3}\\int_0^1 x^{n-2}(1 - x^2)\\sqrt{1 - x^2}\\,dx = \\frac{n - 1}{3}\\left(I_{n-2} - I_n\\right).$$\nSo $I_n\\left(1 + \\frac{n - 1}{3}\\right) = \\frac{n - 1}{3}I_{n-2}$, giving $I_n = \\dfrac{n - 1}{n + 2}I_{n-2}$."
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.16"
+   ],
+   "question": "Let $I_n = \\displaystyle\\int_0^1 x^n\\sqrt{1 - x^2}\\,dx$, where $I_n = \\dfrac{n - 1}{n + 2}I_{n-2}$ for $n \\ge 2$. The graph of $y^2 = x^4(1 - x^2)$ is shown. A gaming company logo is designed using the curves $y^2 = x^4(1 - x^2)$ and $x^2 = y^4(1 - y^2)$ inscribed inside the unit circle (shaded regions inside the curves). Find the ratio of the shaded area to the unshaded area in the logo.",
+   "answer": "$y^2 = x^4(1 - x^2)$ encloses $4\\int_0^1 x^2\\sqrt{1 - x^2}\\,dx = 4I_2$. $I_0 = \\frac{\\pi}{4}$ (quarter of the unit disc), so $I_2 = \\frac{1}{4}I_0 = \\frac{\\pi}{16}$ and the area is $\\frac{\\pi}{4}$.\nThe second curve is its reflection in $y = x$, with the same area, and the two regions meet only at the origin. Shaded area $= \\frac{\\pi}{2}$, unshaded $= \\pi - \\frac{\\pi}{2} = \\frac{\\pi}{2}$. Ratio $1 : 1$.",
+   "images": [
+    "assets/img/ext2-2025-james-ruse/q14a-graph.png",
+    "assets/img/ext2-2025-james-ruse/q14a-logo.png"
+   ]
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.9",
+    "12.2.2.1"
+   ],
+   "question": "The lines $\\mathbf{r}_1 = \\begin{pmatrix} 1 \\\\ 1 \\\\ 1 \\end{pmatrix} + \\lambda\\begin{pmatrix} 2 \\\\ -1 \\\\ 1 \\end{pmatrix}$ and $\\mathbf{r}_2 = \\begin{pmatrix} 3 \\\\ 4 \\\\ 5 \\end{pmatrix} + \\mu\\begin{pmatrix} 3 \\\\ s \\\\ t \\end{pmatrix}$, where $\\lambda, \\mu \\in \\mathbb{R}$, meet at a right angle. Find the values of $\\lambda$ and $\\mu$ where the lines meet.",
+   "answer": "Perpendicular: $6 - s + t = 0$, so $t = s - 6$.\nMeeting: $1 + 2\\lambda = 3 + 3\\mu$, $1 - \\lambda = 4 + \\mu s$, $1 + \\lambda = 5 + \\mu t$.\nFrom the first, $\\lambda = 1 + \\frac{3\\mu}{2}$. Then the second gives $\\mu s = -\\frac{3\\mu}{2} - 4$ and the third gives $\\mu s = \\frac{15\\mu}{2} - 3$ (using $t = s - 6$). Equating: $-9\\mu = 1$, so $\\mu = -\\frac{1}{9}$ and $\\lambda = \\frac{5}{6}$.\n(Then $s = \\frac{69}{2}$, $t = \\frac{57}{2}$, meeting at $\\left(\\frac{8}{3}, \\frac{1}{6}, \\frac{11}{6}\\right)$.)"
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.4",
+    "12.3.4.9"
+   ],
+   "question": "$z$ is a complex number such that $\\arg\\left(1 - \\dfrac{1}{z}\\right) = \\dfrac{\\pi}{3}$. Sketch the path that $z$ traces out, showing all important information.",
+   "answer": "$1 - \\frac{1}{z} = \\frac{z - 1}{z}$, so $\\arg(z - 1) - \\arg(z) = \\frac{\\pi}{3}$: the segment from 0 to 1 subtends an angle $\\frac{\\pi}{3}$ at $z$, with $z$ above the real axis.\nThe locus is the major arc (above the real axis) of the circle through 0 and 1 with centre $\\left(\\frac{1}{2}, \\frac{1}{2\\sqrt{3}}\\right)$ and radius $\\frac{1}{\\sqrt{3}}$ (from $1 = 2R\\sin\\frac{\\pi}{3}$). The endpoints 0 and 1 are excluded (open circles)."
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.9"
+   ],
+   "question": "$z$ satisfies $\\arg\\left(1 - \\dfrac{1}{z}\\right) = \\dfrac{\\pi}{3}$, so the segment joining 0 and 1 subtends an angle of $\\frac{\\pi}{3}$ at $z$. Hence, show that $|z|^2 + |z - 1|^2 = |z^2 - z| + 1$.",
+   "answer": "In the triangle with vertices $0$, $1$ and $z$, the sides are $|z|$, $|z - 1|$ and 1, and the angle at $z$ is $\\frac{\\pi}{3}$. By the cosine rule:\n$$1 = |z|^2 + |z - 1|^2 - 2|z||z - 1|\\cos\\frac{\\pi}{3} = |z|^2 + |z - 1|^2 - |z||z - 1|.$$\nSince $|z||z - 1| = |z^2 - z|$, this gives $|z|^2 + |z - 1|^2 = |z^2 - z| + 1$."
+  },
+  {
+   "ref": "Q14(d)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.5.6"
+   ],
+   "question": "A 300 kg space probe is launched vertically upwards from the surface of Saturn's moon, Titan, at a speed of $v_0$ m s⁻¹. The acceleration due to gravity on Titan is 1.4 m s⁻². The probe experiences a resistive force from the dense atmosphere of magnitude $150v$ newtons, where $v$ m s⁻¹ is the speed of the probe. Eventually, the probe falls back onto Titan's surface. A sensor calculates that the sum of the initial speed and the speed at which it hits Titan's surface is 50 m s⁻¹.\n\nFind $v_0$, correct to one decimal place.",
+   "answer": "Resistance per unit mass is $0.5v$. Let $w = 50 - v_0$ be the impact speed (less than the terminal speed $2.8$).\nUp: $v\\frac{dv}{dx} = -(1.4 + 0.5v)$, so $H = \\int_0^{v_0}\\frac{2v}{2.8 + v}\\,dv = 2v_0 - 5.6\\ln\\frac{2.8 + v_0}{2.8}$.\nDown: $v\\frac{dv}{dx} = 0.5(2.8 - v)$, so $H = \\int_0^{w}\\frac{2v}{2.8 - v}\\,dv = -2w - 5.6\\ln\\frac{2.8 - w}{2.8}$.\nEquating: $2(v_0 + w) = 5.6\\ln\\dfrac{2.8 + v_0}{2.8 - w}$, i.e. $\\ln\\dfrac{2.8 + v_0}{2.8 - w} = \\dfrac{100}{5.6}$.\nWith $w = 50 - v_0$: $\\dfrac{2.8 + v_0}{v_0 - 47.2} = e^{100/5.6} \\approx 5.7 \\times 10^7$, so $v_0 \\approx 47.2$ m s⁻¹ (the impact speed is essentially the terminal speed 2.8 m s⁻¹)."
+  },
+  {
+   "ref": "Q14(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.5.6"
+   ],
+   "question": "A 300 kg space probe is launched vertically upwards from the surface of Saturn's moon, Titan, at a speed of $v_0$ m s⁻¹. The acceleration due to gravity on Titan is 1.4 m s⁻². The probe experiences a resistive force from the dense atmosphere of magnitude $150v$ newtons, where $v$ m s⁻¹ is the speed of the probe. Eventually, the probe falls back onto Titan's surface. A sensor calculates that the sum of the initial speed and the speed at which it hits Titan's surface is 50 m s⁻¹. With $w$ the impact speed, the two heights give $\\ln\\dfrac{2.8 + v_0}{2.8 - w} = \\dfrac{100}{5.6}$.\n\nDetermine the total flight time, correct to one decimal place.",
+   "answer": "Up: $\\frac{dv}{dt} = -(1.4 + 0.5v)$, so $T_1 = 2\\ln\\frac{2.8 + v_0}{2.8}$. Down: $\\frac{dv}{dt} = 0.5(2.8 - v)$, so $T_2 = 2\\ln\\frac{2.8}{2.8 - w}$.\n$$T = T_1 + T_2 = 2\\ln\\frac{2.8 + v_0}{2.8 - w} = 2 \\times \\frac{100}{5.6} \\approx 35.7 \\text{ s}.$$"
+  },
+  {
+   "ref": "Q15(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.4"
+   ],
+   "question": "In $\\triangle ABC$, $K$ is the midpoint of $BC$, $L$ is the midpoint of $CA$ and $M$ is the midpoint of $AB$. The points $A, B, C$ have position vectors $\\mathbf{a}, \\mathbf{b}, \\mathbf{c}$, and $G$ has position vector $\\mathbf{g} = \\frac{1}{3}(\\mathbf{a} + \\mathbf{b} + \\mathbf{c})$. You are given the triangle inequality $|\\mathbf{u} + \\mathbf{v}| \\le |\\mathbf{u}| + |\\mathbf{v}|$.\n\nShow that $2|\\overrightarrow{AK}| \\le |\\overrightarrow{AB}| + |\\overrightarrow{AC}|$.",
+   "answer": "$\\overrightarrow{AK} = \\frac{1}{2}\\left(\\overrightarrow{AB} + \\overrightarrow{AC}\\right)$, so $2|\\overrightarrow{AK}| = |\\overrightarrow{AB} + \\overrightarrow{AC}| \\le |\\overrightarrow{AB}| + |\\overrightarrow{AC}|$.",
+   "images": [
+    "assets/img/ext2-2025-james-ruse/q15a.png"
+   ]
+  },
+  {
+   "ref": "Q15(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.4"
+   ],
+   "question": "In $\\triangle ABC$, $K$ is the midpoint of $BC$, $L$ is the midpoint of $CA$ and $M$ is the midpoint of $AB$. The points $A, B, C$ have position vectors $\\mathbf{a}, \\mathbf{b}, \\mathbf{c}$, and $G$ has position vector $\\mathbf{g} = \\frac{1}{3}(\\mathbf{a} + \\mathbf{b} + \\mathbf{c})$. You are given the triangle inequality $|\\mathbf{u} + \\mathbf{v}| \\le |\\mathbf{u}| + |\\mathbf{v}|$. It is known that $2|\\overrightarrow{AK}| \\le |\\overrightarrow{AB}| + |\\overrightarrow{AC}|$.\n\nHence, show that $|\\overrightarrow{AK}| + |\\overrightarrow{BL}| + |\\overrightarrow{CM}| \\le |\\overrightarrow{AB}| + |\\overrightarrow{BC}| + |\\overrightarrow{CA}|$.",
+   "answer": "Similarly $2|\\overrightarrow{BL}| \\le |\\overrightarrow{BC}| + |\\overrightarrow{BA}|$ and $2|\\overrightarrow{CM}| \\le |\\overrightarrow{CA}| + |\\overrightarrow{CB}|$. Adding: $2(|\\overrightarrow{AK}| + |\\overrightarrow{BL}| + |\\overrightarrow{CM}|) \\le 2(|\\overrightarrow{AB}| + |\\overrightarrow{BC}| + |\\overrightarrow{CA}|)$.",
+   "images": [
+    "assets/img/ext2-2025-james-ruse/q15a.png"
+   ]
+  },
+  {
+   "ref": "Q15(a)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.8"
+   ],
+   "question": "In $\\triangle ABC$, $K$ is the midpoint of $BC$, $L$ is the midpoint of $CA$ and $M$ is the midpoint of $AB$. The points $A, B, C$ have position vectors $\\mathbf{a}, \\mathbf{b}, \\mathbf{c}$, and $G$ has position vector $\\mathbf{g} = \\frac{1}{3}(\\mathbf{a} + \\mathbf{b} + \\mathbf{c})$. You are given the triangle inequality $|\\mathbf{u} + \\mathbf{v}| \\le |\\mathbf{u}| + |\\mathbf{v}|$.\n\nBy expressing $\\overrightarrow{OK}$ in terms of $\\mathbf{b}$ and $\\mathbf{c}$, show that points $A$, $G$, $K$ are collinear.",
+   "answer": "$\\overrightarrow{OK} = \\frac{1}{2}(\\mathbf{b} + \\mathbf{c})$. Then\n$$\\overrightarrow{AK} = \\frac{1}{2}(\\mathbf{b} + \\mathbf{c} - 2\\mathbf{a}), \\qquad \\overrightarrow{AG} = \\frac{1}{3}(\\mathbf{b} + \\mathbf{c} - 2\\mathbf{a}) = \\frac{2}{3}\\overrightarrow{AK}.$$\n$\\overrightarrow{AG}$ and $\\overrightarrow{AK}$ are parallel with common point $A$, so $A$, $G$, $K$ are collinear.",
+   "images": [
+    "assets/img/ext2-2025-james-ruse/q15a.png"
+   ]
+  },
+  {
+   "ref": "Q15(a)(iv)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.8"
+   ],
+   "question": "In $\\triangle ABC$, $K$ is the midpoint of $BC$, $L$ is the midpoint of $CA$ and $M$ is the midpoint of $AB$. The points $A, B, C$ have position vectors $\\mathbf{a}, \\mathbf{b}, \\mathbf{c}$, and $G$ has position vector $\\mathbf{g} = \\frac{1}{3}(\\mathbf{a} + \\mathbf{b} + \\mathbf{c})$. You are given the triangle inequality $|\\mathbf{u} + \\mathbf{v}| \\le |\\mathbf{u}| + |\\mathbf{v}|$. It is known that $\\overrightarrow{AG} = \\frac{2}{3}\\overrightarrow{AK}$, so $G$ lies on $AK$.\n\nDeduce that $AK$, $BL$, $CM$ are concurrent at $G$.",
+   "answer": "$\\mathbf{g}$ is symmetric in $\\mathbf{a}, \\mathbf{b}, \\mathbf{c}$, so the same argument gives $\\overrightarrow{BG} = \\frac{2}{3}\\overrightarrow{BL}$ and $\\overrightarrow{CG} = \\frac{2}{3}\\overrightarrow{CM}$. So $G$ lies on all three medians.",
+   "images": [
+    "assets/img/ext2-2025-james-ruse/q15a.png"
+   ]
+  },
+  {
+   "ref": "Q15(a)(v)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.8"
+   ],
+   "question": "In $\\triangle ABC$, $K$ is the midpoint of $BC$, $L$ is the midpoint of $CA$ and $M$ is the midpoint of $AB$. The points $A, B, C$ have position vectors $\\mathbf{a}, \\mathbf{b}, \\mathbf{c}$, and $G$ has position vector $\\mathbf{g} = \\frac{1}{3}(\\mathbf{a} + \\mathbf{b} + \\mathbf{c})$. You are given the triangle inequality $|\\mathbf{u} + \\mathbf{v}| \\le |\\mathbf{u}| + |\\mathbf{v}|$. It is known that $\\overrightarrow{AG} = \\frac{2}{3}\\overrightarrow{AK}$.\n\nShow that the ratio $|\\overrightarrow{AG}| : |\\overrightarrow{GK}| = 2 : 1$.",
+   "answer": "$\\overrightarrow{GK} = \\overrightarrow{AK} - \\overrightarrow{AG} = \\frac{1}{3}\\overrightarrow{AK}$, so $|\\overrightarrow{AG}| : |\\overrightarrow{GK}| = \\frac{2}{3} : \\frac{1}{3} = 2 : 1$.",
+   "images": [
+    "assets/img/ext2-2025-james-ruse/q15a.png"
+   ]
+  },
+  {
+   "ref": "Q15(a)(vi)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.4",
+    "12.1.3.7"
+   ],
+   "question": "In $\\triangle ABC$, $K$ is the midpoint of $BC$, $L$ is the midpoint of $CA$ and $M$ is the midpoint of $AB$. The points $A, B, C$ have position vectors $\\mathbf{a}, \\mathbf{b}, \\mathbf{c}$, and $G$ has position vector $\\mathbf{g} = \\frac{1}{3}(\\mathbf{a} + \\mathbf{b} + \\mathbf{c})$. You are given the triangle inequality $|\\mathbf{u} + \\mathbf{v}| \\le |\\mathbf{u}| + |\\mathbf{v}|$. The medians $AK$, $BL$, $CM$ meet at $G$, with $|AG| = \\frac{2}{3}|AK|$, $|BG| = \\frac{2}{3}|BL|$ and $|CG| = \\frac{2}{3}|CM|$.\n\nHence, prove that $|\\overrightarrow{AB}| + |\\overrightarrow{BC}| + |\\overrightarrow{CA}| \\le \\frac{4}{3}\\left(|\\overrightarrow{AK}| + |\\overrightarrow{BL}| + |\\overrightarrow{CM}|\\right)$.",
+   "answer": "By the triangle inequality, $|\\overrightarrow{AB}| = |\\overrightarrow{AG} + \\overrightarrow{GB}| \\le |\\overrightarrow{AG}| + |\\overrightarrow{GB}| = \\frac{2}{3}|\\overrightarrow{AK}| + \\frac{2}{3}|\\overrightarrow{BL}|$.\nSimilarly $|\\overrightarrow{BC}| \\le \\frac{2}{3}(|\\overrightarrow{BL}| + |\\overrightarrow{CM}|)$ and $|\\overrightarrow{CA}| \\le \\frac{2}{3}(|\\overrightarrow{CM}| + |\\overrightarrow{AK}|)$. Adding gives the result.",
+   "images": [
+    "assets/img/ext2-2025-james-ruse/q15a.png"
+   ]
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.6",
+    "12.3.2.8"
+   ],
+   "question": "The points $A, B, C, D, E, F, G$, corresponding to the roots of $z^7 = 1$, form the vertices of a regular heptagon in the Argand diagram, as shown, with $A = 1$, $B = \\text{cis}\\frac{2\\pi}{7}$, $C = \\text{cis}\\frac{4\\pi}{7}$ and $D = \\text{cis}\\frac{6\\pi}{7}$.\n\nBy considering appropriate arguments, show that $\\angle CAB = \\frac{\\pi}{7}$ and $\\angle DAB = \\frac{2\\pi}{7}$.",
+   "answer": "For $0 < \\theta < 2\\pi$: $\\text{cis}\\,\\theta - 1 = 2i\\sin\\frac{\\theta}{2}\\,\\text{cis}\\frac{\\theta}{2}$, so $\\arg(\\text{cis}\\,\\theta - 1) = \\frac{\\pi}{2} + \\frac{\\theta}{2}$.\nSo $\\arg(B - A) = \\frac{\\pi}{2} + \\frac{\\pi}{7}$, $\\arg(C - A) = \\frac{\\pi}{2} + \\frac{2\\pi}{7}$, $\\arg(D - A) = \\frac{\\pi}{2} + \\frac{3\\pi}{7}$.\n$\\angle CAB = \\arg(C - A) - \\arg(B - A) = \\frac{\\pi}{7}$ and $\\angle DAB = \\arg(D - A) - \\arg(B - A) = \\frac{2\\pi}{7}$.",
+   "images": [
+    "assets/img/ext2-2025-james-ruse/q15b.png"
+   ]
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.10"
+   ],
+   "question": "The points $A, B, C, D, E, F, G$, corresponding to the roots of $z^7 = 1$, form the vertices of a regular heptagon in the Argand diagram, as shown, with $A = 1$, $B = \\text{cis}\\frac{2\\pi}{7}$, $C = \\text{cis}\\frac{4\\pi}{7}$ and $D = \\text{cis}\\frac{6\\pi}{7}$. It is known that $\\angle CAB = \\frac{\\pi}{7}$ and $\\angle DAB = \\frac{2\\pi}{7}$. Let $\\omega = \\cos\\frac{\\pi}{7} + i\\sin\\frac{\\pi}{7}$, so $B = \\omega^2$, $C = \\omega^4$, $D = \\omega^6$.\n\nThe points $Y$ and $Z$ are chosen on the line segment $AD$ such that $AY = AB$ and $AZ = AC$. Find the complex numbers representing $Y$ and $Z$ in terms of $\\omega$.",
+   "answer": "$\\overrightarrow{AY}$ is $\\overrightarrow{AB}$ rotated anticlockwise by $\\angle BAD = \\frac{2\\pi}{7}$ (multiply by $\\omega^2$); $\\overrightarrow{AZ}$ is $\\overrightarrow{AC}$ rotated by $\\angle CAD = \\frac{\\pi}{7}$ (multiply by $\\omega$).\n$$Y = 1 + \\omega^2(\\omega^2 - 1) = 1 + \\omega^4 - \\omega^2, \\qquad Z = 1 + \\omega(\\omega^4 - 1) = 1 + \\omega^5 - \\omega.$$",
+   "images": [
+    "assets/img/ext2-2025-james-ruse/q15b.png"
+   ]
+  },
+  {
+   "ref": "Q15(b)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.3.4.12",
+    "12.3.4.11"
+   ],
+   "question": "The points $A, B, C, D, E, F, G$, corresponding to the roots of $z^7 = 1$, form the vertices of a regular heptagon in the Argand diagram, as shown, with $A = 1$, $B = \\text{cis}\\frac{2\\pi}{7}$, $C = \\text{cis}\\frac{4\\pi}{7}$ and $D = \\text{cis}\\frac{6\\pi}{7}$. Let $\\omega = \\text{cis}\\frac{\\pi}{7}$. Points $Y = 1 + \\omega^4 - \\omega^2$ and $Z = 1 + \\omega^5 - \\omega$ lie on segment $AD$ with $AY = AB$ and $AZ = AC$.\n\nHence, or otherwise, prove that $\\dfrac{1}{AB} = \\dfrac{1}{AC} + \\dfrac{1}{AD}$.",
+   "answer": "Let $\\mathbf{e}$ be the unit complex number in the direction of $\\overrightarrow{AD}$, and write $a = AB$, $b = AC$, $d = AD$. Then $Y - 1 = a\\mathbf{e}$, $Z - 1 = b\\mathbf{e}$, $Z - Y = (b - a)\\mathbf{e}$ and $D - 1 = d\\mathbf{e}$.\nUsing $\\omega^7 = -1$:\n$$(Y - 1)(Z - 1) = (\\omega^4 - \\omega^2)(\\omega^5 - \\omega) = \\omega^9 - \\omega^5 - \\omega^7 + \\omega^3 = 1 - \\omega^2 + \\omega^3 - \\omega^5,$$\n$$(Z - Y)(D - 1) = (\\omega^5 - \\omega^4 + \\omega^2 - \\omega)(\\omega^6 - 1) = \\omega^{11} - \\omega^{10} + \\omega^8 - \\omega^7 - \\omega^5 + \\omega^4 - \\omega^2 + \\omega = 1 - \\omega^2 + \\omega^3 - \\omega^5.$$\nSo $ab\\,\\mathbf{e}^2 = (b - a)d\\,\\mathbf{e}^2$, i.e. $ab = (b - a)d$. Dividing by $abd$: $\\dfrac{1}{d} = \\dfrac{1}{a} - \\dfrac{1}{b}$, i.e. $\\dfrac{1}{AB} = \\dfrac{1}{AC} + \\dfrac{1}{AD}$.",
+   "images": [
+    "assets/img/ext2-2025-james-ruse/q15b.png"
+   ]
+  }
+ ]
+}
