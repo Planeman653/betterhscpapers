@@ -1,0 +1,504 @@
+{
+ "id": "ext1-2025-james-ruse",
+ "course": "extension1",
+ "school": "James Ruse",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "James Ruse 2025 w. sol"
+ },
+ "indexed": "2026-11-12",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q13(iii)",
+   "reason": "Not in 2024 syllabus: normal approximation to the binomial distribution"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.6",
+    "11.4.1.4"
+   ],
+   "question": "The diagram shows the velocity–time graph of an object that moves over a 10-second interval. For what percentage of the time is the speed of the object decreasing?",
+   "answer": "Speed $= |v|$ decreases when the velocity moves towards 0: from $t = 2$ to $t = 4$ ($v$ from 6 to 0) and from $t = 9$ to $t = 10$ ($v$ from $-3$ to 0). That is 3 of the 10 seconds: 30%. (From $t = 4$ to $t = 9$ the velocity becomes more negative, so the speed increases.)",
+   "course": "advanced",
+   "options": [
+    "30%",
+    "60%",
+    "70%",
+    "None of the above"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/ext1-2025-james-ruse/q1.png"
+   ]
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Evaluate the integral $\\displaystyle\\int_0^{0.5}\\frac{\\sin^{-1}x}{\\sqrt{1 - x^2}}\\,dx$.",
+   "answer": "With $u = \\sin^{-1}x$, $du = \\frac{dx}{\\sqrt{1 - x^2}}$:\n$$\\int_0^{0.5}\\frac{\\sin^{-1}x}{\\sqrt{1 - x^2}}\\,dx = \\left[\\frac{(\\sin^{-1}x)^2}{2}\\right]_0^{0.5} = \\frac{1}{2}\\left(\\frac{\\pi}{6}\\right)^2 = \\frac{\\pi^2}{72}.$$",
+   "options": [
+    "$\\frac{\\pi^2}{72}$",
+    "$\\ln 6 - \\ln\\pi$",
+    "$\\frac{\\pi^2}{36}$",
+    "$\\frac{\\pi}{\\sqrt{2}}$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.9"
+   ],
+   "question": "The direction field of a differential equation is shown. Which differential equation does the direction field best represent?",
+   "answer": "The gradient is positive in the 1st and 3rd quadrants and negative in the 2nd and 4th, so A or B. Along $y = 0$ the slope lines are horizontal (not vertical), which rules out $\\frac{x}{y}$: B, $y' = xy$.",
+   "options": [
+    "$y' = \\dfrac{x}{y}$",
+    "$y' = xy$",
+    "$y' = x^2y^2$",
+    "$y' = x + y$"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/ext1-2025-james-ruse/q3.png"
+   ]
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.6"
+   ],
+   "question": "If $\\overrightarrow{OX} = \\mathbf{a} + 2\\mathbf{b}$ and $\\overrightarrow{YX} = \\mathbf{a} - \\mathbf{b}$, which of the following is $\\overrightarrow{OY}$?",
+   "answer": "$\\overrightarrow{OY} + \\overrightarrow{YX} = \\overrightarrow{OX}$, so $\\overrightarrow{OY} = (\\mathbf{a} + 2\\mathbf{b}) - (\\mathbf{a} - \\mathbf{b}) = 3\\mathbf{b}$.",
+   "options": [
+    "$2\\mathbf{b}$",
+    "$3\\mathbf{b}$",
+    "$2\\mathbf{a} + \\mathbf{b}$",
+    "$2\\mathbf{a} + 3\\mathbf{b}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.3.2.2"
+   ],
+   "question": "$\\sin(3x + x) - \\sin(3x - x) =$",
+   "answer": "$(\\sin 3x\\cos x + \\cos 3x\\sin x) - (\\sin 3x\\cos x - \\cos 3x\\sin x) = 2\\cos 3x\\sin x$.",
+   "options": [
+    "$-2\\sin 3x\\sin x$",
+    "$2\\cos 3x\\sin x$",
+    "$2\\cos 3x\\cos x$",
+    "$2\\sin 3x\\sin x$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.4",
+    "11.1.2.7"
+   ],
+   "question": "Given that $\\left[-\\frac{\\pi}{10}, \\frac{\\pi}{10}\\right]$ is the restricted domain of the function $f(x) = \\dfrac{\\sin 5x}{3}$, what is the domain of the corresponding inverse function?",
+   "answer": "For $x \\in \\left[-\\frac{\\pi}{10}, \\frac{\\pi}{10}\\right]$, $5x \\in \\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right]$, so $\\sin 5x \\in [-1, 1]$ and $f(x) \\in \\left[-\\frac{1}{3}, \\frac{1}{3}\\right]$. The domain of the inverse is the range of $f$.",
+   "options": [
+    "$\\left[-\\frac{1}{3}, \\frac{1}{3}\\right]$",
+    "$[-1, 1]$",
+    "$\\left[-\\frac{1}{5}, \\frac{1}{5}\\right]$",
+    "$\\left[-\\frac{3}{5}, \\frac{3}{5}\\right]$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.3.3",
+    "12.3.1.6"
+   ],
+   "question": "Which of the following is the Cartesian equation for the parametric equations $x = \\sin^{-1}t + 1$, $y = \\dfrac{1}{\\sqrt{1 - t^2}}$?",
+   "answer": "$t = \\sin(x - 1)$ with $x - 1 \\in \\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right]$. Then\n$$y = \\frac{1}{\\sqrt{1 - \\sin^2(x - 1)}} = \\frac{1}{|\\cos(x - 1)|} = \\frac{1}{\\cos(x - 1)},$$\nsince $\\cos(x - 1) \\ge 0$ on that interval.",
+   "options": [
+    "$y = \\dfrac{1}{1 - \\sin(x - 1)}$",
+    "$y = \\dfrac{1}{\\sqrt{2\\sin x - \\sin^2 x}}$",
+    "$y = \\dfrac{1}{\\cos(x - 1)}$",
+    "$y = \\pm\\dfrac{1}{\\cos(x - 1)}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.2.6"
+   ],
+   "question": "In an experiment, positive and negative values are equally likely to occur. The probability of obtaining at most one negative value in five trials is:",
+   "answer": "$P(X = 0) + P(X = 1) = \\left(\\frac{1}{2}\\right)^5 + 5\\left(\\frac{1}{2}\\right)^5 = \\frac{6}{32}$.",
+   "options": [
+    "$\\frac{1}{32}$",
+    "$\\frac{2}{32}$",
+    "$\\frac{3}{32}$",
+    "$\\frac{6}{32}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.3.3"
+   ],
+   "question": "Let $\\alpha, \\beta$ be the roots of the equation $x^2 - ax + b = 0$ and $A_n = \\alpha^n - \\beta^n$. Which of the following is equal to $A_{n+1} - aA_n + bA_{n-1}$?",
+   "answer": "$\\alpha + \\beta = a$, $\\alpha\\beta = b$. Since $\\alpha$ is a root, $\\alpha^{n+1} - a\\alpha^n + b\\alpha^{n-1} = \\alpha^{n-1}(\\alpha^2 - a\\alpha + b) = 0$, and likewise for $\\beta$. Subtracting, $A_{n+1} - aA_n + bA_{n-1} = 0$.",
+   "options": [
+    "$-a$",
+    "$b$",
+    "$a - b$",
+    "0"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.6",
+    "11.5.1.8"
+   ],
+   "question": "Let $X$ denote the number of times heads occur in $n$ tosses of a fair coin. If $P(X = 4)$, $P(X = 5)$ and $P(X = 6)$ are in arithmetic progression, then a possible value of $n$ is:",
+   "answer": "$2P(X = 5) = P(X = 4) + P(X = 6)$, and each probability is $\\binom{n}{r}\\left(\\frac{1}{2}\\right)^n$, so $2\\binom{n}{5} = \\binom{n}{4} + \\binom{n}{6}$. Multiplying by $\\frac{6!(n-4)!}{n!}$:\n$$12(n - 4) = 30 + (n - 4)(n - 5) \\Rightarrow n^2 - 21n + 98 = 0 \\Rightarrow (n - 7)(n - 14) = 0.$$\nSo $n = 7$ or $14$; of the options, 7.",
+   "options": [
+    "7",
+    "10",
+    "12",
+    "15"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.1.10"
+   ],
+   "question": "Let $x = \\alpha$ be a zero of a polynomial $P(x)$. If $P(\\alpha) = P'(\\alpha) = 0$, show that $x = \\alpha$ is a zero of $P(x)$ of multiplicity at least 2.",
+   "answer": "Since $P(\\alpha) = 0$, $(x - \\alpha)$ is a factor: $P(x) = (x - \\alpha)A(x)$.\nThen $P'(x) = A(x) + (x - \\alpha)A'(x)$, so $P'(\\alpha) = A(\\alpha) = 0$.\nHence $(x - \\alpha)$ is a factor of $A(x)$: $A(x) = (x - \\alpha)B(x)$, and $P(x) = (x - \\alpha)^2B(x)$. So $\\alpha$ has multiplicity at least 2."
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.1.10"
+   ],
+   "question": "The equation $ax^3 + bx^2 + c = 0$ has a double root, where $a$, $b$ and $c$ are non-zero constants. Show that $27a^2c + 4b^3 = 0$.",
+   "answer": "Let $P(x) = ax^3 + bx^2 + c$ with double root $\\alpha$. Then $\\alpha \\ne 0$ (since $P(0) = c \\ne 0$) and $P(\\alpha) = P'(\\alpha) = 0$:\n$$3a\\alpha^2 + 2b\\alpha = 0 \\Rightarrow \\alpha = -\\frac{2b}{3a}, \\qquad a\\alpha^3 + b\\alpha^2 + c = 0.$$\nSubstituting:\n$$a\\left(-\\frac{2b}{3a}\\right)^3 + b\\left(-\\frac{2b}{3a}\\right)^2 + c = -\\frac{8b^3}{27a^2} + \\frac{4b^3}{9a^2} + c = 0.$$\nMultiply by $27a^2$: $-8b^3 + 12b^3 + 27a^2c = 0$, so $27a^2c + 4b^3 = 0$."
+  },
+  {
+   "ref": "Q11(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.4.15"
+   ],
+   "question": "Show that $\\dfrac{Q}{P(Q - P)} = \\dfrac{1}{P} + \\dfrac{1}{Q - P}$.",
+   "answer": "$$\\frac{1}{P} + \\frac{1}{Q - P} = \\frac{Q - P + P}{P(Q - P)} = \\frac{Q}{P(Q - P)}.$$"
+  },
+  {
+   "ref": "Q11(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.15"
+   ],
+   "question": "The population $P(t)$ of bacteria in a dish is modelled by the logistic differential equation\n$$\\frac{dP}{dt} = \\frac{P}{6}\\left(1 - \\frac{P}{8000}\\right),$$\nwhere $P(0) = P_0$ and $t$ is the time in hours. You may use $\\dfrac{Q}{P(Q - P)} = \\dfrac{1}{P} + \\dfrac{1}{Q - P}$. If the initial population $P_0$ is 1000 bacteria, show that\n$$P(t) = \\frac{8000e^{t/6}}{7 + e^{t/6}}$$\nby solving the differential equation.",
+   "answer": "$\\dfrac{dP}{dt} = \\dfrac{P(8000 - P)}{6 \\times 8000}$, so\n$$\\int_{1000}^{P}\\frac{8000}{P(8000 - P)}\\,dP = \\int_0^t\\frac{1}{6}\\,dt \\Rightarrow \\left[\\ln|P| - \\ln|8000 - P|\\right]_{1000}^{P} = \\frac{t}{6}.$$\n$$\\ln\\frac{P}{8000 - P} - \\ln\\frac{1}{7} = \\frac{t}{6} \\Rightarrow \\frac{7P}{8000 - P} = e^{t/6}$$\n(the absolute values can be removed since $0 < P < 8000$). Then $7P = 8000e^{t/6} - Pe^{t/6}$, so\n$$P = \\frac{8000e^{t/6}}{7 + e^{t/6}}.$$"
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.7"
+   ],
+   "question": "Differentiate $y = \\ln(\\tan^{-1}2x)$.",
+   "answer": "$$\\frac{dy}{dx} = \\frac{1}{\\tan^{-1}2x}\\cdot\\frac{2}{1 + 4x^2} = \\frac{2}{(1 + 4x^2)\\tan^{-1}2x}.$$"
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.5.1.5"
+   ],
+   "question": "Expand the binomial expansion of $(2 - x)^5$, simplifying all terms.",
+   "answer": "$$(2 - x)^5 = 32 - 80x + 80x^2 - 40x^3 + 10x^4 - x^5.$$"
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "It is known that $(2 - x)^5 = 32 - 80x + 80x^2 - 40x^3 + 10x^4 - x^5$. Hence, find the coefficient of $y^3$ in the expansion of $(2 - 3y + y^2)^5$.",
+   "answer": "Let $x = 3y - y^2$. Only $x^2$ and $x^3$ contribute to $y^3$:\n- $80x^2 = 80(9y^2 - 6y^3 + y^4)$: contributes $80 \\times (-6) = -480$\n- $-40x^3 = -40(27y^3 + \\dots)$: contributes $-40 \\times 27 = -1080$\n\nCoefficient of $y^3$: $-1560$."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Evaluate the integral $\\displaystyle\\int_0^{\\sqrt{5}}\\frac{2x^3}{\\sqrt{x^2 + 4}}\\,dx$ using the substitution $u = x^2 + 4$.",
+   "answer": "$du = 2x\\,dx$, $x^2 = u - 4$; $x = 0 \\Rightarrow u = 4$, $x = \\sqrt{5} \\Rightarrow u = 9$.\n$$\\int_4^9\\frac{u - 4}{\\sqrt{u}}\\,du = \\int_4^9\\left(u^{1/2} - 4u^{-1/2}\\right)du = \\left[\\frac{2}{3}u^{3/2} - 8u^{1/2}\\right]_4^9 = (18 - 24) - \\left(\\frac{16}{3} - 16\\right) = \\frac{14}{3}.$$"
+  },
+  {
+   "ref": "Q13(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.6"
+   ],
+   "question": "A farmer noticed that some of the eggs laid by his hens had double yolks. He estimated the probability of this happening to be 0.05. Eggs are packed in boxes of 12.\n\nFind the probability that in a box, the number of eggs with double yolks will be more than two.",
+   "answer": "$X \\sim \\text{Bin}(12, 0.05)$:\n$$P(X > 2) = 1 - \\left[(0.95)^{12} + 12(0.05)(0.95)^{11} + \\binom{12}{2}(0.05)^2(0.95)^{10}\\right] \\approx 1 - 0.9804 = 0.0196.$$"
+  },
+  {
+   "ref": "Q13(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.6"
+   ],
+   "question": "A farmer noticed that some of the eggs laid by his hens had double yolks. He estimated the probability of this happening to be 0.05. Eggs are packed in boxes of 12.\n\nA customer bought three boxes. Find the probability that only 2 of the boxes contained exactly 1 egg with a double yolk.",
+   "answer": "$P(\\text{exactly 1 double yolk in a box}) = 12(0.05)(0.95)^{11} \\approx 0.3413$.\nLet $Y \\sim \\text{Bin}(3, 0.3413)$ count such boxes:\n$$P(Y = 2) = \\binom{3}{2}(0.3413)^2(1 - 0.3413) \\approx 0.2302.$$"
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.2"
+   ],
+   "question": "The angle $\\theta$ satisfies $\\sin\\left(2\\theta + \\frac{\\pi}{4}\\right) = 3\\cos\\left(2\\theta + \\frac{\\pi}{4}\\right)$. Show that $\\tan 2\\theta = \\frac{1}{2}$.",
+   "answer": "$\\tan\\left(2\\theta + \\frac{\\pi}{4}\\right) = 3$, so\n$$\\frac{\\tan 2\\theta + 1}{1 - \\tan 2\\theta} = 3 \\Rightarrow \\tan 2\\theta + 1 = 3 - 3\\tan 2\\theta \\Rightarrow \\tan 2\\theta = \\frac{1}{2}.$$"
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.1"
+   ],
+   "question": "Given $\\tan 2\\theta = \\frac{1}{2}$, solve for $\\theta$, $\\theta \\in [-2\\pi, \\pi]$.",
+   "answer": "$2\\theta \\in [-4\\pi, 2\\pi]$ and $2\\theta = \\tan^{-1}\\frac{1}{2} + k\\pi$ for $k = -4, -3, \\dots, 1$:\n$$\\theta = \\frac{1}{2}\\tan^{-1}\\frac{1}{2} + \\frac{k\\pi}{2}, \\quad k = -4, -3, -2, -1, 0, 1,$$\ni.e. $\\theta \\approx -6.05, -4.48, -2.91, -1.34, 0.232, 1.80$."
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.4.9",
+    "12.2.4.3"
+   ],
+   "question": "Let $\\mathbf{a}$, $\\mathbf{b}$ and $\\mathbf{c}$ be non-zero vectors in the plane. Let $\\alpha$ be the angle between $\\mathbf{a}$ and $\\mathbf{b}$, and $\\beta$ the angle between $\\mathbf{b}$ and $\\mathbf{c}$, where $\\alpha$ and $\\beta$ are acute angles such that $\\alpha + \\beta \\ne 90°$ and $\\alpha + \\beta$ is the angle between $\\mathbf{a}$ and $\\mathbf{c}$. Given that $\\text{proj}_{\\mathbf{b}}\\mathbf{a} = \\mathbf{d}$, show that\n$$\\text{proj}_{\\mathbf{c}}\\mathbf{d} = \\frac{\\cos\\alpha\\cos\\beta}{\\cos(\\alpha + \\beta)}\\,\\text{proj}_{\\mathbf{c}}\\mathbf{a}.$$",
+   "answer": "$\\mathbf{d} = \\dfrac{\\mathbf{a}\\cdot\\mathbf{b}}{\\mathbf{b}\\cdot\\mathbf{b}}\\mathbf{b} = \\dfrac{|\\mathbf{a}|\\cos\\alpha}{|\\mathbf{b}|}\\mathbf{b}$, a positive multiple of $\\mathbf{b}$, so the angle between $\\mathbf{d}$ and $\\mathbf{c}$ is $\\beta$ and $|\\mathbf{d}| = |\\mathbf{a}|\\cos\\alpha$.\n$$\\text{proj}_{\\mathbf{c}}\\mathbf{d} = \\frac{\\mathbf{d}\\cdot\\mathbf{c}}{|\\mathbf{c}|^2}\\mathbf{c} = \\frac{|\\mathbf{a}|\\cos\\alpha\\,|\\mathbf{c}|\\cos\\beta}{|\\mathbf{c}|^2}\\mathbf{c} = \\frac{|\\mathbf{a}|\\cos\\alpha\\cos\\beta}{|\\mathbf{c}|}\\mathbf{c}.$$\nAlso $\\text{proj}_{\\mathbf{c}}\\mathbf{a} = \\dfrac{\\mathbf{a}\\cdot\\mathbf{c}}{|\\mathbf{c}|^2}\\mathbf{c} = \\dfrac{|\\mathbf{a}|\\cos(\\alpha + \\beta)}{|\\mathbf{c}|}\\mathbf{c}$, so $\\dfrac{|\\mathbf{a}|}{|\\mathbf{c}|}\\mathbf{c} = \\dfrac{\\text{proj}_{\\mathbf{c}}\\mathbf{a}}{\\cos(\\alpha + \\beta)}$ (as $\\cos(\\alpha + \\beta) \\ne 0$). Hence\n$$\\text{proj}_{\\mathbf{c}}\\mathbf{d} = \\frac{\\cos\\alpha\\cos\\beta}{\\cos(\\alpha + \\beta)}\\,\\text{proj}_{\\mathbf{c}}\\mathbf{a}.$$"
+  },
+  {
+   "ref": "Q15(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.6"
+   ],
+   "question": "The points $R$ and $S$ have position vectors $\\mathbf{p} + 2\\mathbf{q}$ and $2\\mathbf{p} - 3\\mathbf{q}$ respectively.\n\nIf $ORST$ is a parallelogram, find $\\overrightarrow{RT}$ in terms of $\\mathbf{p}$ and $\\mathbf{q}$.",
+   "answer": "$\\overrightarrow{RS} = (2\\mathbf{p} - 3\\mathbf{q}) - (\\mathbf{p} + 2\\mathbf{q}) = \\mathbf{p} - 5\\mathbf{q}$. In parallelogram $ORST$, $\\overrightarrow{ST} = \\overrightarrow{RO} = -\\overrightarrow{OR}$, so\n$$\\overrightarrow{RT} = \\overrightarrow{RS} + \\overrightarrow{ST} = (\\mathbf{p} - 5\\mathbf{q}) - (\\mathbf{p} + 2\\mathbf{q}) = -7\\mathbf{q}.$$"
+  },
+  {
+   "ref": "Q15(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.7",
+    "12.2.4.5"
+   ],
+   "question": "The points $R$ and $S$ have position vectors $\\mathbf{p} + 2\\mathbf{q}$ and $2\\mathbf{p} - 3\\mathbf{q}$ respectively. If $ORST$ is a parallelogram, $\\overrightarrow{RT} = -7\\mathbf{q}$.\n\nIf $ORST$ is a square, show that $2|\\mathbf{p}|^2 = 29|\\mathbf{q}|^2$.",
+   "answer": "The diagonals of a square are perpendicular: $\\overrightarrow{OS}\\cdot\\overrightarrow{RT} = 0$:\n$$(2\\mathbf{p} - 3\\mathbf{q})\\cdot(-7\\mathbf{q}) = 0 \\Rightarrow -14\\mathbf{p}\\cdot\\mathbf{q} + 21|\\mathbf{q}|^2 = 0 \\Rightarrow 2\\mathbf{p}\\cdot\\mathbf{q} = 3|\\mathbf{q}|^2. \\quad (1)$$\nThe diagonals are equal: $|\\overrightarrow{OS}|^2 = |\\overrightarrow{RT}|^2$:\n$$4|\\mathbf{p}|^2 - 12\\mathbf{p}\\cdot\\mathbf{q} + 9|\\mathbf{q}|^2 = 49|\\mathbf{q}|^2. \\quad (2)$$\nSubstituting (1): $4|\\mathbf{p}|^2 - 18|\\mathbf{q}|^2 - 40|\\mathbf{q}|^2 = 0$, so $4|\\mathbf{p}|^2 = 58|\\mathbf{q}|^2$ and $2|\\mathbf{p}|^2 = 29|\\mathbf{q}|^2$."
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "Show by mathematical induction that $7^{2^n} - 1$ is divisible by $2^{n+2}$ for all positive integers $n$.",
+   "answer": "**$n = 1$:** $7^2 - 1 = 48 = 8 \\times 6$, divisible by $2^3 = 8$. True.\n\n**Assume true for $n = k$:** $7^{2^k} - 1 = 2^{k+2}M$ for some integer $M$.\n\n**Prove for $n = k + 1$:**\n$$7^{2^{k+1}} - 1 = \\left(7^{2^k}\\right)^2 - 1 = \\left(2^{k+2}M + 1\\right)^2 - 1 = 2^{2k+4}M^2 + 2^{k+3}M = 2^{k+3}\\left(2^{k+1}M^2 + M\\right),$$\nwhich is divisible by $2^{k+3}$ since $2^{k+1}M^2 + M$ is an integer. Hence true for all positive integers $n$ by mathematical induction."
+  },
+  {
+   "ref": "Q15(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.2"
+   ],
+   "question": "The diagram shows the graphs of $x^2 + y^2 = 1$ and $y = 2\\sqrt{3}x^2$, which intersect at $P\\left(\\frac{1}{2}, \\frac{\\sqrt{3}}{2}\\right)$. Find the volume of the solid of revolution formed when the shaded area (in the first quadrant, between the $y$-axis, the circle and the parabola) is rotated about the $x$-axis.",
+   "answer": "$$V = \\pi\\int_0^{1/2}\\left[(1 - x^2) - (2\\sqrt{3}x^2)^2\\right]dx = \\pi\\int_0^{1/2}\\left(1 - x^2 - 12x^4\\right)dx = \\pi\\left[x - \\frac{x^3}{3} - \\frac{12x^5}{5}\\right]_0^{1/2}$$\n$$= \\pi\\left(\\frac{1}{2} - \\frac{1}{24} - \\frac{3}{40}\\right) = \\frac{23\\pi}{60} \\approx 1.204 \\text{ units}^3.$$",
+   "images": [
+    "assets/img/ext1-2025-james-ruse/q15c.png"
+   ]
+  },
+  {
+   "ref": "Q16(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.1.1"
+   ],
+   "question": "The figure shows a stage prop $ABC$ leaning against a vertical wall $OP$. It is given that $AB = 30$ cm, $BC = 100$ cm, $\\angle ABC = \\angle AOC = 90°$ and $\\angle BCO = \\theta$, where $\\theta$ is an acute angle. Let $D$ be the foot of the perpendicular from $B$ to $OC$, and $E$ the foot of the perpendicular from $A$ to $BD$.\n\nShow that $OC = (100\\cos\\theta + 30\\sin\\theta)$ cm.",
+   "answer": "In $\\triangle BCD$: $CD = 100\\cos\\theta$, and $\\angle CBD = 90° - \\theta$, so $\\angle ABD = \\theta$ (as $\\angle ABC = 90°$).\nIn $\\triangle ABE$: $AE = 30\\sin\\theta$.\n$AEDO$ is a rectangle, so $DO = AE$. Hence $OC = CD + DO = 100\\cos\\theta + 30\\sin\\theta$.",
+   "images": [
+    "assets/img/ext1-2025-james-ruse/q16.png"
+   ]
+  },
+  {
+   "ref": "Q16(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.2"
+   ],
+   "question": "Express $100\\cos\\theta + 30\\sin\\theta$ in the form $R\\cos(\\theta - \\alpha)$, where $R$ is a positive constant and $\\alpha$ is an acute angle. Show all necessary working.",
+   "answer": "$R\\cos\\theta\\cos\\alpha + R\\sin\\theta\\sin\\alpha$: $R\\cos\\alpha = 100$, $R\\sin\\alpha = 30$.\n$R^2 = 100^2 + 30^2 = 10900 \\Rightarrow R = 10\\sqrt{109}$; $\\tan\\alpha = \\frac{3}{10} \\Rightarrow \\alpha \\approx 16°42'$.\n$$100\\cos\\theta + 30\\sin\\theta = 10\\sqrt{109}\\cos(\\theta - 16°42').$$"
+  },
+  {
+   "ref": "Q16(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.3"
+   ],
+   "question": "The figure shows a stage prop $ABC$ leaning against a vertical wall $OP$. It is given that $AB = 30$ cm, $BC = 100$ cm, $\\angle ABC = \\angle AOC = 90°$ and $\\angle BCO = \\theta$, where $\\theta$ is an acute angle. The distance $OC = 10\\sqrt{109}\\cos(\\theta - 16°42')$ cm.\n\nState the maximum value of $OC$ and the corresponding value of $\\theta$.",
+   "answer": "Maximum $OC = 10\\sqrt{109} \\approx 104.4$ cm, when $\\cos(\\theta - 16°42') = 1$, i.e. $\\theta = 16°42'$ (since $\\theta$ is acute).",
+   "images": [
+    "assets/img/ext1-2025-james-ruse/q16.png"
+   ]
+  },
+  {
+   "ref": "Q16(iv)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.1"
+   ],
+   "question": "The figure shows a stage prop $ABC$ leaning against a vertical wall $OP$. It is given that $AB = 30$ cm, $BC = 100$ cm, $\\angle ABC = \\angle AOC = 90°$ and $\\angle BCO = \\theta$, where $\\theta$ is an acute angle. The distance $OC = 10\\sqrt{109}\\cos(\\theta - 16°42')$ cm.\n\nFind the value of $\\theta$ for which $OC = 80$ cm.",
+   "answer": "$\\cos(\\theta - 16°42') = \\dfrac{8}{\\sqrt{109}} \\Rightarrow \\theta - 16°42' = \\pm 39°59'$.\nSince $\\theta$ is acute, $\\theta = 16°42' + 39°59' = 56°41'$.",
+   "images": [
+    "assets/img/ext1-2025-james-ruse/q16.png"
+   ]
+  },
+  {
+   "ref": "Q17(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.3.8"
+   ],
+   "question": "Let $y = xu$. Given that $u$ is a function of $x$, find an expression for $\\dfrac{dy}{dx}$.",
+   "answer": "By the product rule, $\\dfrac{dy}{dx} = u + x\\dfrac{du}{dx}$.",
+   "course": "advanced"
+  },
+  {
+   "ref": "Q17(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "Let $y = xu$, where $u$ is a function of $x$, so that $\\dfrac{dy}{dx} = u + x\\dfrac{du}{dx}$. Hence solve the initial value problem\n$$\\frac{dy}{dx} = \\frac{y^2}{2x^2} + \\frac{1}{2}, \\quad y(1) = 2.$$\nExpress your answer with $y$ as the subject in terms of $x$ only.",
+   "answer": "Substituting: $u + xu' = \\frac{u^2}{2} + \\frac{1}{2}$, so $x\\dfrac{du}{dx} = \\frac{1}{2}(u - 1)^2$. Separating variables:\n$$\\int\\frac{du}{(u - 1)^2} = \\frac{1}{2}\\int\\frac{dx}{x} \\Rightarrow -\\frac{1}{u - 1} = \\frac{1}{2}\\ln|x| + C.$$\nAt $x = 1$, $u = \\frac{y}{x} = 2$: $-1 = C$. So $\\dfrac{1}{1 - u} = \\frac{1}{2}\\ln x - 1$ (taking $x > 0$), giving $u = 1 - \\dfrac{2}{\\ln x - 2}$ and\n$$y = x\\left(1 - \\frac{2}{\\ln x - 2}\\right) = \\frac{x(\\ln x - 4)}{\\ln x - 2}.$$"
+  },
+  {
+   "ref": "Q17(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.6"
+   ],
+   "question": "The position vectors of the points $A$, $B$ and $C$ are $\\mathbf{i} + \\mathbf{j}$, $2\\mathbf{i} + 3\\mathbf{j}$ and $4\\mathbf{i} + 2\\mathbf{j}$ respectively.\n\nFind the position vector of the point $P$ on $BC$ such that $\\overrightarrow{BP} = \\frac{1}{3}\\overrightarrow{BC}$.",
+   "answer": "$\\overrightarrow{OP} = \\overrightarrow{OB} + \\frac{1}{3}(\\overrightarrow{OC} - \\overrightarrow{OB}) = \\frac{2}{3}\\overrightarrow{OB} + \\frac{1}{3}\\overrightarrow{OC} = \\frac{2}{3}(2\\mathbf{i} + 3\\mathbf{j}) + \\frac{1}{3}(4\\mathbf{i} + 2\\mathbf{j}) = \\frac{8}{3}\\mathbf{i} + \\frac{8}{3}\\mathbf{j}$."
+  },
+  {
+   "ref": "Q17(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.7",
+    "12.2.3.6"
+   ],
+   "question": "The position vectors of the points $A$, $B$ and $C$ are $\\mathbf{i} + \\mathbf{j}$, $2\\mathbf{i} + 3\\mathbf{j}$ and $4\\mathbf{i} + 2\\mathbf{j}$ respectively. The point $P$ has position vector $\\frac{8}{3}\\mathbf{i} + \\frac{8}{3}\\mathbf{j}$.\n\nThe vertex $D$ of a trapezium $ABCD$ is taken such that $\\overrightarrow{BC}$ is parallel to $\\overrightarrow{AD}$, and $\\overrightarrow{PD}$ is perpendicular to $\\overrightarrow{AC}$. Find the position vector of $D$.",
+   "answer": "$\\overrightarrow{BC} = 2\\mathbf{i} - \\mathbf{j}$ and $\\overrightarrow{AD} = k\\overrightarrow{BC}$, so $\\overrightarrow{OD} = (1 + 2k)\\mathbf{i} + (1 - k)\\mathbf{j}$.\n$\\overrightarrow{PD} = \\left(2k - \\frac{5}{3}\\right)\\mathbf{i} + \\left(-k - \\frac{5}{3}\\right)\\mathbf{j}$ and $\\overrightarrow{AC} = 3\\mathbf{i} + \\mathbf{j}$.\n$$\\overrightarrow{PD}\\cdot\\overrightarrow{AC} = 3\\left(2k - \\frac{5}{3}\\right) - k - \\frac{5}{3} = 5k - \\frac{20}{3} = 0 \\Rightarrow k = \\frac{4}{3}.$$\n$$\\overrightarrow{OD} = \\frac{11}{3}\\mathbf{i} - \\frac{1}{3}\\mathbf{j}.$$"
+  }
+ ]
+}
