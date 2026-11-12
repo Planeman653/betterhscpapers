@@ -1,0 +1,527 @@
+{
+ "id": "ext1-2026-girraween",
+ "course": "extension1",
+ "school": "Girraween",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "Girraween 2026 w. sol"
+ },
+ "indexed": "2026-11-12",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q4",
+   "reason": "Not in 2024 syllabus: pigeonhole principle"
+  },
+  {
+   "ref": "Q11(b)",
+   "reason": "Not in 2024 syllabus: trigonometric limit $\\lim_{x\\to0}\\frac{\\sin x}{x}$"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.2.5"
+   ],
+   "question": "If $x^3 + 2x^2 + ax - 4$ has a remainder of $1$ when divided by $x + 1$, then $a$ equals",
+   "options": [
+    "$-8$",
+    "$-4$",
+    "$-2$",
+    "$-1$"
+   ],
+   "correct": "B",
+   "answer": "By the remainder theorem the remainder is $P(-1) = -1 + 2 - a - 4 = -3 - a$. So $-3 - a = 1$, giving $a = -4$."
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.11",
+    "11.4.1.19"
+   ],
+   "question": "A family of 10 is seated randomly around a circular table. What is the probability that the two youngest members of the family sit together?",
+   "options": [
+    "$\\dfrac{1}{5}$",
+    "$\\dfrac{2}{5}$",
+    "$\\dfrac{1}{9}$",
+    "$\\dfrac{2}{9}$"
+   ],
+   "correct": "D",
+   "answer": "Treat the two youngest as one unit: $8!$ circular arrangements of 9 units, times $2!$ for their order, out of $9!$ arrangements of 10 people in a circle.\n\n$$P = \\frac{8! \\times 2!}{9!} = \\frac{2}{9}$$\n\n(Equivalently: seat the youngest anywhere; 2 of the remaining 9 seats are next to them.)"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.1",
+    "12.4.2.2"
+   ],
+   "question": "What is the antiderivative of $\\dfrac{3x^2 + 6x^5}{4 + x^6}$?",
+   "options": [
+    "$\\frac{1}{2}\\tan^{-1}\\left(\\frac{x^3}{2}\\right) + \\ln|4 + x^6| + C$",
+    "$\\frac{1}{3}\\tan^{-1}\\left(\\frac{x^3}{2}\\right) + \\ln|4 + x^6| + C$",
+    "$2\\tan^{-1}\\left(\\frac{x^3}{2}\\right) + \\ln|4 + x^6| + C$",
+    "$3\\tan^{-1}\\left(\\frac{x^3}{2}\\right) + \\ln|4 + x^6| + C$"
+   ],
+   "correct": "A",
+   "answer": "$$\\int \\frac{3x^2 + 6x^5}{4+x^6}\\,dx = \\int \\frac{3x^2}{2^2 + (x^3)^2}\\,dx + \\int \\frac{6x^5}{4+x^6}\\,dx$$\n\nThe second integral is $\\ln|4+x^6|$. For the first, let $u = x^3$, $du = 3x^2\\,dx$: $\\displaystyle\\int \\frac{du}{2^2+u^2} = \\frac{1}{2}\\tan^{-1}\\frac{u}{2}$.\n\nSo the antiderivative is $\\frac{1}{2}\\tan^{-1}\\left(\\frac{x^3}{2}\\right) + \\ln|4+x^6| + C$."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "What is the derivative of $y = \\cos^{-1}\\sqrt{1 - x}$?",
+   "options": [
+    "$-\\dfrac{2}{\\sqrt{x(1-x)}}$",
+    "$\\dfrac{2}{\\sqrt{x(1-x)}}$",
+    "$-\\dfrac{1}{2\\sqrt{x(1-x)}}$",
+    "$\\dfrac{1}{2\\sqrt{x(1-x)}}$"
+   ],
+   "correct": "D",
+   "answer": "$$\\frac{dy}{dx} = \\frac{-1}{\\sqrt{1-(1-x)}} \\times \\frac{-1}{2\\sqrt{1-x}} = \\frac{1}{2\\sqrt{x}\\sqrt{1-x}} = \\frac{1}{2\\sqrt{x(1-x)}}$$"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.3.3"
+   ],
+   "question": "Consider the parametric equations $x = 5\\cos\\theta - 1$ and $y = 5\\sin\\theta + 3$. Which of these is the corresponding Cartesian equation?",
+   "options": [
+    "$x^2 + 2x + y^2 - 6y = 15$",
+    "$x^2 + 2x + y^2 - 6y = 25$",
+    "$x^2 - 2x + y^2 + 6y = 15$",
+    "$x^2 - 2x + y^2 + 6y = 25$"
+   ],
+   "correct": "A",
+   "answer": "$\\cos\\theta = \\frac{x+1}{5}$, $\\sin\\theta = \\frac{y-3}{5}$, and $\\sin^2\\theta + \\cos^2\\theta = 1$ gives $(x+1)^2 + (y-3)^2 = 25$, i.e. $x^2 + 2x + 1 + y^2 - 6y + 9 = 25$, so $x^2 + 2x + y^2 - 6y = 15$."
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.4",
+    "12.4.1.3"
+   ],
+   "question": "Given the function $f(x) = e^{-x} + ex$, $x \\geq -1$, what is the gradient of the inverse function $y = f^{-1}(x)$ at $(1, 0)$?",
+   "options": [
+    "$e - 1$",
+    "$\\dfrac{1}{e-1}$",
+    "$\\dfrac{e^2-1}{e}$",
+    "$\\dfrac{e}{e^2-1}$"
+   ],
+   "correct": "B",
+   "answer": "The point $(1,0)$ on $y = f^{-1}(x)$ corresponds to $(0,1)$ on $y = f(x)$ (check: $f(0) = 1$). For the inverse, $x = e^{-y} + ey$, so $\\frac{dx}{dy} = -e^{-y} + e$. At $y = 0$, $\\frac{dx}{dy} = e - 1$, so $\\frac{dy}{dx} = \\frac{1}{e-1}$."
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "What is the term independent of $x$ in the expansion of $(1 + 4x^2)\\left(2x + \\dfrac{1}{x}\\right)^{12}$?",
+   "options": [
+    "$\\binom{12}{6} \\times 2^6$",
+    "$\\binom{12}{6} \\times 2^6 + \\binom{12}{7} \\times 2^6$",
+    "$\\binom{12}{6} \\times 2^6 + \\binom{12}{7} \\times 2^7$",
+    "$\\binom{12}{6} \\times 2^6 + \\binom{12}{7} \\times 2^9$"
+   ],
+   "correct": "C",
+   "answer": "The general term of $\\left(2x + \\frac1x\\right)^{12}$ is $\\binom{12}{k}(2x)^{12-k}x^{-k} = \\binom{12}{k}2^{12-k}x^{12-2k}$.\n\n- Times $1$: need $x^0$, so $k = 6$: $\\binom{12}{6}2^6$.\n- Times $4x^2$: need $x^{-2}$, so $k = 7$: $4 \\times \\binom{12}{7}2^5 = \\binom{12}{7}2^7$.\n\nTerm independent of $x$: $\\binom{12}{6} \\times 2^6 + \\binom{12}{7} \\times 2^7$."
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.9",
+    "12.5.4.4"
+   ],
+   "question": "Which of the following differential equations is represented by the slope field below?",
+   "options": [
+    "$y \\times \\dfrac{dy}{dx} = x$",
+    "$x \\times \\dfrac{dy}{dx} = y$",
+    "$\\dfrac{dy}{dx} + xy = 0$",
+    "$\\dfrac{dy}{dx} - xy = 0$"
+   ],
+   "correct": "D",
+   "answer": "The slopes are horizontal along both axes ($x = 0$ or $y = 0$), positive in the 1st and 3rd quadrants, negative in the 2nd and 4th, and steeper further from the axes. This matches $\\frac{dy}{dx} = xy$, i.e. $\\frac{dy}{dx} - xy = 0$. (A gives vertical slopes on the $x$-axis; B gives vertical slopes on the $y$-axis; C has the wrong signs.)",
+   "images": [
+    "assets/img/ext1-2026-girraween/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.3",
+    "11.1.1.6"
+   ],
+   "question": "The graph of the function $y = f(x)$ is drawn below.\n\nWhich of the following best represents the graph of $y = |f(|x|)|$?",
+   "options": [
+    "![Graph A](assets/img/ext1-2026-girraween/q10a.png)",
+    "![Graph B](assets/img/ext1-2026-girraween/q10b.png)",
+    "![Graph C](assets/img/ext1-2026-girraween/q10c.png)",
+    "![Graph D](assets/img/ext1-2026-girraween/q10d.png)"
+   ],
+   "correct": "C",
+   "answer": "$y = f(|x|)$ keeps the part of the graph for $x \\geq 0$ and reflects it in the $y$-axis, so the graph is even and passes through $(0, f(0)) = (0,1)$. Taking the absolute value then reflects the parts below the $x$-axis (the small dip between the two positive zeros) upwards. Only C is even, non-negative and has the cusp at $(0,1)$ with two small humps either side.",
+   "images": [
+    "assets/img/ext1-2026-girraween/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Solve the inequality $\\dfrac{2x - 1}{x + 2} > 1$.",
+   "answer": "Multiply both sides by $(x+2)^2 > 0$ ($x \\neq -2$):\n\n$$(2x-1)(x+2) > (x+2)^2$$\n$$(x+2)^2 - (2x-1)(x+2) < 0$$\n$$(x+2)\\big[(x+2) - (2x-1)\\big] < 0$$\n$$(x+2)(3 - x) < 0$$\n\nThis is a concave-down parabola with roots $x = -2$ and $x = 3$, which is negative outside the roots:\n\n$$x < -2 \\quad\\text{or}\\quad x > 3$$"
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.2",
+    "12.4.2.3"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^1 \\sqrt{1 - x^2}\\,dx$ using the substitution $x = \\sin\\theta$.",
+   "answer": "Let $x = \\sin\\theta$, $dx = \\cos\\theta\\,d\\theta$. When $x = 0$, $\\theta = 0$; when $x = 1$, $\\theta = \\frac{\\pi}{2}$. For $0 \\le \\theta \\le \\frac{\\pi}{2}$, $\\sqrt{1 - \\sin^2\\theta} = \\cos\\theta$.\n\n$$\\begin{aligned} I &= \\int_0^{\\pi/2} \\cos\\theta \\cdot \\cos\\theta\\,d\\theta = \\int_0^{\\pi/2}\\cos^2\\theta\\,d\\theta \\\\ &= \\frac12\\int_0^{\\pi/2}(1 + \\cos 2\\theta)\\,d\\theta \\\\ &= \\frac12\\left[\\theta + \\frac{\\sin 2\\theta}{2}\\right]_0^{\\pi/2} \\\\ &= \\frac12\\left(\\frac{\\pi}{2} + 0\\right) - 0 = \\frac{\\pi}{4} \\end{aligned}$$"
+  },
+  {
+   "ref": "Q11(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.1"
+   ],
+   "question": "Consider the polynomial $P(x) = 2x^4 + 5x^3 + 3x^2 - x - 1$. It is known that $P(x)$ has a triple root at $x = \\alpha$.\n\nBy using differentiation, find the value of $\\alpha$.",
+   "answer": "$P'(x) = 8x^3 + 15x^2 + 6x - 1$ and $P''(x) = 24x^2 + 30x + 6$.\n\nFor a triple root, $P(\\alpha) = P'(\\alpha) = P''(\\alpha) = 0$.\n\n$$P''(\\alpha) = 6(4\\alpha^2 + 5\\alpha + 1) = 6(\\alpha+1)(4\\alpha+1) = 0 \\implies \\alpha = -1 \\text{ or } \\alpha = -\\tfrac14$$\n\nCheck: $P(-1) = 2 - 5 + 3 + 1 - 1 = 0$ (and $P'(-1) = -8 + 15 - 6 - 1 = 0$), whereas $P\\left(-\\frac14\\right) \\neq 0$.\n\nSo $\\alpha = -1$."
+  },
+  {
+   "ref": "Q11(d)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "The polynomial $P(x) = 2x^4 + 5x^3 + 3x^2 - x - 1$ has a triple root at $x = -1$. Solve $P(x) = 0$.",
+   "answer": "Let the roots be $-1, -1, -1$ and $\\beta$. Sum of roots:\n\n$$-3 + \\beta = -\\frac{5}{2} \\implies \\beta = \\frac12$$\n\nSolutions: $x = -1$ (triple root) and $x = \\frac12$."
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.2"
+   ],
+   "question": "Express $\\sqrt{3}\\cos\\theta - \\sin\\theta$ in the form $A\\cos(\\theta + \\alpha)$ where $A > 0$ and $0 < \\alpha < \\dfrac{\\pi}{2}$.",
+   "answer": "$A\\cos(\\theta + \\alpha) = A\\cos\\theta\\cos\\alpha - A\\sin\\theta\\sin\\alpha$, so $A\\cos\\alpha = \\sqrt3$ and $A\\sin\\alpha = 1$.\n\nSquaring and adding: $A^2 = 3 + 1 = 4$, so $A = 2$. Then $\\cos\\alpha = \\frac{\\sqrt3}{2}$, $\\sin\\alpha = \\frac12$, so $\\alpha = \\frac{\\pi}{6}$.\n\n$$\\sqrt3\\cos\\theta - \\sin\\theta = 2\\cos\\left(\\theta + \\frac{\\pi}{6}\\right)$$"
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.3.3.3"
+   ],
+   "question": "Given that $\\sqrt{3}\\cos\\theta - \\sin\\theta = 2\\cos\\left(\\theta + \\dfrac{\\pi}{6}\\right)$, determine the maximum and minimum values of $f(\\theta) = \\sqrt{3}\\cos\\theta - \\sin\\theta$.",
+   "answer": "Since $-1 \\le \\cos\\left(\\theta + \\frac{\\pi}{6}\\right) \\le 1$: maximum value $= 2$, minimum value $= -2$."
+  },
+  {
+   "ref": "Q12(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.3"
+   ],
+   "question": "Given that $f(\\theta) = \\sqrt{3}\\cos\\theta - \\sin\\theta = 2\\cos\\left(\\theta + \\dfrac{\\pi}{6}\\right)$, find the first positive values of $\\theta$ at which the maximum and minimum of $f(\\theta)$ occur.",
+   "answer": "Maximum: $\\cos\\left(\\theta + \\frac{\\pi}{6}\\right) = 1$, so $\\theta + \\frac{\\pi}{6} = 2\\pi$ (since $\\theta + \\frac\\pi6 = 0$ gives $\\theta < 0$), giving $\\theta = \\frac{11\\pi}{6}$.\n\nMinimum: $\\cos\\left(\\theta + \\frac{\\pi}{6}\\right) = -1$, so $\\theta + \\frac{\\pi}{6} = \\pi$, giving $\\theta = \\frac{5\\pi}{6}$."
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.5"
+   ],
+   "question": "Stoneware pottery is fired in a closed kiln to a temperature of $1280^\\circ\\text{C}$. After reaching this temperature the kiln is turned off and the pottery cools in a surrounding environment whose temperature is maintained at $200^\\circ\\text{C}$. The rate of cooling is approximately given by\n\n$$\\frac{dT}{dt} = -k(T - 200)$$\n\nwhere $T$ is the temperature in $^\\circ\\text{C}$, $t$ is the time in hours and $k$ is a positive constant.\n\nShow that $T = 200 + Ae^{-kt}$, where $A$ is a constant, is a solution of this equation.",
+   "answer": "LHS $= \\dfrac{dT}{dt} = -kAe^{-kt}$.\n\nRHS $= -k(T - 200) = -k\\left(200 + Ae^{-kt} - 200\\right) = -kAe^{-kt}$.\n\nLHS $=$ RHS, so $T = 200 + Ae^{-kt}$ is a solution."
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.7"
+   ],
+   "question": "Stoneware pottery is fired in a closed kiln to a temperature of $1280^\\circ\\text{C}$. After reaching this temperature the kiln is turned off and the pottery cools in a surrounding environment whose temperature is maintained at $200^\\circ\\text{C}$. The rate of cooling is approximately given by\n\n$$\\frac{dT}{dt} = -k(T - 200)$$\n\nwhere $T$ is the temperature in $^\\circ\\text{C}$, $t$ is the time in hours and $k$ is a positive constant.\n\nThe solution is $T = 200 + Ae^{-kt}$. If after 2 hours the pottery has cooled to $800^\\circ\\text{C}$, find $A$ and $k$ (answer for $k$ correct to 3 decimal places).",
+   "answer": "At $t = 0$, $T = 1280$: $1280 = 200 + A$, so $A = 1080$.\n\nAt $t = 2$, $T = 800$:\n\n$$800 = 200 + 1080e^{-2k} \\implies e^{-2k} = \\frac{600}{1080} = \\frac59$$\n$$k = -\\frac12\\ln\\frac59 = \\frac12\\ln\\frac95 \\approx 0.294$$"
+  },
+  {
+   "ref": "Q12(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.7"
+   ],
+   "question": "Stoneware pottery is fired in a closed kiln to a temperature of $1280^\\circ\\text{C}$. After reaching this temperature the kiln is turned off and the pottery cools in a surrounding environment whose temperature is maintained at $200^\\circ\\text{C}$. The rate of cooling is approximately given by\n\n$$\\frac{dT}{dt} = -k(T - 200)$$\n\nwhere $T$ is the temperature in $^\\circ\\text{C}$, $t$ is the time in hours and $k$ is a positive constant.\n\nThe solution is $T = 200 + 1080e^{-kt}$ with $k = \\frac12\\ln\\frac95 \\approx 0.294$. The door to the kiln is safe to open when the temperature of the pottery drops below $240^\\circ\\text{C}$. How long after the kiln was turned off, to the nearest hour, can the door be opened?",
+   "answer": "$$240 = 200 + 1080e^{-kt} \\implies e^{-kt} = \\frac{40}{1080} = \\frac{1}{27}$$\n$$t = \\frac{\\ln 27}{k} = \\frac{\\ln 27}{\\frac12\\ln\\frac95} \\approx 11.2 \\text{ hours}$$\n\nThe temperature first drops below $240^\\circ\\text{C}$ about $11.2$ hours after the kiln is turned off, i.e. about **11 hours** to the nearest hour.\n\n*Note:* the paper's solution gives \\\"after 12 hours\\\", rounding up so that the temperature is definitely below $240^\\circ\\text{C}$; strictly, 11.2 h to the nearest hour is 11 h."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.1"
+   ],
+   "question": "A hot air balloon is rising straight up from a level field and is detected by a range finder $500$ m from the lift-off point. At that moment the angle of elevation $\\theta$ of the balloon is $\\dfrac{\\pi}{6}$, and the angle is increasing at the rate of $0.1$ rad/min. Let $x$ m be the height of the balloon. How fast is the balloon rising at that moment?",
+   "answer": "From the diagram, $\\tan\\theta = \\dfrac{x}{500}$, so $x = 500\\tan\\theta$ and $\\dfrac{dx}{d\\theta} = 500\\sec^2\\theta$.\n\n$$\\frac{dx}{dt} = \\frac{dx}{d\\theta}\\cdot\\frac{d\\theta}{dt} = 500\\sec^2\\theta \\times 0.1 = 50(1 + \\tan^2\\theta)$$\n\nAt $\\theta = \\frac{\\pi}{6}$: $\\dfrac{dx}{dt} = 50\\left(1 + \\frac13\\right) = \\dfrac{200}{3}$ m/min $\\approx 66.7$ m/min.",
+   "images": [
+    "assets/img/ext1-2026-girraween/q13a.png"
+   ]
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "The region in the first quadrant bounded by the curve $y = 2\\tan^{-1}x$ and the $y$-axis between $y = 0$ and $y = \\dfrac{\\pi}{2}$ is rotated through one complete revolution about the $y$-axis. Find the exact volume of the solid of revolution so formed.",
+   "answer": "$y = 2\\tan^{-1}x \\implies x = \\tan\\dfrac{y}{2}$.\n\n$$\\begin{aligned} V &= \\pi\\int_0^{\\pi/2} x^2\\,dy = \\pi\\int_0^{\\pi/2}\\tan^2\\frac{y}{2}\\,dy = \\pi\\int_0^{\\pi/2}\\left(\\sec^2\\frac{y}{2} - 1\\right)dy \\\\ &= \\pi\\left[2\\tan\\frac{y}{2} - y\\right]_0^{\\pi/2} = \\pi\\left(2\\tan\\frac{\\pi}{4} - \\frac{\\pi}{2}\\right) - 0 \\\\ &= \\pi\\left(2 - \\frac{\\pi}{2}\\right) = \\frac{4\\pi - \\pi^2}{2}\\ \\text{units}^3 \\end{aligned}$$"
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Use mathematical induction to prove that\n\n$$\\frac{1}{1\\times3} + \\frac{1}{3\\times5} + \\frac{1}{5\\times7} + \\dots + \\frac{1}{(2n-1)(2n+1)} = \\frac{n}{2n+1}$$\n\nfor all positive integers $n \\geq 1$.",
+   "answer": "**Step 1** ($n = 1$): LHS $= \\frac{1}{1\\times3} = \\frac13$, RHS $= \\frac{1}{2+1} = \\frac13$. True for $n = 1$.\n\n**Step 2**: Assume true for $n = k$:\n$$\\frac{1}{1\\times3} + \\dots + \\frac{1}{(2k-1)(2k+1)} = \\frac{k}{2k+1}$$\n\nProve true for $n = k+1$, i.e. that the sum up to $\\frac{1}{(2k+1)(2k+3)}$ equals $\\frac{k+1}{2k+3}$.\n\n$$\\begin{aligned} \\text{LHS} &= \\frac{k}{2k+1} + \\frac{1}{(2k+1)(2k+3)} \\quad\\text{(by the assumption)} \\\\ &= \\frac{k(2k+3) + 1}{(2k+1)(2k+3)} = \\frac{2k^2 + 3k + 1}{(2k+1)(2k+3)} \\\\ &= \\frac{(k+1)(2k+1)}{(2k+1)(2k+3)} = \\frac{k+1}{2k+3} = \\text{RHS} \\end{aligned}$$\n\nSo if the result is true for $n = k$ it is true for $n = k+1$. Hence, by the principle of mathematical induction, it is true for all positive integers $n \\geq 1$."
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Given that, for all positive integers $n$,\n\n$$\\frac{1}{1\\times3} + \\frac{1}{3\\times5} + \\frac{1}{5\\times7} + \\dots + \\frac{1}{(2n-1)(2n+1)} = \\frac{n}{2n+1}$$\n\nfind in simplest fractional form the value of\n\n$$\\frac{1}{11\\times13} + \\frac{1}{13\\times15} + \\frac{1}{15\\times17} + \\dots + \\frac{1}{119\\times121}$$",
+   "answer": "$119 \\times 121 = (2\\times60 - 1)(2\\times60+1)$, so the sum up to this term is the case $n = 60$: $\\frac{60}{121}$.\n\n$9 \\times 11 = (2\\times5-1)(2\\times5+1)$, so the terms before $\\frac{1}{11\\times13}$ sum to the case $n = 5$: $\\frac{5}{11}$.\n\n$$\\frac{1}{11\\times13} + \\dots + \\frac{1}{119\\times121} = \\frac{60}{121} - \\frac{5}{11} = \\frac{60 - 55}{121} = \\frac{5}{121}$$"
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.4",
+    "12.4.1.2"
+   ],
+   "question": "Find the exact value of $\\displaystyle\\int_0^{\\pi/3}\\cos 4x\\cos 2x\\,dx$.",
+   "answer": "Using $\\cos A\\cos B = \\frac12\\left[\\cos(A-B) + \\cos(A+B)\\right]$: $\\cos4x\\cos2x = \\frac12(\\cos2x + \\cos6x)$.\n\n$$\\begin{aligned} \\int_0^{\\pi/3}\\cos4x\\cos2x\\,dx &= \\frac12\\left[\\frac{\\sin2x}{2} + \\frac{\\sin6x}{6}\\right]_0^{\\pi/3} \\\\ &= \\frac12\\left(\\frac12\\sin\\frac{2\\pi}{3} + \\frac16\\sin2\\pi\\right) - 0 \\\\ &= \\frac12\\left(\\frac12\\times\\frac{\\sqrt3}{2}\\right) = \\frac{\\sqrt3}{8} \\end{aligned}$$",
+   "course": "extension2"
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.6",
+    "12.2.4.3"
+   ],
+   "question": "Consider the vectors $\\mathbf{a} = p\\mathbf{i} + \\mathbf{j}$ and $\\mathbf{b} = \\mathbf{i} + p\\mathbf{j}$, where $p$ is a real number. If the acute angle between $\\mathbf{a}$ and $\\mathbf{b}$ is $30^\\circ$, find the value(s) of $p$.",
+   "answer": "$|\\mathbf{a}| = |\\mathbf{b}| = \\sqrt{p^2+1}$ and $\\mathbf{a}\\cdot\\mathbf{b} = p + p = 2p$.\n\n$$\\mathbf{a}\\cdot\\mathbf{b} = |\\mathbf{a}||\\mathbf{b}|\\cos30^\\circ \\implies 2p = (p^2+1)\\frac{\\sqrt3}{2}$$\n$$\\sqrt3p^2 - 4p + \\sqrt3 = 0$$\n$$\\sqrt3p^2 - 3p - p + \\sqrt3 = 0 \\implies \\sqrt3p(p - \\sqrt3) - (p - \\sqrt3) = 0$$\n$$(p - \\sqrt3)(\\sqrt3p - 1) = 0$$\n\n$$p = \\sqrt3 \\quad\\text{or}\\quad p = \\frac{1}{\\sqrt3}$$"
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.9"
+   ],
+   "question": "The position vectors $\\overrightarrow{OA}$, $\\overrightarrow{OB}$ and $\\overrightarrow{OC}$ have coordinates $(1,2)$, $(2,5)$ and $(5,4)$ respectively.\n\nExpress $\\overrightarrow{AB}$ in the form $x\\mathbf{i} + y\\mathbf{j}$.",
+   "answer": "$\\overrightarrow{AB} = \\overrightarrow{OB} - \\overrightarrow{OA} = (2\\mathbf{i} + 5\\mathbf{j}) - (\\mathbf{i} + 2\\mathbf{j}) = \\mathbf{i} + 3\\mathbf{j}$",
+   "images": [
+    "assets/img/ext1-2026-girraween/q14c.png"
+   ]
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.6",
+    "12.2.1.7"
+   ],
+   "question": "The position vectors $\\overrightarrow{OA}$, $\\overrightarrow{OB}$ and $\\overrightarrow{OC}$ have coordinates $(1,2)$, $(2,5)$ and $(5,4)$ respectively.\n\nGiven that $ABCD$ is a parallelogram, use vector operations to show that the position vector $\\overrightarrow{OD} = 4\\mathbf{i} + \\mathbf{j}$.",
+   "answer": "In parallelogram $ABCD$, $\\overrightarrow{AD} = \\overrightarrow{BC}$.\n\n$\\overrightarrow{BC} = \\overrightarrow{OC} - \\overrightarrow{OB} = \\begin{pmatrix}5\\\\4\\end{pmatrix} - \\begin{pmatrix}2\\\\5\\end{pmatrix} = \\begin{pmatrix}3\\\\-1\\end{pmatrix}$\n\n$$\\overrightarrow{OD} = \\overrightarrow{OA} + \\overrightarrow{AD} = \\overrightarrow{OA} + \\overrightarrow{BC} = \\begin{pmatrix}1\\\\2\\end{pmatrix} + \\begin{pmatrix}3\\\\-1\\end{pmatrix} = \\begin{pmatrix}4\\\\1\\end{pmatrix} = 4\\mathbf{i} + \\mathbf{j}$$",
+   "images": [
+    "assets/img/ext1-2026-girraween/q14c.png"
+   ]
+  },
+  {
+   "ref": "Q14(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.7"
+   ],
+   "question": "The position vectors $\\overrightarrow{OA}$, $\\overrightarrow{OB}$ and $\\overrightarrow{OC}$ have coordinates $(1,2)$, $(2,5)$ and $(5,4)$ respectively. $ABCD$ is a parallelogram with $\\overrightarrow{OD} = 4\\mathbf{i} + \\mathbf{j}$.\n\nBy using properties of vectors, show that $ABCD$ is a rectangle.",
+   "answer": "$\\overrightarrow{AB} = \\mathbf{i} + 3\\mathbf{j}$ and $\\overrightarrow{AD} = \\overrightarrow{OD} - \\overrightarrow{OA} = (4\\mathbf{i} + \\mathbf{j}) - (\\mathbf{i} + 2\\mathbf{j}) = 3\\mathbf{i} - \\mathbf{j}$.\n\n$$\\overrightarrow{AB}\\cdot\\overrightarrow{AD} = (1)(3) + (3)(-1) = 0$$\n\nSo $AB \\perp AD$. A parallelogram with a right angle is a rectangle, so $ABCD$ is a rectangle.",
+   "images": [
+    "assets/img/ext1-2026-girraween/q14c.png"
+   ]
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.3",
+    "12.5.4.1"
+   ],
+   "question": "Show that $y = x\\sin3x$ is a solution of the differential equation $\\dfrac{d^2y}{dx^2} + 9y - 6\\cos3x = 0$.",
+   "answer": "$$y' = 3x\\cos3x + \\sin3x$$\n$$y'' = -9x\\sin3x + 3\\cos3x + 3\\cos3x = -9x\\sin3x + 6\\cos3x$$\n\n$$\\text{LHS} = y'' + 9y - 6\\cos3x = -9x\\sin3x + 6\\cos3x + 9x\\sin3x - 6\\cos3x = 0 = \\text{RHS}$$\n\nSo $y = x\\sin3x$ is a solution."
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.13",
+    "12.4.2.1"
+   ],
+   "question": "Solve the differential equation $(1 + e^{2x})\\dfrac{dy}{dx} + (1 + y^2)e^x = 0$, given that when $x = 0$, $y = 1$.",
+   "answer": "Separate the variables:\n\n$$\\int\\frac{dy}{1+y^2} = -\\int\\frac{e^x}{1+e^{2x}}\\,dx$$\n\nWith $u = e^x$, $du = e^x\\,dx$: $\\displaystyle\\int\\frac{e^x\\,dx}{1 + (e^x)^2} = \\int\\frac{du}{1+u^2} = \\tan^{-1}u$.\n\n$$\\tan^{-1}y = -\\tan^{-1}(e^x) + C$$\n\nWhen $x = 0$, $y = 1$: $\\frac{\\pi}{4} = -\\frac{\\pi}{4} + C$, so $C = \\frac{\\pi}{2}$.\n\n$$\\tan^{-1}y + \\tan^{-1}(e^x) = \\frac{\\pi}{2}$$\n\n(Since $e^x > 0$, this simplifies to $y = \\tan\\left(\\frac\\pi2 - \\tan^{-1}e^x\\right) = \\frac{1}{e^x} = e^{-x}$.)"
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.15",
+    "12.5.4.16"
+   ],
+   "question": "A certain biological culture is modelled by the differential equation $\\dfrac{dP}{dt} = 0.002P(100 - P)$, where $P(t)$ is the percentage of the petri dish covered by the culture at time $t$ minutes. When first observed, the culture occupied $5\\%$ of the petri dish.\n\nGiven that $\\dfrac{1}{0.002P(100-P)} = 5\\left(\\dfrac1P + \\dfrac{1}{100-P}\\right)$, find the equation of the size, $P$, of the culture in terms of $t$.",
+   "answer": "$$\\frac{dt}{dP} = \\frac{1}{0.002P(100-P)} = 5\\left(\\frac1P + \\frac{1}{100-P}\\right)$$\n\n$$t = 5\\left(\\ln P - \\ln(100-P)\\right) + C = 5\\ln\\frac{P}{100-P} + C \\quad (0 < P < 100)$$\n\nWhen $t = 0$, $P = 5$: $0 = 5\\ln\\frac{5}{95} + C$, so $C = -5\\ln\\frac{1}{19} = 5\\ln19$.\n\n$$t = 5\\ln\\frac{19P}{100-P} \\implies e^{t/5} = \\frac{19P}{100-P}$$\n$$100e^{t/5} - Pe^{t/5} = 19P \\implies 100e^{t/5} = P\\left(19 + e^{t/5}\\right)$$\n$$P = \\frac{100e^{t/5}}{19 + e^{t/5}}$$"
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.4.16"
+   ],
+   "question": "A certain biological culture is modelled by the differential equation $\\dfrac{dP}{dt} = 0.002P(100 - P)$, where $P(t)$ is the percentage of the petri dish covered by the culture at time $t$ minutes. When first observed, the culture occupied $5\\%$ of the petri dish.\n\nThe size of the culture is given by $P = \\dfrac{100e^{t/5}}{19 + e^{t/5}}$. Find the percentage of the petri dish covered after 26 minutes.",
+   "answer": "$$P = \\frac{100e^{26/5}}{19 + e^{26/5}} = \\frac{100e^{5.2}}{19 + e^{5.2}} \\approx 90.51$$\n\nAbout $91\\%$ of the dish is covered."
+  },
+  {
+   "ref": "Q16(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.6"
+   ],
+   "question": "A particle is projected with velocity $V$ m/s from a point $O$ at an angle of elevation $\\alpha$. The particle just clears two vertical trees $P$ and $Q$, each of height $h$ metres, at horizontal distances of $p$ metres and $q$ metres from $O$ respectively. The acceleration due to gravity is taken as $10\\ \\text{m/s}^2$ and air resistance is ignored. The position of the particle at any time $t$ is given by $x = Vt\\cos\\alpha$ and $y = -5t^2 + Vt\\sin\\alpha$.\n\nFind the Cartesian equation of the flight of the particle.",
+   "answer": "From $x = Vt\\cos\\alpha$, $t = \\dfrac{x}{V\\cos\\alpha}$. Substituting into $y$:\n\n$$y = -\\frac{5x^2}{V^2\\cos^2\\alpha} + \\frac{Vx\\sin\\alpha}{V\\cos\\alpha} = -\\frac{5x^2\\sec^2\\alpha}{V^2} + x\\tan\\alpha$$\n\n$$y = -\\frac{5x^2(1 + \\tan^2\\alpha)}{V^2} + x\\tan\\alpha$$",
+   "images": [
+    "assets/img/ext1-2026-girraween/q16.png"
+   ]
+  },
+  {
+   "ref": "Q16(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.8"
+   ],
+   "question": "A particle is projected with velocity $V$ m/s from a point $O$ at an angle of elevation $\\alpha$. The particle just clears two vertical trees $P$ and $Q$, each of height $h$ metres, at horizontal distances of $p$ metres and $q$ metres from $O$ respectively. The acceleration due to gravity is taken as $10\\ \\text{m/s}^2$ and air resistance is ignored. The position of the particle at any time $t$ is given by $x = Vt\\cos\\alpha$ and $y = -5t^2 + Vt\\sin\\alpha$.\n\nThe Cartesian equation of the flight is $y = -\\dfrac{5x^2(1+\\tan^2\\alpha)}{V^2} + x\\tan\\alpha$. Show that $V^2 = \\dfrac{5p^2(1 + \\tan^2\\alpha)}{p\\tan\\alpha - h}$.",
+   "answer": "The particle passes through $(p, h)$:\n\n$$h = -\\frac{5p^2(1+\\tan^2\\alpha)}{V^2} + p\\tan\\alpha$$\n$$p\\tan\\alpha - h = \\frac{5p^2(1+\\tan^2\\alpha)}{V^2}$$\n$$V^2 = \\frac{5p^2(1+\\tan^2\\alpha)}{p\\tan\\alpha - h}$$",
+   "images": [
+    "assets/img/ext1-2026-girraween/q16.png"
+   ]
+  },
+  {
+   "ref": "Q16(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.6.8"
+   ],
+   "question": "A particle is projected with velocity $V$ m/s from a point $O$ at an angle of elevation $\\alpha$. The particle just clears two vertical trees $P$ and $Q$, each of height $h$ metres, at horizontal distances of $p$ metres and $q$ metres from $O$ respectively. The acceleration due to gravity is taken as $10\\ \\text{m/s}^2$ and air resistance is ignored. The position of the particle at any time $t$ is given by $x = Vt\\cos\\alpha$ and $y = -5t^2 + Vt\\sin\\alpha$.\n\nThe Cartesian equation of the flight is $y = -\\dfrac{5x^2(1+\\tan^2\\alpha)}{V^2} + x\\tan\\alpha$, and $V^2 = \\dfrac{5p^2(1 + \\tan^2\\alpha)}{p\\tan\\alpha - h}$. Show that $\\tan\\alpha = \\dfrac{h(p+q)}{pq}$.",
+   "answer": "Similarly, since the particle passes through $(q, h)$, $V^2 = \\dfrac{5q^2(1+\\tan^2\\alpha)}{q\\tan\\alpha - h}$. Equating the two expressions for $V^2$:\n\n$$\\frac{5p^2(1+\\tan^2\\alpha)}{p\\tan\\alpha - h} = \\frac{5q^2(1+\\tan^2\\alpha)}{q\\tan\\alpha - h}$$\n$$p^2(q\\tan\\alpha - h) = q^2(p\\tan\\alpha - h)$$\n$$p^2q\\tan\\alpha - q^2p\\tan\\alpha = p^2h - q^2h$$\n$$\\tan\\alpha\\, pq(p - q) = h(p-q)(p+q)$$\n\nSince $p \\neq q$:\n$$\\tan\\alpha = \\frac{h(p+q)}{pq}$$",
+   "images": [
+    "assets/img/ext1-2026-girraween/q16.png"
+   ]
+  },
+  {
+   "ref": "Q16(iv)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.6.8"
+   ],
+   "question": "A particle is projected with velocity $V$ m/s from a point $O$ at an angle of elevation $\\alpha$. The particle just clears two vertical trees $P$ and $Q$, each of height $h$ metres, at horizontal distances of $p$ metres and $q$ metres from $O$ respectively. The acceleration due to gravity is taken as $10\\ \\text{m/s}^2$ and air resistance is ignored. The position of the particle at any time $t$ is given by $x = Vt\\cos\\alpha$ and $y = -5t^2 + Vt\\sin\\alpha$.\n\nIt is known that $V^2 = \\dfrac{5p^2(1 + \\tan^2\\alpha)}{p\\tan\\alpha - h}$ and $\\tan\\alpha = \\dfrac{h(p+q)}{pq}$. Using these results, show that $V^2 = \\dfrac{5h(p+q)^2}{pq} + \\dfrac{5pq}{h}$.",
+   "answer": "$$1 + \\tan^2\\alpha = 1 + \\frac{h^2(p+q)^2}{p^2q^2} = \\frac{p^2q^2 + h^2(p+q)^2}{p^2q^2}$$\n$$p\\tan\\alpha - h = \\frac{h(p+q)}{q} - h = \\frac{hp}{q} = \\frac{p^2h}{pq}$$\n\n$$\\begin{aligned} V^2 &= 5p^2 \\cdot \\frac{p^2q^2 + h^2(p+q)^2}{p^2q^2} \\cdot \\frac{pq}{p^2h} = \\frac{5\\left(p^2q^2 + h^2(p+q)^2\\right)}{pqh} \\\\ &= \\frac{5p^2q^2}{pqh} + \\frac{5h^2(p+q)^2}{pqh} = \\frac{5pq}{h} + \\frac{5h(p+q)^2}{pq} \\end{aligned}$$",
+   "images": [
+    "assets/img/ext1-2026-girraween/q16.png"
+   ]
+  }
+ ]
+}

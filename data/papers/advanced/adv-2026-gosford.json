@@ -1,0 +1,652 @@
+{
+ "id": "adv-2026-gosford",
+ "course": "advanced",
+ "school": "Gosford",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5328",
+  "title": "Gosford 2026 w. sol"
+ },
+ "indexed": "2026-11-12",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q2",
+   "reason": "Not in 2024 syllabus: interquartile range and standard deviation of a dataset"
+  },
+  {
+   "ref": "Q28(a)",
+   "reason": "Not in 2024 syllabus: bivariate data (least-squares regression line gradient)"
+  },
+  {
+   "ref": "Q28(b)",
+   "reason": "Not in 2024 syllabus: bivariate data (prediction from least-squares regression line)"
+  },
+  {
+   "ref": "Q28(c)",
+   "reason": "Not in 2024 syllabus: bivariate data (Pearson's correlation coefficient)"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.11"
+   ],
+   "question": "The graph of $y=f(x)$ is shown.\n\nWhich of the following could be the equation of this graph?",
+   "options": [
+    "$y=(x^2-1)(x-3)$",
+    "$y=(x^2-1)(x+3)$",
+    "$y=(x-1)^2(x-3)$",
+    "$y=(x-1)^2(x+3)$"
+   ],
+   "correct": "B",
+   "answer": "The graph is a positive cubic with three distinct roots: two negative and one positive. $(x^2-1)(x+3)$ has roots $x=-3,-1,1$ (two negative, one positive). Option A has roots $-1, 1, 3$ (two positive), and C and D have a double root at $x=1$ (the graph would touch the axis there).",
+   "images": [
+    "assets/img/adv-2026-gosford/q1.png"
+   ]
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.9.3"
+   ],
+   "question": "What is the domain of $f(x)=\\dfrac{1}{\\sqrt{4-x^2}}$?",
+   "options": [
+    "$x<2$",
+    "$x\\le 2$",
+    "$-2<x<2$",
+    "$-2<x<0 \\ \\cup\\ 0<x<2$"
+   ],
+   "correct": "C",
+   "answer": "We need $4-x^2>0$ (the square root must be defined and non-zero), so $x^2<4$, i.e. $-2<x<2$."
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.7.3"
+   ],
+   "question": "What is $\\displaystyle\\int \\pi\\sin(\\pi x)\\,dx$?",
+   "options": [
+    "$-\\cos(\\pi x)+c$",
+    "$-\\pi^2\\cos(\\pi x)+c$",
+    "$\\pi\\cos(\\pi x)+c$",
+    "$\\dfrac{\\pi\\sin^2(\\pi x)}{2}+c$"
+   ],
+   "correct": "A",
+   "answer": "Using $\\displaystyle\\int f'(x)\\sin f(x)\\,dx=-\\cos f(x)+c$ with $f(x)=\\pi x$, $f'(x)=\\pi$: $\\displaystyle\\int \\pi\\sin(\\pi x)\\,dx=-\\cos(\\pi x)+c$."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.9.3",
+    "11.1.4.4"
+   ],
+   "question": "Which of the following is the range of $y=-(x-5)^2+3$?",
+   "options": [
+    "$(-\\infty,5]$",
+    "$(-\\infty,3]$",
+    "$[5,\\infty)$",
+    "$[3,\\infty)$"
+   ],
+   "correct": "B",
+   "answer": "$y=-(x-5)^2+3$ is a concave-down parabola with vertex $(5,3)$, so its maximum value is $3$ and the range is $(-\\infty,3]$."
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.4.4"
+   ],
+   "question": "A mobile phone detection camera that uses AI and infrared to target illegal phone use by drivers was recently installed in Woodbridge. The number of offences detected each day over a 20 day period is shown in the following graph.\n\nWhich of the following graphs best shows the cumulative number of mobile phone offences detected up to and including each day?",
+   "options": [
+    "![Graph A](assets/img/adv-2026-gosford/q6a.png)",
+    "![Graph B](assets/img/adv-2026-gosford/q6b.png)",
+    "![Graph C](assets/img/adv-2026-gosford/q6c.png)",
+    "![Graph D](assets/img/adv-2026-gosford/q6d.png)"
+   ],
+   "correct": "A",
+   "answer": "The cumulative total rises fastest when the daily count is largest, i.e. around days 5–9 (peaking on days 6 and 7), and barely increases after day 15, levelling off at about 530. Only graph A has its steepest rise around days 5–8 and flattens afterwards.",
+   "images": [
+    "assets/img/adv-2026-gosford/q6.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.10",
+    "11.3.1.7"
+   ],
+   "question": "How many solutions of the equation $(\\cot x+1)(\\cos^2 x-1)=0$ lie between $0$ and $2\\pi$?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "correct": "A",
+   "answer": "$\\cot x=-1 \\Rightarrow \\tan x=-1 \\Rightarrow x=\\dfrac{3\\pi}{4},\\ \\dfrac{7\\pi}{4}$.\n\n$\\cos^2x=1 \\Rightarrow \\cos x=\\pm1 \\Rightarrow x=0,\\ \\pi,\\ 2\\pi$, but $\\cot x=\\dfrac{\\cos x}{\\sin x}$ is **not defined** at these values (where $\\sin x=0$), so the left-hand side is undefined there and they are not solutions.\n\nHence there are only 2 solutions."
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.7.2"
+   ],
+   "question": "$A$ is known to vary inversely with the square of $x$. Which equation best represents the relation between $A$ and $x$?",
+   "options": [
+    "$A^2=\\dfrac{k}{x}$",
+    "$A^2=kx$",
+    "$A=\\dfrac{k}{x^2}$",
+    "$A=kx^2$"
+   ],
+   "correct": "C",
+   "answer": "'$A$ varies inversely with the square of $x$' means $A=\\dfrac{k}{x^2}$ for some constant $k$."
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.6",
+    "12.4.8.4"
+   ],
+   "question": "$y=f(x)$ is continuous and consists of a semicircle joined to straight line segments as shown. \n\nWhat is the value of $\\displaystyle\\int_{-3}^{5} f(x)\\,dx$?",
+   "options": [
+    "$2\\pi-6$",
+    "$3+2\\pi$",
+    "$-3-2\\pi$",
+    "$-2(3+\\pi)$"
+   ],
+   "correct": "D",
+   "answer": "The integral is the sum of signed areas.\n\n- Rectangle between $y=-1$ and the $x$-axis from $x=-3$ to $x=3$: area $6\\times1=6$, below the axis.\n- Semicircle below $y=-1$, centre $(1,-1)$, radius $2$: area $\\tfrac12\\pi(2)^2=2\\pi$, below the axis.\n- Line from $(3,-1)$ to $(5,1)$ crosses the axis at $x=4$: the triangle below ($3\\le x\\le4$) and the triangle above ($4\\le x\\le5$) each have area $\\tfrac12$, so they cancel.\n\n$$\\int_{-3}^{5}f(x)\\,dx=-6-2\\pi+0=-2(3+\\pi)$$",
+   "images": [
+    "assets/img/adv-2026-gosford/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.9.7",
+    "11.1.9.6"
+   ],
+   "question": "The graphs of $y=f(x)$ and $y=g(x)$ are shown. Which graph best represents $y=g(f(x))$?",
+   "options": [
+    "![Graph A](assets/img/adv-2026-gosford/q10a.png)",
+    "![Graph B](assets/img/adv-2026-gosford/q10b.png)",
+    "![Graph C](assets/img/adv-2026-gosford/q10c.png)",
+    "![Graph D](assets/img/adv-2026-gosford/q10d.png)"
+   ],
+   "correct": "A",
+   "answer": "$f$ is even, so $g(f(-x))=g(f(x))$: the composite is even (symmetric about the $y$-axis), which rules out B and C. At $x=0$, $f(0)<0$ and $g$ is large and positive for negative inputs, so $g(f(0))>0$; the composite is $0$ where $f(x)=0$ (since $g(0)=0$), and levels off for large $|x|$ as $g$ does. This is graph A (D has $g(f(0))=0$, which is wrong).",
+   "images": [
+    "assets/img/adv-2026-gosford/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.1.6"
+   ],
+   "question": "Solve $(5x-1)^2=16$.",
+   "answer": "$$\\begin{aligned}(5x-1)^2&=16\\\\ 5x-1&=\\pm4\\\\ 5x&=1\\pm4=-3\\ \\text{or}\\ 5\\\\ x&=-\\tfrac35\\ \\text{or}\\ x=1\\end{aligned}$$"
+  },
+  {
+   "ref": "Q12",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.2.9",
+    "11.5.2.6"
+   ],
+   "question": "Solve $e^{2\\ln x}=x+12$.",
+   "answer": "For $\\ln x$ to be defined we need $x>0$.\n\n$$\\begin{aligned}e^{2\\ln x}&=\\left(e^{\\ln x}\\right)^2=x^2\\\\ x^2&=x+12\\\\ x^2-x-12&=0\\\\ (x-4)(x+3)&=0\\end{aligned}$$\n\nSo $x=4$ or $x=-3$. But $x>0$, so $x=4$ only."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.2.7"
+   ],
+   "question": "A box contains 10 chocolates that appear identical. However, 6 of the chocolates have yellow centres and 4 have green. Todd ate three chocolates chosen randomly from the box.\n\nFind the probability that the first two chocolates that Todd ate had a yellow centre.",
+   "answer": "The chocolates are eaten, so they are not replaced: $$P(Y,Y)=\\frac{6}{10}\\times\\frac59=\\frac13$$"
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.7.2.7",
+    "11.7.2.6"
+   ],
+   "question": "A box contains 10 chocolates that appear identical. However, 6 of the chocolates have yellow centres and 4 have green. Todd ate three chocolates chosen randomly from the box.\n\nFind the probability that at least two of the chocolates that Todd ate had yellow centres.",
+   "answer": "Each particular order of 2 yellow and 1 green (YYG, YGY, GYY) has probability $\\dfrac{6\\times5\\times4}{10\\times9\\times8}=\\dfrac16$, and $P(YYY)=\\dfrac{6}{10}\\times\\dfrac59\\times\\dfrac48=\\dfrac16$.\n\n$$P(\\ge 2Y)=P(2Y)+P(3Y)=3\\left(\\frac16\\right)+\\frac16=\\frac23$$"
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.7.3.4",
+    "11.7.3.1"
+   ],
+   "question": "A box contains 10 chocolates that appear identical. However, 6 of the chocolates have yellow centres and 4 have green. Todd ate three chocolates chosen randomly from the box.\n\nFind the probability that all of the chocolates that Todd ate had yellow centres, given that (at least) two were known to have been yellow. (You may use $P(\\text{exactly 2 yellow})=\\tfrac12$ and $P(\\text{3 yellow})=\\tfrac16$.)",
+   "answer": "$$P(3Y\\mid \\ge2Y)=\\frac{P(3Y)}{P(\\ge 2Y)}=\\frac{\\tfrac16}{4\\left(\\tfrac16\\right)}=\\frac14$$"
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.4.9"
+   ],
+   "question": "The curves $y=2-x^2$ and $y=-x-4$ intersect at two points as shown in the diagram (not to scale).\n\nFind the $x$-coordinates of the points of intersection of the two curves.",
+   "answer": "$$\\begin{aligned}2-x^2&=-x-4\\\\ 0&=x^2-x-6\\\\ 0&=(x-3)(x+2)\\end{aligned}$$ So $x=-2$ or $x=3$.",
+   "images": [
+    "assets/img/adv-2026-gosford/q14.png"
+   ]
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.8.6"
+   ],
+   "question": "The curves $y=2-x^2$ and $y=-x-4$ intersect at two points as shown in the diagram (not to scale). They intersect where $x=-2$ and $x=3$.\n\nFind the area enclosed by the two curves.",
+   "answer": "$$\\begin{aligned}A&=\\int_{-2}^{3}\\left[(2-x^2)-(-x-4)\\right]dx=\\int_{-2}^{3}(-x^2+x+6)\\,dx\\\\ &=\\left[-\\frac{x^3}{3}+\\frac{x^2}{2}+6x\\right]_{-2}^{3}\\\\ &=\\left(-9+\\frac92+18\\right)-\\left(\\frac83+2-12\\right)\\\\ &=\\frac{27}{2}+\\frac{22}{3}=\\frac{125}{6}=20\\tfrac56\\ \\text{square units}\\end{aligned}$$",
+   "images": [
+    "assets/img/adv-2026-gosford/q14.png"
+   ]
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "A small table-top is in the shape of a circle with a small segment removed as shown. The circle has centre $O$ and radius 0.8 metres. The length of the straight edge $AB$ is also 0.8 metres.\n\nExplain why $\\angle AOB=\\dfrac{\\pi}{3}$.",
+   "answer": "$OA=OB=0.8$ m (radii) and $AB=0.8$ m (given), so $\\triangle AOB$ is equilateral. Hence $\\angle AOB=60^\\circ=\\dfrac{\\pi}{3}$.",
+   "images": [
+    "assets/img/adv-2026-gosford/q15.png"
+   ]
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.8",
+    "11.2.3.7"
+   ],
+   "question": "A small table-top is in the shape of a circle with a small segment removed as shown. The circle has centre $O$ and radius 0.8 metres. The length of the straight edge $AB$ is also 0.8 metres. You may use $\\angle AOB=\\dfrac{\\pi}{3}$.\n\nFind the exact area of the table-top.",
+   "answer": "The table-top is the major sector $AOB$ plus $\\triangle AOB$.\n\n$$\\begin{aligned}A&=\\tfrac12(0.8)^2\\left(2\\pi-\\frac{\\pi}{3}\\right)+\\tfrac12(0.8)^2\\sin\\frac{\\pi}{3}\\\\ &=\\tfrac12\\left(\\tfrac45\\right)^2\\left(\\frac{5\\pi}{3}\\right)+\\tfrac12\\left(\\tfrac45\\right)^2\\left(\\frac{\\sqrt3}{2}\\right)\\\\ &=\\frac{8\\pi}{15}+\\frac{4\\sqrt3}{25}=\\frac{40\\pi+12\\sqrt3}{75}\\ \\text{m}^2\\end{aligned}$$",
+   "images": [
+    "assets/img/adv-2026-gosford/q15.png"
+   ]
+  },
+  {
+   "ref": "Q16(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.9",
+    "11.3.1.10"
+   ],
+   "question": "A particle is moving along the $x$-axis. Its position at time $t$ is given by $x=\\dfrac{t}{2}+\\sin t$.\n\nAt what times during the period $0\\le t\\le 3\\pi$ is the particle stationary?",
+   "answer": "$$\\dot x=\\frac12+\\cos t=0\\ \\Rightarrow\\ \\cos t=-\\frac12,\\quad 0\\le t\\le3\\pi$$\n\n$$t=\\pi-\\frac{\\pi}{3},\\ \\pi+\\frac{\\pi}{3},\\ 3\\pi-\\frac{\\pi}{3}\\ \\Rightarrow\\ t=\\frac{2\\pi}{3},\\ \\frac{4\\pi}{3},\\ \\frac{8\\pi}{3}$$"
+  },
+  {
+   "ref": "Q16(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.9"
+   ],
+   "question": "A particle is moving along the $x$-axis. Its position at time $t$ is given by $x=\\dfrac{t}{2}+\\sin t$.\n\nAt what times during the period $0\\le t\\le 3\\pi$ is the acceleration equal to 0?",
+   "answer": "$$\\ddot x=-\\sin t=0\\ \\Rightarrow\\ t=0,\\ \\pi,\\ 2\\pi,\\ 3\\pi$$"
+  },
+  {
+   "ref": "Q16(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.9",
+    "12.5.1.7"
+   ],
+   "question": "A particle is moving along the $x$-axis. Its position at time $t$ is given by $x=\\dfrac{t}{2}+\\sin t$. The particle is stationary at $t=\\dfrac{2\\pi}{3},\\dfrac{4\\pi}{3},\\dfrac{8\\pi}{3}$ and $\\ddot x=0$ at $t=0,\\pi,2\\pi,3\\pi$.\n\nCarefully sketch the graph of $x=\\dfrac{t}{2}+\\sin t$ for $0\\le t\\le 3\\pi$. Clearly label any stationary points and any points of inflection.",
+   "answer": "$\\ddot x=-\\sin t$: at $t=\\frac{2\\pi}{3}$ and $t=\\frac{8\\pi}{3}$, $\\sin t>0$ so $\\ddot x<0$ (local maxima); at $t=\\frac{4\\pi}{3}$, $\\sin t<0$ so $\\ddot x>0$ (local minimum).\n\n- Local max $\\left(\\frac{2\\pi}{3},\\ \\frac{\\pi}{3}+\\frac{\\sqrt3}{2}\\right)\\approx\\left(\\frac{2\\pi}{3},1.913\\right)$\n- Local min $\\left(\\frac{4\\pi}{3},\\ \\frac{2\\pi}{3}-\\frac{\\sqrt3}{2}\\right)\\approx\\left(\\frac{4\\pi}{3},1.228\\right)$\n- Local max $\\left(\\frac{8\\pi}{3},\\ \\frac{4\\pi}{3}+\\frac{\\sqrt3}{2}\\right)\\approx\\left(\\frac{8\\pi}{3},5.055\\right)$\n- Points of inflection (concavity changes as $\\sin t$ changes sign): $\\left(\\pi,\\frac{\\pi}{2}\\right)$ and $(2\\pi,\\pi)$\n- Endpoints: $(0,0)$ and $\\left(3\\pi,\\frac{3\\pi}{2}\\right)$",
+   "answer_images": [
+    "assets/img/adv-2026-gosford/q16c-ans.png"
+   ]
+  },
+  {
+   "ref": "Q17",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.3.8",
+    "11.4.3.5"
+   ],
+   "question": "It is given that $y=f(x)g(x)$, where $f(2)=-3$, $f'(2)=1$, $g(2)=8$ and $g'(2)=4$.\n\nWhat is the equation of the tangent to $y=f(x)g(x)$ at the point on the curve where $x=2$?",
+   "answer": "When $x=2$: $y=f(2)g(2)=(-3)(8)=-24$.\n\nBy the product rule, $y'=f(x)g'(x)+g(x)f'(x)$, so at $x=2$: $$m=(-3)(4)+(8)(1)=-4$$\n\nTangent: $y-(-24)=-4(x-2)$, i.e. $y=-4x-16$."
+  },
+  {
+   "ref": "Q18",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.5.2",
+    "12.4.8.1"
+   ],
+   "question": "Find the exact value of $\\displaystyle\\int_0^{\\frac13}\\left(e^{3x}+x\\right)dx$.",
+   "answer": "$$\\begin{aligned}\\int_0^{\\frac13}(e^{3x}+x)\\,dx&=\\left[\\frac{e^{3x}}{3}+\\frac{x^2}{2}\\right]_0^{\\frac13}\\\\ &=\\left(\\frac{e}{3}+\\frac{1}{18}\\right)-\\left(\\frac13+0\\right)\\\\ &=\\frac e3-\\frac{5}{18}=\\frac{6e-5}{18}\\end{aligned}$$"
+  },
+  {
+   "ref": "Q19",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.4.5",
+    "11.1.4.10"
+   ],
+   "question": "For what values of $x$ is $f(x)=x^3-2x^2$ increasing?",
+   "answer": "$f'(x)=3x^2-4x$. Increasing when $f'(x)>0$: $$x(3x-4)>0$$ This concave-up quadratic is positive outside its roots $0$ and $\\frac43$, so $x<0$ or $x>\\dfrac43$."
+  },
+  {
+   "ref": "Q20(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "The probability distribution for a discrete random variable $X$ is given by $$P(X=x)=\\begin{cases} bx(x-2), & x=3,4,5,6\\\\ 0, & \\text{otherwise}\\end{cases}$$\n\nShow that the value of the constant $b$ is $\\dfrac{1}{50}$.",
+   "answer": "| $x$ | 3 | 4 | 5 | 6 |\n|---|---|---|---|---|\n| $P(X=x)$ | $3b$ | $8b$ | $15b$ | $24b$ |\n\nThe probabilities must sum to 1: $$3b+8b+15b+24b=1\\ \\Rightarrow\\ 50b=1\\ \\Rightarrow\\ b=\\frac{1}{50}$$"
+  },
+  {
+   "ref": "Q20(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.6"
+   ],
+   "question": "The probability distribution for a discrete random variable $X$ is given by $$P(X=x)=\\begin{cases} bx(x-2), & x=3,4,5,6\\\\ 0, & \\text{otherwise}\\end{cases}$$ where $b=\\dfrac{1}{50}$.\n\nCalculate the value of $E(X)$.",
+   "answer": "$$\\begin{aligned}E(X)&=\\sum xP(x)=3(3b)+4(8b)+5(15b)+6(24b)\\\\ &=(9+32+75+144)b=260b=\\frac{260}{50}=5.2\\end{aligned}$$"
+  },
+  {
+   "ref": "Q20(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.9"
+   ],
+   "question": "The probability distribution for a discrete random variable $X$ is given by $$P(X=x)=\\begin{cases} bx(x-2), & x=3,4,5,6\\\\ 0, & \\text{otherwise}\\end{cases}$$ where $b=\\dfrac{1}{50}$, and $E(X)=5.2$.\n\nFind $P(X\\le E(X))$.",
+   "answer": "$$\\begin{aligned}P(X\\le 5.2)&=P(X=3)+P(X=4)+P(X=5)\\\\ &=1-P(X=6)=1-\\frac{24}{50}=\\frac{26}{50}=\\frac{13}{25}\\end{aligned}$$"
+  },
+  {
+   "ref": "Q21",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.5.1",
+    "11.6.1.6"
+   ],
+   "question": "Without the use of calculus, sketch the graph of $y=\\dfrac{1}{2-x}+4$. Clearly show any asymptotes and intercepts with the coordinate axes.",
+   "answer": "$y=\\dfrac{1}{2-x}+4=-\\dfrac{1}{x-2}+4$ is the hyperbola $y=-\\dfrac1x$ translated 2 right and 4 up.\n\n- Vertical asymptote $x=2$; horizontal asymptote $y=4$.\n- $y$-intercept: $x=0 \\Rightarrow y=\\frac12+4=\\frac92$, i.e. $\\left(0,\\frac92\\right)$.\n- $x$-intercept: $\\dfrac{1}{2-x}=-4 \\Rightarrow 2-x=-\\frac14 \\Rightarrow x=\\frac94$, i.e. $\\left(\\frac94,0\\right)$.\n- For $x<2$, $y>4$ and $y\\to\\infty$ as $x\\to2^-$; for $x>2$, $y<4$ and $y\\to-\\infty$ as $x\\to2^+$.",
+   "answer_images": [
+    "assets/img/adv-2026-gosford/q21-ans.png"
+   ]
+  },
+  {
+   "ref": "Q22",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.1.12",
+    "11.3.1.9"
+   ],
+   "question": "Show that $\\sec(\\pi-x)\\left(1-\\sin^2(\\pi-x)\\right)=-\\cos x$ for all $x$ within the natural domain.",
+   "answer": "Using $\\cos(\\pi-x)=-\\cos x$ and $1-\\sin^2\\theta=\\cos^2\\theta$: $$\\begin{aligned}\\text{LHS}&=\\sec(\\pi-x)\\cos^2(\\pi-x)\\\\ &=\\frac{1}{-\\cos x}\\left(-\\cos x\\right)^2\\\\ &=-\\frac{\\cos^2x}{\\cos x}=-\\cos x=\\text{RHS}\\end{aligned}$$"
+  },
+  {
+   "ref": "Q23",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.6.3",
+    "11.3.1.11"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{\\tan^2x+1}{\\tan x+1}\\,dx$.",
+   "answer": "Using $1+\\tan^2x=\\sec^2x$ and $\\dfrac{d}{dx}(\\tan x+1)=\\sec^2x$: $$\\int\\frac{\\tan^2x+1}{\\tan x+1}\\,dx=\\int\\frac{\\sec^2x}{\\tan x+1}\\,dx=\\ln|\\tan x+1|+C$$ since the integrand has the form $\\dfrac{f'(x)}{f(x)}$."
+  },
+  {
+   "ref": "Q24",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.1.10"
+   ],
+   "question": "Solve $\\tan(2\\theta-50^\\circ)=-1$ for $0^\\circ\\le\\theta\\le180^\\circ$.",
+   "answer": "Since $0^\\circ\\le\\theta\\le180^\\circ$, we have $-50^\\circ\\le 2\\theta-50^\\circ\\le310^\\circ$.\n\n$\\tan(2\\theta-50^\\circ)=-1$ (reference angle $45^\\circ$, tan negative in quadrants 2 and 4): $$2\\theta-50^\\circ=-45^\\circ,\\ 135^\\circ$$ ($315^\\circ$ is outside the range). So $2\\theta=5^\\circ,\\ 185^\\circ$, giving $\\theta=2.5^\\circ,\\ 92.5^\\circ$."
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.2.8"
+   ],
+   "question": "A continuous random variable $X$ has probability density function $$f(x)=\\begin{cases}\\dfrac{3}{4\\sqrt2}\\sqrt{x-2}, & 2\\le x\\le 4\\\\ 0, & \\text{otherwise}\\end{cases}$$\n\nWhat is the mode of the distribution?",
+   "answer": "$f(x)=\\dfrac{3}{4\\sqrt2}\\sqrt{x-2}$ is increasing on $2\\le x\\le4$, so it is greatest at the right endpoint. The mode is $x=4$."
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.11",
+    "12.6.2.9"
+   ],
+   "question": "A continuous random variable $X$ has probability density function $$f(x)=\\begin{cases}\\dfrac{3}{4\\sqrt2}\\sqrt{x-2}, & 2\\le x\\le 4\\\\ 0, & \\text{otherwise}\\end{cases}$$\n\nFind the median of the distribution.",
+   "answer": "Let the median be $M$. Then $$\\int_2^M\\frac{3}{4\\sqrt2}\\sqrt{x-2}\\,dx=\\frac12\\ \\Rightarrow\\ \\int_2^M(x-2)^{\\frac12}dx=\\frac12\\times\\frac{4\\sqrt2}{3}=\\frac{2\\sqrt2}{3}$$ $$\\frac23\\left[(x-2)^{\\frac32}\\right]_2^M=\\frac{2\\sqrt2}{3}\\ \\Rightarrow\\ (M-2)^{\\frac32}=\\sqrt2\\ \\Rightarrow\\ (M-2)^3=2$$ $$M=2+\\sqrt[3]{2}\\approx3.26$$"
+  },
+  {
+   "ref": "Q26",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.6.1.6",
+    "11.6.1.10"
+   ],
+   "question": "The graph of $y=f(x)$ is shown. It has $x$-intercepts at $(-1,0)$ and $(5,0)$ (where it touches the axis, a local minimum) and a local maximum at $(1,2)$.\n\nSketch the graph of $y=f(2-x)$ and label the coordinates of the turning points and $x$-intercepts.",
+   "answer": "$f(2-x)=f(-(x-2))$: reflect $y=f(x)$ in the $y$-axis (replace $x$ by $-x$), then translate 2 units right (replace $x$ by $x-2$). A point $(a,b)$ maps to $(2-a,b)$.\n\n- $(-1,0)\\to(3,0)$ ($x$-intercept)\n- $(1,2)\\to(1,2)$ (local maximum)\n- $(5,0)\\to(-3,0)$ ($x$-intercept and local minimum)\n\nThe new graph rises steeply to the left of $x=-3$ and falls steeply to the right of $x=3$ (the original's end behaviour is reversed).",
+   "images": [
+    "assets/img/adv-2026-gosford/q26.png"
+   ],
+   "answer_images": [
+    "assets/img/adv-2026-gosford/q26-ans.png"
+   ]
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.2",
+    "12.3.1.2"
+   ],
+   "question": "A normal is drawn to the curve $y=e^{\\frac x2}$ at the point $P(\\log_e 16,\\ 4)$. The normal cuts the $x$-axis at $R$.\n\nShow that the equation of the normal at $P$ is $y=-\\dfrac x2+4+\\log_e 4$.",
+   "answer": "$y'=\\tfrac12e^{\\frac x2}$. At $x=\\ln16$: $$m_T=\\tfrac12e^{\\frac12\\ln16}=\\tfrac12\\left(16\\right)^{\\frac12}=\\tfrac12\\times4=2,\\qquad m_N=-\\tfrac12$$ Normal: $$y-4=-\\tfrac12(x-\\ln16)\\ \\Rightarrow\\ y=-\\frac x2+\\ln\\!\\left(16^{\\frac12}\\right)+4=-\\frac x2+4+\\ln4$$",
+   "images": [
+    "assets/img/adv-2026-gosford/q27.png"
+   ]
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.3.5",
+    "11.5.2.9"
+   ],
+   "question": "A normal is drawn to the curve $y=e^{\\frac x2}$ at the point $P(\\log_e 16,\\ 4)$. The normal cuts the $x$-axis at $R$. The normal at $P$ has equation $y=-\\dfrac x2+4+\\log_e 4$.\n\nFind the coordinates of $R$.",
+   "answer": "At $R$, $y=0$: $$0=-\\frac x2+4+\\ln4\\ \\Rightarrow\\ x=8+2\\ln4=8+\\ln16$$ So $R=(8+\\ln16,\\ 0)$.",
+   "images": [
+    "assets/img/adv-2026-gosford/q27.png"
+   ]
+  },
+  {
+   "ref": "Q27(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.5",
+    "12.4.5.2"
+   ],
+   "question": "A normal is drawn to the curve $y=e^{\\frac x2}$ at the point $P(\\log_e 16,\\ 4)$. The normal cuts the $x$-axis at $R$. The normal at $P$ meets the $x$-axis at $R(8+\\log_e16,\\ 0)$.\n\nDetermine the area of the shaded region bounded by the curve $y=e^{\\frac x2}$, the normal at $P$ and the coordinate axes.",
+   "answer": "Split the region at $x=\\ln16$: under the curve from $x=0$ to $x=\\ln16$, plus the triangle under the normal from $x=\\ln16$ to $x=8+\\ln16$ (base $8$, height $4$).\n\n$$\\begin{aligned}A&=\\int_0^{\\ln16}e^{\\frac x2}\\,dx+\\tfrac12\\times8\\times4\\\\ &=\\left[2e^{\\frac x2}\\right]_0^{\\ln16}+16\\\\ &=2\\left(e^{\\frac12\\ln16}-e^0\\right)+16\\\\ &=2(4-1)+16=22\\ \\text{square units}\\end{aligned}$$",
+   "images": [
+    "assets/img/adv-2026-gosford/q27.png"
+   ],
+   "answer_images": [
+    "assets/img/adv-2026-gosford/q27c-ans.png"
+   ]
+  },
+  {
+   "ref": "Q28(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.6",
+    "12.6.3.10"
+   ],
+   "question": "The number of fish, $N$, found in a creek on each occasion when data was collected is approximately normally distributed with mean 42 and standard deviation 6.\n\nFind the proportion of samples recorded that contained at least 36 fish.",
+   "answer": "$z=\\dfrac{36-42}{6}=-1$. By the empirical rule, about 68% of scores lie within 1 standard deviation of the mean, so $$P(N\\ge36)=P(z\\ge-1)=\\frac{68\\%}{2}+50\\%=84\\%$$ About 84% of samples contained at least 36 fish."
+  },
+  {
+   "ref": "Q28(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.3.13",
+    "12.6.3.10"
+   ],
+   "question": "The number of fish, $N$, found in a creek on each occasion when data was collected is approximately normally distributed with mean 42 and standard deviation 6. The number of fish is related to the water temperature, $t$ °C, by the linear model $N=-2t+65$.\n\nA random variable is normally distributed with mean 0 and standard deviation 1. The table gives the probability that this random variable is less than $z$ (the shaded area in the diagram).\n\n| $z$ | 0.6 | 0.7 | 0.8 | 0.9 | 1.0 | 1.1 | 1.2 | 1.3 | 1.4 |\n|---|---|---|---|---|---|---|---|---|---|\n| Probability | 0.7257 | 0.7580 | 0.7881 | 0.8159 | 0.8413 | 0.8643 | 0.8849 | 0.9032 | 0.9192 |\n\nThe environmental scientists determine that the creek becomes over-populated when the water temperature drops below $T$ °C. If the creek was over-populated on approximately 11.5% of occasions when the data was collected, find the value of $T$.",
+   "answer": "Lower temperatures give more fish, so over-population corresponds to the top 11.5% of fish counts. Let $c$ be the corresponding $z$-score: $$P(z>c)=0.115\\ \\Rightarrow\\ P(z<c)=0.885$$ The closest table value is $0.8849$, so $c=1.2$.\n\n$$N=42+1.2\\times6=49.2$$ Using the model: $$49.2=-2T+65\\ \\Rightarrow\\ T=\\frac{65-49.2}{2}=7.9$$ So $T\\approx7.9$ °C.",
+   "images": [
+    "assets/img/adv-2026-gosford/q28e.png"
+   ]
+  },
+  {
+   "ref": "Q29(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.6"
+   ],
+   "question": "The graph of $y=f(x)$, where $f(x)=a(x-b)^2+c$, passes through $(0,-7)$, $(3,2)$ and $(6,-7)$ as shown in the diagram, with vertex $(3,2)$.\n\nFind the values of $a$, $b$ and $c$.",
+   "answer": "The vertex is $(3,2)$ (midway between the points with equal $y$-values at $x=0$ and $x=6$), so $b=3$, $c=2$: $f(x)=a(x-3)^2+2$.\n\n$f(0)=-7$: $-7=a(-3)^2+2 \\Rightarrow 9a=-9 \\Rightarrow a=-1$.\n\nSo $a=-1$, $b=3$, $c=2$.",
+   "images": [
+    "assets/img/adv-2026-gosford/q29.png"
+   ]
+  },
+  {
+   "ref": "Q29(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.6.1.6",
+    "11.1.4.10"
+   ],
+   "question": "Let $f(x)=-(x-3)^2+2$. The graph of $y=g(x)$ is obtained by reflecting $y=f(x)$ in the $x$-axis then translating it down by $k$ units. Determine the value of $k$ such that the solution to $f(x)\\ge g(x)$ is $1\\le x\\le5$.",
+   "answer": "$g(x)=-f(x)-k=(x-3)^2-2-k$.\n\nThe parabolas must intersect at $x=1$ and $x=5$, where $f(x)=g(x)$: $$-(x-3)^2+2=(x-3)^2-2-k\\ \\Rightarrow\\ k=2(x-3)^2-4$$ At $x=1$ or $x=5$, $(x-3)^2=4$, so $k=2(4)-4=4$.\n\n(Check: $f(x)-g(x)=-2(x-3)^2+8\\ge0 \\iff (x-3)^2\\le4 \\iff 1\\le x\\le5$.)",
+   "answer_images": [
+    "assets/img/adv-2026-gosford/q29b-ans.png"
+   ]
+  },
+  {
+   "ref": "Q30(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.3",
+    "12.3.2.1"
+   ],
+   "question": "A manufacturer is designing a box in the shape of a rectangular prism with a square base. The volume of the box must be 40 cubic centimetres. The manufacturer determines that the cost, \\$$C$, to produce the box is given by $C=32x+\\dfrac12xh-72\\ln x$, where $x$ cm is the side length of the square and $h$ cm is the height of the box.\n\nShow that $\\dfrac{dC}{dx}=32-\\dfrac{20}{x^2}-\\dfrac{72}{x}$.",
+   "answer": "$V=x^2h=40 \\Rightarrow h=\\dfrac{40}{x^2}$.\n\n$$\\begin{aligned}C&=32x+\\frac12x\\left(\\frac{40}{x^2}\\right)-72\\ln x=32x+20x^{-1}-72\\ln x\\\\ \\frac{dC}{dx}&=32-20x^{-2}-\\frac{72}{x}=32-\\frac{20}{x^2}-\\frac{72}{x}\\end{aligned}$$"
+  },
+  {
+   "ref": "Q30(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.5.2.5"
+   ],
+   "question": "A manufacturer is designing a box in the shape of a rectangular prism with a square base. The volume of the box must be 40 cubic centimetres. The manufacturer determines that the cost, \\$$C$, to produce the box is given by $C=32x+\\dfrac12xh-72\\ln x$, where $x$ cm is the side length of the square and $h$ cm is the height of the box. It can be shown that $C=32x+\\dfrac{20}{x}-72\\ln x$ and $\\dfrac{dC}{dx}=32-\\dfrac{20}{x^2}-\\dfrac{72}{x}$.\n\nDetermine the minimum cost of producing the box.",
+   "answer": "Set $\\dfrac{dC}{dx}=0$ and multiply by $x^2$: $$32x^2-72x-20=0\\ \\Rightarrow\\ 4(8x^2-18x-5)=0\\ \\Rightarrow\\ (4x+1)(2x-5)=0$$ so $x=-\\frac14$ or $x=\\frac52$. Since $x>0$, $x=2.5$.\n\nNature: $C'(2.4)\\approx-1.5<0$ and $C'(2.6)\\approx1.3>0$, so this is a minimum (and the only stationary point for $x>0$, so it is the global minimum).\n\n$$C=32(2.5)+\\frac{20}{2.5}-72\\ln2.5=88-72\\ln2.5\\approx22.027$$ The minimum cost is \\$22.03 (nearest cent)."
+  }
+ ]
+}

@@ -63,7 +63,8 @@ def ref_key(ref):
     key = [int(m.group(1)) if m else 0]
     for lvl, b in enumerate(re.findall(r"\(([^)]*)\)", ref or "")):
         b = b.strip().lower()
-        if lvl >= 1 and b in ROMAN:
+        # roman parts: below a letter, or directly under the question (Q15(i), Q15(ii) ...)
+        if b in ROMAN and (lvl >= 1 or b not in "abcdefgh"):
             key.append(ROMAN[b])
         elif b.isdigit():
             key.append(int(b))

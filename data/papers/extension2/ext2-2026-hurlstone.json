@@ -1,0 +1,749 @@
+{
+ "id": "ext2-2026-hurlstone",
+ "course": "extension2",
+ "school": "Hurlstone",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "Hurlstone 2026 w. sol"
+ },
+ "indexed": "2026-11-12",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q3",
+   "reason": "Not in 2024 syllabus: complex powers ($i^i$) using the exponential form $e^{i\\theta}$"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "$P(x) = x^4 + 2x^3 + 9x^2 + 8x + 20$ has a zero $x = 2i - 1$.\n\nWhat is the value of $P(2i - 1)$?",
+   "options": [
+    "$10 + 12i$",
+    "$10 - 12i$",
+    "$-10 - 12i$",
+    "$0$"
+   ],
+   "correct": "D",
+   "answer": "$x = 2i - 1$ is given to be a zero of $P(x)$, so by definition $P(2i-1) = 0$. (The real coefficients also mean its conjugate $-1-2i$ is a zero.)"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.10",
+    "12.3.2.3"
+   ],
+   "question": "What is the argument of $-iz$, where $z = -1 + i$?",
+   "options": [
+    "$\\dfrac{\\pi}{4}$",
+    "$-\\dfrac{3\\pi}{4}$",
+    "$\\dfrac{3\\pi}{4}$",
+    "$\\dfrac{5\\pi}{4}$"
+   ],
+   "correct": "A",
+   "answer": "$\\arg z = \\dfrac{3\\pi}{4}$. Multiplying by $-i$ rotates clockwise by $\\dfrac{\\pi}{2}$, so $\\arg(-iz) = \\dfrac{3\\pi}{4} - \\dfrac{\\pi}{2} = \\dfrac{\\pi}{4}$.\n\nCheck: $-iz = -i(-1+i) = i - i^2 = 1 + i$, which has argument $\\dfrac{\\pi}{4}$."
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.10",
+    "12.3.2.5"
+   ],
+   "question": "The Argand diagram shows $\\triangle OAB$ where $A$ represents the complex number $3\\left(\\cos\\dfrac{\\pi}{10} + i\\sin\\dfrac{\\pi}{10}\\right)$, $\\angle BOA = 90^\\circ$, and $|\\overrightarrow{OB}| = \\dfrac{2}{3}|\\overrightarrow{OA}|$.\n\nWhich of the following represents the complex number $B$?",
+   "options": [
+    "$2\\left(\\cos\\left(-\\dfrac{2\\pi}{5}\\right) + i\\sin\\left(-\\dfrac{2\\pi}{5}\\right)\\right)$",
+    "$2\\left(\\cos\\left(-\\dfrac{9\\pi}{10}\\right) + i\\sin\\left(-\\dfrac{9\\pi}{10}\\right)\\right)$",
+    "$2\\left(\\cos\\dfrac{3\\pi}{5} + i\\sin\\dfrac{3\\pi}{5}\\right)$",
+    "$3\\left(\\cos\\dfrac{3\\pi}{5} + i\\sin\\dfrac{3\\pi}{5}\\right)$"
+   ],
+   "correct": "A",
+   "answer": "$\\overrightarrow{OB}$ is $\\overrightarrow{OA}$ rotated **clockwise** by $90^\\circ$ (multiply by $-i = \\operatorname{cis}\\left(-\\frac{\\pi}{2}\\right)$) and scaled by $\\frac{2}{3}$:\n\n$$B = \\frac{2}{3}\\times 3\\operatorname{cis}\\frac{\\pi}{10}\\times\\operatorname{cis}\\left(-\\frac{\\pi}{2}\\right) = 2\\operatorname{cis}\\left(\\frac{\\pi}{10} - \\frac{5\\pi}{10}\\right) = 2\\left(\\cos\\left(-\\frac{2\\pi}{5}\\right) + i\\sin\\left(-\\frac{2\\pi}{5}\\right)\\right).$$",
+   "images": [
+    "assets/img/ext2-2026-hurlstone/q4.png"
+   ]
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.7",
+    "12.1.1.6"
+   ],
+   "question": "What is the negation of the quantified statement:\n\n\"For all real numbers $x$, there exists a real number $y$ such that $x + y > 0$\"?",
+   "options": [
+    "There exists a real number $x$ such that for all real numbers $y$, $x + y \\le 0$.",
+    "For all real numbers $x$, there exists a real number $y$ such that $x + y \\le 0$.",
+    "There exists a real number $x$ and there exists a real number $y$ such that $x + y \\le 0$.",
+    "There exists a real number $x$ such that for all real numbers $y$, $x + y < 0$."
+   ],
+   "correct": "A",
+   "answer": "Negating swaps $\\forall \\leftrightarrow \\exists$ and negates the inner statement: $x + y > 0$ becomes $x + y \\le 0$. So: there exists $x$ such that for all $y$, $x + y \\le 0$."
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.12",
+    "12.1.1.11"
+   ],
+   "question": "Which of the following statements is logically equivalent to the implication:\n\n\"If $n$ is an odd integer, then $n^2$ is an odd integer\"?",
+   "options": [
+    "If $n$ is an even integer, then $n^2$ is an even integer.",
+    "If $n^2$ is an odd integer, then $n$ is an odd integer.",
+    "If $n^2$ is an even integer, then $n$ is an even integer.",
+    "If $n$ is an odd integer, then $n^2$ is an even integer."
+   ],
+   "correct": "C",
+   "answer": "An implication is logically equivalent to its contrapositive: \"if not $Q$ then not $P$\", i.e. if $n^2$ is even then $n$ is even."
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "course": "extension1",
+   "dotpoints": [
+    "12.2.4.2"
+   ],
+   "question": "What is the scalar product of the two vectors $\\mathbf{u} = 2\\mathbf{i} - \\mathbf{j} + 3\\mathbf{k}$ and $\\mathbf{v} = 4\\mathbf{i} - 6\\mathbf{j} - 3\\mathbf{k}$?",
+   "options": [
+    "$-11$",
+    "$5$",
+    "$23$",
+    "$25$"
+   ],
+   "correct": "B",
+   "answer": "$\\mathbf{u}\\cdot\\mathbf{v} = 2(4) + (-1)(-6) + 3(-3) = 8 + 6 - 9 = 5$."
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "course": "extension1",
+   "dotpoints": [
+    "12.2.4.3",
+    "12.2.4.6"
+   ],
+   "question": "Consider the vectors $\\overrightarrow{OA} = \\begin{pmatrix} 2 \\\\ -1 \\\\ 3 \\end{pmatrix}$ and $\\overrightarrow{OB}$ with $|\\overrightarrow{OB}| = 3$.\n\nGiven that $\\overrightarrow{OA}\\cdot\\overrightarrow{OB} = 6$, find, in square units, the area of $\\triangle OAB$.",
+   "options": [
+    "$3\\sqrt{10}$",
+    "$\\dfrac{3\\sqrt{14}}{2}$",
+    "$\\dfrac{3\\sqrt{10}}{4}$",
+    "$\\dfrac{3\\sqrt{10}}{2}$"
+   ],
+   "correct": "D",
+   "answer": "$|\\overrightarrow{OA}| = \\sqrt{4 + 1 + 9} = \\sqrt{14}$. If $\\theta = \\angle AOB$,\n$$\\cos\\theta = \\frac{6}{3\\sqrt{14}} = \\frac{2}{\\sqrt{14}}, \\qquad \\sin\\theta = \\sqrt{1 - \\frac{4}{14}} = \\frac{\\sqrt{10}}{\\sqrt{14}}.$$\n$$\\text{Area} = \\frac12|\\overrightarrow{OA}||\\overrightarrow{OB}|\\sin\\theta = \\frac12\\times\\sqrt{14}\\times 3\\times\\frac{\\sqrt{10}}{\\sqrt{14}} = \\frac{3\\sqrt{10}}{2}.$$"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "What values of $a$ and $b$ give $\\dfrac{2x - 11}{(x+2)(x-1)} \\equiv \\dfrac{a}{x+2} + \\dfrac{b}{x-1}$?",
+   "options": [
+    "$a = -5,\\ b = -3$",
+    "$a = -5,\\ b = 3$",
+    "$a = 5,\\ b = -3$",
+    "$a = 5,\\ b = 3$"
+   ],
+   "correct": "C",
+   "answer": "$2x - 11 = a(x-1) + b(x+2)$. Put $x = 1$: $-9 = 3b$, so $b = -3$. Put $x = -2$: $-15 = -3a$, so $a = 5$."
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "course": "advanced",
+   "dotpoints": [
+    "12.4.4.5"
+   ],
+   "question": "If $\\displaystyle\\int_a^x f(t)\\,dt = g(x)$, which of the following is a primitive of $f(x)\\,g(x)$?",
+   "options": [
+    "$\\dfrac12\\big(f(x)\\big)^2$",
+    "$\\dfrac12\\big(f'(x)\\big)^2$",
+    "$\\dfrac12\\big(g(x)\\big)^2$",
+    "$\\dfrac12\\big(g'(x)\\big)^2$"
+   ],
+   "correct": "C",
+   "answer": "By the fundamental theorem of calculus, $g'(x) = f(x)$. So $f(x)g(x) = g'(x)g(x)$, and by the reverse chain rule\n$$\\int g'(x)\\,g(x)\\,dx = \\frac12\\big(g(x)\\big)^2 + C.$$"
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.13"
+   ],
+   "question": "Write $\\dfrac{1 + i\\sqrt3}{1 + i}$ in the form $x + iy$, where $x$ and $y$ are real.",
+   "answer": "Multiply by the conjugate of the denominator:\n$$\\frac{(1 + i\\sqrt3)(1 - i)}{(1+i)(1-i)} = \\frac{1 - i + i\\sqrt3 + \\sqrt3}{2} = \\frac{1 + \\sqrt3}{2} + \\frac{\\sqrt3 - 1}{2}\\,i.$$"
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.6",
+    "12.3.2.5"
+   ],
+   "question": "By expressing both $1 + i\\sqrt3$ and $1 + i$ in modulus-argument form, write $\\dfrac{1 + i\\sqrt3}{1 + i}$ in modulus-argument form.",
+   "answer": "$$1 + i\\sqrt3 = 2\\left(\\cos\\frac{\\pi}{3} + i\\sin\\frac{\\pi}{3}\\right), \\qquad 1 + i = \\sqrt2\\left(\\cos\\frac{\\pi}{4} + i\\sin\\frac{\\pi}{4}\\right).$$\nDividing: divide the moduli and subtract the arguments:\n$$\\frac{1 + i\\sqrt3}{1+i} = \\frac{2}{\\sqrt2}\\left(\\cos\\left(\\frac{\\pi}{3} - \\frac{\\pi}{4}\\right) + i\\sin\\left(\\frac{\\pi}{3} - \\frac{\\pi}{4}\\right)\\right) = \\sqrt2\\left(\\cos\\frac{\\pi}{12} + i\\sin\\frac{\\pi}{12}\\right).$$"
+  },
+  {
+   "ref": "Q11(a)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.6"
+   ],
+   "question": "It is given that\n$$\\frac{1 + i\\sqrt3}{1 + i} = \\frac{1 + \\sqrt3}{2} + \\frac{\\sqrt3 - 1}{2}\\,i = \\sqrt2\\left(\\cos\\frac{\\pi}{12} + i\\sin\\frac{\\pi}{12}\\right).$$\nUsing these results, find $\\cos\\dfrac{\\pi}{12}$ in surd form.",
+   "answer": "Equating real parts:\n$$\\sqrt2\\cos\\frac{\\pi}{12} = \\frac{1 + \\sqrt3}{2} \\quad\\Rightarrow\\quad \\cos\\frac{\\pi}{12} = \\frac{1 + \\sqrt3}{2\\sqrt2} = \\frac{\\sqrt2 + \\sqrt6}{4}.$$"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.5.5",
+    "12.3.5.3"
+   ],
+   "question": "Sketch the region in the complex plane where the inequalities $|z - 2 + i| \\le 2$ and $\\operatorname{Im}(z) \\ge 0$ both hold.\n\nInclude all points of intersection of the regions in your sketch.",
+   "answer": "$|z - (2 - i)| \\le 2$ is the closed disc with centre $2 - i$ (the point $(2, -1)$) and radius $2$: $(x-2)^2 + (y+1)^2 \\le 4$.\n\nIt meets the real axis ($y = 0$) where $(x-2)^2 = 3$, i.e. $x = 2 \\pm \\sqrt3$.\n\n$\\operatorname{Im}(z) \\ge 0$ keeps only the part on or above the real axis, so the region is the small segment of the disc above the real axis, between $2 - \\sqrt3$ and $2 + \\sqrt3$ on the real axis, with highest point $2 + i$ (boundaries included).",
+   "answer_images": [
+    "assets/img/ext2-2026-hurlstone/q11b-ans.png"
+   ]
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Let $z = \\cos\\theta + i\\sin\\theta$. By considering $z^2$, prove that $\\cos 2\\theta = \\cos^2\\theta - \\sin^2\\theta$.",
+   "answer": "By de Moivre's theorem, $z^2 = (\\cos\\theta + i\\sin\\theta)^2 = \\cos 2\\theta + i\\sin 2\\theta$.\n\nExpanding directly, $z^2 = \\cos^2\\theta + 2i\\sin\\theta\\cos\\theta + i^2\\sin^2\\theta = (\\cos^2\\theta - \\sin^2\\theta) + 2i\\sin\\theta\\cos\\theta$.\n\nEquating the real parts of the two expressions: $\\cos 2\\theta = \\cos^2\\theta - \\sin^2\\theta$."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.11",
+    "12.3.4.10"
+   ],
+   "question": "$R$ is a positive real number and $z_1$ and $z_2$ are distinct complex numbers.\n\nShow that the points on the Argand diagram which represent the numbers $z_1$, $z_2$ and $\\dfrac{z_1 - iRz_2}{1 - iR}$ respectively form the vertices of a right-angled triangle.",
+   "answer": "Let $w = \\dfrac{z_1 - iRz_2}{1 - iR}$ and let $Z_1, Z_2, W$ be the corresponding points. Then\n$$z_1 - w = \\frac{z_1 - iRz_1 - z_1 + iRz_2}{1 - iR} = \\frac{-iR(z_1 - z_2)}{1 - iR},$$\n$$z_2 - w = \\frac{z_2 - iRz_2 - z_1 + iRz_2}{1 - iR} = \\frac{-(z_1 - z_2)}{1 - iR}.$$\nHence $z_1 - w = iR\\,(z_2 - w)$.\n\nSo the vector $\\overrightarrow{WZ_1}$ is the vector $\\overrightarrow{WZ_2}$ multiplied by $iR$. Multiplying by $i$ rotates a vector by $90^\\circ$ and multiplying by the positive real $R$ only changes its length, so $\\overrightarrow{WZ_1} \\perp \\overrightarrow{WZ_2}$ (both non-zero since $z_1 \\ne z_2$).\n\nTherefore $\\angle Z_1WZ_2 = 90^\\circ$ and the three points form a right-angled triangle (right angle at $W$)."
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.6"
+   ],
+   "question": "Express $2\\sqrt2\\left(\\cos\\left(-\\dfrac{3\\pi}{4}\\right) + i\\sin\\left(-\\dfrac{3\\pi}{4}\\right)\\right)$ in the form $x + iy$.",
+   "answer": "$$2\\sqrt2\\left(\\cos\\left(-\\frac{3\\pi}{4}\\right) + i\\sin\\left(-\\frac{3\\pi}{4}\\right)\\right) = 2\\sqrt2\\left(-\\frac{1}{\\sqrt2} - \\frac{1}{\\sqrt2}\\,i\\right) = -2 - 2i.$$"
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.5",
+    "12.3.4.6"
+   ],
+   "question": "Find all the 5th roots of $-1$ in modulus-argument form and sketch them on an Argand diagram.",
+   "answer": "Let $z = \\cos\\theta + i\\sin\\theta$. By de Moivre, $z^5 = \\cos 5\\theta + i\\sin 5\\theta = -1$, so $\\cos 5\\theta = -1$, $\\sin 5\\theta = 0$:\n$$5\\theta = \\pm\\pi,\\ \\pm3\\pi,\\ 5\\pi \\quad\\Rightarrow\\quad \\theta = \\pm\\frac{\\pi}{5},\\ \\pm\\frac{3\\pi}{5},\\ \\pi.$$\nThe roots are\n$$\\cos\\frac{\\pi}{5} + i\\sin\\frac{\\pi}{5},\\quad \\cos\\frac{3\\pi}{5} + i\\sin\\frac{3\\pi}{5},\\quad \\cos\\pi + i\\sin\\pi = -1,$$\n$$\\cos\\left(-\\frac{3\\pi}{5}\\right) + i\\sin\\left(-\\frac{3\\pi}{5}\\right),\\quad \\cos\\left(-\\frac{\\pi}{5}\\right) + i\\sin\\left(-\\frac{\\pi}{5}\\right).$$\nThey lie on the unit circle, equally spaced $\\dfrac{2\\pi}{5}$ apart, forming a regular pentagon with one vertex at $-1$ and symmetric about the real axis (conjugate pairs).\n\n*(The paper's solution lists $\\cos\\pi + i\\sin\\pi = 1$; it should be $-1$.)*",
+   "answer_images": [
+    "assets/img/ext2-2026-hurlstone/q12b-ans.png"
+   ]
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.6"
+   ],
+   "question": "Write $-1 - i\\sqrt3$ in the form $r(\\cos\\theta + i\\sin\\theta)$.",
+   "answer": "$r = \\sqrt{1 + 3} = 2$. The point is in the third quadrant with $\\tan\\alpha = \\sqrt3$, so $\\theta = -\\pi + \\dfrac{\\pi}{3} = -\\dfrac{2\\pi}{3}$.\n$$-1 - i\\sqrt3 = 2\\left(\\cos\\left(-\\frac{2\\pi}{3}\\right) + i\\sin\\left(-\\frac{2\\pi}{3}\\right)\\right).$$"
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "It is given that $-1 - i\\sqrt3 = 2\\left(\\cos\\left(-\\dfrac{2\\pi}{3}\\right) + i\\sin\\left(-\\dfrac{2\\pi}{3}\\right)\\right)$.\n\nFind $\\left(-1 - i\\sqrt3\\right)^{17}$ in the form $a + ib$, where $a$ and $b$ are real.",
+   "answer": "By de Moivre's theorem,\n$$\\left(-1 - i\\sqrt3\\right)^{17} = 2^{17}\\left(\\cos\\left(-\\frac{34\\pi}{3}\\right) + i\\sin\\left(-\\frac{34\\pi}{3}\\right)\\right).$$\nSince $-\\dfrac{34\\pi}{3} = -12\\pi + \\dfrac{2\\pi}{3}$,\n$$= 2^{17}\\left(\\cos\\frac{2\\pi}{3} + i\\sin\\frac{2\\pi}{3}\\right) = 2^{17}\\left(-\\frac12 + \\frac{\\sqrt3}{2}i\\right) = -2^{16} + 2^{16}\\sqrt3\\,i = -65536 + 65536\\sqrt3\\,i.$$\n\n*(The original question asked for integers $a$ and $b$; in fact $b = 65536\\sqrt3$ is not an integer.)*"
+  },
+  {
+   "ref": "Q12(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.12"
+   ],
+   "question": "The number $z$ is a fifth root of unity where $z \\ne 1$, that is $z^5 = 1$.\n\nShow that $\\left(z + z^{-1}\\right)^2 + \\left(z + z^{-1}\\right) - 1 = 0$.",
+   "answer": "Since $z^5 - 1 = (z - 1)(z^4 + z^3 + z^2 + z + 1) = 0$ and $z \\ne 1$,\n$$z^4 + z^3 + z^2 + z + 1 = 0.$$\nDividing by $z^2$ ($z \\ne 0$): $z^2 + z + 1 + z^{-1} + z^{-2} = 0$.\n\nNow $\\left(z + z^{-1}\\right)^2 = z^2 + 2 + z^{-2}$, so $z^2 + z^{-2} = \\left(z + z^{-1}\\right)^2 - 2$. Substituting:\n$$\\left(z + z^{-1}\\right)^2 - 2 + \\left(z + z^{-1}\\right) + 1 = 0 \\quad\\Rightarrow\\quad \\left(z + z^{-1}\\right)^2 + \\left(z + z^{-1}\\right) - 1 = 0.$$"
+  },
+  {
+   "ref": "Q12(d)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.4",
+    "12.3.4.2"
+   ],
+   "question": "If $z = \\cos\\theta + i\\sin\\theta$, show that $\\cos\\theta = \\dfrac{z + z^{-1}}{2}$.",
+   "answer": "By de Moivre's theorem with $n = -1$, $z^{-1} = \\cos(-\\theta) + i\\sin(-\\theta) = \\cos\\theta - i\\sin\\theta$ (cosine is even, sine is odd). So\n$$z + z^{-1} = (\\cos\\theta + i\\sin\\theta) + (\\cos\\theta - i\\sin\\theta) = 2\\cos\\theta \\quad\\Rightarrow\\quad \\cos\\theta = \\frac{z + z^{-1}}{2}.$$"
+  },
+  {
+   "ref": "Q12(d)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.12",
+    "12.3.4.5"
+   ],
+   "question": "It is given that if $z^5 = 1$ with $z \\ne 1$ then $\\left(z + z^{-1}\\right)^2 + \\left(z + z^{-1}\\right) - 1 = 0$, and that if $z = \\cos\\theta + i\\sin\\theta$ then $\\cos\\theta = \\dfrac{z + z^{-1}}{2}$.\n\nUsing these results, show that $\\cos\\dfrac{2\\pi}{5} = \\dfrac{\\sqrt5 - 1}{4}$.",
+   "answer": "Let $z = \\cos\\dfrac{2\\pi}{5} + i\\sin\\dfrac{2\\pi}{5}$. By de Moivre, $z^5 = \\cos 2\\pi + i\\sin 2\\pi = 1$ and $z \\ne 1$, so $u = z + z^{-1} = 2\\cos\\dfrac{2\\pi}{5}$ satisfies $u^2 + u - 1 = 0$:\n$$u = \\frac{-1 \\pm \\sqrt{1 + 4}}{2} = \\frac{-1 \\pm \\sqrt5}{2} \\quad\\Rightarrow\\quad \\cos\\frac{2\\pi}{5} = \\frac{u}{2} = \\frac{-1 \\pm \\sqrt5}{4}.$$\nSince $0 < \\dfrac{2\\pi}{5} < \\dfrac{\\pi}{2}$, $\\cos\\dfrac{2\\pi}{5} > 0$, so we take the positive root:\n$$\\cos\\frac{2\\pi}{5} = \\frac{\\sqrt5 - 1}{4}.$$"
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.2.3"
+   ],
+   "question": "Use proof by contradiction to prove that $\\log_6 12$ is irrational.",
+   "answer": "Suppose $\\log_6 12$ is rational. Since $\\log_6 12 > 0$, write $\\log_6 12 = \\dfrac{a}{b}$ with $a, b$ positive integers. Then\n$$6^{a/b} = 12 \\quad\\Rightarrow\\quad 6^a = 12^b \\quad\\Rightarrow\\quad 2^a\\,3^a = 2^{2b}\\,3^b.$$\nBy the uniqueness of prime factorisation, the powers of 2 and of 3 must match: $a = 2b$ and $a = b$. Then $2b = b$, so $b = 0$, contradicting $b$ being a positive integer.\n\nHence the assumption is false, and $\\log_6 12$ is irrational."
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.3.2"
+   ],
+   "question": "Show that $2ab \\le a^2 + b^2$ for all real numbers $a$ and $b$.",
+   "answer": "For all real $a, b$: $(a - b)^2 \\ge 0$, so $a^2 - 2ab + b^2 \\ge 0$, i.e. $2ab \\le a^2 + b^2$."
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.1.3.2"
+   ],
+   "question": "It is given that $2ab \\le a^2 + b^2$ for all real numbers $a$ and $b$.\n\nUsing this result, deduce that $3(ab + bc + ca) \\le (a + b + c)^2$ for all real numbers $a$, $b$ and $c$.",
+   "answer": "Applying the result to each pair:\n$$2ab \\le a^2 + b^2,\\qquad 2bc \\le b^2 + c^2,\\qquad 2ca \\le c^2 + a^2.$$\nAdding: $2(ab + bc + ca) \\le 2(a^2 + b^2 + c^2)$, so $ab + bc + ca \\le a^2 + b^2 + c^2$.\n\nAdd $2(ab + bc + ca)$ to both sides:\n$$3(ab + bc + ca) \\le a^2 + b^2 + c^2 + 2ab + 2bc + 2ca = (a + b + c)^2.$$"
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.5",
+    "12.3.2.7"
+   ],
+   "question": "Let $z_2 = 1 + i$ and, for $n > 2$, let $z_n = z_{n-1}\\left(1 + \\dfrac{i}{|z_{n-1}|}\\right)$.\n\nUse mathematical induction to prove that $|z_n| = \\sqrt n$ for all integers $n \\ge 2$.",
+   "answer": "**Base case** $n = 2$: $|z_2| = |1 + i| = \\sqrt{1 + 1} = \\sqrt2$. True.\n\n**Inductive step.** Assume $|z_k| = \\sqrt k$ for some integer $k \\ge 2$. Then\n$$|z_{k+1}| = \\left|z_k\\left(1 + \\frac{i}{|z_k|}\\right)\\right| = |z_k|\\left|1 + \\frac{i}{\\sqrt k}\\right| = \\sqrt k\\cdot\\frac{|\\sqrt k + i|}{\\sqrt k} = |\\sqrt k + i| = \\sqrt{k + 1}.$$\nSo the statement is true for $n = k + 1$ whenever it is true for $n = k$.\n\nHence, by mathematical induction, $|z_n| = \\sqrt n$ for all integers $n \\ge 2$."
+  },
+  {
+   "ref": "Q13(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "The polynomial $P(x)$ is given by $P(x) = x^5 - 5cx + 1$, where $c$ is a real number.\n\nBy considering the turning points, prove that if $c < 0$, $P(x)$ has just one real root, which is negative.",
+   "answer": "$P'(x) = 5x^4 - 5c$. If $c < 0$ then $P'(x) = 5x^4 + 5|c| > 0$ for all $x$, so $P$ has no turning points and is strictly increasing. A polynomial of odd degree takes all real values, so $P(x) = 0$ has exactly one real root.\n\nSince $P(0) = 1 > 0$ and $P$ is increasing, $P(x) > 0$ for all $x \\ge 0$, so the root is negative.\n\n*(No solution to this part was provided with the paper.)*"
+  },
+  {
+   "ref": "Q13(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "The polynomial $P(x)$ is given by $P(x) = x^5 - 5cx + 1$, where $c$ is a real number.\n\nProve that $P(x)$ has three distinct real roots if $c > \\left(\\dfrac14\\right)^{\\frac45}$.",
+   "answer": "Here $c > 0$. $P'(x) = 5(x^4 - c) = 0$ when $x = \\pm c^{1/4}$. Since $P''(x) = 20x^3$, $x = -c^{1/4}$ is a local maximum and $x = c^{1/4}$ is a local minimum.\n$$P\\left(-c^{1/4}\\right) = -c^{5/4} + 5c\\cdot c^{1/4} + 1 = 1 + 4c^{5/4} > 0,$$\n$$P\\left(c^{1/4}\\right) = c^{5/4} - 5c\\cdot c^{1/4} + 1 = 1 - 4c^{5/4}.$$\nIf $c > \\left(\\frac14\\right)^{4/5}$ then $c^{5/4} > \\frac14$, so $P\\left(c^{1/4}\\right) = 1 - 4c^{5/4} < 0$.\n\nSo: $P(x) \\to -\\infty$ as $x \\to -\\infty$ and $P(-c^{1/4}) > 0$ gives a root in $(-\\infty, -c^{1/4})$; $P(-c^{1/4}) > 0 > P(c^{1/4})$ gives a root in $(-c^{1/4}, c^{1/4})$; $P(c^{1/4}) < 0$ and $P(x) \\to \\infty$ as $x \\to \\infty$ gives a root in $(c^{1/4}, \\infty)$. As $P$ is monotonic on each of these intervals, each root is unique there, so $P(x)$ has three distinct real roots.\n\n*(No solution to this part was provided with the paper.)*"
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "course": "extension1",
+   "dotpoints": [
+    "12.2.3.3",
+    "12.2.3.6"
+   ],
+   "question": "It is given that the point $R$ is $(2, 1, -1)$, $\\overrightarrow{RS} = \\begin{pmatrix} -4 \\\\ -1 \\\\ 2 \\end{pmatrix}$ and $\\overrightarrow{RT} = 3\\overrightarrow{RS}$.\n\nFind the coordinates of $T$.",
+   "answer": "$$\\overrightarrow{RT} = 3\\begin{pmatrix} -4 \\\\ -1 \\\\ 2 \\end{pmatrix} = \\begin{pmatrix} -12 \\\\ -3 \\\\ 6 \\end{pmatrix}, \\qquad \\overrightarrow{OT} = \\overrightarrow{OR} + \\overrightarrow{RT} = \\begin{pmatrix} 2 \\\\ 1 \\\\ -1 \\end{pmatrix} + \\begin{pmatrix} -12 \\\\ -3 \\\\ 6 \\end{pmatrix} = \\begin{pmatrix} -10 \\\\ -2 \\\\ 5 \\end{pmatrix}.$$\nSo $T = (-10, -2, 5)$."
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "course": "extension1",
+   "dotpoints": [
+    "12.2.4.5"
+   ],
+   "question": "For two vectors $\\mathbf{m}$ and $\\mathbf{p}$, it is known that $|\\mathbf{m}| = 5$, $|\\mathbf{p}| = 3$ and $\\mathbf{m}\\cdot\\mathbf{p} = 9$.\n\nFind $|\\mathbf{m} - \\mathbf{p}|$.",
+   "answer": "$$|\\mathbf{m} - \\mathbf{p}|^2 = (\\mathbf{m} - \\mathbf{p})\\cdot(\\mathbf{m} - \\mathbf{p}) = |\\mathbf{m}|^2 - 2\\,\\mathbf{m}\\cdot\\mathbf{p} + |\\mathbf{p}|^2 = 25 - 18 + 9 = 16,$$\nso $|\\mathbf{m} - \\mathbf{p}| = 4$."
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.10"
+   ],
+   "question": "Consider the two lines\n$$l_1: \\mathbf{r} = \\begin{pmatrix} 7 \\\\ -1 \\\\ 2 \\end{pmatrix} + \\lambda\\begin{pmatrix} 1 \\\\ 3 \\\\ -5 \\end{pmatrix} \\quad\\text{and}\\quad l_2: \\mathbf{r} = \\begin{pmatrix} -1 \\\\ 2 \\\\ -6 \\end{pmatrix} + \\mu\\begin{pmatrix} 2 \\\\ -3 \\\\ 6 \\end{pmatrix}.$$\n\nFind the point of intersection of $l_1$ and $l_2$.",
+   "answer": "Equating components:\n$$7 + \\lambda = -1 + 2\\mu \\quad (1)\\qquad -1 + 3\\lambda = 2 - 3\\mu \\quad (2)\\qquad 2 - 5\\lambda = -6 + 6\\mu \\quad (3)$$\nFrom (1): $\\lambda - 2\\mu = -8$. From (2): $\\lambda + \\mu = 1$. Subtracting: $-3\\mu = -9$, so $\\mu = 3$ and $\\lambda = -2$.\n\nCheck in (3): LHS $= 2 - 5(-2) = 12$, RHS $= -6 + 6(3) = 12$. ✓ So the lines do intersect (they are not skew).\n\nSubstituting $\\lambda = -2$ into $l_1$: $(7 - 2,\\ -1 - 6,\\ 2 + 10) = (5, -7, 12)$."
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.7"
+   ],
+   "question": "Consider the line $l_2: \\mathbf{r} = \\begin{pmatrix} -1 \\\\ 2 \\\\ -6 \\end{pmatrix} + \\mu\\begin{pmatrix} 2 \\\\ -3 \\\\ 6 \\end{pmatrix}$.\n\nFind the values of $\\mu$ and $k$ given that $B(9, k, 24)$ lies on $l_2$.",
+   "answer": "$x$: $-1 + 2\\mu = 9 \\Rightarrow \\mu = 5$. Check $z$: $-6 + 6(5) = 24$ ✓.\n\n$y$: $k = 2 - 3(5) = -13$.\n\nSo $\\mu = 5$ and $k = -13$."
+  },
+  {
+   "ref": "Q14(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.12",
+    "12.2.1.3"
+   ],
+   "question": "Consider the line $l$ with parametric equations $x = \\lambda + 1$, $y = \\lambda$, $z = 2\\lambda + 3$.\n\nFind the equation of line $l$, writing your answer in the form $\\mathbf{r} = \\mathbf{a} + \\lambda\\mathbf{b}$, where $\\mathbf{a}$ and $\\mathbf{b}$ are expressed as column vectors.",
+   "answer": "$$\\mathbf{r} = \\begin{pmatrix} \\lambda + 1 \\\\ \\lambda \\\\ 2\\lambda + 3 \\end{pmatrix} = \\begin{pmatrix} 1 \\\\ 0 \\\\ 3 \\end{pmatrix} + \\lambda\\begin{pmatrix} 1 \\\\ 1 \\\\ 2 \\end{pmatrix}.$$"
+  },
+  {
+   "ref": "Q14(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.17",
+    "12.2.1.18"
+   ],
+   "question": "The line $l$ has equation $\\mathbf{r} = \\begin{pmatrix} 1 \\\\ 0 \\\\ 3 \\end{pmatrix} + \\lambda\\begin{pmatrix} 1 \\\\ 1 \\\\ 2 \\end{pmatrix}$. The sphere $S$ has centre $C(2, -1, 0)$ and radius $\\sqrt{29}$ units. The line $l$ intersects the surface of $S$ at points $P$ and $Q$.\n\nFind the coordinates of points $P$ and $Q$.",
+   "answer": "The sphere is $|\\mathbf{r} - \\mathbf{c}| = \\sqrt{29}$. For a point on $l$,\n$$\\mathbf{r} - \\mathbf{c} = \\begin{pmatrix} \\lambda + 1 - 2 \\\\ \\lambda + 1 \\\\ 2\\lambda + 3 \\end{pmatrix} = \\begin{pmatrix} \\lambda - 1 \\\\ \\lambda + 1 \\\\ 2\\lambda + 3 \\end{pmatrix}.$$\n$$(\\lambda - 1)^2 + (\\lambda + 1)^2 + (2\\lambda + 3)^2 = 29$$\n$$6\\lambda^2 + 12\\lambda + 11 = 29 \\Rightarrow \\lambda^2 + 2\\lambda - 3 = 0 \\Rightarrow (\\lambda + 3)(\\lambda - 1) = 0.$$\n$\\lambda = -3$: $(-2, -3, -3)$. $\\lambda = 1$: $(2, 1, 5)$.\n\nSo $P = (-2, -3, -3)$ and $Q = (2, 1, 5)$."
+  },
+  {
+   "ref": "Q14(d)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.18"
+   ],
+   "question": "The sphere $S$ has centre $C(2, -1, 0)$ and radius $\\sqrt{29}$ units. The line $l: \\mathbf{r} = \\begin{pmatrix} 1 \\\\ 0 \\\\ 3 \\end{pmatrix} + \\lambda\\begin{pmatrix} 1 \\\\ 1 \\\\ 2 \\end{pmatrix}$ meets the surface of $S$ at $P(-2, -3, -3)$ and $Q(2, 1, 5)$.\n\nDetermine whether $PQ$ is a diameter of $S$. Justify your answer.",
+   "answer": "$$|PQ| = \\sqrt{(2 + 2)^2 + (1 + 3)^2 + (5 + 3)^2} = \\sqrt{16 + 16 + 64} = \\sqrt{96} = 4\\sqrt6.$$\nA diameter has length $2\\sqrt{29} = \\sqrt{116} \\ne \\sqrt{96}$.\n\n(Equivalently, the midpoint of $PQ$ is $(0, -1, 1) \\ne C$, so $l$ does not pass through the centre.)\n\nHence $PQ$ is not a diameter of $S$."
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Find $\\displaystyle\\int \\frac{\\cos\\sqrt x}{\\sqrt x}\\,dx$.",
+   "answer": "Since $\\dfrac{d}{dx}\\sqrt x = \\dfrac{1}{2\\sqrt x}$, by the reverse chain rule (or $u = \\sqrt x$):\n$$\\int \\frac{\\cos\\sqrt x}{\\sqrt x}\\,dx = 2\\int \\frac{1}{2\\sqrt x}\\cos\\sqrt x\\,dx = 2\\sin\\sqrt x + C.$$"
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.8",
+    "12.4.1.6"
+   ],
+   "question": "Find $\\displaystyle\\int \\frac{e^x}{e^{2x} + 3e^x + 2}\\,dx$, giving your answer in the form $\\ln\\left(\\dfrac{e^x + 1}{e^x + 2}\\right) + C$.",
+   "answer": "Let $u = e^x$, $du = e^x\\,dx$:\n$$\\int \\frac{e^x}{e^{2x} + 3e^x + 2}\\,dx = \\int \\frac{du}{u^2 + 3u + 2} = \\int \\frac{du}{(u + 1)(u + 2)} = \\int\\left(\\frac{1}{u + 1} - \\frac{1}{u + 2}\\right)du$$\n$$= \\ln|u + 1| - \\ln|u + 2| + C = \\ln\\left(\\frac{e^x + 1}{e^x + 2}\\right) + C,$$\nwhere the absolute value signs are dropped because $e^x + 1 > 0$ and $e^x + 2 > 0$."
+  },
+  {
+   "ref": "Q15(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Calculate $\\displaystyle\\int_0^{\\pi} x^2\\sin x\\,dx$.",
+   "answer": "Integrate by parts twice:\n$$\\int_0^{\\pi} x^2\\sin x\\,dx = \\Big[-x^2\\cos x\\Big]_0^{\\pi} + 2\\int_0^{\\pi} x\\cos x\\,dx = \\pi^2 + 2\\left(\\Big[x\\sin x\\Big]_0^{\\pi} - \\int_0^{\\pi}\\sin x\\,dx\\right)$$\n$$= \\pi^2 + 2\\left(0 - \\Big[-\\cos x\\Big]_0^{\\pi}\\right) = \\pi^2 + 2\\big(0 - (1 + 1)\\big) = \\pi^2 - 4.$$"
+  },
+  {
+   "ref": "Q15(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n = \\displaystyle\\int_0^1 x^n e^x\\,dx$ for integers $n \\ge 0$.\n\nShow that $I_n = e - nI_{n-1}$ for $n \\ge 1$.",
+   "answer": "Integrating by parts with $u = x^n$, $dv = e^x\\,dx$:\n$$I_n = \\Big[x^n e^x\\Big]_0^1 - \\int_0^1 n x^{n-1}e^x\\,dx = (e - 0) - nI_{n-1} = e - nI_{n-1}.$$"
+  },
+  {
+   "ref": "Q15(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n = \\displaystyle\\int_0^1 x^n e^x\\,dx$ for integers $n \\ge 0$.\n\nIt is given that $I_n = e - nI_{n-1}$ for $n \\ge 1$. Calculate $I_3$.",
+   "answer": "$I_0 = \\displaystyle\\int_0^1 e^x\\,dx = e - 1$.\n\n$I_1 = e - I_0 = e - (e - 1) = 1$.\n\n$I_2 = e - 2I_1 = e - 2$.\n\n$I_3 = e - 3I_2 = e - 3(e - 2) = 6 - 2e$."
+  },
+  {
+   "ref": "Q15(e)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.15"
+   ],
+   "question": "Sketch the graph of $y = \\dfrac{\\cos x}{1 + \\cos x}$ for $-\\pi < x < \\pi$.\n\nState the coordinates of its intersections with the $x$-axis and of the turning point.",
+   "answer": "The function is even (symmetric about the $y$-axis). Write $y = 1 - \\dfrac{1}{1 + \\cos x}$, so\n$$y' = -\\frac{\\sin x}{(1 + \\cos x)^2},$$\nwhich is zero only at $x = 0$ in $(-\\pi, \\pi)$; $y' > 0$ for $x < 0$ and $y' < 0$ for $x > 0$, so $\\left(0, \\tfrac12\\right)$ is a maximum turning point.\n\n$x$-intercepts: $\\cos x = 0$, so $\\left(-\\dfrac{\\pi}{2}, 0\\right)$ and $\\left(\\dfrac{\\pi}{2}, 0\\right)$.\n\nAs $x \\to \\pm\\pi$, $1 + \\cos x \\to 0^+$ and $\\cos x \\to -1$, so $y \\to -\\infty$: vertical asymptotes $x = \\pm\\pi$.",
+   "answer_images": [
+    "assets/img/ext2-2026-hurlstone/q15e-ans.png"
+   ]
+  },
+  {
+   "ref": "Q15(e)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.5",
+    "12.4.1.15"
+   ],
+   "question": "The curve $y = \\dfrac{\\cos x}{1 + \\cos x}$, $-\\pi < x < \\pi$, is above the $x$-axis for $-\\dfrac{\\pi}{2} < x < \\dfrac{\\pi}{2}$ and crosses it at $x = \\pm\\dfrac{\\pi}{2}$.\n\nFind the area of the region bounded by the curve and the $x$-axis.",
+   "answer": "By symmetry,\n$$A = 2\\int_0^{\\pi/2}\\frac{\\cos x}{1 + \\cos x}\\,dx = 2\\int_0^{\\pi/2}\\left(1 - \\frac{1}{1 + \\cos x}\\right)dx = \\pi - 2\\int_0^{\\pi/2}\\frac{dx}{1 + \\cos x}.$$\nLet $t = \\tan\\dfrac{x}{2}$: $dx = \\dfrac{2\\,dt}{1 + t^2}$, $\\cos x = \\dfrac{1 - t^2}{1 + t^2}$, so $1 + \\cos x = \\dfrac{2}{1 + t^2}$; $x = 0 \\to t = 0$, $x = \\frac{\\pi}{2} \\to t = 1$.\n$$\\int_0^{\\pi/2}\\frac{dx}{1 + \\cos x} = \\int_0^1 \\frac{1 + t^2}{2}\\cdot\\frac{2\\,dt}{1 + t^2} = \\int_0^1 dt = 1.$$\nHence $A = \\pi - 2$ square units."
+  },
+  {
+   "ref": "Q16(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.5",
+    "12.5.2.3"
+   ],
+   "question": "A particle is moving in simple harmonic motion described by $x = 5\\cos(2t) - 6$, where $x$ is measured in metres and $t$ in seconds.\n\nExpress the acceleration as a function of $x$.",
+   "answer": "$\\dot x = -10\\sin 2t$, $\\ddot x = -20\\cos 2t = -4(5\\cos 2t) = -4(x + 6)$."
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "course": "advanced",
+   "dotpoints": [
+    "12.5.3.10"
+   ],
+   "question": "The graph shows the velocity $\\dfrac{dx}{dt}$ of a particle as a function of time $t$. Initially, the particle is at the origin. The velocity is $-2$ for $0 \\le t \\le 1$, increases to $0$ at $t = 2$ and to $2$ at $t = 3$, is $2$ for $3 \\le t \\le 5$, then decreases to $0$ at $t = 6$ and is negative after that. The curve is symmetric about the point $(2, 0)$ for $0 \\le t \\le 4$.\n\nAt what time is the displacement of the particle at a maximum?",
+   "answer": "The displacement is a maximum when the velocity changes from positive to negative, i.e. at $t = 6$.",
+   "images": [
+    "assets/img/ext2-2026-hurlstone/q16b.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "course": "advanced",
+   "dotpoints": [
+    "12.5.3.10"
+   ],
+   "question": "The graph shows the velocity $\\dfrac{dx}{dt}$ of a particle as a function of time $t$. Initially, the particle is at the origin. The velocity is $-2$ for $0 \\le t \\le 1$, increases to $0$ at $t = 2$ and to $2$ at $t = 3$, is $2$ for $3 \\le t \\le 5$, then decreases to $0$ at $t = 6$ and is negative after that. The curve is symmetric about the point $(2, 0)$ for $0 \\le t \\le 4$.\n\nWhat is the displacement when $t = 4$?",
+   "answer": "Displacement $= \\displaystyle\\int_0^4 \\frac{dx}{dt}\\,dt$. By the symmetry of the graph about $(2, 0)$, the (negative) area from $t = 0$ to $t = 2$ equals in size the (positive) area from $t = 2$ to $t = 4$, so the displacement at $t = 4$ is $0$.",
+   "images": [
+    "assets/img/ext2-2026-hurlstone/q16b.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "course": "advanced",
+   "dotpoints": [
+    "12.5.3.10"
+   ],
+   "question": "The graph shows the velocity $\\dfrac{dx}{dt}$ of a particle as a function of time $t$. Initially, the particle is at the origin. The velocity is $-2$ for $0 \\le t \\le 1$, increases to $0$ at $t = 2$ and to $2$ at $t = 3$, is $2$ for $3 \\le t \\le 5$, then decreases to $0$ at $t = 6$ and is negative after that. The curve is symmetric about the point $(2, 0)$ for $0 \\le t \\le 4$.\n\nWhen does the particle have zero acceleration?",
+   "answer": "Acceleration is the gradient of the velocity–time graph, which is zero where the graph is horizontal: $0 < t < 1$ and $3 < t < 5$.",
+   "images": [
+    "assets/img/ext2-2026-hurlstone/q16b.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)(iv)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "course": "advanced",
+   "dotpoints": [
+    "12.5.3.10"
+   ],
+   "question": "The graph shows the velocity $\\dfrac{dx}{dt}$ of a particle as a function of time $t$. Initially, the particle is at the origin. The velocity is $-2$ for $0 \\le t \\le 1$, increases to $0$ at $t = 2$ and to $2$ at $t = 3$, is $2$ for $3 \\le t \\le 5$, then decreases to $0$ at $t = 6$ and is negative after that. The curve is symmetric about the point $(2, 0)$ for $0 \\le t \\le 4$.\n\nAt what time is the acceleration at a maximum?",
+   "answer": "The acceleration is greatest where the velocity graph is increasing most steeply, at the point of inflection $t = 2$.",
+   "images": [
+    "assets/img/ext2-2026-hurlstone/q16b.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)(v)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "course": "advanced",
+   "dotpoints": [
+    "12.4.8.11",
+    "12.5.3.10"
+   ],
+   "question": "The graph shows the velocity $\\dfrac{dx}{dt}$ of a particle as a function of time $t$. Initially, the particle is at the origin. The velocity is $-2$ for $0 \\le t \\le 1$, increases to $0$ at $t = 2$ and to $2$ at $t = 3$, is $2$ for $3 \\le t \\le 5$, then decreases to $0$ at $t = 6$ and is negative after that. The curve is symmetric about the point $(2, 0)$ for $0 \\le t \\le 4$.\n\nUse the trapezoidal rule to estimate the displacement when $t = 6$.",
+   "answer": "From the symmetry, the displacement at $t = 4$ is $0$, so we only need $\\displaystyle\\int_4^6 v\\,dt$. With $h = 1$ and $v(4) = 2$, $v(5) = 2$, $v(6) = 0$:\n$$\\int_4^6 v\\,dt \\approx \\frac{1}{2}\\big(2 + 2(2) + 0\\big) = 3.$$\nSo the displacement at $t = 6$ is approximately $3$ units.",
+   "images": [
+    "assets/img/ext2-2026-hurlstone/q16b.png"
+   ]
+  },
+  {
+   "ref": "Q16(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.4",
+    "12.5.3.1"
+   ],
+   "question": "A body of mass $4$ kg is acted upon by a force $F = 48(5 - t)$ newtons for $5$ seconds.\n\nIf the body starts from rest at $x = 0$, what is its velocity after $5$ seconds?",
+   "answer": "$F = ma$ gives $\\dfrac{dv}{dt} = \\dfrac{48(5 - t)}{4} = 12(5 - t)$. Then\n$$v = \\int_0^5 12(5 - t)\\,dt = 12\\left[5t - \\frac{t^2}{2}\\right]_0^5 = 12\\left(25 - \\frac{25}{2}\\right) = 150\\ \\text{m s}^{-1}.$$"
+  },
+  {
+   "ref": "Q16(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.10"
+   ],
+   "question": "A particle is moving in simple harmonic motion along the $x$-axis. Its velocity $v$ at position $x$ is given by $v^2 = 24 - 8x - 2x^2$.\n\nFind all values of $x$ for which the particle is at rest.",
+   "answer": "$v^2 = 0$: $2(12 - 4x - x^2) = 2(6 + x)(2 - x) = 0$, so $x = -6$ or $x = 2$."
+  },
+  {
+   "ref": "Q16(d)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.1.1",
+    "12.5.2.5"
+   ],
+   "question": "A particle is moving in simple harmonic motion along the $x$-axis. Its velocity $v$ at position $x$ is given by $v^2 = 24 - 8x - 2x^2$.\n\nFind an expression for the acceleration of the particle in terms of $x$.",
+   "answer": "$$\\ddot x = \\frac{d}{dx}\\left(\\frac12 v^2\\right) = \\frac{d}{dx}\\left(12 - 4x - x^2\\right) = -4 - 2x.$$"
+  },
+  {
+   "ref": "Q16(d)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.10",
+    "12.5.2.4"
+   ],
+   "question": "A particle is moving in simple harmonic motion along the $x$-axis. Its velocity $v$ at position $x$ is given by $v^2 = 24 - 8x - 2x^2$.\n\nFind the maximum speed of the particle.",
+   "answer": "The maximum speed occurs at the centre of motion, where $\\ddot x = -4 - 2x = 0$, i.e. $x = -2$ (the midpoint of the extremes $-6$ and $2$).\n$$v^2 = 24 - 8(-2) - 2(-2)^2 = 24 + 16 - 8 = 32,$$\nso the maximum speed is $\\sqrt{32} = 4\\sqrt2$ units per second."
+  },
+  {
+   "ref": "Q16(e)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.2",
+    "12.5.1.5"
+   ],
+   "question": "An object with mass $m$ kilograms slides down a smooth inclined plane with velocity $\\mathbf{v}(t)$, where $t$ is the time in seconds after the object started sliding down the plane. The inclined plane makes an angle $\\theta$ with the horizontal, as shown in the diagram. The normal reaction force is $\\mathbf{R}$. The acceleration due to gravity is $\\mathbf{g}$, with magnitude $g$. No other forces act on the object. The vectors $\\mathbf{i}$ and $\\mathbf{j}$ are unit vectors parallel (pointing up the plane) and perpendicular, respectively, to the plane, as shown in the diagram.\n\nShow that the resultant force on the object is $\\mathbf{F} = (-mg\\sin\\theta)\\,\\mathbf{i}$.",
+   "answer": "Resolve the forces into components along $\\mathbf{i}$ (up the plane) and $\\mathbf{j}$ (perpendicular to the plane).\n\nWeight: $m\\mathbf{g} = -mg\\sin\\theta\\,\\mathbf{i} - mg\\cos\\theta\\,\\mathbf{j}$.\n\nNormal reaction: $\\mathbf{R} = R\\,\\mathbf{j}$.\n\nThe object stays on the plane, so there is no acceleration in the $\\mathbf{j}$ direction: $R - mg\\cos\\theta = 0$, i.e. $R = mg\\cos\\theta$.\n\nTherefore\n$$\\mathbf{F} = m\\mathbf{g} + \\mathbf{R} = -mg\\sin\\theta\\,\\mathbf{i} + (mg\\cos\\theta - mg\\cos\\theta)\\,\\mathbf{j} = (-mg\\sin\\theta)\\,\\mathbf{i}.$$",
+   "images": [
+    "assets/img/ext2-2026-hurlstone/q16e.png"
+   ],
+   "answer_images": [
+    "assets/img/ext2-2026-hurlstone/q16e-ans.png"
+   ]
+  },
+  {
+   "ref": "Q16(e)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.2"
+   ],
+   "question": "An object with mass $m$ kilograms slides down a smooth inclined plane with velocity $\\mathbf{v}(t)$, where $t$ is the time in seconds after the object started sliding down the plane. The inclined plane makes an angle $\\theta$ with the horizontal, as shown in the diagram. The normal reaction force is $\\mathbf{R}$. The acceleration due to gravity is $\\mathbf{g}$, with magnitude $g$. No other forces act on the object. The vectors $\\mathbf{i}$ and $\\mathbf{j}$ are unit vectors parallel (pointing up the plane) and perpendicular, respectively, to the plane, as shown in the diagram.\n\nThe resultant force on the object is $\\mathbf{F} = (-mg\\sin\\theta)\\,\\mathbf{i}$. Given that the object is initially at rest, find its velocity $\\mathbf{v}(t)$ in terms of $g$, $\\theta$, $t$ and $\\mathbf{i}$.",
+   "answer": "By $\\mathbf{F} = m\\mathbf{a}$: $\\dfrac{d\\mathbf{v}}{dt} = -g\\sin\\theta\\,\\mathbf{i}$. Integrating with $\\mathbf{v}(0) = \\mathbf{0}$:\n$$\\mathbf{v}(t) = -gt\\sin\\theta\\,\\mathbf{i}.$$",
+   "images": [
+    "assets/img/ext2-2026-hurlstone/q16e.png"
+   ]
+  }
+ ]
+}

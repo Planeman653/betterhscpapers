@@ -1,0 +1,530 @@
+{
+ "id": "ext1-2026-gosford",
+ "course": "extension1",
+ "school": "Gosford",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "Gosford 2026 w. sol"
+ },
+ "indexed": "2026-11-12",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q6",
+   "reason": "Not in 2024 syllabus: pigeonhole principle"
+  },
+  {
+   "ref": "Q12(a)",
+   "reason": "Not in 2024 syllabus: graphing y = √f(x) (with y² = f(x), removed from Extension 1); also needs the printed answer-booklet graph"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.6"
+   ],
+   "question": "Given the vectors $\\mathbf{a} = 2\\mathbf{i} + 5\\mathbf{j}$ and $\\mathbf{b} = -3\\mathbf{i} + \\mathbf{j}$, what is the vector $\\mathbf{a} - \\mathbf{b}$?",
+   "options": [
+    "$-5\\mathbf{i} - 4\\mathbf{j}$",
+    "$-\\mathbf{i} + 6\\mathbf{j}$",
+    "$5\\mathbf{i} + 4\\mathbf{j}$",
+    "$5\\mathbf{i} + 6\\mathbf{j}$"
+   ],
+   "correct": "C",
+   "answer": "$\\mathbf{a} - \\mathbf{b} = 2\\mathbf{i} + 5\\mathbf{j} - (-3\\mathbf{i} + \\mathbf{j}) = 5\\mathbf{i} + 4\\mathbf{j}$."
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.4.10"
+   ],
+   "question": "What is the solution to the inequality $2x^2 - x - 6 > 0$?",
+   "options": [
+    "$-\\frac{3}{2} < x < 2$",
+    "$x < -\\frac{3}{2}$ or $x > 2$",
+    "$x = -\\frac{3}{2}$ or $x = 2$",
+    "$-2 < x < \\frac{3}{2}$"
+   ],
+   "correct": "B",
+   "answer": "$(2x+3)(x-2) > 0$. The parabola is concave up with roots $-\\frac{3}{2}$ and $2$, so it is positive outside the roots: $x < -\\frac{3}{2}$ or $x > 2$.",
+   "course": "advanced"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.2"
+   ],
+   "question": "The expression $\\sqrt{3}\\cos x - \\sin x$ can be written in the form $R\\cos(x + \\alpha)$, where $R > 0$ and $0 < \\alpha < \\frac{\\pi}{2}$. What are the values of $R$ and $\\alpha$?",
+   "options": [
+    "$R = 2,\\ \\alpha = \\frac{11\\pi}{6}$",
+    "$R = 2,\\ \\alpha = \\frac{\\pi}{6}$",
+    "$R = 4,\\ \\alpha = \\frac{\\pi}{6}$",
+    "$R = 2,\\ \\alpha = \\frac{\\pi}{3}$"
+   ],
+   "correct": "B",
+   "answer": "$R\\cos(x+\\alpha) = R\\cos x\\cos\\alpha - R\\sin x\\sin\\alpha$, so $R\\cos\\alpha = \\sqrt{3}$, $R\\sin\\alpha = 1$. Then $R = \\sqrt{3 + 1} = 2$ and $\\tan\\alpha = \\frac{1}{\\sqrt{3}}$, so $\\alpha = \\frac{\\pi}{6}$."
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.2.5"
+   ],
+   "question": "When the polynomial $P(x) = x^3 + ax^2 - 5x + 6$ is divided by $(x - 2)$, the remainder is $12$. What is the value of $a$?",
+   "options": [
+    "$2$",
+    "$-2$",
+    "$3$",
+    "$4$"
+   ],
+   "correct": "A",
+   "answer": "By the remainder theorem $P(2) = 12$: $8 + 4a - 10 + 6 = 12$, so $4a = 8$ and $a = 2$."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.9"
+   ],
+   "question": "Consider the direction field below.\n\nThe direction field best represents the differential equation:",
+   "options": [
+    "$\\dfrac{dy}{dx} = \\dfrac{x}{y} - 4x$",
+    "$\\dfrac{dy}{dx} = y(y - 4)$",
+    "$\\dfrac{dy}{dx} = \\dfrac{x}{y - 4}$",
+    "$\\dfrac{dy}{dx} = xy - 4x$"
+   ],
+   "correct": "D",
+   "answer": "The slopes are zero along the $y$-axis ($x = 0$), which rules out B, and also along the horizontal line $y = 4$, so $y = 4$ is a constant solution. A has zero slope on $y = \\frac{1}{4}$ (not $y = 4$), and C has vertical slopes on $y = 4$, so both are ruled out. $\\dfrac{dy}{dx} = xy - 4x = x(y-4)$ has both features, and e.g. for $x>0,\\ y>4$ the slope is positive, as shown.",
+   "images": [
+    "assets/img/ext1-2026-gosford/q5.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.7"
+   ],
+   "question": "A projectile is fired from the origin with an initial velocity of $20\\ \\text{m/s}$ at an angle of $30^\\circ$ to the horizontal. Take the acceleration due to gravity as $g = 10\\ \\text{m/s}^2$.\n\nWhat is the maximum height reached by the projectile?",
+   "options": [
+    "$15$ m",
+    "$5$ m",
+    "$20$ m",
+    "$10$ m"
+   ],
+   "correct": "B",
+   "answer": "Vertically: $\\ddot{y} = -10$, $\\dot{y} = -10t + 20\\sin 30^\\circ = -10t + 10$, $y = -5t^2 + 10t$. The maximum height occurs when $\\dot{y} = 0$, i.e. $t = 1$, giving $y = -5 + 10 = 5$ m."
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.4.3",
+    "12.2.4.7"
+   ],
+   "question": "In the triangle $OAB$, the position vectors of $A$ and $B$ relative to $O$ are $\\mathbf{a}$ and $\\mathbf{b}$ respectively, where\n\n$$|\\mathbf{a}| = 5,\\qquad |\\mathbf{b}| = 7\\qquad\\text{and}\\qquad \\mathbf{a}\\cdot\\mathbf{b} = 17.$$\n\nThe point $P$ lies on the line $AB$ such that $OP$ is perpendicular to $AB$. What is the length of $OP$?",
+   "options": [
+    "$\\dfrac{3\\sqrt{10}}{5}$",
+    "$\\dfrac{3\\sqrt{26}}{5}$",
+    "$\\dfrac{3\\sqrt{65}}{5}$",
+    "$\\dfrac{6\\sqrt{65}}{5}$"
+   ],
+   "correct": "C",
+   "answer": "Let $\\theta = \\angle AOB$: $\\cos\\theta = \\frac{17}{5 \\times 7} = \\frac{17}{35}$, so $\\sin\\theta = \\frac{\\sqrt{35^2 - 17^2}}{35} = \\frac{6\\sqrt{26}}{35}$.\n\n$|\\overrightarrow{AB}|^2 = |\\mathbf{b} - \\mathbf{a}|^2 = 49 + 25 - 2(17) = 40$, so $AB = 2\\sqrt{10}$.\n\nTwice the area of the triangle: $OP \\cdot AB = |\\mathbf{a}||\\mathbf{b}|\\sin\\theta = 35 \\times \\frac{6\\sqrt{26}}{35} = 6\\sqrt{26}$, so $OP = \\frac{6\\sqrt{26}}{2\\sqrt{10}} = 3\\sqrt{\\frac{13}{5}} = \\frac{3\\sqrt{65}}{5}$."
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "What is the value of the integral $\\displaystyle\\int_0^3 \\frac{1}{\\sqrt{36 - 4x^2}}\\,dx$?",
+   "options": [
+    "$\\frac{\\pi}{4}$",
+    "$\\frac{\\pi}{6}$",
+    "$\\frac{\\pi}{12}$",
+    "$\\frac{\\pi}{2}$"
+   ],
+   "correct": "A",
+   "answer": "$\\displaystyle\\int_0^3 \\frac{dx}{2\\sqrt{9 - x^2}} = \\frac{1}{2}\\Big[\\sin^{-1}\\frac{x}{3}\\Big]_0^3 = \\frac{1}{2}\\left(\\sin^{-1}1 - \\sin^{-1}0\\right) = \\frac{1}{2}\\cdot\\frac{\\pi}{2} = \\frac{\\pi}{4}$."
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.2.12",
+    "11.1.2.11"
+   ],
+   "question": "The function $f$ is defined by\n\n$$f(x) = \\frac{2x - 3}{x + 2},\\qquad x \\neq -2.$$\n\nThe inverse function $f^{-1}$ exists on its natural domain. Which of the following is equal to $f^{-1}\\big(f(x + 1)\\big)$ for all values of $x$ for which the expression is defined?",
+   "options": [
+    "$x + 1$",
+    "$x + 1,\\quad x \\neq -3,\\ x \\neq 2$",
+    "$x + 1,\\quad x \\neq -3$",
+    "$x,\\quad x \\neq -3$"
+   ],
+   "correct": "C",
+   "answer": "$f(x+1) = \\frac{2(x+1) - 3}{x + 3} = \\frac{2x - 1}{x + 3}$, which requires $x \\neq -3$. Since $f$ is one-to-one, $f^{-1}(f(u)) = u$ for every $u$ in the domain of $f$, so $f^{-1}(f(x+1)) = x + 1$ (and $f(x+1)$ never equals $2$, the value excluded from the domain of $f^{-1}(x) = \\frac{2x+3}{2-x}$, so no further restriction).\n\nDirectly: $f^{-1}\\!\\left(\\frac{2x-1}{x+3}\\right) = \\frac{2(2x-1) + 3(x+3)}{2(x+3) - (2x-1)} = \\frac{7x + 7}{7} = x + 1$, $x \\neq -3$."
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.10",
+    "12.2.4.9"
+   ],
+   "question": "Given the vectors $\\mathbf{u} = 2\\mathbf{i} - 3\\mathbf{j}$ and $\\mathbf{v} = -\\mathbf{i} + 5\\mathbf{j}$, calculate the vector $\\text{proj}_{\\mathbf{u}}\\mathbf{v}$.",
+   "answer": "$$\\text{proj}_{\\mathbf{u}}\\mathbf{v} = \\frac{\\mathbf{u}\\cdot\\mathbf{v}}{|\\mathbf{u}|^2}\\,\\mathbf{u} = \\frac{(2)(-1) + (-3)(5)}{2^2 + (-3)^2}\\begin{pmatrix} 2 \\\\ -3 \\end{pmatrix} = \\frac{-17}{13}\\begin{pmatrix} 2 \\\\ -3 \\end{pmatrix}$$\n\n$$= -\\frac{34}{13}\\mathbf{i} + \\frac{51}{13}\\mathbf{j}$$"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Solve $\\dfrac{2x - 1}{x + 3} \\geq 1$.",
+   "answer": "$x \\neq -3$. Multiply both sides by $(x+3)^2 > 0$:\n\n$$(2x - 1)(x + 3) \\geq (x + 3)^2$$\n$$(x + 3)\\big[(2x - 1) - (x + 3)\\big] \\geq 0$$\n$$(x + 3)(x - 4) \\geq 0$$\n\nThis concave-up parabola is non-negative outside its roots, so $x \\leq -3$ or $x \\geq 4$. Since $x \\neq -3$:\n\n$$x < -3 \\quad\\text{or}\\quad x \\geq 4.$$"
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.12",
+    "12.3.2.1"
+   ],
+   "question": "Sketch the graph $y = 3\\sin^{-1}(x)$, labelling all key points.",
+   "answer": "$y = \\sin^{-1}x$ has domain $-1 \\leq x \\leq 1$ and range $-\\frac{\\pi}{2} \\leq y \\leq \\frac{\\pi}{2}$. Dilating vertically by a factor of $3$ gives domain $-1 \\leq x \\leq 1$ and range $-\\frac{3\\pi}{2} \\leq y \\leq \\frac{3\\pi}{2}$.\n\nThe graph is an increasing curve through the origin with endpoints $\\left(-1, -\\frac{3\\pi}{2}\\right)$ and $\\left(1, \\frac{3\\pi}{2}\\right)$ (vertical tangents at the endpoints).",
+   "answer_images": [
+    "assets/img/ext1-2026-gosford/q11c-ans.png"
+   ]
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Evaluate the definite integral $\\displaystyle\\int_0^4 \\frac{x}{\\sqrt{1 + 2x}}\\,dx$ using the substitution $u = 1 + 2x$.",
+   "answer": "$u = 1 + 2x$, so $du = 2\\,dx$, i.e. $dx = \\frac{1}{2}du$, and $x = \\frac{1}{2}(u - 1)$. When $x = 0$, $u = 1$; when $x = 4$, $u = 9$.\n\n$$\\int_0^4 \\frac{x}{\\sqrt{1+2x}}\\,dx = \\int_1^9 \\frac{\\frac{1}{2}(u-1)}{\\sqrt{u}}\\cdot\\frac{1}{2}\\,du = \\frac{1}{4}\\int_1^9 \\left(u^{\\frac{1}{2}} - u^{-\\frac{1}{2}}\\right)du$$\n\n$$= \\frac{1}{4}\\left[\\frac{2}{3}u^{\\frac{3}{2}} - 2u^{\\frac{1}{2}}\\right]_1^9 = \\frac{1}{4}\\left[(18 - 6) - \\left(\\frac{2}{3} - 2\\right)\\right] = \\frac{1}{4}\\left(12 + \\frac{4}{3}\\right) = \\frac{10}{3}$$"
+  },
+  {
+   "ref": "Q11(e)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.9"
+   ],
+   "question": "The points $A(1, -2)$, $B(5, 1)$ and $C(k, 2)$ form a triangle.\n\nExpress $\\overrightarrow{AB}$ and $\\overrightarrow{AC}$ in component form.",
+   "answer": "$$\\overrightarrow{AB} = (5 - 1)\\mathbf{i} + (1 + 2)\\mathbf{j} = 4\\mathbf{i} + 3\\mathbf{j}$$\n$$\\overrightarrow{AC} = (k - 1)\\mathbf{i} + 4\\mathbf{j}$$"
+  },
+  {
+   "ref": "Q11(e)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.7"
+   ],
+   "question": "The points $A(1, -2)$, $B(5, 1)$ and $C(k, 2)$ form a triangle, with $\\overrightarrow{AB} = 4\\mathbf{i} + 3\\mathbf{j}$ and $\\overrightarrow{AC} = (k-1)\\mathbf{i} + 4\\mathbf{j}$.\n\nGiven $\\angle BAC = 90^\\circ$, find the value of $k$.",
+   "answer": "Since $AB \\perp AC$, $\\overrightarrow{AB}\\cdot\\overrightarrow{AC} = 0$:\n\n$$4(k - 1) + 3 \\times 4 = 0 \\;\\Rightarrow\\; 4k + 8 = 0 \\;\\Rightarrow\\; k = -2.$$"
+  },
+  {
+   "ref": "Q11(e)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.7"
+   ],
+   "question": "The points $A(1, -2)$, $B(5, 1)$ and $C(-2, 2)$ form a triangle with $\\angle BAC = 90^\\circ$, where $\\overrightarrow{AB} = 4\\mathbf{i} + 3\\mathbf{j}$ and $\\overrightarrow{AC} = -3\\mathbf{i} + 4\\mathbf{j}$.\n\nFind the area of $\\triangle ABC$.",
+   "answer": "Since the angle at $A$ is a right angle,\n\n$$\\text{Area} = \\frac{1}{2}|\\overrightarrow{AB}||\\overrightarrow{AC}| = \\frac{1}{2}\\sqrt{4^2 + 3^2}\\sqrt{(-3)^2 + 4^2} = \\frac{1}{2}\\times 5 \\times 5 = 12.5\\ \\text{units}^2.$$"
+  },
+  {
+   "ref": "Q11(f)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "Use mathematical induction to prove that $5^{2n} - 1$ is divisible by $24$ for all positive integers $n$.",
+   "answer": "**Base case** $n = 1$: $5^2 - 1 = 24$, which is divisible by $24$. True for $n = 1$.\n\n**Inductive step.** Assume true for $n = k$ ($k$ a positive integer): $5^{2k} - 1 = 24M$ for some integer $M$, i.e. $5^{2k} = 24M + 1$.\n\nRequired to prove for $n = k + 1$: $5^{2(k+1)} - 1 = 24P$ for some integer $P$.\n\n$$5^{2k+2} - 1 = 25 \\times 5^{2k} - 1 = 25(24M + 1) - 1 = 25 \\times 24M + 24 = 24(25M + 1)$$\n\nwhich is divisible by $24$ since $25M + 1$ is an integer. So if true for $n = k$, it is true for $n = k + 1$.\n\nSince it is true for $n = 1$, by mathematical induction it is true for all positive integers $n$."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.2.12"
+   ],
+   "question": "The function $f(x) = x^2 + 1$ has domain $x \\geq 0$. Find $f^{-1}(10)$.",
+   "answer": "$f^{-1}(10)$ is the value of $x \\geq 0$ with $f(x) = 10$:\n\n$$x^2 + 1 = 10 \\;\\Rightarrow\\; x^2 = 9 \\;\\Rightarrow\\; x = 3 \\ (\\text{since } x \\geq 0).$$\n\nSo $f^{-1}(10) = 3$."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "In the expansion of $(1 + 2x)^n$, where $n$ is a positive integer, the coefficient of $x^3$ is eight times the coefficient of $x^2$. Find the value of $n$.",
+   "answer": "The general term is $\\binom{n}{r}(2x)^r$, so the coefficient of $x^2$ is $\\binom{n}{2}2^2$ and of $x^3$ is $\\binom{n}{3}2^3$.\n\n$$\\binom{n}{3}\\times 8 = 8 \\times \\binom{n}{2} \\times 4$$\n$$\\frac{n(n-1)(n-2)}{6} = 4\\cdot\\frac{n(n-1)}{2}$$\n$$\\frac{n-2}{6} = 2 \\quad (n \\geq 3)$$\n$$n = 14$$"
+  },
+  {
+   "ref": "Q12(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.2"
+   ],
+   "question": "Prove that $\\cos 5x - \\cos x = -2\\sin 2x \\sin 3x$.",
+   "answer": "Write $5x = 3x + 2x$ and $x = 3x - 2x$ and use the sum and difference expansions:\n\n$$\\cos 5x = \\cos 3x\\cos 2x - \\sin 3x\\sin 2x$$\n$$\\cos x = \\cos 3x\\cos 2x + \\sin 3x\\sin 2x$$\n\nSubtracting:\n\n$$\\cos 5x - \\cos x = -2\\sin 3x\\sin 2x = -2\\sin 2x\\sin 3x.$$"
+  },
+  {
+   "ref": "Q12(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.1",
+    "11.3.2.2"
+   ],
+   "question": "Given that $\\cos 5x - \\cos x = -2\\sin 2x\\sin 3x$, solve $\\cos 5x - \\cos x = \\sin 3x$ for $0 \\leq x \\leq \\pi$. Give all solutions in exact form.",
+   "answer": "$$-2\\sin 2x\\sin 3x = \\sin 3x$$\n$$\\sin 3x\\,(1 + 2\\sin 2x) = 0$$\n\nSo $\\sin 3x = 0$ or $\\sin 2x = -\\frac{1}{2}$, where $0 \\leq 3x \\leq 3\\pi$ and $0 \\leq 2x \\leq 2\\pi$.\n\n- $\\sin 3x = 0$: $3x = 0, \\pi, 2\\pi, 3\\pi$, so $x = 0, \\frac{\\pi}{3}, \\frac{2\\pi}{3}, \\pi$.\n- $\\sin 2x = -\\frac{1}{2}$: $2x = \\frac{7\\pi}{6}, \\frac{11\\pi}{6}$, so $x = \\frac{7\\pi}{12}, \\frac{11\\pi}{12}$.\n\n$$x = 0,\\ \\frac{\\pi}{3},\\ \\frac{7\\pi}{12},\\ \\frac{2\\pi}{3},\\ \\frac{11\\pi}{12},\\ \\pi$$"
+  },
+  {
+   "ref": "Q12(e)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "Let $\\alpha$, $\\beta$ and $\\gamma$ be the roots of the equation $x^3 - 4x^2 + 2x + 3 = 0$.\n\nFind the exact value of $\\alpha^2 + \\beta^2 + \\gamma^2$.",
+   "answer": "$\\alpha + \\beta + \\gamma = 4$ and $\\alpha\\beta + \\beta\\gamma + \\gamma\\alpha = 2$.\n\n$$\\alpha^2 + \\beta^2 + \\gamma^2 = (\\alpha + \\beta + \\gamma)^2 - 2(\\alpha\\beta + \\beta\\gamma + \\gamma\\alpha) = 4^2 - 2(2) = 12$$"
+  },
+  {
+   "ref": "Q12(e)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "Let $\\alpha$, $\\beta$ and $\\gamma$ be the roots of the equation $x^3 - 4x^2 + 2x + 3 = 0$.\n\nFind the exact value of $\\dfrac{1}{\\alpha + \\beta} + \\dfrac{1}{\\beta + \\gamma} + \\dfrac{1}{\\gamma + \\alpha}$.",
+   "answer": "$\\alpha + \\beta + \\gamma = 4$, $\\alpha\\beta + \\beta\\gamma + \\gamma\\alpha = 2$, $\\alpha\\beta\\gamma = -3$.\n\nSince $\\alpha + \\beta = 4 - \\gamma$ etc.,\n\n$$\\frac{1}{\\alpha+\\beta} + \\frac{1}{\\beta+\\gamma} + \\frac{1}{\\gamma+\\alpha} = \\frac{1}{4-\\gamma} + \\frac{1}{4-\\alpha} + \\frac{1}{4-\\beta} = \\frac{(4-\\alpha)(4-\\beta) + (4-\\beta)(4-\\gamma) + (4-\\gamma)(4-\\alpha)}{(4-\\alpha)(4-\\beta)(4-\\gamma)}$$\n\nNumerator: $48 - 8(\\alpha+\\beta+\\gamma) + (\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha) = 48 - 32 + 2 = 18$.\n\nDenominator: $64 - 16(\\alpha+\\beta+\\gamma) + 4(\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha) - \\alpha\\beta\\gamma = 64 - 64 + 8 + 3 = 11$.\n\n$$\\text{Sum} = \\frac{18}{11}$$"
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.2",
+    "11.3.2.4"
+   ],
+   "question": "Prove $\\dfrac{\\sin 3x}{\\sin x} - \\dfrac{\\cos 3x}{\\cos x} = 2$.",
+   "answer": "$$\\text{LHS} = \\frac{\\sin 3x\\cos x - \\cos 3x\\sin x}{\\sin x\\cos x} = \\frac{\\sin(3x - x)}{\\frac{1}{2}\\sin 2x} = \\frac{\\sin 2x}{\\frac{1}{2}\\sin 2x} = 2 = \\text{RHS}$$"
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.11"
+   ],
+   "question": "Eight people, including Chris, Josh and Dean, are seated around a circular table. Chris must sit directly opposite Josh. Dean must not sit next to Josh.\n\nHow many different seating arrangements are possible?",
+   "answer": "Seat Josh first (this fixes the rotation). Chris must take the seat directly opposite: $1$ way.\n\nOf the remaining $6$ seats, $2$ are next to Josh, so Dean has $4$ choices.\n\nThe other $5$ people fill the remaining $5$ seats in $5!$ ways.\n\n$$\\text{Total} = 1 \\times 4 \\times 5! = 480$$"
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.3.3"
+   ],
+   "question": "A curve is defined parametrically by\n\n$$x = 4\\sin\\theta \\quad\\text{and}\\quad y = 3 + 4\\cos\\theta.$$\n\nShow that the Cartesian equation of the curve is $x^2 + (y - 3)^2 = 16$.",
+   "answer": "$\\sin\\theta = \\dfrac{x}{4}$ and $\\cos\\theta = \\dfrac{y - 3}{4}$. Using $\\sin^2\\theta + \\cos^2\\theta = 1$:\n\n$$\\frac{x^2}{16} + \\frac{(y-3)^2}{16} = 1 \\;\\Rightarrow\\; x^2 + (y-3)^2 = 16.$$"
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.1"
+   ],
+   "question": "A curve is defined parametrically by $x = 4\\sin\\theta$ and $y = 3 + 4\\cos\\theta$.\n\nShow that $\\dfrac{dy}{dx} = -\\tan\\theta$.",
+   "answer": "$\\dfrac{dy}{d\\theta} = -4\\sin\\theta$ and $\\dfrac{dx}{d\\theta} = 4\\cos\\theta$, so\n\n$$\\frac{dy}{dx} = \\frac{dy}{d\\theta}\\times\\frac{d\\theta}{dx} = -4\\sin\\theta \\times \\frac{1}{4\\cos\\theta} = -\\tan\\theta.$$"
+  },
+  {
+   "ref": "Q13(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.2"
+   ],
+   "question": "A curve is defined parametrically by $x = 4\\sin\\theta$ and $y = 3 + 4\\cos\\theta$, and $\\dfrac{dy}{dx} = -\\tan\\theta$.\n\nFind the equation of the tangent to the curve at the point corresponding to $\\theta = \\dfrac{\\pi}{4}$. Give your answer in general form.",
+   "answer": "At $\\theta = \\frac{\\pi}{4}$: $x = 4\\cdot\\frac{1}{\\sqrt{2}} = 2\\sqrt{2}$, $y = 3 + 4\\cdot\\frac{1}{\\sqrt{2}} = 3 + 2\\sqrt{2}$, and $m = -\\tan\\frac{\\pi}{4} = -1$.\n\n$$y - (3 + 2\\sqrt{2}) = -1\\,(x - 2\\sqrt{2})$$\n$$x + y - 3 - 4\\sqrt{2} = 0$$"
+  },
+  {
+   "ref": "Q13(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.1.12"
+   ],
+   "question": "Consider the two functions $f(x) = x^3 - 3x$ and $g(x) = x^2 - x$.\n\nShow that the curves intersect when $x = -1$, $x = 0$ and $x = 2$.",
+   "answer": "$$x^3 - 3x = x^2 - x$$\n$$x^3 - x^2 - 2x = 0$$\n$$x(x^2 - x - 2) = 0$$\n$$x(x - 2)(x + 1) = 0$$\n\nSo the curves intersect when $x = -1, 0, 2$."
+  },
+  {
+   "ref": "Q13(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "Consider the two functions $f(x) = x^3 - 3x$ and $g(x) = x^2 - x$, whose graphs intersect when $x = -1$, $x = 0$ and $x = 2$.\n\nFind the exact total area enclosed between $f(x)$ and $g(x)$.",
+   "answer": "On $-1 \\leq x \\leq 0$, $f(x) \\geq g(x)$; on $0 \\leq x \\leq 2$, $g(x) \\geq f(x)$.\n\n$$A = \\int_{-1}^{0}\\big[(x^3 - 3x) - (x^2 - x)\\big]dx + \\int_0^2\\big[(x^2 - x) - (x^3 - 3x)\\big]dx$$\n$$= \\int_{-1}^{0}(x^3 - x^2 - 2x)\\,dx + \\int_0^2(2x + x^2 - x^3)\\,dx$$\n$$= \\left[\\frac{x^4}{4} - \\frac{x^3}{3} - x^2\\right]_{-1}^{0} + \\left[x^2 + \\frac{x^3}{3} - \\frac{x^4}{4}\\right]_0^2$$\n$$= 0 - \\left(\\frac{1}{4} + \\frac{1}{3} - 1\\right) + \\left(4 + \\frac{8}{3} - 4\\right) = \\frac{5}{12} + \\frac{8}{3} = \\frac{37}{12}\\ \\text{units}^2$$",
+   "answer_images": [
+    "assets/img/ext1-2026-gosford/q13d-ans.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "Two tanks contain a total of $48\\pi\\ \\text{m}^3$ of water.\n\nTank A is in the shape of a right cone, as shown below. When the depth of water in Tank A is $x$ m, the radius of the water surface is $\\frac{x}{2}$ m.\n\nTank B is hemispherical with a radius of $4$ m. When the depth of water in Tank B is $y$ m, the volume of water in Tank B is $V_B = \\pi y^2\\left(4 - \\dfrac{y}{3}\\right)$.\n\nWater is pumped from Tank A into Tank B at a constant rate of $8\\pi\\ \\text{m}^3\\,\\text{min}^{-1}$.\n\nFind $\\dfrac{dy}{dt}$.",
+   "answer": "$V_B = 4\\pi y^2 - \\frac{\\pi y^3}{3}$, so $\\dfrac{dV_B}{dy} = 8\\pi y - \\pi y^2 = \\pi(8y - y^2)$. Also $\\dfrac{dV_B}{dt} = 8\\pi$.\n\n$$\\frac{dy}{dt} = \\frac{dV_B}{dt}\\times\\frac{dy}{dV_B} = 8\\pi \\times \\frac{1}{\\pi(8y - y^2)} = \\frac{8}{8y - y^2}$$",
+   "images": [
+    "assets/img/ext1-2026-gosford/q14a.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.11",
+    "12.5.2.2"
+   ],
+   "question": "Two tanks contain a total of $48\\pi\\ \\text{m}^3$ of water.\n\nTank A is in the shape of a right cone, as shown below. When the depth of water in Tank A is $x$ m, the radius of the water surface is $\\frac{x}{2}$ m.\n\nTank B is hemispherical with a radius of $4$ m. When the depth of water in Tank B is $y$ m, the volume of water in Tank B is $V_B = \\pi y^2\\left(4 - \\dfrac{y}{3}\\right)$.\n\nWater is pumped from Tank A into Tank B at a constant rate of $8\\pi\\ \\text{m}^3\\,\\text{min}^{-1}$.\n\nThe depth $y$ m of water in Tank B satisfies $\\dfrac{dy}{dt} = \\dfrac{8}{8y - y^2}$. Given that Tank B starts with water at a depth of $1.5$ m, find an expression for $t$ as a function of $y$.",
+   "answer": "Separating variables:\n\n$$\\int (8y - y^2)\\,dy = \\int 8\\,dt \\;\\Rightarrow\\; 4y^2 - \\frac{y^3}{3} = 8t + C$$\n\nWhen $t = 0$, $y = 1.5$: $C = 4(1.5)^2 - \\frac{(1.5)^3}{3} = 9 - \\frac{9}{8} = \\frac{63}{8}$.\n\n$$8t = 4y^2 - \\frac{y^3}{3} - \\frac{63}{8}$$\n$$t = \\frac{y^2}{2} - \\frac{y^3}{24} - \\frac{63}{64} = \\frac{96y^2 - 8y^3 - 189}{192}$$",
+   "images": [
+    "assets/img/ext1-2026-gosford/q14a.png"
+   ]
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "A function $y$ satisfies\n\n$$\\frac{dy}{dx} = \\frac{(y - 1)(y + 3)}{2x}$$\n\nwhere $x < 0$, and $y = 3$ when $x = -1$.\n\nShow that\n\n$$\\frac{1}{(y-1)(y+3)} = \\frac{1}{4}\\left(\\frac{1}{y-1} - \\frac{1}{y+3}\\right).$$",
+   "answer": "$$\\text{RHS} = \\frac{1}{4}\\cdot\\frac{(y + 3) - (y - 1)}{(y-1)(y+3)} = \\frac{1}{4}\\cdot\\frac{4}{(y-1)(y+3)} = \\frac{1}{(y-1)(y+3)} = \\text{LHS}$$"
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "A function $y$ satisfies\n\n$$\\frac{dy}{dx} = \\frac{(y - 1)(y + 3)}{2x}$$\n\nwhere $x < 0$, and $y = 3$ when $x = -1$.\n\nUsing the result $\\dfrac{1}{(y-1)(y+3)} = \\dfrac{1}{4}\\left(\\dfrac{1}{y-1} - \\dfrac{1}{y+3}\\right)$, find $y$ as a function of $x$.",
+   "answer": "Separating variables:\n\n$$\\int\\frac{dy}{(y-1)(y+3)} = \\int\\frac{dx}{2x}$$\n$$\\frac{1}{4}\\big(\\ln|y - 1| - \\ln|y + 3|\\big) = \\frac{1}{2}\\ln|x| + C$$\n$$\\ln\\left|\\frac{y-1}{y+3}\\right| = 2\\ln|x| + C_2 = \\ln x^2 + C_2$$\n$$\\frac{y-1}{y+3} = Ax^2, \\quad A = \\pm e^{C_2}$$\n\nWhen $x = -1$, $y = 3$: $\\frac{2}{6} = A$, so $A = \\frac{1}{3}$.\n\n$$\\frac{y - 1}{y + 3} = \\frac{x^2}{3}$$\n$$3y - 3 = x^2y + 3x^2$$\n$$y(3 - x^2) = 3(x^2 + 1)$$\n$$y = \\frac{3(x^2 + 1)}{3 - x^2}$$"
+  },
+  {
+   "ref": "Q14(b)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "A function $y$ satisfies\n\n$$\\frac{dy}{dx} = \\frac{(y - 1)(y + 3)}{2x}$$\n\nwhere $x < 0$, and $y = 3$ when $x = -1$.\n\nThe solution is $y = \\dfrac{3(x^2 + 1)}{3 - x^2}$. Determine the value of $x$ for which $y = 9$.",
+   "answer": "$$9 = \\frac{3(x^2+1)}{3 - x^2} \\;\\Rightarrow\\; 27 - 9x^2 = 3x^2 + 3 \\;\\Rightarrow\\; 12x^2 = 24 \\;\\Rightarrow\\; x^2 = 2$$\n\nSince $x < 0$, $x = -\\sqrt{2}$."
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.6.5",
+    "12.2.6.8"
+   ],
+   "question": "A projectile is launched from the origin with initial speed $u\\ \\text{m s}^{-1}$ at an angle $\\theta$ above the horizontal. It must pass through the point $P(20, 15)$, where distances are measured in metres. Take $g = 10\\ \\text{m s}^{-2}$.\n\nShow that $\\tan\\theta$ must satisfy\n\n$$2000\\tan^2\\theta - 20u^2\\tan\\theta + (2000 + 15u^2) = 0.$$",
+   "answer": "Horizontally: $\\ddot{x} = 0$, $\\dot{x} = u\\cos\\theta$, $x = ut\\cos\\theta$.\n\nVertically: $\\ddot{y} = -10$, $\\dot{y} = -10t + u\\sin\\theta$, $y = -5t^2 + ut\\sin\\theta$ (using $x = y = 0$ at $t = 0$).\n\nAt $P$: $20 = ut\\cos\\theta$, so $t = \\dfrac{20}{u\\cos\\theta}$. Substituting into $y = 15$:\n\n$$15 = -5\\left(\\frac{20}{u\\cos\\theta}\\right)^2 + u\\sin\\theta\\cdot\\frac{20}{u\\cos\\theta} = -\\frac{2000}{u^2}\\sec^2\\theta + 20\\tan\\theta$$\n\nMultiply by $u^2$ and use $\\sec^2\\theta = 1 + \\tan^2\\theta$:\n\n$$15u^2 = -2000(1 + \\tan^2\\theta) + 20u^2\\tan\\theta$$\n$$2000\\tan^2\\theta - 20u^2\\tan\\theta + (2000 + 15u^2) = 0$$\n\n*(Note: the paper's working has a sign slip in the line $15u^2 + 2000\\sec^2\\theta + 20u^2\\tan\\theta = 0$; the $\\tan\\theta$ term should be $-20u^2\\tan\\theta$, as in the result to be shown.)*"
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.6.8"
+   ],
+   "question": "A projectile is launched from the origin with initial speed $u\\ \\text{m s}^{-1}$ at an angle $\\theta$ above the horizontal. It must pass through the point $P(20, 15)$, where distances are measured in metres. Take $g = 10\\ \\text{m s}^{-2}$.\n\nThe launch angle satisfies $2000\\tan^2\\theta - 20u^2\\tan\\theta + (2000 + 15u^2) = 0$. By considering the discriminant of this quadratic equation in $\\tan\\theta$, find the minimum possible value of $u$.",
+   "answer": "There must be at least one real solution for $\\tan\\theta$, so $\\Delta \\geq 0$:\n\n$$\\Delta = (20u^2)^2 - 4(2000)(2000 + 15u^2) = 400u^4 - 120\\,000u^2 - 16\\,000\\,000 = 400(u^4 - 300u^2 - 40\\,000)$$\n\n$$400(u^2 - 400)(u^2 + 100) \\geq 0$$\n\nSince $u^2 + 100 > 0$, we need $u^2 \\geq 400$, i.e. $u \\leq -20$ or $u \\geq 20$. As $u$ is a speed, $u > 0$, so the minimum value is $u = 20\\ \\text{m s}^{-1}$."
+  },
+  {
+   "ref": "Q14(c)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.8"
+   ],
+   "question": "A projectile is launched from the origin with initial speed $u\\ \\text{m s}^{-1}$ at an angle $\\theta$ above the horizontal. It must pass through the point $P(20, 15)$, where distances are measured in metres. Take $g = 10\\ \\text{m s}^{-2}$.\n\nThe launch angle satisfies $2000\\tan^2\\theta - 20u^2\\tan\\theta + (2000 + 15u^2) = 0$, and the minimum possible speed is $u = 20\\ \\text{m s}^{-1}$. Find the corresponding launch angle, correct to the nearest degree.",
+   "answer": "With $u = 20$:\n\n$$2000\\tan^2\\theta - 8000\\tan\\theta + 8000 = 0 \\;\\Rightarrow\\; \\tan^2\\theta - 4\\tan\\theta + 4 = 0 \\;\\Rightarrow\\; (\\tan\\theta - 2)^2 = 0$$\n\nSo $\\tan\\theta = 2$ and $\\theta = 63.4^\\circ \\approx 63^\\circ$."
+  }
+ ]
+}

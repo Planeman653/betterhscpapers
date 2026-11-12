@@ -1,0 +1,750 @@
+{
+ "id": "phys-2024-caringbah",
+ "course": "physics",
+ "school": "Caringbah",
+ "year": 2024,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "6528",
+  "title": "Caringbah 2024 w. sol"
+ },
+ "indexed": "2026-11-12",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q29(b)",
+   "reason": "Only asks to draw a pathway on the printed HR diagram; no solution provided"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.1.1"
+   ],
+   "question": "Which of the following scientists is credited with the mathematical unification of electricity and magnetism?",
+   "options": [
+    "Newton",
+    "Planck",
+    "Wien",
+    "Maxwell"
+   ],
+   "correct": "D",
+   "answer": "Maxwell's equations described electric and magnetic fields in one mathematical framework, unifying electricity and magnetism (and predicting electromagnetic waves)."
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.1.1"
+   ],
+   "question": "Which of the following is a standard assumption when analysing the motion of projectiles?",
+   "options": [
+    "Zero air resistance",
+    "A non-uniform vertical acceleration",
+    "Mass is infinite",
+    "The path of the projectile is an ellipse"
+   ],
+   "correct": "A",
+   "answer": "The standard projectile model assumes zero air resistance and a constant (uniform) vertical acceleration $g$ downwards, giving a parabolic path."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "The force of gravity between two objects is $F$. What happens to the force of gravity between both objects if the distance between the objects is doubled?",
+   "options": [
+    "$F/2$",
+    "$2F$",
+    "$F/4$",
+    "$F/8$"
+   ],
+   "correct": "C",
+   "answer": "$F = \\dfrac{GMm}{r^2}$, an inverse-square law. Doubling $r$ gives $\\dfrac{F}{2^2} = \\dfrac{F}{4}$."
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "Which of the following variables need to be aligned for a satellite to be in geostationary orbit around a planet?",
+   "options": [
+    "The orbital velocity of both the satellite and the planet are equal.",
+    "The period of one revolution of the satellite is equal to the time taken for one spin of the planet on its axis.",
+    "The period of the planet and the satellite is equal.",
+    "The mass of the planet and the satellite must be equal."
+   ],
+   "correct": "B",
+   "answer": "A geostationary satellite stays above the same point on the surface, so its orbital period must equal the planet's rotational period (24 h for Earth), orbiting in the same direction above the equator."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.1"
+   ],
+   "question": "A person with a viral infection has their body temperature rise from 37 °C (310 K) to 40 °C. What is the change in the peak wavelength of electromagnetic radiation emitted?",
+   "options": [
+    "Increase by $8.96 \\times 10^{-8}$ m",
+    "Decrease by $8.96 \\times 10^{-8}$ m",
+    "Increase by $9.66 \\times 10^{-4}$ m",
+    "Decrease by $9.66 \\times 10^{-4}$ m"
+   ],
+   "correct": "B",
+   "answer": "Wien's law $\\lambda_{\\max} = \\dfrac{b}{T}$: $\\dfrac{2.898\\times10^{-3}}{310} = 9.348\\times10^{-6}$ m and $\\dfrac{2.898\\times10^{-3}}{313} = 9.259\\times10^{-6}$ m. The peak wavelength decreases by $8.96\\times10^{-8}$ m (higher temperature → shorter peak wavelength)."
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.3",
+    "12.5.2.4"
+   ],
+   "question": "An 0.800 kg mass is swinging in a horizontal circle on the end of a conical pendulum as shown. The radius of the circle $r$ is 0.25 m and the period $T$ is 2.0 s.\n\nWhat is the kinetic energy of the mass?",
+   "options": [
+    "0.79 J",
+    "0.25 J",
+    "0.50 J",
+    "0.25 J"
+   ],
+   "correct": "B",
+   "answer": "$v = \\dfrac{2\\pi r}{T} = \\dfrac{2\\pi(0.25)}{2.0} = 0.785\\ \\text{m s}^{-1}$, so $K = \\tfrac12 mv^2 = \\tfrac12(0.800)(0.785)^2 = 0.25$ J. (Note: options B and D in the original paper are identical, and both were accepted; 0.79 is the speed, not the energy.)",
+   "images": [
+    "assets/img/phys-2024-caringbah/q6.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "Several planets with identical size but different masses had their surface gravitational acceleration, $g$, plotted against their masses, $M$.\n\nWhich alternative best represents this graph?",
+   "options": [
+    "![Graph A](assets/img/phys-2024-caringbah/q7a.png)",
+    "![Graph B](assets/img/phys-2024-caringbah/q7b.png)",
+    "![Graph C](assets/img/phys-2024-caringbah/q7c.png)",
+    "![Graph D](assets/img/phys-2024-caringbah/q7d.png)"
+   ],
+   "correct": "A",
+   "answer": "$g = \\dfrac{GM}{r^2}$. With $r$ the same for every planet, $g \\propto M$: a straight line through the origin."
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.4.1"
+   ],
+   "question": "How does back EMF affect the operation of an electric motor?",
+   "options": [
+    "It prevents the motor from starting.",
+    "It increases the power output of the motor.",
+    "It increases the current drawn from the power source.",
+    "It reduces the current drawn from the power source when the motor speeds up."
+   ],
+   "correct": "D",
+   "answer": "As the coil rotates faster, the induced back emf (which opposes the supply emf, by Lenz's law) increases, so the net emf and hence the current drawn from the supply decrease."
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.8.1.2"
+   ],
+   "question": "The following graph plots data for a number of galaxies.\n\nWhich of the following is true about the trend shown in this graph?",
+   "options": [
+    "It is linear because all galaxies are receding at the same rate.",
+    "It provides evidence for the 'Big Bang'.",
+    "It shows that the expansion of the universe is slowing.",
+    "It proves that every galaxy is redshifted."
+   ],
+   "correct": "B",
+   "answer": "The graph shows Hubble's law: recession velocity is proportional to distance, so more distant galaxies recede faster. This expansion of the universe is evidence for the Big Bang. (Galaxies recede at different rates; one data set cannot show slowing or *prove* every galaxy is redshifted.)",
+   "images": [
+    "assets/img/phys-2024-caringbah/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.4.1"
+   ],
+   "question": "The role of a commutator in a DC motor is to:",
+   "options": [
+    "provide the axis of rotation.",
+    "close the circuit.",
+    "change the direction of current relative to the coil.",
+    "keep the current flowing in the same direction relative to the coil."
+   ],
+   "correct": "C",
+   "answer": "The split-ring commutator reverses the current in the coil every half turn, so the torque on the coil keeps acting in the same rotational direction."
+  },
+  {
+   "ref": "Q11",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.3.4"
+   ],
+   "question": "Calculate the wavelength of a tennis ball of mass 59.4 g travelling at 170 km h$^{-1}$.",
+   "options": [
+    "$6.56 \\times 10^{-38}$ m",
+    "$2.36 \\times 10^{-37}$ m",
+    "$6.56 \\times 10^{-35}$ m",
+    "$2.36 \\times 10^{-34}$ m"
+   ],
+   "correct": "D",
+   "answer": "$v = 170/3.6 = 47.2\\ \\text{m s}^{-1}$. $\\lambda = \\dfrac{h}{mv} = \\dfrac{6.626\\times10^{-34}}{0.0594 \\times 47.2} = 2.36\\times10^{-34}$ m."
+  },
+  {
+   "ref": "Q12",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.4.1"
+   ],
+   "question": "In each diagram below, a rectangular coil connected to a split-ring commutator sits in a magnetic field (dotted arrows). Which of the following scenarios will produce the greatest torque on the coil?",
+   "options": [
+    "![Scenario A](assets/img/phys-2024-caringbah/q12a.png)",
+    "![Scenario B](assets/img/phys-2024-caringbah/q12b.png)",
+    "![Scenario C](assets/img/phys-2024-caringbah/q12c.png)",
+    "![Scenario D](assets/img/phys-2024-caringbah/q12d.png)"
+   ],
+   "correct": "B",
+   "answer": "$\\tau = nIAB\\sin\\theta$. In B the plane of the coil is parallel to the field (maximum torque) and the coil has two turns, so $n$ is largest. In C the field is perpendicular to the plane of the coil, giving zero torque."
+  },
+  {
+   "ref": "Q13",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "Which of the following is an observation from the Hafele–Keating experiment that supports Einstein's theory of special relativity?",
+   "options": [
+    "Clocks flown westward (in the opposite direction to Earth's rotation) were slowed the most.",
+    "Clocks flown eastward (in the same direction as Earth's rotation) were slowed the most.",
+    "Clocks flown eastward and westward were equally slowed.",
+    "Clocks flown eastward and westward were not slowed."
+   ],
+   "correct": "B",
+   "answer": "Relative to an inertial frame at Earth's centre, eastward-flying clocks move fastest (plane speed adds to Earth's rotation), so they experienced the most time dilation and lost time relative to ground clocks; westward clocks moved slowest and gained time."
+  },
+  {
+   "ref": "Q14",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.3"
+   ],
+   "question": "A Ferris wheel car covers an arc distance of 62.8 metres in 2 minutes. If the radius of the Ferris wheel is 10 metres, what is the angular velocity in degrees per second?",
+   "options": [
+    "$0.90^\\circ\\ \\text{s}^{-1}$",
+    "$1.80^\\circ\\ \\text{s}^{-1}$",
+    "$3.00^\\circ\\ \\text{s}^{-1}$",
+    "$6.00^\\circ\\ \\text{s}^{-1}$"
+   ],
+   "correct": "C",
+   "answer": "$\\theta = \\dfrac{s}{r} = \\dfrac{62.8}{10} = 6.28$ rad $= 360^\\circ$, in 120 s. $\\omega = \\dfrac{360^\\circ}{120\\ \\text{s}} = 3.00^\\circ\\ \\text{s}^{-1}$."
+  },
+  {
+   "ref": "Q15",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.3"
+   ],
+   "question": "The apparatus shown below was set up to measure the force between two parallel current-carrying conductors 1.5 cm apart, each carrying a current of 12 A. Before the current was turned on, the scale was zeroed; with the current on, the scale reads 0.042 g.\n\nDetermine the length $L$ of the two current-carrying conductors shown in the image above.",
+   "options": [
+    "$2.1 \\times 10^{2}$ m",
+    "2.1 m",
+    "$2.1 \\times 10^{-1}$ m",
+    "$2.1 \\times 10^{-2}$ m"
+   ],
+   "correct": "C",
+   "answer": "$F = mg = 0.042\\times10^{-3} \\times 9.8 = 4.12\\times10^{-4}$ N. $\\dfrac{F}{L} = \\dfrac{\\mu_0 I_1 I_2}{2\\pi r} = \\dfrac{(4\\pi\\times10^{-7})(12)(12)}{2\\pi(0.015)} = 1.92\\times10^{-3}\\ \\text{N m}^{-1}$. $L = \\dfrac{4.12\\times10^{-4}}{1.92\\times10^{-3}} = 0.21$ m $= 2.1\\times10^{-1}$ m.",
+   "images": [
+    "assets/img/phys-2024-caringbah/q15.png"
+   ]
+  },
+  {
+   "ref": "Q16",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.4"
+   ],
+   "question": "A car of mass 1200 kg is driving in a horizontal circular track of radius 50 metres with a constant speed of 20 m s$^{-1}$. If the coefficient of friction between the car's tyres and the track is 0.1, what is the work done by friction over one complete revolution?",
+   "options": [
+    "0 J",
+    "75 360 J",
+    "150 720 J",
+    "226 080 J"
+   ],
+   "correct": "A",
+   "answer": "Friction provides the centripetal force, which always acts towards the centre, perpendicular to the velocity. A force perpendicular to the displacement does no work ($W = Fs\\cos 90^\\circ = 0$); consistent with this, the speed and kinetic energy are constant."
+  },
+  {
+   "ref": "Q17",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.3"
+   ],
+   "question": "If the value of Planck's constant, $h$, was higher than it is, the effect on a photoelectric effect experiment would be:",
+   "options": [
+    "the photoelectric current would be greater.",
+    "the energy of incident photons would be less.",
+    "the threshold frequency would be greater for all metals.",
+    "the threshold frequency would be lower for all metals."
+   ],
+   "correct": "D",
+   "answer": "Threshold frequency $f_0 = \\dfrac{\\phi}{h}$. For the same work function, a larger $h$ gives a smaller $f_0$ for every metal. (Photon energy $hf$ would be larger, not smaller.)"
+  },
+  {
+   "ref": "Q18",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.3"
+   ],
+   "question": "How long does it take to emit one million photons from a 10 mW laser with frequency $4.5 \\times 10^{14}$ Hz?",
+   "options": [
+    "$3.0 \\times 10^{-11}$ s",
+    "$3.0 \\times 10^{-23}$ s",
+    "$3.4 \\times 10^{22}$ s",
+    "$3.4 \\times 10^{10}$ s"
+   ],
+   "correct": "A",
+   "answer": "$E = hf = 6.626\\times10^{-34}\\times4.5\\times10^{14} = 2.98\\times10^{-19}$ J per photon. $10^6$ photons: $2.98\\times10^{-13}$ J. $t = \\dfrac{E}{P} = \\dfrac{2.98\\times10^{-13}}{0.010} = 3.0\\times10^{-11}$ s."
+  },
+  {
+   "ref": "Q19",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.1"
+   ],
+   "question": "A ring of area $A$ is hung by a fishing line so that it sits within a uniform magnetic field $B$ directed into the page, as shown below (the plane of the ring is perpendicular to the field).\n\nDetermine the change in flux when the ring spins from its position by $120^\\circ$.",
+   "options": [
+    "$-\\tfrac{3}{2}BA$",
+    "$-\\tfrac{1}{2}BA$",
+    "$\\tfrac{1}{2}BA$",
+    "$\\tfrac{2}{3}BA$"
+   ],
+   "correct": "A",
+   "answer": "$\\Phi = BA\\cos\\theta$. Initially $\\theta = 0$: $\\Phi_i = BA$. After $120^\\circ$: $\\Phi_f = BA\\cos120^\\circ = -\\tfrac12 BA$. $\\Delta\\Phi = -\\tfrac12 BA - BA = -\\tfrac32 BA$.",
+   "images": [
+    "assets/img/phys-2024-caringbah/q19.png"
+   ]
+  },
+  {
+   "ref": "Q20",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.1",
+    "12.7.2.3"
+   ],
+   "question": "The following experimental set-up can be used to produce a 'Poisson Spot': a bright spot that can be seen in the centre of a circular object's shadow.\n\nWhich of the following would increase the size of the Poisson Spot?",
+   "options": [
+    "Moving the light source closer to the circular object",
+    "Moving the circular object closer to the screen",
+    "Increasing the wavelength of the light source",
+    "Increasing the diameter of the circular object"
+   ],
+   "correct": "C",
+   "answer": "The Poisson spot is produced by diffraction of light around the edge of the object and constructive interference at the centre of the shadow. The amount of diffraction (and so the size of the spot) increases with wavelength.",
+   "images": [
+    "assets/img/phys-2024-caringbah/q20.png"
+   ]
+  },
+  {
+   "ref": "Q21",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.2.1"
+   ],
+   "question": "A current-carrying conductor of length 1.5 m is placed in a uniform magnetic field of strength 0.5 T. Determine the magnitude of the magnetic force experienced by the current-carrying conductor if the current through the conductor is 0.6 A and the current flows perpendicular to the magnetic field.",
+   "answer": "$F = lIB\\sin\\theta = 1.5 \\times 0.6 \\times 0.5 \\times \\sin 90^\\circ = 0.45$ N"
+  },
+  {
+   "ref": "Q22",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.1.6"
+   ],
+   "question": "Describe how spectra provide information about TWO features of stars.",
+   "answer": "Stellar spectra are absorption spectra: a continuous spectrum crossed by dark lines where gases in the star's outer layers absorb particular wavelengths.\n\n- **Chemical composition:** each element absorbs at its own characteristic set of wavelengths, so matching the dark lines in a star's spectrum with laboratory spectra of elements identifies the elements present in the star's atmosphere.\n- **Translational (radial) velocity:** if the absorption lines are shifted towards longer wavelengths (lower frequency, red shift) compared with laboratory values, the star is moving away from the observer; a blue shift means it is approaching. The size of the shift gives the speed.\n\nOther acceptable features: surface temperature (peak wavelength of the continuous spectrum, Wien's law, and which lines are present); density (broad, wide lines indicate dense stars with high-pressure atmospheres, narrow lines less dense giants); rotational velocity (light from one edge is red-shifted and the other blue-shifted, broadening the lines)."
+  },
+  {
+   "ref": "Q23",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.4.1"
+   ],
+   "question": "Following a lesson on Special Relativity, a student made the following statement:\n\n> “The surface of the Earth is not an inertial frame of reference”\n\nAssess the validity of this statement.",
+   "answer": "An inertial frame of reference is one that is not accelerating (moving at constant velocity), in which Newton's first law holds. A point on the surface of the Earth moves in a circle as the Earth rotates on its axis, and the Earth also orbits the Sun, so the surface is continually changing direction — it has a centripetal acceleration. Therefore the surface of the Earth is strictly a non-inertial frame, and the statement is valid.\n\n(For many everyday experiments these accelerations are very small, so the Earth's surface is often *approximated* as an inertial frame — but strictly the statement is correct.)"
+  },
+  {
+   "ref": "Q24(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.4",
+    "12.5.3.2"
+   ],
+   "question": "On 4 May 1989, the objective of the Magellan mission to Venus was to place a satellite in orbit to image the entire surface of the planet.\n\nMass of Venus $= 4.867 \\times 10^{24}$ kg; mass of satellite $= 3445$ kg; orbital radius $= 6.346 \\times 10^{6}$ m.\n\nDetermine the orbital period of the satellite around Venus. Assume a circular orbit.",
+   "answer": "$$\\frac{r^3}{T^2} = \\frac{GM}{4\\pi^2} \\Rightarrow T^2 = \\frac{4\\pi^2 r^3}{GM} = \\frac{4\\pi^2(6.346\\times10^{6})^3}{6.67\\times10^{-11}\\times4.867\\times10^{24}} = 3.108\\times10^{7}$$\n\n$T = 5.57\\times10^{3}$ s (about 92.9 minutes).",
+   "images": [
+    "assets/img/phys-2024-caringbah/q24.png"
+   ]
+  },
+  {
+   "ref": "Q24(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.5"
+   ],
+   "question": "On 4 May 1989, the objective of the Magellan mission to Venus was to place a satellite in orbit to image the entire surface of the planet.\n\nMass of Venus $= 4.867 \\times 10^{24}$ kg; mass of satellite $= 3445$ kg; orbital radius $= 6.346 \\times 10^{6}$ m.\n\nHow much additional work would need to be done for the satellite to escape the planet, Venus? Use relevant equations and calculations to support your answer.",
+   "answer": "For a satellite to escape to infinity its total mechanical energy must be raised to (at least) zero.\n\nIn a circular orbit, $K = \\dfrac{GMm}{2r}$ and $U = -\\dfrac{GMm}{r}$, so the total energy is\n\n$$E = U + K = -\\frac{GMm}{2r} = -\\frac{6.67\\times10^{-11}\\times4.867\\times10^{24}\\times3445}{2\\times6.346\\times10^{6}} = -8.81\\times10^{10}\\ \\text{J}$$\n\nThe additional work required (e.g. by rocket boosters) is $8.81\\times10^{10}$ J, increasing the total energy from $-8.81\\times10^{10}$ J to zero.\n\n(Note: the paper's sample answer writes $8.81\\times10^{13}$ J in its final sentence; its own working gives $8.81\\times10^{10}$ J, which is correct.)",
+   "images": [
+    "assets/img/phys-2024-caringbah/q24.png"
+   ]
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "A space organisation is planning to send an astronaut to a distant planet, $P$. The spacecraft will travel at a speed of $0.8c$ and the journey is expected to take 15 years, as measured by observers on Earth. The spacecraft and astronaut have a combined mass of 1500 kg.\n\nCalculate the distance to $P$, as measured by observers on Earth.",
+   "answer": "$d = vt = 0.8c \\times 15\\ \\text{years} = 12$ light-years.\n\n$d = 0.8 \\times 3\\times10^{8} \\times (15 \\times 365 \\times 24 \\times 60 \\times 60) = 1.14\\times10^{17}$ m"
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "A space organisation is planning to send an astronaut to a distant planet, $P$. The spacecraft will travel at a speed of $0.8c$ and the journey is expected to take 15 years, as measured by observers on Earth. The spacecraft and astronaut have a combined mass of 1500 kg.\n\nDetermine how many years will have passed on the spaceship's clock when observed by Earth.",
+   "answer": "The spaceship's clock records the proper time $t_0$; Earth observers measure the dilated time $t = 15$ years.\n\n$$t = \\frac{t_0}{\\sqrt{1-\\frac{v^2}{c^2}}} \\Rightarrow t_0 = t\\sqrt{1-0.8^2} = 15\\times0.6 = 9\\ \\text{years}$$"
+  },
+  {
+   "ref": "Q26",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.5",
+    "12.6.3.3"
+   ],
+   "question": "The diagram below shows a simplified power distribution network.\n\nExplain why transformers are used in the distribution of energy.",
+   "answer": "Transformers change the voltage of the AC supply. The power lost as heat in the transmission lines is $P_{\\text{loss}} = I^2R$. At the power station a step-up transformer increases the voltage to a very high value; since the power transmitted $P = VI$ is (ideally) unchanged, the current is reduced by the same factor, so the $I^2R$ energy loss in the long transmission lines is greatly reduced and power can be transmitted efficiently over long distances. At the consumer end a step-down transformer reduces the voltage to a safe, usable level (e.g. 240 V for homes).",
+   "images": [
+    "assets/img/phys-2024-caringbah/q26.png"
+   ]
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.4.2"
+   ],
+   "question": "Before an experiment to find the half-life of a radioactive isotope, a nuclear scientist switched on her radiation counter in the lab for five 60-second intervals and recorded the following background readings (counts/min): 1123, 1126, 1128, 1127, 1121.\n\nThe scientist then placed a sample of radioactive isotope $X$ near the counter and measured the counts per minute every second Monday for 14 weeks. Counting the first week as week 0, her results are shown in the table below.\n\n| Time (weeks) | Total radiation recorded (counts/min) |\n|---|---|\n| 0 | 11125 |\n| 2 | 7725 |\n| 4 | 5525 |\n| 6 | 4125 |\n| 8 | 3125 |\n| 10 | 2425 |\n| 12 | 2075 |\n| 14 | 1625 |\n\nDraw a graph to show the relationship between time and the radiation of $X$.",
+   "answer": "First subtract the background count. Mean background $= \\dfrac{1123+1126+1128+1127+1121}{5} = 1125$ counts/min.\n\n| Time (weeks) | 0 | 2 | 4 | 6 | 8 | 10 | 12 | 14 |\n|---|---|---|---|---|---|---|---|---|\n| Corrected count rate (counts/min) | 10000 | 6600 | 4400 | 3000 | 2000 | 1300 | 950 | 500 |\n\nPlot corrected count rate (vertical axis) against time in weeks (horizontal axis), with labelled axes and units and uniform scales, and draw a smooth exponential-decay curve of best fit through the points (not a dot-to-dot line).",
+   "answer_images": [
+    "assets/img/phys-2024-caringbah/q27a-ans.png"
+   ]
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.4.2"
+   ],
+   "question": "Before an experiment to find the half-life of a radioactive isotope, a nuclear scientist switched on her radiation counter in the lab for five 60-second intervals and recorded the following background readings (counts/min): 1123, 1126, 1128, 1127, 1121.\n\nThe scientist then placed a sample of radioactive isotope $X$ near the counter and measured the counts per minute every second Monday for 14 weeks. Counting the first week as week 0, her results are shown in the table below.\n\n| Time (weeks) | Total radiation recorded (counts/min) |\n|---|---|\n| 0 | 11125 |\n| 2 | 7725 |\n| 4 | 5525 |\n| 6 | 4125 |\n| 8 | 3125 |\n| 10 | 2425 |\n| 12 | 2075 |\n| 14 | 1625 |\n\nAfter subtracting the background radiation, the count rates are plotted against time and a curve of best fit drawn. Use the graph to show that the half-life of $X$ is approximately 3.4 weeks.",
+   "answer": "The corrected initial count rate is $11125 - 1125 = 10000$ counts/min. Half of this is 5000 counts/min. Reading across from 5000 counts/min to the curve of best fit and down to the time axis gives $t \\approx 3.4$ weeks (between the week 2 value of 6600 and the week 4 value of 4400). So $t_{1/2} \\approx 3.4$ weeks.",
+   "answer_images": [
+    "assets/img/phys-2024-caringbah/q27a-ans.png"
+   ]
+  },
+  {
+   "ref": "Q27(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.4.2"
+   ],
+   "question": "Before an experiment to find the half-life of a radioactive isotope, a nuclear scientist switched on her radiation counter in the lab for five 60-second intervals and recorded the following background readings (counts/min): 1123, 1126, 1128, 1127, 1121.\n\nThe scientist then placed a sample of radioactive isotope $X$ near the counter and measured the counts per minute every second Monday for 14 weeks. Counting the first week as week 0, her results are shown in the table below.\n\n| Time (weeks) | Total radiation recorded (counts/min) |\n|---|---|\n| 0 | 11125 |\n| 2 | 7725 |\n| 4 | 5525 |\n| 6 | 4125 |\n| 8 | 3125 |\n| 10 | 2425 |\n| 12 | 2075 |\n| 14 | 1625 |\n\nGiven that the half-life of $X$ is approximately 3.4 weeks, calculate the decay constant.",
+   "answer": "$$\\lambda = \\frac{\\ln 2}{t_{1/2}} = \\frac{0.693}{3.4} = 0.20\\ \\text{week}^{-1}$$\n\n(Note: the paper's marking guidelines give $\\ln 2/3 = 0.23\\ \\text{week}^{-1}$, which uses a half-life of 3 weeks; with the 3.4-week half-life the decay constant is $0.20\\ \\text{week}^{-1}$. Answers consistent with the student's own half-life were accepted.)"
+  },
+  {
+   "ref": "Q28",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.3",
+    "12.6.1.4"
+   ],
+   "question": "A uniform magnetic field of strength 0.5 T is directed into the page. An electron and a proton are both fired simultaneously into the magnetic field at $1 \\times 10^{4}\\ \\text{m s}^{-1}$: the proton enters from the left moving to the right, and the electron enters from the right moving to the left, as shown. Assume the particles do not interact with each other.\n\nDescribe the paths that the particles will follow through the magnetic field. Support your answer with relevant calculations.",
+   "answer": "Each particle experiences a magnetic force $F = qvB$ perpendicular to its velocity, so each moves in a circular arc (uniform circular motion) with $qvB = \\dfrac{mv^2}{r}$, i.e. $r = \\dfrac{mv}{qB}$.\n\nElectron: $r = \\dfrac{9.109\\times10^{-31}\\times1\\times10^{4}}{1.602\\times10^{-19}\\times0.5} = 1.1\\times10^{-7}$ m\n\nProton: $r = \\dfrac{1.673\\times10^{-27}\\times1\\times10^{4}}{1.602\\times10^{-19}\\times0.5} = 2.1\\times10^{-4}$ m\n\nDirection (right-hand rule): the proton (moving right) is pushed towards the top of the page and curves anticlockwise; the electron (moving left, negative charge) is also pushed towards the top of the page and curves clockwise. Both therefore curve upwards initially, in opposite rotational senses. Because the proton's mass is about 1840 times greater, its circular path has a radius about 1840 times larger than the electron's very tight circle.",
+   "images": [
+    "assets/img/phys-2024-caringbah/q28.png"
+   ]
+  },
+  {
+   "ref": "Q29(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.4.6",
+    "12.8.1.7"
+   ],
+   "question": "Below is a Hertzsprung–Russell diagram with two labelled stars, X and Y. The reaction that produces energy in Star X can be summarised as\n\n$$4\\,{}^{1}_{1}\\text{H} \\rightarrow {}^{4}_{2}\\text{He} + 2\\,{}^{0}_{+1}\\text{e}$$\n\n| Nucleus | Mass (amu) |\n|---|---|\n| ${}^{4}_{2}\\text{He}$ | 4.002603 |\n| ${}^{1}_{1}\\text{H}$ | 1.007825 |\n| ${}^{0}_{+1}\\text{e}$ | 0.000549 |\n\nCalculate the energy released from this reaction.",
+   "answer": "Mass defect: $\\Delta m = 4(1.007825) - 4.002603 - 2(0.000549) = 0.027599$ u\n\n$\\Delta m = 0.027599 \\times 1.661\\times10^{-27} = 4.584\\times10^{-29}$ kg\n\n$E = \\Delta m c^2 = 4.584\\times10^{-29}\\times(3\\times10^{8})^2 = 4.13\\times10^{-12}$ J (about 25.7 MeV, since $0.027599 \\times 931.5 = 25.7$ MeV).\n\n(Note: the original paper wrote the emitted particles as ${}^{0}_{-1}\\text{e}$; charge conservation requires positrons, ${}^{0}_{+1}\\text{e}$, as above. The calculation is unchanged.)",
+   "images": [
+    "assets/img/phys-2024-caringbah/q29.png"
+   ]
+  },
+  {
+   "ref": "Q29(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.1.6",
+    "12.8.1.7"
+   ],
+   "question": "Below is a Hertzsprung–Russell diagram with two labelled stars, X and Y. The reaction that produces energy in Star X can be summarised as\n\n$$4\\,{}^{1}_{1}\\text{H} \\rightarrow {}^{4}_{2}\\text{He} + 2\\,{}^{0}_{+1}\\text{e}$$\n\n| Nucleus | Mass (amu) |\n|---|---|\n| ${}^{4}_{2}\\text{He}$ | 4.002603 |\n| ${}^{1}_{1}\\text{H}$ | 1.007825 |\n| ${}^{0}_{+1}\\text{e}$ | 0.000549 |\n\nCompare the energy production in Star Y to Star X.",
+   "answer": "Similarity: both X and Y lie on the main sequence, so both produce energy by fusing hydrogen into helium in their cores.\n\nDifferences: Star Y is a hot, high-mass main sequence star (about 20 000 K, luminosity about $10^{2}$–$10^{3}$ times the Sun), whereas X is a cool, low-mass red dwarf (about 3000 K, luminosity about $10^{-4}$ of the Sun). Y's higher core temperature and pressure mean it fuses hydrogen at a far greater rate (much higher energy output/luminosity), and it produces most of its energy by the CNO cycle, while X produces energy mainly by the proton–proton chain. As a result Y will use up its core hydrogen and leave the main sequence much sooner than X.",
+   "images": [
+    "assets/img/phys-2024-caringbah/q29.png"
+   ]
+  },
+  {
+   "ref": "Q30(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.1.4",
+    "12.8.1.4"
+   ],
+   "question": "A student performed an experiment to investigate the light emitted from discharge tubes containing various gases. The student's observations are shown: hydrogen glows pink, neon glows red and argon glows violet.\n\nExplain why the gases emit different colours inside the discharge tubes.",
+   "answer": "A high potential difference between the metal electrodes causes a current to pass through the low-pressure gas. Collisions transfer energy to electrons in the gas atoms, exciting them from the ground state to higher energy levels. When an excited electron returns to a lower energy level, the energy difference is emitted as a photon with $E = hf = E_{\\text{upper}} - E_{\\text{lower}}$.\n\nEach element has its own unique set of electron energy levels, so the allowed transitions — and therefore the frequencies (wavelengths) of the emitted light — are different for each gas. The combination of emitted wavelengths gives each gas its characteristic colour.",
+   "images": [
+    "assets/img/phys-2024-caringbah/q30.png"
+   ]
+  },
+  {
+   "ref": "Q30(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.1.4",
+    "12.8.1.4"
+   ],
+   "question": "A student performed an experiment to investigate the light emitted from discharge tubes containing various gases. The student's observations are shown: hydrogen glows pink, neon glows red and argon glows violet.\n\nThe spectra of light from the discharge tubes are examined through a spectroscope. How will these spectra differ from those produced by an incandescent filament?",
+   "answer": "The discharge tubes produce emission (line) spectra: a discontinuous spectrum of a few bright coloured lines at specific wavelengths, characteristic of each gas, on a dark background. An incandescent filament is a hot solid that emits a continuous (black body) spectrum containing all visible wavelengths, with no gaps."
+  },
+  {
+   "ref": "Q31",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.2",
+    "12.6.4.3"
+   ],
+   "question": "A physics student, who is also a model train enthusiast, is combining their two interests to undertake a study in electromagnetic induction. They rig up one of their trains with a strong bar magnet on its load carriage and have its track pass through a solenoid. The solenoid is attached to a galvanometer to measure the induced current.\n\nThey notice that the train exits the solenoid tunnel with a lower speed than when it entered and does not begin to accelerate to a normal operating speed for a small distance after exiting.\n\nExplain their observations.",
+   "answer": "When the train enters the solenoid, the locomotive itself is not magnetic, so it enters at full speed. As the bar magnet on the carriage approaches and enters the solenoid, the magnetic flux through the coils changes. By Faraday's law ($\\varepsilon = -N\\dfrac{\\Delta\\Phi}{\\Delta t}$) an emf is induced, and since the solenoid is part of a closed circuit with the galvanometer, a current flows.\n\nBy Lenz's law the induced current flows in a direction such that its magnetic field opposes the change in flux that produced it: the solenoid repels the magnet as it approaches and attracts it back as it leaves. Either way the force opposes the magnet's motion, so kinetic energy of the train is converted into electrical energy (and then heat) in the circuit, and the train slows down — consistent with conservation of energy.\n\nThe magnetic field of the magnet extends beyond the end of the solenoid, so the flux through the solenoid is still changing just after the carriage exits. The opposing (attractive) force therefore continues to act for a short distance after exiting, delaying the train's return to its normal operating speed until the magnet is far enough away for the induced current to become negligible.",
+   "images": [
+    "assets/img/phys-2024-caringbah/q31.png"
+   ]
+  },
+  {
+   "ref": "Q32",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.5.1.4"
+   ],
+   "question": "A model rocket, initially on the ground, was launched at an angle of $20.0^\\circ$ from the horizontal. After a 2.50 s motor burn, the model had a velocity of 82.0 m s$^{-1}$ and then followed projectile motion for the remainder of its flight.\n\nDetermine the horizontal range of the rocket after landing. Assume its initial trajectory did not change during its motor burn (i.e. it accelerated uniformly from rest in a straight line at $20.0^\\circ$ to the horizontal).",
+   "answer": "**Motor burn (straight line, uniform acceleration from rest):**\n\n$s = \\dfrac{u+v}{2}t = \\dfrac{0 + 82.0}{2}\\times2.50 = 102.5$ m along the launch line.\n\n$\\Delta x_1 = 102.5\\cos20^\\circ = 96.3$ m, $\\quad \\Delta y_1 = 102.5\\sin20^\\circ = 35.1$ m\n\n**Projectile phase** (launched from height 35.1 m):\n\n$u_x = 82.0\\cos20^\\circ = 77.1\\ \\text{m s}^{-1}$, $\\quad u_y = 82.0\\sin20^\\circ = 28.0\\ \\text{m s}^{-1}$\n\nTaking up as positive, landing when $\\Delta y = -35.1$ m:\n\n$-35.1 = 28.0t - 4.9t^2 \\Rightarrow 4.9t^2 - 28.0t - 35.1 = 0$\n\n$t = \\dfrac{28.0 + \\sqrt{28.0^2 + 4(4.9)(35.1)}}{2(4.9)} = 6.77$ s\n\n$\\Delta x_2 = u_x t = 77.1 \\times 6.77 = 522$ m\n\n**Total horizontal range:** $96.3 + 522 \\approx 619$ m (about 618.5 m; the total flight time is $2.50 + 6.77 = 9.27$ s).",
+   "images": [
+    "assets/img/phys-2024-caringbah/q32.png"
+   ]
+  },
+  {
+   "ref": "Q33",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.3",
+    "12.6.1.1"
+   ],
+   "question": "Light of a particular frequency is incident on a calcium metal sheet and photoelectrons are emitted. The metal is in a uniform electric field, perpendicular to the surface of the metal, as shown (the field opposes the motion of the electron away from the sheet).\n\nExplain the behaviour of this photoelectron with reference to the law of conservation of energy.",
+   "answer": "Each photon gives all its energy $hf$ to one electron. A photoelectron is emitted only if the photon energy exceeds the work function $\\phi$ of calcium. By conservation of energy, the remaining energy becomes the electron's kinetic energy: $K_{\\max} = hf - \\phi$.\n\nAs the photoelectron moves away from the sheet through the electric field, the field exerts a force on it opposite to its motion and does negative work on it ($W = qEd$), converting its kinetic energy into electrical potential energy. The electron slows down and comes to rest when the work done against the field equals its initial kinetic energy, $qEd = hf - \\phi$, then is accelerated back towards the sheet. The maximum distance $d$ it travels depends on its initial kinetic energy (and so on the frequency of the light) and on the field strength.",
+   "images": [
+    "assets/img/phys-2024-caringbah/q33.png"
+   ]
+  },
+  {
+   "ref": "Q34",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.4.3"
+   ],
+   "question": "A rope connects a mass on a horizontal surface to a pulley attached to an electric motor, as shown. The motor operates at voltage $V$ and draws current $I$; the coefficient of kinetic friction between the mass and the surface is $\\mu_k$ and the normal force on the mass is $F_N$. Assume all the electrical power is used to pull the mass.\n\nAssuming the mass is moving at a constant velocity, show that the velocity of the mass as it moves along the horizontal surface is given by $v = \\dfrac{VI}{\\mu_k F_N}$.",
+   "answer": "Electrical power input to the motor: $P = VI$.\n\nMechanical power delivered to the mass by the rope tension $F$: $P = \\dfrac{W}{t} = \\dfrac{Fs}{t} = Fv$.\n\nAt constant velocity the net force on the mass is zero, so the tension equals the kinetic friction: $F = F_{\\text{friction}} = \\mu_k F_N$.\n\nEquating the powers: $VI = \\mu_k F_N v \\Rightarrow v = \\dfrac{VI}{\\mu_k F_N}$.",
+   "images": [
+    "assets/img/phys-2024-caringbah/q34.png"
+   ]
+  },
+  {
+   "ref": "Q35",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.5.2",
+    "12.8.4.1"
+   ],
+   "question": "The two graphs below show the gravitational and electrostatic forces acting between two protons in the nucleus of an atom, as a function of nucleon separation $d$.\n\nAnalyse the graphs and account for the stability of the nucleus.",
+   "answer": "The gravitational force between the protons is attractive (shown as negative) but extremely weak: at $d = 1\\times10^{-15}$ m it is only about $2\\times10^{-34}$ N. The electrostatic (Coulomb) force is repulsive and enormously larger — about 230–250 N at the same separation — and both forces increase rapidly as $d$ decreases (inverse-square).\n\nSo gravity cannot hold the protons together against their electrostatic repulsion (it is about $10^{36}$ times weaker). The nucleus is stable because of a third force, the strong nuclear force, which acts between all nucleons (protons and neutrons), is attractive and much stronger than the electrostatic repulsion at separations of about $10^{-15}$ m, but has a very short range. Neutrons add strong-force attraction without adding electrostatic repulsion, helping bind the nucleus.",
+   "images": [
+    "assets/img/phys-2024-caringbah/q35.png"
+   ]
+  },
+  {
+   "ref": "Q36",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.3.4",
+    "12.8.3.1"
+   ],
+   "question": "Below is a diagram showing the harmonics of standing waves for a string with 2 fixed ends.\n\nExplain how the concept of standing wave harmonics can be used to improve Bohr's model of the atom.",
+   "answer": "Bohr simply postulated that electrons occupy stable orbits with quantised angular momentum and do not radiate, without explaining why. De Broglie proposed that electrons have a wavelength $\\lambda = \\dfrac{h}{mv}$. Just as a string with fixed ends can only support standing waves with a whole number of half-wavelengths (the harmonics), an electron orbit is only stable if the electron's wave forms a standing wave around it — the circumference must be a whole number of electron wavelengths: $2\\pi r = n\\lambda = \\dfrac{nh}{mv}$.\n\nThis gives $mvr = \\dfrac{nh}{2\\pi}$, exactly Bohr's quantisation condition, so it explains why only certain orbits (and hence discrete energy levels) are allowed. Because a standing wave does not propagate, it does not transfer energy, which explains why electrons in these orbits do not continuously radiate energy and spiral into the nucleus.",
+   "images": [
+    "assets/img/phys-2024-caringbah/q36.png"
+   ]
+  },
+  {
+   "ref": "Q37",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "Unpolarised light of intensity 128 W m$^{-2}$ passes through three polarising filters. The polarising axes of the first and third filters are at $0^\\circ$, and the axis of polarising material 2 is rotated by an angle $\\theta$.\n\nIf the intensity of the light passing out of the third filter is 16 W m$^{-2}$, calculate the angle by which polarising material 2 is rotated.",
+   "answer": "The first filter halves the intensity of unpolarised light: $I_1 = 0.5\\times128 = 64.0\\ \\text{W m}^{-2}$.\n\nUsing Malus' law $I = I_{\\max}\\cos^2\\theta$:\n\nFilter 2 (at $\\theta$ to filter 1): $I_2 = 64.0\\cos^2\\theta$\n\nFilter 3 (also at $\\theta$ to filter 2): $I_3 = I_2\\cos^2\\theta = 64.0\\cos^4\\theta$\n\n$16 = 64.0\\cos^4\\theta \\Rightarrow \\cos^4\\theta = \\tfrac14 \\Rightarrow \\cos^2\\theta = \\tfrac12 \\Rightarrow \\theta = 45^\\circ$\n\n(Check: $I_2 = 64\\times0.5 = 32$, $I_3 = 32\\times0.5 = 16\\ \\text{W m}^{-2}$.)",
+   "images": [
+    "assets/img/phys-2024-caringbah/q37.png"
+   ]
+  },
+  {
+   "ref": "Q38",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.5"
+   ],
+   "question": "Explain why the total energy of a satellite orbiting the Earth is always negative.",
+   "answer": "The total energy of an orbiting satellite is the sum of its kinetic energy and its gravitational potential energy. Gravitational potential energy is defined as zero at an infinite distance from Earth; because gravity is attractive, work must be done to move the satellite out to infinity, so at any finite distance its potential energy is negative: $U = -\\dfrac{GMm}{r}$. For a circular orbit $K = \\dfrac{GMm}{2r}$, which is only half the magnitude of $U$, so $E = K + U = -\\dfrac{GMm}{2r} < 0$.\n\nThe negative total energy means the satellite is in a bound system: it does not have enough energy to escape Earth's gravitational field, so it remains in orbit. Energy would have to be supplied to raise its total energy to zero for it to escape."
+  },
+  {
+   "ref": "Q39",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.2.1",
+    "12.6.1.1"
+   ],
+   "question": "In a version of Millikan's oil-drop experiment, a charged oil droplet with mass $3.6 \\times 10^{-14}$ kg falls with an acceleration of 1.256 m s$^{-2}$ while the electric field is turned on. The potential difference across the electric field is $6.0 \\times 10^{4}$ V and the distance of plate separation is 25 cm. Assume drag force is negligible.\n\nCalculate the number of electrons within the charged oil droplet.",
+   "answer": "Net force: $F_{\\text{net}} = ma = 3.6\\times10^{-14}\\times1.256 = 4.522\\times10^{-14}$ N (downwards)\n\nWeight: $F_W = mg = 3.6\\times10^{-14}\\times9.8 = 3.528\\times10^{-13}$ N\n\nThe electric force acts upwards: $F_E = F_W - F_{\\text{net}} = 3.528\\times10^{-13} - 4.522\\times10^{-14} = 3.076\\times10^{-13}$ N\n\nField: $E = \\dfrac{V}{d} = \\dfrac{6.0\\times10^{4}}{0.25} = 2.4\\times10^{5}\\ \\text{V m}^{-1}$\n\nCharge: $q = \\dfrac{F_E}{E} = \\dfrac{3.076\\times10^{-13}}{2.4\\times10^{5}} = 1.282\\times10^{-18}$ C\n\nNumber of electrons: $n = \\dfrac{1.282\\times10^{-18}}{1.602\\times10^{-19}} = 8$ electrons",
+   "images": [
+    "assets/img/phys-2024-caringbah/q39.png"
+   ]
+  },
+  {
+   "ref": "Q40",
+   "kind": "written",
+   "marks": 6,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.4.4",
+    "12.8.4.6",
+    "12.8.1.3"
+   ],
+   "question": "Consider the following statement:\n\n> “Einstein's equation $E = mc^2$ has revolutionised science leading to significant advancements in both theoretical physics and practical applications in society.”\n\nJustify this statement.",
+   "answer": "$E = mc^2$ states that mass and energy are equivalent: a small mass corresponds to an enormous energy because $c^2 = 9\\times10^{16}\\ \\text{m}^2\\,\\text{s}^{-2}$. This has transformed both theory and technology.\n\n**Theoretical physics**\n- *Stellar processes:* it explains how stars shine. In fusion (e.g. the proton–proton chain, $4\\,{}^1\\text{H}\\rightarrow{}^4\\text{He}$) the products have less mass than the reactants, and this mass defect is released as energy ($\\approx 26$ MeV per helium nucleus), explaining stellar luminosities and lifetimes and the nucleosynthesis of elements.\n- *Nuclear physics:* binding energy and mass defect explain nuclear stability and why both fission of heavy nuclei and fusion of light nuclei release energy.\n- *Big Bang and particle physics:* it underpins the conversion of radiation into matter in the early universe (pair production) and matter–antimatter annihilation, and it is a cornerstone of special relativity, changing our understanding of space, time, mass and energy.\n\n**Practical applications**\n- *Nuclear power:* controlled fission chain reactions in reactors convert mass to energy to generate electricity on a large scale with no carbon emissions.\n- *Nuclear weapons:* uncontrolled fission (and fusion) chain reactions release vast energy — a major (and destructive) impact on society.\n- *Particle accelerators and medicine:* accelerators convert kinetic energy into new particles of mass $m = E/c^2$, allowing the Standard Model to be tested; PET scanners detect the gamma rays produced when positrons and electrons annihilate.\n\nBecause the equation led both to major new theoretical understanding (stars, nuclei, the early universe, relativity) and to technologies that have changed society (nuclear power, weapons, accelerators, medical imaging), the statement is justified."
+  }
+ ]
+}

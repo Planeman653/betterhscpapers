@@ -1,0 +1,716 @@
+{
+ "id": "phys-2024-girraween",
+ "course": "physics",
+ "school": "Girraween",
+ "year": 2024,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "6528",
+  "title": "Girraween 2024 w. sol"
+ },
+ "indexed": "2026-11-12",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q32(a)",
+   "reason": "Year 11 content (not examined in the HSC): superposition of waves from two point sources (Module 3 Waves)"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.3.1"
+   ],
+   "question": "Which of the following statements is true regarding how blackbody radiation changes as the temperature of the radiating object increases?",
+   "options": [
+    "Both the maximum intensity and the peak wavelength increase.",
+    "The maximum intensity increases and the peak wavelength decreases.",
+    "Both the maximum intensity and the peak wavelength decrease.",
+    "The maximum intensity decreases, and the peak wavelength increases."
+   ],
+   "correct": "B",
+   "answer": "A hotter blackbody emits more energy at every wavelength, so the peak intensity increases, and by Wien's law $\\lambda_{\\max} = \\dfrac{b}{T}$ the peak wavelength decreases."
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.8.5.2"
+   ],
+   "question": "Which particle is responsible for the force that holds quarks together?",
+   "options": [
+    "Gluon",
+    "Graviton",
+    "Photon",
+    "W boson"
+   ],
+   "correct": "A",
+   "answer": "The strong force between quarks is carried by gluons. (The original paper asked \"Which meson…\", but a gluon is a gauge boson, not a meson; the question has been reworded.)"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.2",
+    "12.6.3.1"
+   ],
+   "question": "An 18.5 cm diameter wire loop is initially oriented perpendicular to a 1.5 T magnetic field. In 0.20 s, the loop is rotated so its plane is parallel to the field direction.\n\nWhat is the average induced emf in the loop?",
+   "options": [
+    "0.10 V",
+    "0.02 V",
+    "0.20 V",
+    "1.50 V"
+   ],
+   "correct": "C",
+   "answer": "$A = \\pi (0.0925)^2 = 2.69 \\times 10^{-2}\\ \\text{m}^2$. The flux falls from $BA = 1.5 \\times 2.69 \\times 10^{-2} = 4.03 \\times 10^{-2}$ Wb to 0, so $\\varepsilon = \\dfrac{\\Delta\\Phi}{\\Delta t} = \\dfrac{4.03 \\times 10^{-2}}{0.20} = 0.20$ V."
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.1"
+   ],
+   "question": "For a charged particle in an electric field, which of the following statements is NOT true for work done on the charge?",
+   "options": [
+    "The work done on a charged particle is directly proportional to the strength of the electric field.",
+    "The work done on the charged particle is calculated using the magnitude of the displacement from the starting point.",
+    "The work done on the charged particle is dependent on the potential difference between the plates producing the electric field.",
+    "Doubling the charge of the particle has no impact on the work done on the charged particle."
+   ],
+   "correct": "D",
+   "answer": "$W = qEd = qV$, so the work done is proportional to the charge: doubling $q$ doubles the work. Statement D is false."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.5"
+   ],
+   "question": "A wheel with a diameter of 0.66 m experiences a tangential force of 5.30 N on its rim. Calculate the torque the wheel experiences.",
+   "options": [
+    "0.33 N m",
+    "1.75 N m",
+    "2.65 N m",
+    "3.50 N m"
+   ],
+   "correct": "B",
+   "answer": "$r = 0.33$ m, so $\\tau = rF = 0.33 \\times 5.30 = 1.75$ N m."
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "A projectile launched on Earth follows the trajectory labelled X, as shown.\n\nAnother projectile is launched with identical speed and angle but on the surface of a planet where the gravitational acceleration is less than $9.8\\ \\text{m s}^{-2}$.\n\nWhich trajectory would this other projectile follow? Air resistance can be ignored.",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "correct": "D",
+   "answer": "With the same launch velocity, $H = \\dfrac{u^2\\sin^2\\theta}{2g}$ and $R = \\dfrac{u^2 \\sin 2\\theta}{g}$ both increase when $g$ is smaller, and the launch angle is unchanged. D is the only path that is both higher and longer than X with the same initial direction.",
+   "images": [
+    "assets/img/phys-2024-girraween/q6.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.3"
+   ],
+   "question": "Three parallel current-carrying wires, X, Y and Z, are shown. X carries 1.0 A, Y carries 2.0 A and Z carries 3.0 A. Y is 5 mm below X and Z is 5 mm below Y. The current in wire Y is flowing in the opposite direction to the currents in wires X and Z.\n\nWhat is the net force per unit length acting on wire X?",
+   "options": [
+    "$2 \\times 10^{-5}\\ \\text{N m}^{-1}$ up",
+    "$2 \\times 10^{-5}\\ \\text{N m}^{-1}$ down",
+    "$8 \\times 10^{-5}\\ \\text{N m}^{-1}$ up",
+    "$8 \\times 10^{-5}\\ \\text{N m}^{-1}$ down"
+   ],
+   "correct": "A",
+   "answer": "From Y (opposite currents, repel, so X is pushed up): $\\dfrac{F}{l} = \\dfrac{\\mu_0}{2\\pi}\\dfrac{I_1 I_2}{r} = 2\\times10^{-7} \\times \\dfrac{1.0 \\times 2.0}{0.005} = 8 \\times 10^{-5}\\ \\text{N m}^{-1}$ up.\n\nFrom Z (same direction, attract, so X is pulled down): $2\\times10^{-7} \\times \\dfrac{1.0 \\times 3.0}{0.010} = 6 \\times 10^{-5}\\ \\text{N m}^{-1}$ down.\n\nNet: $2 \\times 10^{-5}\\ \\text{N m}^{-1}$ up.",
+   "images": [
+    "assets/img/phys-2024-girraween/q7.png"
+   ]
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.3.3",
+    "12.8.3.2"
+   ],
+   "question": "What was the significance of previous discoveries about the hydrogen spectrum to Bohr in developing his model of the atom?",
+   "options": [
+    "Previous work had provided the energy values associated with electron transfers.",
+    "It provided stimulus and direction for Bohr's developing ideas.",
+    "Previous experiments were used to explain the wavelength of the spectral lines.",
+    "Bohr knew that orbiting electrons did not emit electromagnetic radiation."
+   ],
+   "correct": "B",
+   "answer": "The measured hydrogen lines (Balmer's empirical formula) gave Bohr a pattern his model had to explain, guiding his idea of quantised energy levels. The earlier work did not supply energy levels or explain the wavelengths — that was Bohr's contribution — and classical physics predicted orbiting electrons *would* radiate."
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.2"
+   ],
+   "question": "One observation that supports Einstein's explanation of the photoelectric effect is that:",
+   "options": [
+    "different cathode metals have the same threshold frequency.",
+    "less intense light requires a higher frequency for a photocurrent to be observed.",
+    "higher frequency light gives a greater work function for a particular metal.",
+    "when conditions produce photocurrent, it is detected immediately."
+   ],
+   "correct": "D",
+   "answer": "In the photon model, a single photon with $hf > \\phi$ gives its energy to one electron at once, so emission is immediate even at low intensity. The wave model predicted a time delay while energy accumulated. (Threshold frequency and work function depend only on the metal.)"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.3"
+   ],
+   "question": "A 30 V, 2.5 A AC supply is connected to an ideal transformer with 75 turns on the input side and 15 turns on the output side. What is the output voltage and current?",
+   "options": [
+    "6 V, 12.5 A",
+    "6 V, 0.5 A",
+    "150 V, 0.5 A",
+    "150 V, 12.5 A"
+   ],
+   "correct": "A",
+   "answer": "$V_s = V_p \\dfrac{N_s}{N_p} = 30 \\times \\dfrac{15}{75} = 6$ V and $I_s = \\dfrac{V_p I_p}{V_s} = \\dfrac{30 \\times 2.5}{6} = 12.5$ A.\n\nNote: the original paper described a \"DC current\" through a \"step-up\" transformer. A steady DC supply induces no output voltage, and with 75 → 15 turns this is a step-down transformer, so the question has been corrected to an AC supply; the keyed answer (A) is unchanged."
+  },
+  {
+   "ref": "Q11",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "Unpolarised light is incident from the left on three polarisers, as shown below. The transmission axes are: Case 1 — horizontal, vertical, diagonal; Case 2 — horizontal, diagonal, vertical; Case 3 — diagonal, horizontal, vertical.\n\nIn which of the following cases will some light get through?",
+   "options": [
+    "Case 1 only",
+    "Case 2 only",
+    "Case 3 only",
+    "None"
+   ],
+   "correct": "B",
+   "answer": "Light is completely blocked whenever it meets a polariser at 90° to the previous one. In Case 1 (horizontal then vertical) and Case 3 (horizontal then vertical) a crossed pair blocks all the light. In Case 2 each successive polariser is only at 45° to the one before, so by Malus' law some light ($\\tfrac{1}{2}\\cos^2 45^\\circ \\cos^2 45^\\circ = \\tfrac18$ of the original intensity) gets through.",
+   "images": [
+    "assets/img/phys-2024-girraween/q11.png"
+   ]
+  },
+  {
+   "ref": "Q12",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.3.4"
+   ],
+   "question": "Kepler's Law of Periods, summarised in the equation $T^2 = kR^3$, shows a relationship between the orbital period and the radius of a planet orbiting a star.\n\nIn which of the following situations would a change in the value of the constant $k$ be needed?",
+   "options": [
+    "For a planet of greater orbital period",
+    "For a planet of a smaller orbital radius",
+    "For an identical planet orbiting a different star",
+    "For a planet of different mass orbiting the same star"
+   ],
+   "correct": "C",
+   "answer": "$k = \\dfrac{4\\pi^2}{GM}$ depends only on the mass $M$ of the central star, so it changes only if the star changes."
+  },
+  {
+   "ref": "Q13",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "The diagram shows a proton being fired upwards with a velocity of 1200 m/s into a uniform magnetic field of 3.00 T directed out of the page.\n\nWhat is the acceleration of the proton as it enters the field?",
+   "options": [
+    "$5.78 \\times 10^{-16}\\ \\text{m s}^{-2}$ to the right",
+    "$5.78 \\times 10^{-16}\\ \\text{m s}^{-2}$ to the left",
+    "$3.45 \\times 10^{11}\\ \\text{m s}^{-2}$ to the right",
+    "$3.45 \\times 10^{11}\\ \\text{m s}^{-2}$ to the left"
+   ],
+   "correct": "C",
+   "answer": "$a = \\dfrac{qvB}{m} = \\dfrac{1.602 \\times 10^{-19} \\times 1200 \\times 3.00}{1.673 \\times 10^{-27}} = 3.45 \\times 10^{11}\\ \\text{m s}^{-2}$. By the right-hand rule (positive charge moving up, field out of the page) the force is to the right.",
+   "images": [
+    "assets/img/phys-2024-girraween/q13.png"
+   ]
+  },
+  {
+   "ref": "Q14",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.2"
+   ],
+   "question": "The apparatus shown in the diagram is used in an experiment to demonstrate Lenz's law. Coil J is connected in series with a variable resistor R, a battery and switch S; coil K is connected to a resistor xy.\n\nIn the experiment, the following sequence of changes is made to the apparatus:\n\n1. Switch S is opened after having been closed for a short period of time.\n2. Switch S is closed, and coil K is brought closer to coil J.\n3. The resistance of R is decreased while switch S remains closed.\n\nWhich row of the table identifies the direction of the current in resistor xy after each change?\n\n| | 1 | 2 | 3 |\n|---|---|---|---|\n| A | x to y | x to y | x to y |\n| B | x to y | y to x | y to x |\n| C | y to x | y to x | y to x |\n| D | y to x | x to y | y to x |",
+   "options": [
+    "Row A",
+    "Row B",
+    "Row C",
+    "Row D"
+   ],
+   "correct": "B",
+   "answer": "Opening S makes the flux from J through K *decrease*; moving K closer and decreasing R (which increases the current in J) both make the flux through K *increase*. By Lenz's law the induced current in change 1 is opposite to that in changes 2 and 3, which are the same as each other. Only row B has this pattern (x to y, then y to x, y to x).",
+   "images": [
+    "assets/img/phys-2024-girraween/q14.png"
+   ]
+  },
+  {
+   "ref": "Q15",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "A football is kicked from ground level over horizontal ground with a speed of 25.0 m/s at an angle of 30° towards a goal. The ball travels a horizontal distance of 12.0 m before crossing the goal line.\n\nAt what height does the ball cross the goal line?",
+   "options": [
+    "0.83 m",
+    "3.8 m",
+    "5.4 m",
+    "10.4 m"
+   ],
+   "correct": "C",
+   "answer": "$u_x = 25\\cos 30^\\circ = 21.65\\ \\text{m s}^{-1}$, so $t = \\dfrac{12.0}{21.65} = 0.554$ s. $u_y = 25 \\sin 30^\\circ = 12.5\\ \\text{m s}^{-1}$, so $s_y = 12.5(0.554) - \\tfrac12(9.8)(0.554)^2 = 6.93 - 1.51 = 5.4$ m."
+  },
+  {
+   "ref": "Q16",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3",
+    "12.5.3.2"
+   ],
+   "question": "LEOSAR is a search and rescue satellite currently in a low Earth orbit of 850 km altitude and must be brought down to a lower orbit of 650 km altitude for a mission over the Pacific Ocean.\n\nIn order to be stable in the lower orbit, the speed of the LEOSAR satellite would need to",
+   "options": [
+    "increase by 105 m/s",
+    "decrease by 105 m/s",
+    "increase by 3115 m/s",
+    "decrease by 3115 m/s"
+   ],
+   "correct": "A",
+   "answer": "$v = \\sqrt{\\dfrac{GM}{r}}$ with $r = R_E + h$:\n\n$v_{850} = \\sqrt{\\dfrac{6.67\\times10^{-11}\\times 6.0\\times10^{24}}{7.221\\times10^{6}}} = 7444.6\\ \\text{m s}^{-1}$, $\\quad v_{650} = \\sqrt{\\dfrac{4.002\\times10^{14}}{7.021\\times10^{6}}} = 7549.9\\ \\text{m s}^{-1}$.\n\n$\\Delta v = 105\\ \\text{m s}^{-1}$, an increase (lower orbits are faster). Options C and D come from forgetting to add Earth's radius."
+  },
+  {
+   "ref": "Q17",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.3"
+   ],
+   "question": "How long does it take to emit one million photons from a 10 mW laser with a frequency of $4.5 \\times 10^{14}$ Hz?",
+   "options": [
+    "$3.0 \\times 10^{-11}$ s",
+    "$3.0 \\times 10^{-23}$ s",
+    "$3.4 \\times 10^{-22}$ s",
+    "$3.4 \\times 10^{-10}$ s"
+   ],
+   "correct": "A",
+   "answer": "$E = hf = 6.626\\times10^{-34} \\times 4.5\\times10^{14} = 2.98\\times10^{-19}$ J per photon, so $10^6$ photons carry $2.98\\times10^{-13}$ J. $t = \\dfrac{E}{P} = \\dfrac{2.98\\times10^{-13}}{0.010} = 3.0\\times10^{-11}$ s."
+  },
+  {
+   "ref": "Q18",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.2",
+    "12.5.3.1"
+   ],
+   "question": "A physicist team is researching two planets, Ursae Majoris B and Ursae Majoris C, that orbit a distant star. The table shows some of the data that the team has gathered.\n\n| Planet | Radius of orbit (m) | Orbital period (s) |\n|---|---|---|\n| Ursae Majoris B | $6.2 \\times 10^{8}$ | $4.2 \\times 10^{4}$ |\n| Ursae Majoris C | $1.56 \\times 10^{9}$ | $1.68 \\times 10^{5}$ |\n\nBased on the data in the table, which of the following statements is correct?",
+   "options": [
+    "The acceleration due to gravity experienced by Ursae Majoris B is 2.5 times greater than that experienced by Ursae Majoris C.",
+    "The acceleration due to gravity experienced by Ursae Majoris C is 2.5 times greater than that experienced by Ursae Majoris B.",
+    "The acceleration due to gravity experienced by Ursae Majoris B is 6.3 times greater than that experienced by Ursae Majoris C.",
+    "The acceleration due to gravity experienced by Ursae Majoris C is 6.3 times greater than that experienced by Ursae Majoris B."
+   ],
+   "correct": "C",
+   "answer": "$a = \\dfrac{4\\pi^2 r}{T^2}$: $a_B = \\dfrac{4\\pi^2 (6.2\\times10^8)}{(4.2\\times10^4)^2} = 13.9\\ \\text{m s}^{-2}$, $a_C = \\dfrac{4\\pi^2(1.56\\times10^9)}{(1.68\\times10^5)^2} = 2.18\\ \\text{m s}^{-2}$, ratio $\\approx 6.3$. (Equivalently $g \\propto \\dfrac{1}{r^2}$: $\\left(\\dfrac{1.56\\times10^9}{6.2\\times10^8}\\right)^2 = 6.3$.)"
+  },
+  {
+   "ref": "Q19",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.2"
+   ],
+   "question": "Laser light of unknown wavelength was passed through a pair of slits separated by $3.00 \\times 10^{-4}$ m. This produced an interference pattern on a screen 2.50 m from the slits.\n\nThe distance between the central bright spot in the interference pattern and the second bright spot above it is $9.50 \\times 10^{-3}$ m, as shown in the diagram below.\n\nThe laser wavelength is closest to:",
+   "options": [
+    "$5.70 \\times 10^{-4}$ m",
+    "$1.14 \\times 10^{-6}$ m",
+    "$5.70 \\times 10^{-7}$ m",
+    "$1.14 \\times 10^{-9}$ m"
+   ],
+   "correct": "C",
+   "answer": "The marked spot is the second-order maximum ($m = 2$). For small angles $\\sin\\theta \\approx \\dfrac{y}{L}$, so $\\lambda = \\dfrac{dy}{mL} = \\dfrac{3.00\\times10^{-4} \\times 9.50\\times10^{-3}}{2 \\times 2.50} = 5.70\\times10^{-7}$ m. (Taking $m = 1$ gives the distractor B.)",
+   "images": [
+    "assets/img/phys-2024-girraween/q19.png"
+   ]
+  },
+  {
+   "ref": "Q20",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.1.1",
+    "12.6.1.2"
+   ],
+   "question": "An electron enters a uniform electric field created by a pair of parallel plates. The plates are 40.0 cm apart and have a potential difference of 6.00 V between them, as shown in the diagram below.\n\nThe electron enters the electric field at $5.00 \\times 10^{5}\\ \\text{m s}^{-1}$ in a direction parallel to the plates. Assuming the electron enters the field exactly halfway between the plates, what is its speed when it collides with one of the plates?",
+   "options": [
+    "$1.52 \\times 10^{6}\\ \\text{m s}^{-1}$",
+    "$5.00 \\times 10^{5}\\ \\text{m s}^{-1}$",
+    "$1.03 \\times 10^{6}\\ \\text{m s}^{-1}$",
+    "$1.14 \\times 10^{6}\\ \\text{m s}^{-1}$"
+   ],
+   "correct": "D",
+   "answer": "Moving halfway across, the electron falls through 3.00 V: $W = qV = 1.602\\times10^{-19}\\times 3.00 = 4.81\\times10^{-19}$ J. Initial $K = \\tfrac12 (9.109\\times10^{-31})(5.00\\times10^5)^2 = 1.14\\times10^{-19}$ J. Final $K = 5.94\\times10^{-19}$ J, so $v = \\sqrt{\\dfrac{2K}{m}} = \\sqrt{\\dfrac{2\\times5.94\\times10^{-19}}{9.109\\times10^{-31}}} = 1.14\\times10^{6}\\ \\text{m s}^{-1}$.",
+   "images": [
+    "assets/img/phys-2024-girraween/q20.png"
+   ]
+  },
+  {
+   "ref": "Q21(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.1.4",
+    "12.5.1.1"
+   ],
+   "question": "A visitor at a lookout point at the top of a cliff accidentally rolls a ball off the lookout point, as shown in the diagram. It takes 3.5 seconds for the ball to land in the sea below.\n\nCalculate the vertical distance that the ball travels before it lands in the sea.",
+   "answer": "Vertically: $u_y = 0$, $a = 9.8\\ \\text{m s}^{-2}$, $t = 3.5$ s.\n\n$s = u_y t + \\tfrac12 a t^2 = 0 + \\tfrac12 (9.8)(3.5)^2 = 60$ m.",
+   "images": [
+    "assets/img/phys-2024-girraween/q21a.png"
+   ]
+  },
+  {
+   "ref": "Q21(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.1",
+    "12.5.1.2"
+   ],
+   "question": "A passenger in a sightseeing helicopter drops their phone while trying to take a photo of the scenery. When the phone is dropped, the helicopter is 200 m above the ground and travelling at a horizontal speed of $50.0\\ \\text{m s}^{-1}$.\n\nCalculate the horizontal distance that the phone travels before it lands on the ground.",
+   "answer": "The phone leaves with the helicopter's velocity: $u_x = 50.0\\ \\text{m s}^{-1}$, $u_y = 0$.\n\nTime of flight: $s_y = u_y t + \\tfrac12 a_y t^2 \\Rightarrow 200 = \\tfrac12 (9.8) t^2 \\Rightarrow t = \\sqrt{40.8} = 6.39$ s.\n\nHorizontal distance (no horizontal acceleration): $s_x = u_x t = 50.0 \\times 6.39 = 319$ m $\\approx 3.19\\times10^{2}$ m."
+  },
+  {
+   "ref": "Q22",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.3.3",
+    "12.8.3.2"
+   ],
+   "question": "The Balmer series is observed when electrons in hydrogen transition to the second atomic shell ($n = 2$). Determine the lowest frequency of light observed in the Balmer series.",
+   "answer": "The lowest frequency corresponds to the smallest energy change, the transition $n_i = 3 \\to n_f = 2$.\n\n$\\dfrac{1}{\\lambda} = R\\left(\\dfrac{1}{n_f^2} - \\dfrac{1}{n_i^2}\\right) = 1.097\\times10^{7}\\left(\\dfrac14 - \\dfrac19\\right) = 1.524\\times10^{6}\\ \\text{m}^{-1} \\Rightarrow \\lambda = 6.56\\times10^{-7}$ m\n\n$f = \\dfrac{c}{\\lambda} = \\dfrac{3.00\\times10^{8}}{6.56\\times10^{-7}} = 4.57\\times10^{14}$ Hz."
+  },
+  {
+   "ref": "Q23(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "A race car is moving at constant speed around a banked circular track that has a radius of 90.0 m and an angle of banking of $\\theta$ degrees, as shown in the diagram.\n\nIdentify the forces acting on the car and state the direction of each.",
+   "answer": "- **Weight** (gravitational force, $mg$): acting vertically downwards.\n- **Normal (reaction) force** from the track: acting perpendicular to the banked surface, i.e. tilted from the vertical by $\\theta$ towards the centre of the circle.\n\n(If the car is not at the design speed there is also a friction force along the track surface, up or down the slope.) The horizontal component of the normal force provides the centripetal force.",
+   "images": [
+    "assets/img/phys-2024-girraween/q23.png"
+   ]
+  },
+  {
+   "ref": "Q23(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2",
+    "12.5.2.3"
+   ],
+   "question": "A race car is moving at constant speed around a banked circular track that has a radius of 90.0 m. If the angle of banking is 10°, find the speed necessary so that no sideways force (friction) needs to be exerted between the tyres and the track.",
+   "answer": "With no friction, only the weight $mg$ and the normal force $N$ act. Vertically: $N\\cos\\theta = mg$. Horizontally (towards the centre): $N\\sin\\theta = \\dfrac{mv^2}{r}$.\n\nDividing: $\\tan\\theta = \\dfrac{v^2}{rg}$, so\n\n$v = \\sqrt{rg\\tan\\theta} = \\sqrt{90.0 \\times 9.8 \\times \\tan 10^\\circ} = 12.5\\ \\text{m s}^{-1}$.",
+   "images": [
+    "assets/img/phys-2024-girraween/q23.png"
+   ]
+  },
+  {
+   "ref": "Q24(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.3",
+    "12.5.3.2"
+   ],
+   "question": "Calculate the centripetal acceleration of the Earth as it orbits the Sun. Use $1.50 \\times 10^{11}$ m as the radius of Earth's orbit.",
+   "answer": "$T = 365 \\times 24 \\times 60 \\times 60 = 3.15\\times10^{7}$ s\n\n$v = \\dfrac{2\\pi r}{T} = \\dfrac{2\\pi \\times 1.50\\times10^{11}}{3.15\\times10^{7}} = 2.99\\times10^{4}\\ \\text{m s}^{-1}$\n\n$a_c = \\dfrac{v^2}{r} = \\dfrac{(2.99\\times10^{4})^2}{1.50\\times10^{11}} = 5.95\\times10^{-3}\\ \\text{m s}^{-2}$ towards the Sun."
+  },
+  {
+   "ref": "Q24(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.3",
+    "12.5.3.1"
+   ],
+   "question": "A 1500 kg spacecraft orbits the Earth at a distance of $4.00 \\times 10^{7}$ m and completes an orbit in 6.00 hours. How much does the centripetal force exerted on the spacecraft while in orbit differ from the gravitational force on it if it was on the Earth's surface?",
+   "answer": "$v = \\dfrac{2\\pi r}{T} = \\dfrac{2\\pi \\times 4.00\\times10^{7}}{21\\,600} = 1.164\\times10^{4}\\ \\text{m s}^{-1}$\n\n$a_c = \\dfrac{v^2}{r} = \\dfrac{(1.164\\times10^{4})^2}{4.00\\times10^{7}} = 3.38\\ \\text{m s}^{-2}$, so $F_c = ma_c = 1500 \\times 3.38 = 5.08\\times10^{3}$ N.\n\nOn the surface: $F_g = mg = 1500 \\times 9.8 = 1.47\\times10^{4}$ N.\n\nDifference: $1.47\\times10^{4} - 5.08\\times10^{3} \\approx 9.6\\times10^{3}$ N (the centripetal force in orbit is about 9.6 kN smaller).\n\n*Note: the paper's solution subtracts $14\\,715 - 5077$ and writes 9510 N; the correct difference is about $9.6\\times10^{3}$ N.*"
+  },
+  {
+   "ref": "Q24(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.4"
+   ],
+   "question": "Referring to Kepler's laws, describe how Earth's centripetal acceleration varies as its orbit takes it closer to the Sun and further away each year.",
+   "answer": "Kepler's first law states that planetary orbits are ellipses with the Sun at one focus, so the Earth–Sun distance $r$ varies over the year. Kepler's second law states that the line joining the planet to the Sun sweeps out equal areas in equal times, so the Earth moves faster when it is closer to the Sun (perihelion) and slower when it is further away (aphelion).\n\nSince $a_c = \\dfrac{v^2}{r}$ (equivalently $a = \\dfrac{GM}{r^2}$), when Earth is closer to the Sun $v$ is larger and $r$ is smaller, so its centripetal acceleration is greatest; when it is furthest away $v$ is smaller and $r$ larger, so its centripetal acceleration is least.\n\n*Note: the paper's sample answer attributes the equal-areas law to Kepler's third law; it is the second law (the third law relates $T^2$ to $r^3$).*"
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "A particle in an accelerator reaches a velocity of $2.50 \\times 10^{4}\\ \\text{m s}^{-1}$ before entering a Wilson cloud chamber. The cloud chamber is in a uniform magnetic field of $1.95 \\times 10^{-6}$ T directed into the page. The diagram illustrates the particle's path: it enters moving up the page and curves to the right.\n\nIdentify whether the particle is positively or negatively charged and justify your response.",
+   "answer": "The particle is **negatively charged**. For a positive charge moving up the page in a field into the page, the right-hand rule ($\\vec F = q\\vec v \\times \\vec B$) gives a force to the left. The particle curves to the right, so the force on it is opposite to that for a positive charge, and the charge must be negative.",
+   "images": [
+    "assets/img/phys-2024-girraween/q25.png"
+   ]
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.4",
+    "12.6.1.3"
+   ],
+   "question": "A charged particle moving at $2.50 \\times 10^{4}\\ \\text{m s}^{-1}$ enters a uniform magnetic field of $1.95 \\times 10^{-6}$ T perpendicular to its velocity. The radius of the particle's circular path is 5.0 cm.\n\nShow that the charge-to-mass ratio of the particle is $2.6 \\times 10^{11}\\ \\text{C kg}^{-1}$.",
+   "answer": "The magnetic force provides the centripetal force: $\\dfrac{mv^2}{r} = qvB \\Rightarrow r = \\dfrac{mv}{qB}$\n\n$\\dfrac{q}{m} = \\dfrac{v}{rB} = \\dfrac{2.50\\times10^{4}}{0.050 \\times 1.95\\times10^{-6}} = 2.6\\times10^{11}\\ \\text{C kg}^{-1}$"
+  },
+  {
+   "ref": "Q26(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.8.3.4"
+   ],
+   "question": "Determine the wavelength of an electron moving at $2.0 \\times 10^{7}\\ \\text{m s}^{-1}$.",
+   "answer": "$\\lambda = \\dfrac{h}{mv} = \\dfrac{6.626\\times10^{-34}}{9.109\\times10^{-31} \\times 2.0\\times10^{7}} = 3.6\\times10^{-11}$ m"
+  },
+  {
+   "ref": "Q26(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.3.4"
+   ],
+   "question": "How was an observation from electron scattering experiments used to support de Broglie's proposal of matter waves?",
+   "answer": "Davisson and Germer fired a beam of electrons at a nickel crystal and measured the intensity of the scattered electrons at different angles. They observed a diffraction pattern — strong maxima at particular angles — similar to the pattern produced when X-rays are diffracted by a crystal lattice.\n\nDiffraction is a wave phenomenon, so this showed that electrons behave as waves. The wavelength calculated from the diffraction maxima and the crystal spacing agreed with de Broglie's predicted wavelength $\\lambda = \\dfrac{h}{mv}$ for the electrons' momentum, providing experimental confirmation of matter waves."
+  },
+  {
+   "ref": "Q26(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.3.4"
+   ],
+   "question": "Explain why matter waves have not been observed for objects larger than single molecules.",
+   "answer": "The de Broglie wavelength $\\lambda = \\dfrac{h}{mv}$ is inversely proportional to mass. Because $h$ is so small ($6.626\\times10^{-34}$ J s), any macroscopic object has a wavelength many orders of magnitude smaller than an atom. Diffraction and interference are only observable when the wavelength is comparable to the size of the gap or obstacle, and no slit or grating that small exists, so wave behaviour cannot be detected."
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "How far above the Earth's surface will an object need to ascend for the acceleration due to gravity to be half what it is at the surface? (Radius of Earth $= 6.38\\times10^{6}$ m.)",
+   "answer": "$g = \\dfrac{GM}{r^2}$. For $g = \\tfrac12 g_{\\text{surface}}$: $\\dfrac{GM}{r^2} = \\dfrac12 \\dfrac{GM}{R_E^2} \\Rightarrow r^2 = 2R_E^2 \\Rightarrow r = \\sqrt2\\,R_E$.\n\nHeight above the surface: $h = r - R_E = (\\sqrt2 - 1)R_E = 0.414 \\times 6.38\\times10^{6} = 2.64\\times10^{6}$ m."
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.2",
+    "12.5.2.3"
+   ],
+   "question": "How long would a day be if the Earth were rotating so fast that objects at the equator were apparently weightless? (Radius of Earth $= 6.38\\times10^{6}$ m.)",
+   "answer": "Objects are apparently weightless when gravity provides exactly the centripetal acceleration needed: $g = \\dfrac{v^2}{R_E} = \\dfrac{4\\pi^2 R_E}{T^2}$.\n\n$T = 2\\pi\\sqrt{\\dfrac{R_E}{g}} = 2\\pi\\sqrt{\\dfrac{6.38\\times10^{6}}{9.80}} = 5.07\\times10^{3}$ s $\\approx 84.5$ minutes (about 1.4 hours)."
+  },
+  {
+   "ref": "Q28(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "A Physics student is provided with two pairs of polarised sunglasses and a light source of polarised light. The two sunglasses are oriented at 42.0° to one another. The light source is polarised at a 21.0° angle to the first pair of sunglasses.\n\nWhat percentage of the incoming intensity is transmitted once it has passed through both sunglasses?",
+   "answer": "By Malus' law $I = I_{\\max}\\cos^2\\theta$. The angle between the light and the first polariser is 21.0°, and between the two polarisers 42.0°:\n\n$I_2 = I_0 \\cos^2 21.0^\\circ \\cos^2 42.0^\\circ = I_0 (0.8716)(0.5523) = 0.481\\,I_0$\n\nSo 48.1% of the incoming intensity is transmitted.\n\n*Note: the paper's working writes $\\cos 21.0^\\circ$ and $\\cos 42.0^\\circ$ without the squares, although its final answer (48.1%) is the Malus' law value.*"
+  },
+  {
+   "ref": "Q28(b)",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.4",
+    "12.7.2.3"
+   ],
+   "question": "Discuss how polarisation can be explained by comparing the particle model and wave models of light.",
+   "answer": "Polarisation is the restriction of the oscillations of a wave to a single plane. If light passes through one polariser and then through a second polariser whose axis is perpendicular to the first, no light passes through the second, and the transmitted intensity varies with the angle between them ($I = I_{\\max}\\cos^2\\theta$).\n\n**Particle model.** Newton's corpuscular model describes light as a stream of particles. Such particles have no orientation that a polariser could select, so they would be expected to pass through both polarisers regardless of angle; the model cannot explain polarisation.\n\n**Longitudinal wave model.** Huygens' wave model treated light as a longitudinal wave (like sound). In a longitudinal wave the oscillation is parallel to the direction of propagation, so there is no transverse direction to restrict — longitudinal waves cannot be polarised. This model also fails.\n\n**Transverse (electromagnetic) wave model.** Maxwell showed light is an electromagnetic wave: oscillating electric and magnetic fields perpendicular to each other and to the direction of travel. Because the oscillations are transverse, a polariser can transmit only the component of the electric field along its axis, explaining both the complete blocking by crossed polarisers and Malus' law. Polarisation therefore supports the transverse wave model of light."
+  },
+  {
+   "ref": "Q29",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.4.2",
+    "12.6.4.3"
+   ],
+   "question": "AC induction motors and electromagnetic braking have features in common. With reference to relevant physics concepts, explain these by outlining the operation of both.",
+   "answer": "**Common features.** Both rely on electromagnetic induction (Faraday's law, $\\varepsilon = -N\\dfrac{\\Delta\\Phi}{\\Delta t}$) and Lenz's law: a changing magnetic flux through a conductor induces currents whose own magnetic field opposes the change, producing a force on the conductor. In both, there is no physical/electrical contact between the source of the field and the moving conductor, reducing wear and maintenance.\n\n**AC induction motor.** The stator has sets of coils (e.g. three-phase, 120° out of phase) arranged around the rotor; the AC supply makes the resultant magnetic field rotate. The rotor is a \"squirrel cage\" of conducting bars joined by end rings. The rotating field changes the flux through the cage, inducing emf and currents in the bars (Faraday). The induced currents experience a force in the magnetic field (motor effect), and by Lenz's law the rotor turns in the direction that reduces the relative motion between it and the rotating field — so it follows the field, always slightly slower (slip).\n\n**Electromagnetic braking.** When a conductor (a metal rail, fin or disc, e.g. on a train or amusement-park ride) moves relative to a strong magnetic field, the flux through regions of the conductor changes, inducing eddy currents. By Lenz's law these eddy currents produce magnetic fields that oppose the relative motion, giving a retarding force that converts kinetic energy to heat in the conductor. The braking force is larger at higher speeds and fades as the object slows."
+  },
+  {
+   "ref": "Q30(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.3"
+   ],
+   "question": "A physicist conducted an experiment using a transformer. The results are recorded in the table.\n\n| | Primary coil | Secondary coil |\n|---|---|---|\n| Voltage (V) | 120 | ? |\n| Current (mA) | 3.0 | 30 |\n| Number of turns | ? | 5 |\n\nIf the transformer is 100% efficient, determine the secondary voltage and the number of turns in the primary coil.",
+   "answer": "$V_p I_p = V_s I_s \\Rightarrow V_s = \\dfrac{V_p I_p}{I_s} = \\dfrac{120 \\times 3.0}{30} = 12$ V\n\n$\\dfrac{V_p}{V_s} = \\dfrac{N_p}{N_s} \\Rightarrow N_p = \\dfrac{V_p N_s}{V_s} = \\dfrac{120 \\times 5}{12} = 50$ turns"
+  },
+  {
+   "ref": "Q30(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.3",
+    "12.6.3.5"
+   ],
+   "question": "A 95 W transformer is installed and has an output voltage of 12 V and an input current of 25 A.\n\nDetermine if the transformer is a step-up or step-down transformer and by what factor the voltage is multiplied.",
+   "answer": "Assuming 100% efficiency, the input voltage is $V_p = \\dfrac{P}{I_p} = \\dfrac{95}{25} = 3.8$ V.\n\nSince $V_p < V_s$ (3.8 V in, 12 V out), it is a **step-up** transformer.\n\nFactor: $\\dfrac{V_s}{V_p} = \\dfrac{12}{3.8} = 3.2$"
+  },
+  {
+   "ref": "Q31",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.4.1",
+    "12.6.2.1"
+   ],
+   "question": "Using relevant equations and diagrams, describe how the motor effect plays a part in the operation of a simple DC electric motor.",
+   "answer": "The motor effect is the force on a current-carrying conductor in a magnetic field, $F = lIB\\sin\\theta$, where $\\theta$ is the angle between the current and the field; its direction is given by the right-hand rule.\n\nIn a simple DC motor a rectangular coil ABCD sits between the poles of a magnet and can rotate about an axis. Current flows in opposite directions along the two sides that are perpendicular to the field (AB and CD), so the motor-effect forces on these sides are equal and opposite (e.g. down on AB, up on CD). Being on opposite sides of the axis, they form a couple producing a torque\n\n$$\\tau = nIAB\\sin\\theta$$\n\n(or $\\tau = r_\\perp F$), which turns the coil. (A diagram would show the coil between N and S poles with the field from N to S, the current around the loop, and force arrows up on one side and down on the other.)\n\nThe torque is maximum when the plane of the coil is parallel to the field and zero when it is perpendicular. After each half-turn the sides swap positions, so the current must be reversed to keep the torque in the same direction; the split-ring commutator does this, with brushes maintaining contact with the supply, so the coil rotates continuously in one direction."
+  },
+  {
+   "ref": "Q32(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.3",
+    "12.8.3.4",
+    "12.7.2.2"
+   ],
+   "question": "Discuss how interference patterns were used to provide evidence for the nature of both light and matter.",
+   "answer": "**Light.** Newton proposed a particle (corpuscular) model of light, while Huygens proposed a wave model. Young's double-slit experiment produced an interference pattern of alternating bright and dark fringes. Particles would produce only two bright bands; the fringes can only be explained by waves from the two slits superposing constructively and destructively. This supported Huygens' wave model and led to the rejection of Newton's particle model (until the photon model was later needed for the photoelectric effect).\n\n**Matter.** Electrons were thought to be purely particles. De Broglie proposed that matter has a wavelength $\\lambda = \\dfrac{h}{mv}$. Davisson and Germer scattered electrons off a nickel crystal and observed a diffraction/interference pattern, and the wavelength calculated from the pattern matched de Broglie's prediction. This showed electrons have wave properties.\n\n**Overall.** Interference — a uniquely wave phenomenon — was the key evidence that changed both models, leading to the acceptance that light and matter each have a dual wave–particle nature, the basis of quantum mechanics."
+  },
+  {
+   "ref": "Q33",
+   "kind": "written",
+   "marks": 7,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.1.5",
+    "12.8.3.3"
+   ],
+   "question": "Diagram 1 shows a small section of the spectrum for a mixture of gaseous elements (bright lines at 565, 569, 575, 582, 587, 594 and 600 nm). Diagram 2 shows the electron energy levels for a gaseous element X.\n\nA physics student states that the spectral line produced when an electron falls from the $-3.54$ eV energy level to the $-5.74$ eV level proves that element X is one of the gases in the mixture.\n\nCritically evaluate the student's statement using your understanding of how spectral lines are produced.",
+   "answer": "Spectral lines are produced when an electron in an excited atom falls from a higher energy level to a lower one, emitting a photon whose energy equals the difference between the levels, $\\Delta E = hf = \\dfrac{hc}{\\lambda}$. Each element has its own set of energy levels and so its own characteristic set of lines.\n\nFor the transition shown: $\\Delta E = -3.54 - (-5.74) = 2.20$ eV $= 2.20 \\times 1.602\\times10^{-19} = 3.52\\times10^{-19}$ J\n\n$\\lambda = \\dfrac{hc}{\\Delta E} = \\dfrac{6.626\\times10^{-34}\\times3.00\\times10^{8}}{3.52\\times10^{-19}} = 5.64\\times10^{-7}\\ \\text{m} = 564$ nm\n\nThis is very close to the 565 nm line (the far-left line) in Diagram 1, which is evidence *consistent with* element X being in the mixture.\n\nHowever, the statement that this *proves* X is present is not justified. A single matching line is not enough: different elements can have lines at the same or very similar wavelengths, and the 1 nm difference is within experimental uncertainty but is not an exact match. An element is identified by its complete pattern of lines, so further evidence is needed — for example, calculating the wavelengths of other transitions of element X (e.g. from the −1.45 / −1.47 eV levels) and showing that they also appear in the spectrum. Scientific evidence can support a conclusion but does not \"prove\" it from one observation.\n\nJudgement: the data support the possibility that X is present, but the student's claim of proof is overstated.",
+   "images": [
+    "assets/img/phys-2024-girraween/q33-diagram1.png",
+    "assets/img/phys-2024-girraween/q33-diagram2.png"
+   ]
+  },
+  {
+   "ref": "Q34(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.3"
+   ],
+   "question": "A team of physicists conducted an experiment to investigate the photoelectric effect. They directed light of different frequencies at the surface of a particular metal. The maximum kinetic energies of the electrons emitted by the metal were measured, and the data was recorded in the table.\n\n| Light frequency ($\\times 10^{14}$ Hz) | Maximum kinetic energy of electrons (eV) |\n|---|---|\n| 5.6 | 0.01 |\n| 6.0 | 0.18 |\n| 6.5 | 0.41 |\n| 7.1 | 0.70 |\n| 7.9 | 0.97 |\n| 8.8 | 1.31 |\n\nPlot the data on a graph of maximum kinetic energy (eV) against frequency, draw a line of best fit, and, using the plotted data:\n\n- determine the work function ($\\phi$) of the metal;\n- calculate a value for Planck's constant.",
+   "answer": "Plot $K_{\\max}$ (vertical axis, eV) against $f$ (horizontal axis, $\\times10^{14}$ Hz), draw the line of best fit through the points and extend it back to the vertical axis. Since $K_{\\max} = hf - \\phi$, the gradient is $h$ and the vertical intercept is $-\\phi$.\n\nExtrapolating, the line meets the vertical axis at about $-2.13$ eV, so $\\phi \\approx 2.13$ eV (accept 2.10–2.30 eV).\n\nGradient, e.g. from $(1.0\\times10^{14}, -1.75)$ to $(5.5\\times10^{14}, 0)$: $h = \\dfrac{\\text{rise}}{\\text{run}} = \\dfrac{0 - (-1.75)}{5.5\\times10^{14} - 1.0\\times10^{14}} = \\dfrac{1.75}{4.5\\times10^{14}} = 3.9\\times10^{-15}$ eV s (accept $3.5$–$4.5\\times10^{-15}$ eV s; the accepted value is $4.14\\times10^{-15}$ eV s).",
+   "answer_images": [
+    "assets/img/phys-2024-girraween/q34a-graph.png"
+   ]
+  },
+  {
+   "ref": "Q34(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.3"
+   ],
+   "question": "In a photoelectric effect experiment on a particular metal, a graph of the data gave a work function of $\\phi = 2.13$ eV and a value for Planck's constant of $h = 3.9 \\times 10^{-15}$ eV s.\n\nLight of wavelength 420 nm is directed at the metal. Using these values for $\\phi$ and $h$, determine whether the photoelectric effect will occur.",
+   "answer": "$K_{\\max} = \\dfrac{hc}{\\lambda} - \\phi = \\dfrac{3.9\\times10^{-15} \\times 3.00\\times10^{8}}{4.20\\times10^{-7}} - 2.13 = 2.79 - 2.13 = 0.66$ eV\n\nSince the photon energy (2.79 eV) exceeds the work function, $K_{\\max} > 0$: electrons are emitted with up to 0.66 eV of kinetic energy, so the photoelectric effect **will occur**."
+  }
+ ]
+}

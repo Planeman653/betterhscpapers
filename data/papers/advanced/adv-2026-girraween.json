@@ -1,0 +1,735 @@
+{
+ "id": "adv-2026-girraween",
+ "course": "advanced",
+ "school": "Girraween",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5328",
+  "title": "Girraween 2026 w. sol"
+ },
+ "indexed": "2026-11-12",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q5",
+   "reason": "Not in 2024 syllabus: limit of sin x / x"
+  },
+  {
+   "ref": "Q20(i)",
+   "reason": "Not in 2024 syllabus: bivariate data (correlation coefficient)"
+  },
+  {
+   "ref": "Q20(ii)",
+   "reason": "Not in 2024 syllabus: bivariate data (least-squares regression line)"
+  },
+  {
+   "ref": "Q20(iii)",
+   "reason": "Not in 2024 syllabus: bivariate data (interpolation/extrapolation with a regression line)"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.11.6"
+   ],
+   "question": "The solution to $|x - 3| = 6$ is",
+   "options": [
+    "$x = -3,\\ 9$",
+    "$x = 3,\\ -9$",
+    "$x = -3,\\ -9$",
+    "$x = 3,\\ 9$"
+   ],
+   "correct": "A",
+   "answer": "$x - 3 = 6$ or $x - 3 = -6$, so $x = 9$ or $x = -3$."
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "What is the gradient of the tangent to the graph of $y = 2\\sin \\pi x$ at $x = \\dfrac{1}{3}$?",
+   "options": [
+    "$\\dfrac{\\pi}{2}$",
+    "$\\pi$",
+    "$\\sqrt{3}\\,\\pi$",
+    "$2\\pi$"
+   ],
+   "correct": "B",
+   "answer": "$y' = 2\\pi\\cos \\pi x$. At $x = \\frac{1}{3}$: $y' = 2\\pi \\cos\\frac{\\pi}{3} = 2\\pi \\times \\frac{1}{2} = \\pi$."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.3.1.12",
+    "11.3.1.7"
+   ],
+   "question": "Which expression is equivalent to $\\tan\\theta + \\cot\\theta$?",
+   "options": [
+    "$\\operatorname{cosec}\\theta + \\sec\\theta$",
+    "$\\sec\\theta\\operatorname{cosec}\\theta$",
+    "$2$",
+    "$1$"
+   ],
+   "correct": "B",
+   "answer": "$\\tan\\theta + \\cot\\theta = \\dfrac{\\sin\\theta}{\\cos\\theta} + \\dfrac{\\cos\\theta}{\\sin\\theta} = \\dfrac{\\sin^2\\theta + \\cos^2\\theta}{\\sin\\theta\\cos\\theta} = \\dfrac{1}{\\sin\\theta\\cos\\theta} = \\sec\\theta\\operatorname{cosec}\\theta$."
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.6.1.6",
+    "11.1.5.1"
+   ],
+   "question": "The graph of the function $f(x) = \\dfrac{3x + 2}{5 - x}$ has asymptotes at:",
+   "options": [
+    "$x = -5,\\ y = \\dfrac{3}{2}$",
+    "$x = \\dfrac{2}{3},\\ y = -3$",
+    "$x = 5,\\ y = 3$",
+    "$x = 5,\\ y = -3$"
+   ],
+   "correct": "D",
+   "answer": "Vertical asymptote where $5 - x = 0$, i.e. $x = 5$.\n\nHorizontal asymptote: $\\displaystyle\\lim_{x\\to\\infty}\\frac{3x+2}{5-x} = \\lim_{x\\to\\infty}\\frac{3 + \\frac{2}{x}}{\\frac{5}{x} - 1} = -3$, so $y = -3$."
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.6"
+   ],
+   "question": "The graph of $y = f(x)$ is shown: a horizontal line at $y = 2$ from $x = -3$ to $x = 0$, a quarter circle of radius 2 from $(0, 2)$ to $(2, 0)$, then a straight line from $(2, 0)$ to $(5, -1)$.\n\nWhat is the exact value of $\\displaystyle\\int_{-3}^{5} f(x)\\,dx$?",
+   "options": [
+    "$\\pi + \\dfrac{9}{2}$",
+    "$\\pi + \\dfrac{15}{2}$",
+    "$\\pi - \\dfrac{15}{2}$",
+    "$\\pi - \\dfrac{9}{2}$"
+   ],
+   "correct": "A",
+   "answer": "Signed area = rectangle + quarter circle − triangle below the axis:\n\n$\\displaystyle\\int_{-3}^{5} f(x)\\,dx = 3\\times 2 + \\tfrac{1}{4}\\pi(2)^2 - \\tfrac{1}{2}\\times 3\\times 1 = 6 + \\pi - \\tfrac{3}{2} = \\pi + \\tfrac{9}{2}$.",
+   "images": [
+    "assets/img/adv-2026-girraween/q6.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.3.6",
+    "11.7.3.8"
+   ],
+   "question": "In the Venn diagram below, events $A$ and $B$ are independent. The numbers of outcomes are: 4 in $A$ only, $x$ in $A \\cap B$, 9 in $B$ only and 3 outside both events.\n\nWhat is the value of $x$?",
+   "options": [
+    "6",
+    "8",
+    "12",
+    "15"
+   ],
+   "correct": "C",
+   "answer": "Independent, so $P(A \\mid B) = P(A)$:\n\n$\\dfrac{x}{x + 9} = \\dfrac{x + 4}{x + 16}$\n\n$x^2 + 16x = x^2 + 13x + 36 \\Rightarrow 3x = 36 \\Rightarrow x = 12$.",
+   "images": [
+    "assets/img/adv-2026-girraween/q7.png"
+   ]
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.10"
+   ],
+   "question": "A particle moves along a straight line. Its velocity $v$ at time $t$ is shown in the graph below ($v < 0$ for $0 < t < 6$, $v > 0$ for $6 < t < 10$, $v < 0$ for $10 < t < 18$).\n\nFor what value of $t$ is the displacement of the particle a maximum?",
+   "options": [
+    "18",
+    "10",
+    "8",
+    "6"
+   ],
+   "correct": "B",
+   "answer": "The displacement has a (local) maximum where the velocity changes from positive to negative, which happens at $t = 10$.",
+   "images": [
+    "assets/img/adv-2026-girraween/q8.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.6.1.6",
+    "11.1.5.1"
+   ],
+   "question": "Consider the graph of $y = \\dfrac{k}{x + b} + c$ below, with vertical asymptote $x = 3$, horizontal asymptote $y = 2$ and $y$-intercept at $\\left(0, \\dfrac{10}{3}\\right)$.\n\nWhich of the following is true?",
+   "options": [
+    "$k < b < c$",
+    "$b < k < c$",
+    "$k < c < b$",
+    "$c < k < b$"
+   ],
+   "correct": "A",
+   "answer": "Horizontal asymptote $y = 2$ gives $c = 2$; vertical asymptote $x = 3$ gives $b = -3$. So $y = \\dfrac{k}{x - 3} + 2$.\n\nAt $(0, \\frac{10}{3})$: $\\dfrac{10}{3} = \\dfrac{k}{-3} + 2 \\Rightarrow 10 = -k + 6 \\Rightarrow k = -4$.\n\n$-4 < -3 < 2$, so $k < b < c$.",
+   "images": [
+    "assets/img/adv-2026-girraween/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.9",
+    "12.5.1.4"
+   ],
+   "question": "The graph of $y = f'(x)$ is a straight line with $y$-intercept 6 and $x$-intercept 3.\n\nWhat is the equation of $y = f(x)$, if it has a maximum value of 16?",
+   "options": [
+    "$y = x^2 - 6x + 16$",
+    "$y = x^2 - 6x - 11$",
+    "$y = -x^2 + 6x + 7$",
+    "$y = -x^2 + 6x + 25$"
+   ],
+   "correct": "C",
+   "answer": "$f'(x) = -2x + 6$, so $f(x) = -x^2 + 6x + C$.\n\n$f'(x) = 0$ when $x = 3$ (a maximum since $f'$ changes from positive to negative): $-9 + 18 + C = 16 \\Rightarrow C = 7$.\n\n$y = -x^2 + 6x + 7$.",
+   "images": [
+    "assets/img/adv-2026-girraween/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.1",
+    "12.3.1.1"
+   ],
+   "question": "Differentiate $y = e^{2x}(x + 2)$.",
+   "answer": "Product rule:\n\n$y' = e^{2x}\\times 1 + (x + 2)\\times 2e^{2x} = e^{2x}(1 + 2x + 4) = e^{2x}(2x + 5)$."
+  },
+  {
+   "ref": "Q12",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7",
+    "12.4.4.3"
+   ],
+   "question": "Find $\\displaystyle\\int \\sqrt{4x + 1}\\,dx$.",
+   "answer": "$\\displaystyle\\int (4x+1)^{\\frac{1}{2}}\\,dx = \\frac{(4x+1)^{\\frac{3}{2}}}{4\\times\\frac{3}{2}} + C = \\frac{(4x+1)^{\\frac{3}{2}}}{6} + C$."
+  },
+  {
+   "ref": "Q13",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.4.1",
+    "11.4.4.5"
+   ],
+   "question": "For the function $f(x) = x^3 - 9x$, state the domain where $f(x)$ is increasing.",
+   "answer": "$f(x)$ is increasing where $f'(x) > 0$:\n\n$3x^2 - 9 > 0 \\Rightarrow 3(x^2 - 3) > 0$.\n\nThis is a concave-up parabola with roots $\\pm\\sqrt{3}$, so $x < -\\sqrt{3}$ or $x > \\sqrt{3}$."
+  },
+  {
+   "ref": "Q14",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.6.2",
+    "12.4.8.1"
+   ],
+   "question": "Find the exact value of $\\displaystyle\\int_1^2 \\frac{3}{4x - 1}\\,dx$.",
+   "answer": "$\\displaystyle\\int_1^2 \\frac{3}{4x-1}\\,dx = \\frac{3}{4}\\Big[\\ln|4x - 1|\\Big]_1^2 = \\frac{3}{4}(\\ln 7 - \\ln 3) = \\frac{3}{4}\\ln\\frac{7}{3}$."
+  },
+  {
+   "ref": "Q15(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.3.10"
+   ],
+   "question": "Differentiate $\\dfrac{14}{7x^2 + 2}$.",
+   "answer": "$\\dfrac{d}{dx}\\,14(7x^2+2)^{-1} = -14(7x^2+2)^{-2}\\times 14x = \\dfrac{-196x}{(7x^2+2)^2}$."
+  },
+  {
+   "ref": "Q15(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.4.5",
+    "12.4.1.1"
+   ],
+   "question": "Given that $\\dfrac{d}{dx}\\left(\\dfrac{14}{7x^2 + 2}\\right) = \\dfrac{-196x}{(7x^2+2)^2}$, find $\\displaystyle\\int \\frac{14x}{(7x^2 + 2)^2}\\,dx$.",
+   "answer": "$\\displaystyle\\int \\frac{14x}{(7x^2+2)^2}\\,dx = -\\frac{1}{14}\\int \\frac{-196x}{(7x^2+2)^2}\\,dx = -\\frac{1}{14}\\times\\frac{14}{7x^2+2} + C = -\\frac{1}{7x^2+2} + C$."
+  },
+  {
+   "ref": "Q16",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.12",
+    "11.3.1.11"
+   ],
+   "question": "Prove that $\\sec^2 x + \\sec x\\tan x = \\dfrac{1}{1 - \\sin x}$.",
+   "answer": "$\\text{LHS} = \\dfrac{1}{\\cos^2 x} + \\dfrac{1}{\\cos x}\\cdot\\dfrac{\\sin x}{\\cos x} = \\dfrac{1 + \\sin x}{\\cos^2 x} = \\dfrac{1 + \\sin x}{1 - \\sin^2 x}$\n\n$= \\dfrac{1 + \\sin x}{(1 + \\sin x)(1 - \\sin x)} = \\dfrac{1}{1 - \\sin x} = \\text{RHS}$."
+  },
+  {
+   "ref": "Q17(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.9.8"
+   ],
+   "question": "Consider the functions $f(x) = e^x$ and $g(x) = \\ln(x - 2)$. Find the composite function $f(g(x))$.",
+   "answer": "$f(g(x)) = e^{\\ln(x-2)} = x - 2$ (for $x > 2$)."
+  },
+  {
+   "ref": "Q17(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.9.3",
+    "11.1.9.8"
+   ],
+   "question": "Consider the functions $f(x) = e^x$ and $g(x) = \\ln(x - 2)$, so that $f(g(x)) = x - 2$. Find, in interval notation, the range of $f(g(x))$.",
+   "answer": "$g(x) = \\ln(x - 2)$ is only defined for $x > 2$, so the domain of $f(g(x))$ is $x > 2$ and $f(g(x)) = x - 2 > 0$.\n\nRange: $(0, \\infty)$."
+  },
+  {
+   "ref": "Q18",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.7",
+    "12.6.2.6"
+   ],
+   "question": "The function below is a probability density function:\n\n$$f(x) = \\begin{cases} ax^2, & 0 \\le x \\le 6 \\\\ 0, & \\text{otherwise.}\\end{cases}$$\n\nFind the value of $a$.",
+   "answer": "As $f$ is a PDF, $\\displaystyle\\int_0^6 ax^2\\,dx = 1$:\n\n$\\left[\\dfrac{ax^3}{3}\\right]_0^6 = \\dfrac{216a}{3} = 72a = 1 \\Rightarrow a = \\dfrac{1}{72}$."
+  },
+  {
+   "ref": "Q19(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.1.6"
+   ],
+   "question": "Bob plays archery competitively as part of a team. The number of attempts ($X$) that he needs to hit the target is given by the probability distribution table:\n\n| $x$ | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| $P(X = x)$ | 0.12 | 0.35 | 0.32 | 0.17 | 0.04 |\n\nFind the expected number of attempts Bob needs to hit the target.",
+   "answer": "$E(X) = 1(0.12) + 2(0.35) + 3(0.32) + 4(0.17) + 5(0.04) = 2.66$."
+  },
+  {
+   "ref": "Q19(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.9",
+    "12.6.1.6"
+   ],
+   "question": "Bob plays archery competitively as part of a team. The number of attempts ($X$) that he needs to hit the target is given by the probability distribution table:\n\n| $x$ | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| $P(X = x)$ | 0.12 | 0.35 | 0.32 | 0.17 | 0.04 |\n\nBob's expected number of attempts is $E(X) = 2.66$.\n\nThe team's coach would like to select someone from the team to be captain. Another archer in the team, Karen, has the same expected number of attempts as Bob, and a standard deviation of 1.2. If the coach bases his decision on performance, are they more likely to choose Bob or Karen? Justify your answer with appropriate statistical reasoning.",
+   "answer": "$E(X^2) = 1^2(0.12) + 2^2(0.35) + 3^2(0.32) + 4^2(0.17) + 5^2(0.04) = 8.12$\n\n$\\operatorname{Var}(X) = 8.12 - 2.66^2 = 1.0444 \\approx 1.04$, so $\\sigma \\approx 1.02$.\n\nBoth have the same mean, but Bob's standard deviation ($1.02$) is lower than Karen's ($1.2$), so Bob is more consistent. The coach is more likely to choose Bob."
+  },
+  {
+   "ref": "Q21(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.6",
+    "12.2.2.2"
+   ],
+   "question": "In Alex's first year of full-time employment his annual salary is \\$75 000. At the beginning of the second year his salary increases to \\$79 000. His salary continues to increase by \\$4000 at the beginning of each successive year.\n\nWhat will Alex's salary be at the beginning of his 25th year?",
+   "answer": "AP with $a = 75\\,000$, $d = 4000$, $n = 25$:\n\n$T_{25} = 75\\,000 + 24 \\times 4000 = \\$171\\,000$."
+  },
+  {
+   "ref": "Q21(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.6",
+    "12.2.2.4"
+   ],
+   "question": "In Alex's first year of full-time employment his annual salary is \\$75 000. At the beginning of the second year his salary increases to \\$79 000. His salary continues to increase by \\$4000 at the beginning of each successive year, so his salary in the 25th year is \\$171 000.\n\nCalculate Alex's total earnings after working for 25 years.",
+   "answer": "$S_{25} = 75\\,000 + 79\\,000 + \\dots + 171\\,000 = \\dfrac{25}{2}(75\\,000 + 171\\,000) = \\$3\\,075\\,000$."
+  },
+  {
+   "ref": "Q21(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.6",
+    "12.2.2.5",
+    "11.1.1.6"
+   ],
+   "question": "In Alex's first year of full-time employment his annual salary is \\$75 000. At the beginning of the second year his salary increases to \\$79 000. His salary continues to increase by \\$4000 at the beginning of each successive year.\n\nDuring which year of employment will his total earnings first exceed \\$2 000 000?",
+   "answer": "$S_n = \\dfrac{n}{2}\\left[2(75\\,000) + (n - 1)4000\\right] = 2\\,000\\,000$\n\n$150\\,000n + 4000n^2 - 4000n = 4\\,000\\,000$\n\n$4000n^2 + 146\\,000n - 4\\,000\\,000 = 0 \\Rightarrow 2n^2 + 73n - 2000 = 0$\n\n$n = \\dfrac{-73 \\pm \\sqrt{73^2 + 4\\times 2\\times 2000}}{4} = -54.76$ or $18.26$.\n\nSince $n > 0$, $n \\approx 18.26$, so the total first exceeds \\$2 000 000 during the **19th year**.\n\n(Check: $S_{18} = \\$1\\,962\\,000$, $S_{19} = \\$2\\,109\\,000$.)"
+  },
+  {
+   "ref": "Q22(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.10",
+    "11.2.1.2"
+   ],
+   "question": "David and Sarah are pilots of two light planes which leave Rodeo Pilot Station $R$ at the same time. David flies on a bearing of $330^\\circ$T at a speed of 180 km/h and Sarah flies on a bearing of $080^\\circ$T at a speed of 240 km/h.\n\nHow far apart are David and Sarah after 2 hours?",
+   "answer": "After 2 hours $RD = 360$ km and $RS = 480$ km. $\\angle DRS = 30^\\circ + 80^\\circ = 110^\\circ$.\n\n$DS^2 = 360^2 + 480^2 - 2\\times 360\\times 480\\cos 110^\\circ = 478\\,202.16\\ldots$\n\n$DS \\approx 691.52$ km.",
+   "images": [
+    "assets/img/adv-2026-girraween/q22.png"
+   ]
+  },
+  {
+   "ref": "Q22(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.10",
+    "11.2.1.2"
+   ],
+   "question": "David and Sarah are pilots of two light planes which leave Rodeo Pilot Station $R$ at the same time. David flies on a bearing of $330^\\circ$T at a speed of 180 km/h and Sarah flies on a bearing of $080^\\circ$T at a speed of 240 km/h.\n\nAfter 2 hours David is 360 km and Sarah is 480 km from $R$, and they are 691.52 km apart.\n\nWhat is the bearing of Sarah from David after 2 hours? (to the nearest degree)",
+   "answer": "Let $\\theta = \\angle RDS$. By the sine rule:\n\n$\\dfrac{\\sin\\theta}{480} = \\dfrac{\\sin 110^\\circ}{691.52} \\Rightarrow \\sin\\theta = 0.65226\\ldots \\Rightarrow \\theta \\approx 40.71^\\circ \\approx 41^\\circ$\n\n($\\theta$ is acute since $DS$ is the longest side.)\n\nThe bearing of $R$ from $D$ is $330^\\circ - 180^\\circ = 150^\\circ$, so the bearing of $S$ from $D$ is $150^\\circ - 41^\\circ = 109^\\circ$T.",
+   "images": [
+    "assets/img/adv-2026-girraween/q22.png"
+   ]
+  },
+  {
+   "ref": "Q23(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.1.2",
+    "11.2.3.8"
+   ],
+   "question": "The diagram shows the sector $OAB$ with centre $O$ and radius $r$ cm. The perpendicular from $B$ meets the radius $OA$ at $C$. $BC = 8$ cm and $AC = 4$ cm. The shaded region is the part of the sector outside triangle $OCB$.\n\nShow that the radius $r$ of the circle is 10 cm.",
+   "answer": "$OC = r - 4$, and triangle $OCB$ is right-angled at $C$ with hypotenuse $OB = r$:\n\n$(r - 4)^2 + 8^2 = r^2$\n\n$r^2 - 8r + 16 + 64 = r^2 \\Rightarrow 8r = 80 \\Rightarrow r = 10$.",
+   "images": [
+    "assets/img/adv-2026-girraween/q23.png"
+   ]
+  },
+  {
+   "ref": "Q23(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.3.8",
+    "11.2.3.7"
+   ],
+   "question": "The diagram shows the sector $OAB$ with centre $O$ and radius $r$ cm. The perpendicular from $B$ meets the radius $OA$ at $C$. $BC = 8$ cm and $AC = 4$ cm. The shaded region is the part of the sector outside triangle $OCB$.\n\nGiven that $r = 10$ cm, find the area of the shaded region in this sector.",
+   "answer": "Let $\\theta = \\angle AOB$. $\\sin\\theta = \\dfrac{8}{10}$, so $\\theta = 0.9273$ radians, and $OC = 6$.\n\nShaded area $=$ area of sector $AOB$ $-$ area of $\\triangle OCB$\n\n$= \\tfrac{1}{2}\\times 10^2\\times 0.9273 - \\tfrac{1}{2}\\times 6\\times 8 \\approx 46.37 - 24 = 22.37\\ \\text{cm}^2$ (2 d.p.)",
+   "images": [
+    "assets/img/adv-2026-girraween/q23.png"
+   ]
+  },
+  {
+   "ref": "Q24(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.1.10"
+   ],
+   "question": "Solve the equation $1 - 2\\cos x = 0$ for $0 \\le x \\le 2\\pi$.",
+   "answer": "$\\cos x = \\dfrac{1}{2}$. The related angle is $\\dfrac{\\pi}{3}$ and cosine is positive in quadrants 1 and 4:\n\n$x = \\dfrac{\\pi}{3}$ or $x = \\dfrac{5\\pi}{3}$."
+  },
+  {
+   "ref": "Q24(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.2",
+    "11.2.3.5"
+   ],
+   "question": "Sketch the graph of the curve $y = 1 - 2\\cos x$ for $0 \\le x \\le 2\\pi$, showing clearly the coordinates of the endpoints and the maximum turning point. (The $x$-intercepts are at $x = \\dfrac{\\pi}{3}$ and $x = \\dfrac{5\\pi}{3}$.)",
+   "answer": "$y = 1 - 2\\cos x$ is $y = \\cos x$ reflected in the $x$-axis, stretched vertically by a factor of 2 and shifted up 1. Range $-1 \\le y \\le 3$.\n\n- Endpoints: $(0, -1)$ and $(2\\pi, -1)$\n- Maximum turning point: $(\\pi, 3)$\n- $x$-intercepts: $\\dfrac{\\pi}{3}$ and $\\dfrac{5\\pi}{3}$",
+   "answer_images": [
+    "assets/img/adv-2026-girraween/q24-ii-ans.png"
+   ]
+  },
+  {
+   "ref": "Q24(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.8.5",
+    "12.4.7.1"
+   ],
+   "question": "Find in simplest exact form the area of the region bounded by the curve $y = 1 - 2\\cos x$ and the $x$-axis between $x = 0$ and $x = \\pi$. (The curve cuts the $x$-axis at $x = \\dfrac{\\pi}{3}$; it is below the axis for $0 \\le x < \\dfrac{\\pi}{3}$.)",
+   "answer": "$\\text{Area} = \\left|\\displaystyle\\int_0^{\\pi/3}(1 - 2\\cos x)\\,dx\\right| + \\displaystyle\\int_{\\pi/3}^{\\pi}(1 - 2\\cos x)\\,dx$\n\n$= \\Big|\\big[x - 2\\sin x\\big]_0^{\\pi/3}\\Big| + \\big[x - 2\\sin x\\big]_{\\pi/3}^{\\pi}$\n\n$= \\left|\\dfrac{\\pi}{3} - \\sqrt{3}\\right| + \\left[\\pi - 0 - \\left(\\dfrac{\\pi}{3} - \\sqrt{3}\\right)\\right]$\n\n$= \\left(\\sqrt{3} - \\dfrac{\\pi}{3}\\right) + \\dfrac{2\\pi}{3} + \\sqrt{3}$ (as $\\sqrt{3} > \\frac{\\pi}{3}$)\n\n$= 2\\sqrt{3} + \\dfrac{\\pi}{3}$ square units."
+  },
+  {
+   "ref": "Q25(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.8"
+   ],
+   "question": "In a laboratory, a food product is heated in an oven set at $210^\\circ$C to kill harmful bacteria. The number of bacteria recorded when the food product is first placed in the oven is 1800. After 10 minutes the number of bacteria recorded is 550.\n\nIt is found that the number $N$ of bacteria remaining $t$ minutes after being in the oven is given by $N = N_0e^{-kt}$, where $N_0$ and $k$ are constants.\n\nCalculate the value of $k$ correct to 4 decimal places.",
+   "answer": "$N_0 = 1800$, and $N = 550$ when $t = 10$:\n\n$550 = 1800e^{-10k} \\Rightarrow e^{-10k} = \\dfrac{550}{1800}$\n\n$-10k = \\ln\\left(\\dfrac{550}{1800}\\right) \\Rightarrow k = 0.1186$ (4 d.p.)"
+  },
+  {
+   "ref": "Q25(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.8",
+    "11.5.2.4"
+   ],
+   "question": "In a laboratory, a food product is heated in an oven set at $210^\\circ$C to kill harmful bacteria. The number of bacteria recorded when the food product is first placed in the oven is 1800. After 10 minutes the number of bacteria recorded is 550.\n\nIt is found that the number $N$ of bacteria remaining $t$ minutes after being in the oven is given by $N = N_0e^{-kt}$, where $N_0$ and $k$ are constants.\n\nIt is found that $k = 0.1186$. If an acceptable number of bacteria present is 100 or less, for how long should the food product be in the oven? Express your answer to the nearest minute.",
+   "answer": "$1800e^{-0.1186t} \\le 100 \\Rightarrow e^{-0.1186t} \\le \\dfrac{1}{18}$\n\n$-0.1186t \\le \\ln\\dfrac{1}{18} \\Rightarrow t \\ge \\dfrac{\\ln\\frac{1}{18}}{-0.1186} \\approx 24.37$\n\nThe food should be kept in the oven for **25 minutes**."
+  },
+  {
+   "ref": "Q26(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.10",
+    "12.4.1.9"
+   ],
+   "question": "The velocity of an object is given by $v = 6t - 5 - t^2$, where $t$ is in seconds and $v$ in m/s. It begins its motion at $x = 5$ metres.\n\nFind an equation for the displacement of the object.",
+   "answer": "$x = \\displaystyle\\int (6t - 5 - t^2)\\,dt = 3t^2 - 5t - \\frac{t^3}{3} + C$.\n\nAt $t = 0$, $x = 5$, so $C = 5$:\n\n$x = 3t^2 - 5t - \\dfrac{t^3}{3} + 5$."
+  },
+  {
+   "ref": "Q26(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.10"
+   ],
+   "question": "The velocity of an object is given by $v = 6t - 5 - t^2$, where $t$ is in seconds and $v$ in m/s. It begins its motion at $x = 5$ metres.\n\nAt what two times is the object stationary?",
+   "answer": "Stationary when $v = 0$: $6t - 5 - t^2 = 0 \\Rightarrow t^2 - 6t + 5 = 0 \\Rightarrow (t - 1)(t - 5) = 0$.\n\n$t = 1$ s and $t = 5$ s."
+  },
+  {
+   "ref": "Q26(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.10",
+    "12.4.8.5"
+   ],
+   "question": "The velocity of an object is given by $v = 6t - 5 - t^2$, where $t$ is in seconds and $v$ in m/s. It begins its motion at $x = 5$ metres.\n\nThe object is stationary at $t = 1$ and $t = 5$. Find the distance travelled by the object in the first 3 seconds.",
+   "answer": "$v < 0$ for $0 \\le t < 1$ and $v > 0$ for $1 < t \\le 3$, so with $F(t) = 3t^2 - 5t - \\dfrac{t^3}{3}$:\n\n$\\text{Distance} = \\left|\\displaystyle\\int_0^1 v\\,dt\\right| + \\displaystyle\\int_1^3 v\\,dt = \\big|F(1) - F(0)\\big| + F(3) - F(1)$\n\n$= \\left|3 - 5 - \\tfrac{1}{3}\\right| + \\left[(27 - 15 - 9) - \\left(3 - 5 - \\tfrac{1}{3}\\right)\\right] = \\tfrac{7}{3} + \\tfrac{16}{3} = \\tfrac{23}{3}$ m."
+  },
+  {
+   "ref": "Q27(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.8.11"
+   ],
+   "question": "Whilst performing some experiments, researchers have found that the rate of change of the distance (in cm/s) travelled by a particle is given by $A(t) = 40\\ln(1 + 5t)$, where $t$ is the number of seconds elapsed since the start of the research.\n\nLet $D$ cm be the distance travelled by the particle from $t = 1$ to $t = 5$.\n\nEstimate $D$ by using the trapezoidal rule with 4 sub-intervals. Give your answer to the nearest centimetre.",
+   "answer": "$D = \\displaystyle\\int_1^5 A(t)\\,dt$, with $h = \\dfrac{5 - 1}{4} = 1$.\n\n| $t$ | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| $A(t)$ | $40\\ln 6$ | $40\\ln 11$ | $40\\ln 16$ | $40\\ln 21$ | $40\\ln 26$ |\n\n$D \\approx \\dfrac{h}{2}\\big[A(1) + A(5) + 2\\{A(2) + A(3) + A(4)\\}\\big]$\n\n$= \\dfrac{1}{2}\\big[40\\ln 6 + 40\\ln 26 + 2(40\\ln 11 + 40\\ln 16 + 40\\ln 21)\\big] = 429.597\\ldots$\n\n$D \\approx 430$ cm."
+  },
+  {
+   "ref": "Q27(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.11",
+    "12.5.1.5"
+   ],
+   "question": "Whilst performing some experiments, researchers have found that the rate of change of the distance (in cm/s) travelled by a particle is given by $A(t) = 40\\ln(1 + 5t)$, where $t$ is the number of seconds elapsed since the start of the research.\n\nLet $D$ cm be the distance travelled by the particle from $t = 1$ to $t = 5$.\n\nThe trapezoidal rule with 4 sub-intervals gives the estimate $D \\approx 430$ cm. Is this an over-estimate or an under-estimate of the exact distance? Justify your answer.",
+   "answer": "$A'(t) = \\dfrac{200}{1 + 5t}$, $A''(t) = -\\dfrac{1000}{(1 + 5t)^2} < 0$ for all $t$ in $[1, 5]$.\n\nSo $A(t)$ is concave down, and each trapezium (chord) lies below the curve. Hence the estimate is an **under-estimate** of the exact distance."
+  },
+  {
+   "ref": "Q28(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.8",
+    "12.2.3.2"
+   ],
+   "question": "A tennis ball is dropped from a height of 12 metres. After it first hits the ground, it rebounds to a height of 8 metres. It continues to rebound to a height of two thirds of its previous rebound height.\n\nHow high will the ball rise after the 6th time it rebounds from the ground?",
+   "answer": "Rebound heights form a GP with $a = 8$, $r = \\frac{2}{3}$:\n\n$T_6 = 8\\left(\\tfrac{2}{3}\\right)^5 = \\tfrac{256}{243} \\approx 1.05$ m."
+  },
+  {
+   "ref": "Q28(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.7",
+    "12.2.3.8"
+   ],
+   "question": "A tennis ball is dropped from a height of 12 metres. After it first hits the ground, it rebounds to a height of 8 metres. It continues to rebound to a height of two thirds of its previous rebound height.\n\nWhat is the total vertical distance that the ball will eventually travel?",
+   "answer": "The ball falls 12 m, then goes up and down each rebound height:\n\n$\\text{Total} = 12 + 2\\left(8 + \\tfrac{16}{3} + \\cdots\\right) = 12 + 2\\left(\\dfrac{8}{1 - \\frac{2}{3}}\\right)$ (limiting sum since $|r| = \\frac{2}{3} < 1$)\n\n$= 12 + 2\\times 24 = 60$ m."
+  },
+  {
+   "ref": "Q29(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.3.10"
+   ],
+   "question": "A machine produces metal rods used to reinforce concrete slabs. The diameters of the rods are normally distributed with a mean of 8 mm and a standard deviation of 0.3 mm.\n\nFind the diameter of the rod with a $z$-score of 1.2.",
+   "answer": "$z = \\dfrac{x - \\mu}{\\sigma} \\Rightarrow x = z\\sigma + \\mu = 1.2\\times 0.3 + 8 = 8.36$ mm."
+  },
+  {
+   "ref": "Q29(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.6",
+    "12.6.3.13"
+   ],
+   "question": "A machine produces metal rods used to reinforce concrete slabs. The diameters of the rods are normally distributed with a mean of 8 mm and a standard deviation of 0.3 mm.\n\nIf a rod is selected at random, find the probability that the diameter of the rod is less than 7.7 mm.",
+   "answer": "$z = \\dfrac{7.7 - 8}{0.3} = -1$.\n\nBy the empirical rule, $P(-1 < Z < 1) \\approx 0.68$, so $1 - 0.68 = 0.32$ lies outside, and by symmetry\n\n$P(\\text{diameter} < 7.7) = P(Z < -1) \\approx 0.16$."
+  },
+  {
+   "ref": "Q29(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.6",
+    "11.7.2.7"
+   ],
+   "question": "A machine produces metal rods used to reinforce concrete slabs. The diameters of the rods are normally distributed with a mean of 8 mm and a standard deviation of 0.3 mm.\n\nThe probability that a randomly selected rod has a diameter less than 7.7 mm is 0.16. If two rods are selected at random, find the probability that exactly one of the rods will have a diameter that is less than 7.7 mm.",
+   "answer": "$P(\\text{diameter} > 7.7) = 1 - 0.16 = 0.84$.\n\n$P(\\text{exactly one}) = 0.16\\times 0.84 + 0.84\\times 0.16 = 0.2688$."
+  },
+  {
+   "ref": "Q30(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "A table of future value interest factors for an annuity of \\$1 is shown.\n\n**Future value of \\$1**\n\n| Period | 1% | 4% | 8% | 12% | 16% | 20% |\n|---|---|---|---|---|---|---|\n| 1 | 1.0000 | 1.0000 | 1.0000 | 1.0000 | 1.0000 | 1.0000 |\n| 2 | 2.0100 | 2.0400 | 2.0800 | 2.1200 | 2.1600 | 2.2000 |\n| 3 | 3.0301 | 3.1216 | 3.2464 | 3.3744 | 3.5056 | 3.6400 |\n| 4 | 4.0604 | 4.2465 | 4.5061 | 4.7793 | 5.0665 | 5.3680 |\n| 5 | 5.1010 | 5.4163 | 5.8666 | 6.3528 | 6.8771 | 7.4416 |\n| 6 | 6.1520 | 6.6330 | 7.3359 | 8.1152 | 8.9775 | 9.9299 |\n\nAnnie wants to save \\$10 000 over the next 2 years by investing equal payments every 6 months into an account that earns interest at 8% p.a. compounded half-yearly.\n\nWhat should be the value of each payment?",
+   "answer": "Interest rate per period $= \\frac{8\\%}{2} = 4\\%$; number of periods $= 2\\times 2 = 4$.\n\nTable value (4%, 4 periods) $= 4.2465$.\n\nPayment $= \\dfrac{10\\,000}{4.2465} = \\$2354.88$."
+  },
+  {
+   "ref": "Q30(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.1.1",
+    "12.7.1.3"
+   ],
+   "question": "Joel borrowed \\$20 000 from a finance company to purchase a car. Interest on the loan is calculated quarterly at the rate of 2.5% per quarter and is charged immediately prior to Joel making his quarterly repayment of \\$$M$.\n\nLet $A_n$ be the amount in dollars owing on the loan after the $n$th repayment has been made.\n\nShow that $A_3 = 20\\,000\\times 1.025^3 - M(1 + 1.025 + 1.025^2)$.",
+   "answer": "$A_1 = 20\\,000(1.025) - M$\n\n$A_2 = A_1(1.025) - M = 20\\,000(1.025)^2 - M(1 + 1.025)$\n\n$A_3 = A_2(1.025) - M = \\left[20\\,000(1.025)^2 - M(1 + 1.025)\\right]1.025 - M$\n\n$= 20\\,000\\times 1.025^3 - M(1 + 1.025 + 1.025^2)$."
+  },
+  {
+   "ref": "Q30(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.1.3",
+    "12.2.3.5"
+   ],
+   "question": "Joel borrowed \\$20 000 from a finance company to purchase a car. Interest on the loan is calculated quarterly at the rate of 2.5% per quarter and is charged immediately prior to Joel making his quarterly repayment of \\$$M$.\n\nLet $A_n$ be the amount in dollars owing on the loan after the $n$th repayment has been made.\n\nGiven that $A_3 = 20\\,000\\times 1.025^3 - M(1 + 1.025 + 1.025^2)$, show that $A_n = 20\\,000\\times 1.025^n - 40M(1.025^n - 1)$.",
+   "answer": "Continuing the pattern,\n\n$A_n = 20\\,000\\times 1.025^n - M(1 + 1.025 + \\cdots + 1.025^{n-1})$\n\nThe bracket is a GP with $a = 1$, $r = 1.025$, $n$ terms:\n\n$A_n = 20\\,000\\times 1.025^n - M\\cdot\\dfrac{1.025^n - 1}{1.025 - 1} = 20\\,000\\times 1.025^n - 40M(1.025^n - 1)$, as $\\dfrac{1}{0.025} = 40$."
+  },
+  {
+   "ref": "Q30(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.1.3"
+   ],
+   "question": "Joel borrowed \\$20 000 from a finance company to purchase a car. Interest on the loan is calculated quarterly at the rate of 2.5% per quarter and is charged immediately prior to Joel making his quarterly repayment of \\$$M$.\n\nLet $A_n$ be the amount in dollars owing on the loan after the $n$th repayment has been made.\n\nIt can be shown that $A_n = 20\\,000\\times 1.025^n - 40M(1.025^n - 1)$. If the loan were to be paid out after 7 years, what would the value of $M$ be? Answer correct to the nearest cent.",
+   "answer": "7 years $= 28$ quarters, so $A_{28} = 0$:\n\n$20\\,000(1.025)^{28} - 40M(1.025^{28} - 1) = 0$\n\n$M = \\dfrac{20\\,000(1.025)^{28}}{40(1.025^{28} - 1)} = \\$1001.76$ (nearest cent)."
+  },
+  {
+   "ref": "Q31(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.3"
+   ],
+   "question": "The diagram below shows a right-angled triangular prism $ABCDEF$ of fixed volume $540\\ \\text{cm}^3$. The triangular ends are right-angled at $B$ (and $F$), the sides $AB$ and $BC$ are in the ratio $4 : 3$, with $AB = 4x$ cm and $BC = 3x$ cm, and the height of the prism is $CD = h$ cm.\n\nShow that the surface area, $S$, of the prism is given by $S = 12x^2 + \\dfrac{1080}{x}$.",
+   "answer": "Volume $= \\tfrac{1}{2}\\times 3x\\times 4x\\times h = 6x^2h = 540$, so $h = \\dfrac{90}{x^2}$.\n\nIn $\\triangle ABC$, $AC^2 = (3x)^2 + (4x)^2 = 25x^2$ (Pythagoras), so $AC = 5x$.\n\n$S = 2\\times\\tfrac{1}{2}\\times 3x\\times 4x + 3xh + 4xh + 5xh = 12x^2 + 12xh = 12x^2 + 12x\\cdot\\dfrac{90}{x^2} = 12x^2 + \\dfrac{1080}{x}$.",
+   "images": [
+    "assets/img/adv-2026-girraween/q31.png"
+   ]
+  },
+  {
+   "ref": "Q31(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.5.1.8"
+   ],
+   "question": "The diagram below shows a right-angled triangular prism $ABCDEF$ of fixed volume $540\\ \\text{cm}^3$. The triangular ends are right-angled at $B$ (and $F$), the sides $AB$ and $BC$ are in the ratio $4 : 3$, with $AB = 4x$ cm and $BC = 3x$ cm, and the height of the prism is $CD = h$ cm.\n\nThe surface area of the prism is $S = 12x^2 + \\dfrac{1080}{x}$. Find the minimum surface area of the prism, to the nearest $\\text{cm}^2$.",
+   "answer": "$\\dfrac{dS}{dx} = 24x - \\dfrac{1080}{x^2} = 0 \\Rightarrow 24x^3 = 1080 \\Rightarrow x^3 = 45 \\Rightarrow x = \\sqrt[3]{45}$.\n\n$\\dfrac{d^2S}{dx^2} = 24 + \\dfrac{2160}{x^3} = 24 + \\dfrac{2160}{45} = 72 > 0$, so concave up: a minimum.\n\n$S = 12\\left(\\sqrt[3]{45}\\right)^2 + \\dfrac{1080}{\\sqrt[3]{45}} \\approx 455.4$\n\nMinimum surface area $\\approx 455\\ \\text{cm}^2$.",
+   "images": [
+    "assets/img/adv-2026-girraween/q31.png"
+   ]
+  },
+  {
+   "ref": "Q32(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "The graph represents the function $y = a\\sin bx$ for $0 \\le x \\le 2\\pi$. It has a maximum of 3 at $x = \\frac{\\pi}{2}$, crosses the $x$-axis at $x = \\pi$, has a minimum of $-3$ at $x = \\frac{3\\pi}{2}$ and returns to the $x$-axis at $x = 2\\pi$.\n\nFind the values of $a$ and $b$.",
+   "answer": "Amplitude is 3, so $a = 3$. The period is $2\\pi = \\dfrac{2\\pi}{b}$, so $b = 1$.\n\n$y = 3\\sin x$.",
+   "images": [
+    "assets/img/adv-2026-girraween/q32.png"
+   ]
+  },
+  {
+   "ref": "Q32(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.3",
+    "11.2.2.6"
+   ],
+   "question": "The graph represents the function $y = a\\sin bx$ for $0 \\le x \\le 2\\pi$. It has a maximum of 3 at $x = \\frac{\\pi}{2}$, crosses the $x$-axis at $x = \\pi$, has a minimum of $-3$ at $x = \\frac{3\\pi}{2}$ and returns to the $x$-axis at $x = 2\\pi$.\n\nThe function is $y = 3\\sin x$. Point $P\\left(k, \\dfrac{5}{2}\\right)$ lies on the graph, with $\\frac{\\pi}{2} < k < \\pi$, as shown. Find the exact value of $\\tan k$.",
+   "answer": "Substitute $\\left(k, \\frac{5}{2}\\right)$: $\\frac{5}{2} = 3\\sin k \\Rightarrow \\sin k = \\frac{5}{6}$.\n\nIn a right triangle with opposite side 5 and hypotenuse 6, the adjacent side is $\\sqrt{6^2 - 5^2} = \\sqrt{11}$, so the related angle has tangent $\\dfrac{5}{\\sqrt{11}}$.\n\nSince $k$ is in the second quadrant, $\\tan k < 0$:\n\n$\\tan k = -\\dfrac{5}{\\sqrt{11}}$.",
+   "images": [
+    "assets/img/adv-2026-girraween/q32.png"
+   ]
+  }
+ ]
+}

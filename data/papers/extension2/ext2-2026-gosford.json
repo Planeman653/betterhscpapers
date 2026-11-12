@@ -1,0 +1,667 @@
+{
+ "id": "ext2-2026-gosford",
+ "course": "extension2",
+ "school": "Gosford",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "Gosford 2026 w. sol"
+ },
+ "indexed": "2026-11-12",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q13(d)",
+   "reason": "Not in 2024 syllabus: proof via Euler's formula / exponential form $e^{i\\theta}$ (rewriting in polar form would make the proof circular)"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.5",
+    "12.3.2.6"
+   ],
+   "question": "Given $z_1 = 4\\,\\text{cis}\\,\\dfrac{\\pi}{3}$ and $z_2 = 2\\,\\text{cis}\\,\\dfrac{\\pi}{6}$, which of the following is the complex number $\\dfrac{z_1}{z_2}$ expressed in Cartesian form?",
+   "options": [
+    "$2\\left(1+i\\sqrt3\\right)$",
+    "$2\\left(\\sqrt3+i\\right)$",
+    "$1+i\\sqrt3$",
+    "$\\sqrt3+i$"
+   ],
+   "correct": "D",
+   "answer": "$$\\frac{z_1}{z_2} = \\frac{4}{2}\\,\\text{cis}\\left(\\frac{\\pi}{3}-\\frac{\\pi}{6}\\right) = 2\\,\\text{cis}\\,\\frac{\\pi}{6} = 2\\left(\\frac{\\sqrt3}{2}+\\frac12 i\\right) = \\sqrt3 + i$$\n\n(The original paper gives $z_1, z_2$ in exponential form $4e^{i\\pi/3}$, $2e^{i\\pi/6}$; written here in polar form.)"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.8"
+   ],
+   "question": "Consider the statement:\n\n'If a triangle is equilateral, then it is isosceles.'\n\nWhich of the following is the converse of that statement?",
+   "options": [
+    "If a triangle is isosceles, then it is equilateral.",
+    "A triangle is equilateral if and only if it is isosceles.",
+    "If a triangle is not equilateral, then it is not isosceles.",
+    "If a triangle is not isosceles, then it is not equilateral."
+   ],
+   "correct": "A",
+   "answer": "The converse of $P \\Rightarrow Q$ is $Q \\Rightarrow P$, so the converse is 'If a triangle is isosceles, then it is equilateral.'"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.7"
+   ],
+   "question": "The three cube roots of a complex number $w$ are $z_1$, $z_2$ and $z_3$.\n\nIf $z_1 = 2i$, what are the other two roots?",
+   "options": [
+    "$1-i\\sqrt3$ and $-1-i\\sqrt3$",
+    "$-1-i\\sqrt3$ and $-1+i\\sqrt3$",
+    "$\\sqrt3-i$ and $-\\sqrt3-i$",
+    "$-\\sqrt3-i$ and $-\\sqrt3+i$"
+   ],
+   "correct": "C",
+   "answer": "$2i = 2\\,\\text{cis}\\,\\dfrac{\\pi}{2}$. The cube roots are equally spaced by $\\dfrac{2\\pi}{3}$ on the circle $|z|=2$, so the other roots are $2\\,\\text{cis}\\left(\\dfrac{\\pi}{2}\\pm\\dfrac{2\\pi}{3}\\right)$:\n\n$$2\\,\\text{cis}\\,\\frac{7\\pi}{6} = 2\\left(-\\frac{\\sqrt3}{2}-\\frac12 i\\right) = -\\sqrt3 - i, \\qquad 2\\,\\text{cis}\\left(-\\frac{\\pi}{6}\\right) = 2\\left(\\frac{\\sqrt3}{2}-\\frac12 i\\right) = \\sqrt3 - i$$"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.7",
+    "12.1.1.6"
+   ],
+   "question": "Consider the statement:\n\n$$\\forall\\, x \\in \\mathbb{Z},\\ \\ln|x| > 0$$\n\nWhich of the following is the negation of this statement?",
+   "options": [
+    "$\\exists\\, x \\in \\mathbb{Z}$, such that $\\ln|x| > 0$",
+    "$\\exists\\, x \\in \\mathbb{Z}$, such that $\\ln|x| \\le 0$",
+    "$\\forall\\, x \\in \\mathbb{Z}$, $\\ln|x| \\le 0$",
+    "$\\ln|x| > 0 \\Rightarrow x \\in \\mathbb{Z}$"
+   ],
+   "correct": "B",
+   "answer": "The negation of a 'for all' statement is a 'there exists' statement with the condition negated: there exists an integer $x$ such that $\\ln|x| \\le 0$."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.1"
+   ],
+   "question": "A particle's velocity $v$ is given by $v = 4x^2 + 2$, where $x$ is its displacement from the origin.\n\nWhich of these expressions represents the acceleration of the particle?",
+   "options": [
+    "$8x$",
+    "$32x^3+16x$",
+    "$8x^4+8x^2+2$",
+    "$16x^4+16x^2+4$"
+   ],
+   "correct": "B",
+   "answer": "$$a = v\\frac{dv}{dx} = (4x^2+2)(8x) = 32x^3 + 16x$$"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.17",
+    "12.2.1.18"
+   ],
+   "question": "Let $P$ and $Q$ be the points with position vectors $\\mathbf{p} = 3\\mathbf{i} + 4\\mathbf{j} - 2\\mathbf{k}$ and $\\mathbf{q} = -\\mathbf{i} - 8\\mathbf{j} + 4\\mathbf{k}$ respectively.\n\nWhat is the Cartesian equation of the sphere which has $PQ$ as a diameter?",
+   "options": [
+    "$(x-1)^2+(y+2)^2+(z-1)^2=49$",
+    "$(x+2)^2+(y+6)^2+(z-3)^2=49$",
+    "$(x-1)^2+(y+2)^2+(z-1)^2=196$",
+    "$(x+2)^2+(y+6)^2+(z-3)^2=196$"
+   ],
+   "correct": "A",
+   "answer": "$\\overrightarrow{PQ} = -4\\mathbf{i} - 12\\mathbf{j} + 6\\mathbf{k}$, so $|\\overrightarrow{PQ}| = \\sqrt{16+144+36} = 14$ and the radius is $7$.\n\nCentre = midpoint of $PQ$ $= \\left(\\dfrac{3-1}{2}, \\dfrac{4-8}{2}, \\dfrac{-2+4}{2}\\right) = (1,-2,1)$.\n\n$$(x-1)^2 + (y+2)^2 + (z-1)^2 = 49$$"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.12"
+   ],
+   "question": "Let $\\omega$ be a non-real complex fifth root of unity.\n\nWhat is the value of the expression $(1-\\omega)(1-\\omega^2)(1-\\omega^3)(1-\\omega^4)$?",
+   "options": [
+    "$0$",
+    "$1$",
+    "$4$",
+    "$5$"
+   ],
+   "correct": "D",
+   "answer": "The roots of $z^5 - 1 = 0$ are $1, \\omega, \\omega^2, \\omega^3, \\omega^4$, so\n$$(z-1)(z-\\omega)(z-\\omega^2)(z-\\omega^3)(z-\\omega^4) = z^5 - 1 = (z-1)(z^4+z^3+z^2+z+1).$$\nDividing by $z-1$: $(z-\\omega)(z-\\omega^2)(z-\\omega^3)(z-\\omega^4) = z^4+z^3+z^2+z+1$.\n\nPutting $z = 1$: $(1-\\omega)(1-\\omega^2)(1-\\omega^3)(1-\\omega^4) = 5$."
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "The polynomial $P(z)$ has real coefficients. The complex number $\\alpha$ is of the form $a + ib$, where $a$ and $b$ are both real, non-zero and distinct.\n\nIf $P(a)$, $P'(a)$, $P(b)$, $P'(b)$ and $P(\\alpha)$ are all zero, what is the minimum degree of $P(z)$?",
+   "options": [
+    "$4$",
+    "$5$",
+    "$6$",
+    "$7$"
+   ],
+   "correct": "C",
+   "answer": "$P(a) = P'(a) = 0$ so $a$ is (at least) a double root; similarly $b$ is a double root. Since the coefficients are real, $P(\\alpha) = 0$ implies $P(\\overline{\\alpha}) = 0$, and $\\alpha, \\overline{\\alpha}$ are non-real. So there are at least $2 + 2 + 2 = 6$ roots: minimum degree $6$."
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.11"
+   ],
+   "question": "Which of the following is a primitive of $\\displaystyle\\int \\sin^4 x\\cos^5 x\\,dx$?",
+   "options": [
+    "$\\dfrac16\\cos^6x + C$",
+    "$\\dfrac{1}{80}\\sin^5 2x + C$",
+    "$\\dfrac15\\sin^5x - \\dfrac27\\sin^7x + \\dfrac19\\sin^9x + C$",
+    "$\\dfrac16\\cos^6x - \\dfrac14\\cos^8x + \\dfrac{1}{10}\\cos^{10}x + C$"
+   ],
+   "correct": "C",
+   "answer": "$$\\int \\sin^4x\\cos^5x\\,dx = \\int \\sin^4 x\\,(1-\\sin^2x)^2\\cos x\\,dx = \\int (\\sin^4x - 2\\sin^6x + \\sin^8x)\\cos x\\,dx$$\nWith $u = \\sin x$, $du = \\cos x\\,dx$:\n$$= \\frac15\\sin^5x - \\frac27\\sin^7x + \\frac19\\sin^9x + C$$"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.2"
+   ],
+   "question": "A complex number $z$ is defined such that $|z - i| = \\left|z - \\sqrt3 + 2i\\right|$.\n\nWhat is the value of $\\text{Arg}(z)$ when $|z|$ is a minimum?",
+   "options": [
+    "$-\\dfrac{\\pi}{3}$",
+    "$-\\dfrac{\\pi}{6}$",
+    "$\\dfrac{\\pi}{6}$",
+    "$\\dfrac{\\pi}{3}$"
+   ],
+   "correct": "A",
+   "answer": "$z$ lies on the perpendicular bisector of the interval joining $A(0,1)$ and $B(\\sqrt3,-2)$. $|z|$ is least at the point $Z$ where $OZ$ is perpendicular to this bisector, i.e. $OZ \\parallel AB$.\n\n$m_{AB} = \\dfrac{-2-1}{\\sqrt3-0} = -\\sqrt3$, so $OZ$ makes an angle $\\dfrac{2\\pi}{3}$ (or $-\\dfrac{\\pi}{3}$) with the positive real axis. The midpoint of $AB$ is $\\left(\\frac{\\sqrt3}{2}, -\\frac12\\right)$, in the fourth quadrant, and $Z$ lies on the same side of $O$ (in the fourth quadrant), so\n$$\\text{Arg}(z) = -\\frac{\\pi}{3}.$$",
+   "answer_images": [
+    "assets/img/ext2-2026-gosford/q10-ans.png"
+   ]
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.10",
+    "12.3.2.5"
+   ],
+   "question": "The complex number $z = 2\\,\\text{cis}\\,\\theta$, where $\\dfrac{\\pi}{4} < \\theta < \\dfrac{\\pi}{2}$, lies in the first quadrant on the circle $|z| = 2$.\n\nOn an Argand diagram, show the locations of $z$, $z^2$ and $-iz$, labelling the necessary details.",
+   "answer": "- $z^2 = 4\\,\\text{cis}\\,2\\theta$: modulus $4$ and argument $2\\theta$ (between $\\frac{\\pi}{2}$ and $\\pi$), so it lies in the second quadrant on the circle $|z| = 4$.\n- $-iz = \\text{cis}\\left(-\\frac{\\pi}{2}\\right)\\cdot 2\\,\\text{cis}\\,\\theta = 2\\,\\text{cis}\\left(\\theta - \\frac{\\pi}{2}\\right)$: the point $z$ rotated clockwise by $\\frac{\\pi}{2}$, so it lies on the circle $|z| = 2$ in the fourth quadrant, with $O(-iz)$ perpendicular to $Oz$.",
+   "answer_images": [
+    "assets/img/ext2-2026-gosford/q11a-ans.png"
+   ]
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.8"
+   ],
+   "question": "Consider the vector $\\mathbf{v} = 3\\mathbf{i} - 4\\mathbf{j} + 12\\mathbf{k}$.\n\nFind a unit vector in the direction of $\\mathbf{v}$.",
+   "course": "extension1",
+   "answer": "$$|\\mathbf{v}| = \\sqrt{3^2 + (-4)^2 + 12^2} = \\sqrt{169} = 13$$\n$$\\hat{\\mathbf{v}} = \\frac{1}{13}\\left(3\\mathbf{i} - 4\\mathbf{j} + 12\\mathbf{k}\\right)$$"
+  },
+  {
+   "ref": "Q11(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.6",
+    "12.3.2.4"
+   ],
+   "question": "Let $z = 1 - i$.\n\nExpress $z$ in modulus–argument form.",
+   "answer": "$r = \\sqrt{1^2 + 1^2} = \\sqrt2$. $z$ is in the fourth quadrant with $\\tan\\theta = -1$, so $\\theta = -\\dfrac{\\pi}{4}$.\n$$z = \\sqrt2\\left(\\cos\\left(-\\frac{\\pi}{4}\\right) + i\\sin\\left(-\\frac{\\pi}{4}\\right)\\right)$$"
+  },
+  {
+   "ref": "Q11(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "Let $z = 1 - i = \\sqrt2\\,\\text{cis}\\left(-\\dfrac{\\pi}{4}\\right)$.\n\nFind $z^{10}$ and express your answer in Cartesian form.",
+   "answer": "By de Moivre's theorem,\n$$z^{10} = \\left(\\sqrt2\\right)^{10}\\text{cis}\\left(-\\frac{10\\pi}{4}\\right) = 32\\,\\text{cis}\\left(-\\frac{5\\pi}{2}\\right) = 32\\,\\text{cis}\\left(-\\frac{\\pi}{2}\\right) = 32(0 - i) = -32i$$"
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.12",
+    "12.2.2.1"
+   ],
+   "question": "A particle moves such that its position vector at time $t$ is given by\n$$\\mathbf{r}(t) = t^2\\,\\mathbf{i} + 2t\\,\\mathbf{j} + (\\ln t)\\,\\mathbf{k}, \\quad t > 0.$$\n\nDetermine the time $t$ at which the particle's velocity vector is perpendicular to its acceleration vector.",
+   "answer": "$$\\mathbf{v}(t) = 2t\\,\\mathbf{i} + 2\\,\\mathbf{j} + \\frac1t\\,\\mathbf{k}, \\qquad \\mathbf{a}(t) = 2\\,\\mathbf{i} + 0\\,\\mathbf{j} - \\frac{1}{t^2}\\,\\mathbf{k}$$\nPerpendicular when $\\mathbf{v}\\cdot\\mathbf{a} = 0$:\n$$4t + 0 - \\frac{1}{t^3} = 0 \\;\\Rightarrow\\; 4t^4 = 1 \\;\\Rightarrow\\; t^4 = \\frac14 \\;\\Rightarrow\\; t = \\pm\\frac{1}{\\sqrt2}$$\nSince $t > 0$, $t = \\dfrac{1}{\\sqrt2}$."
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "A polynomial $P(z) = z^3 + az^2 + bz + c$ has real coefficients $a, b, c$.\n\nIf $z_1 = 2 + i$ and $z_2 = 3$ are roots of $P(z)$, what is the value of the coefficient $b$?",
+   "answer": "Since the coefficients are real, $2 - i$ is also a root. $b$ is the sum of the products of the roots two at a time:\n$$b = (2+i)(2-i) + 3(2+i) + 3(2-i) = 5 + 6 + 3i + 6 - 3i = 17$$"
+  },
+  {
+   "ref": "Q11(f)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.2.3"
+   ],
+   "question": "Prove by contradiction that $\\log_2 5$ is an irrational number.",
+   "answer": "Assume $\\log_2 5$ is rational. Since $\\log_2 5 > 0$, we can write $\\log_2 5 = \\dfrac{p}{q}$ where $p, q$ are positive integers.\n\nThen $2^{p/q} = 5$, so $2^p = 5^q$.\n\nBut $2^p$ is even (as $p \\ge 1$) while $5^q$ is odd, so they cannot be equal — a contradiction.\n\nHence the assumption is false, and $\\log_2 5$ is irrational."
+  },
+  {
+   "ref": "Q11(g)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "By using a suitable substitution, or otherwise, evaluate $\\displaystyle\\int_0^1 \\sqrt{4 - x^2}\\,dx$.",
+   "answer": "Let $x = 2\\sin\\theta$, so $dx = 2\\cos\\theta\\,d\\theta$. When $x = 0$, $\\theta = 0$; when $x = 1$, $\\theta = \\dfrac{\\pi}{6}$.\n$$\\int_0^1\\sqrt{4-x^2}\\,dx = \\int_0^{\\pi/6}\\sqrt{4 - 4\\sin^2\\theta}\\cdot 2\\cos\\theta\\,d\\theta = \\int_0^{\\pi/6}4\\cos^2\\theta\\,d\\theta$$\n$$= 2\\int_0^{\\pi/6}(1+\\cos2\\theta)\\,d\\theta = 2\\left[\\theta + \\frac12\\sin2\\theta\\right]_0^{\\pi/6} = 2\\left(\\frac{\\pi}{6} + \\frac{\\sqrt3}{4}\\right) = \\frac{\\pi}{3} + \\frac{\\sqrt3}{2}$$"
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.3.5",
+    "12.1.3.2"
+   ],
+   "question": "Let $a$ and $b$ be positive real numbers.\n\nShow that $\\dfrac{a+b}{2} \\ge \\sqrt{ab}$.",
+   "answer": "$$\\left(\\sqrt a - \\sqrt b\\right)^2 \\ge 0 \\;\\Rightarrow\\; a - 2\\sqrt{ab} + b \\ge 0 \\;\\Rightarrow\\; a + b \\ge 2\\sqrt{ab} \\;\\Rightarrow\\; \\frac{a+b}{2} \\ge \\sqrt{ab}$$"
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "Let $a, b, c$ be positive real numbers. You may use the result that $\\dfrac{x+y}{2} \\ge \\sqrt{xy}$ for positive reals $x, y$.\n\nProve that, if $a + b + c = 1$, then $(1-a)(1-b)(1-c) \\ge 8abc$.",
+   "answer": "Since $a + b + c = 1$: $1 - a = b + c$, $1 - b = a + c$, $1 - c = a + b$. Using $x + y \\ge 2\\sqrt{xy}$ on each factor (all factors positive):\n$$(1-a)(1-b)(1-c) = (b+c)(a+c)(a+b) \\ge 2\\sqrt{bc}\\cdot2\\sqrt{ac}\\cdot2\\sqrt{ab} = 8\\sqrt{a^2b^2c^2} = 8abc$$"
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.5.1.1"
+   ],
+   "question": "A particle moves in a straight line with acceleration $a = 6x^2 - 4$, where $x$ is the displacement from the origin. The particle starts from rest at $x = 1$.\n\nShow that the particle is at rest (i.e. $v = 0$) at three different positions.",
+   "answer": "$$\\frac{d}{dx}\\left(\\frac12v^2\\right) = 6x^2 - 4 \\;\\Rightarrow\\; \\frac12v^2 = 2x^3 - 4x + c$$\nWhen $x = 1$, $v = 0$: $0 = 2 - 4 + c$, so $c = 2$. Hence\n$$v^2 = 4x^3 - 8x + 4 = 4(x^3 - 2x + 1).$$\n$v = 0$ when $x^3 - 2x + 1 = 0$. Since $x = 1$ is a root, $(x - 1)$ is a factor:\n$$x^3 - 2x + 1 = (x-1)(x^2 + x - 1) = 0 \\;\\Rightarrow\\; x = 1,\\ x = \\frac{-1\\pm\\sqrt5}{2}.$$\nThese are three different values of $x$, so $v = 0$ at three different positions.\n\n*Note:* the question intends the three solutions of $v = 0$. (Starting from rest at $x=1$ the particle actually moves to the right with $v^2 > 0$ for all $x > 1$, so it does not physically reach the other two positions.)"
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Find $\\displaystyle\\int xe^{2x}\\,dx$.",
+   "answer": "Integrate by parts with $u = x$, $v' = e^{2x}$, so $u' = 1$, $v = \\frac12e^{2x}$:\n$$\\int xe^{2x}\\,dx = \\frac12xe^{2x} - \\int\\frac12e^{2x}\\,dx = \\frac12xe^{2x} - \\frac14e^{2x} + C$$"
+  },
+  {
+   "ref": "Q12(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Find the values of $A$, $B$ and $C$ such that:\n$$\\frac{8}{x(x^2+4)} = \\frac{A}{x} + \\frac{Bx + C}{x^2 + 4}$$",
+   "answer": "$$8 = A(x^2+4) + x(Bx + C) = (A+B)x^2 + Cx + 4A$$\nEquating coefficients: $4A = 8 \\Rightarrow A = 2$; $A + B = 0 \\Rightarrow B = -2$; $C = 0$."
+  },
+  {
+   "ref": "Q12(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.8"
+   ],
+   "question": "Given that $\\dfrac{8}{x(x^2+4)} = \\dfrac{2}{x} - \\dfrac{2x}{x^2+4}$, evaluate the definite integral\n$$\\int_1^2\\frac{8}{x(x^2+4)}\\,dx.$$",
+   "answer": "$$\\int_1^2\\left(\\frac2x - \\frac{2x}{x^2+4}\\right)dx = \\Big[2\\ln x - \\ln(x^2+4)\\Big]_1^2 = (2\\ln2 - \\ln8) - (2\\ln 1 - \\ln5)$$\n$$= \\ln4 - \\ln8 + \\ln5 = \\ln\\frac{5}{2}$$"
+  },
+  {
+   "ref": "Q12(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "The points $A$, $B$ and $C$ have position vectors $\\mathbf{a} = \\mathbf{i} + 2\\mathbf{j} + 3\\mathbf{k}$, $\\mathbf{b} = 3\\mathbf{i} - 4\\mathbf{j} + 5\\mathbf{k}$ and $\\mathbf{c} = 2\\mathbf{i} + \\mathbf{j} + 6\\mathbf{k}$ respectively.\n\nFind the size of $\\angle ABC$ to the nearest degree.",
+   "course": "extension1",
+   "answer": "$$\\overrightarrow{BA} = \\mathbf{a} - \\mathbf{b} = -2\\mathbf{i} + 6\\mathbf{j} - 2\\mathbf{k}, \\qquad \\overrightarrow{BC} = \\mathbf{c} - \\mathbf{b} = -\\mathbf{i} + 5\\mathbf{j} + \\mathbf{k}$$\n$$|\\overrightarrow{BA}| = \\sqrt{4+36+4} = \\sqrt{44}, \\qquad |\\overrightarrow{BC}| = \\sqrt{1+25+1} = \\sqrt{27}$$\n$$\\cos\\angle ABC = \\frac{\\overrightarrow{BA}\\cdot\\overrightarrow{BC}}{|\\overrightarrow{BA}||\\overrightarrow{BC}|} = \\frac{2 + 30 - 2}{\\sqrt{44}\\sqrt{27}} = \\frac{30}{\\sqrt{1188}}$$\n$$\\angle ABC \\approx 29^\\circ$$"
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.10",
+    "12.3.5.3"
+   ],
+   "question": "Given that $|z - 1| = 2$ and $|w + 2| = 1$, find the maximum possible value of $|z - w|$. Justify your answer.",
+   "answer": "Write $z - w = (z - 1) - (w + 2) + 3$. By the triangle inequality,\n$$|z - w| \\le |z - 1| + |w + 2| + |3| = 2 + 1 + 3 = 6.$$\nEquality is attained: $z$ lies on the circle centre $1$, radius $2$, and $w$ on the circle centre $-2$, radius $1$. Taking $z = 3$ and $w = -3$ (the far ends of the circles along the real axis) gives $|z - w| = |3 - (-3)| = 6$.\n\nSo the maximum value of $|z - w|$ is $6$."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.1",
+    "12.2.2.5"
+   ],
+   "question": "Let $\\mathbf{u}$ and $\\mathbf{v}$ be two non-zero vectors.\n\nProve that if the vectors $\\mathbf{u} + \\mathbf{v}$ and $\\mathbf{u} - \\mathbf{v}$ are perpendicular, then $|\\mathbf{u}| = |\\mathbf{v}|$.",
+   "answer": "Since they are perpendicular,\n$$(\\mathbf{u} + \\mathbf{v})\\cdot(\\mathbf{u} - \\mathbf{v}) = 0$$\n$$\\mathbf{u}\\cdot\\mathbf{u} - \\mathbf{u}\\cdot\\mathbf{v} + \\mathbf{v}\\cdot\\mathbf{u} - \\mathbf{v}\\cdot\\mathbf{v} = 0$$\n$$|\\mathbf{u}|^2 - |\\mathbf{v}|^2 = 0 \\quad(\\text{since } \\mathbf{u}\\cdot\\mathbf{v} = \\mathbf{v}\\cdot\\mathbf{u})$$\nSo $|\\mathbf{u}|^2 = |\\mathbf{v}|^2$, and since magnitudes are non-negative, $|\\mathbf{u}| = |\\mathbf{v}|$."
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.18",
+    "12.2.1.3"
+   ],
+   "question": "A line $L$ has the vector equation $\\mathbf{r} = \\begin{pmatrix}1\\\\2\\\\3\\end{pmatrix} + \\lambda\\begin{pmatrix}2\\\\-1\\\\2\\end{pmatrix}$.\n\nA sphere $S$ has the equation $(x-4)^2 + (y-5)^2 + (z-1)^2 = 9$.\n\nShow that $L$ and $S$ do not have any points of intersection.",
+   "answer": "Points on $L$: $x = 1 + 2\\lambda$, $y = 2 - \\lambda$, $z = 3 + 2\\lambda$. Substituting into the equation of $S$:\n$$(2\\lambda - 3)^2 + (-3 - \\lambda)^2 + (2 + 2\\lambda)^2 = 9$$\n$$(4\\lambda^2 - 12\\lambda + 9) + (\\lambda^2 + 6\\lambda + 9) + (4\\lambda^2 + 8\\lambda + 4) = 9$$\n$$9\\lambda^2 + 2\\lambda + 13 = 0$$\n$$\\Delta = 2^2 - 4(9)(13) = -464 < 0$$\nSo there is no real $\\lambda$, and $L$ and $S$ do not intersect."
+  },
+  {
+   "ref": "Q13(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.9",
+    "12.4.1.15"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_2^5\\frac{x-1}{\\sqrt{5 + 4x - x^2}}\\,dx$.",
+   "answer": "Write $x - 1 = -\\frac12(4 - 2x) + 1$ and $5 + 4x - x^2 = 9 - (x-2)^2$:\n$$\\int_2^5\\frac{x-1}{\\sqrt{5+4x-x^2}}\\,dx = -\\frac12\\int_2^5\\frac{4-2x}{\\sqrt{5+4x-x^2}}\\,dx + \\int_2^5\\frac{1}{\\sqrt{9-(x-2)^2}}\\,dx$$\n$$= \\left[-\\sqrt{5+4x-x^2} + \\sin^{-1}\\left(\\frac{x-2}{3}\\right)\\right]_2^5$$\n$$= \\left(-\\sqrt0 + \\sin^{-1}1\\right) - \\left(-\\sqrt9 + \\sin^{-1}0\\right) = \\frac{\\pi}{2} + 3$$"
+  },
+  {
+   "ref": "Q13(f)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.13",
+    "12.3.1.11"
+   ],
+   "question": "Let $z$ be a complex number such that $|z| = 1$.\n\nProve that $\\dfrac{z-1}{z+1}$ is a purely imaginary number, given $z \\ne -1$.",
+   "answer": "Let $z = x + iy$ with $x^2 + y^2 = 1$. Multiplying by the conjugate of the denominator:\n$$\\frac{z-1}{z+1} = \\frac{(x-1) + iy}{(x+1) + iy}\\times\\frac{(x+1) - iy}{(x+1) - iy} = \\frac{(x^2 - 1) + y^2 + i\\big(y(x+1) - y(x-1)\\big)}{(x+1)^2 + y^2}$$\n$$= \\frac{x^2 + y^2 - 1 + 2iy}{(x+1)^2 + y^2}$$\nSince $x^2 + y^2 = 1$, the real part is $\\dfrac{1 - 1}{(x+1)^2+y^2} = 0$ (the denominator is non-zero as $z \\ne -1$).\n\nHence $\\dfrac{z-1}{z+1} = \\dfrac{2iy}{(x+1)^2+y^2}$ is purely imaginary."
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.5.5"
+   ],
+   "question": "Sketch the region in the complex plane where both inequalities $|z - 2| \\le 2$ and $0 \\le \\arg(z) \\le \\dfrac{\\pi}{4}$ are satisfied.",
+   "answer": "$|z - 2| \\le 2$ is the closed disc with centre $2$ and radius $2$ (passing through $0$ and $4$). $0 \\le \\arg(z) \\le \\frac{\\pi}{4}$ is the sector between the positive real axis and the ray $y = x$ from the origin (origin excluded).\n\nThe ray $y = x$ meets the circle at $2 + 2i$. The region is bounded by the real axis from $0$ to $4$, the arc of the circle from $4$ to $2 + 2i$, and the segment of $y = x$ from $2 + 2i$ back to $O$ (with $O$ itself excluded).",
+   "answer_images": [
+    "assets/img/ext2-2026-gosford/q14a-ans.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.5.5"
+   ],
+   "question": "Find the exact area of the region in the complex plane where both $|z - 2| \\le 2$ and $0 \\le \\arg(z) \\le \\dfrac{\\pi}{4}$ are satisfied.",
+   "answer": "The region is bounded by the real axis from $0$ to $4$, the circle $|z-2| = 2$ from $4$ to $2 + 2i$, and the line $y = x$ from $2+2i$ to $O$. Split it with the vertical line from $2$ to $2 + 2i$:\n\n- a quarter of the disc (centre $2$, radius $2$, from $4$ to $2+2i$): area $\\frac14\\pi(2)^2 = \\pi$;\n- the right-angled triangle with vertices $0$, $2$, $2+2i$: area $\\frac12\\times2\\times2 = 2$.\n\n$$\\text{Area} = (\\pi + 2)\\ \\text{units}^2$$",
+   "answer_images": [
+    "assets/img/ext2-2026-gosford/q14a-ans.png"
+   ]
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.1",
+    "12.3.1.14"
+   ],
+   "question": "Solve $z^2 - (2 + i)z + (3 + i) = 0$.",
+   "answer": "$$z = \\frac{(2+i) \\pm \\sqrt{(2+i)^2 - 4(3+i)}}{2} = \\frac{2 + i \\pm\\sqrt{4 + 4i - 1 - 12 - 4i}}{2} = \\frac{2 + i \\pm\\sqrt{-9}}{2} = \\frac{2 + i \\pm 3i}{2}$$\n$$z = 1 + 2i \\quad\\text{or}\\quad z = 1 - i$$"
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3",
+    "12.5.1.5"
+   ],
+   "question": "An object, $X$, of mass $5$ kg lies on a smooth plane inclined at an angle $\\alpha$ to the horizontal, where $\\sin\\alpha = \\dfrac35$.\n\nObject $X$ is connected by a light inextensible string, which passes over a smooth pulley at the top of the plane, to a second object, $Y$, of mass $3$ kg that hangs freely. The system is released from rest.\n\nShow that both objects are in equilibrium.",
+   "images": [
+    "assets/img/ext2-2026-gosford/q14c.png"
+   ],
+   "answer": "Let $T$ be the tension and let $a$ be the acceleration of $X$ down the plane, so $Y$ has acceleration $a$ upwards (the string is inextensible). Perpendicular to the plane, the normal force balances $5g\\cos\\alpha$, so only forces along the plane matter for $X$.\n\nObject $X$ (down the plane): $5a = 5g\\sin\\alpha - T = 5g\\cdot\\dfrac35 - T = 3g - T$.\n\nObject $Y$ (upwards): $3a = T - 3g$.\n\nAdding: $8a = 0$, so $a = 0$. Since the system starts from rest and the acceleration of each object is zero, both objects remain at rest — they are in equilibrium.\n\n*Note:* the paper's solution writes $3a = 3g - T$ for $Y$ (taking down as positive for both objects), which is not consistent with the string; with consistent directions the conclusion $a = 0$ is unchanged."
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "An object $X$ of mass $5$ kg lies on a smooth plane inclined at an angle $\\alpha$ to the horizontal, where $\\sin\\alpha = \\dfrac35$. It is connected by a light inextensible string over a smooth pulley at the top of the plane to an object $Y$ of mass $3$ kg that hangs freely. The system is released from rest, and both objects are in equilibrium.\n\nFind the tension in the string. Use $g = 9.8\\ \\text{m s}^{-2}$.",
+   "images": [
+    "assets/img/ext2-2026-gosford/q14c.png"
+   ],
+   "answer": "$Y$ is in equilibrium, so $T - 3g = 0$:\n$$T = 3g = 3\\times9.8 = 29.4\\ \\text{N}$$\n(Check with $X$: $T = 5g\\sin\\alpha = 5\\times9.8\\times\\frac35 = 29.4$ N.)"
+  },
+  {
+   "ref": "Q14(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.11",
+    "12.3.4.10"
+   ],
+   "question": "The points $A$, $B$ and $C$ in the complex plane represent the complex numbers $z_1$, $z_2$ and $z_3$ respectively.\n\nIf $\\dfrac{z_2 - z_1}{z_3 - z_1} = i$, show that triangle $ABC$ is a right-angled isosceles triangle.",
+   "answer": "$z_2 - z_1$ represents $\\overrightarrow{AB}$ and $z_3 - z_1$ represents $\\overrightarrow{AC}$.\n\n**Moduli:** $\\left|\\dfrac{z_2 - z_1}{z_3 - z_1}\\right| = |i| = 1$, so $|z_2 - z_1| = |z_3 - z_1|$, i.e. $AB = AC$. Hence $\\triangle ABC$ is isosceles.\n\n**Arguments:** $\\arg\\left(\\dfrac{z_2 - z_1}{z_3 - z_1}\\right) = \\arg(i) = \\dfrac{\\pi}{2}$, so $\\arg(z_2 - z_1) - \\arg(z_3 - z_1) = \\dfrac{\\pi}{2}$, i.e. the angle between $\\overrightarrow{AC}$ and $\\overrightarrow{AB}$ is $\\dfrac{\\pi}{2}$, so $\\angle BAC = \\dfrac{\\pi}{2}$.\n\nHence $\\triangle ABC$ is a right-angled isosceles triangle (right angle at $A$)."
+  },
+  {
+   "ref": "Q14(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.4.1"
+   ],
+   "question": "Prove by mathematical induction that, for all non-negative integers $n$,\n$$(x + a)^n = \\sum_{r=0}^{n}\\binom{n}{r}x^{n-r}a^r.$$",
+   "answer": "**Base case $n = 0$:** LHS $= (x+a)^0 = 1$; RHS $= \\binom00x^0a^0 = 1$. True.\n\n**Inductive step:** assume true for $n = k$ ($k \\ge 0$):\n$$(x+a)^k = \\binom k0x^k + \\binom k1x^{k-1}a + \\dots + \\binom kka^k.$$\nThen\n$$(x+a)^{k+1} = (x+a)(x+a)^k = \\left[\\binom k0x^{k+1} + \\binom k1x^ka + \\dots + \\binom kkxa^k\\right] + \\left[\\binom k0x^ka + \\binom k1x^{k-1}a^2 + \\dots + \\binom kka^{k+1}\\right]$$\nCollecting the terms in $x^{k+1-r}a^r$:\n$$= \\binom k0x^{k+1} + \\sum_{r=1}^{k}\\left[\\binom kr + \\binom k{r-1}\\right]x^{k+1-r}a^r + \\binom kka^{k+1}$$\nUsing $\\binom kr + \\binom k{r-1} = \\binom{k+1}r$, $\\binom k0 = \\binom{k+1}0 = 1$ and $\\binom kk = \\binom{k+1}{k+1} = 1$:\n$$(x+a)^{k+1} = \\sum_{r=0}^{k+1}\\binom{k+1}{r}x^{k+1-r}a^r,$$\nwhich is the statement for $n = k+1$.\n\nHence, by mathematical induction, the result is true for all integers $n \\ge 0$."
+  },
+  {
+   "ref": "Q15(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.5"
+   ],
+   "question": "Let $z$ be a root of the equation $z^5 = -1$.\n\nShow that the roots of this equation are given by $z_k = \\text{cis}\\left(\\dfrac{\\pi}{5} + \\dfrac{2k\\pi}{5}\\right)$, for $k = 0, 1, 2, 3, 4$.",
+   "answer": "Let $z = r\\,\\text{cis}\\,\\theta$. By de Moivre's theorem $z^5 = r^5\\,\\text{cis}\\,5\\theta$, and $-1 = \\text{cis}\\,\\pi$.\n\nSo $r^5 = 1 \\Rightarrow r = 1$ (as $r > 0$), and $5\\theta = \\pi + 2k\\pi$, i.e. $\\theta = \\dfrac{\\pi}{5} + \\dfrac{2k\\pi}{5}$, giving 5 distinct roots for $k = 0, 1, 2, 3, 4$:\n$$z_k = \\text{cis}\\left(\\frac{\\pi}{5} + \\frac{2k\\pi}{5}\\right).$$\n(The paper writes the roots in exponential form $e^{i(\\pi/5 + 2k\\pi/5)}$; written here in polar form.)"
+  },
+  {
+   "ref": "Q15(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.12",
+    "12.3.4.4"
+   ],
+   "question": "The roots of $z^5 = -1$ are $z_k = \\text{cis}\\left(\\dfrac{\\pi}{5} + \\dfrac{2k\\pi}{5}\\right)$, for $k = 0, 1, 2, 3, 4$.\n\nUsing this result, prove that $\\cos\\left(\\dfrac{\\pi}{5}\\right)\\cos\\left(\\dfrac{3\\pi}{5}\\right) = -\\dfrac14$.",
+   "answer": "The roots are $z_0 = \\text{cis}\\frac{\\pi}{5}$, $z_1 = \\text{cis}\\frac{3\\pi}{5}$, $z_2 = \\text{cis}\\,\\pi = -1$, $z_3 = \\text{cis}\\frac{7\\pi}{5} = \\text{cis}\\left(-\\frac{3\\pi}{5}\\right) = \\overline{z_1}$, $z_4 = \\text{cis}\\frac{9\\pi}{5} = \\text{cis}\\left(-\\frac{\\pi}{5}\\right) = \\overline{z_0}$.\n\nPairing conjugates, $(z - w)(z - \\overline w) = z^2 - 2z\\cos\\theta + 1$ for $w = \\text{cis}\\,\\theta$. So\n$$z^5 + 1 = (z+1)\\left(z^2 - 2z\\cos\\frac{\\pi}{5} + 1\\right)\\left(z^2 - 2z\\cos\\frac{3\\pi}{5} + 1\\right).$$\nAlso $z^5 + 1 = (z+1)(z^4 - z^3 + z^2 - z + 1)$. Hence\n$$z^4 - z^3 + z^2 - z + 1 = \\left(z^2 - 2z\\cos\\frac{\\pi}{5} + 1\\right)\\left(z^2 - 2z\\cos\\frac{3\\pi}{5} + 1\\right).$$\nEquating coefficients of $z^2$:\n$$1 = 1 + 4\\cos\\frac{\\pi}{5}\\cos\\frac{3\\pi}{5} + 1 \\;\\Rightarrow\\; 4\\cos\\frac{\\pi}{5}\\cos\\frac{3\\pi}{5} = -1$$\n$$\\cos\\left(\\frac{\\pi}{5}\\right)\\cos\\left(\\frac{3\\pi}{5}\\right) = -\\frac14$$"
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.4",
+    "12.3.3.3"
+   ],
+   "question": "The polynomial $P(z) = z^4 - 4z^3 + 14z^2 - 36z + 45$ has a purely imaginary root.\n\nFind all the roots of $P(z) = 0$.",
+   "answer": "$P$ has real coefficients, so roots come in conjugate pairs. Let the roots be $ki$, $-ki$, $a + bi$, $a - bi$ ($a,b,k$ real).\n\n**Sum of roots:** $2a = 4 \\Rightarrow a = 2$.\n\n**Sum of products three at a time** $= 36$:\n$$(4+b^2)(ki) + (4+b^2)(-ki) + (ki)(-ki)(2+bi) + (ki)(-ki)(2-bi) = k^2(2 + bi) + k^2(2 - bi) = 4k^2 = 36$$\nso $k^2 = 9$, $k = \\pm3$.\n\n**Product of roots:** $(ki)(-ki)(4 + b^2) = 9(4 + b^2) = 45 \\Rightarrow b^2 = 1$, $b = \\pm1$.\n\nRoots: $z = 3i,\\ -3i,\\ 2 + i,\\ 2 - i$.\n\n(Check: $P(z) = (z^2 + 9)(z^2 - 4z + 5)$.)"
+  },
+  {
+   "ref": "Q15(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.7",
+    "12.1.3.6"
+   ],
+   "question": "Let $a, b, c$ be the side lengths of a triangle.\n\nProve that the following inequality must hold:\n$$\\frac{a}{b+c-a} + \\frac{b}{c+a-b} + \\frac{c}{a+b-c} \\ge 3$$",
+   "answer": "By the triangle inequality, $b + c > a$, $c + a > b$, $a + b > c$. Let\n$$x = b + c - a > 0,\\quad y = c + a - b > 0,\\quad z = a + b - c > 0.$$\nThen $x + y = 2c$, $x + z = 2b$, $y + z = 2a$, so $a = \\frac12(y+z)$, $b = \\frac12(x+z)$, $c = \\frac12(x+y)$.\n$$\\text{LHS} = \\frac{y+z}{2x} + \\frac{x+z}{2y} + \\frac{x+y}{2z} = \\frac12\\left[\\left(\\frac xy + \\frac yx\\right) + \\left(\\frac xz + \\frac zx\\right) + \\left(\\frac yz + \\frac zy\\right)\\right]$$\nBy the AM–GM inequality, for positive $p, q$: $\\dfrac pq + \\dfrac qp \\ge 2\\sqrt{\\dfrac pq\\cdot\\dfrac qp} = 2$. Hence\n$$\\text{LHS} \\ge \\frac12(2 + 2 + 2) = 3.$$"
+  },
+  {
+   "ref": "Q15(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Show that $\\displaystyle\\int_0^a f(x)\\,dx = \\int_0^a f(a-x)\\,dx$.",
+   "answer": "In $\\displaystyle\\int_0^a f(a - x)\\,dx$ let $u = a - x$, so $du = -dx$. When $x = 0$, $u = a$; when $x = a$, $u = 0$.\n$$\\int_0^a f(a-x)\\,dx = \\int_a^0 f(u)(-du) = \\int_0^a f(u)\\,du = \\int_0^a f(x)\\,dx$$"
+  },
+  {
+   "ref": "Q15(d)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.15",
+    "12.4.1.6"
+   ],
+   "question": "Using the result $\\displaystyle\\int_0^a f(x)\\,dx = \\int_0^a f(a-x)\\,dx$, evaluate $\\displaystyle\\int_0^{\\frac{\\pi}{2}}\\frac{1}{1 + \\tan x}\\,dx$.",
+   "answer": "Let $I = \\displaystyle\\int_0^{\\pi/2}\\frac{1}{1+\\tan x}\\,dx$. Using the result with $a = \\frac{\\pi}{2}$ and $\\tan\\left(\\frac{\\pi}{2} - x\\right) = \\cot x$:\n$$I = \\int_0^{\\pi/2}\\frac{1}{1 + \\cot x}\\,dx = \\int_0^{\\pi/2}\\frac{\\tan x}{\\tan x + 1}\\,dx$$\nAdding the two expressions for $I$:\n$$2I = \\int_0^{\\pi/2}\\frac{1 + \\tan x}{1 + \\tan x}\\,dx = \\int_0^{\\pi/2}1\\,dx = \\frac{\\pi}{2}$$\n$$I = \\frac{\\pi}{4}$$"
+  },
+  {
+   "ref": "Q16(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.2.4"
+   ],
+   "question": "In the tetrahedron $OABC$, the edges $OA$, $OB$ and $OC$ are mutually perpendicular. Let $\\overrightarrow{OA} = \\mathbf{a}$, $\\overrightarrow{OB} = \\mathbf{b}$, $\\overrightarrow{OC} = \\mathbf{c}$.\n\nThe altitude of a triangle is the perpendicular line segment drawn from any vertex to the opposite side. Every triangle has three altitudes, which intersect at a single point called the orthocentre. Let $H$ be the orthocentre of triangle $ABC$.\n\nSimilarly, the altitude of a pyramid is the perpendicular line segment drawn from any vertex to the opposite face. Consider the altitude of pyramid $OABC$, drawn from $O$ and perpendicular to triangle $ABC$. Use vector methods to show that this altitude passes through $H$.",
+   "images": [
+    "assets/img/ext2-2026-gosford/q16a.png"
+   ],
+   "answer": "Since $OA$, $OB$, $OC$ are mutually perpendicular, $\\mathbf a\\cdot\\mathbf b = \\mathbf b\\cdot\\mathbf c = \\mathbf a\\cdot\\mathbf c = 0$.\n\nLet $P$ be the foot of the altitude from $O$ to the face $ABC$, with $\\overrightarrow{OP} = \\mathbf p$. We show $P = H$, i.e. that $P$ lies on all three altitudes of $\\triangle ABC$.\n\nSince $\\mathbf p$ is perpendicular to the plane $ABC$, it is perpendicular to $\\overrightarrow{AB}$, $\\overrightarrow{AC}$ and $\\overrightarrow{BC}$:\n$$\\mathbf p\\cdot(\\mathbf b - \\mathbf a) = 0,\\quad \\mathbf p\\cdot(\\mathbf c - \\mathbf a) = 0,\\quad \\mathbf p\\cdot(\\mathbf c - \\mathbf b) = 0 \\;\\Rightarrow\\; \\mathbf p\\cdot\\mathbf a = \\mathbf p\\cdot\\mathbf b = \\mathbf p\\cdot\\mathbf c.$$\nNow\n$$\\overrightarrow{AP}\\cdot\\overrightarrow{BC} = (\\mathbf p - \\mathbf a)\\cdot(\\mathbf c - \\mathbf b) = \\mathbf p\\cdot\\mathbf c - \\mathbf p\\cdot\\mathbf b - \\mathbf a\\cdot\\mathbf c + \\mathbf a\\cdot\\mathbf b = 0 - 0 + 0 = 0$$\n$$\\overrightarrow{BP}\\cdot\\overrightarrow{AC} = (\\mathbf p - \\mathbf b)\\cdot(\\mathbf c - \\mathbf a) = \\mathbf p\\cdot\\mathbf c - \\mathbf p\\cdot\\mathbf a - \\mathbf b\\cdot\\mathbf c + \\mathbf b\\cdot\\mathbf a = 0$$\n$$\\overrightarrow{CP}\\cdot\\overrightarrow{AB} = (\\mathbf p - \\mathbf c)\\cdot(\\mathbf b - \\mathbf a) = \\mathbf p\\cdot\\mathbf b - \\mathbf p\\cdot\\mathbf a - \\mathbf c\\cdot\\mathbf b + \\mathbf c\\cdot\\mathbf a = 0$$\nSo $AP \\perp BC$, $BP \\perp AC$ and $CP \\perp AB$: since $P$ lies in the plane of $ABC$, $P$ lies on all three altitudes of $\\triangle ABC$, so $P$ is the orthocentre $H$.\n\nHence the altitude of the pyramid from $O$ passes through $H$."
+  },
+  {
+   "ref": "Q16(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.15"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{1}{(x^2+1)^2}\\,dx$.",
+   "answer": "Let $x = \\tan\\theta$, so $dx = \\sec^2\\theta\\,d\\theta$ and $x^2 + 1 = \\sec^2\\theta$:\n$$\\int\\frac{1}{(x^2+1)^2}\\,dx = \\int\\frac{\\sec^2\\theta}{\\sec^4\\theta}\\,d\\theta = \\int\\cos^2\\theta\\,d\\theta = \\frac12\\int(1 + \\cos2\\theta)\\,d\\theta = \\frac12\\theta + \\frac14\\sin2\\theta + C$$\n$$= \\frac12\\theta + \\frac12\\sin\\theta\\cos\\theta + C$$\nWith $\\tan\\theta = x$: $\\sin\\theta = \\dfrac{x}{\\sqrt{1+x^2}}$, $\\cos\\theta = \\dfrac{1}{\\sqrt{1+x^2}}$, so\n$$\\int\\frac{1}{(x^2+1)^2}\\,dx = \\frac12\\tan^{-1}x + \\frac{x}{2(1+x^2)} + C$$"
+  },
+  {
+   "ref": "Q16(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.2"
+   ],
+   "question": "Prove that, for any real numbers $a$ and $b$, $a^2 + b^2 - ab - a - b + 1 \\ge 0$.",
+   "answer": "$$a^2 + b^2 - ab - a - b + 1 = \\frac12\\left(2a^2 + 2b^2 - 2ab - 2a - 2b + 2\\right)$$\n$$= \\frac12\\left[(a^2 - 2ab + b^2) + (a^2 - 2a + 1) + (b^2 - 2b + 1)\\right] = \\frac12\\left[(a-b)^2 + (a-1)^2 + (b-1)^2\\right] \\ge 0$$\nsince squares of real numbers are non-negative."
+  },
+  {
+   "ref": "Q16(d)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Consider the integral $I_n = \\displaystyle\\int_0^1(1 - x^2)^n\\,dx$ for integers $n \\ge 0$.\n\nShow that for $n \\ge 1$, the recurrence relation $I_n = \\dfrac{2n}{2n+1}I_{n-1}$ holds.",
+   "answer": "Integrate by parts with $u = (1-x^2)^n$, $v' = 1$, so $u' = -2nx(1-x^2)^{n-1}$, $v = x$:\n$$I_n = \\Big[x(1-x^2)^n\\Big]_0^1 + 2n\\int_0^1x^2(1-x^2)^{n-1}\\,dx = 0 + 2n\\int_0^1\\big(1 - (1 - x^2)\\big)(1-x^2)^{n-1}\\,dx$$\n$$= 2n\\int_0^1(1-x^2)^{n-1}\\,dx - 2n\\int_0^1(1-x^2)^n\\,dx = 2nI_{n-1} - 2nI_n$$\nSo $(2n+1)I_n = 2nI_{n-1}$, i.e.\n$$I_n = \\frac{2n}{2n+1}I_{n-1}.$$"
+  },
+  {
+   "ref": "Q16(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.14",
+    "12.4.1.15"
+   ],
+   "question": "Let $I_n = \\displaystyle\\int_0^1(1 - x^2)^n\\,dx$ for integers $n \\ge 0$. It is known that $I_n = \\dfrac{2n}{2n+1}I_{n-1}$ for $n \\ge 1$.\n\nShow that $I_n = \\dfrac{4^n(n!)^2}{(2n+1)!}$.",
+   "answer": "$I_0 = \\displaystyle\\int_0^1 1\\,dx = 1$. Applying the recurrence repeatedly,\n$$I_n = \\frac{2n}{2n+1}\\cdot\\frac{2n-2}{2n-1}\\cdot\\frac{2n-4}{2n-3}\\cdots\\frac{4}{5}\\cdot\\frac{2}{3}\\cdot I_0.$$\nThe numerator is $2n(2n-2)\\cdots4\\cdot2 = 2^n\\,n!$ ($n$ factors). The denominator is the product of the odd numbers $(2n+1)(2n-1)\\cdots5\\cdot3$. Multiplying top and bottom by the even numbers $2n(2n-2)\\cdots2 = 2^n n!$:\n$$I_n = \\frac{2^n\\,n!\\times2^n\\,n!}{(2n+1)(2n)(2n-1)\\cdots3\\cdot2\\cdot1} = \\frac{4^n(n!)^2}{(2n+1)!}$$\n(This also holds for $n = 0$: $\\frac{1\\cdot1}{1!} = 1 = I_0$.)"
+  }
+ ]
+}
