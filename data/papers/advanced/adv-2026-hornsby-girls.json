@@ -1,0 +1,753 @@
+{
+ "id": "adv-2026-hornsby-girls",
+ "course": "advanced",
+ "school": "Hornsby Girls",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5328",
+  "title": "Hornsby Girls 2026 w. sol"
+ },
+ "indexed": "2026-11-12",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q2",
+   "reason": "Not in 2024 syllabus: effect of adding a constant on the mean and standard deviation of a dataset"
+  },
+  {
+   "ref": "Q11(a)",
+   "reason": "Not in 2024 syllabus: Pareto charts (completing a Pareto chart)"
+  },
+  {
+   "ref": "Q11(b)",
+   "reason": "Not in 2024 syllabus: Pareto charts (interpreting a Pareto chart)"
+  },
+  {
+   "ref": "Q24(a)",
+   "reason": "Not in 2024 syllabus: bivariate data (Pearson's correlation coefficient)"
+  },
+  {
+   "ref": "Q24(b)",
+   "reason": "Not in 2024 syllabus: bivariate data (describing correlation)"
+  },
+  {
+   "ref": "Q24(c)",
+   "reason": "Not in 2024 syllabus: bivariate data (least-squares regression line)"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.3.6",
+    "11.1.3.5"
+   ],
+   "question": "Which of the following could be the graph of $y=x-1$?",
+   "options": [
+    "![Graph A](assets/img/adv-2026-hornsby-girls/q1a.png)",
+    "![Graph B](assets/img/adv-2026-hornsby-girls/q1b.png)",
+    "![Graph C](assets/img/adv-2026-hornsby-girls/q1c.png)",
+    "![Graph D](assets/img/adv-2026-hornsby-girls/q1d.png)"
+   ],
+   "correct": "C",
+   "answer": "$y=x-1$ has gradient $m=1>0$ (rising line) and $y$-intercept $-1$ (below the origin). Only graph C rises from left to right and cuts the $y$-axis below the origin."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.1.2"
+   ],
+   "question": "A small plane is approaching an airport to land. It is currently 750 metres above the airport and 1500 metres horizontally from its landing point.\n\nWhat is the angle of depression, $\\theta$, from the plane to its landing point, correct to the nearest degree?",
+   "options": [
+    "$27^\\circ$",
+    "$30^\\circ$",
+    "$60^\\circ$",
+    "$63^\\circ$"
+   ],
+   "correct": "A",
+   "answer": "$\\tan\\theta=\\dfrac{750}{1500}=\\dfrac12$, so $\\theta=\\tan^{-1}\\left(\\tfrac12\\right)\\approx 26.57^\\circ\\approx 27^\\circ$.",
+   "images": [
+    "assets/img/adv-2026-hornsby-girls/q3.png"
+   ]
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.9.3",
+    "11.1.8.4"
+   ],
+   "question": "Which of the following is the range of the function $f(x)=2\\sqrt{16-x^2}$?",
+   "options": [
+    "$[-8,8]$",
+    "$[0,8]$",
+    "$[0,4]$",
+    "$[-4,4]$"
+   ],
+   "correct": "B",
+   "answer": "$y=\\sqrt{16-x^2}$ is the upper semicircle of radius 4, with range $[0,4]$. Multiplying by 2 dilates it vertically, so the range of $f$ is $[0,8]$ (maximum $f(0)=8$, minimum $0$ at $x=\\pm4$)."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.4.1",
+    "11.4.3.9"
+   ],
+   "question": "For what values of $x$ is $y=\\dfrac{x^2}{2x^2+x+1}$ decreasing?",
+   "options": [
+    "$-2<x<0$",
+    "$x<-2,\\ x>0$",
+    "$0<x<2$",
+    "$x=0,\\ -2$"
+   ],
+   "correct": "A",
+   "answer": "By the quotient rule\n$$\\frac{dy}{dx}=\\frac{2x(2x^2+x+1)-x^2(4x+1)}{(2x^2+x+1)^2}=\\frac{x^2+2x}{(2x^2+x+1)^2}=\\frac{x(x+2)}{(2x^2+x+1)^2}.$$\nThe denominator is always positive, so $\\dfrac{dy}{dx}<0$ when $x(x+2)<0$, i.e. $-2<x<0$."
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7",
+    "12.4.4.5"
+   ],
+   "question": "What is $\\displaystyle\\int\\frac{1}{(3x+2)^3}\\,dx$?",
+   "options": [
+    "$\\dfrac{-1}{2(3x+2)^2}+C$",
+    "$\\dfrac{-6}{(3x+2)^2}+C$",
+    "$\\dfrac{-1}{6(3x+2)^2}+C$",
+    "$\\dfrac{-1}{3(3x+2)^2}+C$"
+   ],
+   "correct": "C",
+   "answer": "$\\displaystyle\\int(3x+2)^{-3}\\,dx=\\frac{(3x+2)^{-2}}{(-2)(3)}+C=\\frac{-1}{6(3x+2)^2}+C.$"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.7.3.8",
+    "11.7.2.6"
+   ],
+   "question": "In a certain Sydney suburb, the probability of an adult catching the flu is $0.2$. Two adults living in this suburb are chosen at random. The probability of at least one of them catching the flu is:",
+   "options": [
+    "$0.04$",
+    "$0.32$",
+    "$0.36$",
+    "$0.64$"
+   ],
+   "correct": "C",
+   "answer": "$P(\\text{at least one})=1-P(\\text{neither})=1-0.8\\times0.8=1-0.64=0.36.$"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.8.4",
+    "12.4.8.5"
+   ],
+   "question": "The diagram shows the graph of $y=x^2+x-20$, which cuts the positive $x$-axis at $x=4$.\n\nWhat is the correct expression for the area bounded by the $x$-axis and the graph $y=x^2+x-20$ between $0<x<6$?",
+   "options": [
+    "$A=\\displaystyle\\int_0^6 x^2+x-20\\,dx$",
+    "$A=\\left|\\displaystyle\\int_0^4 x^2+x-20\\,dx\\right|+\\displaystyle\\int_4^6 x^2+x-20\\,dx$",
+    "$A=\\displaystyle\\int_0^4 x^2+x-20\\,dx+\\left|\\displaystyle\\int_4^6 x^2+x-20\\,dx\\right|$",
+    "$A=\\left|\\displaystyle\\int_0^6 x^2+x-20\\,dx\\right|$"
+   ],
+   "correct": "B",
+   "answer": "$x^2+x-20=(x+5)(x-4)$ is negative on $0<x<4$ (region below the axis) and positive on $4<x<6$. The area below the axis must be taken as the absolute value of its integral, and the area above the axis is the integral itself, giving B.",
+   "images": [
+    "assets/img/adv-2026-hornsby-girls/q8.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.2",
+    "12.4.6.2"
+   ],
+   "question": "A vessel initially contains 100 litres of water. It is being emptied at the rate of\n$$\\frac{dV}{dt}=-\\left(2+\\frac{20}{t+1}\\right)$$\nwhere $V$ is the volume in litres after $t$ minutes.\n\nWhich of the following gives the exact volume of water in the vessel after 5 minutes?",
+   "options": [
+    "$10+20\\ln 6$",
+    "$90-20\\ln 6$",
+    "$90+20\\ln 6$",
+    "$110+20\\ln 6$"
+   ],
+   "correct": "B",
+   "answer": "$V=-2t-20\\ln(t+1)+C$. At $t=0$, $V=100$: $100=0-20\\ln1+C$, so $C=100$.\nAt $t=5$: $V=-10-20\\ln 6+100=90-20\\ln 6$."
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.1.9.7",
+    "11.1.9.6"
+   ],
+   "question": "The graphs of $y=f(x)$ and $y=g(x)$ are shown.\n\nWhich graph best represents $y=g(f(x))$?",
+   "options": [
+    "![Graph A](assets/img/adv-2026-hornsby-girls/q10a.png)",
+    "![Graph B](assets/img/adv-2026-hornsby-girls/q10b.png)",
+    "![Graph C](assets/img/adv-2026-hornsby-girls/q10c.png)",
+    "![Graph D](assets/img/adv-2026-hornsby-girls/q10d.png)"
+   ],
+   "correct": "C",
+   "answer": "Both $f$ and $g$ are odd, so $g(f(-x))=g(-f(x))=-g(f(x))$: the composite is odd (point symmetric about the origin). Only graph C has this symmetry. (Also: as $x\\to0^+$, $f\\to\\infty$ so $g(f)\\to\\infty$; as $x\\to0^-$, $g(f)\\to-\\infty$; as $x\\to\\infty$, $f\\to0^+$ where $g$ is slightly negative, matching C.)",
+   "images": [
+    "assets/img/adv-2026-hornsby-girls/q10.png"
+   ]
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.7.2",
+    "11.1.7.3"
+   ],
+   "question": "The time ($H$ hours) it takes to travel to a location varies inversely with the speed ($S$ km/hour) travelled. It takes 4 hours driving at an average speed of 60 km/hour to reach a location.\n\nFind the equation relating $H$ and $S$.",
+   "answer": "$H\\propto\\dfrac1S$, so $H=\\dfrac kS$.\n\nWhen $S=60$, $H=4$: $4=\\dfrac{k}{60}$, so $k=240$.\n\n$$\\therefore\\ H=\\frac{240}{S}$$"
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.7.4",
+    "11.1.5.1"
+   ],
+   "question": "The time ($H$ hours) it takes to travel to a location is related to the speed ($S$ km/hour) by $H=\\dfrac{240}{S}$.\n\nBy first completing the table of values, graph the relationship between $H$ and $S$. Express values correct to the nearest hour.\n\n| $S$ | 100 | 60 | 40 |\n|---|---|---|---|\n| $H$ |  |  |  |",
+   "answer": "$H=\\dfrac{240}{100}=2.4\\approx2$, $H=\\dfrac{240}{60}=4$, $H=\\dfrac{240}{40}=6$.\n\n| $S$ | 100 | 60 | 40 |\n|---|---|---|---|\n| $H$ | 2 | 4 | 6 |\n\nThe graph (for $S>0$) is one branch of a hyperbola: decreasing and concave up, passing through $(40,6)$, $(60,4)$ and $(100,2.4)$, approaching the $S$-axis as $S$ increases and the $H$-axis as $S\\to0^+$. It must be consistent with $H=\\dfrac{240}{S}$ (not a straight line).",
+   "answer_images": [
+    "assets/img/adv-2026-hornsby-girls/q12b-sol.png"
+   ]
+  },
+  {
+   "ref": "Q13",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.8.11"
+   ],
+   "question": "Use 2 applications of the trapezoidal rule to find an approximate value of $\\displaystyle\\int_2^4\\ln x\\,dx$. Give your answer to 2 decimal places.",
+   "answer": "Two applications (2 subintervals) gives $h=1$ with $x=2,3,4$:\n\n| $x$ | 2 | 3 | 4 |\n|---|---|---|---|\n| $\\ln x$ | $\\ln2$ | $\\ln3$ | $\\ln4$ |\n\n$$\\int_2^4\\ln x\\,dx\\approx\\frac{1}{2}\\Big[\\ln2+2\\ln3+\\ln4\\Big]=\\frac12\\ln(2\\times9\\times4)=\\frac12\\ln72\\approx2.138\\approx2.14$$"
+  },
+  {
+   "ref": "Q14",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.3",
+    "12.1.1.2"
+   ],
+   "question": "The graph of $y=k\\cos(ax)$ is shown.\n\nWhat are the values of $k$ and $a$?",
+   "answer": "The amplitude is 3 and the graph has a maximum at $x=0$, so $k=3$.\n\nConsecutive maxima are at $x=0$ and $x=6\\pi$, so the period is $6\\pi$:\n$$\\frac{2\\pi}{a}=6\\pi\\ \\Rightarrow\\ a=\\frac13.$$\nSo $k=3$, $a=\\dfrac13$, i.e. $y=3\\cos\\left(\\dfrac x3\\right)$.",
+   "images": [
+    "assets/img/adv-2026-hornsby-girls/q14.png"
+   ]
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.7.2.7",
+    "11.7.3.8"
+   ],
+   "question": "Remy orders a burger and a shake from the drive-through at her favourite fast-food restaurant. From previous experiences, she knows that there is a 90% chance that she will receive the burger she ordered and there is a 95% chance she will get the shake she ordered.\n\nUsing the above information, construct a probability tree.",
+   "answer": "Let $B$ = receives the correct burger, $S$ = receives the correct shake (independent).\n\nFirst stage: $P(B)=0.9$, $P(\\overline B)=0.1$. Second stage (on each branch): $P(S)=0.95$, $P(\\overline S)=0.05$.\n\n| Outcome | Probability |\n|---|---|\n| $B,\\ S$ | $0.9\\times0.95=0.855$ |\n| $B,\\ \\overline S$ | $0.9\\times0.05=0.045$ |\n| $\\overline B,\\ S$ | $0.1\\times0.95=0.095$ |\n| $\\overline B,\\ \\overline S$ | $0.1\\times0.05=0.005$ |\n\n(The four outcome probabilities sum to 1.)"
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.3.8",
+    "11.7.2.7"
+   ],
+   "question": "Remy orders a burger and a shake from the drive-through at her favourite fast-food restaurant. From previous experiences, she knows that there is a 90% chance that she will receive the burger she ordered and there is a 95% chance she will get the shake she ordered.\n\nFind the probability that exactly one of the items she receives does not match the items she ordered.",
+   "answer": "$$P(B\\overline S)+P(\\overline B S)=0.9\\times0.05+0.1\\times0.95=0.045+0.095=0.14$$"
+  },
+  {
+   "ref": "Q16",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.8.5"
+   ],
+   "question": "The parabola $y=x^2$ meets the line $y=4-3x$ at the points $(-4,16)$ and $(1,1)$, as shown in the diagram.\n\nFind the area enclosed by the parabola and the line.",
+   "answer": "On $-4\\le x\\le1$ the line lies above the parabola, so\n$$\\begin{aligned}A&=\\int_{-4}^{1}\\left(4-3x-x^2\\right)dx=\\left[4x-\\frac{3x^2}{2}-\\frac{x^3}{3}\\right]_{-4}^{1}\\\\\n&=\\left(4-\\frac32-\\frac13\\right)-\\left(-16-24+\\frac{64}{3}\\right)\\\\\n&=\\frac{13}{6}+\\frac{56}{3}=\\frac{125}{6}\\ \\text{units}^2.\\end{aligned}$$",
+   "images": [
+    "assets/img/adv-2026-hornsby-girls/q16.png"
+   ]
+  },
+  {
+   "ref": "Q17(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.4"
+   ],
+   "question": "A musical instrument has many strings attached, as shown in the diagram. The difference between the lengths of adjacent strings is a constant so that the lengths of the strings are the terms of an arithmetic sequence. The shortest string is 30 cm long and the longest string is 50 cm. The sum of the lengths of all the strings is 1240 cm.\n\nFind the number of strings.",
+   "answer": "$S_n=\\dfrac n2(a+l)$ with $a=30$, $l=50$:\n$$1240=\\frac n2(30+50)=40n\\ \\Rightarrow\\ n=31.$$\nThere are 31 strings.",
+   "images": [
+    "assets/img/adv-2026-hornsby-girls/q17.png"
+   ]
+  },
+  {
+   "ref": "Q17(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.2"
+   ],
+   "question": "A musical instrument has many strings attached, as shown in the diagram. The difference between the lengths of adjacent strings is a constant so that the lengths of the strings are the terms of an arithmetic sequence. The shortest string is 30 cm long and the longest string is 50 cm. The sum of the lengths of all the strings is 1240 cm.\n\nThere are 31 strings. Find the difference in length between adjacent strings.",
+   "answer": "Taking the shortest string as the first term: $T_{31}=a+30d$\n$$50=30+30d\\ \\Rightarrow\\ d=\\frac{20}{30}=\\frac23.$$\nAdjacent strings differ by $\\dfrac23$ cm.",
+   "images": [
+    "assets/img/adv-2026-hornsby-girls/q17.png"
+   ]
+  },
+  {
+   "ref": "Q17(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.2"
+   ],
+   "question": "A musical instrument has many strings attached, as shown in the diagram. The difference between the lengths of adjacent strings is a constant so that the lengths of the strings are the terms of an arithmetic sequence. The shortest string is 30 cm long and the longest string is 50 cm. The sum of the lengths of all the strings is 1240 cm.\n\nThere are 31 strings and adjacent strings differ in length by $\\dfrac23$ cm. What is the length of the tenth string?",
+   "answer": "Counting from the shortest string ($a=30$, $d=\\tfrac23$):\n$$T_{10}=30+9\\times\\frac23=36\\text{ cm}.$$\n(Counting from the longest string, $a=50$, $d=-\\tfrac23$, gives $T_{10}=50-6=44$ cm; both were accepted.)",
+   "images": [
+    "assets/img/adv-2026-hornsby-girls/q17.png"
+   ]
+  },
+  {
+   "ref": "Q18(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.3.10",
+    "12.3.2.1"
+   ],
+   "question": "Differentiate $(\\ln x)^2$.",
+   "answer": "By the chain rule:\n$$\\frac{d}{dx}(\\ln x)^2=2\\ln x\\cdot\\frac1x=\\frac{2\\ln x}{x}.$$"
+  },
+  {
+   "ref": "Q18(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.4.5",
+    "12.4.8.1"
+   ],
+   "question": "Given that $\\dfrac{d}{dx}(\\ln x)^2=\\dfrac{2\\ln x}{x}$, evaluate $\\displaystyle\\int_1^4\\frac{\\ln x}{x}\\,dx$, keeping the answer in exact form.",
+   "answer": "$$\\int_1^4\\frac{\\ln x}{x}\\,dx=\\frac12\\int_1^4\\frac{2\\ln x}{x}\\,dx=\\frac12\\Big[(\\ln x)^2\\Big]_1^4=\\frac12\\left[(\\ln4)^2-(\\ln1)^2\\right]=\\frac12(\\ln4)^2$$\n$$=2(\\ln2)^2.$$"
+  },
+  {
+   "ref": "Q19",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.6.1.6",
+    "11.1.4.7"
+   ],
+   "question": "The graph of the function $f(x)=x^3$ is translated $m$ units to the left, dilated vertically by a scale factor of $k$, and then translated 4 units up. The equation of the transformed function is $g(x)=2x^3+18x^2+54x+58$. Find the values of $m$ and $k$.",
+   "answer": "The transformed function is\n$$y=k(x+m)^3+4=kx^3+3kmx^2+3km^2x+km^3+4.$$\nEquating coefficients with $g(x)=2x^3+18x^2+54x+58$:\n- $x^3$: $k=2$\n- constant: $km^3+4=58\\Rightarrow 2m^3=54\\Rightarrow m^3=27\\Rightarrow m=3$\n\nCheck: $3km=18$ ✓ and $3km^2=54$ ✓. So $m=3$, $k=2$."
+  },
+  {
+   "ref": "Q20(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.3.8"
+   ],
+   "question": "A zoologist is studying the growth of a meerkat colony. The zoologist models the number of meerkats, $N(t)$, by the equation\n$$N(t)=46e^{0.082t},$$\nwhere $t$ is the number of months after starting the experiment.\n\nWhat is the initial number of meerkats in the experiment?",
+   "answer": "$N(0)=46e^{0}=46$ meerkats."
+  },
+  {
+   "ref": "Q20(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.3.8"
+   ],
+   "question": "A zoologist is studying the growth of a meerkat colony. The zoologist models the number of meerkats, $N(t)$, by the equation\n$$N(t)=46e^{0.082t},$$\nwhere $t$ is the number of months after starting the experiment.\n\nWhat is the number of meerkats one year after starting the experiment?",
+   "answer": "One year is $t=12$ months:\n$$N(12)=46e^{0.082\\times12}=46e^{0.984}\\approx123.06\\approx123\\text{ meerkats}.$$"
+  },
+  {
+   "ref": "Q20(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.1",
+    "12.3.1.1"
+   ],
+   "question": "A zoologist is studying the growth of a meerkat colony. The zoologist models the number of meerkats, $N(t)$, by the equation\n$$N(t)=46e^{0.082t},$$\nwhere $t$ is the number of months after starting the experiment.\n\nWhat is the rate of increase in the number of meerkats one year after starting the experiment?",
+   "answer": "$$N'(t)=0.082\\times46e^{0.082t}$$\n$$N'(12)=0.082\\times46e^{0.984}\\approx0.082\\times123.056\\approx10.1\\text{ meerkats per month}.$$\n\n*Note: the paper's solution writes the units as \"meerkats/yr\"; since $t$ is in months the rate is per month.*"
+  },
+  {
+   "ref": "Q21(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.10"
+   ],
+   "question": "From the top of a 40 m high building, a ball is projected vertically upwards with an initial velocity of $25\\ \\text{m s}^{-1}$. On its return, it just misses the edge of the building and continues to the ground. The acceleration due to gravity is $10\\ \\text{m s}^{-2}$.\n\nFind the velocity and displacement functions of the ball.",
+   "answer": "Take upwards as positive and the ground as the origin, so at $t=0$: $y=40$, $\\dot y=25$, and $\\ddot y=-10$.\n\n$\\dot y=-10t+C$; at $t=0$, $\\dot y=25\\Rightarrow C=25$, so\n$$v=\\dot y=-10t+25.$$\n$y=-5t^2+25t+K$; at $t=0$, $y=40\\Rightarrow K=40$, so\n$$y=-5t^2+25t+40.$$"
+  },
+  {
+   "ref": "Q21(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.10"
+   ],
+   "question": "From the top of a 40 m high building, a ball is projected vertically upwards with an initial velocity of $25\\ \\text{m s}^{-1}$. On its return, it just misses the edge of the building and continues to the ground. The acceleration due to gravity is $10\\ \\text{m s}^{-2}$.\n\nTaking upwards as positive and the ground as the origin, the velocity and displacement of the ball are $v=-10t+25$ and $y=-5t^2+25t+40$.\n\nFind the greatest height that the ball reaches above the ground.",
+   "answer": "Greatest height when $v=0$: $-10t+25=0\\Rightarrow t=2.5$ s.\n$$y=-5(2.5)^2+25(2.5)+40=-31.25+62.5+40=71.25\\text{ m}$$\nThe greatest height is 71.25 m above the ground."
+  },
+  {
+   "ref": "Q22",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.7.3.4",
+    "11.7.3.2"
+   ],
+   "question": "The probability that a student studies Physics given they study Mathematics is $0.6$. Using the following table, find the probability that a student chosen at random studies both Physics and Maths.\n\n|  | Physics | Not Physics |\n|---|---|---|\n| **Maths** | $A$ | 32 |\n| **Not Maths** | 28 | 16 |",
+   "answer": "$P(\\text{Physics}\\mid\\text{Maths})=\\dfrac{A}{A+32}=0.6$\n$$10A=6A+192\\ \\Rightarrow\\ 4A=192\\ \\Rightarrow\\ A=48.$$\nTotal number of students $=48+32+28+16=124$, so\n$$P(\\text{Physics}\\cap\\text{Maths})=\\frac{48}{124}=\\frac{12}{31}.$$"
+  },
+  {
+   "ref": "Q23(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.1.2"
+   ],
+   "question": "Between 6 am and 6 pm on 7th April 2026, the height, $h$, of the tide in a harbour was given by\n$$h=2+0.7\\sin\\left(\\frac{\\pi}{6}t\\right),\\quad 0\\le t\\le12,$$\nwhere $h$ is in metres and $t$ is in hours, taking $t=0$ at 6 am.\n\nWhat is the period of the function $h$?",
+   "answer": "$$\\text{Period}=\\frac{2\\pi}{\\pi/6}=12\\text{ hours}.$$"
+  },
+  {
+   "ref": "Q23(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.1.3"
+   ],
+   "question": "Between 6 am and 6 pm on 7th April 2026, the height, $h$, of the tide in a harbour was given by\n$$h=2+0.7\\sin\\left(\\frac{\\pi}{6}t\\right),\\quad 0\\le t\\le12,$$\nwhere $h$ is in metres and $t$ is in hours, taking $t=0$ at 6 am.\n\nWhat was the value of $h$ at low tide and at what time did low tide occur?",
+   "answer": "Low tide is one amplitude below the centre line: $h=2-0.7=1.3$ m.\n\nThis occurs when $\\sin\\left(\\frac{\\pi}{6}t\\right)=-1$, i.e. $\\frac{\\pi}{6}t=\\frac{3\\pi}{2}$, so $t=9$ hours after 6 am, i.e. at **3 pm**."
+  },
+  {
+   "ref": "Q23(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.1.3"
+   ],
+   "question": "Between 6 am and 6 pm on 7th April 2026, the height, $h$, of the tide in a harbour was given by\n$$h=2+0.7\\sin\\left(\\frac{\\pi}{6}t\\right),\\quad 0\\le t\\le12,$$\nwhere $h$ is in metres and $t$ is in hours, taking $t=0$ at 6 am.\n\nA ship is able to enter the harbour only if the height of the tide is at least 2.35 m. Find all times between 6 am and 6 pm on 7th April 2026 during which the ship was able to enter the harbour.",
+   "answer": "$$2+0.7\\sin\\left(\\frac{\\pi}{6}t\\right)\\ge2.35\\ \\Rightarrow\\ \\sin\\left(\\frac{\\pi}{6}t\\right)\\ge\\frac12.$$\nFor $0\\le\\frac{\\pi}{6}t\\le2\\pi$, $\\sin\\theta=\\frac12$ when $\\theta=\\frac{\\pi}{6},\\frac{5\\pi}{6}$ (1st and 2nd quadrants), and $\\sin\\theta\\ge\\frac12$ between them:\n$$\\frac{\\pi}{6}\\le\\frac{\\pi}{6}t\\le\\frac{5\\pi}{6}\\ \\Rightarrow\\ 1\\le t\\le5.$$\nSo the ship could enter between **7 am and 11 am**."
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.2",
+    "12.4.5.3"
+   ],
+   "question": "Water is flowing into an empty tank which has a hole in its base. The rate of change of the level of water in the tank is given by $\\dfrac{dh}{dt}=3^t-5$, where $h$ is the depth of the water in the tank in cm and $t$ is the time in minutes after the water starts flowing in.\n\nShow that the depth of the water in the tank is\n$$h=\\frac{3^t}{\\ln3}-5t-\\frac{1}{\\ln3}.$$",
+   "answer": "$$h=\\int(3^t-5)\\,dt=\\frac{3^t}{\\ln3}-5t+C.$$\nThe tank is initially empty: $t=0$, $h=0$:\n$$0=\\frac{3^0}{\\ln3}-0+C\\ \\Rightarrow\\ C=-\\frac{1}{\\ln3}.$$\n$$\\therefore\\ h=\\frac{3^t}{\\ln3}-5t-\\frac1{\\ln3}.$$"
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.2"
+   ],
+   "question": "Water is flowing into an empty tank which has a hole in its base. The rate of change of the level of water in the tank is given by $\\dfrac{dh}{dt}=3^t-5$, where $h$ is the depth of the water in the tank in cm and $t$ is the time in minutes after the water starts flowing in.\n\nThe model gives the depth as $h=\\dfrac{3^t}{\\ln3}-5t-\\dfrac{1}{\\ln3}$.\n\nCalculate the depth of the water in the tank after 2 minutes, correct to two decimal places.",
+   "answer": "Substituting $t=2$:\n$$h=\\frac{3^2}{\\ln3}-5(2)-\\frac1{\\ln3}=\\frac{8}{\\ln3}-10\\approx-2.72.$$\nA depth cannot be negative: the water flowing in has all gone out through the hole, so the tank is still empty after 2 minutes (depth $0$ cm). The negative value must be interpreted in context."
+  },
+  {
+   "ref": "Q26",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.3.8",
+    "11.2.3.7"
+   ],
+   "question": "The diagram shows a circle of radius 6 cm, centred at the origin, and a right triangle with a perpendicular height of length 8 cm. The triangle has one vertex at the centre, a horizontal side of 6 cm along the $x$-axis, and a vertical side of 8 cm; its hypotenuse passes through the circle.\n\nCalculate the area of the shaded region, correct to 2 decimal places.",
+   "answer": "Area of triangle $=\\frac12(6)(8)=24\\text{ cm}^2$.\n\nAngle at the centre: $\\tan\\theta=\\dfrac86\\Rightarrow\\theta=\\tan^{-1}\\left(\\tfrac43\\right)\\approx0.9273$ radians.\n\nArea of sector $=\\frac12(6)^2(0.9273)\\approx16.6913\\text{ cm}^2$.\n\nShaded area $=24-16.6913\\approx7.31\\text{ cm}^2$.",
+   "images": [
+    "assets/img/adv-2026-hornsby-girls/q26.png"
+   ]
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.8",
+    "12.5.1.4"
+   ],
+   "question": "Consider the function $f(x)=x^4-8x^2$.\n\nFind the coordinates of the stationary points of the curve $y=f(x)$ and determine their nature.",
+   "answer": "$$f'(x)=4x^3-16x=4x(x^2-4)=4x(x-2)(x+2)=0\\ \\Rightarrow\\ x=0,\\ \\pm2.$$\n$f(0)=0$, $f(\\pm2)=16-32=-16$.\n\n$f''(x)=12x^2-16$:\n- $f''(0)=-16<0$: $(0,0)$ is a local maximum.\n- $f''(\\pm2)=32>0$: $(-2,-16)$ and $(2,-16)$ are local (global) minima."
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.9"
+   ],
+   "question": "Consider the function $f(x)=x^4-8x^2$. Its stationary points are a local maximum at $(0,0)$ and minima at $(-2,-16)$ and $(2,-16)$.\n\nSketch the curve showing where it meets the axes and any stationary points.",
+   "answer": "Intercepts: $x^4-8x^2=x^2(x^2-8)=0\\Rightarrow x=0,\\ \\pm2\\sqrt2$; $y$-intercept $0$.\n\nThe curve is even (symmetric about the $y$-axis), a \"W\" shape: it comes down from $+\\infty$, crosses the $x$-axis at $(-2\\sqrt2,0)$, reaches the minimum $(-2,-16)$, rises to touch the axis at the local maximum $(0,0)$, falls to the minimum $(2,-16)$ and rises through $(2\\sqrt2,0)$ to $+\\infty$. (The points of inflection at $\\left(\\pm\\frac{2\\sqrt3}{3},-\\frac{80}{9}\\right)$ from part (c) are also marked.)",
+   "answer_images": [
+    "assets/img/adv-2026-hornsby-girls/q27b-sol.png"
+   ]
+  },
+  {
+   "ref": "Q27(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.7",
+    "12.5.1.6"
+   ],
+   "question": "Consider the function $f(x)=x^4-8x^2$.\n\nFind and test for the point(s) of inflection of the function $f(x)$.",
+   "answer": "$$f''(x)=12x^2-16=4(3x^2-4)=0\\ \\Rightarrow\\ x=\\pm\\frac{2}{\\sqrt3}=\\pm\\frac{2\\sqrt3}{3}.$$\n$$f\\left(\\pm\\tfrac{2}{\\sqrt3}\\right)=\\frac{16}{9}-8\\cdot\\frac43=\\frac{16}{9}-\\frac{96}{9}=-\\frac{80}{9}.$$\nTest concavity:\n- For $x<-\\frac{2}{\\sqrt3}$, $f''(x)>0$; for $-\\frac2{\\sqrt3}<x<\\frac2{\\sqrt3}$, $f''(x)<0$; for $x>\\frac2{\\sqrt3}$, $f''(x)>0$ (e.g. $f''(\\pm2)=32$, $f''(0)=-16$).\n\nConcavity changes at both points, so $\\left(-\\frac{2\\sqrt3}{3},-\\frac{80}{9}\\right)$ and $\\left(\\frac{2\\sqrt3}{3},-\\frac{80}{9}\\right)$ are points of inflection."
+  },
+  {
+   "ref": "Q27(d)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.5"
+   ],
+   "question": "Consider the function $f(x)=x^4-8x^2$.\n\nFor which values of $x$ is the curve $y=f(x)$ concave up?",
+   "answer": "$f''(x)=12x^2-16>0\\iff x^2>\\frac43$, so the curve is concave up for\n$$x<-\\frac{2\\sqrt3}{3}\\quad\\text{or}\\quad x>\\frac{2\\sqrt3}{3}.$$"
+  },
+  {
+   "ref": "Q28",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.2.9",
+    "11.5.2.7"
+   ],
+   "question": "The distance between the curves $y=\\log_2(x-3)$ and $y=\\log_2x$ at $x=k$ is 2 units. Find the value of $k$.",
+   "answer": "For $k>3$, $\\log_2k>\\log_2(k-3)$, so\n$$\\log_2k-\\log_2(k-3)=2\\ \\Rightarrow\\ \\log_2\\frac{k}{k-3}=2\\ \\Rightarrow\\ \\frac{k}{k-3}=4$$\n$$k=4k-12\\ \\Rightarrow\\ k=4.$$"
+  },
+  {
+   "ref": "Q29(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.4.8",
+    "11.1.1.6"
+   ],
+   "question": "The diagram shows the areas between two odd functions: $y=\\dfrac{x}{x^2+1}$ and $y=mx$ (where $0<m<1$). They intersect at the origin and at $x=\\pm A$.\n\nShow that the $x$-coordinate, $A$, of the point of intersection of the functions in the first quadrant is given by $\\sqrt{\\dfrac1m-1}$.",
+   "answer": "$$mx=\\frac{x}{x^2+1}\\ \\Rightarrow\\ mx(x^2+1)=x\\ \\Rightarrow\\ mx^3+mx-x=0\\ \\Rightarrow\\ x(mx^2+m-1)=0.$$\nSo $x=0$ or $mx^2=1-m$, i.e. $x^2=\\dfrac{1-m}{m}=\\dfrac1m-1$, giving $x=\\pm\\sqrt{\\dfrac1m-1}$.\n\nIn the first quadrant $x>0$, so $A=\\sqrt{\\dfrac1m-1}$.",
+   "images": [
+    "assets/img/adv-2026-hornsby-girls/q29.png"
+   ]
+  },
+  {
+   "ref": "Q29(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.8.10",
+    "12.4.8.5",
+    "12.4.6.3"
+   ],
+   "question": "The diagram shows the areas between two odd functions: $y=\\dfrac{x}{x^2+1}$ and $y=mx$ (where $0<m<1$). They intersect at the origin and at $x=\\pm A$. The first-quadrant intersection is at $x=A=\\sqrt{\\dfrac1m-1}$.\n\nCalculate the area of the shaded region in terms of $m$.",
+   "answer": "By symmetry (both functions odd) the total area is twice the first-quadrant area, where the curve lies above the line:\n$$\\begin{aligned}\\text{Area}&=2\\int_0^A\\left(\\frac{x}{x^2+1}-mx\\right)dx=\\int_0^A\\frac{2x}{x^2+1}\\,dx-\\int_0^A2mx\\,dx\\\\\n&=\\Big[\\ln(x^2+1)\\Big]_0^A-\\Big[mx^2\\Big]_0^A=\\ln(A^2+1)-mA^2.\\end{aligned}$$\nWith $A^2=\\dfrac1m-1$, $A^2+1=\\dfrac1m$:\n$$\\text{Area}=\\ln\\frac1m-m\\left(\\frac1m-1\\right)=-\\ln m-1+m=m-1-\\ln m\\ \\text{units}^2.$$\n\n*Note: the paper's solution drops the $-1$ in the last line and gives $m-\\ln m$; the correct area is $m-1-\\ln m$.*",
+   "images": [
+    "assets/img/adv-2026-hornsby-girls/q29.png"
+   ]
+  },
+  {
+   "ref": "Q30",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.3",
+    "11.3.1.10"
+   ],
+   "question": "Solve $\\tan\\left(2x-\\dfrac{\\pi}{4}\\right)=\\dfrac{1}{\\sqrt3}$ for $x\\in[-\\pi,\\pi]$.",
+   "answer": "Domain: $-\\pi\\le x\\le\\pi\\Rightarrow-2\\pi-\\frac\\pi4\\le2x-\\frac\\pi4\\le2\\pi-\\frac\\pi4$, i.e. $-\\frac{9\\pi}{4}\\le2x-\\frac\\pi4\\le\\frac{7\\pi}{4}$.\n\n$\\tan\\theta=\\frac1{\\sqrt3}$ (1st and 3rd quadrants) gives $\\theta=\\frac\\pi6+n\\pi$. In the domain:\n$$2x-\\frac\\pi4=-\\frac{11\\pi}{6},\\ -\\frac{5\\pi}{6},\\ \\frac\\pi6,\\ \\frac{7\\pi}{6}$$\n$$2x=-\\frac{19\\pi}{12},\\ -\\frac{7\\pi}{12},\\ \\frac{5\\pi}{12},\\ \\frac{17\\pi}{12}$$\n$$x=-\\frac{19\\pi}{24},\\ -\\frac{7\\pi}{24},\\ \\frac{5\\pi}{24},\\ \\frac{17\\pi}{24}.$$"
+  },
+  {
+   "ref": "Q31(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.7"
+   ],
+   "question": "The diagram shows the graph of $y=3^{-x}$. Also shown are the first 4 of an infinite number of rectangular strips of width $\\frac12$ unit. Each strip lies under the curve, with its height equal to the value of $y=3^{-x}$ at the strip's right-hand end, i.e. heights $3^{-1/2},3^{-1},3^{-3/2},3^{-2},\\dots$\n\nThe sum of the areas of the rectangles forms a geometric series. Show that the limiting sum of this series is $\\dfrac{1}{2\\sqrt3-2}$.",
+   "answer": "$$\\text{Sum of areas}=\\frac12\\times3^{-1/2}+\\frac12\\times3^{-1}+\\frac12\\times3^{-3/2}+\\frac12\\times3^{-2}+\\cdots=\\frac12\\left(3^{-1/2}+3^{-1}+3^{-3/2}+\\cdots\\right)$$\nThis is a GP with $a=3^{-1/2}=\\frac1{\\sqrt3}$ and $r=3^{-1/2}=\\frac1{\\sqrt3}$, $|r|<1$:\n$$S_\\infty=\\frac12\\cdot\\frac{\\frac1{\\sqrt3}}{1-\\frac1{\\sqrt3}}=\\frac12\\cdot\\frac{1}{\\sqrt3-1}=\\frac1{2\\sqrt3-2}.$$",
+   "images": [
+    "assets/img/adv-2026-hornsby-girls/q31.png"
+   ]
+  },
+  {
+   "ref": "Q31(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.5.3",
+    "12.4.8.1"
+   ],
+   "question": "Show that $\\displaystyle\\int_0^2 3^{-x}\\,dx=\\frac{8}{9\\ln3}$.",
+   "answer": "$$\\int_0^23^{-x}\\,dx=\\left[\\frac{-3^{-x}}{\\ln3}\\right]_0^2=-\\left(\\frac{1}{9\\ln3}-\\frac{1}{\\ln3}\\right)=\\frac{1}{\\ln3}-\\frac{1}{9\\ln3}=\\frac{9-1}{9\\ln3}=\\frac{8}{9\\ln3}.$$"
+  },
+  {
+   "ref": "Q31(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.8.1",
+    "12.4.2.1"
+   ],
+   "question": "The diagram shows the graph of $y=3^{-x}$. Also shown are the first 4 of an infinite number of rectangular strips of width $\\frac12$ unit. Each strip lies under the curve, with its height equal to the value of $y=3^{-x}$ at the strip's right-hand end, i.e. heights $3^{-1/2},3^{-1},3^{-3/2},3^{-2},\\dots$\n\nBy finding the areas of the four shaded rectangles and using the result $\\displaystyle\\int_0^2 3^{-x}\\,dx=\\frac{8}{9\\ln3}$, show that $\\ln3<\\dfrac{4}{\\sqrt3+1}$.",
+   "answer": "Area of the four rectangles:\n$$\\frac12\\left(3^{-1/2}+3^{-1}+3^{-3/2}+3^{-2}\\right)=\\frac12\\left(\\frac1{\\sqrt3}+\\frac13+\\frac1{3\\sqrt3}+\\frac19\\right)=\\frac12\\left(\\frac{4}{3\\sqrt3}+\\frac49\\right)=\\frac12\\left(\\frac{4\\sqrt3}{9}+\\frac49\\right)=\\frac29(\\sqrt3+1).$$\nThe rectangles lie under the decreasing curve on $0\\le x\\le2$, so\n$$\\int_0^23^{-x}\\,dx>\\frac29(\\sqrt3+1)\\ \\Rightarrow\\ \\frac{8}{9\\ln3}>\\frac{2(\\sqrt3+1)}{9}\\ \\Rightarrow\\ \\frac{4}{\\ln3}>\\sqrt3+1\\ \\Rightarrow\\ \\ln3<\\frac{4}{\\sqrt3+1}.$$",
+   "images": [
+    "assets/img/adv-2026-hornsby-girls/q31.png"
+   ]
+  },
+  {
+   "ref": "Q32(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.1.3",
+    "11.3.1.1"
+   ],
+   "question": "In the diagram, $A$, $B$ and $C$ are three points on level ground and $P$ is a point vertically above $C$. In triangle $ABC$, $AB=20$ km, $\\angle CAB=40^\\circ$ and $\\angle ACB=120^\\circ$. Also $PA=9.12$ km and $PB=15.52$ km.\n\nFind the length of $AC$, correct to the nearest $0.1$ km.",
+   "answer": "$\\angle ABC=180^\\circ-40^\\circ-120^\\circ=20^\\circ$. By the sine rule in $\\triangle ABC$:\n$$\\frac{AC}{\\sin20^\\circ}=\\frac{20}{\\sin120^\\circ}\\ \\Rightarrow\\ AC=\\frac{20\\sin20^\\circ}{\\sin120^\\circ}\\approx7.8986\\approx7.9\\text{ km}.$$",
+   "course": "extension1",
+   "images": [
+    "assets/img/adv-2026-hornsby-girls/q32.png"
+   ]
+  },
+  {
+   "ref": "Q32(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.1.3",
+    "11.3.1.1"
+   ],
+   "question": "In the diagram, $A$, $B$ and $C$ are three points on level ground and $P$ is a point vertically above $C$. In triangle $ABC$, $AB=20$ km, $\\angle CAB=40^\\circ$ and $\\angle ACB=120^\\circ$. Also $PA=9.12$ km and $PB=15.52$ km. The length $AC\\approx7.9$ km.\n\nFind the angle of elevation of $P$ from $A$, correct to the nearest minute.",
+   "answer": "$PC$ is vertical, so $\\triangle PCA$ is right-angled at $C$ and the angle of elevation is $\\theta=\\angle PAC$:\n$$\\cos\\theta=\\frac{AC}{PA}=\\frac{7.9}{9.12}\\ \\Rightarrow\\ \\theta\\approx29^\\circ59'.$$\n*Note: the paper uses the rounded value $AC=7.9$; using the unrounded $AC=7.8986\\ldots$ gives $\\theta\\approx30^\\circ0'$.*",
+   "course": "extension1",
+   "images": [
+    "assets/img/adv-2026-hornsby-girls/q32.png"
+   ]
+  },
+  {
+   "ref": "Q32(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.3",
+    "11.3.1.1"
+   ],
+   "question": "In the diagram, $A$, $B$ and $C$ are three points on level ground and $P$ is a point vertically above $C$. In triangle $ABC$, $AB=20$ km, $\\angle CAB=40^\\circ$ and $\\angle ACB=120^\\circ$. Also $PA=9.12$ km and $PB=15.52$ km.\n\nFind the angle between $PA$ and $PB$ to the nearest minute.",
+   "answer": "In $\\triangle APB$, by the cosine rule:\n$$\\cos\\angle APB=\\frac{9.12^2+15.52^2-20^2}{2\\times9.12\\times15.52}=\\frac{-75.9552}{283.0848}\\approx-0.2683$$\n$$\\angle APB\\approx105^\\circ34'.$$",
+   "course": "extension1",
+   "images": [
+    "assets/img/adv-2026-hornsby-girls/q32.png"
+   ]
+  },
+  {
+   "ref": "Q33(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.3"
+   ],
+   "question": "A 2-metre vertical fence stands 3 metres from a high vertical wall. A ladder of length $L$ is placed from the horizontal ground to the wall, resting on the fence. The base of the ladder is $x$ metres from the fence, and the ladder meets the wall at height $y$ metres.\n\nShow that\n$$L^2=(x+3)^2\\left(1+\\frac{4}{x^2}\\right).$$",
+   "answer": "By similar triangles (the fence and the wall are both vertical):\n$$\\frac{2}{x}=\\frac{y}{x+3}\\ \\Rightarrow\\ y=\\frac{2(x+3)}{x}.$$\nBy Pythagoras:\n$$L^2=y^2+(x+3)^2=\\frac{4(x+3)^2}{x^2}+(x+3)^2=(x+3)^2\\left(1+\\frac4{x^2}\\right).$$",
+   "images": [
+    "assets/img/adv-2026-hornsby-girls/q33.png"
+   ]
+  },
+  {
+   "ref": "Q33(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.5.2.5"
+   ],
+   "question": "A 2-metre vertical fence stands 3 metres from a high vertical wall. A ladder of length $L$ is placed from the horizontal ground to the wall, resting on the fence. The base of the ladder is $x$ metres from the fence, and the ladder meets the wall at height $y$ metres. The length satisfies $L^2=(x+3)^2\\left(1+\\dfrac{4}{x^2}\\right)$.\n\nBy first finding $\\dfrac{d(L^2)}{dx}$, calculate the length of the shortest ladder that can reach from the ground outside the fence to the wall, correct to 1 decimal place.",
+   "answer": "By the product rule:\n$$\\frac{d(L^2)}{dx}=2(x+3)\\left(1+\\frac4{x^2}\\right)+(x+3)^2\\left(-\\frac{8}{x^3}\\right)=2(x+3)\\left(\\frac{x^3+4x-4x-12}{x^3}\\right)=\\frac{2(x+3)(x^3-12)}{x^3}.$$\nSetting $\\dfrac{d(L^2)}{dx}=0$: $x=-3$ (rejected, $x>0$) or $x^3=12\\Rightarrow x=\\sqrt[3]{12}\\approx2.29$.\n\nTest:\n\n| $x$ | 2 | $\\sqrt[3]{12}$ | 3 |\n|---|---|---|---|\n| $\\frac{d(L^2)}{dx}$ | $-5$ | $0$ | $6.67$ |\n\nThe gradient changes from negative to positive, so $L^2$ (and hence $L>0$) is a minimum at $x=\\sqrt[3]{12}$:\n$$L=\\sqrt{\\left(\\sqrt[3]{12}+3\\right)^2\\left(1+\\frac{4}{\\sqrt[3]{144}}\\right)}\\approx7.02\\approx7.0\\text{ m}.$$",
+   "images": [
+    "assets/img/adv-2026-hornsby-girls/q33.png"
+   ]
+  }
+ ]
+}

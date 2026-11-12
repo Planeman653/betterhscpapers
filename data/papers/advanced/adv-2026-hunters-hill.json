@@ -1,0 +1,662 @@
+{
+ "id": "adv-2026-hunters-hill",
+ "course": "advanced",
+ "school": "Hunters Hill",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5328",
+  "title": "Hunters Hill 2026 w. sol"
+ },
+ "indexed": "2026-11-12",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q23(a)",
+   "reason": "Not in 2024 syllabus: bivariate data (correlation coefficient)"
+  },
+  {
+   "ref": "Q23(b)",
+   "reason": "Not in 2024 syllabus: bivariate data (least-squares regression line)"
+  },
+  {
+   "ref": "Q23(c)",
+   "reason": "Not in 2024 syllabus: bivariate data (prediction from regression line)"
+  },
+  {
+   "ref": "Q23(d)",
+   "reason": "Not in 2024 syllabus: bivariate data (reliability of extrapolation)"
+  },
+  {
+   "ref": "Q26(a)",
+   "reason": "Not in 2024 syllabus: comparing parallel box plots"
+  },
+  {
+   "ref": "Q26(b)",
+   "reason": "Not in 2024 syllabus: box plots, IQR and outliers"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.9.5"
+   ],
+   "question": "Which of the following functions is neither odd nor even?",
+   "options": [
+    "$f(x)=e^x$",
+    "$f(x)=\\dfrac{1}{x}$",
+    "$f(x)=x^6$",
+    "$f(x)=4x^5+x$"
+   ],
+   "correct": "A",
+   "answer": "$f(-x)=e^{-x}$, which is neither $e^x$ nor $-e^x$, so $e^x$ is neither odd nor even. ($\\frac1x$ and $4x^5+x$ are odd; $x^6$ is even.)"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "The first three terms of an arithmetic sequence are $1, 3, 5, \\ldots$\n\nWhich of the following gives the sum of the first $n$ terms of this sequence, $S_n$?",
+   "options": [
+    "$S_n=n^2$",
+    "$S_n=2n$",
+    "$S_n=2n-1$",
+    "$S_n=2n+1$"
+   ],
+   "correct": "A",
+   "answer": "$a=1$, $d=2$: $S_n=\\dfrac n2\\left[2(1)+(n-1)2\\right]=\\dfrac n2(2n)=n^2$."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "The discrete random variable $X$ has the probability distribution function shown.\n\n| $x$ | $0.1$ | $0.3$ | $0.5$ | $0.9$ |\n|---|---|---|---|---|\n| $p(x)$ | $0.2$ | $0.3$ | $0.1$ | $a$ |\n\nWhat is the value of $a$?",
+   "options": [
+    "$0$",
+    "$0.4$",
+    "$0.6$",
+    "$1$"
+   ],
+   "correct": "B",
+   "answer": "Probabilities sum to 1: $a=1-(0.2+0.3+0.1)=0.4$."
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.9.7"
+   ],
+   "question": "The table shows the function values of $y=f(x)$ and $y=g(x)$.\n\n| $x$ | $-1$ | $0$ | $1$ | $2$ | $3$ |\n|---|---|---|---|---|---|\n| $f(x)$ | $3$ | $0$ | $3$ | $12$ | $27$ |\n| $g(x)$ | $4$ | $3$ | $2$ | $1$ | $0$ |\n\nWhat is the value of $y=f\\big(g(1)\\big)$?",
+   "options": [
+    "$0$",
+    "$1$",
+    "$6$",
+    "$12$"
+   ],
+   "correct": "D",
+   "answer": "$g(1)=2$, so $f\\big(g(1)\\big)=f(2)=12$."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.3",
+    "11.5.2.7"
+   ],
+   "question": "Which of the following expressions is the derivative of $y=\\ln\\left(\\dfrac{x-2}{4x+1}\\right)$?",
+   "options": [
+    "$\\dfrac{3x+3}{(x-2)(4x+1)}$",
+    "$\\dfrac{9}{(x-2)(4x+1)}$",
+    "$\\dfrac{3x-1}{(x-2)(4x+1)}$",
+    "$\\dfrac{4x+1}{x-2}$"
+   ],
+   "correct": "B",
+   "answer": "$y=\\ln(x-2)-\\ln(4x+1)$, so\n$$y'=\\frac{1}{x-2}-\\frac{4}{4x+1}=\\frac{4x+1-4(x-2)}{(x-2)(4x+1)}=\\frac{9}{(x-2)(4x+1)}.$$"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.5.2.5"
+   ],
+   "question": "If $\\log_{10}(x-a)=3$, what is the value of $x$?",
+   "options": [
+    "$a^3$",
+    "$1000a$",
+    "$1000+a$",
+    "$30+a$"
+   ],
+   "correct": "C",
+   "answer": "$x-a=10^3=1000$, so $x=1000+a$."
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.8.8"
+   ],
+   "question": "Consider that $\\displaystyle\\int_2^8 f(x)\\,dx=C$ and $\\displaystyle\\int_6^8 f(x)\\,dx=D$.\n\nWhat is the value of $\\displaystyle\\int_2^6 f(x)\\,dx$?",
+   "options": [
+    "$C+D$",
+    "$C+D-2$",
+    "$C-D$",
+    "$D-C$"
+   ],
+   "correct": "C",
+   "answer": "$\\displaystyle\\int_2^6 f(x)\\,dx=\\int_2^8 f(x)\\,dx-\\int_6^8 f(x)\\,dx=C-D$."
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Which of the following gives the period and range of $f(x)=3\\cos\\left(2x+\\dfrac{\\pi}{2}\\right)+1$?",
+   "options": [
+    "Period $\\pi$, range $[-3,3]$",
+    "Period $4\\pi$, range $[-3,3]$",
+    "Period $\\pi$, range $[-2,4]$",
+    "Period $4\\pi$, range $[-2,4]$"
+   ],
+   "correct": "C",
+   "answer": "Period $=\\dfrac{2\\pi}{2}=\\pi$. Amplitude 3 about the centre line $y=1$, so the range is $[1-3,\\,1+3]=[-2,4]$."
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.3.8",
+    "11.2.3.7"
+   ],
+   "question": "In the figure, $OAB$ and $OCD$ are sectors with centre $O$. It is given that the area of the shaded region $ABDC$ is $143\\pi\\text{ cm}^2$.\n\nIf $AC=11$ cm and $\\angle AOB=\\dfrac{2\\pi}{3}$, what is the value of $OA$?",
+   "options": [
+    "$12$ cm",
+    "$14$ cm",
+    "$20$ cm",
+    "$25$ cm"
+   ],
+   "correct": "B",
+   "answer": "Let $OA=r$, so $OC=r+11$. Shaded area $=\\dfrac12\\cdot\\dfrac{2\\pi}{3}\\left[(r+11)^2-r^2\\right]=143\\pi$:\n$$\\frac13(22r+121)=143\\ \\Rightarrow\\ 22r+121=429\\ \\Rightarrow\\ r=14\\text{ cm}.$$",
+   "images": [
+    "assets/img/adv-2026-hunters-hill/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.11.3",
+    "11.1.1.2"
+   ],
+   "question": "Given that $x\\ge 1$, simplify $\\sqrt{x^2+2x+1}-\\sqrt{x^2-2x+1}$.",
+   "options": [
+    "$-2$",
+    "$2$",
+    "$2x$",
+    "$2x+2$"
+   ],
+   "correct": "B",
+   "answer": "$\\sqrt{(x+1)^2}-\\sqrt{(x-1)^2}=|x+1|-|x-1|$. For $x\\ge1$ both are non-negative, so this is $(x+1)-(x-1)=2$.\n\n*Note: the paper omits the condition $x\\ge1$; without it the expression equals $2$ only for $x\\ge1$ (it is $2x$ for $-1\\le x\\le 1$ and $-2$ for $x\\le-1$). The condition has been added to match the intended answer B.*"
+  },
+  {
+   "ref": "Q11",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.1.3"
+   ],
+   "question": "Solve $\\dfrac{6x+3}{x}=\\dfrac{5}{x}+4$.",
+   "answer": "Multiply both sides by $x$ ($x\\ne0$):\n$$6x+3=5+4x\\ \\Rightarrow\\ 2x=2\\ \\Rightarrow\\ x=1.$$"
+  },
+  {
+   "ref": "Q12",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.2",
+    "11.1.1.7"
+   ],
+   "question": "Find the values of $k$ for which the expression $x^2-3x+(4-2k)$ is always positive.",
+   "answer": "The parabola is concave up, so it is always positive (positive definite) when it has no real roots, i.e. $\\Delta<0$:\n$$(-3)^2-4(1)(4-2k)<0\\ \\Rightarrow\\ 9-16+8k<0\\ \\Rightarrow\\ 8k<7\\ \\Rightarrow\\ k<\\frac78.$$"
+  },
+  {
+   "ref": "Q13",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.6",
+    "12.2.2.2"
+   ],
+   "question": "On the first day of the harvest, an orchard produces 1630 kg of fruit. On the next day, the orchard produces 1605 kg, and the amount produced continues to decrease by the same amount each day.\n\nOn what day does the daily production first fall below 600 kg?",
+   "answer": "This is an AP with $a=1630$, $d=-25$. We need $T_n<600$:\n$$1630-25(n-1)<600\\ \\Rightarrow\\ 1655-25n<600\\ \\Rightarrow\\ -25n<-1055\\ \\Rightarrow\\ n>42.2$$\nSo production first falls below 600 kg on the **43rd day** (check: $T_{42}=605$, $T_{43}=580$)."
+  },
+  {
+   "ref": "Q14",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.3.5",
+    "11.4.3.3"
+   ],
+   "question": "Find the equation of the tangent to $y=3x^4-2x^2-5$ at the point where $x=1$.",
+   "answer": "$y'=12x^3-4x$, so at $x=1$ the gradient is $m=12-4=8$.\n\nWhen $x=1$, $y=3-2-5=-4$.\n\n$$y-(-4)=8(x-1)\\ \\Rightarrow\\ y=8x-12$$"
+  },
+  {
+   "ref": "Q15",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.2"
+   ],
+   "question": "The numbers $1280,\\ p,\\ q,\\ 20$ form a geometric sequence. Find the values of $p$ and $q$.",
+   "answer": "$a=1280$ and $T_4=ar^3=20$:\n$$1280r^3=20\\ \\Rightarrow\\ r^3=\\frac{1}{64}\\ \\Rightarrow\\ r=\\frac14$$\nSo $p=1280\\times\\frac14=320$ and $q=320\\times\\frac14=80$."
+  },
+  {
+   "ref": "Q16",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.2.7"
+   ],
+   "question": "Fifty tickets are sold in a raffle for which there is a first prize and a second prize. After a ticket is drawn for the first prize, it is discarded, and another ticket is then drawn for the second prize.\n\nTim bought two of the raffle tickets. What is the probability he wins only one of the prizes?",
+   "answer": "$P(\\text{win then lose})+P(\\text{lose then win})$:\n$$\\frac{2}{50}\\times\\frac{48}{49}+\\frac{48}{50}\\times\\frac{2}{49}=\\frac{48}{1225}+\\frac{48}{1225}=\\frac{96}{1225}$$"
+  },
+  {
+   "ref": "Q17",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.10",
+    "11.1.1.5"
+   ],
+   "question": "The triangle $ABC$ has $AB=6$ cm, $BC=x$ cm and $\\angle ABC=120^\\circ$. It has an exact area of $(12-\\sqrt3)\\text{ cm}^2$. Find the exact value of $x$.",
+   "answer": "$$\\frac12\\times6\\times x\\times\\sin120^\\circ=12-\\sqrt3\\ \\Rightarrow\\ \\frac{3\\sqrt3}{2}x=12-\\sqrt3$$\n$$x=\\frac{2(12-\\sqrt3)}{3\\sqrt3}\\times\\frac{\\sqrt3}{\\sqrt3}=\\frac{24\\sqrt3-6}{9}=\\frac{8\\sqrt3-2}{3}$$",
+   "images": [
+    "assets/img/adv-2026-hunters-hill/q17.png"
+   ]
+  },
+  {
+   "ref": "Q18",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.6.1.8"
+   ],
+   "question": "A circle is defined by $x^2+2x+y^2+y-2=y+1$. Determine its centre and radius.",
+   "answer": "$$x^2+2x+y^2=3\\ \\Rightarrow\\ x^2+2x+1+y^2=4\\ \\Rightarrow\\ (x+1)^2+y^2=4$$\nCentre $(-1,0)$, radius $2$."
+  },
+  {
+   "ref": "Q19",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.3.9"
+   ],
+   "question": "Differentiate $y=\\dfrac{2x}{3x^2+1}$.",
+   "answer": "Quotient rule with $u=2x$, $u'=2$, $v=3x^2+1$, $v'=6x$:\n$$y'=\\frac{(3x^2+1)(2)-(2x)(6x)}{(3x^2+1)^2}=\\frac{2-6x^2}{(3x^2+1)^2}$$"
+  },
+  {
+   "ref": "Q20",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.4.5"
+   ],
+   "question": "Find $\\displaystyle\\int\\sqrt[3]{4x+7}\\,dx$.",
+   "answer": "$$\\int(4x+7)^{\\frac13}\\,dx=\\frac{(4x+7)^{\\frac43}}{\\frac43}\\times\\frac14+C=\\frac{3(4x+7)^{\\frac43}}{16}+C$$"
+  },
+  {
+   "ref": "Q21(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.3.6"
+   ],
+   "question": "The students in a school were surveyed on the number of hours of sleep they have per week. The results were normally distributed. The survey indicated that 95% of students had between 42 and 54 hours of sleep per week.\n\nDetermine the mean number of hours of sleep per week.",
+   "answer": "95% of normally distributed data lies within two standard deviations of the mean, so 42 and 54 have $z$-scores $-2$ and $2$. The mean is midway: $\\mu=\\dfrac{42+54}{2}=48$ hours."
+  },
+  {
+   "ref": "Q21(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.3.6"
+   ],
+   "question": "The students in a school were surveyed on the number of hours of sleep they have per week. The results were normally distributed. The survey indicated that 95% of students had between 42 and 54 hours of sleep per week.\n\nWhat was the standard deviation?",
+   "answer": "There are 4 standard deviations between 42 and 54 hours, so $\\sigma=\\dfrac{54-42}{4}=3$ hours."
+  },
+  {
+   "ref": "Q21(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.6",
+    "12.6.3.10"
+   ],
+   "question": "The students in a school were surveyed on the number of hours of sleep they have per week. The results were normally distributed. The survey indicated that 95% of students had between 42 and 54 hours of sleep per week.\n\nWhat percentage of students would have indicated they had between 51 and 57 hours of sleep per week? (The mean is 48 hours and the standard deviation is 3 hours.)",
+   "answer": "$z=\\dfrac{51-48}{3}=1$ and $z=\\dfrac{57-48}{3}=3$.\n\nBy the empirical rule, $P(0<z<3)=\\frac{99.7\\%}{2}$ and $P(0<z<1)=\\frac{68\\%}{2}$, so\n$$P(1<z<3)=\\frac{99.7\\%}{2}-\\frac{68\\%}{2}=15.85\\%.$$"
+  },
+  {
+   "ref": "Q22",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.6.1.6",
+    "11.6.1.10"
+   ],
+   "question": "Point $P(-1,-2)$ lies on $y=f(x)$. Point $P'$ is the image of point $P$ on the function $g(x)=2f(3x-1)$.\n\nBy clearly stating the transformations required to produce $g(x)$ from $f(x)$, show that the coordinates of point $P'$ are $(0,-4)$.",
+   "answer": "| New function | Transformation | New point |\n|---|---|---|\n| $y=2f(x)$ | Vertical dilation, scale factor 2 | $(-1,\\,-2\\times2)=(-1,-4)$ |\n| $y=2f(x-1)$ | Translation 1 unit right | $(-1+1,\\,-4)=(0,-4)$ |\n| $y=2f(3x-1)$ | Horizontal dilation, scale factor $\\frac13$ | $(0\\times\\frac13,\\,-4)=(0,-4)$ |\n\nSo $P'=(0,-4)$. (Check: $g(0)=2f(-1)=2(-2)=-4$.)"
+  },
+  {
+   "ref": "Q24(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.1.2"
+   ],
+   "question": "Ringo and Greg start at location $P$ and drive in different directions. Ringo drives at a speed of 70 km/h on a bearing of $285^\\circ$, while Greg drives at a speed of 60 km/h on a bearing of $030^\\circ$, as shown in the diagram.\n\nShow that $\\angle GPR=105^\\circ$.",
+   "answer": "Ringo's bearing $285^\\circ$ is $360^\\circ-285^\\circ=75^\\circ$ west of north, and Greg's bearing is $30^\\circ$ east of north. So\n$$\\angle GPR=75^\\circ+30^\\circ=105^\\circ.$$",
+   "images": [
+    "assets/img/adv-2026-hunters-hill/q24.png"
+   ]
+  },
+  {
+   "ref": "Q24(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "Ringo and Greg start at location $P$ and drive in different directions. Ringo drives at a speed of 70 km/h on a bearing of $285^\\circ$, while Greg drives at a speed of 60 km/h on a bearing of $030^\\circ$, as shown in the diagram.\n\nGiven that $\\angle GPR=105^\\circ$, what will be the distance between Ringo and Greg after travelling for 2 hours? Give your answer correct to the nearest kilometre.",
+   "answer": "After 2 hours, Ringo has travelled $140$ km and Greg $120$ km. By the cosine rule,\n$$d^2=140^2+120^2-2(140)(120)\\cos105^\\circ=42696.199\\ldots$$\n$$d=206.63\\ldots\\approx207\\text{ km}$$",
+   "images": [
+    "assets/img/adv-2026-hunters-hill/q24.png"
+   ],
+   "answer_images": [
+    "assets/img/adv-2026-hunters-hill/q24a-sol.png"
+   ]
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "A particle moves in a straight line. At time $t$ seconds, its distance $x$ metres from a fixed point $O$ on the line is given by $x=1-\\cos(2t)$, for $0\\le t\\le\\pi$.\n\nSketch the graph of $x$ as a function of $t$ for $0\\le t\\le\\pi$.",
+   "answer": "$x=1-\\cos2t$ has amplitude 1, period $\\dfrac{2\\pi}{2}=\\pi$, centre line $x=1$. It starts at $x=0$ when $t=0$, rises to a maximum $x=2$ at $t=\\frac\\pi2$ (passing $x=1$ at $t=\\frac\\pi4$), and returns to $x=0$ at $t=\\pi$.",
+   "answer_images": [
+    "assets/img/adv-2026-hunters-hill/q25a-sol.png"
+   ]
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.9"
+   ],
+   "question": "A particle moves in a straight line. At time $t$ seconds, its distance $x$ metres from a fixed point $O$ on the line is given by $x=1-\\cos(2t)$, for $0\\le t\\le\\pi$.\n\nUsing the graph of $x$ against $t$, or otherwise, find the times when the particle is at rest and the position of the particle at these times.",
+   "answer": "The particle is at rest when $v=\\dfrac{dx}{dt}=2\\sin2t=0$, i.e. at the stationary points of the graph:\n$$t=0,\\ \\frac\\pi2,\\ \\pi.$$\nThe positions at these times are $x=0,\\ 2,\\ 0$ metres respectively."
+  },
+  {
+   "ref": "Q25(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.3.9",
+    "12.3.3.4"
+   ],
+   "question": "A particle moves in a straight line. At time $t$ seconds, its distance $x$ metres from a fixed point $O$ on the line is given by $x=1-\\cos(2t)$, for $0\\le t\\le\\pi$.\n\nFind the velocity of the particle when $t=\\dfrac\\pi4$.",
+   "answer": "$v=\\dfrac{dx}{dt}=2\\sin2t$. At $t=\\frac\\pi4$: $v=2\\sin\\frac\\pi2=2$ m/s."
+  },
+  {
+   "ref": "Q25(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.9",
+    "11.3.1.10"
+   ],
+   "question": "A particle moves in a straight line. At time $t$ seconds, its distance $x$ metres from a fixed point $O$ on the line is given by $x=1-\\cos(2t)$, for $0\\le t\\le\\pi$.\n\nWhen is the particle's velocity greater than 1 m/s?",
+   "answer": "$v=2\\sin2t$. Solve $2\\sin2t=1$: $\\sin2t=\\frac12$, so for $0\\le2t\\le2\\pi$,\n$$2t=\\frac\\pi6,\\ \\frac{5\\pi}6\\ \\Rightarrow\\ t=\\frac{\\pi}{12},\\ \\frac{5\\pi}{12}.$$\nFrom the graph of $v$ (positive on $0<t<\\frac\\pi2$), $v>1$ for\n$$\\frac{\\pi}{12}<t<\\frac{5\\pi}{12}.$$"
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.8",
+    "12.5.1.4"
+   ],
+   "question": "Consider the curve $y=x^3-6x^2+9x+3$.\n\nFind the location and nature of any stationary points.",
+   "answer": "$y'=3x^2-12x+9$, $y''=6x-12$.\n\nStationary points: $3x^2-12x+9=0\\Rightarrow x^2-4x+3=0\\Rightarrow(x-1)(x-3)=0\\Rightarrow x=1$ or $x=3$.\n\n- $x=1$: $y=1-6+9+3=7$, $y''=-6<0$ (concave down) $\\Rightarrow$ local maximum at $(1,7)$.\n- $x=3$: $y=27-54+27+3=3$, $y''=6>0$ (concave up) $\\Rightarrow$ local minimum at $(3,3)$."
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.7",
+    "12.5.1.6"
+   ],
+   "question": "Consider the curve $y=x^3-6x^2+9x+3$.\n\nFind the point of inflection.",
+   "answer": "$y''=6x-12=0\\Rightarrow x=2$.\n\n| $x$ | $1$ | $2$ | $3$ |\n|---|---|---|---|\n| $y''$ | $-6<0$ | $0$ | $6>0$ |\n\nConcavity changes across $x=2$, and $y(2)=8-24+18+3=5$, so $(2,5)$ is a point of inflection."
+  },
+  {
+   "ref": "Q27(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.9"
+   ],
+   "question": "Consider the curve $y=x^3-6x^2+9x+3$. It has a local maximum at $(1,7)$, a local minimum at $(3,3)$ and a point of inflection at $(2,5)$.\n\nSketch the curve, labelling the stationary points, the point of inflection and the $y$-intercept. The $x$-intercepts are not required.",
+   "answer": "$y$-intercept: $y(0)=3$, so $(0,3)$. The curve is a positive cubic: it rises to the local maximum $(1,7)$, falls through the point of inflection $(2,5)$ to the local minimum $(3,3)$, then rises again. (It crosses the $x$-axis once, at some $x<0$.)",
+   "answer_images": [
+    "assets/img/adv-2026-hunters-hill/q27c-sol.png"
+   ]
+  },
+  {
+   "ref": "Q28(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.1.12",
+    "11.3.1.11"
+   ],
+   "question": "Prove that $\\sec x+\\tan x=\\dfrac{\\cos x}{1-\\sin x}$.",
+   "answer": "$$\\text{LHS}=\\frac{1}{\\cos x}+\\frac{\\sin x}{\\cos x}=\\frac{1+\\sin x}{\\cos x}=\\frac{(1+\\sin x)(1-\\sin x)}{\\cos x(1-\\sin x)}=\\frac{1-\\sin^2x}{\\cos x(1-\\sin x)}=\\frac{\\cos^2x}{\\cos x(1-\\sin x)}=\\frac{\\cos x}{1-\\sin x}=\\text{RHS}$$"
+  },
+  {
+   "ref": "Q28(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.6.3",
+    "12.4.8.1"
+   ],
+   "question": "Given that $\\sec x+\\tan x=\\dfrac{\\cos x}{1-\\sin x}$, find the exact value of $\\displaystyle\\int_0^{\\frac\\pi3}(\\sec x+\\tan x)\\,dx$.",
+   "answer": "Since $\\dfrac{d}{dx}(1-\\sin x)=-\\cos x$,\n$$\\int_0^{\\frac\\pi3}\\frac{\\cos x}{1-\\sin x}\\,dx=-\\Big[\\ln|1-\\sin x|\\Big]_0^{\\frac\\pi3}=-\\ln\\left(1-\\frac{\\sqrt3}{2}\\right)+\\ln1$$\n$$=-\\ln\\frac{2-\\sqrt3}{2}=\\ln\\frac{2}{2-\\sqrt3}\\ \\left(=\\ln(4+2\\sqrt3)\\right).$$"
+  },
+  {
+   "ref": "Q29(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.1",
+    "11.3.1.13"
+   ],
+   "question": "$ABC$ is a triangle. The numbers $1+\\sin A,\\ \\dfrac12,\\ 1-\\sin A$ are the first three terms of a geometric sequence.\n\nFind the possible values of $A$.",
+   "answer": "For a GP the ratios are equal:\n$$\\frac{\\frac12}{1+\\sin A}=\\frac{1-\\sin A}{\\frac12}\\ \\Rightarrow\\ (1-\\sin A)(1+\\sin A)=\\frac14\\ \\Rightarrow\\ 1-\\sin^2A=\\frac14\\ \\Rightarrow\\ \\cos^2A=\\frac14$$\n$\\cos A=\\pm\\frac12$, and since $A$ is an angle of a triangle, $0<A<\\pi$:\n$$A=\\frac\\pi3\\ \\text{ or }\\ A=\\frac{2\\pi}{3}.$$"
+  },
+  {
+   "ref": "Q29(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.7"
+   ],
+   "question": "$ABC$ is a triangle. The numbers $1+\\sin A,\\ \\dfrac12,\\ 1-\\sin A$ are the first three terms of a geometric sequence. (The possible values of $A$ are $\\dfrac\\pi3$ and $\\dfrac{2\\pi}3$.)\n\nShow that the limiting sum of the series $(1+\\sin A)+\\dfrac12+(1-\\sin A)+\\cdots$ exists.",
+   "answer": "For $A=\\frac\\pi3$ or $\\frac{2\\pi}3$, $\\sin A=\\frac{\\sqrt3}{2}$. The common ratio is\n$$r=\\frac{1-\\sin A}{\\frac12}=2\\left(1-\\frac{\\sqrt3}{2}\\right)=2-\\sqrt3\\approx0.268.$$\nSince $|r|<1$, the limiting sum exists."
+  },
+  {
+   "ref": "Q30(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.4"
+   ],
+   "question": "The lifetime, $X$, in **tens** of hours, of a battery has a cumulative distribution function $F(x)$ given by\n$$F(x)=\\begin{cases}0, & x<1\\\\[2pt] \\dfrac{25}{116}\\left(x^2+3x-4\\right), & 1\\le x<1.8\\\\[2pt] 1, & x\\ge1.8\\end{cases}$$\n\nSketch the cumulative distribution function.",
+   "answer": "$F(x)=0$ for $x<1$. On $1\\le x<1.8$, $F$ is an increasing, concave-up parabolic arc from $F(1)=\\frac{25}{116}(1+3-4)=0$ to $F(1.8)=\\frac{25}{116}(3.24+5.4-4)=\\frac{25}{116}(4.64)=1$. Then $F(x)=1$ for $x\\ge1.8$ (horizontal line).",
+   "answer_images": [
+    "assets/img/adv-2026-hunters-hill/q30a-sol.png"
+   ]
+  },
+  {
+   "ref": "Q30(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.3",
+    "11.7.2.7"
+   ],
+   "question": "The lifetime, $X$, in **tens** of hours, of a battery has a cumulative distribution function $F(x)$ given by\n$$F(x)=\\begin{cases}0, & x<1\\\\[2pt] \\dfrac{25}{116}\\left(x^2+3x-4\\right), & 1\\le x<1.8\\\\[2pt] 1, & x\\ge1.8\\end{cases}$$\n\nAn outdoor lantern requires three batteries, all of which must be working, to operate. Three new batteries are inserted into the lantern.\n\nFind the probability that the lantern will be working after 15 hours. Answer as a percentage, rounded to two decimal places.",
+   "answer": "15 hours corresponds to $x=1.5$. For one battery:\n$$P(X>1.5)=1-F(1.5)=1-\\frac{25}{116}\\left(1.5^2+3(1.5)-4\\right)=1-\\frac{25}{116}(2.75)=\\frac{189}{464}$$\nAll three batteries must last more than 15 hours (independently):\n$$\\left(\\frac{189}{464}\\right)^3=0.06758\\ldots\\approx6.76\\%$$"
+  },
+  {
+   "ref": "Q30(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.12"
+   ],
+   "question": "The lifetime, $X$, in **tens** of hours, of a battery has a cumulative distribution function $F(x)$ given by\n$$F(x)=\\begin{cases}0, & x<1\\\\[2pt] \\dfrac{25}{116}\\left(x^2+3x-4\\right), & 1\\le x<1.8\\\\[2pt] 1, & x\\ge1.8\\end{cases}$$\n\nFind the probability density function of the random variable $X$.",
+   "answer": "$f(x)=F'(x)$:\n$$\\frac{d}{dx}\\left[\\frac{25}{116}(x^2+3x-4)\\right]=\\frac{25}{116}(2x+3)$$\n$$f(x)=\\begin{cases}\\dfrac{25}{116}(2x+3), & 1\\le x\\le1.8\\\\[2pt] 0, & \\text{elsewhere}\\end{cases}$$"
+  },
+  {
+   "ref": "Q31",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.2",
+    "12.4.5.2"
+   ],
+   "question": "The average life cycle of an insect is one month. A viable nest of this insect has between 100 000 and 500 000 insects. The population $P$ of a nest of this insect grows so that\n$$\\frac{dP}{dt}=1200e^{0.3t},$$\nwhere $t$ is in months.\n\nA nest of these insects had a population of 5000 after one month. Determine how long it will take the nest to reach the viable stage of at least 100 000. Answer correct to the nearest month.",
+   "answer": "$$P=\\frac{1200}{0.3}e^{0.3t}+C=4000e^{0.3t}+C$$\n$P=5000$ when $t=1$: $5000=4000e^{0.3}+C\\Rightarrow C=-399.435\\ldots$\n\nFor $P=100\\,000$:\n$$4000e^{0.3t}=100\\,399.435\\ldots\\ \\Rightarrow\\ e^{0.3t}=25.0998\\ldots\\ \\Rightarrow\\ 0.3t=\\ln25.0998\\ldots$$\n$$t=10.74\\ldots\\approx11$$\nThe nest reaches the viable stage after about **11 months**."
+  },
+  {
+   "ref": "Q32(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.3"
+   ],
+   "question": "Harvey is designing an open-ended tent as shown below. The frame of the tent is made using rods of two different lengths:\n\n- $x$ metres for the top and bottom edges\n- $y$ metres for each sloping edge.\n\nThe rods cost \\$9.50 per metre. The frame is covered by one rectangular sheet of fabric whose area is $24\\text{ m}^2$.\n\nShow that the total length, $l$ m, of rods is given by $l=3x+\\dfrac{48}{x}$.",
+   "answer": "The fabric is one rectangle measuring $x$ by $2y$ (it runs over both sloping sides):\n$$x\\times2y=24\\ \\Rightarrow\\ y=\\frac{12}{x}$$\nThe frame has 3 rods of length $x$ (ridge and two bottom edges) and 4 sloping rods of length $y$:\n$$l=3x+4y=3x+4\\times\\frac{12}{x}=3x+\\frac{48}{x}$$",
+   "images": [
+    "assets/img/adv-2026-hunters-hill/q32.png"
+   ]
+  },
+  {
+   "ref": "Q32(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.4"
+   ],
+   "question": "Harvey is designing an open-ended tent as shown below. The frame of the tent is made using rods of two different lengths:\n\n- $x$ metres for the top and bottom edges\n- $y$ metres for each sloping edge.\n\nThe rods cost \\$9.50 per metre. The frame is covered by one rectangular sheet of fabric whose area is $24\\text{ m}^2$. The total length of rods is $l=3x+\\dfrac{48}{x}$ metres.\n\nFind the value of $x$ for which $l$ is a minimum.",
+   "answer": "$$\\frac{dl}{dx}=3-\\frac{48}{x^2}=0\\ \\Rightarrow\\ x^2=16\\ \\Rightarrow\\ x=4\\ (x>0)$$\n$\\dfrac{d^2l}{dx^2}=\\dfrac{96}{x^3}=\\dfrac{96}{64}>0$ at $x=4$, so $l$ is a minimum when $x=4$ m.",
+   "images": [
+    "assets/img/adv-2026-hunters-hill/q32.png"
+   ]
+  },
+  {
+   "ref": "Q32(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.5"
+   ],
+   "question": "Harvey is designing an open-ended tent as shown below. The frame of the tent is made using rods of two different lengths:\n\n- $x$ metres for the top and bottom edges\n- $y$ metres for each sloping edge.\n\nThe rods cost \\$9.50 per metre. The frame is covered by one rectangular sheet of fabric whose area is $24\\text{ m}^2$. The total length of rods is $l=3x+\\dfrac{48}{x}$ metres, which is a minimum when $x=4$.\n\nWhat is the minimum cost of the frame?",
+   "answer": "$$l_{\\min}=3(4)+\\frac{48}{4}=24\\text{ m}$$\n$$\\text{Cost}=24\\times\\$9.50=\\$228$$",
+   "images": [
+    "assets/img/adv-2026-hunters-hill/q32.png"
+   ]
+  },
+  {
+   "ref": "Q33",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.8.3",
+    "12.4.5.3",
+    "11.5.2.5"
+   ],
+   "question": "The graph of $f(x)=3^{2x}-10(3^x)+9$ is shown below. Find the exact value of the area shaded (the region between the curve and the $x$-axis below the axis).",
+   "answer": "**$x$-intercepts.** Let $u=3^x$: $u^2-10u+9=0\\Rightarrow(u-9)(u-1)=0\\Rightarrow u=1,9$, so $3^x=1$ or $3^x=9$, i.e. $x=0,\\ 2$.\n\n**Area.** The region lies below the $x$-axis on $0\\le x\\le2$, so\n$$A=\\left|\\int_0^2\\left(3^{2x}-10(3^x)+9\\right)dx\\right|=\\left|\\left[\\frac{3^{2x}}{2\\ln3}-\\frac{10(3^x)}{\\ln3}+9x\\right]_0^2\\right|$$\n$$=\\left|\\left(\\frac{81}{2\\ln3}-\\frac{90}{\\ln3}+18\\right)-\\left(\\frac{1}{2\\ln3}-\\frac{10}{\\ln3}\\right)\\right|=\\left|\\frac{40}{\\ln3}-\\frac{80}{\\ln3}+18\\right|=\\left|\\frac{18\\ln3-40}{\\ln3}\\right|$$\n$$A=\\frac{40-18\\ln3}{\\ln3}\\text{ units}^2\\ (\\approx18.41)$$",
+   "images": [
+    "assets/img/adv-2026-hunters-hill/q33.png"
+   ]
+  }
+ ]
+}

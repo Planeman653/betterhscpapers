@@ -1,0 +1,820 @@
+{
+ "id": "phys-2024-james-ruse",
+ "course": "physics",
+ "school": "James Ruse",
+ "year": 2024,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "6528",
+  "title": "James Ruse 2024 w. sol"
+ },
+ "indexed": "2026-11-12",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.4.2"
+   ],
+   "question": "What is the name of the following device (a coil turned by a handle between the poles of a magnet, connected to the external circuit through slip rings and carbon brushes)?",
+   "options": [
+    "DC motor",
+    "DC generator",
+    "AC generator",
+    "AC induction motor"
+   ],
+   "correct": "C",
+   "answer": "The coil is turned mechanically (by the handle) in a magnetic field, so an emf is induced: it is a generator. Each end of the coil is connected to its own **slip ring**, so the connection to the external circuit is never reversed and the output alternates direction every half turn — an AC generator. (A DC generator would use a split-ring commutator.)",
+   "images": [
+    "assets/img/phys-2024-james-ruse/q1.png"
+   ]
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.3"
+   ],
+   "question": "An object is moving in a horizontal circle on a string with a constant angular velocity $\\omega$. The tension in the string, which is approximately horizontal, is $F$. If $\\omega$ is doubled while all the other quantities are kept constant, what will the tension in the string become?",
+   "options": [
+    "$4F$",
+    "$2F$",
+    "$\\dfrac{F}{2}$",
+    "$\\dfrac{F}{4}$"
+   ],
+   "correct": "A",
+   "answer": "The tension provides the centripetal force: $F = \\dfrac{mv^2}{r} = m\\omega^2 r$ (since $v = \\omega r$). With $m$ and $r$ fixed, $F \\propto \\omega^2$, so doubling $\\omega$ gives $2^2 F = 4F$."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.3.2"
+   ],
+   "question": "If an astronaut orbiting the Earth near its surface were to stand on a set of bathroom scales, why would there be a reading of zero?",
+   "options": [
+    "The astronaut's mass becomes zero.",
+    "The strength of the gravitational field is zero.",
+    "The pull of the Earth is balanced by the pull of the Moon.",
+    "The astronaut falls towards the Earth at the same rate as the space capsule."
+   ],
+   "correct": "D",
+   "answer": "Near the Earth's surface $g$ is still about $9.8\\ \\text{m s}^{-2}$, and mass does not change. The astronaut, scales and capsule are all in free fall with the same centripetal acceleration $g$, so there is no normal force between the astronaut and the scales — apparent weightlessness."
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.1",
+    "12.5.2.3"
+   ],
+   "question": "An object is executing uniform circular motion anticlockwise, as shown in the figure. P is the left-most point of the circle.\n\nAt position P, which of the following shows the directions of the instantaneous velocity $\\vec{v}$ and acceleration $\\vec{a}$?",
+   "options": [
+    "$\\vec{v}$ downwards, $\\vec{a}$ downwards",
+    "$\\vec{v}$ downwards, $\\vec{a}$ upwards",
+    "$\\vec{v}$ downwards, $\\vec{a}$ to the right",
+    "$\\vec{v}$ downwards, $\\vec{a}$ to the left"
+   ],
+   "correct": "C",
+   "answer": "Moving anticlockwise, at the left-most point the object is moving straight down, tangent to the circle. In uniform circular motion the acceleration is centripetal, pointing towards the centre, which from P is to the right.",
+   "images": [
+    "assets/img/phys-2024-james-ruse/q4.png"
+   ]
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.4.2"
+   ],
+   "question": "Iodine-131 is a radioisotope used in nuclear medicine. It has a half-life of 8 hours and eventually becomes a stable isotope xenon-131 according to the equation\n\n$$^{131}_{\\ 53}\\text{I} \\rightarrow {}^{131}_{\\ 54}\\text{Xe} + \\gamma$$\n\n24.0 mg of iodine-131 is injected in the body of a patient.\n\nHow many milligrams of xenon-131, produced as a result of this reaction, are present in the body after 16 hours?",
+   "options": [
+    "6.0",
+    "12.0",
+    "18.0",
+    "24.0"
+   ],
+   "correct": "C",
+   "answer": "16 hours is 2 half-lives, so the iodine remaining is $24.0 \\times \\left(\\tfrac{1}{2}\\right)^2 = 6.0$ mg. The decayed iodine has become xenon of the same mass number (mass changes negligibly), so the xenon present is $24.0 - 6.0 = 18.0$ mg."
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.2",
+    "12.6.1.3"
+   ],
+   "question": "A horizontal metal cylinder PQ, perpendicular to the page (end P nearest the viewer), moves down between two current-carrying solenoids, as shown below.\n\nWhich of the following correctly shows the direction of the magnetic field between the solenoids and the charge at P?",
+   "options": [
+    "Magnetic field: left; charge at P: positive",
+    "Magnetic field: left; charge at P: negative",
+    "Magnetic field: right; charge at P: positive",
+    "Magnetic field: right; charge at P: negative"
+   ],
+   "correct": "B",
+   "answer": "Applying the right-hand grip rule to the currents in the windings (from the battery polarities), both solenoids produce a field directed to the **left** in the gap between them.\n\nThe free charges in the cylinder move down with it, so each experiences $\\vec{F} = q\\vec{v} \\times \\vec{B}$. With $\\vec{v}$ down and $\\vec{B}$ to the left, the right-hand palm rule gives a force on positive charge **into the page**, i.e. towards end Q (electrons are pushed towards P). So Q becomes positive and P becomes **negative**.",
+   "images": [
+    "assets/img/phys-2024-james-ruse/q6.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.4.1",
+    "12.8.4.4"
+   ],
+   "question": "A radioactive isotope decays by alpha and beta particle emission. Over a number of decays, the nucleon number decreases by 4 while the proton number is unchanged.\n\nHow many alpha and beta particles have been emitted?",
+   "options": [
+    "2 alpha particles and 1 beta particle",
+    "1 alpha particle and 2 beta particles",
+    "1 alpha particle and 1 beta particle",
+    "2 alpha particles and 2 beta particles"
+   ],
+   "correct": "B",
+   "answer": "Only alpha decay changes the nucleon number ($A$ decreases by 4 per alpha), so there was exactly **1 alpha**, which reduced $Z$ by 2. Each $\\beta^-$ decay increases $Z$ by 1 with no change in $A$, so **2 beta** decays are needed to restore the proton number."
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.4.3",
+    "12.6.3.2"
+   ],
+   "question": "Two students are discussing the advantages of magnetic brakes.\n\nStudent A says that because the magnetic force is proportional to velocity they provide a smoother braking action.\n\nStudent B says that because magnetic fields do no work, the brakes produce no heat.\n\nWhich of the students, if any, is/are correct?",
+   "options": [
+    "Student A only",
+    "Student B only",
+    "Both student A and student B",
+    "Neither student A nor student B"
+   ],
+   "correct": "A",
+   "answer": "The eddy currents, and hence the opposing (Lenz's law) force, are proportional to the rate of change of flux, i.e. to the speed, so braking is strong at high speed and gentle at low speed — smooth (Student A is correct). The kinetic energy removed is converted by the eddy currents into heat in the conductor ($P = I^2R$), so Student B is wrong."
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.8.4.3"
+   ],
+   "question": "Control rods and moderators play a key role in controlling the rate of fission in nuclear reactors.\n\nWhich of the following correctly shows how this is achieved?",
+   "options": [
+    "Control rod: by absorbing neutrons. Moderator: by slowing down fast neutrons to thermal speeds.",
+    "Control rod: by absorbing neutrons. Moderator: by speeding up slow neutrons so that a chain reaction is sustainable.",
+    "Control rod: by increasing the capture cross-section of neutrons. Moderator: by speeding up slow neutrons so that a chain reaction is sustainable.",
+    "Control rod: by increasing the capture cross-section of neutrons. Moderator: by slowing down fast neutrons to thermal speeds."
+   ],
+   "correct": "A",
+   "answer": "Control rods (e.g. boron, cadmium) absorb neutrons, reducing the number available to cause further fissions. The moderator (e.g. graphite, water) slows fast fission neutrons to thermal speeds, at which they are much more likely to be captured by U-235 and cause fission."
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.1.6"
+   ],
+   "question": "This is a Hertzsprung–Russell (H–R) diagram showing many star plots. The axes are not labelled (the conventional orientation is used).\n\nWhich of the following statements is true of the luminosity and temperature of stars A and B?",
+   "options": [
+    "The luminosity of star A is lower while the temperature of star B is higher.",
+    "The luminosity of star A is lower while the temperature of star B is lower.",
+    "The luminosity of star A is higher while the temperature of star B is higher.",
+    "The luminosity of star A is higher while the temperature of star B is lower."
+   ],
+   "correct": "C",
+   "answer": "On an H–R diagram luminosity increases upwards and surface temperature increases to the **left**. Star A (on the main sequence) is higher than star B (a white dwarf), so A has the higher luminosity; B is further left, so B has the higher temperature.",
+   "images": [
+    "assets/img/phys-2024-james-ruse/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "Unpolarised light passes through two polaroid sheets. At what angle $\\theta$ between the transmission axes of the two sheets should they be placed to reduce the intensity by ninety percent?",
+   "options": [
+    "$\\theta = \\cos^{-1}\\sqrt{0.8}$",
+    "$\\theta = \\cos^{-1}\\sqrt{0.2}$",
+    "$\\theta = \\cos^{-1}\\sqrt{0.9}$",
+    "$\\theta = \\cos^{-1}\\sqrt{0.1}$"
+   ],
+   "correct": "B",
+   "answer": "The first polaroid halves the intensity of unpolarised light: $I_1 = \\tfrac{1}{2}I_0$. Malus' law at the second: $I_2 = I_1\\cos^2\\theta = \\tfrac{1}{2}I_0\\cos^2\\theta$. A 90% reduction means $I_2 = 0.1I_0$, so $\\cos^2\\theta = 0.2$ and $\\theta = \\cos^{-1}\\sqrt{0.2}$. (Option D would only apply to light already polarised along the first sheet's axis.)"
+  },
+  {
+   "ref": "Q12",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.2.1",
+    "12.6.1.4"
+   ],
+   "question": "The diagram shows a discharge tube used by Thomson to investigate cathode rays. When the connections are made to a high voltage power supply, cathode rays are produced at C and accelerated across AB and through parallel plates P and Q, connected to a second power supply, with P (the upper plate) positively charged. The rays then hit the centre of the fluorescent screen when a magnetic field is applied (along the XY direction, perpendicular to the page) between the plates P and Q.\n\nWhich of the following shows the aim of this experiment and the correct direction of the applied magnetic field?",
+   "options": [
+    "Aim: to determine the charge of the electron. Magnetic field: from X to Y.",
+    "Aim: to determine the charge of the electron. Magnetic field: from Y to X.",
+    "Aim: to determine the charge to mass ratio of the electron. Magnetic field: from X to Y.",
+    "Aim: to determine the charge to mass ratio of the electron. Magnetic field: from Y to X."
+   ],
+   "correct": "D",
+   "answer": "Thomson's crossed-field experiment measured $\\dfrac{q}{m}$ of the electron (the charge itself was found by Millikan). The electric field pushes the negative cathode rays up towards P, so the magnetic force must be **down** for the rays to pass undeflected ($qE = qvB$). For a negative charge moving to the right with a downward force, the right-hand palm rule (reversed for negative charge) gives $\\vec{B}$ **into the page**, i.e. from Y (front) to X (back).",
+   "images": [
+    "assets/img/phys-2024-james-ruse/q12.png"
+   ]
+  },
+  {
+   "ref": "Q13",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.4"
+   ],
+   "question": "Two satellites orbit a planet. One of the satellites has an orbital radius of $2.3 \\times 10^{6}$ m and a period of $7.6 \\times 10^{4}$ s. The other satellite has an orbital period of $1.3 \\times 10^{5}$ s. What is the orbital radius of this second satellite?",
+   "options": [
+    "$1.3 \\times 10^{6}$ m",
+    "$3.3 \\times 10^{6}$ m",
+    "$3.9 \\times 10^{6}$ m",
+    "$5.1 \\times 10^{6}$ m"
+   ],
+   "correct": "B",
+   "answer": "By Kepler's third law $\\dfrac{r^3}{T^2}$ is the same for both satellites:\n\n$$r_2 = r_1\\left(\\frac{T_2}{T_1}\\right)^{2/3} = 2.3 \\times 10^{6} \\times \\left(\\frac{1.3 \\times 10^{5}}{7.6 \\times 10^{4}}\\right)^{2/3} = 2.3 \\times 10^{6} \\times 1.43 \\approx 3.3 \\times 10^{6}\\ \\text{m}$$"
+  },
+  {
+   "ref": "Q14",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.5"
+   ],
+   "question": "A 500 kg satellite is initially in a circular orbit with a radius of 10 000 km around the Earth. The satellite is then moved to a new circular orbit with a radius of 20 000 km.\n\nWhat is the change in the gravitational potential energy of the satellite?",
+   "options": [
+    "$1.5 \\times 10^{3}$ J",
+    "$1.5 \\times 10^{9}$ J",
+    "$1.0 \\times 10^{10}$ J",
+    "$1.0 \\times 10^{13}$ J"
+   ],
+   "correct": "C",
+   "answer": "$$\\Delta U = -\\frac{GMm}{r_2} - \\left(-\\frac{GMm}{r_1}\\right) = GMm\\left(\\frac{1}{r_1} - \\frac{1}{r_2}\\right)$$\n$$= 6.67 \\times 10^{-11} \\times 6.0 \\times 10^{24} \\times 500 \\times \\left(\\frac{1}{1.0 \\times 10^{7}} - \\frac{1}{2.0 \\times 10^{7}}\\right) \\approx 1.0 \\times 10^{10}\\ \\text{J (an increase)}$$"
+  },
+  {
+   "ref": "Q15",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.3.1",
+    "12.6.4.2"
+   ],
+   "question": "A coil of wire (rectangular, sides $l$ and $r$) is rotating about a vertical axis in a uniform magnetic field that is directed $45^\\circ$ below the horizontal, as shown. A voltmeter is connected to the coil.\n\nWhich set of changes will result in the largest reading on the voltmeter?",
+   "options": [
+    "Double $r$ and halve $l$.",
+    "Increase both $l$ and $r$ by 50%.",
+    "Rotate the magnetic field to vertical and double $r$.",
+    "Rotate the magnetic field to horizontal and double $l$."
+   ],
+   "correct": "D",
+   "answer": "Only the horizontal component of $B$ ($B\\cos 45^\\circ$) produces a changing flux through a coil rotating about a vertical axis, so the induced emf $\\propto B_{\\text{horizontal}} \\times lr$.\n\n- A: area $2r \\times \\tfrac{l}{2}$ is unchanged → emf × 1.\n- B: area × $1.5 \\times 1.5$ → emf × 2.25.\n- C: vertical field is parallel to the axis, so the flux never changes → emf = 0.\n- D: horizontal field → $B_{\\text{horizontal}}$ increases by a factor $\\dfrac{1}{\\cos 45^\\circ} = \\sqrt{2}$; doubling $l$ doubles the area → emf × $2\\sqrt{2} \\approx 2.8$, the largest.",
+   "images": [
+    "assets/img/phys-2024-james-ruse/q15.png"
+   ]
+  },
+  {
+   "ref": "Q16",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.1.6"
+   ],
+   "question": "Two stars, A and B, are equally bright as seen from the Earth. Stars A and B are 10 and 15 parsecs away from Earth respectively. One parsec = 3.26 light years.\n\nWhich of the following statements about the luminosities of stars A and B ($L_A$ and $L_B$) is correct?",
+   "options": [
+    "$L_A = \\dfrac{3}{2}L_B$",
+    "$L_A = \\dfrac{2}{3}L_B$",
+    "$L_A = \\dfrac{4}{9}L_B$",
+    "$L_A = \\dfrac{9}{4}L_B$"
+   ],
+   "correct": "C",
+   "answer": "Apparent brightness $b = \\dfrac{L}{4\\pi d^2}$. Equal brightness means $L \\propto d^2$:\n\n$$\\frac{L_A}{L_B} = \\frac{10^2}{15^2} = \\frac{4}{9}$$\n\n(The parsec conversion is not needed.)"
+  },
+  {
+   "ref": "Q17",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.2.3"
+   ],
+   "question": "Three long parallel wires carry currents, as shown in the scale diagram: from left to right, 2 A downwards, 3 A upwards and 1 A upwards. The 3 A wire is about one-third of the way from the 2 A wire to the 1 A wire.\n\nHow many of the wires experience a net force to the left?",
+   "options": [
+    "0",
+    "1",
+    "2",
+    "3"
+   ],
+   "correct": "C",
+   "answer": "$\\dfrac{F}{l} = \\dfrac{\\mu_0}{2\\pi}\\dfrac{I_1I_2}{r}$; parallel currents attract, antiparallel currents repel. Take the separations as 2 A–3 A $= x$, 3 A–1 A $\\approx 2x$, 2 A–1 A $\\approx 3x$ (force per length in units of $\\frac{\\mu_0}{2\\pi x}$):\n\n- **2 A wire:** repelled by 3 A ($6/1$) and by 1 A ($2/3$), both to the left → net **left**.\n- **3 A wire:** repelled by 2 A to the right ($6$), attracted by 1 A to the right ($3/2$) → net right.\n- **1 A wire:** repelled by 2 A to the right ($2/3$), attracted by 3 A to the left ($3/2$) → net **left**.\n\nSo 2 wires experience a net force to the left.",
+   "images": [
+    "assets/img/phys-2024-james-ruse/q17.png"
+   ]
+  },
+  {
+   "ref": "Q18",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.1.3"
+   ],
+   "question": "Foucault measured the speed of light by focusing light onto a rotating mirror, which reflected it onto a stationary mirror, which in turn reflected it back to a fixed observer.\n\nWhilst the light travelled to the fixed mirror and back, the rotating mirror rotated through an angle $\\theta$. By measuring the angle $\\theta$ and with a known angular velocity $\\omega$ of the mirror, Foucault was able to calculate a value for the speed of light.\n\nWhat would be the easiest adjustment to make to the experimental design to reduce the uncertainty in the measured value of the speed of light?",
+   "options": [
+    "Increase the distance between the mirrors.",
+    "Decrease the distance between the mirrors.",
+    "Increase the rotational velocity of the rotating mirror.",
+    "Decrease the rotational velocity of the rotating mirror."
+   ],
+   "correct": "A",
+   "answer": "The light travels $2D$ in time $t = \\dfrac{2D}{c}$, during which the mirror turns $\\theta = \\omega t$, so $c = \\dfrac{2D\\omega}{\\theta}$. The angle $\\theta$ is very small and hard to measure; increasing the distance $D$ between the mirrors increases $\\theta$ (and the deflection $2\\theta$), reducing its percentage uncertainty. This is simpler than making an already fast-spinning mirror rotate faster.",
+   "images": [
+    "assets/img/phys-2024-james-ruse/q18.png"
+   ]
+  },
+  {
+   "ref": "Q19",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.8.3.3"
+   ],
+   "question": "The energy level diagram for a particular element is shown below: $E_1 = -122.4$ eV (ground state), $E_2 = -30.6$ eV, $E_3 = -13.6$ eV, $E_4 = -7.65$ eV, $E_5 = -4.9$ eV, with further levels converging to 0 eV.\n\nWhich of the following is inconsistent with the wavelength of a photon emitted from an atom of the element during an electron transition?",
+   "options": [
+    "48.3 nm",
+    "66.4 nm",
+    "72.6 nm",
+    "169.0 nm"
+   ],
+   "correct": "B",
+   "answer": "Photon energies $E = \\dfrac{hc}{\\lambda}$ (with $hc = 1240$ eV nm):\n\n- 48.3 nm → 25.7 eV $= E_5 - E_2 = -4.9 - (-30.6)$ ✓\n- 72.6 nm → 17.1 eV $\\approx E_3 - E_2 = 17.0$ eV ✓\n- 169.0 nm → 7.34 eV: the levels are $E_n = -\\dfrac{122.4}{n^2}$ eV (He$^+$), and $E_{20} - E_4 = -0.31 + 7.65 = 7.34$ eV ✓\n- 66.4 nm → 18.7 eV: transitions into $n = 2$ range from 17.0 eV to 30.6 eV but would need a level at $-11.9$ eV, which does not exist; transitions into $n = 1$ need at least 91.8 eV and into $n = 3$ at most 13.6 eV. ✗\n\nSo 66.4 nm cannot be emitted.",
+   "images": [
+    "assets/img/phys-2024-james-ruse/q19.png"
+   ]
+  },
+  {
+   "ref": "Q20",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.4.1"
+   ],
+   "question": "Jo is in the centre of a train carriage travelling close to the speed of light to the right. Lamps F and B, located at the front and back of the train respectively, are switched on simultaneously (in the platform frame) as Jo passes an observer Bo, who is on the platform equidistant from the lamps when the light is emitted.\n\nAccording to Bo, which of the following statements is correct in terms of the perceived arrival times of the flashes of light?",
+   "options": [
+    "The lights turn on simultaneously for Jo.",
+    "The lights turn on simultaneously for Bo.",
+    "The light at the back turns on before the light at the front for Jo.",
+    "The light at the front turns on before the light at the back for Bo."
+   ],
+   "correct": "B",
+   "answer": "In Bo's (platform) frame the lamps switch on simultaneously at equal distances from Bo, and light travels at $c$ in both directions, so the flashes reach Bo at the same time — for Bo the events are simultaneous. Simultaneity is relative: Jo moves towards the light from F, so in Jo's frame the front lamp turns on first (A and C are wrong); D contradicts B.",
+   "images": [
+    "assets/img/phys-2024-james-ruse/q20.png"
+   ]
+  },
+  {
+   "ref": "Q21(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "Artificial satellites monitor weather conditions on Earth and are used for surveillance and communications. Such satellites may be placed in a geostationary orbit.\n\nIdentify TWO features of a geostationary orbit.",
+   "answer": "Any two of:\n- It is a circular orbit directly above the **equator**, travelling **eastward** (in the same direction as the Earth rotates), so the satellite stays above the same point on the Earth's surface.\n- Its period is **24 hours** (one sidereal day, about 23 h 56 min), equal to the Earth's rotation period.\n- Its altitude is fixed at about 36 000 km above the surface (orbital radius $\\approx 4.2 \\times 10^{7}$ m).\n\n*Note: the paper's sample answer says the orbit is \"westwards\"; a geostationary satellite orbits eastward, in the direction of the Earth's rotation.*"
+  },
+  {
+   "ref": "Q21(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.2",
+    "12.5.3.5"
+   ],
+   "question": "Explain what happens to the speed of a satellite when it moves to a lower orbit.",
+   "answer": "Its orbital speed **increases**. In a lower orbit the gravitational force on the satellite is larger ($F = \\dfrac{GMm}{r^2}$), and this force provides the centripetal force. Equating, $\\dfrac{GMm}{r^2} = \\dfrac{mv^2}{r}$ gives $v = \\sqrt{\\dfrac{GM}{r}}$, so a smaller $r$ requires a greater speed for the satellite to stay in a stable circular orbit rather than spiralling further inwards. (Energetically, the gravitational potential energy decreases by twice as much as the kinetic energy increases.)"
+  },
+  {
+   "ref": "Q22(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.3"
+   ],
+   "question": "Consider the model of an ideal transformer shown: the primary coil has $N_p = 300$ turns and is connected to a 12 V AC supply; the secondary coil has $N_s = 50$ turns and is connected through a switch S and an ammeter to a light bulb.\n\nWhen the switch S is closed, the ammeter reads 0.23 A. Calculate the power dissipated in the light bulb.",
+   "answer": "$$\\frac{V_s}{V_p} = \\frac{N_s}{N_p} \\;\\Rightarrow\\; V_s = 12 \\times \\frac{50}{300} = 2.0\\ \\text{V}$$\n\n$$P = V_sI_s = 2.0 \\times 0.23 = 0.46\\ \\text{W}$$",
+   "images": [
+    "assets/img/phys-2024-james-ruse/q22.png"
+   ]
+  },
+  {
+   "ref": "Q22(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.4"
+   ],
+   "question": "The model transformer shown has primary and secondary coils wound on opposite sides of a solid soft iron core.\n\nExplain ONE way in which the model could be improved to more closely approximate an ideal transformer.",
+   "answer": "**Laminate the soft iron core:** build the core from thin sheets of soft iron separated by insulating layers (the laminations lying parallel to the magnetic flux, in the plane of the page shown). The changing magnetic flux induces eddy currents in the core; the insulation breaks up the current loops so the eddy currents are much smaller. This reduces resistive heating ($P = I^2R$) in the core, so less energy is lost and the transformer comes closer to the ideal $P_{\\text{in}} = P_{\\text{out}}$.\n\n(Other acceptable improvements: thicker / lower-resistance copper wire to reduce $I^2R$ heating in the coils; winding the coils on top of each other or using a toroidal/shell core to improve flux linkage.)",
+   "images": [
+    "assets/img/phys-2024-james-ruse/q22.png"
+   ]
+  },
+  {
+   "ref": "Q23(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.4.6",
+    "12.8.4.4"
+   ],
+   "question": "A stationary nucleus of uranium-232 decays into thorium-228 by means of alpha decay. The nuclear masses are: uranium-232: 232.0317 u; thorium-228: 228.0287 u; helium-4: 4.0026 u.\n\nCalculate the energy released in this decay in MeV.",
+   "answer": "Mass defect:\n$$\\Delta m = 232.0317 - (228.0287 + 4.0026) = 0.0004\\ \\text{u}$$\n\nUsing $1\\ \\text{u} = 931.5\\ \\text{MeV}/c^2$:\n$$E = \\Delta m c^2 = 0.0004 \\times 931.5 \\approx 0.37\\ \\text{MeV}$$"
+  },
+  {
+   "ref": "Q23(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.8.4.4",
+    "12.8.4.6"
+   ],
+   "question": "A stationary nucleus of uranium-232 decays into thorium-228 by alpha decay. The nuclear masses are: thorium-228: 228.0287 u; helium-4: 4.0026 u.\n\nCalculate the ratio of the kinetic energy of the alpha particle to the kinetic energy of the thorium nucleus.",
+   "answer": "The uranium nucleus is initially at rest, so by conservation of momentum the two products have equal and opposite momenta: $m_{\\alpha}v_{\\alpha} = m_{Th}v_{Th} = p$.\n\nSince $K = \\tfrac{1}{2}mv^2 = \\dfrac{p^2}{2m}$ and $p$ is the same for both,\n$$\\frac{K_{\\alpha}}{K_{Th}} = \\frac{p^2/2m_{\\alpha}}{p^2/2m_{Th}} = \\frac{m_{Th}}{m_{\\alpha}} = \\frac{228.0287}{4.0026} \\approx 57$$\n\nSo $K_{\\alpha} : K_{Th} \\approx 57 : 1$ — the light alpha particle carries almost all of the released energy."
+  },
+  {
+   "ref": "Q23(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.4.1",
+    "12.8.4.6"
+   ],
+   "question": "Explain why a uranium-232 nucleus decays by emitting an alpha particle instead of 2 individual neutrons and 2 individual protons.",
+   "answer": "The helium-4 nucleus is an exceptionally tightly bound group of nucleons (binding energy about 28 MeV, i.e. about 7 MeV per nucleon), held together by the strong nuclear force. Its mass is therefore much less than the mass of 2 free protons and 2 free neutrons ($\\approx 4.032$ u compared with 4.0026 u).\n\nEmitting the nucleons bound together as an alpha particle releases energy ($Q \\approx 0.37$ MeV $> 0$), so the decay is energetically possible and the daughter is more stable. Emitting them separately would require the extra $\\approx 28$ MeV binding energy of the alpha particle to be supplied: the products would have more mass than the parent ($Q < 0$), so this cannot happen spontaneously. Emitting the alpha particle also reduces the large electrostatic repulsion between the protons in the heavy parent nucleus."
+  },
+  {
+   "ref": "Q24",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3",
+    "12.5.3.4"
+   ],
+   "question": "Explain why the period of a satellite in orbit around the Earth cannot be less than 85 minutes. Include a calculation to support your response.",
+   "answer": "For a circular orbit gravity provides the centripetal force, giving Kepler's third law $T^2 = \\dfrac{4\\pi^2 r^3}{GM}$, so the period increases with orbital radius. The smallest possible orbit has a radius equal to the Earth's radius (in practice slightly more, above the atmosphere), so this sets the minimum period:\n\n$$T = 2\\pi\\sqrt{\\frac{R_E^3}{GM_E}} = 2\\pi\\sqrt{\\frac{(6.37 \\times 10^{6})^3}{6.67 \\times 10^{-11} \\times 6.0 \\times 10^{24}}} \\approx 5.1 \\times 10^{3}\\ \\text{s} \\approx 85\\ \\text{min}$$\n\nAny real orbit has $r > R_E$, so its period must be longer than about 85 minutes. A shorter period would need $r < R_E$, i.e. an orbit inside the Earth.\n\n*Note: the paper writes $T^2 = 50905$; it is $T \\approx 5.1 \\times 10^{3}$ s (84–85 min, depending on the values used).*"
+  },
+  {
+   "ref": "Q25",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "A spacecraft travels at a uniform speed of $0.6c$ within the Earth's gravitational field. An observer on the ground measures the length of the spacecraft to be 80 m.\n\nCalculate the length of the spacecraft as measured by the astronaut on board.",
+   "answer": "The astronaut is at rest relative to the spacecraft, so measures its proper length $l_0$; the ground observer measures the contracted length $l = 80$ m.\n\n$$l = l_0\\sqrt{1 - \\frac{v^2}{c^2}} \\;\\Rightarrow\\; 80 = l_0\\sqrt{1 - 0.6^2} = 0.8\\,l_0 \\;\\Rightarrow\\; l_0 = 100\\ \\text{m}$$",
+   "images": [
+    "assets/img/phys-2024-james-ruse/q25.png"
+   ]
+  },
+  {
+   "ref": "Q26(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.3.4",
+    "12.6.1.1"
+   ],
+   "question": "The figure shows part of the apparatus used to investigate de Broglie's matter waves. Electrons were accelerated from rest through a potential difference to form a beam which was then incident on a thin nickel crystal. Regions of maximum and minimum intensity were formed on a photographic film behind the crystal.\n\nShow that the de Broglie wavelength of the electrons is given by\n$$\\lambda = \\frac{h}{\\sqrt{2mqV}}$$\nwhere $V$ is the voltage of the power supply, and $m$ and $q$ are the mass and charge of the electron respectively.",
+   "answer": "The work done by the field on each electron equals its gain in kinetic energy (starting from rest):\n$$W = qV = \\Delta K = \\tfrac{1}{2}mv^2 \\;\\Rightarrow\\; v = \\sqrt{\\frac{2qV}{m}}$$\n\nThe de Broglie wavelength is\n$$\\lambda = \\frac{h}{mv} = \\frac{h}{m\\sqrt{\\dfrac{2qV}{m}}} = \\frac{h}{\\sqrt{m^2 \\cdot \\dfrac{2qV}{m}}} = \\frac{h}{\\sqrt{2mqV}}$$",
+   "images": [
+    "assets/img/phys-2024-james-ruse/q26.png"
+   ]
+  },
+  {
+   "ref": "Q26(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.3.4"
+   ],
+   "question": "Electrons are accelerated from rest through a potential difference $V$ and then diffracted by a nickel crystal. Their de Broglie wavelength is $\\lambda = \\dfrac{h}{\\sqrt{2mqV}}$.\n\nDetermine whether a voltmeter reading of 3.5 kV is consistent with a de Broglie wavelength of about 0.02 nm for the electrons in the beam.",
+   "answer": "$$\\lambda = \\frac{6.626 \\times 10^{-34}}{\\sqrt{2 \\times 9.109 \\times 10^{-31} \\times 1.602 \\times 10^{-19} \\times 3.5 \\times 10^{3}}} = 2.07 \\times 10^{-11}\\ \\text{m} \\approx 0.02\\ \\text{nm}$$\n\nSo a 3.5 kV accelerating voltage is consistent with a wavelength of about 0.02 nm.",
+   "images": [
+    "assets/img/phys-2024-james-ruse/q26.png"
+   ]
+  },
+  {
+   "ref": "Q26(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.3.4",
+    "12.7.2.2"
+   ],
+   "question": "In an electron diffraction experiment, electrons accelerated from rest through a potential difference $V$ (de Broglie wavelength $\\lambda = \\dfrac{h}{\\sqrt{2mqV}}$) pass through a thin nickel crystal and form a ring pattern on a photographic film. The experiment is repeated using a similar arrangement. The diagram compares the results of the two experiments: in the second experiment the rings are closer together (smaller).\n\nState and explain one independent change that could be made to the arrangement of the first experiment to produce the results shown for the second experiment.",
+   "answer": "Any one of:\n- **Increase the accelerating voltage $V$.** The electrons gain more kinetic energy and momentum, so their wavelength $\\lambda = \\dfrac{h}{\\sqrt{2mqV}}$ decreases. From $d\\sin\\theta = m\\lambda$, a smaller $\\lambda$ gives smaller diffraction angles, so the rings are closer together.\n- **Use a crystal with a larger spacing $d$ between atoms.** From $d\\sin\\theta = m\\lambda$, the diffraction angle (and ring spacing $y \\approx \\dfrac{m\\lambda L}{d}$) is proportional to $\\dfrac{1}{d}$, so the rings become smaller.\n- **Move the photographic film closer to the crystal (decrease $L$).** The angles are unchanged but the ring radii $y \\approx L\\tan\\theta$ are proportional to $L$, so the pattern is smaller.",
+   "images": [
+    "assets/img/phys-2024-james-ruse/q26c.png"
+   ]
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.5.1.1"
+   ],
+   "question": "A person launches a ball upward at a $40^\\circ$ angle above the horizontal with an initial velocity of $25\\ \\text{m s}^{-1}$ from a height of 1.65 m above the ground.\n\nCalculate the time it takes for the ball to return to the initial height from which it was launched.",
+   "answer": "$u_y = 25\\sin 40^\\circ = 16.1\\ \\text{m s}^{-1}$ (up), $a_y = -9.8\\ \\text{m s}^{-2}$. At the launch height the vertical displacement is zero:\n\n$$0 = u_yt + \\tfrac{1}{2}a_yt^2 = 16.1t - 4.9t^2 \\;\\Rightarrow\\; t = 0 \\text{ or } t = \\frac{16.1}{4.9} = 3.28\\ \\text{s}$$\n\nThe ball returns to its initial height after 3.28 s.",
+   "images": [
+    "assets/img/phys-2024-james-ruse/q27.png"
+   ]
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.5.1.4"
+   ],
+   "question": "A person launches a ball upward at a $40^\\circ$ angle above the horizontal with an initial velocity of $25\\ \\text{m s}^{-1}$ from a height of 1.65 m above the ground. Simultaneously, a dog, initially at rest beside the person, starts running in the same direction as the ball's path with a constant acceleration.\n\nDetermine the dog's acceleration if the dog pounces on the ball precisely when it lands on the ground.",
+   "answer": "**Time of flight to the ground** (vertical displacement $s_y = -1.65$ m, $u_y = 16.1\\ \\text{m s}^{-1}$):\n$$v_y^2 = u_y^2 + 2a_ys = 16.1^2 + 2(-9.8)(-1.65) \\Rightarrow v_y = -17.0\\ \\text{m s}^{-1}\\ \\text{(downwards)}$$\n$$v_y = u_y + a_yt \\Rightarrow -17.0 = 16.1 - 9.8t \\Rightarrow t = 3.38\\ \\text{s}$$\n\n**Horizontal range:**\n$$\\Delta x = u_xt = (25\\cos 40^\\circ)(3.38) = 19.2 \\times 3.38 = 64.7\\ \\text{m}$$\n\n**Dog's acceleration** (from rest, same displacement in the same time):\n$$s = ut + \\tfrac{1}{2}at^2 \\Rightarrow 64.7 = 0 + \\tfrac{1}{2}a(3.38)^2 \\Rightarrow a = \\frac{2 \\times 64.7}{3.38^2} = 11.3\\ \\text{m s}^{-2}$$",
+   "images": [
+    "assets/img/phys-2024-james-ruse/q27.png"
+   ]
+  },
+  {
+   "ref": "Q28",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2",
+    "12.5.2.3"
+   ],
+   "question": "A motor-racing track has banked quarter-circle turns. Racing cars travel around the turns at different radii and speeds. Data are collected when the centripetal acceleration is not caused by the frictional force on the tyres. The graph shows $v^2$ (m$^2$ s$^{-2}$) plotted against radius $r$ (m), with a straight line of best fit through the origin.\n\nUsing the graph, calculate the banking angle of the turns.",
+   "answer": "With no friction, the horizontal component of the normal force provides the centripetal force and its vertical component balances the weight:\n$$N\\sin\\theta = \\frac{mv^2}{r},\\quad N\\cos\\theta = mg \\;\\Rightarrow\\; \\tan\\theta = \\frac{v^2}{rg} \\;\\Rightarrow\\; v^2 = (g\\tan\\theta)\\,r$$\n\nSo the gradient of the $v^2$ vs $r$ graph is $g\\tan\\theta$. From the line, e.g. $(150, 232)$:\n$$\\text{gradient} = \\frac{232}{150} \\approx 1.55\\ \\text{m s}^{-2}$$\n$$\\tan\\theta = \\frac{1.55}{9.8} = 0.158 \\;\\Rightarrow\\; \\theta \\approx 9.0^\\circ$$",
+   "images": [
+    "assets/img/phys-2024-james-ruse/q28.png"
+   ]
+  },
+  {
+   "ref": "Q29(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.4.1",
+    "12.6.2.1"
+   ],
+   "question": "A student was investigating a DC motor with 50 turns of wire in the 20 cm × 10 cm horizontal rectangular coil PQRS, between the N pole (left) and S pole (right) of a magnet. The 20 cm sides PQ and RS are perpendicular to the magnetic field and lie 5 cm either side of the axis of rotation; the 10 cm side QR is parallel to the field. The supply is connected through a commutator with the positive terminal on the left, so the current flows P → Q → R → S. The student applied a vertical force to one of the 20 cm sides of the coil to stop the motor from turning.\n\nState where, and in which direction, this vertical force could be applied.",
+   "answer": "Either **upwards on the left-hand side (PQ)** or **downwards on the right-hand side (RS)**.\n\nReason: the field points from N to S (to the right). In PQ the current flows from P to Q (away from the viewer), so by the right-hand palm rule ($F = nIlB$) PQ is pushed **down**, and RS (current from R to S, towards the viewer) is pushed **up**. The applied force must produce an opposing torque, i.e. push PQ up or RS down.",
+   "images": [
+    "assets/img/phys-2024-james-ruse/q29.png"
+   ]
+  },
+  {
+   "ref": "Q29(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.4.1"
+   ],
+   "question": "A student was investigating a DC motor with 50 turns of wire in the 20 cm × 10 cm horizontal rectangular coil PQRS, between the N pole (left) and S pole (right) of a magnet. The 20 cm sides PQ and RS are perpendicular to the magnetic field and lie 5 cm either side of the axis of rotation; the 10 cm side QR is parallel to the field. The supply is connected through a commutator with the positive terminal on the left, so the current flows P → Q → R → S. The student applied a vertical force to one of the 20 cm sides of the coil to stop the motor from turning.\n\nThe student varied the current and measured the force required to keep the coil stationary:\n\n| Current (A) | Force (N) |\n|---|---|\n| 0.5 | 0.011 |\n| 1.0 | 0.026 |\n| 2.0 | 0.047 |\n| 3.0 | 0.068 |\n| 4.0 | 0.097 |\n\nGraph the data and draw a line of best fit.",
+   "answer": "Plot **force (N)** on the vertical axis against **current (A)** on the horizontal axis, with linear scales that use most of the grid (e.g. 0–4 A and 0–0.10 N), labelled axes with units, and the five points plotted accurately. The relationship is linear, so draw a single straight line of best fit through (or very close to) the origin, with the points scattered evenly about it (sample graph below). Its gradient is about $0.025\\ \\text{N A}^{-1}$.",
+   "images": [
+    "assets/img/phys-2024-james-ruse/q29.png"
+   ],
+   "answer_images": [
+    "assets/img/phys-2024-james-ruse/q29-graph.png"
+   ]
+  },
+  {
+   "ref": "Q29(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.4.1",
+    "12.5.2.5"
+   ],
+   "question": "A student was investigating a DC motor with 50 turns of wire in the 20 cm × 10 cm horizontal rectangular coil PQRS, between the N pole (left) and S pole (right) of a magnet. The 20 cm sides PQ and RS are perpendicular to the magnetic field and lie 5 cm either side of the axis of rotation; the 10 cm side QR is parallel to the field. The supply is connected through a commutator with the positive terminal on the left, so the current flows P → Q → R → S. The student applied a vertical force to one of the 20 cm sides of the coil to stop the motor from turning.\n\nThe student varied the current and measured the force required to keep the coil stationary:\n\n| Current (A) | Force (N) |\n|---|---|\n| 0.5 | 0.011 |\n| 1.0 | 0.026 |\n| 2.0 | 0.047 |\n| 3.0 | 0.068 |\n| 4.0 | 0.097 |\n\nUsing a graph of force against current, calculate the strength of the magnetic field.",
+   "answer": "**Gradient** of the line of best fit, using two points on the line, e.g. $(1.0, 0.024)$ and $(3.6, 0.088)$:\n$$\\frac{F}{I} = \\frac{0.088 - 0.024}{3.6 - 1.0} = 0.0246\\ \\text{N A}^{-1}$$\n\n**Balance the torques.** The applied force $F$ acts on one side at $r = 0.05$ m from the axis. The motor torque (coil plane parallel to $B$) is $\\tau = nIAB$ with $A = l \\times 2r$, $l = 0.20$ m:\n$$Fr = nIB(l \\times 2r) \\;\\Rightarrow\\; F = 2nBlI \\;\\Rightarrow\\; \\frac{F}{I} = 2nBl$$\n\n$$B = \\frac{0.0246}{2 \\times 50 \\times 0.20} = 1.2 \\times 10^{-3}\\ \\text{T}$$",
+   "images": [
+    "assets/img/phys-2024-james-ruse/q29.png"
+   ],
+   "answer_images": [
+    "assets/img/phys-2024-james-ruse/q29-graph.png"
+   ]
+  },
+  {
+   "ref": "Q30(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "The graph shows how the gravitational force $F$ (in units of $10^{3}$ N) between a 1000 kg mass and the Moon varies with the distance $r$ (in units of $10^{6}$ m) from the Moon's centre, for points above its surface. The curve starts at the radius of the Moon.\n\nUse data from the graph to determine the mass of the Moon.",
+   "answer": "At the surface, $r = 1.75 \\times 10^{6}$ m and $F = 1.6 \\times 10^{3}$ N (any point on the curve can be used). From $F = \\dfrac{GMm}{r^2}$:\n$$M = \\frac{Fr^2}{Gm} = \\frac{1600 \\times (1.75 \\times 10^{6})^2}{6.67 \\times 10^{-11} \\times 1000} \\approx 7.3 \\times 10^{22}\\ \\text{kg}$$\n\n(Answers from about $7.0 \\times 10^{22}$ to $8.5 \\times 10^{22}$ kg are acceptable, depending on the point read.)",
+   "images": [
+    "assets/img/phys-2024-james-ruse/q30.png"
+   ]
+  },
+  {
+   "ref": "Q30(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.5"
+   ],
+   "question": "The Moon has mass $7.35 \\times 10^{22}$ kg and radius $1.75 \\times 10^{6}$ m.\n\nCalculate the speed at which a 1000 kg mass should be thrown vertically upwards from the surface of the Moon if it is to escape from the Moon's gravitational field.",
+   "answer": "To escape, the kinetic energy must at least equal the gain in potential energy needed to reach infinity (where $U = 0$):\n$$\\tfrac{1}{2}mv^2 = \\frac{GMm}{r} \\;\\Rightarrow\\; v = \\sqrt{\\frac{2GM}{r}}$$\n$$v = \\sqrt{\\frac{2 \\times 6.67 \\times 10^{-11} \\times 7.35 \\times 10^{22}}{1.75 \\times 10^{6}}} \\approx 2.37 \\times 10^{3}\\ \\text{m s}^{-1}$$\n\n(The escape speed is independent of the 1000 kg mass.)"
+  },
+  {
+   "ref": "Q31(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.1.1"
+   ],
+   "question": "An inkjet printer operates by accelerating charged droplets of ink onto the printer paper. The ink drops are deflected by two parallel plates, 20 cm long, across which a voltage is applied. An ink drop of mass $m = 2.0 \\times 10^{-10}$ kg and charge $q = 1.0 \\times 10^{-13}$ C passes between the plates with an initial horizontal velocity $u = 20\\ \\text{m s}^{-1}$. The plates, a distance $d = 5$ mm apart, are connected to a DC voltage source $V = 10\\,000$ V. Ignore the effects of gravity.\n\nShow that the vertical acceleration of the ink drop is given by $a = \\dfrac{Vq}{md}$.",
+   "answer": "The only force on the drop is the electric force, $F_{\\text{net}} = qE$. Between parallel plates the field is uniform with $E = \\dfrac{V}{d}$, and by Newton's second law $F_{\\text{net}} = ma$:\n$$ma = \\frac{V}{d}q \\;\\Rightarrow\\; a = \\frac{Vq}{md}$$",
+   "images": [
+    "assets/img/phys-2024-james-ruse/q31.png"
+   ]
+  },
+  {
+   "ref": "Q31(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.2",
+    "12.6.1.1"
+   ],
+   "question": "An inkjet printer operates by accelerating charged droplets of ink onto the printer paper. The ink drops are deflected by two parallel plates, 20 cm long, across which a voltage is applied. An ink drop of mass $m = 2.0 \\times 10^{-10}$ kg and charge $q = 1.0 \\times 10^{-13}$ C passes between the plates with an initial horizontal velocity $u = 20\\ \\text{m s}^{-1}$. The plates, a distance $d = 5$ mm apart, are connected to a DC voltage source $V = 10\\,000$ V. Ignore the effects of gravity.\n\nThe vertical acceleration of the drop is $a = \\dfrac{Vq}{md}$. Find the vertical deflection of the ink drop as it passes along the plates.",
+   "answer": "**Time between the plates** (constant horizontal velocity):\n$$t = \\frac{s_x}{u_x} = \\frac{0.20}{20} = 0.010\\ \\text{s}$$\n\n**Acceleration:**\n$$a = \\frac{Vq}{md} = \\frac{10\\,000 \\times 1.0 \\times 10^{-13}}{2.0 \\times 10^{-10} \\times 0.005} = 1.0 \\times 10^{3}\\ \\text{m s}^{-2}$$\n\n**Deflection** ($u_y = 0$):\n$$s_y = \\tfrac{1}{2}at^2 = \\tfrac{1}{2} \\times 1.0 \\times 10^{3} \\times (0.010)^2 = 0.05\\ \\text{m}$$\n\n*Note (from the marking comments): 5 cm is far larger than the 5 mm plate separation, so with these data the drop would actually strike a plate; the intended answer is the 0.05 m found from the equations of motion.*",
+   "images": [
+    "assets/img/phys-2024-james-ruse/q31.png"
+   ]
+  },
+  {
+   "ref": "Q32(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.3",
+    "12.7.3.2"
+   ],
+   "question": "In an experiment involving the photoelectric effect, the results for the stopping voltage versus the light frequency for a particular metal are shown in the graph. The line meets the frequency axis at $5.8 \\times 10^{14}$ Hz.\n\nDetermine the stopping voltage needed if light of frequency $1.20 \\times 10^{15}$ Hz is used.",
+   "answer": "From the graph the threshold frequency is $f_0 = 5.8 \\times 10^{14}$ Hz. By conservation of energy, $K_{\\max} = hf - \\phi$ with $K_{\\max} = qV_s$ and $\\phi = hf_0$:\n$$V_s = \\frac{h}{e}(f - f_0) = \\frac{6.626 \\times 10^{-34} \\times (12.0 - 5.8) \\times 10^{14}}{1.602 \\times 10^{-19}} \\approx 2.6\\ \\text{V}$$\n\n(Equivalently, extend the line: its gradient is $\\dfrac{h}{e} \\approx 4.1$–$4.3 \\times 10^{-15}$ V s.)",
+   "images": [
+    "assets/img/phys-2024-james-ruse/q32.png"
+   ]
+  },
+  {
+   "ref": "Q32(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.3"
+   ],
+   "question": "In an experiment involving the photoelectric effect, the results for the stopping voltage versus the light frequency for a particular metal are shown in the graph. The line meets the frequency axis at $5.8 \\times 10^{14}$ Hz.\n\nOn the same axes, sketch the graph of the results expected if a metal whose work function is 1.95 eV is used instead. Show any relevant calculations.",
+   "answer": "Threshold frequency of the new metal:\n$$f_0 = \\frac{\\phi}{h} = \\frac{1.95 \\times 1.602 \\times 10^{-19}}{6.626 \\times 10^{-34}} = 4.7 \\times 10^{14}\\ \\text{Hz}$$\n\nSince $V_s = \\dfrac{h}{e}f - \\dfrac{\\phi}{e}$, the gradient $\\dfrac{h}{e}$ is the same for every metal. So the new graph is a straight line **parallel** to the original, meeting the frequency axis at $4.7 \\times 10^{14}$ Hz (to the left of the original line), as shown in red below.",
+   "images": [
+    "assets/img/phys-2024-james-ruse/q32.png"
+   ],
+   "answer_images": [
+    "assets/img/phys-2024-james-ruse/q32-ans.png"
+   ]
+  },
+  {
+   "ref": "Q33",
+   "kind": "written",
+   "marks": 9,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.8.2.1",
+    "12.8.2.2",
+    "12.7.4.2"
+   ],
+   "question": "Experiments conducted by Millikan and Chadwick as well as cosmic-origin muons played a pivotal role in our understanding of the structure of matter and the laws of physics. Three stimuli are provided:\n\n1. **Chadwick:** 5 MeV alpha particles strike a beryllium target, producing an unknown radiation which knocks protons out of paraffin wax; the protons are detected.\n2. **Millikan:** an oil droplet of mass $m = 1.47 \\times 10^{-12}$ kg is balanced between horizontal parallel plates $d = 6$ mm apart with $V = 10\\,000$ V across them.\n3. **Muons:** cosmic-origin muons with half-life $t_{1/2} = 2.2\\ \\mu\\text{s}$ travel at $v_\\mu = 0.995c$ from detector 1 on a mountain top to detector 2, 2000 m lower.\n\nUsing the three stimuli provided, show how these three particles improved our understanding of the structure of matter and the laws of physics. Include a significant calculation for at least two of the three stimuli provided.",
+   "answer": "**Chadwick — the neutron.** When 5 MeV alpha particles bombarded beryllium, a very penetrating, uncharged radiation was emitted. It was thought to be gamma radiation, but it ejected protons from paraffin wax with energies of about 5.7 MeV; a gamma photon would need about 50 MeV to do this, which is impossible energetically. Applying conservation of momentum and energy to collisions with hydrogen and nitrogen nuclei, Chadwick showed the radiation consisted of neutral particles with mass almost equal to the proton's — the **neutron**. This:\n- completed the nuclear model: the nucleus contains protons and neutrons, explaining why atomic masses are about double the atomic numbers and explaining isotopes (Rutherford's model could not);\n- showed that a strong nuclear force acting between all nucleons must hold the nucleus together against proton repulsion;\n- gave a neutral projectile that penetrates nuclei, leading to induced transmutation and fission.\n\n**Millikan — the charge of the electron.** For the balanced drop the electric force equals the weight, $qE = mg$ with $E = \\dfrac{V}{d}$:\n$$q = \\frac{mgd}{V} = \\frac{1.47 \\times 10^{-12} \\times 9.8 \\times 6 \\times 10^{-3}}{10\\,000} = 8.64 \\times 10^{-18}\\ \\text{C} \\approx 54 \\times 1.602 \\times 10^{-19}\\ \\text{C}$$\nEvery drop's charge was a whole-number multiple of $e = 1.602 \\times 10^{-19}$ C, showing that **charge is quantised** and that the electron carries the elementary charge. Combined with Thomson's $q/m$ ratio this gave the electron's mass ($\\approx 9.1 \\times 10^{-31}$ kg, about 1/1836 of the hydrogen atom), confirming that the electron is a tiny sub-atomic constituent of all matter and supporting the Rutherford/Bohr models.\n\n**Muons — special relativity.** Classically, the time to travel 2000 m is\n$$t = \\frac{2000}{0.995 \\times 3.0 \\times 10^{8}} = 6.7\\ \\mu\\text{s} \\approx 3\\ \\text{half-lives},$$\nso only $\\dfrac{N}{N_0} = e^{-\\lambda t} = e^{-\\frac{0.693}{2.2} \\times 6.7} \\approx 0.12$ (12%) should reach detector 2. Far more are detected. In the Earth frame the muon's lifetime is dilated:\n$$t = \\frac{t_0}{\\sqrt{1 - \\frac{v^2}{c^2}}} = \\frac{2.2}{\\sqrt{1 - 0.995^2}} \\approx 22\\ \\mu\\text{s}$$\nso in 6.7 μs only about 0.3 dilated half-lives pass and $\\dfrac{N}{N_0} = e^{-\\frac{0.693}{22} \\times 6.7} \\approx 0.81$ (about 80%) arrive, as observed. (In the muon's frame the 2000 m is length-contracted to about 200 m.) The muon data are direct experimental evidence for **time dilation and length contraction**, confirming Einstein's special relativity and showing that Newtonian ideas of absolute time fail at speeds near $c$. Muons are also fundamental leptons (heavier relatives of the electron), revealing particles beyond protons, neutrons and electrons, as described by the Standard Model.\n\n*Note: the paper's sample answer writes $8.644 \\times 10^{-19}$ C for the drop's charge; the calculation gives $8.64 \\times 10^{-18}$ C, which is the value consistent with its \"≈ 54e\".*",
+   "images": [
+    "assets/img/phys-2024-james-ruse/q33-chadwick.png",
+    "assets/img/phys-2024-james-ruse/q33-millikan.png",
+    "assets/img/phys-2024-james-ruse/q33-muons.png"
+   ]
+  },
+  {
+   "ref": "Q34(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.2"
+   ],
+   "question": "A student undertook an experiment to investigate diffraction using a helium-neon laser and a diffraction grating containing 100 lines per mm, positioned 0.80 m from a screen. The image (drawn to scale against a millimetre ruler) shows that each first-order maximum ($m = 1$) is 50 mm from the central maximum on the screen.\n\nCalculate the wavelength of the helium-neon laser.",
+   "answer": "Slit spacing: $d = \\dfrac{1}{100}\\ \\text{mm} = 1.0 \\times 10^{-5}$ m.\n\nAngle to the first-order maximum: $\\tan\\theta = \\dfrac{y}{L} = \\dfrac{0.050}{0.80} \\Rightarrow \\theta = 3.6^\\circ$.\n\n$$d\\sin\\theta = m\\lambda \\;\\Rightarrow\\; \\lambda = \\frac{1.0 \\times 10^{-5} \\times \\sin 3.6^\\circ}{1} \\approx 6.25 \\times 10^{-7}\\ \\text{m} = 625\\ \\text{nm}$$\n\n(Using the small-angle approximation $\\lambda \\approx \\dfrac{dy}{mL} = \\dfrac{1.0 \\times 10^{-5} \\times 0.050}{0.80} = 625$ nm gives the same result.)",
+   "images": [
+    "assets/img/phys-2024-james-ruse/q34-setup.png",
+    "assets/img/phys-2024-james-ruse/q34-pattern.png"
+   ]
+  },
+  {
+   "ref": "Q34(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.2"
+   ],
+   "question": "A student undertook an experiment to investigate diffraction using a helium-neon laser and a diffraction grating containing 100 lines per mm, positioned 0.80 m from a screen. The image (drawn to scale against a millimetre ruler) shows that each first-order maximum ($m = 1$) is 50 mm from the central maximum on the screen. The wavelength of the helium-neon laser light is 625 nm.\n\nGiven that the range of the visible spectrum is 400 nm to 700 nm, predict how the distances between the central maximum and subsequent maxima will be affected if blue laser light is used in the above investigation. Justify your answer.",
+   "answer": "The distances **decrease** — the maxima move closer to the central maximum.\n\nBlue light is at the short-wavelength end of the visible spectrum (about 450 nm), so $\\lambda_{\\text{blue}} < 625$ nm. From $d\\sin\\theta = m\\lambda$ with $d$ fixed, a smaller $\\lambda$ gives a smaller angle for each order, and for small angles $y \\approx \\dfrac{m\\lambda L}{d}$, so $y \\propto \\lambda$. Each maximum is therefore closer to the centre (by roughly a factor $\\frac{450}{625}$).",
+   "images": [
+    "assets/img/phys-2024-james-ruse/q34-setup.png",
+    "assets/img/phys-2024-james-ruse/q34-pattern.png"
+   ]
+  },
+  {
+   "ref": "Q35",
+   "kind": "written",
+   "marks": 7,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.6.1.3",
+    "12.6.1.4",
+    "12.5.1.1"
+   ],
+   "question": "A particle P, of mass $2m$ and charge $+q$, is injected into an evacuated glass chamber with an initial velocity $v$ (to the right). The particle experiences a uniform magnetic field perpendicular to the direction of motion and a uniform gravitational field directed downwards. Particle P travels through the tube in a straight horizontal path until it reaches X, as shown in Figure 1.\n\nParticle P has a fine crack in it and when it reaches X, it breaks into two fragments Q and R, as shown in Figure 2. The upper fragment Q has mass $m$ and charge $+q$, and the lower fragment R also has mass $m$ but is uncharged. The breaking process is elastic and momentum is conserved during the breaking process.\n\nAccount for the trajectories of the initial particle P and its fragment R and discuss factors that affect the trajectory of fragment Q. Support your answer with mathematical models, relevant laws of physics and diagrams.",
+   "answer": "**Particle P.** In the vacuum there is no air resistance. P has weight $2mg$ downwards; since it moves in a straight horizontal line at constant speed, the net force is zero (Newton's first law), so the magnetic force must be upwards and equal to the weight:\n$$qvB = 2mg \\;\\Rightarrow\\; B = \\frac{2mg}{qv}$$\nFor a positive charge moving right with an upward force, the right-hand palm rule gives $\\vec{B}$ **into the page**. $B$ must be uniform and constant for P to keep moving in a straight line.\n\n**The break-up.** Momentum: $2mv = mv_Q + mv_R \\Rightarrow v_Q + v_R = 2v$. Elastic, so kinetic energy is conserved: $\\tfrac{1}{2}(2m)v^2 = \\tfrac{1}{2}mv_Q^2 + \\tfrac{1}{2}mv_R^2 \\Rightarrow v_Q^2 + v_R^2 = 2v^2$. Solving, $(v_Q - v_R)^2 = 2(v_Q^2 + v_R^2) - (v_Q + v_R)^2 = 0$, so $v_Q = v_R = v$: both fragments start horizontally to the right with speed $v$.\n\n**Fragment R** is uncharged, so the only force is its weight $mg$. It undergoes projectile motion: $v_x = v$ (constant), $v_y = -gt$, $x = vt$, $y = -\\tfrac{1}{2}gt^2$, a downward **parabola** until it hits the tube. Its speed $\\sqrt{v^2 + g^2t^2}$ increases as GPE is converted to KE.\n\n**Fragment Q** has weight $mg$ but still experiences the full magnetic force $qvB = 2mg$ upwards. The net force is initially $mg$ **upwards**, perpendicular to its velocity, so Q starts to curve upwards with radius of curvature $r = \\dfrac{mv^2}{mg} = \\dfrac{v^2}{g}$. Factors affecting its path:\n- The magnetic force is always perpendicular to the velocity (it does no work), so as Q turns upward the magnetic force rotates backwards and slows the horizontal motion, while gravity does negative work as Q rises. Q loses KE as it gains GPE, its speed and hence $qvB$ decrease, so it cannot continue on a circle.\n- By energy conservation Q can rise at most $h = \\dfrac{v^2}{2g}$ (where its KE would be zero), after which gravity brings it back down, regaining speed, to the original level. Q therefore drifts to the right in a repeating looping path (a cycloid) between the original line and height $\\dfrac{v^2}{2g}$.\n- The path depends on $q$, $m$, $B$, $v$ and $g$: a larger $\\dfrac{qB}{m}$ gives tighter loops (angular frequency $\\omega = \\dfrac{qB}{m} = \\dfrac{2g}{v}$), and the average drift speed to the right is $\\dfrac{v}{2}$.\n- As an accelerating charge, Q radiates electromagnetic energy, so its real path deviates slightly from the ideal cycloid; it will eventually strike the tube wall.\n\nDiagrams: forces on P (weight down, $qvB$ up), R's parabolic path, and Q's path (below).",
+   "images": [
+    "assets/img/phys-2024-james-ruse/q35-fig1.png",
+    "assets/img/phys-2024-james-ruse/q35-fig2.png"
+   ],
+   "answer_images": [
+    "assets/img/phys-2024-james-ruse/q35-r.png",
+    "assets/img/phys-2024-james-ruse/q35-q.png",
+    "assets/img/phys-2024-james-ruse/q35-cycloid.png"
+   ]
+  }
+ ]
+}

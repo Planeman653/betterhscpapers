@@ -1,0 +1,540 @@
+{
+ "id": "ext1-2026-hurlstone",
+ "course": "extension1",
+ "school": "Hurlstone",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "Hurlstone 2026 w. sol"
+ },
+ "indexed": "2026-11-12",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q15(a)",
+   "reason": "Not in 2024 syllabus: pigeonhole principle"
+  },
+  {
+   "ref": "Q15(c)",
+   "reason": "Not in 2024 syllabus: sample proportions (normal approximation for the sample proportion)"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.1.1"
+   ],
+   "question": "The diagram shown below represents the graph of $y = \\dfrac{1}{f(x)}$.\n\nWhich of the following could be $f(x)$?",
+   "options": [
+    "$(2x-1)^2$",
+    "$2x^2-1$",
+    "$(2x+1)^2$",
+    "$2x^2+1$"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/ext1-2026-hurlstone/q1.png"
+   ],
+   "answer": "$\\frac{1}{f(x)}$ is positive everywhere, has a single vertical asymptote at $x = \\frac12$ and $y$-intercept $1$. So $f(x) \\ge 0$ with a (double) zero at $x = \\frac12$ and $f(0) = 1$: $f(x) = (2x-1)^2$.\n\nFor B, $\\frac{1}{2x^2-1}$ is negative near $x = 0$ and has two asymptotes ($x = \\pm\\frac{1}{\\sqrt2}$); for D, $2x^2 + 1$ has no zero so there is no asymptote; C has its asymptote at $x = -\\frac12$."
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.2.7",
+    "11.1.2.5"
+   ],
+   "question": "If $f(x) = \\sqrt{4-x^2}$, $-2 \\le x \\le 0$, then which of the following gives the inverse function?",
+   "options": [
+    "$x^2 + y^2 = 4$",
+    "$y = \\sqrt{4-x^2},\\ -2 \\le x \\le 2$",
+    "$y = \\sqrt{4-x^2},\\ 0 \\le x \\le 2$",
+    "$y = -\\sqrt{4-x^2},\\ 0 \\le x \\le 2$"
+   ],
+   "correct": "D",
+   "answer": "$f$ is the quarter-circle in the 2nd quadrant: domain $[-2, 0]$, range $[0, 2]$. The inverse has domain $[0, 2]$ and range $[-2, 0]$. Swapping $x$ and $y$: $x = \\sqrt{4 - y^2} \\Rightarrow y^2 = 4 - x^2$, and since $y \\le 0$, $y = -\\sqrt{4-x^2}$, $0 \\le x \\le 2$ (the reflection in $y = x$ lies in the 4th quadrant)."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.3.3.2"
+   ],
+   "question": "Which expression is equal to $\\sin x + \\sqrt{3}\\cos x$?",
+   "options": [
+    "$2\\sin\\left(x+\\frac{\\pi}{3}\\right)$",
+    "$2\\sin\\left(x-\\frac{\\pi}{3}\\right)$",
+    "$4\\cos\\left(x+\\frac{\\pi}{3}\\right)$",
+    "$4\\cos\\left(x-\\frac{\\pi}{3}\\right)$"
+   ],
+   "correct": "A",
+   "answer": "Let $\\sin x + \\sqrt3\\cos x = R\\sin(x + \\alpha) = R\\sin x\\cos\\alpha + R\\cos x\\sin\\alpha$. Then $R\\cos\\alpha = 1$, $R\\sin\\alpha = \\sqrt3$, so $R = \\sqrt{1 + 3} = 2$ and $\\tan\\alpha = \\sqrt3$, $\\alpha = \\frac{\\pi}{3}$.\n\n$$\\sin x + \\sqrt3\\cos x = 2\\sin\\left(x + \\frac{\\pi}{3}\\right)$$"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.4"
+   ],
+   "question": "Given $4\\sin^2\\left(\\dfrac{\\pi}{22}\\right) + 3 = \\sqrt{C}$, what is the value of $\\cos\\left(\\dfrac{\\pi}{11}\\right)$ in terms of $C$?",
+   "options": [
+    "$\\dfrac{\\sqrt C - 5}{2}$",
+    "$\\dfrac{5 - \\sqrt C}{2}$",
+    "$\\dfrac{3 - \\sqrt C}{4}$",
+    "$\\dfrac{\\sqrt C - 3}{4}$"
+   ],
+   "correct": "B",
+   "answer": "$\\sin^2\\left(\\frac{\\pi}{22}\\right) = \\frac{\\sqrt C - 3}{4}$. Since $\\frac{\\pi}{11} = 2\\times\\frac{\\pi}{22}$, using $\\cos 2\\theta = 1 - 2\\sin^2\\theta$:\n$$\\cos\\frac{\\pi}{11} = 1 - 2\\left(\\frac{\\sqrt C - 3}{4}\\right) = 1 - \\frac{\\sqrt C - 3}{2} = \\frac{5 - \\sqrt C}{2}.$$"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.4",
+    "12.2.4.7"
+   ],
+   "question": "Consider the vectors $\\mathbf{u} = 2\\mathbf{i} - 5\\mathbf{j}$, $\\mathbf{v} = \\mathbf{i} + a\\mathbf{j}$ and $\\mathbf{w} = \\mathbf{i} + b\\mathbf{j}$.\n\nIf $\\mathbf{v} \\parallel \\mathbf{u}$ and $\\mathbf{u} \\perp \\mathbf{w}$, what are the possible values for $a$ and $b$?",
+   "options": [
+    "$a = \\frac52,\\ b = \\frac25$",
+    "$a = \\frac52,\\ b = -\\frac25$",
+    "$a = -\\frac52,\\ b = \\frac25$",
+    "$a = -\\frac52,\\ b = -\\frac25$"
+   ],
+   "correct": "C",
+   "answer": "$\\mathbf{v} \\parallel \\mathbf{u}$: $\\mathbf{v} = \\frac12\\mathbf{u} = \\mathbf{i} - \\frac52\\mathbf{j}$, so $a = -\\frac52$.\n\n$\\mathbf{u}\\cdot\\mathbf{w} = 2(1) - 5b = 0$, so $b = \\frac25$."
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.2",
+    "12.5.1.3"
+   ],
+   "question": "For what values of $a$ and $b$ does $y = e^{2x} + e^{-2x}$ satisfy the equation $\\dfrac{d^2y}{dx^2} + a\\dfrac{dy}{dx} + by = 0$?",
+   "options": [
+    "$a = -1,\\ b = -2$",
+    "$a = -2,\\ b = 0$",
+    "$a = 0,\\ b = -4$",
+    "$a = -2,\\ b = -1$"
+   ],
+   "correct": "C",
+   "answer": "$y' = 2e^{2x} - 2e^{-2x}$, $y'' = 4e^{2x} + 4e^{-2x}$. Substituting:\n$$4e^{2x} + 4e^{-2x} + a(2e^{2x} - 2e^{-2x}) + b(e^{2x} + e^{-2x}) = 0$$\n$$e^{2x}(4 + 2a + b) + e^{-2x}(4 - 2a + b) = 0 \\text{ for all } x.$$\nSo $4 + 2a + b = 0$ and $4 - 2a + b = 0$. Adding: $8 + 2b = 0$, so $b = -4$ and $a = 0$.",
+   "course": "advanced"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.9"
+   ],
+   "question": "Which of the following slope fields best represents the differential equation $\\dfrac{dy}{dx} = \\dfrac{3x^2}{2y}$?",
+   "options": [
+    "![Slope field A](assets/img/ext1-2026-hurlstone/q7a.png)",
+    "![Slope field B](assets/img/ext1-2026-hurlstone/q7b.png)",
+    "![Slope field C](assets/img/ext1-2026-hurlstone/q7c.png)",
+    "![Slope field D](assets/img/ext1-2026-hurlstone/q7d.png)"
+   ],
+   "correct": "D",
+   "answer": "The numerator $3x^2 \\ge 0$, so the sign of the slope is the sign of $y$: slopes are positive above the $x$-axis and negative below it, and they are horizontal on the $y$-axis ($x = 0$). The slopes become steep as $y \\to 0$ and as $|x|$ grows. Only D has all these features."
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.1.8"
+   ],
+   "question": "How many ways can the letters in CABRAMATTA be arranged?",
+   "options": [
+    "$\\dfrac{10!}{(2\\times4)!}$",
+    "$\\dfrac{10!}{(2+4)!}$",
+    "$\\dfrac{10!}{2!\\,4!}$",
+    "$10!$"
+   ],
+   "correct": "C",
+   "answer": "There are 10 letters, with 4 A's and 2 T's (all others distinct), so the number of arrangements is $\\dfrac{10!}{2!\\,4!}$."
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "What is the gradient of the tangent to the function $y = \\sin^{-1}2x$ at the point $\\left(\\dfrac14, \\dfrac{\\pi}{6}\\right)$?",
+   "options": [
+    "$\\dfrac{\\pi}{6}$",
+    "$\\dfrac{1}{\\sqrt3}$",
+    "$1$",
+    "$\\dfrac{4}{\\sqrt3}$"
+   ],
+   "correct": "D",
+   "answer": "$$\\frac{dy}{dx} = \\frac{2}{\\sqrt{1 - (2x)^2}} = \\frac{2}{\\sqrt{1 - 4x^2}}.$$\nAt $x = \\frac14$: $\\dfrac{dy}{dx} = \\dfrac{2}{\\sqrt{1 - \\frac14}} = \\dfrac{2}{\\frac{\\sqrt3}{2}} = \\dfrac{4}{\\sqrt3}$."
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.5",
+    "12.5.1.10"
+   ],
+   "question": "The diagram below shows $y = f(x)$.\n\nWhich of the following statements is true?",
+   "options": [
+    "$f'(1) < f(1) < f''(1) < 1$",
+    "$1 < f(1) < f'(1) < f''(1)$",
+    "$f''(1) < f(1) < 1 < f'(1)$",
+    "$f'(1) < f''(1) < f(1) < 1$"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/ext1-2026-hurlstone/q10.png"
+   ],
+   "answer": "At $x = 1$ the point lies above the $x$-axis and below $y = 1$, so $0 < f(1) < 1$ (about $0.18$). The curve is decreasing there, so $f'(1) < 0$. The point of inflection between the maximum and the minimum is to the left of $x = 1$; at $x = 1$ the curve is bending up towards the minimum, so it is concave up and $f''(1) > 0$. Hence $f'(1)$ is the smallest, and of the options only A, $f'(1) < f(1) < f''(1) < 1$, is consistent (measuring the graph gives $f'(1) \\approx -0.33$, $f(1) \\approx 0.18$, $f''(1) \\approx 0.7$).\n\nNote: the paper's answer is D, reasoning that $f''(1) < 0$; but the curve is concave up at $x = 1$, so $f''(1) > 0$ and D cannot hold.",
+   "course": "advanced"
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.4",
+    "11.1.1.6"
+   ],
+   "question": "The graphs of two functions $y = g(x)$ and $y = h(x)$ are shown below. $y = g(x)$ is a cubic that touches the $x$-axis at $x = -1$, crosses it at $x = 2$, has $y$-intercept $-1$ and a local minimum at $(1, -2)$; $y = h(x)$ is the straight line through $(-2, 0)$ and $(0, -1)$.\n\nOn the same number plane, draw a sketch of $y = g(x) + h(x)$. Include all relevant points in your sketch.",
+   "images": [
+    "assets/img/ext1-2026-hurlstone/q11a.png"
+   ],
+   "answer": "Add the $y$-values of the two graphs at convenient $x$-values:\n\n- Where $h(x) = 0$ ($x = -2$): $g(-2) + h(-2) = -2 + 0 = -2$, so the sum meets $y = g(x)$ at $(-2, -2)$.\n- Where $g(x) = 0$: at $x = -1$ the sum is $h(-1) = -\\frac12$, giving $\\left(-1, -\\frac12\\right)$; at $x = 2$ the sum is $h(2) = -2$, giving $(2, -2)$ (on the line).\n- $x = 0$: $g(0) + h(0) = -1 + (-1) = -2$, giving $(0, -2)$.\n- $x = 1$: $g(1) + h(1) = -2 - \\frac32 = -\\frac72$, giving $\\left(1, -\\frac72\\right)$ (near the local minimum).\n\nThe sum is a cubic with positive leading coefficient: it has a local maximum just to the left of $\\left(-1, -\\frac12\\right)$, a local minimum near $\\left(1, -\\frac72\\right)$, crosses the $x$-axis once (at about $x \\approx 2.4$), and $y \\to \\infty$ as $x \\to \\infty$, $y \\to -\\infty$ as $x \\to -\\infty$.\n\n(The graphs shown are $g(x) = \\frac12(x+1)^2(x-2)$ and $h(x) = -\\frac{x}{2} - 1$, so $g(x) + h(x) = \\frac12(x^3 - 4x - 4)$, but the sketch can be done entirely from the graphs.)",
+   "answer_images": [
+    "assets/img/ext1-2026-hurlstone/q11a-sol.png"
+   ]
+  },
+  {
+   "ref": "Q11(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.1.3",
+    "11.1.4.3"
+   ],
+   "question": "On the same set of axes, sketch the functions $y = |x - 2|$ and $y = 2x$.",
+   "answer": "$y = |x - 2|$ is a \"V\" with vertex $(2, 0)$, $y$-intercept $2$ and arms of gradient $\\pm1$. $y = 2x$ is a line through the origin with gradient $2$, steeper than the right arm of the V. The graphs intersect once, on the left arm $y = 2 - x$, at $\\left(\\frac23, \\frac43\\right)$.",
+   "answer_images": [
+    "assets/img/ext1-2026-hurlstone/q11bi-sol.png"
+   ]
+  },
+  {
+   "ref": "Q11(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.3",
+    "11.1.1.6"
+   ],
+   "question": "By considering the graphs of $y = |x - 2|$ and $y = 2x$ on the same set of axes, solve $|x - 2| < 2x$.",
+   "answer": "The line $y = 2x$ is steeper than the right arm of $y = |x-2|$, so the only intersection is with the left arm $y = 2 - x$:\n$$2x = 2 - x \\Rightarrow x = \\frac23.$$\nTo the right of this point the line lies above the V, so\n$$|x - 2| < 2x \\quad\\text{for}\\quad x > \\frac23.$$"
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.2.12"
+   ],
+   "question": "If $f(x) = 3x + 5$, find the coordinates of the point where the graphs of $y = f(x)$ and $y = f^{-1}(x)$ intersect.",
+   "answer": "$f$ is an increasing linear function, so its graph meets the graph of its inverse on the line $y = x$:\n$$x = 3x + 5 \\Rightarrow x = -\\frac52.$$\nThe point of intersection is $\\left(-\\frac52, -\\frac52\\right)$.\n\n(Check: $f^{-1}(x) = \\frac{x - 5}{3}$ and $\\frac{-5/2 - 5}{3} = -\\frac52$.)"
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.1",
+    "11.2.2.6"
+   ],
+   "question": "Express $P(x) = 4x^3 + 12x^2 - 15x + 4$ as a product of linear factors, given that $P(x) = 0$ has a multiple root.",
+   "answer": "A multiple root of $P(x) = 0$ is also a root of $P'(x) = 0$.\n$$P'(x) = 12x^2 + 24x - 15 = 3(4x^2 + 8x - 5) = 3(2x + 5)(2x - 1)$$\nso the multiple root is $x = -\\frac52$ or $x = \\frac12$. Testing:\n$$P\\left(\\tfrac12\\right) = 4\\left(\\tfrac18\\right) + 12\\left(\\tfrac14\\right) - 15\\left(\\tfrac12\\right) + 4 = \\tfrac12 + 3 - 7\\tfrac12 + 4 = 0.$$\nSo $x = \\frac12$ is the double root and $(2x - 1)^2$ is a factor. Comparing the leading term ($4x^3$) and the constant term ($4$):\n$$P(x) = (2x - 1)^2(x + 4).$$"
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.6",
+    "11.3.2.2"
+   ],
+   "question": "Solve the following equation for $x$:\n$$\\tan^{-1}\\left(\\frac{1}{x}\\right) + \\tan^{-1}\\left(\\frac{1}{x+2}\\right) = \\frac{\\pi}{4}$$",
+   "answer": "Let $A = \\tan^{-1}\\frac1x$ and $B = \\tan^{-1}\\frac{1}{x+2}$, so $\\tan A = \\frac1x$, $\\tan B = \\frac{1}{x+2}$ and $A + B = \\frac{\\pi}{4}$. Then\n$$\\tan(A+B) = \\frac{\\tan A + \\tan B}{1 - \\tan A\\tan B} = 1$$\n$$\\frac1x + \\frac1{x+2} = 1 - \\frac{1}{x(x+2)}$$\n$$\\frac{2x + 2}{x(x+2)} = \\frac{x(x+2) - 1}{x(x+2)}$$\n$$2x + 2 = x^2 + 2x - 1 \\Rightarrow x^2 = 3 \\Rightarrow x = \\pm\\sqrt3.$$\nBoth satisfy the original equation: for $x = \\sqrt3$, $\\frac{\\pi}{6} + \\frac{\\pi}{12} = \\frac{\\pi}{4}$; for $x = -\\sqrt3$, $\\tan^{-1}\\left(-\\frac{1}{\\sqrt3}\\right) + \\tan^{-1}(2 + \\sqrt3) = -\\frac{\\pi}{6} + \\frac{5\\pi}{12} = \\frac{\\pi}{4}$.\n\n$$x = \\pm\\sqrt3$$"
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.12"
+   ],
+   "question": "Given $f(x) = 2\\sin^{-1}\\left(\\dfrac{x}{3}\\right)$, state the domain and range of $f(x)$.",
+   "answer": "Need $-1 \\le \\frac{x}{3} \\le 1$, so the domain is $-3 \\le x \\le 3$.\n\n$-\\frac{\\pi}{2} \\le \\sin^{-1}\\frac{x}{3} \\le \\frac{\\pi}{2}$, so the range is $-\\pi \\le y \\le \\pi$."
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.12",
+    "11.1.1.3"
+   ],
+   "question": "Given $f(x) = 2\\sin^{-1}\\left(\\dfrac{x}{3}\\right)$, which has domain $[-3, 3]$ and range $[-\\pi, \\pi]$, sketch the graph of $y = |f(x)|$, clearly indicating the intercept(s) and endpoint(s).",
+   "answer": "Reflect the part of $y = 2\\sin^{-1}\\frac{x}{3}$ below the $x$-axis (for $-3 \\le x < 0$) in the $x$-axis. The graph is symmetric about the $y$-axis, with a sharp point (cusp) at the only intercept, the origin $(0, 0)$, and endpoints $(-3, \\pi)$ and $(3, \\pi)$, where the curve has vertical tangents.",
+   "answer_images": [
+    "assets/img/ext1-2026-hurlstone/q12bii-sol.png"
+   ]
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.3.2.4"
+   ],
+   "question": "Show that $\\dfrac{2\\tan\\theta}{1 + \\tan^2\\theta} = \\sin 2\\theta$.",
+   "answer": "$$\\text{LHS} = \\frac{2\\tan\\theta}{1+\\tan^2\\theta} = \\frac{2\\,\\frac{\\sin\\theta}{\\cos\\theta}}{\\sec^2\\theta} = \\frac{2\\sin\\theta}{\\cos\\theta}\\times\\cos^2\\theta = 2\\sin\\theta\\cos\\theta = \\sin 2\\theta = \\text{RHS}.$$"
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.1",
+    "11.3.2.4"
+   ],
+   "question": "Using the identity $\\dfrac{2\\tan\\theta}{1 + \\tan^2\\theta} = \\sin 2\\theta$, or otherwise, solve\n$$\\frac{2\\tan\\theta}{1 + \\tan^2\\theta} = \\sqrt3\\cos\\theta \\quad\\text{for } 0 \\le \\theta \\le 2\\pi.$$",
+   "answer": "$$\\sin 2\\theta = \\sqrt3\\cos\\theta$$\n$$2\\sin\\theta\\cos\\theta - \\sqrt3\\cos\\theta = 0$$\n$$\\cos\\theta\\left(2\\sin\\theta - \\sqrt3\\right) = 0$$\n$\\cos\\theta = 0$ gives $\\theta = \\frac{\\pi}{2}, \\frac{3\\pi}{2}$, but $\\tan\\theta$ is undefined there, so these are not solutions of the original equation.\n\n$\\sin\\theta = \\frac{\\sqrt3}{2}$ gives $\\theta = \\frac{\\pi}{3}, \\frac{2\\pi}{3}$.\n\n$$\\theta = \\frac{\\pi}{3},\\ \\frac{2\\pi}{3}$$"
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Using mathematical induction, prove that for all positive integers $n$\n$$1 + 6 + 11 + \\dots + (5n - 4) = \\frac12 n(5n - 3).$$",
+   "answer": "**Step 1** ($n = 1$): LHS $= 5(1) - 4 = 1$, RHS $= \\frac12(1)(5 - 3) = 1$. True for $n = 1$.\n\n**Step 2**: Assume true for $n = k$, where $k$ is a positive integer:\n$$1 + 6 + 11 + \\dots + (5k - 4) = \\frac12 k(5k - 3).$$\nProve true for $n = k + 1$, i.e. $1 + 6 + \\dots + (5k - 4) + (5k + 1) = \\frac12(k+1)(5k + 2)$.\n$$\\begin{aligned}\\text{LHS} &= \\frac12 k(5k - 3) + (5k + 1) \\quad\\text{(by the assumption)}\\\\ &= \\frac12\\left(5k^2 - 3k + 10k + 2\\right)\\\\ &= \\frac12\\left(5k^2 + 7k + 2\\right)\\\\ &= \\frac12(k + 1)(5k + 2) = \\text{RHS}.\\end{aligned}$$\nSo if true for $n = k$, it is true for $n = k + 1$.\n\n**Step 3**: By the principle of mathematical induction, the statement is true for all positive integers $n$."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.8",
+    "12.2.3.6"
+   ],
+   "question": "Points $A$, $B$ and $C$ are such that $\\overrightarrow{AB} = \\begin{pmatrix} -2 \\\\ 3 \\end{pmatrix}$ and $\\overrightarrow{AC} = \\begin{pmatrix} 4 \\\\ -1 \\end{pmatrix}$.\n\nFind the unit vector in the direction of $\\overrightarrow{CB}$.",
+   "answer": "$$\\overrightarrow{CB} = \\overrightarrow{CA} + \\overrightarrow{AB} = \\begin{pmatrix} -4 \\\\ 1 \\end{pmatrix} + \\begin{pmatrix} -2 \\\\ 3 \\end{pmatrix} = \\begin{pmatrix} -6 \\\\ 4 \\end{pmatrix}$$\n$$\\left|\\overrightarrow{CB}\\right| = \\sqrt{(-6)^2 + 4^2} = \\sqrt{52} = 2\\sqrt{13}$$\nUnit vector:\n$$\\frac{1}{\\sqrt{52}}\\begin{pmatrix} -6 \\\\ 4 \\end{pmatrix} = \\frac{1}{\\sqrt{13}}\\begin{pmatrix} -3 \\\\ 2 \\end{pmatrix}$$"
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.3"
+   ],
+   "question": "A regular hexagon $OABCDE$ is drawn below. The sides of the hexagon are $5$ cm and $\\angle OAB = 120^\\circ$. Let $\\overrightarrow{OA} = \\mathbf{a}$ and $\\overrightarrow{OB} = \\mathbf{b}$.\n\nShow that $\\mathbf{a}\\cdot\\mathbf{b} = 37.5$ (geometric reasoning is not necessary).",
+   "images": [
+    "assets/img/ext1-2026-hurlstone/q13c.png"
+   ],
+   "answer": "In $\\triangle OAB$, $OA = AB = 5$ and $\\angle OAB = 120^\\circ$, so the triangle is isosceles and $\\angle BOA = 30^\\circ$. By the cosine rule,\n$$|\\mathbf{b}|^2 = 5^2 + 5^2 - 2(5)(5)\\cos 120^\\circ = 25 + 25 + 25 = 75, \\quad |\\mathbf{b}| = 5\\sqrt3.$$\n$$\\mathbf{a}\\cdot\\mathbf{b} = |\\mathbf{a}||\\mathbf{b}|\\cos 30^\\circ = 5 \\times 5\\sqrt3 \\times \\frac{\\sqrt3}{2} = 37.5.$$"
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.6",
+    "12.2.3.4"
+   ],
+   "question": "A regular hexagon $OABCDE$ is drawn below. The sides of the hexagon are $5$ cm and $\\angle OAB = 120^\\circ$. Let $\\overrightarrow{OA} = \\mathbf{a}$ and $\\overrightarrow{OB} = \\mathbf{b}$.\n\nExpress $\\overrightarrow{AD}$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.",
+   "images": [
+    "assets/img/ext1-2026-hurlstone/q13c.png"
+   ],
+   "answer": "$\\overrightarrow{AB} = \\mathbf{b} - \\mathbf{a}$. In a regular hexagon the diagonal $OC$ is parallel to side $AB$ and twice as long, so $\\overrightarrow{OC} = 2(\\mathbf{b} - \\mathbf{a})$. Also $CD$ is parallel to $AO$ with equal length, so $\\overrightarrow{CD} = -\\mathbf{a}$. Hence\n$$\\overrightarrow{AD} = \\overrightarrow{AO} + \\overrightarrow{OC} + \\overrightarrow{CD} = -\\mathbf{a} + 2(\\mathbf{b} - \\mathbf{a}) - \\mathbf{a} = 2\\mathbf{b} - 4\\mathbf{a}.$$\n\nAlternative (paper's method): $AD$ is the perpendicular bisector of $OB$; let it meet $OB$ at $F$. Then $\\overrightarrow{AF} = \\frac12\\mathbf{b} - \\mathbf{a}$ and $|AF| = \\sqrt{5^2 - \\left(\\frac{5\\sqrt3}{2}\\right)^2} = 2.5$. Since $|AD| = 10 = 4|AF|$, $\\overrightarrow{AD} = 4\\left(\\frac12\\mathbf{b} - \\mathbf{a}\\right) = 2\\mathbf{b} - 4\\mathbf{a}$.",
+   "answer_images": [
+    "assets/img/ext1-2026-hurlstone/q13cii-sol.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "Solve the differential equation $\\dfrac{dy}{dx} = xy$, given $y > 0$. Express your answer in the form $y = e^{f(x)}$.",
+   "answer": "Separating the variables:\n$$\\int\\frac{dy}{y} = \\int x\\,dx \\Rightarrow \\ln y = \\frac{x^2}{2} + C \\quad (y > 0)$$\n$$y = e^{\\frac{x^2}{2} + C}$$\nwhere $C$ is a constant (equivalently $y = Ae^{\\frac{x^2}{2}}$ with $A > 0$)."
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.5"
+   ],
+   "question": "Dr Kool wishes to find the temperature of a very hot substance using his thermometer, which only measures up to $100^\\circ$C. He places a sample of the substance in a room with a surrounding air temperature of $20^\\circ$C and allows it to cool.\n\nAfter 6 minutes the temperature of the substance is $80^\\circ$C, and after a further 2 minutes it is $50^\\circ$C. If $T(t)$ is the temperature of the substance after $t$ minutes, then Newton's law of cooling states that $T$ satisfies\n$$\\frac{dT}{dt} = k(T - A)$$\nwhere $k$ is a constant and $A$ is the surrounding air temperature.\n\nVerify that $T = A + Be^{kt}$ satisfies the above equation.",
+   "answer": "If $T = A + Be^{kt}$ then $\\dfrac{dT}{dt} = kBe^{kt}$.\n\nAlso $k(T - A) = k\\left(A + Be^{kt} - A\\right) = kBe^{kt} = \\dfrac{dT}{dt}$.\n\nSo $T = A + Be^{kt}$ satisfies $\\dfrac{dT}{dt} = k(T - A)$."
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.7"
+   ],
+   "question": "Dr Kool wishes to find the temperature of a very hot substance using his thermometer, which only measures up to $100^\\circ$C. He places a sample of the substance in a room with a surrounding air temperature of $20^\\circ$C and allows it to cool.\n\nAfter 6 minutes the temperature of the substance is $80^\\circ$C, and after a further 2 minutes it is $50^\\circ$C. If $T(t)$ is the temperature of the substance after $t$ minutes, then Newton's law of cooling states that $T$ satisfies\n$$\\frac{dT}{dt} = k(T - A)$$\nwhere $k$ is a constant and $A$ is the surrounding air temperature.\n\nThe solution is $T = A + Be^{kt}$, where $B$ is a constant. Show that $k = -\\dfrac{\\ln 2}{2}$, and find the value of $B$.",
+   "answer": "$A = 20$. When $t = 6$, $T = 80$: $80 = 20 + Be^{6k}$, so $Be^{6k} = 60$ ... (1)\n\nWhen $t = 8$, $T = 50$: $Be^{8k} = 30$ ... (2)\n\n(2) ÷ (1): $e^{2k} = \\frac{30}{60} = \\frac12$, so $2k = \\ln\\frac12$ and\n$$k = \\frac12\\ln\\frac12 = -\\frac{\\ln 2}{2}.$$\nSubstituting into (1): $Be^{-3\\ln 2} = 60$, so\n$$B = 60e^{3\\ln 2} = 60 \\times 8 = 480.$$"
+  },
+  {
+   "ref": "Q14(b)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.7"
+   ],
+   "question": "Dr Kool wishes to find the temperature of a very hot substance using his thermometer, which only measures up to $100^\\circ$C. He places a sample of the substance in a room with a surrounding air temperature of $20^\\circ$C and allows it to cool.\n\nAfter 6 minutes the temperature of the substance is $80^\\circ$C, and after a further 2 minutes it is $50^\\circ$C. If $T(t)$ is the temperature of the substance after $t$ minutes, then Newton's law of cooling states that $T$ satisfies\n$$\\frac{dT}{dt} = k(T - A)$$\nwhere $k$ is a constant and $A$ is the surrounding air temperature.\n\nThe temperature is given by $T = 20 + 480e^{kt}$ where $k = -\\dfrac{\\ln 2}{2}$. Find the initial temperature of the substance.",
+   "answer": "At $t = 0$: $T = 20 + 480e^{0} = 500$.\n\nThe initial temperature was $500^\\circ$C."
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "The radius, $r$ cm, and angle, $\\theta$ radians, of a sector vary in such a way that its area remains a constant $10\\ \\text{cm}^2$.\n\nThe angle $\\theta$ is increasing at a constant rate of $2$ radians per second. Find the rate at which the radius is changing when the radius is $4$ cm.",
+   "images": [
+    "assets/img/ext1-2026-hurlstone/q14c.png"
+   ],
+   "answer": "$$\\text{Area} = \\frac12 r^2\\theta = 10 \\Rightarrow \\theta = \\frac{20}{r^2}, \\qquad \\frac{d\\theta}{dr} = -\\frac{40}{r^3}.$$\n$$\\frac{dr}{dt} = \\frac{dr}{d\\theta}\\times\\frac{d\\theta}{dt} = -\\frac{r^3}{40}\\times 2 = -\\frac{r^3}{20}.$$\nWhen $r = 4$: $\\dfrac{dr}{dt} = -\\dfrac{64}{20} = -3.2$ cm/s.\n\nThe radius is decreasing at $3.2$ cm per second."
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.2.8"
+   ],
+   "question": "A biased coin is flipped 100 times with the probability of landing a head $0.3$. Determine the expected number of heads and the standard deviation.",
+   "answer": "The number of heads $X \\sim \\text{Bin}(100, 0.3)$.\n$$E(X) = np = 100(0.3) = 30$$\n$$\\sigma = \\sqrt{np(1-p)} = \\sqrt{100(0.3)(0.7)} = \\sqrt{21} \\approx 4.58$$"
+  },
+  {
+   "ref": "Q15(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.1.9"
+   ],
+   "question": "Show that\n$$(1+x)^{2n} + (1-x)^{2n} = 2\\left[\\binom{2n}{0} + \\binom{2n}{2}x^2 + \\binom{2n}{4}x^4 + \\dots + \\binom{2n}{2n}x^{2n}\\right]$$\nwhere $n$ is a positive integer.",
+   "answer": "By the binomial theorem,\n$$(1+x)^{2n} = \\binom{2n}{0} + \\binom{2n}{1}x + \\binom{2n}{2}x^2 + \\dots + \\binom{2n}{2n-1}x^{2n-1} + \\binom{2n}{2n}x^{2n}$$\n$$(1-x)^{2n} = \\binom{2n}{0} - \\binom{2n}{1}x + \\binom{2n}{2}x^2 - \\dots - \\binom{2n}{2n-1}x^{2n-1} + \\binom{2n}{2n}x^{2n}$$\n(the term in $x^r$ has sign $(-1)^r$). Adding, the odd-powered terms cancel and the even-powered terms double:\n$$(1+x)^{2n} + (1-x)^{2n} = 2\\left[\\binom{2n}{0} + \\binom{2n}{2}x^2 + \\dots + \\binom{2n}{2n}x^{2n}\\right].$$"
+  },
+  {
+   "ref": "Q15(d)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.1.9"
+   ],
+   "question": "Given that, for positive integers $n$,\n$$(1+x)^{2n} + (1-x)^{2n} = 2\\left[\\binom{2n}{0} + \\binom{2n}{2}x^2 + \\binom{2n}{4}x^4 + \\dots + \\binom{2n}{2n}x^{2n}\\right],$$\nevaluate $1 + {}^{20}C_2 + {}^{20}C_4 + \\dots + {}^{20}C_{20}$.",
+   "answer": "Let $n = 10$ and $x = 1$:\n$$2^{20} + 0^{20} = 2\\left[{}^{20}C_0 + {}^{20}C_2 + \\dots + {}^{20}C_{20}\\right]$$\n$$1 + {}^{20}C_2 + {}^{20}C_4 + \\dots + {}^{20}C_{20} = \\frac{2^{20}}{2} = 2^{19} = 524\\,288.$$"
+  },
+  {
+   "ref": "Q16(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.3"
+   ],
+   "question": "For the curve $y = f(x)$, it is given that $f'(x) = \\sin^2 x$ and the curve passes through the point $\\left(\\dfrac{\\pi}{4}, \\dfrac{\\pi}{8}\\right)$. Find the equation of the curve.",
+   "answer": "$\\sin^2 x = \\frac12(1 - \\cos 2x)$, so\n$$f(x) = \\int\\frac{1 - \\cos 2x}{2}\\,dx = \\frac{x}{2} - \\frac{\\sin 2x}{4} + C.$$\nAt $\\left(\\frac{\\pi}{4}, \\frac{\\pi}{8}\\right)$: $\\frac{\\pi}{8} = \\frac{\\pi}{8} - \\frac{\\sin\\frac{\\pi}{2}}{4} + C$, so $C = \\frac14$.\n$$f(x) = \\frac{x}{2} - \\frac14\\sin 2x + \\frac14$$"
+  },
+  {
+   "ref": "Q16(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "The region bounded by the curve $y = \\ln(x+1)$ and the $y$-axis for $0 \\le x \\le 3$, as shown below, is rotated about the $y$-axis. Find the exact volume of the solid formed.",
+   "images": [
+    "assets/img/ext1-2026-hurlstone/q16b.png"
+   ],
+   "answer": "$y = \\ln(x+1) \\Rightarrow x = e^y - 1$. When $x = 0$, $y = 0$; when $x = 3$, $y = \\ln 4$.\n$$V = \\pi\\int_0^{\\ln 4}(e^y - 1)^2\\,dy = \\pi\\int_0^{\\ln 4}\\left(e^{2y} - 2e^y + 1\\right)dy = \\pi\\left[\\frac12 e^{2y} - 2e^y + y\\right]_0^{\\ln 4}$$\n$$= \\pi\\left[\\left(\\frac12(16) - 2(4) + \\ln 4\\right) - \\left(\\frac12 - 2\\right)\\right] = \\pi\\left(\\ln 4 + \\frac32\\right) \\text{ units}^3.$$"
+  },
+  {
+   "ref": "Q16(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Differentiate $\\left(\\tan^{-1}\\left(\\dfrac{x}{3}\\right)\\right)^2$ with respect to $x$.",
+   "answer": "By the chain rule,\n$$\\frac{d}{dx}\\left(\\tan^{-1}\\frac{x}{3}\\right)^2 = 2\\tan^{-1}\\left(\\frac{x}{3}\\right)\\times\\frac{\\frac13}{1 + \\left(\\frac{x}{3}\\right)^2} = 2\\tan^{-1}\\left(\\frac{x}{3}\\right)\\times\\frac{3}{x^2 + 9} = \\frac{6\\tan^{-1}\\left(\\frac{x}{3}\\right)}{x^2 + 9}.$$"
+  },
+  {
+   "ref": "Q16(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2",
+    "12.4.1.6"
+   ],
+   "question": "Given that $\\dfrac{d}{dx}\\left(\\tan^{-1}\\dfrac{x}{3}\\right)^2 = \\dfrac{6\\tan^{-1}\\left(\\frac{x}{3}\\right)}{x^2 + 9}$, or otherwise, find the exact value of\n$$\\frac{1}{\\pi}\\int_0^{\\sqrt3}\\frac{\\tan^{-1}\\left(\\frac{x}{3}\\right)}{x^2 + 9}\\,dx.$$",
+   "answer": "$$\\frac1\\pi\\int_0^{\\sqrt3}\\frac{\\tan^{-1}\\left(\\frac{x}{3}\\right)}{x^2+9}\\,dx = \\frac{1}{6\\pi}\\left[\\left(\\tan^{-1}\\frac{x}{3}\\right)^2\\right]_0^{\\sqrt3} = \\frac{1}{6\\pi}\\left[\\left(\\tan^{-1}\\frac{\\sqrt3}{3}\\right)^2 - 0\\right] = \\frac{1}{6\\pi}\\left(\\frac{\\pi}{6}\\right)^2 = \\frac{\\pi}{216}.$$"
+  }
+ ]
+}

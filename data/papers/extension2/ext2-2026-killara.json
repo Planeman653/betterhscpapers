@@ -1,0 +1,691 @@
+{
+ "id": "ext2-2026-killara",
+ "course": "extension2",
+ "school": "Killara",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "Killara 2026 w. sol"
+ },
+ "indexed": "2026-11-12",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q13(c)(i)",
+   "reason": "Not in 2024 syllabus: asks for the answer in exponential (Euler) form"
+  },
+  {
+   "ref": "Q15(a)",
+   "reason": "Question as printed is flawed: the two spheres do not intersect (distance between centres 34 > 13 + 15); the paper's own solution acknowledges the typo"
+  },
+  {
+   "ref": "Q16(d)",
+   "reason": "Ill-posed question: 'hits the wall with 10 N force' is undefined and the launch direction is ambiguous; the paper's solution has sign and integration-constant errors"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.5",
+    "12.3.3.4"
+   ],
+   "question": "How many distinct roots does the polynomial $\\left(z^4-1\\right)\\left(7-6z-z^2\\right)$ have, where $z \\in \\mathbb{C}$?",
+   "options": [
+    "$3$",
+    "$4$",
+    "$5$",
+    "$6$"
+   ],
+   "correct": "C",
+   "answer": "$z^4 - 1 = 0$ gives $z = \\pm 1, \\pm i$, and $7 - 6z - z^2 = -(z+7)(z-1) = 0$ gives $z = 1, -7$.\n\nThe root $z=1$ is repeated, so the distinct roots are $1, -1, i, -i, -7$: **5** distinct roots."
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.5.3",
+    "12.3.5.2",
+    "12.3.5.1"
+   ],
+   "question": "A graph in the complex plane is defined by $|z-(4-3i)| = 2$. Which of the following intersects the graph twice?",
+   "options": [
+    "$|z-4| = 1$",
+    "$|z+9| = |z-9i|$",
+    "$|z+3| = |z+4i|$",
+    "$\\text{Im}(z) = -5$"
+   ],
+   "correct": "B",
+   "answer": "The graph is the circle with centre $(4,-3)$ and radius $2$.\n\n- A: circle centre $(4,0)$, radius $1$. Distance between centres $= 3 = 2+1$, so the circles touch at one point only.\n- B: the perpendicular bisector of $-9$ and $9i$, i.e. the line $y=-x$. Distance from $(4,-3)$ is $\\dfrac{|4-3|}{\\sqrt2} = \\dfrac{1}{\\sqrt2} < 2$, so it cuts the circle **twice**.\n- C: $(x+3)^2+y^2 = x^2+(y+4)^2 \\Rightarrow 6x-8y-7=0$; distance from $(4,-3)$ is $\\dfrac{|24+24-7|}{10} = 4.1 > 2$: no intersection.\n- D: $\\text{Im}(z)=-5$ is at distance $2$ from the centre: tangent, one point.\n\nAnswer **B**. (The paper's answer key gives A, but $|z-4|=1$ is tangent to the circle.)"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.8"
+   ],
+   "question": "Those who know, know that if a Saiyan survives a near fatal battle, then they become stronger.\n\nThe converse of this statement is given by:",
+   "options": [
+    "If a Saiyan becomes stronger, then they survived a near fatal battle.",
+    "If a Saiyan does not survive a near fatal battle, then they do not become stronger.",
+    "If a Saiyan does not become stronger, then they did not survive a near fatal battle.",
+    "When a Saiyan becomes stronger it is because they survived a near fatal battle."
+   ],
+   "correct": "A",
+   "answer": "The statement is $P \\Rightarrow Q$ with $P$: 'a Saiyan survives a near fatal battle', $Q$: 'they become stronger'. The converse is $Q \\Rightarrow P$: 'If a Saiyan becomes stronger, then they survived a near fatal battle.' (B is the inverse and C is the contrapositive.)\n\nAnswer **A**. (The paper's answer key gives B, which is the inverse, not the converse.)"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.1.5"
+   ],
+   "question": "Two forces $\\mathbf{P}$ and $\\mathbf{Q}$ act on a body. $\\mathbf{P}$ acts in the direction of $\\mathbf{i}$ with magnitude one newton and $\\mathbf{Q}$ acts in the direction of $\\mathbf{i}+\\sqrt3\\,\\mathbf{j}$ with magnitude four newtons.\n\nThe magnitude of the total force acting on the body, in newtons, is:",
+   "options": [
+    "$3$",
+    "$\\sqrt{15}$",
+    "$\\sqrt{17}$",
+    "$\\sqrt{21}$"
+   ],
+   "correct": "D",
+   "answer": "$\\mathbf{P} = \\mathbf{i}$. Since $|\\mathbf{i}+\\sqrt3\\mathbf{j}| = 2$, $\\mathbf{Q} = \\dfrac{4}{2}(\\mathbf{i}+\\sqrt3\\mathbf{j}) = 2\\mathbf{i}+2\\sqrt3\\,\\mathbf{j}$.\n\n$$\\mathbf{P}+\\mathbf{Q} = 3\\mathbf{i} + 2\\sqrt3\\,\\mathbf{j}, \\qquad |\\mathbf{P}+\\mathbf{Q}| = \\sqrt{9+12} = \\sqrt{21}$$"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Let $f$ be a function with domain $[-\\pi, 2\\pi]$ where $f(x) = \\sin^3 x$.\n\nUsing the substitution $u = \\cos x$, the area bounded by the graph of $f$ and the $x$-axis could be found by evaluating",
+   "options": [
+    "$-\\displaystyle\\int_{\\pi}^{2\\pi}\\left(1-u^2\\right)du$",
+    "$3\\displaystyle\\int_{-1}^{1}\\left(1-u^2\\right)du$",
+    "$-3\\displaystyle\\int_{0}^{\\pi}\\left(1-u^2\\right)du$",
+    "$3\\displaystyle\\int_{1}^{-1}\\left(1-u^2\\right)du$"
+   ],
+   "correct": "B",
+   "answer": "$|\\sin^3 x|$ has period $\\pi$, so the area is $3\\displaystyle\\int_0^{\\pi} \\sin^3 x\\,dx$ (three equal humps on $[-\\pi,0]$, $[0,\\pi]$, $[\\pi,2\\pi]$).\n\nWith $u=\\cos x$, $du = -\\sin x\\,dx$, $\\sin^2 x = 1-u^2$; $x=0 \\Rightarrow u=1$, $x=\\pi \\Rightarrow u=-1$:\n$$3\\int_0^{\\pi}(1-\\cos^2 x)\\sin x\\,dx = -3\\int_1^{-1}(1-u^2)\\,du = 3\\int_{-1}^{1}(1-u^2)\\,du \\;(=4)$$\n\nAnswer **B**. (The paper's answer key gives D, but $3\\int_1^{-1}(1-u^2)\\,du = -4$ is negative, so it cannot be the area.)"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.5",
+    "12.5.3.2"
+   ],
+   "question": "Three stationary masses are not connected but are making contact on an inclined plane, as shown.\n\nThe surface on which mass $m_1$ is resting is rough, with coefficient of friction $\\mu$, and the section of the surface under objects $m_2$ and $m_3$ is smooth. The coefficient of friction, $\\mu$, is given by",
+   "options": [
+    "$\\dfrac{m_2+m_3}{m_1}\\tan\\theta$",
+    "$\\dfrac{m_1}{m_1+m_2+m_3}\\tan\\theta$",
+    "$\\dfrac{m_2+m_3}{m_1+m_2+m_3}\\tan\\theta$",
+    "$\\dfrac{m_1+m_2+m_3}{m_1}\\tan\\theta$"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/ext2-2026-killara/q6.png"
+   ],
+   "answer": "Treat the three masses as one system on the point of slipping. The only force up the slope is friction on $m_1$, $\\mu N_1 = \\mu m_1 g\\cos\\theta$, and it must balance the component of the total weight down the slope:\n$$\\mu m_1 g\\cos\\theta = (m_1+m_2+m_3)g\\sin\\theta \\;\\Rightarrow\\; \\mu = \\frac{m_1+m_2+m_3}{m_1}\\tan\\theta$$"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.11",
+    "12.1.1.9",
+    "12.1.2.3"
+   ],
+   "question": "Consider the statement:\n$$\\forall \\text{ primes } p:\\ px = ab \\text{ where } a, b, x \\in \\mathbb{Z} \\implies py = a \\,\\lor\\, pz = b \\text{ where } y, z \\in \\mathbb{Z}$$\n\n(that is, if a prime divides $ab$ then it divides $a$ or it divides $b$).\n\nWhich of the following is correct?",
+   "options": [
+    "The contrapositive is true and the converse is true.",
+    "The contrapositive is true and the converse is false.",
+    "The contrapositive is false and the converse is true.",
+    "The contrapositive is false and the converse is false."
+   ],
+   "correct": "A",
+   "answer": "The statement is true (if a prime divides a product it divides one of the factors), so its contrapositive is also true.\n\nConverse: if $p \\mid a$ or $p \\mid b$, then $p \\mid ab$. This is also true: if $a = py$ then $ab = p(yb)$, and similarly if $b = pz$.\n\nBoth are true: **A**."
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.3",
+    "12.3.3.4"
+   ],
+   "question": "Which of the following could be the roots of $P(z) = z^5 - z^2 + z + c$, where $c$ is real?",
+   "options": [
+    "![Graph A](assets/img/ext2-2026-killara/q8a.png)",
+    "![Graph B](assets/img/ext2-2026-killara/q8b.png)",
+    "![Graph C](assets/img/ext2-2026-killara/q8c.png)",
+    "![Graph D](assets/img/ext2-2026-killara/q8d.png)"
+   ],
+   "correct": "A",
+   "answer": "$P$ has real coefficients, so non-real roots occur in conjugate pairs: the diagram must be symmetric about the real axis. B (no real root, not symmetric), C (a single root on the positive imaginary axis) and D (a single root on the negative imaginary axis) are not symmetric.\n\nIn A the roots are one positive real root and two conjugate pairs, one with negative and one with positive real part, which is consistent with the sum of the roots being $0$ (no $z^4$ term). Answer **A**."
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.1",
+    "12.5.1.2"
+   ],
+   "question": "A particle is moving along a straight line. At time $t$, its velocity is $v$ and its displacement from a fixed origin is $x$.\n\nIf $\\dfrac{dv}{dx} = \\dfrac{1}{2v}$, which of the following best describes the particle's acceleration and velocity?",
+   "options": [
+    "constant acceleration and constant velocity.",
+    "constant acceleration and decreasing velocity.",
+    "constant acceleration and increasing velocity.",
+    "increasing acceleration and increasing velocity."
+   ],
+   "correct": "C",
+   "answer": "$$\\ddot{x} = v\\frac{dv}{dx} = v\\cdot\\frac{1}{2v} = \\frac12$$\nThe acceleration is constant and positive, so the velocity is increasing. Answer **C**."
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.13",
+    "12.2.1.12"
+   ],
+   "question": "The vector $\\big(\\cos t,\\ \\ln(\\sin t),\\ \\sin t\\big)$ makes a continuous curve. Which of the following is the projection onto the $x$-$z$ plane?",
+   "options": [
+    "![Graph A](assets/img/ext2-2026-killara/q10a.png)",
+    "![Graph B](assets/img/ext2-2026-killara/q10b.png)",
+    "![Graph C](assets/img/ext2-2026-killara/q10c.png)",
+    "![Graph D](assets/img/ext2-2026-killara/q10d.png)"
+   ],
+   "correct": "D",
+   "answer": "The projection onto the $x$-$z$ plane is $x = \\cos t$, $z = \\sin t$, part of the unit circle $x^2+z^2=1$.\n\nBut $\\ln(\\sin t)$ is only defined when $\\sin t > 0$, so $z = \\sin t > 0$: the projection is the upper semicircle (endpoints excluded). Answer **D**."
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.11"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^1 \\frac{x}{\\sqrt{2-x}}\\,dx$.",
+   "answer": "Write $x = -(2-x) + 2$:\n$$\\int_0^1 \\frac{x}{\\sqrt{2-x}}\\,dx = \\int_0^1 \\left(-\\sqrt{2-x} + 2(2-x)^{-\\frac12}\\right)dx = \\left[\\frac23(2-x)^{\\frac32} - 4\\sqrt{2-x}\\right]_0^1$$\n$$= \\left(\\frac23 - 4\\right) - \\left(\\frac{4\\sqrt2}{3} - 4\\sqrt2\\right) = -\\frac{10}{3} + \\frac{8\\sqrt2}{3} = \\frac{8\\sqrt2-10}{3}$$"
+  },
+  {
+   "ref": "Q11(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.11",
+    "12.3.2.2"
+   ],
+   "question": "Let $z = a + ib$, where $a$ and $b$ are real numbers and $a \\neq 0$.\n\nExpress $|z|$ and $\\tan(\\arg z)$ in terms of $a$ and $b$.",
+   "answer": "$$|z| = \\sqrt{a^2+b^2}, \\qquad \\tan(\\arg z) = \\frac{b}{a}$$"
+  },
+  {
+   "ref": "Q11(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.13",
+    "12.3.1.10"
+   ],
+   "question": "Let $z = a + ib$, where $a$ and $b$ are real numbers and $a \\neq 0$.\n\nExpress $\\dfrac{z}{3+5i}$ in the form $x+iy$, where $x$ and $y$ are real.",
+   "answer": "Multiply by the conjugate of the denominator:\n$$\\frac{a+ib}{3+5i}\\cdot\\frac{3-5i}{3-5i} = \\frac{3a - 5ai + 3bi + 5b}{9+25} = \\frac{3a+5b}{34} + \\frac{3b-5a}{34}\\,i$$"
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "course": "extension1",
+   "dotpoints": [
+    "12.2.4.6",
+    "12.2.4.2"
+   ],
+   "question": "Find the angle between the two vectors $\\mathbf{u} = \\begin{pmatrix} 2 \\\\ 2 \\\\ -2 \\end{pmatrix}$ and $\\mathbf{v} = \\begin{pmatrix} 3 \\\\ -3 \\\\ 1 \\end{pmatrix}$, giving your answer in radians to 1 decimal place.",
+   "answer": "$$\\mathbf{u}\\cdot\\mathbf{v} = 6 - 6 - 2 = -2, \\qquad |\\mathbf{u}| = \\sqrt{12} = 2\\sqrt3, \\qquad |\\mathbf{v}| = \\sqrt{19}$$\n$$\\cos\\theta = \\frac{-2}{2\\sqrt3\\sqrt{19}} = -\\frac{1}{\\sqrt{57}} \\;\\Rightarrow\\; \\theta = \\cos^{-1}\\left(-\\frac{1}{\\sqrt{57}}\\right) \\approx 1.7 \\text{ radians}$$"
+  },
+  {
+   "ref": "Q11(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.6",
+    "12.3.2.4"
+   ],
+   "question": "Express $z = \\sqrt2 - i\\sqrt2$ in modulus-argument form.",
+   "answer": "$$|z| = \\sqrt{2+2} = 2, \\qquad \\tan\\theta = \\frac{-\\sqrt2}{\\sqrt2} = -1$$\nwith $z$ in the fourth quadrant, so $\\arg z = -\\dfrac{\\pi}{4}$:\n$$z = 2\\,\\text{cis}\\left(-\\frac{\\pi}{4}\\right) = 2\\left(\\cos\\left(-\\frac{\\pi}{4}\\right) + i\\sin\\left(-\\frac{\\pi}{4}\\right)\\right)$$"
+  },
+  {
+   "ref": "Q11(d)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.3",
+    "12.3.2.5"
+   ],
+   "question": "Given $z = \\sqrt2 - i\\sqrt2 = 2\\,\\text{cis}\\left(-\\dfrac{\\pi}{4}\\right)$, write $z^{22}$ in the form $a+ib$, where $a$ and $b$ are real.",
+   "answer": "By de Moivre's theorem,\n$$z^{22} = 2^{22}\\,\\text{cis}\\left(-\\frac{22\\pi}{4}\\right) = 2^{22}\\,\\text{cis}\\left(-\\frac{11\\pi}{2}\\right) = 2^{22}\\,\\text{cis}\\left(\\frac{\\pi}{2}\\right) = 2^{22}i$$\nSo $z^{22} = 0 + 4\\,194\\,304\\,i$."
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.5",
+    "12.3.1.12"
+   ],
+   "question": "Sketch the region of the Argand plane defined by $\\text{Re}\\left(\\dfrac{1}{z}\\right) \\leqslant \\dfrac12$.",
+   "answer": "Let $z = x+iy \\neq 0$. Then $\\dfrac1z = \\dfrac{x-iy}{x^2+y^2}$, so\n$$\\frac{x}{x^2+y^2} \\le \\frac12 \\iff 2x \\le x^2+y^2 \\iff (x-1)^2 + y^2 \\ge 1$$\n(multiplying by $x^2+y^2>0$).\n\nThe region is the circle with centre $1$ (i.e. $(1,0)$) and radius $1$ together with everything **outside** it, with the origin excluded (open circle at $z=0$, where $1/z$ is undefined). The circle passes through $0$ and $2$ on the real axis and through $1 \\pm i$."
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.9"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^{\\frac{\\pi}{4}} \\frac{dx}{4+2\\sin 2x}$ using the substitution $t = \\tan x$.",
+   "answer": "$t = \\tan x \\Rightarrow dt = \\sec^2 x\\,dx = (1+t^2)\\,dx$, and $\\sin 2x = \\dfrac{2\\tan x}{1+\\tan^2 x} = \\dfrac{2t}{1+t^2}$. When $x=0$, $t=0$; when $x=\\frac{\\pi}{4}$, $t=1$.\n$$\\int_0^{\\frac{\\pi}{4}} \\frac{dx}{4+2\\sin 2x} = \\int_0^1 \\frac{1}{4+\\frac{4t}{1+t^2}}\\cdot\\frac{dt}{1+t^2} = \\int_0^1 \\frac{dt}{4+4t^2+4t} = \\frac14\\int_0^1 \\frac{dt}{\\left(t+\\frac12\\right)^2+\\frac34}$$\n$$= \\frac14\\cdot\\frac{2}{\\sqrt3}\\left[\\tan^{-1}\\frac{2t+1}{\\sqrt3}\\right]_0^1 = \\frac{1}{2\\sqrt3}\\left(\\tan^{-1}\\sqrt3 - \\tan^{-1}\\frac{1}{\\sqrt3}\\right) = \\frac{1}{2\\sqrt3}\\left(\\frac{\\pi}{3}-\\frac{\\pi}{6}\\right) = \\frac{\\pi}{12\\sqrt3} = \\frac{\\sqrt3\\,\\pi}{36}$$"
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "course": "extension1",
+   "dotpoints": [
+    "12.2.4.7",
+    "12.2.4.2"
+   ],
+   "question": "Given the free vectors $\\mathbf{u} = \\begin{pmatrix} 8 \\\\ 7 \\\\ p \\end{pmatrix}$ and $\\mathbf{v} = \\begin{pmatrix} 2 \\\\ -3 \\\\ 5 \\end{pmatrix}$ are perpendicular to each other, find the value of $p$.",
+   "answer": "Perpendicular vectors have zero dot product:\n$$\\mathbf{u}\\cdot\\mathbf{v} = 16 - 21 + 5p = 0 \\;\\Rightarrow\\; 5p = 5 \\;\\Rightarrow\\; p = 1$$\n\n(No solution is given in the paper for this part.)"
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.2.3"
+   ],
+   "question": "Prove $\\sqrt{30}$ is irrational.",
+   "answer": "Suppose $\\sqrt{30} = \\dfrac{a}{b}$ where $a, b$ are positive integers with no common factor. Then $a^2 = 30b^2$, so $a^2$ is even and hence $a$ is even (the square of an odd number is odd).\n\nLet $a = 2k$. Then $4k^2 = 30b^2$, i.e. $2k^2 = 15b^2$, so $15b^2$ is even, hence $b^2$ is even and $b$ is even.\n\nThen $a$ and $b$ have common factor $2$, a contradiction. Hence $\\sqrt{30}$ is irrational."
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "Given that $\\sqrt{30}$ is irrational, prove that $\\sqrt2 + \\sqrt3 + \\sqrt5$ is irrational.",
+   "answer": "Suppose $\\sqrt2+\\sqrt3+\\sqrt5 = r$ is rational (note $r > 0$). Then $\\sqrt2+\\sqrt3 = r - \\sqrt5$. Squaring:\n$$5 + 2\\sqrt6 = r^2 - 2r\\sqrt5 + 5 \\;\\Rightarrow\\; 2\\sqrt6 + 2r\\sqrt5 = r^2$$\nSquaring again:\n$$24 + 8r\\sqrt{30} + 20r^2 = r^4 \\;\\Rightarrow\\; \\sqrt{30} = \\frac{r^4 - 20r^2 - 24}{8r}$$\nThe right-hand side is rational (as $r$ is rational and non-zero), contradicting the irrationality of $\\sqrt{30}$. Hence $\\sqrt2+\\sqrt3+\\sqrt5$ is irrational.\n\n(The paper argues that one of $\\sqrt2,\\sqrt3,\\sqrt5$ must be irrational because their product $\\sqrt{30}$ is irrational; this does not prove that their *sum* is irrational, so it is not a valid proof.)"
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.5",
+    "12.3.5.4",
+    "12.3.2.8"
+   ],
+   "question": "On an Argand diagram, sketch the set of points $z$ such that $\\arg\\left(\\dfrac{z-3}{z+1}\\right) = \\dfrac{\\pi}{2}$.",
+   "answer": "$\\arg(z-3) - \\arg(z+1) = \\dfrac{\\pi}{2}$, so the segment from $-1$ to $3$ subtends a right angle at $z$: $z$ lies on the circle with diameter joining $-1$ and $3$ (centre $1$, radius $2$), by the angle in a semicircle.\n\nSince the angle is $+\\dfrac{\\pi}{2}$ (anticlockwise from the direction of $z+1$ to that of $z-3$), $z$ lies **above** the real axis. Check: $z = 1+2i$ gives $\\dfrac{-2+2i}{2+2i} = i$, with argument $\\dfrac{\\pi}{2}$.\n\nThe locus is the upper semicircle $|z-1| = 2$, $\\text{Im}(z) > 0$, with open circles at the endpoints $-1$ and $3$ (excluded). It passes through $1+2i$."
+  },
+  {
+   "ref": "Q12(e)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.3",
+    "12.2.1.7"
+   ],
+   "question": "A cable car leaves from point $C$ with position vector $\\mathbf{c} = \\begin{pmatrix} 10 \\\\ 3 \\\\ 0 \\end{pmatrix}$. It moves in the direction $\\begin{pmatrix} 2 \\\\ -2 \\\\ 1 \\end{pmatrix}$ with a speed of $4.5\\ \\text{m s}^{-1}$ and arrives at its final destination $\\begin{pmatrix} 450 \\\\ a \\\\ b \\end{pmatrix}$.\n\nFind an equation for the line formed by the cable car's journey, in the form $\\mathbf{r} = \\mathbf{A} + t\\mathbf{B}$, including appropriate restrictions for $t$ (time in seconds).",
+   "answer": "$\\left|\\begin{pmatrix} 2 \\\\ -2 \\\\ 1 \\end{pmatrix}\\right| = 3$, so the velocity vector is $\\dfrac{4.5}{3}\\begin{pmatrix} 2 \\\\ -2 \\\\ 1 \\end{pmatrix} = \\begin{pmatrix} 3 \\\\ -3 \\\\ 1.5 \\end{pmatrix}$.\n$$\\mathbf{r} = \\begin{pmatrix} 10 \\\\ 3 \\\\ 0 \\end{pmatrix} + t\\begin{pmatrix} 3 \\\\ -3 \\\\ 1.5 \\end{pmatrix}$$\nAt the destination $10 + 3t = 450$, so $t = \\dfrac{440}{3}$. Hence $0 \\le t \\le \\dfrac{440}{3}$.\n\n(Then $a = 3 - 440 = -437$ and $b = 1.5\\times\\frac{440}{3} = 220$.)"
+  },
+  {
+   "ref": "Q12(e)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.3"
+   ],
+   "question": "A cable car leaves from point $C$ with position vector $\\mathbf{c} = \\begin{pmatrix} 10 \\\\ 3 \\\\ 0 \\end{pmatrix}$. It moves in the direction $\\begin{pmatrix} 2 \\\\ -2 \\\\ 1 \\end{pmatrix}$ with a speed of $4.5\\ \\text{m s}^{-1}$ and arrives at its final destination $\\begin{pmatrix} 450 \\\\ a \\\\ b \\end{pmatrix}$. Its path is $\\mathbf{r} = \\begin{pmatrix} 10 \\\\ 3 \\\\ 0 \\end{pmatrix} + t\\begin{pmatrix} 3 \\\\ -3 \\\\ 1.5 \\end{pmatrix}$, $0 \\le t \\le \\dfrac{440}{3}$ ($t$ in seconds).\n\nFind the length of the cable car journey in metres.",
+   "answer": "Displacement $= \\dfrac{440}{3}\\begin{pmatrix} 3 \\\\ -3 \\\\ 1.5 \\end{pmatrix} = \\begin{pmatrix} 440 \\\\ -440 \\\\ 220 \\end{pmatrix}$, so\n$$\\text{length} = \\sqrt{440^2 + 440^2 + 220^2} = 220\\sqrt{4+4+1} = 660\\ \\text{m}$$\n(Equivalently, $4.5 \\times \\frac{440}{3} = 660$ m.)"
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.11",
+    "12.2.2.5"
+   ],
+   "question": "Given the free vector $\\mathbf{p} = \\begin{pmatrix} -10 \\\\ 8 \\\\ 7 \\end{pmatrix}$ is orthogonal to both lines $\\mathbf{r} = \\begin{pmatrix} 1 \\\\ 2 \\\\ 3 \\end{pmatrix} + \\lambda\\begin{pmatrix} 2 \\\\ -1 \\\\ 4 \\end{pmatrix}$ and $\\mathbf{n} = \\begin{pmatrix} 5 \\\\ 0 \\\\ 1 \\end{pmatrix} + \\mu\\begin{pmatrix} 1 \\\\ 3 \\\\ -2 \\end{pmatrix}$, find the shortest distance between $\\mathbf{r}$ and $\\mathbf{n}$.",
+   "answer": "A vector joining a point on $\\mathbf{r}$ to a point on $\\mathbf{n}$ is $\\mathbf{q} = \\begin{pmatrix} 5-1 \\\\ 0-2 \\\\ 1-3 \\end{pmatrix} = \\begin{pmatrix} 4 \\\\ -2 \\\\ -2 \\end{pmatrix}$.\n\nThe shortest distance is the length of the projection of $\\mathbf{q}$ onto the common perpendicular $\\mathbf{p}$:\n$$d = \\frac{|\\mathbf{q}\\cdot\\mathbf{p}|}{|\\mathbf{p}|} = \\frac{|-40-16-14|}{\\sqrt{100+64+49}} = \\frac{70}{\\sqrt{213}} \\approx 4.80 \\text{ units}$$"
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.5",
+    "12.5.2.8",
+    "12.5.2.4"
+   ],
+   "question": "The velocity (in $\\text{m s}^{-1}$) of a particle moving along the $x$-axis is given by the equation $v^2 = 14 + 12x - 2x^2$, where $x$ is the displacement in metres from the origin.\n\nShow that this is simple harmonic motion and find the centre of motion, amplitude, period, and greatest velocity.",
+   "answer": "$$\\ddot{x} = \\frac{d}{dx}\\left(\\frac12 v^2\\right) = \\frac{d}{dx}\\left(7 + 6x - x^2\\right) = 6 - 2x = -2(x-3)$$\nThis is of the form $\\ddot{x} = -n^2(x-c)$ with $n = \\sqrt2$, $c = 3$, so the motion is simple harmonic.\n\nCompleting the square: $v^2 = -2(x^2 - 6x - 7) = -2\\left((x-3)^2 - 16\\right) = 2\\left(4^2 - (x-3)^2\\right)$.\n\n- Centre of motion: $x = 3$\n- Amplitude: $4$ m\n- Period: $\\dfrac{2\\pi}{n} = \\dfrac{2\\pi}{\\sqrt2} = \\sqrt2\\,\\pi$ s\n- Greatest speed at the centre $x=3$: $v^2 = 2 \\times 16 = 32$, so $|v|_{\\max} = 4\\sqrt2\\ \\text{m s}^{-1}$."
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.4",
+    "12.4.1.2"
+   ],
+   "question": "Find $\\displaystyle\\int \\sin^2 x\\cos 4x\\,dx$.",
+   "answer": "Using $\\sin^2 x = \\frac12(1-\\cos 2x)$ and $\\cos A\\cos B = \\frac12\\left[\\cos(A-B) + \\cos(A+B)\\right]$:\n$$\\sin^2 x\\cos 4x = \\frac12\\cos 4x - \\frac12\\cos 2x\\cos 4x = \\frac12\\cos 4x - \\frac14\\left(\\cos 2x + \\cos 6x\\right)$$\n$$\\int \\sin^2 x\\cos 4x\\,dx = \\frac{\\sin 4x}{8} - \\frac{\\sin 2x}{8} - \\frac{\\sin 6x}{24} + C$$\n\n(In the original paper this part follows a part that expresses $\\sin^2 x\\cos 4x$ in exponential (Euler) form, which is not in the 2024 syllabus; the same answer is obtained there.)"
+  },
+  {
+   "ref": "Q13(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.3.2"
+   ],
+   "question": "Given $a$ and $b$ are real numbers, show that $a^2 + 9b^2 \\geqslant 6ab$.",
+   "answer": "Since squares of real numbers are non-negative,\n$$(a-3b)^2 \\ge 0 \\;\\Rightarrow\\; a^2 - 6ab + 9b^2 \\ge 0 \\;\\Rightarrow\\; a^2 + 9b^2 \\ge 6ab$$"
+  },
+  {
+   "ref": "Q13(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.1.3.2"
+   ],
+   "question": "Given $a$, $b$ and $c$ are real numbers and that $x^2 + 9y^2 \\geqslant 6xy$ for all real $x, y$, show that $a^2 + 5b^2 + 9c^2 \\geqslant 3(ab + bc + ca)$.",
+   "answer": "Apply the given result three times:\n$$a^2 + 9b^2 \\ge 6ab, \\qquad b^2 + 9c^2 \\ge 6bc, \\qquad a^2 + 9c^2 \\ge 6ca$$\nAdding:\n$$2a^2 + 10b^2 + 18c^2 \\ge 6(ab + bc + ca) \\;\\Rightarrow\\; a^2 + 5b^2 + 9c^2 \\ge 3(ab+bc+ca)$$"
+  },
+  {
+   "ref": "Q13(d)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.1.3.3"
+   ],
+   "question": "Given that $a^2 + 5b^2 + 9c^2 \\geqslant 3(ab + bc + ca)$ for all real $a, b, c$, show that if $a > b > c > 0$, then $a^2 + 5b^2 + 9c^2 > 9bc$.",
+   "answer": "Since $a > c$ and $b > 0$: $ab > cb = bc$. Since $a > b$ and $c > 0$: $ca > bc$. Hence\n$$a^2 + 5b^2 + 9c^2 \\ge 3(ab + bc + ca) > 3(bc + bc + bc) = 9bc$$"
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.12",
+    "12.3.4.5"
+   ],
+   "question": "Let $\\omega = \\text{cis}\\,\\dfrac{4\\pi}{7} = \\cos\\dfrac{4\\pi}{7} + i\\sin\\dfrac{4\\pi}{7}$. Evaluate:\n$$(2+\\omega)\\left(2+\\omega^2\\right)\\left(2+\\omega^3\\right)\\left(2+\\omega^4\\right)\\left(2+\\omega^5\\right)\\left(2+\\omega^6\\right)$$",
+   "answer": "$\\omega^7 = \\text{cis}\\,4\\pi = 1$ and, since $4$ and $7$ are coprime, $\\omega, \\omega^2, \\dots, \\omega^6$ are the six distinct non-real 7th roots of unity. Hence\n$$z^7 - 1 = (z-1)(z-\\omega)(z-\\omega^2)\\cdots(z-\\omega^6)$$\nSubstitute $z = -2$:\n$$(-2)^7 - 1 = (-3)(-2-\\omega)(-2-\\omega^2)\\cdots(-2-\\omega^6) = (-3)(-1)^6(2+\\omega)(2+\\omega^2)\\cdots(2+\\omega^6)$$\n$$-129 = -3\\,(2+\\omega)\\cdots(2+\\omega^6) \\;\\Rightarrow\\; (2+\\omega)(2+\\omega^2)\\cdots(2+\\omega^6) = 43$$\n\n(The paper writes $\\omega = e^{\\frac{4\\pi i}{7}}$; written here in polar form.)"
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.5.5",
+    "12.5.5.1"
+   ],
+   "question": "An object with a mass of $100$ kg is found to experience a resistive force, in newtons, of one-tenth the square of its velocity in metres per second when it moves through the air.\n\nIf the object falls from rest under gravity, assuming constant value $g = 9.8\\ \\text{m s}^{-2}$, calculate its terminal velocity.",
+   "answer": "Taking downwards as positive:\n$$100\\ddot{x} = 100g - \\frac{v^2}{10} \\;\\Rightarrow\\; \\ddot{x} = \\frac{9800 - v^2}{1000}$$\nTerminal velocity when $\\ddot{x} = 0$: $v^2 = 9800$, so $v_T = \\sqrt{9800} = 70\\sqrt2 \\approx 99.0\\ \\text{m s}^{-1}$."
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.5.2",
+    "12.5.5.6"
+   ],
+   "question": "An object with a mass of $100$ kg is found to experience a resistive force, in newtons, of one-tenth the square of its velocity in metres per second when it moves through the air. The object falls from rest under gravity, with constant $g = 9.8\\ \\text{m s}^{-2}$; its terminal velocity is $70\\sqrt2\\ \\text{m s}^{-1}$.\n\nCalculate the maximum height, to the nearest metre, of the release point if it reaches 80% of its terminal velocity before striking the ground.",
+   "answer": "Taking downwards as positive with $x = 0$, $v = 0$ at release:\n$$v\\frac{dv}{dx} = \\frac{9800 - v^2}{1000} \\;\\Rightarrow\\; \\int_0^{x} dx = \\int_0^{v}\\frac{1000v}{9800 - v^2}\\,dv$$\n$$x = -500\\Big[\\ln(9800 - v^2)\\Big]_0^{v} = 500\\ln\\left(\\frac{9800}{9800 - v^2}\\right)$$\nAt $80\\%$ of terminal velocity, $v = 0.8 \\times 70\\sqrt2 = 56\\sqrt2$, $v^2 = 6272$:\n$$x = 500\\ln\\left(\\frac{9800}{3528}\\right) = 500\\ln\\frac{25}{9} = 1000\\ln\\frac53 \\approx 510.8$$\nSo the release point is at most about $511$ m above the ground. (If it falls less than this, it does not reach $80\\%$ of terminal velocity.)"
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.1"
+   ],
+   "question": "Let $a, b, c$ be real positive numbers. Prove that $\\dfrac{bc}{a^2b + c} \\leqslant \\dfrac{b+c}{1+a^2}$.",
+   "answer": "$$\\frac{b+c}{1+a^2} - \\frac{bc}{a^2b+c} = \\frac{(b+c)(a^2b+c) - bc(1+a^2)}{(1+a^2)(a^2b+c)}$$\n$$= \\frac{a^2b^2 + bc + a^2bc + c^2 - bc - a^2bc}{(1+a^2)(a^2b+c)} = \\frac{a^2b^2 + c^2}{(1+a^2)(a^2b+c)} > 0$$\nsince the numerator is positive and $a, b, c > 0$ make the denominator positive. Hence $\\dfrac{bc}{a^2b+c} < \\dfrac{b+c}{1+a^2}$, so in particular $\\dfrac{bc}{a^2b+c} \\le \\dfrac{b+c}{1+a^2}$."
+  },
+  {
+   "ref": "Q14(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "Consider the function $y = \\sqrt{x}$. Show that the curve is increasing for all $x \\geqslant 0$.",
+   "images": [
+    "assets/img/ext2-2026-killara/q14d.png"
+   ],
+   "answer": "$$\\frac{dy}{dx} = \\frac{1}{2\\sqrt x} > 0 \\quad \\text{for } x > 0$$\nso $y = \\sqrt x$ is increasing for $x > 0$, and since it is continuous at $x = 0$ (where $y = 0 < \\sqrt x$ for all $x > 0$) it is increasing for all $x \\ge 0$."
+  },
+  {
+   "ref": "Q14(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "Consider the function $y = \\sqrt{x}$, shown in the diagram, which is increasing for all $x \\geqslant 0$.\n\nHence show that $\\sqrt1 + \\sqrt2 + \\dots + \\sqrt n \\geqslant \\displaystyle\\int_0^n \\sqrt x\\,dx = \\frac23 n\\sqrt n$.",
+   "images": [
+    "assets/img/ext2-2026-killara/q14d.png"
+   ],
+   "answer": "On each interval $[k-1, k]$, $k = 1, 2, \\dots, n$, the function is increasing, so $\\sqrt x \\le \\sqrt k$ there. The rectangle of width $1$ and height $\\sqrt k$ (as in the diagram) therefore has area at least the area under the curve on $[k-1,k]$:\n$$\\sqrt k \\ge \\int_{k-1}^{k}\\sqrt x\\,dx$$\nSumming for $k = 1$ to $n$:\n$$\\sqrt1 + \\sqrt2 + \\dots + \\sqrt n \\ge \\int_0^n \\sqrt x\\,dx = \\left[\\frac23 x^{\\frac32}\\right]_0^n = \\frac23 n\\sqrt n$$\n\n(The paper prints the sum as ending in $\\sqrt x$; it should end in $\\sqrt n$.)"
+  },
+  {
+   "ref": "Q14(d)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.2"
+   ],
+   "question": "Use mathematical induction to show that $\\sqrt1 + \\sqrt2 + \\dots + \\sqrt n \\leqslant \\dfrac{4n+3}{6}\\sqrt n$, for all integers $n \\geqslant 1$.",
+   "answer": "**Base case** $n=1$: LHS $= 1$, RHS $= \\dfrac{7}{6} > 1$. True.\n\n**Inductive step.** Assume true for $n = k$: $\\sqrt1 + \\dots + \\sqrt k \\le \\dfrac{4k+3}{6}\\sqrt k$. Then\n$$\\sqrt1 + \\dots + \\sqrt k + \\sqrt{k+1} \\le \\frac{4k+3}{6}\\sqrt k + \\sqrt{k+1}$$\nWe need this to be at most $\\dfrac{4k+7}{6}\\sqrt{k+1}$, i.e.\n$$\\frac{4k+3}{6}\\sqrt k \\le \\frac{4k+1}{6}\\sqrt{k+1} \\iff (4k+3)\\sqrt k \\le (4k+1)\\sqrt{k+1}$$\nBoth sides are positive, so compare squares:\n$$(4k+1)^2(k+1) - (4k+3)^2k = (16k^3 + 24k^2 + 9k + 1) - (16k^3 + 24k^2 + 9k) = 1 > 0$$\nHence $\\sqrt1 + \\dots + \\sqrt{k+1} \\le \\dfrac{4(k+1)+3}{6}\\sqrt{k+1}$, so the statement is true for $n = k+1$.\n\nBy induction it is true for all integers $n \\ge 1$.\n\n(The paper's inductive step is incomplete: it bounds the sum by $\\frac{4k+9}{6}\\sqrt{k+1}$, which is not the required $\\frac{4k+7}{6}\\sqrt{k+1}$.)"
+  },
+  {
+   "ref": "Q14(d)(iv)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "It is known that, for all integers $n \\geqslant 1$,\n$$\\frac23 n\\sqrt n \\leqslant \\sqrt1 + \\sqrt2 + \\dots + \\sqrt n \\leqslant \\frac{4n+3}{6}\\sqrt n.$$\nUse these results to estimate $\\sqrt1 + \\sqrt2 + \\dots + \\sqrt{10000}$ to the nearest hundred.",
+   "answer": "With $n = 10000$, $\\sqrt n = 100$:\n$$\\text{lower bound} = \\frac23 \\times 10000 \\times 100 \\approx 666\\,666.7, \\qquad \\text{upper bound} = \\frac{40003}{6}\\times 100 \\approx 666\\,716.7$$\nBoth bounds round to $666\\,700$, so the sum is $666\\,700$ to the nearest hundred.\n\n(No solution is given in the paper for this part.)"
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.12",
+    "12.3.4.5"
+   ],
+   "question": "The non-zero complex numbers $a$, $b$ and $c$ satisfy $\\dfrac ab = \\dfrac bc = \\dfrac ca$. What are the possible values of $\\dfrac{a+b-c}{a-b+c}$?",
+   "answer": "Let $\\dfrac ab = \\dfrac bc = \\dfrac ca = k$. Multiplying, $k^3 = \\dfrac ab\\cdot\\dfrac bc\\cdot\\dfrac ca = 1$, so $k$ is a cube root of unity: $k = 1$, $\\text{cis}\\frac{2\\pi}{3}$ or $\\text{cis}\\frac{4\\pi}{3}$.\n\nAlso $b = kc$ and $a = kb = k^2c$, so\n$$\\frac{a+b-c}{a-b+c} = \\frac{k^2 + k - 1}{k^2 - k + 1}$$\n\n- If $k = 1$: the value is $\\dfrac{1}{1} = 1$.\n- If $k \\ne 1$: $k^2 + k + 1 = 0$, so $k^2 + k - 1 = -2$ and $k^2 - k + 1 = -2k$, giving $\\dfrac{-2}{-2k} = \\dfrac1k = k^2$.\n\nFor $k = \\text{cis}\\frac{2\\pi}{3}$ this is $\\text{cis}\\frac{4\\pi}{3}$, and for $k = \\text{cis}\\frac{4\\pi}{3}$ it is $\\text{cis}\\frac{2\\pi}{3}$.\n\nThe possible values are $1,\\ \\text{cis}\\,\\dfrac{2\\pi}{3} = \\dfrac{-1+i\\sqrt3}{2},\\ \\text{cis}\\,\\dfrac{4\\pi}{3} = \\dfrac{-1-i\\sqrt3}{2}$."
+  },
+  {
+   "ref": "Q15(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.8",
+    "12.4.1.7"
+   ],
+   "question": "Find $\\displaystyle\\int \\frac{2}{x^2 + 4x\\sqrt x + 4x}\\,dx$.",
+   "answer": "Let $u = \\sqrt x$, so $x = u^2$ and $dx = 2u\\,du$. Then $x^2 + 4x\\sqrt x + 4x = u^4 + 4u^3 + 4u^2 = u^2(u+2)^2$:\n$$\\int \\frac{2}{u^2(u+2)^2}\\cdot 2u\\,du = \\int \\frac{4}{u(u+2)^2}\\,du$$\nPartial fractions: $\\dfrac{4}{u(u+2)^2} = \\dfrac{A}{u} + \\dfrac{B}{u+2} + \\dfrac{C}{(u+2)^2}$ gives $A = 1$ ($u=0$), $C = -2$ ($u=-2$) and $A + B = 0$ (coefficient of $u^2$), so $B = -1$.\n$$\\int\\left(\\frac1u - \\frac{1}{u+2} - \\frac{2}{(u+2)^2}\\right)du = \\ln u - \\ln(u+2) + \\frac{2}{u+2} + C$$\n$$= \\frac12\\ln x - \\ln\\left(\\sqrt x + 2\\right) + \\frac{2}{\\sqrt x + 2} + C$$"
+  },
+  {
+   "ref": "Q15(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "$ABCD$ is a parallelogram. $AB$ is produced to $E$ and $BA$ is produced to $F$ such that $|\\overrightarrow{BE}| = |\\overrightarrow{AF}| = |\\overrightarrow{BC}|$. Lines $EC$ and $FD$ are produced to meet at $X$.\n\nProve that the lines $EX$ and $FX$ meet at right angles.",
+   "images": [
+    "assets/img/ext2-2026-killara/q15d.png"
+   ],
+   "answer": "Let $\\mathbf{a} = \\overrightarrow{BC} = \\overrightarrow{AD}$ and $\\mathbf{b} = \\overrightarrow{BE}$. Since $E$ is on $AB$ produced, $\\mathbf{b}$ points in the direction of $\\overrightarrow{AB}$, and $|\\mathbf{b}| = |BC| = |\\mathbf{a}|$. Likewise $\\overrightarrow{FA} = \\mathbf{b}$ (same direction as $\\overrightarrow{AB}$, length $|AF| = |BC|$).\n\nThen\n$$\\overrightarrow{EC} = \\overrightarrow{EB} + \\overrightarrow{BC} = \\mathbf{a} - \\mathbf{b}, \\qquad \\overrightarrow{FD} = \\overrightarrow{FA} + \\overrightarrow{AD} = \\mathbf{a} + \\mathbf{b}$$\n$$\\overrightarrow{EC}\\cdot\\overrightarrow{FD} = (\\mathbf{a}-\\mathbf{b})\\cdot(\\mathbf{a}+\\mathbf{b}) = |\\mathbf{a}|^2 - |\\mathbf{b}|^2 = 0$$\nSo $EC \\perp FD$, and since $EX$ lies along $EC$ and $FX$ along $FD$, the lines $EX$ and $FX$ meet at right angles."
+  },
+  {
+   "ref": "Q15(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "$ABCD$ is a parallelogram. $AB$ is produced to $E$ and $BA$ is produced to $F$ such that $|\\overrightarrow{BE}| = |\\overrightarrow{AF}| = |\\overrightarrow{BC}|$. Lines $EC$ and $FD$ are produced to meet at $X$.\n\nIf $\\overrightarrow{EX} = \\lambda\\overrightarrow{EC}$ and $\\overrightarrow{FX} = \\mu\\overrightarrow{FD}$ and $|\\overrightarrow{AB}| = k|\\overrightarrow{BC}|$, find the values of $\\lambda$ and $\\mu$ in terms of $k$.",
+   "images": [
+    "assets/img/ext2-2026-killara/q15d.png"
+   ],
+   "answer": "Let $\\mathbf{a} = \\overrightarrow{BC} = \\overrightarrow{AD}$ and $\\mathbf{b} = \\overrightarrow{BE}$. Since $E$ is on $AB$ produced, $\\mathbf{b}$ points in the direction of $\\overrightarrow{AB}$, and $|\\mathbf{b}| = |BC| = |\\mathbf{a}|$. Likewise $\\overrightarrow{FA} = \\mathbf{b}$ (same direction as $\\overrightarrow{AB}$, length $|AF| = |BC|$).\n\nThen $\\overrightarrow{EC} = \\mathbf{a} - \\mathbf{b}$, $\\overrightarrow{FD} = \\mathbf{a} + \\mathbf{b}$, and since $|AB| = k|\\mathbf{b}|$, $\\overrightarrow{AB} = k\\mathbf{b}$. So\n$$\\overrightarrow{EF} = \\overrightarrow{EB} + \\overrightarrow{BA} + \\overrightarrow{AF} = -\\mathbf{b} - k\\mathbf{b} - \\mathbf{b} = -(k+2)\\mathbf{b}$$\nNow $\\overrightarrow{EX} = \\overrightarrow{EF} + \\overrightarrow{FX}$:\n$$\\lambda(\\mathbf{a} - \\mathbf{b}) = -(k+2)\\mathbf{b} + \\mu(\\mathbf{a} + \\mathbf{b})$$\nSince $\\mathbf{a}$ and $\\mathbf{b}$ are not parallel, equate coefficients:\n$$\\mathbf{a}: \\ \\lambda = \\mu, \\qquad \\mathbf{b}: \\ -\\lambda = -(k+2) + \\mu \\;\\Rightarrow\\; 2\\lambda = k+2$$\n$$\\lambda = \\mu = \\frac{k+2}{2} = 1 + \\frac k2$$\n\n(The paper's solution makes an algebra slip and gives $\\lambda = \\mu = 1 + k$. Check with a unit square, $k=1$: $X$ is at distance $\\frac32|EC|$ from $E$.)"
+  },
+  {
+   "ref": "Q15(d)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "$ABCD$ is a parallelogram. $AB$ is produced to $E$ and $BA$ is produced to $F$ such that $|\\overrightarrow{BE}| = |\\overrightarrow{AF}| = |\\overrightarrow{BC}|$. Lines $EC$ and $FD$ are produced to meet at $X$.\n\nIt is given that if $\\overrightarrow{EX} = \\lambda\\overrightarrow{EC}$, $\\overrightarrow{FX} = \\mu\\overrightarrow{FD}$ and $|\\overrightarrow{AB}| = k|\\overrightarrow{BC}|$, then $\\lambda = \\mu = 1 + \\dfrac k2$.\n\nFind the values of $\\lambda$ and $\\mu$ if $ABCD$ is a rhombus.",
+   "images": [
+    "assets/img/ext2-2026-killara/q15d.png"
+   ],
+   "answer": "For a rhombus $|AB| = |BC|$, so $k = 1$ and\n$$\\lambda = \\mu = 1 + \\frac12 = \\frac32$$\n\n(The paper gives $\\lambda = \\mu = 2$, following from its incorrect answer $1+k$ in the previous part.)"
+  },
+  {
+   "ref": "Q15(d)(iv)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "$ABCD$ is a parallelogram. $AB$ is produced to $E$ and $BA$ is produced to $F$ such that $|\\overrightarrow{BE}| = |\\overrightarrow{AF}| = |\\overrightarrow{BC}|$. Lines $EC$ and $FD$ are produced to meet at $X$.\n\nIf $|\\overrightarrow{EX}| = |\\overrightarrow{FX}|$, prove that $ABCD$ is a rectangle.",
+   "images": [
+    "assets/img/ext2-2026-killara/q15d.png"
+   ],
+   "answer": "Let $\\mathbf{a} = \\overrightarrow{BC} = \\overrightarrow{AD}$ and $\\mathbf{b} = \\overrightarrow{BE}$. Since $E$ is on $AB$ produced, $\\mathbf{b}$ points in the direction of $\\overrightarrow{AB}$, and $|\\mathbf{b}| = |BC| = |\\mathbf{a}|$. Likewise $\\overrightarrow{FA} = \\mathbf{b}$ (same direction as $\\overrightarrow{AB}$, length $|AF| = |BC|$).\n\nThen $\\overrightarrow{EC} = \\mathbf{a} - \\mathbf{b}$ and $\\overrightarrow{FD} = \\mathbf{a} + \\mathbf{b}$. Writing $\\overrightarrow{EX} = \\lambda\\overrightarrow{EC}$ and $\\overrightarrow{FX} = \\mu\\overrightarrow{FD}$ and equating $\\overrightarrow{EX} = \\overrightarrow{EF} + \\overrightarrow{FX}$ with $\\overrightarrow{EF}$ parallel to $\\mathbf{b}$, the $\\mathbf{a}$-components give $\\lambda = \\mu$ ($>0$).\n\nSo $|\\overrightarrow{EX}| = |\\overrightarrow{FX}|$ gives $\\lambda|\\mathbf{a} - \\mathbf{b}| = \\lambda|\\mathbf{a} + \\mathbf{b}|$, i.e. $|\\mathbf{a} - \\mathbf{b}|^2 = |\\mathbf{a} + \\mathbf{b}|^2$:\n$$|\\mathbf{a}|^2 - 2\\mathbf{a}\\cdot\\mathbf{b} + |\\mathbf{b}|^2 = |\\mathbf{a}|^2 + 2\\mathbf{a}\\cdot\\mathbf{b} + |\\mathbf{b}|^2 \\;\\Rightarrow\\; 4\\,\\mathbf{a}\\cdot\\mathbf{b} = 0$$\nHence $\\mathbf{a} \\perp \\mathbf{b}$, i.e. $BC \\perp AB$. A parallelogram with a right angle is a rectangle, so $ABCD$ is a rectangle."
+  },
+  {
+   "ref": "Q16(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.1.5",
+    "12.5.3.3",
+    "12.5.1.4"
+   ],
+   "question": "Masses $m_1$ kg and $m_2$ kg are connected by a string over a smooth pulley hanging from the ceiling. The end of the string attached to $m_1$ makes an angle of $30^\\circ$ with the horizontal. The coefficient of friction between the surface and mass $m_1$ is $0.5$.\n\nMass $m_1$ is moving right and mass $m_2$ is moving downwards. Determine their acceleration if $m_2 = \\sqrt3\\,m_1$ and $g = 10\\ \\text{m s}^{-2}$.",
+   "images": [
+    "assets/img/ext2-2026-killara/q16a.png"
+   ],
+   "answer": "Let $T$ be the tension and $a$ the common acceleration (taking the string to stay at $30^\\circ$).\n\n**Mass $m_2$** (down positive): $m_2 a = m_2 g - T \\Rightarrow T = \\sqrt3\\,m_1(10 - a)$.\n\n**Mass $m_1$**: vertically, $N + T\\sin 30^\\circ = m_1 g$, so $N = 10m_1 - \\dfrac T2$. Friction $= 0.5N$ acts to the left. Horizontally:\n$$m_1 a = T\\cos 30^\\circ - 0.5\\left(10m_1 - \\frac T2\\right) = \\left(\\frac{\\sqrt3}{2} + \\frac14\\right)T - 5m_1$$\nSubstitute $T$ and divide by $m_1$:\n$$a = \\left(\\frac{\\sqrt3}{2} + \\frac14\\right)\\sqrt3(10 - a) - 5 = \\left(\\frac32 + \\frac{\\sqrt3}{4}\\right)(10 - a) - 5$$\n$$a\\left(1 + \\frac32 + \\frac{\\sqrt3}{4}\\right) = 15 + \\frac{5\\sqrt3}{2} - 5 = 10 + \\frac{5\\sqrt3}{2}$$\n$$a\\cdot\\frac{10+\\sqrt3}{4} = \\frac{20 + 5\\sqrt3}{2} \\;\\Rightarrow\\; a = \\frac{40 + 10\\sqrt3}{10 + \\sqrt3} = \\frac{370 + 60\\sqrt3}{97} \\approx 4.9\\ \\text{m s}^{-2}$$\n(Check: $T \\approx 8.86m_1$, so $N \\approx 5.6m_1 > 0$ and $m_1$ stays on the surface.)\n\n(The paper's solution drops the $-5m_1$ friction term when collecting terms and gives $a = \\frac{30+5\\sqrt3}{10+\\sqrt3} \\approx 3.3\\ \\text{m s}^{-2}$.)"
+  },
+  {
+   "ref": "Q16(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.10"
+   ],
+   "question": "Let $z_1$ be a complex number. Let $z_2$ be the complex number obtained when $z_1$ is rotated anticlockwise about the origin by $\\dfrac{\\pi}{2}$, and let $z_3$ be the complex number obtained when $z_2$ is rotated anticlockwise about $4+3i$ by $\\dfrac{\\pi}{2}$.\n\nThen $z_3$ is the same as the point obtained when $z_1$ is rotated anticlockwise about $\\omega$ by $\\theta$.\n\nFind $\\omega$ and $\\theta$.",
+   "answer": "Rotation by $\\frac{\\pi}{2}$ is multiplication by $i$:\n$$z_2 = iz_1, \\qquad z_3 = i\\big(z_2 - (4+3i)\\big) + 4 + 3i = i(iz_1 - 4 - 3i) + 4 + 3i = -z_1 - 4i + 3 + 4 + 3i = -z_1 + 7 - i$$\nA rotation of $z_1$ about $\\omega$ by $\\theta$ gives $\\text{cis}\\,\\theta\\,(z_1 - \\omega) + \\omega = \\text{cis}\\,\\theta\\, z_1 + (1 - \\text{cis}\\,\\theta)\\,\\omega$.\n\nComparing for all $z_1$: $\\text{cis}\\,\\theta = -1$, so $\\theta = \\pi$, and $2\\omega = 7 - i$, so\n$$\\omega = \\frac72 - \\frac12 i, \\qquad \\theta = \\pi$$"
+  },
+  {
+   "ref": "Q16(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.14",
+    "12.4.1.13"
+   ],
+   "question": "Let $I_n = \\displaystyle\\int x^m(\\ln x)^n\\,dx$. Show that $I_n = \\dfrac{x^{m+1}(\\ln x)^n}{m+1} - \\dfrac{n}{m+1}I_{n-1}$.",
+   "answer": "Integrate by parts with $u = (\\ln x)^n$, $dv = x^m\\,dx$, so $du = \\dfrac{n(\\ln x)^{n-1}}{x}\\,dx$, $v = \\dfrac{x^{m+1}}{m+1}$:\n$$I_n = \\frac{x^{m+1}(\\ln x)^n}{m+1} - \\int \\frac{x^{m+1}}{m+1}\\cdot\\frac{n(\\ln x)^{n-1}}{x}\\,dx = \\frac{x^{m+1}(\\ln x)^n}{m+1} - \\frac{n}{m+1}\\int x^m(\\ln x)^{n-1}\\,dx$$\n$$= \\frac{x^{m+1}(\\ln x)^n}{m+1} - \\frac{n}{m+1}I_{n-1}$$"
+  },
+  {
+   "ref": "Q16(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14",
+    "12.4.1.13"
+   ],
+   "question": "Let $I_n = \\displaystyle\\int x^m(\\ln x)^n\\,dx$, where $I_n = \\dfrac{x^{m+1}(\\ln x)^n}{m+1} - \\dfrac{n}{m+1}I_{n-1}$.\n\nHence, or otherwise, evaluate $\\displaystyle\\int_1^e x^3(\\ln x)^3\\,dx$.",
+   "answer": "With $m = 3$, let $J_n = \\displaystyle\\int_1^e x^3(\\ln x)^n\\,dx$. Since $\\ln 1 = 0$ and $\\ln e = 1$, the recurrence gives $J_n = \\dfrac{e^4}{4} - \\dfrac n4 J_{n-1}$ for $n \\ge 1$.\n$$J_0 = \\int_1^e x^3\\,dx = \\frac{e^4 - 1}{4}$$\n$$J_1 = \\frac{e^4}{4} - \\frac14\\cdot\\frac{e^4-1}{4} = \\frac{3e^4 + 1}{16}$$\n$$J_2 = \\frac{e^4}{4} - \\frac24\\cdot\\frac{3e^4+1}{16} = \\frac{5e^4 - 1}{32}$$\n$$J_3 = \\frac{e^4}{4} - \\frac34\\cdot\\frac{5e^4-1}{32} = \\frac{32e^4 - 15e^4 + 3}{128} = \\frac{17e^4 + 3}{128}$$"
+  }
+ ]
+}

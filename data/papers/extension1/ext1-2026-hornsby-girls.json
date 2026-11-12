@@ -1,0 +1,542 @@
+{
+ "id": "ext1-2026-hornsby-girls",
+ "course": "extension1",
+ "school": "Hornsby Girls",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "Hornsby Girls 2026 w. sol"
+ },
+ "indexed": "2026-11-12",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q5",
+   "reason": "Not in 2024 syllabus: pigeonhole principle"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.3"
+   ],
+   "question": "Which of the following is an expression for $\\displaystyle\\int \\cos^2 3x\\,dx$?",
+   "options": [
+    "$\\dfrac{x}{2} + \\dfrac{\\cos 6x}{6} + C$",
+    "$\\dfrac{x}{2} - \\dfrac{\\sin 6x}{12} + C$",
+    "$\\dfrac{x}{2} + \\dfrac{\\sin 6x}{12} + C$",
+    "$\\dfrac{x}{2} - \\dfrac{\\cos 6x}{6} + C$"
+   ],
+   "correct": "C",
+   "answer": "$\\cos^2 3x = \\frac{1}{2}(1 + \\cos 6x)$, so\n$$\\int \\cos^2 3x\\,dx = \\frac{1}{2}\\left(x + \\frac{\\sin 6x}{6}\\right) + C = \\frac{x}{2} + \\frac{\\sin 6x}{12} + C.$$"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.4.7",
+    "12.2.3.5"
+   ],
+   "question": "Which vector is perpendicular to $\\mathbf{v} = -3\\mathbf{i} + 7\\mathbf{j}$?",
+   "options": [
+    "$\\mathbf{a} = 7\\mathbf{i} + 3\\mathbf{j}$",
+    "$\\mathbf{b} = 7\\mathbf{i} - 3\\mathbf{j}$",
+    "$\\mathbf{c} = 3\\mathbf{i} - 7\\mathbf{j}$",
+    "$\\mathbf{d} = 3\\mathbf{i} + 7\\mathbf{j}$"
+   ],
+   "correct": "A",
+   "answer": "$\\mathbf{v}\\cdot\\mathbf{a} = (-3)(7) + (7)(3) = 0$, so $\\mathbf{a}$ is perpendicular to $\\mathbf{v}$ (swap the components and change one sign). The others give $-42$, $-58$ and $40$."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.3",
+    "12.5.4.1"
+   ],
+   "question": "The equation $y = e^{kx}$, where $k \\in \\mathbb{R}$, satisfies the differential equation\n$$\\frac{d^2y}{dx^2} - \\frac{dy}{dx} - 6y = 0.$$\nThe possible values of $k$ are:",
+   "options": [
+    "$k = -2$ or $k = 3$",
+    "$k = -1$ or $k = 6$",
+    "$k = 2$ or $k = -3$",
+    "$k = 6$ or $k = -1$"
+   ],
+   "correct": "A",
+   "answer": "$y' = ke^{kx}$, $y'' = k^2e^{kx}$, so $e^{kx}(k^2 - k - 6) = 0$. Since $e^{kx} > 0$, $k^2 - k - 6 = (k-3)(k+2) = 0$, giving $k = 3$ or $k = -2$."
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.8",
+    "12.2.3.7"
+   ],
+   "question": "The vector $\\mathbf{v} = a\\mathbf{i} + b\\mathbf{j}$ has magnitude 12 and direction $240^\\circ$T. The exact values of $a$ and $b$ are:",
+   "options": [
+    "$a = -6,\\ b = 6\\sqrt{2}$",
+    "$a = -6,\\ b = -6\\sqrt{3}$",
+    "$a = 6,\\ b = 6\\sqrt{3}$",
+    "$a = -6\\sqrt{3},\\ b = -6$"
+   ],
+   "correct": "D",
+   "answer": "A bearing of $240^\\circ$T points $30^\\circ$ south of due west. So $a = -12\\cos 30^\\circ = -6\\sqrt{3}$ and $b = -12\\sin 30^\\circ = -6$."
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.7",
+    "12.2.6.5"
+   ],
+   "question": "The displacement of a ball, $\\mathbf{r}(t)$, thrown from a height of 2000 m at a speed of 240 m/s at an angle $\\theta$ such that $\\tan\\theta = \\frac{3}{4}$, is given below. The ball lands on the ground 3600 m away from the origin $O$, where $g = 10\\ \\text{m s}^{-2}$, after 20 seconds.\n$$\\mathbf{r}(t) = \\begin{pmatrix} 240t\\cos\\theta \\\\ 2000 + 240t\\sin\\theta - \\dfrac{gt^2}{2} \\end{pmatrix}$$\nWhat is the impact speed of the ball when it strikes the ground?",
+   "options": [
+    "$259\\ \\text{m s}^{-1}$",
+    "$144\\ \\text{m s}^{-1}$",
+    "$200\\ \\text{m s}^{-1}$",
+    "$240\\ \\text{m s}^{-1}$"
+   ],
+   "correct": "C",
+   "answer": "$\\tan\\theta = \\frac{3}{4}$ gives $\\cos\\theta = \\frac{4}{5}$, $\\sin\\theta = \\frac{3}{5}$. Differentiating, $\\mathbf{v}(t) = \\begin{pmatrix} 240\\cos\\theta \\\\ 240\\sin\\theta - gt\\end{pmatrix}$, so\n$$\\mathbf{v}(20) = \\begin{pmatrix} 192 \\\\ 144 - 200 \\end{pmatrix} = \\begin{pmatrix} 192 \\\\ -56 \\end{pmatrix}, \\qquad |\\mathbf{v}(20)| = \\sqrt{192^2 + 56^2} = 200\\ \\text{m s}^{-1}.$$\n(The paper prints the options with units $\\text{m s}^{-2}$; they are speeds in $\\text{m s}^{-1}$.)"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.9",
+    "12.5.4.4"
+   ],
+   "question": "The direction (slope) field for a certain first order differential equation is shown below.\n\nThis differential equation could be:",
+   "options": [
+    "$\\dfrac{dy}{dx} = (x - y)^2$",
+    "$\\dfrac{dy}{dx} = (x + y)^2$",
+    "$\\dfrac{dy}{dx} = x(x + y)$",
+    "$\\dfrac{dy}{dx} = (x - y)(x + y)$"
+   ],
+   "correct": "D",
+   "answer": "The slopes are zero along both lines $y = x$ and $y = -x$, steeply positive near the $x$-axis away from the origin (e.g. at $(4, 0)$) and steeply negative near the $y$-axis (e.g. at $(0, 4)$). $\\frac{dy}{dx} = (x-y)(x+y) = x^2 - y^2$ fits all of this; A and B are never negative, and C is not zero along $y = x$.",
+   "images": [
+    "assets/img/ext1-2026-hornsby-girls/q7.png"
+   ]
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7",
+    "12.4.1.6"
+   ],
+   "question": "What is the derivative of $f(x) = x\\tan^{-1}\\dfrac{1}{x} + \\dfrac{1}{2}\\log_e(x^2 + 1)$?",
+   "options": [
+    "$\\dfrac{x}{x^2 + 1}$",
+    "$\\tan^{-1} x$",
+    "$\\tan^{-1}\\dfrac{1}{x}$",
+    "$\\tan^{-1}\\dfrac{1}{x} + \\dfrac{2x}{x^2 + 1}$"
+   ],
+   "correct": "C",
+   "answer": "Product rule on the first term:\n$$f'(x) = \\tan^{-1}\\frac{1}{x} + x\\cdot\\frac{-\\frac{1}{x^2}}{1 + \\frac{1}{x^2}} + \\frac{1}{2}\\cdot\\frac{2x}{x^2+1} = \\tan^{-1}\\frac{1}{x} - \\frac{x}{x^2+1} + \\frac{x}{x^2+1} = \\tan^{-1}\\frac{1}{x}.$$"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.3.3",
+    "11.1.3.1"
+   ],
+   "question": "Which of the following Cartesian equations represents the parametric equations $x = 2\\sin\\theta - 5$ and $y = 3\\cos\\theta + 1$?",
+   "options": [
+    "$\\dfrac{(x-5)^2}{2} + \\dfrac{(y+1)^2}{3} = 1$",
+    "$\\dfrac{(x+5)^2}{2} + \\dfrac{(y-1)^2}{3} = 1$",
+    "$\\dfrac{(x-5)^2}{4} + \\dfrac{(y+1)^2}{9} = 1$",
+    "$\\dfrac{(x+5)^2}{4} + \\dfrac{(y-1)^2}{9} = 1$"
+   ],
+   "correct": "D",
+   "answer": "$\\sin\\theta = \\frac{x+5}{2}$ and $\\cos\\theta = \\frac{y-1}{3}$. Using $\\sin^2\\theta + \\cos^2\\theta = 1$: $\\dfrac{(x+5)^2}{4} + \\dfrac{(y-1)^2}{9} = 1$."
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.4",
+    "12.4.1.3"
+   ],
+   "question": "For a one-to-one function $g(x)$, it is known that $g(1) = 3$ and $g'(1) = 7$. Let $f(x) = x\\,g^{-1}(x)$. What is the value of $f'(3)$?",
+   "options": [
+    "$\\dfrac{10}{7}$",
+    "$4$",
+    "$3\\dfrac{1}{7}$",
+    "$\\dfrac{8}{7}$"
+   ],
+   "correct": "A",
+   "answer": "$g^{-1}(3) = 1$ and $\\dfrac{d}{dx}g^{-1}(x)\\Big|_{x=3} = \\dfrac{1}{g'(1)} = \\dfrac{1}{7}$. By the product rule, $f'(x) = g^{-1}(x) + x\\dfrac{d}{dx}g^{-1}(x)$, so $f'(3) = 1 + 3\\cdot\\frac{1}{7} = \\frac{10}{7}$."
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_{-1}^{1} \\frac{dx}{\\sqrt{4 - 3x^2}}$.",
+   "answer": "$$\\int_{-1}^{1} \\frac{dx}{\\sqrt{4 - 3x^2}} = \\frac{1}{\\sqrt{3}}\\int_{-1}^{1}\\frac{\\sqrt{3}\\,dx}{\\sqrt{4 - (\\sqrt{3}x)^2}} = \\frac{1}{\\sqrt{3}}\\left[\\sin^{-1}\\frac{\\sqrt{3}x}{2}\\right]_{-1}^{1}$$\n$$= \\frac{1}{\\sqrt{3}}\\left[\\sin^{-1}\\frac{\\sqrt{3}}{2} - \\sin^{-1}\\left(-\\frac{\\sqrt{3}}{2}\\right)\\right] = \\frac{1}{\\sqrt{3}}\\left[\\frac{\\pi}{3} + \\frac{\\pi}{3}\\right] = \\frac{2\\pi}{3\\sqrt{3}} = \\frac{2\\sqrt{3}\\,\\pi}{9}$$"
+  },
+  {
+   "ref": "Q11(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.11",
+    "11.4.1.19"
+   ],
+   "question": "Four Australians, three Germans and two Japanese are seated at random around a round table. Find the probability that they are seated in nationality groups (the people of each nationality sit together).",
+   "answer": "Total circular arrangements of 9 people: $8!$.\n\nTreat each nationality as one block: 3 blocks around a circle in $(3-1)! = 2$ ways, and the people within the blocks in $4!\\,3!\\,2!$ ways.\n$$P = \\frac{2 \\times 4!\\times 3!\\times 2!}{8!} = \\frac{576}{40320} = \\frac{1}{70}$$"
+  },
+  {
+   "ref": "Q11(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.11",
+    "11.4.1.19"
+   ],
+   "question": "Four Australians, three Germans and two Japanese are seated at random around a round table. Find the probability that only the Australians are seated together.",
+   "answer": "Treat the 4 Australians as one block: with the other 5 people this is 6 units around a circle, $5!$ ways, and the Australians arrange within the block in $4!$ ways.\n$$P = \\frac{5!\\times 4!}{8!} = \\frac{2880}{40320} = \\frac{1}{14}$$\n\n*Note:* the paper's answer $\\frac{1}{14}$ counts every arrangement with the Australians together. If \"only\" is read strictly (the Germans not all together and the Japanese not together), remove those cases among the 6 units: Germans together $3!\\,3! = 36$, Japanese together $4!\\,2! = 48$, both $2!\\,3!\\,2! = 24$, leaving $120 - (36 + 48 - 24) = 60$, so $P = \\frac{60 \\times 4!}{8!} = \\frac{1}{28}$."
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.6",
+    "12.2.4.3"
+   ],
+   "question": "Consider the vectors $\\mathbf{a} = k\\mathbf{i} + 2\\mathbf{j}$ and $\\mathbf{b} = 2\\mathbf{i} + k\\mathbf{j}$, where $k \\in \\mathbb{R}$. Find the value(s) of $k$ when the angle between $\\mathbf{a}$ and $\\mathbf{b}$ is $60^\\circ$.",
+   "answer": "$\\mathbf{a}\\cdot\\mathbf{b} = |\\mathbf{a}||\\mathbf{b}|\\cos 60^\\circ$:\n$$2k + 2k = \\sqrt{k^2 + 4}\\,\\sqrt{4 + k^2}\\times\\frac{1}{2}$$\n$$4k = \\frac{k^2 + 4}{2} \\implies k^2 - 8k + 4 = 0 \\implies (k - 4)^2 = 12$$\n$$k = 4 \\pm 2\\sqrt{3}$$\n(Both values are positive, so $\\mathbf{a}\\cdot\\mathbf{b} > 0$ as required for a $60^\\circ$ angle.)"
+  },
+  {
+   "ref": "Q11(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.3.2.4"
+   ],
+   "question": "Let $t = \\tan\\dfrac{\\pi}{8}$. Show that $\\dfrac{2t}{1 - t^2} = 1$.",
+   "answer": "Using $\\tan 2A = \\dfrac{2\\tan A}{1 - \\tan^2 A}$ with $A = \\frac{\\pi}{8}$:\n$$\\frac{2t}{1 - t^2} = \\tan\\left(2\\times\\frac{\\pi}{8}\\right) = \\tan\\frac{\\pi}{4} = 1.$$"
+  },
+  {
+   "ref": "Q11(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.4"
+   ],
+   "question": "Let $t = \\tan\\dfrac{\\pi}{8}$. Using the result $\\dfrac{2t}{1 - t^2} = 1$, find the exact value of $t = \\tan\\dfrac{\\pi}{8}$.",
+   "answer": "$1 - t^2 = 2t$, so $t^2 + 2t - 1 = 0$:\n$$t = \\frac{-2 \\pm \\sqrt{4 + 4}}{2} = -1 \\pm \\sqrt{2}.$$\nSince $0 < \\frac{\\pi}{8} < \\frac{\\pi}{2}$, $\\tan\\frac{\\pi}{8} > 0$, so $\\tan\\dfrac{\\pi}{8} = \\sqrt{2} - 1$."
+  },
+  {
+   "ref": "Q11(e)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.4",
+    "11.3.2.2"
+   ],
+   "question": "Show that $\\cos 3x - \\cos 2x + \\cos x = 4\\cos^3 x - 2\\cos^2 x - 2\\cos x + 1$.",
+   "answer": "$$\\cos 3x = \\cos(2x + x) = \\cos 2x\\cos x - \\sin 2x\\sin x = (2\\cos^2 x - 1)\\cos x - 2\\sin^2 x\\cos x$$\n$$= 2\\cos^3 x - \\cos x - 2(1 - \\cos^2 x)\\cos x = 4\\cos^3 x - 3\\cos x.$$\nSo\n$$\\text{LHS} = 4\\cos^3 x - 3\\cos x - (2\\cos^2 x - 1) + \\cos x = 4\\cos^3 x - 2\\cos^2 x - 2\\cos x + 1 = \\text{RHS}.$$\n(The paper instead uses the sum-to-product identity $\\cos 3x + \\cos x = 2\\cos 2x\\cos x$, then $\\cos 2x(2\\cos x - 1) = (2\\cos^2x - 1)(2\\cos x - 1)$ and expands.)"
+  },
+  {
+   "ref": "Q11(e)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.1"
+   ],
+   "question": "Given that $\\cos 3x - \\cos 2x + \\cos x = 4\\cos^3 x - 2\\cos^2 x - 2\\cos x + 1$, solve $\\cos 3x - \\cos 2x + \\cos x = 1$ for $0 \\le x \\le 2\\pi$.",
+   "answer": "$$4\\cos^3 x - 2\\cos^2 x - 2\\cos x + 1 = 1 \\implies 2\\cos x\\,(2\\cos^2 x - \\cos x - 1) = 0 \\implies 2\\cos x\\,(2\\cos x + 1)(\\cos x - 1) = 0$$\nSo $\\cos x = 0$, $\\cos x = -\\frac{1}{2}$ or $\\cos x = 1$. For $0 \\le x \\le 2\\pi$:\n$$x = 0,\\ \\frac{\\pi}{2},\\ \\frac{2\\pi}{3},\\ \\frac{4\\pi}{3},\\ \\frac{3\\pi}{2},\\ 2\\pi.$$"
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.4"
+   ],
+   "question": "Find $\\displaystyle\\int \\cos 7x\\sin 3x\\,dx$.",
+   "answer": "Using $\\sin A\\cos B = \\frac{1}{2}\\left[\\sin(A + B) + \\sin(A - B)\\right]$ with $A = 3x$, $B = 7x$:\n$$\\cos 7x\\sin 3x = \\frac{1}{2}\\left[\\sin 10x + \\sin(-4x)\\right] = \\frac{1}{2}\\left(\\sin 10x - \\sin 4x\\right)$$\n$$\\int \\cos 7x\\sin 3x\\,dx = \\frac{1}{2}\\left(-\\frac{\\cos 10x}{10} + \\frac{\\cos 4x}{4}\\right) + C = -\\frac{\\cos 10x}{20} + \\frac{\\cos 4x}{8} + C$$\n\n*Note:* the paper's solution omits the factor $\\frac{1}{2}$ in the product-to-sum identity and gives $-\\frac{\\cos 10x}{10} + \\frac{\\cos 4x}{4} + C$, which is twice the correct answer.",
+   "course": "extension2"
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "In the diagram below, the shaded region is bounded by the $y$-axis, the curve $y = e^x$ and a horizontal line $\\ell$ that cuts the curve at a point whose $x$-coordinate is $\\log_e 5$.\n\nA solid is formed by rotating the shaded region about the $y$-axis. Write down a definite integral whose value is the volume of the solid. (Do NOT evaluate the integral.)",
+   "answer": "When $x = \\log_e 5$, $y = e^{\\log_e 5} = 5$, so $\\ell$ is $y = 5$. When $x = 0$, $y = e^0 = 1$.\n\nFrom $y = e^x$, $x = \\log_e y$. Rotating about the $y$-axis:\n$$V = \\pi\\int_1^5 x^2\\,dy = \\pi\\int_1^5 (\\log_e y)^2\\,dy$$",
+   "images": [
+    "assets/img/ext1-2026-hornsby-girls/q12b.png"
+   ]
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.2"
+   ],
+   "question": "Express $\\sqrt{3}\\sin\\dfrac{x}{2} + \\cos\\dfrac{x}{2}$ as $A\\cos\\left(\\dfrac{x}{2} - \\alpha\\right)$, where $A > 0$ and $0 \\le \\alpha \\le \\dfrac{\\pi}{2}$.",
+   "answer": "$A\\cos\\left(\\frac{x}{2} - \\alpha\\right) = A\\cos\\frac{x}{2}\\cos\\alpha + A\\sin\\frac{x}{2}\\sin\\alpha$. Equating coefficients:\n$$A\\cos\\alpha = 1, \\qquad A\\sin\\alpha = \\sqrt{3}.$$\nSquaring and adding: $A^2 = 1 + 3 = 4$, so $A = 2$. Dividing: $\\tan\\alpha = \\sqrt{3}$, so $\\alpha = \\frac{\\pi}{3}$.\n$$\\sqrt{3}\\sin\\frac{x}{2} + \\cos\\frac{x}{2} = 2\\cos\\left(\\frac{x}{2} - \\frac{\\pi}{3}\\right)$$"
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.3"
+   ],
+   "question": "Given that $\\sqrt{3}\\sin\\dfrac{x}{2} + \\cos\\dfrac{x}{2} = 2\\cos\\left(\\dfrac{x}{2} - \\dfrac{\\pi}{3}\\right)$, solve the equation $\\sqrt{3}\\sin\\dfrac{x}{2} + \\cos\\dfrac{x}{2} = \\dfrac{1}{2}$ for $0 \\le x \\le 2\\pi$. Write your answer(s) correct to three decimal places.",
+   "answer": "$$2\\cos\\left(\\frac{x}{2} - \\frac{\\pi}{3}\\right) = \\frac{1}{2} \\implies \\cos\\left(\\frac{x}{2} - \\frac{\\pi}{3}\\right) = \\frac{1}{4}$$\nFor $0 \\le x \\le 2\\pi$: $0 \\le \\frac{x}{2} \\le \\pi$, so $-\\frac{\\pi}{3} \\le \\frac{x}{2} - \\frac{\\pi}{3} \\le \\frac{2\\pi}{3}$.\n\n$\\cos^{-1}\\frac{1}{4} \\approx 1.3181$ lies in this interval, but $-\\cos^{-1}\\frac{1}{4} \\approx -1.3181 < -\\frac{\\pi}{3}$ does not. So\n$$\\frac{x}{2} = \\cos^{-1}\\frac{1}{4} + \\frac{\\pi}{3} \\approx 2.36531 \\implies x \\approx 4.731.$$"
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.5",
+    "11.2.2.2"
+   ],
+   "question": "When the polynomial $P(x)$ is divided by $(x + 4)$ and $(x - 1)$, the remainders are 5 and 9 respectively. Find the remainder when $P(x)$ is divided by $(x - 1)(x + 4)$.",
+   "answer": "The divisor is quadratic, so the remainder is linear: $P(x) = (x - 1)(x + 4)Q(x) + ax + b$.\n\nBy the remainder theorem, $P(-4) = 5$ and $P(1) = 9$:\n$$-4a + b = 5, \\qquad a + b = 9.$$\nSubtracting: $5a = 4$, so $a = \\frac{4}{5}$ and $b = 9 - \\frac{4}{5} = \\frac{41}{5}$.\n\nThe remainder is $\\dfrac{4}{5}x + \\dfrac{41}{5}$."
+  },
+  {
+   "ref": "Q12(e)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.3",
+    "11.3.1.1"
+   ],
+   "question": "An oil tanker at $T$ is leaking oil which forms a circular oil slick of radius $r$ around it. An observer measures the oil slick from a position $P$, 450 metres above sea level and 2 kilometres horizontally from the centre $T$ of the oil slick. $AB$ is a diameter of the slick and the triangle $PAB$ is isosceles with $PA = PB$.\n\nAt a certain time, the observer measures the angle $\\alpha = \\angle APB$ subtended by the diameter of the oil slick to be 0.1 radians. Find an expression for the radius $r$ at this time, in terms of $\\alpha$.",
+   "answer": "$P$ is 0.45 km above the point 2 km horizontally from $T$, so\n$$PT = \\sqrt{0.45^2 + 2^2} = \\sqrt{4.2025} = 2.05\\ \\text{km}.$$\nSince $PA = PB$ and $T$ is the midpoint of $AB$, $PT \\perp AB$ and $PT$ bisects $\\angle APB$. In right triangle $PTA$:\n$$\\tan\\frac{\\alpha}{2} = \\frac{r}{PT} \\implies r = 2.05\\tan\\frac{\\alpha}{2}\\ \\text{km}.$$\n(At $\\alpha = 0.1$, $r \\approx 0.1026$ km $\\approx 102.6$ m.)",
+   "images": [
+    "assets/img/ext1-2026-hornsby-girls/q12e.png"
+   ]
+  },
+  {
+   "ref": "Q12(e)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.1",
+    "12.5.2.2"
+   ],
+   "question": "An observer at $P$ watches a circular oil slick of radius $r$ km. The radius is related to the angle $\\alpha$ subtended at $P$ by the diameter of the slick by $r = 2.05\\tan\\dfrac{\\alpha}{2}$.\n\nAt a time when $\\alpha = 0.1$ radians, $\\dfrac{d\\alpha}{dt} = 0.02$ radians per hour. Find the rate at which the radius of the oil slick is growing.",
+   "answer": "$$\\frac{dr}{d\\alpha} = \\frac{2.05}{2}\\sec^2\\frac{\\alpha}{2} = 1.025\\sec^2\\frac{\\alpha}{2}$$\n$$\\frac{dr}{dt} = \\frac{dr}{d\\alpha}\\times\\frac{d\\alpha}{dt} = 1.025\\sec^2(0.05)\\times 0.02 = 0.02055\\ldots$$\nThe radius is growing at about $0.0206$ km per hour (about 20.6 m per hour).",
+   "images": [
+    "assets/img/ext1-2026-hornsby-girls/q12e.png"
+   ]
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Use the substitution $u = \\log_e x$ to evaluate $\\displaystyle\\int_e^{e^2} \\frac{2}{x(\\log_e x)^2}\\,dx$.",
+   "answer": "$u = \\log_e x$, so $du = \\frac{1}{x}\\,dx$. When $x = e$, $u = 1$; when $x = e^2$, $u = 2$.\n$$\\int_e^{e^2} \\frac{2}{x(\\log_e x)^2}\\,dx = \\int_1^2 \\frac{2}{u^2}\\,du = 2\\left[-\\frac{1}{u}\\right]_1^2 = 2\\left(-\\frac{1}{2} + 1\\right) = 1$$"
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Use mathematical induction to prove that\n$$1 + 4 + 16 + \\dots + 4^n = \\frac{1}{3}\\left(4^{n+1} - 1\\right) \\quad\\text{for } n \\ge 0.$$",
+   "answer": "**Step 1** ($n = 0$): LHS $= 4^0 = 1$, RHS $= \\frac{1}{3}(4^1 - 1) = 1$. True for $n = 0$.\n\n**Step 2:** Assume true for $n = k$ ($k \\ge 0$): $1 + 4 + \\dots + 4^k = \\frac{1}{3}\\left(4^{k+1} - 1\\right)$.\n\n**Step 3:** Prove true for $n = k + 1$, i.e. $1 + 4 + \\dots + 4^k + 4^{k+1} = \\frac{1}{3}\\left(4^{k+2} - 1\\right)$.\n$$\\text{LHS} = \\frac{1}{3}\\left(4^{k+1} - 1\\right) + 4^{k+1} = \\frac{1}{3}\\left(4^{k+1} - 1 + 3\\times 4^{k+1}\\right) = \\frac{1}{3}\\left(4\\times 4^{k+1} - 1\\right) = \\frac{1}{3}\\left(4^{k+2} - 1\\right) = \\text{RHS}$$\n\nSo if the result is true for $n = k$ it is true for $n = k + 1$. Since it is true for $n = 0$, by mathematical induction it is true for all integers $n \\ge 0$."
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.5.7",
+    "12.2.3.6"
+   ],
+   "question": "A small fishing boat can travel at 10 km/h in still water. It is being steered due east but there is a current running south at 5 km/h and a breeze blowing the boat on a bearing of N30°E at 4 km/h. Find the resultant velocity of the boat, giving the speed correct to 2 decimal places and the direction correct to the nearest degree.",
+   "answer": "With $\\mathbf{i}$ east and $\\mathbf{j}$ north:\n- boat: $10\\mathbf{i}$\n- current: $-5\\mathbf{j}$\n- breeze (N30°E, i.e. $60^\\circ$ above east): $4\\cos 60^\\circ\\,\\mathbf{i} + 4\\sin 60^\\circ\\,\\mathbf{j} = 2\\mathbf{i} + 2\\sqrt{3}\\,\\mathbf{j}$\n\nResultant: $\\mathbf{v} = 12\\mathbf{i} + (2\\sqrt{3} - 5)\\mathbf{j}$.\n$$|\\mathbf{v}| = \\sqrt{12^2 + (2\\sqrt{3} - 5)^2} = \\sqrt{146.3589\\ldots} \\approx 12.10\\ \\text{km/h}$$\n$$\\tan\\theta = \\frac{2\\sqrt{3} - 5}{12} \\approx -0.12799 \\implies \\theta \\approx -7.29^\\circ$$\nso the boat moves $7.29^\\circ$ south of east, i.e. on a bearing of $90^\\circ + 7.29^\\circ \\approx 097^\\circ$T, at about 12.10 km/h."
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "Solve $\\dfrac{dy}{dx} = 6x^2y$ given that the point $(0, e)$ lies on the solution curve and $y \\ne 0$.",
+   "answer": "Separating variables:\n$$\\int\\frac{1}{y}\\,dy = \\int 6x^2\\,dx \\implies \\ln|y| = 2x^3 + c.$$\nAt $(0, e)$: $\\ln e = 0 + c$, so $c = 1$. Then $|y| = e^{2x^3 + 1}$, i.e. $y = \\pm e^{2x^3 + 1}$.\n\nSince $y \\ne 0$ the solution cannot change sign, and $y = e > 0$ at $x = 0$, so\n$$y = e^{2x^3 + 1}.$$"
+  },
+  {
+   "ref": "Q13(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.4.7",
+    "12.2.4.3"
+   ],
+   "question": "In the diagram below, $OAB$ is a triangle with $\\overrightarrow{OA} = \\mathbf{a}$, $\\overrightarrow{OB} = \\mathbf{b}$ and $OA = OB$. $P$ is a point on $AB$ such that $\\overrightarrow{OP} = \\mathbf{p}$ and $OP$ bisects $\\angle AOB$.\n\nUse vector methods to show that $OP \\perp AB$.",
+   "answer": "Since $\\angle AOP = \\angle BOP$, the cosines of these angles are equal:\n$$\\frac{\\mathbf{a}\\cdot\\mathbf{p}}{|\\mathbf{a}||\\mathbf{p}|} = \\frac{\\mathbf{b}\\cdot\\mathbf{p}}{|\\mathbf{b}||\\mathbf{p}|}.$$\nSince $OA = OB$, $|\\mathbf{a}| = |\\mathbf{b}|$, so $\\mathbf{a}\\cdot\\mathbf{p} = \\mathbf{b}\\cdot\\mathbf{p}$, i.e.\n$$\\mathbf{p}\\cdot(\\mathbf{b} - \\mathbf{a}) = 0.$$\nBut $\\mathbf{b} - \\mathbf{a} = \\overrightarrow{AB}$, and $\\mathbf{p}, \\overrightarrow{AB}$ are non-zero, so $\\overrightarrow{OP}\\cdot\\overrightarrow{AB} = 0$ and $OP \\perp AB$.\n\n*Alternative:* $\\triangle OAP \\equiv \\triangle OBP$ (SAS: $OA = OB$, $\\angle AOP = \\angle BOP$, $OP$ common), so $AP = PB$ and $\\overrightarrow{AP} = \\frac{1}{2}\\overrightarrow{AB}$. Then $\\overrightarrow{OP} = \\mathbf{a} + \\frac{1}{2}(\\mathbf{b} - \\mathbf{a}) = \\frac{1}{2}(\\mathbf{a} + \\mathbf{b})$ and\n$$\\overrightarrow{AB}\\cdot\\overrightarrow{OP} = \\frac{1}{2}(\\mathbf{b} - \\mathbf{a})\\cdot(\\mathbf{a} + \\mathbf{b}) = \\frac{1}{2}\\left(|\\mathbf{b}|^2 - |\\mathbf{a}|^2\\right) = 0.$$",
+   "images": [
+    "assets/img/ext1-2026-hornsby-girls/q13e.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.12"
+   ],
+   "question": "Consider the function $f(x) = \\cos^{-1}\\left(\\dfrac{x}{2}\\right)$. State the domain and range of $f(x)$.",
+   "answer": "$-1 \\le \\frac{x}{2} \\le 1$, so the domain is $-2 \\le x \\le 2$, i.e. $[-2, 2]$.\n\nThe range is that of $\\cos^{-1}$: $0 \\le y \\le \\pi$, i.e. $[0, \\pi]$."
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.12",
+    "12.3.2.4"
+   ],
+   "question": "Consider the function $f(x) = \\cos^{-1}\\left(\\dfrac{x}{2}\\right)$. By sketching $f(x)$, determine whether $f(x)$ is odd, even or neither. Justify your answer.",
+   "answer": "The graph is $y = \\cos^{-1}x$ stretched horizontally by a factor of 2: it decreases from $(-2, \\pi)$ through $\\left(0, \\frac{\\pi}{2}\\right)$ to $(2, 0)$.\n\nIt is not symmetric about the $y$-axis, so it is not even. It is point-symmetric about $\\left(0, \\frac{\\pi}{2}\\right)$, not about the origin (it does not pass through $(0,0)$), so it is not odd. Algebraically, $f(-x) = \\pi - f(x)$, which is neither $f(x)$ nor $-f(x)$.\n\n$f(x)$ is **neither** odd nor even.",
+   "answer_images": [
+    "assets/img/ext1-2026-hornsby-girls/q14a-ii-ans.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.1",
+    "12.3.2.12"
+   ],
+   "question": "Consider the function $f(x) = \\cos^{-1}\\left(\\dfrac{x}{2}\\right)$, which has domain $[-2, 2]$ and range $[0, \\pi]$. Without using calculus, sketch the curve $y = \\dfrac{1}{f(x)}$. Clearly label any asymptotes, intercepts with the coordinate axes and any endpoints.",
+   "answer": "- $f(x) = 0$ only at $x = 2$, so $y = \\frac{1}{f(x)}$ is defined for $-2 \\le x < 2$ with a vertical asymptote $x = 2$; as $x \\to 2^-$, $f(x) \\to 0^+$ so $y \\to \\infty$.\n- Left endpoint: $f(-2) = \\pi$, so the closed endpoint is $\\left(-2, \\frac{1}{\\pi}\\right)$.\n- $y$-intercept: $f(0) = \\frac{\\pi}{2}$, so $y = \\frac{2}{\\pi}$.\n- $f$ is decreasing and positive on $[-2, 2)$, so $y = \\frac{1}{f(x)}$ is increasing and positive; there is no $x$-intercept.",
+   "answer_images": [
+    "assets/img/ext1-2026-hornsby-girls/q14a-iii-ans.png"
+   ]
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.4.15"
+   ],
+   "question": "Show that $\\dfrac{C}{P(C - P)} = \\dfrac{1}{P} + \\dfrac{1}{C - P}$.",
+   "answer": "$$\\text{RHS} = \\frac{1}{P} + \\frac{1}{C - P} = \\frac{(C - P) + P}{P(C - P)} = \\frac{C}{P(C - P)} = \\text{LHS}$$"
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.4.15",
+    "12.5.4.16"
+   ],
+   "question": "In the town of Hornsville, the population $P$ in the year 2000 was estimated to be 7500. The population growth is given by the logistic equation\n$$\\frac{dP}{dt} = 0.03P\\left(\\frac{C - P}{C}\\right),$$\nwhere $t$ is the number of years after 2000 and $C$ is the carrying capacity. In the year 2025, the population was estimated to be 10 000.\n\nUsing $\\dfrac{C}{P(C - P)} = \\dfrac{1}{P} + \\dfrac{1}{C - P}$, or otherwise, find the carrying capacity $C$, correct to the nearest thousand.",
+   "answer": "Separating variables:\n$$\\int\\frac{C}{P(C - P)}\\,dP = \\int 0.03\\,dt \\implies \\int\\left(\\frac{1}{P} + \\frac{1}{C - P}\\right)dP = 0.03t + k$$\n$$\\ln|P| - \\ln|C - P| = 0.03t + k \\implies \\frac{P}{C - P} = Ae^{0.03t}\\quad (A = \\pm e^k).$$\nAt $t = 0$, $P = 7500$: $\\dfrac{7500}{C - 7500} = A$. At $t = 25$, $P = 10000$: $\\dfrac{10000}{C - 10000} = Ae^{0.75}$.\n\nEquating the expressions for $A e^{0.75}$:\n$$\\frac{7500e^{0.75}}{C - 7500} = \\frac{10000}{C - 10000}$$\n$$10000(C - 7500) = 7500e^{0.75}(C - 10000)$$\n$$10000C - 75\\,000\\,000 = 15\\,877.50\\ldots C - 158\\,775\\,001.2\\ldots$$\n$$5877.50\\ldots C = 83\\,775\\,001.2\\ldots \\implies C \\approx 14\\,253.5$$\nSo the carrying capacity is about $14\\,000$ (to the nearest thousand)."
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.7"
+   ],
+   "question": "Two archers, $A$ and $B$, stand at the same spot, $O$. Each archer shoots one arrow at the same time at a target which lies on the same horizontal plane as the point of projection of the arrows. The archers shoot with the same initial velocity, 25 m/s, but with different angles of projection, with archer $A$'s angle of projection being $60^\\circ$. Their arrows hit the target at different times.\n\nYou may assume that the position vector of each arrow $t$ seconds after projection from $O$ at speed $V$ and angle $\\theta$ is\n$$\\mathbf{r}(t) = Vt\\cos\\theta\\,\\mathbf{i} + \\left(Vt\\sin\\theta - 5t^2\\right)\\mathbf{j}.$$\n\nShow that the distance of the target from the archers is $\\dfrac{125\\sqrt{3}}{4}$ metres.",
+   "answer": "For archer $A$ ($V = 25$, $\\theta = 60^\\circ$), the arrow lands when $y = 0$:\n$$25t\\sin 60^\\circ - 5t^2 = 0 \\implies 5t\\left(\\frac{5\\sqrt{3}}{2} - t\\right) = 0 \\implies t = \\frac{5\\sqrt{3}}{2}\\ (t \\ne 0).$$\nThen\n$$x = 25\\times\\frac{5\\sqrt{3}}{2}\\times\\cos 60^\\circ = \\frac{125\\sqrt{3}}{4}\\ \\text{m}.$$",
+   "images": [
+    "assets/img/ext1-2026-hornsby-girls/q14c.png"
+   ]
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.6.8"
+   ],
+   "question": "Two archers, $A$ and $B$, stand at the same spot, $O$. Each archer shoots one arrow at the same time at a target which lies on the same horizontal plane as the point of projection of the arrows. The archers shoot with the same initial velocity, 25 m/s, but with different angles of projection, with archer $A$'s angle of projection being $60^\\circ$. Their arrows hit the target at different times.\n\nYou may assume that the position vector of each arrow $t$ seconds after projection from $O$ at speed $V$ and angle $\\theta$ is\n$$\\mathbf{r}(t) = Vt\\cos\\theta\\,\\mathbf{i} + \\left(Vt\\sin\\theta - 5t^2\\right)\\mathbf{j}.$$\n\nThe target is $\\dfrac{125\\sqrt{3}}{4}$ metres from the archers. Showing full working, prove that the angle of elevation of archer $B$'s arrow is equal to the complement of the angle of elevation of archer $A$'s arrow.",
+   "answer": "For an arrow fired at angle $\\theta$ with $V = 25$: $y = 0$ when $5t(5\\sin\\theta - t) = 0$, so the flight time is $t = 5\\sin\\theta$. The range is then\n$$x = 25\\times 5\\sin\\theta\\cos\\theta = \\frac{125}{2}\\sin 2\\theta.$$\nBoth arrows hit the target, so\n$$\\frac{125}{2}\\sin 2\\theta = \\frac{125\\sqrt{3}}{4} \\implies \\sin 2\\theta = \\frac{\\sqrt{3}}{2}.$$\nFor $0^\\circ < \\theta < 90^\\circ$, $2\\theta = 60^\\circ$ or $120^\\circ$, so $\\theta = 30^\\circ$ or $60^\\circ$. Archer $A$ uses $60^\\circ$ and the arrows land at different times, so archer $B$ uses $\\theta = 30^\\circ = 90^\\circ - 60^\\circ$, the complement of $A$'s angle.",
+   "images": [
+    "assets/img/ext1-2026-hornsby-girls/q14c.png"
+   ]
+  },
+  {
+   "ref": "Q14(c)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.7"
+   ],
+   "question": "Two archers, $A$ and $B$, stand at the same spot, $O$. Each archer shoots one arrow at the same time at a target which lies on the same horizontal plane as the point of projection of the arrows. The archers shoot with the same initial velocity, 25 m/s, but with different angles of projection, with archer $A$'s angle of projection being $60^\\circ$. Their arrows hit the target at different times.\n\nYou may assume that the position vector of each arrow $t$ seconds after projection from $O$ at speed $V$ and angle $\\theta$ is\n$$\\mathbf{r}(t) = Vt\\cos\\theta\\,\\mathbf{i} + \\left(Vt\\sin\\theta - 5t^2\\right)\\mathbf{j}.$$\n\nArcher $B$'s angle of projection is $30^\\circ$. Find the exact time which elapses between when the two arrows hit the target.",
+   "answer": "The flight time at angle $\\theta$ is $t = 5\\sin\\theta$ (from $25t\\sin\\theta - 5t^2 = 0$).\n\nArcher $A$: $t = 5\\sin 60^\\circ = \\frac{5\\sqrt{3}}{2}$ s. Archer $B$: $t = 5\\sin 30^\\circ = \\frac{5}{2}$ s.\n\nTime between the two arrows hitting the target:\n$$\\frac{5\\sqrt{3}}{2} - \\frac{5}{2} = \\frac{5}{2}\\left(\\sqrt{3} - 1\\right)\\ \\text{s}.$$",
+   "images": [
+    "assets/img/ext1-2026-hornsby-girls/q14c.png"
+   ]
+  }
+ ]
+}
