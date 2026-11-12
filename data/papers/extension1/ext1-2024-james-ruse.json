@@ -1,0 +1,562 @@
+{
+ "id": "ext1-2024-james-ruse",
+ "course": "extension1",
+ "school": "James Ruse",
+ "year": 2024,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "James Ruse 2024 w. sol"
+ },
+ "indexed": "2026-11-12",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q13(b)(i)-(ii)",
+   "reason": "Not in 2024 syllabus: normal approximation for sample proportions"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.2.8"
+   ],
+   "question": "$X$ is a random variable such that $X \\sim \\text{Bin}(30, 0.4)$. Which of the following gives $E(X)$ and $\\text{Var}(X)$?",
+   "answer": "$E(X) = np = 30(0.4) = 12$; $\\text{Var}(X) = np(1-p) = 30(0.4)(0.6) = 7.2$.",
+   "options": [
+    "$E(X) = 12$, $\\text{Var}(X) = 7.2$",
+    "$E(X) = 18$, $\\text{Var}(X) = \\sqrt{7.2}$",
+    "$E(X) = 18$, $\\text{Var}(X) = 7.2$",
+    "$E(X) = 12$, $\\text{Var}(X) = \\sqrt{7.2}$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.6",
+    "12.3.2.12"
+   ],
+   "question": "Which of the following is the range of $\\tan^{-1}(\\sin x)$?",
+   "answer": "$\\sin x$ takes all values in $[-1, 1]$ and $\\tan^{-1}$ is increasing, so the range is $[\\tan^{-1}(-1), \\tan^{-1}1] = \\left[-\\frac{\\pi}{4}, \\frac{\\pi}{4}\\right]$.",
+   "options": [
+    "$\\left(-\\frac{\\pi}{4}, \\frac{\\pi}{4}\\right)$",
+    "$\\left[-\\frac{\\pi}{4}, \\frac{\\pi}{4}\\right]$",
+    "$\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$",
+    "$\\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right]$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.1",
+    "11.3.3.4"
+   ],
+   "question": "Which of the following gives the number of values of $x$ in the interval $[0, 5\\pi]$ that satisfy the equation $3\\sin^2 x - 7\\sin x + 2 = 0$?",
+   "answer": "$(3\\sin x - 1)(\\sin x - 2) = 0$, and $\\sin x = 2$ is impossible, so $\\sin x = \\frac{1}{3}$. This has 2 solutions in each of $[0, 2\\pi]$ and $[2\\pi, 4\\pi]$, and 2 more in $[4\\pi, 5\\pi]$ (where $\\sin x \\ge 0$): 6 solutions.",
+   "options": [
+    "0",
+    "5",
+    "6",
+    "10"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.2.7"
+   ],
+   "question": "Let $f(x) = x^3$ where $x \\in \\{0, 1, 2, 3\\}$. Which of the following is the domain of $f^{-1}(x)$?",
+   "answer": "The domain of $f^{-1}$ is the range of $f$: $\\{0, 1, 8, 27\\}$.",
+   "options": [
+    "$\\{0, 1, \\sqrt[3]{8}, \\sqrt[3]{27}\\}$",
+    "$\\left\\{0, 1, \\frac{1}{\\sqrt[3]{8}}, \\frac{1}{\\sqrt[3]{27}}\\right\\}$",
+    "$\\{0, 1, 8, 27\\}$",
+    "$\\left\\{0, 1, \\frac{1}{8}, \\frac{1}{27}\\right\\}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Which of the following has the same solution as that of $\\dfrac{3}{2 - x} > 2$?",
+   "answer": "Multiply by $(2 - x)^2 > 0$: $3(2 - x) > 2(2 - x)^2 \\Rightarrow (2 - x)(3 - 2(2 - x)) > 0 \\Rightarrow (2 - x)(2x - 1) > 0$, i.e. $(x - 2)(2x - 1) < 0$.",
+   "options": [
+    "$2x - 1 \\ge 0$",
+    "$(x - 2)(2x - 1) > 0$",
+    "$(x - 2)(2x - 1) < 0$",
+    "None of the above"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.6"
+   ],
+   "question": "In the diagram, $AOB$ is a diameter of the circle $ABC$ with centre $O$. Point $C$ lies on the circumference of the circle. If $\\overrightarrow{OC} = \\mathbf{r}$ and $\\overrightarrow{BC} = \\mathbf{s}$, to which of the following is $\\overrightarrow{AC}$ equal?",
+   "answer": "$\\overrightarrow{OB} = \\overrightarrow{OC} + \\overrightarrow{CB} = \\mathbf{r} - \\mathbf{s}$, so $\\overrightarrow{OA} = -\\overrightarrow{OB} = \\mathbf{s} - \\mathbf{r}$.\n$\\overrightarrow{AC} = \\overrightarrow{OC} - \\overrightarrow{OA} = \\mathbf{r} - (\\mathbf{s} - \\mathbf{r}) = 2\\mathbf{r} - \\mathbf{s}$.",
+   "options": [
+    "$\\mathbf{r} + 2\\mathbf{s}$",
+    "$\\mathbf{r} - 2\\mathbf{s}$",
+    "$2\\mathbf{r} + \\mathbf{s}$",
+    "$2\\mathbf{r} - \\mathbf{s}$"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/ext1-2024-james-ruse/q6.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.4.7",
+    "12.2.3.8"
+   ],
+   "question": "Which of the following is the unit vector perpendicular to $\\mathbf{p} = -6\\mathbf{i} + 2\\mathbf{j}$?",
+   "answer": "$(-6)(1) + (2)(3) = 0$, and $\\left|\\frac{1}{\\sqrt{10}}\\mathbf{i} + \\frac{3}{\\sqrt{10}}\\mathbf{j}\\right| = 1$. So B is a unit vector perpendicular to $\\mathbf{p}$.\n\nNote: the paper's answer key gives C, but $(-6)(1) + (2)(-3) = -12 \\ne 0$, so C is not perpendicular to $\\mathbf{p}$.",
+   "options": [
+    "$\\frac{3}{\\sqrt{10}}\\mathbf{i} + \\frac{1}{\\sqrt{10}}\\mathbf{j}$",
+    "$\\frac{1}{\\sqrt{10}}\\mathbf{i} + \\frac{3}{\\sqrt{10}}\\mathbf{j}$",
+    "$\\frac{1}{\\sqrt{10}}\\mathbf{i} + \\frac{-3}{\\sqrt{10}}\\mathbf{j}$",
+    "$\\frac{-3}{\\sqrt{10}}\\mathbf{i} + \\frac{1}{\\sqrt{10}}\\mathbf{j}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.9"
+   ],
+   "question": "Which of the following differential equations could represent the slope field shown?",
+   "answer": "The slopes are zero on the $y$-axis, vertical on the $x$-axis, positive everywhere above the $x$-axis and negative everywhere below it (the same on both sides of the $y$-axis). So the sign depends only on $y$: $\\dfrac{dy}{dx} = \\dfrac{x^2}{y}$.",
+   "options": [
+    "$\\dfrac{dy}{dx} = \\dfrac{x}{y^2}$",
+    "$\\dfrac{dy}{dx} = \\dfrac{x^2}{y}$",
+    "$\\dfrac{dy}{dx} = -\\dfrac{x^2}{y}$",
+    "$\\dfrac{dy}{dx} = -\\dfrac{x}{y^2}$"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/ext1-2024-james-ruse/q8.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.17"
+   ],
+   "question": "There are 11 points in a plane such that 4 of the points are collinear (and no other three are collinear). Which of the following gives the number of lines that may be formed such that those lines pass through at least two of the 11 points?",
+   "answer": "$\\binom{11}{2} = 55$ pairs, but the $\\binom{4}{2} = 6$ pairs from the collinear points all give the same line: $55 - 6 + 1 = 50$.",
+   "options": [
+    "55",
+    "49",
+    "50",
+    "52"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "For the binomial expansion of $(2 + kx)^7$, where $k > 0$ is a constant, it is given that the coefficient of $x^2$ is six times the coefficient of $x$. Which of the following is the value of $k$?",
+   "answer": "Coefficient of $x^2$: $\\binom{7}{2}2^5k^2 = 672k^2$. Coefficient of $x$: $\\binom{7}{1}2^6k = 448k$. $672k^2 = 6 \\times 448k \\Rightarrow k = 4$.",
+   "options": [
+    "$\\frac{1}{144}$",
+    "$\\frac{1}{4}$",
+    "4",
+    "144"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.4.1"
+   ],
+   "question": "Given $\\mathbf{a} = 3\\mathbf{i} + 2\\mathbf{j}$ and $\\mathbf{b} = -2\\mathbf{i} + \\mathbf{j}$, find $\\mathbf{a}\\cdot\\mathbf{b}$.",
+   "answer": "$\\mathbf{a}\\cdot\\mathbf{b} = 3(-2) + 2(1) = -4$."
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.4.9"
+   ],
+   "question": "Given $\\mathbf{a} = 3\\mathbf{i} + 2\\mathbf{j}$ and $\\mathbf{b} = -2\\mathbf{i} + \\mathbf{j}$ (so $\\mathbf{a}\\cdot\\mathbf{b} = -4$), find $\\text{proj}_{\\mathbf{b}}\\mathbf{a}$ and express your answer in the form $x\\mathbf{i} + y\\mathbf{j}$.",
+   "answer": "$$\\text{proj}_{\\mathbf{b}}\\mathbf{a} = \\frac{\\mathbf{a}\\cdot\\mathbf{b}}{\\mathbf{b}\\cdot\\mathbf{b}}\\,\\mathbf{b} = \\frac{-4}{5}(-2\\mathbf{i} + \\mathbf{j}) = \\frac{8}{5}\\mathbf{i} - \\frac{4}{5}\\mathbf{j}.$$"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.2.6"
+   ],
+   "question": "Ten unbiased six-sided dice are tossed simultaneously. Write an expression for the probability of exactly three of them landing with the number 5 facing up.",
+   "answer": "$X \\sim \\text{Bin}\\left(10, \\frac{1}{6}\\right)$: $P(X = 3) = \\binom{10}{3}\\left(\\frac{1}{6}\\right)^3\\left(\\frac{5}{6}\\right)^7$."
+  },
+  {
+   "ref": "Q11(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.3.2"
+   ],
+   "question": "Given $P(x) = 3x^3 - 2x^2 + x - 3$ has zeroes $\\alpha$, $\\beta$ and $\\gamma$, write down the value of $\\alpha\\beta\\gamma$.",
+   "answer": "$\\alpha\\beta\\gamma = -\\dfrac{d}{a} = -\\dfrac{-3}{3} = 1$."
+  },
+  {
+   "ref": "Q11(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "Given $P(x) = 3x^3 - 2x^2 + x - 3$ has zeroes $\\alpha$, $\\beta$ and $\\gamma$, and $\\alpha\\beta\\gamma = 1$, find the value of $\\dfrac{1}{\\alpha} + \\dfrac{1}{\\beta} + \\dfrac{1}{\\gamma}$.",
+   "answer": "$$\\frac{1}{\\alpha} + \\frac{1}{\\beta} + \\frac{1}{\\gamma} = \\frac{\\alpha\\beta + \\alpha\\gamma + \\beta\\gamma}{\\alpha\\beta\\gamma} = \\frac{\\frac{1}{3}}{1} = \\frac{1}{3}.$$"
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.1",
+    "12.4.2.1"
+   ],
+   "question": "The curves $y = |x|$ and $y = \\dfrac{82}{25 + 4x^2}$ intersect at the points $(2, 2)$ and $(-2, 2)$. Find the area bounded by the curves, as shown in the diagram. Give your answer correct to one decimal place.",
+   "answer": "By symmetry,\n$$A = 2\\int_0^2\\left(\\frac{82}{25 + 4x^2} - x\\right)dx = 2\\left[\\frac{82}{4}\\cdot\\frac{2}{5}\\tan^{-1}\\frac{2x}{5} - \\frac{x^2}{2}\\right]_0^2 = \\frac{82}{5}\\tan^{-1}\\frac{4}{5} - 4 \\approx 7.1 \\text{ units}^2.$$",
+   "images": [
+    "assets/img/ext1-2024-james-ruse/q11d.png"
+   ]
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.9"
+   ],
+   "question": "Three adults and five children go to the cinema and are seated next to each other in a row of eight seats. How many ways can these eight people sit so that at least two of the adults sit next to each other?",
+   "answer": "Total arrangements: $8!$. Arrangements with no two adults together: seat the 5 children ($5!$ ways), creating 6 gaps; place the 3 adults in different gaps in $6 \\times 5 \\times 4$ ways.\n$$8! - 5! \\times 6 \\times 5 \\times 4 = 40320 - 14400 = 25920.$$"
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "Find the term independent of $x$ in the expansion of $\\left(x + \\dfrac{1}{x}\\right)^5\\left(2x^2 - \\dfrac{3}{x}\\right)^6$.",
+   "answer": "General terms: $\\binom{5}{k}x^{5-2k}$ and $\\binom{6}{r}(2x^2)^{6-r}\\left(-\\frac{3}{x}\\right)^r = \\binom{6}{r}2^{6-r}(-3)^r x^{12-3r}$.\nNeed $5 - 2k + 12 - 3r = 0$, i.e. $2k + 3r = 17$, with $0 \\le k \\le 5$, $0 \\le r \\le 6$: $(k, r) = (1, 5)$ or $(4, 3)$.\n$$\\binom{5}{1}\\binom{6}{5}2^1(-3)^5 + \\binom{5}{4}\\binom{6}{3}2^3(-3)^3 = -14580 - 21600 = -36180.$$"
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.5"
+   ],
+   "question": "A thermometer reading 24°C is brought into a room whose temperature is 5°C. After five minutes, the thermometer registers 18°C. Assume that the temperature $T$ of the thermometer decreases at a rate proportional to the difference between the temperature of the thermometer and the temperature of the room; that is, $\\dfrac{dT}{dt} = k(T - 5)$.\n\nShow that $T = 5 + Ae^{kt}$ is a solution to the differential equation above.",
+   "answer": "$\\dfrac{dT}{dt} = kAe^{kt} = k\\left(5 + Ae^{kt} - 5\\right) = k(T - 5)$."
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.7"
+   ],
+   "question": "A thermometer reading 24°C is brought into a room whose temperature is 5°C. After five minutes, the thermometer registers 18°C. Assume that the temperature $T$ of the thermometer decreases at a rate proportional to the difference between the temperature of the thermometer and the temperature of the room; that is, $\\dfrac{dT}{dt} = k(T - 5)$. The solution is $T = 5 + Ae^{kt}$.\n\nHow long will it take for the thermometer to read 10°C? Give your answer correct to the nearest minute.",
+   "answer": "$t = 0$, $T = 24$: $A = 19$. $t = 5$, $T = 18$: $\\frac{13}{19} = e^{5k}$, $k = \\frac{1}{5}\\ln\\frac{13}{19}$.\n$T = 10$: $\\frac{5}{19} = e^{kt}$, so\n$$t = \\frac{5\\ln\\frac{5}{19}}{\\ln\\frac{13}{19}} \\approx 17.6 \\approx 18 \\text{ minutes}.$$"
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.1.8"
+   ],
+   "question": "Find the values of $s$ and $t$ in the following sum of binomial coefficients:\n$$\\binom{2022}{146} + \\binom{2022}{147} + \\binom{2023}{1875} = \\binom{s}{t}.$$",
+   "answer": "Using $\\binom{n}{r} + \\binom{n}{r+1} = \\binom{n+1}{r+1}$ and $\\binom{n}{r} = \\binom{n}{n-r}$:\n$$\\binom{2023}{147} + \\binom{2023}{148} = \\binom{2024}{148}.$$\nSo $s = 2024$, $t = 148$ (or $t = 1876$)."
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "Prove, by mathematical induction, that $n^3 + (n+1)^3 + (n+2)^3$ is divisible by 9 for all integers $n \\ge 1$.",
+   "answer": "**$n = 1$:** $1 + 8 + 27 = 36 = 9 \\times 4$. True.\n\n**Assume true for $n = k$:** $k^3 + (k+1)^3 + (k+2)^3 = 9m$ for some integer $m$.\n\n**Prove for $n = k + 1$:**\n$$(k+1)^3 + (k+2)^3 + (k+3)^3 = 9m - k^3 + (k+3)^3 = 9m + 9k^2 + 27k + 27 = 9(m + k^2 + 3k + 3),$$\nwhich is divisible by 9 since $m + k^2 + 3k + 3$ is an integer. Hence true for all $n \\ge 1$ by mathematical induction."
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.8"
+   ],
+   "question": "Consider the unit circle centred at the origin $O$, with $\\mathbf{i}$ and $\\mathbf{j}$ the standard unit vectors in the horizontal and vertical directions. The points $P$ and $Q$ lie on the unit circle such that $P$ is in the first quadrant and $Q$ is in the fourth quadrant. The angles $POX$ and $QOX$ have measures $\\alpha$ and $\\beta$ respectively, where $X$ is the point $(1, 0)$. Let $\\overrightarrow{OP} = \\mathbf{p}$, $\\overrightarrow{OQ} = \\mathbf{q}$.\n\nFind $\\mathbf{p}$ in terms of $\\alpha$, and $\\mathbf{q}$ in terms of $\\beta$.",
+   "answer": "$\\mathbf{p} = \\cos\\alpha\\,\\mathbf{i} + \\sin\\alpha\\,\\mathbf{j}$ and $\\mathbf{q} = \\cos\\beta\\,\\mathbf{i} - \\sin\\beta\\,\\mathbf{j}$.",
+   "images": [
+    "assets/img/ext1-2024-james-ruse/q14a.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.3"
+   ],
+   "question": "Consider the unit circle centred at the origin $O$, with $\\mathbf{i}$ and $\\mathbf{j}$ the standard unit vectors in the horizontal and vertical directions. The points $P$ and $Q$ lie on the unit circle such that $P$ is in the first quadrant and $Q$ is in the fourth quadrant. The angles $POX$ and $QOX$ have measures $\\alpha$ and $\\beta$ respectively, where $X$ is the point $(1, 0)$. Let $\\overrightarrow{OP} = \\mathbf{p}$, $\\overrightarrow{OQ} = \\mathbf{q}$. Also $\\mathbf{p} = \\cos\\alpha\\,\\mathbf{i} + \\sin\\alpha\\,\\mathbf{j}$ and $\\mathbf{q} = \\cos\\beta\\,\\mathbf{i} - \\sin\\beta\\,\\mathbf{j}$.\n\nBy considering $\\mathbf{p}\\cdot\\mathbf{q}$, show that $\\cos(\\alpha + \\beta) = \\cos\\alpha\\cos\\beta - \\sin\\alpha\\sin\\beta$.",
+   "answer": "Componentwise: $\\mathbf{p}\\cdot\\mathbf{q} = \\cos\\alpha\\cos\\beta - \\sin\\alpha\\sin\\beta$.\nThe angle between $\\mathbf{p}$ and $\\mathbf{q}$ is $\\alpha + \\beta$, and $|\\mathbf{p}| = |\\mathbf{q}| = 1$, so $\\mathbf{p}\\cdot\\mathbf{q} = |\\mathbf{p}||\\mathbf{q}|\\cos(\\alpha + \\beta) = \\cos(\\alpha + \\beta)$.\nHence $\\cos(\\alpha + \\beta) = \\cos\\alpha\\cos\\beta - \\sin\\alpha\\sin\\beta$.",
+   "images": [
+    "assets/img/ext1-2024-james-ruse/q14a.png"
+   ]
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.5"
+   ],
+   "question": "By using an appropriate $t$-formula substitution, solve the equation\n$$3\\cos\\left(\\frac{\\theta}{2}\\right) - \\sin\\left(\\frac{\\theta}{2}\\right) = -3 \\quad \\text{for } 0 \\le \\theta \\le 2\\pi.$$",
+   "answer": "Let $t = \\tan\\frac{\\theta}{4}$ (so $\\frac{\\theta}{4} \\in \\left[0, \\frac{\\pi}{2}\\right]$, and $t$ is defined except at $\\theta = 2\\pi$):\n$$3\\left(\\frac{1 - t^2}{1 + t^2}\\right) - \\frac{2t}{1 + t^2} = -3 \\Rightarrow 3 - 3t^2 - 2t = -3 - 3t^2 \\Rightarrow t = 3.$$\nSo $\\frac{\\theta}{4} = \\tan^{-1}3 \\approx 1.249$, giving $\\theta \\approx 5.00$.\nCheck $\\theta = 2\\pi$ separately (where $\\tan\\frac{\\theta}{4}$ is undefined): $3\\cos\\pi - \\sin\\pi = -3$ ✓.\nSolutions: $\\theta = 4\\tan^{-1}3 \\approx 5.00$ or $\\theta = 2\\pi$.",
+   "course": "extension2"
+  },
+  {
+   "ref": "Q15(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.1.3"
+   ],
+   "question": "Sketch the graphs of $y = |x^2 - 3x + 2|$ and $y = 2$ on the same axes.",
+   "answer": "$x^2 - 3x + 2 = (x - 1)(x - 2)$. The parabola has $x$-intercepts 1 and 2 and $y$-intercept 2; the part between $x = 1$ and $x = 2$ (minimum $-\\frac{1}{4}$ at $x = \\frac{3}{2}$) is reflected above the axis, with maximum $\\frac{1}{4}$. The line $y = 2$ meets the graph at $x = 0$ and $x = 3$.",
+   "answer_images": [
+    "assets/img/ext1-2024-james-ruse/q15a-sol.png"
+   ]
+  },
+  {
+   "ref": "Q15(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.4.3"
+   ],
+   "question": "The graphs of $y = |x^2 - 3x + 2|$ and $y = 2$ meet at $x = 0$ and $x = 3$. Hence, or otherwise, solve $|x^2 - 3x + 2| > 2$.",
+   "answer": "$x < 0$ or $x > 3$. (Algebraically: $x^2 - 3x + 2 > 2 \\Rightarrow x(x - 3) > 0$; and $x^2 - 3x + 2 < -2$ has no solutions since the minimum is $-\\frac{1}{4}$.)",
+   "answer_images": [
+    "assets/img/ext1-2024-james-ruse/q15a-sol.png"
+   ]
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.2.2",
+    "11.3.2.4"
+   ],
+   "question": "Let $\\theta$ be the measure of an acute angle. Using a suitable expansion of $\\sin 6\\theta$, show that\n$$(\\sin 2\\theta)^3 - \\frac{3}{4}\\sin 2\\theta + \\frac{1}{4}\\sin 6\\theta = 0.$$",
+   "answer": "$$\\sin 6\\theta = \\sin(4\\theta + 2\\theta) = \\sin 4\\theta\\cos 2\\theta + \\cos 4\\theta\\sin 2\\theta = 2\\sin 2\\theta\\cos^2 2\\theta + (1 - 2\\sin^2 2\\theta)\\sin 2\\theta$$\n$$= 2\\sin 2\\theta(1 - \\sin^2 2\\theta) + \\sin 2\\theta - 2\\sin^3 2\\theta = 3\\sin 2\\theta - 4\\sin^3 2\\theta.$$\nSo LHS $= \\sin^3 2\\theta - \\frac{3}{4}\\sin 2\\theta + \\frac{1}{4}(3\\sin 2\\theta - 4\\sin^3 2\\theta) = 0$."
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.4"
+   ],
+   "question": "It is known that $(\\sin 2\\theta)^3 - \\frac{3}{4}\\sin 2\\theta + \\frac{1}{4}\\sin 6\\theta = 0$. If $x = 4\\sin 2\\theta$ and $x^3 - 12x + 8 = 0$, show that $\\sin 6\\theta = \\frac{1}{2}$.",
+   "answer": "Substitute: $64\\sin^3 2\\theta - 48\\sin 2\\theta + 8 = 0$. Divide by 64: $\\sin^3 2\\theta - \\frac{3}{4}\\sin 2\\theta + \\frac{1}{8} = 0$.\nComparing with the identity, $\\sin^3 2\\theta - \\frac{3}{4}\\sin 2\\theta = -\\frac{1}{4}\\sin 6\\theta$, so $-\\frac{1}{4}\\sin 6\\theta + \\frac{1}{8} = 0$, giving $\\sin 6\\theta = \\frac{1}{2}$."
+  },
+  {
+   "ref": "Q15(b)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.2.3.4",
+    "11.3.3.1"
+   ],
+   "question": "If $x = 4\\sin 2\\theta$ satisfies $x^3 - 12x + 8 = 0$, then $\\sin 6\\theta = \\frac{1}{2}$. Use this result to find the value of\n$$\\left(\\sin\\frac{\\pi}{18}\\right)^2 + \\left(\\sin\\frac{13\\pi}{18}\\right)^2 + \\left(\\sin\\frac{25\\pi}{18}\\right)^2.$$",
+   "answer": "$\\sin 6\\theta = \\frac{1}{2}$ gives $6\\theta = \\frac{\\pi}{6}, \\frac{13\\pi}{6}, \\frac{25\\pi}{6}, \\dots$, i.e. $2\\theta = \\frac{\\pi}{18}, \\frac{13\\pi}{18}, \\frac{25\\pi}{18}$. These give three distinct values of $x = 4\\sin 2\\theta$, so they are the three roots of $x^3 - 12x + 8 = 0$ (other solutions repeat these values).\nSum of roots $= 0$; sum of products in pairs $= -12$. So\n$$\\sum x^2 = \\left(\\sum x\\right)^2 - 2\\sum x_ix_j = 0 + 24 = 24.$$\nSince each $x^2 = 16\\sin^2 2\\theta$:\n$$\\sin^2\\frac{\\pi}{18} + \\sin^2\\frac{13\\pi}{18} + \\sin^2\\frac{25\\pi}{18} = \\frac{24}{16} = \\frac{3}{2}.$$"
+  },
+  {
+   "ref": "Q16(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.1",
+    "12.5.2.2"
+   ],
+   "question": "Liquid is poured into a large vertical circular cylinder at a constant rate of 1600 cm³ s⁻¹. At the same time, liquid is leaking from a hole in the base of the cylinder at a rate that is proportional to the square root of the height of the liquid in the cylinder. The area of the circular cross-section of the cylinder is 4000 cm².\n\nShow that at time $t$ seconds, the height $h$ cm of liquid in the cylinder satisfies the differential equation\n$$\\frac{dh}{dt} = 0.4 - c\\sqrt{h},$$\nwhere $c$ is a constant.",
+   "answer": "$V = 4000h$, so $\\frac{dV}{dh} = 4000$. The net rate is $\\frac{dV}{dt} = 1600 - k\\sqrt{h}$ for some constant $k > 0$.\n$$\\frac{dh}{dt} = \\frac{dV}{dt} \\div \\frac{dV}{dh} = \\frac{1600 - k\\sqrt{h}}{4000} = 0.4 - c\\sqrt{h}, \\quad \\text{where } c = \\frac{k}{4000}.$$"
+  },
+  {
+   "ref": "Q16(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.1"
+   ],
+   "question": "Liquid is poured into a large vertical circular cylinder at a constant rate of 1600 cm³ s⁻¹. At the same time, liquid is leaking from a hole in the base of the cylinder at a rate that is proportional to the square root of the height of the liquid in the cylinder. The area of the circular cross-section of the cylinder is 4000 cm². The height satisfies $\\frac{dh}{dt} = 0.4 - c\\sqrt{h}$, where the leak rate is $k\\sqrt{h}$ cm³ s⁻¹ and $c = \\frac{k}{4000}$.\n\nWhen $h = 25$ cm, liquid is leaking from the hole at a rate of 400 cm³ s⁻¹. Show that $c = 0.02$.",
+   "answer": "$k\\sqrt{25} = 400 \\Rightarrow k = 80$, so $c = \\dfrac{80}{4000} = 0.02$."
+  },
+  {
+   "ref": "Q16(a)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.11"
+   ],
+   "question": "The height $h$ cm of liquid in a cylinder at time $t$ seconds satisfies $\\dfrac{dh}{dt} = 0.4 - 0.02\\sqrt{h}$. Show that the time taken to fill the cylinder from being empty to having a height of 100 cm is given by\n$$\\int_0^{100}\\frac{50}{20 - \\sqrt{h}}\\,dh.$$",
+   "answer": "$$\\frac{dt}{dh} = \\frac{1}{0.4 - 0.02\\sqrt{h}} = \\frac{50}{20 - \\sqrt{h}}.$$\nWith $t = 0$ at $h = 0$ and $t = T$ at $h = 100$:\n$$T = \\int_0^T dt = \\int_0^{100}\\frac{50}{20 - \\sqrt{h}}\\,dh.$$"
+  },
+  {
+   "ref": "Q16(a)(iv)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Using the substitution $\\sqrt{h} = 20 - x$, or otherwise, evaluate\n$$\\int_0^{100}\\frac{50}{20 - \\sqrt{h}}\\,dh.$$\nGive your answer correct to the nearest second (the integral gives the time, in seconds, to fill a cylinder).",
+   "answer": "$h = (20 - x)^2$, $dh = -2(20 - x)\\,dx$; $h = 0 \\Rightarrow x = 20$, $h = 100 \\Rightarrow x = 10$.\n$$\\int_{20}^{10}\\frac{50}{x}\\cdot(-2)(20 - x)\\,dx = 100\\int_{10}^{20}\\left(\\frac{20}{x} - 1\\right)dx = 100\\left[20\\ln x - x\\right]_{10}^{20} = 2000\\ln 2 - 1000 \\approx 386 \\text{ s}.$$"
+  },
+  {
+   "ref": "Q16(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.4"
+   ],
+   "question": "By use of a product-to-sum identity, find $\\displaystyle\\int \\cos 2x\\sin 3x\\,dx$.",
+   "answer": "$\\cos 2x\\sin 3x = \\frac{1}{2}\\left[\\sin 5x + \\sin x\\right]$, so\n$$\\int \\cos 2x\\sin 3x\\,dx = \\frac{1}{2}\\int(\\sin 5x + \\sin x)\\,dx = -\\frac{1}{10}\\cos 5x - \\frac{1}{2}\\cos x + C.$$",
+   "course": "extension2"
+  },
+  {
+   "ref": "Q17(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3",
+    "12.5.3.2"
+   ],
+   "question": "Consider the two-body construction shown. A crate of mass $m_1 = 2500$ kg lies on a smooth inclined plane. It is connected by a light, inextensible cable through a smooth pulley to a second crate of mass $m_2 = 4000$ kg, which hangs vertically. The plane has an angle of inclination of 30°. Taking the upward direction of the incline as positive, find the acceleration of $m_1$ in terms of $g$ in its simplest form.",
+   "answer": "The cable is light and inextensible, so the tension $T$ is the same throughout and both crates have the same magnitude of acceleration $a$.\nAlong the incline for $m_1$: $T - m_1g\\sin 30° = m_1a$. (1)\nVertically (down positive) for $m_2$: $m_2g - T = m_2a$. (2)\nAdding: $m_2g - \\frac{1}{2}m_1g = (m_1 + m_2)a$, so\n$$a = \\frac{(2m_2 - m_1)g}{2(m_1 + m_2)} = \\frac{5500}{13000}g = \\frac{11g}{26} \\text{ m s}^{-2} \\text{ (up the incline)}.$$",
+   "course": "extension2",
+   "images": [
+    "assets/img/ext1-2024-james-ruse/q17a.png"
+   ]
+  },
+  {
+   "ref": "Q17(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.2.12"
+   ],
+   "question": "The graphs of $y = (x - 1)^2$ and $y = \\sqrt{x - 1}$ intersect at $(1, 0)$ and $P(x, y)$, as shown. Write down the point of intersection $P(x, y)$.",
+   "answer": "$P(2, 1)$ (check: $(2 - 1)^2 = 1 = \\sqrt{2 - 1}$).",
+   "images": [
+    "assets/img/ext1-2024-james-ruse/q17b.png"
+   ]
+  },
+  {
+   "ref": "Q17(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.4"
+   ],
+   "question": "The graphs of $y = (x - 1)^2$ and $y = \\sqrt{x - 1}$ intersect at $(1, 0)$ and $(2, 1)$. Find the volume of the solid of revolution formed by rotating the region bounded by $y = \\sqrt{x - 1}$ and $y = (x - 1)^2$ about the $y$-axis.",
+   "answer": "For $1 \\le x \\le 2$: $y = (x - 1)^2 \\Rightarrow x = 1 + \\sqrt{y}$ (outer), and $y = \\sqrt{x - 1} \\Rightarrow x = 1 + y^2$ (inner), for $0 \\le y \\le 1$.\n$$V = \\pi\\int_0^1\\left[(1 + \\sqrt{y})^2 - (1 + y^2)^2\\right]dy = \\pi\\int_0^1\\left(2\\sqrt{y} + y - 2y^2 - y^4\\right)dy$$\n$$= \\pi\\left[\\frac{4}{3}y^{3/2} + \\frac{y^2}{2} - \\frac{2y^3}{3} - \\frac{y^5}{5}\\right]_0^1 = \\pi\\left(\\frac{4}{3} + \\frac{1}{2} - \\frac{2}{3} - \\frac{1}{5}\\right) = \\frac{29\\pi}{30} \\text{ units}^3.$$",
+   "images": [
+    "assets/img/ext1-2024-james-ruse/q17b.png"
+   ]
+  },
+  {
+   "ref": "Q17(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.3.1.6",
+    "11.3.2.2"
+   ],
+   "question": "Show that\n$$\\tan^{-1}\\left(\\frac{3a^2x - x^3}{a^3 - 3ax^2}\\right) = 3\\tan^{-1}\\left(\\frac{x}{a}\\right), \\quad \\text{where } a > 0,\\ -\\frac{a}{\\sqrt{3}} < x < \\frac{a}{\\sqrt{3}}.$$\nAny identity used that is not listed on the reference sheet must be derived.",
+   "answer": "Let $\\theta = \\tan^{-1}\\frac{x}{a}$ and $t = \\tan\\theta = \\frac{x}{a}$. Using $\\tan(2\\theta + \\theta)$ and $\\tan 2\\theta = \\frac{2t}{1 - t^2}$:\n$$\\tan 3\\theta = \\frac{\\frac{2t}{1 - t^2} + t}{1 - \\frac{2t^2}{1 - t^2}} = \\frac{3t - t^3}{1 - 3t^2} = \\frac{3\\frac{x}{a} - \\frac{x^3}{a^3}}{1 - \\frac{3x^2}{a^2}} = \\frac{3a^2x - x^3}{a^3 - 3ax^2}.$$\nSince $a > 0$ and $-\\frac{a}{\\sqrt{3}} < x < \\frac{a}{\\sqrt{3}}$, we have $-\\frac{1}{\\sqrt{3}} < \\frac{x}{a} < \\frac{1}{\\sqrt{3}}$, so $-\\frac{\\pi}{6} < \\theta < \\frac{\\pi}{6}$ and $-\\frac{\\pi}{2} < 3\\theta < \\frac{\\pi}{2}$ (this also ensures the denominator is non-zero). Therefore $\\tan^{-1}(\\tan 3\\theta) = 3\\theta$, and\n$$\\tan^{-1}\\left(\\frac{3a^2x - x^3}{a^3 - 3ax^2}\\right) = 3\\theta = 3\\tan^{-1}\\frac{x}{a}.$$"
+  }
+ ]
+}
