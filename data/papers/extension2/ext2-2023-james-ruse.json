@@ -1,0 +1,637 @@
+{
+ "id": "ext2-2023-james-ruse",
+ "course": "extension2",
+ "school": "James Ruse",
+ "year": 2023,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "James Ruse 2023 w. sol"
+ },
+ "indexed": "2026-11-12",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.5",
+    "12.1.1.11"
+   ],
+   "question": "Which of the following is not equivalent to $P \\Rightarrow Q$?",
+   "answer": "A and B are standard readings of $P \\Rightarrow Q$, and C is its contrapositive, which is equivalent. So all three are equivalent: D.",
+   "options": [
+    "$P$ is sufficient for $Q$",
+    "$Q$ is necessary for $P$",
+    "If $Q$ is false, then $P$ is false",
+    "None of the above"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.9",
+    "12.3.2.5"
+   ],
+   "question": "In which quadrant is the complex number $(-3 + 3i)^3$ located on the Argand plane?",
+   "answer": "$(-3 + 3i)^3 = -27 + 81i + 81 - 27i = 54 + 54i$, in the first quadrant. (Or: $\\arg = 3 \\times \\frac{3\\pi}{4} = \\frac{9\\pi}{4} \\equiv \\frac{\\pi}{4}$.)",
+   "options": [
+    "The first quadrant",
+    "The second quadrant",
+    "The third quadrant",
+    "The fourth quadrant"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.6"
+   ],
+   "question": "A line has equation $\\mathbf{r} = \\begin{pmatrix} 2 \\\\ -1 \\\\ 0 \\end{pmatrix} + \\lambda\\begin{pmatrix} -1 \\\\ 2 \\\\ 5 \\end{pmatrix}$, $\\lambda \\in \\mathbb{R}$. Which of the following is parallel to this line?",
+   "answer": "$(3, -6, -15) = -3(-1, 2, 5)$, so B has a parallel direction vector.",
+   "options": [
+    "$\\mathbf{r} = \\begin{pmatrix} 2 \\\\ 1 \\\\ 0 \\end{pmatrix} + \\lambda\\begin{pmatrix} 3 \\\\ 2 \\\\ -15 \\end{pmatrix}$",
+    "$\\mathbf{r} = \\begin{pmatrix} 1 \\\\ 0 \\\\ 1 \\end{pmatrix} + \\lambda\\begin{pmatrix} 3 \\\\ -6 \\\\ -15 \\end{pmatrix}$",
+    "$\\mathbf{r} = \\begin{pmatrix} 0 \\\\ -1 \\\\ 2 \\end{pmatrix} + \\lambda\\begin{pmatrix} 1 \\\\ -2 \\\\ 1 \\end{pmatrix}$",
+    "$\\mathbf{r} = \\begin{pmatrix} -1 \\\\ 2 \\\\ 5 \\end{pmatrix} + \\lambda\\begin{pmatrix} 1 \\\\ 2 \\\\ -5 \\end{pmatrix}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.9"
+   ],
+   "question": "Which of the following is an expression for $\\displaystyle\\int\\frac{dx}{\\sqrt{7 - 6x - x^2}}$?",
+   "answer": "$7 - 6x - x^2 = 16 - (x + 3)^2$, so the integral is $\\sin^{-1}\\left(\\frac{x + 3}{4}\\right) + C$.",
+   "options": [
+    "$\\sin^{-1}\\left(\\frac{x-3}{2}\\right) + C$",
+    "$\\sin^{-1}\\left(\\frac{x+3}{2}\\right) + C$",
+    "$\\sin^{-1}\\left(\\frac{x-3}{4}\\right) + C$",
+    "$\\sin^{-1}\\left(\\frac{x+3}{4}\\right) + C$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.5.2"
+   ],
+   "question": "In the diagram, $z$ is any complex number which lies on the line $S$. Which equation best describes the locus of $z$?",
+   "answer": "$S$ is the whole line $y = -x$ (not a ray). It is the perpendicular bisector of the points $2$ and $-2i$, i.e. $|z - 2| = |z + 2i|$. ($|z - 2| = |z - 2i|$ would be the line $y = x$.)",
+   "options": [
+    "$\\arg z = \\frac{\\pi}{4}$",
+    "$\\arg z = \\frac{3\\pi}{4}$",
+    "$|z - 2| = |z - 2i|$",
+    "$|z - 2| = |z + 2i|$"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/ext2-2023-james-ruse/q5.png"
+   ]
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "The polynomial $P(z)$ has real coefficients and $P(0) = -1$. The imaginary number $\\alpha$ and the real number $\\beta$ satisfy $P(\\alpha) = 0$, $P(\\beta) = 0$ and $P'(\\beta) = 0$. The degree of $P(z)$ is at least:",
+   "answer": "Real coefficients, so $\\bar{\\alpha}$ is also a root; $\\beta$ is a root of multiplicity at least 2. So $P$ has at least the roots $\\alpha, \\bar{\\alpha}, \\beta, \\beta$: degree at least 4.",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Which expression is equal to $\\displaystyle\\int 3\\sqrt{x}\\ln x\\,dx$?",
+   "answer": "By parts with $u = \\ln x$, $v' = \\sqrt{x}$:\n$$3\\left[\\frac{2}{3}x^{3/2}\\ln x - \\int\\frac{2}{3}x^{1/2}\\,dx\\right] = 2x^{3/2}\\ln x - \\frac{4}{3}x^{3/2} + c = 2x\\sqrt{x}\\left(\\ln x - \\frac{2}{3}\\right) + c.$$",
+   "options": [
+    "$2x\\sqrt{x}\\left(\\ln x - \\frac{2}{3}\\right) + c$",
+    "$2x\\sqrt{x}\\left(\\ln x + \\frac{2}{3}\\right) + c$",
+    "$\\frac{1}{\\sqrt{x}}\\left(\\frac{3}{2}\\ln x - 1\\right) + c$",
+    "$\\frac{1}{\\sqrt{x}}\\left(\\frac{3}{2}\\ln x + 1\\right) + c$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.8"
+   ],
+   "question": "A particle is travelling in simple harmonic motion such that its velocity, in metres per second, is given by $v^2 = a^2 - b^2x^2$, where $a, b \\ne 0$. What is the period of motion?",
+   "answer": "$v^2 = b^2\\left(\\frac{a^2}{b^2} - x^2\\right)$, so $n = |b|$ and the period is $\\frac{2\\pi}{b}$ (taking $b > 0$).",
+   "options": [
+    "$\\frac{2b\\pi}{a}$",
+    "$\\frac{2a\\pi}{b}$",
+    "$\\frac{2\\pi}{a}$",
+    "$\\frac{2\\pi}{b}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.13"
+   ],
+   "question": "Which of the equations best represents the curve shown?",
+   "answer": "The spiral's radius is smallest at $z = 0$ and grows steadily in both directions — a double cone. For B the radius is $|t| = |z|$. (A is a cylinder of constant radius; in C the radius would grow as $z \\to 0$.)",
+   "options": [
+    "$\\mathbf{r}(t) = (\\cos t)\\mathbf{i} + (\\sin t)\\mathbf{j} + t\\mathbf{k}$",
+    "$\\mathbf{r}(t) = (t\\cos t)\\mathbf{i} + (t\\sin t)\\mathbf{j} + t\\mathbf{k}$",
+    "$\\mathbf{r}(t) = (t\\cos t)\\mathbf{i} + (t\\sin t)\\mathbf{j} + \\left(\\frac{1}{t}\\right)\\mathbf{k}$",
+    "$\\mathbf{r}(t) = (\\cos t)\\mathbf{i} + (\\sin t)\\mathbf{j} + \\left(\\frac{1}{t}\\right)\\mathbf{k}$"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/ext2-2023-james-ruse/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.1"
+   ],
+   "question": "A particle is moving along a straight line. At time $t$, its velocity is $v$ and its displacement from a fixed origin is $x$. If $\\dfrac{dv}{dx} = \\dfrac{1}{2v}$, which of the following best describes the particle's acceleration and velocity?",
+   "answer": "$a = v\\dfrac{dv}{dx} = \\dfrac{1}{2}$, a positive constant, so the velocity is increasing.",
+   "options": [
+    "Constant acceleration and constant velocity",
+    "Constant acceleration and decreasing velocity",
+    "Constant acceleration and increasing velocity",
+    "Increasing acceleration and increasing velocity"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.6",
+    "12.3.4.3"
+   ],
+   "question": "By first writing $\\sqrt{3} + i$ and $\\sqrt{3} - i$ in modulus–argument (polar) form, express $\\left(\\sqrt{3} + i\\right)^{12} + \\left(\\sqrt{3} - i\\right)^{12}$ in the form $a^b$, where $a$ and $b$ are integers.",
+   "answer": "$\\sqrt{3} \\pm i = 2\\,\\text{cis}\\left(\\pm\\frac{\\pi}{6}\\right)$. By de Moivre's theorem:\n$$2^{12}\\text{cis}(2\\pi) + 2^{12}\\text{cis}(-2\\pi) = 2^{12} + 2^{12} = 2^{13}.$$\n(The original question asked for exponential form; it is reworded for the 2024 syllabus.)"
+  },
+  {
+   "ref": "Q11(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "The $n$th pentagonal number can be represented by the arithmetic series $P_5(n) = 1 + 4 + 7 + \\dots + (3n - 2)$. Hence show that $P_5(n) = \\dfrac{3n^2 - n}{2}$ for $n \\in \\mathbb{Z}^+$.",
+   "answer": "An arithmetic series with $n$ terms, first term 1 and last term $3n - 2$:\n$$P_5(n) = \\frac{n}{2}\\left(1 + 3n - 2\\right) = \\frac{3n^2 - n}{2}.$$"
+  },
+  {
+   "ref": "Q11(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.4.1"
+   ],
+   "question": "For an $r$-sided regular polygon, where $r \\in \\mathbb{Z}^+$, $r \\ge 3$, the $n$th polygonal number $P_r(n)$ is given by $P_r(n) = \\dfrac{(r - 2)n^2 - (r - 4)n}{2}$, where $n \\in \\mathbb{Z}^+$. The $n$th polygonal number can also be represented by the series $\\displaystyle\\sum_{m=1}^{n}\\left(1 + (m - 1)(r - 2)\\right)$. Use mathematical induction to prove that\n$$\\sum_{m=1}^{n}\\left(1 + (m - 1)(r - 2)\\right) = \\frac{(r - 2)n^2 - (r - 4)n}{2}, \\quad n \\in \\mathbb{Z}^+.$$",
+   "answer": "**$n = 1$:** LHS $= 1$; RHS $= \\frac{(r - 2) - (r - 4)}{2} = 1$. True.\n\n**Assume true for $n = k$:** $\\sum_{m=1}^{k}(1 + (m - 1)(r - 2)) = \\frac{(r - 2)k^2 - (r - 4)k}{2}$.\n\n**Prove for $n = k + 1$:**\n$$\\text{LHS} = \\frac{(r - 2)k^2 - (r - 4)k}{2} + 1 + k(r - 2) = \\frac{(r - 2)k^2 - (r - 4)k + 2(r - 2)k + 2}{2}.$$\nRHS $= \\frac{(r - 2)(k + 1)^2 - (r - 4)(k + 1)}{2} = \\frac{(r - 2)k^2 + 2(r - 2)k + (r - 2) - (r - 4)k - (r - 4)}{2} = \\frac{(r - 2)k^2 - (r - 4)k + 2(r - 2)k + 2}{2}$ = LHS.\nHence true for all $n \\in \\mathbb{Z}^+$ by mathematical induction."
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.12",
+    "12.1.2.3"
+   ],
+   "question": "Given $a \\in \\mathbb{Z}$, prove that if $3a^2 - 4a + 5$ is even, then $a$ is odd.",
+   "answer": "Prove the contrapositive: if $a$ is even, then $3a^2 - 4a + 5$ is odd.\nLet $a = 2m$, $m \\in \\mathbb{Z}$: $3a^2 - 4a + 5 = 12m^2 - 8m + 5 = 2(6m^2 - 4m + 2) + 1$, which is odd. Hence the original statement is true."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.18"
+   ],
+   "question": "Find the equation of a sphere whose centre is at $(1, 0, 1)$ and which touches the line $\\mathbf{r} = \\begin{pmatrix} 3 \\\\ 1 \\\\ 2 \\end{pmatrix} + \\lambda\\begin{pmatrix} 2 \\\\ 1 \\\\ 2 \\end{pmatrix}$, $\\lambda \\in \\mathbb{R}$.",
+   "answer": "The radius is the shortest distance from $C(1, 0, 1)$ to the line. A point on the line minus $C$ is $(2 + 2\\lambda, 1 + \\lambda, 1 + 2\\lambda)$; it is perpendicular to $(2, 1, 2)$ when\n$$2(2 + 2\\lambda) + (1 + \\lambda) + 2(1 + 2\\lambda) = 7 + 9\\lambda = 0 \\Rightarrow \\lambda = -\\frac{7}{9}.$$\nThen the vector is $\\left(\\frac{4}{9}, \\frac{2}{9}, -\\frac{5}{9}\\right)$ with length$^2 = \\frac{16 + 4 + 25}{81} = \\frac{5}{9}$.\nSphere: $(x - 1)^2 + y^2 + (z - 1)^2 = \\dfrac{5}{9}$, i.e. $\\left|\\mathbf{r} - \\begin{pmatrix} 1 \\\\ 0 \\\\ 1 \\end{pmatrix}\\right| = \\dfrac{\\sqrt{5}}{3}$."
+  },
+  {
+   "ref": "Q11(e)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "In the diagram, $OABCD$ is a solid figure where $|\\overrightarrow{OA}| = |\\overrightarrow{OB}| = 4$ units and $|\\overrightarrow{OD}| = 3$ units. The edge $\\overrightarrow{OD}$ is vertical, $\\overrightarrow{DC}$ is parallel to $\\overrightarrow{OB}$ and $|\\overrightarrow{DC}| = 1$ unit. The base $OAB$ is horizontal and $\\angle AOB = 90°$. Unit vectors $\\mathbf{i}$, $\\mathbf{j}$ and $\\mathbf{k}$ are parallel to $\\overrightarrow{OA}$, $\\overrightarrow{OB}$ and $\\overrightarrow{OD}$ respectively. The midpoint of $AB$ is $M$ and the point $N$ on $BC$ is such that $\\overrightarrow{NC} = 2\\overrightarrow{BN}$.\n\nExpress vectors $\\overrightarrow{MD}$ and $\\overrightarrow{ON}$ in terms of $\\mathbf{i}$, $\\mathbf{j}$ and $\\mathbf{k}$.",
+   "answer": "$A = (4, 0, 0)$, $B = (0, 4, 0)$, $D = (0, 0, 3)$, $C = D + \\mathbf{j} = (0, 1, 3)$, $M = (2, 2, 0)$.\n$\\overrightarrow{MD} = -2\\mathbf{i} - 2\\mathbf{j} + 3\\mathbf{k}$.\n$\\overrightarrow{ON} = \\overrightarrow{OB} + \\frac{1}{3}\\overrightarrow{BC} = 4\\mathbf{j} + \\frac{1}{3}(-3\\mathbf{j} + 3\\mathbf{k}) = 3\\mathbf{j} + \\mathbf{k}$.",
+   "images": [
+    "assets/img/ext2-2023-james-ruse/q11e.png"
+   ]
+  },
+  {
+   "ref": "Q11(e)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "In the diagram, $OABCD$ is a solid figure where $|\\overrightarrow{OA}| = |\\overrightarrow{OB}| = 4$ units and $|\\overrightarrow{OD}| = 3$ units. The edge $\\overrightarrow{OD}$ is vertical, $\\overrightarrow{DC}$ is parallel to $\\overrightarrow{OB}$ and $|\\overrightarrow{DC}| = 1$ unit. The base $OAB$ is horizontal and $\\angle AOB = 90°$. Unit vectors $\\mathbf{i}$, $\\mathbf{j}$ and $\\mathbf{k}$ are parallel to $\\overrightarrow{OA}$, $\\overrightarrow{OB}$ and $\\overrightarrow{OD}$ respectively. The midpoint of $AB$ is $M$ and the point $N$ on $BC$ is such that $\\overrightarrow{NC} = 2\\overrightarrow{BN}$. Also $\\overrightarrow{MD} = -2\\mathbf{i} - 2\\mathbf{j} + 3\\mathbf{k}$ and $\\overrightarrow{ON} = 3\\mathbf{j} + \\mathbf{k}$.\n\nCalculate the angle between $\\overrightarrow{MD}$ and $\\overrightarrow{ON}$.",
+   "answer": "$\\overrightarrow{MD}\\cdot\\overrightarrow{ON} = 0 - 6 + 3 = -3$, $|\\overrightarrow{MD}| = \\sqrt{17}$, $|\\overrightarrow{ON}| = \\sqrt{10}$.\nThe (acute) angle between the lines satisfies $\\cos\\theta = \\frac{3}{\\sqrt{170}}$, so $\\theta \\approx 76°42'$ (the angle between the vectors themselves is $103°18'$).",
+   "images": [
+    "assets/img/ext2-2023-james-ruse/q11e.png"
+   ]
+  },
+  {
+   "ref": "Q11(e)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "In the diagram, $OABCD$ is a solid figure where $|\\overrightarrow{OA}| = |\\overrightarrow{OB}| = 4$ units and $|\\overrightarrow{OD}| = 3$ units. The edge $\\overrightarrow{OD}$ is vertical, $\\overrightarrow{DC}$ is parallel to $\\overrightarrow{OB}$ and $|\\overrightarrow{DC}| = 1$ unit. The base $OAB$ is horizontal and $\\angle AOB = 90°$. Unit vectors $\\mathbf{i}$, $\\mathbf{j}$ and $\\mathbf{k}$ are parallel to $\\overrightarrow{OA}$, $\\overrightarrow{OB}$ and $\\overrightarrow{OD}$ respectively. The midpoint of $AB$ is $M$ and the point $N$ on $BC$ is such that $\\overrightarrow{NC} = 2\\overrightarrow{BN}$. Also $M = (2, 2, 0)$ and $\\overrightarrow{ON} = 3\\mathbf{j} + \\mathbf{k}$.\n\nUsing vector methods, show that the length of the perpendicular from $M$ to $\\overrightarrow{ON}$ is $\\sqrt{\\frac{22}{5}}$ units.",
+   "answer": "Let $P$ be the foot of the perpendicular. $\\overrightarrow{OP} = \\text{proj}_{\\overrightarrow{ON}}\\overrightarrow{OM} = \\dfrac{(2, 2, 0)\\cdot(0, 3, 1)}{10}\\overrightarrow{ON} = \\dfrac{6}{10}\\overrightarrow{ON}$, so $|\\overrightarrow{OP}| = \\dfrac{3\\sqrt{10}}{5}$.\nBy Pythagoras in $\\triangle OPM$ ($|\\overrightarrow{OM}|^2 = 8$):\n$$|\\overrightarrow{PM}|^2 = 8 - \\frac{90}{25} = \\frac{22}{5} \\Rightarrow |\\overrightarrow{PM}| = \\sqrt{\\frac{22}{5}} \\text{ units}.$$",
+   "images": [
+    "assets/img/ext2-2023-james-ruse/q11e.png"
+   ]
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Let $\\alpha$ be a real number and suppose that $z$ is a complex number such that $z + \\frac{1}{z} = 2\\cos\\alpha$. You may assume that $z^n + \\frac{1}{z^n} = 2\\cos n\\alpha$ for all positive integers $n$. Let $\\omega = z + \\frac{1}{z}$.\n\nShow that $\\omega^4 + \\omega^3 - 3\\omega^2 - 2\\omega = z + \\frac{1}{z} + z^2 + \\frac{1}{z^2} + z^3 + \\frac{1}{z^3} + z^4 + \\frac{1}{z^4}$.",
+   "answer": "$\\omega^2 = z^2 + z^{-2} + 2$, $\\omega^3 = z^3 + z^{-3} + 3\\omega$, $\\omega^4 = z^4 + z^{-4} + 4(z^2 + z^{-2}) + 6$.\n$$\\omega^4 + \\omega^3 - 3\\omega^2 - 2\\omega = (z^4 + z^{-4}) + 4(z^2 + z^{-2}) + 6 + (z^3 + z^{-3}) + 3\\omega - 3(z^2 + z^{-2}) - 6 - 2\\omega$$\n$$= (z^4 + z^{-4}) + (z^3 + z^{-3}) + (z^2 + z^{-2}) + (z + z^{-1}).$$"
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.5"
+   ],
+   "question": "Find the ninth roots of unity.",
+   "answer": "$z^9 = 1 = \\text{cis}(2k\\pi)$, so $z = \\text{cis}\\dfrac{2k\\pi}{9}$ for $k = 0, \\pm 1, \\pm 2, \\pm 3, \\pm 4$."
+  },
+  {
+   "ref": "Q12(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.12",
+    "12.3.4.4"
+   ],
+   "question": "Let $\\alpha$ be a real number and suppose that $z$ is a complex number such that $z + \\frac{1}{z} = 2\\cos\\alpha$. You may assume that $z^n + \\frac{1}{z^n} = 2\\cos n\\alpha$ for all positive integers $n$. Let $\\omega = z + \\frac{1}{z}$. It is known that $\\omega^4 + \\omega^3 - 3\\omega^2 - 2\\omega = \\sum_{k=1}^{4}\\left(z^k + z^{-k}\\right)$.\n\nHence or otherwise, find all solutions of $16\\cos^4\\alpha + 8\\cos^3\\alpha - 12\\cos^2\\alpha - 4\\cos\\alpha + 1 = 0$.",
+   "answer": "With $\\omega = 2\\cos\\alpha$, the equation is $\\omega^4 + \\omega^3 - 3\\omega^2 - 2\\omega + 1 = 0$, i.e.\n$$1 + \\sum_{k=1}^{4}(z^k + z^{-k}) = z^{-4}(1 + z + z^2 + \\dots + z^8) = 0,$$\nwhich holds when $z = \\text{cis}\\,\\alpha$ is a ninth root of unity other than 1. So $\\cos\\alpha = \\cos\\frac{2\\pi}{9}, \\cos\\frac{4\\pi}{9}, \\cos\\frac{6\\pi}{9} = -\\frac{1}{2}, \\cos\\frac{8\\pi}{9}$ — four distinct values, so these are all the roots of the quartic in $\\cos\\alpha$.\n$$\\alpha = \\pm\\frac{2k\\pi}{9} + 2n\\pi, \\quad k = 1, 2, 3, 4,\\ n \\in \\mathbb{Z}.$$"
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.5",
+    "12.4.1.6"
+   ],
+   "question": "Show that $\\displaystyle\\int_0^{\\pi/2}\\frac{dx}{1 + \\cos x + \\sin x} = \\ln 2$.",
+   "answer": "Let $t = \\tan\\frac{x}{2}$: $dx = \\frac{2\\,dt}{1 + t^2}$, $1 + \\cos x + \\sin x = \\frac{1 + t^2 + 1 - t^2 + 2t}{1 + t^2} = \\frac{2(1 + t)}{1 + t^2}$; $x: 0 \\to \\frac{\\pi}{2}$ gives $t: 0 \\to 1$.\n$$\\int_0^1\\frac{dt}{1 + t} = \\left[\\ln(1 + t)\\right]_0^1 = \\ln 2.$$"
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "By making the substitution $u = a - x$, show that $\\displaystyle\\int_0^a f(x)\\,dx = \\int_0^a f(a - x)\\,dx$.",
+   "answer": "$du = -dx$; $x = 0 \\to u = a$, $x = a \\to u = 0$:\n$$\\int_0^a f(a - x)\\,dx = \\int_a^0 f(u)(-du) = \\int_0^a f(u)\\,du = \\int_0^a f(x)\\,dx.$$"
+  },
+  {
+   "ref": "Q12(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.15"
+   ],
+   "question": "It is known that $\\displaystyle\\int_0^{\\pi/2}\\frac{dx}{1 + \\cos x + \\sin x} = \\ln 2$ and $\\displaystyle\\int_0^a f(x)\\,dx = \\int_0^a f(a - x)\\,dx$. Hence or otherwise, evaluate $\\displaystyle\\int_0^{\\pi/2}\\frac{x}{1 + \\cos x + \\sin x}\\,dx$.",
+   "answer": "Since $\\cos\\left(\\frac{\\pi}{2} - x\\right) = \\sin x$ and $\\sin\\left(\\frac{\\pi}{2} - x\\right) = \\cos x$, the denominator is unchanged by $x \\to \\frac{\\pi}{2} - x$:\n$$I = \\int_0^{\\pi/2}\\frac{\\frac{\\pi}{2} - x}{1 + \\cos x + \\sin x}\\,dx \\Rightarrow 2I = \\frac{\\pi}{2}\\ln 2 \\Rightarrow I = \\frac{\\pi}{4}\\ln 2.$$"
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n = \\displaystyle\\int_{e^{-1}}^{1}(1 + \\ln x)^n\\,dx$ and $J_n = \\displaystyle\\int_{e^{-1}}^{1}(\\ln x)(1 + \\ln x)^n\\,dx$ for $n = 0, 1, 2, 3, \\dots$\n\nShow that $I_n = 1 - nI_{n-1}$ for $n = 1, 2, 3, \\dots$",
+   "answer": "By parts with $u = (1 + \\ln x)^n$, $v' = 1$:\n$$I_n = \\left[x(1 + \\ln x)^n\\right]_{e^{-1}}^{1} - \\int_{e^{-1}}^{1}x\\cdot\\frac{n(1 + \\ln x)^{n-1}}{x}\\,dx = (1 - 0) - nI_{n-1} = 1 - nI_{n-1},$$\nsince $1 + \\ln e^{-1} = 0$."
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n = \\displaystyle\\int_{e^{-1}}^{1}(1 + \\ln x)^n\\,dx$ and $J_n = \\displaystyle\\int_{e^{-1}}^{1}(\\ln x)(1 + \\ln x)^n\\,dx$ for $n = 0, 1, 2, 3, \\dots$ It is known that $I_n = 1 - nI_{n-1}$ for $n \\ge 1$.\n\nShow that $J_n = 1 - (n + 2)I_n$ for $n = 0, 1, 2, 3, \\dots$",
+   "answer": "Write $\\ln x = (1 + \\ln x) - 1$:\n$$J_n = \\int_{e^{-1}}^{1}(1 + \\ln x)^{n+1}\\,dx - \\int_{e^{-1}}^{1}(1 + \\ln x)^n\\,dx = I_{n+1} - I_n = 1 - (n + 1)I_n - I_n = 1 - (n + 2)I_n.$$"
+  },
+  {
+   "ref": "Q12(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n = \\displaystyle\\int_{e^{-1}}^{1}(1 + \\ln x)^n\\,dx$ and $J_n = \\displaystyle\\int_{e^{-1}}^{1}(\\ln x)(1 + \\ln x)^n\\,dx$ for $n = 0, 1, 2, 3, \\dots$ It is known that $I_n = 1 - nI_{n-1}$ and $J_n = 1 - (n + 2)I_n$.\n\nHence find the value of $J_3$ in simplest exact form.",
+   "answer": "$I_0 = 1 - e^{-1}$, $I_1 = 1 - I_0 = \\frac{1}{e}$, $I_2 = 1 - \\frac{2}{e}$, $I_3 = 1 - 3I_2 = \\frac{6}{e} - 2$.\n$$J_3 = 1 - 5I_3 = 1 - \\frac{30}{e} + 10 = 11 - \\frac{30}{e}.$$"
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.7"
+   ],
+   "question": "Use de Moivre's theorem to solve the equation $z^3 = 4\\sqrt{2}(1 + i)$.",
+   "answer": "$4\\sqrt{2}(1 + i) = 8\\,\\text{cis}\\frac{\\pi}{4}$. Let $z = r\\,\\text{cis}\\,\\theta$: $r^3 = 8$, $3\\theta = \\frac{\\pi}{4} + 2k\\pi$.\n$$z = 2\\,\\text{cis}\\frac{\\pi}{12},\\ 2\\,\\text{cis}\\frac{3\\pi}{4},\\ 2\\,\\text{cis}\\left(-\\frac{7\\pi}{12}\\right).$$"
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.12"
+   ],
+   "question": "The roots of $z^3 = 4\\sqrt{2}(1 + i)$ are $2\\,\\text{cis}\\frac{\\pi}{12}$, $2\\,\\text{cis}\\frac{3\\pi}{4}$ and $2\\,\\text{cis}\\left(-\\frac{7\\pi}{12}\\right)$. By considering these roots, show that $\\cos\\frac{7\\pi}{12} + \\cos\\frac{\\pi}{12} = \\cos\\frac{\\pi}{4}$.",
+   "answer": "$z^3 - 4\\sqrt{2}(1 + i) = 0$ has no $z^2$ term, so the sum of the roots is 0. Taking real parts:\n$$2\\cos\\frac{\\pi}{12} + 2\\cos\\frac{3\\pi}{4} + 2\\cos\\left(-\\frac{7\\pi}{12}\\right) = 0.$$\nSo $\\cos\\frac{\\pi}{12} + \\cos\\frac{7\\pi}{12} = -\\cos\\frac{3\\pi}{4} = \\cos\\frac{\\pi}{4}$."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.5.5"
+   ],
+   "question": "Sketch the intersection of $|z - 3| = 3$ and $-\\frac{\\pi}{4} \\le \\text{Arg}(z) \\le \\frac{\\pi}{4}$.",
+   "answer": "$|z - 3| = 3$ is the circle with centre 3 and radius 3, passing through the origin. The rays $\\text{Arg}\\,z = \\pm\\frac{\\pi}{4}$ meet it where $x^2 + x^2 = 6x$, i.e. at $3 + 3i$ and $3 - 3i$.\nThe intersection is the right-hand arc of the circle from $3 - 3i$ through $6$ to $3 + 3i$, endpoints included. (The origin is excluded since $\\text{Arg}\\,0$ is undefined.)"
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Find real numbers $a$, $b$ and $c$ such that $\\dfrac{10}{(x + 1)(x^2 + 4)} \\equiv \\dfrac{a}{x + 1} + \\dfrac{bx + c}{x^2 + 4}$.",
+   "answer": "$10 = a(x^2 + 4) + (bx + c)(x + 1)$. $x = -1$: $10 = 5a$, $a = 2$. Coefficient of $x^2$: $0 = a + b$, $b = -2$. Constant: $10 = 4a + c$, $c = 2$."
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.8"
+   ],
+   "question": "Given $\\dfrac{10}{(x + 1)(x^2 + 4)} = \\dfrac{2}{x + 1} + \\dfrac{-2x + 2}{x^2 + 4}$, find $\\displaystyle\\int\\frac{10}{(x + 1)(x^2 + 4)}\\,dx$.",
+   "answer": "$$\\int\\left(\\frac{2}{x + 1} - \\frac{2x}{x^2 + 4} + \\frac{2}{x^2 + 4}\\right)dx = 2\\ln|x + 1| - \\ln(x^2 + 4) + \\tan^{-1}\\frac{x}{2} + C.$$"
+  },
+  {
+   "ref": "Q13(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.4"
+   ],
+   "question": "Consider the line $\\ell_1$ joining $(-3, -1, 4)$ and $(-1, 0, 3)$. Determine the vector equation of $\\ell_1$.",
+   "answer": "Direction $(-1, 0, 3) - (-3, -1, 4) = (2, 1, -1)$:\n$$\\ell_1:\\ \\mathbf{r} = \\begin{pmatrix} -3 \\\\ -1 \\\\ 4 \\end{pmatrix} + \\mu\\begin{pmatrix} 2 \\\\ 1 \\\\ -1 \\end{pmatrix}.$$"
+  },
+  {
+   "ref": "Q13(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "The line $\\ell_1$ has direction $\\begin{pmatrix} 2 \\\\ 1 \\\\ -1 \\end{pmatrix}$. Another line, $\\ell_2$, is defined by $\\mathbf{r} = \\begin{pmatrix} 0 \\\\ 1 \\\\ 2 \\end{pmatrix} + \\lambda\\begin{pmatrix} a \\\\ 1 \\\\ -1 \\end{pmatrix}$, where $\\lambda, a \\in \\mathbb{R}$. Find the possible values of $a$ when the angle between $\\ell_1$ and $\\ell_2$ is $\\frac{\\pi}{4}$.",
+   "answer": "$$\\frac{|2a + 1 + 1|}{\\sqrt{6}\\sqrt{a^2 + 2}} = \\frac{1}{\\sqrt{2}} \\Rightarrow 2(2a + 2)^2 = 6(a^2 + 2) \\Rightarrow 8a^2 + 16a + 8 = 6a^2 + 12 \\Rightarrow a^2 + 8a - 2 = 0.$$\n$$a = -4 \\pm 3\\sqrt{2}.$$"
+  },
+  {
+   "ref": "Q13(d)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.9"
+   ],
+   "question": "Lines $\\ell_1:\\ \\mathbf{r} = (-3, -1, 4) + \\mu(2, 1, -1)$ and $\\ell_2:\\ \\mathbf{r} = (0, 1, 2) + \\lambda(a, 1, -1)$ have a unique point of intersection when $a \\ne 2$. Find the point of intersection in terms of $a$.",
+   "answer": "Equate components: $-3 + 2\\mu = \\lambda a$, $-1 + \\mu = 1 + \\lambda$, $4 - \\mu = 2 - \\lambda$.\nThe second gives $\\mu = 2 + \\lambda$, which also satisfies the third. The first: $1 + 2\\lambda = \\lambda a$, so $\\lambda = \\frac{1}{a - 2}$.\nPoint: $(\\lambda a, 1 + \\lambda, 2 - \\lambda) = \\left(\\dfrac{a}{a - 2}, \\dfrac{a - 1}{a - 2}, \\dfrac{2a - 5}{a - 2}\\right)$."
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "Prove by contradiction that there are no rational solutions to the equation $x^3 + 3x + 3 = 0$.",
+   "answer": "Suppose $x = \\frac{p}{q}$ is a solution, with $p, q$ integers, $q \\ne 0$ and $\\text{HCF}(p, q) = 1$. Then $p^3 + 3pq^2 + 3q^3 = 0$.\n$p$ and $q$ cannot both be even. Check the other cases:\n- $p, q$ both odd: odd + odd + odd = odd $\\ne 0$.\n- $p$ odd, $q$ even: odd + even + even = odd $\\ne 0$.\n- $p$ even, $q$ odd: even + even + odd = odd $\\ne 0$.\n\nIn every case $p^3 + 3pq^2 + 3q^3 \\ne 0$, a contradiction. So there are no rational solutions."
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.3.2"
+   ],
+   "question": "Given $a, b, c$ are positive real numbers, prove that $a^2 + b^2 + c^2 \\ge ab + bc + ca$.",
+   "answer": "$(a - b)^2 \\ge 0 \\Rightarrow a^2 + b^2 \\ge 2ab$; similarly $b^2 + c^2 \\ge 2bc$ and $c^2 + a^2 \\ge 2ca$. Adding: $2(a^2 + b^2 + c^2) \\ge 2(ab + bc + ca)$."
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "Given $a, b, c$ are positive real numbers and $a^2 + b^2 + c^2 \\ge ab + bc + ca$, prove that $a^3 + b^3 + c^3 \\ge 3abc$.",
+   "answer": "$$a^3 + b^3 + c^3 - 3abc = (a + b + c)(a^2 + b^2 + c^2 - ab - bc - ca) \\ge 0,$$\nsince $a + b + c > 0$ and the second factor is $\\ge 0$."
+  },
+  {
+   "ref": "Q14(b)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "Given $a, b, c$ are positive real numbers, and that $x^3 + y^3 + z^3 \\ge 3xyz$ for positive reals $x, y, z$, prove that\n$$(1 + a^3)(1 + b^3)(1 + c^3) \\ge \\left(\\frac{ab + bc + ca + 1}{2}\\right)^3.$$",
+   "answer": "Let $Q = \\sqrt[3]{(1 + a^3)(1 + b^3)(1 + c^3)}$. The given result means $X + Y + Z \\ge 3\\sqrt[3]{XYZ}$ for positive $X, Y, Z$. Apply it four times:\n$$\\frac{a^3}{1 + a^3} + \\frac{b^3}{1 + b^3} + \\frac{1}{1 + c^3} \\ge \\frac{3ab}{Q}, \\qquad \\frac{a^3}{1 + a^3} + \\frac{1}{1 + b^3} + \\frac{c^3}{1 + c^3} \\ge \\frac{3ac}{Q},$$\n$$\\frac{1}{1 + a^3} + \\frac{b^3}{1 + b^3} + \\frac{c^3}{1 + c^3} \\ge \\frac{3bc}{Q}, \\qquad \\frac{1}{1 + a^3} + \\frac{1}{1 + b^3} + \\frac{1}{1 + c^3} \\ge \\frac{3}{Q}.$$\nAdding, each of $\\frac{a^3}{1 + a^3} + \\frac{1}{1 + a^3} = 1$ (and likewise for $b$, $c$) appears twice, so the left side totals 6:\n$$6 \\ge \\frac{3(ab + bc + ca + 1)}{Q} \\Rightarrow Q \\ge \\frac{ab + bc + ca + 1}{2}.$$\nCubing gives the result."
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.2"
+   ],
+   "question": "The only force acting on a particle moving in a straight line is a resistance $m\\lambda(c + v)$ acting in the same line. The mass of the particle is $m$, its velocity is $v$, and $\\lambda$ and $c$ are positive constants. The particle starts to move with velocity $u > 0$ and comes to rest after $T$ seconds. After half the time has elapsed, the particle's velocity is a quarter of its initial velocity. Show that $c = \\frac{u}{8}$.",
+   "answer": "$\\dfrac{dv}{dt} = -\\lambda(c + v) \\Rightarrow \\ln\\dfrac{c + v}{c + u} = -\\lambda t$.\nAt $t = T$, $v = 0$: $-\\lambda T = \\ln\\frac{c}{c + u}$. At $t = \\frac{T}{2}$, $v = \\frac{u}{4}$: $-\\frac{\\lambda T}{2} = \\ln\\frac{c + u/4}{c + u}$. So\n$$\\left(\\frac{c + \\frac{u}{4}}{c + u}\\right)^2 = \\frac{c}{c + u} \\Rightarrow \\left(c + \\frac{u}{4}\\right)^2 = c(c + u) \\Rightarrow \\frac{cu}{2} + \\frac{u^2}{16} = cu \\Rightarrow c = \\frac{u}{8}.$$"
+  },
+  {
+   "ref": "Q14(d)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.9",
+    "12.5.2.10"
+   ],
+   "question": "A particle is moving in simple harmonic motion with centre at the origin, starting at $x = m$, where $m > 0$. The displacement equation is $x = a\\cos(nt + \\alpha)$. After 1 second the particle is at $x = r$, where $r > m$, and after another second it returns to $x = r$. Show that $\\cos n = \\dfrac{r + m}{2r}$.",
+   "answer": "$m = a\\cos\\alpha$, $r = a\\cos(n + \\alpha)$, $r = a\\cos(2n + \\alpha)$.\n$$r + m = a\\left[\\cos(2n + \\alpha) + \\cos\\alpha\\right] = 2a\\cos(n + \\alpha)\\cos n = 2r\\cos n,$$\nusing the sums-to-products identity (or expanding $\\cos(2n + \\alpha) = \\cos((n + \\alpha) + n)$ and $\\cos\\alpha = \\cos((n + \\alpha) - n)$). Hence $\\cos n = \\dfrac{r + m}{2r}$."
+  },
+  {
+   "ref": "Q15(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.3"
+   ],
+   "question": "A particle of unit mass is moving horizontally, subject to a resistance force of $v^2 + v^3$, where $v$ is the particle's velocity. The particle has initial velocity $v_0$, where $v_0 > 0$.\n\nFind the distance $s$ travelled by the particle when its velocity is $\\frac{v_0}{2}$.",
+   "answer": "$v\\dfrac{dv}{dx} = -v^2(1 + v)$, so $\\dfrac{dx}{dv} = -\\dfrac{1}{v(1 + v)} = -\\left(\\dfrac{1}{v} - \\dfrac{1}{1 + v}\\right)$.\n$$s = \\int_{v_0/2}^{v_0}\\left(\\frac{1}{v} - \\frac{1}{1 + v}\\right)dv = \\left[\\ln\\frac{v}{1 + v}\\right]_{v_0/2}^{v_0} = \\ln\\left(\\frac{v_0}{1 + v_0}\\cdot\\frac{1 + \\frac{v_0}{2}}{\\frac{v_0}{2}}\\right) = \\ln\\frac{2 + v_0}{1 + v_0}.$$"
+  },
+  {
+   "ref": "Q15(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.2"
+   ],
+   "question": "A particle of unit mass is moving horizontally, subject to a resistance force of $v^2 + v^3$, where $v$ is the particle's velocity. The particle has initial velocity $v_0$, where $v_0 > 0$. The distance travelled while its velocity falls to $\\frac{v_0}{2}$ is $s = \\ln\\frac{2 + v_0}{1 + v_0}$.\n\nShow that the time $T$ taken to travel the distance $s$ is $T = \\dfrac{1}{v_0} - s$.",
+   "answer": "$\\dfrac{dv}{dt} = -v^2(1 + v)$ and $\\dfrac{1}{v^2(1 + v)} = \\dfrac{1}{v^2} - \\dfrac{1}{v} + \\dfrac{1}{1 + v}$.\n$$T = \\int_{v_0/2}^{v_0}\\left(\\frac{1}{v^2} - \\frac{1}{v} + \\frac{1}{1 + v}\\right)dv = \\left[-\\frac{1}{v}\\right]_{v_0/2}^{v_0} - \\left[\\ln\\frac{v}{1 + v}\\right]_{v_0/2}^{v_0} = \\frac{1}{v_0} - s.$$"
+  },
+  {
+   "ref": "Q15(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.4"
+   ],
+   "question": "A particle of unit mass is moving horizontally, subject to a resistance force of $v^2 + v^3$, where $v$ is the particle's velocity. The particle has initial velocity $v_0$, where $v_0 > 0$.\n\nShow that if the particle starts at the origin, then $v = \\dfrac{v_0}{v_0x + v_0t + 1}$ satisfies the equation of motion.",
+   "answer": "From the integrals above, starting at $x = 0$, $t = 0$ with velocity $v_0$, at velocity $v$:\n$$x = \\int_v^{v_0}\\left(\\frac{1}{u} - \\frac{1}{1 + u}\\right)du, \\qquad t = \\int_v^{v_0}\\left(\\frac{1}{u^2} - \\frac{1}{u} + \\frac{1}{1 + u}\\right)du = \\frac{1}{v} - \\frac{1}{v_0} - x.$$\nSo $x + t = \\frac{1}{v} - \\frac{1}{v_0}$, giving $\\frac{1}{v} = \\frac{v_0x + v_0t + 1}{v_0}$, i.e. $v = \\dfrac{v_0}{v_0x + v_0t + 1}$."
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.5.5"
+   ],
+   "question": "A particle of unit mass is thrown vertically downwards with an initial velocity of $v_0$. It experiences a resistive force of magnitude $kv^2$, where $v$ is its velocity. Taking downwards as the positive direction, the equation of motion is $\\ddot{x} = g - kv^2$. Let $V$ be the terminal velocity of the particle.\n\nExplain why $V = \\sqrt{\\frac{g}{k}}$.",
+   "answer": "At terminal velocity the acceleration is zero: $g - kV^2 = 0 \\Rightarrow V = \\sqrt{\\frac{g}{k}}$ (taking $V > 0$, downwards)."
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.5.2"
+   ],
+   "question": "A particle of unit mass is thrown vertically downwards with an initial velocity of $v_0$. It experiences a resistive force of magnitude $kv^2$, where $v$ is its velocity. Taking downwards as the positive direction, the equation of motion is $\\ddot{x} = g - kv^2$. Let $V$ be the terminal velocity of the particle. Its terminal velocity is $V = \\sqrt{\\frac{g}{k}}$.\n\nShow that $v^2 = V^2 + (v_0^2 - V^2)e^{-2kx}$.",
+   "answer": "$v\\dfrac{dv}{dx} = g - kv^2 = k(V^2 - v^2)$, so\n$$\\int_{v_0}^{v}\\frac{v\\,dv}{V^2 - v^2} = kx \\Rightarrow -\\frac{1}{2}\\ln\\left|\\frac{V^2 - v^2}{V^2 - v_0^2}\\right| = kx.$$\nSince $v$ stays on the same side of $V$ as $v_0$, the ratio is positive: $V^2 - v^2 = (V^2 - v_0^2)e^{-2kx}$, so\n$$v^2 = V^2 + (v_0^2 - V^2)e^{-2kx}.$$"
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.9"
+   ],
+   "question": "$z_1$ and $z_2$ are two complex numbers representing the points $A$ and $B$ in the Argand diagram. $z_3$ represents the point $C$ such that $|AB| : |AC| = 1 : 4$. $z_4$ represents the point $D$ such that $|OB| : |OD| = 1 : k$, for some constant $k$, where $O$ is the origin. The points $A$, $B$ and $C$ are collinear.\n\nFind $z_3$ in terms of $z_1$ and $z_2$.",
+   "answer": "Taking $C$ on ray $AB$ beyond $B$: $\\overrightarrow{AC} = 4\\overrightarrow{AB}$, so $z_3 - z_1 = 4(z_2 - z_1)$ and $z_3 = 4z_2 - 3z_1$."
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.10",
+    "12.3.2.9"
+   ],
+   "question": "$z_1$ and $z_2$ are two complex numbers representing the points $A$ and $B$ in the Argand diagram. $z_3$ represents the point $C$ such that $|AB| : |AC| = 1 : 4$. $z_4$ represents the point $D$ such that $|OB| : |OD| = 1 : k$, for some constant $k$, where $O$ is the origin. The points $A$, $B$ and $C$ are collinear. Take $z_3 = 4z_2 - 3z_1$ and $z_4 = kz_2$ ($D$ on ray $OB$).\n\nGiven that $z_2 - z_1$ and $z_4 - z_3$ are perpendicular, prove that\n$$k = \\frac{4|z_2|^2 - 7|z_1||z_2|\\cos\\theta + 3|z_1|^2}{|z_2|^2 - |z_1||z_2|\\cos\\theta},$$\nwhere $\\theta$ is the angle between $z_1$ and $z_2$.",
+   "answer": "$z_4 - z_3 = (k - 4)z_2 + 3z_1$. Perpendicular means $\\text{Re}\\left[(z_2 - z_1)\\overline{(z_4 - z_3)}\\right] = 0$. With $\\text{Re}(z_1\\bar{z}_2) = \\text{Re}(z_2\\bar{z}_1) = |z_1||z_2|\\cos\\theta$:\n$$(k - 4)|z_2|^2 + 3|z_1||z_2|\\cos\\theta - (k - 4)|z_1||z_2|\\cos\\theta - 3|z_1|^2 = 0.$$\n$$k\\left(|z_2|^2 - |z_1||z_2|\\cos\\theta\\right) = 4|z_2|^2 - 7|z_1||z_2|\\cos\\theta + 3|z_1|^2,$$\nwhich gives the result."
+  }
+ ]
+}
