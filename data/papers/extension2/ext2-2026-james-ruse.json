@@ -1,0 +1,704 @@
+{
+ "id": "ext2-2026-james-ruse",
+ "course": "extension2",
+ "school": "James Ruse",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "James Ruse 2026 w. sol"
+ },
+ "indexed": "2026-11-12",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.13"
+   ],
+   "question": "The diagram shows a curve traced by the vector-valued function $\\mathbf{r}(t)$, a helix of radius 3 making three turns from $(3, 0, 0)$ to $(3, 0, 6)$. Which of the following best represents $\\mathbf{r}(t)$?",
+   "answer": "Constant radius 3 (not B); three full turns needs $0 \\le t \\le 6\\pi$ (not C); and the top is at $z = 6 = \\frac{6\\pi}{\\pi}$ (D would give $z = 3$).",
+   "options": [
+    "$\\mathbf{r}(t) = 3\\cos t\\,\\mathbf{i} + 3\\sin t\\,\\mathbf{j} + \\frac{t}{\\pi}\\mathbf{k}$, $0 \\le t \\le 6\\pi$",
+    "$\\mathbf{r}(t) = t\\cos t\\,\\mathbf{i} + t\\sin t\\,\\mathbf{j} + \\frac{t}{\\pi}\\mathbf{k}$, $0 \\le t \\le 6\\pi$",
+    "$\\mathbf{r}(t) = 3\\cos t\\,\\mathbf{i} + 3\\sin t\\,\\mathbf{j} + \\frac{2t}{\\pi}\\mathbf{k}$, $0 \\le t \\le 3\\pi$",
+    "$\\mathbf{r}(t) = 3\\cos t\\,\\mathbf{i} + 3\\sin t\\,\\mathbf{j} + \\frac{t}{2\\pi}\\mathbf{k}$, $0 \\le t \\le 6\\pi$"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/ext2-2026-james-ruse/q1.png"
+   ]
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.10"
+   ],
+   "question": "Given distinct points $P = z$, $Q = z + \\bar{z}$, $R = iz$, which statement about the angle $\\angle QPR$ is true?",
+   "answer": "$Q - P = \\bar{z}$ and $R - P = z(i - 1)$, so $\\angle QPR$ is the argument of $\\dfrac{z(i - 1)}{\\bar{z}}$, which equals $\\frac{3\\pi}{4} + 2\\arg z$ (mod $2\\pi$). It depends on $z$, so none of A–C holds.",
+   "options": [
+    "Always $90°$, for any $z$",
+    "Always $45°$, for any $z$",
+    "Always $60°$, for any $z$",
+    "None of the above"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "Let $\\alpha$ and $\\beta$ be the roots of $z^2 - 2z + 4 = 0$. What is the smallest positive integer $n$ for which $\\alpha^n + \\beta^n$ is a negative real number?",
+   "answer": "$z = 1 \\pm i\\sqrt{3} = 2\\,\\text{cis}\\left(\\pm\\frac{\\pi}{3}\\right)$, so $\\alpha^n + \\beta^n = 2^{n+1}\\cos\\frac{n\\pi}{3}$: $n = 1$ gives 2, $n = 2$ gives $-4$.",
+   "options": [
+    "$n = 1$",
+    "$n = 2$",
+    "$n = 3$",
+    "$n = 4$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.9"
+   ],
+   "question": "Let the complex numbers $z_1, z_2, z_3, z_4$ represent the vertices $A, B, C, D$ of a quadrilateral. Given that $z_1 - z_2 + z_3 - z_4 = 0$ and $|z_1 - z_2| = |z_2 - z_3|$, what type of quadrilateral is $ABCD$?",
+   "answer": "$z_1 - z_2 = z_4 - z_3$, i.e. $\\overrightarrow{BA} = \\overrightarrow{CD}$, so $ABCD$ is a parallelogram; with adjacent sides $AB = BC$ equal, it is a rhombus.",
+   "options": [
+    "Parallelogram",
+    "Rectangle",
+    "Rhombus",
+    "Trapezium"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.18"
+   ],
+   "question": "The spheres $\\left|\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix}\\right| = p$ and $\\left|\\begin{pmatrix} x - l \\\\ y - m \\\\ z - n \\end{pmatrix}\\right| = q$, where $p, q$ are distinct prime numbers, touch at exactly one point. Let $k = \\sqrt{l^2 + m^2 + n^2}$. Which of the following statements could be true?",
+   "answer": "$k$ is the distance between the centres. The spheres touch at one point when $k = p + q$ (externally) or $k = |p - q|$ (internally). So B could be true.",
+   "options": [
+    "$p + q + k = 0$",
+    "$|p - q| = k$",
+    "$p^2 + q^2 = k^2$",
+    "$p \\times q = k$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.4"
+   ],
+   "question": "A particle undergoes simple harmonic motion. The magnitude of its maximum acceleration is three times the magnitude of its maximum velocity. What is the period of the motion?",
+   "answer": "Maximum acceleration $n^2A = 3 \\times$ maximum speed $nA$, so $n = 3$ and the period is $\\frac{2\\pi}{3}$.",
+   "options": [
+    "$\\frac{\\pi}{3}$",
+    "$\\frac{2\\pi}{3}$",
+    "$\\pi$",
+    "$2\\pi$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.5"
+   ],
+   "question": "A Year 12 student says: \"If I achieve a Band 6 in both Mathematics Extension 2 and English Advanced, then I will enrol in at least one of a Bachelor of Medicine or a Bachelor of Music.\" In which situations is the statement true?\n\n1. No Band 6 in Mathematics Extension 2, but enrols in Medicine.\n2. Band 6 in both, but enrols in neither Medicine nor Music.\n3. No Band 6 in Mathematics Extension 2, does not enrol in Medicine, but enrols in Music.\n4. Band 6 in both, and enrols in both Medicine and Music.",
+   "answer": "An implication is false only when the hypothesis is true and the conclusion false — situation 2. It is true in 1, 3 (false hypothesis) and 4.",
+   "options": [
+    "1 and 3 only",
+    "2 and 4 only",
+    "1, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.7",
+    "12.1.1.6"
+   ],
+   "question": "Let $S(x)$: \"$x$ is a student\", $M(x)$: \"$x$ studies Mathematics Extension 2\", and $H(x, y)$: \"$x$ has helped $y$\". The given statement is\n$$\\forall x\\left(S(x) \\Rightarrow \\exists y\\left(M(y) \\wedge H(y, x)\\right)\\right).$$\nWhich ONE of the following is the negation of the given statement?",
+   "answer": "Negation: $\\exists x\\left(S(x) \\wedge \\forall y\\,\\neg(M(y) \\wedge H(y, x))\\right)$ — some student has not been helped by any Mathematics Extension 2 student.",
+   "options": [
+    "Every student has been helped by at least one Mathematics Extension 2 student.",
+    "There is at least one student who has not been helped by any Mathematics Extension 2 student.",
+    "Every Mathematics Extension 2 student has helped at least one student.",
+    "There is at least one Mathematics Extension 2 student who has not helped any student."
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.3.2",
+    "12.5.4.1"
+   ],
+   "question": "A particle of mass $m$ kg moves down a line of greatest slope of a plane inclined at an angle $\\alpha$ to the horizontal. A constant force of magnitude $P$ newtons acts up the plane. The resistance to the motion is $kv^2$ newtons per kilogram of the particle's mass, where $v$ is the speed. Taking down the plane as positive, which differential equation describes the motion?",
+   "answer": "The weight component down the plane is $mg\\sin\\alpha$; $P$ and the resistance $mkv^2$ (per kilogram, so multiplied by $m$) act up the plane.",
+   "options": [
+    "$m\\dfrac{dv}{dt} = mg\\sin\\alpha - P - kv^2$",
+    "$m\\dfrac{dv}{dt} = mg\\sin\\alpha - P - mkv^2$",
+    "$m\\dfrac{dv}{dt} = mg\\cos\\alpha - P - kv^2$",
+    "$m\\dfrac{dv}{dt} = mg\\cos\\alpha - P - mkv^2$"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/ext2-2026-james-ruse/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "Particles of mass 3 kg and 5 kg are attached to the ends of a light inextensible string over a fixed smooth pulley. Initially the 5 kg particle is 1.5 m above the ground, and the system is released from rest. The 5 kg particle hits the ground; the string then becomes slack and the 3 kg particle continues to move vertically upwards. Provided it does not hit the pulley, what is the maximum height that the 3 kg particle rises above its initial position?",
+   "answer": "While connected, $a = \\frac{(5 - 3)g}{8} = \\frac{g}{4}$. After 1.5 m, $v^2 = 2\\cdot\\frac{g}{4}\\cdot 1.5 = \\frac{3g}{4}$. The 3 kg particle then rises freely a further $\\frac{v^2}{2g} = \\frac{3}{8}$ m. Total $1.5 + 0.375 = \\frac{15}{8}$ m.",
+   "options": [
+    "$\\frac{15}{8}$ m",
+    "$\\frac{15}{9}$ m",
+    "$\\frac{15}{16}$ m",
+    "$\\frac{15}{18}$ m"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/ext2-2026-james-ruse/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.5"
+   ],
+   "question": "Let $z = \\sqrt{3} - i$ and $w = 1 + i\\sqrt{3}$. Express $\\dfrac{z^3}{w^2}$ in the form $a + ib$, where $a$ and $b$ are real.",
+   "answer": "$z = 2\\,\\text{cis}\\left(-\\frac{\\pi}{6}\\right)$, $w = 2\\,\\text{cis}\\frac{\\pi}{3}$:\n$$\\frac{z^3}{w^2} = \\frac{8\\,\\text{cis}\\left(-\\frac{\\pi}{2}\\right)}{4\\,\\text{cis}\\frac{2\\pi}{3}} = 2\\,\\text{cis}\\left(-\\frac{7\\pi}{6}\\right) = 2\\,\\text{cis}\\frac{5\\pi}{6} = -\\sqrt{3} + i.$$"
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.5"
+   ],
+   "question": "Let $z = \\sqrt{3} - i$ and $w = 1 + i\\sqrt{3}$. Find the smallest positive integer $n$ such that $\\left(\\dfrac{z}{w}\\right)^n$ is a real number.",
+   "answer": "$\\dfrac{z}{w} = \\text{cis}\\left(-\\frac{\\pi}{6} - \\frac{\\pi}{3}\\right) = \\text{cis}\\left(-\\frac{\\pi}{2}\\right) = -i$. $(-i)^1$ is not real; $(-i)^2 = -1$ is. So $n = 2$."
+  },
+  {
+   "ref": "Q11(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.12"
+   ],
+   "question": "Let $\\omega = \\text{cis}\\frac{\\pi}{4}$. Show that $1 + \\omega + \\omega^2 + \\omega^3 = \\dfrac{\\omega^4 - 1}{\\omega - 1}$.",
+   "answer": "Geometric series with ratio $\\omega \\ne 1$ and 4 terms: $\\dfrac{\\omega^4 - 1}{\\omega - 1}$. (Or multiply out: $(\\omega - 1)(1 + \\omega + \\omega^2 + \\omega^3) = \\omega^4 - 1$.) (The original uses exponential form $e^{i\\theta}$; it is written here in cis form for the 2024 syllabus.)"
+  },
+  {
+   "ref": "Q11(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.12",
+    "12.3.1.13"
+   ],
+   "question": "Let $\\omega = \\text{cis}\\frac{\\pi}{4}$, so that $1 + \\omega + \\omega^2 + \\omega^3 = \\dfrac{\\omega^4 - 1}{\\omega - 1}$. Hence evaluate $1 + \\omega + \\omega^2 + \\omega^3$ in the form $a + ib$, where $a$ and $b$ are real.",
+   "answer": "$\\omega^4 = \\text{cis}\\,\\pi = -1$, so the sum is $\\dfrac{-2}{\\omega - 1}$ with $\\omega - 1 = \\left(\\frac{\\sqrt{2}}{2} - 1\\right) + \\frac{\\sqrt{2}}{2}i$ and $|\\omega - 1|^2 = 2 - \\sqrt{2}$.\n$$\\frac{-2\\,\\overline{(\\omega - 1)}}{2 - \\sqrt{2}} = \\frac{(2 - \\sqrt{2}) + \\sqrt{2}\\,i}{2 - \\sqrt{2}} = 1 + \\frac{\\sqrt{2}}{2 - \\sqrt{2}}i = 1 + (\\sqrt{2} + 1)i.$$\n(Check: $1 + \\frac{\\sqrt{2}}{2}(1 + i) + i + \\frac{\\sqrt{2}}{2}(-1 + i) = 1 + (1 + \\sqrt{2})i$.)"
+  },
+  {
+   "ref": "Q11(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "Let $z = \\text{cis}\\frac{\\pi}{7}$. Show that $z^{14} = 1$.",
+   "answer": "By de Moivre's theorem, $z^{14} = \\text{cis}\\,2\\pi = 1$. (The original uses exponential form $e^{i\\theta}$; it is written here in cis form for the 2024 syllabus.)"
+  },
+  {
+   "ref": "Q11(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.12"
+   ],
+   "question": "Let $z = \\text{cis}\\frac{\\pi}{7}$. It is known that $z^{14} = 1$. Show that $z^2 + z^4 + z^6 + z^8 + z^{10} + z^{12} = -1$.",
+   "answer": "Geometric series with ratio $z^2 \\ne 1$:\n$$\\frac{z^2(1 - z^{12})}{1 - z^2} = \\frac{z^2 - z^{14}}{1 - z^2} = \\frac{z^2 - 1}{1 - z^2} = -1.$$"
+  },
+  {
+   "ref": "Q11(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.12",
+    "12.3.4.4"
+   ],
+   "question": "Let $z = \\text{cis}\\frac{\\pi}{7}$. It is known that $z^2 + z^4 + \\dots + z^{12} = -1$. Hence show that $\\cos\\frac{\\pi}{7} + \\cos\\frac{3\\pi}{7} + \\cos\\frac{5\\pi}{7} = \\frac{1}{2}$.",
+   "answer": "Real parts: $\\sum_{k=1}^{6}\\cos\\frac{2k\\pi}{7} = -1$. Since $\\cos\\frac{8\\pi}{7} = \\cos\\frac{6\\pi}{7}$, $\\cos\\frac{10\\pi}{7} = \\cos\\frac{4\\pi}{7}$ and $\\cos\\frac{12\\pi}{7} = \\cos\\frac{2\\pi}{7}$:\n$$2\\left(\\cos\\frac{2\\pi}{7} + \\cos\\frac{4\\pi}{7} + \\cos\\frac{6\\pi}{7}\\right) = -1.$$\nUsing $\\cos\\frac{\\pi}{7} = -\\cos\\frac{6\\pi}{7}$, $\\cos\\frac{3\\pi}{7} = -\\cos\\frac{4\\pi}{7}$, $\\cos\\frac{5\\pi}{7} = -\\cos\\frac{2\\pi}{7}$:\n$$\\cos\\frac{\\pi}{7} + \\cos\\frac{3\\pi}{7} + \\cos\\frac{5\\pi}{7} = \\frac{1}{2}.$$"
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "Find the possible value(s) of $\\lambda$ if the angle between $\\mathbf{a} = \\begin{pmatrix} 2 \\\\ -1 \\\\ 2 \\end{pmatrix}$ and $\\mathbf{b} = \\begin{pmatrix} 1 \\\\ 2 \\\\ \\lambda \\end{pmatrix}$ is $\\cos^{-1}\\left(\\frac{1}{3}\\right)$.",
+   "answer": "$\\mathbf{a}\\cdot\\mathbf{b} = 2\\lambda$, $|\\mathbf{a}| = 3$, $|\\mathbf{b}| = \\sqrt{5 + \\lambda^2}$:\n$$\\frac{2\\lambda}{3\\sqrt{5 + \\lambda^2}} = \\frac{1}{3} \\Rightarrow 2\\lambda = \\sqrt{5 + \\lambda^2}.$$\nSo $\\lambda > 0$ and $4\\lambda^2 = 5 + \\lambda^2$, giving $\\lambda = \\sqrt{\\frac{5}{3}} = \\frac{\\sqrt{15}}{3}$. ($\\lambda = -\\frac{\\sqrt{15}}{3}$ gives $\\cos\\theta = -\\frac{1}{3}$ and is rejected.)"
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "Prove by contradiction that $\\sqrt{5} + \\sqrt{7} > \\sqrt{23}$.",
+   "answer": "Suppose $\\sqrt{5} + \\sqrt{7} \\le \\sqrt{23}$. Both sides are positive, so squaring: $12 + 2\\sqrt{35} \\le 23$, i.e. $2\\sqrt{35} \\le 11$. Squaring again: $140 \\le 121$, which is false. Hence $\\sqrt{5} + \\sqrt{7} > \\sqrt{23}$."
+  },
+  {
+   "ref": "Q11(f)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Find $\\displaystyle\\int_3^4\\frac{x + 1}{\\sqrt{x^2 + 2x + 3}}\\,dx$.",
+   "answer": "Since $\\frac{d}{dx}(x^2 + 2x + 3) = 2(x + 1)$:\n$$\\int_3^4\\frac{x + 1}{\\sqrt{x^2 + 2x + 3}}\\,dx = \\left[\\sqrt{x^2 + 2x + 3}\\right]_3^4 = \\sqrt{27} - \\sqrt{18} = 3\\sqrt{3} - 3\\sqrt{2}.$$"
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^{\\pi/2}\\sin^2\\theta\\cos^3\\theta\\,d\\theta$.",
+   "answer": "$\\sin^2\\theta\\cos^3\\theta = \\sin^2\\theta(1 - \\sin^2\\theta)\\cos\\theta$. With $u = \\sin\\theta$:\n$$\\int_0^1(u^2 - u^4)\\,du = \\frac{1}{3} - \\frac{1}{5} = \\frac{2}{15}.$$"
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.8",
+    "12.4.1.9"
+   ],
+   "question": "Using partial fractions, find $\\displaystyle\\int\\frac{x}{(x + 2)(x^2 + 4x + 5)}\\,dx$.",
+   "answer": "$\\dfrac{x}{(x + 2)(x^2 + 4x + 5)} = \\dfrac{A}{x + 2} + \\dfrac{Bx + C}{x^2 + 4x + 5}$: $x = A(x^2 + 4x + 5) + (Bx + C)(x + 2)$.\n$x = -2$: $A = -2$. $x^2$: $A + B = 0$, $B = 2$. Constant: $5A + 2C = 0$, $C = 5$.\n$$\\int\\left(\\frac{-2}{x + 2} + \\frac{2x + 4}{x^2 + 4x + 5} + \\frac{1}{(x + 2)^2 + 1}\\right)dx = -2\\ln|x + 2| + \\ln(x^2 + 4x + 5) + \\tan^{-1}(x + 2) + C.$$"
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.10"
+   ],
+   "question": "The vector equations of lines $\\ell_1$ and $\\ell_2$ are $\\ell_1:\\ \\mathbf{r} = \\begin{pmatrix} 1 \\\\ 2 \\\\ -1 \\end{pmatrix} + \\lambda\\begin{pmatrix} 1 \\\\ -1 \\\\ 2 \\end{pmatrix}$ and $\\ell_2:\\ \\mathbf{r} = \\begin{pmatrix} 3 \\\\ -1 \\\\ 4 \\end{pmatrix} + \\mu\\begin{pmatrix} 2 \\\\ 1 \\\\ -1 \\end{pmatrix}$.\n\nShow that $\\ell_1$ and $\\ell_2$ do not intersect.",
+   "answer": "Equating $x$ and $y$: $1 + \\lambda = 3 + 2\\mu$ and $2 - \\lambda = -1 + \\mu$. Adding: $3 = 2 + 3\\mu$, so $\\mu = \\frac{1}{3}$ and $\\lambda = \\frac{8}{3}$.\nCheck $z$: $\\ell_1$ gives $-1 + \\frac{16}{3} = \\frac{13}{3}$; $\\ell_2$ gives $4 - \\frac{1}{3} = \\frac{11}{3}$. These differ, so the lines do not intersect."
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "The vector equations of lines $\\ell_1$ and $\\ell_2$ are $\\ell_1:\\ \\mathbf{r} = \\begin{pmatrix} 1 \\\\ 2 \\\\ -1 \\end{pmatrix} + \\lambda\\begin{pmatrix} 1 \\\\ -1 \\\\ 2 \\end{pmatrix}$ and $\\ell_2:\\ \\mathbf{r} = \\begin{pmatrix} 3 \\\\ -1 \\\\ 4 \\end{pmatrix} + \\mu\\begin{pmatrix} 2 \\\\ 1 \\\\ -1 \\end{pmatrix}$.\n\nFind the exact value of $\\lambda$ for which the distance between $\\ell_1$ and the origin $O$ is minimised.",
+   "answer": "The closest point has position vector perpendicular to the direction $(1, -1, 2)$:\n$$(1 + \\lambda) - (2 - \\lambda) + 2(-1 + 2\\lambda) = 6\\lambda - 3 = 0 \\Rightarrow \\lambda = \\frac{1}{2}.$$"
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.4",
+    "12.3.1.12"
+   ],
+   "question": "Given that $z = \\cos\\theta + i\\sin\\theta$ and $n$ is an integer, show that\n$$\\frac{z^{2n} - 1}{z^{2n} + 1} = i\\tan(n\\theta),$$\nand hence find all complex numbers $z$ on the unit circle for which this expression is real.",
+   "answer": "Multiply numerator and denominator by $z^{-n}$ and use de Moivre's theorem:\n$$\\frac{z^n - z^{-n}}{z^n + z^{-n}} = \\frac{2i\\sin n\\theta}{2\\cos n\\theta} = i\\tan n\\theta$$\n(where $\\cos n\\theta \\ne 0$). This is real only when $\\tan n\\theta = 0$, i.e. $n\\theta = k\\pi$. So $z = \\text{cis}\\dfrac{k\\pi}{n}$, $k = 0, 1, \\dots, 2|n| - 1$ — the $2n$th roots of unity (where the expression equals 0)."
+  },
+  {
+   "ref": "Q12(e)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.4",
+    "12.3.4.9"
+   ],
+   "question": "Sketch on an Argand diagram the locus of points satisfying $\\text{Arg}\\left(\\dfrac{z + 2}{z - 2}\\right) = \\dfrac{\\pi}{3}$.",
+   "answer": "$\\text{Arg}(z + 2) - \\text{Arg}(z - 2) = \\frac{\\pi}{3}$: the segment from $-2$ to $2$ subtends $\\frac{\\pi}{3}$ at $z$. A positive value needs $z$ below the real axis (above it, $\\text{Arg}(z - 2) > \\text{Arg}(z + 2)$).\nThe locus is the major arc, below the real axis, of the circle through $\\pm 2$ with radius $\\frac{4}{\\sqrt{3}}$ (from $4 = 2R\\sin\\frac{\\pi}{3}$) and centre $\\left(0, -\\frac{2}{\\sqrt{3}}\\right)$. The points $\\pm 2$ are excluded."
+  },
+  {
+   "ref": "Q12(e)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.5"
+   ],
+   "question": "The locus $\\text{Arg}\\left(\\dfrac{z + 2}{z - 2}\\right) = \\dfrac{\\pi}{3}$ is the major arc below the real axis of the circle with centre $\\left(0, -\\frac{2}{\\sqrt{3}}\\right)$ through $\\pm 2$. Hence shade the region where $\\dfrac{\\pi}{3} \\le \\text{Arg}\\left(\\dfrac{z + 2}{z - 2}\\right) \\le \\dfrac{2\\pi}{3}$.",
+   "answer": "$\\text{Arg} = \\frac{2\\pi}{3}$ is the minor arc below the real axis of the circle through $\\pm 2$ with centre $\\left(0, \\frac{2}{\\sqrt{3}}\\right)$ (same radius $\\frac{4}{\\sqrt{3}}$). Larger angles correspond to points closer to the segment $[-2, 2]$.\nShade the crescent-shaped region below the real axis between the minor arc ($\\frac{2\\pi}{3}$) and the major arc ($\\frac{\\pi}{3}$), including both arcs but excluding $\\pm 2$."
+  },
+  {
+   "ref": "Q12(f)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.10"
+   ],
+   "question": "In the Argand diagram, the point $A$ represents $z = 4 + 2i$. The point $B$ lies on the line $\\text{Im}(z) = 6$ and the point $C$ lies on the line $\\text{Im}(z) = -4$. It is given that $AC = 2AB$ and $\\angle BAC = \\frac{\\pi}{3}$, and that $C$ lies to the left of $A$. Find the exact complex number representing $C$.",
+   "answer": "Let $B - A = b + 4i$ ($b$ real). Then $C - A = 2(B - A)\\,\\text{cis}\\left(\\pm\\frac{\\pi}{3}\\right)$, and its imaginary part must be $-6$.\nWith $+$: $(b + 4i)(1 + i\\sqrt{3}) = (b - 4\\sqrt{3}) + i(\\sqrt{3}b + 4)$. Then $\\sqrt{3}b + 4 = -6$ gives $b = -\\frac{10}{\\sqrt{3}}$, and the real part is $-\\frac{22}{\\sqrt{3}} < 0$, so $C$ is to the left ✓. (The $-$ case puts $C$ to the right.)\n$$C = 4 - \\frac{22\\sqrt{3}}{3} - 4i.$$"
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.2.3"
+   ],
+   "question": "Let $n$ be a positive odd integer. Prove, by contradiction, that $\\sqrt{2n}$ is an irrational number.",
+   "answer": "Suppose $\\sqrt{2n} = \\frac{p}{q}$ with $p, q$ positive integers having no common factor. Then $2nq^2 = p^2$, so $p^2$ is even and $p$ is even: $p = 2r$. Then $nq^2 = 2r^2$ is even; since $n$ is odd, $q^2$ is even, so $q$ is even. Then $p$ and $q$ share the factor 2 — a contradiction. So $\\sqrt{2n}$ is irrational."
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.10"
+   ],
+   "question": "In an Argand diagram, the points $A$, $B$, $C$ represent $z_1$, $z_2$, $z_3$. Triangle $ABC$ is equilateral, with vertices labelled anticlockwise. The triangle is rotated anticlockwise through an angle $\\alpha$ about $A$, where $0 < \\alpha < \\frac{\\pi}{3}$; $B$ and $C$ map to $B'$ and $C'$, representing $z_4$ and $z_5$. The line $AB'$ intersects $BC$ at $R$, as shown.\n\nFind $z_3$ in terms of $z_1$ and $z_2$.",
+   "answer": "$\\overrightarrow{AC}$ is $\\overrightarrow{AB}$ rotated by $\\frac{\\pi}{3}$: $z_3 = z_1 + (z_2 - z_1)\\,\\text{cis}\\frac{\\pi}{3}$.",
+   "images": [
+    "assets/img/ext2-2026-james-ruse/q13b.png"
+   ]
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.10"
+   ],
+   "question": "In an Argand diagram, the points $A$, $B$, $C$ represent $z_1$, $z_2$, $z_3$. Triangle $ABC$ is equilateral, with vertices labelled anticlockwise. The triangle is rotated anticlockwise through an angle $\\alpha$ about $A$, where $0 < \\alpha < \\frac{\\pi}{3}$; $B$ and $C$ map to $B'$ and $C'$, representing $z_4$ and $z_5$. The line $AB'$ intersects $BC$ at $R$, as shown.\n\nFind $z_5$ in terms of $z_1$, $z_2$ and $\\alpha$.",
+   "answer": "$z_5 = z_1 + (z_2 - z_1)\\,\\text{cis}\\left(\\frac{\\pi}{3} + \\alpha\\right)$.",
+   "images": [
+    "assets/img/ext2-2026-james-ruse/q13b.png"
+   ]
+  },
+  {
+   "ref": "Q13(b)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.11"
+   ],
+   "question": "In an Argand diagram, the points $A$, $B$, $C$ represent $z_1$, $z_2$, $z_3$. Triangle $ABC$ is equilateral, with vertices labelled anticlockwise. The triangle is rotated anticlockwise through an angle $\\alpha$ about $A$, where $0 < \\alpha < \\frac{\\pi}{3}$; $B$ and $C$ map to $B'$ and $C'$, representing $z_4$ and $z_5$. The line $AB'$ intersects $BC$ at $R$, as shown.\n\nBy considering the ratio $AR : AB$, show that the complex number $z_R$ represented by $R$ is\n$$z_R = z_1 + \\frac{\\sqrt{3}\\,\\text{cis}\\,\\alpha}{\\sqrt{3}\\cos\\alpha + \\sin\\alpha}(z_2 - z_1).$$",
+   "answer": "In $\\triangle ABR$: $\\angle BAR = \\alpha$, $\\angle ABR = \\frac{\\pi}{3}$, so $\\angle ARB = \\frac{2\\pi}{3} - \\alpha$. By the sine rule:\n$$\\frac{AR}{AB} = \\frac{\\sin\\frac{\\pi}{3}}{\\sin\\left(\\frac{2\\pi}{3} - \\alpha\\right)} = \\frac{\\frac{\\sqrt{3}}{2}}{\\frac{\\sqrt{3}}{2}\\cos\\alpha + \\frac{1}{2}\\sin\\alpha} = \\frac{\\sqrt{3}}{\\sqrt{3}\\cos\\alpha + \\sin\\alpha}.$$\n$\\overrightarrow{AR}$ is $\\overrightarrow{AB}$ rotated by $\\alpha$ and scaled by this ratio, so $z_R = z_1 + \\dfrac{\\sqrt{3}\\,\\text{cis}\\,\\alpha}{\\sqrt{3}\\cos\\alpha + \\sin\\alpha}(z_2 - z_1)$. (The original uses exponential form $e^{i\\theta}$; it is written here in cis form for the 2024 syllabus.)",
+   "images": [
+    "assets/img/ext2-2026-james-ruse/q13b.png"
+   ]
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.15"
+   ],
+   "question": "Let $f(x)$ and $g(x)$ be continuous functions on $\\mathbb{R}$, with $f$ even and $g$ odd. Prove that\n$$\\int_{-c}^{c}\\frac{f(x)}{1 + e^{g(x)}}\\,dx = \\int_0^c f(x)\\,dx,$$\nwhere $c$ is a constant.",
+   "answer": "Let $I$ be the left side. Substituting $x = -u$ (using $f(-u) = f(u)$, $g(-u) = -g(u)$):\n$$I = \\int_{-c}^{c}\\frac{f(u)}{1 + e^{-g(u)}}\\,du = \\int_{-c}^{c}\\frac{f(u)e^{g(u)}}{e^{g(u)} + 1}\\,du.$$\nAdding the two forms: $2I = \\int_{-c}^{c}f(x)\\,dx = 2\\int_0^c f(x)\\,dx$ (as $f$ is even). Hence $I = \\int_0^c f(x)\\,dx$."
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.15"
+   ],
+   "question": "For $f$ even and $g$ odd, $\\displaystyle\\int_{-c}^{c}\\frac{f(x)}{1 + e^{g(x)}}\\,dx = \\int_0^c f(x)\\,dx$. Hence or otherwise, evaluate\n$$\\int_{-1}^{1}\\frac{3x^2 + 1}{\\left(1 + e^{\\sin^3x}\\right)\\left(x^6 + 2x^4 + x^2 + 1\\right)}\\,dx.$$",
+   "answer": "$f(x) = \\dfrac{3x^2 + 1}{x^6 + 2x^4 + x^2 + 1}$ is even and $g(x) = \\sin^3x$ is odd, so the integral equals $\\int_0^1 f(x)\\,dx$.\nNote $x^6 + 2x^4 + x^2 = (x^3 + x)^2$ and $\\frac{d}{dx}(x^3 + x) = 3x^2 + 1$. With $u = x^3 + x$:\n$$\\int_0^2\\frac{du}{u^2 + 1} = \\tan^{-1}2.$$"
+  },
+  {
+   "ref": "Q13(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.3"
+   ],
+   "question": "A particle of unit mass moves in a straight line against a resisting force of magnitude $v + \\lambda v^3$ newtons, where $v$ is its speed and $\\lambda$ is a positive constant. Initially the particle is at the origin with speed $Q > 0$. Let $x$ be its displacement from the origin and $t$ the time elapsed.\n\nShow that $x = \\dfrac{1}{\\sqrt{\\lambda}}\\left[\\tan^{-1}\\left(\\sqrt{\\lambda}Q\\right) - \\tan^{-1}\\left(\\sqrt{\\lambda}v\\right)\\right]$.",
+   "answer": "$v\\dfrac{dv}{dx} = -(v + \\lambda v^3) \\Rightarrow \\dfrac{dx}{dv} = -\\dfrac{1}{1 + \\lambda v^2}$.\n$$x = \\int_v^Q\\frac{du}{1 + \\lambda u^2} = \\frac{1}{\\sqrt{\\lambda}}\\left[\\tan^{-1}\\left(\\sqrt{\\lambda}u\\right)\\right]_v^Q = \\frac{1}{\\sqrt{\\lambda}}\\left[\\tan^{-1}\\left(\\sqrt{\\lambda}Q\\right) - \\tan^{-1}\\left(\\sqrt{\\lambda}v\\right)\\right].$$"
+  },
+  {
+   "ref": "Q13(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.2"
+   ],
+   "question": "A particle of unit mass moves in a straight line against a resisting force of magnitude $v + \\lambda v^3$ newtons, where $v$ is its speed and $\\lambda$ is a positive constant. Initially the particle is at the origin with speed $Q > 0$. Let $x$ be its displacement from the origin and $t$ the time elapsed.\n\nShow that the time elapsed when the particle has speed $v$ is $t = \\dfrac{1}{2}\\ln\\left(\\dfrac{Q^2(1 + \\lambda v^2)}{v^2(1 + \\lambda Q^2)}\\right)$.",
+   "answer": "$\\dfrac{dv}{dt} = -v(1 + \\lambda v^2)$, and $\\dfrac{1}{v(1 + \\lambda v^2)} = \\dfrac{1}{v} - \\dfrac{\\lambda v}{1 + \\lambda v^2}$.\n$$t = \\int_v^Q\\left(\\frac{1}{u} - \\frac{\\lambda u}{1 + \\lambda u^2}\\right)du = \\ln\\frac{Q}{v} - \\frac{1}{2}\\ln\\frac{1 + \\lambda Q^2}{1 + \\lambda v^2} = \\frac{1}{2}\\ln\\left(\\frac{Q^2(1 + \\lambda v^2)}{v^2(1 + \\lambda Q^2)}\\right).$$"
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.5.5"
+   ],
+   "question": "An autonomous underwater vehicle (AUV) of mass $m$ kg descends vertically through seawater (downwards positive). It experiences its weight $mg$ downwards, a constant upward buoyant force $\\frac{4}{5}mg$, and a resistive force $mkv$, where $v$ is its downward speed and $k > 0$. At $t = 0$ it is descending with speed $u$ m s⁻¹, with its thrusters off. While the thrusters are off, $\\dfrac{dv}{dt} = \\dfrac{g}{5} - kv$.\n\nFind the terminal speed of the AUV, in terms of $k$, while its thrusters are switched off.",
+   "answer": "$\\frac{dv}{dt} = 0$: $v_T = \\dfrac{g}{5k}$.",
+   "images": [
+    "assets/img/ext2-2026-james-ruse/q14a.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.5.2"
+   ],
+   "question": "An autonomous underwater vehicle (AUV) of mass $m$ kg descends vertically through seawater (downwards positive). It experiences its weight $mg$ downwards, a constant upward buoyant force $\\frac{4}{5}mg$, and a resistive force $mkv$, where $v$ is its downward speed and $k > 0$. At $t = 0$ it is descending with speed $u$ m s⁻¹, with its thrusters off. While the thrusters are off, $\\dfrac{dv}{dt} = \\dfrac{g}{5} - kv$.\n\nShow that $v = \\dfrac{g}{5k} + \\left(u - \\dfrac{g}{5k}\\right)e^{-kt}$.",
+   "answer": "$\\dfrac{dv}{dt} = -k\\left(v - \\dfrac{g}{5k}\\right) \\Rightarrow \\ln\\left|\\dfrac{v - \\frac{g}{5k}}{u - \\frac{g}{5k}}\\right| = -kt$, so $v - \\dfrac{g}{5k} = \\left(u - \\dfrac{g}{5k}\\right)e^{-kt}$.",
+   "images": [
+    "assets/img/ext2-2026-james-ruse/q14a.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.5.3"
+   ],
+   "question": "An autonomous underwater vehicle (AUV) of mass $m$ kg descends vertically through seawater (downwards positive). It experiences its weight $mg$ downwards, a constant upward buoyant force $\\frac{4}{5}mg$, and a resistive force $mkv$, where $v$ is its downward speed and $k > 0$. At $t = 0$ it is descending with speed $u$ m s⁻¹, with its thrusters off. While the thrusters are off, $\\dfrac{dv}{dt} = \\dfrac{g}{5} - kv$. Its speed is $v = \\frac{g}{5k} + \\left(u - \\frac{g}{5k}\\right)e^{-kt}$.\n\nIf $x$ is the distance descended after $t$ seconds, show that $x = \\dfrac{g}{5k}t + \\dfrac{1}{k}\\left(u - \\dfrac{g}{5k}\\right)\\left(1 - e^{-kt}\\right)$.",
+   "answer": "$$x = \\int_0^t\\left[\\frac{g}{5k} + \\left(u - \\frac{g}{5k}\\right)e^{-ks}\\right]ds = \\frac{g}{5k}t + \\left(u - \\frac{g}{5k}\\right)\\left[-\\frac{e^{-ks}}{k}\\right]_0^t = \\frac{g}{5k}t + \\frac{1}{k}\\left(u - \\frac{g}{5k}\\right)\\left(1 - e^{-kt}\\right).$$",
+   "images": [
+    "assets/img/ext2-2026-james-ruse/q14a.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)(iv)(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.5.6"
+   ],
+   "question": "An autonomous underwater vehicle (AUV) of mass $m$ kg descends vertically through seawater (downwards positive). It experiences its weight $mg$ downwards, a constant upward buoyant force $\\frac{4}{5}mg$, and a resistive force $mkv$, where $v$ is its downward speed and $k > 0$. At $t = 0$ it is descending with speed $u$ m s⁻¹, with its thrusters off. While the thrusters are off, $\\dfrac{dv}{dt} = \\dfrac{g}{5} - kv$. Its speed is $v = \\frac{g}{5k} + \\left(u - \\frac{g}{5k}\\right)e^{-kt}$.\n\nThe AUV switches on its thrusters when its speed first reaches the value halfway between its initial speed and its terminal speed (assume $u \\ne \\frac{g}{5k}$). Find the time, in terms of $k$, at which the thrusters switch on.",
+   "answer": "Halfway speed: $v = \\frac{1}{2}\\left(u + \\frac{g}{5k}\\right)$, so $v - \\frac{g}{5k} = \\frac{1}{2}\\left(u - \\frac{g}{5k}\\right)$. Then $e^{-kt} = \\frac{1}{2}$ and $t = \\dfrac{\\ln 2}{k}$."
+  },
+  {
+   "ref": "Q14(a)(iv)(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.2"
+   ],
+   "question": "An autonomous underwater vehicle (AUV) of mass $m$ kg descends vertically through seawater (downwards positive). It experiences its weight $mg$ downwards, a constant upward buoyant force $\\frac{4}{5}mg$, and a resistive force $mkv$, where $v$ is its downward speed and $k > 0$. At $t = 0$ it is descending with speed $u$ m s⁻¹, with its thrusters off. While the thrusters are off, $\\dfrac{dv}{dt} = \\dfrac{g}{5} - kv$.\n\nAfter the thrusters switch on, they exert an additional constant upward force of $\\frac{1}{5}mg$. By considering the new equation of motion, show that the speed approaches zero as $t \\to \\infty$.",
+   "answer": "New equation: $m\\dfrac{dv}{dt} = mg - \\dfrac{4}{5}mg - \\dfrac{1}{5}mg - mkv$, i.e. $\\dfrac{dv}{dt} = -kv$. So $v = v_1e^{-k(t - t_1)}$, where $v_1$ is the speed at switch-on time $t_1$. As $t \\to \\infty$, $v \\to 0$."
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.1.3.7"
+   ],
+   "question": "Let $a$, $b$ and $c$ be the side lengths of triangle $ABC$, and let $h_a$, $h_b$, $h_c$ be the altitudes from $A$, $B$, $C$ to the opposite sides. Let the area of the triangle be $M$. It is given that $x^2 + y^2 \\ge 2xy$ for positive reals $x, y$. Show that\n$$\\left(\\frac{a^2 + b^2}{c}\\right)h_c + \\left(\\frac{b^2 + c^2}{a}\\right)h_a + \\left(\\frac{c^2 + a^2}{b}\\right)h_b \\ge 12M.$$",
+   "answer": "$h_a = \\frac{2M}{a}$, $h_b = \\frac{2M}{b}$, $h_c = \\frac{2M}{c}$, so the left side is\n$$2M\\left(\\frac{a^2 + b^2}{c^2} + \\frac{b^2 + c^2}{a^2} + \\frac{c^2 + a^2}{b^2}\\right) = 2M\\left[\\left(\\frac{a^2}{c^2} + \\frac{c^2}{a^2}\\right) + \\left(\\frac{b^2}{c^2} + \\frac{c^2}{b^2}\\right) + \\left(\\frac{b^2}{a^2} + \\frac{a^2}{b^2}\\right)\\right].$$\nEach bracket is $\\ge 2$ (e.g. $\\frac{a^2}{c^2} + \\frac{c^2}{a^2} \\ge 2\\cdot\\frac{a}{c}\\cdot\\frac{c}{a} = 2$). So the left side is $\\ge 2M \\times 6 = 12M$.",
+   "images": [
+    "assets/img/ext2-2026-james-ruse/q14b.png"
+   ]
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.2"
+   ],
+   "question": "Let $x$, $y$ and $k$ be positive real numbers. Show that $x + y\\sqrt{k} \\le \\sqrt{x^2 + y^2}\\sqrt{k + 1}$.",
+   "answer": "Both sides are positive, so compare squares. $(x\\sqrt{k} - y)^2 \\ge 0$ gives $2xy\\sqrt{k} \\le x^2k + y^2$. Then\n$$(x + y\\sqrt{k})^2 = x^2 + 2xy\\sqrt{k} + y^2k \\le x^2 + y^2k + x^2k + y^2 = (x^2 + y^2)(k + 1).$$"
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.1.4.6",
+    "12.1.3.6"
+   ],
+   "question": "A hemispherical bubble of radius $r$ forms the lowest chamber of a bubble tower. A smaller hemispherical bubble is placed on it so that the circular base of the new hemisphere is a horizontal cross-section of the hemisphere immediately below it. Further, smaller hemispheres are placed in the same way until the tower has $n$ hemispherical chambers. At one stage, $C$ is the centre of the lower hemisphere (radius $CP = R$), the upper hemisphere's base is at height $CQ = x$ with radius $QP = y$, so $x^2 + y^2 = R^2$. Using mathematical induction and the result $x + y\\sqrt{k} \\le \\sqrt{x^2 + y^2}\\sqrt{k + 1}$ (for positive $x, y, k$), prove that the maximum possible height of a tower of $n$ chambers whose lowest hemisphere has radius $r$ is $r\\sqrt{n}$.",
+   "answer": "**$n = 1$:** a single hemisphere of radius $r$ has height $r = r\\sqrt{1}$. True.\n\n**Assume** the maximum height of a $k$-chamber tower with lowest radius $R$ is $R\\sqrt{k}$.\n\n**For $k + 1$ chambers** with lowest radius $R$: the second chamber sits at height $x$ with radius $y$, where $x^2 + y^2 = R^2$. The chambers above the lowest one form a $k$-chamber tower with lowest radius $y$, of height at most $y\\sqrt{k}$. So\n$$\\text{height} \\le x + y\\sqrt{k} \\le \\sqrt{x^2 + y^2}\\sqrt{k + 1} = R\\sqrt{k + 1},$$\nwith equality when $y = x\\sqrt{k}$ (equality in part (i) needs $x\\sqrt{k} = y$), which is achievable. So the maximum is $R\\sqrt{k + 1}$.\nHence, by mathematical induction, the maximum height of an $n$-chamber tower is $r\\sqrt{n}$.",
+   "images": [
+    "assets/img/ext2-2026-james-ruse/q14c.png"
+   ]
+  },
+  {
+   "ref": "Q15(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.13"
+   ],
+   "question": "An aircraft approaches an airport with constant velocity $\\mathbf{v} = 0.4\\mathbf{i} - 0.4\\mathbf{j} - 0.1\\mathbf{k}$ km s⁻¹. It is first observed by the control tower at $t = 0$ seconds. Sixty seconds later, it passes directly above a navigation beacon whose position vector relative to the base of the control tower is $\\mathbf{i} + 2\\mathbf{j}$ km, at an altitude of 2 km. The aircraft continues with constant velocity until it lands.\n\nShow that the position vector of the aircraft relative to the base of the control tower at time $t$ seconds is $\\mathbf{r}(t) = (0.4t - 23)\\mathbf{i} + (26 - 0.4t)\\mathbf{j} + (8 - 0.1t)\\mathbf{k}$.",
+   "answer": "$\\mathbf{r}(60) = \\mathbf{i} + 2\\mathbf{j} + 2\\mathbf{k}$ and $\\mathbf{r}(t) = \\mathbf{r}(60) + (t - 60)\\mathbf{v}$:\n$$\\mathbf{r}(t) = (1 + 0.4t - 24)\\mathbf{i} + (2 - 0.4t + 24)\\mathbf{j} + (2 - 0.1t + 6)\\mathbf{k} = (0.4t - 23)\\mathbf{i} + (26 - 0.4t)\\mathbf{j} + (8 - 0.1t)\\mathbf{k}.$$",
+   "images": [
+    "assets/img/ext2-2026-james-ruse/q15a.png"
+   ]
+  },
+  {
+   "ref": "Q15(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.13"
+   ],
+   "question": "An aircraft approaches an airport with constant velocity $\\mathbf{v} = 0.4\\mathbf{i} - 0.4\\mathbf{j} - 0.1\\mathbf{k}$ km s⁻¹. It is first observed by the control tower at $t = 0$ seconds. Sixty seconds later, it passes directly above a navigation beacon whose position vector relative to the base of the control tower is $\\mathbf{i} + 2\\mathbf{j}$ km, at an altitude of 2 km. The aircraft continues with constant velocity until it lands. Its position is $\\mathbf{r}(t) = (0.4t - 23)\\mathbf{i} + (26 - 0.4t)\\mathbf{j} + (8 - 0.1t)\\mathbf{k}$.\n\nHence, find the time taken for the aircraft to land and the position vector of the landing point relative to the base of the control tower.",
+   "answer": "It lands when $8 - 0.1t = 0$: $t = 80$ s. Landing point: $\\mathbf{r}(80) = 9\\mathbf{i} - 6\\mathbf{j}$ km.",
+   "images": [
+    "assets/img/ext2-2026-james-ruse/q15a.png"
+   ]
+  },
+  {
+   "ref": "Q15(a)(iii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.6.2",
+    "12.2.1.13"
+   ],
+   "question": "An aircraft lands at the point $9\\mathbf{i} - 6\\mathbf{j}$ km (relative to the base of the control tower) at $t = 80$ s. At $t = 70$ s, an emergency supply capsule is launched from a helicopter at position $3\\mathbf{i} - \\mathbf{j} + 3\\mathbf{k}$ km. Its initial velocity is\n$$\\mathbf{u} = \\frac{1}{\\sqrt{2}}\\cos\\theta\\left(\\frac{3}{5}\\mathbf{i} - \\frac{4}{5}\\mathbf{j}\\right) + \\frac{1}{\\sqrt{2}}\\sin\\theta\\,\\mathbf{k} \\text{ km s}^{-1},$$\nwhere $\\theta$ is the angle of projection above the horizontal, and during its flight it has constant acceleration $\\mathbf{a} = \\frac{1}{225}\\left(3\\mathbf{i} + 2\\mathbf{j} - 21\\mathbf{k}\\right)$ km s⁻². Determine $\\theta$ so that the capsule arrives at the aircraft's landing position 5 seconds after the aircraft has landed.",
+   "answer": "The capsule must arrive at $t = 85$, a flight time of $T = 15$ s:\n$$\\mathbf{r}_0 + 15\\mathbf{u} + \\frac{1}{2}(15)^2\\mathbf{a} = 9\\mathbf{i} - 6\\mathbf{j}.$$\n$\\frac{1}{2}(225)\\mathbf{a} = (1.5, 1, -10.5)$, so $15\\mathbf{u} = (9, -6, 0) - (3, -1, 3) - (1.5, 1, -10.5) = (4.5, -6, 7.5)$ and $\\mathbf{u} = (0.3, -0.4, 0.5)$.\nMatching: $\\frac{1}{\\sqrt{2}}\\cos\\theta\\cdot\\frac{3}{5} = 0.3 \\Rightarrow \\cos\\theta = \\frac{1}{\\sqrt{2}}$, and $\\frac{1}{\\sqrt{2}}\\sin\\theta = 0.5 \\Rightarrow \\sin\\theta = \\frac{1}{\\sqrt{2}}$. So $\\theta = \\dfrac{\\pi}{4}$ (45°).",
+   "images": [
+    "assets/img/ext2-2026-james-ruse/q15a-capsule.png"
+   ]
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "For each positive integer $n$, let $I_n = \\displaystyle\\int_0^{\\pi}e^{-x}(\\pi - x)^n\\,dx$. It is given that $I_1 = \\pi + \\dfrac{1}{e^{\\pi}} - 1$.\n\nShow that $I_{n+1} = \\pi^{n+1} - (n + 1)I_n$.",
+   "answer": "By parts with $u = (\\pi - x)^{n+1}$, $dv = e^{-x}\\,dx$:\n$$I_{n+1} = \\left[-e^{-x}(\\pi - x)^{n+1}\\right]_0^{\\pi} - (n + 1)\\int_0^{\\pi}e^{-x}(\\pi - x)^n\\,dx = \\pi^{n+1} - (n + 1)I_n.$$"
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "For each positive integer $n$, let $I_n = \\displaystyle\\int_0^{\\pi}e^{-x}(\\pi - x)^n\\,dx$. It is given that $I_1 = \\pi + \\dfrac{1}{e^{\\pi}} - 1$. It is known that $I_{n+1} = \\pi^{n+1} - (n + 1)I_n$.\n\nBy repeated application of this result (not by induction), show that\n$$(-1)^n\\frac{I_n}{n!} + \\frac{1}{e^{\\pi}} = \\sum_{k=0}^{n}(-1)^k\\frac{\\pi^k}{k!}.$$",
+   "answer": "Divide by $(n + 1)!$ and multiply by $(-1)^{n+1}$. With $J_n = (-1)^n\\frac{I_n}{n!}$:\n$$J_{n+1} = (-1)^{n+1}\\frac{\\pi^{n+1}}{(n + 1)!} + J_n.$$\nApplying this repeatedly from $J_1 = -I_1 = 1 - \\pi - \\frac{1}{e^{\\pi}}$:\n$$J_n = J_1 + \\sum_{k=2}^{n}(-1)^k\\frac{\\pi^k}{k!} = 1 - \\pi - \\frac{1}{e^{\\pi}} + \\sum_{k=2}^{n}(-1)^k\\frac{\\pi^k}{k!}.$$\nSo $J_n + \\frac{1}{e^{\\pi}} = \\sum_{k=0}^{n}(-1)^k\\frac{\\pi^k}{k!}$."
+  },
+  {
+   "ref": "Q15(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.8"
+   ],
+   "question": "For each positive integer $n$, let $I_n = \\displaystyle\\int_0^{\\pi}e^{-x}(\\pi - x)^n\\,dx$. It is given that $I_1 = \\pi + \\dfrac{1}{e^{\\pi}} - 1$. It is known that $(-1)^n\\frac{I_n}{n!} + \\frac{1}{e^{\\pi}} = \\sum_{k=0}^{n}(-1)^k\\frac{\\pi^k}{k!}$ and that $\\lim_{n \\to \\infty}\\frac{\\pi^n}{n!} = 0$.\n\nHence, or otherwise, show that $\\dfrac{1}{e^{\\pi}} = \\displaystyle\\sum_{k=0}^{\\infty}(-1)^k\\frac{\\pi^k}{k!}$.",
+   "answer": "On $[0, \\pi]$, $0 \\le e^{-x}(\\pi - x)^n \\le \\pi^n$, so $0 \\le I_n \\le \\pi^{n+1}$ and\n$$0 \\le \\left|(-1)^n\\frac{I_n}{n!}\\right| \\le \\pi\\cdot\\frac{\\pi^n}{n!} \\to 0.$$\nBy the squeeze theorem the term tends to 0, so letting $n \\to \\infty$: $\\dfrac{1}{e^{\\pi}} = \\displaystyle\\sum_{k=0}^{\\infty}(-1)^k\\frac{\\pi^k}{k!}$."
+  },
+  {
+   "ref": "Q15(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.1.9",
+    "12.2.2.5"
+   ],
+   "question": "The diagram shows a pyramid with parallelogram base $OABC$ and vertex $D$. Let $M$ be the midpoint of $AB$, and let $L$ be the point on $CD$ such that $CL : LD = 1 : 2$. Taking $O$ as the origin, let $\\overrightarrow{OA} = \\mathbf{a}$, $\\overrightarrow{OC} = \\mathbf{c}$, $\\overrightarrow{OD} = \\mathbf{d}$. Let $P$ be the point on the segment $LM$ such that the ray from $O$ through $P$ intersects the edge $BD$ at $N$. Using vector methods, determine the ratio $DN : NB$.",
+   "answer": "$B = \\mathbf{a} + \\mathbf{c}$, $M = \\mathbf{a} + \\frac{1}{2}\\mathbf{c}$, $L = \\frac{2}{3}\\mathbf{c} + \\frac{1}{3}\\mathbf{d}$.\n$P = L + t(M - L) = t\\mathbf{a} + \\left(\\frac{2}{3} - \\frac{t}{6}\\right)\\mathbf{c} + \\frac{1 - t}{3}\\mathbf{d}$, and $N = \\mathbf{d} + s(B - D) = s\\mathbf{a} + s\\mathbf{c} + (1 - s)\\mathbf{d}$.\n$O$, $P$, $N$ collinear: $N = \\mu P$. Since $\\mathbf{a}, \\mathbf{c}, \\mathbf{d}$ are not coplanar, compare coefficients:\n$$s = \\mu t, \\quad s = \\mu\\left(\\frac{2}{3} - \\frac{t}{6}\\right), \\quad 1 - s = \\frac{\\mu(1 - t)}{3}.$$\nThe first two give $t = \\frac{2}{3} - \\frac{t}{6}$, so $t = \\frac{4}{7}$. Then $s = \\frac{4\\mu}{7}$ and $1 - \\frac{4\\mu}{7} = \\frac{\\mu}{7}$, so $\\mu = \\frac{7}{5}$ and $s = \\frac{4}{5}$.\n$\\overrightarrow{DN} = \\frac{4}{5}\\overrightarrow{DB}$, so $DN : NB = 4 : 1$.",
+   "images": [
+    "assets/img/ext2-2026-james-ruse/q15c.png"
+   ]
+  }
+ ]
+}
