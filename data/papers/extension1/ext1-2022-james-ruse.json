@@ -1,0 +1,510 @@
+{
+ "id": "ext1-2022-james-ruse",
+ "course": "extension1",
+ "school": "James Ruse",
+ "year": 2022,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "James Ruse 2022 w. sol"
+ },
+ "indexed": "2026-11-12",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q11(a)",
+   "reason": "Not in 2024 syllabus: graphs of $y^2 = f(x)$"
+  },
+  {
+   "ref": "Q12(b)",
+   "reason": "Not in 2024 syllabus: normal approximation for sample proportions"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.3",
+    "11.2.1.12"
+   ],
+   "question": "The diagram shows the graph of $P(x) = a(x+b)(x+c)(x+d)^2$. Which of the following is a possible set of values for $a$, $b$, $c$ and $d$?",
+   "answer": "Single zeros at $x = -3$ and $x = -1$, and a double zero (touching) at $x = 2$, so $P(x) = a(x+3)(x+1)(x-2)^2$: $b, c = 3, 1$ and $d = -2$.\n$P(0) = a \\cdot 3 \\cdot 1 \\cdot 4 = 12a = -24$, so $a = -2$ (negative leading coefficient, matching the shape).",
+   "options": [
+    "$-24, 3, 1, -2$",
+    "$-2, 3, 1, -2$",
+    "$-2, -1, -3, 2$",
+    "$-24, -1, -3, 2$"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/ext1-2022-james-ruse/q1.png"
+   ]
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.1.3"
+   ],
+   "question": "$f(x)$ is an odd function and $f(-1) < 0$. Which graph (A–D) could show $y = f(-|x|)$?",
+   "answer": "$y = f(-|x|)$ is even (symmetric about the $y$-axis). For $x > 0$ it equals $f(-x) = -f(x)$; since $f(1) = -f(-1) > 0$, the graph is below the axis for $x > 0$ near $x = 1$, and by symmetry also for $x < 0$. Only C fits.",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/ext1-2022-james-ruse/q2.png"
+   ]
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "Which is a correct anti-derivative for $\\dfrac{6}{\\sqrt{4 - 9x^2}}$?",
+   "answer": "$$\\int \\frac{6}{\\sqrt{4 - 9x^2}}\\,dx = \\int \\frac{2}{\\sqrt{\\frac{4}{9} - x^2}}\\,dx = 2\\sin^{-1}\\left(\\frac{3x}{2}\\right) + C.$$",
+   "options": [
+    "$\\sin^{-1}\\left(\\frac{3x}{2}\\right)$",
+    "$2\\sin^{-1}\\left(\\frac{3x}{2}\\right)$",
+    "$3\\sin^{-1}\\left(\\frac{3x}{2}\\right)$",
+    "$6\\sin^{-1}\\left(\\frac{3x}{2}\\right)$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.4"
+   ],
+   "question": "Two hot bodies, A and B, have temperatures of 120°C and 80°C at $t = 0$ seconds. The temperature of the surroundings is 40°C. Assuming Newton's law of cooling, the ratio of the rate of cooling of body A to body B at $t = 0$ seconds is:",
+   "answer": "Rate of cooling $\\propto (T - 40)$: $(120 - 40) : (80 - 40) = 80 : 40 = 2 : 1$.",
+   "options": [
+    "1 : 2",
+    "2 : 1",
+    "3 : 2",
+    "2 : 3"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.9"
+   ],
+   "question": "Which of the following differential equations yields the direction field shown?",
+   "answer": "Along the $y$-axis ($x = 0$) the slopes are 0, so the numerator contains the factor $x$: A or C. To decide, test a point on the line $y = -x$, e.g. $(-2, 2)$: A gives $\\dfrac{-2\\cos 0}{2} = -1$ while C gives $\\dfrac{-2\\sin 0}{2} = 0$. The field has a clearly negative slope there, so the answer is A. (Check: at $(2, 0.5)$, A gives $4\\cos 2.5 \\approx -3.2$, matching the steep negative slopes.)",
+   "options": [
+    "$\\dfrac{dy}{dx} = \\dfrac{x\\cos(x+y)}{y}$",
+    "$\\dfrac{dy}{dx} = \\dfrac{y\\cos(x+y)}{x}$",
+    "$\\dfrac{dy}{dx} = \\dfrac{x\\sin(x+y)}{y}$",
+    "$\\dfrac{dy}{dx} = \\dfrac{y\\sin(x+y)}{x}$"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/ext1-2022-james-ruse/q5.png"
+   ]
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.5.4",
+    "12.3.1.6"
+   ],
+   "question": "A particle has position vector $\\mathbf{r}(t) = \\cos^{-1}(t)\\,\\mathbf{i} + \\sin^{-1}(t)\\,\\mathbf{j}$. The distance travelled by the particle in the interval $[-1, 1]$ is closest to",
+   "answer": "Since $\\cos^{-1}t + \\sin^{-1}t = \\frac{\\pi}{2}$, the path is the straight line $x + y = \\frac{\\pi}{2}$, traced once from $(\\pi, -\\frac{\\pi}{2})$ at $t = -1$ to $(0, \\frac{\\pi}{2})$ at $t = 1$.\nDistance $= \\sqrt{\\pi^2 + \\pi^2} = \\sqrt{2}\\pi$.",
+   "options": [
+    "6",
+    "$\\sqrt{3}\\pi$",
+    "5",
+    "$\\sqrt{2}\\pi$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.6",
+    "12.3.2.10"
+   ],
+   "question": "Given $\\cos(3\\theta) = 4\\cos^3\\theta - 3\\cos\\theta$, which of the following is the simplified form of $\\cos^{-1}(4x^3 - 3x)$?",
+   "answer": "Let $x = \\cos\\theta$ with $\\theta = \\cos^{-1}x \\in [0, \\pi]$. Then $4x^3 - 3x = \\cos 3\\theta$, so $\\cos^{-1}(4x^3 - 3x) = \\cos^{-1}(\\cos 3\\theta) = 3\\theta = 3\\cos^{-1}x$, provided $3\\theta \\in [0, \\pi]$.\n\nNote: this only holds for $\\frac{1}{2} \\le x \\le 1$ (e.g. at $x = 0$ the left side is $\\frac{\\pi}{2}$ but $3\\cos^{-1}0 = \\frac{3\\pi}{2}$). C is the intended answer.",
+   "options": [
+    "$\\pi - 3\\sin^{-1}x$",
+    "$3\\sin^{-1}x$",
+    "$3\\cos^{-1}x$",
+    "$\\pi - 3\\cos^{-1}x$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.3"
+   ],
+   "question": "How many integers do **not** satisfy the inequality $3|x - 1| + x^2 - 7 > 0$?",
+   "answer": "For $x \\ge 1$: $x^2 + 3x - 10 > 0 \\Rightarrow (x+5)(x-2) > 0 \\Rightarrow x > 2$.\nFor $x < 1$: $x^2 - 3x - 4 > 0 \\Rightarrow (x-4)(x+1) > 0 \\Rightarrow x < -1$.\nSo the inequality fails for $-1 \\le x \\le 2$: the integers $-1, 0, 1, 2$ — four integers.",
+   "options": [
+    "4",
+    "3",
+    "2",
+    "1"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.6",
+    "12.4.8.4"
+   ],
+   "question": "Using the graph of $y = f(x)$ shown, if $\\displaystyle\\int_0^{k+4} f(x)\\,dx = 0$, what is the value of $k$?",
+   "answer": "Area above the axis: rectangle $k \\times 1$ plus a quarter circle of radius 1: $k + \\frac{\\pi}{4}$.\nArea below the axis: between $x = k+1$ and $k+3$, a $2 \\times 2$ square minus a quarter circle of radius 2: $4 - \\pi$; then a triangle $\\frac{1}{2}(1)(2) = 1$. Total $5 - \\pi$.\n$$k + \\frac{\\pi}{4} = 5 - \\pi \\Rightarrow k = 5 - \\frac{5\\pi}{4}.$$",
+   "course": "advanced",
+   "options": [
+    "$6 - \\frac{\\pi}{4}$",
+    "$5 - \\frac{5\\pi}{2}$",
+    "$6 - \\frac{\\pi}{2}$",
+    "$5 - \\frac{5\\pi}{4}$"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/ext1-2022-james-ruse/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.1",
+    "11.1.4.2"
+   ],
+   "question": "The graph of $y = \\dfrac{1}{a + bx + 4ax^2}$, where $a > 1$, has only one asymptote when",
+   "answer": "$y = 0$ is always a horizontal asymptote, so there must be no vertical asymptotes: the denominator has no real zeros, $\\Delta = b^2 - 16a^2 < 0$, i.e. $-4a < b < 4a$. Since $a > 1$, $4a > 4$, so any $b$ with $-1 \\le b \\le 4$ satisfies this; A is not guaranteed (e.g. $a = 1.1$, $b = 4.5$).",
+   "options": [
+    "$-5 < b < 5$",
+    "$b \\le -4a$ or $b \\ge 4a$",
+    "$-1 \\le b \\le 4$",
+    "$b < -4a$ or $b > 4a$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Use the substitution $u = e^{2x}$ to find\n$$\\int \\left(e^{e^{2x}}\\right)^2 e^{2x}\\,dx.$$",
+   "answer": "$u = e^{2x}$, $du = 2e^{2x}\\,dx$.\n$$\\int \\left(e^{e^{2x}}\\right)^2 e^{2x}\\,dx = \\frac{1}{2}\\int e^{2u}\\,du = \\frac{1}{4}e^{2u} + C = \\frac{1}{4}e^{2e^{2x}} + C.$$"
+  },
+  {
+   "ref": "Q11(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.6"
+   ],
+   "question": "Three forces $\\overrightarrow{F_1}$, $\\overrightarrow{F_2}$ and $\\overrightarrow{F_3}$ are represented by the vectors $10\\mathbf{i} + 20\\mathbf{j}$, $20\\mathbf{i} - 30\\mathbf{j}$ and $-6\\mathbf{i} + 20\\mathbf{j}$ newtons respectively.\n\nDraw a sketch showing the relative magnitude and direction of the three forces.",
+   "answer": "All three drawn from the origin on the same axes, to scale: $\\overrightarrow{F_1}$ to $(10, 20)$ (first quadrant), $\\overrightarrow{F_2}$ to $(20, -30)$ (fourth quadrant, longest), $\\overrightarrow{F_3}$ to $(-6, 20)$ (second quadrant).",
+   "answer_images": [
+    "assets/img/ext1-2022-james-ruse/q11c-sol.png"
+   ]
+  },
+  {
+   "ref": "Q11(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.6",
+    "12.2.3.7"
+   ],
+   "question": "Three forces $\\overrightarrow{F_1}$, $\\overrightarrow{F_2}$ and $\\overrightarrow{F_3}$ are represented by the vectors $10\\mathbf{i} + 20\\mathbf{j}$, $20\\mathbf{i} - 30\\mathbf{j}$ and $-6\\mathbf{i} + 20\\mathbf{j}$ newtons respectively.\n\nDetermine the resultant force, expressed as a vector, and find its magnitude.",
+   "answer": "$$\\overrightarrow{F} = (10 + 20 - 6)\\mathbf{i} + (20 - 30 + 20)\\mathbf{j} = 24\\mathbf{i} + 10\\mathbf{j}$$\n$$|\\overrightarrow{F}| = \\sqrt{24^2 + 10^2} = \\sqrt{676} = 26 \\text{ N}.$$"
+  },
+  {
+   "ref": "Q11(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.7"
+   ],
+   "question": "Three forces $\\overrightarrow{F_1}$, $\\overrightarrow{F_2}$ and $\\overrightarrow{F_3}$ are represented by the vectors $10\\mathbf{i} + 20\\mathbf{j}$, $20\\mathbf{i} - 30\\mathbf{j}$ and $-6\\mathbf{i} + 20\\mathbf{j}$ newtons respectively. Their resultant is $24\\mathbf{i} + 10\\mathbf{j}$.\n\nAn additional force $\\overrightarrow{F_4} = k\\mathbf{j}$ is applied so that the resultant of $\\overrightarrow{F_1}$, $\\overrightarrow{F_2}$, $\\overrightarrow{F_3}$ and $\\overrightarrow{F_4}$ has magnitude 30 N. What is the value of $k$?",
+   "answer": "New resultant $24\\mathbf{i} + (10 + k)\\mathbf{j}$:\n$$24^2 + (k + 10)^2 = 900 \\Rightarrow (k + 10)^2 = 324 \\Rightarrow k + 10 = \\pm 18 \\Rightarrow k = 8 \\text{ or } k = -28.$$"
+  },
+  {
+   "ref": "Q11(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.1.3"
+   ],
+   "question": "You are asked to provide an 8-letter password which may only be made up of the letters A, B and C.\n\nHow many 8-letter passwords are there to choose from?",
+   "answer": "Each of the 8 positions has 3 choices: $3^8 = 6561$."
+  },
+  {
+   "ref": "Q11(d)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.1.3"
+   ],
+   "question": "You are asked to provide an 8-letter password which may only be made up of the letters A, B and C.\n\nHow many of the 8-letter passwords contain only B's and C's?",
+   "answer": "$2^8 = 256$. (This includes BBBBBBBB and CCCCCCCC; excluding them gives 254, which was also accepted.)"
+  },
+  {
+   "ref": "Q11(d)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.9"
+   ],
+   "question": "You are asked to provide an 8-letter password which may only be made up of the letters A, B and C.\n\nIf the password must use each of the letters A, B and C at least once, how many possible passwords are there?",
+   "answer": "Subtract passwords missing at least one letter (inclusion–exclusion). Passwords missing a given letter: $2^8 = 256$ each (3 letters). Those missing two given letters (all one letter) have been subtracted twice: add back 3.\n$$3^8 - 3 \\times 2^8 + 3 = 6561 - 768 + 3 = 5796.$$"
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.6"
+   ],
+   "question": "The quartic polynomial $P(x) = x^4 + px^3 + qx^2 + px + 1$ has $x = \\alpha$ as a double zero.\n\nShow that $\\alpha^{-1}$ is also a zero of $P(x)$.",
+   "answer": "$P(\\alpha) = \\alpha^4 + p\\alpha^3 + q\\alpha^2 + p\\alpha + 1 = 0$ (note $\\alpha \\ne 0$ since $P(0) = 1$).\n$$P\\left(\\frac{1}{\\alpha}\\right) = \\frac{1}{\\alpha^4} + \\frac{p}{\\alpha^3} + \\frac{q}{\\alpha^2} + \\frac{p}{\\alpha} + 1 = \\frac{1 + p\\alpha + q\\alpha^2 + p\\alpha^3 + \\alpha^4}{\\alpha^4} = \\frac{P(\\alpha)}{\\alpha^4} = 0.$$\nSo $\\frac{1}{\\alpha}$ is a zero."
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.3"
+   ],
+   "question": "The quartic polynomial $P(x) = x^4 + px^3 + qx^2 + px + 1$ has $x = \\alpha$ as a double zero. Also, $\\alpha^{-1}$ is a zero of $P(x)$.\n\nFind the fourth root in terms of $\\alpha$.",
+   "answer": "The roots are $\\alpha, \\alpha, \\frac{1}{\\alpha}, \\beta$. Product of roots $= \\frac{e}{a} = 1$:\n$$\\alpha^2 \\cdot \\frac{1}{\\alpha} \\cdot \\beta = 1 \\Rightarrow \\beta = \\frac{1}{\\alpha}.$$\n(So $\\frac{1}{\\alpha}$ is also a double root.)"
+  },
+  {
+   "ref": "Q12(a)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.3.3",
+    "11.2.3.4"
+   ],
+   "question": "The quartic polynomial $P(x) = x^4 + px^3 + qx^2 + px + 1$ has $x = \\alpha$ as a double zero. Its roots are $\\alpha, \\alpha, \\frac{1}{\\alpha}, \\frac{1}{\\alpha}$.\n\nShow that $p^2 = 4(q - 2)$.",
+   "answer": "Sum of roots: $2\\alpha + \\frac{2}{\\alpha} = -p$, so $p^2 = 4\\left(\\alpha + \\frac{1}{\\alpha}\\right)^2 = 4\\left(\\alpha^2 + \\frac{1}{\\alpha^2} + 2\\right)$.\n\nSum of products two at a time: $\\alpha\\cdot\\alpha + 4\\left(\\alpha\\cdot\\frac{1}{\\alpha}\\right) + \\frac{1}{\\alpha}\\cdot\\frac{1}{\\alpha} = q$, so $q = \\alpha^2 + \\frac{1}{\\alpha^2} + 4$, i.e. $\\alpha^2 + \\frac{1}{\\alpha^2} + 2 = q - 2$.\n\nHence $p^2 = 4(q - 2)$."
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "Show that the differential equation\n$$\\frac{dy}{dx} = \\frac{2xy}{x^2 - 1}$$\ndescribes a family of parabolas with $x$-intercepts at $(1, 0)$ and $(-1, 0)$.",
+   "answer": "Separate variables:\n$$\\int \\frac{dy}{y} = \\int \\frac{2x}{x^2 - 1}\\,dx \\Rightarrow \\ln|y| = \\ln|x^2 - 1| + c \\Rightarrow y = A(x^2 - 1) = A(x - 1)(x + 1),$$\nwhere $A = \\pm e^c$ (and $A = 0$ also satisfies the equation). This is a family of parabolas with $x$-intercepts $(1, 0)$ and $(-1, 0)$."
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.13",
+    "12.5.4.5"
+   ],
+   "question": "Consider the differential equation\n$$\\frac{dy}{dx} = \\frac{1 - x^2}{2xy}.$$\nFind the equation of the curve which satisfies this differential equation and passes through the point $(1, 1)$. Express your answer as a function of $x$.",
+   "answer": "$$\\int 2y\\,dy = \\int \\left(\\frac{1}{x} - x\\right)dx \\Rightarrow y^2 = \\ln|x| - \\frac{x^2}{2} + C.$$\nAt $(1, 1)$: $1 = 0 - \\frac{1}{2} + C$, so $C = \\frac{3}{2}$. Since $y = 1 > 0$ at $x = 1$, take the positive root:\n$$y = \\sqrt{\\ln x - \\frac{x^2}{2} + \\frac{3}{2}}.$$"
+  },
+  {
+   "ref": "Q12(c)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.4"
+   ],
+   "question": "The differential equation $\\dfrac{dy}{dx} = \\dfrac{2xy}{x^2 - 1}$ describes a family of parabolas $y = A(x^2 - 1)$. The curve $y = \\sqrt{\\ln x - \\frac{x^2}{2} + \\frac{3}{2}}$ satisfies $\\dfrac{dy}{dx} = \\dfrac{1 - x^2}{2xy}$. What can be said about this curve in relation to the family of parabolas?",
+   "answer": "At any point $(x, y)$, the product of the two gradients is\n$$\\frac{2xy}{x^2 - 1} \\times \\frac{1 - x^2}{2xy} = -1,$$\nso the curve meets every parabola of the family at right angles (it is an orthogonal trajectory)."
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.2.1"
+   ],
+   "question": "A student is given the chance to win $6^X$ dollars on two rolls of an unbiased six-sided die, where $X$ is the number of times a '3' is rolled.\n\nWhat is the most the student may win?",
+   "answer": "The maximum is $X = 2$: $6^2 = \\$36$."
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.6",
+    "12.6.2.9"
+   ],
+   "question": "A student is given the chance to win $6^X$ dollars on two rolls of an unbiased six-sided die, where $X$ is the number of times a '3' is rolled.\n\nHow much is the student expected to win? Give your answer correct to two decimal places.",
+   "answer": "$X \\sim \\text{Bin}(2, \\frac{1}{6})$: $P(X=0) = \\frac{25}{36}$, $P(X=1) = \\frac{10}{36}$, $P(X=2) = \\frac{1}{36}$.\n$$E(6^X) = 6^0 \\cdot \\frac{25}{36} + 6^1 \\cdot \\frac{10}{36} + 6^2 \\cdot \\frac{1}{36} = \\frac{25 + 60 + 36}{36} = \\frac{121}{36} \\approx \\$3.36.$$"
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.1",
+    "11.3.2.2"
+   ],
+   "question": "Solve for all $x \\in \\mathbb{R}$: $\\sin x + \\cos 2x - \\sin 3x = 0$.",
+   "answer": "Using $\\sin 3x = 3\\sin x - 4\\sin^3 x$:\n$$\\sin x - \\sin 3x = -2\\sin x + 4\\sin^3 x = -2\\sin x(1 - 2\\sin^2 x) = -2\\sin x\\cos 2x.$$\nSo the equation becomes $\\cos 2x - 2\\sin x\\cos 2x = 0$, i.e. $\\cos 2x(1 - 2\\sin x) = 0$.\n\n- $\\cos 2x = 0$: $2x = (2k+1)\\frac{\\pi}{2}$, so $x = (2k+1)\\frac{\\pi}{4}$.\n- $\\sin x = \\frac{1}{2}$: $x = k\\pi + (-1)^k\\frac{\\pi}{6}$,\n\nwhere $k \\in \\mathbb{Z}$."
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.12"
+   ],
+   "question": "Sketch the graph of the curve $y = 3\\cos^{-1}\\left(\\frac{x}{2}\\right)$.",
+   "answer": "Domain $-2 \\le x \\le 2$, range $0 \\le y \\le 3\\pi$. The curve is decreasing, from $(-2, 3\\pi)$ through $\\left(0, \\frac{3\\pi}{2}\\right)$ (point of symmetry, where it is steepest, not a horizontal inflection) to $(2, 0)$. It has vertical tangents at the endpoints."
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "The region bounded by the curve $y = 3\\cos^{-1}\\left(\\frac{x}{2}\\right)$, the $y$-axis and the lines $y = \\frac{\\pi}{2}$ and $y = \\frac{5\\pi}{2}$ is rotated around the $y$-axis to form an hourglass. Find the volume of the hourglass formed.",
+   "answer": "$x = 2\\cos\\frac{y}{3}$, so $x^2 = 4\\cos^2\\frac{y}{3} = 2\\left(1 + \\cos\\frac{2y}{3}\\right)$.\n$$V = \\pi\\int_{\\pi/2}^{5\\pi/2} x^2\\,dy = 2\\pi\\left[y + \\frac{3}{2}\\sin\\frac{2y}{3}\\right]_{\\pi/2}^{5\\pi/2} = 2\\pi\\left[2\\pi + \\frac{3}{2}\\left(\\sin\\frac{5\\pi}{3} - \\sin\\frac{\\pi}{3}\\right)\\right]$$\n$$= 2\\pi\\left(2\\pi - \\frac{3\\sqrt{3}}{2}\\right) = 4\\pi^2 - 3\\sqrt{3}\\pi = 4\\pi\\left(\\pi - \\frac{3\\sqrt{3}}{4}\\right) \\text{ units}^3.$$"
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Prove by mathematical induction that for all positive integers $n \\ge 1$,\n$$1^2 \\times 2 + 2^2 \\times 2^2 + 3^2 \\times 2^3 + \\dots + n^2 \\times 2^n = (n^2 - 2n + 3)2^{n+1} - 6.$$",
+   "answer": "**$n = 1$:** LHS $= 1 \\times 2 = 2$; RHS $= (1 - 2 + 3)2^2 - 6 = 2$. True.\n\n**Assume true for $n = k$:** $1^2 \\times 2 + \\dots + k^2 \\times 2^k = (k^2 - 2k + 3)2^{k+1} - 6$.\n\n**Prove for $n = k+1$:** RHS required $= ((k+1)^2 - 2(k+1) + 3)2^{k+2} - 6 = (k^2 + 2)2^{k+2} - 6$.\n$$\\text{LHS} = (k^2 - 2k + 3)2^{k+1} - 6 + (k+1)^2 2^{k+1} \\quad \\text{(by the assumption)}$$\n$$= 2^{k+1}(k^2 - 2k + 3 + k^2 + 2k + 1) - 6 = 2^{k+1}(2k^2 + 4) - 6 = (k^2 + 2)2^{k+2} - 6 = \\text{RHS}.$$\nHence true for all integers $n \\ge 1$ by mathematical induction."
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.2.12"
+   ],
+   "question": "Let $f(x) = \\frac{1}{2}(2x - 1 + 2\\sin x)$. The graphs of $y = f(x)$ and $y = f^{-1}(x)$ are shown.\n\nFind the points of intersection of the two curves.",
+   "answer": "Since $f$ is increasing, the curves meet on $y = x$: $\\frac{1}{2}(2x - 1 + 2\\sin x) = x \\Rightarrow \\sin x = \\frac{1}{2}$.\nFrom the graph, $x = \\frac{\\pi}{6}, \\frac{5\\pi}{6}, \\frac{13\\pi}{6}$: the points $\\left(\\frac{\\pi}{6}, \\frac{\\pi}{6}\\right)$, $\\left(\\frac{5\\pi}{6}, \\frac{5\\pi}{6}\\right)$, $\\left(\\frac{13\\pi}{6}, \\frac{13\\pi}{6}\\right)$.",
+   "images": [
+    "assets/img/ext1-2022-james-ruse/q14a.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.1",
+    "11.1.2.6"
+   ],
+   "question": "Let $f(x) = \\frac{1}{2}(2x - 1 + 2\\sin x)$. The graphs of $y = f(x)$ and $y = f^{-1}(x)$ are shown. They intersect at $x = \\frac{\\pi}{6}, \\frac{5\\pi}{6}, \\frac{13\\pi}{6}$ (on the line $y = x$).\n\nFind the shaded area enclosed by the two curves.",
+   "answer": "By symmetry in $y = x$, the area is twice the area between $y = f(x)$ and $y = x$. Note $f(x) - x = \\sin x - \\frac{1}{2}$.\n$$A = 2\\left[\\int_{\\pi/6}^{5\\pi/6}\\left(\\sin x - \\tfrac{1}{2}\\right)dx + \\int_{5\\pi/6}^{13\\pi/6}\\left(\\tfrac{1}{2} - \\sin x\\right)dx\\right]$$\n$$= 2\\left(\\left[-\\cos x - \\tfrac{x}{2}\\right]_{\\pi/6}^{5\\pi/6} + \\left[\\tfrac{x}{2} + \\cos x\\right]_{5\\pi/6}^{13\\pi/6}\\right) = 2\\left[\\left(\\sqrt{3} - \\frac{\\pi}{3}\\right) + \\left(\\sqrt{3} + \\frac{2\\pi}{3}\\right)\\right] = 4\\sqrt{3} + \\frac{2\\pi}{3}.$$",
+   "images": [
+    "assets/img/ext1-2022-james-ruse/q14a.png"
+   ]
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "Six points $P_1, \\dots, P_6$ form the vertices of a regular hexagon $H_1$. An animated program moves these six points at a constant speed of 3 cm/s around the perimeter of another regular hexagon, $H_2$, which has side length 20 cm (as shown). Initially, the six vertices of $H_1$ lie on top of the six vertices of $H_2$. Determine the rate of change of the area of $H_1$ ten seconds after the animation begins.",
+   "answer": "Let $x$ be the distance each point has moved along its side of $H_2$ (for $0 \\le x \\le 20$), so $\\frac{dx}{dt} = 3$. The side $\\ell$ of $H_1$ joins points $x$ and $20 - x$ from a vertex of $H_2$, with interior angle $120°$:\n$$\\ell^2 = x^2 + (20 - x)^2 - 2x(20 - x)\\cos 120° = x^2 - 20x + 400.$$\nArea of $H_1$: $A = 6 \\times \\frac{1}{2}\\ell^2\\sin 60° = \\frac{3\\sqrt{3}}{2}(x^2 - 20x + 400)$.\n$$\\frac{dA}{dt} = \\frac{dA}{dx}\\cdot\\frac{dx}{dt} = \\frac{3\\sqrt{3}}{2}(2x - 20) \\times 3 = 9\\sqrt{3}(x - 10).$$\nAfter 10 s each point has moved 30 cm, i.e. 10 cm past the next vertex, so $x = 10$ and $\\frac{dA}{dt} = 0$ cm²/s (the area is at its minimum).",
+   "images": [
+    "assets/img/ext1-2022-james-ruse/q14b.png"
+   ]
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.3",
+    "12.2.4.5"
+   ],
+   "question": "Triangle $OAB$ is defined by two non-parallel, non-zero vectors $\\overrightarrow{OA} = \\mathbf{a}$ and $\\overrightarrow{OB} = \\mathbf{b}$. The angle between $\\mathbf{a}$ and $\\mathbf{b}$ is $\\theta$. Express the area of triangle $OAB$ in terms of dot products of $\\mathbf{a}$ and $\\mathbf{b}$.",
+   "answer": "$\\mathbf{a}\\cdot\\mathbf{b} = |\\mathbf{a}||\\mathbf{b}|\\cos\\theta$ and $2A = |\\mathbf{a}||\\mathbf{b}|\\sin\\theta$. Squaring and adding:\n$$(\\mathbf{a}\\cdot\\mathbf{b})^2 + 4A^2 = |\\mathbf{a}|^2|\\mathbf{b}|^2(\\cos^2\\theta + \\sin^2\\theta) = |\\mathbf{a}|^2|\\mathbf{b}|^2.$$\nSince $A > 0$ and $|\\mathbf{a}|^2 = \\mathbf{a}\\cdot\\mathbf{a}$:\n$$A = \\frac{1}{2}\\sqrt{(\\mathbf{a}\\cdot\\mathbf{a})(\\mathbf{b}\\cdot\\mathbf{b}) - (\\mathbf{a}\\cdot\\mathbf{b})^2}.$$",
+   "images": [
+    "assets/img/ext1-2022-james-ruse/q14c.png"
+   ]
+  },
+  {
+   "ref": "Q14(d)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.1.6",
+    "11.3.2.2"
+   ],
+   "question": "Show that\n$$\\cos\\left(\\tan^{-1}\\left(\\frac{x}{\\sqrt{1 - x^2}}\\right) + \\cos^{-1}x\\right) = 0$$\nfor all real $x$, $-1 < x < 1$. You may assume that the range of $\\dfrac{x}{\\sqrt{1 - x^2}}$ is all real numbers.",
+   "answer": "Let $\\alpha = \\tan^{-1}\\dfrac{x}{\\sqrt{1 - x^2}}$, so $\\tan\\alpha = \\dfrac{x}{\\sqrt{1 - x^2}}$ with $-\\frac{\\pi}{2} < \\alpha < \\frac{\\pi}{2}$, and $\\alpha$ has the same sign as $x$. Then $\\cos\\alpha > 0$ and\n$$\\cos\\alpha = \\sqrt{1 - x^2}, \\qquad \\sin\\alpha = x$$\n(check: $\\sin^2\\alpha + \\cos^2\\alpha = 1$ and the ratio is $\\tan\\alpha$; this holds for $x$ positive, negative or zero).\n\nLet $\\beta = \\cos^{-1}x \\in (0, \\pi)$, so $\\cos\\beta = x$ and $\\sin\\beta = \\sqrt{1 - x^2}$ (as $\\sin\\beta > 0$).\n$$\\cos(\\alpha + \\beta) = \\cos\\alpha\\cos\\beta - \\sin\\alpha\\sin\\beta = \\sqrt{1 - x^2}\\cdot x - x\\sqrt{1 - x^2} = 0.$$"
+  }
+ ]
+}
