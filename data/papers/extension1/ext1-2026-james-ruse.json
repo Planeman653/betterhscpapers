@@ -1,0 +1,555 @@
+{
+ "id": "ext1-2026-james-ruse",
+ "course": "extension1",
+ "school": "James Ruse",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "James Ruse 2026 w. sol"
+ },
+ "indexed": "2026-11-12",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q2",
+   "reason": "Not in 2024 syllabus: pigeonhole principle"
+  },
+  {
+   "ref": "Q8",
+   "reason": "Not in 2024 syllabus: graphs of $y^2 = f(x)$"
+  },
+  {
+   "ref": "Q14(b)",
+   "reason": "Not in 2024 syllabus: normal approximation for sample proportions"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.2.8"
+   ],
+   "question": "A random variable $X$ follows a binomial distribution $X \\sim \\text{Bin}(n, p)$. If $E(X) = 12$ and $\\text{Var}(X) = 8$, which of the following is the value of $n$?",
+   "answer": "$np = 12$ and $np(1 - p) = 8$, so $1 - p = \\frac{2}{3}$, $p = \\frac{1}{3}$ and $n = \\frac{12}{1/3} = 36$.",
+   "options": [
+    "18",
+    "24",
+    "30",
+    "36"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.1.8",
+    "11.5.1.7"
+   ],
+   "question": "Let $p(x) = 1 + x + x^2 + x^3 + \\dots + x^{12}$, where $x$ is a real number. Which of the following gives the coefficient of $x^9$ in the expansion of $p(x - 1)$?",
+   "answer": "$p(x - 1) = \\sum_{k=0}^{12}(x - 1)^k$. Only $k = 9, 10, 11, 12$ contain $x^9$, with coefficient $\\binom{k}{9}(-1)^{k-9}$:\n$$1 - 10 + 55 - 220 = -174.$$",
+   "options": [
+    "$-286$",
+    "$-174$",
+    "174",
+    "286"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.6"
+   ],
+   "question": "For $\\frac{\\pi}{2} \\le \\theta \\le \\pi$, which one of the following is equal to $\\sin^{-1}(\\sin\\theta)$?",
+   "answer": "$\\sin\\theta = \\sin(\\pi - \\theta)$ and $\\pi - \\theta \\in \\left[0, \\frac{\\pi}{2}\\right]$, which is in the range of $\\sin^{-1}$. So $\\sin^{-1}(\\sin\\theta) = \\pi - \\theta$.",
+   "options": [
+    "$\\theta$",
+    "$-\\theta$",
+    "$\\pi - \\theta$",
+    "$\\theta - \\pi$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.4.7"
+   ],
+   "question": "Define vectors $\\mathbf{u} = \\begin{pmatrix} k + 2 \\\\ -9 \\end{pmatrix}$ and $\\mathbf{v} = \\begin{pmatrix} k - 1 \\\\ 2 \\end{pmatrix}$, where $k$ is a real constant. Given $\\mathbf{u} \\perp \\mathbf{v}$, which of the following could be the value of $k$?",
+   "answer": "$(k + 2)(k - 1) - 18 = 0 \\Rightarrow k^2 + k - 20 = 0 \\Rightarrow (k + 5)(k - 4) = 0$, so $k = -5$ or $4$.",
+   "options": [
+    "5",
+    "$-5$",
+    "$-4$",
+    "None of the above"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.1.10"
+   ],
+   "question": "The polynomial $P(x) = x^3 + x^2 - 5x + 3$ has a factor $(x - \\alpha)$ with multiplicity 2. Which one of the following is the value of $\\alpha$?",
+   "answer": "$P'(x) = 3x^2 + 2x - 5 = (3x + 5)(x - 1)$. $P(1) = 1 + 1 - 5 + 3 = 0$ while $P\\left(-\\frac{5}{3}\\right) \\ne 0$, so $\\alpha = 1$. Indeed $P(x) = (x - 1)^2(x + 3)$.",
+   "options": [
+    "$-1$",
+    "$-\\frac{5}{3}$",
+    "$\\frac{5}{3}$",
+    "1"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.9"
+   ],
+   "question": "Which one of the following differential equations could be represented by the slope field shown?",
+   "answer": "The slopes are positive above the $x$-axis and negative below it, so the numerator is $y$ (A or B). Along a horizontal line the slopes are steepest near $x = 0$ and flatten as $|x|$ grows, so they depend on $x$: $\\dfrac{dy}{dx} = \\dfrac{y}{1 + x^2}$. (B would give the same slope all along each horizontal line.)",
+   "options": [
+    "$\\dfrac{dy}{dx} = \\dfrac{y}{1 + x^2}$",
+    "$\\dfrac{dy}{dx} = \\dfrac{y}{1 + y^2}$",
+    "$\\dfrac{dy}{dx} = \\dfrac{x}{1 + x^2}$",
+    "$\\dfrac{dy}{dx} = \\dfrac{x}{1 + y^2}$"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/ext1-2026-james-ruse/q7.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.6",
+    "12.4.2.1"
+   ],
+   "question": "Given $0 < c \\le 1$, which of the following integrals is equal to 0?",
+   "answer": "$\\cos^{-1}x - \\frac{\\pi}{2} = -\\sin^{-1}x$ is an odd function, so $x^2\\left(\\cos^{-1}x - \\frac{\\pi}{2}\\right)$ is odd and its integral over $[-c, c]$ is 0. (In D the integrand $-x\\sin^{-1}x$ is even and positive, so that integral is not 0.)",
+   "options": [
+    "$\\displaystyle\\int_{-c}^{c}x^2\\left(\\cos^{-1}(x) - \\frac{\\pi}{2}\\right)dx$",
+    "$\\displaystyle\\int_{-c}^{c}x\\cos^{-1}(x)\\,dx$",
+    "$\\displaystyle\\int_{-c}^{c}x^2\\cos^{-1}(x)\\,dx$",
+    "$\\displaystyle\\int_{-c}^{c}x\\left(\\cos^{-1}(x) - \\frac{\\pi}{2}\\right)dx$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.2",
+    "12.4.2.2"
+   ],
+   "question": "The solid shown is obtained by rotating, about the $x$-axis, the region between the curve $y = \\sin x$, $0 \\le x \\le \\frac{\\pi}{2}$, and the $x$-axis. The volume of this solid is $V$ units³.\n\nLet $a > 0$, $\\omega > 0$ and $\\delta \\in \\mathbb{R}$. A second solid is obtained by rotating, about the $x$-axis, the region between the curve $y = a\\sin(\\omega x - \\delta)$, $\\frac{\\delta}{\\omega} \\le x \\le \\frac{\\delta + \\pi/2}{\\omega}$, and the $x$-axis. By considering the substitution $u = \\omega x - \\delta$, which of the following gives the volume of the second solid?",
+   "answer": "$V_2 = \\pi\\int a^2\\sin^2(\\omega x - \\delta)\\,dx$. With $u = \\omega x - \\delta$, $dx = \\frac{du}{\\omega}$ and $u$ runs from 0 to $\\frac{\\pi}{2}$:\n$$V_2 = \\frac{a^2}{\\omega}\\pi\\int_0^{\\pi/2}\\sin^2u\\,du = \\frac{a^2}{\\omega}V.$$",
+   "options": [
+    "$\\frac{a}{\\omega}V$",
+    "$\\frac{a^2}{\\omega}V$",
+    "$a^2\\omega V$",
+    "$\\frac{a^2}{\\omega^2}V$"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/ext1-2026-james-ruse/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "By first completing the square on the quadratic, evaluate\n$$\\int_{-1}^{3}\\frac{1}{\\sqrt{7 + 2x - x^2}}\\,dx.$$",
+   "answer": "$7 + 2x - x^2 = 8 - (x - 1)^2$, so\n$$\\int_{-1}^{3}\\frac{dx}{\\sqrt{8 - (x - 1)^2}} = \\left[\\sin^{-1}\\frac{x - 1}{2\\sqrt{2}}\\right]_{-1}^{3} = \\sin^{-1}\\frac{1}{\\sqrt{2}} - \\sin^{-1}\\left(-\\frac{1}{\\sqrt{2}}\\right) = \\frac{\\pi}{4} + \\frac{\\pi}{4} = \\frac{\\pi}{2}.$$"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Differentiate $y = \\cos^{-1}\\left(\\dfrac{1}{\\sqrt{1 + 4x^2}}\\right)$, $x > 0$.",
+   "answer": "Let $u = (1 + 4x^2)^{-1/2}$, so $\\frac{du}{dx} = -4x(1 + 4x^2)^{-3/2}$ and $\\sqrt{1 - u^2} = \\sqrt{\\frac{4x^2}{1 + 4x^2}} = \\frac{2x}{\\sqrt{1 + 4x^2}}$ (as $x > 0$).\n$$\\frac{dy}{dx} = \\frac{-1}{\\sqrt{1 - u^2}}\\cdot\\frac{du}{dx} = -\\frac{\\sqrt{1 + 4x^2}}{2x}\\cdot\\left(-4x(1 + 4x^2)^{-3/2}\\right) = \\frac{2}{1 + 4x^2}.$$"
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "In triangle $ABC$, $AB = 10$ cm, $AC = 12$ cm, and $\\angle BAC$ is increasing at a rate of 0.1 rad s⁻¹. At what rate is the area of $\\triangle ABC$ increasing when $\\angle BAC = \\frac{\\pi}{3}$?",
+   "answer": "$A = \\frac{1}{2}(10)(12)\\sin\\theta = 60\\sin\\theta$, so\n$$\\frac{dA}{dt} = 60\\cos\\theta\\cdot\\frac{d\\theta}{dt} = 60\\cos\\frac{\\pi}{3}\\times 0.1 = 3 \\text{ cm}^2\\text{ s}^{-1}.$$"
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.9"
+   ],
+   "question": "How many distinct arrangements of the letters of the word KUGELBLITZ have K and Z adjacent to each other?",
+   "answer": "10 letters with L repeated. Treat KZ as one unit (2 orders), giving 9 units with L repeated:\n$$2 \\times \\frac{9!}{2!} = 9! = 362\\,880.$$"
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.5"
+   ],
+   "question": "Using the substitution $t = \\tan\\theta$, prove that\n$$\\frac{2\\sin 2\\theta - \\sin 4\\theta}{2\\sin 2\\theta + \\sin 4\\theta} = \\tan^2\\theta$$\nfor all real $\\theta$ satisfying $\\sin 2\\theta\\cos\\theta \\ne 0$.",
+   "answer": "Using $\\sin 4\\theta = 2\\sin 2\\theta\\cos 2\\theta$ and $\\sin 2\\theta \\ne 0$:\n$$\\frac{2\\sin 2\\theta(1 - \\cos 2\\theta)}{2\\sin 2\\theta(1 + \\cos 2\\theta)} = \\frac{1 - \\cos 2\\theta}{1 + \\cos 2\\theta}.$$\nWith $t = \\tan\\theta$, $\\cos 2\\theta = \\frac{1 - t^2}{1 + t^2}$:\n$$\\frac{1 - \\frac{1 - t^2}{1 + t^2}}{1 + \\frac{1 - t^2}{1 + t^2}} = \\frac{2t^2}{2} = t^2 = \\tan^2\\theta.$$",
+   "course": "extension2"
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Using the substitution $u = 2 - \\sqrt{x}$, find $\\displaystyle\\int\\sqrt{2 - \\sqrt{x}}\\,dx$.",
+   "answer": "$\\sqrt{x} = 2 - u$, $x = (2 - u)^2$, $dx = -2(2 - u)\\,du$.\n$$\\int u^{1/2}\\cdot(-2)(2 - u)\\,du = \\int\\left(-4u^{1/2} + 2u^{3/2}\\right)du = -\\frac{8}{3}u^{3/2} + \\frac{4}{5}u^{5/2} + C$$\n$$= -\\frac{8}{3}\\left(2 - \\sqrt{x}\\right)^{3/2} + \\frac{4}{5}\\left(2 - \\sqrt{x}\\right)^{5/2} + C.$$"
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.1.2"
+   ],
+   "question": "By dilating the circle $x^2 + y^2 = 1$, sketch the graph of $\\dfrac{x^2}{25} + \\dfrac{y^2}{20} = 1$.",
+   "answer": "Dilate the unit circle by a factor of 5 horizontally and $2\\sqrt{5}$ vertically: $(x, y) \\to (5x, 2\\sqrt{5}y)$. The result is an ellipse centred at the origin with $x$-intercepts $\\pm 5$ and $y$-intercepts $\\pm 2\\sqrt{5}$.",
+   "course": "advanced"
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.2"
+   ],
+   "question": "A rugby ball is modelled as the solid obtained when the region enclosed between $y = 0$ and the upper half of the ellipse $\\dfrac{x^2}{25} + \\dfrac{y^2}{20} = 1$ is rotated about the $x$-axis.\n\nFind the volume of the rugby ball, leaving your answer in simplified exact form.",
+   "answer": "$y^2 = 20\\left(1 - \\frac{x^2}{25}\\right)$:\n$$V = \\pi\\int_{-5}^{5}20\\left(1 - \\frac{x^2}{25}\\right)dx = 20\\pi\\left[x - \\frac{x^3}{75}\\right]_{-5}^{5} = 20\\pi\\left(\\frac{10}{3} + \\frac{10}{3}\\right) = \\frac{400\\pi}{3} \\text{ units}^3.$$"
+  },
+  {
+   "ref": "Q12(c)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.3.2"
+   ],
+   "question": "A rugby ball is modelled as the solid obtained when the region enclosed between $y = 0$ and the upper half of the ellipse $\\dfrac{x^2}{25} + \\dfrac{y^2}{20} = 1$ is rotated about the $x$-axis.\n\nFind the maximum area of a cross-section of the rugby ball that is perpendicular to the $x$-axis, leaving your answer in simplified exact form.",
+   "answer": "Each cross-section is a circle of area $\\pi y^2 = 20\\pi\\left(1 - \\frac{x^2}{25}\\right)$, which is greatest at $x = 0$: $A_{\\max} = 20\\pi$ units²."
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.1.8"
+   ],
+   "question": "Let $m$ and $r$ be non-negative integers such that $r < m$. Simplify the binomial expression $\\dbinom{m+1}{r+1} - \\dbinom{m}{r+1}$.",
+   "answer": "By Pascal's identity, $\\binom{m+1}{r+1} = \\binom{m}{r} + \\binom{m}{r+1}$, so the expression equals $\\dbinom{m}{r}$."
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.1.8"
+   ],
+   "question": "It is known that $\\dbinom{m+1}{r+1} - \\dbinom{m}{r+1} = \\dbinom{m}{r}$. Hence simplify the following, expressing your answer as a difference of two binomial coefficients, where $n \\ge 7$ is an integer:\n$$\\binom{n-3}{3} + \\binom{n-2}{3} + \\binom{n-1}{3} + \\binom{n}{3}.$$",
+   "answer": "With $r = 3$, each term is a difference:\n$$\\left[\\binom{n-2}{4} - \\binom{n-3}{4}\\right] + \\left[\\binom{n-1}{4} - \\binom{n-2}{4}\\right] + \\left[\\binom{n}{4} - \\binom{n-1}{4}\\right] + \\left[\\binom{n+1}{4} - \\binom{n}{4}\\right].$$\nThe intermediate terms cancel, giving $\\dbinom{n+1}{4} - \\dbinom{n-3}{4}$."
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.6"
+   ],
+   "question": "In the diagram, the position vectors of points $A$ and $B$ relative to $O$ are $\\mathbf{a}$ and $\\mathbf{b}$, respectively. The points $O, A, B$ are non-collinear. The line segments $AB$ and $OP$ intersect at $Q$. We are given that $\\overrightarrow{BP} = 2(\\mathbf{a} + \\mathbf{b})$, $\\overrightarrow{AQ} = \\lambda\\overrightarrow{AB}$ and $\\overrightarrow{OQ} = \\mu\\overrightarrow{OP}$, where $\\lambda$ and $\\mu$ are constants.\n\nExpress $\\overrightarrow{OQ}$ in terms of $\\lambda$, $\\mathbf{a}$ and $\\mathbf{b}$.",
+   "answer": "$\\overrightarrow{OQ} = \\overrightarrow{OA} + \\lambda\\overrightarrow{AB} = \\mathbf{a} + \\lambda(\\mathbf{b} - \\mathbf{a}) = (1 - \\lambda)\\mathbf{a} + \\lambda\\mathbf{b}$.",
+   "images": [
+    "assets/img/ext1-2026-james-ruse/q13b.png"
+   ]
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.6"
+   ],
+   "question": "In the diagram, the position vectors of points $A$ and $B$ relative to $O$ are $\\mathbf{a}$ and $\\mathbf{b}$, respectively. The points $O, A, B$ are non-collinear. The line segments $AB$ and $OP$ intersect at $Q$. We are given that $\\overrightarrow{BP} = 2(\\mathbf{a} + \\mathbf{b})$, $\\overrightarrow{AQ} = \\lambda\\overrightarrow{AB}$ and $\\overrightarrow{OQ} = \\mu\\overrightarrow{OP}$, where $\\lambda$ and $\\mu$ are constants. Also $\\overrightarrow{OQ} = (1 - \\lambda)\\mathbf{a} + \\lambda\\mathbf{b}$.\n\nHence, or otherwise, find the values of $\\lambda$ and $\\mu$.",
+   "answer": "$\\overrightarrow{OP} = \\overrightarrow{OB} + \\overrightarrow{BP} = \\mathbf{b} + 2(\\mathbf{a} + \\mathbf{b}) = 2\\mathbf{a} + 3\\mathbf{b}$, so $\\overrightarrow{OQ} = 2\\mu\\mathbf{a} + 3\\mu\\mathbf{b}$.\nSince $\\mathbf{a}$ and $\\mathbf{b}$ are not parallel, equate coefficients: $1 - \\lambda = 2\\mu$ and $\\lambda = 3\\mu$.\nThen $1 - \\lambda = \\frac{2\\lambda}{3}$, so $\\lambda = \\frac{3}{5}$ and $\\mu = \\frac{1}{5}$.",
+   "images": [
+    "assets/img/ext1-2026-james-ruse/q13b.png"
+   ]
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Prove, by mathematical induction, that\n$$(1^2 \\times 2) + (2^2 \\times 3) + (3^2 \\times 4) + \\dots + n^2(n+1) = \\frac{n(n+1)(n+2)(3n+1)}{12}$$\nfor all integers $n \\ge 1$.",
+   "answer": "**$n = 1$:** LHS $= 2$; RHS $= \\frac{1\\cdot 2\\cdot 3\\cdot 4}{12} = 2$. True.\n\n**Assume true for $n = k$:** $\\sum_{r=1}^{k}r^2(r+1) = \\frac{k(k+1)(k+2)(3k+1)}{12}$.\n\n**Prove for $n = k + 1$:**\n$$\\sum_{r=1}^{k+1}r^2(r+1) = \\frac{k(k+1)(k+2)(3k+1)}{12} + (k+1)^2(k+2) = \\frac{(k+1)(k+2)}{12}\\left[k(3k+1) + 12(k+1)\\right]$$\n$$= \\frac{(k+1)(k+2)(3k^2 + 13k + 12)}{12} = \\frac{(k+1)(k+2)(k+3)(3k+4)}{12},$$\nwhich is the formula with $n = k + 1$. Hence true for all integers $n \\ge 1$ by mathematical induction."
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.1.6",
+    "11.3.2.2"
+   ],
+   "question": "For $-1 \\le x \\le 1$, show that\n$$\\sin^{-1}\\left(\\frac{2x}{1 + x^2}\\right) = 2\\tan^{-1}(x).$$",
+   "answer": "Let $\\theta = \\tan^{-1}x$. Since $-1 \\le x \\le 1$, $-\\frac{\\pi}{4} \\le \\theta \\le \\frac{\\pi}{4}$, so $-\\frac{\\pi}{2} \\le 2\\theta \\le \\frac{\\pi}{2}$.\n$$\\sin 2\\theta = \\frac{2\\tan\\theta}{1 + \\tan^2\\theta} = \\frac{2x}{1 + x^2}.$$\nBecause $2\\theta$ lies in the range of $\\sin^{-1}$,\n$$\\sin^{-1}\\left(\\frac{2x}{1 + x^2}\\right) = \\sin^{-1}(\\sin 2\\theta) = 2\\theta = 2\\tan^{-1}x.$$\n(Showing only that the sines are equal is not enough; the range of $2\\theta$ must be established.)"
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.16"
+   ],
+   "question": "A virus population $V(t)$ in a laboratory culture is modelled, while $V(t) > 0$, by\n$$\\frac{dV}{dt} = rV\\left(1 - \\frac{V}{k}\\right) - c, \\quad V(0) > 0,$$\nwhere $r, k, c$ are all positive, $0 < c < \\frac{rk}{4}$, and $c$ is the constant removal rate due to antiviral treatment. If $V(t)$ reaches zero, the virus is considered eliminated and the model terminates. Do not solve the differential equation.\n\nFind the equilibrium virus populations.",
+   "answer": "Set $\\frac{dV}{dt} = 0$: $V^2 - kV + \\frac{ck}{r} = 0$, so\n$$V_{\\pm} = \\frac{k}{2}\\left(1 \\pm \\sqrt{1 - \\frac{4c}{rk}}\\right).$$\nSince $0 < c < \\frac{rk}{4}$, these are two distinct positive equilibria with $0 < V_- < \\frac{k}{2} < V_+$."
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.4.16",
+    "12.5.4.7"
+   ],
+   "question": "A virus population $V(t)$ in a laboratory culture is modelled, while $V(t) > 0$, by\n$$\\frac{dV}{dt} = rV\\left(1 - \\frac{V}{k}\\right) - c, \\quad V(0) > 0,$$\nwhere $r, k, c$ are all positive, $0 < c < \\frac{rk}{4}$, and $c$ is the constant removal rate due to antiviral treatment. If $V(t)$ reaches zero, the virus is considered eliminated and the model terminates. Do not solve the differential equation. The equilibrium populations are $V_{\\pm} = \\frac{k}{2}\\left(1 \\pm \\sqrt{1 - \\frac{4c}{rk}}\\right)$.\n\nHence determine the range of initial virus populations for which the virus is eventually eliminated. Justify your answer.",
+   "answer": "$\\frac{dV}{dt} = -\\frac{r}{k}V^2 + rV - c$ is a concave-down quadratic in $V$ with zeros $V_-$ and $V_+$, and value $-c < 0$ at $V = 0$. So:\n- $0 < V < V_-$: $\\frac{dV}{dt} < 0$\n- $V_- < V < V_+$: $\\frac{dV}{dt} > 0$ (increases towards $V_+$)\n- $V > V_+$: $\\frac{dV}{dt} < 0$ (decreases towards $V_+$, not to 0)\n\nIf $0 < V(0) < V_-$, $V$ decreases with no equilibrium below it, and $\\frac{dV}{dt} \\to -c < 0$ as $V \\to 0$, so $V$ reaches 0 in finite time. At $V(0) = V_\\pm$ it stays constant. Hence the virus is eliminated exactly when\n$$0 < V(0) < \\frac{k}{2}\\left(1 - \\sqrt{1 - \\frac{4c}{rk}}\\right).$$"
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.1",
+    "11.3.2.2"
+   ],
+   "question": "Solve the equation $\\sin 3x + \\sin x = \\sqrt{3}(\\cos 3x + \\cos x)$ for $0 \\le x < \\pi$. Leave your answers in exact form.",
+   "answer": "Write $3x = 2x + x$ and $x = 2x - x$ and expand with the compound angle formulas:\n$$\\sin 3x + \\sin x = 2\\sin 2x\\cos x, \\qquad \\cos 3x + \\cos x = 2\\cos 2x\\cos x.$$\nSo $2\\cos x\\left(\\sin 2x - \\sqrt{3}\\cos 2x\\right) = 0$.\n- $\\cos x = 0$: $x = \\frac{\\pi}{2}$.\n- $\\tan 2x = \\sqrt{3}$ with $2x \\in [0, 2\\pi)$: $2x = \\frac{\\pi}{3}, \\frac{4\\pi}{3}$, so $x = \\frac{\\pi}{6}, \\frac{2\\pi}{3}$.\n\nSolutions: $x = \\frac{\\pi}{6}, \\frac{\\pi}{2}, \\frac{2\\pi}{3}$."
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "Solve the differential equation\n$$x + 2y\\sqrt{x^2 + 1}\\,\\frac{dy}{dx} = 0,$$\nexpressing $y$ in terms of $x$, given that $y = -2$ when $x = 0$.",
+   "answer": "$$\\int 2y\\,dy = \\int\\frac{-x}{\\sqrt{x^2 + 1}}\\,dx \\Rightarrow y^2 = -\\sqrt{x^2 + 1} + C.$$\nAt $(0, -2)$: $4 = -1 + C$, so $C = 5$ and $y^2 = 5 - \\sqrt{x^2 + 1}$. Since $y = -2 < 0$ at $x = 0$, take the negative root:\n$$y = -\\sqrt{5 - \\sqrt{x^2 + 1}}.$$"
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.5.3"
+   ],
+   "question": "A canister is projected from a point $O$, 20 metres above horizontal sea level, with speed $v$ m s⁻¹ at an angle of 30° below the horizontal. Air resistance is neglected. Take $O$ as the origin, with the positive $x$-axis horizontal in the direction of projection and the positive $y$-axis vertically upwards. Time $t$ is measured in seconds, and position vectors in metres. The acceleration of the canister is $\\ddot{\\mathbf{r}}(t) = -9.8\\mathbf{j}$ m s⁻².\n\nShow that the position of the canister at time $t$ is\n$$\\mathbf{r}(t) = \\frac{\\sqrt{3}}{2}vt\\,\\mathbf{i} - \\left(\\frac{1}{2}vt + 4.9t^2\\right)\\mathbf{j}.$$",
+   "answer": "Integrating, $\\dot{\\mathbf{r}}(t) = -9.8t\\mathbf{j} + \\mathbf{c}_1$. Initially $\\dot{\\mathbf{r}}(0) = v\\cos 30°\\,\\mathbf{i} - v\\sin 30°\\,\\mathbf{j}$, so\n$$\\dot{\\mathbf{r}}(t) = \\frac{\\sqrt{3}}{2}v\\,\\mathbf{i} - \\left(9.8t + \\frac{v}{2}\\right)\\mathbf{j}.$$\nIntegrating again with $\\mathbf{r}(0) = \\mathbf{0}$:\n$$\\mathbf{r}(t) = \\frac{\\sqrt{3}}{2}vt\\,\\mathbf{i} - \\left(\\frac{1}{2}vt + 4.9t^2\\right)\\mathbf{j}.$$",
+   "images": [
+    "assets/img/ext1-2026-james-ruse/q15c.png"
+   ]
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.5.5"
+   ],
+   "question": "A canister is projected from a point $O$, 20 metres above horizontal sea level, with speed $v$ m s⁻¹ at an angle of 30° below the horizontal. Air resistance is neglected. Take $O$ as the origin, with the positive $x$-axis horizontal in the direction of projection and the positive $y$-axis vertically upwards. Time $t$ is measured in seconds, and position vectors in metres. The acceleration of the canister is $\\ddot{\\mathbf{r}}(t) = -9.8\\mathbf{j}$ m s⁻². The position of the canister is $\\mathbf{r}(t) = \\frac{\\sqrt{3}}{2}vt\\,\\mathbf{i} - \\left(\\frac{1}{2}vt + 4.9t^2\\right)\\mathbf{j}$.\n\nA receptacle fixed to a boat is modelled as a point at sea level. Initially, the receptacle is 30 metres horizontally from the point at sea level vertically below $O$. The boat moves horizontally towards this point at a constant speed of 10 m s⁻¹. Hence, at time $t \\ge 0$, the position vector of the receptacle relative to $O$ is $\\mathbf{r}_B(t) = (30 - 10t)\\mathbf{i} - 20\\mathbf{j}$. Determine, correct to the nearest integer, the speed $v$ required for the canister to land in the receptacle.",
+   "answer": "Equate components of $\\mathbf{r}(t)$ and $\\mathbf{r}_B(t)$:\n$$\\frac{\\sqrt{3}}{2}vt = 30 - 10t \\quad (1), \\qquad 4.9t^2 + \\frac{vt}{2} = 20 \\quad (2).$$\nFrom (1), $\\frac{vt}{2} = \\frac{30 - 10t}{\\sqrt{3}}$. Substituting into (2):\n$$4.9\\sqrt{3}t^2 - 10t + 30 - 20\\sqrt{3} = 0 \\Rightarrow t \\approx 1.5346 \\text{ (taking } t > 0\\text{)}.$$\nThen from (1), $v = \\dfrac{2(30 - 10t)}{\\sqrt{3}t} \\approx 11.03$, so $v \\approx 11$ m s⁻¹.",
+   "images": [
+    "assets/img/ext1-2026-james-ruse/q15c.png"
+   ]
+  },
+  {
+   "ref": "Q16(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.1",
+    "11.2.3.3"
+   ],
+   "question": "You may assume the identity $\\tan 3\\theta = \\dfrac{3\\tan\\theta - \\tan^3\\theta}{1 - 3\\tan^2\\theta}$, where $\\theta \\in \\mathbb{R}$, $\\cos\\theta \\ne 0$ and $1 - 3\\tan^2\\theta \\ne 0$.\n\nConsider the cubic equation $x^3 - \\sqrt{3}x^2 - 3x + \\frac{1}{\\sqrt{3}} = 0$. By letting $x = \\tan\\theta$, solve the equation, leaving your answers in exact form.",
+   "answer": "Substituting $x = \\tan\\theta$ and rearranging:\n$$3\\tan\\theta - \\tan^3\\theta = \\frac{1}{\\sqrt{3}}(1 - 3\\tan^2\\theta) \\Rightarrow \\tan 3\\theta = \\frac{1}{\\sqrt{3}}.$$\nSo $3\\theta = \\frac{\\pi}{6}, \\frac{7\\pi}{6}, \\frac{13\\pi}{6}$, giving $\\theta = \\frac{\\pi}{18}, \\frac{7\\pi}{18}, \\frac{13\\pi}{18}$. These give three distinct values of $\\tan\\theta$, so the roots are\n$$x = \\tan\\frac{\\pi}{18},\\ \\tan\\frac{7\\pi}{18},\\ \\tan\\frac{13\\pi}{18}.$$"
+  },
+  {
+   "ref": "Q16(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "The roots of $x^3 - \\sqrt{3}x^2 - 3x + \\frac{1}{\\sqrt{3}} = 0$ are $\\tan\\frac{\\pi}{18}$, $\\tan\\frac{7\\pi}{18}$ and $\\tan\\frac{13\\pi}{18}$. Hence find the value of\n$$\\tan^2\\frac{\\pi}{18} + \\tan^2\\frac{7\\pi}{18} + \\tan^2\\frac{13\\pi}{18}.$$",
+   "answer": "With roots $\\alpha, \\beta, \\gamma$: $\\alpha + \\beta + \\gamma = \\sqrt{3}$ and $\\alpha\\beta + \\beta\\gamma + \\gamma\\alpha = -3$.\n$$\\alpha^2 + \\beta^2 + \\gamma^2 = (\\sqrt{3})^2 - 2(-3) = 9.$$"
+  },
+  {
+   "ref": "Q16(a)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "The roots $\\alpha, \\beta, \\gamma$ of $x^3 - \\sqrt{3}x^2 - 3x + \\frac{1}{\\sqrt{3}} = 0$ are $\\tan\\frac{\\pi}{18}$, $\\tan\\frac{7\\pi}{18}$ and $\\tan\\frac{13\\pi}{18}$, and $\\alpha^2 + \\beta^2 + \\gamma^2 = 9$. Hence, or otherwise, find the value of\n$$\\tan^3\\frac{\\pi}{18} + \\tan^3\\frac{7\\pi}{18} + \\tan^3\\frac{13\\pi}{18}.$$",
+   "answer": "Each root satisfies $x^3 = \\sqrt{3}x^2 + 3x - \\frac{1}{\\sqrt{3}}$. Summing over the three roots:\n$$\\sum\\alpha^3 = \\sqrt{3}\\sum\\alpha^2 + 3\\sum\\alpha - \\frac{3}{\\sqrt{3}} = 9\\sqrt{3} + 3\\sqrt{3} - \\sqrt{3} = 11\\sqrt{3}.$$"
+  },
+  {
+   "ref": "Q16(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.2.5.5",
+    "12.2.4.3"
+   ],
+   "question": "The path of a moving particle is given by the position vector\n$$\\mathbf{r}(t) = \\left(5\\cos t - 4\\cos\\frac{5t}{2}\\right)\\mathbf{i} + \\left(5\\sin t - 4\\sin\\frac{5t}{2}\\right)\\mathbf{j}, \\quad t \\ge 0,$$\nwhere $t$ is measured in seconds and position in metres. Find the first interval of time after $t = 0$ during which the acceleration has a component directly opposing the motion of the particle.",
+   "answer": "The acceleration opposes the motion when $\\mathbf{v}\\cdot\\mathbf{a} < 0$.\n$$\\mathbf{v} = \\left(-5\\sin t + 10\\sin\\frac{5t}{2}\\right)\\mathbf{i} + \\left(5\\cos t - 10\\cos\\frac{5t}{2}\\right)\\mathbf{j}$$\n$$\\mathbf{a} = \\left(-5\\cos t + 25\\cos\\frac{5t}{2}\\right)\\mathbf{i} + \\left(-5\\sin t + 25\\sin\\frac{5t}{2}\\right)\\mathbf{j}$$\nExpanding, the $\\sin t\\cos t$ and $\\sin\\frac{5t}{2}\\cos\\frac{5t}{2}$ terms cancel, leaving\n$$\\mathbf{v}\\cdot\\mathbf{a} = 75\\left(\\sin\\frac{5t}{2}\\cos t - \\cos\\frac{5t}{2}\\sin t\\right) = 75\\sin\\frac{3t}{2}.$$\n$\\sin\\frac{3t}{2} < 0$ first when $\\pi < \\frac{3t}{2} < 2\\pi$, i.e. $\\dfrac{2\\pi}{3} < t < \\dfrac{4\\pi}{3}$."
+  },
+  {
+   "ref": "Q17(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.4"
+   ],
+   "question": "Let $X$ be a random variable with an arbitrary probability distribution $P$, finite mean $\\mu$, and finite variance $\\sigma^2$, where $\\sigma > 0$. For $k > 0$, define the random variable $Y$ by $Y = 1$ if $|X - \\mu| \\ge k\\sigma$ and $Y = 0$ if $|X - \\mu| < k\\sigma$. You may assume that: for any random variables $A$ and $B$, $E(A \\pm B) = E(A) \\pm E(B)$; for any random variable $A$ and constant $\\alpha$, $E(\\alpha A) = \\alpha E(A)$; if $C$ is a non-negative random variable, then $E(C) \\ge 0$.\n\nProve that $E(Y) = P(|X - \\mu| \\ge k\\sigma)$.",
+   "answer": "$Y$ takes only the values 1 and 0:\n$$E(Y) = 1\\cdot P(|X - \\mu| \\ge k\\sigma) + 0\\cdot P(|X - \\mu| < k\\sigma) = P(|X - \\mu| \\ge k\\sigma).$$"
+  },
+  {
+   "ref": "Q17(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.6"
+   ],
+   "question": "Let $X$ be a random variable with an arbitrary probability distribution $P$, finite mean $\\mu$, and finite variance $\\sigma^2$, where $\\sigma > 0$. For $k > 0$, define the random variable $Y$ by $Y = 1$ if $|X - \\mu| \\ge k\\sigma$ and $Y = 0$ if $|X - \\mu| < k\\sigma$. You may assume that: for any random variables $A$ and $B$, $E(A \\pm B) = E(A) \\pm E(B)$; for any random variable $A$ and constant $\\alpha$, $E(\\alpha A) = \\alpha E(A)$; if $C$ is a non-negative random variable, then $E(C) \\ge 0$.\n\nShow that, for all possible values of $Y$, $(X - \\mu)^2 - k^2\\sigma^2Y \\ge 0$.",
+   "answer": "If $Y = 0$: $(X - \\mu)^2 - 0 \\ge 0$.\nIf $Y = 1$: $|X - \\mu| \\ge k\\sigma$, so $(X - \\mu)^2 \\ge k^2\\sigma^2$ and $(X - \\mu)^2 - k^2\\sigma^2 \\ge 0$.\nSo the inequality holds in both cases."
+  },
+  {
+   "ref": "Q17(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.1.6"
+   ],
+   "question": "Let $X$ be a random variable with an arbitrary probability distribution $P$, finite mean $\\mu$, and finite variance $\\sigma^2$, where $\\sigma > 0$. For $k > 0$, define the random variable $Y$ by $Y = 1$ if $|X - \\mu| \\ge k\\sigma$ and $Y = 0$ if $|X - \\mu| < k\\sigma$. You may assume that: for any random variables $A$ and $B$, $E(A \\pm B) = E(A) \\pm E(B)$; for any random variable $A$ and constant $\\alpha$, $E(\\alpha A) = \\alpha E(A)$; if $C$ is a non-negative random variable, then $E(C) \\ge 0$. It is known that $E(Y) = P(|X - \\mu| \\ge k\\sigma)$ and that $(X - \\mu)^2 - k^2\\sigma^2Y \\ge 0$ for all values of $Y$.\n\nProve that $P(|X - \\mu| \\ge k\\sigma) \\le \\dfrac{1}{k^2}$.",
+   "answer": "$(X - \\mu)^2 - k^2\\sigma^2Y$ is a non-negative random variable, so its expectation is $\\ge 0$. By linearity:\n$$E\\left((X - \\mu)^2\\right) - k^2\\sigma^2E(Y) \\ge 0.$$\nSince $E\\left((X - \\mu)^2\\right) = \\sigma^2$: $\\sigma^2 - k^2\\sigma^2E(Y) \\ge 0$, and as $\\sigma > 0$, $E(Y) \\le \\frac{1}{k^2}$. Hence $P(|X - \\mu| \\ge k\\sigma) \\le \\dfrac{1}{k^2}$."
+  },
+  {
+   "ref": "Q17(a)(iv)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.6"
+   ],
+   "question": "For any random variable $X$ with mean $\\mu$ and standard deviation $\\sigma > 0$, it is known that $P(|X - \\mu| \\ge k\\sigma) \\le \\dfrac{1}{k^2}$ for $k > 0$. Hence determine the minimum proportion of observations that is guaranteed to lie in the interval $(\\mu - 2\\sigma, \\mu + 2\\sigma)$ for any probability distribution.",
+   "answer": "With $k = 2$: $P(|X - \\mu| \\ge 2\\sigma) \\le \\frac{1}{4}$, so\n$$P(\\mu - 2\\sigma < X < \\mu + 2\\sigma) = 1 - P(|X - \\mu| \\ge 2\\sigma) \\ge \\frac{3}{4}.$$\nAt least 75% of observations."
+  },
+  {
+   "ref": "Q17(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.4"
+   ],
+   "question": "Let $F$ be a differentiable function defined on the interval $[0, a)$, where $a > 0$, satisfying\n$$F(x) = \\int_0^x\\left(e^t + [F(t)]^2\\right)dt.$$\nIt is given that the range of $F$ is $[0, \\infty)$.\n\nBy considering $F'(x)$, explain why $F$ is one-to-one and hence invertible.",
+   "answer": "By the fundamental theorem of calculus, $F'(x) = e^x + [F(x)]^2$. Since $e^x > 0$ and $[F(x)]^2 \\ge 0$, $F'(x) > 0$ on $[0, a)$. So $F$ is strictly increasing, hence one-to-one and invertible."
+  },
+  {
+   "ref": "Q17(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.3",
+    "12.4.1.4"
+   ],
+   "question": "Let $F$ be a differentiable function defined on the interval $[0, a)$, where $a > 0$, satisfying\n$$F(x) = \\int_0^x\\left(e^t + [F(t)]^2\\right)dt.$$\nIt is given that the range of $F$ is $[0, \\infty)$. So $F'(x) = e^x + [F(x)]^2 > 0$.\n\nLet $G = F^{-1}$. Show that, for $x \\ge 0$, $G'(x) \\le \\dfrac{1}{1 + x^2}$.",
+   "answer": "$F(G(x)) = x$, so $F'(G(x))G'(x) = 1$ and\n$$G'(x) = \\frac{1}{F'(G(x))} = \\frac{1}{e^{G(x)} + [F(G(x))]^2} = \\frac{1}{e^{G(x)} + x^2}.$$\nSince $F(0) = 0$ and $F$ is increasing, $G(x) \\ge 0$ for $x \\ge 0$, so $e^{G(x)} \\ge 1$. Hence $e^{G(x)} + x^2 \\ge 1 + x^2$ and $G'(x) \\le \\dfrac{1}{1 + x^2}$."
+  },
+  {
+   "ref": "Q17(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.4.1.4",
+    "12.4.2.1"
+   ],
+   "question": "Let $F$ be a differentiable function defined on the interval $[0, a)$, where $a > 0$, satisfying\n$$F(x) = \\int_0^x\\left(e^t + [F(t)]^2\\right)dt.$$\nIt is given that the range of $F$ is $[0, \\infty)$. Let $G = F^{-1}$; it is known that $G'(x) \\le \\dfrac{1}{1 + x^2}$ for $x \\ge 0$.\n\nHence deduce that $a \\le \\dfrac{\\pi}{2}$.",
+   "answer": "$G(0) = 0$ since $F(0) = 0$. For $x \\ge 0$:\n$$G(x) = \\int_0^x G'(t)\\,dt \\le \\int_0^x\\frac{dt}{1 + t^2} = \\tan^{-1}x.$$\nThe domain of $G$ is $[0, \\infty)$ and its range is $[0, a)$; as $x \\to \\infty$, $G(x) \\to a$. Hence\n$$a = \\lim_{x \\to \\infty}G(x) \\le \\lim_{x \\to \\infty}\\tan^{-1}x = \\frac{\\pi}{2}.$$"
+  }
+ ]
+}
