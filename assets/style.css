@@ -276,3 +276,36 @@ button{cursor:pointer}
   .mine-row{flex-wrap:wrap}
 }
 .tabs a.submit-tab.on{color:var(--accent-ink)}
+
+/* ---------- equation editor ---------- */
+.mathbar{display:flex;gap:6px;margin:0 0 4px}
+.mathbtn{border:1px solid var(--line);background:var(--paper);border-radius:6px;padding:3px 10px;font-size:13px;color:var(--ink)}
+.mathbtn b{font-family:var(--serif);margin-right:2px}
+.mathbtn:hover{background:var(--chip)}
+.mathbtn.small{flex:none;padding:6px 9px}
+.opt input[type=text]{flex:1}
+.mathdlg{position:fixed;z-index:100;top:50%;left:0;right:0;margin:0 auto;transform:translateY(-50%);overflow:auto;width:min(760px,calc(100% - 24px));max-height:calc(100% - 24px - var(--kb,0px));box-shadow:0 10px 40px rgba(0,0,0,.25);border:1px solid var(--line);border-radius:10px;padding:16px 18px;background:var(--paper);color:var(--ink)}
+.math-scrim{position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:99;display:none}
+.math-scrim.show{display:block}
+body.math-open{overflow:hidden}
+.mathdlg-head{display:flex;align-items:center;gap:10px}
+.mathdlg-head h3{margin:0;flex:1;font-family:var(--serif);font-size:20px;font-weight:600}
+.mathdlg .hint{margin:6px 0 10px}
+.ptabs{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
+.palette{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:12px;max-height:150px;overflow:auto}
+.pbtn{min-width:44px;height:40px;border:1px solid var(--line);background:var(--bg);border-radius:6px;padding:0 8px;display:inline-flex;align-items:center;justify-content:center}
+.pbtn:hover{border-color:var(--accent);background:var(--chip)}
+.pbtn .katex{font-size:1em}
+math-field{display:block;width:100%;min-height:64px;font-size:26px;border:2px solid var(--accent);border-radius:8px;padding:8px 10px;background:var(--paper);color:var(--ink);--caret-color:var(--ink);--selection-background-color:var(--mark);--placeholder-color:var(--faint);--contains-highlight-background-color:transparent}
+math-field::part(menu-toggle){display:none}
+.mathdlg-foot{margin-top:12px}
+.mf-msg{color:var(--d5);font-size:13px}
+.mf-src{margin-top:10px;font-size:12.5px;color:var(--muted)}
+.mf-src code{display:block;margin-top:4px;white-space:pre-wrap;word-break:break-all}
+@media (max-width:600px){.mathdlg{padding:12px}.pbtn{min-width:40px;height:36px}}
+@media (max-width:600px){
+  .mathdlg{top:6px;transform:none;max-height:calc(100% - 12px - var(--kb,0px))}
+  .mathdlg .hint{display:none}
+  .palette{max-height:88px}
+  math-field{font-size:22px;min-height:52px}
+}

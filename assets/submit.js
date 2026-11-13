@@ -171,6 +171,7 @@
       <label class="lab">Answer <span class="soft">(optional)</span></label><textarea rows="3" data-pf="answer">${esc(x.answer)}</textarea>
     </div>`).join("");
     renderImgs();
+    if (window.HSCMath) HSCMath.attach($("form"));
   }
 
   /* ---------------- form <-> state ---------------- */

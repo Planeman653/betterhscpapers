@@ -13,6 +13,8 @@
 <script defer src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
 <link rel="stylesheet" href="assets/style.css">
 <script defer src="assets/render.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathlive@0.109.2/mathlive.min.js"></script>
+<script defer src="assets/mathedit.js"></script>
 <script defer src="assets/submit.js"></script>
 </head>
 <body class="submit-page">
@@ -38,13 +40,13 @@
 
   <section class="fs">
     <h2><span class="n">2</span> Question</h2>
-    <p class="hint">Markdown and LaTeX: <code>$x^2$</code> for inline maths, <code>$$\int_0^1 f(x)\,dx$$</code> on its own line for display maths, <code>**bold**</code>, blank line for a new paragraph. Write <code>\$</code> for a dollar sign. Make the question make sense on its own.</p>
-    <textarea id="question" rows="7" placeholder="e.g. Use the substitution $u = x^2 + 1$ to find $\displaystyle\int x\sqrt{x^2+1}\,dx$."></textarea>
+    <p class="hint">For maths, click <b>√x Insert equation</b> — you build it with buttons or by typing like a calculator, no LaTeX needed. To edit an equation, put the cursor inside it and click the button again. Leave a blank line for a new paragraph. Make the question make sense on its own.</p>
+    <textarea id="question" rows="7" placeholder="e.g. Use a suitable substitution to find the integral below."></textarea>
     <div class="imgs" data-imgs="images"></div>
     <label class="up"><input type="file" accept="image/*" multiple data-upload="images"> Add a diagram or graph</label>
 
     <div id="mc-box" hidden>
-      <span class="lab" style="margin-top:14px">Options (tick the correct one)</span>
+      <span class="lab" style="margin-top:14px">Options (tick the correct one; √x adds maths)</span>
       <div class="opt-grid">
         <label class="opt"><input type="radio" name="correct" value="A"><b>A</b><input type="text" data-opt="0"></label>
         <label class="opt"><input type="radio" name="correct" value="B"><b>B</b><input type="text" data-opt="1"></label>
@@ -129,6 +131,21 @@
   <div class="doc" id="preview"><div class="none">Start typing to see your question.</div></div>
 </aside>
 </div>
+<dialog id="mathdlg" class="mathdlg" aria-labelledby="mathdlg-h">
+  <div class="mathdlg-head"><h3 id="mathdlg-h">Equation editor</h3><button type="button" class="x" data-mclose aria-label="Close">×</button></div>
+  <p class="hint">Type like a calculator: <code>/</code> makes a fraction, <code>^</code> a power, <code>_</code> a subscript, <code>sqrt</code> a square root, <code>pi</code> π, <code>theta</code> θ, <code>int</code> ∫, <code>&lt;=</code> ≤. Use the arrow keys or <b>Tab</b> to move between boxes. Or click the buttons.</p>
+  <div class="ptabs" id="ptabs"></div>
+  <div class="palette" id="palette"></div>
+  <math-field id="mf" aria-label="Equation"></math-field>
+  <div class="row mathdlg-foot">
+    <label class="switch"><input type="checkbox" id="mf-display"> On its own line, centred</label>
+    <span style="flex:1"></span>
+    <span class="mf-msg" id="mf-msg"></span>
+    <button type="button" class="btn" data-mclose>Cancel</button>
+    <button type="button" class="btn primary" id="mf-insert">Insert</button>
+  </div>
+  <details class="mf-src"><summary>Show LaTeX</summary><code id="mf-latex"></code></details>
+</dialog>
 <div id="toast" style="display:none;position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--accent);color:var(--accent-ink);padding:8px 16px;border-radius:999px;z-index:60;font-size:14px"></div>
 </body>
 </html>
