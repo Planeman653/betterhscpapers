@@ -209,7 +209,7 @@
     $("mine-box").hidden = !m.length;
     $("mine").innerHTML = m.slice().reverse().map((x) => {
       const t = x.question.replace(/\$[^$]*\$/g, "…").replace(/[#*_>`]/g, "").replace(/\s+/g, " ").slice(0, 110);
-      return `<div class="mine-row"><div class="mine-main"><b>${esc(COURSES[x.course] || x.course)}</b> · ${esc(x.dotpoints[0] || "")} · ${x.marks} mark${x.marks === 1 ? "" : "s"}${x.sent ? ' · <span class="soft">sent for review</span>' : ""}<div class="soft">${esc(t)}${x.question.length > 110 ? "…" : ""}</div></div>
+      return `<div class="mine-row"><div class="mine-main"><b>${esc(COURSES[x.course] || x.course)}</b> · ${esc(x.dotpoints[0] || "")} · ${x.marks} mark${x.marks === 1 ? "" : "s"}${x.sent ? ' · <span class="soft">published</span>' : ""}<div class="soft">${esc(t)}${x.question.length > 110 ? "…" : ""}</div></div>
         <a class="btn" href="${x.course}.html#${encodeURIComponent(x.id)}">View</a><button type="button" class="btn" data-edit="${esc(x.id)}">Edit</button><button type="button" class="btn" data-del="${esc(x.id)}">Delete</button></div>`;
     }).join("");
   }
@@ -233,12 +233,13 @@
   /* ---------------- send for review (GitHub issue) ---------------- */
   function issueBody(rec) {
     const clean = { ...rec };
+    clean.client_id = rec.id;
     for (const k of ["id", "created", "updated", "sent", "src"]) delete clean[k];
     const nImg = (clean.images || []).length + (clean.answer_images || []).length + (clean.prev || []).reduce((a, p) => a + (p.images || []).length, 0);
     if (nImg) clean.diagrams = { question: (clean.images || []).length, answer: (clean.answer_images || []).length, prev: (clean.prev || []).map((p) => (p.images || []).length) };
     delete clean.images; delete clean.answer_images;
     if (clean.prev) clean.prev = clean.prev.map(({ images, ...p }) => p);
-    const head = `New question for **${COURSES[rec.course]}**, dot point ${rec.dotpoints.join(", ")}.\n\n` +
+    const head = `New question for **${COURSES[rec.course]}**, dot point ${rec.dotpoints.join(", ")}. It is published automatically when you press **Create**.\n\n` +
       (nImg ? `**This question has ${nImg} diagram${nImg === 1 ? "" : "s"}** — drag ${nImg === 1 ? "it" : "them"} into this box before submitting (question diagrams first, then answer diagrams).\n\n` : "") +
       "<!-- Please don't edit the block below. -->\n";
     return head + "```json\n" + JSON.stringify(clean, null, 2) + "\n```\n";
@@ -256,7 +257,7 @@
       url = base + "&body=" + encodeURIComponent(copied ? "<!-- Paste your question here (it has been copied to your clipboard). -->\n\n" : "<!-- Use 'Download as file' on the submit page and drag the file in here. -->\n\n");
     }
     window.open(url, "_blank", "noopener");
-    toast(copied ? "Saved. Your question is copied — paste it into the GitHub form" : "Saved. Finish sending on GitHub", 5000);
+    toast(copied ? "Your question is copied — paste it into the GitHub form and press Create" : "Press Create on GitHub — it goes live within a couple of minutes", 6000);
   }
   function download() {
     const pr = problems();
@@ -292,7 +293,7 @@
       }
       if (t.id === "add-prev") { Q.prev.push({ ref: "", marks: 1, question: "", answer: "", images: [] }); renderPrev(); changed(); const ta = $("prev-list").lastElementChild; ta && ta.querySelector("input").focus(); return; }
       if (d.rmprev) { Q.prev.splice(+d.rmprev, 1); renderPrev(); changed(); return; }
-      if (t.id === "save") { if (save()) toast(`Saved — it's on the ${COURSES[Q.course]} page in this browser`); return; }
+      if (t.id === "save") { if (save()) toast(`Saved — it's on the ${COURSES[Q.course]} page in this browser only`); return; }
       if (t.id === "send") { send(); return; }
       if (t.id === "download") { download(); return; }
       if (t.id === "clear") { startNew(); return; }

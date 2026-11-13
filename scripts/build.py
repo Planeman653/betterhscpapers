@@ -195,7 +195,8 @@ def main():
             else:
                 t = s = None
             item = dict(q)
-            item.update({"id": f"{pid}-{i:03d}", "paper": pid, "course": c, "topic": t, "subtopic": s, "seq": i})
+            qid = f"{pid}-{q['issue']}" if community and q.get("issue") else f"{pid}-{i:03d}"   # stable when others are deleted
+            item.update({"id": qid, "paper": pid, "course": c, "topic": t, "subtopic": s, "seq": i})
             item.setdefault("images", []); item.setdefault("answer_images", [])
             out[c]["questions"].append(item)
             out[c]["papers"][pid] = meta

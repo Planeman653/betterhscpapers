@@ -61,7 +61,8 @@
 
   // Questions the user wrote on submit.html are kept in this browser and shown alongside the bank.
   function addMine(data) {
-    const mine = store.get("mine", []).filter((m) => m && m.course === COURSE && m.dotpoints && m.dotpoints.some((d) => S.dp[d]));
+    const live = new Set(data.questions.filter((q) => q.client_id).map((q) => q.client_id));   // already published for everyone
+    const mine = store.get("mine", []).filter((m) => m && m.course === COURSE && !live.has(m.id) && m.dotpoints && m.dotpoints.some((d) => S.dp[d]));
     if (!mine.length) return;
     data.papers.mine = { id: "mine", course: COURSE, school: "Your questions", year: 9999, type: "", label: "Your questions", answers: "worked" };
     mine.forEach((m, i) => {
@@ -200,7 +201,7 @@
   }
   function sourceOf(q) {
     if (q.mine) return `Your question${q.source ? " · " + esc(q.source) : ""} · <a href="submit.html?edit=${encodeURIComponent(q.id)}">Edit</a>`;
-    if (q.source) return `${esc(q.source)}${q.credit ? " · submitted by " + esc(q.credit) : ""}`;
+    if (q.source) return `${esc(q.source)}${q.credit ? " · submitted by " + esc(q.credit) : ""}${q.issue ? ` · <a href="https://github.com/Planeman653/betterhscpapers/issues/${+q.issue}" title="Edit or report this question">#${+q.issue}</a>` : ""}`;
     return `${esc(q._paper.label)}, ${esc(q.ref)}`;
   }
 

@@ -1,0 +1,42 @@
+name: Community submissions
+# Publishes questions sent from submit.html (issues titled "[Submission] ...") straight to the site, no review.
+# Owner/collaborators remove one by deleting its issue, labelling it `remove`, or commenting `/delete`.
+on:
+  issues:
+    types: [opened, edited, reopened, labeled, deleted]
+  issue_comment:
+    types: [created]
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: submissions
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: startsWith(github.event.issue.title, '[Submission]') && !github.event.issue.pull_request
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Publish or remove
+        id: sub
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/submissions.py event
+      - name: Commit and push
+        if: steps.sub.outputs.commit_message != ''
+        env:
+          MSG: ${{ steps.sub.outputs.commit_message }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data assets/img
+          git commit -m "$MSG"
+          for i in 1 2 3 4 5; do
+            git pull --rebase -X theirs origin main && python3 scripts/build.py && git add -A data && (git diff --cached --quiet || git commit -m "Rebuild") && git push origin HEAD:main && exit 0
+            sleep $((i * 5))
+          done
+          exit 1
