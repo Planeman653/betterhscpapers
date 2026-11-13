@@ -25,9 +25,14 @@ Paper file schema (data/papers/<course>/<paper-id>.json):
      "images": ["assets/img/<paper-id>/q11b.png"],
      "answer": "Markdown with $LaTeX$",     # worked solution (or short answer)
      "answer_images": [],
-     "correct": "B"                         # MC only
+     "correct": "B",                        # MC only
+     "answer_type": "worked"|"short"|"sample",   # optional per-question override of the paper's "answers"
+     "source": "...", "credit": "...",      # community submissions only: shown instead of the paper label
+     "prev": [{"ref","marks","question","answer"}]   # community only: earlier parts given explicitly
   }]
 }
+Community submissions live in data/papers/<course>/community-<course>.json with
+"school": "Community", "type": "Submitted", "label": "Community submissions", "community": true.
 """
 import json, os, re, sys, glob, datetime
 
@@ -79,6 +84,18 @@ def ref_group(ref):
     return m.group(1) if m and "(" in ref else None
 
 
+UNSAFE = re.compile(r"<\s*/?\s*(script|iframe|object|embed|style|form|input|button|link|meta|base)\b|\bon[a-z]+\s*=|javascript:|data:text/html", re.I)
+TEXT_FIELDS = ("question", "answer", "source", "credit", "ref")
+
+
+def unsafe_text(q):
+    """Fields with markup that must never reach the site (the page also sanitises, this is a second gate)."""
+    vals = [q.get(k) for k in TEXT_FIELDS] + list(q.get("options", []))
+    for x in q.get("prev", []) or []:
+        vals += [x.get("question"), x.get("answer"), x.get("ref")]
+    return [v for v in vals if isinstance(v, str) and UNSAFE.search(v)]
+
+
 PREV_FIELDS = ("ref", "kind", "marks", "question", "options", "images", "answer", "answer_images", "correct")
 
 
@@ -121,7 +138,8 @@ def main():
         if p.get("course") not in COURSES:
             errors.append(f"{rel}: bad course {p.get('course')}")
             continue
-        label = f"{p['school']} {p['year']} {p.get('type', 'Trial')}"
+        label = p.get("label") or f"{p['school']} {p['year']} {p.get('type', 'Trial')}"
+        community = bool(p.get("community"))
         meta = {"id": pid, "course": p["course"], "school": p["school"], "year": p["year"],
                 "type": p.get("type", "Trial"), "label": label, "answers": p.get("answers", "worked"),
                 "thsc": p.get("thsc"), "indexed": p.get("indexed"),
@@ -156,6 +174,18 @@ def main():
             for o in q.get("options", []):
                 if not balanced_dollars(o):
                     errors.append(f"{where}: unbalanced $ in option")
+            if unsafe_text(q):
+                errors.append(f"{where}: HTML/script is not allowed in question text")
+            if q.get("answer_type") not in (None, "worked", "short", "sample"):
+                errors.append(f"{where}: answer_type must be worked|short|sample")
+            if "prev" in q and not community:
+                errors.append(f"{where}: 'prev' is computed automatically (only community questions give it)")
+            for x in q.get("prev", []) or []:
+                if not x.get("question"):
+                    errors.append(f"{where}: previous part {x.get('ref')} has no question")
+                for fld in ("question", "answer"):
+                    if not balanced_dollars(x.get(fld)):
+                        errors.append(f"{where}: unbalanced $ in previous part {x.get('ref')} {fld}")
             ref = q.get("ref")
             if ref in seen:
                 errors.append(f"{where}: duplicate ref {ref}")
@@ -170,7 +200,8 @@ def main():
             out[c]["questions"].append(item)
             out[c]["papers"][pid] = meta
             paper_items.append(item)
-        add_previous_parts(paper_items, p.get("dropped", []))
+        if not community:
+            add_previous_parts(paper_items, p.get("dropped", []))
     if errors:
         print("\n".join(errors)); print(f"\n{len(errors)} error(s)"); sys.exit(1)
     total = sum(len(out[c]["questions"]) for c in COURSES)

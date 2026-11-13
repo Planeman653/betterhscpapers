@@ -21,12 +21,15 @@ HEAD = """<!doctype html>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
 <link rel="stylesheet" href="assets/style.css">
+<script defer src="assets/render.js"></script>
 <script defer src="assets/app.js"></script>
 </head>"""
 
 def tabs(active):
-    return "".join(f'<a href="{c}.html" class="{"on" if c == active else ""}">{short}</a>' for c, _, short in COURSES)
+    return "".join(f'<a href="{c}.html" class="{"on" if c == active else ""}">{short}</a>' for c, _, short in COURSES) \
+        + f'<a href="submit.html" class="submit-tab{" on" if active == "submit" else ""}">+ Submit a question</a>'
 
 BODY = """
 <body data-course="{course}">

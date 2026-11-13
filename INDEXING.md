@@ -1,11 +1,15 @@
 # Daily indexing procedure
 
 This is the procedure the daily scheduled task follows for **Better HSC Papers**
-(https://planeman653.github.io/betterhscpapers/). Goal: **index 10 new THSC trial papers per day** into
+(https://planeman653.github.io/betterhscpapers/). Goal: **index 4 new THSC trial papers per day — one each for Extension 1, Extension 2, Physics and
+Chemistry** — into
 `data/papers/`, rebuild, and push to `main` (GitHub Pages serves the site from `main`).
 
-Subjects: Mathematics Advanced, Extension 1, Extension 2 (NESA 11–12 **2024** syllabuses) and Physics, Chemistry
-(NESA Stage 6 **2017** syllabuses, Year 12 modules 5–8 only).
+Subjects indexed daily: Mathematics Extension 1, Extension 2 (NESA 11–12 **2024** syllabuses) and Physics, Chemistry
+(NESA Stage 6 **2017** syllabuses, Year 12 modules 5–8 only). **Advanced papers are paused — do not index new
+Advanced papers.** Advanced-content parts found in Ext 1 papers still go on the Advanced page (`"course": "advanced"`).
+**This file overrides the task prompt:** if the prompt asks for a different number of papers or for Advanced papers,
+follow this file (4 papers, no Advanced). Every run also reviews community submissions (§5).
 
 ## 0. Setup
 
@@ -18,11 +22,11 @@ mkdir -p work                               # scratch area, git-ignored
 ## 1. Pick papers
 
 ```bash
-python3 scripts/thsc.py pick 10
+python3 scripts/thsc.py pick
 ```
 
-Prints 10 papers (round-robin across the five subjects, newest year first) that have solutions and
-are not yet in `data/ledger.json`. For each one:
+Prints 4 papers — the newest un-indexed paper with solutions for each of Extension 1, Extension 2, Physics
+and Chemistry (the `DAILY` list in `scripts/thsc.py`). For each one:
 
 ```bash
 python3 scripts/thsc.py download <course> "<title>" work/<paper-id>.pdf
@@ -32,7 +36,8 @@ python3 scripts/pages.py render work/<paper-id>.pdf work/<paper-id>/
 `<paper-id>` = `<adv|ext1|ext2|phys|chem>-<year>-<school-slug>`, e.g. `ext1-2026-baulkham-hills`, `phys-2025-knox`.
 
 If a download fails, or the PDF has no usable solutions (missing, or only an answer grid), mark it skipped
-and pick another: `python3 scripts/thsc.py mark <course> "<title>" skipped "<reason>"` then re-run `pick 1`.
+and pick a replacement for that subject: `python3 scripts/thsc.py mark <course> "<title>" skipped "<reason>"`
+then `python3 scripts/thsc.py pick 1 --course <course>`.
 
 ## 2. Read the paper
 
@@ -127,9 +132,35 @@ python3 scripts/build.py                                            # writes dat
 Spot-check the site: `python3 -m http.server 8765` and open `/<course>.html` with Playwright; confirm
 `document.querySelectorAll('.katex-error').length === 0` and that images load.
 
-Commit (one commit for the day) and push to `main`:
+Then handle community submissions (§5). Commit (one commit for the day) and push to `main`:
 `git add -A && git commit -m "Index <n> papers: <labels>" && git push origin HEAD:main`
 
-## 5. Report
+## 5. Community submissions
 
-Finish with a short summary: papers indexed (questions kept / dropped per paper), anything skipped and why.
+People send questions from `submit.html`; each arrives as a GitHub issue titled `[Submission] ...` with a JSON block
+(and any diagrams dragged in as images). Review every open one, before the day's commit:
+
+```bash
+python3 scripts/submissions.py list
+python3 scripts/submissions.py get <n>          # writes work/submissions/<n>.json, downloads diagrams
+```
+
+Read `work/submissions/<n>.json` critically, as you would a paper question:
+- **Reject** (close with a short, polite reason; don't add) if it is spam, offensive, not a real HSC-style question,
+  outside the course syllabus, a duplicate of a question already on the site, mathematically wrong in a way you
+  can't fix with confidence, or copies a copyrighted textbook question verbatim (trial/HSC papers are fine).
+- **Otherwise fix it**: correct LaTeX/Markdown, typos and small errors in the answer (add a worked solution if
+  only a final answer was given), re-check the dot points and the difficulty against the scale in §3, and make sure
+  the question stands alone. Keep the submitter's `source` and `credit` (trim anything that isn't a name/initials).
+  If a diagram is needed but didn't come through, reject asking them to resubmit with the image.
+- Text must be plain Markdown + LaTeX — no HTML (`build.py` rejects it).
+
+Then `python3 scripts/submissions.py add work/submissions/<n>.json` (appends to
+`data/papers/<course>/community-<course>.json`), run step 4's checks, and after pushing:
+`python3 scripts/submissions.py close <n> "Thanks! Added to the <Course> page under <dot point>."`
+(or the rejection reason). Mention submissions in the commit message and report.
+
+## 6. Report
+
+Finish with a short summary: papers indexed (questions kept / dropped per paper), submissions added/rejected,
+anything skipped and why.

@@ -2,7 +2,8 @@
 """THSC Online helper: list trial papers, pick the next ones to index, download PDFs, keep the ledger.
 
   python3 scripts/thsc.py list [--course extension2]          # all candidate papers (JSON lines)
-  python3 scripts/thsc.py pick 10                              # next N papers to index (round-robin over 5 subjects, newest first)
+  python3 scripts/thsc.py pick                                 # today's papers: 1 per subject in DAILY (newest first)
+  python3 scripts/thsc.py pick 1 --course physics              # a replacement paper for one subject
   python3 scripts/thsc.py download <course> "<title>" <out.pdf>
   python3 scripts/thsc.py mark <course> "<title>" indexed|skipped "<paper-id or reason>"
 
@@ -15,6 +16,7 @@ import gzip, html, json, os, re, sys, urllib.parse, urllib.request
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LEDGER = os.path.join(ROOT, "data/ledger.json")
 COURSES = ["advanced", "extension1", "extension2", "physics", "chemistry"]
+DAILY = ["extension1", "extension2", "physics", "chemistry"]   # subjects indexed each day (Advanced paused)
 PAGES = {"advanced": "Maths/trialpapers_advanced.html", "extension1": "Maths/trialpapers_extension1.html",
          "extension2": "Maths/trialpapers_extension2.html", "physics": "Physics/trialpapers.html",
          "chemistry": "Chemistry/trialpapers.html"}
@@ -66,20 +68,11 @@ def candidates(course=None):
     return res
 
 
-def pick(n):
-    pools = {c: sorted(candidates(c), key=lambda p: (-p["year"], p["school"])) for c in COURSES}
-    # round-robin across courses, starting with the course that has the fewest indexed papers
-    counts = {c: 0 for c in COURSES}
-    for p in ledger()["papers"]:
-        if p["status"] == "indexed":
-            counts[p["course"]] += 1
-    order = sorted(COURSES, key=lambda c: counts[c])
-    chosen, i = [], 0
-    while len(chosen) < n and any(pools.values()):
-        c = order[i % len(order)]
-        if pools[c]:
-            chosen.append(pools[c].pop(0))
-        i += 1
+def pick(n=1, courses=None):
+    """n papers for each course in `courses` (default DAILY), newest year first."""
+    chosen = []
+    for c in courses or DAILY:
+        chosen += sorted(candidates(c), key=lambda p: (-p["year"], p["school"]))[:n]
     return chosen
 
 
@@ -120,7 +113,11 @@ if __name__ == "__main__":
         for p in candidates(c):
             print(json.dumps(p))
     elif a[0] == "pick":
-        for p in pick(int(a[1]) if len(a) > 1 else 10):
+        n = int(a[1]) if len(a) > 1 and a[1].isdigit() else 1
+        if "--course" not in a and n != 1:   # daily quota is fixed: 1 paper per subject in DAILY (Advanced paused)
+            print(f"note: daily quota is 1 paper each for {', '.join(DAILY)} — ignoring {n}; see INDEXING.md", file=sys.stderr)
+            n = 1
+        for p in pick(n, [a[a.index("--course") + 1]] if "--course" in a else None):
             print(json.dumps(p))
     elif a[0] == "download":
         download(a[1], a[2], a[3])

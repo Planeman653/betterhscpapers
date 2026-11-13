@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Submit a Question — Better HSC Papers</title>
+<meta name="description" content="Write your own HSC question with an answer, earlier parts and syllabus tags, preview it, and add it to your question bank or send it in to be added for everyone.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
+<link rel="stylesheet" href="assets/style.css">
+<script defer src="assets/render.js"></script>
+<script defer src="assets/submit.js"></script>
+</head>
+<body class="submit-page">
+<header class="topbar"><div class="topbar-inner">
+  <a class="brand" href="index.html">Better <span>HSC Papers</span></a>
+  <nav class="tabs"><a href="advanced.html">Advanced</a><a href="extension1.html">Extension 1</a><a href="extension2.html">Extension 2</a><a href="physics.html">Physics</a><a href="chemistry.html">Chemistry</a><a href="submit.html" class="submit-tab on">+ Submit a question</a></nav>
+</div></header>
+
+<div class="sub-layout">
+<main class="sub-form" id="form">
+  <div class="doc-head">
+    <h1 id="form-title">Submit a question</h1>
+    <p>Write a question with its answer, tag it to the syllabus and preview it as it will appear. <b>Save to my question bank</b> adds it to the course page in this browser straight away. <b>Send for review</b> also sends it to us, and once checked it is added to the site for everyone.</p>
+  </div>
+
+  <section class="fs">
+    <h2><span class="n">1</span> Subject and type</h2>
+    <div class="field"><span class="lab">Subject</span><div class="chips" id="course"></div></div>
+    <div class="field"><span class="lab">Question type</span>
+      <div class="chips"><button type="button" class="chip on" data-kind="written">Written response</button><button type="button" class="chip" data-kind="mc">Multiple choice</button></div>
+    </div>
+  </section>
+
+  <section class="fs">
+    <h2><span class="n">2</span> Question</h2>
+    <p class="hint">Markdown and LaTeX: <code>$x^2$</code> for inline maths, <code>$$\int_0^1 f(x)\,dx$$</code> on its own line for display maths, <code>**bold**</code>, blank line for a new paragraph. Write <code>\$</code> for a dollar sign. Make the question make sense on its own.</p>
+    <textarea id="question" rows="7" placeholder="e.g. Use the substitution $u = x^2 + 1$ to find $\displaystyle\int x\sqrt{x^2+1}\,dx$."></textarea>
+    <div class="imgs" data-imgs="images"></div>
+    <label class="up"><input type="file" accept="image/*" multiple data-upload="images"> Add a diagram or graph</label>
+
+    <div id="mc-box" hidden>
+      <span class="lab" style="margin-top:14px">Options (tick the correct one)</span>
+      <div class="opt-grid">
+        <label class="opt"><input type="radio" name="correct" value="A"><b>A</b><input type="text" data-opt="0"></label>
+        <label class="opt"><input type="radio" name="correct" value="B"><b>B</b><input type="text" data-opt="1"></label>
+        <label class="opt"><input type="radio" name="correct" value="C"><b>C</b><input type="text" data-opt="2"></label>
+        <label class="opt"><input type="radio" name="correct" value="D"><b>D</b><input type="text" data-opt="3"></label>
+      </div>
+    </div>
+  </section>
+
+  <section class="fs">
+    <h2><span class="n">3</span> Answer</h2>
+    <div class="field"><span class="lab">Answer type</span>
+      <div class="chips" id="answer-type"><button type="button" class="chip on" data-at="worked">Worked solution</button><button type="button" class="chip" data-at="sample">Sample answer</button><button type="button" class="chip" data-at="short">Short answer</button></div>
+    </div>
+    <textarea id="answer" rows="7" placeholder="Show the working, not just the final answer."></textarea>
+    <div class="imgs" data-imgs="answer_images"></div>
+    <label class="up"><input type="file" accept="image/*" multiple data-upload="answer_images"> Add a diagram to the answer</label>
+  </section>
+
+  <section class="fs">
+    <h2><span class="n">4</span> Marks, difficulty and syllabus</h2>
+    <div class="field-row">
+      <div class="field"><label class="lab" for="marks">Marks</label><input type="number" id="marks" min="1" max="20" value="2"></div>
+      <div class="field grow"><span class="lab">Difficulty</span>
+        <div class="chips" id="difficulty">
+          <button type="button" class="chip" data-d="1" title="Routine, single step or recall">1 Easy</button>
+          <button type="button" class="chip" data-d="2" title="Standard technique, a few steps">2 Moderate</button>
+          <button type="button" class="chip on" data-d="3" title="Multi-step standard problem">3 Medium</button>
+          <button type="button" class="chip" data-d="4" title="Unfamiliar set-up or long chain of reasoning">4 Hard</button>
+          <button type="button" class="chip" data-d="5" title="Hardest discriminating questions">5 Very hard</button>
+        </div>
+      </div>
+    </div>
+    <div class="field"><span class="lab">Dot points <span class="soft">— pick 1 to 3; the first is where the question is listed</span></span>
+      <div class="dp-chosen" id="dp-chosen"></div>
+      <input type="search" class="search" id="dp-search" placeholder="Search the syllabus, e.g. induction, projectile, equilibrium, 12.3.4">
+      <div class="dp-list" id="dp-list"><div class="none">Loading syllabus…</div></div>
+    </div>
+  </section>
+
+  <section class="fs">
+    <h2><span class="n">5</span> Source <span class="soft">(optional)</span></h2>
+    <div class="field-row">
+      <div class="field"><label class="lab" for="src-type">Where is it from?</label>
+        <select id="src-type"><option value="own">My own question</option><option value="trial">A trial paper</option><option value="hsc">An HSC paper</option><option value="textbook">A textbook</option><option value="other">Somewhere else</option></select>
+      </div>
+      <div class="field" data-src="paper"><label class="lab" for="src-school">School</label><input type="text" id="src-school" placeholder="e.g. Knox"></div>
+      <div class="field" data-src="paper hsc"><label class="lab" for="src-year">Year</label><input type="number" id="src-year" min="2000" max="2030" placeholder="2025"></div>
+      <div class="field" data-src="paper hsc"><label class="lab" for="src-ref">Question number</label><input type="text" id="src-ref" placeholder="e.g. Q14(b)(ii)"></div>
+      <div class="field grow" data-src="text"><label class="lab" for="src-text">Details</label><input type="text" id="src-text" placeholder="e.g. Cambridge Ext 1, Ex 5C Q12"></div>
+    </div>
+    <div class="field"><label class="lab" for="credit">Your name or initials <span class="soft">— shown as “submitted by” if your question is added</span></label><input type="text" id="credit" maxlength="40" placeholder="Optional"></div>
+  </section>
+
+  <section class="fs">
+    <h2><span class="n">6</span> Previous parts <span class="soft">(optional)</span></h2>
+    <p class="hint">If this is part of a longer question, e.g. part (c)(ii), add the earlier parts it builds on. They appear behind a “Show previous parts” button.</p>
+    <div id="prev-list"></div>
+    <button type="button" class="btn" id="add-prev">+ Add an earlier part</button>
+  </section>
+
+  <section class="fs actions">
+    <ul class="problems" id="problems"></ul>
+    <div class="row">
+      <button type="button" class="btn primary" id="save">Save to my question bank</button>
+      <button type="button" class="btn" id="send">Save and send for review</button>
+      <button type="button" class="btn" id="download">Download as file</button>
+      <span style="flex:1"></span>
+      <button type="button" class="linkish" id="clear">Start a new question</button>
+    </div>
+    <p class="hint" style="margin-top:10px">Sending for review opens a pre-filled form on GitHub (you need a free GitHub account). Attach any diagrams by dragging them into that form. Questions are checked for accuracy, syllabus fit and difficulty before being added.</p>
+  </section>
+
+  <section class="fs" id="mine-box">
+    <h2>Your saved questions</h2>
+    <div id="mine"></div>
+  </section>
+</main>
+
+<aside class="sub-preview">
+  <div class="panel-title">Live preview</div>
+  <div class="doc" id="preview"><div class="none">Start typing to see your question.</div></div>
+</aside>
+</div>
+<div id="toast" style="display:none;position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--accent);color:var(--accent-ink);padding:8px 16px;border-radius:999px;z-index:60;font-size:14px"></div>
+</body>
+</html>

@@ -33,20 +33,7 @@
   };
 
   /* ---------------- markdown + maths ---------------- */
-  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
-  function tex(src, display) {
-    src = src.replace(/\u0003/g, "\\$");
-    try { return katex.renderToString(src, { displayMode: display, throwOnError: false, strict: "ignore" }); }
-    catch (e) { return "<code>" + esc(src) + "</code>"; }
-  }
-  function md(text, inline) {
-    if (!text) return "";
-    const maths = [];
-    const t = String(text).replace(/\\\$/g, "\u0003").replace(/\$\$([\s\S]+?)\$\$|\\\[([\s\S]+?)\\\]|\$([^$]+?)\$|\\\(([\s\S]+?)\\\)/g,
-      (m, a, b, c, d) => { maths.push([a ?? b ?? c ?? d, a != null || b != null]); return "\u0001" + (maths.length - 1) + "\u0002"; });
-    let html = inline ? marked.parseInline(t) : marked.parse(t);
-    return html.replace(/\u0001(\d+)\u0002/g, (m, i) => tex(maths[+i][0], maths[+i][1])).replace(/\u0003/g, "$");
-  }
+  const { esc, md } = window.HSCRender;
 
   /* ---------------- data ---------------- */
   async function load() {
@@ -63,12 +50,25 @@
         for (const p of s.dotpoints) { S.dp[p.id] = { ...p, sub: s.id, topic: t.id }; S.order[p.id] = n++; }
       }
     }
+    addMine(data);
     for (const q of data.questions) {
       q._order = S.order[q.dotpoints[0]] ?? 1e9;
       q._paper = data.papers[q.paper] || { label: q.paper, year: 0 };
       q._text = (q.question + " " + (q.options || []).join(" ") + " " + q._paper.label + " " + q.ref).toLowerCase();
     }
     for (const id of [...S.basket]) if (!data.questions.find((q) => q.id === id)) S.basket.delete(id);
+  }
+
+  // Questions the user wrote on submit.html are kept in this browser and shown alongside the bank.
+  function addMine(data) {
+    const mine = store.get("mine", []).filter((m) => m && m.course === COURSE && m.dotpoints && m.dotpoints.some((d) => S.dp[d]));
+    if (!mine.length) return;
+    data.papers.mine = { id: "mine", course: COURSE, school: "Your questions", year: 9999, type: "", label: "Your questions", answers: "worked" };
+    mine.forEach((m, i) => {
+      const dps = m.dotpoints.filter((d) => S.dp[d]);
+      data.questions.push({ ...m, dotpoints: dps, paper: "mine", mine: true, seq: i + 1, ref: m.ref || "Your question",
+        topic: S.dp[dps[0]].topic, subtopic: S.dp[dps[0]].sub, images: m.images || [], answer_images: m.answer_images || [] });
+    });
   }
 
   /* ---------------- filtering ---------------- */
@@ -176,22 +176,32 @@
     const imgs = (q.images || []).map((s) => `<img src="${esc(s)}" alt="Diagram for ${esc(q.ref)}" loading="lazy">`).join("");
     const show = S.showAnswers || S.opened.has(q.id);
     const ansImgs = (q.answer_images || []).map((s) => `<img src="${esc(s)}" alt="Solution diagram" loading="lazy">`).join("");
-    const ansLabel = p.answers === "short" ? "Answer" : SCIENCE ? "Sample answer" : "Worked solution";
+    const ansLabel = ansLabelOf(q);
     const ans = show ? `<div class="ans"><div class="ans-label">${ansLabel}${q.kind === "mc" && q.correct ? " — " + q.correct : ""}</div><div class="ans-body">${q.kind === "mc" && q.answer.replace(/\*/g, "").trim() === q.correct ? "" : md(q.answer)}${ansImgs}</div></div>` : "";
     const dps = q.dotpoints.map((d) => d).join(", ");
     const prev = q.prev || [];
     const prevShown = S.prevOpen.has(q.id);
     const prevBtn = prev.length ? `<button class="prev-btn${prevShown ? " on" : ""}" data-prev="${q.id}" aria-expanded="${prevShown}">${prevShown ? "Hide" : "Show"} previous part${prev.length === 1 ? "" : "s"} (${prev.length})</button>` : "";
-    const prevBlock = prev.length && prevShown ? `<div class="prev-parts"><div class="prev-label">Earlier parts of this question — ${esc(p.label)}</div>${prev.map(prevHtml).join("")}</div>` : "";
+    const prevBlock = prev.length && prevShown ? `<div class="prev-parts"><div class="prev-label">Earlier parts of this question${q.mine || q.source ? "" : " — " + esc(p.label)}</div>${prev.map(prevHtml).join("")}</div>` : "";
     return `<article class="q" id="${q.id}">
       <div class="q-head"><span class="q-title">Question ${num} <span class="marks">(${q.marks} mark${q.marks === 1 ? "" : "s"})</span></span>
         <span class="diff d${q.difficulty}" title="Difficulty ${q.difficulty}/5 — ${DIFF[q.difficulty]}">${[1, 2, 3, 4, 5].map((i) => `<i class="${i <= q.difficulty ? "f" : ""}"></i>`).join("")}&nbsp;${DIFF[q.difficulty]}</span>
         <span class="grow"></span>
         <span class="q-actions"><label class="pick"><input type="checkbox" data-pick="${q.id}" ${S.basket.has(q.id) ? "checked" : ""}> Add to PDF</label>${prevBtn}</span></div>
       ${prevBlock}<div class="q-body">${md(q.question)}${imgs}</div>${opts}
-      <div class="src">Source: ${esc(p.label)}, ${esc(q.ref)}${q.kind === "mc" ? " (multiple choice)" : ""} · <span class="dps">Dot point${q.dotpoints.length > 1 ? "s" : ""} ${dps}</span></div>
+      <div class="src">${q.mine ? '<span class="tag">Yours</span> ' : q.source ? '<span class="tag">Community</span> ' : ""}Source: ${sourceOf(q)}${q.kind === "mc" ? " (multiple choice)" : ""} · <span class="dps">Dot point${q.dotpoints.length > 1 ? "s" : ""} ${dps}</span></div>
       ${S.showAnswers ? "" : `<div class="ans-toggle"><button class="linkish" data-ans="${q.id}">${show ? "Hide" : "Show"} ${ansLabel.toLowerCase()}</button></div>`}
       ${ans}</article>`;
+  }
+
+  function ansLabelOf(q) {
+    const t = q.answer_type || q._paper.answers;
+    return t === "short" ? "Answer" : t === "sample" || (SCIENCE && t !== "worked") ? "Sample answer" : "Worked solution";
+  }
+  function sourceOf(q) {
+    if (q.mine) return `Your question${q.source ? " · " + esc(q.source) : ""} · <a href="submit.html?edit=${encodeURIComponent(q.id)}">Edit</a>`;
+    if (q.source) return `${esc(q.source)}${q.credit ? " · submitted by " + esc(q.credit) : ""}`;
+    return `${esc(q._paper.label)}, ${esc(q.ref)}`;
   }
 
   function prevHtml(x) {
@@ -264,7 +274,7 @@
     const order = [...S.basket];
     qs.sort((a, b) => order.indexOf(a.id) - order.indexOf(b.id));
     document.getElementById("basket-list").innerHTML = qs.length
-      ? qs.map((q) => `<li>${esc(q._paper.label)} ${esc(q.ref)} · ${q.marks}m · ${DIFF[q.difficulty]}<button class="linkish" data-unpick="${q.id}">remove</button></li>`).join("")
+      ? qs.map((q) => `<li>${q.mine ? "Your question" : esc(q._paper.label) + " " + esc(q.ref)} · ${q.marks}m · ${DIFF[q.difficulty]}<button class="linkish" data-unpick="${q.id}">remove</button></li>`).join("")
       : `<li style="list-style:none;margin-left:-22px;color:var(--muted)">Tick “Add to PDF” on any question, or use “Add all shown”.</li>`;
     document.getElementById("basket-marks").textContent = qs.length ? `${qs.length} questions · ${qs.reduce((a, q) => a + q.marks, 0)} marks` : "";
   }
@@ -285,9 +295,9 @@
     qs.forEach((q, i) => {
       const opts = q.kind === "mc" ? `<div class="opts ${q.options.every((o) => o.includes("![") || o.length < 38) ? "short" : ""}">${q.options.map((o, k) => `<div><b>(${"ABCD"[k]})</b><span>${md(o, true)}</span></div>`).join("")}</div>` : "";
       const imgs = (q.images || []).map((s) => `<img src="${esc(s)}">`).join("");
-      const ans = `<div class="ans"><div class="ans-label">${q._paper.answers === "short" ? "Answer" : SCIENCE ? "Sample answer" : "Solution"}${q.kind === "mc" && q.correct ? " — " + q.correct : ""}</div><div class="ans-body">${md(q.answer)}${(q.answer_images || []).map((s) => `<img src="${esc(s)}">`).join("")}</div></div>`;
+      const ans = `<div class="ans"><div class="ans-label">${ansLabelOf(q)}${q.kind === "mc" && q.correct ? " — " + q.correct : ""}</div><div class="ans-body">${md(q.answer)}${(q.answer_images || []).map((s) => `<img src="${esc(s)}">`).join("")}</div></div>`;
       h += `<div class="pq"><div class="pq-head">Question ${i + 1} <span>(${q.marks} mark${q.marks === 1 ? "" : "s"})</span></div><div class="q-body">${md(q.question)}${imgs}</div>${opts}`
-        + (showSrc ? `<div class="src">Source: ${esc(q._paper.label)}, ${esc(q.ref)}</div>` : "")
+        + (showSrc ? `<div class="src">Source: ${q.mine ? "Your question" : q.source ? esc(q.source) : esc(q._paper.label) + ", " + esc(q.ref)}</div>` : "")
         + (space !== "none" && q.kind === "written" && ansMode !== "inline" ? `<div class="work ${space}"></div>` : "")
         + (ansMode === "inline" ? ans : "") + `</div>`;
     });
@@ -366,5 +376,7 @@
       ? `${S.data.questions.length} questions from ${ps.length} paper${ps.length === 1 ? "" : "s"}, tagged to the ${S.syl.syllabus} ${COURSE_NAME} syllabus. Content outside that syllabus has been removed.`
       : "No papers indexed yet — new trial papers are added daily.";
     buildPapers(); buildTree(); bind(); render(); updateBasket();
+    const h = decodeURIComponent(location.hash.slice(1));
+    if (h && document.getElementById(h)) setTimeout(() => document.getElementById(h).scrollIntoView({ block: "start" }), 50);
   });
 })();
