@@ -1,0 +1,726 @@
+{
+ "id": "ext2-2026-north-sydney-boys",
+ "course": "extension2",
+ "school": "North Sydney Boys",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "North Sydney Boys 2026 w. sol"
+ },
+ "indexed": "2026-11-15",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.10",
+    "12.3.1.9"
+   ],
+   "question": "If $z = 1 + 2i$ and $w = 3 - i$, then $z - \\overline{w}$ is:",
+   "options": [
+    "$3i - 2$",
+    "$4 + 3i$",
+    "$i - 2$",
+    "$4 + i$"
+   ],
+   "correct": "C",
+   "answer": "$\\overline{w} = 3 + i$, so $z - \\overline{w} = 1 + 2i - 3 - i = -2 + i = i - 2$. Hence C."
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.3.4",
+    "12.3.3.3"
+   ],
+   "question": "If $2 - i$ is a root of the polynomial equation $x^3 - 7x^2 + 17x - 15 = 0$, then the other two roots are:",
+   "options": [
+    "$2 - i,\\ 3$",
+    "$2 + i,\\ 3$",
+    "$2 + i,\\ -3$",
+    "$2 - i,\\ -3$"
+   ],
+   "correct": "B",
+   "answer": "The coefficients are real, so the conjugate $2 + i$ is also a root. Product of roots $= 15$: $(2+i)(2-i)\\alpha = 15 \\Rightarrow 5\\alpha = 15 \\Rightarrow \\alpha = 3$. Hence B."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.3",
+    "12.5.3.2"
+   ],
+   "question": "A smooth plane is inclined at an angle of $\\theta$ to the horizontal. A mass of $m$ kg, at rest, is supported by a light inextensible rope over a smooth pulley at the top of the plane. The other end of the rope is attached to a hanging mass of $M$ kg, as shown in the diagram.  Which expression correctly connects $m$, $M$ and $\\theta$?",
+   "options": [
+    "$M = m\\sin\\theta$",
+    "$M = m\\cos\\theta$",
+    "$m = M\\sin\\theta$",
+    "$m = M\\cos\\theta$"
+   ],
+   "correct": "A",
+   "answer": "The system is in equilibrium. For the hanging mass, $T = Mg$. For the mass on the smooth plane, resolving along the plane, $T = mg\\sin\\theta$. So $Mg = mg\\sin\\theta$, i.e. $M = m\\sin\\theta$. Hence A.",
+   "images": [
+    "assets/img/ext2-2026-north-sydney-boys/q3.png"
+   ]
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.6",
+    "12.1.2.2"
+   ],
+   "question": "Which of the following statements is FALSE?",
+   "options": [
+    "$\\forall a, b \\in \\mathbb{R},\\quad a < b \\Rightarrow a^5 < b^5$",
+    "$\\forall a, b \\in (0, \\infty),\\quad a < b \\Rightarrow \\sqrt{a} < \\sqrt{b}$",
+    "$\\forall a, b \\in \\mathbb{R},\\quad a < b \\Rightarrow \\cos a < \\cos b$",
+    "$\\forall a, b \\in (0, \\infty),\\quad a < b \\Rightarrow \\dfrac{1}{a} > \\dfrac{1}{b}$"
+   ],
+   "correct": "C",
+   "answer": "$x^5$ is increasing on $\\mathbb{R}$, $\\sqrt{x}$ is increasing and $\\frac{1}{x}$ is decreasing on $(0,\\infty)$, so A, B, D are true. $\\cos x$ is not monotonic: e.g. $a = 0 < b = \\pi$ but $\\cos 0 = 1 > \\cos\\pi = -1$. Hence C is false."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.10",
+    "12.3.4.9"
+   ],
+   "question": "In the Argand diagram, vectors $\\overrightarrow{OA}$ and $\\overrightarrow{OB}$ represent the complex numbers $z_1$ and $z_2$ respectively, where $|z_2| = 2|z_1|$ and $\\angle AOB = \\dfrac{2\\pi}{3}$ ($B$ is anticlockwise from $A$).  Vector $\\overrightarrow{AB}$ represents:",
+   "options": [
+    "$(-2 + i\\sqrt{3})z_1$",
+    "$(2 - i\\sqrt{3})z_1$",
+    "$(-\\sqrt{3} + 2i)z_1$",
+    "$(\\sqrt{3} - 2i)z_1$"
+   ],
+   "correct": "A",
+   "answer": "$z_2$ is $z_1$ rotated anticlockwise by $\\frac{2\\pi}{3}$ and doubled: $z_2 = 2\\left(\\cos\\frac{2\\pi}{3} + i\\sin\\frac{2\\pi}{3}\\right)z_1 = (-1 + i\\sqrt{3})z_1$. So $\\overrightarrow{AB} = z_2 - z_1 = (-2 + i\\sqrt{3})z_1$. Hence A.",
+   "images": [
+    "assets/img/ext2-2026-north-sydney-boys/q5.png"
+   ]
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.8",
+    "12.1.1.7"
+   ],
+   "question": "Consider the statement: **If I live in Antwerp, then I live in Belgium.**\n\nWhich of the following are the converse and negation, respectively, of the statement above?\n\n- Statement 1: If I don't live in Antwerp then I don't live in Belgium.\n- Statement 2: If I don't live in Belgium then I don't live in Antwerp.\n- Statement 3: If I live in Belgium then I live in Antwerp.\n- Statement 4: I live in Antwerp and I don't live in Belgium.",
+   "options": [
+    "Statements 1 and 2",
+    "Statements 3 and 1",
+    "Statements 2 and 3",
+    "Statements 3 and 4"
+   ],
+   "correct": "D",
+   "answer": "Converse of $P \\Rightarrow Q$ is $Q \\Rightarrow P$: “If I live in Belgium then I live in Antwerp” (Statement 3). Negation of $P \\Rightarrow Q$ is $P \\wedge \\neg Q$: “I live in Antwerp and I don't live in Belgium” (Statement 4). Hence D."
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.5",
+    "12.3.1.11"
+   ],
+   "question": "The diagram shows the locus of points representing the complex number $z$ on the Argand plane: a parabola with vertex at the origin, passing through the point $\\left(1, \\frac{1}{4}\\right)$, i.e. $z = 1 + \\frac{i}{4}$. Which equation in $z$ best matches this locus?",
+   "options": [
+    "$|z + i| = \\text{Re}(z) - 1$",
+    "$|z + i| = \\text{Im}(z) - 1$",
+    "$|z - i| = \\text{Re}(z) + 1$",
+    "$|z - i| = \\text{Im}(z) + 1$"
+   ],
+   "correct": "D",
+   "answer": "Test $z = 1 + \\frac{i}{4}$:\n\n- A: $\\left|1 + \\frac{5i}{4}\\right| \\ne 0$; B: $\\left|1 + \\frac{5i}{4}\\right| = \\frac{\\sqrt{41}}{4} \\ne -\\frac{3}{4}$; C: $\\left|1 - \\frac{3i}{4}\\right| = \\frac{5}{4} \\ne 2$.\n- D: $\\left|1 - \\frac{3i}{4}\\right| = \\sqrt{1 + \\frac{9}{16}} = \\frac{5}{4} = \\frac{1}{4} + 1$ ✓.\n\n(Indeed $|z - i| = \\text{Im}(z) + 1$ is the parabola with focus $i$ and directrix $y = -1$, i.e. $x^2 = 4y$.) Hence D.",
+   "images": [
+    "assets/img/ext2-2026-north-sydney-boys/q7.png"
+   ]
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.1",
+    "12.5.1.2"
+   ],
+   "question": "A particle is moving in a straight line with velocity at any time given by $v = \\sin^{-1}x$. Which of the following represents the acceleration of the particle?",
+   "options": [
+    "$\\dfrac{\\sin^{-1}x}{\\sqrt{1 - x^2}}$",
+    "$\\dfrac{-\\sin^{-1}x}{\\sqrt{1 - x^2}}$",
+    "$\\dfrac{1}{\\sqrt{1 - x^2}}$",
+    "$\\dfrac{-\\cos x}{\\sin^2 x}$"
+   ],
+   "correct": "A",
+   "answer": "$a = v\\dfrac{dv}{dx} = \\sin^{-1}x \\cdot \\dfrac{1}{\\sqrt{1 - x^2}}$. Hence A."
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.6",
+    "12.2.3.7"
+   ],
+   "question": "Given the unit vectors $\\mathbf{p} = \\begin{pmatrix}0\\\\0\\\\1\\end{pmatrix}$, $\\mathbf{q} = \\begin{pmatrix}1\\\\0\\\\0\\end{pmatrix}$ and $\\mathbf{r} = \\begin{pmatrix}0\\\\-1\\\\0\\end{pmatrix}$, the vector $\\overrightarrow{OC} = \\mathbf{p} + \\mathbf{q} + \\mathbf{p} + \\mathbf{r}$, as shown. What angle $\\theta$ does $\\overrightarrow{OC}$ make with the $xy$-plane?",
+   "options": [
+    "$22^\\circ 12'$",
+    "$30^\\circ 16'$",
+    "$35^\\circ 15'$",
+    "$54^\\circ 44'$"
+   ],
+   "correct": "D",
+   "answer": "$\\overrightarrow{OC} = 2\\mathbf{p} + \\mathbf{q} + \\mathbf{r} = (1, -1, 2)$, with $|\\overrightarrow{OC}| = \\sqrt{6}$. Its projection onto the $xy$-plane is $(1,-1,0)$ with length $\\sqrt{2}$. So $\\cos\\theta = \\dfrac{\\sqrt{2}}{\\sqrt{6}} = \\dfrac{1}{\\sqrt{3}}$, $\\theta \\approx 54^\\circ 44'$. Hence D.",
+   "images": [
+    "assets/img/ext2-2026-north-sydney-boys/q9.png"
+   ],
+   "course": "extension1"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.10",
+    "12.3.2.9"
+   ],
+   "question": "Let $a, b, c, d$ be complex numbers such that $a \\ne b$ and $c \\ne d$. Which of the following is a necessary and sufficient condition for the line through $a$ and $b$ to be perpendicular to the line through $c$ and $d$?",
+   "options": [
+    "$\\dfrac{a - b}{c - d} = -\\dfrac{\\overline{a} - \\overline{b}}{\\overline{c} - \\overline{d}}\\, i$",
+    "$\\dfrac{a - b}{c - d} = -\\dfrac{\\overline{a} - \\overline{b}}{\\overline{c} - \\overline{d}}$",
+    "$\\dfrac{a - b}{c - d} = \\dfrac{\\overline{a} - \\overline{b}}{\\overline{c} - \\overline{d}}\\, i$",
+    "$\\dfrac{a - b}{c - d} = \\dfrac{\\overline{a} - \\overline{b}}{\\overline{c} - \\overline{d}}$"
+   ],
+   "correct": "B",
+   "answer": "The lines are perpendicular iff $\\arg\\dfrac{a-b}{c-d} = \\pm\\dfrac{\\pi}{2}$, i.e. iff $\\omega = \\dfrac{a-b}{c-d}$ is purely imaginary (it is non-zero since $a \\ne b$), i.e. iff $\\omega + \\overline{\\omega} = 0$. Since $\\overline{\\omega} = \\dfrac{\\overline{a} - \\overline{b}}{\\overline{c} - \\overline{d}}$, the condition is $\\dfrac{a-b}{c-d} = -\\dfrac{\\overline{a} - \\overline{b}}{\\overline{c} - \\overline{d}}$. Hence B."
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.9",
+    "12.2.4.10"
+   ],
+   "question": "Define $A(2, 0, 3)$, $B(-1, 4, 2)$ and $C(0, 6, -3)$. Let $\\mathbf{u} = \\overrightarrow{BA}$ and $\\mathbf{v} = \\overrightarrow{BC}$. Find $\\text{proj}_{\\mathbf{v}}\\mathbf{u}$.",
+   "answer": "$\\mathbf{u} = \\overrightarrow{BA} = \\begin{pmatrix}2\\\\0\\\\3\\end{pmatrix} - \\begin{pmatrix}-1\\\\4\\\\2\\end{pmatrix} = \\begin{pmatrix}3\\\\-4\\\\1\\end{pmatrix}$, $\\quad \\mathbf{v} = \\overrightarrow{BC} = \\begin{pmatrix}0\\\\6\\\\-3\\end{pmatrix} - \\begin{pmatrix}-1\\\\4\\\\2\\end{pmatrix} = \\begin{pmatrix}1\\\\2\\\\-5\\end{pmatrix}$.\n\n$$\\text{proj}_{\\mathbf{v}}\\mathbf{u} = \\frac{\\mathbf{u}\\cdot\\mathbf{v}}{|\\mathbf{v}|^2}\\mathbf{v} = \\frac{3 - 8 - 5}{1 + 4 + 25}\\begin{pmatrix}1\\\\2\\\\-5\\end{pmatrix} = -\\frac{1}{3}\\begin{pmatrix}1\\\\2\\\\-5\\end{pmatrix}$$",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.7"
+   ],
+   "question": "Define $A(2, 0, 3)$, $B(-1, 4, 2)$ and $C(0, 6, -3)$. Let $\\mathbf{u} = \\overrightarrow{BA}$ and $\\mathbf{v} = \\overrightarrow{BC}$. Find $|\\mathbf{u}|$.",
+   "answer": "$\\mathbf{u} = (3, -4, 1)$, so $|\\mathbf{u}| = \\sqrt{3^2 + 4^2 + 1^2} = \\sqrt{26}$.",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q11(a)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.11",
+    "12.2.4.9"
+   ],
+   "question": "Define $A(2, 0, 3)$, $B(-1, 4, 2)$ and $C(0, 6, -3)$. Let $\\mathbf{u} = \\overrightarrow{BA}$ and $\\mathbf{v} = \\overrightarrow{BC}$. Given that $\\text{proj}_{\\mathbf{v}}\\mathbf{u} = -\\frac{1}{3}\\begin{pmatrix}1\\\\2\\\\-5\\end{pmatrix}$ and $|\\mathbf{u}| = \\sqrt{26}$, find the perpendicular distance of $A$ from the line through $B$ and $C$.",
+   "answer": "The perpendicular distance $d$ satisfies (Pythagoras) $d^2 = |\\mathbf{u}|^2 - |\\text{proj}_{\\mathbf{v}}\\mathbf{u}|^2$.\n\n$|\\text{proj}_{\\mathbf{v}}\\mathbf{u}|^2 = \\frac{1}{9}(1 + 4 + 25) = \\frac{10}{3}$, so $d^2 = 26 - \\frac{10}{3} = \\frac{68}{3}$ and\n$$d = \\sqrt{\\frac{68}{3}} = \\frac{2\\sqrt{51}}{3}.$$",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q11(a)(iv)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.11",
+    "12.2.3.7"
+   ],
+   "question": "Define $A(2, 0, 3)$, $B(-1, 4, 2)$ and $C(0, 6, -3)$. Let $\\mathbf{u} = \\overrightarrow{BA}$ and $\\mathbf{v} = \\overrightarrow{BC}$. The perpendicular distance of $A$ from the line through $B$ and $C$ is $\\sqrt{\\frac{68}{3}}$. Find the area of $\\triangle ABC$.",
+   "answer": "$|\\overrightarrow{BC}| = |\\mathbf{v}| = \\sqrt{30}$. Area $= \\frac{1}{2} \\times \\sqrt{30} \\times \\sqrt{\\frac{68}{3}} = \\frac{1}{2}\\sqrt{680} = \\frac{1}{2}\\cdot 2\\sqrt{170} = \\sqrt{170}$ square units.",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.5.5",
+    "12.3.5.4"
+   ],
+   "question": "Sketch the region on the Argand diagram whose points satisfy $$|z - \\overline{z}| \\le 2 \\quad\\text{and}\\quad -\\frac{\\pi}{4} \\le \\arg(z) \\le \\frac{\\pi}{4}.$$",
+   "answer": "Let $z = x + iy$. Then $z - \\overline{z} = 2iy$, so $|z - \\overline{z}| \\le 2 \\iff |y| \\le 1$: the horizontal strip $-1 \\le \\text{Im}(z) \\le 1$.\n\n$-\\frac{\\pi}{4} \\le \\arg(z) \\le \\frac{\\pi}{4}$ is the sector between the rays $y = x$ and $y = -x$ for $x > 0$ (the origin excluded, since $\\arg 0$ is undefined).\n\nThe region is their intersection: bounded by the ray segments from $O$ to $(1, 1)$ and $(1, -1)$, then by the lines $\\text{Im}(z) = 1$ and $\\text{Im}(z) = -1$ for $\\text{Re}(z) \\ge 1$, extending infinitely to the right. Boundaries included, open circle at $O$.",
+   "answer_images": [
+    "assets/img/ext2-2026-north-sydney-boys/q11b-ans.png"
+   ]
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.12",
+    "12.1.2.3"
+   ],
+   "question": "Prove by contrapositive that if $n^2$ is even then $n$ is even (where $n$ is an integer).",
+   "answer": "The contrapositive is: if $n$ is odd, then $n^2$ is odd.\n\nLet $n = 2k + 1$, $k \\in \\mathbb{Z}$. Then $n^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1 = 2m + 1$ where $m = 2k^2 + 2k \\in \\mathbb{Z}$, so $n^2$ is odd.\n\nSince the contrapositive is true, the original statement is true: if $n^2$ is even then $n$ is even."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.3.6"
+   ],
+   "question": "Prove by contradiction that $\\sqrt{2} + \\sqrt{3} < \\sqrt{10}$.",
+   "answer": "Assume, for the sake of contradiction, that $\\sqrt{2} + \\sqrt{3} \\ge \\sqrt{10}$. Both sides are positive, so squaring:\n$$2 + 2\\sqrt{6} + 3 \\ge 10 \\;\\Rightarrow\\; 2\\sqrt{6} \\ge 5.$$\nSquaring again (both sides positive): $24 \\ge 25$, which is false.\n\nHence, by contradiction, $\\sqrt{2} + \\sqrt{3} < \\sqrt{10}$."
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.9",
+    "12.4.1.11"
+   ],
+   "question": "Find $$\\int \\frac{3x + 5}{x^2 + 2x + 4}\\,dx.$$",
+   "answer": "$$\\int \\frac{3x+5}{x^2+2x+4}\\,dx = \\frac{3}{2}\\int \\frac{2x+2}{x^2+2x+4}\\,dx + \\int \\frac{2}{(x+1)^2 + 3}\\,dx$$\n$$= \\frac{3}{2}\\ln\\left(x^2 + 2x + 4\\right) + \\frac{2}{\\sqrt{3}}\\tan^{-1}\\left(\\frac{x+1}{\\sqrt{3}}\\right) + C$$\n(no absolute value needed since $x^2 + 2x + 4 = (x+1)^2 + 3 > 0$)."
+  },
+  {
+   "ref": "Q11(f)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Evaluate $$\\int_0^1 x^3\\sqrt{1 - x^2}\\,dx.$$",
+   "answer": "Let $u = 1 - x^2$, $du = -2x\\,dx$, $x^2 = 1 - u$. When $x = 0$, $u = 1$; when $x = 1$, $u = 0$.\n$$\\int_0^1 x^3\\sqrt{1-x^2}\\,dx = \\int_1^0 (1 - u)\\sqrt{u}\\left(-\\frac{du}{2}\\right) = \\frac{1}{2}\\int_0^1 \\left(u^{1/2} - u^{3/2}\\right)du$$\n$$= \\frac{1}{2}\\left[\\frac{2}{3}u^{3/2} - \\frac{2}{5}u^{5/2}\\right]_0^1 = \\frac{1}{2}\\left(\\frac{2}{3} - \\frac{2}{5}\\right) = \\frac{2}{15}.$$"
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.5",
+    "12.5.1.1"
+   ],
+   "question": "A shot on a mini golf course must bounce off a wall to avoid an obstacle, as shown in the diagram (the ball starts at $S$, $2.5$ m from the wall, and the hole $H$ is $1.5$ m from the wall; the ball leaves $S$ at angle $\\alpha$ to the perpendicular from $S$ to the wall and bounces off the wall making equal angles $\\beta$ with it). The fairway surface provides a resistance proportional to $v^2$, giving acceleration $a = -kv^2$. The ball must reach the hole with a speed of $0.5\\ \\text{m s}^{-1}$ to go into the hole. A test roll shows that if the ball is hit at $4\\ \\text{m s}^{-1}$ then it slows to $2\\ \\text{m s}^{-1}$ after $2$ metres. The bounce off the wall does not affect the speed of the ball. Find $k$.",
+   "answer": "$v\\dfrac{dv}{dx} = -kv^2 \\Rightarrow \\dfrac{dv}{dx} = -kv \\Rightarrow \\displaystyle\\int_{v_0}^{v}\\frac{dv}{v} = \\int_0^x -k\\,dx \\Rightarrow \\ln\\frac{v}{v_0} = -kx.$\n\nWith $v_0 = 4$, $v = 2$ at $x = 2$: $\\ln\\frac{1}{2} = -2k$, so $k = \\dfrac{\\ln 2}{2}$.",
+   "images": [
+    "assets/img/ext2-2026-north-sydney-boys/q12a.png"
+   ]
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.5",
+    "12.5.4.3"
+   ],
+   "question": "A shot on a mini golf course must bounce off a wall to avoid an obstacle, as shown in the diagram (the ball starts at $S$, $2.5$ m from the wall, and the hole $H$ is $1.5$ m from the wall; the ball leaves $S$ at angle $\\alpha$ to the perpendicular from $S$ to the wall and bounces off the wall making equal angles $\\beta$ with it). The fairway surface provides a resistance proportional to $v^2$, giving acceleration $a = -kv^2$. The ball must reach the hole with a speed of $0.5\\ \\text{m s}^{-1}$ to go into the hole. A test roll shows that if the ball is hit at $4\\ \\text{m s}^{-1}$ then it slows to $2\\ \\text{m s}^{-1}$ after $2$ metres. The bounce off the wall does not affect the speed of the ball. It can be shown that $k = \\frac{\\ln 2}{2}$, so $\\ln\\frac{v}{v_0} = -kx$ where $v_0$ is the initial speed. Given $\\alpha = 60^\\circ$, find the speed at which the ball should be hit to go into the hole.",
+   "answer": "With $\\alpha = 60^\\circ$ the path makes angle $\\beta = 30^\\circ$ with the wall. Distance from $S$ to the wall: $\\dfrac{2.5}{\\cos 60^\\circ} = 5$ m; from the wall to $H$: $\\dfrac{1.5}{\\cos 60^\\circ} = 3$ m. Total path length $= 8$ m.\n\nWe need $v = 0.5$ when $x = 8$:\n$$\\ln\\frac{0.5}{v_0} = -\\frac{\\ln 2}{2}\\times 8 = \\ln 2^{-4} \\;\\Rightarrow\\; \\frac{0.5}{v_0} = \\frac{1}{16} \\;\\Rightarrow\\; v_0 = 8\\ \\text{m s}^{-1}.$$",
+   "images": [
+    "assets/img/ext2-2026-north-sydney-boys/q12a.png"
+   ]
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.5",
+    "12.3.1.13"
+   ],
+   "question": "Sketch the locus of $z$ if $w$ is purely imaginary, where $$w = \\frac{z - i}{z - 2}.$$",
+   "answer": "Let $z = x + iy$. $w$ is purely imaginary iff $\\text{Re}(w) = 0$ (and $w \\ne 0$), i.e. the vectors $z - i$ and $z - 2$ are perpendicular.\n$$w = \\frac{(z - i)\\overline{(z - 2)}}{|z - 2|^2}, \\qquad \\text{Re}\\left[(x + (y-1)i)\\big((x-2) - yi\\big)\\right] = x(x-2) + y(y-1).$$\nSo $x^2 - 2x + y^2 - y = 0$, i.e.\n$$(x - 1)^2 + \\left(y - \\tfrac{1}{2}\\right)^2 = \\frac{5}{4},$$\na circle with centre $\\left(1, \\frac{1}{2}\\right)$ and radius $\\frac{\\sqrt{5}}{2}$, which passes through $0$, $2$ and $i$.\n\nExclude $z = 2$ ($w$ undefined) and $z = i$ (gives $w = 0$, which is not purely imaginary).\n\n*Note: the source solution writes the right-hand side as $5$ instead of $\\frac{5}{4}$ in its final line (its sketch is correct).*",
+   "answer_images": [
+    "assets/img/ext2-2026-north-sydney-boys/q12b-ans.png"
+   ]
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.6",
+    "12.3.4.3"
+   ],
+   "question": "Given $$z = \\frac{\\sqrt{3} + i}{1 + i},$$ find the smallest positive integer $n$ such that $z^n$ is real, and hence find $z^n$ for this value of $n$.",
+   "answer": "$\\sqrt{3} + i = 2\\,\\text{cis}\\frac{\\pi}{6}$ and $1 + i = \\sqrt{2}\\,\\text{cis}\\frac{\\pi}{4}$, so\n$$z = \\frac{2}{\\sqrt{2}}\\,\\text{cis}\\left(\\frac{\\pi}{6} - \\frac{\\pi}{4}\\right) = \\sqrt{2}\\,\\text{cis}\\left(-\\frac{\\pi}{12}\\right).$$\nBy de Moivre, $z^n = 2^{n/2}\\,\\text{cis}\\left(-\\frac{n\\pi}{12}\\right)$, which is real iff $\\frac{n\\pi}{12}$ is a multiple of $\\pi$. The smallest positive $n$ is $n = 12$:\n$$z^{12} = (\\sqrt{2})^{12}\\,\\text{cis}(-\\pi) = 64 \\times (-1) = -64.$$"
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.8",
+    "12.5.1.2"
+   ],
+   "question": "A particle has acceleration $\\ddot{x} = -9x$. Given that when $\\dot{x} = 0$, $x = 4$, find the speed at $x = 2$.",
+   "answer": "$\\dfrac{d}{dx}\\left(\\dfrac{1}{2}v^2\\right) = -9x \\Rightarrow \\dfrac{v^2}{2} = -\\dfrac{9x^2}{2} + C.$\n\nAt $x = 4$, $v = 0$: $C = 72$. At $x = 2$: $\\dfrac{v^2}{2} = -18 + 72 = 54$, so $v^2 = 108$ and the speed is $\\sqrt{108} = 6\\sqrt{3}$.\n\n(Equivalently, SHM with $n = 3$, amplitude $4$: $v^2 = 9(16 - x^2) = 108$.)"
+  },
+  {
+   "ref": "Q12(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.4",
+    "12.3.4.3"
+   ],
+   "question": "Given $z = \\cos\\theta + i\\sin\\theta$, and by considering $z + z^{-1} = 2\\cos\\theta$, find the exact solutions to $$2z^4 - z^3 + 3z^2 - z + 2 = 0.$$ Answers should be given in the form $z = a + bi$.",
+   "answer": "$z = 0$ is not a root, so divide by $z^2$:\n$$2z^2 - z + 3 - z^{-1} + 2z^{-2} = 0 \\;\\Rightarrow\\; 2\\left(z^2 + z^{-2}\\right) - \\left(z + z^{-1}\\right) + 3 = 0.$$\nWith $z = \\text{cis}\\,\\theta$: $z + z^{-1} = 2\\cos\\theta$ and, by de Moivre, $z^2 + z^{-2} = 2\\cos 2\\theta$. So\n$$4\\cos 2\\theta - 2\\cos\\theta + 3 = 0 \\Rightarrow 4(2\\cos^2\\theta - 1) - 2\\cos\\theta + 3 = 0 \\Rightarrow 8\\cos^2\\theta - 2\\cos\\theta - 1 = 0$$\n$$(4\\cos\\theta + 1)(2\\cos\\theta - 1) = 0 \\Rightarrow \\cos\\theta = -\\tfrac{1}{4} \\text{ or } \\cos\\theta = \\tfrac{1}{2}.$$\n$\\cos\\theta = -\\frac{1}{4}$: $\\sin\\theta = \\pm\\frac{\\sqrt{15}}{4}$. $\\cos\\theta = \\frac{1}{2}$: $\\sin\\theta = \\pm\\frac{\\sqrt{3}}{2}$. The four (unit-modulus) roots of the quartic are\n$$z = -\\frac{1}{4} \\pm \\frac{\\sqrt{15}}{4}i, \\qquad z = \\frac{1}{2} \\pm \\frac{\\sqrt{3}}{2}i.$$"
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.15",
+    "12.4.1.6"
+   ],
+   "question": "Prove that $$\\int_a^b f(a + b - x)\\,dx = \\int_a^b f(x)\\,dx.$$",
+   "answer": "Let $u = a + b - x$, $du = -dx$. When $x = a$, $u = b$; when $x = b$, $u = a$.\n$$\\int_a^b f(a+b-x)\\,dx = \\int_b^a f(u)(-du) = \\int_a^b f(u)\\,du = \\int_a^b f(x)\\,dx.$$"
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.15",
+    "12.4.1.11"
+   ],
+   "question": "Using the result $\\displaystyle\\int_a^b f(a+b-x)\\,dx = \\int_a^b f(x)\\,dx$, evaluate $$\\int_{\\pi/6}^{\\pi/3} \\frac{1}{1 + \\sqrt{\\tan x}}\\,dx.$$",
+   "answer": "Let $I = \\displaystyle\\int_{\\pi/6}^{\\pi/3}\\frac{dx}{1 + \\sqrt{\\tan x}}$. Here $a + b = \\frac{\\pi}{2}$ and $\\tan\\left(\\frac{\\pi}{2} - x\\right) = \\cot x$, so\n$$I = \\int_{\\pi/6}^{\\pi/3}\\frac{dx}{1 + \\sqrt{\\cot x}} = \\int_{\\pi/6}^{\\pi/3}\\frac{\\sqrt{\\tan x}}{\\sqrt{\\tan x} + 1}\\,dx.$$\nAdding the two forms:\n$$2I = \\int_{\\pi/6}^{\\pi/3}\\frac{1 + \\sqrt{\\tan x}}{1 + \\sqrt{\\tan x}}\\,dx = \\frac{\\pi}{3} - \\frac{\\pi}{6} = \\frac{\\pi}{6} \\;\\Rightarrow\\; I = \\frac{\\pi}{12}.$$"
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.2.3"
+   ],
+   "question": "Prove there are no integers $a$ and $b$ such that $b^2 = 4a - 2$.",
+   "answer": "Assume, for contradiction, that integers $a, b$ satisfy $b^2 = 4a - 2 = 2(2a - 1)$. Then $b^2$ is even, so $b$ is even (if $b$ were odd, $b^2$ would be odd).\n\nLet $b = 2k$, $k \\in \\mathbb{Z}$. Then $4k^2 = 2(2a - 1) \\Rightarrow 2k^2 = 2a - 1$.\n\nThe left side is even and the right side is odd — a contradiction. Hence there are no integers $a, b$ with $b^2 = 4a - 2$."
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.7",
+    "12.4.1.8"
+   ],
+   "question": "Find $$\\int \\frac{x^2 + 1}{x^4 + 8x^2 + 12}\\,dx.$$",
+   "answer": "$x^4 + 8x^2 + 12 = (x^2 + 6)(x^2 + 2)$. Write\n$$\\frac{x^2+1}{(x^2+6)(x^2+2)} = \\frac{A}{x^2+6} + \\frac{B}{x^2+2} \\;\\Rightarrow\\; A(x^2+2) + B(x^2+6) = x^2 + 1.$$\nSo $A + B = 1$ and $2A + 6B = 1$, giving $B = -\\frac{1}{4}$, $A = \\frac{5}{4}$.\n$$\\int \\frac{x^2+1}{x^4+8x^2+12}\\,dx = \\frac{5}{4}\\int\\frac{dx}{x^2+6} - \\frac{1}{4}\\int\\frac{dx}{x^2+2} = \\frac{5}{4\\sqrt{6}}\\tan^{-1}\\frac{x}{\\sqrt{6}} - \\frac{1}{4\\sqrt{2}}\\tan^{-1}\\frac{x}{\\sqrt{2}} + C.$$"
+  },
+  {
+   "ref": "Q13(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "In the cuboid shown, $O$ is a vertex with $\\overrightarrow{OA} = \\mathbf{a}$, $\\overrightarrow{OB} = \\mathbf{b}$ and $\\mathbf{c}$ the vertical edge from $O$; $D$ is the vertex with $\\overrightarrow{OD} = \\mathbf{a} + \\mathbf{b}$, and $F$, $E$, $G$ are the top vertices above $A$, $D$, $B$ respectively. The point $P$ lies on $OE$ such that $|\\overrightarrow{OP}| : |\\overrightarrow{PE}| = m : n$, $m > n$. Find an expression for $\\overrightarrow{OP}$ in terms of $\\mathbf{a}$, $\\mathbf{b}$, $\\mathbf{c}$, $m$ and $n$.",
+   "answer": "$\\overrightarrow{OE} = \\mathbf{a} + \\mathbf{b} + \\mathbf{c}$, so $\\overrightarrow{OP} = \\dfrac{m}{m+n}\\overrightarrow{OE} = \\dfrac{m}{m+n}(\\mathbf{a} + \\mathbf{b} + \\mathbf{c})$.",
+   "images": [
+    "assets/img/ext2-2026-north-sydney-boys/q13d.png"
+   ]
+  },
+  {
+   "ref": "Q13(d)(ii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.1.3"
+   ],
+   "question": "In the cuboid shown, $O$ is a vertex with $\\overrightarrow{OA} = \\mathbf{a}$, $\\overrightarrow{OB} = \\mathbf{b}$ and $\\mathbf{c}$ the vertical edge from $O$; $D$ is the vertex with $\\overrightarrow{OD} = \\mathbf{a} + \\mathbf{b}$, and $F$, $E$, $G$ are the top vertices above $A$, $D$, $B$ respectively. The point $P$ lies on $OE$ such that $|\\overrightarrow{OP}| : |\\overrightarrow{PE}| = m : n$, $m > n$. Given $\\overrightarrow{OP} = \\frac{m}{m+n}(\\mathbf{a} + \\mathbf{b} + \\mathbf{c})$: when $BP$ is extended, it meets $FE$ at a point $Y$. Using vector methods, find the ratio $FY : YE$ in terms of $m$ and $n$.",
+   "answer": "Express $\\overrightarrow{OY}$ in two ways. Let $\\overrightarrow{FY} = \\lambda\\overrightarrow{FE} = \\lambda\\mathbf{b}$ ($0 < \\lambda < 1$) and $\\overrightarrow{BY} = k\\overrightarrow{BP}$ ($k > 1$).\n\nOn $FE$: $\\overrightarrow{OY} = \\mathbf{a} + \\mathbf{c} + \\lambda\\mathbf{b}$.\n\nOn line $BP$: $\\overrightarrow{OY} = \\mathbf{b} + k\\left(\\overrightarrow{OP} - \\mathbf{b}\\right) = \\dfrac{km}{m+n}\\mathbf{a} + \\left(\\dfrac{km}{m+n} + 1 - k\\right)\\mathbf{b} + \\dfrac{km}{m+n}\\mathbf{c}.$\n\nSince $\\mathbf{a}, \\mathbf{b}, \\mathbf{c}$ are linearly independent, equate coefficients:\n$$\\frac{km}{m+n} = 1 \\Rightarrow k = \\frac{m+n}{m}, \\qquad \\lambda = \\frac{km}{m+n} + 1 - k = 2 - \\frac{m+n}{m} = \\frac{m-n}{m}.$$\nSo $FY = \\dfrac{m-n}{m}FE$ and $YE = \\left(1 - \\dfrac{m-n}{m}\\right)FE = \\dfrac{n}{m}FE$. Therefore\n$$FY : YE = (m - n) : n.$$",
+   "images": [
+    "assets/img/ext2-2026-north-sydney-boys/q13d.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.7",
+    "12.2.3.8"
+   ],
+   "question": "Find a vector of length $3$ which is perpendicular to both $\\mathbf{a} = 2\\mathbf{i} + \\mathbf{j} + 2\\mathbf{k}$ and $\\mathbf{b} = 2\\mathbf{i} + 3\\mathbf{j} + 4\\mathbf{k}$.",
+   "answer": "Let $\\mathbf{v} = x\\mathbf{i} + y\\mathbf{j} + z\\mathbf{k}$ with $x^2 + y^2 + z^2 = 9$ and\n$$\\mathbf{v}\\cdot\\mathbf{a} = 2x + y + 2z = 0 \\quad (1), \\qquad \\mathbf{v}\\cdot\\mathbf{b} = 2x + 3y + 4z = 0 \\quad (2).$$\n$(2) - (1)$: $2y + 2z = 0 \\Rightarrow z = -y$. Into (1): $2x + y - 2y = 0 \\Rightarrow x = \\frac{y}{2}$.\n\nTake $x = 1$, $y = 2$, $z = -2$: length $\\sqrt{1 + 4 + 4} = 3$ ✓.\n\nSo $\\mathbf{v} = \\mathbf{i} + 2\\mathbf{j} - 2\\mathbf{k}$ (or its negative $-\\mathbf{i} - 2\\mathbf{j} + 2\\mathbf{k}$).",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.4",
+    "12.5.3.1"
+   ],
+   "question": "A drag car of mass $M$ crosses the finish line at the end of its run and the driver immediately applies the brakes, which provide a constant frictional force of $\\frac{1}{5}M$ newtons. Ten seconds after crossing the line, the driver deploys the braking parachute, which provides an additional resistive force of $\\frac{1}{90}Mv^2$ newtons. The car is travelling at $75\\ \\text{m s}^{-1}$ when it crosses the finish line. Determine how far the car has travelled when the parachute is deployed, and what its velocity is at that point.",
+   "answer": "For the first 10 s: $M\\dfrac{dv}{dt} = -\\dfrac{1}{5}M \\Rightarrow \\dfrac{dv}{dt} = -\\dfrac{1}{5}$, so $v = 75 - \\dfrac{t}{5}$.\n\nAt $t = 10$: $v = 75 - 2 = 73\\ \\text{m s}^{-1}$.\n\n$x = \\displaystyle\\int_0^{10}\\left(75 - \\frac{t}{5}\\right)dt = \\left[75t - \\frac{t^2}{10}\\right]_0^{10} = 750 - 10 = 740$ m.\n\nThe car has travelled $740$ m and is moving at $73\\ \\text{m s}^{-1}$ when the parachute is deployed."
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.5",
+    "12.5.4.3"
+   ],
+   "question": "A drag car of mass $M$ crosses the finish line at the end of its run and the driver immediately applies the brakes, which provide a constant frictional force of $\\frac{1}{5}M$ newtons. Ten seconds after crossing the line, the driver deploys the braking parachute, which provides an additional resistive force of $\\frac{1}{90}Mv^2$ newtons. The car is travelling at $75\\ \\text{m s}^{-1}$ when it crosses the finish line. The parachute is deployed $740$ m past the finish line, when the car's speed is $73\\ \\text{m s}^{-1}$. Find the distance from the finish line when the car comes to rest, answering to the nearest metre.",
+   "answer": "After deployment: $Mv\\dfrac{dv}{dx} = -\\left(\\dfrac{1}{5}M + \\dfrac{1}{90}Mv^2\\right) \\Rightarrow v\\dfrac{dv}{dx} = -\\dfrac{18 + v^2}{90}.$\n\nMeasuring $x$ from the deployment point:\n$$\\int_0^x dx = -45\\int_{73}^{0}\\frac{2v}{18 + v^2}\\,dv \\;\\Rightarrow\\; x = 45\\ln\\frac{18 + 73^2}{18} = 45\\ln\\frac{5347}{18} \\approx 256.2\\ \\text{m}.$$\nTotal distance from the finish line $= 740 + 256.2 \\approx 996$ m (nearest metre)."
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.10",
+    "12.2.1.12"
+   ],
+   "question": "Two particles travel according to trajectories defined by\n$$\\mathbf{r}_1(t) = (t^2 + t)\\mathbf{i} + (3t - 1)\\mathbf{j} + (t^2 - t + 2)\\mathbf{k}$$\n$$\\mathbf{r}_2(t) = (4t - 2)\\mathbf{i} + (t^2 + t)\\mathbf{j} + (3t - 1)\\mathbf{k}$$\nDetermine if the particles will ever collide, and if so, find the point of collision.",
+   "answer": "A collision requires one value of $t$ at which all three components agree.\n\n$\\mathbf{i}$: $t^2 + t = 4t - 2 \\Rightarrow t^2 - 3t + 2 = 0 \\Rightarrow t = 1$ or $t = 2$.\n\n$\\mathbf{j}$: $3t - 1 = t^2 + t \\Rightarrow t^2 - 2t + 1 = 0 \\Rightarrow t = 1$.\n\n$\\mathbf{k}$ at $t = 1$: $1 - 1 + 2 = 2$ and $3 - 1 = 2$ ✓.\n\nSo the particles collide at $t = 1$, at the point $(2, 2, 2)$, i.e. $2\\mathbf{i} + 2\\mathbf{j} + 2\\mathbf{k}$."
+  },
+  {
+   "ref": "Q14(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.15"
+   ],
+   "question": "Evaluate $$\\lim_{a\\to\\infty}\\int_0^a \\frac{1}{1 + x^2}\\,dx.$$",
+   "answer": "$\\displaystyle\\lim_{a\\to\\infty}\\int_0^a\\frac{dx}{1+x^2} = \\lim_{a\\to\\infty}\\left[\\tan^{-1}x\\right]_0^a = \\lim_{a\\to\\infty}\\tan^{-1}a = \\frac{\\pi}{2}$, since $y = \\frac{\\pi}{2}$ is the horizontal asymptote of $y = \\tan^{-1}x$."
+  },
+  {
+   "ref": "Q14(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.5",
+    "12.4.1.6",
+    "12.4.1.15"
+   ],
+   "question": "The orbital path of a spaceship can be expressed using\n$$I = \\int_0^\\pi \\frac{d\\theta}{1 + e\\cos\\theta},$$\nwhere $0 < e < 1$ represents the eccentricity of the orbit. By considering $t = \\tan\\frac{\\theta}{2}$ or otherwise, evaluate $I$. (You may use $\\displaystyle\\lim_{a\\to\\infty}\\int_0^a \\frac{dx}{1+x^2} = \\frac{\\pi}{2}$.)",
+   "answer": "Let $t = \\tan\\frac{\\theta}{2}$: $\\cos\\theta = \\dfrac{1 - t^2}{1 + t^2}$, $\\dfrac{dt}{d\\theta} = \\dfrac{1}{2}\\sec^2\\dfrac{\\theta}{2} = \\dfrac{1 + t^2}{2}$, so $d\\theta = \\dfrac{2\\,dt}{1 + t^2}$. When $\\theta = 0$, $t = 0$; as $\\theta \\to \\pi^-$, $t \\to \\infty$.\n$$I = \\int_0^\\infty \\frac{1}{1 + e\\frac{1-t^2}{1+t^2}}\\cdot\\frac{2\\,dt}{1+t^2} = \\int_0^\\infty\\frac{2\\,dt}{(1-e)t^2 + (1+e)} = \\frac{2}{1-e}\\int_0^\\infty\\frac{dt}{t^2 + \\frac{1+e}{1-e}}$$\n$$= \\frac{2}{1-e}\\sqrt{\\frac{1-e}{1+e}}\\lim_{a\\to\\infty}\\left[\\tan^{-1}\\left(t\\sqrt{\\frac{1-e}{1+e}}\\right)\\right]_0^a = \\frac{2}{\\sqrt{(1-e)(1+e)}}\\cdot\\frac{\\pi}{2} = \\frac{\\pi}{\\sqrt{1 - e^2}}.$$"
+  },
+  {
+   "ref": "Q15(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14",
+    "12.4.1.13"
+   ],
+   "question": "Define, for $n \\ge 0$, $$I_n = \\int_0^1 \\frac{x^n}{(x+1)^2}\\,dx.$$ For $n \\ge 2$, show that $$I_n = \\frac{1}{2(n-1)} - \\frac{n}{n-1}I_{n-1}.$$",
+   "answer": "Integrate by parts with $u = x^n$, $dv = \\dfrac{dx}{(x+1)^2}$, so $du = nx^{n-1}dx$, $v = -\\dfrac{1}{x+1}$:\n$$I_n = \\left[-\\frac{x^n}{x+1}\\right]_0^1 + n\\int_0^1\\frac{x^{n-1}}{x+1}\\,dx = -\\frac{1}{2} + n\\int_0^1\\frac{x^{n-1}(x+1)}{(x+1)^2}\\,dx$$\n$$= -\\frac{1}{2} + n\\int_0^1\\frac{x^n + x^{n-1}}{(x+1)^2}\\,dx = -\\frac{1}{2} + nI_n + nI_{n-1}.$$\nSo $(1 - n)I_n = -\\frac{1}{2} + nI_{n-1}$, and dividing by $1 - n$ (with $n \\ge 2$):\n$$I_n = \\frac{1}{2(n-1)} - \\frac{n}{n-1}I_{n-1}.$$"
+  },
+  {
+   "ref": "Q15(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14",
+    "12.4.1.11"
+   ],
+   "question": "Define, for $n \\ge 0$, $$I_n = \\int_0^1 \\frac{x^n}{(x+1)^2}\\,dx.$$ Using $I_n = \\dfrac{1}{2(n-1)} - \\dfrac{n}{n-1}I_{n-1}$ for $n \\ge 2$, find $$\\int_0^1\\frac{x^3}{(x+1)^2}\\,dx.$$",
+   "answer": "$$I_1 = \\int_0^1\\frac{x}{(x+1)^2}\\,dx = \\int_0^1\\left(\\frac{1}{x+1} - \\frac{1}{(x+1)^2}\\right)dx = \\left[\\ln(x+1) + \\frac{1}{x+1}\\right]_0^1 = \\ln 2 + \\frac{1}{2} - 1 = \\ln 2 - \\frac{1}{2}.$$\n$$I_2 = \\frac{1}{2} - 2I_1 = \\frac{1}{2} - 2\\ln 2 + 1 = \\frac{3}{2} - 2\\ln 2.$$\n$$I_3 = \\frac{1}{4} - \\frac{3}{2}I_2 = \\frac{1}{4} - \\frac{9}{4} + 3\\ln 2 = 3\\ln 2 - 2.$$"
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.18",
+    "12.2.1.17"
+   ],
+   "question": "A cyclic quadrilateral (all 4 vertices lie on a circle) lies in the plane $x = 4$ and has vertices $P(4, 4, 3)$, $Q(4, 3, -4)$, $R(4, -4, 3)$ and $S(4, -3, 4)$. Let $C(x, y, z)$ be the centre of a sphere which passes through $P$, $Q$, $R$ and $S$. Given the radius of the sphere is $\\sqrt{34}$, find all possible positions of $C$.",
+   "answer": "$|\\overrightarrow{PC}| = |\\overrightarrow{QC}| = |\\overrightarrow{RC}| = |\\overrightarrow{SC}| = \\sqrt{34}$.\n\n$|PC| = |RC|$: $(x-4)^2 + (y-4)^2 + (z-3)^2 = (x-4)^2 + (y+4)^2 + (z-3)^2 \\Rightarrow (y-4)^2 = (y+4)^2 \\Rightarrow y = 0$.\n\n$|PC| = |SC|$ with $y = 0$: $16 + (z-3)^2 = 9 + (z-4)^2 \\Rightarrow 16 - 6z + 9 = 9 - 8z + 16 \\Rightarrow z = 0$.\n\n(Check $Q$: $(x-4)^2 + 9 + 16 = (x-4)^2 + 25$, same as for $P$ ✓.)\n\n$|PC|^2 = 34$: $(x-4)^2 + 16 + 9 = 34 \\Rightarrow (x-4)^2 = 9 \\Rightarrow x = 1$ or $x = 7$.\n\nSo $C = (1, 0, 0)$ or $C = (7, 0, 0)$."
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.17"
+   ],
+   "question": "A cyclic quadrilateral (all 4 vertices lie on a circle) lies in the plane $x = 4$ and has vertices $P(4, 4, 3)$, $Q(4, 3, -4)$, $R(4, -4, 3)$ and $S(4, -3, 4)$. A sphere of radius $\\sqrt{34}$ passing through $P$, $Q$, $R$ and $S$ has centre $(1, 0, 0)$ or $(7, 0, 0)$. Write down the vector equation of each possible sphere $S_k$ in the form $|\\mathbf{r} - \\mathbf{c}| = r$.",
+   "answer": "$$\\left|\\mathbf{r} - \\begin{pmatrix}1\\\\0\\\\0\\end{pmatrix}\\right| = \\sqrt{34} \\qquad\\text{or}\\qquad \\left|\\mathbf{r} - \\begin{pmatrix}7\\\\0\\\\0\\end{pmatrix}\\right| = \\sqrt{34}.$$"
+  },
+  {
+   "ref": "Q15(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.18",
+    "12.2.1.3"
+   ],
+   "question": "A cyclic quadrilateral (all 4 vertices lie on a circle) lies in the plane $x = 4$ and has vertices $P(4, 4, 3)$, $Q(4, 3, -4)$, $R(4, -4, 3)$ and $S(4, -3, 4)$. The two possible spheres through these points are $\\left|\\mathbf{r} - (1,0,0)\\right| = \\sqrt{34}$ and $\\left|\\mathbf{r} - (7,0,0)\\right| = \\sqrt{34}$. The line $l$, with direction vector $\\mathbf{i}$, passes through $P$. Find the length of the chord that $l$ cuts from each sphere.",
+   "answer": "$l$: $\\mathbf{r} = \\begin{pmatrix}4\\\\4\\\\3\\end{pmatrix} + \\lambda\\begin{pmatrix}1\\\\0\\\\0\\end{pmatrix}$, i.e. points $(4 + \\lambda, 4, 3)$.\n\nSphere centre $(1,0,0)$: $(3 + \\lambda)^2 + 16 + 9 = 34 \\Rightarrow (3+\\lambda)^2 = 9 \\Rightarrow \\lambda = 0$ or $\\lambda = -6$.\n\nSphere centre $(7,0,0)$: $(\\lambda - 3)^2 + 25 = 34 \\Rightarrow \\lambda = 0$ or $\\lambda = 6$.\n\nSince the direction vector $\\mathbf{i}$ is a unit vector, each chord has length $6$ units. (This is expected: $l$ is parallel to the line joining the two centres, and the spheres are reflections of each other in the plane $x = 4$.)\n\n*Note: the source solution gives $\\lambda = 0$ or $6$ for the first sphere (should be $-6$); the chord length $6$ is unaffected.*"
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.3",
+    "12.1.3.1"
+   ],
+   "question": "If $k$ is an integer where $k \\ge 3$, show that $$\\frac{1}{(k-1)k(k+1)} > \\frac{1}{k^3}.$$",
+   "answer": "For $k \\ge 3$ both denominators are positive, so it suffices to show $(k-1)k(k+1) < k^3$.\n\n$(k-1)k(k+1) - k^3 = k(k^2 - 1) - k^3 = -k < 0$.\n\nHence $(k-1)k(k+1) < k^3$, and taking reciprocals of positive numbers, $\\dfrac{1}{(k-1)k(k+1)} > \\dfrac{1}{k^3}$."
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.4.1.7"
+   ],
+   "question": "Given that, for integers $k \\ge 3$, $\\dfrac{1}{(k-1)k(k+1)} > \\dfrac{1}{k^3}$, and that\n$$S_n = \\frac{1}{3^3} + \\frac{1}{4^3} + \\frac{1}{5^3} + \\cdots + \\frac{1}{n^3},$$\nprove that $S_n < \\dfrac{1}{12}$.",
+   "answer": "Partial fractions: $\\dfrac{1}{(k-1)k(k+1)} = \\dfrac{1}{2}\\left(\\dfrac{1}{(k-1)k} - \\dfrac{1}{k(k+1)}\\right)$ (check: $\\frac{(k+1) - (k-1)}{2(k-1)k(k+1)} = \\frac{1}{(k-1)k(k+1)}$).\n\nSo\n$$S_n = \\sum_{k=3}^{n}\\frac{1}{k^3} < \\sum_{k=3}^{n}\\frac{1}{2}\\left(\\frac{1}{(k-1)k} - \\frac{1}{k(k+1)}\\right) = \\frac{1}{2}\\left(\\frac{1}{2\\times 3} - \\frac{1}{n(n+1)}\\right)$$\n(the sum telescopes). Since $\\frac{1}{n(n+1)} > 0$,\n$$S_n < \\frac{1}{2}\\cdot\\frac{1}{6} = \\frac{1}{12}.$$"
+  },
+  {
+   "ref": "Q16(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.3",
+    "12.1.3.1"
+   ],
+   "question": "Prove that for $k \\in \\mathbb{R}^+$, $$\\frac{2}{\\sqrt{k+1} + \\sqrt{k}} < \\frac{1}{\\sqrt{k}}.$$",
+   "answer": "For $k > 0$, $\\sqrt{k+1} > \\sqrt{k}$, so $\\sqrt{k+1} + \\sqrt{k} > 2\\sqrt{k} > 0$. Taking reciprocals of positive numbers:\n$$\\frac{1}{\\sqrt{k+1} + \\sqrt{k}} < \\frac{1}{2\\sqrt{k}} \\;\\Rightarrow\\; \\frac{2}{\\sqrt{k+1} + \\sqrt{k}} < \\frac{1}{\\sqrt{k}}.$$\n(Alternatively, as in the source solution: rationalising, the LHS equals $2\\sqrt{k+1} - 2\\sqrt{k}$; assuming $2\\sqrt{k+1} - 2\\sqrt{k} \\ge \\frac{1}{\\sqrt{k}}$ and multiplying by $\\sqrt{k}$ then squaring gives $4k^2 + 4k \\ge 4k^2 + 4k + 1$, a contradiction.)"
+  },
+  {
+   "ref": "Q16(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.1.3.3"
+   ],
+   "question": "Given that for $k > 0$, $$\\frac{2}{\\sqrt{k+1} + \\sqrt{k}} = 2\\left(\\sqrt{k+1} - \\sqrt{k}\\right) < \\frac{1}{\\sqrt{k}},$$ prove that $$132 < 1 + \\frac{1}{\\sqrt{2}} + \\frac{1}{\\sqrt{3}} + \\cdots + \\frac{1}{\\sqrt{4489}} < 133.$$",
+   "answer": "**Lower bound.** Summing $\\frac{1}{\\sqrt{k}} > 2(\\sqrt{k+1} - \\sqrt{k})$ for $k = 1, 2, \\ldots, 4489$ (telescoping):\n$$\\sum_{k=1}^{4489}\\frac{1}{\\sqrt{k}} > 2\\left(\\sqrt{4490} - 1\\right) = 2(67.007\\ldots) - 2 > 132.$$\n\n**Upper bound.** For $k \\ge 2$, $2\\sqrt{k} > \\sqrt{k} + \\sqrt{k-1}$, so\n$$\\frac{1}{\\sqrt{k}} < \\frac{2}{\\sqrt{k} + \\sqrt{k-1}} = 2\\left(\\sqrt{k} - \\sqrt{k-1}\\right).$$\nSumming for $k = 2, \\ldots, 4489$:\n$$\\frac{1}{\\sqrt{2}} + \\cdots + \\frac{1}{\\sqrt{4489}} < 2\\left(\\sqrt{4489} - 1\\right) = 2(67 - 1) = 132.$$\nAdding $1$: $1 + \\frac{1}{\\sqrt{2}} + \\cdots + \\frac{1}{\\sqrt{4489}} < 133$.\n\nHence $132 < 1 + \\frac{1}{\\sqrt{2}} + \\cdots + \\frac{1}{\\sqrt{4489}} < 133$."
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.6.2",
+    "12.5.6.1"
+   ],
+   "question": "A fairground game requires a player to kick a ball over a horizontal bar. The bar is positioned between two vertical goal posts and is moving vertically in simple harmonic motion with an amplitude of $1$ m about a centre $5$ m above the ground, with a period of $4$ seconds. (The bar's motion is mechanically powered, so air resistance can be ignored for the bar.)\n\nThe player stands on the ground at a horizontal distance $d = 15$ m from the goalposts, in line with the centre of the bar, and aims to kick the ball directly over the centre of the bar.\n\nFor the ball, air resistance is proportional to velocity, giving displacement equations\n$$x(t) = \\frac{U_x}{k}\\left(1 - e^{-kt}\\right), \\qquad y(t) = -\\frac{g}{k}t + \\frac{1}{k}\\left(U_y + \\frac{g}{k}\\right)\\left(1 - e^{-kt}\\right),$$\nwhere $U_x$ and $U_y$ are the initial horizontal and vertical velocities, $g = 10\\ \\text{m s}^{-2}$ and $k = \\ln 2$. The ball is kicked at an initial speed of $24\\ \\text{m s}^{-1}$ at an angle $\\alpha = 30^\\circ$ to the horizontal. Show that the ball travels $15$ metres horizontally, correct to the nearest metre, after $1$ second, and find the height of the ball at this time, correct to two decimal places.",
+   "answer": "$U_x = 24\\cos 30^\\circ = 12\\sqrt{3}$, $U_y = 24\\sin 30^\\circ = 12$, and $e^{-\\ln 2} = \\frac{1}{2}$.\n$$x(1) = \\frac{12\\sqrt{3}}{\\ln 2}\\left(1 - \\frac{1}{2}\\right) = \\frac{6\\sqrt{3}}{\\ln 2} \\approx 14.99 \\approx 15\\ \\text{m}.$$\n$$y(1) = -\\frac{10}{\\ln 2} + \\frac{1}{\\ln 2}\\left(12 + \\frac{10}{\\ln 2}\\right)\\left(1 - \\frac{1}{2}\\right) \\approx 4.636 \\approx 4.64\\ \\text{m}.$$",
+   "images": [
+    "assets/img/ext2-2026-north-sydney-boys/q16b.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.2.10",
+    "12.5.2.9",
+    "12.5.6.2"
+   ],
+   "question": "A fairground game requires a player to kick a ball over a horizontal bar. The bar is positioned between two vertical goal posts and is moving vertically in simple harmonic motion with an amplitude of $1$ m about a centre $5$ m above the ground, with a period of $4$ seconds. (The bar's motion is mechanically powered, so air resistance can be ignored for the bar.)\n\nThe player stands on the ground at a horizontal distance $d = 15$ m from the goalposts, in line with the centre of the bar, and aims to kick the ball directly over the centre of the bar.\n\nFor the ball, air resistance is proportional to velocity, giving displacement equations\n$$x(t) = \\frac{U_x}{k}\\left(1 - e^{-kt}\\right), \\qquad y(t) = -\\frac{g}{k}t + \\frac{1}{k}\\left(U_y + \\frac{g}{k}\\right)\\left(1 - e^{-kt}\\right),$$\nwhere $U_x$ and $U_y$ are the initial horizontal and vertical velocities, $g = 10\\ \\text{m s}^{-2}$ and $k = \\ln 2$. The ball is kicked at an initial speed of $24\\ \\text{m s}^{-1}$ at an angle $\\alpha = 30^\\circ$ to the horizontal. The ball reaches the goalposts (15 m away) after $1$ second, at a height of $4.64$ m. The crossbar is at its centre of motion and moving upwards when $t = 0$. Find the time(s) $t$ during the first $10$ seconds at which the ball should be kicked in order to pass over the crossbar. Answer to two decimal places.",
+   "answer": "Bar: amplitude $1$, centre $5$, period $\\frac{2\\pi}{n} = 4 \\Rightarrow n = \\frac{\\pi}{2}$; at the centre moving up at $t = 0$, so its height is\n$$h(t) = 5 + \\sin\\left(\\frac{\\pi t}{2}\\right).$$\nIf the ball is kicked at time $t$ it reaches the bar at time $t + 1$ at height $4.64$ m, so we need $h(t+1) < 4.64$:\n$$\\sin\\left(\\frac{\\pi}{2}(t+1)\\right) < -0.36.$$\n$\\sin^{-1}0.36 \\approx 0.3683$, so (in the first cycle)\n$$\\pi + 0.3683 < \\frac{\\pi}{2}(t+1) < 2\\pi - 0.3683 \\;\\Rightarrow\\; 2.2345 < t + 1 < 3.7655 \\;\\Rightarrow\\; 1.23 < t < 2.77.$$\nAdding multiples of the period $4$ s and restricting to $0 \\le t \\le 10$:\n$$1.23 < t < 2.77, \\qquad 5.23 < t < 6.77, \\qquad 9.23 < t \\le 10.$$\n(Using the unrounded height $4.636$ m shifts the endpoints by about $0.01$ s, e.g. $1.24 < t < 2.76$.)",
+   "images": [
+    "assets/img/ext2-2026-north-sydney-boys/q16b.png"
+   ]
+  },
+  {
+   "ref": "Q16(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.5",
+    "12.3.4.12"
+   ],
+   "question": "Show that if $\\omega$ is a non-real root of $z^3 = 1$, then $1 + \\omega + \\omega^2 = 0$.",
+   "answer": "$\\omega^3 - 1 = 0 \\Rightarrow (\\omega - 1)(\\omega^2 + \\omega + 1) = 0$. Since $\\omega$ is non-real, $\\omega \\ne 1$, so $\\omega^2 + \\omega + 1 = 0$."
+  },
+  {
+   "ref": "Q16(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.3.4.12",
+    "12.3.4.5"
+   ],
+   "question": "Let $\\omega$ be a non-real root of $z^3 = 1$, so that $1 + \\omega + \\omega^2 = 0$. Hence or otherwise, evaluate $$\\binom{2026}{0} + \\binom{2026}{3} + \\binom{2026}{6} + \\cdots + \\binom{2026}{2025}.$$",
+   "answer": "Expand with the binomial theorem:\n$$(1+1)^{2026} = \\sum_{r=0}^{2026}\\binom{2026}{r}, \\quad (1+\\omega)^{2026} = \\sum_{r=0}^{2026}\\binom{2026}{r}\\omega^r, \\quad (1+\\omega^2)^{2026} = \\sum_{r=0}^{2026}\\binom{2026}{r}\\omega^{2r}.$$\nAdding, the coefficient of $\\binom{2026}{r}$ is $1 + \\omega^r + \\omega^{2r}$, which is $3$ if $3 \\mid r$ and $1 + \\omega + \\omega^2 = 0$ otherwise (as $\\omega^3 = 1$). So\n$$3\\left[\\binom{2026}{0} + \\binom{2026}{3} + \\cdots + \\binom{2026}{2025}\\right] = 2^{2026} + (1+\\omega)^{2026} + (1+\\omega^2)^{2026}.$$\nNow $1 + \\omega = -\\omega^2$ and $1 + \\omega^2 = -\\omega$, so\n$$(1+\\omega)^{2026} = \\omega^{4052} = \\omega^{2}\\ (4052 = 3\\cdot 1350 + 2), \\qquad (1+\\omega^2)^{2026} = \\omega^{2026} = \\omega\\ (2026 = 3\\cdot 675 + 1).$$\nHence the right side is $2^{2026} + \\omega^2 + \\omega = 2^{2026} - 1$, and\n$$\\binom{2026}{0} + \\binom{2026}{3} + \\cdots + \\binom{2026}{2025} = \\frac{2^{2026} - 1}{3}.$$"
+  }
+ ]
+}

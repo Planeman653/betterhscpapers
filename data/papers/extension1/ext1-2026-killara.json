@@ -1,0 +1,506 @@
+{
+ "id": "ext1-2026-killara",
+ "course": "extension1",
+ "school": "Killara",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "Killara 2026 w. sol"
+ },
+ "indexed": "2026-11-15",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q13(d)(i)",
+   "reason": "Not in 2024 syllabus: sample proportions"
+  },
+  {
+   "ref": "Q13(d)(ii)",
+   "reason": "Not in 2024 syllabus: sample proportions (normal approximation)"
+  },
+  {
+   "ref": "Q14(a)",
+   "reason": "Not in 2024 syllabus: pigeonhole principle"
+  },
+  {
+   "ref": "Q14(b)",
+   "reason": "Not in 2024 syllabus: normal approximation to the binomial"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.2.7"
+   ],
+   "question": "Consider the function $f(x) = e^{x} - 1$ and its inverse function $f^{-1}(x)$. State the domain of the inverse function.",
+   "options": [
+    "$x \\in (-\\infty, \\infty)$",
+    "$x \\in (0, \\infty)$",
+    "$x \\in (-1, \\infty)$",
+    "$x \\in (-\\infty, -1) \\cup (-1, \\infty)$"
+   ],
+   "correct": "C",
+   "answer": "The domain of $f^{-1}$ is the range of $f$. Since $e^{x} > 0$, $f(x) = e^{x} - 1 > -1$, so the domain of $f^{-1}$ is $(-1, \\infty)$."
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.2.5"
+   ],
+   "question": "The polynomial $P(x) = x^3 - 4x^2 - 6x + k$ gives a remainder of 16 when divided by $x - 2$. What is the value of $k$?",
+   "options": [
+    "4",
+    "12",
+    "20",
+    "36"
+   ],
+   "correct": "D",
+   "answer": "By the remainder theorem, $P(2) = 16$: $8 - 16 - 12 + k = 16$, so $k = 36$."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.1.3"
+   ],
+   "question": "The diagrams below show $y = f(x)$ (left) and $y = g(x)$ (right) respectively. The function $g(x)$ may be written in terms of $f(x)$. Which is correct?",
+   "options": [
+    "$g(x) = f(|x|)$",
+    "$g(x) = f(-x)$",
+    "$g(x) = f^{-1}(x)$",
+    "$g(x) = f^{-1}(|x|)$"
+   ],
+   "correct": "A",
+   "answer": "For $x \\ge 0$ the graph of $g$ is identical to $f$, and for $x < 0$ it is the reflection of the right-hand branch in the $y$-axis. That is the graph of $y = f(|x|)$.",
+   "images": [
+    "assets/img/ext1-2026-killara/q3.png"
+   ]
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "The coefficient of the $x^2$ term in the expansion of $(2x + 1)^n$ is 60. What is the value of $n$?",
+   "options": [
+    "2",
+    "4",
+    "6",
+    "8"
+   ],
+   "correct": "C",
+   "answer": "The $x^2$ term is $\\binom{n}{2}(2x)^2$, so $4\\binom{n}{2} = 60$, $\\binom{n}{2} = \\dfrac{n(n-1)}{2} = 15$, giving $n = 6$."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "Which of the following is equal to $\\displaystyle\\int \\frac{4}{\\sqrt{9 - 4x^2}}\\,dx$?",
+   "options": [
+    "$2\\sin^{-1}\\left(\\dfrac{2x}{3}\\right) + C$",
+    "$4\\sin^{-1}\\left(\\dfrac{2x}{3}\\right) + C$",
+    "$2\\sin^{-1}\\left(\\dfrac{4x}{9}\\right) + C$",
+    "$4\\sin^{-1}\\left(\\dfrac{4x}{9}\\right) + C$"
+   ],
+   "correct": "A",
+   "answer": "$$\\int \\frac{4}{\\sqrt{9 - 4x^2}}\\,dx = \\int \\frac{4}{2\\sqrt{\\frac{9}{4} - x^2}}\\,dx = 2\\sin^{-1}\\left(\\frac{x}{3/2}\\right) + C = 2\\sin^{-1}\\left(\\frac{2x}{3}\\right) + C.$$"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.9",
+    "12.6.2.6"
+   ],
+   "question": "It is known that 36% of the customers of a certain supermarket bring their own shopping bags. There are 3 cashiers and each cashier has 5 customers in queue. What is the probability that, among all the customers in queue, at least 3 of them have brought their own shopping bag?",
+   "options": [
+    "0.0528",
+    "0.2501",
+    "0.7491",
+    "0.9472"
+   ],
+   "correct": "D",
+   "answer": "There are 15 customers, so $X \\sim \\text{Bin}(15, 0.36)$.\n$$P(X \\ge 3) = 1 - \\left[0.64^{15} + 15(0.36)(0.64)^{14} + \\binom{15}{2}(0.36)^2(0.64)^{13}\\right] \\approx 1 - 0.0528 = 0.9472.$$"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.9"
+   ],
+   "question": "Which of the following is a possible differential equation for the given slope field?",
+   "options": [
+    "$\\dfrac{dy}{dx} = \\dfrac{y^3 - 1}{1 - x^2}$",
+    "$\\dfrac{dy}{dx} = \\dfrac{y^3 - 1}{x^2 - 1}$",
+    "$\\dfrac{dy}{dx} = \\dfrac{x^2 - 1}{y^3 - 1}$",
+    "$\\dfrac{dy}{dx} = \\dfrac{1 - x^2}{y^3 - 1}$"
+   ],
+   "correct": "D",
+   "answer": "The slopes are vertical along $y = 1$ (so $y^3 - 1$ is in the denominator), horizontal at $x = \\pm 1$, and close to zero for large $|y|$: this rules out A and B. At $(0, 2)$ the slope is positive and small: D gives $\\frac{1}{7} > 0$ while C gives $-\\frac{1}{7}$. So D.",
+   "images": [
+    "assets/img/ext1-2026-killara/q7.png"
+   ]
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.11"
+   ],
+   "question": "Alice, Beatrice, Charles, David and six other people are to be seated at a round table. Alice and Beatrice must be seated directly opposite each other. Charles and David must also be seated directly opposite each other. How many distinct seating arrangements are possible?",
+   "options": [
+    "$4 \\times 6!$",
+    "$4 \\times 7!$",
+    "$8 \\times 6!$",
+    "$8 \\times 7!$"
+   ],
+   "correct": "C",
+   "answer": "Seat Alice first (fixing the rotation); Beatrice must take the seat opposite. Charles can take any of the remaining 8 seats, and David then takes the seat opposite him. The other 6 people fill the remaining 6 seats in $6!$ ways. Total $= 8 \\times 6!$."
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.4"
+   ],
+   "question": "Which of the following integrals is equal to zero?",
+   "options": [
+    "$\\displaystyle\\int_{-5}^{5} (|x| - 2)\\sin^{-1}(2x)\\,dx$",
+    "$\\displaystyle\\int_{-5}^{5} \\sqrt[3]{x}\\,\\sin^{-1}(3x)\\,dx$",
+    "$\\displaystyle\\int_{-5}^{5} (|x| - 2)\\cos^{-1}(2x)\\,dx$",
+    "$\\displaystyle\\int_{-5}^{5} \\sqrt[3]{x}\\,\\cos^{-1}(3x)\\,dx$"
+   ],
+   "correct": "A",
+   "answer": "$|x| - 2$ is even and $\\sin^{-1}(2x)$ is odd, so their product is odd and its integral over a symmetric interval is zero. In B the product of two odd functions is even; C and D involve $\\cos^{-1}$, which is neither odd nor even.\\n\\n*Note:* strictly, $\\sin^{-1}(2x)$ is only defined for $|x| \\le \\frac{1}{2}$, so the limits $\\pm 5$ are not valid; the intended answer (odd integrand) is A."
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.5",
+    "12.2.2.5"
+   ],
+   "question": "Let $\\mathbf{a}$ and $\\mathbf{b}$ be two different unit vectors such that $\\mathbf{a} + \\mathbf{b}$ is also a unit vector. What is the value of $|\\mathbf{a} - \\mathbf{b}|$?",
+   "options": [
+    "0",
+    "$\\dfrac{1}{\\sqrt{2}}$",
+    "$\\sqrt{3}$",
+    "$\\sqrt{5}$"
+   ],
+   "correct": "C",
+   "answer": "$|\\mathbf{a} + \\mathbf{b}|^2 = 1 + 2\\,\\mathbf{a}\\cdot\\mathbf{b} + 1 = 1$, so $\\mathbf{a}\\cdot\\mathbf{b} = -\\frac{1}{2}$. Then $|\\mathbf{a} - \\mathbf{b}|^2 = 1 - 2\\left(-\\frac{1}{2}\\right) + 1 = 3$, so $|\\mathbf{a} - \\mathbf{b}| = \\sqrt{3}$."
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.2.10",
+    "11.1.2.5"
+   ],
+   "question": "Consider the function $f(x) = (x - 4)^2 - 3$ for $x \\le 4$. Find the inverse function $f^{-1}(x)$.",
+   "answer": "Interchange $x$ and $y$:\n$$x = (y - 4)^2 - 3 \\implies (y - 4)^2 = x + 3 \\implies y = 4 \\pm \\sqrt{x + 3}.$$\nThe range of $f^{-1}$ is the domain of $f$, i.e. $y \\le 4$, so take the negative root:\n$$f^{-1}(x) = 4 - \\sqrt{x + 3}, \\quad x \\ge -3.$$"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.9",
+    "11.4.1.8"
+   ],
+   "question": "In how many ways can the letters of the word KILLARA be arranged so that the vowels are in alphabetical order, but not necessarily together?",
+   "answer": "The vowels are A, A, I, which must appear in the order A, A, I.\n\nChoose the 3 positions for the vowels: $\\binom{7}{3} = 35$ ways; the vowels fill them in exactly one way (alphabetical order).\nThe remaining letters K, L, L, R fill the other 4 positions in $\\dfrac{4!}{2!} = 12$ ways.\n\nTotal $= 35 \\times 12 = 420$.\n\n(Check: there are $\\frac{7!}{2!\\,2!} = 1260$ arrangements altogether, and the vowels A, A, I can appear in 3 distinguishable orders, only one of which is alphabetical: $1260 \\div 3 = 420$.)"
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.7"
+   ],
+   "question": "Differentiate $y = \\left(\\cos^{-1}(4x^2)\\right)^2$.",
+   "answer": "By the chain rule,\n$$\\frac{dy}{dx} = 2\\cos^{-1}(4x^2) \\times \\frac{-8x}{\\sqrt{1 - (4x^2)^2}} = -\\frac{16x\\cos^{-1}(4x^2)}{\\sqrt{1 - 16x^4}}.$$"
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.9",
+    "12.2.4.3"
+   ],
+   "question": "The acute angle between the vectors $\\mathbf{u}$ and $\\mathbf{v}$ is $60^\\circ$. The vector projection of $\\mathbf{u}$ onto $\\mathbf{v}$ is $4\\mathbf{i} - 3\\mathbf{j}$ and $|\\mathbf{v}| = 10$. Find $\\mathbf{v}$.",
+   "answer": "$\\text{proj}_{\\mathbf{v}}\\mathbf{u} = \\left(\\dfrac{\\mathbf{u}\\cdot\\mathbf{v}}{|\\mathbf{v}|^2}\\right)\\mathbf{v}$ is a scalar multiple of $\\mathbf{v}$, and since the angle is acute ($\\mathbf{u}\\cdot\\mathbf{v} > 0$) it points in the same direction as $\\mathbf{v}$.\n\n$|\\text{proj}_{\\mathbf{v}}\\mathbf{u}| = \\sqrt{4^2 + 3^2} = 5$, so $\\mathbf{v}$ is the vector in the same direction with magnitude 10:\n$$\\mathbf{v} = \\frac{10}{5}(4\\mathbf{i} - 3\\mathbf{j}) = 8\\mathbf{i} - 6\\mathbf{j}.$$"
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.3"
+   ],
+   "question": "Find $\\displaystyle\\int \\sin^2(3u + 1)\\,du$.",
+   "answer": "Using $\\sin^2\\theta = \\frac{1}{2}(1 - \\cos 2\\theta)$:\n$$\\int \\sin^2(3u + 1)\\,du = \\frac{1}{2}\\int \\left(1 - \\cos(6u + 2)\\right)du = \\frac{u}{2} - \\frac{1}{12}\\sin(6u + 2) + C.$$"
+  },
+  {
+   "ref": "Q11(f)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.6",
+    "12.2.1.2"
+   ],
+   "question": "In quadrilateral $OPQR$ shown below, $M$ lies on $QR$ so that $|\\overrightarrow{QM}| = 3|\\overrightarrow{MR}|$. Let $\\overrightarrow{OP} = \\mathbf{p}$, $\\overrightarrow{OQ} = \\mathbf{q}$ and $\\overrightarrow{OR} = \\mathbf{r}$. Express $\\overrightarrow{PR}$ in terms of $\\mathbf{p}$, $\\mathbf{q}$ and $\\mathbf{r}$.",
+   "answer": "$$\\overrightarrow{PR} = \\overrightarrow{OR} - \\overrightarrow{OP} = \\mathbf{r} - \\mathbf{p}.$$",
+   "images": [
+    "assets/img/ext1-2026-killara/q11f.png"
+   ]
+  },
+  {
+   "ref": "Q11(f)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.6",
+    "12.2.3.2"
+   ],
+   "question": "In quadrilateral $OPQR$ shown below, $M$ lies on $QR$ so that $|\\overrightarrow{QM}| = 3|\\overrightarrow{MR}|$. Let $\\overrightarrow{OP} = \\mathbf{p}$, $\\overrightarrow{OQ} = \\mathbf{q}$ and $\\overrightarrow{OR} = \\mathbf{r}$. Express $\\overrightarrow{RM}$ in terms of $\\mathbf{p}$, $\\mathbf{q}$ and $\\mathbf{r}$.",
+   "answer": "Since $QM : MR = 3 : 1$, $M$ is $\\frac{1}{4}$ of the way from $R$ to $Q$:\n$$\\overrightarrow{RM} = \\frac{1}{4}\\overrightarrow{RQ} = \\frac{1}{4}\\left(\\overrightarrow{OQ} - \\overrightarrow{OR}\\right) = \\frac{1}{4}(\\mathbf{q} - \\mathbf{r}).$$",
+   "images": [
+    "assets/img/ext1-2026-killara/q11f.png"
+   ]
+  },
+  {
+   "ref": "Q11(f)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.6",
+    "12.2.3.2"
+   ],
+   "question": "In quadrilateral $OPQR$ shown below, $M$ lies on $QR$ so that $|\\overrightarrow{QM}| = 3|\\overrightarrow{MR}|$. Let $\\overrightarrow{OP} = \\mathbf{p}$, $\\overrightarrow{OQ} = \\mathbf{q}$ and $\\overrightarrow{OR} = \\mathbf{r}$. Given that $\\overrightarrow{RM} = \\frac{1}{4}(\\mathbf{q} - \\mathbf{r})$, express $\\overrightarrow{PM}$ in terms of $\\mathbf{p}$, $\\mathbf{q}$ and $\\mathbf{r}$.",
+   "answer": "$$\\overrightarrow{PM} = \\overrightarrow{OM} - \\overrightarrow{OP} = \\left(\\overrightarrow{OR} + \\overrightarrow{RM}\\right) - \\overrightarrow{OP} = \\mathbf{r} + \\frac{1}{4}(\\mathbf{q} - \\mathbf{r}) - \\mathbf{p} = \\frac{1}{4}\\mathbf{q} + \\frac{3}{4}\\mathbf{r} - \\mathbf{p}.$$",
+   "images": [
+    "assets/img/ext1-2026-killara/q11f.png"
+   ]
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.13",
+    "12.5.2.7"
+   ],
+   "question": "A pie is placed in a preheated oven maintained at a constant temperature of $200^\\circ\\text{C}$. When the pie was placed into the oven, it had an internal temperature of $20^\\circ\\text{C}$. The temperature $P$ of the pie, $t$ minutes after it was placed into the oven, satisfies $$\\frac{dP}{dt} = k(200 - P),$$ where $k$ is a positive constant. By solving the differential equation, show that $P = 200 - 180e^{-kt}$.",
+   "answer": "Separate the variables:\n$$\\int \\frac{dP}{200 - P} = \\int k\\,dt \\implies -\\ln|200 - P| = kt + C.$$\nSo $|200 - P| = e^{-kt - C}$, i.e. $200 - P = Be^{-kt}$ for a constant $B$, giving $P = 200 - Be^{-kt}$.\n\nWhen $t = 0$, $P = 20$: $20 = 200 - B$, so $B = 180$. Hence $P = 200 - 180e^{-kt}$."
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.7",
+    "12.5.4.16"
+   ],
+   "question": "A pie is placed in a preheated oven maintained at a constant temperature of $200^\\circ\\text{C}$. When the pie was placed into the oven, it had an internal temperature of $20^\\circ\\text{C}$. The temperature $P$ of the pie, $t$ minutes after it was placed into the oven, satisfies $$\\frac{dP}{dt} = k(200 - P),$$ where $k$ is a positive constant. It can be shown that $P = 200 - 180e^{-kt}$. The internal temperature of the pie reached $53^\\circ\\text{C}$ after 10 minutes. Find the internal temperature of the pie after 20 minutes, to the nearest degree.",
+   "answer": "$P(10) = 53$: $200 - 180e^{-10k} = 53 \\implies e^{-10k} = \\dfrac{147}{180} = \\dfrac{49}{60}$, so $k = -\\dfrac{1}{10}\\ln\\dfrac{49}{60}$.\n\nThen\n$$P(20) = 200 - 180e^{-20k} = 200 - 180\\left(\\frac{49}{60}\\right)^2 = 200 - 120.05 = 79.95 \\approx 80^\\circ\\text{C}.$$"
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.2",
+    "11.3.2.2"
+   ],
+   "question": "Consider the function $$f(x) = 3\\sin\\left(x + \\frac{\\pi}{2}\\right) - 4\\cos\\left(\\frac{\\pi}{3} - x\\right).$$ Express the function in the form $R\\cos(x + \\alpha)$. Give $\\alpha$ correct to one decimal place, where $0 < \\alpha < \\frac{\\pi}{2}$.",
+   "answer": "Expand:\n$$f(x) = 3\\left(\\sin x\\cos\\tfrac{\\pi}{2} + \\cos x\\sin\\tfrac{\\pi}{2}\\right) - 4\\left(\\cos\\tfrac{\\pi}{3}\\cos x + \\sin\\tfrac{\\pi}{3}\\sin x\\right) = 3\\cos x - 2\\cos x - 2\\sqrt{3}\\sin x = \\cos x - 2\\sqrt{3}\\sin x.$$\nLet $\\cos x - 2\\sqrt{3}\\sin x = R\\cos x\\cos\\alpha - R\\sin x\\sin\\alpha$. Then $R\\cos\\alpha = 1$ and $R\\sin\\alpha = 2\\sqrt{3}$, so\n$$R = \\sqrt{1^2 + (2\\sqrt{3})^2} = \\sqrt{13}, \\qquad \\tan\\alpha = 2\\sqrt{3} \\implies \\alpha = 1.287\\ldots \\approx 1.3.$$\nHence $f(x) = \\sqrt{13}\\cos(x + 1.3)$."
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.3",
+    "11.3.3.4"
+   ],
+   "question": "Consider the function $$f(x) = 3\\sin\\left(x + \\frac{\\pi}{2}\\right) - 4\\cos\\left(\\frac{\\pi}{3} - x\\right).$$ It can be shown that $f(x) = \\sqrt{13}\\cos(x + \\alpha)$ where $\\tan\\alpha = 2\\sqrt{3}$, $0 < \\alpha < \\frac{\\pi}{2}$ (so $\\alpha \\approx 1.287$). Find the value of $x$, correct to 2 decimal places, at which $f(x)$ is at its minimum for $0 \\le x \\le 2\\pi$.",
+   "answer": "$f(x) = \\sqrt{13}\\cos(x + \\alpha)$ has its minimum value $-\\sqrt{13}$ when $\\cos(x + \\alpha) = -1$, i.e. $x + \\alpha = \\pi$ (the only solution with $\\alpha \\le x + \\alpha \\le 2\\pi + \\alpha$).\n\n$$x = \\pi - \\alpha = \\pi - \\tan^{-1}(2\\sqrt{3}) = 3.14159 - 1.28700 = 1.85.$$\n\n*Note:* the paper's solution used the rounded value $\\alpha = 1.3$ and gave $x = 1.84$; with the exact $\\alpha$ the answer to 2 decimal places is $1.85$."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.19",
+    "11.4.1.17"
+   ],
+   "question": "Six points lie on a circle, as shown. Four of the chords joining pairs of the six points are selected at random. What is the probability that the four chords form a quadrilateral?",
+   "answer": "The number of chords joining pairs of the 6 points is $\\binom{6}{2} = 15$, so the number of ways to choose 4 chords is $\\binom{15}{4} = 1365$.\n\nThe four chords form a quadrilateral exactly when they are the four sides of the (convex) quadrilateral on some 4 of the 6 points. Each choice of 4 points gives one such quadrilateral, so there are $\\binom{6}{4} = 15$ favourable selections.\n$$P = \\frac{15}{1365} = \\frac{1}{91}.$$",
+   "images": [
+    "assets/img/ext1-2026-killara/q12c.png"
+   ]
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.4"
+   ],
+   "question": "The shaded region shown is bounded by $y = \\dfrac{1}{x + 2}$, $y = (x + 2)^2$ and $x = 1$. (The curves intersect at $(-1, 1)$.) Find the exact volume of the solid formed by rotating the shaded region about the $x$-axis.",
+   "answer": "The region lies between $x = -1$ and $x = 1$, with $y = (x + 2)^2$ above $y = \\frac{1}{x + 2}$.\n$$V = \\pi\\int_{-1}^{1}(x + 2)^4\\,dx - \\pi\\int_{-1}^{1}\\frac{dx}{(x + 2)^2} = \\pi\\left[\\frac{(x + 2)^5}{5}\\right]_{-1}^{1} - \\pi\\left[-\\frac{1}{x + 2}\\right]_{-1}^{1}$$\n$$= \\pi\\cdot\\frac{243 - 1}{5} - \\pi\\left(-\\frac{1}{3} + 1\\right) = \\frac{242\\pi}{5} - \\frac{2\\pi}{3} = \\frac{716\\pi}{15}\\ \\text{units}^3.$$",
+   "images": [
+    "assets/img/ext1-2026-killara/q12d.png"
+   ]
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.1"
+   ],
+   "question": "The diagram shows a sketch of the graph of $y = f(x)$. The curve passes through the points $(1, 0)$ and $(3, 0)$, and has turning points at $(1, 0)$ and $(4, 4)$. The asymptotes are $x = 0$, $x = 2$ and $y = 2$. Sketch the graph of $y = \\dfrac{1}{f(x)}$.",
+   "answer": "Key features of $y = \\dfrac{1}{f(x)}$:\n\n- Zeros of $f$ become vertical asymptotes: $x = 1$ and $x = 3$.\n- Vertical asymptotes of $f$ become points where $\\frac{1}{f(x)} \\to 0$: the graph approaches $(0, 0)$ and $(2, 0)$, which are drawn as open circles since $f$ is undefined there.\n- The horizontal asymptote $y = 2$ becomes $y = \\frac{1}{2}$.\n- The turning point $(4, 4)$ becomes the turning point $\\left(4, \\frac{1}{4}\\right)$ (a minimum).\n- Signs: $\\frac{1}{f}$ is positive where $f > 0$ ($x < 0$, $0 < x < 2$, $x > 3$) and negative for $2 < x < 3$.\n\nSo: for $x < 0$ the curve lies just below $y = \\frac12$, decreasing towards the open circle at $(0, 0)$; between $0$ and $2$ it rises from $(0,0)$ to $+\\infty$ at $x = 1$ and comes back down to the open circle at $(2, 0)$ from both sides of $x=1$; for $2 < x < 3$ it falls from $(2, 0)$ to $-\\infty$ at $x = 3$; for $x > 3$ it comes down from $+\\infty$ to the minimum $\\left(4, \\frac14\\right)$ and then rises towards $y = \\frac{1}{2}$.",
+   "images": [
+    "assets/img/ext1-2026-killara/q13a.png"
+   ],
+   "answer_images": [
+    "assets/img/ext1-2026-killara/q13a-ans.png"
+   ]
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.1.9",
+    "11.5.1.10"
+   ],
+   "question": "Show that $$\\left(1 + \\binom{n}{1} + \\binom{n}{2} + \\binom{n}{3} + \\cdots + \\binom{n}{n}\\right)^2 = 1 + \\binom{2n}{1} + \\binom{2n}{2} + \\cdots + \\binom{2n}{2n}.$$",
+   "answer": "Consider the identity $(1 + x)^n(1 + x)^n = (1 + x)^{2n}$. Expanding each side with the binomial theorem:\n$$\\left(1 + \\binom{n}{1}x + \\binom{n}{2}x^2 + \\cdots + \\binom{n}{n}x^n\\right)^2 = 1 + \\binom{2n}{1}x + \\binom{2n}{2}x^2 + \\cdots + \\binom{2n}{2n}x^{2n}.$$\nSubstituting $x = 1$:\n$$\\left(1 + \\binom{n}{1} + \\binom{n}{2} + \\cdots + \\binom{n}{n}\\right)^2 = 1 + \\binom{2n}{1} + \\binom{2n}{2} + \\cdots + \\binom{2n}{2n}.$$\n(Both sides equal $2^{2n}$.)"
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Use the substitution $u = \\sqrt{x}$ to show that $$\\int_0^{16}\\frac{x}{1 + \\sqrt{x}}\\,dx = A - B\\ln 5,$$ where $A$ and $B$ are positive constants.",
+   "answer": "Let $u = \\sqrt{x}$, so $x = u^2$ and $dx = 2u\\,du$. When $x = 0$, $u = 0$; when $x = 16$, $u = 4$.\n$$\\int_0^{16}\\frac{x}{1 + \\sqrt{x}}\\,dx = \\int_0^4 \\frac{u^2}{1 + u}\\cdot 2u\\,du = 2\\int_0^4 \\frac{u^3}{u + 1}\\,du.$$\nBy polynomial division, $\\dfrac{u^3}{u + 1} = u^2 - u + 1 - \\dfrac{1}{u + 1}$. So\n$$= 2\\left[\\frac{u^3}{3} - \\frac{u^2}{2} + u - \\ln(u + 1)\\right]_0^4 = 2\\left(\\frac{64}{3} - 8 + 4 - \\ln 5\\right) = \\frac{104}{3} - 2\\ln 5,$$\nwhich is of the form $A - B\\ln 5$ with $A = \\frac{104}{3}$, $B = 2$."
+  },
+  {
+   "ref": "Q13(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.2.3.4",
+    "11.2.3.2"
+   ],
+   "question": "Given a polynomial $P(x) = x^3 + ax^2 + bx + c$, where $a$, $b$, $c$ are non-zero constants. The three roots of the polynomial form the first three terms of a geometric sequence. Show that $b^3 = ca^3$.",
+   "answer": "Let the roots be $\\alpha$, $\\alpha r$, $\\alpha r^2$. Then\n$$\\alpha + \\alpha r + \\alpha r^2 = \\alpha(1 + r + r^2) = -a \\quad (1)$$\n$$\\alpha\\cdot\\alpha r + \\alpha\\cdot\\alpha r^2 + \\alpha r\\cdot\\alpha r^2 = \\alpha^2 r(1 + r + r^2) = b \\quad (2)$$\n$$\\alpha\\cdot\\alpha r\\cdot\\alpha r^2 = (\\alpha r)^3 = -c \\quad (3)$$\nDividing (2) by (1) (valid as $a \\ne 0$): $\\alpha r = -\\dfrac{b}{a}$.\n\nSubstituting into (3): $\\left(-\\dfrac{b}{a}\\right)^3 = -c$, so $-\\dfrac{b^3}{a^3} = -c$, i.e. $b^3 = ca^3$."
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.5"
+   ],
+   "question": "Let $t = \\tan\\left(\\dfrac{x}{2}\\right)$. Prove the identity $$\\frac{1}{2}\\cot\\left(\\frac{x}{2}\\right) - \\cot x = \\frac{1}{2}\\tan\\left(\\frac{x}{2}\\right).$$",
+   "answer": "With $t = \\tan\\frac{x}{2}$: $\\cot\\frac{x}{2} = \\dfrac{1}{t}$ and $\\tan x = \\dfrac{2t}{1 - t^2}$, so $\\cot x = \\dfrac{1 - t^2}{2t}$.\n$$\\text{LHS} = \\frac{1}{2t} - \\frac{1 - t^2}{2t} = \\frac{1 - (1 - t^2)}{2t} = \\frac{t^2}{2t} = \\frac{t}{2} = \\frac{1}{2}\\tan\\left(\\frac{x}{2}\\right) = \\text{RHS}.$$",
+   "course": "extension2"
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "It is known that $\\dfrac{1}{2}\\cot\\left(\\dfrac{\\theta}{2}\\right) - \\cot\\theta = \\dfrac{1}{2}\\tan\\left(\\dfrac{\\theta}{2}\\right)$ for all $\\theta$ for which both sides are defined. Prove by mathematical induction that, for all integers $n \\ge 1$, $$\\frac{1}{2}\\tan\\left(\\frac{x}{2}\\right) + \\frac{1}{4}\\tan\\left(\\frac{x}{4}\\right) + \\frac{1}{8}\\tan\\left(\\frac{x}{8}\\right) + \\cdots + \\frac{1}{2^n}\\tan\\left(\\frac{x}{2^n}\\right) = \\frac{1}{2^n}\\cot\\left(\\frac{x}{2^n}\\right) - \\cot x.$$",
+   "answer": "**Base case $n = 1$:** LHS $= \\frac{1}{2}\\tan\\frac{x}{2}$ and RHS $= \\frac{1}{2}\\cot\\frac{x}{2} - \\cot x$, which are equal by the given identity (with $\\theta = x$). True for $n = 1$.\n\n**Inductive step:** assume true for $n = k$:\n$$\\frac{1}{2}\\tan\\frac{x}{2} + \\cdots + \\frac{1}{2^k}\\tan\\frac{x}{2^k} = \\frac{1}{2^k}\\cot\\frac{x}{2^k} - \\cot x.$$\nProve for $n = k + 1$:\n$$\\text{LHS} = \\frac{1}{2^k}\\cot\\frac{x}{2^k} - \\cot x + \\frac{1}{2^{k+1}}\\tan\\frac{x}{2^{k+1}} \\quad\\text{(by assumption)}$$\n$$= \\frac{1}{2^k}\\cot\\frac{x}{2^k} - \\cot x + \\frac{1}{2^k}\\cdot\\frac{1}{2}\\tan\\left(\\frac{x/2^k}{2}\\right).$$\nApply the identity with $\\theta = \\frac{x}{2^k}$: $\\frac{1}{2}\\tan\\frac{x}{2^{k+1}} = \\frac{1}{2}\\cot\\frac{x}{2^{k+1}} - \\cot\\frac{x}{2^k}$. So\n$$\\text{LHS} = \\frac{1}{2^k}\\cot\\frac{x}{2^k} - \\cot x + \\frac{1}{2^{k+1}}\\cot\\frac{x}{2^{k+1}} - \\frac{1}{2^k}\\cot\\frac{x}{2^k} = \\frac{1}{2^{k+1}}\\cot\\frac{x}{2^{k+1}} - \\cot x = \\text{RHS}.$$\nSo if the statement is true for $n = k$ it is true for $n = k + 1$. Since it is true for $n = 1$, by mathematical induction it is true for all integers $n \\ge 1$."
+  },
+  {
+   "ref": "Q14(d)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.7",
+    "12.2.3.6"
+   ],
+   "question": "Consider square $OACB$ where $O$ is the origin, and let $A$ and $B$ have position vectors $\\mathbf{a}$ and $\\mathbf{b}$ respectively. Points $P$, $Q$, $R$ and $S$ lie on the sides $OA$, $AC$, $CB$ and $BO$ so that $\\overrightarrow{OP} = k\\mathbf{a}$, $\\overrightarrow{AQ} = k\\mathbf{b}$, $\\overrightarrow{RC} = k\\mathbf{a}$ and $\\overrightarrow{SB} = k\\mathbf{b}$, where $0 \\le k \\le 1$ (see diagram). Using vector methods, prove that $\\angle PQR = 90^\\circ$.",
+   "answer": "Position vectors: $\\overrightarrow{OP} = k\\mathbf{a}$, $\\overrightarrow{OQ} = \\mathbf{a} + k\\mathbf{b}$, $\\overrightarrow{OR} = \\overrightarrow{OC} - \\overrightarrow{RC} = \\mathbf{a} + \\mathbf{b} - k\\mathbf{a}$.\n$$\\overrightarrow{PQ} = \\mathbf{a} + k\\mathbf{b} - k\\mathbf{a} = (1 - k)\\mathbf{a} + k\\mathbf{b}$$\n$$\\overrightarrow{QR} = (\\mathbf{a} + \\mathbf{b} - k\\mathbf{a}) - (\\mathbf{a} + k\\mathbf{b}) = (1 - k)\\mathbf{b} - k\\mathbf{a}$$\nThen\n$$\\overrightarrow{PQ}\\cdot\\overrightarrow{QR} = (1 - k)^2\\,\\mathbf{a}\\cdot\\mathbf{b} - k(1 - k)|\\mathbf{a}|^2 + k(1 - k)|\\mathbf{b}|^2 - k^2\\,\\mathbf{a}\\cdot\\mathbf{b}.$$\nSince $OACB$ is a square, $\\mathbf{a}\\cdot\\mathbf{b} = 0$ and $|\\mathbf{a}| = |\\mathbf{b}|$, so $\\overrightarrow{PQ}\\cdot\\overrightarrow{QR} = 0 - k(1-k)|\\mathbf{a}|^2 + k(1-k)|\\mathbf{a}|^2 = 0$.\n\nHence $PQ \\perp QR$ and $\\angle PQR = 90^\\circ$ (for $0 < k < 1$, where $P \\ne Q \\ne R$).",
+   "images": [
+    "assets/img/ext1-2026-killara/q14d.png"
+   ]
+  },
+  {
+   "ref": "Q14(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "Consider square $OACB$ where $O$ is the origin, and let $A$ and $B$ have position vectors $\\mathbf{a}$ and $\\mathbf{b}$ respectively. Points $P$, $Q$, $R$ and $S$ lie on the sides $OA$, $AC$, $CB$ and $BO$ so that $\\overrightarrow{OP} = k\\mathbf{a}$, $\\overrightarrow{AQ} = k\\mathbf{b}$, $\\overrightarrow{RC} = k\\mathbf{a}$ and $\\overrightarrow{SB} = k\\mathbf{b}$, where $0 \\le k \\le 1$ (see diagram). It is known that $PQRS$ is a square. Now suppose that $OA = 10$ cm and that point $P$ is moving away from the origin at a speed of $0.2$ cm per second, so that $Q$, $R$ and $S$ move at the same speed along their respective sides. Let $OP = x$. Determine the rate at which the area of square $PQRS$ is changing when $x = 3$ cm.",
+   "answer": "$OP = x$, so $AP = 10 - x$ and $AQ = x$. By Pythagoras in triangle $PAQ$:\n$$PQ^2 = (10 - x)^2 + x^2 = 2x^2 - 20x + 100.$$\nThe area of square $PQRS$ is $A = PQ^2 = 2x^2 - 20x + 100$, so $\\dfrac{dA}{dx} = 4x - 20$.\n$$\\frac{dA}{dt} = \\frac{dA}{dx}\\cdot\\frac{dx}{dt} = (4x - 20)(0.2).$$\nWhen $x = 3$: $\\dfrac{dA}{dt} = (12 - 20)(0.2) = -1.6$.\n\nThe area is decreasing at $1.6\\ \\text{cm}^2\\,\\text{s}^{-1}$.",
+   "images": [
+    "assets/img/ext1-2026-killara/q14d.png"
+   ]
+  }
+ ]
+}

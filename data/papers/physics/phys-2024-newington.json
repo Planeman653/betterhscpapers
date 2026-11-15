@@ -1,0 +1,740 @@
+{
+ "id": "phys-2024-newington",
+ "course": "physics",
+ "school": "Newington",
+ "year": 2024,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "6528",
+  "title": "Newington 2024 w. sol"
+ },
+ "indexed": "2026-11-15",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q17",
+   "reason": "Flawed question: the speed at Z cannot be determined from the information given (Y and Z are not at the ends of the orbit's axis), and the marking key accepted every option."
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.2.1"
+   ],
+   "question": "Under which set of conditions will **no** force be exerted on the conducting wire?",
+   "options": [
+    "![Diagram A](assets/img/phys-2024-newington/q1a.png)",
+    "![Diagram B](assets/img/phys-2024-newington/q1b.png)",
+    "![Diagram C](assets/img/phys-2024-newington/q1c.png)",
+    "![Diagram D](assets/img/phys-2024-newington/q1d.png)"
+   ],
+   "correct": "D",
+   "answer": "The force on a current-carrying wire is $F = lIB\\sin\\theta$, which is zero only when the current is parallel or antiparallel to the field. In (D) the field is into the page and the current is out of the page, so they are antiparallel and $\\sin 180^\\circ = 0$. In (A), (B) and (C) the current has a component perpendicular to $B$."
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.3.3"
+   ],
+   "question": "How can the current in the secondary coil of a transformer exceed the current in the primary coil while still obeying the law of conservation of energy?",
+   "options": [
+    "By having lower resistance in the secondary coil.",
+    "By having thicker wires in the secondary coil.",
+    "By having lower voltage in the secondary coil.",
+    "By having no heat loss from the coils in the transformer."
+   ],
+   "correct": "C",
+   "answer": "For an ideal transformer $V_pI_p = V_sI_s$ (power in = power out). The secondary current can only be larger than the primary current if the secondary voltage is lower, i.e. a step-down transformer."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.4.3"
+   ],
+   "question": "The inclusion of magnetic braking on high-speed trains has the advantage of:",
+   "options": [
+    "not generating heat.",
+    "working effectively at high speed.",
+    "working even if the train is stationary.",
+    "working better when the train is moving slowly."
+   ],
+   "correct": "B",
+   "answer": "Magnetic braking relies on eddy currents induced by relative motion; the faster the train, the greater the rate of change of flux, the larger the eddy currents and the larger the opposing force. So it is most effective at high speed (and does nothing when stationary). The kinetic energy is still converted to heat in the conductor."
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.1.1"
+   ],
+   "question": "Which scientist first proposed a mathematically derived value for the speed of light?",
+   "options": [
+    "Maxwell",
+    "Faraday",
+    "Thomson",
+    "Einstein"
+   ],
+   "correct": "A",
+   "answer": "Maxwell's equations predicted electromagnetic waves travelling at $c = \\dfrac{1}{\\sqrt{\\mu_0\\varepsilon_0}} \\approx 3 \\times 10^{8}\\ \\text{m s}^{-1}$, matching the measured speed of light."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.8.1.6"
+   ],
+   "question": "The Hertzsprung-Russell diagram is a scatter plot of stars showing the relationship between which two variables?",
+   "options": [
+    "Absolute magnitude and luminosity",
+    "Stellar classification and colour",
+    "Time and luminosity",
+    "Absolute magnitude and temperature"
+   ],
+   "correct": "D",
+   "answer": "An H–R diagram plots luminosity (or absolute magnitude) on the vertical axis against surface temperature (or spectral class/colour) on the horizontal axis. Only (D) pairs a brightness measure with a temperature measure."
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.3.2"
+   ],
+   "question": "Which law can be used to predict the direction of induced current in a circuit?",
+   "options": [
+    "Oersted's law",
+    "Faraday's law",
+    "Lenz's law",
+    "Newton's Third law"
+   ],
+   "correct": "C",
+   "answer": "Lenz's law: the induced current flows in a direction such that its magnetic field opposes the change in flux that produced it. Faraday's law gives the magnitude of the emf."
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "A relativistic train is carrying a passenger travelling at $0.5c$ (relative to a platform). The passenger measures $10$ s on her watch.\n\nHow many seconds would pass for the person on the platform who timed the same event on his watch?",
+   "options": [
+    "$8.6$ s",
+    "$10$ s",
+    "$11.6$ s",
+    "$14.2$ s"
+   ],
+   "correct": "C",
+   "answer": "The passenger measures proper time $t_0 = 10$ s. $t = \\dfrac{t_0}{\\sqrt{1 - v^2/c^2}} = \\dfrac{10}{\\sqrt{1 - 0.25}} = 11.5$ s $\\approx 11.6$ s.",
+   "images": [
+    "assets/img/phys-2024-newington/q7.png"
+   ]
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.2"
+   ],
+   "question": "One observation that supports Einstein's explanation of the photoelectric effect is that:",
+   "options": [
+    "different cathode metals have the same threshold frequency.",
+    "when conditions produce photocurrent it is detected immediately.",
+    "less intense light requires a higher frequency for a photo current to be observed.",
+    "higher frequency light gives a greater work function for a particular metal."
+   ],
+   "correct": "B",
+   "answer": "In the photon model each photon gives all its energy to one electron at once, so emission is instantaneous (no time delay), whereas the wave model predicted a delay for energy to accumulate. Threshold frequency differs between metals, does not depend on intensity, and the work function is a property of the metal."
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "Several planets with identical size but different masses had their surface gravitational acceleration, $g$, plotted against their masses, $M$.\n\nWhich alternative best represents this graph?",
+   "options": [
+    "![Diagram A](assets/img/phys-2024-newington/q9a.png)",
+    "![Diagram B](assets/img/phys-2024-newington/q9b.png)",
+    "![Diagram C](assets/img/phys-2024-newington/q9c.png)",
+    "![Diagram D](assets/img/phys-2024-newington/q9d.png)"
+   ],
+   "correct": "A",
+   "answer": "$g = \\dfrac{GM}{r^2}$. With $r$ the same for every planet, $g \\propto M$: a straight line through the origin."
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.4.3"
+   ],
+   "question": "Which graph best represents a plot of the values of the momentum, $p$ versus the speed, $v$ of an object?",
+   "options": [
+    "![Diagram A](assets/img/phys-2024-newington/q10a.png)",
+    "![Diagram B](assets/img/phys-2024-newington/q10b.png)",
+    "![Diagram C](assets/img/phys-2024-newington/q10c.png)",
+    "![Diagram D](assets/img/phys-2024-newington/q10d.png)"
+   ],
+   "correct": "A",
+   "answer": "$p = \\dfrac{m_0 v}{\\sqrt{1 - v^2/c^2}}$. At low speeds $p \\approx m_0 v$ (nearly linear from the origin); as $v \\to c$ the momentum increases without limit, so the graph rises steeply with an asymptote at $v = c$."
+  },
+  {
+   "ref": "Q11",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.1"
+   ],
+   "question": "A person with a viral infection has their body temperature rise from $37\\ ^\\circ\\text{C}$ ($310$ K) to $40\\ ^\\circ\\text{C}$. What is the change in the peak wavelength of electromagnetic radiation emitted?",
+   "options": [
+    "Increase by $8.96 \\times 10^{-8}$ m",
+    "Decrease by $8.96 \\times 10^{-8}$ m",
+    "Increase by $9.66 \\times 10^{-4}$ m",
+    "Decrease by $9.66 \\times 10^{-4}$ m"
+   ],
+   "correct": "B",
+   "answer": "Wien's law $\\lambda_{\\max} = b/T$: $\\lambda_1 = \\dfrac{2.898 \\times 10^{-3}}{310} = 9.348 \\times 10^{-6}$ m, $\\lambda_2 = \\dfrac{2.898 \\times 10^{-3}}{313} = 9.259 \\times 10^{-6}$ m. Higher temperature gives a shorter peak wavelength: a decrease of $8.96 \\times 10^{-8}$ m."
+  },
+  {
+   "ref": "Q12",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.2"
+   ],
+   "question": "Laser light of unknown wavelength was passed through a pair of slits separated by $3.00 \\times 10^{-4}$ m. This produced an interference pattern on a screen $2.50$ m from the slits.\n\nThe distance between the central bright spot in the interference pattern and another bright spot is $9.50 \\times 10^{-3}$ m as shown in the diagram below.\n\nThe laser wavelength is closest to:",
+   "options": [
+    "$1.14 \\times 10^{-6}$ m",
+    "$5.70 \\times 10^{-7}$ m",
+    "$5.70 \\times 10^{-4}$ m",
+    "$1.14 \\times 10^{-9}$ m"
+   ],
+   "correct": "B",
+   "answer": "The marked spot is the second bright fringe from the centre ($m = 2$). For small angles $\\sin\\theta \\approx y/L$, so $\\lambda = \\dfrac{dy}{mL} = \\dfrac{3.00 \\times 10^{-4} \\times 9.50 \\times 10^{-3}}{2 \\times 2.50} = 5.70 \\times 10^{-7}$ m. (Using $m = 1$ gives distractor A.)",
+   "images": [
+    "assets/img/phys-2024-newington/q12.png"
+   ]
+  },
+  {
+   "ref": "Q13",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.5.2.3"
+   ],
+   "question": "A $0.800$ kg mass is swinging in a horizontal circle on the end of a conical pendulum as shown. The radius of the circle $r$ is $0.25$ m and the period $T$ is $2.0$ s.\n\nWhich row of the table shows the correct kinetic energy and the correct amount of work done on the mass during one full revolution?",
+   "options": [
+    "Kinetic energy $0.79$ J; work done zero",
+    "Kinetic energy $0.25$ J; work done $0.63$ J",
+    "Kinetic energy $0.50$ J; work done $1.58$ J",
+    "Kinetic energy $0.25$ J; work done zero"
+   ],
+   "correct": "D",
+   "answer": "$v = \\dfrac{2\\pi r}{T} = \\dfrac{2\\pi(0.25)}{2.0} = 0.785\\ \\text{m s}^{-1}$, so $K = \\tfrac12(0.800)(0.785)^2 = 0.25$ J. The net (centripetal) force is always perpendicular to the velocity, so no work is done and the kinetic energy stays constant.",
+   "images": [
+    "assets/img/phys-2024-newington/q13.png"
+   ]
+  },
+  {
+   "ref": "Q14",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.3",
+    "12.8.2.1"
+   ],
+   "question": "Cathode ray particles with a speed $v$ pass through a velocity selector undeflected. The selector comprises crossed electric and magnetic fields, arranged as shown.\n\nIf the magnitude of the electric field in the velocity selector is doubled, cathode ray particles with what velocity will now pass through undeflected?",
+   "options": [
+    "$2v$",
+    "$v$",
+    "$\\sqrt{2}\\,v$",
+    "$\\tfrac12 v$"
+   ],
+   "correct": "A",
+   "answer": "Undeflected when $qE = qvB$, i.e. $v = E/B$. Doubling $E$ with $B$ unchanged doubles the selected speed: $2v$.",
+   "images": [
+    "assets/img/phys-2024-newington/q14.png"
+   ]
+  },
+  {
+   "ref": "Q15",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "A ball is kicked from ground level over horizontal ground with a speed of $25.0\\ \\text{m s}^{-1}$ at an angle of $30^\\circ$ towards goal posts. The ball travels a horizontal distance of $12.0$ m before crossing the goal line.\n\nAt what height does the ball cross the goal line?",
+   "options": [
+    "$0.83$ m",
+    "$3.8$ m",
+    "$5.4$ m",
+    "$10.4$ m"
+   ],
+   "correct": "C",
+   "answer": "$u_x = 25\\cos 30^\\circ = 21.65\\ \\text{m s}^{-1}$, so $t = 12.0/21.65 = 0.554$ s. $u_y = 25\\sin 30^\\circ = 12.5\\ \\text{m s}^{-1}$, so $s_y = 12.5(0.554) - 4.9(0.554)^2 = 6.93 - 1.51 = 5.4$ m."
+  },
+  {
+   "ref": "Q16",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "A projectile launched on Earth follows the trajectory labelled X, as shown.\n\nAnother projectile is launched with identical speed and angle, but on the surface of a planet where the gravitational acceleration is less than $9.8\\ \\text{m s}^{-2}$.\n\nWhich trajectory would this other projectile follow? Air resistance can be ignored.",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "correct": "D",
+   "answer": "Same launch velocity, smaller $g$: the maximum height $u_y^2/2g$, the time of flight $2u_y/g$ and the range $u^2\\sin 2\\theta/g$ all increase. Trajectory D starts at the same angle as X but goes higher and further.",
+   "images": [
+    "assets/img/phys-2024-newington/q16.png"
+   ]
+  },
+  {
+   "ref": "Q18",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.3.3"
+   ],
+   "question": "What is the maximum wavelength of light that would ionise a hydrogen atom with an electron in the second lowest energy level?",
+   "options": [
+    "$91$ nm",
+    "$182$ nm",
+    "$365$ nm",
+    "$730$ nm"
+   ],
+   "correct": "C",
+   "answer": "Ionisation from $n = 2$ to $n = \\infty$: $\\dfrac{1}{\\lambda} = R\\left(\\dfrac{1}{2^2} - 0\\right) = \\dfrac{1.097 \\times 10^{7}}{4}$, so $\\lambda = 3.65 \\times 10^{-7}$ m $= 365$ nm. Any longer wavelength has too little energy (less than $3.4$ eV)."
+  },
+  {
+   "ref": "Q19",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.4.2"
+   ],
+   "question": "A radioactive sample's activity was observed to decay over time and the results plotted on the graph below.\n\nThe decay constant, $\\lambda$, for this radioactive sample is closest to:",
+   "options": [
+    "$6.0 \\times 10^{-3}\\ \\text{s}^{-1}$",
+    "$9.6 \\times 10^{-6}\\ \\text{s}^{-1}$",
+    "$1.6 \\times 10^{-7}\\ \\text{s}^{-1}$",
+    "$1.6 \\times 10^{-7}\\ \\text{day}^{-1}$"
+   ],
+   "correct": "C",
+   "answer": "From the graph the activity halves (100% → 50%) in about $50$ days. $\\lambda = \\dfrac{\\ln 2}{t_{1/2}} = \\dfrac{0.693}{50 \\times 86\\,400\\ \\text{s}} = 1.6 \\times 10^{-7}\\ \\text{s}^{-1}$ (equivalently $0.014\\ \\text{day}^{-1}$).",
+   "images": [
+    "assets/img/phys-2024-newington/q19.png"
+   ]
+  },
+  {
+   "ref": "Q20",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.3",
+    "12.8.2.1"
+   ],
+   "question": "A particle in an accelerator reaches a velocity of $2.5 \\times 10^{4}\\ \\text{m s}^{-1}$ before entering a Wilson cloud chamber. The cloud chamber is in a uniform magnetic field of $1.95 \\times 10^{-6}$ T. The path of the particle in the cloud chamber is illustrated in the diagram.\n\nThe radius of the particle's path is $5.0$ cm. What is the charge-to-mass ratio of the particle?",
+   "options": [
+    "$3.9 \\times 10^{-12}\\ \\text{C kg}^{-1}$",
+    "$2.6 \\times 10^{9}\\ \\text{C kg}^{-1}$",
+    "$1.8 \\times 10^{11}\\ \\text{C kg}^{-1}$",
+    "$2.6 \\times 10^{11}\\ \\text{C kg}^{-1}$"
+   ],
+   "correct": "D",
+   "answer": "The magnetic force provides the centripetal force: $qvB = \\dfrac{mv^2}{r}$, so $\\dfrac{q}{m} = \\dfrac{v}{rB} = \\dfrac{2.5 \\times 10^{4}}{0.050 \\times 1.95 \\times 10^{-6}} = 2.6 \\times 10^{11}\\ \\text{C kg}^{-1}$.",
+   "images": [
+    "assets/img/phys-2024-newington/q20.png"
+   ]
+  },
+  {
+   "ref": "Q21(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.3.3",
+    "12.6.3.5"
+   ],
+   "question": "High voltage power lines distribute electricity over large distances from the point of generation. Transformers are used to step up the electricity to a very high voltage ($220$ kV) for distribution. Local streets contain power transmission lines of high voltage ($11$ kV), or low voltage ($415$ V).\n\nWhat ratio of primary to secondary turns is required to step down from a very-high voltage to a low voltage, for transmission in Australia?",
+   "answer": "$$\\frac{N_p}{N_s} = \\frac{V_p}{V_s} = \\frac{220 \\times 10^{3}}{415} = 530$$\n\nThe ratio of primary to secondary turns is $530 : 1$ (turns are whole numbers, so the ratio should be simplified to a whole number)."
+  },
+  {
+   "ref": "Q21(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.4"
+   ],
+   "question": "High voltage power lines distribute electricity over large distances from the point of generation. Transformers are used to step up the electricity to a very high voltage ($220$ kV) for distribution. Local streets contain power transmission lines of high voltage ($11$ kV), or low voltage ($415$ V).\n\nExplain why transformers have limitations compared to the ideal model AND justify one way to improve the efficiency of a transformer.",
+   "answer": "- The ideal model assumes all input power is delivered to the output ($V_pI_p = V_sI_s$). Real transformers lose energy, so output power is less than input power.\n- **Resistive heating:** current in the copper windings dissipates energy as heat ($P = I^2R$).\n- **Eddy currents:** the changing flux in the iron core induces eddy currents in the core itself, which heat the core and oppose the changing flux.\n- **Incomplete flux linkage:** not all the magnetic flux produced by the primary coil passes through the secondary coil, so less emf is induced than predicted.\n\n**Improvement:** use a laminated core (thin iron sheets insulated from each other). The insulation breaks up the large circulating paths, so the eddy currents are much smaller, less energy is lost as heat and the efficiency increases. (Alternatives: thicker/low-resistance copper windings to reduce $I^2R$ losses; winding both coils on a closed soft-iron core to improve flux linkage.)"
+  },
+  {
+   "ref": "Q22(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.4",
+    "12.5.3.3"
+   ],
+   "question": "The Magellan mission placed a satellite in orbit around Venus to image the entire surface of the planet.\n\nMass of Venus $= 4.867 \\times 10^{24}$ kg; mass of satellite $= 3445$ kg; orbital radius $= 6.346 \\times 10^{6}$ m.\n\nDetermine the orbital period of the satellite around Venus. Assume a circular orbit.",
+   "answer": "$$T^2 = \\frac{4\\pi^2 r^3}{GM} = \\frac{4\\pi^2 (6.346 \\times 10^{6})^3}{6.67 \\times 10^{-11} \\times 4.867 \\times 10^{24}} = 3.108 \\times 10^{7}\\ \\text{s}^2$$\n\n$$T = 5.57 \\times 10^{3}\\ \\text{s} \\ (\\approx 92.9\\ \\text{minutes})$$",
+   "images": [
+    "assets/img/phys-2024-newington/q22.png"
+   ]
+  },
+  {
+   "ref": "Q22(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.5"
+   ],
+   "question": "The Magellan mission placed a satellite in orbit around Venus to image the entire surface of the planet.\n\nMass of Venus $= 4.867 \\times 10^{24}$ kg; mass of satellite $= 3445$ kg; orbital radius $= 6.346 \\times 10^{6}$ m.\n\nHow much additional work would need to be done for the satellite to escape the planet, Venus? Use relevant equations and calculations to support your answer.",
+   "answer": "In its circular orbit the satellite has kinetic energy $K = \\dfrac{GMm}{2r}$ and gravitational potential energy $U = -\\dfrac{GMm}{r}$, so its total energy is negative:\n\n$$U + K = -\\frac{GMm}{2r} = -\\frac{6.67 \\times 10^{-11} \\times 4.867 \\times 10^{24} \\times 3445}{2 \\times 6.346 \\times 10^{6}} = -8.81 \\times 10^{10}\\ \\text{J}$$\n\nTo escape (reach infinity with zero speed), the total mechanical energy must be raised to zero. The rocket engines must therefore do work equal to the increase in total energy:\n\n$$W = 0 - (-8.81 \\times 10^{10}) = 8.81 \\times 10^{10}\\ \\text{J}$$\n\n(Note: only $\\dfrac{GMm}{2r}$ is needed, not $\\dfrac{GMm}{r}$, because the satellite already has kinetic energy from its orbital motion.)\n\n*Note: the paper's solution states the final answer as $8.81 \\times 10^{13}$ J; its own working gives $8.81 \\times 10^{10}$ J, which is correct.*"
+  },
+  {
+   "ref": "Q23(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.1.4",
+    "12.5.1.1"
+   ],
+   "question": "A popular tourist site has a lookout point at the top of a cliff overlooking the sea. A visitor accidentally rolls a ball off the lookout point, as shown in the diagram. It takes $3.5$ seconds for the ball to land in the sea below.\n\nCalculate the vertical distance that the ball travels before it lands in the sea.",
+   "answer": "Vertically: $u_y = 0$, $a = 9.8\\ \\text{m s}^{-2}$, $t = 3.5$ s.\n\n$$s = u_yt + \\tfrac12 at^2 = 0 + \\tfrac12 \\times 9.8 \\times 3.5^2 = 60\\ \\text{m}$$",
+   "images": [
+    "assets/img/phys-2024-newington/q23a.png"
+   ]
+  },
+  {
+   "ref": "Q23(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.1",
+    "12.5.1.4"
+   ],
+   "question": "A tourist site offers helicopter sightseeing tours. A passenger in one of the helicopters drops their phone while trying to take a photo of the scenery. When the phone is dropped, the helicopter is $200$ m above the ground and travelling at a horizontal speed of $50.0\\ \\text{m s}^{-1}$.\n\nCalculate the horizontal distance that the phone travels before it lands on the ground. (Ignore air resistance.)",
+   "answer": "The phone has the helicopter's velocity when released: $u_x = 50.0\\ \\text{m s}^{-1}$, $u_y = 0$, $a_y = -9.8\\ \\text{m s}^{-2}$, $a_x = 0$.\n\nTime of flight:\n$$s_y = u_yt + \\tfrac12 a_yt^2 \\Rightarrow -200 = 0 + \\tfrac12(-9.8)t^2 \\Rightarrow t^2 = 40.8 \\Rightarrow t = 6.39\\ \\text{s}$$\n\nHorizontal distance:\n$$s_x = u_xt = 50.0 \\times 6.39 = 319\\ \\text{m}$$",
+   "answer_images": [
+    "assets/img/phys-2024-newington/q23b-ans.png"
+   ]
+  },
+  {
+   "ref": "Q24",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.2"
+   ],
+   "question": "Faraday's iron ring experiment used two coils and a soft iron ring, as shown in the diagram. Coil A is connected to a battery through a switch; coil B is connected by a wire CD. A compass was placed above the wire CD to detect any changes in the magnetic field produced.\n\nFaraday observed that the compass needle did not deflect when the switch was left open or closed, but it did deflect momentarily when the switch was initially opened or closed.\n\nExplain Faraday's observations.",
+   "answer": "- Faraday's law: an emf is induced in a coil only when the magnetic flux through it **changes**, $\\varepsilon = -N\\dfrac{\\Delta\\Phi}{\\Delta t}$. The iron ring carries the flux produced by coil A through coil B.\n- **Switch left open or closed:** with the switch open there is no current in A and no flux; with it closed there is a steady current and a constant flux. In both cases the flux through coil B is not changing, so no emf or current is induced in B, there is no magnetic field around wire CD and the compass does not deflect.\n- **Switch just closed or opened:** the current in coil A rapidly rises or falls, so the flux in the iron ring and through coil B changes. This induces an emf and a brief current in coil B and wire CD (in opposite directions for closing and opening, by Lenz's law). The current in CD produces a magnetic field that momentarily deflects the compass needle, which returns once the flux stops changing.",
+   "images": [
+    "assets/img/phys-2024-newington/q24.png"
+   ]
+  },
+  {
+   "ref": "Q25",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.4.2",
+    "12.6.4.3"
+   ],
+   "question": "AC induction motors and electromagnetic braking have features in common. With reference to relevant physics concepts, explain what these are by outlining the operation of both.",
+   "answer": "**AC induction motor.** The stator coils are supplied with AC and produce a rotating magnetic field. The rotor is a 'squirrel cage' of conducting bars joined by end rings, with no electrical connection to the supply. As the stator field rotates past the rotor bars, the flux through the loops of the cage changes, so by Faraday's law emfs and currents are induced in the rotor. By Lenz's law these induced currents produce magnetic fields that oppose the relative motion between the rotor and the rotating field. The induced currents in the bars experience a motor-effect force ($F = lIB$), producing a torque that drags the rotor around in the direction of the rotating field (always slightly slower, so the flux keeps changing).\n\n**Electromagnetic braking.** A conductor (e.g. a metal disc, plate or rail) moves relative to a magnetic field. As parts of the conductor enter or leave the field the flux through them changes, inducing eddy currents (Faraday's law). By Lenz's law the eddy currents produce magnetic fields that oppose the relative motion, so a retarding force acts on the moving conductor. The kinetic energy is converted into heat in the conductor, consistent with conservation of energy; the braking force is larger at higher speeds.\n\n**Common features:**\n- both rely on **relative motion** between a magnetic field and a conductor causing a **changing magnetic flux**;\n- both use **induced currents** (Faraday's law) in a conductor that has **no electrical connection** to the source of the field;\n- in both, **Lenz's law** means the induced currents create fields that **oppose the relative motion**, producing a force (the motor effect on the induced currents) — in the motor this force makes the rotor follow the field, in braking it slows the moving conductor."
+  },
+  {
+   "ref": "Q26(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.2.1"
+   ],
+   "question": "A student observes the movement of a current-carrying conductor in a magnetic field, set up as shown. A current-carrying conductor of length $1.5$ m is placed in a uniform magnetic field of strength $0.5$ T directed into the page. The current through the conductor is $0.6$ A.\n\nDetermine the magnitude of the force experienced by the current-carrying conductor due to the magnetic field.",
+   "answer": "The conductor is perpendicular to the field, so\n$$F = lIB\\sin\\theta = 1.5 \\times 0.6 \\times 0.5 \\times \\sin 90^\\circ = 0.45\\ \\text{N}$$",
+   "images": [
+    "assets/img/phys-2024-newington/q26.png"
+   ]
+  },
+  {
+   "ref": "Q26(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.4.1",
+    "12.6.2.1"
+   ],
+   "question": "A student observes the movement of a current-carrying conductor in a magnetic field, set up as shown. A current-carrying conductor of length $1.5$ m is placed in a uniform magnetic field of strength $0.5$ T directed into the page. The current through the conductor is $0.6$ A.\n\nThe student makes the claim – \"This must be how DC electric motors work.\"\n\nAssess the validity of the statement made by the student and explain their observation as it applies to DC electric motors.",
+   "answer": "The claim is **largely valid**: the conductor moves because of the motor effect — a current-carrying conductor perpendicular to a magnetic field experiences a force $F = lIB\\sin\\theta$, whose direction is given by the right-hand palm rule — and this is the same effect that drives a DC motor.\n\nIn a DC motor the current flows through a coil in a magnetic field. The two sides of the coil perpendicular to the field carry current in opposite (antiparallel) directions, so they experience equal and opposite forces. These forces act on opposite sides of the axle and produce a torque $\\tau = nIAB\\sin\\theta$ that rotates the coil.\n\nHowever, the claim is incomplete: a single straight conductor only experiences a force in one direction and would simply move out of the field. A motor also needs the coil mounted on an axle and a split-ring commutator that reverses the current every half turn, so that the torque keeps acting in the same direction and the rotation is continuous.",
+   "images": [
+    "assets/img/phys-2024-newington/q26.png"
+   ]
+  },
+  {
+   "ref": "Q26(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.4.1"
+   ],
+   "question": "A student investigates a simple DC electric motor. After running for a length of time the student notices that heat is radiating from the motor. The student observes the current in the motor against time and makes the sketch shown in their logbook: the current rises rapidly to a peak just after switch-on, then decreases and levels off at a small, constant, non-zero value after time $t_1$.\n\nExplain the nature of the curve after $t_1$.",
+   "answer": "- When the motor starts the coil is not rotating, so there is no back emf and the current is large (limited only by the coil's resistance).\n- As the coil speeds up, it cuts through the magnetic field and the changing flux induces a **back emf** that, by Lenz's law, opposes the supply emf. The net emf, and so the current, decreases as the speed increases.\n- After $t_1$ the motor has reached its constant maximum speed, so the back emf is constant and the current is constant (the flat part of the graph).\n- The current does not fall to zero: the back emf can never quite equal the supply emf, because a small current is still needed to produce a torque that balances friction and the load, and energy is continuously lost as heat in the resistance of the coils ($I^2R$ — the heat the student noticed). The steady current is the small current needed to supply these losses.\n\n*Note: the paper's sample answer attributes the non-zero current only to heat production; the fuller explanation above (steady speed ⇒ constant back emf, with a small current needed to overcome friction/load and resistive losses) matches its marking criteria.*",
+   "images": [
+    "assets/img/phys-2024-newington/q26c.png"
+   ]
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.3"
+   ],
+   "question": "A new car has a maximum lateral acceleration of $0.96g$, where $1g$ is equivalent to the magnitude of the acceleration due to gravity. This represents the maximum centripetal acceleration the car can withstand without spinning out on a circular track.\n\nThe car is travelling at $126\\ \\text{km h}^{-1}$. What is the minimum radius of the circular path the car can navigate safely? (Assume an unbanked track.)",
+   "answer": "$v = 126\\ \\text{km h}^{-1} = \\dfrac{126}{3.6} = 35\\ \\text{m s}^{-1}$\n\n$a_c = 0.96 \\times 9.8 = 9.408\\ \\text{m s}^{-2}$\n\n$$a_c = \\frac{v^2}{r} \\Rightarrow r = \\frac{v^2}{a_c} = \\frac{35^2}{9.408} = 130\\ \\text{m}$$\n\nThe minimum safe radius is about $130$ m (a smaller radius would need a larger centripetal acceleration).\n\n*Note: the paper's solution calls this the \"maximum\" radius; it is the minimum radius.*"
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "A new car has a maximum lateral acceleration of $0.96g$, where $1g$ is equivalent to the magnitude of the acceleration due to gravity. This represents the maximum centripetal acceleration the car can withstand without spinning out on a circular track.\n\nOn an unbanked track the minimum safe radius at $126\\ \\text{km h}^{-1}$ is about $130$ m. The driver decides to test the limits of the new car on a banked track with the same radius, banked at an angle of $15^\\circ$ to the horizontal.\n\nWhat impact does this have on the maximum speed? Why?",
+   "answer": "The maximum speed **increases**. On an unbanked track the entire centripetal force must come from sideways friction between the tyres and the road. On a banked track the normal force is tilted towards the centre of the circle, so its horizontal component $F_N\\sin 15^\\circ$ provides part of the centripetal force. Friction (and the car's limiting lateral grip) only has to supply the rest, so the total available centripetal force is larger and, since $F_c = \\dfrac{mv^2}{r}$ with $r$ fixed, the car can travel faster before spinning out."
+  },
+  {
+   "ref": "Q28(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "A space organisation is planning to send an astronaut to a distant planet, P. The spacecraft will travel at a speed of $0.8c$ and the journey is expected to take $15$ years, as measured by observers on Earth.\n\nDetermine the distance to P in metres, as measured by observers on Earth.",
+   "answer": "$d = vt = 0.8c \\times 15\\ \\text{years} = 12$ light-years.\n\n$$d = 0.8 \\times 3.0 \\times 10^{8} \\times (15 \\times 365 \\times 24 \\times 3600) = 1.14 \\times 10^{17}\\ \\text{m}$$"
+  },
+  {
+   "ref": "Q28(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "A space organisation is planning to send an astronaut to a distant planet, P. The spacecraft will travel at a speed of $0.8c$ and the journey is expected to take $15$ years, as measured by observers on Earth.\n\nUse time dilation to show that the astronaut will be observed to age only 9 years while travelling.",
+   "answer": "The astronaut's clock measures the proper time $t_0$; Earth measures the dilated time $t = 15$ years.\n\n$$t = \\frac{t_0}{\\sqrt{1 - v^2/c^2}} \\Rightarrow t_0 = t\\sqrt{1 - 0.8^2} = 15 \\times 0.6 = 9\\ \\text{years}$$"
+  },
+  {
+   "ref": "Q28(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.4.2",
+    "12.7.4.1"
+   ],
+   "question": "A space organisation is planning to send an astronaut to a distant planet, P. The spacecraft will travel at a speed of $0.8c$ and the journey is expected to take $15$ years, as measured by observers on Earth.\n\nObservers on Earth measure the distance to P as $12$ light-years, and observe the astronaut to age only $9$ years during the journey. The astronaut is NOT expected to experience time dilation within their own frame of reference.\n\nExplain why the astronaut will still expect to age only 9 years on the journey. Use calculations to support your answer.",
+   "answer": "In the astronaut's own frame their clock runs normally (all inertial frames are equivalent). Instead, in their frame the Earth and P are moving past at $0.8c$, so the distance between them is **length contracted** along the direction of motion:\n\n$$l = l_0\\sqrt{1 - \\frac{v^2}{c^2}} = 12 \\times 0.6 = 7.2\\ \\text{light-years}$$\n\nAt $0.8c$ the journey time measured by the astronaut is\n\n$$t = \\frac{d}{v} = \\frac{7.2\\ \\text{ly}}{0.8c} = 9\\ \\text{years}$$\n\nSo both frames agree the astronaut ages 9 years: Earth explains it by time dilation, the astronaut by the shorter (contracted) distance."
+  },
+  {
+   "ref": "Q29(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.4.6",
+    "12.8.4.4"
+   ],
+   "question": "A stationary uranium nucleus was observed to undergo the following radioactive decay:\n\n$${}^{238}_{92}\\text{U} \\rightarrow {}^{234}_{90}\\text{Th} + \\alpha$$\n\n| Particle | Mass (u) | Mass (kg) |\n|---|---|---|\n| U-238 | 238.0507785 | $3.954 \\times 10^{-25}$ |\n| Th-234 | 234.043594 | $3.887 \\times 10^{-25}$ |\n| Alpha | 4.002603 | $6.648 \\times 10^{-27}$ |\n\nThe kinetic energy of the Th-234 nucleus is $0.072$ MeV.\n\nShow that the kinetic energy of the alpha particle is $4.2$ MeV.",
+   "answer": "Mass defect:\n$$\\Delta m = 238.0507785 - (234.043594 + 4.002603) = 4.5815 \\times 10^{-3}\\ \\text{u}$$\n\nEnergy released ($1\\ \\text{u} = 931.5$ MeV):\n$$E = 4.5815 \\times 10^{-3} \\times 931.5 = 4.268\\ \\text{MeV}$$\n\nThis energy is shared as kinetic energy of the products, so\n$$K_\\alpha = 4.268 - 0.072 = 4.196\\ \\text{MeV} \\approx 4.2\\ \\text{MeV}$$"
+  },
+  {
+   "ref": "Q29(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.4.6"
+   ],
+   "question": "An alpha particle (mass $6.648 \\times 10^{-27}$ kg) emitted in the decay of uranium-238 has a kinetic energy of $4.2$ MeV.\n\nShow that the velocity of the emitted alpha particle is $1.4 \\times 10^{7}\\ \\text{m s}^{-1}$.",
+   "answer": "$K = 4.2 \\times 10^{6} \\times 1.602 \\times 10^{-19} = 6.728 \\times 10^{-13}$ J\n\n$$K = \\tfrac12 mv^2 \\Rightarrow v = \\sqrt{\\frac{2K}{m}} = \\sqrt{\\frac{2 \\times 6.728 \\times 10^{-13}}{6.648 \\times 10^{-27}}} = 1.4 \\times 10^{7}\\ \\text{m s}^{-1}$$"
+  },
+  {
+   "ref": "Q29(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.1.2",
+    "12.6.1.1"
+   ],
+   "question": "An alpha particle (mass $6.648 \\times 10^{-27}$ kg) was directed horizontally with initial velocity $4.5 \\times 10^{5}\\ \\text{m s}^{-1}$ at the midpoint between very long parallel electric plates as shown below (top plate positive, bottom plate negative).\n\nThe plates have a potential difference of $100$ V and are separated by $0.2$ m. Determine the horizontal distance the alpha particle travels before striking the bottom plate. (Ignore gravity.)",
+   "answer": "Charge of an alpha particle: $q = 2e = 3.204 \\times 10^{-19}$ C.\n\n$$E = \\frac{V}{d} = \\frac{100}{0.2} = 500\\ \\text{V m}^{-1}, \\qquad F = qE = 3.204 \\times 10^{-19} \\times 500 = 1.602 \\times 10^{-16}\\ \\text{N}$$\n\n$$a_y = \\frac{F}{m} = \\frac{1.602 \\times 10^{-16}}{6.648 \\times 10^{-27}} = 2.41 \\times 10^{10}\\ \\text{m s}^{-2}\\ \\text{(towards the negative plate)}$$\n\nThe particle starts midway, so it falls $0.1$ m with $u_y = 0$:\n$$s_y = \\tfrac12 a_yt^2 \\Rightarrow t = \\sqrt{\\frac{2 \\times 0.1}{2.41 \\times 10^{10}}} = 2.88 \\times 10^{-6}\\ \\text{s}$$\n\nHorizontal velocity is constant:\n$$s_x = u_xt = 4.5 \\times 10^{5} \\times 2.88 \\times 10^{-6} = 1.3\\ \\text{m}$$",
+   "images": [
+    "assets/img/phys-2024-newington/q29c.png"
+   ]
+  },
+  {
+   "ref": "Q30",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.1.6"
+   ],
+   "question": "The first spectrum below is that of hydrogen observed at rest in the laboratory. The second is the hydrogen spectrum observed from a distant star: every line is shifted towards the red end and each line is broader (thicker).\n\nExplain how the movements of a distant star could change the observed spectrum to the one shown.",
+   "answer": "- **Doppler effect:** when a light source moves relative to an observer, the observed wavelength changes. If the source moves away, successive wavefronts are emitted from further away, so they are spread out: the observed wavelength increases and the frequency decreases (**redshift**). Motion towards the observer compresses the wavefronts, decreasing the wavelength (**blueshift**). The size of the shift depends on the relative (radial) speed.\n- **Shift of the lines:** in the star's spectrum the whole pattern of hydrogen lines (same spacing pattern, so still hydrogen) is displaced towards the red end. This shows the star is moving **away** from Earth (translational motion); the size of the shift gives its recession speed.\n- **Broadening of the lines:** the star is **rotating**. Light from the limb rotating towards us is blueshifted and light from the limb rotating away is redshifted, while the centre is unshifted. The combined light at each line therefore covers a range of wavelengths, so each line is wider. Faster rotation produces broader lines.\n- So the observed spectrum results from the star receding from Earth (overall redshift) while also rotating (line broadening).",
+   "images": [
+    "assets/img/phys-2024-newington/q30-lab.png",
+    "assets/img/phys-2024-newington/q30-star.png"
+   ]
+  },
+  {
+   "ref": "Q31(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "During an investigation, light was passed through two successive polarising filters. One filter was rotated to change the angle and the resulting intensity of light was measured. The data is presented below (intensity readings at $25^\\circ$, $30^\\circ$, $35^\\circ$, $40^\\circ$ and $45^\\circ$ of about $82$, $75$, $67$, $58$ and $50\\ \\text{W m}^{-2}$).\n\nThe investigator concluded that the most appropriate model for the data is a negative, linear relationship between angle and intensity.\n\nJustify the validity of this model based on the collected data.",
+   "answer": "Within the range tested ($25^\\circ$ to $45^\\circ$) the model is valid: intensity decreases steadily as the angle increases (a negative relationship), falling by roughly $8\\ \\text{W m}^{-2}$ for every $5^\\circ$, and the five points lie very close to a single straight line, so a straight line with a negative gradient fits the collected data well.",
+   "images": [
+    "assets/img/phys-2024-newington/q31.png"
+   ]
+  },
+  {
+   "ref": "Q31(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "During an investigation, light was passed through two successive polarising filters. One filter was rotated to change the angle and the resulting intensity of light was measured. The data is presented below (intensity readings at $25^\\circ$, $30^\\circ$, $35^\\circ$, $40^\\circ$ and $45^\\circ$ of about $82$, $75$, $67$, $58$ and $50\\ \\text{W m}^{-2}$).\n\nThe investigator concluded that the most appropriate model for the data is a negative, linear relationship between angle and intensity.\n\nModels gain support or are rejected based on the accuracy of their predictions. As more data is collected outside of the range of angles initially investigated, justify whether this model is likely to gain support or be rejected. Refer to an accepted alternative model in your answer.",
+   "answer": "The linear model is likely to be **rejected**.\n\nThe accepted model is **Malus' law**, $I = I_{\\max}\\cos^2\\theta$. The data actually fits it ($I_{\\max} = 100\\ \\text{W m}^{-2}$: $100\\cos^2 25^\\circ = 82$, $100\\cos^2 45^\\circ = 50$); over a narrow range around $35^\\circ$ the $\\cos^2\\theta$ curve is nearly straight, which is why a line seemed to fit.\n\nOutside this range the predictions diverge. Extrapolating the line (gradient $\\approx -1.6\\ \\text{W m}^{-2}$ per degree) predicts about $122\\ \\text{W m}^{-2}$ at $0^\\circ$ (more than the $100$ incident) and negative intensities beyond about $76^\\circ$, which is impossible. Malus' law predicts a maximum of $100$ at $0^\\circ$, a curve that flattens near $0^\\circ$ and $90^\\circ$, and zero intensity at $90^\\circ$. As new data at small and large angles matches Malus' law and not the line, the linear model's predictions will be inaccurate and it will be rejected.",
+   "images": [
+    "assets/img/phys-2024-newington/q31.png"
+   ]
+  },
+  {
+   "ref": "Q32",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.2"
+   ],
+   "question": "Justify how ONE observation from photoelectric effect investigations was inconsistent with the wave model of light.",
+   "answer": "In photoelectric investigations, light of different intensities (but the same frequency) was shone onto a metal surface and the maximum kinetic energy of the ejected photoelectrons was measured (using the stopping voltage).\n\nThe wave model predicts that a more intense wave delivers more energy per second to each electron, so brighter light should eject electrons with a greater maximum kinetic energy (and that any frequency should eventually eject electrons if bright enough).\n\nThe observation was that increasing the intensity increased the number of photoelectrons (the current) but had **no effect** on their maximum kinetic energy, which depended only on the frequency. This is inconsistent with the wave model, but is explained by the photon model: each electron absorbs a single photon of energy $E = hf$, so $K_{\\max} = hf - \\phi$ is independent of intensity.\n\n(Other valid observations: no emission below a threshold frequency regardless of intensity; emission is instantaneous with no time delay even for very dim light.)"
+  },
+  {
+   "ref": "Q33",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.3.3",
+    "12.8.3.2"
+   ],
+   "question": "The Balmer series is observed when electrons in hydrogen transition to the second atomic shell ($n = 2$).\n\nDetermine the lowest frequency of light observed in the Balmer series.",
+   "answer": "The lowest frequency corresponds to the smallest energy change, the transition $n_i = 3 \\rightarrow n_f = 2$:\n\n$$\\frac{1}{\\lambda} = R\\left(\\frac{1}{n_f^2} - \\frac{1}{n_i^2}\\right) = 1.097 \\times 10^{7}\\left(\\frac{1}{4} - \\frac{1}{9}\\right) = 1.524 \\times 10^{6}\\ \\text{m}^{-1}$$\n\n$$\\lambda = 6.56 \\times 10^{-7}\\ \\text{m}$$\n\n$$f = \\frac{c}{\\lambda} = \\frac{3.00 \\times 10^{8}}{6.56 \\times 10^{-7}} = 4.57 \\times 10^{14}\\ \\text{Hz}$$"
+  },
+  {
+   "ref": "Q34",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.2.1",
+    "12.8.2.2"
+   ],
+   "question": "Early models considered atoms to be the smallest particles. Analyse the contribution of J.J. Thomson and at least ONE other scientist in determining the existence of different subatomic particles.",
+   "answer": "**J.J. Thomson (1897).** Thomson passed cathode rays through perpendicular electric and magnetic fields in an evacuated tube. Deflection by the electric field towards the positive plate showed the rays were negatively charged particles. Adjusting the fields until the beam was undeflected gave the speed $v = E/B$; then, with the magnetic field alone, the radius of the circular path gave the charge-to-mass ratio $q/m = \\dfrac{v}{Br}$. The ratio was about $1.76 \\times 10^{11}\\ \\text{C kg}^{-1}$, roughly 1800 times that of a hydrogen ion, and was the same whatever metal the cathode was made of or whatever gas was in the tube. He concluded that cathode rays are tiny negatively charged particles (electrons) that are a common constituent of all atoms. This showed atoms are **not** indivisible and led to his 'plum pudding' model.\n\n**James Chadwick (1932).** Bombarding beryllium with alpha particles from polonium produced a highly penetrating, uncharged radiation (unaffected by electric or magnetic fields). When it struck paraffin wax, it knocked out protons with high energy — too much for gamma rays. Chadwick measured the speeds of recoiling protons (and nitrogen nuclei) and, applying conservation of momentum and energy to these collisions, showed the radiation consisted of neutral particles with a mass almost equal to the proton's: the **neutron**. This explained why atomic masses are about twice the atomic numbers and completed the picture of the nucleus as protons plus neutrons.\n\n**Analysis.** Both used quantitative measurements together with conservation laws/force analysis to infer the properties (charge, mass) of particles that could not be seen directly. Thomson's work established the first subatomic particle and that atoms have internal structure; Chadwick's identified the missing neutral nuclear particle, together revealing that atoms are made of electrons, protons and neutrons."
+  },
+  {
+   "ref": "Q35(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.8.3.4"
+   ],
+   "question": "Determine the wavelength of an electron moving at $2.0 \\times 10^{7}\\ \\text{m s}^{-1}$.",
+   "answer": "$$\\lambda = \\frac{h}{mv} = \\frac{6.626 \\times 10^{-34}}{9.109 \\times 10^{-31} \\times 2.0 \\times 10^{7}} = 3.6 \\times 10^{-11}\\ \\text{m}$$"
+  },
+  {
+   "ref": "Q35(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.3.4"
+   ],
+   "question": "How was an observation from electron scattering experiments used to support de Broglie's proposal of matter waves?",
+   "answer": "De Broglie proposed that moving particles have a wavelength $\\lambda = \\dfrac{h}{mv}$. Davisson and Germer fired a beam of electrons of known energy at a nickel crystal and measured the intensity of electrons scattered at different angles. They observed a strong maximum in scattered intensity at particular angles (e.g. about $50^\\circ$ for 54 eV electrons) — a **diffraction pattern**, with the regularly spaced atoms of the crystal acting as a diffraction grating.\n\nDiffraction/interference is a wave property that particles alone cannot produce, so this showed electrons behave as waves. Furthermore, the wavelength calculated from the diffraction maxima and the known atomic spacing matched the value predicted by $\\lambda = h/mv$, quantitatively confirming de Broglie's proposal."
+  },
+  {
+   "ref": "Q35(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.3.4"
+   ],
+   "question": "Explain why matter waves have not been observed for objects larger than single molecules.",
+   "answer": "The de Broglie wavelength $\\lambda = \\dfrac{h}{mv}$ is inversely proportional to mass (momentum), and $h = 6.626 \\times 10^{-34}$ J s is extremely small. For larger objects the mass is so great that the wavelength is far smaller than any atom or nucleus (e.g. a $0.1$ kg ball at $10\\ \\text{m s}^{-1}$ has $\\lambda \\approx 7 \\times 10^{-34}$ m). Diffraction is only noticeable when the wavelength is comparable to the size of the gap or grating, and no gaps or gratings exist that small, so wave effects are undetectable."
+  }
+ ]
+}
