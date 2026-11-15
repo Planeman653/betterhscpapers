@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Better HSC Papers</title>
-<meta name="description" content="HSC Mathematics Advanced, Extension 1, Extension 2, Physics and Chemistry trial-paper questions sorted by syllabus topic and dot point, with worked solutions and a PDF builder.">
+<meta name="description" content="HSC Mathematics Advanced, Extension 1, Extension 2, Physics, Chemistry and Biology trial-paper questions sorted by syllabus topic and dot point, with worked solutions and a PDF builder.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
@@ -12,7 +12,7 @@
 <body>
 <header class="topbar"><div class="topbar-inner">
   <a class="brand" href="index.html">Better <span>HSC Papers</span></a>
-  <nav class="tabs"><a href="advanced.html">Advanced</a><a href="extension1.html">Extension 1</a><a href="extension2.html">Extension 2</a><a href="physics.html">Physics</a><a href="chemistry.html">Chemistry</a><a href="submit.html" class="submit-tab">+ Submit a question</a></nav>
+  <nav class="tabs"><a href="advanced.html">Advanced</a><a href="extension1.html">Extension 1</a><a href="extension2.html">Extension 2</a><a href="physics.html">Physics</a><a href="chemistry.html">Chemistry</a><a href="biology.html">Biology</a><a href="submit.html" class="submit-tab">+ Submit a question</a></nav>
 </div></header>
 <main class="landing">
   <section class="hero">
@@ -29,6 +29,7 @@
   <section class="cards">
     <a class="card" href="physics.html"><h2>Physics</h2><div class="big" data-n="physics">–</div><div class="muted" data-p="physics">questions</div></a>
     <a class="card" href="chemistry.html"><h2>Chemistry</h2><div class="big" data-n="chemistry">–</div><div class="muted" data-p="chemistry">questions</div></a>
+    <a class="card" href="biology.html"><h2>Biology</h2><div class="big" data-n="biology">–</div><div class="muted" data-p="biology">questions</div></a>
   </section>
   <section class="recent">
     <h3>Indexed papers</h3>
@@ -38,7 +39,7 @@
 </main>
 <script>
 fetch("data/build/stats.json", {cache: "no-cache"}).then(r => r.json()).then(s => {
-  const short = {advanced: "Advanced", extension1: "Extension 1", extension2: "Extension 2", physics: "Physics", chemistry: "Chemistry"};
+  const short = {advanced: "Advanced", extension1: "Extension 1", extension2: "Extension 2", physics: "Physics", chemistry: "Chemistry", biology: "Biology"};
   for (const [c, v] of Object.entries(s.courses)) {
     const n = document.querySelector(`[data-n="${c}"]`), p = document.querySelector(`[data-p="${c}"]`);
     if (!n) continue;

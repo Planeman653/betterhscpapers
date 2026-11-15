@@ -37,9 +37,9 @@ Community submissions live in data/papers/<course>/community-<course>.json with
 import json, os, re, sys, glob, datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-COURSES = ["advanced", "extension1", "extension2", "physics", "chemistry"]
+COURSES = ["advanced", "extension1", "extension2", "physics", "chemistry", "biology"]
 LABEL = {"advanced": "Mathematics Advanced", "extension1": "Mathematics Extension 1",
-         "extension2": "Mathematics Extension 2", "physics": "Physics", "chemistry": "Chemistry"}
+         "extension2": "Mathematics Extension 2", "physics": "Physics", "chemistry": "Chemistry", "biology": "Biology"}
 
 
 def load_syllabus(c):

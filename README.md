@@ -6,7 +6,7 @@ Static site (GitHub Pages) of HSC trial-paper questions sorted by syllabus — t
 with difficulty ratings, worked solutions / sample answers and a PDF builder.
 
 - Mathematics Advanced, Extension 1, Extension 2 — NESA 11–12 (2024) syllabuses
-- Physics, Chemistry — NESA Stage 6 (2017) syllabuses, Year 12 modules 5–8
+- Physics, Chemistry, Biology — NESA Stage 6 (2017) syllabuses, Year 12 modules 5–8
 
 Layout:
 

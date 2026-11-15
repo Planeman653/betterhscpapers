@@ -15,7 +15,7 @@ import json, os, re, subprocess, sys, datetime, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REPO = os.environ.get("GITHUB_REPOSITORY", "Planeman653/betterhscpapers")
-COURSES = ["advanced", "extension1", "extension2", "physics", "chemistry"]
+COURSES = ["advanced", "extension1", "extension2", "physics", "chemistry", "biology"]
 KEEP = ("kind", "marks", "difficulty", "dotpoints", "question", "options", "correct", "answer",
         "answer_type", "source", "credit", "prev")
 STAFF = ("OWNER", "MEMBER", "COLLABORATOR")
@@ -135,7 +135,7 @@ def build_item(n, q, body, author):
     if q.get("client_id"):
         item["client_id"] = str(q["client_id"])[:40]
     item.setdefault("source", "Community question")
-    item.setdefault("answer_type", "sample" if q["course"] in ("physics", "chemistry") else "worked")
+    item.setdefault("answer_type", "sample" if q["course"] in ("physics", "chemistry", "biology") else "worked")
     if isinstance(item.get("difficulty"), str) and item["difficulty"].isdigit():
         item["difficulty"] = int(item["difficulty"])
     if item.get("credit"):

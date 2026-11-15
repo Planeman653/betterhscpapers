@@ -8,8 +8,9 @@
     extension2: "Mathematics Extension 2",
     physics: "Physics",
     chemistry: "Chemistry",
+    biology: "Biology",
   }[COURSE];
-  const SCIENCE = COURSE === "physics" || COURSE === "chemistry";
+  const SCIENCE = COURSE === "physics" || COURSE === "chemistry" || COURSE === "biology";
   const DIFF = ["", "Easy", "Moderate", "Medium", "Hard", "Very hard"];
   const store = {
     get(k, d) { try { const v = localStorage.getItem("hscq:" + k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
@@ -162,7 +163,7 @@
       ? papers.map((p) => `<label class="switch" style="font-size:13.5px;margin:3px 0"><input type="checkbox" data-paper="${p.id}" ${S.papers.has(p.id) ? "checked" : ""}> ${esc(p.label)}${p.course !== COURSE ? ` <span class="cnt">(${esc(shortCourse(p.course))} paper)</span>` : ""} <span class="cnt" style="color:var(--faint)">${counts[p.id] || 0}</span></label>`).join("")
       : `<span class="cnt">None yet</span>`;
   }
-  const shortCourse = (c) => ({ advanced: "Adv", extension1: "Ext 1", extension2: "Ext 2", physics: "Physics", chemistry: "Chemistry" }[c] || c);
+  const shortCourse = (c) => ({ advanced: "Adv", extension1: "Ext 1", extension2: "Ext 2", physics: "Physics", chemistry: "Chemistry", biology: "Biology" }[c] || c);
 
   /* ---------------- main document ---------------- */
   function qHtml(q, num) {
@@ -196,8 +197,10 @@
   }
 
   function ansLabelOf(q) {
-    const t = q.answer_type || q._paper.answers;
-    return t === "short" ? "Answer" : t === "sample" || (SCIENCE && t !== "worked") ? "Sample answer" : "Worked solution";
+    // an explicit per-question answer_type wins; otherwise science papers are "Sample answer"
+    if (q.answer_type) return q.answer_type === "short" ? "Answer" : q.answer_type === "sample" ? "Sample answer" : "Worked solution";
+    const t = q._paper.answers;
+    return t === "short" ? "Answer" : SCIENCE || t === "sample" ? "Sample answer" : "Worked solution";
   }
   function sourceOf(q) {
     if (q.mine) return `Your question${q.source ? " · " + esc(q.source) : ""} · <a href="submit.html?edit=${encodeURIComponent(q.id)}">Edit</a>`;

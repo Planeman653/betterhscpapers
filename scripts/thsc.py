@@ -15,14 +15,15 @@ import gzip, html, json, os, re, sys, urllib.parse, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LEDGER = os.path.join(ROOT, "data/ledger.json")
-COURSES = ["advanced", "extension1", "extension2", "physics", "chemistry"]
-DAILY = ["extension1", "extension2", "physics", "chemistry"]   # subjects indexed each day (Advanced paused)
+COURSES = ["advanced", "extension1", "extension2", "physics", "chemistry", "biology"]
+DAILY = ["extension1", "extension2", "physics", "chemistry", "biology"]   # subjects indexed each day (Advanced paused)
 PAGES = {"advanced": "Maths/trialpapers_advanced.html", "extension1": "Maths/trialpapers_extension1.html",
          "extension2": "Maths/trialpapers_extension2.html", "physics": "Physics/trialpapers.html",
-         "chemistry": "Chemistry/trialpapers.html"}
+         "chemistry": "Chemistry/trialpapers.html",
+         "biology": "Biology/trialpapers.html"}
 PAGE = "https://thsconline.github.io/s/yr12/{}"
 API = "https://www.thsconline.net/api/v1"
-MIN_YEAR = {"advanced": 2019, "extension1": 2019, "extension2": 2020, "physics": 2019, "chemistry": 2019}
+MIN_YEAR = {"advanced": 2019, "extension1": 2019, "extension2": 2020, "physics": 2019, "chemistry": 2019, "biology": 2019}
 UA = {"User-Agent": "Mozilla/5.0 (hscmathsquestions indexer)"}
 
 

@@ -7,7 +7,8 @@ COURSES = [("advanced", "Mathematics Advanced", "Advanced"),
            ("extension1", "Mathematics Extension 1", "Extension 1"),
            ("extension2", "Mathematics Extension 2", "Extension 2"),
            ("physics", "Physics", "Physics"),
-           ("chemistry", "Chemistry", "Chemistry")]
+           ("chemistry", "Chemistry", "Chemistry"),
+           ("biology", "Biology", "Biology")]
 
 HEAD = """<!doctype html>
 <html lang="en">
@@ -121,7 +122,7 @@ BODY = """
 
 for course, name, short in COURSES:
     html = HEAD.format(title=f"HSC {name} — Better HSC Papers", name=name) + BODY.format(course=course, name=name, tabs=tabs(course),
-        unit="module" if course in ("physics", "chemistry") else "topic",
-        subunit="inquiry question" if course in ("physics", "chemistry") else "subtopic")
+        unit="module" if course in ("physics", "chemistry", "biology") else "topic",
+        subunit="inquiry question" if course in ("physics", "chemistry", "biology") else "subtopic")
     open(os.path.join(ROOT, f"{course}.html"), "w").write(html)
     print("wrote", course + ".html")

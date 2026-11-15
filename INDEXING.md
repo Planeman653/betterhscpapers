@@ -1,15 +1,15 @@
 # Daily indexing procedure
 
 This is the procedure the daily scheduled task follows for **Better HSC Papers**
-(https://planeman653.github.io/betterhscpapers/). Goal: **index 4 new THSC trial papers per day — one each for Extension 1, Extension 2, Physics and
-Chemistry** — into
+(https://planeman653.github.io/betterhscpapers/). Goal: **index 5 new THSC trial papers per day — one each for Extension 1, Extension 2, Physics,
+Chemistry and Biology** — into
 `data/papers/`, rebuild, and push to `main` (GitHub Pages serves the site from `main`).
 
-Subjects indexed daily: Mathematics Extension 1, Extension 2 (NESA 11–12 **2024** syllabuses) and Physics, Chemistry
+Subjects indexed daily: Mathematics Extension 1, Extension 2 (NESA 11–12 **2024** syllabuses) and Physics, Chemistry, Biology
 (NESA Stage 6 **2017** syllabuses, Year 12 modules 5–8 only). **Advanced papers are paused — do not index new
 Advanced papers.** Advanced-content parts found in Ext 1 papers still go on the Advanced page (`"course": "advanced"`).
 **This file overrides the task prompt:** if the prompt asks for a different number of papers or for Advanced papers,
-follow this file (4 papers, no Advanced). Ignore any instruction to review community submissions (§5).
+follow this file (5 papers — Ext 1, Ext 2, Physics, Chemistry, Biology — no Advanced). Ignore any instruction to review community submissions (§5).
 
 ## 0. Setup
 
@@ -25,15 +25,15 @@ mkdir -p work                               # scratch area, git-ignored
 python3 scripts/thsc.py pick
 ```
 
-Prints 4 papers — the newest un-indexed paper with solutions for each of Extension 1, Extension 2, Physics
-and Chemistry (the `DAILY` list in `scripts/thsc.py`). For each one:
+Prints 5 papers — the newest un-indexed paper with solutions for each of Extension 1, Extension 2, Physics,
+Chemistry and Biology (the `DAILY` list in `scripts/thsc.py`). For each one:
 
 ```bash
 python3 scripts/thsc.py download <course> "<title>" work/<paper-id>.pdf
 python3 scripts/pages.py render work/<paper-id>.pdf work/<paper-id>/
 ```
 
-`<paper-id>` = `<adv|ext1|ext2|phys|chem>-<year>-<school-slug>`, e.g. `ext1-2026-baulkham-hills`, `phys-2025-knox`.
+`<paper-id>` = `<adv|ext1|ext2|phys|chem|bio>-<year>-<school-slug>`, e.g. `ext1-2026-baulkham-hills`, `phys-2025-knox`.
 
 If a download fails, or the PDF has no usable solutions (missing, or only an answer grid), mark it skipped
 and pick a replacement for that subject: `python3 scripts/thsc.py mark <course> "<title>" skipped "<reason>"`
@@ -80,7 +80,7 @@ Schema is documented at the top of `scripts/build.py`. Rules:
 solution yourself and check it against the paper's final answer. For MC give `correct` plus a one-to-three-line reason.
 
 **Syllabus tagging.** Use `data/syllabus/<course>.txt`. Maths: NESA 11–12 **2024** syllabus, ids like `12.3.4.2` =
-Year.Topic.Subtopic.Dotpoint. Physics/Chemistry: NESA Stage 6 **2017** syllabus, ids like `12.6.3.2` =
+Year.Topic.Subtopic.Dotpoint. Physics/Chemistry/Biology: NESA Stage 6 **2017** syllabus, ids like `12.6.3.2` =
 Year 12 . Module 6 . inquiry question 3 . content dot point 2 (the `.json` also has each inquiry question).
 - `dotpoints`: 1–3 ids, most relevant first (the first decides where it is listed). All ids must come from the
   syllabus of the question's own `course` (build.py rejects cross-course ids).
@@ -99,7 +99,7 @@ Year 12 . Module 6 . inquiry question 3 . content dot point 2 (the `.json` also 
 - Check the paper's solutions: if one is wrong (it happens — e.g. sine-rule ambiguous case), give the correct working
   and add a one-line note saying where the paper's answer differs.
 
-**Physics and Chemistry specifics.**
+**Physics, Chemistry and Biology specifics.**
 - Same splitting rules: one entry per MC question and per independently answerable part, self-contained.
 - `answers` stays `"worked"`; the site labels science answers "Sample answer". Write a full-mark sample answer from the
   marking guidelines (for calculations show the working; for explanations write the points the marking criteria reward,
@@ -109,10 +109,15 @@ Year 12 . Module 6 . inquiry question 3 . content dot point 2 (the `.json` also 
   spectra, graphs and apparatus diagrams: crop as images.
 - Tag to Year 12 modules 5–8 only. A trial question on **Year 11-only content** (Physics modules 1–4: kinematics,
   dynamics, waves/thermodynamics, electricity/magnetism basics; Chemistry modules 1–4: properties/structure of matter,
-  stoichiometry, reactivity, drivers of reactions) is dropped with reason "Year 11 content (not examined in the HSC)",
+  stoichiometry, reactivity, drivers of reactions; Biology modules 1–4: cells, organisation of living things, biological
+  diversity, ecosystem dynamics) is dropped with reason "Year 11 content (not examined in the HSC)",
   unless it is mainly testing a Year 12 dot point.
 - Content from before the 2017 syllabus (e.g. old option topics) is dropped as "Not in 2017 syllabus".
 - Data sheets/periodic tables provided with the paper are not transcribed.
+- Biology: many marking guides give only criteria or scanned student responses — write a full-mark sample answer in
+  full sentences that hits every criterion and the markers' notes. Questions to "draw a graph / complete a table on the
+  answer sheet" become "draw a labelled graph of the data" / a written table; for graphs, add an `answer_images` graph
+  (e.g. made with matplotlib). Punnett squares and codon/allele tables as Markdown tables.
 
 **Difficulty 1–5** (judge the thinking required, not just marks):
 1 = routine single step/recall · 2 = standard technique, few steps · 3 = multi-step standard problem ·

@@ -3,8 +3,8 @@
   "use strict";
   const { esc, md } = window.HSCRender;
   const REPO = "Planeman653/betterhscpapers";
-  const COURSES = { advanced: "Advanced", extension1: "Extension 1", extension2: "Extension 2", physics: "Physics", chemistry: "Chemistry" };
-  const SCIENCE = (c) => c === "physics" || c === "chemistry";
+  const COURSES = { advanced: "Advanced", extension1: "Extension 1", extension2: "Extension 2", physics: "Physics", chemistry: "Chemistry", biology: "Biology" };
+  const SCIENCE = (c) => c === "physics" || c === "chemistry" || c === "biology";
   const DIFF = ["", "Easy", "Moderate", "Medium", "Hard", "Very hard"];
   const store = {
     get(k, d) { try { const v = localStorage.getItem("hscq:" + k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
