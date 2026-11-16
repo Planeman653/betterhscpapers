@@ -1,0 +1,50 @@
+rules_version = '2';
+// Better HSC Papers — paste into Firebase console → Firestore Database → Rules → Publish.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() { return request.auth != null; }
+    function isAdmin() {
+      return signedIn() && request.auth.token.email_verified == true
+        && request.auth.token.email.lower() in ['jamestanudji@gmail.com'];
+    }
+    function owns(data) { return signedIn() && data.uid == request.auth.uid; }
+    function course(d) { return d.course in ['advanced', 'extension1', 'extension2', 'physics', 'chemistry', 'biology']; }
+    function textOk(d) { return d.question is string && d.question.size() > 0 && d.question.size() < 20000; }
+
+    // ticks and flags a user has made — private
+    match /progress/{uid} {
+      allow read, write: if signedIn() && request.auth.uid == uid;
+    }
+
+    // flagged questions — anyone signed in can flag; only admins can see and manage them
+    match /flags/{id} {
+      allow create: if owns(request.resource.data) && request.resource.data.qid is string
+        && request.resource.data.note.size() <= 1000;
+      allow read, update, delete: if isAdmin();
+    }
+
+    // full community questions — public, live straight away
+    match /submissions/{id} {
+      allow read: if true;
+      allow create: if owns(request.resource.data) && course(request.resource.data) && textOk(request.resource.data);
+      allow update: if isAdmin() || (owns(resource.data) && request.resource.data.uid == resource.data.uid
+        && course(request.resource.data) && textOk(request.resource.data));
+      allow delete: if isAdmin() || owns(resource.data);
+    }
+
+    // question-only submissions waiting for the daily task to add solutions (public so the task can read them)
+    match /queue/{id} {
+      allow read: if true;
+      allow create: if owns(request.resource.data) && course(request.resource.data) && textOk(request.resource.data);
+      allow update: if isAdmin() || (owns(resource.data) && request.resource.data.uid == resource.data.uid
+        && course(request.resource.data) && textOk(request.resource.data));
+      allow delete: if isAdmin() || owns(resource.data);
+    }
+
+    // admin edits / deletions of any question on the site
+    match /overrides/{qid} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+  }
+}

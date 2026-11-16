@@ -23,3 +23,13 @@
   }
   window.HSCRender = { esc, tex, md };
 })();
+
+/* Login state shared by every page. assets/auth.js (a module, loaded after this) fills it in;
+   `ready` resolves once Firebase has reported the first sign-in state (or straight away if logins are off). */
+(function () {
+  let done;
+  window.HSCAuth = window.HSCAuth || { enabled: false, user: null, isAdmin: false, ready: new Promise((r) => (done = r)) };
+  window.HSCAuth._resolve = done;
+  // safety net: never let a slow or blocked Firebase hold the page up
+  setTimeout(() => done && done(), 6000);
+})();

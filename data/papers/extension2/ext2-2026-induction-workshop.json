@@ -1,0 +1,197 @@
+{
+ "id": "ext2-2026-induction-workshop",
+ "course": "extension2",
+ "school": "Harder Induction Workshop",
+ "year": 2026,
+ "type": "Practice set",
+ "thsc": {
+  "viewno": "",
+  "title": "Ext 2 Harder Induction Q's (workshop, 16/11/2026)"
+ },
+ "indexed": "2026-11-16",
+ "answers": "worked",
+ "label": "Harder Induction Workshop 2026",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.4.1"
+   ],
+   "question": "Prove by mathematical induction that\n$$1^3 + 2^3 + \\cdots + n^3 = \\left(\\frac{n(n+1)}{2}\\right)^2$$\nfor all integers $n \\ge 1$.",
+   "answer": "**Step 1 ($n = 1$):** LHS $= 1^3 = 1$, RHS $= \\left(\\frac{1 \\cdot 2}{2}\\right)^2 = 1$. True for $n = 1$.\n\n**Step 2:** Assume true for $n = k$: $\\;1^3 + 2^3 + \\cdots + k^3 = \\dfrac{k^2(k+1)^2}{4}$.\n\n**Step 3:** Prove true for $n = k+1$, i.e. $1^3 + \\cdots + (k+1)^3 = \\dfrac{(k+1)^2(k+2)^2}{4}$.\n$$\\begin{aligned}\n\\text{LHS} &= \\frac{k^2(k+1)^2}{4} + (k+1)^3 \\quad \\text{(by the assumption)}\\\\\n&= \\frac{(k+1)^2\\left[k^2 + 4(k+1)\\right]}{4}\\\\\n&= \\frac{(k+1)^2(k^2 + 4k + 4)}{4}\\\\\n&= \\frac{(k+1)^2(k+2)^2}{4} = \\text{RHS}.\n\\end{aligned}$$\nSo if the result is true for $n = k$, it is true for $n = k+1$. Since it is true for $n = 1$, by mathematical induction it is true for all integers $n \\ge 1$."
+  },
+  {
+   "ref": "Q2",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.4.1"
+   ],
+   "question": "Prove by mathematical induction that\n$$1^2 + 3^2 + \\cdots + (2n+1)^2 = \\tfrac{1}{3}(n+1)(2n+1)(2n+3)$$\nfor all integers $n \\ge 0$.",
+   "answer": "**Step 1 ($n = 0$):** LHS $= 1^2 = 1$, RHS $= \\tfrac13(1)(1)(3) = 1$. True for $n = 0$.\n\n**Step 2:** Assume true for $n = k$: $\\;1^2 + 3^2 + \\cdots + (2k+1)^2 = \\tfrac13(k+1)(2k+1)(2k+3)$.\n\n**Step 3:** Prove true for $n = k+1$, i.e. $1^2 + \\cdots + (2k+3)^2 = \\tfrac13(k+2)(2k+3)(2k+5)$.\n$$\\begin{aligned}\n\\text{LHS} &= \\tfrac13(k+1)(2k+1)(2k+3) + (2k+3)^2 \\quad \\text{(by the assumption)}\\\\\n&= \\tfrac13(2k+3)\\left[(k+1)(2k+1) + 3(2k+3)\\right]\\\\\n&= \\tfrac13(2k+3)(2k^2 + 9k + 10)\\\\\n&= \\tfrac13(2k+3)(k+2)(2k+5) = \\text{RHS}.\n\\end{aligned}$$\nSo if it is true for $n = k$, it is true for $n = k+1$. Since it is true for $n = 0$, by induction it is true for all integers $n \\ge 0$."
+  },
+  {
+   "ref": "Q3",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.4.2"
+   ],
+   "question": "Prove by mathematical induction that for all integers $n \\ge 1$,\n$$\\sqrt{1} + \\sqrt{2} + \\sqrt{3} + \\cdots + \\sqrt{n} \\ge \\frac{2}{3}n\\sqrt{n}.$$",
+   "answer": "**Step 1 ($n = 1$):** LHS $= 1$, RHS $= \\frac23$, and $1 \\ge \\frac23$. True for $n = 1$.\n\n**Step 2:** Assume true for $n = k$: $\\;\\sqrt1 + \\cdots + \\sqrt k \\ge \\frac23 k\\sqrt k$.\n\n**Step 3:** Prove $\\sqrt1 + \\cdots + \\sqrt{k+1} \\ge \\frac23(k+1)\\sqrt{k+1}$.\n\nBy the assumption, $\\;\\sqrt1 + \\cdots + \\sqrt{k+1} \\ge \\frac23 k\\sqrt k + \\sqrt{k+1}$, so it is enough to show\n$$\\frac23 k\\sqrt k + \\sqrt{k+1} \\ge \\frac23(k+1)\\sqrt{k+1} \\iff 2k\\sqrt k \\ge (2k+2)\\sqrt{k+1} - 3\\sqrt{k+1} = (2k-1)\\sqrt{k+1}.$$\nBoth sides are positive for $k \\ge 1$, so squaring is reversible:\n$$4k^3 \\ge (2k-1)^2(k+1) = (4k^2 - 4k + 1)(k+1) = 4k^3 - 3k + 1 \\iff 3k \\ge 1,$$\nwhich is true for $k \\ge 1$. Hence $\\sqrt1 + \\cdots + \\sqrt{k+1} \\ge \\frac23(k+1)\\sqrt{k+1}$.\n\nSo if the result is true for $n = k$ it is true for $n = k+1$; since it is true for $n = 1$, by induction it is true for all integers $n \\ge 1$."
+  },
+  {
+   "ref": "Q4(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.4.1"
+   ],
+   "question": "Consider the expression\n$$S_n = \\frac{1}{2!} + \\frac{2}{3!} + \\frac{3}{4!} + \\cdots + \\frac{n}{(n+1)!}.$$\n\nCalculate $S_n$ for a few small values of $n$.",
+   "answer": "$$S_1 = \\tfrac12, \\quad S_2 = \\tfrac12 + \\tfrac26 = \\tfrac56, \\quad S_3 = \\tfrac56 + \\tfrac{3}{24} = \\tfrac{23}{24}, \\quad S_4 = \\tfrac{23}{24} + \\tfrac{4}{120} = \\tfrac{119}{120}.$$"
+  },
+  {
+   "ref": "Q4(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.4.1"
+   ],
+   "question": "Consider the expression\n$$S_n = \\frac{1}{2!} + \\frac{2}{3!} + \\frac{3}{4!} + \\cdots + \\frac{n}{(n+1)!}.$$\n\nThe first few values are $S_1 = \\frac12$, $S_2 = \\frac56$, $S_3 = \\frac{23}{24}$, $S_4 = \\frac{119}{120}$. Make a conjecture about a formula for $S_n$.",
+   "answer": "Each value is $1 - \\dfrac{1}{(n+1)!}$ (since $2! = 2$, $3! = 6$, $4! = 24$, $5! = 120$), so the conjecture is\n$$S_n = 1 - \\frac{1}{(n+1)!}.$$"
+  },
+  {
+   "ref": "Q4(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.1"
+   ],
+   "question": "Consider the expression\n$$S_n = \\frac{1}{2!} + \\frac{2}{3!} + \\frac{3}{4!} + \\cdots + \\frac{n}{(n+1)!}.$$\n\nProve by mathematical induction that $S_n = 1 - \\dfrac{1}{(n+1)!}$ for all integers $n \\ge 1$.",
+   "answer": "**Step 1 ($n = 1$):** $S_1 = \\frac12$ and $1 - \\frac{1}{2!} = \\frac12$. True for $n = 1$.\n\n**Step 2:** Assume $S_k = 1 - \\dfrac{1}{(k+1)!}$.\n\n**Step 3:** Prove $S_{k+1} = 1 - \\dfrac{1}{(k+2)!}$.\n$$\\begin{aligned}\nS_{k+1} = S_k + \\frac{k+1}{(k+2)!} &= 1 - \\frac{1}{(k+1)!} + \\frac{k+1}{(k+2)!}\\\\\n&= 1 - \\frac{k+2}{(k+2)!} + \\frac{k+1}{(k+2)!}\\\\\n&= 1 - \\frac{1}{(k+2)!}.\n\\end{aligned}$$\nSo if it is true for $n = k$, it is true for $n = k+1$; since it is true for $n = 1$, it is true for all integers $n \\ge 1$ by induction."
+  },
+  {
+   "ref": "Q5",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.4.1",
+    "12.1.4.4"
+   ],
+   "question": "The sequence $u_0, u_1, u_2, \\ldots$ is defined by $u_0 = 0$, $u_1 = 1$ and $u_n = u_{n-1} + u_{n-2}$ for all integers $n \\ge 2$.\n\nProve by induction that for all integers $n \\ge 0$,\n$$u_n = \\frac{1}{\\sqrt5}\\left(\\left(\\frac{1+\\sqrt5}{2}\\right)^n - \\left(\\frac{1-\\sqrt5}{2}\\right)^n\\right).$$",
+   "answer": "Let $\\alpha = \\dfrac{1+\\sqrt5}{2}$ and $\\beta = \\dfrac{1-\\sqrt5}{2}$. These are the roots of $x^2 = x + 1$, so $\\alpha^2 = \\alpha + 1$ and $\\beta^2 = \\beta + 1$. We must prove $u_n = \\dfrac{\\alpha^n - \\beta^n}{\\sqrt5}$.\n\nBecause each term depends on the **two** previous terms, we check two starting cases and assume the result for two consecutive values.\n\n**Step 1:** $n = 0$: $\\dfrac{\\alpha^0 - \\beta^0}{\\sqrt5} = 0 = u_0$. $\\;n = 1$: $\\dfrac{\\alpha - \\beta}{\\sqrt5} = \\dfrac{\\sqrt5}{\\sqrt5} = 1 = u_1$. True for $n = 0$ and $n = 1$.\n\n**Step 2:** Assume true for $n = k-1$ and $n = k$ (for some $k \\ge 1$):\n$$u_{k-1} = \\frac{\\alpha^{k-1} - \\beta^{k-1}}{\\sqrt5}, \\qquad u_k = \\frac{\\alpha^{k} - \\beta^{k}}{\\sqrt5}.$$\n\n**Step 3:** Prove true for $n = k+1$.\n$$\\begin{aligned}\nu_{k+1} = u_k + u_{k-1} &= \\frac{\\alpha^k + \\alpha^{k-1} - \\beta^k - \\beta^{k-1}}{\\sqrt5}\\\\\n&= \\frac{\\alpha^{k-1}(\\alpha + 1) - \\beta^{k-1}(\\beta + 1)}{\\sqrt5}\\\\\n&= \\frac{\\alpha^{k-1}\\alpha^2 - \\beta^{k-1}\\beta^2}{\\sqrt5} \\quad (\\text{since } \\alpha + 1 = \\alpha^2,\\ \\beta + 1 = \\beta^2)\\\\\n&= \\frac{\\alpha^{k+1} - \\beta^{k+1}}{\\sqrt5}.\n\\end{aligned}$$\nSo if the result holds for $n = k-1$ and $n = k$, it holds for $n = k+1$. Since it holds for $n = 0$ and $n = 1$, by induction it holds for all integers $n \\ge 0$."
+  },
+  {
+   "ref": "Q6",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.4.1"
+   ],
+   "question": "Prove by mathematical induction that\n$$\\sin x + \\sin 2x + \\cdots + \\sin nx = \\frac{\\sin\\dfrac{(n+1)x}{2}\\,\\sin\\dfrac{nx}{2}}{\\sin\\dfrac{x}{2}}$$\nfor all positive integers $n$ (where $\\sin\\frac{x}{2} \\ne 0$).",
+   "answer": "**Step 1 ($n = 1$):** RHS $= \\dfrac{\\sin x \\sin\\frac x2}{\\sin\\frac x2} = \\sin x =$ LHS. True for $n = 1$.\n\n**Step 2:** Assume true for $n = k$: $\\;\\sin x + \\cdots + \\sin kx = \\dfrac{\\sin\\frac{(k+1)x}{2}\\sin\\frac{kx}{2}}{\\sin\\frac x2}$.\n\n**Step 3:** Prove $\\;\\sin x + \\cdots + \\sin(k+1)x = \\dfrac{\\sin\\frac{(k+2)x}{2}\\sin\\frac{(k+1)x}{2}}{\\sin\\frac x2}$.\n\nUsing the assumption and $\\sin(k+1)x = 2\\sin\\frac{(k+1)x}{2}\\cos\\frac{(k+1)x}{2}$:\n$$\\text{LHS} = \\frac{\\sin\\frac{(k+1)x}{2}}{\\sin\\frac x2}\\left[\\sin\\frac{kx}{2} + 2\\sin\\frac x2\\cos\\frac{(k+1)x}{2}\\right].$$\nNow, from $\\sin(A + B) - \\sin(A - B) = 2\\cos A\\sin B$ with $A = \\frac{(k+1)x}{2}$, $B = \\frac x2$:\n$$2\\sin\\frac x2\\cos\\frac{(k+1)x}{2} = \\sin\\frac{(k+2)x}{2} - \\sin\\frac{kx}{2}.$$\nSo the bracket equals $\\sin\\frac{(k+2)x}{2}$, and\n$$\\text{LHS} = \\frac{\\sin\\frac{(k+2)x}{2}\\sin\\frac{(k+1)x}{2}}{\\sin\\frac x2} = \\text{RHS}.$$\nSo if it is true for $n = k$, it is true for $n = k+1$; since it is true for $n = 1$, by induction it is true for all positive integers $n$."
+  },
+  {
+   "ref": "Q7",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.4.6"
+   ],
+   "question": "There are $n$ curves in the plane. Every two curves intersect at exactly two distinct points, no three curves intersect at the same point, and each curve on its own divides the plane into two regions (e.g. parabolas).\n\nProve by mathematical induction that the curves divide the plane into $R(n) = n^2 + 1$ regions, for all positive integers $n$.",
+   "answer": "**Step 1 ($n = 1$):** one curve divides the plane into $2$ regions, and $1^2 + 1 = 2$. True for $n = 1$.\n\n**Step 2:** Assume that $k$ such curves divide the plane into $R(k) = k^2 + 1$ regions.\n\n**Step 3:** Add a $(k+1)$th curve. It meets each of the $k$ existing curves at exactly 2 points, and no three curves meet at a point, so it has $2k$ **distinct** intersection points. These $2k$ points cut the new curve into $2k + 1$ pieces.\n\nEach piece passes through one existing region and splits it into two, so each piece adds exactly one region. Therefore\n$$R(k+1) = R(k) + (2k + 1) = k^2 + 1 + 2k + 1 = (k+1)^2 + 1.$$\nSo if the result is true for $n = k$, it is true for $n = k+1$; since it is true for $n = 1$, by induction it is true for all positive integers $n$.\n\n*(Note: for **closed** curves such as circles, each new curve is cut into only $2k$ arcs, and the formula becomes $n^2 - n + 2$.)*"
+  },
+  {
+   "ref": "Q8",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.4.1",
+    "12.1.4.6"
+   ],
+   "question": "In a room of $n$ people ($n \\ge 1$), everyone shakes hands with everyone else exactly once. Prove by mathematical induction that the number of handshakes is\n$$H_n = \\frac{n(n-1)}{2}.$$",
+   "answer": "**Step 1 ($n = 1$):** one person makes no handshakes, and $\\frac{1 \\cdot 0}{2} = 0$. True for $n = 1$.\n\n**Step 2:** Assume that with $k$ people there are $H_k = \\dfrac{k(k-1)}{2}$ handshakes.\n\n**Step 3:** When a $(k+1)$th person enters, the original $k$ people still make $H_k$ handshakes among themselves, and the new person shakes hands once with each of the $k$ others. So\n$$H_{k+1} = \\frac{k(k-1)}{2} + k = \\frac{k(k-1) + 2k}{2} = \\frac{k(k+1)}{2} = \\frac{(k+1)\\big((k+1) - 1\\big)}{2}.$$\nSo if it is true for $n = k$, it is true for $n = k+1$; since it is true for $n = 1$, by induction it is true for all integers $n \\ge 1$."
+  },
+  {
+   "ref": "Q9(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.4"
+   ],
+   "question": "In a group of $n$ people, each has one hat, giving a total of $n$ different hats. They place their hats on a table. Later, each person picks up a hat, not necessarily their own. A situation in which none of the $n$ people picks up their own hat is called a **derangement**. Let $D(n)$ be the number of possible derangements.\n\nTom is one of the $n$ people. In some derangements Tom finds that he and one other person have each other's hat. Show that, for $n > 2$, the number of such derangements is $(n-1)D(n-2)$.",
+   "answer": "There are $n - 1$ choices for the other person (say $X$) with whom Tom swaps hats. Tom has $X$'s hat and $X$ has Tom's hat. The remaining $n - 2$ people have their own $n - 2$ hats, and none of them may get their own, which can happen in $D(n-2)$ ways. So the number of such derangements is $(n-1)D(n-2)$."
+  },
+  {
+   "ref": "Q9(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.4.4"
+   ],
+   "question": "In a group of $n$ people, each has one hat, giving a total of $n$ different hats. They place their hats on a table. Later, each person picks up a hat, not necessarily their own. A situation in which none of the $n$ people picks up their own hat is called a **derangement**. Let $D(n)$ be the number of possible derangements.\n\nGiven that the number of derangements in which Tom and one other person have each other's hat is $(n-1)D(n-2)$, by also considering the remaining possible derangements, show that for $n > 2$,\n$$D(n) = (n-1)\\big[D(n-1) + D(n-2)\\big].$$",
+   "answer": "In any derangement Tom has someone else's hat — say person $X$'s hat — and there are $n - 1$ choices for $X$. For each choice of $X$, either:\n\n- **$X$ has Tom's hat.** The other $n-2$ people are deranged among themselves: $D(n-2)$ ways (this is the case in the previous part).\n- **$X$ does not have Tom's hat.** Then the $n - 1$ people other than Tom share the $n - 1$ hats other than $X$'s. Each of them must avoid exactly one hat: their own, and for $X$, Tom's hat (think of it as $X$'s \"own\" hat). This is a derangement of $n-1$ people: $D(n-1)$ ways.\n\nSo for each of the $n-1$ choices of $X$ there are $D(n-1) + D(n-2)$ derangements, giving\n$$D(n) = (n-1)\\big[D(n-1) + D(n-2)\\big].$$"
+  },
+  {
+   "ref": "Q9(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.4.5"
+   ],
+   "question": "In a group of $n$ people, each has one hat, giving a total of $n$ different hats. They place their hats on a table. Later, each person picks up a hat, not necessarily their own. A situation in which none of the $n$ people picks up their own hat is called a **derangement**. Let $D(n)$ be the number of possible derangements.\n\nGiven that $D(n) = (n-1)\\big[D(n-1) + D(n-2)\\big]$ for $n > 2$, show that\n$$D(n) - nD(n-1) = -\\big[D(n-1) - (n-1)D(n-2)\\big] \\quad \\text{for } n > 2.$$",
+   "answer": "$$\\begin{aligned}\nD(n) - nD(n-1) &= (n-1)D(n-1) + (n-1)D(n-2) - nD(n-1)\\\\\n&= -D(n-1) + (n-1)D(n-2)\\\\\n&= -\\big[D(n-1) - (n-1)D(n-2)\\big].\n\\end{aligned}$$"
+  },
+  {
+   "ref": "Q9(iv)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.5"
+   ],
+   "question": "In a group of $n$ people, each has one hat, giving a total of $n$ different hats. They place their hats on a table. Later, each person picks up a hat, not necessarily their own. A situation in which none of the $n$ people picks up their own hat is called a **derangement**. Let $D(n)$ be the number of possible derangements.\n\nGiven $D(1) = 0$, $D(2) = 1$, and that $D(n) - nD(n-1) = -\\big[D(n-1) - (n-1)D(n-2)\\big]$ for $n > 2$, deduce that $D(n) - nD(n-1) = (-1)^n$ for $n > 1$.",
+   "answer": "Let $E(n) = D(n) - nD(n-1)$. Then $E(2) = D(2) - 2D(1) = 1 = (-1)^2$, and $E(n) = -E(n-1)$ for $n > 2$, so each step multiplies by $-1$:\n$$E(n) = (-1)^{n-2}E(2) = (-1)^{n-2} = (-1)^n.$$\n(For example $E(3) = -1$, $E(4) = 1$, $E(5) = -1$.) Hence $D(n) - nD(n-1) = (-1)^n$ for $n > 1$."
+  },
+  {
+   "ref": "Q9(v)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.5",
+    "12.1.4.1"
+   ],
+   "question": "In a group of $n$ people, each has one hat, giving a total of $n$ different hats. They place their hats on a table. Later, each person picks up a hat, not necessarily their own. A situation in which none of the $n$ people picks up their own hat is called a **derangement**. Let $D(n)$ be the number of possible derangements.\n\nGiven $D(1) = 0$ and $D(n) - nD(n-1) = (-1)^n$ for $n > 1$, prove by mathematical induction that for all integers $n \\ge 1$,\n$$D(n) = n!\\sum_{r=0}^{n}\\frac{(-1)^r}{r!}.$$",
+   "answer": "**Step 1 ($n = 1$):** $1!\\left(\\frac{1}{0!} - \\frac{1}{1!}\\right) = 1 - 1 = 0 = D(1)$. True for $n = 1$.\n\n**Step 2:** Assume $D(k) = k!\\displaystyle\\sum_{r=0}^{k}\\frac{(-1)^r}{r!}$.\n\n**Step 3:** Using $D(k+1) = (k+1)D(k) + (-1)^{k+1}$ (since $k + 1 > 1$):\n$$\\begin{aligned}\nD(k+1) &= (k+1)\\,k!\\sum_{r=0}^{k}\\frac{(-1)^r}{r!} + (-1)^{k+1}\\\\\n&= (k+1)!\\left[\\sum_{r=0}^{k}\\frac{(-1)^r}{r!} + \\frac{(-1)^{k+1}}{(k+1)!}\\right]\\\\\n&= (k+1)!\\sum_{r=0}^{k+1}\\frac{(-1)^r}{r!}.\n\\end{aligned}$$\nSo if it is true for $n = k$, it is true for $n = k + 1$; since it is true for $n = 1$, by induction it is true for all integers $n \\ge 1$."
+  },
+  {
+   "ref": "Q10",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.1",
+    "12.1.4.5"
+   ],
+   "question": "Prove by mathematical induction that\n$$\\sqrt{2 + \\sqrt{2 + \\sqrt{2 + \\cdots + \\sqrt2}}} = 2\\cos\\frac{\\pi}{2^{n+1}}$$\nfor $n \\ge 1$, where there are $n$ lots of $2$ on the left-hand side. (For example, $\\sqrt{2 + \\sqrt2} = 2\\cos\\dfrac{\\pi}{2^{3}}$.)",
+   "answer": "Let $a_n$ be the expression with $n$ twos, so $a_1 = \\sqrt2$ and $a_{k+1} = \\sqrt{2 + a_k}$.\n\n**Step 1 ($n = 1$):** $a_1 = \\sqrt2$ and $2\\cos\\frac{\\pi}{4} = 2 \\cdot \\frac{1}{\\sqrt2} = \\sqrt2$. True for $n = 1$.\n\n**Step 2:** Assume $a_k = 2\\cos\\dfrac{\\pi}{2^{k+1}}$.\n\n**Step 3:** Using $\\cos 2\\theta = 2\\cos^2\\theta - 1$, i.e. $2 + 2\\cos 2\\theta = 4\\cos^2\\theta$, with $\\theta = \\dfrac{\\pi}{2^{k+2}}$:\n$$a_{k+1} = \\sqrt{2 + a_k} = \\sqrt{2 + 2\\cos\\frac{\\pi}{2^{k+1}}} = \\sqrt{4\\cos^2\\frac{\\pi}{2^{k+2}}} = 2\\cos\\frac{\\pi}{2^{k+2}},$$\ntaking the positive root because $0 < \\frac{\\pi}{2^{k+2}} < \\frac{\\pi}{2}$, so the cosine is positive.\n\nSo if it is true for $n = k$, it is true for $n = k + 1$; since it is true for $n = 1$, by induction it is true for all $n \\ge 1$."
+  }
+ ]
+}

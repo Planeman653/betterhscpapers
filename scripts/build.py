@@ -195,7 +195,12 @@ def main():
             else:
                 t = s = None
             item = dict(q)
-            qid = f"{pid}-{q['issue']}" if community and q.get("issue") else f"{pid}-{i:03d}"   # stable when others are deleted
+            if community and q.get("queue_id"):
+                qid = f"{pid}-{q['queue_id']}"           # published from the solution queue (Firestore id)
+            elif community and q.get("issue"):
+                qid = f"{pid}-{q['issue']}"              # legacy GitHub-issue submissions; stable when others are deleted
+            else:
+                qid = f"{pid}-{i:03d}"
             item.update({"id": qid, "paper": pid, "course": c, "topic": t, "subtopic": s, "seq": i})
             item.setdefault("images", []); item.setdefault("answer_images", [])
             out[c]["questions"].append(item)
@@ -222,6 +227,12 @@ def main():
                              "papers": len(out[c]["papers"])} for c in COURSES},
              "papers": sorted(papers_meta, key=lambda m: (-m["year"], m["course"], m["school"]))}
     json.dump(stats, open(os.path.join(ROOT, "data/build/stats.json"), "w"), ensure_ascii=False, indent=1)
+    # queue id -> published question id, so the site can show queued questions as "Live"
+    done = {q["queue_id"]: q["id"] for c in COURSES for q in out[c]["questions"] if q.get("queue_id")}
+    json.dump(done, open(os.path.join(ROOT, "data/build/queue_done.json"), "w"), indent=0)
+    sk = os.path.join(ROOT, "data/queue_skipped.json")
+    skipped = {k: v.get("reason", "") for k, v in (json.load(open(sk)) if os.path.exists(sk) else {}).items()}
+    json.dump(skipped, open(os.path.join(ROOT, "data/build/queue_skipped.json"), "w"), indent=0)
 
 
 if __name__ == "__main__":

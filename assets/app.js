@@ -31,7 +31,13 @@
     basket: new Set(store.get("basket:" + COURSE, [])),
     opened: new Set(),                    // per-question answers opened manually
     prevOpen: new Set(),                  // per-question "previous parts" opened
+    hideDone: store.get("hideDone", false),
+    overrides: {},
   };
+  const A = window.HSCAuth || { enabled: false, user: null, progress: { done: {}, flagged: {} } };
+  const isDone = (id) => !!(A.user && A.progress && A.progress.done[id]);
+  const isFlagged = (id) => !!(A.user && A.progress && A.progress.flagged[id]);
+  const canEdit = (q) => !!(A.user && (A.isAdmin || (q.live && q.owner === A.user.uid)));
 
   /* ---------------- markdown + maths ---------------- */
   const { esc, md } = window.HSCRender;
@@ -52,6 +58,7 @@
       }
     }
     addMine(data);
+    await mergeLive(data);
     for (const q of data.questions) {
       q._order = S.order[q.dotpoints[0]] ?? 1e9;
       q._paper = data.papers[q.paper] || { label: q.paper, year: 0 };
@@ -73,6 +80,40 @@
     });
   }
 
+  // Community questions published from submit.html (Firestore) and admin edits/deletions, merged in at load.
+  async function mergeLive(data) {
+    await Promise.race([A.ready, new Promise((r) => setTimeout(r, 4000))]);
+    if (!A.enabled || !A.liveFor) return;
+    let live;
+    try { live = await A.liveFor(COURSE); } catch (e) { console.warn("live questions", e); return; }
+    S.overrides = live.overrides;
+    const subs = live.submissions.filter((x) => Array.isArray(x.dotpoints) && x.dotpoints.some((d) => S.dp[d]) && x.question);
+    if (subs.length) {
+      const pid = "community-" + COURSE;
+      if (!data.papers[pid]) data.papers[pid] = { id: pid, course: COURSE, school: "Community", year: new Date().getFullYear(), type: "Submitted", label: "Community submissions", answers: "worked" };
+      subs.sort((a, b) => (a.created || 0) - (b.created || 0)).forEach((x, i) => {
+        const dps = x.dotpoints.filter((d) => S.dp[d]);
+        data.questions.push({
+          id: "fs-" + x._id, fsid: x._id, paper: pid, seq: 1000 + i, ref: "Community question", course: COURSE,
+          kind: x.kind === "mc" ? "mc" : "written", marks: Math.max(1, +x.marks || 1), difficulty: Math.min(5, Math.max(1, +x.difficulty || 3)),
+          dotpoints: dps, topic: S.dp[dps[0]].topic, subtopic: S.dp[dps[0]].sub,
+          question: String(x.question || ""), options: Array.isArray(x.options) ? x.options.map(String) : undefined, correct: x.correct,
+          answer: String(x.answer || ""), answer_type: x.answer_type, images: x.images || [], answer_images: x.answer_images || [],
+          prev: Array.isArray(x.prev) ? x.prev : [], source: x.source || "Community question", credit: x.author, owner: x.uid, live: true,
+        });
+      });
+    }
+    data.questions = data.questions.filter((q) => !(live.overrides[q.id] && live.overrides[q.id].deleted));
+    for (const q of data.questions) {
+      const o = live.overrides[q.id];
+      if (!o || !o.fields) continue;
+      Object.assign(q, o.fields);
+      q.edited = true;
+      const dps = (q.dotpoints || []).filter((d) => S.dp[d]);
+      if (dps.length) { q.dotpoints = dps; q.topic = S.dp[dps[0]].topic; q.subtopic = S.dp[dps[0]].sub; }
+    }
+  }
+
   /* ---------------- filtering ---------------- */
   function passesNonTopic(q) {
     if (!S.diff.has(q.difficulty)) return false;
@@ -83,6 +124,7 @@
   }
   function passes(q) {
     if (!passesNonTopic(q)) return false;
+    if (S.hideDone && isDone(q.id)) return false;
     if (S.sel.size && !q.dotpoints.some((d) => S.sel.has(d))) return false;
     return true;
   }
@@ -185,11 +227,12 @@
     const prevShown = S.prevOpen.has(q.id);
     const prevBtn = prev.length ? `<button class="prev-btn${prevShown ? " on" : ""}" data-prev="${q.id}" aria-expanded="${prevShown}">${prevShown ? "Hide" : "Show"} previous part${prev.length === 1 ? "" : "s"} (${prev.length})</button>` : "";
     const prevBlock = prev.length && prevShown ? `<div class="prev-parts"><div class="prev-label">Earlier parts of this question${q.mine || q.source ? "" : " — " + esc(p.label)}</div>${prev.map(prevHtml).join("")}</div>` : "";
-    return `<article class="q" id="${q.id}">
+    return `<article class="q${isDone(q.id) ? " is-done" : ""}" id="${q.id}">
       <div class="q-head"><span class="q-title">Question ${num} <span class="marks">(${q.marks} mark${q.marks === 1 ? "" : "s"})</span></span>
         <span class="diff d${q.difficulty}" title="Difficulty ${q.difficulty}/5 — ${DIFF[q.difficulty]}">${[1, 2, 3, 4, 5].map((i) => `<i class="${i <= q.difficulty ? "f" : ""}"></i>`).join("")}&nbsp;${DIFF[q.difficulty]}</span>
         <span class="grow"></span>
         <span class="q-actions"><label class="pick"><input type="checkbox" data-pick="${q.id}" ${S.basket.has(q.id) ? "checked" : ""}> Add to PDF</label>${prevBtn}</span></div>
+      ${A.enabled ? `<div class="q-tools"><button class="mini done-btn${isDone(q.id) ? " on" : ""}" data-done="${q.id}" title="Tick off questions you've done">${isDone(q.id) ? "✓ Done" : "Mark done"}</button><button class="mini flag-btn${isFlagged(q.id) ? " on" : ""}" data-flag="${q.id}" title="Report a problem with this question">⚑ ${isFlagged(q.id) ? "Flagged" : "Flag"}</button>${canEdit(q) ? `<a class="mini" href="submit.html?edit=${encodeURIComponent(q.id)}&amp;course=${COURSE}">Edit</a><button class="mini danger" data-qdel="${q.id}">Delete</button>` : ""}${q.edited && A.isAdmin ? '<span class="tag">Edited</span>' : ""}</div>` : ""}
       ${prevBlock}<div class="q-body">${md(q.question)}${imgs}</div>${opts}
       <div class="src">${q.mine ? '<span class="tag">Yours</span> ' : q.source ? '<span class="tag">Community</span> ' : ""}Source: ${sourceOf(q)}${q.kind === "mc" ? " (multiple choice)" : ""} · <span class="dps">Dot point${q.dotpoints.length > 1 ? "s" : ""} ${dps}</span></div>
       ${S.showAnswers ? "" : `<div class="ans-toggle"><button class="linkish" data-ans="${q.id}">${show ? "Hide" : "Show"} ${ansLabel.toLowerCase()}</button></div>`}
@@ -204,7 +247,7 @@
   }
   function sourceOf(q) {
     if (q.mine) return `Your question${q.source ? " · " + esc(q.source) : ""} · <a href="submit.html?edit=${encodeURIComponent(q.id)}">Edit</a>`;
-    if (q.source) return `${esc(q.source)}${q.credit ? " · submitted by " + esc(q.credit) : ""}${q.issue ? ` · <a href="https://github.com/Planeman653/betterhscpapers/issues/${+q.issue}" title="Edit or report this question">#${+q.issue}</a>` : ""}`;
+    if (q.source) return `${esc(q.source)}${q.credit ? " · submitted by " + esc(q.credit) : ""}${q.live && A.user && q.owner === A.user.uid ? ' · <span class="tag">Yours</span>' : ""}${q.issue ? ` · <a href="https://github.com/Planeman653/betterhscpapers/issues/${+q.issue}" title="Edit or report this question">#${+q.issue}</a>` : ""}`;
     return `${esc(q._paper.label)}, ${esc(q.ref)}`;
   }
 
@@ -326,6 +369,56 @@
     el.outerHTML = qHtml(q, +num);
   }
 
+  /* ---------------- done / flag / admin ---------------- */
+  async function toggleDone(id) {
+    if (!A.user) { alertBox("Sign in to tick off questions you've done."); A.signIn && A.signIn(); return; }
+    const on = !isDone(id);
+    try { await A.setDone(id, on); } catch (e) { alertBox("Couldn't save — " + e.message); return; }
+    if (S.hideDone && on) render(); else rerenderQ(id);
+    updateProgress();
+  }
+  function updateProgress() {
+    const box = document.getElementById("progress-panel");
+    if (!box) return;
+    box.hidden = !A.enabled;
+    const cnt = document.getElementById("done-count");
+    if (!A.user) { cnt.innerHTML = `<button class="linkish" id="progress-signin">Sign in</button> to tick off questions you've done and flag mistakes.`; return; }
+    const n = S.data.questions.filter((q) => isDone(q.id)).length;
+    cnt.textContent = `${n} of ${S.data.questions.length} questions done`;
+  }
+  function openFlag(id) {
+    if (!A.user) { alertBox("Sign in to flag a question."); A.signIn && A.signIn(); return; }
+    const q = S.data.questions.find((x) => x.id === id);
+    let m = document.getElementById("flag-modal");
+    if (!m) {
+      m = document.createElement("div"); m.id = "flag-modal"; m.className = "modal";
+      m.innerHTML = `<div class="modal-card" role="dialog" aria-labelledby="flag-h"><h3 id="flag-h">Flag this question</h3><p class="soft" id="flag-q"></p>
+        <label class="lab" for="flag-reason">What's wrong?</label>
+        <select id="flag-reason"><option>Wrong answer or solution</option><option>Typo, or maths not displaying</option><option>Missing or wrong diagram</option><option>Wrong dot point or topic</option><option>Wrong difficulty</option><option>Duplicate question</option><option>Spam or inappropriate</option><option>Other</option></select>
+        <label class="lab" for="flag-note">Details <span class="soft">(optional)</span></label><textarea id="flag-note" rows="3" maxlength="1000" placeholder="e.g. the answer should be 3/4, not 4/3"></textarea>
+        <div class="row" style="margin-top:12px"><span style="flex:1"></span><button class="btn" data-fclose>Cancel</button><button class="btn primary" id="flag-send">Send</button></div></div>`;
+      document.body.appendChild(m);
+      m.addEventListener("click", (e) => { if (e.target === m || e.target.closest("[data-fclose]")) m.hidden = true; });
+      document.addEventListener("keydown", (e) => { if (e.key === "Escape") m.hidden = true; });
+    }
+    m.querySelector("#flag-q").textContent = (q.source ? q.source : q._paper.label + ", " + q.ref);
+    m.querySelector("#flag-note").value = "";
+    m.querySelector("#flag-send").onclick = async () => {
+      try { await A.flag({ id: q.id, course: COURSE, label: q.source ? q.source : q._paper.label + ", " + q.ref }, m.querySelector("#flag-reason").value, m.querySelector("#flag-note").value); }
+      catch (e) { alertBox("Couldn't send — " + e.message); return; }
+      m.hidden = true; rerenderQ(q.id); alertBox("Thanks — flagged for review.");
+    };
+    m.hidden = false; m.querySelector("#flag-reason").focus();
+  }
+  async function deleteQ(id) {
+    const q = S.data.questions.find((x) => x.id === id);
+    if (!q || !confirm(`Delete this question from the site?\n\n${q.source || q._paper.label + ", " + q.ref}`)) return;
+    try { if (q.live) await A.deleteSubmission(q.fsid); else await A.deleteQuestion(q.id, COURSE); }
+    catch (e) { alertBox("Couldn't delete — " + e.message); return; }
+    S.data.questions = S.data.questions.filter((x) => x.id !== id);
+    render(); updateBasket(); alertBox(A.isAdmin && !q.live ? "Deleted. Undo it from the Admin page (Edited questions)." : "Deleted.");
+  }
+
   /* ---------------- events ---------------- */
   function bind() {
     const $ = (id) => document.getElementById(id);
@@ -358,6 +451,12 @@
       if (pv) { const id = pv.dataset.prev; S.prevOpen.has(id) ? S.prevOpen.delete(id) : S.prevOpen.add(id); rerenderQ(id); return; }
       const a = e.target.closest("[data-ans]");
       if (a) { const id = a.dataset.ans; S.opened.has(id) ? S.opened.delete(id) : S.opened.add(id); rerenderQ(id); return; }
+      const dn = e.target.closest("[data-done]");
+      if (dn) { toggleDone(dn.dataset.done); return; }
+      const fl = e.target.closest("[data-flag]");
+      if (fl) { openFlag(fl.dataset.flag); return; }
+      const del = e.target.closest("[data-qdel]");
+      if (del) { deleteQ(del.dataset.qdel); return; }
     });
     $("questions").addEventListener("change", (e) => { const id = e.target.dataset.pick; if (!id) return; e.target.checked ? S.basket.add(id) : S.basket.delete(id); updateBasket(); });
     $("add-all").addEventListener("click", () => { const l = sorted(S.data.questions.filter(passes)); l.forEach((q) => S.basket.add(q.id)); render(); updateBasket(); alertBox(`Added ${l.length} questions to the PDF.`); });
@@ -369,6 +468,12 @@
     $("basket-list").addEventListener("click", (e) => { const id = e.target.dataset.unpick; if (id) { S.basket.delete(id); render(); updateBasket(); } });
     $("basket-clear").addEventListener("click", () => { S.basket.clear(); render(); updateBasket(); });
     $("make-pdf").addEventListener("click", () => { close(); buildPdf(); });
+    const hd = $("hide-done");
+    if (hd) { hd.checked = S.hideDone; hd.addEventListener("change", (e) => { S.hideDone = e.target.checked; store.set("hideDone", S.hideDone); refresh(true); }); }
+    const pp = $("progress-panel");
+    if (pp) pp.addEventListener("click", (e) => { if (e.target.id === "progress-signin") A.signIn && A.signIn(); });
+    // signing in/out after the page has loaded
+    document.addEventListener("hscauth", () => { updateProgress(); render(); });
   }
 
   /* ---------------- boot ---------------- */
@@ -379,7 +484,7 @@
     document.getElementById("sources").textContent = ps.length
       ? `${S.data.questions.length} questions from ${ps.length} paper${ps.length === 1 ? "" : "s"}, tagged to the ${S.syl.syllabus} ${COURSE_NAME} syllabus. Content outside that syllabus has been removed.`
       : "No papers indexed yet — new trial papers are added daily.";
-    buildPapers(); buildTree(); bind(); render(); updateBasket();
+    buildPapers(); buildTree(); bind(); render(); updateBasket(); updateProgress();
     const h = decodeURIComponent(location.hash.slice(1));
     if (h && document.getElementById(h)) setTimeout(() => document.getElementById(h).scrollIntoView({ block: "start" }), 50);
   });

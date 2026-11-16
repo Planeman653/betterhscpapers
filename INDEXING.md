@@ -1,15 +1,15 @@
 # Daily indexing procedure
 
 This is the procedure the daily scheduled task follows for **Better HSC Papers**
-(https://planeman653.github.io/betterhscpapers/). Goal: **index 5 new THSC trial papers per day — one each for Extension 1, Extension 2, Physics,
-Chemistry and Biology** — into
+(https://planeman653.github.io/betterhscpapers/). Goal: **index 4 new THSC trial papers per day — one each for Extension 1, Extension 2, Physics and
+Chemistry** — into
 `data/papers/`, rebuild, and push to `main` (GitHub Pages serves the site from `main`).
 
-Subjects indexed daily: Mathematics Extension 1, Extension 2 (NESA 11–12 **2024** syllabuses) and Physics, Chemistry, Biology
-(NESA Stage 6 **2017** syllabuses, Year 12 modules 5–8 only). **Advanced papers are paused — do not index new
-Advanced papers.** Advanced-content parts found in Ext 1 papers still go on the Advanced page (`"course": "advanced"`).
+Subjects indexed daily: Mathematics Extension 1, Extension 2 (NESA 11–12 **2024** syllabuses) and Physics, Chemistry
+(NESA Stage 6 **2017** syllabuses, Year 12 modules 5–8 only). **Advanced and Biology papers are paused — do not index new
+Advanced or Biology papers** (Biology community/queue questions are still processed). Advanced-content parts found in Ext 1 papers still go on the Advanced page (`"course": "advanced"`).
 **This file overrides the task prompt:** if the prompt asks for a different number of papers or for Advanced papers,
-follow this file (5 papers — Ext 1, Ext 2, Physics, Chemistry, Biology — no Advanced). Ignore any instruction to review community submissions (§5).
+follow this file (4 papers — Ext 1, Ext 2, Physics, Chemistry — no Advanced, no Biology). Process the solution queue every run (§5).
 
 ## 0. Setup
 
@@ -25,8 +25,8 @@ mkdir -p work                               # scratch area, git-ignored
 python3 scripts/thsc.py pick
 ```
 
-Prints 5 papers — the newest un-indexed paper with solutions for each of Extension 1, Extension 2, Physics,
-Chemistry and Biology (the `DAILY` list in `scripts/thsc.py`). For each one:
+Prints 4 papers — the newest un-indexed paper with solutions for each of Extension 1, Extension 2, Physics
+and Chemistry (the `DAILY` list in `scripts/thsc.py`). For each one:
 
 ```bash
 python3 scripts/thsc.py download <course> "<title>" work/<paper-id>.pdf
@@ -140,14 +140,33 @@ Spot-check the site: `python3 -m http.server 8765` and open `/<course>.html` wit
 Commit (one commit for the day) and push to `main`:
 `git add -A && git commit -m "Index <n> papers: <labels>" && git pull --rebase -X theirs origin main && python3 scripts/build.py && git add -A && git commit --amend --no-edit && git push origin HEAD:main`
 
-## 5. Community submissions
+## 5. The solution queue (community questions without solutions)
 
-Questions sent from `submit.html` are published **automatically, with no review**, by
-`.github/workflows/submissions.yml` into `data/papers/<course>/community-<course>.json`. Do not review, edit or
-remove them, and do not touch those files (the site owner removes questions by deleting the issue). Just make sure
-`git pull --rebase` before pushing so you don't overwrite a submission that arrived during the run.
+Signed-in users can submit **just a question** on `submit.html`; it waits in the Firestore `queue` collection until
+this run writes the solution. (Questions submitted *with* a full solution go live immediately in Firestore and need
+nothing from you. Do not touch them.) Process **every** waiting item each run, before the day's commit:
+
+```bash
+python3 scripts/queue.py list               # waiting items (published/skipped ones are excluded)
+python3 scripts/queue.py get <id>           # -> work/queue/<id>.json, diagrams saved to assets/img/community-<course>/
+```
+
+For each item, view any diagrams, then complete `work/queue/<id>.json` exactly as for a paper question (§2–3):
+- a full **worked solution / sample answer** in `answer` (verify it — solve it yourself; for MC also set `correct`);
+- `answer_type`, `marks` (estimate from length/difficulty if not given), `difficulty` 1–5, and 1–3 valid `dotpoints`
+  (first = where it is listed; check them against the course's syllabus .txt even if the submitter chose some);
+- tidy the question's LaTeX/Markdown so it stands alone; keep the submitter's `source` and `author`.
+
+Then `python3 scripts/queue.py add work/queue/<id>.json`.
+**Skip** (don't publish) spam, offensive content, non-questions, out-of-syllabus content, exact duplicates of
+questions already on the site, or questions that can't be answered (e.g. missing diagram):
+`python3 scripts/queue.py skip <id> "short reason shown to the submitter"`. Skipping writes `data/queue_skipped.json` —
+commit it.
+
+Run step 4's checks (`build.py --check`, `check_tex.js`, rebuild) and include the queue in the commit message,
+e.g. `Index 4 papers: …; solve 3 queued questions`.
 
 ## 6. Report
 
-Finish with a short summary: papers indexed (questions kept / dropped per paper),
+Finish with a short summary: papers indexed (questions kept / dropped per paper), queued questions solved / skipped,
 anything skipped and why.

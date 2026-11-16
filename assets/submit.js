@@ -2,7 +2,8 @@
 (function () {
   "use strict";
   const { esc, md } = window.HSCRender;
-  const REPO = "Planeman653/betterhscpapers";
+  const A = window.HSCAuth;
+  let EDIT = null;      // what is being edited: {kind: "sub"|"queue"|"repo", id, qid, course}
   const COURSES = { advanced: "Advanced", extension1: "Extension 1", extension2: "Extension 2", physics: "Physics", chemistry: "Chemistry", biology: "Biology" };
   const SCIENCE = (c) => c === "physics" || c === "chemistry" || c === "biology";
   const DIFF = ["", "Easy", "Moderate", "Medium", "Hard", "Very hard"];
@@ -18,10 +19,11 @@
   const blank = (course) => ({
     id: null, course, kind: "written", question: "", options: ["", "", "", ""], correct: "", answer: "", answer_type: SCIENCE(course) ? "sample" : "worked",
     images: [], answer_images: [], marks: 2, difficulty: 3, dotpoints: [],
-    src: { type: "own", school: "", year: "", ref: "", text: "" }, credit: store.get("credit", ""), prev: [],
+    src: { type: "own", school: "", year: "", ref: "", text: "" }, credit: store.get("credit", ""), prev: [], mode: "full",
   });
   let Q = store.get("draft", null) || blank(new URLSearchParams(location.search).get("course") || store.get("lastCourse", "extension1"));
   if (!COURSES[Q.course]) Q.course = "extension1";
+  if (!Q.mode) Q.mode = "full";
 
   /* ---------------- helpers ---------------- */
   function toast(msg, ms) {
@@ -64,12 +66,14 @@
   function problems() {
     const p = [];
     if (!Q.question.trim()) p.push("Write the question.");
+    const full = Q.mode !== "queue";
     if (Q.kind === "mc") {
       if (Q.options.some((o) => !o.trim())) p.push("Fill in all four options.");
-      if (!Q.correct) p.push("Tick the correct option.");
+      if (!Q.correct && full) p.push("Tick the correct option.");
     }
-    if (!Q.answer.trim() && !(Q.kind === "mc" && Q.correct)) p.push("Write the answer.");
-    if (!Q.dotpoints.length) p.push("Pick at least one dot point.");
+    if (full && !Q.answer.trim() && !(Q.kind === "mc" && Q.correct)) p.push("Write the answer (or choose “Just the question” above).");
+    if (full && !Q.dotpoints.length) p.push("Pick at least one dot point.");
+    if (JSON.stringify(Q).length > 900000) p.push("The diagrams are too large — remove some or use smaller images.");
     if (!(Q.marks >= 1 && Q.marks <= 20)) p.push("Marks must be between 1 and 20.");
     if (Q.src.type === "trial" && !Q.src.school.trim()) p.push("Add the school for the trial paper.");
     p.push(...texProblems("Question", Q.question), ...texProblems("Answer", Q.answer));
@@ -187,8 +191,26 @@
     $("src-type").value = Q.src.type; $("src-school").value = Q.src.school; $("src-year").value = Q.src.year; $("src-ref").value = Q.src.ref; $("src-text").value = Q.src.text;
     $("credit").value = Q.credit;
     srcFields();
-    $("form-title").textContent = Q.id ? "Edit your question" : "Submit a question";
-    renderPrev(); renderImgs(); renderMine();
+    document.querySelectorAll("input[name=mode]").forEach((el) => (el.checked = el.value === Q.mode));
+    $("form-title").textContent = !EDIT ? "Submit a question" : EDIT.kind === "repo" || EDIT.others ? "Edit question (admin)" : "Edit your question";
+    modeUi(); renderPrev(); renderImgs();
+  }
+  function modeUi() {
+    const q = Q.mode === "queue", repo = EDIT && EDIT.kind === "repo";
+    document.querySelectorAll("[data-queue-only]").forEach((el) => (el.hidden = !q));
+    document.querySelectorAll("[data-full-only]").forEach((el) => (el.hidden = q));
+    $("mode-field").hidden = !!repo;
+    $("source-box").hidden = !!repo;
+    $("prev-box").hidden = !!repo;
+    $("publish").textContent = repo ? "Save changes" : q ? (EDIT && EDIT.kind === "queue" ? "Save changes" : "Add to the queue") : (EDIT && EDIT.kind === "sub" ? "Save changes" : "Publish to the site");
+    $("publish-hint").hidden = !!repo;
+  }
+  function authUi() {
+    $("off-banner").hidden = A.enabled;
+    $("signin-banner").hidden = !A.enabled || !!A.user;
+    $("publish").disabled = !A.enabled;
+    if (A.user && !Q.credit) { Q.credit = A.user.name.split(" ")[0]; $("credit").value = Q.credit; preview(); }
+    renderMine();
   }
   function srcFields() {
     const t = Q.src.type;
@@ -203,70 +225,92 @@
     preview();
   }
 
-  /* ---------------- saved questions ---------------- */
-  function mine() { return store.get("mine", []); }
-  function renderMine() {
-    const m = mine();
-    $("mine-box").hidden = !m.length;
-    $("mine").innerHTML = m.slice().reverse().map((x) => {
-      const t = x.question.replace(/\$[^$]*\$/g, "…").replace(/[#*_>`]/g, "").replace(/\s+/g, " ").slice(0, 110);
-      return `<div class="mine-row"><div class="mine-main"><b>${esc(COURSES[x.course] || x.course)}</b> · ${esc(x.dotpoints[0] || "")} · ${x.marks} mark${x.marks === 1 ? "" : "s"}${x.sent ? ' · <span class="soft">published</span>' : ""}<div class="soft">${esc(t)}${x.question.length > 110 ? "…" : ""}</div></div>
-        <a class="btn" href="${x.course}.html#${encodeURIComponent(x.id)}">View</a><button type="button" class="btn" data-edit="${esc(x.id)}">Edit</button><button type="button" class="btn" data-del="${esc(x.id)}">Delete</button></div>`;
+  /* ---------------- your questions (Firestore) ---------------- */
+  let PUBLISHED = null;   // queue ids the daily task has already published
+  async function publishedQueue() {
+    const get = (f) => fetch("data/build/" + f, { cache: "no-cache" }).then((r) => (r.ok ? r.json() : {})).catch(() => ({}));
+    if (!PUBLISHED) PUBLISHED = Promise.all([get("queue_done.json"), get("queue_skipped.json")]).then(([d, s]) => { d._skipped = s; return d; });
+    return PUBLISHED;
+  }
+  const snippet = (t) => { const x = String(t || "").replace(/\$[^$]*\$/g, "…").replace(/[#*_>`|]/g, "").replace(/\s+/g, " ").trim(); return x.length > 110 ? x.slice(0, 110) + "…" : x; };
+  async function renderMine() {
+    const box = $("mine-box");
+    if (!A.enabled || !A.user) { box.hidden = true; return; }
+    box.hidden = false;
+    $("mine").innerHTML = `<div class="soft">Loading…</div>`;
+    let m, done;
+    try { [m, done] = await Promise.all([A.mine(), publishedQueue()]); } catch (e) { $("mine").innerHTML = `<div class="soft">Couldn't load your questions (${esc(e.message)}).</div>`; return; }
+    const items = [
+      ...m.submissions.map((x) => ({ ...x, _kind: "sub" })),
+      ...m.queue.map((x) => ({ ...x, _kind: "queue", _pub: done[x._id], _skip: done._skipped[x._id] })),
+    ].sort((a, b) => (b.created || 0) - (a.created || 0));
+    if (!items.length) { $("mine").innerHTML = `<div class="soft">You haven't added any questions yet.</div>`; return; }
+    $("mine").innerHTML = items.map((x) => {
+      const head = `<b>${esc(COURSES[x.course] || x.course)}</b>${x.dotpoints && x.dotpoints[0] ? " · " + esc(x.dotpoints[0]) : ""}`;
+      let status, actions;
+      if (x._kind === "sub") {
+        status = '<span class="tag live">Live</span>';
+        actions = `<a class="btn" href="${x.course}.html#fs-${encodeURIComponent(x._id)}">View</a><a class="btn" href="submit.html?edit=fs-${encodeURIComponent(x._id)}">Edit</a><button type="button" class="btn" data-delsub="${esc(x._id)}">Delete</button>`;
+      } else if (x._pub) {
+        status = '<span class="tag live">Live — solution added</span>';
+        actions = `<a class="btn" href="${x.course}.html#${encodeURIComponent(x._pub)}">View</a>`;
+      } else if (x._skip != null) {
+        status = `<span class="tag">Not added</span> <span class="soft">${esc(x._skip)}</span>`;
+        actions = `<button type="button" class="btn" data-delq="${esc(x._id)}">Delete</button>`;
+      } else {
+        status = '<span class="tag wait">Waiting for solution</span>';
+        actions = `<a class="btn" href="submit.html?edit=queue-${encodeURIComponent(x._id)}">Edit</a><button type="button" class="btn" data-delq="${esc(x._id)}">Delete</button>`;
+      }
+      return `<div class="mine-row"><div class="mine-main">${head} ${status}<div class="soft">${esc(snippet(x.question))}</div></div>${actions}</div>`;
     }).join("");
   }
-  function save(extra) {
-    const pr = problems();
-    if (pr.length) { preview(); $("problems").scrollIntoView({ behavior: "smooth", block: "center" }); toast("Fix the items listed first"); return null; }
-    const r = record();
-    const now = new Date().toISOString();
-    if (!r.id) r.id = "mine-" + Date.now().toString(36);
-    const list = mine();
-    const i = list.findIndex((x) => x.id === r.id);
-    const rec = { ...(i >= 0 ? list[i] : { created: now }), ...r, updated: now, ...(extra || {}) };
-    if (i >= 0) list[i] = rec; else list.push(rec);
-    if (!store.set("mine", list)) { toast("Not enough browser storage — try smaller or fewer images", 4500); return null; }
-    store.set("credit", Q.credit); store.set("lastCourse", Q.course);
-    Q.id = rec.id; store.set("draft", Q);
-    fill(); preview();
-    return rec;
-  }
 
-  /* ---------------- send for review (GitHub issue) ---------------- */
-  function issueBody(rec) {
-    const clean = { ...rec };
-    clean.client_id = rec.id;
-    for (const k of ["id", "created", "updated", "sent", "src"]) delete clean[k];
-    const nImg = (clean.images || []).length + (clean.answer_images || []).length + (clean.prev || []).reduce((a, p) => a + (p.images || []).length, 0);
-    if (nImg) clean.diagrams = { question: (clean.images || []).length, answer: (clean.answer_images || []).length, prev: (clean.prev || []).map((p) => (p.images || []).length) };
-    delete clean.images; delete clean.answer_images;
-    if (clean.prev) clean.prev = clean.prev.map(({ images, ...p }) => p);
-    const head = `New question for **${COURSES[rec.course]}**, dot point ${rec.dotpoints.join(", ")}. It is published automatically when you press **Create**.\n\n` +
-      (nImg ? `**This question has ${nImg} diagram${nImg === 1 ? "" : "s"}** — drag ${nImg === 1 ? "it" : "them"} into this box before submitting (question diagrams first, then answer diagrams).\n\n` : "") +
-      "<!-- Please don't edit the block below. -->\n";
-    return head + "```json\n" + JSON.stringify(clean, null, 2) + "\n```\n";
+  /* ---------------- publish ---------------- */
+  function docData() {
+    const r = record();
+    const d = { course: r.course, kind: r.kind, marks: r.marks, difficulty: r.difficulty, dotpoints: r.dotpoints, question: r.question,
+      answer: r.answer, answer_type: r.answer_type, images: r.images || [], answer_images: r.answer_images || [], source: r.source || "",
+      ref: r.ref || "", author: (r.credit || (A.user && A.user.name) || "").slice(0, 40), prev: r.prev || [], src: r.src };
+    if (r.kind === "mc") { d.options = r.options; d.correct = r.correct || ""; }
+    return d;
   }
-  async function send() {
-    const rec = save({ sent: new Date().toISOString() });
-    if (!rec) return;
-    const title = `[Submission] ${COURSES[rec.course]} ${rec.dotpoints[0]} — ${rec.question.replace(/\$[^$]*\$/g, "…").replace(/\s+/g, " ").slice(0, 60)}`;
-    const body = issueBody(rec);
-    const base = `https://github.com/${REPO}/issues/new?labels=submission&title=${encodeURIComponent(title)}`;
-    let url = base + "&body=" + encodeURIComponent(body);
-    let copied = false;
-    if (url.length > 7500) {
-      try { await navigator.clipboard.writeText(body); copied = true; } catch (e) {}
-      url = base + "&body=" + encodeURIComponent(copied ? "<!-- Paste your question here (it has been copied to your clipboard). -->\n\n" : "<!-- Use 'Download as file' on the submit page and drag the file in here. -->\n\n");
-    }
-    window.open(url, "_blank", "noopener");
-    toast(copied ? "Your question is copied — paste it into the GitHub form and press Create" : "Press Create on GitHub — it goes live within a couple of minutes", 6000);
-  }
-  function download() {
+  async function publish() {
+    if (!A.enabled) { toast("Question submissions aren't open yet"); return; }
+    if (!A.user) { await A.signIn(); await new Promise((r) => setTimeout(r, 300)); if (!A.user) return; }
     const pr = problems();
-    if (pr.length) { preview(); toast("Fix the items listed first"); return; }
-    const r = record(); delete r.src;
-    const blob = new Blob([JSON.stringify(r, null, 2)], { type: "application/json" });
-    const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = `question-${r.course}-${(r.dotpoints[0] || "x").replace(/\./g, "-")}.json`;
-    document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+    if (pr.length) { preview(); $("problems").scrollIntoView({ behavior: "smooth", block: "center" }); toast("Fix the items listed first"); return; }
+    const btn = $("publish"); btn.disabled = true;
+    const data = docData();
+    store.set("credit", Q.credit); store.set("lastCourse", Q.course);
+    let msg, link;
+    try {
+      if (EDIT && EDIT.kind === "repo") {
+        const f = { kind: data.kind, marks: data.marks, difficulty: data.difficulty, dotpoints: data.dotpoints, question: data.question, answer: data.answer,
+          answer_type: data.answer_type, images: data.images, answer_images: data.answer_images };
+        if (data.kind === "mc") { f.options = data.options; f.correct = data.correct; }
+        await A.saveOverride(EDIT.qid, EDIT.course, f);
+        msg = "Saved — your edit is live."; link = `${EDIT.course}.html#${encodeURIComponent(EDIT.qid)}`;
+      } else if (Q.mode === "queue") {
+        const id = await A.addQueue(data, EDIT && EDIT.kind === "queue" ? EDIT.id : null);
+        if (EDIT && EDIT.kind === "sub") await A.deleteSubmission(EDIT.id);
+        msg = "Added to the queue. We'll add the solution, difficulty and dot points and publish it, usually within a day — you can see its status under “Your questions”.";
+        EDIT = { kind: "queue", id };
+      } else {
+        const id = await A.saveSubmission(data, EDIT && EDIT.kind === "sub" ? EDIT.id : null);
+        if (EDIT && EDIT.kind === "queue") await A.deleteQueue(EDIT.id);
+        msg = EDIT && EDIT.kind === "sub" ? "Saved — your changes are live." : "Published! Your question is now on the site.";
+        link = `${data.course}.html#fs-${encodeURIComponent(id)}`;
+        EDIT = { kind: "sub", id };
+      }
+    } catch (e) {
+      btn.disabled = false; toast("Couldn't save — " + (e.code === "permission-denied" ? "you don't have permission to do that" : e.message), 5000); return;
+    }
+    btn.disabled = false;
+    store.set("draft", null);
+    $("done-box").hidden = false;
+    $("done-box").innerHTML = `<b>${esc(msg)}</b>${link ? ` <a href="${link}">View it on the ${esc(COURSES[data.course])} page →</a>` : ""} <button type="button" class="linkish" id="clear2">Add another question</button>`;
+    toast(msg.split(".")[0]);
+    renderMine();
   }
 
   /* ---------------- events ---------------- */
@@ -294,16 +338,14 @@
       }
       if (t.id === "add-prev") { Q.prev.push({ ref: "", marks: 1, question: "", answer: "", images: [] }); renderPrev(); changed(); const ta = $("prev-list").lastElementChild; ta && ta.querySelector("input").focus(); return; }
       if (d.rmprev) { Q.prev.splice(+d.rmprev, 1); renderPrev(); changed(); return; }
-      if (t.id === "save") { if (save()) toast(`Saved — it's on the ${COURSES[Q.course]} page in this browser only`); return; }
-      if (t.id === "send") { send(); return; }
-      if (t.id === "download") { download(); return; }
-      if (t.id === "clear") { startNew(); return; }
-      if (d.edit) { edit(d.edit); return; }
-      if (d.del) {
-        if (!confirm("Delete this question from your question bank?")) return;
-        store.set("mine", mine().filter((x) => x.id !== d.del));
-        if (Q.id === d.del) Q.id = null;
-        fill(); preview(); return;
+      if (t.id === "publish") { publish(); return; }
+      if (t.id === "clear" || t.id === "clear2") { startNew(); return; }
+      if (t.id === "signin-btn") { A.signIn && A.signIn(); return; }
+      if (d.delsub || d.delq) {
+        if (!confirm("Delete this question? This can't be undone.")) return;
+        try { d.delsub ? await A.deleteSubmission(d.delsub) : await A.deleteQueue(d.delq); } catch (err) { toast("Couldn't delete — " + err.message); return; }
+        if (EDIT && (EDIT.id === d.delsub || EDIT.id === d.delq)) startNew();
+        renderMine(); toast("Deleted"); return;
       }
     });
     form.addEventListener("input", (e) => {
@@ -325,6 +367,7 @@
     form.addEventListener("change", async (e) => {
       const t = e.target;
       if (t.name === "correct") { Q.correct = t.value; changed(); return; }
+      if (t.name === "mode") { Q.mode = t.value; modeUi(); changed(); return; }
       if (t.id === "src-type") { Q.src.type = t.value; srcFields(); changed(); return; }
       if (t.dataset.upload) {
         const key = t.dataset.upload;
@@ -335,26 +378,51 @@
     });
   }
   function startNew() {
-    const c = Q.course, credit = Q.credit;
-    Q = blank(c); Q.credit = credit;
+    const c = Q.course, credit = Q.credit, mode = Q.mode;
+    Q = blank(c); Q.credit = credit; Q.mode = mode; EDIT = null;
     store.set("draft", null); history.replaceState(null, "", "submit.html");
+    $("done-box").hidden = true;
     fill(); renderDp(); preview(); window.scrollTo({ top: 0, behavior: "smooth" });
   }
-  function edit(id) {
-    const x = mine().find((m) => m.id === id);
-    if (!x) { toast("That question isn't in this browser"); return; }
-    Q = { ...blank(x.course), ...x, options: x.options || ["", "", "", ""], correct: x.correct || "",
-      src: x.src || { type: x.source ? "other" : "own", school: "", year: "", ref: x.ref || "", text: x.source || "" },
-      credit: x.credit || "", prev: (x.prev || []).map((p) => ({ ref: p.ref, marks: p.marks, question: p.question, answer: p.answer || "", images: p.images || [] })) };
-    for (const k of ["created", "updated", "sent", "source", "ref"]) delete Q[k];
-    history.replaceState(null, "", "submit.html?edit=" + encodeURIComponent(id));
-    fill(); loadSyllabus(Q.course); preview(); window.scrollTo({ top: 0, behavior: "smooth" });
+  function fromDoc(x) {
+    return { ...blank(x.course), course: x.course, kind: x.kind === "mc" ? "mc" : "written", question: x.question || "",
+      options: Array.isArray(x.options) && x.options.length === 4 ? x.options.slice() : ["", "", "", ""], correct: x.correct || "",
+      answer: x.answer || "", answer_type: x.answer_type || (SCIENCE(x.course) ? "sample" : "worked"),
+      images: (x.images || []).slice(), answer_images: (x.answer_images || []).slice(), marks: +x.marks || 2, difficulty: +x.difficulty || 3,
+      dotpoints: (x.dotpoints || []).slice(), src: x.src || { type: x.source ? "other" : "own", school: "", year: "", ref: x.ref || "", text: x.source || "" },
+      credit: x.author || x.credit || "", prev: (x.prev || []).filter((p) => p.dropped == null).map((p) => ({ ref: p.ref || "", marks: p.marks || 1, question: p.question || "", answer: p.answer || "", images: p.images || [] })) };
+  }
+  // ?edit=fs-<id> (your live question) · ?edit=queue-<id> (your queued question) · ?edit=<question id>&course=<c> (admin: any question)
+  async function edit(id, course) {
+    await A.ready;
+    if (!A.enabled) { toast("Editing isn't available yet"); return fill(); }
+    if (!A.user) { toast("Sign in to edit this question", 4000); return fill(); }
+    try {
+      if (id.startsWith("fs-") || id.startsWith("queue-")) {
+        const sub = id.startsWith("fs-"), docId = id.replace(/^(fs|queue)-/, "");
+        const x = sub ? await A.getSubmission(docId) : await A.getQueued(docId);
+        if (!x) { toast("That question no longer exists"); return fill(); }
+        if (x.uid !== A.user.uid && !A.isAdmin) { toast("You can only edit your own questions"); return fill(); }
+        Q = fromDoc(x); Q.mode = sub ? "full" : "queue"; EDIT = { kind: sub ? "sub" : "queue", id: docId, others: x.uid !== A.user.uid };
+      } else {
+        if (!A.isAdmin) { toast("Only admins can edit this question"); return fill(); }
+        const data = await fetch("data/build/" + course + ".json", { cache: "no-cache" }).then((r) => r.json());
+        const x = data.questions.find((q) => q.id === id);
+        if (!x) { toast("Question not found"); return fill(); }
+        const o = await A.getOverride(id);
+        Q = fromDoc({ ...x, ...(o && o.fields ? o.fields : {}), course }); Q.mode = "full";
+        EDIT = { kind: "repo", qid: id, course };
+      }
+    } catch (e) { toast("Couldn't load the question — " + e.message, 5000); return fill(); }
+    fill(); loadSyllabus(Q.course); preview(); window.scrollTo({ top: 0 });
   }
 
   function init() {
     bind();
-    const e = new URLSearchParams(location.search).get("edit");
-    if (e) edit(e); else { fill(); loadSyllabus(Q.course); preview(); }
+    const ps = new URLSearchParams(location.search), e = ps.get("edit");
+    fill(); loadSyllabus(Q.course); preview(); authUi();
+    if (A.onChange) A.onChange(authUi); else document.addEventListener("hscauth", authUi);
+    A.ready.then(() => { authUi(); if (e) edit(e, ps.get("course")); });
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init); else init();
 })();

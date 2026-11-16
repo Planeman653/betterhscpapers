@@ -24,7 +24,9 @@ HEAD = """<!doctype html>
 <script defer src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
 <link rel="stylesheet" href="assets/style.css">
+<script src="assets/firebase-config.js"></script>
 <script defer src="assets/render.js"></script>
+<script type="module" src="assets/auth.js"></script>
 <script defer src="assets/app.js"></script>
 </head>"""
 
@@ -54,6 +56,11 @@ BODY = """
   </div>
   <div class="panel-title">Question type</div>
   <div class="chips"><button class="chip on" data-kind="mc">Multiple choice</button><button class="chip on" data-kind="written">Written</button></div>
+  <div id="progress-panel" hidden>
+    <div class="panel-title">Your progress</div>
+    <div class="soft" id="done-count" style="font-size:13.5px;margin-bottom:6px"></div>
+    <label class="switch"><input type="checkbox" id="hide-done"> Hide questions I've done</label>
+  </div>
   <div class="panel-title">Answers</div>
   <label class="switch"><input type="checkbox" id="answers"> Show all answers</label>
   <div class="panel-title">Sort &amp; group</div>
