@@ -58,6 +58,7 @@
     const list = Q.filter((q) => !filter || q.course === filter);
     const courses = [...new Set(Q.map((q) => q.course))];
     $("saved-tools").hidden = !Q.length;
+    if (!Q.length) $("pdf-box").hidden = true;
     $("saved-courses").innerHTML = courses.length > 1 ? [["", "All"], ...courses.map((c) => [c, NAMES[c].replace("Mathematics ", "")])]
       .map(([c, n]) => `<button type="button" class="chip${filter === c ? " on" : ""}" data-course="${c}">${esc(n)} <b>${c ? Q.filter((q) => q.course === c).length : Q.length}</b></button>`).join("") : "";
     if (!Q.length) { $("saved").innerHTML = `<div class="none">No saved questions yet. Press <b>☆ Save</b> on any question to add it here.</div>`; return; }
@@ -67,6 +68,52 @@
       html += card(q, ++n);
     }
     $("saved").innerHTML = `<div class="doc">${html}</div>`;
+    if (!$("pdf-box").hidden) pdfCount();
+  }
+
+  /* ---------------- PDF of the saved questions shown (respects the subject filter) ---------------- */
+  function pdfList() {
+    const list = Q.filter((q) => !filter || q.course === filter);
+    if ($("pdf-order").value === "diff") return list.slice().sort((a, b) => a.difficulty - b.difficulty);
+    return list;
+  }
+  function pdfCount() {
+    const l = pdfList();
+    $("pdf-count").textContent = `${l.length} question${l.length === 1 ? "" : "s"} · ${l.reduce((a, q) => a + (+q.marks || 0), 0)} marks`;
+  }
+  function makePdf() {
+    const qs = pdfList();
+    if (!qs.length) { toast("No saved questions to print"); return; }
+    const courses = [...new Set(qs.map((q) => q.course))];
+    const sub = courses.map((c) => NAMES[c]).join(", ");
+    const title = $("pdf-title").value.trim() || (courses.length === 1 ? `${NAMES[courses[0]]} — Saved questions` : "Saved questions");
+    const ansMode = $("pdf-answers").value, space = $("pdf-space").value, showSrc = $("pdf-src").checked;
+    const total = qs.reduce((a, q) => a + (+q.marks || 0), 0);
+    let h = `<h1>${esc(title)}</h1><div class="p-sub">${esc(sub)} · ${qs.length} questions · ${total} marks</div>`;
+    qs.forEach((q, i) => {
+      const opts = q.kind === "mc" && q.options ? `<div class="opts ${q.options.every((o) => o.includes("![") || o.length < 38) ? "short" : ""}">${q.options.map((o, k) => `<div><b>(${"ABCD"[k]})</b><span>${md(o, true)}</span></div>`).join("")}</div>` : "";
+      const imgs = (q.images || []).map((s) => `<img src="${esc(s)}">`).join("");
+      const ansImgs = (q.answer_images || []).map((s) => `<img src="${esc(s)}">`).join("");
+      const ans = `<div class="ans"><div class="ans-label">${ansLabel(q)}${q.kind === "mc" && q.correct ? " — " + q.correct : ""}</div><div class="ans-body">${md(q.answer)}${ansImgs}</div></div>`;
+      const prev = (q.prev || []).filter((x) => x.dropped == null);
+      const prevH = prev.length ? `<div class="p-prev">${prev.map((x) => `<div><b>${esc(x.ref)}</b> ${md(x.question)}</div>`).join("")}</div>` : "";
+      h += `<div class="pq"><div class="pq-head">Question ${i + 1} <span>(${q.marks} mark${q.marks === 1 ? "" : "s"})</span></div>${prevH}<div class="q-body">${md(q.question)}${imgs}</div>${opts}`
+        + (showSrc ? `<div class="src">${courses.length > 1 ? esc(NAMES[q.course]) + " · " : ""}Source: ${esc(q._src)}</div>` : "")
+        + (space !== "none" && q.kind !== "mc" && ansMode !== "inline" ? `<div class="work ${space}"></div>` : "")
+        + (ansMode === "inline" ? ans : "") + `</div>`;
+    });
+    if (ansMode === "end") {
+      h += `<div class="key"><h2>Answers</h2>` + qs.map((q, i) => `<div class="pq"><div class="pq-head">Question ${i + 1}</div><div class="ans-body">${q.kind === "mc" && q.correct ? `<p><b>${q.correct}</b></p>` : ""}${q.kind === "mc" && String(q.answer || "").replace(/\*/g, "").trim() === q.correct ? "" : md(q.answer)}${(q.answer_images || []).map((s) => `<img src="${esc(s)}">`).join("")}</div></div>`).join("") + `</div>`;
+    }
+    const root = $("print-root");
+    root.innerHTML = h;
+    document.body.classList.add("printing");
+    const prevTitle = document.title; document.title = title;
+    const waits = [...root.querySelectorAll("img")].map((im) => (im.complete ? 0 : new Promise((r) => { im.onload = im.onerror = r; })));
+    Promise.all(waits).then(() => setTimeout(() => {
+      window.print();
+      setTimeout(() => { document.body.classList.remove("printing"); root.innerHTML = ""; document.title = prevTitle; }, 500);
+    }, 150));
   }
 
   async function render() {
@@ -107,6 +154,9 @@
     });
     $("saved-courses").addEventListener("click", (e) => { const b = e.target.closest("[data-course]"); if (b) { filter = b.dataset.course; draw(); } });
     $("saved-answers").addEventListener("change", (e) => { showAll = e.target.checked; draw(); });
+    $("pdf-open").addEventListener("click", () => { const b = $("pdf-box"); b.hidden = !b.hidden; pdfCount(); });
+    $("pdf-order").addEventListener("change", pdfCount);
+    $("make-pdf").addEventListener("click", makePdf);
     A.ready.then(render);
     if (A.onChange) A.onChange(render); else document.addEventListener("hscauth", render);
   });

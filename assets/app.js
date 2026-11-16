@@ -295,7 +295,7 @@
 
   function pagerHtml(total, pages) {
     if (pages <= 1) return "";
-    const from = S.page * perPage() + 1, to = Math.min(total, (S.page + 1) * perPage());
+    const from = (S.perPage > 0 ? S.page * S.perPage : 0) + 1, to = Math.min(total, (S.page + 1) * perPage());
     const nums = [];
     for (let p = 0; p < pages; p++) {
       if (p === 0 || p === pages - 1 || Math.abs(p - S.page) <= 2) nums.push(p);
@@ -318,7 +318,7 @@
     }
     const pages = Math.max(1, Math.ceil(all.length / perPage()));
     S.page = Math.min(Math.max(0, S.page || 0), pages - 1);
-    const start = S.page * perPage(), slice = all.slice(start, start + perPage());
+    const start = (S.perPage > 0 ? S.page * S.perPage : 0), slice = all.slice(start, start + perPage());
     // contents: every topic, linking to the page where it starts
     let contents = "";
     if (S.group !== "none") {
@@ -326,24 +326,31 @@
       all.forEach((x, i) => { if (!seen.has(x.t)) seen.set(x.t, { i, n: 0 }); seen.get(x.t).n++; });
       for (const [t, v] of seen) contents += `<li><a href="#topic-${t}" data-topic="${t}" data-tpage="${Math.floor(v.i / perPage())}">${esc(S.topic[t].name)}</a> <span class="n">(${v.n})</span></li>`;
     }
-    let html = pagerHtml(all.length, pages), lastT = null, lastG = null;
+    let html = pagerHtml(all.length, pages), lastT = null, lastG = null, lastD = null;
+    const dpHeads = S.group === "subtopic" && S.sort === "syllabus";   // dot-point headings inside each subtopic
+    const attrs = (h, t, sb, dp) => `data-h="${h}" data-t="${esc(t)}"${sb ? ` data-s="${esc(sb)}"` : ""}${dp ? ` data-dp="${esc(dp)}"` : ""}`;
     slice.forEach((x, k) => {
       if (x.t !== lastT && x.t !== "_") {
         const tp = S.topic[x.t];
         const cont = all[start + k - 1] && all[start + k - 1].t === x.t;
-        html += `<h2 class="topic-h" id="topic-${x.t}">${esc(tp.name)}${cont ? ' <span class="soft" style="font-size:14px;font-family:var(--sans);font-weight:400">(continued)</span>' : ""}${S.syl.years.length > 1 ? ` <span style="font-size:14px;font-family:var(--sans);color:var(--muted);font-weight:400">Year ${tp.year}</span>` : ""}</h2>`;
+        html += `<h2 class="topic-h" id="topic-${x.t}" ${attrs("t", x.t)}>${esc(tp.name)}${cont ? ' <span class="soft" style="font-size:14px;font-family:var(--sans);font-weight:400">(continued)</span>' : ""}${S.syl.years.length > 1 ? ` <span style="font-size:14px;font-family:var(--sans);color:var(--muted);font-weight:400">Year ${tp.year}</span>` : ""}</h2>`;
         lastG = null;
       }
       if (x.g !== lastG) {
+        lastD = null;
         if (S.group === "subtopic") {
           const sb = S.sub[x.g];
-          if (!(sb.name === S.topic[x.t].name && S.topic[x.t].subtopics.length === 1)) html += `<h3 class="sub-h">${esc(sb.name)}${sb.inquiry ? `<span class="iq">Inquiry question: ${esc(sb.inquiry)}</span>` : ""}</h3>`;
+          if (!(sb.name === S.topic[x.t].name && S.topic[x.t].subtopics.length === 1)) html += `<h3 class="sub-h" ${attrs("s", x.t, x.g)}>${esc(sb.name)}${sb.inquiry ? `<span class="iq">Inquiry question: ${esc(sb.inquiry)}</span>` : ""}</h3>`;
         } else if (S.group === "dotpoint") {
-          html += `<h3 class="sub-h"><span class="dpid">${x.g}</span>${md(S.dp[x.g].text, true)}</h3>`;
+          html += `<h3 class="sub-h" ${attrs("d", x.t, S.dp[x.g] && S.dp[x.g].sub, x.g)}><span class="dpid">${x.g}</span>${md(S.dp[x.g].text, true)}</h3>`;
         }
       }
+      const d0 = x.q.dotpoints[0];
+      if (dpHeads && d0 !== lastD && S.dp[d0]) {
+        html += `<h4 class="dp-h" ${attrs("d", x.t, x.g, d0)}><span class="dpid">${esc(d0)}</span><span class="dpt">${md(S.dp[d0].text, true)}</span></h4>`;
+        lastD = d0;
+      }
       lastT = x.t; lastG = x.g;
-      CTX[x.q.id] = { t: x.t, dp: S.group === "dotpoint" ? x.g : (x.q.dotpoints.find((d) => S.dp[d]) || x.q.dotpoints[0]) };
       html += qHtml(x.q, start + k + 1);
     });
     html += pagerHtml(all.length, pages);
@@ -351,29 +358,48 @@
     ctxKey = null; ctxSoon();
     contentsEl.innerHTML = S.group === "none" ? "" : `<h2>Contents</h2><ul>${contents}</ul>`;
   }
-  /* ---------------- sticky header: current topic + dot point ---------------- */
-  const CTX = {};
-  let ctxKey = null, ctxQueued = false;
+  /* ---------------- sticky header: picks up each topic / subtopic / dot-point heading as it scrolls up ---------------- */
+  let ctxKey = null, ctxQueued = false, H1 = 0, H2 = 0;
   function ctxSoon() { if (!ctxQueued) { ctxQueued = true; requestAnimationFrame(() => { ctxQueued = false; updateCtx(); }); } }
+  function ctxContent(h) {
+    const tp = S.topic[h.dataset.t], sb = h.dataset.s && S.sub[h.dataset.s], dp = h.dataset.dp, d = dp && S.dp[dp];
+    const showSub = sb && !(tp && sb.name === tp.name);
+    return `<div class="ctx-row1"><span class="ctx-topic">${esc(tp ? tp.name : "")}</span>${showSub ? `<span class="ctx-sub">${esc(sb.name)}</span>` : ""}</div>
+      <div class="ctx-dpw"><div class="ctx-dp">${d ? `<span class="dpid">${esc(dp)}</span><span class="dpt">${md(d.text, true)}</span>` : ""}</div></div>`;
+  }
   function updateCtx() {
     const bar = document.getElementById("ctx-bar");
     if (!bar) return;
     const tb = document.querySelector(".topbar");
-    const top = tb && getComputedStyle(tb).position === "sticky" ? tb.getBoundingClientRect().bottom : 0;
-    document.getElementById("ctx-wrap").style.top = Math.max(0, top) + "px";
-    const line = Math.max(0, top) + 48;
-    const arts = document.querySelectorAll("#questions article.q");
-    // last question whose top has scrolled up to the bar
-    let lo = 0, hi = arts.length - 1, cur = null;
-    while (lo <= hi) { const m = (lo + hi) >> 1; if (arts[m].getBoundingClientRect().top <= line) { cur = arts[m]; lo = m + 1; } else hi = m - 1; }
-    const c = cur && CTX[cur.id];
-    const key = c ? c.t + "|" + c.dp : null;
-    if (key === ctxKey) return;
-    ctxKey = key;
-    if (!key) { bar.hidden = true; return; }
-    const tp = S.topic[c.t], d = S.dp[c.dp];
-    bar.innerHTML = `<span class="ctx-topic">${esc(tp ? tp.name : "")}</span>${d ? `<span class="ctx-dp"><b>${esc(c.dp)}</b> ${md(d.text, true)}</span>` : ""}`;
-    bar.hidden = false;
+    const top = Math.max(0, tb && getComputedStyle(tb).position === "sticky" ? tb.getBoundingClientRect().bottom : 0);
+    document.getElementById("ctx-wrap").style.top = top + "px";
+    const hs = document.querySelectorAll("#questions [data-h]");
+    // the current heading: the last one that has reached the bar (topics at its top edge, the rest under its first row)
+    let cur = -1;
+    for (let i = 0; i < hs.length; i++) {
+      const y = hs[i].getBoundingClientRect().top;
+      if (y <= (hs[i].dataset.h === "t" ? top : top + H1)) cur = i;
+      else if (y > top + H1) break;
+    }
+    if (cur < 0) { bar.hidden = true; ctxKey = null; return; }
+    const h = hs[cur], key = [h.dataset.t, h.dataset.s, h.dataset.dp].join("|");
+    if (key !== ctxKey || bar.hidden) {
+      ctxKey = key; bar.innerHTML = ctxContent(h); bar.hidden = false;
+      H1 = bar.querySelector(".ctx-row1").offsetHeight;
+      H2 = bar.querySelector(".ctx-dp").offsetHeight;
+    }
+    // the next heading pushes the old one out: a new topic pushes the whole bar up, anything else pushes the dot-point row
+    const next = hs[cur + 1];
+    let shift = 0, h2 = H2;
+    if (next) {
+      const y = next.getBoundingClientRect().top;
+      if (next.dataset.h === "t") shift = Math.min(0, y - (top + H1 + H2));
+      else h2 = Math.max(0, Math.min(H2, y - (top + H1)));
+    }
+    bar.style.transform = shift ? `translateY(${shift}px)` : "";
+    const w = bar.querySelector(".ctx-dpw");
+    w.style.height = h2 + "px";
+    w.firstElementChild.style.transform = h2 < H2 ? `translateY(${h2 - H2}px)` : "";
   }
 
   function goPage(p, anchor) {

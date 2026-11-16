@@ -373,7 +373,7 @@ math-field::part(menu-toggle){display:none}
 #progress-panel > .panel-title:first-child{margin-top:14px}
 
 /* KaTeX's hidden MathML is position:absolute — keep it inside scroll boxes so it can't stretch the page */
-.dp-list,.palette,.sub-preview,.tree,.acct-pop{position:relative}
+.dp-list,.palette,.sub-preview,.tree{position:relative}
 .sub-preview{position:sticky}
 
 /* ---------- submit: bold publish button, image drop zones ---------- */
@@ -416,19 +416,31 @@ textarea.over{outline:2px dashed var(--accent);outline-offset:2px}
   .topbar-inner .tabs{order:2;width:100%}
   .topbar-inner .spacer,.topbar-inner .filters-btn,.topbar-inner .basket-btn{order:3}
 }
-/* sticky "where am I" header on course pages */
+/* sticky "where am I" header on course pages: picks up topic / subtopic / dot-point headings as they scroll up */
 .ctx-wrap{position:sticky;top:57px;height:0;z-index:20;margin:0 -36px}
-.ctx-bar{position:absolute;left:0;right:0;top:0;display:flex;flex-direction:column;gap:1px;padding:7px 36px 8px;background:var(--paper);border-bottom:1px solid var(--line);box-shadow:0 4px 10px -8px rgba(0,0,0,.35);font-size:13.5px;line-height:1.35}
-.ctx-topic{font-family:var(--serif);font-weight:600;font-size:15.5px;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.ctx-dp{color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.ctx-dp b{color:var(--ink);font-weight:600;margin-right:4px}
-.ctx-dp p{display:inline;margin:0}
-article.q,.topic-h,.sub-h{scroll-margin-top:130px}
+.ctx-bar{position:absolute;left:0;right:0;top:0;background:var(--paper);border-bottom:1px solid var(--line);box-shadow:0 4px 10px -8px rgba(0,0,0,.35);will-change:transform}
+.ctx-row1{display:flex;align-items:baseline;gap:12px;min-width:0;padding:8px 36px 6px;background:var(--head);color:var(--head-ink)}
+.ctx-topic{font-family:var(--serif);font-weight:600;font-size:21px;line-height:1.25;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex:0 1 auto;min-width:0}
+.ctx-sub{font-size:14px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex:0 10 auto;min-width:0}
+.ctx-sub::before{content:"›";margin-right:10px;color:var(--faint)}
+.ctx-dpw{overflow:hidden}
+.ctx-dp:not(:empty){display:flex;gap:8px;align-items:baseline;padding:6px 36px 7px;font-size:13.5px;line-height:1.4;color:var(--ink)}
+.ctx-dp .dpt{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.ctx-dp .dpt p,.dp-h .dpt p{display:inline;margin:0}
+.ctx-dp .dpid,.dp-h .dpid{font-weight:700;font-size:12.5px;color:var(--accent);white-space:nowrap;flex:none}
+/* dot-point headings between the questions */
+.dp-h{display:flex;gap:8px;align-items:baseline;margin:20px 0 6px;padding:6px 10px;font-size:14.5px;font-weight:500;line-height:1.45;border-left:3px solid var(--accent);background:var(--chip);border-radius:0 6px 6px 0}
+.sub-h + .dp-h{margin-top:10px}
+article.q,.topic-h,.sub-h,.dp-h{scroll-margin-top:140px}
 @media (max-width:900px){
   .ctx-wrap{margin:0 -16px}
-  .ctx-bar{padding:6px 16px 7px;font-size:12.5px}
-  .ctx-topic{font-size:14px}
-  article.q,.topic-h,.sub-h{scroll-margin-top:80px}
+  .ctx-row1{padding:6px 16px 5px;gap:8px}
+  .ctx-topic{font-size:17px}
+  .ctx-sub{font-size:12.5px}
+  .ctx-sub::before{margin-right:6px}
+  .ctx-dp:not(:empty){padding:5px 16px 6px;font-size:12.5px}
+  .dp-h{font-size:13.5px}
+  article.q,.topic-h,.sub-h,.dp-h{scroll-margin-top:90px}
 }
 /* "Show: All / Uncompleted / Completed" */
 .seg-wrap{margin-top:6px}
@@ -439,3 +451,8 @@ article.q,.topic-h,.sub-h{scroll-margin-top:130px}
 .seg button:hover{background:var(--head)}
 .seg button.on{background:var(--accent);color:var(--accent-ink);font-weight:600}
 .queue-mode .full-only{display:none!important}
+.pdf-box{margin:10px 0 4px;padding:12px 14px;border:1px solid var(--line);border-radius:var(--radius);background:var(--paper)}
+.pdf-box .row{margin-top:8px;gap:12px;flex-wrap:wrap;align-items:center}
+#saved-tools{flex-wrap:wrap;gap:10px;align-items:center}
+@media print{ #print-root .p-prev{font-size:10pt;color:#333;margin:0 0 4pt;padding-left:8pt;border-left:1pt solid #bbb} }
+.pdf-box .field-row{align-items:flex-end}
