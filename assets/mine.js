@@ -44,7 +44,7 @@
         actions = `<a class="btn" href="submit.html?edit=queue-${encodeURIComponent(x._id)}">Edit</a><button type="button" class="btn" data-delq="${esc(x._id)}">Delete</button>`;
       }
       return `<div class="a-row"><div class="a-main"><b>${esc(NAMES[x.course] || x.course)}</b>${x.dotpoints && x.dotpoints[0] ? " · " + esc(x.dotpoints[0]) : ""} ${status}
-        <div class="soft a-meta">${when(x.created)}</div><div style="margin-top:4px">${esc(snippet(x.question))}</div></div><div class="a-act">${actions}</div></div>`;
+        <div class="soft a-meta">${when(x.created)}</div><div style="margin-top:4px">${x.question ? esc(snippet(x.question)) : "📷 Photo of the question"}</div></div><div class="a-act">${actions}</div></div>`;
     }).join("");
   }
 

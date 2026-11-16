@@ -153,6 +153,10 @@ python3 scripts/queue.py get <id>           # -> work/queue/<id>.json, diagrams 
 
 For each item, view any diagrams, then complete `work/queue/<id>.json` exactly as for a paper question (§2–3):
 - a full **worked solution / sample answer** in `answer` (verify it — solve it yourself; for MC also set `correct`);
+- **Photo-only questions:** submitters may leave `question` empty (and, for multiple choice, the four `options`) and
+  just upload a photo/screenshot of the question in `images`. Read the image and **type the question out** in full
+  (LaTeX for maths, options into `options`), then keep in `images` only genuine diagrams — crop them out of the photo
+  with PIL and drop the photo itself. If the photo is unreadable, `skip` it with a reason.
 - `answer_type`; **`marks` — you decide these** (the submit form no longer asks; judge them as an HSC marker would
   from the steps your solution needs, e.g. 1 mark per key step, MC = 1, and ignore any old `marks` value on the item);
   `difficulty` 1–5; and 1–3 valid `dotpoints` (first = where it is listed; check them against the course's syllabus .txt);

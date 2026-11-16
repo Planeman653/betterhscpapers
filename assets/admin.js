@@ -20,7 +20,7 @@
     const b = await bank(c); const q = b.questions.find((x) => x.id === qid);
     return q ? q.question : "(not found)";
   }
-  const preview = (t) => `<details class="a-prev"><summary>${esc(String(t || "").replace(/\$[^$]*\$/g, "…").replace(/\s+/g, " ").slice(0, 140))}</summary><div class="q-body">${md(t)}</div></details>`;
+  const preview = (t, imgs) => `<details class="a-prev"><summary>${t ? esc(String(t).replace(/\$[^$]*\$/g, "…").replace(/\s+/g, " ").slice(0, 140)) : "📷 Photo of the question"}</summary><div class="q-body">${md(t || "")}${(imgs || []).map((s) => `<img src="${esc(s)}" alt="" style="max-width:100%">`).join("")}</div></details>`;
 
   async function load() {
     $("list").innerHTML = `<div class="soft">Loading…</div>`;
@@ -55,7 +55,7 @@
     } else if (tab === "subs") {
       const list = D.subs.filter(keep);
       html = list.map((s) => `<div class="a-row"><div class="a-main">${course(s.course)} · ${esc((s.dotpoints || []).join(", "))} · ${s.marks || "?"} marks · difficulty ${s.difficulty || "?"}
-          <div class="soft a-meta">By ${esc(s.author || "?")} · ${when(s.created)}${s.updated && s.updated !== s.created ? " · edited " + when(s.updated) : ""}${s.source ? " · " + esc(s.source) : ""}</div>${preview(s.question)}</div>
+          <div class="soft a-meta">By ${esc(s.author || "?")} · ${when(s.created)}${s.updated && s.updated !== s.created ? " · edited " + when(s.updated) : ""}${s.source ? " · " + esc(s.source) : ""}</div>${preview(s.question, s.images)}</div>
         <div class="a-act"><a class="btn" href="${s.course}.html#fs-${encodeURIComponent(s._id)}" target="_blank">View</a><a class="btn" href="submit.html?edit=fs-${encodeURIComponent(s._id)}" target="_blank">Edit</a>
           <button class="btn" data-sdel="${s._id}">Delete</button></div></div>`).join("") || `<div class="soft">No community questions yet.</div>`;
     } else if (tab === "queue") {
@@ -63,7 +63,7 @@
       html = list.map((q) => {
         const pub = D.done[q._id], skip = D.done._skipped[q._id];
         return `<div class="a-row"><div class="a-main">${course(q.course)} ${pub ? '<span class="tag live">Published</span>' : skip != null ? `<span class="tag">Not added</span> <span class="soft">${esc(skip)}</span>` : '<span class="tag wait">Waiting for the daily run</span>'}
-          <div class="soft a-meta">By ${esc(q.author || "?")} · ${when(q.created)}${q.source ? " · " + esc(q.source) : ""}${(q.images || []).length ? ` · ${q.images.length} diagram(s)` : ""}</div>${preview(q.question)}</div>
+          <div class="soft a-meta">By ${esc(q.author || "?")} · ${when(q.created)}${q.source ? " · " + esc(q.source) : ""}${(q.images || []).length ? ` · ${q.images.length} diagram(s)` : ""}</div>${preview(q.question, q.images)}</div>
           <div class="a-act">${pub ? `<a class="btn" href="${q.course}.html#${encodeURIComponent(pub)}" target="_blank">View</a>` : `<a class="btn" href="submit.html?edit=queue-${encodeURIComponent(q._id)}" target="_blank">Edit</a>`}
           <button class="btn" data-kdel="${q._id}">${pub ? "Clear" : "Delete"}</button></div></div>`;
       }).join("") || `<div class="soft">The queue is empty.</div>`;

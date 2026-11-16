@@ -65,13 +65,15 @@
   }
   function problems() {
     const p = [];
-    if (!Q.question.trim()) p.push("Write the question.");
+    const pic = Q.images.length > 0;   // a photo / screenshot of the question is enough on its own
+    if (!Q.question.trim() && !pic) p.push("Type the question, or upload a photo or screenshot of it.");
     const full = Q.mode !== "queue";
     if (Q.kind === "mc") {
-      if (Q.options.some((o) => !o.trim())) p.push("Fill in all four options.");
+      const filled = Q.options.filter((o) => o.trim()).length;
+      if (filled < 4 && !(pic && filled === 0)) p.push(pic ? "Fill in all four options, or leave them all blank if they're in your image." : "Fill in all four options.");
       if (!Q.correct && full) p.push("Tick the correct option.");
     }
-    if (full && !Q.answer.trim() && !(Q.kind === "mc" && Q.correct)) p.push("Write the answer (or choose “Just the question” above).");
+    if (full && !Q.answer.trim() && !Q.answer_images.length && !(Q.kind === "mc" && Q.correct)) p.push("Write the answer or upload a photo of it (or choose “Just the question” above).");
     if (full && !Q.dotpoints.length) p.push("Pick at least one dot point.");
     if (JSON.stringify(Q).length > 900000) p.push("The diagrams are too large — remove some or use smaller images.");
     if (full && !(Q.marks >= 1 && Q.marks <= 20)) p.push("Marks must be between 1 and 20.");
@@ -89,11 +91,11 @@
   /* ---------------- preview (same markup as the course pages) ---------------- */
   function preview() {
     const r = record();
-    if (!r.question && !r.answer) { $("preview").innerHTML = `<div class="none">Start typing to see your question.</div>`; return; }
+    if (!r.question && !r.answer && !(r.images || []).length) { $("preview").innerHTML = `<div class="none">Start typing to see your question.</div>`; return; }
     const sci = SCIENCE(r.course);
     const qm = Q.mode === "queue" && !(EDIT && EDIT.kind === "repo");
     const imgs = (r.images || []).map((s) => `<img src="${esc(s)}" alt="Diagram">`).join("");
-    const opts = r.kind === "mc" ? (() => {
+    const opts = r.kind === "mc" && r.options.some((o) => o.trim()) ? (() => {
       const short = r.options.every((o) => o.includes("![") || o.replace(/\$[^$]*\$/g, "xxxx").length < 38);
       return `<div class="opts ${short ? "short" : ""}">${r.options.map((o, i) => `<div class="${r.correct === "ABCD"[i] ? "correct" : ""}"><b>(${"ABCD"[i]})</b><span>${md(o, true)}</span></div>`).join("")}</div>`;
     })() : "";

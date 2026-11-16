@@ -51,12 +51,13 @@
   <section class="fs">
     <h2><span class="n">2</span> Question</h2>
     <p class="hint">For maths, click <b>√x Insert equation</b> — you build it with buttons or by typing like a calculator, no LaTeX needed. To edit an equation, put the cursor inside it and click the button again. Leave a blank line for a new paragraph. Make the question make sense on its own.</p>
-    <textarea id="question" rows="7" placeholder="e.g. Use a suitable substitution to find the integral below."></textarea>
+    <p class="hint pic-hint"><b>Don't want to type it?</b> Just upload a clear photo or screenshot of the question below and leave this box empty.</p>
+    <textarea id="question" rows="7" placeholder="Type the question here — or leave this empty and upload a photo or screenshot of it below."></textarea>
     <div class="imgs" data-imgs="images"></div>
-    <label class="drop" data-drop="images"><input type="file" accept="image/*" multiple data-upload="images"><span class="drop-btn">⬆ Upload image</span><span>or drag &amp; drop, or paste, a diagram or graph here</span></label>
+    <label class="drop" data-drop="images"><input type="file" accept="image/*" multiple data-upload="images"><span class="drop-btn">⬆ Upload image</span><span>or drag &amp; drop, or paste, a photo or screenshot of the question (or a diagram) here</span></label>
 
     <div id="mc-box" hidden>
-      <span class="lab" style="margin-top:14px">Options (tick the correct one; √x adds maths)</span>
+      <span class="lab" style="margin-top:14px">Options (tick the correct one; √x adds maths — leave all four blank if they're in your photo)</span>
       <div class="opt-grid">
         <label class="opt"><input type="radio" name="correct" value="A"><b>A</b><input type="text" data-opt="0"></label>
         <label class="opt"><input type="radio" name="correct" value="B"><b>B</b><input type="text" data-opt="1"></label>
@@ -71,9 +72,9 @@
     <div class="field"><span class="lab">Answer type</span>
       <div class="chips" id="answer-type"><button type="button" class="chip on" data-at="worked">Worked solution</button><button type="button" class="chip" data-at="sample">Sample answer</button><button type="button" class="chip" data-at="short">Short answer</button></div>
     </div>
-    <textarea id="answer" rows="7" placeholder="Show the working, not just the final answer."></textarea>
+    <textarea id="answer" rows="7" placeholder="Show the working, not just the final answer — or upload a photo of your working below."></textarea>
     <div class="imgs" data-imgs="answer_images"></div>
-    <label class="drop" data-drop="answer_images"><input type="file" accept="image/*" multiple data-upload="answer_images"><span class="drop-btn">⬆ Upload image</span><span>or drag &amp; drop, or paste, a diagram for the answer here</span></label>
+    <label class="drop" data-drop="answer_images"><input type="file" accept="image/*" multiple data-upload="answer_images"><span class="drop-btn">⬆ Upload image</span><span>or drag &amp; drop, or paste, a photo of the solution (or a diagram) here</span></label>
   </section>
 
   <section class="fs full-only" id="marks-box">

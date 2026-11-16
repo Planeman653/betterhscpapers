@@ -39,7 +39,7 @@
   function card(q, n) {
     const show = showAll || opened.has(q.id);
     const imgs = (q.images || []).map((s) => `<img src="${esc(s)}" alt="Diagram" loading="lazy">`).join("");
-    const opts = q.kind === "mc" && q.options ? `<div class="opts">${q.options.map((o, i) => `<div class="${show && q.correct === "ABCD"[i] ? "correct" : ""}"><b>(${"ABCD"[i]})</b><span>${md(o, true)}</span></div>`).join("")}</div>` : "";
+    const opts = q.kind === "mc" && (q.options || []).some((o) => String(o).trim()) ? `<div class="opts">${q.options.map((o, i) => `<div class="${show && q.correct === "ABCD"[i] ? "correct" : ""}"><b>(${"ABCD"[i]})</b><span>${md(o, true)}</span></div>`).join("")}</div>` : "";
     const ansImgs = (q.answer_images || []).map((s) => `<img src="${esc(s)}" alt="Solution diagram" loading="lazy">`).join("");
     const prev = (q.prev || []).filter((x) => x.dropped == null);
     return `<article class="q" id="${esc(q.id)}">
@@ -91,7 +91,7 @@
     const total = qs.reduce((a, q) => a + (+q.marks || 0), 0);
     let h = `<h1>${esc(title)}</h1><div class="p-sub">${esc(sub)} · ${qs.length} questions · ${total} marks</div>`;
     qs.forEach((q, i) => {
-      const opts = q.kind === "mc" && q.options ? `<div class="opts ${q.options.every((o) => o.includes("![") || o.length < 38) ? "short" : ""}">${q.options.map((o, k) => `<div><b>(${"ABCD"[k]})</b><span>${md(o, true)}</span></div>`).join("")}</div>` : "";
+      const opts = q.kind === "mc" && (q.options || []).some((o) => String(o).trim()) ? `<div class="opts ${q.options.every((o) => o.includes("![") || o.length < 38) ? "short" : ""}">${q.options.map((o, k) => `<div><b>(${"ABCD"[k]})</b><span>${md(o, true)}</span></div>`).join("")}</div>` : "";
       const imgs = (q.images || []).map((s) => `<img src="${esc(s)}">`).join("");
       const ansImgs = (q.answer_images || []).map((s) => `<img src="${esc(s)}">`).join("");
       const ans = `<div class="ans"><div class="ans-label">${ansLabel(q)}${q.kind === "mc" && q.correct ? " — " + q.correct : ""}</div><div class="ans-body">${md(q.answer)}${ansImgs}</div></div>`;

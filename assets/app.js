@@ -213,7 +213,7 @@
   /* ---------------- main document ---------------- */
   function qHtml(q, num) {
     const p = q._paper;
-    const opts = q.kind === "mc" && q.options ? (() => {
+    const opts = q.kind === "mc" && (q.options || []).some((o) => String(o).trim()) ? (() => {
       const short = q.options.every((o) => o.includes("![") || o.replace(/\$[^$]*\$/g, "xxxx").length < 38);
       return `<div class="opts ${short ? "short" : ""}">${q.options.map((o, i) => {
         const L = "ABCD"[i];
@@ -256,7 +256,7 @@
 
   function prevHtml(x) {
     if (x.dropped != null) return `<div class="prev-part dropped"><div class="prev-ref">${esc(x.ref)}</div><div class="prev-note">Not included on this site${x.dropped ? ": " + esc(x.dropped) : ""}.</div></div>`;
-    const opts = x.kind === "mc" && x.options ? `<div class="opts">${x.options.map((o, i) => `<div><b>(${"ABCD"[i]})</b><span>${md(o, true)}</span></div>`).join("")}</div>` : "";
+    const opts = x.kind === "mc" && (x.options || []).some((o) => String(o).trim()) ? `<div class="opts">${x.options.map((o, i) => `<div><b>(${"ABCD"[i]})</b><span>${md(o, true)}</span></div>`).join("")}</div>` : "";
     const imgs = (x.images || []).map((s) => `<img src="${esc(s)}" alt="Diagram for ${esc(x.ref)}" loading="lazy">`).join("");
     const ansImgs = (x.answer_images || []).map((s) => `<img src="${esc(s)}" alt="Solution diagram" loading="lazy">`).join("");
     const ans = `<details class="prev-ans"><summary>Show ${SCIENCE ? "sample answer" : "solution"}</summary><div class="ans"><div class="ans-body">${x.kind === "mc" && x.correct ? `<p><b>${x.correct}</b></p>` : ""}${x.kind === "mc" && String(x.answer).replace(/\*/g, "").trim() === x.correct ? "" : md(x.answer)}${ansImgs}</div></div></details>`;
@@ -440,7 +440,7 @@
     const total = qs.reduce((a, q) => a + q.marks, 0);
     let h = `<h1>${esc(title)}</h1><div class="p-sub">${esc(COURSE_NAME)} · ${qs.length} questions · ${total} marks</div>`;
     qs.forEach((q, i) => {
-      const opts = q.kind === "mc" ? `<div class="opts ${q.options.every((o) => o.includes("![") || o.length < 38) ? "short" : ""}">${q.options.map((o, k) => `<div><b>(${"ABCD"[k]})</b><span>${md(o, true)}</span></div>`).join("")}</div>` : "";
+      const opts = q.kind === "mc" && (q.options || []).some((o) => String(o).trim()) ? `<div class="opts ${q.options.every((o) => o.includes("![") || o.length < 38) ? "short" : ""}">${q.options.map((o, k) => `<div><b>(${"ABCD"[k]})</b><span>${md(o, true)}</span></div>`).join("")}</div>` : "";
       const imgs = (q.images || []).map((s) => `<img src="${esc(s)}">`).join("");
       const ans = `<div class="ans"><div class="ans-label">${ansLabelOf(q)}${q.kind === "mc" && q.correct ? " — " + q.correct : ""}</div><div class="ans-body">${md(q.answer)}${(q.answer_images || []).map((s) => `<img src="${esc(s)}">`).join("")}</div></div>`;
       h += `<div class="pq"><div class="pq-head">Question ${i + 1} <span>(${q.marks} mark${q.marks === 1 ? "" : "s"})</span></div><div class="q-body">${md(q.question)}${imgs}</div>${opts}`
