@@ -32,11 +32,14 @@
     opened: new Set(),                    // per-question answers opened manually
     prevOpen: new Set(),                  // per-question "previous parts" opened
     hideDone: store.get("hideDone", false),
+    perPage: store.get("perPage", 50),     // 0 = all
+    page: 0,
     overrides: {},
   };
   const A = window.HSCAuth || { enabled: false, user: null, progress: { done: {}, flagged: {} } };
   const isDone = (id) => !!(A.user && A.progress && A.progress.done[id]);
   const isFlagged = (id) => !!(A.user && A.progress && A.progress.flagged[id]);
+  const isSaved = (id) => !!(A.user && A.progress && A.progress.saved && A.progress.saved[id]);
   const canEdit = (q) => !!(A.user && (A.isAdmin || (q.live && q.owner === A.user.uid)));
 
   /* ---------------- markdown + maths ---------------- */
@@ -232,11 +235,11 @@
         <span class="diff d${q.difficulty}" title="Difficulty ${q.difficulty}/5 — ${DIFF[q.difficulty]}">${[1, 2, 3, 4, 5].map((i) => `<i class="${i <= q.difficulty ? "f" : ""}"></i>`).join("")}&nbsp;${DIFF[q.difficulty]}</span>
         <span class="grow"></span>
         <span class="q-actions"><label class="pick"><input type="checkbox" data-pick="${q.id}" ${S.basket.has(q.id) ? "checked" : ""}> Add to PDF</label>${prevBtn}</span></div>
-      ${A.enabled ? `<div class="q-tools"><button class="mini done-btn${isDone(q.id) ? " on" : ""}" data-done="${q.id}" title="Tick off questions you've done">${isDone(q.id) ? "✓ Done" : "Mark done"}</button><button class="mini flag-btn${isFlagged(q.id) ? " on" : ""}" data-flag="${q.id}" title="Report a problem with this question">⚑ ${isFlagged(q.id) ? "Flagged" : "Flag"}</button>${canEdit(q) ? `<a class="mini" href="submit.html?edit=${encodeURIComponent(q.id)}&amp;course=${COURSE}">Edit</a><button class="mini danger" data-qdel="${q.id}">Delete</button>` : ""}${q.edited && A.isAdmin ? '<span class="tag">Edited</span>' : ""}</div>` : ""}
+      ${A.enabled ? `<div class="q-tools"><button class="mini done-btn${isDone(q.id) ? " on" : ""}" data-done="${q.id}" title="Tick off questions you've done">${isDone(q.id) ? "✓ Done" : "Mark done"}</button><button class="mini save-btn${isSaved(q.id) ? " on" : ""}" data-save="${q.id}" title="Save to your question bank">${isSaved(q.id) ? "★ Saved" : "☆ Save"}</button>${canEdit(q) ? `<a class="mini" href="submit.html?edit=${encodeURIComponent(q.id)}&amp;course=${COURSE}">Edit</a><button class="mini danger" data-qdel="${q.id}">Delete</button>` : ""}${q.edited && A.isAdmin ? '<span class="tag">Edited</span>' : ""}</div>` : ""}
       ${prevBlock}<div class="q-body">${md(q.question)}${imgs}</div>${opts}
       <div class="src">${q.mine ? '<span class="tag">Yours</span> ' : q.source ? '<span class="tag">Community</span> ' : ""}Source: ${sourceOf(q)}${q.kind === "mc" ? " (multiple choice)" : ""} · <span class="dps">Dot point${q.dotpoints.length > 1 ? "s" : ""} ${dps}</span></div>
       ${S.showAnswers ? "" : `<div class="ans-toggle"><button class="linkish" data-ans="${q.id}">${show ? "Hide" : "Show"} ${ansLabel.toLowerCase()}</button></div>`}
-      ${ans}</article>`;
+      ${ans}${A.enabled ? `<button class="report-btn${isFlagged(q.id) ? " on" : ""}" data-flag="${q.id}" title="${isFlagged(q.id) ? "You reported this question" : "Report a problem with this question"}" aria-label="Report a problem with this question">⚠</button>` : ""}</article>`;
   }
 
   function ansLabelOf(q) {
@@ -266,16 +269,9 @@
     return "all";
   }
 
-  function render() {
+  // Filtered questions in display order (topic → group → sort), each with its topic and group key.
+  function ordered() {
     const list = sorted(S.data.questions.filter(passes));
-    document.getElementById("count").textContent = `${list.length} question${list.length === 1 ? "" : "s"} · ${list.reduce((a, q) => a + q.marks, 0)} marks`;
-    const docEl = document.getElementById("questions");
-    const contentsEl = document.getElementById("contents");
-    if (!list.length) {
-      docEl.innerHTML = `<div class="none">No questions match these filters.</div>`;
-      contentsEl.innerHTML = ""; return;
-    }
-    // group: keep topic -> group order by syllabus, sort within group
     const topics = new Map();
     for (const q of list) {
       const t = S.group === "none" ? "_" : q.topic;
@@ -287,31 +283,79 @@
     const tOrder = (id) => (id === "_" ? 0 : S.order[Object.keys(S.dp).find((d) => d.startsWith(id + "."))] ?? 1e9);
     const gOrder = (id) => (S.group === "dotpoint" ? S.order[id] : S.order[Object.keys(S.dp).find((d) => d.startsWith(id + "."))]) ?? 1e9;
     const tKeys = [...topics.keys()].sort((a, b) => (S.sort === "syllabus" || S.group !== "none" ? tOrder(a) - tOrder(b) : 0));
-    let html = "", contents = "", num = 0;
+    const out = [];
     for (const t of tKeys) {
       const gm = topics.get(t);
-      const tCount = [...gm.values()].reduce((a, l) => a + l.length, 0);
-      if (t !== "_") {
-        const tp = S.topic[t];
-        html += `<h2 class="topic-h" id="topic-${t}">${esc(tp.name)}${S.syl.years.length > 1 ? ` <span style="font-size:14px;font-family:var(--sans);color:var(--muted);font-weight:400">Year ${tp.year}</span>` : ""}</h2>`;
-        contents += `<li><a href="#topic-${t}">${esc(tp.name)}</a> <span class="n">(${tCount})</span></li>`;
-      }
-      const gKeys = [...gm.keys()].sort((a, b) => gOrder(a) - gOrder(b));
-      for (const g of gKeys) {
-        if (S.group === "subtopic") {
-          const s = S.sub[g];
-          if (!(s.name === S.topic[t].name && S.topic[t].subtopics.length === 1)) html += `<h3 class="sub-h">${esc(s.name)}${s.inquiry ? `<span class="iq">Inquiry question: ${esc(s.inquiry)}</span>` : ""}</h3>`;
-        } else if (S.group === "dotpoint") {
-          html += `<h3 class="sub-h"><span class="dpid">${g}</span>${md(S.dp[g].text, true)}</h3>`;
-        }
-        for (const q of gm.get(g)) html += qHtml(q, ++num);
-      }
+      for (const g of [...gm.keys()].sort((a, b) => gOrder(a) - gOrder(b))) for (const q of gm.get(g)) out.push({ q, t, g });
     }
+    return out;
+  }
+  const perPage = () => (S.perPage > 0 ? S.perPage : Infinity);
+  function pageOf(id) { const i = ordered().findIndex((x) => x.q.id === id); return i < 0 ? -1 : Math.floor(i / perPage()); }
+
+  function pagerHtml(total, pages) {
+    if (pages <= 1) return "";
+    const from = S.page * perPage() + 1, to = Math.min(total, (S.page + 1) * perPage());
+    const nums = [];
+    for (let p = 0; p < pages; p++) {
+      if (p === 0 || p === pages - 1 || Math.abs(p - S.page) <= 2) nums.push(p);
+      else if (nums[nums.length - 1] !== "…") nums.push("…");
+    }
+    return `<nav class="pager" aria-label="Pages"><button class="btn" data-page="${S.page - 1}" ${S.page === 0 ? "disabled" : ""}>‹ Prev</button>
+      <span class="pages">${nums.map((p) => (p === "…" ? `<span class="soft">…</span>` : `<button class="pg${p === S.page ? " on" : ""}" data-page="${p}" ${p === S.page ? 'aria-current="page"' : ""}>${p + 1}</button>`)).join("")}</span>
+      <button class="btn" data-page="${S.page + 1}" ${S.page >= pages - 1 ? "disabled" : ""}>Next ›</button>
+      <span class="soft pager-info">Questions ${from}–${to} of ${total}</span></nav>`;
+  }
+
+  function render() {
+    const all = ordered();
+    document.getElementById("count").textContent = `${all.length} question${all.length === 1 ? "" : "s"} · ${all.reduce((a, x) => a + x.q.marks, 0)} marks`;
+    const docEl = document.getElementById("questions");
+    const contentsEl = document.getElementById("contents");
+    if (!all.length) {
+      docEl.innerHTML = `<div class="none">No questions match these filters.</div>`;
+      contentsEl.innerHTML = ""; return;
+    }
+    const pages = Math.max(1, Math.ceil(all.length / perPage()));
+    S.page = Math.min(Math.max(0, S.page || 0), pages - 1);
+    const start = S.page * perPage(), slice = all.slice(start, start + perPage());
+    // contents: every topic, linking to the page where it starts
+    let contents = "";
+    if (S.group !== "none") {
+      const seen = new Map();
+      all.forEach((x, i) => { if (!seen.has(x.t)) seen.set(x.t, { i, n: 0 }); seen.get(x.t).n++; });
+      for (const [t, v] of seen) contents += `<li><a href="#topic-${t}" data-topic="${t}" data-tpage="${Math.floor(v.i / perPage())}">${esc(S.topic[t].name)}</a> <span class="n">(${v.n})</span></li>`;
+    }
+    let html = pagerHtml(all.length, pages), lastT = null, lastG = null;
+    slice.forEach((x, k) => {
+      if (x.t !== lastT && x.t !== "_") {
+        const tp = S.topic[x.t];
+        const cont = all[start + k - 1] && all[start + k - 1].t === x.t;
+        html += `<h2 class="topic-h" id="topic-${x.t}">${esc(tp.name)}${cont ? ' <span class="soft" style="font-size:14px;font-family:var(--sans);font-weight:400">(continued)</span>' : ""}${S.syl.years.length > 1 ? ` <span style="font-size:14px;font-family:var(--sans);color:var(--muted);font-weight:400">Year ${tp.year}</span>` : ""}</h2>`;
+        lastG = null;
+      }
+      if (x.g !== lastG) {
+        if (S.group === "subtopic") {
+          const sb = S.sub[x.g];
+          if (!(sb.name === S.topic[x.t].name && S.topic[x.t].subtopics.length === 1)) html += `<h3 class="sub-h">${esc(sb.name)}${sb.inquiry ? `<span class="iq">Inquiry question: ${esc(sb.inquiry)}</span>` : ""}</h3>`;
+        } else if (S.group === "dotpoint") {
+          html += `<h3 class="sub-h"><span class="dpid">${x.g}</span>${md(S.dp[x.g].text, true)}</h3>`;
+        }
+      }
+      lastT = x.t; lastG = x.g;
+      html += qHtml(x.q, start + k + 1);
+    });
+    html += pagerHtml(all.length, pages);
     docEl.innerHTML = html;
     contentsEl.innerHTML = S.group === "none" ? "" : `<h2>Contents</h2><ul>${contents}</ul>`;
   }
+  function goPage(p, anchor) {
+    S.page = p; render();
+    const el = anchor && document.getElementById(anchor);
+    (el || document.getElementById("questions")).scrollIntoView({ block: "start" });
+  }
 
-  function refresh(tree) { if (tree) buildTree(); else syncGroupBoxes(); render(); updateBasket(); }
+  function refresh(tree) { S.page = 0; if (tree) buildTree(); else syncGroupBoxes(); render(); updateBasket(); }
 
   /* ---------------- basket / PDF ---------------- */
   function updateBasket() {
@@ -377,22 +421,29 @@
     if (S.hideDone && on) render(); else rerenderQ(id);
     updateProgress();
   }
+  async function toggleSaved(id) {
+    if (!A.user) { alertBox("Sign in to save questions to your question bank."); A.signIn && A.signIn(); return; }
+    const on = !isSaved(id);
+    try { await A.setSaved(id, COURSE, on); } catch (e) { alertBox("Couldn't save — " + e.message); return; }
+    rerenderQ(id);
+    alertBox(on ? "Saved — see it under ★ Saved at the top." : "Removed from your saved questions.");
+  }
   function updateProgress() {
     const box = document.getElementById("progress-panel");
     if (!box) return;
     box.hidden = !A.enabled;
     const cnt = document.getElementById("done-count");
-    if (!A.user) { cnt.innerHTML = `<button class="linkish" id="progress-signin">Sign in</button> to tick off questions you've done and flag mistakes.`; return; }
+    if (!A.user) { cnt.innerHTML = `<button class="linkish" id="progress-signin">Sign in</button> to tick off questions you've done and save questions to your own bank.`; return; }
     const n = S.data.questions.filter((q) => isDone(q.id)).length;
     cnt.textContent = `${n} of ${S.data.questions.length} questions done`;
   }
   function openFlag(id) {
-    if (!A.user) { alertBox("Sign in to flag a question."); A.signIn && A.signIn(); return; }
+    if (!A.user) { alertBox("Sign in to report a problem."); A.signIn && A.signIn(); return; }
     const q = S.data.questions.find((x) => x.id === id);
     let m = document.getElementById("flag-modal");
     if (!m) {
       m = document.createElement("div"); m.id = "flag-modal"; m.className = "modal";
-      m.innerHTML = `<div class="modal-card" role="dialog" aria-labelledby="flag-h"><h3 id="flag-h">Flag this question</h3><p class="soft" id="flag-q"></p>
+      m.innerHTML = `<div class="modal-card" role="dialog" aria-labelledby="flag-h"><h3 id="flag-h">⚠ Report a problem</h3><p class="soft" id="flag-q"></p>
         <label class="lab" for="flag-reason">What's wrong?</label>
         <select id="flag-reason"><option>Wrong answer or solution</option><option>Typo, or maths not displaying</option><option>Missing or wrong diagram</option><option>Wrong dot point or topic</option><option>Wrong difficulty</option><option>Duplicate question</option><option>Spam or inappropriate</option><option>Other</option></select>
         <label class="lab" for="flag-note">Details <span class="soft">(optional)</span></label><textarea id="flag-note" rows="3" maxlength="1000" placeholder="e.g. the answer should be 3/4, not 4/3"></textarea>
@@ -406,7 +457,7 @@
     m.querySelector("#flag-send").onclick = async () => {
       try { await A.flag({ id: q.id, course: COURSE, label: q.source ? q.source : q._paper.label + ", " + q.ref }, m.querySelector("#flag-reason").value, m.querySelector("#flag-note").value); }
       catch (e) { alertBox("Couldn't send — " + e.message); return; }
-      m.hidden = true; rerenderQ(q.id); alertBox("Thanks — flagged for review.");
+      m.hidden = true; rerenderQ(q.id); alertBox("Thanks — sent to the site admin to review.");
     };
     m.hidden = false; m.querySelector("#flag-reason").focus();
   }
@@ -453,6 +504,8 @@
       if (a) { const id = a.dataset.ans; S.opened.has(id) ? S.opened.delete(id) : S.opened.add(id); rerenderQ(id); return; }
       const dn = e.target.closest("[data-done]");
       if (dn) { toggleDone(dn.dataset.done); return; }
+      const sv = e.target.closest("[data-save]");
+      if (sv) { toggleSaved(sv.dataset.save); return; }
       const fl = e.target.closest("[data-flag]");
       if (fl) { openFlag(fl.dataset.flag); return; }
       const del = e.target.closest("[data-qdel]");
@@ -468,6 +521,13 @@
     $("basket-list").addEventListener("click", (e) => { const id = e.target.dataset.unpick; if (id) { S.basket.delete(id); render(); updateBasket(); } });
     $("basket-clear").addEventListener("click", () => { S.basket.clear(); render(); updateBasket(); });
     $("make-pdf").addEventListener("click", () => { close(); buildPdf(); });
+    const pp0 = $("per-page");
+    if (pp0) { pp0.value = String(S.perPage); pp0.addEventListener("change", (e) => { S.perPage = +e.target.value; store.set("perPage", S.perPage); refresh(); }); }
+    $("questions").addEventListener("click", (e) => { const b = e.target.closest("[data-page]"); if (b && !b.disabled) goPage(+b.dataset.page); });
+    $("contents").addEventListener("click", (e) => {
+      const a = e.target.closest("[data-tpage]"); if (!a) return;
+      e.preventDefault(); goPage(+a.dataset.tpage, "topic-" + a.dataset.topic);
+    });
     const hd = $("hide-done");
     if (hd) { hd.checked = S.hideDone; hd.addEventListener("change", (e) => { S.hideDone = e.target.checked; store.set("hideDone", S.hideDone); refresh(true); }); }
     const pp = $("progress-panel");
@@ -486,6 +546,7 @@
       : "No papers indexed yet — new trial papers are added daily.";
     buildPapers(); buildTree(); bind(); render(); updateBasket(); updateProgress();
     const h = decodeURIComponent(location.hash.slice(1));
+    if (h && !document.getElementById(h)) { const p = pageOf(h); if (p > 0) { S.page = p; render(); } }
     if (h && document.getElementById(h)) setTimeout(() => document.getElementById(h).scrollIntoView({ block: "start" }), 50);
   });
 })();

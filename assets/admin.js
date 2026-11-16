@@ -46,12 +46,12 @@
       const texts = await Promise.all(list.map((f) => questionText(f.qid, f.course)));
       html = list.map((f, i) => `<div class="a-row${f.status === "resolved" ? " resolved" : ""}">
         <div class="a-main">${course(f.course)} · ${esc(f.label || f.qid)} <span class="tag">${esc(f.reason)}</span>${f.status === "resolved" ? ' <span class="tag live">Resolved</span>' : ""}
-          ${f.note ? `<div class="a-note">“${esc(f.note)}”</div>` : ""}<div class="soft a-meta">Flagged by ${esc(f.name || "?")} · ${when(f.created)}</div>${preview(texts[i])}</div>
+          ${f.note ? `<div class="a-note">“${esc(f.note)}”</div>` : ""}<div class="soft a-meta">Reported by ${esc(f.name || "?")} · ${when(f.created)}</div>${preview(texts[i])}</div>
         <div class="a-act"><a class="btn" href="${f.course}.html#${encodeURIComponent(f.qid)}" target="_blank">View</a>
           <a class="btn" href="submit.html?edit=${encodeURIComponent(f.qid)}&course=${f.course}" target="_blank">Edit</a>
           ${f.status === "resolved" ? `<button class="btn" data-reopen="${f._id}">Reopen</button>` : `<button class="btn primary" data-resolve="${f._id}">Mark resolved</button>`}
-          <button class="btn" data-qdel="${esc(f.qid)}" data-c="${f.course}">Delete question</button><button class="linkish" data-fdel="${f._id}">Delete flag</button></div></div>`).join("");
-      if (!list.length) html = `<div class="soft">No ${$("show-resolved").checked ? "" : "open "}flags.</div>`;
+          <button class="btn" data-qdel="${esc(f.qid)}" data-c="${f.course}">Delete question</button><button class="linkish" data-fdel="${f._id}">Delete report</button></div></div>`).join("");
+      if (!list.length) html = `<div class="soft">No ${$("show-resolved").checked ? "" : "open "}reports.</div>`;
     } else if (tab === "subs") {
       const list = D.subs.filter(keep);
       html = list.map((s) => `<div class="a-row"><div class="a-main">${course(s.course)} · ${esc((s.dotpoints || []).join(", "))} · ${s.marks || "?"} marks · difficulty ${s.difficulty || "?"}
@@ -89,9 +89,9 @@
     $("list").addEventListener("click", (e) => {
       const t = e.target.closest("button"); if (!t) return;
       const d = t.dataset;
-      if (d.resolve) act(() => A.setFlagStatus(d.resolve, "resolved"), "Flag resolved");
-      else if (d.reopen) act(() => A.setFlagStatus(d.reopen, "open"), "Flag reopened");
-      else if (d.fdel) act(() => A.deleteFlag(d.fdel), "Flag deleted");
+      if (d.resolve) act(() => A.setFlagStatus(d.resolve, "resolved"), "Report resolved");
+      else if (d.reopen) act(() => A.setFlagStatus(d.reopen, "open"), "Report reopened");
+      else if (d.fdel) act(() => A.deleteFlag(d.fdel), "Report deleted");
       else if (d.qdel) { if (confirm("Delete this question from the site?")) act(() => (d.qdel.startsWith("fs-") ? A.deleteSubmission(d.qdel.slice(3)) : A.deleteQuestion(d.qdel, d.c)), "Question deleted"); }
       else if (d.sdel) { if (confirm("Delete this community question?")) act(() => A.deleteSubmission(d.sdel), "Deleted"); }
       else if (d.kdel) { if (confirm("Remove this from the queue?")) act(() => A.deleteQueue(d.kdel), "Removed from the queue"); }

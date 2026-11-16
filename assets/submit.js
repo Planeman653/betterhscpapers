@@ -155,6 +155,15 @@
       img.src = url;
     });
   }
+  async function addFiles(key, files) {
+    const arr = key.startsWith("prev:") ? Q.prev[+key.slice(5)].images : Q[key];
+    let n = 0;
+    for (const f of files) {
+      if (!f.type.startsWith("image/")) { toast(f.name + " isn't an image"); continue; }
+      try { arr.push(await shrink(f)); n++; } catch (err) { toast("Couldn't read " + f.name); }
+    }
+    if (n) { renderImgs(); changed(); toast(n === 1 ? "Image added" : n + " images added"); }
+  }
   function renderImgs() {
     document.querySelectorAll("[data-imgs]").forEach((box) => {
       const key = box.dataset.imgs;
@@ -171,7 +180,7 @@
         <span style="flex:1"></span><button type="button" class="linkish" data-rmprev="${i}">Remove part</button></div>
       <label class="lab">Question</label><textarea rows="3" data-pf="question">${esc(x.question)}</textarea>
       <div class="imgs" data-imgs="prev:${i}"></div>
-      <label class="up"><input type="file" accept="image/*" multiple data-upload="prev:${i}"> Add a diagram</label>
+      <label class="drop" data-drop="prev:${i}"><input type="file" accept="image/*" multiple data-upload="prev:${i}"><span class="drop-btn">⬆ Upload image</span><span>or drag &amp; drop a diagram here</span></label>
       <label class="lab">Answer <span class="soft">(optional)</span></label><textarea rows="3" data-pf="answer">${esc(x.answer)}</textarea>
     </div>`).join("");
     renderImgs();
@@ -210,7 +219,6 @@
     $("signin-banner").hidden = !A.enabled || !!A.user;
     $("publish").disabled = !A.enabled;
     if (A.user && !Q.credit) { Q.credit = A.user.name.split(" ")[0]; $("credit").value = Q.credit; preview(); }
-    renderMine();
   }
   function srcFields() {
     const t = Q.src.type;
@@ -223,46 +231,6 @@
   function changed() {
     clearTimeout(saveT); saveT = setTimeout(() => store.set("draft", Q), 300);
     preview();
-  }
-
-  /* ---------------- your questions (Firestore) ---------------- */
-  let PUBLISHED = null;   // queue ids the daily task has already published
-  async function publishedQueue() {
-    const get = (f) => fetch("data/build/" + f, { cache: "no-cache" }).then((r) => (r.ok ? r.json() : {})).catch(() => ({}));
-    if (!PUBLISHED) PUBLISHED = Promise.all([get("queue_done.json"), get("queue_skipped.json")]).then(([d, s]) => { d._skipped = s; return d; });
-    return PUBLISHED;
-  }
-  const snippet = (t) => { const x = String(t || "").replace(/\$[^$]*\$/g, "…").replace(/[#*_>`|]/g, "").replace(/\s+/g, " ").trim(); return x.length > 110 ? x.slice(0, 110) + "…" : x; };
-  async function renderMine() {
-    const box = $("mine-box");
-    if (!A.enabled || !A.user) { box.hidden = true; return; }
-    box.hidden = false;
-    $("mine").innerHTML = `<div class="soft">Loading…</div>`;
-    let m, done;
-    try { [m, done] = await Promise.all([A.mine(), publishedQueue()]); } catch (e) { $("mine").innerHTML = `<div class="soft">Couldn't load your questions (${esc(e.message)}).</div>`; return; }
-    const items = [
-      ...m.submissions.map((x) => ({ ...x, _kind: "sub" })),
-      ...m.queue.map((x) => ({ ...x, _kind: "queue", _pub: done[x._id], _skip: done._skipped[x._id] })),
-    ].sort((a, b) => (b.created || 0) - (a.created || 0));
-    if (!items.length) { $("mine").innerHTML = `<div class="soft">You haven't added any questions yet.</div>`; return; }
-    $("mine").innerHTML = items.map((x) => {
-      const head = `<b>${esc(COURSES[x.course] || x.course)}</b>${x.dotpoints && x.dotpoints[0] ? " · " + esc(x.dotpoints[0]) : ""}`;
-      let status, actions;
-      if (x._kind === "sub") {
-        status = '<span class="tag live">Live</span>';
-        actions = `<a class="btn" href="${x.course}.html#fs-${encodeURIComponent(x._id)}">View</a><a class="btn" href="submit.html?edit=fs-${encodeURIComponent(x._id)}">Edit</a><button type="button" class="btn" data-delsub="${esc(x._id)}">Delete</button>`;
-      } else if (x._pub) {
-        status = '<span class="tag live">Live — solution added</span>';
-        actions = `<a class="btn" href="${x.course}.html#${encodeURIComponent(x._pub)}">View</a>`;
-      } else if (x._skip != null) {
-        status = `<span class="tag">Not added</span> <span class="soft">${esc(x._skip)}</span>`;
-        actions = `<button type="button" class="btn" data-delq="${esc(x._id)}">Delete</button>`;
-      } else {
-        status = '<span class="tag wait">Waiting for solution</span>';
-        actions = `<a class="btn" href="submit.html?edit=queue-${encodeURIComponent(x._id)}">Edit</a><button type="button" class="btn" data-delq="${esc(x._id)}">Delete</button>`;
-      }
-      return `<div class="mine-row"><div class="mine-main">${head} ${status}<div class="soft">${esc(snippet(x.question))}</div></div>${actions}</div>`;
-    }).join("");
   }
 
   /* ---------------- publish ---------------- */
@@ -293,7 +261,7 @@
       } else if (Q.mode === "queue") {
         const id = await A.addQueue(data, EDIT && EDIT.kind === "queue" ? EDIT.id : null);
         if (EDIT && EDIT.kind === "sub") await A.deleteSubmission(EDIT.id);
-        msg = "Added to the queue. We'll add the solution, difficulty and dot points and publish it, usually within a day — you can see its status under “Your questions”.";
+        msg = "Added to the queue. We'll add the solution, difficulty and dot points and publish it, usually within a day — track it under My submitted questions.";
         EDIT = { kind: "queue", id };
       } else {
         const id = await A.saveSubmission(data, EDIT && EDIT.kind === "sub" ? EDIT.id : null);
@@ -308,9 +276,8 @@
     btn.disabled = false;
     store.set("draft", null);
     $("done-box").hidden = false;
-    $("done-box").innerHTML = `<b>${esc(msg)}</b>${link ? ` <a href="${link}">View it on the ${esc(COURSES[data.course])} page →</a>` : ""} <button type="button" class="linkish" id="clear2">Add another question</button>`;
+    $("done-box").innerHTML = `<b>${esc(msg)}</b>${link ? ` <a href="${link}">View it on the ${esc(COURSES[data.course])} page →</a>` : ""} <a href="mine.html">My submitted questions</a> · <button type="button" class="linkish" id="clear2">Add another question</button>`;
     toast(msg.split(".")[0]);
-    renderMine();
   }
 
   /* ---------------- events ---------------- */
@@ -345,7 +312,7 @@
         if (!confirm("Delete this question? This can't be undone.")) return;
         try { d.delsub ? await A.deleteSubmission(d.delsub) : await A.deleteQueue(d.delq); } catch (err) { toast("Couldn't delete — " + err.message); return; }
         if (EDIT && (EDIT.id === d.delsub || EDIT.id === d.delq)) startNew();
-        renderMine(); toast("Deleted"); return;
+        toast("Deleted"); return;
       }
     });
     form.addEventListener("input", (e) => {
@@ -369,12 +336,31 @@
       if (t.name === "correct") { Q.correct = t.value; changed(); return; }
       if (t.name === "mode") { Q.mode = t.value; modeUi(); changed(); return; }
       if (t.id === "src-type") { Q.src.type = t.value; srcFields(); changed(); return; }
-      if (t.dataset.upload) {
-        const key = t.dataset.upload;
-        const arr = key.startsWith("prev:") ? Q.prev[+key.slice(5)].images : Q[key];
-        for (const f of t.files) { try { arr.push(await shrink(f)); } catch (err) { toast("Couldn't read " + f.name); } }
-        t.value = ""; renderImgs(); changed();
-      }
+      if (t.dataset.upload) { await addFiles(t.dataset.upload, t.files); t.value = ""; }
+    });
+    // drag & drop onto a drop zone or straight onto a text box; paste images into a text box
+    const keyFor = (el) => {
+      const z = el.closest("[data-drop]"); if (z) return z.dataset.drop;
+      if (el.id === "question") return "images";
+      if (el.id === "answer") return "answer_images";
+      const pi = el.closest("[data-pi]"); if (pi && el.tagName === "TEXTAREA") return "prev:" + pi.dataset.pi;
+      return null;
+    };
+    const target = (e) => e.target.closest && (e.target.closest("[data-drop]") || (e.target.tagName === "TEXTAREA" ? e.target : null));
+    const hasFiles = (e) => e.dataTransfer && [...e.dataTransfer.types].includes("Files");
+    form.addEventListener("dragover", (e) => { const t = target(e); if (!t || !hasFiles(e)) return; e.preventDefault(); t.classList.add("over"); });
+    form.addEventListener("dragleave", (e) => { const t = target(e); if (t) t.classList.remove("over"); });
+    form.addEventListener("drop", async (e) => {
+      const t = target(e); if (!t || !hasFiles(e)) return;
+      e.preventDefault(); t.classList.remove("over");
+      const key = keyFor(t); if (key) await addFiles(key, e.dataTransfer.files);
+    });
+    form.addEventListener("paste", async (e) => {
+      if (e.target.tagName !== "TEXTAREA") return;
+      const files = [...(e.clipboardData && e.clipboardData.files || [])].filter((f) => f.type.startsWith("image/"));
+      if (!files.length) return;
+      e.preventDefault();
+      const key = keyFor(e.target); if (key) await addFiles(key, files);
     });
   }
   function startNew() {

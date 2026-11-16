@@ -53,7 +53,7 @@
     <p class="hint">For maths, click <b>√x Insert equation</b> — you build it with buttons or by typing like a calculator, no LaTeX needed. To edit an equation, put the cursor inside it and click the button again. Leave a blank line for a new paragraph. Make the question make sense on its own.</p>
     <textarea id="question" rows="7" placeholder="e.g. Use a suitable substitution to find the integral below."></textarea>
     <div class="imgs" data-imgs="images"></div>
-    <label class="up"><input type="file" accept="image/*" multiple data-upload="images"> Add a diagram or graph</label>
+    <label class="drop" data-drop="images"><input type="file" accept="image/*" multiple data-upload="images"><span class="drop-btn">⬆ Upload image</span><span>or drag &amp; drop, or paste, a diagram or graph here</span></label>
 
     <div id="mc-box" hidden>
       <span class="lab" style="margin-top:14px">Options (tick the correct one; √x adds maths)</span>
@@ -73,7 +73,7 @@
     </div>
     <textarea id="answer" rows="7" placeholder="Show the working, not just the final answer."></textarea>
     <div class="imgs" data-imgs="answer_images"></div>
-    <label class="up"><input type="file" accept="image/*" multiple data-upload="answer_images"> Add a diagram to the answer</label>
+    <label class="drop" data-drop="answer_images"><input type="file" accept="image/*" multiple data-upload="answer_images"><span class="drop-btn">⬆ Upload image</span><span>or drag &amp; drop, or paste, a diagram for the answer here</span></label>
   </section>
 
   <section class="fs">
@@ -126,13 +126,9 @@
       <button type="button" class="linkish" id="clear">Start a new question</button>
     </div>
     <div class="done-box" id="done-box" hidden></div>
-    <p class="hint" id="publish-hint" style="margin-top:10px">Your question is published under the name above. You can edit or delete it later from “Your questions” below. Spam and copied textbook questions are removed.</p>
+    <p class="hint" id="publish-hint" style="margin-top:10px">Your question is published under the name above. You can edit or delete it later from <a href="mine.html">My submitted questions</a> (in your account menu). Spam and copied textbook questions are removed.</p>
   </section>
 
-  <section class="fs" id="mine-box">
-    <h2>Your questions</h2>
-    <div id="mine"></div>
-  </section>
 </main>
 
 <aside class="sub-preview">

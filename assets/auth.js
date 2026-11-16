@@ -52,17 +52,24 @@ if (!CFG) {
     au.signInWithCredential(auth, au.GoogleAuthProvider.credential(JSON.stringify({ sub: "u-" + email.replace(/\W/g, ""), email, email_verified: true, name })));
 
   /* ---- progress: done / flagged ---- */
-  A.progress = { done: {}, flagged: {} };
+  A.progress = { done: {}, flagged: {}, saved: {} };
   async function loadProgress() {
-    A.progress = { done: {}, flagged: {} };
+    A.progress = { done: {}, flagged: {}, saved: {} };
     if (!A.user) return;
-    try { const s = await getDoc(doc(db, "progress", A.user.uid)); if (s.exists()) A.progress = { done: {}, flagged: {}, ...s.data() }; }
+    try { const s = await getDoc(doc(db, "progress", A.user.uid)); if (s.exists()) A.progress = { done: {}, flagged: {}, saved: {}, ...s.data() }; }
     catch (e) { console.warn("progress", e); }
   }
   A.setDone = async (qid, on) => {
     const u = need();
     if (on) A.progress.done[qid] = true; else delete A.progress.done[qid];
     await setDoc(doc(db, "progress", u.uid), { done: { [qid]: on ? true : deleteField() }, updated: serverTimestamp() }, { merge: true });
+  };
+  // saved questions: {qid: course}
+  A.setSaved = async (qid, course, on) => {
+    const u = need();
+    if (on) A.progress.saved[qid] = course; else delete A.progress.saved[qid];
+    renderAccount();
+    await setDoc(doc(db, "progress", u.uid), { saved: { [qid]: on ? course : deleteField() }, updated: serverTimestamp() }, { merge: true });
   };
   A.flag = async (q, reason, note) => {
     const u = need();
@@ -145,9 +152,10 @@ function renderAccount() {
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   if (!A.user) { el.innerHTML = `<button class="btn acct-in" type="button">Sign in</button>`; el.querySelector("button").onclick = () => A.signIn(); return; }
   const initial = esc((A.user.name || "?").trim()[0] || "?").toUpperCase();
-  el.innerHTML = `<details class="acct-menu"><summary title="${esc(A.user.email)}">${A.user.photo ? `<img src="${esc(A.user.photo)}" alt="" referrerpolicy="no-referrer">` : `<span class="acct-i">${initial}</span>`}<span class="acct-name">${esc(A.user.name)}</span>${A.isAdmin ? '<span class="tag">Admin</span>' : ""}</summary>
+  const nSaved = Object.keys((A.progress && A.progress.saved) || {}).length;
+  el.innerHTML = `<a class="saved-link" href="saved.html" title="Your saved questions"><span aria-hidden="true">★</span><i class="lbl"> Saved</i>${nSaved ? ` <b>${nSaved}</b>` : ""}</a><details class="acct-menu"><summary title="${esc(A.user.email)}">${A.user.photo ? `<img src="${esc(A.user.photo)}" alt="" referrerpolicy="no-referrer">` : `<span class="acct-i">${initial}</span>`}<span class="acct-name">${esc(A.user.name)}</span>${A.isAdmin ? '<span class="tag">Admin</span>' : ""}</summary>
     <div class="acct-pop"><div class="soft acct-email">${esc(A.user.email)}</div>
-    <a href="submit.html#mine-box">My questions</a>${A.isAdmin ? '<a href="admin.html">Admin</a>' : ""}<button type="button" class="linkish" data-signout>Sign out</button></div></details>`;
+    <a href="saved.html">★ Saved questions</a><a href="mine.html">My submitted questions</a><a href="submit.html">+ Submit a question</a>${A.isAdmin ? '<a href="admin.html">Admin inbox</a>' : ""}<button type="button" class="linkish" data-signout>Sign out</button></div></details>`;
   el.querySelector("[data-signout]").onclick = () => A.signOut();
 }
 if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", renderAccount); else renderAccount();

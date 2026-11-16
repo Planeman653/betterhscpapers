@@ -78,6 +78,9 @@ BODY = """
       <option value="none">No grouping</option>
     </select>
   </div>
+  <label class="lab-inline" for="per-page">Questions per page
+    <select id="per-page"><option value="20">20</option><option value="50">50</option><option value="100">100</option><option value="200">200</option><option value="0">All (slower)</option></select>
+  </label>
   <div class="panel-title" style="display:flex;align-items:center;gap:8px">Topics &amp; dot points <span style="flex:1"></span><button class="linkish" id="clear-topics">clear</button></div>
   <label class="switch" style="font-size:13px;margin-bottom:6px"><input type="checkbox" id="hide-empty" checked> Hide dot points with no questions</label>
   <div class="tree" id="tree"></div>
