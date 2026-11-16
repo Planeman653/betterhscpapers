@@ -1,0 +1,630 @@
+{
+ "id": "ext2-nsm12-ex1-4",
+ "course": "extension2",
+ "school": "New Senior Mathematics",
+ "year": 2019,
+ "type": "Textbook",
+ "thsc": {
+  "viewno": "",
+  "title": "New Senior Mathematics Extension 2 Year 12, Exercise 1.4 Further inequalities"
+ },
+ "indexed": "2026-11-16",
+ "answers": "worked",
+ "label": "New Senior Maths Ext 2 Yr 12, Ex 1.4",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.3.7",
+    "12.1.3.4"
+   ],
+   "question": "A triangle has side lengths $x$, $5$ and $6$. What are the possible values of $x$?",
+   "answer": "In a triangle, each side is less than the sum of the other two:\n$$x < 5 + 6 = 11, \\qquad 6 < x + 5 \\implies x > 1, \\qquad 5 < x + 6 \\text{ (always true for } x > 0).$$\nSo $1 < x < 11$."
+  },
+  {
+   "ref": "Q2(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.1"
+   ],
+   "question": "Suppose that $x \\ge 0$ and $n$ is a positive integer.\n\nShow that $1 - x \\le \\dfrac{1}{1+x} \\le 1$.",
+   "answer": "**Right inequality:** $1 + x \\ge 1 > 0$, so $\\dfrac{1}{1+x} \\le 1$.\n\n**Left inequality:**\n$$\\frac{1}{1+x} - (1 - x) = \\frac{1 - (1 - x)(1 + x)}{1+x} = \\frac{1 - (1 - x^2)}{1+x} = \\frac{x^2}{1+x} \\ge 0,$$\nsince $x^2 \\ge 0$ and $1 + x > 0$. Hence $1 - x \\le \\dfrac{1}{1+x} \\le 1$."
+  },
+  {
+   "ref": "Q2(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.9",
+    "12.1.3.6"
+   ],
+   "question": "Suppose that $x \\ge 0$ and $n$ is a positive integer.\n\nGiven that $1 - x \\le \\dfrac{1}{1+x} \\le 1$ for $x \\ge 0$, show that\n$$1 - \\frac{1}{2n} \\le n\\ln\\left(1 + \\frac1n\\right) \\le 1.$$",
+   "answer": "Integrate each part of the inequality from $0$ to $\\frac1n$ (integration preserves $\\le$ since $\\frac1n > 0$):\n$$\\int_0^{1/n}(1 - x)\\,dx \\le \\int_0^{1/n}\\frac{dx}{1+x} \\le \\int_0^{1/n}1\\,dx.$$\n$$\\left[x - \\frac{x^2}{2}\\right]_0^{1/n} \\le \\Big[\\ln(1+x)\\Big]_0^{1/n} \\le \\Big[x\\Big]_0^{1/n}$$\n$$\\frac1n - \\frac{1}{2n^2} \\le \\ln\\left(1 + \\frac1n\\right) \\le \\frac1n.$$\nMultiplying through by $n > 0$:\n$$1 - \\frac{1}{2n} \\le n\\ln\\left(1 + \\frac1n\\right) \\le 1.$$"
+  },
+  {
+   "ref": "Q2(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.8"
+   ],
+   "question": "Suppose that $x \\ge 0$ and $n$ is a positive integer.\n\nGiven that $1 - \\dfrac{1}{2n} \\le n\\ln\\left(1 + \\dfrac1n\\right) \\le 1$, explain why $\\displaystyle\\lim_{n\\to\\infty}\\left(1 + \\frac1n\\right)^n = e$.",
+   "answer": "As $n \\to \\infty$, $1 - \\dfrac{1}{2n} \\to 1$, and the upper bound is the constant $1$. By the squeeze theorem,\n$$\\lim_{n\\to\\infty} n\\ln\\left(1 + \\frac1n\\right) = 1, \\quad \\text{i.e.} \\quad \\lim_{n\\to\\infty}\\ln\\left(1 + \\frac1n\\right)^n = 1.$$\nSince $\\left(1 + \\frac1n\\right)^n = e^{\\,n\\ln(1 + 1/n)}$ and $e^x$ is continuous,\n$$\\lim_{n\\to\\infty}\\left(1 + \\frac1n\\right)^n = e^1 = e.$$"
+  },
+  {
+   "ref": "Q3(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.3.5"
+   ],
+   "question": "For $a, b \\ge 0$, prove that $a + b \\ge 2\\sqrt{ab}$.",
+   "answer": "Since $a, b \\ge 0$, $\\sqrt a$ and $\\sqrt b$ are real, and\n$$\\left(\\sqrt a - \\sqrt b\\right)^2 \\ge 0 \\implies a - 2\\sqrt{ab} + b \\ge 0 \\implies a + b \\ge 2\\sqrt{ab}.$$"
+  },
+  {
+   "ref": "Q3(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.1.3.5"
+   ],
+   "question": "It is known that the graphs of $y = \\sec^2 x$ and $y = |\\tan x|$ lie on or above the $x$-axis (you do not need to prove this).\n\nUsing the result $a + b \\ge 2\\sqrt{ab}$ for $a, b \\ge 0$, or otherwise, prove that the graph of $y = \\sec^2 x$ lies on or above the graph of $y = |\\tan x|$.",
+   "answer": "Let $a = 1$ and $b = \\tan^2 x$, both $\\ge 0$. Then\n$$\\sec^2 x = 1 + \\tan^2 x \\ge 2\\sqrt{1 \\cdot \\tan^2 x} = 2|\\tan x| \\ge |\\tan x|,$$\nsince $|\\tan x| \\ge 0$. So $\\sec^2 x \\ge |\\tan x|$ wherever both are defined, i.e. the graph of $y = \\sec^2 x$ lies on or above the graph of $y = |\\tan x|$."
+  },
+  {
+   "ref": "Q4",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.3.4"
+   ],
+   "question": "Prove that $|x - y| + |z - y| \\ge x - z$ for all $x, y, z \\in \\mathbb{R}$ where $x > y > z$.",
+   "answer": "Since $x > y$, $\\;|x - y| = x - y$. Since $z < y$, $\\;|z - y| = y - z$. So\n$$|x - y| + |z - y| = (x - y) + (y - z) = x - z,$$\nhence $|x - y| + |z - y| \\ge x - z$ (with equality).\n\n*(Alternatively, by the triangle inequality, $|x - y| + |y - z| \\ge |(x - y) + (y - z)| = |x - z| \\ge x - z$, which in fact holds for all real $x, y, z$.)*"
+  },
+  {
+   "ref": "Q5",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.8"
+   ],
+   "question": "Prove that $\\displaystyle\\lim_{x\\to0} x^2\\sin\\left(\\frac1x\\right) = 0$.",
+   "answer": "For $x \\ne 0$, $\\;-1 \\le \\sin\\left(\\frac1x\\right) \\le 1$. Multiplying by $x^2 > 0$:\n$$-x^2 \\le x^2\\sin\\left(\\frac1x\\right) \\le x^2.$$\nSince $\\displaystyle\\lim_{x\\to0}(-x^2) = \\lim_{x\\to0}x^2 = 0$, by the squeeze theorem\n$$\\lim_{x\\to0} x^2\\sin\\left(\\frac1x\\right) = 0.$$"
+  },
+  {
+   "ref": "Q6",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.7",
+    "12.1.3.4"
+   ],
+   "question": "A triangle has side lengths $x + 3$, $3x + 6$ and $5x + 2$, where $x \\in \\mathbb{R}$. Prove that $\\dfrac13 < x < 7$.",
+   "answer": "Each side must be less than the sum of the other two:\n$$\\begin{aligned}\n5x + 2 &< (x + 3) + (3x + 6) = 4x + 9 &&\\implies x < 7,\\\\\n3x + 6 &< (x + 3) + (5x + 2) = 6x + 5 &&\\implies x > \\tfrac13,\\\\\nx + 3 &< (3x + 6) + (5x + 2) = 8x + 8 &&\\implies x > -\\tfrac57.\n\\end{aligned}$$\n(For $x > \\frac13$ all three side lengths are also positive.) Combining, $\\dfrac13 < x < 7$."
+  },
+  {
+   "ref": "Q7",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "Show that $\\dfrac{x}{e} > \\ln x$ for $x > e$.",
+   "answer": "Let $f(x) = \\dfrac{x}{e} - \\ln x$ for $x \\ge e$. Then\n$$f(e) = 1 - 1 = 0, \\qquad f'(x) = \\frac1e - \\frac1x > 0 \\text{ for } x > e \\;\\left(\\text{since } \\tfrac1x < \\tfrac1e\\right).$$\nSo $f$ is increasing for $x \\ge e$, giving $f(x) > f(e) = 0$ for $x > e$, i.e. $\\dfrac{x}{e} > \\ln x$."
+  },
+  {
+   "ref": "Q8(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.3.2"
+   ],
+   "question": "If $x \\ge 0$, show that $\\dfrac{x}{x^2 + 9} \\le \\dfrac16$.",
+   "answer": "Since $x^2 + 9 > 0$,\n$$\\frac{x}{x^2 + 9} \\le \\frac16 \\iff 6x \\le x^2 + 9 \\iff x^2 - 6x + 9 \\ge 0 \\iff (x - 3)^2 \\ge 0,$$\nwhich is true. Hence $\\dfrac{x}{x^2+9} \\le \\dfrac16$. *(It holds for all real $x$, with equality at $x = 3$.)*"
+  },
+  {
+   "ref": "Q8(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.9",
+    "12.1.3.6"
+   ],
+   "question": "Given that $\\dfrac{x}{x^2 + 9} \\le \\dfrac16$ for $x \\ge 0$, by integrating both sides with respect to $x$ between $x = 0$ and $x = \\alpha$, show that\n$$e^{\\frac{\\alpha}{3}} \\ge \\frac19\\alpha^2 + 1, \\quad \\alpha \\ge 0.$$",
+   "answer": "For $\\alpha \\ge 0$:\n$$\\int_0^\\alpha \\frac{x}{x^2 + 9}\\,dx \\le \\int_0^\\alpha \\frac16\\,dx$$\n$$\\left[\\tfrac12\\ln(x^2 + 9)\\right]_0^\\alpha \\le \\frac{\\alpha}{6}$$\n$$\\tfrac12\\ln\\left(\\frac{\\alpha^2 + 9}{9}\\right) \\le \\frac{\\alpha}{6} \\implies \\ln\\left(\\frac{\\alpha^2}{9} + 1\\right) \\le \\frac{\\alpha}{3}.$$\nSince $e^x$ is increasing, $\\dfrac{\\alpha^2}{9} + 1 \\le e^{\\alpha/3}$, i.e. $e^{\\frac\\alpha3} \\ge \\dfrac19\\alpha^2 + 1$."
+  },
+  {
+   "ref": "Q9(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "Let $g(x) = \\sin x - x$.\n\nShow that $g(0) = 0$ and $g'(0) = 0$.",
+   "answer": "$g(0) = \\sin 0 - 0 = 0$. $\\;g'(x) = \\cos x - 1$, so $g'(0) = 1 - 1 = 0$."
+  },
+  {
+   "ref": "Q9(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "Let $g(x) = \\sin x - x$.\n\nShow that $-2 \\le g'(x) \\le 0$ for all $x$.",
+   "answer": "$g'(x) = \\cos x - 1$ and $-1 \\le \\cos x \\le 1$, so $-2 \\le \\cos x - 1 \\le 0$, i.e. $-2 \\le g'(x) \\le 0$."
+  },
+  {
+   "ref": "Q9(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "Let $g(x) = \\sin x - x$.\n\nGiven that $g(0) = 0$ and $-2 \\le g'(x) \\le 0$ for all $x$, explain why $g(x) \\le 0$ for $x \\ge 0$.",
+   "answer": "Since $g'(x) \\le 0$ for all $x$, $g$ is never increasing (it is non-increasing). So for $x \\ge 0$, $\\;g(x) \\le g(0) = 0$."
+  },
+  {
+   "ref": "Q9(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "Let $g(x) = \\sin x - x$.\n\nGiven that $g(0) = 0$ and $g'(x) = \\cos x - 1 \\le 0$ for all $x$, explain why $\\sin x < x$ for $x > 0$.",
+   "answer": "$g'(x) = \\cos x - 1 = 0$ only when $\\cos x = 1$, i.e. at the isolated points $x = 0, \\pm2\\pi, \\pm4\\pi, \\ldots$. Everywhere else $g'(x) < 0$, so $g$ is **strictly** decreasing. Hence for $x > 0$, $\\;g(x) < g(0) = 0$, i.e. $\\sin x - x < 0$, so $\\sin x < x$.\n\n*(Or: for $0 < x \\le 1$, $g'(t) < 0$ on $(0, x]$, so $g(x) < 0$; for $x > 1$, $\\sin x \\le 1 < x$.)*"
+  },
+  {
+   "ref": "Q10(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "On the curve $y = e^x$, $P$ and $Q$ are two points with $x$-coordinates $a$ and $b$ respectively, $a > b$. Let $R$ be the midpoint of the chord $PQ$.\n\nProve that $y = e^x$ is concave up for all $x$.",
+   "answer": "$y'' = e^x > 0$ for all real $x$, so $y = e^x$ is concave up everywhere.",
+   "images": [
+    "assets/img/ext2-nsm12-ex1-4/q10-diagram.png"
+   ]
+  },
+  {
+   "ref": "Q10(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "On the curve $y = e^x$, $P$ and $Q$ are two points with $x$-coordinates $a$ and $b$ respectively, $a > b$. Let $R$ be the midpoint of the chord $PQ$.\n\nGiven that $y = e^x$ is concave up for all $x$, explain why $\\dfrac{e^a + e^b}{2} > e^{\\frac{a+b}{2}}$.",
+   "answer": "$R$ is the midpoint of $P(a, e^a)$ and $Q(b, e^b)$, so $R = \\left(\\dfrac{a+b}{2}, \\dfrac{e^a + e^b}{2}\\right)$.\n\nBecause the curve is concave up, the chord $PQ$ lies **above** the curve between $Q$ and $P$. So at $x = \\frac{a+b}{2}$ the chord's height (the $y$-coordinate of $R$) is greater than the curve's height:\n$$\\frac{e^a + e^b}{2} > e^{\\frac{a+b}{2}}.$$\n*(Algebraic check: $\\frac{e^a + e^b}{2} - e^{\\frac{a+b}{2}} = \\frac12\\left(e^{a/2} - e^{b/2}\\right)^2 > 0$ since $a \\ne b$.)*",
+   "images": [
+    "assets/img/ext2-nsm12-ex1-4/q10-diagram.png"
+   ]
+  },
+  {
+   "ref": "Q10(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "On the curve $y = e^x$, $P$ and $Q$ are two points with $x$-coordinates $a$ and $b$ respectively, $a > b$. Let $R$ be the midpoint of the chord $PQ$.\n\nGiven that $\\dfrac{e^a + e^b}{2} > e^{\\frac{a+b}{2}}$ whenever $a \\ne b$, show that\n$$e^a + e^b + e^c + e^d > 4e^{\\frac{a+b+c+d}{4}} \\quad \\text{if } a > b > c > d.$$",
+   "answer": "Apply the result to the pairs $(a, b)$ and $(c, d)$:\n$$e^a + e^b > 2e^{\\frac{a+b}{2}}, \\qquad e^c + e^d > 2e^{\\frac{c+d}{2}}.$$\nAdding:\n$$e^a + e^b + e^c + e^d > 2\\left(e^{\\frac{a+b}{2}} + e^{\\frac{c+d}{2}}\\right).$$\nNow apply the result again with the two numbers $\\frac{a+b}{2}$ and $\\frac{c+d}{2}$, which are different because $a + b > c + d$:\n$$e^{\\frac{a+b}{2}} + e^{\\frac{c+d}{2}} > 2e^{\\frac12\\left(\\frac{a+b}{2} + \\frac{c+d}{2}\\right)} = 2e^{\\frac{a+b+c+d}{4}}.$$\nTherefore $e^a + e^b + e^c + e^d > 4e^{\\frac{a+b+c+d}{4}}$.",
+   "images": [
+    "assets/img/ext2-nsm12-ex1-4/q10-diagram.png"
+   ]
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.3.5"
+   ],
+   "question": "For all real numbers $a, b \\ge 0$, prove that $a + b \\ge 2\\sqrt{ab}$.",
+   "answer": "$$\\left(\\sqrt a - \\sqrt b\\right)^2 \\ge 0 \\implies a - 2\\sqrt{ab} + b \\ge 0 \\implies a + b \\ge 2\\sqrt{ab},$$\nwith equality if and only if $a = b$."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.1.3.5"
+   ],
+   "question": "Using the result $a + b \\ge 2\\sqrt{ab}$ for all real $a, b \\ge 0$ (with equality only when $a = b$), solve\n$$\\left(2^{2x} + 1\\right)\\left(2^{2y} + 2\\right)\\left(2^{2z} + 8\\right) = 2^{5 + x + y + z}.$$",
+   "answer": "Apply AM–GM to each (positive) factor:\n$$2^{2x} + 1 \\ge 2\\sqrt{2^{2x}} = 2^{1}\\cdot2^x, \\qquad 2^{2y} + 2 \\ge 2\\sqrt{2 \\cdot 2^{2y}} = 2^{3/2}\\cdot2^y, \\qquad 2^{2z} + 8 \\ge 2\\sqrt{8 \\cdot 2^{2z}} = 2^{5/2}\\cdot2^z.$$\nAll terms are positive, so multiplying:\n$$\\left(2^{2x} + 1\\right)\\left(2^{2y} + 2\\right)\\left(2^{2z} + 8\\right) \\ge 2^{1 + \\frac32 + \\frac52}\\,2^{x+y+z} = 2^{5 + x + y + z}.$$\nSo the equation holds only when **every** AM–GM is an equality:\n$$2^{2x} = 1,\\quad 2^{2y} = 2,\\quad 2^{2z} = 8 \\implies x = 0,\\quad y = \\tfrac12,\\quad z = \\tfrac32.$$"
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.3.5"
+   ],
+   "question": "Prove that $\\sqrt{ab} \\le \\dfrac{a+b}{2}$, where $a \\ge 0$ and $b \\ge 0$.",
+   "answer": "$$\\left(\\sqrt a - \\sqrt b\\right)^2 \\ge 0 \\implies a + b - 2\\sqrt{ab} \\ge 0 \\implies \\sqrt{ab} \\le \\frac{a+b}{2}.$$"
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.2",
+    "12.1.3.6"
+   ],
+   "question": "Prove that $\\sqrt{ab} \\le \\sqrt{\\dfrac{a^2 + b^2}{2}}$, where $a, b \\ge 0$.",
+   "answer": "$(a - b)^2 \\ge 0 \\implies a^2 + b^2 \\ge 2ab \\implies ab \\le \\dfrac{a^2 + b^2}{2}.$\n\nBoth sides are non-negative and $\\sqrt{\\ }$ is increasing, so $\\sqrt{ab} \\le \\sqrt{\\dfrac{a^2 + b^2}{2}}$."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "Given that $\\sqrt{pq} \\le \\sqrt{\\dfrac{p^2 + q^2}{2}}$ for $p, q \\ge 0$, prove that\n$$\\sqrt[4]{abcd} \\le \\sqrt{\\frac{a^2 + b^2 + c^2 + d^2}{4}}, \\quad a, b, c, d \\ge 0.$$",
+   "answer": "Let $p = \\sqrt{ab}$ and $q = \\sqrt{cd}$ (both $\\ge 0$). Then\n$$\\sqrt[4]{abcd} = \\sqrt{pq} \\le \\sqrt{\\frac{p^2 + q^2}{2}} = \\sqrt{\\frac{ab + cd}{2}}.$$\nAlso $ab \\le \\dfrac{a^2 + b^2}{2}$ and $cd \\le \\dfrac{c^2 + d^2}{2}$ (from $(a-b)^2, (c-d)^2 \\ge 0$), so\n$$\\frac{ab + cd}{2} \\le \\frac{a^2 + b^2 + c^2 + d^2}{4}.$$\nHence $\\sqrt[4]{abcd} \\le \\sqrt{\\dfrac{a^2 + b^2 + c^2 + d^2}{4}}$."
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.1"
+   ],
+   "question": "If $1 \\le x \\le y$, show that $x(y - x + 1) \\ge y$.",
+   "answer": "$$x(y - x + 1) - y = xy - x^2 + x - y = x(y - x) - (y - x) = (x - 1)(y - x).$$\nSince $x \\ge 1$ and $y \\ge x$, both factors are $\\ge 0$, so $(x - 1)(y - x) \\ge 0$ and $x(y - x + 1) \\ge y$."
+  },
+  {
+   "ref": "Q12(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.1.3.5"
+   ],
+   "question": "Let $n$ and $k$ be positive integers with $1 \\le k \\le n$. Using the results $\\sqrt{ab} \\le \\dfrac{a+b}{2}$ (for $a, b \\ge 0$) and $x(y - x + 1) \\ge y$ (for $1 \\le x \\le y$), prove that\n$$\\sqrt n \\le \\sqrt{k(n - k + 1)} \\le \\frac{n+1}{2}.$$",
+   "answer": "**Left:** take $x = k$, $y = n$ (valid since $1 \\le k \\le n$): $\\;k(n - k + 1) \\ge n$, so $\\sqrt{k(n-k+1)} \\ge \\sqrt n$.\n\n**Right:** take $a = k$ and $b = n - k + 1$ (both $\\ge 1$):\n$$\\sqrt{k(n - k + 1)} \\le \\frac{k + (n - k + 1)}{2} = \\frac{n+1}{2}.$$"
+  },
+  {
+   "ref": "Q12(f)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "Given that $\\sqrt n \\le \\sqrt{k(n - k + 1)} \\le \\dfrac{n+1}{2}$ for all integers $1 \\le k \\le n$, prove that for integers $n \\ge 1$,\n$$\\left(\\sqrt n\\right)^n \\le n! \\le \\left(\\frac{n+1}{2}\\right)^n.$$",
+   "answer": "Write the inequality for $k = 1, 2, \\ldots, n$ and multiply the $n$ inequalities together (all terms are positive):\n$$\\left(\\sqrt n\\right)^n \\le \\prod_{k=1}^{n}\\sqrt{k(n - k + 1)} \\le \\left(\\frac{n+1}{2}\\right)^n.$$\nThe middle product is\n$$\\sqrt{\\prod_{k=1}^n k \\times \\prod_{k=1}^n (n - k + 1)} = \\sqrt{(1 \\cdot 2 \\cdots n)(n \\cdot (n-1) \\cdots 1)} = \\sqrt{n! \\cdot n!} = n!.$$\nHence $\\left(\\sqrt n\\right)^n \\le n! \\le \\left(\\dfrac{n+1}{2}\\right)^n$."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.5"
+   ],
+   "question": "Show that for $k \\ge 0$, $\\;2k + 3 > 2\\sqrt{(k+2)(k+1)}$.",
+   "answer": "Both sides are positive, so compare squares:\n$$(2k + 3)^2 = 4k^2 + 12k + 9 > 4k^2 + 12k + 8 = 4(k+2)(k+1).$$\nHence $2k + 3 > 2\\sqrt{(k+2)(k+1)}$.\n\n*(Or by AM–GM: $(k + 2) + (k + 1) \\ge 2\\sqrt{(k+2)(k+1)}$, with strict inequality because $k + 2 \\ne k + 1$.)*"
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "Given that $2k + 3 > 2\\sqrt{(k+2)(k+1)}$ for $k \\ge 0$, by decomposing $2k + 3$, show that for $k \\ge 0$,\n$$\\frac{1}{\\sqrt{k+1}} > 2\\left(\\sqrt{k+2} - \\sqrt{k+1}\\right).$$",
+   "answer": "Write $2k + 3 = 1 + 2(k + 1)$:\n$$1 + 2(k+1) > 2\\sqrt{(k+2)(k+1)} \\implies 1 > 2\\sqrt{k+1}\\,\\sqrt{k+2} - 2\\left(\\sqrt{k+1}\\right)^2 = 2\\sqrt{k+1}\\left(\\sqrt{k+2} - \\sqrt{k+1}\\right).$$\nDividing by $\\sqrt{k+1} > 0$:\n$$\\frac{1}{\\sqrt{k+1}} > 2\\left(\\sqrt{k+2} - \\sqrt{k+1}\\right).$$"
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "Given that $\\dfrac{1}{\\sqrt{k+1}} > 2\\left(\\sqrt{k+2} - \\sqrt{k+1}\\right)$ for $k \\ge 0$, show that for $n \\ge 1$,\n$$1 + \\frac{1}{\\sqrt2} + \\frac{1}{\\sqrt3} + \\cdots + \\frac{1}{\\sqrt n} > 2\\left(\\sqrt{n+1} - 1\\right).$$",
+   "answer": "Add the inequality for $k = 0, 1, \\ldots, n - 1$:\n$$\\sum_{k=0}^{n-1}\\frac{1}{\\sqrt{k+1}} > 2\\sum_{k=0}^{n-1}\\left(\\sqrt{k+2} - \\sqrt{k+1}\\right).$$\nThe left side is $1 + \\frac{1}{\\sqrt2} + \\cdots + \\frac{1}{\\sqrt n}$. The right side telescopes:\n$$2\\left[(\\sqrt2 - \\sqrt1) + (\\sqrt3 - \\sqrt2) + \\cdots + (\\sqrt{n+1} - \\sqrt n)\\right] = 2\\left(\\sqrt{n+1} - 1\\right).$$"
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Use integration by parts to show that $\\displaystyle\\int_1^n \\log_e x\\,dx = n\\log_e n - n + 1$.",
+   "answer": "Let $u = \\ln x$, $dv = dx$, so $du = \\frac1x\\,dx$, $v = x$:\n$$\\int_1^n \\ln x\\,dx = \\Big[x\\ln x\\Big]_1^n - \\int_1^n x \\cdot \\frac1x\\,dx = n\\ln n - 0 - (n - 1) = n\\ln n - n + 1.$$"
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "Show that $y = \\log_e x$ is concave down for all $x$ in its domain.",
+   "answer": "$y' = \\dfrac1x$, $\\;y'' = -\\dfrac{1}{x^2} < 0$ for all $x > 0$, so $y = \\ln x$ is concave down on its whole domain."
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "Use the trapezoidal rule with $n$ function values (at $x = 1, 2, \\ldots, n$) to show that $\\displaystyle\\int_1^n \\log_e x\\,dx$ is approximately equal to\n$$\\log_e(n!) - \\frac12\\log_e n.$$",
+   "answer": "With function values at $x = 1, 2, \\ldots, n$ there are $n - 1$ strips of width $h = 1$:\n$$\\begin{aligned}\n\\int_1^n \\ln x\\,dx &\\approx \\frac12\\Big[\\ln 1 + 2(\\ln 2 + \\ln 3 + \\cdots + \\ln(n-1)) + \\ln n\\Big]\\\\\n&= \\ln 2 + \\ln 3 + \\cdots + \\ln(n - 1) + \\tfrac12\\ln n \\quad (\\ln 1 = 0)\\\\\n&= \\big(\\ln 2 + \\cdots + \\ln n\\big) - \\tfrac12\\ln n = \\ln(n!) - \\tfrac12\\ln n.\n\\end{aligned}$$"
+  },
+  {
+   "ref": "Q14(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "The integral $\\displaystyle\\int_1^n \\log_e x\\,dx$ is approximated using the trapezoidal rule with function values at $x = 1, 2, \\ldots, n$. Given that $y = \\log_e x$ is concave down for $x > 0$, is the approximation smaller or greater than the exact value of the integral? Justify your answer.",
+   "answer": "**Smaller.** Since $y = \\ln x$ is concave down, each chord joining $(k, \\ln k)$ and $(k + 1, \\ln(k+1))$ lies **below** the curve. So each trapezium lies under the curve and its area is less than the area under the curve on that strip. Adding, the trapezoidal approximation is less than the exact integral (for $n \\ge 2$)."
+  },
+  {
+   "ref": "Q14(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.9",
+    "12.1.3.6"
+   ],
+   "question": "Given that $\\displaystyle\\int_1^n \\log_e x\\,dx = n\\log_e n - n + 1$, and that the trapezoidal approximation $\\log_e(n!) - \\frac12\\log_e n$ is smaller than this integral for $n \\ge 2$, show that\n$$n! < e\\left(\\frac ne\\right)^n\\sqrt n.$$",
+   "answer": "$$\\ln(n!) - \\tfrac12\\ln n < n\\ln n - n + 1$$\n$$\\ln(n!) < n\\ln n - n + 1 + \\tfrac12\\ln n = \\ln\\left(n^n\\right) + \\ln\\left(e^{-n}\\right) + \\ln e + \\ln\\sqrt n = \\ln\\left(e\\left(\\frac ne\\right)^n\\sqrt n\\right).$$\nSince $\\ln$ is increasing, $n! < e\\left(\\dfrac ne\\right)^n\\sqrt n$ (for $n \\ge 2$; at $n = 1$ both sides equal $1$)."
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.3.1"
+   ],
+   "question": "Show that $\\dfrac{1}{\\sqrt x + \\sqrt{x+1}} = \\sqrt{x+1} - \\sqrt x$ for $x \\ge 0$.",
+   "answer": "Rationalise the denominator:\n$$\\frac{1}{\\sqrt x + \\sqrt{x+1}} \\times \\frac{\\sqrt{x+1} - \\sqrt x}{\\sqrt{x+1} - \\sqrt x} = \\frac{\\sqrt{x+1} - \\sqrt x}{(x + 1) - x} = \\sqrt{x+1} - \\sqrt x.$$"
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "Sketch the curve $y = \\dfrac{1}{\\sqrt x + \\sqrt{x+1}}$. On your sketch, show the area that represents $\\displaystyle\\int_0^n \\frac{dx}{\\sqrt x + \\sqrt{x+1}}$, where $n$ is a positive integer.",
+   "answer": "For $x \\ge 0$: $y(0) = 1$; the denominator increases, so $y$ is positive and decreasing; $y \\to 0$ as $x \\to \\infty$ (the $x$-axis is an asymptote). The integral is the area under the curve between $x = 0$ and $x = n$ (shaded).",
+   "answer_images": [
+    "assets/img/ext2-nsm12-ex1-4/q15b-sketch.png"
+   ]
+  },
+  {
+   "ref": "Q15(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "The function $f(x) = \\dfrac{1}{\\sqrt x + \\sqrt{x+1}}$ is positive and decreasing for $x \\ge 0$. Use the sets of lower and upper rectangles (of width 1 unit) that approximate the area under $y = f(x)$ from $x = 0$ to $x = n$ to explain why\n$$\\frac{1}{\\sqrt1 + \\sqrt2} + \\frac{1}{\\sqrt2 + \\sqrt3} + \\cdots + \\frac{1}{\\sqrt n + \\sqrt{n+1}} < \\int_0^n \\frac{dx}{\\sqrt x + \\sqrt{x+1}} < \\frac{1}{\\sqrt0 + \\sqrt1} + \\frac{1}{\\sqrt1 + \\sqrt2} + \\cdots + \\frac{1}{\\sqrt{n-1} + \\sqrt n}.$$",
+   "answer": "Since $f$ is decreasing, on each strip $k - 1 \\le x \\le k$ ($k = 1, \\ldots, n$) the smallest value is $f(k)$ (right end) and the largest is $f(k-1)$ (left end).\n\n- The **lower** rectangles have heights $f(1), f(2), \\ldots, f(n)$ and lie under the curve.\n- The **upper** rectangles have heights $f(0), f(1), \\ldots, f(n-1)$ and lie above the curve.\n\nSo (strictly, since $f$ is strictly decreasing)\n$$\\sum_{k=1}^n f(k) < \\int_0^n f(x)\\,dx < \\sum_{k=1}^n f(k - 1),$$\nwhich is the given inequality, as $f(k) = \\dfrac{1}{\\sqrt k + \\sqrt{k+1}}$.",
+   "answer_images": [
+    "assets/img/ext2-nsm12-ex1-4/q15c-rectangles.png"
+   ]
+  },
+  {
+   "ref": "Q15(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.1.3.9"
+   ],
+   "question": "Given that $\\dfrac{1}{\\sqrt x + \\sqrt{x+1}} = \\sqrt{x+1} - \\sqrt x$, and that for positive integers $n$\n$$\\sum_{k=1}^{n}\\frac{1}{\\sqrt k + \\sqrt{k+1}} < \\int_0^n \\frac{dx}{\\sqrt x + \\sqrt{x+1}} < \\sum_{k=1}^{n}\\frac{1}{\\sqrt{k-1} + \\sqrt k},$$\nshow that\n$$10\\tfrac{9}{199} < \\sqrt{101} < 10\\tfrac{6}{101}.$$",
+   "answer": "Using $\\dfrac{1}{\\sqrt x + \\sqrt{x+1}} = \\sqrt{x+1} - \\sqrt x$, both sums telescope:\n$$\\sum_{k=1}^{n}\\left(\\sqrt{k+1} - \\sqrt k\\right) = \\sqrt{n+1} - 1, \\qquad \\sum_{k=1}^{n}\\left(\\sqrt k - \\sqrt{k-1}\\right) = \\sqrt n,$$\nand the integral is\n$$\\int_0^n\\left(\\sqrt{x+1} - \\sqrt x\\right)dx = \\frac23\\Big[(x+1)^{3/2} - x^{3/2}\\Big]_0^n = \\frac23\\left((n+1)^{3/2} - n^{3/2} - 1\\right).$$\nTake $n = 100$ (so $\\sqrt n = 10$, $n^{3/2} = 1000$, $(n+1)^{3/2} = 101\\sqrt{101}$):\n$$\\sqrt{101} - 1 < \\frac23\\left(101\\sqrt{101} - 1001\\right) < 10.$$\n\n**Right inequality:** $101\\sqrt{101} - 1001 < 15 \\implies \\sqrt{101} < \\dfrac{1016}{101} = 10\\tfrac{6}{101}$.\n\n**Left inequality:** $3\\sqrt{101} - 3 < 202\\sqrt{101} - 2002 \\implies 1999 < 199\\sqrt{101} \\implies \\sqrt{101} > \\dfrac{1999}{199} = 10\\tfrac{9}{199}$.\n\nHence $10\\tfrac{9}{199} < \\sqrt{101} < 10\\tfrac{6}{101}$."
+  },
+  {
+   "ref": "Q16",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.5",
+    "12.1.3.6"
+   ],
+   "question": "Let $a_1, a_2, a_3, \\ldots, a_n$ be positive real numbers such that $a_1a_2a_3\\cdots a_n = 1$. Prove that\n$$\\left(a_1^2 + a_1\\right)\\left(a_2^2 + a_2\\right)\\cdots\\left(a_n^2 + a_n\\right) \\ge 2^n.$$",
+   "answer": "For each $i$, by AM–GM ($a_i + 1 \\ge 2\\sqrt{a_i}$):\n$$a_i^2 + a_i = a_i(a_i + 1) \\ge a_i \\cdot 2\\sqrt{a_i} = 2a_i^{3/2}.$$\nAll terms are positive, so multiplying these $n$ inequalities:\n$$\\prod_{i=1}^n\\left(a_i^2 + a_i\\right) \\ge 2^n\\left(a_1a_2\\cdots a_n\\right)^{3/2} = 2^n \\cdot 1^{3/2} = 2^n.$$"
+  },
+  {
+   "ref": "Q17(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.2.1",
+    "12.3.1.6"
+   ],
+   "question": "Prove that $\\tan^{-1}(k+1) - \\tan^{-1}k = \\tan^{-1}\\left(\\dfrac{1}{k(k+1) + 1}\\right)$ for $k = 1, 2, 3, \\ldots$",
+   "answer": "Let $\\alpha = \\tan^{-1}(k+1)$ and $\\beta = \\tan^{-1}k$, so $\\tan\\alpha = k + 1$, $\\tan\\beta = k$. Then\n$$\\tan(\\alpha - \\beta) = \\frac{\\tan\\alpha - \\tan\\beta}{1 + \\tan\\alpha\\tan\\beta} = \\frac{(k+1) - k}{1 + k(k+1)} = \\frac{1}{k(k+1) + 1}.$$\nSince $k \\ge 1$, $\\;0 < \\beta < \\alpha < \\frac\\pi2$, so $0 < \\alpha - \\beta < \\frac\\pi2$, which lies in the range of $\\tan^{-1}$. Hence\n$$\\alpha - \\beta = \\tan^{-1}\\left(\\frac{1}{k(k+1) + 1}\\right).$$",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q17(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.6"
+   ],
+   "question": "Given that $\\tan^{-1}(k+1) - \\tan^{-1}k = \\tan^{-1}\\left(\\dfrac{1}{k(k+1) + 1}\\right)$ for $k = 1, 2, 3, \\ldots$, prove that\n$$\\lim_{n\\to\\infty}\\left[\\tan^{-1}\\left(\\frac{1}{1\\times2 + 1}\\right) + \\tan^{-1}\\left(\\frac{1}{2\\times3 + 1}\\right) + \\tan^{-1}\\left(\\frac{1}{3\\times4 + 1}\\right) + \\cdots + \\tan^{-1}\\left(\\frac{1}{n(n+1) + 1}\\right)\\right] = \\frac\\pi4.$$",
+   "answer": "The sum telescopes:\n$$\\sum_{k=1}^{n}\\tan^{-1}\\left(\\frac{1}{k(k+1) + 1}\\right) = \\sum_{k=1}^{n}\\left[\\tan^{-1}(k+1) - \\tan^{-1}k\\right] = \\tan^{-1}(n+1) - \\tan^{-1}1 = \\tan^{-1}(n+1) - \\frac\\pi4.$$\nAs $n \\to \\infty$, $\\tan^{-1}(n+1) \\to \\dfrac\\pi2$, so the limit is $\\dfrac\\pi2 - \\dfrac\\pi4 = \\dfrac\\pi4$.",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q18(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "It is known that the arithmetic mean of three positive numbers is greater than or equal to their geometric mean: $\\dfrac{a+b+c}{3} \\ge \\sqrt[3]{abc}$ (you do not need to prove this).\n\nGiven that $a + b + c = t$ and $a, b, c > 0$, prove that $\\dfrac1a + \\dfrac1b + \\dfrac1c \\ge \\dfrac9t$.",
+   "answer": "Apply AM–GM to $a, b, c$: $\\;\\dfrac t3 \\ge \\sqrt[3]{abc}$, so $\\dfrac{1}{\\sqrt[3]{abc}} \\ge \\dfrac3t$.\n\nApply AM–GM to $\\dfrac1a, \\dfrac1b, \\dfrac1c$:\n$$\\frac13\\left(\\frac1a + \\frac1b + \\frac1c\\right) \\ge \\sqrt[3]{\\frac{1}{abc}} = \\frac{1}{\\sqrt[3]{abc}} \\ge \\frac3t.$$\nHence $\\dfrac1a + \\dfrac1b + \\dfrac1c \\ge \\dfrac9t$."
+  },
+  {
+   "ref": "Q18(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "It is known that the arithmetic mean of three positive numbers is greater than or equal to their geometric mean: $\\dfrac{a+b+c}{3} \\ge \\sqrt[3]{abc}$ (you do not need to prove this).\n\nGiven that $\\dfrac1a + \\dfrac1b + \\dfrac1c \\ge \\dfrac9t$ whenever $a + b + c = t$ and $a, b, c > 0$, prove that if $a, b, c > 0$ and $a + b + c = 1$, then\n$$\\left(\\frac1a - 1\\right)\\left(\\frac1b - 1\\right)\\left(\\frac1c - 1\\right) \\ge 8.$$",
+   "answer": "Expanding:\n$$\\left(\\frac1a - 1\\right)\\left(\\frac1b - 1\\right)\\left(\\frac1c - 1\\right) = \\frac{1}{abc} - \\left(\\frac{1}{ab} + \\frac{1}{bc} + \\frac{1}{ca}\\right) + \\left(\\frac1a + \\frac1b + \\frac1c\\right) - 1.$$\nSince $a + b + c = 1$:\n$$\\frac{1}{ab} + \\frac{1}{bc} + \\frac{1}{ca} = \\frac{c + a + b}{abc} = \\frac{1}{abc}.$$\nSo the product equals $\\dfrac1a + \\dfrac1b + \\dfrac1c - 1 \\ge \\dfrac91 - 1 = 8$, using the previous result with $t = 1$."
+  },
+  {
+   "ref": "Q19(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.3.1"
+   ],
+   "question": "Show that $\\dfrac{2k - 1}{2k} < \\dfrac{2k}{2k + 1}$ for all positive integers $k$.",
+   "answer": "Both denominators are positive, so\n$$\\frac{2k-1}{2k} < \\frac{2k}{2k+1} \\iff (2k - 1)(2k + 1) < (2k)^2 \\iff 4k^2 - 1 < 4k^2,$$\nwhich is true."
+  },
+  {
+   "ref": "Q19(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "Given that $\\dfrac{2k-1}{2k} < \\dfrac{2k}{2k+1}$ for all positive integers $k$, by considering\n$$p = \\frac12 \\times \\frac34 \\times \\frac56 \\times \\cdots \\times \\frac{2n-1}{2n} \\quad \\text{and} \\quad q = \\frac23 \\times \\frac45 \\times \\frac67 \\times \\cdots \\times \\frac{2n}{2n+1},$$\nshow that $\\;\\dfrac12 \\times \\dfrac34 \\times \\dfrac56 \\times \\cdots \\times \\dfrac{2n-1}{2n} < \\dfrac{1}{\\sqrt{2n}}\\;$ for all positive integers $n$.",
+   "answer": "Each factor of $p$ is less than the corresponding factor of $q$ (the given result with $k = 1, \\ldots, n$), and all factors are positive, so $p < q$. Multiplying by $p > 0$: $\\;p^2 < pq$.\n\nNow\n$$pq = \\frac12 \\times \\frac23 \\times \\frac34 \\times \\frac45 \\times \\cdots \\times \\frac{2n-1}{2n} \\times \\frac{2n}{2n+1} = \\frac{1}{2n+1}.$$\nSo $p^2 < \\dfrac{1}{2n+1} < \\dfrac{1}{2n}$, and since $p > 0$,\n$$p < \\frac{1}{\\sqrt{2n}}.$$"
+  },
+  {
+   "ref": "Q20(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "The AM–GM inequality states that for non-negative numbers $x_1, x_2, \\ldots, x_n$,\n$$\\frac{x_1 + x_2 + \\cdots + x_n}{n} \\ge \\sqrt[n]{x_1x_2\\cdots x_n},$$\nwith equality when all of the $x_i$ are equal.\n\nShow that $f(x) = x - e^{x-1}$ has only one stationary point, which is a maximum turning point at $(1, 0)$.",
+   "answer": "$f'(x) = 1 - e^{x-1} = 0 \\iff e^{x-1} = 1 \\iff x = 1$, so there is exactly one stationary point, and $f(1) = 1 - e^0 = 0$.\n\n$f''(x) = -e^{x-1} < 0$, so $(1, 0)$ is a maximum turning point."
+  },
+  {
+   "ref": "Q20(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "The AM–GM inequality states that for non-negative numbers $x_1, x_2, \\ldots, x_n$,\n$$\\frac{x_1 + x_2 + \\cdots + x_n}{n} \\ge \\sqrt[n]{x_1x_2\\cdots x_n},$$\nwith equality when all of the $x_i$ are equal.\n\nGiven that $f(x) = x - e^{x-1}$ has only one stationary point, a maximum turning point at $(1, 0)$, and noting that $f(x)$ is continuous for all $x$, explain why $x \\le e^{x-1}$ for all real $x$.",
+   "answer": "$f$ is continuous and differentiable with only one stationary point, a maximum at $(1, 0)$; so $f$ increases for $x < 1$ and decreases for $x > 1$ ($f'(x) = 1 - e^{x-1}$ is positive then negative). Hence $f(1) = 0$ is the global maximum: $f(x) \\le 0$ for all $x$, i.e. $x - e^{x-1} \\le 0$, so $x \\le e^{x-1}$."
+  },
+  {
+   "ref": "Q20(a)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "The AM–GM inequality states that for non-negative numbers $x_1, x_2, \\ldots, x_n$,\n$$\\frac{x_1 + x_2 + \\cdots + x_n}{n} \\ge \\sqrt[n]{x_1x_2\\cdots x_n},$$\nwith equality when all of the $x_i$ are equal.\n\nLet $x_1, x_2, \\ldots, x_n$ be non-negative numbers with arithmetic mean $X$, i.e. $X = \\dfrac{x_1 + x_2 + \\cdots + x_n}{n}$. Using the fact $\\dfrac{x_i}{X} \\le e^{\\frac{x_i}{X} - 1}$ (from $x \\le e^{x-1}$), show that $\\dfrac{x_1x_2\\cdots x_n}{X^n} \\le 1$, and hence complete the proof of the AM–GM inequality.",
+   "answer": "If $X = 0$ all $x_i = 0$ and the result is trivial, so assume $X > 0$. For each $i$,\n$$0 \\le \\frac{x_i}{X} \\le e^{\\frac{x_i}{X} - 1}.$$\nMultiplying these $n$ inequalities (all sides non-negative):\n$$\\frac{x_1x_2\\cdots x_n}{X^n} \\le e^{\\left(\\frac{x_1}{X} - 1\\right) + \\cdots + \\left(\\frac{x_n}{X} - 1\\right)} = e^{\\frac{x_1 + \\cdots + x_n}{X} - n} = e^{\\frac{nX}{X} - n} = e^0 = 1.$$\nSo $x_1x_2\\cdots x_n \\le X^n$, and taking $n$th roots,\n$$\\sqrt[n]{x_1x_2\\cdots x_n} \\le X = \\frac{x_1 + x_2 + \\cdots + x_n}{n}.$$"
+  },
+  {
+   "ref": "Q20(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "The AM–GM inequality states that for non-negative numbers $x_1, x_2, \\ldots, x_n$,\n$$\\frac{x_1 + x_2 + \\cdots + x_n}{n} \\ge \\sqrt[n]{x_1x_2\\cdots x_n},$$\nwith equality when all of the $x_i$ are equal.\n\nJensen's theorem (which you do not need to prove) states that if $f$ is concave down on a domain, then for $x_1, \\ldots, x_n$ in that domain,\n$$\\frac{f(x_1) + f(x_2) + \\cdots + f(x_n)}{n} \\le f\\left(\\frac{x_1 + x_2 + \\cdots + x_n}{n}\\right),$$\nand the inequality is reversed for a concave-up function.\n\nProve that $y = \\log_e x$ is concave down for all $x > 0$.",
+   "answer": "$y'' = -\\dfrac{1}{x^2} < 0$ for all $x > 0$, so $y = \\ln x$ is concave down."
+  },
+  {
+   "ref": "Q20(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "The AM–GM inequality states that for non-negative numbers $x_1, x_2, \\ldots, x_n$,\n$$\\frac{x_1 + x_2 + \\cdots + x_n}{n} \\ge \\sqrt[n]{x_1x_2\\cdots x_n},$$\nwith equality when all of the $x_i$ are equal.\n\nJensen's theorem (which you do not need to prove) states that if $f$ is concave down on a domain, then for $x_1, \\ldots, x_n$ in that domain,\n$$\\frac{f(x_1) + f(x_2) + \\cdots + f(x_n)}{n} \\le f\\left(\\frac{x_1 + x_2 + \\cdots + x_n}{n}\\right),$$\nand the inequality is reversed for a concave-up function.\n\nLet $x_1, x_2, \\ldots, x_n$ be positive numbers with arithmetic mean $X = \\dfrac{x_1 + \\cdots + x_n}{n}$. Write Jensen's theorem as it applies to the (concave down) function $y = \\log_e x$.",
+   "answer": "$$\\frac{\\ln x_1 + \\ln x_2 + \\cdots + \\ln x_n}{n} \\le \\ln\\left(\\frac{x_1 + x_2 + \\cdots + x_n}{n}\\right) = \\ln X.$$"
+  },
+  {
+   "ref": "Q20(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "The AM–GM inequality states that for non-negative numbers $x_1, x_2, \\ldots, x_n$,\n$$\\frac{x_1 + x_2 + \\cdots + x_n}{n} \\ge \\sqrt[n]{x_1x_2\\cdots x_n},$$\nwith equality when all of the $x_i$ are equal.\n\nJensen's theorem (which you do not need to prove) states that if $f$ is concave down on a domain, then for $x_1, \\ldots, x_n$ in that domain,\n$$\\frac{f(x_1) + f(x_2) + \\cdots + f(x_n)}{n} \\le f\\left(\\frac{x_1 + x_2 + \\cdots + x_n}{n}\\right),$$\nand the inequality is reversed for a concave-up function.\n\nGiven that $\\dfrac{\\ln x_1 + \\ln x_2 + \\cdots + \\ln x_n}{n} \\le \\ln X$, where $X$ is the arithmetic mean of the positive numbers $x_1, \\ldots, x_n$, complete this proof of the AM–GM inequality.",
+   "answer": "Using the log laws, the left side is\n$$\\frac{1}{n}\\ln(x_1x_2\\cdots x_n) = \\ln\\sqrt[n]{x_1x_2\\cdots x_n}.$$\nSo $\\ln\\sqrt[n]{x_1\\cdots x_n} \\le \\ln X$, and since $\\ln$ is increasing,\n$$\\sqrt[n]{x_1x_2\\cdots x_n} \\le X = \\frac{x_1 + \\cdots + x_n}{n}.$$\n(If some $x_i = 0$, the geometric mean is $0$ and the inequality is immediate.)"
+  },
+  {
+   "ref": "Q20(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.1.3.5"
+   ],
+   "question": "The AM–GM inequality states that for non-negative numbers $x_1, x_2, \\ldots, x_n$,\n$$\\frac{x_1 + x_2 + \\cdots + x_n}{n} \\ge \\sqrt[n]{x_1x_2\\cdots x_n},$$\nwith equality when all of the $x_i$ are equal.\n\nBy substitution into the AM–GM inequality, prove that $n! \\le \\left(\\dfrac{n+1}{2}\\right)^n$ for all positive integers $n$.",
+   "answer": "Take $x_i = i$ for $i = 1, 2, \\ldots, n$:\n$$\\frac{1 + 2 + \\cdots + n}{n} \\ge \\sqrt[n]{1 \\cdot 2 \\cdots n} \\implies \\frac{n(n+1)}{2n} \\ge \\sqrt[n]{n!} \\implies \\frac{n+1}{2} \\ge \\sqrt[n]{n!}.$$\nRaising both (positive) sides to the power $n$: $\\;n! \\le \\left(\\dfrac{n+1}{2}\\right)^n$."
+  }
+ ]
+}

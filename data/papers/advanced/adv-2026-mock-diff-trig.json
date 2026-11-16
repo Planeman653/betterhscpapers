@@ -1,0 +1,291 @@
+{
+ "id": "adv-2026-mock-diff-trig",
+ "course": "advanced",
+ "school": "Mock Exam",
+ "year": 2026,
+ "type": "Mock exam",
+ "thsc": {
+  "viewno": "",
+  "title": "Mathematics Mock Examination: Differentiation and Trigonometric Functions"
+ },
+ "indexed": "2026-11-16",
+ "answers": "worked",
+ "label": "Differentiation & Trig Functions Mock Exam 2026",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.6.1.2"
+   ],
+   "question": "The function $f(x) = x^3$ is transformed to $g(x) = (x-2)^3 + 5$ by a horizontal translation of 2 units followed by a vertical translation of 5 units.\n\nWhat are the directions of the two translations?",
+   "answer": "Replacing $x$ by $x - 2$ translates the graph **2 units right**, and adding $5$ translates it **5 units up**. **(B)**",
+   "options": [
+    "Horizontal: left; vertical: up",
+    "Horizontal: right; vertical: up",
+    "Horizontal: left; vertical: down",
+    "Horizontal: right; vertical: down"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.3.9",
+    "12.3.3.1"
+   ],
+   "question": "What is the derivative of $\\dfrac{x}{\\cos x}$?",
+   "answer": "By the quotient rule with $u = x$, $v = \\cos x$:\n$$\\frac{d}{dx}\\left(\\frac{x}{\\cos x}\\right) = \\frac{\\cos x \\cdot 1 - x(-\\sin x)}{\\cos^2 x} = \\frac{\\cos x + x\\sin x}{\\cos^2 x}. \\quad \\textbf{(A)}$$",
+   "options": [
+    "$\\dfrac{\\cos x + x\\sin x}{\\cos^2 x}$",
+    "$\\dfrac{\\cos x - x\\sin x}{\\cos^2 x}$",
+    "$\\dfrac{x\\sin x - \\cos x}{\\cos^2 x}$",
+    "$\\dfrac{-x\\sin x - \\cos x}{\\cos^2 x}$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.3.9"
+   ],
+   "question": "Let $h(x) = \\dfrac{f(x)}{g(x)}$, where $f(1) = 2$, $f'(1) = 4$, $g(1) = 8$ and $g'(1) = 12$.\n\nWhat is the gradient of the tangent to the graph of $y = h(x)$ at $x = 1$?",
+   "answer": "$$h'(1) = \\frac{g(1)f'(1) - f(1)g'(1)}{[g(1)]^2} = \\frac{8 \\times 4 - 2 \\times 12}{8^2} = \\frac{8}{64} = \\frac18. \\quad \\textbf{(D)}$$",
+   "options": [
+    "$-8$",
+    "$8$",
+    "$-\\dfrac{1}{8}$",
+    "$\\dfrac{1}{8}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "The height of the tide in a harbour can be modelled using the sine function. The time between high tide and low tide is 6 hours.\n\nWhich of the following could be the function representing the height $h$ of the tide, where $t$ is the time in hours?",
+   "answer": "High tide to low tide is half a period, so the period is $12$ hours. For $h = \\sin(bt)$ the period is $\\dfrac{2\\pi}{b}$:\n$$\\frac{2\\pi}{b} = 12 \\implies b = \\frac{\\pi}{6}. \\quad \\textbf{(B)}$$",
+   "options": [
+    "$h = \\sin\\left(\\dfrac{\\pi t}{3}\\right)$",
+    "$h = \\sin\\left(\\dfrac{\\pi t}{6}\\right)$",
+    "$h = \\sin\\left(\\dfrac{\\pi t}{12}\\right)$",
+    "$h = \\sin\\left(\\dfrac{\\pi t}{18}\\right)$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "If $f(x) = \\sin^2(3 - x)$, then $f'(0)$ is equal to:",
+   "answer": "By the chain rule (twice):\n$$f'(x) = 2\\sin(3 - x) \\cdot \\cos(3 - x) \\cdot (-1) = -2\\sin(3 - x)\\cos(3 - x),$$\nso $f'(0) = -2\\sin(3)\\cos(3)$. **(B)**",
+   "options": [
+    "$-2\\cos(3)$",
+    "$-2\\sin(3)\\cos(3)$",
+    "$2\\sin(3)\\cos(3)$",
+    "$6\\sin(3)\\cos(3)$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q6",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.4",
+    "12.3.3.2"
+   ],
+   "question": "Show that $\\dfrac{d}{dx}\\left(\\tan^3 x\\right) = 3\\sec^4 x - 3\\sec^2 x$.",
+   "answer": "By the chain rule, with $\\dfrac{d}{dx}(\\tan x) = \\sec^2 x$:\n$$\\frac{d}{dx}\\left(\\tan^3 x\\right) = 3\\tan^2 x \\sec^2 x.$$\nUsing $\\tan^2 x = \\sec^2 x - 1$:\n$$3\\tan^2 x\\sec^2 x = 3(\\sec^2 x - 1)\\sec^2 x = 3\\sec^4 x - 3\\sec^2 x.$$"
+  },
+  {
+   "ref": "Q7",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.4",
+    "12.5.1.3"
+   ],
+   "question": "Find $\\dfrac{d^2}{dx^2}\\left(e^{x^2}\\right)$.",
+   "answer": "$$\\frac{d}{dx}\\left(e^{x^2}\\right) = 2xe^{x^2}.$$\nBy the product rule:\n$$\\frac{d^2}{dx^2}\\left(e^{x^2}\\right) = 2e^{x^2} + 2x \\cdot 2xe^{x^2} = 2e^{x^2}\\left(1 + 2x^2\\right).$$"
+  },
+  {
+   "ref": "Q8",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.3",
+    "11.5.2.7"
+   ],
+   "question": "Differentiate $\\log_e\\left(\\sin^3 x\\right)$, writing your answer in simplest form.",
+   "answer": "Using the log law, $\\log_e(\\sin^3 x) = 3\\log_e(\\sin x)$ (where $\\sin x > 0$). So\n$$\\frac{d}{dx}\\log_e\\left(\\sin^3 x\\right) = 3 \\cdot \\frac{\\cos x}{\\sin x} = 3\\cot x.$$\n(Or by the chain rule: $\\dfrac{3\\sin^2 x\\cos x}{\\sin^3 x} = 3\\cot x$.)"
+  },
+  {
+   "ref": "Q9(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.3",
+    "12.1.2.1"
+   ],
+   "question": "The population of a herd of wild horses is given by\n$$P(t) = 400 + 50\\cos\\left(\\frac{\\pi}{6}t\\right)$$\nwhere $t$ is time in months.\n\nFind all times during the first 12 months when the population equals 375 horses.",
+   "answer": "$$400 + 50\\cos\\left(\\frac{\\pi t}{6}\\right) = 375 \\implies \\cos\\left(\\frac{\\pi t}{6}\\right) = -\\frac12.$$\nFor $0 \\le t \\le 12$, $\\;0 \\le \\dfrac{\\pi t}{6} \\le 2\\pi$, so\n$$\\frac{\\pi t}{6} = \\frac{2\\pi}{3} \\text{ or } \\frac{4\\pi}{3} \\implies t = 4 \\text{ or } t = 8.$$\nThe population is 375 horses after **4 months** and after **8 months**."
+  },
+  {
+   "ref": "Q9(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.2",
+    "12.1.2.1"
+   ],
+   "question": "The population of a herd of wild horses is given by\n$$P(t) = 400 + 50\\cos\\left(\\frac{\\pi}{6}t\\right)$$\nwhere $t$ is time in months.\n\nSketch the graph of $P(t)$ for $0 \\le t \\le 12$.",
+   "answer": "Amplitude $50$, centre line $P = 400$, period $\\dfrac{2\\pi}{\\pi/6} = 12$ months, so exactly one cycle:\n- maximum $450$ at $t = 0$ and $t = 12$;\n- minimum $350$ at $t = 6$;\n- $P = 400$ (centre line) at $t = 3$ and $t = 9$;\n- $P = 375$ at $t = 4$ and $t = 8$ (from part (i)).",
+   "answer_images": [
+    "assets/img/adv-2026-mock-diff-trig/q9-sketch.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.1",
+    "11.3.1.13"
+   ],
+   "question": "Let $f(x) = A\\sin x + B\\cos x$, where $A$ and $B$ are constants.\n\nFind the values of $A$ and $B$ if $f\\left(\\dfrac{\\pi}{4}\\right) = 3$ and $f'\\left(\\dfrac{\\pi}{4}\\right) = 1$.",
+   "answer": "$f'(x) = A\\cos x - B\\sin x$, and $\\sin\\frac\\pi4 = \\cos\\frac\\pi4 = \\frac{1}{\\sqrt2}$.\n$$f\\left(\\tfrac\\pi4\\right) = \\frac{A + B}{\\sqrt2} = 3 \\implies A + B = 3\\sqrt2 \\quad (1)$$\n$$f'\\left(\\tfrac\\pi4\\right) = \\frac{A - B}{\\sqrt2} = 1 \\implies A - B = \\sqrt2 \\quad (2)$$\nAdding: $2A = 4\\sqrt2$, so $A = 2\\sqrt2$. Then $B = 3\\sqrt2 - 2\\sqrt2 = \\sqrt2$.\n$$A = 2\\sqrt2, \\qquad B = \\sqrt2.$$"
+  },
+  {
+   "ref": "Q11",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Sketch $y = 5\\sin(2x) - 4$ for $0 \\le x \\le 2\\pi$, and state its amplitude, period and centre (the equation of the horizontal line about which the graph oscillates).",
+   "answer": "- **Amplitude:** $5$\n- **Period:** $\\dfrac{2\\pi}{2} = \\pi$\n- **Centre:** $y = -4$\n\nThe range is $-9 \\le y \\le 1$. Over $0 \\le x \\le 2\\pi$ there are two full cycles: the graph starts at $(0, -4)$, reaches maxima $y = 1$ at $x = \\frac\\pi4, \\frac{5\\pi}4$, minima $y = -9$ at $x = \\frac{3\\pi}4, \\frac{7\\pi}4$, and crosses the centre line at $x = 0, \\frac\\pi2, \\pi, \\frac{3\\pi}2, 2\\pi$.",
+   "answer_images": [
+    "assets/img/adv-2026-mock-diff-trig/q11-sketch.png"
+   ]
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Sketch the graph of $y = 3\\sin\\left(\\dfrac{x}{2}\\right)$ for the interval $-2\\pi \\le x \\le 2\\pi$.",
+   "answer": "Amplitude $3$, period $\\dfrac{2\\pi}{1/2} = 4\\pi$, so the interval $-2\\pi \\le x \\le 2\\pi$ shows exactly one cycle:\n- $x$-intercepts at $x = -2\\pi, 0, 2\\pi$;\n- minimum $(-\\pi, -3)$ and maximum $(\\pi, 3)$.",
+   "answer_images": [
+    "assets/img/adv-2026-mock-diff-trig/q12a-sketch.png"
+   ]
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "Using the graph of $y = 3\\sin\\left(\\dfrac{x}{2}\\right)$ for $-2\\pi \\le x \\le 2\\pi$, or otherwise, find the number of solutions to the equation $3\\sin\\left(\\dfrac{x}{2}\\right) = x + 1$ in the domain $-2\\pi \\le x \\le 2\\pi$.",
+   "answer": "Draw the line $y = x + 1$ on the same axes and count intersections.\n\nThe line passes through $(-1, 0)$ and $(0, 1)$. At $x = -2\\pi$ the line is at $1 - 2\\pi \\approx -5.3$, below the curve ($y = 0$); at $x = -\\pi$ the line is at $1 - \\pi \\approx -2.1$, above the curve ($y = -3$) — so they cross once between $-2\\pi$ and $-\\pi$.\n\nTo the right of that, the line stays above the curve: near $x = \\pi/2$ the curve is at $3\\sin\\frac\\pi4 \\approx 2.1$ while the line is at $\\approx 2.6$, and for $x \\ge 2$ the line is at least $3$ (the curve's maximum value). So there is **1 solution**.",
+   "answer_images": [
+    "assets/img/adv-2026-mock-diff-trig/q12b-line.png"
+   ]
+  },
+  {
+   "ref": "Q13",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.3",
+    "11.5.2.7"
+   ],
+   "question": "Differentiate $y = 2\\ln\\left[\\dfrac{(1+x)^2}{(1-x)^2}\\right]$, writing your answer in simplest form.",
+   "answer": "Simplify with the log laws first (for $-1 < x < 1$):\n$$y = 2\\left[2\\ln(1+x) - 2\\ln(1-x)\\right] = 4\\ln(1+x) - 4\\ln(1-x).$$\nThen\n$$\\frac{dy}{dx} = \\frac{4}{1+x} + \\frac{4}{1-x} = \\frac{4(1-x) + 4(1+x)}{(1+x)(1-x)} = \\frac{8}{1 - x^2}.$$"
+  },
+  {
+   "ref": "Q14",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.3"
+   ],
+   "question": "Prove that $\\dfrac{d}{dx}\\left(a^x\\right) = a^x\\ln a$, where $a > 0$ and $a \\ne 1$.",
+   "answer": "Since $a = e^{\\ln a}$,\n$$a^x = \\left(e^{\\ln a}\\right)^x = e^{x\\ln a}.$$\n$\\ln a$ is a constant, so by the chain rule\n$$\\frac{d}{dx}\\left(a^x\\right) = \\frac{d}{dx}\\left(e^{x\\ln a}\\right) = \\ln a \\cdot e^{x\\ln a} = a^x\\ln a.$$"
+  },
+  {
+   "ref": "Q15",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.3",
+    "12.3.3.4",
+    "11.4.3.8"
+   ],
+   "question": "Given $y = e^{kx}\\sin(kx)$, where $k$ is a non-zero constant, show that\n$$y'' - 2ky' + 2k^2y = 0.$$",
+   "answer": "By the product rule:\n$$y' = ke^{kx}\\sin kx + ke^{kx}\\cos kx = ke^{kx}(\\sin kx + \\cos kx).$$\nDifferentiating again (product rule):\n$$\\begin{aligned}\ny'' &= k^2e^{kx}(\\sin kx + \\cos kx) + ke^{kx}(k\\cos kx - k\\sin kx)\\\\\n&= k^2e^{kx}(\\sin kx + \\cos kx + \\cos kx - \\sin kx) = 2k^2e^{kx}\\cos kx.\n\\end{aligned}$$\nSo\n$$\\begin{aligned}\ny'' - 2ky' + 2k^2y &= 2k^2e^{kx}\\cos kx - 2k^2e^{kx}(\\sin kx + \\cos kx) + 2k^2e^{kx}\\sin kx\\\\\n&= 2k^2e^{kx}\\left(\\cos kx - \\sin kx - \\cos kx + \\sin kx\\right) = 0.\n\\end{aligned}$$"
+  },
+  {
+   "ref": "Q16(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.4",
+    "12.3.1.4"
+   ],
+   "question": "Consider the function $f(x) = x^n e^{-x}$ for $x > 0$, where $n \\ge 2$ is an integer. A sketch of the general shape of the graph is shown (not to scale).\n\nShow that the maximum turning point occurs at $x = n$.",
+   "answer": "By the product rule:\n$$f'(x) = nx^{n-1}e^{-x} - x^ne^{-x} = x^{n-1}e^{-x}(n - x).$$\nFor $x > 0$, $x^{n-1}e^{-x} > 0$, so $f'(x) = 0 \\iff x = n$ — the only stationary point.\n\n| $x$ | $n^-$ | $n$ | $n^+$ |\n|---|---|---|---|\n| $n - x$ | $+$ | $0$ | $-$ |\n| $f'(x)$ | $+$ | $0$ | $-$ |\n\n$f'$ changes from positive to negative at $x = n$, so the maximum turning point occurs at $x = n$.",
+   "images": [
+    "assets/img/adv-2026-mock-diff-trig/q16-graph.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)",
+   "kind": "written",
+   "marks": 6,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.1.4",
+    "12.5.2.1"
+   ],
+   "question": "Consider the function $f(x) = x^n e^{-x}$ for $x > 0$, where $n \\ge 2$ is an integer. A sketch of the general shape of the graph is shown (not to scale).\n\nGiven that the maximum turning point occurs at $x = n$, prove that\n$$\\left(1 + \\frac1n\\right)^n < e < \\left(1 - \\frac1n\\right)^{-n}.$$",
+   "answer": "From part (a), $f'(x) > 0$ for $0 < x < n$ and $f'(x) < 0$ for $x > n$, so $f$ is increasing up to $x = n$ and decreasing after it. Hence $f(n)$ is the global maximum and\n$$f(x) < f(n) \\quad \\text{for all } x > 0,\\ x \\ne n.$$\n\n**Left inequality.** Take $x = n + 1$:\n$$(n+1)^n e^{-(n+1)} < n^n e^{-n} \\implies \\frac{(n+1)^n}{n^n} < \\frac{e^{n+1}}{e^n} = e \\implies \\left(1 + \\frac1n\\right)^n < e.$$\n\n**Right inequality.** Take $x = n - 1$ (which is $> 0$ since $n \\ge 2$):\n$$(n-1)^n e^{-(n-1)} < n^n e^{-n} \\implies e = \\frac{e^{n}}{e^{n-1}} < \\frac{n^n}{(n-1)^n} = \\left(\\frac{n-1}{n}\\right)^{-n} = \\left(1 - \\frac1n\\right)^{-n}.$$\n\nCombining:\n$$\\left(1 + \\frac1n\\right)^n < e < \\left(1 - \\frac1n\\right)^{-n}.$$",
+   "images": [
+    "assets/img/adv-2026-mock-diff-trig/q16-graph.png"
+   ]
+  }
+ ]
+}
