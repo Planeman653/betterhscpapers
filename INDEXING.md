@@ -143,8 +143,12 @@ Commit (one commit for the day) and push to `main`:
 ## 5. The solution queue (community questions without solutions)
 
 Signed-in users can submit **just a question** on `submit.html`; it waits in the Firestore `queue` collection until
-this run writes the solution. (Questions submitted *with* a full solution go live immediately in Firestore and need
-nothing from you. Do not touch them.) Process **every** waiting item each run, before the day's commit:
+this run writes the solution. (Questions submitted *with* a full solution go live immediately in Firestore; you don't
+solve or review those, but you **do** type out any photos in them — see §5b.) Process **every** waiting item each
+run, before the day's commit.
+
+**Rule for everything community-submitted: all text ends up typed (LaTeX for maths). Images are kept only for
+genuine diagrams/graphs/tables that can't be typed — crop them out of the photo with PIL and drop the photo itself. Delete the saved photo files you didn't keep (`git rm`/`rm` under `assets/img/community-<course>/`).**
 
 ```bash
 python3 scripts/queue.py list               # waiting items (published/skipped ones are excluded)
@@ -153,10 +157,9 @@ python3 scripts/queue.py get <id>           # -> work/queue/<id>.json, diagrams 
 
 For each item, view any diagrams, then complete `work/queue/<id>.json` exactly as for a paper question (§2–3):
 - a full **worked solution / sample answer** in `answer` (verify it — solve it yourself; for MC also set `correct`);
-- **Photo-only questions:** submitters may leave `question` empty (and, for multiple choice, the four `options`) and
-  just upload a photo/screenshot of the question in `images`. Read the image and **type the question out** in full
-  (LaTeX for maths, options into `options`), then keep in `images` only genuine diagrams — crop them out of the photo
-  with PIL and drop the photo itself. If the photo is unreadable, `skip` it with a reason.
+- **Photos:** submitters may leave `question` empty (and, for multiple choice, the four `options`) and just upload a
+  photo/screenshot in `images` (also earlier parts' `images`). View every image; **type out** any text in it
+  (question, options, earlier parts), keeping only diagram crops. If a photo is unreadable, `skip` it with a reason.
 - `answer_type`; **`marks` — you decide these** (the submit form no longer asks; judge them as an HSC marker would
   from the steps your solution needs, e.g. 1 mark per key step, MC = 1, and ignore any old `marks` value on the item);
   `difficulty` 1–5; and 1–3 valid `dotpoints` (first = where it is listed; check them against the course's syllabus .txt);
@@ -169,8 +172,27 @@ questions already on the site, or questions that can't be answered (e.g. missing
 `python3 scripts/queue.py skip <id> "short reason shown to the submitter"`. Skipping writes `data/queue_skipped.json` —
 commit it.
 
+### 5b. Type out photos in live submissions
+
+Live (full-solution) submissions may be photos or screenshots of the question and/or the working. Each run:
+
+```bash
+python3 scripts/queue.py photos             # live submissions with images not yet typed out / checked
+python3 scripts/queue.py getsub <id>        # -> work/photos/<id>.json, images saved to assets/img/community-<course>/
+```
+
+View every image. If they are all genuine diagrams (nothing to type), `python3 scripts/queue.py keep <id>`.
+Otherwise edit `work/photos/<id>.json`: type the question, MC options, earlier parts and the answer/working out of the
+photos into the text fields (LaTeX for maths, merged with any text the submitter typed), keep only diagram crops in
+`images` / `answer_images` / earlier parts' `images`, and **keep the submitter's** marks, difficulty, dot points,
+correct option, source and author (only fix them if clearly invalid). Transcribe faithfully: don't rewrite or "fix"
+their solution, except obvious transcription-level typos. Then `python3 scripts/queue.py addsub work/photos/<id>.json`.
+The typed copy (id `fs-<id>`, same as the live one, so saves/progress carry over) replaces the photo version on the
+site. If the submitter later edits or deletes theirs, the site shows their version / nothing until the next run
+re-lists it.
+
 Run step 4's checks (`build.py --check`, `check_tex.js`, rebuild) and include the queue in the commit message,
-e.g. `Index 4 papers: …; solve 3 queued questions`.
+e.g. `Index 4 papers: …; solve 3 queued questions; type out 1 photo submission`.
 
 ## 6. Report
 

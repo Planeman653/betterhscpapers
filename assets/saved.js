@@ -15,18 +15,21 @@
   function bank(c) {
     if (cache[c]) return cache[c];
     cache[c] = (async () => {
-      const [b, live] = await Promise.all([
+      let [b, live] = await Promise.all([
         fetch("data/build/" + c + ".json", { cache: "no-cache" }).then((r) => (r.ok ? r.json() : { papers: {}, questions: [] })),
-        A.liveFor ? A.liveFor(c).catch(() => ({ submissions: [], overrides: {} })) : { submissions: [], overrides: {} },
+        A.liveFor ? A.liveFor(c).catch(() => null) : null,
       ]);
-      const map = {};
+      const map = {}, ok = !!live;
+      if (!live) live = { submissions: [], overrides: {} };
+      const byId = Object.fromEntries(live.submissions.map((x) => [x._id, x]));
       for (const q of b.questions) {
+        if (q.submission_id && ok) { const x = byId[q.submission_id]; if (!x || (x.updated || 0) > (q.from_updated || 0)) continue; }
         const o = live.overrides[q.id];
         if (o && o.deleted) continue;
         const p = b.papers[q.paper] || {};
         map[q.id] = { ...q, ...(o && o.fields ? o.fields : {}), _src: q.source ? q.source + (q.credit ? " · submitted by " + q.credit : "") : `${p.label || q.paper}, ${q.ref}`, _answers: p.answers };
       }
-      for (const x of live.submissions) map["fs-" + x._id] = { ...x, id: "fs-" + x._id, course: c, _src: (x.source || "Community question") + (x.author ? " · submitted by " + x.author : "") };
+      for (const x of live.submissions) if (!map["fs-" + x._id]) map["fs-" + x._id] = { ...x, id: "fs-" + x._id, course: c, _src: (x.source || "Community question") + (x.author ? " · submitted by " + x.author : "") };
       return map;
     })();
     return cache[c];

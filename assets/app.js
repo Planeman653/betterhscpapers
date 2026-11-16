@@ -90,7 +90,18 @@
     let live;
     try { live = await A.liveFor(COURSE); } catch (e) { console.warn("live questions", e); return; }
     S.overrides = live.overrides;
-    const subs = live.submissions.filter((x) => Array.isArray(x.dotpoints) && x.dotpoints.some((d) => S.dp[d]) && x.question);
+    // typed-out copies (in the repo) of live photo submissions: shown while the original exists and hasn't been edited since
+    const byId = Object.fromEntries(live.submissions.map((x) => [x._id, x]));
+    const typed = {};
+    data.questions = data.questions.filter((q) => {
+      if (!q.submission_id) return true;
+      const x = byId[q.submission_id];
+      if (!x || (x.updated || 0) > (q.from_updated || 0)) return false;
+      Object.assign(q, { fsid: x._id, owner: x.uid, live: true });
+      typed[x._id] = true;
+      return true;
+    });
+    const subs = live.submissions.filter((x) => !typed[x._id] && Array.isArray(x.dotpoints) && x.dotpoints.some((d) => S.dp[d]) && (x.question || (x.images || []).length));
     if (subs.length) {
       const pid = "community-" + COURSE;
       if (!data.papers[pid]) data.papers[pid] = { id: pid, course: COURSE, school: "Community", year: new Date().getFullYear(), type: "Submitted", label: "Community submissions", answers: "worked" };

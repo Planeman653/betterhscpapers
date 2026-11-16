@@ -195,7 +195,9 @@ def main():
             else:
                 t = s = None
             item = dict(q)
-            if community and q.get("queue_id"):
+            if community and q.get("submission_id"):
+                qid = f"fs-{q['submission_id']}"          # typed-out copy of a live photo submission: keeps its id
+            elif community and q.get("queue_id"):
                 qid = f"{pid}-{q['queue_id']}"           # published from the solution queue (Firestore id)
             elif community and q.get("issue"):
                 qid = f"{pid}-{q['issue']}"              # legacy GitHub-issue submissions; stable when others are deleted
