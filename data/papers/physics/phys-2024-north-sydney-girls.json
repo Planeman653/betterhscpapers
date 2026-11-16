@@ -1,0 +1,844 @@
+{
+ "id": "phys-2024-north-sydney-girls",
+ "course": "physics",
+ "school": "North Sydney Girls",
+ "year": 2024,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "6528",
+  "title": "North Sydney Girls 2024 w. sol"
+ },
+ "indexed": "2026-11-16",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q19",
+   "reason": "Year 11 content (not examined in the HSC): speed at the bottom of a track from conservation of mechanical energy"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "Electric and gravitational fields can be represented in similar ways.\n\nWhich of the diagrams below **cannot** be used for a gravitational field?",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "correct": "A",
+   "answer": "Gravity is always attractive, so gravitational field lines always point **towards** a mass. Diagram A shows field lines pointing outwards from the mass, which is possible for the electric field of a positive charge but never for a gravitational field. (B and D show fields directed towards a plate-like mass; C shows lines pointing into a spherical mass.)",
+   "images": [
+    "assets/img/phys-2024-north-sydney-girls/q1.png"
+   ]
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.1"
+   ],
+   "question": "A wire PQ lies perpendicularly across a horizontal uniform magnetic field (directed from the N pole to the S pole) with a field strength of $20 \\times 10^{-3}$ T. The length of the wire inside the magnetic field is 0.30 m.\n\nThe wire experiences a force of $30 \\times 10^{-3}$ N downwards. What is the size and direction of the current in the wire?",
+   "options": [
+    "0.45 A from P to Q",
+    "0.45 A from Q to P",
+    "5.0 A from P to Q",
+    "5.0 A from Q to P"
+   ],
+   "correct": "D",
+   "answer": "$$I = \\frac{F}{lB} = \\frac{30 \\times 10^{-3}}{0.30 \\times 20 \\times 10^{-3}} = 5.0\\ \\text{A}.$$\nThe field points from N to S (left to right) and the force is downwards. By the right-hand palm rule, the current must flow into the page, i.e. from Q (front) to P (back).",
+   "images": [
+    "assets/img/phys-2024-north-sydney-girls/q2.png"
+   ]
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.3"
+   ],
+   "question": "The diagram below shows two long, parallel conductors PQ and RS connected to a low voltage power supply with an alternating current.\n\nWhich of the following best shows how the force of interaction between them, $F$, varies with time?",
+   "options": [
+    "![Graph A](assets/img/phys-2024-north-sydney-girls/q3a.png)",
+    "![Graph B](assets/img/phys-2024-north-sydney-girls/q3b.png)",
+    "![Graph C](assets/img/phys-2024-north-sydney-girls/q3c.png)",
+    "![Graph D](assets/img/phys-2024-north-sydney-girls/q3d.png)"
+   ],
+   "correct": "C",
+   "answer": "The same current flows out along PQ and back along RS, so the currents are always in opposite directions and the wires always repel — the force never changes sign. Its magnitude is $F \\propto I_1 I_2 = I^2$, which varies as $\\sin^2(\\omega t)$: it rises and falls to zero twice per cycle but is never negative, as in graph C.",
+   "images": [
+    "assets/img/phys-2024-north-sydney-girls/q3.png"
+   ]
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "Mars has twice the mass of Mercury and is four times further away from the Sun.\n\nWhat is the ratio of the gravitational force from the Sun on Mercury to the gravitational force from the Sun on Mars?",
+   "options": [
+    "0.5",
+    "2.0",
+    "8.0",
+    "32.0"
+   ],
+   "correct": "C",
+   "answer": "$F = \\dfrac{GMm}{r^2}$, so\n$$\\frac{F_\\text{Mercury}}{F_\\text{Mars}} = \\frac{m}{2m} \\times \\frac{(4r)^2}{r^2} = \\frac{1}{2} \\times 16 = 8.0.$$"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "Two ideal polaroid sheets are arranged at an angle of $\\theta$ to each other. An unpolarised beam of light of intensity $I_0$ is incident on one of the polaroids.\n\nIf the intensity of light emerging from the second polaroid is $\\dfrac{I_0}{4}$, what is the size of $\\theta$?",
+   "options": [
+    "15°",
+    "30°",
+    "45°",
+    "60°"
+   ],
+   "correct": "C",
+   "answer": "The first polaroid halves the intensity of unpolarised light: $I_1 = \\dfrac{I_0}{2}$. By Malus' law, $I_2 = I_1\\cos^2\\theta$:\n$$\\frac{I_0}{4} = \\frac{I_0}{2}\\cos^2\\theta \\ \\Rightarrow\\ \\cos^2\\theta = \\frac{1}{2} \\ \\Rightarrow\\ \\theta = 45^\\circ.$$"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.2",
+    "12.6.3.3"
+   ],
+   "question": "Using the circuit shown below, and with the switch closed, a small current was passed through the coil X. The current was slowly increased using the variable resistor. The current reached a maximum value and was then switched off.\n\nWhen was the maximum reading on the microammeter measured?",
+   "options": [
+    "At the start, when a small current flowed",
+    "As the current was being increased",
+    "When the current was switched off",
+    "When the current in X was zero"
+   ],
+   "correct": "C",
+   "answer": "The induced emf in the secondary coil is proportional to the rate of change of flux, $\\varepsilon = -N\\dfrac{\\Delta\\Phi}{\\Delta t}$. Increasing the current slowly gives only a small rate of change, but switching the current off makes the flux in the soft-iron core collapse almost instantly, giving the largest rate of change of flux and hence the largest induced current.",
+   "images": [
+    "assets/img/phys-2024-north-sydney-girls/q6.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.2",
+    "12.5.2.3"
+   ],
+   "question": "A 0.20 kg mass is whirled around in a vertical circle on the end of a light string with a length of 0.9 m.\n\nAt the top point of the circle the speed of the mass is 8.2 m s$^{-1}$.\n\nWhat is the tension in the string at this point?",
+   "options": [
+    "10.0 N",
+    "13.0 N",
+    "15.0 N",
+    "17.0 N"
+   ],
+   "correct": "B",
+   "answer": "At the top, both tension and weight act downwards, towards the centre:\n$$T + mg = \\frac{mv^2}{r} \\ \\Rightarrow\\ T = \\frac{0.20 \\times 8.2^2}{0.9} - 0.20 \\times 9.8 = 14.94 - 1.96 = 13.0\\ \\text{N}.$$",
+   "images": [
+    "assets/img/phys-2024-north-sydney-girls/q7.png"
+   ]
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.2",
+    "12.5.2.3"
+   ],
+   "question": "An engineer is designing a banked circular curve of radius 25.0 m in a new bicycle velodrome for the Paris Olympics. Diagram A shows the bicycle approaching the banked section and diagram B shows the front view of a bicycle moving out of the page as it rounds the banked curve.\n\nThe bicycle is travelling at 11 m s$^{-1}$ on the banked section. At this speed there are no sideways frictional forces between the wheels and the road surface.\n\nWhich one of the following is closest to the angle of the banked bend?",
+   "options": [
+    "2.6°",
+    "10.0°",
+    "26.0°",
+    "30.0°"
+   ],
+   "correct": "C",
+   "answer": "With no friction, the horizontal component of the normal force provides the centripetal force, giving\n$$\\tan\\theta = \\frac{v^2}{rg} = \\frac{11^2}{25.0 \\times 9.8} = 0.494 \\ \\Rightarrow\\ \\theta \\approx 26^\\circ.$$",
+   "images": [
+    "assets/img/phys-2024-north-sydney-girls/q8.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.1",
+    "12.6.4.1"
+   ],
+   "question": "Diagram 1 shows a square coil PQSR of 50 turns, carrying a current of 3.0 A. The length of each side of the coil is 4.0 cm. Diagram 2 shows a view of this coil from above when it is placed within a horizontal magnetic field of 0.20 T, with side PQ at $30^\\circ$ to the field.\n\nWhat is the size of the force on side QS when it is in this position?",
+   "options": [
+    "120.0 N",
+    "60.0 N",
+    "1.2 N",
+    "0.6 N"
+   ],
+   "correct": "C",
+   "answer": "Side QS is vertical, so it is always perpendicular to the horizontal field whatever the angle of the coil. For 50 turns:\n$$F = nIlB = 50 \\times 3.0 \\times 0.040 \\times 0.20 = 1.2\\ \\text{N}.$$",
+   "images": [
+    "assets/img/phys-2024-north-sydney-girls/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.3",
+    "12.7.3.2"
+   ],
+   "question": "The diagram below shows a circuit that is used to study the photoelectric effect.\n\nWhich one of the following is essential to the measurement of the maximum kinetic energy of the emitted photoelectrons?",
+   "options": [
+    "The level of brightness of the light source",
+    "The wavelengths that pass through the filter",
+    "The reading on the voltmeter when the current is reduced to zero",
+    "The reading on the ammeter when the current is a maximum"
+   ],
+   "correct": "C",
+   "answer": "The maximum kinetic energy is found from the stopping voltage: the reverse voltage is increased until even the most energetic photoelectrons are stopped and the current just falls to zero; then $K_\\text{max} = qV_\\text{stop}$. So the voltmeter reading at that point is what must be measured.\n\n*Note: the paper's option C reads \"when the current is at a maximum\", which is a misprint — the voltmeter reading at maximum (saturation) current says nothing about $K_\\text{max}$; the intended (and marked) answer is the voltmeter reading giving the stopping voltage.*",
+   "images": [
+    "assets/img/phys-2024-north-sydney-girls/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.4.1"
+   ],
+   "question": "One of Einstein's postulates for special relativity is that the laws of physics are the same in all inertial frames of reference.\n\nWhich of the following best describes a property of an inertial frame of reference?",
+   "options": [
+    "It is travelling at a constant speed.",
+    "It is travelling at a speed much slower than $c$.",
+    "Its movement is consistent with the expansion of the universe.",
+    "No observer in the frame can detect any acceleration of the frame."
+   ],
+   "correct": "D",
+   "answer": "An inertial frame is one that is not accelerating (at rest or moving with constant *velocity*), so no experiment inside it can detect any acceleration. \"Constant speed\" is not enough, since a frame moving in a circle at constant speed is accelerating, and an inertial frame can move at any speed below $c$."
+  },
+  {
+   "ref": "Q12",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.5.1.1"
+   ],
+   "question": "A rifle shoots a bullet horizontally with a muzzle velocity of 400 m s$^{-1}$ at a small target 400 m away on the ground.\n\nAt what height above the ground must the bullet leave the rifle for it to hit the target?",
+   "options": [
+    "0.5 m",
+    "1.0 m",
+    "5.0 m",
+    "10.0 m"
+   ],
+   "correct": "C",
+   "answer": "Time of flight from the horizontal motion: $t = \\dfrac{400}{400} = 1.0$ s. Vertically the bullet starts with zero vertical velocity, so it falls\n$$h = \\tfrac{1}{2}gt^2 = \\tfrac{1}{2} \\times 9.8 \\times 1.0^2 = 4.9\\ \\text{m} \\approx 5.0\\ \\text{m}.$$"
+  },
+  {
+   "ref": "Q13",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.2",
+    "12.6.3.1"
+   ],
+   "question": "A square loop of wire is moved through a uniform magnetic field at a constant speed, as shown in the diagram below. The magnetic field can be assumed to be zero at position 1 and position 3.\n\nThe graph below shows the flux through the loop as a function of the position of the leading edge of the loop.\n\nWhich one of the following diagrams best describes the current in the loop, measured by the microammeter, as the loop passes through the magnetic field?",
+   "options": [
+    "![Graph A](assets/img/phys-2024-north-sydney-girls/q13a.png)",
+    "![Graph B](assets/img/phys-2024-north-sydney-girls/q13b.png)",
+    "![Graph C](assets/img/phys-2024-north-sydney-girls/q13c.png)",
+    "![Graph D](assets/img/phys-2024-north-sydney-girls/q13d.png)"
+   ],
+   "correct": "A",
+   "answer": "The induced emf (and current) is proportional to the gradient of the flux–position graph (at constant speed). The flux increases at a constant rate as the loop enters (constant current one way), is constant while fully inside (zero current), and decreases at a constant rate as it leaves (constant current in the opposite direction, by Lenz's law). This gives a positive pulse followed by a negative pulse: graph A.",
+   "images": [
+    "assets/img/phys-2024-north-sydney-girls/q13.png",
+    "assets/img/phys-2024-north-sydney-girls/q13-flux.png"
+   ]
+  },
+  {
+   "ref": "Q14",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.3"
+   ],
+   "question": "The diagram below shows a right-angled isosceles triangle PQR (right angle at P) having its base QR equal to $a$. A current of 1.0 A is passing into the page along a thin straight wire at Q. A second wire at R carries an equal current out of the page.\n\nWhat is the magnitude and direction of the magnetic field B at point P due to the wire at Q only?",
+   "options": [
+    "$B = \\dfrac{\\mu_0 I}{\\sqrt{2}\\pi a}$ acting along PQ",
+    "$B = \\dfrac{\\mu_0 I}{\\sqrt{2}\\pi a}$ acting along PR",
+    "$B = \\dfrac{\\mu_0 I}{\\pi a}$ acting along PR",
+    "$B = \\dfrac{\\mu_0 I}{\\pi a}$ towards the midpoint of QR"
+   ],
+   "correct": "B",
+   "answer": "The distance QP is $\\dfrac{a}{\\sqrt{2}}$, so\n$$B_Q = \\frac{\\mu_0 I}{2\\pi r} = \\frac{\\mu_0 I}{2\\pi (a/\\sqrt{2})} = \\frac{\\mu_0 I}{\\sqrt{2}\\pi a}.$$\nThe current at Q is into the page, so its field circles clockwise; at P this field is perpendicular to QP, i.e. directed along PR (from P towards R).\n\n*Note: the paper gives D, which is the **total** field at P due to both wires (the two perpendicular fields of size $\\frac{\\mu_0 I}{\\sqrt2 \\pi a}$ add to $\\frac{\\mu_0 I}{\\pi a}$ towards the midpoint of QR). For the field due to Q alone, as asked, the answer is B.*",
+   "images": [
+    "assets/img/phys-2024-north-sydney-girls/q14.png"
+   ]
+  },
+  {
+   "ref": "Q15",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.3"
+   ],
+   "question": "A 500 nm photon of light strikes a metal surface that has a work function of 2.0 eV.\n\nWith what velocity will an electron be emitted from the metal surface?",
+   "options": [
+    "$8.38 \\times 10^{5}\\ \\text{m s}^{-1}$",
+    "$4.11 \\times 10^{5}\\ \\text{m s}^{-1}$",
+    "$3 \\times 10^{8}\\ \\text{m s}^{-1}$",
+    "$9.33 \\times 10^{5}\\ \\text{m s}^{-1}$"
+   ],
+   "correct": "B",
+   "answer": "$$E = \\frac{hc}{\\lambda} = \\frac{6.626 \\times 10^{-34} \\times 3.00 \\times 10^{8}}{500 \\times 10^{-9}} = 3.98 \\times 10^{-19}\\ \\text{J}$$\n$\\phi = 2.0 \\times 1.602 \\times 10^{-19} = 3.20 \\times 10^{-19}$ J, so $K_\\text{max} = 0.77 \\times 10^{-19}$ J and\n$$v = \\sqrt{\\frac{2K}{m_e}} = \\sqrt{\\frac{2 \\times 7.7 \\times 10^{-20}}{9.109 \\times 10^{-31}}} \\approx 4.11 \\times 10^{5}\\ \\text{m s}^{-1}.$$"
+  },
+  {
+   "ref": "Q16",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "Joanna is an observer in Spaceship A, watching Spaceship B fly past at a relative speed of $0.943c$. She measures the length of Spaceship B from her frame of reference to be 150 m.\n\nWhich one of the following is closest to the proper length of Spaceship B?",
+   "options": [
+    "50 m",
+    "150 m",
+    "450 m",
+    "900 m"
+   ],
+   "correct": "C",
+   "answer": "$l = l_0\\sqrt{1 - \\dfrac{v^2}{c^2}}$, so\n$$l_0 = \\frac{150}{\\sqrt{1 - 0.943^2}} = \\frac{150}{0.333} \\approx 450\\ \\text{m}.$$",
+   "images": [
+    "assets/img/phys-2024-north-sydney-girls/q16.png"
+   ]
+  },
+  {
+   "ref": "Q17",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.4.3"
+   ],
+   "question": "Which one of the following diagrams best represents the graph of $\\gamma$ (the Lorentz factor) versus the speed for an electron that is accelerated from rest to near the speed of light, $c$?",
+   "options": [
+    "![Graph A](assets/img/phys-2024-north-sydney-girls/q17a.png)",
+    "![Graph B](assets/img/phys-2024-north-sydney-girls/q17b.png)",
+    "![Graph C](assets/img/phys-2024-north-sydney-girls/q17c.png)",
+    "![Graph D](assets/img/phys-2024-north-sydney-girls/q17d.png)"
+   ],
+   "correct": "D",
+   "answer": "$\\gamma = \\dfrac{1}{\\sqrt{1 - v^2/c^2}}$ equals 1 (not 0) when $v = 0$, stays close to 1 at low speeds, and increases without limit as $v \\to c$. Only graph D starts at a positive value and curves up asymptotically towards $c$."
+  },
+  {
+   "ref": "Q18",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.1",
+    "12.5.3.2"
+   ],
+   "question": "Astronomers who are interested in finding life elsewhere in the Universe are searching for planets orbiting other stars. A planet will be too small to see but can still cause a star to appear to wobble as the planet orbits it.\n\nOne such wobbling star is 47 Ursae Majoris, which has a mass of $2.2 \\times 10^{30}$ kg. The period of its wobble is $9.2 \\times 10^{7}$ s.\n\nFrom the wobble, the astronomers deduced that there is a planet of mass $4.5 \\times 10^{27}$ kg orbiting 47 Ursae Majoris at a distance of $3.1 \\times 10^{11}$ m.\n\nWhat is the acceleration of the star towards the planet?",
+   "options": [
+    "$3.2 \\times 10^{-6}\\ \\text{m s}^{-2}$",
+    "$1.55 \\times 10^{-3}\\ \\text{m s}^{-2}$",
+    "$1.55 \\times 10^{-6}\\ \\text{m s}^{-2}$",
+    "$3.2 \\times 10^{-7}\\ \\text{m s}^{-2}$"
+   ],
+   "correct": "A",
+   "answer": "The star's acceleration is the gravitational field strength of the planet at the star's distance:\n$$a = \\frac{Gm_\\text{planet}}{r^2} = \\frac{6.67 \\times 10^{-11} \\times 4.5 \\times 10^{27}}{(3.1 \\times 10^{11})^2} \\approx 3.1 \\times 10^{-6}\\ \\text{m s}^{-2},$$\nclosest to A."
+  },
+  {
+   "ref": "Q20",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.3",
+    "12.6.1.4"
+   ],
+   "question": "One of the hazards of long flights in space for humans will be exposure to radiation, particularly high energy protons travelling at 800 km s$^{-1}$ from the Sun as part of the 'solar wind'. It is thought that by establishing a strong magnetic field of 0.5 T around the outside of the spaceship the protons would be deflected.\n\nThe path of a proton which just misses the spaceship is shown in the diagram below (it travels a semicircle in the field).\n\nWhat is the time that the proton would spend inside the magnetic field?",
+   "options": [
+    "$6.67 \\times 10^{-8}$ s",
+    "$1.33 \\times 10^{-6}$ s",
+    "$1.33 \\times 10^{-7}$ s",
+    "$6.67 \\times 10^{-6}$ s"
+   ],
+   "correct": "A",
+   "answer": "The radius is $r = \\dfrac{mv}{qB} = \\dfrac{1.673 \\times 10^{-27} \\times 8.0 \\times 10^{5}}{1.602 \\times 10^{-19} \\times 0.5} = 1.67 \\times 10^{-2}$ m. The proton travels half a circle at constant speed:\n$$t = \\frac{\\pi r}{v} = \\frac{\\pi \\times 1.67 \\times 10^{-2}}{8.0 \\times 10^{5}} \\approx 6.6 \\times 10^{-8}\\ \\text{s},$$\nclosest to A.",
+   "images": [
+    "assets/img/phys-2024-north-sydney-girls/q20.png"
+   ]
+  },
+  {
+   "ref": "Q21(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "A 200.0 kg satellite is put into low Earth orbit at an altitude of 300.0 km.\n\nCalculate the gravitational acceleration experienced by the satellite in orbit. (Mass of Earth $= 6.0 \\times 10^{24}$ kg, radius of Earth $= 6.37 \\times 10^{6}$ m.)",
+   "answer": "The orbital radius is $r = 6.37 \\times 10^{6} + 3.0 \\times 10^{5} = 6.67 \\times 10^{6}$ m.\n$$g = \\frac{GM_E}{r^2} = \\frac{6.67 \\times 10^{-11} \\times 6.0 \\times 10^{24}}{(6.67 \\times 10^{6})^2} = 9.0\\ \\text{m s}^{-2}$$\ndirected towards the centre of the Earth.",
+   "images": [
+    "assets/img/phys-2024-north-sydney-girls/q21.png"
+   ]
+  },
+  {
+   "ref": "Q21(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.4",
+    "12.5.3.3"
+   ],
+   "question": "The International Space Station orbits the Earth with an orbital period of 94.7 minutes. Calculate its orbital radius. (Mass of Earth $= 6.0 \\times 10^{24}$ kg.)",
+   "answer": "$T = 94.7 \\times 60 = 5.682 \\times 10^{3}$ s. From Kepler's third law $\\dfrac{r^3}{T^2} = \\dfrac{GM}{4\\pi^2}$:\n$$r = \\sqrt[3]{\\frac{GMT^2}{4\\pi^2}} = \\sqrt[3]{\\frac{6.67 \\times 10^{-11} \\times 6.0 \\times 10^{24} \\times (5.682 \\times 10^{3})^2}{4\\pi^2}} = 6.89 \\times 10^{6}\\ \\text{m}.$$"
+  },
+  {
+   "ref": "Q21(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.5"
+   ],
+   "question": "The International Space Station orbits the Earth at an orbital radius of $6.89 \\times 10^{6}$ m. Calculate the escape velocity for the International Space Station. (Mass of Earth $= 6.0 \\times 10^{24}$ kg.)",
+   "answer": "The orbital radius (Earth's radius plus altitude) is used:\n$$v_\\text{esc} = \\sqrt{\\frac{2GM_E}{r}} = \\sqrt{\\frac{2 \\times 6.67 \\times 10^{-11} \\times 6.0 \\times 10^{24}}{6.89 \\times 10^{6}}} = 1.08 \\times 10^{4}\\ \\text{m s}^{-1}.$$"
+  },
+  {
+   "ref": "Q22(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.4",
+    "12.5.3.5"
+   ],
+   "question": "A 50 kg satellite is in orbit around the Earth. The orbital radius of the satellite is 10 000 km.\n\nDetermine the total energy of the satellite due to its orbit around the Earth. (Mass of Earth $= 6.0 \\times 10^{24}$ kg.)",
+   "answer": "Gravitational potential energy:\n$$U = -\\frac{GMm}{r} = -\\frac{6.67 \\times 10^{-11} \\times 6.0 \\times 10^{24} \\times 50}{1.0 \\times 10^{7}} = -2.0 \\times 10^{9}\\ \\text{J}.$$\nFor a circular orbit the kinetic energy is $K = \\dfrac{GMm}{2r} = -\\dfrac{U}{2}$, so the total energy is\n$$E = K + U = \\frac{U}{2} = -\\frac{GMm}{2r} = -1.0 \\times 10^{9}\\ \\text{J}.$$\n\n*Note: the paper's solution omits the negative sign; the total energy of a bound orbit is negative.*"
+  },
+  {
+   "ref": "Q22(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.4",
+    "12.5.3.2"
+   ],
+   "question": "A satellite is in orbit around the Earth. While in orbit the satellite is subject to a small frictional force due to the Earth's atmosphere.\n\nExplain the changes that will occur to the satellite due to this frictional force.",
+   "answer": "- Friction does negative work on the satellite, transforming some of its mechanical energy into heat, so its total orbital energy $E = -\\dfrac{GMm}{2r}$ becomes more negative. This means the orbital radius must decrease — the satellite drops to a lower orbit.\n- In the lower orbit its speed is greater ($v = \\sqrt{GM/r}$): as it falls, it loses gravitational potential energy, half of which is gained as kinetic energy (and half lost to heat). So the loss of $U$ results in a gain in kinetic energy, and its period decreases.\n- At the lower altitude the atmosphere is denser and the satellite moves faster, so the drag is even greater; it loses energy faster and drops lower again. This cycle continues, so the satellite spirals in towards the Earth and eventually burns up or crashes."
+  },
+  {
+   "ref": "Q23(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.3"
+   ],
+   "question": "The London Eye is a tourist attraction designed to give passengers a panoramic view over London. The giant wheel completes two revolutions in one hour. Each capsule moves with a constant speed of 0.26 m s$^{-1}$ as it follows a circular path.\n\nA person with a mass of 85.0 kg follows a circular path as they ride in one of the capsules. What is the magnitude and direction of the centripetal force acting on the person?",
+   "answer": "Period: $T = \\dfrac{3600}{2} = 1800$ s. Radius from $v = \\dfrac{2\\pi r}{T}$:\n$$r = \\frac{vT}{2\\pi} = \\frac{0.26 \\times 1800}{2\\pi} = 74.5\\ \\text{m}.$$\n$$F_c = \\frac{mv^2}{r} = \\frac{85.0 \\times 0.26^2}{74.5} = 0.077\\ \\text{N}$$\ndirected towards the centre (hub) of the wheel.",
+   "images": [
+    "assets/img/phys-2024-north-sydney-girls/q23.png"
+   ]
+  },
+  {
+   "ref": "Q23(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "The London Eye wheel turns at a constant speed of 0.26 m s$^{-1}$ (radius 74.5 m). A passenger rides in a capsule. Point A is level with the hub (on the side of the wheel) and point B is at the top of the wheel (see diagram).\n\nExplain the forces experienced by the person at point A compared to point B.",
+   "answer": "In both positions the person moves in uniform circular motion, so the net force must be a centripetal force of $\\dfrac{mv^2}{r}$ (about 0.077 N for an 85 kg person) directed towards the hub.\n\n- **At A** (level with the hub), the centre is horizontal from the person. Vertically, the weight $mg$ down is balanced by an equal normal force $N = mg$ up from the floor, so the person feels their normal weight. The centripetal force is horizontal, towards the hub, and is supplied by a horizontal force from the capsule (friction from the floor/seat or a push from the capsule wall).\n- **At B** (top), the centre is directly below. Weight acts down (towards the centre) and the normal force acts up, and the net downward force provides the centripetal force:\n$$mg - N = \\frac{mv^2}{r} \\ \\Rightarrow\\ N = mg - \\frac{mv^2}{r}.$$\nThe normal force is slightly less than the weight, so the person feels slightly lighter at B than at A (although at this low speed the difference, 0.077 N, is far too small to notice).",
+   "images": [
+    "assets/img/phys-2024-north-sydney-girls/q23.png"
+   ]
+  },
+  {
+   "ref": "Q24(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.4.2",
+    "12.6.3.2"
+   ],
+   "question": "The diagram below is of a simple AC generator. A mechanical energy source rotates the loop smoothly at 50 revolutions per second and the loop generates a root mean square (rms) voltage of 4.25 V. The peak voltage is given by $V_\\text{peak} = \\sqrt{2}\\,V_\\text{rms}$.\n\nSketch a graph of the output voltage between P and Q (EMF in V, from $-10$ to $10$ V) against time $t$ (s). Show at least *two complete* revolutions.",
+   "answer": "$V_\\text{peak} = \\sqrt{2} \\times 4.25 = 6.0$ V and $f = 50$ Hz, so $T = \\dfrac{1}{50} = 0.02$ s.\n\nThe output is a sine curve oscillating between $+6.0$ V and $-6.0$ V, crossing zero every 0.01 s, with a period of 0.02 s; two complete revolutions take 0.04 s (see graph).",
+   "images": [
+    "assets/img/phys-2024-north-sydney-girls/q24.png"
+   ],
+   "answer_images": [
+    "assets/img/phys-2024-north-sydney-girls/q24a-ans.png"
+   ]
+  },
+  {
+   "ref": "Q24(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.4.2"
+   ],
+   "question": "The diagram below is of a simple AC generator. Describe the function of the slip rings shown in the diagram.",
+   "answer": "- The slip rings (one connected to each end of the coil) rotate with the coil and remain in continuous contact with stationary brushes, providing an uninterrupted electrical connection between the rotating coil and the external circuit.\n- Because each end of the coil is always connected to the same terminal (P or Q), the alternating emf induced in the coil is transferred unchanged to the external circuit as AC, while the coil is still free to rotate.",
+   "images": [
+    "assets/img/phys-2024-north-sydney-girls/q24.png"
+   ]
+  },
+  {
+   "ref": "Q24(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.4.2"
+   ],
+   "question": "The diagram below is of a simple AC generator, rotating at 50 revolutions per second. Explain one way in which the AC generator could be changed to a DC generator and how this change creates a different emf signal.",
+   "answer": "Replace the slip rings with a **split-ring commutator**. Each half of the split ring is connected to a different end of the coil. As the coil rotates, the halves swap brushes every half turn — exactly when the induced emf in the coil reverses direction. This reverses the connection of the coil to the external circuit at that moment, so the output emf (and current) always has the same polarity: instead of a sine wave alternating between positive and negative, the output is a pulsating DC signal that is always on the same side of zero.",
+   "images": [
+    "assets/img/phys-2024-north-sydney-girls/q24.png"
+   ]
+  },
+  {
+   "ref": "Q24(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.4.2"
+   ],
+   "question": "A simple generator rotates at 50 revolutions per second with a peak emf of 6.0 V. Its slip rings are replaced with a split-ring commutator so that it becomes a DC generator.\n\nSketch a labelled graph of the output emf versus time $t$ for this DC generator. Include at least two complete revolutions.",
+   "answer": "The output is a \"rectified\" sine wave: positive half-cycles of peak 6.0 V repeating every 0.01 s, never going negative (four humps in 0.04 s for two revolutions).",
+   "answer_images": [
+    "assets/img/phys-2024-north-sydney-girls/q24c-ans.png"
+   ]
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.3",
+    "12.6.1.4"
+   ],
+   "question": "Positive ions are travelling through a vacuum in a narrow beam. The ions enter a region of uniform magnetic field B and are deflected in a semi-circular arc, as shown in the diagram below.\n\nThe ions are travelling with a speed of $1.40 \\times 10^{5}\\ \\text{m s}^{-1}$ and are detected at a fixed detector when the diameter of the arc in the magnetic field is 12.8 cm.\n\nThe ions have a mass of $20\\,u$ and a charge of $+1.60 \\times 10^{-19}$ C. Calculate the size and direction of the magnetic field needed to deflect these particles. ($1\\,u = 1.661 \\times 10^{-27}$ kg.)",
+   "answer": "$r = \\dfrac{0.128}{2} = 0.064$ m and $m = 20 \\times 1.661 \\times 10^{-27} = 3.32 \\times 10^{-26}$ kg.\n\nFrom $qvB = \\dfrac{mv^2}{r}$:\n$$B = \\frac{mv}{qr} = \\frac{3.32 \\times 10^{-26} \\times 1.40 \\times 10^{5}}{1.60 \\times 10^{-19} \\times 0.064} = \\frac{4.65 \\times 10^{-21}}{1.02 \\times 10^{-20}} = 0.45\\ \\text{T}.$$\nThe positive ions moving to the right are pushed upwards (towards the detector), so by the right-hand rule the field is directed **into the page**.",
+   "images": [
+    "assets/img/phys-2024-north-sydney-girls/q25.png"
+   ]
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "Positive ions of mass $20\\,u$ and charge $+1.60 \\times 10^{-19}$ C travelling at $1.40 \\times 10^{5}\\ \\text{m s}^{-1}$ enter a uniform magnetic field and are deflected in a semi-circular arc of diameter 12.8 cm into a detector, as shown in the diagram.\n\nIons of mass $22\\,u$ with the same charge and speed are also present in the beam. Sketch (describe) the path of these ions in the magnetic field.",
+   "answer": "Since $r = \\dfrac{mv}{qB}$ and $q$, $v$ and $B$ are the same, the radius is proportional to the mass. The $22\\,u$ ions follow a semicircle curving the same way (upwards) but with a larger radius, $r = \\dfrac{22}{20} \\times 6.4 = 7.0$ cm (diameter about 14.1 cm), so they hit the boundary of the field above the detector and miss it.",
+   "images": [
+    "assets/img/phys-2024-north-sydney-girls/q25.png"
+   ]
+  },
+  {
+   "ref": "Q26(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.3",
+    "12.5.1.4"
+   ],
+   "question": "Rafael Nadal is practising his tennis serve. He throws a ball with a mass of 56.0 g up in the air from point A to point B. The ball reaches a maximum height of 1.8 m above A at point B. He also swings his racquet from point D through to point C. The centre of the racquet head moves with constant speed in a circular arc of radius 1.8 m from point C to point B (C is level with A, and B is directly above A, so C to B is a quarter circle).\n\nThe racquet passes point C at the same time as the ball is released at point A and then the racquet hits the ball at point B.\n\nCalculate the speed of the racquet at point C.",
+   "answer": "Time for the ball to rise 1.8 m to its maximum height (the same as the time to fall 1.8 m from rest):\n$$s = \\tfrac{1}{2}gt^2 \\ \\Rightarrow\\ t = \\sqrt{\\frac{2 \\times 1.8}{9.8}} = 0.606\\ \\text{s}.$$\nIn this time the racquet moves through a quarter of a circle of radius 1.8 m at constant speed:\n$$v = \\frac{\\tfrac{1}{4}(2\\pi r)}{t} = \\frac{0.25 \\times 2\\pi \\times 1.8}{0.606} = 4.7\\ \\text{m s}^{-1}.$$",
+   "images": [
+    "assets/img/phys-2024-north-sydney-girls/q26a.png"
+   ]
+  },
+  {
+   "ref": "Q26(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.5.1.1"
+   ],
+   "question": "A tennis ball leaves Nadal's racquet at a height of 3.6 m above the ground with an initial speed of 24.0 m s$^{-1}$ in a horizontal direction, as shown in the diagram below. A tennis net is located 12.0 m in front of Nadal and has a height of 0.90 m.\n\nHow far above the net will the ball be when it passes over the net?",
+   "answer": "Time to reach the net (horizontal velocity constant): $t = \\dfrac{12.0}{24.0} = 0.50$ s.\n\nVertical drop in this time (initial vertical velocity zero):\n$$s_y = \\tfrac{1}{2}gt^2 = \\tfrac{1}{2} \\times 9.8 \\times 0.50^2 = 1.225\\ \\text{m}.$$\nHeight above the net $= 3.6 - 1.225 - 0.90 = 1.475 \\approx 1.5$ m.",
+   "images": [
+    "assets/img/phys-2024-north-sydney-girls/q26b.png"
+   ]
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.2",
+    "12.6.3.1"
+   ],
+   "question": "A square coil of wire has sides of length 12.0 cm and consists of 8 insulated turns. The coil is stationary in a uniform magnetic field directed into the page. The plane of the coil is perpendicular to the magnetic field as shown in the diagram below.\n\nThe strength of the magnetic field B is changed with time as shown in the graph below.\n\nCalculate the emf induced across the ends of the terminals between $t = 0$ s and $t = 0.6$ s.",
+   "answer": "From the graph, B increases from 0 to 400 mT in 0.6 s. The area of the coil is $A = 0.12^2 = 0.0144\\ \\text{m}^2$.\n$$\\varepsilon = N\\frac{\\Delta\\Phi}{\\Delta t} = N\\frac{\\Delta B\\,A}{\\Delta t} = 8 \\times \\frac{0.400 \\times 0.0144}{0.6} = 0.077\\ \\text{V}.$$",
+   "images": [
+    "assets/img/phys-2024-north-sydney-girls/q27.png",
+    "assets/img/phys-2024-north-sydney-girls/q27-graph.png"
+   ]
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.2",
+    "12.6.4.3"
+   ],
+   "question": "A square coil of 8 turns is stationary in a uniform magnetic field directed into the page, with the plane of the coil perpendicular to the field. The field strength is increased steadily from 0 to 400 mT in 0.6 s, inducing an emf of 0.077 V across the open terminals of the coil.\n\nThe procedure is repeated, but this time the terminals of the coil are connected together. Analyse the resulting effect on the coil of connecting the terminals together during the change in magnetic field strength.",
+   "answer": "- With the terminals connected the circuit is complete, so the induced emf now drives a current around the coil.\n- By Lenz's law the induced current flows in a direction that opposes the change that caused it — here, the increasing magnetic flux **into** the page. The current therefore produces its own magnetic field out of the page inside the coil, which means it flows **anticlockwise** (as viewed in the diagram).\n- This current-carrying coil now sits in the external field, so each side experiences a force $F = nIlB$. For an anticlockwise current in a field into the page, the force on every side is directed inwards, so the coil is squeezed (compressed) — again opposing the increase in flux by tending to reduce the area. Energy is also transformed into heat in the coil by the current.\n\n*Note: the paper's guidelines say the current opposes \"an increase in magnetic field strength out of the page\"; the field in this question is into the page, and the anticlockwise current opposes its increase.*",
+   "images": [
+    "assets/img/phys-2024-north-sydney-girls/q27.png"
+   ]
+  },
+  {
+   "ref": "Q28(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.2.1"
+   ],
+   "question": "In an experiment inspired by Millikan's experiment, students set out to measure the charge on an oil droplet. A charged droplet was held stationary by a voltage of 225.0 V between two plates at a separation of 5.0 mm. When the plate voltage was switched off, the droplet descended (at constant terminal speed) a vertical distance of 1.20 mm in a time of 15.5 s.\n\nThe radius of the oil droplet can be calculated using $r^2 = \\dfrac{9\\eta v}{2\\rho g}$ and the weight of the droplet using $W = \\dfrac{4}{3}\\pi r^3 \\rho g$, where $\\eta$ = the viscosity of air $= 1.8 \\times 10^{-5}$ N s m$^{-2}$ and $\\rho$ = density of oil $= 950$ kg m$^{-3}$.\n\nDetermine the mass of the oil droplet.",
+   "answer": "Terminal speed: $v = \\dfrac{1.20 \\times 10^{-3}}{15.5} = 7.74 \\times 10^{-5}$ m s$^{-1}$.\n$$r^2 = \\frac{9 \\times 1.8 \\times 10^{-5} \\times 7.74 \\times 10^{-5}}{2 \\times 950 \\times 9.8} = 6.74 \\times 10^{-13} \\ \\Rightarrow\\ r = 8.21 \\times 10^{-7}\\ \\text{m}.$$\nSince $W = mg = \\frac{4}{3}\\pi r^3\\rho g$:\n$$m = \\tfrac{4}{3}\\pi r^3 \\rho = \\tfrac{4}{3}\\pi (8.21 \\times 10^{-7})^3 \\times 950 = 2.2 \\times 10^{-15}\\ \\text{kg}.$$",
+   "images": [
+    "assets/img/phys-2024-north-sydney-girls/q28.png"
+   ]
+  },
+  {
+   "ref": "Q28(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.2.1",
+    "12.6.1.1"
+   ],
+   "question": "In an experiment inspired by Millikan's experiment, a charged oil droplet of mass $2.2 \\times 10^{-15}$ kg was held stationary by a voltage of 225.0 V between two horizontal plates at a separation of 5.0 mm.\n\nDetermine the charge on the oil droplet.",
+   "answer": "The droplet is stationary, so the electric force balances its weight, with $E = \\dfrac{V}{d}$:\n$$qE = mg \\ \\Rightarrow\\ q = \\frac{mgd}{V} = \\frac{2.2 \\times 10^{-15} \\times 9.8 \\times 5.0 \\times 10^{-3}}{225} = 4.8 \\times 10^{-19}\\ \\text{C}.$$"
+  },
+  {
+   "ref": "Q28(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.2.1"
+   ],
+   "question": "In an experiment inspired by Millikan's experiment, students found the charge on an oil droplet to be $4.8 \\times 10^{-19}$ C.\n\nMillikan measured the charge on each of many oil droplets. Using this result as evidence, explain what he concluded from his measurements.",
+   "answer": "Millikan found that the charge on every droplet was always a whole-number multiple of a smallest basic amount, $1.6 \\times 10^{-19}$ C. He concluded that charge is quantised and that this basic unit is the charge of a single electron, $e$. The students' result is consistent with this: $\\dfrac{4.8 \\times 10^{-19}}{1.6 \\times 10^{-19}} = 3$, so the droplet carries the charge of exactly 3 electrons (it has gained or lost 3 electrons)."
+  },
+  {
+   "ref": "Q29(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.3",
+    "12.7.3.2"
+   ],
+   "question": "The diagram below shows apparatus used to investigate the photoelectric effect. The apparatus is used with a monochromatic light source to investigate how the current $I$ varies as the potential difference $V$ is changed. The graph below shows the results of the investigation.\n\nDetermine the number of photoelectrons per second leaving the photo-emissive surface when the current is a maximum.",
+   "answer": "From the graph the maximum (saturation) current is $I = 30\\ \\mu\\text{A} = 30 \\times 10^{-6}$ C s$^{-1}$. When the current is a maximum, all emitted photoelectrons reach the wire electrode, so\n$$n = \\frac{I}{e} = \\frac{30 \\times 10^{-6}}{1.6 \\times 10^{-19}} = 1.9 \\times 10^{14}\\ \\text{electrons per second}.$$",
+   "images": [
+    "assets/img/phys-2024-north-sydney-girls/q29.png",
+    "assets/img/phys-2024-north-sydney-girls/q29-graph.png"
+   ]
+  },
+  {
+   "ref": "Q29(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.3.3",
+    "12.7.3.2"
+   ],
+   "question": "The diagram below shows apparatus used to investigate the photoelectric effect. A current is measured on the microammeter only when electromagnetic radiation of a specific value is incident on the photo-emissive surface. The apparatus is used with a monochromatic light source to investigate how the current $I$ varies as the potential difference $V$ is changed. The graph below shows the results of the investigation.\n\nExplain the shape of the graph.",
+   "answer": "- **Zero current (V below the stopping potential, about $-1.3$ V):** the light still ejects photoelectrons, but the reverse (retarding) potential is large enough to repel even the most energetic of them back towards the emitter before they reach the wire electrode, so no current flows. At the stopping potential $V_0$, $K_\\text{max} = qV_0$.\n- **Rising current (from about $-1.3$ V to about $+0.5$ V):** photoelectrons are emitted with a range of kinetic energies from zero up to $K_\\text{max}$. As the retarding voltage is reduced, a greater fraction of the photoelectrons have enough kinetic energy to reach the collecting electrode, so the current increases gradually. Once $V$ is positive, the electrode attracts the electrons, collecting even the slowest ones.\n- **Saturation (above about $+0.5$ V):** every photoelectron emitted is being collected, so the current levels off at 30 µA. Increasing the voltage further cannot increase the current, because the number of electrons emitted per second depends only on the number of photons arriving per second (the light intensity), not on the voltage.\n\n*Note: the paper's guidelines describe the stopping voltage as \"the minimum voltage needed to eject electrons\" and say electrons \"gain enough energy to overcome the work function\" as the voltage increases; this is incorrect — the voltage does not affect emission (which depends only on the light), only how many emitted electrons reach the collector.*",
+   "images": [
+    "assets/img/phys-2024-north-sydney-girls/q29.png",
+    "assets/img/phys-2024-north-sydney-girls/q29-graph.png"
+   ]
+  },
+  {
+   "ref": "Q30(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.1"
+   ],
+   "question": "A plot of some experimental blackbody radiation spectra at different temperatures is shown in the diagram below, together with a spectrum predicted by classical theory.\n\nExplain how Planck accounted for the discrepancy between the experimental results and the predictions of classical theory.",
+   "answer": "- Classical theory treated the energy of the oscillators (charges) in the walls of the black body as continuous, predicting that the radiated intensity increases without limit as the wavelength decreases (the \"ultraviolet catastrophe\"), as shown by the dashed curve.\n- Planck proposed that the oscillators can only emit or absorb energy in discrete packets (quanta), with energy proportional to frequency: $E = nhf$, where $h$ is Planck's constant.\n- At a given temperature there is only a limited amount of thermal energy available, so high-frequency (short-wavelength) quanta, which require large amounts of energy, are rarely emitted. The intensity therefore falls to zero at short wavelengths, producing a peak, and Planck's formula matched the experimental curves at all wavelengths and temperatures (including Wien's law, with the peak shifting to shorter wavelengths at higher temperature).",
+   "images": [
+    "assets/img/phys-2024-north-sydney-girls/q30.png"
+   ]
+  },
+  {
+   "ref": "Q30(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.2",
+    "12.8.3.3"
+   ],
+   "question": "Describe results of two experiments that support Planck's hypothesis that energy is quantised (from his explanation of blackbody radiation).",
+   "answer": "**Photoelectric effect:** Light only ejects electrons from a metal if its frequency is above a threshold frequency, however intense it is; above this, electrons are emitted instantly and their maximum kinetic energy increases linearly with frequency but does not depend on intensity. Einstein explained these results using Planck's quanta: light consists of photons of energy $E = hf$, and $K_\\text{max} = hf - \\phi$. The gradient of the $K_\\text{max}$ versus $f$ graph is Planck's constant, directly supporting $E = hf$.\n\n**Line emission spectra of gases:** Gases in discharge tubes emit light only at specific wavelengths (e.g. the Balmer series of hydrogen) rather than a continuous spectrum. This shows that atoms have discrete energy levels and emit photons of energy $E = hf = E_i - E_f$ when electrons change levels, consistent with energy being quantised."
+  },
+  {
+   "ref": "Q31(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.4.4",
+    "12.6.1.1"
+   ],
+   "question": "A deuteron (an isotope of hydrogen that consists of 1 proton and 1 neutron, charge $+1.602 \\times 10^{-19}$ C) is accelerated from rest to a speed of $0.8c$ in a particle accelerator.\n\nCalculate the accelerating potential $V$ in volts required to achieve this velocity. (Proton mass $= 1.673 \\times 10^{-27}$ kg, neutron mass $= 1.675 \\times 10^{-27}$ kg; ignore the binding energy.)",
+   "answer": "Rest energy:\n$$E_0 = m_0c^2 = (1.673 + 1.675) \\times 10^{-27} \\times (3.00 \\times 10^{8})^2 = 3.0132 \\times 10^{-10}\\ \\text{J}.$$\nTotal energy at $0.8c$:\n$$E = \\frac{m_0c^2}{\\sqrt{1 - 0.8^2}} = \\frac{3.0132 \\times 10^{-10}}{0.6} = 5.022 \\times 10^{-10}\\ \\text{J}.$$\nThe work done by the field equals the gain in kinetic energy, $qV = E - E_0$:\n$$V = \\frac{5.022 \\times 10^{-10} - 3.0132 \\times 10^{-10}}{1.602 \\times 10^{-19}} = 1.25 \\times 10^{9}\\ \\text{V}.$$"
+  },
+  {
+   "ref": "Q31(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.4.4",
+    "12.7.4.3"
+   ],
+   "question": "A deuteron has a rest energy of $3.0132 \\times 10^{-10}$ J. Calculate the work required to accelerate the deuteron from $0.8c$ to $0.9c$.",
+   "answer": "$$E_{0.8c} = \\frac{3.0132 \\times 10^{-10}}{\\sqrt{1 - 0.8^2}} = 5.022 \\times 10^{-10}\\ \\text{J}, \\qquad E_{0.9c} = \\frac{3.0132 \\times 10^{-10}}{\\sqrt{1 - 0.9^2}} = 6.912 \\times 10^{-10}\\ \\text{J}$$\n$$W = E_{0.9c} - E_{0.8c} = 6.912 \\times 10^{-10} - 5.022 \\times 10^{-10} = 1.89 \\times 10^{-10}\\ \\text{J}.$$"
+  },
+  {
+   "ref": "Q32(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.3",
+    "12.7.1.3"
+   ],
+   "question": "Around 1850 a French scientist, Léon Foucault, performed an experiment to determine whether light travels faster in air or in water. His experimental set-up is shown below.\n\nIn Foucault's experiment a beam of light is reflected off mirror R to mirror M, back to mirror R, and then to position 1 on a screen, as shown in the diagram on the left. Mirror R is then spun clockwise at a high rate, as shown in the middle diagram. Due to the rotation of mirror R during the flight time of the beam of light, the returning beam is reflected to a displaced position on the screen, position 2. When the experiment is repeated with a 3 m long tube of water placed between mirrors M and R, in the path of the beam of light, the light is deflected to position 3 instead of position 2.\n\nOutline the results of this experiment.",
+   "answer": "With the mirror spinning, light that travelled only through air between R and M returned to position 2 on the screen. When the tube of water was placed in the path, the returning light reached position 3, which is displaced further from position 1. The larger displacement means mirror R rotated through a larger angle while the light made the round trip, so the light took longer to travel through the water — light travels more slowly in water than in air.",
+   "images": [
+    "assets/img/phys-2024-north-sydney-girls/q32.png"
+   ]
+  },
+  {
+   "ref": "Q32(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.3"
+   ],
+   "question": "In 1850 Foucault used a rotating-mirror apparatus to show that light reflected back through a tube of water was displaced further on the screen than light travelling only through air, showing that light travels more slowly in water than in air.\n\nWhich early theories of light did the results of this experiment support or refute? Justify your answer by outlining each of the theories.",
+   "answer": "- **Result:** the water increased the time for the light to travel to mirror M and back, so the mirror rotated further and the beam was displaced further; light is slower in water (a denser medium) than in air.\n- **Huygens' wave model:** light is a wave, and each point on a wavefront acts as a source of secondary wavelets. Refraction towards the normal when light enters a denser medium is explained by the waves **slowing down** in the denser medium.\n- **Newton's corpuscular (particle) model:** light is a stream of tiny particles. Refraction towards the normal is explained by the particles being attracted by the denser medium, which increases their velocity component perpendicular to the surface, so the particles should **speed up** in water.\n- Therefore Foucault's result refuted Newton's corpuscular theory and supported Huygens' wave theory."
+  },
+  {
+   "ref": "Q33",
+   "kind": "written",
+   "marks": 8,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.6.3.2",
+    "12.5.3.2",
+    "12.6.1.3"
+   ],
+   "question": "It is often difficult for satellites to generate their own power using solar panels when they are facing away from the Sun. To overcome this problem, there is a proposal to power a space satellite as it orbits the Earth. In this model, satellite X is connected by a conducting cable to another smaller satellite Y (closer to the Earth) and the total system's position is shown relative to the Earth's magnetic field.\n\nSome information about the Earth–satellite system is given in the table below.\n\n| Quantity | Value |\n|---|---|\n| Orbital radius of the satellite from the centre of the Earth | 6 600 km |\n| Mass of the Earth | $6.0 \\times 10^{24}$ kg |\n| Magnetic field strength due to the Earth where X is orbiting | $31\\ \\mu\\text{T}$ |\n| Length of the cable between X and Y | 15 km |\n| Voltage required by the satellite | 1590 V |\n| Voltage required by the propulsion system on Y. The propulsion system can be changed to speed up or slow down Y. | 2000 V |\n| Induced emf equation | $\\varepsilon = Blv$ |\n\nAnalyse the viability of this model to supply a voltage to the satellite when it is facing away from the Sun.",
+   "answer": "**Orbital speed** of the satellite:\n$$v = \\sqrt{\\frac{GM_E}{r}} = \\sqrt{\\frac{6.67 \\times 10^{-11} \\times 6.0 \\times 10^{24}}{6.6 \\times 10^{6}}} = 7.8 \\times 10^{3}\\ \\text{m s}^{-1}.$$\n\n**Induced emf:** as the system orbits, the conducting cable moves through (cuts) the Earth's magnetic field lines, so an emf is induced between its ends (the charges in the cable experience a force $qvB$ along it):\n$$\\varepsilon = Blv = 31 \\times 10^{-6} \\times 15 \\times 10^{3} \\times 7.8 \\times 10^{3} \\approx 3.6 \\times 10^{3}\\ \\text{V}\\ (3627\\ \\text{V}).$$\n\n**Voltage required:** satellite X plus the propulsion unit on Y needs $1590 + 2000 = 3590$ V. The induced emf (about 3600 V) is just enough to supply both, with little margin.\n\n**Need for the propulsion system:** Y orbits at a slightly smaller radius than X, so on its own it would move faster ($v = \\sqrt{GM/r}$) and have a shorter period; it would move ahead of X, pulling the cable away from being perpendicular to the field and to the velocity, which would reduce $Blv$ (and could pull X out of its orbit). Y's propulsion must therefore slow it so that it stays directly below X, keeping the cable straight, radial and perpendicular to both the magnetic field and the velocity — which is why its 2000 V must be included in the budget.\n\n**Judgement:** provided the cable is kept straight and perpendicular to the field, the model can generate enough emf (about 3600 V ≥ 3590 V) to power X even when it faces away from the Sun, so it is viable. However, it is only marginally so: any decrease in field strength (B varies around the orbit), a slight change of orientation, or resistive losses in the 15 km cable would drop the voltage below what is needed. (Also, current drawn from the cable experiences a motor-effect force that opposes the motion, slowly removing orbital energy, which must be made up by propulsion.) Improvements could include a longer cable.",
+   "images": [
+    "assets/img/phys-2024-north-sydney-girls/q33.png"
+   ]
+  },
+  {
+   "ref": "Q34(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.1",
+    "12.8.5.3"
+   ],
+   "question": "Particle accelerators are used by physicists to explore the elementary particles that might exist. The protons are first accelerated from rest to 1.40% of the speed of light by a 90.0 kV electric field. They are then accelerated further when they move through a series of magnetic fields arranged in a ring. The accelerator ring has a circumference of 27.0 km.\n\nDetermine the kinetic energy in joules that each proton has on leaving the electric field, prior to entering the magnetic field.",
+   "answer": "The work done by the electric field on the proton equals its gain in kinetic energy:\n$$K = qV = 1.602 \\times 10^{-19} \\times 90.0 \\times 10^{3} = 1.44 \\times 10^{-14}\\ \\text{J}.$$\n(Check: $\\tfrac{1}{2}mv^2 = \\tfrac{1}{2} \\times 1.673 \\times 10^{-27} \\times (0.014 \\times 3.00 \\times 10^{8})^2 = 1.48 \\times 10^{-14}$ J, consistent.)"
+  },
+  {
+   "ref": "Q34(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.4.3"
+   ],
+   "question": "Determine the momentum of a proton in a particle accelerator with a speed of $0.999998c$. (Proton mass $= 1.673 \\times 10^{-27}$ kg.)",
+   "answer": "$$\\gamma = \\frac{1}{\\sqrt{1 - 0.999998^2}} = \\frac{1}{\\sqrt{4.0 \\times 10^{-6}}} = 500$$\n$$p = \\gamma m_0 v = 500 \\times 1.673 \\times 10^{-27} \\times 0.999998 \\times 3.00 \\times 10^{8} = 2.5 \\times 10^{-16}\\ \\text{kg m s}^{-1}.$$"
+  },
+  {
+   "ref": "Q34(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.4.4",
+    "12.7.4.3"
+   ],
+   "question": "If the rest mass energy of a proton is 938 MeV, calculate the velocity the proton reaches when accelerated to a kinetic energy of 1.4 GeV.",
+   "answer": "Total energy: $E = 0.938 + 1.4 = 2.338$ GeV. Since $E = \\gamma m_0 c^2$:\n$$\\gamma = \\frac{2.338}{0.938} = 2.493 \\ \\Rightarrow\\ \\frac{v}{c} = \\sqrt{1 - \\frac{1}{\\gamma^2}} = \\sqrt{1 - \\frac{1}{2.493^2}} = 0.916$$\n$$v = 0.916 \\times 3.00 \\times 10^{8} = 2.75 \\times 10^{8}\\ \\text{m s}^{-1}.$$"
+  }
+ ]
+}

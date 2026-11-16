@@ -1,0 +1,481 @@
+{
+ "id": "ext1-2026-manly",
+ "course": "extension1",
+ "school": "Manly",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "Manly 2026 w. sol"
+ },
+ "indexed": "2026-11-16",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q13(a)(i)",
+   "reason": "Not in 2024 syllabus: sample proportions"
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "reason": "Not in 2024 syllabus: sample proportions (normal approximation)"
+  },
+  {
+   "ref": "Q14(a)",
+   "reason": "Not in 2024 syllabus: graphs of y = sqrt(f(x)) (related to y^2 = f(x))"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.4"
+   ],
+   "question": "Which of the following pairs of vectors are parallel?",
+   "options": [
+    "$2\\mathbf{i} + 3\\mathbf{j}$ and $4\\mathbf{i} - 6\\mathbf{j}$",
+    "$2\\mathbf{i} + 3\\mathbf{j}$ and $-4\\mathbf{i} + 6\\mathbf{j}$",
+    "$-2\\mathbf{i} - 3\\mathbf{j}$ and $3\\mathbf{i} - 2\\mathbf{j}$",
+    "$-2\\mathbf{i} + 3\\mathbf{j}$ and $-4\\mathbf{i} + 6\\mathbf{j}$"
+   ],
+   "correct": "D",
+   "answer": "$-4\\mathbf{i} + 6\\mathbf{j} = 2(-2\\mathbf{i} + 3\\mathbf{j})$, so the vectors in D are scalar multiples of each other and hence parallel. None of the other pairs are scalar multiples."
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.1.10",
+    "11.2.2.6"
+   ],
+   "question": "Which of the following has $x = -1$ as a root of multiplicity exactly two?",
+   "options": [
+    "$P(x) = x^3 - 3x + 2$",
+    "$P(x) = x^4 + x^3 - 3x^2 - 5x - 2$",
+    "$P(x) = x^3 - 4x^2 + 5x - 2$",
+    "$P(x) = x^3 + 4x^2 + 5x + 2$"
+   ],
+   "correct": "D",
+   "answer": "For A and C, $P(-1) \\ne 0$ ($P(-1) = 4$ and $-12$). B factorises as $(x+1)^3(x-2)$, so $x=-1$ has multiplicity 3. D factorises as $(x+1)^2(x+2)$, so $x = -1$ has multiplicity exactly 2."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.13",
+    "11.4.1.14"
+   ],
+   "question": "Find the value of $n$ if $$7\\left({}^{n}C_{n-1}\\right) = {}^{n+2}C_{n-2}.$$",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "correct": "C",
+   "answer": "${}^{n}C_{n-1} = n$ and ${}^{n+2}C_{n-2} = {}^{n+2}C_{4} = \\dfrac{(n+2)(n+1)n(n-1)}{24}$. So $7n \\times 24 = (n+2)(n+1)n(n-1)$, i.e. $(n+2)(n+1)(n-1) = 168$. When $n = 5$: $7 \\times 6 \\times 4 = 168$, so $n = 5$."
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "course": "extension2",
+   "dotpoints": [
+    "12.4.1.5"
+   ],
+   "question": "Given $t = \\tan\\dfrac{x}{2}$, which of the following is equivalent to $\\dfrac{\\sec x + \\tan x}{1 + \\sin x}$?",
+   "options": [
+    "$\\dfrac{1+t}{1-t}$",
+    "$\\dfrac{1-t}{1+t}$",
+    "$\\dfrac{1}{1-t}$",
+    "$\\dfrac{1+t^2}{1-t^2}$"
+   ],
+   "correct": "D",
+   "answer": "Using $\\sec x = \\dfrac{1+t^2}{1-t^2}$, $\\tan x = \\dfrac{2t}{1-t^2}$, $\\sin x = \\dfrac{2t}{1+t^2}$:\n\n$$\\frac{\\sec x + \\tan x}{1+\\sin x} = \\frac{1+t^2+2t}{1-t^2} \\div \\frac{1+t^2+2t}{1+t^2} = \\frac{1+t^2}{1-t^2}.$$\n\n(Equivalently, $\\sec x + \\tan x = \\dfrac{1+\\sin x}{\\cos x}$, so the expression is $\\sec x$.)"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "What is the derivative of $\\sin^{-1}\\left(\\dfrac{3x}{2}\\right)$?",
+   "options": [
+    "$\\dfrac{3}{2\\sqrt{4-9x^2}}$",
+    "$\\dfrac{2}{3\\sqrt{4-9x^2}}$",
+    "$\\dfrac{3}{\\sqrt{4-9x^2}}$",
+    "$\\dfrac{3}{\\sqrt{2-3x^2}}$"
+   ],
+   "correct": "C",
+   "answer": "$$\\frac{d}{dx}\\sin^{-1}\\left(\\frac{3x}{2}\\right) = \\frac{\\frac{3}{2}}{\\sqrt{1 - \\frac{9x^2}{4}}} = \\frac{\\frac{3}{2}}{\\frac{1}{2}\\sqrt{4-9x^2}} = \\frac{3}{\\sqrt{4-9x^2}}.$$"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.2.8"
+   ],
+   "question": "If $X \\sim \\text{Bin}(n, p)$, $E(X) = 10$ and $\\text{Var}(X) = 8$, then the value of $n$ is:",
+   "options": [
+    "20",
+    "30",
+    "40",
+    "50"
+   ],
+   "correct": "D",
+   "answer": "$np = 10$ and $np(1-p) = 8$, so $1 - p = \\dfrac{8}{10} = \\dfrac{4}{5}$, $p = \\dfrac{1}{5}$ and $n = \\dfrac{10}{1/5} = 50$."
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.1.17"
+   ],
+   "question": "How many 4-digit codes can be made from the numbers $\\{1, 2, 3, 4, 5, 6, 7, 8, 9\\}$ where the digits in the codes are in ascending order and there are no repeated digits?",
+   "options": [
+    "3024",
+    "2898",
+    "24",
+    "126"
+   ],
+   "correct": "D",
+   "answer": "Ascending order fixes the arrangement, so we only need to choose which 4 digits are used: ${}^{9}C_{4} = 126$."
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.6",
+    "12.2.1.7"
+   ],
+   "question": "In the diagram below, $OACB$ is a parallelogram, where $\\overrightarrow{OA} = \\mathbf{a}$ and $\\overrightarrow{OB} = \\mathbf{b}$. $M$ is the midpoint of $OB$, $N$ is the midpoint of $CB$, and $P$ is the midpoint of $AN$. Which of the following is a correct representation for $\\overrightarrow{OP}$?",
+   "options": [
+    "$\\dfrac{3}{4}(\\mathbf{a} + \\mathbf{b})$",
+    "$\\dfrac{3}{4}\\mathbf{a} + \\dfrac{1}{2}\\mathbf{b}$",
+    "$\\dfrac{1}{2}(\\mathbf{a} + \\mathbf{b})$",
+    "$\\dfrac{1}{2}\\mathbf{a} - \\dfrac{3}{4}\\mathbf{b}$"
+   ],
+   "correct": "B",
+   "answer": "$\\overrightarrow{ON} = \\mathbf{b} + \\frac{1}{2}\\mathbf{a}$, so $\\overrightarrow{AN} = \\overrightarrow{ON} - \\mathbf{a} = \\mathbf{b} - \\frac{1}{2}\\mathbf{a}$. Then\n\n$$\\overrightarrow{OP} = \\mathbf{a} + \\tfrac{1}{2}\\overrightarrow{AN} = \\mathbf{a} + \\tfrac{1}{2}\\left(\\mathbf{b} - \\tfrac{1}{2}\\mathbf{a}\\right) = \\tfrac{3}{4}\\mathbf{a} + \\tfrac{1}{2}\\mathbf{b}.$$",
+   "images": [
+    "assets/img/ext1-2026-manly/q8.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.3"
+   ],
+   "question": "A particle is moving such that its velocity is given by $v = 6\\cos(2t) - 8\\sin(2t)$. What is the correct range of values for the particle's acceleration?",
+   "options": [
+    "$[-20, 20]$",
+    "$[-10, 10]$",
+    "$[-8, 8]$",
+    "$[6, 8]$"
+   ],
+   "correct": "A",
+   "answer": "$a = \\dfrac{dv}{dt} = -12\\sin(2t) - 16\\cos(2t) = -20\\sin\\left(2t + \\tan^{-1}\\tfrac{4}{3}\\right)$, since $\\sqrt{12^2 + 16^2} = 20$. So the range of the acceleration is $[-20, 20]$."
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.6",
+    "12.6.2.9"
+   ],
+   "question": "Laila and Sara are playing a table tennis match. Each rally is independent. The probability that Laila wins a rally is $p$, and the probability that Sara wins a rally is $1 - p$. The match is won by the first player to reach 5 points. What is the probability that Laila wins the match with a final score of 5–3?",
+   "options": [
+    "$\\dbinom{7}{4}p^5(1-p)^3$",
+    "$\\dbinom{8}{5}p^5(1-p)^3$",
+    "$\\dbinom{8}{5}p^3(1-p)^5$",
+    "$\\dbinom{7}{4}p^4(1-p)^3$"
+   ],
+   "correct": "A",
+   "answer": "In the first 7 rallies Laila must win exactly 4 and lose 3: probability $\\binom{7}{4}p^4(1-p)^3$. She must then win the 8th rally: total $\\binom{7}{4}p^4(1-p)^3 \\times p = \\binom{7}{4}p^5(1-p)^3$."
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.3"
+   ],
+   "question": "Solve $|3 - 7x| \\ge 11$.",
+   "answer": "Either $3 - 7x \\ge 11$ or $3 - 7x \\le -11$.\n\n- $3 - 7x \\ge 11 \\Rightarrow -7x \\ge 8 \\Rightarrow x \\le -\\dfrac{8}{7}$\n- $3 - 7x \\le -11 \\Rightarrow -7x \\le -14 \\Rightarrow x \\ge 2$\n\nSo $x \\le -\\dfrac{8}{7}$ or $x \\ge 2$.\n\n*Note:* the paper's solution gives $x \\le \\frac{8}{7}$ (sign error); e.g. $x = 0$ gives $|3| = 3 < 11$, so the correct bound is $x \\le -\\frac{8}{7}$."
+  },
+  {
+   "ref": "Q11(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "Let $\\mathbf{v} = \\begin{pmatrix} 6 \\\\ -8 \\end{pmatrix}$ and $\\mathbf{u} = \\begin{pmatrix} 5 \\\\ 2 \\end{pmatrix}$. Find the angle, correct to the nearest degree, between vectors $\\mathbf{u}$ and $\\mathbf{v}$.",
+   "answer": "$\\mathbf{u}\\cdot\\mathbf{v} = 5(6) + 2(-8) = 14$, $|\\mathbf{u}| = \\sqrt{29}$, $|\\mathbf{v}| = 10$.\n\n$$\\cos\\theta = \\frac{\\mathbf{u}\\cdot\\mathbf{v}}{|\\mathbf{u}||\\mathbf{v}|} = \\frac{14}{10\\sqrt{29}} \\quad\\Rightarrow\\quad \\theta \\approx 75^\\circ.$$"
+  },
+  {
+   "ref": "Q11(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.10",
+    "12.2.4.9"
+   ],
+   "question": "Let $\\mathbf{v} = \\begin{pmatrix} 6 \\\\ -8 \\end{pmatrix}$ and $\\mathbf{u} = \\begin{pmatrix} 5 \\\\ 2 \\end{pmatrix}$. Find the vector projection of $\\mathbf{u}$ onto $\\mathbf{v}$.",
+   "answer": "$$\\text{proj}_{\\mathbf{v}}\\mathbf{u} = \\frac{\\mathbf{u}\\cdot\\mathbf{v}}{|\\mathbf{v}|^2}\\,\\mathbf{v} = \\frac{14}{100}\\begin{pmatrix} 6 \\\\ -8 \\end{pmatrix} = \\frac{7}{50}\\begin{pmatrix} 6 \\\\ -8 \\end{pmatrix} = \\begin{pmatrix} 0.84 \\\\ -1.12 \\end{pmatrix}.$$"
+  },
+  {
+   "ref": "Q11(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.11",
+    "12.2.4.6"
+   ],
+   "question": "Let $\\mathbf{v} = \\begin{pmatrix} 6 \\\\ -8 \\end{pmatrix}$ and $\\mathbf{u} = \\begin{pmatrix} 5 \\\\ 2 \\end{pmatrix}$. Find the area of the triangle with vertices at the origin, $\\mathbf{u}$ and $\\mathbf{v}$.",
+   "answer": "Using the angle $\\theta$ between the vectors, with $\\cos\\theta = \\dfrac{14}{10\\sqrt{29}}$:\n\n$$A = \\tfrac{1}{2}|\\mathbf{u}||\\mathbf{v}|\\sin\\theta = \\tfrac{1}{2}\\times\\sqrt{29}\\times 10 \\times \\sin\\theta.$$\n\nSince $\\sin\\theta = \\sqrt{1 - \\dfrac{196}{2900}} = \\dfrac{\\sqrt{2704}}{10\\sqrt{29}} = \\dfrac{52}{10\\sqrt{29}}$, $A = \\tfrac{1}{2}\\times 52 = 26$ square units.\n\n(Alternatively, the perpendicular component of $\\mathbf{u}$ is $\\mathbf{u} - \\text{proj}_{\\mathbf{v}}\\mathbf{u} = \\begin{pmatrix} 4.16 \\\\ 3.12 \\end{pmatrix}$, of length $5.2$, so $A = \\tfrac{1}{2}\\times 10 \\times 5.2 = 26$.)"
+  },
+  {
+   "ref": "Q11(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "The polynomial $P(x) = 4x^3 - 21x^2 + cx - 4$ has three distinct roots, where one root is the reciprocal of another. Find all three roots of $P(x) = 0$.",
+   "answer": "Let the roots be $\\alpha$, $\\dfrac{1}{\\alpha}$, $\\gamma$.\n\nProduct of roots: $\\alpha\\cdot\\dfrac{1}{\\alpha}\\cdot\\gamma = -\\dfrac{-4}{4} = 1$, so $\\gamma = 1$.\n\nSum of roots: $\\alpha + \\dfrac{1}{\\alpha} + 1 = \\dfrac{21}{4}$, so $\\alpha + \\dfrac{1}{\\alpha} = \\dfrac{17}{4}$:\n\n$$4\\alpha^2 - 17\\alpha + 4 = 0 \\;\\Rightarrow\\; (4\\alpha - 1)(\\alpha - 4) = 0 \\;\\Rightarrow\\; \\alpha = \\tfrac{1}{4} \\text{ or } 4.$$\n\nThe roots are $1$, $4$ and $\\dfrac{1}{4}$."
+  },
+  {
+   "ref": "Q11(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "The polynomial $P(x) = 4x^3 - 21x^2 + cx - 4$ has three distinct roots, where one root is the reciprocal of another. Given that the roots of $P(x) = 0$ are $1$, $4$ and $\\dfrac{1}{4}$, find the value of $c$.",
+   "answer": "Sum of the roots taken two at a time:\n\n$$\\frac{c}{4} = 1(4) + 1\\left(\\tfrac{1}{4}\\right) + 4\\left(\\tfrac{1}{4}\\right) = \\frac{21}{4} \\;\\Rightarrow\\; c = 21.$$\n\n(Check: $P(1) = 4 - 21 + 21 - 4 = 0$.)"
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "Consider the region bounded by the curve $y = \\sqrt{x}$, the $y$-axis and the lines $y = 1$ and $y = 4$. Find the exact volume of the solid of revolution formed when the region is rotated about the $y$-axis.",
+   "answer": "$y = \\sqrt{x} \\Rightarrow x = y^2$, so $x^2 = y^4$.\n\n$$V = \\pi\\int_1^4 x^2\\,dy = \\pi\\int_1^4 y^4\\,dy = \\pi\\left[\\frac{y^5}{5}\\right]_1^4 = \\pi\\left(\\frac{1024}{5} - \\frac{1}{5}\\right) = \\frac{1023\\pi}{5}\\ \\text{units}^3.$$"
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.2"
+   ],
+   "question": "Express $3\\sin x + \\sqrt{3}\\cos x$ in the form $R\\sin(x + \\alpha)$ where $R > 0$ and $0 < \\alpha < \\dfrac{\\pi}{2}$.",
+   "answer": "$R\\sin(x+\\alpha) = R\\cos\\alpha\\sin x + R\\sin\\alpha\\cos x$, so $R\\cos\\alpha = 3$, $R\\sin\\alpha = \\sqrt{3}$.\n\n$R = \\sqrt{3^2 + (\\sqrt{3})^2} = \\sqrt{12} = 2\\sqrt{3}$, $\\tan\\alpha = \\dfrac{\\sqrt{3}}{3} \\Rightarrow \\alpha = \\dfrac{\\pi}{6}$.\n\n$$3\\sin x + \\sqrt{3}\\cos x = 2\\sqrt{3}\\sin\\left(x + \\frac{\\pi}{6}\\right).$$"
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.3"
+   ],
+   "question": "Given that $3\\sin x + \\sqrt{3}\\cos x = 2\\sqrt{3}\\sin\\left(x + \\dfrac{\\pi}{6}\\right)$, solve the equation $3\\sin x + \\sqrt{3}\\cos x = \\sqrt{6}$ for $0 \\le x \\le 2\\pi$.",
+   "answer": "$$2\\sqrt{3}\\sin\\left(x + \\frac{\\pi}{6}\\right) = \\sqrt{6} \\;\\Rightarrow\\; \\sin\\left(x + \\frac{\\pi}{6}\\right) = \\frac{\\sqrt{6}}{2\\sqrt{3}} = \\frac{1}{\\sqrt{2}}, \\qquad \\frac{\\pi}{6} \\le x + \\frac{\\pi}{6} \\le \\frac{13\\pi}{6}.$$\n\n$x + \\dfrac{\\pi}{6} = \\dfrac{\\pi}{4}, \\dfrac{3\\pi}{4}$ (the next solution $\\frac{9\\pi}{4}$ exceeds $\\frac{13\\pi}{6}$), so\n\n$$x = \\frac{\\pi}{12}, \\frac{7\\pi}{12}.$$"
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.7"
+   ],
+   "question": "Differentiate $y = \\tan^{-1}\\left(\\dfrac{x}{\\sqrt{1 - x^2}}\\right)$ with respect to $x$. Express your answer as a single fraction in its simplest form.",
+   "answer": "Let $f(x) = x(1-x^2)^{-\\frac{1}{2}}$. By the product rule,\n\n$$f'(x) = (1-x^2)^{-\\frac{1}{2}} + x^2(1-x^2)^{-\\frac{3}{2}} = \\frac{(1 - x^2) + x^2}{(1-x^2)^{\\frac{3}{2}}} = \\frac{1}{(1-x^2)^{\\frac{3}{2}}}.$$\n\nAlso $1 + [f(x)]^2 = 1 + \\dfrac{x^2}{1-x^2} = \\dfrac{1}{1-x^2}$. Hence\n\n$$\\frac{dy}{dx} = \\frac{f'(x)}{1 + [f(x)]^2} = \\frac{1}{(1-x^2)^{\\frac{3}{2}}}\\times(1 - x^2) = \\frac{1}{\\sqrt{1-x^2}}.$$\n\n(Alternatively, note that $\\tan^{-1}\\left(\\dfrac{x}{\\sqrt{1-x^2}}\\right) = \\sin^{-1}x$ for $-1 < x < 1$.)"
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.6",
+    "12.2.3.7"
+   ],
+   "question": "The diagram below shows three forces acting on an object at point $A$: $\\mathbf{F}_1$ of magnitude $3$ N at $30^\\circ$ above the positive horizontal direction, $\\mathbf{F}_2$ of magnitude $2$ N at $45^\\circ$ above the negative horizontal direction, and $\\mathbf{F}_3$ of magnitude $4$ N acting vertically downwards. By first resolving the forces acting on the object, find the direction of the resultant force. Give your answer to the nearest degree.",
+   "answer": "Taking the positive $x$-direction to the right:\n\n$$\\mathbf{F}_1 + \\mathbf{F}_2 + \\mathbf{F}_3 = \\begin{pmatrix} 3\\cos 30^\\circ \\\\ 3\\sin 30^\\circ \\end{pmatrix} + \\begin{pmatrix} 2\\cos 135^\\circ \\\\ 2\\sin 135^\\circ \\end{pmatrix} + \\begin{pmatrix} 0 \\\\ -4 \\end{pmatrix} = \\begin{pmatrix} \\frac{3\\sqrt{3}}{2} - \\sqrt{2} \\\\ \\frac{3}{2} + \\sqrt{2} - 4 \\end{pmatrix} \\approx \\begin{pmatrix} 1.1839 \\\\ -1.0858 \\end{pmatrix}.$$\n\nThe resultant points below the positive $x$-direction at angle $\\alpha$ where\n\n$$\\alpha = \\tan^{-1}\\left(\\frac{1.0858}{1.1839}\\right) \\approx 43^\\circ.$$\n\nSo the resultant force is directed $43^\\circ$ below the positive $x$-direction (i.e. $317^\\circ$ measured anticlockwise from the positive $x$-direction).",
+   "images": [
+    "assets/img/ext1-2026-manly/q12c.png"
+   ]
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Using the substitution $u = 1 - x^2$, find $\\displaystyle\\int_0^1 x^3\\sqrt{1 - x^2}\\,dx$.",
+   "answer": "$u = 1 - x^2 \\Rightarrow du = -2x\\,dx$ and $x^2 = 1 - u$. When $x = 0$, $u = 1$; when $x = 1$, $u = 0$.\n\n$$\\int_0^1 x^3\\sqrt{1-x^2}\\,dx = -\\frac{1}{2}\\int_0^1 x^2\\sqrt{1-x^2}\\,(-2x)\\,dx = -\\frac{1}{2}\\int_1^0 (1-u)u^{\\frac{1}{2}}\\,du = \\frac{1}{2}\\int_0^1 \\left(u^{\\frac{1}{2}} - u^{\\frac{3}{2}}\\right)du$$\n\n$$= \\frac{1}{2}\\left[\\frac{2}{3}u^{\\frac{3}{2}} - \\frac{2}{5}u^{\\frac{5}{2}}\\right]_0^1 = \\frac{1}{2}\\left(\\frac{2}{3} - \\frac{2}{5}\\right) = \\frac{2}{15}.$$"
+  },
+  {
+   "ref": "Q12(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.7",
+    "12.2.4.5",
+    "12.2.4.6"
+   ],
+   "question": "$\\mathbf{p}$ and $\\mathbf{q}$ are unit vectors such that the vectors $\\mathbf{a} = \\mathbf{p} + 2\\mathbf{q}$ and $\\mathbf{b} = 5\\mathbf{p} - 4\\mathbf{q}$ are perpendicular to each other. Find the angle between vectors $\\mathbf{p}$ and $\\mathbf{q}$.",
+   "answer": "Since $\\mathbf{a}\\cdot\\mathbf{b} = 0$:\n\n$$(\\mathbf{p} + 2\\mathbf{q})\\cdot(5\\mathbf{p} - 4\\mathbf{q}) = 5|\\mathbf{p}|^2 - 4\\,\\mathbf{p}\\cdot\\mathbf{q} + 10\\,\\mathbf{p}\\cdot\\mathbf{q} - 8|\\mathbf{q}|^2 = 5 + 6\\,\\mathbf{p}\\cdot\\mathbf{q} - 8 = 0,$$\n\nso $\\mathbf{p}\\cdot\\mathbf{q} = \\dfrac{1}{2}$. As $|\\mathbf{p}| = |\\mathbf{q}| = 1$, $\\cos\\theta = \\mathbf{p}\\cdot\\mathbf{q} = \\dfrac{1}{2}$ with $0 \\le \\theta \\le \\pi$, giving $\\theta = \\dfrac{\\pi}{3}$."
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.2",
+    "11.3.2.4"
+   ],
+   "question": "Show that $\\cos 3\\theta = 4\\cos^3\\theta - 3\\cos\\theta$.",
+   "answer": "$$\\begin{aligned}\\cos 3\\theta &= \\cos(2\\theta + \\theta) = \\cos 2\\theta\\cos\\theta - \\sin 2\\theta\\sin\\theta \\\\ &= (2\\cos^2\\theta - 1)\\cos\\theta - 2\\sin^2\\theta\\cos\\theta \\\\ &= 2\\cos^3\\theta - \\cos\\theta - 2(1 - \\cos^2\\theta)\\cos\\theta \\\\ &= 4\\cos^3\\theta - 3\\cos\\theta.\\end{aligned}$$"
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.1",
+    "11.2.1.8"
+   ],
+   "question": "Given that $\\cos 3\\theta = 4\\cos^3\\theta - 3\\cos\\theta$, use the substitution $x = \\cos\\theta$ to show that the equation $8x^3 - 6x + 1 = 0$ has roots $\\cos\\dfrac{2\\pi}{9}$, $\\cos\\dfrac{4\\pi}{9}$ and $\\cos\\dfrac{8\\pi}{9}$.",
+   "answer": "Let $x = \\cos\\theta$, $0 \\le \\theta \\le \\pi$. Then\n\n$$8\\cos^3\\theta - 6\\cos\\theta + 1 = 0 \\;\\Rightarrow\\; 2(4\\cos^3\\theta - 3\\cos\\theta) + 1 = 0 \\;\\Rightarrow\\; \\cos 3\\theta = -\\frac{1}{2}.$$\n\nWith $0 \\le 3\\theta \\le 3\\pi$: $3\\theta = \\dfrac{2\\pi}{3}, \\dfrac{4\\pi}{3}, \\dfrac{8\\pi}{3}$, so $\\theta = \\dfrac{2\\pi}{9}, \\dfrac{4\\pi}{9}, \\dfrac{8\\pi}{9}$.\n\nThese give three distinct values of $x = \\cos\\theta$, and a cubic has at most three roots, so the roots are $\\cos\\dfrac{2\\pi}{9}$, $\\cos\\dfrac{4\\pi}{9}$, $\\cos\\dfrac{8\\pi}{9}$."
+  },
+  {
+   "ref": "Q13(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "The equation $8x^3 - 6x + 1 = 0$ has roots $\\cos\\dfrac{2\\pi}{9}$, $\\cos\\dfrac{4\\pi}{9}$ and $\\cos\\dfrac{8\\pi}{9}$. Using this result, show that $$\\sec\\frac{2\\pi}{9} + \\sec\\frac{4\\pi}{9} + \\sec\\frac{8\\pi}{9} = 6.$$",
+   "answer": "Let $\\alpha = \\cos\\frac{2\\pi}{9}$, $\\beta = \\cos\\frac{4\\pi}{9}$, $\\gamma = \\cos\\frac{8\\pi}{9}$ be the roots of $8x^3 + 0x^2 - 6x + 1 = 0$. Then $\\alpha\\beta + \\beta\\gamma + \\gamma\\alpha = -\\dfrac{6}{8}$ and $\\alpha\\beta\\gamma = -\\dfrac{1}{8}$.\n\n$$\\sec\\frac{2\\pi}{9} + \\sec\\frac{4\\pi}{9} + \\sec\\frac{8\\pi}{9} = \\frac{1}{\\alpha} + \\frac{1}{\\beta} + \\frac{1}{\\gamma} = \\frac{\\alpha\\beta + \\beta\\gamma + \\gamma\\alpha}{\\alpha\\beta\\gamma} = \\frac{-\\frac{6}{8}}{-\\frac{1}{8}} = 6.$$"
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.15",
+    "12.5.4.13"
+   ],
+   "question": "A population of wallabies is being introduced to an island after becoming locally extinct. The rate of change of the number of wallabies is assumed to follow the logistic equation $$\\frac{dN}{dt} = kN(P - N)$$ where $N$ is the number of wallabies, $t$ is time in years, $P$ is the carrying capacity of the island and $k$ is a constant. It is given that $\\dfrac{1}{N(P-N)} = \\dfrac{1}{P}\\left(\\dfrac{1}{N} + \\dfrac{1}{P-N}\\right)$ (do not prove this). Show that $N = \\dfrac{P}{1 + Be^{-Pkt}}$, where $B$ is a constant.",
+   "answer": "Separating variables:\n\n$$\\int \\frac{dN}{N(P-N)} = \\int k\\,dt \\;\\Rightarrow\\; \\frac{1}{P}\\int\\left(\\frac{1}{N} + \\frac{1}{P-N}\\right)dN = kt + c$$\n\n$$\\frac{1}{P}\\left(\\ln|N| - \\ln|P - N|\\right) = kt + c \\;\\Rightarrow\\; \\ln\\left|\\frac{N}{P-N}\\right| = Pkt + Pc.$$\n\nSo $\\dfrac{N}{P - N} = Ae^{Pkt}$ where $A = \\pm e^{Pc}$. Then\n\n$$N = (P - N)Ae^{Pkt} \\;\\Rightarrow\\; N(1 + Ae^{Pkt}) = PAe^{Pkt} \\;\\Rightarrow\\; N = \\frac{PAe^{Pkt}}{1 + Ae^{Pkt}} = \\frac{P}{\\frac{1}{A}e^{-Pkt} + 1}.$$\n\nLetting $B = \\dfrac{1}{A}$: $N = \\dfrac{P}{1 + Be^{-Pkt}}$, as required."
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.16",
+    "12.5.4.15"
+   ],
+   "question": "A population of wallabies is being introduced to an island after becoming locally extinct. The rate of change of the number of wallabies is assumed to follow the logistic equation $$\\frac{dN}{dt} = kN(P - N)$$ where $N$ is the number of wallabies, $t$ is time in years, $P$ is the carrying capacity of the island and $k$ is a constant. The solution of this equation is $N = \\dfrac{P}{1 + Be^{-Pkt}}$, where $B$ is a constant. Initially, 500 wallabies are introduced to the island. According to research on wallabies on the mainland, the carrying capacity of the island is estimated to be 5000 wallabies. Five years after their introduction, the wallaby population on the island is found to be 720. Find the values of $P$, $B$ and $k$.",
+   "answer": "The carrying capacity is $P = 5000$. At $t = 0$, $N = 500$:\n\n$$500 = \\frac{5000}{1 + B} \\;\\Rightarrow\\; 1 + B = 10 \\;\\Rightarrow\\; B = 9.$$\n\nAt $t = 5$, $N = 720$, with $Pkt = 25000k$:\n\n$$720 = \\frac{5000}{1 + 9e^{-25000k}} \\;\\Rightarrow\\; 6480e^{-25000k} = 4280 \\;\\Rightarrow\\; e^{-25000k} = \\frac{107}{162}$$\n\n$$k = -\\frac{1}{25000}\\ln\\frac{107}{162} = \\frac{1}{25000}\\ln\\frac{162}{107} \\approx 1.659\\times 10^{-5}.$$\n\nSo $P = 5000$, $B = 9$, $k \\approx 0.0000166$."
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "Let $f(n) = 13^{n+1}(6n + 7) - 1$. Prove using mathematical induction that $f(n)$ is divisible by 18 for every positive integer $n$.",
+   "answer": "**Base case** $n = 1$: $f(1) = 13^2(13) - 1 = 2196 = 18 \\times 122$, which is divisible by 18.\n\n**Inductive step.** Assume true for $n = k$: $13^{k+1}(6k + 7) - 1 = 18M$ for some integer $M$, i.e. $-1 = 18M - 13^{k+1}(6k+7)$.\n\nRequired to prove: $f(k+1) = 13^{k+2}(6k + 13) - 1$ is divisible by 18.\n\n$$\\begin{aligned} f(k+1) &= 13^{k+2}(6k+13) + 18M - 13^{k+1}(6k+7) \\\\ &= 18M + 13^{k+1}\\left[13(6k+13) - (6k+7)\\right] \\\\ &= 18M + 13^{k+1}(72k + 162) \\\\ &= 18\\left(M + 13^{k+1}(4k+9)\\right), \\end{aligned}$$\n\nwhich is divisible by 18 since $M + 13^{k+1}(4k+9)$ is an integer.\n\nHence, by mathematical induction, $f(n)$ is divisible by 18 for all positive integers $n$.\n\n*Note:* the paper's solution writes $18M - 13^{k+1}[\\ldots]$ (sign slip); the conclusion is unaffected."
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.4.13",
+    "12.5.4.5"
+   ],
+   "question": "Consider the differential equation $\\dfrac{dy}{dx} = (x+1)^2(y-2)^{\\frac{1}{2}}$. Find the domain of the solution curve that passes through the point $(2, 6)$.",
+   "answer": "Separating variables:\n\n$$\\int (y-2)^{-\\frac{1}{2}}\\,dy = \\int (x+1)^2\\,dx \\;\\Rightarrow\\; 2\\sqrt{y - 2} = \\frac{(x+1)^3}{3} + C.$$\n\nAt $(2, 6)$: $2\\sqrt{4} = \\dfrac{27}{3} + C \\Rightarrow 4 = 9 + C \\Rightarrow C = -5$, so\n\n$$2\\sqrt{y-2} = \\frac{(x+1)^3}{3} - 5.$$\n\nSince $\\sqrt{y-2} \\ge 0$, we need $\\dfrac{(x+1)^3}{3} - 5 \\ge 0$, i.e. $(x+1)^3 \\ge 15$, so the domain is\n\n$$x \\ge \\sqrt[3]{15} - 1.$$"
+  },
+  {
+   "ref": "Q14(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "course": "advanced",
+   "dotpoints": [
+    "11.2.3.8",
+    "11.2.3.7"
+   ],
+   "question": "A water trough of length 8 m has a semi-circular cross-section of diameter 1 m. Water is pumped into the trough at a constant rate of $0.1\\ \\text{m}^3$ per minute. The water surface is a chord of the semicircle that subtends an angle $\\theta$ (in radians) at the centre of the semicircle's diameter, as shown. Show that the volume of the water in the trough is given by $V = \\theta - \\sin\\theta$.",
+   "answer": "The cross-section of the water is a segment of a circle of radius $r = \\frac{1}{2}$ with angle $\\theta$ at the centre:\n\n$$A = \\tfrac{1}{2}r^2\\theta - \\tfrac{1}{2}r^2\\sin\\theta = \\tfrac{1}{2}r^2(\\theta - \\sin\\theta) = \\tfrac{1}{2}\\left(\\tfrac{1}{2}\\right)^2(\\theta - \\sin\\theta) = \\tfrac{1}{8}(\\theta - \\sin\\theta).$$\n\nThe trough is a prism of length 8, so $V = 8A = 8 \\times \\tfrac{1}{8}(\\theta - \\sin\\theta) = \\theta - \\sin\\theta$.",
+   "images": [
+    "assets/img/ext1-2026-manly/q14d.png"
+   ]
+  },
+  {
+   "ref": "Q14(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "A water trough of length 8 m has a semi-circular cross-section of diameter 1 m. Water is pumped into the trough at a constant rate of $0.1\\ \\text{m}^3$ per minute. The water surface is a chord of the semicircle that subtends an angle $\\theta$ (in radians) at the centre of the semicircle's diameter, as shown. The volume of water in the trough is $V = \\theta - \\sin\\theta$ (in $\\text{m}^3$). Find the rate at which the water level is rising at the instant the water is 25 cm deep.",
+   "answer": "$\\dfrac{dV}{d\\theta} = 1 - \\cos\\theta$, and $\\dfrac{dV}{dt} = \\dfrac{dV}{d\\theta}\\cdot\\dfrac{d\\theta}{dt}$ gives $\\dfrac{d\\theta}{dt} = \\dfrac{0.1}{1 - \\cos\\theta}$.\n\nLet $h$ be the depth. The distance from the centre to the water surface is $0.5 - h = 0.5\\cos\\dfrac{\\theta}{2}$, so\n\n$$h = \\frac{1}{2} - \\frac{1}{2}\\cos\\frac{\\theta}{2}, \\qquad \\frac{dh}{d\\theta} = \\frac{1}{4}\\sin\\frac{\\theta}{2}.$$\n\n$$\\frac{dh}{dt} = \\frac{dh}{d\\theta}\\cdot\\frac{d\\theta}{dt} = \\frac{1}{4}\\sin\\frac{\\theta}{2}\\times\\frac{0.1}{2\\sin^2\\frac{\\theta}{2}} = \\frac{1}{80\\sin\\frac{\\theta}{2}},$$\n\nusing $1 - \\cos\\theta = 2\\sin^2\\frac{\\theta}{2}$.\n\nWhen $h = 0.25$ m: $\\cos\\dfrac{\\theta}{2} = \\dfrac{0.25}{0.5} = \\dfrac{1}{2}$, so $\\dfrac{\\theta}{2} = \\dfrac{\\pi}{3}$ and $\\sin\\dfrac{\\theta}{2} = \\dfrac{\\sqrt{3}}{2}$.\n\n$$\\frac{dh}{dt} = \\frac{1}{80\\times\\frac{\\sqrt{3}}{2}} = \\frac{1}{40\\sqrt{3}} = \\frac{\\sqrt{3}}{120} \\approx 0.0144\\ \\text{m/min}.$$",
+   "images": [
+    "assets/img/ext1-2026-manly/q14d.png"
+   ]
+  }
+ ]
+}

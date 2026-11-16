@@ -1,0 +1,716 @@
+{
+ "id": "ext2-2026-north-sydney-girls",
+ "course": "extension2",
+ "school": "North Sydney Girls",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "North Sydney Girls 2026 w. sol"
+ },
+ "indexed": "2026-11-16",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.11",
+    "12.1.1.12"
+   ],
+   "question": "Consider the following statement.\n\n*If $f''(a) = 0$, then the graph of $f(x)$ has a point of inflection at $x = a$.*\n\nWhich of the following is equivalent to this statement?",
+   "options": [
+    "If $f''(a) \\neq 0$, then $f(x)$ does not have a point of inflection at $x = a$.",
+    "If $f(x)$ has a point of inflection at $x = a$, then $f''(a) = 0$.",
+    "If $f(x)$ does not have a point of inflection at $x = a$, then $f''(a) \\neq 0$.",
+    "If $f(x)$ does not have a point of inflection at $x = a$, then $f''(a) = 0$."
+   ],
+   "correct": "C",
+   "answer": "An implication $P \\Rightarrow Q$ is equivalent to its contrapositive $\\neg Q \\Rightarrow \\neg P$. Here $P$: $f''(a) = 0$ and $Q$: point of inflection at $x = a$, so the contrapositive is \"if $f(x)$ does not have a point of inflection at $x=a$, then $f''(a) \\neq 0$\". Hence C."
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.10",
+    "12.3.2.1"
+   ],
+   "question": "If the point $z = a + ib$, where $a, b > 0$, is represented as a point on the Argand diagram, the point representing $-\\overline{z}$ can be obtained by which of the following?",
+   "options": [
+    "reflecting the point representing $z$ in the real axis.",
+    "reflecting the point representing $z$ in the imaginary axis.",
+    "rotating the point representing $z$ anti-clockwise about the origin by $90^\\circ$.",
+    "rotating the point representing $z$ clockwise about the origin by $90^\\circ$."
+   ],
+   "correct": "B",
+   "answer": "$z = a + ib$, $\\overline{z} = a - ib$, so $-\\overline{z} = -a + ib$. The point $(a, b)$ goes to $(-a, b)$: a reflection in the imaginary axis. Hence B."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.5.5",
+    "12.3.2.8"
+   ],
+   "question": "Which of the following is the curve in the complex plane defined by $\\arg\\left(\\dfrac{z-1}{z+i}\\right) = \\dfrac{\\pi}{2}$?",
+   "options": [
+    "![Graph A](assets/img/ext2-2026-north-sydney-girls/q3a.png)",
+    "![Graph B](assets/img/ext2-2026-north-sydney-girls/q3b.png)",
+    "![Graph C](assets/img/ext2-2026-north-sydney-girls/q3c.png)",
+    "![Graph D](assets/img/ext2-2026-north-sydney-girls/q3d.png)"
+   ],
+   "correct": "B",
+   "answer": "$\\arg(z-1) - \\arg(z+i) = \\frac{\\pi}{2}$, so the angle at $z$ between the segments to $1$ and to $-i$ is a right angle: $z$ lies on the circle with diameter joining $1$ and $-i$ (endpoints excluded). Only A and B use this circle. Test $z = 0$: $\\dfrac{0-1}{0+i} = \\dfrac{-1}{i} = i$, which has argument $\\frac{\\pi}{2}$, so the arc passes through the origin. Hence B."
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.7",
+    "12.3.4.12"
+   ],
+   "question": "Consider the regular polygon below with the complex numbers $z_1, z_2, z_3, z_4$ and $-2$ as vertices, as shown below.\n\nWhich polynomial equation has these complex numbers as roots?",
+   "options": [
+    "$z^4 - 16 = 0$",
+    "$z^4 + 16 = 0$",
+    "$z^5 - 32 = 0$",
+    "$z^5 + 32 = 0$"
+   ],
+   "correct": "D",
+   "answer": "The five vertices of a regular pentagon centred at the origin are the five fifth roots of a single number. Since $(-2)^5 = -32$, they are the roots of $z^5 = -32$, i.e. $z^5 + 32 = 0$. Hence D.",
+   "images": [
+    "assets/img/ext2-2026-north-sydney-girls/q4.png"
+   ]
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.2.2",
+    "12.1.2.3"
+   ],
+   "question": "Consider the following statement:\n\n\"*Let $m$ be a positive integer. If $m$ is not prime, $(m-2)$ is not prime.*\"\n\nWhich of the following values of $m$ is a counterexample for this statement?",
+   "options": [
+    "$9$",
+    "$12$",
+    "$13$",
+    "$23$"
+   ],
+   "correct": "A",
+   "answer": "A counterexample needs $m$ not prime but $m - 2$ prime. $m = 9$ is not prime but $9 - 2 = 7$ is prime. ($12 - 2 = 10$ is not prime; $13$ and $23$ are prime.) Hence A."
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.5"
+   ],
+   "question": "The diagram below (not to scale) shows a stationary object being acted on by four forces whose magnitudes are in newtons. The force of magnitude $F_1$ newtons acts in the opposite direction to the force of $8$ newtons. The force $F_2$ acts at $60^\\circ$ above the direction of the $8$ N force, and the $6$ N force acts at $30^\\circ$ below the direction of $F_1$.\n\nWhat is the value of $F_1$ if the system is in equilibrium?",
+   "options": [
+    "$2\\sqrt{3}$",
+    "$8 - 2\\sqrt{3}$",
+    "$8$",
+    "$8 + 2\\sqrt{3}$"
+   ],
+   "correct": "B",
+   "answer": "Vertically: $F_2\\sin 60^\\circ = 6\\sin 30^\\circ \\Rightarrow \\frac{\\sqrt{3}}{2}F_2 = 3 \\Rightarrow F_2 = 2\\sqrt{3}$.\n\nHorizontally: $F_1 + 6\\cos 30^\\circ = 8 + F_2\\cos 60^\\circ \\Rightarrow F_1 + 3\\sqrt{3} = 8 + \\sqrt{3} \\Rightarrow F_1 = 8 - 2\\sqrt{3}$. Hence B.",
+   "images": [
+    "assets/img/ext2-2026-north-sydney-girls/q6.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.8",
+    "12.5.2.4"
+   ],
+   "question": "A particle is moving in a straight line with displacement $x$ at time $t$ and velocity $v$. The graph below shows $v^2$ as a function of $x$: it is a parabola cutting the $x$-axis at $x = 1$ and $x = 5$ with maximum value $v^2 = 16$ at $x = 3$.\n\nWhich of the following is a possible equation for the displacement of the particle?",
+   "options": [
+    "$x = 3 + 4\\cos(\\pi t + \\alpha)$",
+    "$x = 3 + 2\\cos(\\pi t + \\alpha)$",
+    "$x = 3 + 4\\cos(2t + \\alpha)$",
+    "$x = 3 + 2\\cos(2t + \\alpha)$"
+   ],
+   "correct": "D",
+   "answer": "The particle oscillates between $x = 1$ and $x = 5$, so the centre is $3$ and the amplitude is $A = \\frac{5-1}{2} = 2$. For SHM, $v^2 = n^2\\left[A^2 - (x-3)^2\\right]$, so the maximum of $v^2$ is $n^2A^2 = 4n^2 = 16$, giving $n = 2$. So $x = 3 + 2\\cos(2t + \\alpha)$. Hence D.",
+   "images": [
+    "assets/img/ext2-2026-north-sydney-girls/q7.png"
+   ]
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.3",
+    "12.5.1.4"
+   ],
+   "question": "A light inextensible string passes over a smooth pulley. Attached to the ends of the string are masses of $12$ kg and $m$ kg, hanging vertically as shown.\n\nThe acceleration due to gravity is $10\\ \\text{m/s}^2$. The masses are released from rest and the $12$ kg mass accelerates downward at $2\\ \\text{m/s}^2$.\n\nWhat is the value of $m$?",
+   "options": [
+    "$8$",
+    "$10$",
+    "$12$",
+    "$16$"
+   ],
+   "correct": "A",
+   "answer": "For the whole system (the $12$ kg mass moving down, the $m$ kg mass moving up):\n$12g - mg = (12 + m)a \\Rightarrow 120 - 10m = 2(12 + m) = 24 + 2m \\Rightarrow 12m = 96 \\Rightarrow m = 8$. Hence A.",
+   "images": [
+    "assets/img/ext2-2026-north-sydney-girls/q8.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.12",
+    "12.2.1.14"
+   ],
+   "question": "The diagram below shows a parabolic bowl formed by rotating a parabola around the $z$-axis. Its vertex is at the origin of a three-dimensional coordinate system and cross-sections parallel to the $xy$-plane are circular.\n\nThe height of the bowl is $4$ units and at the top of the bowl the diameter of the cross-section is $6$ units.\n\nWhich of the following is a possible set of parametric equations that describe this paraboloid?",
+   "options": [
+    "$\\mathbf{r} = \\begin{pmatrix} 3\\sqrt{u}\\cos v \\\\ 3\\sqrt{u}\\sin v \\\\ u \\end{pmatrix};\\quad 0 \\le u \\le 4,\\ 0 \\le v \\le \\pi$",
+    "$\\mathbf{r} = \\begin{pmatrix} \\frac{3}{2}u\\cos 2v \\\\ \\frac{3}{2}u\\sin 2v \\\\ u^2 \\end{pmatrix};\\quad 0 \\le u \\le 2,\\ 0 \\le v \\le \\pi$",
+    "$\\mathbf{r} = \\begin{pmatrix} \\frac{3}{2}\\sqrt{u}\\cos v \\\\ \\frac{3}{2}\\sqrt{u}\\sin v \\\\ u \\end{pmatrix};\\quad 0 \\le u \\le 4,\\ 0 \\le v \\le \\pi$",
+    "$\\mathbf{r} = \\begin{pmatrix} 3u\\cos 2v \\\\ 3u\\sin 2v \\\\ u^2 \\end{pmatrix};\\quad 0 \\le u \\le 4,\\ 0 \\le v \\le \\pi$"
+   ],
+   "correct": "B",
+   "answer": "The paraboloid is $z = k(x^2+y^2)$ with $z = 4$ when $x^2 + y^2 = 3^2$, so $z = \\frac{4}{9}(x^2+y^2)$ for $0 \\le z \\le 4$, and each circular cross-section must be traced in full (angle through $2\\pi$).\n\nFor B: $x^2 + y^2 = \\frac{9}{4}u^2(\\cos^2 2v + \\sin^2 2v) = \\frac{9}{4}u^2$ and $z = u^2 = \\frac{4}{9}(x^2+y^2)$ ✓. When $u = 2$, $z = 4$ and the radius is $3$ (diameter $6$) ✓, and $2v$ runs through $[0, 2\\pi]$, giving full circles ✓.\n\nA gives radius $6$ at $z = 4$; D gives radius $12$ and height $16$; C has the right shape but $v \\in [0, \\pi]$ only gives half of each circle. Hence B.",
+   "images": [
+    "assets/img/ext2-2026-north-sydney-girls/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.1",
+    "12.5.1.2"
+   ],
+   "question": "The graph below shows the acceleration $a$ of a particle as a function of its displacement $x$: an inverted parabola through the origin, with $a > 0$ between $x = 0$ and a positive $x$-intercept, and $a < 0$ outside that interval.\n\nWhich of the following best represents a possible graph of its velocity as a function of its displacement?",
+   "options": [
+    "![Graph A](assets/img/ext2-2026-north-sydney-girls/q10a.png)",
+    "![Graph B](assets/img/ext2-2026-north-sydney-girls/q10b.png)",
+    "![Graph C](assets/img/ext2-2026-north-sydney-girls/q10c.png)",
+    "![Graph D](assets/img/ext2-2026-north-sydney-girls/q10d.png)"
+   ],
+   "correct": "B",
+   "answer": "Use $a = \\dfrac{d}{dx}\\left(\\tfrac{1}{2}v^2\\right) = v\\dfrac{dv}{dx}$.\n\nLet the positive $x$-intercept of $a$ be $c$. For $0 < x < c$, $a > 0$, so $v^2$ increases: in B, $v < 0$ and $|v|$ grows from $0$ (at $x=0$) to a maximum at $x = c$, then $|v|$ decreases to $0$ (with a vertical tangent where $v = 0$). For $x < 0$, $a < 0$, so $v^2$ increases as $x$ decreases, and $v \\to -\\infty$ as in B.\n\nChecks on the others: in A, $v > 0$ and decreasing for $x < 0$ gives $v\\,\\frac{dv}{dx} < 0$ ✓, but for $x$ just right of the maximum of A, $v > 0$ and decreasing gives $a < 0$ where $a$ should be positive. C has $v\\frac{dv}{dx}$ changing sign only once. D allows no motion for $x < 0$ even though $v^2 > 0$ there. Hence B.",
+   "images": [
+    "assets/img/ext2-2026-north-sydney-girls/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.8",
+    "12.3.1.10"
+   ],
+   "question": "Let $z = \\sqrt{2}\\left(\\cos\\dfrac{\\pi}{4} + i\\sin\\dfrac{\\pi}{4}\\right)$ and $w = -2 + 2\\sqrt{3}\\,i$.\n\nFind the exact value of $\\text{Arg}\\left(\\dfrac{w}{\\overline{z}}\\right)$.",
+   "answer": "$w = -2 + 2\\sqrt{3}i$ lies in the second quadrant with $\\tan(\\arg w) = \\dfrac{2\\sqrt{3}}{-2} = -\\sqrt{3}$, so $\\arg w = \\dfrac{2\\pi}{3}$.\n\n$\\arg\\overline{z} = -\\arg z = -\\dfrac{\\pi}{4}$.\n\n$\\arg\\left(\\dfrac{w}{\\overline{z}}\\right) = \\arg w - \\arg\\overline{z} = \\dfrac{2\\pi}{3} + \\dfrac{\\pi}{4} = \\dfrac{11\\pi}{12}$.\n\nSince $\\frac{11\\pi}{12} \\in (-\\pi, \\pi]$, $\\text{Arg}\\left(\\dfrac{w}{\\overline{z}}\\right) = \\dfrac{11\\pi}{12}$."
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.13",
+    "12.3.2.6"
+   ],
+   "question": "Let $z = \\sqrt{2}\\left(\\cos\\dfrac{\\pi}{4} + i\\sin\\dfrac{\\pi}{4}\\right)$ and $w = -2 + 2\\sqrt{3}\\,i$.\n\nExpress $\\dfrac{w}{\\overline{z}}$ in $x + iy$ form, where $x$ and $y$ are real numbers. Show all working.",
+   "answer": "$z = \\sqrt{2}\\left(\\frac{1}{\\sqrt{2}} + \\frac{i}{\\sqrt{2}}\\right) = 1 + i$, so $|z|^2 = 2$.\n\n$$\\frac{w}{\\overline{z}} = \\frac{wz}{\\overline{z}z} = \\frac{wz}{|z|^2} = \\frac{(-2 + 2\\sqrt{3}i)(1+i)}{2} = \\frac{-2 - 2i + 2\\sqrt{3}i - 2\\sqrt{3}}{2}$$\n\n$$= -(1 + \\sqrt{3}) + (\\sqrt{3} - 1)i.$$"
+  },
+  {
+   "ref": "Q11(a)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.6",
+    "12.3.2.8"
+   ],
+   "question": "Let $z = \\sqrt{2}\\left(\\cos\\dfrac{\\pi}{4} + i\\sin\\dfrac{\\pi}{4}\\right)$ and $w = -2 + 2\\sqrt{3}\\,i$.\n\nIt can be shown that $\\text{Arg}\\left(\\dfrac{w}{\\overline{z}}\\right) = \\dfrac{11\\pi}{12}$ and $\\dfrac{w}{\\overline{z}} = -(1+\\sqrt{3}) + (\\sqrt{3}-1)i$.\n\nUsing these results, deduce that $\\tan\\left(\\dfrac{\\pi}{12}\\right) = \\dfrac{\\sqrt{3}-1}{\\sqrt{3}+1}$.",
+   "answer": "From the two forms of $\\dfrac{w}{\\overline{z}}$:\n$$\\tan\\frac{11\\pi}{12} = \\frac{\\text{Im}}{\\text{Re}} = \\frac{\\sqrt{3}-1}{-(\\sqrt{3}+1)}.$$\nSince $\\tan\\dfrac{\\pi}{12} = \\tan\\left(\\pi - \\dfrac{11\\pi}{12}\\right) = -\\tan\\dfrac{11\\pi}{12}$,\n$$\\tan\\frac{\\pi}{12} = \\frac{\\sqrt{3}-1}{\\sqrt{3}+1}.$$"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Find $\\displaystyle\\int \\sin^{-1}x\\,dx$.",
+   "answer": "By parts with $u = \\sin^{-1}x$, $dv = dx$ (so $du = \\dfrac{dx}{\\sqrt{1-x^2}}$, $v = x$):\n$$\\int \\sin^{-1}x\\,dx = x\\sin^{-1}x - \\int \\frac{x}{\\sqrt{1-x^2}}\\,dx = x\\sin^{-1}x + \\frac{1}{2}\\int (-2x)(1-x^2)^{-\\frac{1}{2}}\\,dx$$\n$$= x\\sin^{-1}x + \\frac{1}{2}\\cdot\\frac{(1-x^2)^{\\frac{1}{2}}}{\\frac{1}{2}} + C = x\\sin^{-1}x + \\sqrt{1-x^2} + C.$$"
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.4",
+    "12.3.3.3"
+   ],
+   "question": "Consider the equation $z^3 + az^2 + bz + 65 = 0$ where $a, b \\in \\mathbb{R}$.\n\nGiven that $z = 2 - 3i$ is a solution to this equation, find the value of $ab$.",
+   "answer": "The coefficients are real, so $2 + 3i$ is also a root. Let the third root be $\\alpha$.\n\nProduct of roots: $(2+3i)(2-3i)\\alpha = -65 \\Rightarrow 13\\alpha = -65 \\Rightarrow \\alpha = -5$.\n\nSum of roots: $(2+3i) + (2-3i) + (-5) = -a \\Rightarrow -1 = -a \\Rightarrow a = 1$.\n\nSum of roots in pairs: $(2+3i)(-5) + (2-3i)(-5) + (2+3i)(2-3i) = b \\Rightarrow -20 + 13 = b \\Rightarrow b = -7$.\n\nSo $ab = (1)(-7) = -7$."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.5"
+   ],
+   "question": "Find $\\displaystyle\\int_0^{\\frac{\\pi}{2}} \\frac{1}{2 + \\cos\\theta}\\,d\\theta$.",
+   "answer": "Let $t = \\tan\\dfrac{\\theta}{2}$, so $\\theta = 2\\tan^{-1}t$, $d\\theta = \\dfrac{2\\,dt}{1+t^2}$ and $\\cos\\theta = \\dfrac{1-t^2}{1+t^2}$. When $\\theta = 0$, $t = 0$; when $\\theta = \\frac{\\pi}{2}$, $t = 1$.\n$$\\int_0^{\\frac{\\pi}{2}} \\frac{d\\theta}{2+\\cos\\theta} = \\int_0^1 \\frac{1}{2 + \\frac{1-t^2}{1+t^2}}\\cdot\\frac{2\\,dt}{1+t^2} = \\int_0^1 \\frac{2\\,dt}{2(1+t^2) + 1 - t^2} = 2\\int_0^1 \\frac{dt}{3+t^2}$$\n$$= \\frac{2}{\\sqrt{3}}\\left[\\tan^{-1}\\frac{t}{\\sqrt{3}}\\right]_0^1 = \\frac{2}{\\sqrt{3}}\\left(\\frac{\\pi}{6} - 0\\right) = \\frac{\\pi}{3\\sqrt{3}}.$$"
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.5.5",
+    "12.3.5.3",
+    "12.3.5.4"
+   ],
+   "question": "Sketch the region in the Argand plane described by the intersection of $|z - 2i| \\le 2$ and $\\dfrac{\\pi}{4} \\le \\text{Arg}(z) \\le \\dfrac{3\\pi}{4}$.",
+   "answer": "$|z - 2i| \\le 2$ is the closed disc with centre $2i$ (point $(0, 2)$) and radius $2$; it passes through the origin and $4i$.\n\n$\\frac{\\pi}{4} \\le \\text{Arg}(z) \\le \\frac{3\\pi}{4}$ is the region between the rays $y = x$ ($x > 0$) and $y = -x$ ($x < 0$) from the origin, with the origin itself excluded (Arg $0$ is undefined).\n\nThe ray $y = x$ meets the circle $x^2 + (y-2)^2 = 4$ at $(2, 2)$ and the ray $y = -x$ meets it at $(-2, 2)$. The region is bounded by the segments from $O$ to $(2,2)$ and from $O$ to $(-2,2)$, and the upper arc of the circle from $(2,2)$ through $4i$ to $(-2,2)$. Boundaries are included, except the origin (open circle).",
+   "answer_images": [
+    "assets/img/ext2-2026-north-sydney-girls/q11e-ans.png"
+   ]
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.8",
+    "12.4.1.7"
+   ],
+   "question": "Use the method of partial fractions to find $\\displaystyle\\int \\frac{x+1}{6 + x - 2x^2}\\,dx$.",
+   "answer": "$6 + x - 2x^2 = (2 - x)(3 + 2x)$. Let\n$$\\frac{x+1}{(2-x)(3+2x)} = \\frac{A}{2-x} + \\frac{B}{3+2x} \\Rightarrow x + 1 = A(3+2x) + B(2-x).$$\n$x = 2$: $3 = 7A \\Rightarrow A = \\frac{3}{7}$. $\\quad x = -\\frac{3}{2}$: $-\\frac{1}{2} = \\frac{7}{2}B \\Rightarrow B = -\\frac{1}{7}$.\n\n$$\\int \\frac{x+1}{6+x-2x^2}\\,dx = \\frac{3}{7}\\int\\frac{dx}{2-x} - \\frac{1}{7}\\int\\frac{dx}{3+2x} = -\\frac{3}{7}\\ln|2-x| - \\frac{1}{14}\\ln|3+2x| + C.$$"
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.7",
+    "12.3.2.6"
+   ],
+   "question": "Use de Moivre's theorem to solve $z^3 = -3\\sqrt{2} + 3\\sqrt{2}\\,i$, giving your answers in modulus–argument form. Show all working.",
+   "answer": "$-3\\sqrt{2} + 3\\sqrt{2}i = 3\\sqrt{2}(-1 + i) = 6\\,\\text{cis}\\,\\dfrac{3\\pi}{4}$.\n\nLet $z = r\\,\\text{cis}\\,\\theta$. By de Moivre's theorem, $r^3\\,\\text{cis}\\,3\\theta = 6\\,\\text{cis}\\left(\\dfrac{3\\pi}{4} + 2k\\pi\\right)$, $k \\in \\mathbb{Z}$.\n\nSo $r^3 = 6 \\Rightarrow r = \\sqrt[3]{6}$, and $3\\theta = \\dfrac{3\\pi}{4} + 2k\\pi \\Rightarrow \\theta = \\dfrac{\\pi}{4} + \\dfrac{2k\\pi}{3} = \\dfrac{(8k+3)\\pi}{12}$.\n\nTaking $k = 0, 1, -1$:\n$$z = \\sqrt[3]{6}\\left(\\cos\\frac{\\pi}{4} + i\\sin\\frac{\\pi}{4}\\right),\\quad \\sqrt[3]{6}\\left(\\cos\\frac{11\\pi}{12} + i\\sin\\frac{11\\pi}{12}\\right),\\quad \\sqrt[3]{6}\\left(\\cos\\left(-\\frac{5\\pi}{12}\\right) + i\\sin\\left(-\\frac{5\\pi}{12}\\right)\\right).$$"
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.7"
+   ],
+   "question": "The lines $l_1$ and $l_2$ are given by the vector equations\n$$\\mathbf{r}_1 = \\begin{pmatrix} 4 \\\\ 3 \\\\ 0 \\end{pmatrix} + \\lambda\\begin{pmatrix} 1 \\\\ 5 \\\\ -2 \\end{pmatrix} \\quad\\text{and}\\quad \\mathbf{r}_2 = \\begin{pmatrix} 2 \\\\ -1 \\\\ 3 \\end{pmatrix} + \\mu\\begin{pmatrix} 1 \\\\ -2 \\\\ -3 \\end{pmatrix}$$\nrespectively, where $\\lambda, \\mu \\in \\mathbb{R}$.\n\nShow that $l_1$ passes through the point $(3, -2, 2)$.",
+   "answer": "$\\mathbf{r}_1 = \\begin{pmatrix} 4+\\lambda \\\\ 3+5\\lambda \\\\ -2\\lambda \\end{pmatrix}$. Testing $(3, -2, 2)$:\n\n$x$: $3 = 4 + \\lambda \\Rightarrow \\lambda = -1$; $\\quad y$: $-2 = 3 + 5\\lambda \\Rightarrow \\lambda = -1$; $\\quad z$: $2 = -2\\lambda \\Rightarrow \\lambda = -1$.\n\nThe value $\\lambda = -1$ is consistent for all three coordinates, so $(3, -2, 2)$ lies on $l_1$."
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.10",
+    "12.2.1.11"
+   ],
+   "question": "The lines $l_1$ and $l_2$ are given by the vector equations\n$$\\mathbf{r}_1 = \\begin{pmatrix} 4 \\\\ 3 \\\\ 0 \\end{pmatrix} + \\lambda\\begin{pmatrix} 1 \\\\ 5 \\\\ -2 \\end{pmatrix} \\quad\\text{and}\\quad \\mathbf{r}_2 = \\begin{pmatrix} 2 \\\\ -1 \\\\ 3 \\end{pmatrix} + \\mu\\begin{pmatrix} 1 \\\\ -2 \\\\ -3 \\end{pmatrix}$$\nrespectively, where $\\lambda, \\mu \\in \\mathbb{R}$.\n\nDetermine whether the two lines intersect.",
+   "answer": "At an intersection,\n$$4 + \\lambda = 2 + \\mu \\quad (1),\\qquad 3 + 5\\lambda = -1 - 2\\mu \\quad (2),\\qquad -2\\lambda = 3 - 3\\mu \\quad (3).$$\nFrom (1), $\\mu = \\lambda + 2$. Substituting into (3): $-2\\lambda = 3 - 3(\\lambda + 2) = -3\\lambda - 3 \\Rightarrow \\lambda = -3$, so $\\mu = -1$.\n\nTest in (2): LHS $= 3 + 5(-3) = -12$, RHS $= -1 - 2(-1) = 1$. LHS $\\ne$ RHS, so the equations are inconsistent.\n\nTherefore $l_1$ and $l_2$ do not intersect (and since their direction vectors are not parallel, they are skew)."
+  },
+  {
+   "ref": "Q12(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.3.2"
+   ],
+   "question": "Show that $a^2 + b^2 \\ge 2ab$ where $a, b \\in \\mathbb{R}$.",
+   "answer": "Since squares of real numbers are non-negative, $(a - b)^2 \\ge 0$, i.e. $a^2 - 2ab + b^2 \\ge 0$, so $a^2 + b^2 \\ge 2ab$."
+  },
+  {
+   "ref": "Q12(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.1.3.2"
+   ],
+   "question": "Using the result $x^2 + y^2 \\ge 2xy$ for all real $x, y$, show that for $a, b, c \\in \\mathbb{R}^+$,\n$$(a^2 + c)(b^2 + c) \\ge 4abc.$$",
+   "answer": "Since $c > 0$, write $c = (\\sqrt{c})^2$. By the given result,\n$$a^2 + c = a^2 + (\\sqrt{c})^2 \\ge 2a\\sqrt{c}, \\qquad b^2 + c \\ge 2b\\sqrt{c}.$$\nBoth sides of each inequality are positive, so multiplying them:\n$$(a^2 + c)(b^2 + c) \\ge (2a\\sqrt{c})(2b\\sqrt{c}) = 4abc.$$\n\n*Alternative:* $(a^2+c)(b^2+c) = (a^2b^2 + c^2) + c(a^2 + b^2) \\ge 2abc + c(2ab) = 4abc$, using the result twice."
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.8",
+    "12.2.2.10"
+   ],
+   "question": "A fly moves on a path given by a three-dimensional curve. Its position vector from a fixed origin is given by\n$$\\mathbf{r}(t) = \\begin{pmatrix} \\sin t \\\\ \\cos t \\\\ \\cos 2t \\end{pmatrix}, \\quad 0 \\le t \\le 2\\pi.$$\nDistances are measured in metres and time in seconds.\n\nFind a unit vector in the direction of the fly's initial position.",
+   "answer": "$\\mathbf{r}(0) = \\begin{pmatrix} 0 \\\\ 1 \\\\ 1 \\end{pmatrix}$, with magnitude $\\sqrt{0 + 1 + 1} = \\sqrt{2}$.\n\nA unit vector in this direction is $\\dfrac{1}{\\sqrt{2}}\\begin{pmatrix} 0 \\\\ 1 \\\\ 1 \\end{pmatrix}$.",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.12"
+   ],
+   "question": "A fly moves on a path given by a three-dimensional curve. Its position vector from a fixed origin is given by\n$$\\mathbf{r}(t) = \\begin{pmatrix} \\sin t \\\\ \\cos t \\\\ \\cos 2t \\end{pmatrix}, \\quad 0 \\le t \\le 2\\pi.$$\nDistances are measured in metres and time in seconds.\n\nWhat is the fly's maximum speed?",
+   "answer": "$\\dot{\\mathbf{r}}(t) = \\begin{pmatrix} \\cos t \\\\ -\\sin t \\\\ -2\\sin 2t \\end{pmatrix}$.\n\nSpeed $= |\\dot{\\mathbf{r}}(t)| = \\sqrt{\\cos^2 t + \\sin^2 t + 4\\sin^2 2t} = \\sqrt{1 + 4\\sin^2 2t}$.\n\nSince $0 \\le \\sin^2 2t \\le 1$, the maximum speed is $\\sqrt{1 + 4} = \\sqrt{5}$ m/s (attained, e.g., at $t = \\frac{\\pi}{4}$)."
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.4"
+   ],
+   "question": "The displacement $x(t)$ of a particle moving in simple harmonic motion satisfies the equation $\\dfrac{d^2x}{dt^2} = -4x$. Initially the particle is one metre to the left of the origin, moving to the right at a speed of $\\sqrt{32}$ m/s.\n\nFind the period of the motion.",
+   "answer": "$\\ddot{x} = -4x = -n^2x$ with $n = 2$, so the period is $\\dfrac{2\\pi}{n} = \\dfrac{2\\pi}{2} = \\pi$ seconds."
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.9",
+    "12.5.2.3"
+   ],
+   "question": "The displacement $x(t)$ of a particle moving in simple harmonic motion satisfies the equation $\\dfrac{d^2x}{dt^2} = -4x$. Initially the particle is one metre to the left of the origin, moving to the right at a speed of $\\sqrt{32}$ m/s.\n\nFind the displacement function $x(t)$.",
+   "answer": "Let $x(t) = A\\sin(2t - \\alpha)$ with $A > 0$, so $\\dot{x}(t) = 2A\\cos(2t - \\alpha)$.\n\n$x(0) = -1$: $A\\sin(-\\alpha) = -1 \\Rightarrow A\\sin\\alpha = 1 \\quad (1)$\n\n$\\dot{x}(0) = \\sqrt{32}$: $2A\\cos\\alpha = \\sqrt{32} \\Rightarrow A\\cos\\alpha = 2\\sqrt{2} \\quad (2)$\n\n(1) $\\div$ (2): $\\tan\\alpha = \\dfrac{1}{2\\sqrt{2}}$, with $\\alpha$ acute. Squaring and adding: $A^2 = 1^2 + (2\\sqrt{2})^2 = 9$, so $A = 3$.\n\n$$x(t) = 3\\sin\\left(2t - \\tan^{-1}\\frac{1}{2\\sqrt{2}}\\right).$$"
+  },
+  {
+   "ref": "Q13(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.10",
+    "12.5.2.4"
+   ],
+   "question": "The displacement $x(t)$ of a particle moving in simple harmonic motion satisfies the equation $\\dfrac{d^2x}{dt^2} = -4x$. Initially the particle is one metre to the left of the origin, moving to the right at a speed of $\\sqrt{32}$ m/s.\n\nThe displacement is $x(t) = 3\\sin(2t - \\alpha)$ where $\\alpha = \\tan^{-1}\\dfrac{1}{2\\sqrt{2}}$.\n\nFind the first time the particle achieves its maximum velocity. Answer correct to two decimal places.",
+   "answer": "$\\dot{x} = 6\\cos(2t - \\alpha)$, which takes its maximum value $6$ when $2t - \\alpha = 0, 2\\pi, \\dots$, i.e. as the particle passes through the centre of motion (the origin) moving to the right.\n\nThe first such time is $2t = \\alpha$, i.e.\n$$t = \\frac{1}{2}\\tan^{-1}\\frac{1}{2\\sqrt{2}} \\approx 0.1699\\ldots \\approx 0.17 \\text{ seconds}.$$"
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.11",
+    "12.1.1.7"
+   ],
+   "question": "Consider the statement below.\n\n*For any integers $a$ and $b$, if $a + b \\ge 15$ then $a \\ge 8$ or $b \\ge 8$.*\n\nWrite down the contrapositive of the statement.",
+   "answer": "For any integers $a$ and $b$, if $a < 8$ **and** $b < 8$, then $a + b < 15$."
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.12",
+    "12.1.2.3"
+   ],
+   "question": "Consider the statement below.\n\n*For any integers $a$ and $b$, if $a + b \\ge 15$ then $a \\ge 8$ or $b \\ge 8$.*\n\nBy proving its contrapositive, prove the statement.",
+   "answer": "Contrapositive: if $a < 8$ and $b < 8$ then $a + b < 15$.\n\nLet $a < 8$ and $b < 8$. Since $a, b$ are integers, $a \\le 7$ and $b \\le 7$. Adding, $a + b \\le 14 < 15$.\n\nSo the contrapositive is true, and since a statement is equivalent to its contrapositive, for any integers $a, b$: if $a + b \\ge 15$ then $a \\ge 8$ or $b \\ge 8$."
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.12",
+    "12.3.2.9"
+   ],
+   "question": "Given $u$ and $v$ are complex numbers (with $v \\neq 0$) such that $u\\overline{v} + \\overline{u}v = 0$, prove that $\\dfrac{u}{v}$ is purely imaginary.",
+   "answer": "From $u\\overline{v} = -\\overline{u}v$, dividing both sides by $v\\overline{v} = |v|^2 \\neq 0$:\n$$\\frac{u}{v} = -\\frac{\\overline{u}}{\\overline{v}} = -\\overline{\\left(\\frac{u}{v}\\right)}.$$\nSo $\\dfrac{u}{v} + \\overline{\\left(\\dfrac{u}{v}\\right)} = 0$, i.e. $2\\,\\text{Re}\\left(\\dfrac{u}{v}\\right) = 0$ (since $z + \\overline{z} = 2\\,\\text{Re}(z)$).\n\nHence $\\text{Re}\\left(\\dfrac{u}{v}\\right) = 0$ and $\\dfrac{u}{v}$ is purely imaginary.\n\n*Alternative:* $u\\overline{v} + \\overline{u\\overline{v}} = 2\\,\\text{Re}(u\\overline{v}) = 0$, so $u\\overline{v}$ is imaginary; then $\\dfrac{u}{v} = \\dfrac{u\\overline{v}}{|v|^2}$ is imaginary since $|v|^2$ is real and positive."
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.2"
+   ],
+   "question": "Prove by mathematical induction that for integers $n \\ge 0$,\n$$\\left(2^n\\, n!\\right)^2 \\le (2n+1)!$$",
+   "answer": "Let $S(n)$ be the statement $\\left(2^n n!\\right)^2 \\le (2n+1)!$.\n\n**Base case $n = 0$:** LHS $= (2^0 \\cdot 0!)^2 = 1$, RHS $= 1! = 1$. LHS $\\le$ RHS, so $S(0)$ is true.\n\n**Inductive step:** Assume $S(k)$ is true for some integer $k \\ge 0$: $\\left(2^k k!\\right)^2 \\le (2k+1)!$.\n\nRequired to prove $S(k+1)$: $\\left(2^{k+1}(k+1)!\\right)^2 \\le (2k+3)!$.\n$$\\text{LHS} = \\left(2\\cdot 2^k\\cdot(k+1)\\cdot k!\\right)^2 = 4(k+1)^2\\left(2^k k!\\right)^2$$\n$$\\le 4(k+1)^2(2k+1)! \\quad\\text{(by the assumption)}$$\n$$= (2k+2)(2k+2)(2k+1)! \\le (2k+3)(2k+2)(2k+1)! = (2k+3)! = \\text{RHS}.$$\nSo $S(k) \\Rightarrow S(k+1)$. Hence by mathematical induction $S(n)$ is true for all integers $n \\ge 0$."
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.17",
+    "12.2.1.18"
+   ],
+   "question": "Find the vector equation of the sphere with centre $(5, 4, -7)$ that passes through the point $P(3, 1, -1)$.",
+   "answer": "Radius $= \\left|\\begin{pmatrix} 3 \\\\ 1 \\\\ -1 \\end{pmatrix} - \\begin{pmatrix} 5 \\\\ 4 \\\\ -7 \\end{pmatrix}\\right| = \\left|\\begin{pmatrix} -2 \\\\ -3 \\\\ 6 \\end{pmatrix}\\right| = \\sqrt{4 + 9 + 36} = \\sqrt{49} = 7.$\n\nThe sphere is $\\left|\\mathbf{r} - \\begin{pmatrix} 5 \\\\ 4 \\\\ -7 \\end{pmatrix}\\right| = 7$."
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.18",
+    "12.2.2.1"
+   ],
+   "question": "A sphere has centre $(5, 4, -7)$ and passes through the point $P(3, 1, -1)$.\n\nFind the value(s) of $m$ for which the line\n$$\\mathbf{r} = 3\\mathbf{i} + \\mathbf{j} - \\mathbf{k} + \\lambda\\left(m^2\\mathbf{i} - 5m\\mathbf{j} - 3\\mathbf{k}\\right)$$\nis tangent to the sphere at $P$.",
+   "answer": "The line passes through $P(3, 1, -1)$ (at $\\lambda = 0$). It is tangent to the sphere at $P$ exactly when its direction is perpendicular to the radius at $P$, i.e. to $\\overrightarrow{CP} = \\begin{pmatrix} -2 \\\\ -3 \\\\ 6 \\end{pmatrix}$:\n$$\\begin{pmatrix} -2 \\\\ -3 \\\\ 6 \\end{pmatrix}\\cdot\\begin{pmatrix} m^2 \\\\ -5m \\\\ -3 \\end{pmatrix} = 0 \\Rightarrow -2m^2 + 15m - 18 = 0 \\Rightarrow 2m^2 - 15m + 18 = 0$$\n$$(2m - 3)(m - 6) = 0 \\Rightarrow m = \\frac{3}{2} \\text{ or } m = 6.$$"
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "By differentiating $\\dfrac{\\ln x}{x}$ or otherwise, prove that if $e < a < b$ then $a^b > b^a$.",
+   "answer": "Let $f(x) = \\dfrac{\\ln x}{x}$ for $x > 0$. Then\n$$f'(x) = \\frac{\\frac{1}{x}\\cdot x - \\ln x}{x^2} = \\frac{1 - \\ln x}{x^2}.$$\nFor $x > e$, $\\ln x > 1$, so $f'(x) < 0$: $f$ is decreasing for $x > e$.\n\nSo if $e < a < b$, then $f(a) > f(b)$:\n$$\\frac{\\ln a}{a} > \\frac{\\ln b}{b} \\Rightarrow b\\ln a > a\\ln b \\Rightarrow \\ln a^b > \\ln b^a.$$\nSince $\\ln x$ is an increasing function, $a^b > b^a$."
+  },
+  {
+   "ref": "Q14(d)(i)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Given that $I_n = \\displaystyle\\int_0^4 x^n\\sqrt{16 - x^2}\\,dx$ for $n \\ge 0$, show that\n$$(n+2)I_n = 16(n-1)I_{n-2} \\quad\\text{for } n \\ge 2.$$",
+   "answer": "Write $x^n\\sqrt{16-x^2} = x^{n-1}\\cdot x\\sqrt{16-x^2}$ and integrate by parts with\n$u = x^{n-1}$, $u' = (n-1)x^{n-2}$, $v' = x\\sqrt{16-x^2}$, $v = -\\frac{1}{3}(16-x^2)^{\\frac{3}{2}}$.\n$$I_n = \\left[-\\frac{1}{3}x^{n-1}(16-x^2)^{\\frac{3}{2}}\\right]_0^4 + \\frac{n-1}{3}\\int_0^4 x^{n-2}(16-x^2)^{\\frac{3}{2}}\\,dx$$\nThe bracket is $0 - 0 = 0$ (since $n \\ge 2$). Writing $(16-x^2)^{\\frac32} = (16 - x^2)\\sqrt{16-x^2}$:\n$$I_n = \\frac{n-1}{3}\\int_0^4 \\left(16x^{n-2}\\sqrt{16-x^2} - x^n\\sqrt{16-x^2}\\right)dx = \\frac{16(n-1)}{3}I_{n-2} - \\frac{n-1}{3}I_n.$$\nSo $I_n\\left(1 + \\dfrac{n-1}{3}\\right) = \\dfrac{16(n-1)}{3}I_{n-2}$, i.e. $\\dfrac{n+2}{3}I_n = \\dfrac{16(n-1)}{3}I_{n-2}$, giving\n$$(n+2)I_n = 16(n-1)I_{n-2}.$$"
+  },
+  {
+   "ref": "Q14(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14",
+    "12.4.1.15"
+   ],
+   "question": "Let $I_n = \\displaystyle\\int_0^4 x^n\\sqrt{16 - x^2}\\,dx$ for $n \\ge 0$. You may use the result $(n+2)I_n = 16(n-1)I_{n-2}$ for $n \\ge 2$.\n\nA part of the graph of $f(x) = x^2\\left(16 - x^2\\right)^{\\frac{1}{4}}$ is shown below. The region bounded by the curve and the $x$-axis in the first quadrant (from $x = 0$ to $x = 4$) is shaded.\n\nFind the exact volume of the solid of revolution formed when the shaded region is rotated about the $x$-axis.",
+   "answer": "$y^2 = x^4(16 - x^2)^{\\frac{1}{2}} = x^4\\sqrt{16-x^2}$, so\n$$V = \\pi\\int_0^4 y^2\\,dx = \\pi\\int_0^4 x^4\\sqrt{16-x^2}\\,dx = \\pi I_4.$$\nUsing the recurrence: $n = 4$: $6I_4 = 16(3)I_2 \\Rightarrow I_4 = 8I_2$; $\\ n = 2$: $4I_2 = 16(1)I_0 \\Rightarrow I_2 = 4I_0$. So $I_4 = 32I_0$.\n\n$I_0 = \\displaystyle\\int_0^4\\sqrt{16-x^2}\\,dx$ is the area of a quarter circle of radius $4$: $I_0 = \\dfrac{\\pi\\cdot 4^2}{4} = 4\\pi$.\n\n$$V = \\pi\\cdot 32\\cdot 4\\pi = 128\\pi^2 \\text{ units}^3.$$",
+   "images": [
+    "assets/img/ext2-2026-north-sydney-girls/q14d.png"
+   ]
+  },
+  {
+   "ref": "Q15(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.5",
+    "12.5.1.4",
+    "12.5.3.2"
+   ],
+   "question": "Aaron applies a force of $F$ newtons in the horizontal direction to pull an object of mass $4$ kg, initially at rest on a ramp, using a light inextensible rope that passes over a smooth pulley at the top of the ramp, as shown (the rope runs parallel to the ramp from the object to the pulley).\n\nThe ramp is inclined at an angle of $\\theta$ to the horizontal where $\\tan\\theta = \\dfrac{3}{4}$. The coefficient of friction between the object and the ramp is $0.5$ and the acceleration due to gravity is $10\\ \\text{m/s}^2$.\n\nFind the magnitude of the force that Aaron needs to apply so that the object moves up the ramp with an acceleration of $0.2\\ \\text{m/s}^2$.",
+   "answer": "Since $\\tan\\theta = \\frac{3}{4}$: $\\sin\\theta = \\frac{3}{5}$, $\\cos\\theta = \\frac{4}{5}$. The tension in the rope is $F$, acting up the ramp.\n\nPerpendicular to the ramp: $N - 4g\\cos\\theta = 0 \\Rightarrow N = 4(10)\\left(\\tfrac{4}{5}\\right) = 32$ N.\n\nFriction (opposing the motion, down the ramp): $F_R = \\mu N = 0.5 \\times 32 = 16$ N.\n\nParallel to the ramp: $F - 4g\\sin\\theta - F_R = 4a$\n$$F = 4(0.2) + 4(10)\\left(\\tfrac{3}{5}\\right) + 16 = 0.8 + 24 + 16 = 40.8 \\text{ N}.$$",
+   "images": [
+    "assets/img/ext2-2026-north-sydney-girls/q15a.png"
+   ]
+  },
+  {
+   "ref": "Q15(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "Aaron applies a force of $F$ newtons in the horizontal direction to pull an object of mass $4$ kg, initially at rest on a ramp, using a light inextensible rope that passes over a smooth pulley at the top of the ramp, as shown (the rope runs parallel to the ramp from the object to the pulley).\n\nThe ramp is inclined at an angle of $\\theta$ to the horizontal where $\\tan\\theta = \\dfrac{3}{4}$. The coefficient of friction between the object and the ramp is $0.5$ and the acceleration due to gravity is $10\\ \\text{m/s}^2$.\n\nAaron applies the force so that the object moves up the ramp from rest with constant acceleration $0.2\\ \\text{m/s}^2$. Assume the ramp is long enough for the object to move without encountering the pulley.\n\nHow far does the object move in the first $10$ seconds?",
+   "answer": "$\\ddot{x} = \\dfrac{dv}{dt} = 0.2 \\Rightarrow v = 0.2t + C$; at $t = 0$, $v = 0$, so $v = 0.2t$.\n\n$\\dfrac{dx}{dt} = 0.2t \\Rightarrow x = 0.1t^2 + C_1$; at $t = 0$, $x = 0$, so $x = 0.1t^2$.\n\nAt $t = 10$: $x = 0.1 \\times 100 = 10$. The object moves $10$ m.",
+   "images": [
+    "assets/img/ext2-2026-north-sydney-girls/q15a.png"
+   ]
+  },
+  {
+   "ref": "Q15(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.4",
+    "12.5.3.1"
+   ],
+   "question": "Aaron applies a force of $F$ newtons in the horizontal direction to pull an object of mass $4$ kg, initially at rest on a ramp, using a light inextensible rope that passes over a smooth pulley at the top of the ramp, as shown (the rope runs parallel to the ramp from the object to the pulley).\n\nThe ramp is inclined at an angle of $\\theta$ to the horizontal where $\\tan\\theta = \\dfrac{3}{4}$. The coefficient of friction between the object and the ramp is $0.5$ and the acceleration due to gravity is $10\\ \\text{m/s}^2$.\n\nAaron applies the force so that the object moves up the ramp from rest with constant acceleration $0.2\\ \\text{m/s}^2$. Assume the ramp is long enough for the object to move without encountering the pulley.\n\nAfter $10$ seconds, Aaron loses his grip and lets go of the rope. For how much longer does the object continue to move up the ramp before momentarily coming to rest?",
+   "answer": "At $t = 10$, $v = 0.2 \\times 10 = 2$ m/s up the ramp.\n\nAfter release, the only forces along the ramp are the weight component and friction (normal reaction still $32$ N, friction still $16$ N), both acting down the ramp while the object moves up:\n$$4a = -4g\\sin\\theta - F_R = -24 - 16 = -40 \\Rightarrow a = -10\\ \\text{m/s}^2.$$\nMeasuring time $t$ from the release: $v = 2 - 10t$, so $v = 0$ when $t = \\frac{1}{5}$.\n\nThe object moves up the ramp for another $0.2$ seconds.",
+   "images": [
+    "assets/img/ext2-2026-north-sydney-girls/q15a.png"
+   ]
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.5.1.1"
+   ],
+   "question": "A particle moves in a straight line with displacement $x$ and velocity $v$. Its acceleration is given by $\\ddot{x} = x - 4$. Initially the particle is at rest at $x = 1$.\n\nFind an expression for the velocity $v$ in terms of $x$.",
+   "answer": "$v\\dfrac{dv}{dx} = x - 4 \\Rightarrow \\displaystyle\\int_0^v v\\,dv = \\int_1^x (x - 4)\\,dx$\n$$\\frac{v^2}{2} = \\left[\\frac{x^2}{2} - 4x\\right]_1^x = \\frac{x^2}{2} - 4x - \\left(\\frac{1}{2} - 4\\right) = \\frac{x^2}{2} - 4x + \\frac{7}{2}$$\n$$v^2 = x^2 - 8x + 7 = (x-1)(x-7), \\qquad v = \\pm\\sqrt{x^2 - 8x + 7}.$$\nInitially $v = 0$ and $\\ddot{x} = 1 - 4 = -3 < 0$, so the particle starts moving in the negative direction. It can only stop where $v^2 = 0$, i.e. at $x = 1$ or $x = 7$; moving left from $x = 1$ it never reaches either again (for $x < 1$, $\\ddot{x} < 0$ and $v^2 > 0$), so it never turns around. Hence\n$$v = -\\sqrt{x^2 - 8x + 7}.$$"
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.1.4"
+   ],
+   "question": "In triangle $OAB$, the point $D$ divides $OB$ in the ratio $1 : r$ and $E$ divides $OA$ in the ratio $s : 1$. The lines $AD$ and $BE$ intersect at $G$. Let $\\overrightarrow{OA} = \\mathbf{a}$ and $\\overrightarrow{OB} = \\mathbf{b}$.\n\nShow that $\\overrightarrow{OG} = \\dfrac{rs}{1 + r + rs}\\,\\mathbf{a} + \\dfrac{1}{1 + r + rs}\\,\\mathbf{b}$.",
+   "answer": "From the ratios, $\\overrightarrow{OD} = \\dfrac{1}{1+r}\\mathbf{b}$ and $\\overrightarrow{OE} = \\dfrac{s}{1+s}\\mathbf{a}$.\n\n$G$ lies on $AD$: for some scalar $\\lambda$,\n$$\\overrightarrow{OG} = \\mathbf{a} + \\lambda\\left(\\overrightarrow{OD} - \\overrightarrow{OA}\\right) = (1 - \\lambda)\\mathbf{a} + \\frac{\\lambda}{1+r}\\mathbf{b}.$$\n$G$ lies on $BE$: for some scalar $\\mu$,\n$$\\overrightarrow{OG} = \\mathbf{b} + \\mu\\left(\\overrightarrow{OE} - \\overrightarrow{OB}\\right) = \\frac{\\mu s}{1+s}\\mathbf{a} + (1 - \\mu)\\mathbf{b}.$$\nSince $\\mathbf{a}$ and $\\mathbf{b}$ are not parallel, equate coefficients:\n$$1 - \\lambda = \\frac{\\mu s}{1+s} \\quad (1), \\qquad \\frac{\\lambda}{1+r} = 1 - \\mu \\quad (2).$$\nFrom (2), $\\mu = 1 - \\dfrac{\\lambda}{1+r}$. Substituting into (1):\n$$1 - \\lambda = \\left(1 - \\frac{\\lambda}{1+r}\\right)\\frac{s}{1+s} \\Rightarrow \\lambda\\left(1 - \\frac{s}{(1+r)(1+s)}\\right) = 1 - \\frac{s}{1+s} = \\frac{1}{1+s}$$\n$$\\lambda\\cdot\\frac{(1+r)(1+s) - s}{(1+r)(1+s)} = \\frac{1}{1+s} \\Rightarrow \\lambda\\cdot\\frac{1 + r + rs}{1+r} = 1 \\Rightarrow \\lambda = \\frac{1+r}{1+r+rs}.$$\nTherefore\n$$\\overrightarrow{OG} = \\left(1 - \\frac{1+r}{1+r+rs}\\right)\\mathbf{a} + \\frac{1}{1+r+rs}\\mathbf{b} = \\frac{rs}{1+r+rs}\\mathbf{a} + \\frac{1}{1+r+rs}\\mathbf{b}.$$",
+   "images": [
+    "assets/img/ext2-2026-north-sydney-girls/q15c.png"
+   ]
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.1.4"
+   ],
+   "question": "In triangle $OAB$, the point $D$ divides $OB$ in the ratio $1 : r$ and $E$ divides $OA$ in the ratio $s : 1$. The lines $AD$ and $BE$ intersect at $G$. Let $\\overrightarrow{OA} = \\mathbf{a}$ and $\\overrightarrow{OB} = \\mathbf{b}$.\n\nIt can be shown that $\\overrightarrow{OG} = \\dfrac{rs}{1 + r + rs}\\,\\mathbf{a} + \\dfrac{1}{1 + r + rs}\\,\\mathbf{b}$.\n\nThe line through $O$ and $G$ meets $AB$ at $F$. Given that $F$ divides $AB$ in the ratio $t : 1$, find an expression for $t$ in terms of $r$ and $s$.",
+   "answer": "Since $F$ divides $AB$ in the ratio $t : 1$,\n$$\\overrightarrow{OF} = \\mathbf{a} + \\frac{t}{t+1}(\\mathbf{b} - \\mathbf{a}) = \\frac{1}{t+1}\\mathbf{a} + \\frac{t}{t+1}\\mathbf{b}.$$\nAlso $F$ lies on line $OG$, so $\\overrightarrow{OF} = k\\,\\overrightarrow{OG} = \\dfrac{krs}{1+r+rs}\\mathbf{a} + \\dfrac{k}{1+r+rs}\\mathbf{b}$ for some scalar $k$.\n\nEquating coefficients of the non-parallel vectors $\\mathbf{a}$, $\\mathbf{b}$:\n$$\\frac{krs}{1+r+rs} = \\frac{1}{t+1} \\quad (3), \\qquad \\frac{k}{1+r+rs} = \\frac{t}{t+1} \\quad (4).$$\nDividing (4) by (3): $t = \\dfrac{k}{krs} = \\dfrac{1}{rs}$.",
+   "images": [
+    "assets/img/ext2-2026-north-sydney-girls/q15c.png"
+   ]
+  },
+  {
+   "ref": "Q16(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.15"
+   ],
+   "question": "Suppose $f(x)$ and $g(x)$ are continuous functions over $[0, a]$ such that $f(a - x) = f(x)$ and $g(x) + g(a - x) = k$, where $k$ is a constant.\n\nUse a suitable substitution to show that $\\displaystyle\\int_0^a f(x)g(x)\\,dx = \\frac{k}{2}\\int_0^a f(x)\\,dx$.",
+   "answer": "Let $u = a - x$, so $du = -dx$; when $x = 0$, $u = a$ and when $x = a$, $u = 0$.\n$$\\int_0^a f(x)g(x)\\,dx = \\int_a^0 f(a-u)g(a-u)(-du) = \\int_0^a f(a-u)g(a-u)\\,du = \\int_0^a f(a-x)g(a-x)\\,dx$$\n(renaming the dummy variable). Using $f(a-x) = f(x)$ and $g(a-x) = k - g(x)$:\n$$\\int_0^a f(x)g(x)\\,dx = \\int_0^a f(x)\\big(k - g(x)\\big)\\,dx = k\\int_0^a f(x)\\,dx - \\int_0^a f(x)g(x)\\,dx.$$\nSo $2\\displaystyle\\int_0^a f(x)g(x)\\,dx = k\\int_0^a f(x)\\,dx$, i.e. $\\displaystyle\\int_0^a f(x)g(x)\\,dx = \\frac{k}{2}\\int_0^a f(x)\\,dx$."
+  },
+  {
+   "ref": "Q16(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.15",
+    "12.4.1.6"
+   ],
+   "question": "Suppose $f(x)$ and $g(x)$ are continuous functions over $[0, a]$ such that $f(a - x) = f(x)$ and $g(x) + g(a - x) = k$, where $k$ is a constant. It can be shown that\n$$\\int_0^a f(x)g(x)\\,dx = \\frac{k}{2}\\int_0^a f(x)\\,dx.$$\nUse this result to find $\\displaystyle\\int_0^2 |x - 1|\\arccos(x - 1)\\,dx$.",
+   "answer": "Take $a = 2$, $f(x) = |x - 1|$ and $g(x) = \\cos^{-1}(x - 1)$ (both continuous on $[0, 2]$).\n\n$f(2 - x) = |2 - x - 1| = |1 - x| = |x - 1| = f(x)$ ✓.\n\n$g(x) + g(2 - x) = \\cos^{-1}(x - 1) + \\cos^{-1}(1 - x) = \\cos^{-1}(x-1) + \\pi - \\cos^{-1}(x - 1) = \\pi$, using $\\cos^{-1}(-y) = \\pi - \\cos^{-1}y$. So $k = \\pi$.\n\nBy the result,\n$$\\int_0^2 |x-1|\\cos^{-1}(x-1)\\,dx = \\frac{\\pi}{2}\\int_0^2 |x - 1|\\,dx = \\frac{\\pi}{2}\\times\\left(2\\times\\frac{1}{2}\\times 1\\times 1\\right) = \\frac{\\pi}{2},$$\nsince $\\int_0^2|x-1|\\,dx$ is the area of two triangles each with base $1$ and height $1$."
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.3",
+    "12.3.4.2"
+   ],
+   "question": "Let $\\omega = \\cos\\theta + i\\sin\\theta$, where $\\theta \\in [0, 2\\pi]$.\n\nShow that $\\omega^k + \\omega^{-k} = 2\\cos k\\theta$, for any integer $k$.",
+   "answer": "By de Moivre's theorem (valid for all integers $k$):\n$$\\omega^k + \\omega^{-k} = \\cos k\\theta + i\\sin k\\theta + \\cos(-k\\theta) + i\\sin(-k\\theta) = \\cos k\\theta + i\\sin k\\theta + \\cos k\\theta - i\\sin k\\theta = 2\\cos k\\theta.$$"
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.4",
+    "12.3.1.12"
+   ],
+   "question": "Let $\\omega = \\cos\\theta + i\\sin\\theta$, where $\\theta \\in [0, 2\\pi]$. Let\n$$S = \\omega^{-2n} - \\omega^{-2n+1} + \\omega^{-2n+2} - \\cdots - \\omega^{-1} + 1 - \\omega + \\omega^2 - \\cdots - \\omega^{2n-1} + \\omega^{2n}.$$\n\nBy summing the series, show that\n$$S = \\frac{\\omega^{-2n} + \\omega^{2n} + \\omega^{-(2n+1)} + \\omega^{2n+1}}{(1 + \\omega)(1 + \\overline{\\omega})}.$$",
+   "answer": "$S$ is a geometric series with first term $\\omega^{-2n}$, common ratio $-\\omega$ and $4n + 1$ terms (assuming $\\omega \\neq -1$):\n$$S = \\frac{\\omega^{-2n}\\left(1 - (-\\omega)^{4n+1}\\right)}{1 - (-\\omega)} = \\frac{\\omega^{-2n}\\left(1 + \\omega^{4n+1}\\right)}{1 + \\omega} = \\frac{\\omega^{-2n} + \\omega^{2n+1}}{1+\\omega},$$\nsince $(-\\omega)^{4n+1} = -\\omega^{4n+1}$. Multiply top and bottom by $1 + \\overline{\\omega}$, and use $\\overline{\\omega} = \\dfrac{1}{\\omega} = \\omega^{-1}$ (as $|\\omega| = 1$):\n$$S = \\frac{(\\omega^{-2n} + \\omega^{2n+1})(1 + \\omega^{-1})}{(1+\\omega)(1+\\overline{\\omega})} = \\frac{\\omega^{-2n} + \\omega^{-2n-1} + \\omega^{2n+1} + \\omega^{2n}}{(1+\\omega)(1+\\overline{\\omega})} = \\frac{\\omega^{-2n} + \\omega^{2n} + \\omega^{-(2n+1)} + \\omega^{2n+1}}{(1+\\omega)(1+\\overline{\\omega})}.$$"
+  },
+  {
+   "ref": "Q16(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Let $\\omega = \\cos\\theta + i\\sin\\theta$, where $\\theta \\in [0, 2\\pi]$. Let\n$$S = \\omega^{-2n} - \\omega^{-2n+1} + \\omega^{-2n+2} - \\cdots - \\omega^{-1} + 1 - \\omega + \\omega^2 - \\cdots - \\omega^{2n-1} + \\omega^{2n}.$$\n\nYou may use the results $\\omega^k + \\omega^{-k} = 2\\cos k\\theta$ for any integer $k$, and\n$$S = \\frac{\\omega^{-2n} + \\omega^{2n} + \\omega^{-(2n+1)} + \\omega^{2n+1}}{(1 + \\omega)(1 + \\overline{\\omega})}.$$\n\nDeduce that\n$$1 - 2\\left(\\cos\\theta - \\cos 2\\theta + \\cos 3\\theta - \\cdots - \\cos 2n\\theta\\right) = \\frac{\\cos 2n\\theta + \\cos(2n+1)\\theta}{1 + \\cos\\theta}.$$",
+   "answer": "Denominator: $(1+\\omega)(1+\\overline{\\omega}) = 1 + \\omega + \\overline{\\omega} + \\omega\\overline{\\omega} = 1 + 2\\cos\\theta + 1 = 2(1 + \\cos\\theta)$, since $\\omega\\overline{\\omega} = |\\omega|^2 = 1$.\n\nNumerator: $(\\omega^{2n} + \\omega^{-2n}) + (\\omega^{2n+1} + \\omega^{-(2n+1)}) = 2\\cos 2n\\theta + 2\\cos(2n+1)\\theta$.\n\nSo $S = \\dfrac{\\cos 2n\\theta + \\cos(2n+1)\\theta}{1 + \\cos\\theta}$.\n\nAlso, grouping the terms of $S$ in pairs $\\omega^k + \\omega^{-k}$:\n$$S = 1 - (\\omega + \\omega^{-1}) + (\\omega^2 + \\omega^{-2}) - \\cdots - (\\omega^{2n-1} + \\omega^{-(2n-1)}) + (\\omega^{2n} + \\omega^{-2n})$$\n$$= 1 - 2\\cos\\theta + 2\\cos 2\\theta - \\cdots - 2\\cos(2n-1)\\theta + 2\\cos 2n\\theta = 1 - 2\\left(\\cos\\theta - \\cos 2\\theta + \\cdots + \\cos(2n-1)\\theta - \\cos 2n\\theta\\right).$$\nEquating the two expressions for $S$ gives the result."
+  },
+  {
+   "ref": "Q16(b)(iv)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "It can be shown that for $\\theta$ with $\\cos\\theta \\neq -1$ and positive integer $n$,\n$$1 - 2\\left(\\cos\\theta - \\cos 2\\theta + \\cos 3\\theta - \\cdots - \\cos 2n\\theta\\right) = \\frac{\\cos 2n\\theta + \\cos(2n+1)\\theta}{1 + \\cos\\theta}.$$\nUse this result to deduce the value of\n$$\\cos\\frac{\\pi}{13} - \\cos\\frac{2\\pi}{13} + \\cos\\frac{3\\pi}{13} - \\cdots + \\cos\\frac{25\\pi}{13}.$$",
+   "answer": "Let $\\theta = \\dfrac{\\pi}{13}$ and $n = 13$ (so $2n\\theta = 2\\pi$ and $(2n+1)\\theta = 2\\pi + \\frac{\\pi}{13}$):\n$$1 - 2\\left(\\cos\\frac{\\pi}{13} - \\cos\\frac{2\\pi}{13} + \\cdots + \\cos\\frac{25\\pi}{13} - \\cos 2\\pi\\right) = \\frac{\\cos 2\\pi + \\cos\\left(2\\pi + \\frac{\\pi}{13}\\right)}{1 + \\cos\\frac{\\pi}{13}} = \\frac{1 + \\cos\\frac{\\pi}{13}}{1 + \\cos\\frac{\\pi}{13}} = 1.$$\nLet $T = \\cos\\frac{\\pi}{13} - \\cos\\frac{2\\pi}{13} + \\cdots + \\cos\\frac{25\\pi}{13}$. Since $\\cos 2\\pi = 1$: $1 - 2(T - 1) = 1 \\Rightarrow T - 1 = 0$, so\n$$\\cos\\frac{\\pi}{13} - \\cos\\frac{2\\pi}{13} + \\cos\\frac{3\\pi}{13} - \\cdots + \\cos\\frac{25\\pi}{13} = 1.$$"
+  },
+  {
+   "ref": "Q16(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.2.3"
+   ],
+   "question": "Prove that there are no non-zero integers $a, b, c$ such that $a^2 + b^2 + c^2 = 4abc$.",
+   "answer": "Suppose, for contradiction, that non-zero integers $a, b, c$ satisfy $a^2 + b^2 + c^2 = 4abc$. The RHS is a multiple of $4$ (in particular even). Consider parities.\n\n- **All three odd:** $a^2, b^2, c^2$ are odd, so the LHS is odd, but the RHS is even. Contradiction.\n- **Exactly one odd** (say $a$): LHS $=$ odd $+$ even $+$ even is odd. Contradiction.\n- **Exactly two odd** (say $a = 2k+1$, $b = 2m+1$, $c = 2p$): LHS $= 4k^2 + 4k + 1 + 4m^2 + 4m + 1 + 4p^2 = 4(k^2 + k + m^2 + m + p^2) + 2$, which leaves remainder $2$ on division by $4$, but the RHS is a multiple of $4$. Contradiction.\n- **All even:** let $a = 2a_1$, $b = 2b_1$, $c = 2c_1$. Then $4(a_1^2 + b_1^2 + c_1^2) = 32a_1b_1c_1$, i.e. $a_1^2 + b_1^2 + c_1^2 = 8a_1b_1c_1$, with $a_1, b_1, c_1$ non-zero.\n\nIn the last case, the same parity argument applies to $a_1^2 + b_1^2 + c_1^2 = 8a_1b_1c_1$ (the RHS is still a multiple of $4$), so $a_1, b_1, c_1$ must all be even, giving $a_2^2 + b_2^2 + c_2^2 = 16a_2b_2c_2$, and so on. In general, for non-zero integers, $x^2 + y^2 + z^2 = 2^{m}xyz$ with $m \\ge 2$ forces $x, y, z$ all even, and halving gives $x_1^2 + y_1^2 + z_1^2 = 2^{m+1}x_1y_1z_1$, so this continues indefinitely: $a, b, c$ are divisible by $2^j$ for every $j$. The only integer divisible by arbitrarily large powers of $2$ is $0$, so $a = b = c = 0$, contradicting that they are non-zero.\n\n(Equivalently: choose a solution with $|a|$ smallest; halving gives a solution of the same type with smaller $|a|$ — infinite descent.)\n\nHence there are no non-zero integers $a, b, c$ with $a^2 + b^2 + c^2 = 4abc$."
+  }
+ ]
+}
