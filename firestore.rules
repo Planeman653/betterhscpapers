@@ -9,7 +9,11 @@ service cloud.firestore {
     }
     function owns(data) { return signedIn() && data.uid == request.auth.uid; }
     function course(d) { return d.course in ['advanced', 'extension1', 'extension2', 'physics', 'chemistry', 'biology']; }
-    function textOk(d) { return d.question is string && d.question.size() > 0 && d.question.size() < 20000; }
+    // typed question text, or a photo/screenshot of the question (or both)
+    function textOk(d) {
+      return d.question is string && d.question.size() < 20000
+        && (d.question.size() > 0 || (d.images is list && d.images.size() > 0));
+    }
 
     // ticks and flags a user has made — private
     match /progress/{uid} {
