@@ -10,7 +10,7 @@ data/papers/<course>/community-<course>.json (the site then shows them as "Live"
 
 The queue is publicly readable (see firestore.rules), so no credentials are needed.
 """
-import base64, datetime, json, os, re, sys, urllib.request
+import base64, datetime, json, os, re, sys, urllib.error, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 COURSES = ["advanced", "extension1", "extension2", "physics", "chemistry", "biology"]
@@ -100,7 +100,10 @@ def save_image(data_url, dest):
 def cmd_list():
     if not re.search(r"projectId", open(os.path.join(ROOT, "assets/firebase-config.js")).read()):
         return print("Logins are not configured yet — the queue is empty.")
-    items = pending()
+    try:
+        items = pending()
+    except urllib.error.HTTPError as e:
+        return print(f"Could not read the queue (HTTP {e.code}) — check the Firestore rules are published. Skipping the queue this run.")
     for x in sorted(items, key=lambda x: x.get("created") or 0):
         q = re.sub(r"\s+", " ", x.get("question", ""))[:90]
         print(f"{x['_id']}  {x['course']:<10} by {x.get('author', '?')}  images={len(x.get('images') or [])}  {q}")
