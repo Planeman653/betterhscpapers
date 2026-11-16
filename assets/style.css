@@ -428,9 +428,14 @@ textarea.over{outline:2px dashed var(--accent);outline-offset:2px}
 .ctx-dp .dpt{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .ctx-dp .dpt p,.dp-h .dpt p{display:inline;margin:0}
 .ctx-dp .dpid,.dp-h .dpid{font-weight:700;font-size:12.5px;color:var(--accent);white-space:nowrap;flex:none}
-/* dot-point headings between the questions */
-.dp-h{display:flex;gap:8px;align-items:baseline;margin:20px 0 6px;padding:6px 10px;font-size:14.5px;font-weight:500;line-height:1.45;border-left:3px solid var(--accent);background:var(--chip);border-radius:0 6px 6px 0}
-.sub-h + .dp-h{margin-top:10px}
+/* dot-point groups: the heading and all its questions in one box */
+.dp-group{margin:16px 0 22px;border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:8px;background:var(--paper)}
+.sub-h + .dp-group{margin-top:12px}
+.dp-h{display:flex;gap:10px;align-items:baseline;margin:0;padding:10px 16px;font-size:14.5px;font-weight:500;line-height:1.45;background:var(--chip);border-bottom:1px solid var(--line);border-radius:0 7px 0 0}
+.dp-h .dpt{flex:1;min-width:0}
+.dp-n{flex:none;font-size:12px;font-weight:500;color:var(--muted);white-space:nowrap}
+.dp-qs{padding:0 18px}
+.dp-qs > .q:last-child{border-bottom:none}
 article.q,.topic-h,.sub-h,.dp-h{scroll-margin-top:140px}
 @media (max-width:900px){
   .ctx-wrap{margin:0 -16px}
@@ -439,7 +444,10 @@ article.q,.topic-h,.sub-h,.dp-h{scroll-margin-top:140px}
   .ctx-sub{font-size:12.5px}
   .ctx-sub::before{margin-right:6px}
   .ctx-dp:not(:empty){padding:5px 16px 6px;font-size:12.5px}
-  .dp-h{font-size:13.5px}
+  .dp-h{font-size:13.5px;padding:8px 12px;flex-wrap:wrap;gap:4px 8px}
+  .dp-h .dp-n{flex-basis:100%;order:3}
+  .dp-qs{padding:0 12px}
+  .dp-group{border-left-width:3px}
   article.q,.topic-h,.sub-h,.dp-h{scroll-margin-top:90px}
 }
 /* "Show: All / Uncompleted / Completed" */
@@ -456,3 +464,4 @@ article.q,.topic-h,.sub-h,.dp-h{scroll-margin-top:140px}
 #saved-tools{flex-wrap:wrap;gap:10px;align-items:center}
 @media print{ #print-root .p-prev{font-size:10pt;color:#333;margin:0 0 4pt;padding-left:8pt;border-left:1pt solid #bbb} }
 .pdf-box .field-row{align-items:flex-end}
+@media (max-width:520px){.opts.short:has(.katex){grid-template-columns:1fr}}

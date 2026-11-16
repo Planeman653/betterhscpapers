@@ -326,33 +326,36 @@
       all.forEach((x, i) => { if (!seen.has(x.t)) seen.set(x.t, { i, n: 0 }); seen.get(x.t).n++; });
       for (const [t, v] of seen) contents += `<li><a href="#topic-${t}" data-topic="${t}" data-tpage="${Math.floor(v.i / perPage())}">${esc(S.topic[t].name)}</a> <span class="n">(${v.n})</span></li>`;
     }
-    let html = pagerHtml(all.length, pages), lastT = null, lastG = null, lastD = null;
-    const dpHeads = S.group === "subtopic" && S.sort === "syllabus";   // dot-point headings inside each subtopic
+    let html = pagerHtml(all.length, pages), lastT = null, lastG = null, lastK = null, open = false;
+    const dpHeads = S.group === "subtopic" && S.sort === "syllabus";   // dot-point groups inside each subtopic
     const attrs = (h, t, sb, dp) => `data-h="${h}" data-t="${esc(t)}"${sb ? ` data-s="${esc(sb)}"` : ""}${dp ? ` data-dp="${esc(dp)}"` : ""}`;
+    // each run of questions under one dot point is boxed together under its heading
+    const dpOf = (x) => (S.group === "dotpoint" ? x.g : dpHeads && S.dp[x.q.dotpoints[0]] ? x.q.dotpoints[0] : null);
+    const keyOf = (x) => { const d = dpOf(x); return d ? x.t + "|" + x.g + "|" + d : null; };
+    const close = () => { if (open) { html += `</div></section>`; open = false; } };
     slice.forEach((x, k) => {
+      const key = keyOf(x);
+      if (x.t !== lastT || x.g !== lastG || key !== lastK) close();
       if (x.t !== lastT && x.t !== "_") {
         const tp = S.topic[x.t];
         const cont = all[start + k - 1] && all[start + k - 1].t === x.t;
         html += `<h2 class="topic-h" id="topic-${x.t}" ${attrs("t", x.t)}>${esc(tp.name)}${cont ? ' <span class="soft" style="font-size:14px;font-family:var(--sans);font-weight:400">(continued)</span>' : ""}${S.syl.years.length > 1 ? ` <span style="font-size:14px;font-family:var(--sans);color:var(--muted);font-weight:400">Year ${tp.year}</span>` : ""}</h2>`;
         lastG = null;
       }
-      if (x.g !== lastG) {
-        lastD = null;
-        if (S.group === "subtopic") {
-          const sb = S.sub[x.g];
-          if (!(sb.name === S.topic[x.t].name && S.topic[x.t].subtopics.length === 1)) html += `<h3 class="sub-h" ${attrs("s", x.t, x.g)}>${esc(sb.name)}${sb.inquiry ? `<span class="iq">Inquiry question: ${esc(sb.inquiry)}</span>` : ""}</h3>`;
-        } else if (S.group === "dotpoint") {
-          html += `<h3 class="sub-h" ${attrs("d", x.t, S.dp[x.g] && S.dp[x.g].sub, x.g)}><span class="dpid">${x.g}</span>${md(S.dp[x.g].text, true)}</h3>`;
-        }
+      if (x.g !== lastG && S.group === "subtopic") {
+        const sb = S.sub[x.g];
+        if (!(sb.name === S.topic[x.t].name && S.topic[x.t].subtopics.length === 1)) html += `<h3 class="sub-h" ${attrs("s", x.t, x.g)}>${esc(sb.name)}${sb.inquiry ? `<span class="iq">Inquiry question: ${esc(sb.inquiry)}</span>` : ""}</h3>`;
       }
-      const d0 = x.q.dotpoints[0];
-      if (dpHeads && d0 !== lastD && S.dp[d0]) {
-        html += `<h4 class="dp-h" ${attrs("d", x.t, x.g, d0)}><span class="dpid">${esc(d0)}</span><span class="dpt">${md(S.dp[d0].text, true)}</span></h4>`;
-        lastD = d0;
+      if (key && !open) {
+        const d = dpOf(x);
+        let n = 0; while (slice[k + n] && keyOf(slice[k + n]) === key) n++;
+        html += `<section class="dp-group"><h4 class="dp-h" ${attrs("d", x.t, S.group === "dotpoint" ? S.dp[d] && S.dp[d].sub : x.g, d)}><span class="dpid">${esc(d)}</span><span class="dpt">${md(S.dp[d].text, true)}</span><span class="dp-n">${n} question${n === 1 ? "" : "s"}</span></h4><div class="dp-qs">`;
+        open = true;
       }
-      lastT = x.t; lastG = x.g;
+      lastT = x.t; lastG = x.g; lastK = key;
       html += qHtml(x.q, start + k + 1);
     });
+    close();
     html += pagerHtml(all.length, pages);
     docEl.innerHTML = html;
     ctxKey = null; ctxSoon();
