@@ -119,14 +119,14 @@ def cmd_get(qid):
         x[key] = [p for k, d in enumerate(x.get(key) or [], 1) if (p := save_image(d, os.path.join(folder, f"q-{qid}-{key[0]}{k}")))]
     for j, p in enumerate(x.get("prev") or [], 1):
         p["images"] = [s for k, d in enumerate(p.get("images") or [], 1) if (s := save_image(d, os.path.join(folder, f"q-{qid}-p{j}-{k}")))]
-    out = {k: x.get(k) for k in ("course", "kind", "question", "options", "correct", "answer", "answer_type", "marks", "difficulty",
+    out = {k: x.get(k) for k in ("course", "kind", "question", "options", "correct", "answer", "answer_type", "difficulty",
                                  "dotpoints", "images", "answer_images", "prev", "source", "author") if x.get(k) not in (None, "", [])}
     out["queue_id"] = qid
     os.makedirs(os.path.join(ROOT, "work/queue"), exist_ok=True)
     path = os.path.join(ROOT, f"work/queue/{qid}.json")
     json.dump(out, open(path, "w"), ensure_ascii=False, indent=2)
     print(json.dumps(out, ensure_ascii=False, indent=2))
-    print(f"\nwrote {os.path.relpath(path, ROOT)} — complete answer, answer_type, marks, difficulty and dotpoints, then `add` it")
+    print(f"\nwrote {os.path.relpath(path, ROOT)} — complete answer, answer_type, marks (you decide), difficulty and dotpoints, then `add` it")
 
 
 def cmd_add(path):
@@ -152,6 +152,8 @@ def cmd_add(path):
     if x.get("prev"):
         item["prev"] = [dict({k: p[k] for k in ("ref", "marks", "question", "answer", "images") if p.get(k) not in (None, "")}, kind="written")
                         for p in x["prev"]]
+        for p in item["prev"]:
+            p.setdefault("marks", 1)
     paper["questions"].append(item)
     paper["indexed"] = datetime.date.today().isoformat()
     os.makedirs(os.path.dirname(community_path(c)), exist_ok=True)

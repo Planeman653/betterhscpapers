@@ -41,7 +41,8 @@
   <div id="progress-panel" hidden>
     <div class="panel-title">Your progress</div>
     <div class="soft" id="done-count" style="font-size:13.5px;margin-bottom:6px"></div>
-    <label class="switch"><input type="checkbox" id="hide-done"> Hide questions I've done</label>
+    <div class="seg-wrap" id="show-wrap"><span class="lab-inline">Show:</span>
+      <div class="seg" id="show-done" role="group" aria-label="Show"><button type="button" data-show="all">All</button><button type="button" data-show="todo">Uncompleted</button><button type="button" data-show="done">Completed</button></div></div>
   </div>
   <div class="panel-title">Answers</div>
   <label class="switch"><input type="checkbox" id="answers"> Show all answers</label>
@@ -83,6 +84,7 @@
       <button class="btn" id="add-all">Add all shown to PDF</button>
     </div>
     <nav class="contents" id="contents"></nav>
+    <div class="ctx-wrap" id="ctx-wrap"><div class="ctx-bar" id="ctx-bar" hidden aria-hidden="true"></div></div>
     <div id="questions"><div class="none">Loading…</div></div>
   </div>
 </main>

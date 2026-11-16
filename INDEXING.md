@@ -153,8 +153,10 @@ python3 scripts/queue.py get <id>           # -> work/queue/<id>.json, diagrams 
 
 For each item, view any diagrams, then complete `work/queue/<id>.json` exactly as for a paper question (§2–3):
 - a full **worked solution / sample answer** in `answer` (verify it — solve it yourself; for MC also set `correct`);
-- `answer_type`, `marks` (estimate from length/difficulty if not given), `difficulty` 1–5, and 1–3 valid `dotpoints`
-  (first = where it is listed; check them against the course's syllabus .txt even if the submitter chose some);
+- `answer_type`; **`marks` — you decide these** (the submit form no longer asks; judge them as an HSC marker would
+  from the steps your solution needs, e.g. 1 mark per key step, MC = 1, and ignore any old `marks` value on the item);
+  `difficulty` 1–5; and 1–3 valid `dotpoints` (first = where it is listed; check them against the course's syllabus .txt);
+- if the item has `prev` (earlier parts), give each earlier part `marks` too;
 - tidy the question's LaTeX/Markdown so it stands alone; keep the submitter's `source` and `author`.
 
 Then `python3 scripts/queue.py add work/queue/<id>.json`.

@@ -31,7 +31,7 @@
     basket: new Set(store.get("basket:" + COURSE, [])),
     opened: new Set(),                    // per-question answers opened manually
     prevOpen: new Set(),                  // per-question "previous parts" opened
-    hideDone: store.get("hideDone", false),
+    show: store.get("showDone", store.get("hideDone", false) ? "todo" : "all"),   // all | todo | done
     perPage: store.get("perPage", 50),     // 0 = all
     page: 0,
     overrides: {},
@@ -127,7 +127,7 @@
   }
   function passes(q) {
     if (!passesNonTopic(q)) return false;
-    if (S.hideDone && isDone(q.id)) return false;
+    if (A.user && S.show !== "all" && isDone(q.id) !== (S.show === "done")) return false;
     if (S.sel.size && !q.dotpoints.some((d) => S.sel.has(d))) return false;
     return true;
   }
@@ -343,12 +343,39 @@
         }
       }
       lastT = x.t; lastG = x.g;
+      CTX[x.q.id] = { t: x.t, dp: S.group === "dotpoint" ? x.g : (x.q.dotpoints.find((d) => S.dp[d]) || x.q.dotpoints[0]) };
       html += qHtml(x.q, start + k + 1);
     });
     html += pagerHtml(all.length, pages);
     docEl.innerHTML = html;
+    ctxKey = null; ctxSoon();
     contentsEl.innerHTML = S.group === "none" ? "" : `<h2>Contents</h2><ul>${contents}</ul>`;
   }
+  /* ---------------- sticky header: current topic + dot point ---------------- */
+  const CTX = {};
+  let ctxKey = null, ctxQueued = false;
+  function ctxSoon() { if (!ctxQueued) { ctxQueued = true; requestAnimationFrame(() => { ctxQueued = false; updateCtx(); }); } }
+  function updateCtx() {
+    const bar = document.getElementById("ctx-bar");
+    if (!bar) return;
+    const tb = document.querySelector(".topbar");
+    const top = tb && getComputedStyle(tb).position === "sticky" ? tb.getBoundingClientRect().bottom : 0;
+    document.getElementById("ctx-wrap").style.top = Math.max(0, top) + "px";
+    const line = Math.max(0, top) + 48;
+    const arts = document.querySelectorAll("#questions article.q");
+    // last question whose top has scrolled up to the bar
+    let lo = 0, hi = arts.length - 1, cur = null;
+    while (lo <= hi) { const m = (lo + hi) >> 1; if (arts[m].getBoundingClientRect().top <= line) { cur = arts[m]; lo = m + 1; } else hi = m - 1; }
+    const c = cur && CTX[cur.id];
+    const key = c ? c.t + "|" + c.dp : null;
+    if (key === ctxKey) return;
+    ctxKey = key;
+    if (!key) { bar.hidden = true; return; }
+    const tp = S.topic[c.t], d = S.dp[c.dp];
+    bar.innerHTML = `<span class="ctx-topic">${esc(tp ? tp.name : "")}</span>${d ? `<span class="ctx-dp"><b>${esc(c.dp)}</b> ${md(d.text, true)}</span>` : ""}`;
+    bar.hidden = false;
+  }
+
   function goPage(p, anchor) {
     S.page = p; render();
     const el = anchor && document.getElementById(anchor);
@@ -418,7 +445,7 @@
     if (!A.user) { alertBox("Sign in to tick off questions you've done."); A.signIn && A.signIn(); return; }
     const on = !isDone(id);
     try { await A.setDone(id, on); } catch (e) { alertBox("Couldn't save — " + e.message); return; }
-    if (S.hideDone && on) render(); else rerenderQ(id);
+    if (S.show !== "all") render(); else rerenderQ(id);
     updateProgress();
   }
   async function toggleSaved(id) {
@@ -433,6 +460,7 @@
     if (!box) return;
     box.hidden = !A.enabled;
     const cnt = document.getElementById("done-count");
+    const sw = document.getElementById("show-wrap"); if (sw) sw.hidden = !A.user;
     if (!A.user) { cnt.innerHTML = `<button class="linkish" id="progress-signin">Sign in</button> to tick off questions you've done and save questions to your own bank.`; return; }
     const n = S.data.questions.filter((q) => isDone(q.id)).length;
     cnt.textContent = `${n} of ${S.data.questions.length} questions done`;
@@ -528,8 +556,14 @@
       const a = e.target.closest("[data-tpage]"); if (!a) return;
       e.preventDefault(); goPage(+a.dataset.tpage, "topic-" + a.dataset.topic);
     });
-    const hd = $("hide-done");
-    if (hd) { hd.checked = S.hideDone; hd.addEventListener("change", (e) => { S.hideDone = e.target.checked; store.set("hideDone", S.hideDone); refresh(true); }); }
+    const sd = $("show-done");
+    if (sd) {
+      const mark = () => sd.querySelectorAll("[data-show]").forEach((b) => b.classList.toggle("on", b.dataset.show === S.show));
+      mark();
+      sd.addEventListener("click", (e) => { const b = e.target.closest("[data-show]"); if (!b) return; S.show = b.dataset.show; store.set("showDone", S.show); mark(); refresh(true); });
+    }
+    window.addEventListener("scroll", ctxSoon, { passive: true });
+    window.addEventListener("resize", ctxSoon);
     const pp = $("progress-panel");
     if (pp) pp.addEventListener("click", (e) => { if (e.target.id === "progress-signin") A.signIn && A.signIn(); });
     // signing in/out after the page has loaded

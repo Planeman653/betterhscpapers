@@ -416,3 +416,26 @@ textarea.over{outline:2px dashed var(--accent);outline-offset:2px}
   .topbar-inner .tabs{order:2;width:100%}
   .topbar-inner .spacer,.topbar-inner .filters-btn,.topbar-inner .basket-btn{order:3}
 }
+/* sticky "where am I" header on course pages */
+.ctx-wrap{position:sticky;top:57px;height:0;z-index:20;margin:0 -36px}
+.ctx-bar{position:absolute;left:0;right:0;top:0;display:flex;flex-direction:column;gap:1px;padding:7px 36px 8px;background:var(--paper);border-bottom:1px solid var(--line);box-shadow:0 4px 10px -8px rgba(0,0,0,.35);font-size:13.5px;line-height:1.35}
+.ctx-topic{font-family:var(--serif);font-weight:600;font-size:15.5px;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ctx-dp{color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.ctx-dp b{color:var(--ink);font-weight:600;margin-right:4px}
+.ctx-dp p{display:inline;margin:0}
+article.q,.topic-h,.sub-h{scroll-margin-top:130px}
+@media (max-width:900px){
+  .ctx-wrap{margin:0 -16px}
+  .ctx-bar{padding:6px 16px 7px;font-size:12.5px}
+  .ctx-topic{font-size:14px}
+  article.q,.topic-h,.sub-h{scroll-margin-top:80px}
+}
+/* "Show: All / Uncompleted / Completed" */
+.seg-wrap{margin-top:6px}
+.seg-wrap .lab-inline{margin:0 0 5px}
+.seg{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);border-radius:7px;overflow:hidden}
+.seg button{font:inherit;font-size:13px;padding:6px 4px;border:0;background:transparent;color:var(--ink);cursor:pointer;border-left:1px solid var(--line)}
+.seg button:first-child{border-left:0}
+.seg button:hover{background:var(--head)}
+.seg button.on{background:var(--accent);color:var(--accent-ink);font-weight:600}
+.queue-mode .full-only{display:none!important}

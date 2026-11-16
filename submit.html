@@ -29,7 +29,7 @@
 <main class="sub-form" id="form">
   <div class="doc-head">
     <h1 id="form-title">Submit a question</h1>
-    <p>Add a question to the site. Write the full solution and it goes live straight away, or just add the question and we'll write the worked solution, set the difficulty and tag the syllabus dot points for you (usually within a day).</p>
+    <p>Add a question to the site. Write the full solution and it goes live straight away, or just add the question and we'll write the worked solution, set the marks and difficulty and tag the syllabus dot points for you (usually within a day).</p>
     <div class="signin-banner" id="signin-banner" hidden><span>Sign in with Google to submit questions.</span><button type="button" class="btn primary" id="signin-btn">Sign in</button></div>
     <div class="signin-banner" id="off-banner" hidden><span>Question submissions are being set up and will open soon.</span></div>
   </div>
@@ -39,7 +39,7 @@
     <div class="field" id="mode-field"><span class="lab">What are you adding?</span>
       <div class="modes">
         <label class="mode"><input type="radio" name="mode" value="full" checked><span><b>Question with full solution</b><span class="soft">Goes live on the site straight away.</span></span></label>
-        <label class="mode"><input type="radio" name="mode" value="queue"><span><b>Just the question</b><span class="soft">We'll add the worked solution, difficulty and dot points, usually within a day.</span></span></label>
+        <label class="mode"><input type="radio" name="mode" value="queue"><span><b>Just the question</b><span class="soft">We'll add the worked solution, marks, difficulty and dot points, usually within a day.</span></span></label>
       </div>
     </div>
     <div class="field"><span class="lab">Subject</span><div class="chips" id="course"></div></div>
@@ -66,8 +66,8 @@
     </div>
   </section>
 
-  <section class="fs">
-    <h2><span class="n">3</span> Answer <span class="soft" data-queue-only hidden>(optional — leave blank and we'll write it)</span></h2>
+  <section class="fs full-only" id="answer-box">
+    <h2><span class="n">3</span> Answer</h2>
     <div class="field"><span class="lab">Answer type</span>
       <div class="chips" id="answer-type"><button type="button" class="chip on" data-at="worked">Worked solution</button><button type="button" class="chip" data-at="sample">Sample answer</button><button type="button" class="chip" data-at="short">Short answer</button></div>
     </div>
@@ -76,11 +76,11 @@
     <label class="drop" data-drop="answer_images"><input type="file" accept="image/*" multiple data-upload="answer_images"><span class="drop-btn">⬆ Upload image</span><span>or drag &amp; drop, or paste, a diagram for the answer here</span></label>
   </section>
 
-  <section class="fs">
+  <section class="fs full-only" id="marks-box">
     <h2><span class="n">4</span> Marks, difficulty and syllabus</h2>
     <div class="field-row">
       <div class="field"><label class="lab" for="marks">Marks</label><input type="number" id="marks" min="1" max="20" value="2"></div>
-      <div class="field grow" data-full-only><span class="lab">Difficulty</span>
+      <div class="field grow"><span class="lab">Difficulty</span>
         <div class="chips" id="difficulty">
           <button type="button" class="chip" data-d="1" title="Routine, single step or recall">1 Easy</button>
           <button type="button" class="chip" data-d="2" title="Standard technique, a few steps">2 Moderate</button>
@@ -90,7 +90,7 @@
         </div>
       </div>
     </div>
-    <div class="field"><span class="lab">Dot points <span class="soft">— pick 1 to 3; the first is where the question is listed</span><span class="soft" data-queue-only hidden> (optional — we'll tag it if you don't)</span></span>
+    <div class="field"><span class="lab">Dot points <span class="soft">— pick 1 to 3; the first is where the question is listed</span></span>
       <div class="dp-chosen" id="dp-chosen"></div>
       <input type="search" class="search" id="dp-search" placeholder="Search the syllabus, e.g. induction, projectile, equilibrium, 12.3.4">
       <div class="dp-list" id="dp-list"><div class="none">Loading syllabus…</div></div>

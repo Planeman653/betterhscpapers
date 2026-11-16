@@ -74,9 +74,9 @@
     if (full && !Q.answer.trim() && !(Q.kind === "mc" && Q.correct)) p.push("Write the answer (or choose “Just the question” above).");
     if (full && !Q.dotpoints.length) p.push("Pick at least one dot point.");
     if (JSON.stringify(Q).length > 900000) p.push("The diagrams are too large — remove some or use smaller images.");
-    if (!(Q.marks >= 1 && Q.marks <= 20)) p.push("Marks must be between 1 and 20.");
+    if (full && !(Q.marks >= 1 && Q.marks <= 20)) p.push("Marks must be between 1 and 20.");
     if (Q.src.type === "trial" && !Q.src.school.trim()) p.push("Add the school for the trial paper.");
-    p.push(...texProblems("Question", Q.question), ...texProblems("Answer", Q.answer));
+    p.push(...texProblems("Question", Q.question), ...(full ? texProblems("Answer", Q.answer) : []));
     Q.options.forEach((o, i) => Q.kind === "mc" && p.push(...texProblems("Option " + "ABCD"[i], o)));
     Q.prev.forEach((x, i) => {
       const n = x.ref.trim() || "Earlier part " + (i + 1);
@@ -91,6 +91,7 @@
     const r = record();
     if (!r.question && !r.answer) { $("preview").innerHTML = `<div class="none">Start typing to see your question.</div>`; return; }
     const sci = SCIENCE(r.course);
+    const qm = Q.mode === "queue" && !(EDIT && EDIT.kind === "repo");
     const imgs = (r.images || []).map((s) => `<img src="${esc(s)}" alt="Diagram">`).join("");
     const opts = r.kind === "mc" ? (() => {
       const short = r.options.every((o) => o.includes("![") || o.replace(/\$[^$]*\$/g, "xxxx").length < 38);
@@ -98,16 +99,16 @@
     })() : "";
     const label = r.answer_type === "short" ? "Answer" : r.answer_type === "sample" ? "Sample answer" : "Worked solution";
     const ansImgs = (r.answer_images || []).map((s) => `<img src="${esc(s)}" alt="Solution diagram">`).join("");
-    const prev = (r.prev || []).map((x) => `<div class="prev-part"><div class="prev-ref">${esc(x.ref)} <span class="marks">(${x.marks} mark${x.marks === 1 ? "" : "s"})</span></div><div class="q-body">${md(x.question)}${(x.images || []).map((s) => `<img src="${esc(s)}" alt="">`).join("")}</div>${x.answer ? `<details class="prev-ans" open><summary>Show ${sci ? "sample answer" : "solution"}</summary><div class="ans"><div class="ans-body">${md(x.answer)}</div></div></details>` : ""}</div>`).join("");
-    const dps = r.dotpoints.length ? r.dotpoints.join(", ") : "none yet";
+    const prev = (r.prev || []).map((x) => `<div class="prev-part"><div class="prev-ref">${esc(x.ref)}${qm ? "" : ` <span class="marks">(${x.marks} mark${x.marks === 1 ? "" : "s"})</span>`}</div><div class="q-body">${md(x.question)}${(x.images || []).map((s) => `<img src="${esc(s)}" alt="">`).join("")}</div>${x.answer ? `<details class="prev-ans" open><summary>Show ${sci ? "sample answer" : "solution"}</summary><div class="ans"><div class="ans-body">${md(x.answer)}</div></div></details>` : ""}</div>`).join("");
+    const dps = qm ? "tagged by us" : r.dotpoints.length ? r.dotpoints.join(", ") : "none yet";
     $("preview").innerHTML = `<article class="q">
-      <div class="q-head"><span class="q-title">Question 1 <span class="marks">(${r.marks} mark${r.marks === 1 ? "" : "s"})</span></span>
-        <span class="diff d${r.difficulty}">${[1, 2, 3, 4, 5].map((i) => `<i class="${i <= r.difficulty ? "f" : ""}"></i>`).join("")}&nbsp;${DIFF[r.difficulty]}</span>
+      <div class="q-head"><span class="q-title">Question 1 <span class="marks">${qm ? "(marks set by us)" : `(${r.marks} mark${r.marks === 1 ? "" : "s"})`}</span></span>
+        ${qm ? "" : `<span class="diff d${r.difficulty}">${[1, 2, 3, 4, 5].map((i) => `<i class="${i <= r.difficulty ? "f" : ""}"></i>`).join("")}&nbsp;${DIFF[r.difficulty]}</span>`}
         <span class="grow"></span>${prev ? `<span class="q-actions"><span class="prev-btn on">Previous parts (${r.prev.length})</span></span>` : ""}</div>
       ${prev ? `<div class="prev-parts"><div class="prev-label">Earlier parts of this question</div>${prev}</div>` : ""}
       <div class="q-body">${md(r.question) || '<p class="soft">(question)</p>'}${imgs}</div>${opts}
       <div class="src"><span class="tag">Yours</span> Source: ${r.source ? esc(r.source) : "Your question"}${r.credit ? " · submitted by " + esc(r.credit) : ""}${r.kind === "mc" ? " (multiple choice)" : ""} · <span class="dps">Dot point${r.dotpoints.length > 1 ? "s" : ""} ${esc(dps)}</span></div>
-      <div class="ans"><div class="ans-label">${label}${r.kind === "mc" && r.correct ? " — " + r.correct : ""}</div><div class="ans-body">${md(r.answer)}${ansImgs}</div></div>
+      ${qm ? `<div class="ans"><div class="ans-label">Solution</div><div class="ans-body soft">We'll write the solution, set the marks and difficulty and tag the dot points.</div></div>` : `<div class="ans"><div class="ans-label">${label}${r.kind === "mc" && r.correct ? " — " + r.correct : ""}</div><div class="ans-body">${md(r.answer)}${ansImgs}</div></div>`}
     </article>`;
     const pr = problems();
     $("problems").innerHTML = pr.map((x) => `<li>${esc(x)}</li>`).join("");
@@ -176,7 +177,7 @@
   function renderPrev() {
     $("prev-list").innerHTML = Q.prev.map((x, i) => `<div class="prev-edit" data-pi="${i}">
       <div class="field-row"><div class="field"><label class="lab">Part</label><input type="text" data-pf="ref" value="${esc(x.ref)}" placeholder="e.g. (c)(i)"></div>
-        <div class="field"><label class="lab">Marks</label><input type="number" min="1" max="20" data-pf="marks" value="${esc(x.marks)}"></div>
+        <div class="field full-only"><label class="lab">Marks</label><input type="number" min="1" max="20" data-pf="marks" value="${esc(x.marks)}"></div>
         <span style="flex:1"></span><button type="button" class="linkish" data-rmprev="${i}">Remove part</button></div>
       <label class="lab">Question</label><textarea rows="3" data-pf="question">${esc(x.question)}</textarea>
       <div class="imgs" data-imgs="prev:${i}"></div>
@@ -205,7 +206,8 @@
     modeUi(); renderPrev(); renderImgs();
   }
   function modeUi() {
-    const q = Q.mode === "queue", repo = EDIT && EDIT.kind === "repo";
+    const q = Q.mode === "queue" && !(EDIT && EDIT.kind === "repo"), repo = EDIT && EDIT.kind === "repo";
+    document.body.classList.toggle("queue-mode", q);
     document.querySelectorAll("[data-queue-only]").forEach((el) => (el.hidden = !q));
     document.querySelectorAll("[data-full-only]").forEach((el) => (el.hidden = q));
     $("mode-field").hidden = !!repo;
@@ -213,6 +215,8 @@
     $("prev-box").hidden = !!repo;
     $("publish").textContent = repo ? "Save changes" : q ? (EDIT && EDIT.kind === "queue" ? "Save changes" : "Add to the queue") : (EDIT && EDIT.kind === "sub" ? "Save changes" : "Publish to the site");
     $("publish-hint").hidden = !!repo;
+    let n = 0;
+    document.querySelectorAll("section.fs").forEach((sec) => { const el = sec.querySelector("h2 .n"); if (el && !sec.hidden && getComputedStyle(sec).display !== "none") el.textContent = ++n; });
   }
   function authUi() {
     $("off-banner").hidden = A.enabled;
@@ -240,6 +244,12 @@
       answer: r.answer, answer_type: r.answer_type, images: r.images || [], answer_images: r.answer_images || [], source: r.source || "",
       ref: r.ref || "", author: (r.credit || (A.user && A.user.name) || "").slice(0, 40), prev: r.prev || [], src: r.src };
     if (r.kind === "mc") { d.options = r.options; d.correct = r.correct || ""; }
+    if (Q.mode === "queue" && !(EDIT && EDIT.kind === "repo")) {
+      // just the question: we set the answer, marks, difficulty and dot points
+      for (const k of ["answer", "answer_type", "marks", "difficulty"]) delete d[k];
+      d.answer_images = []; d.dotpoints = [];
+      d.prev = d.prev.map((x) => { const y = { ...x }; delete y.marks; return y; });
+    }
     return d;
   }
   async function publish() {
@@ -261,7 +271,7 @@
       } else if (Q.mode === "queue") {
         const id = await A.addQueue(data, EDIT && EDIT.kind === "queue" ? EDIT.id : null);
         if (EDIT && EDIT.kind === "sub") await A.deleteSubmission(EDIT.id);
-        msg = "Added to the queue. We'll add the solution, difficulty and dot points and publish it, usually within a day — track it under My submitted questions.";
+        msg = "Added to the queue. We'll add the solution, marks, difficulty and dot points and publish it, usually within a day — track it under My submitted questions.";
         EDIT = { kind: "queue", id };
       } else {
         const id = await A.saveSubmission(data, EDIT && EDIT.kind === "sub" ? EDIT.id : null);
