@@ -582,9 +582,11 @@
     $("questions").addEventListener("change", (e) => { const id = e.target.dataset.pick; if (!id) return; e.target.checked ? S.basket.add(id) : S.basket.delete(id); updateBasket(); });
     $("add-all").addEventListener("click", () => { const l = sorted(S.data.questions.filter(passes)); l.forEach((q) => S.basket.add(q.id)); render(); updateBasket(); alertBox(`Added ${l.length} questions to the PDF.`); });
     const drawer = $("drawer"), scrim = $("scrim"), side = $("sidebar");
-    const close = () => { drawer.classList.remove("show"); side.classList.remove("show"); scrim.classList.remove("show"); };
-    $("basket-open").addEventListener("click", () => { drawer.classList.add("show"); scrim.classList.add("show"); });
-    $("filters-open").addEventListener("click", () => { side.classList.add("show"); scrim.classList.add("show"); });
+    // while a panel is open, the page behind it doesn't scroll
+    const close = () => { drawer.classList.remove("show"); side.classList.remove("show"); scrim.classList.remove("show"); document.documentElement.classList.remove("panel-open"); };
+    const openPanel = (el) => { el.classList.add("show"); scrim.classList.add("show"); document.documentElement.classList.add("panel-open"); el.scrollTop = 0; };
+    $("basket-open").addEventListener("click", () => openPanel(drawer));
+    $("filters-open").addEventListener("click", () => openPanel(side));
     scrim.addEventListener("click", close); $("drawer-close").addEventListener("click", close);
     $("basket-list").addEventListener("click", (e) => { const id = e.target.dataset.unpick; if (id) { S.basket.delete(id); render(); updateBasket(); } });
     $("basket-clear").addEventListener("click", () => { S.basket.clear(); render(); updateBasket(); });

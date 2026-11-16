@@ -175,7 +175,7 @@ button{cursor:pointer}
   .topbar{position:static}
   .layout{grid-template-columns:1fr;padding:10px}
   .filters-btn{display:inline-block}
-  .sidebar{position:fixed;top:0;left:0;bottom:0;width:min(360px,92%);max-height:none;z-index:50;border-radius:0;transform:translateX(-105%);transition:transform .2s}
+  .sidebar{position:fixed;top:0;left:0;bottom:0;width:min(360px,92%);max-height:none;height:auto;align-self:stretch;z-index:50;border-radius:0;transform:translateX(-105%);transition:transform .2s;overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;padding-bottom:calc(24px + env(safe-area-inset-bottom))}
   .sidebar.show{transform:none}
   .doc{padding:18px 16px 30px}
   .contents ul{columns:1}
@@ -465,3 +465,5 @@ article.q,.topic-h,.sub-h,.dp-h{scroll-margin-top:140px}
 @media print{ #print-root .p-prev{font-size:10pt;color:#333;margin:0 0 4pt;padding-left:8pt;border-left:1pt solid #bbb} }
 .pdf-box .field-row{align-items:flex-end}
 @media (max-width:520px){.opts.short:has(.katex){grid-template-columns:1fr}}
+html.panel-open,html.panel-open body{overflow:hidden}
+.drawer .body{overscroll-behavior:contain}
