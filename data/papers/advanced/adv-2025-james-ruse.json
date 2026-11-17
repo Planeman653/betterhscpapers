@@ -6,13 +6,381 @@
  "type": "Trial",
  "thsc": {
   "viewno": "5328",
-  "title": "James Ruse 2025 Mathematics Advanced Trial"
+  "title": "James Ruse 2025 w. sol"
  },
  "indexed": "2026-11-17",
  "answers": "worked",
- "partial": true,
  "dropped": [],
  "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.2.1",
+    "11.1.2.7"
+   ],
+   "question": "The graph of a relation is shown below. What type of relationship does the graph represent?",
+   "answer": "A vertical line near the $y$-axis cuts the graph three times, so some $x$-values have several $y$-values; every horizontal line cuts it only once, so each $y$-value has one $x$-value. The relation is **one-to-many**. **(B)**",
+   "options": [
+    "One-to-one",
+    "One-to-many",
+    "Many-to-one",
+    "Many-to-many"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/adv-2025-james-ruse/q1.png"
+   ]
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.8.10"
+   ],
+   "question": "A function $f(x)$ is such that\n$$\\int_{-k}^{k}f(x)\\,dx = 2\\int_0^k f(x)\\,dx.$$\nWhich of the following could be a possible function for $f(x)$?",
+   "answer": "The property holds for **even** functions. $\\cos 2x$ is even; $\\sin 2x$, $\\tan 2x$ and $\\operatorname{cosec}2x$ are odd. **(B)**",
+   "options": [
+    "$f(x) = \\sin 2x$",
+    "$f(x) = \\cos 2x$",
+    "$f(x) = \\tan 2x$",
+    "$f(x) = \\operatorname{cosec} 2x$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.7.3.5",
+    "11.7.3.8"
+   ],
+   "question": "A die is rolled twice. Let events $X$ and $Y$ be:\n- $X$: the first roll is a 1;\n- $Y$: the sum of the two rolls is 7.\n\nWhich of the following statements is true?",
+   "answer": "$P(X) = \\frac16$, $P(Y) = \\frac{6}{36} = \\frac16$, and $X \\cap Y = \\{(1, 6)\\}$ so $P(X \\cap Y) = \\frac{1}{36} = P(X)P(Y)$. The events are independent. **(A)**",
+   "options": [
+    "Events $X$ and $Y$ are independent.",
+    "Events $X$ and $Y$ are mutually exclusive.",
+    "Event $X$ is a subset of event $Y$.",
+    "The probabilities of events $X$ and $Y$ are different."
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.3.12",
+    "12.6.3.10"
+   ],
+   "question": "Ben scored 53 on a test where the scores were normally distributed with a mean of 41 and a standard deviation of 7.5. If the scores are adjusted to have a new mean of 44 and a new standard deviation of 6, what would Ben's adjusted score be, to the nearest whole number?",
+   "answer": "$z = \\dfrac{53 - 41}{7.5} = 1.6$. New score $= 44 + 1.6 \\times 6 = 53.6 \\approx 54$. **(C)**",
+   "options": [
+    "$52$",
+    "$53$",
+    "$54$",
+    "$55$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.1.4",
+    "12.5.1.7"
+   ],
+   "question": "Let $f(x) = x^3 - 3x^2 + 2$. In which domain is the function decreasing and concave down?",
+   "answer": "$f'(x) = 3x(x - 2) < 0$ for $0 < x < 2$ (decreasing); $f''(x) = 6x - 6 < 0$ for $x < 1$ (concave down). Both: $(0, 1)$. **(B)**",
+   "options": [
+    "$(-\\infty, 0)$",
+    "$(0, 1)$",
+    "$(1, 2)$",
+    "$(2, \\infty)$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "A regular hexagon is inscribed inside a circle with centre $O$. $A$ and $B$ are adjacent vertices of the hexagon. Given the area of $\\triangle ABO = 14\\text{ cm}^2$, what is the perimeter of the hexagon to the nearest centimetre?",
+   "answer": "$\\triangle ABO$ is equilateral with side $s$ (the hexagon's side). $\\frac{\\sqrt3}{4}s^2 = 14 \\implies s^2 = \\frac{56}{\\sqrt3} \\implies s \\approx 5.686$. Perimeter $= 6s \\approx 34.1$ cm. **(C)**",
+   "options": [
+    "$43.9$ cm",
+    "$42.0$ cm",
+    "$34.1$ cm",
+    "$31.0$ cm"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/adv-2025-james-ruse/q6.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.9.8",
+    "11.1.9.3"
+   ],
+   "question": "If $f(x) = \\sqrt x$ and $g(x) = \\ln(x - 1)$, what is the domain of the composite function $f(g(x))$?",
+   "answer": "$f(g(x)) = \\sqrt{\\ln(x - 1)}$ needs $x > 1$ and $\\ln(x - 1) \\ge 0$, i.e. $x - 1 \\ge 1$, so $x \\ge 2$. **(D)**",
+   "options": [
+    "$[1, \\infty)$",
+    "$[1, e]$",
+    "$[2, e]$",
+    "$[2, \\infty)$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.2.6"
+   ],
+   "question": "A probability density function is given by\n$$f(x) = \\begin{cases} x - 1, & 1 \\le x \\le a \\\\ 0, & \\text{elsewhere.} \\end{cases}$$\nWhich one of the following is the correct way to find the value of $a$?",
+   "answer": "$\\displaystyle\\int_1^a(x - 1)\\,dx = \\frac{(a-1)^2}{2} = 1 \\implies a^2 - 2a - 1 = 0$, and $a > 1$, so take the larger root. **(A)**",
+   "options": [
+    "The larger root of $a^2 - 2a - 1 = 0$",
+    "The smaller root of $a^2 - 2a - 1 = 0$",
+    "The larger root of $a^2 + 2a - 1 = 0$",
+    "The smaller root of $a^2 + 2a - 1 = 0$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Which of the following functions best represents the graph below? (The branches cross the $x$-axis at $x = \\pm\\frac\\pi4, \\pm\\frac{3\\pi}{4}$, with vertical asymptotes at $x = 0, \\pm\\frac\\pi2, \\pm\\pi$, and each branch is increasing.)",
+   "answer": "Asymptotes are $\\frac\\pi2$ apart, so the period is $\\frac\\pi2$ and the coefficient of $x$ is 2. There is an asymptote at $x = 0$: $2(0) + c = \\frac\\pi2 \\implies c = \\frac\\pi2$ (check: zeros where $2x + \\frac\\pi2 = k\\pi$, i.e. $x = \\pm\\frac\\pi4, \\ldots$). **(C)**",
+   "options": [
+    "$y = \\tan\\left(4x + \\frac\\pi2\\right)$",
+    "$y = \\tan\\left(4x + \\frac\\pi4\\right)$",
+    "$y = \\tan\\left(2x + \\frac\\pi2\\right)$",
+    "$y = \\tan\\left(2x + \\frac\\pi4\\right)$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/adv-2025-james-ruse/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.6.1.6",
+    "11.6.1.10"
+   ],
+   "question": "The function $f(x) = e^x$ is transformed by a horizontal translation of $\\log_e 2$ units in the negative $x$ direction, followed by a horizontal dilation of scale factor 2. What is the new function $g(x)$?",
+   "answer": "Translation: $e^{x + \\ln 2} = 2e^x$. Horizontal dilation by factor 2 (replace $x$ by $\\frac x2$): $g(x) = 2e^{x/2}$. **(A)**",
+   "options": [
+    "$g(x) = 2e^{\\frac x2}$",
+    "$g(x) = \\frac12e^{\\frac x2}$",
+    "$g(x) = \\frac12e^{2x}$",
+    "$g(x) = 2e^{2x}$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q11",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.2.10"
+   ],
+   "question": "Evaluate $x$ when $x = \\log_{31}32 \\times \\log_{30}31 \\times \\log_{29}30 \\times \\cdots \\times \\log_2 3$, for $x \\in \\mathbb{Z}$.",
+   "answer": "Change every log to base $e$; the product telescopes:\n$$x = \\frac{\\ln 32}{\\ln 31}\\times\\frac{\\ln 31}{\\ln 30}\\times\\cdots\\times\\frac{\\ln 3}{\\ln 2} = \\frac{\\ln 32}{\\ln 2} = \\log_2 32 = 5.$$"
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.6.1.8"
+   ],
+   "question": "Given the equation of a circle: $x^2 - 4x + y^2 + 2y - 4 = 0$.\n\nDetermine the centre and radius.",
+   "answer": "$(x - 2)^2 + (y + 1)^2 = 4 + 4 + 1 = 9$: centre $(2, -1)$, radius $3$."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.4.9",
+    "11.1.1.7"
+   ],
+   "question": "Given the equation of a circle: $x^2 - 4x + y^2 + 2y - 4 = 0$.\n\nThe circle has centre $(2, -1)$ and radius 3. The line $y = mx + 2$ is a tangent to the circle. Determine the values of $m$.",
+   "answer": "Substitute $y = mx + 2$:\n$$x^2 - 4x + (mx + 2)^2 + 2(mx + 2) - 4 = 0 \\implies (1 + m^2)x^2 + (6m - 4)x + 4 = 0.$$\nA tangent meets the circle once, so $\\Delta = 0$:\n$$(6m - 4)^2 - 16(1 + m^2) = 20m^2 - 48m = 4m(5m - 12) = 0 \\implies m = 0 \\text{ or } m = \\frac{12}{5}.$$"
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.6"
+   ],
+   "question": "The ages of 26 million residents of Australia are normally distributed with a mean of 45 years and a standard deviation of 11 years.\n\nCalculate how many more people are older than 56 than are older than 67.",
+   "answer": "$56 = \\mu + \\sigma$ and $67 = \\mu + 2\\sigma$. By the empirical rule, $P(X > 56) = 16\\%$ and $P(X > 67) = 2.5\\%$.\n\nDifference $= 13.5\\% \\times 26\\,000\\,000 = 3\\,510\\,000$ more people."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.6",
+    "11.7.3.4"
+   ],
+   "question": "The ages of 26 million residents of Australia are normally distributed with a mean of 45 years and a standard deviation of 11 years.\n\nDetermine the percentage, rounded to the nearest whole number, of individuals under 56 who are also younger than 34.",
+   "answer": "$34 = \\mu - \\sigma$, $56 = \\mu + \\sigma$: $P(X < 34) = 16\\%$, $P(X < 56) = 84\\%$.\n$$P(X < 34 \\mid X < 56) = \\frac{0.16}{0.84} \\approx 0.19 = 19\\%.$$"
+  },
+  {
+   "ref": "Q14",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.1.10",
+    "11.3.1.13"
+   ],
+   "question": "Solve $3\\sin^2 x - \\sqrt3\\sin x = 0$ for $-\\pi \\le x \\le \\pi$, to 3 decimal places.",
+   "answer": "$\\sin x\\left(3\\sin x - \\sqrt3\\right) = 0$.\n\n$\\sin x = 0$: $x = -\\pi, 0, \\pi$, i.e. $x = -3.142, 0, 3.142$.\n\n$\\sin x = \\dfrac{\\sqrt3}{3}$: $x = 0.615$ or $x = \\pi - 0.615 = 2.526$."
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.1.9",
+    "11.7.2.5"
+   ],
+   "question": "The subjects that a group of university students take are recorded. Out of the group, 24% of the students do both Statistics ($S$) and Business ($B$), while 10% do neither. In the Venn diagram, $x$ and $y$ are the proportions who take only Statistics and only Business respectively.\n\nIt is known that the number of students who take Statistics is twice the number who take Business. Find the values of $x$ and $y$.",
+   "answer": "$x + 0.24 + y + 0.1 = 1 \\implies x + y = 0.66$, and $x + 0.24 = 2(y + 0.24) \\implies x = 2y + 0.24$.\n\nSo $3y + 0.24 = 0.66 \\implies y = 0.14$, $x = 0.52$.",
+   "images": [
+    "assets/img/adv-2025-james-ruse/q15.png"
+   ]
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.3.4"
+   ],
+   "question": "The subjects that a group of university students take are recorded. Out of the group, 24% of the students do both Statistics ($S$) and Business ($B$), while 10% do neither. In the Venn diagram, $x$ and $y$ are the proportions who take only Statistics and only Business respectively.\n\nGiven $x = 0.52$ and $y = 0.14$: if a student is selected at random, find the probability that they are not taking Statistics given that they are studying Business.",
+   "answer": "$$P(\\overline S \\mid B) = \\frac{y}{y + 0.24} = \\frac{0.14}{0.38} = \\frac{7}{19} \\approx 0.368.$$",
+   "images": [
+    "assets/img/adv-2025-james-ruse/q15.png"
+   ]
+  },
+  {
+   "ref": "Q16(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.11.5"
+   ],
+   "question": "Consider the functions $f(x) = |2x - 4|$ and $g(x) = |x + 1|$.\n\nOn the same number plane, sketch the graphs of $f(x)$ and $g(x)$, showing all important features.",
+   "answer": "- $y = |2x - 4|$: vertex $(2, 0)$, $y$-intercept $4$.\n- $y = |x + 1|$: vertex $(-1, 0)$, $y$-intercept $1$.\n- They intersect where $2x - 4 = x + 1$ ($x = 5$) and $-(2x - 4) = x + 1$ ($x = 1$): at $(1, 2)$ and $(5, 6)$.",
+   "answer_images": [
+    "assets/img/adv-2025-james-ruse/q16-sketch.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.11.5",
+    "11.1.11.6"
+   ],
+   "question": "Consider the functions $f(x) = |2x - 4|$ and $g(x) = |x + 1|$.\n\nThe graphs intersect at $(1, 2)$ and $(5, 6)$. Use the graphs to solve the inequality $|2x - 4| < |x + 1|$.",
+   "answer": "$y = |2x - 4|$ lies below $y = |x + 1|$ between the intersection points: $1 < x < 5$.",
+   "answer_images": [
+    "assets/img/adv-2025-james-ruse/q16-sketch.png"
+   ]
+  },
+  {
+   "ref": "Q17(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.3.8",
+    "12.3.4.1"
+   ],
+   "question": "Differentiate and simplify $g(x) = e^x\\sin x - e^x\\cos x$.",
+   "answer": "$$g'(x) = e^x\\sin x + e^x\\cos x - \\left(e^x\\cos x - e^x\\sin x\\right) = 2e^x\\sin x.$$"
+  },
+  {
+   "ref": "Q17(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.9",
+    "12.4.1.1"
+   ],
+   "question": "The derivative of a function is given by $f'(x) = e^x\\sin x$. Given that $\\dfrac{d}{dx}\\left(e^x\\sin x - e^x\\cos x\\right) = 2e^x\\sin x$, find $f(x)$ if it is known that $f(\\pi) = \\dfrac{e^\\pi}{2}$.",
+   "answer": "$$f(x) = \\frac12\\left(e^x\\sin x - e^x\\cos x\\right) + C.$$\n$f(\\pi) = \\frac12\\left(0 + e^\\pi\\right) + C = \\frac{e^\\pi}{2} \\implies C = 0$. So $f(x) = \\dfrac12e^x(\\sin x - \\cos x)$."
+  },
+  {
+   "ref": "Q18(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.2",
+    "12.2.3.2"
+   ],
+   "question": "Consider the series $1\\tfrac13 + 2\\tfrac19 + 4\\tfrac{1}{27} + 8\\tfrac{1}{81} + \\cdots$\n\nFind an expression for the general term.",
+   "answer": "Each term is a power of 2 plus a power of $\\frac13$:\n$$T_n = 2^{n-1} + \\left(\\frac13\\right)^n.$$"
+  },
+  {
+   "ref": "Q18(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.5"
+   ],
+   "question": "Consider the series $1\\tfrac13 + 2\\tfrac19 + 4\\tfrac{1}{27} + 8\\tfrac{1}{81} + \\cdots$\n\nThe general term is $T_n = 2^{n-1} + \\left(\\frac13\\right)^n$. Find an expression for the sum of the first $n$ terms.",
+   "answer": "Sum the two geometric series separately:\n$$S_n = \\frac{2^n - 1}{2 - 1} + \\frac{\\frac13\\left(1 - \\left(\\frac13\\right)^n\\right)}{1 - \\frac13} = 2^n - 1 + \\frac12\\left(1 - 3^{-n}\\right) = 2^n - \\frac12 - \\frac{1}{2 \\cdot 3^n}.$$"
+  },
   {
    "ref": "Q19(a)",
    "kind": "written",
@@ -33,7 +401,405 @@
     "12.1.2.4"
    ],
    "question": "The decibel level of a sound is given by the formula\n$$L = 10\\log_{10}\\left(\\frac{I}{10^{-12}}\\right),$$\nwhere $L$ is the sound level in decibels and $I$ is the intensity of the sound in watts per square metre.\n\nA chocolate making machine produces a sound with intensity $2.5 \\times 10^{-5}\\ \\text{W/m}^2$. A nearby industrial coffee grinder produces a sound that is 20 decibels louder than the chocolate making machine. What is the percentage increase in sound intensity produced by the coffee grinder compared to the chocolate making machine? Give your answer to the nearest whole number.",
-   "answer": "Let the machine and grinder have intensities $I_1$ and $I_2$. Then\n$$L_2 - L_1 = 10\\log_{10}\\left(\\frac{I_2}{10^{-12}}\\right) - 10\\log_{10}\\left(\\frac{I_1}{10^{-12}}\\right) = 10\\log_{10}\\left(\\frac{I_2}{I_1}\\right) = 20.$$\nSo $\\log_{10}\\left(\\dfrac{I_2}{I_1}\\right) = 2$, i.e. $I_2 = 100I_1$.\n\nThe intensity is 100 times as large, an increase of $\\dfrac{100I_1 - I_1}{I_1} \\times 100\\% = 9900\\%$."
+   "answer": "Let the machine and grinder have intensities $I_1$ and $I_2$. Then\n$$L_2 - L_1 = 10\\log_{10}\\left(\\frac{I_2}{10^{-12}}\\right) - 10\\log_{10}\\left(\\frac{I_1}{10^{-12}}\\right) = 10\\log_{10}\\left(\\frac{I_2}{I_1}\\right) = 20.$$\nSo $\\log_{10}\\left(\\dfrac{I_2}{I_1}\\right) = 2$, i.e. $I_2 = 100I_1$: an increase of $\\dfrac{100I_1 - I_1}{I_1} \\times 100\\% = 9900\\%$."
+  },
+  {
+   "ref": "Q20(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.4",
+    "12.5.1.8"
+   ],
+   "question": "Let $f(x) = x^3 - 6x^2 + 9x + 1$.\n\nFind any stationary points and determine their nature.",
+   "answer": "$f'(x) = 3x^2 - 12x + 9 = 3(x - 1)(x - 3) = 0 \\implies x = 1, 3$. $\\;f(1) = 5$, $f(3) = 1$.\n\n$f''(x) = 6x - 12$: $f''(1) = -6 < 0$, so $(1, 5)$ is a **local maximum**; $f''(3) = 6 > 0$, so $(3, 1)$ is a **local minimum**."
+  },
+  {
+   "ref": "Q20(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.7"
+   ],
+   "question": "Let $f(x) = x^3 - 6x^2 + 9x + 1$.\n\nFind any points of inflection.",
+   "answer": "$f''(x) = 6x - 12 = 0 \\implies x = 2$, $f(2) = 3$. $\\;f''(1) = -6 < 0$ and $f''(3) = 6 > 0$, so the concavity changes: point of inflection at $(2, 3)$."
+  },
+  {
+   "ref": "Q20(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.9"
+   ],
+   "question": "Let $f(x) = x^3 - 6x^2 + 9x + 1$.\n\n$f$ has a local maximum at $(1, 5)$, a local minimum at $(3, 1)$ and a point of inflection at $(2, 3)$. Sketch the curve, showing all important features (you do not need to find the $x$-intercept).",
+   "answer": "$y$-intercept $(0, 1)$; maximum $(1, 5)$; inflection $(2, 3)$; minimum $(3, 1)$; $y \\to \\pm\\infty$ as $x \\to \\pm\\infty$.",
+   "answer_images": [
+    "assets/img/adv-2025-james-ruse/q20-sketch.png"
+   ]
+  },
+  {
+   "ref": "Q21",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.13"
+   ],
+   "question": "The $z$-scores on a test are normally distributed such that $P(-N < z < N) = p$ for some constants $N > 0$ and $0 < p < 1$. What is the value of $P(z < N)$?",
+   "answer": "By symmetry, $P(z < 0) = \\frac12$ and $P(0 < z < N) = \\frac p2$, so\n$$P(z < N) = \\frac12 + \\frac p2 = \\frac{1 + p}{2}.$$"
+  },
+  {
+   "ref": "Q22(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.1.12",
+    "12.1.1.2"
+   ],
+   "question": "The diagram shows the graphs of the curves $y = \\sec^2 x$ and $y = 2\\tan^2 x$ for $0 \\le x \\le 2\\pi$.\n\nState the periods of each of the two curves.",
+   "answer": "Both curves have period $\\pi$ (e.g. $\\sec^2(x + \\pi) = \\sec^2 x$ and $\\tan(x + \\pi) = \\tan x$).",
+   "images": [
+    "assets/img/adv-2025-james-ruse/q22.png"
+   ]
+  },
+  {
+   "ref": "Q22(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.12",
+    "11.3.1.13"
+   ],
+   "question": "The diagram shows the graphs of the curves $y = \\sec^2 x$ and $y = 2\\tan^2 x$ for $0 \\le x \\le 2\\pi$.\n\nShow that the $x$-coordinates of the points of intersection of the two curves are solutions of the equation $\\tan^2 x = 1$, and solve this equation for $\\frac\\pi2 \\le x \\le \\frac{3\\pi}{2}$.",
+   "answer": "$$2\\tan^2 x = \\sec^2 x = 1 + \\tan^2 x \\implies \\tan^2 x = 1 \\implies \\tan x = \\pm1.$$\nFor $\\frac\\pi2 < x < \\frac{3\\pi}{2}$ (where $\\tan x$ is defined): $x = \\dfrac{3\\pi}{4}$ or $x = \\dfrac{5\\pi}{4}$.",
+   "images": [
+    "assets/img/adv-2025-james-ruse/q22.png"
+   ]
+  },
+  {
+   "ref": "Q23",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.8.11"
+   ],
+   "question": "By using the trapezoidal rule with 4 subintervals, estimate the area under the curve for $\\displaystyle\\int_0^4\\ln(x + 1)\\,dx$.",
+   "answer": "$h = 1$, function values at $x = 0, 1, 2, 3, 4$: $\\ln 1, \\ln 2, \\ln 3, \\ln 4, \\ln 5$.\n$$\\int_0^4\\ln(x+1)\\,dx \\approx \\frac12\\left[\\ln 1 + 2(\\ln 2 + \\ln 3 + \\ln 4) + \\ln 5\\right] = \\ln 24 + \\tfrac12\\ln 5 \\approx 3.98.$$"
+  },
+  {
+   "ref": "Q24",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.2",
+    "11.4.3.9",
+    "12.3.1.1"
+   ],
+   "question": "Let the equation of a curve be $f(x) = \\dfrac{x}{e^x + 1}$. Find the equation of the normal to the curve at the point where $x = 1$, in general form.",
+   "answer": "By the quotient rule:\n$$f'(x) = \\frac{(e^x + 1) - xe^x}{(e^x + 1)^2}, \\qquad f'(1) = \\frac{e + 1 - e}{(e + 1)^2} = \\frac{1}{(e + 1)^2}.$$\nSo the normal has gradient $-(e + 1)^2$, and $f(1) = \\dfrac{1}{e + 1}$:\n$$y - \\frac{1}{e+1} = -(e+1)^2(x - 1).$$\nMultiplying by $(e + 1)$ and rearranging (no fractional coefficients):\n$$(e+1)^3x + (e+1)y - (e+1)^3 - 1 = 0.$$"
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.3.6"
+   ],
+   "question": "A car travels at 40 km/h on a circular curve whose radius is 500 m.\n\nFind the distance, $l$ km, that the car travels in one minute.",
+   "answer": "$l = 40 \\times \\dfrac{1}{60} = \\dfrac23$ km."
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.6",
+    "11.2.3.3"
+   ],
+   "question": "A car travels at 40 km/h on a circular curve whose radius is 500 m.\n\nCalculate the size of the angle $\\theta$ through which the car turns in 2 minutes. Give your answer to the nearest degree.",
+   "answer": "In 2 minutes the car travels $\\frac43$ km $= \\frac{4000}{3}$ m. Using $l = r\\theta$:\n$$\\theta = \\frac{4000/3}{500} = \\frac83 \\text{ radians} = \\frac83 \\times \\frac{180^\\circ}{\\pi} \\approx 153^\\circ.$$"
+  },
+  {
+   "ref": "Q26",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.3",
+    "12.3.3.4"
+   ],
+   "question": "Differentiate $f(x) = \\ln\\left(\\tan^2 x\\right)$ and simplify your answer in terms of $\\sin x$ and $\\cos x$.",
+   "answer": "$f(x) = \\ln\\left(\\sin^2 x\\right) - \\ln\\left(\\cos^2 x\\right)$, so\n$$f'(x) = \\frac{2\\sin x\\cos x}{\\sin^2 x} + \\frac{2\\cos x\\sin x}{\\cos^2 x} = \\frac{2\\cos x}{\\sin x} + \\frac{2\\sin x}{\\cos x} = \\frac{2\\left(\\cos^2 x + \\sin^2 x\\right)}{\\sin x\\cos x} = \\frac{2}{\\sin x\\cos x}.$$"
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.6",
+    "12.4.5.2"
+   ],
+   "question": "A continuous random variable $X$ has the probability density function\n$$f(x) = \\begin{cases} e^{-\\frac12x}, & 0 \\le x \\le k \\\\ 0, & \\text{for all other values of } x. \\end{cases}$$\n\nFind the exact value of $k$.",
+   "answer": "$$\\int_0^k e^{-x/2}\\,dx = \\Big[-2e^{-x/2}\\Big]_0^k = 2\\left(1 - e^{-k/2}\\right) = 1 \\implies e^{-k/2} = \\frac12 \\implies k = 2\\ln 2.$$"
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.9"
+   ],
+   "question": "A continuous random variable $X$ has the probability density function\n$$f(x) = \\begin{cases} e^{-\\frac12x}, & 0 \\le x \\le k \\\\ 0, & \\text{for all other values of } x. \\end{cases}$$\n\nGiven $k = 2\\ln 2$, write the cumulative distribution function $F(x)$ of $X$ for $-\\infty < x < \\infty$.",
+   "answer": "$$F(x) = \\begin{cases} 0, & x < 0 \\\\ 2\\left(1 - e^{-x/2}\\right), & 0 \\le x \\le 2\\ln 2 \\\\ 1, & x > 2\\ln 2. \\end{cases}$$"
+  },
+  {
+   "ref": "Q27(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.11"
+   ],
+   "question": "A continuous random variable $X$ has the probability density function\n$$f(x) = \\begin{cases} e^{-\\frac12x}, & 0 \\le x \\le k \\\\ 0, & \\text{for all other values of } x. \\end{cases}$$\n\nGiven $k = 2\\ln 2$ and $F(x) = 2\\left(1 - e^{-x/2}\\right)$ for $0 \\le x \\le k$, write the simplest exact form of the median of $X$.",
+   "answer": "$$2\\left(1 - e^{-m/2}\\right) = \\frac12 \\implies e^{-m/2} = \\frac34 \\implies m = 2\\ln\\frac43.$$"
+  },
+  {
+   "ref": "Q27(d)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.11"
+   ],
+   "question": "A continuous random variable $X$ has the probability density function\n$$f(x) = \\begin{cases} e^{-\\frac12x}, & 0 \\le x \\le k \\\\ 0, & \\text{for all other values of } x. \\end{cases}$$\n\nThe median of $X$ is $2\\ln\\frac43 \\approx 0.575$. Let $X$ be the duration, in seconds, it takes for a student card to be registered by the school scanner. In words, interpret the value of the median in this context.",
+   "answer": "Half (50%) of student cards are registered in less than $2\\ln\\frac43 \\approx 0.575$ seconds, and half take longer."
+  },
+  {
+   "ref": "Q27(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.7"
+   ],
+   "question": "A continuous random variable $X$ has the probability density function\n$$f(x) = \\begin{cases} e^{-\\frac12x}, & 0 \\le x \\le k \\\\ 0, & \\text{for all other values of } x. \\end{cases}$$\n\nGiven $k = 2\\ln 2$ and $F(x) = 2\\left(1 - e^{-x/2}\\right)$ for $0 \\le x \\le k$: given that $3P(X < c) = 2P(X > c)$, evaluate $c$ to 3 decimal places.",
+   "answer": "$3P(X < c) = 2\\left(1 - P(X < c)\\right) \\implies P(X < c) = 0.4$:\n$$2\\left(1 - e^{-c/2}\\right) = 0.4 \\implies e^{-c/2} = 0.8 \\implies c = 2\\ln 1.25 \\approx 0.446.$$"
+  },
+  {
+   "ref": "Q28",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.4.5",
+    "12.4.8.1"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_{-1}^{1}\\frac{-6x^2}{\\left(x^3 + 2\\right)^2}\\,dx$.",
+   "answer": "Since $\\dfrac{d}{dx}\\left(x^3 + 2\\right) = 3x^2$:\n$$\\int_{-1}^{1}\\frac{-6x^2}{\\left(x^3 + 2\\right)^2}\\,dx = \\left[\\frac{2}{x^3 + 2}\\right]_{-1}^{1} = \\frac23 - 2 = -\\frac43.$$"
+  },
+  {
+   "ref": "Q29",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.6",
+    "12.2.2.5"
+   ],
+   "question": "Solve the equation $1 + 4 + 7 + \\cdots + x = 925$.",
+   "answer": "Arithmetic series with $a = 1$, $d = 3$:\n$$\\frac n2\\left[2 + 3(n - 1)\\right] = 925 \\implies 3n^2 - n - 1850 = 0 \\implies (n - 25)(3n + 74) = 0 \\implies n = 25.$$\nSo $x = 1 + 24 \\times 3 = 73$."
+  },
+  {
+   "ref": "Q30(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.3"
+   ],
+   "question": "A right circular cone has height $H$ and a base of radius $R$. A square prism is inscribed in the cone so that the base of the prism is on the cone's base. The prism has height $h$ and a square base of side length $x$. The cross-section through the cone's axis (parallel to a side of the square) is shown.\n\nBy using similar triangles, show that $x = 2R\\left(1 - \\dfrac hH\\right)$.",
+   "answer": "In the cross-section, the top edge of the prism (half-width $\\frac x2$, at height $h$) touches the cone. The small triangle above it is similar to the whole triangle (half-width $R$, height $H$):\n$$\\frac{x/2}{R} = \\frac{H - h}{H} \\implies x = 2R\\left(1 - \\frac hH\\right).$$",
+   "images": [
+    "assets/img/adv-2025-james-ruse/q30.png"
+   ]
+  },
+  {
+   "ref": "Q30(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.5.2.5"
+   ],
+   "question": "A right circular cone has height $H$ and a base of radius $R$. A square prism is inscribed in the cone so that the base of the prism is on the cone's base. The prism has height $h$ and a square base of side length $x$. The cross-section through the cone's axis (parallel to a side of the square) is shown.\n\nGiven $x = 2R\\left(1 - \\dfrac hH\\right)$, determine the height of the prism, in terms of $H$, that will maximise the volume of the prism.",
+   "answer": "$$V = x^2h = 4R^2h\\left(1 - \\frac hH\\right)^2, \\quad 0 < h < H.$$\n$$\\frac{dV}{dh} = 4R^2\\left[\\left(1 - \\frac hH\\right)^2 - \\frac{2h}{H}\\left(1 - \\frac hH\\right)\\right] = 4R^2\\left(1 - \\frac hH\\right)\\left(1 - \\frac{3h}{H}\\right) = 0 \\implies h = \\frac H3 \\quad (h \\ne H).$$\nFor $h$ just below $\\frac H3$, $\\frac{dV}{dh} > 0$; just above, $\\frac{dV}{dh} < 0$: a maximum. The volume is greatest when $h = \\dfrac H3$.",
+   "images": [
+    "assets/img/adv-2025-james-ruse/q30.png"
+   ]
+  },
+  {
+   "ref": "Q31",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Sketch the graph of $y = -2\\cos(2\\pi x)$ for $-1 \\le x \\le 1.5$ and show all important features.",
+   "answer": "Amplitude 2, period $\\dfrac{2\\pi}{2\\pi} = 1$, reflected (starts at a minimum):\n- minima $y = -2$ at $x = -1, 0, 1$;\n- maxima $y = 2$ at $x = -\\frac12, \\frac12, \\frac32$;\n- $x$-intercepts at $x = \\pm\\frac14, \\pm\\frac34, \\frac54$.",
+   "answer_images": [
+    "assets/img/adv-2025-james-ruse/q31-sketch.png"
+   ]
+  },
+  {
+   "ref": "Q32(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.6"
+   ],
+   "question": "A venetian blind consists of twenty slats, each 2.5 mm thick. When the blind is down, the gap between the top slat and the top of the blind is 27 mm, and the gap between adjacent slats is also 27 mm. When the blind is up, all the slats are stacked at the top with no gaps.\n\nShow that when the blind is raised, the bottom slat rises 540 mm.",
+   "answer": "When the blind is raised, every gap disappears and nothing else changes. Above the bottom (20th) slat there are 20 gaps of 27 mm (the top gap and 19 gaps between slats), so it rises $20 \\times 27 = 540$ mm.",
+   "images": [
+    "assets/img/adv-2025-james-ruse/q32.png"
+   ]
+  },
+  {
+   "ref": "Q32(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.6"
+   ],
+   "question": "A venetian blind consists of twenty slats, each 2.5 mm thick. When the blind is down, the gap between the top slat and the top of the blind is 27 mm, and the gap between adjacent slats is also 27 mm. When the blind is up, all the slats are stacked at the top with no gaps.\n\nHow far does the 19th slat rise?",
+   "answer": "Above the 19th slat there are 19 gaps: it rises $19 \\times 27 = 513$ mm.",
+   "images": [
+    "assets/img/adv-2025-james-ruse/q32.png"
+   ]
+  },
+  {
+   "ref": "Q32(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "A venetian blind consists of twenty slats, each 2.5 mm thick. When the blind is down, the gap between the top slat and the top of the blind is 27 mm, and the gap between adjacent slats is also 27 mm. When the blind is up, all the slats are stacked at the top with no gaps.\n\nExplain briefly why the distances the slats rise form an arithmetic sequence.",
+   "answer": "The $n$th slat has $n$ gaps above it, so it rises $27n$ mm. Each slat rises 27 mm more than the one above it — a constant difference — so the distances $27, 54, 81, \\ldots, 540$ form an arithmetic sequence.",
+   "images": [
+    "assets/img/adv-2025-james-ruse/q32.png"
+   ]
+  },
+  {
+   "ref": "Q32(d)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.6",
+    "12.2.2.4"
+   ],
+   "question": "A venetian blind consists of twenty slats, each 2.5 mm thick. When the blind is down, the gap between the top slat and the top of the blind is 27 mm, and the gap between adjacent slats is also 27 mm. When the blind is up, all the slats are stacked at the top with no gaps.\n\nThe slats rise $27, 54, \\ldots, 540$ mm. Find the sum of all the distances that the slats rise when the blind is raised.",
+   "answer": "$$S_{20} = \\frac{20}{2}(27 + 540) = 5670 \\text{ mm}.$$",
+   "images": [
+    "assets/img/adv-2025-james-ruse/q32.png"
+   ]
+  },
+  {
+   "ref": "Q33(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.6.1.6"
+   ],
+   "question": "The graph of $f(x) = \\sqrt x$ is given, and $g(x) = -2\\sqrt{x - 1} + 3$.\n\nOn the same set of axes, sketch the graph of $g(x) = -2\\sqrt{x - 1} + 3$.",
+   "answer": "The curve starts at $(1, 3)$ and decreases; $x$-intercept where $\\sqrt{x - 1} = \\frac32$, i.e. $\\left(\\frac{13}{4}, 0\\right)$; it passes through $(5, -1)$ and $(10, -3)$.",
+   "images": [
+    "assets/img/adv-2025-james-ruse/q33.png"
+   ],
+   "answer_images": [
+    "assets/img/adv-2025-james-ruse/q33-sketch.png"
+   ]
+  },
+  {
+   "ref": "Q33(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.6.1.6",
+    "11.6.1.10"
+   ],
+   "question": "The graph of $f(x) = \\sqrt x$ is given, and $g(x) = -2\\sqrt{x - 1} + 3$.\n\nDescribe the sequence of transformations applied to $f(x)$ to obtain $g(x)$.",
+   "answer": "For example: translate **1 unit right**; dilate **vertically by a factor of 2**; **reflect in the $x$-axis**; then translate **3 units up**. (The dilation and reflection must come before the upward translation.)",
+   "images": [
+    "assets/img/adv-2025-james-ruse/q33.png"
+   ]
+  },
+  {
+   "ref": "Q33(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.8.6",
+    "12.4.8.5"
+   ],
+   "question": "The graph of $f(x) = \\sqrt x$ is given, and $g(x) = -2\\sqrt{x - 1} + 3$.\n\n$g$ starts at $(1, 3)$ and crosses the $x$-axis at $x = \\frac{13}{4}$. Find the area enclosed between the curve $y = g(x)$, the line $y = 4 - x$ and the $x$-axis, considering only the region that lies above the $x$-axis.",
+   "answer": "The line $y = 4 - x$ also passes through $(1, 3)$ and meets the $x$-axis at $x = 4$. The region lies between the curve and the line above the $x$-axis, so\n$$A = \\underbrace{\\tfrac12 \\times 3 \\times 3}_{\\text{triangle under the line, } 1 \\le x \\le 4} - \\int_1^{13/4}\\left(3 - 2\\sqrt{x - 1}\\right)dx.$$\n$$\\int_1^{13/4}\\left(3 - 2\\sqrt{x - 1}\\right)dx = \\left[3x - \\tfrac43(x - 1)^{3/2}\\right]_1^{13/4} = \\frac{27}{4} - \\frac43 \\times \\frac{27}{8} = \\frac94.$$\n$$A = \\frac92 - \\frac94 = \\frac94 \\text{ square units}.$$",
+   "images": [
+    "assets/img/adv-2025-james-ruse/q33.png"
+   ]
+  },
+  {
+   "ref": "Q34(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "The hours of daylight in Sydney can be modelled by\n$$y(t) = 2.24\\sin\\left(\\frac{\\pi t}{6} + 1.34\\right) + 12.19,$$\nwhere $y$ is the number of hours of daylight and $t$ is the month of the year ($t = 1$ represents 1 January; ignore leap years).\n\nIn this model, what is the maximum number of daylight hours in one day?",
+   "answer": "$12.19 + 2.24 = 14.43$ hours."
+  },
+  {
+   "ref": "Q34(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "The hours of daylight in Sydney can be modelled by\n$$y(t) = 2.24\\sin\\left(\\frac{\\pi t}{6} + 1.34\\right) + 12.19,$$\nwhere $y$ is the number of hours of daylight and $t$ is the month of the year ($t = 1$ represents 1 January; ignore leap years).\n\nFind the month that has the longest day in terms of number of hours of daylight.",
+   "answer": "Maximum when $\\dfrac{\\pi t}{6} + 1.34 = \\dfrac{5\\pi}{2}$ (the first such value with $t \\ge 1$):\n$$t = \\frac6\\pi\\left(\\frac{5\\pi}{2} - 1.34\\right) \\approx 12.44,$$\nso the longest day is in **December**."
+  },
+  {
+   "ref": "Q34(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.2.1",
+    "11.3.1.13"
+   ],
+   "question": "The hours of daylight in Sydney can be modelled by\n$$y(t) = 2.24\\sin\\left(\\frac{\\pi t}{6} + 1.34\\right) + 12.19,$$\nwhere $y$ is the number of hours of daylight and $t$ is the month of the year ($t = 1$ represents 1 January; ignore leap years).\n\nA scientist needs at least 13 hours of daylight each day for an experiment. Between which dates should they be looking to run the experiment?",
+   "answer": "$$2.24\\sin\\left(\\frac{\\pi t}{6} + 1.34\\right) + 12.19 = 13 \\implies \\sin\\left(\\frac{\\pi t}{6} + 1.34\\right) = \\frac{0.81}{2.24} = 0.3616\\ldots$$\n$$\\frac{\\pi t}{6} + 1.34 = 2.7717\\ldots \\text{ or } 6.6531\\ldots \\implies t \\approx 2.734 \\text{ or } t \\approx 10.147.$$\nDaylight exceeds 13 hours from $t \\approx 10.15$ to $t \\approx 12 + 2.73$, i.e. from about **4–5 October** until about **20 February**."
   }
  ]
 }
