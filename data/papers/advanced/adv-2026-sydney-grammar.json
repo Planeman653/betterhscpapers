@@ -6,13 +6,717 @@
  "type": "Trial",
  "thsc": {
   "viewno": "5328",
-  "title": "Sydney Grammar 2026 Mathematics Advanced Trial"
+  "title": "Sydney Grammar 2026 w. sol"
  },
  "indexed": "2026-11-17",
  "answers": "worked",
- "partial": true,
  "dropped": [],
  "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.5.1.1",
+    "11.1.2.11"
+   ],
+   "question": "Which of the following is the $y$-intercept of the curve $y = e^x + e^{-x}$?",
+   "answer": "At $x = 0$: $y = e^0 + e^0 = 2$. **(D)**",
+   "options": [
+    "$(0, -1)$",
+    "$(0, 0)$",
+    "$(0, 1)$",
+    "$(0, 2)$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.2",
+    "11.2.3.5"
+   ],
+   "question": "Which of the following is the graph of $y = 2\\cos x$ for $-2\\pi \\le x \\le 2\\pi$? The four graphs (A)–(D) are shown.",
+   "answer": "$y = 2\\cos x$ has amplitude 2, period $2\\pi$ and passes through $(0, 2)$, $(\\pm\\pi, -2)$ and $(\\pm2\\pi, 2)$. Only graph (A) matches. **(A)**",
+   "options": [
+    "(A)",
+    "(B)",
+    "(C)",
+    "(D)"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/adv-2026-sydney-grammar/q2.png"
+   ]
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Which of the following is a correct answer for $\\displaystyle\\int x^2 + 6x - 1\\,dx$?",
+   "answer": "$\\displaystyle\\int\\left(x^2 + 6x - 1\\right)dx = \\frac{x^3}{3} + 3x^2 - x + C$; (B) is the case $C = 0$. **(B)**",
+   "options": [
+    "$2x + 6$",
+    "$\\dfrac{x^3}{3} + 3x^2 - x$",
+    "$2x + 3x^2$",
+    "$\\dfrac{x^2}{3} + 3x - x$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "A table of future value interest factors is shown below.\n\n| Period | 1% | 2% | 3% | 4% | 6% | 8% |\n|---|---|---|---|---|---|---|\n| 2 | 2.0100 | 2.0200 | 2.0300 | 2.0400 | 2.0600 | 2.0800 |\n| 3 | 3.0301 | 3.0604 | 3.0909 | 3.1216 | 3.1836 | 3.2464 |\n| 4 | 4.0604 | 4.1216 | 4.1836 | 4.2465 | 4.3746 | 4.5061 |\n| 5 | 5.1010 | 5.2040 | 5.3091 | 5.4163 | 5.6371 | 5.8666 |\n| 6 | 6.1520 | 6.3081 | 6.4684 | 6.6330 | 6.9753 | 7.3359 |\n| 7 | 7.2135 | 7.4343 | 7.6625 | 7.8983 | 8.3938 | 8.9228 |\n| 8 | 8.2857 | 8.5830 | 8.8923 | 9.2142 | 9.8975 | 10.6366 |\n| 9 | 9.3685 | 9.7546 | 10.1591 | 10.5828 | 11.4913 | 12.4876 |\n| 10 | 10.4622 | 10.9497 | 11.4639 | 12.0061 | 13.1808 | 14.4866 |\n| 11 | 11.5668 | 12.1687 | 12.8078 | 13.4864 | 14.9716 | 16.6455 |\n| 12 | 12.6825 | 13.4121 | 14.1920 | 15.0258 | 16.8699 | 18.9771 |\n\nAn investor wishes to accumulate \\$50 000 over 2 years by making contributions at the end of each quarter. Interest is paid at 4% p.a., compounded quarterly.\n\nUsing the table of future value interest factors, what is the quarterly contribution required to accumulate \\$50 000?",
+   "answer": "Quarterly rate $1\\%$, $8$ quarters: factor $8.2857$. Contribution $= \\dfrac{50\\,000}{8.2857} \\approx \\$6034$. **(B)**",
+   "options": [
+    "\\$5426",
+    "\\$6034",
+    "\\$24 510",
+    "\\$24 876"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.7.2.7",
+    "11.7.3.8"
+   ],
+   "question": "A fair coin is tossed four times. What is the probability of obtaining more heads than tails?",
+   "answer": "Need 3 or 4 heads: $\\dfrac{4}{16} + \\dfrac{1}{16} = \\dfrac{5}{16}$. **(C)**",
+   "options": [
+    "$\\dfrac1{16}$",
+    "$\\dfrac12$",
+    "$\\dfrac5{16}$",
+    "$\\dfrac38$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.9.6",
+    "11.1.9.5"
+   ],
+   "question": "Which of the following statements is TRUE?",
+   "answer": "If $f$ and $g$ are odd, $f(-x)g(-x) = (-f(x))(-g(x)) = f(x)g(x)$, so the product is even. (Sums of even functions are even, sums of odd functions are odd, and products of even functions are even.) **(D)**",
+   "options": [
+    "The sum of two even functions is odd.",
+    "The sum of two odd functions is even.",
+    "The product of two even functions is odd.",
+    "The product of two odd functions is even."
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.1.9",
+    "12.5.1.10"
+   ],
+   "question": "The diagram shows the graph of $y = f(x)$. Which of the following statements must be false?",
+   "answer": "From the graph: $f(x) = 0$ at three points (the left crossing, the origin, the right crossing); $f'(x) = 0$ at three points (the minimum, the horizontal point of inflection at the origin, the maximum); $f''(x) = 0$ can be at three points (between the minimum and the origin, at the origin, between the origin and the maximum).\n\n$f(x)f'(x) = 0$ when $f(x) = 0$ or $f'(x) = 0$, but $x = 0$ is in both lists, so there are only $3 + 3 - 1 = 5$ distinct solutions. **(D)**",
+   "options": [
+    "$f(x) = 0$ has three distinct solutions.",
+    "$f'(x) = 0$ has three distinct solutions.",
+    "$f''(x) = 0$ has three distinct solutions.",
+    "$f(x)f'(x) = 0$ has six distinct solutions."
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/adv-2026-sydney-grammar/q7.png"
+   ]
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.3.10"
+   ],
+   "question": "Given $y = \\sqrt{1 + \\sqrt x}$, which of the following is the correct expression for $\\dfrac{dy}{dx}$?",
+   "answer": "$$\\frac{dy}{dx} = \\frac{1}{2\\sqrt{1 + \\sqrt x}} \\times \\frac{1}{2\\sqrt x} = \\frac{1}{4\\sqrt x\\sqrt{1 + \\sqrt x}} = \\frac{1}{4\\sqrt{x + x\\sqrt x}}.$$ **(D)**",
+   "options": [
+    "$\\dfrac{1}{2\\sqrt{1 + \\sqrt x}}$",
+    "$\\dfrac{x}{4\\sqrt{1 + \\sqrt x}}$",
+    "$\\dfrac{1}{2\\sqrt x\\sqrt{1 + \\sqrt x}}$",
+    "$\\dfrac{1}{4\\sqrt{x + x\\sqrt x}}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.9.8",
+    "11.1.10.1"
+   ],
+   "question": "Let $f(x) = \\sin 2x$ and $g(x) = |x - \\pi|$, where $0 \\le x \\le 2\\pi$. Which of the following is the correct expression for $f \\circ g(x)$?",
+   "answer": "$f(g(x)) = \\sin\\left(2|x - \\pi|\\right)$.\n- $\\pi \\le x \\le 2\\pi$: $\\sin(2x - 2\\pi) = \\sin 2x$.\n- $0 \\le x < \\pi$: $\\sin(2\\pi - 2x) = -\\sin 2x$.\n\n**(A)**",
+   "options": [
+    "$f \\circ g(x) = \\begin{cases} -\\sin 2x, & 0 \\le x < \\pi \\\\ \\sin 2x, & \\pi \\le x \\le 2\\pi \\end{cases}$",
+    "$f \\circ g(x) = \\begin{cases} \\sin 2x, & 0 \\le x < \\pi \\\\ \\sin 2x, & \\pi \\le x \\le 2\\pi \\end{cases}$",
+    "$f \\circ g(x) = \\begin{cases} -\\sin 2x, & 0 \\le x < \\pi \\\\ -\\sin 2x, & \\pi \\le x \\le 2\\pi \\end{cases}$",
+    "$f \\circ g(x) = \\begin{cases} \\sin 2x, & 0 \\le x < \\pi \\\\ -\\sin 2x, & \\pi \\le x \\le 2\\pi \\end{cases}$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.6.1.6",
+    "11.6.1.4",
+    "11.6.1.2"
+   ],
+   "question": "The graph of $y = f(x)$ undergoes the following sequence of transformations in order.\n1. Translate the graph $a$ units to the right, where $a > 0$.\n2. Dilate the graph horizontally by a factor of $b$, where $b > 1$.\n3. Translate the graph $a$ units to the left.\n4. Dilate the graph horizontally by a factor of $\\dfrac1b$.\n\nWhich of the following describes the overall effect of these transformations?",
+   "answer": "Follow a point with $x$-coordinate $x$: $x \\to x + a \\to b(x + a) \\to b(x + a) - a \\to \\dfrac{b(x + a) - a}{b} = x + a - \\dfrac ab$.\n\nEvery point moves $a\\left(1 - \\frac1b\\right)$ units right (a positive amount since $b > 1$). **(A)**",
+   "options": [
+    "A single translation of $a\\left(1 - \\dfrac1b\\right)$ units to the right.",
+    "A single translation of $a\\left(1 - \\dfrac1b\\right)$ units to the left.",
+    "A single translation of $a(b - 1)$ units to the right.",
+    "No change to the graph."
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.2.8",
+    "11.1.9.3"
+   ],
+   "question": "Find the domain of $f(x) = \\sqrt{x + 4}$.",
+   "answer": "$x + 4 \\ge 0 \\implies x \\ge -4$, i.e. $[-4, \\infty)$."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.2.9",
+    "11.5.1.1"
+   ],
+   "question": "Find the range of $f(x) = e^x - 3$.",
+   "answer": "$e^x > 0$, so $y > -3$, i.e. $(-3, \\infty)$."
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "Find the derivative of $y = \\sin 3x$.",
+   "answer": "$y' = 3\\cos 3x$."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.3"
+   ],
+   "question": "Find the derivative of $y = \\ln(4 - x)$.",
+   "answer": "$y' = \\dfrac{-1}{4 - x} = \\dfrac{1}{x - 4}$."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.7.2",
+    "12.4.4.1"
+   ],
+   "question": "Find $\\displaystyle\\int(2x - 5)^2\\,dx$.",
+   "answer": "$$\\int(2x - 5)^2\\,dx = \\frac{(2x - 5)^3}{3 \\times 2} + C = \\frac{(2x - 5)^3}{6} + C.$$\n(Equivalently $\\frac43x^3 - 10x^2 + 25x + C$.)"
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.8.1",
+    "12.4.7.2"
+   ],
+   "question": "Find $\\displaystyle\\int_0^{\\frac\\pi4}\\cos 2x\\,dx$.",
+   "answer": "$$\\int_0^{\\frac\\pi4}\\cos 2x\\,dx = \\left[\\frac12\\sin 2x\\right]_0^{\\frac\\pi4} = \\frac12\\left(\\sin\\frac\\pi2 - \\sin 0\\right) = \\frac12.$$"
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.6"
+   ],
+   "question": "A school library records the total number of books at the beginning of each year. The library contained 4200 books at the beginning of 2023 and 4380 books at the beginning of 2026.\n\nAssuming the same number of books was added each year, calculate the annual increase in the number of books.",
+   "answer": "2023 to 2026 is 3 increases: $4380 = 4200 + 3d \\implies d = 60$ books per year."
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.6"
+   ],
+   "question": "A school library records the total number of books at the beginning of each year. The library contained 4200 books at the beginning of 2023 and 4380 books at the beginning of 2026.\n\nThe number of books increases by 60 each year. Hence determine the number of books in the library at the beginning of 2025.",
+   "answer": "$4200 + 2 \\times 60 = 4320$ books."
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Consider the function $f(x) = \\tan(\\pi x) + 3$.\n\nState the period.",
+   "answer": "Period $= \\dfrac{\\pi}{\\pi} = 1$."
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.2",
+    "11.2.3.5"
+   ],
+   "question": "Consider the function $f(x) = \\tan(\\pi x) + 3$.\n\nState the equation of the vertical asymptote of $y = f(x)$ for $0 \\le x \\le 1$.",
+   "answer": "$\\tan(\\pi x)$ is undefined when $\\pi x = \\frac\\pi2$: $x = \\dfrac12$."
+  },
+  {
+   "ref": "Q16(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "The diagram shows a sector $OAB$ of a circle with centre $O$ and radius 8 cm. The minor segment cut off by chord $AB$ is shaded.\n\nFind the length of the chord $AB$, given that $\\angle AOB = \\dfrac{2\\pi}{3}$.",
+   "answer": "Cosine rule:\n$$AB^2 = 8^2 + 8^2 - 2(8)(8)\\cos\\frac{2\\pi}{3} = 128 + 64 = 192 \\implies AB = 8\\sqrt3\\ \\text{cm}.$$",
+   "images": [
+    "assets/img/adv-2026-sydney-grammar/q16.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.8",
+    "11.2.3.7"
+   ],
+   "question": "The diagram shows a sector $OAB$ of a circle with centre $O$ and radius 8 cm. The minor segment cut off by chord $AB$ is shaded.\n\nGiven $\\angle AOB = \\dfrac{2\\pi}{3}$, find the exact area of the minor segment, shaded in the diagram.",
+   "answer": "Segment = sector − triangle:\n$$A = \\frac12(8^2)\\frac{2\\pi}{3} - \\frac12(8)(8)\\sin\\frac{2\\pi}{3} = \\frac{64\\pi}{3} - 16\\sqrt3\\ \\text{cm}^2.$$",
+   "images": [
+    "assets/img/adv-2026-sydney-grammar/q16.png"
+   ]
+  },
+  {
+   "ref": "Q17",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.2",
+    "12.3.1.2"
+   ],
+   "question": "Find the equation of the tangent to $y = e^{2x}$ at the point where $x = \\dfrac12$.",
+   "answer": "At $x = \\frac12$: $y = e$. $\\;\\dfrac{dy}{dx} = 2e^{2x} = 2e$.\n$$y - e = 2e\\left(x - \\tfrac12\\right) \\implies y = 2ex.$$"
+  },
+  {
+   "ref": "Q18(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.2",
+    "12.1.1.3"
+   ],
+   "question": "The function $y = a\\sin(bx) + c$ has maximum value 6, minimum value $-2$, and period $\\dfrac{2\\pi}{3}$ radians, where $a > 0$.\n\nFind the values of $a$, $b$ and $c$.",
+   "answer": "$c = \\dfrac{6 + (-2)}{2} = 2$ (centre line), $\\;a = 6 - 2 = 4$ (amplitude), $\\;\\dfrac{2\\pi}{b} = \\dfrac{2\\pi}{3} \\implies b = 3$."
+  },
+  {
+   "ref": "Q18(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.3",
+    "11.3.1.10"
+   ],
+   "question": "The function $y = a\\sin(bx) + c$ has maximum value 6, minimum value $-2$, and period $\\dfrac{2\\pi}{3}$ radians, where $a > 0$.\n\nGiven $a = 4$, $b = 3$ and $c = 2$, state the number of solutions to the equation $a\\sin(bx) + c = 4$ for $0 \\le x \\le 2\\pi$.",
+   "answer": "$4\\sin 3x + 2 = 4 \\implies \\sin 3x = \\frac12$. On $0 \\le x \\le 2\\pi$ the graph completes 3 periods, with 2 solutions in each: **6 solutions**."
+  },
+  {
+   "ref": "Q19",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.2",
+    "11.4.3.6",
+    "11.3.1.13"
+   ],
+   "question": "The point $P\\left(0, \\frac12\\right)$ lies on the curve $y = \\frac12(\\sin x + \\cos x)^2$. Another point $Q$ lies on the curve in the domain $0 \\le x \\le \\pi$ such that the tangent to the curve at $Q$ is perpendicular to the tangent at $P$. Find the coordinates of $Q$.",
+   "answer": "$$y' = (\\sin x + \\cos x)(\\cos x - \\sin x) = \\cos^2x - \\sin^2x = \\cos 2x.$$\nAt $P$: gradient $= \\cos 0 = 1$. So at $Q$ we need gradient $-1$: $\\cos 2x = -1 \\implies 2x = \\pi \\implies x = \\frac\\pi2$ (for $0 \\le 2x \\le 2\\pi$).\n\n$y = \\frac12(1 + 0)^2 = \\frac12$, so $Q\\left(\\dfrac\\pi2, \\dfrac12\\right)$."
+  },
+  {
+   "ref": "Q20(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.4",
+    "12.7.1.3"
+   ],
+   "question": "The table shows present value interest factors for an annuity of \\$1.\n\n| Period ($n$) \\ Rate ($r$) | 0.0050 | 0.0055 | 0.0060 | 0.0065 | 0.0070 |\n|---|---|---|---|---|---|\n| 58 | 50.23911 | 49.54343 | 48.86109 | 48.19179 | 47.53525 |\n| 59 | 50.98419 | 50.26696 | 49.56370 | 48.87411 | 48.19786 |\n| 60 | 51.72556 | 50.98653 | 50.26213 | 49.55202 | 48.85587 |\n| 61 | 52.46324 | 51.70217 | 50.95639 | 50.22555 | 49.50931 |\n\nSophie plans to pay \\$200 into an investment account at the end of each month for 58 months. Her investment will earn 0.55% interest per month. Use the information in the table to calculate the present value of this annuity.",
+   "answer": "$PV = 200 \\times 49.54343 = \\$9908.69$."
+  },
+  {
+   "ref": "Q20(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.1.3",
+    "12.7.1.2"
+   ],
+   "question": "The table shows present value interest factors for an annuity of \\$1.\n\n| Period ($n$) \\ Rate ($r$) | 0.0050 | 0.0055 | 0.0060 | 0.0065 | 0.0070 |\n|---|---|---|---|---|---|\n| 58 | 50.23911 | 49.54343 | 48.86109 | 48.19179 | 47.53525 |\n| 59 | 50.98419 | 50.26696 | 49.56370 | 48.87411 | 48.19786 |\n| 60 | 51.72556 | 50.98653 | 50.26213 | 49.55202 | 48.85587 |\n| 61 | 52.46324 | 51.70217 | 50.95639 | 50.22555 | 49.50931 |\n\nDaniel borrows \\$22 600 at an interest rate of 7.8% per annum, compounded monthly. He can afford repayments of at most \\$450 per month. Using the table, determine the minimum number of monthly repayments required.",
+   "answer": "Monthly rate $= 7.8\\% \\div 12 = 0.0065$. We need $450 \\times \\text{factor} \\ge 22\\,600$, i.e. factor $\\ge 50.222$. In the $0.0065$ column the first factor that big is $50.22555$ at $n = 61$: **61 months**."
+  },
+  {
+   "ref": "Q21(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.3",
+    "11.1.4.4"
+   ],
+   "question": "The table shows the probability distribution of a discrete random variable.\n\n| $x$ | 5 | 10 | 15 | 20 |\n|---|---|---|---|---|\n| $P(X = x)$ | $k^2$ | 0.27 | 0.67 | $0.1k$ |\n\nFind the value of $k$.",
+   "answer": "$$k^2 + 0.27 + 0.67 + 0.1k = 1 \\implies 50k^2 + 5k - 3 = 0 \\implies (5k - 1)(10k + 3) = 0.$$\n$k = \\frac15$ or $k = -\\frac{3}{10}$; probabilities cannot be negative ($0.1k \\ge 0$), so $k = \\dfrac15$."
+  },
+  {
+   "ref": "Q21(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.5",
+    "12.6.1.9"
+   ],
+   "question": "The table shows the probability distribution of a discrete random variable.\n\n| $x$ | 5 | 10 | 15 | 20 |\n|---|---|---|---|---|\n| $P(X = x)$ | $k^2$ | 0.27 | 0.67 | $0.1k$ |\n\nGiven $k = \\dfrac15$, find the expected value $E(X)$.",
+   "answer": "$E(X) = 5(0.04) + 10(0.27) + 15(0.67) + 20(0.02) = 0.2 + 2.7 + 10.05 + 0.4 = 13.35$."
+  },
+  {
+   "ref": "Q22",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.12",
+    "11.3.1.11"
+   ],
+   "question": "Prove that\n$$\\frac{(\\cot\\theta - \\tan\\theta)^2}{\\cot^2\\theta - \\tan^2\\theta} = \\cos^2\\theta - \\sin^2\\theta.$$",
+   "answer": "$$\\text{LHS} = \\frac{(\\cot\\theta - \\tan\\theta)^2}{(\\cot\\theta - \\tan\\theta)(\\cot\\theta + \\tan\\theta)} = \\frac{\\cot\\theta - \\tan\\theta}{\\cot\\theta + \\tan\\theta}.$$\nMultiply top and bottom by $\\sin\\theta\\cos\\theta$:\n$$= \\frac{\\cos^2\\theta - \\sin^2\\theta}{\\cos^2\\theta + \\sin^2\\theta} = \\cos^2\\theta - \\sin^2\\theta = \\text{RHS}.$$"
+  },
+  {
+   "ref": "Q23(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.7.2.5"
+   ],
+   "question": "A survey of pupils at a school found that one-third of the pupils are members of the Chess Club, one-half are members of the Debating Club, and two-thirds are members of either the Chess Club or the Debating Club or both.\n\nOne pupil from the survey is selected at random. Let $C$ be the event that the selected pupil is a member of the Chess Club, and let $D$ be the event that the selected pupil is a member of the Debating Club.\n\nFind $P(C \\cap D)$.",
+   "answer": "$P(C \\cap D) = P(C) + P(D) - P(C \\cup D) = \\frac13 + \\frac12 - \\frac23 = \\dfrac16$."
+  },
+  {
+   "ref": "Q23(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.2.5"
+   ],
+   "question": "A survey of pupils at a school found that one-third of the pupils are members of the Chess Club, one-half are members of the Debating Club, and two-thirds are members of either the Chess Club or the Debating Club or both.\n\nOne pupil from the survey is selected at random. Let $C$ be the event that the selected pupil is a member of the Chess Club, and let $D$ be the event that the selected pupil is a member of the Debating Club.\n\nGiven $P(C \\cap D) = \\frac16$, state whether $C$ and $D$ are mutually exclusive. Justify your answer.",
+   "answer": "$P(C \\cap D) = \\frac16 \\ne 0$, so they are **not** mutually exclusive."
+  },
+  {
+   "ref": "Q23(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.3.6",
+    "11.7.3.7"
+   ],
+   "question": "A survey of pupils at a school found that one-third of the pupils are members of the Chess Club, one-half are members of the Debating Club, and two-thirds are members of either the Chess Club or the Debating Club or both.\n\nOne pupil from the survey is selected at random. Let $C$ be the event that the selected pupil is a member of the Chess Club, and let $D$ be the event that the selected pupil is a member of the Debating Club.\n\nGiven $P(C \\cap D) = \\frac16$, determine whether $C$ and $D$ are independent. Justify your answer with calculations.",
+   "answer": "$P(C) \\times P(D) = \\frac13 \\times \\frac12 = \\frac16 = P(C \\cap D)$, so $C$ and $D$ **are independent**."
+  },
+  {
+   "ref": "Q24",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.8.11",
+    "12.4.8.13"
+   ],
+   "question": "The table shows the velocity of a cyclist at different times during a ride.\n\n| Time, $t$ seconds | 0 | 10 | 20 | 30 | 40 |\n|---|---|---|---|---|---|\n| Velocity, $v$ m/s | 3.2 | 4.8 | 6.1 | 5.7 | 4.9 |\n\nUse the trapezoidal rule with 4 subintervals to estimate the distance travelled by the cyclist during the first 40 seconds. Give your answer correct to one decimal place.",
+   "answer": "$$d \\approx \\frac{10}{2}\\left[3.2 + 4.9 + 2(4.8 + 6.1 + 5.7)\\right] = 5 \\times 41.3 = 206.5\\ \\text{m}.$$"
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.7"
+   ],
+   "question": "Consider the geometric series $\\cos x + \\cos^3x + \\cos^5x + \\cos^7x + \\cdots$, where $0 < x < \\dfrac\\pi2$.\n\nShow that the limiting sum of this series exists.",
+   "answer": "$r = \\dfrac{\\cos^3x}{\\cos x} = \\cos^2x$. For $0 < x < \\frac\\pi2$, $0 < \\cos x < 1$, so $0 < \\cos^2x < 1$, i.e. $|r| < 1$, and the limiting sum exists."
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.7",
+    "11.3.1.13"
+   ],
+   "question": "Consider the geometric series $\\cos x + \\cos^3x + \\cos^5x + \\cos^7x + \\cdots$, where $0 < x < \\dfrac\\pi2$.\n\nThe common ratio is $\\cos^2x$, with $|r| < 1$. Hence solve $\\cos x + \\cos^3x + \\cos^5x + \\cos^7x + \\cdots = \\dfrac23$ for $0 < x < \\dfrac\\pi2$.",
+   "answer": "$$\\frac{\\cos x}{1 - \\cos^2x} = \\frac23 \\implies 3\\cos x = 2 - 2\\cos^2x \\implies 2\\cos^2x + 3\\cos x - 2 = 0 \\implies (2\\cos x - 1)(\\cos x + 2) = 0.$$\n$\\cos x = -2$ is impossible, so $\\cos x = \\frac12$ and $x = \\dfrac\\pi3$."
+  },
+  {
+   "ref": "Q26(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.8"
+   ],
+   "question": "A medical substance is injected into a patient's bloodstream. The amount of the substance remaining in the bloodstream after $t$ hours is modelled by $A = A_0e^{-kt}$, where $A_0$ is the initial amount and $k$ is a positive constant.\n\nAfter 6 hours, the amount of substance remaining is 40% of the initial amount.\n\nShow that $k = \\dfrac16\\ln\\left(\\dfrac52\\right)$.",
+   "answer": "$\\frac25A_0 = A_0e^{-6k} \\implies e^{6k} = \\frac52 \\implies 6k = \\ln\\frac52 \\implies k = \\dfrac16\\ln\\left(\\dfrac52\\right)$."
+  },
+  {
+   "ref": "Q26(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.8",
+    "12.5.3.6"
+   ],
+   "question": "A medical substance is injected into a patient's bloodstream. The amount of the substance remaining in the bloodstream after $t$ hours is modelled by $A = A_0e^{-kt}$, where $A_0$ is the initial amount and $k$ is a positive constant.\n\nAfter 6 hours, the amount of substance remaining is 40% of the initial amount.\n\n$k = \\frac16\\ln\\left(\\frac52\\right)$. Find the rate, in terms of $A_0$, at which the amount of the substance is changing when the remaining amount is equal to half of its initial amount.",
+   "answer": "$\\dfrac{dA}{dt} = -kA_0e^{-kt} = -kA$. When $A = \\frac12A_0$:\n$$\\frac{dA}{dt} = -\\frac16\\ln\\left(\\frac52\\right) \\times \\frac12A_0 = -\\frac{1}{12}\\ln\\left(\\frac52\\right)A_0 \\;(\\approx -0.0764A_0) \\text{ per hour}.$$"
+  },
+  {
+   "ref": "Q26(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.8",
+    "11.5.2.9"
+   ],
+   "question": "A medical substance is injected into a patient's bloodstream. The amount of the substance remaining in the bloodstream after $t$ hours is modelled by $A = A_0e^{-kt}$, where $A_0$ is the initial amount and $k$ is a positive constant.\n\nAfter 6 hours, the amount of substance remaining is 40% of the initial amount.\n\n$k = \\frac16\\ln\\left(\\frac52\\right)$. Find the time taken for the amount of the substance to fall to 12% of its initial amount. Give your answer to the nearest hour.",
+   "answer": "$$\\frac{3}{25} = e^{-kt} \\implies t = \\frac{\\ln\\frac{25}{3}}{k} = \\frac{6\\ln\\frac{25}{3}}{\\ln\\frac52} \\approx 13.88 \\approx 14 \\text{ hours}.$$"
+  },
+  {
+   "ref": "Q27",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.6",
+    "12.4.6.3"
+   ],
+   "question": "The diagram shows the shaded region bounded by the curve $y = \\dfrac{6x}{x^2 + 1}$, the line $y = -3x + 6$, the line $x = 3$ and the $x$-axis. The curve and the line meet at $(1, 3)$, and the line meets the $x$-axis at $(2, 0)$.\n\nFind the exact area of the shaded region.",
+   "answer": "Shaded area = area under the curve from $x = 1$ to $x = 3$, minus the triangle under the line from $x = 1$ to $x = 2$:\n$$\\int_1^3\\frac{6x}{x^2 + 1}\\,dx - \\frac12 \\times 1 \\times 3 = \\Big[3\\ln(x^2 + 1)\\Big]_1^3 - \\frac32 = 3\\ln 10 - 3\\ln 2 - \\frac32 = 3\\ln 5 - \\frac32 \\text{ square units}.$$",
+   "images": [
+    "assets/img/adv-2026-sydney-grammar/q27.png"
+   ]
+  },
+  {
+   "ref": "Q28(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.1.3",
+    "12.7.1.1",
+    "12.2.3.5"
+   ],
+   "question": "Naomi takes out a mortgage of \\$650 000 to purchase a home. The mortgage is to be repaid over 30 years in equal monthly repayments, paid at the end of each month. Interest is charged at 4.8% per annum, compounded monthly. Let $A_n$ be the amount owing on the mortgage immediately after the $n$th monthly repayment.\n\nFind a formula for the amount, $A_n$, and calculate Naomi's monthly repayment, correct to the nearest cent.",
+   "answer": "Monthly rate $0.4\\% = 0.004$; let the repayment be $M$.\n$$A_1 = 650\\,000(1.004) - M, \\quad A_2 = 650\\,000(1.004)^2 - M(1 + 1.004), \\;\\ldots$$\n$$A_n = 650\\,000(1.004)^n - M\\left(1 + 1.004 + \\cdots + 1.004^{n-1}\\right) = 650\\,000(1.004)^n - \\frac{M\\left(1.004^n - 1\\right)}{0.004}.$$\n$A_{360} = 0$:\n$$M = \\frac{650\\,000(1.004)^{360} \\times 0.004}{1.004^{360} - 1} \\approx \\$3410.32.$$"
+  },
+  {
+   "ref": "Q28(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.1.3",
+    "12.7.1.2"
+   ],
+   "question": "Naomi takes out a mortgage of \\$650 000 to purchase a home. The mortgage is to be repaid over 30 years in equal monthly repayments, paid at the end of each month. Interest is charged at 4.8% per annum, compounded monthly. Let $A_n$ be the amount owing on the mortgage immediately after the $n$th monthly repayment.\n\n$A_n = 650\\,000(1.004)^n - \\dfrac{M\\left(1.004^n - 1\\right)}{0.004}$. Instead of making the monthly repayments found in part (a), Naomi decides to make monthly repayments of \\$4000 throughout the term of the loan. The interest rate remains unchanged. Calculate how long it will take her to repay the loan.",
+   "answer": "Set $A_n = 0$ with $M = 4000$:\n$$0 = 650\\,000(1.004)^n - 1\\,000\\,000\\left(1.004^n - 1\\right) \\implies 350\\,000(1.004)^n = 1\\,000\\,000 \\implies 1.004^n = \\frac{20}{7}.$$\n$n = \\dfrac{\\ln(20/7)}{\\ln 1.004} \\approx 262.98$, so **263 months** (21 years 11 months)."
+  },
+  {
+   "ref": "Q28(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.1.3"
+   ],
+   "question": "Naomi takes out a mortgage of \\$650 000 to purchase a home. The mortgage is to be repaid over 30 years in equal monthly repayments, paid at the end of each month. Interest is charged at 4.8% per annum, compounded monthly. Let $A_n$ be the amount owing on the mortgage immediately after the $n$th monthly repayment.\n\nWith repayments of \\$3410.32 the loan takes 360 months; with repayments of \\$4000 it takes 263 months. Hence, calculate how much interest Naomi will save over the life of the loan by increasing her monthly repayments to \\$4000.",
+   "answer": "Saving $\\approx 3410.32 \\times 360 - 4000 \\times 263 = 1\\,227\\,715.20 - 1\\,052\\,000 = \\$175\\,715.20$.\n\n(The 263rd repayment is actually a little under \\$4000, so the true saving is slightly more, about \\$175 796.)"
+  },
+  {
+   "ref": "Q29",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.3.1.13",
+    "11.3.1.10",
+    "11.1.3.6"
+   ],
+   "question": "Let $P$ be the point $\\left(\\cos 2\\theta, \\sqrt3\\sin 2\\theta\\right)$, where $0 < \\theta < 2\\pi$. The point $A$ has coordinates $(1, 0)$. The midpoint of $AP$ lies on the line $y = x - \\dfrac12$. Find all possible values of $\\theta$.",
+   "answer": "Midpoint $\\left(\\dfrac{1 + \\cos 2\\theta}{2}, \\dfrac{\\sqrt3\\sin 2\\theta}{2}\\right)$. Substituting:\n$$\\frac{\\sqrt3\\sin 2\\theta}{2} = \\frac{1 + \\cos 2\\theta}{2} - \\frac12 \\implies \\sqrt3\\sin 2\\theta = \\cos 2\\theta \\implies \\tan 2\\theta = \\frac{1}{\\sqrt3}.$$\nWith $0 < 2\\theta < 4\\pi$: $2\\theta = \\frac\\pi6, \\frac{7\\pi}{6}, \\frac{13\\pi}{6}, \\frac{19\\pi}{6}$, so\n$$\\theta = \\frac{\\pi}{12}, \\frac{7\\pi}{12}, \\frac{13\\pi}{12}, \\frac{19\\pi}{12}.$$"
+  },
+  {
+   "ref": "Q30",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.6",
+    "12.4.8.4"
+   ],
+   "question": "The diagram shows the graph of $y = f(x)$, formed by a semicircular arc and five line segments: a semicircle of radius 1 above the $x$-axis from $x = 0$ to $x = 2$; vertical segments down to $y = -2$ at $x = 2$ and up from $y = -2$ at $x = 4$, with a horizontal segment at $y = -2$ between them; then segments from $(4, 0)$ to $(5, -2)$ and from $(5, -2)$ to $(7, 0)$.\n\nEvaluate $\\displaystyle\\int_0^5 2\\left(f(x) + 1\\right)dx$. Give your answer as an exact value.",
+   "answer": "Using signed areas:\n$$\\int_0^5 f(x)\\,dx = \\underbrace{\\tfrac12\\pi(1)^2}_{\\text{semicircle}} - \\underbrace{2 \\times 2}_{\\text{rectangle}} - \\underbrace{\\tfrac12 \\times 1 \\times 2}_{\\text{triangle}} = \\frac\\pi2 - 5.$$\n$$\\int_0^5 2(f(x) + 1)\\,dx = 2\\left(\\frac\\pi2 - 5\\right) + 2 \\times 5 = \\pi.$$",
+   "images": [
+    "assets/img/adv-2026-sydney-grammar/q30.png"
+   ]
+  },
+  {
+   "ref": "Q31(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.4",
+    "11.4.3.10"
+   ],
+   "question": "Differentiate $\\sqrt{e^{4x} - 1}$ with respect to $x$.",
+   "answer": "$$\\frac{d}{dx}\\left(e^{4x} - 1\\right)^{\\frac12} = \\frac12\\left(e^{4x} - 1\\right)^{-\\frac12} \\times 4e^{4x} = \\frac{2e^{4x}}{\\sqrt{e^{4x} - 1}}.$$"
+  },
+  {
+   "ref": "Q31(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.1",
+    "12.4.4.1"
+   ],
+   "question": "Given $\\dfrac{d}{dx}\\sqrt{e^{4x} - 1} = \\dfrac{2e^{4x}}{\\sqrt{e^{4x} - 1}}$: the gradient function of a curve is $\\dfrac{dy}{dx} = \\dfrac{e^{4x}}{\\sqrt{e^{4x} - 1}}$. The curve passes through the point $(\\ln 3, 0)$. Find the equation of the curve, giving your answer in exact form.",
+   "answer": "From part (a), $y = \\frac12\\sqrt{e^{4x} - 1} + C$. At $(\\ln 3, 0)$: $e^{4\\ln 3} = 81$, so\n$$0 = \\frac12\\sqrt{80} + C \\implies C = -2\\sqrt5.$$\n$$y = \\frac12\\sqrt{e^{4x} - 1} - 2\\sqrt5.$$"
+  },
+  {
+   "ref": "Q32(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.2.8",
+    "11.5.2.11"
+   ],
+   "question": "Consider the function $f(x) = x\\ln x - 2x$.\n\nState the domain of $f(x)$.",
+   "answer": "$\\ln x$ needs $x > 0$: domain $x > 0$."
+  },
+  {
+   "ref": "Q32(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.4",
+    "12.5.1.8",
+    "12.3.2.1"
+   ],
+   "question": "Consider the function $f(x) = x\\ln x - 2x$.\n\nFind all stationary points of the function and determine their nature.",
+   "answer": "$f'(x) = \\ln x + 1 - 2 = \\ln x - 1 = 0 \\implies x = e$, $\\;f(e) = e - 2e = -e$.\n\n$f''(x) = \\dfrac1x$, and $f''(e) = \\dfrac1e > 0$, so $(e, -e)$ is a **minimum** turning point."
+  },
+  {
+   "ref": "Q32(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.2.11",
+    "11.5.2.9"
+   ],
+   "question": "Consider the function $f(x) = x\\ln x - 2x$.\n\nFind all $x$-intercepts of the function.",
+   "answer": "$x(\\ln x - 2) = 0$. $x = 0$ is outside the domain, so $\\ln x = 2$: $x = e^2$. The only $x$-intercept is $(e^2, 0)$."
+  },
+  {
+   "ref": "Q32(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.9"
+   ],
+   "question": "Consider the function $f(x) = x\\ln x - 2x$.\n\nThe domain is $x > 0$, there is a minimum turning point at $(e, -e)$ and the only $x$-intercept is $(e^2, 0)$. Hence, sketch the graph of $y = f(x)$.",
+   "answer": "As $x \\to 0^+$, $f(x) \\to 0$, so draw an open circle at the origin. The curve falls to the minimum $(e, -e)$, rises through $(e^2, 0)$ and keeps increasing (concave up throughout, since $f''(x) = \\frac1x > 0$).",
+   "answer_images": [
+    "assets/img/adv-2026-sydney-grammar/q32d-sketch.png"
+   ]
+  },
   {
    "ref": "Q33(a)",
    "kind": "written",
@@ -46,6 +750,61 @@
    ],
    "question": "Let the concentration of hydrogen ions in a solution be $H$, measured in $\\text{mol L}^{-1}$.\n\nA scientist prepares a number of solutions whose concentrations of hydrogen ions form a geometric sequence. Let $H_n$ be the concentration of the $n$th solution. The first solution has concentration $H_1 = 10^{-2}\\ \\text{mol L}^{-1}$ and each subsequent solution has half the concentration of the previous solution.\n\nThe acidity (pH) of the $n$th solution is $A_n = 2 + (n-1)\\log_{10}2$. Determine the first solution in the sequence whose acidity exceeds 7.",
    "answer": "$$2 + (n-1)\\log_{10}2 > 7 \\implies n - 1 > \\frac{5}{\\log_{10}2} = 16.6\\ldots \\implies n > 17.6\\ldots$$\nThe first such solution is the **18th** solution."
+  },
+  {
+   "ref": "Q34(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.1.2",
+    "12.5.2.3"
+   ],
+   "question": "The diagram shows a circle with centre $O$ and radius 6 cm. The circle meets the negative $x$-axis at point $A$.\n\nThe point $P$ lies on the circle in the first quadrant, and $OP$ makes an angle $\\theta$ radians with the positive $x$-axis. The point $Q$ is the foot of the perpendicular from $P$ to the $x$-axis.\n\nShow that the area of triangle $APQ$ is $18\\sin\\theta(1 + \\cos\\theta)\\ \\text{cm}^2$.",
+   "answer": "In right-angled $\\triangle OPQ$: $PQ = 6\\sin\\theta$ and $OQ = 6\\cos\\theta$. So $AQ = AO + OQ = 6 + 6\\cos\\theta$, and\n$$\\text{Area} = \\frac12 \\times AQ \\times PQ = \\frac12(6 + 6\\cos\\theta)(6\\sin\\theta) = 18\\sin\\theta(1 + \\cos\\theta).$$",
+   "images": [
+    "assets/img/adv-2026-sydney-grammar/q34.png"
+   ]
+  },
+  {
+   "ref": "Q34(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.3.4.1",
+    "11.3.1.13"
+   ],
+   "question": "The diagram shows a circle with centre $O$ and radius 6 cm. The circle meets the negative $x$-axis at point $A$.\n\nThe point $P$ lies on the circle in the first quadrant, and $OP$ makes an angle $\\theta$ radians with the positive $x$-axis. The point $Q$ is the foot of the perpendicular from $P$ to the $x$-axis.\n\nThe area of triangle $APQ$ is $A = 18\\sin\\theta(1 + \\cos\\theta)\\ \\text{cm}^2$, for $0 < \\theta < \\frac\\pi2$. Use calculus to find the maximum possible area of triangle $APQ$.",
+   "answer": "$$A' = 18\\cos\\theta(1 + \\cos\\theta) - 18\\sin^2\\theta = 18\\cos\\theta + 18\\cos^2\\theta - 18(1 - \\cos^2\\theta) = 36\\cos^2\\theta + 18\\cos\\theta - 18.$$\n$A' = 0 \\implies 2\\cos^2\\theta + \\cos\\theta - 1 = 0 \\implies (2\\cos\\theta - 1)(\\cos\\theta + 1) = 0$. In the first quadrant $\\cos\\theta = \\frac12$, so $\\theta = \\frac\\pi3$.\n\n$A'' = -72\\cos\\theta\\sin\\theta - 18\\sin\\theta < 0$ at $\\theta = \\frac\\pi3$, so it is a maximum:\n$$A_{\\max} = 18 \\times \\frac{\\sqrt3}{2}\\left(1 + \\frac12\\right) = \\frac{27\\sqrt3}{2}\\ \\text{cm}^2.$$",
+   "images": [
+    "assets/img/adv-2026-sydney-grammar/q34.png"
+   ]
+  },
+  {
+   "ref": "Q35(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.8.2",
+    "12.4.8.1"
+   ],
+   "question": "The curve $y = 4x - x^2$ and the $x$-axis enclose a region.\n\nShow that the area of the region is $\\dfrac{32}{3}$ square units.",
+   "answer": "The curve meets the $x$-axis at $x = 0$ and $x = 4$ and is above it in between:\n$$\\int_0^4\\left(4x - x^2\\right)dx = \\left[2x^2 - \\frac{x^3}{3}\\right]_0^4 = 32 - \\frac{64}{3} = \\frac{32}{3}.$$"
+  },
+  {
+   "ref": "Q35(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.4.8.6",
+    "12.4.8.1"
+   ],
+   "question": "The curve $y = 4x - x^2$ and the $x$-axis enclose a region.\n\nThe region has area $\\dfrac{32}{3}$ square units. A horizontal line $y = 4 - k$, where $0 < k < 4$, cuts the curve at two points and divides the region into two equal areas. Find the exact value of $k$.",
+   "answer": "$y = 4 - (x - 2)^2$. It meets $y = 4 - k$ where $(x - 2)^2 = k$, i.e. $x = 2 \\pm a$ with $a = \\sqrt k$.\n\nThe part above the line must have area $\\frac{16}{3}$:\n$$\\int_{2-a}^{2+a}\\left(k - (x - 2)^2\\right)dx = \\left[a^2x - \\frac{(x - 2)^3}{3}\\right]_{2-a}^{2+a} = 2a^3 - \\frac{2a^3}{3} = \\frac{4a^3}{3}.$$\n$\\dfrac{4a^3}{3} = \\dfrac{16}{3} \\implies a^3 = 4 \\implies k^{3/2} = 4 \\implies k = 4^{2/3} = \\sqrt[3]{16}$."
   }
  ]
 }
