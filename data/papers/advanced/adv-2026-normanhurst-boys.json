@@ -6,13 +6,350 @@
  "type": "Trial",
  "thsc": {
   "viewno": "5328",
-  "title": "Normanhurst Boys 2026 Mathematics Advanced Trial"
+  "title": "Normanhurst Boys 2026 w. sol"
  },
  "indexed": "2026-11-17",
  "answers": "worked",
- "partial": true,
- "dropped": [],
+ "dropped": [
+  {
+   "ref": "Q2",
+   "reason": "Not in 2024 syllabus: box plots"
+  },
+  {
+   "ref": "Q3",
+   "reason": "Not in 2024 syllabus: bivariate data and line of best fit"
+  },
+  {
+   "ref": "Q11",
+   "reason": "Not in 2024 syllabus: scatterplot, linear association and line of best fit (bivariate data)"
+  }
+ ],
  "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.1.5",
+    "11.1.1.4"
+   ],
+   "question": "Which of the following gives the correct values of $a$ and $b$?\n$$\\frac{\\sqrt2 - 3}{3\\sqrt2} = a + b\\sqrt2$$",
+   "answer": "$$\\frac{\\sqrt2 - 3}{3\\sqrt2} \\times \\frac{\\sqrt2}{\\sqrt2} = \\frac{2 - 3\\sqrt2}{6} = \\frac13 - \\frac12\\sqrt2.$$ **(A)**",
+   "options": [
+    "$a = \\frac13,\\ b = -\\frac12$",
+    "$a = -\\frac12,\\ b = \\frac13$",
+    "$a = \\frac13,\\ b = -\\frac13$",
+    "$a = \\frac12,\\ b = -\\frac12$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.5.2.9",
+    "11.5.2.4"
+   ],
+   "question": "What is the solution to the equation $\\log_3(2x - 5) = 2$?",
+   "answer": "$2x - 5 = 3^2 = 9 \\implies x = 7$. **(D)**",
+   "options": [
+    "$x = 1$",
+    "$x = \\frac{13}{2}$",
+    "$x = \\frac{11}{2}$",
+    "$x = 7$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.5.2.11",
+    "11.6.1.6"
+   ],
+   "question": "Which of the following could represent the graph of $y = -\\log_e(x - 3)$?",
+   "answer": "$y = \\ln x$ moved 3 right (asymptote $x = 3$, $x$-intercept 4), then reflected in the $x$-axis, so it decreases from $+\\infty$ near $x = 3$ through $(4, 0)$. **(A)**",
+   "options": [
+    "![Graph A](assets/img/adv-2026-normanhurst-boys/q5a.png)",
+    "![Graph B](assets/img/adv-2026-normanhurst-boys/q5b.png)",
+    "![Graph C](assets/img/adv-2026-normanhurst-boys/q5c.png)",
+    "![Graph D](assets/img/adv-2026-normanhurst-boys/q5d.png)"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "What is the amplitude and period for the function $f(x) = 4\\sin\\left(\\dfrac{x + \\pi}{3}\\right)$?",
+   "answer": "Amplitude 4; $n = \\frac13$, so period $= \\dfrac{2\\pi}{1/3} = 6\\pi$. **(D)**",
+   "options": [
+    "Amplitude: 3, period: $\\frac\\pi2$",
+    "Amplitude: 3, period: $6\\pi$",
+    "Amplitude: 4, period: $\\frac\\pi2$",
+    "Amplitude: 4, period: $6\\pi$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.3.1.10"
+   ],
+   "question": "For $0 \\le x \\le \\pi$, which of the following is the solution to the equation $\\cos x(\\tan x - 1) = 0$?",
+   "answer": "$\\cos x = 0$ gives $x = \\frac\\pi2$, but $\\tan x$ is undefined there, so it is not a solution. $\\tan x = 1 \\implies x = \\frac\\pi4$ (and $\\frac{5\\pi}{4}$ is outside the domain). **(B)**",
+   "options": [
+    "No solution",
+    "$x = \\frac\\pi4$ only",
+    "$x = \\frac\\pi2$ only",
+    "$x = \\frac\\pi4$ or $x = \\frac\\pi2$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.3.6",
+    "11.4.3.5"
+   ],
+   "question": "For what value of $c$ is the line $y = 4x$ tangent to the parabola $y = 8x - x^2 + c$?",
+   "answer": "Gradients equal: $8 - 2x = 4 \\implies x = 2$, where the line has $y = 8$. Then $8 = 16 - 4 + c \\implies c = -4$. **(A)**",
+   "options": [
+    "$-4$",
+    "$-2$",
+    "$4$",
+    "$8$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.8.1",
+    "12.4.4.1"
+   ],
+   "question": "Given that $\\displaystyle\\int_2^a f(x)\\,dx = 3$, what is the value of $\\displaystyle\\int_2^a\\left(\\frac13f(x) - 2\\right)dx$?",
+   "answer": "$\\dfrac13(3) - \\Big[2x\\Big]_2^a = 1 - (2a - 4) = 5 - 2a$. **(A)**",
+   "options": [
+    "$5 - 2a$",
+    "$5 + 2a$",
+    "$-2a$",
+    "$2a$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.8.4",
+    "12.4.8.3"
+   ],
+   "question": "The graph of $y = x^2 - x - 2$ is shown. Which expression will give the area of the shaded region bounded by the curve $y = x^2 - x - 2$, the $x$-axis and the lines $x = 0$ and $x = 5$?",
+   "answer": "$x^2 - x - 2 = (x - 2)(x + 1)$, so the curve is below the axis on $(0, 2)$ and above on $(2, 5)$. Take the absolute value of the part below. **(C)**",
+   "options": [
+    "$A = \\left|\\displaystyle\\int_0^1 x^2 - x - 2\\,dx\\right| + \\displaystyle\\int_1^5 x^2 - x - 2\\,dx$",
+    "$A = \\displaystyle\\int_0^1 x^2 - x - 2\\,dx + \\left|\\displaystyle\\int_1^5 x^2 - x - 2\\,dx\\right|$",
+    "$A = \\left|\\displaystyle\\int_0^2 x^2 - x - 2\\,dx\\right| + \\displaystyle\\int_2^5 x^2 - x - 2\\,dx$",
+    "$A = \\displaystyle\\int_0^2 x^2 - x - 2\\,dx + \\left|\\displaystyle\\int_2^5 x^2 - x - 2\\,dx\\right|$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/adv-2026-normanhurst-boys/q10.png"
+   ]
+  },
+  {
+   "ref": "Q12",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.5.2.7"
+   ],
+   "question": "If $\\log_a 5 = 1.3$ and $\\log_a 7 = 1.5$, find the value of $\\log_a\\left(\\dfrac{25}{7}\\right)$.",
+   "answer": "$\\log_a\\dfrac{25}{7} = 2\\log_a 5 - \\log_a 7 = 2(1.3) - 1.5 = 1.1$."
+  },
+  {
+   "ref": "Q13",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.2.9",
+    "11.1.1.6"
+   ],
+   "question": "Solve for $x$: $(\\ln x)^2 - \\ln x^3 - 4 = 0$.",
+   "answer": "$(\\ln x)^2 - 3\\ln x - 4 = 0 \\implies (\\ln x - 4)(\\ln x + 1) = 0 \\implies \\ln x = 4$ or $-1$, so $x = e^4$ or $x = e^{-1}$."
+  },
+  {
+   "ref": "Q14",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.6.1.6",
+    "11.6.1.4",
+    "11.6.1.2"
+   ],
+   "question": "The graph $f(x)$ undergoes the following sequence of transformations to produce $g(x) = \\sqrt{3 - 2x}$:\n- Translation 2 units to the right\n- Horizontal dilation by a factor of $\\frac12$\n- Reflected along the $y$-axis\n\nFind the equation of the original graph $f(x)$.",
+   "answer": "Undo the transformations in reverse order.\n- Undo the reflection: $\\sqrt{3 + 2x}$.\n- Undo the horizontal dilation by $\\frac12$ (replace $x$ by $\\frac x2$): $\\sqrt{3 + x}$.\n- Undo the translation 2 right (replace $x$ by $x + 2$): $\\sqrt{x + 5}$.\n\nSo $f(x) = \\sqrt{x + 5}$. (Check: $\\sqrt{x + 5} \\to \\sqrt{x + 3} \\to \\sqrt{2x + 3} \\to \\sqrt{3 - 2x}$.)"
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.6",
+    "12.2.2.2"
+   ],
+   "question": "The sales team at Frontier phone company sells 12 000 phones in the first month of operation. They increase their sales by 800 phones each month on the preceding month's sales.\n\nFind the number of phones sold in the last month of the second year of operation.",
+   "answer": "$T_{24} = 12\\,000 + 23 \\times 800 = 30\\,400$ phones."
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.6",
+    "12.2.2.5"
+   ],
+   "question": "The sales team at Frontier phone company sells 12 000 phones in the first month of operation. They increase their sales by 800 phones each month on the preceding month's sales.\n\nSampson, another phone company, commenced business at exactly the same time as Frontier. Their sales team sells 5000 phones in their first month of operation and increases their sales by 1500 each month on the preceding month's sales. After how many months will Sampson's total sales exceed Frontier's total sales?",
+   "answer": "$$S_F = \\frac n2\\left(2 \\times 12\\,000 + 800(n - 1)\\right) = \\frac n2(23\\,200 + 800n), \\qquad S_S = \\frac n2\\left(2 \\times 5000 + 1500(n - 1)\\right) = \\frac n2(8500 + 1500n).$$\n$$S_S > S_F \\iff 8500 + 1500n > 23\\,200 + 800n \\iff 700n > 14\\,700 \\iff n > 21.$$\nThe totals are equal after 21 months, so Sampson's total first exceeds Frontier's after **22 months**.\n\n(The paper's sample solution used $5000 + 1500(n - 1)$ in place of $2 \\times 5000 + 1500(n - 1)$ and got 29 months; the corrected working is above.)"
+  },
+  {
+   "ref": "Q16(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.3.3",
+    "11.4.3.4"
+   ],
+   "question": "Differentiate with respect to $x$: $f(x) = \\dfrac{2x^2 + 7x + 3}{\\sqrt x}$.",
+   "answer": "$f(x) = 2x^{\\frac32} + 7x^{\\frac12} + 3x^{-\\frac12}$, so\n$$f'(x) = 3x^{\\frac12} + \\frac72x^{-\\frac12} - \\frac32x^{-\\frac32} = 3\\sqrt x + \\frac{7}{2\\sqrt x} - \\frac{3}{2x\\sqrt x}.$$"
+  },
+  {
+   "ref": "Q16(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.1",
+    "12.3.2.1"
+   ],
+   "question": "Differentiate with respect to $x$: $f(x) = \\left(x^2 + 5\\right)\\ln x$.",
+   "answer": "$f'(x) = 2x\\ln x + \\dfrac{x^2 + 5}{x}$."
+  },
+  {
+   "ref": "Q16(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.1",
+    "12.3.1.2",
+    "12.3.3.1"
+   ],
+   "question": "Differentiate with respect to $x$: $f(x) = \\dfrac{e^{-2x}}{\\sin x - \\cos x}$.",
+   "answer": "Quotient rule with $u = e^{-2x}$, $u' = -2e^{-2x}$, $v = \\sin x - \\cos x$, $v' = \\cos x + \\sin x$:\n$$f'(x) = \\frac{-2e^{-2x}(\\sin x - \\cos x) - e^{-2x}(\\cos x + \\sin x)}{(\\sin x - \\cos x)^2} = \\frac{-e^{-2x}(3\\sin x - \\cos x)}{(\\sin x - \\cos x)^2}.$$"
+  },
+  {
+   "ref": "Q17",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.4",
+    "12.5.1.8",
+    "12.5.1.9"
+   ],
+   "question": "Sketch the curve $y = x^3 - 3x^2 - 9x + 15$ by first finding all stationary points and checking their nature. (Do NOT find the $x$-intercepts.)",
+   "answer": "$y' = 3x^2 - 6x - 9 = 3(x - 3)(x + 1) = 0 \\implies x = 3$ or $x = -1$. $\\;y'' = 6x - 6$.\n- $x = 3$: $y = -12$, $y'' = 12 > 0$: local **minimum** $(3, -12)$.\n- $x = -1$: $y = 20$, $y'' = -12 < 0$: local **maximum** $(-1, 20)$.\n\n$y$-intercept 15; point of inflection at $(1, 4)$ where $y'' = 0$.",
+   "answer_images": [
+    "assets/img/adv-2026-normanhurst-boys/q17-sketch.png"
+   ]
+  },
+  {
+   "ref": "Q18",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.4.4.2",
+    "12.5.1.1",
+    "11.1.10.1"
+   ],
+   "question": "A continuous and differentiable function is defined by\n$$f(x) = \\begin{cases}\\dfrac19\\left(x^2 + ax + c\\right), & x < 3\\\\[4pt] b(x + 12), & x \\ge 3\\end{cases}$$\nGiven that $f(5) = \\dfrac{17}{3}$, find the values of $a$, $b$ and $c$.",
+   "answer": "$f(5) = 17b = \\dfrac{17}{3} \\implies b = \\dfrac13$.\n\nDifferentiable at $x = 3$ (gradients match): $\\dfrac19(2x + a) = \\dfrac13$ at $x = 3 \\implies 6 + a = 3 \\implies a = -3$.\n\nContinuous at $x = 3$: $\\dfrac19(9 + 3a + c) = \\dfrac13(15) = 5 \\implies 9 - 9 + c = 45 \\implies c = 45$.\n\nSo $a = -3$, $b = \\dfrac13$, $c = 45$."
+  },
+  {
+   "ref": "Q19(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.3.10"
+   ],
+   "question": "Find $\\dfrac{d}{dx}\\left(\\left(x^2 - 5\\right)^9\\right)$.",
+   "answer": "$9\\left(x^2 - 5\\right)^8 \\times 2x = 18x\\left(x^2 - 5\\right)^8$."
+  },
+  {
+   "ref": "Q19(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.1",
+    "12.4.4.1"
+   ],
+   "question": "Given $\\dfrac{d}{dx}\\left(\\left(x^2 - 5\\right)^9\\right) = 18x\\left(x^2 - 5\\right)^8$, find $\\displaystyle\\int x\\left(x^2 - 5\\right)^8\\,dx$.",
+   "answer": "$$\\int x\\left(x^2 - 5\\right)^8\\,dx = \\frac{1}{18}\\int 18x\\left(x^2 - 5\\right)^8\\,dx = \\frac{\\left(x^2 - 5\\right)^9}{18} + C.$$"
+  },
+  {
+   "ref": "Q20(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Find $\\displaystyle\\int x(x - 2)(x + 1)\\,dx$.",
+   "answer": "$$\\int\\left(x^3 - x^2 - 2x\\right)dx = \\frac{x^4}{4} - \\frac{x^3}{3} - x^2 + C.$$"
+  },
+  {
+   "ref": "Q20(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.6.3",
+    "12.4.8.1"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^{\\frac\\pi4}\\frac{2\\sin x}{1 + \\cos x}\\,dx$.",
+   "answer": "The numerator is $-2 \\times \\dfrac{d}{dx}(1 + \\cos x)$:\n$$-2\\Big[\\ln(1 + \\cos x)\\Big]_0^{\\frac\\pi4} = -2\\left[\\ln\\left(1 + \\frac{1}{\\sqrt2}\\right) - \\ln 2\\right] = -2\\ln\\frac{\\sqrt2 + 1}{2\\sqrt2} = 2\\ln\\frac{2\\sqrt2}{\\sqrt2 + 1} = 2\\ln\\left(4 - 2\\sqrt2\\right).$$"
+  },
   {
    "ref": "Q21(a)",
    "kind": "written",
@@ -46,6 +383,261 @@
    ],
    "question": "Given that $\\displaystyle\\int_0^1 e^{(\\ln 3)x}\\,dx = \\frac{2}{\\ln 3}$ and that the trapezoidal rule with 3 function values gives the approximation $\\dfrac{2 + \\sqrt3}{2}$, show that $\\ln 3 \\approx 8 - 4\\sqrt3$.",
    "answer": "$$\\frac{2}{\\ln 3} \\approx \\frac{2 + \\sqrt3}{2} \\implies \\ln 3 \\approx \\frac{4}{2 + \\sqrt3} = \\frac{4(2 - \\sqrt3)}{(2 + \\sqrt3)(2 - \\sqrt3)} = \\frac{4(2 - \\sqrt3)}{1} = 8 - 4\\sqrt3.$$"
+  },
+  {
+   "ref": "Q22(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.1.13",
+    "11.3.1.11"
+   ],
+   "question": "The graphs of $y = \\cos 2x$ and $y = \\sin x$ intersect at the point $P$, where $x = a$ (the first intersection for $x > 0$).\n\nFind the coordinates of $P$.",
+   "answer": "$\\cos 2x = 1 - 2\\sin^2x$: $1 - 2\\sin^2x = \\sin x \\implies 2\\sin^2x + \\sin x - 1 = 0 \\implies (2\\sin x - 1)(\\sin x + 1) = 0$.\n\nAt $P$, $0 < x < \\frac\\pi4$, so $\\sin x = \\frac12$, $x = \\frac\\pi6$: $P\\left(\\dfrac\\pi6, \\dfrac12\\right)$.",
+   "images": [
+    "assets/img/adv-2026-normanhurst-boys/q22.png"
+   ]
+  },
+  {
+   "ref": "Q22(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.6",
+    "12.4.7.2"
+   ],
+   "question": "The graphs of $y = \\cos 2x$ and $y = \\sin x$ intersect at the point $P$, where $x = a$ (the first intersection for $x > 0$).\n\n$P$ is $\\left(\\frac\\pi6, \\frac12\\right)$. Show that the area bounded by the curves $y = \\cos(2x)$, $y = \\sin x$ and the $x$-axis from $x = 0$ to $x = a$ is given by\n$$A = \\frac32 - \\frac{3\\sqrt3}{4}.$$",
+   "answer": "From $0$ to $\\frac\\pi6$ the region is under $y = \\sin x$; from $\\frac\\pi6$ to $\\frac\\pi4$ (where $\\cos 2x = 0$) it is under $y = \\cos 2x$:\n$$A = \\int_0^{\\pi/6}\\sin x\\,dx + \\int_{\\pi/6}^{\\pi/4}\\cos 2x\\,dx = \\Big[-\\cos x\\Big]_0^{\\pi/6} + \\left[\\frac12\\sin 2x\\right]_{\\pi/6}^{\\pi/4}$$\n$$= \\left(1 - \\frac{\\sqrt3}{2}\\right) + \\left(\\frac12 - \\frac{\\sqrt3}{4}\\right) = \\frac32 - \\frac{3\\sqrt3}{4}.$$",
+   "images": [
+    "assets/img/adv-2026-normanhurst-boys/q22.png"
+   ]
+  },
+  {
+   "ref": "Q23",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.1.12",
+    "11.3.1.11"
+   ],
+   "question": "Prove that $\\dfrac{\\cos\\theta}{1 + \\sin\\theta} + \\tan\\theta = \\sec\\theta$.",
+   "answer": "$$\\text{LHS} = \\frac{\\cos\\theta}{1 + \\sin\\theta} + \\frac{\\sin\\theta}{\\cos\\theta} = \\frac{\\cos^2\\theta + \\sin\\theta + \\sin^2\\theta}{\\cos\\theta(1 + \\sin\\theta)} = \\frac{1 + \\sin\\theta}{\\cos\\theta(1 + \\sin\\theta)} = \\frac{1}{\\cos\\theta} = \\sec\\theta = \\text{RHS}.$$"
+  },
+  {
+   "ref": "Q24",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.3.1.12",
+    "11.3.1.11"
+   ],
+   "question": "If $a \\ne 0$ and $\\sec\\theta = a + \\dfrac{1}{4a}$, prove that $\\sec\\theta + \\tan\\theta = 2a$ or $\\dfrac{1}{2a}$.",
+   "answer": "$$\\tan^2\\theta = \\sec^2\\theta - 1 = a^2 + \\frac12 + \\frac{1}{16a^2} - 1 = a^2 - \\frac12 + \\frac{1}{16a^2} = \\left(a - \\frac{1}{4a}\\right)^2.$$\nSo $\\tan\\theta = \\pm\\left(a - \\dfrac{1}{4a}\\right)$ and\n$$\\sec\\theta + \\tan\\theta = a + \\frac{1}{4a} \\pm\\left(a - \\frac{1}{4a}\\right) = 2a \\text{ or } \\frac{1}{2a}.$$"
+  },
+  {
+   "ref": "Q25",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.2.3.8",
+    "11.2.3.7",
+    "11.2.2.10"
+   ],
+   "question": "In the diagram, $A$, $B$, $C$ and $D$ are collinear, where $AB = BC = CD = 8$ cm. The semicircles on diameters $AC$ and $BD$ intersect at $E$ so that $\\triangle BCE$ is equilateral. Find the area of the region common to the two semicircles in simplest exact form.",
+   "answer": "The semicircle on $AC$ has centre $B$ and radius 8; the one on $BD$ has centre $C$ and radius 8. $BE = CE = BC = 8$, so $\\angle EBC = \\angle ECB = \\frac\\pi3$.\n\nThe common region is sector $BCE$ (centre $B$) plus sector $CBE$ (centre $C$), minus $\\triangle BCE$ (counted twice):\n$$A = 2 \\times \\frac12(8^2)\\frac\\pi3 - \\frac12(8)(8)\\sin\\frac\\pi3 = \\frac{64\\pi}{3} - 16\\sqrt3\\ \\text{cm}^2.$$",
+   "images": [
+    "assets/img/adv-2026-normanhurst-boys/q25.png"
+   ]
+  },
+  {
+   "ref": "Q26",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.2.2.10",
+    "11.2.1.2"
+   ],
+   "question": "A flagpole, $BD$, stands on flat level ground and it is supported by two cables, $AD$ and $CD$, as shown. The cable $AD$ is inclined at an angle of $30^\\circ$ to the horizontal and is tied to the ground at point $A$, 18 m east of the foot of the pole. The second cable is tied to the ground at point $C$, where $C$ is 12 m from $A$ and on a bearing of 210°T from $A$. Let $\\theta = \\angle BCD$, the angle the second cable makes with the ground.\n\nFind $\\theta$, correct to the nearest degree.",
+   "answer": "$DB = 18\\tan 30^\\circ = 6\\sqrt3$ m. $AB$ points due west (270°), so $\\angle BAC = 270^\\circ - 210^\\circ = 60^\\circ$.\n\nCosine rule in $\\triangle ABC$: $BC^2 = 18^2 + 12^2 - 2(18)(12)\\cos 60^\\circ = 252 \\implies BC = 6\\sqrt7$.\n\nIn right-angled $\\triangle DBC$: $\\tan\\theta = \\dfrac{6\\sqrt3}{6\\sqrt7} = \\sqrt{\\dfrac37} \\implies \\theta \\approx 33^\\circ$.",
+   "images": [
+    "assets/img/adv-2026-normanhurst-boys/q26.png"
+   ]
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.2.5"
+   ],
+   "question": "Events $A$ and $B$ are not mutually exclusive. It is given that $P(A) = 0.35$, $P(B) = 0.55$, and $P\\left(\\overline{A \\cup B}\\right) = 0.2$.\n\nFind $P(A \\cap B)$.",
+   "answer": "$P(A \\cup B) = 0.8$, so $P(A \\cap B) = 0.35 + 0.55 - 0.8 = 0.1$."
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.3.7",
+    "11.7.3.6"
+   ],
+   "question": "Events $A$ and $B$ are not mutually exclusive. It is given that $P(A) = 0.35$, $P(B) = 0.55$, and $P\\left(\\overline{A \\cup B}\\right) = 0.2$.\n\nGiven $P(A \\cap B) = 0.1$, find $P(B \\mid A)$. Hence determine whether events $A$ and $B$ are independent. Justify your answer.",
+   "answer": "$P(B \\mid A) = \\dfrac{0.1}{0.35} = \\dfrac27 \\approx 0.286 \\ne 0.55 = P(B)$, so $A$ and $B$ are **not independent**."
+  },
+  {
+   "ref": "Q28(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "The random variable $X$ represents the amount of money won, in dollars, per game on a poker machine. The probability distribution table is shown below.\n\n| $x$ | $b$ | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| $P(X = x)$ | 0.35 | 0.20 | $a$ | 0.17 | 0.09 |\n\nCalculate the value of $a$.",
+   "answer": "$a = 1 - (0.35 + 0.20 + 0.17 + 0.09) = 0.19$."
+  },
+  {
+   "ref": "Q28(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.6",
+    "12.6.1.9"
+   ],
+   "question": "The random variable $X$ represents the amount of money won, in dollars, per game on a poker machine. The probability distribution table is shown below.\n\n| $x$ | $b$ | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| $P(X = x)$ | 0.35 | 0.20 | $a$ | 0.17 | 0.09 |\n\n$a = 0.19$. Given that the expected loss is \\$1.40 per game, calculate the value of $b$.",
+   "answer": "$E(X) = -1.4$:\n$$0.35b + 2(0.2) + 3(0.19) + 4(0.17) + 5(0.09) = -1.4 \\implies 0.35b + 2.1 = -1.4 \\implies b = -10.$$\n(The paper's sample solution gives $b = -3.5$, which is $0.35b$, not $b$.)"
+  },
+  {
+   "ref": "Q28(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.6"
+   ],
+   "question": "The random variable $X$ represents the amount of money won, in dollars, per game on a poker machine. The probability distribution table is shown below.\n\n| $x$ | $b$ | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| $P(X = x)$ | 0.35 | 0.20 | $a$ | 0.17 | 0.09 |\n\n$a = 0.19$, $b = -10$ and $E(X) = -1.4$. Hence, calculate the variance of $X$.",
+   "answer": "$$E(X^2) = 100(0.35) + 4(0.2) + 9(0.19) + 16(0.17) + 25(0.09) = 42.48.$$\n$$\\operatorname{Var}(X) = 42.48 - (-1.4)^2 = 40.52.$$\n(The paper's sample solution, using its value $b = -3.5$, gives $9.8075$.)"
+  },
+  {
+   "ref": "Q29(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.7.3.8"
+   ],
+   "question": "A tenpin bowler has a 28% chance of scoring a strike each time they bowl.\n\nThe bowler bowls twice. Calculate the probability that the bowler does not get a strike in both bowls.",
+   "answer": "$P(\\text{no strike, no strike}) = 0.72^2 = 0.5184$."
+  },
+  {
+   "ref": "Q29(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.7.3.8",
+    "11.5.2.9"
+   ],
+   "question": "A tenpin bowler has a 28% chance of scoring a strike each time they bowl.\n\nWhat is the minimum number of bowls required for the bowler to have a 90% chance of bowling at least one strike?",
+   "answer": "$1 - 0.72^n > 0.9 \\implies 0.72^n < 0.1 \\implies n > \\dfrac{\\ln 0.1}{\\ln 0.72} \\approx 7.01$. Minimum **8** bowls."
+  },
+  {
+   "ref": "Q30(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.2.3",
+    "11.7.2.7"
+   ],
+   "question": "Euan invented a dice game to play with his brother. They take turns rolling a standard pair of six-sided dice. The game continues until the difference between the two numbers rolled is either 2 or 3.\n- If the difference is 2, the player who made the roll wins immediately.\n- If the difference is 3, the other player wins immediately.\n- Otherwise, play passes to the other player, who rolls the dice next.\n\nAssume that Euan rolls first.\n\nShow that the probability that Euan wins on his first throw of the dice is $\\dfrac29$.",
+   "answer": "Difference 2: $(1,3), (2,4), (3,5), (4,6)$ and their reverses: $8$ of $36$ outcomes, so $P = \\dfrac{8}{36} = \\dfrac29$."
+  },
+  {
+   "ref": "Q30(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.7.2.7",
+    "11.7.3.8"
+   ],
+   "question": "Euan invented a dice game to play with his brother. They take turns rolling a standard pair of six-sided dice. The game continues until the difference between the two numbers rolled is either 2 or 3.\n- If the difference is 2, the player who made the roll wins immediately.\n- If the difference is 3, the other player wins immediately.\n- Otherwise, play passes to the other player, who rolls the dice next.\n\nAssume that Euan rolls first.\n\nOn any roll, $P(\\text{difference } 2) = \\frac29$. What is the probability that Euan wins before the fourth throw of the game?",
+   "answer": "$P(\\text{difference } 3) = \\frac{6}{36} = \\frac16$ and $P(\\text{neither}) = 1 - \\frac29 - \\frac16 = \\frac{11}{18}$.\n\nEuan wins on throw 1 (he rolls a 2), throw 2 (his brother rolls a 3) or throw 3 (he rolls a 2):\n$$\\frac29 + \\frac{11}{18} \\times \\frac16 + \\left(\\frac{11}{18}\\right)^2 \\times \\frac29 = \\frac{648 + 297 + 242}{2916} = \\frac{1187}{2916}.$$"
+  },
+  {
+   "ref": "Q30(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.3.7",
+    "11.7.2.7"
+   ],
+   "question": "Euan invented a dice game to play with his brother. They take turns rolling a standard pair of six-sided dice. The game continues until the difference between the two numbers rolled is either 2 or 3.\n- If the difference is 2, the player who made the roll wins immediately.\n- If the difference is 3, the other player wins immediately.\n- Otherwise, play passes to the other player, who rolls the dice next.\n\nAssume that Euan rolls first.\n\nOn any roll, $P(\\text{difference } 2) = \\frac29$, $P(\\text{difference } 3) = \\frac16$ and $P(\\text{neither}) = \\frac{11}{18}$. Calculate the probability that Euan wins the game eventually.",
+   "answer": "In each pair of throws (Euan, then his brother) Euan wins with probability $\\frac29 + \\frac{11}{18} \\cdot \\frac16 = \\frac{35}{108}$, and the game reaches the next pair with probability $\\left(\\frac{11}{18}\\right)^2 = \\frac{121}{324}$. Limiting sum:\n$$P = \\frac{35/108}{1 - 121/324} = \\frac{35}{108} \\times \\frac{324}{203} = \\frac{15}{29}.$$"
+  },
+  {
+   "ref": "Q31(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.6.1.7",
+    "11.1.8.3"
+   ],
+   "question": "State the centre and radius of the circle $x^2 + y^2 - 4x = 0$.",
+   "answer": "$(x - 2)^2 + y^2 = 4$: centre $(2, 0)$, radius $2$."
+  },
+  {
+   "ref": "Q31(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.6",
+    "11.1.8.4"
+   ],
+   "question": "The circle $x^2 + y^2 - 4x = 0$ has centre $(2, 0)$ and radius 2. Hence, evaluate $\\displaystyle\\int_{-4}^{-2}\\sqrt{-4x - x^2}\\,dx$.",
+   "answer": "$y = \\sqrt{-4x - x^2}$ is the upper half of $(x + 2)^2 + y^2 = 4$ (the reflection of the given circle in the $y$-axis), centre $(-2, 0)$, radius 2. From $x = -4$ to $x = -2$ the integral is a quarter of this circle:\n$$\\int_{-4}^{-2}\\sqrt{-4x - x^2}\\,dx = \\frac14\\pi(2)^2 = \\pi.$$"
+  },
+  {
+   "ref": "Q32(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.1.2",
+    "11.2.2.10"
+   ],
+   "question": "$\\triangle PQR$ is a right-angled triangle inscribed in a semicircle with diameter $PQ$. The point $S$ lies on $PQ$ such that $SQ = k\\,QR$, where $k$ is a positive constant. Let $PQ = d$ cm and $\\angle PQR = \\alpha$ radians, where $d$ is a constant.\n\nShow that the area of $\\triangle SQR$ is $A = \\dfrac12kd^2\\cos^2\\alpha\\sin\\alpha$.",
+   "answer": "$\\angle PRQ = 90^\\circ$ (angle in a semicircle), so $QR = d\\cos\\alpha$ and $SQ = kd\\cos\\alpha$.\n$$A = \\frac12 \\cdot SQ \\cdot QR \\cdot \\sin\\alpha = \\frac12(kd\\cos\\alpha)(d\\cos\\alpha)\\sin\\alpha = \\frac12kd^2\\cos^2\\alpha\\sin\\alpha.$$",
+   "images": [
+    "assets/img/adv-2026-normanhurst-boys/q32.png"
+   ]
+  },
+  {
+   "ref": "Q32(b)",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.3.4.1"
+   ],
+   "question": "$\\triangle PQR$ is a right-angled triangle inscribed in a semicircle with diameter $PQ$. The point $S$ lies on $PQ$ such that $SQ = k\\,QR$, where $k$ is a positive constant. Let $PQ = d$ cm and $\\angle PQR = \\alpha$ radians, where $d$ is a constant.\n\nThe area of $\\triangle SQR$ is $A = \\dfrac12kd^2\\cos^2\\alpha\\sin\\alpha$, for $0 < \\alpha < \\frac\\pi2$. Find the greatest possible exact area of $\\triangle SQR$ in terms of $k$ and $d$.",
+   "answer": "$$\\frac{dA}{d\\alpha} = \\frac12kd^2\\left(-2\\cos\\alpha\\sin^2\\alpha + \\cos^3\\alpha\\right) = \\frac12kd^2\\cos\\alpha\\left(\\cos^2\\alpha - 2\\sin^2\\alpha\\right).$$\n$\\cos\\alpha \\ne 0$ in $\\left(0, \\frac\\pi2\\right)$, so $\\tan^2\\alpha = \\frac12 \\implies \\tan\\alpha = \\frac{1}{\\sqrt2}$ ($\\alpha \\approx 35^\\circ$). $\\frac{dA}{d\\alpha}$ changes from positive to negative there (e.g. at $34^\\circ$ and $36^\\circ$), so it is a maximum.\n\nWith $\\tan\\alpha = \\frac{1}{\\sqrt2}$: $\\cos\\alpha = \\sqrt{\\frac23}$, $\\sin\\alpha = \\frac{1}{\\sqrt3}$:\n$$A_{\\max} = \\frac12kd^2 \\cdot \\frac23 \\cdot \\frac{1}{\\sqrt3} = \\frac{kd^2}{3\\sqrt3} = \\frac{\\sqrt3\\,kd^2}{9}\\ \\text{cm}^2.$$\n(This assumes $S$ then lies on $PQ$, i.e. $SQ = kd\\sqrt{2/3} \\le d$.)",
+   "images": [
+    "assets/img/adv-2026-normanhurst-boys/q32.png"
+   ]
   }
  ]
 }
