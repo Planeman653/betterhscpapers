@@ -6,13 +6,556 @@
  "type": "Trial",
  "thsc": {
   "viewno": "5328",
-  "title": "Normanhurst Boys 2025 Mathematics Advanced Trial"
+  "title": "Normanhurst Boys 2025 w. sol"
  },
  "indexed": "2026-11-17",
  "answers": "worked",
- "partial": true,
  "dropped": [],
  "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.2",
+    "11.3.1.7"
+   ],
+   "question": "What is the period of the function $f(x) = 2\\cot(3x)$?",
+   "answer": "$\\cot x$ has period $\\pi$, so $\\cot 3x$ has period $\\dfrac\\pi3$. **(A)**",
+   "options": [
+    "$\\dfrac\\pi3$",
+    "$\\dfrac\\pi2$",
+    "$\\dfrac{2\\pi}{3}$",
+    "$\\pi$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.6.1.4",
+    "11.6.1.3"
+   ],
+   "question": "For a function $f(x)$, what type of dilation is required to sketch $y = f(4x)$?",
+   "answer": "Replacing $x$ by $4x = \\dfrac{x}{1/4}$ dilates horizontally by a factor of $\\frac14$. **(B)**",
+   "options": [
+    "Vertical dilation by a factor of $\\frac14$",
+    "Horizontal dilation by a factor of $\\frac14$",
+    "Vertical dilation by a factor of 4",
+    "Horizontal dilation by a factor of 4"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.5.2.11",
+    "11.6.1.6"
+   ],
+   "question": "Which of the following are the asymptote(s) of the graph of $y = \\log(x - 1) + 2$?",
+   "answer": "$y = \\log x$ has only the vertical asymptote $x = 0$; shifting right 1 and up 2 gives the single asymptote $x = 1$. **(B)**",
+   "options": [
+    "$x = -1$ only",
+    "$x = 1$ only",
+    "$y = 2$ only",
+    "$x = 1$ and $y = 2$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.5.2.9"
+   ],
+   "question": "What is the solution of $3^x = 5$?",
+   "answer": "Take logs: $x\\log 3 = \\log 5 \\implies x = \\dfrac{\\log 5}{\\log 3}$. **(C)**",
+   "options": [
+    "$\\dfrac{\\log 5}{3}$",
+    "$\\dfrac{3}{\\log 5}$",
+    "$\\dfrac{\\log 5}{\\log 3}$",
+    "$\\log\\left(\\dfrac53\\right)$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.2.8",
+    "11.1.9.3"
+   ],
+   "question": "Which of the following is the domain of the function $f(x) = \\dfrac{1}{\\sqrt{x^2 - 4}}$?",
+   "answer": "Need $x^2 - 4 > 0$ (positive, since it is under a root in the denominator): $x < -2$ or $x > 2$. **(D)**",
+   "options": [
+    "$[-2, 2]$",
+    "$(-\\infty, -2] \\cup [2, \\infty)$",
+    "$(-2, 2)$",
+    "$(-\\infty, -2) \\cup (2, \\infty)$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.2.9",
+    "11.1.4.5"
+   ],
+   "question": "Which of the following represents the range of the function $f(x) = -x^2 - 2x - 3$ for $x \\in (-2, 1]$?",
+   "answer": "$f(x) = -(x + 1)^2 - 2$: maximum $-2$ at $x = -1$ (inside the interval). At the ends: $f(1) = -6$ (included) and $f(-2) = -3$ (excluded, but $-3$ is reached elsewhere). Range $[-6, -2]$. **(B)**",
+   "options": [
+    "$[-6, -3]$",
+    "$[-6, -2]$",
+    "$[-6, -3)$",
+    "$[-6, -2)$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.5.3",
+    "11.4.4.5"
+   ],
+   "question": "From the graph of $y = f(x)$, which has a maximum turning point at $x = -2$ and a minimum turning point at $x = 2$, when is $f'(x)$ negative?",
+   "answer": "$f'(x) < 0$ where the curve is decreasing: strictly between the turning points, $-2 < x < 2$. **(B)**",
+   "options": [
+    "$x < -2$ or $x > 2$",
+    "$-2 < x < 2$",
+    "$x \\le -2$ or $x \\ge 2$",
+    "$-2 \\le x \\le 2$"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/adv-2025-normanhurst-boys/q7.png"
+   ]
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.4.10",
+    "11.1.1.7"
+   ],
+   "question": "Find all the values of $k$ such that the equation $x^2 + (4k + 3)x + \\left(4k^2 - \\dfrac94\\right) = 0$ has two real solutions for $x$, where one of the solutions is positive and the other is negative.",
+   "answer": "Roots of opposite sign means the product of roots is negative: $4k^2 - \\frac94 < 0 \\implies k^2 < \\frac{9}{16} \\implies -\\frac34 < k < \\frac34$. (Then $\\Delta = b^2 - 4ac > 0$ automatically, since $ac < 0$.) **(C)**",
+   "options": [
+    "$k > -\\dfrac34$",
+    "$k > \\dfrac34$",
+    "$-\\dfrac34 < k < \\dfrac34$",
+    "$k < -\\dfrac34$ or $k > \\dfrac34$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.2.8"
+   ],
+   "question": "Evaluate $\\displaystyle\\lim_{x \\to 2}\\frac{2 - x}{1 - \\sqrt{x - 1}}$.",
+   "answer": "Multiply top and bottom by $1 + \\sqrt{x - 1}$:\n$$\\frac{(2 - x)\\left(1 + \\sqrt{x - 1}\\right)}{1 - (x - 1)} = \\frac{(2 - x)\\left(1 + \\sqrt{x - 1}\\right)}{2 - x} = 1 + \\sqrt{x - 1} \\to 2.$$ **(C)**",
+   "options": [
+    "$-2$",
+    "$\\dfrac12$",
+    "$2$",
+    "$\\infty$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.1.9",
+    "12.6.1.6"
+   ],
+   "question": "Using the table below, what is the maximum possible value for $E(X)$?\n\n| $x$ | $-1$ | $0$ | $1$ | $2$ |\n|---|---|---|---|---|\n| $P(X = x)$ | $k^2$ | $3k$ | $k$ | $-k^2 - 4k + 1$ |",
+   "answer": "The probabilities always sum to 1; each must be non-negative, so $k \\ge 0$ and $-k^2 - 4k + 1 \\ge 0$, i.e. $0 \\le k \\le \\sqrt5 - 2$.\n$$E(X) = -k^2 + k + 2\\left(-k^2 - 4k + 1\\right) = -3k^2 - 7k + 2,$$\nwhich is decreasing for $k \\ge 0$, so the maximum is $E(X) = 2$ at $k = 0$. **(C)**",
+   "options": [
+    "$\\dfrac23$",
+    "$1$",
+    "$2$",
+    "$\\dfrac{73}{12}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.9.8"
+   ],
+   "question": "Given $f(x) = \\sqrt x$ and $g(x) = 25 - x^2$.\n\nFind $f(g(x))$.",
+   "answer": "$f(g(x)) = \\sqrt{25 - x^2}$."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.9.3",
+    "11.1.8.4"
+   ],
+   "question": "Given $f(x) = \\sqrt x$ and $g(x) = 25 - x^2$.\n\n$f(g(x)) = \\sqrt{25 - x^2}$. Find the domain and range of $f(g(x))$.",
+   "answer": "This is the upper semicircle of radius 5. Domain $[-5, 5]$; range $[0, 5]$."
+  },
+  {
+   "ref": "Q12",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.2.9",
+    "11.5.2.7"
+   ],
+   "question": "Solve for $x$:\n$$2\\ln(x) - \\ln(x + 3) = \\ln\\left(\\frac12\\right)$$",
+   "answer": "$$\\ln\\frac{x^2}{x + 3} = \\ln\\frac12 \\implies 2x^2 = x + 3 \\implies (2x - 3)(x + 1) = 0.$$\n$x = \\frac32$ or $x = -1$; since $\\ln x$ needs $x > 0$, $x = \\dfrac32$."
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.6.1.6",
+    "11.1.11.4"
+   ],
+   "question": "The function $y = |x|$ is subjected to the following transformations.\n\nWrite the equation that arises from a vertical dilation by a factor of 2.",
+   "answer": "$y = 2|x|$."
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.6.1.6",
+    "11.6.1.2"
+   ],
+   "question": "The function $y = |x|$ is subjected to the following transformations.\n\nAfter a vertical dilation by a factor of 2 the equation is $y = 2|x|$. Write the equation after a horizontal translation of this graph to the left by 1 unit.",
+   "answer": "$y = 2|x + 1|$."
+  },
+  {
+   "ref": "Q13(a)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.6.1.6",
+    "11.6.1.4"
+   ],
+   "question": "The function $y = |x|$ is subjected to the following transformations.\n\nAfter a vertical dilation by a factor of 2 and a translation 1 unit left the equation is $y = 2|x + 1|$. Write the equation after a horizontal dilation of this graph by a factor of $\\frac12$.",
+   "answer": "Replace $x$ by $2x$: $y = 2|2x + 1|$."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.2.6",
+    "11.1.11.5",
+    "12.4.8.4"
+   ],
+   "question": "Hence or otherwise, find the value of $a$, where $a > 0$, such that\n$$\\int_{-\\frac34}^{a}\\left(2|2x + 1| - 1\\right)dx = 0.$$",
+   "answer": "$y = 2|2x + 1| - 1$ is a V with vertex $\\left(-\\frac12, -1\\right)$, crossing the $x$-axis at $x = -\\frac34$ and $x = -\\frac14$.\n\nFrom $-\\frac34$ to $-\\frac12$ the graph is a triangle below the axis of area $\\frac12 \\times \\frac14 \\times 1 = \\frac18$, so $\\displaystyle\\int_{-3/4}^{-1/2} = -\\frac18$. For $x \\ge -\\frac12$ the integrand is $4x + 1$, and $\\displaystyle\\int_{-1/2}^{0}(4x + 1)\\,dx = \\Big[2x^2 + x\\Big]_{-1/2}^{0} = 0$, so $\\displaystyle\\int_{-3/4}^{0} = -\\frac18$.\n\nFor $a > 0$ we need $\\displaystyle\\int_0^a(4x + 1)\\,dx = \\frac18$:\n$$2a^2 + a = \\frac18 \\implies 16a^2 + 8a - 1 = 0 \\implies a = \\frac{-8 + \\sqrt{128}}{32} = \\frac{\\sqrt2 - 1}{4}.$$"
+  },
+  {
+   "ref": "Q14",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.2",
+    "12.4.4.1"
+   ],
+   "question": "Initially there are 250 litres of water in a tank. Water starts to flow into the tank. The rate of increase of the volume of water in litres is given by\n$$\\frac{dV}{dt} = 250 - 7.5t$$\nwhere $t$ is the time in hours. Find the volume of water in the tank (correct to the nearest litre) when $\\dfrac{dV}{dt} = 0$.",
+   "answer": "$V = 250t - 3.75t^2 + C$, and $V(0) = 250 \\implies C = 250$.\n\n$\\dfrac{dV}{dt} = 0 \\implies t = \\dfrac{100}{3}$:\n$$V = 250\\left(\\frac{100}{3}\\right) - 3.75\\left(\\frac{100}{3}\\right)^2 + 250 = 4416.6\\ldots \\approx 4417 \\text{ litres}.$$"
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.4",
+    "12.5.1.7",
+    "12.5.1.9",
+    "12.3.4.1"
+   ],
+   "question": "Consider the function $f(x) = xe^x$.\n\nFind the coordinates of the stationary point(s) and determine their nature, find the coordinates of the point(s) of inflection, and sketch the curve of $f(x)$, showing all key features.",
+   "answer": "$f'(x) = e^x + xe^x = e^x(x + 1) = 0 \\implies x = -1$, $f(-1) = -\\frac1e$. $f'$ changes from negative to positive, so $\\left(-1, -\\frac1e\\right)$ is a **local minimum**.\n\n$f''(x) = e^x(x + 2) = 0 \\implies x = -2$, $f(-2) = -\\frac{2}{e^2}$. $f''$ changes sign, so $\\left(-2, -\\frac{2}{e^2}\\right)$ is a **point of inflection**.\n\nThe curve passes through the origin, and $f(x) \\to 0^-$ as $x \\to -\\infty$ (horizontal asymptote $y = 0$).",
+   "answer_images": [
+    "assets/img/adv-2025-normanhurst-boys/q15a-sketch.png"
+   ]
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.4.8",
+    "12.5.1.9"
+   ],
+   "question": "Consider the function $f(x) = xe^x$.\n\n$y = xe^x$ has a local minimum at $\\left(-1, -\\frac1e\\right)$, passes through the origin and approaches $0$ from below as $x \\to -\\infty$. Hence or otherwise, find the value(s) of $k$, where $k$ is a real number, for which the equation $xe^x = k$ has 2 solutions.",
+   "answer": "A horizontal line $y = k$ meets the curve twice only between the minimum and the asymptote: $-\\dfrac1e < k < 0$."
+  },
+  {
+   "ref": "Q16(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.3.4",
+    "12.6.1.3"
+   ],
+   "question": "A random variable $X$ has this probability distribution:\n\n| $x$ | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| $P(X = x)$ | 0.2 | 0.1 | 0.25 | 0.3 | 0.15 |\n\nFind $P(X \\ge 2 \\mid X < 4)$.",
+   "answer": "$$P(X \\ge 2 \\mid X < 4) = \\frac{P(X = 2) + P(X = 3)}{P(X < 4)} = \\frac{0.35}{0.55} = \\frac{7}{11}.$$"
+  },
+  {
+   "ref": "Q16(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.6"
+   ],
+   "question": "A random variable $X$ has this probability distribution:\n\n| $x$ | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| $P(X = x)$ | 0.2 | 0.1 | 0.25 | 0.3 | 0.15 |\n\nFind the variance of $X$, $\\operatorname{Var}(X)$.",
+   "answer": "$E(X) = 0.2 + 0.2 + 0.75 + 1.2 + 0.75 = 3.1$, $\\;E(X^2) = 0.2 + 0.4 + 2.25 + 4.8 + 3.75 = 11.4$.\n$$\\operatorname{Var}(X) = 11.4 - 3.1^2 = 1.79.$$"
+  },
+  {
+   "ref": "Q17(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.2.7"
+   ],
+   "question": "Joe plays soccer, a sport where a team can win, lose or draw. Joe is prone to injury, and misses 20% of his team's games. When Joe plays, his team has a 77% chance of winning and a 10% chance of losing. When Joe does not play, his team has a 53% chance of winning and a 25% chance of losing.\n\nCalculate the probability that Joe's team loses any given game.",
+   "answer": "$P(L) = 0.8 \\times 0.1 + 0.2 \\times 0.25 = 0.13$."
+  },
+  {
+   "ref": "Q17(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.7.3.4",
+    "11.7.2.7"
+   ],
+   "question": "Joe plays soccer, a sport where a team can win, lose or draw. Joe is prone to injury, and misses 20% of his team's games. When Joe plays, his team has a 77% chance of winning and a 10% chance of losing. When Joe does not play, his team has a 53% chance of winning and a 25% chance of losing.\n\n$P(\\text{lose}) = 0.13$. Given that Joe's team does not lose in a particular match, what is the probability that Joe played in that match?",
+   "answer": "$$P(J \\mid \\bar L) = \\frac{0.8 \\times 0.9}{1 - 0.13} = \\frac{0.72}{0.87} = \\frac{24}{29}.$$"
+  },
+  {
+   "ref": "Q18",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.3.1.12",
+    "11.3.1.8",
+    "11.3.1.11"
+   ],
+   "question": "Prove the following identity:\n$$\\frac{\\cos\\theta}{\\cos\\left(\\frac\\pi2 - \\theta\\right)}\\left(1 + \\tan^2\\theta\\right) + \\frac{\\sin\\theta}{\\cos\\theta}\\left(1 + \\tan^2\\left(\\frac\\pi2 - \\theta\\right)\\right) = 2\\operatorname{cosec}\\theta\\sec\\theta$$",
+   "answer": "Use $\\cos\\left(\\frac\\pi2 - \\theta\\right) = \\sin\\theta$, $1 + \\tan^2\\theta = \\sec^2\\theta$ and $1 + \\tan^2\\left(\\frac\\pi2 - \\theta\\right) = 1 + \\cot^2\\theta = \\operatorname{cosec}^2\\theta$:\n$$\\begin{aligned}\n\\text{LHS} &= \\frac{\\cos\\theta}{\\sin\\theta} \\cdot \\frac{1}{\\cos^2\\theta} + \\frac{\\sin\\theta}{\\cos\\theta} \\cdot \\frac{1}{\\sin^2\\theta} = \\frac{1}{\\sin\\theta\\cos\\theta} + \\frac{1}{\\sin\\theta\\cos\\theta}\\\\\n&= \\frac{2}{\\sin\\theta\\cos\\theta} = 2\\operatorname{cosec}\\theta\\sec\\theta = \\text{RHS}.\n\\end{aligned}$$"
+  },
+  {
+   "ref": "Q19(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.2.9",
+    "12.5.3.8"
+   ],
+   "question": "The number of concert tickets sold, $N$, is given by $N = 1000 \\times 1.6^{kt}$, where $t$ is the number of weeks after being available for sale, and $k$ is a constant. Initially, 1000 tickets were sold, and after 2 weeks, the total number of tickets sold had doubled.\n\nCalculate the value of $k$, leaving your answer in exact form.",
+   "answer": "$1000 \\times 1.6^{2k} = 2000 \\implies 2k\\ln 1.6 = \\ln 2 \\implies k = \\dfrac{\\ln 2}{2\\ln 1.6}$."
+  },
+  {
+   "ref": "Q19(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.3",
+    "12.5.3.8"
+   ],
+   "question": "The number of concert tickets sold, $N$, is given by $N = 1000 \\times 1.6^{kt}$, where $t$ is the number of weeks after being available for sale, and $k$ is a constant. Initially, 1000 tickets were sold, and after 2 weeks, the total number of tickets sold had doubled.\n\n$k = \\dfrac{\\ln 2}{2\\ln 1.6}$. At what rate was the number of tickets sold increasing after 4 weeks? Give your answer to the nearest whole number.",
+   "answer": "$\\dfrac{dN}{dt} = 1000k\\ln(1.6) \\times 1.6^{kt}$. With $k\\ln 1.6 = \\frac{\\ln 2}{2}$ and $1.6^{4k} = 2^2 = 4$:\n$$\\frac{dN}{dt} = 1000 \\times \\frac{\\ln 2}{2} \\times 4 = 2000\\ln 2 \\approx 1386 \\text{ tickets per week}.$$"
+  },
+  {
+   "ref": "Q20(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "A fisherman's boat is trying to reach the open sea, however, it is heavily affected by the ocean tides. To reach the open sea, the boat must cross a sandbar which requires the water to be at least 4 metres deep. On a particular day, high tide occurred at midnight, and the depth, $D$, of water over the sandbar on the ensuing day is given by\n$$D = 2\\cos\\left(\\frac{4\\pi}{25}t\\right) + 3,$$\nwhere $t$ is the number of hours after midnight.\n\nSketch the graph of $D = 2\\cos\\left(\\dfrac{4\\pi}{25}t\\right) + 3$ for $0 \\le t \\le 25$, showing all key features.",
+   "answer": "Period $\\dfrac{2\\pi}{4\\pi/25} = \\dfrac{25}{2}$ hours, amplitude 2, centre line $D = 3$. Maxima $D = 5$ at $t = 0, \\frac{25}{2}, 25$; minima $D = 1$ at $t = \\frac{25}{4}, \\frac{75}{4}$.",
+   "answer_images": [
+    "assets/img/adv-2025-normanhurst-boys/q20a-sketch.png"
+   ]
+  },
+  {
+   "ref": "Q20(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.1.3"
+   ],
+   "question": "A fisherman's boat is trying to reach the open sea, however, it is heavily affected by the ocean tides. To reach the open sea, the boat must cross a sandbar which requires the water to be at least 4 metres deep. On a particular day, high tide occurred at midnight, and the depth, $D$, of water over the sandbar on the ensuing day is given by\n$$D = 2\\cos\\left(\\frac{4\\pi}{25}t\\right) + 3,$$\nwhere $t$ is the number of hours after midnight.\n\nFind the times when the fisherman would not be able to cross the sandbar in his boat.",
+   "answer": "$D = 4 \\implies \\cos\\left(\\frac{4\\pi}{25}t\\right) = \\frac12$. With $0 \\le \\frac{4\\pi}{25}t \\le 4\\pi$:\n$$\\frac{4\\pi}{25}t = \\frac\\pi3, \\frac{5\\pi}{3}, \\frac{7\\pi}{3}, \\frac{11\\pi}{3} \\implies t = \\frac{25}{12}, \\frac{125}{12}, \\frac{175}{12}, \\frac{275}{12}.$$\n$D < 4$ for $\\dfrac{25}{12} < t < \\dfrac{125}{12}$ and $\\dfrac{175}{12} < t < \\dfrac{275}{12}$, i.e. from 2:05 am to 10:25 am and from 2:35 pm to 8:55 pm."
+  },
+  {
+   "ref": "Q21",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.6.3",
+    "12.4.8.1"
+   ],
+   "question": "Show that $\\displaystyle\\int_{-1}^{1}\\frac{1}{1 + e^{-x}}\\,dx = 1$.",
+   "answer": "Multiply top and bottom by $e^x$:\n$$\\int_{-1}^1\\frac{e^x}{e^x + 1}\\,dx = \\Big[\\ln\\left(1 + e^x\\right)\\Big]_{-1}^1 = \\ln\\frac{1 + e}{1 + e^{-1}} = \\ln\\frac{e(1 + e)}{e + 1} = \\ln e = 1.$$"
+  },
+  {
+   "ref": "Q22(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.1",
+    "11.3.1.10"
+   ],
+   "question": "It is known that $T_1 = 1 + \\cos A$, $T_2 = \\dfrac12$ and $T_3 = 1 - \\cos A$ form the first three consecutive terms of a geometric sequence, with $T_1 > T_2 > T_3$.\n\nFind the value of $A$, given $\\angle A$ is an angle within a triangle.",
+   "answer": "$\\dfrac{T_2}{T_1} = \\dfrac{T_3}{T_2} \\implies \\frac14 = (1 + \\cos A)(1 - \\cos A) = 1 - \\cos^2A \\implies \\cos A = \\pm\\dfrac{\\sqrt3}{2}$, so $A = \\frac\\pi6$ or $\\frac{5\\pi}{6}$ (as $0 < A < \\pi$).\n\n$T_1 > T_2$ needs $1 + \\cos A > \\frac12$, which rules out $A = \\frac{5\\pi}{6}$ ($1 - \\frac{\\sqrt3}{2} \\approx 0.13$). So $A = \\dfrac\\pi6$."
+  },
+  {
+   "ref": "Q22(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.7"
+   ],
+   "question": "It is known that $T_1 = 1 + \\cos A$, $T_2 = \\dfrac12$ and $T_3 = 1 - \\cos A$ form the first three consecutive terms of a geometric sequence, with $T_1 > T_2 > T_3$.\n\nUsing $A = \\dfrac\\pi6$, show that the series $(1 + \\cos A) + \\dfrac12 + (1 - \\cos A) + \\cdots$ has a limiting sum.",
+   "answer": "$$r = \\frac{T_2}{T_1} = \\frac{\\frac12}{1 + \\frac{\\sqrt3}{2}} = \\frac{1}{2 + \\sqrt3} \\approx 0.268.$$\nSince $|r| < 1$, the limiting sum exists."
+  },
+  {
+   "ref": "Q23",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.1",
+    "11.1.1.6"
+   ],
+   "question": "If $y^2 = (2m - y)(2n - y)$, show that $\\dfrac1m, \\dfrac1y, \\dfrac1n$ (in this order) form the terms of an arithmetic sequence.",
+   "answer": "Expand: $y^2 = 4mn - 2my - 2ny + y^2 \\implies y = \\dfrac{2mn}{m + n}$, so $\\dfrac1y = \\dfrac{m + n}{2mn}$.\n$$\\frac1y - \\frac1m = \\frac{m + n - 2n}{2mn} = \\frac{m - n}{2mn}, \\qquad \\frac1n - \\frac1y = \\frac{2m - m - n}{2mn} = \\frac{m - n}{2mn}.$$\nThe common difference is the same, so the three terms form an arithmetic sequence."
+  },
+  {
+   "ref": "Q24(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.2.2.10",
+    "11.2.1.2",
+    "11.1.1.6"
+   ],
+   "question": "A tall pole $OT$ is held in place vertically by ropes anchored by two pegs in the ground 10 metres apart at $A$ and $B$ as shown. $A$ is due west of $O$, and $B$ is at a bearing of 240°T from $O$. The rope connecting the top of the pole $T$ to the peg at $A$ is $3\\sqrt3$ metres long and makes an angle of $60^\\circ$ with the ground. The rope from $T$ to $B$ has length $\\ell$.\n\nShow that $OB = \\dfrac{9 + 11\\sqrt{13}}{4}$ metres.",
+   "answer": "In $\\triangle AOT$: $AO = 3\\sqrt3\\cos 60^\\circ = \\dfrac{3\\sqrt3}{2}$. $\\;\\angle AOB = 270^\\circ - 240^\\circ = 30^\\circ$.\n\nCosine rule in $\\triangle AOB$:\n$$10^2 = \\frac{27}{4} + OB^2 - 2\\left(\\frac{3\\sqrt3}{2}\\right)OB\\cos 30^\\circ = \\frac{27}{4} + OB^2 - \\frac92OB$$\n$$\\implies 4OB^2 - 18OB - 373 = 0 \\implies OB = \\frac{18 \\pm \\sqrt{6292}}{8} = \\frac{9 \\pm 11\\sqrt{13}}{4}.$$\nSince $OB > 0$, $OB = \\dfrac{9 + 11\\sqrt{13}}{4}$ m.",
+   "images": [
+    "assets/img/adv-2025-normanhurst-boys/q24.png"
+   ]
+  },
+  {
+   "ref": "Q24(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.1.2"
+   ],
+   "question": "A tall pole $OT$ is held in place vertically by ropes anchored by two pegs in the ground 10 metres apart at $A$ and $B$ as shown. $A$ is due west of $O$, and $B$ is at a bearing of 240°T from $O$. The rope connecting the top of the pole $T$ to the peg at $A$ is $3\\sqrt3$ metres long and makes an angle of $60^\\circ$ with the ground. The rope from $T$ to $B$ has length $\\ell$.\n\nGiven $OB = \\dfrac{9 + 11\\sqrt{13}}{4}$ metres, find the length of the rope, $\\ell$, connecting $T$ and $B$. Give your answer to the nearest metre.",
+   "answer": "$OT = 3\\sqrt3\\sin 60^\\circ = \\dfrac92$. $\\triangle TOB$ is right-angled at $O$:\n$$\\ell = \\sqrt{\\left(\\frac{9 + 11\\sqrt{13}}{4}\\right)^2 + \\left(\\frac92\\right)^2} \\approx 12.97 \\approx 13\\ \\text{m}.$$",
+   "images": [
+    "assets/img/adv-2025-normanhurst-boys/q24.png"
+   ]
+  },
+  {
+   "ref": "Q25",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.2",
+    "11.4.3.6"
+   ],
+   "question": "The line $y = mx$ is a tangent to the curve $y = \\ln(kx)$, where $k > 0$. Find the value of $m$, in terms of $k$.",
+   "answer": "$\\dfrac{dy}{dx} = \\dfrac{k}{kx} = \\dfrac1x$, so at the point of contact $m = \\dfrac1x$. The point is on both graphs:\n$$mx = \\ln(kx) \\implies 1 = \\ln(kx) \\implies x = \\frac ek.$$\nSo $m = \\dfrac{k}{e}$."
+  },
+  {
+   "ref": "Q26(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.2.9",
+    "11.1.1.6"
+   ],
+   "question": "Two curves $y = 2e^{-x}$ and $y = e^x - 1$ intersect at point $P$. The region between the two curves and the $y$-axis, to the left of $P$, is shaded.\n\nShow that the coordinates of $P$ are $(\\ln 2, 1)$.",
+   "answer": "$e^x - 1 = 2e^{-x} \\implies e^{2x} - e^x - 2 = 0 \\implies (e^x - 2)(e^x + 1) = 0$. Since $e^x > 0$, $e^x = 2$: $x = \\ln 2$, $y = 2 - 1 = 1$. So $P(\\ln 2, 1)$.",
+   "images": [
+    "assets/img/adv-2025-normanhurst-boys/q26.png"
+   ]
+  },
+  {
+   "ref": "Q26(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.6",
+    "12.4.5.2"
+   ],
+   "question": "Two curves $y = 2e^{-x}$ and $y = e^x - 1$ intersect at point $P$. The region between the two curves and the $y$-axis, to the left of $P$, is shaded.\n\n$P$ is $(\\ln 2, 1)$. Hence, calculate the shaded area in simplest exact form.",
+   "answer": "$$A = \\int_0^{\\ln 2}\\left(2e^{-x} - e^x + 1\\right)dx = \\Big[-2e^{-x} - e^x + x\\Big]_0^{\\ln 2} = (-1 - 2 + \\ln 2) - (-2 - 1) = \\ln 2.$$",
+   "images": [
+    "assets/img/adv-2025-normanhurst-boys/q26.png"
+   ]
+  },
   {
    "ref": "Q27(a)",
    "kind": "written",
@@ -22,7 +565,7 @@
     "12.4.8.11"
    ],
    "question": "The diagram shows the graph of $y = \\ln x$. The region bounded by the graph, the $x$-axis and the line $x = 7$ has been shaded.\n\nUsing the trapezoidal rule with 4 function values, find the approximate shaded area in exact form.",
-   "answer": "Function values at $x = 1, 3, 5, 7$ ($h = 2$):\n$$A \\approx \\frac22\\left[\\ln 1 + 2(\\ln 3 + \\ln 5) + \\ln 7\\right] = 2\\ln 15 + \\ln 7 = \\ln(225 \\times 7) = \\ln 1575.$$",
+   "answer": "Function values at $x = 1, 3, 5, 7$ ($h = 2$):\n$$A \\approx \\frac22\\left[\\ln 1 + 2(\\ln 3 + \\ln 5) + \\ln 7\\right] = 2\\ln 3 + 2\\ln 5 + \\ln 7 \\;(= \\ln 1575).$$",
    "images": [
     "assets/img/adv-2025-normanhurst-boys/q27.png"
    ]
@@ -65,10 +608,76 @@
    "dotpoints": [
     "12.4.8.11"
    ],
-   "question": "The diagram shows the graph of $y = \\ln x$. The region bounded by the graph, the $x$-axis and the line $x = 7$ has been shaded.\n\nThe trapezoidal rule with 4 function values gives the approximation $\\ln 1575 = 2(\\ln 3 + \\ln 5) + \\ln 7$ for the shaded area, and its exact value is $7\\ln 7 - 6$. Deduce that $\\ln 7 \\approx \\frac13(\\ln 3 + \\ln 5) + 1$.",
+   "question": "The diagram shows the graph of $y = \\ln x$. The region bounded by the graph, the $x$-axis and the line $x = 7$ has been shaded.\n\nThe trapezoidal rule with 4 function values gives the approximation $2(\\ln 3 + \\ln 5) + \\ln 7$ for the shaded area, and its exact value is $7\\ln 7 - 6$. Deduce that $\\ln 7 \\approx \\frac13(\\ln 3 + \\ln 5) + 1$.",
    "answer": "$$7\\ln 7 - 6 \\approx 2(\\ln 3 + \\ln 5) + \\ln 7 \\implies 6\\ln 7 \\approx 2(\\ln 3 + \\ln 5) + 6 \\implies \\ln 7 \\approx \\frac13(\\ln 3 + \\ln 5) + 1.$$",
    "images": [
     "assets/img/adv-2025-normanhurst-boys/q27.png"
+   ]
+  },
+  {
+   "ref": "Q28(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.10",
+    "12.4.7.2"
+   ],
+   "question": "The acceleration of a particle moving along the $x$-axis is given by $\\ddot x = 4\\sin 2t$, where $x$ is the displacement of the particle from the origin in metres, and $t$ is the time in seconds. Initially, the particle is at the origin moving to the left at 1 metre per second.\n\nShow that the velocity of the particle is given by $\\dot x = 1 - 2\\cos 2t$.",
+   "answer": "$\\dot x = \\displaystyle\\int 4\\sin 2t\\,dt = -2\\cos 2t + C$. At $t = 0$, $\\dot x = -1$ (moving left): $-1 = -2 + C \\implies C = 1$. So $\\dot x = 1 - 2\\cos 2t$."
+  },
+  {
+   "ref": "Q28(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.10",
+    "11.3.1.10"
+   ],
+   "question": "The acceleration of a particle moving along the $x$-axis is given by $\\ddot x = 4\\sin 2t$, where $x$ is the displacement of the particle from the origin in metres, and $t$ is the time in seconds. Initially, the particle is at the origin moving to the left at 1 metre per second.\n\nThe velocity is $\\dot x = 1 - 2\\cos 2t$. Find the time when the particle first comes to rest.",
+   "answer": "$1 - 2\\cos 2t = 0 \\implies \\cos 2t = \\frac12 \\implies 2t = \\frac\\pi3 \\implies t = \\dfrac\\pi6$ seconds."
+  },
+  {
+   "ref": "Q28(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.10",
+    "12.4.8.4"
+   ],
+   "question": "The acceleration of a particle moving along the $x$-axis is given by $\\ddot x = 4\\sin 2t$, where $x$ is the displacement of the particle from the origin in metres, and $t$ is the time in seconds. Initially, the particle is at the origin moving to the left at 1 metre per second.\n\nThe velocity is $\\dot x = 1 - 2\\cos 2t$, and the particle first comes to rest at $t = \\frac\\pi6$. Find the distance travelled by the particle in the first $\\dfrac\\pi2$ seconds.",
+   "answer": "$\\dot x < 0$ on $\\left(0, \\frac\\pi6\\right)$ and $\\dot x > 0$ on $\\left(\\frac\\pi6, \\frac\\pi2\\right]$.\n$$\\int_0^{\\pi/6}(1 - 2\\cos 2t)\\,dt = \\Big[t - \\sin 2t\\Big]_0^{\\pi/6} = \\frac\\pi6 - \\frac{\\sqrt3}{2}\\;(< 0), \\qquad \\int_{\\pi/6}^{\\pi/2}(1 - 2\\cos 2t)\\,dt = \\frac\\pi2 - \\left(\\frac\\pi6 - \\frac{\\sqrt3}{2}\\right) = \\frac\\pi3 + \\frac{\\sqrt3}{2}.$$\n$$\\text{Distance} = \\left(\\frac{\\sqrt3}{2} - \\frac\\pi6\\right) + \\left(\\frac\\pi3 + \\frac{\\sqrt3}{2}\\right) = \\sqrt3 + \\frac\\pi6 \\text{ metres}.$$"
+  },
+  {
+   "ref": "Q29(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.1.2",
+    "12.5.2.3"
+   ],
+   "question": "The diagram shows a rectangle $PQRS$ drawn in a sector $OAB$ with radius 5 metres, with $R$ and $S$ on $OA$, $Q$ on $OB$ and $P$ on the arc. It is given that $\\angle AOB = \\theta$, $OR = x$, $RS = y$ and $\\tan\\theta = 2$.\n\nShow that the perimeter of the rectangle is given by $2x + 2\\sqrt{25 - 4x^2}$.",
+   "answer": "In $\\triangle QOR$: $QR = x\\tan\\theta = 2x$, so $PS = 2x$. In right-angled $\\triangle POS$:\n$$(x + y)^2 + (2x)^2 = 5^2 \\implies x + y = \\sqrt{25 - 4x^2} \\implies y = \\sqrt{25 - 4x^2} - x.$$\nPerimeter $= 2(2x) + 2y = 4x + 2\\sqrt{25 - 4x^2} - 2x = 2x + 2\\sqrt{25 - 4x^2}$.",
+   "images": [
+    "assets/img/adv-2025-normanhurst-boys/q29.png"
+   ]
+  },
+  {
+   "ref": "Q29(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.4",
+    "11.4.3.10"
+   ],
+   "question": "The diagram shows a rectangle $PQRS$ drawn in a sector $OAB$ with radius 5 metres, with $R$ and $S$ on $OA$, $Q$ on $OB$ and $P$ on the arc. It is given that $\\angle AOB = \\theta$, $OR = x$, $RS = y$ and $\\tan\\theta = 2$.\n\nThe perimeter of the rectangle is $P = 2x + 2\\sqrt{25 - 4x^2}$. Find the maximum perimeter of the rectangle. Leave your answer in exact form.",
+   "answer": "$$\\frac{dP}{dx} = 2 - \\frac{8x}{\\sqrt{25 - 4x^2}} = 0 \\implies \\sqrt{25 - 4x^2} = 4x \\implies 25 = 20x^2 \\implies x = \\frac{\\sqrt5}{2}.$$\n$\\dfrac{dP}{dx}$ changes from positive to negative there (e.g. $P'(1) > 0$, $P'(2) < 0$), so it is a maximum:\n$$P_{\\max} = \\sqrt5 + 2 \\times 4 \\times \\frac{\\sqrt5}{2} = 5\\sqrt5 \\text{ metres}.$$",
+   "images": [
+    "assets/img/adv-2025-normanhurst-boys/q29.png"
    ]
   }
  ]
