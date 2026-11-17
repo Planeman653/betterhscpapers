@@ -1,0 +1,75 @@
+{
+ "id": "adv-2025-normanhurst-boys",
+ "course": "advanced",
+ "school": "Normanhurst Boys",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5328",
+  "title": "Normanhurst Boys 2025 Mathematics Advanced Trial"
+ },
+ "indexed": "2026-11-17",
+ "answers": "worked",
+ "partial": true,
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.8.11"
+   ],
+   "question": "The diagram shows the graph of $y = \\ln x$. The region bounded by the graph, the $x$-axis and the line $x = 7$ has been shaded.\n\nUsing the trapezoidal rule with 4 function values, find the approximate shaded area in exact form.",
+   "answer": "Function values at $x = 1, 3, 5, 7$ ($h = 2$):\n$$A \\approx \\frac22\\left[\\ln 1 + 2(\\ln 3 + \\ln 5) + \\ln 7\\right] = 2\\ln 15 + \\ln 7 = \\ln(225 \\times 7) = \\ln 1575.$$",
+   "images": [
+    "assets/img/adv-2025-normanhurst-boys/q27.png"
+   ]
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.3",
+    "11.4.3.8"
+   ],
+   "question": "The diagram shows the graph of $y = \\ln x$. The region bounded by the graph, the $x$-axis and the line $x = 7$ has been shaded.\n\nFind $\\dfrac{d}{dx}(x\\ln x)$.",
+   "answer": "By the product rule: $\\dfrac{d}{dx}(x\\ln x) = 1 \\cdot \\ln x + x \\cdot \\dfrac1x = \\ln x + 1$.",
+   "images": [
+    "assets/img/adv-2025-normanhurst-boys/q27.png"
+   ]
+  },
+  {
+   "ref": "Q27(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.1",
+    "12.3.2.3"
+   ],
+   "question": "The diagram shows the graph of $y = \\ln x$. The region bounded by the graph, the $x$-axis and the line $x = 7$ has been shaded.\n\nGiven that $\\dfrac{d}{dx}(x\\ln x) = \\ln x + 1$, find $\\displaystyle\\int_1^7 \\ln x\\,dx$.",
+   "answer": "From the derivative, $\\displaystyle\\int(\\ln x + 1)\\,dx = x\\ln x + C$, so $\\displaystyle\\int\\ln x\\,dx = x\\ln x - x + C$.\n$$\\int_1^7\\ln x\\,dx = \\Big[x\\ln x - x\\Big]_1^7 = (7\\ln 7 - 7) - (0 - 1) = 7\\ln 7 - 6.$$",
+   "images": [
+    "assets/img/adv-2025-normanhurst-boys/q27.png"
+   ]
+  },
+  {
+   "ref": "Q27(d)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.11"
+   ],
+   "question": "The diagram shows the graph of $y = \\ln x$. The region bounded by the graph, the $x$-axis and the line $x = 7$ has been shaded.\n\nThe trapezoidal rule with 4 function values gives the approximation $\\ln 1575 = 2(\\ln 3 + \\ln 5) + \\ln 7$ for the shaded area, and its exact value is $7\\ln 7 - 6$. Deduce that $\\ln 7 \\approx \\frac13(\\ln 3 + \\ln 5) + 1$.",
+   "answer": "$$7\\ln 7 - 6 \\approx 2(\\ln 3 + \\ln 5) + \\ln 7 \\implies 6\\ln 7 \\approx 2(\\ln 3 + \\ln 5) + 6 \\implies \\ln 7 \\approx \\frac13(\\ln 3 + \\ln 5) + 1.$$",
+   "images": [
+    "assets/img/adv-2025-normanhurst-boys/q27.png"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "id": "adv-2026-sydney-grammar",
+ "course": "advanced",
+ "school": "Sydney Grammar",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5328",
+  "title": "Sydney Grammar 2026 Mathematics Advanced Trial"
+ },
+ "indexed": "2026-11-17",
+ "answers": "worked",
+ "partial": true,
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q33(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.2"
+   ],
+   "question": "Let the concentration of hydrogen ions in a solution be $H$, measured in $\\text{mol L}^{-1}$.\n\nA scientist prepares a number of solutions whose concentrations of hydrogen ions form a geometric sequence. Let $H_n$ be the concentration of the $n$th solution. The first solution has concentration $H_1 = 10^{-2}\\ \\text{mol L}^{-1}$ and each subsequent solution has half the concentration of the previous solution.\n\nFind the concentration of hydrogen ions in the $n$th solution.",
+   "answer": "Geometric sequence with $a = 10^{-2}$ and $r = \\frac12$:\n$$H_n = 10^{-2}\\left(\\frac12\\right)^{n-1}\\ \\text{mol L}^{-1}.$$"
+  },
+  {
+   "ref": "Q33(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.4",
+    "11.5.2.9"
+   ],
+   "question": "Let the concentration of hydrogen ions in a solution be $H$, measured in $\\text{mol L}^{-1}$.\n\nA scientist prepares a number of solutions whose concentrations of hydrogen ions form a geometric sequence. Let $H_n$ be the concentration of the $n$th solution. The first solution has concentration $H_1 = 10^{-2}\\ \\text{mol L}^{-1}$ and each subsequent solution has half the concentration of the previous solution.\n\nThe concentration of the $n$th solution is $H_n = 10^{-2}\\left(\\frac12\\right)^{n-1}$. The acidity of a solution, $A(H)$, is measured by its pH value, where $A(H) = -\\log_{10}(H)$. Show that the acidity of the $n$th solution is given by $A_n = 2 + (n-1)\\log_{10}2$.",
+   "answer": "$$\\begin{aligned}\nA_n &= -\\log_{10}\\left(10^{-2}\\left(\\tfrac12\\right)^{n-1}\\right) = -\\left[\\log_{10}10^{-2} + (n-1)\\log_{10}\\tfrac12\\right]\\\\\n&= -\\left[-2 - (n-1)\\log_{10}2\\right] = 2 + (n-1)\\log_{10}2.\n\\end{aligned}$$"
+  },
+  {
+   "ref": "Q33(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.4"
+   ],
+   "question": "Let the concentration of hydrogen ions in a solution be $H$, measured in $\\text{mol L}^{-1}$.\n\nA scientist prepares a number of solutions whose concentrations of hydrogen ions form a geometric sequence. Let $H_n$ be the concentration of the $n$th solution. The first solution has concentration $H_1 = 10^{-2}\\ \\text{mol L}^{-1}$ and each subsequent solution has half the concentration of the previous solution.\n\nThe acidity (pH) of the $n$th solution is $A_n = 2 + (n-1)\\log_{10}2$. Determine the first solution in the sequence whose acidity exceeds 7.",
+   "answer": "$$2 + (n-1)\\log_{10}2 > 7 \\implies n - 1 > \\frac{5}{\\log_{10}2} = 16.6\\ldots \\implies n > 17.6\\ldots$$\nThe first such solution is the **18th** solution."
+  }
+ ]
+}

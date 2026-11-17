@@ -1,0 +1,39 @@
+{
+ "id": "adv-2025-james-ruse",
+ "course": "advanced",
+ "school": "James Ruse",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5328",
+  "title": "James Ruse 2025 Mathematics Advanced Trial"
+ },
+ "indexed": "2026-11-17",
+ "answers": "worked",
+ "partial": true,
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q19(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.4"
+   ],
+   "question": "The decibel level of a sound is given by the formula\n$$L = 10\\log_{10}\\left(\\frac{I}{10^{-12}}\\right),$$\nwhere $L$ is the sound level in decibels and $I$ is the intensity of the sound in watts per square metre.\n\nA chocolate making machine produces a sound with intensity $2.5 \\times 10^{-5}\\ \\text{W/m}^2$. Calculate the sound level of the machine to 4 decimal places.",
+   "answer": "$$L = 10\\log_{10}\\left(\\frac{2.5 \\times 10^{-5}}{10^{-12}}\\right) = 10\\log_{10}\\left(2.5 \\times 10^{7}\\right) = 10\\left(7 + \\log_{10}2.5\\right) = 73.9794 \\text{ dB (4 d.p.)}$$"
+  },
+  {
+   "ref": "Q19(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.4"
+   ],
+   "question": "The decibel level of a sound is given by the formula\n$$L = 10\\log_{10}\\left(\\frac{I}{10^{-12}}\\right),$$\nwhere $L$ is the sound level in decibels and $I$ is the intensity of the sound in watts per square metre.\n\nA chocolate making machine produces a sound with intensity $2.5 \\times 10^{-5}\\ \\text{W/m}^2$. A nearby industrial coffee grinder produces a sound that is 20 decibels louder than the chocolate making machine. What is the percentage increase in sound intensity produced by the coffee grinder compared to the chocolate making machine? Give your answer to the nearest whole number.",
+   "answer": "Let the machine and grinder have intensities $I_1$ and $I_2$. Then\n$$L_2 - L_1 = 10\\log_{10}\\left(\\frac{I_2}{10^{-12}}\\right) - 10\\log_{10}\\left(\\frac{I_1}{10^{-12}}\\right) = 10\\log_{10}\\left(\\frac{I_2}{I_1}\\right) = 20.$$\nSo $\\log_{10}\\left(\\dfrac{I_2}{I_1}\\right) = 2$, i.e. $I_2 = 100I_1$.\n\nThe intensity is 100 times as large, an increase of $\\dfrac{100I_1 - I_1}{I_1} \\times 100\\% = 9900\\%$."
+  }
+ ]
+}

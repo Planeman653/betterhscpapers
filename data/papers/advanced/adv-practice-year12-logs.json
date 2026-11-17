@@ -1,0 +1,84 @@
+{
+ "id": "adv-practice-year12-logs",
+ "course": "advanced",
+ "school": "Better HSC Papers",
+ "year": 2026,
+ "type": "Practice set",
+ "thsc": {
+  "viewno": "",
+  "title": "Better HSC Papers practice: Year 12 logarithms"
+ },
+ "indexed": "2026-11-17",
+ "answers": "worked",
+ "label": "Better HSC Papers practice: Year 12 logarithms",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "The intensity of sounds that humans can hear ranges from about $10^{-12}\\ \\text{W/m}^2$ (the threshold of hearing) to about $10\\ \\text{W/m}^2$ (the threshold of pain).\n\nExplain why a logarithmic scale, such as the decibel scale, is more suitable than a linear scale for describing sound intensity.",
+   "answer": "The intensities range over about 13 powers of ten (a factor of $10^{13}$). On a linear scale, almost all everyday sounds would be squashed into a tiny region near zero and the numbers would be awkward (e.g. $0.000\\,000\\,1$ vs $10$).\n\nA logarithmic scale measures the **power of ten** instead, so each tenfold increase in intensity adds the same fixed amount (10 dB). The whole range becomes a manageable 0–130 dB, and equal steps on the scale correspond to equal *ratios* of intensity — which also matches how loudness is perceived."
+  },
+  {
+   "ref": "Q2",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.1"
+   ],
+   "question": "By differentiating both sides of the identity $e^{\\ln x} = x$ (for $x > 0$), prove that $\\dfrac{d}{dx}(\\ln x) = \\dfrac1x$.",
+   "answer": "Differentiate both sides with respect to $x$, using the chain rule on the left:\n$$e^{\\ln x} \\cdot \\frac{d}{dx}(\\ln x) = 1.$$\nSince $e^{\\ln x} = x$:\n$$x\\,\\frac{d}{dx}(\\ln x) = 1 \\implies \\frac{d}{dx}(\\ln x) = \\frac1x, \\quad x > 0.$$"
+  },
+  {
+   "ref": "Q3",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.2"
+   ],
+   "question": "Prove that $\\dfrac{d}{dx}\\left(\\log_a x\\right) = \\dfrac{1}{x\\ln a}$, where $a > 0$, $a \\ne 1$ and $x > 0$.",
+   "answer": "By the change of base rule, $\\log_a x = \\dfrac{\\ln x}{\\ln a}$, and $\\ln a$ is a non-zero constant. So\n$$\\frac{d}{dx}\\left(\\log_a x\\right) = \\frac{1}{\\ln a}\\cdot\\frac{d}{dx}(\\ln x) = \\frac{1}{\\ln a}\\cdot\\frac1x = \\frac{1}{x\\ln a}.$$"
+  },
+  {
+   "ref": "Q4(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.6.1"
+   ],
+   "question": "Find $\\displaystyle\\int \\frac{5}{x}\\,dx$.",
+   "answer": "$$\\int\\frac5x\\,dx = 5\\ln|x| + C.$$"
+  },
+  {
+   "ref": "Q4(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.6.1"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_{-e^2}^{-1}\\frac{1}{x}\\,dx$.",
+   "answer": "For $x \\ne 0$, $\\displaystyle\\int\\frac1x\\,dx = \\ln|x| + C$, which is valid on the negative interval $[-e^2, -1]$:\n$$\\int_{-e^2}^{-1}\\frac1x\\,dx = \\Big[\\ln|x|\\Big]_{-e^2}^{-1} = \\ln 1 - \\ln e^2 = 0 - 2 = -2.$$\n(The answer is negative because $\\frac1x < 0$ on this interval, so the curve lies below the $x$-axis.)"
+  },
+  {
+   "ref": "Q5",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.4",
+    "11.5.2.9"
+   ],
+   "question": "The apparent magnitudes $m_1$ and $m_2$ of two stars are related to their brightnesses $b_1$ and $b_2$ by\n$$m_1 - m_2 = -2.5\\log_{10}\\left(\\frac{b_1}{b_2}\\right).$$\nStar A has apparent magnitude $1.2$ and star B has apparent magnitude $6.2$. How many times brighter than star B does star A appear?",
+   "answer": "Let star A be star 1 and star B be star 2:\n$$1.2 - 6.2 = -2.5\\log_{10}\\left(\\frac{b_A}{b_B}\\right) \\implies -5 = -2.5\\log_{10}\\left(\\frac{b_A}{b_B}\\right) \\implies \\log_{10}\\left(\\frac{b_A}{b_B}\\right) = 2.$$\nSo $\\dfrac{b_A}{b_B} = 10^2 = 100$: star A appears **100 times** brighter than star B. (Note that a *smaller* magnitude means a *brighter* star.)"
+  }
+ ]
+}

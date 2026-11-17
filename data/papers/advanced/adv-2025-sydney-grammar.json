@@ -1,0 +1,46 @@
+{
+ "id": "adv-2025-sydney-grammar",
+ "course": "advanced",
+ "school": "Sydney Grammar",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5328",
+  "title": "Sydney Grammar 2025 Mathematics Advanced Trial"
+ },
+ "indexed": "2026-11-17",
+ "answers": "worked",
+ "partial": true,
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.8.11"
+   ],
+   "question": "The region bounded by $y = \\ln x$ and the $x$-axis between $x = 1$ and $x = 10$ is shaded in the diagram.\n\nBy using the trapezoidal rule with 4 function values, find an approximation for the area of the shaded region. Give your answer correct to two decimal places.",
+   "answer": "Function values at $x = 1, 4, 7, 10$ ($h = 3$):\n$$A \\approx \\frac32\\left[\\ln 1 + 2(\\ln 4 + \\ln 7) + \\ln 10\\right] = \\frac32\\left[0 + 2(3.3322\\ldots) + 2.3025\\ldots\\right] \\approx 13.45.$$",
+   "images": [
+    "assets/img/adv-2025-sydney-grammar/q25.png"
+   ]
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.7",
+    "12.4.5.1"
+   ],
+   "question": "The region bounded by $y = \\ln x$ and the $x$-axis between $x = 1$ and $x = 10$ is shaded in the diagram.\n\nBy considering an appropriate region bounded by $y = \\ln x$ and the $y$-axis, find the exact area of the shaded region.",
+   "answer": "$y = \\ln x \\iff x = e^y$. The region between the curve and the $y$-axis, from $y = 0$ to $y = \\ln 10$, has area\n$$\\int_0^{\\ln 10} e^y\\,dy = \\Big[e^y\\Big]_0^{\\ln 10} = 10 - 1 = 9.$$\nThat region and the shaded region together make up the rectangle with vertices $(0,0)$, $(10,0)$, $(10,\\ln 10)$, $(0,\\ln 10)$, of area $10\\ln 10$. So\n$$\\text{shaded area} = 10\\ln 10 - 9 \\text{ square units } (\\approx 14.03).$$",
+   "images": [
+    "assets/img/adv-2025-sydney-grammar/q25.png"
+   ]
+  }
+ ]
+}

@@ -140,6 +140,10 @@ Spot-check the site: `python3 -m http.server 8765` and open `/<course>.html` wit
 Commit (one commit for the day) and push to `main`:
 `git add -A && git commit -m "Index <n> papers: <labels>" && git pull --rebase -X theirs origin main && python3 scripts/build.py && git add -A && git commit --amend --no-edit && git push origin HEAD:main`
 
+> **Partial papers.** A few Advanced paper files have `"partial": true`: only selected questions were indexed (to
+> cover dot points no other paper had) and the paper is *not* in the ledger. If `thsc.py pick` gives you one of those
+> papers, index the whole paper as normal and overwrite the file (keep the same paper id), dropping `partial`.
+
 ## 5. The solution queue (community questions without solutions)
 
 Signed-in users can submit **just a question** on `submit.html`; it waits in the Firestore `queue` collection until

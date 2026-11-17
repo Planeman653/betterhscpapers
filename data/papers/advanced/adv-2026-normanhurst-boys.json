@@ -1,0 +1,51 @@
+{
+ "id": "adv-2026-normanhurst-boys",
+ "course": "advanced",
+ "school": "Normanhurst Boys",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5328",
+  "title": "Normanhurst Boys 2026 Mathematics Advanced Trial"
+ },
+ "indexed": "2026-11-17",
+ "answers": "worked",
+ "partial": true,
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q21(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.5.3"
+   ],
+   "question": "Find the exact value of $\\displaystyle\\int_0^1 e^{(\\ln 3)x}\\,dx$.",
+   "answer": "$e^{(\\ln 3)x} = \\left(e^{\\ln 3}\\right)^x = 3^x$, so\n$$\\int_0^1 3^x\\,dx = \\left[\\frac{3^x}{\\ln 3}\\right]_0^1 = \\frac{3 - 1}{\\ln 3} = \\frac{2}{\\ln 3}.$$"
+  },
+  {
+   "ref": "Q21(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.8.11"
+   ],
+   "question": "Using the trapezoidal rule with 3 function values, find an approximation to the integral $\\displaystyle\\int_0^1 e^{(\\ln 3)x}\\,dx$, leaving your answer in exact form.",
+   "answer": "$e^{(\\ln 3)x} = 3^x$. Function values at $x = 0, \\frac12, 1$ ($h = \\frac12$): $1, \\sqrt3, 3$.\n$$\\int_0^1 3^x\\,dx \\approx \\frac{1}{4}\\left[1 + 2\\sqrt3 + 3\\right] = \\frac{2 + \\sqrt3}{2}.$$"
+  },
+  {
+   "ref": "Q21(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.5.3",
+    "12.4.8.11"
+   ],
+   "question": "Given that $\\displaystyle\\int_0^1 e^{(\\ln 3)x}\\,dx = \\frac{2}{\\ln 3}$ and that the trapezoidal rule with 3 function values gives the approximation $\\dfrac{2 + \\sqrt3}{2}$, show that $\\ln 3 \\approx 8 - 4\\sqrt3$.",
+   "answer": "$$\\frac{2}{\\ln 3} \\approx \\frac{2 + \\sqrt3}{2} \\implies \\ln 3 \\approx \\frac{4}{2 + \\sqrt3} = \\frac{4(2 - \\sqrt3)}{(2 + \\sqrt3)(2 - \\sqrt3)} = \\frac{4(2 - \\sqrt3)}{1} = 8 - 4\\sqrt3.$$"
+  }
+ ]
+}
