@@ -6,13 +6,34 @@
  "type": "Trial",
  "thsc": {
   "viewno": "5328",
-  "title": "Abbotsleigh 2025 Mathematics Advanced Trial"
+  "title": "Abbotsleigh 2025 w. sol"
  },
  "indexed": "2026-11-17",
  "answers": "worked",
- "partial": true,
  "dropped": [],
  "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.2.1",
+    "11.1.2.7"
+   ],
+   "question": "The graph of a relation is shown below.\n\nWhich type of relationship does the graph represent?",
+   "answer": "**Vertical line test:** a vertical line to the right of the $y$-axis cuts the graph twice, so some $x$-values have more than one $y$-value (not a function).\n\n**Horizontal line test:** every horizontal line cuts the graph at most once, so each $y$-value comes from only one $x$-value.\n\nSo the relation is **one-to-many**. **(B)**",
+   "options": [
+    "One-to-one",
+    "One-to-many",
+    "Many-to-one",
+    "Many-to-many"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/adv-2025-abbotsleigh/q1.png"
+   ]
+  },
   {
    "ref": "Q2",
    "kind": "mc",
@@ -22,7 +43,7 @@
     "12.3.1.3"
    ],
    "question": "Consider the function $f(x) = 4^{x+2}$. What is the derivative of $f(x)$ with respect to $x$?",
-   "answer": "Using $\\dfrac{d}{dx}\\left(a^{u}\\right) = \\ln a \\cdot a^{u}\\dfrac{du}{dx}$ with $u = x + 2$:\n$$f'(x) = \\ln 4 \\times 4^{x+2} \\times 1 = \\ln 4 \\times 4^{x+2}. \\quad \\textbf{(C)}$$",
+   "answer": "Using $\\dfrac{d}{dx}\\left(a^{u}\\right) = \\ln a \\cdot a^{u}\\dfrac{du}{dx}$ with $u = x + 2$:\n$$f'(x) = \\ln 4 \\times 4^{x+2}. \\quad \\textbf{(C)}$$",
    "options": [
     "$2 \\times 4^{x+2}$",
     "$\\ln 2 \\times 4^{x+2}$",
@@ -30,6 +51,124 @@
     "$(x+2) \\times 4^{x+2}$"
    ],
    "correct": "C"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.7.3.7",
+    "11.7.2.6"
+   ],
+   "question": "$A$ and $B$ are two independent events such that $P(\\overline{A} \\cap B) = 0.4$ and $P(B) = 0.5$.\n\nWhat is the value of $P(A)$?",
+   "answer": "$\\overline{A}$ and $B$ are also independent, so\n$$P(\\overline{A} \\cap B) = P(\\overline{A})P(B) \\implies 0.4 = 0.5\\,P(\\overline{A}) \\implies P(\\overline{A}) = 0.8.$$\nSo $P(A) = 1 - 0.8 = 0.2$. **(B)**",
+   "options": [
+    "$0.1$",
+    "$0.2$",
+    "$0.3$",
+    "$0.4$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.3.12",
+    "12.6.3.10"
+   ],
+   "question": "Gemma scored 70 on a test in which the marks were normally distributed with mean 50 and standard deviation 15.\n\nWhat new mark would Gemma be given if the marks were adjusted to have mean 60 and standard deviation 12?",
+   "answer": "Her $z$-score stays the same: $z = \\dfrac{70 - 50}{15} = \\dfrac43$.\n\nNew mark $= 60 + \\dfrac43 \\times 12 = 76$. **(B)**",
+   "options": [
+    "$74$",
+    "$76$",
+    "$78$",
+    "$80$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.3.8"
+   ],
+   "question": "The diagram shows a circle with radius $r$ cm and a sector with an internal angle of $30^\\circ$.\n\nIf the area of the shaded segment is $1.7\\text{ cm}^2$, which of the following is closest to the radius of the circle?",
+   "answer": "With $\\theta = 30^\\circ = \\dfrac\\pi6$:\n$$\\tfrac12r^2\\left(\\tfrac\\pi6 - \\sin\\tfrac\\pi6\\right) = 1.7 \\implies r^2\\left(\\tfrac{\\pi}{12} - \\tfrac14\\right) = 1.7 \\implies r^2 \\approx 144.06 \\implies r \\approx 12.00 \\text{ cm}. \\quad \\textbf{(C)}$$",
+   "options": [
+    "$0.12$ cm",
+    "$0.34$ cm",
+    "$12.00$ cm",
+    "$144.08$ cm"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/adv-2025-abbotsleigh/q5.png"
+   ]
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.3.10",
+    "12.4.2.6"
+   ],
+   "question": "A particle is moving along the $x$-axis. The graph shows its velocity, $v$ metres per second, at time $t$ seconds. The velocity decreases linearly from $10$ m/s at $t = 0$ to $0$ at $t = 5$, and continues to decrease after that.\n\nWhen $t = 0$, the displacement $x$ is equal to 3 metres. What is the maximum value of the displacement $x$?",
+   "answer": "The particle moves in the positive direction until $v = 0$ at $t = 5$, then turns back, so $x$ is greatest at $t = 5$.\n\n$v = 10 - 2t \\implies x = 10t - t^2 + C$, and $x(0) = 3$ gives $C = 3$. So $x(5) = 50 - 25 + 3 = 28$ m. (Equivalently, $3 + $ area of the triangle $= 3 + \\tfrac12 \\times 5 \\times 10 = 28$.) **(C)**",
+   "options": [
+    "$10$ m",
+    "$13$ m",
+    "$28$ m",
+    "$53$ m"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/adv-2025-abbotsleigh/q6.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "A circular Ferris wheel has a diameter of 40 metres and rotates at a constant rate, completing one full revolution every 2 minutes. The height of a certain passenger above ground as a function of time can be modelled by\n$$h(t) = 20\\sin\\left(\\frac{\\pi}{60}(t - 15)\\right) + 30,$$\nwhere $h(t)$ is the height in metres and $t$ is the time in seconds.\n\nWhat does the parameter 30 in the equation represent in the context of the Ferris wheel?",
+   "answer": "Adding 30 translates the graph up 30 units: the centre line of the motion, i.e. the centre of the wheel is 30 m above the ground. **(D)**",
+   "options": [
+    "The phase shift in time of the passenger on the Ferris wheel.",
+    "The amplitude of the motion of the passenger on the Ferris wheel.",
+    "The period of rotation of the Ferris wheel.",
+    "The vertical shift of the centre of the Ferris wheel above the ground."
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.8.8",
+    "12.4.8.9"
+   ],
+   "question": "Given that $\\displaystyle\\int_1^6 f(x)\\,dx = 6$ and $\\displaystyle\\int_3^6 f(x)\\,dx = -4$, what is the value of $\\displaystyle\\int_1^3 \\big(f(x) + x\\big)\\,dx$?",
+   "answer": "$$\\int_1^3 f(x)\\,dx = \\int_1^6 f(x)\\,dx - \\int_3^6 f(x)\\,dx = 6 - (-4) = 10, \\qquad \\int_1^3 x\\,dx = \\left[\\frac{x^2}{2}\\right]_1^3 = 4.$$\nTotal $= 10 + 4 = 14$. **(D)**",
+   "options": [
+    "$2$",
+    "$6$",
+    "$10$",
+    "$14$"
+   ],
+   "correct": "D"
   },
   {
    "ref": "Q9",
@@ -50,6 +189,25 @@
    "correct": "D"
   },
   {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.7",
+    "11.5.2.10"
+   ],
+   "question": "What is the limiting sum of the geometric series $\\log_e 2 - (\\log_e 2)^2 + (\\log_e 2)^3 - (\\log_e 2)^4 + \\cdots$?",
+   "answer": "$a = \\ln 2$, $r = -\\ln 2$ (and $|r| < 1$):\n$$S_\\infty = \\frac{\\ln 2}{1 + \\ln 2} = \\frac{\\ln 2}{\\ln e + \\ln 2} = \\frac{\\ln 2}{\\ln(2e)} = \\log_{2e}2 \\quad \\text{(change of base).} \\quad \\textbf{(D)}$$",
+   "options": [
+    "$\\log_{\\frac e2} 2$",
+    "$\\log_{\\frac2e} 2$",
+    "$\\log_{2+e} 2$",
+    "$\\log_{2e} 2$"
+   ],
+   "correct": "D"
+  },
+  {
    "ref": "Q11(a)",
    "kind": "written",
    "marks": 2,
@@ -59,7 +217,560 @@
     "12.3.2.3"
    ],
    "question": "Given $f(x) = \\log_{10}\\left(3x^2 - 2x\\right)$, find the exact value of $f'(2)$.",
-   "answer": "Using $\\dfrac{d}{dx}\\log_a u = \\dfrac{u'}{u\\ln a}$:\n$$f'(x) = \\frac{6x - 2}{\\left(3x^2 - 2x\\right)\\ln 10}.$$\n$$f'(2) = \\frac{12 - 2}{(12 - 4)\\ln 10} = \\frac{10}{8\\ln 10} = \\frac{5}{4\\ln 10}.$$"
+   "answer": "Using $\\dfrac{d}{dx}\\log_a u = \\dfrac{u'}{u\\ln a}$:\n$$f'(x) = \\frac{6x - 2}{\\left(3x^2 - 2x\\right)\\ln 10}, \\qquad f'(2) = \\frac{12 - 2}{(12 - 4)\\ln 10} = \\frac{10}{8\\ln 10} = \\frac{5}{4\\ln 10}.$$"
+  },
+  {
+   "ref": "Q11(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.7.2.7"
+   ],
+   "question": "In a population, 60% of people are of blood type $O$ and 40% are of blood type $A$. Two people are chosen at random from this population.\n\nComplete the tree diagram representing this situation.",
+   "answer": "Each person is $A$ with probability $0.4$ and $O$ with probability $0.6$, independently:\n\n- First person $A$ ($0.4$): second $A$ ($0.4$) or $O$ ($0.6$)\n- First person $O$ ($0.6$): second $A$ ($0.4$) or $O$ ($0.6$)\n\nOutcomes: $AA = 0.16$, $AO = 0.24$, $OA = 0.24$, $OO = 0.36$.",
+   "images": [
+    "assets/img/adv-2025-abbotsleigh/q11b.png"
+   ]
+  },
+  {
+   "ref": "Q11(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.7.2.7",
+    "11.7.3.8"
+   ],
+   "question": "In a population, 60% of people are of blood type $O$ and 40% are of blood type $A$. Two people are chosen at random from this population.\n\nCalculate the probability that both people are of blood type $A$.",
+   "answer": "$P(AA) = 0.4 \\times 0.4 = 0.16$."
+  },
+  {
+   "ref": "Q11(b)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.2.7",
+    "11.7.2.6"
+   ],
+   "question": "In a population, 60% of people are of blood type $O$ and 40% are of blood type $A$. Two people are chosen at random from this population.\n\nCalculate the probability that at least one person is of blood type $O$.",
+   "answer": "$P(\\text{at least one } O) = 1 - P(AA) = 1 - 0.16 = 0.84$."
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.2.9",
+    "11.4.2.8"
+   ],
+   "question": "Let $f(x) = 4x^2 - 3x$. Use the definition $f'(x) = \\displaystyle\\lim_{h\\to0}\\frac{f(x+h) - f(x)}{h}$ to find the derivative of $f(x)$.",
+   "answer": "$$\\begin{aligned}\nf(x+h) - f(x) &= 4(x+h)^2 - 3(x+h) - 4x^2 + 3x = 8xh + 4h^2 - 3h,\\\\\nf'(x) &= \\lim_{h\\to0}\\frac{8xh + 4h^2 - 3h}{h} = \\lim_{h\\to0}(8x + 4h - 3) = 8x - 3.\n\\end{aligned}$$"
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.2.9"
+   ],
+   "question": "Solve $\\log_5 9 = 2\\log_5 12 - \\log_5 x$.",
+   "answer": "$$\\log_5 9 = \\log_5 144 - \\log_5 x = \\log_5\\frac{144}{x} \\implies 9 = \\frac{144}{x} \\implies x = 16.$$"
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.9.8",
+    "11.1.9.3"
+   ],
+   "question": "Consider the functions $f(x) = \\dfrac1x - 2$ and $g(x) = x + 3$. Let $h(x) = f(g(x))$. Find the domain and range of $h(x)$.",
+   "answer": "$$h(x) = f(x + 3) = \\frac{1}{x + 3} - 2.$$\n**Domain:** $x + 3 \\ne 0$, i.e. all real $x \\ne -3$.\n\n**Range:** $\\dfrac{1}{x+3}$ takes every real value except $0$, so $h(x)$ takes every real value except $-2$: all real $y \\ne -2$."
+  },
+  {
+   "ref": "Q11(f)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "Find the derivative of the function $y = \\tan\\left(x^2\\right)$.",
+   "answer": "$\\dfrac{dy}{dx} = 2x\\sec^2\\left(x^2\\right)$."
+  },
+  {
+   "ref": "Q11(f)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.7.3",
+    "11.3.1.11"
+   ],
+   "question": "Given that $\\dfrac{d}{dx}\\tan\\left(x^2\\right) = 2x\\sec^2\\left(x^2\\right)$, by using an appropriate trigonometric identity, find $\\displaystyle\\int x\\tan^2\\left(x^2\\right)dx$.",
+   "answer": "Using $\\tan^2\\theta = \\sec^2\\theta - 1$:\n$$\\int x\\tan^2\\left(x^2\\right)dx = \\int x\\sec^2\\left(x^2\\right)dx - \\int x\\,dx = \\frac12\\tan\\left(x^2\\right) - \\frac{x^2}{2} + C.$$"
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.2.9",
+    "11.3.1.12"
+   ],
+   "question": "Show that $\\log_e(1 + \\sin x) - \\log_e(1 - \\sin x) = 2\\log_e(\\sec x + \\tan x)$.",
+   "answer": "$$\\begin{aligned}\n\\ln(1 + \\sin x) - \\ln(1 - \\sin x) &= \\ln\\frac{1 + \\sin x}{1 - \\sin x} = \\ln\\frac{(1 + \\sin x)^2}{(1 - \\sin x)(1 + \\sin x)} = \\ln\\frac{(1 + \\sin x)^2}{1 - \\sin^2 x}\\\\\n&= \\ln\\frac{(1 + \\sin x)^2}{\\cos^2 x} = 2\\ln\\left(\\frac{1 + \\sin x}{\\cos x}\\right) = 2\\ln(\\sec x + \\tan x),\n\\end{aligned}$$\n(for $x$ where $\\sec x + \\tan x > 0$, i.e. where both sides are defined)."
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.1.2",
+    "11.2.2.10"
+   ],
+   "question": "Two mountains, $P$ and $Q$, lie directly north of a campground $C$. Cathy walks from $C$ on a bearing of $065^\\circ$ a distance of 4 km to a point $T$. The diagram shows the relative positions, viewed from above.\n\nFrom point $T$, the base of mountain $P$ is on a bearing of $285^\\circ$, while the base of mountain $Q$ is on a bearing of $315^\\circ$.\n\nShow that $\\angle QTC = 70^\\circ$.",
+   "answer": "The bearing of $C$ from $T$ is $065^\\circ + 180^\\circ = 245^\\circ$. So\n$$\\angle QTC = 315^\\circ - 245^\\circ = 70^\\circ.$$",
+   "images": [
+    "assets/img/adv-2025-abbotsleigh/q12b.png"
+   ]
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "Two mountains, $P$ and $Q$, lie directly north of a campground $C$. Cathy walks from $C$ on a bearing of $065^\\circ$ a distance of 4 km to a point $T$. The diagram shows the relative positions, viewed from above.\n\nFrom point $T$, the base of mountain $P$ is on a bearing of $285^\\circ$, while the base of mountain $Q$ is on a bearing of $315^\\circ$.\n\nGiven that $\\angle QTC = 70^\\circ$, calculate the distance $CQ$, correct to 1 decimal place.",
+   "answer": "In $\\triangle QTC$: $\\angle QCT = 65^\\circ$, $\\angle QTC = 70^\\circ$, so $\\angle CQT = 45^\\circ$. By the sine rule:\n$$\\frac{CQ}{\\sin 70^\\circ} = \\frac{4}{\\sin 45^\\circ} \\implies CQ = \\frac{4\\sin 70^\\circ}{\\sin 45^\\circ} = 5.315\\ldots \\approx 5.3 \\text{ km}.$$",
+   "images": [
+    "assets/img/adv-2025-abbotsleigh/q12b.png"
+   ]
+  },
+  {
+   "ref": "Q12(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "Two mountains, $P$ and $Q$, lie directly north of a campground $C$. Cathy walks from $C$ on a bearing of $065^\\circ$ a distance of 4 km to a point $T$. The diagram shows the relative positions, viewed from above.\n\nFrom point $T$, the base of mountain $P$ is on a bearing of $285^\\circ$, while the base of mountain $Q$ is on a bearing of $315^\\circ$.\n\nGiven that $CQ \\approx 5.3157$ km, calculate the distance $PQ$.",
+   "answer": "$\\angle PTC = 285^\\circ - 245^\\circ = 40^\\circ$, and $\\angle PCT = 65^\\circ$, so $\\angle CPT = 75^\\circ$. By the sine rule:\n$$CP = \\frac{4\\sin 40^\\circ}{\\sin 75^\\circ} = 2.6618\\ldots \\text{ km}.$$\n$$PQ = CQ - CP = 5.3157\\ldots - 2.6618\\ldots \\approx 2.7 \\text{ km}.$$",
+   "images": [
+    "assets/img/adv-2025-abbotsleigh/q12b.png"
+   ]
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "Tables of future value and present value interest factors for an annuity of \\$1 are shown below.\n\n**Future value interest factors for an annuity of \\$1**\n\n| Period | 2% | 4% | 6% | 8% |\n|---|---|---|---|---|\n| 1 | 1.000 | 1.000 | 1.000 | 1.000 |\n| 2 | 2.020 | 2.040 | 2.060 | 2.080 |\n| 3 | 3.060 | 3.122 | 3.184 | 3.246 |\n| 4 | 4.122 | 4.246 | 4.375 | 4.506 |\n| 5 | 5.204 | 5.416 | 5.637 | 5.867 |\n| 6 | 6.308 | 6.633 | 6.975 | 7.336 |\n| 7 | 7.434 | 7.898 | 8.394 | 8.923 |\n| 8 | 8.583 | 9.214 | 9.897 | 10.637 |\n\n**Present value interest factors for an annuity of \\$1**\n\n| Period | 2% | 4% | 6% | 8% |\n|---|---|---|---|---|\n| 1 | 0.9804 | 0.9615 | 0.9434 | 0.9091 |\n| 2 | 1.9416 | 1.8861 | 1.8334 | 1.7355 |\n| 3 | 2.8839 | 2.7751 | 2.6730 | 2.4869 |\n| 4 | 3.8077 | 3.6299 | 3.4651 | 3.1699 |\n| 5 | 4.7135 | 4.4518 | 4.2124 | 3.7908 |\n| 6 | 5.6014 | 5.2421 | 4.9173 | 4.3553 |\n| 7 | 6.4720 | 6.0021 | 5.5824 | 4.8684 |\n| 8 | 7.3255 | 6.7327 | 6.2098 | 5.3349 |\n\nKim is saving to go on a holiday. She plans to deposit \\$720 at the end of each quarter into an annuity paying 8% p.a. compounding quarterly. What is the future value of her investment after 2 years?",
+   "answer": "Quarterly rate $= 2\\%$, number of periods $= 8$. Future value factor $= 8.583$:\n$$FV = 720 \\times 8.583 = \\$6179.76.$$"
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.4",
+    "12.7.1.3"
+   ],
+   "question": "Tables of future value and present value interest factors for an annuity of \\$1 are shown below.\n\n**Future value interest factors for an annuity of \\$1**\n\n| Period | 2% | 4% | 6% | 8% |\n|---|---|---|---|---|\n| 1 | 1.000 | 1.000 | 1.000 | 1.000 |\n| 2 | 2.020 | 2.040 | 2.060 | 2.080 |\n| 3 | 3.060 | 3.122 | 3.184 | 3.246 |\n| 4 | 4.122 | 4.246 | 4.375 | 4.506 |\n| 5 | 5.204 | 5.416 | 5.637 | 5.867 |\n| 6 | 6.308 | 6.633 | 6.975 | 7.336 |\n| 7 | 7.434 | 7.898 | 8.394 | 8.923 |\n| 8 | 8.583 | 9.214 | 9.897 | 10.637 |\n\n**Present value interest factors for an annuity of \\$1**\n\n| Period | 2% | 4% | 6% | 8% |\n|---|---|---|---|---|\n| 1 | 0.9804 | 0.9615 | 0.9434 | 0.9091 |\n| 2 | 1.9416 | 1.8861 | 1.8334 | 1.7355 |\n| 3 | 2.8839 | 2.7751 | 2.6730 | 2.4869 |\n| 4 | 3.8077 | 3.6299 | 3.4651 | 3.1699 |\n| 5 | 4.7135 | 4.4518 | 4.2124 | 3.7908 |\n| 6 | 5.6014 | 5.2421 | 4.9173 | 4.3553 |\n| 7 | 6.4720 | 6.0021 | 5.5824 | 4.8684 |\n| 8 | 7.3255 | 6.7327 | 6.2098 | 5.3349 |\n\nSophie needs to borrow \\$6000 to cover the costs of a trip. Using the present value table, find the annual repayment Sophie will need to pay to repay the loan at 6.0% p.a. compounding annually over 2 years.",
+   "answer": "Present value factor (6%, 2 periods) $= 1.8334$. The loan is the present value of the repayments:\n$$6000 = R \\times 1.8334 \\implies R = \\frac{6000}{1.8334} \\approx \\$3272.61 \\text{ per year}.$$"
+  },
+  {
+   "ref": "Q12(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.6.1.8",
+    "11.1.8.4"
+   ],
+   "question": "A semicircle on the number plane is defined by the equation $y = \\sqrt{-x^2 + 10x - 16}$.\n\nFind the centre and radius of the semicircle.",
+   "answer": "$$y^2 = -x^2 + 10x - 16 \\implies x^2 - 10x + 25 + y^2 = 9 \\implies (x - 5)^2 + y^2 = 9, \\quad y \\ge 0.$$\nCentre $(5, 0)$, radius $3$."
+  },
+  {
+   "ref": "Q12(d)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.6.1.9",
+    "11.1.8.4"
+   ],
+   "question": "A semicircle on the number plane is defined by the equation $y = \\sqrt{-x^2 + 10x - 16}$.\n\nThe semicircle has centre $(5, 0)$ and radius 3. Sketch the curve.",
+   "answer": "The upper half of the circle: endpoints $(2, 0)$ and $(8, 0)$, highest point $(5, 3)$.",
+   "answer_images": [
+    "assets/img/adv-2025-abbotsleigh/q12d-sketch.png"
+   ]
+  },
+  {
+   "ref": "Q12(d)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.6"
+   ],
+   "question": "A semicircle on the number plane is defined by the equation $y = \\sqrt{-x^2 + 10x - 16}$.\n\nThe semicircle has centre $(5, 0)$ and radius 3. Hence or otherwise find $\\displaystyle\\int_2^8 \\sqrt{-x^2 + 10x - 16}\\,dx$. Leave your answer in exact form.",
+   "answer": "The integral is the area of the whole semicircle of radius 3:\n$$\\int_2^8\\sqrt{-x^2 + 10x - 16}\\,dx = \\frac12\\pi(3)^2 = \\frac{9\\pi}{2}.$$"
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.6.3",
+    "12.4.8.1"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_1^3 \\frac{24x^2 - 14}{4x^3 - 7x + 5}\\,dx$, leaving your answer in simplest exact form.",
+   "answer": "The numerator is $2\\times\\dfrac{d}{dx}\\left(4x^3 - 7x + 5\\right)$, and the denominator is positive on $[1, 3]$:\n$$\\int_1^3\\frac{24x^2 - 14}{4x^3 - 7x + 5}\\,dx = 2\\Big[\\ln\\left(4x^3 - 7x + 5\\right)\\Big]_1^3 = 2(\\ln 92 - \\ln 2) = 2\\ln 46.$$"
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.4",
+    "12.5.1.10"
+   ],
+   "question": "The graph of $y = f'(x)$ is shown. It touches the $x$-axis at $x = -1$ (where it has a local maximum of $0$), has a local minimum near $x \\approx 2.5$, and crosses the $x$-axis at $x = 4$.\n\nDetermine the nature of the point on the curve $y = f(x)$ at $x = -1$. Justify your answer with appropriate mathematical reasoning and reference to the graph.",
+   "answer": "$f'(-1) = 0$, so there is a stationary point at $x = -1$. From the graph, $f'(x) < 0$ just to the left **and** just to the right of $x = -1$ (the graph of $f'$ only touches the axis there). Since $f'$ does not change sign, the stationary point is a **horizontal (stationary) point of inflection**.",
+   "images": [
+    "assets/img/adv-2025-abbotsleigh/q13b.png"
+   ]
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.10",
+    "12.5.1.9"
+   ],
+   "question": "The graph of $y = f'(x)$ is shown. It touches the $x$-axis at $x = -1$ (where it has a local maximum of $0$), has a local minimum near $x \\approx 2.5$, and crosses the $x$-axis at $x = 4$.\n\nSketch a possible graph for $y = f(x)$, showing any stationary points or turning points.",
+   "answer": "- $f'(x) < 0$ for $x < 4$ (except $x = -1$): $f$ is decreasing, with a **horizontal point of inflection** at $x = -1$.\n- $f'(x) > 0$ for $x > 4$: $f$ is increasing, so there is a **minimum turning point** at $x = 4$.\n\n(The vertical position of the curve is not determined.)",
+   "images": [
+    "assets/img/adv-2025-abbotsleigh/q13b.png"
+   ],
+   "answer_images": [
+    "assets/img/adv-2025-abbotsleigh/q13b-sketch.png"
+   ]
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.2",
+    "12.3.2.3",
+    "11.4.3.9"
+   ],
+   "question": "Find the equation of the normal to the curve $y = \\dfrac{\\log_e(x+2)}{x+2}$ at the point $(-1, 0)$.",
+   "answer": "By the quotient rule:\n$$\\frac{dy}{dx} = \\frac{(x+2)\\cdot\\frac{1}{x+2} - \\ln(x+2)}{(x+2)^2} = \\frac{1 - \\ln(x+2)}{(x+2)^2}.$$\nAt $x = -1$: $\\dfrac{dy}{dx} = \\dfrac{1 - \\ln 1}{1} = 1$, so the normal has gradient $-1$:\n$$y - 0 = -(x + 1) \\implies y = -x - 1.$$"
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.11",
+    "11.7.2.3"
+   ],
+   "question": "A plane is flying through clouds to drop a water quality monitoring system onto a lake. The lake is surrounded by forest inside a rectangle 700 m wide, as shown (all measurements in metres). Measured vertically:\n\n- at the left edge: 180 m of forest, 80 m of lake, 190 m of forest;\n- at the middle (350 m from each edge): 80 m of forest at the top and 70 m of forest at the bottom;\n- at the right edge: 200 m of forest, 100 m of lake, 150 m of forest.\n\nAssuming the system lands at a random point in the rectangle, estimate the probability that it lands on the lake. Use the trapezoidal rule in your calculations.",
+   "answer": "The rectangle's height is $180 + 80 + 190 = 450$ m, so its area is $700 \\times 450 = 315\\,000\\ \\text{m}^2$.\n\nWidths of the lake: $80$ (left), $450 - 80 - 70 = 300$ (middle), $100$ (right). Trapezoidal rule with $h = 350$:\n$$A_{\\text{lake}} \\approx \\frac{350}{2}\\left[80 + 2(300) + 100\\right] = 175 \\times 780 = 136\\,500\\ \\text{m}^2.$$\n$$P(\\text{lake}) \\approx \\frac{136\\,500}{315\\,000} = \\frac{13}{30} \\approx 0.43.$$",
+   "images": [
+    "assets/img/adv-2025-abbotsleigh/q13d.png"
+   ]
+  },
+  {
+   "ref": "Q13(e)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.6.1.6",
+    "11.5.2.11"
+   ],
+   "question": "The graph of $y = \\log_e x$ is shown on a grid.\n\nSketch the curve $y = \\dfrac{\\log_e(x + 3)}{2}$ on the same diagram, showing the intercepts and asymptotes.",
+   "answer": "- Vertical asymptote: $x = -3$.\n- $x$-intercept: $\\ln(x + 3) = 0 \\implies x = -2$, i.e. $(-2, 0)$.\n- $y$-intercept: $y = \\tfrac12\\ln 3 \\approx 0.55$, i.e. $\\left(0, \\tfrac12\\ln 3\\right)$.",
+   "images": [
+    "assets/img/adv-2025-abbotsleigh/q13e.png"
+   ],
+   "answer_images": [
+    "assets/img/adv-2025-abbotsleigh/q13e-sketch.png"
+   ]
+  },
+  {
+   "ref": "Q13(e)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.6.1.6",
+    "11.6.1.10"
+   ],
+   "question": "The graph of $y = \\log_e x$ is shown on a grid.\n\nExplain the transformations that map $y = \\log_e x$ onto $y = \\dfrac{\\log_e(x + 3)}{2}$.",
+   "answer": "A **horizontal translation 3 units to the left** (replace $x$ by $x + 3$), followed by a **vertical dilation by a factor of $\\tfrac12$** (multiply $y$ by $\\tfrac12$). (These two can be done in either order.)",
+   "images": [
+    "assets/img/adv-2025-abbotsleigh/q13e.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.9",
+    "11.4.5.3"
+   ],
+   "question": "The graph shows the displacement $x$ of a particle moving along a straight line as a function of time $t$. Point $A$ is on the part of the curve that is increasing and concave up (below the point of inflection).\n\nDescribe the motion of the particle at the point $A$: is it speeding up or slowing down? Make reference to the velocity and acceleration of the particle.",
+   "answer": "At $A$ the gradient of the displacement–time graph is positive, so the **velocity is positive**. The graph is concave up at $A$, so $\\ddot x > 0$: the **acceleration is positive**.\n\nVelocity and acceleration have the same sign, so the particle is **speeding up**.",
+   "images": [
+    "assets/img/adv-2025-abbotsleigh/q14a.png"
+   ]
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.9",
+    "12.4.4.3"
+   ],
+   "question": "Consider the gradient function $f'(x) = 3(x - 5)(x - 1)$. The graph of $y = f(x)$ passes through the point $(2, 16)$.\n\nShow that $f(x) = x^3 - 9x^2 + 15x + 14$.",
+   "answer": "$f'(x) = 3(x^2 - 6x + 5) = 3x^2 - 18x + 15$, so\n$$f(x) = x^3 - 9x^2 + 15x + C.$$\n$f(2) = 8 - 36 + 30 + C = 2 + C = 16 \\implies C = 14$. Hence $f(x) = x^3 - 9x^2 + 15x + 14$."
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.2",
+    "12.5.2.1"
+   ],
+   "question": "Consider the gradient function $f'(x) = 3(x - 5)(x - 1)$. The graph of $y = f(x)$ passes through the point $(2, 16)$.\n\nGiven that $f(x) = x^3 - 9x^2 + 15x + 14$, find the maximum and minimum values of $f(x)$ in the interval $-2 \\le x \\le 6$. You do not need to determine the nature of the stationary points.",
+   "answer": "Stationary points at $x = 1$ and $x = 5$: $f(1) = 21$, $f(5) = 125 - 225 + 75 + 14 = -11$.\n\nEndpoints: $f(-2) = -8 - 36 - 30 + 14 = -60$, $f(6) = 216 - 324 + 90 + 14 = -4$.\n\nMaximum value $21$ (at $x = 1$); minimum value $-60$ (at $x = -2$)."
+  },
+  {
+   "ref": "Q14(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.7",
+    "12.5.1.6"
+   ],
+   "question": "Consider the gradient function $f'(x) = 3(x - 5)(x - 1)$. The graph of $y = f(x)$ passes through the point $(2, 16)$.\n\nGiven that $f(x) = x^3 - 9x^2 + 15x + 14$, show that a point of inflection exists at $(3, 5)$.",
+   "answer": "$f''(x) = 6x - 18 = 0 \\iff x = 3$, and $f(3) = 27 - 81 + 45 + 14 = 5$.\n\n$f''(x) < 0$ for $x < 3$ and $f''(x) > 0$ for $x > 3$, so the concavity changes at $x = 3$: there is a point of inflection at $(3, 5)$."
+  },
+  {
+   "ref": "Q14(b)(iv)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.9"
+   ],
+   "question": "Consider the gradient function $f'(x) = 3(x - 5)(x - 1)$. The graph of $y = f(x)$ passes through the point $(2, 16)$.\n\n$f(x) = x^3 - 9x^2 + 15x + 14$ has stationary points at $(1, 21)$ and $(5, -11)$ and a point of inflection at $(3, 5)$. Sketch the graph of $y = f(x)$ in the interval $-2 \\le x \\le 6$, showing the locations of the endpoints, the stationary points and the point of inflection.",
+   "answer": "Endpoints $(-2, -60)$ and $(6, -4)$; local maximum $(1, 21)$; point of inflection $(3, 5)$; local minimum $(5, -11)$.",
+   "answer_images": [
+    "assets/img/adv-2025-abbotsleigh/q14b-sketch.png"
+   ]
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.6",
+    "12.6.1.3"
+   ],
+   "question": "The discrete random variable $X$ has the probability distribution given in the table below.\n\n| $x$ | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|\n| $P(X = x)$ | 0.3 | $a$ | $b$ | 0.1 |\n\nFind the values of $a$ and $b$, given $\\mu = 3.1$.",
+   "answer": "Probabilities sum to 1: $\\;0.3 + a + b + 0.1 = 1 \\implies a + b = 0.6$.\n\nMean: $\\;2(0.3) + 3a + 4b + 5(0.1) = 3.1 \\implies 3a + 4b = 2$.\n\nSubstituting $a = 0.6 - b$: $\\;1.8 + b = 2 \\implies b = 0.2$, $a = 0.4$."
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.6"
+   ],
+   "question": "The discrete random variable $X$ has the probability distribution given in the table below.\n\n| $x$ | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|\n| $P(X = x)$ | 0.3 | $a$ | $b$ | 0.1 |\n\nGiven that $a = 0.4$, $b = 0.2$ and $\\mu = 3.1$, calculate the standard deviation of $X$. Give your answer correct to 2 decimal places.",
+   "answer": "$$E(X^2) = 4(0.3) + 9(0.4) + 16(0.2) + 25(0.1) = 10.5$$\n$$\\operatorname{Var}(X) = 10.5 - 3.1^2 = 0.89, \\qquad \\sigma = \\sqrt{0.89} \\approx 0.94.$$"
+  },
+  {
+   "ref": "Q15(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.6",
+    "12.4.7.3"
+   ],
+   "question": "The probability density function of a random variable $X$ is given by\n$$f(x) = \\begin{cases} \\dfrac{-\\sin(\\ln x)}{kx}, & e^{-\\pi} \\le x \\le 1 \\\\[2mm] 0, & \\text{otherwise.} \\end{cases}$$\n\nShow that $k = 2$.",
+   "answer": "The total probability is 1. Since $\\dfrac{d}{dx}\\cos(\\ln x) = -\\dfrac{\\sin(\\ln x)}{x}$:\n$$\\int_{e^{-\\pi}}^{1}\\frac{-\\sin(\\ln x)}{kx}\\,dx = \\frac1k\\Big[\\cos(\\ln x)\\Big]_{e^{-\\pi}}^{1} = \\frac1k\\left(\\cos 0 - \\cos(-\\pi)\\right) = \\frac{2}{k} = 1 \\implies k = 2.$$"
+  },
+  {
+   "ref": "Q15(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.7"
+   ],
+   "question": "The probability density function of a random variable $X$ is given by\n$$f(x) = \\begin{cases} \\dfrac{-\\sin(\\ln x)}{kx}, & e^{-\\pi} \\le x \\le 1 \\\\[2mm] 0, & \\text{otherwise.} \\end{cases}$$\n\nGiven that $k = 2$, find $P\\left(X < \\dfrac\\pi4\\right)$. Give your answer correct to three decimal places.",
+   "answer": "$e^{-\\pi} < \\frac\\pi4 < 1$, so\n$$P\\left(X < \\tfrac\\pi4\\right) = \\frac12\\Big[\\cos(\\ln x)\\Big]_{e^{-\\pi}}^{\\pi/4} = \\frac12\\left(\\cos\\left(\\ln\\tfrac\\pi4\\right) + 1\\right) \\approx 0.985.$$"
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.2.9",
+    "12.5.3.8"
+   ],
+   "question": "An electric battery is being recharged. The capacity, $C$%, of the battery while charging at time $t$ minutes may be modelled by the equation\n$$C = 100\\left(1 - 2^{-kt}\\right).$$\nThe battery is charged to 35% capacity after 50 minutes.\n\nShow that the value of $k$ is $0.01243$, correct to 4 significant figures.",
+   "answer": "$$35 = 100\\left(1 - 2^{-50k}\\right) \\implies 2^{-50k} = 0.65 \\implies -50k\\ln 2 = \\ln 0.65 \\implies k = \\frac{-\\ln 0.65}{50\\ln 2} = 0.012430\\ldots \\approx 0.01243.$$"
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.2.9"
+   ],
+   "question": "An electric battery is being recharged. The capacity, $C$%, of the battery while charging at time $t$ minutes may be modelled by the equation\n$$C = 100\\left(1 - 2^{-kt}\\right).$$\nThe battery is charged to 35% capacity after 50 minutes.\n\nGiven $k \\approx 0.01243$: to prolong the service life of the battery, the charger may be set to switch off when the battery reaches 90% capacity. For how long will the battery be on charge until it reaches 90% capacity? Give your answer in hours and minutes, correct to the nearest minute.",
+   "answer": "$$90 = 100\\left(1 - 2^{-kt}\\right) \\implies 2^{-kt} = 0.1 \\implies t = \\frac{\\ln 10}{k\\ln 2} \\approx 267.3 \\text{ min}.$$\nAbout **4 hours 27 minutes**."
+  },
+  {
+   "ref": "Q15(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.1",
+    "12.5.3.3"
+   ],
+   "question": "An electric battery is being recharged. The capacity, $C$%, of the battery while charging at time $t$ minutes may be modelled by the equation\n$$C = 100\\left(1 - 2^{-kt}\\right).$$\nThe battery is charged to 35% capacity after 50 minutes.\n\nBy considering the first and second derivatives, describe the behaviour of $C$ for $t \\ge 0$ if the battery is left on charge indefinitely.",
+   "answer": "$$\\frac{dC}{dt} = 100k\\ln 2\\cdot2^{-kt} > 0, \\qquad \\frac{d^2C}{dt^2} = -100(k\\ln 2)^2\\,2^{-kt} < 0.$$\nSo $C$ is always increasing, but at a decreasing rate (the charging slows down). As $t \\to \\infty$, $2^{-kt} \\to 0$, so $C \\to 100$: the battery approaches full capacity but never quite reaches it."
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.3.10"
+   ],
+   "question": "A particle moves along a straight line such that its displacement $x$, in metres, from a fixed point $O$ is given by\n$$x = 1 - 2\\sin\\left(2t + \\frac\\pi6\\right),$$\nwhere $t$ is measured in seconds from $t = 0$.\n\nWhere is the particle initially?",
+   "answer": "At $t = 0$: $x = 1 - 2\\sin\\frac\\pi6 = 1 - 1 = 0$. The particle starts at $O$."
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.10",
+    "12.3.3.4"
+   ],
+   "question": "A particle moves along a straight line such that its displacement $x$, in metres, from a fixed point $O$ is given by\n$$x = 1 - 2\\sin\\left(2t + \\frac\\pi6\\right),$$\nwhere $t$ is measured in seconds from $t = 0$.\n\nWhen and where does the particle first come to rest?",
+   "answer": "$v = \\dot x = -4\\cos\\left(2t + \\frac\\pi6\\right) = 0 \\implies 2t + \\frac\\pi6 = \\frac\\pi2$ (first time) $\\implies t = \\frac\\pi6$ s.\n\nThen $x = 1 - 2\\sin\\frac\\pi2 = -1$: the particle first comes to rest after $\\frac\\pi6$ seconds, **1 m to the left of $O$** ($x = -1$)."
+  },
+  {
+   "ref": "Q15(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.10"
+   ],
+   "question": "A particle moves along a straight line such that its displacement $x$, in metres, from a fixed point $O$ is given by\n$$x = 1 - 2\\sin\\left(2t + \\frac\\pi6\\right),$$\nwhere $t$ is measured in seconds from $t = 0$.\n\nThe particle starts at $O$ and first comes to rest at $x = -1$ when $t = \\dfrac\\pi6$. Calculate how far the particle has travelled at time $t = \\dfrac{7\\pi}{24}$. Give your answer as an exact value.",
+   "answer": "At $t = \\frac{7\\pi}{24}$: $2t + \\frac\\pi6 = \\frac{3\\pi}{4}$, so $x = 1 - 2\\sin\\frac{3\\pi}{4} = 1 - \\sqrt2$.\n\nThe particle next stops when $2t + \\frac\\pi6 = \\frac{3\\pi}{2}$, i.e. $t = \\frac{2\\pi}{3} > \\frac{7\\pi}{24}$, so between $t = \\frac\\pi6$ and $t = \\frac{7\\pi}{24}$ it moves only to the right.\n\nDistance $= |{-1} - 0| + |(1 - \\sqrt2) - (-1)| = 1 + (2 - \\sqrt2) = 3 - \\sqrt2$ m."
+  },
+  {
+   "ref": "Q16(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.6.1.6",
+    "12.4.8.5",
+    "11.1.4.7"
+   ],
+   "question": "A quadratic has equation $y = A + Bx - x^2$. When the function is reflected in the $y$-axis, the result is identical to a horizontal translation of the original function by $-3$ (i.e. 3 units to the left).\n\nGiven that the curve meets the $y$-axis at $(0, 18)$, determine the area of the region bounded by the curve and the $x$-axis.",
+   "answer": "Reflection in the $y$-axis: $y = A - Bx - x^2$. Translation 3 left: $y = A + B(x + 3) - (x + 3)^2 = (A + 3B - 9) + (B - 6)x - x^2$.\n\nEquating coefficients: $-B = B - 6 \\implies B = 3$ (and then $A + 3B - 9 = A$ ✓). The $y$-intercept gives $A = 18$:\n$$y = 18 + 3x - x^2 = -(x - 6)(x + 3).$$\n$$\\text{Area} = \\int_{-3}^{6}\\left(18 + 3x - x^2\\right)dx = \\left[18x + \\frac{3x^2}{2} - \\frac{x^3}{3}\\right]_{-3}^{6} = 90 - (-31.5) = \\frac{243}{2} \\text{ square units}.$$"
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.7",
+    "11.2.2.10"
+   ],
+   "question": "The diagram shows two concentric circles, one with radius $r\\sqrt r$ and the other with radius $r$. The shaded region is bounded by two radii of the larger circle that make an angle of $\\dfrac\\pi3$ at the centre, the arc of the larger circle between them, and the chord of the smaller circle joining the points where those radii cross it.\n\nShow that $A_{\\text{shaded}} = \\dfrac\\pi6r^3 - \\dfrac{\\sqrt3}{4}r^2$.",
+   "answer": "Shaded area $=$ (sector of the larger circle) $-$ (triangle formed by the centre and the chord of the smaller circle):\n$$A = \\frac12\\left(r\\sqrt r\\right)^2\\cdot\\frac\\pi3 - \\frac12r^2\\sin\\frac\\pi3 = \\frac{\\pi}{6}r^3 - \\frac{\\sqrt3}{4}r^2.$$",
+   "images": [
+    "assets/img/adv-2025-abbotsleigh/q16b.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.5.1.8"
+   ],
+   "question": "The diagram shows two concentric circles, one with radius $r\\sqrt r$ and the other with radius $r$. The shaded region is bounded by two radii of the larger circle that make an angle of $\\dfrac\\pi3$ at the centre, the arc of the larger circle between them, and the chord of the smaller circle joining the points where those radii cross it.\n\nGiven that $A_{\\text{shaded}} = \\dfrac\\pi6r^3 - \\dfrac{\\sqrt3}{4}r^2$, find the value of $r$ at which the area of the shaded region is a minimum.",
+   "answer": "$$\\frac{dA}{dr} = \\frac{\\pi}{2}r^2 - \\frac{\\sqrt3}{2}r = \\frac r2\\left(\\pi r - \\sqrt3\\right) = 0 \\implies r = \\frac{\\sqrt3}{\\pi} \\quad (r > 0).$$\n$$\\frac{d^2A}{dr^2} = \\pi r - \\frac{\\sqrt3}{2} = \\sqrt3 - \\frac{\\sqrt3}{2} > 0 \\text{ at } r = \\frac{\\sqrt3}{\\pi},$$\nso this is a minimum: $r = \\dfrac{\\sqrt3}{\\pi}$.",
+   "images": [
+    "assets/img/adv-2025-abbotsleigh/q16b.png"
+   ]
+  },
+  {
+   "ref": "Q16(c)",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.1.3",
+    "12.7.1.2"
+   ],
+   "question": "Taylor is purchasing an apartment for \\$1 562 500. She pays a 20% deposit and will borrow the remaining amount. The loan has an annual interest rate of 5.4% compounded monthly and a monthly account-keeping fee of \\$10, which is added to the balance after the interest is applied each month. The loan plus the account fee is to be repaid over 30 years with equal monthly repayments.\n\nFind the total amount that Taylor will have spent in purchasing the apartment and outline two things she could do to reduce this amount.",
+   "answer": "Deposit $= 0.2 \\times 1\\,562\\,500 = \\$312\\,500$; loan $P = \\$1\\,250\\,000$. Monthly rate $r = 0.0045$, $n = 360$, repayment $M$.\n\nAfter each month the balance is multiplied by $1.0045$, then $10$ is added and $M$ is taken off, so with $R = M - 10$:\n$$A_n = P(1.0045)^n - R\\left(1 + 1.0045 + \\cdots + 1.0045^{n-1}\\right) = P(1.0045)^n - R\\,\\frac{1.0045^n - 1}{0.0045}.$$\nSetting $A_{360} = 0$:\n$$R = \\frac{1\\,250\\,000 \\times 0.0045 \\times 1.0045^{360}}{1.0045^{360} - 1} \\approx 7019.13 \\implies M \\approx \\$7029.13.$$\nTotal spent $= 312\\,500 + 360 \\times 7029.13 \\approx \\$2\\,842\\,989$.\n\nTo reduce this she could, for example: pay a larger deposit (borrow less); make larger or more frequent repayments to pay the loan off sooner; find a lower interest rate or a loan with no account-keeping fee."
   }
  ]
 }
