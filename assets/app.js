@@ -43,7 +43,7 @@
   const canEdit = (q) => !!(A.user && (A.isAdmin || (q.live && q.owner === A.user.uid)));
 
   /* ---------------- markdown + maths ---------------- */
-  const { esc, md } = window.HSCRender;
+  const { esc, md, dpChips } = window.HSCRender;
 
   /* ---------------- data ---------------- */
   async function load() {
@@ -236,7 +236,6 @@
     const ansImgs = (q.answer_images || []).map((s) => `<img src="${esc(s)}" alt="Solution diagram" loading="lazy">`).join("");
     const ansLabel = ansLabelOf(q);
     const ans = show ? `<div class="ans"><div class="ans-label">${ansLabel}${q.kind === "mc" && q.correct ? " — " + q.correct : ""}</div><div class="ans-body">${q.kind === "mc" && q.answer.replace(/\*/g, "").trim() === q.correct ? "" : md(q.answer)}${ansImgs}</div></div>` : "";
-    const dps = q.dotpoints.map((d) => d).join(", ");
     const prev = q.prev || [];
     const prevShown = S.prevOpen.has(q.id);
     const prevBtn = prev.length ? `<button class="prev-btn${prevShown ? " on" : ""}" data-prev="${q.id}" aria-expanded="${prevShown}">${prevShown ? "Hide" : "Show"} previous part${prev.length === 1 ? "" : "s"} (${prev.length})</button>` : "";
@@ -248,7 +247,7 @@
         <span class="q-actions"><label class="pick"><input type="checkbox" data-pick="${q.id}" ${S.basket.has(q.id) ? "checked" : ""}> Add to PDF</label>${prevBtn}</span></div>
       ${A.enabled ? `<div class="q-tools"><button class="mini done-btn${isDone(q.id) ? " on" : ""}" data-done="${q.id}" title="Tick off questions you've done">${isDone(q.id) ? "✓ Done" : "Mark done"}</button><button class="mini save-btn${isSaved(q.id) ? " on" : ""}" data-save="${q.id}" title="Save to your question bank">${isSaved(q.id) ? "★ Saved" : "☆ Save"}</button>${canEdit(q) ? `<a class="mini" href="submit.html?edit=${encodeURIComponent(q.id)}&amp;course=${COURSE}">Edit</a><button class="mini danger" data-qdel="${q.id}">Delete</button>` : ""}${q.edited && A.isAdmin ? '<span class="tag">Edited</span>' : ""}</div>` : ""}
       ${prevBlock}<div class="q-body">${md(q.question)}${imgs}</div>${opts}
-      <div class="src">${q.mine ? '<span class="tag">Yours</span> ' : q.source ? '<span class="tag">Community</span> ' : ""}Source: ${sourceOf(q)}${q.kind === "mc" ? " (multiple choice)" : ""} · <span class="dps">Dot point${q.dotpoints.length > 1 ? "s" : ""} ${dps}</span></div>
+      <div class="src">${q.mine ? '<span class="tag">Yours</span> ' : q.source ? '<span class="tag">Community</span> ' : ""}Source: ${sourceOf(q)}${q.kind === "mc" ? " (multiple choice)" : ""} · Dot point${q.dotpoints.length > 1 ? "s" : ""} ${dpChips(COURSE, q.dotpoints)}</div>
       ${S.showAnswers ? "" : `<div class="ans-toggle"><button class="linkish" data-ans="${q.id}">${show ? "Hide" : "Show"} ${ansLabel.toLowerCase()}</button></div>`}
       ${ans}${A.enabled ? `<button class="report-btn${isFlagged(q.id) ? " on" : ""}" data-flag="${q.id}" title="${isFlagged(q.id) ? "You reported this question" : "Report a problem with this question"}" aria-label="Report a problem with this question">⚠</button>` : ""}</article>`;
   }

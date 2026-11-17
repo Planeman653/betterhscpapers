@@ -467,10 +467,25 @@ article.q,.topic-h,.sub-h,.dp-h{scroll-margin-top:140px}
 @media (max-width:520px){.opts.short:has(.katex){grid-template-columns:1fr}}
 html.panel-open,html.panel-open body{overflow:hidden}
 .drawer .body{overscroll-behavior:contain}
-.sheet-btn{text-decoration:none;color:var(--ink);white-space:nowrap}
-.sheet-btn:hover{border-color:var(--accent)}
-@media (max-width:700px){.topbar-inner .sheet-btn{order:3}}
+/* reference / formula sheet: floating round button, bottom-right */
+.sheet-fab{position:fixed;right:22px;bottom:22px;z-index:40;width:52px;height:52px;border-radius:50%;display:grid;place-items:center;
+  background:var(--paper);color:var(--ink);border:1px solid var(--line);box-shadow:0 4px 14px rgba(0,0,0,.18);text-decoration:none;transition:transform .12s,box-shadow .12s}
+.sheet-fab:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(0,0,0,.24);border-color:var(--accent)}
+.sheet-tip{position:absolute;right:62px;top:50%;transform:translateY(-50%);white-space:nowrap;background:var(--accent);color:var(--accent-ink);font-size:13px;padding:5px 10px;border-radius:6px;opacity:0;pointer-events:none;transition:opacity .12s}
+.sheet-fab:hover .sheet-tip,.sheet-fab:focus-visible .sheet-tip{opacity:1}
+html.panel-open .sheet-fab{display:none}
+@media (max-width:700px){.sheet-fab{right:14px;bottom:14px;width:46px;height:46px}}
+@media print{.sheet-fab{display:none!important}}
 @media (max-width:700px){
   .topbar-inner .filters-btn,.topbar-inner .basket-btn{padding:5px 10px;font-size:13px}
   .topbar-inner .basket-btn b{margin-left:4px}
 }
+/* clickable dot-point chips under each question */
+.src .dps{display:inline-flex;flex-wrap:wrap;gap:4px;vertical-align:middle;margin-left:2px}
+.dp-chip{font:inherit;font-size:12px;font-weight:600;line-height:1.2;padding:2px 8px;border-radius:999px;border:1px solid var(--line);background:var(--chip);color:var(--ink);cursor:pointer}
+.dp-chip:hover{border-color:var(--accent)}
+.dp-chip.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.dp-reveal{margin:6px 0 2px;padding:8px 12px;border-left:3px solid var(--accent);background:var(--chip);border-radius:0 6px 6px 0;font-size:14px;line-height:1.5}
+.dp-reveal .dp-where{font-size:12px;color:var(--muted);margin-bottom:2px}
+.dp-reveal .dpid{color:var(--accent);margin-right:4px}
+.dp-reveal p{display:inline;margin:0}

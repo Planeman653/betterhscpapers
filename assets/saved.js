@@ -2,7 +2,7 @@
 (function () {
   "use strict";
   const A = window.HSCAuth;
-  const { esc, md } = window.HSCRender;
+  const { esc, md, dpChips } = window.HSCRender;
   const $ = (id) => document.getElementById(id);
   const NAMES = { advanced: "Mathematics Advanced", extension1: "Mathematics Extension 1", extension2: "Mathematics Extension 2", physics: "Physics", chemistry: "Chemistry", biology: "Biology" };
   const SCI = { physics: 1, chemistry: 1, biology: 1 };
@@ -51,7 +51,7 @@
         <span class="q-actions"><a class="mini" href="${q.course}.html#${encodeURIComponent(q.id)}">Open in ${esc(NAMES[q.course].replace("Mathematics ", ""))}</a><button class="mini save-btn on" data-unsave="${esc(q.id)}">★ Saved</button></span></div>
       ${prev.length ? `<details class="prev-ans"><summary>Show earlier parts (${prev.length})</summary>${prev.map((x) => `<div class="prev-part"><div class="prev-ref">${esc(x.ref)}</div><div class="q-body">${md(x.question)}</div></div>`).join("")}</details>` : ""}
       <div class="q-body">${md(q.question)}${imgs}</div>${opts}
-      <div class="src">Source: ${esc(q._src)} · <span class="dps">Dot point${(q.dotpoints || []).length > 1 ? "s" : ""} ${esc((q.dotpoints || []).join(", "))}</span></div>
+      <div class="src">Source: ${esc(q._src)} · Dot point${(q.dotpoints || []).length > 1 ? "s" : ""} ${dpChips(q.course, q.dotpoints)}</div>
       ${showAll ? "" : `<div class="ans-toggle"><button class="linkish" data-ans="${esc(q.id)}">${show ? "Hide" : "Show"} ${ansLabel(q).toLowerCase()}</button></div>`}
       ${show ? `<div class="ans"><div class="ans-label">${ansLabel(q)}${q.kind === "mc" && q.correct ? " — " + q.correct : ""}</div><div class="ans-body">${md(q.answer)}${ansImgs}</div></div>` : ""}
     </article>`;

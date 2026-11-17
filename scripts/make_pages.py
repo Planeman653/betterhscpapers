@@ -10,18 +10,26 @@ COURSES = [("advanced", "Mathematics Advanced", "Advanced"),
            ("chemistry", "Chemistry", "Chemistry"),
            ("biology", "Biology", "Biology")]
 
-# NESA's official HSC reference / formula sheets (Biology has none)
-MATHS_SHEET = "https://www.nsw.gov.au/sites/default/files/noindex/2025-05/mathematics-advanced-ext1-ext2-reference-sheet-nov2019.pdf"
-SHEETS = {"advanced": ("Reference sheet", MATHS_SHEET), "extension1": ("Reference sheet", MATHS_SHEET), "extension2": ("Reference sheet", MATHS_SHEET),
-          "physics": ("Formula sheet", "https://www.nsw.gov.au/sites/default/files/noindex/2025-03/physics-formulae-sheet-data-sheet-periodic-table-hsc-exams-2019.pdf"),
-          "chemistry": ("Formula sheet", "https://www.nsw.gov.au/sites/default/files/noindex/2025-03/chemistry-formulae-sheet-data-sheet-periodic-table-hsc-exams-2019.pdf")}
+# NESA's official HSC reference / formula sheets (Biology has none). Maths: the 2027 sample sheets for the 2024
+# syllabuses (each level includes the levels below it), kept in assets/ref/.
+SHEETS = {"advanced": ("Mathematics Advanced reference sheet (2027)", "assets/ref/mathematics-advanced-reference-sheet-2027.pdf"),
+          "extension1": ("Mathematics Extension 1 reference sheet (2027) — includes Advanced", "assets/ref/mathematics-extension-1-reference-sheet-2027.pdf"),
+          "extension2": ("Mathematics Extension 2 reference sheet (2027) — includes Extension 1 and Advanced", "assets/ref/mathematics-extension-2-reference-sheet-2027.pdf"),
+          "physics": ("Physics formulae sheet, data sheet and periodic table", "https://www.nsw.gov.au/sites/default/files/noindex/2025-03/physics-formulae-sheet-data-sheet-periodic-table-hsc-exams-2019.pdf"),
+          "chemistry": ("Chemistry formulae sheet, data sheet and periodic table", "https://www.nsw.gov.au/sites/default/files/noindex/2025-03/chemistry-formulae-sheet-data-sheet-periodic-table-hsc-exams-2019.pdf")}
+
+DOC_ICON = ('<svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" '
+            'stroke-linecap="round" stroke-linejoin="round"><path d="M14 2.5H7a2.5 2.5 0 0 0-2.5 2.5v14A2.5 2.5 0 0 0 7 21.5h10a2.5 2.5 0 0 0 2.5-2.5V8z"/>'
+            '<path d="M14 2.5V6.5a1.5 1.5 0 0 0 1.5 1.5h4"/><path d="M8.5 12h7M8.5 15h7M8.5 18h4.5"/></svg>')
 
 
 def sheet_btn(course):
+    """floating round button, bottom-right of the screen"""
     if course not in SHEETS:
         return ""
     label, url = SHEETS[course]
-    return f'<a class="basket-btn sheet-btn" href="{url}" target="_blank" rel="noopener" title="NESA\'s official HSC {label.lower()} (PDF, opens in a new tab)">📄 {label}</a>'
+    return (f'<a class="sheet-fab" href="{url}" target="_blank" rel="noopener" title="{label} (PDF)" aria-label="Open the {label} (PDF)">'
+            f'{DOC_ICON}<span class="sheet-tip">{"Formula sheet" if course in ("physics", "chemistry") else "Reference sheet"}</span></a>')
 
 
 HEAD = """<!doctype html>
@@ -55,7 +63,6 @@ BODY = """
   <nav class="tabs">{tabs}</nav>
   <span class="spacer"></span>
   <button class="filters-btn" id="filters-open">Filters</button>
-  {sheet}
   <button class="basket-btn" id="basket-open">PDF builder<b id="basket-n">0</b></button>
 </div></header>
 
@@ -142,6 +149,7 @@ BODY = """
   <footer><button class="btn" id="basket-clear">Clear</button><button class="btn primary" id="make-pdf">Generate PDF</button></footer>
 </aside>
 <div id="toast" style="display:none;position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--accent);color:var(--accent-ink);padding:8px 16px;border-radius:999px;z-index:60;font-size:14px"></div>
+{sheet}
 <div id="print-root"></div>
 </body>
 </html>

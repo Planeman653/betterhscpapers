@@ -21,7 +21,36 @@
     const html = clean(inline ? marked.parseInline(t) : marked.parse(t));
     return html.replace(/\u0001(\d+)\u0002/g, (m, i) => (maths[+i] ? tex(maths[+i][0], maths[+i][1]) : "")).replace(/\u0003/g, "$");
   }
-  window.HSCRender = { esc, tex, md };
+  /* dot-point chips: click one to show what that dot point says (works on any page that shows questions) */
+  const sylCache = {};
+  function syllabus(course) {
+    if (!sylCache[course]) sylCache[course] = fetch("data/syllabus/" + course + ".json").then((r) => r.json()).then((syl) => {
+      const m = {};
+      for (const y of syl.years) for (const t of y.topics) for (const s of t.subtopics) for (const p of s.dotpoints)
+        m[p.id] = { text: p.text, topic: t.name, sub: s.name, year: y.year };
+      return m;
+    }).catch(() => ({}));
+    return sylCache[course];
+  }
+  function dpChips(course, ids) {
+    return `<span class="dps">${(ids || []).map((d) => `<button type="button" class="dp-chip" data-dpinfo="${esc(d)}" data-course="${esc(course)}" aria-expanded="false" title="What is dot point ${esc(d)}?">${esc(d)}</button>`).join("")}</span>`;
+  }
+  document.addEventListener("click", async (e) => {
+    const chip = e.target.closest(".dp-chip");
+    if (!chip) return;
+    const card = chip.closest(".q") || chip.parentElement;
+    let box = card.querySelector(":scope > .dp-reveal");
+    if (!box) { box = document.createElement("div"); box.className = "dp-reveal"; chip.closest(".src").after(box); }
+    const id = chip.dataset.dpinfo, open = box.dataset.id === id && !box.hidden;
+    card.querySelectorAll(".dp-chip").forEach((c) => { c.classList.remove("on"); c.setAttribute("aria-expanded", "false"); });
+    if (open) { box.hidden = true; box.dataset.id = ""; return; }
+    const d = (await syllabus(chip.dataset.course))[id];
+    box.innerHTML = d ? `<div class="dp-where">Year ${esc(d.year)} · ${esc(d.topic)}${d.sub && d.sub !== d.topic ? " › " + esc(d.sub) : ""}</div><div><b class="dpid">${esc(id)}</b> ${md(d.text, true)}</div>`
+      : `<div><b class="dpid">${esc(id)}</b> (not in the current syllabus)</div>`;
+    box.dataset.id = id; box.hidden = false;
+    chip.classList.add("on"); chip.setAttribute("aria-expanded", "true");
+  });
+  window.HSCRender = { esc, tex, md, dpChips };
 })();
 
 /* Login state shared by every page. assets/auth.js (a module, loaded after this) fills it in;
