@@ -38,17 +38,21 @@
   document.addEventListener("click", async (e) => {
     const chip = e.target.closest(".dp-chip");
     if (!chip) return;
+    // each chip toggles its own box, so several dot points can be open at once (listed in chip order)
     const card = chip.closest(".q") || chip.parentElement;
-    let box = card.querySelector(":scope > .dp-reveal");
-    if (!box) { box = document.createElement("div"); box.className = "dp-reveal"; chip.closest(".src").after(box); }
-    const id = chip.dataset.dpinfo, open = box.dataset.id === id && !box.hidden;
-    card.querySelectorAll(".dp-chip").forEach((c) => { c.classList.remove("on"); c.setAttribute("aria-expanded", "false"); });
-    if (open) { box.hidden = true; box.dataset.id = ""; return; }
+    let wrap = card.querySelector(":scope > .dp-reveals");
+    if (!wrap) { wrap = document.createElement("div"); wrap.className = "dp-reveals"; chip.closest(".src").after(wrap); }
+    const id = chip.dataset.dpinfo;
+    const existing = [...wrap.children].find((b) => b.dataset.id === id);
+    if (existing) { existing.remove(); chip.classList.remove("on"); chip.setAttribute("aria-expanded", "false"); return; }
+    chip.classList.add("on"); chip.setAttribute("aria-expanded", "true");
+    const box = document.createElement("div"); box.className = "dp-reveal"; box.dataset.id = id;
+    const order = [...card.querySelectorAll(".dp-chip")].map((c) => c.dataset.dpinfo);
+    const after = [...wrap.children].find((b) => order.indexOf(b.dataset.id) > order.indexOf(id));
+    wrap.insertBefore(box, after || null);
     const d = (await syllabus(chip.dataset.course))[id];
     box.innerHTML = d ? `<div class="dp-where">Year ${esc(d.year)} · ${esc(d.topic)}${d.sub && d.sub !== d.topic ? " › " + esc(d.sub) : ""}</div><div><b class="dpid">${esc(id)}</b> ${md(d.text, true)}</div>`
       : `<div><b class="dpid">${esc(id)}</b> (not in the current syllabus)</div>`;
-    box.dataset.id = id; box.hidden = false;
-    chip.classList.add("on"); chip.setAttribute("aria-expanded", "true");
   });
   window.HSCRender = { esc, tex, md, dpChips };
 })();
