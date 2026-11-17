@@ -1,0 +1,529 @@
+{
+ "id": "ext1-2026-normanhurst-boys",
+ "course": "extension1",
+ "school": "Normanhurst Boys",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "Normanhurst Boys 2026 w. sol"
+ },
+ "indexed": "2026-11-17",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q5",
+   "reason": "Not in 2024 syllabus: pigeonhole principle"
+  },
+  {
+   "ref": "Q8",
+   "reason": "Not in 2024 syllabus: parametric form of a hyperbola (Ext 1 parametric equations cover only lines, parabolas and circles)"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.12",
+    "12.3.1.3"
+   ],
+   "question": "What is the domain of the function $f(x) = \\sin^{-1}\\left(\\dfrac{4}{x}\\right)$?",
+   "options": [
+    "$[-4,4]$",
+    "$(-\\infty,-4] \\cup [4,\\infty)$",
+    "$\\left[-\\dfrac{8}{\\pi}, \\dfrac{8}{\\pi}\\right]$",
+    "$\\left(-\\infty,-\\dfrac{8}{\\pi}\\right] \\cup \\left[\\dfrac{8}{\\pi},\\infty\\right)$"
+   ],
+   "correct": "B",
+   "answer": "We need $-1 \\le \\dfrac{4}{x} \\le 1$, i.e. $\\left|\\dfrac{4}{x}\\right| \\le 1$, so $|x| \\ge 4$: $x \\in (-\\infty,-4]\\cup[4,\\infty)$."
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.2.7",
+    "11.1.2.5"
+   ],
+   "question": "Consider the function $f(x) = \\sqrt{4-x}$. Which of the following is the correct inverse function, $f^{-1}(x)$?",
+   "options": [
+    "$f^{-1}(x) = 4 - x^2$",
+    "$f^{-1}(x) = 4 - x^2,\\ x \\ge 0$",
+    "$f^{-1}(x) = 4 - x^2,\\ x \\le 0$",
+    "$f^{-1}(x) = 4 - x^2,\\ x \\le 4$"
+   ],
+   "correct": "B",
+   "answer": "Swap $x$ and $y$: $x = \\sqrt{4-y}$, so $y = 4 - x^2$. The domain of $f^{-1}$ is the range of $f$, which is $y \\ge 0$, so $f^{-1}(x) = 4 - x^2,\\ x \\ge 0$."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.1.3"
+   ],
+   "question": "Two different soccer teams each have 18 players. Each team is to choose one of its players as captain. How many ways can this be done?",
+   "options": [
+    "$\\binom{36}{2}$",
+    "${}^{36}P_2$",
+    "$\\binom{18}{2} \\times 2$",
+    "$18^2$"
+   ],
+   "correct": "D",
+   "answer": "Each team independently chooses 1 of its 18 players, so by the multiplication principle there are $18 \\times 18 = 18^2$ ways."
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.3"
+   ],
+   "question": "What is the solution to the inequality $3x + 2 < |2x - 1|$?",
+   "options": [
+    "$x < -\\frac{1}{5}$",
+    "$x < -3$",
+    "$-3 < x < \\frac{1}{5}$",
+    "$x < -\\frac{1}{5}$ or $x > 3$"
+   ],
+   "correct": "A",
+   "answer": "If $x \\ge \\frac12$: $3x + 2 < 2x - 1 \\Rightarrow x < -3$, no solutions. If $x < \\frac12$: $3x + 2 < 1 - 2x \\Rightarrow 5x < -1 \\Rightarrow x < -\\frac15$. So $x < -\\frac15$."
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.9",
+    "12.5.4.4"
+   ],
+   "question": "Which differential equation is represented by the following slope field?",
+   "options": [
+    "$\\dfrac{dy}{dx} = -\\dfrac{x}{y}$",
+    "$\\dfrac{dy}{dx} = -\\dfrac{y}{x}$",
+    "$\\dfrac{dy}{dx} = \\dfrac{y}{x}$",
+    "$\\dfrac{dy}{dx} = \\dfrac{x}{y}$"
+   ],
+   "correct": "D",
+   "answer": "Slopes are positive in the 1st and 3rd quadrants and negative in the 2nd and 4th, so the sign is that of $xy$ (rules out A and B). Near the $x$-axis (small $|y|$) the segments are steep and near the $y$-axis (small $|x|$) they are nearly flat, so $\\dfrac{dy}{dx} = \\dfrac{x}{y}$.",
+   "images": [
+    "assets/img/ext1-2026-normanhurst-boys/q6.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.4",
+    "12.2.4.8"
+   ],
+   "question": "If $|\\mathbf{p} + \\mathbf{q}| = |\\mathbf{p}| + |\\mathbf{q}|$ and $\\mathbf{p}, \\mathbf{q} \\ne \\mathbf{0}$, which of the following must be true?",
+   "options": [
+    "$\\mathbf{p}$ is parallel to $\\mathbf{q}$",
+    "$|\\mathbf{p}| = |\\mathbf{q}|$",
+    "$\\mathbf{p} = \\mathbf{q}$",
+    "$\\mathbf{p}$ is perpendicular to $\\mathbf{q}$"
+   ],
+   "correct": "A",
+   "answer": "Squaring: $|\\mathbf{p}|^2 + 2\\,\\mathbf{p}\\cdot\\mathbf{q} + |\\mathbf{q}|^2 = |\\mathbf{p}|^2 + 2|\\mathbf{p}||\\mathbf{q}| + |\\mathbf{q}|^2$, so $\\mathbf{p}\\cdot\\mathbf{q} = |\\mathbf{p}||\\mathbf{q}|$, i.e. the angle between them is $0$: they point in the same direction, so $\\mathbf{p}$ is parallel to $\\mathbf{q}$."
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.1.3",
+    "11.1.1.6"
+   ],
+   "question": "The graphs of $y = f(x)$ and $y = g(x)$ are sketched below. Which of the following transformations of the graph of $y = f(x)$ results in the graph of $y = g(x)$?",
+   "options": [
+    "$|y| = f(x)$",
+    "$y = f(|x|)$",
+    "$|y| = f(|x|)$",
+    "$y = |f(|x|)|$"
+   ],
+   "correct": "D",
+   "answer": "$g$ is never negative and the part of $f$ below the $x$-axis has been reflected upwards (cusps at the $x$-intercepts), so an absolute value is applied to the whole function: $g(x) = |f(|x|)|$ (taking $f(|x|)$ first makes the graph symmetric about the $y$-axis). $|y| = \\ldots$ would give a graph symmetric about the $x$-axis.",
+   "images": [
+    "assets/img/ext1-2026-normanhurst-boys/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.6",
+    "11.3.2.2"
+   ],
+   "question": "Which of the following is equal to $\\tan^{-1} x - \\tan^{-1} \\frac{1}{x}$?",
+   "options": [
+    "$\\tan^{-1}\\left(\\dfrac{x^2-2}{2x}\\right)$",
+    "$\\tan^{-1}\\left(\\dfrac{x^2-2}{x}\\right)$",
+    "$\\tan^{-1}\\left(\\dfrac{x^2-1}{2x}\\right)$",
+    "$\\tan^{-1}\\left(\\dfrac{x^2-1}{x}\\right)$"
+   ],
+   "correct": "C",
+   "answer": "Let $A = \\tan^{-1}x$, $B = \\tan^{-1}\\frac1x$. Then $\\tan(A - B) = \\dfrac{x - \\frac1x}{1 + x\\cdot\\frac1x} = \\dfrac{x^2-1}{2x}$, and $A - B \\in \\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$, so $\\tan^{-1}x - \\tan^{-1}\\frac1x = \\tan^{-1}\\left(\\dfrac{x^2-1}{2x}\\right)$."
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.3"
+   ],
+   "question": "Write the expression $\\sqrt3 \\sin x + \\cos x$ in the form $R\\sin(x + \\alpha)$, where $R > 0$ and $0 \\le \\alpha \\le \\frac{\\pi}{2}$.",
+   "answer": "$R\\sin(x+\\alpha) = R\\sin x\\cos\\alpha + R\\cos x\\sin\\alpha$, so $R\\cos\\alpha = \\sqrt3$ and $R\\sin\\alpha = 1$.\n\n$R = \\sqrt{(\\sqrt3)^2 + 1^2} = 2$ and $\\tan\\alpha = \\dfrac{1}{\\sqrt3} \\Rightarrow \\alpha = \\dfrac{\\pi}{6}$.\n\n$$\\sqrt3\\sin x + \\cos x = 2\\sin\\left(x + \\frac{\\pi}{6}\\right)$$"
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.3"
+   ],
+   "question": "Given that $\\sqrt3 \\sin x + \\cos x = 2\\sin\\left(x + \\frac{\\pi}{6}\\right)$, solve $\\sqrt3 \\sin x + \\cos x = \\sqrt3$ for $0 \\le x \\le 2\\pi$.",
+   "answer": "$2\\sin\\left(x + \\frac{\\pi}{6}\\right) = \\sqrt3 \\Rightarrow \\sin\\left(x+\\frac{\\pi}{6}\\right) = \\dfrac{\\sqrt3}{2}$, with $\\frac{\\pi}{6} \\le x + \\frac{\\pi}{6} \\le \\frac{13\\pi}{6}$.\n\n$x + \\frac{\\pi}{6} = \\frac{\\pi}{3}, \\frac{2\\pi}{3}$ (the next solution $\\frac{7\\pi}{3}$ is outside the interval).\n\n$$x = \\frac{\\pi}{6},\\ \\frac{\\pi}{2}$$"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Solve for $x$: $$\\frac{1}{x-1} \\ge 3$$",
+   "answer": "$x \\ne 1$. Multiply both sides by $(x-1)^2 > 0$:\n$$x - 1 \\ge 3(x-1)^2$$\n$$3(x-1)^2 - (x-1) \\le 0$$\n$$(x-1)\\big(3(x-1) - 1\\big) \\le 0 \\Rightarrow (x-1)(3x-4) \\le 0$$\nThis upward parabola is $\\le 0$ between its roots, and $x \\ne 1$, so\n$$1 < x \\le \\frac43$$"
+  },
+  {
+   "ref": "Q11(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.3.4",
+    "11.2.3.2"
+   ],
+   "question": "The polynomial equation $x^3 - 2x^2 + kx - 24 = 0$ has roots $\\alpha, \\beta$ and $\\gamma$. Find the value of $\\alpha + \\beta + \\gamma$.",
+   "answer": "$\\alpha + \\beta + \\gamma = -\\dfrac{b}{a} = -\\dfrac{-2}{1} = 2$"
+  },
+  {
+   "ref": "Q11(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.3.4",
+    "11.2.3.2"
+   ],
+   "question": "The polynomial equation $x^3 - 2x^2 + kx - 24 = 0$ has roots $\\alpha, \\beta$ and $\\gamma$. Find the value of $\\alpha\\beta\\gamma$.",
+   "answer": "$\\alpha\\beta\\gamma = -\\dfrac{d}{a} = -\\dfrac{-24}{1} = 24$\n\n*Note: the paper's sample answer gives $-24$, which is a sign error.*"
+  },
+  {
+   "ref": "Q11(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.3.4",
+    "11.2.2.6"
+   ],
+   "question": "The polynomial equation $x^3 - 2x^2 + kx - 24 = 0$ has roots $\\alpha, \\beta$ and $\\gamma$. It is known that two of the roots are equal in magnitude but opposite in sign. Find the third root and hence find the value of $k$.",
+   "answer": "Let the roots be $\\alpha, -\\alpha, \\beta$.\n\nSum of roots: $\\alpha - \\alpha + \\beta = 2$, so the third root is $\\beta = 2$.\n\nSince $x = 2$ is a root, $P(2) = 0$:\n$$8 - 8 + 2k - 24 = 0 \\Rightarrow k = 12$$\n\n(Check with the sum of pairs: $\\alpha(-\\alpha) + 2\\alpha - 2\\alpha = -\\alpha^2 = k$, and the product $-2\\alpha^2 = 24$ gives $\\alpha^2 = -12$, so $k = 12$. The equation is $(x-2)(x^2+12) = 0$; the two \"opposite\" roots $\\pm 2\\sqrt3\\, i$ are not real.)\n\n*Note: the paper's sample answer used $\\alpha\\beta\\gamma = -24$ and obtained $k = -12$; that is incorrect, since $x = 2$ is not a root of $x^3 - 2x^2 - 12x - 24$. The correct value is $k = 12$.*"
+  },
+  {
+   "ref": "Q11(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.1.10",
+    "11.4.1.11"
+   ],
+   "question": "Eight people are to be seated around a circular table. In how many ways can they be seated if there are no restrictions?",
+   "answer": "$(8-1)! = 7! = 5040$ ways."
+  },
+  {
+   "ref": "Q11(d)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.11"
+   ],
+   "question": "Eight people are to be seated around a circular table. In how many ways can they be seated if the two tallest people must sit next to each other?",
+   "answer": "Treat the two tallest as one unit: 7 units around a circle in $6!$ ways, and the pair can be arranged in $2$ ways. Total $= 6! \\times 2 = 1440$ ways."
+  },
+  {
+   "ref": "Q11(d)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.11"
+   ],
+   "question": "Eight people are to be seated around a circular table. In how many ways can they be seated if the two tallest people must **not** sit next to each other?",
+   "answer": "Total arrangements minus those with the two tallest together: $7! - 2\\times 6! = 5040 - 1440 = 3600$ ways."
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "The region bounded by the graph $y = x^2 + 1$ and the $x$-axis between $x = 0$ and $x = 1$ is rotated around the $x$-axis to form a solid. Calculate the exact volume of this solid.",
+   "answer": "$$V = \\pi\\int_0^1 (x^2+1)^2\\,dx = \\pi\\int_0^1 (x^4 + 2x^2 + 1)\\,dx$$\n$$= \\pi\\left[\\frac{x^5}{5} + \\frac{2x^3}{3} + x\\right]_0^1 = \\pi\\left(\\frac15 + \\frac23 + 1\\right) = \\frac{28\\pi}{15}\\ \\text{units}^3$$",
+   "images": [
+    "assets/img/ext1-2026-normanhurst-boys/q11e.png"
+   ]
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.6",
+    "11.3.2.2"
+   ],
+   "question": "It is given that $\\theta = \\cos^{-1}\\left(\\frac{12}{13}\\right) + \\tan^{-1}\\left(\\frac34\\right)$. Find the exact value of $\\sin\\theta$ without the use of a calculator.",
+   "answer": "Let $\\alpha = \\cos^{-1}\\frac{12}{13}$ and $\\beta = \\tan^{-1}\\frac34$; both are acute.\n\nFrom right triangles: $\\cos\\alpha = \\frac{12}{13}$, $\\sin\\alpha = \\frac{5}{13}$; $\\tan\\beta = \\frac34$, so $\\sin\\beta = \\frac35$, $\\cos\\beta = \\frac45$.\n\n$$\\sin\\theta = \\sin(\\alpha+\\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta = \\frac{5}{13}\\cdot\\frac45 + \\frac{12}{13}\\cdot\\frac35 = \\frac{20 + 36}{65} = \\frac{56}{65}$$"
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Show that $\\dfrac{d}{dx}\\left(\\tan^3 x\\right) = 3\\sec^4 x - 3\\sec^2 x$.",
+   "answer": "By the chain rule,\n$$\\frac{d}{dx}(\\tan x)^3 = 3\\tan^2 x \\sec^2 x = 3(\\sec^2 x - 1)\\sec^2 x = 3\\sec^4 x - 3\\sec^2 x$$\nusing $\\tan^2 x = \\sec^2 x - 1$."
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.7",
+    "12.4.2.2"
+   ],
+   "question": "Given that $\\dfrac{d}{dx}\\left(\\tan^3 x\\right) = 3\\sec^4 x - 3\\sec^2 x$, find $\\displaystyle\\int \\sec^4 x\\, dx$.",
+   "answer": "From the given result, $\\displaystyle\\int (3\\sec^4 x - 3\\sec^2 x)\\,dx = \\tan^3 x + C_1$, so\n$$\\int \\sec^4 x\\,dx - \\int \\sec^2 x\\,dx = \\frac13\\tan^3 x + C_2$$\n$$\\int \\sec^4 x\\,dx = \\frac13\\tan^3 x + \\tan x + C$$"
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.2",
+    "12.4.2.1"
+   ],
+   "question": "Using the substitution $u = \\tan x$, find the exact value of $$\\int_0^{\\frac{\\pi}{4}} \\frac{\\sec^2 x}{3 + \\tan^2 x}\\,dx$$",
+   "answer": "$u = \\tan x \\Rightarrow du = \\sec^2 x\\,dx$. When $x = 0$, $u = 0$; when $x = \\frac{\\pi}{4}$, $u = 1$.\n$$\\int_0^{\\frac{\\pi}{4}} \\frac{\\sec^2 x}{3 + \\tan^2 x}\\,dx = \\int_0^1 \\frac{du}{3 + u^2} = \\left[\\frac{1}{\\sqrt3}\\tan^{-1}\\frac{u}{\\sqrt3}\\right]_0^1$$\n$$= \\frac{1}{\\sqrt3}\\left(\\tan^{-1}\\frac{1}{\\sqrt3} - \\tan^{-1}0\\right) = \\frac{1}{\\sqrt3}\\cdot\\frac{\\pi}{6} = \\frac{\\pi}{6\\sqrt3}$$"
+  },
+  {
+   "ref": "Q12(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "Use the binomial theorem to find the constant term in the expansion of $$\\left(2x^3 - \\frac1x\\right)^{12}$$",
+   "answer": "General term:\n$$T_{k+1} = \\binom{12}{k}(2x^3)^{12-k}\\left(-x^{-1}\\right)^k = \\binom{12}{k}2^{12-k}(-1)^k x^{36-4k}$$\nConstant term: $36 - 4k = 0 \\Rightarrow k = 9$.\n$$\\binom{12}{9}2^3(-1)^9 = 220 \\times 8 \\times (-1) = -1760$$"
+  },
+  {
+   "ref": "Q12(d)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "For what values of $n$ does $\\left(2x^3 - \\dfrac1x\\right)^n$ have a non-zero constant term?",
+   "answer": "General term: $\\binom{n}{k}(2x^3)^{n-k}(-x^{-1})^k = \\binom{n}{k}2^{n-k}(-1)^k x^{3n-4k}$.\n\nA constant term needs $3n - 4k = 0$, i.e. $k = \\frac{3n}{4}$, which must be an integer with $0 \\le k \\le n$. The coefficient $\\binom{n}{k}2^{n-k}(-1)^k$ is then non-zero.\n\nSo $n$ must be a (positive) multiple of 4: $n = 4, 8, 12, \\ldots$"
+  },
+  {
+   "ref": "Q12(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.2.4"
+   ],
+   "question": "Given that $\\sin x = a$, where $x \\in \\left(\\frac{3\\pi}{2}, 2\\pi\\right)$, show that $$\\cos\\left(\\frac{x}{2}\\right) = -\\frac{\\sqrt{1 + \\sqrt{1 - a^2}}}{\\sqrt2}$$",
+   "answer": "Since $x$ is in the 4th quadrant, $\\cos x > 0$, so $\\cos x = \\sqrt{1 - \\sin^2 x} = \\sqrt{1 - a^2}$.\n\nDouble angle formula: $\\cos x = 2\\cos^2\\frac{x}{2} - 1$, so\n$$2\\cos^2\\frac{x}{2} = 1 + \\sqrt{1-a^2} \\Rightarrow \\cos\\frac{x}{2} = \\pm\\frac{\\sqrt{1 + \\sqrt{1-a^2}}}{\\sqrt2}$$\nSince $\\frac{3\\pi}{2} < x < 2\\pi$, $\\frac{3\\pi}{4} < \\frac{x}{2} < \\pi$ (2nd quadrant), where cosine is negative. Hence\n$$\\cos\\left(\\frac{x}{2}\\right) = -\\frac{\\sqrt{1 + \\sqrt{1-a^2}}}{\\sqrt2}$$"
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.5"
+   ],
+   "question": "The diagram below shows a stationary particle acted on by four forces. Two of the forces have magnitudes $3\\ \\text{N}$ and $10\\ \\text{N}$, as shown. The $10\\ \\text{N}$ force acts horizontally to the right. Force $F_1$ acts horizontally to the left, the angle between $F_1$ and $F_2$ is $45^\\circ$ (with $F_2$ above the horizontal) and the angle between $F_1$ and the $3\\ \\text{N}$ force is $30^\\circ$ (with the $3\\ \\text{N}$ force below the horizontal). The magnitudes of all forces are measured in newtons.\n\nFind the magnitudes of $F_1$ and $F_2$.",
+   "answer": "The particle is stationary, so the net force is zero. Take right and up as positive.\n\nVertical: $F_2\\sin45^\\circ - 3\\sin30^\\circ = 0 \\Rightarrow F_2\\cdot\\dfrac{\\sqrt2}{2} = \\dfrac32 \\Rightarrow F_2 = \\dfrac{3}{\\sqrt2} = \\dfrac{3\\sqrt2}{2}\\ \\text{N} \\approx 2.12\\ \\text{N}$\n\nHorizontal: $10 - F_1 - F_2\\cos45^\\circ - 3\\cos30^\\circ = 0$\n$$F_1 = 10 - \\frac{3\\sqrt2}{2}\\cdot\\frac{\\sqrt2}{2} - 3\\cdot\\frac{\\sqrt3}{2} = 10 - \\frac32 - \\frac{3\\sqrt3}{2} = \\frac{17 - 3\\sqrt3}{2}\\ \\text{N} \\approx 5.90\\ \\text{N}$$",
+   "images": [
+    "assets/img/ext1-2026-normanhurst-boys/q13a.png"
+   ],
+   "course": "extension2"
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.16"
+   ],
+   "question": "A tank initially contains 300 grams of salt dissolved in 50 L of water. A solution containing 15 grams of salt per litre of water is poured into the tank at a rate of 2 litres per minute and the mixture in the tank is kept well stirred. At the same time, 2 litres of the mixture flows out of the tank per minute. Let $m$ be the mass, in grams, of salt in the tank at time $t$ minutes.\n\nShow that $$\\frac{dm}{dt} = 30 - \\frac{m}{25}$$",
+   "answer": "Inflow = outflow = 2 L/min, so the volume stays at 50 L.\n\nSalt in: $2\\ \\text{L/min} \\times 15\\ \\text{g/L} = 30\\ \\text{g/min}$.\n\nConcentration in the tank is $\\frac{m}{50}$ g/L, so salt out: $2 \\times \\frac{m}{50} = \\frac{m}{25}$ g/min.\n$$\\frac{dm}{dt} = \\text{rate in} - \\text{rate out} = 30 - \\frac{m}{25}$$"
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.12",
+    "12.5.4.16"
+   ],
+   "question": "A tank initially contains 300 grams of salt dissolved in 50 L of water. A solution containing 15 grams of salt per litre of water is poured into the tank at a rate of 2 litres per minute and the mixture in the tank is kept well stirred. At the same time, 2 litres of the mixture flows out of the tank per minute. Let $m$ be the mass, in grams, of salt in the tank at time $t$ minutes.\n\nGiven that $\\dfrac{dm}{dt} = 30 - \\dfrac{m}{25}$, find an expression for $m$ in terms of $t$.",
+   "answer": "$$\\frac{dm}{dt} = \\frac{750 - m}{25} \\Rightarrow \\int \\frac{dm}{750 - m} = \\int \\frac{dt}{25}$$\n$$-\\ln|750 - m| = \\frac{t}{25} + C \\Rightarrow 750 - m = Ae^{-t/25}$$\nAt $t = 0$, $m = 300$: $A = 750 - 300 = 450$.\n$$m = 750 - 450e^{-t/25}$$"
+  },
+  {
+   "ref": "Q13(b)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.16",
+    "12.5.2.7"
+   ],
+   "question": "A tank initially contains 300 grams of salt dissolved in 50 L of water. A solution containing 15 grams of salt per litre of water is poured into the tank at a rate of 2 litres per minute and the mixture in the tank is kept well stirred. At the same time, 2 litres of the mixture flows out of the tank per minute. Let $m$ be the mass, in grams, of salt in the tank at time $t$ minutes.\n\nGiven that $m = 750 - 450e^{-t/25}$, find the eventual concentration of salt in the tank.",
+   "answer": "As $t \\to \\infty$, $e^{-t/25} \\to 0$, so $m \\to 750$ g. The volume is constant at 50 L, so the eventual concentration is\n$$\\frac{750\\ \\text{g}}{50\\ \\text{L}} = 15\\ \\text{g/L}$$"
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.5",
+    "12.2.6.7"
+   ],
+   "question": "A projectile is fired horizontally from the top of a cliff $h$ metres high at an initial speed of $V\\ \\text{m s}^{-1}$. The projectile strikes the water $l$ metres from the base of the cliff. Let $g$ be the acceleration due to gravity and assume air resistance is negligible.\n\nShow that the projectile hits the water when $t = \\sqrt{\\dfrac{2h}{g}}$.",
+   "answer": "Take the origin at the base of the cliff, below the launch point. Initially $x = 0$, $y = h$, $\\dot x = V$, $\\dot y = 0$.\n\n$\\ddot y = -g \\Rightarrow \\dot y = -gt + C_1$; $\\dot y(0) = 0 \\Rightarrow C_1 = 0$, so $\\dot y = -gt$.\n\n$y = -\\frac12 gt^2 + C_2$; $y(0) = h \\Rightarrow C_2 = h$, so $y = h - \\frac12 gt^2$.\n\nIt hits the water when $y = 0$: $\\frac12 gt^2 = h \\Rightarrow t^2 = \\frac{2h}{g}$, and since $t > 0$,\n$$t = \\sqrt{\\frac{2h}{g}}$$",
+   "images": [
+    "assets/img/ext1-2026-normanhurst-boys/q13c.png"
+   ]
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.6.7",
+    "12.2.6.8"
+   ],
+   "question": "A projectile is fired horizontally from the top of a cliff $h$ metres high at an initial speed of $V\\ \\text{m s}^{-1}$. The projectile strikes the water $l$ metres from the base of the cliff. Let $g$ be the acceleration due to gravity and assume air resistance is negligible.\n\nThe projectile hits the water at time $t = \\sqrt{\\dfrac{2h}{g}}$. If $l$ equals twice the height of the cliff, at what angle does the projectile hit the water?",
+   "answer": "Horizontally $\\ddot x = 0$, so $x = Vt$. At impact $x = l = 2h$:\n$$2h = V\\sqrt{\\frac{2h}{g}} \\Rightarrow V = 2h\\sqrt{\\frac{g}{2h}} = \\sqrt{2gh}$$\nVertical velocity at impact: $\\dot y = -g\\sqrt{\\frac{2h}{g}} = -\\sqrt{2gh}$.\n\nIf $\\theta$ is the angle below the horizontal, $\\tan\\theta = \\dfrac{|\\dot y|}{\\dot x} = \\dfrac{\\sqrt{2gh}}{\\sqrt{2gh}} = 1$, so $\\theta = 45^\\circ$ to the horizontal.",
+   "images": [
+    "assets/img/ext1-2026-normanhurst-boys/q13c.png"
+   ]
+  },
+  {
+   "ref": "Q13(c)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.7"
+   ],
+   "question": "A projectile is fired horizontally from the top of a cliff $h$ metres high at an initial speed of $V\\ \\text{m s}^{-1}$. The projectile strikes the water $l$ metres from the base of the cliff. Let $g$ be the acceleration due to gravity and assume air resistance is negligible.\n\nGiven that $l = 2h$, so that $V = \\sqrt{2gh}$ and the vertical velocity at impact is $-\\sqrt{2gh}$, show that the speed at which the projectile hits the water is $2\\sqrt{hg}\\ \\text{m s}^{-1}$.",
+   "answer": "$$\\text{speed} = \\sqrt{\\dot x^2 + \\dot y^2} = \\sqrt{(\\sqrt{2gh})^2 + (\\sqrt{2gh})^2} = \\sqrt{4gh} = 2\\sqrt{gh}\\ \\text{m s}^{-1}$$",
+   "images": [
+    "assets/img/ext1-2026-normanhurst-boys/q13c.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.1.2",
+    "11.3.2.4"
+   ],
+   "question": "Prove by mathematical induction that, for $n \\ge 1$,\n$$\\sin\\theta + \\sin 3\\theta + \\cdots + \\sin\\big((2n-1)\\theta\\big) = \\frac{\\sin^2(n\\theta)}{\\sin\\theta}$$",
+   "answer": "**Base case** $n = 1$: LHS $= \\sin\\theta$, RHS $= \\dfrac{\\sin^2\\theta}{\\sin\\theta} = \\sin\\theta$. True.\n\n**Assume** true for $n = k$: $\\sin\\theta + \\sin3\\theta + \\cdots + \\sin\\big((2k-1)\\theta\\big) = \\dfrac{\\sin^2(k\\theta)}{\\sin\\theta}$.\n\n**Prove** for $n = k+1$, i.e. LHS $= \\dfrac{\\sin^2\\big((k+1)\\theta\\big)}{\\sin\\theta}$.\n$$\\text{LHS} = \\frac{\\sin^2(k\\theta)}{\\sin\\theta} + \\sin\\big((2k+1)\\theta\\big) = \\frac{\\sin^2(k\\theta) + \\sin\\theta\\sin\\big((2k+1)\\theta\\big)}{\\sin\\theta}$$\nUsing $\\sin A\\sin B = \\frac12\\big[\\cos(A-B) - \\cos(A+B)\\big]$:\n$$\\sin\\theta\\sin\\big((2k+1)\\theta\\big) = \\tfrac12\\big[\\cos(2k\\theta) - \\cos\\big((2k+2)\\theta\\big)\\big]$$\nand with $\\cos 2x = 1 - 2\\sin^2 x$:\n$$= \\tfrac12\\big[1 - 2\\sin^2(k\\theta) - 1 + 2\\sin^2\\big((k+1)\\theta\\big)\\big] = \\sin^2\\big((k+1)\\theta\\big) - \\sin^2(k\\theta)$$\nSo\n$$\\text{LHS} = \\frac{\\sin^2(k\\theta) + \\sin^2\\big((k+1)\\theta\\big) - \\sin^2(k\\theta)}{\\sin\\theta} = \\frac{\\sin^2\\big((k+1)\\theta\\big)}{\\sin\\theta} = \\text{RHS}$$\nHence, by mathematical induction, the result is true for all integers $n \\ge 1$."
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.3.6",
+    "12.2.3.4"
+   ],
+   "question": "In the diagram below, $O$ divides $BC$ in the ratio $1:3$ and $M$ is the midpoint of $OA$. $A$ and $B$ have position vectors $\\mathbf{a}$ and $\\mathbf{b}$ from $O$ respectively, and $BM$ is produced to meet $AC$ at $N$.\n\nFind the position vector of $N$ in terms of $\\mathbf{a}$ and $\\mathbf{b}$.",
+   "answer": "Since $BO : OC = 1 : 3$ and $O$ lies between $B$ and $C$, $\\overrightarrow{OC} = -3\\mathbf{b}$. Also $\\overrightarrow{OM} = \\frac12\\mathbf{a}$.\n\n$N$ on $CA$: $\\overrightarrow{CA} = \\mathbf{a} + 3\\mathbf{b}$, so for some $\\lambda$,\n$$\\overrightarrow{ON} = -3\\mathbf{b} + \\lambda(\\mathbf{a} + 3\\mathbf{b}) = \\lambda\\mathbf{a} + (3\\lambda - 3)\\mathbf{b} \\quad (1)$$\n$N$ on line $BM$: for some $s$,\n$$\\overrightarrow{ON} = \\mathbf{b} + s\\left(\\tfrac12\\mathbf{a} - \\mathbf{b}\\right) = \\tfrac{s}{2}\\mathbf{a} + (1 - s)\\mathbf{b} \\quad (2)$$\n$\\mathbf{a}$ and $\\mathbf{b}$ are not parallel, so equate coefficients: $\\lambda = \\frac{s}{2}$ and $3\\lambda - 3 = 1 - s = 1 - 2\\lambda$, so $5\\lambda = 4$, $\\lambda = \\frac45$.\n$$\\overrightarrow{ON} = \\frac45\\mathbf{a} + \\left(\\frac{12}{5} - 3\\right)\\mathbf{b} = \\frac45\\mathbf{a} - \\frac35\\mathbf{b}$$",
+   "images": [
+    "assets/img/ext1-2026-normanhurst-boys/q14b.png"
+   ]
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.3",
+    "11.3.1.1"
+   ],
+   "question": "A plane $P$ takes off from a point $B$. It flies due north at a constant angle $\\theta$ to the horizontal. An observer is located at $A$, 1 km from $B$, at a bearing of $030^\\circ$ from $B$. Let $u$ kilometres be the distance from $B$ to the plane and let $r$ kilometres be the distance from the observer to the plane. The point $G$ is on the ground directly below the plane.\n\nShow that $r = \\sqrt{1 + u^2 - \\sqrt3\\, u\\cos\\theta}$.",
+   "answer": "In right-angled $\\triangle PGB$: $BG = u\\cos\\theta$ and $PG = u\\sin\\theta$.\n\nIn right-angled $\\triangle PGA$ (Pythagoras): $AG^2 = r^2 - PG^2 = r^2 - u^2\\sin^2\\theta$.\n\nIn $\\triangle ABG$, $\\angle ABG = 30^\\circ$ ($BG$ points north, $A$ is on a bearing of $030^\\circ$). Cosine rule:\n$$AG^2 = BG^2 + AB^2 - 2\\cdot BG\\cdot AB\\cos30^\\circ$$\n$$r^2 - u^2\\sin^2\\theta = u^2\\cos^2\\theta + 1 - 2u\\cos\\theta\\cdot\\frac{\\sqrt3}{2}$$\n$$r^2 = u^2(\\sin^2\\theta + \\cos^2\\theta) + 1 - \\sqrt3\\,u\\cos\\theta = 1 + u^2 - \\sqrt3\\,u\\cos\\theta$$\n$$r = \\sqrt{1 + u^2 - \\sqrt3\\,u\\cos\\theta}$$",
+   "images": [
+    "assets/img/ext1-2026-normanhurst-boys/q14c.png"
+   ]
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.1",
+    "11.3.1.3"
+   ],
+   "question": "A plane $P$ takes off from a point $B$. It flies due north at a constant angle $\\theta$ to the horizontal. An observer is located at $A$, 1 km from $B$, at a bearing of $030^\\circ$ from $B$. Let $u$ kilometres be the distance from $B$ to the plane and let $r$ kilometres be the distance from the observer to the plane. The point $G$ is on the ground directly below the plane.\n\nIt is known that $r = \\sqrt{1 + u^2 - \\sqrt3\\, u\\cos\\theta}$. The plane is travelling at a constant speed of 300 kilometres per hour. At what rate, in terms of $\\theta$, is the distance of the plane from the observer changing 4 minutes after take off?",
+   "answer": "$\\dfrac{du}{dt} = 300$ km/h, and $\\dfrac{dr}{dt} = \\dfrac{dr}{du}\\cdot\\dfrac{du}{dt}$.\n$$\\frac{dr}{du} = \\frac12\\left(1 + u^2 - \\sqrt3\\,u\\cos\\theta\\right)^{-\\frac12}\\left(2u - \\sqrt3\\cos\\theta\\right) = \\frac{2u - \\sqrt3\\cos\\theta}{2\\sqrt{1 + u^2 - \\sqrt3\\,u\\cos\\theta}}$$\nAfter 4 minutes, $u = \\frac{4}{60}\\times 300 = 20$ km.\n$$\\frac{dr}{dt} = \\frac{40 - \\sqrt3\\cos\\theta}{2\\sqrt{401 - 20\\sqrt3\\cos\\theta}} \\times 300 = \\frac{150\\left(40 - \\sqrt3\\cos\\theta\\right)}{\\sqrt{401 - 20\\sqrt3\\cos\\theta}}\\ \\text{km/h}$$",
+   "images": [
+    "assets/img/ext1-2026-normanhurst-boys/q14c.png"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,634 @@
+{
+ "id": "ext2-2026-penrith",
+ "course": "extension2",
+ "school": "Penrith",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "Penrith 2026 w. sol"
+ },
+ "indexed": "2026-11-17",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.8",
+    "12.3.1.10"
+   ],
+   "question": "For $z \\in \\mathbb{C}$ with $\\text{Im}(z) < 0$, the value of $\\text{Arg}\\left(\\dfrac{z\\overline{z}}{z - \\overline{z}}\\right)$ is",
+   "options": [
+    "$\\dfrac{\\pi}{2}$",
+    "$-\\dfrac{\\pi}{2}$",
+    "$\\dfrac{\\pi}{4}$",
+    "$0$"
+   ],
+   "correct": "A",
+   "answer": "Let $z = x + iy$ with $y < 0$. Then $z\\overline{z} = |z|^2 > 0$, so $\\text{Arg}(z\\overline{z}) = 0$, and $z - \\overline{z} = 2iy$ lies on the negative imaginary axis, so $\\text{Arg}(z - \\overline{z}) = -\\dfrac{\\pi}{2}$.\n\n$$\\text{Arg}\\left(\\frac{z\\overline{z}}{z - \\overline{z}}\\right) = 0 - \\left(-\\frac{\\pi}{2}\\right) = \\frac{\\pi}{2}.$$\n\nHence A."
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.2",
+    "12.1.2.3"
+   ],
+   "question": "Which of the following statements is **FALSE**?",
+   "options": [
+    "If $a^2$ is not divisible by 4, then $a$ is odd.",
+    "If $m^2 - n^2$ is divisible by 3, then $m - n$ is divisible by 3.",
+    "If $n$ is any integer, then $n^2 + n$ is even.",
+    "If $(3x - 3y)$ is even, then $x$ and $y$ are either both odd or both even."
+   ],
+   "correct": "B",
+   "answer": "B is false: counterexample $m = 1$, $n = 2$ gives $m^2 - n^2 = -3$, divisible by 3, but $m - n = -1$ is not.\n\n(A is true by its contrapositive: if $a = 2k$ then $a^2 = 4k^2$. C is true since $n^2 + n = n(n+1)$ is a product of consecutive integers. D is true since $3(x - y)$ even means $x - y$ is even.) Hence B."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.1",
+    "12.4.2.2"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_{-0.5}^{0.5} \\frac{dx}{\\sqrt{1 - 2x^2}}$.",
+   "options": [
+    "$\\dfrac{\\pi}{\\sqrt{2}}$",
+    "$0$",
+    "$\\dfrac{\\sqrt{2}\\,\\pi}{2}$",
+    "$\\dfrac{\\pi}{2\\sqrt{2}}$"
+   ],
+   "correct": "D",
+   "answer": "$$\\int_{-0.5}^{0.5} \\frac{dx}{\\sqrt{1 - 2x^2}} = \\frac{1}{\\sqrt{2}}\\int_{-0.5}^{0.5}\\frac{dx}{\\sqrt{\\frac12 - x^2}} = \\frac{1}{\\sqrt{2}}\\Big[\\sin^{-1}(\\sqrt{2}\\,x)\\Big]_{-0.5}^{0.5} = \\frac{1}{\\sqrt{2}}\\left(\\frac{\\pi}{4} + \\frac{\\pi}{4}\\right) = \\frac{\\pi}{2\\sqrt{2}}.$$\n\nHence D.",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.11"
+   ],
+   "question": "Consider the statement:\n\n*If $x^2 - 5x + 6 \\le 0$, then $x \\ge 2$.*\n\nWhich of the following is the **contrapositive** of the given statement?",
+   "options": [
+    "If $x^2 - 5x + 6 \\le 0$, then $x < 2$.",
+    "If $x < 2$, then $x^2 - 5x + 6 > 0$.",
+    "If $x^2 - 5x + 6 > 0$, then $x < 2$.",
+    "If $x \\ge 2$, then $x^2 - 5x + 6 \\le 0$."
+   ],
+   "correct": "B",
+   "answer": "The contrapositive of $P \\Rightarrow Q$ is $\\neg Q \\Rightarrow \\neg P$: \"if $x < 2$, then $x^2 - 5x + 6 > 0$\". Hence B."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.5.1.1"
+   ],
+   "question": "A particle moves along the $x$-axis with acceleration $a = -v(25 + v^2)$. Initially the particle is 10 m to the right of the origin with a velocity of $-10$ metres per second.\n\nWhich one of the statements is true?",
+   "options": [
+    "The displacement is given by $x = -\\dfrac{1}{5}\\left(\\tan^{-1}\\dfrac{v}{5} - \\tan^{-1}2\\right) + 10$.",
+    "The particle moves in the negative $x$-direction, slows down and stops after travelling for $-\\dfrac{1}{5}\\tan^{-1}2$ metres from its initial position.",
+    "The particle does not pass through the origin.",
+    "All of the above are true."
+   ],
+   "correct": "C",
+   "answer": "Using $a = v\\dfrac{dv}{dx}$: $v\\dfrac{dv}{dx} = -v(25 + v^2)$, so $\\dfrac{dx}{dv} = -\\dfrac{1}{25 + v^2}$ and\n$$x = -\\frac{1}{5}\\tan^{-1}\\frac{v}{5} + C.$$\nAt $v = -10$, $x = 10$: $10 = -\\frac15\\tan^{-1}(-2) + C$, so $C = 10 - \\frac15\\tan^{-1}2$ and\n$$x = 10 - \\frac{1}{5}\\left(\\tan^{-1}\\frac{v}{5} + \\tan^{-1}2\\right).$$\nSo A (with $-\\tan^{-1}2$) is false — it does not even give $x = 10$ at $v = -10$.\n\nSince $v < 0$ the acceleration is positive, so the particle moves left and slows down; but $\\dfrac{dv}{dt} = -v(25 + v^2) \\approx -25v$ near $v = 0$, so $v \\to 0$ only as $t \\to \\infty$ — it never actually stops, and a distance cannot be negative, so B is not correct as stated. As $v \\to 0^-$, $x \\to 10 - \\frac15\\tan^{-1}2 \\approx 9.78$, so the particle never reaches the origin: C is true. Hence C.\n\nNote: the paper's answer is D, which relies on A; A has a sign error ($+\\tan^{-1}2$ is needed), so only C is correct."
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^{0.5} \\sqrt{\\frac{x}{1 - x}}\\, dx$.",
+   "options": [
+    "$\\dfrac{1}{4} - \\dfrac{\\pi}{8}$",
+    "$\\dfrac{\\pi}{4} - \\dfrac{1}{2}$",
+    "$\\dfrac{1}{2} - \\dfrac{\\pi}{4}$",
+    "$\\dfrac{\\pi}{8} - \\dfrac{1}{4}$"
+   ],
+   "correct": "B",
+   "answer": "Let $x = \\sin^2\\theta$, $dx = 2\\sin\\theta\\cos\\theta\\,d\\theta$; $x = 0 \\Rightarrow \\theta = 0$, $x = \\frac12 \\Rightarrow \\theta = \\frac{\\pi}{4}$. Then $\\sqrt{\\dfrac{x}{1-x}} = \\tan\\theta$ and\n$$\\int_0^{\\pi/4} \\tan\\theta \\cdot 2\\sin\\theta\\cos\\theta\\, d\\theta = \\int_0^{\\pi/4} 2\\sin^2\\theta\\, d\\theta = \\int_0^{\\pi/4}(1 - \\cos 2\\theta)\\,d\\theta = \\left[\\theta - \\tfrac12\\sin 2\\theta\\right]_0^{\\pi/4} = \\frac{\\pi}{4} - \\frac12.$$\n\nHence B."
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.4",
+    "12.2.3.6"
+   ],
+   "question": "Let $\\mathbf{r} = \\begin{pmatrix} 3 \\\\ 4 \\end{pmatrix}$, $\\mathbf{s} = \\begin{pmatrix} 0 \\\\ 1 \\end{pmatrix}$ and $\\mathbf{t} = \\begin{pmatrix} 2 \\\\ -2 \\end{pmatrix}$ be the position vectors of the points $R$, $S$ and $T$ on the Cartesian plane (with origin $O$).\n\nFind the point(s) $F$ if $\\overrightarrow{TF}$ is parallel to $\\overrightarrow{SR}$ and twice its length.",
+   "options": [
+    "$F(4, 8)$ or $(-4, -8)$",
+    "$F(8, 4)$ or $(-8, -4)$",
+    "$F(8, 4)$ or $(-4, -8)$",
+    "$F(4, 8)$ or $(-8, -4)$"
+   ],
+   "correct": "C",
+   "answer": "$\\overrightarrow{SR} = \\mathbf{r} - \\mathbf{s} = \\begin{pmatrix} 3 \\\\ 3 \\end{pmatrix}$, so $\\overrightarrow{TF} = \\pm 2\\begin{pmatrix} 3 \\\\ 3 \\end{pmatrix} = \\pm\\begin{pmatrix} 6 \\\\ 6 \\end{pmatrix}$.\n\n$F = \\mathbf{t} \\pm \\begin{pmatrix} 6 \\\\ 6 \\end{pmatrix} = (8, 4)$ or $(-4, -8)$. Hence C.",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3",
+    "12.5.3.2"
+   ],
+   "question": "Particles $A$ and $B$, both of mass $m$ kg, are connected by a light inextensible string passing over a frictionless pulley. Particle $A$ is on a frictionless plane inclined at an angle of $30^\\circ$ to the horizontal and $B$ hangs vertically, as shown. Initially both particles are at rest. After particle $A$ has travelled $x$ metres towards the pulley, it is travelling at $v$ metres per second. Take $g = 10\\ \\text{m s}^{-2}$.\n\nWhich expression gives $x$ in terms of the time $t$ seconds?",
+   "options": [
+    "$x = \\dfrac{5}{2}t^2$",
+    "$x = \\dfrac{5}{4}t^2$",
+    "$x = \\dfrac{5}{8}t^2$",
+    "$x = 5t^2$"
+   ],
+   "correct": "B",
+   "answer": "For $B$: $mg - T = m\\ddot{x}$. For $A$ along the plane: $T - mg\\sin 30^\\circ = m\\ddot{x}$.\n\nAdding: $mg - \\frac12 mg = 2m\\ddot{x}$, so $\\ddot{x} = \\dfrac{g}{4} = \\dfrac{5}{2}$.\n\nIntegrating from rest at $x = 0$: $\\dot{x} = \\frac52 t$, $x = \\frac54 t^2$. Hence B.",
+   "images": [
+    "assets/img/ext2-2026-penrith/q8.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.10",
+    "12.2.4.9"
+   ],
+   "question": "Consider the vectors $\\mathbf{r}$ and $\\mathbf{s}$ where $|\\mathbf{r}| = 9$ and $\\mathbf{s} = \\begin{pmatrix} 2 \\\\ -2 \\\\ 1 \\end{pmatrix}$.\n\nIf the vector projection of $\\mathbf{r}$ in the direction of $\\mathbf{s}$ is equal to $-4\\mathbf{i} + 4\\mathbf{j} - 2\\mathbf{k}$, then the scalar projection of $\\mathbf{s}$ in the direction of $\\mathbf{r}$ is",
+   "options": [
+    "$-18$",
+    "$-2$",
+    "$3$",
+    "$2$"
+   ],
+   "correct": "B",
+   "answer": "$|\\mathbf{s}| = 3$ and $\\text{proj}_{\\mathbf{s}}\\mathbf{r} = \\dfrac{\\mathbf{r}\\cdot\\mathbf{s}}{|\\mathbf{s}|^2}\\mathbf{s} = \\dfrac{\\mathbf{r}\\cdot\\mathbf{s}}{9}\\begin{pmatrix} 2 \\\\ -2 \\\\ 1 \\end{pmatrix} = \\begin{pmatrix} -4 \\\\ 4 \\\\ -2 \\end{pmatrix}$, so $\\mathbf{r}\\cdot\\mathbf{s} = -18$.\n\nScalar projection of $\\mathbf{s}$ onto $\\mathbf{r}$ $= \\dfrac{\\mathbf{r}\\cdot\\mathbf{s}}{|\\mathbf{r}|} = \\dfrac{-18}{9} = -2$. Hence B.",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.12",
+    "12.2.1.13"
+   ],
+   "question": "Which of the following gives the same curve as $\\mathbf{r}(t) = \\begin{pmatrix} \\sin t \\\\ t \\\\ \\cos t \\end{pmatrix}$, $t \\in \\mathbb{R}$?",
+   "options": [
+    "$\\begin{pmatrix} \\sin\\left(\\frac{\\pi}{2} - t\\right) \\\\ t \\\\ \\cos\\left(\\frac{\\pi}{2} - t\\right) \\end{pmatrix}$",
+    "$\\begin{pmatrix} \\sin t^2 \\\\ t^2 \\\\ \\cos t^2 \\end{pmatrix}$",
+    "$\\begin{pmatrix} \\sin 2t \\\\ 2t \\\\ \\cos 2t \\end{pmatrix}$",
+    "$\\begin{pmatrix} -\\cos\\left(2t + \\frac{\\pi}{2}\\right) \\\\ 2t + \\frac{\\pi}{2} \\\\ \\sin\\left(2t + \\frac{\\pi}{2}\\right) \\end{pmatrix}$"
+   ],
+   "correct": "C",
+   "answer": "The curve is the helix $\\{(\\sin u, u, \\cos u) : u \\in \\mathbb{R}\\}$.\n\nC: with $u = 2t$ (which takes every real value), $(\\sin 2t, 2t, \\cos 2t) = (\\sin u, u, \\cos u)$ — the same curve.\n\nA is $(\\cos t, t, \\sin t)$, a different helix. B only gives $u = t^2 \\ge 0$, half the curve. D is $(\\sin 2t, 2t + \\frac{\\pi}{2}, \\cos 2t)$, i.e. points $(\\sin u, u + \\frac{\\pi}{2}, \\cos u)$: the helix shifted along the $y$-axis. Hence C."
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.13",
+    "12.3.1.8"
+   ],
+   "question": "Find the real values of $x$ and $y$ such that\n$$\\frac{x}{1 - 2i} + \\frac{2y}{2 - i} = 1 - i.$$",
+   "answer": "Realising the denominators:\n$$\\frac{x(1 + 2i)}{5} + \\frac{2y(2 + i)}{5} = 1 - i$$\n$$x + 4y + (2x + 2y)i = 5 - 5i.$$\nEquating real and imaginary parts:\n$$x + 4y = 5 \\quad (1), \\qquad 2x + 2y = -5 \\quad (2).$$\nFrom (1), $x = 5 - 4y$; substituting into (2): $10 - 8y + 2y = -5$, so $y = \\dfrac{5}{2}$ and $x = -5$."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.3",
+    "12.2.1.7"
+   ],
+   "question": "Find the vector equation of the line $l$ through $P(1, -2, 3)$ and parallel to $2\\mathbf{i} + 3\\mathbf{j} - \\mathbf{k}$.\n\nHence, determine whether the point $Q(7, 7, 0)$ lies on $l$.",
+   "answer": "$$l: \\ \\mathbf{r} = \\begin{pmatrix} 1 \\\\ -2 \\\\ 3 \\end{pmatrix} + \\lambda\\begin{pmatrix} 2 \\\\ 3 \\\\ -1 \\end{pmatrix}, \\quad \\lambda \\in \\mathbb{R}.$$\n\nFor $Q$ to lie on $l$ we need $\\begin{pmatrix} 7 \\\\ 7 \\\\ 0 \\end{pmatrix} = \\begin{pmatrix} 1 + 2\\lambda \\\\ -2 + 3\\lambda \\\\ 3 - \\lambda \\end{pmatrix}$:\n\n$1 + 2\\lambda = 7 \\Rightarrow \\lambda = 3$; $\\ -2 + 3\\lambda = 7 \\Rightarrow \\lambda = 3$; $\\ 3 - \\lambda = 0 \\Rightarrow \\lambda = 3$.\n\nThe same value $\\lambda = 3$ satisfies all three equations, so $Q(7, 7, 0)$ lies on $l$."
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^1 (4x + 1)\\sin \\pi x\\, dx$.",
+   "answer": "Integration by parts with $u = 4x + 1$, $dv = \\sin\\pi x\\,dx$, so $du = 4\\,dx$, $v = -\\dfrac{\\cos\\pi x}{\\pi}$:\n$$I = \\left[-\\frac{(4x + 1)\\cos\\pi x}{\\pi}\\right]_0^1 + \\frac{4}{\\pi}\\int_0^1 \\cos\\pi x\\, dx = \\left(-\\frac{5\\cos\\pi}{\\pi} + \\frac{\\cos 0}{\\pi}\\right) + \\frac{4}{\\pi^2}\\Big[\\sin\\pi x\\Big]_0^1$$\n$$= \\frac{5}{\\pi} + \\frac{1}{\\pi} + 0 = \\frac{6}{\\pi}.$$"
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.5",
+    "12.3.5.4"
+   ],
+   "question": "Sketch the region in the complex plane given by $|z| < 1$ and $0 < \\arg(z + i) \\le \\dfrac{\\pi}{3}$. Indicate all essential features.",
+   "answer": "$|z| < 1$ is the interior of the unit circle (boundary not included — dashed).\n\n$\\arg(z + i) = \\arg(z - (-i))$, so $0 < \\arg(z + i) \\le \\frac{\\pi}{3}$ is the set of points $z$ for which the ray from $-i$ to $z$ makes an angle between $0$ (not included) and $\\frac{\\pi}{3}$ (included) with the positive real direction. The boundary ray $\\arg(z + i) = \\frac{\\pi}{3}$ is $y = \\sqrt{3}x - 1$, $x > 0$.\n\nIntersection of this ray with the circle: $x^2 + (\\sqrt{3}x - 1)^2 = 1 \\Rightarrow 4x^2 - 2\\sqrt{3}x = 0 \\Rightarrow x = \\frac{\\sqrt{3}}{2}$ (since $x > 0$), $y = \\frac{1}{2}$.\n\nThe region is the part of the disc to the right of (below) the segment from $-i$ to $\\left(\\frac{\\sqrt{3}}{2}, \\frac12\\right)$: bounded by that segment (solid, included, except its endpoints) and the arc of the unit circle from $-i$ anticlockwise to $\\left(\\frac{\\sqrt3}{2}, \\frac12\\right)$ (dashed, excluded). The points $-i$ and $\\left(\\frac{\\sqrt{3}}{2}, \\frac12\\right)$ are open circles.",
+   "answer_images": [
+    "assets/img/ext2-2026-penrith/q11d-ans.png"
+   ]
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.3",
+    "12.1.1.9",
+    "12.1.1.12"
+   ],
+   "question": "Let $m$ and $n$ be integers. If $m + n$ is even, prove that $m^3 + n^3$ is also even.\n\nIs the converse true? Provide a proof or a counterexample to justify your response.",
+   "answer": "If $m + n = 2k$ for some $k \\in \\mathbb{Z}$, then\n$$m^3 + n^3 = (m + n)(m^2 - mn + n^2) = 2k(m^2 - mn + n^2),$$\nwhich is even.\n\n**Converse:** \"If $m^3 + n^3$ is even, then $m + n$ is even.\" This is **true**. Prove its contrapositive: if $m + n$ is odd, then $m^3 + n^3$ is odd.\n\nIf $m + n$ is odd, one of $m, n$ is odd and the other even; WLOG $m = 2p + 1$, $n = 2q$ with $p, q \\in \\mathbb{Z}$. Then\n$$m^3 + n^3 = 8p^3 + 12p^2 + 6p + 1 + 8q^3 = 2(4p^3 + 6p^2 + 3p + 4q^3) + 1,$$\nwhich is odd. Since the contrapositive is true, the converse is true."
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.5",
+    "12.3.4.3"
+   ],
+   "question": "Let $k$ be an integer. Write $\\dfrac{\\left(1 + i\\sqrt{3}\\right)^{12}}{\\left(\\sqrt{3} - i\\right)^{k}}$ in modulus–argument form $r(\\cos\\theta + i\\sin\\theta)$.",
+   "answer": "$1 + i\\sqrt3 = 2\\left(\\cos\\frac{\\pi}{3} + i\\sin\\frac{\\pi}{3}\\right)$ and $\\sqrt3 - i = 2\\left(\\cos\\left(-\\frac{\\pi}{6}\\right) + i\\sin\\left(-\\frac{\\pi}{6}\\right)\\right)$.\n\nBy de Moivre's theorem,\n$$\\frac{\\left(1 + i\\sqrt3\\right)^{12}}{\\left(\\sqrt3 - i\\right)^{k}} = \\frac{2^{12}(\\cos 4\\pi + i\\sin 4\\pi)}{2^{k}\\left(\\cos\\left(-\\frac{k\\pi}{6}\\right) + i\\sin\\left(-\\frac{k\\pi}{6}\\right)\\right)} = 2^{12 - k}\\left(\\cos\\left(4\\pi + \\tfrac{k\\pi}{6}\\right) + i\\sin\\left(4\\pi + \\tfrac{k\\pi}{6}\\right)\\right)$$\n$$= 2^{12 - k}\\left(\\cos\\frac{k\\pi}{6} + i\\sin\\frac{k\\pi}{6}\\right).$$"
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.3",
+    "12.3.2.6"
+   ],
+   "question": "Let $k$ be an integer. Given that\n$$\\frac{\\left(1 + i\\sqrt{3}\\right)^{12}}{\\left(\\sqrt{3} - i\\right)^{k}} = 2^{12 - k}\\left(\\cos\\frac{k\\pi}{6} + i\\sin\\frac{k\\pi}{6}\\right),$$\nfor what values of $k$ is $\\dfrac{\\left(1 + i\\sqrt{3}\\right)^{12}}{\\left(\\sqrt{3} - i\\right)^{k}}$ purely imaginary?",
+   "answer": "The number is purely imaginary when its real part is zero (the modulus $2^{12-k}$ is never 0, and then $\\sin\\frac{k\\pi}{6} = \\pm1 \\ne 0$):\n$$\\cos\\frac{k\\pi}{6} = 0 \\iff \\frac{k\\pi}{6} = \\frac{\\pi}{2} + n\\pi \\iff k = 3 + 6n, \\quad n \\in \\mathbb{Z}.$$\nThat is, $k = \\ldots, -9, -3, 3, 9, 15, \\ldots$ (equivalently $k = \\pm 3, \\pm 9, \\pm 15, \\ldots$)."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.2",
+    "12.1.3.6"
+   ],
+   "question": "Let $a$ and $b$ be real numbers. Prove that $(a + b)^2 \\ge 4ab$, and hence prove that\n$$\\left(\\sqrt[3]{x} + \\frac{1}{\\sqrt[3]{x}}\\right)^2 \\ge 4$$\nfor all real $x$ except $0$.",
+   "answer": "Since squares of real numbers are non-negative,\n$$(a - b)^2 \\ge 0 \\ \\Rightarrow\\ a^2 - 2ab + b^2 \\ge 0 \\ \\Rightarrow\\ a^2 + 2ab + b^2 \\ge 4ab \\ \\Rightarrow\\ (a + b)^2 \\ge 4ab.$$\n(This holds for all real $a, b$.)\n\nFor real $x \\ne 0$, $\\sqrt[3]{x}$ is a non-zero real number, so let $a = \\sqrt[3]{x}$ and $b = \\dfrac{1}{\\sqrt[3]{x}}$. Then $ab = 1$ and\n$$\\left(\\sqrt[3]{x} + \\frac{1}{\\sqrt[3]{x}}\\right)^2 \\ge 4\\sqrt[3]{x}\\cdot\\frac{1}{\\sqrt[3]{x}} = 4.$$"
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.10",
+    "12.2.1.11"
+   ],
+   "question": "Define the lines $l_1$ and $l_2$ by\n$$l_1: \\mathbf{r}(\\lambda) = \\begin{pmatrix} 2 \\\\ 1 \\\\ 1 \\end{pmatrix} + \\lambda\\begin{pmatrix} 1 \\\\ 2 \\\\ 1 \\end{pmatrix}, \\qquad l_2: \\mathbf{r}(\\mu) = \\begin{pmatrix} 2 \\\\ -1 \\\\ -1 \\end{pmatrix} + \\mu\\begin{pmatrix} 1 \\\\ 4 \\\\ 3 \\end{pmatrix},$$\nwhere $\\lambda, \\mu$ are any real numbers.\n\nProve that $l_1$ and $l_2$ are **NOT** skew lines.",
+   "answer": "The lines are not skew if they intersect. Equate components:\n$$2 + \\lambda = 2 + \\mu \\quad (1), \\qquad 1 + 2\\lambda = -1 + 4\\mu \\quad (2), \\qquad 1 + \\lambda = -1 + 3\\mu \\quad (3).$$\nFrom (1), $\\lambda = \\mu$. Substituting into (2): $1 + 2\\mu = -1 + 4\\mu \\Rightarrow \\mu = 1$, so $\\lambda = 1$.\n\nCheck (3): LHS $= 1 + 1 = 2$, RHS $= -1 + 3 = 2$. ✓\n\nAll three equations are satisfied, so the lines intersect, at $\\begin{pmatrix} 3 \\\\ 3 \\\\ 2 \\end{pmatrix}$. Hence $l_1$ and $l_2$ are not skew."
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.3",
+    "12.2.1.10"
+   ],
+   "question": "The lines\n$$l_1: \\mathbf{r}(\\lambda) = \\begin{pmatrix} 2 \\\\ 1 \\\\ 1 \\end{pmatrix} + \\lambda\\begin{pmatrix} 1 \\\\ 2 \\\\ 1 \\end{pmatrix}, \\qquad l_2: \\mathbf{r}(\\mu) = \\begin{pmatrix} 2 \\\\ -1 \\\\ -1 \\end{pmatrix} + \\mu\\begin{pmatrix} 1 \\\\ 4 \\\\ 3 \\end{pmatrix}$$\nintersect at the point $(3, 3, 2)$.\n\nFind the equation of a line that passes through the point of intersection of $l_1$ and $l_2$ and is perpendicular to both lines.",
+   "answer": "Let the required line be $l_3: \\mathbf{r}(t) = \\begin{pmatrix} 3 \\\\ 3 \\\\ 2 \\end{pmatrix} + t\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix}$.\n\nPerpendicular to both direction vectors:\n$$\\begin{pmatrix} 1 \\\\ 2 \\\\ 1 \\end{pmatrix}\\cdot\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix} = 0 \\Rightarrow x + 2y + z = 0 \\quad (4), \\qquad \\begin{pmatrix} 1 \\\\ 4 \\\\ 3 \\end{pmatrix}\\cdot\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix} = 0 \\Rightarrow x + 4y + 3z = 0 \\quad (5).$$\n(5) $-$ (4): $2y + 2z = 0 \\Rightarrow y = -z$. Substituting into (4): $x - 2z + z = 0 \\Rightarrow x = z$.\n\nSo the direction is $z\\begin{pmatrix} 1 \\\\ -1 \\\\ 1 \\end{pmatrix}$; taking $z = 1$,\n$$l_3: \\ \\mathbf{r}(s) = \\begin{pmatrix} 3 \\\\ 3 \\\\ 2 \\end{pmatrix} + s\\begin{pmatrix} 1 \\\\ -1 \\\\ 1 \\end{pmatrix}, \\quad s \\in \\mathbb{R}.$$"
+  },
+  {
+   "ref": "Q12(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "Let $f(x) = \\ln x - x + 1$. Show that $\\forall x > 0$, $f(x) \\le 0$.",
+   "answer": "$f'(x) = \\dfrac{1}{x} - 1 = \\dfrac{1 - x}{x}$, which is $> 0$ for $0 < x < 1$, $= 0$ at $x = 1$ and $< 0$ for $x > 1$ (also $f''(x) = -\\dfrac{1}{x^2} < 0$).\n\nSo $f$ increases on $(0, 1]$ and decreases on $[1, \\infty)$, and its maximum value on $x > 0$ is $f(1) = 0 - 1 + 1 = 0$. Hence $f(x) \\le 0$ for all $x > 0$."
+  },
+  {
+   "ref": "Q12(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.1.3.9"
+   ],
+   "question": "It is known that $\\ln x - x + 1 \\le 0$ for all $x > 0$.\n\nLet $p_i > 0$ for $i = 1, 2, 3, \\ldots, n$, such that $\\displaystyle\\sum_{i=1}^{n} p_i = 1$. Prove that\n$$\\sum_{k=1}^{n} \\ln(np_k) \\le 0.$$",
+   "answer": "Since $np_k > 0$, apply the inequality with $x = np_k$:\n$$\\ln(np_k) - np_k + 1 \\le 0 \\ \\Rightarrow\\ \\ln(np_k) \\le np_k - 1, \\quad k = 1, 2, \\ldots, n.$$\nAdding these $n$ inequalities:\n$$\\sum_{k=1}^{n}\\ln(np_k) \\le \\sum_{k=1}^{n}(np_k - 1) = n\\sum_{k=1}^{n}p_k - n = n(1) - n = 0.$$"
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.14",
+    "12.3.1.8"
+   ],
+   "question": "Let $z = x + iy$ (with $x, y$ real) represent the square roots of $a + ib$. Prove that\n$$x^2 = \\frac{1}{2}\\left(|z|^2 + a\\right) \\quad\\text{and}\\quad y^2 = \\frac{1}{2}\\left(|z|^2 - a\\right).$$",
+   "answer": "Since $z^2 = a + ib$ and $(x + iy)^2 = x^2 - y^2 + 2xyi$, equating real and imaginary parts gives\n$$x^2 - y^2 = a \\quad (1), \\qquad 2xy = b \\quad (2).$$\nAlso $|z|^2 = x^2 + y^2 \\quad (3)$.\n\nAdding (1) and (3): $2x^2 = |z|^2 + a$, so $x^2 = \\frac12\\left(|z|^2 + a\\right)$.\n\nSubtracting (1) from (3): $2y^2 = |z|^2 - a$, so $y^2 = \\frac12\\left(|z|^2 - a\\right)$."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.5",
+    "12.5.2.4"
+   ],
+   "question": "The displacement of a particle moving along the $x$-axis is given by\n$$x = 3\\sin\\left(2t + \\frac{\\pi}{6}\\right) + 2\\cos 2t,$$\nwhere $x$ is in metres and $t$ is in seconds.\n\nProve that this is simple harmonic motion and state its amplitude and period.",
+   "answer": "Expanding,\n$$x = 3\\sin 2t\\cos\\frac{\\pi}{6} + 3\\cos 2t\\sin\\frac{\\pi}{6} + 2\\cos 2t = \\frac{3\\sqrt3}{2}\\sin 2t + \\frac{7}{2}\\cos 2t.$$\nThen $\\dot{x} = 3\\sqrt3\\cos 2t - 7\\sin 2t$ and\n$$\\ddot{x} = -6\\sqrt3\\sin 2t - 14\\cos 2t = -4\\left(\\frac{3\\sqrt3}{2}\\sin 2t + \\frac72\\cos 2t\\right) = -4x.$$\nThis is of the form $\\ddot{x} = -n^2x$ with $n = 2$, so the motion is simple harmonic.\n\nAmplitude $= \\sqrt{\\left(\\frac{3\\sqrt3}{2}\\right)^2 + \\left(\\frac72\\right)^2} = \\sqrt{\\frac{27 + 49}{4}} = \\sqrt{19}$ m.\n\nPeriod $= \\dfrac{2\\pi}{n} = \\pi$ s."
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.2.1"
+   ],
+   "question": "Let $ABC$ be a non-equilateral triangle with position vectors $\\overrightarrow{OA} = \\mathbf{a}$, $\\overrightarrow{OB} = \\mathbf{b}$ and $\\overrightarrow{OC} = \\mathbf{c}$ relative to its circumcentre $O$. Let $R$ be the circumradius.\n\nLet $G$ be the centroid of the triangle $ABC$, with position vector $\\overrightarrow{OG} = \\mathbf{g}$ given by\n$$\\mathbf{g} = \\frac{\\mathbf{a} + \\mathbf{b} + \\mathbf{c}}{3}.$$\nProve that $GA^2 + GB^2 + GC^2 = 3\\left(R^2 - OG^2\\right)$.",
+   "answer": "Since $O$ is the circumcentre, $|\\mathbf{a}| = |\\mathbf{b}| = |\\mathbf{c}| = R$, and $\\mathbf{a} + \\mathbf{b} + \\mathbf{c} = 3\\mathbf{g}$.\n\n$GA^2 = (\\mathbf{a} - \\mathbf{g})\\cdot(\\mathbf{a} - \\mathbf{g}) = |\\mathbf{a}|^2 - 2\\mathbf{a}\\cdot\\mathbf{g} + |\\mathbf{g}|^2$, and similarly for $GB^2$, $GC^2$. Adding (using the distributive law for the dot product):\n$$GA^2 + GB^2 + GC^2 = |\\mathbf{a}|^2 + |\\mathbf{b}|^2 + |\\mathbf{c}|^2 + 3|\\mathbf{g}|^2 - 2\\,\\mathbf{g}\\cdot(\\mathbf{a} + \\mathbf{b} + \\mathbf{c})$$\n$$= 3R^2 + 3|\\mathbf{g}|^2 - 2\\,\\mathbf{g}\\cdot 3\\mathbf{g} = 3R^2 + 3|\\mathbf{g}|^2 - 6|\\mathbf{g}|^2 = 3R^2 - 3|\\mathbf{g}|^2 = 3\\left(R^2 - OG^2\\right).$$"
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.10",
+    "12.5.2.3"
+   ],
+   "question": "A lighthouse beacon rotates once every 20 seconds. The light source is mounted on a circular mechanism with a diameter of 4 metres, and the centre of the rotating mechanism is located 1.5 metres above the ground level.\n\nAs the light moves in a vertical circular path, the height of the light source above the ground varies in simple harmonic motion.\n\nProve that the light source is below the ground for $10 - \\dfrac{20}{\\pi}\\sin^{-1}\\left(\\dfrac{3}{4}\\right)$ seconds during each complete rotation of the mechanism.",
+   "answer": "Let $h$ m be the height of the light above the ground. The radius is 2 m and the centre is 1.5 m above the ground, so $h = 1.5 + 2\\sin\\theta$, where $\\theta$ is the angle through which the mechanism has rotated. One rotation takes 20 s, so $\\theta = \\dfrac{2\\pi}{20}t = \\dfrac{\\pi t}{10}$ and\n$$h = 1.5 + 2\\sin\\frac{\\pi t}{10}.$$\nThe light is below the ground when $h < 0$:\n$$\\sin\\theta < -\\frac34.$$\nLet $\\alpha = \\sin^{-1}\\frac34$. In one rotation $0 \\le \\theta < 2\\pi$, $\\sin\\theta < -\\frac34$ for $\\pi + \\alpha < \\theta < 2\\pi - \\alpha$ (third and fourth quadrants), an angular interval of\n$$(2\\pi - \\alpha) - (\\pi + \\alpha) = \\pi - 2\\alpha.$$\nSince $2\\pi$ corresponds to 20 seconds, the time below ground is\n$$T = \\frac{\\pi - 2\\alpha}{2\\pi}\\times 20 = 10 - \\frac{20\\alpha}{\\pi} = 10 - \\frac{20}{\\pi}\\sin^{-1}\\left(\\frac34\\right) \\text{ seconds}.$$"
+  },
+  {
+   "ref": "Q13(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.13",
+    "12.4.1.15"
+   ],
+   "question": "The Laplace transform is an advanced technique used to solve differential equations. It is an operation on a function $f(t)$, defined (for $s > 0$) as\n$$\\mathcal{L}\\big(f(t)\\big) = \\int_0^{\\infty} e^{-st}f(t)\\,dt.$$\nShow that $\\mathcal{L}(t) = \\dfrac{1}{s^2}$.",
+   "answer": "$$\\mathcal{L}(t) = \\int_0^\\infty t e^{-st}\\,dt.$$\nIntegration by parts with $u = t$, $dv = e^{-st}dt$, so $du = dt$, $v = -\\dfrac{e^{-st}}{s}$:\n$$\\mathcal{L}(t) = \\left[-\\frac{te^{-st}}{s}\\right]_0^\\infty + \\frac{1}{s}\\int_0^\\infty e^{-st}\\,dt.$$\nSince $s > 0$, $te^{-st} \\to 0$ as $t \\to \\infty$, so the first term is $0 - 0 = 0$. Then\n$$\\mathcal{L}(t) = \\frac{1}{s}\\left[-\\frac{e^{-st}}{s}\\right]_0^\\infty = \\frac{1}{s}\\left(0 + \\frac{1}{s}\\right) = \\frac{1}{s^2}.$$"
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.8",
+    "12.4.1.7"
+   ],
+   "question": "Show that\n$$\\int_0^{\\sqrt{3}} \\frac{5(x^2 + 3)}{(x^2 - 9)(x^2 + 1)}\\,dx = \\ln\\left(2 - \\sqrt{3}\\right) - \\frac{\\pi}{3}.$$",
+   "answer": "Write $\\dfrac{5(x^2 + 3)}{(x^2 - 9)(x^2 + 1)} = \\dfrac{A}{x + 3} + \\dfrac{B}{x - 3} + \\dfrac{Cx + D}{x^2 + 1}$, so\n$$5(x^2 + 3) = A(x - 3)(x^2 + 1) + B(x + 3)(x^2 + 1) + (Cx + D)(x^2 - 9).$$\n$x = 3$: $60 = 60B \\Rightarrow B = 1$. $\\ x = -3$: $60 = -60A \\Rightarrow A = -1$.\n$x = 0$: $15 = -3A + 3B - 9D = 6 - 9D \\Rightarrow D = -1$. $\\ x = 1$: $20 = -4A + 8B - 8(C + D) = 12 - 8(C + D) \\Rightarrow C + D = -1 \\Rightarrow C = 0$.\n\n$$I = \\int_0^{\\sqrt3}\\left(\\frac{1}{x - 3} - \\frac{1}{x + 3} - \\frac{1}{x^2 + 1}\\right)dx = \\Big[\\ln|x - 3| - \\ln|x + 3| - \\tan^{-1}x\\Big]_0^{\\sqrt3}$$\n$$= \\ln\\left(3 - \\sqrt3\\right) - \\ln\\left(3 + \\sqrt3\\right) - \\frac{\\pi}{3} - (\\ln 3 - \\ln 3) = \\ln\\frac{3 - \\sqrt3}{3 + \\sqrt3} - \\frac{\\pi}{3}.$$\nRationalising, $\\dfrac{3 - \\sqrt3}{3 + \\sqrt3} = \\dfrac{(3 - \\sqrt3)^2}{9 - 3} = \\dfrac{12 - 6\\sqrt3}{6} = 2 - \\sqrt3$, so\n$$I = \\ln\\left(2 - \\sqrt3\\right) - \\frac{\\pi}{3}.$$"
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.4",
+    "12.2.2.11"
+   ],
+   "question": "The base of a pyramid is the parallelogram $ABCD$ with vertices at the points $A(2, -1, 3)$, $B(4, -2, 1)$, $C(a, b, c)$ and $D(4, 3, -1)$. The apex of the pyramid is located at $P(4, -4, 9)$.\n\nShow that the values of $a$, $b$ and $c$ are $6$, $2$ and $-3$ respectively.",
+   "answer": "In parallelogram $ABCD$, $\\overrightarrow{AB} = \\overrightarrow{DC}$:\n$$\\overrightarrow{AB} = \\begin{pmatrix} 2 \\\\ -1 \\\\ -2 \\end{pmatrix}, \\quad \\overrightarrow{DC} = \\begin{pmatrix} a - 4 \\\\ b - 3 \\\\ c + 1 \\end{pmatrix}.$$\nSo $a - 4 = 2$, $b - 3 = -1$, $c + 1 = -2$, giving $a = 6$, $b = 2$, $c = -3$.",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "The base of a pyramid is the parallelogram $ABCD$ with vertices at the points $A(2, -1, 3)$, $B(4, -2, 1)$, $C(a, b, c)$ and $D(4, 3, -1)$. The apex of the pyramid is located at $P(4, -4, 9)$.\n\nFind the cosine of the angle between the vectors $\\overrightarrow{AB}$ and $\\overrightarrow{AD}$.",
+   "answer": "$\\overrightarrow{AB} = \\begin{pmatrix} 2 \\\\ -1 \\\\ -2 \\end{pmatrix}$, $\\overrightarrow{AD} = \\begin{pmatrix} 2 \\\\ 4 \\\\ -4 \\end{pmatrix}$, so $\\overrightarrow{AB}\\cdot\\overrightarrow{AD} = 4 - 4 + 8 = 8$, $|\\overrightarrow{AB}| = 3$, $|\\overrightarrow{AD}| = 6$.\n$$\\cos\\theta = \\frac{8}{3 \\times 6} = \\frac{4}{9}.$$",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q14(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.6",
+    "12.2.3.7"
+   ],
+   "question": "The base of a pyramid is the parallelogram $ABCD$ with vertices at the points $A(2, -1, 3)$, $B(4, -2, 1)$, $C(a, b, c)$ and $D(4, 3, -1)$. The apex of the pyramid is located at $P(4, -4, 9)$.\n\nGiven that the cosine of the angle $\\theta$ between $\\overrightarrow{AB}$ and $\\overrightarrow{AD}$ is $\\dfrac{4}{9}$, show that the area of the base of the pyramid is $2\\sqrt{65}$ units².",
+   "answer": "$\\sin\\theta = \\sqrt{1 - \\frac{16}{81}} = \\dfrac{\\sqrt{65}}{9}$ (as $0 < \\theta < \\pi$).\n\nArea of parallelogram $= |\\overrightarrow{AB}||\\overrightarrow{AD}|\\sin\\theta = 3 \\times 6 \\times \\dfrac{\\sqrt{65}}{9} = 2\\sqrt{65}$ units².",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q14(b)(iv)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.7",
+    "12.2.3.8"
+   ],
+   "question": "The base of a pyramid is the parallelogram $ABCD$ with vertices at the points $A(2, -1, 3)$, $B(4, -2, 1)$, $C(a, b, c)$ and $D(4, 3, -1)$. The apex of the pyramid is located at $P(4, -4, 9)$.\n\nShow that $6\\mathbf{i} + 2\\mathbf{j} + 5\\mathbf{k}$ is perpendicular to both $\\overrightarrow{AB}$ and $\\overrightarrow{AD}$, and hence find a unit vector that is perpendicular to the base of the pyramid.",
+   "answer": "With $\\overrightarrow{AB} = \\begin{pmatrix} 2 \\\\ -1 \\\\ -2 \\end{pmatrix}$ and $\\overrightarrow{AD} = \\begin{pmatrix} 2 \\\\ 4 \\\\ -4 \\end{pmatrix}$:\n$$\\begin{pmatrix} 6 \\\\ 2 \\\\ 5 \\end{pmatrix}\\cdot\\begin{pmatrix} 2 \\\\ -1 \\\\ -2 \\end{pmatrix} = 12 - 2 - 10 = 0, \\qquad \\begin{pmatrix} 6 \\\\ 2 \\\\ 5 \\end{pmatrix}\\cdot\\begin{pmatrix} 2 \\\\ 4 \\\\ -4 \\end{pmatrix} = 12 + 8 - 20 = 0,$$\nso $6\\mathbf{i} + 2\\mathbf{j} + 5\\mathbf{k}$ is perpendicular to both, and hence to the base.\n\n$|6\\mathbf{i} + 2\\mathbf{j} + 5\\mathbf{k}| = \\sqrt{36 + 4 + 25} = \\sqrt{65}$, so a unit vector perpendicular to the base is\n$$\\hat{\\mathbf{n}} = \\frac{1}{\\sqrt{65}}\\begin{pmatrix} 6 \\\\ 2 \\\\ 5 \\end{pmatrix}.$$",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q14(b)(v)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.10",
+    "12.2.4.2"
+   ],
+   "question": "The base of a pyramid is the parallelogram $ABCD$ with vertices at the points $A(2, -1, 3)$, $B(4, -2, 1)$, $C(a, b, c)$ and $D(4, 3, -1)$. The apex of the pyramid is located at $P(4, -4, 9)$.\n\nThe base has area $2\\sqrt{65}$ units² and $\\hat{\\mathbf{n}} = \\dfrac{1}{\\sqrt{65}}\\left(6\\mathbf{i} + 2\\mathbf{j} + 5\\mathbf{k}\\right)$ is a unit vector perpendicular to the base.\n\nShow that the height of the pyramid is $\\dfrac{36}{\\sqrt{65}}$ units. Hence, find the exact volume of the pyramid.",
+   "answer": "The height is the length of the component of $\\overrightarrow{AP}$ in the direction of the normal $\\hat{\\mathbf{n}}$:\n$$\\overrightarrow{AP} = \\begin{pmatrix} 2 \\\\ -3 \\\\ 6 \\end{pmatrix}, \\qquad h = \\left|\\overrightarrow{AP}\\cdot\\hat{\\mathbf{n}}\\right| = \\frac{|12 - 6 + 30|}{\\sqrt{65}} = \\frac{36}{\\sqrt{65}}.$$\n$$V = \\frac13 \\times \\text{base area} \\times h = \\frac13 \\times 2\\sqrt{65} \\times \\frac{36}{\\sqrt{65}} = 24 \\text{ units}^3.$$\n\n(The paper's solution writes the units as $u^2$; a volume is in units³.)",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.2",
+    "12.1.1.1"
+   ],
+   "question": "The Fibonacci sequence is defined by\n$$F_1 = F_2 = 1, \\qquad F_n = F_{n-1} + F_{n-2} \\ (n \\ge 3).$$\nIt can be shown that $F_n = \\dfrac{\\alpha^n - \\beta^n}{\\sqrt5}$, where $\\alpha = \\dfrac{1 + \\sqrt5}{2}$ and $\\beta = \\dfrac{1 - \\sqrt5}{2}$.\n\nProve by mathematical induction that\n$$F_1^2 + F_2^2 + \\cdots + F_n^2 = F_nF_{n+1}$$\nfor all positive integers $n$.",
+   "answer": "**Base case** $n = 1$: LHS $= F_1^2 = 1$; RHS $= F_1F_2 = 1 \\times 1 = 1$. True. (From the formula, $F_1 = \\frac{\\alpha - \\beta}{\\sqrt5} = \\frac{\\sqrt5}{\\sqrt5} = 1$ and $F_2 = \\frac{(\\alpha - \\beta)(\\alpha + \\beta)}{\\sqrt5} = 1 \\times 1 = 1$, consistent with the definition.)\n\n**Inductive step.** Assume the result is true for $n = k$ ($k \\ge 1$):\n$$F_1^2 + F_2^2 + \\cdots + F_k^2 = F_kF_{k+1}.$$\nProve it for $n = k + 1$, i.e. $F_1^2 + \\cdots + F_k^2 + F_{k+1}^2 = F_{k+1}F_{k+2}$.\n$$\\text{LHS} = F_kF_{k+1} + F_{k+1}^2 \\ \\ (\\text{by the assumption}) = F_{k+1}\\left(F_k + F_{k+1}\\right) = F_{k+1}F_{k+2} \\ \\ (\\text{since } F_{k+2} = F_{k+1} + F_k) = \\text{RHS}.$$\nSo if the result is true for $n = k$ it is true for $n = k + 1$. Since it is true for $n = 1$, by mathematical induction it is true for all positive integers $n$.",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.13",
+    "12.4.1.11"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^1 \\frac{x^2\\tan^{-1}x}{x^2 + 1}\\,dx$.",
+   "answer": "$$I = \\int_0^1 \\frac{(1 + x^2 - 1)\\tan^{-1}x}{1 + x^2}\\,dx = \\int_0^1 \\tan^{-1}x\\,dx - \\int_0^1 \\frac{\\tan^{-1}x}{1 + x^2}\\,dx.$$\nBy parts ($u = \\tan^{-1}x$, $dv = dx$):\n$$\\int_0^1 \\tan^{-1}x\\,dx = \\Big[x\\tan^{-1}x\\Big]_0^1 - \\int_0^1\\frac{x}{1 + x^2}\\,dx = \\frac{\\pi}{4} - \\frac12\\Big[\\ln(1 + x^2)\\Big]_0^1 = \\frac{\\pi}{4} - \\frac12\\ln 2.$$\nWith $A = \\tan^{-1}x$, $dA = \\dfrac{dx}{1 + x^2}$:\n$$\\int_0^1\\frac{\\tan^{-1}x}{1 + x^2}\\,dx = \\int_0^{\\pi/4} A\\,dA = \\left[\\frac{A^2}{2}\\right]_0^{\\pi/4} = \\frac{\\pi^2}{32}.$$\n$$\\therefore I = \\frac{\\pi}{4} - \\frac12\\ln 2 - \\frac{\\pi^2}{32}.$$"
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.5.1.1"
+   ],
+   "question": "A particle moves in a straight line with acceleration\n$$\\ddot{x} = -\\frac{x^3}{2}.$$\nInitially, the particle is at rest at $x = 2$.\n\nProve that $v^2 = \\dfrac{1}{4}\\left(16 - x^4\\right)$.",
+   "answer": "$$\\frac{d}{dx}\\left(\\frac12 v^2\\right) = -\\frac{x^3}{2} \\ \\Rightarrow\\ \\frac12 v^2 = -\\frac{x^4}{8} + C.$$\nAt $x = 2$, $v = 0$: $0 = -\\frac{16}{8} + C \\Rightarrow C = 2$. So\n$$\\frac12 v^2 = \\frac{16 - x^4}{8} \\ \\Rightarrow\\ v^2 = \\frac14\\left(16 - x^4\\right).$$"
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "A particle moves in a straight line with acceleration\n$$\\ddot{x} = -\\frac{x^3}{2}.$$\nInitially, the particle is at rest at $x = 2$.\n\nGiven that $v^2 = \\dfrac{1}{4}\\left(16 - x^4\\right)$, find the value of the greatest speed, and where it occurs.",
+   "answer": "$v^2 = \\frac14(16 - x^4)$ is greatest when $x^4$ is least, i.e. at $x = 0$ (equivalently, where $\\ddot{x} = -\\frac{x^3}{2} = 0$, the velocity is stationary). Then\n$$v^2 = \\frac{16}{4} = 4 \\ \\Rightarrow\\ |v| = 2.$$\nThe greatest speed is $2$ m/s, at the origin $x = 0$."
+  },
+  {
+   "ref": "Q15(b)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "A particle moves in a straight line with acceleration\n$$\\ddot{x} = -\\frac{x^3}{2}.$$\nInitially, the particle is at rest at $x = 2$.\n\nGiven that $v^2 = \\dfrac{1}{4}\\left(16 - x^4\\right)$, describe the motion of the particle.",
+   "answer": "The particle starts from rest at $x = 2$. Since $\\ddot{x} < 0$ there, it moves to the left, speeding up until it reaches the origin with its greatest speed of 2 m/s; for $x < 0$ the acceleration is positive so it slows down, coming to rest at $x = -2$ (where $v^2 = 0$). It then returns to the right in the same way. Since $v^2 \\ge 0$ requires $-2 \\le x \\le 2$, the particle oscillates between $x = -2$ and $x = 2$ indefinitely (periodic motion about the origin, but not simple harmonic since $\\ddot{x}$ is not proportional to $x$).\n\n(The paper's solution only describes the motion as far as $x = -2$.)"
+  },
+  {
+   "ref": "Q15(c)",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.4",
+    "12.3.4.3"
+   ],
+   "question": "Using de Moivre's theorem, prove that\n$$\\tan 5\\theta = \\frac{\\tan^5\\theta - 10\\tan^3\\theta + 5\\tan\\theta}{5\\tan^4\\theta - 10\\tan^2\\theta + 1}.$$\nHence, find the roots of the equation $5t^4 - 10t^2 + 1 = 0$, where $t = \\tan\\theta$.\n\nAlso, write the exact value of $\\tan\\dfrac{\\pi}{10}$ in surd form.",
+   "answer": "Let $c = \\cos\\theta$, $s = \\sin\\theta$. By de Moivre's theorem, $(c + is)^5 = \\cos 5\\theta + i\\sin 5\\theta$. By the binomial theorem,\n$$(c + is)^5 = c^5 + 5ic^4s - 10c^3s^2 - 10ic^2s^3 + 5cs^4 + is^5.$$\nEquating real and imaginary parts:\n$$\\cos 5\\theta = c^5 - 10c^3s^2 + 5cs^4, \\qquad \\sin 5\\theta = 5c^4s - 10c^2s^3 + s^5.$$\nDividing, then dividing numerator and denominator by $c^5$:\n$$\\tan 5\\theta = \\frac{5c^4s - 10c^2s^3 + s^5}{c^5 - 10c^3s^2 + 5cs^4} = \\frac{5\\tan\\theta - 10\\tan^3\\theta + \\tan^5\\theta}{1 - 10\\tan^2\\theta + 5\\tan^4\\theta}.$$\n\n**Roots.** If $5\\tan^4\\theta - 10\\tan^2\\theta + 1 = 0$ then $\\tan 5\\theta$ is undefined, i.e. $\\cos 5\\theta = 0$ (with $\\cos\\theta \\ne 0$):\n$$5\\theta = \\frac{\\pi}{2} + k\\pi \\ \\Rightarrow\\ \\theta = \\frac{\\pi}{10}, \\frac{3\\pi}{10}, \\frac{\\pi}{2}, \\frac{7\\pi}{10}, \\frac{9\\pi}{10}, \\ldots$$\n$\\theta = \\frac{\\pi}{2}$ is excluded ($\\tan\\frac{\\pi}{2}$ is undefined), and the remaining values give 4 distinct values of $\\tan\\theta$. So the roots of $5t^4 - 10t^2 + 1 = 0$ are\n$$t = \\tan\\frac{\\pi}{10}, \\ \\tan\\frac{3\\pi}{10}, \\ \\tan\\frac{7\\pi}{10}, \\ \\tan\\frac{9\\pi}{10} \\quad\\left(= \\pm\\tan\\frac{\\pi}{10}, \\ \\pm\\tan\\frac{3\\pi}{10}\\right).$$\n\n**Surd form.** As a quadratic in $u = t^2$: $5u^2 - 10u + 1 = 0 \\Rightarrow u = \\dfrac{10 \\pm \\sqrt{80}}{10} = \\dfrac{5 \\pm 2\\sqrt5}{5}$, so $\\tan\\theta = \\pm\\sqrt{\\dfrac{5 \\pm 2\\sqrt5}{5}}$.\n\n$\\tan\\frac{\\pi}{10}$ is the smallest positive root (as $0 < \\frac{\\pi}{10} < \\frac{3\\pi}{10} < \\frac{\\pi}{2}$ and $\\tan$ is increasing there), so\n$$\\tan\\frac{\\pi}{10} = \\sqrt{\\frac{5 - 2\\sqrt5}{5}}.$$"
+  },
+  {
+   "ref": "Q16(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14",
+    "12.4.1.13"
+   ],
+   "question": "Define, for $n \\ge 0$,\n$$I_n = \\int_0^1 x\\left(1 - x^3\\right)^n dx.$$\nFor $n \\ge 1$, show that $I_n = \\dfrac{3n}{3n + 2}I_{n-1}$.",
+   "answer": "By parts with $u = (1 - x^3)^n$, $dv = x\\,dx$, so $du = -3nx^2(1 - x^3)^{n-1}dx$, $v = \\dfrac{x^2}{2}$:\n$$I_n = \\left[\\frac{x^2}{2}(1 - x^3)^n\\right]_0^1 + \\frac{3n}{2}\\int_0^1 x^4(1 - x^3)^{n-1}dx = 0 + \\frac{3n}{2}\\int_0^1 x\\cdot x^3(1 - x^3)^{n-1}dx.$$\nWriting $x^3 = 1 - (1 - x^3)$:\n$$I_n = \\frac{3n}{2}\\int_0^1 x(1 - x^3)^{n-1}dx - \\frac{3n}{2}\\int_0^1 x(1 - x^3)^n dx = \\frac{3n}{2}I_{n-1} - \\frac{3n}{2}I_n.$$\n$$\\left(1 + \\frac{3n}{2}\\right)I_n = \\frac{3n}{2}I_{n-1} \\ \\Rightarrow\\ I_n = \\frac{3n}{3n + 2}I_{n-1}.$$\n\n(The printed question has $I_{n-2}$, a typo; the paper's solution proves the result with $I_{n-1}$.)"
+  },
+  {
+   "ref": "Q16(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Define, for $n \\ge 0$,\n$$I_n = \\int_0^1 x\\left(1 - x^3\\right)^n dx.$$\nUsing the result $I_n = \\dfrac{3n}{3n + 2}I_{n-1}$ for $n \\ge 1$, find $I_4$.",
+   "answer": "$I_0 = \\displaystyle\\int_0^1 x\\,dx = \\frac12$. Then\n$$I_4 = \\frac{12}{14}I_3 = \\frac{12}{14}\\cdot\\frac{9}{11}I_2 = \\frac{12}{14}\\cdot\\frac{9}{11}\\cdot\\frac{6}{8}I_1 = \\frac{12}{14}\\cdot\\frac{9}{11}\\cdot\\frac{6}{8}\\cdot\\frac{3}{5}\\cdot\\frac12 = \\frac{1944}{12320} = \\frac{243}{1540}.$$"
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.1.2.2"
+   ],
+   "question": "A particle moves in simple harmonic motion given by the model $x = A\\sin nt$ (with $A, n > 0$). Initially the particle is at the origin and moves towards the positive extremity. Matthew claims that when the particle has displacement $\\dfrac{1}{k}$ of the positive extremity, the velocity is also $\\dfrac{1}{k}$ of the maximum speed, where $k > 1$.\n\nProvide a counterexample to show that the statement is **NOT** always true.",
+   "answer": "$\\dot{x} = An\\cos nt$, so the maximum speed is $An$ and the positive extremity is $x = A$.\n\nWhile the particle moves from the origin towards $x = A$, $0 < nt < \\frac{\\pi}{2}$, so $\\cos nt > 0$. When $x = \\dfrac{A}{k}$, $\\sin nt = \\dfrac1k$ and $\\cos nt = \\sqrt{1 - \\dfrac{1}{k^2}}$, so\n$$\\dot{x} = An\\sqrt{1 - \\frac{1}{k^2}}.$$\nCounterexample: $k = 2$. At $x = \\frac{A}{2}$, $\\dot{x} = An\\sqrt{1 - \\frac14} = \\dfrac{\\sqrt3}{2}An \\ne \\dfrac{1}{2}An$. So the claim is false for $k = 2$.\n\n(The paper's solution writes $\\dot{x} = \\frac{A}{n}\\sqrt{1 - \\frac14} \\ne \\frac{A}{2}$, misplacing $n$; the velocity is $An\\sqrt{1 - \\frac14}$ and the comparison is with $\\frac12 An$.)"
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.5.2.10"
+   ],
+   "question": "A particle moves in simple harmonic motion given by the model $x = A\\sin nt$ (with $A, n > 0$). Initially the particle is at the origin and moves towards the positive extremity. Matthew claims that when the particle has displacement $\\dfrac{1}{k}$ of the positive extremity, the velocity is also $\\dfrac{1}{k}$ of the maximum speed, where $k > 1$.\n\nFind the value of $k$ for which the statement is true.",
+   "answer": "When $x = \\frac{A}{k}$ (moving towards the positive extremity), $\\dot{x} = An\\sqrt{1 - \\frac{1}{k^2}}$. We need $\\dot{x} = \\frac1k An$:\n$$\\sqrt{1 - \\frac{1}{k^2}} = \\frac1k \\ \\Rightarrow\\ 1 - \\frac{1}{k^2} = \\frac{1}{k^2} \\ \\Rightarrow\\ k^2 = 2 \\ \\Rightarrow\\ k = \\sqrt2 \\quad (k > 1).$$"
+  },
+  {
+   "ref": "Q16(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "Let $n$ be a positive integer and $t > 0$ a constant. Prove by calculus that $f(s) = \\dfrac{n^2}{s} + \\dfrac{1}{t - s}$, for $t > s > 0$, has a minimum when $s = \\dfrac{nt}{1 + n}$.\n\n(It is given that $S = \\dfrac{nt}{n - 1}$ is a local maximum of the function.)",
+   "answer": "$$f'(s) = -\\frac{n^2}{s^2} + \\frac{1}{(t - s)^2}.$$\n$f'(s) = 0 \\Rightarrow \\dfrac{n^2}{s^2} = \\dfrac{1}{(t - s)^2} \\Rightarrow \\dfrac{n}{s} = \\pm\\dfrac{1}{t - s}$, so $s = \\dfrac{nt}{n + 1}$ or $s = \\dfrac{nt}{n - 1}$. Only $s = \\dfrac{nt}{n+1}$ lies in $0 < s < t$.\n$$f''(s) = \\frac{2n^2}{s^3} + \\frac{2}{(t - s)^3}.$$\nAt $s = \\dfrac{nt}{n + 1}$, $t - s = \\dfrac{t}{n + 1}$, so\n$$f''(s) = \\frac{2n^2(n + 1)^3}{n^3t^3} + \\frac{2(n + 1)^3}{t^3} = \\frac{2(n + 1)^3}{t^3}\\left(\\frac{1}{n} + 1\\right) = \\frac{2(n + 1)^4}{nt^3} > 0,$$\nso $s = \\dfrac{nt}{n + 1}$ gives a minimum. (Since it is the only stationary point in $(0, t)$ and $f \\to \\infty$ at both ends, it is the global minimum on $0 < s < t$.)\n\n(The paper's solution has $\\frac{2n^3}{s^3}$ for the first term of $f''$ and gets $\\frac{4(n+1)^3}{t^3}$; the correct value is $\\frac{2(n+1)^4}{nt^3}$, still positive.)"
+  },
+  {
+   "ref": "Q16(c)(ii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.1.4.2",
+    "12.1.3.9",
+    "12.1.3.6"
+   ],
+   "question": "It is known that for a positive integer $n$ and a constant $t > 0$, the function $f(s) = \\dfrac{n^2}{s} + \\dfrac{1}{t - s}$, $0 < s < t$, has its minimum value when $s = \\dfrac{nt}{n + 1}$.\n\nSuppose $x_i > 0$ for $i = 1, 2, \\ldots, n$, where $n \\ge 2$. Show by mathematical induction that\n$$\\frac{1}{x_1} + \\frac{1}{x_2} + \\cdots + \\frac{1}{x_n} \\ge \\frac{n^2}{s}, \\quad \\text{where } s = x_1 + x_2 + \\cdots + x_n.$$\n(Hint: for the $n = k + 1$ case, you may take $t = s + x_{k+1}$, where $s = x_1 + \\cdots + x_k$.)",
+   "answer": "**Minimum value of $f$.** At $s = \\frac{nt}{n + 1}$:\n$$f = \\frac{n^2(n + 1)}{nt} + \\frac{1}{t - \\frac{nt}{n + 1}} = \\frac{n(n + 1)}{t} + \\frac{n + 1}{t} = \\frac{(n + 1)^2}{t}.$$\nSo $\\dfrac{n^2}{s} + \\dfrac{1}{t - s} \\ge \\dfrac{(n + 1)^2}{t}$ for all $0 < s < t$.\n\n**Base case** $n = 2$: need $\\dfrac{1}{x_1} + \\dfrac{1}{x_2} \\ge \\dfrac{4}{x_1 + x_2}$, i.e. $\\dfrac{x_1 + x_2}{x_1x_2} \\ge \\dfrac{4}{x_1 + x_2}$, i.e. (as all quantities are positive) $(x_1 + x_2)^2 \\ge 4x_1x_2$, i.e. $(x_1 - x_2)^2 \\ge 0$, which is true.\n\n**Inductive step.** Assume true for $n = k$ ($k \\ge 2$): $\\dfrac{1}{x_1} + \\cdots + \\dfrac{1}{x_k} \\ge \\dfrac{k^2}{s}$, where $s = x_1 + \\cdots + x_k$.\n\nFor $n = k + 1$, let $t = s + x_{k+1} = x_1 + \\cdots + x_{k+1}$, so $t > s > 0$ and $x_{k+1} = t - s$. Then\n$$\\frac{1}{x_1} + \\cdots + \\frac{1}{x_k} + \\frac{1}{x_{k+1}} \\ge \\frac{k^2}{s} + \\frac{1}{t - s} = f(s) \\ \\text{(with } n = k\\text{)} \\ \\ge \\frac{(k + 1)^2}{t} = \\frac{(k + 1)^2}{x_1 + \\cdots + x_{k+1}},$$\nusing the minimum value of $f$. So the result is true for $n = k + 1$ if it is true for $n = k$.\n\nHence, by mathematical induction, the result is true for all integers $n \\ge 2$."
+  }
+ ]
+}
