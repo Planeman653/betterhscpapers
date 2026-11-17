@@ -6,13 +6,586 @@
  "type": "Trial",
  "thsc": {
   "viewno": "5328",
-  "title": "Sydney Grammar 2025 Mathematics Advanced Trial"
+  "title": "Sydney Grammar 2025 w. sol"
  },
  "indexed": "2026-11-17",
  "answers": "worked",
- "partial": true,
  "dropped": [],
  "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.3.7"
+   ],
+   "question": "What is the gradient of a line perpendicular to the line $y = 2x + 1$?",
+   "answer": "Perpendicular gradients multiply to $-1$: $m \\times 2 = -1 \\implies m = -\\frac12$. **(D)**",
+   "options": [
+    "$2$",
+    "$-2$",
+    "$\\dfrac12$",
+    "$-\\dfrac12$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.2.8"
+   ],
+   "question": "Which of the following is the natural domain of the function $f(x) = \\dfrac{1}{\\sqrt{x - 3}}$?",
+   "answer": "Need $x - 3 > 0$ (inside the root non-negative, and the denominator non-zero): $x > 3$. **(A)**",
+   "options": [
+    "$x > 3$",
+    "$x < 3$",
+    "$x \\ge 3$",
+    "$x \\le 3$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.2.9",
+    "11.5.1.1"
+   ],
+   "question": "Which of the following is the range of $y = 1 - e^x$?",
+   "answer": "$e^x$ takes every value in $(0, \\infty)$, so $1 - e^x$ takes every value less than 1: $y < 1$. **(A)**",
+   "options": [
+    "$y < 1$",
+    "$y \\le 1$",
+    "$0 < y < 1$",
+    "$0 \\le y \\le 1$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.4.8",
+    "11.2.3.5"
+   ],
+   "question": "How many solutions does the equation $x^2 = \\cos x$ have?",
+   "answer": "Sketch $y = x^2$ and $y = \\cos x$: they cross once for $x > 0$ (between $0$ and $1$) and, by symmetry, once for $x < 0$; for $|x| \\ge 1$, $x^2 \\ge 1 \\ge \\cos x$ with no further crossings. Two solutions. **(C)**",
+   "options": [
+    "$0$",
+    "$1$",
+    "$2$",
+    "$3$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.6.1.4",
+    "11.6.1.3"
+   ],
+   "question": "The function $y = f(x)$ is dilated vertically by a factor of 3. Which of the following corresponds to the function of this transformation?",
+   "answer": "A vertical dilation by factor 3 replaces $y$ by $\\frac y3$: $\\frac y3 = f(x)$, i.e. $y = 3f(x)$. **(B)**",
+   "options": [
+    "$y = f(3x)$",
+    "$y = 3f(x)$",
+    "$y = \\frac13f(x)$",
+    "$y = f\\left(\\frac x3\\right)$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.3.9"
+   ],
+   "question": "A particle is moving along the $x$-axis. At a certain time, the particle's acceleration is opposite in direction to its velocity. Which of the following MUST be true at that time?",
+   "answer": "When $v$ and $a$ have opposite signs the particle is slowing down, so its speed is decreasing. (Velocity itself may be increasing, e.g. $v = -1$, $a = 2$, or decreasing, e.g. $v = 1$, $a = -2$.) **(B)**",
+   "options": [
+    "The particle's speed at that time is increasing.",
+    "The particle's speed at that time is decreasing.",
+    "The particle's velocity at that time is increasing.",
+    "The particle's velocity at that time is decreasing."
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.5.3",
+    "12.5.3.10"
+   ],
+   "question": "The velocity–time graph of a moving particle is shown: $v > 0$ for $0 < t < a$, $v < 0$ for $a < t < c$ (with minimum velocity at $t = b$), and $v > 0$ for $c < t \\le d$. At what time does the particle reach its minimum displacement within the time frame $0 \\le t \\le d$?",
+   "answer": "The displacement decreases while $v < 0$, i.e. from $t = a$ to $t = c$, and increases after $t = c$. From the graph, the area below the axis is larger than the area above it before $t = a$, so the displacement is least at $t = c$. **(C)**",
+   "options": [
+    "$t = a$",
+    "$t = b$",
+    "$t = c$",
+    "$t = d$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/adv-2025-sydney-grammar/q7.png"
+   ]
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.3.10"
+   ],
+   "question": "Suppose $h(x) = [f(3x)]^2$. Which of the following is the correct expression for $h'(x)$?",
+   "answer": "Chain rule (twice): $h'(x) = 2f(3x) \\cdot f'(3x) \\cdot 3 = 6f'(3x)f(3x)$. **(D)**",
+   "options": [
+    "$2f(3x)$",
+    "$2f'(3x)f(3x)$",
+    "$6f(3x)$",
+    "$6f'(3x)f(3x)$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.4.10"
+   ],
+   "question": "Which of the following is the solution to $x^2 \\le x$?",
+   "answer": "$x^2 - x \\le 0 \\iff x(x - 1) \\le 0 \\iff 0 \\le x \\le 1$. **(A)**",
+   "options": [
+    "$0 \\le x \\le 1$",
+    "$x \\le 0$",
+    "$x \\ge 1$",
+    "There are no solutions."
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.8.10",
+    "12.4.2.6"
+   ],
+   "question": "Which of the following definite integrals gives the largest value?",
+   "answer": "(A) $= e - e^{-1} \\approx 2.35$. (B): $e^{x^2} \\le 1 + (e - 1)x^2$ on $[-1, 1]$ (convexity in $x^2$), so (B) $\\le \\frac12\\left(2 + \\frac{2(e-1)}{3}\\right) \\approx 1.57$. (C) $= 0$ (odd function). (D) $= \\frac\\pi2 \\approx 1.57$ (semicircle area). The largest is (A). **(A)**",
+   "options": [
+    "$\\displaystyle\\int_{-1}^{1}e^x\\,dx$",
+    "$\\displaystyle\\int_{-1}^{1}\\frac{e^{x^2}}{2}\\,dx$",
+    "$\\displaystyle\\int_{-1}^{1}\\sin x^3\\,dx$",
+    "$\\displaystyle\\int_{-1}^{1}\\sqrt{1 - x^2}\\,dx$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q11",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.1.6",
+    "11.1.1.3"
+   ],
+   "question": "Solve $x - \\dfrac6x = 1$.",
+   "answer": "Multiply by $x$ ($x \\ne 0$): $x^2 - x - 6 = 0 \\implies (x - 3)(x + 2) = 0 \\implies x = 3$ or $x = -2$."
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.3.3"
+   ],
+   "question": "Find the derivative of $y = 2x^3 + \\dfrac1x$.",
+   "answer": "$y = 2x^3 + x^{-1} \\implies \\dfrac{dy}{dx} = 6x^2 - \\dfrac{1}{x^2}$."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.1",
+    "12.3.1.2"
+   ],
+   "question": "Find the derivative of $y = 5e^{3x}$.",
+   "answer": "$\\dfrac{dy}{dx} = 15e^{3x}$."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "Find the derivative of $y = \\tan 2x$.",
+   "answer": "$\\dfrac{dy}{dx} = 2\\sec^2 2x$."
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.3"
+   ],
+   "question": "Find the derivative of $y = \\ln(3x - 1)$.",
+   "answer": "$\\dfrac{dy}{dx} = \\dfrac{3}{3x - 1}$."
+  },
+  {
+   "ref": "Q13",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.3.5",
+    "11.4.3.10"
+   ],
+   "question": "Find the equation of the tangent to $y = \\sqrt{2x + 1}$ at $x = 4$. Give your answer in the form $ax + by + c = 0$, where $a$, $b$ and $c$ are integers and $a > 0$.",
+   "answer": "At $x = 4$, $y = 3$. $\\;\\dfrac{dy}{dx} = \\dfrac12(2x + 1)^{-1/2} \\times 2 = \\dfrac{1}{\\sqrt{2x + 1}} = \\dfrac13$ at $x = 4$.\n$$y - 3 = \\frac13(x - 4) \\implies 3y - 9 = x - 4 \\implies x - 3y + 5 = 0.$$"
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.1.3",
+    "12.6.1.2"
+   ],
+   "question": "The probability distribution of a random variable $X$ is given in the table below.\n\n| $x$ | 0 | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|---|\n| $P(X = x)$ | 0.1 | 0.2 | 0.25 | 0.3 | $k$ |\n\nFind $P(0 < X \\le 3)$.",
+   "answer": "$P(0 < X \\le 3) = 0.2 + 0.25 + 0.3 = 0.75$."
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "The probability distribution of a random variable $X$ is given in the table below.\n\n| $x$ | 0 | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|---|\n| $P(X = x)$ | 0.1 | 0.2 | 0.25 | 0.3 | $k$ |\n\nFind the value of $k$.",
+   "answer": "$k = 1 - (0.1 + 0.2 + 0.25 + 0.3) = 0.15$."
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.1.6"
+   ],
+   "question": "The probability distribution of a random variable $X$ is given in the table below.\n\n| $x$ | 0 | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|---|\n| $P(X = x)$ | 0.1 | 0.2 | 0.25 | 0.3 | $k$ |\n\nGiven $k = 0.15$, find $E(X)$.",
+   "answer": "$E(X) = 0(0.1) + 1(0.2) + 2(0.25) + 3(0.3) + 4(0.15) = 2.2$."
+  },
+  {
+   "ref": "Q14(d)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.1.6"
+   ],
+   "question": "The probability distribution of a random variable $X$ is given in the table below.\n\n| $x$ | 0 | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|---|\n| $P(X = x)$ | 0.1 | 0.2 | 0.25 | 0.3 | $k$ |\n\nGiven $k = 0.15$, find $E(X^2)$.",
+   "answer": "$E(X^2) = 0 + 1(0.2) + 4(0.25) + 9(0.3) + 16(0.15) = 6.3$."
+  },
+  {
+   "ref": "Q14(e)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.6"
+   ],
+   "question": "The probability distribution of a random variable $X$ is given in the table below.\n\n| $x$ | 0 | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|---|\n| $P(X = x)$ | 0.1 | 0.2 | 0.25 | 0.3 | $k$ |\n\nGiven $E(X) = 2.2$ and $E(X^2) = 6.3$, find $\\operatorname{Var}(X)$.",
+   "answer": "$\\operatorname{Var}(X) = E(X^2) - [E(X)]^2 = 6.3 - 4.84 = 1.46$."
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "A table of future value interest factors for an annuity of \\$1 is shown below.\n\n| Period | 1% | 2% | 4% | 8% |\n|---|---|---|---|---|\n| 5 | 5.101 | 5.204 | 5.416 | 5.867 |\n| 10 | 10.462 | 10.950 | 12.006 | 14.487 |\n| 20 | 22.019 | 24.297 | 29.778 | 45.762 |\n| 40 | 48.886 | 60.402 | 95.026 | 259.057 |\n\nBen contributes \\$500 every year for 10 years to an annuity paying 8% per annum, compounded annually. Find how much his investment is worth at the end of 10 years. Give your answer correct to the nearest dollar.",
+   "answer": "$FV = 500 \\times 14.487 = \\$7243.50 \\approx \\$7244$."
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "A table of future value interest factors for an annuity of \\$1 is shown below.\n\n| Period | 1% | 2% | 4% | 8% |\n|---|---|---|---|---|\n| 5 | 5.101 | 5.204 | 5.416 | 5.867 |\n| 10 | 10.462 | 10.950 | 12.006 | 14.487 |\n| 20 | 22.019 | 24.297 | 29.778 | 45.762 |\n| 40 | 48.886 | 60.402 | 95.026 | 259.057 |\n\nCharlie contributes \\$500 every three months for 10 years to an annuity paying 8% per annum, compounded quarterly. Find how much his investment is worth after 10 years. Give your answer correct to the nearest dollar.",
+   "answer": "Quarterly rate $2\\%$, $40$ periods: $FV = 500 \\times 60.402 = \\$30\\,201$."
+  },
+  {
+   "ref": "Q16",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.7",
+    "11.1.11.6"
+   ],
+   "question": "Find the values of $x$ such that the following limiting sum exists:\n$$1 + (1 - 2x) + (1 - 2x)^2 + (1 - 2x)^3 + \\cdots$$",
+   "answer": "Geometric series with $r = 1 - 2x$; a limiting sum exists when $|r| < 1$:\n$$-1 < 1 - 2x < 1 \\implies -2 < -2x < 0 \\implies 0 < x < 1.$$"
+  },
+  {
+   "ref": "Q17(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.7.2.6",
+    "11.7.3.8"
+   ],
+   "question": "A team has a $\\frac13$ chance of winning any given game. They play 3 games.\n\nFind the probability of them winning at least one game.",
+   "answer": "$P(\\text{at least one}) = 1 - P(\\text{lose all 3}) = 1 - \\left(\\frac23\\right)^3 = \\frac{19}{27}$."
+  },
+  {
+   "ref": "Q17(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.2.7",
+    "11.7.3.8"
+   ],
+   "question": "A team has a $\\frac13$ chance of winning any given game. They play 3 games.\n\nFind the probability of them winning exactly one game.",
+   "answer": "The win can be in any of the 3 games: $P = 3 \\times \\frac13 \\times \\left(\\frac23\\right)^2 = \\frac49$."
+  },
+  {
+   "ref": "Q18",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.6",
+    "12.2.2.4"
+   ],
+   "question": "Find the value of the arithmetic series $1 + 5 + 9 + \\cdots + 2025$.",
+   "answer": "$a = 1$, $d = 4$: $1 + 4(n - 1) = 2025 \\implies n = 507$.\n$$S_{507} = \\frac{507}{2}(1 + 2025) = 507 \\times 1013 = 513\\,591.$$"
+  },
+  {
+   "ref": "Q19(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "In $\\triangle ABC$, $AB = 5$ cm, $BC = x$ cm, $AC = 6$ cm and $\\angle CAB = 60^\\circ$.\n\nFind the area of $\\triangle ABC$ correct to two decimal places.",
+   "answer": "$A = \\frac12 \\times 5 \\times 6 \\times \\sin 60^\\circ = \\frac{15\\sqrt3}{2} \\approx 12.99\\ \\text{cm}^2$.",
+   "images": [
+    "assets/img/adv-2025-sydney-grammar/q19.png"
+   ]
+  },
+  {
+   "ref": "Q19(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "In $\\triangle ABC$, $AB = 5$ cm, $BC = x$ cm, $AC = 6$ cm and $\\angle CAB = 60^\\circ$.\n\nFind the exact value of $x$.",
+   "answer": "Cosine rule: $x^2 = 5^2 + 6^2 - 2(5)(6)\\cos 60^\\circ = 61 - 30 = 31 \\implies x = \\sqrt{31}$.",
+   "images": [
+    "assets/img/adv-2025-sydney-grammar/q19.png"
+   ]
+  },
+  {
+   "ref": "Q20(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Consider $y = 2\\sin 3t + 4$.\n\nState its period.",
+   "answer": "Period $= \\dfrac{2\\pi}{3}$."
+  },
+  {
+   "ref": "Q20(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.2",
+    "11.1.2.9"
+   ],
+   "question": "Consider $y = 2\\sin 3t + 4$.\n\nState its range.",
+   "answer": "$4 - 2 \\le y \\le 4 + 2$, i.e. $2 \\le y \\le 6$."
+  },
+  {
+   "ref": "Q21(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.4",
+    "12.5.1.8"
+   ],
+   "question": "Consider the curve $y = \\dfrac{1}{27}x^3 - x + 2$.\n\nFind the coordinates of its stationary points and determine their nature.",
+   "answer": "$y' = \\dfrac{x^2}{9} - 1 = 0 \\implies x = \\pm3$. $\\;y(3) = 1 - 3 + 2 = 0$, $y(-3) = -1 + 3 + 2 = 4$.\n\n$y'' = \\dfrac{2x}{9}$: $y''(3) > 0$, so $(3, 0)$ is a **minimum**; $y''(-3) < 0$, so $(-3, 4)$ is a **maximum**."
+  },
+  {
+   "ref": "Q21(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.7"
+   ],
+   "question": "Consider the curve $y = \\dfrac{1}{27}x^3 - x + 2$.\n\nFind any points of inflection.",
+   "answer": "$y'' = \\dfrac{2x}{9} = 0 \\implies x = 0$, $y = 2$. $\\;y''$ changes sign at $x = 0$ (negative to positive), so $(0, 2)$ is a point of inflection."
+  },
+  {
+   "ref": "Q21(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.9"
+   ],
+   "question": "Consider the curve $y = \\dfrac{1}{27}x^3 - x + 2$.\n\nThe curve has a maximum at $(-3, 4)$, a minimum at $(3, 0)$ and a point of inflection at $(0, 2)$. Given that $x = -6$ is an $x$-intercept, sketch the graph of the curve, clearly labelling stationary points, points of inflection and intercepts with the coordinate axes.",
+   "answer": "$x$-intercepts $(-6, 0)$ and $(3, 0)$ (the curve touches the axis at its minimum); $y$-intercept $(0, 2)$, which is also the point of inflection; maximum $(-3, 4)$.",
+   "answer_images": [
+    "assets/img/adv-2025-sydney-grammar/q21-sketch.png"
+   ]
+  },
+  {
+   "ref": "Q22(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.4.3",
+    "12.4.7.2"
+   ],
+   "question": "Find $\\displaystyle\\int\\left(\\frac{1}{x^2} - \\cos 3x\\right)dx$.",
+   "answer": "$$\\int\\left(x^{-2} - \\cos 3x\\right)dx = -\\frac1x - \\frac13\\sin 3x + C.$$"
+  },
+  {
+   "ref": "Q22(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Find $\\displaystyle\\int(1 - 2x)^5\\,dx$.",
+   "answer": "$$\\int(1 - 2x)^5\\,dx = \\frac{(1 - 2x)^6}{6 \\times (-2)} + C = -\\frac{(1 - 2x)^6}{12} + C.$$"
+  },
+  {
+   "ref": "Q23(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.1.3",
+    "12.7.1.1"
+   ],
+   "question": "Alex takes out a loan at an interest rate of 5% per annum, compounded annually. At the end of each year, interest is charged and then Alex makes a repayment. Suppose Alex borrows \\$10 000 and pays off the loan in 10 years with regular annual repayments of \\$$M$. Let $A_n$ be the amount Alex still owes at the end of the $n$th year.\n\nFind $A_1$ and hence $A_2$ in terms of $M$.",
+   "answer": "$A_1 = 10\\,000(1.05) - M$.\n\n$A_2 = A_1(1.05) - M = 10\\,000(1.05)^2 - M(1.05) - M$."
+  },
+  {
+   "ref": "Q23(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.1.3",
+    "12.2.3.5"
+   ],
+   "question": "Alex takes out a loan at an interest rate of 5% per annum, compounded annually. At the end of each year, interest is charged and then Alex makes a repayment. Suppose Alex borrows \\$10 000 and pays off the loan in 10 years with regular annual repayments of \\$$M$. Let $A_n$ be the amount Alex still owes at the end of the $n$th year.\n\nGiven $A_2 = 10\\,000(1.05)^2 - M(1 + 1.05)$, find $A_n$ in terms of $M$ and $n$.",
+   "answer": "$$A_n = 10\\,000(1.05)^n - M\\left(1 + 1.05 + \\cdots + 1.05^{n-1}\\right) = 10\\,000(1.05)^n - M\\frac{1.05^n - 1}{0.05} = 10\\,000(1.05)^n - 20M\\left(1.05^n - 1\\right).$$"
+  },
+  {
+   "ref": "Q23(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.1.3"
+   ],
+   "question": "Alex takes out a loan at an interest rate of 5% per annum, compounded annually. At the end of each year, interest is charged and then Alex makes a repayment. Suppose Alex borrows \\$10 000 and pays off the loan in 10 years with regular annual repayments of \\$$M$. Let $A_n$ be the amount Alex still owes at the end of the $n$th year.\n\nGiven $A_n = 10\\,000(1.05)^n - 20M\\left(1.05^n - 1\\right)$, find $M$ correct to two decimal places.",
+   "answer": "$A_{10} = 0$:\n$$M = \\frac{10\\,000(1.05)^{10}}{20\\left(1.05^{10} - 1\\right)} \\approx \\$1295.05.$$"
+  },
+  {
+   "ref": "Q23(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.1.3"
+   ],
+   "question": "Alex takes out a loan at 5% per annum, compounded annually; at the end of each year interest is charged and then a repayment is made. For a loan of \\$$B$ with annual repayments \\$$M$, the amount owing after $n$ years is $A_n = B(1.05)^n - 20M\\left(1.05^n - 1\\right)$.\n\nIf Alex only wants to repay \\$350 each year in order to pay off his loan in 20 years, what is the maximum amount he would be able to borrow? Give your answer correct to two decimal places.",
+   "answer": "$A_{20} = 0$ with $M = 350$:\n$$B = \\frac{20 \\times 350\\left(1.05^{20} - 1\\right)}{1.05^{20}} \\approx \\$4361.77.$$"
+  },
+  {
+   "ref": "Q24(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.3.8",
+    "12.3.1.1"
+   ],
+   "question": "Suppose $f(x) = e^x(x + 1)$.\n\nFind the first derivative of $f(x)$.",
+   "answer": "$f'(x) = e^x(x + 1) + e^x = e^x(x + 2)$."
+  },
+  {
+   "ref": "Q24(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.1.3"
+   ],
+   "question": "Suppose $f(x) = e^x(x + 1)$.\n\nGiven $f'(x) = e^x(x + 2)$, find the second derivative of $f(x)$.",
+   "answer": "$f''(x) = e^x(x + 2) + e^x = e^x(x + 3)$."
+  },
+  {
+   "ref": "Q24(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.3"
+   ],
+   "question": "Suppose $f(x) = e^x(x + 1)$.\n\nGiven $f'(x) = e^x(x + 2)$ and $f''(x) = e^x(x + 3)$, by identifying a pattern, write down an expression for the $n$th derivative of $f(x)$, where $n$ is a positive integer.",
+   "answer": "Each differentiation adds 1 inside the bracket: $f^{(n)}(x) = e^x(x + n + 1)$."
+  },
   {
    "ref": "Q25(a)",
    "kind": "written",
@@ -40,6 +613,286 @@
    "answer": "$y = \\ln x \\iff x = e^y$. The region between the curve and the $y$-axis, from $y = 0$ to $y = \\ln 10$, has area\n$$\\int_0^{\\ln 10} e^y\\,dy = \\Big[e^y\\Big]_0^{\\ln 10} = 10 - 1 = 9.$$\nThat region and the shaded region together make up the rectangle with vertices $(0,0)$, $(10,0)$, $(10,\\ln 10)$, $(0,\\ln 10)$, of area $10\\ln 10$. So\n$$\\text{shaded area} = 10\\ln 10 - 9 \\text{ square units } (\\approx 14.03).$$",
    "images": [
     "assets/img/adv-2025-sydney-grammar/q25.png"
+   ]
+  },
+  {
+   "ref": "Q26",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.6"
+   ],
+   "question": "Find the area bounded between the graphs of $y = \\sqrt{x - 1}$ and $y = x - 1$.",
+   "answer": "Intersections: $\\sqrt{x - 1} = x - 1 \\implies x - 1 = 0$ or $1$, i.e. $x = 1, 2$. On $[1, 2]$, $\\sqrt{x - 1} \\ge x - 1$:\n$$A = \\int_1^2\\left(\\sqrt{x - 1} - (x - 1)\\right)dx = \\left[\\tfrac23(x - 1)^{3/2} - \\tfrac12(x - 1)^2\\right]_1^2 = \\frac23 - \\frac12 = \\frac16 \\text{ square units}.$$"
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.6.1.6"
+   ],
+   "question": "The diagram shows the graph of a parabola $y = f(x)$ whose vertex is at the origin (it is concave up). Let $k$ be some positive number.\n\nState the coordinates of the vertex of $y = f(x) + k$ in terms of $k$.",
+   "answer": "The graph moves up $k$ units: vertex $(0, k)$.",
+   "images": [
+    "assets/img/adv-2025-sydney-grammar/q27.png"
+   ]
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.6.1.2",
+    "11.1.4.10"
+   ],
+   "question": "The diagram shows the graph of a parabola $y = f(x)$ whose vertex is at the origin (it is concave up). Let $k$ be some positive number.\n\nWrite down the solution to $f(x) > f(x - k)$ in terms of $k$.",
+   "answer": "$y = f(x - k)$ is $y = f(x)$ moved $k$ units right; the two parabolas cross halfway between their vertices, at $x = \\frac k2$. To the right of that, $f(x)$ is higher. So $x > \\dfrac k2$.\n\n(For example, with $f(x) = ax^2$: $ax^2 > a(x - k)^2 \\iff 2kx > k^2 \\iff x > \\frac k2$.)",
+   "images": [
+    "assets/img/adv-2025-sydney-grammar/q27.png"
+   ]
+  },
+  {
+   "ref": "Q28(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.3.7"
+   ],
+   "question": "The mass of a decaying radioactive substance, in kg, at time $t$ years is given by $M = 2e^{-kt}$, where $k$ is a positive constant.\n\nState the initial mass of the radioactive substance.",
+   "answer": "At $t = 0$: $M = 2$ kg."
+  },
+  {
+   "ref": "Q28(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.8"
+   ],
+   "question": "The mass of a decaying radioactive substance, in kg, at time $t$ years is given by $M = 2e^{-kt}$, where $k$ is a positive constant.\n\nFind the half-life of the radioactive substance. Give your answer as an exact value in terms of $k$.",
+   "answer": "$1 = 2e^{-kt} \\implies e^{kt} = 2 \\implies t = \\dfrac{\\ln 2}{k}$ years."
+  },
+  {
+   "ref": "Q28(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.2"
+   ],
+   "question": "The mass of a decaying radioactive substance, in kg, at time $t$ years is given by $M = 2e^{-kt}$, where $k$ is a positive constant.\n\nFind $\\dfrac{dM}{dt}$.",
+   "answer": "$\\dfrac{dM}{dt} = -2ke^{-kt}$."
+  },
+  {
+   "ref": "Q28(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.2",
+    "12.4.5.2"
+   ],
+   "question": "The mass of a decaying radioactive substance, in kg, at time $t$ years is given by $M = 2e^{-kt}$, where $k$ is a positive constant.\n\n$\\dfrac{dM}{dt} = -2ke^{-kt}$. A biomaterial is also decaying simultaneously, but at every instant in time its rate of decay is twice as fast as the radioactive substance. Find an expression for the mass of the biomaterial, in terms of $k$ and $t$, given that its initial mass is 3 kg.",
+   "answer": "Let $B$ be the biomaterial's mass. Its rate is twice the substance's rate:\n$$\\frac{dB}{dt} = 2 \\times \\left(-2ke^{-kt}\\right) = -4ke^{-kt} \\implies B = 4e^{-kt} + C.$$\n$B(0) = 3 \\implies 4 + C = 3 \\implies C = -1$. So $B = 4e^{-kt} - 1$."
+  },
+  {
+   "ref": "Q29(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.3.10"
+   ],
+   "question": "A particle is moving along the $x$-axis. Its velocity in metres per second, at time $t$ seconds, is given by\n$$v = \\frac{2}{t + 1} - 1.$$\n\nFind the time at which the particle is stationary.",
+   "answer": "$\\dfrac{2}{t + 1} = 1 \\implies t = 1$ second."
+  },
+  {
+   "ref": "Q29(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.9"
+   ],
+   "question": "A particle is moving along the $x$-axis. Its velocity in metres per second, at time $t$ seconds, is given by\n$$v = \\frac{2}{t + 1} - 1.$$\n\nThe particle is stationary at $t = 1$. Find the acceleration of the particle when it is stationary.",
+   "answer": "$a = \\dfrac{dv}{dt} = -\\dfrac{2}{(t + 1)^2}$, so at $t = 1$: $a = -\\dfrac12\\ \\text{m/s}^2$."
+  },
+  {
+   "ref": "Q29(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.10",
+    "12.4.6.2"
+   ],
+   "question": "A particle is moving along the $x$-axis. Its velocity in metres per second, at time $t$ seconds, is given by\n$$v = \\frac{2}{t + 1} - 1.$$\n\nThe particle is stationary only at $t = 1$, with $v > 0$ before and $v < 0$ after. The total distance travelled by the particle in the first two seconds is $\\ln b$ metres, for some constant $b > 0$. Find the value of $b$.",
+   "answer": "$$\\int_0^1\\left(\\frac{2}{t + 1} - 1\\right)dt = \\Big[2\\ln(t + 1) - t\\Big]_0^1 = 2\\ln 2 - 1,$$\n$$\\int_1^2\\left(\\frac{2}{t + 1} - 1\\right)dt = \\Big[2\\ln(t + 1) - t\\Big]_1^2 = 2\\ln 3 - 2\\ln 2 - 1 \\;(< 0).$$\nDistance $= (2\\ln 2 - 1) + (1 + 2\\ln 2 - 2\\ln 3) = 4\\ln 2 - 2\\ln 3 = \\ln\\dfrac{16}{9}$. So $b = \\dfrac{16}{9}$."
+  },
+  {
+   "ref": "Q30(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.3.8",
+    "12.3.3.1"
+   ],
+   "question": "Find $\\dfrac{d}{dx}(x\\sin x)$.",
+   "answer": "$\\dfrac{d}{dx}(x\\sin x) = \\sin x + x\\cos x$."
+  },
+  {
+   "ref": "Q30(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.1",
+    "12.4.7.1"
+   ],
+   "question": "Given $\\dfrac{d}{dx}(x\\sin x) = \\sin x + x\\cos x$, find $\\displaystyle\\int x\\cos x\\,dx$.",
+   "answer": "$\\displaystyle\\int(\\sin x + x\\cos x)\\,dx = x\\sin x$, so\n$$\\int x\\cos x\\,dx = x\\sin x - \\int\\sin x\\,dx = x\\sin x + \\cos x + C.$$"
+  },
+  {
+   "ref": "Q30(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.8.1"
+   ],
+   "question": "Given $\\displaystyle\\int x\\cos x\\,dx = x\\sin x + \\cos x + C$, find $\\displaystyle\\int_0^\\pi x\\cos x\\,dx$.",
+   "answer": "$$\\Big[x\\sin x + \\cos x\\Big]_0^\\pi = (0 - 1) - (0 + 1) = -2.$$"
+  },
+  {
+   "ref": "Q31(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.1.2"
+   ],
+   "question": "In early planetary models, planets orbit the sun in circular orbits. Suppose a planet completes its orbit of radius $r$ around the sun in time $T$, while moving at a constant speed $v$.\n\nExpress $v$ in terms of $r$ and $T$ by using constant speed $= \\dfrac{\\text{distance travelled}}{\\text{time}}$.",
+   "answer": "One orbit is a circumference: $v = \\dfrac{2\\pi r}{T}$."
+  },
+  {
+   "ref": "Q31(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.1",
+    "11.1.7.4"
+   ],
+   "question": "In early planetary models, planets orbit the sun in circular orbits. Suppose a planet completes its orbit of radius $r$ around the sun in time $T$, while moving at a constant speed $v$.\n\n$v = \\dfrac{2\\pi r}{T}$. By examining astronomical data made in the 1600s, Kepler noticed that $r^3$ is always directly proportional to $T^2$ for all orbits, that is, $r^3 = kT^2$ for some fixed positive constant $k$. By finding an appropriate derivative, determine whether planets further from the sun move faster or slower.",
+   "answer": "From $r^3 = kT^2$: $\\dfrac1T = \\dfrac{\\sqrt k}{r^{3/2}}$. So\n$$v = 2\\pi r \\cdot \\frac{\\sqrt k}{r^{3/2}} = 2\\pi\\sqrt k\\,r^{-1/2}, \\qquad \\frac{dv}{dr} = -\\pi\\sqrt k\\,r^{-3/2} < 0 \\text{ for } r > 0.$$\n$v$ decreases as $r$ increases: planets further from the sun move **slower**."
+  },
+  {
+   "ref": "Q32(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.8"
+   ],
+   "question": "A patient is undergoing a treatment involving repeated injections of $M$ millilitres of medicine, separated by regular time intervals of $t$ hours. Let $A_n$ be the amount of medicine in the body immediately after the $n$th injection, so $A_1 = M$. While in the body, the medicine decays exponentially such that the amount left in the body right before the $(n + 1)$th injection is $A_ne^{-t}$.\n\nFind an expression for $A_2$, and show that $A_3 = M\\left(1 + e^{-t} + e^{-2t}\\right)$.",
+   "answer": "$A_2 = A_1e^{-t} + M = Me^{-t} + M$.\n\n$A_3 = A_2e^{-t} + M = \\left(Me^{-t} + M\\right)e^{-t} + M = M\\left(1 + e^{-t} + e^{-2t}\\right)$."
+  },
+  {
+   "ref": "Q32(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.3.7",
+    "12.2.3.8"
+   ],
+   "question": "A patient is undergoing a treatment involving repeated injections of $M$ millilitres of medicine, separated by regular time intervals of $t$ hours. Let $A_n$ be the amount of medicine in the body immediately after the $n$th injection, so $A_1 = M$. While in the body, the medicine decays exponentially such that the amount left in the body right before the $(n + 1)$th injection is $A_ne^{-t}$.\n\nIn general $A_n = M\\left(1 + e^{-t} + e^{-2t} + \\cdots + e^{-(n-1)t}\\right)$. The patient is safe from side effects as long as the amount of medication in the body stays below $2M$ millilitres. Find the minimum value of $t$, to the nearest minute, such that the patient is always safe as this treatment continues indefinitely.",
+   "answer": "$A_n$ increases with $n$, so we need the limiting sum (which exists since $0 < e^{-t} < 1$) to be below $2M$:\n$$A_\\infty = \\frac{M}{1 - e^{-t}} < 2M \\implies 1 < 2 - 2e^{-t} \\implies e^{-t} < \\frac12 \\implies t > \\ln 2 \\text{ hours}.$$\n$\\ln 2 \\times 60 = 41.6$ minutes, so the minimum interval is about **42 minutes**."
+  },
+  {
+   "ref": "Q33(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.2.3"
+   ],
+   "question": "The Grammar timetable follows a six-day cycle, with the days labelled $A$ to $F$. In a certain year the first school day is a Monday and is an $A$ day. Part of the timetable is shown in the table below (weeks 8 to 35 omitted). For simplicity, assume the school year consists of 40 weeks of five school days (Monday to Friday).\n\n| | Mon | Tue | Wed | Thu | Fri |\n|---|---|---|---|---|---|\n| Week 1 | A | B | C | D | E |\n| Week 2 | F | A | B | C | D |\n| Week 3 | E | F | A | B | C |\n| Week 4 | D | E | F | A | B |\n| Week 5 | C | D | E | F | A |\n| Week 6 | B | C | D | E | F |\n| Week 7 | A | B | C | D | E |\n| ⋮ | | | | | |\n| Week 36 | B | C | D | E | F |\n| Week 37 | A | B | C | D | E |\n| Week 38 | F | A | B | C | D |\n| Week 39 | E | F | A | B | C |\n| Week 40 | D | E | F | A | B |\n\nFind the probability that a randomly selected school day is an $A$ day.",
+   "answer": "The pattern repeats every 6 weeks, and there is exactly one $A$ day in every week except weeks 6, 12, 18, 24, 30 and 36. So there are $40 - 6 = 34$ $A$ days out of $200$ school days:\n$$P(A) = \\frac{34}{200} = 0.17.$$"
+  },
+  {
+   "ref": "Q33(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.7.3.6",
+    "11.7.3.3"
+   ],
+   "question": "The Grammar timetable follows a six-day cycle, with the days labelled $A$ to $F$. In a certain year the first school day is a Monday and is an $A$ day. Part of the timetable is shown in the table below (weeks 8 to 35 omitted). For simplicity, assume the school year consists of 40 weeks of five school days (Monday to Friday).\n\n| | Mon | Tue | Wed | Thu | Fri |\n|---|---|---|---|---|---|\n| Week 1 | A | B | C | D | E |\n| Week 2 | F | A | B | C | D |\n| Week 3 | E | F | A | B | C |\n| Week 4 | D | E | F | A | B |\n| Week 5 | C | D | E | F | A |\n| Week 6 | B | C | D | E | F |\n| Week 7 | A | B | C | D | E |\n| ⋮ | | | | | |\n| Week 36 | B | C | D | E | F |\n| Week 37 | A | B | C | D | E |\n| Week 38 | F | A | B | C | D |\n| Week 39 | E | F | A | B | C |\n| Week 40 | D | E | F | A | B |\n\nThere are 34 $A$ days among the 200 school days. When a school day is randomly selected, find the probability that the day is an $A$ day, given that it is a Monday. Hence state, with justification, whether these two events are independent.",
+   "answer": "Mondays cycle $A, F, E, D, C, B$ every 6 weeks. In 40 weeks (6 full cycles plus weeks 37–40: $A, F, E, D$) Monday is an $A$ day $6 + 1 = 7$ times:\n$$P(A \\mid \\text{Monday}) = \\frac{7}{40} = 0.175.$$\nSince $0.175 \\ne 0.17 = P(A)$, the events are **not independent**."
+  },
+  {
+   "ref": "Q33(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.6",
+    "12.6.1.8"
+   ],
+   "question": "The Grammar timetable follows a six-day cycle, with the days labelled $A$ to $F$. In a certain year the first school day is a Monday and is an $A$ day. Part of the timetable is shown in the table below (weeks 8 to 35 omitted). For simplicity, assume the school year consists of 40 weeks of five school days (Monday to Friday).\n\n| | Mon | Tue | Wed | Thu | Fri |\n|---|---|---|---|---|---|\n| Week 1 | A | B | C | D | E |\n| Week 2 | F | A | B | C | D |\n| Week 3 | E | F | A | B | C |\n| Week 4 | D | E | F | A | B |\n| Week 5 | C | D | E | F | A |\n| Week 6 | B | C | D | E | F |\n| Week 7 | A | B | C | D | E |\n| ⋮ | | | | | |\n| Week 36 | B | C | D | E | F |\n| Week 37 | A | B | C | D | E |\n| Week 38 | F | A | B | C | D |\n| Week 39 | E | F | A | B | C |\n| Week 40 | D | E | F | A | B |\n\nOver the 40 Mondays, the days are $A, D, E, F$ seven times each and $B, C$ six times each. Suppose there are 0 periods of maths on $A$ days, 1 period on $B$ days, 2 periods on each of $D$, $E$ and $F$ days, and 3 periods on $C$ days. Let $X$ be the number of maths periods on a randomly chosen Monday. Find $E(X)$.",
+   "answer": "$P(X = 0) = \\frac{7}{40}$ ($A$), $P(X = 1) = \\frac{6}{40}$ ($B$), $P(X = 2) = \\frac{21}{40}$ ($D, E, F$), $P(X = 3) = \\frac{6}{40}$ ($C$).\n$$E(X) = 0 + \\frac{6}{40} + 2 \\times \\frac{21}{40} + 3 \\times \\frac{6}{40} = \\frac{66}{40} = 1.65.$$"
+  },
+  {
+   "ref": "Q34(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.1.2"
+   ],
+   "question": "Alice wants to move from point $A$ to point $B$, which are two points on the circumference of a circular pond with centre $O$ and radius $R$, such that $AB$ is a diameter. She can swim directly across the pond, or run along the arc $AB$, or first swim in a straight line to a chosen point $P$ on the circumference and then run along the arc $PB$.\n\nLet $\\angle PAB = \\theta$, where $0 \\le \\theta \\le \\frac\\pi2$. Alice swims and runs at constant speeds $v_1$ and $v_2$ respectively, where $0 < v_1 < v_2$. Let $t$ be the time it takes her to reach $B$.\n\nIf $M$ is the midpoint of $AP$ then $\\angle OMA = \\frac\\pi2$ (you do not need to show this). Find $AM$ in terms of $R$ and $\\theta$.",
+   "answer": "In right-angled $\\triangle OMA$ with hypotenuse $OA = R$: $\\cos\\theta = \\dfrac{AM}{R} \\implies AM = R\\cos\\theta$.",
+   "images": [
+    "assets/img/adv-2025-sydney-grammar/q34.png"
+   ]
+  },
+  {
+   "ref": "Q34(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.5.2.3",
+    "11.2.3.6"
+   ],
+   "question": "Alice wants to move from point $A$ to point $B$, which are two points on the circumference of a circular pond with centre $O$ and radius $R$, such that $AB$ is a diameter. She can swim directly across the pond, or run along the arc $AB$, or first swim in a straight line to a chosen point $P$ on the circumference and then run along the arc $PB$.\n\nLet $\\angle PAB = \\theta$, where $0 \\le \\theta \\le \\frac\\pi2$. Alice swims and runs at constant speeds $v_1$ and $v_2$ respectively, where $0 < v_1 < v_2$. Let $t$ be the time it takes her to reach $B$.\n\nGiven $AM = R\\cos\\theta$ (where $M$ is the midpoint of $AP$), find an expression, in terms of $v_1$ and $v_2$, for the angle $\\theta$ which **maximises** $t$.",
+   "answer": "$AP = 2R\\cos\\theta$. The angle at the centre subtending arc $PB$ is $\\angle POB = 2\\theta$ (angle at the centre is twice the angle at the circumference), so arc $PB = 2R\\theta$.\n$$t = \\frac{2R\\cos\\theta}{v_1} + \\frac{2R\\theta}{v_2}, \\qquad \\frac{dt}{d\\theta} = -\\frac{2R\\sin\\theta}{v_1} + \\frac{2R}{v_2} = 0 \\implies \\sin\\theta = \\frac{v_1}{v_2}.$$\n$\\dfrac{d^2t}{d\\theta^2} = -\\dfrac{2R\\cos\\theta}{v_1} < 0$ there, so it is a maximum; being the only stationary point in $\\left[0, \\frac\\pi2\\right]$, it is the global maximum:\n$$\\theta = \\sin^{-1}\\left(\\frac{v_1}{v_2}\\right).$$",
+   "images": [
+    "assets/img/adv-2025-sydney-grammar/q34.png"
+   ]
+  },
+  {
+   "ref": "Q34(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.2.2",
+    "12.5.2.5"
+   ],
+   "question": "Alice wants to move from point $A$ to point $B$, which are two points on the circumference of a circular pond with centre $O$ and radius $R$, such that $AB$ is a diameter. She can swim directly across the pond, or run along the arc $AB$, or first swim in a straight line to a chosen point $P$ on the circumference and then run along the arc $PB$.\n\nLet $\\angle PAB = \\theta$, where $0 \\le \\theta \\le \\frac\\pi2$. Alice swims and runs at constant speeds $v_1$ and $v_2$ respectively, where $0 < v_1 < v_2$. Let $t$ be the time it takes her to reach $B$.\n\nThe time is $t = \\dfrac{2R\\cos\\theta}{v_1} + \\dfrac{2R\\theta}{v_2}$ for $0 \\le \\theta \\le \\frac\\pi2$, and its only stationary point is a maximum. Find the condition on $\\dfrac{v_2}{v_1}$ so that the minimum value of $t$ is achieved by only running.",
+   "answer": "Since the only stationary point is a maximum, the minimum is at an endpoint:\n- $\\theta = 0$ (swim straight across): $t = \\dfrac{2R}{v_1}$;\n- $\\theta = \\frac\\pi2$ (run the whole semicircle): $t = \\dfrac{\\pi R}{v_2}$.\n\nRunning only is quickest when $\\dfrac{\\pi R}{v_2} < \\dfrac{2R}{v_1}$, i.e. $\\dfrac{v_2}{v_1} > \\dfrac\\pi2$.",
+   "images": [
+    "assets/img/adv-2025-sydney-grammar/q34.png"
    ]
   }
  ]
