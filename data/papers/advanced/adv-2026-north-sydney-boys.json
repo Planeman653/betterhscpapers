@@ -6,13 +6,110 @@
  "type": "Trial",
  "thsc": {
   "viewno": "5328",
-  "title": "North Sydney Boys 2026 Mathematics Advanced Trial"
+  "title": "North Sydney Boys 2026 w. sol"
  },
  "indexed": "2026-11-17",
  "answers": "worked",
- "partial": true,
  "dropped": [],
  "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.2",
+    "12.2.2.1"
+   ],
+   "question": "What is the 20th term of the following arithmetic sequence?\n$$-7, -3, 1, 5, \\ldots$$",
+   "answer": "$a = -7$, $d = 4$: $T_{20} = -7 + 19 \\times 4 = 69$. **(B)**",
+   "options": [
+    "$65$",
+    "$69$",
+    "$73$",
+    "$77$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.6.1.6",
+    "11.6.1.1"
+   ],
+   "question": "The graph of $y = f(x)$ is shown, along with four options (A)–(D). Which of the following options best represents the graph of $y = f(-x) + 2$?",
+   "answer": "Reflect in the $y$-axis, then move up 2. $f(0) = 1$, so the new graph passes through $(0, 3)$; the minimum of $f$ near $(2, -1.4)$ becomes a minimum near $(-2, 0.6)$, and the minimum near $(-2, -0.5)$ becomes one near $(2, 1.5)$. Only (B) matches. **(B)**",
+   "options": [
+    "(A)",
+    "(B)",
+    "(C)",
+    "(D)"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/adv-2026-north-sydney-boys/q2.png"
+   ]
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.6.1.7",
+    "11.1.8.2"
+   ],
+   "question": "The equation $x^2 + y^2 - 2x + 6y + 6 = 0$ represents a circle with centre $C$ and radius $r$. Which of the following is correct?",
+   "answer": "Complete the squares: $(x - 1)^2 + (y + 3)^2 = -6 + 1 + 9 = 4$. Centre $(1, -3)$, radius $2$. **(A)**",
+   "options": [
+    "$C = (1, -3)$ and $r = 2$",
+    "$C = (1, -3)$ and $r = 4$",
+    "$C = (-1, 3)$ and $r = 2$",
+    "$C = (-1, 3)$ and $r = 4$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.5.2.6",
+    "11.5.2.5"
+   ],
+   "question": "Which of the following is equivalent to $-\\log_a\\left(\\dfrac xy\\right) - \\log_a y$?",
+   "answer": "$-\\log_a\\dfrac xy - \\log_a y = \\log_a\\dfrac yx - \\log_a y = \\log_a\\left(\\dfrac yx \\div y\\right) = \\log_a\\dfrac1x$. **(A)**",
+   "options": [
+    "$\\log_a\\left(\\dfrac1x\\right)$",
+    "$\\log_a\\left(\\dfrac1y\\right)$",
+    "$\\log_a\\left(\\dfrac{x}{y^2}\\right)$",
+    "$\\log_a\\left(\\dfrac yx\\right)$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.7.3.6",
+    "11.7.2.5"
+   ],
+   "question": "A fair spinner numbered 1 to 12 is spun once. Let $A$ be the event that the number spun is odd, and let $B$ be the event that the number spun is greater than 6. Which statement is true?",
+   "answer": "$P(A) = \\frac{6}{12} = \\frac12$, $P(B) = \\frac{6}{12} = \\frac12$, $A \\cap B = \\{7, 9, 11\\}$ so $P(A \\cap B) = \\frac14 = P(A)P(B)$: independent. Since $P(A \\cap B) \\ne 0$ they are not mutually exclusive. **(A)**",
+   "options": [
+    "$A$ and $B$ are independent.",
+    "$A$ and $B$ are mutually exclusive.",
+    "$A$ and $B$ are neither independent nor mutually exclusive.",
+    "$A$ and $B$ are both independent and mutually exclusive."
+   ],
+   "correct": "A"
+  },
   {
    "ref": "Q6",
    "kind": "mc",
@@ -31,6 +128,556 @@
     "$\\log_2(2t)$"
    ],
    "correct": "B"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.3.1.10",
+    "11.3.1.5"
+   ],
+   "question": "What is the number of solutions to the equation $\\sin 2x\\,(\\sec x - 1) = 0$ for $0 \\le x \\le 2\\pi$?",
+   "answer": "$\\sin 2x = 0 \\implies x = 0, \\frac\\pi2, \\pi, \\frac{3\\pi}{2}, 2\\pi$, but $\\sec x$ is undefined at $\\frac\\pi2$ and $\\frac{3\\pi}{2}$, so these are excluded. $\\sec x = 1 \\implies x = 0, 2\\pi$. Solutions: $x = 0, \\pi, 2\\pi$, i.e. 3. **(B)**",
+   "options": [
+    "$2$",
+    "$3$",
+    "$5$",
+    "$7$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.7.3.7",
+    "11.7.2.7"
+   ],
+   "question": "One day, at a particular school, $m$ students walked to school and the remaining $n$ students travelled to school using a different form of transport.\n\nOf the $m$ students who walked, 20% took at least 30 minutes to get to school. Of the $n$ students who used a different form of transport, 40% took at least 30 minutes to get to school.\n\nGiven that a randomly selected student took at least 30 minutes to get to school, the probability they walked to school is given by",
+   "answer": "$$P(W \\mid \\ge 30) = \\frac{0.2m}{0.2m + 0.4n} = \\frac{m}{m + 2n}.$$ **(D)**",
+   "options": [
+    "$\\dfrac{m}{m + n}$",
+    "$\\dfrac{2n}{m + n}$",
+    "$\\dfrac{m}{5(m + n)}$",
+    "$\\dfrac{m}{m + 2n}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.5.1.1",
+    "11.5.2.4"
+   ],
+   "question": "Let $f(x) = ae^{kx}$, where $a > 0$ and $k > 0$. Suppose that $f(p) = 3$ and $f(q) = 12$. What is the value of $f\\left(\\dfrac{p + q}{2}\\right)$?",
+   "answer": "$$f\\left(\\frac{p + q}{2}\\right) = ae^{\\frac{kp}{2}}e^{\\frac{kq}{2}} = \\sqrt{ae^{kp}} \\cdot \\sqrt{ae^{kq}} = \\sqrt{3 \\times 12} = 6.$$ **(A)**",
+   "options": [
+    "$6$",
+    "$7.5$",
+    "$6.5$",
+    "Cannot be determined with the given information."
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.8.10",
+    "12.4.8.1"
+   ],
+   "question": "What is the value of $\\displaystyle\\int_0^3 f(x)\\,dx$ given that $f(x) + f(3 - x) = 10$, for all $x \\in [0, 3]$?",
+   "answer": "$y = f(3 - x)$ is $y = f(x)$ reflected in $x = \\frac32$, so $\\displaystyle\\int_0^3 f(3 - x)\\,dx = \\int_0^3 f(x)\\,dx$. Hence\n$$2\\int_0^3 f(x)\\,dx = \\int_0^3 10\\,dx = 30 \\implies \\int_0^3 f(x)\\,dx = 15.$$ **(B)**",
+   "options": [
+    "$10$",
+    "$15$",
+    "$20$",
+    "$30$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q11",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.4",
+    "12.2.2.2"
+   ],
+   "question": "Find the sum of the following arithmetic series:\n$$2 + 5 + 8 + \\cdots + 53$$",
+   "answer": "$a = 2$, $d = 3$: $53 = 2 + 3(n - 1) \\implies n = 18$.\n$$S_{18} = \\frac{18}{2}(2 + 53) = 495.$$"
+  },
+  {
+   "ref": "Q12",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.11.6"
+   ],
+   "question": "Solve $|2x - 5| = 3$.",
+   "answer": "$2x - 5 = \\pm3 \\implies 2x = 8$ or $2x = 2 \\implies x = 4$ or $x = 1$."
+  },
+  {
+   "ref": "Q13",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.4.10",
+    "11.1.4.5"
+   ],
+   "question": "Solve $2x^2 + 5x - 12 > 0$.",
+   "answer": "$(2x - 3)(x + 4) > 0$. The parabola is concave up with roots $-4$ and $\\frac32$, so it is positive outside them:\n$$x < -4 \\quad\\text{or}\\quad x > \\frac32.$$"
+  },
+  {
+   "ref": "Q14",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.3.5",
+    "11.4.3.10"
+   ],
+   "question": "Find the equation of the tangent to the curve $f(x) = 6\\sqrt{x + 1} + 5$ at the point where $x = 8$.",
+   "answer": "$f'(x) = \\dfrac{3}{\\sqrt{x + 1}}$, so $f'(8) = 1$. $\\;f(8) = 6(3) + 5 = 23$.\n$$y - 23 = 1(x - 8) \\implies y = x + 15.$$"
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "Stations $A$ and $B$ are 40 km apart where station $B$ is due east of $A$. A flare at point $F$ is observed on a bearing of 055°T from $A$ and a bearing of 315°T from $B$.\n\nSketch a diagram showing the above information.",
+   "answer": "$\\angle FAB = 90^\\circ - 55^\\circ = 35^\\circ$, $\\;\\angle FBA = 315^\\circ - 270^\\circ = 45^\\circ$, so $\\angle AFB = 100^\\circ$.",
+   "answer_images": [
+    "assets/img/adv-2026-north-sydney-boys/q15a-sketch.png"
+   ]
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.10",
+    "11.2.2.4"
+   ],
+   "question": "Stations $A$ and $B$ are 40 km apart where station $B$ is due east of $A$. A flare at point $F$ is observed on a bearing of 055°T from $A$ and a bearing of 315°T from $B$.\n\nIn $\\triangle AFB$, $\\angle FAB = 35^\\circ$, $\\angle FBA = 45^\\circ$ and $\\angle AFB = 100^\\circ$. Find the distance from station $A$ to the flare.",
+   "answer": "Sine rule:\n$$\\frac{AF}{\\sin 45^\\circ} = \\frac{40}{\\sin 100^\\circ} \\implies AF = \\frac{40\\sin 45^\\circ}{\\sin 100^\\circ} \\approx 28.7\\ \\text{km}.$$"
+  },
+  {
+   "ref": "Q16",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.1",
+    "11.4.3.8"
+   ],
+   "question": "Differentiate $f(x) = x^2\\cos x$.",
+   "answer": "Product rule: $f'(x) = 2x\\cos x - x^2\\sin x$."
+  },
+  {
+   "ref": "Q17",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.9.8",
+    "11.1.9.3"
+   ],
+   "question": "Given $f(x) = \\sqrt{x + 1}$ and $g(x) = 2x - 3$, find the domain and range of $f(g(x))$.",
+   "answer": "$f(g(x)) = \\sqrt{(2x - 3) + 1} = \\sqrt{2x - 2}$.\n\nDomain: $2x - 2 \\ge 0 \\implies x \\ge 1$. $\\;$ Range: $y \\ge 0$."
+  },
+  {
+   "ref": "Q18",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.3.6",
+    "11.2.3.7",
+    "11.2.3.8"
+   ],
+   "question": "The diagram shows a sector $AOB$ of a circle with centre $O$ and radius $r$ cm. The angle $AOB$ is $\\theta$ radians.\n\nThe sector has an area of $9\\ \\text{cm}^2$ and perimeter 15 cm. Find the value of $\\theta$ and $r$.",
+   "answer": "$$\\tfrac12r^2\\theta = 9 \\;\\;(1), \\qquad 2r + r\\theta = 15 \\;\\;(2).$$\nFrom (1), $\\theta = \\dfrac{18}{r^2}$. Substituting into (2): $2r + \\dfrac{18}{r} = 15 \\implies 2r^2 - 15r + 18 = 0 \\implies (2r - 3)(r - 6) = 0$.\n\n$r = \\frac32$ gives $\\theta = 8 > 2\\pi$ (impossible), so $r = 6$ cm and $\\theta = \\dfrac12$.",
+   "images": [
+    "assets/img/adv-2026-north-sydney-boys/q18.png"
+   ]
+  },
+  {
+   "ref": "Q19",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.2.7",
+    "11.7.3.8"
+   ],
+   "question": "Adrian picks two notes at random from five \\$5, three \\$10 and two \\$20 notes. Find the probability that Adrian has picked a total of at least \\$20.",
+   "answer": "Totals of at least \\$20: \\$5 + \\$20, \\$10 + \\$10, \\$10 + \\$20, \\$20 + \\$20.\n$$P = 2\\cdot\\frac{5}{10}\\cdot\\frac29 + \\frac{3}{10}\\cdot\\frac29 + 2\\cdot\\frac{3}{10}\\cdot\\frac29 + \\frac{2}{10}\\cdot\\frac19 = \\frac{20 + 6 + 12 + 2}{90} = \\frac49.$$"
+  },
+  {
+   "ref": "Q20",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.6.3",
+    "12.4.8.1"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^1\\frac{4x + 2}{x^2 + x + 1}\\,dx$.",
+   "answer": "The numerator is $2 \\times \\dfrac{d}{dx}\\left(x^2 + x + 1\\right)$:\n$$\\int_0^1\\frac{2(2x + 1)}{x^2 + x + 1}\\,dx = 2\\Big[\\ln\\left(x^2 + x + 1\\right)\\Big]_0^1 = 2(\\ln 3 - \\ln 1) = 2\\ln 3.$$"
+  },
+  {
+   "ref": "Q21(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.2.11",
+    "11.6.1.6"
+   ],
+   "question": "Sketch the curve $y = \\ln(x + 1)$, showing all important features.",
+   "answer": "$y = \\ln x$ moved 1 unit left: vertical asymptote $x = -1$, passes through $(0, 0)$, increasing and concave down.",
+   "answer_images": [
+    "assets/img/adv-2026-north-sydney-boys/q21a-sketch.png"
+   ]
+  },
+  {
+   "ref": "Q21(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.8.11"
+   ],
+   "question": "Using the trapezoidal rule with 4 subintervals, estimate the value of $\\displaystyle\\int_1^3\\ln(x + 1)\\,dx$ correct to 3 decimal places.",
+   "answer": "$h = 0.5$, with $x = 1, 1.5, 2, 2.5, 3$:\n$$\\int_1^3\\ln(x + 1)\\,dx \\approx \\frac{0.5}{2}\\left[\\ln 2 + \\ln 4 + 2(\\ln 2.5 + \\ln 3 + \\ln 3.5)\\right] \\approx 2.154.$$"
+  },
+  {
+   "ref": "Q22",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.8",
+    "12.2.3.5",
+    "11.5.2.9"
+   ],
+   "question": "The amount of money gained by an entrepreneur doubles every day. On day 1, she earns \\$9 and on day 2 she earns \\$18. On which day will her cumulative earnings first exceed \\$1 000 000?",
+   "answer": "GP with $a = 9$, $r = 2$: $S_n = 9\\left(2^n - 1\\right)$.\n$$9\\left(2^n - 1\\right) > 1\\,000\\,000 \\implies 2^n > 111\\,112.1\\ldots \\implies n > \\log_2(111\\,112.1\\ldots) \\approx 16.76.$$\nHer cumulative earnings first exceed \\$1 000 000 on **day 17**."
+  },
+  {
+   "ref": "Q23",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.1.12",
+    "11.3.1.11"
+   ],
+   "question": "Prove that\n$$\\frac{\\sin x}{1 + \\cos x} + \\frac{1 + \\cos x}{\\sin x} = 2\\operatorname{cosec}x.$$",
+   "answer": "$$\\begin{aligned}\n\\text{LHS} &= \\frac{\\sin^2x + (1 + \\cos x)^2}{\\sin x(1 + \\cos x)} = \\frac{\\sin^2x + 1 + 2\\cos x + \\cos^2x}{\\sin x(1 + \\cos x)}\\\\\n&= \\frac{2 + 2\\cos x}{\\sin x(1 + \\cos x)} = \\frac{2}{\\sin x} = 2\\operatorname{cosec}x = \\text{RHS}.\n\\end{aligned}$$"
+  },
+  {
+   "ref": "Q24(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.3"
+   ],
+   "question": "A farmer has a large patch of land, on which he needs to build two fenced-in, rectangular areas as shown in the diagram: a rectangle of height $x$ m divided into two by an internal fence of length $x$ m parallel to the ends.\n\nGiven the farmer has 260 m of fencing, show that the total area of the two rectangles is given by\n$$A = 130x - \\frac{3x^2}{2}.$$",
+   "answer": "Let the total horizontal length be $L$. The fencing is two lengths and three heights: $2L + 3x = 260 \\implies L = 130 - \\dfrac{3x}{2}$.\n$$A = xL = x\\left(130 - \\frac{3x}{2}\\right) = 130x - \\frac{3x^2}{2}.$$",
+   "images": [
+    "assets/img/adv-2026-north-sydney-boys/q24.png"
+   ]
+  },
+  {
+   "ref": "Q24(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.5.1.8"
+   ],
+   "question": "A farmer has a large patch of land, on which he needs to build two fenced-in, rectangular areas as shown in the diagram: a rectangle of height $x$ m divided into two by an internal fence of length $x$ m parallel to the ends.\n\nThe total area is $A = 130x - \\dfrac{3x^2}{2}$. Hence or otherwise, find the maximum area of the paddock, showing that it is a maximum area.",
+   "answer": "$A' = 130 - 3x = 0 \\implies x = \\dfrac{130}{3}$. $\\;A'' = -3 < 0$, so this gives the maximum.\n$$A_{\\max} = 130\\left(\\frac{130}{3}\\right) - \\frac32\\left(\\frac{130}{3}\\right)^2 = \\frac{8450}{3} \\approx 2816.7\\ \\text{m}^2.$$",
+   "images": [
+    "assets/img/adv-2026-north-sydney-boys/q24.png"
+   ]
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.7.2.5"
+   ],
+   "question": "In a survey of 200 students:\n- 120 play soccer\n- 90 play basketball\n- 170 play at least one of the two sports.\n\nBy finding the number of students that play both sports, draw a Venn diagram showing all the relevant information.",
+   "answer": "$n(S \\cap B) = 120 + 90 - 170 = 40$.\n\nVenn diagram regions: soccer only $80$, both $40$, basketball only $50$, neither $200 - 170 = 30$."
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.7.2.7",
+    "11.7.2.6"
+   ],
+   "question": "In a survey of 200 students:\n- 120 play soccer\n- 90 play basketball\n- 170 play at least one of the two sports.\n\n80 students play soccer only, 40 play both, 50 play basketball only and 30 play neither. Two students are randomly selected without replacement. Find the probability that at least one of them plays exactly one of the two sports.",
+   "answer": "$80 + 50 = 130$ play exactly one sport, so $70$ do not.\n$$P = 1 - \\frac{70}{200} \\times \\frac{69}{199} = 1 - \\frac{4830}{39\\,800} = \\frac{3497}{3980}.$$"
+  },
+  {
+   "ref": "Q26(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "In the triangle $ABC$, $AB = x$ cm, $BC = y$ cm, $AC = 14$ cm and $\\angle ABC = 120^\\circ$.\n\nShow that $x^2 + y^2 + xy = 196$.",
+   "answer": "Cosine rule: $14^2 = x^2 + y^2 - 2xy\\cos 120^\\circ = x^2 + y^2 + xy$ (since $\\cos 120^\\circ = -\\frac12$). So $x^2 + y^2 + xy = 196$.",
+   "images": [
+    "assets/img/adv-2026-north-sydney-boys/q26.png"
+   ]
+  },
+  {
+   "ref": "Q26(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "In the triangle $ABC$, $AB = x$ cm, $BC = y$ cm, $AC = 14$ cm and $\\angle ABC = 120^\\circ$.\n\n$x^2 + y^2 + xy = 196$. Given that the perimeter of triangle $ABC$ is 30 cm, find the exact area of triangle $ABC$.",
+   "answer": "$x + y + 14 = 30 \\implies x + y = 16 \\implies x^2 + 2xy + y^2 = 256$. Subtracting $x^2 + y^2 + xy = 196$: $xy = 60$.\n$$A = \\frac12xy\\sin 120^\\circ = \\frac12 \\times 60 \\times \\frac{\\sqrt3}{2} = 15\\sqrt3\\ \\text{cm}^2.$$",
+   "images": [
+    "assets/img/adv-2026-north-sydney-boys/q26.png"
+   ]
+  },
+  {
+   "ref": "Q27",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.9.5",
+    "11.1.9.6"
+   ],
+   "question": "Let $f(x) = \\dfrac{1}{e^x + 1}$ and $g(x) = f(x) - \\dfrac12$. Prove that $g(x)$ is an odd function.",
+   "answer": "$$g(-x) = \\frac{1}{e^{-x} + 1} - \\frac12 = \\frac{e^x}{1 + e^x} - \\frac12 = \\frac{2e^x - (1 + e^x)}{2(1 + e^x)} = \\frac{e^x - 1}{2(e^x + 1)}.$$\n$$-g(x) = \\frac12 - \\frac{1}{e^x + 1} = \\frac{e^x + 1 - 2}{2(e^x + 1)} = \\frac{e^x - 1}{2(e^x + 1)}.$$\nSo $g(-x) = -g(x)$ and $g$ is odd."
+  },
+  {
+   "ref": "Q28",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.2.9",
+    "11.1.4.4"
+   ],
+   "question": "Solve $\\ln\\left(6e^x + 1\\right) + x = 0$, writing your answer in logarithmic form.",
+   "answer": "$$\\ln\\left(6e^x + 1\\right) = -x \\implies 6e^x + 1 = e^{-x} \\implies 6e^{2x} + e^x - 1 = 0.$$\nLet $u = e^x$: $6u^2 + u - 1 = 0 \\implies (3u - 1)(2u + 1) = 0$. Since $e^x > 0$, $e^x = \\frac13$:\n$$x = \\ln\\frac13 = -\\ln 3.$$"
+  },
+  {
+   "ref": "Q29(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.10",
+    "11.5.2.9"
+   ],
+   "question": "A particle, $P$, travels in a straight line from $O$ such that its velocity, $v$ m/s, at time $t$ seconds after passing $O$ is given by\n$$v = 24\\left(e^{-\\frac t6} - \\frac1e\\right).$$\n\nFind the value of $t$ at which the particle $P$ is instantaneously at rest.",
+   "answer": "$e^{-\\frac t6} = \\frac1e = e^{-1} \\implies \\frac t6 = 1 \\implies t = 6$."
+  },
+  {
+   "ref": "Q29(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.10",
+    "12.4.7.2"
+   ],
+   "question": "A particle, $P$, travels in a straight line from $O$ such that its velocity, $v$ m/s, at time $t$ seconds after passing $O$ is given by\n$$v = 24\\left(e^{-\\frac t6} - \\frac1e\\right).$$\n\nThe particle is at rest only at $t = 6$ (moving forward before, backward after). Find the total distance travelled by the particle $P$ for the first 9 seconds to the nearest metre.",
+   "answer": "$$x = 24\\int\\left(e^{-\\frac t6} - \\frac1e\\right)dt = -144e^{-\\frac t6} - \\frac{24t}{e} + C.$$\n$x(0) = -144 + C$, $\\;x(6) = -\\dfrac{288}{e} + C$, $\\;x(9) = -144e^{-\\frac32} - \\dfrac{216}{e} + C$.\n\nDistance $0 \\to 6$: $x(6) - x(0) = 144 - \\dfrac{288}{e}$. $\\;$ Distance $6 \\to 9$ (moving backwards): $x(6) - x(9) = 144e^{-\\frac32} - \\dfrac{72}{e}$.\n$$\\text{Total} = 144 - \\frac{360}{e} + 144e^{-\\frac32} \\approx 44\\ \\text{m}.$$"
+  },
+  {
+   "ref": "Q30(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.1",
+    "12.3.3.1"
+   ],
+   "question": "Show that\n$$\\frac{d}{dx}\\left(\\frac{\\sin x - \\cos x}{\\sin x + \\cos x}\\right) = \\frac{2}{(\\sin x + \\cos x)^2}.$$",
+   "answer": "Quotient rule with $u = \\sin x - \\cos x$, $u' = \\cos x + \\sin x$, $v = \\sin x + \\cos x$, $v' = \\cos x - \\sin x$:\n$$\\frac{(\\sin x + \\cos x)^2 + (\\sin x - \\cos x)^2}{(\\sin x + \\cos x)^2} = \\frac{2\\left(\\sin^2x + \\cos^2x\\right)}{(\\sin x + \\cos x)^2} = \\frac{2}{(\\sin x + \\cos x)^2}.$$"
+  },
+  {
+   "ref": "Q30(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.8.1",
+    "12.4.6.1",
+    "12.4.1.1"
+   ],
+   "question": "Given $\\dfrac{d}{dx}\\left(\\dfrac{\\sin x - \\cos x}{\\sin x + \\cos x}\\right) = \\dfrac{2}{(\\sin x + \\cos x)^2}$, hence evaluate\n$$\\int_0^{\\frac\\pi4}\\frac{\\sin x - \\cos x + 2}{(\\sin x + \\cos x)^2}\\,dx.$$",
+   "answer": "Split the integral. Since $\\dfrac{d}{dx}(\\sin x + \\cos x) = \\cos x - \\sin x$,\n$$\\int\\frac{\\sin x - \\cos x}{(\\sin x + \\cos x)^2}\\,dx = \\frac{1}{\\sin x + \\cos x} + C.$$\n$$I = \\left[\\frac{1}{\\sin x + \\cos x}\\right]_0^{\\frac\\pi4} + \\left[\\frac{\\sin x - \\cos x}{\\sin x + \\cos x}\\right]_0^{\\frac\\pi4} = \\left(\\frac{1}{\\sqrt2} - 1\\right) + (0 - (-1)) = \\frac{\\sqrt2}{2}.$$"
+  },
+  {
+   "ref": "Q31(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.4",
+    "12.3.2.3"
+   ],
+   "question": "Consider the function $f(x) = \\ln\\left(x^2 + 1\\right) - x$.\n\nFind the stationary point(s) and determine their nature.",
+   "answer": "$$f'(x) = \\frac{2x}{x^2 + 1} - 1 = -\\frac{(x - 1)^2}{x^2 + 1}.$$\n$f'(x) = 0 \\implies x = 1$, $y = \\ln 2 - 1$. $f'(x) \\le 0$ on both sides of $x = 1$ (e.g. $f'(0) = -1$, $f'(2) = -\\frac15$), so $(1, \\ln 2 - 1)$ is a **horizontal point of inflection**."
+  },
+  {
+   "ref": "Q31(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.7",
+    "12.3.4.1"
+   ],
+   "question": "Consider the function $f(x) = \\ln\\left(x^2 + 1\\right) - x$.\n\n$f'(x) = \\dfrac{2x}{x^2 + 1} - 1$, with a horizontal point of inflection at $(1, \\ln 2 - 1)$. Find the point(s) of inflection.",
+   "answer": "$$f''(x) = \\frac{2\\left(x^2 + 1\\right) - 2x \\cdot 2x}{\\left(x^2 + 1\\right)^2} = \\frac{2(1 - x)(1 + x)}{\\left(x^2 + 1\\right)^2}.$$\n$f''(x) = 0$ at $x = \\pm1$, and $f''$ changes sign at each. Points of inflection: $(1, \\ln 2 - 1)$ (horizontal) and $(-1, \\ln 2 + 1)$."
+  },
+  {
+   "ref": "Q31(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.9"
+   ],
+   "question": "Consider the function $f(x) = \\ln\\left(x^2 + 1\\right) - x$.\n\n$f$ is decreasing, with a horizontal point of inflection at $(1, \\ln 2 - 1)$ and a point of inflection at $(-1, \\ln 2 + 1)$. Sketch the graph of $y = f(x)$, for $-2 \\le x \\le 2$, showing all important features.",
+   "answer": "Endpoints $(-2, \\ln 5 + 2)$ and $(2, \\ln 5 - 2)$; passes through the origin; decreasing throughout.",
+   "answer_images": [
+    "assets/img/adv-2026-north-sydney-boys/q31c-sketch.png"
+   ]
+  },
+  {
+   "ref": "Q32",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.1.3"
+   ],
+   "question": "The temperature $T$ °C inside a greenhouse is modelled by\n$$T = 20 - 8\\cos\\left(\\frac{\\pi}{12}(t - 4)\\right)$$\nwhere $t$ is the number of hours after midnight. An automatic shade cloth is deployed whenever the temperature exceeds 26 °C. Determine the total amount of time each day that the shade cloth is deployed.",
+   "answer": "Period $= \\dfrac{2\\pi}{\\pi/12} = 24$ hours. Solve $T = 26$:\n$$\\cos\\left(\\frac{\\pi}{12}(t - 4)\\right) = -\\frac34.$$\nWith $-\\frac\\pi3 \\le \\frac\\pi{12}(t - 4) \\le \\frac{5\\pi}{3}$ (second and third quadrants):\n$$\\frac\\pi{12}(t - 4) = \\pi \\mp \\cos^{-1}\\frac34 \\implies t = 16 \\mp \\frac{12}{\\pi}\\cos^{-1}\\frac34 \\approx 13.239 \\text{ or } 18.761.$$\n$T > 26$ between these times (e.g. $T(14) \\approx 26.9$), so the shade cloth is out for $\\dfrac{24}{\\pi}\\cos^{-1}\\dfrac34 \\approx 5.52$ hours each day."
+  },
+  {
+   "ref": "Q33(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Consider the graphs of $y = -2\\cos 3x + 1$ and $y = -\\dfrac2\\pi x + 1$ for $0 \\le x \\le \\pi$.\n\nSketch the graphs of $y = -2\\cos 3x + 1$ and $y = -\\dfrac2\\pi x + 1$ on the same axes, for $0 \\le x \\le \\pi$.",
+   "answer": "$y = -2\\cos 3x + 1$: period $\\frac{2\\pi}{3}$, range $[-1, 3]$, starts at $(0, -1)$, maxima at $x = \\frac\\pi3, \\pi$, minimum at $x = \\frac{2\\pi}{3}$, $x$-intercepts at $\\frac\\pi9, \\frac{5\\pi}{9}, \\frac{7\\pi}{9}$.\n\nThe line passes through $(0, 1)$, $\\left(\\frac\\pi2, 0\\right)$ and $(\\pi, -1)$.",
+   "answer_images": [
+    "assets/img/adv-2026-north-sydney-boys/q33a-sketch.png"
+   ]
+  },
+  {
+   "ref": "Q33(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "Consider the graphs of $y = -2\\cos 3x + 1$ and $y = -\\dfrac2\\pi x + 1$ for $0 \\le x \\le \\pi$.\n\nExplain how the number of solutions for $2\\cos 3x = \\dfrac2\\pi x$ can be found using the graphs drawn in part (a).",
+   "answer": "$2\\cos 3x = \\dfrac2\\pi x \\iff -2\\cos 3x + 1 = -\\dfrac2\\pi x + 1$, so the number of solutions equals the number of intersection points of the two graphs (three, for $0 \\le x \\le \\pi$).",
+   "answer_images": [
+    "assets/img/adv-2026-north-sydney-boys/q33a-sketch.png"
+   ]
+  },
+  {
+   "ref": "Q34",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.6.1.6"
+   ],
+   "question": "Let $g$ be the function obtained from $f$ by a sequence of transformations such that\n$$g(x) = af(b - x) + c.$$\nThe point $(2, 5)$ on the graph of $y = f(x)$ corresponds to the point $(7, -11)$ on the graph of $y = g(x)$.\n\nThe point $(4, 1)$ on the graph of $y = f(x)$ corresponds to the point $(5, -3)$ on the graph of $y = g(x)$.\n\nFind the values of $a$, $b$ and $c$.",
+   "answer": "A point $(p, f(p))$ maps to the $x$ with $b - x = p$, i.e. $(b - p,\\ af(p) + c)$.\n\n$(2, 5) \\to (b - 2, 5a + c) = (7, -11)$: $b = 9$ and $5a + c = -11$.\n\n$(4, 1) \\to (b - 4, a + c) = (5, -3)$: consistent with $b = 9$, and $a + c = -3$.\n\nSubtracting: $4a = -8 \\implies a = -2$, $c = -1$. So $a = -2$, $b = 9$, $c = -1$."
+  },
+  {
+   "ref": "Q35(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.2",
+    "12.4.7.2"
+   ],
+   "question": "Let $f(x) = \\dfrac{1}{(1 + x)^2}$, $x \\ge 0$. The shaded region $A_n$ is bounded by the curve $y = f(x)$, the $x$-axis, and the vertical lines $x = 2^{n-1} - 1$ and $x = 2^n - 1$.\n\nShow that $A_n = \\dfrac{1}{2^n}$.",
+   "answer": "$$A_n = \\int_{2^{n-1} - 1}^{2^n - 1}(1 + x)^{-2}\\,dx = \\left[-\\frac{1}{1 + x}\\right]_{2^{n-1} - 1}^{2^n - 1} = -\\frac{1}{2^n} + \\frac{1}{2^{n-1}} = \\frac{2 - 1}{2^n} = \\frac{1}{2^n}.$$",
+   "images": [
+    "assets/img/adv-2026-north-sydney-boys/q35.png"
+   ]
+  },
+  {
+   "ref": "Q35(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.3.7"
+   ],
+   "question": "Let $f(x) = \\dfrac{1}{(1 + x)^2}$, $x \\ge 0$. The shaded region $A_n$ is bounded by the curve $y = f(x)$, the $x$-axis, and the vertical lines $x = 2^{n-1} - 1$ and $x = 2^n - 1$.\n\nGiven $A_n = \\dfrac{1}{2^n}$, show that $A_n = A_{n+1} + A_{n+2} + A_{n+3} + \\cdots$.",
+   "answer": "The right side is a geometric series with $a = \\dfrac{1}{2^{n+1}}$ and $r = \\frac12$:\n$$A_{n+1} + A_{n+2} + \\cdots = \\frac{\\frac{1}{2^{n+1}}}{1 - \\frac12} = \\frac{1}{2^n} = A_n.$$",
+   "images": [
+    "assets/img/adv-2026-north-sydney-boys/q35.png"
+   ]
+  },
+  {
+   "ref": "Q35(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.2.3.7",
+    "12.2.1.6"
+   ],
+   "question": "Let $f(x) = \\dfrac{1}{(1 + x)^2}$, $x \\ge 0$. The shaded region $A_n$ is bounded by the curve $y = f(x)$, the $x$-axis, and the vertical lines $x = 2^{n-1} - 1$ and $x = 2^n - 1$.\n\nGiven $A_n = \\dfrac{1}{2^n}$ and $A_n = A_{n+1} + A_{n+2} + \\cdots$, find the value of $S$ given that $S = A_1 + 2A_2 + 3A_3 + 4A_4 + \\cdots$.",
+   "answer": "Regroup $S$ as a sum of tails:\n$$S = (A_1 + A_2 + A_3 + \\cdots) + (A_2 + A_3 + \\cdots) + (A_3 + A_4 + \\cdots) + \\cdots$$\nBy part (b), the tail starting at $A_k$ equals $A_{k-1} = \\frac{1}{2^{k-1}}$ (and the first tail is $\\frac{1/2}{1 - 1/2} = 1$):\n$$S = 1 + \\frac12 + \\frac14 + \\cdots = \\frac{1}{1 - \\frac12} = 2.$$",
+   "images": [
+    "assets/img/adv-2026-north-sydney-boys/q35.png"
+   ]
   }
  ]
 }
