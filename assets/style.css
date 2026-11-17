@@ -467,3 +467,10 @@ article.q,.topic-h,.sub-h,.dp-h{scroll-margin-top:140px}
 @media (max-width:520px){.opts.short:has(.katex){grid-template-columns:1fr}}
 html.panel-open,html.panel-open body{overflow:hidden}
 .drawer .body{overscroll-behavior:contain}
+.sheet-btn{text-decoration:none;color:var(--ink);white-space:nowrap}
+.sheet-btn:hover{border-color:var(--accent)}
+@media (max-width:700px){.topbar-inner .sheet-btn{order:3}}
+@media (max-width:700px){
+  .topbar-inner .filters-btn,.topbar-inner .basket-btn{padding:5px 10px;font-size:13px}
+  .topbar-inner .basket-btn b{margin-left:4px}
+}

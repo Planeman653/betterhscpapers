@@ -10,6 +10,20 @@ COURSES = [("advanced", "Mathematics Advanced", "Advanced"),
            ("chemistry", "Chemistry", "Chemistry"),
            ("biology", "Biology", "Biology")]
 
+# NESA's official HSC reference / formula sheets (Biology has none)
+MATHS_SHEET = "https://www.nsw.gov.au/sites/default/files/noindex/2025-05/mathematics-advanced-ext1-ext2-reference-sheet-nov2019.pdf"
+SHEETS = {"advanced": ("Reference sheet", MATHS_SHEET), "extension1": ("Reference sheet", MATHS_SHEET), "extension2": ("Reference sheet", MATHS_SHEET),
+          "physics": ("Formula sheet", "https://www.nsw.gov.au/sites/default/files/noindex/2025-03/physics-formulae-sheet-data-sheet-periodic-table-hsc-exams-2019.pdf"),
+          "chemistry": ("Formula sheet", "https://www.nsw.gov.au/sites/default/files/noindex/2025-03/chemistry-formulae-sheet-data-sheet-periodic-table-hsc-exams-2019.pdf")}
+
+
+def sheet_btn(course):
+    if course not in SHEETS:
+        return ""
+    label, url = SHEETS[course]
+    return f'<a class="basket-btn sheet-btn" href="{url}" target="_blank" rel="noopener" title="NESA\'s official HSC {label.lower()} (PDF, opens in a new tab)">📄 {label}</a>'
+
+
 HEAD = """<!doctype html>
 <html lang="en">
 <head>
@@ -41,6 +55,7 @@ BODY = """
   <nav class="tabs">{tabs}</nav>
   <span class="spacer"></span>
   <button class="filters-btn" id="filters-open">Filters</button>
+  {sheet}
   <button class="basket-btn" id="basket-open">PDF builder<b id="basket-n">0</b></button>
 </div></header>
 
@@ -133,7 +148,7 @@ BODY = """
 """
 
 for course, name, short in COURSES:
-    html = HEAD.format(title=f"HSC {name} — Better HSC Papers", name=name) + BODY.format(course=course, name=name, tabs=tabs(course),
+    html = HEAD.format(title=f"HSC {name} — Better HSC Papers", name=name) + BODY.format(course=course, name=name, tabs=tabs(course), sheet=sheet_btn(course),
         unit="module" if course in ("physics", "chemistry", "biology") else "topic",
         subunit="inquiry question" if course in ("physics", "chemistry", "biology") else "subtopic")
     open(os.path.join(ROOT, f"{course}.html"), "w").write(html)
