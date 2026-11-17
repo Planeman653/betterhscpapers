@@ -37,6 +37,7 @@ HEAD = """<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png"><link rel="apple-touch-icon" href="apple-touch-icon.png">
 <title>{title}</title>
 <meta name="description" content="HSC {name} trial-paper questions sorted by syllabus topic and dot point, with answers and a PDF builder.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -59,7 +60,7 @@ def tabs(active):
 BODY = """
 <body data-course="{course}">
 <header class="topbar"><div class="topbar-inner">
-  <a class="brand" href="index.html">Better <span>HSC Papers</span></a>
+  <a class="brand" href="index.html"><img class="brand-mark" src="assets/logo.svg" alt="" width="24" height="24">Better <span>HSC Papers</span></a>
   <nav class="tabs">{tabs}</nav>
   <span class="spacer"></span>
   <button class="filters-btn" id="filters-open">Filters</button>
