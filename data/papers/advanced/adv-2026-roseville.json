@@ -6,13 +6,197 @@
  "type": "Trial",
  "thsc": {
   "viewno": "5328",
-  "title": "Roseville 2026 Mathematics Advanced Trial"
+  "title": "Roseville 2026 w. sol"
  },
  "indexed": "2026-11-17",
  "answers": "worked",
- "partial": true,
- "dropped": [],
+ "dropped": [
+  {
+   "ref": "Q3",
+   "reason": "Not in 2024 syllabus: Pearson's correlation coefficient (bivariate data)"
+  },
+  {
+   "ref": "Q15",
+   "reason": "Not in 2024 syllabus: box plots, skew and interquartile range"
+  },
+  {
+   "ref": "Q29",
+   "reason": "Not in 2024 syllabus: scatterplot and line of best fit (bivariate data)"
+  }
+ ],
  "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.3.4",
+    "11.1.3.2"
+   ],
+   "question": "The diagram shows a line with $y$-intercept 6 and $x$-intercept 9. What is the equation of the line?",
+   "answer": "Gradient $= -\\dfrac69 = -\\dfrac23$, $y$-intercept 6: $y = -\\frac23x + 6 \\implies 2x + 3y - 18 = 0$. **(C)**",
+   "options": [
+    "$2x - 3y - 18 = 0$",
+    "$2x - 3y + 6 = 0$",
+    "$2x + 3y - 18 = 0$",
+    "$2x + 3y + 6 = 0$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/adv-2026-roseville/q1.png"
+   ]
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.7.2.7",
+    "11.7.2.3"
+   ],
+   "question": "A six-sided die and a four-sided die are rolled together and their scores added. The table below has been started to determine the sample space.\n\n| Scores | 1 | 2 | 3 | 4 | 5 | 6 |\n|---|---|---|---|---|---|---|\n| **1** | 2 | 3 | 4 | 5 | 6 | 7 |\n| **2** | 3 | 4 | 5 | | | |\n| **3** | 4 | | | | | |\n| **4** | 5 | | | | | |\n\nComplete the table and find the probability that on a single roll of the two dice the sum of their scores is 7 or 8.",
+   "answer": "There are $6 \\times 4 = 24$ outcomes. Sum 7: $(6,1), (5,2), (4,3), (3,4)$; sum 8: $(6,2), (5,3), (4,4)$. Probability $\\dfrac{7}{24}$. **(C)**",
+   "options": [
+    "$\\dfrac{5}{24}$",
+    "$\\dfrac14$",
+    "$\\dfrac{7}{24}$",
+    "$\\dfrac13$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.3.5"
+   ],
+   "question": "What is the equation of the tangent to the curve $y = x^3 - 2x^2$ at the point where $x = 2$?",
+   "answer": "$y' = 3x^2 - 4x = 4$ at $x = 2$, and $y(2) = 0$: $y = 4(x - 2) = 4x - 8$. **(D)**",
+   "options": [
+    "$y = 0$",
+    "$y = 2x - 4$",
+    "$y = 2x - 8$",
+    "$y = 4x - 8$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.6.3",
+    "12.4.8.1"
+   ],
+   "question": "What is the value of $\\displaystyle\\int_0^1\\frac{2x}{x^2 + 1}\\,dx$?",
+   "answer": "$\\Big[\\ln\\left(x^2 + 1\\right)\\Big]_0^1 = \\ln 2 - \\ln 1 = \\ln 2$. **(C)**",
+   "options": [
+    "$\\dfrac34$",
+    "$\\ln\\left(\\dfrac34\\right)$",
+    "$\\ln(2)$",
+    "$2$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.3.1.13"
+   ],
+   "question": "What are the solutions to $2\\sin^2x - \\sin x - 1 = 0$ for the domain $[0, 2\\pi]$?",
+   "answer": "$(2\\sin x + 1)(\\sin x - 1) = 0$. $\\sin x = 1 \\implies x = \\frac\\pi2$; $\\sin x = -\\frac12 \\implies x = \\frac{7\\pi}{6}, \\frac{11\\pi}{6}$. **(D)**",
+   "options": [
+    "$x = \\frac\\pi6, \\frac{5\\pi}{6}$ and $\\frac\\pi2$",
+    "$x = \\frac\\pi6, \\frac\\pi2$ and $\\frac{7\\pi}{6}$",
+    "$x = \\frac{5\\pi}{6}, \\frac{3\\pi}{2}$ and $\\frac{11\\pi}{6}$",
+    "$x = \\frac\\pi2, \\frac{7\\pi}{6}$ and $\\frac{11\\pi}{6}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.4.11",
+    "11.1.2.11"
+   ],
+   "question": "Given that $P(x) = x(x + 1)^2(x - 2)(x - 3)$, which graph accurately shows $y = P(x)$?",
+   "answer": "Degree 5 with positive leading coefficient: falls to the left, rises to the right. It touches the $x$-axis at the double root $x = -1$ and crosses at $x = 0, 2, 3$. Only (B) has all of these. **(B)**",
+   "options": [
+    "![Graph A](assets/img/adv-2026-roseville/q7a.png)",
+    "![Graph B](assets/img/adv-2026-roseville/q7b.png)",
+    "![Graph C](assets/img/adv-2026-roseville/q7c.png)",
+    "![Graph D](assets/img/adv-2026-roseville/q7d.png)"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.1.5"
+   ],
+   "question": "For which domain is the curve $y = x^4 - 4x^3 + 12x$ concave down?",
+   "answer": "$y'' = 12x^2 - 24x = 12x(x - 2) < 0 \\iff 0 < x < 2$. **(B)**",
+   "options": [
+    "$(-\\infty, 0)$",
+    "$(0, 2)$",
+    "$(2, \\infty)$",
+    "$(-\\infty, 0) \\cup (2, \\infty)$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "The graph shows a transformation of the curve $y = \\cos x$: it has a maximum of 5 at $x = \\frac\\pi2$ and a minimum of $-1$ at $x = \\frac{3\\pi}{2}$. Which equation could describe the curve?",
+   "answer": "Amplitude $\\frac{5 - (-1)}{2} = 3$, centre $y = 2$, period $2\\pi$, and the maximum of $\\cos$ (normally at $x = 0$) is moved to $x = \\frac\\pi2$: $y = 3\\cos\\left(x - \\frac\\pi2\\right) + 2$. **(A)**",
+   "options": [
+    "$y = 3\\cos\\left(x - \\frac\\pi2\\right) + 2$",
+    "$y = \\cos\\left(3x - \\frac\\pi2\\right) + 2$",
+    "$y = 2\\cos\\left(x + \\frac\\pi2\\right) + 3$",
+    "$y = 3\\cos\\left(x + \\frac\\pi2\\right) + 2$"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/adv-2026-roseville/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.7.3.8"
+   ],
+   "question": "When playing darts, on each throw, Keith has a probability of 0.88 of hitting the section of the board at which he is aiming. What is the probability that he will miss the section of the board at which he is aiming in three successive throws?",
+   "answer": "$P(\\text{miss}) = 0.12$, so $0.12^3 = 0.001728 \\approx 0.0017$. **(A)**",
+   "options": [
+    "$0.0017$",
+    "$0.014$",
+    "$0.15$",
+    "$0.68$"
+   ],
+   "correct": "A"
+  },
   {
    "ref": "Q11",
    "kind": "written",
@@ -24,6 +208,599 @@
    ],
    "question": "Find the gradient of the normal to the curve $y = 4^x$ at the point where $x = 1$.",
    "answer": "$\\dfrac{dy}{dx} = (\\ln 4)\\,4^x$. At $x = 1$, the gradient of the tangent is $4\\ln 4$, so the gradient of the normal is\n$$-\\frac{1}{4\\ln 4} = -\\frac{1}{\\ln 256}.$$"
+  },
+  {
+   "ref": "Q12",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.1.4"
+   ],
+   "question": "Solve the equation $x\\sqrt{12} = 4\\sqrt3 - \\sqrt{27}$, giving your answer in its simplest form.",
+   "answer": "$2\\sqrt3\\,x = 4\\sqrt3 - 3\\sqrt3 = \\sqrt3 \\implies x = \\dfrac12$."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Find $\\displaystyle\\int\\left(10x^4 - 3\\sqrt x\\right)dx$.",
+   "answer": "$$\\int\\left(10x^4 - 3x^{\\frac12}\\right)dx = 2x^5 - 3 \\cdot \\frac23x^{\\frac32} + C = 2x^5 - 2x\\sqrt x + C.$$"
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.5.2",
+    "12.4.8.1"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_2^3 e^{2x - 4}\\,dx$.",
+   "answer": "$$\\left[\\frac12e^{2x - 4}\\right]_2^3 = \\frac12e^2 - \\frac12e^0 = \\frac{e^2 - 1}{2}.$$"
+  },
+  {
+   "ref": "Q14",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.2.9",
+    "11.5.2.7"
+   ],
+   "question": "Solve $\\log_3\\left(x^2 - 4x + 4\\right) = 1 + \\log_3(x - 2)$.",
+   "answer": "For the logs to exist, $x > 2$. Then $\\log_3(x - 2)^2 = 2\\log_3(x - 2)$:\n$$2\\log_3(x - 2) = 1 + \\log_3(x - 2) \\implies \\log_3(x - 2) = 1 \\implies x - 2 = 3 \\implies x = 5.$$"
+  },
+  {
+   "ref": "Q16(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.1.2"
+   ],
+   "question": "The diagram shows the cross-section of a valley. $A$ and $C$ are the points at the top of each side of the valley, and $B$ is the lowest point in the valley. $D$ is the point vertically above $B$ and horizontally level with $A$.\n\nFrom $B$ the angle of elevation of $C$ is $36^\\circ$ and from $C$ the angle of depression of $D$ is $15^\\circ$. The distance $AB = 314$ m and $AD = 240$ m.\n\nCalculate the distance $BD$ correct to the nearest metre.",
+   "answer": "$\\triangle ABD$ is right-angled at $D$: $BD = \\sqrt{314^2 - 240^2} = \\sqrt{40\\,996} \\approx 202$ m.",
+   "images": [
+    "assets/img/adv-2026-roseville/q16.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.10",
+    "11.2.1.2"
+   ],
+   "question": "The diagram shows the cross-section of a valley. $A$ and $C$ are the points at the top of each side of the valley, and $B$ is the lowest point in the valley. $D$ is the point vertically above $B$ and horizontally level with $A$.\n\nFrom $B$ the angle of elevation of $C$ is $36^\\circ$ and from $C$ the angle of depression of $D$ is $15^\\circ$. The distance $AB = 314$ m and $AD = 240$ m.\n\n$BD \\approx 202.47$ m. Calculate the distance $CD$ correct to the nearest metre.",
+   "answer": "In $\\triangle CBD$: $\\angle DBC = 90^\\circ - 36^\\circ = 54^\\circ$ and $\\angle BCD = 36^\\circ - 15^\\circ = 21^\\circ$ (angle of elevation of $C$ from $B$ minus angle of depression of $D$ from $C$). Sine rule:\n$$\\frac{CD}{\\sin 54^\\circ} = \\frac{BD}{\\sin 21^\\circ} \\implies CD = \\frac{202.47\\sin 54^\\circ}{\\sin 21^\\circ} \\approx 457\\ \\text{m}.$$",
+   "images": [
+    "assets/img/adv-2026-roseville/q16.png"
+   ]
+  },
+  {
+   "ref": "Q17(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.1",
+    "12.3.3.1"
+   ],
+   "question": "Find $\\dfrac{d}{dx}\\left(x^4\\sin x\\right)$.",
+   "answer": "$\\dfrac{d}{dx}\\left(x^4\\sin x\\right) = x^4\\cos x + 4x^3\\sin x$."
+  },
+  {
+   "ref": "Q17(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.1",
+    "12.3.1.1"
+   ],
+   "question": "If $y = \\dfrac{x^2 - 4}{e^x}$, find $y'$.",
+   "answer": "$$y' = \\frac{e^x \\cdot 2x - \\left(x^2 - 4\\right)e^x}{e^{2x}} = \\frac{2x - x^2 + 4}{e^x}.$$"
+  },
+  {
+   "ref": "Q17(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.3"
+   ],
+   "question": "When $f(x) = \\ln(\\cos x + 1)$, evaluate $f'\\left(\\dfrac\\pi2\\right)$.",
+   "answer": "$f'(x) = \\dfrac{-\\sin x}{\\cos x + 1}$, so $f'\\left(\\dfrac\\pi2\\right) = \\dfrac{-1}{0 + 1} = -1$."
+  },
+  {
+   "ref": "Q18(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "The graph of $y = 2\\sin\\left(x - \\frac\\pi6\\right)$ is shown for $[-\\pi, \\pi]$.\n\nUse the graph to solve $2\\sin\\left(x - \\frac\\pi6\\right) = 0$.",
+   "answer": "The curve crosses the $x$-axis at $x = -\\dfrac{5\\pi}{6}$ and $x = \\dfrac\\pi6$.",
+   "images": [
+    "assets/img/adv-2026-roseville/q18.png"
+   ]
+  },
+  {
+   "ref": "Q18(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "The graph of $y = 2\\sin\\left(x - \\frac\\pi6\\right)$ is shown for $[-\\pi, \\pi]$.\n\nUse the graph to solve $2\\sin\\left(x - \\frac\\pi6\\right) + 1 = 0$.",
+   "answer": "$2\\sin\\left(x - \\frac\\pi6\\right) = -1$: the curve meets the line $y = -1$ at $x = -\\dfrac{2\\pi}{3}$ and $x = 0$.",
+   "images": [
+    "assets/img/adv-2026-roseville/q18.png"
+   ]
+  },
+  {
+   "ref": "Q19(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.1"
+   ],
+   "question": "A charity holds its regular fundraising drive, and records the donations received each week for the first four weeks after the drive is launched: \\$2700 in week 1, \\$1800 in week 2, \\$1200 in week 3 and \\$800 in week 4.\n\nThe director of the charity notices that the amount of donations received each week follows a geometric series. She makes some predictions on the future donations, by assuming that the same pattern will be followed.\n\nWhat is the common ratio of the geometric series?",
+   "answer": "$r = \\dfrac{1800}{2700} = \\dfrac23$."
+  },
+  {
+   "ref": "Q19(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.8"
+   ],
+   "question": "A charity holds its regular fundraising drive, and records the donations received each week for the first four weeks after the drive is launched: \\$2700 in week 1, \\$1800 in week 2, \\$1200 in week 3 and \\$800 in week 4.\n\nThe director of the charity notices that the amount of donations received each week follows a geometric series. She makes some predictions on the future donations, by assuming that the same pattern will be followed.\n\nThe common ratio is $\\frac23$. How much would she predict to be received in Week 8 (to the nearest dollar)?",
+   "answer": "$T_8 = 2700\\left(\\frac23\\right)^7 \\approx \\$158$."
+  },
+  {
+   "ref": "Q19(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.8",
+    "12.2.3.5"
+   ],
+   "question": "A charity holds its regular fundraising drive, and records the donations received each week for the first four weeks after the drive is launched: \\$2700 in week 1, \\$1800 in week 2, \\$1200 in week 3 and \\$800 in week 4.\n\nThe director of the charity notices that the amount of donations received each week follows a geometric series. She makes some predictions on the future donations, by assuming that the same pattern will be followed.\n\nThe common ratio is $\\frac23$. What total amount would be raised in the first ten weeks?",
+   "answer": "$$S_{10} = \\frac{2700\\left(1 - \\left(\\frac23\\right)^{10}\\right)}{1 - \\frac23} \\approx \\$7960.$$"
+  },
+  {
+   "ref": "Q19(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.7",
+    "12.2.3.8"
+   ],
+   "question": "A charity holds its regular fundraising drive, and records the donations received each week for the first four weeks after the drive is launched: \\$2700 in week 1, \\$1800 in week 2, \\$1200 in week 3 and \\$800 in week 4.\n\nThe director of the charity notices that the amount of donations received each week follows a geometric series. She makes some predictions on the future donations, by assuming that the same pattern will be followed.\n\nThe common ratio is $\\frac23$. She claims that the drive will never raise more than \\$8100 in total. Explain how she can make this prediction and why she decides to launch a new drive after thirteen weeks.",
+   "answer": "Since $|r| < 1$ the series has a limiting sum:\n$$S_\\infty = \\frac{2700}{1 - \\frac23} = \\$8100,$$\nso the total can never exceed \\$8100.\n\n$S_{13} = \\dfrac{2700\\left(1 - \\left(\\frac23\\right)^{13}\\right)}{\\frac13} \\approx \\$8058$, only about \\$42 short of the maximum, and the week-13 donation is only $T_{13} = 2700\\left(\\frac23\\right)^{12} \\approx \\$21$. Almost nothing more will be raised, so it makes sense to relaunch."
+  },
+  {
+   "ref": "Q20(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.3.6"
+   ],
+   "question": "A two-metre-wide arched door in a restaurant is in the shape of a rectangle with a segment of a circle above it. The top of the door is the arc of a circle with radius 2 metres and its centre is in the middle of the base of the door. As shown in the diagram, the radii to the top corners of the door each make an angle of $\\frac\\pi3$ with the base, and the angle between them is $\\frac\\pi3$. (Angles are in radians.)\n\nFind the exact length of the arc at the top of the door.",
+   "answer": "$l = r\\theta = 2 \\times \\dfrac\\pi3 = \\dfrac{2\\pi}{3}$ m.",
+   "images": [
+    "assets/img/adv-2026-roseville/q20.png"
+   ]
+  },
+  {
+   "ref": "Q20(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.3.8",
+    "11.2.3.7",
+    "11.2.2.10"
+   ],
+   "question": "A two-metre-wide arched door in a restaurant is in the shape of a rectangle with a segment of a circle above it. The top of the door is the arc of a circle with radius 2 metres and its centre is in the middle of the base of the door. As shown in the diagram, the radii to the top corners of the door each make an angle of $\\frac\\pi3$ with the base, and the angle between them is $\\frac\\pi3$. (Angles are in radians.)\n\nCalculate the exact area of the door.",
+   "answer": "The door is the sector between the two radii plus the two right-angled triangles on either side (each with base 1, hypotenuse 2 and height $\\sqrt3$):\n$$\\text{Sector} = \\frac12(2^2)\\frac\\pi3 = \\frac{2\\pi}{3}, \\qquad \\text{each triangle} = \\frac12(1)(2)\\sin\\frac\\pi3 = \\frac{\\sqrt3}{2}.$$\n$$\\text{Area} = \\frac{2\\pi}{3} + \\sqrt3\\ \\text{m}^2.$$",
+   "images": [
+    "assets/img/adv-2026-roseville/q20.png"
+   ]
+  },
+  {
+   "ref": "Q21(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.4",
+    "12.5.1.8"
+   ],
+   "question": "A curve is defined by the equation $y = (x + 2)^2(x - 4)$.\n\nFind the turning points on the curve and their nature.",
+   "answer": "$y = x^3 - 12x - 16$, so $y' = 3x^2 - 12 = 3(x + 2)(x - 2)$. Turning points at $(-2, 0)$ and $(2, -32)$.\n\n$y'' = 6x$: $y''(2) = 12 > 0$, so $(2, -32)$ is a **minimum**; $y''(-2) = -12 < 0$, so $(-2, 0)$ is a **maximum**."
+  },
+  {
+   "ref": "Q21(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.7"
+   ],
+   "question": "A curve is defined by the equation $y = (x + 2)^2(x - 4)$.\n\nFind the coordinates of any inflection point(s).",
+   "answer": "$y'' = 6x = 0 \\implies x = 0$, $y = -16$. Concavity changes there, so $(0, -16)$ is a point of inflection."
+  },
+  {
+   "ref": "Q21(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.9"
+   ],
+   "question": "A curve is defined by the equation $y = (x + 2)^2(x - 4)$.\n\nThe curve has a maximum at $(-2, 0)$, a minimum at $(2, -32)$ and a point of inflection at $(0, -16)$. Draw a sketch of the curve, showing all turning and inflection points and intercepts on the axes.",
+   "answer": "$x$-intercepts $(-2, 0)$ (touching) and $(4, 0)$; $y$-intercept $(0, -16)$, which is also the point of inflection.",
+   "answer_images": [
+    "assets/img/adv-2026-roseville/q21c-sketch.png"
+   ]
+  },
+  {
+   "ref": "Q22(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.7.3.7"
+   ],
+   "question": "For two events $A$ and $B$ it is known that $P(A) = 0.4$, $P(B) = 0.3$ and $P(B \\mid A) = 0.5$.\n\nCalculate $P(A \\cap B)$.",
+   "answer": "$P(A \\cap B) = P(A)P(B \\mid A) = 0.4 \\times 0.5 = 0.2$."
+  },
+  {
+   "ref": "Q22(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.3.6"
+   ],
+   "question": "For two events $A$ and $B$ it is known that $P(A) = 0.4$, $P(B) = 0.3$ and $P(B \\mid A) = 0.5$.\n\nState why events $A$ and $B$ are not independent.",
+   "answer": "$P(B \\mid A) = 0.5 \\ne 0.3 = P(B)$ (equivalently $P(A \\cap B) = 0.2 \\ne 0.12 = P(A)P(B)$)."
+  },
+  {
+   "ref": "Q22(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.3.7"
+   ],
+   "question": "For two events $A$ and $B$ it is known that $P(A) = 0.4$, $P(B) = 0.3$ and $P(B \\mid A) = 0.5$.\n\nGiven $P(A \\cap B) = 0.2$, calculate $P(A \\mid B)$.",
+   "answer": "$P(A \\mid B) = \\dfrac{0.2}{0.3} = \\dfrac23$."
+  },
+  {
+   "ref": "Q23(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.9.6",
+    "11.1.9.4"
+   ],
+   "question": "The graph of $y = g(x)$ is shown for $[0, \\infty)$: it starts at $(0, -4)$, rises to a local maximum at $(1, -2)$, falls to a local minimum at $(2, -6)$, then rises steeply through $(3, 0)$. It is known that $g(x)$ is an even function. Draw and label the section of $y = g(x)$ for $(-\\infty, 0)$.",
+   "answer": "An even function is symmetric about the $y$-axis, so reflect the given section in $x = 0$: local maximum $(-1, -2)$, local minimum $(-2, -6)$, $x$-intercept $(-3, 0)$, rising steeply to the left.",
+   "images": [
+    "assets/img/adv-2026-roseville/q23a.png"
+   ],
+   "answer_images": [
+    "assets/img/adv-2026-roseville/q23a-sketch.png"
+   ]
+  },
+  {
+   "ref": "Q23(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.9.6",
+    "11.1.4.11"
+   ],
+   "question": "It is known that $y = h(x)$ is an odd function of degree 5 which has a double root at $x = 2$ and which has a leading coefficient of 2. Draw a sketch of $y = h(x)$.",
+   "answer": "Odd, so it passes through the origin and the double root at $x = 2$ is matched by one at $x = -2$:\n$$h(x) = 2x(x - 2)^2(x + 2)^2.$$\nIt rises to the right, touches the $x$-axis at $\\pm2$, crosses at the origin with positive gradient, and has point symmetry about the origin.",
+   "answer_images": [
+    "assets/img/adv-2026-roseville/q23b-sketch.png"
+   ]
+  },
+  {
+   "ref": "Q24",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "The table shows the future value of an annuity of \\$1 for a variety of periods and interest rates. The contributions are made at the end of each year.\n\n| Years | 5% | 6% | 7% | 8% | 9% | 10% | 11% | 12% |\n|---|---|---|---|---|---|---|---|---|\n| 6 | 6.802 | 6.975 | 7.153 | 7.336 | 7.523 | 7.716 | 7.913 | 8.115 |\n| 7 | 8.142 | 8.394 | 8.654 | 8.923 | 9.200 | 9.487 | 9.783 | 10.089 |\n| 8 | 9.549 | 9.897 | 10.260 | 10.637 | 11.028 | 11.436 | 11.859 | 12.300 |\n| 9 | 11.027 | 11.491 | 11.978 | 12.488 | 13.021 | 13.579 | 14.164 | 14.776 |\n| 10 | 12.578 | 13.181 | 13.816 | 14.487 | 15.193 | 15.937 | 16.722 | 17.549 |\n| 11 | 14.207 | 14.972 | 15.784 | 16.645 | 17.560 | 18.531 | 19.561 | 20.655 |\n| 12 | 15.917 | 16.870 | 17.888 | 18.977 | 20.141 | 21.384 | 22.713 | 24.133 |\n\nPenny invested a sum of \\$3500 at the end of each year into an annuity that paid 9% pa and continued to do so for 12 years.\n\nAfter 5 years had passed, she decided that she needed to invest in a second annuity so that the total value of the two investments when the first annuity matured would be \\$100 000. The best interest rate that she could obtain for the second annuity was 6% pa.\n\nWhat was the total yearly amount that Penny paid into the two annuities from the sixth year until the twelfth year?",
+   "answer": "First annuity (12 years at 9%): $3500 \\times 20.141 = \\$70\\,493.50$.\n\nNeeded from the second annuity: $100\\,000 - 70\\,493.50 = \\$29\\,506.50$, over 7 years (years 6–12) at 6% (factor 8.394):\n$$C = \\frac{29\\,506.50}{8.394} \\approx \\$3515.19.$$\nTotal yearly amount for years 6–12: $3500 + 3515.19 = \\$7015.19$."
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.6.1.2",
+    "11.1.11.5"
+   ],
+   "question": "On a number plane showing $y = |x|$, draw the function $y = |x - 3|$.",
+   "answer": "$y = |x|$ translated 3 units right: vertex $(3, 0)$, $y$-intercept $(0, 3)$.",
+   "images": [
+    "assets/img/adv-2026-roseville/q25a.png"
+   ],
+   "answer_images": [
+    "assets/img/adv-2026-roseville/q25a-sketch.png"
+   ]
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.11.5",
+    "11.6.1.6"
+   ],
+   "question": "On a number plane showing $y = |x|$, draw the function $y = |2x + 4| - 1$.",
+   "answer": "$y = 2|x + 2| - 1$: vertex $(-2, -1)$, arms of gradient $\\pm2$, $x$-intercepts $x = -\\frac52, -\\frac32$, $y$-intercept $(0, 3)$.",
+   "images": [
+    "assets/img/adv-2026-roseville/q25b.png"
+   ],
+   "answer_images": [
+    "assets/img/adv-2026-roseville/q25b-sketch.png"
+   ]
+  },
+  {
+   "ref": "Q26",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.10",
+    "12.4.1.6"
+   ],
+   "question": "A particle is moving in a straight line on a number line. Its velocity in m/s at time $t$ seconds is given by\n$$v = 12t^3 - 96t^2 + 180t.$$\nGiven that when $t = 1$, $x = 60$, find its initial acceleration and initial displacement.",
+   "answer": "$a = \\ddot x = 36t^2 - 192t + 180$, so initially $a = 180\\ \\text{m/s}^2$.\n\n$x = 3t^4 - 32t^3 + 90t^2 + C$. At $t = 1$: $60 = 61 + C \\implies C = -1$. Initially $x = -1$: the particle starts 1 m to the left of the origin."
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.8.11"
+   ],
+   "question": "The diagram shows the curve $y = (x - 1)^4 - 2(x - 1)^2 + 4$. The shaded area $A_1$ is the area enclosed between the $x$-axis, the curve and the lines $x = 0$ and $x = 3$.\n\nUse three applications of the trapezoidal rule to estimate the area $A_1$.",
+   "answer": "$f(0) = 3$, $f(1) = 4$, $f(2) = 3$, $f(3) = 12$, $h = 1$:\n$$A_1 \\approx \\frac12\\left[3 + 12 + 2(4 + 3)\\right] = \\frac{29}{2} = 14.5.$$",
+   "images": [
+    "assets/img/adv-2026-roseville/q27.png"
+   ]
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.6.1.2",
+    "12.4.8.1"
+   ],
+   "question": "The diagram shows the curve $y = (x - 1)^4 - 2(x - 1)^2 + 4$. The shaded area $A_1$ is the area enclosed between the $x$-axis, the curve and the lines $x = 0$ and $x = 3$.\n\nExplain why $\\displaystyle\\int_0^3\\left((x - 1)^4 - 2(x - 1)^2 + 4\\right)dx = \\int_{-1}^2\\left(x^4 - 2x^2 + 4\\right)dx$.",
+   "answer": "$y = (x - 1)^4 - 2(x - 1)^2 + 4$ is $y = x^4 - 2x^2 + 4$ translated 1 unit right. Translating the region back 1 unit left moves the bounds $x = 0$ and $x = 3$ to $x = -1$ and $x = 2$, without changing the area.",
+   "images": [
+    "assets/img/adv-2026-roseville/q27.png"
+   ]
+  },
+  {
+   "ref": "Q27(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.8.1",
+    "12.4.1.6"
+   ],
+   "question": "The diagram shows the curve $y = (x - 1)^4 - 2(x - 1)^2 + 4$. The shaded area $A_1$ is the area enclosed between the $x$-axis, the curve and the lines $x = 0$ and $x = 3$.\n\nGiven that $A_1 = \\displaystyle\\int_{-1}^2\\left(x^4 - 2x^2 + 4\\right)dx$, find the exact value of $A_1$.",
+   "answer": "$$\\left[\\frac{x^5}{5} - \\frac{2x^3}{3} + 4x\\right]_{-1}^2 = \\left(\\frac{32}{5} - \\frac{16}{3} + 8\\right) - \\left(-\\frac15 + \\frac23 - 4\\right) = \\frac{136}{15} + \\frac{53}{15} = \\frac{63}{5} = 12.6.$$",
+   "images": [
+    "assets/img/adv-2026-roseville/q27.png"
+   ]
+  },
+  {
+   "ref": "Q27(d)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.11"
+   ],
+   "question": "The diagram shows the curve $y = (x - 1)^4 - 2(x - 1)^2 + 4$. The shaded area $A_1$ is the area enclosed between the $x$-axis, the curve and the lines $x = 0$ and $x = 3$.\n\nThe trapezoidal estimate of $A_1$ is $14.5$ and its exact value is $12.6$. Explain why the approximation is greater than the exact value of $A_1$.",
+   "answer": "On $[0, 1]$ and $[1, 2]$ the trapezia are close to the curve, but on $[2, 3]$ the curve is strongly concave up, so the chord from $(2, 3)$ to $(3, 12)$ lies well above the curve. That trapezium includes a large area above the curve, so the total estimate is too big.",
+   "images": [
+    "assets/img/adv-2026-roseville/q27.png"
+   ]
+  },
+  {
+   "ref": "Q28",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.4",
+    "12.2.2.2"
+   ],
+   "question": "An arithmetic series has a common difference of 6 and its 20th term is 130. Find the sum of the first twenty terms of the series.",
+   "answer": "$a + 19(6) = 130 \\implies a = 16$. $\\;S_{20} = \\dfrac{20}{2}(16 + 130) = 1460$."
+  },
+  {
+   "ref": "Q30(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "A discrete random variable $X$ has a probability distribution as shown in the table.\n\n| $x$ | 0 | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|---|\n| $P(X = x)$ | 0.10 | 0.30 | 0.45 | 0.10 | $k$ |\n\nFind $k$.",
+   "answer": "$0.10 + 0.30 + 0.45 + 0.10 + k = 1 \\implies k = 0.05$."
+  },
+  {
+   "ref": "Q30(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "A discrete random variable $X$ has a probability distribution as shown in the table.\n\n| $x$ | 0 | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|---|\n| $P(X = x)$ | 0.10 | 0.30 | 0.45 | 0.10 | $k$ |\n\nGiven $k = 0.05$, find $P(X > 2)$.",
+   "answer": "$P(X > 2) = 0.10 + 0.05 = 0.15$."
+  },
+  {
+   "ref": "Q30(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.1.6"
+   ],
+   "question": "A discrete random variable $X$ has a probability distribution as shown in the table.\n\n| $x$ | 0 | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|---|\n| $P(X = x)$ | 0.10 | 0.30 | 0.45 | 0.10 | $k$ |\n\nGiven $k = 0.05$, calculate $E(X)$.",
+   "answer": "$E(X) = 0 + 0.30 + 0.90 + 0.30 + 0.20 = 1.7$."
+  },
+  {
+   "ref": "Q30(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.6"
+   ],
+   "question": "A discrete random variable $X$ has a probability distribution as shown in the table.\n\n| $x$ | 0 | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|---|\n| $P(X = x)$ | 0.10 | 0.30 | 0.45 | 0.10 | $k$ |\n\nGiven $k = 0.05$ and $E(X) = 1.7$, calculate the standard deviation of $X$.",
+   "answer": "$E(X^2) = 0 + 0.30 + 1.80 + 0.90 + 0.80 = 3.8$, $\\;\\operatorname{Var}(X) = 3.8 - 1.7^2 = 0.91$.\n$$\\sigma = \\sqrt{0.91} \\approx 0.954.$$"
+  },
+  {
+   "ref": "Q31(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.3"
+   ],
+   "question": "The diagram shows half a closed cylinder with radius $r$ and height $h$ (the solid is cut along a diameter, so it has two semicircular ends, a curved face and a flat rectangular face). The total surface area of the shape is $\\sqrt[3]{27\\pi}$.\n\nShow that the volume, $V$, can be expressed as\n$$V = \\frac{\\pi}{2(\\pi + 2)}\\left[\\sqrt[3]{27\\pi}\\,r - \\pi r^3\\right].$$",
+   "answer": "Let $S = \\sqrt[3]{27\\pi}$. Surface area: two semicircles $\\pi r^2$, curved face $\\pi rh$, rectangle $2rh$:\n$$S = \\pi r^2 + \\pi rh + 2rh \\implies h = \\frac{S - \\pi r^2}{r(\\pi + 2)}.$$\n$$V = \\frac12\\pi r^2h = \\frac{\\pi r^2}{2} \\cdot \\frac{S - \\pi r^2}{r(\\pi + 2)} = \\frac{\\pi}{2(\\pi + 2)}\\left[Sr - \\pi r^3\\right].$$",
+   "images": [
+    "assets/img/adv-2026-roseville/q31.png"
+   ]
+  },
+  {
+   "ref": "Q31(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.5.1.8"
+   ],
+   "question": "The diagram shows half a closed cylinder with radius $r$ and height $h$ (the solid is cut along a diameter, so it has two semicircular ends, a curved face and a flat rectangular face). The total surface area of the shape is $\\sqrt[3]{27\\pi}$.\n\nThe volume is $V = \\dfrac{\\pi}{2(\\pi + 2)}\\left[\\sqrt[3]{27\\pi}\\,r - \\pi r^3\\right]$. Hence, find the maximum volume.",
+   "answer": "With $S = \\sqrt[3]{27\\pi} = 3\\sqrt[3]\\pi$:\n$$\\frac{dV}{dr} = \\frac{\\pi}{2(\\pi + 2)}\\left[S - 3\\pi r^2\\right] = 0 \\implies r^2 = \\frac{S}{3\\pi} = \\pi^{-\\frac23} \\implies r = \\frac{1}{\\sqrt[3]\\pi}.$$\n$\\dfrac{d^2V}{dr^2} = \\dfrac{\\pi}{2(\\pi + 2)}(-6\\pi r) < 0$, so this is a maximum. Using $\\pi r^2 = \\frac S3$:\n$$V_{\\max} = \\frac{\\pi}{2(\\pi + 2)} \\cdot r\\left(S - \\frac S3\\right) = \\frac{\\pi}{2(\\pi + 2)} \\cdot \\frac{1}{\\sqrt[3]\\pi} \\cdot 2\\sqrt[3]\\pi = \\frac{\\pi}{\\pi + 2} \\approx 0.611 \\text{ units}^3.$$",
+   "images": [
+    "assets/img/adv-2026-roseville/q31.png"
+   ]
+  },
+  {
+   "ref": "Q32(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.1.12",
+    "11.3.1.8",
+    "11.3.1.11"
+   ],
+   "question": "Show that $\\sin\\theta - \\cos\\theta\\sin\\theta\\left(\\sin\\left(\\frac\\pi2 - \\theta\\right)\\right) = \\sin^3\\theta$ for $\\left[0, \\frac\\pi2\\right]$.",
+   "answer": "$\\sin\\left(\\frac\\pi2 - \\theta\\right) = \\cos\\theta$, so\n$$\\text{LHS} = \\sin\\theta - \\cos^2\\theta\\sin\\theta = \\sin\\theta\\left(1 - \\cos^2\\theta\\right) = \\sin^3\\theta.$$"
+  },
+  {
+   "ref": "Q32(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.13"
+   ],
+   "question": "Given that $\\sin\\theta - \\cos\\theta\\sin\\theta\\left(\\sin\\left(\\frac\\pi2 - \\theta\\right)\\right) = \\sin^3\\theta$, solve $2\\sqrt2\\sin\\theta - 2\\sqrt2\\cos\\theta\\sin\\theta\\left(\\sin\\left(\\frac\\pi2 - \\theta\\right)\\right) = 1$ for $\\left[0, \\frac\\pi2\\right]$.",
+   "answer": "$2\\sqrt2\\sin^3\\theta = 1 \\implies \\sin^3\\theta = \\dfrac{1}{2\\sqrt2} \\implies \\sin\\theta = \\dfrac{1}{\\sqrt2} \\implies \\theta = \\dfrac\\pi4$."
+  },
+  {
+   "ref": "Q33",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.6",
+    "12.4.7.1"
+   ],
+   "question": "The diagram shows the shaded area enclosed between the curves $y = 2\\sin x$ and $y = 2\\cos x$, between their intersections at $x = \\frac\\pi4$ and $x = \\frac{5\\pi}{4}$. Calculate the exact value of the shaded area.",
+   "answer": "$2\\sin x \\ge 2\\cos x$ on $\\left[\\frac\\pi4, \\frac{5\\pi}{4}\\right]$:\n$$A = \\int_{\\pi/4}^{5\\pi/4}(2\\sin x - 2\\cos x)\\,dx = \\Big[-2\\cos x - 2\\sin x\\Big]_{\\pi/4}^{5\\pi/4} = \\left(\\sqrt2 + \\sqrt2\\right) - \\left(-\\sqrt2 - \\sqrt2\\right) = 4\\sqrt2 \\text{ square units}.$$",
+   "images": [
+    "assets/img/adv-2026-roseville/q33.png"
+   ]
+  },
+  {
+   "ref": "Q34(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.8"
+   ],
+   "question": "Mitch opened an investment account with an initial deposit of \\$20 000 on 1st January 2023. The account earned interest at a rate of 8% per annum, compounding quarterly. He withdrew \\$1000 on the 1st April 2023 and then on 1st July 2023 and continued to do so on the first day of each successive quarter. His withdrawals occurred after the quarterly interest was added. Let \\$$A_n$ be the amount remaining in the account after $n$ withdrawals have been made.\n\nShow that the amount remaining after the July 1st withdrawal is given by $A_2 = (20000 \\times 1.02 - 1000) \\times 1.02 - 1000$.",
+   "answer": "The quarterly rate is $8\\% \\div 4 = 2\\%$. $A_1 = 20000 \\times 1.02 - 1000$, then $A_2 = A_1 \\times 1.02 - 1000 = (20000 \\times 1.02 - 1000) \\times 1.02 - 1000$."
+  },
+  {
+   "ref": "Q34(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.8",
+    "12.2.3.5"
+   ],
+   "question": "Mitch opened an investment account with an initial deposit of \\$20 000 on 1st January 2023. The account earned interest at a rate of 8% per annum, compounding quarterly. He withdrew \\$1000 on the 1st April 2023 and then on 1st July 2023 and continued to do so on the first day of each successive quarter. His withdrawals occurred after the quarterly interest was added. Let \\$$A_n$ be the amount remaining in the account after $n$ withdrawals have been made.\n\n$A_2 = (20000 \\times 1.02 - 1000) \\times 1.02 - 1000$. Show that $A_n = 50000 - 30000 \\times 1.02^n$.",
+   "answer": "Continuing the pattern:\n$$A_n = 20000 \\times 1.02^n - 1000\\left(1 + 1.02 + \\cdots + 1.02^{n-1}\\right) = 20000 \\times 1.02^n - \\frac{1000\\left(1.02^n - 1\\right)}{0.02}$$\n$$= 20000 \\times 1.02^n - 50000 \\times 1.02^n + 50000 = 50000 - 30000 \\times 1.02^n.$$"
+  },
+  {
+   "ref": "Q34(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.8",
+    "11.5.2.9"
+   ],
+   "question": "Mitch opened an investment account with an initial deposit of \\$20 000 on 1st January 2023. The account earned interest at a rate of 8% per annum, compounding quarterly. He withdrew \\$1000 on the 1st April 2023 and then on 1st July 2023 and continued to do so on the first day of each successive quarter. His withdrawals occurred after the quarterly interest was added. Let \\$$A_n$ be the amount remaining in the account after $n$ withdrawals have been made.\n\n$A_n = 50000 - 30000 \\times 1.02^n$. What is the total number of withdrawals that Mitch could make before the account runs out of funds?",
+   "answer": "$A_n = 0 \\implies 1.02^n = \\dfrac53 \\implies n = \\dfrac{\\ln(5/3)}{\\ln 1.02} \\approx 25.8$.\n\nMitch can make **25** full withdrawals of \\$1000 (a 26th, partial withdrawal would then empty the account)."
   }
  ]
 }
