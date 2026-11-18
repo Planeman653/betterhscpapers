@@ -1,0 +1,759 @@
+{
+ "id": "phys-2023-abbotsleigh",
+ "course": "physics",
+ "school": "Abbotsleigh",
+ "year": 2023,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "6528",
+  "title": "Abbotsleigh 2023 w. sol"
+ },
+ "indexed": "2026-11-18",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.1"
+   ],
+   "question": "What is the temperature of a black body whose intensity peaks at $5.4 \\times 10^{14}\\ \\text{Hz}$?",
+   "options": [
+    "$1.6 \\times 10^{12}\\ \\text{K}$",
+    "$1.6 \\times 10^{12}\\ ^\\circ\\text{C}$",
+    "$5.2 \\times 10^{3}\\ \\text{K}$",
+    "$5.2 \\times 10^{3}\\ ^\\circ\\text{C}$"
+   ],
+   "correct": "C",
+   "answer": "$\\lambda_{\\max} = \\dfrac{c}{f} = \\dfrac{3.00 \\times 10^{8}}{5.4 \\times 10^{14}} = 5.56 \\times 10^{-7}\\ \\text{m}$. Wien's law: $T = \\dfrac{b}{\\lambda_{\\max}} = \\dfrac{2.898 \\times 10^{-3}}{5.56 \\times 10^{-7}} = 5216\\ \\text{K} \\approx 5.2 \\times 10^{3}\\ \\text{K}$ (Wien's law gives the temperature in kelvin)."
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.2.2",
+    "12.7.2.1"
+   ],
+   "question": "A 400 nm laser is shone through a diffraction grating which has 10 lines/mm. A screen is placed 3.0 m away, on which several bright bands are seen.\n\nThe pattern on the screen is best explained by:",
+   "options": [
+    "The interference of light as each slit acts as a source.",
+    "Each band corresponding to a slit in the diffraction grating through which light is passing.",
+    "The interference of the laser with background light.",
+    "The particle nature of light."
+   ],
+   "correct": "A",
+   "answer": "Each slit acts as a source of secondary wavelets (Huygens); the bright bands are where waves from the slits interfere constructively ($d\\sin\\theta = m\\lambda$). This is a wave (interference) effect."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.2"
+   ],
+   "question": "A 400 nm laser is shone through a diffraction grating which has 10 lines/mm. A screen is placed 3.0 m away, on which several bright bands are seen.\n\nCalculate the distance from the central bright band to an adjacent bright band.",
+   "options": [
+    "$1.2 \\times 10^{-7}\\ \\text{m}$",
+    "$1.2 \\times 10^{-2}\\ \\text{m}$",
+    "$8.3 \\times 10^{-2}\\ \\text{m}$",
+    "$83\\ \\text{m}$"
+   ],
+   "correct": "B",
+   "answer": "$d = \\dfrac{1}{10\\ \\text{mm}^{-1}} = 1.0 \\times 10^{-4}\\ \\text{m}$. For $m = 1$: $\\sin\\theta = \\dfrac{\\lambda}{d} = \\dfrac{400 \\times 10^{-9}}{1.0 \\times 10^{-4}} = 4.0 \\times 10^{-3}$. For small angles $x = L\\tan\\theta \\approx L\\sin\\theta = 3.0 \\times 4.0 \\times 10^{-3} = 1.2 \\times 10^{-2}\\ \\text{m}$."
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.4.3"
+   ],
+   "question": "What is the momentum of an electron which has been accelerated to $0.98c$ in a particle accelerator, as measured by a detector?",
+   "options": [
+    "$5.3 \\times 10^{-23}\\ \\text{kg m s}^{-1}$",
+    "$2.7 \\times 10^{-22}\\ \\text{kg m s}^{-1}$",
+    "$1.3 \\times 10^{-21}\\ \\text{kg m s}^{-1}$",
+    "$2.8 \\times 10^{-20}\\ \\text{kg m s}^{-1}$"
+   ],
+   "correct": "C",
+   "answer": "$p_v = \\dfrac{m_0 v}{\\sqrt{1 - v^2/c^2}} = \\dfrac{9.109 \\times 10^{-31} \\times 0.98 \\times 3.00 \\times 10^{8}}{\\sqrt{1 - 0.98^2}} = \\dfrac{2.678 \\times 10^{-22}}{0.199} = 1.3 \\times 10^{-21}\\ \\text{kg m s}^{-1}$."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "The diagram represents an experimental apparatus: unpolarised light passes through a polariser and then an analyser. The intensity of the (unpolarised) light entering the polariser is 513 lux.\n\nWhat is the intensity of light as it leaves the analyser if the angle between the polariser and analyser is $17.0^\\circ$?",
+   "options": [
+    "235 lux",
+    "245 lux",
+    "257 lux",
+    "469 lux"
+   ],
+   "correct": "A",
+   "answer": "The polariser halves unpolarised light: $I_1 = \\tfrac{513}{2} = 256.5$ lux. Malus' law at the analyser: $I = I_1\\cos^2\\theta = 256.5 \\times \\cos^2 17.0^\\circ = 234.6 \\approx 235$ lux.",
+   "images": [
+    "assets/img/phys-2023-abbotsleigh/q5.png"
+   ]
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.1.6"
+   ],
+   "question": "Diagram 1 shows the absorption spectrum of light produced by an incandescent filament, after it has been shone through a quantity of hydrogen gas. Diagrams 2 and 3 show the spectra obtained from two stars: Croesus and Dromus. The dark lines in the diagrams are absorption bands.\n\nWhich of the following conclusions CANNOT be drawn from the diagrams?",
+   "options": [
+    "Dromus is rotating faster than Croesus.",
+    "Both stars contain hydrogen.",
+    "Dromus is moving towards us.",
+    "Croesus has a higher surface temperature than Dromus."
+   ],
+   "correct": "D",
+   "answer": "Both stars show the hydrogen line pattern (B). Dromus's lines are broadened (rotation, A) and shifted towards the violet end (blueshift, approaching, C). Surface temperature comes from the peak wavelength / colour of the continuous spectrum, which these line diagrams do not show, so D cannot be concluded.",
+   "images": [
+    "assets/img/phys-2023-abbotsleigh/q6.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.1.3"
+   ],
+   "question": "Which row of the table correctly matches the scientists to the type of experiment they performed when attempting to measure the speed of light?\n\n| | Römer | Bradley | Fizeau | Foucault |\n|---|---|---|---|---|\n| (A) | Rotating component | Rotating component | Astronomical methods | Astronomical methods |\n| (B) | Astronomical methods | Astronomical methods | Rotating component | Rotating component |\n| (C) | Rotating component | Astronomical methods | Astronomical methods | Rotating component |\n| (D) | Astronomical methods | Rotating component | Rotating component | Astronomical methods |",
+   "options": [
+    "Row (A)",
+    "Row (B)",
+    "Row (C)",
+    "Row (D)"
+   ],
+   "correct": "B",
+   "answer": "Römer (eclipses of Io) and Bradley (stellar aberration) used astronomical observations; Fizeau (rotating toothed wheel) and Foucault (rotating mirror) used rotating components."
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.8.2.1"
+   ],
+   "question": "Some early experiments into the nature of cathode rays included the Maltese cross experiment, the paddle wheel experiment, deflecting a beam with a magnet, and deflecting a beam with an electric field. Which of the following conclusions could NOT be drawn from these early experiments?",
+   "options": [
+    "Cathode rays consist of negatively charged particles.",
+    "Cathode rays travel in straight lines.",
+    "Cathode rays can do work.",
+    "The mass of the particles in cathode rays."
+   ],
+   "correct": "D",
+   "answer": "Deflection by fields shows negative charge (A), the Maltese cross shadow shows straight-line travel (B), and the paddle wheel shows they carry momentum/energy (C). None of these experiments measures the mass of the particles (Thomson only found $q/m$; the mass needed Millikan's $q$ as well)."
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.2.1",
+    "12.6.1.1"
+   ],
+   "question": "An oil drop is suspended between horizontal charged plates separated by 3.2 mm, with a potential difference of 4.7 kV across them and the positive plate on the bottom, as shown.\n\nThe oil drop was estimated to have a volume of $2.1 \\times 10^{-16}\\ \\text{m}^3$. Given that the density of oil is $8.0 \\times 10^{2}\\ \\text{kg m}^{-3}$, how many excess or missing electrons are on the drop of oil?",
+   "options": [
+    "5 excess electrons",
+    "5 missing electrons",
+    "7 excess electrons",
+    "7 missing electrons"
+   ],
+   "correct": "D",
+   "answer": "$m = \\rho V = 8.0 \\times 10^{2} \\times 2.1 \\times 10^{-16} = 1.68 \\times 10^{-13}\\ \\text{kg}$; $E = \\dfrac{V}{d} = \\dfrac{4700}{3.2 \\times 10^{-3}} = 1.47 \\times 10^{6}\\ \\text{V m}^{-1}$.\n\nSuspended: $qE = mg \\Rightarrow q = \\dfrac{1.68 \\times 10^{-13} \\times 9.8}{1.47 \\times 10^{6}} = 1.12 \\times 10^{-18}\\ \\text{C}$, so $n = \\dfrac{1.12 \\times 10^{-18}}{1.602 \\times 10^{-19}} \\approx 7$.\n\nThe field points up (from the bottom positive plate to the top negative plate) and the electric force must be upward, so the drop is positive: 7 electrons are **missing**.",
+   "images": [
+    "assets/img/phys-2023-abbotsleigh/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "Two projectiles are launched horizontally from the same height. Projectile B has twice the initial velocity of projectile A. Which of the following statements is true? ($u$ = initial velocity, $t$ = time of flight, $R$ = range)",
+   "options": [
+    "$u_{Ax} = \\tfrac12 u_{Bx};\\ u_{Ay} = u_{By};\\ t_A = t_B;\\ R_A = \\tfrac12 R_B$",
+    "$u_{Ax} = \\tfrac12 u_{Bx};\\ u_{Ay} = u_{By};\\ t_A = 2t_B;\\ R_A = R_B$",
+    "$u_{Ax} = \\tfrac12 u_{Bx};\\ u_{Ay} = u_{By};\\ t_A = t_B;\\ R_A = R_B$",
+    "$u_{Ax} = \\tfrac12 u_{Bx};\\ u_{Ay} = u_{By};\\ t_A = 2t_B;\\ R_A = 2R_B$"
+   ],
+   "correct": "A",
+   "answer": "Both have $u_y = 0$ and fall the same height, so $t_A = t_B$. Range $R = u_x t$, so with half the horizontal velocity $R_A = \\tfrac12 R_B$."
+  },
+  {
+   "ref": "Q11",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.4"
+   ],
+   "question": "A satellite revolves around a planet X1B2 with a period of $2.45 \\times 10^{7}\\ \\text{s}$ at an orbital radius of $3.80 \\times 10^{10}\\ \\text{m}$. What is the mass of X1B2?",
+   "options": [
+    "$3.74 \\times 10^{7}\\ \\text{kg}$",
+    "$1.42 \\times 10^{18}\\ \\text{kg}$",
+    "$5.41 \\times 10^{28}\\ \\text{kg}$",
+    "$1.32 \\times 10^{36}\\ \\text{kg}$"
+   ],
+   "correct": "C",
+   "answer": "$\\dfrac{r^3}{T^2} = \\dfrac{GM}{4\\pi^2} \\Rightarrow M = \\dfrac{4\\pi^2 r^3}{GT^2} = \\dfrac{4\\pi^2 (3.80 \\times 10^{10})^3}{6.67 \\times 10^{-11} \\times (2.45 \\times 10^{7})^2} = 5.41 \\times 10^{28}\\ \\text{kg}$."
+  },
+  {
+   "ref": "Q12",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.4.1",
+    "12.6.2.1"
+   ],
+   "question": "The diagram shows a DC motor. The arrows show the direction of force acting on the sides of the coil.\n\nWhat happens to the magnitude of the forces as the coil rotates?",
+   "options": [
+    "The forces remain the same at all orientations of the coil to the vertical.",
+    "The forces vary as a sine component of the angle to the vertical.",
+    "The forces vary as a cos component of the angle to the vertical.",
+    "The forces initially increase and then stay constant."
+   ],
+   "correct": "A",
+   "answer": "The sides carrying the force stay perpendicular to the field as the coil rotates, so $F = nIlB$ is constant in magnitude (and direction). It is the **torque** $\\tau = nIAB\\sin\\theta$ that varies with orientation, not the force.",
+   "images": [
+    "assets/img/phys-2023-abbotsleigh/q12.png"
+   ]
+  },
+  {
+   "ref": "Q13",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.5",
+    "12.5.3.2"
+   ],
+   "question": "Two satellites of equal mass, E and F, are orbiting the Earth at orbital radii of $2R$ and $5R$ respectively (measured from the centre of the Earth), $R$ being the radius of the Earth. Which row of the table is true? ($U$ = gravitational potential energy, $v$ = orbital velocity.)\n\n| | Gravitational potential energy | Escape velocity from the surface of the Earth | Orbital velocity |\n|---|---|---|---|\n| (A) | $U_F = U_E$ | $5v_F = 2v_E$ | $v_F = \\sqrt{2}\\,v_E$ |\n| (B) | $U_F = 2.5\\,U_E$ | Equal | $v_F = v_E$ |\n| (C) | $2U_F = 5U_E$ | $2v_F = 5v_E$ | $\\sqrt{2}\\,v_F = \\sqrt{5}\\,v_E$ |\n| (D) | $5U_F = 2U_E$ | Equal | $\\sqrt{5}\\,v_F = \\sqrt{2}\\,v_E$ |",
+   "options": [
+    "Row (A)",
+    "Row (B)",
+    "Row (C)",
+    "Row (D)"
+   ],
+   "correct": "D",
+   "answer": "$U = -\\dfrac{GMm}{r}$: $U_E = -\\dfrac{GMm}{2R}$, $U_F = -\\dfrac{GMm}{5R}$, so $5U_F = 2U_E = -\\dfrac{GMm}{R}$.\n\nEscape velocity from the Earth's surface $v_{esc} = \\sqrt{2GM/R}$ depends only on the Earth, so it is equal.\n\nOrbital velocity $v = \\sqrt{GM/r}$: $\\sqrt5\\,v_F = \\sqrt5\\sqrt{\\dfrac{GM}{5R}} = \\sqrt{\\dfrac{GM}{R}} = \\sqrt2\\sqrt{\\dfrac{GM}{2R}} = \\sqrt2\\,v_E$.\n\n*Note:* the original paper says “altitudes of $2R$ and $5R$”, but its answer (D) treats these as orbital radii; with altitudes (radii $3R$ and $6R$) none of the rows would be correct, so the question has been reworded."
+  },
+  {
+   "ref": "Q14",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.3"
+   ],
+   "question": "The primary coil of a transformer has 450 turns and the secondary has 1800 turns. Which choice listed in the table is most appropriate for this ideal transformer?\n\n| | Input | Output |\n|---|---|---|\n| (A) | 5.00 A, 23.0 V | 2.00 A, 92.0 V |\n| (B) | 5.00 A, 23.0 V | 1.25 A, 92.0 V |\n| (C) | 10.0 A, 46.0 V | 5.00 A, 184 V |\n| (D) | 10.0 A, 46.0 V | 2.50 A, 69.0 V |",
+   "options": [
+    "Row (A)",
+    "Row (B)",
+    "Row (C)",
+    "Row (D)"
+   ],
+   "correct": "B",
+   "answer": "$\\dfrac{V_s}{V_p} = \\dfrac{1800}{450} = 4$, so the voltage is stepped up 4 times and (since $V_pI_p = V_sI_s$) the current is divided by 4: $23.0 \\to 92.0$ V and $5.00 \\to 1.25$ A. Check: $5.00 \\times 23.0 = 1.25 \\times 92.0 = 115$ W."
+  },
+  {
+   "ref": "Q15",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.2",
+    "12.6.4.2"
+   ],
+   "question": "The diagram shows the top view of a magnet rotating above a copper disc in an anticlockwise direction.\n\nWhich statement correctly represents the motion of the copper disc?",
+   "options": [
+    "The disc follows the magnet's rotation but at a higher speed than the magnet.",
+    "The disc follows the magnet's rotation but at a lower speed than the magnet.",
+    "The disc spins in the opposite direction to the magnet's rotation but at a higher speed than the magnet.",
+    "The disc spins in the opposite direction to the magnet's rotation but at a lower speed than the magnet."
+   ],
+   "correct": "B",
+   "answer": "The moving field induces eddy currents in the disc which, by Lenz's law, oppose the relative motion, so the disc is dragged round in the same direction as the magnet (as in an induction motor). It must always rotate slower, because if it caught up there would be no relative motion and no induced current.",
+   "images": [
+    "assets/img/phys-2023-abbotsleigh/q15.png"
+   ]
+  },
+  {
+   "ref": "Q16",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.3"
+   ],
+   "question": "The diagram shows three parallel current-carrying conductors, each of length 0.500 m and carrying 2.5 A in the directions shown: conductor 1 (top, current to the right) is 0.55 m above conductor 2 (current to the right), and conductor 3 (current to the left) is 0.15 m below conductor 2.\n\nWhat is the force acting on conductor 2?",
+   "options": [
+    "$3.0 \\times 10^{-6}$ N up",
+    "$3.0 \\times 10^{-6}$ N down",
+    "$5.3 \\times 10^{-6}$ N up",
+    "$5.3 \\times 10^{-6}$ N down"
+   ],
+   "correct": "C",
+   "answer": "$F = \\dfrac{\\mu_0}{2\\pi}\\dfrac{I_1I_2 l}{r}$. From 1 (same direction, attracts, up): $F = \\dfrac{2 \\times 10^{-7} \\times 2.5^2 \\times 0.500}{0.55} = 1.14 \\times 10^{-6}$ N up.\n\nFrom 3 (opposite direction, repels, so pushes 2 up): $F = \\dfrac{2 \\times 10^{-7} \\times 2.5^2 \\times 0.500}{0.15} = 4.17 \\times 10^{-6}$ N up.\n\nTotal: $5.3 \\times 10^{-6}$ N up.",
+   "images": [
+    "assets/img/phys-2023-abbotsleigh/q16.png"
+   ]
+  },
+  {
+   "ref": "Q17",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.3",
+    "12.6.1.4"
+   ],
+   "question": "A proton is moving through a circular path (in a particle accelerator, as shown) of radius 102 m with a velocity of $2.25 \\times 10^{5}\\ \\text{m s}^{-1}$. Assuming the magnetic field is constant at all points in the path and is perpendicular to the motion, what is the magnitude of the magnetic field needed to maintain the circular motion of the proton?",
+   "options": [
+    "$3.69 \\times 10^{-22}$ T",
+    "$2.30 \\times 10^{-5}$ T",
+    "$2.35 \\times 10^{-1}$ T",
+    "$1.38 \\times 10^{24}$ T"
+   ],
+   "correct": "B",
+   "answer": "$qvB = \\dfrac{mv^2}{r} \\Rightarrow B = \\dfrac{mv}{qr} = \\dfrac{1.673 \\times 10^{-27} \\times 2.25 \\times 10^{5}}{1.602 \\times 10^{-19} \\times 102} = 2.30 \\times 10^{-5}$ T.",
+   "images": [
+    "assets/img/phys-2023-abbotsleigh/q17.png"
+   ]
+  },
+  {
+   "ref": "Q18",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.1"
+   ],
+   "question": "A 10.0 cm conductor rod levitates in an external magnetic field of 4.20 T that is acting at right angles to the rod. A current of 2.50 A flows through the rod. What is the mass of this rod?",
+   "options": [
+    "0.011 kg",
+    "0.11 kg",
+    "1.1 kg",
+    "11 kg"
+   ],
+   "correct": "B",
+   "answer": "Levitating: $BIl = mg \\Rightarrow m = \\dfrac{4.20 \\times 2.50 \\times 0.100}{9.8} = 0.107 \\approx 0.11$ kg."
+  },
+  {
+   "ref": "Q19",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.2",
+    "12.6.4.3"
+   ],
+   "question": "The diagram shows a metallic plate swinging (from position 1 towards position 2) through a region of uniform magnetic field directed into the page. At position 1 the plate is entering the field region; at position 2 it is leaving it. Which of the following statements about the motion is correct?",
+   "options": [
+    "At position 1, the plate experiences a resistive force due to eddy currents flowing anticlockwise and at position 2, the plate experiences a resistive force due to clockwise eddy currents.",
+    "At position 1, the plate experiences an attractive force due to eddy currents flowing anticlockwise and at position 2, the plate experiences a resistive force due to clockwise eddy currents.",
+    "At position 1, the plate experiences a resistive force due to eddy currents flowing clockwise and at position 2, the plate also experiences a resistive force due to anticlockwise eddy currents.",
+    "At position 1, the plate experiences a resistive force due to eddy currents flowing anticlockwise and at position 2, the plate experiences a resistive force due to anticlockwise eddy currents."
+   ],
+   "correct": "A",
+   "answer": "Entering (1): flux into the page increases, so by Lenz's law the eddy currents make a field out of the page — anticlockwise. Leaving (2): flux into the page decreases, so the eddy currents make a field into the page — clockwise. In both cases the force opposes the motion (resistive, magnetic braking).",
+   "images": [
+    "assets/img/phys-2023-abbotsleigh/q19.png"
+   ]
+  },
+  {
+   "ref": "Q20",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.3.3",
+    "12.8.3.3"
+   ],
+   "question": "Which of the following graphs shows the relationship between a photon's energy $E$ and its wavelength $\\lambda$?",
+   "options": [
+    "![Graph A](assets/img/phys-2023-abbotsleigh/q20a.png)",
+    "![Graph B](assets/img/phys-2023-abbotsleigh/q20b.png)",
+    "![Graph C](assets/img/phys-2023-abbotsleigh/q20c.png)",
+    "![Graph D](assets/img/phys-2023-abbotsleigh/q20d.png)"
+   ],
+   "correct": "D",
+   "answer": "$E = \\dfrac{hc}{\\lambda}$, so $E$ is inversely proportional to $\\lambda$: a hyperbola decreasing towards the $\\lambda$-axis."
+  },
+  {
+   "ref": "Q21",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2",
+    "12.5.2.3"
+   ],
+   "question": "A ball of mass 0.130 kg is swung around on a string of length 95.5 cm at 5.00 revolutions per second in a vertical circle (assume uniform circular motion).\n\nDetermine the difference in tension on the ball at the top and the bottom points of the vertical circle.",
+   "answer": "Centripetal force (the same at top and bottom since the speed is constant): $v = \\dfrac{2\\pi r}{T} = 2\\pi \\times 0.955 \\times 5.00 = 30.0\\ \\text{m s}^{-1}$, $F_c = \\dfrac{mv^2}{r} = \\dfrac{0.130 \\times 30.0^2}{0.955} = 122.5$ N.\n\nBottom (centre is up): $T_b - mg = F_c \\Rightarrow T_b = F_c + mg = 122.5 + 1.27 = 123.8$ N.\n\nTop (centre is down): $T_t + mg = F_c \\Rightarrow T_t = F_c - mg = 122.5 - 1.27 = 121.2$ N.\n\nDifference: $T_b - T_t = 2mg = 2 \\times 0.130 \\times 9.8 = 2.55$ N (greater at the bottom).",
+   "images": [
+    "assets/img/phys-2023-abbotsleigh/q21.png"
+   ]
+  },
+  {
+   "ref": "Q22",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.4.2",
+    "12.6.4.1"
+   ],
+   "question": "Compare the structure and function of an AC generator with that of a DC motor.",
+   "answer": "**Similarities.** *Structure:* both have a coil of wire (usually wound on an iron armature) that rotates on an axle in an external magnetic field produced by magnets or electromagnets, connected to the external circuit through brushes. *Function:* both involve a coil rotating in a magnetic field, and an emf is induced in the rotating coil in both (in the motor this is the back emf).\n\n**Differences.** *Structure:* the AC generator connects the coil to the external circuit through **slip rings**, so the output current reverses each half turn; the DC motor uses a **split-ring commutator**, which reverses the current in the coil every half turn so the torque stays in the same direction.\n\n*Function:* the AC generator converts mechanical (kinetic) energy into electrical energy — an external torque turns the coil and, by Faraday's law, an alternating emf is induced. The DC motor converts electrical energy from a DC supply into kinetic energy — the current in the coil experiences a force in the field (the motor effect, $F = nIlB$) producing a torque $\\tau = nIAB\\sin\\theta$."
+  },
+  {
+   "ref": "Q23",
+   "kind": "written",
+   "marks": 7,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.3.2",
+    "12.6.4.1",
+    "12.6.4.3"
+   ],
+   "question": "The discovery of the interaction between magnetic and electric fields brought about many laws and applications. Analyse at least 3 laws or principles and at least 2 applications that arose from this discovery.",
+   "answer": "**Motor effect.** A current-carrying conductor in an external magnetic field experiences a force $F = lIB\\sin\\theta$, because the field of the current interacts with the external field. This is the principle of the **DC motor**: forces on the sides of a current-carrying coil produce a torque $\\tau = nIAB\\sin\\theta$, converting electrical energy into rotational kinetic energy (fans, pumps, electric vehicles); it is also used in galvanometers and loudspeakers.\n\n**Force between parallel conductors (Ampère).** Each current produces a magnetic field that acts on the other: $\\dfrac{F}{l} = \\dfrac{\\mu_0}{2\\pi}\\dfrac{I_1I_2}{r}$, attractive for currents in the same direction. This was used to define the ampere and must be allowed for in, e.g., spacing of transmission lines and busbars.\n\n**Faraday's law of electromagnetic induction.** A changing magnetic flux through a circuit induces an emf $\\varepsilon = -N\\dfrac{\\Delta\\Phi}{\\Delta t}$. This is the principle of the **generator** (a coil rotating in a field has an alternating emf induced, delivered via slip rings for AC or a commutator for DC) and of the **transformer** (an alternating current in the primary produces a changing flux in the iron core that induces an emf in the secondary, $V_p/V_s = N_p/N_s$), which allows high-voltage, low-current transmission of electricity with low resistive losses.\n\n**Lenz's law.** The induced current flows in the direction that creates a magnetic field opposing the change that produced it — a consequence of conservation of energy. Applications: **electromagnetic (eddy current) braking**, where eddy currents induced in a moving metal disc or plate oppose its motion, converting kinetic energy to heat without contact (trains, roller coasters); and **back emf** in DC motors, which limits the current as the motor speeds up.\n\nTogether (and unified by Maxwell's equations), these principles underpin the generation, transmission and use of electrical energy."
+  },
+  {
+   "ref": "Q24(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "Lauren throws a basketball with a horizontal component of velocity of $8.00\\ \\text{m s}^{-1}$. The ball reaches the original height from which it was thrown after 3.00 s, and takes a further 0.11 s to reach the ground (ignore air resistance).\n\nCalculate the horizontal range.",
+   "answer": "Total time of flight $t = 3.00 + 0.11 = 3.11$ s. Range $= u_x t = 8.00 \\times 3.11 = 24.9$ m."
+  },
+  {
+   "ref": "Q24(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.5.1.4"
+   ],
+   "question": "Lauren throws a basketball with a horizontal component of velocity of $8.00\\ \\text{m s}^{-1}$. The ball reaches the original height from which it was thrown after 3.00 s, and takes a further 0.11 s to reach the ground (ignore air resistance).\n\nCalculate the vertical component of the initial velocity.",
+   "answer": "By symmetry the ball reaches its maximum height at $t = 1.50$ s, where $v_y = 0$. Taking up as positive, $a = -9.8\\ \\text{m s}^{-2}$:\n\n$v_y = u_y + at \\Rightarrow 0 = u_y - 9.8 \\times 1.50 \\Rightarrow u_y = 14.7\\ \\text{m s}^{-1}$ (upwards)."
+  },
+  {
+   "ref": "Q24(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "Lauren throws a basketball with a horizontal component of velocity of $8.00\\ \\text{m s}^{-1}$. The ball reaches the original height from which it was thrown after 3.00 s, and takes a further 0.11 s to reach the ground (ignore air resistance).\n\nGiven that the vertical component of the initial velocity is $14.7\\ \\text{m s}^{-1}$, calculate the initial angle of projection.",
+   "answer": "$\\tan\\theta = \\dfrac{u_y}{u_x} = \\dfrac{14.7}{8.00} \\Rightarrow \\theta = 61.4^\\circ$ above the horizontal."
+  },
+  {
+   "ref": "Q24(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.5.1.4"
+   ],
+   "question": "Lauren throws a basketball with a horizontal component of velocity of $8.00\\ \\text{m s}^{-1}$. The ball reaches the original height from which it was thrown after 3.00 s, and takes a further 0.11 s to reach the ground (ignore air resistance).\n\nGiven that the vertical component of the initial velocity is $14.7\\ \\text{m s}^{-1}$, calculate the height at which Lauren threw the ball.",
+   "answer": "When the ball returns to the launch height it is moving downwards at $14.7\\ \\text{m s}^{-1}$ (symmetry). Taking down as positive for the last 0.11 s:\n\n$\\Delta y = u_y t + \\tfrac12 g t^2 = 14.7 \\times 0.11 + \\tfrac12 \\times 9.8 \\times 0.11^2 = 1.617 + 0.059 = 1.68$ m."
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.2.2"
+   ],
+   "question": "The diagram shows the apparatus for the Geiger–Marsden experiment: a beam of alpha particles from a radium source is directed at a thin gold foil surrounded by a fluorescent screen.\n\nExplain how the results of this experiment led Rutherford to develop his atomic model.",
+   "answer": "Most alpha particles passed straight through the gold foil with little or no deflection, so most of the atom must be empty space. A very small fraction were deflected through large angles, and some even bounced back. Such large deflections of the massive, fast, positively charged alpha particles could only be caused by strong electrostatic repulsion from a concentrated region of positive charge containing most of the atom's mass (the Thomson 'plum pudding' model, with charge spread out, could not produce them). Because so few were strongly deflected, this region had to be tiny compared with the atom.\n\nRutherford therefore proposed the nuclear (planetary) model: a tiny, dense, positively charged nucleus at the centre of the atom containing almost all its mass, with electrons orbiting it at a relatively large distance.",
+   "images": [
+    "assets/img/phys-2023-abbotsleigh/q25.png"
+   ]
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.2.2"
+   ],
+   "question": "Explain how experimental evidence led Chadwick to his discovery of the neutron.",
+   "answer": "When beryllium was bombarded with alpha particles it emitted a very penetrating radiation that was not deflected by electric or magnetic fields, so it was neutral; others had assumed it was gamma radiation. When this radiation struck paraffin wax (rich in hydrogen), protons were ejected with very high energies (about 5.7 MeV).\n\nFor massless gamma photons to knock out protons with this energy, they would need an implausibly large energy (around 50 MeV) — inconsistent with conservation of energy and momentum for the reaction. Chadwick measured the recoil of protons and of nitrogen nuclei struck by the radiation and, applying conservation of momentum and energy to these collisions, showed the radiation consisted of neutral particles with mass approximately equal to that of the proton. He called them neutrons, which also accounted for the 'missing' mass of nuclei (mass number greater than atomic number)."
+  },
+  {
+   "ref": "Q26(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.3",
+    "12.7.3.2"
+   ],
+   "question": "Researchers conducted an experiment to determine the maximum kinetic energy of electrons emitted from a plate of potassium when irradiated with light of various frequencies.\n\n| Frequency (Hz) | Max recorded KE (J) |\n|---|---|\n| $0.00 \\times 10^{14}$ | 0.00 |\n| $2.00 \\times 10^{14}$ | 0.00 |\n| $4.00 \\times 10^{14}$ | 0.00 |\n| $6.00 \\times 10^{14}$ | $0.31 \\times 10^{-19}$ |\n| $8.00 \\times 10^{14}$ | $1.63 \\times 10^{-19}$ |\n| $10.00 \\times 10^{14}$ | $2.96 \\times 10^{-19}$ |\n| $12.00 \\times 10^{14}$ | $4.28 \\times 10^{-19}$ |\n| $14.00 \\times 10^{14}$ | $5.61 \\times 10^{-19}$ |\n| $16.00 \\times 10^{14}$ | $6.93 \\times 10^{-19}$ |\n\nPlot the data on a graph of maximum kinetic energy ($\\times 10^{-19}$ J, from $-6$ to $10$) against frequency ($\\times 10^{14}$ Hz, from 0 to 18) and add an appropriately extrapolated line of best fit.",
+   "answer": "Plot all nine points with labelled axes and units. The first three points (zero KE, below the threshold frequency) are **not** part of the linear trend. Draw a straight line of best fit through the points from $6 \\times 10^{14}$ Hz upward and extrapolate it back to cut the vertical axis (at about $-3.7 \\times 10^{-19}$ J) and the frequency axis (threshold frequency $f_0 \\approx 5.5 \\times 10^{14}$ Hz), as shown.",
+   "answer_images": [
+    "assets/img/phys-2023-abbotsleigh/q26a-answer.png"
+   ]
+  },
+  {
+   "ref": "Q26(b)",
+   "kind": "written",
+   "marks": 6,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.3.3",
+    "12.7.3.2"
+   ],
+   "question": "Researchers conducted an experiment to determine the maximum kinetic energy of electrons emitted from a plate of potassium when irradiated with light of various frequencies.\n\n| Frequency (Hz) | Max recorded KE (J) |\n|---|---|\n| $0.00 \\times 10^{14}$ | 0.00 |\n| $2.00 \\times 10^{14}$ | 0.00 |\n| $4.00 \\times 10^{14}$ | 0.00 |\n| $6.00 \\times 10^{14}$ | $0.31 \\times 10^{-19}$ |\n| $8.00 \\times 10^{14}$ | $1.63 \\times 10^{-19}$ |\n| $10.00 \\times 10^{14}$ | $2.96 \\times 10^{-19}$ |\n| $12.00 \\times 10^{14}$ | $4.28 \\times 10^{-19}$ |\n| $14.00 \\times 10^{14}$ | $5.61 \\times 10^{-19}$ |\n| $16.00 \\times 10^{14}$ | $6.93 \\times 10^{-19}$ |\n\nA graph of maximum kinetic energy against frequency is drawn, with a straight line of best fit through the non-zero points extrapolated to the vertical axis. Write an equation for the line of best fit and analyse its features.",
+   "answer": "Gradient (using points on the line, e.g. $(6.00 \\times 10^{14}, 0.31 \\times 10^{-19})$ and $(16.00 \\times 10^{14}, 6.93 \\times 10^{-19})$): $m = \\dfrac{(6.93 - 0.31) \\times 10^{-19}}{(16.00 - 6.00) \\times 10^{14}} = 6.6 \\times 10^{-34}\\ \\text{J s}$.\n\nVertical intercept: $b = 0.31 \\times 10^{-19} - 6.62 \\times 10^{-34} \\times 6.00 \\times 10^{14} = -3.7 \\times 10^{-19}$ J.\n\nEquation: $K_{\\max} = 6.6 \\times 10^{-34} f - 3.7 \\times 10^{-19}$, which has the form of Einstein's photoelectric equation $K_{\\max} = hf - \\phi$.\n\n**Features.**\n\n- The **gradient** is Planck's constant $h$ (accepted value $6.626 \\times 10^{-34}$ J s), the universal constant relating a photon's energy to its frequency, $E = hf$; light energy is delivered in discrete quanta (photons).\n- The **vertical intercept** is $-\\phi$, so the work function of potassium is $\\phi \\approx 3.7 \\times 10^{-19}$ J ($\\approx 2.3$ eV): the minimum energy needed to remove an electron from the metal surface.\n- The **horizontal intercept** is the threshold frequency $f_0 = \\phi/h \\approx 5.5 \\times 10^{14}$ Hz. Below it no photoelectrons are emitted however intense the light — which is why the first three readings are zero and must not be included in the line; this contradicts the wave model.\n- The linear relationship shows each electron absorbs the energy of one photon: $hf$ goes into overcoming the work function and the remainder appears as the maximum kinetic energy (conservation of energy). The intensity of the light does not appear in the equation.\n\n*Note:* the paper's sample answer reads the intercept as $-3.8 \\times 10^{-19}$ J; the data give $-3.7 \\times 10^{-19}$ J (its own gradient points give about $-3.6 \\times 10^{-19}$ J).",
+   "answer_images": [
+    "assets/img/phys-2023-abbotsleigh/q26a-answer.png"
+   ]
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.4.2",
+    "12.7.4.1"
+   ],
+   "question": "A light clock is a theoretical device which times how long it takes a photon to bounce between two horizontal mirrors a distance $d$ apart.\n\nExplain how this light clock thought experiment led Einstein to the conclusion that time dilates as you travel close to the speed of light.",
+   "answer": "For an observer moving with the clock, the photon travels straight up and down, a distance $2d$, so one tick takes $t_0 = \\dfrac{2d}{c}$.\n\nFor a stationary observer watching the clock move sideways at speed $v$, the mirrors move while the photon is in flight, so the photon follows a longer diagonal (zig-zag) path. By Einstein's second postulate the speed of light is $c$ for **both** observers, so the stationary observer must measure a longer time for one tick. Using Pythagoras on the diagonal path, $(ct/2)^2 = d^2 + (vt/2)^2$, which gives $t = \\dfrac{t_0}{\\sqrt{1 - v^2/c^2}}$.\n\nSo a moving clock is observed to run slow: time dilates, and the effect becomes significant as $v$ approaches $c$.",
+   "images": [
+    "assets/img/phys-2023-abbotsleigh/q27.png"
+   ]
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "A train is moving at $2.87 \\times 10^{8}\\ \\text{m s}^{-1}$. How much time passes for a passenger on the train if 2.93 ns pass for a person on a stationary platform?",
+   "answer": "The passenger measures proper time $t_0$; the platform observer measures the dilated time $t = 2.93$ ns.\n\n$t_0 = t\\sqrt{1 - \\dfrac{v^2}{c^2}} = 2.93 \\times 10^{-9} \\times \\sqrt{1 - \\dfrac{(2.87 \\times 10^{8})^2}{(3.00 \\times 10^{8})^2}} = 2.93 \\times 10^{-9} \\times 0.291 = 8.53 \\times 10^{-10}$ s."
+  },
+  {
+   "ref": "Q27(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "Explain how either the study of muons OR the Hafele–Keating experiment provides evidence for time dilation.",
+   "answer": "**Muons:** muons are produced high in the atmosphere (about 10–15 km) by cosmic rays and have a mean lifetime of only about $2.2\\ \\mu$s in their own frame. Even at nearly $c$ they could travel only about 660 m in that time, so almost none should reach the ground — yet large numbers are detected at the Earth's surface. Because they travel at about $0.99c$, their lifetime measured in the Earth's frame is dilated by a factor of about 7 or more, so they survive long enough to reach the ground, as predicted by $t = t_0/\\sqrt{1 - v^2/c^2}$.\n\n**OR Hafele–Keating:** caesium atomic clocks were flown around the world on commercial jets, eastward and westward, and compared with identical clocks left at the US Naval Observatory. The flown clocks differed from the ground clocks by amounts (eastward clocks lost time, westward clocks gained time) that agreed with the predictions of special relativity (velocity time dilation) combined with general relativity (gravitational effects), providing direct experimental evidence that moving clocks run slow."
+  },
+  {
+   "ref": "Q28",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "Determine the orbital radius around the Earth at which the acceleration due to gravity is $2.45\\ \\text{m s}^{-2}$. (Mass of the Earth $= 6.0 \\times 10^{24}$ kg.)",
+   "answer": "$g = \\dfrac{GM}{r^2} \\Rightarrow r = \\sqrt{\\dfrac{GM}{g}} = \\sqrt{\\dfrac{6.67 \\times 10^{-11} \\times 6.0 \\times 10^{24}}{2.45}} = 1.28 \\times 10^{7}$ m (measured from the centre of the Earth)."
+  },
+  {
+   "ref": "Q29(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.2.1",
+    "12.6.1.4"
+   ],
+   "question": "Thomson used an apparatus similar to the one shown (a cathode ray tube with charged deflecting plates and an electromagnet) to investigate the properties of cathode rays.\n\nThe charged plates were separated by a distance of 2.00 cm and a potential difference of 13.0 V was applied to them. The magnetic field generated by the electromagnet was measured to be 0.120 mT. When the electric field was turned off, the radius of curvature was measured to be 25.6 cm. Calculate the charge to mass ratio of the particles within the cathode rays as Thomson did.",
+   "answer": "With both fields on, the beam is undeflected, so $F_E = F_B$: $qE = qvB \\Rightarrow v = \\dfrac{E}{B}$, where $E = \\dfrac{V}{d} = \\dfrac{13.0}{0.0200} = 650\\ \\text{V m}^{-1}$.\n\n$v = \\dfrac{650}{0.120 \\times 10^{-3}} = 5.42 \\times 10^{6}\\ \\text{m s}^{-1}$.\n\nWith only the magnetic field, $F_B$ provides the centripetal force: $qvB = \\dfrac{mv^2}{r} \\Rightarrow \\dfrac{q}{m} = \\dfrac{v}{Br} = \\dfrac{E}{B^2 r}$.\n\n$\\dfrac{q}{m} = \\dfrac{650}{(0.120 \\times 10^{-3})^2 \\times 0.256} = 1.76 \\times 10^{11}\\ \\text{C kg}^{-1}$.",
+   "images": [
+    "assets/img/phys-2023-abbotsleigh/q29.png"
+   ]
+  },
+  {
+   "ref": "Q29(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.2.1"
+   ],
+   "question": "Compare Thomson's and Millikan's experiments.",
+   "answer": "**Similarities:** both investigated the properties of the electron, and both used a uniform electric field between charged parallel plates and balanced forces on charged particles.\n\n**Differences:** Thomson balanced the electric and magnetic forces ($qE = qvB$) on a beam of cathode rays and then used circular motion in the magnetic field to find the **charge-to-mass ratio** $q/m$; Millikan balanced the electric force against the weight of individual charged oil drops ($qE = mg$) to measure the **charge** on the drops, showing charge is quantised in multiples of $e = 1.6 \\times 10^{-19}$ C. Combining the two results gave the mass of the electron."
+  },
+  {
+   "ref": "Q30",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.4.1",
+    "12.6.4.3"
+   ],
+   "question": "The graph shows the torque generated in a DC motor as a function of the motor speed: the torque is greatest when the motor is stationary and decreases linearly as the speed increases. Explain the trend.",
+   "answer": "As the coil rotates in the magnetic field, the flux through it changes, so by Faraday's law an emf is induced in the coil. By Lenz's law this **back emf** opposes the supply emf that drives the current. The faster the motor turns, the faster the flux changes and the larger the back emf ($\\varepsilon_{back} \\propto$ speed).\n\nThe net emf across the coil is $V_{supply} - \\varepsilon_{back}$, so the current $I = \\dfrac{V_{supply} - \\varepsilon_{back}}{R}$ decreases as speed increases. Since the torque $\\tau = nIAB\\sin\\theta$ is proportional to the current, the torque decreases (linearly) as the motor speed increases. At zero speed there is no back emf, so the current and torque are at their maximum.",
+   "images": [
+    "assets/img/phys-2023-abbotsleigh/q30.png"
+   ]
+  },
+  {
+   "ref": "Q31",
+   "kind": "written",
+   "marks": 9,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.2.3",
+    "12.7.1.1",
+    "12.7.3.2"
+   ],
+   "question": "Throughout the course you have learnt about four attempts to explain the nature of light:\n\n- Newton's corpuscular model of light\n- Huygens' wave model of light\n- Maxwell's theory of electromagnetism\n- Planck and Einstein's particle (quantum) model of light.\n\nBriefly describe each of these models and analyse the evidence which led scientists to progress their understanding through these various models.",
+   "answer": "**Newton's corpuscular model.** Light consists of tiny, fast particles (corpuscles) that travel in straight lines. It explained rectilinear propagation and sharp shadows, and reflection (elastic bouncing). It explained refraction by assuming corpuscles are attracted towards the denser medium and so **speed up** in water or glass. Because of Newton's authority it was widely accepted for over a century.\n\n**Huygens' wave model.** Light is a wave; every point on a wavefront acts as a source of secondary wavelets. It explained reflection and refraction, predicting light **slows down** in denser media, and also diffraction. Evidence: Young's double-slit experiment (1801) produced an interference pattern of bright and dark bands, which particles could not explain, and Foucault (1850) measured light to be slower in water than in air — contradicting Newton's prediction. Huygens imagined a longitudinal wave, which could not explain polarisation; Fresnel and Young showed light must be a **transverse** wave.\n\n**Maxwell's electromagnetic theory.** Maxwell unified electricity and magnetism; his equations predicted self-propagating transverse electromagnetic waves of oscillating electric and magnetic fields travelling at $c = 1/\\sqrt{\\mu_0\\varepsilon_0} \\approx 3 \\times 10^{8}\\ \\text{m s}^{-1}$ — equal to the measured speed of light — so light was identified as an EM wave. Hertz's production and detection of radio waves confirmed the theory. It explained polarisation (Malus' law), interference and diffraction. However, it predicted that black bodies should emit ever more radiation at short wavelengths (the 'ultraviolet catastrophe'), and that in the photoelectric effect electron energy should depend on intensity and emission should occur at any frequency after a delay — none of which was observed.\n\n**Planck and Einstein's quantum model.** Planck explained the black-body spectrum by assuming energy is emitted in discrete quanta $E = hf$. Einstein extended this: light itself consists of photons of energy $hf$; one photon ejects one electron, so there is a threshold frequency, $K_{\\max} = hf - \\phi$ depends on frequency not intensity, and emission is instantaneous — matching photoelectric experiments (later confirmed by Millikan).\n\n**Analysis.** Each model was replaced or refined when new experimental evidence (interference, the speed of light in water, polarisation, the measured value of $c$, black-body radiation, the photoelectric effect) could not be explained by the existing model. Since the photon model cannot explain interference and diffraction, while the wave model cannot explain the photoelectric effect, the current understanding is **wave–particle duality**: light shows wave properties in propagation and particle properties when it interacts with matter."
+  },
+  {
+   "ref": "Q32(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.2",
+    "12.6.4.2"
+   ],
+   "question": "A coil rotates in a uniform magnetic field between the poles of a magnet, starting from the position shown (plane of the coil perpendicular to the field). The graph shows the resulting change in magnetic flux $\\Phi$ through the coil over time. The coil's circuit is not complete.\n\nSketch a curve on the same axes as the flux graph to represent the variation in induced emf over time in the coil. Label it \"emf 1\".",
+   "answer": "By Faraday's law $\\varepsilon = -N\\dfrac{\\Delta\\Phi}{\\Delta t}$, the emf depends on the **rate of change** of flux (the negative of the gradient of the $\\Phi$–$t$ graph). If $\\Phi = \\Phi_{\\max}\\cos\\omega t$ then $\\varepsilon \\propto \\sin\\omega t$: the emf is zero when the flux is a maximum or minimum (gradient zero) and has its greatest magnitude when the flux is zero (steepest gradient). So emf 1 is a sine curve, $90^\\circ$ out of phase with the flux, with the same period (blue curve).",
+   "images": [
+    "assets/img/phys-2023-abbotsleigh/q32-coil.png",
+    "assets/img/phys-2023-abbotsleigh/q32-flux.png"
+   ],
+   "answer_images": [
+    "assets/img/phys-2023-abbotsleigh/q32-answer.png"
+   ]
+  },
+  {
+   "ref": "Q32(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.2",
+    "12.6.4.2"
+   ],
+   "question": "A coil rotates in a uniform magnetic field between the poles of a magnet, starting from the position shown (plane of the coil perpendicular to the field). The graph shows the resulting change in magnetic flux $\\Phi$ through the coil over time. The coil's circuit is not complete.\n\nSketch, on the same axes, a curve to represent the variation in induced emf over time in the same coil if it is rotated at twice the speed. Label it \"emf 2\".",
+   "answer": "Rotating twice as fast halves the period, so the flux changes twice as often (**twice the frequency**), and the flux changes in half the time, so the rate of change of flux and hence the peak emf doubles (**twice the amplitude**): $\\varepsilon_{\\max} = NBA\\omega$ with $\\omega$ doubled. emf 2 is a sine curve starting at zero with double the amplitude and half the period of emf 1 (red dashed curve).\n\n*Note:* the paper's marking criteria say \"four times the frequency\"; doubling the rotation speed doubles the frequency.",
+   "images": [
+    "assets/img/phys-2023-abbotsleigh/q32-coil.png",
+    "assets/img/phys-2023-abbotsleigh/q32-flux.png"
+   ],
+   "answer_images": [
+    "assets/img/phys-2023-abbotsleigh/q32-answer.png"
+   ]
+  },
+  {
+   "ref": "Q32(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.1"
+   ],
+   "question": "The plane of a coil, which has 500 turns and an enclosed area of $2.25 \\times 10^{-3}\\ \\text{m}^2$, makes an angle of $30^\\circ$ with an external magnetic field of 3.2 T. Calculate the magnetic flux through each turn of the coil.",
+   "answer": "The angle between the field and the **normal** to the coil is $90^\\circ - 30^\\circ = 60^\\circ$ (equivalently, $B_\\parallel = B\\sin 30^\\circ$ is the component perpendicular to the plane).\n\n$\\Phi = BA\\cos 60^\\circ = 3.2 \\times 2.25 \\times 10^{-3} \\times 0.5 = 3.6 \\times 10^{-3}$ Wb."
+  },
+  {
+   "ref": "Q32(d)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.2"
+   ],
+   "question": "A coil with 500 turns and area $2.25 \\times 10^{-3}\\ \\text{m}^2$ rotates in a uniform magnetic field of 3.2 T. If the coil takes 0.52 s to rotate from a position of maximum flux to minimum flux, calculate the magnitude of the (average) induced emf.",
+   "answer": "Maximum flux (coil perpendicular to the field): $\\Phi_{\\max} = BA = 3.2 \\times 2.25 \\times 10^{-3} = 7.2 \\times 10^{-3}$ Wb; minimum flux (coil parallel to the field) $= 0$.\n\n$|\\varepsilon| = N\\dfrac{\\Delta\\Phi}{\\Delta t} = 500 \\times \\dfrac{7.2 \\times 10^{-3}}{0.52} = 6.9$ V."
+  },
+  {
+   "ref": "Q32(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.4.3",
+    "12.6.3.2"
+   ],
+   "question": "A coil is being rotated in a magnetic field by a constant applied external torque; its circuit is incomplete, so no current flows. The coil is now connected to a light bulb which completes the circuit. Explain any changes in the speed of rotation, assuming the applied external torque remains constant.",
+   "answer": "An emf is induced in the rotating coil, but while the circuit is open no current flows, so there is no magnetic force on the coil. When the bulb completes the circuit, a current flows. By Lenz's law this induced current produces a magnetic field (equivalently, forces on the current-carrying sides of the coil, the motor effect) that opposes the change producing it — an opposing torque on the coil.\n\nThe net torque is now less than the applied torque, so the coil slows down. As it slows, the induced emf, current and opposing torque decrease, until the opposing torque equals the applied torque and the coil rotates at a new, lower constant speed. This is required by conservation of energy: the work done by the applied torque is now converted into electrical energy (light and heat in the bulb), rather than all going into the coil's kinetic energy."
+  },
+  {
+   "ref": "Q33",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.8.4.1",
+    "12.8.4.2",
+    "12.7.4.4"
+   ],
+   "question": "$^{19}_{8}\\text{O}$ is a $\\beta^-$ emitter with a half-life of 26.47 s. A sample of $^{19}_{8}\\text{O}$ was placed in a detection box with a sample of an unknown radioactive isotope X. Both samples had the same initial number of atoms, and isotope X has a half-life of 52.94 s.\n\nAfter placing the samples in the box, only half the number of $\\beta^-$ particles predicted were detected. A large number of photons were detected. What is the most likely explanation for these observations?",
+   "answer": "Isotope X is most likely a $\\beta^+$ (positron) emitter.\n\nThe positrons emitted by X meet electrons (including the $\\beta^-$ particles from $^{19}\\text{O}$) and annihilate, converting their mass into energy as pairs of gamma-ray photons ($e^+ + e^- \\rightarrow 2\\gamma$, $E = mc^2$). This explains the large number of photons detected and why fewer $\\beta^-$ particles reach the detector.\n\nBecause X's half-life (52.94 s) is twice that of $^{19}\\text{O}$, its decay constant $\\lambda = \\ln 2/t_{1/2}$ is half as large, so with equal numbers of atoms X initially decays at about half the rate: it emits about half as many positrons as $^{19}\\text{O}$ emits $\\beta^-$ particles. These annihilate about half of the $\\beta^-$ particles, leaving roughly half the predicted number to be detected."
+  },
+  {
+   "ref": "Q34(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "A road has a banked corner of radius 66.0 m. The maximum frictional force that the road can provide is $\\tfrac16$ of the normal contact force. A stationary car of mass 1000.0 kg, when parked on this road, will only just remain at rest rather than slide down the slope.\n\nCalculate the angle of banking of the road.",
+   "answer": "For the parked car on the point of sliding, friction acts up the slope with its maximum value $f = \\tfrac16 N$. Resolving along and perpendicular to the slope (angle $\\theta$):\n\nAlong the slope: $mg\\sin\\theta = f = \\tfrac16 N$. Perpendicular: $N = mg\\cos\\theta$.\n\nSo $mg\\sin\\theta = \\tfrac16 mg\\cos\\theta \\Rightarrow \\tan\\theta = \\tfrac16 \\Rightarrow \\theta = 9.46^\\circ$."
+  },
+  {
+   "ref": "Q34(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.2.2",
+    "12.5.2.3"
+   ],
+   "question": "A road has a banked corner of radius 66.0 m. The maximum frictional force that the road can provide is $\\tfrac16$ of the normal contact force. A stationary car of mass 1000.0 kg, when parked on this road, will only just remain at rest rather than slide down the slope.\n\nGiven that the angle of banking is $9.46^\\circ$, calculate the maximum speed at which the car could go around the bend.",
+   "answer": "At maximum speed the car tends to slide **up** the slope, so maximum friction $f = \\tfrac16 N$ acts **down** the slope. Resolve horizontally (towards the centre) and vertically:\n\nVertical: $N\\cos\\theta - f\\sin\\theta - mg = 0 \\Rightarrow N\\left(\\cos\\theta - \\tfrac16\\sin\\theta\\right) = mg \\Rightarrow N = \\dfrac{1000.0 \\times 9.8}{\\cos 9.46^\\circ - \\tfrac16\\sin 9.46^\\circ} = \\dfrac{9800}{0.9590} = 1.022 \\times 10^{4}$ N.\n\nHorizontal: $N\\sin\\theta + f\\cos\\theta = \\dfrac{mv^2}{r} \\Rightarrow 1.022 \\times 10^{4}\\left(\\sin 9.46^\\circ + \\tfrac16\\cos 9.46^\\circ\\right) = \\dfrac{1000.0\\,v^2}{66.0}$\n\n$1.022 \\times 10^{4} \\times 0.3288 = 3360 = 15.15\\,v^2 \\Rightarrow v^2 = 221.8 \\Rightarrow v = 14.9\\ \\text{m s}^{-1}$.\n\n(Equivalently $v^2 = rg\\,\\dfrac{\\tan\\theta + \\mu}{1 - \\mu\\tan\\theta} = 66.0 \\times 9.8 \\times \\dfrac{1/3}{35/36}$.)"
+  }
+ ]
+}

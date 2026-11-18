@@ -1,0 +1,659 @@
+{
+ "id": "ext2-2026-st-george-girls",
+ "course": "extension2",
+ "school": "St George Girls",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "St George Girls 2026 w. sol"
+ },
+ "indexed": "2026-11-18",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.13"
+   ],
+   "question": "What is the value of $\\dfrac{1-3i}{-1-3i}$?",
+   "answer": "Multiply top and bottom by the conjugate $-1+3i$:\n$$\\frac{(1-3i)(-1+3i)}{(-1-3i)(-1+3i)} = \\frac{-1+3i+3i-9i^2}{1+9} = \\frac{8+6i}{10} = \\frac45 + \\frac35 i.$$\n**(C)**",
+   "options": [
+    "$-1+\\frac35 i$",
+    "$-1$",
+    "$\\frac45+\\frac35 i$",
+    "$\\frac45$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.11"
+   ],
+   "question": "Which of the following is the contrapositive of the statement:\n\n\"If teachers are on holidays, then they do not answer e-mails from students.\"",
+   "answer": "The contrapositive of \"if $P$ then $Q$\" is \"if not $Q$ then not $P$\". Not $Q$: they answer e-mails from students; not $P$: they are not on holidays. **(B)**",
+   "options": [
+    "If teachers are not on holidays, then they answer e-mails from students.",
+    "If teachers answer e-mails from students, then they are not on holidays.",
+    "If teachers do not answer e-mails from students, then they are on holidays.",
+    "If teachers are not on holidays, then they do not answer e-mails from students."
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.11",
+    "12.3.2.1"
+   ],
+   "question": "A complex number $z$ lies on the unit circle in the second quadrant of the complex plane, as shown in the diagram.\n\nWhich of the points marked $A$, $B$, $C$ or $D$ best shows the position of $z\\overline{z}$?",
+   "answer": "$z\\overline{z} = |z|^2 = 1^2 = 1$, which is the point $1$ on the real axis. **(B)**",
+   "options": [
+    "Point $A$",
+    "Point $B$",
+    "Point $C$",
+    "Point $D$"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/ext2-2026-st-george-girls/q3.png"
+   ]
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.10",
+    "12.2.2.1"
+   ],
+   "question": "The two lines $\\mathbf{r}_1 = \\begin{pmatrix}0\\\\1\\\\1\\end{pmatrix} + \\lambda\\begin{pmatrix}1\\\\2\\\\-1\\end{pmatrix}$ and $\\mathbf{r}_2 = \\begin{pmatrix}2\\\\6\\\\2\\end{pmatrix} + \\mu\\begin{pmatrix}0\\\\1\\\\3\\end{pmatrix}$ intersect, where $\\lambda, \\mu \\in \\mathbb{R}$.\n\nWhat is the approximate size of the angle between $\\mathbf{r}_1$ and $\\mathbf{r}_2$?",
+   "answer": "Using the direction vectors:\n$$\\cos\\theta = \\frac{\\begin{pmatrix}1\\\\2\\\\-1\\end{pmatrix}\\cdot\\begin{pmatrix}0\\\\1\\\\3\\end{pmatrix}}{\\sqrt{6}\\,\\sqrt{10}} = \\frac{0+2-3}{\\sqrt{60}} = -\\frac{1}{\\sqrt{60}},$$\nso $\\theta = 180^\\circ - \\cos^{-1}\\frac{1}{\\sqrt{60}} \\approx 97^\\circ$. **(C)**\n\n*Note:* this is the angle between the direction vectors as given (the paper's answer). The acute angle between the two lines would be $\\approx 83^\\circ$ (option B).",
+   "options": [
+    "$50^\\circ$",
+    "$83^\\circ$",
+    "$97^\\circ$",
+    "$140^\\circ$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.7",
+    "12.1.1.6"
+   ],
+   "question": "What is the negation of the statement:\n$$\\text{\"}\\forall p \\in \\mathbb{Z}^+,\\ \\exists q > 0 \\text{ such that } q > p\\text{\"?}$$",
+   "answer": "Negate each part: $\\forall \\to \\exists$, $\\exists \\to \\forall$, and $q > p \\to q \\le p$:\n\"$\\exists p \\in \\mathbb{Z}^+$ such that $\\forall q > 0$, $q \\le p$\". **(B)**",
+   "options": [
+    "$\\forall p \\in \\mathbb{Z}^+, \\exists q > 0$ such that $q \\le p$.",
+    "$\\exists p \\in \\mathbb{Z}^+$ such that $\\forall q > 0,\\ q \\le p$.",
+    "$\\forall p \\in \\mathbb{Z}^+, \\exists q > 0$ such that $q < p$.",
+    "$\\exists p \\in \\mathbb{Z}^+$ such that $\\forall q > 0,\\ q < p$."
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.18",
+    "12.2.1.17"
+   ],
+   "question": "The line $\\mathbf{r} = \\begin{pmatrix}1\\\\-1\\\\3\\end{pmatrix} + \\lambda\\begin{pmatrix}2\\\\-4\\\\k\\end{pmatrix}$, where $k, \\lambda \\in \\mathbb{R}$, is a tangent to a sphere centred at $(2, 1, 0)$.\n\nThe point of contact between the tangent and the sphere is $(1, -1, 3)$. What is the value of $k$?",
+   "answer": "A tangent is perpendicular to the radius at the point of contact $T(1,-1,3)$. With centre $C(2,1,0)$:\n$$\\overrightarrow{TC} = \\begin{pmatrix}1\\\\2\\\\-3\\end{pmatrix}, \\qquad \\begin{pmatrix}1\\\\2\\\\-3\\end{pmatrix}\\cdot\\begin{pmatrix}2\\\\-4\\\\k\\end{pmatrix} = 2 - 8 - 3k = 0 \\implies k = -2.$$\n**(C)**",
+   "options": [
+    "$k=2$",
+    "$k=1$",
+    "$k=-2$",
+    "$k=-1$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.3.2",
+    "11.1.9.6"
+   ],
+   "question": "Consider the even function $f(x)$ and its primitive function $F(x)$.\n\nWhich of the following must be equal to $\\displaystyle \\frac12\\int_0^a \\left[f(x) + f(-x)\\right]dx$?",
+   "answer": "Since $f$ is even, $f(-x) = f(x)$, so\n$$\\frac12\\int_0^a [f(x)+f(-x)]\\,dx = \\frac12\\int_0^a 2f(x)\\,dx = \\int_0^a f(x)\\,dx = F(a) - F(0).$$\n**(D)**",
+   "course": "advanced",
+   "options": [
+    "$F\\left(\\frac a2\\right) - F\\left(-\\frac a2\\right)$",
+    "$F\\left(\\frac a2\\right) - F(0)$",
+    "$F(a) - F(-a)$",
+    "$F(a) - F(0)$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.13",
+    "12.2.1.14",
+    "12.2.1.12"
+   ],
+   "question": "Which of the following diagrams best represents this parametrisation, where $t \\in \\mathbb{R}$?\n$$\\mathbf{r}(t) = (\\sin t)\\,\\mathbf{i} + (\\cos t)\\,\\mathbf{j} + (e^t)\\,\\mathbf{k}$$",
+   "answer": "$x^2 + y^2 = \\sin^2 t + \\cos^2 t = 1$, so viewed from above the curve lies on the circle $x^2+y^2=1$ (a cylinder of radius 1): this rules out A and D. Also $z = e^t > 0$ always and increases with $t$.\n\nTrack the points: $t = 0$: $(0, 1, 1)$; $t = \\frac{\\pi}{2}$: $(1, 0, e^{\\pi/2})$; $t = \\pi$: $(0, -1, e^{\\pi})$. So for $0 \\le t \\le \\pi$ the curve has $0 \\le x \\le 1$ while $y$ goes from $1$ to $-1$ and the curve rises steeply — this matches C (in B the rising part is on the wrong side). As $t \\to -\\infty$ the curve winds around the circle closer and closer to the $xy$-plane. **(C)**",
+   "options": [
+    "![Graph A](assets/img/ext2-2026-st-george-girls/q8a.png)",
+    "![Graph B](assets/img/ext2-2026-st-george-girls/q8b.png)",
+    "![Graph C](assets/img/ext2-2026-st-george-girls/q8c.png)",
+    "![Graph D](assets/img/ext2-2026-st-george-girls/q8d.png)"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Which of the following does $\\displaystyle\\int \\frac{x}{\\sqrt{x+5}}\\,dx$ evaluate to?",
+   "answer": "Let $u^2 = x + 5$, so $x = u^2 - 5$ and $dx = 2u\\,du$:\n$$\\int \\frac{u^2-5}{u}\\cdot 2u\\,du = 2\\int (u^2 - 5)\\,du = \\frac23 u^3 - 10u + C = \\frac23\\sqrt{x+5}\\,\\big[(x+5) - 15\\big] + C = \\frac23\\sqrt{x+5}\\,(x-10) + C.$$\n**(D)**",
+   "options": [
+    "$2\\sqrt{x+5} + C$",
+    "$\\frac23\\sqrt{(x+5)^3} + C$",
+    "$\\frac23\\left(\\sqrt{(x+5)^3} - 10\\sqrt{x+5}\\right) + C$",
+    "$\\frac23\\sqrt{(x+5)}\\,(x-10) + C$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.10",
+    "12.3.4.11"
+   ],
+   "question": "The points $P$ and $Q$ are represented by the complex numbers $z$ and $w$ respectively.\n\nIf $\\triangle OPQ$ is an isosceles triangle with $\\angle POQ = \\dfrac{\\pi}{2}$, which of the following is **not** necessarily true?",
+   "answer": "Since $|z| = |w|$ and $\\angle POQ = \\frac{\\pi}{2}$, $z = \\pm iw$.\n\n- A: $z^2 = -w^2$, so $z^2 + w^2 = 0$ — always true.\n- B: by Pythagoras $|z-w|^2 = |z|^2 + |w|^2 = 2|z|^2$, so $\\frac{|z-w|}{|z|} = \\sqrt2$ — always true.\n- D: $z + w$ and $z - w$ are the diagonals of a square, so they have equal length — always true.\n- C: depends on which of $P$, $Q$ is anticlockwise of the other (and on principal arguments). E.g. $z = i$, $w = 1$ gives $\\text{Arg}(w) - \\text{Arg}(z) = 0 - \\frac{\\pi}{2} = -\\frac{\\pi}{2}$.\n\n**(C)**",
+   "options": [
+    "$z^2 + w^2 = 0$",
+    "$\\dfrac{|z-w|}{|z|} = \\sqrt2$",
+    "$\\text{Arg}(w) - \\text{Arg}(z) = \\dfrac{\\pi}{2}$",
+    "$|z-w| = |z+w|$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.3",
+    "12.3.2.5"
+   ],
+   "question": "The complex numbers $w$ and $z$ are given by $w = 4\\left(\\cos\\left(-\\dfrac{2\\pi}{3}\\right) + i\\sin\\left(-\\dfrac{2\\pi}{3}\\right)\\right)$ and $z = 2\\left(\\cos\\dfrac{\\pi}{6} + i\\sin\\dfrac{\\pi}{6}\\right)$.\n\nBy showing all necessary working, find a simplified form for the complex number $w^3$.",
+   "answer": "By de Moivre's theorem:\n$$w^3 = 4^3\\left(\\cos(-2\\pi) + i\\sin(-2\\pi)\\right) = 64(1 + 0i) = 64.$$"
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.5",
+    "12.3.2.6"
+   ],
+   "question": "The complex numbers $w$ and $z$ are given by $w = 4\\left(\\cos\\left(-\\dfrac{2\\pi}{3}\\right) + i\\sin\\left(-\\dfrac{2\\pi}{3}\\right)\\right)$ and $z = 2\\left(\\cos\\dfrac{\\pi}{6} + i\\sin\\dfrac{\\pi}{6}\\right)$.\n\nBy showing all necessary working, find the Cartesian form for the complex number $\\dfrac{w}{\\overline{z}}$.",
+   "answer": "$\\overline{z} = 2\\left(\\cos\\left(-\\frac{\\pi}{6}\\right) + i\\sin\\left(-\\frac{\\pi}{6}\\right)\\right)$, so\n$$\\frac{w}{\\overline{z}} = \\frac42\\left(\\cos\\left(-\\frac{2\\pi}{3} + \\frac{\\pi}{6}\\right) + i\\sin\\left(-\\frac{2\\pi}{3} + \\frac{\\pi}{6}\\right)\\right) = 2\\left(\\cos\\left(-\\frac{\\pi}{2}\\right) + i\\sin\\left(-\\frac{\\pi}{2}\\right)\\right) = -2i.$$"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.5",
+    "12.2.1.2"
+   ],
+   "question": "Express the equation of the line $4x - y = 2$ in the form $\\mathbf{r} = \\mathbf{u} + \\lambda\\mathbf{v}$, where $\\lambda$ is a real number.",
+   "answer": "$y = 4x - 2$: the line has gradient $4$ (direction vector $\\begin{pmatrix}1\\\\4\\end{pmatrix}$) and passes through the $y$-intercept $(0, -2)$:\n$$\\mathbf{r} = \\begin{pmatrix}0\\\\-2\\end{pmatrix} + \\lambda\\begin{pmatrix}1\\\\4\\end{pmatrix}, \\quad \\lambda \\in \\mathbb{R}.$$"
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.1",
+    "12.3.1.14"
+   ],
+   "question": "Solve $z^2 - 2z + 4 - 4i = 0$. Give your answers in the form $a + ib$, where $a$ and $b$ are real.",
+   "answer": "By the quadratic formula:\n$$z = \\frac{2 \\pm \\sqrt{4 - 4(4-4i)}}{2} = \\frac{2 \\pm \\sqrt{-12+16i}}{2} = 1 \\pm \\sqrt{-3+4i}.$$\nLet $(a+ib)^2 = -3 + 4i$: $a^2 - b^2 = -3$ and $2ab = 4$. Also $a^2 + b^2 = |-3+4i| = 5$. Adding: $2a^2 = 2$, so $a = \\pm1$, and $b = \\frac{2}{a} = \\pm 2$. So $\\sqrt{-3+4i} = \\pm(1+2i)$.\n$$z = 1 \\pm (1 + 2i) \\implies z = 2 + 2i \\quad\\text{or}\\quad z = -2i.$$"
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.5"
+   ],
+   "question": "Using the substitution $t = \\tan\\dfrac{x}{2}$, evaluate $\\displaystyle\\int_0^{\\frac{\\pi}{2}} \\frac{3}{5\\cos x + 3\\sin x + 5}\\,dx$.",
+   "answer": "$x = 2\\tan^{-1}t$, so $dx = \\dfrac{2}{1+t^2}\\,dt$; $\\cos x = \\dfrac{1-t^2}{1+t^2}$, $\\sin x = \\dfrac{2t}{1+t^2}$. When $x = 0$, $t = 0$; when $x = \\frac{\\pi}{2}$, $t = 1$.\n$$\\int_0^1 \\frac{3}{5\\cdot\\frac{1-t^2}{1+t^2} + 3\\cdot\\frac{2t}{1+t^2} + 5}\\cdot\\frac{2}{1+t^2}\\,dt = \\int_0^1 \\frac{6}{5 - 5t^2 + 6t + 5 + 5t^2}\\,dt = \\int_0^1 \\frac{6}{6t + 10}\\,dt$$\n$$= \\Big[\\ln|6t + 10|\\Big]_0^1 = \\ln 16 - \\ln 10 = \\ln\\frac85.$$"
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.2.2",
+    "12.1.1.1"
+   ],
+   "question": "Disprove the statement:\n\n\"The product of two irrational numbers is always irrational.\"",
+   "answer": "One counterexample is enough. $\\sqrt2$ and $-\\sqrt2$ are both irrational, but\n$$\\sqrt2 \\times (-\\sqrt2) = -2,$$\nwhich is rational. Hence the statement is false."
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.17",
+    "12.2.1.18"
+   ],
+   "question": "The Cartesian equation of a sphere is given as $$x^2 - 4x + y^2 + 2y + z^2 - 6z + 5 = 0.$$\n\nDetermine the centre and radius of the sphere.",
+   "answer": "Complete the squares:\n$$(x^2 - 4x + 4) + (y^2 + 2y + 1) + (z^2 - 6z + 9) = -5 + 4 + 1 + 9$$\n$$(x-2)^2 + (y+1)^2 + (z-3)^2 = 9.$$\nCentre $(2, -1, 3)$, radius $3$."
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.18",
+    "12.2.1.17"
+   ],
+   "question": "The Cartesian equation of a sphere is given as $$x^2 - 4x + y^2 + 2y + z^2 - 6z + 5 = 0.$$\n\nA line has vector equation $\\mathbf{r} = \\begin{pmatrix}1\\\\-2\\\\0\\end{pmatrix} + \\lambda\\begin{pmatrix}3\\\\2\\\\1\\end{pmatrix}$, where $\\lambda \\in \\mathbb{R}$.\n\nDetermine the point(s) of intersection between the line and the sphere.",
+   "answer": "The sphere is $(x-2)^2 + (y+1)^2 + (z-3)^2 = 9$ (centre $(2,-1,3)$, radius 3). On the line, $x = 1 + 3\\lambda$, $y = -2 + 2\\lambda$, $z = \\lambda$. Substituting:\n$$(3\\lambda - 1)^2 + (2\\lambda - 1)^2 + (\\lambda - 3)^2 = 9$$\n$$9\\lambda^2 - 6\\lambda + 1 + 4\\lambda^2 - 4\\lambda + 1 + \\lambda^2 - 6\\lambda + 9 = 9$$\n$$14\\lambda^2 - 16\\lambda + 2 = 0 \\implies 7\\lambda^2 - 8\\lambda + 1 = 0 \\implies (7\\lambda - 1)(\\lambda - 1) = 0.$$\n$\\lambda = 1$: $(4, 0, 1)$. $\\quad\\lambda = \\frac17$: $\\left(\\frac{10}{7}, -\\frac{12}{7}, \\frac17\\right)$.\n\nThe points of intersection are $(4, 0, 1)$ and $\\left(\\frac{10}{7}, -\\frac{12}{7}, \\frac17\\right)$."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.9",
+    "12.4.1.11"
+   ],
+   "question": "Find $\\displaystyle\\int \\frac{2x-1}{x^2+2x+3}\\,dx$.",
+   "answer": "Split the numerator to make the derivative of the denominator, then complete the square:\n$$\\int \\frac{2x-1}{x^2+2x+3}\\,dx = \\int \\frac{2x+2}{x^2+2x+3}\\,dx - 3\\int \\frac{dx}{(x+1)^2 + (\\sqrt2)^2}$$\n$$= \\ln(x^2+2x+3) - \\frac{3}{\\sqrt2}\\tan^{-1}\\left(\\frac{x+1}{\\sqrt2}\\right) + C.$$\n(No absolute value is needed since $x^2 + 2x + 3 = (x+1)^2 + 2 > 0$.)"
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_1^e x\\ln x\\,dx$.",
+   "answer": "By parts with $u = \\ln x$, $v' = x$, so $u' = \\frac1x$, $v = \\frac{x^2}{2}$:\n$$\\int_1^e x\\ln x\\,dx = \\left[\\frac{x^2\\ln x}{2}\\right]_1^e - \\int_1^e \\frac{x}{2}\\,dx = \\frac{e^2}{2} - \\left[\\frac{x^2}{4}\\right]_1^e = \\frac{e^2}{2} - \\frac{e^2 - 1}{4} = \\frac{e^2+1}{4}.$$"
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.1.12",
+    "12.1.2.3"
+   ],
+   "question": "Prove by contraposition that for all $n \\in \\mathbb{N}$ where $n > 1$, if $2^n - 1$ is a prime number, then $n$ is a prime number.",
+   "answer": "The contrapositive: for all $n \\in \\mathbb{N}$ with $n > 1$, if $n$ is composite, then $2^n - 1$ is composite.\n\nLet $n$ be composite, so $n = xy$ where $x, y \\in \\mathbb{N}$ and $x, y > 1$. Using $a^m - 1 = (a-1)(a^{m-1} + a^{m-2} + \\dots + a + 1)$ with $a = 2^x$, $m = y$:\n$$2^n - 1 = (2^x)^y - 1 = (2^x - 1)\\left(1 + 2^x + (2^x)^2 + \\dots + (2^x)^{y-1}\\right).$$\nSince $x \\ge 2$, $2^x - 1 \\ge 3 > 1$; since $y \\ge 2$, the second factor is at least $1 + 2^x > 1$. So $2^n - 1$ is a product of two integers both greater than 1, i.e. it is not prime.\n\nThe contrapositive is true, so the original statement is true: if $2^n - 1$ is prime, then $n$ is prime."
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Find integers $A$, $B$ and $C$ such that:\n$$\\frac{x^2+3x+18}{(x^2+4)(x-5)} = \\frac{Ax+B}{x^2+4} + \\frac{C}{x-5}$$",
+   "answer": "$x^2 + 3x + 18 \\equiv (Ax+B)(x-5) + C(x^2+4)$.\n\n$x = 5$: $25 + 15 + 18 = 29C \\implies C = 2$.\n\n$x = 0$: $18 = -5B + 4C = -5B + 8 \\implies B = -2$.\n\n$x = 1$: $22 = (A - 2)(-4) + 2(5) = -4A + 18 \\implies A = -1$.\n\nSo $A = -1$, $B = -2$, $C = 2$."
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.8"
+   ],
+   "question": "It is given that\n$$\\frac{x^2+3x+18}{(x^2+4)(x-5)} = \\frac{-x-2}{x^2+4} + \\frac{2}{x-5}.$$\nHence, find $\\displaystyle\\int \\frac{x^2+3x+18}{(x^2+4)(x-5)}\\,dx$.",
+   "answer": "$$\\int \\left(-\\frac12\\cdot\\frac{2x}{x^2+4} - \\frac{2}{x^2+4} + \\frac{2}{x-5}\\right)dx = -\\frac12\\ln(x^2+4) - \\tan^{-1}\\left(\\frac x2\\right) + 2\\ln|x-5| + C.$$"
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.11",
+    "12.2.4.10"
+   ],
+   "question": "It is given that $OABC$ is a parallelogram. The points $A$ and $C$ are represented by position vectors $\\mathbf{a} = 2\\mathbf{i} + \\mathbf{j} - 2\\mathbf{k}$ and $\\mathbf{c} = -3\\mathbf{i} + 4\\mathbf{j} + 2\\mathbf{k}$ respectively, and $O$ is the origin.\n\nFind the magnitude of the vector projection of $\\mathbf{a}$ perpendicular to $\\mathbf{c}$.",
+   "answer": "$\\mathbf{a}\\cdot\\mathbf{c} = -6 + 4 - 4 = -6$, $|\\mathbf{c}|^2 = 9 + 16 + 4 = 29$, $|\\mathbf{a}|^2 = 4 + 1 + 4 = 9$.\n\nLet $X$ be the foot of the perpendicular from $A$ to $OC$. Then\n$$\\overrightarrow{OX} = \\text{proj}_{\\mathbf{c}}\\mathbf{a} = \\frac{\\mathbf{a}\\cdot\\mathbf{c}}{|\\mathbf{c}|^2}\\mathbf{c} = -\\frac{6}{29}\\mathbf{c}, \\qquad |\\overrightarrow{OX}| = \\frac{6}{29}\\sqrt{29} = \\frac{6}{\\sqrt{29}}.$$\nThe perpendicular component $\\overrightarrow{XA} = \\mathbf{a} - \\text{proj}_{\\mathbf{c}}\\mathbf{a}$ has\n$$|\\overrightarrow{XA}|^2 = |\\mathbf{a}|^2 - |\\overrightarrow{OX}|^2 = 9 - \\frac{36}{29} = \\frac{225}{29}, \\qquad |\\overrightarrow{XA}| = \\frac{15}{\\sqrt{29}}.$$",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.11"
+   ],
+   "question": "It is given that $OABC$ is a parallelogram. The points $A$ and $C$ are represented by position vectors $\\mathbf{a} = 2\\mathbf{i} + \\mathbf{j} - 2\\mathbf{k}$ and $\\mathbf{c} = -3\\mathbf{i} + 4\\mathbf{j} + 2\\mathbf{k}$ respectively, and $O$ is the origin.\n\nThe magnitude of the vector projection of $\\mathbf{a}$ perpendicular to $\\mathbf{c}$ is $\\dfrac{15}{\\sqrt{29}}$. Using this result, find the area of parallelogram $OABC$.",
+   "answer": "Take $OC$ as the base; the perpendicular height is the component of $\\mathbf{a}$ perpendicular to $\\mathbf{c}$:\n$$\\text{Area} = |\\mathbf{c}| \\times \\frac{15}{\\sqrt{29}} = \\sqrt{29}\\times\\frac{15}{\\sqrt{29}} = 15 \\text{ units}^2.$$",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.5",
+    "12.3.5.3",
+    "12.3.5.4"
+   ],
+   "question": "Sketch the region defined by $|z - 2 + i| \\le 3$ and $-\\dfrac{\\pi}{3} < \\arg z \\le \\dfrac{\\pi}{4}$.\n\nYou are NOT required to find the coordinates of any points of intersection.",
+   "answer": "- $|z - (2 - i)| \\le 3$: the closed disc with centre $(2, -1)$ and radius $3$ (the origin is inside it, since $|0 - 2 + i| = \\sqrt5 < 3$).\n- $-\\frac{\\pi}{3} < \\arg z \\le \\frac{\\pi}{4}$: the sector between the ray from the origin at angle $\\frac{\\pi}{4}$ (included, solid) and the ray at angle $-\\frac{\\pi}{3}$ (excluded, dashed). The origin itself is excluded (open circle), as $\\arg 0$ is undefined.\n\nThe region is the part of the disc between these two rays: bounded by the solid ray $\\arg z = \\frac{\\pi}{4}$ out to the circle (closed endpoint), the circular arc (solid), and the dashed ray $\\arg z = -\\frac{\\pi}{3}$ (open endpoint on the circle).",
+   "answer_images": [
+    "assets/img/ext2-2026-st-george-girls/q13c-ans.png"
+   ]
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.11",
+    "12.4.1.6"
+   ],
+   "question": "Find $\\displaystyle\\int \\frac{dx}{\\sqrt{4x - x^2 - 3}}$.",
+   "answer": "Complete the square: $4x - x^2 - 3 = -(x^2 - 4x + 4) + 4 - 3 = 1 - (x-2)^2$. So\n$$\\int \\frac{dx}{\\sqrt{1 - (x-2)^2}} = \\sin^{-1}(x-2) + C.$$"
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Prove by mathematical induction that\n$$\\sum_{r=0}^{n}\\left(\\frac12\\right)^r = 2 - \\frac{1}{2^n} \\quad\\text{for all integers } n \\ge 1.$$",
+   "answer": "**Base case** $n = 1$: LHS $= \\left(\\frac12\\right)^0 + \\left(\\frac12\\right)^1 = \\frac32$; RHS $= 2 - \\frac12 = \\frac32$. True.\n\n**Inductive step.** Assume true for $n = k$: $\\displaystyle\\sum_{r=0}^{k}\\left(\\frac12\\right)^r = 2 - \\frac{1}{2^k}$. Prove for $n = k+1$: $\\displaystyle\\sum_{r=0}^{k+1}\\left(\\frac12\\right)^r = 2 - \\frac{1}{2^{k+1}}$.\n$$\\text{LHS} = \\sum_{r=0}^{k}\\left(\\frac12\\right)^r + \\left(\\frac12\\right)^{k+1} = 2 - \\frac{1}{2^k} + \\frac{1}{2^{k+1}} = 2 - \\frac{2}{2^{k+1}} + \\frac{1}{2^{k+1}} = 2 - \\frac{1}{2^{k+1}} = \\text{RHS}.$$\nSo if true for $n = k$, it is true for $n = k+1$.\n\nHence by mathematical induction the result is true for all integers $n \\ge 1$.",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.12",
+    "12.3.4.5"
+   ],
+   "question": "It is given that $\\omega$ is a non-real fifth root of unity.\n\nProve that $\\omega + \\omega^2 + \\omega^3 + \\omega^4 = -1$.",
+   "answer": "$\\omega^5 = 1$, so $\\omega^5 - 1 = 0$:\n$$(\\omega - 1)(\\omega^4 + \\omega^3 + \\omega^2 + \\omega + 1) = 0.$$\nSince $\\omega$ is non-real, $\\omega \\ne 1$, so $\\omega^4 + \\omega^3 + \\omega^2 + \\omega + 1 = 0$, i.e. $\\omega + \\omega^2 + \\omega^3 + \\omega^4 = -1$."
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.12"
+   ],
+   "question": "It is given that $\\omega$ is a non-real fifth root of unity. You may use the result $\\omega + \\omega^2 + \\omega^3 + \\omega^4 = -1$.\n\nVerify that $\\omega - \\omega^4$ is a root of $z^4 + 5z^2 + 5 = 0$.",
+   "answer": "Using $\\omega^5 = 1$ (so $\\omega^7 = \\omega^2$, $\\omega^{10} = 1$, $\\omega^{13} = \\omega^3$, $\\omega^{16} = \\omega$, $\\omega^8 = \\omega^3$):\n$$(\\omega - \\omega^4)^4 = \\omega^4 - 4\\omega^7 + 6\\omega^{10} - 4\\omega^{13} + \\omega^{16} = \\omega^4 - 4\\omega^2 + 6 - 4\\omega^3 + \\omega$$\n$$5(\\omega - \\omega^4)^2 = 5(\\omega^2 - 2\\omega^5 + \\omega^8) = 5\\omega^2 - 10 + 5\\omega^3.$$\nSo\n$$(\\omega-\\omega^4)^4 + 5(\\omega-\\omega^4)^2 + 5 = \\omega^4 + \\omega^3 + \\omega^2 + \\omega + (6 - 10 + 5) = -1 + 1 = 0.$$\nHence $z = \\omega - \\omega^4$ is a root of $z^4 + 5z^2 + 5 = 0$."
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.11"
+   ],
+   "question": "Find $\\displaystyle\\int \\sqrt{4 - x^2}\\,dx$.",
+   "answer": "Let $x = 2\\sin\\theta$, $dx = 2\\cos\\theta\\,d\\theta$ (with $-\\frac{\\pi}{2} \\le \\theta \\le \\frac{\\pi}{2}$, so $\\cos\\theta \\ge 0$):\n$$\\int \\sqrt{4 - 4\\sin^2\\theta}\\cdot 2\\cos\\theta\\,d\\theta = \\int 4\\cos^2\\theta\\,d\\theta = 2\\int (1 + \\cos 2\\theta)\\,d\\theta = 2\\theta + \\sin 2\\theta + C = 2\\theta + 2\\sin\\theta\\cos\\theta + C.$$\nWith $\\sin\\theta = \\frac x2$, $\\cos\\theta = \\frac{\\sqrt{4-x^2}}{2}$, $\\theta = \\sin^{-1}\\frac x2$:\n$$\\int \\sqrt{4 - x^2}\\,dx = 2\\sin^{-1}\\left(\\frac x2\\right) + \\frac{x\\sqrt{4-x^2}}{2} + C.$$"
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.11",
+    "12.4.1.6"
+   ],
+   "question": "Find $\\displaystyle\\int \\frac{dx}{e^x + e^{-x}}$.",
+   "answer": "Multiply top and bottom by $e^x$:\n$$\\int \\frac{e^x}{e^{2x} + 1}\\,dx = \\int \\frac{e^x}{1 + (e^x)^2}\\,dx = \\tan^{-1}(e^x) + C$$\n(substituting $u = e^x$, $du = e^x\\,dx$ gives $\\int \\frac{du}{1+u^2}$)."
+  },
+  {
+   "ref": "Q14(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.10",
+    "12.2.1.3"
+   ],
+   "question": "The vector equation of a line $L_1$ is $\\mathbf{r}_1 = \\begin{pmatrix}1\\\\2\\\\3\\end{pmatrix} + \\mu\\begin{pmatrix}1\\\\0\\\\-1\\end{pmatrix}$, where $\\mu$ is a real number.\n\nLet $L_2$ be the line passing through the point $Q(2, 4, -1)$ and perpendicular to $L_1$.\n\nFind a vector representation of $L_2$ if it intersects $L_1$.",
+   "answer": "Let $P = (1 + \\mu, 2, 3 - \\mu)$ be the point of intersection on $L_1$. Then\n$$\\overrightarrow{QP} = \\begin{pmatrix}\\mu - 1\\\\-2\\\\4 - \\mu\\end{pmatrix}.$$\nFor $\\overrightarrow{QP} \\perp L_1$: $\\begin{pmatrix}\\mu - 1\\\\-2\\\\4-\\mu\\end{pmatrix}\\cdot\\begin{pmatrix}1\\\\0\\\\-1\\end{pmatrix} = \\mu - 1 - 4 + \\mu = 0 \\implies \\mu = \\frac52.$\n\nSo $\\overrightarrow{QP} = \\begin{pmatrix}\\frac32\\\\-2\\\\\\frac32\\end{pmatrix} = \\frac12\\begin{pmatrix}3\\\\-4\\\\3\\end{pmatrix}$ and\n$$L_2:\\ \\mathbf{r}_2 = \\begin{pmatrix}2\\\\4\\\\-1\\end{pmatrix} + \\lambda\\begin{pmatrix}3\\\\-4\\\\3\\end{pmatrix}, \\quad \\lambda \\in \\mathbb{R}$$\n(meeting $L_1$ at $\\left(\\frac72, 2, \\frac12\\right)$)."
+  },
+  {
+   "ref": "Q15(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.2.7",
+    "11.2.2.6"
+   ],
+   "question": "Given that $n + 1$ is a factor of $P(n)$, fully factorise $P(n) = n^4 + 6n^3 + 11n^2 + 6n$ for $n \\in \\mathbb{Z}^+$.",
+   "answer": "$P(n) = n(n^3 + 6n^2 + 11n + 6)$. Dividing $n^3 + 6n^2 + 11n + 6$ by $n + 1$ gives $n^2 + 5n + 6 = (n+2)(n+3)$. So\n$$P(n) = n(n+1)(n+2)(n+3).$$",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q15(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.2.3"
+   ],
+   "question": "It is given that $n^4 + 6n^3 + 11n^2 + 6n = n(n+1)(n+2)(n+3)$.\n\nHence, prove by contradiction that for $n \\in \\mathbb{Z}^+$, $n^4 + 6n^3 + 11n^2 + 6n + 1$ is not divisible by $12$.",
+   "answer": "Suppose, for contradiction, that $n^4 + 6n^3 + 11n^2 + 6n + 1 = 12M$ for some $M \\in \\mathbb{Z}$.\n\nNow $n^4 + 6n^3 + 11n^2 + 6n = n(n+1)(n+2)(n+3)$ is a product of four consecutive integers. Among them at least one is divisible by $3$ and two are even, one of which is divisible by $4$, so the product is divisible by $24$, and hence by $12$: it equals $12P$ for some $P \\in \\mathbb{Z}^+$.\n\nThen $12P + 1 = 12M$, i.e. $12(M - P) = 1$, which is impossible since $1$ is not divisible by $12$ ($12P + 1$ leaves remainder $1$ on division by $12$).\n\nThis contradiction shows the assumption is false, so $n^4 + 6n^3 + 11n^2 + 6n + 1$ is not divisible by $12$."
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.15"
+   ],
+   "question": "Prove that $\\displaystyle\\int_0^a f(x)\\,dx = \\int_0^a f(a - x)\\,dx$.",
+   "answer": "In the RHS let $u = a - x$, so $du = -dx$; when $x = 0$, $u = a$; when $x = a$, $u = 0$:\n$$\\int_0^a f(a-x)\\,dx = \\int_a^0 f(u)(-du) = \\int_0^a f(u)\\,du = \\int_0^a f(x)\\,dx$$\n(renaming the dummy variable). Hence LHS = RHS."
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.15",
+    "12.4.1.11"
+   ],
+   "question": "Let $\\displaystyle I = \\int_0^{\\frac{\\pi}{2}} \\frac{\\sin x}{\\sin x + \\cos x}\\,dx$. You may use the result $\\displaystyle\\int_0^a f(x)\\,dx = \\int_0^a f(a-x)\\,dx$.\n\nShow that $\\displaystyle 2I = \\int_0^{\\frac{\\pi}{2}} 1\\,dx$.",
+   "answer": "Using the result with $a = \\frac{\\pi}{2}$, and $\\sin\\left(\\frac{\\pi}{2} - x\\right) = \\cos x$, $\\cos\\left(\\frac{\\pi}{2} - x\\right) = \\sin x$:\n$$I = \\int_0^{\\frac{\\pi}{2}} \\frac{\\sin\\left(\\frac{\\pi}{2}-x\\right)}{\\sin\\left(\\frac{\\pi}{2}-x\\right) + \\cos\\left(\\frac{\\pi}{2}-x\\right)}\\,dx = \\int_0^{\\frac{\\pi}{2}} \\frac{\\cos x}{\\cos x + \\sin x}\\,dx.$$\nAdding the two expressions for $I$:\n$$2I = \\int_0^{\\frac{\\pi}{2}} \\frac{\\sin x + \\cos x}{\\sin x + \\cos x}\\,dx = \\int_0^{\\frac{\\pi}{2}} 1\\,dx.$$"
+  },
+  {
+   "ref": "Q15(b)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.15"
+   ],
+   "question": "Let $\\displaystyle I = \\int_0^{\\frac{\\pi}{2}} \\frac{\\sin x}{\\sin x + \\cos x}\\,dx$.\n\nGiven that $\\displaystyle 2I = \\int_0^{\\frac{\\pi}{2}} 1\\,dx$, find the value of $I$.",
+   "answer": "$2I = \\Big[x\\Big]_0^{\\frac{\\pi}{2}} = \\frac{\\pi}{2}$, so $I = \\dfrac{\\pi}{4}$."
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.2.4"
+   ],
+   "question": "The centroid of a triangle is defined as the point where the three medians intersect. For example, in $\\triangle UVW$ below, $X$, $Y$ and $Z$ are the midpoints of $VW$, $UW$ and $UV$ respectively, and $T$ is the centroid of the triangle.\n\nIf $\\overrightarrow{UV} = \\mathbf{v}$ and $\\overrightarrow{UW} = \\mathbf{w}$, then the centroid $T$ is given by $\\overrightarrow{UT} = \\frac13\\mathbf{v} + \\frac13\\mathbf{w}$. (Do NOT prove this.)\n\nIn a new figure, $OABC$ is a tetrahedron where $\\overrightarrow{OA} = \\mathbf{a}$, $\\overrightarrow{OB} = \\mathbf{b}$ and $\\overrightarrow{OC} = \\mathbf{c}$. Points $P$ and $Q$ are the centroids of $\\triangle OAB$ and $\\triangle OBC$ respectively, as shown in the second diagram (not to scale).\n\nPoint $R$ is the intersection of $PC$ and $QA$.\n\nGiven $\\overrightarrow{PR} = \\lambda\\overrightarrow{PC}$ in $\\triangle OPC$, show that\n$$\\overrightarrow{OR} = \\frac13(1-\\lambda)\\mathbf{a} + \\frac13(1-\\lambda)\\mathbf{b} + \\lambda\\mathbf{c}.$$",
+   "answer": "By the given centroid result (with $U = O$), $\\overrightarrow{OP} = \\frac13\\mathbf{a} + \\frac13\\mathbf{b}$. Then\n$$\\overrightarrow{PC} = \\overrightarrow{OC} - \\overrightarrow{OP} = \\mathbf{c} - \\frac13\\mathbf{a} - \\frac13\\mathbf{b}.$$\n$$\\overrightarrow{OR} = \\overrightarrow{OP} + \\lambda\\overrightarrow{PC} = \\frac13\\mathbf{a} + \\frac13\\mathbf{b} + \\lambda\\mathbf{c} - \\frac13\\lambda\\mathbf{a} - \\frac13\\lambda\\mathbf{b} = \\frac13(1-\\lambda)\\mathbf{a} + \\frac13(1-\\lambda)\\mathbf{b} + \\lambda\\mathbf{c}.$$",
+   "images": [
+    "assets/img/ext2-2026-st-george-girls/q15c-centroid.png",
+    "assets/img/ext2-2026-st-george-girls/q15c-tetrahedron.png"
+   ]
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "The centroid of a triangle is defined as the point where the three medians intersect. For example, in $\\triangle UVW$ below, $X$, $Y$ and $Z$ are the midpoints of $VW$, $UW$ and $UV$ respectively, and $T$ is the centroid of the triangle.\n\nIf $\\overrightarrow{UV} = \\mathbf{v}$ and $\\overrightarrow{UW} = \\mathbf{w}$, then the centroid $T$ is given by $\\overrightarrow{UT} = \\frac13\\mathbf{v} + \\frac13\\mathbf{w}$. (Do NOT prove this.)\n\nIn a new figure, $OABC$ is a tetrahedron where $\\overrightarrow{OA} = \\mathbf{a}$, $\\overrightarrow{OB} = \\mathbf{b}$ and $\\overrightarrow{OC} = \\mathbf{c}$. Points $P$ and $Q$ are the centroids of $\\triangle OAB$ and $\\triangle OBC$ respectively, as shown in the second diagram (not to scale).\n\nPoint $R$ is the intersection of $PC$ and $QA$.\n\nIt is given that, with $\\overrightarrow{PR} = \\lambda\\overrightarrow{PC}$,\n$$\\overrightarrow{OR} = \\frac13(1-\\lambda)\\mathbf{a} + \\frac13(1-\\lambda)\\mathbf{b} + \\lambda\\mathbf{c}.$$\nShow that $\\overrightarrow{OR} = \\frac14\\left(\\mathbf{a} + \\mathbf{b} + \\mathbf{c}\\right)$.",
+   "answer": "$Q$ is the centroid of $\\triangle OBC$, so $\\overrightarrow{OQ} = \\frac13\\mathbf{b} + \\frac13\\mathbf{c}$ and $\\overrightarrow{QA} = \\mathbf{a} - \\frac13\\mathbf{b} - \\frac13\\mathbf{c}$. Since $R$ lies on $QA$, let $\\overrightarrow{QR} = \\mu\\overrightarrow{QA}$:\n$$\\overrightarrow{OR} = \\overrightarrow{OQ} + \\mu\\overrightarrow{QA} = \\mu\\mathbf{a} + \\frac13(1-\\mu)\\mathbf{b} + \\frac13(1-\\mu)\\mathbf{c}.$$\nSince $\\mathbf{a}$, $\\mathbf{b}$, $\\mathbf{c}$ are non-coplanar (edges of a tetrahedron), we can equate coefficients with the given expression:\n$$\\mathbf{a}:\\ \\tfrac13(1-\\lambda) = \\mu, \\qquad \\mathbf{b}:\\ \\tfrac13(1-\\lambda) = \\tfrac13(1-\\mu), \\qquad \\mathbf{c}:\\ \\lambda = \\tfrac13(1-\\mu).$$\nFrom the $\\mathbf{b}$ equation, $\\lambda = \\mu$; then $1 - \\lambda = 3\\lambda$, so $\\lambda = \\mu = \\frac14$ (which also satisfies the $\\mathbf{c}$ equation). Hence\n$$\\overrightarrow{OR} = \\frac13\\cdot\\frac34\\mathbf{a} + \\frac13\\cdot\\frac34\\mathbf{b} + \\frac14\\mathbf{c} = \\frac14(\\mathbf{a} + \\mathbf{b} + \\mathbf{c}).$$",
+   "images": [
+    "assets/img/ext2-2026-st-george-girls/q15c-centroid.png",
+    "assets/img/ext2-2026-st-george-girls/q15c-tetrahedron.png"
+   ]
+  },
+  {
+   "ref": "Q16(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.2",
+    "12.1.3.1"
+   ],
+   "question": "Let $p$, $q$ and $r$ be three positive real numbers.\n\nShow that $\\dfrac{p+q}{2} \\ge \\dfrac{2pq}{p+q}$.",
+   "answer": "$$\\frac{p+q}{2} - \\frac{2pq}{p+q} = \\frac{(p+q)^2 - 4pq}{2(p+q)} = \\frac{p^2 - 2pq + q^2}{2(p+q)} = \\frac{(p-q)^2}{2(p+q)} \\ge 0,$$\nsince $(p-q)^2 \\ge 0$ and $p + q > 0$. Hence $\\dfrac{p+q}{2} \\ge \\dfrac{2pq}{p+q}$."
+  },
+  {
+   "ref": "Q16(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.1.3.3"
+   ],
+   "question": "Let $p$, $q$ and $r$ be three positive real numbers. You may use the result that $\\dfrac{x+y}{2} \\ge \\dfrac{2xy}{x+y}$ for positive reals $x$, $y$.\n\nShow that\n$$\\frac{1}{qr} + \\frac{1}{pr} + \\frac{1}{pq} \\ge \\frac{2}{pr+qr} + \\frac{2}{pq+qr} + \\frac{2}{pq+pr}.$$",
+   "answer": "Apply the result to each pair:\n$$\\frac{p+q}{2} \\ge \\frac{2pq}{p+q}, \\qquad \\frac{p+r}{2} \\ge \\frac{2pr}{p+r}, \\qquad \\frac{q+r}{2} \\ge \\frac{2qr}{q+r}.$$\nAdding:\n$$p + q + r \\ge \\frac{2pq}{p+q} + \\frac{2pr}{p+r} + \\frac{2qr}{q+r}.$$\nDivide both sides by $pqr > 0$:\n$$\\frac{p+q+r}{pqr} = \\frac{1}{qr} + \\frac{1}{pr} + \\frac{1}{pq} \\ge \\frac{2}{r(p+q)} + \\frac{2}{q(p+r)} + \\frac{2}{p(q+r)} = \\frac{2}{pr+qr} + \\frac{2}{pq+qr} + \\frac{2}{pq+pr}.$$"
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.14",
+    "12.4.1.13"
+   ],
+   "question": "Let $\\displaystyle I_n = \\int_0^{\\frac{\\pi}{4}} \\tan^{2n}x\\,\\sec x\\,dx$, for $n = 0, 1, 2, \\dots$\n\nYou may assume that $\\dfrac{d}{dx}\\sec x = \\sec x\\tan x$ and $\\displaystyle\\int \\sec x\\,dx = \\ln|\\sec x + \\tan x| + C$. (Do NOT prove these.)\n\nProve that $I_n = \\dfrac{\\sqrt2}{2n} - \\dfrac{2n-1}{2n}I_{n-1}$ for $n \\ge 1$.",
+   "answer": "Write $I_n = \\displaystyle\\int_0^{\\frac{\\pi}{4}} \\tan^{2n-1}x\\,(\\tan x\\sec x)\\,dx$ and integrate by parts with $u = \\tan^{2n-1}x$, $v' = \\sec x\\tan x$, so $u' = (2n-1)\\tan^{2n-2}x\\sec^2 x$, $v = \\sec x$:\n$$I_n = \\Big[\\tan^{2n-1}x\\sec x\\Big]_0^{\\frac{\\pi}{4}} - (2n-1)\\int_0^{\\frac{\\pi}{4}} \\tan^{2n-2}x\\sec^3 x\\,dx.$$\nThe bracket is $1\\cdot\\sqrt2 - 0 = \\sqrt2$. Using $\\sec^2 x = 1 + \\tan^2 x$:\n$$I_n = \\sqrt2 - (2n-1)\\int_0^{\\frac{\\pi}{4}} \\left(\\tan^{2n-2}x\\sec x + \\tan^{2n}x\\sec x\\right)dx = \\sqrt2 - (2n-1)I_{n-1} - (2n-1)I_n.$$\nSo $2n\\,I_n = \\sqrt2 - (2n-1)I_{n-1}$, i.e.\n$$I_n = \\frac{\\sqrt2}{2n} - \\frac{2n-1}{2n}I_{n-1}.$$"
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.14",
+    "12.4.1.15"
+   ],
+   "question": "Let $\\displaystyle I_n = \\int_0^{\\frac{\\pi}{4}} \\tan^{2n}x\\,\\sec x\\,dx$, for $n = 0, 1, 2, \\dots$\n\nYou may assume that $\\dfrac{d}{dx}\\sec x = \\sec x\\tan x$ and $\\displaystyle\\int \\sec x\\,dx = \\ln|\\sec x + \\tan x| + C$. (Do NOT prove these.)\n\nIt is given that $I_n = \\dfrac{\\sqrt2}{2n} - \\dfrac{2n-1}{2n}I_{n-1}$ for $n \\ge 1$. Hence, or otherwise, evaluate\n$$\\int_0^{\\frac{\\pi}{4}} \\left(\\sec^5 x - 2\\sec^3 x + \\sec x\\right)dx.$$",
+   "answer": "$$\\sec^5 x - 2\\sec^3 x + \\sec x = \\sec x\\left(\\sec^2 x - 1\\right)^2 = \\tan^4 x\\sec x,$$\nso the integral is $I_2$.\n\n$I_0 = \\displaystyle\\int_0^{\\frac{\\pi}{4}}\\sec x\\,dx = \\Big[\\ln|\\sec x + \\tan x|\\Big]_0^{\\frac{\\pi}{4}} = \\ln(\\sqrt2 + 1) - \\ln 1 = \\ln(\\sqrt2 + 1).$\n\n$I_1 = \\dfrac{\\sqrt2}{2} - \\dfrac12 I_0 = \\dfrac{\\sqrt2}{2} - \\dfrac12\\ln(\\sqrt2+1).$\n\n$I_2 = \\dfrac{\\sqrt2}{4} - \\dfrac34 I_1 = \\dfrac{\\sqrt2}{4} - \\dfrac{3\\sqrt2}{8} + \\dfrac38\\ln(\\sqrt2+1) = \\dfrac38\\ln(\\sqrt2+1) - \\dfrac{\\sqrt2}{8}.$"
+  },
+  {
+   "ref": "Q16(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.4",
+    "12.3.4.2"
+   ],
+   "question": "Let $z = \\cos\\theta + i\\sin\\theta$.\n\nShow that $\\sin n\\theta = \\dfrac{z^n - z^{-n}}{2i}$.",
+   "answer": "By de Moivre's theorem, $z^n = \\cos n\\theta + i\\sin n\\theta$ and $z^{-n} = \\cos(-n\\theta) + i\\sin(-n\\theta) = \\cos n\\theta - i\\sin n\\theta$. So\n$$\\frac{z^n - z^{-n}}{2i} = \\frac{\\cos n\\theta + i\\sin n\\theta - \\cos n\\theta + i\\sin n\\theta}{2i} = \\frac{2i\\sin n\\theta}{2i} = \\sin n\\theta.$$"
+  },
+  {
+   "ref": "Q16(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Let $z = \\cos\\theta + i\\sin\\theta$. It is given that $\\sin n\\theta = \\dfrac{z^n - z^{-n}}{2i}$ and $\\cos n\\theta = \\dfrac{z^n + z^{-n}}{2}$ (do NOT prove these).\n\nHence or otherwise, prove that\n$$32\\sin^4\\theta\\cos^2\\theta = \\cos 6\\theta - 2\\cos 4\\theta - \\cos 2\\theta + 2.$$",
+   "answer": "Using $\\sin\\theta = \\frac{z - z^{-1}}{2i}$ and $\\cos\\theta = \\frac{z + z^{-1}}{2}$ (note $(2i)^4 = 16$):\n$$32\\sin^4\\theta\\cos^2\\theta = 32\\cdot\\frac{(z - z^{-1})^4}{16}\\cdot\\frac{(z + z^{-1})^2}{4} = \\frac12 (z - z^{-1})^2\\left[(z - z^{-1})(z + z^{-1})\\right]^2$$\n$$= \\frac12\\left(z^2 - 2 + z^{-2}\\right)\\left(z^2 - z^{-2}\\right)^2 = \\frac12\\left(z^2 - 2 + z^{-2}\\right)\\left(z^4 - 2 + z^{-4}\\right)$$\n$$= \\frac12\\left(z^6 + z^{-6} - 2z^4 - 2z^{-4} - z^2 - z^{-2} + 4\\right)$$\n$$= \\frac{z^6 + z^{-6}}{2} - 2\\cdot\\frac{z^4 + z^{-4}}{2} - \\frac{z^2 + z^{-2}}{2} + 2 = \\cos 6\\theta - 2\\cos 4\\theta - \\cos 2\\theta + 2.$$"
+  },
+  {
+   "ref": "Q16(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.3.4.4",
+    "12.3.4.3"
+   ],
+   "question": "Let $z = \\cos\\theta + i\\sin\\theta$.\n\nShow that\n$$\\cos\\theta + \\cos 2\\theta + \\dots + \\cos n\\theta = \\frac{\\cos\\left(\\frac{(n+1)\\theta}{2}\\right)\\sin\\left(\\frac{n\\theta}{2}\\right)}{\\sin\\left(\\frac{\\theta}{2}\\right)}.$$",
+   "answer": "Write $\\text{cis}\\,\\phi = \\cos\\phi + i\\sin\\phi$. By de Moivre, $z^k = \\text{cis}\\,k\\theta$, so the LHS is $\\text{Re}(S)$ where $S = z + z^2 + \\dots + z^n$ (a geometric series, $z \\ne 1$):\n$$S = \\frac{z(1 - z^n)}{1 - z} = \\text{cis}\\,\\theta\\cdot\\frac{1 - \\text{cis}\\,n\\theta}{1 - \\text{cis}\\,\\theta}.$$\nFor any $\\phi$: $1 - \\text{cis}\\,\\phi = \\text{cis}\\frac{\\phi}{2}\\left(\\text{cis}\\left(-\\frac{\\phi}{2}\\right) - \\text{cis}\\frac{\\phi}{2}\\right) = -2i\\sin\\frac{\\phi}{2}\\,\\text{cis}\\frac{\\phi}{2}$. Hence\n$$S = \\text{cis}\\,\\theta\\cdot\\frac{-2i\\sin\\frac{n\\theta}{2}\\,\\text{cis}\\frac{n\\theta}{2}}{-2i\\sin\\frac{\\theta}{2}\\,\\text{cis}\\frac{\\theta}{2}} = \\text{cis}\\left(\\theta + \\frac{n\\theta}{2} - \\frac{\\theta}{2}\\right)\\frac{\\sin\\frac{n\\theta}{2}}{\\sin\\frac{\\theta}{2}} = \\text{cis}\\left(\\frac{(n+1)\\theta}{2}\\right)\\frac{\\sin\\frac{n\\theta}{2}}{\\sin\\frac{\\theta}{2}}.$$\nTaking real parts:\n$$\\cos\\theta + \\cos 2\\theta + \\dots + \\cos n\\theta = \\frac{\\cos\\left(\\frac{(n+1)\\theta}{2}\\right)\\sin\\left(\\frac{n\\theta}{2}\\right)}{\\sin\\left(\\frac{\\theta}{2}\\right)}.$$\n*(The paper's solution uses exponential form $e^{i\\theta}$, which is not in the 2024 syllabus; the same argument is given here in polar form.)*"
+  }
+ ]
+}

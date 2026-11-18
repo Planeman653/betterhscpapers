@@ -1,0 +1,37 @@
+{
+ "id": "community-physics",
+ "course": "physics",
+ "school": "Community",
+ "year": 2026,
+ "type": "Submitted",
+ "label": "Community submissions",
+ "community": true,
+ "answers": "worked",
+ "questions": [
+  {
+   "ref": "Q-J1lx9w",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.5"
+   ],
+   "question": "A $100$ kg object is projected from a point located $6371$ km from the centre of the Earth.\n\nWhat is the launch velocity of the projectile so that the velocity would never fall below $2000\\ \\text{m s}^{-1}$?",
+   "answer": "The speed is least as $r \\to \\infty$, where $U \\to 0$. By conservation of energy, require $\\tfrac12 mv^2 - \\dfrac{GMm}{r} = \\tfrac12 m(2000)^2$, so\n$$v = \\sqrt{v_{esc}^2 + 2000^2},\\qquad v_{esc} = \\sqrt{\\frac{2GM}{r}} = \\sqrt{\\frac{2(6.67\\times10^{-11})(6.0\\times10^{24})}{6.371\\times10^{6}}} \\approx 11\\,208\\ \\text{m s}^{-1}$$\n$$v = \\sqrt{11\\,208^2 + 2000^2} \\approx 11\\,386\\ \\text{m s}^{-1}. \\quad\\textbf{(C)}$$\n(B) is just the escape velocity; (D) wrongly adds the speeds ($11\\,208 + 2000$) instead of the kinetic energies.",
+   "answer_type": "sample",
+   "images": [],
+   "answer_images": [],
+   "source": "2025 CSSA Physics Trial, Q19",
+   "queue_id": "J1lx9wpAKbkQ5lNtrUjA",
+   "credit": "Matthew Nassif",
+   "options": [
+    "$5604\\ \\text{m s}^{-1}$",
+    "$11\\,208\\ \\text{m s}^{-1}$",
+    "$11\\,386\\ \\text{m s}^{-1}$",
+    "$13\\,209\\ \\text{m s}^{-1}$"
+   ],
+   "correct": "C"
+  }
+ ],
+ "indexed": "2026-11-18"
+}

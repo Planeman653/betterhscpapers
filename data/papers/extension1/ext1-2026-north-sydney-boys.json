@@ -1,0 +1,567 @@
+{
+ "id": "ext1-2026-north-sydney-boys",
+ "course": "extension1",
+ "school": "North Sydney Boys",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "North Sydney Boys 2026 w. sol"
+ },
+ "indexed": "2026-11-18",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q12(a)(iv)",
+   "reason": "Not in 2024 syllabus: graphs of y^2 = f(x)"
+  },
+  {
+   "ref": "Q14(a)",
+   "reason": "Not in 2024 syllabus: pigeonhole principle"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.4"
+   ],
+   "question": "Find the value of $p$ so that the vectors $\\begin{pmatrix}2\\\\-5\\end{pmatrix}$ and $\\begin{pmatrix}p\\\\20\\end{pmatrix}$ are parallel.",
+   "options": [
+    "$-8$",
+    "$-4$",
+    "$4$",
+    "$50$"
+   ],
+   "correct": "A",
+   "answer": "Parallel means $\\begin{pmatrix}p\\\\20\\end{pmatrix}=\\lambda\\begin{pmatrix}2\\\\-5\\end{pmatrix}$, so $\\lambda=-4$ and $p=2\\lambda=-8$. **(A)**"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.3.4",
+    "11.2.3.2"
+   ],
+   "question": "The roots of the polynomial equation $x^3+4x^2-3x+2=0$ are $\\alpha$, $\\beta$ and $\\gamma$. Evaluate $$\\frac1\\alpha+\\frac1\\beta+\\frac1\\gamma$$",
+   "options": [
+    "$-\\dfrac23$",
+    "$-\\dfrac34$",
+    "$\\dfrac23$",
+    "$\\dfrac32$"
+   ],
+   "correct": "D",
+   "answer": "$$\\frac1\\alpha+\\frac1\\beta+\\frac1\\gamma=\\frac{\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha}{\\alpha\\beta\\gamma}=\\frac{-3}{-2}=\\frac32$$ **(D)**"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Solve $$\\frac{3}{x+2}>1$$",
+   "options": [
+    "$(1,\\infty)$",
+    "$(-2,1)$",
+    "$(-\\infty,-2)\\cup(-2,\\infty)$",
+    "$(-\\infty,-2)\\cup(1,\\infty)$"
+   ],
+   "correct": "B",
+   "answer": "Multiply by $(x+2)^2>0$ ($x\\neq-2$): $3(x+2)>(x+2)^2 \\Rightarrow (x+2)(x+2-3)<0 \\Rightarrow (x+2)(x-1)<0$, so $-2<x<1$. **(B)**"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.2"
+   ],
+   "question": "Which of the following is an expression for $a\\cos x-b\\sin x$?",
+   "options": [
+    "$\\sqrt{a^2+b^2}\\cos\\left(x+\\tan^{-1}\\frac ab\\right)$",
+    "$\\sqrt{a^2+b^2}\\cos\\left(x-\\tan^{-1}\\frac ab\\right)$",
+    "$\\sqrt{a^2+b^2}\\cos\\left(x+\\tan^{-1}\\frac ba\\right)$",
+    "$\\sqrt{a^2+b^2}\\cos\\left(x-\\tan^{-1}\\frac ba\\right)$"
+   ],
+   "correct": "C",
+   "answer": "Let $a\\cos x-b\\sin x=r\\cos(x+\\theta)=r\\cos x\\cos\\theta-r\\sin x\\sin\\theta$. Then $r\\cos\\theta=a$, $r\\sin\\theta=b$, so $r=\\sqrt{a^2+b^2}$ and $\\tan\\theta=\\frac ba$, $\\theta=\\tan^{-1}\\frac ba$. **(C)**"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.2",
+    "12.4.2.1"
+   ],
+   "question": "Find $$\\int\\frac{\\cos x}{1+\\sin^2x}\\,dx$$",
+   "options": [
+    "$\\tan^{-1}(\\sin x)+C$",
+    "$-\\dfrac{1}{1+\\sin x}+C$",
+    "$\\ln\\left|1+\\sin^2x\\right|+C$",
+    "$2\\ln|\\sin x|+C$"
+   ],
+   "correct": "A",
+   "answer": "Let $u=\\sin x$, $du=\\cos x\\,dx$: $\\displaystyle\\int\\frac{du}{1+u^2}=\\tan^{-1}u+C=\\tan^{-1}(\\sin x)+C$. **(A)**"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.5",
+    "11.2.2.6"
+   ],
+   "question": "$P(x)$ is a polynomial with a factor of $(x+1)$ and a remainder of $8$ when it is divided by $(2x+1)$. What is the remainder when the quotient of $P(x)$ and $(x+1)$ is divided by $(2x+1)$?",
+   "options": [
+    "$-16$",
+    "$-4$",
+    "$4$",
+    "$16$"
+   ],
+   "correct": "D",
+   "answer": "Write $P(x)=(x+1)Q(x)$. By the remainder theorem $P\\left(-\\tfrac12\\right)=8$, so $\\tfrac12\\,Q\\left(-\\tfrac12\\right)=8$ and $Q\\left(-\\tfrac12\\right)=16$, which is the remainder when $Q(x)$ is divided by $2x+1$. **(D)**"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.3",
+    "12.4.1.4"
+   ],
+   "question": "$f(x)$ is a one-to-one function which passes through the point $(a,b)$. Let $g(x)=f^{-1}(x)$. What is the gradient of the tangent to $g(x)$ at the point $(b,a)$?",
+   "options": [
+    "$\\dfrac{1}{f'[g(a)]}$",
+    "$\\dfrac{1}{f'[g(b)]}$",
+    "$\\dfrac{1}{g'[f(a)]}$",
+    "$\\dfrac{1}{g'[f(b)]}$"
+   ],
+   "correct": "B",
+   "answer": "Differentiate $f(g(x))=x$: $f'(g(x))\\,g'(x)=1$, so $g'(b)=\\dfrac{1}{f'[g(b)]}$ (which equals $\\frac{1}{f'(a)}$). **(B)**"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "What is the constant term in the expansion of $(2+x)\\left(4x+\\dfrac{1}{x^2}\\right)^8$?",
+   "options": [
+    "$2^{10}\\dbinom83$",
+    "$2^3\\dbinom81+\\dbinom82$",
+    "$2^4\\dbinom84$",
+    "There is no constant term"
+   ],
+   "correct": "A",
+   "answer": "General term of $\\left(4x+x^{-2}\\right)^8$: $\\binom8r(4x)^{8-r}x^{-2r}=\\binom8r4^{8-r}x^{8-3r}$.\n\nA constant term needs either $x^0$ from the expansion times $2$ (needs $8-3r=0$, no integer solution) or $x^{-1}$ times $x$ ($8-3r=-1$, $r=3$). So the constant term is $\\binom83 4^5=2^{10}\\binom83$. **(A)**\n\n*Note: the paper's working expands a different expression, $(2+x)^3$; the answer (A) is correct.*"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.2.9",
+    "12.3.1.6"
+   ],
+   "question": "Evaluate the integral $$\\int_{-\\frac{3\\pi}{2}}^{\\frac{3\\pi}{2}}\\cos^{-1}(\\sin x)\\,dx$$",
+   "options": [
+    "$0$",
+    "$3\\pi$",
+    "$\\dfrac{3\\pi^2}{2}$",
+    "$\\dfrac{9\\pi^2}{4}$"
+   ],
+   "correct": "C",
+   "answer": "$\\cos^{-1}(\\sin x)=\\cos^{-1}\\left[\\cos\\left(\\tfrac\\pi2-x\\right)\\right]$, whose graph is a zig-zag between $0$ and $\\pi$: it equals $0$ at $x=-\\frac{3\\pi}2,\\frac\\pi2$ and $\\pi$ at $x=-\\frac\\pi2,\\frac{3\\pi}2$, linear in between. The region under it on $\\left[-\\frac{3\\pi}2,\\frac{3\\pi}2\\right]$ is three triangles, each with base $\\pi$ and height $\\pi$:\n$$3\\times\\tfrac12\\times\\pi\\times\\pi=\\frac{3\\pi^2}{2}$$ **(C)**"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.4.1.18",
+    "11.4.1.9"
+   ],
+   "question": "How many ways can the letters from FLUFFBALL be arranged such that there are no identical letters in adjacent positions?",
+   "options": [
+    "2040",
+    "5670",
+    "6480",
+    "9960"
+   ],
+   "correct": "A",
+   "answer": "Arrange U, B, A first: $3!$ ways, creating 4 gaps. The three F's and three L's are then placed so no two F's and no two L's touch.\n\n- **All three F's in one gap** (must be FLFLF): 4 gaps; the third L can go at either end of that block or in one of the other 3 gaps: $4\\times5=20$.\n- **Two F's in one gap (FLF), one F in another:** $4\\times3$ ways; the remaining two L's go in different slots among the 6 available (2 beside each F-block, 1 in each empty gap): $\\binom62=15$, giving $180$.\n- **All F's in different gaps:** $\\binom43=4$ ways; the three L's go in 3 of the 7 slots: $\\binom73=35$, giving $140$.\n\nTotal $=3!\\,(20+180+140)=6\\times340=2040$. **(A)**"
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.4.3"
+   ],
+   "question": "Solve $|2x+5|>5$.",
+   "answer": "$2x+5>5$ or $2x+5<-5$\n\n$x>0$ or $x<-5$."
+  },
+  {
+   "ref": "Q11(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.6"
+   ],
+   "question": "Two vectors are defined as $\\mathbf{u}=2\\mathbf{i}+3\\mathbf{j}$ and $\\mathbf{v}=\\mathbf{i}-2\\mathbf{j}$. Find $\\mathbf{u}+\\mathbf{v}$.",
+   "answer": "$\\mathbf{u}+\\mathbf{v}=3\\mathbf{i}+\\mathbf{j}$"
+  },
+  {
+   "ref": "Q11(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.4.1"
+   ],
+   "question": "Two vectors are defined as $\\mathbf{u}=2\\mathbf{i}+3\\mathbf{j}$ and $\\mathbf{v}=\\mathbf{i}-2\\mathbf{j}$. Find $\\mathbf{u}\\cdot\\mathbf{v}$.",
+   "answer": "$\\mathbf{u}\\cdot\\mathbf{v}=(2)(1)+(3)(-2)=-4$"
+  },
+  {
+   "ref": "Q11(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.7",
+    "12.2.3.6"
+   ],
+   "question": "Two vectors are defined as $\\mathbf{u}=2\\mathbf{i}+3\\mathbf{j}$ and $\\mathbf{v}=\\mathbf{i}-2\\mathbf{j}$. Find $|2\\mathbf{u}-3\\mathbf{v}|$.",
+   "answer": "$2\\mathbf{u}-3\\mathbf{v}=(4\\mathbf{i}+6\\mathbf{j})-(3\\mathbf{i}-6\\mathbf{j})=\\mathbf{i}+12\\mathbf{j}$\n\n$|2\\mathbf{u}-3\\mathbf{v}|=\\sqrt{1^2+12^2}=\\sqrt{145}$"
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.5"
+   ],
+   "question": "Use the substitution $t=\\tan\\theta$ to solve $\\cos2\\theta+\\tan\\theta=1$ for $0\\le\\theta\\le2\\pi$.",
+   "answer": "With $t=\\tan\\theta$, $\\cos2\\theta=\\dfrac{1-t^2}{1+t^2}$:\n$$\\frac{1-t^2}{1+t^2}+t=1$$\n$$1-t^2+t(1+t^2)=1+t^2$$\n$$t^3-2t^2+t=0 \\;\\Rightarrow\\; t(t-1)^2=0$$\nSo $\\tan\\theta=0$ or $\\tan\\theta=1$ ($\\cos\\theta=0$ is not a solution since $\\tan\\theta$ is undefined there):\n$$\\theta=0,\\ \\frac\\pi4,\\ \\pi,\\ \\frac{5\\pi}4,\\ 2\\pi$$",
+   "course": "extension2"
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.1",
+    "11.2.2.6"
+   ],
+   "question": "The polynomial $f(x)=x^3+ax^2+bx+9$ has a double root at $x=-3$. Find the values of $a$ and $b$.",
+   "answer": "A double root at $-3$ means $f(-3)=0$ and $f'(-3)=0$.\n\n$f(-3)=-27+9a-3b+9=0 \\Rightarrow 3a-b=6$ ... (1)\n\n$f'(x)=3x^2+2ax+b$, $f'(-3)=27-6a+b=0$ ... (2)\n\nAdding (1) and (2): $-3a+27=6 \\Rightarrow a=7$, then $b=3(7)-6=15$.\n\n(Check: $(x+3)^2(x+1)=x^3+7x^2+15x+9$.)"
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Use the substitution $u^2=x+1$ (with $u>0$) to evaluate the integral $$\\int_3^8\\frac{x}{\\sqrt{x+1}}\\,dx$$",
+   "answer": "$x=u^2-1$, $dx=2u\\,du$. When $x=3$, $u=2$; when $x=8$, $u=3$.\n$$\\int_3^8\\frac{x}{\\sqrt{x+1}}\\,dx=\\int_2^3\\frac{u^2-1}{u}\\,2u\\,du=\\int_2^3(2u^2-2)\\,du=\\left[\\frac{2u^3}{3}-2u\\right]_2^3$$\n$$=(18-6)-\\left(\\frac{16}{3}-4\\right)=12-\\frac43=\\frac{32}{3}$$"
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.1.3"
+   ],
+   "question": "The graph of $y=f(x)$ is shown below. It cuts the $x$-axis at $x=-2$, $1$ and $4$, has a local maximum of about $2.1$ near $x=-0.7$, a local minimum of about $-2.1$ near $x=2.7$, and $y$-intercept about $1.7$.\n\nSketch $y=|f(x)|$.",
+   "answer": "Reflect the parts of the graph below the $x$-axis (for $x<-2$ and $1<x<4$) in the $x$-axis; the rest is unchanged. There are sharp corners on the $x$-axis at $x=-2,1,4$, and a local maximum of about $2.1$ near $x=2.7$.",
+   "images": [
+    "assets/img/ext1-2026-north-sydney-boys/q12a.png"
+   ],
+   "answer_images": [
+    "assets/img/ext1-2026-north-sydney-boys/q12ai-ans.png"
+   ]
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.1.3"
+   ],
+   "question": "The graph of $y=f(x)$ is shown below. It cuts the $x$-axis at $x=-2$, $1$ and $4$, has a local maximum of about $2.1$ near $x=-0.7$, a local minimum of about $-2.1$ near $x=2.7$, and $y$-intercept about $1.7$.\n\nSketch $y=f(|x|)$.",
+   "answer": "Keep the graph for $x\\ge0$ and reflect it in the $y$-axis to obtain the graph for $x<0$. The graph is even: $x$-intercepts at $\\pm1,\\pm4$, $y$-intercept about $1.7$ (a sharp point), minima of about $-2.1$ near $x=\\pm2.7$.",
+   "images": [
+    "assets/img/ext1-2026-north-sydney-boys/q12a.png"
+   ],
+   "answer_images": [
+    "assets/img/ext1-2026-north-sydney-boys/q12aii-ans.png"
+   ]
+  },
+  {
+   "ref": "Q12(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.1.1"
+   ],
+   "question": "The graph of $y=f(x)$ is shown below. It cuts the $x$-axis at $x=-2$, $1$ and $4$, has a local maximum of about $2.1$ near $x=-0.7$, a local minimum of about $-2.1$ near $x=2.7$, and $y$-intercept about $1.7$.\n\nSketch $y=\\dfrac{1}{f(x)}$.",
+   "answer": "- Vertical asymptotes at the zeros of $f$: $x=-2$, $x=1$, $x=4$.\n- $y\\to0$ as $x\\to\\pm\\infty$ (horizontal asymptote $y=0$).\n- $1/f$ has the same sign as $f$: negative for $x<-2$ and $1<x<4$, positive for $-2<x<1$ and $x>4$.\n- Turning points at the same $x$-values: a local minimum of about $1/2.1\\approx0.5$ near $x=-0.7$ and a local maximum of about $-0.5$ near $x=2.7$.\n- $y$-intercept about $1/1.7\\approx0.6$.\n\n*Note: the paper's sketch omits the branch for $x>4$, which comes down from $+\\infty$ at $x=4^+$ towards $0$.*",
+   "images": [
+    "assets/img/ext1-2026-north-sydney-boys/q12a.png"
+   ],
+   "answer_images": [
+    "assets/img/ext1-2026-north-sydney-boys/q12aiii-ans.png"
+   ]
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.9",
+    "11.4.1.18"
+   ],
+   "question": "At a tribunal, 12 guests are to be seated on 2 sides of a rectangular table with 6 chairs on each side, as shown in the diagram below.\n\nHarry and Kim need to sit on the opposite side to Evrart, Joyce and Titus. In how many ways can they be seated?",
+   "answer": "Harry can take any of the 12 seats; Kim must sit on the same side: 5 seats.\n\nEvrart, Joyce and Titus must sit on the other side: $^6P_3=120$ ways.\n\nThe remaining 7 guests fill the 7 remaining seats: $7!$ ways.\n$$12\\times5\\times120\\times7!=36\\,288\\,000$$",
+   "images": [
+    "assets/img/ext1-2026-north-sydney-boys/q12b.png"
+   ]
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.12",
+    "12.3.2.2"
+   ],
+   "question": "Sketch the graph of $y=2\\cos^{-1}x$, clearly showing all intercepts and endpoints.",
+   "answer": "Domain $-1\\le x\\le1$, range $0\\le y\\le2\\pi$, decreasing. Endpoints $(-1,2\\pi)$ and $(1,0)$ (also the $x$-intercept); $y$-intercept $(0,\\pi)$.",
+   "answer_images": [
+    "assets/img/ext1-2026-north-sydney-boys/q12ci-ans.png"
+   ]
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.1",
+    "12.3.2.12"
+   ],
+   "question": "Find the area bounded by the curve $y=2\\cos^{-1}x$, the $x$-axis and the $y$-axis in the first quadrant.",
+   "answer": "The region is $0\\le x\\le1$ under the curve, i.e. $0\\le y\\le\\pi$ to the left of $x=\\cos\\frac y2$. Integrating with respect to $y$:\n$$A=\\int_0^\\pi\\cos\\frac y2\\,dy=\\left[2\\sin\\frac y2\\right]_0^\\pi=2\\sin\\frac\\pi2-0=2\\text{ units}^2$$"
+  },
+  {
+   "ref": "Q12(c)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3",
+    "12.4.2.3"
+   ],
+   "question": "The region bounded by the curve $y=2\\cos^{-1}x$, the $x$-axis and the $y$-axis in the first quadrant is rotated about the $y$-axis. Find the exact volume of the solid formed.",
+   "answer": "$x=\\cos\\frac y2$, $0\\le y\\le\\pi$.\n$$V=\\pi\\int_0^\\pi\\cos^2\\frac y2\\,dy=\\pi\\int_0^\\pi\\left(\\frac12+\\frac12\\cos y\\right)dy=\\pi\\left[\\frac y2+\\frac12\\sin y\\right]_0^\\pi=\\frac{\\pi^2}{2}\\text{ units}^3$$"
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "Prove by mathematical induction that $n^3+(n+1)^3+(n+2)^3$ is divisible by $9$ for integers $n\\ge1$.",
+   "answer": "**Base case** $n=1$: $1+8+27=36=9\\times4$, true.\n\n**Assume** true for $n=k$: $k^3+(k+1)^3+(k+2)^3=9P$ for some integer $P$, so $(k+1)^3+(k+2)^3=9P-k^3$.\n\n**Prove** for $n=k+1$: \n$$(k+1)^3+(k+2)^3+(k+3)^3=9P-k^3+k^3+9k^2+27k+27=9(P+k^2+3k+3)$$\nwhich is divisible by 9 since $P+k^2+3k+3$ is an integer.\n\nHence, by mathematical induction, the result is true for all integers $n\\ge1$."
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.2.7"
+   ],
+   "question": "Solve $x^3-4x^2+5x-2=0$ for $x$.",
+   "answer": "$P(1)=1-4+5-2=0$, so $(x-1)$ is a factor; $P(2)=8-16+10-2=0$, so $(x-2)$ is a factor.\n\nDividing, $x^3-4x^2+5x-2=(x-1)^2(x-2)$, so $x=1$ (double root) or $x=2$."
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.2.4",
+    "11.3.3.1"
+   ],
+   "question": "Express the equation $2\\sin^2\\theta-\\sin\\theta\\sec\\theta=2\\sin2\\theta-2$ in terms of $\\tan\\theta$.",
+   "answer": "$$2\\sin^2\\theta-\\frac{\\sin\\theta}{\\cos\\theta}=4\\sin\\theta\\cos\\theta-2$$\nDivide by $\\cos^2\\theta$:\n$$2\\tan^2\\theta-\\tan\\theta\\sec^2\\theta=4\\tan\\theta-2\\sec^2\\theta$$\nUsing $\\sec^2\\theta=1+\\tan^2\\theta$:\n$$2\\tan^2\\theta-\\tan\\theta-\\tan^3\\theta=4\\tan\\theta-2-2\\tan^2\\theta$$\n$$\\tan^3\\theta-4\\tan^2\\theta+5\\tan\\theta-2=0$$"
+  },
+  {
+   "ref": "Q13(b)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.1"
+   ],
+   "question": "Given that $2\\sin^2\\theta-\\sin\\theta\\sec\\theta=2\\sin2\\theta-2$ can be written as $\\tan^3\\theta-4\\tan^2\\theta+5\\tan\\theta-2=0$, and that $x^3-4x^2+5x-2=(x-1)^2(x-2)$, solve $2\\sin^2\\theta-\\sin\\theta\\sec\\theta=2\\sin2\\theta-2$ for $0\\le\\theta\\le\\pi$.",
+   "answer": "$(\\tan\\theta-1)^2(\\tan\\theta-2)=0$, so $\\tan\\theta=1$ or $\\tan\\theta=2$.\n\nFor $0\\le\\theta\\le\\pi$: $\\theta=\\dfrac\\pi4$ or $\\theta=\\tan^{-1}2$."
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.6"
+   ],
+   "question": "In the parallelogram $OABC$, $\\overrightarrow{OA}=\\mathbf{a}$ and $\\overrightarrow{OC}=\\mathbf{c}$. $X$ is the midpoint of the interval $AC$, and $OCD$ is a straight line such that the ratio $OC:CD=k:1$.\n\nFind $\\overrightarrow{OX}$ in terms of $\\mathbf{a}$ and $\\mathbf{c}$.",
+   "answer": "$$\\overrightarrow{OX}=\\overrightarrow{OA}+\\tfrac12\\overrightarrow{AC}=\\mathbf{a}+\\tfrac12(\\mathbf{c}-\\mathbf{a})=\\tfrac12\\mathbf{a}+\\tfrac12\\mathbf{c}$$",
+   "images": [
+    "assets/img/ext1-2026-north-sydney-boys/q13c.png"
+   ]
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.2"
+   ],
+   "question": "In the parallelogram $OABC$, $\\overrightarrow{OA}=\\mathbf{a}$ and $\\overrightarrow{OC}=\\mathbf{c}$. $X$ is the midpoint of the interval $AC$, and $OCD$ is a straight line such that the ratio $OC:CD=k:1$.\n\nWrite an expression for $\\overrightarrow{OD}$ in terms of $\\mathbf{c}$.",
+   "answer": "$OD:OC=(k+1):k$, so $$\\overrightarrow{OD}=\\frac{k+1}{k}\\,\\mathbf{c}=\\left(1+\\frac1k\\right)\\mathbf{c}$$",
+   "images": [
+    "assets/img/ext1-2026-north-sydney-boys/q13c.png"
+   ]
+  },
+  {
+   "ref": "Q13(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.6",
+    "12.2.3.2"
+   ],
+   "question": "In the parallelogram $OABC$, $\\overrightarrow{OA}=\\mathbf{a}$ and $\\overrightarrow{OC}=\\mathbf{c}$. $X$ is the midpoint of the interval $AC$, and $OCD$ is a straight line such that the ratio $OC:CD=k:1$.\n\nGiven $\\overrightarrow{XD}=3\\mathbf{c}-\\frac12\\mathbf{a}$, find the value of $k$.",
+   "answer": "Using $\\overrightarrow{OX}=\\frac12\\mathbf{a}+\\frac12\\mathbf{c}$ and $\\overrightarrow{OD}=\\left(1+\\frac1k\\right)\\mathbf{c}$:\n$$\\overrightarrow{XD}=\\overrightarrow{OD}-\\overrightarrow{OX}=\\left(\\frac12+\\frac1k\\right)\\mathbf{c}-\\frac12\\mathbf{a}$$\nComparing with $3\\mathbf{c}-\\frac12\\mathbf{a}$: $\\frac12+\\frac1k=3$, so $\\frac1k=\\frac52$ and $k=\\dfrac25$.",
+   "images": [
+    "assets/img/ext1-2026-north-sydney-boys/q13c.png"
+   ]
+  },
+  {
+   "ref": "Q13(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.1.9"
+   ],
+   "question": "Show that $$\\binom{n+1}{k+1}=\\frac{n+1}{k+1}\\binom nk$$",
+   "answer": "$$\\binom{n+1}{k+1}=\\frac{(n+1)!}{(k+1)!\\,(n-k)!}=\\frac{(n+1)\\,n!}{(k+1)\\,k!\\,(n-k)!}=\\frac{n+1}{k+1}\\binom nk$$"
+  },
+  {
+   "ref": "Q13(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.5.1.10",
+    "11.5.1.9"
+   ],
+   "question": "Using the identity $\\dbinom{n+1}{k+1}=\\dfrac{n+1}{k+1}\\dbinom nk$, or otherwise, show that $$\\binom n0+\\frac12\\binom n1x+\\frac13\\binom n2x^2+\\frac14\\binom n3x^3+\\cdots+\\frac{1}{n+1}\\binom nnx^n=\\frac{(1+x)^{n+1}-1}{x(n+1)}$$",
+   "answer": "$$(1+x)^{n+1}=1+\\binom{n+1}{1}x+\\binom{n+1}{2}x^2+\\cdots+\\binom{n+1}{n+1}x^{n+1}$$\nSo, using the identity with $k=0,1,\\dots,n$:\n$$(1+x)^{n+1}-1=\\frac{n+1}{1}\\binom n0x+\\frac{n+1}{2}\\binom n1x^2+\\cdots+\\frac{n+1}{n+1}\\binom nnx^{n+1}$$\n$$=x(n+1)\\left[\\binom n0+\\frac12\\binom n1x+\\cdots+\\frac1{n+1}\\binom nnx^n\\right]$$\nDividing by $x(n+1)$ gives the result."
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.6.8",
+    "12.2.4.7"
+   ],
+   "question": "A particle is launched from the origin with a speed of $U$ at an angle of $\\theta$ to the horizontal, where $0<\\theta<\\frac\\pi2$. It passes through point $P(p,q)$ with a speed of $W$. The velocity vector of the particle as it passes through $P$ is perpendicular to its velocity vector when it was launched from the origin. There is a constant acceleration due to gravity of $g$. The equations of motion are given by (do NOT prove these)\n$$\\mathbf{a}=-g\\mathbf{j},\\quad \\mathbf{v}=U\\cos\\theta\\,\\mathbf{i}+(U\\sin\\theta-gt)\\mathbf{j},\\quad \\mathbf{r}=Ut\\cos\\theta\\,\\mathbf{i}+\\left(Ut\\sin\\theta-\\tfrac12gt^2\\right)\\mathbf{j}$$\n\nShow that the time when the particle passes through point $P$ is given by $t=\\dfrac{U}{g\\sin\\theta}$.",
+   "answer": "Perpendicular velocities: $\\mathbf{v}(0)\\cdot\\mathbf{v}(t)=0$\n$$U\\cos\\theta\\cdot U\\cos\\theta+U\\sin\\theta\\,(U\\sin\\theta-gt)=0$$\n$$U^2(\\cos^2\\theta+\\sin^2\\theta)=Ugt\\sin\\theta \\;\\Rightarrow\\; t=\\frac{U}{g\\sin\\theta}$$"
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.6.8"
+   ],
+   "question": "A particle is launched from the origin with a speed of $U$ at an angle of $\\theta$ to the horizontal, where $0<\\theta<\\frac\\pi2$. It passes through point $P(p,q)$ with a speed of $W$. The velocity vector of the particle as it passes through $P$ is perpendicular to its velocity vector when it was launched from the origin. There is a constant acceleration due to gravity of $g$. The equations of motion are given by (do NOT prove these)\n$$\\mathbf{a}=-g\\mathbf{j},\\quad \\mathbf{v}=U\\cos\\theta\\,\\mathbf{i}+(U\\sin\\theta-gt)\\mathbf{j},\\quad \\mathbf{r}=Ut\\cos\\theta\\,\\mathbf{i}+\\left(Ut\\sin\\theta-\\tfrac12gt^2\\right)\\mathbf{j}$$\n\nGiven that the particle passes through $P$ at time $t=\\dfrac{U}{g\\sin\\theta}$, show that the launch speed of the particle is $U=\\sqrt{pg\\tan\\theta}$.",
+   "answer": "At $P$ the horizontal displacement is $p$: $$p=Ut\\cos\\theta=\\frac{U^2\\cos\\theta}{g\\sin\\theta}\\;\\Rightarrow\\;U^2=pg\\tan\\theta$$ and since $U>0$, $U=\\sqrt{pg\\tan\\theta}$."
+  },
+  {
+   "ref": "Q14(b)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.6.8",
+    "12.2.6.7"
+   ],
+   "question": "A particle is launched from the origin with a speed of $U$ at an angle of $\\theta$ to the horizontal, where $0<\\theta<\\frac\\pi2$. It passes through point $P(p,q)$ with a speed of $W$. The velocity vector of the particle as it passes through $P$ is perpendicular to its velocity vector when it was launched from the origin. There is a constant acceleration due to gravity of $g$. The equations of motion are given by (do NOT prove these)\n$$\\mathbf{a}=-g\\mathbf{j},\\quad \\mathbf{v}=U\\cos\\theta\\,\\mathbf{i}+(U\\sin\\theta-gt)\\mathbf{j},\\quad \\mathbf{r}=Ut\\cos\\theta\\,\\mathbf{i}+\\left(Ut\\sin\\theta-\\tfrac12gt^2\\right)\\mathbf{j}$$\n\nGiven that the particle passes through $P$ at time $t=\\dfrac{U}{g\\sin\\theta}$ and that $U=\\sqrt{pg\\tan\\theta}$, prove that the product of $U$ and $W$ is independent of $q$ and $\\theta$.",
+   "answer": "At $P$, $U\\sin\\theta-gt=U\\sin\\theta-\\dfrac{U}{\\sin\\theta}=-\\dfrac{U\\cos^2\\theta}{\\sin\\theta}$, so\n$$W^2=U^2\\cos^2\\theta+\\frac{U^2\\cos^4\\theta}{\\sin^2\\theta}=U^2\\cos^2\\theta\\left(1+\\cot^2\\theta\\right)=\\frac{U^2\\cos^2\\theta}{\\sin^2\\theta}=U^2\\cot^2\\theta$$\nSince $W,U>0$ and $\\cot\\theta>0$, $W=U\\cot\\theta$. Then\n$$UW=U^2\\cot\\theta=pg\\tan\\theta\\cot\\theta=pg$$\nwhich is independent of $q$ and $\\theta$."
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.2",
+    "12.5.2.1"
+   ],
+   "question": "The hands of an analogue clock are $OA$ and $OB$, where $OA=8$ cm (the hour hand) and $OB=15$ cm (the minute hand), $O$ is the origin and $t\\ge0$ is the number of minutes past midnight. There is an angle of $\\theta$ between the hands at the origin.\n\nHow fast, in cm/min, is the distance between the tips of the hands changing at 3:00? Give your answer as an exact value.",
+   "answer": "Let $x$ be the distance $AB$. By the cosine rule, $x=\\left(289-240\\cos\\theta\\right)^{1/2}$, so\n$$\\frac{dx}{d\\theta}=\\frac{120\\sin\\theta}{\\sqrt{289-240\\cos\\theta}}$$\nThe minute hand turns at $\\frac{2\\pi}{60}$ rad/min and the hour hand at $\\frac{2\\pi}{720}$ rad/min, so the angle between them changes at $\\left|\\frac{d\\theta}{dt}\\right|=\\frac{2\\pi}{60}-\\frac{2\\pi}{720}=\\frac{11\\pi}{360}$ rad/min. Just after 3:00 the minute hand is catching up to the hour hand, so $\\theta$ is decreasing: $\\frac{d\\theta}{dt}=-\\frac{11\\pi}{360}$.\n\nAt 3:00, $\\theta=\\frac\\pi2$: $\\dfrac{dx}{d\\theta}=\\dfrac{120}{17}$, so\n$$\\frac{dx}{dt}=\\frac{120}{17}\\times\\left(-\\frac{11\\pi}{360}\\right)=-\\frac{11\\pi}{51}$$\nThe distance between the tips is decreasing at $\\dfrac{11\\pi}{51}$ cm/min.\n\n*Note: the paper gives $\\frac{11\\pi}{51}$ cm/min without stating that the distance is decreasing.*"
+  },
+  {
+   "ref": "Q14(d)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "11.2.3.4",
+    "11.3.2.2",
+    "11.3.3.1"
+   ],
+   "question": "The polynomial, with real coefficients, $P(x)=x^4+ax^3+bx^2+ax+c$ has exactly three distinct real roots at $\\tan\\theta$, $\\tan2\\theta$ and $\\tan3\\theta$.\n\nFind the smallest positive value for $\\theta$.",
+   "answer": "A quartic with exactly three distinct real roots has one double root. Let the roots be $r,r,s,t$. The coefficients of $x^3$ and $x$ are both $a$, so\n$$\\text{sum of roots}=\\text{sum of products of three roots}=-a$$\n$$2r+s+t=r^2s+r^2t+2rst$$\n$$2r(1-st)=(s+t)(r^2-1) \\qquad (*)$$\nIf $st\\neq1$ and $r^2\\neq1$: $\\dfrac{s+t}{1-st}=-\\dfrac{2r}{1-r^2}$. Writing $r=\\tan\\alpha$ and $s,t$ as the other two tangents, this says $\\tan(\\text{sum of the other two angles})=-\\tan2\\alpha$.\n\n- Double root $\\tan3\\theta$: $\\tan3\\theta=-\\tan6\\theta=\\tan(-6\\theta)$, so $9\\theta=n\\pi$; smallest $\\theta=\\dfrac\\pi9$, giving distinct roots $\\tan\\frac\\pi9,\\tan\\frac{2\\pi}9,\\sqrt3$.\n- Double root $\\tan\\theta$: $\\tan5\\theta=-\\tan2\\theta$, so $7\\theta=n\\pi$; smallest $\\theta=\\frac\\pi7>\\frac\\pi9$.\n- Double root $\\tan2\\theta$: $\\tan4\\theta=-\\tan4\\theta$ gives $\\theta=\\frac{n\\pi}{4}$, which makes $\\tan2\\theta$ or $\\tan\\theta$ undefined or the roots equal; no solution.\n\nIf $r^2=1$ (both sides of $(*)$ must vanish, so $st=1$): $\\tan^2\\theta=1$ gives $\\theta=\\frac\\pi4$ (then $\\tan2\\theta$ undefined); $\\tan^22\\theta=1$ gives $\\theta=\\frac\\pi8$ (here $\\tan\\frac\\pi8\\tan\\frac{3\\pi}8=1$, a valid solution but larger than $\\frac\\pi9$); $\\tan^23\\theta=1$ gives $\\theta=\\frac\\pi{12}$, but then $st=\\tan\\frac\\pi{12}\\tan\\frac\\pi6\\neq1$, so it fails.\n\nHence the smallest positive value is $\\theta=\\dfrac{\\pi}{9}$."
+  }
+ ]
+}

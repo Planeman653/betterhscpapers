@@ -1,0 +1,31 @@
+{
+ "id": "community-extension1",
+ "course": "extension1",
+ "school": "Community",
+ "year": 2026,
+ "type": "Submitted",
+ "label": "Community submissions",
+ "community": true,
+ "answers": "worked",
+ "questions": [
+  {
+   "ref": "Q-1MImTU",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.6",
+    "12.3.2.6"
+   ],
+   "question": "Prove that, for $0 \\le x \\le 1$,\n$$\\cos^{-1}\\left(\\sqrt{x}\\right)=\\frac12\\cos^{-1}\\left(2x-1\\right)$$",
+   "answer": "Let $\\theta = \\cos^{-1}\\left(\\sqrt{x}\\right)$. Since $0 \\le \\sqrt{x} \\le 1$, we have $0 \\le \\theta \\le \\dfrac{\\pi}{2}$ and $\\cos\\theta = \\sqrt{x}$.\n\nUsing the double-angle formula,\n$$\\cos 2\\theta = 2\\cos^2\\theta - 1 = 2\\left(\\sqrt{x}\\right)^2 - 1 = 2x - 1.$$\n\nSince $0 \\le 2\\theta \\le \\pi$, which is the range of $\\cos^{-1}$, it follows that\n$$2\\theta = \\cos^{-1}(2x-1) \\quad\\Longrightarrow\\quad \\cos^{-1}\\left(\\sqrt{x}\\right) = \\theta = \\frac12\\cos^{-1}(2x-1). \\qquad \\blacksquare$$\n\n(The range check is essential: $\\cos 2\\theta = 2x-1$ alone only gives $2\\theta = \\cos^{-1}(2x-1)$ because $2\\theta$ lies in $[0,\\pi]$.)",
+   "answer_type": "worked",
+   "images": [],
+   "answer_images": [],
+   "source": "Community question",
+   "queue_id": "1MImTUaGJiSVlMX2DAe7",
+   "credit": "Nikhil"
+  }
+ ],
+ "indexed": "2026-11-18"
+}
