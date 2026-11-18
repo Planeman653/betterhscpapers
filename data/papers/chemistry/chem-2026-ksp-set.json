@@ -1,0 +1,109 @@
+{
+ "id": "chem-2026-ksp-set",
+ "course": "chemistry",
+ "school": "Question Set",
+ "year": 2026,
+ "type": "Question set",
+ "thsc": {
+  "viewno": "",
+  "title": "Questions 11th Nov"
+ },
+ "indexed": "2026-11-18",
+ "answers": "worked",
+ "label": "Solubility & Ksp Question Set (11 Nov 2026)",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.4"
+   ],
+   "question": "What is the solubility ($\\text{mol L}^{-1}$) of lead(II) bromide in $0.500\\ \\text{mol L}^{-1}$ sodium bromide at 25°C?",
+   "answer": "$\\mathrm{PbBr_2(s) \\rightleftharpoons Pb^{2+}(aq) + 2Br^-(aq)}$, with $K_{sp} = 6.60 \\times 10^{-6}$ (data sheet).\n\nThe bromide comes almost entirely from the NaBr (common ion), so $[\\mathrm{Br^-}] \\approx 0.500$ and the solubility $s = [\\mathrm{Pb^{2+}}]$:\n$$s = \\frac{K_{sp}}{[\\mathrm{Br^-}]^2} = \\frac{6.60 \\times 10^{-6}}{0.500^2} = 2.64 \\times 10^{-5}\\ \\text{mol L}^{-1}. \\quad \\textbf{(C)}$$",
+   "options": [
+    "$1.18 \\times 10^{-2}$",
+    "$1.32 \\times 10^{-5}$",
+    "$2.64 \\times 10^{-5}$",
+    "$3.30 \\times 10^{-6}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.4",
+    "12.8.1.4"
+   ],
+   "question": "The solubility constant for silver(I) oxalate $\\left(\\mathrm{Ag_2C_2O_4}\\right)$ was determined using the following method.\n- 2.0 g of solid $\\mathrm{Ag_2C_2O_4}$ was added to 100 mL of distilled water.\n- A sample of the saturated solution above the undissolved $\\mathrm{Ag_2C_2O_4}$ was diluted by a factor of 2000, using distilled water.\n- This diluted solution was analysed using atomic absorption spectroscopy (AAS).\n\nThe calibration curve for the AAS is provided (absorbance against $[\\mathrm{Ag^+}]$ in units of $\\times 10^{-6}\\ \\text{mol L}^{-1}$; it passes through $(0, 0)$ and $(0.20, 0.10)$).\n\nThe absorbance of the diluted sample was 0.055.\n\nWhat is the $K_{sp}$ for silver oxalate?",
+   "answer": "From the calibration curve, $A = 0.055$ gives $[\\mathrm{Ag^+}] = 0.11 \\times 10^{-6}\\ \\text{mol L}^{-1}$ in the diluted sample.\n\nUndo the dilution: $[\\mathrm{Ag^+}] = 0.11 \\times 10^{-6} \\times 2000 = 2.2 \\times 10^{-4}\\ \\text{mol L}^{-1}$ in the saturated solution.\n\n$\\mathrm{Ag_2C_2O_4(s) \\rightleftharpoons 2Ag^+(aq) + C_2O_4^{2-}(aq)}$, so $[\\mathrm{C_2O_4^{2-}}] = \\frac12[\\mathrm{Ag^+}] = 1.1 \\times 10^{-4}\\ \\text{mol L}^{-1}$.\n$$K_{sp} = [\\mathrm{Ag^+}]^2[\\mathrm{C_2O_4^{2-}}] = \\left(2.2 \\times 10^{-4}\\right)^2\\left(1.1 \\times 10^{-4}\\right) = 5.3 \\times 10^{-12}. \\quad \\textbf{(B)}$$",
+   "options": [
+    "$8.8 \\times 10^{-14}$",
+    "$5.3 \\times 10^{-12}$",
+    "$1.1 \\times 10^{-11}$",
+    "$2.1 \\times 10^{-11}$"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/chem-2026-ksp-set/q2.png"
+   ]
+  },
+  {
+   "ref": "Q3(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.5",
+    "12.5.4.4"
+   ],
+   "question": "An experiment is carried out to determine the $K_{sp}$ value for lithium phosphate $\\left(\\mathrm{Li_3PO_4}\\right)$. Five samples of $\\mathrm{Li^+}$ ion solution were prepared, and a different solution of $\\mathrm{PO_4^{3-}}$ was added to each of them. Columns 2 and 3 of the table show the values before any reaction occurs.\n\n| Sample | $[\\mathrm{Li^+}]$ ($\\text{mol L}^{-1}$) | $[\\mathrm{PO_4^{3-}}]$ ($\\text{mol L}^{-1}$) | Observation |\n|---|---|---|---|\n| 1 | 0.15 | 0.00010 | No precipitate |\n| 2 | 0.15 | 0.0010 | No precipitate |\n| 3 | 0.15 | 0.010 | No precipitate |\n| 4 | 0.15 | 0.10 | White precipitate |\n| 5 | 0.15 | 1.00 | Heavy white precipitate |\n\nCalculate the range within which the $K_{sp}$ value of lithium phosphate lies.",
+   "answer": "$\\mathrm{Li_3PO_4(s) \\rightleftharpoons 3Li^+(aq) + PO_4^{3-}(aq)}$, so the ionic product is $Q = [\\mathrm{Li^+}]^3[\\mathrm{PO_4^{3-}}]$.\n\n- Sample 3 (no precipitate): $Q = (0.15)^3(0.010) = 3.4 \\times 10^{-5}$, so $Q \\le K_{sp}$ and $K_{sp} \\ge 3.4 \\times 10^{-5}$.\n- Sample 4 (precipitate): $Q = (0.15)^3(0.10) = 3.4 \\times 10^{-4}$, so $Q > K_{sp}$ and $K_{sp} < 3.4 \\times 10^{-4}$.\n\nTherefore $3.4 \\times 10^{-5} \\le K_{sp} < 3.4 \\times 10^{-4}$."
+  },
+  {
+   "ref": "Q4",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.4"
+   ],
+   "question": "Calculate the concentration of cadmium ions in a saturated solution of cadmium(II) phosphate, $\\mathrm{Cd_3(PO_4)_2}$, $K_{sp} = 2.53 \\times 10^{-33}$.",
+   "answer": "$\\mathrm{Cd_3(PO_4)_2(s) \\rightleftharpoons 3Cd^{2+}(aq) + 2PO_4^{3-}(aq)}$\n\nLet the solubility be $s$: $[\\mathrm{Cd^{2+}}] = 3s$, $[\\mathrm{PO_4^{3-}}] = 2s$.\n$$K_{sp} = (3s)^3(2s)^2 = 108s^5 = 2.53 \\times 10^{-33} \\implies s^5 = 2.343 \\times 10^{-35} \\implies s = 1.19 \\times 10^{-7}\\ \\text{mol L}^{-1}.$$\n$$[\\mathrm{Cd^{2+}}] = 3s = 3.56 \\times 10^{-7}\\ \\text{mol L}^{-1}.$$"
+  },
+  {
+   "ref": "Q5",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.4.5",
+    "12.5.4.3"
+   ],
+   "question": "The following three solids were added together to 1 litre of water:\n- 0.006 mol $\\mathrm{Mg(NO_3)_2}$\n- 0.010 mol NaOH\n- 0.002 mol $\\mathrm{Na_2CO_3}$.\n\nWhich precipitate(s), if any, will form? Justify your answer with appropriate calculations.",
+   "answer": "In 1 L: $[\\mathrm{Mg^{2+}}] = 0.006$, $[\\mathrm{OH^-}] = 0.010$, $[\\mathrm{CO_3^{2-}}] = 0.002\\ \\text{mol L}^{-1}$. Sodium and nitrate salts are soluble, so the possible precipitates are $\\mathrm{Mg(OH)_2}$ ($K_{sp} = 5.61 \\times 10^{-12}$) and $\\mathrm{MgCO_3}$ ($K_{sp} = 6.82 \\times 10^{-6}$).\n\n**Magnesium hydroxide:** $Q = [\\mathrm{Mg^{2+}}][\\mathrm{OH^-}]^2 = 0.006 \\times (0.010)^2 = 6 \\times 10^{-7} > K_{sp}$, so $\\mathrm{Mg(OH)_2}$ precipitates.\n\n$\\mathrm{Mg(OH)_2}$ is far less soluble, so it precipitates almost completely: $0.010$ mol $\\mathrm{OH^-}$ removes $0.005$ mol $\\mathrm{Mg^{2+}}$, leaving $[\\mathrm{Mg^{2+}}] = 0.006 - 0.005 = 0.001\\ \\text{mol L}^{-1}$.\n\n**Magnesium carbonate:** with the remaining magnesium, $Q = [\\mathrm{Mg^{2+}}][\\mathrm{CO_3^{2-}}] = 0.001 \\times 0.002 = 2 \\times 10^{-6} < K_{sp} = 6.82 \\times 10^{-6}$, so $\\mathrm{MgCO_3}$ does not precipitate.\n\n(Before any $\\mathrm{Mg(OH)_2}$ forms, $Q$ for $\\mathrm{MgCO_3}$ would be $0.006 \\times 0.002 = 1.2 \\times 10^{-5} > K_{sp}$, which is why the hydroxide step must be considered first.)\n\n**Only magnesium hydroxide, $\\mathrm{Mg(OH)_2}$, precipitates.**"
+  },
+  {
+   "ref": "Q6",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.1"
+   ],
+   "question": "The diagram shows a section of the lattice structure of solid NaCl, which dissociates when solid NaCl is dissolved in water.\n\nDescribe the process of NaCl dissociating in water in terms of the electrostatic interactions between the polar water molecules and the ions present. Include a labelled diagram to illustrate these interactions.",
+   "answer": "- Solid NaCl is a lattice of $\\mathrm{Na^+}$ and $\\mathrm{Cl^-}$ ions held together by strong electrostatic (ionic) attractions between oppositely charged ions.\n- Water molecules are polar: the O atom carries a partial negative charge ($\\delta^-$) and the H atoms carry partial positive charges ($\\delta^+$).\n- At the surface of the crystal, water molecules orient so that their $\\delta^-$ O ends are attracted to $\\mathrm{Na^+}$ ions and their $\\delta^+$ H ends are attracted to $\\mathrm{Cl^-}$ ions (ion–dipole attractions).\n- When these ion–dipole attractions (together with the many water molecules surrounding each ion) are strong enough to overcome the ionic attractions in the lattice, and the hydrogen bonds between water molecules that must be disrupted, the ions are pulled out of the lattice.\n- Each ion becomes surrounded by a shell of oriented water molecules (it is hydrated), which keeps the ions apart and dispersed through the solution:\n$$\\mathrm{NaCl(s) \\xrightarrow{H_2O} Na^+(aq) + Cl^-(aq)}$$",
+   "images": [
+    "assets/img/chem-2026-ksp-set/q6.png"
+   ],
+   "answer_images": [
+    "assets/img/chem-2026-ksp-set/q6-sketch.png"
+   ]
+  }
+ ]
+}
