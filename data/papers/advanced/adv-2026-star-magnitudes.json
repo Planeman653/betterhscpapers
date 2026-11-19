@@ -1,0 +1,33 @@
+{
+ "id": "adv-2026-star-magnitudes",
+ "course": "advanced",
+ "school": "Question Set",
+ "year": 2026,
+ "type": "Question set",
+ "thsc": {
+  "viewno": "",
+  "title": "Star magnitudes question (screenshot)"
+ },
+ "indexed": "2026-11-19",
+ "answers": "worked",
+ "label": "Star Magnitudes Question (19 Nov 2026)",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.2.7",
+    "11.5.2.4",
+    "12.1.2.4"
+   ],
+   "question": "The apparent magnitudes, $m_1$ and $m_2$, of two stars with apparent brightnesses $b_1$ and $b_2$ are related by\n$$m_1 - m_2 = -2.5\\log_{10}\\left(\\frac{b_1}{b_2}\\right).$$\n\nTwo stars, $A$ and $B$, orbit each other. From Earth they appear as a single point of light whose brightness is the sum of the brightnesses of the parts of the stars that can be seen. Star $B$ is smaller than star $A$, and once in each orbit it passes behind star $A$ and is completely hidden. The graph shows the apparent magnitude of the point of light during the part of one orbit in which this happens: it is 3.0 while both stars can be seen and 3.4 while $B$ is hidden behind $A$.\n\nStar $A$ alone has apparent magnitude $p$, star $B$ alone has apparent magnitude $q$, and the point of light has apparent magnitude $r$ when both stars can be seen.\n\nShow that $10^{-0.4r} = 10^{-0.4p} + 10^{-0.4q}$.",
+   "answer": "Let the brightnesses of $A$ and $B$ be $b_A$ and $b_B$; when both can be seen the point of light has brightness $b_A + b_B$.\n\nRearranging the given relation: $\\dfrac{b_1}{b_2} = 10^{-0.4(m_1 - m_2)}$.\n\nCombined light compared with star $A$:\n$$\\frac{b_A + b_B}{b_A} = 10^{-0.4(r - p)}.$$\nStar $B$ compared with star $A$:\n$$\\frac{b_B}{b_A} = 10^{-0.4(q - p)}.$$\nSince $\\dfrac{b_A + b_B}{b_A} = 1 + \\dfrac{b_B}{b_A}$:\n$$10^{-0.4(r - p)} = 1 + 10^{-0.4(q - p)}.$$\nMultiplying both sides by $10^{-0.4p}$:\n$$10^{-0.4r} = 10^{-0.4p} + 10^{-0.4q}.$$",
+   "images": [
+    "assets/img/adv-2026-star-magnitudes/q13.png"
+   ]
+  }
+ ]
+}
