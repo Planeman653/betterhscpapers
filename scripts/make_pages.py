@@ -15,8 +15,8 @@ COURSES = [("advanced", "Mathematics Advanced", "Advanced"),
 SHEETS = {"advanced": ("Mathematics Advanced reference sheet (2027)", "assets/ref/mathematics-advanced-reference-sheet-2027.pdf"),
           "extension1": ("Mathematics Extension 1 reference sheet (2027) — includes Advanced", "assets/ref/mathematics-extension-1-reference-sheet-2027.pdf"),
           "extension2": ("Mathematics Extension 2 reference sheet (2027) — includes Extension 1 and Advanced", "assets/ref/mathematics-extension-2-reference-sheet-2027.pdf"),
-          "physics": ("Physics formulae sheet, data sheet and periodic table", "https://www.nsw.gov.au/sites/default/files/noindex/2025-03/physics-formulae-sheet-data-sheet-periodic-table-hsc-exams-2019.pdf"),
-          "chemistry": ("Chemistry formulae sheet, data sheet and periodic table", "https://www.nsw.gov.au/sites/default/files/noindex/2025-03/chemistry-formulae-sheet-data-sheet-periodic-table-hsc-exams-2019.pdf")}
+          "physics": ("Physics formulae sheet, data sheet and periodic table", "assets/ref/physics-formulae-data-sheet-periodic-table.pdf"),
+          "chemistry": ("Chemistry formulae sheet, data sheet and periodic table", "assets/ref/chemistry-formulae-data-sheet-periodic-table.pdf")}
 
 DOC_ICON = ('<svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" '
             'stroke-linecap="round" stroke-linejoin="round"><path d="M14 2.5H7a2.5 2.5 0 0 0-2.5 2.5v14A2.5 2.5 0 0 0 7 21.5h10a2.5 2.5 0 0 0 2.5-2.5V8z"/>'
