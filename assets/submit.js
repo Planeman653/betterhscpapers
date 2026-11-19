@@ -1,7 +1,7 @@
 /* Better HSC Papers — submit-a-question page.  Questions are kept in this browser (hscq:mine) and can be sent for review as a GitHub issue. */
 (function () {
   "use strict";
-  const { esc, md } = window.HSCRender;
+  const { esc, nm, md } = window.HSCRender;
   const A = window.HSCAuth;
   let EDIT = null;      // what is being edited: {kind: "sub"|"queue"|"repo", id, qid, course}
   const COURSES = { advanced: "Advanced", extension1: "Extension 1", extension2: "Extension 2", physics: "Physics", chemistry: "Chemistry", biology: "Biology" };
@@ -137,7 +137,7 @@
     const total = list.length; list = list.slice(0, 80);
     let lastSub = "";
     $("dp-list").innerHTML = list.length ? list.map((d) => {
-      const h = d.sub !== lastSub ? `<div class="dp-sub">${esc(d.topic)} — ${esc(d.sub)}</div>` : ""; lastSub = d.sub;
+      const h = d.sub !== lastSub ? `<div class="dp-sub">${nm(d.topic)} — ${nm(d.sub)}</div>` : ""; lastSub = d.sub;
       return h + `<button type="button" class="dp-opt${Q.dotpoints.includes(d.id) ? " on" : ""}" data-dp="${esc(d.id)}"><span class="id">${esc(d.id)}</span><span>${md(d.text, true)}</span></button>`;
     }).join("") + (total > list.length ? `<div class="soft" style="padding:6px;font-size:13px">${total - list.length} more — keep typing to narrow down.</div>` : "") : `<div class="none" style="padding:16px">No dot points match.</div>`;
   }

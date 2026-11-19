@@ -43,7 +43,7 @@
   const canEdit = (q) => !!(A.user && (A.isAdmin || (q.live && q.owner === A.user.uid)));
 
   /* ---------------- markdown + maths ---------------- */
-  const { esc, md, dpChips } = window.HSCRender;
+  const { esc, nm, md, dpChips } = window.HSCRender;
 
   /* ---------------- data ---------------- */
   async function load() {
@@ -181,13 +181,13 @@
           const key = "s" + s.id;
           const multi = !(s.name === t.name && t.subtopics.length === 1);
           tHtml += multi
-            ? `<details class="lvl-sub" data-key="${key}" ${openState.has(key) ? "open" : ""}><summary><span class="caret">▸</span><input type="checkbox" data-group="${s.id}"><span class="lbl">${esc(s.name)}</span><span class="cnt">${sCount}</span></summary><div class="kids">${sHtml}</div></details>`
+            ? `<details class="lvl-sub" data-key="${key}" ${openState.has(key) ? "open" : ""}><summary><span class="caret">▸</span><input type="checkbox" data-group="${s.id}"><span class="lbl">${nm(s.name)}</span><span class="cnt">${sCount}</span></summary><div class="kids">${sHtml}</div></details>`
             : sHtml;
         }
         const tCount = tSet.size;
         if (S.hideEmpty && !tCount) continue;
         const key = "t" + t.id;
-        yHtml += `<details class="lvl-topic" data-key="${key}" ${openState.has(key) ? "open" : ""}><summary><span class="caret">▸</span><input type="checkbox" data-group="${t.id}"><span class="lbl">${esc(t.name)}</span><span class="cnt">${tCount}</span></summary><div class="kids">${tHtml}</div></details>`;
+        yHtml += `<details class="lvl-topic" data-key="${key}" ${openState.has(key) ? "open" : ""}><summary><span class="caret">▸</span><input type="checkbox" data-group="${t.id}"><span class="lbl">${nm(t.name)}</span><span class="cnt">${tCount}</span></summary><div class="kids">${tHtml}</div></details>`;
       }
       const yCount = ySet.size;
       if (S.hideEmpty && !yCount) continue;
@@ -334,7 +334,7 @@
     if (S.group !== "none") {
       const seen = new Map();
       all.forEach((x, i) => { if (!seen.has(x.t)) seen.set(x.t, { i, n: 0 }); seen.get(x.t).n++; });
-      for (const [t, v] of seen) contents += `<li><a href="#topic-${t}" data-topic="${t}" data-tpage="${Math.floor(v.i / perPage())}">${esc(S.topic[t].name)}</a> <span class="n">(${v.n})</span></li>`;
+      for (const [t, v] of seen) contents += `<li><a href="#topic-${t}" data-topic="${t}" data-tpage="${Math.floor(v.i / perPage())}">${nm(S.topic[t].name)}</a> <span class="n">(${v.n})</span></li>`;
     }
     let html = pagerHtml(all.length, pages), lastT = null, lastG = null, lastK = null, open = false;
     const dpHeads = S.group === "subtopic" && S.sort === "syllabus";   // dot-point groups inside each subtopic
@@ -349,12 +349,12 @@
       if (x.t !== lastT && x.t !== "_") {
         const tp = S.topic[x.t];
         const cont = all[start + k - 1] && all[start + k - 1].t === x.t;
-        html += `<h2 class="topic-h" id="topic-${x.t}" ${attrs("t", x.t)}>${esc(tp.name)}${cont ? ' <span class="soft" style="font-size:14px;font-family:var(--sans);font-weight:400">(continued)</span>' : ""}${S.syl.years.length > 1 ? ` <span style="font-size:14px;font-family:var(--sans);color:var(--muted);font-weight:400">Year ${tp.year}</span>` : ""}</h2>`;
+        html += `<h2 class="topic-h" id="topic-${x.t}" ${attrs("t", x.t)}>${nm(tp.name)}${cont ? ' <span class="soft" style="font-size:14px;font-family:var(--sans);font-weight:400">(continued)</span>' : ""}${S.syl.years.length > 1 ? ` <span style="font-size:14px;font-family:var(--sans);color:var(--muted);font-weight:400">Year ${tp.year}</span>` : ""}</h2>`;
         lastG = null;
       }
       if (x.g !== lastG && S.group === "subtopic") {
         const sb = S.sub[x.g];
-        if (!(sb.name === S.topic[x.t].name && S.topic[x.t].subtopics.length === 1)) html += `<h3 class="sub-h" ${attrs("s", x.t, x.g)}>${esc(sb.name)}${sb.inquiry ? `<span class="iq">Inquiry question: ${esc(sb.inquiry)}</span>` : ""}</h3>`;
+        if (!(sb.name === S.topic[x.t].name && S.topic[x.t].subtopics.length === 1)) html += `<h3 class="sub-h" ${attrs("s", x.t, x.g)}>${nm(sb.name)}${sb.inquiry ? `<span class="iq">Inquiry question: ${esc(sb.inquiry)}</span>` : ""}</h3>`;
       }
       if (key && !open) {
         const d = dpOf(x);
@@ -377,7 +377,7 @@
   function ctxContent(h) {
     const tp = S.topic[h.dataset.t], sb = h.dataset.s && S.sub[h.dataset.s], dp = h.dataset.dp, d = dp && S.dp[dp];
     const showSub = sb && !(tp && sb.name === tp.name);
-    return `<div class="ctx-row1"><span class="ctx-topic">${esc(tp ? tp.name : "")}</span>${showSub ? `<span class="ctx-sub">${esc(sb.name)}</span>` : ""}</div>
+    return `<div class="ctx-row1"><span class="ctx-topic">${nm(tp ? tp.name : "")}</span>${showSub ? `<span class="ctx-sub">${nm(sb.name)}</span>` : ""}</div>
       <div class="ctx-dpw"><div class="ctx-dp">${d ? `<span class="dpid">${esc(dp)}</span><span class="dpt">${md(d.text, true)}</span>` : ""}</div></div>`;
   }
   function updateCtx() {

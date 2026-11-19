@@ -2,6 +2,8 @@
 (function () {
   "use strict";
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  // syllabus topic/subtopic names: escape, then turn $_{x}$ / $^{x}$ into real sub/superscripts (e.g. K$_{eq}$)
+  const nm = (s) => esc(s).replace(/\$_\{([^}$]*)\}\$/g, "<sub>$1</sub>").replace(/\$\^\{([^}$]*)\}\$/g, "<sup>$1</sup>");
   function tex(src, display) {
     src = src.replace(/\u0003/g, "\\$");
     try { return katex.renderToString(src, { displayMode: display, throwOnError: false, strict: "ignore" }); }
@@ -51,10 +53,10 @@
     const after = [...wrap.children].find((b) => order.indexOf(b.dataset.id) > order.indexOf(id));
     wrap.insertBefore(box, after || null);
     const d = (await syllabus(chip.dataset.course))[id];
-    box.innerHTML = d ? `<div class="dp-where">Year ${esc(d.year)} · ${esc(d.topic)}${d.sub && d.sub !== d.topic ? " › " + esc(d.sub) : ""}</div><div><b class="dpid">${esc(id)}</b> ${md(d.text, true)}</div>`
+    box.innerHTML = d ? `<div class="dp-where">Year ${esc(d.year)} · ${nm(d.topic)}${d.sub && d.sub !== d.topic ? " › " + nm(d.sub) : ""}</div><div><b class="dpid">${esc(id)}</b> ${md(d.text, true)}</div>`
       : `<div><b class="dpid">${esc(id)}</b> (not in the current syllabus)</div>`;
   });
-  window.HSCRender = { esc, tex, md, dpChips };
+  window.HSCRender = { esc, nm, tex, md, dpChips };
 })();
 
 /* Login state shared by every page. assets/auth.js (a module, loaded after this) fills it in;
