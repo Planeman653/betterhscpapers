@@ -1,0 +1,726 @@
+{
+ "id": "ext2-2026-sydney-boys",
+ "course": "extension2",
+ "school": "Sydney Boys",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "Sydney Boys 2026 w. sol"
+ },
+ "indexed": "2026-11-19",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q12(c)(ii)",
+   "reason": "Question is flawed: with u > 1 the acceleration k(1 − v²)/v is negative, so the speed decreases towards the terminal speed 1 m/s and the particle never stops (the stated T comes from integrating across the singularity at v = 1)."
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.9"
+   ],
+   "question": "Which is the correct expression for $\\displaystyle\\int \\frac{3x+1}{x^2+2x+4}\\,dx$?",
+   "options": [
+    "$\\dfrac32\\ln(x^2+2x+4) - \\dfrac{2}{\\sqrt3}\\tan^{-1}\\left(\\dfrac{x+1}{\\sqrt3}\\right)+C$",
+    "$3\\ln(x^2+2x+4) - \\dfrac{2}{\\sqrt3}\\tan^{-1}\\left(\\dfrac{x+1}{\\sqrt3}\\right)+C$",
+    "$\\dfrac32\\ln(x^2+2x+4) - 2\\tan^{-1}\\left(\\dfrac{x+1}{\\sqrt3}\\right)+C$",
+    "$3\\ln(x^2+2x+4) - 2\\tan^{-1}\\left(\\dfrac{x+1}{\\sqrt3}\\right)+C$"
+   ],
+   "answer": "Write the numerator in terms of the derivative of the denominator: $3x+1 = \\tfrac{3}{2}(2x+2) - 2$, and $x^2+2x+4 = (x+1)^2+3$. So\n\n$$\\int \\frac{3x+1}{x^2+2x+4}\\,dx = \\frac32\\int\\frac{2x+2}{x^2+2x+4}\\,dx - 2\\int\\frac{dx}{(x+1)^2+(\\sqrt3)^2} = \\frac32\\ln(x^2+2x+4) - \\frac{2}{\\sqrt3}\\tan^{-1}\\left(\\frac{x+1}{\\sqrt3}\\right)+C.$$",
+   "correct": "A"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.10"
+   ],
+   "question": "In the diagram, $\\triangle OAB$ is a right-angled isosceles triangle (with $OA = AB$) and $OBCD$ is a square. Let $A$ represent the complex number $\\alpha$ and $D$ represent the complex number $\\beta$.\n\nWhich of the following is correct?",
+   "options": [
+    "$\\beta+\\alpha = i\\alpha$",
+    "$\\beta-\\alpha = i\\alpha$",
+    "$\\sqrt2\\beta+\\alpha = i\\alpha$",
+    "$\\sqrt2\\beta-\\alpha = i\\alpha$"
+   ],
+   "images": [
+    "assets/img/ext2-2026-sydney-boys/q2.png"
+   ],
+   "answer": "The right angle is at $A$, so $\\overrightarrow{AB}$ is $\\overrightarrow{OA}$ rotated by $90^\\circ$ anticlockwise: $\\overrightarrow{AB} = i\\alpha$. Hence $B$ represents $\\alpha + i\\alpha = (1+i)\\alpha$.\n\n$D$ is obtained by rotating $B$ about $O$ by $90^\\circ$ anticlockwise, so $\\beta = i(1+i)\\alpha = i\\alpha - \\alpha$, i.e. $\\beta + \\alpha = i\\alpha$.",
+   "correct": "A"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.10",
+    "12.5.2.8"
+   ],
+   "question": "A particle moving in simple harmonic motion centred at the origin attains minimum acceleration of $-3$ m/s$^2$ and a maximum speed of $4$ m/s. At what position does it attain three quarters of its maximum acceleration?",
+   "options": [
+    "$x = \\dfrac{16}{3}$",
+    "$x = -\\dfrac{16}{3}$",
+    "$x = 4$",
+    "$x = -4$"
+   ],
+   "answer": "$\\ddot x = -n^2x$ with amplitude $A$. The minimum acceleration is $-n^2A = -3$ (at $x = A$) and the maximum speed is $nA = 4$. Dividing, $n = \\tfrac34$ and $A = \\tfrac{16}{3}$.\n\nThe maximum acceleration is $+3$ (at $x=-A$). Three quarters of it is $\\tfrac94$: $-\\tfrac{9}{16}x = \\tfrac94 \\Rightarrow x = -4$.",
+   "correct": "D"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.5.3",
+    "12.3.2.10"
+   ],
+   "question": "Let $u$ be a complex number with $|u| \\le 5$. What is the minimum value of $|2u+3+4i|$?",
+   "options": [
+    "$-5$",
+    "$0$",
+    "$10$",
+    "$15$"
+   ],
+   "answer": "$|2u+3+4i| = 2\\left|u - \\left(-\\tfrac32 - 2i\\right)\\right|$, which is twice the distance from $u$ to the point $-\\tfrac32-2i$. Since $\\left|-\\tfrac32-2i\\right| = \\tfrac52 \\le 5$, this point lies in the allowed disc, so we can take $u = -\\tfrac32-2i$ and the minimum value is $0$.",
+   "correct": "B"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.8",
+    "12.3.2.3"
+   ],
+   "question": "Let $\\text{Arg}(z)$ be the principal argument of $z$. How many possible real values of $k$ can satisfy\n\n$$\\text{Arg}(zw) = \\text{Arg}(z) + \\text{Arg}(w) + k\\pi$$\n\nfor (non-zero) complex numbers $z$ and $w$?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "answer": "$\\text{Arg}(z)+\\text{Arg}(w)$ is an argument of $zw$, so it differs from $\\text{Arg}(zw)$ by a multiple of $2\\pi$. Since $-2\\pi < \\text{Arg}(z)+\\text{Arg}(w) \\le 2\\pi$ and $-\\pi < \\text{Arg}(zw) \\le \\pi$, the difference can only be $-2\\pi$, $0$ or $2\\pi$ (all occur, e.g. $z = w = i$ gives $0$; $z=w=-1$ gives $k=-2$; $z = w = \\cos\\left(-\\tfrac{3\\pi}{4}\\right) + i\\sin\\left(-\\tfrac{3\\pi}{4}\\right)$ gives $zw = i$ and $k = 2$). So $k \\in \\{-2, 0, 2\\}$: **3** values.",
+   "correct": "B"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.5",
+    "12.2.2.1"
+   ],
+   "question": "A ball is held stationary on a slope by a horizontal force $\\mathbf{F}$ and is subject to gravity $\\mathbf{F}_g$ and the normal force $\\mathbf{N}$ as shown.\n\nWhich of the following is equal to $\\mathbf{F}\\cdot\\mathbf{N}$?",
+   "options": [
+    "$|\\mathbf{F}||\\mathbf{F}_g|$",
+    "$|\\mathbf{F}|^2$",
+    "$-|\\mathbf{F}||\\mathbf{F}_g|$",
+    "$-|\\mathbf{F}|^2$"
+   ],
+   "images": [
+    "assets/img/ext2-2026-sydney-boys/q6.png"
+   ],
+   "answer": "The ball is in equilibrium, so $\\mathbf{F}+\\mathbf{F}_g+\\mathbf{N} = \\mathbf{0}$, i.e. $\\mathbf{N} = -\\mathbf{F}-\\mathbf{F}_g$. Since $\\mathbf{F}$ is horizontal and $\\mathbf{F}_g$ vertical, $\\mathbf{F}\\cdot\\mathbf{F}_g = 0$, so\n\n$$\\mathbf{F}\\cdot\\mathbf{N} = -\\mathbf{F}\\cdot\\mathbf{F} - \\mathbf{F}\\cdot\\mathbf{F}_g = -|\\mathbf{F}|^2.$$",
+   "correct": "D"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "Let $P(z) = a_nz^n + a_{n-2}z^{n-2} + \\cdots + a_2z^2 + a_0$ be a polynomial with integer coefficients, where $n$ is an even positive integer.\n\n$P(z)$ is known to have zeros at $z = 2+\\sqrt3$, $z = -\\sqrt3$ and $z = -4+2i$. What is the minimum possible degree of $P(z)$?",
+   "options": [
+    "6",
+    "8",
+    "10",
+    "12"
+   ],
+   "answer": "- Real coefficients: $-4+2i \\Rightarrow -4-2i$ is also a zero.\n- Integer (rational) coefficients: $2+\\sqrt3 \\Rightarrow 2-\\sqrt3$ is a zero, and $-\\sqrt3 \\Rightarrow \\sqrt3$.\n- Only even powers appear, so $P$ is even: if $\\alpha$ is a zero so is $-\\alpha$. This adds $-2\\mp\\sqrt3$ and $4\\mp 2i$.\n\nZeros: $\\pm2\\pm\\sqrt3$ (4), $\\pm\\sqrt3$ (2), $\\pm4\\pm2i$ (4) — at least 10, so the minimum degree is **10**.",
+   "correct": "C"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.15",
+    "12.4.1.6"
+   ],
+   "question": "$f$ is an even continuous function. Which of the following is **not** always equal to $\\displaystyle\\int_0^{2a} f(x)\\,dx$?",
+   "options": [
+    "$\\displaystyle\\int_0^a \\big[f(x)+f(2a-x)\\big]\\,dx$",
+    "$\\displaystyle\\int_{-a}^0 \\big[f(x)+f(a-x)\\big]\\,dx$",
+    "$\\displaystyle\\int_{-a}^0 \\big[f(x)+f(-2a-x)\\big]\\,dx$",
+    "All of the above are equal."
+   ],
+   "answer": "Split $\\int_0^{2a} f = \\int_0^a f + \\int_a^{2a} f$.\n\n- A: $\\int_0^a f(2a-x)\\,dx = \\int_a^{2a} f(u)\\,du$ ($u = 2a-x$), so A equals the integral.\n- B: $\\int_{-a}^0 f(x)\\,dx = \\int_0^a f$ ($f$ even), and $\\int_{-a}^0 f(a-x)\\,dx = \\int_a^{2a} f(u)\\,du$ ($u = a-x$).\n- C: $f(-2a-x) = f(2a+x)$ and $\\int_{-a}^0 f(2a+x)\\,dx = \\int_a^{2a} f(u)\\,du$ ($u = 2a+x$).\n\nAll three are equal to $\\int_0^{2a} f(x)\\,dx$, so the answer is D.",
+   "correct": "D"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.1",
+    "12.5.1.2"
+   ],
+   "question": "A particle is initially placed at a random position on the $x$-axis. The particle's velocity $v$ as a function of $x$ is shown in the diagram.\n\nAt what range of initial positions will it experience positive acceleration?",
+   "options": [
+    "$0<x<x_2$ or $x_4<x<x_6$",
+    "$x<x_1$ or $x_3<x<x_5$",
+    "$0<x<x_2$ or $x_3<x<x_4$ or $x>x_6$",
+    "$0<x<x_2$ or $x_3<x<x_6$"
+   ],
+   "images": [
+    "assets/img/ext2-2026-sydney-boys/q9.png"
+   ],
+   "answer": "$\\ddot x = v\\dfrac{dv}{dx}$, which is positive when $v$ and $\\dfrac{dv}{dx}$ have the same sign:\n\n- $0<x<x_2$: $v>0$ and increasing $\\Rightarrow \\ddot x>0$;\n- $x_3<x<x_4$: $v<0$ and decreasing $\\Rightarrow \\ddot x>0$;\n- $x>x_6$: $v<0$ and decreasing $\\Rightarrow \\ddot x>0$.\n\nElsewhere ($x<0$, $x_2<x<x_3$, $x_4<x<x_6$) the signs differ. Answer C.",
+   "correct": "C"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "The diagram shows triangle $\\triangle PQR$. $A$ is on $PR$ such that $PA:PR = 1:4$. $B$ is on $QR$ such that $QB:BR = m:n$ where $m, n$ are odd positive integers.\n\nIf the point $W$ divides an interval $UV$ so that $UW:WV = a:b$ and the position vectors of $U$ and $V$ are $\\mathbf{u}$ and $\\mathbf{v}$ respectively, then $\\overrightarrow{OW} = \\dfrac{a}{a+b}\\mathbf{v} + \\dfrac{b}{a+b}\\mathbf{u}$.\n\nLet $X$ be on $AQ$ such that $AX:XQ = x:y$ where $x, y$ are positive integers that add to $47$. By finding two different expressions for $\\overrightarrow{PX}$, what is the minimum value of $x$?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "images": [
+    "assets/img/ext2-2026-sydney-boys/q10.png"
+   ],
+   "answer": "Let $\\overrightarrow{PQ} = \\mathbf{q}$, $\\overrightarrow{PR} = \\mathbf{r}$, so $\\overrightarrow{PA} = \\tfrac14\\mathbf{r}$.\n\nOn $AQ$: $\\overrightarrow{PX} = \\dfrac{x}{47}\\mathbf{q} + \\dfrac{y}{47}\\cdot\\dfrac14\\mathbf{r}$.\n\nOn $PB$: $\\overrightarrow{PB} = \\dfrac{n}{m+n}\\mathbf{q} + \\dfrac{m}{m+n}\\mathbf{r}$ and $\\overrightarrow{PX} = \\mu\\overrightarrow{PB}$.\n\nEquating coefficients ($\\mathbf{q},\\mathbf{r}$ independent) and dividing: $\\dfrac{x}{y/4} = \\dfrac{n}{m}$, so $\\dfrac{n}{m} = \\dfrac{4x}{47-x}$.\n\nIn lowest terms $n/m$ must have both numerator and denominator odd:\n- $x=1$: $\\frac{4}{46} = \\frac{2}{23}$ ✗; $x = 2$: $\\frac{8}{45}$ ✗;\n- $x=3$: $\\frac{12}{44} = \\frac{3}{11}$ ✓ ($n=3$, $m=11$).\n\nMinimum $x = 3$.\n\n*Note:* the school's worked solution uses $PA:PR = 1:5$ instead of the $1:4$ printed in the question; with the printed ratio the answer is still B.",
+   "correct": "B"
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.9",
+    "12.3.1.10"
+   ],
+   "question": "Let $r = -1+9i$ and $s = 6+3i$. Evaluate $2r + \\overline{s}$.",
+   "answer": "$2r+\\overline{s} = 2(-1+9i) + (6-3i) = -2+18i+6-3i = 4+15i$."
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.11",
+    "12.3.2.7"
+   ],
+   "question": "Let $r = -1+9i$ and $s = 6+3i$. Evaluate $\\left|\\dfrac{3}{rs}\\right|$.",
+   "answer": "$$\\left|\\frac{3}{rs}\\right| = \\frac{3}{|r||s|} = \\frac{3}{\\sqrt{1+81}\\,\\sqrt{36+9}} = \\frac{3}{\\sqrt{82}\\cdot 3\\sqrt5} = \\frac{1}{\\sqrt{410}}.$$"
+  },
+  {
+   "ref": "Q11(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.13",
+    "12.3.1.5"
+   ],
+   "question": "Let $r = -1+9i$ and $s = 6+3i$. Evaluate $\\text{Im}\\left(\\dfrac{s}{r}\\right)$.",
+   "answer": "$$\\frac{s}{r} = \\frac{6+3i}{-1+9i}\\times\\frac{-1-9i}{-1-9i} = \\frac{-6-54i-3i+27}{1+81} = \\frac{21-57i}{82},$$\n\nso $\\text{Im}\\left(\\dfrac sr\\right) = -\\dfrac{57}{82}$."
+  },
+  {
+   "ref": "Q11(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Find the values of constants $A$, $B$ and $C$ such that\n\n$$\\frac{10}{(t+2)(t^2+1)} = \\frac{A}{t+2} + \\frac{Bt+C}{t^2+1}.$$",
+   "answer": "$10 = A(t^2+1) + (Bt+C)(t+2)$.\n\n- $t=-2$: $10 = 5A \\Rightarrow A = 2$.\n- Coefficient of $t^2$: $0 = A + B \\Rightarrow B = -2$.\n- Constant term: $10 = A + 2C \\Rightarrow C = 4$.\n\nSo $A = 2$, $B = -2$, $C = 4$."
+  },
+  {
+   "ref": "Q11(b)(ii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.8",
+    "12.4.1.5"
+   ],
+   "question": "Given that\n\n$$\\frac{10}{(t+2)(t^2+1)} = \\frac{2}{t+2} + \\frac{-2t+4}{t^2+1},$$\n\nby using a suitable substitution, deduce for some positive integers $p$ and $q$, that\n\n$$\\int_0^{\\frac{\\pi}{2}} \\frac{5\\sin x}{1+2\\sin x-\\cos x}\\,dx = \\pi + \\ln\\left(\\frac pq\\right).$$\n\nState the values of $p$ and $q$.",
+   "answer": "Let $t = \\tan\\frac x2$, so $dx = \\dfrac{2\\,dt}{1+t^2}$, $\\sin x = \\dfrac{2t}{1+t^2}$, $\\cos x = \\dfrac{1-t^2}{1+t^2}$; $x = 0 \\to t = 0$, $x = \\frac\\pi2 \\to t = 1$.\n\n$$I = \\int_0^1 \\frac{\\dfrac{10t}{1+t^2}}{\\dfrac{(1+t^2) + 4t - (1-t^2)}{1+t^2}}\\cdot\\frac{2\\,dt}{1+t^2} = \\int_0^1\\frac{20t\\,dt}{(1+t^2)(2t^2+4t)} = \\int_0^1 \\frac{10\\,dt}{(t+2)(t^2+1)}.$$\n\nUsing the partial fractions:\n\n$$I = \\int_0^1\\left(\\frac{2}{t+2} - \\frac{2t}{t^2+1} + \\frac{4}{t^2+1}\\right)dt = \\Big[2\\ln(t+2) - \\ln(t^2+1) + 4\\tan^{-1}t\\Big]_0^1$$\n\n$$= 2\\ln3 - \\ln2 + \\pi - 2\\ln 2 = \\pi + \\ln 9 - \\ln 8 = \\pi + \\ln\\frac98.$$\n\nSo $p = 9$, $q = 8$."
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.5",
+    "12.3.5.4",
+    "12.3.5.3"
+   ],
+   "question": "Sketch the values of $z$ for which $|z-2i| \\le 1$ and $0 \\le \\arg(z+1-2i) < \\dfrac{\\pi}{4}$ are all satisfied simultaneously.",
+   "answer": "- $|z-2i|\\le 1$: the closed disc with centre $(0,2)$ and radius $1$.\n- $0 \\le \\arg\\big(z-(-1+2i)\\big) < \\frac\\pi4$: the region between the horizontal ray from $(-1,2)$ (included) and the ray from $(-1,2)$ at angle $\\frac\\pi4$ (excluded); $(-1,2)$ itself is excluded since the argument of $0$ is undefined.\n\nThe ray at $\\frac\\pi4$ is $y = x+3$, which meets the circle $x^2 + (y-2)^2 = 1$ where $x^2+(x+1)^2 = 1$, i.e. at $(-1,2)$ and $(0,3)$.\n\nThe region is the part of the upper half of the disc to the right of the chord from $(-1,2)$ to $(0,3)$: the diameter $y = 2$ (from $(-1,2)$, open, to $(1,2)$) and the arc from $(1,2)$ to $(0,3)$ are included; the chord from $(-1,2)$ to $(0,3)$ is excluded, with open circles at $(-1,2)$ and $(0,3)$.",
+   "answer_images": [
+    "assets/img/ext2-2026-sydney-boys/q11c-ans.png"
+   ]
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.6",
+    "12.2.3.6"
+   ],
+   "course": "extension1",
+   "question": "Points $A$, $B$ and $C$ are on the Cartesian plane such that $\\overrightarrow{AB} = \\begin{pmatrix}2\\\\-3\\end{pmatrix}$ and $\\overrightarrow{AC} = \\begin{pmatrix}-4\\\\5\\end{pmatrix}$.\n\nBy use of a diagram, or otherwise, find the size of angle $\\angle BCA$ to the nearest minute.",
+   "answer": "$\\angle BCA$ is the angle between $\\overrightarrow{CA}$ and $\\overrightarrow{CB}$ (both with tail at $C$).\n\n$\\overrightarrow{CA} = \\begin{pmatrix}4\\\\-5\\end{pmatrix}$, $\\overrightarrow{CB} = \\overrightarrow{CA}+\\overrightarrow{AB} = \\begin{pmatrix}6\\\\-8\\end{pmatrix}$.\n\n$\\overrightarrow{CA}\\cdot\\overrightarrow{CB} = 24 + 40 = 64$, $|\\overrightarrow{CA}| = \\sqrt{41}$, $|\\overrightarrow{CB}| = 10$.\n\n$$\\cos\\angle BCA = \\frac{64}{10\\sqrt{41}} \\Rightarrow \\angle BCA \\approx 1^\\circ 47'.$$\n\n(Check with the cosine rule: $|AB| = \\sqrt{13}$, $\\cos\\theta = \\dfrac{41+100-13}{2\\cdot10\\sqrt{41}} = \\dfrac{32}{5\\sqrt{41}}$, the same.)"
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3",
+    "12.5.3.2"
+   ],
+   "question": "Two blocks, of mass 2 kg and 1 kg, are initially stationary on a frictionless ramp as shown. The 1 kg block is on a face making angle $\\theta$ with the vertical; the 2 kg block is on a face inclined at $15^\\circ$ to the horizontal. A light, inextensible rope joins the two masses and is hooked under a frictionless pulley at the corner where the two faces meet. The masses are then released.\n\nAssuming the rope is taut, find the acceleration of the 1 kg mass, leaving your answer in terms of $g$ and $\\theta$, where $\\theta$ is an acute angle.",
+   "images": [
+    "assets/img/ext2-2026-sydney-boys/q12a.png"
+   ],
+   "answer": "Take the direction of motion as down each slope (the 2 kg block slides down its face, pulling the 1 kg block down its face towards the pulley). Let $T$ be the tension.\n\nThe component of gravity along the face at angle $\\theta$ to the vertical is $g\\cos\\theta$ per kg; along the $15^\\circ$ face it is $g\\sin15^\\circ$ per kg. The rope pulls the 1 kg block towards the pulley (down its face) and the 2 kg block back up its face:\n\n$$1\\cdot a = g\\cos\\theta + T, \\qquad 2a = 2g\\sin15^\\circ - T.$$\n\nAdding: $3a = g\\cos\\theta + 2g\\sin15^\\circ$, so\n\n$$a = \\frac g3\\left(\\cos\\theta + 2\\sin15^\\circ\\right).$$"
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.3",
+    "12.5.1.3"
+   ],
+   "question": "Two blocks, of mass 2 kg and 1 kg, are initially stationary on a frictionless ramp as shown. The 1 kg block is on a face making angle $\\theta$ with the vertical; the 2 kg block is on a face inclined at $15^\\circ$ to the horizontal. A light, inextensible rope joins the two masses and is hooked under a frictionless pulley at the corner where the two faces meet. The masses are then released.\n\nAssuming the rope is taut, the acceleration of the 1 kg mass is $a = \\dfrac g3(\\cos\\theta + 2\\sin15^\\circ)$, where $\\theta$ is acute.\n\nFind the range of values of $\\theta$ such that the rope remains taut.",
+   "images": [
+    "assets/img/ext2-2026-sydney-boys/q12a.png"
+   ],
+   "answer": "For the 1 kg block, $a = g\\cos\\theta + T$, so\n\n$$T = \\frac g3\\left(\\cos\\theta+2\\sin15^\\circ\\right) - g\\cos\\theta = \\frac{2g}{3}\\left(\\sin15^\\circ - \\cos\\theta\\right).$$\n\nThe rope remains taut when $T>0$: $\\cos\\theta < \\sin15^\\circ = \\cos75^\\circ$, i.e. $\\theta > 75^\\circ$. With $\\theta$ acute: $75^\\circ < \\theta < 90^\\circ$."
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.5.5",
+    "11.4.3.8"
+   ],
+   "course": "advanced",
+   "question": "Find $\\displaystyle\\int (xe^x + e^x)\\,dx$.",
+   "answer": "By the product rule, $\\dfrac{d}{dx}(xe^x) = xe^x + e^x$, so\n\n$$\\int(xe^x+e^x)\\,dx = xe^x + C.$$"
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2",
+    "12.4.2.1"
+   ],
+   "course": "extension1",
+   "question": "Using $\\dfrac{d}{dx}\\left(xe^x\\right) = xe^x + e^x$, or otherwise, find $\\displaystyle\\int \\frac{x+1}{\\sqrt{e^{-2x}-x^2}}\\,dx$.",
+   "answer": "Multiply numerator and denominator by $e^x$ ($e^x = \\sqrt{e^{2x}}$):\n\n$$\\int\\frac{x+1}{\\sqrt{e^{-2x}-x^2}}\\,dx = \\int\\frac{e^x(x+1)}{\\sqrt{1-x^2e^{2x}}}\\,dx = \\int\\frac{(xe^x+e^x)\\,dx}{\\sqrt{1-(xe^x)^2}}.$$\n\nLet $u = xe^x$, $du = (xe^x+e^x)\\,dx$:\n\n$$= \\int\\frac{du}{\\sqrt{1-u^2}} = \\sin^{-1}u + C = \\sin^{-1}\\left(xe^x\\right) + C.$$"
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.1",
+    "12.5.1.4"
+   ],
+   "question": "A particle of mass $m$ kg moves horizontally in a line on the $x$-axis. It is initially moving at a speed of $u$ m/s away from the origin such that $u>1$. It experiences a pushing force numerically equal to $\\dfrac{mk}{v}$ N (in the direction of motion) due to the ground. There is also drag numerically equal to $mkv$ N acting on the particle.\n\nShow that $\\dfrac{d^2x}{dt^2} = k\\left(\\dfrac1v - v\\right)$.",
+   "answer": "Taking the direction of motion as positive, the pushing force acts forwards and the drag backwards:\n\n$$m\\ddot x = \\frac{mk}{v} - mkv \\quad\\Rightarrow\\quad \\frac{d^2x}{dt^2} = k\\left(\\frac1v - v\\right).$$"
+  },
+  {
+   "ref": "Q12(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.4.9",
+    "12.2.4.11"
+   ],
+   "course": "extension1",
+   "question": "Let $U$ and $V$ have position vectors $\\mathbf{u}$ and $\\mathbf{v}$ respectively, and let $X$ be the foot of the perpendicular from $U$ to the line $OV$, as shown.\n\nShow that $\\overrightarrow{XU} = \\mathbf{u} - \\text{proj}_{\\mathbf{v}}\\mathbf{u}$.",
+   "images": [
+    "assets/img/ext2-2026-sydney-boys/q12d.png"
+   ],
+   "answer": "$\\overrightarrow{OX}$ is the projection of $\\mathbf{u}$ onto $\\mathbf{v}$, i.e. $\\overrightarrow{OX} = \\text{proj}_{\\mathbf{v}}\\mathbf{u}$, and $\\overrightarrow{OU} = \\mathbf{u}$. Since $\\overrightarrow{OU} = \\overrightarrow{OX} + \\overrightarrow{XU}$,\n\n$$\\overrightarrow{XU} = \\overrightarrow{OU} - \\overrightarrow{OX} = \\mathbf{u} - \\text{proj}_{\\mathbf{v}}\\mathbf{u}.$$"
+  },
+  {
+   "ref": "Q12(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.11",
+    "12.2.4.9"
+   ],
+   "course": "extension1",
+   "question": "Let $U$ and $V$ have position vectors $\\mathbf{u}$ and $\\mathbf{v}$ respectively, and let $X$ be the foot of the perpendicular from $U$ to the line $OV$, as shown, so that $\\overrightarrow{XU} = \\mathbf{u} - \\text{proj}_{\\mathbf{v}}\\mathbf{u}$.\n\nHence, or otherwise, prove that $\\big|\\,|\\mathbf{v}|\\mathbf{u} - (\\mathbf{u}\\cdot\\mathbf{v})\\hat{\\mathbf{v}}\\,\\big| = |\\mathbf{u}||\\mathbf{v}|\\sin\\theta$ where $\\theta$ is the angle between the vectors $\\mathbf{u}$ and $\\mathbf{v}$.",
+   "images": [
+    "assets/img/ext2-2026-sydney-boys/q12d.png"
+   ],
+   "answer": "In right-angled triangle $OXU$, $\\sin\\theta = \\dfrac{|\\overrightarrow{XU}|}{|\\overrightarrow{OU}|}$, so\n\n$$|\\mathbf{u}|\\sin\\theta = |\\mathbf{u} - \\text{proj}_{\\mathbf{v}}\\mathbf{u}| = \\left|\\mathbf{u} - \\frac{\\mathbf{u}\\cdot\\mathbf{v}}{|\\mathbf{v}|}\\hat{\\mathbf{v}}\\right| = \\frac{\\big|\\,|\\mathbf{v}|\\mathbf{u} - (\\mathbf{u}\\cdot\\mathbf{v})\\hat{\\mathbf{v}}\\,\\big|}{|\\mathbf{v}|}.$$\n\nMultiplying by $|\\mathbf{v}|$: $\\big|\\,|\\mathbf{v}|\\mathbf{u} - (\\mathbf{u}\\cdot\\mathbf{v})\\hat{\\mathbf{v}}\\,\\big| = |\\mathbf{u}||\\mathbf{v}|\\sin\\theta$.\n\n(If $\\theta$ is obtuse, $X$ lies on the extension of $VO$ beyond $O$ and $\\sin(180^\\circ-\\theta) = \\sin\\theta$, so the same result holds.)"
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.15"
+   ],
+   "question": "For all positive $x$, a function $f$ satisfies\n\n$$2f(x) - f\\left(\\frac1x\\right) = \\frac1x + x\\ln x.$$\n\nExplain why $2f\\left(\\dfrac1x\\right) - f(x) = x - \\dfrac{\\ln x}{x}$.",
+   "answer": "The identity holds for all positive $x$, so replace $x$ by $\\frac1x$ (also positive):\n\n$$2f\\left(\\frac1x\\right) - f(x) = x + \\frac1x\\ln\\frac1x = x - \\frac{\\ln x}{x}.$$"
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.13",
+    "12.4.1.15"
+   ],
+   "question": "For all positive $x$, a function $f$ satisfies\n\n$$2f(x) - f\\left(\\frac1x\\right) = \\frac1x + x\\ln x.$$\n\nIt can be shown that also $2f\\left(\\dfrac1x\\right) - f(x) = x - \\dfrac{\\ln x}{x}$.\n\nEvaluate $\\displaystyle\\int_1^2 f(x)\\,dx$.",
+   "answer": "Doubling the first equation and adding the second eliminates $f(1/x)$:\n\n$$3f(x) = \\frac2x + 2x\\ln x + x - \\frac{\\ln x}{x} \\;\\Rightarrow\\; f(x) = \\frac13\\left[\\frac2x + 2x\\ln x + x - \\frac{\\ln x}{x}\\right].$$\n\nBy parts, $\\int 2x\\ln x\\,dx = x^2\\ln x - \\int x\\,dx = x^2\\ln x - \\frac{x^2}2$; also $\\int\\frac{\\ln x}{x}dx = \\frac{(\\ln x)^2}{2}$. So\n\n$$\\int_1^2 f(x)\\,dx = \\frac13\\left[2\\ln x + x^2\\ln x - \\frac{x^2}{2} + \\frac{x^2}{2} - \\frac{(\\ln x)^2}{2}\\right]_1^2 = \\frac13\\left[2\\ln2 + 4\\ln2 - \\frac{(\\ln2)^2}{2}\\right] = 2\\ln2 - \\frac{(\\ln2)^2}{6}.$$"
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.6.2"
+   ],
+   "question": "A 5 g flare is shot at $45^\\circ$ with speed $10\\sqrt2$ m/s from the origin and is programmed to detonate when it reaches its maximum height. There is air resistance $\\mathbf{R} = -k\\begin{pmatrix}\\dot x^2\\\\ \\dot y^2\\end{pmatrix}$ acting on the flare (while it rises), where $\\dot x$ and $\\dot y$ are the horizontal and vertical velocities of the flare respectively. Let $k = 2.5\\times10^{-4}$ and $g = 9.8$ m/s$^2$.\n\nShow that the acceleration vector $\\mathbf{a}$ of the flare is $\\mathbf{a} = \\begin{pmatrix}-0.05\\dot x^2\\\\ -9.8-0.05\\dot y^2\\end{pmatrix}$.",
+   "images": [
+    "assets/img/ext2-2026-sydney-boys/q13b.png"
+   ],
+   "answer": "$m = 5\\text{ g} = 0.005$ kg. Newton's second law (up positive): $m\\mathbf{a} = \\begin{pmatrix}-k\\dot x^2\\\\ -mg - k\\dot y^2\\end{pmatrix}$, so\n\n$$\\mathbf{a} = \\begin{pmatrix}-\\frac km\\dot x^2\\\\ -9.8 - \\frac km\\dot y^2\\end{pmatrix},\\qquad \\frac km = \\frac{2.5\\times10^{-4}}{0.005} = 0.05,$$\n\ngiving $\\mathbf{a} = \\begin{pmatrix}-0.05\\dot x^2\\\\ -9.8-0.05\\dot y^2\\end{pmatrix}$."
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.6.2",
+    "12.5.4.4"
+   ],
+   "question": "A 5 g flare is shot at $45^\\circ$ with speed $10\\sqrt2$ m/s from the origin and is programmed to detonate when it reaches its maximum height. There is air resistance $\\mathbf{R} = -k\\begin{pmatrix}\\dot x^2\\\\ \\dot y^2\\end{pmatrix}$ acting on the flare (while it rises), where $\\dot x$ and $\\dot y$ are the horizontal and vertical velocities of the flare respectively. Let $k = 2.5\\times10^{-4}$ and $g = 9.8$ m/s$^2$.\n\nThe acceleration of the flare is $\\mathbf{a} = \\begin{pmatrix}-0.05\\dot x^2\\\\ -9.8-0.05\\dot y^2\\end{pmatrix}$.\n\nProve that $x = 20\\ln\\left(1+\\dfrac t2\\right)$.",
+   "images": [
+    "assets/img/ext2-2026-sydney-boys/q13b.png"
+   ],
+   "answer": "Initially $\\dot x = 10\\sqrt2\\cos45^\\circ = 10$, $x = 0$.\n\n$\\dfrac{d\\dot x}{dt} = -0.05\\dot x^2 \\Rightarrow \\displaystyle\\int_{10}^{\\dot x}\\frac{d\\dot x}{\\dot x^2} = -\\int_0^t 0.05\\,dt \\Rightarrow \\frac1{10} - \\frac1{\\dot x} = -\\frac{t}{20}$, so\n\n$$\\frac1{\\dot x} = \\frac{t+2}{20},\\qquad \\dot x = \\frac{20}{t+2}.$$\n\nThen $x = \\displaystyle\\int_0^t\\frac{20}{t+2}\\,dt = 20\\big[\\ln(t+2)\\big]_0^t = 20\\ln\\frac{t+2}{2} = 20\\ln\\left(1+\\frac t2\\right)$."
+  },
+  {
+   "ref": "Q13(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.6.2",
+    "12.4.1.6"
+   ],
+   "question": "A 5 g flare is shot at $45^\\circ$ with speed $10\\sqrt2$ m/s from the origin and is programmed to detonate when it reaches its maximum height. There is air resistance $\\mathbf{R} = -k\\begin{pmatrix}\\dot x^2\\\\ \\dot y^2\\end{pmatrix}$ acting on the flare (while it rises), where $\\dot x$ and $\\dot y$ are the horizontal and vertical velocities of the flare respectively. Let $k = 2.5\\times10^{-4}$ and $g = 9.8$ m/s$^2$.\n\nThe acceleration of the flare is $\\mathbf{a} = \\begin{pmatrix}-0.05\\dot x^2\\\\ -9.8-0.05\\dot y^2\\end{pmatrix}$.\n\nProve that during the upwards motion, $\\dot y = \\dfrac{14\\left(5-7\\tan(0.7t)\\right)}{7+5\\tan(0.7t)}$.",
+   "images": [
+    "assets/img/ext2-2026-sydney-boys/q13b.png"
+   ],
+   "answer": "Initially $\\dot y = 10\\sqrt2\\sin45^\\circ = 10$.\n\n$$\\frac{d\\dot y}{dt} = -(9.8+0.05\\dot y^2) = -\\frac{196+\\dot y^2}{20} \\Rightarrow \\int_{10}^{\\dot y}\\frac{20\\,d\\dot y}{196+\\dot y^2} = -t.$$\n\n$$\\frac{20}{14}\\left[\\tan^{-1}\\frac{\\dot y}{14}\\right]_{10}^{\\dot y} = -t \\Rightarrow \\tan^{-1}\\frac{\\dot y}{14} = \\tan^{-1}\\frac57 - 0.7t.$$\n\nTaking tan of both sides and using $\\tan(A-B) = \\dfrac{\\tan A - \\tan B}{1+\\tan A\\tan B}$:\n\n$$\\frac{\\dot y}{14} = \\frac{\\frac57 - \\tan(0.7t)}{1+\\frac57\\tan(0.7t)} = \\frac{5-7\\tan(0.7t)}{7+5\\tan(0.7t)},\\qquad \\dot y = \\frac{14\\left(5-7\\tan(0.7t)\\right)}{7+5\\tan(0.7t)}.$$"
+  },
+  {
+   "ref": "Q13(b)(iv)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.6.2"
+   ],
+   "question": "A 5 g flare is shot at $45^\\circ$ with speed $10\\sqrt2$ m/s from the origin and is programmed to detonate when it reaches its maximum height. There is air resistance $\\mathbf{R} = -k\\begin{pmatrix}\\dot x^2\\\\ \\dot y^2\\end{pmatrix}$ acting on the flare (while it rises), where $\\dot x$ and $\\dot y$ are the horizontal and vertical velocities of the flare respectively. Let $k = 2.5\\times10^{-4}$ and $g = 9.8$ m/s$^2$.\n\nDuring the upwards motion, $\\dot y = \\dfrac{14\\left(5-7\\tan(0.7t)\\right)}{7+5\\tan(0.7t)}$.\n\nHence, find the time until detonation, to 2 decimal places.",
+   "images": [
+    "assets/img/ext2-2026-sydney-boys/q13b.png"
+   ],
+   "answer": "Detonation is at maximum height, when $\\dot y = 0$: $5 - 7\\tan(0.7t) = 0$, so $\\tan(0.7t) = \\frac57$ and\n\n$$t = \\frac{1}{0.7}\\tan^{-1}\\frac57 \\approx 0.89 \\text{ s}$$\n\n(calculator in radians)."
+  },
+  {
+   "ref": "Q13(b)(v)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.6.2",
+    "12.4.1.11"
+   ],
+   "question": "A 5 g flare is shot at $45^\\circ$ with speed $10\\sqrt2$ m/s from the origin and is programmed to detonate when it reaches its maximum height. There is air resistance $\\mathbf{R} = -k\\begin{pmatrix}\\dot x^2\\\\ \\dot y^2\\end{pmatrix}$ acting on the flare (while it rises), where $\\dot x$ and $\\dot y$ are the horizontal and vertical velocities of the flare respectively. Let $k = 2.5\\times10^{-4}$ and $g = 9.8$ m/s$^2$.\n\nDuring the upwards motion, $\\dot y = \\dfrac{14\\left(5-7\\tan(0.7t)\\right)}{7+5\\tan(0.7t)}$.\n\nProve that the vertical displacement of the flare is $y = 20\\ln\\left|\\cos(0.7t) + \\dfrac57\\sin(0.7t)\\right|$.",
+   "images": [
+    "assets/img/ext2-2026-sydney-boys/q13b.png"
+   ],
+   "answer": "Multiply numerator and denominator by $\\cos(0.7t)$:\n\n$$y = 14\\int_0^t\\frac{5\\cos(0.7t) - 7\\sin(0.7t)}{7\\cos(0.7t)+5\\sin(0.7t)}\\,dt.$$\n\nThe numerator is a multiple of the derivative of the denominator: $\\dfrac{d}{dt}\\left[7\\cos(0.7t)+5\\sin(0.7t)\\right] = 0.7\\left[5\\cos(0.7t) - 7\\sin(0.7t)\\right]$. So\n\n$$y = \\frac{14}{0.7}\\int_0^t\\frac{0.7\\left[5\\cos(0.7t)-7\\sin(0.7t)\\right]}{7\\cos(0.7t)+5\\sin(0.7t)}\\,dt = 20\\Big[\\ln\\left|7\\cos(0.7t)+5\\sin(0.7t)\\right|\\Big]_0^t$$\n\n$$= 20\\ln\\left|\\frac{7\\cos(0.7t)+5\\sin(0.7t)}{7}\\right| = 20\\ln\\left|\\cos(0.7t)+\\frac57\\sin(0.7t)\\right|.$$"
+  },
+  {
+   "ref": "Q13(b)(vi)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.6.2"
+   ],
+   "question": "A 5 g flare is shot at $45^\\circ$ with speed $10\\sqrt2$ m/s from the origin and is programmed to detonate when it reaches its maximum height. There is air resistance $\\mathbf{R} = -k\\begin{pmatrix}\\dot x^2\\\\ \\dot y^2\\end{pmatrix}$ acting on the flare (while it rises), where $\\dot x$ and $\\dot y$ are the horizontal and vertical velocities of the flare respectively. Let $k = 2.5\\times10^{-4}$ and $g = 9.8$ m/s$^2$.\n\nIt can be shown that $x = 20\\ln\\left(1+\\dfrac t2\\right)$ and $y = 20\\ln\\left|\\cos(0.7t)+\\dfrac57\\sin(0.7t)\\right|$, and that the flare detonates at $t = \\dfrac{1}{0.7}\\tan^{-1}\\dfrac57$.\n\nHence, find the position at which the flare will detonate, to 2 decimal places.",
+   "images": [
+    "assets/img/ext2-2026-sydney-boys/q13b.png"
+   ],
+   "answer": "With $t = \\frac1{0.7}\\tan^{-1}\\frac57 \\approx 0.8861$ s:\n\n$x = 20\\ln\\left(1+\\frac{0.8861}{2}\\right) \\approx 7.33$ m,\n\n$y = 20\\ln\\left(\\cos(0.7t)+\\frac57\\sin(0.7t)\\right)$; here $\\tan(0.7t) = \\frac57$ so $\\cos(0.7t) = \\frac{7}{\\sqrt{74}}$, $\\sin(0.7t) = \\frac5{\\sqrt{74}}$ and $y = 20\\ln\\frac{\\sqrt{74}}{7} \\approx 4.12$ m.\n\nThe flare detonates at approximately $(7.33, 4.12)$ (in metres). (Using the rounded $t = 0.89$ gives $x \\approx 7.36$ m.)"
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n = \\displaystyle\\int_a^1 x^2(\\ln x)^n\\,dx$, where $a>0$ and $n$ is a non-negative integer.\n\nProve that $I_n = -\\dfrac{a^3(\\ln a)^n}{3} - \\dfrac n3 I_{n-1}$, and state the values of $n$ for which this is true.",
+   "answer": "Integrate by parts with $u = (\\ln x)^n$, $u' = \\dfrac{n(\\ln x)^{n-1}}{x}$, $v' = x^2$, $v = \\dfrac{x^3}{3}$:\n\n$$I_n = \\left[\\frac{x^3}{3}(\\ln x)^n\\right]_a^1 - \\int_a^1\\frac{x^3}{3}\\cdot\\frac{n(\\ln x)^{n-1}}{x}\\,dx = \\left(0 - \\frac{a^3(\\ln a)^n}{3}\\right) - \\frac n3\\int_a^1 x^2(\\ln x)^{n-1}\\,dx$$\n\nsince $\\ln 1 = 0$. Hence $I_n = -\\dfrac{a^3(\\ln a)^n}{3} - \\dfrac n3 I_{n-1}$.\n\n$I_{n-1}$ is only defined for $n-1\\ge0$, so the result holds for $n \\ge 1$ (integers)."
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.14",
+    "12.4.1.15"
+   ],
+   "question": "Let $I_n = \\displaystyle\\int_a^1 x^2(\\ln x)^n\\,dx$, where $a>0$ and $n$ is a non-negative integer. It is known that $I_n = -\\dfrac{a^3(\\ln a)^n}{3} - \\dfrac n3 I_{n-1}$ for $n\\ge1$.\n\nDefine $J_n = \\displaystyle\\lim_{a\\to0^+} I_n$. Hence, deduce that $J_n = \\dfrac{(-1)^n n!}{3^{n+1}}$ for $n \\ge 0$.",
+   "answer": "As $a\\to0^+$, $a^3(\\ln a)^n \\to 0$: this is of the form $0\\times(\\pm\\infty)$, but the power $a^3$ tends to $0$ much faster than $|\\ln a|^n$ tends to $\\infty$. So, taking limits in the recurrence,\n\n$$J_n = -\\frac n3 J_{n-1}\\quad(n\\ge1).$$\n\nIterating:\n\n$$J_n = \\left(-\\frac n3\\right)\\left(-\\frac{n-1}{3}\\right)\\left(-\\frac{n-2}{3}\\right)\\cdots\\left(-\\frac13\\right)J_0 = \\frac{(-1)^n\\,n!}{3^n}J_0,$$\n\n($n$ factors, each contributing $-1$ and a $3$ in the denominator.)\n\n$$J_0 = \\lim_{a\\to0^+}\\int_a^1x^2\\,dx = \\lim_{a\\to0^+}\\left(\\frac13 - \\frac{a^3}{3}\\right) = \\frac13.$$\n\nHence $J_n = \\dfrac{(-1)^n n!}{3^n}\\cdot\\dfrac13 = \\dfrac{(-1)^n n!}{3^{n+1}}$, which also holds for $n=0$."
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.5.2",
+    "12.5.5.6"
+   ],
+   "question": "A mass $m$ kg is shot upwards at initial speed $u$ m/s in a medium that applies a resistive force numerically equal to $mkv$ N, where $k>0$ is the constant of proportionality and $v$ is the velocity of the mass in m/s. The acceleration due to gravity is $g$ m/s$^2$. Take upwards as positive.\n\nProve that the object's displacement $x$ (from the point of projection) satisfies $v - u + gt + kx = 0$.",
+   "answer": "Upwards, both gravity and resistance act downwards: $m\\ddot x = -mg - mkv$, so $\\dfrac{dv}{dt} = -g - kv$.\n\n**Method 1 (quickest).** Since $v = \\dfrac{dx}{dt}$, $\\dfrac{dv}{dt} = -g - k\\dfrac{dx}{dt}$. Integrate from $0$ to $t$ (with $v(0) = u$, $x(0) = 0$):\n\n$$v - u = -gt - kx \\quad\\Rightarrow\\quad v - u + gt + kx = 0.$$\n\n**Method 2.** From $\\dfrac{dt}{dv} = -\\dfrac1{g+kv}$: $t = -\\dfrac1k\\ln\\dfrac{g+kv}{g+ku}$, i.e. $-kt = \\ln\\dfrac{g+kv}{g+ku}$ (1) ($g + kv > 0$ during the upward motion).\n\nFrom $v\\dfrac{dv}{dx} = -(g+kv)$: $\\dfrac{dx}{dv} = -\\dfrac1k\\left(1 - \\dfrac{g}{g+kv}\\right)$, so\n\n$$x = -\\frac1k\\left[v - \\frac gk\\ln(g+kv)\\right]_u^v \\Rightarrow -kx = v - u - \\frac gk\\ln\\frac{g+kv}{g+ku}.$$\n\nSubstituting (1): $-kx = v - u - \\dfrac gk(-kt) = v - u + gt$, i.e. $v - u + gt + kx = 0$."
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.2.14",
+    "12.6.3.9"
+   ],
+   "course": "advanced",
+   "question": "The probability density function $\\phi(z)$ of a standard normal variable $Z\\sim N(0,1)$ is given by $\\phi(z) = \\dfrac1{\\sqrt{2\\pi}}e^{-\\frac{z^2}{2}}$, for $-\\infty<z<\\infty$.\n\nYou may assume that $E(Z^n) = \\displaystyle\\int_{-\\infty}^{\\infty}z^n\\phi(z)\\,dz = \\lim_{\\varepsilon\\to\\infty}\\int_{-\\varepsilon}^{\\varepsilon}z^n\\phi(z)\\,dz$.\n\nExplain why $E(Z^2) = 1$.",
+   "answer": "$\\text{Var}(Z) = E(Z^2) - [E(Z)]^2$, so $E(Z^2) = \\text{Var}(Z) + [E(Z)]^2 = 1 + 0^2 = 1$, since $Z\\sim N(0,1)$ has mean $0$ and variance $1$."
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.13",
+    "12.4.1.15"
+   ],
+   "question": "The probability density function $\\phi(z)$ of a standard normal variable $Z\\sim N(0,1)$ is given by $\\phi(z) = \\dfrac1{\\sqrt{2\\pi}}e^{-\\frac{z^2}{2}}$, for $-\\infty<z<\\infty$.\n\nYou may assume that $E(Z^n) = \\displaystyle\\int_{-\\infty}^{\\infty}z^n\\phi(z)\\,dz = \\lim_{\\varepsilon\\to\\infty}\\int_{-\\varepsilon}^{\\varepsilon}z^n\\phi(z)\\,dz$.\n\nGiven that $E(Z^2) = 1$, prove that $E(Z^4) = 3$.",
+   "answer": "Integrate by parts with $u = z^3$, $v' = ze^{-z^2/2}$, so $u' = 3z^2$, $v = -e^{-z^2/2}$:\n\n$$E(Z^4) = \\frac{1}{\\sqrt{2\\pi}}\\lim_{\\varepsilon\\to\\infty}\\int_{-\\varepsilon}^{\\varepsilon}z^3\\cdot ze^{-\\frac{z^2}2}\\,dz = \\frac1{\\sqrt{2\\pi}}\\lim_{\\varepsilon\\to\\infty}\\left(\\Big[-z^3e^{-\\frac{z^2}2}\\Big]_{-\\varepsilon}^{\\varepsilon} + \\int_{-\\varepsilon}^{\\varepsilon}3z^2e^{-\\frac{z^2}2}\\,dz\\right)$$\n\n$$= \\frac1{\\sqrt{2\\pi}}\\lim_{\\varepsilon\\to\\infty}\\left(-2\\varepsilon^3e^{-\\frac{\\varepsilon^2}2}\\right) + 3\\lim_{\\varepsilon\\to\\infty}\\int_{-\\varepsilon}^{\\varepsilon}z^2\\phi(z)\\,dz.$$\n\nThe first limit is $0$ because $e^{-\\varepsilon^2/2}$ tends to $0$ much faster than $\\varepsilon^3$ grows. The second term is $3E(Z^2) = 3\\times1$. Hence $E(Z^4) = 3$."
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.3.5.5",
+    "12.3.2.3",
+    "12.3.4.9"
+   ],
+   "question": "Let $z, w$ be complex numbers that satisfy\n\n$$|z-5-3i| = 1 \\qquad\\text{and}\\qquad |w-2-4i| = 1.$$\n\nFind the range of values of $\\text{Arg}(z-w)$, where Arg denotes the principal argument.",
+   "answer": "Write $z = (5+3i) + e_1$ and $w = (2+4i) + e_2$ with $|e_1| = |e_2| = 1$. Then\n\n$$z - w = (3 - i) + (e_1 - e_2),$$\n\nand $e_1 - e_2$ takes every value with modulus between $0$ and $2$. So $z - w$ ranges over the closed disc with centre $3-i$ and radius $2$.\n\nSince $|3-i| = \\sqrt{10} > 2$, the origin is outside the disc. The extreme arguments occur along the two tangents from $O$ to the circle. The centre has argument $\\text{Arg}(3-i) = -\\tan^{-1}\\frac13$, and each tangent makes an angle $\\sin^{-1}\\dfrac{2}{\\sqrt{10}} = \\sin^{-1}\\dfrac{\\sqrt{10}}{5}$ with the line to the centre. So\n\n$$-\\tan^{-1}\\frac13 - \\sin^{-1}\\frac{\\sqrt{10}}{5} \\;\\le\\; \\text{Arg}(z-w) \\;\\le\\; \\sin^{-1}\\frac{\\sqrt{10}}{5} - \\tan^{-1}\\frac13$$\n\n(approximately $-57.7^\\circ \\le \\text{Arg}(z-w) \\le 20.8^\\circ$).\n\n*Note:* the school's solution (which considers the common tangents of the two circles through the midpoint of the centres — equivalent) gives strict inequalities; the end values are attained (at the tangent points), so the inequalities should be $\\le$.",
+   "answer_images": [
+    "assets/img/ext2-2026-sydney-boys/q15a-ans.png"
+   ]
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.1.4.6",
+    "12.2.1.8",
+    "12.2.1.4"
+   ],
+   "question": "Let $n$ points $P_1, P_2, \\dots, P_n$, which are represented by the position vectors $\\mathbf{p}_1, \\mathbf{p}_2, \\dots, \\mathbf{p}_n$ respectively, lie on a straight line $l$.\n\nProve by mathematical induction, for $n\\ge2$, that the point represented by\n\n$$\\mathbf{u} = \\lambda_1\\mathbf{p}_1 + \\lambda_2\\mathbf{p}_2 + \\cdots + \\lambda_n\\mathbf{p}_n$$\n\nis collinear with the $n$ points, where $\\lambda_1, \\dots, \\lambda_n \\in \\mathbb{R}^+$ and $\\lambda_1+\\lambda_2+\\cdots+\\lambda_n = 1$.",
+   "answer": "**Base case $n=2$.** With $\\lambda_1+\\lambda_2 = 1$:\n\n$$\\mathbf{u} = (1-\\lambda_2)\\mathbf{p}_1 + \\lambda_2\\mathbf{p}_2 = \\mathbf{p}_1 + \\lambda_2(\\mathbf{p}_2 - \\mathbf{p}_1),$$\n\nwhich is of the form $\\mathbf{p}_1 + \\lambda(\\mathbf{p}_2-\\mathbf{p}_1)$, a point on the line through $P_1$ and $P_2$, i.e. on $l$. True for $n = 2$.\n\n**Inductive step.** Assume that for some $k\\ge2$, any combination $\\lambda_1\\mathbf{p}_1+\\cdots+\\lambda_k\\mathbf{p}_k$ of $k$ points of $l$ with positive coefficients summing to $1$ lies on $l$.\n\nConsider $\\mathbf{u} = \\mu_1\\mathbf{p}_1 + \\cdots + \\mu_k\\mathbf{p}_k + \\mu_{k+1}\\mathbf{p}_{k+1}$ with $\\mu_i>0$ and $\\sum_{i=1}^{k+1}\\mu_i = 1$, so $0<\\mu_{k+1}<1$. Write\n\n$$\\mathbf{u} = (1-\\mu_{k+1})\\left[\\frac{\\mu_1}{1-\\mu_{k+1}}\\mathbf{p}_1 + \\cdots + \\frac{\\mu_k}{1-\\mu_{k+1}}\\mathbf{p}_k\\right] + \\mu_{k+1}\\mathbf{p}_{k+1}.$$\n\nLet $\\lambda_i = \\dfrac{\\mu_i}{1-\\mu_{k+1}} > 0$; then $\\sum_{i=1}^k\\lambda_i = \\dfrac{1-\\mu_{k+1}}{1-\\mu_{k+1}} = 1$, so by the assumption $\\mathbf{u}_k = \\sum_{i=1}^k\\lambda_i\\mathbf{p}_i$ is a point on $l$. Then\n\n$$\\mathbf{u} = (1-\\mu_{k+1})\\mathbf{u}_k + \\mu_{k+1}\\mathbf{p}_{k+1} = \\mathbf{u}_k + \\mu_{k+1}(\\mathbf{p}_{k+1} - \\mathbf{u}_k),$$\n\nwhich lies on the line through the points $\\mathbf{u}_k$ and $\\mathbf{p}_{k+1}$, both on $l$ (if they coincide, $\\mathbf{u} = \\mathbf{p}_{k+1}$). So $\\mathbf{u}$ is on $l$: true for $n = k+1$.\n\nBy mathematical induction the result holds for all $n\\ge2$."
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.2",
+    "11.3.3.3"
+   ],
+   "course": "extension1",
+   "question": "Let $a$, $b$ and $c$ be real numbers. Prove that if $a\\sin x + b\\cos x = c$ has no solutions for real $x$, then $a^2+b^2<c^2$.",
+   "answer": "If $a = b = 0$, the equation $0 = c$ has no solutions only when $c \\ne 0$, and then $a^2+b^2 = 0 < c^2$.\n\nOtherwise let $R = \\sqrt{a^2+b^2}>0$ and choose $\\alpha$ with $R\\cos\\alpha = a$, $R\\sin\\alpha = b$. Then\n\n$$a\\sin x + b\\cos x = R(\\sin x\\cos\\alpha + \\cos x\\sin\\alpha) = R\\sin(x+\\alpha).$$\n\nSo the equation is $\\sin(x+\\alpha) = \\dfrac cR$. As $x$ varies, $\\sin(x+\\alpha)$ takes every value in $[-1,1]$, so there is no solution only if $\\left|\\dfrac cR\\right| > 1$, i.e. $c^2 > R^2 = a^2+b^2$."
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.2.10",
+    "12.5.2.9"
+   ],
+   "question": "Particle $P$ is released from rest $4$ m to the right of the origin, and follows motion governed by the equation $\\ddot x_1 = 8-4x_1$.\n\nParticle $Q$ undergoes simple harmonic motion centred at the origin. $Q$ is released $T$ seconds later from the origin, with the same period and amplitude as particle $P$ and negative velocity.\n\nFor what range of values of $T$ during particle $P$'s first oscillation should $Q$ be released so that the two particles never meet?\n\n(You may use the result that if $a\\sin x + b\\cos x = c$ has no real solutions $x$, then $a^2+b^2<c^2$, and conversely.)",
+   "answer": "$\\ddot x_1 = -4(x_1-2)$: SHM with $n = 2$, centre $2$, period $\\pi$. Released from rest at $x = 4$, so the amplitude is $2$ and\n\n$$x_1 = 2 + 2\\cos 2t.$$\n\n$Q$ has amplitude $2$, $n = 2$, starts at the origin moving in the negative direction: measuring time $s$ from $Q$'s release, $x_2 = -2\\sin 2s = 2\\cos\\left(2s+\\frac\\pi2\\right)$. At that moment $P$ has been moving for $s+T$ seconds, so $x_1 = 2 + 2\\cos(2s+2T)$.\n\nThey meet when $2+2\\cos(2s+2T) = -2\\sin 2s$, i.e.\n\n$$-\\sin2s - \\cos2s\\cos2T + \\sin 2s\\sin 2T = 1 \\;\\Longleftrightarrow\\; (\\sin2T-1)\\sin2s - \\cos2T\\cos2s = 1.$$\n\nBoth motions have period $\\pi$, so the particles never meet exactly when this has no real solution $s$, i.e. (using the given result)\n\n$$(\\sin2T-1)^2 + \\cos^2 2T < 1 \\;\\Longleftrightarrow\\; 2 - 2\\sin 2T < 1 \\;\\Longleftrightarrow\\; \\sin2T > \\frac12.$$\n\nDuring $P$'s first oscillation, $0\\le T<\\pi$, so $0\\le2T<2\\pi$ and $\\frac\\pi6 < 2T < \\frac{5\\pi}6$:\n\n$$\\frac{\\pi}{12} < T < \\frac{5\\pi}{12}.$$"
+  },
+  {
+   "ref": "Q16(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "Let $\\beta = \\dfrac{-3+\\sqrt5}{2}$.\n\nShow that $\\beta^2+3\\beta+1 = 0$, and hence, prove that $\\beta^{-2}+3\\beta^{-1}+1 = 0$.",
+   "answer": "By the quadratic formula, $x^2+3x+1 = 0$ has roots $x = \\dfrac{-3\\pm\\sqrt{9-4}}{2} = \\dfrac{-3\\pm\\sqrt5}{2}$, so $\\beta$ is a root: $\\beta^2+3\\beta+1 = 0$.\n\n(Directly: $\\beta^2 = \\dfrac{14-6\\sqrt5}{4} = \\dfrac{7-3\\sqrt5}2$, and $\\dfrac{7-3\\sqrt5}{2} + \\dfrac{-9+3\\sqrt5}{2} + 1 = 0$.)\n\nSince $\\beta\\ne0$, divide by $\\beta^2$: $1 + 3\\beta^{-1} + \\beta^{-2} = 0$, i.e. $\\beta^{-2}+3\\beta^{-1}+1 = 0$."
+  },
+  {
+   "ref": "Q16(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.3",
+    "12.1.4.4"
+   ],
+   "question": "Let $\\beta = \\dfrac{-3+\\sqrt5}{2}$. It is known that $\\beta^2+3\\beta+1 = 0$ and $\\beta^{-2}+3\\beta^{-1}+1 = 0$.\n\nLet $B_n = \\beta^n+\\beta^{-n}$. Deduce that $B_n = -3B_{n-1} - B_{n-2}$.",
+   "answer": "$$B_n + 3B_{n-1} + B_{n-2} = \\beta^n + 3\\beta^{n-1} + \\beta^{n-2} + \\beta^{-n} + 3\\beta^{-(n-1)} + \\beta^{-(n-2)}$$\n\n$$= \\beta^{n-2}\\left(\\beta^2+3\\beta+1\\right) + \\beta^{-n+2}\\left(\\beta^{-2}+3\\beta^{-1}+1\\right) = 0 + 0,$$\n\nso $B_n = -3B_{n-1} - B_{n-2}$."
+  },
+  {
+   "ref": "Q16(a)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.5",
+    "12.1.2.3"
+   ],
+   "question": "Let $\\beta = \\dfrac{-3+\\sqrt5}{2}$. Let $B_n = \\beta^n+\\beta^{-n}$. It is known that $B_n = -3B_{n-1} - B_{n-2}$.\n\nHence, briefly explain why $B_n\\in\\mathbb{Z}$ for all positive integers $n$.",
+   "answer": "$\\beta$ and $\\beta^{-1}$ are the two roots of $x^2+3x+1 = 0$ (product of roots $=1$), so $B_1 = \\beta+\\beta^{-1} = -3 \\in\\mathbb{Z}$ (sum of roots).\n\n$B_2 = \\left(\\beta+\\beta^{-1}\\right)^2 - 2 = 9 - 2 = 7\\in\\mathbb{Z}$. (Alternatively $B_0 = 2$.)\n\nInduction: if $B_k, B_{k+1}\\in\\mathbb{Z}$ then $B_{k+2} = -3B_{k+1} - B_k \\in\\mathbb{Z}$, since integers are closed under multiplication and subtraction. As $B_1, B_2\\in\\mathbb{Z}$, it follows that $B_3, B_4, \\dots \\in\\mathbb{Z}$: $B_n\\in\\mathbb{Z}$ for all positive integers $n$."
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.5"
+   ],
+   "question": "Consider the polynomial $P(z) = z^{2n+1} - 1$, where $n$ is a positive integer.\n\nProve that the zeros of $P(z)$ are $z = \\alpha_k = \\cos\\theta_k + i\\sin\\theta_k$ where $\\theta_k = \\dfrac{2k\\pi}{2n+1}$ for $k = 0, 1, 2, \\dots, 2n$.",
+   "answer": "Let $z = r(\\cos\\theta+i\\sin\\theta)$. By de Moivre's theorem, $z^{2n+1} = 1$ becomes\n\n$$r^{2n+1}\\big(\\cos(2n+1)\\theta + i\\sin(2n+1)\\theta\\big) = \\cos2k\\pi + i\\sin2k\\pi,\\quad k\\in\\mathbb{Z}.$$\n\nSo $r = 1$ and $\\theta = \\dfrac{2k\\pi}{2n+1}$. The values $k = 0, 1, \\dots, 2n$ give $2n+1$ distinct numbers; other $k$ repeat these. Since $P$ has degree $2n+1$ it has exactly $2n+1$ zeros, namely $\\alpha_k = \\cos\\theta_k+i\\sin\\theta_k$, $k = 0,1,\\dots,2n$."
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.12",
+    "12.3.2.9"
+   ],
+   "question": "Consider the polynomial $P(z) = z^{2n+1} - 1$, where $n$ is a positive integer. Its zeros are $\\alpha_k = \\cos\\theta_k + i\\sin\\theta_k$ where $\\theta_k = \\dfrac{2k\\pi}{2n+1}$, $k = 0, 1, \\dots, 2n$.\n\nProve that $\\overline{\\alpha_k} = \\alpha_{2n+1-k}$.",
+   "answer": "$$\\overline{\\alpha_k} = \\cos\\frac{2k\\pi}{2n+1} - i\\sin\\frac{2k\\pi}{2n+1} = \\cos\\left(2\\pi - \\frac{2k\\pi}{2n+1}\\right) + i\\sin\\left(2\\pi - \\frac{2k\\pi}{2n+1}\\right)$$\n\n$$= \\cos\\frac{2(2n+1-k)\\pi}{2n+1} + i\\sin\\frac{2(2n+1-k)\\pi}{2n+1} = \\alpha_{2n+1-k}.$$"
+  },
+  {
+   "ref": "Q16(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.12",
+    "12.3.3.4"
+   ],
+   "question": "Consider the polynomial $P(z) = z^{2n+1} - 1$, where $n$ is a positive integer. Its zeros are $\\alpha_k = \\cos\\theta_k + i\\sin\\theta_k$ where $\\theta_k = \\dfrac{2k\\pi}{2n+1}$, $k = 0, 1, \\dots, 2n$, and $\\overline{\\alpha_k} = \\alpha_{2n+1-k}$.\n\nUsing the product notation $\\displaystyle\\prod_{k=1}^nT_k = T_1\\times T_2\\times\\cdots\\times T_n$, prove that\n\n$$z^{2n} + z^{2n-1} + \\cdots + z + 1 = \\prod_{k=1}^n(z-\\alpha_k)(z-\\overline{\\alpha_k}).$$",
+   "answer": "$P(z)$ is monic with zeros $\\alpha_0 = 1, \\alpha_1, \\dots, \\alpha_{2n}$, so\n\n$$z^{2n+1} - 1 = (z-1)(z-\\alpha_1)(z-\\alpha_2)\\cdots(z-\\alpha_{2n}).$$\n\nPair $\\alpha_k$ with $\\alpha_{2n+1-k} = \\overline{\\alpha_k}$ for $k = 1,\\dots,n$ (these pairs use up $\\alpha_1,\\dots,\\alpha_{2n}$ exactly once):\n\n$$z^{2n+1}-1 = (z-1)\\prod_{k=1}^n(z-\\alpha_k)(z-\\overline{\\alpha_k}).$$\n\nAlso $z^{2n+1}-1 = (z-1)(z^{2n}+z^{2n-1}+\\cdots+z+1)$ (geometric series). Equating, and cancelling $z - 1$ (two polynomials equal for all $z\\ne1$ are identical):\n\n$$z^{2n}+z^{2n-1}+\\cdots+z+1 = \\prod_{k=1}^n(z-\\alpha_k)(z-\\overline{\\alpha_k}).$$"
+  },
+  {
+   "ref": "Q16(b)(iv)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.12",
+    "12.3.1.12"
+   ],
+   "question": "Let $\\beta = \\dfrac{-3+\\sqrt5}{2}$, which satisfies $\\beta + \\beta^{-1} = -3$. Let $\\alpha_k = \\cos\\theta_k + i\\sin\\theta_k$ where $\\theta_k = \\dfrac{2k\\pi}{2n+1}$.\n\nLet $A_k = 5 - 4\\sin^2\\left(\\dfrac{k\\pi}{2n+1}\\right)$. Show that $A_k = \\left(\\alpha_k - \\beta\\right)\\left(1 - \\alpha_k^{-1}\\beta^{-1}\\right)$.",
+   "answer": "Since $|\\alpha_k| = 1$, $\\alpha_k^{-1} = \\overline{\\alpha_k}$. Expanding:\n\n$$(\\alpha_k-\\beta)(1-\\overline{\\alpha_k}\\beta^{-1}) = \\alpha_k - \\alpha_k\\overline{\\alpha_k}\\beta^{-1} - \\beta + \\overline{\\alpha_k} = \\alpha_k + \\overline{\\alpha_k} - (\\beta+\\beta^{-1})$$\n\n$$= 2\\cos\\frac{2k\\pi}{2n+1} + 3 = 2\\left(1 - 2\\sin^2\\frac{k\\pi}{2n+1}\\right) + 3 = 5 - 4\\sin^2\\frac{k\\pi}{2n+1} = A_k.$$"
+  },
+  {
+   "ref": "Q16(b)(v)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.3.4.12",
+    "12.1.2.3"
+   ],
+   "question": "Let $\\beta = \\dfrac{-3+\\sqrt5}{2}$ and $B_m = \\beta^m+\\beta^{-m}$; you may assume that $B_m\\in\\mathbb{Z}$ for all positive integers $m$. Let $\\alpha_k = \\cos\\theta_k + i\\sin\\theta_k$ where $\\theta_k = \\dfrac{2k\\pi}{2n+1}$. It is known that\n\n$$z^{2n} + z^{2n-1} + \\cdots + z + 1 = \\prod_{k=1}^n(z-\\alpha_k)(z-\\overline{\\alpha_k})$$\n\nand that $5 - 4\\sin^2\\left(\\dfrac{k\\pi}{2n+1}\\right) = \\left(\\alpha_k - \\beta\\right)\\left(1 - \\alpha_k^{-1}\\beta^{-1}\\right)$.\n\nHence, or otherwise, prove that $S = \\displaystyle\\prod_{k=1}^n\\left[5 - 4\\sin^2\\left(\\frac{k\\pi}{2n+1}\\right)\\right]$ is an integer.",
+   "answer": "Using $\\alpha_k^{-1} = \\overline{\\alpha_k}$:\n\n$$\\left(\\alpha_k - \\beta\\right)\\left(1 - \\frac{\\overline{\\alpha_k}}{\\beta}\\right) = \\frac1\\beta(\\alpha_k-\\beta)(\\beta - \\overline{\\alpha_k}) = -\\frac1\\beta(\\beta-\\alpha_k)(\\beta-\\overline{\\alpha_k}).$$\n\nSo\n\n$$S = \\frac{(-1)^n}{\\beta^n}\\prod_{k=1}^n(\\beta-\\alpha_k)(\\beta-\\overline{\\alpha_k}) = \\frac{(-1)^n}{\\beta^n}\\left(\\beta^{2n}+\\beta^{2n-1}+\\cdots+\\beta+1\\right)$$\n\n(putting $z = \\beta$ in the factorisation). Dividing each term by $\\beta^n$:\n\n$$S = (-1)^n\\left(\\beta^n + \\beta^{n-1} + \\cdots + \\beta + 1 + \\beta^{-1} + \\cdots + \\beta^{-n}\\right) = (-1)^n\\left(B_n + B_{n-1} + \\cdots + B_1 + 1\\right).$$\n\nEach $B_m\\in\\mathbb{Z}$, so $S$ is an integer.\n\n(Check, $n=1$: $S = 5 - 4\\sin^2\\frac\\pi3 = 2$ and $-(B_1+1) = -(-3+1) = 2$.)"
+  }
+ ]
+}

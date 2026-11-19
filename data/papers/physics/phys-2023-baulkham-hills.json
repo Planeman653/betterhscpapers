@@ -1,0 +1,749 @@
+{
+ "id": "phys-2023-baulkham-hills",
+ "course": "physics",
+ "school": "Baulkham Hills",
+ "year": 2023,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "6528",
+  "title": "Baulkham Hills 2023 w. sol"
+ },
+ "indexed": "2026-11-19",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.5"
+   ],
+   "question": "Which of the following best describes the relationship between the work done on an object when it moves between two altitudes and its gravitational potential energy?",
+   "options": [
+    "The work done on the object equals its gravitational potential energy.",
+    "The work done on the object equals the change in its gravitational potential energy.",
+    "The work done on the object equals the increase in its gravitational potential energy.",
+    "The work done on the object equals the decrease in its gravitational potential energy."
+   ],
+   "correct": "B",
+   "answer": "The work done on an object in moving it between two points in a gravitational field equals the **change** in its gravitational potential energy, $W = \\Delta U = U_f - U_i$. (It is an increase only if the object is moved to a higher altitude, so B is the general statement; the school's key also accepted C.)"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.2.1"
+   ],
+   "question": "Jonathan and Felix place a current-carrying wire so that it is perpendicular to a magnetic field. Which graph correctly shows the relationship between the magnetic field strength ($B$) and current ($I$) if the force on the current-carrying wire is to remain constant?",
+   "options": [
+    "![Graph A](assets/img/phys-2023-baulkham-hills/q2a.png)",
+    "![Graph B](assets/img/phys-2023-baulkham-hills/q2b.png)",
+    "![Graph C](assets/img/phys-2023-baulkham-hills/q2c.png)",
+    "![Graph D](assets/img/phys-2023-baulkham-hills/q2d.png)"
+   ],
+   "correct": "C",
+   "answer": "$F = lIB$ is constant, so $I = \\dfrac{F}{lB} \\propto \\dfrac{1}{B}$: an inverse (hyperbolic) relationship, graph C."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.3.2"
+   ],
+   "question": "Jet, an astronaut floating in the International Space Station while it is orbiting Earth, feels weightless. This is because",
+   "options": [
+    "His mass is now zero.",
+    "The gravitational force on him is zero.",
+    "The gravitational force is balanced by the centrifugal force.",
+    "Gravity is the only force acting on him."
+   ],
+   "correct": "D",
+   "answer": "Jet and the ISS are both in free fall around the Earth: gravity is the only force acting and it provides the centripetal force. There is no normal (contact) force from the floor, so he feels weightless. Gravity at the ISS is still about 90% of its surface value."
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.2",
+    "12.6.3.1"
+   ],
+   "question": "Wethmi places a circular loop of wire in a magnetic field directed into the page so that it doesn't move. She then pushes the sides together to change the shape, as shown in the diagram (the loop is squashed into a long thin shape). As Wethmi compresses the loop, a current flows. Which of the following shows the direction of the current and explains why it is induced?",
+   "options": [
+    "Clockwise; change in magnetic flux",
+    "Anticlockwise; change in magnetic flux",
+    "Clockwise; change in magnetic flux density",
+    "Anticlockwise; change in magnetic flux density"
+   ],
+   "correct": "A",
+   "answer": "The field $B$ is unchanged but the area of the loop decreases, so the flux $\\Phi = BA$ into the page decreases. By Lenz's law the induced current opposes this change by producing its own field into the page inside the loop, which requires a clockwise current (right-hand grip rule).",
+   "images": [
+    "assets/img/phys-2023-baulkham-hills/q4.png"
+   ]
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.3"
+   ],
+   "question": "Rohan and Darshpreet fix in place three straight conductors, $P$, $Q$ and $R$, carrying currents of the same magnitude, $I$. $P$ and $R$ carry current downwards, $Q$ carries current upwards; $Q$ is 10 mm from $P$ and $R$ is a further 10 mm to the right of $Q$ (as shown). The magnitude of the force between conductors $P$ and $Q$ is $F$ newtons. What is the net force on conductor $R$ when it is in the position shown?",
+   "options": [
+    "$F/2$ N to the left",
+    "$F/2$ N to the right",
+    "$3F/2$ N to the left",
+    "$3F/2$ N to the right"
+   ],
+   "correct": "B",
+   "answer": "$F \\propto \\dfrac{I_1 I_2}{r}$. Force on $R$ from $Q$: currents opposite, 10 mm apart, so a repulsive force of magnitude $F$ — to the right. Force on $R$ from $P$: currents parallel, 20 mm apart, so an attractive force of magnitude $F/2$ — to the left. Net force $= F - F/2 = F/2$ to the right.",
+   "images": [
+    "assets/img/phys-2023-baulkham-hills/q5.png"
+   ]
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.2"
+   ],
+   "question": "A light source of wavelength $\\lambda$ shines on two slits, $S_1$ and $S_2$, separated by distance $d$. Two light rays from slits $S_1$ and $S_2$ (Ray X and Ray Y) are shown in the diagram. What is the path difference between rays X and Y?",
+   "options": [
+    "$0.5\\lambda$",
+    "$1.0\\lambda$",
+    "$1.5\\lambda$",
+    "$2.0\\lambda$"
+   ],
+   "correct": "B",
+   "answer": "The rays meet at a maximum, so the path difference is a whole number of wavelengths. The central maximum is the middle 'Max' (directly opposite the midpoint of the slits); the rays meet at the next maximum above it — the first-order maximum, $m = 1$ — so the path difference is $1\\lambda$.",
+   "images": [
+    "assets/img/phys-2023-baulkham-hills/q6.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.5"
+   ],
+   "question": "The escape velocity of Earth is $11\\,200\\ \\text{m s}^{-1}$ and yet a spacecraft, moving at a much lower speed, can travel away from the Earth and toward distant planets. Which of the following statements about this is correct?",
+   "options": [
+    "If the spacecraft turns off its rockets, it will slow down and be pulled back to Earth.",
+    "To escape the Earth's gravitational field, a spacecraft in orbit will have to accelerate to a minimum of $11\\,200\\ \\text{m s}^{-1}$.",
+    "A spacecraft in orbit around the Earth could use rockets to accelerate and escape the Earth's gravity at a lower speed.",
+    "The escape velocity depends on the mass of the spacecraft."
+   ],
+   "correct": "C",
+   "answer": "Escape velocity is the speed an *unpowered* projectile needs at Earth's surface. A spacecraft in orbit is already further from Earth (escape velocity there, $\\sqrt{2GM/r}$, is smaller) and can keep doing work with its rockets, so it can escape while moving slower than $11\\,200\\ \\text{m s}^{-1}$. B is wrong for the same reason; D is wrong because $v_{esc} = \\sqrt{2GM/r}$ is independent of the spacecraft's mass; A is not necessarily true — a spacecraft in a stable orbit with its rockets off stays in orbit. (The school's key also accepted A.)"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.1.6"
+   ],
+   "question": "The Hertzsprung–Russell diagram shows four stars, marked $W$, $X$, $Y$ and $Z$: $W$ is at the top left of the main sequence (spectral class O/B, luminosity about $10^4 L_\\text{Sun}$); $X$ is on the main sequence (class A, about $10 L_\\text{Sun}$); $Y$ is at the top right among the supergiants (class G/K, about $10^5 L_\\text{Sun}$); $Z$ is at the bottom right of the main sequence (class M, about $10^{-3} L_\\text{Sun}$). Which of the following gives the correct features of the relevant star?",
+   "options": [
+    "Star $W$ is the hottest and largest.",
+    "Star $X$ is a relatively small, yellow star, similar to our Sun.",
+    "Star $Y$ is the largest and hottest of the four.",
+    "Star $Z$ is the smallest and has the shortest lifespan."
+   ],
+   "correct": "B",
+   "answer": "A: $W$ is the hottest but $Y$ (a supergiant) is the largest. C: $Y$ is the largest but is cooler than $W$ and $X$. D: $Z$, a red dwarf, is the smallest but has the *longest* lifespan. B is the best answer: $X$ is a main sequence star of similar size and luminosity to the Sun (strictly, at class A it is slightly hotter and whiter than the Sun).",
+   "images": [
+    "assets/img/phys-2023-baulkham-hills/q8.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.1.7",
+    "12.8.1.6"
+   ],
+   "question": "The Hertzsprung–Russell diagram shows stars $W$ (top left of the main sequence, class O/B), $X$ (on the main sequence, class A, about $10 L_\\text{Sun}$) and $Y$ (top right, a supergiant). Identify the predominant nuclear reactions involved in the three stars $W$, $X$ and $Y$.",
+   "options": [
+    "$W$: proton–proton; $Y$: CNO cycle; $X$: proton–proton",
+    "$W$: proton–proton; $Y$: proton–proton; $X$: CNO cycle",
+    "$W$: CNO cycle; $Y$: proton–proton; $X$: triple alpha",
+    "$W$: CNO cycle; $Y$: triple alpha; $X$: proton–proton"
+   ],
+   "correct": "D",
+   "answer": "$W$ is a massive, hot upper main sequence star, so hydrogen fusion is dominated by the CNO cycle. $Y$ is a post-main sequence supergiant, fusing helium by the triple-alpha process. $X$ is a lower-mass main sequence star (taken as Sun-like), fusing hydrogen mainly by the proton–proton chain.",
+   "images": [
+    "assets/img/phys-2023-baulkham-hills/q8.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "A proton is travelling at half the speed of light at an angle of $7.5^\\circ$ to the direction of the magnetic field in a particle accelerator. The accelerator's magnetic field strength is $2.0 \\times 10^{-2}$ T. The force on the proton is closest to",
+   "options": [
+    "$2.356 \\times 10^{-13}$ N",
+    "$6.273 \\times 10^{-14}$ N",
+    "$6.172 \\times 10^{-14}$ N",
+    "$1.19 \\times 10^{-15}$ N"
+   ],
+   "correct": "B",
+   "answer": "$F = qvB\\sin\\theta = (1.602 \\times 10^{-19})(1.5 \\times 10^{8})(2.0 \\times 10^{-2})\\sin 7.5^\\circ = 6.273 \\times 10^{-14}$ N."
+  },
+  {
+   "ref": "Q11",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "*Gliese 581c* is an Earth-like planet discovered in 2007 orbiting a star 20 light years from the Sun. Astronomers suspect its mass is 6 times that of the Earth. Assuming that the radius of Gliese 581c is twice that of the Earth, what would be the acceleration due to gravity at its surface?",
+   "options": [
+    "$3.3\\ \\text{m s}^{-2}$",
+    "$6.5\\ \\text{m s}^{-2}$",
+    "$14.7\\ \\text{m s}^{-2}$",
+    "$29.4\\ \\text{m s}^{-2}$"
+   ],
+   "correct": "C",
+   "answer": "$g = \\dfrac{GM}{r^2}$, so $g' = \\dfrac{6}{2^2} \\times 9.8 = 1.5 \\times 9.8 = 14.7\\ \\text{m s}^{-2}$."
+  },
+  {
+   "ref": "Q12",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "A negatively charged particle enters a uniform magnetic field, moving in the same direction as the field lines (as shown). Which of the following best demonstrates what happens to this particle once it is in the magnetic field?",
+   "options": [
+    "![A: travels straight through](assets/img/phys-2023-baulkham-hills/q12a.png)",
+    "![B: curves upward](assets/img/phys-2023-baulkham-hills/q12b.png)",
+    "![C: curves downward](assets/img/phys-2023-baulkham-hills/q12c.png)",
+    "Particle curves up out of the page."
+   ],
+   "correct": "A",
+   "answer": "The particle's velocity is parallel to $B$, so $F = qvB\\sin 0^\\circ = 0$. There is no force and it continues in a straight line at constant speed.",
+   "images": [
+    "assets/img/phys-2023-baulkham-hills/q12.png"
+   ]
+  },
+  {
+   "ref": "Q13",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.4.1"
+   ],
+   "question": "One of the consequences of special relativity is that",
+   "options": [
+    "Forces that are not real can be felt by some observers.",
+    "People travelling at high speeds will be crushed by length contraction.",
+    "Time can move backward.",
+    "Two events may appear to be simultaneous to one observer but not another."
+   ],
+   "correct": "D",
+   "answer": "Because the speed of light is the same in all inertial frames, simultaneity is relative: events simultaneous in one frame need not be simultaneous in another. Length contraction is not felt by the traveller (in their own frame nothing changes), and time does not run backwards."
+  },
+  {
+   "ref": "Q14",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.4"
+   ],
+   "question": "Europa, a moon of Jupiter, has an orbital diameter of $1.34 \\times 10^{9}$ m and a period of 3.55 Earth days. What is the mass of Jupiter?",
+   "options": [
+    "$1.48 \\times 10^{23}$ kg",
+    "$1.83 \\times 10^{27}$ kg",
+    "$1.89 \\times 10^{27}$ kg",
+    "$1.51 \\times 10^{28}$ kg"
+   ],
+   "correct": "C",
+   "answer": "$r = \\tfrac{1.34 \\times 10^9}{2} = 6.7 \\times 10^8$ m, $T = 3.55 \\times 86\\,400 = 3.067 \\times 10^5$ s.\n\n$M = \\dfrac{4\\pi^2 r^3}{GT^2} = \\dfrac{4\\pi^2 (6.7 \\times 10^8)^3}{(6.67 \\times 10^{-11})(3.067 \\times 10^5)^2} = 1.89 \\times 10^{27}$ kg. (Using the diameter instead of the radius gives D.)"
+  },
+  {
+   "ref": "Q15",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.4.1"
+   ],
+   "question": "Daniel sent a microwave signal from Earth to Lucy, who was in a spacecraft which was travelling directly towards the Earth at a speed of $0.4c$. What was the speed of Daniel's signal as received by Lucy?",
+   "options": [
+    "$0.4c$",
+    "$0.1c$",
+    "$1.0c$",
+    "$1.4c$"
+   ],
+   "correct": "C",
+   "answer": "Microwaves are electromagnetic waves. By Einstein's second postulate the speed of light in a vacuum is the same, $c$, for all inertial observers, regardless of their motion."
+  },
+  {
+   "ref": "Q16",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "Which wave behaviour provided evidence for the transverse nature of light?",
+   "options": [
+    "Polarisation",
+    "Diffraction",
+    "Interference",
+    "Refraction"
+   ],
+   "correct": "A",
+   "answer": "Only transverse waves can be polarised (their oscillations can be restricted to one plane). Diffraction, interference and refraction occur for longitudinal waves too."
+  },
+  {
+   "ref": "Q17",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.1"
+   ],
+   "question": "The graph shows the electromagnetic radiation (intensity against wavelength) emitted from two stars, A and B, as typical black body curves. Why is there a drop in the intensity at very short wavelengths for these black body radiation curves?",
+   "options": [
+    "The energy of each photon is reduced at very short wavelengths.",
+    "There are fewer photons with high energy at very short wavelengths.",
+    "Only photons of very short wavelengths are reabsorbed by the black body.",
+    "Photons of very short wavelengths interact, causing destructive interference."
+   ],
+   "correct": "B",
+   "answer": "In Planck's quantised model the energy of each photon, $E = hf = hc/\\lambda$, is large at short wavelengths, and few oscillators have enough energy to emit such high-energy quanta. So far fewer photons are emitted at very short wavelengths and the intensity falls to zero (avoiding the 'ultraviolet catastrophe'). A is wrong — photon energy increases as wavelength decreases.",
+   "images": [
+    "assets/img/phys-2023-baulkham-hills/q17.png"
+   ]
+  },
+  {
+   "ref": "Q18",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.4.2",
+    "12.7.4.3"
+   ],
+   "question": "Angela is travelling in her spacecraft at $0.9c$ (horizontally, along the length of the spacecraft) past an observer on an asteroid. Which of the following statements about how the observer sees Angela's spacecraft is correct?",
+   "options": [
+    "It will be more massive, but not as long.",
+    "It will be more massive, not as long or as wide.",
+    "It will be more massive and not as wide.",
+    "It will be less massive and not as long."
+   ],
+   "correct": "A",
+   "answer": "Length contraction, $l = l_0\\sqrt{1 - v^2/c^2}$, occurs only in the direction of motion, so the spacecraft appears shorter but not narrower. Its momentum increases relativistically, $p = \\gamma m_0 v$, which the option describes as appearing 'more massive' (an older relativistic-mass description). So A."
+  },
+  {
+   "ref": "Q19",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.3.3"
+   ],
+   "question": "An ideal transformer is used to convert an input of 800 V to an output current of 24 A. There are 5700 turns in the primary coil and 460 turns in the secondary. What is the current in the primary?",
+   "options": [
+    "1.94 A",
+    "3.81 A",
+    "13.8 A",
+    "64.6 A"
+   ],
+   "correct": "A",
+   "answer": "For an ideal transformer $V_pI_p = V_sI_s$ and $\\dfrac{V_p}{V_s} = \\dfrac{N_p}{N_s}$, so $\\dfrac{I_p}{I_s} = \\dfrac{N_s}{N_p}$: $I_p = 24 \\times \\dfrac{460}{5700} = 1.94$ A."
+  },
+  {
+   "ref": "Q20",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.2.1",
+    "12.6.1.3"
+   ],
+   "question": "Thomson carried out an experiment with a modified form of cathode ray tube, where a new, unknown type of charged particle is injected into a region perpendicular to a magnetic field. He measured the charge to mass ratio $q/m$ from the radius of the particles' circular path. What does the calculated charge to mass ratio become if the particle velocity is doubled and the magnetic field strength is tripled (with the same radius of path measured)?",
+   "options": [
+    "$0.66\\,q/m$",
+    "$1.33\\,q/m$",
+    "$1.66\\,q/m$",
+    "$1.75\\,q/m$"
+   ],
+   "correct": "A",
+   "answer": "For circular motion in the field, $qvB = \\dfrac{mv^2}{r}$, so $\\dfrac{q}{m} = \\dfrac{v}{rB}$. With $v \\to 2v$, $B \\to 3B$ and the same $r$: $\\dfrac{q}{m} \\to \\dfrac{2}{3}\\dfrac{q}{m} \\approx 0.66\\,\\dfrac{q}{m}$."
+  },
+  {
+   "ref": "Q21(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.5",
+    "12.5.2.4"
+   ],
+   "question": "A rocket is in orbit, distance $R$ from the centre of the Earth. At this position, it has a gravitational potential energy $U = -4E$ J. The rocket is then boosted to a higher orbit where its gravitational potential energy is $-E$ J.\n\nComplete a table showing the gravitational potential energy, orbital kinetic energy and total energy (in J) of the rocket in its initial and final orbits.",
+   "answer": "For a circular orbit $K = \\dfrac{GMm}{2r} = -\\dfrac{U}{2}$ and the total energy $E_{tot} = U + K = \\dfrac{U}{2}$.\n\n| | Gravitational potential energy (J) | Orbital kinetic energy (J) | Total energy (J) |\n|---|---|---|---|\n| Initial position | $-4E$ | $2E$ | $-2E$ |\n| Final position | $-E$ | $\\tfrac{E}{2}$ | $-\\tfrac{E}{2}$ |"
+  },
+  {
+   "ref": "Q21(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.5"
+   ],
+   "question": "A rocket is in orbit, distance $R$ from the centre of the Earth. At this position, it has a gravitational potential energy $U = -4E$ J. The rocket is then boosted to a higher orbit where its gravitational potential energy is $-E$ J.\n\nExplain how the gravitational potential energy of the rocket seems to decrease from $-4E$ to $-E$, even though it is boosted to a higher orbit.",
+   "answer": "Gravitational potential energy is defined as zero at an infinite distance from the Earth, so it is negative at every finite distance, $U = -\\dfrac{GMm}{r}$. Changing from $-4E$ to $-E$ is actually an **increase** in $U$ (it becomes less negative). As the rocket moves further away, work is done on it against the gravitational field (which weakens with distance), so its potential energy increases towards zero, the value it would reach at infinite distance."
+  },
+  {
+   "ref": "Q21(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.2",
+    "12.5.3.5"
+   ],
+   "question": "A rocket is in orbit, distance $R$ from the centre of the Earth. At this position, it has a gravitational potential energy $U = -4E$ J. The rocket is then boosted to a higher orbit where its gravitational potential energy is $-E$ J.\n\nJustify the change in kinetic energy of the rocket by deriving the relationship between the kinetic energy of an orbiting object and the radius of its orbit.",
+   "answer": "Gravity provides the centripetal force:\n\n$$\\frac{mv^2}{r} = \\frac{GMm}{r^2} \\quad\\Rightarrow\\quad v^2 = \\frac{GM}{r}$$\n\n$$K = \\tfrac12 mv^2 = \\frac{GMm}{2r} \\quad\\Rightarrow\\quad K \\propto \\frac{1}{r}$$\n\nSo as the orbital radius increases the kinetic energy decreases. Also $K = -\\tfrac12 U$: when $U$ goes from $-4E$ to $-E$ (the radius increases by a factor of 4), $K$ decreases from $2E$ to $\\tfrac{E}{2}$."
+  },
+  {
+   "ref": "Q22",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.1.6"
+   ],
+   "question": "An astronomer recorded hydrogen spectral data from a star. She noticed the spectral lines she recorded for this star were shifted to a lower wavelength by $30.0 \\times 10^{-10}$ m and were broader than expected. State what caused each of these two observations.",
+   "answer": "- **Shift to shorter wavelength (blueshift):** the star is moving towards the observer (translational velocity, Doppler effect).\n- **Broadened lines:** the star has a high rotational velocity (or a high density/pressure in its atmosphere)."
+  },
+  {
+   "ref": "Q23(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.2",
+    "12.5.2.3"
+   ],
+   "question": "A student's 1500 kg car travels around curves of radius 12 m. The left-hand curve is on a horizontal (flat) road; the right-hand curve is banked at an angle $\\theta$ to the horizontal (as shown).\n\nDetermine the frictional force required by the 4 tyres in total to prevent the car skidding on the horizontal road if the student drives it at a speed of 30 km/h.",
+   "answer": "On the flat road, friction provides the centripetal force: $F_f = F_c = \\dfrac{mv^2}{r}$.\n\n$v = \\dfrac{30}{3.6} = 8.33\\ \\text{m s}^{-1}$\n\n$$F_f = \\frac{1500 \\times 8.33^2}{12} = 8.7 \\times 10^{3}\\ \\text{N}$$\n\ndirected horizontally towards the centre of the curve.",
+   "images": [
+    "assets/img/phys-2023-baulkham-hills/q23.png"
+   ]
+  },
+  {
+   "ref": "Q23(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2",
+    "12.5.2.3"
+   ],
+   "question": "A student's 1500 kg car travels around curves of radius 12 m. The left-hand curve is on a horizontal (flat) road; the right-hand curve is banked at an angle $\\theta$ to the horizontal (as shown).\n\nDetermine the angle of the banked track needed for the car to safely travel around the banked road if the car travels at 40 km/h, assuming that there is no friction between the tyres and the road.",
+   "answer": "With no friction, the only forces are the normal force $N$ and weight $mg$. Vertically: $N\\cos\\theta = mg$. Horizontally the component $N\\sin\\theta$ provides the centripetal force: $N\\sin\\theta = \\dfrac{mv^2}{r}$.\n\nDividing: $\\tan\\theta = \\dfrac{v^2}{rg}$, with $v = \\dfrac{40}{3.6} = 11.1\\ \\text{m s}^{-1}$:\n\n$$\\theta = \\tan^{-1}\\left(\\frac{11.1^2}{12 \\times 9.8}\\right) = \\tan^{-1}(1.05) = 46^\\circ$$",
+   "images": [
+    "assets/img/phys-2023-baulkham-hills/q23.png"
+   ]
+  },
+  {
+   "ref": "Q24",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.1"
+   ],
+   "question": "The graph shows the wavelength of the peak intensity of radiation emitted by a standard black body at different temperatures (from the graph: about $7.0\\ \\mu$m at 400 K, about $3.6\\ \\mu$m at 800 K and about $2.4\\ \\mu$m at 1200 K). Show that the graph is consistent with Wien's Law.",
+   "answer": "Wien's law: $\\lambda_{max} = \\dfrac{b}{T}$ with $b = 2.898 \\times 10^{-3}$ m K, i.e. $\\lambda_{max}T$ is constant (the peak wavelength is inversely proportional to the absolute temperature).\n\nTest values read from the graph:\n\n| $T$ (K) | $\\lambda_{max}$ from graph ($\\mu$m) | $\\lambda_{max}T$ (m K) | Wien prediction $b/T$ ($\\mu$m) |\n|---|---|---|---|\n| 400 | 7.0 | $2.8 \\times 10^{-3}$ | 7.2 |\n| 800 | 3.6 | $2.9 \\times 10^{-3}$ | 3.6 |\n| 1200 | 2.4 | $2.9 \\times 10^{-3}$ | 2.4 |\n\nThe product $\\lambda_{max}T$ is constant (within reading error) and equal to Wien's constant $b \\approx 2.9 \\times 10^{-3}$ m K — e.g. at 800 K, $\\lambda_{max} = \\dfrac{2.898 \\times 10^{-3}}{800} = 3.6 \\times 10^{-6}$ m, matching the graph. Doubling $T$ halves $\\lambda_{max}$, so the graph is consistent with Wien's law.",
+   "images": [
+    "assets/img/phys-2023-baulkham-hills/q24.png"
+   ]
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.1.1",
+    "12.5.1.4"
+   ],
+   "question": "On the Moon, Vanessa spits her chewing gum out from the top of a 150 m high cliff. The gum follows a parabolic path (rising first) and hits the ground below 18.63 s later, at a horizontal distance of 300 m from the base of the cliff (as shown). The acceleration due to gravity on the Moon is $1.6\\ \\text{m s}^{-2}$. Ignore air resistance.\n\nDetermine the horizontal component of the chewing gum's velocity.",
+   "answer": "The horizontal velocity is constant: $s_x = u_x t$\n\n$$u_x = \\frac{300}{18.63} = 16.1\\ \\text{m s}^{-1}$$",
+   "images": [
+    "assets/img/phys-2023-baulkham-hills/q25.png"
+   ]
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.1",
+    "12.5.1.4"
+   ],
+   "question": "On the Moon, Vanessa spits her chewing gum out from the top of a 150 m high cliff. The gum follows a parabolic path (rising first) and hits the ground below 18.63 s later, at a horizontal distance of 300 m from the base of the cliff (as shown). The acceleration due to gravity on the Moon is $1.6\\ \\text{m s}^{-2}$. Ignore air resistance.\n\nDetermine the vertical component of the gum's initial velocity.",
+   "answer": "Taking up as positive: $s_y = -150$ m, $a_y = -1.6\\ \\text{m s}^{-2}$, $t = 18.63$ s.\n\n$$s_y = u_y t + \\tfrac12 a_y t^2 \\Rightarrow u_y = \\frac{s_y - \\tfrac12 a_y t^2}{t} = \\frac{-150 + 0.8 \\times 18.63^2}{18.63} = 6.9\\ \\text{m s}^{-1}$$\n\ni.e. about $6.9\\ \\text{m s}^{-1}$ upwards.",
+   "images": [
+    "assets/img/phys-2023-baulkham-hills/q25.png"
+   ]
+  },
+  {
+   "ref": "Q25(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.1",
+    "12.5.1.2"
+   ],
+   "question": "On the Moon, Vanessa spits her chewing gum out from the top of a 150 m high cliff. The gum follows a parabolic path (rising first) and hits the ground below 18.63 s later, at a horizontal distance of 300 m from the base of the cliff (as shown). The acceleration due to gravity on the Moon is $1.6\\ \\text{m s}^{-2}$. Ignore air resistance.\n\nThe mass of the Moon is miraculously doubled and its radius increased so that it is three times larger. Describe (or sketch) the new trajectory of the gum if Vanessa spat it out with the same initial velocity. Clearly justify your reasoning.",
+   "answer": "$g = \\dfrac{GM}{r^2}$, so the new surface gravity is $g' = \\dfrac{2}{3^2}g = \\dfrac{2}{9} \\times 1.6 = 0.36\\ \\text{m s}^{-2}$, smaller than before.\n\nWith the same initial velocity and a smaller downward acceleration, the gum rises to a **higher** maximum height, stays in the air longer and so lands **further** from the cliff. The new trajectory is a wider, taller parabola starting at the same point and initially following the same direction.",
+   "images": [
+    "assets/img/phys-2023-baulkham-hills/q25.png"
+   ]
+  },
+  {
+   "ref": "Q26",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.1.3",
+    "12.6.1.4"
+   ],
+   "question": "Justin, Arya and Prapann used a mass spectrometer to determine the relationship between the charge on a particle and the radius of its path in a magnetic field (the particles entered the field with the same velocity and travelled in semicircles, as shown). Their results are shown in the table and graph.\n\n| Charge on particle (number of electronic charges) | Radius of curvature of path ($\\times 10^{-11}$ m) |\n|---|---|\n| 1 | 6.1 |\n| 2 | 2.9 |\n| 3 | 2.1 |\n| 4 | 1.5 |\n| 5 | 1.2 |\n| 6 | 0.9 |\n\nThey plotted radius against charge, obtaining a decreasing curve, and concluded that the radius of the path followed by a charged particle in a magnetic field is inversely proportional to the magnitude of the charge. Evaluate their conclusion. Fully justify your evaluation.",
+   "answer": "**Judgement:** the conclusion is valid (supported by the data), although their graph alone does not demonstrate it.\n\n**Theory:** the magnetic force provides the centripetal force, $qvB = \\dfrac{mv^2}{r}$, so $r = \\dfrac{mv}{qB}$. If $m$, $v$ and $B$ are kept constant, $r \\propto \\dfrac{1}{q}$.\n\n**Data:** a decreasing curve could fit many relationships, so the graph of $r$ against $q$ does not by itself show inverse proportionality. Testing the data: if $r = k/q$ then $rq = k$ should be constant:\n\n| $q$ | 1 | 2 | 3 | 4 | 5 | 6 |\n|---|---|---|---|---|---|---|\n| $rq$ ($\\times 10^{-11}$) | 6.1 | 5.8 | 6.3 | 6.0 | 6.0 | 5.4 |\n\nThe product is approximately constant (about $6 \\times 10^{-11}$), and equivalently a graph of $r$ against $\\dfrac{1}{q}$ ($1/q = 1, 0.5, 0.33, 0.25, 0.2, 0.17$) is a straight line through the origin. So the data support the conclusion, provided the particles had the same mass and speed — this should be stated/controlled, otherwise the conclusion is not valid.",
+   "images": [
+    "assets/img/phys-2023-baulkham-hills/q26.png",
+    "assets/img/phys-2023-baulkham-hills/q26-graph.png"
+   ]
+  },
+  {
+   "ref": "Q27",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.4"
+   ],
+   "question": "A distant star has several planets orbiting it. Information on the planets is shown below.\n\n| Planet | Orbital radius (m) | Period (s) |\n|---|---|---|\n| Chinson | $6.1 \\times 10^{8}$ | $4.2 \\times 10^{4}$ |\n| Harry | ? | $8.4 \\times 10^{4}$ |\n| Danny | $1.56 \\times 10^{9}$ | $1.68 \\times 10^{5}$ |\n\nCalculate the orbital radius of Harry.",
+   "answer": "By Kepler's third law, $\\dfrac{r^3}{T^2} = \\dfrac{GM}{4\\pi^2}$ is the same for all planets of the star:\n\n$$\\frac{r_H^3}{T_H^2} = \\frac{r_D^3}{T_D^2} \\Rightarrow r_H = r_D\\left(\\frac{T_H}{T_D}\\right)^{2/3} = 1.56 \\times 10^9 \\left(\\frac{8.4 \\times 10^4}{1.68 \\times 10^5}\\right)^{2/3} = 9.8 \\times 10^{8}\\ \\text{m}$$\n\n(Using Chinson's data instead gives $6.1 \\times 10^8 \\times 2^{2/3} = 9.7 \\times 10^8$ m; either is accepted.)"
+  },
+  {
+   "ref": "Q28",
+   "kind": "written",
+   "marks": 6,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.4.2",
+    "12.6.3.2"
+   ],
+   "question": "Fully explain how an emf is produced across the brushes in a DC generator. In your answer, include a labelled diagram and a suitable graph.",
+   "answer": "**Diagram** (labelled): a rectangular coil (armature) of $n$ turns on an axle, rotated between the N and S poles of permanent magnets; the ends of the coil connect to a **split-ring commutator**; carbon **brushes** press against the commutator and connect to an external load/voltmeter.\n\n**Changing flux:** as the coil is turned by an external force, the flux through it, $\\Phi = BA\\cos\\theta$, changes continuously — maximum when the plane of the coil is perpendicular to the field, zero when parallel.\n\n**Faraday's law:** an emf is induced in the coil, $\\varepsilon = -n\\dfrac{\\Delta\\Phi}{\\Delta t}$. The emf is greatest when the flux is changing fastest (coil parallel to the field, $\\Phi = 0$) and zero when the flux is maximum. Within the coil the emf is sinusoidal and reverses direction every half turn (Lenz's law: the induced current opposes the change in flux).\n\n**Commutator:** the split ring reverses the connections of the coil to the external circuit every $180^\\circ$, exactly when the coil's emf reverses, so the emf across the brushes is always in the same direction — a pulsating (rectified) DC emf.\n\n**Graph:** flux vs time is a cosine curve; the coil's emf is a sine curve; the emf across the brushes is the 'rectified sine' — a series of positive half-sine humps, with peaks every half period $T/2$ and zeros when the coil is perpendicular to the field.",
+   "answer_images": [
+    "assets/img/phys-2023-baulkham-hills/q28-answer.png"
+   ]
+  },
+  {
+   "ref": "Q29(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.4.2",
+    "12.7.4.3"
+   ],
+   "question": "In 1905, Einstein published his Theory of Special Relativity. However, there were no real physical observations at that time to support his theory.\n\nOutline TWO later observations that were consistent with specific implications of Einstein's theory.",
+   "answer": "**1. Muons reaching the Earth's surface (time dilation).** Muons are produced in the upper atmosphere (about 10 km up) by cosmic rays and have a half-life of about $2.2\\ \\mu$s in their rest frame. Even at $0.99c$, classical physics predicts almost none would survive the trip, yet far more are detected at the surface. Time dilation explains this: in Earth's frame the moving muons' lifetime is dilated, $t = \\dfrac{t_0}{\\sqrt{1 - v^2/c^2}}$ (and in the muons' frame the atmosphere is length-contracted).\n\n**2. Atomic clocks on aeroplanes (Hafele–Keating, 1971).** Caesium clocks flown around the world, compared with identical clocks on the ground, showed time differences agreeing with the predictions of time dilation (after allowing for gravitational effects).\n\n(Other acceptable examples: particle accelerators — particles never exceed $c$ however much energy is supplied, consistent with relativistic momentum $p = \\gamma m_0 v$; mass–energy conversion in nuclear reactions. The Michelson–Morley experiment came *before* 1905, so it is not a later observation.)"
+  },
+  {
+   "ref": "Q29(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.4.1"
+   ],
+   "question": "In 1905, Einstein published his Theory of Special Relativity. However, there were no real physical observations at that time to support his theory.\n\nWith reference to Einstein's theory of special relativity, comment on the significance of the Michelson–Morley experiment to our understanding of the nature of light.",
+   "answer": "The Michelson–Morley experiment produced a **null result**: no change in the speed of light was detected due to the Earth's motion through the supposed aether. Einstein's interpretation was that (1) no mechanical medium (aether) is needed for the propagation of light/electromagnetic waves, and (2) the speed of light is a universal constant, independent of the motion of the source or observer — his second postulate."
+  },
+  {
+   "ref": "Q29(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.4.4",
+    "12.8.1.3"
+   ],
+   "question": "In 1905, Einstein published his Theory of Special Relativity. However, there were no real physical observations at that time to support his theory.\n\nEvaluate the significance of $E = mc^2$ to our understanding of physics.",
+   "answer": "$E = mc^2$ is **highly significant**: it showed that mass and energy are equivalent — mass is a form of energy and each can be converted into the other — which classical physics treated as separately conserved quantities. It explains processes that could not otherwise be accounted for:\n\n- **Energy of the Sun and stars (nuclear fusion):** in the proton–proton chain four hydrogen nuclei fuse into helium; the product has less mass than the reactants, and the mass defect is released as energy ($\\Delta E = \\Delta m c^2$, about 26 MeV per helium nucleus). This explains how stars can shine for billions of years.\n- **Nuclear fission and binding energy:** the binding energy of a nucleus equals its mass defect times $c^2$; splitting heavy nuclei (e.g. uranium-235) releases energy, the basis of nuclear power.\n- **Pair production and annihilation:** a particle and its antiparticle annihilate into gamma rays of total energy equal to their mass energy, and high-energy photons can create particle–antiparticle pairs.\n\nIt therefore unified the conservation of mass and conservation of energy into a single conservation of mass-energy, and underpins nuclear and particle physics and astrophysics."
+  },
+  {
+   "ref": "Q30(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.3",
+    "12.7.3.2"
+   ],
+   "question": "Xin Xin and Chanul carried out a photoelectric effect experiment. Photons from a light source travel through a filter onto a photocell. The filters are changed to shine a particular frequency onto the photocell. The variable voltage (a reverse/stopping voltage) is increased until the current just goes to zero, and then recorded. They repeat this process for different frequencies.\n\n| Frequency (Hz) | Stopping voltage (V) |\n|---|---|\n| $6.0 \\times 10^{14}$ | 0.16 |\n| $7.0 \\times 10^{14}$ | 0.52 |\n| $7.5 \\times 10^{14}$ | 0.72 |\n| $8.0 \\times 10^{14}$ | 0.88 |\n| $9.0 \\times 10^{14}$ | 1.35 |\n\nDraw a graph of the results (stopping voltage against frequency), using a frequency axis from zero to $9 \times 10^{14}$ Hz and a voltage axis from $-3.0$ V to $2.0$ V.",
+   "answer": "- Axes: frequency $f$ ($\\times 10^{14}$ Hz) from 0 to 9 on the horizontal axis, stopping voltage $V$ from $-3.0$ to $2.0$ V on the vertical axis, with a sensible linear scale using the full grid.\n- Plot the five points and draw a straight line of best fit through them.\n- Extrapolate the line back to $f = 0$: it cuts the frequency axis at about $5.7 \\times 10^{14}$ Hz (threshold frequency) and the voltage axis at about $-2.2$ V (between $-2.0$ and $-2.5$ V).",
+   "images": [
+    "assets/img/phys-2023-baulkham-hills/q30.png"
+   ],
+   "answer_images": [
+    "assets/img/phys-2023-baulkham-hills/q30a-answer.png"
+   ]
+  },
+  {
+   "ref": "Q30(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.3"
+   ],
+   "question": "Xin Xin and Chanul carried out a photoelectric effect experiment. Photons from a light source travel through a filter onto a photocell. The filters are changed to shine a particular frequency onto the photocell. The variable voltage (a reverse/stopping voltage) is increased until the current just goes to zero, and then recorded. They repeat this process for different frequencies.\n\n| Frequency (Hz) | Stopping voltage (V) |\n|---|---|\n| $6.0 \\times 10^{14}$ | 0.16 |\n| $7.0 \\times 10^{14}$ | 0.52 |\n| $7.5 \\times 10^{14}$ | 0.72 |\n| $8.0 \\times 10^{14}$ | 0.88 |\n| $9.0 \\times 10^{14}$ | 1.35 |\n\nExplain how the stopping voltage is related to the electrons' kinetic energy.",
+   "answer": "The stopping voltage is the reverse voltage just large enough to stop the most energetic photoelectrons reaching the collector. The work done by the electric field on an electron, $qV$, must equal its maximum kinetic energy:\n\n$$K_{max} = eV_{stop}$$\n\nso the stopping voltage in volts equals the maximum kinetic energy in electronvolts. (This assumes the fastest electrons have not lost energy in collisions within the metal or with residual gas in the tube.)"
+  },
+  {
+   "ref": "Q30(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.3"
+   ],
+   "question": "Xin Xin and Chanul carried out a photoelectric effect experiment. Photons from a light source travel through a filter onto a photocell. The filters are changed to shine a particular frequency onto the photocell. The variable voltage (a reverse/stopping voltage) is increased until the current just goes to zero, and then recorded. They repeat this process for different frequencies.\n\n| Frequency (Hz) | Stopping voltage (V) |\n|---|---|\n| $6.0 \\times 10^{14}$ | 0.16 |\n| $7.0 \\times 10^{14}$ | 0.52 |\n| $7.5 \\times 10^{14}$ | 0.72 |\n| $8.0 \\times 10^{14}$ | 0.88 |\n| $9.0 \\times 10^{14}$ | 1.35 |\n\nWhen the stopping voltage is plotted against frequency, the line of best fit is a straight line which, extrapolated to $f = 0$, cuts the voltage axis at about $-2.2$ V. Use the graph to determine the work function in eV, as well as Planck's constant.",
+   "answer": "From $K_{max} = hf - \\phi$ and $K_{max} = eV$: $V = \\dfrac{h}{e}f - \\dfrac{\\phi}{e}$.\n\n**Work function:** the vertical intercept is $-\\phi/e \\approx -2.2$ V, so $\\phi \\approx 2.2$ eV.\n\n**Planck's constant:** gradient $= \\dfrac{h}{e} = \\dfrac{1.35 - 0.16}{(9.0 - 6.0) \\times 10^{14}} \\approx 3.9 \\times 10^{-15}$ V s (line of best fit: $3.93 \\times 10^{-15}$ V s).\n\n$$h = e \\times \\text{gradient} = 1.602 \\times 10^{-19} \\times 3.93 \\times 10^{-15} \\approx 6.3 \\times 10^{-34}\\ \\text{J s}$$"
+  },
+  {
+   "ref": "Q30(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.2",
+    "12.7.3.3"
+   ],
+   "question": "Xin Xin and Chanul carried out a photoelectric effect experiment. Photons from a light source travel through a filter onto a photocell. The filters are changed to shine a particular frequency onto the photocell. The variable voltage (a reverse/stopping voltage) is increased until the current just goes to zero, and then recorded. They repeat this process for different frequencies.\n\n| Frequency (Hz) | Stopping voltage (V) |\n|---|---|\n| $6.0 \\times 10^{14}$ | 0.16 |\n| $7.0 \\times 10^{14}$ | 0.52 |\n| $7.5 \\times 10^{14}$ | 0.72 |\n| $8.0 \\times 10^{14}$ | 0.88 |\n| $9.0 \\times 10^{14}$ | 1.35 |\n\nFor each frequency, Chanul and Xin Xin doubled the intensity of the incident light. Describe how the new graph of stopping voltage against frequency compares with the original graph. Do these two graphs support the wave model or particle model of light? Justify your answer.",
+   "answer": "The new graph is **identical** to the original: same gradient, same threshold frequency and the same stopping voltage at each frequency (only the photocurrent would increase).\n\nThis supports the **particle (photon) model**. In the photon model each electron absorbs the energy of a single photon, $E = hf$, so $K_{max} = hf - \\phi$ depends only on frequency; doubling the intensity doubles the number of photons (and photoelectrons) but not the energy of each, so the stopping voltage is unchanged. The wave model predicts that a more intense wave delivers more energy to each electron, so the stopping voltage should increase with intensity (and there should be no threshold frequency), which is not observed."
+  },
+  {
+   "ref": "Q31",
+   "kind": "written",
+   "marks": 9,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.4.3",
+    "12.6.4.1",
+    "12.6.3.2"
+   ],
+   "question": "Mr Blunden chose two of his best students, Alivia and Qiandai, to perform an experiment with a simple DC electric motor coupled by an axle to a metal disc. The edge of the disc passes between the poles of an electromagnet (as shown). They obtained the following results as the current through the electromagnet was changed (increased) during the experiment.\n\n| Time (s) | Current in the motor's coil (A) |\n|---|---|\n| 0 | 0.20 |\n| 5 | 0.20 |\n| 10 | 0.30 |\n| 15 | 0.40 |\n| 20 | 0.50 |\n| 25 | 0.55 |\n| 30 | 0.55 |\n\nAssuming that the motor's power source was kept constant throughout the experiment, fully explain Alivia and Qiandai's results, with the aid of a relevant graph and annotations on the diagram.",
+   "answer": "**Graph:** current in the motor's coil against time — constant at 0.20 A from 0 to 5 s, rising roughly linearly to 0.55 A at 25 s, then levelling off at 0.55 A.\n\n**Annotations on the diagram:** eddy currents circulating in the disc where it passes through the electromagnet's field; the opposing (braking) force on the disc; the back emf in the motor's coil.\n\n**Explanation:**\n- **Electromagnetic (eddy current) braking.** As the metal disc rotates through the electromagnet's field, the flux through parts of the disc changes, so by Faraday's law emfs are induced and eddy currents circulate in the disc. By Lenz's law these currents produce magnetic fields that oppose the change in flux causing them, i.e. a force/torque on the disc opposing its rotation.\n- From 0–5 s the electromagnet current (and its field) is constant, so the braking is constant, the motor speed is steady and the coil current is constant at 0.20 A.\n- From 5–25 s the current through the electromagnet is increased, so its field is stronger, the eddy currents are larger and the braking torque increases. The disc, axle and motor coil **slow down**.\n- **Back emf.** A rotating motor coil also acts as a generator: the changing flux through it induces a back emf that opposes the supply emf, and the back emf is proportional to the speed of rotation. As the motor slows, the back emf decreases.\n- The net emf across the coil ($\\varepsilon_{supply} - \\varepsilon_{back}$) therefore increases, and since the supply is constant and $I = \\dfrac{\\varepsilon_{net}}{R}$, the current in the coil increases — from 0.20 A to 0.55 A in the table.\n- From 25–30 s the current has levelled off at 0.55 A: the electromagnet current/braking has stopped increasing, so the motor reaches a new, lower steady speed, with a constant back emf and constant coil current.\n- Energy: the kinetic energy removed from the disc by braking is converted to heat in the disc by the eddy currents (conservation of energy), and the motor draws more electrical power ($P = VI$) to supply it.",
+   "images": [
+    "assets/img/phys-2023-baulkham-hills/q31.png"
+   ]
+  },
+  {
+   "ref": "Q32(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.2"
+   ],
+   "question": "Dylan performed an experiment to demonstrate Young's double slit experiment: monochromatic light from a laser is passed through two slits, $S_1$ and $S_2$, producing an interference pattern of bright and dark bands on a screen, with a central bright band (as shown).\n\nDylan makes an adjustment that results in the distance between the central maximum and the adjacent fringes increasing. Outline TWO possible changes that Dylan could have made.",
+   "answer": "The fringe spacing is $\\Delta y = \\dfrac{\\lambda L}{d}$ (from $d\\sin\\theta = m\\lambda$ for small angles). Any two of:\n\n- move the screen further from the slits (increase $L$);\n- decrease the separation of the slits (decrease $d$);\n- use light of a longer wavelength (lower frequency), e.g. a red laser instead of a green one.",
+   "images": [
+    "assets/img/phys-2023-baulkham-hills/q32.png"
+   ]
+  },
+  {
+   "ref": "Q32(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.3"
+   ],
+   "question": "Dylan performed an experiment to demonstrate Young's double slit experiment: monochromatic light from a laser is passed through two slits, $S_1$ and $S_2$, producing an interference pattern of bright and dark bands on a screen, with a central bright band (as shown).\n\nAt the time that Young's double slit experiment was originally conducted, there were two competing theories of the nature of light. Explain how Young's experiment supported one of those models, but not the competing model.",
+   "answer": "The two models were Newton's **corpuscular (particle) model** and Huygens' **wave model**.\n\nYoung's experiment produced a pattern of many alternating bright and dark fringes. This is explained by the wave model: light from the two slits diffracts and the waves superpose — where the path difference is a whole number of wavelengths they interfere constructively (bright), and where it is an odd number of half-wavelengths they interfere destructively (dark). This supported Huygens' wave model.\n\nNewton's particle model predicted that particles travelling in straight lines through two slits would produce just two bright bands opposite the slits, and could not explain how adding light from a second slit could produce darkness. So the experiment did not support the corpuscular model.",
+   "images": [
+    "assets/img/phys-2023-baulkham-hills/q32.png"
+   ]
+  },
+  {
+   "ref": "Q33",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.2.1"
+   ],
+   "question": "The diagram shows equipment like that used by Millikan in his experiments with oil drops in 1909: an atomiser sprays oil drops into region A above two horizontal parallel plates X (top, with a small hole) and Y (bottom), connected to a battery so that there is a uniform electric field $E$ between them (region B); drops are observed through a microscope. Explain how Millikan used this equipment and how his interpretation of his results contributed to our understanding of matter. In your answer, refer to J J Thomson's experiment.",
+   "answer": "- **Charging the drops:** tiny oil drops are sprayed from the atomiser; they become charged by friction as they are sprayed (or by ionising the air with X-rays). Some drops fall through the hole in plate X into region B between the plates.\n- **Balancing:** the voltage across the plates is adjusted until a drop observed through the microscope is suspended (stationary), so the electric force balances its weight: $qE = mg$, with $E = \\dfrac{V}{d}$, so $q = \\dfrac{mgd}{V}$. The mass of the drop was found from its terminal velocity when falling with the field switched off (and the density of the oil).\n- **Interpretation:** measuring the charges on many drops, Millikan found they were always whole-number multiples of a smallest value, $1.6 \\times 10^{-19}$ C. Charge is therefore **quantised**, and this smallest charge is the charge of a single electron, $e$.\n- **Link to Thomson:** Thomson had measured the charge-to-mass ratio of cathode ray particles, $\\dfrac{q}{m} = 1.76 \\times 10^{11}\\ \\text{C kg}^{-1}$, showing they were negatively charged particles (electrons) present in all matter. Combining this with Millikan's value of $e$ gave the mass of the electron, $m_e = \\dfrac{e}{q/m} \\approx 9.1 \\times 10^{-31}$ kg — about 1/1800 of the mass of a hydrogen atom.\n- This confirmed that electrons are discrete subatomic particles with a fixed charge and tiny mass, so atoms are divisible and contain electrons.",
+   "images": [
+    "assets/img/phys-2023-baulkham-hills/q33.png"
+   ]
+  },
+  {
+   "ref": "Q34(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.4.6",
+    "12.8.1.7"
+   ],
+   "question": "The proton–proton chain provides over 90% of the Sun's energy. It proceeds in three steps (each of steps 1 and 2 occurs twice for every helium nucleus produced):\n\n- Step 1: ${}^1_1\\text{H} + {}^1_1\\text{H} \\rightarrow {}^2_1\\text{H} + {}^{\\;0}_{+1}e + \\nu_e$\n- Step 2: ${}^2_1\\text{H} + {}^1_1\\text{H} \\rightarrow {}^3_2\\text{He} + \\gamma$\n- Step 3: ${}^3_2\\text{He} + {}^3_2\\text{He} \\rightarrow {}^4_2\\text{He} + 2\\,{}^1_1\\text{H}$\n\n| Particle | Mass (u) |\n|---|---|\n| ${}^{\\;0}_{+1}e$ | 0.0005488 |\n| ${}^1_1\\text{H}$ | 1.007825 |\n| ${}^2_1\\text{H}$ | 2.014102 |\n| ${}^3_2\\text{He}$ | 3.016029 |\n| ${}^4_2\\text{He}$ | 4.002603 |\n| $\\nu_e$ | negligible |\n| $\\gamma$ | negligible |\n\nUse the information in the table to calculate the energy produced by fusing hydrogen to form one helium nucleus, in MeV.",
+   "answer": "Overall (adding $2\\times$ step 1, $2\\times$ step 2 and step 3): $4\\,{}^1_1\\text{H} \\rightarrow {}^4_2\\text{He} + 2\\,{}^{\\;0}_{+1}e + 2\\nu_e + 2\\gamma$\n\n$$\\Delta m = 4(1.007825) - 4.002603 - 2(0.0005488) = 0.0275994\\ \\text{u}$$\n\n$$E = \\Delta m c^2 = 0.0275994 \\times 931.5\\ \\text{MeV} = 25.7\\ \\text{MeV}$$\n\n(Equivalently, $\\Delta m = 4.583 \\times 10^{-29}$ kg and $E = \\Delta m c^2 = 4.12 \\times 10^{-12}$ J $= 25.7$ MeV. If the energy from the two positrons annihilating with electrons is also counted, the total is 26.7 MeV.)\n\n*Note: the school's marking guide gives 27.08 MeV, which does not follow from the table's masses; the correct value from the data is 25.7 MeV (26.7 MeV including positron annihilation).*",
+   "images": [
+    "assets/img/phys-2023-baulkham-hills/q34.png"
+   ]
+  },
+  {
+   "ref": "Q34(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.8.1.6"
+   ],
+   "question": "White dwarfs are not part of the main sequence. State TWO other essential characteristics of a white dwarf which distinguish it from other groups in the Hertzsprung–Russell diagram.",
+   "answer": "Any two of:\n\n- no nuclear fusion occurs in its core (it shines only from stored heat);\n- low luminosity;\n- high surface temperature (white/blue-white colour);\n- very small size (about the size of the Earth) and therefore extremely high density.\n\n(These place white dwarfs at the bottom left of the H–R diagram.)"
+  }
+ ]
+}

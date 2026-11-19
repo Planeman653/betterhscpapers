@@ -1,0 +1,502 @@
+{
+ "id": "ext1-2026-north-sydney-girls",
+ "course": "extension1",
+ "school": "North Sydney Girls",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "North Sydney Girls 2026 w. sol"
+ },
+ "indexed": "2026-11-19",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q11(c)",
+   "reason": "Not in 2024 syllabus: graphing y = sqrt(f(x)) (y² = f(x)-type graphs removed); also requires sketching on a printed response sheet"
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "reason": "Not in 2024 syllabus: pigeonhole principle"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.9",
+    "12.2.3.6"
+   ],
+   "question": "Given that $\\overrightarrow{OA}=\\begin{pmatrix}2\\\\-7\\end{pmatrix}$ and $\\overrightarrow{OB}=\\begin{pmatrix}-3\\\\4\\end{pmatrix}$, what is $\\overrightarrow{AB}$?",
+   "options": [
+    "$\\begin{pmatrix}5\\\\11\\end{pmatrix}$",
+    "$\\begin{pmatrix}-5\\\\11\\end{pmatrix}$",
+    "$\\begin{pmatrix}1\\\\3\\end{pmatrix}$",
+    "$\\begin{pmatrix}-1\\\\-3\\end{pmatrix}$"
+   ],
+   "correct": "B",
+   "answer": "$\\overrightarrow{AB}=\\overrightarrow{OB}-\\overrightarrow{OA}=\\begin{pmatrix}-3\\\\4\\end{pmatrix}-\\begin{pmatrix}2\\\\-7\\end{pmatrix}=\\begin{pmatrix}-5\\\\11\\end{pmatrix}$."
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.1",
+    "11.2.1.10"
+   ],
+   "question": "The polynomial $p(x)=x^3-6x^2+32$ has one repeated zero of multiplicity 2 at $x=\\alpha$. What is the value of $\\alpha$?",
+   "options": [
+    "$-2$",
+    "$0$",
+    "$2$",
+    "$4$"
+   ],
+   "correct": "D",
+   "answer": "A double zero satisfies $p(\\alpha)=0$ and $p'(\\alpha)=0$. $p'(x)=3x^2-12x=3x(x-4)$, so $\\alpha=0$ or $4$. $p(0)=32\\neq0$, while $p(4)=64-96+32=0$. So $\\alpha=4$."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.3",
+    "12.4.2.3"
+   ],
+   "question": "A solid of revolution is to be formed by rotating the region bounded by the $x$-axis and the curve $y=\\cos 3x$ between $x=-\\dfrac{\\pi}{6}$ and $x=\\dfrac{\\pi}{6}$ about the $x$-axis, as shown in the diagram.\n\nWhich of the following gives the volume of the solid of revolution formed?",
+   "options": [
+    "$\\displaystyle\\pi\\int_0^{\\frac{\\pi}{6}}(1+\\cos 6x)\\,dx$",
+    "$\\displaystyle\\pi\\int_0^{\\frac{\\pi}{6}}\\cos^2 3x\\,dx$",
+    "$\\displaystyle\\frac{\\pi}{2}\\int_{-\\frac{\\pi}{6}}^{\\frac{\\pi}{6}}\\cos^2 3x\\,dx$",
+    "$\\displaystyle\\frac{\\pi}{2}\\int_{-\\frac{\\pi}{6}}^{\\frac{\\pi}{6}}(1-\\cos 6x)\\,dx$"
+   ],
+   "correct": "A",
+   "answer": "$$V=\\pi\\int_{-\\frac{\\pi}{6}}^{\\frac{\\pi}{6}}\\cos^2 3x\\,dx=2\\pi\\int_0^{\\frac{\\pi}{6}}\\cos^2 3x\\,dx\\quad(\\cos^2 3x\\text{ is even})$$\n$$=2\\pi\\int_0^{\\frac{\\pi}{6}}\\tfrac12(1+\\cos 6x)\\,dx=\\pi\\int_0^{\\frac{\\pi}{6}}(1+\\cos 6x)\\,dx.$$",
+   "images": [
+    "assets/img/ext1-2026-north-sydney-girls/q3.png"
+   ]
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.10",
+    "12.2.4.1"
+   ],
+   "question": "The projection of $\\mathbf{u}$ onto $\\mathbf{v}$ is given by $\\left(\\dfrac{\\mathbf{u}\\cdot\\mathbf{v}}{|\\mathbf{v}|^2}\\right)\\mathbf{v}$.\n\nThe diagram shows points $A$, $B$ and $C$, where $\\overrightarrow{AB}=3\\mathbf{i}+\\mathbf{j}$ and $\\overrightarrow{AC}=-\\mathbf{i}-\\mathbf{j}$.\n\nWhich of the following is the projection of $\\overrightarrow{AB}$ onto $\\overrightarrow{AC}$?",
+   "options": [
+    "$\\frac{2}{5}(3\\mathbf{i}+\\mathbf{j})$",
+    "$\\frac{-2}{5}(3\\mathbf{i}+\\mathbf{j})$",
+    "$2(\\mathbf{i}+\\mathbf{j})$",
+    "$2(-\\mathbf{i}-\\mathbf{j})$"
+   ],
+   "correct": "C",
+   "answer": "$\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=3(-1)+1(-1)=-4$ and $|\\overrightarrow{AC}|^2=2$, so the projection is $\\dfrac{-4}{2}(-\\mathbf{i}-\\mathbf{j})=2(\\mathbf{i}+\\mathbf{j})$. (Quick check: the angle at $A$ is obtuse, so the projection must point opposite to $\\overrightarrow{AC}$ — only C does.)",
+   "images": [
+    "assets/img/ext1-2026-north-sydney-girls/q4.png"
+   ]
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.11",
+    "11.4.1.9"
+   ],
+   "question": "Five different schools send two prefects each to attend a conference. The group of 10 is to be seated at a circular table. In how many ways can the prefects be seated if prefects from the same school are to be seated together?",
+   "options": [
+    "$4!$",
+    "$2\\times 4!$",
+    "$2^4\\times 4!$",
+    "$2^5\\times 4!$"
+   ],
+   "correct": "D",
+   "answer": "Treat each school's pair as one unit: 5 units around a circular table can be arranged in $4!$ ways. Each pair can be ordered in $2!=2$ ways, giving $2^5$. Total $=2^5\\times4!$."
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.2.4",
+    "11.1.1.3"
+   ],
+   "question": "You are given that $f(x)$ is a one-to-one function defined for $x\\in(-\\infty,\\infty)$. Which of the following functions cannot have an inverse?",
+   "options": [
+    "$f(|x|)$",
+    "$|f(x)|$",
+    "$\\dfrac{1}{f(x)}$",
+    "$\\sqrt{f(x)}$"
+   ],
+   "correct": "A",
+   "answer": "$f(|x|)$ is always even: $f(|-a|)=f(|a|)$, so it takes the same value at $x=a$ and $x=-a$ and fails the horizontal line test — it can never have an inverse. The others can be one-to-one (e.g. for $f(x)=e^x$ all three are)."
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.1",
+    "11.3.2.2"
+   ],
+   "question": "How many distinct solutions are there to the equation $\\sin x+\\sin 3x=\\sin 2x$ for $0\\le x\\le 2\\pi$?",
+   "options": [
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "correct": "C",
+   "answer": "$\\sin 3x+\\sin x=\\sin(2x+x)+\\sin(2x-x)=2\\sin 2x\\cos x$. So $2\\sin 2x\\cos x=\\sin 2x$, i.e. $\\sin 2x(2\\cos x-1)=0$.\n\n$\\sin 2x=0$: $x=0,\\frac{\\pi}{2},\\pi,\\frac{3\\pi}{2},2\\pi$ (5 solutions). $\\cos x=\\frac12$: $x=\\frac{\\pi}{3},\\frac{5\\pi}{3}$ (2 more, all distinct). Total 7."
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.9",
+    "12.3.2.10"
+   ],
+   "question": "Which graph represents the function $y=\\tan^{-1}(\\tan x)$?",
+   "options": [
+    "![Graph A](assets/img/ext1-2026-north-sydney-girls/q8a.png)",
+    "![Graph B](assets/img/ext1-2026-north-sydney-girls/q8b.png)",
+    "![Graph C](assets/img/ext1-2026-north-sydney-girls/q8c.png)",
+    "![Graph D](assets/img/ext1-2026-north-sydney-girls/q8d.png)"
+   ],
+   "correct": "B",
+   "answer": "$\\tan x$ is defined for all $x\\neq\\frac{\\pi}{2}+k\\pi$ and has period $\\pi$; $\\tan^{-1}$ has range $\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$. On $\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$, $y=x$, and the graph repeats every $\\pi$: a sawtooth of parallel segments of gradient 1 with open circles at $x=\\frac{\\pi}{2}+k\\pi$. This is graph B."
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.3",
+    "11.1.2.6"
+   ],
+   "question": "It is known that the function $f(x)$ is one-to-one and continuous for all real $x$. Let $g(x)=f^{-1}(x)$.\n\nWhich of the following statements MUST be true for any value of $x$ where $f'(x)$ and $g'(x)$ are both defined?",
+   "options": [
+    "$f'(x)=\\dfrac{-1}{g'(x)}$",
+    "$f'(x)=\\dfrac{1}{g'(x)}$",
+    "$f'(x)\\,g'(x)<0$",
+    "$f'(x)\\,g'(x)>0$"
+   ],
+   "correct": "D",
+   "answer": "A continuous one-to-one function is either increasing everywhere or decreasing everywhere, and its inverse is monotonic in the same direction. So $f'(x)$ and $g'(x)$ always have the same sign, giving $f'(x)g'(x)>0$ (where neither is zero). B is false in general because $g'(x)=\\dfrac{1}{f'(g(x))}$, not $\\dfrac{1}{f'(x)}$."
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.6",
+    "12.3.1.4"
+   ],
+   "question": "Which statement is always true for real numbers $a$ and $b$ where $0\\le a<b\\le 1$?",
+   "options": [
+    "$\\cos^{-1}a<\\cos^{-1}b$",
+    "$\\cos^{-1}a-\\sin^{-1}a>\\cos^{-1}b-\\sin^{-1}b$",
+    "$\\cos^2 a<\\cos^2 b$",
+    "$\\sin a\\cos a>\\sin b\\cos b$"
+   ],
+   "correct": "B",
+   "answer": "Let $f(x)=\\cos^{-1}x-\\sin^{-1}x=\\cos^{-1}x-\\left(\\frac{\\pi}{2}-\\cos^{-1}x\\right)=2\\cos^{-1}x-\\frac{\\pi}{2}$. Since $\\cos^{-1}x$ is decreasing on $[0,1]$, so is $f$, hence $f(a)>f(b)$. (A is reversed since $\\cos^{-1}$ is decreasing; C is reversed since $\\cos$ is positive and decreasing on $[0,1]$; D fails, e.g. $a=0,b=1$: $0>\\sin1\\cos1$ is false.)"
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.3.3",
+    "11.1.3.1"
+   ],
+   "question": "The parametric equations of a line are\n\n$$x=2-5t,\\qquad y=3t+1.$$\n\nFind the Cartesian equation of this line in the form $y=mx+c$.",
+   "answer": "From $x=2-5t$: $t=\\dfrac{2-x}{5}$.\n\n$$y=3\\left(\\frac{2-x}{5}\\right)+1=-\\frac{3x}{5}+\\frac65+1=-\\frac{3}{5}x+\\frac{11}{5}.$$"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.2.5"
+   ],
+   "question": "Find the inverse function, $f^{-1}(x)$, of the function $f(x)=e^{2x}-1$.",
+   "answer": "Interchange $x$ and $y$: $x=e^{2y}-1$, so $e^{2y}=x+1$, $2y=\\ln(x+1)$.\n\n$$f^{-1}(x)=\\frac12\\ln(x+1)\\quad(x>-1).$$"
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.6",
+    "11.2.2.7"
+   ],
+   "question": "Consider the polynomial $P(x)=x^3-2x^2-7x-4$.\n\nShow that $x+1$ is a factor of $P(x)$ and hence find $P(x)$ in fully factorised form.",
+   "answer": "$P(-1)=-1-2+7-4=0$, so by the factor theorem $(x+1)$ is a factor.\n\nDividing, $P(x)=(x+1)(x^2-3x-4)=(x+1)(x+1)(x-4)$, so\n\n$$P(x)=(x+1)^2(x-4).$$"
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Solve $\\dfrac{2x}{3-x}\\le 4$.",
+   "answer": "$x\\neq3$. Multiply both sides by $(3-x)^2>0$:\n\n$$2x(3-x)\\le4(3-x)^2$$\n$$4(3-x)^2-2x(3-x)\\ge0$$\n$$(3-x)\\left[4(3-x)-2x\\right]\\ge0$$\n$$(3-x)(12-6x)\\ge0\\;\\Rightarrow\\;6(x-3)(x-2)\\ge0.$$\n\nThis upward parabola is $\\ge0$ for $x\\le2$ or $x\\ge3$; excluding $x=3$:\n\n$$x\\le2\\quad\\text{or}\\quad x>3.$$"
+  },
+  {
+   "ref": "Q11(f)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "Find the coefficient of $x^{10}$ in the expansion of $\\left(\\dfrac{2}{x}-x^3\\right)^6$.",
+   "answer": "General term: $\\displaystyle\\binom{6}{r}\\left(\\frac2x\\right)^{6-r}(-x^3)^r=\\binom6r2^{6-r}(-1)^r x^{4r-6}$.\n\nFor $x^{10}$: $4r-6=10\\Rightarrow r=4$.\n\nCoefficient $=\\displaystyle\\binom64 2^2(-1)^4=15\\times4=60$."
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "Use mathematical induction to prove that $4n^3-n$ is divisible by 3 for all integers $n\\ge1$.",
+   "answer": "**Base case** $n=1$: $4(1)^3-1=3=3\\times1$, divisible by 3. True.\n\n**Assume** true for $n=k$: $4k^3-k=3A$ for some integer $A$.\n\n**Prove** for $n=k+1$:\n$$\\begin{aligned}4(k+1)^3-(k+1)&=4(k^3+3k^2+3k+1)-k-1\\\\&=(4k^3-k)+12k^2+12k+3\\\\&=3A+3(4k^2+4k+1)\\\\&=3(A+4k^2+4k+1),\\end{aligned}$$\nwhich is divisible by 3 since $A+4k^2+4k+1$ is an integer.\n\nHence, by mathematical induction, $4n^3-n$ is divisible by 3 for all integers $n\\ge1$."
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.2"
+   ],
+   "question": "Express $3\\sin x-\\sqrt3\\cos x$ in the form $2\\sqrt3\\sin(x+\\alpha)$, where $0<\\alpha<2\\pi$.",
+   "answer": "$2\\sqrt3\\sin(x+\\alpha)=(2\\sqrt3\\cos\\alpha)\\sin x+(2\\sqrt3\\sin\\alpha)\\cos x$. Equating coefficients:\n\n$$\\cos\\alpha=\\frac{3}{2\\sqrt3}=\\frac{\\sqrt3}{2},\\qquad \\sin\\alpha=\\frac{-\\sqrt3}{2\\sqrt3}=-\\frac12.$$\n\nSo $\\alpha$ is in the 4th quadrant: $\\alpha=\\dfrac{11\\pi}{6}$, and\n\n$$3\\sin x-\\sqrt3\\cos x=2\\sqrt3\\sin\\left(x+\\frac{11\\pi}{6}\\right).$$"
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.3"
+   ],
+   "question": "It is given that $3\\sin x-\\sqrt3\\cos x=2\\sqrt3\\sin\\left(x+\\dfrac{11\\pi}{6}\\right)$.\n\nHence, or otherwise, solve $3\\sin x=\\sqrt3\\cos x-\\sqrt3$, where $0\\le x<2\\pi$.",
+   "answer": "$3\\sin x-\\sqrt3\\cos x=-\\sqrt3$, so $2\\sqrt3\\sin\\left(x+\\frac{11\\pi}{6}\\right)=-\\sqrt3$, i.e. $\\sin\\left(x+\\frac{11\\pi}{6}\\right)=-\\frac12$.\n\nWith $\\frac{11\\pi}{6}\\le x+\\frac{11\\pi}{6}<\\frac{23\\pi}{6}$: $x+\\frac{11\\pi}{6}=\\frac{11\\pi}{6}$ or $\\frac{19\\pi}{6}$.\n\n$$x=0\\quad\\text{or}\\quad x=\\frac{4\\pi}{3}.$$"
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2",
+    "12.4.2.3"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^{\\frac{\\sqrt3}{2}}\\frac{8x^2}{\\sqrt{1-x^2}}\\,dx$ using the substitution $x=\\sin\\theta$.",
+   "answer": "$x=\\sin\\theta$, $dx=\\cos\\theta\\,d\\theta$. When $x=0$, $\\theta=0$; when $x=\\frac{\\sqrt3}{2}$, $\\theta=\\frac{\\pi}{3}$. For $0\\le\\theta\\le\\frac{\\pi}{3}$, $\\sqrt{1-\\sin^2\\theta}=\\cos\\theta$.\n$$\\begin{aligned}\\int_0^{\\frac{\\sqrt3}{2}}\\frac{8x^2}{\\sqrt{1-x^2}}\\,dx&=\\int_0^{\\frac{\\pi}{3}}\\frac{8\\sin^2\\theta}{\\cos\\theta}\\cos\\theta\\,d\\theta=\\int_0^{\\frac{\\pi}{3}}8\\sin^2\\theta\\,d\\theta\\\\&=4\\int_0^{\\frac{\\pi}{3}}(1-\\cos2\\theta)\\,d\\theta=4\\left[\\theta-\\tfrac12\\sin2\\theta\\right]_0^{\\frac{\\pi}{3}}\\\\&=4\\left(\\frac{\\pi}{3}-\\frac{\\sqrt3}{4}\\right)=\\frac{4\\pi}{3}-\\sqrt3.\\end{aligned}$$"
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.16",
+    "11.5.1.9"
+   ],
+   "question": "Charles is a member of an elite racing group of 11 people. A team of 5 people is to be formed from the group. Use a combinatorial argument in this context to prove that\n\n$$\\binom{11}{5}=\\binom{10}{4}+\\binom{10}{5}.$$",
+   "answer": "**LHS:** the number of teams of 5 chosen from 11 people is $\\binom{11}{5}$.\n\n**RHS:** count the same teams by whether Charles is in the team.\n- Charles is in the team: choose the other 4 members from the remaining 10 people: $\\binom{10}{4}$ ways.\n- Charles is not in the team: choose all 5 from the other 10 people: $\\binom{10}{5}$ ways.\n\nThese cases are disjoint and cover every team, so $\\binom{11}{5}=\\binom{10}{4}+\\binom{10}{5}$."
+  },
+  {
+   "ref": "Q12(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.1.3",
+    "11.1.1.6"
+   ],
+   "question": "By sketching a graph, or otherwise, solve $(|x|-1)(|x|-2)=6$.",
+   "answer": "Let $f(x)=(x-1)(x-2)$; the equation is $f(|x|)=6$.\n\nSolve $f(x)=6$: $x^2-3x+2=6\\Rightarrow x^2-3x-4=0\\Rightarrow(x-4)(x+1)=0$, so $x=-1$ or $4$.\n\nThe graph of $y=f(|x|)$ is the part of $y=f(x)$ for $x\\ge0$ reflected in the $y$-axis, so only the solution $x=4\\ (\\ge0)$ survives, together with its reflection. (Equivalently $|x|=4$ or $|x|=-1$, the latter impossible.)\n\n$$x=\\pm4.$$",
+   "answer_images": [
+    "assets/img/ext1-2026-north-sydney-girls/q12e-ans.png"
+   ]
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.3.1.6"
+   ],
+   "question": "Let $f(x)=\\tan^{-1}x-\\tan^{-1}\\left(\\dfrac{x-1}{x+1}\\right)$, for $x>-1$.\n\nShow that $f(x)=k$, where $k$ is a real number.",
+   "answer": "$$\\begin{aligned}f'(x)&=\\frac{1}{1+x^2}-\\frac{1}{1+\\left(\\frac{x-1}{x+1}\\right)^2}\\cdot\\frac{(x+1)-(x-1)}{(x+1)^2}\\\\&=\\frac{1}{1+x^2}-\\frac{2}{(x+1)^2+(x-1)^2}\\\\&=\\frac{1}{1+x^2}-\\frac{2}{2x^2+2}=0.\\end{aligned}$$\nSince $f'(x)=0$ for all $x>-1$ (an interval), $f(x)$ is constant: $f(x)=k$."
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.6"
+   ],
+   "question": "Let $f(x)=\\tan^{-1}x-\\tan^{-1}\\left(\\dfrac{x-1}{x+1}\\right)$, for $x>-1$. It is known that $f(x)=k$ for some real constant $k$.\n\nFind the value of $k$.",
+   "answer": "$k=f(0)=\\tan^{-1}0-\\tan^{-1}(-1)=0-\\left(-\\dfrac{\\pi}{4}\\right)=\\dfrac{\\pi}{4}$."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.1",
+    "12.4.1.6"
+   ],
+   "question": "A particle is moving on the curve with equation\n\n$$y=2\\sin^{-1}3x,\\qquad -\\frac13\\le x\\le\\frac13.$$\n\nThe particle has coordinates $(x,y)$ at time $t$, where distances are measured in metres and time in seconds.\n\nAt $t=T$, the $y$ coordinate of the particle is $\\dfrac{\\pi}{3}$ m and the $y$ coordinate is increasing at a rate of 2 m/s.\n\nFind the exact rate at which the $x$ coordinate of the particle is changing at $t=T$.",
+   "answer": "$$\\frac{dy}{dx}=2\\cdot\\frac{3}{\\sqrt{1-9x^2}}=\\frac{6}{\\sqrt{1-9x^2}}.$$\nWhen $y=\\frac{\\pi}{3}$: $\\sin^{-1}3x=\\frac{\\pi}{6}$, so $3x=\\frac12$, $x=\\frac16$.\n\nThen $\\dfrac{dy}{dx}=\\dfrac{6}{\\sqrt{1-\\frac14}}=\\dfrac{6}{\\sqrt3/2}=\\dfrac{12}{\\sqrt3}$, so $\\dfrac{dx}{dy}=\\dfrac{\\sqrt3}{12}$.\n\n$$\\frac{dx}{dt}=\\frac{dx}{dy}\\cdot\\frac{dy}{dt}=\\frac{\\sqrt3}{12}\\times2=\\frac{\\sqrt3}{6}\\ \\text{m/s}.$$"
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.4.1.18",
+    "11.4.1.17"
+   ],
+   "question": "At a particular high school, 17 students, including Xavi and Yuri, are enrolled to study Mathematics Extension 1. There are three Mathematics Extension 1 classes with a maximum class size of 6. Each class is taught by a different teacher.\n\nStudents are randomly assigned into classes. Find the number of ways the classes can be assigned to teachers such that Xavi and Yuri are in the same class.",
+   "answer": "With 17 students and at most 6 per class, the only possible class sizes are $6,6,5$.\n\n**Case 1: Xavi and Yuri are in a class of 6.** Choose the other 4 members of their class from the remaining 15, then 6 of the remaining 11 for the other class of 6; the last 5 form the class of 5. The three (distinct) classes can be given to the three teachers in $3!$ ways:\n$$\\binom{15}{4}\\binom{11}{6}\\binom55\\times3!=1365\\times462\\times6=3\\,783\\,780.$$\n**Case 2: Xavi and Yuri are in the class of 5.** Choose the other 3 from 15, then split the remaining 12 into two classes of 6 (divide by $2!$ as these two groups are interchangeable before teachers are assigned), then assign teachers in $3!$ ways:\n$$\\frac{\\binom{15}{3}\\binom{12}{6}\\binom66\\times3!}{2!}=\\frac{455\\times924\\times6}{2}=1\\,261\\,260.$$\n**Total:** $3\\,783\\,780+1\\,261\\,260=5\\,045\\,040$."
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.4",
+    "12.4.2.1"
+   ],
+   "question": "A solid trophy is to be made by rotating the shaded region shown around the $y$-axis. The region is bounded by the $y$-axis, the $x$-axis, the line $y=2$, and the curves $y=\\sqrt{5-\\dfrac{1}{x^4}}$ (for $0\\le y\\le1$) and $y=\\sqrt{\\dfrac{1}{x^2}-1}$ (for $1\\le y\\le2$), which meet at $\\left(\\dfrac{1}{\\sqrt2},1\\right)$.\n\nShow that the volume of the trophy is $\\dfrac{\\pi^2}{4}$ units$^3$.",
+   "answer": "Express $x^2$ in terms of $y$ for each curve:\n\n- $y^2=5-\\dfrac{1}{x^4}\\Rightarrow x^4=\\dfrac{1}{5-y^2}\\Rightarrow x^2=\\dfrac{1}{\\sqrt{5-y^2}}$ (used for $0\\le y\\le1$).\n- $y^2=\\dfrac{1}{x^2}-1\\Rightarrow x^2=\\dfrac{1}{1+y^2}$ (used for $1\\le y\\le2$).\n\n$$V_1=\\pi\\int_0^1\\frac{dy}{\\sqrt{5-y^2}}=\\pi\\left[\\sin^{-1}\\frac{y}{\\sqrt5}\\right]_0^1=\\pi\\sin^{-1}\\frac{1}{\\sqrt5}$$\n$$V_2=\\pi\\int_1^2\\frac{dy}{1+y^2}=\\pi\\left[\\tan^{-1}y\\right]_1^2=\\pi\\left(\\tan^{-1}2-\\frac{\\pi}{4}\\right)$$\nSo $V=\\pi\\left(\\sin^{-1}\\frac{1}{\\sqrt5}+\\tan^{-1}2-\\frac{\\pi}{4}\\right)$.\n\nIn a right-angled triangle with legs 2 and 1 and hypotenuse $\\sqrt5$, the angle $\\theta$ opposite the side 1 has $\\sin\\theta=\\frac{1}{\\sqrt5}$ and the other acute angle $\\varphi$ has $\\tan\\varphi=2$. Since $\\theta+\\varphi=\\frac{\\pi}{2}$, $\\sin^{-1}\\frac{1}{\\sqrt5}+\\tan^{-1}2=\\frac{\\pi}{2}$. Hence\n$$V=\\pi\\left(\\frac{\\pi}{2}-\\frac{\\pi}{4}\\right)=\\frac{\\pi^2}{4}\\text{ units}^3.$$",
+   "images": [
+    "assets/img/ext1-2026-north-sydney-girls/q13d.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.6"
+   ],
+   "question": "In triangle $ABC$, $D$ lies on $AC$ such that $\\overrightarrow{AD}=\\frac14\\overrightarrow{AC}$, and $E$ lies on $BC$ such that $\\overrightarrow{BE}=\\frac13\\overrightarrow{BC}$. $F$ lies on $BD$ such that $FE\\parallel AC$.\n\nShow that $\\overrightarrow{FE}=\\overrightarrow{FB}+\\dfrac13\\overrightarrow{BC}$.",
+   "answer": "$\\overrightarrow{FE}=\\overrightarrow{FB}+\\overrightarrow{BE}=\\overrightarrow{FB}+\\dfrac13\\overrightarrow{BC}$.",
+   "images": [
+    "assets/img/ext1-2026-north-sydney-girls/q14a.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.3.4",
+    "12.2.3.6"
+   ],
+   "question": "In triangle $ABC$, $D$ lies on $AC$ such that $\\overrightarrow{AD}=\\frac14\\overrightarrow{AC}$, and $E$ lies on $BC$ such that $\\overrightarrow{BE}=\\frac13\\overrightarrow{BC}$. $F$ lies on $BD$ such that $FE\\parallel AC$.\n\nIt is known that $\\overrightarrow{FE}=\\overrightarrow{FB}+\\dfrac13\\overrightarrow{BC}$.\n\nLet $\\overrightarrow{FE}=k\\overrightarrow{DC}$. Use vector methods to show that $\\overrightarrow{FE}=\\overrightarrow{AD}$.",
+   "answer": "$$k\\overrightarrow{DC}=\\overrightarrow{FB}+\\tfrac13\\overrightarrow{BC}$$\n$$k\\left(\\overrightarrow{DB}+\\overrightarrow{BC}\\right)=\\overrightarrow{FB}+\\tfrac13\\overrightarrow{BC}$$\nSince $F$ lies on $BD$, $\\overrightarrow{DB}=\\lambda\\overrightarrow{FB}$ for some scalar $\\lambda$:\n$$k\\lambda\\overrightarrow{FB}+k\\overrightarrow{BC}=\\overrightarrow{FB}+\\tfrac13\\overrightarrow{BC}.$$\n$\\overrightarrow{FB}$ and $\\overrightarrow{BC}$ are not parallel, so equating coefficients of $\\overrightarrow{BC}$: $k=\\frac13$, i.e. $\\overrightarrow{DC}=3\\overrightarrow{FE}$.\n\nAlso $\\overrightarrow{AD}=\\frac14\\overrightarrow{AC}=\\frac14\\left(\\overrightarrow{AD}+\\overrightarrow{DC}\\right)$, so $\\frac34\\overrightarrow{AD}=\\frac14\\overrightarrow{DC}$, i.e. $\\overrightarrow{DC}=3\\overrightarrow{AD}$.\n\nTherefore $3\\overrightarrow{AD}=3\\overrightarrow{FE}$, so $\\overrightarrow{FE}=\\overrightarrow{AD}$.",
+   "images": [
+    "assets/img/ext1-2026-north-sydney-girls/q14a.png"
+   ]
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.4.2",
+    "11.1.1.7"
+   ],
+   "question": "The polynomial $p(x)=x^3+bx^2+cx+d$ has stationary points at $x=\\alpha$ and $x=\\beta$, where $\\alpha\\neq\\beta$.\n\nShow that $b^2>3c$.",
+   "answer": "$p'(x)=3x^2+2bx+c$. Two distinct stationary points means $p'(x)=0$ has two distinct real roots, so $\\Delta>0$:\n$$(2b)^2-4(3)(c)>0\\;\\Rightarrow\\;4b^2>12c\\;\\Rightarrow\\;b^2>3c.$$",
+   "course": "advanced"
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.2.3.4",
+    "11.2.3.1"
+   ],
+   "question": "The polynomial $p(x)=x^3+bx^2+cx+d$ has stationary points at $x=\\alpha$ and $x=\\beta$, where $\\alpha\\neq\\beta$.\n\nYou are given that $m^3-n^3=(m-n)(m^2+mn+n^2)$. (Do NOT prove this.)\n\nShow that $\\dfrac{p(\\alpha)-p(\\beta)}{\\alpha-\\beta}=\\dfrac29\\left(3c-b^2\\right)$.",
+   "answer": "$$\\begin{aligned}p(\\alpha)-p(\\beta)&=(\\alpha^3-\\beta^3)+b(\\alpha^2-\\beta^2)+c(\\alpha-\\beta)\\\\&=(\\alpha-\\beta)\\left[(\\alpha^2+\\alpha\\beta+\\beta^2)+b(\\alpha+\\beta)+c\\right].\\end{aligned}$$\n$\\alpha,\\beta$ are the roots of $p'(x)=3x^2+2bx+c=0$, so $\\alpha+\\beta=-\\frac{2b}{3}$ and $\\alpha\\beta=\\frac c3$. Then\n$$\\begin{aligned}\\frac{p(\\alpha)-p(\\beta)}{\\alpha-\\beta}&=(\\alpha+\\beta)^2-\\alpha\\beta+b(\\alpha+\\beta)+c\\\\&=\\frac{4b^2}{9}-\\frac c3-\\frac{2b^2}{3}+c\\\\&=\\frac{2c}{3}-\\frac{2b^2}{9}=\\frac29\\left(3c-b^2\\right).\\end{aligned}$$"
+  },
+  {
+   "ref": "Q14(b)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.3.4",
+    "12.5.1.3"
+   ],
+   "question": "The polynomial $p(x)=x^3+bx^2+cx+d$ has stationary points at $x=\\alpha$ and $x=\\beta$, where $\\alpha\\neq\\beta$.\n\nIt is known that $b^2>3c$ and that $\\dfrac{p(\\alpha)-p(\\beta)}{\\alpha-\\beta}=\\dfrac29\\left(3c-b^2\\right)$.\n\nHence, or otherwise, find the relationship between $\\alpha$ and $\\beta$ such that $p(\\alpha)>p(\\beta)$.",
+   "answer": "Since $b^2>3c$, the right-hand side $\\frac29(3c-b^2)<0$. If $p(\\alpha)>p(\\beta)$, the numerator $p(\\alpha)-p(\\beta)>0$, so for the quotient to be negative we need $\\alpha-\\beta<0$:\n\n$$\\alpha<\\beta.$$\n\n(Graphically: a monic cubic with two stationary points has its local maximum to the left of its local minimum, so $p(\\alpha)>p(\\beta)$ means $\\alpha$ is the maximum and $\\beta$ the minimum, i.e. $\\alpha<\\beta$.)"
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.5.8",
+    "12.2.6.5"
+   ],
+   "question": "Particle $A$ is projected from the origin with initial speed $V$ m s$^{-1}$ at an angle $\\theta$ with the horizontal plane. The position vector of particle $A$, $t$ seconds after it is projected, is given by\n\n$$\\mathbf{r}_A(t)=\\begin{pmatrix}Vt\\cos\\theta\\\\ Vt\\sin\\theta-\\frac12gt^2\\end{pmatrix}.\\quad\\text{(Do NOT prove this.)}$$\n\nShow that the velocity vector of particle $A$ is given by $\\mathbf{v}_A(t)=\\begin{pmatrix}V\\cos\\theta\\\\ V\\sin\\theta-gt\\end{pmatrix}$.",
+   "answer": "$$\\mathbf{v}_A(t)=\\frac{d}{dt}\\mathbf{r}_A(t)=\\begin{pmatrix}V\\cos\\theta\\\\ V\\sin\\theta-2\\cdot\\frac12gt\\end{pmatrix}=\\begin{pmatrix}V\\cos\\theta\\\\ V\\sin\\theta-gt\\end{pmatrix}.$$"
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.2.6.8",
+    "12.2.4.7"
+   ],
+   "question": "Particle $A$ is projected from the origin with initial speed $V$ m s$^{-1}$ at an angle $\\theta$ with the horizontal plane. The position vector of particle $A$, $t$ seconds after it is projected, is given by\n\n$$\\mathbf{r}_A(t)=\\begin{pmatrix}Vt\\cos\\theta\\\\ Vt\\sin\\theta-\\frac12gt^2\\end{pmatrix}.\\quad\\text{(Do NOT prove this.)}$$\n\nThe velocity vector of particle $A$ is $\\mathbf{v}_A(t)=\\begin{pmatrix}V\\cos\\theta\\\\ V\\sin\\theta-gt\\end{pmatrix}$.\n\nAfter $T$ seconds, particle $B$ is projected from the origin with the same initial speed and angle as particle $A$. The position vector of particle $B$ is given by\n\n$$\\mathbf{r}_B(t)=\\begin{pmatrix}V(t-T)\\cos\\theta\\\\ V(t-T)\\sin\\theta-\\frac12g(t-T)^2\\end{pmatrix},\\ t\\ge T.\\quad\\text{(Do NOT prove this.)}$$\n\nShow that the particles will never travel in perpendicular directions at any time $t$ if $T<\\dfrac{2V\\cos\\theta}{g}$.",
+   "answer": "$\\mathbf{v}_B(t)=\\begin{pmatrix}V\\cos\\theta\\\\ V\\sin\\theta-g(t-T)\\end{pmatrix}$.\n\nThe directions are perpendicular when $\\mathbf{v}_A\\cdot\\mathbf{v}_B=0$:\n$$V^2\\cos^2\\theta+(V\\sin\\theta-gt)\\left(V\\sin\\theta-g(t-T)\\right)=0$$\n$$V^2\\cos^2\\theta+V^2\\sin^2\\theta-gV\\sin\\theta(t-T)-gVt\\sin\\theta+g^2t(t-T)=0$$\n$$g^2t^2-\\left(2gV\\sin\\theta+g^2T\\right)t+\\left(V^2+gVT\\sin\\theta\\right)=0.$$\nThey are never perpendicular if this quadratic in $t$ has no real solution, i.e. $\\Delta<0$:\n$$\\begin{aligned}\\left(2gV\\sin\\theta+g^2T\\right)^2-4g^2\\left(V^2+gVT\\sin\\theta\\right)&<0\\\\4g^2V^2\\sin^2\\theta+4g^3VT\\sin\\theta+g^4T^2-4g^2V^2-4g^3VT\\sin\\theta&<0\\\\g^4T^2&<4g^2V^2(1-\\sin^2\\theta)\\\\T^2&<\\frac{4V^2\\cos^2\\theta}{g^2}.\\end{aligned}$$\nSince $T>0$ and $\\cos\\theta>0$, this holds exactly when $T<\\dfrac{2V\\cos\\theta}{g}$. So if $T<\\dfrac{2V\\cos\\theta}{g}$ there is no time at which the particles travel in perpendicular directions."
+  }
+ ]
+}
