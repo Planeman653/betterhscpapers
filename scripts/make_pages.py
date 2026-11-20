@@ -86,6 +86,7 @@ BODY = """
     <div class="soft" id="done-count" style="font-size:13.5px;margin-bottom:6px"></div>
     <div class="seg-wrap" id="show-wrap"><span class="lab-inline">Show:</span>
       <div class="seg" id="show-done" role="group" aria-label="Show"><button type="button" data-show="all">All</button><button type="button" data-show="todo">Uncompleted</button><button type="button" data-show="done">Completed</button></div></div>
+    <label class="switch" id="saved-wrap" style="margin-top:8px;font-size:13.5px" hidden><input type="checkbox" id="saved-only"> ★ Saved questions only <span class="cnt" id="saved-n"></span></label>
   </div>
   <div class="panel-title">Answers</div>
   <label class="switch"><input type="checkbox" id="answers"> Show all answers</label>
@@ -146,6 +147,7 @@ BODY = """
     <label for="pdf-order">Order</label>
     <select id="pdf-order"><option value="added">Order added</option><option value="syllabus">Syllabus order</option><option value="diff">Easy → hard</option></select>
     <label class="switch" style="margin-top:12px;color:var(--ink)"><input type="checkbox" id="pdf-src" checked> Show source of each question</label>
+    <button type="button" class="btn" id="add-saved" hidden style="margin-top:14px;width:100%">★ Add my saved questions</button>
     <label>Selected <span id="basket-marks"></span></label>
     <ol id="basket-list"></ol>
   </div>

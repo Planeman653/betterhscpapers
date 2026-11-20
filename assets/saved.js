@@ -10,6 +10,9 @@
   const toast = (m) => { const t = $("toast"); t.textContent = m; t.style.display = "block"; clearTimeout(toast.t); toast.t = setTimeout(() => (t.style.display = "none"), 2600); };
   const cache = {};
   let Q = [], filter = "", opened = new Set(), showAll = false, tok = 0;
+  // questions left out of the PDF (everything saved is included until unticked); remembered in this browser
+  const skip = new Set((() => { try { return JSON.parse(localStorage.getItem("hscq:savedSkip") || "[]"); } catch (e) { return []; } })());
+  const keepSkip = () => { try { localStorage.setItem("hscq:savedSkip", JSON.stringify([...skip])); } catch (e) {} };
 
   // one subject's questions (static bank + live community questions + admin edits), keyed by id
   function bank(c) {
@@ -48,7 +51,7 @@
     return `<article class="q" id="${esc(q.id)}">
       <div class="q-head"><span class="q-title">${n}. <span class="marks">(${q.marks} mark${q.marks === 1 ? "" : "s"})</span></span>
         <span class="diff d${q.difficulty}">${[1, 2, 3, 4, 5].map((i) => `<i class="${i <= q.difficulty ? "f" : ""}"></i>`).join("")}&nbsp;${DIFF[q.difficulty] || ""}</span><span class="grow"></span>
-        <span class="q-actions"><a class="mini" href="${q.course}.html#${encodeURIComponent(q.id)}">Open in ${esc(NAMES[q.course].replace("Mathematics ", ""))}</a><button class="mini save-btn on" data-unsave="${esc(q.id)}">★ Saved</button></span></div>
+        <span class="q-actions"><label class="pick"><input type="checkbox" data-pick="${esc(q.id)}" ${skip.has(q.id) ? "" : "checked"}> Include in PDF</label><a class="mini" href="${q.course}.html#${encodeURIComponent(q.id)}">Open in ${esc(NAMES[q.course].replace("Mathematics ", ""))}</a><button class="mini save-btn on" data-unsave="${esc(q.id)}">★ Saved</button></span></div>
       ${prev.length ? `<details class="prev-ans"><summary>Show earlier parts (${prev.length})</summary>${prev.map((x) => `<div class="prev-part"><div class="prev-ref">${esc(x.ref)}</div><div class="q-body">${md(x.question)}</div></div>`).join("")}</details>` : ""}
       <div class="q-body">${md(q.question)}${imgs}</div>${opts}
       <div class="src">Source: ${esc(q._src)} · Dot point${(q.dotpoints || []).length > 1 ? "s" : ""} ${dpChips(q.course, q.dotpoints)}</div>
@@ -76,17 +79,17 @@
 
   /* ---------------- PDF of the saved questions shown (respects the subject filter) ---------------- */
   function pdfList() {
-    const list = Q.filter((q) => !filter || q.course === filter);
+    const list = Q.filter((q) => (!filter || q.course === filter) && !skip.has(q.id));
     if ($("pdf-order").value === "diff") return list.slice().sort((a, b) => a.difficulty - b.difficulty);
     return list;
   }
   function pdfCount() {
-    const l = pdfList();
-    $("pdf-count").textContent = `${l.length} question${l.length === 1 ? "" : "s"} · ${l.reduce((a, q) => a + (+q.marks || 0), 0)} marks`;
+    const l = pdfList(), shown = Q.filter((q) => !filter || q.course === filter).length;
+    $("pdf-count").textContent = `${l.length} of ${shown} selected · ${l.reduce((a, q) => a + (+q.marks || 0), 0)} marks`;
   }
   function makePdf() {
     const qs = pdfList();
-    if (!qs.length) { toast("No saved questions to print"); return; }
+    if (!qs.length) { toast("Tick “Include in PDF” on at least one question"); return; }
     const courses = [...new Set(qs.map((q) => q.course))];
     const sub = courses.map((c) => NAMES[c]).join(", ");
     const title = $("pdf-title").value.trim() || (courses.length === 1 ? `${NAMES[courses[0]]} — Saved questions` : "Saved questions");
@@ -155,6 +158,13 @@
         Q = Q.filter((x) => x.id !== q.id); draw(); toast("Removed from saved questions");
       }
     });
+    $("saved").addEventListener("change", (e) => {
+      const id = e.target.dataset.pick; if (!id) return;
+      e.target.checked ? skip.delete(id) : skip.add(id); keepSkip(); pdfCount();
+    });
+    const pickAll = (on) => { for (const q of Q) if (!filter || q.course === filter) on ? skip.delete(q.id) : skip.add(q.id); keepSkip(); draw(); pdfCount(); };
+    $("pick-all").addEventListener("click", () => pickAll(true));
+    $("pick-none").addEventListener("click", () => pickAll(false));
     $("saved-courses").addEventListener("click", (e) => { const b = e.target.closest("[data-course]"); if (b) { filter = b.dataset.course; draw(); } });
     $("saved-answers").addEventListener("change", (e) => { showAll = e.target.checked; draw(); });
     $("pdf-open").addEventListener("click", () => { const b = $("pdf-box"); b.hidden = !b.hidden; pdfCount(); });

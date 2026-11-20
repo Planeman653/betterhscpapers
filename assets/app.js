@@ -35,6 +35,7 @@
     show: store.get("showDone", store.get("hideDone", false) ? "todo" : "all"),   // all | todo | done
     perPage: store.get("perPage", 50),     // 0 = all
     page: 0,
+    savedOnly: false,                     // show only the user's saved questions
     overrides: {},
   };
   const A = window.HSCAuth || { enabled: false, user: null, progress: { done: {}, flagged: {} } };
@@ -140,6 +141,7 @@
   function passes(q) {
     if (!passesNonTopic(q)) return false;
     if (A.user && S.show !== "all" && isDone(q.id) !== (S.show === "done")) return false;
+    if (A.user && S.savedOnly && !isSaved(q.id)) return false;
     if (S.sel.size && !q.dotpoints.some((d) => S.sel.has(d))) return false;
     return true;
   }
@@ -492,7 +494,8 @@
     if (!A.user) { alertBox("Sign in to save questions to your question bank."); A.signIn && A.signIn(); return; }
     const on = !isSaved(id);
     try { await A.setSaved(id, COURSE, on); } catch (e) { alertBox("Couldn't save — " + e.message); return; }
-    rerenderQ(id);
+    if (S.savedOnly && !on) render(); else rerenderQ(id);
+    updateProgress();
     alertBox(on ? "Saved — see it under ★ Saved at the top." : "Removed from your saved questions.");
   }
   function updateProgress() {
@@ -501,6 +504,11 @@
     box.hidden = !A.enabled;
     const cnt = document.getElementById("done-count");
     const sw = document.getElementById("show-wrap"); if (sw) sw.hidden = !A.user;
+    const nSaved = A.user ? S.data.questions.filter((q) => isSaved(q.id)).length : 0;
+    const svw = document.getElementById("saved-wrap"); if (svw) svw.hidden = !A.user;
+    const svn = document.getElementById("saved-n"); if (svn) svn.textContent = nSaved ? `(${nSaved})` : "";
+    const ads = document.getElementById("add-saved");
+    if (ads) { ads.hidden = !nSaved; ads.textContent = `★ Add my saved questions (${nSaved})`; }
     if (!A.user) { cnt.innerHTML = `<button class="linkish" id="progress-signin">Sign in</button> to tick off questions you've done and save questions to your own bank.`; return; }
     const n = S.data.questions.filter((q) => isDone(q.id)).length;
     cnt.textContent = `${n} of ${S.data.questions.length} questions done`;
@@ -597,6 +605,13 @@
     $("contents").addEventListener("click", (e) => {
       const a = e.target.closest("[data-tpage]"); if (!a) return;
       e.preventDefault(); goPage(+a.dataset.tpage, "topic-" + a.dataset.topic);
+    });
+    const so = $("saved-only");
+    if (so) so.addEventListener("change", (e) => { S.savedOnly = e.target.checked; refresh(true); });
+    const ads = $("add-saved");
+    if (ads) ads.addEventListener("click", () => {
+      const l = sorted(S.data.questions.filter((q) => isSaved(q.id)));
+      l.forEach((q) => S.basket.add(q.id)); render(); updateBasket(); alertBox(`Added ${l.length} saved question${l.length === 1 ? "" : "s"} to the PDF.`);
     });
     const sd = $("show-done");
     if (sd) {
