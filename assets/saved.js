@@ -70,11 +70,20 @@
     if (!Q.length) { $("saved").innerHTML = `<div class="none">No saved questions yet. Press <b>☆ Save</b> on any question to add it here.</div>`; return; }
     let html = "", last = null, n = 0;
     for (const q of list) {
-      if (q.course !== last) { html += `<h2 class="topic-h">${esc(NAMES[q.course])}</h2>`; last = q.course; }
+      if (q.course !== last) { html += `<h2 class="topic-h subj-h"><span>${esc(NAMES[q.course])}</span><label class="pick subj-pick"><input type="checkbox" data-subj="${q.course}"> Include all in PDF</label></h2>`; last = q.course; }
       html += card(q, ++n);
     }
     $("saved").innerHTML = `<div class="doc">${html}</div>`;
+    syncSubj();
     if (!$("pdf-box").hidden) pdfCount();
+  }
+
+  // each subject heading's box: ticked if all its questions are in the PDF, dashed if only some
+  function syncSubj() {
+    document.querySelectorAll("#saved [data-subj]").forEach((box) => {
+      const qs = Q.filter((q) => q.course === box.dataset.subj), on = qs.filter((q) => !skip.has(q.id)).length;
+      box.checked = on === qs.length && on > 0; box.indeterminate = on > 0 && on < qs.length;
+    });
   }
 
   /* ---------------- PDF of the saved questions shown (respects the subject filter) ---------------- */
@@ -159,8 +168,10 @@
       }
     });
     $("saved").addEventListener("change", (e) => {
+      const c = e.target.dataset.subj;
+      if (c) { for (const q of Q) if (q.course === c) e.target.checked ? skip.delete(q.id) : skip.add(q.id); keepSkip(); draw(); pdfCount(); return; }
       const id = e.target.dataset.pick; if (!id) return;
-      e.target.checked ? skip.delete(id) : skip.add(id); keepSkip(); pdfCount();
+      e.target.checked ? skip.delete(id) : skip.add(id); keepSkip(); syncSubj(); pdfCount();
     });
     const pickAll = (on) => { for (const q of Q) if (!filter || q.course === filter) on ? skip.delete(q.id) : skip.add(q.id); keepSkip(); draw(); pdfCount(); };
     $("pick-all").addEventListener("click", () => pickAll(true));
