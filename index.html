@@ -16,7 +16,7 @@
 <body>
 <header class="topbar"><div class="topbar-inner">
   <a class="brand" href="index.html"><img class="brand-mark" src="assets/logo.svg" alt="" width="24" height="24">Better <span>HSC Papers</span></a>
-  <nav class="tabs"><a href="advanced.html">Advanced</a><a href="extension1.html">Extension 1</a><a href="extension2.html">Extension 2</a><a href="physics.html">Physics</a><a href="chemistry.html">Chemistry</a><a href="biology.html">Biology</a><a href="submit.html" class="submit-tab">+ Submit a question</a></nav>
+  <nav class="tabs"><a href="standard1.html">Std 1</a><a href="standard2.html">Std 2</a><a href="advanced.html">Advanced</a><a href="extension1.html">Extension 1</a><a href="extension2.html">Extension 2</a><a href="physics.html">Physics</a><a href="chemistry.html">Chemistry</a><a href="biology.html">Biology</a><a href="submit.html" class="submit-tab">+ Submit a question</a></nav>
 </div></header>
 <main class="landing">
   <section class="hero">
@@ -25,6 +25,8 @@
   </section>
   <div class="group-h">Mathematics · NESA 11–12 (2024) syllabuses</div>
   <section class="cards">
+    <a class="card" href="standard1.html"><h2>Mathematics Standard 1</h2><div class="big" data-n="standard1">–</div><div class="muted" data-p="standard1">questions</div></a>
+    <a class="card" href="standard2.html"><h2>Mathematics Standard 2</h2><div class="big" data-n="standard2">–</div><div class="muted" data-p="standard2">questions</div></a>
     <a class="card" href="advanced.html"><h2>Mathematics Advanced</h2><div class="big" data-n="advanced">–</div><div class="muted" data-p="advanced">questions</div></a>
     <a class="card" href="extension1.html"><h2>Mathematics Extension 1</h2><div class="big" data-n="extension1">–</div><div class="muted" data-p="extension1">questions</div></a>
     <a class="card" href="extension2.html"><h2>Mathematics Extension 2</h2><div class="big" data-n="extension2">–</div><div class="muted" data-p="extension2">questions</div></a>
@@ -43,7 +45,7 @@
 </main>
 <script>
 fetch("data/build/stats.json", {cache: "no-cache"}).then(r => r.json()).then(s => {
-  const short = {advanced: "Advanced", extension1: "Extension 1", extension2: "Extension 2", physics: "Physics", chemistry: "Chemistry", biology: "Biology"};
+  const short = {standard1: "Standard 1", standard2: "Standard 2", advanced: "Advanced", extension1: "Extension 1", extension2: "Extension 2", physics: "Physics", chemistry: "Chemistry", biology: "Biology"};
   for (const [c, v] of Object.entries(s.courses)) {
     const n = document.querySelector(`[data-n="${c}"]`), p = document.querySelector(`[data-p="${c}"]`);
     if (!n) continue;
