@@ -4,7 +4,7 @@
   const A = window.HSCAuth;
   const { esc, md } = window.HSCRender;
   const $ = (id) => document.getElementById(id);
-  const NAMES = { standard1: "Standard 1", standard2: "Standard 2", advanced: "Advanced", extension1: "Extension 1", extension2: "Extension 2", physics: "Physics", chemistry: "Chemistry", biology: "Biology" };
+  const NAMES = { standard2: "Standard 2", advanced: "Advanced", extension1: "Extension 1", extension2: "Extension 2", physics: "Physics", chemistry: "Chemistry", biology: "Biology" };
   let tab = "flags", D = null;
   const built = {};
   const toast = (m) => { const t = $("toast"); t.textContent = m; t.style.display = "block"; clearTimeout(toast.t); toast.t = setTimeout(() => (t.style.display = "none"), 2600); };

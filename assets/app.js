@@ -3,7 +3,6 @@
   "use strict";
   const COURSE = document.body.dataset.course;
   const COURSE_NAME = {
-    standard1: "Mathematics Standard 1",
     standard2: "Mathematics Standard 2",
     advanced: "Mathematics Advanced",
     extension1: "Mathematics Extension 1",
@@ -221,7 +220,7 @@
       ? papers.map((p) => `<label class="switch" style="font-size:13.5px;margin:3px 0"><input type="checkbox" data-paper="${p.id}" ${S.papers.has(p.id) ? "checked" : ""}> ${esc(p.label)}${p.course !== COURSE ? ` <span class="cnt">(${esc(shortCourse(p.course))} paper)</span>` : ""} <span class="cnt" style="color:var(--faint)">${counts[p.id] || 0}</span></label>`).join("")
       : `<span class="cnt">None yet</span>`;
   }
-  const shortCourse = (c) => ({ standard1: "Std 1", standard2: "Std 2", advanced: "Adv", extension1: "Ext 1", extension2: "Ext 2", physics: "Physics", chemistry: "Chemistry", biology: "Biology" }[c] || c);
+  const shortCourse = (c) => ({ standard2: "Std 2", advanced: "Adv", extension1: "Ext 1", extension2: "Ext 2", physics: "Physics", chemistry: "Chemistry", biology: "Biology" }[c] || c);
 
   /* ---------------- main document ---------------- */
   function qHtml(q, num) {

@@ -3,8 +3,7 @@
 import os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-COURSES = [("standard1", "Mathematics Standard 1", "Std 1"),
-           ("standard2", "Mathematics Standard 2", "Std 2"),
+COURSES = [("standard2", "Mathematics Standard 2", "Standard 2"),
            ("advanced", "Mathematics Advanced", "Advanced"),
            ("extension1", "Mathematics Extension 1", "Extension 1"),
            ("extension2", "Mathematics Extension 2", "Extension 2"),
@@ -14,8 +13,7 @@ COURSES = [("standard1", "Mathematics Standard 1", "Std 1"),
 
 # NESA's official HSC reference / formula sheets (Biology has none). Maths: the 2027 sample sheets for the 2024
 # syllabuses (each level includes the levels below it), kept in assets/ref/.
-SHEETS = {"standard1": ("Mathematics Standard 1 and 2 reference sheet (2027)", "assets/ref/mathematics-standard-reference-sheet-2027.pdf"),
-          "standard2": ("Mathematics Standard 1 and 2 reference sheet (2027)", "assets/ref/mathematics-standard-reference-sheet-2027.pdf"),
+SHEETS = {"standard2": ("Mathematics Standard 1 and 2 reference sheet (2027)", "assets/ref/mathematics-standard-reference-sheet-2027.pdf"),
           "advanced": ("Mathematics Advanced reference sheet (2027)", "assets/ref/mathematics-advanced-reference-sheet-2027.pdf"),
           "extension1": ("Mathematics Extension 1 reference sheet (2027) — includes Advanced", "assets/ref/mathematics-extension-1-reference-sheet-2027.pdf"),
           "extension2": ("Mathematics Extension 2 reference sheet (2027) — includes Extension 1 and Advanced", "assets/ref/mathematics-extension-2-reference-sheet-2027.pdf"),

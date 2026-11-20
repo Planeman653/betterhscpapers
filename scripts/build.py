@@ -37,8 +37,8 @@ Community submissions live in data/papers/<course>/community-<course>.json with
 import json, os, re, sys, glob, datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-COURSES = ["standard1", "standard2", "advanced", "extension1", "extension2", "physics", "chemistry", "biology"]
-LABEL = {"standard1": "Mathematics Standard 1", "standard2": "Mathematics Standard 2", "advanced": "Mathematics Advanced", "extension1": "Mathematics Extension 1",
+COURSES = ["standard2", "advanced", "extension1", "extension2", "physics", "chemistry", "biology"]
+LABEL = {"standard2": "Mathematics Standard 2", "advanced": "Mathematics Advanced", "extension1": "Mathematics Extension 1",
          "extension2": "Mathematics Extension 2", "physics": "Physics", "chemistry": "Chemistry", "biology": "Biology"}
 
 

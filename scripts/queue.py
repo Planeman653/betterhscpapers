@@ -19,7 +19,7 @@ The queue is publicly readable (see firestore.rules), so no credentials are need
 import base64, datetime, json, os, re, sys, urllib.error, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-COURSES = ["standard1", "standard2", "advanced", "extension1", "extension2", "physics", "chemistry", "biology"]
+COURSES = ["standard2", "advanced", "extension1", "extension2", "physics", "chemistry", "biology"]
 SKIPPED = os.path.join(ROOT, "data/queue_skipped.json")
 CHECKED = os.path.join(ROOT, "data/photos_checked.json")   # submission id -> its `updated` when checked (all images are diagrams)
 

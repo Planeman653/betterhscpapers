@@ -8,7 +8,7 @@ service cloud.firestore {
         && request.auth.token.email.lower() in ['jamestanudji@gmail.com'];
     }
     function owns(data) { return signedIn() && data.uid == request.auth.uid; }
-    function course(d) { return d.course in ['standard1', 'standard2', 'advanced', 'extension1', 'extension2', 'physics', 'chemistry', 'biology']; }
+    function course(d) { return d.course in ['standard2', 'advanced', 'extension1', 'extension2', 'physics', 'chemistry', 'biology']; }
     // typed question text, or a photo/screenshot of the question (or both)
     function textOk(d) {
       return d.question is string && d.question.size() < 20000

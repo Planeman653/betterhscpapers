@@ -4,7 +4,7 @@
   const { esc, nm, md } = window.HSCRender;
   const A = window.HSCAuth;
   let EDIT = null;      // what is being edited: {kind: "sub"|"queue"|"repo", id, qid, course}
-  const COURSES = { standard1: "Standard 1", standard2: "Standard 2", advanced: "Advanced", extension1: "Extension 1", extension2: "Extension 2", physics: "Physics", chemistry: "Chemistry", biology: "Biology" };
+  const COURSES = { standard2: "Standard 2", advanced: "Advanced", extension1: "Extension 1", extension2: "Extension 2", physics: "Physics", chemistry: "Chemistry", biology: "Biology" };
   const SCIENCE = (c) => c === "physics" || c === "chemistry" || c === "biology";
   const DIFF = ["", "Easy", "Moderate", "Medium", "Hard", "Very hard"];
   const store = {

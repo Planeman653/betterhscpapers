@@ -15,7 +15,7 @@ import gzip, html, json, os, re, sys, urllib.parse, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LEDGER = os.path.join(ROOT, "data/ledger.json")
-COURSES = ["standard1", "standard2", "advanced", "extension1", "extension2", "physics", "chemistry", "biology"]
+COURSES = ["standard2", "advanced", "extension1", "extension2", "physics", "chemistry", "biology"]
 DAILY = ["extension1", "extension2", "physics", "chemistry"]   # subjects indexed each day (Advanced and Biology paused)
 PAGES = {"standard2": "Maths/trialpapers_general.html", "advanced": "Maths/trialpapers_advanced.html", "extension1": "Maths/trialpapers_extension1.html",
          "extension2": "Maths/trialpapers_extension2.html", "physics": "Physics/trialpapers.html",

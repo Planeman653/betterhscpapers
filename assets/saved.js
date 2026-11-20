@@ -4,7 +4,7 @@
   const A = window.HSCAuth;
   const { esc, md, dpChips } = window.HSCRender;
   const $ = (id) => document.getElementById(id);
-  const NAMES = { standard1: "Mathematics Standard 1", standard2: "Mathematics Standard 2", advanced: "Mathematics Advanced", extension1: "Mathematics Extension 1", extension2: "Mathematics Extension 2", physics: "Physics", chemistry: "Chemistry", biology: "Biology" };
+  const NAMES = { standard2: "Mathematics Standard 2", advanced: "Mathematics Advanced", extension1: "Mathematics Extension 1", extension2: "Mathematics Extension 2", physics: "Physics", chemistry: "Chemistry", biology: "Biology" };
   const SCI = { physics: 1, chemistry: 1, biology: 1 };
   const DIFF = ["", "Easy", "Moderate", "Medium", "Hard", "Very hard"];
   const toast = (m) => { const t = $("toast"); t.textContent = m; t.style.display = "block"; clearTimeout(toast.t); toast.t = setTimeout(() => (t.style.display = "none"), 2600); };

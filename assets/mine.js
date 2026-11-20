@@ -4,7 +4,7 @@
   const A = window.HSCAuth;
   const { esc } = window.HSCRender;
   const $ = (id) => document.getElementById(id);
-  const NAMES = { standard1: "Standard 1", standard2: "Standard 2", advanced: "Advanced", extension1: "Extension 1", extension2: "Extension 2", physics: "Physics", chemistry: "Chemistry", biology: "Biology" };
+  const NAMES = { standard2: "Standard 2", advanced: "Advanced", extension1: "Extension 1", extension2: "Extension 2", physics: "Physics", chemistry: "Chemistry", biology: "Biology" };
   const toast = (m) => { const t = $("toast"); t.textContent = m; t.style.display = "block"; clearTimeout(toast.t); toast.t = setTimeout(() => (t.style.display = "none"), 2600); };
   const when = (ms) => (ms ? new Date(ms).toLocaleDateString("en-AU", { day: "numeric", month: "short", year: "numeric" }) : "");
   const snippet = (t) => { const x = String(t || "").replace(/\$[^$]*\$/g, "…").replace(/[#*_>`|]/g, "").replace(/\s+/g, " ").trim(); return x.length > 140 ? x.slice(0, 140) + "…" : x; };
