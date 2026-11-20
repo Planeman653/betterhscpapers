@@ -490,3 +490,8 @@ html.panel-open .sheet-fab{display:none}
 .dp-reveal .dp-where{font-size:12px;color:var(--muted);margin-bottom:2px}
 .dp-reveal .dpid{color:var(--accent);margin-right:4px}
 .dp-reveal p{display:inline;margin:0}
+
+/* progress total + bar (sidebar) */
+.prog-line{display:flex;align-items:baseline;gap:8px}.prog-line span{flex:1}.prog-line b{color:var(--ink);font-weight:600}
+.prog-bar{height:8px;border-radius:999px;background:var(--line);overflow:hidden;margin-top:6px}
+.prog-bar i{display:block;height:100%;background:var(--accent);border-radius:999px;transition:width .3s ease}

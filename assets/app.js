@@ -138,11 +138,16 @@
     if (S.search) for (const w of S.search.split(/\s+/)) if (w && !q._text.includes(w)) return false;
     return true;
   }
-  function passes(q) {
+  // every filter except "show completed / uncompleted" (the progress total counts these)
+  function passesForProgress(q) {
     if (!passesNonTopic(q)) return false;
-    if (A.user && S.show !== "all" && isDone(q.id) !== (S.show === "done")) return false;
     if (A.user && S.savedOnly && !isSaved(q.id)) return false;
     if (S.sel.size && !q.dotpoints.some((d) => S.sel.has(d))) return false;
+    return true;
+  }
+  function passes(q) {
+    if (!passesForProgress(q)) return false;
+    if (A.user && S.show !== "all" && isDone(q.id) !== (S.show === "done")) return false;
     return true;
   }
   function sorted(list) {
@@ -424,7 +429,7 @@
     (el || document.getElementById("questions")).scrollIntoView({ block: "start" });
   }
 
-  function refresh(tree) { S.page = 0; if (tree) buildTree(); else syncGroupBoxes(); render(); updateBasket(); }
+  function refresh(tree) { S.page = 0; if (tree) buildTree(); else syncGroupBoxes(); render(); updateBasket(); updateProgress(); }
 
   /* ---------------- basket / PDF ---------------- */
   function updateBasket() {
@@ -510,8 +515,11 @@
     const ads = document.getElementById("add-saved");
     if (ads) { ads.hidden = !nSaved; ads.textContent = `★ Add my saved questions (${nSaved})`; }
     if (!A.user) { cnt.innerHTML = `<button class="linkish" id="progress-signin">Sign in</button> to tick off questions you've done and save questions to your own bank.`; return; }
-    const n = S.data.questions.filter((q) => isDone(q.id)).length;
-    cnt.textContent = `${n} of ${S.data.questions.length} questions done`;
+    const pool = S.data.questions.filter(passesForProgress), n = pool.filter((q) => isDone(q.id)).length;
+    const pct = pool.length ? Math.round((100 * n) / pool.length) : 0;
+    const filtered = pool.length !== S.data.questions.length;
+    cnt.innerHTML = `<div class="prog-line"><span>${n} of ${pool.length} ${filtered ? "shown " : ""}questions done</span><b>${pct}%</b></div>
+      <div class="prog-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${pct}" aria-label="Questions completed"><i style="width:${pool.length ? (100 * n) / pool.length : 0}%"></i></div>`;
   }
   function openFlag(id) {
     if (!A.user) { alertBox("Sign in to report a problem."); A.signIn && A.signIn(); return; }
