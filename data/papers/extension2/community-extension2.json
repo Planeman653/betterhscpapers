@@ -61,7 +61,75 @@
    "client_id": "mine-mwijyp3y",
    "images": [],
    "answer_images": []
+  },
+  {
+   "ref": "Q-A6Jo8P",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.4.6"
+   ],
+   "question": "Let $n$ be a positive integer. Suppose $n$ distinct straight lines are drawn in a two-dimensional plane such that all $n$ lines intersect at a single common point $O$.\n\nProve, by mathematical induction, that for all integers $n \\ge 1$, these $n$ lines partition the plane into exactly $2n$ disjoint angular regions (sectors).",
+   "answer": "Let $P(n)$: $n$ distinct lines through $O$ divide the plane into exactly $2n$ sectors.\n\n**Base case $n=1$.** One line through $O$ divides the plane into two half-planes, i.e. $2 = 2(1)$ sectors. $P(1)$ is true.\n\n**Inductive step.** Assume $P(k)$ is true for some $k \\ge 1$: $k$ distinct lines through $O$ give $2k$ sectors.\n\nAdd a $(k+1)$th line $L$ through $O$, distinct from the others. $L$ is made of two opposite rays starting at $O$. Each of the $k$ lines is also two rays from $O$, so every sector is bounded by two rays from $O$ and has angle at most $180^\\circ$.\n\nSince $L$ is distinct from the other lines, neither of its rays lies along an existing ray, so each ray of $L$ lies inside exactly one sector and cuts it into two. The two rays of $L$ make an angle of $180^\\circ$, so they cannot lie inside the same sector (its angle is at most $180^\\circ$, and the sector does not include its boundary rays). Hence $L$ cuts exactly two different sectors into two each, and every other sector is unchanged.\n\nNumber of sectors $= 2k + 2 = 2(k+1)$, so $P(k+1)$ is true.\n\nBy mathematical induction, $n$ distinct concurrent lines divide the plane into exactly $2n$ sectors for all $n \\ge 1$.",
+   "answer_type": "worked",
+   "images": [],
+   "answer_images": [],
+   "source": "Community question",
+   "queue_id": "A6Jo8PfOyjvvZKC76YnC",
+   "credit": "Joshua"
+  },
+  {
+   "ref": "Q-SHnD6N",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.6"
+   ],
+   "question": "Let $n$ be a positive integer. Suppose $n$ straight lines are drawn in a two-dimensional plane, dividing the plane into a number of polygonal regions.\n\nProve, by mathematical induction, that for all $n \\ge 1$, it is possible to colour every region either black or white such that no two regions sharing a boundary edge of positive length have the same colour.",
+   "answer": "Call a colouring *proper* if no two regions sharing a boundary edge of positive length have the same colour.\n\n**Base case $n = 1$.** One line divides the plane into two half-planes. Colour one black and the other white. They are the only two regions and they have different colours, so the statement is true for $n=1$.\n\n**Inductive step.** Assume that for some $k \\ge 1$, the regions formed by any $k$ lines can be properly coloured. Consider any $k+1$ lines, and pick one of them, $L$.\n\nRemove $L$. By the hypothesis, the regions formed by the other $k$ lines can be properly coloured. Now put $L$ back: it cuts some of these regions into two. Keep the colours of every region on one side of $L$, and **swap** black $\\leftrightarrow$ white for every region on the other side.\n\nCheck two regions that share an edge of positive length:\n\n- **The edge lies on $L$.** Then the two regions lie on opposite sides of $L$ and are the two halves of one region of the $k$-line picture, so they had the same colour. Exactly one of them was swapped, so now they differ.\n- **The edge does not lie on $L$.** Then both regions are on the same side of $L$, and they were adjacent (along that edge) in the $k$-line picture, so they had different colours. Either both were swapped or neither was, so they still differ.\n\nSo the $k+1$ lines also give a proper colouring.\n\nBy mathematical induction, the regions formed by $n$ lines can be properly coloured black and white for all $n \\ge 1$.",
+   "answer_type": "worked",
+   "images": [],
+   "answer_images": [],
+   "source": "Community question",
+   "queue_id": "SHnD6N2wWHTrh3GHRkYS",
+   "credit": "Joshua"
+  },
+  {
+   "ref": "Q-WClpFW",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.4.6"
+   ],
+   "question": "A *triangulation* of a convex $n$-gon is a subdivision of its interior into triangles using $n-3$ non-intersecting diagonals connecting its vertices.\n\nProve, by strong mathematical induction, that every convex polygon with $n \\ge 3$ vertices has at least one triangulation, and every triangulation of a convex $n$-gon consists of exactly $n-2$ triangles.",
+   "answer": "We prove the slightly stronger statement $P(n)$: *a convex $n$-gon can be subdivided into triangles by non-intersecting diagonals, and **any** such subdivision uses exactly $n-3$ diagonals and has exactly $n-2$ triangles.* (So such a subdivision is a triangulation as defined, and it has $n-2$ triangles.)\n\n**Base case $n=3$.** A triangle needs $0 = 3-3$ diagonals: it is already one triangle, and $1 = 3-2$. It has no diagonals, so this is the only subdivision. $P(3)$ is true.\n\n**Inductive step.** Let $m \\ge 3$ and assume $P(k)$ is true for every $k$ with $3 \\le k \\le m$. Consider a convex $(m+1)$-gon $V_1V_2\\cdots V_{m+1}$.\n\n*Existence.* By convexity the diagonal $V_1V_3$ lies inside the polygon and cuts it into the triangle $V_1V_2V_3$ and the convex $m$-gon $V_1V_3V_4\\cdots V_{m+1}$. By $P(m)$ the $m$-gon can be subdivided into triangles by $m-3$ non-intersecting diagonals. Together with $V_1V_3$ this subdivides the $(m+1)$-gon into triangles using $(m-3)+1 = (m+1)-3$ non-intersecting diagonals, so a triangulation exists.\n\n*Counting.* Take any subdivision of the $(m+1)$-gon into triangles by non-intersecting diagonals. Since $m+1 \\ge 4$, the polygon itself is not a triangle, so at least one diagonal $d = V_iV_j$ is used. $d$ splits the polygon into two convex polygons with $p$ and $q$ vertices, where\n$$p + q = (m+1) + 2 = m+3$$\n(the two ends of $d$ belong to both), and $3 \\le p, q \\le m$.\n\nNo other diagonal crosses $d$, so each other diagonal (and each triangle) lies entirely in one of the two pieces. Hence the subdivision restricts to a subdivision of each piece into triangles by non-intersecting diagonals. Since $p, q \\le m$, the hypothesis applies to both pieces:\n\n- number of triangles $= (p-2) + (q-2) = p+q-4 = m-1 = (m+1)-2$;\n- number of diagonals $= (p-3) + (q-3) + 1 = p+q-5 = m-2 = (m+1)-3$ (the $+1$ is $d$).\n\nSo $P(m+1)$ is true.\n\nBy strong induction, $P(n)$ is true for all $n \\ge 3$: every convex $n$-gon has a triangulation, and every triangulation has exactly $n-2$ triangles. (Strong induction is needed because the two pieces can have any number of vertices from $3$ to $m$.)",
+   "answer_type": "worked",
+   "images": [],
+   "answer_images": [],
+   "source": "Community question",
+   "queue_id": "WClpFWpgn8CBeYXg4zZk",
+   "credit": "Joshua"
+  },
+  {
+   "ref": "Q-uWANjE",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.6"
+   ],
+   "question": "Let $n$ be a positive integer. Consider a $2^n \\times 2^n$ grid of unit squares with any single unit square removed.\n\nProve, by mathematical induction, that for all integers $n \\ge 1$, the remaining $2^{2n}-1$ squares of the grid can be completely covered without overlapping or overhanging by L-shaped trominoes (tiles consisting of three unit squares joined along their edges in the shape of an 'L').",
+   "answer": "Let $P(n)$: a $2^n \\times 2^n$ grid with **any** one unit square removed can be tiled by L-trominoes.\n\n**Base case $n=1$.** A $2 \\times 2$ grid with one square removed leaves three squares forming an L shape, which is exactly one L-tromino. So $P(1)$ is true.\n\n**Inductive step.** Assume $P(k)$ is true for some $k \\ge 1$: any $2^k \\times 2^k$ grid with one square removed can be tiled.\n\nTake a $2^{k+1} \\times 2^{k+1}$ grid with one square removed. Cut it through the middle into four $2^k \\times 2^k$ quadrants. The removed square lies in exactly one quadrant.\n\nPlace one L-tromino at the centre of the grid so that it covers the corner square at the centre of each of the **other three** quadrants (these three squares form an L around the centre point).\n\nNow each of the four quadrants is a $2^k \\times 2^k$ grid with exactly one square unavailable (the removed square in one quadrant, and the square covered by the centre tromino in each of the other three). By $P(k)$ each quadrant can be tiled with L-trominoes. Together with the centre tromino, this tiles the whole $2^{k+1} \\times 2^{k+1}$ grid with one square removed, with no overlaps or overhang. So $P(k+1)$ is true.\n\nBy mathematical induction, $P(n)$ is true for all integers $n \\ge 1$.",
+   "answer_type": "worked",
+   "images": [],
+   "answer_images": [],
+   "source": "Community question",
+   "queue_id": "uWANjEx5gc0l7eOap1xQ",
+   "credit": "Joshua"
   }
  ],
- "indexed": "2026-11-16"
+ "indexed": "2026-11-22"
 }

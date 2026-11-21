@@ -1,0 +1,677 @@
+{
+ "id": "ext2-2026-sydney-girls",
+ "course": "extension2",
+ "school": "Sydney Girls",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "Sydney Girls 2026 w. sol"
+ },
+ "indexed": "2026-11-22",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q12(b)",
+   "reason": "Not in 2024 syllabus: uses the exponential (Euler) forms sin θ = (e^{iθ} − e^{−iθ})/2i and cos θ = (e^{iθ} + e^{−iθ})/2."
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.9",
+    "12.3.4.10"
+   ],
+   "question": "Let $a$ and $b$ be real numbers. Which of the following is equal to $(a+ib)^{2026}$?",
+   "options": [
+    "$(b-ia)^{2026}$",
+    "$-(b-ia)^{2026}$",
+    "$i(b-ia)^{2026}$",
+    "$-i(b-ia)^{2026}$"
+   ],
+   "answer": "Note that $i(b-ia) = ib - i^2a = a+ib$. Therefore\n$$(a+ib)^{2026} = i^{2026}(b-ia)^{2026} = i^{2}\\left(i^{4}\\right)^{506}(b-ia)^{2026} = -(b-ia)^{2026}.$$\nHence **B**.",
+   "correct": "B"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.3.4",
+    "12.3.3.3"
+   ],
+   "question": "It is given that $2+5i$ is a root of $P(z) = z^3 - 8z^2 + 45z - 116$. Which of the following is a quadratic factor of $P(z)$?",
+   "options": [
+    "$z^2-4z+29$",
+    "$z^2+4z+29$",
+    "$z^2-4z-29$",
+    "$z^2+4z-29$"
+   ],
+   "answer": "The coefficients are real, so by the conjugate root theorem $\\alpha = 2+5i$ and $\\overline{\\alpha} = 2-5i$ are both roots. The quadratic factor is\n$$(z-\\alpha)(z-\\overline{\\alpha}) = z^2 - 2\\,\\text{Re}(\\alpha)\\,z + |\\alpha|^2 = z^2 - 4z + 29.$$\nHence **A**.",
+   "correct": "A"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.3",
+    "12.3.2.5"
+   ],
+   "question": "For which of the following integers $m$ is $(\\sqrt3+i)^m$ real?",
+   "options": [
+    "$3$",
+    "$4$",
+    "$5$",
+    "$6$"
+   ],
+   "answer": "$\\sqrt3 + i = 2\\left(\\cos\\frac{\\pi}{6} + i\\sin\\frac{\\pi}{6}\\right)$, so by de Moivre's theorem\n$$(\\sqrt3+i)^m = 2^m\\left(\\cos\\frac{m\\pi}{6} + i\\sin\\frac{m\\pi}{6}\\right).$$\nThis is real when $\\sin\\frac{m\\pi}{6} = 0$, i.e. $m = 0, \\pm6, \\pm12, \\dots$ Of the options only $m=6$ works. Hence **D**.",
+   "correct": "D"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.6.3"
+   ],
+   "question": "Which of the following is equal to $\\displaystyle\\int_0^{\\frac{\\pi}{4}} \\frac{\\sec^2 x + \\sec x\\tan x}{\\tan x + \\sec x}\\,dx$?",
+   "options": [
+    "$\\sqrt2$",
+    "$\\dfrac12$",
+    "$\\ln\\left(1+\\sqrt2\\right)$",
+    "$\\ln\\dfrac{\\pi}{4}$"
+   ],
+   "answer": "$\\dfrac{d}{dx}(\\tan x + \\sec x) = \\sec^2 x + \\sec x\\tan x$, so the integrand has the form $\\dfrac{f'(x)}{f(x)}$ with $f(x) = \\tan x + \\sec x$:\n$$\\int_0^{\\frac{\\pi}{4}} \\frac{f'(x)}{f(x)}\\,dx = \\Big[\\ln|\\tan x + \\sec x|\\Big]_0^{\\frac{\\pi}{4}} = \\ln(1+\\sqrt2) - \\ln 1 = \\ln(1+\\sqrt2).$$\nHence **C**.",
+   "correct": "C",
+   "course": "advanced"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.4"
+   ],
+   "question": "Let $P(8,-4,12)$ and $Q(-12,0,8)$ be points in three-dimensional space. Which of the following points divides $PQ$ internally in the ratio $1:3$?",
+   "options": [
+    "$(-3,-3,11)$",
+    "$(3,-3,11)$",
+    "$(-1,-2,8)$",
+    "$(1,-2,8)$"
+   ],
+   "answer": "The required point is one quarter of the way from $P$ to $Q$:\n$$\\mathbf{p} + \\tfrac14(\\mathbf{q}-\\mathbf{p}) = \\begin{pmatrix}8\\\\-4\\\\12\\end{pmatrix} + \\frac14\\begin{pmatrix}-20\\\\4\\\\-4\\end{pmatrix} = \\begin{pmatrix}3\\\\-3\\\\11\\end{pmatrix}.$$\n(Equivalently: the midpoint of $PQ$ is $M(-2,-2,10)$ and the midpoint of $PM$ is $(3,-3,11)$.) Hence **B**.",
+   "correct": "B"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Which of the following is equal to $\\displaystyle\\int_{\\frac{\\pi}{4}}^{\\frac{\\pi}{3}} \\frac{1}{\\sin^2 x + \\tan^2 x}\\,dx$?",
+   "options": [
+    "$\\displaystyle\\int_1^{\\sqrt3} \\frac{1}{t(t+2)}\\,dt$",
+    "$\\displaystyle\\int_1^{\\sqrt3} \\frac{1}{t(t+1)}\\,dt$",
+    "$\\displaystyle\\int_1^{\\sqrt3} \\frac{1}{t^2(t^2+2)}\\,dt$",
+    "$\\displaystyle\\int_1^{\\sqrt3} \\frac{1}{t^2(t^2+1)}\\,dt$"
+   ],
+   "answer": "Let $t = \\tan x$, so $dt = \\sec^2 x\\,dx = (1+t^2)\\,dx$ and $\\sin^2 x = \\dfrac{t^2}{1+t^2}$. When $x = \\frac{\\pi}{4}$, $t = 1$; when $x = \\frac{\\pi}{3}$, $t = \\sqrt3$.\n$$\\int_{\\frac{\\pi}{4}}^{\\frac{\\pi}{3}} \\frac{dx}{\\sin^2 x+\\tan^2 x} = \\int_1^{\\sqrt3} \\frac{1}{\\frac{t^2}{1+t^2} + t^2}\\cdot\\frac{dt}{1+t^2} = \\int_1^{\\sqrt3}\\frac{dt}{t^2 + t^2(1+t^2)} = \\int_1^{\\sqrt3}\\frac{dt}{t^2(t^2+2)}.$$\nHence **C**.",
+   "correct": "C"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.10",
+    "12.3.4.11"
+   ],
+   "question": "The complex numbers $a$, $b$ and $c$ form a right-angled triangle with the right angle at $a$ when plotted on the Argand diagram, as shown below. Which of the following is a correct expression for $c$?",
+   "options": [
+    "$a + i\\left|\\dfrac{a-c}{a-b}\\right|(b-a)$",
+    "$a - i\\left|\\dfrac{a-c}{a-b}\\right|(b-a)$",
+    "$a + i\\left|\\dfrac{a-b}{a-c}\\right|(b-a)$",
+    "$a - i\\left|\\dfrac{a-b}{a-c}\\right|(b-a)$"
+   ],
+   "answer": "$c = a + (c-a)$. From the diagram, the vector $c-a$ is the vector $b-a$ rotated by $\\frac{\\pi}{2}$ **anticlockwise** and rescaled to length $|c-a|$. Multiplying by $i$ rotates anticlockwise by $\\frac{\\pi}{2}$, and $\\dfrac{b-a}{|b-a|}$ has unit length, so\n$$c - a = i\\,|c-a|\\,\\frac{b-a}{|b-a|} \\quad\\Rightarrow\\quad c = a + i\\left|\\frac{a-c}{a-b}\\right|(b-a).$$\nHence **A**.",
+   "correct": "A",
+   "images": [
+    "assets/img/ext2-2026-sydney-girls/q7.png"
+   ]
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.4",
+    "12.3.4.11"
+   ],
+   "question": "Let $k>0$ be a real number and suppose $\\text{Arg}(z+k) = \\dfrac{\\pi}{6}$ and $\\text{Arg}(z-k) = \\dfrac{2\\pi}{3}$. Which of the following is equal to $|z|$?",
+   "options": [
+    "$k$",
+    "$2k$",
+    "$3k$",
+    "$4k$"
+   ],
+   "answer": "$z$ lies on the ray from $-k$ at angle $\\frac{\\pi}{6}$ and on the ray from $k$ at angle $\\frac{2\\pi}{3}$. In the triangle with vertices $-k$, $k$, $z$, the angles at $-k$ and $k$ are $\\frac{\\pi}{6}$ and $\\pi - \\frac{2\\pi}{3} = \\frac{\\pi}{3}$, so the angle at $z$ is $\\frac{\\pi}{2}$. Hence $(z+k)\\perp(z-k)$ and by Pythagoras\n$$|z+k|^2 + |z-k|^2 = |2k|^2.$$\nUsing $|w|^2 = w\\overline{w}$: $(z+k)(\\overline z+k) + (z-k)(\\overline z - k) = 2z\\overline z + 2k^2 = 4k^2$, so $|z|^2 = k^2$ and $|z| = k$.\n\n(Equivalently, by the angle in a semicircle, $z$ lies on the circle with diameter joining $-k$ and $k$, which has centre $O$ and radius $k$.) Hence **A**.",
+   "correct": "A"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.6",
+    "12.1.2.2"
+   ],
+   "question": "Which of the following statements is true?",
+   "options": [
+    "$\\forall r\\in\\mathbb{R},\\ \\exists n\\in\\mathbb{Z}$ such that $0 \\le r-n < 1$",
+    "$\\exists n\\in\\mathbb{Z}$ such that $\\forall r\\in\\mathbb{R},\\ 0 \\le r-n < 1$",
+    "$\\forall r\\in\\mathbb{R}^+,\\ \\exists n\\in\\mathbb{Z}^+$ such that $0 \\le r-n < 1$",
+    "$\\exists n\\in\\mathbb{Z}^+$ such that $\\forall r\\in\\mathbb{R}^+,\\ 0 \\le r-n < 1$"
+   ],
+   "answer": "**A** is true: for any real $r$, take $n$ to be the greatest integer $\\le r$; then $r - n$ is the fractional part of $r$, which lies in $[0,1)$.\n\n**B** and **D** are false: for any such $n$, $r = n+2$ gives $r-n = 2 \\not< 1$.\n\n**C** is false: for $r = 0.5$ we need $-0.5 < n \\le 0.5$, i.e. $n = 0$, which is not a positive integer.\n\nHence **A**.",
+   "correct": "A"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.2.8",
+    "12.3.2.7"
+   ],
+   "question": "Consider the complex number\n$$z = \\left(1+\\frac{i}{\\sqrt1}\\right)\\left(1+\\frac{i}{\\sqrt2}\\right)\\cdots\\left(1+\\frac{i}{\\sqrt{2026}}\\right).$$\nThe argument of each factor of $z$ can be estimated using the small angle approximation $\\tan^{-1}x \\approx x$. After these estimates have been made, $\\arg(z)$ can be approximated using lower rectangles under the curve $y = \\dfrac{1}{\\sqrt x}$.\n\nAccording to this method, which of the following is the best approximation of $\\text{Re}(z)$?",
+   "options": [
+    "$\\sqrt{2026}\\cos\\left(2\\sqrt{2026}\\right)$",
+    "$\\sqrt{2026}\\cos\\left(2\\sqrt{2027}\\right)$",
+    "$\\sqrt{2027}\\cos\\left(2\\sqrt{2026}\\right)$",
+    "$\\sqrt{2027}\\cos\\left(2\\sqrt{2027}\\right)$"
+   ],
+   "answer": "**Modulus** (exact):\n$$|z| = \\prod_{k=1}^{2026}\\sqrt{1+\\frac1k} = \\sqrt{\\frac21\\cdot\\frac32\\cdots\\frac{2027}{2026}} = \\sqrt{2027}.$$\n**Argument:**\n$$\\arg z = \\sum_{k=1}^{2026}\\tan^{-1}\\frac{1}{\\sqrt k} \\approx \\sum_{k=1}^{2026}\\frac{1}{\\sqrt k}.$$\nSince $y = \\frac{1}{\\sqrt x}$ is decreasing, the rectangle on $[k-1,k]$ with height $\\frac{1}{\\sqrt k}$ lies under the curve, so these lower rectangles give\n$$\\sum_{k=1}^{2026}\\frac{1}{\\sqrt k} \\approx \\int_0^{2026}\\frac{dx}{\\sqrt x} = \\Big[2\\sqrt x\\Big]_0^{2026} = 2\\sqrt{2026}.$$\nSo $\\text{Re}(z) = |z|\\cos(\\arg z) \\approx \\sqrt{2027}\\cos\\left(2\\sqrt{2026}\\right)$. Hence **C**.",
+   "correct": "C"
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.10",
+    "12.3.1.9"
+   ],
+   "question": "Express $(4+i)\\,\\overline{(3-2i)}$ in the form $x+iy$, where $x$ and $y$ are real.",
+   "answer": "$$(4+i)\\,\\overline{(3-2i)} = (4+i)(3+2i) = 12 + 8i + 3i + 2i^2 = 10 + 11i.$$"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.4"
+   ],
+   "question": "Solve $4z^2 - 4z + 17 = 0$. Give your answers in simplest Cartesian form.",
+   "answer": "$$z = \\frac{4 \\pm\\sqrt{(-4)^2 - 4(4)(17)}}{2(4)} = \\frac{4\\pm\\sqrt{-256}}{8} = \\frac{4 \\pm 16i}{8} = \\frac12 \\pm 2i.$$"
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.6",
+    "12.3.2.4"
+   ],
+   "question": "Express $-2\\sqrt3 - 2i$ in the form $r(\\cos\\theta + i\\sin\\theta)$, where $r$ and $\\theta$ are real, $r>0$ and $-\\pi<\\theta\\le\\pi$.",
+   "answer": "$r = \\left|-2\\sqrt3-2i\\right| = \\sqrt{12+4} = 4$.\n\nThe number is in the third quadrant (real and imaginary parts both negative), with related angle $\\tan^{-1}\\dfrac{2}{2\\sqrt3} = \\dfrac{\\pi}{6}$. So $\\theta = -\\pi + \\dfrac{\\pi}{6} = -\\dfrac{5\\pi}{6}$ and\n$$-2\\sqrt3 - 2i = 4\\left(\\cos\\left(-\\frac{5\\pi}{6}\\right) + i\\sin\\left(-\\frac{5\\pi}{6}\\right)\\right).$$\n(The original asked for $re^{i\\theta}$; that notation is not in the 2024 syllabus, so the equivalent polar form is used.)"
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^1 \\frac{1-x^2}{1+x^2}\\,dx$.",
+   "answer": "$$\\int_0^1\\frac{1-x^2}{1+x^2}\\,dx = \\int_0^1 \\frac{2 - (1+x^2)}{1+x^2}\\,dx = \\int_0^1\\left(\\frac{2}{1+x^2} - 1\\right)dx = \\Big[2\\tan^{-1}x - x\\Big]_0^1 = \\frac{\\pi}{2} - 1.$$",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Using a suitable substitution, or otherwise, find $\\displaystyle\\int\\frac{1}{x(\\ln x)^2}\\,dx$.",
+   "answer": "Let $u = \\ln x$, so $du = \\dfrac{1}{x}\\,dx$.\n$$\\int\\frac{1}{x(\\ln x)^2}\\,dx = \\int\\frac{1}{u^2}\\,du = -\\frac1u + C = -\\frac{1}{\\ln x} + C.$$"
+  },
+  {
+   "ref": "Q11(f)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.8",
+    "12.2.3.7"
+   ],
+   "question": "Find the vector with magnitude $12$ and the same direction as $-\\mathbf{i} - 2\\mathbf{j} + 2\\mathbf{k}$.",
+   "answer": "$|-\\mathbf{i}-2\\mathbf{j}+2\\mathbf{k}| = \\sqrt{1+4+4} = 3$, so the unit vector in this direction is $\\frac13(-\\mathbf{i}-2\\mathbf{j}+2\\mathbf{k})$.\n\nThe required vector is\n$$12\\times\\frac13(-\\mathbf{i}-2\\mathbf{j}+2\\mathbf{k}) = -4\\mathbf{i} - 8\\mathbf{j} + 8\\mathbf{k}.$$",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q11(g)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.5.2"
+   ],
+   "question": "Sketch the set of all $z$ satisfying $|z+3-2i| = |z+1+2i|$. Label the intercepts with the coordinate axes.",
+   "answer": "$|z-(-3+2i)| = |z-(-1-2i)|$: the set of points equidistant from $A(-3,2)$ and $B(-1,-2)$, i.e. the perpendicular bisector of $AB$.\n\nGradient of $AB = \\dfrac{-2-2}{-1+3} = -2$, so the bisector has gradient $\\frac12$. Midpoint of $AB$ is $(-2,0)$. So the line is\n$$y = \\tfrac12(x+2) = \\tfrac12x + 1.$$\n(Check with $z = x+iy$: $(x+3)^2+(y-2)^2 = (x+1)^2+(y+2)^2 \\Rightarrow 4x - 8y + 8 = 0 \\Rightarrow y = \\tfrac12x+1$.)\n\nThe line cuts the real axis at $-2$ and the imaginary axis at $1$ (i.e. at $i$).",
+   "answer_images": [
+    "assets/img/ext2-2026-sydney-girls/q11g-sol.png"
+   ]
+  },
+  {
+   "ref": "Q11(h)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.4",
+    "12.3.3.3"
+   ],
+   "question": "It is given that $2-i$ is one of the zeroes of $P(z) = z^3 - 12z^2 + 37z - 40$. Find the other two zeroes, giving reasons for your answer.",
+   "answer": "$P$ has real coefficients, so by the conjugate root theorem $2+i$ is also a zero.\n\nLet the third zero be $\\gamma$. Sum of zeroes: $(2-i) + (2+i) + \\gamma = 12$, so $\\gamma = 8$.\n\n(Alternatively: $(z-(2-i))(z-(2+i)) = z^2 - 4z + 5$ and $P(z) = (z^2-4z+5)(z-8)$.)\n\nThe other two zeroes are $2+i$ and $8$."
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "Show that ${}^nP_r$ is divisible by $r$ (where $n$ and $r$ are integers with $1 \\le r \\le n$).",
+   "answer": "$${}^nP_r = \\frac{n!}{(n-r)!} = n(n-1)(n-2)\\cdots(n-r+1),$$\nwhich is a product of $n - (n-r+1) + 1 = r$ consecutive integers. Among any $r$ consecutive integers exactly one is a multiple of $r$, so ${}^nP_r$ is divisible by $r$.\n\n*Alternatively:* ${}^nP_r = \\dbinom{n}{r}\\,r! = \\dbinom{n}{r}(r-1)!\\times r$, and $\\dbinom nr$ and $(r-1)!$ are integers, so $r$ divides ${}^nP_r$."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.10",
+    "12.3.4.11"
+   ],
+   "question": "Find the area of the quadrilateral formed by $z$, $-z$, $2iz$ and $-2iz$ if $|z| = 4$.",
+   "answer": "$-z$ is $z$ rotated by $\\pi$ about $O$, and $\\pm2iz$ are $z$ rotated by $\\pm\\frac{\\pi}{2}$ and enlarged by factor $2$. So the diagonals joining $z$ to $-z$ and $2iz$ to $-2iz$ both pass through $O$, bisect each other and are perpendicular: the quadrilateral is a rhombus with diagonals of lengths\n$$d_1 = |z-(-z)| = 2|z| = 8, \\qquad d_2 = |2iz - (-2iz)| = 4|z| = 16.$$\n$$\\text{Area} = \\tfrac12 d_1 d_2 = \\tfrac12(8)(16) = 64 \\text{ square units}.$$"
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.11",
+    "12.4.1.9"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_{-6}^{3}\\frac{1}{\\sqrt{45 - 12x - x^2}}\\,dx$.",
+   "answer": "Complete the square: $45 - 12x - x^2 = 81 - (x^2+12x+36) = 81 - (x+6)^2$.\n$$\\int_{-6}^{3}\\frac{dx}{\\sqrt{9^2 - (x+6)^2}} = \\left[\\sin^{-1}\\left(\\frac{x+6}{9}\\right)\\right]_{-6}^{3} = \\sin^{-1}1 - \\sin^{-1}0 = \\frac{\\pi}{2}.$$"
+  },
+  {
+   "ref": "Q12(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.6",
+    "12.2.4.2"
+   ],
+   "question": "Let $\\mathbf{a} = \\begin{pmatrix}2\\\\-1\\\\1\\end{pmatrix}$ and $\\mathbf{b} = \\begin{pmatrix}1\\\\-1\\\\2\\end{pmatrix}$. It is given that $|2\\mathbf{a}-\\mathbf{b}| = |\\mathbf{a}-2\\mathbf{b}| = \\sqrt{10}$.\n\nCalculate the exact angle between $2\\mathbf{a}-\\mathbf{b}$ and $\\mathbf{a}-2\\mathbf{b}$.",
+   "answer": "$2\\mathbf{a}-\\mathbf{b} = \\begin{pmatrix}3\\\\-1\\\\0\\end{pmatrix}$ and $\\mathbf{a}-2\\mathbf{b} = \\begin{pmatrix}0\\\\1\\\\-3\\end{pmatrix}$, so\n$$(2\\mathbf{a}-\\mathbf{b})\\cdot(\\mathbf{a}-2\\mathbf{b}) = 0 - 1 + 0 = -1.$$\n$$\\cos\\theta = \\frac{(2\\mathbf{a}-\\mathbf{b})\\cdot(\\mathbf{a}-2\\mathbf{b})}{|2\\mathbf{a}-\\mathbf{b}|\\,|\\mathbf{a}-2\\mathbf{b}|} = \\frac{-1}{\\sqrt{10}\\sqrt{10}} = -\\frac{1}{10}$$\n$$\\theta = \\cos^{-1}\\left(-\\frac{1}{10}\\right).$$",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q12(f)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.5.1.4"
+   ],
+   "question": "A particle of mass $6$ kg moves in a straight line subject to a force $F = \\dfrac{1}{v+3}$ newtons. At time $t$ seconds, the displacement of the particle is $x$ metres and the velocity is $v\\ \\text{m s}^{-1}$. The particle was initially at rest at the origin.\n\nFind $x$ when $v = 4\\ \\text{m s}^{-1}$.",
+   "answer": "$F = m\\ddot{x}$ gives $6\\ddot x = \\dfrac{1}{v+3}$. Using $\\ddot x = v\\dfrac{dv}{dx}$:\n$$6v\\frac{dv}{dx} = \\frac{1}{v+3} \\quad\\Rightarrow\\quad \\frac{dx}{dv} = 6v(v+3) = 6(v^2+3v).$$\nInitially $x=0$, $v=0$, so\n$$x = 6\\int_0^4 (v^2 + 3v)\\,dv = 6\\left[\\frac{v^3}{3} + \\frac{3v^2}{2}\\right]_0^4 = 6\\left(\\frac{64}{3} + 24\\right) = 128 + 144 = 272.$$\nSo $x = 272$ m."
+  },
+  {
+   "ref": "Q12(g)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.8",
+    "12.4.1.7"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{8x+2}{(3x-2)(x^2+2)}\\,dx$.",
+   "answer": "Write $\\dfrac{8x+2}{(3x-2)(x^2+2)} = \\dfrac{A}{3x-2} + \\dfrac{Bx+C}{x^2+2}$, so $8x+2 = A(x^2+2) + (Bx+C)(3x-2)$.\n\n- $x = \\frac23$: $\\frac{22}{3} = A\\cdot\\frac{22}{9}$, so $A = 3$.\n- $x = 0$: $2 = 2A - 2C = 6 - 2C$, so $C = 2$.\n- $x = 1$: $10 = 3A + (B+C) = 9 + B + 2$, so $B = -1$.\n\n$$\\int\\frac{8x+2}{(3x-2)(x^2+2)}\\,dx = \\int\\left(\\frac{3}{3x-2} - \\frac12\\cdot\\frac{2x}{x^2+2} + \\frac{2}{x^2+2}\\right)dx$$\n$$= \\ln|3x-2| - \\frac12\\ln(x^2+2) + \\sqrt2\\tan^{-1}\\left(\\frac{x}{\\sqrt2}\\right) + C.$$"
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.5",
+    "12.3.2.6"
+   ],
+   "question": "By writing $1-i$ and $1-i\\sqrt3$ in mod-arg form, find the exact value of $\\sin\\dfrac{7\\pi}{12}$.",
+   "answer": "$1 - i = \\sqrt2\\left(\\cos\\left(-\\frac{\\pi}{4}\\right) + i\\sin\\left(-\\frac{\\pi}{4}\\right)\\right)$ and $1 - i\\sqrt3 = 2\\left(\\cos\\left(-\\frac{\\pi}{3}\\right) + i\\sin\\left(-\\frac{\\pi}{3}\\right)\\right)$.\n\nMultiplying in mod-arg form:\n$$(1-i)(1-i\\sqrt3) = 2\\sqrt2\\left(\\cos\\left(-\\frac{7\\pi}{12}\\right) + i\\sin\\left(-\\frac{7\\pi}{12}\\right)\\right).$$\nMultiplying in Cartesian form:\n$$(1-i)(1-i\\sqrt3) = 1 - i\\sqrt3 - i + i^2\\sqrt3 = (1-\\sqrt3) - (1+\\sqrt3)i.$$\nEquating imaginary parts: $2\\sqrt2\\sin\\left(-\\frac{7\\pi}{12}\\right) = -(1+\\sqrt3)$, so\n$$\\sin\\frac{7\\pi}{12} = \\frac{1+\\sqrt3}{2\\sqrt2} = \\frac{\\sqrt2+\\sqrt6}{4}.$$"
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.2.3"
+   ],
+   "question": "It is given that if $x^2$ divides $y^2$ then $x$ divides $y$, for all integers $x$ and $y$.\n\nSuppose that $n$ is a positive integer and that $\\sqrt n$ is not an integer. Prove by contradiction that $\\sqrt n$ is irrational.",
+   "answer": "Suppose, for contradiction, that $\\sqrt n$ is rational: $\\sqrt n = \\dfrac pq$ where $p, q$ are positive integers with no common factor (other than 1).\n\nThen $n = \\dfrac{p^2}{q^2}$, i.e. $p^2 = nq^2$. Since $n$ is an integer, $q^2$ divides $p^2$, so by the given result $q$ divides $p$.\n\nBut $p$ and $q$ have no common factor other than $1$, so $q = 1$. Then $\\sqrt n = p$ is an integer, contradicting the assumption that $\\sqrt n$ is not an integer.\n\nHence $\\sqrt n$ is irrational."
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_1^e \\cos(\\ln x)\\,dx$.",
+   "answer": "Let $I = \\int_1^e\\cos(\\ln x)\\,dx$. Integrate by parts with $u = \\cos(\\ln x)$, $v' = 1$ (so $u' = -\\frac1x\\sin(\\ln x)$, $v = x$):\n$$I = \\Big[x\\cos(\\ln x)\\Big]_1^e + \\int_1^e \\sin(\\ln x)\\,dx = e\\cos 1 - 1 + \\int_1^e\\sin(\\ln x)\\,dx.$$\nAgain by parts with $u = \\sin(\\ln x)$, $v' = 1$ (so $u' = \\frac1x\\cos(\\ln x)$, $v = x$):\n$$\\int_1^e\\sin(\\ln x)\\,dx = \\Big[x\\sin(\\ln x)\\Big]_1^e - \\int_1^e\\cos(\\ln x)\\,dx = e\\sin 1 - I.$$\nSo $I = e\\cos1 - 1 + e\\sin 1 - I$, giving\n$$I = \\frac{e\\cos 1 + e\\sin 1 - 1}{2}.$$"
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.6",
+    "12.2.4.2"
+   ],
+   "question": "The points $A$, $B$ and $P$ have position vectors $\\overrightarrow{OA} = 3\\mathbf{i} + 4\\mathbf{j} + \\lambda\\mathbf{k}$, $\\overrightarrow{OB} = 5\\mathbf{i} + \\lambda\\mathbf{j}$ and $\\overrightarrow{OP} = -\\mathbf{i} - \\lambda\\mathbf{j} + \\mathbf{k}$ respectively.\n\nFind the possible values of $\\lambda$ if $\\angle AOP = \\angle BOP$.",
+   "answer": "$$\\cos\\angle AOP = \\frac{\\overrightarrow{OA}\\cdot\\overrightarrow{OP}}{|\\overrightarrow{OA}|\\,|\\overrightarrow{OP}|} = \\frac{-3 - 4\\lambda + \\lambda}{\\sqrt{25+\\lambda^2}\\sqrt{2+\\lambda^2}} = \\frac{-3-3\\lambda}{\\sqrt{25+\\lambda^2}\\sqrt{2+\\lambda^2}}$$\n$$\\cos\\angle BOP = \\frac{\\overrightarrow{OB}\\cdot\\overrightarrow{OP}}{|\\overrightarrow{OB}|\\,|\\overrightarrow{OP}|} = \\frac{-5 - \\lambda^2}{\\sqrt{25+\\lambda^2}\\sqrt{2+\\lambda^2}}$$\nThe angles are equal (both in $[0,\\pi]$) iff the cosines are equal. The denominators are equal, so\n$$-3 - 3\\lambda = -5 - \\lambda^2 \\;\\Rightarrow\\; \\lambda^2 - 3\\lambda + 2 = 0 \\;\\Rightarrow\\; (\\lambda-1)(\\lambda-2) = 0.$$\nSo $\\lambda = 1$ or $\\lambda = 2$.",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q13(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.9",
+    "12.5.2.4"
+   ],
+   "question": "A particle is moving in simple harmonic motion with a period of $6\\pi$ seconds according to the equation $x = a\\cos(nt+\\alpha)$, where $x$ is the displacement in metres, $a>0$, and $0\\le\\alpha<2\\pi$.\n\nWhen $t = 2$, the particle's displacement is $x = -2$ metres and its velocity is $v = 1$ metre per second.\n\nFind $a$ and $\\alpha$ correct to four significant figures.",
+   "answer": "Period $\\dfrac{2\\pi}{n} = 6\\pi$, so $n = \\dfrac13$. Then $x = a\\cos\\left(\\frac t3 + \\alpha\\right)$ and $v = -\\dfrac a3\\sin\\left(\\frac t3+\\alpha\\right)$.\n\nAt $t = 2$:\n$$a\\cos\\left(\\tfrac23+\\alpha\\right) = -2 \\quad (1), \\qquad a\\sin\\left(\\tfrac23+\\alpha\\right) = -3 \\quad (2).$$\n$(1)^2 + (2)^2$: $a^2 = 13$, so $a = \\sqrt{13} \\approx 3.606$ (as $a>0$).\n\nSince $a > 0$, both $\\cos\\left(\\frac23+\\alpha\\right)$ and $\\sin\\left(\\frac23+\\alpha\\right)$ are negative, so $\\frac23 + \\alpha$ is in the third quadrant, with $\\tan\\left(\\frac23+\\alpha\\right) = \\frac32$. As $\\frac23 \\le \\frac23 + \\alpha < 2\\pi + \\frac23$:\n$$\\tfrac23 + \\alpha = \\pi + \\tan^{-1}\\tfrac32 \\;\\Rightarrow\\; \\alpha = \\pi + \\tan^{-1}\\tfrac32 - \\tfrac23 \\approx 3.458.$$\nSo $a \\approx 3.606$ and $\\alpha \\approx 3.458$."
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.2"
+   ],
+   "question": "Use mathematical induction to prove that $\\dfrac{1}{1^3} + \\dfrac{1}{2^3} + \\dfrac{1}{3^3} + \\cdots + \\dfrac{1}{n^3} \\le \\dfrac32 - \\dfrac{1}{2n^2}$ for all positive integers $n$.",
+   "answer": "**Base case** $n=1$: LHS $= 1$, RHS $= \\frac32 - \\frac12 = 1$, and $1\\le 1$. True.\n\n**Inductive step.** Assume true for $n = k$ ($k\\ge1$): $\\displaystyle\\sum_{j=1}^{k}\\frac{1}{j^3} \\le \\frac32 - \\frac{1}{2k^2}$.\n\nThen\n$$\\sum_{j=1}^{k+1}\\frac{1}{j^3} \\le \\frac32 - \\frac{1}{2k^2} + \\frac{1}{(k+1)^3}.$$\nIt suffices to show $\\dfrac32 - \\dfrac{1}{2k^2} + \\dfrac{1}{(k+1)^3} \\le \\dfrac32 - \\dfrac{1}{2(k+1)^2}$, i.e.\n$$\\frac{1}{(k+1)^3} \\le \\frac{1}{2k^2} - \\frac{1}{2(k+1)^2} = \\frac{2k+1}{2k^2(k+1)^2}.$$\nMultiplying by $2k^2(k+1)^3>0$, this is $2k^2 \\le (2k+1)(k+1) = 2k^2 + 3k + 1$, which is true since $3k+1>0$.\n\nSo the statement is true for $n = k+1$. By mathematical induction it is true for all positive integers $n$."
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.11"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^{\\frac{\\pi}{4}}\\sin^3 x\\sec^6 x\\,dx$.",
+   "answer": "$$\\sin^3x\\sec^6x = \\frac{\\sin^3x}{\\cos^3x}\\cdot\\frac{1}{\\cos^3x} = \\tan^3x\\sec^3x = \\tan^2x\\sec^2x\\cdot\\sec x\\tan x = (\\sec^2x-1)\\sec^2x\\cdot\\sec x\\tan x.$$\nLet $u = \\sec x$, $du = \\sec x\\tan x\\,dx$; $x = 0 \\Rightarrow u = 1$, $x = \\frac{\\pi}{4}\\Rightarrow u = \\sqrt2$.\n$$\\int_1^{\\sqrt2}(u^2-1)u^2\\,du = \\left[\\frac{u^5}{5} - \\frac{u^3}{3}\\right]_1^{\\sqrt2} = \\left(\\frac{4\\sqrt2}{5} - \\frac{2\\sqrt2}{3}\\right) - \\left(\\frac15 - \\frac13\\right) = \\frac{2\\sqrt2}{15} + \\frac{2}{15} = \\frac{2(\\sqrt2+1)}{15}.$$"
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3",
+    "12.5.3.2"
+   ],
+   "question": "Two boxes of masses $m_1$ kg and $m_2$ kg are connected by a light inextensible string running over a frictionless pulley. The tension in the string is $T$ newtons. The $m_1$ kg box slides down a frictionless plane at an angle of $\\alpha$ to the horizontal, and the $m_2$ kg box slides down a frictionless plane at an angle of $\\beta$ to the horizontal, as shown below.\n\nShow that the acceleration of the connected body is\n$$a = \\frac{g}{m_1+m_2}\\left(m_1\\sin\\alpha + m_2\\sin\\beta\\right).$$",
+   "answer": "Both boxes accelerate down their slopes with the same magnitude $a$ (as the string is inextensible). Only the weight components parallel to the slopes and the tension act along the slopes (the normal forces are perpendicular to the slopes).\n\nFor $m_2$ (moving down its slope towards the pulley, so the tension pulls it down the slope):\n$$m_2 g\\sin\\beta + T = m_2 a \\qquad (1)$$\nFor $m_1$ (moving down its slope away from the pulley, so the tension acts up the slope):\n$$m_1 g\\sin\\alpha - T = m_1 a \\qquad (2)$$\nAdding (1) and (2):\n$$m_1g\\sin\\alpha + m_2g\\sin\\beta = (m_1+m_2)a \\;\\Rightarrow\\; a = \\frac{g}{m_1+m_2}\\left(m_1\\sin\\alpha + m_2\\sin\\beta\\right).$$",
+   "images": [
+    "assets/img/ext2-2026-sydney-girls/q14c.png"
+   ]
+  },
+  {
+   "ref": "Q14(d)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Use De Moivre's Theorem to prove that\n$$\\frac{\\cos7\\theta}{\\cos\\theta} = 64\\cos^6\\theta - 112\\cos^4\\theta + 56\\cos^2\\theta - 7.$$\nYou may let $c = \\cos\\theta$ and $s = \\sin\\theta$ to simplify your working.",
+   "answer": "By De Moivre's theorem, $\\cos7\\theta + i\\sin7\\theta = (c+is)^7$. Expanding with the binomial theorem and taking real parts (the terms with even powers of $is$):\n$$\\cos7\\theta = c^7 - \\binom72c^5s^2 + \\binom74c^3s^4 - \\binom76cs^6 = c^7 - 21c^5s^2 + 35c^3s^4 - 7cs^6.$$\nSubstitute $s^2 = 1-c^2$, $s^4 = 1 - 2c^2 + c^4$, $s^6 = 1 - 3c^2 + 3c^4 - c^6$:\n$$\\begin{aligned}\\cos7\\theta &= c^7 - 21c^5 + 21c^7 + 35c^3 - 70c^5 + 35c^7 - 7c + 21c^3 - 21c^5 + 7c^7\\\\ &= 64c^7 - 112c^5 + 56c^3 - 7c.\\end{aligned}$$\nDividing by $c = \\cos\\theta$ (for $\\cos\\theta\\ne0$):\n$$\\frac{\\cos7\\theta}{\\cos\\theta} = 64\\cos^6\\theta - 112\\cos^4\\theta + 56\\cos^2\\theta - 7.$$"
+  },
+  {
+   "ref": "Q14(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "It is given that $\\dfrac{\\cos7\\theta}{\\cos\\theta} = 64\\cos^6\\theta - 112\\cos^4\\theta + 56\\cos^2\\theta - 7$ (for $\\cos\\theta \\ne 0$).\n\nHence, by using a suitable substitution, solve $x^3 - 7x^2 + 14x - 7 = 0$.",
+   "answer": "Let $x = 4\\cos^2\\theta$. Then\n$$x^3 - 7x^2 + 14x - 7 = 64\\cos^6\\theta - 112\\cos^4\\theta + 56\\cos^2\\theta - 7 = \\frac{\\cos7\\theta}{\\cos\\theta}.$$\nSo we need $\\cos7\\theta = 0$ with $\\cos\\theta\\ne0$: $7\\theta = \\frac{\\pi}{2} + k\\pi$, giving $\\theta = \\frac{\\pi}{14}, \\frac{3\\pi}{14}, \\frac{5\\pi}{14}, \\dots$\n\n$\\theta = \\frac{\\pi}{14}, \\frac{3\\pi}{14}, \\frac{5\\pi}{14}$ give three distinct values of $4\\cos^2\\theta$ (other values of $\\theta$ repeat these or give $\\cos\\theta = 0$), and a cubic has at most three roots. So the solutions are\n$$x = 4\\cos^2\\frac{\\pi}{14},\\quad 4\\cos^2\\frac{3\\pi}{14},\\quad 4\\cos^2\\frac{5\\pi}{14}.$$"
+  },
+  {
+   "ref": "Q14(d)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "The roots of $x^3 - 7x^2 + 14x - 7 = 0$ are $4\\cos^2\\dfrac{\\pi}{14}$, $4\\cos^2\\dfrac{3\\pi}{14}$ and $4\\cos^2\\dfrac{5\\pi}{14}$.\n\nWithout using a calculator, evaluate $\\cos^4\\dfrac{\\pi}{14} + \\cos^4\\dfrac{3\\pi}{14} + \\cos^4\\dfrac{5\\pi}{14}$.",
+   "answer": "Let the roots be $\\alpha, \\beta, \\gamma$. Then $\\alpha+\\beta+\\gamma = 7$ and $\\alpha\\beta + \\beta\\gamma + \\gamma\\alpha = 14$, so\n$$\\alpha^2+\\beta^2+\\gamma^2 = (\\alpha+\\beta+\\gamma)^2 - 2(\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha) = 49 - 28 = 21.$$\nBut $\\alpha^2+\\beta^2+\\gamma^2 = 16\\left(\\cos^4\\frac{\\pi}{14} + \\cos^4\\frac{3\\pi}{14} + \\cos^4\\frac{5\\pi}{14}\\right)$, so\n$$\\cos^4\\frac{\\pi}{14} + \\cos^4\\frac{3\\pi}{14} + \\cos^4\\frac{5\\pi}{14} = \\frac{21}{16}.$$",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.8",
+    "12.5.2.4"
+   ],
+   "question": "A particle moves in simple harmonic motion according to the equation $v^2 = 8 - 10x - 3x^2$. Find the centre of motion and the amplitude.",
+   "answer": "The particle is at rest at the extremes of the motion: $v = 0 \\Rightarrow 3x^2 + 10x - 8 = 0 \\Rightarrow (3x-2)(x+4) = 0$, so $x = \\frac23$ or $x = -4$.\n\nThe centre is the midpoint: $x = \\dfrac{\\frac23 + (-4)}{2} = -\\dfrac53$. The amplitude is half the distance between the extremes: $\\dfrac12\\left(\\frac23 + 4\\right) = \\dfrac73$.\n\n(Alternatively, $v^2 = 3\\left[\\frac{49}{9} - \\left(x+\\frac53\\right)^2\\right]$, which has the form $n^2\\left[a^2 - (x-c)^2\\right]$ with $c = -\\frac53$, $a = \\frac73$.)"
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.12",
+    "12.3.4.5"
+   ],
+   "question": "Let $n$ be an odd integer, $n>1$, and let $\\omega = \\cos\\dfrac{2\\pi}{n} + i\\sin\\dfrac{2\\pi}{n}$.\n\nShow that $1 - \\omega + \\omega^2 - \\cdots + (-1)^{k-1}\\omega^{k-1} + \\cdots + \\omega^{n-1} = 1 - i\\tan\\dfrac{\\pi}{n}$.",
+   "answer": "The sum is a geometric series with first term $1$, ratio $-\\omega$ and $n$ terms (the last term is $(-1)^{n-1}\\omega^{n-1} = \\omega^{n-1}$ as $n$ is odd). Since $-\\omega \\ne 1$:\n$$S = \\frac{1 - (-\\omega)^n}{1+\\omega} = \\frac{1+\\omega^n}{1+\\omega} \\quad(\\text{as } n \\text{ is odd}) = \\frac{2}{1+\\omega},$$\nusing $\\omega^n = \\cos2\\pi + i\\sin2\\pi = 1$. Now, writing $\\text{cis}\\,\\phi = \\cos\\phi + i\\sin\\phi$,\n$$1 + \\omega = \\text{cis}\\frac{\\pi}{n}\\left(\\text{cis}\\left(-\\frac{\\pi}{n}\\right) + \\text{cis}\\frac{\\pi}{n}\\right) = 2\\cos\\frac{\\pi}{n}\\,\\text{cis}\\frac{\\pi}{n}.$$\nSo\n$$S = \\frac{2}{2\\cos\\frac{\\pi}{n}\\,\\text{cis}\\frac{\\pi}{n}} = \\frac{\\cos\\frac{\\pi}{n} - i\\sin\\frac{\\pi}{n}}{\\cos\\frac{\\pi}{n}} = 1 - i\\tan\\frac{\\pi}{n}.$$"
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.12",
+    "12.3.4.5"
+   ],
+   "question": "Let $n$ be an odd integer, $n>1$, and let $\\omega = \\cos\\dfrac{2\\pi}{n} + i\\sin\\dfrac{2\\pi}{n}$. It is given that $1 - \\omega + \\omega^2 - \\cdots + \\omega^{n-1} = 1 - i\\tan\\dfrac{\\pi}{n}$ (alternating signs).\n\nDeduce that $1 + \\omega^2 + \\omega^4 + \\cdots + \\omega^{n-1} = \\dfrac12\\left(1 - i\\tan\\dfrac{\\pi}{n}\\right)$.",
+   "answer": "Since $\\omega^n = 1$ and $\\omega \\ne 1$,\n$$1 + \\omega + \\omega^2 + \\cdots + \\omega^{n-1} = \\frac{\\omega^n - 1}{\\omega - 1} = 0. \\qquad (1)$$\nAlso $1 - \\omega + \\omega^2 - \\cdots + \\omega^{n-1} = 1 - i\\tan\\frac{\\pi}{n}$. $\\qquad (2)$\n\nAdding (1) and (2), the odd powers cancel and the even powers double ($n-1$ is even):\n$$2\\left(1 + \\omega^2 + \\omega^4 + \\cdots + \\omega^{n-1}\\right) = 1 - i\\tan\\frac{\\pi}{n},$$\nso $1 + \\omega^2 + \\omega^4 + \\cdots + \\omega^{n-1} = \\dfrac12\\left(1 - i\\tan\\dfrac{\\pi}{n}\\right)$."
+  },
+  {
+   "ref": "Q15(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n = \\displaystyle\\int_0^r x^{n+\\frac12}\\sqrt{r-x}\\,dx$, where $n \\ge 0$ is an integer and $r>0$ is real.\n\nShow that $I_n = \\dfrac{(2n+1)r}{2n+4}I_{n-1}$ for $n\\ge1$.",
+   "answer": "Integrate by parts with $u = x^{n+\\frac12}$, $v' = (r-x)^{\\frac12}$, so $u' = \\left(n+\\frac12\\right)x^{n-\\frac12}$, $v = -\\frac23(r-x)^{\\frac32}$:\n$$I_n = \\left[-\\frac23x^{n+\\frac12}(r-x)^{\\frac32}\\right]_0^r + \\frac23\\left(n+\\frac12\\right)\\int_0^r x^{n-\\frac12}(r-x)^{\\frac32}\\,dx.$$\nThe bracket is $0$ at both limits. Writing $(r-x)^{\\frac32} = (r-x)(r-x)^{\\frac12}$:\n$$I_n = \\frac{2n+1}{3}\\int_0^r\\left(r\\,x^{n-\\frac12}\\sqrt{r-x} - x^{n+\\frac12}\\sqrt{r-x}\\right)dx = \\frac{2n+1}{3}\\left(rI_{n-1} - I_n\\right).$$\nSo $3I_n + (2n+1)I_n = (2n+1)rI_{n-1}$, i.e. $(2n+4)I_n = (2n+1)rI_{n-1}$, and\n$$I_n = \\frac{(2n+1)r}{2n+4}I_{n-1}.$$"
+  },
+  {
+   "ref": "Q15(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.17",
+    "12.2.1.18"
+   ],
+   "question": "Suppose that the line $\\mathbf{r} = \\mathbf{a} + \\lambda\\mathbf{b}$ intersects the sphere $|\\mathbf{v} - \\mathbf{c}| = R$.\n\nShow that $|\\mathbf{b}|^2\\lambda^2 + 2\\lambda\\,\\mathbf{b}\\cdot(\\mathbf{a}-\\mathbf{c}) + |\\mathbf{a}-\\mathbf{c}|^2 - R^2 = 0$.",
+   "answer": "At a point of intersection, $\\mathbf{v} = \\mathbf{a} + \\lambda\\mathbf{b}$ satisfies $|\\mathbf{a} + \\lambda\\mathbf{b} - \\mathbf{c}|^2 = R^2$:\n$$\\big((\\mathbf{a}-\\mathbf{c}) + \\lambda\\mathbf{b}\\big)\\cdot\\big((\\mathbf{a}-\\mathbf{c}) + \\lambda\\mathbf{b}\\big) = R^2$$\n$$|\\mathbf{a}-\\mathbf{c}|^2 + 2\\lambda\\,\\mathbf{b}\\cdot(\\mathbf{a}-\\mathbf{c}) + \\lambda^2|\\mathbf{b}|^2 = R^2$$\n$$|\\mathbf{b}|^2\\lambda^2 + 2\\lambda\\,\\mathbf{b}\\cdot(\\mathbf{a}-\\mathbf{c}) + |\\mathbf{a}-\\mathbf{c}|^2 - R^2 = 0.$$"
+  },
+  {
+   "ref": "Q15(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.1.18",
+    "12.2.2.5"
+   ],
+   "question": "The line $\\mathbf{r} = \\mathbf{a} + \\lambda\\mathbf{b}$ meets the sphere $|\\mathbf{v} - \\mathbf{c}| = R$ at the points given by the values of $\\lambda$ satisfying\n$$|\\mathbf{b}|^2\\lambda^2 + 2\\lambda\\,\\mathbf{b}\\cdot(\\mathbf{a}-\\mathbf{c}) + |\\mathbf{a}-\\mathbf{c}|^2 - R^2 = 0.$$\nDeduce that if $R$ is the shortest distance between the line and the centre of the sphere then $R^2 = |\\mathbf{a}-\\mathbf{c}|^2 - \\left(\\dfrac{\\mathbf{b}\\cdot(\\mathbf{a}-\\mathbf{c})}{|\\mathbf{b}|}\\right)^2$.",
+   "answer": "If $R$ is the shortest distance from the centre to the line, the line just touches the sphere (it is a tangent), so it meets the sphere at exactly one point. Hence the quadratic in $\\lambda$ has a single (repeated) root, so its discriminant is zero:\n$$4\\big(\\mathbf{b}\\cdot(\\mathbf{a}-\\mathbf{c})\\big)^2 - 4|\\mathbf{b}|^2\\left(|\\mathbf{a}-\\mathbf{c}|^2 - R^2\\right) = 0$$\n$$\\left(\\frac{\\mathbf{b}\\cdot(\\mathbf{a}-\\mathbf{c})}{|\\mathbf{b}|}\\right)^2 = |\\mathbf{a}-\\mathbf{c}|^2 - R^2$$\n$$R^2 = |\\mathbf{a}-\\mathbf{c}|^2 - \\left(\\frac{\\mathbf{b}\\cdot(\\mathbf{a}-\\mathbf{c})}{|\\mathbf{b}|}\\right)^2.$$"
+  },
+  {
+   "ref": "Q15(d)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "The shortest distance $R$ between the line $\\mathbf{r} = \\mathbf{a} + \\lambda\\mathbf{b}$ and the point with position vector $\\mathbf{c}$ satisfies $R^2 = |\\mathbf{a}-\\mathbf{c}|^2 - \\left(\\dfrac{\\mathbf{b}\\cdot(\\mathbf{a}-\\mathbf{c})}{|\\mathbf{b}|}\\right)^2$.\n\nHence, or otherwise, show that $R = |\\mathbf{a}-\\mathbf{c}|\\sin\\theta$, where $\\theta$ is the angle between $\\mathbf{b}$ and $\\mathbf{a}-\\mathbf{c}$.",
+   "answer": "$\\mathbf{b}\\cdot(\\mathbf{a}-\\mathbf{c}) = |\\mathbf{b}|\\,|\\mathbf{a}-\\mathbf{c}|\\cos\\theta$, so\n$$R^2 = |\\mathbf{a}-\\mathbf{c}|^2 - \\left(\\frac{|\\mathbf{b}|\\,|\\mathbf{a}-\\mathbf{c}|\\cos\\theta}{|\\mathbf{b}|}\\right)^2 = |\\mathbf{a}-\\mathbf{c}|^2(1 - \\cos^2\\theta) = |\\mathbf{a}-\\mathbf{c}|^2\\sin^2\\theta.$$\nSince $0\\le\\theta\\le\\pi$, $\\sin\\theta\\ge0$, so $R = |\\mathbf{a}-\\mathbf{c}|\\sin\\theta$."
+  },
+  {
+   "ref": "Q15(d)(iv)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.1.18"
+   ],
+   "question": "The shortest distance $R$ between the line $\\mathbf{r} = \\mathbf{a} + \\lambda\\mathbf{b}$ and the point with position vector $\\mathbf{c}$ satisfies $R^2 = |\\mathbf{a}-\\mathbf{c}|^2 - \\left(\\dfrac{\\mathbf{b}\\cdot(\\mathbf{a}-\\mathbf{c})}{|\\mathbf{b}|}\\right)^2$.\n\nUse this to find the shortest distance between the lines\n$$\\mathbf{r}_1 = \\begin{pmatrix}2\\\\-1\\\\0\\end{pmatrix} + \\lambda\\begin{pmatrix}2\\\\0\\\\0\\end{pmatrix} \\quad\\text{and}\\quad \\mathbf{r}_2 = \\begin{pmatrix}2\\\\5\\\\-3\\end{pmatrix} + \\mu\\begin{pmatrix}5\\\\0\\\\-3\\end{pmatrix}.$$",
+   "answer": "Take $\\mathbf{c} = \\begin{pmatrix}2+5\\mu\\\\5\\\\-3-3\\mu\\end{pmatrix}$, a general point on $\\mathbf{r}_2$, and from $\\mathbf{r}_1$: $\\mathbf{a} = \\begin{pmatrix}2\\\\-1\\\\0\\end{pmatrix}$, $\\mathbf{b} = \\begin{pmatrix}2\\\\0\\\\0\\end{pmatrix}$.\n\n$\\mathbf{a} - \\mathbf{c} = \\begin{pmatrix}-5\\mu\\\\-6\\\\3+3\\mu\\end{pmatrix}$, $\\mathbf{b}\\cdot(\\mathbf{a}-\\mathbf{c}) = -10\\mu$, $|\\mathbf{b}| = 2$. The squared distance from this point to $\\mathbf{r}_1$ is\n$$R^2 = 25\\mu^2 + 36 + (3+3\\mu)^2 - \\left(\\frac{-10\\mu}{2}\\right)^2 = 9\\mu^2 + 18\\mu + 45 = 9(\\mu+1)^2 + 36.$$\nThe shortest distance between the lines is the minimum of this over all points of $\\mathbf{r}_2$, which occurs at $\\mu = -1$: $R^2_{\\min} = 36$.\n\nSo the shortest distance between the lines is $6$."
+  },
+  {
+   "ref": "Q16(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "Let $P(x) = a_nx^n + a_{n-1}x^{n-1} + \\cdots + a_1x + a_0$ be a polynomial of degree $n\\ge0$, where $a_0, a_1, \\dots, a_n$ are non-negative integers. Suppose that $P(x)$ is equal to a prime number for every integer input $x$.\n\nShow that $P(a_0) = a_0$.",
+   "answer": "$$P(a_0) = a_na_0^n + a_{n-1}a_0^{n-1} + \\cdots + a_1a_0 + a_0 = a_0\\left(a_na_0^{n-1} + a_{n-1}a_0^{n-2} + \\cdots + a_1 + 1\\right),$$\nso $a_0$ divides $P(a_0)$ (the bracket is a positive integer).\n\n$P(a_0)$ is prime (as $a_0$ is an integer), and its only positive factors are $1$ and itself, so $a_0 = 1$ or $a_0 = P(a_0)$.\n\nBut $P(0) = a_0$ and $P(0)$ is prime, so $a_0$ is prime; in particular $a_0 \\ne 1$. Hence $P(a_0) = a_0$."
+  },
+  {
+   "ref": "Q16(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "Let $P(x) = a_nx^n + a_{n-1}x^{n-1} + \\cdots + a_1x + a_0$ be a polynomial of degree $n\\ge0$, where $a_0, a_1, \\dots, a_n$ are non-negative integers. Suppose that $P(x)$ is equal to a prime number for every integer input $x$.\n\nIt can be shown that $P(a_0) = a_0$, and that $a_0$ is prime. Deduce that $P(x) = a_0$ for all real $x$.",
+   "answer": "From $P(a_0) = a_0$ with $a_0>0$:\n$$a_0\\left(a_na_0^{n-1} + \\cdots + a_1 + 1\\right) = a_0 \\;\\Rightarrow\\; a_na_0^{n-1} + a_{n-1}a_0^{n-2} + \\cdots + a_1 = 0.$$\nEvery term is a product of non-negative integers, and $a_0>0$, so each term is $\\ge0$ and their sum is $0$ only if every term is $0$, i.e. $a_n = a_{n-1} = \\cdots = a_1 = 0$.\n\nHence $P(x) = a_0$ for all real $x$."
+  },
+  {
+   "ref": "Q16(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "In the diagram below, the triangle $\\triangle ABC$ is intersected by the line $EDF$, where $E$ lies on $AC$, $D$ lies on $BC$, and the point $F$ lies on the line $AB$ extended.\n\nLet $\\overrightarrow{AC} = \\mathbf{a}$ and $\\overrightarrow{AB} = \\mathbf{b}$. Using vectors, show that\n$$\\frac{|\\overrightarrow{AF}|}{|\\overrightarrow{BF}|}\\times\\frac{|\\overrightarrow{DB}|}{|\\overrightarrow{CD}|}\\times\\frac{|\\overrightarrow{EC}|}{|\\overrightarrow{AE}|} = 1.$$",
+   "answer": "Introduce scalars $p, q, r, s > 0$ with\n$$\\overrightarrow{AE} = p\\,\\mathbf{a}, \\quad \\overrightarrow{CD} = q(\\mathbf{b}-\\mathbf{a}), \\quad \\overrightarrow{AF} = r\\,\\mathbf{b}, \\quad \\overrightarrow{AF} = \\overrightarrow{AE} + s\\,\\overrightarrow{ED}.$$\nThen $\\overrightarrow{EC} = (1-p)\\mathbf{a}$, $\\overrightarrow{DB} = (1-q)(\\mathbf{b}-\\mathbf{a})$, $\\overrightarrow{BF} = (r-1)\\mathbf{b}$, and $\\overrightarrow{ED} = \\overrightarrow{EC} + \\overrightarrow{CD} = (1-p)\\mathbf{a} + q(\\mathbf{b}-\\mathbf{a})$. So\n$$p\\,\\mathbf{a} + s\\left[(1-p)\\mathbf{a} + q(\\mathbf{b}-\\mathbf{a})\\right] = r\\,\\mathbf{b}.$$\n$\\mathbf{a}$ and $\\mathbf{b}$ are not parallel, so we can equate coefficients:\n- $\\mathbf{a}$: $p + s(1-p) - sq = 0 \\Rightarrow s(1-p-q) = -p \\Rightarrow s = \\dfrac{p}{p+q-1}$;\n- $\\mathbf{b}$: $sq = r \\Rightarrow r = \\dfrac{pq}{p+q-1}$.\n\nThen $r - 1 = \\dfrac{pq - p - q + 1}{p+q-1} = \\dfrac{(p-1)(q-1)}{p+q-1}$, so $\\dfrac{r}{r-1} = \\dfrac{pq}{(p-1)(q-1)}$. Therefore\n$$\\frac{|\\overrightarrow{AF}|}{|\\overrightarrow{BF}|}\\times\\frac{|\\overrightarrow{DB}|}{|\\overrightarrow{CD}|}\\times\\frac{|\\overrightarrow{EC}|}{|\\overrightarrow{AE}|} = \\frac{|r|\\,|\\mathbf{b}|}{|r-1|\\,|\\mathbf{b}|}\\times\\frac{|1-q|\\,|\\mathbf{b}-\\mathbf{a}|}{|q|\\,|\\mathbf{b}-\\mathbf{a}|}\\times\\frac{|1-p|\\,|\\mathbf{a}|}{|p|\\,|\\mathbf{a}|}$$\n$$= \\frac{|p|\\,|q|}{|p-1|\\,|q-1|}\\times\\frac{|1-q|}{|q|}\\times\\frac{|1-p|}{|p|} = 1.$$",
+   "images": [
+    "assets/img/ext2-2026-sydney-girls/q16b.png"
+   ]
+  },
+  {
+   "ref": "Q16(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "Let $n$ be a positive integer. It is given that for non-negative real numbers $x_1, x_2, \\dots, x_n$,\n$$\\left(\\frac{x_1 + x_2 + \\cdots + x_n}{n}\\right)^n \\ge x_1x_2\\cdots x_n. \\quad\\text{(Do not prove this.)}$$\n\nShow that $\\dfrac{n^n}{n!} \\ge 2^{n-1}$.",
+   "answer": "Let $x_i = i$ for $i = 1, 2, \\dots, n$. Using $1 + 2 + \\cdots + n = \\frac{n(n+1)}{2}$:\n$$\\left(\\frac{n(n+1)}{2n}\\right)^n \\ge n! \\;\\Rightarrow\\; \\frac{(n+1)^n}{2^n} \\ge n!, \\quad n\\ge1.$$\nReplace $n$ by $n-1$ (valid for $n \\ge 2$):\n$$\\frac{n^{n-1}}{2^{n-1}} \\ge (n-1)! \\;\\Rightarrow\\; \\frac{n^{n-1}}{(n-1)!} \\ge 2^{n-1} \\;\\Rightarrow\\; \\frac{n}{n}\\cdot\\frac{n^{n-1}}{(n-1)!} = \\frac{n^n}{n!} \\ge 2^{n-1}.$$\nFor $n = 1$: $\\frac{1^1}{1!} = 1 = 2^0$. So $\\dfrac{n^n}{n!}\\ge2^{n-1}$ for all $n\\ge1$."
+  },
+  {
+   "ref": "Q16(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "Let $\\lfloor x\\rfloor$ be the greatest integer that is less than or equal to $x$. For example, $\\lfloor 3.14\\rfloor = 3$ and $\\lfloor 2.718\\rfloor = 2$.\n\nLet $f(x) = \\dfrac{x^x}{\\lfloor x\\rfloor!}$ for $x\\ge1$.\n\nShow that $f(x)$ is increasing for $x\\in[a, a+1)$, where $a\\ge1$ is an integer.",
+   "answer": "For $a \\le x < a+1$, $\\lfloor x\\rfloor = a$, so on this interval\n$$f(x) = \\frac{x^x}{a!} = \\frac{e^{x\\ln x}}{a!}.$$\nThen\n$$f'(x) = \\frac{(\\ln x + 1)e^{x\\ln x}}{a!}.$$\nSince $x\\ge1$, $\\ln x \\ge 0$ so $\\ln x + 1 > 0$; also $e^{x\\ln x}>0$ and $a!>0$. Hence $f'(x)>0$ and $f$ is increasing on $[a, a+1)$."
+  },
+  {
+   "ref": "Q16(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.1.3.9",
+    "12.1.3.6"
+   ],
+   "question": "Let $\\lfloor x\\rfloor$ be the greatest integer that is less than or equal to $x$, and let $f(x) = \\dfrac{x^x}{\\lfloor x\\rfloor!}$ for $x\\ge1$. It is given that:\n- $\\dfrac{n^n}{n!}\\ge 2^{n-1}$ for every positive integer $n$, and\n- $f(x)$ is increasing on $[a, a+1)$ for every integer $a\\ge1$.\n\nHence, show that $\\displaystyle\\int_1^{n+1}\\frac{x^x}{\\lfloor x\\rfloor!}\\,dx \\ge 2^n - 1$ for every positive integer $n$.",
+   "answer": "Since $f$ is increasing on $[a, a+1)$, $f(x)\\ge f(a)$ there. So\n$$\\int_1^{n+1}f(x)\\,dx = \\sum_{a=1}^{n}\\int_a^{a+1}f(x)\\,dx \\ge \\sum_{a=1}^{n}\\int_a^{a+1}f(a)\\,dx = f(1) + f(2) + \\cdots + f(n).$$\nFor an integer $k$, $\\lfloor k\\rfloor = k$, so $f(k) = \\dfrac{k^k}{k!}\\ge 2^{k-1}$. Hence\n$$\\int_1^{n+1}\\frac{x^x}{\\lfloor x\\rfloor!}\\,dx \\ge 2^0 + 2^1 + \\cdots + 2^{n-1} = \\frac{2^n-1}{2-1} = 2^n - 1.$$\n(Note: $\\frac{x^x}{\\lfloor x\\rfloor!}\\ge2^{x-1}$ is only known for integer $x$, which is why (ii) is needed.)"
+  }
+ ]
+}

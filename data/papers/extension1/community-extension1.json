@@ -25,7 +25,34 @@
    "source": "Community question",
    "queue_id": "1MImTUaGJiSVlMX2DAe7",
    "credit": "Nikhil"
+  },
+  {
+   "ref": "Q-pcPYXz",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.2",
+    "11.3.2.2"
+   ],
+   "question": "(b) Using the result $\\cos(A-B) - \\cos(A+B) = 2\\sin A \\sin B$ from part (a), or otherwise, prove by mathematical induction that, for $n \\ge 1$,\n$$\\sin\\theta + \\sin(3\\theta) + \\cdots + \\sin\\big((2n-1)\\theta\\big) = \\frac{\\sin^2(n\\theta)}{\\sin\\theta}.$$",
+   "answer": "(Assume $\\sin\\theta \\ne 0$, so the right-hand side is defined.)\n\n**Base case $n=1$.** LHS $= \\sin\\theta$. RHS $= \\dfrac{\\sin^2\\theta}{\\sin\\theta} = \\sin\\theta$. True for $n=1$.\n\n**Inductive step.** Assume true for $n=k$:\n$$\\sin\\theta + \\sin 3\\theta + \\cdots + \\sin\\big((2k-1)\\theta\\big) = \\frac{\\sin^2(k\\theta)}{\\sin\\theta}.$$\nProve true for $n=k+1$, i.e. that the sum up to $\\sin\\big((2k+1)\\theta\\big)$ equals $\\dfrac{\\sin^2\\big((k+1)\\theta\\big)}{\\sin\\theta}$.\n\n$$\\text{LHS} = \\frac{\\sin^2(k\\theta)}{\\sin\\theta} + \\sin\\big((2k+1)\\theta\\big) = \\frac{\\sin^2(k\\theta) + \\sin\\theta\\,\\sin\\big((2k+1)\\theta\\big)}{\\sin\\theta}.$$\n\nBy part (a) with $A = (2k+1)\\theta$, $B = \\theta$:\n$$\\sin\\big((2k+1)\\theta\\big)\\sin\\theta = \\tfrac12\\big[\\cos(2k\\theta) - \\cos\\big((2k+2)\\theta\\big)\\big].$$\nAlso $\\sin^2(k\\theta) = \\tfrac12\\big[1 - \\cos(2k\\theta)\\big]$. So the numerator is\n$$\\tfrac12\\big[1-\\cos(2k\\theta)\\big] + \\tfrac12\\big[\\cos(2k\\theta) - \\cos\\big(2(k+1)\\theta\\big)\\big] = \\tfrac12\\big[1 - \\cos\\big(2(k+1)\\theta\\big)\\big] = \\sin^2\\big((k+1)\\theta\\big).$$\n\nHence LHS $= \\dfrac{\\sin^2\\big((k+1)\\theta\\big)}{\\sin\\theta}$ = RHS, so the result is true for $n=k+1$.\n\nBy mathematical induction, the result is true for all integers $n \\ge 1$.",
+   "answer_type": "worked",
+   "images": [],
+   "answer_images": [],
+   "source": "EQ-Bank, Ext 1 Proof Q32",
+   "queue_id": "pcPYXzBSe9NoBBSrwXz5",
+   "credit": "Jayden",
+   "prev": [
+    {
+     "ref": "(a)",
+     "marks": 1,
+     "question": "Show that $\\cos(A-B) - \\cos(A+B) = 2\\sin A \\sin B$.",
+     "answer": "$$\\begin{aligned}\\cos(A-B)-\\cos(A+B) &= (\\cos A\\cos B + \\sin A\\sin B) - (\\cos A\\cos B - \\sin A \\sin B)\\\\ &= 2\\sin A\\sin B\\end{aligned}$$",
+     "kind": "written"
+    }
+   ]
   }
  ],
- "indexed": "2026-11-18"
+ "indexed": "2026-11-22"
 }

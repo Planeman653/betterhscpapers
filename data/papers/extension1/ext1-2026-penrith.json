@@ -1,0 +1,487 @@
+{
+ "id": "ext1-2026-penrith",
+ "course": "extension1",
+ "school": "Penrith",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "Penrith 2026 w. sol"
+ },
+ "indexed": "2026-11-22",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.12"
+   ],
+   "question": "Find the domain and range of $y = \\dfrac{1}{2}\\cos^{-1}(3 - x)$.",
+   "options": [
+    "The domain is $0 \\le x \\le \\frac{\\pi}{2}$, and the range is $2 \\le y \\le 4$.",
+    "The domain is $-4 \\le x \\le -2$, and the range is $0 \\le y \\le \\frac{\\pi}{2}$.",
+    "The domain is $2 \\le x \\le 4$, and the range is $0 \\le y \\le \\frac{\\pi}{2}$.",
+    "The domain is $2 \\le x \\le 4$, and the range is $-\\frac{\\pi}{4} \\le y \\le \\frac{\\pi}{4}$."
+   ],
+   "correct": "C",
+   "answer": "Domain: $-1 \\le 3 - x \\le 1 \\Rightarrow -4 \\le -x \\le -2 \\Rightarrow 2 \\le x \\le 4$.\n\nRange: $0 \\le \\cos^{-1}(3-x) \\le \\pi$, so $0 \\le \\frac{1}{2}\\cos^{-1}(3-x) \\le \\frac{\\pi}{2}$, i.e. $0 \\le y \\le \\frac{\\pi}{2}$."
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "Find $\\displaystyle\\int \\frac{1}{\\sqrt{9 - 16x^2}}\\,dx$.",
+   "options": [
+    "$\\dfrac{1}{4}\\sin^{-1}\\dfrac{16x^2}{9} + C$",
+    "$\\dfrac{1}{4}\\cos^{-1}\\dfrac{16x^2}{9} + C$",
+    "$\\dfrac{1}{4}\\sin^{-1}\\dfrac{3}{4x} + C$",
+    "$-\\dfrac{1}{4}\\cos^{-1}\\dfrac{4x}{3} + C$"
+   ],
+   "correct": "D",
+   "answer": "$$\\int \\frac{1}{\\sqrt{9-16x^2}}\\,dx = \\frac{1}{4}\\int \\frac{4}{\\sqrt{3^2-(4x)^2}}\\,dx = -\\frac{1}{4}\\int \\frac{-4}{\\sqrt{3^2-(4x)^2}}\\,dx = -\\frac{1}{4}\\cos^{-1}\\frac{4x}{3} + C$$\n(equivalently $\\frac{1}{4}\\sin^{-1}\\frac{4x}{3} + C$, since $\\sin^{-1}u = \\frac{\\pi}{2} - \\cos^{-1}u$)."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.4.3",
+    "12.5.4.1"
+   ],
+   "question": "Which function is a general solution of the differential equation $y'' + 4y = 0$?",
+   "options": [
+    "$y = Ae^{2x} + Be^{-2x}$",
+    "$y = A\\sin x + B\\cos x$",
+    "$y = A\\sin 2x + B\\cos 2x$",
+    "$y = A\\sin 4x + B\\cos 4x$"
+   ],
+   "correct": "C",
+   "answer": "For $y = A\\sin 2x + B\\cos 2x$: $y' = 2A\\cos 2x - 2B\\sin 2x$, $y'' = -4A\\sin 2x - 4B\\cos 2x = -4y$, so $y'' + 4y = 0$.\n(Option A gives $y'' = 4y$; B gives $y'' = -y$; D gives $y'' = -16y$.)"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.9",
+    "12.6.2.6"
+   ],
+   "question": "A company manufactures microchips. Typically, about 3% of all microchips produced are defective. In a shipment of 80 microchips, find the probability that at least three microchips are defective.",
+   "options": [
+    "0.5681",
+    "0.9098",
+    "0.4319",
+    "0.5193"
+   ],
+   "correct": "C",
+   "answer": "Let $X \\sim \\text{Bin}(80, 0.03)$ be the number of defective microchips.\n$$P(X \\ge 3) = 1 - [P(X=0) + P(X=1) + P(X=2)] = 1 - \\left[(0.97)^{80} + {}^{80}C_1(0.03)(0.97)^{79} + {}^{80}C_2(0.03)^2(0.97)^{78}\\right] \\approx 0.4319$$"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.2.5",
+    "11.2.2.2"
+   ],
+   "question": "The remainder when the polynomial $P(x)$ is divided by $(x + 2)(x - 5)$ is $3x + 1$. What is the remainder when $P(x)$ is divided by $x + 2$?",
+   "options": [
+    "$1$",
+    "$-5$",
+    "$-9$",
+    "$16$"
+   ],
+   "correct": "B",
+   "answer": "$P(x) = (x+2)(x-5)Q(x) + 3x + 1$, so by the remainder theorem the remainder is $P(-2) = 0 + 3(-2) + 1 = -5$."
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.5"
+   ],
+   "question": "Let $t = \\tan\\dfrac{x}{2}$. What values of $t$ satisfy the equation $2\\cos x + \\sin x = -2$?",
+   "options": [
+    "$t = 2$",
+    "$t = -2$ and $t = \\pi$",
+    "$t = 2$ and $t = \\pi$",
+    "$t = -2$"
+   ],
+   "correct": "D",
+   "answer": "$$\\frac{2(1-t^2)}{1+t^2} + \\frac{2t}{1+t^2} = -2 \\Rightarrow 2 - 2t^2 + 2t = -2 - 2t^2 \\Rightarrow 2t = -4 \\Rightarrow t = -2.$$\n(The solutions $x = \\pi + 2k\\pi$ also satisfy the equation, but there $t = \\tan\\frac{x}{2}$ is undefined, so they give no value of $t$.)",
+   "course": "extension2"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "Let $P(x) = 1 - x^2 + x^4 - x^6 + x^8 - x^{10}$. What is the coefficient of $x^7$ in the expansion of $P(x - 1)$?",
+   "options": [
+    "$0$",
+    "$128$",
+    "$112$",
+    "$-128$"
+   ],
+   "correct": "C",
+   "answer": "$P(x-1) = 1 - (x-1)^2 + (x-1)^4 - (x-1)^6 + (x-1)^8 - (x-1)^{10}$. Only $(x-1)^8$ and $(x-1)^{10}$ contain $x^7$.\n\nCoefficient of $x^7$: in $(x-1)^8$ it is ${}^8C_1(-1)^1 = -8$; in $-(x-1)^{10}$ it is $-{}^{10}C_3(-1)^3 = 120$.\n\nTotal: $-8 + 120 = 112$."
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.8",
+    "12.2.2.9"
+   ],
+   "question": "What is the unit vector in the direction of $\\overrightarrow{AB}$, where $A$ and $B$ are the points $(-2, 1)$ and $(6, 3)$, respectively?",
+   "options": [
+    "$\\dfrac{4}{\\sqrt{17}}\\mathbf{i} + \\dfrac{1}{\\sqrt{17}}\\mathbf{j}$",
+    "$8\\mathbf{i} + 2\\mathbf{j}$",
+    "$\\dfrac{2}{17}\\mathbf{i} + \\dfrac{1}{34}\\mathbf{j}$",
+    "$\\dfrac{2}{\\sqrt{5}}\\mathbf{i} + \\dfrac{1}{\\sqrt{5}}\\mathbf{j}$"
+   ],
+   "correct": "A",
+   "answer": "$\\overrightarrow{AB} = (6-(-2))\\mathbf{i} + (3-1)\\mathbf{j} = 8\\mathbf{i} + 2\\mathbf{j}$, $|\\overrightarrow{AB}| = \\sqrt{64+4} = 2\\sqrt{17}$.\n\nUnit vector $= \\dfrac{8\\mathbf{i} + 2\\mathbf{j}}{2\\sqrt{17}} = \\dfrac{4}{\\sqrt{17}}\\mathbf{i} + \\dfrac{1}{\\sqrt{17}}\\mathbf{j}$."
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.2.4"
+   ],
+   "question": "Given that $\\tan x = k$, where $\\pi < x < \\dfrac{3\\pi}{2}$, determine the value of $\\sin\\dfrac{x}{2}$.",
+   "options": [
+    "$-\\sqrt{\\dfrac{1}{2}\\left(1 + \\dfrac{k}{\\sqrt{1+k^2}}\\right)}$",
+    "$\\sqrt{\\dfrac{1}{2}\\left(1 + \\dfrac{k}{\\sqrt{1+k^2}}\\right)}$",
+    "$-\\sqrt{\\dfrac{1}{2}\\left(1 + \\dfrac{1}{\\sqrt{1+k^2}}\\right)}$",
+    "$\\sqrt{\\dfrac{1}{2}\\left(1 + \\dfrac{1}{\\sqrt{1+k^2}}\\right)}$"
+   ],
+   "correct": "D",
+   "answer": "In the third quadrant $\\cos x < 0$, so $\\cos x = -\\dfrac{1}{\\sqrt{1+k^2}}$.\n\n$\\cos x = 1 - 2\\sin^2\\frac{x}{2} \\Rightarrow \\sin^2\\frac{x}{2} = \\frac{1}{2}\\left(1 + \\frac{1}{\\sqrt{1+k^2}}\\right)$.\n\nSince $\\frac{\\pi}{2} < \\frac{x}{2} < \\frac{3\\pi}{4}$, $\\sin\\frac{x}{2} > 0$, so $\\sin\\frac{x}{2} = \\sqrt{\\frac{1}{2}\\left(1 + \\frac{1}{\\sqrt{1+k^2}}\\right)}$."
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.4",
+    "12.2.3.6"
+   ],
+   "question": "If $|\\mathbf{a} - \\mathbf{b}| = |\\mathbf{a}| + |\\mathbf{b}|$, where $\\mathbf{a} \\ne \\mathbf{0}$ and $\\mathbf{b} \\ne \\mathbf{0}$, which one of the following must be true?",
+   "options": [
+    "$|\\mathbf{a}| = |\\mathbf{b}|$",
+    "$\\mathbf{a}$ is parallel to $\\mathbf{b}$",
+    "$\\mathbf{a} = \\mathbf{b}$",
+    "$\\mathbf{a} \\perp \\mathbf{b}$"
+   ],
+   "correct": "B",
+   "answer": "By the triangle inequality $|\\mathbf{a} - \\mathbf{b}| \\le |\\mathbf{a}| + |-\\mathbf{b}|$, with equality only when $\\mathbf{a}$ and $-\\mathbf{b}$ point in the same direction (the \"triangle\" formed by $\\mathbf{a}$, $\\mathbf{b}$ and $\\mathbf{a}-\\mathbf{b}$ collapses to a line). So $\\mathbf{a}$ and $\\mathbf{b}$ point in opposite directions: $\\mathbf{a} \\parallel \\mathbf{b}$."
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.4.3"
+   ],
+   "question": "Solve $|4x - 3| > 11$.",
+   "answer": "$4x - 3 > 11$ or $4x - 3 < -11$\n\n$4x > 14$ or $4x < -8$\n\n$x > \\dfrac{7}{2}$ or $x < -2$."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.7"
+   ],
+   "question": "A cup of coffee is heated to $90^\\circ$C. The room temperature is maintained at a constant $20^\\circ$C, and the coffee cools to $50^\\circ$C after 8 minutes. The temperature of the coffee can be modelled by the equation $T = 20 + 70e^{-kt}$, where $T$ is the temperature of the coffee in degrees Celsius, $t$ is the time in minutes since the coffee was placed in the room, and $k$ is a constant.\n\nDetermine the time taken for the temperature of the coffee to reach $25^\\circ$C. Give your answer correct to 1 decimal place.",
+   "answer": "When $t = 8$, $T = 50$: $50 = 20 + 70e^{-8k} \\Rightarrow e^{-8k} = \\dfrac{3}{7} \\Rightarrow k = -\\dfrac{1}{8}\\ln\\dfrac{3}{7}$.\n\nSo $T = 20 + 70e^{\\frac{t}{8}\\ln\\frac{3}{7}}$.\n\nWhen $T = 25$: $70e^{\\frac{t}{8}\\ln\\frac{3}{7}} = 5 \\Rightarrow e^{\\frac{t}{8}\\ln\\frac{3}{7}} = \\dfrac{1}{14}$\n\n$$\\frac{t}{8}\\ln\\frac{3}{7} = \\ln\\frac{1}{14} \\Rightarrow t = \\frac{8\\ln\\frac{1}{14}}{\\ln\\frac{3}{7}} \\approx 24.9 \\text{ minutes.}$$"
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.4"
+   ],
+   "question": "A solid is formed by rotating the region bounded by the curves $y = 4 - x^2$ and $y = 2 - x$ about the $x$-axis. Find the exact value of the volume of the solid.",
+   "answer": "Intersections: $4 - x^2 = 2 - x \\Rightarrow x^2 - x - 2 = 0 \\Rightarrow (x-2)(x+1) = 0 \\Rightarrow x = -1, 2$.\n\nOn $-1 \\le x \\le 2$, $4 - x^2 \\ge 2 - x \\ge 0$, so\n$$\\begin{aligned} V &= \\pi\\int_{-1}^{2}(4-x^2)^2\\,dx - \\pi\\int_{-1}^{2}(2-x)^2\\,dx \\\\ &= \\pi\\int_{-1}^{2}\\left(16 - 8x^2 + x^4 - (4 - 4x + x^2)\\right)dx \\\\ &= \\pi\\int_{-1}^{2}(x^4 - 9x^2 + 4x + 12)\\,dx \\\\ &= \\pi\\left[\\frac{x^5}{5} - 3x^3 + 2x^2 + 12x\\right]_{-1}^{2} \\\\ &= \\pi\\left[\\left(\\frac{32}{5} - 24 + 8 + 24\\right) - \\left(-\\frac{1}{5} + 3 + 2 - 12\\right)\\right] \\\\ &= \\pi\\left(\\frac{72}{5} + \\frac{36}{5}\\right) = \\frac{108\\pi}{5} \\text{ units}^3. \\end{aligned}$$"
+  },
+  {
+   "ref": "Q11(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.4.4"
+   ],
+   "question": "Complete the square for $x^2 - 6x + 13$, expressing the answer in the form $[f(x)]^2 + a$, where $a$ is a constant and $f(x)$ is a linear function of $x$.",
+   "answer": "$x^2 - 6x + 13 = x^2 - 6x + 9 + 4 = (x - 3)^2 + 4$.",
+   "course": "advanced"
+  },
+  {
+   "ref": "Q11(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.1",
+    "12.4.2.2"
+   ],
+   "question": "Given that $x^2 - 6x + 13 = (x-3)^2 + 4$, find $\\displaystyle\\int \\frac{1}{x^2 - 6x + 13}\\,dx$.",
+   "answer": "$$\\int \\frac{1}{x^2 - 6x + 13}\\,dx = \\int \\frac{1}{2^2 + (x-3)^2}\\,dx = \\frac{1}{2}\\tan^{-1}\\left(\\frac{x-3}{2}\\right) + C.$$"
+  },
+  {
+   "ref": "Q11(e)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.2.8"
+   ],
+   "question": "A standard pack of 52 playing cards consists of 13 hearts, 13 diamonds, 13 clubs and 13 spades. Fifteen cards are drawn with replacement from the pack. Let $X$ be the number of diamonds drawn.\n\nFind the mean and standard deviation of $X$, giving your answers correct to 2 decimal places, where applicable.",
+   "answer": "$X \\sim \\text{Bin}\\left(15, \\frac{1}{4}\\right)$: $n = 15$, $p = \\frac{13}{52} = 0.25$, $q = 0.75$.\n\n$\\mu = np = 15 \\times 0.25 = 3.75$\n\n$\\sigma^2 = npq = 15 \\times 0.25 \\times 0.75 = 2.8125$, so $\\sigma = \\sqrt{2.8125} \\approx 1.68$."
+  },
+  {
+   "ref": "Q11(e)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.9",
+    "12.6.2.6"
+   ],
+   "question": "A standard pack of 52 playing cards consists of 13 hearts, 13 diamonds, 13 clubs and 13 spades. Fifteen cards are drawn with replacement from the pack. Let $X$ be the number of diamonds drawn. The mean of $X$ is $3.75$ and its standard deviation is approximately $1.68$.\n\nDetermine the probability that $X$ is within one standard deviation of the mean. Give your answer correct to 3 decimal places.",
+   "answer": "$$P(3.75 - 1.68 \\le X \\le 3.75 + 1.68) = P(2.07 \\le X \\le 5.43) = P(X=3) + P(X=4) + P(X=5)$$\n$$= {}^{15}C_3(0.25)^3(0.75)^{12} + {}^{15}C_4(0.25)^4(0.75)^{11} + {}^{15}C_5(0.25)^5(0.75)^{10} \\approx 0.616$$"
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.18"
+   ],
+   "question": "There are 5 men and 6 women to choose from. In how many ways can 3 men and 5 women be selected and arranged in a row?",
+   "answer": "The group can be chosen in ${}^5C_3 \\times {}^6C_5 = 10 \\times 6 = 60$ ways, and each group of 8 people can be arranged in a row in $8!$ ways.\n\nNumber of arrangements $= {}^5C_3 \\times {}^6C_5 \\times 8! = 2\\,419\\,200$."
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.2"
+   ],
+   "question": "Consider the function $f(x) = \\sqrt{3}\\cos x + 3\\sin x$ for $0 \\le x \\le 2\\pi$.\n\nBy first expanding $\\cos(x - \\alpha)$, express $f(x)$ in the form $R\\cos(x - \\alpha)$.",
+   "answer": "$\\sqrt{3}\\cos x + 3\\sin x = R\\cos(x-\\alpha) = R\\cos x\\cos\\alpha + R\\sin x\\sin\\alpha$.\n\nEquating coefficients: $R\\cos\\alpha = \\sqrt{3}$ [1], $R\\sin\\alpha = 3$ [2].\n\n$[1]^2 + [2]^2$: $R^2(\\cos^2\\alpha + \\sin^2\\alpha) = 3 + 9 = 12$, so $R = 2\\sqrt{3}$ (since $R > 0$).\n\n$\\cos\\alpha = \\dfrac{\\sqrt{3}}{2\\sqrt{3}} = \\dfrac{1}{2} > 0$ and $\\sin\\alpha = \\dfrac{3}{2\\sqrt{3}} = \\dfrac{\\sqrt{3}}{2} > 0$, so $\\alpha$ is in the first quadrant: $\\alpha = \\dfrac{\\pi}{3}$.\n\n$$\\therefore\\ f(x) = 2\\sqrt{3}\\cos\\left(x - \\frac{\\pi}{3}\\right).$$"
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.3"
+   ],
+   "question": "Given that $\\sqrt{3}\\cos x + 3\\sin x = 2\\sqrt{3}\\cos\\left(x - \\dfrac{\\pi}{3}\\right)$, solve $\\sqrt{3}\\cos x + 3\\sin x = 1$ for $0 \\le x \\le 2\\pi$, correct to 2 decimal places.",
+   "answer": "$2\\sqrt{3}\\cos\\left(x - \\frac{\\pi}{3}\\right) = 1$, where $-\\frac{\\pi}{3} \\le x - \\frac{\\pi}{3} \\le \\frac{5\\pi}{3}$.\n\n$\\cos\\left(x - \\frac{\\pi}{3}\\right) = \\dfrac{1}{2\\sqrt{3}}$, and $\\cos^{-1}\\dfrac{1}{2\\sqrt{3}} \\approx 1.278$.\n\nCosine is positive, so $x - \\frac{\\pi}{3}$ is in the first or fourth quadrant:\n$x - \\frac{\\pi}{3} = 1.278$ or $2\\pi - 1.278$ (the value $-1.278$ is outside the domain).\n\n$\\therefore x \\approx 2.33$ or $x \\approx 6.05$."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.6",
+    "11.3.2.4"
+   ],
+   "question": "Express $\\sin\\left(2\\cos^{-1}\\dfrac{3}{4}\\right)$ in the form $a\\sqrt{b}$, where $a$ and $b$ are rational numbers.",
+   "answer": "Let $\\theta = \\cos^{-1}\\frac{3}{4}$, so $\\cos\\theta = \\frac{3}{4}$ and $0 \\le \\theta \\le \\pi$, hence $\\sin\\theta \\ge 0$:\n$\\sin\\theta = \\sqrt{1 - \\frac{9}{16}} = \\dfrac{\\sqrt{7}}{4}$.\n\n$$\\sin\\left(2\\cos^{-1}\\frac{3}{4}\\right) = \\sin 2\\theta = 2\\sin\\theta\\cos\\theta = 2 \\times \\frac{\\sqrt{7}}{4} \\times \\frac{3}{4} = \\frac{3}{8}\\sqrt{7}.$$"
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.1"
+   ],
+   "question": "A drone is flying horizontally at a constant height of 120 m above the ground. It moves horizontally away from a person at a constant speed of 6 m/s.\n\nDetermine the rate at which the distance between the drone and the person is increasing when the drone is 150 m from the person.",
+   "answer": "Let $x$ be the horizontal distance and $r$ the distance between the drone and the person. Then $\\dfrac{dx}{dt} = 6$ and $r = \\sqrt{x^2 + 120^2} = \\sqrt{x^2 + 14400}$.\n\n$$\\frac{dr}{dx} = \\frac{1}{2}(x^2 + 14400)^{-\\frac{1}{2}}(2x) = \\frac{x}{\\sqrt{x^2 + 14400}}, \\qquad \\frac{dr}{dt} = \\frac{dr}{dx}\\times\\frac{dx}{dt} = \\frac{6x}{\\sqrt{x^2+14400}}.$$\n\nWhen $r = 150$: $150^2 = x^2 + 14400 \\Rightarrow x^2 = 8100 \\Rightarrow x = 90$.\n\n$$\\frac{dr}{dt} = \\frac{6 \\times 90}{\\sqrt{22500}} = \\frac{540}{150} = \\frac{18}{5} = 3.6 \\text{ m/s}.$$"
+  },
+  {
+   "ref": "Q12(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Using the substitution $u = \\sqrt{6x - 1}$, show that\n$$\\int \\frac{x}{\\sqrt{6x - 1}}\\,dx = \\frac{1}{27}(3x + 1)\\sqrt{6x - 1} + C.$$",
+   "answer": "$u = \\sqrt{6x-1} \\Rightarrow u^2 = 6x - 1 \\Rightarrow x = \\frac{1}{6}(u^2 + 1)$, and $\\dfrac{du}{dx} = \\dfrac{3}{\\sqrt{6x-1}}$, so $\\dfrac{dx}{\\sqrt{6x-1}} = \\dfrac{1}{3}\\,du$.\n\n$$\\begin{aligned} \\int \\frac{x}{\\sqrt{6x-1}}\\,dx &= \\int \\frac{1}{6}(u^2+1)\\cdot\\frac{1}{3}\\,du = \\frac{1}{18}\\int (u^2 + 1)\\,du \\\\ &= \\frac{1}{18}\\left(\\frac{u^3}{3} + u\\right) + C \\\\ &= \\frac{1}{54}\\left((6x-1)\\sqrt{6x-1} + 3\\sqrt{6x-1}\\right) + C \\\\ &= \\frac{1}{54}\\sqrt{6x-1}\\,(6x + 2) + C \\\\ &= \\frac{1}{27}(3x+1)\\sqrt{6x-1} + C. \\end{aligned}$$"
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.3"
+   ],
+   "question": "The graph of $y = f(x)$ is shown below. It is a parabola with $x$-intercepts $-2$ and $6$, $y$-intercept $-3$ and vertex $(2, -4)$.\n\nSketch the graph of $y = |f(|x|)|$, clearly showing all key features.",
+   "answer": "For $x \\ge 0$, $f(|x|) = f(x)$; reflecting the right half in the $y$-axis gives $y = f(|x|)$, which has $x$-intercepts $\\pm 6$, $y$-intercept $-3$ and minimum points $(\\pm 2, -4)$.\n\nTaking the absolute value reflects the parts below the $x$-axis upwards, so $y = |f(|x|)|$:\n- is even (symmetric about the $y$-axis);\n- touches the $x$-axis at $x = \\pm 6$ with sharp corners there;\n- has a sharp point (local minimum) at $(0, 3)$;\n- has local maxima at $(-2, 4)$ and $(2, 4)$;\n- increases without bound for $|x| > 6$.",
+   "images": [
+    "assets/img/ext1-2026-penrith/q13a.png"
+   ],
+   "answer_images": [
+    "assets/img/ext1-2026-penrith/q13a-ans.png"
+   ]
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "Prove by mathematical induction that $4(3^n) + 8^n$ is divisible by 5 for all integers $n \\ge 1$.",
+   "answer": "**Step 1** ($n = 1$): $4(3^1) + 8^1 = 12 + 8 = 20 = 5 \\times 4$, divisible by 5. True for $n = 1$.\n\n**Step 2:** Assume true for $n = k$ ($k \\ge 1$ an integer): $4(3^k) + 8^k = 5P$ for some integer $P$, i.e. $8^k = 5P - 4(3^k)$.\n\n**Step 3:** Prove true for $n = k+1$, i.e. $4(3^{k+1}) + 8^{k+1} = 5Q$ for some integer $Q$.\n$$\\begin{aligned} 4(3^{k+1}) + 8^{k+1} &= 12(3^k) + 8(8^k) \\\\ &= 12(3^k) + 8\\left(5P - 4(3^k)\\right) \\quad \\text{(using the assumption)} \\\\ &= 12(3^k) + 40P - 32(3^k) \\\\ &= 40P - 20(3^k) \\\\ &= 5\\left(8P - 4(3^k)\\right) = 5Q, \\end{aligned}$$\nwhere $Q = 8P - 4(3^k)$ is an integer. So if the result is true for $n = k$, it is true for $n = k + 1$.\n\n**Conclusion:** By the principle of mathematical induction, $4(3^n) + 8^n$ is divisible by 5 for all integers $n \\ge 1$."
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.4.13",
+    "12.5.4.3"
+   ],
+   "question": "Consider the differential equation $\\dfrac{dy}{dx} = \\dfrac{y(1 - x)}{x}$.\n\nState any constant solutions.",
+   "answer": "A constant solution has $\\dfrac{dy}{dx} = 0$ for all $x$: $\\dfrac{y(1-x)}{x} = 0$ for all $x \\ne 0$ requires $y = 0$.\n\nThe constant solution is $y = 0$. (Note: $x = 0$ is not a solution — it is not a function of $x$.)"
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "Consider the differential equation $\\dfrac{dy}{dx} = \\dfrac{y(1 - x)}{x}$.\n\nFind the general solution of the differential equation by separating the variables.",
+   "answer": "For $y \\ne 0$:\n$$\\frac{1}{y}\\,dy = \\frac{1-x}{x}\\,dx \\Rightarrow \\int \\frac{1}{y}\\,dy = \\int\\left(\\frac{1}{x} - 1\\right)dx$$\n$$\\ln|y| = \\ln|x| - x + C \\Rightarrow \\ln\\left|\\frac{y}{x}\\right| = -x + C \\Rightarrow \\left|\\frac{y}{x}\\right| = e^{C}e^{-x}$$\n$$\\frac{y}{x} = \\pm e^{C}e^{-x} \\Rightarrow y = Axe^{-x},$$\nwhere $A = \\pm e^C$ is a nonzero constant. Including the constant solution $y = 0$ ($A = 0$), the general solution is $y = Axe^{-x}$, $A$ any constant."
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.10",
+    "12.2.4.1"
+   ],
+   "question": "Find all possible values of $k$ given that the length of the projection of $\\mathbf{u}$ onto $\\mathbf{v}$ is $\\dfrac{108}{17}$, where $\\mathbf{u} = k\\mathbf{i} + 9\\mathbf{j}$ and $\\mathbf{v} = 15\\mathbf{i} - 8\\mathbf{j}$.",
+   "answer": "$\\text{proj}_{\\mathbf{v}}\\mathbf{u} = \\dfrac{\\mathbf{u}\\cdot\\mathbf{v}}{|\\mathbf{v}|}\\,\\hat{\\mathbf{v}}$, so its length is $\\left|\\dfrac{\\mathbf{u}\\cdot\\mathbf{v}}{|\\mathbf{v}|}\\right|$.\n\n$\\mathbf{u}\\cdot\\mathbf{v} = 15k - 72$ and $|\\mathbf{v}| = \\sqrt{15^2 + (-8)^2} = 17$.\n\n$$\\left|\\frac{15k - 72}{17}\\right| = \\frac{108}{17} \\Rightarrow |15k - 72| = 108$$\n\n$15k - 72 = 108 \\Rightarrow k = 12$, or $15k - 72 = -108 \\Rightarrow k = -\\dfrac{12}{5}$.\n\n$\\therefore k = 12$ or $k = -\\dfrac{12}{5}$."
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.7"
+   ],
+   "question": "The triangle $ABC$ shown below has altitudes $BE$ and $CF$, where an altitude is a line segment drawn from a vertex perpendicular to the opposite side. The altitudes intersect at $D$. Let $\\overrightarrow{DA} = \\mathbf{a}$, $\\overrightarrow{DB} = \\mathbf{b}$ and $\\overrightarrow{DC} = \\mathbf{c}$.\n\nShow that $\\mathbf{a}\\cdot\\mathbf{b} = \\mathbf{a}\\cdot\\mathbf{c} = \\mathbf{b}\\cdot\\mathbf{c}$.",
+   "answer": "$\\overrightarrow{AC} = \\mathbf{c} - \\mathbf{a}$ and $\\overrightarrow{AB} = \\mathbf{b} - \\mathbf{a}$.\n\nSince $AC \\perp BE$ (and $D$ lies on $BE$): $\\overrightarrow{AC}\\cdot\\overrightarrow{DB} = 0$\n$$(\\mathbf{c} - \\mathbf{a})\\cdot\\mathbf{b} = 0 \\Rightarrow \\mathbf{b}\\cdot\\mathbf{c} = \\mathbf{a}\\cdot\\mathbf{b}.$$\n\nSince $AB \\perp CF$ (and $D$ lies on $CF$): $\\overrightarrow{AB}\\cdot\\overrightarrow{DC} = 0$\n$$(\\mathbf{b} - \\mathbf{a})\\cdot\\mathbf{c} = 0 \\Rightarrow \\mathbf{b}\\cdot\\mathbf{c} = \\mathbf{a}\\cdot\\mathbf{c}.$$\n\n$\\therefore \\mathbf{a}\\cdot\\mathbf{b} = \\mathbf{a}\\cdot\\mathbf{c} = \\mathbf{b}\\cdot\\mathbf{c}$.",
+   "images": [
+    "assets/img/ext1-2026-penrith/q14a.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.4.7"
+   ],
+   "question": "The triangle $ABC$ shown below has altitudes $BE$ and $CF$, where an altitude is a line segment drawn from a vertex perpendicular to the opposite side. The altitudes intersect at $D$. Let $\\overrightarrow{DA} = \\mathbf{a}$, $\\overrightarrow{DB} = \\mathbf{b}$ and $\\overrightarrow{DC} = \\mathbf{c}$. It can be shown that $\\mathbf{a}\\cdot\\mathbf{b} = \\mathbf{a}\\cdot\\mathbf{c} = \\mathbf{b}\\cdot\\mathbf{c}$.\n\nHence, or otherwise, prove that the three altitudes of triangle $ABC$ are concurrent; that is, they all pass through a single point.",
+   "answer": "$$\\overrightarrow{BC}\\cdot\\overrightarrow{DA} = (\\mathbf{c} - \\mathbf{b})\\cdot\\mathbf{a} = \\mathbf{c}\\cdot\\mathbf{a} - \\mathbf{b}\\cdot\\mathbf{a} = \\mathbf{c}\\cdot\\mathbf{a} - \\mathbf{c}\\cdot\\mathbf{a} = 0 \\quad (\\text{since } \\mathbf{a}\\cdot\\mathbf{b} = \\mathbf{a}\\cdot\\mathbf{c}).$$\n\nSo $BC \\perp AD$, and the line $AD$ extended to meet $BC$ is the altitude from $A$. Hence the altitude from $A$ also passes through $D$, the intersection of $BE$ and $CF$: the three altitudes of triangle $ABC$ are concurrent.",
+   "images": [
+    "assets/img/ext1-2026-penrith/q14a.png"
+   ]
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.5",
+    "12.2.5.9"
+   ],
+   "question": "A ball is projected from the base of a cliff with initial speed $u$ m/s at an angle of $\\theta$ to the horizontal. At the same time, a second ball is projected horizontally with initial speed $w$ m/s from the top of the same cliff, which is $h$ m high. Take the base of the cliff as the origin $(0, 0)$. The two balls collide.\n\nShow that the position vector of the first ball is $\\mathbf{r_1}(t) = (ut\\cos\\theta)\\mathbf{i} + \\left(ut\\sin\\theta - \\dfrac{g}{2}t^2\\right)\\mathbf{j}$.",
+   "answer": "$\\mathbf{a_1}(t) = -g\\mathbf{j}$, so $\\mathbf{v_1}(t) = \\int -g\\mathbf{j}\\,dt = -gt\\mathbf{j} + \\mathbf{c_1}$.\n\nAt $t = 0$, $\\mathbf{v_1}(0) = u\\cos\\theta\\,\\mathbf{i} + u\\sin\\theta\\,\\mathbf{j}$, so $\\mathbf{c_1} = u\\cos\\theta\\,\\mathbf{i} + u\\sin\\theta\\,\\mathbf{j}$ and\n$$\\mathbf{v_1}(t) = u\\cos\\theta\\,\\mathbf{i} + (u\\sin\\theta - gt)\\mathbf{j}.$$\n\n$\\mathbf{r_1}(t) = \\int \\mathbf{v_1}\\,dt = ut\\cos\\theta\\,\\mathbf{i} + \\left(ut\\sin\\theta - \\frac{1}{2}gt^2\\right)\\mathbf{j} + \\mathbf{d_1}$.\n\nAt $t = 0$, $\\mathbf{r_1}(0) = \\mathbf{0}$, so $\\mathbf{d_1} = \\mathbf{0}$:\n$$\\mathbf{r_1}(t) = (ut\\cos\\theta)\\mathbf{i} + \\left(ut\\sin\\theta - \\frac{g}{2}t^2\\right)\\mathbf{j}.$$"
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.8",
+    "12.3.1.6"
+   ],
+   "question": "A ball is projected from the base of a cliff with initial speed $u$ m/s at an angle of $\\theta$ to the horizontal. At the same time, a second ball is projected horizontally with initial speed $w$ m/s from the top of the same cliff, which is $h$ m high. Take the base of the cliff as the origin $(0, 0)$. The two balls collide. The position vector of the first ball is $\\mathbf{r_1}(t) = (ut\\cos\\theta)\\mathbf{i} + \\left(ut\\sin\\theta - \\dfrac{g}{2}t^2\\right)\\mathbf{j}$, and it is given that $\\theta = \\tan^{-1}3$ and the position vector of the second ball is $\\mathbf{r_2}(t) = wt\\,\\mathbf{i} + \\left(h - \\dfrac{g}{2}t^2\\right)\\mathbf{j}$.\n\nShow that $\\cos\\theta = \\dfrac{1}{\\sqrt{10}}$, and hence deduce that $u = \\sqrt{10}\\,w$.",
+   "answer": "$\\tan\\theta = 3$ with $\\theta$ acute: in a right triangle with opposite side 3 and adjacent side 1, the hypotenuse is $\\sqrt{3^2 + 1^2} = \\sqrt{10}$, so\n$$\\sin\\theta = \\frac{3}{\\sqrt{10}}, \\qquad \\cos\\theta = \\frac{1}{\\sqrt{10}}.$$\n\nAt the collision $\\mathbf{r_1}(t) = \\mathbf{r_2}(t)$. Equating $\\mathbf{i}$ components: $ut\\cos\\theta = wt \\Rightarrow \\dfrac{u}{\\sqrt{10}} = w \\Rightarrow u = \\sqrt{10}\\,w$."
+  },
+  {
+   "ref": "Q14(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.6.8"
+   ],
+   "question": "A ball is projected from the base of a cliff with initial speed $u$ m/s at an angle of $\\theta$ to the horizontal. At the same time, a second ball is projected horizontally with initial speed $w$ m/s from the top of the same cliff, which is $h$ m high. Take the base of the cliff as the origin $(0, 0)$. The two balls collide. The position vector of the first ball is $\\mathbf{r_1}(t) = (ut\\cos\\theta)\\mathbf{i} + \\left(ut\\sin\\theta - \\dfrac{g}{2}t^2\\right)\\mathbf{j}$, and it is given that $\\theta = \\tan^{-1}3$ and the position vector of the second ball is $\\mathbf{r_2}(t) = wt\\,\\mathbf{i} + \\left(h - \\dfrac{g}{2}t^2\\right)\\mathbf{j}$. Also $\\cos\\theta = \\dfrac{1}{\\sqrt{10}}$ and $u = \\sqrt{10}\\,w$.\n\nProve that the balls collide at time $t = \\dfrac{h}{3w}$, and that the height of the balls at the point of collision is $h - \\dfrac{gh^2}{18w^2}$.",
+   "answer": "Equating $\\mathbf{j}$ components of $\\mathbf{r_1}(t) = \\mathbf{r_2}(t)$:\n$$ut\\sin\\theta - \\frac{g}{2}t^2 = h - \\frac{g}{2}t^2 \\Rightarrow ut\\sin\\theta = h \\Rightarrow \\sqrt{10}\\,w\\left(\\frac{3}{\\sqrt{10}}\\right)t = h \\Rightarrow t = \\frac{h}{3w}.$$\n\nHeight: substitute $t = \\frac{h}{3w}$ into $y_2 = h - \\frac{g}{2}t^2$:\n$$y_2 = h - \\frac{g}{2}\\left(\\frac{h}{3w}\\right)^2 = h - \\frac{gh^2}{18w^2}.$$"
+  },
+  {
+   "ref": "Q14(b)(iv)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.2.6.7",
+    "12.2.4.7"
+   ],
+   "question": "A ball is projected from the base of a cliff with initial speed $u$ m/s at an angle of $\\theta$ to the horizontal. At the same time, a second ball is projected horizontally with initial speed $w$ m/s from the top of the same cliff, which is $h$ m high. Take the base of the cliff as the origin $(0, 0)$. The two balls collide. The position vector of the first ball is $\\mathbf{r_1}(t) = (ut\\cos\\theta)\\mathbf{i} + \\left(ut\\sin\\theta - \\dfrac{g}{2}t^2\\right)\\mathbf{j}$, and it is given that $\\theta = \\tan^{-1}3$ and the position vector of the second ball is $\\mathbf{r_2}(t) = wt\\,\\mathbf{i} + \\left(h - \\dfrac{g}{2}t^2\\right)\\mathbf{j}$. Also $u = \\sqrt{10}\\,w$, $\\sin\\theta = \\dfrac{3}{\\sqrt{10}}$, and the balls collide at time $t = \\dfrac{h}{3w}$.\n\nAt the instant of collision, the velocity vectors of the two balls are perpendicular. Show that $h = \\dfrac{3(3 \\pm \\sqrt{5})w^2}{2g}$.",
+   "answer": "At $t = \\frac{h}{3w}$:\n$$\\mathbf{v_1} = u\\cos\\theta\\,\\mathbf{i} + (u\\sin\\theta - gt)\\mathbf{j} = w\\,\\mathbf{i} + \\left(3w - \\frac{gh}{3w}\\right)\\mathbf{j}, \\qquad \\mathbf{v_2} = w\\,\\mathbf{i} - gt\\,\\mathbf{j} = w\\,\\mathbf{i} - \\frac{gh}{3w}\\mathbf{j}.$$\n\nSince $\\mathbf{v_1} \\perp \\mathbf{v_2}$, $\\mathbf{v_1}\\cdot\\mathbf{v_2} = 0$:\n$$w^2 - \\frac{gh}{3w}\\left(3w - \\frac{gh}{3w}\\right) = 0 \\Rightarrow \\left(\\frac{gh}{3w}\\right)^2 - 3w\\left(\\frac{gh}{3w}\\right) + w^2 = 0.$$\n\nThis is a quadratic in $\\frac{gh}{3w}$:\n$$\\frac{gh}{3w} = \\frac{3w \\pm \\sqrt{9w^2 - 4w^2}}{2} = \\frac{(3 \\pm \\sqrt{5})w}{2} \\Rightarrow h = \\frac{3(3 \\pm \\sqrt{5})w^2}{2g}.$$"
+  }
+ ]
+}
