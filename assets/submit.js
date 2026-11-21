@@ -48,7 +48,7 @@
     const s = sourceText(Q.src); if (s) r.source = s;
     if (Q.src.ref) r.ref = Q.src.ref;
     if (Q.credit.trim()) r.credit = Q.credit.trim();
-    const prev = Q.prev.filter((p) => p.question.trim()).map((p) => ({ ref: p.ref.trim() || "Earlier part", kind: "written", marks: +p.marks || 1, question: p.question.trim(), answer: p.answer.trim(), images: p.images || [] }));
+    const prev = Q.prev.filter((p) => p.question.trim() || (p.images || []).length).map((p) => ({ ref: p.ref.trim() || "Earlier part", kind: "written", marks: +p.marks || 1, question: p.question.trim(), answer: p.answer.trim(), images: p.images || [] }));
     if (prev.length) r.prev = prev;
     r.src = { ...Q.src };
     return r;
@@ -82,7 +82,7 @@
     Q.options.forEach((o, i) => Q.kind === "mc" && p.push(...texProblems("Option " + "ABCD"[i], o)));
     Q.prev.forEach((x, i) => {
       const n = x.ref.trim() || "Earlier part " + (i + 1);
-      if (!x.question.trim()) p.push(`${n}: write the question or remove the part.`);
+      if (!x.question.trim() && !(x.images || []).length) p.push(`${n}: write the question, upload an image of it, or remove the part.`);
       p.push(...texProblems(n, x.question), ...texProblems(n + " answer", x.answer));
     });
     return p;

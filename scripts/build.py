@@ -181,8 +181,8 @@ def main():
             if "prev" in q and not community:
                 errors.append(f"{where}: 'prev' is computed automatically (only community questions give it)")
             for x in q.get("prev", []) or []:
-                if not x.get("question"):
-                    errors.append(f"{where}: previous part {x.get('ref')} has no question")
+                if not x.get("question") and not x.get("images"):
+                    errors.append(f"{where}: previous part {x.get('ref')} has no question text or image")
                 for fld in ("question", "answer"):
                     if not balanced_dollars(x.get(fld)):
                         errors.append(f"{where}: unbalanced $ in previous part {x.get('ref')} {fld}")

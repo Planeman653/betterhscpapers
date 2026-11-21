@@ -52,7 +52,7 @@
       <div class="q-head"><span class="q-title">${n}. <span class="marks">(${q.marks} mark${q.marks === 1 ? "" : "s"})</span></span>
         <span class="diff d${q.difficulty}">${[1, 2, 3, 4, 5].map((i) => `<i class="${i <= q.difficulty ? "f" : ""}"></i>`).join("")}&nbsp;${DIFF[q.difficulty] || ""}</span><span class="grow"></span>
         <span class="q-actions"><label class="pick"><input type="checkbox" data-pick="${esc(q.id)}" ${skip.has(q.id) ? "" : "checked"}> Include in PDF</label><a class="mini" href="${q.course}.html#${encodeURIComponent(q.id)}">Open in ${esc(NAMES[q.course].replace("Mathematics ", ""))}</a><button class="mini save-btn on" data-unsave="${esc(q.id)}">★ Saved</button></span></div>
-      ${prev.length ? `<details class="prev-ans"><summary>Show earlier parts (${prev.length})</summary>${prev.map((x) => `<div class="prev-part"><div class="prev-ref">${esc(x.ref)}</div><div class="q-body">${md(x.question)}</div></div>`).join("")}</details>` : ""}
+      ${prev.length ? `<details class="prev-ans"><summary>Show earlier parts (${prev.length})</summary>${prev.map((x) => `<div class="prev-part"><div class="prev-ref">${esc(x.ref)}</div><div class="q-body">${md(x.question)}${(x.images || []).map((s) => `<img src="${esc(s)}" alt="Diagram" loading="lazy">`).join("")}</div></div>`).join("")}</details>` : ""}
       <div class="q-body">${md(q.question)}${imgs}</div>${opts}
       <div class="src">Source: ${esc(q._src)} · Dot point${(q.dotpoints || []).length > 1 ? "s" : ""} ${dpChips(q.course, q.dotpoints)}</div>
       ${showAll ? "" : `<div class="ans-toggle"><button class="linkish" data-ans="${esc(q.id)}">${show ? "Hide" : "Show"} ${ansLabel(q).toLowerCase()}</button></div>`}
@@ -111,7 +111,7 @@
       const ansImgs = (q.answer_images || []).map((s) => `<img src="${esc(s)}">`).join("");
       const ans = `<div class="ans"><div class="ans-label">${ansLabel(q)}${q.kind === "mc" && q.correct ? " — " + q.correct : ""}</div><div class="ans-body">${md(q.answer)}${ansImgs}</div></div>`;
       const prev = (q.prev || []).filter((x) => x.dropped == null);
-      const prevH = prev.length ? `<div class="p-prev">${prev.map((x) => `<div><b>${esc(x.ref)}</b> ${md(x.question)}</div>`).join("")}</div>` : "";
+      const prevH = prev.length ? `<div class="p-prev">${prev.map((x) => `<div><b>${esc(x.ref)}</b> ${md(x.question)}${(x.images || []).map((s) => `<img src="${esc(s)}">`).join("")}</div>`).join("")}</div>` : "";
       h += `<div class="pq"><div class="pq-head">Question ${i + 1} <span>(${q.marks} mark${q.marks === 1 ? "" : "s"})</span></div>${prevH}<div class="q-body">${md(q.question)}${imgs}</div>${opts}`
         + (showSrc ? `<div class="src">${courses.length > 1 ? esc(NAMES[q.course]) + " · " : ""}Source: ${esc(q._src)}</div>` : "")
         + (space !== "none" && q.kind !== "mc" && ansMode !== "inline" ? `<div class="work ${space}"></div>` : "")
