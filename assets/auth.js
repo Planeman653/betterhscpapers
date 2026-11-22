@@ -64,12 +64,14 @@ if (!CFG) {
     if (on) A.progress.done[qid] = true; else delete A.progress.done[qid];
     await setDoc(doc(db, "progress", u.uid), { done: { [qid]: on ? true : deleteField() }, updated: serverTimestamp() }, { merge: true });
   };
-  // saved questions: {qid: course}
+  // saved questions: {qid: course}, and when each was saved: savedAt {qid: ms} (for sorting)
   A.setSaved = async (qid, course, on) => {
     const u = need();
-    if (on) A.progress.saved[qid] = course; else delete A.progress.saved[qid];
+    const t = Date.now();
+    A.progress.savedAt = A.progress.savedAt || {};
+    if (on) { A.progress.saved[qid] = course; A.progress.savedAt[qid] = t; } else { delete A.progress.saved[qid]; delete A.progress.savedAt[qid]; }
     renderAccount();
-    await setDoc(doc(db, "progress", u.uid), { saved: { [qid]: on ? course : deleteField() }, updated: serverTimestamp() }, { merge: true });
+    await setDoc(doc(db, "progress", u.uid), { saved: { [qid]: on ? course : deleteField() }, savedAt: { [qid]: on ? t : deleteField() }, updated: serverTimestamp() }, { merge: true });
   };
   A.flag = async (q, reason, note) => {
     const u = need();

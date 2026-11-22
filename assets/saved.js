@@ -10,6 +10,26 @@
   const toast = (m) => { const t = $("toast"); t.textContent = m; t.style.display = "block"; clearTimeout(toast.t); toast.t = setTimeout(() => (t.style.display = "none"), 2600); };
   const cache = {};
   let Q = [], filter = "", opened = new Set(), showAll = false, tok = 0;
+  let sortBy = (() => { try { return localStorage.getItem("hscq:savedSort") || "syllabus"; } catch (e) { return "syllabus"; } })();
+  const num = (a, b) => String(a).localeCompare(String(b), undefined, { numeric: true });
+  const dp0 = (q) => (q.dotpoints || [])[0] || "";
+  const savedAt = (q) => ((A.progress && A.progress.savedAt) || {})[q.id] || 0;
+  // within each subject (subjects stay grouped under their headings), ties fall back to syllabus order
+  const SORTS = {
+    syllabus: () => 0,
+    recent: (a, b) => savedAt(b) - savedAt(a),
+    oldest: (a, b) => savedAt(a) - savedAt(b),
+    easy: (a, b) => a.difficulty - b.difficulty,
+    hard: (a, b) => b.difficulty - a.difficulty,
+    "marks-high": (a, b) => (+b.marks || 0) - (+a.marks || 0),
+    "marks-low": (a, b) => (+a.marks || 0) - (+b.marks || 0),
+    paper: (a, b) => num(a._src, b._src),
+  };
+  const ORDER = Object.keys(NAMES);
+  function sorted(list) {
+    const f = SORTS[sortBy] || SORTS.syllabus;
+    return list.slice().sort((a, b) => ORDER.indexOf(a.course) - ORDER.indexOf(b.course) || f(a, b) || num(dp0(a), dp0(b)));
+  }
   // questions left out of the PDF (everything saved is included until unticked); remembered in this browser
   const skip = new Set((() => { try { return JSON.parse(localStorage.getItem("hscq:savedSkip") || "[]"); } catch (e) { return []; } })());
   const keepSkip = () => { try { localStorage.setItem("hscq:savedSkip", JSON.stringify([...skip])); } catch (e) {} };
@@ -61,7 +81,7 @@
   }
 
   function draw() {
-    const list = Q.filter((q) => !filter || q.course === filter);
+    const list = sorted(Q.filter((q) => !filter || q.course === filter));
     const courses = [...new Set(Q.map((q) => q.course))];
     $("saved-tools").hidden = !Q.length;
     if (!Q.length) $("pdf-box").hidden = true;
@@ -88,7 +108,7 @@
 
   /* ---------------- PDF of the saved questions shown (respects the subject filter) ---------------- */
   function pdfList() {
-    const list = Q.filter((q) => (!filter || q.course === filter) && !skip.has(q.id));
+    const list = sorted(Q.filter((q) => (!filter || q.course === filter) && !skip.has(q.id)));
     if ($("pdf-order").value === "diff") return list.slice().sort((a, b) => a.difficulty - b.difficulty);
     return list;
   }
@@ -148,9 +168,7 @@
     const out = [];
     for (const c of order.filter((c) => byCourse[c])) {
       const map = await bank(c);
-      const qs = byCourse[c].map((id) => map[id]).filter(Boolean);
-      qs.sort((a, b) => String(a.dotpoints[0]).localeCompare(String(b.dotpoints[0]), undefined, { numeric: true }));
-      out.push(...qs);
+      out.push(...byCourse[c].map((id) => map[id]).filter(Boolean));
     }
     if (my !== tok) return;
     Q = out; draw();
@@ -177,6 +195,8 @@
     $("pick-all").addEventListener("click", () => pickAll(true));
     $("pick-none").addEventListener("click", () => pickAll(false));
     $("saved-courses").addEventListener("click", (e) => { const b = e.target.closest("[data-course]"); if (b) { filter = b.dataset.course; draw(); } });
+    const ss = $("saved-sort"); ss.value = SORTS[sortBy] ? sortBy : "syllabus";
+    ss.addEventListener("change", () => { sortBy = ss.value; try { localStorage.setItem("hscq:savedSort", sortBy); } catch (e) {} draw(); });
     $("saved-answers").addEventListener("change", (e) => { showAll = e.target.checked; draw(); });
     $("pdf-open").addEventListener("click", () => { const b = $("pdf-box"); b.hidden = !b.hidden; pdfCount(); });
     $("pdf-order").addEventListener("change", pdfCount);
