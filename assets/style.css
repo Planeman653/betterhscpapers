@@ -499,3 +499,15 @@ html.panel-open .sheet-fab{display:none}
 /* saved page: subject heading with its "include all in PDF" box */
 .subj-h{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}.subj-h>span{flex:1}
 .subj-pick{font-family:var(--sans);font-size:13.5px;font-weight:400}
+
+/* copy / download a question as an image */
+.q-row{display:flex;align-items:center;gap:10px}
+.png-btns{display:inline-flex;gap:2px}
+.icon-btn{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border:1px solid transparent;border-radius:7px;background:none;color:var(--muted);cursor:pointer;padding:0}
+.icon-btn:hover{color:var(--ink);background:var(--ans);border-color:var(--line)}
+.icon-btn:disabled{opacity:.5;cursor:progress}
+.png-card{--paper:#ffffff; --ink:#1c1d1f; --muted:#62656b; --faint:#8a8d93; --line:#dcdcd8; --head:#e6e6e3; --head-ink:#2b2d31;
+  --accent:#3c4656; --chip:#ededea; --ans:#f3f3f0; --mark:#fff3b0;
+  background:#fff;color:var(--ink);padding:22px 28px 14px}
+.png-card .q{border:none;padding:0}
+.png-foot{margin-top:12px;font:12px var(--sans);color:#9a9a9a;text-align:right}

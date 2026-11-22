@@ -252,12 +252,67 @@
       <div class="q-head"><span class="q-title">Question ${num} <span class="marks">(${q.marks} mark${q.marks === 1 ? "" : "s"})</span></span>
         <span class="diff d${q.difficulty}" title="Difficulty ${q.difficulty}/5 — ${DIFF[q.difficulty]}">${[1, 2, 3, 4, 5].map((i) => `<i class="${i <= q.difficulty ? "f" : ""}"></i>`).join("")}&nbsp;${DIFF[q.difficulty]}</span>
         <span class="grow"></span>
-        <span class="q-actions"><label class="pick"><input type="checkbox" data-pick="${q.id}" ${S.basket.has(q.id) ? "checked" : ""}> Add to PDF</label>${prevBtn}</span></div>
+        <span class="q-actions"><span class="q-row"><span class="png-btns"><button type="button" class="icon-btn" data-png="copy" data-qid="${q.id}" title="Copy as image" aria-label="Copy question as image">${ICON_COPY}</button><button type="button" class="icon-btn" data-png="save" data-qid="${q.id}" title="Download as PNG" aria-label="Download question as PNG">${ICON_DL}</button></span><label class="pick"><input type="checkbox" data-pick="${q.id}" ${S.basket.has(q.id) ? "checked" : ""}> Add to PDF</label></span>${prevBtn}</span></div>
       ${A.enabled ? `<div class="q-tools"><button class="mini done-btn${isDone(q.id) ? " on" : ""}" data-done="${q.id}" title="Tick off questions you've done">${isDone(q.id) ? "✓ Done" : "Mark done"}</button><button class="mini save-btn${isSaved(q.id) ? " on" : ""}" data-save="${q.id}" title="Save to your question bank">${isSaved(q.id) ? "★ Saved" : "☆ Save"}</button>${canEdit(q) ? `<a class="mini" href="submit.html?edit=${encodeURIComponent(q.id)}&amp;course=${COURSE}">Edit</a><button class="mini danger" data-qdel="${q.id}">Delete</button>` : ""}${q.edited && A.isAdmin ? '<span class="tag">Edited</span>' : ""}</div>` : ""}
       ${prevBlock}<div class="q-body">${md(q.question)}${imgs}</div>${opts}
       <div class="src">${q.mine ? '<span class="tag">Yours</span> ' : q.source ? '<span class="tag">Community</span> ' : ""}Source: ${sourceOf(q)}${q.kind === "mc" ? " (multiple choice)" : ""} · Dot point${q.dotpoints.length > 1 ? "s" : ""} ${dpChips(COURSE, q.dotpoints)}</div>
       ${S.showAnswers ? "" : `<div class="ans-toggle"><button class="linkish" data-ans="${q.id}">${show ? "Hide" : "Show"} ${ansLabel.toLowerCase()}</button></div>`}
       ${ans}${A.enabled ? `<button class="report-btn${isFlagged(q.id) ? " on" : ""}" data-flag="${q.id}" title="${isFlagged(q.id) ? "You reported this question" : "Report a problem with this question"}" aria-label="Report a problem with this question">⚠</button>` : ""}</article>`;
+  }
+
+  /* ---------------- copy / download one question as a PNG ---------------- */
+  const ICON_COPY = '<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>';
+  const ICON_DL = '<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>';
+  let h2i = null, fontCss = null;
+  function loadH2I() {
+    if (!h2i) h2i = new Promise((res, rej) => {
+      const s = document.createElement("script");
+      s.src = "https://cdn.jsdelivr.net/npm/html-to-image@1.11.11/dist/html-to-image.js";
+      s.onload = () => res(window.htmlToImage); s.onerror = () => { h2i = null; rej(new Error("load")); };
+      document.head.appendChild(s);
+    });
+    return h2i;
+  }
+  // a clean copy of the question card as shown (earlier parts / answer included if open), without the buttons
+  async function questionPng(id) {
+    const art = document.getElementById(id);
+    const lib = await loadH2I();
+    const wrap = document.createElement("div");
+    wrap.style.cssText = "position:fixed;left:-10000px;top:0;pointer-events:none";
+    const card = document.createElement("div");
+    card.className = "png-card";
+    card.style.width = Math.max(560, Math.min(art.offsetWidth, 820)) + "px";
+    const c = art.cloneNode(true);
+    c.removeAttribute("id"); c.classList.remove("is-done");
+    c.querySelectorAll(".q-actions, .q-tools, .ans-toggle, .report-btn, .dp-reveals, .src .dps, .src .tag, details:not([open])").forEach((n) => n.remove());
+    c.querySelectorAll("img[loading]").forEach((n) => n.removeAttribute("loading"));
+    const src = c.querySelector(".src");
+    if (src) src.innerHTML = src.innerHTML.replace(/\s*·\s*Dot points?\s*$/, "");
+    card.appendChild(c);
+    card.insertAdjacentHTML("beforeend", '<div class="png-foot">Better HSC Papers</div>');
+    wrap.appendChild(card); document.body.appendChild(wrap);
+    try {
+      await Promise.all([...card.querySelectorAll("img")].map((im) => im.complete ? 0 : new Promise((r) => { im.onload = im.onerror = r; })));
+      if (fontCss == null) fontCss = await lib.getFontEmbedCSS(card).catch(() => "");
+      return await lib.toBlob(card, { pixelRatio: 2, backgroundColor: "#ffffff", fontEmbedCSS: fontCss || undefined, cacheBust: false });
+    } finally { wrap.remove(); }
+  }
+  async function pngAction(btn) {
+    const id = btn.dataset.qid, name = `${COURSE}-${id}.png`.replace(/[^\w.-]+/g, "-");
+    btn.disabled = true;
+    try {
+      if (btn.dataset.png === "copy" && navigator.clipboard && window.ClipboardItem) {
+        // pass the promise straight to ClipboardItem so Safari keeps the click's permission
+        await navigator.clipboard.write([new ClipboardItem({ "image/png": questionPng(id) })]);
+        alertBox("Question copied as an image.");
+      } else {
+        const blob = await questionPng(id);
+        const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = name;
+        document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+        if (btn.dataset.png === "copy") alertBox("Copying images isn't supported in this browser, so it was downloaded instead.");
+      }
+    } catch (e) { alertBox("Couldn't make the image — try again."); }
+    finally { btn.disabled = false; }
   }
 
   function ansLabelOf(q) {
@@ -584,6 +639,8 @@
     $("questions").addEventListener("click", (e) => {
       const pv = e.target.closest("[data-prev]");
       if (pv) { const id = pv.dataset.prev; S.prevOpen.has(id) ? S.prevOpen.delete(id) : S.prevOpen.add(id); rerenderQ(id); return; }
+      const pb = e.target.closest("[data-png]");
+      if (pb) { pngAction(pb); return; }
       const a = e.target.closest("[data-ans]");
       if (a) { const id = a.dataset.ans; S.opened.has(id) ? S.opened.delete(id) : S.opened.add(id); rerenderQ(id); return; }
       const dn = e.target.closest("[data-done]");
