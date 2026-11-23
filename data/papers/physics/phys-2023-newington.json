@@ -1,0 +1,968 @@
+{
+ "id": "phys-2023-newington",
+ "course": "physics",
+ "school": "Newington",
+ "year": 2023,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "6528",
+  "title": "Newington 2023 w. sol"
+ },
+ "indexed": "2026-11-24",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q9",
+   "reason": "Precision and accuracy (Year 11 Module 1 content)."
+  },
+  {
+   "ref": "Q21(a)",
+   "reason": "Conservation of energy on a ramp (Year 11 Module 2/3 content)."
+  },
+  {
+   "ref": "Q21(b)",
+   "reason": "Identify point of highest acceleration on a ramp (Year 11 mechanics, diagram marking)."
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.1"
+   ],
+   "question": "Projectile A is launched on Earth with an initial speed of $40\\ \\text{m s}^{-1}$ at an angle of $30^\\circ$ to the horizontal. Projectile B is launched with the same initial conditions on a planet where the acceleration due to gravity is exactly half that on Earth. Projectile B's path compared to projectile A will have:",
+   "answer": "$H=\\dfrac{u^2\\sin^2\\theta}{2g}$, so halving $g$ doubles the maximum height. Landing back at launch height, the final speed equals the launch speed by conservation of energy (the horizontal speed is unchanged and the vertical speed is reversed), so it is equal (D).",
+   "options": [
+    "Maximum height: equal; final speed: double",
+    "Maximum height: equal; final speed: equal",
+    "Maximum height: double; final speed: double",
+    "Maximum height: double; final speed: equal"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.5"
+   ],
+   "question": "Two objects are launched into space from the ground so that they will just escape Earth's gravitational field forever, by being given an initial velocity. Object A had a mass of 10 kg, while object B had a mass of 100 kg. Which alternative is correct?",
+   "answer": "Escape speed $v=\\sqrt{\\dfrac{2GM}r}$ does not depend on the mass of the object, so the speeds are equal. $K=\\tfrac12mv^2\\propto m$, so B (10 times the mass) has 10 times the kinetic energy (B).",
+   "options": [
+    "Initial speed equal; initial kinetic energy equal",
+    "Initial speed equal; B's initial kinetic energy is 10 times greater than A's",
+    "Initial speed equal; B's initial kinetic energy is 100 times greater than A's",
+    "B's initial speed is 10 times greater; B's initial kinetic energy is 100 times greater"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.5"
+   ],
+   "question": "A cyclist tightens a nut with a 50.0 cm spanner, applying a force of 70.0 N at an angle of $70^\\circ$ to the spanner, as shown. What magnitude of torque has the cyclist applied to the nut?",
+   "answer": "$\\tau=rF\\sin\\theta=0.500\\times70.0\\times\\sin70^\\circ=32.9$ N m (B). (C and D come from using 50.0 cm without converting to metres.)",
+   "options": [
+    "11.97 N m",
+    "32.89 N m",
+    "1197.07 N m",
+    "3289.92 N m"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/phys-2023-newington/q3.png"
+   ]
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.4"
+   ],
+   "question": "Two planets, Centaur and Tri, orbit a star. Centaur has an orbital path with a radius that is four times smaller than the radius of Tri's orbital path. Which of the following statements is correct?",
+   "answer": "Kepler's third law: $\\dfrac{r^3}{T^2}$ is constant, so $T\\propto r^{3/2}$. $\\dfrac{T_\\text{Tri}}{T_\\text{Centaur}}=4^{3/2}=8$. Tri's orbit takes 8 times longer (A).",
+   "options": [
+    "Tri would take 8 times longer than Centaur to make a full orbit of the star",
+    "Centaur would take 8 times longer than Tri to make a full orbit of the star",
+    "Tri would take 64 times longer than Centaur to make a full orbit of the star",
+    "Centaur would take 64 times longer than Tri to make a full orbit of the star"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "Ganymede has a mass of $1.5\\times10^{23}$ kg and a radius of $2.6\\times10^6$ m. Which one of the following is closest to the magnitude of Ganymede's surface gravity?",
+   "answer": "$g=\\dfrac{GM}{r^2}=\\dfrac{6.67\\times10^{-11}\\times1.5\\times10^{23}}{(2.6\\times10^6)^2}=1.5\\ \\text{m s}^{-2}$ (B).",
+   "options": [
+    "$0.8\\ \\text{m s}^{-2}$",
+    "$1.5\\ \\text{m s}^{-2}$",
+    "$3.8\\ \\text{m s}^{-2}$",
+    "$9.8\\ \\text{m s}^{-2}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.2"
+   ],
+   "question": "A charged particle $+Q$ enters a region of uniform electric field $E$ between two parallel plates, as shown, with speed $v$ (the field points from the top plate to the bottom plate). The apparatus is in a vacuum and the experiment is performed in weightless conditions. The particle travels a horizontal distance $D$ before striking the charged plate. What change would result in the particle travelling twice the horizontal distance, $2D$?",
+   "answer": "Vertically, $d=\\tfrac12at^2$ with $a=\\dfrac{QE}m$, so $t=\\sqrt{\\dfrac{2dm}{QE}}$ is independent of $v$. Horizontally, $D=vt$, so doubling $v$ doubles $D$ (A). Halving $d$ or $E$, or halving the mass, changes $t$ by a factor of $\\sqrt2$ only (so $D$ changes by $\\frac1{\\sqrt2}$, $\\sqrt2$ and $\\frac1{\\sqrt2}$ respectively).",
+   "options": [
+    "doubling the initial velocity to $2v$",
+    "halving the vertical distance, $d$, the particle must move",
+    "halving the electric field strength",
+    "halving the mass of the particle"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/phys-2023-newington/q6.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "A ball is attached to the end of a string and rotated in a circle at constant speed in a vertical plane. Ignoring air resistance, which one of the following best represents the forces acting on the ball when it is at the bottom of the circular path and moving to the left?",
+   "answer": "Only two forces act: the weight (down) and the tension (up). There is no separate 'centripetal' or forward force. At the bottom the net force must point up, towards the centre, so the tension (up) is larger than the weight (down): $T-mg=\\dfrac{mv^2}r$ (D).",
+   "options": [
+    "Diagram A",
+    "Diagram B",
+    "Diagram C",
+    "Diagram D"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/phys-2023-newington/q7.png"
+   ]
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.2.3"
+   ],
+   "question": "Three metal rods A, B and C carry currents of 3 A (to the right), 4 A (to the left) and 5 A (to the left) respectively. Rod A is 10 cm above rod B, and rod C is 20 cm below rod B. What is the magnitude and direction of the force per unit length on rod C?",
+   "answer": "Using $\\dfrac Fl=\\dfrac{\\mu_0I_1I_2}{2\\pi r}$ ($\\dfrac{\\mu_0}{2\\pi}=2\\times10^{-7}$). From B (same direction, so attraction, upwards): $2\\times10^{-7}\\times\\dfrac{4\\times5}{0.20}=2\\times10^{-5}$ N m$^{-1}$ up. From A (opposite direction, so repulsion, downwards; $r=0.30$ m): $2\\times10^{-7}\\times\\dfrac{3\\times5}{0.30}=1\\times10^{-5}$ N m$^{-1}$ down. Net $=1\\times10^{-5}$ N m$^{-1}$ up (B).",
+   "options": [
+    "$1\\times10^{-5}\\ \\text{N m}^{-1}$ down",
+    "$1\\times10^{-5}\\ \\text{N m}^{-1}$ up",
+    "$3\\times10^{-5}\\ \\text{N m}^{-1}$ up",
+    "$3\\times10^{-5}\\ \\text{N m}^{-1}$ down"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/phys-2023-newington/q8.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.4.1"
+   ],
+   "question": "The diagram shows a small DC electric motor, powered by a battery connected via a split-ring commutator. The rectangular coil has sides KJ and LM. The magnetic field between the poles of the magnet is uniform and constant. The switch is closed, allowing current to flow, and the coil is stationary and in the position shown. Which one of the following statements best describes the motion of the coil when the switch is closed?",
+   "answer": "By the motor effect (right-hand push rule), the forces on the sides KJ and LM are in opposite directions and produce a torque in direction B. The split-ring commutator reverses the current every half turn, so the torque keeps acting in the same sense and the coil keeps rotating in direction B (C).",
+   "options": [
+    "The coil will remain stationary",
+    "The coil will rotate in direction A, as shown in the diagram",
+    "The coil will rotate in direction B, as shown in the diagram",
+    "The coil will oscillate regularly between directions A and B"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/phys-2023-newington/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.4.3",
+    "12.6.3.2"
+   ],
+   "question": "Three identical magnets P, Q and R are released simultaneously from rest and fall to the ground from the same height. P falls directly to the ground, Q falls through the centre of a thick conducting ring and R falls through a ring which is identical except for a gap cut into it. Which one of the statements below best describes the sequence in which the magnets reach the ground?",
+   "answer": "Q falls through a complete conducting ring, so the changing flux induces an emf and an eddy current. By Lenz's law the current's magnetic field opposes the magnet's motion, so Q accelerates more slowly. The gap in R's ring prevents a current flowing round it, so no opposing force arises and R falls freely like P. P and R land together, then Q (A).",
+   "options": [
+    "P and R arrive together followed by Q.",
+    "P and Q arrive together followed by R.",
+    "P arrives first, followed by Q which is followed by R.",
+    "All three magnets arrive simultaneously."
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q12",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.2",
+    "12.6.1.3"
+   ],
+   "question": "Which line correctly describes the trajectory of charged particles which enter, at right angles, (a) a uniform electric field, and (b) a uniform magnetic field?",
+   "answer": "In a uniform electric field the force is constant in magnitude and direction, so the path is parabolic (like a projectile). In a uniform magnetic field the force is always perpendicular to the velocity and constant in magnitude, so the path is circular (C).",
+   "options": [
+    "(a) circular, (b) circular",
+    "(a) circular, (b) parabolic",
+    "(a) parabolic, (b) circular",
+    "(a) parabolic, (b) parabolic"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q13",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.1.1"
+   ],
+   "question": "James Maxwell wrote a series of equations that unified electricity and magnetism. Consider the following statements about these equations. I The equations predict the wave-particle duality of light. II The equations predict that electromagnetic waves travel at $3\\times10^8\\ \\text{m s}^{-1}$ in a vacuum. III Radiation from black bodies is emitted in discrete packets called quanta. IV Oscillating charges produce electromagnetic radiation. Which of the above statements are correct?",
+   "answer": "Maxwell's equations treat light as a classical wave: they predict EM waves travelling at $c=\\dfrac1{\\sqrt{\\mu_0\\varepsilon_0}}$ (II) and that accelerating or oscillating charges radiate (IV). Wave-particle duality (I) and quantised emission (III) came later from quantum theory (C).",
+   "options": [
+    "I, II, III and IV",
+    "I and II only",
+    "II and IV only",
+    "II only"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q14",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.4.4",
+    "12.8.1.3"
+   ],
+   "question": "The Sun produces $5.4\\times10^{25}$ J of energy each second by the conversion of mass to energy. How many positron-electron annihilations would need to occur each second for an equivalent amount of energy to be produced (all mass is converted to energy)?",
+   "answer": "One annihilation converts the mass of an electron and a positron: $E=2m_ec^2=2\\times9.11\\times10^{-31}\\times(3.0\\times10^8)^2=1.64\\times10^{-13}$ J. Number per second $=\\dfrac{5.4\\times10^{25}}{1.64\\times10^{-13}}=3.3\\times10^{38}$ (D).",
+   "options": [
+    "$1.6\\times10^{19}$",
+    "$6.0\\times10^{8}$",
+    "$6.6\\times10^{38}$",
+    "$3.3\\times10^{38}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q15",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.1.6"
+   ],
+   "question": "As a star rotates, the observed atomic absorption bands change. When a star is rotating away from an observer, light is X. When the star is rotating towards the observer, light is Y. The Z it rotates, the wider the absorption band will appear in its spectrum. Which row completes the statement?",
+   "answer": "Light from the side receding from the observer is red-shifted and from the side approaching is blue-shifted (Doppler effect). The faster the star rotates, the larger the range of Doppler shifts, so the wider the absorption line (B).",
+   "options": [
+    "X blue-shifted, Y red-shifted, Z faster",
+    "X red-shifted, Y blue-shifted, Z faster",
+    "X blue-shifted, Y red-shifted, Z slower",
+    "X red-shifted, Y blue-shifted, Z slower"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q16",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.2"
+   ],
+   "question": "In a Young's double-slit experiment, monochromatic light is incident on two narrow slits and the resulting interference pattern is observed on a screen. Which change decreases the fringe separation?",
+   "answer": "Fringe separation $\\Delta x=\\dfrac{\\lambda L}d$. It decreases if $\\lambda$ decreases, $L$ decreases or $d$ increases. Higher frequency means shorter wavelength, so $\\Delta x$ decreases (C).",
+   "options": [
+    "decreasing the separation between the two slits",
+    "increasing the distance between the slits and the screen",
+    "using monochromatic light of higher frequency",
+    "using monochromatic light of longer wavelength"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q17",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.4.4"
+   ],
+   "question": "The nuclear fuel, which provides the power output in a nuclear reactor, decreases in mass at a rate of $6.0\\times10^{-6}$ kg per hour. What is the maximum possible power output of the reactor?",
+   "answer": "Mass rate $=\\dfrac{6.0\\times10^{-6}}{3600}=1.67\\times10^{-9}$ kg s$^{-1}$. $P=\\dfrac{\\Delta m}{\\Delta t}c^2=1.67\\times10^{-9}\\times(3.0\\times10^8)^2=1.5\\times10^8$ W $=150$ MW (C).",
+   "options": [
+    "42 kW",
+    "75 MW",
+    "150 MW",
+    "300 MW"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q18",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.4.5"
+   ],
+   "question": "A deuterium nucleus and a tritium nucleus fuse together to form a helium nucleus and a particle X: ${}^2_1\\text{H}+{}^3_1\\text{H}\\to{}^4_2\\text{He}+X$. What is X?",
+   "answer": "Mass number: $2+3=5=4+A$, so $A=1$. Charge: $1+1=2=2+Z$, so $Z=0$. A particle with $A=1$ and $Z=0$ is a neutron (B).",
+   "options": [
+    "electron",
+    "neutron",
+    "positron",
+    "proton"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q19",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.1.6"
+   ],
+   "question": "On the horizontal axis of a Hertzsprung-Russell diagram, what can be plotted instead of temperature?",
+   "answer": "The horizontal axis shows surface temperature (decreasing to the right), which can be replaced by the equivalent stellar colour or spectral class. Brightness (luminosity) is on the vertical axis (A).",
+   "options": [
+    "colour",
+    "size",
+    "brightness",
+    "age"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q20",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.2"
+   ],
+   "question": "When light of a certain frequency greater than the threshold frequency of a metal is directed at the metal, photoelectrons are emitted from the surface. The power of the light incident on the metal surface is doubled. Which row shows the effect on the maximum kinetic energy and the number of photoelectrons emitted per second?",
+   "answer": "$K_{max}=hf-\\phi$ depends on frequency, not intensity, so it is unchanged. Doubling the power doubles the number of photons per second and hence the number of photoelectrons emitted per second (C).",
+   "options": [
+    "Maximum kinetic energy unchanged; number per second unchanged",
+    "Maximum kinetic energy doubles; number per second unchanged",
+    "Maximum kinetic energy unchanged; number per second doubles",
+    "Maximum kinetic energy doubles; number per second doubles"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q21(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.1"
+   ],
+   "question": "A skateboarder starts from rest at the top of a ramp at A and leaves the ramp at B horizontally with a velocity $v=5.4\\ \\text{m s}^{-1}$. After leaving the ramp at B, the skateboarder lands on the ground at C $0.42$ s later (B is $1.0$ m above the ground). Find the horizontal distance travelled between B and C.",
+   "answer": "The horizontal velocity is constant: $x=v_xt=5.4\\times0.42=2.3$ m.",
+   "images": [
+    "assets/img/phys-2023-newington/q21.png"
+   ]
+  },
+  {
+   "ref": "Q21(d)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.1"
+   ],
+   "question": "A skateboarder starts from rest at the top of a ramp at A and leaves the ramp at B horizontally with a velocity $v=5.4\\ \\text{m s}^{-1}$. After leaving the ramp at B, the skateboarder lands on the ground at C $0.42$ s later (B is $1.0$ m above the ground). Calculate the vertical component of the velocity immediately before impact at C.",
+   "answer": "$v_y=gt=9.8\\times0.42=4.1\\ \\text{m s}^{-1}$ (downwards), since the vertical velocity at B is zero. (Using the 1.0 m drop instead, $v_y=\\sqrt{2gh}=4.4\\ \\text{m s}^{-1}$, was also accepted.)",
+   "images": [
+    "assets/img/phys-2023-newington/q21.png"
+   ]
+  },
+  {
+   "ref": "Q21(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.1"
+   ],
+   "question": "A skateboarder starts from rest at the top of a ramp at A and leaves the ramp at B horizontally with a velocity $v=5.4\\ \\text{m s}^{-1}$. After leaving the ramp at B, the skateboarder lands on the ground at C $0.42$ s later (B is $1.0$ m above the ground). Determine the magnitude of the resultant velocity immediately before impact at C.",
+   "answer": "$v=\\sqrt{v_x^2+v_y^2}=\\sqrt{5.4^2+4.1^2}=6.8\\ \\text{m s}^{-1}$.",
+   "images": [
+    "assets/img/phys-2023-newington/q21.png"
+   ]
+  },
+  {
+   "ref": "Q22(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "A small ball of mass 1.8 kg travels in a horizontal circular path at constant speed while suspended from the ceiling by a 0.75 m long string, which makes an angle of $25^\\circ$ with the vertical. Use labelled arrows to indicate the two physical forces acting on the ball (describe them).",
+   "answer": "The two forces are the weight $mg$ (vertically downwards) and the tension in the string (along the string, up and towards the centre of the circle). The centripetal force is not a third force: it is the horizontal component of the tension.",
+   "images": [
+    "assets/img/phys-2023-newington/q22.png"
+   ],
+   "answer_images": [
+    "assets/img/phys-2023-newington/a22.png"
+   ]
+  },
+  {
+   "ref": "Q22(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.3"
+   ],
+   "question": "A small ball of mass 1.8 kg travels in a horizontal circular path at constant speed while suspended from the ceiling by a 0.75 m long string, which makes an angle of $25^\\circ$ with the vertical. Calculate the speed of the ball.",
+   "answer": "The radius of the circle is $r=0.75\\sin25^\\circ=0.317$ m. Vertically, $T\\cos25^\\circ=mg$; horizontally, $T\\sin25^\\circ=\\dfrac{mv^2}r$. Dividing: $\\tan25^\\circ=\\dfrac{v^2}{rg}$, so $v^2=9.8\\times0.317\\times\\tan25^\\circ=1.45$ and $v=1.2\\ \\text{m s}^{-1}$.",
+   "images": [
+    "assets/img/phys-2023-newington/q22.png"
+   ]
+  },
+  {
+   "ref": "Q23(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "Supertankers float with their centres 100.00 m apart and each has mass $5.00\\times10^8$ kg. Calculate the gravitational force between the two supertankers.",
+   "answer": "$F=\\dfrac{Gm_1m_2}{r^2}=\\dfrac{6.67\\times10^{-11}\\times(5.00\\times10^8)^2}{(100.00)^2}=1.67\\times10^3$ N."
+  },
+  {
+   "ref": "Q23(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "The centre of a planet of mass $1.00\\times10^{24}$ kg is a distance $d$ from the centre of one of its moons. The gravitational force of attraction between them is: $F$ ($\\times10^3$ N) $=37, 32, 23, 17, 11, 6$ for $d$ ($\\times10^6$ m) $=3.43, 3.70, 4.34, 5.06, 6.32, 8.45$, so that $\\dfrac1{d^2}$ ($\\times10^{-14}\\ \\text{m}^{-2}$) $=8.5, 7.3, 5.3, 3.9, 2.5, 1.4$. Describe the graph of $F$ (vertical axis) against $\\dfrac1{d^2}$ (horizontal axis) and the line of best fit that results, and explain the shape using Newton's law of gravitation.",
+   "answer": "The points lie on a straight line through the origin (directly proportional), as $F=GMm\\cdot\\dfrac1{d^2}$ is of the form $y=kx$ with gradient $k=GMm$. A line of best fit is drawn passing through (or very close to) the origin and the points, with a rise from about 6 (at 1.4) to about 37 (at 8.5) on the force axis (in $10^3$ N). The plotted graph is shown.",
+   "images": [
+    "assets/img/phys-2023-newington/q23g.png"
+   ],
+   "answer_images": [
+    "assets/img/phys-2023-newington/a23.png"
+   ]
+  },
+  {
+   "ref": "Q23(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "The centre of a planet of mass $1.00\\times10^{24}$ kg is a distance $d$ from the centre of one of its moons. The gravitational force of attraction between them is: $F$ ($\\times10^3$ N) $=37, 32, 23, 17, 11, 6$ for $d$ ($\\times10^6$ m) $=3.43, 3.70, 4.34, 5.06, 6.32, 8.45$, so that $\\dfrac1{d^2}$ ($\\times10^{-14}\\ \\text{m}^{-2}$) $=8.5, 7.3, 5.3, 3.9, 2.5, 1.4$. The line of best fit has gradient $k$ on the graph of $F$ against $\\dfrac1{d^2}$. Determine the gradient of the graph, including units. Show all working.",
+   "answer": "Using two points widely spaced on the line of best fit (the end points (8.5, 37) and (1.4, 6)): $k=\\dfrac{\\Delta F}{\\Delta(1/d^2)}=\\dfrac{(37-6)\\times10^3}{(8.5-1.4)\\times10^{-14}}=\\dfrac{31\\times10^3}{7.1\\times10^{-14}}=4.4\\times10^{17}\\ \\text{N m}^2$ (the school's value $4.366\\times10^{17}$ N m$^2$ is the same to 2 sf)."
+  },
+  {
+   "ref": "Q23(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "The centre of a planet of mass $1.00\\times10^{24}$ kg is a distance $d$ from the centre of one of its moons. The gravitational force of attraction between them is: $F$ ($\\times10^3$ N) $=37, 32, 23, 17, 11, 6$ for $d$ ($\\times10^6$ m) $=3.43, 3.70, 4.34, 5.06, 6.32, 8.45$, so that $\\dfrac1{d^2}$ ($\\times10^{-14}\\ \\text{m}^{-2}$) $=8.5, 7.3, 5.3, 3.9, 2.5, 1.4$. Use the gradient of the graph ($4.4\\times10^{17}\\ \\text{N m}^2$) to help determine the mass of the moon.",
+   "answer": "The gradient is $k=GMm$ with $M=1.00\\times10^{24}$ kg. $m=\\dfrac{k}{GM}=\\dfrac{4.366\\times10^{17}}{6.67\\times10^{-11}\\times1.00\\times10^{24}}=6.5\\times10^3$ kg (about 6500 kg)."
+  },
+  {
+   "ref": "Q24(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.5"
+   ],
+   "question": "A communications satellite has a mass of 250 kg. The satellite is in orbit around Earth (mass $6.0\\times10^{24}$ kg) at an orbital radius of 33 500 km. Determine the gravitational potential energy of the satellite.",
+   "answer": "$U=-\\dfrac{GMm}{r}=-\\dfrac{6.67\\times10^{-11}\\times6.0\\times10^{24}\\times250}{3.35\\times10^7}=-2.99\\times10^9$ J (the radius must be in metres)."
+  },
+  {
+   "ref": "Q24(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "A communications satellite of mass 250 kg orbits Earth. If the satellite were to move to an orbit of a higher radius, state what would happen to its kinetic energy.",
+   "answer": "It decreases: orbital speed $v=\\sqrt{\\dfrac{GM}r}$ is smaller at a larger radius."
+  },
+  {
+   "ref": "Q24(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.5"
+   ],
+   "question": "A communications satellite of mass 250 kg orbits Earth. If the satellite were to move to an orbit of a higher radius, state what would happen to its gravitational potential energy.",
+   "answer": "It increases (becomes less negative), since $U=-\\dfrac{GMm}r$ rises towards zero as $r$ increases."
+  },
+  {
+   "ref": "Q24(b)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.5"
+   ],
+   "question": "A communications satellite of mass 250 kg orbits Earth. If the satellite were to move to an orbit of a higher radius, state what would happen to its total mechanical energy.",
+   "answer": "It increases (becomes less negative): $E=-\\dfrac{GMm}{2r}$. The gain in potential energy is greater than the loss of kinetic energy, and energy must be supplied to the satellite to move it to the higher orbit."
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.3.3"
+   ],
+   "question": "The diagram shows a transformer with an iron core. The primary coil has many more turns than the secondary coil. Identify whether this is a step-up or step-down transformer.",
+   "answer": "Step-down: the secondary has fewer turns than the primary, so the output voltage is lower than the input.",
+   "images": [
+    "assets/img/phys-2023-newington/q25.png"
+   ]
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.4"
+   ],
+   "question": "Explain a feature of the iron core of a transformer that would significantly improve the efficiency of the transformer.",
+   "answer": "The core should be laminated (made of thin sheets insulated from each other). This breaks up the paths of the eddy currents induced in the core, reducing their size and hence the energy lost as heat, so the efficiency improves."
+  },
+  {
+   "ref": "Q25(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.3"
+   ],
+   "question": "Explain why transformers only work continuously when supplied with an alternating current.",
+   "answer": "A transformer works by electromagnetic induction. An emf is induced in the secondary only while the magnetic flux through it is changing. An alternating current produces a continuously changing flux; a steady direct current produces a constant flux and so no induced emf."
+  },
+  {
+   "ref": "Q25(d)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.3"
+   ],
+   "question": "The primary coil of a transformer is connected to a 230 V AC supply. The secondary coil has 300 turns and provides an output of 20 V and a power of 65 W. Calculate the number of turns on the primary coil.",
+   "answer": "$\\dfrac{N_p}{N_s}=\\dfrac{V_p}{V_s}$, so $N_p=300\\times\\dfrac{230}{20}=3450\\approx3500$ turns (2 sf)."
+  },
+  {
+   "ref": "Q25(e)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.3"
+   ],
+   "question": "The primary coil of a transformer is connected to a 230 V AC supply. If the primary current is 0.30 A, determine the primary power.",
+   "answer": "$P=VI=230\\times0.30=69$ W (compared with 65 W output, so the transformer is about 94% efficient)."
+  },
+  {
+   "ref": "Q26(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.2"
+   ],
+   "question": "A rectangular wire loop with dimensions 0.050 m $\\times$ 0.035 m is placed between two magnets that create a uniform magnetic field of strength 0.20 mT. The loop is rotated with a frequency of 50 Hz. The ends of the loop are connected to a split ring commutator. State the direction of the induced current through the loop (viewed from above) for the first quarter turn of the loop in the direction shown.",
+   "answer": "Anticlockwise as seen from above, by Lenz's law (the induced current opposes the change in flux through the loop). The school's diagram shows the current coming out of the page.",
+   "images": [
+    "assets/img/phys-2023-newington/q26.png"
+   ]
+  },
+  {
+   "ref": "Q26(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.1",
+    "12.6.3.2"
+   ],
+   "question": "A rectangular wire loop with dimensions 0.050 m $\\times$ 0.035 m is placed between two magnets that create a uniform magnetic field of strength 0.20 mT. The loop is rotated with a frequency of 50 Hz. The ends of the loop are connected to a split ring commutator. Calculate the emf induced in the loop for the first quarter turn of the loop.",
+   "answer": "Period $T=\\dfrac1{50}=0.020$ s, so a quarter turn takes $\\Delta t=0.005$ s. In the first quarter turn the flux changes by $\\Delta\\Phi=BA=0.20\\times10^{-3}\\times0.050\\times0.035=3.5\\times10^{-7}$ Wb. $\\varepsilon=\\left|\\dfrac{N\\Delta\\Phi}{\\Delta t}\\right|=\\dfrac{3.5\\times10^{-7}}{0.005}=7\\times10^{-5}$ V (magnitude; average emf).",
+   "images": [
+    "assets/img/phys-2023-newington/q26.png"
+   ]
+  },
+  {
+   "ref": "Q26(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.4.2"
+   ],
+   "question": "A rectangular wire loop with dimensions 0.050 m $\\times$ 0.035 m is placed between two magnets that create a uniform magnetic field of strength 0.20 mT. The loop is rotated with a frequency of 50 Hz. The ends of the loop are connected to a split ring commutator. What is the effect of using a split ring commutator instead of slip rings in this generator?",
+   "answer": "It reverses the connections every half turn, so the output current always flows in the same direction: a pulsating direct current (DC) is produced instead of alternating current."
+  },
+  {
+   "ref": "Q26(d)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.4.2"
+   ],
+   "question": "A rectangular wire loop with dimensions 0.050 m $\\times$ 0.035 m is placed between two magnets that create a uniform magnetic field of strength 0.20 mT. The loop is rotated with a frequency of 50 Hz. The ends of the loop are connected to a split ring commutator. Identify the main energy change that is happening in this generator.",
+   "answer": "Kinetic (mechanical) energy of the rotating loop is converted to electrical energy."
+  },
+  {
+   "ref": "Q26(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.4.2"
+   ],
+   "question": "A rectangular wire loop with dimensions 0.050 m $\\times$ 0.035 m is placed between two magnets that create a uniform magnetic field of strength 0.20 mT. The loop is rotated with a frequency of 50 Hz. The ends of the loop are connected to a split ring commutator. Describe the graph of the emf produced for one complete cycle of the loop (with a split ring commutator), assuming the loop starts moving from the position shown.",
+   "answer": "The emf is always positive (never reverses) because of the commutator, and has a series of humps, two per rotation, each shaped like the magnitude of a sine wave, starting at a maximum value at $t=0$ and falling to zero every half turn (every 0.010 s) before rising again. The sketch is shown.",
+   "answer_images": [
+    "assets/img/phys-2023-newington/a26e.png"
+   ]
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "The diagram shows the paths of two charged particles entering a magnetic field of strength 1.0 T (directed into the page) from the left. Identify the sign of the charge following path P (which curves upwards).",
+   "answer": "Positive. The velocity is to the right and $B$ is into the page; the force on a positive charge $\\mathbf F=q\\mathbf v\\times\\mathbf B$ is upwards, which is the direction in which path P curves.",
+   "images": [
+    "assets/img/phys-2023-newington/q27.png"
+   ]
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "Explain what happens to the kinetic energy of a charge that follows either path P or path Q as it moves through the magnetic field (strength 1.0 T).",
+   "answer": "The magnetic force is always perpendicular to the velocity, so it does no work and the speed (and kinetic energy) stays constant: the charge moves in uniform circular motion. (In reality an accelerating charge radiates a little electromagnetic radiation, so a very small loss of kinetic energy occurs, but this is normally negligible.)",
+   "images": [
+    "assets/img/phys-2023-newington/q27.png"
+   ]
+  },
+  {
+   "ref": "Q27(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "Calculate the size of the magnetic force on a proton entering a 1.0 T magnetic field at $2.4\\times10^6\\ \\text{m s}^{-1}$ (assume the proton enters perpendicular to the field direction).",
+   "answer": "$F=qvB=1.6\\times10^{-19}\\times2.4\\times10^6\\times1.0=3.8\\times10^{-13}$ N."
+  },
+  {
+   "ref": "Q28(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.1.4",
+    "12.7.3.3"
+   ],
+   "question": "The emission spectrum for helium gas has lines at 668, 588, 502, 492, 471, 447 and 403 nm. Which spectral line (in nm) indicates the photon emitted with the lowest energy?",
+   "answer": "$E=\\dfrac{hc}\\lambda$, so the lowest energy is the longest wavelength: 668 nm.",
+   "images": [
+    "assets/img/phys-2023-newington/q28.png"
+   ]
+  },
+  {
+   "ref": "Q28(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.3"
+   ],
+   "question": "The emission spectrum for helium gas has lines at 668, 588, 502, 492, 471, 447 and 403 nm. Calculate the frequency of the photon emitted at the 588 nm line.",
+   "answer": "$f=\\dfrac c\\lambda=\\dfrac{3.0\\times10^8}{588\\times10^{-9}}=5.1\\times10^{14}$ Hz.",
+   "images": [
+    "assets/img/phys-2023-newington/q28.png"
+   ]
+  },
+  {
+   "ref": "Q28(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.3"
+   ],
+   "question": "The emission spectrum for helium gas has lines at 668, 588, 502, 492, 471, 447 and 403 nm. Determine the energy of the photon emitted at the 588 nm line.",
+   "answer": "$E=hf=6.63\\times10^{-34}\\times5.1\\times10^{14}=3.4\\times10^{-19}$ J.",
+   "images": [
+    "assets/img/phys-2023-newington/q28.png"
+   ]
+  },
+  {
+   "ref": "Q29(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.2"
+   ],
+   "question": "In a Young's double-slit experiment, monochromatic laser light is incident on two slits $S_1$ and $S_2$ that are $4.0\\times10^{-4}$ m apart. Rays from the slits meet on a screen 2.00 m from the slits to produce a pattern of bright and dark bands. Point C is a bright spot at the centre of the pattern and P is the fourth bright band from C ($1.26\\times10^{-2}$ m from C). State the path difference, in terms of integer multiples of wavelength, at P.",
+   "answer": "P is the fourth bright band from the central maximum, so the path difference is $4\\lambda$.",
+   "images": [
+    "assets/img/phys-2023-newington/q29.png"
+   ]
+  },
+  {
+   "ref": "Q29(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.2"
+   ],
+   "question": "In a Young's double-slit experiment, monochromatic laser light is incident on two slits $S_1$ and $S_2$ that are $4.0\\times10^{-4}$ m apart. Rays from the slits meet on a screen 2.00 m from the slits to produce a pattern of bright and dark bands. Point C is a bright spot at the centre of the pattern and P is the fourth bright band from C ($1.26\\times10^{-2}$ m from C). Calculate the wavelength of the laser.",
+   "answer": "There are four fringe spacings between C and P: $\\Delta x=\\dfrac{1.26\\times10^{-2}}4=3.15\\times10^{-3}$ m. $\\Delta x=\\dfrac{\\lambda L}d$, so $\\lambda=\\dfrac{\\Delta x\\,d}L=\\dfrac{3.15\\times10^{-3}\\times4.0\\times10^{-4}}{2.00}=6.3\\times10^{-7}$ m $=630$ nm.",
+   "images": [
+    "assets/img/phys-2023-newington/q29.png"
+   ]
+  },
+  {
+   "ref": "Q29(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.3"
+   ],
+   "question": "Describe the significance of Young's double-slit experiment in the wider debate about the nature of light.",
+   "answer": "The experiment produced an interference pattern of alternating bright and dark bands. Only waves can show interference and diffraction, so it provided strong evidence for the wave model of light over Newton's particle (corpuscular) model."
+  },
+  {
+   "ref": "Q30(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.4.1"
+   ],
+   "question": "A technician on Earth observes a spaceship travelling past at $0.7c$. The spaceship fires a laser light beam forwards. What is the speed of the laser light as seen by the technician?",
+   "answer": "$c=3.0\\times10^8\\ \\text{m s}^{-1}$: the speed of light in a vacuum is the same for all inertial observers (Einstein's second postulate)."
+  },
+  {
+   "ref": "Q30(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "A technician on Earth measures a spaceship travelling at $0.7c$ to be 135 m in length and 35 m in width. What is the length and width of the spaceship when measured at rest on Earth?",
+   "answer": "Length is contracted only along the direction of motion: $L=L_0\\sqrt{1-\\dfrac{v^2}{c^2}}$, so $L_0=\\dfrac{135}{\\sqrt{1-0.7^2}}=\\dfrac{135}{0.714}=189$ m (about $1.9\\times10^2$ m). The width is perpendicular to the motion, so it is unchanged: 35 m."
+  },
+  {
+   "ref": "Q30(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.4.1"
+   ],
+   "question": "Is a spaceship travelling past Earth at a constant $0.7c$ an inertial or non-inertial frame of reference? Justify your answer.",
+   "answer": "Inertial: it moves at constant velocity (in a straight line at constant speed), so it is not accelerating."
+  },
+  {
+   "ref": "Q31",
+   "kind": "written",
+   "marks": 8,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.3.1",
+    "12.7.3.2",
+    "12.7.3.3"
+   ],
+   "question": "At the turn of the 20th century scientific thinking about the nature of light underwent significant changes. These changes were heavily influenced by issues scientists were having with successfully explaining black body radiation and the photoelectric effect. Describe the nature of black body radiation and the photoelectric effect and then analyse the problems that the prevailing model of light had with both black body radiation and the photoelectric effect, and how these problems were solved. Make reference to appropriate equations in your response.",
+   "answer": "Prevailing model: Light was regarded as a continuous electromagnetic wave (Maxwell). Both phenomena could only be explained by treating light/energy as quantised, leading to the quantum (photon) model, alongside the wave model.\n\nBlack body radiation: A black body is an ideal absorber and emitter whose radiation depends only on its temperature. Its spectrum is a smooth curve, with a peak wavelength given by Wien's law $\\lambda_{max}T=b$ and total emitted power increasing with temperature. Problem: the classical wave model (Rayleigh-Jeans) predicted that intensity would increase without limit at short wavelengths (the \"ultraviolet catastrophe\"), implying infinite energy emission, which contradicted the observed curve and conservation of energy. Solution: Planck proposed that energy is emitted and absorbed only in discrete amounts (quanta), $E=hf$, which suppresses emission at high frequencies and reproduces the observed curve.\n\nPhotoelectric effect: Electrons are emitted from a metal surface when light shines on it. Problems: the wave model predicted that (i) brighter light should increase the maximum kinetic energy of the electrons, but it depends only on frequency; (ii) electrons should be emitted at any frequency if the light is intense or shone long enough, but below a threshold frequency there is no emission at all; (iii) there should be a time delay while energy accumulates, but emission is instantaneous. Solution: Einstein proposed that light consists of photons of energy $E=hf$, with each photon giving all its energy to a single electron: $K_{max}=hf-\\phi$. If $hf<\\phi$ (the work function) no electrons are emitted; above the threshold the maximum kinetic energy rises linearly with $f$, and increasing the intensity only increases the number of photons and hence the number (not the energy) of photoelectrons."
+  },
+  {
+   "ref": "Q32(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.4",
+    "12.6.1.3"
+   ],
+   "question": "Electron microscopes use a high-precision electron velocity selector consisting of an electric field $E$ perpendicular to a magnetic field $B$. Electrons travelling at the required velocity $v_0$ hit the aperture at point Y, while electrons travelling slower or faster hit the aperture plate. Show that the velocity of an electron that travels straight through the aperture to point Y is given by $v_0=\\dfrac EB$.",
+   "answer": "To travel straight, the electric force and magnetic force must balance: $qE=qv_0B$, so $v_0=\\dfrac EB$ (the charge cancels).",
+   "images": [
+    "assets/img/phys-2023-newington/q32.png"
+   ]
+  },
+  {
+   "ref": "Q32(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "Electron microscopes use a high-precision electron velocity selector consisting of an electric field $E$ perpendicular to a magnetic field $B$. Electrons travelling at the required velocity $v_0$ hit the aperture at point Y, while electrons travelling slower or faster hit the aperture plate. Calculate the magnitude of the velocity $v_0$ of an electron that travels straight through the aperture if $E=500\\ \\text{kV m}^{-1}$ and $B=0.25$ T.",
+   "answer": "$v_0=\\dfrac EB=\\dfrac{500\\times10^3}{0.25}=2.0\\times10^6\\ \\text{m s}^{-1}$.",
+   "images": [
+    "assets/img/phys-2023-newington/q32.png"
+   ]
+  },
+  {
+   "ref": "Q32(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "Electron microscopes use a high-precision electron velocity selector consisting of an electric field $E$ perpendicular to a magnetic field $B$. Electrons travelling at the required velocity $v_0$ hit the aperture at point Y, while electrons travelling slower or faster hit the aperture plate. At which of the points X, Y or Z would an electron travelling faster than $v_0$ arrive?",
+   "answer": "Z. The electric force is independent of speed, but the magnetic force $qvB$ increases with speed. The magnetic force is therefore larger than the electric force, and the electron deflects in the direction of the magnetic force, which is towards Z.",
+   "images": [
+    "assets/img/phys-2023-newington/q32.png"
+   ]
+  },
+  {
+   "ref": "Q33(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.4.6",
+    "12.7.4.4"
+   ],
+   "question": "In stars, a helium-3 nucleus and a helium-4 nucleus can fuse to produce beryllium-7 with the release of energy in the form of gamma radiation. The masses of the nuclei are: helium-3 3.01493 u, helium-4 4.00151 u, beryllium-7 7.01473 u. Calculate the energy released, in J, when a helium-3 nucleus fuses with a helium-4 nucleus.",
+   "answer": "Mass defect $=3.01493+4.00151-7.01473=0.00171$ u. $E=0.00171\\times931.5=1.59$ MeV $=1.59\\times10^6\\times1.6\\times10^{-19}=2.5\\times10^{-13}$ J. (Alternatively, $0.00171\\times1.66\\times10^{-27}=2.84\\times10^{-30}$ kg and $E=mc^2=2.6\\times10^{-13}$ J.)"
+  },
+  {
+   "ref": "Q33(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.3"
+   ],
+   "question": "In stars, a helium-3 nucleus and a helium-4 nucleus can fuse to produce beryllium-7 with the release of energy in the form of gamma radiation. The masses of the nuclei are: helium-3 3.01493 u, helium-4 4.00151 u, beryllium-7 7.01473 u. Assume that in this interaction the energy is released as a single gamma-ray photon. Calculate the wavelength of the gamma radiation.",
+   "answer": "$E=\\dfrac{hc}\\lambda$, so $\\lambda=\\dfrac{hc}E=\\dfrac{6.63\\times10^{-34}\\times3.0\\times10^8}{2.5\\times10^{-13}}=7.8\\times10^{-13}$ m."
+  },
+  {
+   "ref": "Q33(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.1.6",
+    "12.8.1.7"
+   ],
+   "question": "The reaction that forms beryllium occurs in some red giant stars before they become white dwarfs. Compare the surface temperatures and luminosities of red giant stars with white dwarf stars.",
+   "answer": "Red giants have lower surface temperatures than white dwarfs (red giants are cool, about 3000-5000 K; white dwarfs are very hot). Red giants have much higher luminosities than white dwarfs, because of their enormous surface area (white dwarfs are very small and so faint despite being hot)."
+  },
+  {
+   "ref": "Q34(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.4.2"
+   ],
+   "question": "The activity of a radioactive source is initially 600 counts per minute but drops to 100 after 6 hours. Determine the decay constant for this source.",
+   "answer": "$A=A_0e^{-\\lambda t}$: $100=600e^{-6\\lambda}$, so $e^{-6\\lambda}=\\dfrac16$ and $\\lambda=\\dfrac{\\ln6}6=0.30\\ \\text{h}^{-1}$."
+  },
+  {
+   "ref": "Q34(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.4.2"
+   ],
+   "question": "The decay constant of a radioactive source is $0.299\\ \\text{h}^{-1}$. Determine the half-life of the source.",
+   "answer": "$t_{1/2}=\\dfrac{\\ln2}\\lambda=\\dfrac{0.693}{0.299}=2.3$ hours."
+  },
+  {
+   "ref": "Q35(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.2.2"
+   ],
+   "question": "The 'plum pudding' model of the atom was used by scientists in the early part of the 20th century. They knew that atoms contained negatively charged electrons and that an atom was electrically neutral overall. What did this allow the scientists to deduce about the 'pudding' part of the atom?",
+   "answer": "The 'pudding' must be positively charged, with a total charge equal in magnitude to the charge of the electrons, so that the atom is neutral overall."
+  },
+  {
+   "ref": "Q35(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.2.2"
+   ],
+   "question": "In 1909 Rutherford (assisted by Geiger and Marsden) fired alpha particles at a very thin sheet of gold. The measurements showed that while most alpha particles went through the gold foil undeflected, very few alpha particles were deflected backwards. Explain how Rutherford accounted for this result.",
+   "answer": "Most alpha particles passed straight through, so the atom is mostly empty space. The few that were deflected backwards were repelled by a very small, very dense, positively charged nucleus containing most of the atom's mass (the large-angle deflection requires a strong repulsive force from a concentrated positive charge), which contradicts the plum pudding model."
+  }
+ ]
+}
