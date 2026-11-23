@@ -1,0 +1,675 @@
+{
+ "id": "ext2-2026-sydney-tech",
+ "course": "extension2",
+ "school": "Sydney Tech",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "Sydney Tech 2026 w. sol"
+ },
+ "indexed": "2026-11-24",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q15(e)",
+   "reason": "Not in 2024 syllabus: motion with kinetic friction ($F=\\mu N$) on a rough surface (the syllabus covers pulley problems on smooth surfaces only)"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.4.2"
+   ],
+   "question": "What is the scalar product of $19\\mathbf i-4\\mathbf j-6\\mathbf k$ and $3\\mathbf i+8\\mathbf j-7\\mathbf k$?",
+   "answer": "$19(3)+(-4)(8)+(-6)(-7)=57-32+42=67$ (B).",
+   "course": "extension1",
+   "options": [
+    "66",
+    "67",
+    "76",
+    "77"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.6"
+   ],
+   "question": "Given $\\overrightarrow{OA}=\\begin{pmatrix}-2\\\\1\\\\1\\end{pmatrix}$ and $\\overrightarrow{OB}=\\begin{pmatrix}1\\\\-2\\\\1\\end{pmatrix}$, which of the following vectors is parallel to $\\overrightarrow{AB}$?",
+   "answer": "$\\overrightarrow{AB}=\\overrightarrow{OB}-\\overrightarrow{OA}=\\begin{pmatrix}3\\\\-3\\\\0\\end{pmatrix}=-3\\begin{pmatrix}-1\\\\1\\\\0\\end{pmatrix}$, parallel to $\\begin{pmatrix}-1\\\\1\\\\0\\end{pmatrix}$ (A).",
+   "course": "extension1",
+   "options": [
+    "$\\begin{pmatrix}-1\\\\1\\\\0\\end{pmatrix}$",
+    "$\\begin{pmatrix}-1\\\\1\\\\1\\end{pmatrix}$",
+    "$\\begin{pmatrix}1\\\\1\\\\0\\end{pmatrix}$",
+    "$\\begin{pmatrix}-1\\\\-1\\\\1\\end{pmatrix}$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "With a suitable substitution, $\\displaystyle\\int_0^{\\pi/3}\\tan^5x\\sec^4x\\,dx$ can be expressed as:",
+   "answer": "Let $u=\\tan x$, $du=\\sec^2x\\,dx$, and $\\sec^2x=1+u^2$. Then $\\tan^5x\\sec^4x\\,dx=u^5(1+u^2)\\,du=(u^5+u^7)\\,du$. When $x=0$, $u=0$; when $x=\\frac\\pi3$, $u=\\sqrt3$. So the integral is $\\int_0^{\\sqrt3}(u^5+u^7)\\,du$ (B).",
+   "options": [
+    "$\\displaystyle\\int_1^2(u^5+u^7)\\,du$",
+    "$\\displaystyle\\int_0^{\\sqrt3}(u^5+u^7)\\,du$",
+    "$\\displaystyle\\int_0^{\\sqrt3}u^3(u^2-1)^2\\,du$",
+    "$\\displaystyle\\int_1^2(u^4+u^6)\\,du$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.10"
+   ],
+   "question": "For any two complex numbers $z_1$ and $z_2$, which of the following inequalities is always true?",
+   "answer": "The reverse triangle inequality: $|z_1+z_2|\\ge\\big||z_1|-|z_2|\\big|$ (D). The others fail: for $z_1=z_2=1$, (A) is $0\\ge2$ and (B) is $2\\le0$; for $z_1=1,z_2=-1$, (C) is $2\\le0$.",
+   "options": [
+    "$|z_1-z_2|\\ge|z_1|+|z_2|$",
+    "$|z_1+z_2|\\le|z_1|-|z_2|$",
+    "$|z_1-z_2|\\le\\big||z_1|-|z_2|\\big|$",
+    "$|z_1+z_2|\\ge\\big||z_1|-|z_2|\\big|$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "$f(x)$ is continuous, differentiable and integrable over its domain.\n$\\displaystyle\\int_0^{\\pi/2}f(x)\\cos x\\,dx=2$, $f(0)=-1$ and $f\\left(\\tfrac\\pi2\\right)=3$.\n\nEvaluate $I=\\displaystyle\\int_0^{\\pi/2}f'(x)\\sin x\\,dx$.",
+   "answer": "By parts with $u=f(x)$, $v'=\\cos x$: $\\int_0^{\\pi/2}f(x)\\cos x\\,dx=\\Big[f(x)\\sin x\\Big]_0^{\\pi/2}-\\int_0^{\\pi/2}f'(x)\\sin x\\,dx$.\n\nSo $2=f\\left(\\frac\\pi2\\right)(1)-f(0)(0)-I=3-I$, giving $I=1$ (A).",
+   "options": [
+    "$I=1$",
+    "$I=2$",
+    "$I=5$",
+    "$I=6$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.3"
+   ],
+   "question": "Which of the following functions does NOT describe simple harmonic motion?",
+   "answer": "A function describes SHM if it can be written as $A\\sin(nt+\\alpha)+c$ (a single frequency).\n\n(A) $4\\sin^2t+3\\cos2t=2-2\\cos2t+3\\cos2t=2+\\cos2t$: SHM.\n(B) both terms have frequency $3$, so they combine into one sinusoid $R\\sin(3t+\\beta)$: SHM.\n(C) $5\\sin4t+12\\cos4t-3=13\\sin(4t+\\alpha)-3$: SHM.\n(D) $3\\sin5t-2\\cos3t$ mixes two different frequencies, so it is periodic but not SHM (D).",
+   "options": [
+    "$4\\sin^2t+3\\cos2t$",
+    "$3\\sin\\left(3t+\\frac\\pi6\\right)-2\\cos\\left(3t-\\frac\\pi3\\right)$",
+    "$5\\sin4t+12\\cos4t-3$",
+    "$3\\sin5t-2\\cos3t$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.6"
+   ],
+   "question": "A 3D shape is formed by placing two right prisms side by side, as shown in the diagram. One prism has a square base $ABFE$ and the other has a regular hexagonal base $EFILKH$. Both prisms have the same height, and all base edges have the same length.\n\nWhich of the following represents $\\overrightarrow{DK}$?",
+   "answer": "In the diagram, $\\overrightarrow{AE}=\\overrightarrow{DG}=\\overrightarrow{BF}$, $\\overrightarrow{AB}=\\overrightarrow{EF}$ and $\\overrightarrow{IL}=\\overrightarrow{FH}$ (hexagon edges), $\\overrightarrow{HK}=\\overrightarrow{FI}$.\n\nOption (C): $\\overrightarrow{AE}+\\overrightarrow{HK}-\\overrightarrow{AB}-\\overrightarrow{FG}+\\overrightarrow{IL}$. A route from $D$ to $K$: $\\overrightarrow{DG}$ ($=\\overrightarrow{AE}$), then $\\overrightarrow{GF}$ ($=-\\overrightarrow{FG}$, up the edge), then $\\overrightarrow{FE}$ ($=-\\overrightarrow{AB}$), then $\\overrightarrow{EH}$ ($=\\overrightarrow{IL}$), then $\\overrightarrow{HK}$. So $\\overrightarrow{DK}=\\overrightarrow{AE}-\\overrightarrow{FG}-\\overrightarrow{AB}+\\overrightarrow{IL}+\\overrightarrow{HK}$, which is (C).\n\nChecking the others by components, none of (A), (B), (D) gives $\\overrightarrow{DK}$; for example (B) $\\overrightarrow{DG}+\\overrightarrow{GJ}+\\overrightarrow{IL}-\\overrightarrow{KL}$ has the right horizontal displacement but its vertical displacement falls short of that of $\\overrightarrow{DK}$ by one prism height.",
+   "course": "extension1",
+   "options": [
+    "$\\overrightarrow{DK}=\\overrightarrow{AB}-\\overrightarrow{AC}+\\overrightarrow{AE}-\\overrightarrow{HE}+\\overrightarrow{HK}$",
+    "$\\overrightarrow{DK}=\\overrightarrow{DG}+\\overrightarrow{GJ}+\\overrightarrow{IL}-\\overrightarrow{KL}$",
+    "$\\overrightarrow{DK}=\\overrightarrow{AE}+\\overrightarrow{HK}-\\overrightarrow{AB}-\\overrightarrow{FG}+\\overrightarrow{IL}$",
+    "$\\overrightarrow{DK}=\\overrightarrow{AE}+\\overrightarrow{HK}+\\overrightarrow{AB}-\\overrightarrow{AC}+\\overrightarrow{IL}$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/ext2-2026-sydney-tech/q7.png"
+   ]
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.1.14"
+   ],
+   "question": "Which of the following best represents the parametric equation of the 3D curve shown?",
+   "answer": "The curve stays within $|x|\\le1$, $|y|\\le1$ and its height satisfies $|z|\\le\\frac\\pi2\\approx1.6$ (the $z$-axis scale shows values up to about $\\pm1.6$). Option C has $z=\\arccos(\\cos\\pi t)$ ranging up to $\\pi$, and option D has $y=\\arccos(\\cos\\pi t)$ ranging up to $\\pi$, so both are too large. That leaves A and B, where $z=\\arcsin(\\sin\\pi t)\\in[-\\frac\\pi2,\\frac\\pi2]$.\n\nBetween A and B: the highest point on the curve is at positive $x$ (right-hand side); in B, $z=\\arcsin(\\sin\\pi t)$ is at its maximum $\\frac\\pi2$ when $\\sin\\pi t=1$, i.e. at $x=\\sin\\pi t=1$. Also at $t=1$, B gives $(0,-1,0)$, which lies on the curve (A gives $(-1,0,0)$ there, which does not). So the answer is (B).",
+   "options": [
+    "$(\\cos\\pi t,\\ \\sin\\pi t,\\ \\arcsin(\\sin\\pi t)),\\ -2\\pi\\le t\\le2\\pi$",
+    "$(\\sin\\pi t,\\ \\cos\\pi t,\\ \\arcsin(\\sin\\pi t)),\\ -2\\pi\\le t\\le2\\pi$",
+    "$(\\sin\\pi t,\\ \\cos\\pi t,\\ \\arccos(\\cos\\pi t)),\\ -2\\pi\\le t\\le2\\pi$",
+    "$(\\cos\\pi t,\\ \\arccos(\\cos\\pi t),\\ \\sin\\pi t),\\ -2\\pi\\le t\\le2\\pi$"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/ext2-2026-sydney-tech/q8.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.5.5"
+   ],
+   "question": "The intersection of four regions on the Argand diagram forms a kite with diagonals running along the real and imaginary axes. The regions are defined by:\n$\\arg(z-i)\\le-\\frac\\pi3$, $\\arg(z+i)\\le\\frac\\pi3$, $\\arg(z+\\sqrt3)\\le\\frac\\pi6$, $\\arg(z+\\sqrt3)\\ge-\\frac\\pi6$.\n\nWhat is the exact area of the kite?",
+   "answer": "The kite has vertices at $i$ and $-i$ (on the imaginary axis) and on the real axis at the points where the boundary rays meet it.\n\nRay from $i$ at angle $-\\frac\\pi3$ meets the real axis where $\\tan\\frac\\pi3=\\frac1p$, i.e. at $x=p=\\frac1{\\sqrt3}$ (the same by symmetry for the ray from $-i$). The rays from $-\\sqrt3$ at angles $\\pm\\frac\\pi6$ meet the imaginary axis at $\\pm1$ (since $\\sqrt3\\tan\\frac\\pi6=1$), consistent with the vertices $\\pm i$, and the left vertex is at $-\\sqrt3$.\n\nDiagonals: vertical $2$ (from $-i$ to $i$), horizontal $\\sqrt3+\\frac1{\\sqrt3}=\\frac4{\\sqrt3}$.\n\nArea $=\\frac12\\times2\\times\\frac4{\\sqrt3}=\\dfrac4{\\sqrt3}$ (B). (The open/closed boundary points do not affect the area.)",
+   "options": [
+    "$\\dfrac2{\\sqrt3}$",
+    "$\\dfrac4{\\sqrt3}$",
+    "$\\dfrac8{\\sqrt3}$",
+    "$2\\sqrt3$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.15"
+   ],
+   "question": "$f(x)$ is a continuous and integrable function over the real numbers. Given that $f(2x)=3f(x)$ and $\\displaystyle\\int_0^1f(x)\\,dx=2$, find $\\displaystyle\\int_1^2f(x)\\,dx$.",
+   "answer": "$f(x)=\\frac13f(2x)$, so $2=\\int_0^1\\frac13f(2x)\\,dx$. With $u=2x$, $dx=\\frac{du}2$: $2=\\frac16\\int_0^2f(u)\\,du$, so $\\int_0^2f(x)\\,dx=12$.\n\nThen $\\int_1^2f(x)\\,dx=\\int_0^2f(x)\\,dx-\\int_0^1f(x)\\,dx=12-2=10$ (C).",
+   "options": [
+    "4",
+    "6",
+    "10",
+    "12"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.4"
+   ],
+   "question": "Find $\\displaystyle\\int2\\cos5x\\cos4x\\,dx$.",
+   "answer": "$2\\cos5x\\cos4x=\\cos9x+\\cos x$ (using $\\cos A\\cos B=\\frac12[\\cos(A-B)+\\cos(A+B)]$).\n\n$\\int(\\cos9x+\\cos x)\\,dx=\\dfrac{\\sin9x}9+\\sin x+c$.\n\n(The paper's solution writes the integrand as $\\cos9x-\\sin x$ and gets $\\frac{\\sin9x}9+\\cos x$; that is incorrect.)"
+  },
+  {
+   "ref": "Q11(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.4"
+   ],
+   "question": "Write the number $1-\\sqrt3\\,i$ in modulus–argument (polar) form.\n\n(The original paper asked for exponential form.)",
+   "answer": "$|1-\\sqrt3i|=\\sqrt{1+3}=2$ and $\\arg=-\\frac\\pi3$ (fourth quadrant, $\\tan^{-1}\\sqrt3=\\frac\\pi3$).\n\n$1-\\sqrt3\\,i=2\\left(\\cos\\left(-\\frac\\pi3\\right)+i\\sin\\left(-\\frac\\pi3\\right)\\right)$."
+  },
+  {
+   "ref": "Q11(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "Given that $1-\\sqrt3\\,i=2\\left(\\cos\\left(-\\frac\\pi3\\right)+i\\sin\\left(-\\frac\\pi3\\right)\\right)$, write $\\left(1-\\sqrt3\\,i\\right)^6$ in exact Cartesian form.",
+   "answer": "By de Moivre's theorem, $\\left(1-\\sqrt3i\\right)^6=2^6\\left(\\cos(-2\\pi)+i\\sin(-2\\pi)\\right)=64(1+0i)=64$."
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.8"
+   ],
+   "question": "Find the values of $\\alpha$ and $\\beta$ such that the points $(-3,\\alpha,\\beta)$, $(5,4,2)$ and $(3,12,2)$ are collinear.",
+   "answer": "The line through $(5,4,2)$ and $(3,12,2)$ has direction $(5,4,2)-(3,12,2)=(2,-8,0)$, so points on it are $(5,4,2)+\\lambda(2,-8,0)$.\n\n$x$: $5+2\\lambda=-3\\Rightarrow\\lambda=-4$. $y$: $\\alpha=4-8(-4)=36$. $z$: $\\beta=2$.\n\nSo $\\alpha=36$, $\\beta=2$."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.4"
+   ],
+   "question": "Solve the quadratic equation $z^2-6z+13=0$ over the complex numbers, giving your answer in Cartesian form.",
+   "answer": "$z=\\dfrac{6\\pm\\sqrt{36-52}}2=\\dfrac{6\\pm4i}2=3\\pm2i$."
+  },
+  {
+   "ref": "Q11(e)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "$O$ and $A$ are two points such that $\\overrightarrow{OA}=\\mathbf i+\\mathbf j-4\\mathbf k$ and $\\overrightarrow{OB}=5\\mathbf i+4\\mathbf j+3\\mathbf k$.\n\nFind the angle between $\\overrightarrow{OA}$ and $\\overrightarrow{OB}$ to the nearest degree.",
+   "answer": "$\\overrightarrow{OA}\\cdot\\overrightarrow{OB}=5+4-12=-3$, $|\\overrightarrow{OA}|=\\sqrt{18}$, $|\\overrightarrow{OB}|=\\sqrt{50}$, so $|\\overrightarrow{OA}||\\overrightarrow{OB}|=\\sqrt{900}=30$.\n\n$\\cos\\theta=-\\frac3{30}=-\\frac1{10}$, so $\\theta\\approx96^\\circ$.",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q11(e)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "$O$ and $A$ are two points such that $\\overrightarrow{OA}=\\mathbf i+\\mathbf j-4\\mathbf k$ and $\\overrightarrow{OB}=5\\mathbf i+4\\mathbf j+3\\mathbf k$, and the angle $\\theta$ between $\\overrightarrow{OA}$ and $\\overrightarrow{OB}$ satisfies $\\cos\\theta=-\\frac1{10}$ (with $|\\overrightarrow{OA}||\\overrightarrow{OB}|=30$).\n\nFind the exact area of triangle $OAB$.",
+   "answer": "$\\theta$ is obtuse so $\\sin\\theta>0$: $\\sin\\theta=\\sqrt{1-\\frac1{100}}=\\frac{\\sqrt{99}}{10}=\\frac{3\\sqrt{11}}{10}$.\n\nArea $=\\frac12|\\overrightarrow{OA}||\\overrightarrow{OB}|\\sin\\theta=\\frac12(30)\\frac{3\\sqrt{11}}{10}=\\dfrac{9\\sqrt{11}}2$ square units.",
+   "course": "advanced"
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_1^e\\frac{(\\ln x)^3}x\\,dx$.",
+   "answer": "Let $u=\\ln x$, $du=\\frac{dx}x$; $x=1\\to u=0$, $x=e\\to u=1$.\n\n$\\int_0^1u^3\\,du=\\left[\\frac{u^4}4\\right]_0^1=\\dfrac14$."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.7"
+   ],
+   "question": "Solve $z=\\sqrt[3]{i}$, giving your answers in Cartesian form.",
+   "answer": "$z^3=i=\\cos\\frac\\pi2+i\\sin\\frac\\pi2$, so $z=\\cos\\left(\\frac\\pi6+\\frac{2k\\pi}3\\right)+i\\sin\\left(\\frac\\pi6+\\frac{2k\\pi}3\\right)$, $k=0,1,2$.\n\n$k=0$: $\\cos\\frac\\pi6+i\\sin\\frac\\pi6=\\frac{\\sqrt3}2+\\frac12i$.\n$k=1$: $\\cos\\frac{5\\pi}6+i\\sin\\frac{5\\pi}6=-\\frac{\\sqrt3}2+\\frac12i$.\n$k=2$: $\\cos\\left(-\\frac\\pi2\\right)+i\\sin\\left(-\\frac\\pi2\\right)=-i$."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.5.5"
+   ],
+   "question": "Shade the region in the complex plane defined by $1<\\text{Im}(z)\\le4$ and $\\dfrac\\pi4\\le\\arg(z)\\le\\dfrac{3\\pi}4$.",
+   "answer": "$\\frac\\pi4\\le\\arg z\\le\\frac{3\\pi}4$ is the wedge above the origin bounded by the rays $y=|x|$ (including the rays). $1<\\text{Im}(z)\\le4$ is the strip above the line $y=1$ (excluded, dashed) up to and including $y=4$.\n\nThe region is the trapezium between $y=1$ and $y=4$ inside the wedge, with vertices $(\\pm1,1)$ and $(\\pm4,4)$: the boundary $y=1$ is dashed, the other three sides are solid.",
+   "answer_images": [
+    "assets/img/ext2-2026-sydney-tech/q12c-ans.png"
+   ]
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.8",
+    "12.5.2.4"
+   ],
+   "question": "A particle is moving in simple harmonic motion described by $\\ddot x=-9(x-2)$. When the particle passes through the point $x=-1$ m its speed is $6\\sqrt3$ m s$^{-1}$.\n\nFind the distance the particle travels during a full period of its motion.",
+   "answer": "The centre is $c=2$ and $n^2=9$. With amplitude $a$: $v^2=n^2\\left(a^2-(x-c)^2\\right)$.\n\nAt $x=-1$: $(6\\sqrt3)^2=9\\left(a^2-(-3)^2\\right)\\Rightarrow108=9a^2-81\\Rightarrow a^2=21$, so $a=\\sqrt{21}$ m.\n\nIn one full period the particle travels $4a=4\\sqrt{21}$ m."
+  },
+  {
+   "ref": "Q12(e)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.9"
+   ],
+   "question": "The points $A=(-1,0,0)$, $B=(0,1,0)$ and $C=(0,0,1)$ are three of the vertices of a regular unit octahedron centred at the origin.\n\nFind $\\text{proj}_{\\overrightarrow{BC}}\\overrightarrow{AB}$.",
+   "answer": "$\\overrightarrow{AB}=\\begin{pmatrix}1\\\\1\\\\0\\end{pmatrix}$, $\\overrightarrow{BC}=\\begin{pmatrix}0\\\\-1\\\\1\\end{pmatrix}$, $|\\overrightarrow{BC}|^2=2$.\n\n$\\text{proj}_{\\overrightarrow{BC}}\\overrightarrow{AB}=\\dfrac{\\overrightarrow{AB}\\cdot\\overrightarrow{BC}}{|\\overrightarrow{BC}|^2}\\overrightarrow{BC}=\\dfrac{-1}2\\begin{pmatrix}0\\\\-1\\\\1\\end{pmatrix}=\\begin{pmatrix}0\\\\\\frac12\\\\-\\frac12\\end{pmatrix}$.",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q12(e)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.11"
+   ],
+   "question": "The points $A=(-1,0,0)$, $B=(0,1,0)$ and $C=(0,0,1)$ are three vertices of a regular unit octahedron centred at the origin. It is known that $\\text{proj}_{\\overrightarrow{BC}}\\overrightarrow{AB}=\\begin{pmatrix}0\\\\\\frac12\\\\-\\frac12\\end{pmatrix}$.\n\nHence or otherwise find the shortest distance from $A$ to the line $BC$.",
+   "answer": "The shortest distance is the length of the component of $\\overrightarrow{AB}$ perpendicular to $BC$:\n\n$\\overrightarrow{AB}-\\text{proj}_{\\overrightarrow{BC}}\\overrightarrow{AB}=\\begin{pmatrix}1\\\\1\\\\0\\end{pmatrix}-\\begin{pmatrix}0\\\\\\frac12\\\\-\\frac12\\end{pmatrix}=\\begin{pmatrix}1\\\\\\frac12\\\\\\frac12\\end{pmatrix}$.\n\nDistance $=\\sqrt{1+\\frac14+\\frac14}=\\sqrt{\\frac32}=\\dfrac{\\sqrt6}2$.",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.9"
+   ],
+   "question": "Evaluate $\\displaystyle\\sum_{n=1}^{2026}i^n$.",
+   "answer": "Since $i+i^2+i^3+i^4=i-1-i+1=0$, every block of four consecutive powers sums to $0$. $2026=4\\times506+2$, so the first $2024$ terms sum to $0$ and the remaining terms are $i^{2025}+i^{2026}=i+(-1)$.\n\nSum $=i-1$."
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.3.2"
+   ],
+   "question": "Show that $x+\\dfrac1x\\ge2$ for all positive real numbers $x$.",
+   "answer": "$\\left(\\sqrt x-\\frac1{\\sqrt x}\\right)^2\\ge0\\Rightarrow x-2+\\frac1x\\ge0\\Rightarrow x+\\frac1x\\ge2$.\n\n(The paper's last line misprints '$\\ge0$' for '$\\ge2$'.)"
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.1.3.2"
+   ],
+   "question": "Given that $x+\\dfrac1x\\ge2$ for all positive real numbers $x$, prove that for four positive real numbers $a,b,c,d$ with $a\\ne b\\ne c\\ne d$,\n$$\\left(\\frac ab-\\frac cd\\right)\\left(\\frac ba-\\frac dc\\right)\\le0.$$",
+   "answer": "Expanding: $\\left(\\frac ab-\\frac cd\\right)\\left(\\frac ba-\\frac dc\\right)=1-\\frac{ad}{bc}-\\frac{bc}{ad}+1=2-\\left(\\frac{bc}{ad}+\\frac{ad}{bc}\\right)$.\n\nWith $x=\\frac{bc}{ad}>0$, $x+\\frac1x\\ge2$, so the expression is $\\le2-2=0$.\n\n(Alternatively: $\\frac ab-\\frac cd=\\frac{ad-bc}{bd}$ and $\\frac ba-\\frac dc=\\frac{bc-ad}{ac}$, so the product is $-\\frac{(ad-bc)^2}{abcd}\\le0$.)"
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.8",
+    "12.4.1.6"
+   ],
+   "question": "Use the substitution $u^2=5-x$, $u>0$ to show that\n$$\\int_1^4\\frac3{x+4\\sqrt{5-x}}\\,dx=\\ln\\left(\\frac{2048}{729}\\right).$$",
+   "answer": "$x=5-u^2$, $dx=-2u\\,du$. When $x=1$, $u=2$; when $x=4$, $u=1$.\n\n$\\int_1^4\\frac3{x+4\\sqrt{5-x}}dx=\\int_2^1\\frac{3(-2u)}{5-u^2+4u}du=\\int_1^2\\frac{6u}{5+4u-u^2}du=\\int_1^2\\frac{6u}{(5-u)(u+1)}du$.\n\nPartial fractions: $\\frac{6u}{(5-u)(u+1)}=\\frac A{5-u}+\\frac B{u+1}$, so $6u=A(u+1)+B(5-u)$. $u=5$: $30=6A\\Rightarrow A=5$. $u=-1$: $-6=6B\\Rightarrow B=-1$.\n\n$\\int_1^2\\left(\\frac5{5-u}-\\frac1{u+1}\\right)du=\\Big[-5\\ln(5-u)-\\ln(u+1)\\Big]_1^2=(-5\\ln3-\\ln3)-(-5\\ln4-\\ln2)=5\\ln4+\\ln2-6\\ln3$\n\n$=\\ln\\frac{4^5\\times2}{3^6}=\\ln\\frac{2048}{729}$."
+  },
+  {
+   "ref": "Q13(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "Consider the complex number $z=\\cos\\theta-i\\sin\\theta$. Use de Moivre's theorem to show that $z^n+\\dfrac1{z^n}=2\\cos n\\theta$, $n\\in\\mathbb Z$.",
+   "answer": "$z=\\cos(-\\theta)+i\\sin(-\\theta)$, so by de Moivre's theorem $z^n=\\cos(-n\\theta)+i\\sin(-n\\theta)=\\cos n\\theta-i\\sin n\\theta$ and $\\frac1{z^n}=z^{-n}=\\cos n\\theta+i\\sin n\\theta$.\n\nAdding: $z^n+\\frac1{z^n}=2\\cos n\\theta$."
+  },
+  {
+   "ref": "Q13(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Let $z=\\cos\\theta-i\\sin\\theta$, so that $z^n+\\dfrac1{z^n}=2\\cos n\\theta$ for $n\\in\\mathbb Z$. Hence or otherwise express $\\left(z+\\dfrac1z\\right)^5$ in the form $A\\cos5\\theta+B\\cos3\\theta+C\\cos\\theta$ where $A,B,C\\in\\mathbb R$.",
+   "answer": "$\\left(z+\\frac1z\\right)^5=z^5+5z^3+10z+\\frac{10}z+\\frac5{z^3}+\\frac1{z^5}=\\left(z^5+\\frac1{z^5}\\right)+5\\left(z^3+\\frac1{z^3}\\right)+10\\left(z+\\frac1z\\right)$\n\n$=2\\cos5\\theta+10\\cos3\\theta+20\\cos\\theta$.\n\nSo $A=2$, $B=10$, $C=20$."
+  },
+  {
+   "ref": "Q13(d)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Given that, for $z=\\cos\\theta-i\\sin\\theta$, $\\left(z+\\dfrac1z\\right)^5=2\\cos5\\theta+10\\cos3\\theta+20\\cos\\theta$ and $z+\\dfrac1z=2\\cos\\theta$, evaluate $\\displaystyle\\int_0^{\\pi/2}\\cos^5\\theta\\,d\\theta$.",
+   "answer": "$\\left(z+\\frac1z\\right)^5=(2\\cos\\theta)^5=32\\cos^5\\theta$, so $\\cos^5\\theta=\\frac1{16}\\left(\\cos5\\theta+5\\cos3\\theta+10\\cos\\theta\\right)$.\n\n$\\int_0^{\\pi/2}\\cos^5\\theta\\,d\\theta=\\frac1{16}\\left[\\frac{\\sin5\\theta}5+\\frac{5\\sin3\\theta}3+10\\sin\\theta\\right]_0^{\\pi/2}=\\frac1{16}\\left(\\frac15-\\frac53+10\\right)=\\frac1{16}\\cdot\\frac{128}{15}=\\dfrac8{15}$."
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "A particle initially at the origin moves in a straight line with an initial velocity of $1$ m s$^{-1}$ such that its acceleration $a$ m s$^{-2}$ is given by $a=v\\sqrt{4-v^2}$.\n\nFind its exact velocity when its displacement $x=\\dfrac\\pi6$.",
+   "answer": "$a=v\\frac{dv}{dx}=v\\sqrt{4-v^2}\\Rightarrow\\frac{dv}{dx}=\\sqrt{4-v^2}$ (for $v>0$).\n\n$\\int_1^v\\frac{dv}{\\sqrt{4-v^2}}=\\int_0^{\\pi/6}dx\\Rightarrow\\left[\\sin^{-1}\\frac v2\\right]_1^v=\\frac\\pi6$.\n\n$\\sin^{-1}\\frac v2-\\sin^{-1}\\frac12=\\frac\\pi6\\Rightarrow\\sin^{-1}\\frac v2=\\frac\\pi3\\Rightarrow v=2\\sin\\frac\\pi3=\\sqrt3$ m s$^{-1}$."
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "A particle initially at the origin moves in a straight line with initial velocity $1$ m s$^{-1}$ such that its acceleration is $a=v\\sqrt{4-v^2}$ m s$^{-2}$. With relevant mathematical reasoning, describe the eventual motion of the particle.",
+   "answer": "Initially $v=1>0$ so $a=v\\sqrt{4-v^2}>0$ and the velocity increases. From $\\sin^{-1}\\frac v2=x+\\frac\\pi6$, the velocity is $v=2\\sin\\left(x+\\frac\\pi6\\right)$, which increases to $v=2$ at $x=\\frac\\pi3$, where $a=2\\sqrt{4-4}=0$.\n\nAt $v=2$ the acceleration is zero, so the velocity stops increasing: the particle eventually moves at a constant velocity of $2$ m s$^{-1}$ (it never exceeds $2$, since $a\\to0$ as $v\\to2$ and $a>0$ for $0<v<2$)."
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "Find the exact volume of the solid formed when $y=\\sqrt{2x\\arctan x}$ is rotated about the $x$-axis, between $x=0$ and $x=\\sqrt3$.",
+   "answer": "$V=\\pi\\int_0^{\\sqrt3}y^2\\,dx=\\pi\\int_0^{\\sqrt3}2x\\tan^{-1}x\\,dx$.\n\nBy parts with $u=\\tan^{-1}x$, $v'=2x$ ($u'=\\frac1{1+x^2}$, $v=x^2$):\n\n$V=\\pi\\left\\{\\Big[x^2\\tan^{-1}x\\Big]_0^{\\sqrt3}-\\int_0^{\\sqrt3}\\frac{x^2}{1+x^2}dx\\right\\}=\\pi\\left\\{3\\cdot\\frac\\pi3-\\int_0^{\\sqrt3}\\left(1-\\frac1{1+x^2}\\right)dx\\right\\}$\n\n$=\\pi\\left\\{\\pi-\\Big[x-\\tan^{-1}x\\Big]_0^{\\sqrt3}\\right\\}=\\pi\\left\\{\\pi-\\sqrt3+\\frac\\pi3\\right\\}=\\dfrac{4\\pi^2}3-\\sqrt3\\,\\pi$ cubic units.",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "Prove by contradiction that $4x^2-y^2=1$ does not have any integer solutions.",
+   "answer": "Suppose there are integers $x,y$ with $4x^2-y^2=1$. Then $(2x+y)(2x-y)=1$.\n\nBoth factors are integers whose product is $1$, so either both equal $1$ or both equal $-1$.\n\nIf both are $1$: adding gives $4x=2$, so $x=\\frac12$. If both are $-1$: adding gives $4x=-2$, so $x=-\\frac12$.\n\nIn both cases $x$ is not an integer, a contradiction. Hence $4x^2-y^2=1$ has no integer solutions."
+  },
+  {
+   "ref": "Q14(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "$OABC$ is a quadrilateral with $\\overrightarrow{AB}=\\mathbf a$, $\\overrightarrow{BC}=\\mathbf b$ and $\\overrightarrow{OA}=\\mathbf a-\\mathbf b$. $M$ is the midpoint of $BC$ and $X$ is the point on $OM$ such that $OX:XM=n:1$. $X$ also lies on the line $AC$.\n\nExpress $\\overrightarrow{OC}$ in terms of $\\mathbf a$ and/or $\\mathbf b$ in its simplest form.",
+   "answer": "$\\overrightarrow{OC}=\\overrightarrow{OA}+\\overrightarrow{AB}+\\overrightarrow{BC}=(\\mathbf a-\\mathbf b)+\\mathbf a+\\mathbf b=2\\mathbf a$.",
+   "images": [
+    "assets/img/ext2-2026-sydney-tech/q14d.png"
+   ]
+  },
+  {
+   "ref": "Q14(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "$OABC$ is a quadrilateral with $\\overrightarrow{AB}=\\mathbf a$, $\\overrightarrow{BC}=\\mathbf b$ and $\\overrightarrow{OA}=\\mathbf a-\\mathbf b$. $M$ is the midpoint of $BC$ and $X$ is the point on $OM$ such that $OX:XM=n:1$.\n\nExpress $\\overrightarrow{OX}$ in terms of $\\mathbf a$ and $\\mathbf b$ and hence show that $\\overrightarrow{AX}=\\dfrac{n-1}{n+1}\\mathbf a+\\dfrac{n+2}{2(n+1)}\\mathbf b$.",
+   "answer": "$\\overrightarrow{OB}=\\overrightarrow{OA}+\\overrightarrow{AB}=2\\mathbf a-\\mathbf b$, so $\\overrightarrow{OM}=\\overrightarrow{OB}+\\frac12\\mathbf b=2\\mathbf a-\\frac12\\mathbf b$.\n\nSince $OX:XM=n:1$, $\\overrightarrow{OX}=\\frac n{n+1}\\overrightarrow{OM}=\\dfrac{2n}{n+1}\\mathbf a-\\dfrac n{2(n+1)}\\mathbf b$.\n\n$\\overrightarrow{AX}=\\overrightarrow{AO}+\\overrightarrow{OX}=(\\mathbf b-\\mathbf a)+\\frac{2n}{n+1}\\mathbf a-\\frac n{2(n+1)}\\mathbf b=\\frac{2n-(n+1)}{n+1}\\mathbf a+\\frac{2(n+1)-n}{2(n+1)}\\mathbf b=\\dfrac{n-1}{n+1}\\mathbf a+\\dfrac{n+2}{2(n+1)}\\mathbf b$.",
+   "images": [
+    "assets/img/ext2-2026-sydney-tech/q14d.png"
+   ]
+  },
+  {
+   "ref": "Q14(d)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "$OABC$ is a quadrilateral with $\\overrightarrow{AB}=\\mathbf a$, $\\overrightarrow{BC}=\\mathbf b$ and $\\overrightarrow{OA}=\\mathbf a-\\mathbf b$. $X$ lies on $OM$ ($M$ the midpoint of $BC$) with $OX:XM=n:1$, and $X$ also lies on the line $AC$. It is known that $\\overrightarrow{AX}=\\dfrac{n-1}{n+1}\\mathbf a+\\dfrac{n+2}{2(n+1)}\\mathbf b$.\n\nFind the value of $n$.",
+   "answer": "$\\overrightarrow{AC}=\\overrightarrow{AB}+\\overrightarrow{BC}=\\mathbf a+\\mathbf b$. As $X$ is on $AC$, $\\overrightarrow{AX}=\\lambda(\\mathbf a+\\mathbf b)$.\n\n$\\mathbf a,\\mathbf b$ are not parallel, so equate coefficients: $\\lambda=\\frac{n-1}{n+1}$ and $\\lambda=\\frac{n+2}{2(n+1)}$.\n\n$2(n-1)=n+2\\Rightarrow n=4$.",
+   "images": [
+    "assets/img/ext2-2026-sydney-tech/q14d.png"
+   ]
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.7",
+    "12.1.1.11"
+   ],
+   "question": "What is the contrapositive of the following implication?\n$$\\neg(A\\Rightarrow C)\\Rightarrow\\left(\\neg(A\\Rightarrow B)\\ \\text{OR}\\ \\neg(B\\Rightarrow C)\\right)$$",
+   "answer": "The contrapositive of $P\\Rightarrow Q$ is $\\neg Q\\Rightarrow\\neg P$. Here $P=\\neg(A\\Rightarrow C)$ and $Q=\\neg(A\\Rightarrow B)\\vee\\neg(B\\Rightarrow C)$.\n\n$\\neg P=A\\Rightarrow C$, and by De Morgan $\\neg Q=(A\\Rightarrow B)\\wedge(B\\Rightarrow C)$.\n\nContrapositive: $\\left((A\\Rightarrow B)\\ \\text{AND}\\ (B\\Rightarrow C)\\right)\\Rightarrow(A\\Rightarrow C)$."
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^1x(1-x)^n\\,dx$ where $n$ is a positive integer. Show that $I_n=\\dfrac1{(n+1)(n+2)}$.",
+   "answer": "By parts: $u=x$, $v'=(1-x)^n$, so $u'=1$, $v=-\\frac{(1-x)^{n+1}}{n+1}$.\n\n$I_n=\\left[-\\frac{x(1-x)^{n+1}}{n+1}\\right]_0^1+\\frac1{n+1}\\int_0^1(1-x)^{n+1}dx=0+\\frac1{n+1}\\left[-\\frac{(1-x)^{n+2}}{n+2}\\right]_0^1=\\frac1{n+1}\\cdot\\frac1{n+2}$.\n\nSo $I_n=\\dfrac1{(n+1)(n+2)}$."
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.7",
+    "12.1.4.1"
+   ],
+   "question": "Given that $I_k=\\dfrac1{(k+1)(k+2)}$, by considering the partial fraction decomposition of $I_k$, find a closed-form algebraic expression for $S_n=\\displaystyle\\sum_{k=1}^nI_k$.",
+   "answer": "$\\frac1{(k+1)(k+2)}=\\frac1{k+1}-\\frac1{k+2}$ (from $1=A(k+2)+B(k+1)$: $A=1$, $B=-1$).\n\n$S_n=\\left(\\frac12-\\frac13\\right)+\\left(\\frac13-\\frac14\\right)+\\cdots+\\left(\\frac1{n+1}-\\frac1{n+2}\\right)=\\frac12-\\frac1{n+2}=\\dfrac n{2(n+2)}$."
+  },
+  {
+   "ref": "Q15(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.4.1"
+   ],
+   "question": "Use mathematical induction to prove that, for all positive integers $n$,\n$$\\tan\\theta+2\\tan2\\theta+\\cdots+2^{n-1}\\tan\\left(2^{n-1}\\theta\\right)=\\cot\\theta-2^n\\cot\\left(2^n\\theta\\right).$$",
+   "answer": "Let $P(n)$ be the statement.\n\n$n=1$: RHS $=\\cot\\theta-2\\cot2\\theta=\\cot\\theta-2\\cdot\\frac{1-\\tan^2\\theta}{2\\tan\\theta}=\\cot\\theta-\\cot\\theta+\\tan\\theta=\\tan\\theta=$ LHS. True.\n\nAssume $P(k)$: $\\tan\\theta+\\cdots+2^{k-1}\\tan\\left(2^{k-1}\\theta\\right)=\\cot\\theta-2^k\\cot\\left(2^k\\theta\\right)$.\n\nThen for $n=k+1$: LHS $=\\cot\\theta-2^k\\cot(2^k\\theta)+2^k\\tan(2^k\\theta)=\\cot\\theta-2^k\\left(\\cot A-\\tan A\\right)$ with $A=2^k\\theta$.\n\n$\\cot A-\\tan A=\\frac{\\cos^2A-\\sin^2A}{\\sin A\\cos A}=\\frac{2\\cos2A}{\\sin2A}=2\\cot2A$.\n\nSo LHS $=\\cot\\theta-2^{k+1}\\cot(2A)=\\cot\\theta-2^{k+1}\\cot\\left(2^{k+1}\\theta\\right)=$ RHS of $P(k+1)$.\n\n$P(1)$ is true and $P(k)\\Rightarrow P(k+1)$, so by induction $P(n)$ holds for all positive integers $n$."
+  },
+  {
+   "ref": "Q15(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.3.1"
+   ],
+   "question": "Use the fundamental theorem of calculus to show that $\\dfrac d{dx}\\left[\\displaystyle\\int_1^{x^2}\\ln t\\,dt\\right]=4x\\ln x$.",
+   "answer": "Let $g(x)=\\int_1^x\\ln t\\,dt$, so by the fundamental theorem of calculus $g'(x)=\\ln x$. The given integral is $g(x^2)$.\n\nBy the chain rule, $\\frac d{dx}g(x^2)=g'(x^2)\\cdot2x=2x\\ln(x^2)=2x\\cdot2\\ln x=4x\\ln x$.",
+   "course": "advanced"
+  },
+  {
+   "ref": "Q16(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "Prove that the product of two consecutive positive even integers is divisible by $8$.",
+   "answer": "Let the integers be $2n$ and $2n+2$ with $n\\in\\mathbb Z^+$. Their product is $2n(2n+2)=4n(n+1)$.\n\n$n$ and $n+1$ are consecutive integers, so one of them is even and $n(n+1)=2k$ for some integer $k$. Then the product is $4\\cdot2k=8k$, divisible by $8$."
+  },
+  {
+   "ref": "Q16(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "Given that the product of two consecutive positive even integers is divisible by $8$, prove that for all prime numbers $P>3$, $P^2-1$ is divisible by $24$.",
+   "answer": "$P^2-1=(P-1)(P+1)$. $P>3$ is prime, so $P$ is odd, and $P-1$, $P+1$ are consecutive even integers, so their product is divisible by $8$.\n\nAmong the three consecutive integers $P-1,P,P+1$ one is divisible by $3$. $P$ is prime and greater than $3$, so $3\\nmid P$, hence $3$ divides $P-1$ or $P+1$, and so $3$ divides $(P-1)(P+1)$.\n\n$8$ and $3$ are coprime, so $24$ divides $(P-1)(P+1)=P^2-1$."
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.3"
+   ],
+   "question": "An exploratory lander on an exoplanet uses a magnetic launcher to fire a probe of mass $m$ kg vertically upwards. The launcher is positioned at $x=1$, where $x$ is the displacement from the surface in metres. The probe moves through a plasma atmosphere as it travels upwards under gravity $g$ m s$^{-2}$.\n\nThe combined net non-gravitational force $F_r$ acting on the probe is modelled by $F_r=\\dfrac{mg}{x^3}\\left(1+v^2\\right)-mgv^2$, where $v$ is the speed of the probe.\n\nShow that the equation of motion while the probe is moving upwards can be written as $\\dfrac v{1+v^2}\\dfrac{dv}{dx}=-g\\left(1-\\dfrac1{x^3}\\right)$.",
+   "answer": "Taking upwards as positive, the net force is $F_r-mg$ (gravity acts downwards), and $m\\ddot x=mv\\frac{dv}{dx}$:\n\n$mv\\frac{dv}{dx}=\\frac{mg}{x^3}(1+v^2)-mgv^2-mg=\\frac{mg}{x^3}(1+v^2)-mg(1+v^2)=mg(1+v^2)\\left(\\frac1{x^3}-1\\right)$.\n\nDividing by $m(1+v^2)$: $\\dfrac v{1+v^2}\\dfrac{dv}{dx}=-g\\left(1-\\dfrac1{x^3}\\right)$."
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "A probe of mass $m$ is launched upwards from $x=1$ with initial speed $U$ m s$^{-1}$, where $x$ is the height above the surface. While moving upwards its motion satisfies $\\dfrac v{1+v^2}\\dfrac{dv}{dx}=-g\\left(1-\\dfrac1{x^3}\\right)$.\n\nHence show that the greatest height of the probe $x=H$ satisfies $\\ln\\left(1+U^2\\right)=2g(H-1)-g\\left(\\dfrac{H^2-1}{H^2}\\right)$.",
+   "answer": "Initially $x=1$, $v=U$; at the greatest height $x=H$, $v=0$.\n\n$\\int_U^0\\frac v{1+v^2}dv=-g\\int_1^H\\left(1-x^{-3}\\right)dx$\n\n$\\left[\\frac12\\ln(1+v^2)\\right]_U^0=-g\\left[x+\\frac1{2x^2}\\right]_1^H$\n\n$-\\frac12\\ln(1+U^2)=-g\\left(H+\\frac1{2H^2}-1-\\frac12\\right)$\n\n$\\ln(1+U^2)=2g\\left(H-1\\right)+g\\left(\\frac1{H^2}-1\\right)=2g(H-1)-g\\left(\\frac{H^2-1}{H^2}\\right)$."
+  },
+  {
+   "ref": "Q16(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.17",
+    "12.2.1.18"
+   ],
+   "question": "$A$ and $B$ are two distinct points in three-dimensional space such that $\\overrightarrow{OA}=\\begin{pmatrix}6\\\\4\\\\-2\\end{pmatrix}$ and $\\overrightarrow{OB}=\\begin{pmatrix}4\\\\8\\\\2\\end{pmatrix}$.\n\nLet $S_1$ be the set of all points $P$ such that $\\overrightarrow{AP}\\cdot\\overrightarrow{BP}=0$. Find the vector equation of $S_1$.",
+   "answer": "Let $\\overrightarrow{OP}=\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}$. $\\overrightarrow{AP}\\cdot\\overrightarrow{BP}=(x-6)(x-4)+(y-4)(y-8)+(z+2)(z-2)=0$\n\n$x^2-10x+24+y^2-12y+32+z^2-4=0\\Rightarrow(x-5)^2+(y-6)^2+z^2=9$.\n\nThis is a sphere of radius $3$ centred at $(5,6,0)$ (the sphere with diameter $AB$: $M=(5,6,0)$ and $\\frac12|\\overrightarrow{AB}|=\\frac12\\sqrt{4+16+16}=3$).\n\nVector equation: $\\left|\\mathbf r-\\begin{pmatrix}5\\\\6\\\\0\\end{pmatrix}\\right|=3$."
+  },
+  {
+   "ref": "Q16(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.1.18",
+    "12.2.2.5"
+   ],
+   "question": "$A$ and $B$ are two points with $\\overrightarrow{OA}=\\begin{pmatrix}6\\\\4\\\\-2\\end{pmatrix}$ and $\\overrightarrow{OB}=\\begin{pmatrix}4\\\\8\\\\2\\end{pmatrix}$. $S_1$ is the sphere $\\left|\\mathbf r-\\begin{pmatrix}5\\\\6\\\\0\\end{pmatrix}\\right|=3$ (the set of points $P$ with $\\overrightarrow{AP}\\cdot\\overrightarrow{BP}=0$).\n\nLet $M$ be the midpoint of $AB$ and $S_2$ be the set of all points $N$ such that $|\\overrightarrow{AN}|=|\\overrightarrow{MN}|$. The intersection of $S_1$ and $S_2$ is the circle $S$. Find the radius of $S$.",
+   "answer": "$M=(5,6,0)$ is the centre of $S_1$, and $|\\overrightarrow{AM}|=3$. $S_2$ is the plane that is the perpendicular bisector of $AM$ (points equidistant from $A$ and $M$). It is at distance $\\frac32$ from the centre $M$.\n\nThe plane cuts the sphere of radius $3$ in a circle of radius $r$ with $r^2=3^2-\\left(\\frac32\\right)^2=9-\\frac94=\\frac{27}4$.\n\n$r=\\dfrac{3\\sqrt3}2$."
+  },
+  {
+   "ref": "Q16(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Show that $\\displaystyle\\int_a^bf(x)\\,dx=\\int_a^bf(a+b-x)\\,dx$.",
+   "answer": "Let $u=a+b-x$, $du=-dx$. When $x=a$, $u=b$; when $x=b$, $u=a$.\n\n$\\int_a^bf(x)\\,dx=\\int_b^af(a+b-u)(-du)=\\int_a^bf(a+b-u)\\,du=\\int_a^bf(a+b-x)\\,dx$ (the variable of integration is a dummy variable)."
+  },
+  {
+   "ref": "Q16(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.15"
+   ],
+   "question": "Given that $\\displaystyle\\int_a^bf(x)\\,dx=\\int_a^bf(a+b-x)\\,dx$, hence or otherwise find the exact value of $\\displaystyle\\int_{\\pi/6}^{\\pi/3}\\frac1{1+\\sqrt{\\tan x}}\\,dx$.",
+   "answer": "Let $I$ be the integral. Here $a+b=\\frac\\pi6+\\frac\\pi3=\\frac\\pi2$, so $I=\\int_{\\pi/6}^{\\pi/3}\\frac1{1+\\sqrt{\\tan\\left(\\frac\\pi2-x\\right)}}dx=\\int_{\\pi/6}^{\\pi/3}\\frac1{1+\\sqrt{\\cot x}}dx=\\int_{\\pi/6}^{\\pi/3}\\frac{\\sqrt{\\tan x}}{\\sqrt{\\tan x}+1}dx$.\n\nAdding this to the original: $2I=\\int_{\\pi/6}^{\\pi/3}\\frac{1+\\sqrt{\\tan x}}{1+\\sqrt{\\tan x}}dx=\\int_{\\pi/6}^{\\pi/3}1\\,dx=\\frac\\pi3-\\frac\\pi6=\\frac\\pi6$.\n\nSo $I=\\dfrac\\pi{12}$."
+  }
+ ]
+}
