@@ -1,0 +1,870 @@
+{
+ "id": "std2-2026-gosford",
+ "course": "standard2",
+ "school": "Gosford",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5318",
+  "title": "Gosford 2026 w. sol"
+ },
+ "indexed": "2026-11-23",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.3.1.5"
+   ],
+   "question": "Jane takes four weeks of annual leave. Her weekly pay is \\$550 and her annual leave loading is $17\\frac12\\%$ of four weeks pay. What is Jane's total pay for this period of annual leave, rounded to the nearest dollar?",
+   "answer": "Four weeks' pay $= 4 \\times 550 = \\$2200$; loading $= 0.175 \\times 2200 = \\$385$. Total $= \\$2585$. **(B)**",
+   "options": [
+    "\\$2200",
+    "\\$2585",
+    "\\$2296",
+    "\\$385"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.6.2.6"
+   ],
+   "question": "A football game is being played in New York (UTC−5), starting at 12:30 pm on Friday. What is the time in Sydney (UTC+10) when the game starts in New York?",
+   "answer": "Sydney is $10 - (-5) = 15$ hours ahead: 12:30 pm Friday + 15 h = 3:30 am Saturday. **(C)**",
+   "options": [
+    "10:30 pm Friday",
+    "5:30 pm Friday",
+    "3:30 am Saturday",
+    "5:30 am Saturday"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.8.6.1",
+    "11.8.6.2"
+   ],
+   "question": "This set of data is arranged in order from smallest to largest: 5, 7, 10, $x$, 12, 19, 25. The range is four less than twice the value of $x$. Which one of the following is true?",
+   "answer": "Range $= 25 - 5 = 20 = 2x - 4 \\Rightarrow x = 12$.\n\nData: 5, 7, 10, **12**, 12, 19, 25. Median $= 12$; $Q_1 = 7$, $Q_3 = 19$, so IQR $= 12$. **(B)**",
+   "options": [
+    "The median is 12 and the interquartile range is 20.",
+    "The median is 12 and the interquartile range is 12.",
+    "The median is 11 and the interquartile range is 20.",
+    "The median is 11 and the interquartile range is 12."
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.5"
+   ],
+   "question": "A bag contains 150 jelly beans. Some of them are blue and the rest are green. The ratio of blue to green jelly beans is $1 : 4$. Timothy eats 5 of each colour. What is the new ratio of blue to green jelly beans in simplest form?",
+   "answer": "Blue $= 30$, green $= 120$. After eating: $25 : 115 = 5 : 23$. **(C)**",
+   "options": [
+    "6:23",
+    "25:115",
+    "5:23",
+    "30:120"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.4",
+    "12.6.1.1"
+   ],
+   "question": "A network with source A and sink B is shown. The capacities of the two paths are labelled. The cut shown on the diagram has a capacity of 30. Which of the following statements is correct?",
+   "answer": "Every cut's capacity is an upper bound on the flow, so the maximum flow is at most 30. It equals 30 only if this is the minimum cut, which isn't known. **(C)**",
+   "options": [
+    "The maximum flow is 30.",
+    "The maximum flow is 35.",
+    "The maximum flow is 30 or less.",
+    "The maximum flow is 30 or more."
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/std2-2026-gosford/q5.png"
+   ]
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.8.3.2"
+   ],
+   "question": "Joseph is a personal trainer. He records his client's weight as part of his training regime. How can this data be classified?",
+   "answer": "Weight is measured, not counted: continuous numerical. **(A)**",
+   "options": [
+    "Continuous numerical.",
+    "Discrete numerical.",
+    "Ordinal categorical.",
+    "Nominal categorical."
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.1.1"
+   ],
+   "question": "What is the value of $a^2 - b$, when $a = -3.5$ and $b = -4$?",
+   "answer": "$(-3.5)^2 - (-4) = 12.25 + 4 = 16.25$. **(D)**",
+   "options": [
+    "−8.25",
+    "−16.25",
+    "8.25",
+    "16.25"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.9.1.7"
+   ],
+   "question": "A spinner with 6 sections has an equal number of red and green sections. This spinner is spun twice. What is the probability of the same colour, when the spinner is spun twice?",
+   "answer": "$P(RR) + P(GG) = 0.5^2 + 0.5^2 = 0.5$. **(A)**",
+   "options": [
+    "0.5",
+    "0.25",
+    "0.1089",
+    "0.2178"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.4"
+   ],
+   "question": "The diagram shows a triangle $ABC$ where $AC = 55$ cm, $AB = 30$ cm, $\\angle BCA = 28^\\circ$ and angle $ABC$ is obtuse. What is the size of the obtuse angle $ABC$, to the nearest degree?",
+   "answer": "$$\\frac{\\sin B}{55} = \\frac{\\sin 28^\\circ}{30} \\Rightarrow \\sin B \\approx 0.8607 \\Rightarrow B \\approx 59.4^\\circ$$\n$B$ is obtuse, so $B = 180^\\circ - 59.4^\\circ \\approx 121^\\circ$. **(B)**",
+   "options": [
+    "$64^\\circ$",
+    "$121^\\circ$",
+    "$59^\\circ$",
+    "$116^\\circ$"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/std2-2026-gosford/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.1.2"
+   ],
+   "question": "An item was purchased for \\$770, including 10% GST. What is the amount of GST included in the price?",
+   "answer": "$\\dfrac{770}{11} = \\$70$. **(C)**",
+   "options": [
+    "\\$77",
+    "\\$7",
+    "\\$70",
+    "\\$7.70"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q11",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "An object is projected vertically into the air. Its height, $h$ metres, above the ground after $t$ seconds is given by $h(t) = -5t^2 + 80t$. For how long is the object 200 m or higher in the air?",
+   "answer": "$-5t^2 + 80t = 200 \\Rightarrow t^2 - 16t + 40 = 0 \\Rightarrow t = 8 \\pm \\sqrt{24} \\approx 3.1$ or $12.9$.\n\nIt is at or above 200 m for about $12.9 - 3.1 \\approx 9.8$ s, closest to 10 seconds. **(A)**",
+   "options": [
+    "10 seconds",
+    "5 seconds",
+    "4 seconds",
+    "9 seconds"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/std2-2026-gosford/q11.png"
+   ]
+  },
+  {
+   "ref": "Q12",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.10.2.5",
+    "12.10.3.1"
+   ],
+   "question": "The distribution for delivery times for pizza from House of Pizzas follows a normal distribution, with a mean of 25 minutes and standard deviation 5 minutes. What percentage of pizzas have a delivery of greater than 30 minutes?",
+   "answer": "30 minutes is $z = 1$. About 68% lie within one standard deviation, so $\\frac{32\\%}{2} = 16\\%$ lie above. **(D)**",
+   "options": [
+    "68%",
+    "2.5%",
+    "0.15%",
+    "16%"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q13",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.1.3"
+   ],
+   "question": "Which of the following could be the graph $y = -2x - 2$?",
+   "answer": "Negative gradient and $y$-intercept $-2$ (so it crosses the $x$-axis at $x = -1$). **(B)**",
+   "options": [
+    "![Graph A](assets/img/std2-2026-gosford/q13a.png)",
+    "![Graph B](assets/img/std2-2026-gosford/q13b.png)",
+    "![Graph C](assets/img/std2-2026-gosford/q13c.png)",
+    "![Graph D](assets/img/std2-2026-gosford/q13d.png)"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q14",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.1"
+   ],
+   "question": "Joan takes out a loan of \\$7000 for 6 years. Simple interest is charged on the loan. The loan will charge a total of \\$3360 of interest over the 6 years. What is the simple interest rate per annum charged on the loan?",
+   "answer": "$r = \\dfrac{3360}{7000 \\times 6} = 0.08 = 8\\%$. **(B)**",
+   "options": [
+    "48%",
+    "8%",
+    "2.88%",
+    "12.5%"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q15",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.7.2.1"
+   ],
+   "question": "A network contains 16 vertices. How many edges are required to form a spanning tree?",
+   "answer": "A spanning tree on $n$ vertices has $n - 1 = 15$ edges. **(C)**",
+   "options": [
+    "8",
+    "17",
+    "15",
+    "16"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q16(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.5"
+   ],
+   "question": "The graph of the quadratic function represented by the equation $y = x^2 - 11x + 18$ is shown. It passes through $(0, 18)$, $(2, 0)$ and $(9, 0)$.\n\nFind the values of $x$ and $y$ at the turning point of the graph.",
+   "answer": "Axis of symmetry: $x = \\frac{2 + 9}{2} = 5.5$.\n\n$y = 5.5^2 - 11(5.5) + 18 = -12.25$. Turning point $(5.5, -12.25)$.",
+   "images": [
+    "assets/img/std2-2026-gosford/q16.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.5",
+    "12.1.3.6"
+   ],
+   "question": "The graph of the quadratic function represented by the equation $y = x^2 - 11x + 18$ is shown. It passes through $(0, 18)$, $(2, 0)$ and $(9, 0)$.\n\nThe graph shows $y = 18$ when $x = 0$. What is the other value of $x$ for which $y = 18$?",
+   "answer": "By symmetry about $x = 5.5$: $x = 2 \\times 5.5 - 0 = 11$.",
+   "images": [
+    "assets/img/std2-2026-gosford/q16.png"
+   ]
+  },
+  {
+   "ref": "Q17(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.10"
+   ],
+   "question": "A thin pole stands vertically in the middle of a level playing ground. From point $A$ on the ground, the angle of elevation to the top of the pole, $T$, is 18°. From point $B$, also on the ground but 5.35 metres further from the foot of the pole than $A$, the angle of elevation to the top of the pole is 15°.\n\nDraw a sketch to represent this information.",
+   "answer": "A right triangle with the pole (height $y$) on one side; $A$ and $B$ on the ground, $B$ 5.35 m further out. The angles of elevation are $18^\\circ$ at $A$ and $15^\\circ$ at $B$, so $\\angle BAT = 162^\\circ$ and $\\angle ATB = 3^\\circ$.",
+   "answer_images": [
+    "assets/img/std2-2026-gosford/q17-ans.png"
+   ]
+  },
+  {
+   "ref": "Q17(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.2",
+    "12.4.1.1"
+   ],
+   "question": "A thin pole stands vertically in the middle of a level playing ground. From point $A$ on the ground, the angle of elevation to the top of the pole, $T$, is 18°. From point $B$, also on the ground but 5.35 metres further from the foot of the pole than $A$, the angle of elevation to the top of the pole is 15°.\n\nDetermine the height of the pole.",
+   "answer": "In $\\triangle ABT$: $\\angle BAT = 180^\\circ - 18^\\circ = 162^\\circ$ and $\\angle ATB = 18^\\circ - 15^\\circ = 3^\\circ$.\n$$\\frac{BT}{\\sin 162^\\circ} = \\frac{5.35}{\\sin 3^\\circ} \\Rightarrow BT \\approx 31.58\\text{ m}$$\n$$y = 31.58 \\sin 15^\\circ \\approx 8.18\\text{ m}$$",
+   "answer_images": [
+    "assets/img/std2-2026-gosford/q17-ans.png"
+   ]
+  },
+  {
+   "ref": "Q18",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.3",
+    "12.2.2.1",
+    "12.2.2.2"
+   ],
+   "question": "A plumber leases equipment which is valued at \\$55 000. The salvage value of the equipment at any time can be calculated using either of the two methods of depreciation shown in the table.\n\n| Method of depreciation | Rate of depreciation |\n|---|---|\n| Straight line depreciation | \\$4000 per annum |\n| Declining-balance depreciation | 10% p.a. |\n\nUnder which method of depreciation would the salvage value of the equipment be lower at the end of 5 years? Justify your answer with appropriate mathematical calculations.",
+   "answer": "- Straight line: $S = 55\\,000 - 4000 \\times 5 = \\$35\\,000$\n- Declining balance: $S = 55\\,000(0.9)^5 \\approx \\$32\\,476.95$\n\nThe **declining-balance** method gives the lower salvage value."
+  },
+  {
+   "ref": "Q19(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.8.2.6"
+   ],
+   "question": "A set of bivariate data is collected by measuring the blood cholesterol level and hours exercised a week of nine adults. The graph shows a scatterplot of the results.\n\nCalculate the Pearson's correlation coefficient for the data, correct to two decimal places.",
+   "answer": "Data: $(0, 9), (2, 8), (5, 8), (6, 5), (7, 5), (8, 6), (8, 3), (12, 3), (16, 2)$.\n\n$r \\approx -0.90$",
+   "images": [
+    "assets/img/std2-2026-gosford/q19.png"
+   ]
+  },
+  {
+   "ref": "Q19(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.8.2.4"
+   ],
+   "question": "A set of bivariate data is collected by measuring the blood cholesterol level and hours exercised a week of nine adults. The graph shows a scatterplot of the results.\n\nIdentify the direction and the strength of the linear association between blood cholesterol level and hours exercised.",
+   "answer": "Negative and strong.",
+   "images": [
+    "assets/img/std2-2026-gosford/q19.png"
+   ]
+  },
+  {
+   "ref": "Q19(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.2.9"
+   ],
+   "question": "A set of bivariate data is collected by measuring the blood cholesterol level and hours exercised a week of nine adults. The graph shows a scatterplot of the results.\n\nThe equation of the least-squares regression line is\n$$\\text{Blood cholesterol level} = -0.4679(\\text{Hours exercised}) + 8.7717$$\nAn adult's blood cholesterol level is at 4. Calculate the amount of hours exercised in a week for this adult, using the equation of the least squares regression line. Correct to the nearest 2 decimal places.",
+   "answer": "$$4 = -0.4679H + 8.7717 \\Rightarrow H = \\frac{4 - 8.7717}{-0.4679} \\approx 10.20\\text{ hours}$$"
+  },
+  {
+   "ref": "Q20(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.10.1.1"
+   ],
+   "question": "The graphs of the probability density functions of three normally distributed random variables $W$, $X$ and $Y$ are shown below.\n\nState, with justification, which of the three random variables has the largest mean.",
+   "answer": "**$Y$**: its curve is centred furthest to the right (the peak of a normal curve is at the mean).",
+   "images": [
+    "assets/img/std2-2026-gosford/q20.png"
+   ]
+  },
+  {
+   "ref": "Q20(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.10.1.1"
+   ],
+   "question": "The graphs of the probability density functions of three normally distributed random variables $W$, $X$ and $Y$ are shown below.\n\nState, with justification, which of the three random variables has the smallest standard deviation.",
+   "answer": "**$X$**: its curve is the tallest and narrowest, so its data is least spread out.",
+   "images": [
+    "assets/img/std2-2026-gosford/q20.png"
+   ]
+  },
+  {
+   "ref": "Q21",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.1.2"
+   ],
+   "question": "Is this graph Eulerian? Justify your answer with mathematical reasoning.",
+   "answer": "Degrees: top-left vertex 1, middle-left vertex 4, top-middle vertex 3 (straight edge, arc and edge to the right), right vertex 2, bottom-middle vertex 2, bottom-left vertex 2.\n\nExactly two vertices (top-left and top-middle) have odd degree. So the graph has an **Euler trail** (starting at one odd vertex and finishing at the other) and is semi-Eulerian, but it is **not Eulerian**: an Euler circuit needs every vertex to have even degree.\n\n*Note: the school's solution says \"2 odd vertices, therefore Eulerian\", which describes an Euler trail rather than an Euler circuit.*",
+   "images": [
+    "assets/img/std2-2026-gosford/q21.png"
+   ]
+  },
+  {
+   "ref": "Q22",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.8.7.3",
+    "11.8.7.1"
+   ],
+   "question": "The weights of students in a class were recorded. The results for this class are displayed in the cumulative frequency graph shown (25 students).\n\nThe lightest student in the class weighed 40 kg and the heaviest in the class weighed 90 kg.\n\nConstruct a box-plot for this class, using a number line.",
+   "answer": "With 25 students, read across from cumulative frequencies of about 6.25 ($Q_1$), 12.5 (median) and 18.75 ($Q_3$) to the ogive, then down to the weight axis.\n\nFive-number summary (approximately): min 40, $Q_1 \\approx 51$, median $\\approx 60$, $Q_3 \\approx 67$, max 90. Draw whiskers from 40 to $Q_1$ and from $Q_3$ to 90, with a box from $Q_1$ to $Q_3$ split at the median.\n\n(The school's solution reads $Q_1 = 54$, median $= 61$ and $Q_3 = 66$; values read from a graph will vary slightly.)",
+   "images": [
+    "assets/img/std2-2026-gosford/q22.png"
+   ]
+  },
+  {
+   "ref": "Q23",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.9.1.6",
+    "12.9.1.7"
+   ],
+   "question": "A bag contains 4 red balls and 5 black balls. Two balls are selected at random without replacement. A partially completed tree diagram is shown below.\n\nComplete the probability tree diagram and calculate the probability of selecting two balls of the same colour.",
+   "answer": "- First selection: $P(R) = \\frac49$, $P(B) = \\frac59$\n- After $R$: $P(R) = \\frac38$, $P(B) = \\frac58$\n- After $B$: $P(R) = \\frac48$, $P(B) = \\frac48$\n\n$$P(\\text{same}) = \\frac49 \\times \\frac38 + \\frac59 \\times \\frac48 = \\frac{12}{72} + \\frac{20}{72} = \\frac49$$",
+   "images": [
+    "assets/img/std2-2026-gosford/q23.png"
+   ]
+  },
+  {
+   "ref": "Q24",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.7",
+    "12.2.1.1",
+    "12.2.1.4"
+   ],
+   "question": "Sonya and James each invest \\$2000 for 10 years.\n- Sonya's investment earns simple interest at a rate of 5.5% per annum.\n- James' investment earns an interest rate of 4.5% per annum, compounding quarterly.\n\nBy calculating the interest earned over the 10 years, determine who will have the greater amount.",
+   "answer": "- Sonya: $I = 2000 \\times 0.055 \\times 10 = \\$1100$\n- James: $FV = 2000\\left(1 + \\frac{0.045}{4}\\right)^{40} \\approx \\$3128.75$, so $I = \\$1128.75$\n\n**James** will have the greater amount."
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "A bowl of hot soup is cooling on a table. Its temperature, $T$°C, after $t$ minutes is given by the formula $T = 100(1.075)^{-t}$.\n\nCalculate the temperature of the soup after 2.5 minutes.",
+   "answer": "$T = 100(1.075)^{-2.5} \\approx 83.46$°C"
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.2.4"
+   ],
+   "question": "A bowl of hot soup is cooling on a table. Its temperature, $T$°C, after $t$ minutes is given by the formula $T = 100(1.075)^{-t}$.\n\nWhat is the vertical intercept of this function and what does it represent?",
+   "answer": "At $t = 0$: $T = 100(1.075)^0 = 100$. The intercept is 100°C, the temperature of the soup at the start."
+  },
+  {
+   "ref": "Q26",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.1.3"
+   ],
+   "question": "Jack and Jill are going to the beach 5 km away. Jill will ride her bike at 12 km/h while Jack will jog at 8 km/h. How much head start should Jill give Jack so that they arrive at the beach at the same time?",
+   "answer": "- Jack: $t = \\frac58 = 0.625$ h $= 37.5$ min\n- Jill: $t = \\frac{5}{12} \\approx 0.4167$ h $= 25$ min\n\nHead start $= 37.5 - 25 = 12.5$ minutes."
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.2.2"
+   ],
+   "question": "The graph represents the length in km between seven towns. The towns must be connected by power lines which cost \\$700 000 per kilometre. The towns only need to be linked by one line – the entire network is not being constructed.\n\nDraw a minimum spanning tree connecting all 7 towns.",
+   "answer": "Kruskal's algorithm: $AC$ 1, $CE$ 2, $AB$ 3, $DE$ 3, $AG$ 4, $EF$ 4 (6 edges for 7 towns).",
+   "images": [
+    "assets/img/std2-2026-gosford/q27.png"
+   ],
+   "answer_images": [
+    "assets/img/std2-2026-gosford/q27-ans.png"
+   ]
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.2.3"
+   ],
+   "question": "The graph represents the length in km between seven towns. The towns must be connected by power lines which cost \\$700 000 per kilometre. The towns only need to be linked by one line – the entire network is not being constructed.\n\nWhat is the minimum cost of connecting the towns? Justify your decision mathematically.",
+   "answer": "Length of the minimum spanning tree $= 1 + 2 + 3 + 3 + 4 + 4 = 17$ km.\n$$\\text{Cost} = 17 \\times 700\\,000 = \\$11\\,900\\,000$$",
+   "images": [
+    "assets/img/std2-2026-gosford/q27.png"
+   ]
+  },
+  {
+   "ref": "Q28",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.4"
+   ],
+   "question": "The following formula can be used to calculate an estimate for blood alcohol content (BAC) for females.\n$$BAC_{\\text{female}} = \\frac{10N - 7.5H}{5.5M}$$\nwhere $N$ is the number of standard drinks consumed, $H$ is the number of hours drinking and $M$ is the person's weight in kilograms.\n\nSamantha weighs 65 kg. Her BAC was zero when she began drinking alcohol. At 10:00 pm, after consuming 4 standard drinks, her BAC was 0.04.\n\nUsing the formula, estimate at what time Samantha began drinking alcohol, to the nearest minute.",
+   "answer": "$$0.04 = \\frac{10(4) - 7.5H}{5.5(65)} \\Rightarrow 14.3 = 40 - 7.5H \\Rightarrow H \\approx 3.4267\\text{ h} \\approx 3\\text{ h }26\\text{ min}$$\n10:00 pm − 3 h 26 min $=$ **6:34 pm**."
+  },
+  {
+   "ref": "Q29",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.1.3",
+    "12.7.1.5"
+   ],
+   "question": "Use forward and backward scanning to identify the critical path. (Activities: $A$ 7, $B$ 1, $C$ 5, $D$ 2, $E$ 4, $F$ 5, $G$ 1, $H$ 1.)",
+   "answer": "Forward scan: 0, 7, 8, 10 (after $D$), 12 (after $E$), 15 (after $F$), 16 (finish). The backward scan gives the same latest times along $A$–$B$–$D$–$F$–$H$.\n\nCritical path: **A, B, D, F, H** (16).",
+   "images": [
+    "assets/img/std2-2026-gosford/q29.png"
+   ],
+   "answer_images": [
+    "assets/img/std2-2026-gosford/q29-ans.png"
+   ]
+  },
+  {
+   "ref": "Q30",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.10.2.5",
+    "12.10.2.3"
+   ],
+   "question": "The marks, $x$, obtained by students in a maths exam were normally distributed with a mean of 85 and a standard deviation of 4. If the top 2.5% of students received an A, what was the minimum score to achieve an A?",
+   "answer": "The top 2.5% is $z > 2$: $x = 85 + 2 \\times 4 = 93$."
+  },
+  {
+   "ref": "Q31",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.2.4"
+   ],
+   "question": "A cake is created using a cylinder and a hemisphere shaped top. The cylinder has a height of 10 cm and the hemisphere has a radius of 7 cm.\n\nCalculate the surface area of the cake that is to be covered in icing (not including the base), correct to the nearest cm².",
+   "answer": "Curved surface of the cylinder plus the hemisphere:\n$$SA = 2\\pi rh + 2\\pi r^2 = 2\\pi(7)(10) + 2\\pi(7)^2 \\approx 439.82 + 307.88 \\approx 748\\text{ cm}^2$$",
+   "images": [
+    "assets/img/std2-2026-gosford/q31.png"
+   ]
+  },
+  {
+   "ref": "Q32",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.7",
+    "12.4.1.8"
+   ],
+   "question": "An oil tanker hits a reef in the Pacific ocean and releases oil from its reservoirs. The oil slick extends 10 km NE from the tanker and from the air can be seen to turn to a bearing of 158° for 25 km, then back to the tanker. Calculate the area of the oil slick.",
+   "answer": "The first leg is on a bearing of $045^\\circ$. At the turn, the angle between the back bearing ($225^\\circ$) and $158^\\circ$ is $225^\\circ - 158^\\circ = 67^\\circ$ (equivalently $180^\\circ - 45^\\circ - (158^\\circ - 90^\\circ)$).\n$$A = \\tfrac12 \\times 10 \\times 25 \\times \\sin 67^\\circ \\approx 115.06\\text{ km}^2$$",
+   "answer_images": [
+    "assets/img/std2-2026-gosford/q32-ans.png"
+   ]
+  },
+  {
+   "ref": "Q33",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.5"
+   ],
+   "question": "A full container has 5.2 L of a mixture of cordial and water in the ratio $1 : 3$. After removing 1.6 L of the mixture, more water is added to refill the container. What is the ratio of cordial to water in the final mixture?",
+   "answer": "Remaining mixture: $5.2 - 1.6 = 3.6$ L, i.e. 0.9 L cordial and 2.7 L water.\n\nAdd 1.6 L water: $0.9 : 4.3 = 9 : 43$."
+  },
+  {
+   "ref": "Q34(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.2"
+   ],
+   "question": "Joanne borrowed \\$595 000 to buy a house. The loan is to be repaid over 25 years at a rate of 6.25% per annum, compounded monthly. The repayments have been set at \\$3925 per month. The interest charged and the balance owing for the first four months are shown below.\n\n| Month | Principal (start of month) | Interest charged | Monthly repayment | Balance (end of month) |\n|---|---|---|---|---|\n| 1 | \\$595 000 | \\$3098.96 | \\$3925 | \\$594 173.96 |\n| 2 | \\$594 173.96 | $A$ | \\$3925 | \\$593 343.62 |\n| 3 | \\$593 343.62 | \\$3090.33 | \\$3925 | \\$592 508.95 |\n| 4 | \\$592 508.95 | \\$3085.98 | \\$3925 | $B$ |\n\nSome values in the table are missing. Write down the values for $A$ and $B$.",
+   "answer": "- $A = 594\\,173.96 \\times \\frac{0.0625}{12} \\approx \\$3094.66$\n- $B = 592\\,508.95 + 3085.98 - 3925 = \\$591\\,669.93$"
+  },
+  {
+   "ref": "Q34(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.5"
+   ],
+   "question": "Joanne borrowed \\$595 000 to buy a house. The loan is to be repaid over 25 years at a rate of 6.25% per annum, compounded monthly. The repayments have been set at \\$3925 per month. The interest charged and the balance owing for the first four months are shown below.\n\n| Month | Principal (start of month) | Interest charged | Monthly repayment | Balance (end of month) |\n|---|---|---|---|---|\n| 1 | \\$595 000 | \\$3098.96 | \\$3925 | \\$594 173.96 |\n| 2 | \\$594 173.96 | $A$ | \\$3925 | \\$593 343.62 |\n| 3 | \\$593 343.62 | \\$3090.33 | \\$3925 | \\$592 508.95 |\n| 4 | \\$592 508.95 | \\$3085.98 | \\$3925 | $B$ |\n\nWhat is the total to be repaid over the 25 years?",
+   "answer": "$3925 \\times 12 \\times 25 = \\$1\\,177\\,500$"
+  },
+  {
+   "ref": "Q34(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.4"
+   ],
+   "question": "Joanne borrowed \\$595 000 to buy a house. The loan is to be repaid over 25 years at a rate of 6.25% per annum, compounded monthly. The repayments have been set at \\$3925 per month. The interest charged and the balance owing for the first four months are shown below.\n\n| Month | Principal (start of month) | Interest charged | Monthly repayment | Balance (end of month) |\n|---|---|---|---|---|\n| 1 | \\$595 000 | \\$3098.96 | \\$3925 | \\$594 173.96 |\n| 2 | \\$594 173.96 | $A$ | \\$3925 | \\$593 343.62 |\n| 3 | \\$593 343.62 | \\$3090.33 | \\$3925 | \\$592 508.95 |\n| 4 | \\$592 508.95 | \\$3085.98 | \\$3925 | $B$ |\n\nAfter 10 years of repaying the loan, Joanne decides to make a lump sum payment of \\$100 000 and to continue making monthly repayments of \\$3925. The loan will then be fully repaid after a further 132 monthly repayments. Using your answer from part (b), calculate how much less Joanne will pay overall by making the lump sum payment.",
+   "answer": "Total paid $= 120 \\times 3925 + 100\\,000 + 132 \\times 3925 = \\$1\\,089\\,100$.\n$$\\text{Saving} = 1\\,177\\,500 - 1\\,089\\,100 = \\$88\\,400$$"
+  },
+  {
+   "ref": "Q35(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.1.1"
+   ],
+   "question": "The drama department at a school is planning a school musical production.\n\n| Activity | Description | Duration (weeks) | Predecessor(s) |\n|---|---|---|---|\n| A | Write script | 5 | — |\n| B | Audition cast | 2 | A |\n| C | Design set and costumes | 4 | A |\n| D | Cast rehearsals | 6 | B |\n| E | Build set and create costumes | 3 | C |\n| F | Rehearse with full staging | 4 | D, E |\n| G | Technical setup (lighting/sound) | 1 | E |\n| H | Final dress rehearsal | 1 | F, G |\n\nComplete the network diagram for the school musical production.",
+   "answer": "After $A$: $B$ then $D$ along the top, $C$ then $E$ along the bottom. $F$ needs both $D$ and $E$, so a dummy activity joins the end of $E$ to the start of $F$. $G$ follows $E$; $F$ and $G$ lead into $H$, then Finish.",
+   "images": [
+    "assets/img/std2-2026-gosford/q35.png"
+   ],
+   "answer_images": [
+    "assets/img/std2-2026-gosford/q35-ans.png"
+   ]
+  },
+  {
+   "ref": "Q35(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.1.6"
+   ],
+   "question": "The drama department at a school is planning a school musical production.\n\n| Activity | Description | Duration (weeks) | Predecessor(s) |\n|---|---|---|---|\n| A | Write script | 5 | — |\n| B | Audition cast | 2 | A |\n| C | Design set and costumes | 4 | A |\n| D | Cast rehearsals | 6 | B |\n| E | Build set and create costumes | 3 | C |\n| F | Rehearse with full staging | 4 | D, E |\n| G | Technical setup (lighting/sound) | 1 | E |\n| H | Final dress rehearsal | 1 | F, G |\n\nDetermine the minimum time needed to complete the project.",
+   "answer": "$A$–$B$–$D$–$F$–$H$: $5 + 2 + 6 + 4 + 1 = $ **18 weeks**.",
+   "answer_images": [
+    "assets/img/std2-2026-gosford/q35-ans.png"
+   ]
+  },
+  {
+   "ref": "Q35(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.1.4"
+   ],
+   "question": "The drama department at a school is planning a school musical production.\n\n| Activity | Description | Duration (weeks) | Predecessor(s) |\n|---|---|---|---|\n| A | Write script | 5 | — |\n| B | Audition cast | 2 | A |\n| C | Design set and costumes | 4 | A |\n| D | Cast rehearsals | 6 | B |\n| E | Build set and create costumes | 3 | C |\n| F | Rehearse with full staging | 4 | D, E |\n| G | Technical setup (lighting/sound) | 1 | E |\n| H | Final dress rehearsal | 1 | F, G |\n\nWhat is the float time for Activity E?",
+   "answer": "$E$ can start at week 9 and must finish by week 13 (when $F$ starts): float $= 13 - 9 - 3 = 1$ week.",
+   "answer_images": [
+    "assets/img/std2-2026-gosford/q35-ans.png"
+   ]
+  },
+  {
+   "ref": "Q35(d)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.1.8"
+   ],
+   "question": "The drama department at a school is planning a school musical production.\n\n| Activity | Description | Duration (weeks) | Predecessor(s) |\n|---|---|---|---|\n| A | Write script | 5 | — |\n| B | Audition cast | 2 | A |\n| C | Design set and costumes | 4 | A |\n| D | Cast rehearsals | 6 | B |\n| E | Build set and create costumes | 3 | C |\n| F | Rehearse with full staging | 4 | D, E |\n| G | Technical setup (lighting/sound) | 1 | E |\n| H | Final dress rehearsal | 1 | F, G |\n\nActivity C is delayed by 3 weeks causing a delay to the entire production. By how many weeks is the overall production delayed?",
+   "answer": "$C$ (like $E$) has 1 week of float, so a 3-week delay holds up the project by $3 - 1 = $ **2 weeks**."
+  },
+  {
+   "ref": "Q36(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.5"
+   ],
+   "question": "Willow's business Fashion Face Masks makes and sells embroidered face masks. Willow purchases plain cloth masks and embroiders them with different patterns. The cost of each plain mask is \\$4 and Willow sells the embroidered masks for \\$10 each. Willow invests \\$420 in an embroidery machine and a thread kit to make 100 masks.\n\nThe production cost and revenue generated from the sale of the embroidered masks can be modelled with two linear equations, as shown in the graph.\n\nUsing the graph, solve the two equations simultaneously and explain the significance of this solution for Willow's business.",
+   "answer": "The lines $R = 10n$ and $C = 4n + 420$ meet at $(70, 700)$: this is the **break-even point**. Selling 70 masks brings in \\$700, exactly covering costs.",
+   "images": [
+    "assets/img/std2-2026-gosford/q36.png"
+   ]
+  },
+  {
+   "ref": "Q36(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.5"
+   ],
+   "question": "Willow's business Fashion Face Masks makes and sells embroidered face masks. Willow purchases plain cloth masks and embroiders them with different patterns. The cost of each plain mask is \\$4 and Willow sells the embroidered masks for \\$10 each. Willow invests \\$420 in an embroidery machine and a thread kit to make 100 masks.\n\nThe production cost and revenue generated from the sale of the embroidered masks can be modelled with two linear equations, as shown in the graph.\n\nHow many masks does Willow need to sell to obtain a revenue of \\$350?",
+   "answer": "$10n = 350 \\Rightarrow n = 35$ masks.",
+   "images": [
+    "assets/img/std2-2026-gosford/q36.png"
+   ]
+  },
+  {
+   "ref": "Q36(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.5"
+   ],
+   "question": "Willow's business Fashion Face Masks makes and sells embroidered face masks. Willow purchases plain cloth masks and embroiders them with different patterns. The cost of each plain mask is \\$4 and Willow sells the embroidered masks for \\$10 each. Willow invests \\$420 in an embroidery machine and a thread kit to make 100 masks.\n\nThe production cost and revenue generated from the sale of the embroidered masks can be modelled with two linear equations, as shown in the graph.\n\nHow much profit does Willow make if she sells 100 masks?",
+   "answer": "Revenue $= \\$1000$; cost $= 4 \\times 100 + 420 = \\$820$; profit $= \\$180$."
+  },
+  {
+   "ref": "Q37(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.2.6",
+    "12.5.1.10"
+   ],
+   "question": "The diagram below shows a survey of the land that Josie will build her house on (width 220 m; heights 20 m, 90 m and 150 m).\n\nUse two applications of the trapezoidal rule to estimate the area of land to the nearest whole number.",
+   "answer": "Each strip is 110 m wide:\n$$A \\approx \\frac{110}{2}(20 + 90) + \\frac{110}{2}(90 + 150) = 6050 + 13\\,200 = 19\\,250\\text{ m}^2$$",
+   "images": [
+    "assets/img/std2-2026-gosford/q37.png"
+   ]
+  },
+  {
+   "ref": "Q37(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.2.6"
+   ],
+   "question": "The diagram below shows a survey of the land that Josie will build her house on (width 220 m; heights 20 m, 90 m and 150 m).\n\nDo you think your approximation in part (a) is higher, lower, or about equal to the actual area of this land? Provide reasons for your decision.",
+   "answer": "**Lower.** The top boundary bulges above the straight lines used by the trapezoidal rule, so the trapezia miss some of the area.",
+   "images": [
+    "assets/img/std2-2026-gosford/q37.png"
+   ]
+  },
+  {
+   "ref": "Q38",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "A soccer goal is 8 m wide. A player shoots for goal when he is 20 m from one post and 15 m from the other post. Within what angle must the shot be made to score a goal?",
+   "answer": "$$\\cos\\theta = \\frac{20^2 + 15^2 - 8^2}{2 \\times 20 \\times 15} = \\frac{561}{600} = 0.935 \\Rightarrow \\theta \\approx 20.77^\\circ$$"
+  },
+  {
+   "ref": "Q39",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.2.2"
+   ],
+   "question": "The table shows the income tax rate for Australian residents for the 2025 – 2026 financial year.\n\n| Taxable income | Tax on this income |\n|---|---|\n| 0 – \\$18 200 | Nil |\n| \\$18 201 – \\$45 000 | 16c for each \\$1 over \\$18 200 |\n| \\$45 001 – \\$135 000 | \\$4288 plus 30c for each \\$1 over \\$45 000 |\n| \\$135 001 – \\$190 000 | \\$31 288 plus 37c for each \\$1 over \\$135 000 |\n| \\$190 001 and over | \\$51 638 plus 45c for each \\$1 over \\$190 000 |\n\nAt the end of the 2025 – 2026 financial year, Kale's tax payable was \\$154 536, excluding the Medicare levy. What was Kale's taxable income?",
+   "answer": "That much tax is only possible in the top bracket:\n$$154\\,536 = 51\\,638 + 0.45(x - 190\\,000) \\Rightarrow x - 190\\,000 = \\frac{102\\,898}{0.45} \\approx 228\\,662.22$$\n$$x \\approx \\$418\\,662.22$$"
+  },
+  {
+   "ref": "Q40",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.10.2.4"
+   ],
+   "question": "Sam believes he did better on his Math exam than his Physics exam. The Physics exam had a mean score of 55 and a standard deviation of 17 and he achieved 67 out of 100. On the Math exam, he achieved 72 out of 100 and the class had a mean of 64 and a standard deviation of 12. Evaluate the reasonableness of Sam's statement, using mathematical reasoning.",
+   "answer": "$$z_{\\text{physics}} = \\frac{67 - 55}{17} \\approx 0.71, \\qquad z_{\\text{math}} = \\frac{72 - 64}{12} \\approx 0.67$$\nSam is **not** correct: relative to the class he did slightly better in Physics."
+  },
+  {
+   "ref": "Q41",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.10.3.3"
+   ],
+   "question": "A random variable is normally distributed with mean 0 and standard deviation 1. The table below gives the probability that this random variable lies below $z$ for different values of $z$.\n\n| $z$ | .0 | .1 | .2 | .3 | .4 | .5 | .6 | .7 | .8 | .9 |\n|---|---|---|---|---|---|---|---|---|---|---|\n| 0 | 0.500 | 0.540 | 0.579 | 0.618 | 0.655 | 0.691 | 0.726 | 0.758 | 0.788 | 0.816 |\n| 1 | 0.841 | 0.864 | 0.885 | 0.903 | 0.919 | 0.933 | 0.945 | 0.955 | 0.964 | 0.971 |\n\nA manufacturer produces luxury scented candles. The mass of wax in each candle is normally distributed with a mean of 300 grams and a standard deviation of 4 grams. What percentage of candles would you expect to contain more than 302 grams of wax?",
+   "answer": "$z = \\frac{302 - 300}{4} = 0.5$, and $P(Z < 0.5) = 0.691$.\n$$P(Z > 0.5) = 1 - 0.691 = 0.309 = 30.9\\%$$"
+  },
+  {
+   "ref": "Q42(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "A plumber needs to fix a system of pipes. The sink ($t$) is connected to the water source ($S$) by an interconnected series of one-directional pipes. The capacity of each pipe is shown below.\n\nWhat is the capacity of the cut below?",
+   "answer": "Add the capacities of the pipes that cross the cut from the source side to the sink side:\n$$7 + 3 + 4 + 6 = 20$$",
+   "images": [
+    "assets/img/std2-2026-gosford/q42a.png"
+   ]
+  },
+  {
+   "ref": "Q42(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.1.4"
+   ],
+   "question": "A plumber needs to fix a system of pipes from source $S$ to sink $t$ (network shown). The plumber experienced difficulty in cutting the pipes and wants to identify the smallest cut possible (in terms of capacity). By finding the maximum flow, explain why this is the smallest cut possible. Justify your response on the diagram below.",
+   "answer": "Pushing flow along augmenting paths saturates the pipes $3$, $2$, $2$ and $5$ shown in the solution, giving a maximum flow of 12. The cut through these saturated pipes has capacity\n$$3 + 2 + 2 + 5 = 12.$$\nBy the maximum-flow minimum-cut theorem, no cut can be smaller than the maximum flow, so this is the minimum cut. (It passes only through saturated pipes, or pipes flowing back towards the source.)",
+   "images": [
+    "assets/img/std2-2026-gosford/q42b.png"
+   ],
+   "answer_images": [
+    "assets/img/std2-2026-gosford/q42-ans.png"
+   ]
+  }
+ ]
+}
