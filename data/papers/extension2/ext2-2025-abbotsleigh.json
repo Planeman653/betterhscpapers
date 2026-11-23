@@ -1,0 +1,701 @@
+{
+ "id": "ext2-2025-abbotsleigh",
+ "course": "extension2",
+ "school": "Abbotsleigh",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "Abbotsleigh 2025 w. sol"
+ },
+ "indexed": "2026-11-24",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.1"
+   ],
+   "question": "What is the value of $i^{2025}$?",
+   "answer": "$i^4=1$ and $2025=4(506)+1$, so $i^{2025}=i$ (C).",
+   "options": [
+    "1",
+    "$-1$",
+    "$i$",
+    "$-i$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "A cubic polynomial $P(z)$ has all real coefficients. $z=3$ and $z=2+i$ are two roots of $P(z)=0$. Which equation describes $P(z)$?",
+   "answer": "The coefficients are real, so $2-i$ is also a root. The sum of the roots is $3+(2+i)+(2-i)=7$ so the coefficient of $z^2$ is $-7$, and the product is $3(2+i)(2-i)=15$ so the constant term is $-15$: $P(z)=z^3-7z^2+17z-15$ (B).",
+   "options": [
+    "$P(z)=z^3-7z^2-17z+15$",
+    "$P(z)=z^3-7z^2+17z-15$",
+    "$P(z)=z^3+7z^2-35z+15$",
+    "$P(z)=z^3+7z^2+35z-15$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.5",
+    "12.3.4.3"
+   ],
+   "question": "Given that $z=\\dfrac{\\sqrt3+i}{1+i}$, which of the following is equal to $z^5$?",
+   "answer": "$\\sqrt3+i=2\\operatorname{cis}\\dfrac\\pi6$ and $1+i=\\sqrt2\\operatorname{cis}\\dfrac\\pi4$, so $z=\\sqrt2\\operatorname{cis}\\left(\\dfrac\\pi6-\\dfrac\\pi4\\right)=\\sqrt2\\operatorname{cis}\\left(-\\dfrac\\pi{12}\\right)$. By de Moivre, $z^5=(\\sqrt2)^5\\operatorname{cis}\\left(-\\dfrac{5\\pi}{12}\\right)=4\\sqrt2\\operatorname{cis}\\dfrac{19\\pi}{12}$ (D).",
+   "options": [
+    "$2\\sqrt2e^{\\frac{\\pi}{12}i}$",
+    "$4\\sqrt2e^{\\frac{\\pi}{12}i}$",
+    "$2\\sqrt2e^{\\frac{19\\pi}{12}i}$",
+    "$4\\sqrt2e^{\\frac{19\\pi}{12}i}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "$ABCD$ is a rhombus with $\\overrightarrow{AB}=\\mathbf a$ and $\\overrightarrow{BC}=\\mathbf b$. $BE$ is an extension of $AB$ such that $AB:BE=4:3$. The point $F$ is the midpoint of $CD$. Which expression gives the vector $\\overrightarrow{FE}$ in terms of $\\mathbf a$ and $\\mathbf b$?",
+   "answer": "$\\overrightarrow{FC}=\\dfrac12\\overrightarrow{DC}=\\dfrac12\\mathbf a$, $\\overrightarrow{CB}=-\\mathbf b$ and $\\overrightarrow{BE}=\\dfrac34\\mathbf a$. So $\\overrightarrow{FE}=\\overrightarrow{FC}+\\overrightarrow{CB}+\\overrightarrow{BE}=\\dfrac12\\mathbf a-\\mathbf b+\\dfrac34\\mathbf a=\\dfrac54\\mathbf a-\\mathbf b$ (D).",
+   "options": [
+    "$\\dfrac{11}{6}\\mathbf a+\\mathbf b$",
+    "$\\dfrac54\\mathbf a+\\mathbf b$",
+    "$\\dfrac{11}{6}\\mathbf a-\\mathbf b$",
+    "$\\dfrac54\\mathbf a-\\mathbf b$"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/ext2-2025-abbotsleigh/q4.png"
+   ]
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.4"
+   ],
+   "question": "Which of the following Argand diagrams represents the solutions to the equation $\\operatorname{Arg}(z-i)=\\operatorname{Arg}(z+1)$? (Diagrams A–D are shown below in order.)",
+   "answer": "$z-i$ and $z+1$ are the vectors from $i$ and from $-1$ to $z$. They have the same argument only when they point the same way, so $z$ lies on the line through $-1$ and $i$ (gradient 1) outside the segment joining them. The points $-1$ and $i$ are excluded. Between them the vectors point in opposite directions. This is diagram A.",
+   "options": [
+    "Diagram A",
+    "Diagram B",
+    "Diagram C",
+    "Diagram D"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/ext2-2025-abbotsleigh/q5a.png",
+    "assets/img/ext2-2025-abbotsleigh/q5b.png",
+    "assets/img/ext2-2025-abbotsleigh/q5c.png",
+    "assets/img/ext2-2025-abbotsleigh/q5d.png"
+   ]
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.12"
+   ],
+   "question": "A sign reads: \"If you are not authorised, you may not enter.\" Which of the following statements is logically equivalent to it?",
+   "answer": "The sign is $\\neg P\\Rightarrow\\neg Q$, with $P$ = authorised and $Q$ = may enter. An implication is equivalent to its contrapositive, $Q\\Rightarrow P$: \"If you may enter, then you are authorised\" (A). B and D are the converse.",
+   "options": [
+    "If you may enter, then you are authorised.",
+    "If you are authorised, then you may enter.",
+    "If you are not authorised, then you may enter.",
+    "If you may not enter, then you are not authorised."
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.5.2"
+   ],
+   "question": "A particle of unit mass is projected vertically upwards from the ground with initial velocity $u$ m/s. It is affected by gravity $g$ and a resistive force equivalent to $\\dfrac12kv^2$, where the particle's velocity is $v$ m/s. Let $x$ be the displacement from the ground after $t$ seconds. Which of the following is the maximum height $H$ of the particle?",
+   "answer": "Going up, both gravity and resistance act downward, so $v\\dfrac{dv}{dx}=-\\left(g+\\dfrac k2v^2\\right)$. Then $-\\dfrac{v\\,dv}{g+\\frac k2v^2}=dx$. From the ground to the top, $x$ goes from $0$ to $H$ and $v$ goes from $u$ to $0$: $-\\int_u^0\\dfrac{v}{g+\\frac{kv^2}2}dv=\\int_0^H dx$. Reversing the limits, $H=\\int_0^u\\dfrac{v}{g+\\frac{kv^2}2}dv$ (B).",
+   "options": [
+    "$H=\\displaystyle\\int_u^0\\dfrac{v}{g+\\frac{kv^2}2}dv$",
+    "$H=\\displaystyle\\int_0^u\\dfrac{v}{g+\\frac{kv^2}2}dv$",
+    "$H=\\displaystyle\\int_u^0\\dfrac{v}{g-\\frac{kv^2}2}dv$",
+    "$H=\\displaystyle\\int_0^u\\dfrac{v}{g-\\frac{kv^2}2}dv$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.12",
+    "12.2.1.13"
+   ],
+   "question": "The curve $\\mathbf r(t)=(t^2,t^4,t^6)$ is defined for all real values of $t$. Which of the following graphs best represents its projection onto the $xz$-plane? (Graphs A–D are shown below in order.)",
+   "answer": "With $x=t^2$ and $z=t^6$, $z=x^3$. Since $x=t^2\\ge0$, only the half of the cubic with $x\\ge0$ is traced (C).",
+   "options": [
+    "Diagram A",
+    "Diagram B",
+    "Diagram C",
+    "Diagram D"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/ext2-2025-abbotsleigh/q8a.png",
+    "assets/img/ext2-2025-abbotsleigh/q8b.png",
+    "assets/img/ext2-2025-abbotsleigh/q8c.png",
+    "assets/img/ext2-2025-abbotsleigh/q8d.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.2"
+   ],
+   "question": "A car journey is split into two parts. During the first part the average speed is $V$ km/h and in the second part it is $U$ km/h. Kimie concludes that the average speed for the whole journey is $\\dfrac{U+V}2$ km/h. Which of the following is NOT a counterexample to this conclusion?",
+   "answer": "A: 200 km in $5+2.5=7.5$ h, average $26.\\dot6$ km/h, not 30, so it is a counterexample. B: 200 km in $2+2=4$ h, average 50 km/h $=\\dfrac{60+40}{2}$, so the formula works and this is not a counterexample (B). (When equal times are spent at each speed the formula does hold.)",
+   "options": [
+    "The car initially travels 100 km at 20 km/h, and then travels 100 km at 40 km/h.",
+    "The car initially travels 120 km at 60 km/h and 80 km at 40 km/h.",
+    "The car initially travels for one hour at 100 km/h and then two hours at 50 km/h.",
+    "The car initially travels 60 km in two hours and then travels 40 km in three hours."
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Consider the definite integral $I=\\displaystyle\\int_0^\\pi x\\sin x\\,dx$. Using the substitution $x=\\pi-y$, what is the value of $I$?",
+   "answer": "$dx=-dy$; $x=0\\to y=\\pi$ and $x=\\pi\\to y=0$. $I=\\int_\\pi^0(\\pi-y)\\sin(\\pi-y)(-dy)=\\int_0^\\pi(\\pi-y)\\sin y\\,dy=\\pi\\int_0^\\pi\\sin y\\,dy-I$. So $2I=\\pi\\int_0^\\pi\\sin y\\,dy$ and $I=\\dfrac\\pi2\\int_0^\\pi\\sin y\\,dy$ (C).",
+   "options": [
+    "$\\displaystyle\\int_{-\\pi/2}^{\\pi/2}\\pi\\sin y\\,dy$",
+    "$\\pi\\displaystyle\\int_0^{\\pi}\\sin y\\,dy$",
+    "$\\dfrac\\pi2\\displaystyle\\int_0^\\pi\\sin y\\,dy$",
+    "$\\displaystyle\\int_0^\\pi\\sin y\\,dy$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.9"
+   ],
+   "question": "Let $z_1=-1-5i$ and $z_2=2-i$. Calculate $i(z_1-z_2)$.",
+   "answer": "$z_1-z_2=(-1-5i)-(2-i)=-3-4i$, so $i(z_1-z_2)=-3i-4i^2=4-3i$."
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.13"
+   ],
+   "question": "Let $z_2=2-i$. Write $\\dfrac{a+ib}{z_2}$ in the form $\\omega=x+iy$, in terms of $a$ and $b$.",
+   "answer": "$\\dfrac{a+ib}{2-i}\\times\\dfrac{2+i}{2+i}=\\dfrac{2a+ai+2bi-b}{5}=\\dfrac{2a-b}{5}+\\dfrac{a+2b}{5}i$."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.12",
+    "12.1.2.3"
+   ],
+   "question": "Consider the statement about integers: if $k^2-14k$ is odd, then $k$ is odd. By considering the contrapositive prove that the statement is true.",
+   "answer": "The contrapositive is: if $k$ is even, then $k^2-14k$ is even. Let $k=2M$ for an integer $M$. Then $k^2-14k=4M^2-28M=2(2M^2-14M)$, which is even because $2M^2-14M$ is an integer. The contrapositive is true, so the original statement is true."
+  },
+  {
+   "ref": "Q11(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.18",
+    "12.2.2.5"
+   ],
+   "question": "Let $P(x,y,z)$ be any point that is equidistant from $Q(2,-3,4)$ and $R(-7,1,0)$. Show that the equation of all such points $P$ is $18x-8y+8z=-21$.",
+   "answer": "$|PQ|=|PR|$: $(x-2)^2+(y+3)^2+(z-4)^2=(x+7)^2+(y-1)^2+z^2$. Expanding, $x^2-4x+4+y^2+6y+9+z^2-8z+16=x^2+14x+49+y^2-2y+1+z^2$, so $-4x+6y-8z+29=14x-2y+50$. Hence $18x-8y+8z=-21$."
+  },
+  {
+   "ref": "Q11(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "The set of points $P(x,y,z)$ equidistant from $Q(2,-3,4)$ and $R(-7,1,0)$ satisfies $18x-8y+8z=-21$. Give a geometric description of $P$.",
+   "answer": "The points $P$ form a plane: the perpendicular bisector plane of the segment $QR$ (it passes through the midpoint of $QR$ and is perpendicular to $QR$)."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.1",
+    "12.3.1.14"
+   ],
+   "question": "Solve $z^2+(5+5i)z+(6+15i)=0$. Give your answer in the form $z=x+iy$.",
+   "answer": "$\\Delta=(5+5i)^2-4(6+15i)=50i-24-60i=-24-10i$. Since $(1-5i)^2=1-10i-25=-24-10i$, $\\sqrt\\Delta=\\pm(1-5i)$. $z=\\dfrac{-5-5i\\pm(1-5i)}2$, so $z=\\dfrac{-4-10i}{2}=-2-5i$ or $z=\\dfrac{-6}{2}=-3$."
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.7",
+    "12.4.1.8"
+   ],
+   "question": "Use partial fractions to find $\\displaystyle\\int_{-2}^1\\dfrac{1+7x}{(x-2)(x+3)}dx$.",
+   "answer": "Let $\\dfrac{1+7x}{(x-2)(x+3)}=\\dfrac A{x-2}+\\dfrac B{x+3}$, so $1+7x=A(x+3)+B(x-2)$. At $x=2$: $15=5A$, $A=3$. At $x=-3$: $-20=-5B$, $B=4$. $\\displaystyle\\int_{-2}^1\\left(\\dfrac3{x-2}+\\dfrac4{x+3}\\right)dx=\\Big[3\\ln|x-2|+4\\ln|x+3|\\Big]_{-2}^1=(3\\ln1+4\\ln4)-(3\\ln4+4\\ln1)=\\ln4$."
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.5"
+   ],
+   "question": "Use mathematical induction to prove that if $S_1=a$ and $S_n-S_{n-1}=ar^{n-1}$, $n\\ge2$, then $S_n=\\dfrac{a(1-r^n)}{1-r}$, $n\\ge1$.",
+   "answer": "Base case $n=1$: $\\dfrac{a(1-r)}{1-r}=a=S_1$, so it is true for $n=1$.\n\nAssume true for $n=k$: $S_k=\\dfrac{a(1-r^k)}{1-r}$. Then for $n=k+1$, $S_{k+1}=S_k+ar^k=\\dfrac{a(1-r^k)}{1-r}+ar^k=\\dfrac{a(1-r^k)+ar^k(1-r)}{1-r}=\\dfrac{a-ar^k+ar^k-ar^{k+1}}{1-r}=\\dfrac{a(1-r^{k+1})}{1-r}$.\n\nSo if it is true for $n=k$ it is true for $n=k+1$. By induction it is true for all integers $n\\ge1$."
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.4"
+   ],
+   "question": "Consider the complex number $z=1+i\\sqrt3$. Write $z$ in mod-arg form.",
+   "answer": "$|z|=\\sqrt{1+3}=2$ and $\\arg z=\\tan^{-1}\\sqrt3=\\dfrac\\pi3$, so $z=2\\operatorname{cis}\\dfrac\\pi3$."
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "Let $z=1+i\\sqrt3$. Show $\\sqrt{z^3}=2\\sqrt2\\,i$.",
+   "answer": "$z^3=2^3\\operatorname{cis}\\pi=-8$, and $\\sqrt{-8}=\\sqrt8\\,i=2\\sqrt2\\,i$."
+  },
+  {
+   "ref": "Q12(b)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "Let $z=1+i\\sqrt3$. Find all values of $n$ for which $z^n$ is purely imaginary.",
+   "answer": "$z^n=2^n\\operatorname{cis}\\dfrac{n\\pi}3$ is purely imaginary when $\\cos\\dfrac{n\\pi}3=0$, i.e. $\\dfrac{n\\pi}3=\\dfrac\\pi2+k\\pi$, so $n=\\dfrac{6k+3}2=\\dfrac32+3k$ for $k\\in\\mathbb Z$. These values are never integers, so no integer power of $z$ is purely imaginary."
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.3",
+    "12.2.1.19"
+   ],
+   "question": "Find the Cartesian equation for the line $l$ that passes through the point $(1,-2,4)$ and is parallel to the line with equation $\\mathbf r=\\begin{pmatrix}2\\\\-1\\\\3\\end{pmatrix}+\\lambda\\begin{pmatrix}5\\\\2\\\\-1\\end{pmatrix}$.",
+   "answer": "The direction is $(5,2,-1)$, so $l:\\ x=1+5\\mu,\\ y=-2+2\\mu,\\ z=4-\\mu$. Eliminating $\\mu$: $\\dfrac{x-1}5=\\dfrac{y+2}2=4-z$."
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.7"
+   ],
+   "question": "The line $l$ has Cartesian equation $\\dfrac{x-1}5=\\dfrac{y+2}2=4-z$. Determine where $l$ meets the $xz$-plane.",
+   "answer": "The $xz$-plane is $y=0$: $\\dfrac{0+2}2=1$, so $x-1=5$ giving $x=6$, and $4-z=1$ giving $z=3$. It meets the $xz$-plane at $(6,0,3)$."
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "Prove that $\\log_29$ is irrational.",
+   "answer": "Assume $\\log_29=\\dfrac ab$ is rational, where $a,b$ are positive integers (it is positive as $9>1$). Then $2^{a/b}=9$, so $2^a=9^b$. The left side is even and the right side is odd (for positive integers $a,b$). This is a contradiction, so $\\log_29$ is irrational."
+  },
+  {
+   "ref": "Q12(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.5",
+    "12.3.4.12"
+   ],
+   "question": "If $\\omega$ is a complex solution of $z^3=1$, simplify $(1+\\omega)^2+(1+\\omega^2)^2$.",
+   "answer": "$\\omega\\ne1$ satisfies $\\omega^2+\\omega+1=0$, so $1+\\omega=-\\omega^2$ and $1+\\omega^2=-\\omega$. Then $(1+\\omega)^2+(1+\\omega^2)^2=\\omega^4+\\omega^2=\\omega+\\omega^2=-1$."
+  },
+  {
+   "ref": "Q12(f)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.7"
+   ],
+   "question": "Write the negation of the statement $\\exists x\\in\\mathbb R^+,\\ \\forall y\\in\\mathbb R^+:\\ xy=1$.",
+   "answer": "$\\forall x\\in\\mathbb R^+,\\ \\exists y\\in\\mathbb R^+:\\ xy\\ne1$."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.12",
+    "12.4.1.13"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^1\\log_e(x^2+1)\\,dx$.",
+   "answer": "By parts with $u=\\ln(x^2+1)$, $dv=dx$: $\\displaystyle\\int_0^1\\ln(x^2+1)dx=\\Big[x\\ln(x^2+1)\\Big]_0^1-\\int_0^1\\dfrac{2x^2}{x^2+1}dx=\\ln2-\\int_0^1\\left(2-\\dfrac2{x^2+1}\\right)dx=\\ln2-\\Big[2x-2\\tan^{-1}x\\Big]_0^1=\\ln2-2+\\dfrac\\pi2$."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.17",
+    "12.2.1.18"
+   ],
+   "question": "Consider the spheres $S_1:\\ x^2-2x+y^2+4y+z^2-4z=0$ and $S_2:\\ x^2+y^2+z^2+10x+2z+10=0$. Explain why $S_1$ and $S_2$ intersect at a single point. (Do NOT find this point.)",
+   "answer": "Completing the square, $S_1:\\ (x-1)^2+(y+2)^2+(z-2)^2=9$, with centre $(1,-2,2)$ and radius 3. $S_2:\\ (x+5)^2+y^2+(z+1)^2=16$, with centre $(-5,0,-1)$ and radius 4. The distance between the centres is $\\sqrt{6^2+2^2+3^2}=7=3+4$, the sum of the radii, so the spheres touch externally at exactly one point."
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Consider $z=\\cos\\theta+i\\sin\\theta$. Show that $z^n-\\dfrac1{z^n}=2i\\sin n\\theta$.",
+   "answer": "By de Moivre, $z^n=\\cos n\\theta+i\\sin n\\theta$ and $\\dfrac1{z^n}=z^{-n}=\\cos n\\theta-i\\sin n\\theta$. Subtracting, $z^n-\\dfrac1{z^n}=2i\\sin n\\theta$."
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Let $z=\\cos\\theta+i\\sin\\theta$ and use $z^n-\\dfrac1{z^n}=2i\\sin n\\theta$. Hence, or otherwise, find the constants $a$, $b$ and $c$ such that $\\sin^5\\theta=a\\sin5\\theta+b\\sin3\\theta+c\\sin\\theta$.",
+   "answer": "$\\left(z-\\dfrac1z\\right)^5=(2i\\sin\\theta)^5=32i\\sin^5\\theta$. Expanding the left side: $\\left(z^5-\\dfrac1{z^5}\\right)-5\\left(z^3-\\dfrac1{z^3}\\right)+10\\left(z-\\dfrac1z\\right)=2i\\sin5\\theta-10i\\sin3\\theta+20i\\sin\\theta$. So $32i\\sin^5\\theta=2i(\\sin5\\theta-5\\sin3\\theta+10\\sin\\theta)$ and $\\sin^5\\theta=\\dfrac1{16}\\sin5\\theta-\\dfrac5{16}\\sin3\\theta+\\dfrac58\\sin\\theta$. Thus $a=\\dfrac1{16}$, $b=-\\dfrac5{16}$, $c=\\dfrac58$."
+  },
+  {
+   "ref": "Q13(c)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.15"
+   ],
+   "question": "Given $\\sin^5\\theta=\\dfrac1{16}\\sin5\\theta-\\dfrac5{16}\\sin3\\theta+\\dfrac58\\sin\\theta$, evaluate $\\displaystyle\\int_0^{\\pi/2}16\\sin^5\\theta\\,d\\theta$.",
+   "answer": "$\\displaystyle\\int_0^{\\pi/2}(\\sin5\\theta-5\\sin3\\theta+10\\sin\\theta)d\\theta=\\Big[-\\dfrac{\\cos5\\theta}5+\\dfrac{5\\cos3\\theta}3-10\\cos\\theta\\Big]_0^{\\pi/2}=0-\\left(-\\dfrac15+\\dfrac53-10\\right)=\\dfrac{128}{15}$."
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.1",
+    "12.2.2.5"
+   ],
+   "question": "A cube has a pair of opposite vertices $A(-1,-1,-1)$ and $B(1,1,1)$. Another pair of opposite vertices are $X$ and $Y$, as displayed in the diagram. If $\\alpha$ is the acute angle between $AB$ and $XY$, show that $\\sin2\\alpha=\\dfrac{2\\sqrt8}{9}$.",
+   "answer": "With $X(1,-1,-1)$ and $Y(-1,1,1)$ (the diagram's labels), $\\overrightarrow{AB}=(2,2,2)$ and $\\overrightarrow{XY}=(-2,2,2)$, both of length $2\\sqrt3$. $\\cos\\alpha=\\dfrac{|{-4}+4+4|}{12}=\\dfrac13$, so $\\sin\\alpha=\\sqrt{1-\\dfrac19}=\\dfrac{\\sqrt8}3$. $\\sin2\\alpha=2\\sin\\alpha\\cos\\alpha=2\\cdot\\dfrac{\\sqrt8}3\\cdot\\dfrac13=\\dfrac{2\\sqrt8}9$.",
+   "images": [
+    "assets/img/ext2-2025-abbotsleigh/q13d.png"
+   ]
+  },
+  {
+   "ref": "Q13(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.2",
+    "12.1.3.6"
+   ],
+   "question": "Three positive numbers $a$, $b$ and $c$ satisfy $a\\ge b\\ge c$ and $a+b+c\\le1$. By considering $(a+b+c)^2$ or otherwise, prove that $a^2+3b^2+5c^2\\le1$.",
+   "answer": "Since $0<a+b+c\\le1$, $(a+b+c)^2\\le1$, so $a^2+b^2+c^2+2ab+2bc+2ac\\le1$. As $a\\ge b\\ge c>0$: $2ab\\ge2b^2$, $2ac\\ge2c^2$ and $2bc\\ge2c^2$. Therefore $a^2+b^2+c^2+2b^2+2c^2+2c^2\\le a^2+b^2+c^2+2ab+2bc+2ac\\le1$, i.e. $a^2+3b^2+5c^2\\le1$."
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Use the substitution $u=\\sin x-x\\cos x$ to evaluate $\\displaystyle\\int_{\\pi/2}^{\\pi}\\dfrac{x}{1-x\\cot x}dx$.",
+   "answer": "$\\dfrac{du}{dx}=\\cos x-\\cos x+x\\sin x=x\\sin x$. $\\dfrac x{1-x\\cot x}=\\dfrac{x\\sin x}{\\sin x-x\\cos x}$, so the integral is $\\displaystyle\\int\\dfrac{du}u$. At $x=\\dfrac\\pi2$, $u=1$; at $x=\\pi$, $u=\\pi$. The value is $\\ln\\pi-\\ln1=\\ln\\pi$."
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.5",
+    "12.1.3.6"
+   ],
+   "question": "Consider the four expressions, where $a>0$ and $b>0$: $D=\\dfrac{2ab}{a+b}$, $U=\\sqrt{ab}$, $B=\\dfrac{a+b}2$, $O=\\sqrt{\\dfrac{a^2+b^2}2}$. Show that $D\\le U\\le B\\le O$.",
+   "answer": "$B\\ge U$: $(\\sqrt a-\\sqrt b)^2\\ge0\\Rightarrow a+b\\ge2\\sqrt{ab}$, so $\\dfrac{a+b}2\\ge\\sqrt{ab}$.\n\n$U\\ge D$: from $a+b\\ge2\\sqrt{ab}$, $\\dfrac{2\\sqrt{ab}}{a+b}\\le1$. Multiplying both sides by $\\sqrt{ab}>0$ gives $\\dfrac{2ab}{a+b}\\le\\sqrt{ab}$, i.e. $D\\le U$.\n\n$B\\le O$: both are positive so compare squares. $\\left(\\dfrac{a+b}2\\right)^2\\le\\dfrac{a^2+b^2}2\\iff a^2+2ab+b^2\\le2a^2+2b^2\\iff0\\le(a-b)^2$, which is true.\n\nHence $D\\le U\\le B\\le O$."
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.9",
+    "12.3.4.10"
+   ],
+   "question": "The triangle $ABC$ in the complex plane is formed from the points $A(\\alpha)$, $B(\\beta)$ and $C(\\gamma)$. The complex numbers $\\alpha,\\beta,\\gamma$ satisfy $\\dfrac{\\gamma-\\alpha}{\\beta-\\alpha}=1-i$ and $\\alpha+\\beta+\\gamma=0$. Calculate $\\alpha:\\beta$.",
+   "answer": "$\\gamma=-\\alpha-\\beta$, so $\\dfrac{-2\\alpha-\\beta}{\\beta-\\alpha}=1-i$. Then $-2\\alpha-\\beta=(1-i)(\\beta-\\alpha)=\\beta-i\\beta-\\alpha+i\\alpha$, so $-\\alpha(1+i)=\\beta(2-i)$ and $\\dfrac\\alpha\\beta=\\dfrac{-2+i}{1+i}=\\dfrac{(-2+i)(1-i)}{2}=\\dfrac{-1+3i}2$. So $\\alpha:\\beta=(-1+3i):2$. (In terms of lengths, $|\\alpha|:|\\beta|=\\sqrt{10}:2$.)"
+  },
+  {
+   "ref": "Q14(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.1.2",
+    "12.2.2.5"
+   ],
+   "question": "Two magpies, $A$ and $B$, are observed flying. Their initial positions are $(\\mathbf i-2\\mathbf j+4\\mathbf k)$ m and $(-2\\mathbf i+a\\mathbf j+6\\mathbf k)$ m, where $a$ is a constant. They are travelling with constant velocities $(2\\mathbf i+3\\mathbf j+6\\mathbf k)$ m/s and $(3\\mathbf i+12\\mathbf j+4\\mathbf k)$ m/s respectively. Determine the constant $a$, if the distance between the two magpies is least after 5 seconds.",
+   "answer": "$\\overrightarrow{AB}(t)=(-2+3t-1-2t,\\ a+12t+2-3t,\\ 6+4t-4-6t)=(t-3,\\ 9t+a+2,\\ 2-2t)$. $D^2=(t-3)^2+(9t+a+2)^2+(2-2t)^2$, a quadratic in $t$ with positive leading coefficient, so its minimum is where $\\dfrac{d(D^2)}{dt}=0$: $2(t-3)+18(9t+a+2)-4(2-2t)=0$. At $t=5$: $4+18(a+47)+32=0$, so $a+47=-2$ and $a=-49$."
+  },
+  {
+   "ref": "Q14(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.2.5",
+    "12.3.2.8"
+   ],
+   "question": "By considering $(1+i)(4-i)^2$ prove that $\\tan^{-1}\\dfrac7{23}+2\\tan^{-1}\\dfrac14=\\dfrac\\pi4$.",
+   "answer": "$(4-i)^2=15-8i$, so $(1+i)(4-i)^2=15-8i+15i+8=23+7i$. Arguments: $\\arg(1+i)=\\dfrac\\pi4$, $\\arg(4-i)=-\\tan^{-1}\\dfrac14$ and $\\arg(23+7i)=\\tan^{-1}\\dfrac7{23}$ (first quadrant). Since $\\dfrac\\pi4-2\\tan^{-1}\\dfrac14\\in(-\\pi,\\pi]$ equals the principal argument of the product, $\\dfrac\\pi4-2\\tan^{-1}\\dfrac14=\\tan^{-1}\\dfrac7{23}$. Rearranging, $\\tan^{-1}\\dfrac7{23}+2\\tan^{-1}\\dfrac14=\\dfrac\\pi4$."
+  },
+  {
+   "ref": "Q15(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.5.1"
+   ],
+   "question": "A body of unit mass falls vertically from rest, under gravity, from a height of 100 metres above the ground through a resisting medium. The resistance to its motion is $\\dfrac{v^2}{100}$, where $v$ is the speed of the body (in m/s) after falling a distance $x$ metres.\n\nShow that the acceleration $\\ddot x$ of the body is given by $\\ddot x=g-\\dfrac{v^2}{100}$.",
+   "answer": "Taking downward as positive, the forces on the unit mass are gravity $g$ down and resistance $\\dfrac{v^2}{100}$ up. By Newton's second law $\\ddot x=g-\\dfrac{v^2}{100}$."
+  },
+  {
+   "ref": "Q15(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.5.4",
+    "12.5.5.5"
+   ],
+   "question": "A body of unit mass falls vertically from rest, under gravity, from a height of 100 metres above the ground through a resisting medium. The resistance to its motion is $\\dfrac{v^2}{100}$, where $v$ is the speed of the body (in m/s) after falling a distance $x$ metres. The acceleration is $\\ddot x=g-\\dfrac{v^2}{100}$.\n\nDetermine the terminal velocity $V$ of the body.",
+   "answer": "At terminal velocity $\\ddot x=0$: $g-\\dfrac{V^2}{100}=0$, so $V^2=100g$ and $V=10\\sqrt g$ m/s."
+  },
+  {
+   "ref": "Q15(a)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.5.2"
+   ],
+   "question": "A body of unit mass falls vertically from rest, under gravity, from a height of 100 metres above the ground through a resisting medium. The resistance to its motion is $\\dfrac{v^2}{100}$, where $v$ is the speed of the body (in m/s) after falling a distance $x$ metres. The acceleration is $\\ddot x=g-\\dfrac{v^2}{100}$ and the terminal velocity is $V=10\\sqrt g$.\n\nShow that the velocity $v$ of the body after it has fallen a vertical distance $x$ is given by $v^2=V^2\\left(1-e^{-x/50}\\right)$.",
+   "answer": "$v\\dfrac{dv}{dx}=g-\\dfrac{v^2}{100}=\\dfrac{V^2-v^2}{100}$ (since $V^2=100g$). Separating, $\\dfrac{v\\,dv}{V^2-v^2}=\\dfrac{dx}{100}$, so $-\\dfrac12\\ln(V^2-v^2)=\\dfrac x{100}+C$, i.e. $\\ln(V^2-v^2)=-\\dfrac x{50}+C'$. At $x=0$, $v=0$: $C'=\\ln V^2$. Hence $V^2-v^2=V^2e^{-x/50}$ and $v^2=V^2\\left(1-e^{-x/50}\\right)$."
+  },
+  {
+   "ref": "Q15(a)(iv)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.5.6"
+   ],
+   "question": "A body of unit mass falls vertically from rest, under gravity, from a height of 100 metres above the ground through a resisting medium. The resistance to its motion is $\\dfrac{v^2}{100}$, where $v$ is the speed of the body (in m/s) after falling a distance $x$ metres. The velocity after falling $x$ metres is given by $v^2=V^2\\left(1-e^{-x/50}\\right)$, where $V$ is the terminal velocity.\n\nDetermine the distance fallen when the velocity of the body first reaches $\\dfrac V2$.",
+   "answer": "$\\left(\\dfrac V2\\right)^2=V^2\\left(1-e^{-x/50}\\right)\\Rightarrow\\dfrac14=1-e^{-x/50}\\Rightarrow e^{-x/50}=\\dfrac34\\Rightarrow x=50\\ln\\dfrac43\\approx14.4$ m."
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.4.3"
+   ],
+   "question": "Let $S_n=\\displaystyle\\sum_{p=1}^n\\tan^{-1}\\left(\\dfrac1{2p^2}\\right)$. Prove by induction that $\\tan(S_n)=\\dfrac n{n+1}$.",
+   "answer": "Base case $n=1$: $S_1=\\tan^{-1}\\dfrac12$ so $\\tan S_1=\\dfrac12=\\dfrac1{1+1}$. True.\n\nAssume $\\tan S_k=\\dfrac k{k+1}$. Then $S_{k+1}=S_k+\\tan^{-1}\\dfrac1{2(k+1)^2}$ and\n$\\tan S_{k+1}=\\dfrac{\\frac k{k+1}+\\frac1{2(k+1)^2}}{1-\\frac k{k+1}\\cdot\\frac1{2(k+1)^2}}=\\dfrac{(2k^2+2k+1)/(2(k+1)^2)}{(2(k+1)^3-k)/(2(k+1)^3)}=\\dfrac{(k+1)(2k^2+2k+1)}{2k^3+6k^2+5k+2}$.\nSince $2k^3+6k^2+5k+2=(k+2)(2k^2+2k+1)$, $\\tan S_{k+1}=\\dfrac{k+1}{k+2}$, which is the statement for $n=k+1$.\n\nBy induction it is true for all integers $n\\ge1$."
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.5",
+    "12.3.4.6"
+   ],
+   "question": "The solutions of $z^5=1$ can be joined to form a regular pentagon in the complex plane, as shown. For $n\\ge3$, show that the perimeter of the regular $n$-gon formed by the solutions of $z^n=1$ is $P_n=2n\\sin\\left(\\dfrac\\pi n\\right)$.",
+   "answer": "The solutions of $z^n=1$ lie on the unit circle, with consecutive roots separated by $\\dfrac{2\\pi}n$ at the origin. Each side is the base of an isosceles triangle with two sides of length 1 and apex angle $\\dfrac{2\\pi}n$. By the cosine rule, the side length $s$ satisfies $s^2=1+1-2\\cos\\dfrac{2\\pi}n=2\\left(1-\\cos\\dfrac{2\\pi}n\\right)=4\\sin^2\\dfrac\\pi n$, so $s=2\\sin\\dfrac\\pi n$. With $n$ sides, $P_n=2n\\sin\\dfrac\\pi n$.",
+   "images": [
+    "assets/img/ext2-2025-abbotsleigh/q15c.png"
+   ]
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.5",
+    "12.1.3.8"
+   ],
+   "question": "The perimeter of the regular $n$-gon formed by the solutions of $z^n=1$ is $P_n=2n\\sin\\left(\\dfrac\\pi n\\right)$. It is known that as $x\\to0$, $\\dfrac{\\sin x}x\\to1$ (do not prove this). Using this, show that as $n\\to\\infty$, $P_n\\to2\\pi$.",
+   "answer": "Write $P_n=2\\pi\\cdot\\dfrac{\\sin(\\pi/n)}{\\pi/n}$. As $n\\to\\infty$, $x=\\dfrac\\pi n\\to0$, so $\\dfrac{\\sin x}x\\to1$. Hence $P_n\\to2\\pi\\times1=2\\pi$."
+  },
+  {
+   "ref": "Q16(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.12",
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^{1/4}\\dfrac{x^n}{e^x}dx$ for $n=1,2,3,\\dots$. Calculate $I_1$.",
+   "answer": "By parts with $u=x$, $dv=e^{-x}dx$: $I_1=\\Big[-xe^{-x}\\Big]_0^{1/4}+\\displaystyle\\int_0^{1/4}e^{-x}dx=-\\dfrac14e^{-1/4}+\\Big[-e^{-x}\\Big]_0^{1/4}=-\\dfrac14e^{-1/4}-e^{-1/4}+1=1-\\dfrac5{4e^{1/4}}$."
+  },
+  {
+   "ref": "Q16(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^{1/4}\\dfrac{x^n}{e^x}dx$. Show that $kI_k=I_{k+1}-I_k+\\dfrac{\\left(\\frac14\\right)^{k+1}}{e^{1/4}}$.",
+   "answer": "By parts with $u=x^{k+1}$, $dv=e^{-x}dx$: $I_{k+1}=\\Big[-x^{k+1}e^{-x}\\Big]_0^{1/4}+(k+1)\\displaystyle\\int_0^{1/4}x^ke^{-x}dx=-\\dfrac{(1/4)^{k+1}}{e^{1/4}}+(k+1)I_k$. Rearranging, $kI_k=I_{k+1}-I_k+\\dfrac{(1/4)^{k+1}}{e^{1/4}}$."
+  },
+  {
+   "ref": "Q16(a)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.14",
+    "12.1.4.3"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^{1/4}\\dfrac{x^n}{e^x}dx$ and use $kI_k=I_{k+1}-I_k+\\dfrac{(1/4)^{k+1}}{e^{1/4}}$. Deduce that $\\displaystyle\\sum_{k=1}^nkI_k=I_{n+1}-I_1+\\dfrac{1-\\left(\\frac14\\right)^n}{12e^{1/4}}$.",
+   "answer": "Summing the identity for $k=1$ to $n$: $\\displaystyle\\sum_{k=1}^nkI_k=\\sum_{k=1}^n(I_{k+1}-I_k)+\\dfrac1{e^{1/4}}\\sum_{k=1}^n\\left(\\dfrac14\\right)^{k+1}$. The first sum telescopes to $I_{n+1}-I_1$. The second is a geometric series with first term $\\dfrac1{16}$ and ratio $\\dfrac14$: $\\dfrac{\\frac1{16}\\left(1-\\left(\\frac14\\right)^n\\right)}{1-\\frac14}=\\dfrac{1-\\left(\\frac14\\right)^n}{12}$. Hence $\\displaystyle\\sum_{k=1}^nkI_k=I_{n+1}-I_1+\\dfrac{1-\\left(\\frac14\\right)^n}{12e^{1/4}}$."
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "The diagram shows a regular tetrahedron $OABC$ with sides of length 1. Let $X$ and $Y$ be points on the edges such that $BX:XC=AY:YB=x:1-x$, where $0<x<1$. Let $\\overrightarrow{OA}=\\mathbf a$, $\\overrightarrow{OB}=\\mathbf b$ and $\\overrightarrow{OC}=\\mathbf c$.\n\nShow that $\\mathbf a\\cdot\\mathbf b=\\mathbf b\\cdot\\mathbf c=\\mathbf a\\cdot\\mathbf c=\\dfrac12$.",
+   "answer": "Each face is an equilateral triangle, so the angle between any two edges from $O$ is $\\dfrac\\pi3$. With all edges of length 1, $\\mathbf a\\cdot\\mathbf b=|\\mathbf a||\\mathbf b|\\cos\\dfrac\\pi3=\\dfrac12$, and similarly $\\mathbf b\\cdot\\mathbf c=\\mathbf a\\cdot\\mathbf c=\\dfrac12$.",
+   "images": [
+    "assets/img/ext2-2025-abbotsleigh/q16b.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.1",
+    "12.2.2.5"
+   ],
+   "question": "The diagram shows a regular tetrahedron $OABC$ with sides of length 1. Let $X$ and $Y$ be points on the edges such that $BX:XC=AY:YB=x:1-x$, where $0<x<1$. Let $\\overrightarrow{OA}=\\mathbf a$, $\\overrightarrow{OB}=\\mathbf b$ and $\\overrightarrow{OC}=\\mathbf c$. You may use $\\mathbf a\\cdot\\mathbf b=\\mathbf b\\cdot\\mathbf c=\\mathbf a\\cdot\\mathbf c=\\dfrac12$.\n\nShow that $|\\overrightarrow{OY}|=\\sqrt{1-x+x^2}$.",
+   "answer": "$\\overrightarrow{OY}=\\overrightarrow{OA}+x\\overrightarrow{AB}=(1-x)\\mathbf a+x\\mathbf b$. $|\\overrightarrow{OY}|^2=(1-x)^2|\\mathbf a|^2+2x(1-x)\\mathbf a\\cdot\\mathbf b+x^2|\\mathbf b|^2=(1-x)^2+x(1-x)+x^2=1-x+x^2$. So $|\\overrightarrow{OY}|=\\sqrt{1-x+x^2}$.",
+   "images": [
+    "assets/img/ext2-2025-abbotsleigh/q16b.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)(iii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.2.2.1",
+    "12.2.2.5",
+    "12.1.3.9"
+   ],
+   "question": "The diagram shows a regular tetrahedron $OABC$ with sides of length 1. Let $X$ and $Y$ be points on the edges such that $BX:XC=AY:YB=x:1-x$, where $0<x<1$. Let $\\overrightarrow{OA}=\\mathbf a$, $\\overrightarrow{OB}=\\mathbf b$ and $\\overrightarrow{OC}=\\mathbf c$. You may use $\\mathbf a\\cdot\\mathbf b=\\mathbf b\\cdot\\mathbf c=\\mathbf a\\cdot\\mathbf c=\\dfrac12$ and $|\\overrightarrow{OY}|=\\sqrt{1-x+x^2}$.\n\nDetermine the range of values of $\\angle YOX$.",
+   "answer": "$\\overrightarrow{OY}=(1-x)\\mathbf a+x\\mathbf b$ and $\\overrightarrow{OX}=\\overrightarrow{OB}+x\\overrightarrow{BC}=(1-x)\\mathbf b+x\\mathbf c$, which also has length $\\sqrt{1-x+x^2}$.\n\n$\\overrightarrow{OY}\\cdot\\overrightarrow{OX}=\\tfrac12(1-x)^2+\\tfrac12x(1-x)+x(1-x)+\\tfrac12x^2=\\dfrac{1+x-x^2}2$.\n\nHence $\\cos\\angle YOX=\\dfrac{1+x-x^2}{2(1-x+x^2)}$.\n\nAt $x\\to0$ or $x\\to1$, $\\cos\\angle YOX\\to\\dfrac12$. Differentiating, $\\dfrac{d}{dx}\\cos\\angle YOX=\\dfrac12\\cdot\\dfrac{2-4x}{(1-x+x^2)^2}$, which is zero at $x=\\dfrac12$, positive for $x<\\dfrac12$ and negative for $x>\\dfrac12$, so $x=\\dfrac12$ is a maximum: $\\cos\\angle YOX=\\dfrac{1+\\frac12-\\frac14}{2\\left(\\frac34\\right)}=\\dfrac56$.\n\nSo $\\dfrac12<\\cos\\angle YOX\\le\\dfrac56$, and since cosine is decreasing on $\\left[0,\\dfrac\\pi2\\right]$, $\\cos^{-1}\\dfrac56\\le\\angle YOX<\\dfrac\\pi3$.",
+   "images": [
+    "assets/img/ext2-2025-abbotsleigh/q16b.png"
+   ]
+  }
+ ]
+}
