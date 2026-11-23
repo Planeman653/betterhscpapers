@@ -1,0 +1,689 @@
+{
+ "id": "adv-2026-james-ruse",
+ "course": "advanced",
+ "school": "James Ruse",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5328",
+  "title": "James Ruse 2026 w. sol"
+ },
+ "indexed": "2026-11-24",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q6",
+   "reason": "Not in 2024 syllabus: mean and standard deviation of datasets"
+  },
+  {
+   "ref": "Q18(a)",
+   "reason": "Not in 2024 syllabus: bivariate data (least-squares regression, correlation)"
+  },
+  {
+   "ref": "Q18(b)(i)",
+   "reason": "Not in 2024 syllabus: bivariate data"
+  },
+  {
+   "ref": "Q18(b)(ii)",
+   "reason": "Not in 2024 syllabus: bivariate data"
+  },
+  {
+   "ref": "Q18(c)",
+   "reason": "Not in 2024 syllabus: bivariate data"
+  },
+  {
+   "ref": "Q18(d)",
+   "reason": "Not in 2024 syllabus: bivariate data"
+  },
+  {
+   "ref": "Q19(a)",
+   "reason": "Not in 2024 syllabus: Pareto charts / cumulative percentage table"
+  },
+  {
+   "ref": "Q19(b)",
+   "reason": "Not in 2024 syllabus: Pareto charts"
+  },
+  {
+   "ref": "Q19(c)",
+   "reason": "Not in 2024 syllabus: Pareto charts"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.7.2.6",
+    "11.7.3.4"
+   ],
+   "question": "In a network audit, 58% of devices show a temperature alert, 46% show a humidity alert, and 31% show both alerts. A device is selected from those showing at least one of the two alerts. What is the probability that it shows exactly one alert?",
+   "answer": "$P(\\text{at least one})=0.58+0.46-0.31=0.73$ and $P(\\text{exactly one})=0.73-0.31=0.42$. The required probability is $\\dfrac{0.42}{0.73}=\\dfrac{42}{73}$ (B).",
+   "options": [
+    "$\\dfrac{31}{73}$",
+    "$\\dfrac{42}{73}$",
+    "$\\dfrac{42}{104}$",
+    "$\\dfrac{73}{104}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.13"
+   ],
+   "question": "How many solutions does $\\sin\\theta=\\cos(2\\theta)$ have in the interval $0\\le\\theta\\le2\\pi$?",
+   "answer": "$\\cos2\\theta=1-2\\sin^2\\theta$, so $2\\sin^2\\theta+\\sin\\theta-1=0$, i.e. $(2\\sin\\theta-1)(\\sin\\theta+1)=0$. $\\sin\\theta=\\dfrac12$ gives $\\theta=\\dfrac\\pi6,\\dfrac{5\\pi}6$; $\\sin\\theta=-1$ gives $\\theta=\\dfrac{3\\pi}2$. Three solutions (C).",
+   "options": [
+    "2",
+    "4",
+    "3",
+    "5"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.13",
+    "12.6.3.9"
+   ],
+   "question": "A normally distributed random variable $X$ satisfies $P(X<42)=0.10$ and $P(X>58)=0.10$. The variable $Y$ is defined by $Y=100-2X$. What is $P(-16<Y<16)$?",
+   "answer": "$-16<100-2X<16\\iff-116<-2X<-84\\iff42<X<58$. So $P=1-0.10-0.10=0.80$ (A).",
+   "options": [
+    "0.80",
+    "0.20",
+    "0.90",
+    "It cannot be determined"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.5.1",
+    "11.1.9.3"
+   ],
+   "question": "Suppose $f(x)=\\dfrac{ax+b}{cx+d}$, where $ad-bc\\ne0$ and $c\\ne0$. Which has the following properties?",
+   "answer": "$f(x)=\\dfrac ac+\\dfrac{k}{cx+d}$ with $k\\ne0$ is a hyperbola: it has no turning points, a vertical asymptote at $x=-\\dfrac dc$ and a horizontal asymptote $y=\\dfrac ac$, and $x=-\\dfrac dc$ is excluded from the domain. The only $y$-value never reached is $y=\\dfrac ac$ (C).",
+   "options": [
+    "The graph has exactly one turning point.",
+    "The graph has a vertical asymptote but no horizontal asymptote.",
+    "There is exactly one $y$-value that is not in the range of the function.",
+    "The graph has domain equal to all real numbers."
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.2.9",
+    "11.1.1.6"
+   ],
+   "question": "Let $2^{2x}-5\\cdot2^x+6=0$. Which of the following could be a value of $x$?",
+   "answer": "Let $u=2^x$: $u^2-5u+6=(u-2)(u-3)=0$, so $2^x=2$ ($x=1$) or $2^x=3$ ($x=\\log_23$). Only $x=1$ appears (B).",
+   "options": [
+    "$\\log_32$",
+    "1",
+    "2",
+    "$\\log_26$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.9",
+    "12.3.4.1"
+   ],
+   "question": "A particle moves along a straight line such that its displacement $x$ metres at time $t$ seconds is implicitly defined by $t=x^3+3x$. What is the acceleration of the particle (in m s$^{-2}$) at the instant when $x=1$?",
+   "answer": "$\\dfrac{dt}{dx}=3x^2+3$, so $v=\\dfrac{dx}{dt}=\\dfrac1{3x^2+3}$. $a=\\dfrac{dv}{dt}=\\dfrac{dv}{dx}\\cdot v=\\dfrac{-6x}{(3x^2+3)^2}\\cdot\\dfrac1{3x^2+3}=-\\dfrac{6x}{(3x^2+3)^3}$. At $x=1$: $a=-\\dfrac{6}{216}=-\\dfrac1{36}$ (B).",
+   "options": [
+    "$-\\dfrac16$",
+    "$-\\dfrac1{36}$",
+    "$\\dfrac16$",
+    "$\\dfrac1{36}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.8.5",
+    "12.4.6.3"
+   ],
+   "question": "The area bounded by the curve $y=\\dfrac{x}{x^2+1}$, the $x$-axis, the $y$-axis and the vertical line $x=k$, where $k>0$, is exactly equal to $\\ln5$ square units. What is the exact value of $k$?",
+   "answer": "$\\displaystyle\\int_0^k\\dfrac{x}{x^2+1}dx=\\dfrac12\\ln(k^2+1)=\\ln5$, so $k^2+1=25$ and $k^2=24$, $k=2\\sqrt6$ (A).",
+   "options": [
+    "$2\\sqrt6$",
+    "3",
+    "24",
+    "$\\sqrt6$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.1"
+   ],
+   "question": "The graph of a differentiable function $y=f(x)$ passes through the point $(2,1)$ and has a stationary point at $(5,8)$. A new function $g(x)$ is defined by $g(x)=[f(x)]^2f(2x-2)$. Find the exact value of $g'(2)$.",
+   "answer": "Product and chain rules: $g'(x)=2f(x)f'(x)f(2x-2)+[f(x)]^2\\cdot2f'(2x-2)$. At $x=2$: $f(2)=1$, $f(2x-2)=f(2)=1$ and $f'(2x-2)=f'(2)$, so $g'(2)=2(1)f'(2)(1)+1\\cdot2f'(2)=4f'(2)$ (D).",
+   "options": [
+    "0",
+    "$2f'(2)$",
+    "$3f'(2)$",
+    "$4f'(2)$"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/adv-2026-james-ruse/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.2.2",
+    "12.7.2.4"
+   ],
+   "question": "A student deposits \\$800 at the end of each month for 18 months into an account earning 6% p.a. compounded monthly. No further deposits are made, but the money remains invested for another 6 months. Which expression gives the value of the account after 24 months?",
+   "answer": "The monthly rate is $\\dfrac{6\\%}{12}=0.5\\%$. After 18 deposits the future value is $800\\left(\\dfrac{1.005^{18}-1}{0.005}\\right)$, which then grows for 6 more months: multiply by $1.005^6$ (D).",
+   "options": [
+    "$800\\left(\\dfrac{(1.005)^{24}-1}{0.005}\\right)$",
+    "$800(18)(1.005)^6$",
+    "$800\\left(\\dfrac{(1.06)^{18}-1}{0.06}\\right)(1.06)^6$",
+    "$800\\left(\\dfrac{(1.005)^{18}-1}{0.005}\\right)(1.005)^6$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q11",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.2.9"
+   ],
+   "question": "Using first principles, differentiate $f(x)=2x^2-5x+3$.",
+   "answer": "$f(x+h)=2(x+h)^2-5(x+h)+3=2x^2+4xh+2h^2-5x-5h+3$. $f'(x)=\\displaystyle\\lim_{h\\to0}\\dfrac{4xh+2h^2-5h}{h}=\\lim_{h\\to0}(4x+2h-5)=4x-5$."
+  },
+  {
+   "ref": "Q12",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.6.2",
+    "12.4.8.1"
+   ],
+   "question": "Evaluate the definite integral, leaving your answer in exact form: $\\displaystyle\\int_1^4\\left(\\dfrac2{3x-2}+\\dfrac1{\\sqrt x}\\right)dx$.",
+   "answer": "$\\displaystyle\\int_1^4\\left(\\dfrac2{3x-2}+x^{-1/2}\\right)dx=\\left[\\dfrac23\\ln(3x-2)+2\\sqrt x\\right]_1^4=\\left(\\dfrac23\\ln10+4\\right)-\\left(\\dfrac23\\ln1+2\\right)=2+\\dfrac23\\ln10$."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.6"
+   ],
+   "question": "The number of clips a wildlife camera records each night forms an arithmetic sequence. Over the first 10 nights the camera records a total of 730 clips. On the tenth night it records 100 clips. Show the number of clips recorded on the first night is 46.",
+   "answer": "$S_{10}=\\dfrac{10}2(a+T_{10})=5(a+100)=730$, so $a+100=146$ and $a=46$."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.6"
+   ],
+   "question": "The number of clips a wildlife camera records each night forms an arithmetic sequence. The first night records 46 clips and the tenth night records 100. Find the common difference.",
+   "answer": "$T_{10}=46+9d=100$, so $d=\\dfrac{54}9=6$."
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.2.6"
+   ],
+   "question": "The number of clips a wildlife camera records each night forms an arithmetic sequence with first term 46 and common difference 6. Assuming the same pattern continues, find the first night by which the total number of clips recorded exceeds 1200.",
+   "answer": "$S_n=\\dfrac n2[2(46)+(n-1)6]=n(3n+43)>1200$. $S_{14}=14\\times85=1190<1200$ and $S_{15}=15\\times88=1320>1200$. The total first exceeds 1200 on night 15."
+  },
+  {
+   "ref": "Q14",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.13",
+    "12.6.3.10"
+   ],
+   "question": "The time $T$, in seconds, for a humidity sensor to stabilise after each misting cycle is normally distributed with mean 18.5 seconds and standard deviation 2.4 seconds. A cycle is classified as delayed if the stabilisation time is more than 22.1 seconds. During a week, the system completes 360 misting cycles. Estimate the number of delayed cycles in that week.",
+   "answer": "$z=\\dfrac{22.1-18.5}{2.4}=1.5$. $P(Z>1.5)=1-0.9332=0.0668$. Expected number $=360\\times0.0668\\approx24$ delayed cycles."
+  },
+  {
+   "ref": "Q15",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.2.9",
+    "11.5.2.6"
+   ],
+   "question": "Solve for $x$: $\\log_{\\frac13}(2x-1)+\\log_3(x-3)=-1$.",
+   "answer": "$\\log_{1/3}(2x-1)=-\\log_3(2x-1)$. So $\\log_3\\dfrac{x-3}{2x-1}=-1$, giving $\\dfrac{x-3}{2x-1}=\\dfrac13$, so $3x-9=2x-1$ and $x=8$. Check the domain ($x>3$): $x=8$ is valid."
+  },
+  {
+   "ref": "Q16(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.7.3.4",
+    "11.7.3.1"
+   ],
+   "question": "A box contains one fair die and one special die. The special die has $P(6)=\\dfrac13$ and $P(1)=P(2)=P(3)=P(4)=P(5)=\\dfrac2{15}$. One die is chosen at random and then rolled twice. The same die is used for both rolls. Given that the first roll is a 6, find the probability that the special die was chosen.",
+   "answer": "$P(\\text{special}\\mid6)=\\dfrac{\\frac12\\cdot\\frac13}{\\frac12\\cdot\\frac13+\\frac12\\cdot\\frac16}=\\dfrac{1/6}{1/6+1/12}=\\dfrac23$."
+  },
+  {
+   "ref": "Q16(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.7.3.4",
+    "11.7.2.6"
+   ],
+   "question": "A box contains one fair die and one special die. The special die has $P(6)=\\dfrac13$ and $P(1)=P(2)=P(3)=P(4)=P(5)=\\dfrac2{15}$. One die is chosen at random and rolled twice (the same die is used for both rolls). Given that the first roll is a 6, find the probability that the second roll is even.",
+   "answer": "Given a first roll of 6, the special die was chosen with probability $\\dfrac23$ and the fair die with probability $\\dfrac13$. Special die: $P(\\text{even})=\\dfrac2{15}+\\dfrac2{15}+\\dfrac13=\\dfrac35$. Fair die: $\\dfrac12$. $P(\\text{even})=\\dfrac23\\cdot\\dfrac35+\\dfrac13\\cdot\\dfrac12=\\dfrac25+\\dfrac16=\\dfrac{17}{30}$."
+  },
+  {
+   "ref": "Q16(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.1.9",
+    "12.6.1.6"
+   ],
+   "question": "A box contains one fair die and one special die. The special die has $P(6)=\\dfrac13$ and $P(1)=P(2)=P(3)=P(4)=P(5)=\\dfrac2{15}$. One die is chosen at random and then rolled twice, using the same die for both rolls. A game pays \\$18 if both rolls are sixes, \\$6 if exactly one roll is a six, and nothing otherwise. Determine the entry fee that will make the game fair.",
+   "answer": "Fair die: $P(\\text{two 6s})=\\dfrac1{36}$, $P(\\text{exactly one 6})=2\\cdot\\dfrac16\\cdot\\dfrac56=\\dfrac5{18}$. Special die: $P(\\text{two 6s})=\\dfrac19$, $P(\\text{exactly one 6})=2\\cdot\\dfrac13\\cdot\\dfrac23=\\dfrac49$. Overall: $P(66)=\\dfrac12\\left(\\dfrac1{36}+\\dfrac19\\right)=\\dfrac5{72}$; $P(\\text{one 6})=\\dfrac12\\left(\\dfrac5{18}+\\dfrac49\\right)=\\dfrac{13}{36}$. $E=18\\cdot\\dfrac5{72}+6\\cdot\\dfrac{13}{36}=\\dfrac54+\\dfrac{13}6=\\dfrac{41}{12}\\approx\\$3.42$. A fair game has an entry fee of about \\$3.42."
+  },
+  {
+   "ref": "Q17",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.2",
+    "11.6.1.6"
+   ],
+   "question": "The graph of $f(x)=x^2$ is dilated vertically by a scale factor of $k$, translated $m$ units to the right, and then translated 3 units up. The resulting graph is then reflected in the $x$-axis to form the final function $g(x)=-2x^2+8x-11$. Find the values of $m$ and $k$, where $k>0$.",
+   "answer": "The transformations give $y=k(x-m)^2+3$, then reflecting in the $x$-axis: $g(x)=-k(x-m)^2-3$. Completing the square: $-2x^2+8x-11=-2(x^2-4x)-11=-2(x-2)^2-3$. So $k=2$ and $m=2$."
+  },
+  {
+   "ref": "Q19(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.1.9"
+   ],
+   "question": "A remote observatory records the causes of 100 interruptions and the mean downtime associated with each cause: Network handover, 36 interruptions, 5 min; Sensor recalibration, 24, 12 min; Blocked lens, 18, 25 min; Battery replacement, 12, 40 min; Weather interference, 10, 18 min. A proposed upgrade can eliminate 70% of the interruptions (downtime) from exactly one cause. Installing the upgrade itself creates 90 minutes of downtime. If the objective is to maximise the net reduction in expected total downtime, determine which cause should be selected and the net reduction.",
+   "answer": "Total downtime per cause = number $\\times$ mean downtime: Network handover $36\\times5=180$ min; Sensor recalibration $24\\times12=288$; Blocked lens $18\\times25=450$; Battery replacement $12\\times40=480$; Weather interference $10\\times18=180$. Eliminating 70% gives reductions of 126, 201.6, 315, 336 and 126 minutes respectively. Subtracting the 90 minutes created by the upgrade, the largest net reduction is for Battery replacement: $336-90=246$ minutes."
+  },
+  {
+   "ref": "Q20",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.11"
+   ],
+   "question": "Using the trapezoidal rule with four sub-intervals, find an approximate value for $\\displaystyle\\int_1^3\\dfrac{2\\ln x}{x\\sqrt{1+(\\ln x)^2}}\\,dx$, correct to 4 decimal places.",
+   "answer": "$h=\\dfrac{3-1}4=0.5$ with $f(x)=\\dfrac{2\\ln x}{x\\sqrt{1+(\\ln x)^2}}$: $f(1)=0$, $f(1.5)\\approx0.5010$, $f(2)\\approx0.5697$, $f(2.5)\\approx0.5405$, $f(3)\\approx0.4930$. $\\displaystyle\\int\\approx\\dfrac{0.5}2\\big[f(1)+f(3)+2(f(1.5)+f(2)+f(2.5))\\big]=0.25\\big[0.4930+2(1.6112)\\big]\\approx0.9288$."
+  },
+  {
+   "ref": "Q21(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.1"
+   ],
+   "question": "By using the product rule, show that the derivative of $y=x^3\\ln x$ is $\\dfrac{dy}{dx}=x^2(3\\ln x+1)$.",
+   "answer": "$u=x^3$, $v=\\ln x$: $\\dfrac{dy}{dx}=3x^2\\ln x+x^3\\cdot\\dfrac1x=3x^2\\ln x+x^2=x^2(3\\ln x+1)$."
+  },
+  {
+   "ref": "Q21(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.4.5",
+    "12.4.8.1"
+   ],
+   "question": "Given that $\\dfrac d{dx}\\left(x^3\\ln x\\right)=x^2(3\\ln x+1)$, find the exact value of $\\displaystyle\\int_1^ex^2\\ln x\\,dx$ in simplified exact form.",
+   "answer": "$\\displaystyle\\int_1^e(3x^2\\ln x+x^2)dx=\\left[x^3\\ln x\\right]_1^e=e^3$. So $3\\int_1^ex^2\\ln x\\,dx=e^3-\\int_1^ex^2dx=e^3-\\dfrac{e^3-1}3=\\dfrac{2e^3+1}3$, and $\\displaystyle\\int_1^ex^2\\ln x\\,dx=\\dfrac{2e^3+1}9$."
+  },
+  {
+   "ref": "Q22(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.3.5",
+    "11.4.3.6"
+   ],
+   "question": "Consider the cubic curve $y=x^3-3kx$, where $k$ is a positive constant. A tangent is drawn to the curve at a point $P$ in the first quadrant. This tangent is parallel to the line $y=9x+2$. Show that the $x$-coordinate of point $P$ is $x=\\sqrt{k+3}$.",
+   "answer": "$y'=3x^2-3k$. The tangent is parallel to $y=9x+2$, so $3x^2-3k=9$, $x^2=k+3$. In the first quadrant $x>0$, so $x=\\sqrt{k+3}$."
+  },
+  {
+   "ref": "Q22(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.3.5"
+   ],
+   "question": "A point $P$ in the first quadrant on the curve $y=x^3-3kx$ ($k>0$) has $x$-coordinate $\\sqrt{k+3}$. Show that the $y$-coordinate of $P$ can be expressed as $y=(3-2k)\\sqrt{k+3}$.",
+   "answer": "$y=x(x^2-3k)=\\sqrt{k+3}\\,\\big((k+3)-3k\\big)=(3-2k)\\sqrt{k+3}$."
+  },
+  {
+   "ref": "Q22(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.4.3.5",
+    "11.1.3.3"
+   ],
+   "question": "The point $P\\left(\\sqrt{k+3},\\,(3-2k)\\sqrt{k+3}\\right)$ lies on $y=x^3-3kx$ and the tangent at $P$ has gradient 9. A normal to the curve at $P$ intersects the $y$-axis at $(0,b)$. Show that $b=\\left(\\dfrac{28}9-2k\\right)\\sqrt{k+3}$.",
+   "answer": "The tangent has gradient 9, so the normal has gradient $-\\dfrac19$. The normal: $y-(3-2k)\\sqrt{k+3}=-\\dfrac19\\left(x-\\sqrt{k+3}\\right)$. At $x=0$: $b=(3-2k)\\sqrt{k+3}+\\dfrac19\\sqrt{k+3}=\\left(\\dfrac{28}9-2k\\right)\\sqrt{k+3}$."
+  },
+  {
+   "ref": "Q23(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.1.1"
+   ],
+   "question": "A loan of \\$180 000 is to be repaid with equal monthly repayments of \\$$M$ made at the end of each month. The initial interest rate is 6% p.a., compounded monthly. Show that the balance remaining after 3 months is $A_3=180\\,000(1.005)^3-M\\left(1+1.005+1.005^2\\right)$.",
+   "answer": "The monthly rate is $0.005$. $A_1=180000(1.005)-M$. $A_2=A_1(1.005)-M=180000(1.005)^2-M(1.005)-M$. $A_3=A_2(1.005)-M=180000(1.005)^3-M(1.005)^2-M(1.005)-M=180\\,000(1.005)^3-M\\left(1+1.005+1.005^2\\right)$."
+  },
+  {
+   "ref": "Q23(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.1.3"
+   ],
+   "question": "A loan of \\$180 000 is repaid with equal monthly repayments $M$ at the end of each month, with interest 6% p.a. compounded monthly, so that $A_n=180\\,000(1.005)^n-M\\dfrac{1.005^n-1}{0.005}$. Find the monthly repayment \\$$M$ required to fully repay the loan after 180 months. Give your answer to the nearest cent.",
+   "answer": "$A_{180}=0$: $M=\\dfrac{180000(1.005)^{180}(0.005)}{1.005^{180}-1}=\\$1518.94$."
+  },
+  {
+   "ref": "Q23(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.1.3"
+   ],
+   "question": "A loan of \\$180 000 is repaid with monthly repayments of \\$1518.94 at the end of each month, with interest 6% p.a. compounded monthly. Find the outstanding balance immediately after the 120th repayment.",
+   "answer": "$A_{120}=180000(1.005)^{120}-1518.94\\times\\dfrac{1.005^{120}-1}{0.005}\\approx\\$78\\,568$ (about \\$78\\,568.14 using the unrounded repayment)."
+  },
+  {
+   "ref": "Q23(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.1.3",
+    "12.7.1.2"
+   ],
+   "question": "A loan has a balance of about \\$78 568 immediately after the 120th repayment, with 60 monthly repayments remaining. The interest rate rises to 7.8% p.a., compounded monthly. Find the new monthly repayment required so that the loan is still fully repaid after the 180 months in total.",
+   "answer": "The new monthly rate is $\\dfrac{7.8\\%}{12}=0.0065$. $78568.14(1.0065)^{60}=M\\dfrac{1.0065^{60}-1}{0.0065}$, so $M=\\dfrac{78568.14(0.0065)(1.0065)^{60}}{1.0065^{60}-1}\\approx\\$1585.57$."
+  },
+  {
+   "ref": "Q24(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.2.5",
+    "11.5.2.9"
+   ],
+   "question": "The population $P(t)$ of an endangered species is modelled by $\\ln\\left(\\dfrac{P(t)}{3000-P(t)}\\right)=0.2t-c$, where $t$ is the time in years and $c$ is a constant. Initially, when $t=0$, the population is 500. Find the exact time $t$ when the population reaches 2500.",
+   "answer": "At $t=0$, $P=500$: $\\ln\\dfrac{500}{2500}=-c$, so $c=\\ln5$. At $P=2500$: $\\ln\\dfrac{2500}{500}=\\ln5=0.2t-\\ln5$, so $0.2t=2\\ln5$ and $t=10\\ln5\\approx16.1$ years."
+  },
+  {
+   "ref": "Q24(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.2.2",
+    "12.5.3.7"
+   ],
+   "question": "The population $P(t)$ of an endangered species is modelled by $\\ln\\left(\\dfrac{P(t)}{3000-P(t)}\\right)=0.2t-\\ln5$, with $P(0)=500$. Sketch the graph of $P(t)$ against $t$ for $t\\ge0$. Clearly show all important features.",
+   "answer": "Rearranging: $\\dfrac{P}{3000-P}=\\dfrac{e^{0.2t}}5$, so $P(t)=\\dfrac{3000}{1+5e^{-0.2t}}$. The graph starts at $(0,500)$, increases, with the steepest growth (point of inflection) when $P=1500$, at $t=5\\ln5\\approx8.05$, and approaches the horizontal asymptote $P=3000$ as $t\\to\\infty$ (a logistic curve; see graph). It passes through $(10\\ln5,\\,2500)\\approx(16.1,\\,2500)$.",
+   "answer_images": [
+    "assets/img/adv-2026-james-ruse/a24.png"
+   ]
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.12",
+    "11.3.1.5"
+   ],
+   "question": "For values of $\\theta$ for which it is defined, let $E(\\theta)=\\dfrac{1+\\sin\\theta}{\\cos\\theta}+\\dfrac{\\cos\\theta}{1+\\sin\\theta}$. State the values of $\\theta$ in $0\\le\\theta\\le2\\pi$ for which $E(\\theta)$ is not defined, and prove that $E(\\theta)=2\\sec\\theta$ on its domain.",
+   "answer": "The denominators are zero when $\\cos\\theta=0$ or $1+\\sin\\theta=0$. In $0\\le\\theta\\le2\\pi$: $\\theta=\\dfrac\\pi2$ or $\\theta=\\dfrac{3\\pi}2$.\n\nOn the domain: $E(\\theta)=\\dfrac{(1+\\sin\\theta)^2+\\cos^2\\theta}{\\cos\\theta(1+\\sin\\theta)}=\\dfrac{2+2\\sin\\theta}{\\cos\\theta(1+\\sin\\theta)}=\\dfrac2{\\cos\\theta}=2\\sec\\theta$."
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.1.13"
+   ],
+   "question": "Using $E(\\theta)=2\\sec\\theta$, solve $E(\\theta)=4\\cos\\theta$ for $0\\le\\theta\\le2\\pi$.",
+   "answer": "$\\dfrac2{\\cos\\theta}=4\\cos\\theta$, so $\\cos^2\\theta=\\dfrac12$, $\\cos\\theta=\\pm\\dfrac1{\\sqrt2}$. $\\theta=\\dfrac\\pi4,\\ \\dfrac{3\\pi}4,\\ \\dfrac{5\\pi}4,\\ \\dfrac{7\\pi}4$."
+  },
+  {
+   "ref": "Q25(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "11.3.1.13",
+    "12.1.1.3"
+   ],
+   "question": "Let $E(\\theta)=\\dfrac{1+\\sin\\theta}{\\cos\\theta}+\\dfrac{\\cos\\theta}{1+\\sin\\theta}=2\\sec\\theta$ (undefined at $\\theta=\\dfrac\\pi2,\\dfrac{3\\pi}2$). For a real number $m$, determine all values of $m$ for which $E(\\theta)=m+\\cos\\theta$ has exactly two solutions in $0\\le\\theta\\le2\\pi$.",
+   "answer": "Let $x=\\cos\\theta$, $-1\\le x\\le1$, $x\\ne0$. Then $\\dfrac2x=m+x$, so $m=\\dfrac2x-x=g(x)$, with $g'(x)=-\\dfrac2{x^2}-1<0$ (decreasing on each part of its domain).\n\nFor $0<x\\le1$: $g(1)=1$ and $g(x)\\to\\infty$ as $x\\to0^+$, so $m\\ge1$. Each $x\\in(0,1)$ gives two values of $\\theta$, and $x=1$ gives $\\theta=0,2\\pi$ (also two solutions), so $m\\ge1$ gives exactly two solutions.\n\nFor $-1\\le x<0$: $g(-1)=-1$ and $g(x)\\to-\\infty$ as $x\\to0^-$, so $m\\le-1$. Each $x\\in(-1,0)$ gives two values of $\\theta$, but $x=-1$ gives only $\\theta=\\pi$, so $m=-1$ is excluded: $m<-1$.\n\n(Since $x^2+mx-2=0$ has roots of opposite sign, at most one root is in $[-1,1]$ for each case.) Therefore $m<-1$ or $m\\ge1$."
+  },
+  {
+   "ref": "Q26(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.6",
+    "12.6.2.7"
+   ],
+   "question": "A calibration-drift score $X$ has probability density function $f(x)=k(x+1)$ for $-1\\le x\\le1$, $f(x)=k(3-x)$ for $1<x\\le3$, and 0 otherwise. Find the value of $k$.",
+   "answer": "$\\displaystyle\\int_{-1}^1k(x+1)dx+\\int_1^3k(3-x)dx=1$: $2k+2k=4k=1$, so $k=\\dfrac14$. (Alternatively, the density is a triangle with base 4 and height $2k$: $\\dfrac12(4)(2k)=1$.)"
+  },
+  {
+   "ref": "Q26(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.2.9"
+   ],
+   "question": "A calibration-drift score $X$ has probability density function $f(x)=\\dfrac14(x+1)$ for $-1\\le x\\le1$, $f(x)=\\dfrac14(3-x)$ for $1<x\\le3$, and 0 otherwise. Find the cumulative distribution function $F(x)$ for all real $x$.",
+   "answer": "For $-1\\le x\\le1$: $F(x)=\\displaystyle\\int_{-1}^x\\dfrac14(t+1)dt=\\dfrac{(x+1)^2}8$, so $F(1)=\\dfrac12$. For $1<x\\le3$: $F(x)=\\dfrac12+\\displaystyle\\int_1^x\\dfrac14(3-t)dt=\\dfrac{-x^2+6x-1}8=1-\\dfrac{(3-x)^2}8$. Hence $F(x)=0$ for $x<-1$; $\\dfrac{(x+1)^2}8$ for $-1\\le x\\le1$; $1-\\dfrac{(3-x)^2}8$ for $1<x\\le3$; and $1$ for $x>3$."
+  },
+  {
+   "ref": "Q26(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.2.11"
+   ],
+   "question": "A calibration-drift score $X$ has cumulative distribution function $F(x)=\\dfrac{(x+1)^2}8$ for $-1\\le x\\le1$, $F(x)=1-\\dfrac{(3-x)^2}8$ for $1<x\\le3$ (0 below $-1$, 1 above 3). Find the lower quartile $Q_1$, the upper quartile $Q_3$, and hence the inter-quartile range of $X$, in exact form.",
+   "answer": "$F(Q_1)=\\dfrac14$: $\\dfrac{(Q_1+1)^2}8=\\dfrac14$, so $(Q_1+1)^2=2$ and $Q_1=\\sqrt2-1$ (rejecting $-1-\\sqrt2<-1$). $F(Q_3)=\\dfrac34$: $1-\\dfrac{(3-Q_3)^2}8=\\dfrac34$, so $(3-Q_3)^2=2$ and $Q_3=3-\\sqrt2$ (rejecting $3+\\sqrt2>3$). $\\text{IQR}=Q_3-Q_1=4-2\\sqrt2$. (By symmetry about $x=1$, $Q_3=2-Q_1$.)"
+  },
+  {
+   "ref": "Q26(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.6.3.13",
+    "12.6.2.11",
+    "12.6.3.9"
+   ],
+   "question": "A score $X$ has the symmetric triangular density $f(x)=\\dfrac14(x+1)$ for $-1\\le x\\le1$ and $\\dfrac14(3-x)$ for $1<x\\le3$ (CDF: $F(x)=\\dfrac{(x+1)^2}8$ on $[-1,1]$, $1-\\dfrac{(3-x)^2}8$ on $(1,3]$), with inter-quartile range $4-2\\sqrt2$. An engineering team proposes a normal model $Y$ whose mean is the same as the median of $X$ and whose inter-quartile range is the same as for $X$. Estimate $P(Y>2)$, and compare this with $P(X>2)$.",
+   "answer": "By symmetry the median of $X$ is 1, so $\\mu_Y=1$. For a normal distribution the quartiles are at $z=\\pm0.675$, so $\\text{IQR}=1.35\\sigma=4-2\\sqrt2$ and $\\sigma=\\dfrac{4-2\\sqrt2}{1.35}\\approx0.868$. $P(Y>2)=P\\left(Z>\\dfrac{2-1}{0.868}\\right)=P(Z>1.15)\\approx0.125$. For $X$: $P(X>2)=1-F(2)=\\dfrac{(3-2)^2}8=\\dfrac18=0.125$. The two models give nearly identical values for this tail probability."
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.4",
+    "12.5.1.8"
+   ],
+   "question": "The depth of water, $W$ metres, inside a tidal shipping canal is modelled by $W(t)=8+\\sin t+\\cos t$, where $t$ is the time in hours after high tide, for $0\\le t\\le\\pi$. Find the coordinates of any stationary points on the curve $W(t)$ within the interval $0\\le t\\le\\pi$, and determine their nature.",
+   "answer": "$W'(t)=\\cos t-\\sin t=0$ gives $\\tan t=1$, so $t=\\dfrac\\pi4$ in $[0,\\pi]$. $W\\left(\\dfrac\\pi4\\right)=8+\\dfrac{\\sqrt2}2+\\dfrac{\\sqrt2}2=8+\\sqrt2$. $W''(t)=-\\sin t-\\cos t$, and $W''\\left(\\dfrac\\pi4\\right)=-\\sqrt2<0$, so $\\left(\\dfrac\\pi4,8+\\sqrt2\\right)$ is a local maximum."
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.6",
+    "12.5.1.7"
+   ],
+   "question": "The depth of water inside a tidal canal is $W(t)=8+\\sin t+\\cos t$, for $0\\le t\\le\\pi$. Find the point(s) of inflection.",
+   "answer": "$W''(t)=-\\sin t-\\cos t=0$ gives $\\tan t=-1$, so $t=\\dfrac{3\\pi}4$ in $[0,\\pi]$. $W\\left(\\dfrac{3\\pi}4\\right)=8+\\dfrac{\\sqrt2}2-\\dfrac{\\sqrt2}2=8$. Test: $W''(0)=-1<0$ and $W''(\\pi)=1>0$, so the concavity changes (down to up). The point of inflection is $\\left(\\dfrac{3\\pi}4,8\\right)$."
+  },
+  {
+   "ref": "Q27(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.1",
+    "12.5.1.5"
+   ],
+   "question": "The depth of water in a tidal canal is $W(t)=8+\\sin t+\\cos t$, for $0\\le t\\le\\pi$ (with $W''(t)=0$ only at $t=\\dfrac{3\\pi}4$). A cargo ship requires the water depth to be dropping at its absolute fastest rate. Find the exact value of $t$ when the ship should cross the sandbar.",
+   "answer": "The depth drops fastest when $W'(t)=\\cos t-\\sin t$ is most negative. $W'(0)=1$, $W'\\left(\\dfrac{3\\pi}4\\right)=-\\sqrt2$, $W'(\\pi)=-1$. $W'$ has its only stationary point at $t=\\dfrac{3\\pi}4$ ($W''=0$), and $W''$ changes from negative to positive there, so $W'$ has an absolute minimum $-\\sqrt2$. The ship should cross at $t=\\dfrac{3\\pi}4$ hours."
+  },
+  {
+   "ref": "Q28(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.3.1.3",
+    "11.3.1.1"
+   ],
+   "question": "Two coastal observation stations $A$ and $B$ are 500 metres apart, with $B$ due east of $A$. The point $C$, directly below a rescue drone, has bearing $050^\\circ$ from $A$ and bearing $305^\\circ$ from $B$. The drone is at $D$, vertically above $C$. The angle of elevation of $D$ from $A$ is $32^\\circ$. Find $AD$, correct to the nearest metre.",
+   "answer": "In the horizontal triangle $ABC$: $\\angle A=90^\\circ-50^\\circ=40^\\circ$, $\\angle B=35^\\circ$, so $\\angle C=105^\\circ$. Sine rule: $AC=\\dfrac{500\\sin35^\\circ}{\\sin105^\\circ}$. In the vertical triangle $ACD$, $\\cos32^\\circ=\\dfrac{AC}{AD}$, so $AD=\\dfrac{500\\sin35^\\circ}{\\sin105^\\circ\\cos32^\\circ}\\approx350.1$, so $AD=350$ m.",
+   "course": "extension1",
+   "images": [
+    "assets/img/adv-2026-james-ruse/q28.png"
+   ]
+  },
+  {
+   "ref": "Q28(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.3.1",
+    "11.2.2.10"
+   ],
+   "question": "A drone's guidance system makes a sequence of correction flights with lengths $L_1,L_2,L_3,\\dots$, where $L_1=AD$. Consecutive lengths $L_n$ and $L_{n+1}$ are two sides of a triangle in which the angle opposite $L_{n+1}$ is $\\theta$ and the angle opposite $L_n$ is $110^\\circ-\\theta$, where $0^\\circ<\\theta<55^\\circ$. Show that the correction lengths form a geometric sequence with $\\dfrac{L_{n+1}}{L_n}=q$, $q=\\dfrac{\\sin\\theta}{\\sin(110^\\circ-\\theta)}$, and hence write $L_n$ in terms of $AD$, $q$ and $n$.",
+   "answer": "Sine rule: $\\dfrac{L_n}{\\sin(110^\\circ-\\theta)}=\\dfrac{L_{n+1}}{\\sin\\theta}$, so $\\dfrac{L_{n+1}}{L_n}=\\dfrac{\\sin\\theta}{\\sin(110^\\circ-\\theta)}=q$, a constant (independent of $n$), so the lengths form a geometric sequence with ratio $q$. Since $L_1=AD$, $L_n=AD\\,q^{n-1}$.",
+   "images": [
+    "assets/img/adv-2026-james-ruse/q28b.png"
+   ]
+  },
+  {
+   "ref": "Q28(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.7"
+   ],
+   "question": "The correction flights form a geometric sequence $L_n=AD\\,q^{n-1}$ with $0<q<1$ (since $110^\\circ-\\theta>\\theta$, the sides satisfy $L_n>L_{n+1}$). Find the total limiting correction distance in terms of $AD$ and $q$.",
+   "answer": "$S_\\infty=\\dfrac{AD}{1-q}$, since $|q|<1$."
+  },
+  {
+   "ref": "Q28(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.7"
+   ],
+   "question": "The correction flights form a geometric sequence with first term $AD=350$ m and common ratio $q$, $0<q<1$. The limiting total correction distance must not exceed 900 metres. Calculate the maximum allowable value of $q$, correct to four decimal places.",
+   "answer": "$\\dfrac{350}{1-q}\\le900$, so $350\\le900(1-q)$ and $q\\le1-\\dfrac{350}{900}=\\dfrac{11}{18}$. $q_{\\max}=0.6111$."
+  },
+  {
+   "ref": "Q28(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 5,
+   "dotpoints": [
+    "11.3.1.12",
+    "11.3.1.13"
+   ],
+   "question": "Let $q=\\dfrac{\\sin\\theta}{\\sin(110^\\circ-\\theta)}$ for $0^\\circ<\\theta<55^\\circ$, where $q$ is an increasing function of $\\theta$ (do not prove this). The maximum allowable value of $q$ is $0.6111$. Determine the greatest allowable value of $\\theta$ to the nearest degree. You may use $\\sin(110^\\circ-\\theta)=\\sin110^\\circ\\cos\\theta-\\cos110^\\circ\\sin\\theta$.",
+   "answer": "At the greatest allowable $\\theta$: $\\dfrac{\\sin\\theta}{\\sin(110^\\circ-\\theta)}=0.6111$, so $\\sin\\theta=q(\\sin110^\\circ\\cos\\theta-\\cos110^\\circ\\sin\\theta)$ and $\\sin\\theta(1+q\\cos110^\\circ)=q\\sin110^\\circ\\cos\\theta$. $\\tan\\theta=\\dfrac{q\\sin110^\\circ}{1+q\\cos110^\\circ}=\\dfrac{0.6111(0.9397)}{1+0.6111(-0.3420)}=0.7260$, so $\\theta\\approx35.98^\\circ\\approx36^\\circ$."
+  }
+ ]
+}
