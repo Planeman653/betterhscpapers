@@ -1,22 +1,16 @@
-# Daily indexing procedure
+# Indexing procedure
 
-This is the procedure the daily scheduled task follows for **Better HSC Papers**
-(https://planeman653.github.io/betterhscpapers/). Goal: **index 4 new THSC trial papers per day — one each for Extension 1, Extension 2, Physics and
-Chemistry** — into
-`data/papers/`, rebuild, and push to `main` (GitHub Pages serves the site from `main`).
+This is the procedure for **Better HSC Papers** (https://planeman653.github.io/betterhscpapers/).
 
-Subjects indexed daily: Mathematics Extension 1, Extension 2 (NESA 11–12 **2024** syllabuses) and Physics, Chemistry
-(NESA Stage 6 **2017** syllabuses, Year 12 modules 5–8 only). **Advanced and Biology papers are paused — do not index new
-Advanced or Biology papers** (Biology community/queue questions are still processed). Advanced-content parts found in Ext 1 papers still go on the Advanced page (`"course": "advanced"`).
-**For the daily task this file overrides the task prompt:** if the daily prompt asks for a different number of papers or for Advanced papers,
-follow this file (4 papers — Ext 1, Ext 2, Physics, Chemistry — no Advanced, no Biology). Process the solution queue every run (§5).
+**Two scheduled tasks use this file.**
+- **Bulk indexing task** (12am Sydney): the *only* task that indexes THSC trial papers. It indexes as many as it can in one run, in a
+  fixed subject order (Ext 2, Ext 1, Physics, Chemistry, Advanced ×2 each, then 1 Biology and 1 Standard 2), pushing after every paper.
+  Advanced, Biology and Mathematics Standard 2 papers are all indexed. It does not process the solution queue. Sections 1–4 apply to it.
+- **Daily submissions task** (12am Sydney): does NOT index papers. It only processes user-submitted questions: the solution queue (§5) and
+  typing out photos in live submissions (§5b). Biology/Standard 2 queued questions are processed too.
 
-**Bulk indexing task (separate nightly run).** A second scheduled task indexes as many papers as it can in one run, in a
-fixed subject order, and *does* index Advanced, Biology and Mathematics Standard 2 papers. Its prompt sets the order and
-the number of papers; everything else in this file (reading, splitting, tagging, dropping, validating) applies to it
-unchanged. It does not process the solution queue. It runs at the same time as the daily task, so it must never index
-the 4 papers that `python3 scripts/thsc.py pick` prints at the start of its run (those belong to the daily task), and it
-pulls before every pick and pushes after every paper.
+Maths uses the NESA 11–12 (2024) syllabuses; Physics, Chemistry and Biology use the NESA Stage 6 (2017) syllabuses (Year 12 modules 5–8 only).
+Advanced-content parts found in Ext 1 papers still go on the Advanced page (`"course": "advanced"`).
 
 ## 0. Setup
 
