@@ -1,0 +1,518 @@
+{
+ "id": "ext1-2026-st-george-girls",
+ "course": "extension1",
+ "school": "St George Girls",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "St George Girls 2026 w. sol"
+ },
+ "indexed": "2026-11-24",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.3.2.2"
+   ],
+   "question": "$2\\cos3A\\sin A=$",
+   "answer": "$\\sin(3A+A)-\\sin(3A-A)=2\\cos3A\\sin A$ (from $\\sin(A+B)-\\sin(A-B)=2\\cos A\\sin B$ with the roles of $A,B$ as $3A,A$). So $2\\cos3A\\sin A=\\sin4A-\\sin2A$ (A).",
+   "options": [
+    "$\\sin4A-\\sin2A$",
+    "$\\sin4A+\\sin2A$",
+    "$\\sin2A-\\sin4A$",
+    "$-\\sin4A-\\sin2A$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Determine $\\dfrac{d}{dx}\\cos^{-1}\\dfrac x2$.",
+   "answer": "$\\dfrac{d}{dx}\\cos^{-1}\\dfrac x2=\\dfrac12\\cdot\\dfrac{-1}{\\sqrt{1-\\frac{x^2}{4}}}=\\dfrac{-1}{\\sqrt{4-x^2}}$ (B).",
+   "options": [
+    "$\\dfrac1{\\sqrt{4-x^2}}$",
+    "$\\dfrac{-1}{\\sqrt{4-x^2}}$",
+    "$\\dfrac1{2\\sqrt{4-x^2}}$",
+    "$\\dfrac{-1}{2\\sqrt{4-x^2}}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.10"
+   ],
+   "question": "What is the magnitude of $\\operatorname{proj}_{\\mathbf a}\\mathbf b$ if $\\mathbf a=3\\mathbf i-2\\mathbf j$ and $\\mathbf b=\\mathbf i+3\\mathbf j$?",
+   "answer": "$\\operatorname{proj}_{\\mathbf a}\\mathbf b=\\dfrac{\\mathbf a\\cdot\\mathbf b}{|\\mathbf a|^2}\\mathbf a=\\dfrac{3-6}{13}\\begin{pmatrix}3\\\\-2\\end{pmatrix}=-\\dfrac3{13}\\begin{pmatrix}3\\\\-2\\end{pmatrix}$.\n\nIts magnitude is $\\dfrac3{13}\\sqrt{13}=\\dfrac3{\\sqrt{13}}$ (C).",
+   "options": [
+    "$\\dfrac{-3}{\\sqrt{10}}$",
+    "$\\dfrac{-3}{\\sqrt{13}}$",
+    "$\\dfrac3{\\sqrt{13}}$",
+    "$\\dfrac3{\\sqrt{10}}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.1"
+   ],
+   "question": "State the number of solutions to $\\cos\\dfrac x2\\sin\\dfrac x2=0$ for $0\\le x\\le2\\pi$.",
+   "answer": "$\\cos\\frac x2\\sin\\frac x2=\\frac12\\sin x=0$, so $x=0,\\pi,2\\pi$: 3 solutions (D).",
+   "options": [
+    "0",
+    "1",
+    "2",
+    "3"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.11"
+   ],
+   "question": "In how many ways can six people be seated around a circular table if 2 particular people refuse to sit next to each other?",
+   "answer": "Total circular arrangements: $5!=120$.\n\nArrangements with the 2 people together: treat them as one block, giving $4!=24$ circular arrangements of 5 units, times $2!=2$ orders within the block, so $48$.\n\nRequired number $=120-48=72$ (A).",
+   "options": [
+    "72",
+    "120",
+    "480",
+    "720"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.10"
+   ],
+   "question": "Determine $\\arcsin\\left(\\sin\\dfrac{5\\pi}7\\right)$.",
+   "answer": "$\\frac{5\\pi}7$ is in the second quadrant and $\\sin\\frac{5\\pi}7=\\sin\\left(\\pi-\\frac{5\\pi}7\\right)=\\sin\\frac{2\\pi}7$. Since $\\frac{2\\pi}7\\in\\left[-\\frac\\pi2,\\frac\\pi2\\right]$, $\\arcsin\\left(\\sin\\frac{5\\pi}7\\right)=\\frac{2\\pi}7$ (C).",
+   "options": [
+    "$-\\dfrac{5\\pi}7$",
+    "$-\\dfrac{2\\pi}7$",
+    "$\\dfrac{2\\pi}7$",
+    "$\\dfrac{5\\pi}7$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.3"
+   ],
+   "question": "$f(x)$ is a continuous function. $f(x)=5$ has 3 distinct solutions. $|f(x)|=5$ will have",
+   "answer": "$|f(x)|=5\\iff f(x)=5$ or $f(x)=-5$. The 3 solutions of $f(x)=5$ all satisfy $|f(x)|=5$, and any solutions of $f(x)=-5$ add to them. So $|f(x)|=5$ has at least 3 solutions (A).",
+   "options": [
+    "at least 3 solutions.",
+    "at most 3 solutions.",
+    "at most 6 solutions.",
+    "at least 6 solutions."
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.4"
+   ],
+   "question": "Below is the graph of $y=f(x)+g(x)$. Its natural domain is $x>0$. What are the possible expressions of $f(x)$ and $g(x)$?",
+   "answer": "The graph has domain $x>0$, tends to $-\\infty$ as $x\\to0^+$ and as $x\\to\\infty$, and has a maximum at $(1,-1)$.\n\nTest (D), $y=\\ln x-x$: the domain is $x>0$; $y(1)=0-1=-1$; $y'=\\frac1x-1=0$ at $x=1$; $y''=-\\frac1{x^2}<0$, so $(1,-1)$ is a maximum. This matches every feature (D).",
+   "options": [
+    "$f(x)=-\\ln x$ and $g(x)=x$",
+    "$f(x)=-\\dfrac1x$ and $g(x)=x$",
+    "$f(x)=\\dfrac1x$ and $g(x)=-x$",
+    "$f(x)=\\ln x$ and $g(x)=-x$"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/ext1-2026-st-george-girls/q8.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.1.12",
+    "12.5.1.3"
+   ],
+   "question": "The graph of $y=x^3+bx^2-x+d$ is given below. Assume it is drawn to scale. Which of the following statements are true?\n\nI. $b<0$\n\nII. $d<0$\n\nIII. $bd<0$",
+   "answer": "II: the $y$-intercept is $y(0)=d$, and the curve cuts the $y$-axis below the origin, so $d<0$ (true).\n\nI: $y''=6x+2b$, so the point of inflection is at $x=-\\frac b3$. On the graph the inflection point (midway between the local maximum and local minimum) lies to the left of the $y$-axis, so $-\\frac b3<0$ and $b>0$ (I is false). Equivalently the curve is concave up at $x=0$, so $y''(0)=2b>0$.\n\nIII: $b>0$ and $d<0$, so $bd<0$ (true).\n\nII and III only (D).",
+   "options": [
+    "I only.",
+    "II only.",
+    "I and III.",
+    "II and III."
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/ext1-2026-st-george-girls/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.4"
+   ],
+   "question": "$y=f(x)$ is a curve that passes through $(1,3)$ with a gradient of 2. By letting $g(x)=f^{-1}(x)$, determine $g'(3)$.",
+   "answer": "$f(1)=3$, so $g(3)=1$. Also $f'(1)=2$. Then $g'(3)=\\dfrac1{f'(g(3))}=\\dfrac1{f'(1)}=\\dfrac12$ (B).",
+   "options": [
+    "$-\\dfrac12$",
+    "$\\dfrac12$",
+    "3",
+    "$\\dfrac13$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.3"
+   ],
+   "question": "Find $\\displaystyle\\int\\cos^23x\\,dx$.",
+   "answer": "$\\cos^23x=\\frac12(1+\\cos6x)$, so\n$$\\int\\cos^23x\\,dx=\\frac12\\int(1+\\cos6x)\\,dx=\\frac12\\left(x+\\frac{\\sin6x}6\\right)+C=\\frac x2+\\frac{\\sin6x}{12}+C.$$"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.4"
+   ],
+   "question": "Consider the two vectors $\\mathbf a=\\begin{pmatrix}-3\\\\m\\end{pmatrix}$ and $\\mathbf b=\\begin{pmatrix}1\\\\4\\end{pmatrix}$. If $\\mathbf a$ is parallel to $\\mathbf b$, what is the value of $m$?",
+   "answer": "$\\mathbf a=k\\mathbf b$ gives $-3=k(1)$, so $k=-3$ and $m=4k=-12$."
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.5.7",
+    "12.2.3.6"
+   ],
+   "question": "A drone is set to fly at a velocity of $\\begin{pmatrix}15\\\\12\\end{pmatrix}$ km/h. However, there is wind blowing at $\\begin{pmatrix}-6\\\\5\\end{pmatrix}$ km/h.\n\nCalculate the overall speed of the drone. Leave your answer to 1 decimal place.",
+   "answer": "Resultant velocity $=\\begin{pmatrix}15\\\\12\\end{pmatrix}+\\begin{pmatrix}-6\\\\5\\end{pmatrix}=\\begin{pmatrix}9\\\\17\\end{pmatrix}$.\n\nSpeed $=\\sqrt{9^2+17^2}=\\sqrt{370}\\approx19.2$ km/h."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Solve $\\dfrac1{x-5}\\le3$.",
+   "answer": "Multiply both sides by $(x-5)^2>0$ (with $x\\ne5$): $x-5\\le3(x-5)^2$.\n\nSo $3(x-5)^2-(x-5)\\ge0$, i.e. $(x-5)(3x-16)\\ge0$ (equivalently $3x^2-31x+80\\ge0$).\n\nThis upward parabola is non-negative outside its roots $x=5$ and $x=\\frac{16}3$, so $x\\le5$ or $x\\ge\\frac{16}3$. Since $x\\ne5$:\n$$x<5\\quad\\text{or}\\quad x\\ge\\frac{16}3.$$\n\n(Check with critical points: $\\frac1{x-5}=3$ at $x=\\frac{16}3$, and $x=5$ is a discontinuity. Testing $x=0$: $-\\frac15\\le3$ true; $x=5.25$: $4\\le3$ false; $x=6$: $1\\le3$ true.)"
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "Determine the coefficient of $x^2$ in $\\left(1+\\dfrac1x\\right)(x+1)^3$.",
+   "answer": "$(x+1)^3=x^3+3x^2+3x+1$. The $x^2$ terms come from $1\\times3x^2$ and $\\frac1x\\times x^3$, giving $3x^2+x^2=4x^2$.\n\nThe coefficient is $4$."
+  },
+  {
+   "ref": "Q11(f)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.6"
+   ],
+   "question": "$P(x)=(a^2-1)x^3+ax^2-7x+2$ is divisible by $(x-1)$. Determine the possible values of $a$.",
+   "answer": "By the factor theorem $P(1)=0$: $(a^2-1)+a-7+2=0$, so $a^2+a-6=0$, i.e. $(a+3)(a-2)=0$.\n\n$a=-3$ or $a=2$."
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Prove by mathematical induction that for all integers $n\\ge1$:\n$$\\frac1{1\\cdot2}+\\frac1{2\\cdot3}+\\frac1{3\\cdot4}+\\cdots+\\frac1{n(n+1)}=\\frac n{n+1}.$$",
+   "answer": "Let $S(n)$ be the statement $\\dfrac1{1\\cdot2}+\\cdots+\\dfrac1{n(n+1)}=\\dfrac n{n+1}$.\n\n**Base case** $n=1$: LHS $=\\frac1{1\\cdot2}=\\frac12$, RHS $=\\frac12$. So $S(1)$ is true.\n\n**Inductive step:** assume $S(k)$ is true for some integer $k\\ge1$, that is $\\dfrac1{1\\cdot2}+\\cdots+\\dfrac1{k(k+1)}=\\dfrac k{k+1}$. We must prove $S(k+1)$: the sum to $k+1$ terms equals $\\dfrac{k+1}{k+2}$.\n\n$$\\text{LHS}=\\frac k{k+1}+\\frac1{(k+1)(k+2)}=\\frac{k(k+2)+1}{(k+1)(k+2)}=\\frac{(k+1)^2}{(k+1)(k+2)}=\\frac{k+1}{k+2}=\\text{RHS}.$$\n\nSo $S(k+1)$ is true whenever $S(k)$ is true. Since $S(1)$ is true, by the principle of mathematical induction $S(n)$ is true for all integers $n\\ge1$."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.5.8"
+   ],
+   "question": "The position vector of a particle at time $t$ seconds is $\\mathbf r(t)=(3-t)\\mathbf i-2\\sqrt t\\,\\mathbf j$. Determine the velocity vector at $t=4$.",
+   "answer": "$\\mathbf v(t)=\\dot{\\mathbf r}(t)=-\\mathbf i-\\dfrac1{\\sqrt t}\\mathbf j$.\n\nAt $t=4$: $\\mathbf v(4)=-\\mathbf i-\\frac12\\mathbf j$."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.3.4"
+   ],
+   "question": "Graph the curve represented by the pair of parametric equations below for $-1\\le t\\le1$.\n$$x=1+t,\\qquad y=-t^2.$$",
+   "answer": "Eliminating $t=x-1$ gives $y=-(x-1)^2$, a downward parabola with vertex $(1,0)$. For $-1\\le t\\le1$, $0\\le x\\le2$.\n\nThe endpoints are $t=-1$: $(0,-1)$, and $t=1$: $(2,-1)$. The graph is the arc of the parabola from $(0,-1)$ through $(1,0)$ to $(2,-1)$.",
+   "answer_images": [
+    "assets/img/ext1-2026-st-george-girls/a12c.png"
+   ]
+  },
+  {
+   "ref": "Q12(d)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.2"
+   ],
+   "question": "Express $3\\cos x+\\sqrt3\\sin x$ in the form $R\\cos(x+\\alpha)$ for $-\\dfrac\\pi2\\le\\alpha\\le0$.",
+   "answer": "$R\\cos(x+\\alpha)=R\\cos\\alpha\\cos x-R\\sin\\alpha\\sin x$. Matching: $R\\cos\\alpha=3$ and $-R\\sin\\alpha=\\sqrt3$, i.e. $R\\sin\\alpha=-\\sqrt3$.\n\n$R=\\sqrt{9+3}=2\\sqrt3$ and $\\tan\\alpha=-\\frac{\\sqrt3}3$, so $\\alpha=-\\frac\\pi6$ (in the required range).\n\n$$3\\cos x+\\sqrt3\\sin x=2\\sqrt3\\cos\\left(x-\\frac\\pi6\\right).$$"
+  },
+  {
+   "ref": "Q12(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.3"
+   ],
+   "question": "Hence, solve $3\\cos x+\\sqrt3\\sin x=3$ for $0\\le x\\le2\\pi$.",
+   "answer": "$2\\sqrt3\\cos\\left(x-\\frac\\pi6\\right)=3$, so $\\cos\\left(x-\\frac\\pi6\\right)=\\frac{\\sqrt3}2$.\n\nFor $0\\le x\\le2\\pi$, $-\\frac\\pi6\\le x-\\frac\\pi6\\le\\frac{11\\pi}6$, so $x-\\frac\\pi6=\\pm\\frac\\pi6$ or $2\\pi-\\frac\\pi6$ ($=\\frac{11\\pi}6$).\n\nHence $x=0,\\ \\frac\\pi3,\\ 2\\pi$."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "By using the substitution $u=1-x^2$, find $\\displaystyle\\int-2x^3\\sqrt{1-x^2}\\,dx$.",
+   "answer": "$u=1-x^2$, $du=-2x\\,dx$, $x^2=1-u$. Write $-2x^3\\,dx=x^2(-2x\\,dx)=(1-u)\\,du$.\n\n$$\\int(1-u)\\sqrt u\\,du=\\int\\left(u^{1/2}-u^{3/2}\\right)du=\\frac23u^{3/2}-\\frac25u^{5/2}+C.$$\n\n$$=\\frac23(1-x^2)^{3/2}-\\frac25(1-x^2)^{5/2}+C=\\frac2{15}(1-x^2)^{3/2}(3x^2+2)+C.$$"
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.5.7"
+   ],
+   "question": "A boat needs to travel to a port that is on a bearing of $048^\\circ$. The boat's engine is set to drive at a constant speed of 20 km/h. There is a current flowing from the West at a constant speed of 8 km/h.\n\nOn what bearing, to the nearest degree, should the boat be directed in order to reach the port?",
+   "answer": "Resultant velocity (boat + current) must point along bearing $048^\\circ$. In the velocity triangle the current (8 km/h, due East) is opposite the angle $\\theta$ between the boat's heading and the resultant; the boat's 20 km/h is opposite the angle between the resultant and the East direction, which is $90^\\circ-48^\\circ=42^\\circ$.\n\nSine rule: $\\dfrac{\\sin\\theta}8=\\dfrac{\\sin42^\\circ}{20}$, so $\\sin\\theta=0.4\\sin42^\\circ\\approx0.2677$ and $\\theta\\approx15.5^\\circ$.\n\nThe current pushes the boat east, so the boat must be aimed further north than the port: bearing $=48^\\circ-15.5^\\circ\\approx32.5^\\circ$.\n\nThe boat should be directed on a bearing of about $032^\\circ$.",
+   "images": [
+    "assets/img/ext1-2026-st-george-girls/q13b.png"
+   ]
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.5.9"
+   ],
+   "question": "From a height of 1.75 m, a ball was thrown directly upwards at a speed of 25 m/s. Assume a gravitational acceleration of $-10$ m/s$^2$ and no air resistance.\n\nFind an equation to represent the height of the ball from the ground, $h$, in terms of $t$ seconds after the ball is thrown.",
+   "answer": "$\\ddot h=-10$, so $\\dot h=-10t+C_1$. With $\\dot h(0)=25$, $C_1=25$ and $\\dot h=-10t+25$.\n\nIntegrating, $h=-5t^2+25t+C_2$. With $h(0)=1.75$, $C_2=1.75$.\n\n$$h(t)=-5t^2+25t+1.75.$$"
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.7"
+   ],
+   "question": "Hence, when will the ball hit the ground? Answer to the nearest second.",
+   "answer": "Set $h=0$: $-5t^2+25t+1.75=0$, i.e. $t^2-5t-0.35=0$.\n\n$t=\\dfrac{5\\pm\\sqrt{25+1.4}}2=\\dfrac{5\\pm\\sqrt{26.4}}2$. Taking $t>0$: $t\\approx\\dfrac{5+5.138}2\\approx5.07$.\n\nThe ball hits the ground after about $5$ seconds."
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "A triangle has two fixed side lengths of 8 cm and 6 cm. The included angle, $\\theta$, is increasing at a constant rate of $\\dfrac\\pi6$ radians per second.\n\nFind the exact rate the area of the triangle is increasing when $\\theta=\\dfrac\\pi3$.",
+   "answer": "$A=\\frac12(8)(6)\\sin\\theta=24\\sin\\theta$, so $\\dfrac{dA}{d\\theta}=24\\cos\\theta$.\n\n$$\\frac{dA}{dt}=\\frac{dA}{d\\theta}\\cdot\\frac{d\\theta}{dt}=24\\cos\\theta\\cdot\\frac\\pi6.$$\n\nAt $\\theta=\\frac\\pi3$: $\\dfrac{dA}{dt}=24\\cdot\\frac12\\cdot\\frac\\pi6=2\\pi$.\n\nThe area is increasing at $2\\pi$ cm$^2$/s."
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.6"
+   ],
+   "question": "Solve for $x$, given $\\sin^{-1}x-\\cos^{-1}x=\\dfrac\\pi6$.",
+   "answer": "Use $\\sin^{-1}x+\\cos^{-1}x=\\frac\\pi2$. Adding this to the given equation:\n$$2\\sin^{-1}x=\\frac\\pi6+\\frac\\pi2=\\frac{2\\pi}3,\\qquad \\sin^{-1}x=\\frac\\pi3,\\qquad x=\\sin\\frac\\pi3=\\frac{\\sqrt3}2.$$\n\n(Check: $\\sin^{-1}\\frac{\\sqrt3}2=\\frac\\pi3$, $\\cos^{-1}\\frac{\\sqrt3}2=\\frac\\pi6$, difference $\\frac\\pi6$.)"
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.4"
+   ],
+   "question": "The region bounded by $y=\\dfrac{x^2}2$, $y=6-x^2$, and $x=0$ is rotated about the $y$-axis.\n\nDetermine the exact volume formed.",
+   "answer": "The curves meet where $\\frac{x^2}2=6-x^2$, so $3x^2=12$, $x=\\pm2$. For $x=2$, $y=2$.\n\nRotating about the $y$-axis, use $x^2$ in terms of $y$: $x^2=2y$ for $y=\\frac{x^2}2$ and $x^2=6-y$ for $y=6-x^2$. For $0\\le y\\le2$ the outer boundary of the region is $y=\\frac{x^2}2$; for $2\\le y\\le6$ it is $y=6-x^2$.\n\n$$V=\\pi\\int_0^22y\\,dy+\\pi\\int_2^6(6-y)\\,dy=\\pi\\Big[y^2\\Big]_0^2+\\pi\\Big[6y-\\frac{y^2}2\\Big]_2^6.$$\n$$=4\\pi+\\pi\\big[(36-18)-(12-2)\\big]=4\\pi+8\\pi=12\\pi.$$\n\nThe volume is $12\\pi$ cubic units.\n\n(Alternatively, $V=\\pi\\int_0^6(6-y)\\,dy-\\pi\\int_0^2\\big[(6-y)-2y\\big]\\,dy=18\\pi-6\\pi=12\\pi$.)",
+   "images": [
+    "assets/img/ext1-2026-st-george-girls/q14b.png"
+   ]
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "It is known that the product of two consecutive numbers is even. I.e. $k(k+1)=2A$, where $k$ and $A$ are integers.\n\nProve by mathematical induction that for all integers $n\\ge1$, $n^3+11n$ is divisible by 6.",
+   "answer": "Let $S(n)$: $n^3+11n$ is divisible by 6.\n\n**Base case** $n=1$: $1+11=12=6(2)$, divisible by 6. So $S(1)$ is true.\n\n**Inductive step:** assume $S(k)$ for some integer $k\\ge1$: $k^3+11k=6M$ for some integer $M$. We must prove $(k+1)^3+11(k+1)$ is divisible by 6.\n\n$$(k+1)^3+11(k+1)=k^3+3k^2+3k+1+11k+11=(k^3+11k)+3k(k+1)+12.$$\nUsing the assumption and $k(k+1)=2A$:\n$$=6M+3(2A)+12=6(M+A+2),$$\nand $M+A+2$ is an integer, so this is divisible by 6. Hence $S(k+1)$ is true whenever $S(k)$ is true.\n\nSince $S(1)$ is true, by the principle of mathematical induction $n^3+11n$ is divisible by 6 for all integers $n\\ge1$."
+  },
+  {
+   "ref": "Q14(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.16"
+   ],
+   "question": "Show that $\\dbinom{n+1}{r+1}=\\dbinom nr+\\dbinom n{r+1}$.",
+   "answer": "$$\\text{RHS}=\\frac{n!}{r!(n-r)!}+\\frac{n!}{(r+1)!(n-r-1)!}.$$\nCommon denominator $(r+1)!(n-r)!$, using $(r+1)!=(r+1)\\,r!$ and $(n-r)!=(n-r)(n-r-1)!$:\n$$=\\frac{n!(r+1)+n!(n-r)}{(r+1)!(n-r)!}=\\frac{n!\\,(n+1)}{(r+1)!(n-r)!}=\\frac{(n+1)!}{(r+1)!(n-r)!}.$$\nSince $n+1-(r+1)=n-r$, this equals $\\dfrac{(n+1)!}{(r+1)!\\,[(n+1)-(r+1)]!}=\\dbinom{n+1}{r+1}=\\text{LHS}$."
+  },
+  {
+   "ref": "Q14(d)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.1.8"
+   ],
+   "question": "Hence, find ONE possible set of values for $p$ and $q$ such that\n$$\\binom{2025}{41}+\\binom{2025}{42}+\\binom{2026}{43}=\\binom pq.$$",
+   "answer": "By part (i) with $n=2025$, $r=41$: $\\binom{2025}{41}+\\binom{2025}{42}=\\binom{2026}{42}$.\n\nThen $\\binom{2026}{42}+\\binom{2026}{43}=\\binom{2027}{43}$ (part (i) with $n=2026$, $r=42$).\n\nSo $p=2027$, $q=43$. (Another valid answer is $p=2027$, $q=1984$, since $\\binom{2027}{43}=\\binom{2027}{1984}$.)"
+  },
+  {
+   "ref": "Q15(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.7"
+   ],
+   "question": "Two projectiles are fired at the same time to collide at a point $P$, when they are both at their maximum height.\n\nProjectile A is fired from the origin at a speed of $U$ m/s at an angle of $45^\\circ$ from the horizontal. Projectile B is fired from point $B$, $d$ metres from $O$ at a speed of $V$ m/s at an angle of $30^\\circ$ from the horizontal, as shown in the diagram.\n\nThe displacement vector equations from $O$ are as follows (you do NOT need to derive these).\n$$\\mathbf r_A(t)=\\left(\\frac{U\\sqrt2}2t\\right)\\mathbf i+\\left(\\frac{U\\sqrt2}2t-5t^2\\right)\\mathbf j$$\n$$\\mathbf r_B(t)=\\left(d-\\frac{V\\sqrt3}2t\\right)\\mathbf i+\\left(\\frac V2t-5t^2\\right)\\mathbf j$$\n\nShow that the projectile from $O$ reaches its maximum height after $t=\\dfrac{U\\sqrt2}{20}$.",
+   "answer": "The velocity of A is $\\mathbf v_A=\\dot{\\mathbf r}_A=\\frac{U\\sqrt2}2\\mathbf i+\\left(\\frac{U\\sqrt2}2-10t\\right)\\mathbf j$.\n\nMaximum height occurs when the vertical velocity is zero: $\\frac{U\\sqrt2}2-10t=0$, so $t=\\dfrac{U\\sqrt2}{20}$ seconds.",
+   "images": [
+    "assets/img/ext1-2026-st-george-girls/q15a.png"
+   ]
+  },
+  {
+   "ref": "Q15(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.6.8"
+   ],
+   "question": "(Continuing the projectile set-up from part (a)(i).) Show that at point $P$, $V=U\\sqrt2$.",
+   "answer": "At $P$ both projectiles are at the same height at the same time, so $y_A=y_B$:\n$$\\frac{U\\sqrt2}2t-5t^2=\\frac V2t-5t^2\\ \\Rightarrow\\ \\frac{U\\sqrt2}2t=\\frac V2t\\ \\Rightarrow\\ V=U\\sqrt2\\quad(t\\ne0).$$\n\n(Alternatively, B is also at maximum height at $P$ so $\\dot y_B=\\frac V2-10t=0$, giving $t=\\frac V{20}$; equating with $t=\\frac{U\\sqrt2}{20}$ from (i) gives $V=U\\sqrt2$.)"
+  },
+  {
+   "ref": "Q15(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.6.8"
+   ],
+   "question": "(Continuing the projectile set-up from part (a)(i).) Hence, determine the distance $d$ between $O$ and $B$ in terms of $U$.",
+   "answer": "At $P$ the horizontal positions are equal: $x_A=x_B$, with $t=\\frac{U\\sqrt2}{20}$ and $V=U\\sqrt2$:\n$$\\frac{U\\sqrt2}2t=d-\\frac{V\\sqrt3}2t\\ \\Rightarrow\\ d=\\frac{U\\sqrt2}2t+\\frac{U\\sqrt2\\cdot\\sqrt3}2t=\\frac{U\\sqrt2}2(1+\\sqrt3)\\cdot\\frac{U\\sqrt2}{20}.$$\n$$d=\\frac{2U^2(1+\\sqrt3)}{40}=\\frac{U^2(1+\\sqrt3)}{20}.$$"
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.3.6",
+    "11.2.2.7"
+   ],
+   "question": "An object has three forces acting on it. The forces are:\n$$\\mathbf F_1=\\begin{pmatrix}-a^2+3a\\\\a^3-6a\\end{pmatrix},\\quad\\mathbf F_2=\\begin{pmatrix}k+4\\\\-10a+k\\end{pmatrix},\\quad\\mathbf F_3=\\begin{pmatrix}-3a-2k\\\\-24\\end{pmatrix}.$$\nIf the object is in equilibrium, what are the possible values of $a$?",
+   "answer": "In equilibrium $\\mathbf F_1+\\mathbf F_2+\\mathbf F_3=\\mathbf 0$.\n\nHorizontal: $(-a^2+3a)+(k+4)+(-3a-2k)=0\\Rightarrow-a^2-k+4=0\\Rightarrow k=4-a^2$.\n\nVertical: $(a^3-6a)+(-10a+k)-24=0\\Rightarrow a^3-16a+k-24=0$.\n\nSubstituting $k=4-a^2$: $a^3-16a+4-a^2-24=0$, so $a^3-a^2-16a-20=0$.\n\nTry factors of $-20$: $a=-2$: $-8-4+32-20=0$ and $a=5$: $125-25-80-20=0$. Dividing by $(a+2)(a-5)=a^2-3a-10$ gives the quotient $a+2$, so $(a+2)^2(a-5)=0$. (Check: $P'(a)=3a^2-2a-16=(3a-8)(a+2)$ vanishes at $-2$, confirming it is a double root.)\n\n$$a=-2\\quad\\text{or}\\quad a=5.$$"
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.3.6",
+    "12.2.4.5"
+   ],
+   "question": "The figure $OACB$ is a rhombus of area 4 square units. $\\overrightarrow{OA}$ is defined as $\\mathbf a$ and $\\overrightarrow{OB}$ is defined as $\\mathbf b$.\n\nThe information below is given (do NOT prove it):\n- the area of a rhombus is $A=\\frac12xy$, where $x$ and $y$ are the diagonal lengths\n- $(\\mathbf u+\\mathbf v)\\cdot(\\mathbf u+\\mathbf v)=|\\mathbf u|^2+|\\mathbf v|^2+2\\mathbf u\\cdot\\mathbf v$\n\nShow that $|\\mathbf a+\\mathbf b|^2\\,|\\mathbf b-\\mathbf a|^2=64$.",
+   "answer": "The diagonals are $\\overrightarrow{OC}=\\mathbf a+\\mathbf b$ and $\\overrightarrow{AB}=\\mathbf b-\\mathbf a$, so their lengths are $|\\mathbf a+\\mathbf b|$ and $|\\mathbf b-\\mathbf a|$.\n\nArea: $\\frac12|\\mathbf a+\\mathbf b|\\,|\\mathbf b-\\mathbf a|=4$, so $|\\mathbf a+\\mathbf b|\\,|\\mathbf b-\\mathbf a|=8$.\n\nSquaring both sides: $|\\mathbf a+\\mathbf b|^2\\,|\\mathbf b-\\mathbf a|^2=64$.",
+   "images": [
+    "assets/img/ext1-2026-st-george-girls/q15c.png"
+   ]
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.4.5"
+   ],
+   "question": "(Continuing the rhombus $OACB$ of part (c)(i).) Hence, show that $|\\mathbf a|^4-(\\mathbf a\\cdot\\mathbf b)^2=16$.",
+   "answer": "Using the given expansion, $|\\mathbf a+\\mathbf b|^2=|\\mathbf a|^2+|\\mathbf b|^2+2\\mathbf a\\cdot\\mathbf b$. The sides of a rhombus are equal, so $|\\mathbf a|=|\\mathbf b|$ and\n$$|\\mathbf a+\\mathbf b|^2=2|\\mathbf a|^2+2\\,\\mathbf a\\cdot\\mathbf b,\\qquad |\\mathbf b-\\mathbf a|^2=2|\\mathbf a|^2-2\\,\\mathbf a\\cdot\\mathbf b.$$\nSubstituting into the result of (i):\n$$\\left(2|\\mathbf a|^2+2\\mathbf a\\cdot\\mathbf b\\right)\\left(2|\\mathbf a|^2-2\\mathbf a\\cdot\\mathbf b\\right)=64\\ \\Rightarrow\\ 4|\\mathbf a|^4-4(\\mathbf a\\cdot\\mathbf b)^2=64.$$\nDividing by 4: $|\\mathbf a|^4-(\\mathbf a\\cdot\\mathbf b)^2=16$."
+  }
+ ]
+}
