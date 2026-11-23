@@ -22,15 +22,41 @@
 <header class="topbar"><div class="topbar-inner">
   <a class="brand" href="index.html"><img class="brand-mark" src="assets/logo.svg" alt="" width="24" height="24">Better <span>HSC Papers</span></a>
   <nav class="tabs"><a href="standard2.html">Standard 2</a><a href="advanced.html">Advanced</a><a href="extension1.html">Extension 1</a><a href="extension2.html">Extension 2</a><a href="physics.html">Physics</a><a href="chemistry.html">Chemistry</a><a href="biology.html">Biology</a><a href="submit.html" class="submit-tab">+ Submit a question</a></nav>
+  <span class="spacer"></span>
+  <button class="filters-btn" id="filters-open">Filters</button>
 </div></header>
 
-<main class="admin saved-page">
-  <div class="doc-head"><h1>★ Saved questions</h1><p class="soft">Your own question bank. Save questions with the ☆ Save button on any subject page.</p></div>
-  <div id="gate" class="signin-banner" hidden></div>
-  <div class="row" id="saved-tools" hidden><div class="chips" id="saved-courses"></div><span style="flex:1"></span><label class="sort-lab" for="saved-sort">Sort</label><select id="saved-sort" class="sort-sel">
+<div class="layout saved-layout">
+<aside class="sidebar" id="sidebar" hidden>
+  <div class="panel-title">Search</div>
+  <input class="search" id="search" type="search" placeholder="e.g. induction, Ascham">
+  <div id="subj-panel"><div class="panel-title">Subject</div><div class="chips" id="saved-courses"></div></div>
+  <div class="panel-title">Difficulty</div>
+  <div class="chips">
+    <button class="chip on" data-diff="1">1 Easy</button><button class="chip on" data-diff="2">2 Moderate</button>
+    <button class="chip on" data-diff="3">3 Medium</button><button class="chip on" data-diff="4">4 Hard</button>
+    <button class="chip on" data-diff="5">5 Very hard</button>
+  </div>
+  <div class="panel-title">Question type</div>
+  <div class="chips"><button class="chip on" data-kind="mc">Multiple choice</button><button class="chip on" data-kind="written">Written</button></div>
+  <div class="panel-title">Your progress</div>
+  <div class="soft" id="done-count" style="font-size:13.5px;margin-bottom:6px"></div>
+  <div class="seg-wrap"><span class="lab-inline">Show:</span>
+    <div class="seg" id="show-done" role="group" aria-label="Show"><button type="button" data-show="all">All</button><button type="button" data-show="todo">Uncompleted</button><button type="button" data-show="done">Completed</button></div></div>
+  <div class="panel-title">Answers</div>
+  <label class="switch"><input type="checkbox" id="saved-answers"> Show all answers</label>
+  <div class="panel-title">Sort</div>
+  <select id="saved-sort" class="sort-sel" aria-label="Sort">
     <option value="syllabus">Syllabus order</option><option value="recent">Recently saved</option><option value="oldest">Oldest saved</option>
     <option value="easy">Easiest first</option><option value="hard">Hardest first</option><option value="marks-high">Most marks</option><option value="marks-low">Fewest marks</option><option value="paper">Source paper</option></select>
-    <label class="switch"><input type="checkbox" id="saved-answers"> Show all answers</label><button type="button" class="btn primary" id="pdf-open">Make a PDF</button></div>
+  <div class="panel-title" style="display:flex;align-items:center;gap:8px">Topics &amp; dot points <span style="flex:1"></span><button class="linkish" id="clear-topics" type="button">clear</button></div>
+  <div class="tree" id="tree"></div>
+  <div style="margin-top:14px"><button class="btn" id="reset" type="button">Reset all filters</button></div>
+</aside>
+<main class="admin saved-page main">
+  <div class="doc-head"><h1>★ Saved questions</h1><p class="soft">Your own question bank. Save questions with the ☆ Save button on any subject page.</p></div>
+  <div id="gate" class="signin-banner" hidden></div>
+  <div class="row" id="saved-tools" hidden><span class="count soft" id="saved-count"></span><span style="flex:1"></span><button type="button" class="btn primary" id="pdf-open">Make a PDF</button></div>
   <div class="pdf-box" id="pdf-box" hidden>
     <div class="field-row">
       <div class="field grow"><label class="lab" for="pdf-title">Title</label><input type="text" id="pdf-title" placeholder="Saved questions"></div>
@@ -42,6 +68,8 @@
   </div>
   <div id="saved"></div>
 </main>
+</div>
+<div class="scrim" id="scrim"></div>
 <div id="print-root"></div>
 <div id="toast" style="display:none;position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--accent);color:var(--accent-ink);padding:8px 16px;border-radius:999px;z-index:60;font-size:14px"></div>
 </body>

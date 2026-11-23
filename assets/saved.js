@@ -8,7 +8,19 @@
   const SCI = { physics: 1, chemistry: 1, biology: 1 };
   const DIFF = ["", "Easy", "Moderate", "Medium", "Hard", "Very hard"];
   const toast = (m) => { const t = $("toast"); t.textContent = m; t.style.display = "block"; clearTimeout(toast.t); toast.t = setTimeout(() => (t.style.display = "none"), 2600); };
-  const cache = {};
+  const cache = {}, syl = {};
+  const F = { search: "", diff: new Set([1, 2, 3, 4, 5]), kinds: new Set(["mc", "written"]), show: "all", sel: new Set() };   // sel holds "course|dotpoint"
+  const isDone = (q) => !!(A.progress && A.progress.done && A.progress.done[q.id]);
+  const hay = (q) => (q._h = q._h || (String(q.question) + " " + (q.options || []).join(" ") + " " + (q._src || "") + " " + (q.ref || "")).toLowerCase());
+  function passes(q, skipCourse, skipTopic, skipShow) {
+    if (!skipCourse && filter && q.course !== filter) return false;
+    if (!F.diff.has(q.difficulty) || !F.kinds.has(q.kind)) return false;
+    if (F.search) for (const w of F.search.split(/\s+/)) if (w && !hay(q).includes(w)) return false;
+    if (!skipShow && F.show !== "all" && isDone(q) !== (F.show === "done")) return false;
+    if (!skipTopic && F.sel.size && !(q.dotpoints || []).some((d) => F.sel.has(q.course + "|" + d))) return false;
+    return true;
+  }
+  const visible = () => Q.filter((q) => passes(q));
   let Q = [], filter = "", opened = new Set(), showAll = false, tok = 0;
   let sortBy = (() => { try { return localStorage.getItem("hscq:savedSort") || "syllabus"; } catch (e) { return "syllabus"; } })();
   const num = (a, b) => String(a).localeCompare(String(b), undefined, { numeric: true });
@@ -81,13 +93,19 @@
   }
 
   function draw() {
-    const list = sorted(Q.filter((q) => !filter || q.course === filter));
+    const list = sorted(visible());
     const courses = [...new Set(Q.map((q) => q.course))];
     $("saved-tools").hidden = !Q.length;
+    $("sidebar").hidden = !Q.length;
     if (!Q.length) $("pdf-box").hidden = true;
+    const base = Q.filter((q) => passes(q, true));
     $("saved-courses").innerHTML = courses.length > 1 ? [["", "All"], ...courses.map((c) => [c, NAMES[c].replace("Mathematics ", "")])]
-      .map(([c, n]) => `<button type="button" class="chip${filter === c ? " on" : ""}" data-course="${c}">${esc(n)} <b>${c ? Q.filter((q) => q.course === c).length : Q.length}</b></button>`).join("") : "";
+      .map(([c, n]) => `<button type="button" class="chip${filter === c ? " on" : ""}" data-course="${c}">${esc(n)} <b>${c ? base.filter((q) => q.course === c).length : base.length}</b></button>`).join("") : "";
+    $("subj-panel").hidden = courses.length < 2;
+    $("saved-count").textContent = Q.length ? `${list.length} of ${Q.length} saved question${Q.length === 1 ? "" : "s"} shown` : "";
+    updProgress(); buildTree();
     if (!Q.length) { $("saved").innerHTML = `<div class="none">No saved questions yet. Press <b>☆ Save</b> on any question to add it here.</div>`; return; }
+    if (!list.length) { $("saved").innerHTML = `<div class="none">No saved questions match these filters.</div>`; return; }
     let html = "", last = null, n = 0;
     for (const q of list) {
       if (q.course !== last) { html += `<h2 class="topic-h subj-h"><span>${esc(NAMES[q.course])}</span><label class="pick subj-pick"><input type="checkbox" data-subj="${q.course}"> Include all in PDF</label></h2>`; last = q.course; }
@@ -96,6 +114,54 @@
     $("saved").innerHTML = `<div class="doc">${html}</div>`;
     syncSubj();
     if (!$("pdf-box").hidden) pdfCount();
+  }
+
+  function updProgress() {
+    const pool = Q.filter((q) => passes(q, false, false, true)), n = pool.filter(isDone).length, pct = pool.length ? Math.round((100 * n) / pool.length) : 0;
+    $("done-count").innerHTML = `<div class="prog-line"><span>${n} of ${pool.length} questions done</span><b>${pct}%</b></div><div class="prog-bar"><i style="width:${pct}%"></i></div>`;
+    document.querySelectorAll("#show-done button").forEach((b) => b.classList.toggle("on", b.dataset.show === F.show));
+  }
+
+  /* ---------------- topics & dot points tree (built from the syllabus of each saved subject) ---------------- */
+  async function loadSyl(c) {
+    if (!syl[c]) syl[c] = fetch("data/syllabus/" + c + ".json").then((r) => r.json()).catch(() => null);
+    return syl[c];
+  }
+  function buildTree() {
+    const root = $("tree");
+    const open = new Set([...root.querySelectorAll("details[open]")].map((d) => d.dataset.key));
+    const cnt = {};   // course|dp -> ids, over everything except the topic filter
+    for (const q of Q) if (passes(q, false, true)) for (const d of q.dotpoints || []) (cnt[q.course + "|" + d] = cnt[q.course + "|" + d] || new Set()).add(q.id);
+    const courses = Object.keys(NAMES).filter((c) => Q.some((q) => q.course === c));
+    let html = "";
+    for (const c of courses) {
+      const sy = syl[c] && syl[c].then ? null : syl[c];
+      if (!sy) continue;
+      let cSet = new Set(), cHtml = "";
+      for (const y of sy.years) for (const t of y.topics) {
+        let tSet = new Set(), tHtml = "";
+        for (const sb of t.subtopics) {
+          let sSet = new Set(), sHtml = "";
+          for (const p of sb.dotpoints) {
+            const k = c + "|" + p.id, n = cnt[k] ? cnt[k].size : 0; if (!n) continue;
+            cnt[k].forEach((x) => { sSet.add(x); tSet.add(x); cSet.add(x); });
+            sHtml += `<label class="dp" title="${esc(p.text.replace(/\$/g, ""))}"><input type="checkbox" data-dp="${esc(k)}" ${F.sel.has(k) ? "checked" : ""}><span class="lbl"><span class="id">${p.id}</span> <span class="md-inline" data-md="${esc(p.text)}"></span></span><span class="cnt">${n}</span></label>`;
+          }
+          if (!sSet.size) continue;
+          const key = "s" + c + sb.id, multi = !(sb.name === t.name && t.subtopics.length === 1);
+          tHtml += multi ? `<details class="lvl-sub" data-key="${key}" ${open.has(key) ? "open" : ""}><summary><span class="caret">▸</span><span class="lbl">${esc(sb.name)}</span><span class="cnt">${sSet.size}</span></summary><div class="kids">${sHtml}</div></details>` : sHtml;
+        }
+        if (!tSet.size) continue;
+        const key = "t" + c + t.id;
+        cHtml += `<details class="lvl-topic" data-key="${key}" ${open.has(key) ? "open" : ""}><summary><span class="caret">▸</span><span class="lbl">${esc(t.name)}</span><span class="cnt">${tSet.size}</span></summary><div class="kids">${tHtml}</div></details>`;
+      }
+      if (!cSet.size) continue;
+      const key = "c" + c;
+      html += courses.length > 1 ? `<details class="lvl-year" data-key="${key}" ${open.has(key) || !root.dataset.built ? "open" : ""}><summary><span class="caret">▸</span><span class="lbl">${esc(NAMES[c])}</span><span class="cnt">${cSet.size}</span></summary>${cHtml}</details>` : cHtml;
+    }
+    root.innerHTML = html || `<div class="none" style="padding:10px">No saved questions match.</div>`;
+    root.dataset.built = "1";
+    root.querySelectorAll(".md-inline").forEach((el) => { el.innerHTML = md(el.dataset.md, true); });
   }
 
   // each subject heading's box: ticked if all its questions are in the PDF, dashed if only some
@@ -108,12 +174,12 @@
 
   /* ---------------- PDF of the saved questions shown (respects the subject filter) ---------------- */
   function pdfList() {
-    const list = sorted(Q.filter((q) => (!filter || q.course === filter) && !skip.has(q.id)));
+    const list = sorted(visible().filter((q) => !skip.has(q.id)));
     if ($("pdf-order").value === "diff") return list.slice().sort((a, b) => a.difficulty - b.difficulty);
     return list;
   }
   function pdfCount() {
-    const l = pdfList(), shown = Q.filter((q) => !filter || q.course === filter).length;
+    const l = pdfList(), shown = visible().length;
     $("pdf-count").textContent = `${l.length} of ${shown} selected · ${l.reduce((a, q) => a + (+q.marks || 0), 0)} marks`;
   }
   function makePdf() {
@@ -154,7 +220,7 @@
   async function render() {
     $("gate").hidden = true;
     if (!A.enabled || !A.user) {
-      Q = []; $("saved").innerHTML = ""; $("saved-tools").hidden = true; $("gate").hidden = false;
+      Q = []; $("saved").innerHTML = ""; $("saved-tools").hidden = true; $("sidebar").hidden = true; $("gate").hidden = false;
       $("gate").innerHTML = A.enabled ? `<span>Sign in to see your saved questions.</span><button class="btn primary" type="button" id="g-in">Sign in</button>` : "<span>Logins aren't switched on yet.</span>";
       if ($("g-in")) $("g-in").onclick = () => A.signIn();
       return;
@@ -170,6 +236,7 @@
       const map = await bank(c);
       out.push(...byCourse[c].map((id) => map[id]).filter(Boolean));
     }
+    await Promise.all([...new Set(out.map((q) => q.course))].map(async (c) => { syl[c] = await loadSyl(c); }));
     if (my !== tok) return;
     Q = out; draw();
   }
@@ -187,13 +254,35 @@
     });
     $("saved").addEventListener("change", (e) => {
       const c = e.target.dataset.subj;
-      if (c) { for (const q of Q) if (q.course === c) e.target.checked ? skip.delete(q.id) : skip.add(q.id); keepSkip(); draw(); pdfCount(); return; }
+      if (c) { for (const q of visible()) if (q.course === c) e.target.checked ? skip.delete(q.id) : skip.add(q.id); keepSkip(); draw(); pdfCount(); return; }
       const id = e.target.dataset.pick; if (!id) return;
       e.target.checked ? skip.delete(id) : skip.add(id); keepSkip(); syncSubj(); pdfCount();
     });
-    const pickAll = (on) => { for (const q of Q) if (!filter || q.course === filter) on ? skip.delete(q.id) : skip.add(q.id); keepSkip(); draw(); pdfCount(); };
+    const pickAll = (on) => { for (const q of visible()) on ? skip.delete(q.id) : skip.add(q.id); keepSkip(); draw(); pdfCount(); };
     $("pick-all").addEventListener("click", () => pickAll(true));
     $("pick-none").addEventListener("click", () => pickAll(false));
+    const side = $("sidebar"), scrim = $("scrim");
+    const closeSide = () => { side.classList.remove("show"); scrim.classList.remove("show"); document.documentElement.classList.remove("panel-open"); };
+    $("filters-open").addEventListener("click", () => { side.classList.add("show"); scrim.classList.add("show"); document.documentElement.classList.add("panel-open"); side.scrollTop = 0; });
+    scrim.addEventListener("click", closeSide);
+    let st; $("search").addEventListener("input", (e) => { clearTimeout(st); st = setTimeout(() => { F.search = e.target.value.trim().toLowerCase(); draw(); }, 200); });
+    side.addEventListener("click", (e) => {
+      const d = e.target.closest("[data-diff]");
+      if (d) { const v = +d.dataset.diff; F.diff.has(v) ? F.diff.delete(v) : F.diff.add(v); d.classList.toggle("on", F.diff.has(v)); draw(); return; }
+      const k = e.target.closest("[data-kind]");
+      if (k) { const v = k.dataset.kind; F.kinds.has(v) ? F.kinds.delete(v) : F.kinds.add(v); k.classList.toggle("on", F.kinds.has(v)); draw(); return; }
+      const sh = e.target.closest("[data-show]");
+      if (sh) { F.show = sh.dataset.show; draw(); }
+    });
+    $("tree").addEventListener("change", (e) => {
+      const k = e.target.dataset.dp; if (!k) return;
+      e.target.checked ? F.sel.add(k) : F.sel.delete(k); draw();
+    });
+    $("clear-topics").addEventListener("click", () => { F.sel.clear(); draw(); });
+    $("reset").addEventListener("click", () => {
+      F.search = ""; $("search").value = ""; F.diff = new Set([1, 2, 3, 4, 5]); F.kinds = new Set(["mc", "written"]); F.show = "all"; F.sel.clear(); filter = "";
+      side.querySelectorAll("[data-diff],[data-kind]").forEach((b) => b.classList.add("on")); draw();
+    });
     $("saved-courses").addEventListener("click", (e) => { const b = e.target.closest("[data-course]"); if (b) { filter = b.dataset.course; draw(); } });
     const ss = $("saved-sort"); ss.value = SORTS[sortBy] ? sortBy : "syllabus";
     ss.addEventListener("change", () => { sortBy = ss.value; try { localStorage.setItem("hscq:savedSort", sortBy); } catch (e) {} draw(); });
