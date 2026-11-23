@@ -8,8 +8,15 @@ Chemistry** — into
 Subjects indexed daily: Mathematics Extension 1, Extension 2 (NESA 11–12 **2024** syllabuses) and Physics, Chemistry
 (NESA Stage 6 **2017** syllabuses, Year 12 modules 5–8 only). **Advanced and Biology papers are paused — do not index new
 Advanced or Biology papers** (Biology community/queue questions are still processed). Advanced-content parts found in Ext 1 papers still go on the Advanced page (`"course": "advanced"`).
-**This file overrides the task prompt:** if the prompt asks for a different number of papers or for Advanced papers,
+**For the daily task this file overrides the task prompt:** if the daily prompt asks for a different number of papers or for Advanced papers,
 follow this file (4 papers — Ext 1, Ext 2, Physics, Chemistry — no Advanced, no Biology). Process the solution queue every run (§5).
+
+**Bulk indexing task (separate nightly run).** A second scheduled task indexes as many papers as it can in one run, in a
+fixed subject order, and *does* index Advanced, Biology and Mathematics Standard 2 papers. Its prompt sets the order and
+the number of papers; everything else in this file (reading, splitting, tagging, dropping, validating) applies to it
+unchanged. It does not process the solution queue. It runs at the same time as the daily task, so it must never index
+the 4 papers that `python3 scripts/thsc.py pick` prints at the start of its run (those belong to the daily task), and it
+pulls before every pick and pushes after every paper.
 
 ## 0. Setup
 
@@ -33,7 +40,7 @@ python3 scripts/thsc.py download <course> "<title>" work/<paper-id>.pdf
 python3 scripts/pages.py render work/<paper-id>.pdf work/<paper-id>/
 ```
 
-`<paper-id>` = `<adv|ext1|ext2|phys|chem|bio>-<year>-<school-slug>`, e.g. `ext1-2026-baulkham-hills`, `phys-2025-knox`.
+`<paper-id>` = `<std2|adv|ext1|ext2|phys|chem|bio>-<year>-<school-slug>`, e.g. `ext1-2026-baulkham-hills`, `phys-2025-knox`, `std2-2026-gosford`.
 
 If a download fails, or the PDF has no usable solutions (missing, or only an answer grid), mark it skipped
 and pick a replacement for that subject: `python3 scripts/thsc.py mark <course> "<title>" skipped "<reason>"`
@@ -96,6 +103,10 @@ Year 12 . Module 6 . inquiry question 3 . content dot point 2 (the `.json` also 
   the binomial, sample proportions; Advanced bivariate data (scatter plots, correlation, regression), Pareto charts,
   box plots/IQR/outliers, mean and standard deviation of datasets. Also drop parts that only ask to label or complete a
   printed diagram. If a later part depends on a dropped part, make it self-contained (state the needed result) or drop it.
+- **Mathematics Standard 2** (`"course": "standard2"`, NESA Mathematics Standard 11–12 **2024** syllabus, `data/syllabus/standard2.txt`;
+  THSC lists these papers on its "General/Standard" page). Drop (not in the 2024 Standard syllabus): absolute error,
+  percentage error, limits of accuracy / upper and lower bounds of measurements. Box plots, bivariate data, networks,
+  network flow, critical path, annuities and the normal distribution are all **in** Standard 2. Write money as `\$`.
 - Check the paper's solutions: if one is wrong (it happens — e.g. sine-rule ambiguous case), give the correct working
   and add a one-line note saying where the paper's answer differs.
 
