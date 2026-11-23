@@ -1,0 +1,751 @@
+{
+ "id": "ext2-2026-sydney-grammar",
+ "course": "extension2",
+ "school": "Sydney Grammar",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "Sydney Grammar 2026 w. sol"
+ },
+ "indexed": "2026-11-24",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.5.5"
+   ],
+   "question": "Let $R$ be the region in the complex plane defined by $1 \\le \\text{Im}(z) \\le 3$ and $|z| < 4$.\n\nWhich diagram best represents the region $R$? (Dashed lines/curves are excluded boundaries; solid lines are included.)",
+   "answer": "$\\text{Im}(z)=1$ and $\\text{Im}(z)=3$ are included (solid horizontal lines), while $|z|=4$ is excluded (dashed arc). The region is the horizontal strip between $y=1$ and $y=3$ inside the circle of radius 4. Only (B) has both lines solid and the arc dashed.",
+   "options": [
+    "![Diagram A](assets/img/ext2-2026-sydney-grammar/q1a.png)",
+    "![Diagram B](assets/img/ext2-2026-sydney-grammar/q1b.png)",
+    "![Diagram C](assets/img/ext2-2026-sydney-grammar/q1c.png)",
+    "![Diagram D](assets/img/ext2-2026-sydney-grammar/q1d.png)"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.12"
+   ],
+   "question": "A driving manual contains the following statement:\n\n'If someone is bad at driving, then they will never miss an exit.'\n\nWhich of the following is logically equivalent to this statement?",
+   "answer": "A statement is equivalent to its contrapositive. 'If $P$ then $Q$' has contrapositive 'if not $Q$ then not $P$', with $P$ = 'bad at driving', $Q$ = 'never misses an exit'. Not $Q$ = 'misses an exit', so the contrapositive is 'If someone misses an exit, then they are not bad at driving' (D).",
+   "options": [
+    "If someone is good at driving, then they will never miss an exit.",
+    "If someone is not bad at driving, then they will miss an exit.",
+    "If someone misses an exit, then they are bad at driving.",
+    "If someone misses an exit, then they are not bad at driving."
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.9"
+   ],
+   "question": "Which of the following is a correct expression for $\\displaystyle\\int \\frac{dx}{\\sqrt{5-4x-x^2}}$?",
+   "answer": "Complete the square: $5-4x-x^2 = 9-(x+2)^2$, so $\\displaystyle\\int\\frac{dx}{\\sqrt{3^2-(x+2)^2}} = \\sin^{-1}\\!\\left(\\frac{x+2}{3}\\right)+c$ (B).",
+   "options": [
+    "$\\sin^{-1}\\left(\\dfrac{x-2}{3}\\right)+c$",
+    "$\\sin^{-1}\\left(\\dfrac{x+2}{3}\\right)+c$",
+    "$\\sin^{-1}\\left(\\dfrac{x-2}{9}\\right)+c$",
+    "$\\sin^{-1}\\left(\\dfrac{x+2}{9}\\right)+c$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.12",
+    "12.3.5.3"
+   ],
+   "question": "A complex number $z = x+iy$ is defined such that $\\text{Re}\\left(\\dfrac{1}{z}\\right)=\\dfrac12$.\n\nWhich of the following circles in the complex plane must $z$ always lie on?",
+   "answer": "$\\dfrac1z=\\dfrac{x-iy}{x^2+y^2}$, so $\\text{Re}\\left(\\dfrac1z\\right)=\\dfrac{x}{x^2+y^2}=\\dfrac12$. Then $x^2-2x+y^2=0$, i.e. $(x-1)^2+y^2=1$ (A).",
+   "options": [
+    "$(x-1)^2+y^2=1$",
+    "$x^2+(y-1)^2=1$",
+    "$(x+1)^2+y^2=1$",
+    "$x^2+(y+1)^2=1$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.9"
+   ],
+   "question": "The vectors $\\mathbf{p}$ and $\\mathbf{q}$ are given by $\\mathbf{p}=\\begin{pmatrix}\\sin\\theta\\\\ \\cos\\theta\\\\ \\tan\\theta\\end{pmatrix}$ and $\\mathbf{q}=\\begin{pmatrix}\\text{cosec}\\,\\theta\\\\ \\sec\\theta\\\\ \\cot\\theta\\end{pmatrix}$, where $0\\le\\theta\\le2\\pi$.\n\nFor how many values of $\\theta$ is $\\text{proj}_{\\mathbf{p}}\\,\\mathbf{q}$ a unit vector?",
+   "answer": "$\\text{proj}_{\\mathbf p}\\mathbf q=\\dfrac{\\mathbf p\\cdot\\mathbf q}{|\\mathbf p|^2}\\mathbf p$, with magnitude $\\dfrac{|\\mathbf p\\cdot\\mathbf q|}{|\\mathbf p|}$.\n\n$\\mathbf p\\cdot\\mathbf q = 1+1+1=3$ and $|\\mathbf p|^2=\\sin^2\\theta+\\cos^2\\theta+\\tan^2\\theta=\\sec^2\\theta$, so $|\\mathbf p|=|\\sec\\theta|$.\n\nThe magnitude is $3|\\cos\\theta|=1$, so $\\cos\\theta=\\pm\\frac13$. On $[0,2\\pi]$ this gives 4 values of $\\theta$ (none make $\\sin\\theta$ or $\\cos\\theta$ zero), so (D).",
+   "course": "extension1",
+   "options": [
+    "0",
+    "1",
+    "2",
+    "4"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.10",
+    "12.3.2.5"
+   ],
+   "question": "The diagram below shows the complex number $z = r(\\cos\\theta + i\\sin\\theta)$ on the Argand diagram.\n\nWhich of the following diagrams best shows the position of $\\dfrac{ir^2}{z}$?",
+   "answer": "$\\dfrac{ir^2}{z}=\\dfrac{ir^2}{r(\\cos\\theta+i\\sin\\theta)}=ir(\\cos\\theta-i\\sin\\theta)=i\\bar z$, since $\\bar z=r(\\cos\\theta-i\\sin\\theta)$.\n\nSo take the conjugate of $z$ (reflect in the real axis, same modulus $r>1$), then multiply by $i$ (rotate $90^\\circ$ anticlockwise). $z$ is in the second quadrant, $\\bar z$ in the third, and rotating by $90^\\circ$ puts the point in the fourth quadrant at distance $r>1$ from the origin: (A).",
+   "options": [
+    "![Diagram A](assets/img/ext2-2026-sydney-grammar/q6a.png)",
+    "![Diagram B](assets/img/ext2-2026-sydney-grammar/q6b.png)",
+    "![Diagram C](assets/img/ext2-2026-sydney-grammar/q6c.png)",
+    "![Diagram D](assets/img/ext2-2026-sydney-grammar/q6d.png)"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/ext2-2026-sydney-grammar/q6.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.2"
+   ],
+   "question": "Consider the statement:\n\n$\\forall\\, p,q\\in\\mathbb{Z}^+,\\ \\exists\\, m,n\\in\\mathbb{Z}^+$ such that $\\sqrt{p+q}=\\sqrt m+\\sqrt n$.\n\nWhich of the following could be used as a counterexample to disprove this statement?",
+   "answer": "A counterexample needs $p,q\\in\\mathbb Z^+$ for which no positive integers $m,n$ work. (A) is not allowed ($-2\\notin\\mathbb Z^+$). For (B), $\\sqrt9=3=\\sqrt4+\\sqrt1$; for (C), $\\sqrt{18}=3\\sqrt2=\\sqrt2+\\sqrt8$.\n\nFor (D): suppose $\\sqrt6=\\sqrt m+\\sqrt n$ with $m,n\\in\\mathbb Z^+$. Each of $\\sqrt m,\\sqrt n$ is at least $1$, so each is at most $\\sqrt6-1\\approx1.45$, giving $m,n\\in\\{1,2\\}$. The possible sums are $\\sqrt1+\\sqrt1=2$, $1+\\sqrt2\\approx2.414$ and $2\\sqrt2\\approx2.83$, none equal to $\\sqrt6\\approx2.449$. So no such $m,n$ exist, and $p=2,\\ q=4$ is a counterexample: (D).",
+   "options": [
+    "$p=2,\\ q=-2$",
+    "$p=6,\\ q=3$",
+    "$p=10,\\ q=8$",
+    "$p=2,\\ q=4$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "It is known that the vector $\\mathbf r=\\mathbf i-\\mathbf j+2\\mathbf k$ is perpendicular to $a\\mathbf i+b\\mathbf j+c\\mathbf k$, where $a,b,c\\ne0$.\n\nWhich of the following vectors is NOT perpendicular to $\\mathbf r$?",
+   "answer": "Perpendicular to $\\mathbf r$ means dot product with $\\mathbf r$ is $0$. Given $a-b+2c=0$.\n\n(A) $(a+c)-(b+c)+2c=a-b+2c=0$.\n\n(B) $b-a-2c=-(a-b+2c)=0$.\n\n(C) $b-a+2(a-b+c)=a-b+2c=0$.\n\n(D) $(2c-a)-(b-2c)+2(a+b-c)=a+b+2c=(a-b+2c)+2b=2b\\neq0$.\n\nSo (D) is not perpendicular.",
+   "options": [
+    "$(a+c)\\mathbf i+(b+c)\\mathbf j+c\\mathbf k$",
+    "$b\\mathbf i+a\\mathbf j-c\\mathbf k$",
+    "$b\\mathbf i+a\\mathbf j+(a-b+c)\\mathbf k$",
+    "$(2c-a)\\mathbf i+(b-2c)\\mathbf j+(a+b-c)\\mathbf k$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.5.5",
+    "12.3.2.8"
+   ],
+   "question": "The complex number $z$ is defined such that $-\\dfrac{\\pi}{4}\\le\\text{Arg}(z-i)\\le\\dfrac{\\pi}{4}$.\n\nWhich of the following describes the set of values that $\\text{Arg}(z^2+1)$ can take?",
+   "answer": "$z^2+1=(z+i)(z-i)$, so $\\arg(z^2+1)=\\arg(z+i)+\\arg(z-i)$. Here $z$ lies in the wedge with vertex $i$ bounded by the rays at $\\pm\\frac\\pi4$ to the horizontal ($z\\ne i$, since $z^2+1\\ne0$).\n\nUpper ray ($\\arg(z-i)=\\frac\\pi4$): $\\arg(z+i)$ runs from just under $\\frac\\pi2$ (near $z=i$) down towards $\\frac\\pi4$ as $|z|\\to\\infty$, so the sum is less than $\\frac{3\\pi}4$ and approaches $\\frac\\pi2$.\n\nLower ray ($\\arg(z-i)=-\\frac\\pi4$): $\\arg(z+i)$ falls from just under $\\frac\\pi2$ towards $-\\frac\\pi4$, so the sum is greater than $-\\frac\\pi2$ and starts near $\\frac\\pi4$.\n\nThe sum takes every value in between, so $-\\frac\\pi2<\\text{Arg}(z^2+1)<\\frac{3\\pi}4$ (B).",
+   "options": [
+    "$-\\dfrac\\pi2<\\text{Arg}(z^2+1)<\\dfrac\\pi2$",
+    "$-\\dfrac\\pi2<\\text{Arg}(z^2+1)<\\dfrac{3\\pi}4$",
+    "$-\\dfrac{3\\pi}4<\\text{Arg}(z^2+1)<\\dfrac\\pi4$",
+    "$-\\dfrac\\pi4<\\text{Arg}(z^2+1)<\\pi$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.1"
+   ],
+   "question": "The graph below shows the derivative of the velocity $v$ of a particle as a function of its displacement $x$, where $x\\ge0$.\n\nIt is known that if the particle is at $x=0$, it will be stationary and will not move.\n\nWhich of the following graphs best shows the acceleration of the particle as a function of its displacement?",
+   "answer": "Acceleration is $a=v\\dfrac{dv}{dx}$. Integrating $\\frac{dv}{dx}$ with $v=0$ at $x=0$: $v$ rises from $0$ to a maximum at $x=2$, then falls back to $0$ at $x=4$ (flat there since $\\frac{dv}{dx}=0$) and then rises again, with $v\\ge0$ throughout.\n\nSo $a=v\\frac{dv}{dx}$ has the sign of $\\frac{dv}{dx}$: positive for $0<x<2$, zero at $x=2$, negative for $2<x<4$, and it is zero at $x=0$ and $x=4$ (where $v=0$ and $\\frac{dv}{dx}=0$) before turning positive again. This matches (A).",
+   "options": [
+    "![Graph A](assets/img/ext2-2026-sydney-grammar/q10a.png)",
+    "![Graph B](assets/img/ext2-2026-sydney-grammar/q10b.png)",
+    "![Graph C](assets/img/ext2-2026-sydney-grammar/q10c.png)",
+    "![Graph D](assets/img/ext2-2026-sydney-grammar/q10d.png)"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/ext2-2026-sydney-grammar/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.4"
+   ],
+   "question": "Solve $z^2-4z+8=0$.",
+   "answer": "$(z-2)^2=-8+4=-4=(2i)^2$, so $z=2\\pm2i$."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.5"
+   ],
+   "question": "The complex numbers $w$ and $z$ are given in polar form by $w=8\\left(\\cos\\frac{3\\pi}{4}+i\\sin\\frac{3\\pi}{4}\\right)$ and $z=2\\left(\\cos\\frac{\\pi}{6}+i\\sin\\frac{\\pi}{6}\\right)$.\n\nFind the modulus and principal argument of $\\dfrac wz$.",
+   "answer": "Dividing in polar form, moduli divide and arguments subtract:\n\n$\\left|\\frac wz\\right|=\\frac82=4$ and $\\arg\\frac wz=\\frac{3\\pi}4-\\frac\\pi6=\\frac{9\\pi-2\\pi}{12}=\\frac{7\\pi}{12}$, which lies in $(-\\pi,\\pi]$, so $\\text{Arg}\\frac wz=\\frac{7\\pi}{12}$.\n\n(The original paper wrote $w=8e^{3i\\pi/4}$ and $z=2e^{i\\pi/6}$; here it is restated in polar form.)"
+  },
+  {
+   "ref": "Q11(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Find $\\displaystyle\\int(\\tan^2x+1)\\sec^2x\\,dx$.",
+   "answer": "Let $u=\\tan x$, $du=\\sec^2x\\,dx$:\n\n$\\int(u^2+1)\\,du=\\frac13u^3+u+c=\\frac13\\tan^3x+\\tan x+c$."
+  },
+  {
+   "ref": "Q11(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.11"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{x^2}{4+x^2}\\,dx$.",
+   "answer": "$\\dfrac{x^2}{4+x^2}=\\dfrac{(x^2+4)-4}{4+x^2}=1-\\dfrac{4}{4+x^2}$, so\n\n$\\int\\frac{x^2}{4+x^2}dx=x-4\\cdot\\frac12\\tan^{-1}\\frac x2+c=x-2\\tan^{-1}\\frac x2+c$."
+  },
+  {
+   "ref": "Q11(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Find $\\displaystyle\\int x\\cos x\\,dx$.",
+   "answer": "By parts with $u=x$, $v'=\\cos x$ ($u'=1$, $v=\\sin x$):\n\n$\\int x\\cos x\\,dx=x\\sin x-\\int\\sin x\\,dx=x\\sin x+\\cos x+c$."
+  },
+  {
+   "ref": "Q11(d)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.10"
+   ],
+   "question": "Two lines are given by\n$\\mathbf r_1=\\begin{pmatrix}1\\\\-2\\\\14\\end{pmatrix}+\\lambda\\begin{pmatrix}1\\\\-1\\\\3\\end{pmatrix}$ and $\\mathbf r_2=\\begin{pmatrix}-6\\\\3\\\\-1\\end{pmatrix}+\\mu\\begin{pmatrix}2\\\\-1\\\\3\\end{pmatrix}$, where $\\lambda,\\mu\\in\\mathbb R$.\n\nShow that the lines intersect, and find their point of intersection.",
+   "answer": "Equate components:\n\n$i$: $1+\\lambda=-6+2\\mu\\Rightarrow\\lambda-2\\mu=-7$ (1)\n\n$j$: $-2-\\lambda=3-\\mu\\Rightarrow\\mu-\\lambda=5$ (2)\n\n(1)+(2): $-\\mu=-2$, so $\\mu=2$ and $\\lambda=-3$.\n\nCheck $k$: LHS $=14+3(-3)=5$; RHS $=-1+3(2)=5$. The $k$-components agree, so the lines intersect.\n\nPoint: $\\mathbf r_2$ at $\\mu=2$ is $(-6+4,\\ 3-2,\\ -1+6)=(-2,1,5)$."
+  },
+  {
+   "ref": "Q11(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "Two lines have direction vectors $\\begin{pmatrix}1\\\\-1\\\\3\\end{pmatrix}$ and $\\begin{pmatrix}2\\\\-1\\\\3\\end{pmatrix}$.\n\nDetermine the acute angle between the lines, giving your answer correct to the nearest degree.",
+   "answer": "$\\mathbf d_1\\cdot\\mathbf d_2=2+1+9=12$, $|\\mathbf d_1|=\\sqrt{11}$, $|\\mathbf d_2|=\\sqrt{14}$.\n\n$\\cos\\theta=\\dfrac{12}{\\sqrt{11}\\sqrt{14}}\\approx0.967$, so $\\theta\\approx15^\\circ$ (to the nearest degree).",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "Show that if $n$ is an integer, then $n^2+7n+6$ is even.",
+   "answer": "$n^2+7n+6=(n+6)(n+1)$.\n\nIf $n$ is even, $n+6$ is even, so the product is even. If $n$ is odd, $n+1$ is even, so the product is even. In either case $n^2+7n+6$ is even."
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "Given that $n^2+7n+6$ is even for every integer $n$, determine, with justification, the number of integer solutions to the equation $(n^2+7n+6)^7-16n^5=3$.",
+   "answer": "Since $n^2+7n+6$ is even, $(n^2+7n+6)^7$ is even. Also $16n^5$ is even. So the left side is even, but $3$ is odd. Hence there are $0$ integer solutions."
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Find the values of $A$, $B$ and $C$ such that\n$$\\frac{3x^2-6x+13}{(x-5)(x^2+4)}=\\frac{A}{x-5}+\\frac{Bx+C}{x^2+4}.$$",
+   "answer": "$3x^2-6x+13=A(x^2+4)+(Bx+C)(x-5)$.\n\n$x=5$: $58=29A\\Rightarrow A=2$.\n\n$x=0$: $13=4A-5C=8-5C\\Rightarrow C=-1$.\n\nCoefficient of $x^2$: $A+B=3\\Rightarrow B=1$.\n\nSo $A=2,\\ B=1,\\ C=-1$."
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.8"
+   ],
+   "question": "Given that $\\dfrac{3x^2-6x+13}{(x-5)(x^2+4)}=\\dfrac{2}{x-5}+\\dfrac{x-1}{x^2+4}$, find $\\displaystyle\\int\\frac{3x^2-6x+13}{(x-5)(x^2+4)}\\,dx$.",
+   "answer": "$\\int\\left(\\frac2{x-5}+\\frac{x}{x^2+4}-\\frac1{x^2+4}\\right)dx=2\\ln|x-5|+\\frac12\\ln(x^2+4)-\\frac12\\tan^{-1}\\frac x2+c$."
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.8",
+    "12.5.2.4"
+   ],
+   "question": "An object moving in simple harmonic motion has displacement $x$ m and velocity $v$ m s$^{-1}$, and its motion satisfies $v^2=27-18x-9x^2$.\n\nFind the centre of motion and the amplitude.",
+   "answer": "The speed is zero at the extremes: $27-18x-9x^2=0\\Rightarrow x^2+2x-3=0\\Rightarrow(x+3)(x-1)=0$, so $x=-3$ or $x=1$.\n\nCentre of motion: $x=\\frac{-3+1}2=-1$. Amplitude: $\\frac{1-(-3)}2=2$ m."
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.5.2.8"
+   ],
+   "question": "An object moves in simple harmonic motion with $v^2=27-18x-9x^2$ (centre $x=-1$, amplitude $2$ m).\n\nDetermine the period and hence find the distance that the particle will travel in $30\\pi$ seconds.",
+   "answer": "$v^2=-9(x^2+2x-3)=9\\left(4-(x+1)^2\\right)=n^2\\left(A^2-(x-c)^2\\right)$, so $n=3$ and the period is $\\frac{2\\pi}n=\\frac{2\\pi}3$ s.\n\nIn $30\\pi$ s the number of full oscillations is $\\frac{30\\pi}{2\\pi/3}=45$. Each oscillation covers $4A=8$ m, so the distance is $45\\times8=360$ m."
+  },
+  {
+   "ref": "Q12(c)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "An object of mass $5$ kg moves in simple harmonic motion with $v^2=27-18x-9x^2$ (centre $x=-1$, $n=3$, amplitude $2$ m).\n\nFind the maximum force that acts on the object throughout its motion.",
+   "answer": "$\\ddot x=-n^2(x-c)=-9(x+1)$. The force is greatest at the extreme positions, where $|x+1|=2$: $|\\ddot x|=9\\times2=18$ m s$^{-2}$.\n\nMaximum force $=5\\times18=90$ N."
+  },
+  {
+   "ref": "Q12(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "The equation $x^3+bx^2+cx+3b=0$, where $b$ and $c$ are real, has a complex root $b+ic$ (with $c\\neq0$).\n\nUsing the relationship between the roots and the coefficients, show that the equation has a real root of $-3b$.",
+   "answer": "The coefficients are real, so $b-ic$ is also a root. Let the third root be $\\alpha$.\n\nSum of roots $=-b$: $(b-ic)+(b+ic)+\\alpha=-b\\Rightarrow\\alpha=-3b$."
+  },
+  {
+   "ref": "Q12(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "The equation $x^3+bx^2+cx+3b=0$, where $b$ and $c$ are real and $c\\ne0$, has roots $b+ic$, $b-ic$ and $-3b$.\n\nUsing the relationship between the roots and the coefficients, find the possible values of $b$ and $c$.",
+   "answer": "Sum of products of pairs $=c$:\n$-3b(b-ic)-3b(b+ic)+(b-ic)(b+ic)=c\\Rightarrow-6b^2+b^2+c^2=c\\Rightarrow c^2-5b^2=c$ (1).\n\nProduct of roots $=-3b$: $-3b(b^2+c^2)=-3b\\Rightarrow b(b^2+c^2-1)=0$.\n\nCase $b=0$: (1) gives $c^2=c$, so $c=1$ (as $c\\ne0$). \n\nCase $b\\ne0$: $b^2+c^2=1$ (2). Substituting $b^2=1-c^2$ into (1): $c^2-5(1-c^2)=c\\Rightarrow6c^2-c-5=0\\Rightarrow(c-1)(6c+5)=0$, so $c=1$ (then $b=0$, contradicting $b\\neq0$) or $c=-\\frac56$, giving $b^2=1-\\frac{25}{36}=\\frac{11}{36}$, $b=\\pm\\frac{\\sqrt{11}}6$.\n\nSolutions: $(b,c)=(0,1)$ or $\\left(\\pm\\frac{\\sqrt{11}}6,-\\frac56\\right)$.\n\n(The paper's solution divides by $b$ without treating $b=0$ separately; its final answers are the same.)"
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "Prove that the statement 'If $n$ is a multiple of $6$, then $\\left(1-i\\sqrt3\\right)^n$ is real' is true.",
+   "answer": "$1-i\\sqrt3=2\\left(\\cos\\left(-\\frac\\pi3\\right)+i\\sin\\left(-\\frac\\pi3\\right)\\right)$, so by de Moivre's theorem $\\left(1-i\\sqrt3\\right)^n=2^n\\left(\\cos\\left(-\\frac{n\\pi}3\\right)+i\\sin\\left(-\\frac{n\\pi}3\\right)\\right)$.\n\nIf $n=6m$ for an integer $m$, the argument is $-2m\\pi$, so the result is $2^{6m}(\\cos(-2m\\pi)+i\\sin(-2m\\pi))=2^{6m}$, which is real."
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.8",
+    "12.1.1.9"
+   ],
+   "question": "For the statement 'If $n$ is a multiple of $6$, then $\\left(1-i\\sqrt3\\right)^n$ is real', where $n$ is an integer, state the converse and determine if it is true, justifying your answer.",
+   "answer": "Converse: 'If $\\left(1-i\\sqrt3\\right)^n$ is real, then $n$ is a multiple of $6$.'\n\n$\\left(1-i\\sqrt3\\right)^n=2^n\\left(\\cos\\frac{n\\pi}3-i\\sin\\frac{n\\pi}3\\right)$ is real when $\\sin\\frac{n\\pi}3=0$, i.e. whenever $n$ is a multiple of $3$. For example $n=3$: $\\left(1-i\\sqrt3\\right)^3=-8$ is real but $3$ is not a multiple of $6$.\n\nSo the converse is false."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Use integration by parts to find $\\displaystyle\\int e^x\\cos2x\\,dx$.",
+   "answer": "Let $I=\\int e^x\\cos2x\\,dx$. With $u=\\cos2x$, $v'=e^x$:\n\n$I=e^x\\cos2x+2\\int e^x\\sin2x\\,dx$.\n\nAgain by parts with $u=\\sin2x$, $v'=e^x$: $\\int e^x\\sin2x\\,dx=e^x\\sin2x-2\\int e^x\\cos2x\\,dx=e^x\\sin2x-2I$.\n\nSo $I=e^x\\cos2x+2e^x\\sin2x-4I$, giving $5I=e^x\\cos2x+2e^x\\sin2x+c$ and\n\n$I=\\frac15e^x\\left(\\cos2x+2\\sin2x\\right)+C$."
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "The quadrilateral $OABC$ has $OA=BA$ and $OC=BC$. Let $\\overrightarrow{OA}=\\mathbf a$, $\\overrightarrow{OB}=\\mathbf b$ and $\\overrightarrow{OC}=\\mathbf c$.\n\nUse the fact that $|\\mathbf a|=|\\mathbf b-\\mathbf a|$ to show that $\\mathbf b\\cdot\\mathbf b=2\\,\\mathbf a\\cdot\\mathbf b$.",
+   "answer": "$|\\mathbf a|^2=|\\mathbf b-\\mathbf a|^2\\Rightarrow\\mathbf a\\cdot\\mathbf a=(\\mathbf b-\\mathbf a)\\cdot(\\mathbf b-\\mathbf a)=\\mathbf b\\cdot\\mathbf b-2\\mathbf a\\cdot\\mathbf b+\\mathbf a\\cdot\\mathbf a$.\n\nHence $\\mathbf b\\cdot\\mathbf b=2\\,\\mathbf a\\cdot\\mathbf b$.",
+   "images": [
+    "assets/img/ext2-2026-sydney-grammar/q13c.png"
+   ]
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "The quadrilateral $OABC$ has $OA=BA$ and $OC=BC$. Let $\\overrightarrow{OA}=\\mathbf a$, $\\overrightarrow{OB}=\\mathbf b$ and $\\overrightarrow{OC}=\\mathbf c$. It is known that $\\mathbf b\\cdot\\mathbf b=2\\,\\mathbf a\\cdot\\mathbf b$.\n\nUse vector methods to show that $OB\\perp AC$.",
+   "answer": "Similarly, from $OC=BC$, i.e. $|\\mathbf c|=|\\mathbf b-\\mathbf c|$: $\\mathbf b\\cdot\\mathbf b=2\\,\\mathbf b\\cdot\\mathbf c$.\n\n$\\overrightarrow{OB}\\cdot\\overrightarrow{AC}=\\mathbf b\\cdot(\\mathbf c-\\mathbf a)=\\mathbf b\\cdot\\mathbf c-\\mathbf a\\cdot\\mathbf b=\\frac12\\mathbf b\\cdot\\mathbf b-\\frac12\\mathbf b\\cdot\\mathbf b=0.$\n\nHence $OB\\perp AC$.",
+   "images": [
+    "assets/img/ext2-2026-sydney-grammar/q13c.png"
+   ]
+  },
+  {
+   "ref": "Q13(d)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "By considering the expansion of $(\\cos\\theta+i\\sin\\theta)^4$, show that\n$$\\tan4\\theta=\\frac{4\\tan\\theta-4\\tan^3\\theta}{1-6\\tan^2\\theta+\\tan^4\\theta}.$$",
+   "answer": "By the binomial theorem,\n$(\\cos\\theta+i\\sin\\theta)^4=\\cos^4\\theta+4i\\cos^3\\theta\\sin\\theta-6\\cos^2\\theta\\sin^2\\theta-4i\\cos\\theta\\sin^3\\theta+\\sin^4\\theta$.\n\nBy de Moivre's theorem this equals $\\cos4\\theta+i\\sin4\\theta$. Equating real and imaginary parts:\n\n$\\cos4\\theta=\\cos^4\\theta-6\\cos^2\\theta\\sin^2\\theta+\\sin^4\\theta$, $\\sin4\\theta=4\\cos^3\\theta\\sin\\theta-4\\cos\\theta\\sin^3\\theta$.\n\n$\\tan4\\theta=\\dfrac{4\\cos^3\\theta\\sin\\theta-4\\cos\\theta\\sin^3\\theta}{\\cos^4\\theta-6\\cos^2\\theta\\sin^2\\theta+\\sin^4\\theta}$. Dividing numerator and denominator by $\\cos^4\\theta$ gives\n$\\tan4\\theta=\\dfrac{4\\tan\\theta-4\\tan^3\\theta}{1-6\\tan^2\\theta+\\tan^4\\theta}$."
+  },
+  {
+   "ref": "Q13(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Given that $\\tan4\\theta=\\dfrac{4\\tan\\theta-4\\tan^3\\theta}{1-6\\tan^2\\theta+\\tan^4\\theta}$, find the roots of the polynomial $x^4-4x^3-6x^2+4x+1=0$.",
+   "answer": "Put $\\tan4\\theta=-1$: $-1=\\dfrac{4t-4t^3}{1-6t^2+t^4}$ where $t=\\tan\\theta$. Then $-1+6t^2-t^4=4t-4t^3$, so $t^4-4t^3-6t^2+4t+1=0$.\n\nSo the roots of the polynomial are $x=\\tan\\theta$ where $\\tan4\\theta=-1$.\n\n$4\\theta=\\frac{3\\pi}4,\\frac{7\\pi}4,\\frac{11\\pi}4,\\frac{15\\pi}4$, so $\\theta=\\frac{3\\pi}{16},\\frac{7\\pi}{16},\\frac{11\\pi}{16},\\frac{15\\pi}{16}$ (four distinct tangent values).\n\nThe roots are $\\tan\\frac{3\\pi}{16},\\ \\tan\\frac{7\\pi}{16},\\ \\tan\\frac{11\\pi}{16},\\ \\tan\\frac{15\\pi}{16}$."
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.5.5"
+   ],
+   "question": "On a distant planet, an object of mass $m$ kg experiences a resistive force of $mkv^2$ when it moves through the atmosphere, where $v$ is its velocity and $k$ is a positive constant. The magnitude of acceleration due to gravity is $G$ m s$^{-2}$.\n\nWhen falling, the equation of motion is $\\ddot x=-G+kv^2$, and the object has a terminal velocity of $40$ m s$^{-1}$ in the negative direction.\n\nShow that $\\sqrt{\\dfrac Gk}=40$.",
+   "answer": "At terminal velocity $\\ddot x=0$ with $v=-40$: $0=-G+k(-40)^2$, so $\\dfrac Gk=40^2$ and $\\sqrt{\\dfrac Gk}=40$."
+  },
+  {
+   "ref": "Q14(a)(ii)(α)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.5.2"
+   ],
+   "question": "On a distant planet, an object of mass $m$ kg experiences a resistive force of $mkv^2$ (with $k>0$) and gravity has magnitude $G$ m s$^{-2}$, where $\\sqrt{G/k}=40$.\n\nThe object is projected upwards with a velocity of $40$ m s$^{-1}$. When it is moving upwards its equation of motion is $\\ddot x=-G-kv^2$.\n\nShow that $v=40\\tan\\left(\\dfrac\\pi4-40kt\\right)$.",
+   "answer": "$\\dfrac{dv}{dt}=-(G+kv^2)=-k(40^2+v^2)$ (using $G=1600k$).\n\n$\\int\\frac{dv}{40^2+v^2}=-k\\int dt\\Rightarrow\\frac1{40}\\tan^{-1}\\frac v{40}=-kt+c$.\n\nAt $t=0$, $v=40$: $c=\\frac1{40}\\tan^{-1}1=\\frac{\\pi}{160}$.\n\n$\\tan^{-1}\\frac v{40}=\\frac\\pi4-40kt\\Rightarrow v=40\\tan\\left(\\frac\\pi4-40kt\\right)$."
+  },
+  {
+   "ref": "Q14(a)(ii)(β)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.5.6"
+   ],
+   "question": "An object is projected upwards with velocity $40$ m s$^{-1}$ on a planet where $G/k=40^2$, and its velocity while moving upwards is $v=40\\tan\\left(\\dfrac\\pi4-40kt\\right)$.\n\nThe object takes $4$ seconds to reach its maximum height. Calculate the exact value of $G$.",
+   "answer": "At maximum height $v=0$ when $t=4$: $\\tan\\left(\\frac\\pi4-160k\\right)=0$, so $\\frac\\pi4-160k=0$ and $k=\\frac\\pi{640}$.\n\n$G=40^2k=1600\\times\\frac\\pi{640}=\\frac{5\\pi}2$ m s$^{-2}$."
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.5"
+   ],
+   "question": "Write $\\text{cis}\\,\\theta=\\cos\\theta+i\\sin\\theta$. Show that $\\text{cis}\\,\\theta+\\text{cis}(-\\theta)=2\\cos\\theta$.\n\n(The original paper wrote this as $e^{i\\theta}+e^{-i\\theta}=2\\cos\\theta$.)",
+   "answer": "$\\text{cis}\\,\\theta+\\text{cis}(-\\theta)=\\cos\\theta+i\\sin\\theta+\\cos(-\\theta)+i\\sin(-\\theta)=\\cos\\theta+i\\sin\\theta+\\cos\\theta-i\\sin\\theta=2\\cos\\theta$, since cosine is even and sine is odd."
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.2.7",
+    "12.3.2.5"
+   ],
+   "question": "Two complex numbers lie on the unit circle: $z_1=\\cos\\alpha+i\\sin\\alpha$ and $z_2=\\cos\\beta+i\\sin\\beta$, where $0\\le\\alpha\\le\\pi$ and $0\\le\\beta\\le\\pi$. (Write $\\text{cis}\\,\\theta=\\cos\\theta+i\\sin\\theta$.) Given that $\\text{cis}\\,\\theta+\\text{cis}(-\\theta)=2\\cos\\theta$.\n\nThe complex number $z_3$ is defined by $z_3=\\dfrac1{z_1+z_2}$. For certain values of $\\alpha$ and $\\beta$, $z_3$ has modulus $\\dfrac1{\\sqrt3}$.\n\nUsing the fact that $\\text{cis}\\,\\alpha+\\text{cis}\\,\\beta=\\text{cis}\\frac{\\alpha+\\beta}2\\left(\\text{cis}\\frac{\\alpha-\\beta}2+\\text{cis}\\left(-\\frac{\\alpha-\\beta}2\\right)\\right)$, or otherwise, find the possible values of $\\alpha-\\beta$.",
+   "answer": "$|z_3|=\\frac1{\\sqrt3}\\Rightarrow|z_1+z_2|=\\sqrt3$.\n\n$|z_1+z_2|=\\left|\\text{cis}\\frac{\\alpha+\\beta}2\\right|\\left|\\text{cis}\\frac{\\alpha-\\beta}2+\\text{cis}\\left(-\\frac{\\alpha-\\beta}2\\right)\\right|=1\\times\\left|2\\cos\\frac{\\alpha-\\beta}2\\right|$.\n\nSo $\\left|\\cos\\frac{\\alpha-\\beta}2\\right|=\\frac{\\sqrt3}2$. Since $0\\le\\alpha,\\beta\\le\\pi$, $-\\frac\\pi2\\le\\frac{\\alpha-\\beta}2\\le\\frac\\pi2$, so $\\frac{\\alpha-\\beta}2=\\pm\\frac\\pi6$.\n\nHence $\\alpha-\\beta=\\pm\\frac\\pi3$."
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.1"
+   ],
+   "question": "Use mathematical induction to show that $x+1$ is a factor of $x^n+1$ for all odd positive integers $n$.",
+   "answer": "Let $P(n)$: $x^n+1$ is divisible by $x+1$, for odd $n$.\n\nBase case $n=1$: $x+1=1\\cdot(x+1)$, true.\n\nAssume $P(k)$ for some odd $k$: $x^k+1=M(x+1)$ for some polynomial $M$, so $x^k=M(x+1)-1$.\n\nThen $x^{k+2}+1=x^2x^k+1=x^2\\left(M(x+1)-1\\right)+1=Mx^2(x+1)-(x^2-1)=Mx^2(x+1)-(x+1)(x-1)=(x+1)\\left(Mx^2-x+1\\right)$, so $P(k+2)$ is true.\n\nSince $k+2$ is the next odd integer, by induction $x+1$ is a factor of $x^n+1$ for all odd positive integers $n$."
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.12"
+   ],
+   "question": "It is known that for some $n,k,m\\in\\mathbb Z^+$, $n=m\\times2^k$.\n\nUse proof by contraposition to show that if $n$ is not a power of $2$, then $m$ has an odd factor larger than $1$.",
+   "answer": "The contrapositive is: 'If $m$ does not have an odd factor larger than $1$, then $n$ is a power of $2$.'\n\nSuppose $m$ has no odd factor larger than $1$. Then the only prime factor of $m$ is $2$, so $m=2^j$ for some integer $j\\ge0$. Then $n=2^j\\times2^k=2^{j+k}$, which is a power of $2$.\n\nThe contrapositive is proved, so the original statement is true."
+  },
+  {
+   "ref": "Q14(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.1.12",
+    "12.1.2.1"
+   ],
+   "question": "Given (i) that $x+1$ is a factor of $x^n+1$ for all odd positive integers $n$, and (ii) that if $n$ is not a power of $2$ then $n=m\\times2^k$ where $m$ has an odd factor larger than $1$:\n\nDeduce that if $2^n+1$ is prime, then $n$ is a power of $2$.",
+   "answer": "Contrapositive: if $n$ is not a power of $2$, then $2^n+1$ is not prime.\n\nSuppose $n$ is not a power of $2$. By (ii), $n$ has an odd factor $a>1$, so $n=ab$ with $a$ odd, $a>1$ and $b\\ge1$.\n\nThen $2^n+1=(2^b)^a+1$. Putting $x=2^b$ in (i) (as $a$ is odd), $2^b+1$ divides $(2^b)^a+1=2^n+1$.\n\nAlso $2^b+1>1$ and, since $a>1$, $2^b+1<2^{ab}+1=2^n+1$. So $2^n+1$ has a factor strictly between $1$ and itself and is not prime.\n\nBy contraposition, if $2^n+1$ is prime then $n$ is a power of $2$."
+  },
+  {
+   "ref": "Q15(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^1\\left(1-\\sqrt x\\right)^n dx$ for integers $n\\ge0$.\n\nUse integration by parts to show that $I_n=\\dfrac n{n+2}I_{n-1}$ for $n\\ge1$.",
+   "answer": "Take $u=\\left(1-\\sqrt x\\right)^n$, $v'=1$, so $u'=n\\left(1-\\sqrt x\\right)^{n-1}\\cdot\\left(-\\frac1{2\\sqrt x}\\right)$ and $v=x$:\n\n$I_n=\\Big[x\\left(1-\\sqrt x\\right)^n\\Big]_0^1+\\frac n2\\int_0^1\\sqrt x\\left(1-\\sqrt x\\right)^{n-1}dx$.\n\nThe bracket is $0$ (at $x=1$ the factor is $0$; at $x=0$ the factor $x$ is $0$). Write $\\sqrt x=1-\\left(1-\\sqrt x\\right)$:\n\n$I_n=\\frac n2\\int_0^1\\left(1-\\left(1-\\sqrt x\\right)\\right)\\left(1-\\sqrt x\\right)^{n-1}dx=\\frac n2\\left(I_{n-1}-I_n\\right)$.\n\nSo $I_n\\left(1+\\frac n2\\right)=\\frac n2I_{n-1}$, i.e. $I_n=\\dfrac n{n+2}I_{n-1}$."
+  },
+  {
+   "ref": "Q15(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^1\\left(1-\\sqrt x\\right)^n dx$, with $I_n=\\dfrac n{n+2}I_{n-1}$ for $n\\ge1$.\n\nHence show that $I_n=\\dfrac2{(n+1)(n+2)}$.",
+   "answer": "$I_0=\\int_0^11\\,dx=1$. Applying the recurrence repeatedly:\n\n$I_n=\\frac n{n+2}\\cdot\\frac{n-1}{n+1}\\cdot\\frac{n-2}{n}\\cdot\\frac{n-3}{n-1}\\cdots\\frac24\\cdot\\frac13\\cdot I_0$.\n\nAlmost everything cancels, leaving $\\dfrac{2\\times1}{(n+2)(n+1)}$, so $I_n=\\dfrac2{(n+1)(n+2)}$."
+  },
+  {
+   "ref": "Q15(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.7",
+    "12.1.3.6"
+   ],
+   "question": "Given that $I_n=\\dfrac2{(n+1)(n+2)}$, by considering the partial fractions decomposition of $I_n$, or otherwise, deduce that $I_0+I_1+I_2+\\cdots+I_n<2$.",
+   "answer": "$\\dfrac2{(n+1)(n+2)}=\\dfrac2{n+1}-\\dfrac2{n+2}$.\n\nSo $I_0+I_1+\\cdots+I_n=\\left(\\frac21-\\frac22\\right)+\\left(\\frac22-\\frac23\\right)+\\cdots+\\left(\\frac2{n+1}-\\frac2{n+2}\\right)=2-\\frac2{n+2}<2$."
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Given that $p$ and $q$ are constants, use integration by substitution to show that\n$$\\int\\frac{p-x}{\\sqrt{q^2+(p-x)^2}}\\,dx=-\\sqrt{q^2+(p-x)^2}+c,$$\nwhere $c$ is a constant.",
+   "answer": "Let $u=(p-x)^2$, so $du=-2(p-x)\\,dx$.\n\n$\\int\\frac{p-x}{\\sqrt{q^2+(p-x)^2}}dx=-\\frac12\\int\\left(q^2+u\\right)^{-1/2}du=-\\frac12\\cdot2\\left(q^2+u\\right)^{1/2}+c=-\\sqrt{q^2+(p-x)^2}+c$."
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.3",
+    "12.5.1.5"
+   ],
+   "question": "An object of mass $1$ kg is suspended from the ceiling by two cables of equal length, attached to motors at points $A$ and $B$. The motors pull on their cables, creating a tension of $T$ newtons in each cable (constant at all times). The distance between $A$ and $B$ is $2k$ metres and the ceiling is $2k$ metres above the ground.\n\nLet the height of the object above the ground be $x$ metres, the angle between each cable and the ceiling be $\\theta$, and the magnitude of acceleration due to gravity be $10$ m s$^{-2}$.\n\nShow that $\\ddot x=\\dfrac{2T(2k-x)}{\\sqrt{k^2+(2k-x)^2}}-10$.",
+   "answer": "The object is horizontally midway between $A$ and $B$, so the horizontal components of the tensions cancel. The vertical component of each tension is $T\\sin\\theta$ upwards, and weight is $1\\times10=10$ N downwards.\n\nEach cable has horizontal run $k$ and vertical drop $2k-x$, so length $\\sqrt{k^2+(2k-x)^2}$ and $\\sin\\theta=\\dfrac{2k-x}{\\sqrt{k^2+(2k-x)^2}}$.\n\nNewton's second law with $m=1$: $\\ddot x=2T\\sin\\theta-10=\\dfrac{2T(2k-x)}{\\sqrt{k^2+(2k-x)^2}}-10$.",
+   "images": [
+    "assets/img/ext2-2026-sydney-grammar/q15c.png"
+   ]
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.1.1",
+    "12.4.1.6"
+   ],
+   "question": "An object of mass $1$ kg is suspended by two cables from points $A$ and $B$ on a ceiling $2k$ metres above the ground, with $AB=2k$ metres. Its height above the ground is $x$ metres and the tension in each cable is a constant $T$ newtons. Gravity is $10$ m s$^{-2}$. It is known that $\\ddot x=\\dfrac{2T(2k-x)}{\\sqrt{k^2+(2k-x)^2}}-10$.\n\nThe object is initially at rest on the ground. Using the result $\\displaystyle\\int\\frac{p-x}{\\sqrt{q^2+(p-x)^2}}dx=-\\sqrt{q^2+(p-x)^2}+c$, or otherwise, show that\n$$(\\dot x)^2=4T\\left(k\\sqrt5-\\sqrt{k^2+(2k-x)^2}\\right)-20x.$$",
+   "answer": "$\\frac d{dx}\\left(\\frac12v^2\\right)=\\ddot x=\\frac{2T(2k-x)}{\\sqrt{k^2+(2k-x)^2}}-10$.\n\nIntegrating (using the given integral with $p=2k$, $q=k$): $\\frac12v^2=-2T\\sqrt{k^2+(2k-x)^2}-10x+c$, so $v^2=-4T\\sqrt{k^2+(2k-x)^2}-20x+C$.\n\nAt $x=0$, $v=0$: $C=4T\\sqrt{k^2+4k^2}=4Tk\\sqrt5$.\n\nHence $(\\dot x)^2=4T\\left(k\\sqrt5-\\sqrt{k^2+(2k-x)^2}\\right)-20x$.",
+   "images": [
+    "assets/img/ext2-2026-sydney-grammar/q15c.png"
+   ]
+  },
+  {
+   "ref": "Q15(c)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "An object of mass $1$ kg is suspended by two cables from a ceiling $2k$ metres above the ground, each with constant tension $T$ newtons. It starts at rest on the ground and its height $x$ satisfies $(\\dot x)^2=4T\\left(k\\sqrt5-\\sqrt{k^2+(2k-x)^2}\\right)-20x$.\n\nShow that if the object touches the ceiling, the minimum magnitude of the force produced by each motor is $T=5\\varphi$ newtons, where $\\varphi=\\dfrac{1+\\sqrt5}2$.",
+   "answer": "To reach the ceiling ($x=2k$) we need $(\\dot x)^2\\ge0$ there:\n\n$4T\\left(k\\sqrt5-k\\right)-40k\\ge0\\Rightarrow T\\ge\\frac{10}{\\sqrt5-1}=\\frac{10(\\sqrt5+1)}{4}=5\\cdot\\frac{1+\\sqrt5}2=5\\varphi$.\n\nSo the minimum tension is $T=5\\varphi$ N.",
+   "images": [
+    "assets/img/ext2-2026-sydney-grammar/q15c.png"
+   ]
+  },
+  {
+   "ref": "Q15(c)(iv)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "An object of mass $1$ kg is suspended by two cables from a ceiling $2k$ metres above the ground, each with constant tension $T$ newtons, where $\\ddot x=\\dfrac{2T(2k-x)}{\\sqrt{k^2+(2k-x)^2}}-10$ and $x$ is the height above the ground. When $T=5\\varphi$ (with $\\varphi=\\frac{1+\\sqrt5}2$) the object just touches the ceiling.\n\nThe maximum velocity of the object is reached when it has travelled a fraction $P$ of the distance between the floor and the ceiling. Given that $\\varphi^2-1=\\varphi$, show that $P=\\dfrac{2\\sqrt\\varphi-1}{2\\sqrt\\varphi}$.",
+   "answer": "Maximum velocity occurs when $\\ddot x=0$. With $T=5\\varphi$: $\\dfrac{10\\varphi(2k-x)}{\\sqrt{k^2+(2k-x)^2}}=10$, so $\\varphi(2k-x)=\\sqrt{k^2+(2k-x)^2}$.\n\nSquare: $\\varphi^2(2k-x)^2=k^2+(2k-x)^2\\Rightarrow(2k-x)^2(\\varphi^2-1)=k^2\\Rightarrow(2k-x)^2=\\dfrac{k^2}{\\varphi}$ (using $\\varphi^2-1=\\varphi$).\n\nSince $0\\le x\\le2k$: $2k-x=\\dfrac k{\\sqrt\\varphi}$, so $x=2k-\\dfrac k{\\sqrt\\varphi}=\\dfrac{k(2\\sqrt\\varphi-1)}{\\sqrt\\varphi}$.\n\nThe fraction of the distance $2k$ travelled is $P=\\dfrac xk\\cdot\\dfrac{1}{2}=\\dfrac{2\\sqrt\\varphi-1}{2\\sqrt\\varphi}$.",
+   "images": [
+    "assets/img/ext2-2026-sydney-grammar/q15c.png"
+   ]
+  },
+  {
+   "ref": "Q16(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Let $f(x)$ be a function that is differentiable on the domain $x\\in\\left[\\frac12,1\\right]$.\n\nUse integration by parts to show that\n$$\\int_{\\pi/6}^{\\pi/2}f(\\sin x)\\,dx=\\frac\\pi6\\left(3f(1)-f\\left(\\tfrac12\\right)\\right)-\\int_{\\pi/6}^{\\pi/2}x\\cos x\\,f'(\\sin x)\\,dx.$$",
+   "answer": "Take $u=f(\\sin x)$, $v'=1$, so $u'=\\cos x\\,f'(\\sin x)$, $v=x$:\n\n$\\int_{\\pi/6}^{\\pi/2}f(\\sin x)dx=\\Big[xf(\\sin x)\\Big]_{\\pi/6}^{\\pi/2}-\\int_{\\pi/6}^{\\pi/2}x\\cos x\\,f'(\\sin x)dx$\n\n$=\\frac\\pi2f(1)-\\frac\\pi6f\\left(\\frac12\\right)-\\int\\cdots=\\frac\\pi6\\left(3f(1)-f\\left(\\tfrac12\\right)\\right)-\\int_{\\pi/6}^{\\pi/2}x\\cos x\\,f'(\\sin x)dx$."
+  },
+  {
+   "ref": "Q16(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.4.1.15"
+   ],
+   "question": "Given that, for $f$ differentiable on $\\left[\\frac12,1\\right]$,\n$$\\int_{\\pi/6}^{\\pi/2}f(\\sin x)\\,dx=\\frac\\pi6\\left(3f(1)-f\\left(\\tfrac12\\right)\\right)-\\int_{\\pi/6}^{\\pi/2}x\\cos x\\,f'(\\sin x)\\,dx,$$\nhence find $\\displaystyle\\int_{\\pi/6}^{\\pi/2}\\frac{2\\sin x+x\\cos x}{\\sqrt{\\sin x}}\\,dx$.",
+   "answer": "Rearrange: $\\int_{\\pi/6}^{\\pi/2}\\left(f(\\sin x)+x\\cos x\\,f'(\\sin x)\\right)dx=\\frac\\pi6\\left(3f(1)-f\\left(\\frac12\\right)\\right)$.\n\nChoose $f(x)=2\\sqrt x$, so $f'(x)=\\frac1{\\sqrt x}$. Then $f(\\sin x)+x\\cos x\\,f'(\\sin x)=2\\sqrt{\\sin x}+\\frac{x\\cos x}{\\sqrt{\\sin x}}=\\frac{2\\sin x+x\\cos x}{\\sqrt{\\sin x}}$.\n\nSo the integral is $\\frac\\pi6\\left(3\\cdot2-2\\sqrt{\\tfrac12}\\right)=\\frac\\pi6\\left(6-\\sqrt2\\right)$.\n\n(The handwritten solution in the paper shows a minus sign in the integrand at one step; the integrand as printed in the question has a plus sign and the working above uses it. The final answer is the same.)"
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.5"
+   ],
+   "question": "The AM–GM inequality states that for positive numbers $x_1,x_2,\\dots,x_n$, $\\dfrac{x_1+x_2+\\cdots+x_n}n\\ge\\sqrt[n]{x_1x_2\\cdots x_n}$. (Do not prove this.)\n\nShow that if $a_1,a_2,\\dots,a_n$ are positive numbers and $k_1,k_2,\\dots,k_n$ are positive integers, then\n$$\\frac{a_1k_1+a_2k_2+\\cdots+a_nk_n}{k_1+k_2+\\cdots+k_n}\\ge\\left(a_1^{k_1}a_2^{k_2}\\cdots a_n^{k_n}\\right)^{\\frac1{k_1+k_2+\\cdots+k_n}}.$$",
+   "answer": "Apply AM–GM to the $K=k_1+k_2+\\cdots+k_n$ numbers consisting of $a_1$ repeated $k_1$ times, $a_2$ repeated $k_2$ times, …, $a_n$ repeated $k_n$ times:\n\n$\\dfrac{k_1a_1+k_2a_2+\\cdots+k_na_n}{K}\\ge\\left(a_1^{k_1}a_2^{k_2}\\cdots a_n^{k_n}\\right)^{1/K}$."
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.1.3.5"
+   ],
+   "question": "For positive numbers $a_1,\\dots,a_n$ and positive numbers $k_1,\\dots,k_n$ (not necessarily integers) it is given that\n$$\\frac{a_1k_1+\\cdots+a_nk_n}{k_1+\\cdots+k_n}\\ge\\left(a_1^{k_1}\\cdots a_n^{k_n}\\right)^{\\frac1{k_1+\\cdots+k_n}}.$$\nShow that if $a,b,c>0$ and $a+b+c=1$, then $a^ab^bc^c+a^bb^cc^a+a^cb^ac^b\\le1$.",
+   "answer": "Use the inequality with $(a_1,a_2,a_3)$ and weights $(k_1,k_2,k_3)$; here $k_1+k_2+k_3=a+b+c=1$.\n\n1. $a_i=(a,b,c)$, $k_i=(a,b,c)$: $a^2+b^2+c^2\\ge a^ab^bc^c$.\n2. $a_i=(a,b,c)$, $k_i=(b,c,a)$: $ab+bc+ca\\ge a^bb^cc^a$.\n3. $a_i=(a,b,c)$, $k_i=(c,a,b)$: $ac+ba+cb\\ge a^cb^ac^b$.\n\nAdding: $a^ab^bc^c+a^bb^cc^a+a^cb^ac^b\\le a^2+b^2+c^2+2(ab+bc+ca)=(a+b+c)^2=1$."
+  },
+  {
+   "ref": "Q16(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.12"
+   ],
+   "question": "The paraboloid $x^2+y^2=kz$ ($k>0$) is shown. The curve $\\mathbf r_1$ (dashed) spirals anticlockwise (viewed from above) and $\\mathbf r_2$ (dotted) spirals clockwise. Point $P$ on $\\mathbf r_1$ and point $Q$ on $\\mathbf r_2$ are parametrised by $P\\left(p\\cos p,\\ p\\sin p,\\ \\tfrac1kp^2\\right)$ and $Q\\left(q\\cos q,\\ -q\\sin q,\\ \\tfrac1kq^2\\right)$, where $p,q\\ge0$.\n\nThe point $R_n$ is the $n$th point of intersection of the curves $\\mathbf r_1$ and $\\mathbf r_2$ above the $xy$-plane.\n\nFind, in terms of $n$, the value of the parameter $p$ that corresponds to the point $R_n$.",
+   "answer": "At an intersection, $P=Q$. Equal $z$-coordinates give $p=q$ (both non-negative). The $x$-coordinates then agree automatically. The $y$-coordinates require $p\\sin p=-p\\sin p$, so $p\\sin p=0$. Above the $xy$-plane, $p>0$, so $\\sin p=0$ and $p=\\pi,2\\pi,3\\pi,\\dots$\n\nHence $R_n$ corresponds to $p=n\\pi$.",
+   "images": [
+    "assets/img/ext2-2026-sydney-grammar/q16c.png"
+   ]
+  },
+  {
+   "ref": "Q16(c)(ii)(α)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.1.12",
+    "12.2.2.5"
+   ],
+   "question": "The paraboloid $x^2+y^2=kz$ ($k>0$) contains the spiral curves $\\mathbf r_1$: $\\left(p\\cos p,\\ p\\sin p,\\ \\tfrac1kp^2\\right)$ and $\\mathbf r_2$: $\\left(q\\cos q,\\ -q\\sin q,\\ \\tfrac1kq^2\\right)$ with $p,q\\ge0$. They intersect above the $xy$-plane at points $R_n$ ($n=1,2,3,\\dots$) with parameter $p=q=n\\pi$.\n\nFor all integers $n\\ge1$, $\\overrightarrow{R_nR_{n+1}}\\perp\\overrightarrow{R_{n+1}R_{n+2}}$. Find the exact value of $k$.",
+   "answer": "$R_n=\\left(n\\pi\\cos n\\pi,\\ 0,\\ \\frac{\\pi^2n^2}k\\right)$ and $R_{n+1}=\\left(-(n+1)\\pi\\cos n\\pi,\\ 0,\\ \\frac{\\pi^2(n+1)^2}k\\right)$ (since $\\cos(n+1)\\pi=-\\cos n\\pi$).\n\n$\\overrightarrow{R_nR_{n+1}}=\\begin{pmatrix}-(2n+1)\\pi\\cos n\\pi\\\\0\\\\ \\frac{\\pi^2}k(2n+1)\\end{pmatrix}$, and replacing $n$ by $n+1$:\n\n$\\overrightarrow{R_{n+1}R_{n+2}}=\\begin{pmatrix}(2n+3)\\pi\\cos n\\pi\\\\0\\\\ \\frac{\\pi^2}k(2n+3)\\end{pmatrix}$.\n\nDot product $=0$: $-(2n+1)(2n+3)\\pi^2\\cos^2n\\pi+\\dfrac{\\pi^4}{k^2}(2n+1)(2n+3)=0$.\n\nWith $\\cos^2n\\pi=1$ and dividing by $(2n+1)(2n+3)\\pi^2$: $\\dfrac{\\pi^2}{k^2}=1$, so $k=\\pi$ (as $k>0$).",
+   "images": [
+    "assets/img/ext2-2026-sydney-grammar/q16c.png"
+   ]
+  },
+  {
+   "ref": "Q16(c)(ii)(β)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.2.1.12",
+    "12.2.2.5"
+   ],
+   "question": "The paraboloid $x^2+y^2=\\pi z$ contains the spiral curves $\\mathbf r_1$: $\\left(p\\cos p,\\ p\\sin p,\\ \\tfrac1\\pi p^2\\right)$ and $\\mathbf r_2$: $\\left(q\\cos q,\\ -q\\sin q,\\ \\tfrac1\\pi q^2\\right)$, which intersect above the $xy$-plane at the points $R_n$ ($n\\ge1$), with parameter $p=q=n\\pi$. The tangent to $\\mathbf r_1$ at $P$ has direction $\\begin{pmatrix}-p\\sin p+\\cos p\\\\p\\cos p+\\sin p\\\\ \\frac2\\pi p\\end{pmatrix}$ and the tangent to $\\mathbf r_2$ at $Q$ has direction $\\begin{pmatrix}-q\\sin q+\\cos q\\\\-q\\cos q-\\sin q\\\\ \\frac2\\pi q\\end{pmatrix}$.\n\nLet $\\theta_n$ be the obtuse angle between the two tangents at $R_n$. Find $\\displaystyle\\lim_{n\\to\\infty}\\tan\\left(\\frac{\\theta_n}2\\right)$.",
+   "answer": "At $R_n$ ($p=q=n\\pi$, $\\sin n\\pi=0$, $\\cos n\\pi=\\pm1$):\n\n$\\mathbf d_1=\\begin{pmatrix}\\cos n\\pi\\\\ n\\pi\\cos n\\pi\\\\2n\\end{pmatrix}$, $\\mathbf d_2=\\begin{pmatrix}\\cos n\\pi\\\\ -n\\pi\\cos n\\pi\\\\2n\\end{pmatrix}$.\n\n$\\mathbf d_1\\cdot\\mathbf d_2=\\cos^2n\\pi-n^2\\pi^2\\cos^2n\\pi+4n^2=1-n^2\\pi^2+4n^2$, and $|\\mathbf d_1|^2=|\\mathbf d_2|^2=1+n^2\\pi^2+4n^2$.\n\n$\\cos\\theta_n=\\dfrac{1+4n^2-n^2\\pi^2}{1+4n^2+n^2\\pi^2}$ (negative for large $n$ since $\\pi^2>4$, so this is the obtuse angle).\n\n$\\tan^2\\frac{\\theta_n}2=\\dfrac{1-\\cos\\theta_n}{1+\\cos\\theta_n}=\\dfrac{2n^2\\pi^2}{2(1+4n^2)}=\\dfrac{n^2\\pi^2}{1+4n^2}$.\n\nAs $\\theta_n$ is obtuse, $\\frac{\\theta_n}2$ is acute, so $\\tan\\frac{\\theta_n}2=\\dfrac{n\\pi}{\\sqrt{1+4n^2}}=\\dfrac\\pi{\\sqrt{\\frac1{n^2}+4}}\\to\\dfrac\\pi{\\sqrt4}=\\dfrac\\pi2$.\n\n$\\displaystyle\\lim_{n\\to\\infty}\\tan\\frac{\\theta_n}2=\\frac\\pi2$.",
+   "images": [
+    "assets/img/ext2-2026-sydney-grammar/q16c.png"
+   ]
+  }
+ ]
+}
