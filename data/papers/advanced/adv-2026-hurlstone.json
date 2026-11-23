@@ -1,0 +1,701 @@
+{
+ "id": "adv-2026-hurlstone",
+ "course": "advanced",
+ "school": "Hurlstone",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5328",
+  "title": "Hurlstone 2026 w. sol"
+ },
+ "indexed": "2026-11-24",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q36(a)",
+   "reason": "Not in 2024 syllabus: bivariate data (correlation coefficient)"
+  },
+  {
+   "ref": "Q36(b)",
+   "reason": "Not in 2024 syllabus: bivariate data (least squares regression line)"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.1",
+    "11.6.1.2"
+   ],
+   "question": "The graph of $y=x^2+4x+7$ is reflected about the $y$-axis, followed by a translation of 2 units to the right. Which of the following is the equation of the new graph?",
+   "answer": "Reflecting in the $y$-axis replaces $x$ with $-x$: $f(-x)$. Translating 2 units right replaces $x$ with $x-2$: $f(-(x-2))=f(-x+2)$. So $y=(-x+2)^2+4(-x+2)+7$ (B).",
+   "options": [
+    "$y=(-x-2)^2+4(-x-2)+7$",
+    "$y=(-x+2)^2+4(-x+2)+7$",
+    "$-y=(x+2)^2+4(x+2)+7$",
+    "$-y=(x-2)^2+4(x-2)+7$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.1"
+   ],
+   "question": "If $x^2$, $4x+3$, $25$ are in a geometric sequence, what is the value of $x$?",
+   "answer": "$\\dfrac{4x+3}{x^2}=\\dfrac{25}{4x+3}$, so $(4x+3)^2=25x^2$ and $4x+3=\\pm5x$. $4x+3=5x$ gives $x=3$; $4x+3=-5x$ gives $x=-\\dfrac13$ (D).",
+   "options": [
+    "$-\\dfrac13$",
+    "$-3$",
+    "$\\dfrac13$ or $-3$",
+    "$-\\dfrac13$ or $3$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.7"
+   ],
+   "question": "The circle below has centre $O$, radius $\\dfrac{3}{\\pi}$ cm and arc length $MN=1$ cm. What is the exact area of the sector $MON$?",
+   "answer": "$l=r\\theta$: $1=\\dfrac3\\pi\\theta$, so $\\theta=\\dfrac\\pi3$. $A=\\dfrac12r^2\\theta=\\dfrac12\\times\\dfrac{9}{\\pi^2}\\times\\dfrac\\pi3=\\dfrac{3}{2\\pi}\\ \\text{cm}^2$ (A).",
+   "options": [
+    "$\\dfrac{3}{2\\pi}\\ \\text{cm}^2$",
+    "$\\dfrac{\\pi}{3}\\ \\text{cm}^2$",
+    "$\\dfrac{9}{2\\pi^2}\\ \\text{cm}^2$",
+    "$\\dfrac{3}{\\pi}\\ \\text{cm}^2$"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/adv-2026-hurlstone/q3.png"
+   ]
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "The figure shows an accurate graph of $y=A+B\\sin(Cx)$, where $x$ is measured in degrees and $A$, $B$ and $C$ are constants (the graph oscillates between $-1$ and $3$, with a period of $120^\\circ$ over $0\\le x\\le360^\\circ$). Which of the following are the correct values of $A$, $B$ and $C$?",
+   "answer": "The graph lies between $-1$ and $3$, so the centre line is $y=1$ ($A=1$) and the amplitude is 2 ($B=2$). The period is $120^\\circ$ (three cycles in $360^\\circ$): $\\dfrac{360}{C}=120$, so $C=3$ (B).",
+   "options": [
+    "$A=2$, $B=1$ and $C=3$",
+    "$A=1$, $B=2$ and $C=3$",
+    "$A=1$, $B=3$ and $C=2$",
+    "$A=3$, $B=2$ and $C=1$"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/adv-2026-hurlstone/q4.png"
+   ]
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.6",
+    "12.5.1.4"
+   ],
+   "question": "At point $A$ (on a decreasing part of the curve, just before a point of inflection, where the graph is bending downwards), which of the following is true?",
+   "answer": "At $A$ the graph is decreasing, so $f'(x)<0$, and it is concave down (bending downwards as it approaches the point of inflection), so $f''(x)<0$ (D).",
+   "options": [
+    "$f'(x)>0$ and $f''(x)>0$",
+    "$f'(x)<0$ and $f''(x)>0$",
+    "$f'(x)>0$ and $f''(x)<0$",
+    "$f'(x)<0$ and $f''(x)<0$"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/adv-2026-hurlstone/q5.png"
+   ]
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.1",
+    "12.3.2.3"
+   ],
+   "question": "What is the derivative of $e^x\\ln(\\cos x)$?",
+   "answer": "Product rule: $y'=e^x\\ln(\\cos x)+e^x\\cdot\\dfrac{-\\sin x}{\\cos x}=e^x(\\ln(\\cos x)-\\tan x)$ (A).",
+   "options": [
+    "$e^x(\\ln(\\cos x)-\\tan x)$",
+    "$e^x(\\ln(\\cos x)+\\tan x)$",
+    "$e^x(\\ln(\\cos x)-\\cot x)$",
+    "$e^x(\\ln(\\cos x)+\\cot x)$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.8.11"
+   ],
+   "question": "The points $(4,-6)$, $(7,4)$, $(10,7)$, $(13,2)$ lie on the continuous curve $y=f(x)$. Using the Trapezoidal Rule with 4 function values, which of the following is an estimate for $\\displaystyle\\int_4^{13}f(x)\\,dx$?",
+   "answer": "With 4 function values there are 3 strips of width $h=3$: $\\displaystyle\\int_4^{13}f(x)\\,dx\\approx\\dfrac{3}{2}\\big[f(4)+f(13)+2(f(7)+f(10))\\big]=\\dfrac32\\big[-6+2+2(4+7)\\big]=\\dfrac32(18)=27$ (C).",
+   "options": [
+    "11.8125",
+    "15.75",
+    "27",
+    "36"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/adv-2026-hurlstone/q7.png"
+   ]
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.10"
+   ],
+   "question": "The graph of an even function, $f(x)$, and an odd function, $g(x)$, are shown. Let $A$, $B$ and $C$ represent the shaded areas as shown. Which of the following expressions equals $\\displaystyle\\int_0^4 g(x)\\,dx$?",
+   "answer": "Since $g$ is odd, its graph for $0\\le x\\le4$ is the reflection through the origin of its graph for $-4\\le x\\le0$. Shaded areas $A$, $B$ and $C$ then correspond to regions lying entirely below the $x$-axis between $x=0$ and $x=4$, so the integral is negative: $-(A+B+C)$ (B).",
+   "options": [
+    "$A+B+C$",
+    "$-A-B-C$",
+    "$-A+B-C$",
+    "$A-B+C$"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/adv-2026-hurlstone/q8.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.13",
+    "12.6.3.10"
+   ],
+   "question": "A set of data is normally distributed with a mean of 48 and a standard deviation of 3. Approximately what percentage of the scores lie between 39 and 45?",
+   "answer": "$z=\\dfrac{39-48}{3}=-3$ and $z=\\dfrac{45-48}{3}=-1$. $P(-3<Z<-1)=P(Z<-1)-P(Z<-3)\\approx0.1587-0.00135=0.1573$, about 15.7%, closest to 15.85% (A). (By the empirical rule: $\\dfrac{99.7-68}{2}=15.85\\%$.)",
+   "options": [
+    "15.85%",
+    "31.7%",
+    "47.5%",
+    "49.85%"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.6",
+    "12.6.1.9"
+   ],
+   "question": "A probability function is given by $P(X=x)=\\dfrac{x+2}{14}$ for $x=0,1,2,3$. What is the variance of $P(x)$?",
+   "answer": "$P=\\dfrac2{14},\\dfrac3{14},\\dfrac4{14},\\dfrac5{14}$. $E(X)=\\dfrac{0+3+8+15}{14}=\\dfrac{13}{7}$; $E(X^2)=\\dfrac{0+3+16+45}{14}=\\dfrac{32}7$. $\\text{Var}(X)=\\dfrac{32}{7}-\\left(\\dfrac{13}{7}\\right)^2=\\dfrac{55}{49}\\approx1.12$ (A).",
+   "options": [
+    "1.12",
+    "1.06",
+    "1.86",
+    "3.45"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q11",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.1.1"
+   ],
+   "question": "Given that $\\dfrac{4x^3+x^{\\frac52}}{\\sqrt x}$ can be written in the form $4x^a+x^b$, find the value of $a$ and $b$.",
+   "answer": "$\\dfrac{4x^3+x^{5/2}}{x^{1/2}}=4x^{3-\\frac12}+x^{\\frac52-\\frac12}=4x^{\\frac52}+x^2$. So $a=\\dfrac52$ and $b=2$."
+  },
+  {
+   "ref": "Q12",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.2.9"
+   ],
+   "question": "Given that $\\log_bx=2.6$ and $\\log_by=4.2$, find the value of $\\log_b\\left(x^2\\sqrt y\\right)$.",
+   "answer": "$\\log_b(x^2\\sqrt y)=2\\log_bx+\\dfrac12\\log_by=2(2.6)+\\dfrac12(4.2)=5.2+2.1=7.3$."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.1.7"
+   ],
+   "question": "Given $g(x)=2x^2+(k+4)x+k$, where $k$ is a real constant, find the discriminant, in simplest form, of $g(x)$ in terms of $k$.",
+   "answer": "$a=2$, $b=k+4$, $c=k$: $\\Delta=b^2-4ac=(k+4)^2-8k=k^2+8k+16-8k=k^2+16$."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "The discriminant of $g(x)=2x^2+(k+4)x+k$ is $\\Delta=k^2+16$, where $k$ is a real constant. Explain why $g(x)$ has two distinct real roots for all values of $k$.",
+   "answer": "Two distinct real roots require $\\Delta>0$. Since $k^2\\ge0$ for all real $k$, $k^2+16\\ge16>0$. So $\\Delta>0$ for all $k$, and $g(x)$ has two distinct real roots."
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.6"
+   ],
+   "question": "A company has a structured salary scheme. Mahrukh's salary is reviewed every year. In year 1, Mahrukh earns \\$28,000. In each of years 2, 3, …, 8 she receives a raise of \\$1,500 per year. After year 8 the annual raise increases to \\$2,500 per year, and she finishes on a salary of \\$58,500 at the end of the scheme. What is Mahrukh's salary in year 8?",
+   "answer": "This is an arithmetic sequence with $a=28000$, $d=1500$: $T_8=28000+7(1500)=\\$38\\,500$."
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.6",
+    "12.2.2.5"
+   ],
+   "question": "A company has a structured salary scheme. In year 1, Mahrukh earns \\$28,000. In each of years 2, 3, …, 8 she receives a raise of \\$1,500 per year (so her year 8 salary is \\$38,500). After year 8 the annual raise increases to \\$2,500 per year, and she finishes on a salary of \\$58,500 at the end of the scheme. What is the total amount earned by Mahrukh over the entire scheme?",
+   "answer": "First 8 years: $S_8=\\dfrac82(28000+38500)=\\$266\\,000$.\n\nAfter year 8 the salary in year 9 is $38500+2500=\\$41\\,000$. $58500=41000+(n-1)2500$, so $n-1=7$ and $n=8$ further years. $S_8=\\dfrac82(41000+58500)=\\$398\\,000$.\n\nTotal $=266\\,000+398\\,000=\\$664\\,000$."
+  },
+  {
+   "ref": "Q15",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.8",
+    "12.2.3.5"
+   ],
+   "question": "Jayden is doing a sponsored cycle. He plans to cycle 1000 km over a number of days. He plans to cycle 10 km on day 1 and increase the distance by 10% a day. How long will it take Jayden to complete the challenge?",
+   "answer": "A geometric series with $a=10$, $r=1.1$: $S_n=\\dfrac{10(1.1^n-1)}{0.1}=100(1.1^n-1)\\ge1000$. $1.1^n\\ge11$, so $n\\ge\\dfrac{\\log11}{\\log1.1}=25.16$. It will take Jayden 26 days."
+  },
+  {
+   "ref": "Q16",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.2.4"
+   ],
+   "question": "In an arithmetic series, the 1st term is $-12$, the 17th term is 12 and the last term is 45. Find the sum of all the terms in the series.",
+   "answer": "$a+16d=12$: $-12+16d=12$, so $d=1.5$. Last term: $-12+(n-1)(1.5)=45$, so $n-1=38$ and $n=39$. $S_{39}=\\dfrac{39}{2}(-12+45)=643.5$."
+  },
+  {
+   "ref": "Q17(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "In $\\triangle ABC$, $AB=5$ cm, $BC=8$ cm and $AC=7$ cm. Show that $\\cos A=\\dfrac17$.",
+   "answer": "Cosine rule: $\\cos A=\\dfrac{AB^2+AC^2-BC^2}{2(AB)(AC)}=\\dfrac{25+49-64}{2\\times5\\times7}=\\dfrac{10}{70}=\\dfrac17$.",
+   "images": [
+    "assets/img/adv-2026-hurlstone/q17.png"
+   ]
+  },
+  {
+   "ref": "Q17(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.10",
+    "11.3.1.11"
+   ],
+   "question": "In $\\triangle ABC$, $AB=5$ cm, $AC=7$ cm, $BC=8$ cm and $\\cos A=\\dfrac17$. By finding the exact value of $\\sin A$, determine the exact value of the area of $\\triangle ABC$.",
+   "answer": "$\\sin^2A=1-\\dfrac1{49}=\\dfrac{48}{49}$, so $\\sin A=\\dfrac{\\sqrt{48}}{7}=\\dfrac{4\\sqrt3}{7}$ (as $A$ is acute). Area $=\\dfrac12(5)(7)\\sin A=\\dfrac{35}{2}\\times\\dfrac{4\\sqrt3}{7}=10\\sqrt3\\ \\text{cm}^2$.",
+   "images": [
+    "assets/img/adv-2026-hurlstone/q17.png"
+   ]
+  },
+  {
+   "ref": "Q18",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.13",
+    "11.3.1.10"
+   ],
+   "question": "Solve $2\\cos^2x+3\\cos x+1=0$ for $0\\le x\\le2\\pi$.",
+   "answer": "Let $u=\\cos x$: $2u^2+3u+1=(2u+1)(u+1)=0$, so $\\cos x=-\\dfrac12$ or $\\cos x=-1$. $\\cos x=-\\dfrac12$: $x=\\pi-\\dfrac\\pi3=\\dfrac{2\\pi}3$ or $x=\\pi+\\dfrac\\pi3=\\dfrac{4\\pi}3$. $\\cos x=-1$: $x=\\pi$. So $x=\\dfrac{2\\pi}3,\\ \\pi,\\ \\dfrac{4\\pi}3$."
+  },
+  {
+   "ref": "Q19",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.12"
+   ],
+   "question": "Show that $\\dfrac{\\cos^2\\theta-\\sin^2\\theta}{\\cos^2\\theta+\\sin\\theta\\cos\\theta}=1-\\tan\\theta$.",
+   "answer": "LHS $=\\dfrac{(\\cos\\theta-\\sin\\theta)(\\cos\\theta+\\sin\\theta)}{\\cos\\theta(\\cos\\theta+\\sin\\theta)}=\\dfrac{\\cos\\theta-\\sin\\theta}{\\cos\\theta}=1-\\tan\\theta=$ RHS."
+  },
+  {
+   "ref": "Q20(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.1.2"
+   ],
+   "question": "The depth $d$ metres of a diver relative to the water surface is modelled by $d(t)=\\cos\\left(2t+\\dfrac\\pi3\\right)-1$, where $t$ is measured in seconds. Sketch the graph of $d(t)$ for $0\\le t\\le2\\pi$, labelling the coordinates of all intercepts.",
+   "answer": "The graph is a cosine curve with amplitude 1, centre line $d=-1$, period $\\pi$ (two cycles in $0\\le t\\le2\\pi$), shifted left by $\\dfrac\\pi6$. Vertical intercept: $d(0)=\\cos\\dfrac\\pi3-1=-\\dfrac12$, so $\\left(0,-\\dfrac12\\right)$. The graph touches the $t$-axis ($d=0$, where $\\cos(2t+\\frac\\pi3)=1$) at $\\left(\\dfrac{5\\pi}6,0\\right)$ and $\\left(\\dfrac{11\\pi}6,0\\right)$. Minimum points $(-2)$ at $t=\\dfrac\\pi3$ and $\\dfrac{4\\pi}3$; the endpoint is $\\left(2\\pi,-\\dfrac12\\right)$ (see graph).",
+   "answer_images": [
+    "assets/img/adv-2026-hurlstone/a20.png"
+   ]
+  },
+  {
+   "ref": "Q20(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "The depth $d$ metres of a diver relative to the water surface is modelled by $d(t)=\\cos\\left(2t+\\dfrac\\pi3\\right)-1$. Find the greatest and least values of $d$.",
+   "answer": "Since $-1\\le\\cos\\left(2t+\\frac\\pi3\\right)\\le1$, $-2\\le d\\le0$. The greatest value of $d$ is 0 and the least value is $-2$."
+  },
+  {
+   "ref": "Q21",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.2.9",
+    "11.4.2.8"
+   ],
+   "question": "Differentiate $f(x)=x^2+3x$ using first principles.",
+   "answer": "$f(x+h)=(x+h)^2+3(x+h)=x^2+2xh+h^2+3x+3h$. $f'(x)=\\displaystyle\\lim_{h\\to0}\\dfrac{f(x+h)-f(x)}{h}=\\lim_{h\\to0}\\dfrac{2xh+h^2+3h}{h}=\\lim_{h\\to0}(2x+h+3)=2x+3$."
+  },
+  {
+   "ref": "Q22(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.4",
+    "12.5.1.7",
+    "12.5.1.8"
+   ],
+   "question": "A function is given by $y=-x^3+9x^2-24x+16$. Find any stationary points, determine their nature and find any point(s) of inflection.",
+   "answer": "$y'=-3x^2+18x-24=-3(x-2)(x-4)$. Stationary points at $x=2$ and $x=4$: $y(2)=-8+36-48+16=-4$ and $y(4)=-64+144-96+16=0$, so $(2,-4)$ and $(4,0)$. $y''=-6x+18$.\n\nAt $x=2$: $y''=6>0$, concave up, so $(2,-4)$ is a local minimum. At $x=4$: $y''=-6<0$, concave down, so $(4,0)$ is a local maximum.\n\nInflection: $y''=0$ at $x=3$; $y''=6>0$ at $x=2$ and $y''=-6<0$ at $x=4$, so the concavity changes. $y(3)=-27+81-72+16=-2$, so $(3,-2)$ is a point of inflection."
+  },
+  {
+   "ref": "Q22(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.9"
+   ],
+   "question": "A function is given by $y=-x^3+9x^2-24x+16$, with a local minimum at $(2,-4)$, a local maximum at $(4,0)$ and a point of inflection at $(3,-2)$. Sketch the curve, labelling these points and the $y$-intercept.",
+   "answer": "The $y$-intercept is $(0,16)$. The curve comes from the top left (a negative cubic), decreases to the local minimum $(2,-4)$ (passing through $(1,0)$, as $y=-(x-1)(x-4)^2$), rises through the inflection $(3,-2)$ to the local maximum $(4,0)$, which touches the $x$-axis, then decreases (see graph).",
+   "answer_images": [
+    "assets/img/adv-2026-hurlstone/a22.png"
+   ]
+  },
+  {
+   "ref": "Q23",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.2",
+    "12.3.2.3"
+   ],
+   "question": "A curve has the equation $y=\\log_e(x^3-5)$. Find the equation of the normal to the curve at the point $x=2$.",
+   "answer": "$y'=\\dfrac{3x^2}{x^3-5}$. At $x=2$: $y=\\ln3$ and $y'=\\dfrac{12}{3}=4$. The gradient of the normal is $-\\dfrac14$. $y-\\ln3=-\\dfrac14(x-2)$, i.e. $y=-\\dfrac14x+\\dfrac12+\\ln3$ (or $x+4y-4\\ln3-2=0$)."
+  },
+  {
+   "ref": "Q24",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.5.1.8"
+   ],
+   "question": "A function $g(x)=ax^2+\\dfrac bx$ has a minimum value at $x=4$. It is also known that $g(4)=96$. Calculate the values of $a$ and $b$.",
+   "answer": "$g(4)=96$: $16a+\\dfrac b4=96$, so $64a+b=384$ (1). $g'(x)=2ax-\\dfrac b{x^2}$ and $g'(4)=0$: $8a-\\dfrac b{16}=0$, so $b=128a$ (2). Substituting: $64a+128a=384$, so $a=2$ and $b=256$."
+  },
+  {
+   "ref": "Q25",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.6.3"
+   ],
+   "question": "Find $\\displaystyle\\int\\dfrac{e^{3x}}{e^{3x}+1}\\,dx$.",
+   "answer": "$\\displaystyle\\int\\dfrac{e^{3x}}{e^{3x}+1}dx=\\dfrac13\\int\\dfrac{3e^{3x}}{e^{3x}+1}dx=\\dfrac13\\ln(e^{3x}+1)+C$."
+  },
+  {
+   "ref": "Q26(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.3.1.11"
+   ],
+   "question": "Prove that $\\sec^2x=1+\\tan^2x$.",
+   "answer": "Starting from $\\cos^2x+\\sin^2x=1$ and dividing by $\\cos^2x$: $1+\\tan^2x=\\sec^2x$."
+  },
+  {
+   "ref": "Q26(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.7.2",
+    "12.4.8.1"
+   ],
+   "question": "Using $\\sec^2x=1+\\tan^2x$, find $\\displaystyle\\int_0^{\\pi/6}\\tan^22x\\,dx$.",
+   "answer": "$\\tan^22x=\\sec^22x-1$. $\\displaystyle\\int_0^{\\pi/6}(\\sec^22x-1)dx=\\left[\\dfrac12\\tan2x-x\\right]_0^{\\pi/6}=\\dfrac12\\tan\\dfrac\\pi3-\\dfrac\\pi6=\\dfrac{\\sqrt3}2-\\dfrac\\pi6=\\dfrac{3\\sqrt3-\\pi}6$."
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.5",
+    "12.4.8.10"
+   ],
+   "question": "The curves $y=e^x$ and $y=e^{-x}$ are shown, with the horizontal line $y=e$ and vertical line $x=1$. $P$ is the lined region (bounded by $y=e$, $y=e^x$ and $y=e^{-x}$), and $Q$ is the solid shaded region. Find the area of the entire lined region $P$.",
+   "answer": "By symmetry about the $y$-axis, Area $P=2\\displaystyle\\int_0^1(e-e^x)\\,dx=2\\left[ex-e^x\\right]_0^1=2\\big[(e-e)-(0-1)\\big]=2\\ \\text{u}^2$.",
+   "images": [
+    "assets/img/adv-2026-hurlstone/q27.png"
+   ]
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.8.6"
+   ],
+   "question": "The curves $y=e^x$ and $y=e^{-x}$ are shown, with the vertical line $x=1$. $Q$ is the solid shaded region between the two curves, from $x=0$ to $x=1$. Write an integral which could be used to find the area of $Q$. Do not solve this integral.",
+   "answer": "Area of $Q=\\displaystyle\\int_0^1(e^x-e^{-x})\\,dx$.",
+   "images": [
+    "assets/img/adv-2026-hurlstone/q27.png"
+   ]
+  },
+  {
+   "ref": "Q28",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.5",
+    "12.4.8.6"
+   ],
+   "question": "The parabola $y=-x^2+6x-5$ meets the $x$-axis at $A(1,0)$ and $B(5,0)$. The line $y=-x+5$ meets the parabola at $C(2,3)$ and $B$. Find the area of the shaded region (bounded by the $y$-axis, the $x$-axis, the line from $(0,5)$ to $C$, and the parabola from $C$ down to $A$).",
+   "answer": "Shaded area $=\\displaystyle\\int_0^2(-x+5)\\,dx-\\int_1^2(-x^2+6x-5)\\,dx$. First: $\\left[-\\dfrac{x^2}2+5x\\right]_0^2=-2+10=8$. Second: $\\left[-\\dfrac{x^3}3+3x^2-5x\\right]_1^2=\\left(-\\dfrac83+12-10\\right)-\\left(-\\dfrac13+3-5\\right)=-\\dfrac23+\\dfrac73=\\dfrac53$. Area $=8-\\dfrac53=\\dfrac{19}3\\ \\text{u}^2$.",
+   "images": [
+    "assets/img/adv-2026-hurlstone/q28.png"
+   ]
+  },
+  {
+   "ref": "Q29(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.4.1"
+   ],
+   "question": "The diagram shows the graph of $y=f'(x)$, the derivative of $y=f(x)$. For what values of $x$ is the curve $y=f(x)$ increasing?",
+   "answer": "$f(x)$ is increasing where $f'(x)>0$, which occurs when $x<-2$.",
+   "images": [
+    "assets/img/adv-2026-hurlstone/q29.png"
+   ]
+  },
+  {
+   "ref": "Q29(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.10",
+    "11.4.4.3"
+   ],
+   "question": "The diagram shows the graph of $y=f'(x)$, the derivative of $y=f(x)$ (it crosses the $x$-axis at $x=-2$ and touches it at $x=3$). Sketch a possible graph of $y=f(x)$.",
+   "answer": "$f'(x)>0$ for $x<-2$, $=0$ at $x=-2$ and $<0$ for $-2<x<3$: $f$ increases then has a local maximum at $x=-2$. At $x=3$, $f'(x)=0$ and $f'$ is negative on both sides, so $f$ has a horizontal point of inflection at $x=3$ (concave up to concave down), and $f$ is decreasing for all $x>-2$. A possible graph is shown (it may be translated vertically).",
+   "images": [
+    "assets/img/adv-2026-hurlstone/q29.png"
+   ],
+   "answer_images": [
+    "assets/img/adv-2026-hurlstone/a29.png"
+   ]
+  },
+  {
+   "ref": "Q30(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.1"
+   ],
+   "question": "Find $\\dfrac{d}{dx}\\left(\\sqrt x+1\\right)^3$.",
+   "answer": "$\\dfrac{d}{dx}(\\sqrt x+1)^3=3(\\sqrt x+1)^2\\cdot\\dfrac{1}{2\\sqrt x}=\\dfrac{3(\\sqrt x+1)^2}{2\\sqrt x}$."
+  },
+  {
+   "ref": "Q30(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.4.5"
+   ],
+   "question": "Given that $\\dfrac{d}{dx}\\left(\\sqrt x+1\\right)^3=\\dfrac{3(\\sqrt x+1)^2}{2\\sqrt x}$, find $\\displaystyle\\int\\dfrac{(\\sqrt x+1)^2}{2\\sqrt x}\\,dx$.",
+   "answer": "$\\displaystyle\\int\\dfrac{3(\\sqrt x+1)^2}{2\\sqrt x}dx=(\\sqrt x+1)^3+c$, so $\\displaystyle\\int\\dfrac{(\\sqrt x+1)^2}{2\\sqrt x}dx=\\dfrac13(\\sqrt x+1)^3+C$."
+  },
+  {
+   "ref": "Q31",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.3.8",
+    "11.7.2.6"
+   ],
+   "question": "A factory assembles torches. Each torch requires one battery and one bulb. It is known that 6% of all batteries and 4% of all bulbs are defective. Find the probability that, if a torch is selected at random, both the battery and the bulb are not defective. Give your answer correct to 2 decimal places.",
+   "answer": "The events are independent: $P(\\text{both OK})=(1-0.06)(1-0.04)=0.94\\times0.96=0.9024\\approx0.90$."
+  },
+  {
+   "ref": "Q32",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.7",
+    "12.6.2.1"
+   ],
+   "question": "A pizza shop estimates that the time $X$ hours to deliver a pizza from when it is ordered is a continuous random variable with probability density function $f(x)=\\dfrac43-\\dfrac23x$ for $0<x<1$, and 0 otherwise. What is the probability of the pizza being delivered within half an hour of being ordered?",
+   "answer": "$P(X\\le0.5)=\\displaystyle\\int_0^{0.5}\\left(\\dfrac43-\\dfrac23x\\right)dx=\\left[\\dfrac43x-\\dfrac13x^2\\right]_0^{0.5}=\\dfrac23-\\dfrac1{12}=\\dfrac7{12}\\approx0.5833$."
+  },
+  {
+   "ref": "Q33(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.6",
+    "12.6.2.7"
+   ],
+   "question": "The monthly sales $X$ (in units of \\$100 000) of a business are modelled by the probability density function $f(x)=kx^3(1-x^2)$ for $0\\le x\\le1$, and 0 otherwise (Model 1). Determine the value of $k$.",
+   "answer": "$\\displaystyle\\int_0^1k(x^3-x^5)dx=1$: $k\\left[\\dfrac{x^4}4-\\dfrac{x^6}6\\right]_0^1=k\\left(\\dfrac14-\\dfrac16\\right)=\\dfrac k{12}=1$, so $k=12$."
+  },
+  {
+   "ref": "Q33(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.2.11",
+    "12.6.2.9"
+   ],
+   "question": "The monthly sales $X$ (in units of \\$100 000) of a business are modelled by two probability density functions: Model 1, $f(x)=12x^3(1-x^2)$ for $0\\le x\\le1$; Model 2, $g(x)=2x$ for $0\\le x\\le1$ (both 0 otherwise). Show that the two models have the same median value.",
+   "answer": "Model 2: $\\displaystyle\\int_0^m2x\\,dx=m^2=\\dfrac12$, so $m=\\dfrac1{\\sqrt2}$.\n\nModel 1: $\\displaystyle12\\int_0^m(x^3-x^5)dx=12\\left(\\dfrac{m^4}4-\\dfrac{m^6}6\\right)=3m^4-2m^6=\\dfrac12$. At $m=\\dfrac1{\\sqrt2}$: $m^4=\\dfrac14$, $m^6=\\dfrac18$, so $3\\left(\\dfrac14\\right)-2\\left(\\dfrac18\\right)=\\dfrac34-\\dfrac14=\\dfrac12$ ✓. (Here $m$ is the only solution in $[0,1]$, since the CDF is increasing.) Both models have the same median, $m=\\dfrac1{\\sqrt2}\\approx0.707$."
+  },
+  {
+   "ref": "Q34",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.13",
+    "12.6.3.10"
+   ],
+   "question": "The weights of bags of red gravel may be modelled by a normal distribution with mean 25.8 kg and a standard deviation of 0.5 kg. What is the probability that a randomly selected bag will have a weight between 25.5 kg and 26.5 kg? (Use the standard normal table: $P(Z<1.4)=0.9192$, $P(Z<0.6)=0.7257$.)",
+   "answer": "$z_1=\\dfrac{25.5-25.8}{0.5}=-0.6$ and $z_2=\\dfrac{26.5-25.8}{0.5}=1.4$. $P(-0.6<Z<1.4)=P(Z<1.4)-P(Z<-0.6)=0.9192-(1-0.7257)=0.9192-0.2743=0.6449$."
+  },
+  {
+   "ref": "Q35",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.10"
+   ],
+   "question": "A bus is uniformly late between 2 and 10 minutes. If the bus is late by more than 7 minutes, you will be late for school. What is the probability of you being late for school?",
+   "answer": "The lateness $X$ is uniformly distributed on $[2,10]$, a length of 8 minutes, so $f(x)=\\dfrac18$. $P(X>7)=\\dfrac{10-7}{8}=\\dfrac38=0.375$."
+  },
+  {
+   "ref": "Q37",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.1",
+    "12.5.2.4"
+   ],
+   "question": "Find the global maximum and minimum values of $y=x^3-3x^2-9x+5$ for $-2\\le x\\le5$.",
+   "answer": "$y'=3x^2-6x-9=3(x-3)(x+1)=0$ gives $x=-1,\\ 3$. $y(-1)=-1-3+9+5=10$ and $y(3)=27-27-27+5=-22$. Endpoints: $y(-2)=-8-12+18+5=3$ and $y(5)=125-75-45+5=10$. Comparing the values $3,\\ 10,\\ -22,\\ 10$: the global maximum value is 10 (at $x=-1$ and $x=5$) and the global minimum value is $-22$ (at $x=3$)."
+  },
+  {
+   "ref": "Q38(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.3"
+   ],
+   "question": "The diagram shows a cylinder of radius $x$ and height $y$ inscribed in a cone of radius $R$ and height $H$, where $R$ and $H$ are constants. The volume of a cone of radius $r$ and height $h$ is $\\dfrac13\\pi r^2h$ and the volume of a cylinder of radius $r$ and height $h$ is $\\pi r^2h$. Show that the volume $V$ of the cylinder can be written as $V=\\dfrac HR\\pi x^2(R-x)$.",
+   "answer": "By similar triangles (the small cone above the cylinder is similar to the whole cone): $\\dfrac{y}{R-x}=\\dfrac HR$, so $y=\\dfrac HR(R-x)$. $V=\\pi x^2y=\\pi x^2\\cdot\\dfrac HR(R-x)=\\dfrac HR\\pi x^2(R-x)$.",
+   "images": [
+    "assets/img/adv-2026-hurlstone/q38.png"
+   ]
+  },
+  {
+   "ref": "Q38(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.5.2.5"
+   ],
+   "question": "A cylinder of radius $x$ is inscribed in a cone of radius $R$ and height $H$ (constants), with volume $V=\\dfrac HR\\pi x^2(R-x)$ for $0<x<R$. By considering the inscribed cylinder of maximum volume, show that the volume of any inscribed cylinder does not exceed $\\dfrac49$ of the volume of the cone.",
+   "answer": "$V=\\dfrac{H\\pi}{R}(Rx^2-x^3)$, so $V'=\\dfrac{H\\pi}R(2Rx-3x^2)=\\dfrac{H\\pi}Rx(2R-3x)$. $V'=0$ gives $x=0$ (not valid) or $x=\\dfrac{2R}3$. $V''=\\dfrac{H\\pi}R(2R-6x)$; at $x=\\dfrac{2R}3$, $V''=\\dfrac{H\\pi}R(2R-4R)=-2H\\pi<0$, so this is a maximum.\n\nMaximum volume: $V=\\dfrac HR\\pi\\left(\\dfrac{2R}3\\right)^2\\left(R-\\dfrac{2R}3\\right)=\\dfrac HR\\pi\\cdot\\dfrac{4R^2}9\\cdot\\dfrac R3=\\dfrac49\\left(\\dfrac13\\pi R^2H\\right)=\\dfrac49V_{\\text{cone}}$.\n\nSince this is the maximum, the volume of any inscribed cylinder does not exceed $\\dfrac49$ of the volume of the cone.",
+   "images": [
+    "assets/img/adv-2026-hurlstone/q38.png"
+   ]
+  }
+ ]
+}
