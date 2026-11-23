@@ -1,0 +1,680 @@
+{
+ "id": "ext2-2025-ascham",
+ "course": "extension2",
+ "school": "Ascham",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "Ascham 2025 w. sol"
+ },
+ "indexed": "2026-11-24",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "Given $0<\\theta<\\dfrac\\pi2$, what is the magnitude of the vector $(\\cos\\theta)\\mathbf i+(\\sin\\theta)\\mathbf j+(\\tan\\theta)\\mathbf k$?",
+   "answer": "$\\sqrt{\\cos^2\\theta+\\sin^2\\theta+\\tan^2\\theta}=\\sqrt{1+\\tan^2\\theta}=\\sqrt{\\sec^2\\theta}=\\sec\\theta$, since $\\sec\\theta>0$ in the first quadrant (D).",
+   "options": [
+    "$1$",
+    "$\\operatorname{cosec}\\theta$",
+    "$\\cot\\theta$",
+    "$\\sec\\theta$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.7"
+   ],
+   "question": "Which is the negation of the following statement? \"If snow is falling, then I will not be at the park.\"",
+   "answer": "$\\neg(P\\Rightarrow Q)\\equiv P\\wedge\\neg Q$. Here $Q$ is \\\"I will not be at the park\\\", so the negation is \\\"Snow is falling and I will be at the park\\\" (C).",
+   "options": [
+    "If snow is falling, then I will be at the park.",
+    "If snow is not falling, then I will be at the park.",
+    "Snow is falling and I will be at the park.",
+    "Snow is not falling and I will be at the park."
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.3",
+    "12.5.2.9"
+   ],
+   "question": "A particle whose displacement is $x$ moves in simple harmonic motion such that $\\ddot x=-4x$. What is $x$ as a function of $t$ if initially $x=3$ and $\\dot x=-6\\sqrt3$?",
+   "answer": "$n=2$ and the centre is $x=0$. Try $x=3\\cos2t-3\\sqrt3\\sin2t$: $x(0)=3$ and $\\dot x=-6\\sin2t-6\\sqrt3\\cos2t$, so $\\dot x(0)=-6\\sqrt3$. Both conditions hold (A).",
+   "options": [
+    "$x=3\\cos2t-3\\sqrt3\\sin2t$",
+    "$x=3\\sin2t-3\\sqrt3\\cos2t$",
+    "$x=3\\cos2t+3\\sqrt3\\sin2t$",
+    "$x=3\\sin2t+3\\sqrt3\\cos2t$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.10",
+    "12.3.1.10"
+   ],
+   "question": "The complex number $z$ is shown on the Argand diagram. Which of the following best represents $i\\bar z$? (Diagrams A–D are shown below the Argand diagram, in order.)",
+   "answer": "$z$ is in the first quadrant at an angle of about $20^\\circ$. $\\bar z$ is at $-20^\\circ$ with the same modulus, and multiplying by $i$ rotates it by $90^\\circ$ anticlockwise to about $70^\\circ$, still on the unit circle. This is diagram A.",
+   "options": [
+    "Diagram A",
+    "Diagram B",
+    "Diagram C",
+    "Diagram D"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/ext2-2025-ascham/q4.png",
+    "assets/img/ext2-2025-ascham/q4a.png",
+    "assets/img/ext2-2025-ascham/q4b.png",
+    "assets/img/ext2-2025-ascham/q4c.png",
+    "assets/img/ext2-2025-ascham/q4d.png"
+   ]
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "$P$, $Q$ and $R$ are three collinear points with position vectors $\\mathbf p$, $\\mathbf q$ and $\\mathbf r$ respectively. $Q$ lies between $P$ and $R$ such that $PQ:QR=2:1$. The position vector of $R$ is given by:",
+   "answer": "$\\overrightarrow{PR}=\\dfrac32\\overrightarrow{PQ}$, so $\\mathbf r=\\mathbf p+\\dfrac32(\\mathbf q-\\mathbf p)=-\\dfrac12\\mathbf p+\\dfrac32\\mathbf q$ (C).",
+   "options": [
+    "$\\mathbf r=\\dfrac12\\mathbf q+\\dfrac32\\mathbf p$",
+    "$\\mathbf r=\\dfrac32\\mathbf p-\\dfrac12\\mathbf q$",
+    "$\\mathbf r=\\dfrac32\\mathbf q-\\dfrac12\\mathbf p$",
+    "$\\mathbf r=\\dfrac12\\mathbf p+\\dfrac32\\mathbf q$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.8",
+    "12.1.1.9"
+   ],
+   "question": "For which of these statements, for positive integers $x$ and $y$, is the converse necessarily true?",
+   "answer": "A: $4+6$ is even but 4 and 6 are not odd, so the converse is false. B: $2^2+4^2$ is even, so the converse is false. C: if $xy$ is odd then neither $x$ nor $y$ can be even, so both are odd: the converse is true. D: $3^4$ is odd but $y=4$ is even, so the converse is false (C).",
+   "options": [
+    "If $x$ and $y$ are odd, then $x+y$ is even.",
+    "If $x$ and $y$ are odd, then $x^2+y^2$ is even.",
+    "If $x$ and $y$ are odd, then $xy$ is odd.",
+    "If $x$ and $y$ are odd, then $x^y$ is odd."
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.7"
+   ],
+   "question": "Which of the following lines passes through $(0,1,-1)$?",
+   "answer": "A and C have $x=1$ throughout, so they cannot reach $x=0$. B: $\\lambda=-1$ gives $(1-1,\\,1-0,\\,0-1)=(0,1,-1)$. D: $\\lambda=-1$ gives $(0,-1,1)$, which is not the point (B).",
+   "options": [
+    "$\\mathbf r=\\begin{pmatrix}1\\\\1\\\\0\\end{pmatrix}+\\lambda\\begin{pmatrix}0\\\\1\\\\1\\end{pmatrix}$",
+    "$\\mathbf r=\\begin{pmatrix}1\\\\1\\\\0\\end{pmatrix}+\\lambda\\begin{pmatrix}1\\\\0\\\\1\\end{pmatrix}$",
+    "$\\mathbf r=\\begin{pmatrix}1\\\\0\\\\1\\end{pmatrix}+\\lambda\\begin{pmatrix}0\\\\1\\\\1\\end{pmatrix}$",
+    "$\\mathbf r=\\begin{pmatrix}1\\\\0\\\\1\\end{pmatrix}+\\lambda\\begin{pmatrix}1\\\\1\\\\0\\end{pmatrix}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "Which of these inequalities is false?",
+   "answer": "A: $\\dfrac1{1+x}<\\dfrac1x$ on $[1,2]$. B: $\\sin x<1$. C: $e^{-x^2}$ is decreasing, so its values on $[1,2]$ are below those on $[0,1]$. D: on $[0,\\pi/4]$, $0\\le\\tan x\\le1$ so $\\tan^2x\\ge\\tan^3x$ and the inequality is reversed, so it is false (D).",
+   "options": [
+    "$\\displaystyle\\int_1^2\\dfrac1{1+x}dx<\\int_1^2\\dfrac1xdx$",
+    "$\\displaystyle\\int_{\\pi/6}^{\\pi/4}\\dfrac{\\sin x}xdx<\\int_{\\pi/6}^{\\pi/4}\\dfrac1xdx$",
+    "$\\displaystyle\\int_1^2e^{-x^2}dx<\\int_0^1e^{-x^2}dx$",
+    "$\\displaystyle\\int_0^{\\pi/4}\\tan^2x\\,dx<\\int_0^{\\pi/4}\\tan^3x\\,dx$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.13"
+   ],
+   "question": "Which parametric form best describes the curve below?",
+   "answer": "All options have a unit-circle projection in the $xy$-plane. The curve spirals down towards the plane $z=0$ while circling, so $z$ decays towards 0, not linearly (A), not like $\\ln t$ (C, which would be large negative near $t=0$) and not oscillating (D). Only $z=e^{-0.5t}$ decays towards 0 (B).",
+   "options": [
+    "$\\mathbf r(t)=(\\cos t)\\mathbf i+(\\sin t)\\mathbf j+(t)\\mathbf k$",
+    "$\\mathbf r(t)=(\\cos t)\\mathbf i+(\\sin t)\\mathbf j+(e^{-0.5t})\\mathbf k$",
+    "$\\mathbf r(t)=(\\cos t)\\mathbf i+(\\sin t)\\mathbf j+(\\ln t)\\mathbf k$",
+    "$\\mathbf r(t)=(\\cos t)\\mathbf i+(\\sin t)\\mathbf j+(\\cos2t)\\mathbf k$"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/ext2-2025-ascham/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.5",
+    "12.3.4.6"
+   ],
+   "question": "Let $\\omega=e^{\\frac{2\\pi i}5}$. What is the value of $(1-\\omega)(1-\\omega^2)(1-\\omega^3)(1-\\omega^4)$?",
+   "answer": "$\\omega,\\omega^2,\\omega^3,\\omega^4$ are the non-real roots of $z^5=1$, so $z^4+z^3+z^2+z+1=(z-\\omega)(z-\\omega^2)(z-\\omega^3)(z-\\omega^4)$. Putting $z=1$: $(1-\\omega)(1-\\omega^2)(1-\\omega^3)(1-\\omega^4)=1+1+1+1+1=5$ (D).",
+   "options": [
+    "$-5$",
+    "$-4$",
+    "$4$",
+    "$5$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.12",
+    "12.4.1.13"
+   ],
+   "question": "Use integration by parts to find $\\displaystyle\\int\\ln(x^2+1)\\,dx$.",
+   "answer": "$u=\\ln(x^2+1)$, $dv=dx$, $du=\\dfrac{2x}{x^2+1}dx$, $v=x$. $\\displaystyle\\int\\ln(x^2+1)dx=x\\ln(x^2+1)-\\int\\dfrac{2x^2}{x^2+1}dx=x\\ln(x^2+1)-2\\int\\left(1-\\dfrac1{x^2+1}\\right)dx=x\\ln(x^2+1)-2x+2\\tan^{-1}x+C$."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Use the substitution $u=e^x-1$ to find $\\displaystyle\\int\\dfrac{e^{2x}}{(e^x-1)^2}dx$.",
+   "answer": "$e^x=u+1$ and $du=e^xdx=(u+1)dx$. $\\displaystyle\\int\\dfrac{(u+1)^2}{u^2}\\cdot\\dfrac1{u+1}du=\\int\\dfrac{u+1}{u^2}du=\\int\\left(\\dfrac1u+\\dfrac1{u^2}\\right)du=\\ln|u|-\\dfrac1u+C=\\ln|e^x-1|-\\dfrac1{e^x-1}+C$."
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.5",
+    "12.4.1.6"
+   ],
+   "question": "Use the substitution $t=\\tan\\dfrac x2$ to evaluate $\\displaystyle\\int_0^{\\pi/2}\\dfrac1{3\\cos x-4\\sin x+5}dx$.",
+   "answer": "$\\cos x=\\dfrac{1-t^2}{1+t^2}$, $\\sin x=\\dfrac{2t}{1+t^2}$, $dx=\\dfrac{2\\,dt}{1+t^2}$; $x=0\\to t=0$ and $x=\\dfrac\\pi2\\to t=1$. The denominator is $\\dfrac{3(1-t^2)-8t+5(1+t^2)}{1+t^2}=\\dfrac{2t^2-8t+8}{1+t^2}=\\dfrac{2(t-2)^2}{1+t^2}$. So $\\displaystyle\\int_0^1\\dfrac{1+t^2}{2(t-2)^2}\\cdot\\dfrac2{1+t^2}dt=\\int_0^1(t-2)^{-2}dt=\\Big[-\\dfrac1{t-2}\\Big]_0^1=1-\\dfrac12=\\dfrac12$."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.5"
+   ],
+   "question": "Convert the line $y=3x-5$ to the form $\\mathbf r=\\mathbf a+\\lambda\\mathbf b$.",
+   "answer": "The gradient 3 gives a direction vector $\\mathbf b=\\begin{pmatrix}1\\\\3\\end{pmatrix}$, and $(0,-5)$ lies on the line: $\\mathbf r=\\begin{pmatrix}0\\\\-5\\end{pmatrix}+\\lambda\\begin{pmatrix}1\\\\3\\end{pmatrix}$."
+  },
+  {
+   "ref": "Q11(e)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "It is known that $5+6i$ is a zero of the polynomial $P(z)=2z^3-19z^2+112z+k$, where $k$ is real. Find the other two zeroes of $P(z)$.",
+   "answer": "The coefficients are real, so $5-6i$ is also a zero. Sum of zeroes $=\\dfrac{19}2$: $(5+6i)+(5-6i)+\\alpha=\\dfrac{19}2$, so $\\alpha=-\\dfrac12$. The other zeroes are $5-6i$ and $-\\dfrac12$."
+  },
+  {
+   "ref": "Q11(e)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "It is known that $5+6i$ and $5-6i$ and $-\\dfrac12$ are the zeroes of $P(z)=2z^3-19z^2+112z+k$, where $k$ is real. Find the value of $k$.",
+   "answer": "Product of zeroes $=-\\dfrac k2$: $(5+6i)(5-6i)\\left(-\\dfrac12\\right)=-\\dfrac{61}2=-\\dfrac k2$, so $k=61$."
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "Prove that $\\sqrt[3]2$ is irrational.",
+   "answer": "Assume $\\sqrt[3]2=\\dfrac pq$ with $p,q\\in\\mathbb Z$ and $\\gcd(p,q)=1$. Then $2q^3=p^3$, so $p^3$ is even, hence $p$ is even (contrapositive: odd$^3$ is odd). Let $p=2m$: $2q^3=8m^3$, so $q^3=4m^3$ is even and $q$ is even. But then $p$ and $q$ share the factor 2, contradicting $\\gcd(p,q)=1$. So $\\sqrt[3]2$ is irrational."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "Given that $x$ is a real number and $(x+i)^4$ is purely imaginary, find all possible values of $x$ in exact form.",
+   "answer": "$(x+i)^4=x^4+4x^3i-6x^2-4xi+1=(x^4-6x^2+1)+(4x^3-4x)i$. The real part must be zero: $x^4-6x^2+1=0$, so $x^2=\\dfrac{6\\pm\\sqrt{32}}2=3\\pm2\\sqrt2=(\\sqrt2\\pm1)^2$. Hence $x=\\pm(\\sqrt2+1)$ or $x=\\pm(\\sqrt2-1)$. (For these, $4x(x^2-1)\\ne0$, so the number is non-zero.)"
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.7"
+   ],
+   "question": "Find all the solutions of $z^5=4+4i$, giving your answers in modulus-argument form.",
+   "answer": "$4+4i=4\\sqrt2\\operatorname{cis}\\dfrac\\pi4$. Let $z=r\\operatorname{cis}\\theta$: $r^5=4\\sqrt2=2^{5/2}$ so $r=\\sqrt2$, and $5\\theta=\\dfrac\\pi4+2k\\pi$. So $z=\\sqrt2\\operatorname{cis}\\left(\\dfrac\\pi{20}+\\dfrac{2k\\pi}5\\right)$, $k=0,1,2,3,4$."
+  },
+  {
+   "ref": "Q12(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.5.3"
+   ],
+   "question": "On an Argand diagram sketch the locus of the point $P$ representing the complex number $z$ such that $|z-(\\sqrt3+i)|=1$.",
+   "answer": "A circle with centre $(\\sqrt3,1)$ and radius 1 (it passes through the origin's neighbourhood: the origin is at distance 2 from the centre, so the circle does not contain the origin)."
+  },
+  {
+   "ref": "Q12(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.3",
+    "12.3.2.3"
+   ],
+   "question": "For the locus $|z-(\\sqrt3+i)|=1$, find the maximum possible values of $|z|$ and $\\operatorname{Arg}(z)$.",
+   "answer": "The centre $\\sqrt3+i$ has modulus 2 and argument $\\dfrac\\pi6$. Maximum $|z|=2+1=3$. The maximum argument occurs at the tangent from the origin: $\\sin\\alpha=\\dfrac12$, so $\\alpha=\\dfrac\\pi6$ and the maximum $\\operatorname{Arg}z=\\dfrac\\pi6+\\dfrac\\pi6=\\dfrac\\pi3$."
+  },
+  {
+   "ref": "Q12(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.2"
+   ],
+   "question": "Prove that for all $x,y\\in\\mathbb R$, $\\dfrac{(x-1)^2+(y+2)^2}2\\ge x+y$.",
+   "answer": "$\\dfrac{(x-1)^2+(y+2)^2}2-x-y=\\dfrac{x^2-2x+1+y^2+4y+4-2x-2y}2=\\dfrac{x^2-4x+4+y^2+2y+1}2=\\dfrac{(x-2)^2+(y+1)^2}2\\ge0$, as the sum of two squares is non-negative. Hence the inequality holds."
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.8"
+   ],
+   "question": "A particle is undergoing simple harmonic motion centred about the origin. Its equation of motion is $\\ddot x=-16x$. Show that $v^2=16(a^2-x^2)$, where $a$ is the amplitude.",
+   "answer": "$v\\dfrac{dv}{dx}=-16x$, so $\\dfrac12v^2=-8x^2+C$ and $v^2=-16x^2+C_1$. At the amplitude $x=a$, $v=0$: $C_1=16a^2$. So $v^2=16(a^2-x^2)$."
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.9"
+   ],
+   "question": "A particle's position at time $t$ seconds is given by $x=\\sqrt3\\sin4t-\\cos4t$. Express $x$ in the form $R\\sin(4t-\\alpha)$, where $\\alpha$ is in radians.",
+   "answer": "$R\\sin(4t-\\alpha)=R\\sin4t\\cos\\alpha-R\\cos4t\\sin\\alpha$. So $R\\cos\\alpha=\\sqrt3$ and $R\\sin\\alpha=1$: $R=\\sqrt{3+1}=2$ and $\\tan\\alpha=\\dfrac1{\\sqrt3}$, so $\\alpha=\\dfrac\\pi6$. $x=2\\sin\\left(4t-\\dfrac\\pi6\\right)$."
+  },
+  {
+   "ref": "Q13(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.4"
+   ],
+   "question": "A particle's position at time $t$ seconds is $x=2\\sin\\left(4t-\\dfrac\\pi6\\right)$. When does the particle first reach its maximum speed after $t=0$?",
+   "answer": "Maximum speed occurs at the centre of motion, $x=0$: $\\sin\\left(4t-\\dfrac\\pi6\\right)=0$, so $4t-\\dfrac\\pi6=0,\\pi,\\dots$. The first positive solution is $4t=\\dfrac\\pi6$, so $t=\\dfrac\\pi{24}$ seconds."
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "If $z=\\cos\\theta+i\\sin\\theta$, show that $z-\\dfrac1z=2i\\sin\\theta$ and $z^n-\\dfrac1{z^n}=2i\\sin n\\theta$.",
+   "answer": "$|z|=1$, so $\\dfrac1z=\\bar z=\\cos\\theta-i\\sin\\theta$ and $z-\\dfrac1z=2i\\sin\\theta$. By de Moivre, $z^n=\\cos n\\theta+i\\sin n\\theta$ and $\\dfrac1{z^n}=\\cos n\\theta-i\\sin n\\theta$, so $z^n-\\dfrac1{z^n}=2i\\sin n\\theta$."
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Using $z^n-\\dfrac1{z^n}=2i\\sin n\\theta$ with $z=\\cos\\theta+i\\sin\\theta$, show that $\\sin^5\\theta=\\dfrac1{16}\\sin5\\theta-\\dfrac5{16}\\sin3\\theta+\\dfrac58\\sin\\theta$.",
+   "answer": "$\\sin^5\\theta=\\left(\\dfrac1{2i}\\left(z-\\dfrac1z\\right)\\right)^5=\\dfrac1{32i}\\left(z^5-5z^3+10z-\\dfrac{10}z+\\dfrac5{z^3}-\\dfrac1{z^5}\\right)=\\dfrac1{32i}\\left[\\left(z^5-\\dfrac1{z^5}\\right)-5\\left(z^3-\\dfrac1{z^3}\\right)+10\\left(z-\\dfrac1z\\right)\\right]=\\dfrac{2i\\sin5\\theta-10i\\sin3\\theta+20i\\sin\\theta}{32i}=\\dfrac1{16}\\sin5\\theta-\\dfrac5{16}\\sin3\\theta+\\dfrac58\\sin\\theta$."
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.9",
+    "12.3.4.11"
+   ],
+   "question": "Let $z=e^{i\\theta}$ where $0<\\theta<\\dfrac\\pi2$. On the Argand diagram the point $A$ represents $z$, the point $B$ represents $z^2$ and the point $C$ represents $z+z^2$.\n\nWhat type of quadrilateral best describes $OACB$?",
+   "answer": "$OA=|z|=1$, $OB=|z^2|=1$, and $AC=|z^2|=1$, $BC=|z|=1$ (as $C$ is found by vector addition). All four sides are equal, so $OACB$ is a rhombus.",
+   "images": [
+    "assets/img/ext2-2025-ascham/q13c.png"
+   ]
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.9"
+   ],
+   "question": "Let $z=e^{i\\theta}$ where $0<\\theta<\\dfrac\\pi2$. On the Argand diagram the point $A$ represents $z$, the point $B$ represents $z^2$ and the point $C$ represents $z+z^2$.\n\nFind $\\arg(z+z^2)$ in terms of $\\theta$.",
+   "answer": "The diagonal $OC$ of a rhombus bisects the angle $AOB=2\\theta-\\theta=\\theta$, so $\\arg(z+z^2)=\\theta+\\dfrac\\theta2=\\dfrac{3\\theta}2$.",
+   "images": [
+    "assets/img/ext2-2025-ascham/q13c.png"
+   ]
+  },
+  {
+   "ref": "Q13(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.9",
+    "12.3.4.11"
+   ],
+   "question": "Let $z=e^{i\\theta}$ where $0<\\theta<\\dfrac\\pi2$. On the Argand diagram the point $A$ represents $z$, the point $B$ represents $z^2$ and the point $C$ represents $z+z^2$.\n\nFind $|z+z^2|$ in terms of $\\theta$.",
+   "answer": "Let $M$ be the midpoint of $AB$; the diagonals of a rhombus bisect each other at right angles. In right triangle $OMA$, $\\dfrac{OM}{OA}=\\cos\\dfrac\\theta2$ with $OA=1$, so $OM=\\cos\\dfrac\\theta2$ and $|z+z^2|=OC=2\\cos\\dfrac\\theta2$.",
+   "images": [
+    "assets/img/ext2-2025-ascham/q13c.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.3.2",
+    "12.1.3.5"
+   ],
+   "question": "Prove that $x+y\\ge2\\sqrt{xy}$ for positive real numbers $x,y$.",
+   "answer": "$(\\sqrt x-\\sqrt y)^2\\ge0$, so $x-2\\sqrt{xy}+y\\ge0$, i.e. $x+y\\ge2\\sqrt{xy}$."
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.5",
+    "12.1.3.6"
+   ],
+   "question": "Using $x+y\\ge2\\sqrt{xy}$ for positive $x,y$, prove that for positive real numbers $a,b,c$ and $d$: $a^2+4b^2+4c^2+d^2\\ge8\\sqrt{abcd}$.",
+   "answer": "By the result, $a^2+4b^2\\ge2\\sqrt{4a^2b^2}=4ab$ and $4c^2+d^2\\ge2\\sqrt{4c^2d^2}=4cd$. Adding, $a^2+4b^2+4c^2+d^2\\ge4ab+4cd\\ge2\\sqrt{16abcd}=8\\sqrt{abcd}$."
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.1",
+    "12.2.2.5"
+   ],
+   "question": "Consider the line $\\mathbf r=\\begin{pmatrix}-5\\\\1\\\\-1\\end{pmatrix}+\\lambda\\begin{pmatrix}2\\\\-2\\\\1\\end{pmatrix}$. Let $A$ be the point corresponding to $\\lambda=1$ and let $P(6,0,2)$ be a point not on the line. Find the projection of $\\overrightarrow{AP}$ onto the line.",
+   "answer": "$A=(-3,-1,0)$, so $\\overrightarrow{AP}=(9,1,2)$. The direction is $\\mathbf d=(2,-2,1)$ with $|\\mathbf d|^2=9$. $\\text{proj}=\\dfrac{\\overrightarrow{AP}\\cdot\\mathbf d}{\\mathbf d\\cdot\\mathbf d}\\mathbf d=\\dfrac{18-2+2}9\\mathbf d=2\\mathbf d=\\begin{pmatrix}4\\\\-4\\\\2\\end{pmatrix}$."
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "Consider the line $\\mathbf r=\\begin{pmatrix}-5\\\\1\\\\-1\\end{pmatrix}+\\lambda\\begin{pmatrix}2\\\\-2\\\\1\\end{pmatrix}$. Let $A$ be the point corresponding to $\\lambda=1$ and let $P(6,0,2)$ be a point not on the line. The projection of $\\overrightarrow{AP}$ onto the line is $\\overrightarrow{AX}=(4,-4,2)$, where $X$ is the foot of the perpendicular from $P$. Hence find the coordinates of the point $P'$, the reflection of $P$ about the line.",
+   "answer": "$\\overrightarrow{PX}=\\overrightarrow{AX}-\\overrightarrow{AP}=(4,-4,2)-(9,1,2)=(-5,-5,0)$. $P'$ is the reflection of $P$ in the line, so $\\overrightarrow{PP'}=2\\overrightarrow{PX}=(-10,-10,0)$ and $\\overrightarrow{OP'}=(6,0,2)+(-10,-10,0)=(-4,-10,2)$. So $P'=(-4,-10,2)$."
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.1",
+    "12.3.4.4"
+   ],
+   "question": "Use de Moivre's theorem to show that $\\cos3\\theta=\\cos^3\\theta-3\\cos\\theta\\sin^2\\theta$ and $\\sin3\\theta=3\\cos^2\\theta\\sin\\theta-\\sin^3\\theta$.",
+   "answer": "$(\\cos\\theta+i\\sin\\theta)^3=\\cos^3\\theta+3i\\cos^2\\theta\\sin\\theta-3\\cos\\theta\\sin^2\\theta-i\\sin^3\\theta$. By de Moivre the left side is $\\cos3\\theta+i\\sin3\\theta$. Equating real parts, $\\cos3\\theta=\\cos^3\\theta-3\\cos\\theta\\sin^2\\theta$; equating imaginary parts, $\\sin3\\theta=3\\cos^2\\theta\\sin\\theta-\\sin^3\\theta$."
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Using $\\cos3\\theta=\\cos^3\\theta-3\\cos\\theta\\sin^2\\theta$ and $\\sin3\\theta=3\\cos^2\\theta\\sin\\theta-\\sin^3\\theta$, deduce that $\\tan3\\theta=\\dfrac{3\\tan\\theta-\\tan^3\\theta}{1-3\\tan^2\\theta}$.",
+   "answer": "$\\tan3\\theta=\\dfrac{3\\cos^2\\theta\\sin\\theta-\\sin^3\\theta}{\\cos^3\\theta-3\\cos\\theta\\sin^2\\theta}$. Dividing the numerator and denominator by $\\cos^3\\theta$ gives $\\dfrac{3\\tan\\theta-\\tan^3\\theta}{1-3\\tan^2\\theta}$, which equals $\\dfrac{\\tan^3\\theta-3\\tan\\theta}{3\\tan^2\\theta-1}$ (multiply top and bottom by $-1$)."
+  },
+  {
+   "ref": "Q14(c)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.4",
+    "12.3.4.7"
+   ],
+   "question": "Given $\\tan3\\theta=\\dfrac{\\tan^3\\theta-3\\tan\\theta}{3\\tan^2\\theta-1}$, by letting $x=\\tan\\theta$, find the solutions of $x^3-3x^2-3x+1=0$, expressing them in exact trigonometric form.",
+   "answer": "Put $x=\\tan\\theta$: $\\tan^3\\theta-3\\tan\\theta=3\\tan^2\\theta-1$, so $\\dfrac{\\tan^3\\theta-3\\tan\\theta}{3\\tan^2\\theta-1}=1$, i.e. $\\tan3\\theta=1$. Then $3\\theta=\\dfrac\\pi4+k\\pi$, so $\\theta=\\dfrac\\pi{12},\\dfrac{5\\pi}{12},\\dfrac{9\\pi}{12}$. The solutions are $x=\\tan\\dfrac\\pi{12},\\ \\tan\\dfrac{5\\pi}{12},\\ \\tan\\dfrac{3\\pi}4=-1$."
+  },
+  {
+   "ref": "Q14(c)(iv)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "The solutions of $x^3-3x^2-3x+1=0$ are $\\tan\\dfrac\\pi{12}$, $\\tan\\dfrac{5\\pi}{12}$ and $-1$. Hence show that $\\tan\\dfrac\\pi{12}+\\tan\\dfrac{5\\pi}{12}=4$.",
+   "answer": "The sum of the roots is $-\\dfrac{-3}{1}=3$: $\\tan\\dfrac\\pi{12}+\\tan\\dfrac{5\\pi}{12}-1=3$, so $\\tan\\dfrac\\pi{12}+\\tan\\dfrac{5\\pi}{12}=4$."
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.9",
+    "12.4.1.13"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_{-1}^2\\sqrt{8-2x-x^2}\\,dx$ using a suitable substitution.",
+   "answer": "$8-2x-x^2=9-(x+1)^2$. Let $x+1=3\\sin\\theta$, $dx=3\\cos\\theta\\,d\\theta$; $x=-1\\to\\theta=0$ and $x=2\\to\\theta=\\dfrac\\pi2$. $\\displaystyle\\int_0^{\\pi/2}\\sqrt{9-9\\sin^2\\theta}\\,3\\cos\\theta\\,d\\theta=9\\int_0^{\\pi/2}\\cos^2\\theta\\,d\\theta=\\dfrac92\\int_0^{\\pi/2}(1+\\cos2\\theta)d\\theta=\\dfrac92\\left[\\theta+\\dfrac12\\sin2\\theta\\right]_0^{\\pi/2}=\\dfrac{9\\pi}4$. (This is a quarter of a circle of radius 3.)"
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.1.12",
+    "12.1.2.3"
+   ],
+   "question": "Prove the following statement for all integers $n\\ge3$: \\\"If $3^n-4$ is a prime, then $n$ is odd.\\\"",
+   "answer": "The contrapositive is: if $n$ is even, then $3^n-4$ is not prime. Let $n=2m$, $m\\ge2$. Then $3^{2m}-4=(3^m)^2-2^2=(3^m-2)(3^m+2)$. Since $m\\ge2$, $3^m-2\\ge7>1$ and $3^m+2>1$, so $3^n-4$ has factors other than 1 and itself and is not prime. The contrapositive is true, so the statement is true."
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.5.1"
+   ],
+   "question": "A particle of mass $m$ kilograms is dropped from rest in a medium where the resistance to motion has magnitude $\\dfrac1{10}mv^2$ newtons when the velocity of the particle is $v$ m/s. After $t$ seconds, the particle has fallen $x$ metres. Take $g=10$ m/s$^2$.\n\nWith a diagram, show that the acceleration is $\\ddot x=\\dfrac1{10}(100-v^2)$.",
+   "answer": "Taking downwards as positive, the forces are $mg$ down and the resistance $\\dfrac1{10}mv^2$ up (a diagram shows these two arrows on the particle). $m\\ddot x=mg-\\dfrac1{10}mv^2=10m-\\dfrac1{10}mv^2$, so $\\ddot x=\\dfrac1{10}(100-v^2)$."
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.5.2",
+    "12.5.5.3",
+    "12.5.5.6"
+   ],
+   "question": "A particle of mass $m$ kilograms is dropped from rest in a medium where the resistance to motion has magnitude $\\dfrac1{10}mv^2$ newtons when the velocity of the particle is $v$ m/s. After $t$ seconds, the particle has fallen $x$ metres. Take $g=10$ m/s$^2$. The acceleration is $\\ddot x=\\dfrac1{10}(100-v^2)$. The particle hits the ground $\\log_e\\left(\\sqrt5\\right)$ seconds after it is dropped. Find its distance fallen in simplest exact form.",
+   "answer": "Velocity at the time: $\\dfrac{dv}{dt}=\\dfrac{100-v^2}{10}$, so $\\displaystyle\\int\\dfrac{dv}{100-v^2}=\\int\\dfrac{dt}{10}$. Since $\\dfrac1{100-v^2}=\\dfrac1{20}\\left(\\dfrac1{10-v}+\\dfrac1{10+v}\\right)$, $\\dfrac1{20}\\ln\\left|\\dfrac{10+v}{10-v}\\right|=\\dfrac t{10}+C$. With $v=0$ at $t=0$, $C=0$, so $\\ln\\dfrac{10+v}{10-v}=2t$ (for $0\\le v<10$). At $t=\\ln\\sqrt5$: $\\ln\\dfrac{10+v}{10-v}=\\ln5$, so $10+v=50-5v$ and $v=\\dfrac{20}3$ m/s.\n\nDistance: $v\\dfrac{dv}{dx}=\\dfrac{100-v^2}{10}$, so $\\displaystyle\\int\\dfrac{v\\,dv}{100-v^2}=\\int\\dfrac{dx}{10}$, giving $-\\dfrac12\\ln(100-v^2)=\\dfrac x{10}+C$. At $x=0$, $v=0$: $C=-\\dfrac12\\ln100$. So $x=-5\\ln\\dfrac{100-v^2}{100}$. At $v=\\dfrac{20}3$: $\\dfrac{100-\\frac{400}9}{100}=\\dfrac59$, so $x=-5\\ln\\dfrac59=5\\ln\\dfrac95$ metres."
+  },
+  {
+   "ref": "Q15(d)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^1\\dfrac{x^n}{\\sqrt{1+x^2}}dx$ for integers $n\\ge0$. Show that $I_n=\\dfrac{\\sqrt2-(n-1)I_{n-2}}{n}$ for all integers $n\\ge2$.",
+   "answer": "Write $I_n=\\int_0^1x^{n-1}\\cdot\\dfrac x{\\sqrt{1+x^2}}dx$ and integrate by parts with $u=x^{n-1}$, $dv=\\dfrac x{\\sqrt{1+x^2}}dx$, so $du=(n-1)x^{n-2}dx$ and $v=\\sqrt{1+x^2}$. $I_n=\\Big[x^{n-1}\\sqrt{1+x^2}\\Big]_0^1-(n-1)\\displaystyle\\int_0^1x^{n-2}\\sqrt{1+x^2}\\,dx=\\sqrt2-(n-1)\\int_0^1\\dfrac{x^{n-2}(1+x^2)}{\\sqrt{1+x^2}}dx=\\sqrt2-(n-1)(I_{n-2}+I_n)$. So $nI_n=\\sqrt2-(n-1)I_{n-2}$ and $I_n=\\dfrac{\\sqrt2-(n-1)I_{n-2}}n$."
+  },
+  {
+   "ref": "Q16(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.1",
+    "12.2.2.5"
+   ],
+   "question": "The diagram shows a rectangular prism in the first octant created from $P(p,q,r)$ with all edges parallel to the axes and with $OA$, $OB$ and $OC$ as face diagonals ($A(p,q,0)$, $B(p,0,r)$, $C(0,q,r)$). It is known that $\\angle AOB=\\angle AOC=\\angle BOC=\\dfrac\\pi3$. Prove that the rectangular prism is a cube.",
+   "answer": "$\\cos\\dfrac\\pi3=\\dfrac{\\overrightarrow{OA}\\cdot\\overrightarrow{OB}}{|OA||OB|}$, so $\\dfrac12=\\dfrac{p^2}{\\sqrt{p^2+q^2}\\sqrt{p^2+r^2}}$ (1). Similarly $\\dfrac12=\\dfrac{q^2}{\\sqrt{p^2+q^2}\\sqrt{q^2+r^2}}$ (2) and $\\dfrac12=\\dfrac{r^2}{\\sqrt{p^2+r^2}\\sqrt{q^2+r^2}}$ (3).\n\n(1)=(2): $p^2\\sqrt{q^2+r^2}=q^2\\sqrt{p^2+r^2}$. Squaring, $p^4(q^2+r^2)=q^4(p^2+r^2)$, so $p^2q^2(p^2-q^2)+r^2(p^2-q^2)(p^2+q^2)=0$, i.e. $(p^2-q^2)\\left[p^2q^2+r^2(p^2+q^2)\\right]=0$. The bracket is positive since $p,q,r>0$, so $p^2=q^2$ and $p=q$. Similarly (1)=(3) gives $p=r$. Hence $p=q=r$ and the prism is a cube.",
+   "images": [
+    "assets/img/ext2-2025-ascham/q16a.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.2",
+    "12.1.3.6"
+   ],
+   "question": "Show that for $k\\ge0$, $2k+3>2\\sqrt{(k+1)(k+2)}$.",
+   "answer": "Both sides are positive, so compare squares. $(2k+3)^2=4k^2+12k+9$ and $4(k+1)(k+2)=4k^2+12k+8$. Since $4k^2+12k+9>4k^2+12k+8$, $(2k+3)^2>4(k+1)(k+2)$, so $2k+3>2\\sqrt{(k+1)(k+2)}$."
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.4.2"
+   ],
+   "question": "Using $2k+3>2\\sqrt{(k+1)(k+2)}$ for $k\\ge0$, show that for $n\\ge1$, $1+\\dfrac1{\\sqrt2}+\\dfrac1{\\sqrt3}+\\dots+\\dfrac1{\\sqrt n}>2\\left(\\sqrt{n+1}-1\\right)$.",
+   "answer": "Base case $n=1$: LHS $=1$ and RHS $=2(\\sqrt2-1)\\approx0.83$, so LHS $>$ RHS.\n\nAssume $1+\\dfrac1{\\sqrt2}+\\dots+\\dfrac1{\\sqrt k}>2(\\sqrt{k+1}-1)$. Then\n$1+\\dots+\\dfrac1{\\sqrt k}+\\dfrac1{\\sqrt{k+1}}>2\\sqrt{k+1}-2+\\dfrac1{\\sqrt{k+1}}=\\dfrac{2(k+1)+1}{\\sqrt{k+1}}-2=\\dfrac{2k+3}{\\sqrt{k+1}}-2>\\dfrac{2\\sqrt{(k+1)(k+2)}}{\\sqrt{k+1}}-2=2\\sqrt{k+2}-2=2(\\sqrt{k+2}-1)$\n(using part (i)). This is the statement for $n=k+1$. By induction it is true for all $n\\ge1$."
+  },
+  {
+   "ref": "Q16(b)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.2"
+   ],
+   "question": "Given that $\\displaystyle\\sum_{k=1}^N\\dfrac1{\\sqrt k}>2\\left(\\sqrt{N+1}-1\\right)$, is the statement $\\displaystyle\\sum_{k=1}^N\\dfrac1{\\sqrt k}<10^{10}$ true for all positive integers $N$? Justify your answer.",
+   "answer": "No. From part (ii), $\\sum_{k=1}^N\\dfrac1{\\sqrt k}>2(\\sqrt{N+1}-1)$, which exceeds $10^{10}$ when $\\sqrt{N+1}>\\dfrac{10^{10}}2+1$, i.e. $N>\\left(\\dfrac{10^{10}}2+1\\right)^2-1$. For such $N$ the sum exceeds $10^{10}$, which is a counterexample, so the statement is false."
+  },
+  {
+   "ref": "Q16(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.7",
+    "12.3.2.9"
+   ],
+   "question": "Let $z_1$ and $z_2$ be two non-zero complex numbers with $z_1+z_2+1=0$. Show that $|z_1|=|z_2|=1\\Rightarrow\\dfrac1{z_1}+\\dfrac1{z_2}+1=0$.",
+   "answer": "If $|z|=1$ then $z\\bar z=|z|^2=1$, so $\\dfrac1z=\\bar z$. Then $\\dfrac1{z_1}+\\dfrac1{z_2}+1=\\bar z_1+\\bar z_2+1=\\overline{z_1+z_2+1}=\\bar0=0$."
+  },
+  {
+   "ref": "Q16(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.12",
+    "12.1.1.8"
+   ],
+   "question": "Let $z_1$ and $z_2$ be two non-zero complex numbers with $z_1+z_2+1=0$. Also show that $\\dfrac1{z_1}+\\dfrac1{z_2}+1=0\\Rightarrow|z_1|=|z_2|=1$.",
+   "answer": "$\\dfrac{z_1+z_2}{z_1z_2}=-1$, so $z_1+z_2=-z_1z_2$. Using $z_2=-1-z_1$: $-1=-z_1(-1-z_1)=z_1+z_1^2$, so $z_1^2+z_1+1=0$. Then $z_1^3-1=(z_1-1)(z_1^2+z_1+1)=0$ with $z_1\\ne1$, so $z_1$ is a non-real cube root of unity and $|z_1|=1$. Since the equations are symmetric in $z_1$ and $z_2$, $|z_2|=1$ as well."
+  },
+  {
+   "ref": "Q16(c)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.12"
+   ],
+   "question": "Let $z_1$ and $z_2$ be two non-zero complex numbers with $z_1+z_2+1=0$. Hence or otherwise show that $|z_1|=|z_2|=1\\Rightarrow z_1^2+z_2^2+1=0$.",
+   "answer": "If $|z_1|=|z_2|=1$ then by part (i) $\\dfrac1{z_1}+\\dfrac1{z_2}+1=0$, and as in part (ii) this gives $z_1^2+z_1+1=0$. Then $z_1^2+z_2^2+1=z_1^2+(-1-z_1)^2+1=2z_1^2+2z_1+2=2(z_1^2+z_1+1)=0$."
+  }
+ ]
+}
