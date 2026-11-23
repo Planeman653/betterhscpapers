@@ -1,0 +1,527 @@
+{
+ "id": "ext1-2026-sydney-girls",
+ "course": "extension1",
+ "school": "Sydney Girls",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "Sydney Girls 2026 w. sol"
+ },
+ "indexed": "2026-11-24",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.7",
+    "12.2.4.5"
+   ],
+   "question": "What is the magnitude of $2\\underset{\\sim}{u}+3\\underset{\\sim}{v}$?",
+   "answer": "$|2\\mathbf u+3\\mathbf v|^2=4|\\mathbf u|^2+12\\,\\mathbf u\\cdot\\mathbf v+9|\\mathbf v|^2$. This depends on $\\mathbf u$ and $\\mathbf v$, which are not given, so the magnitude cannot be determined (D).",
+   "options": [
+    "$\\sqrt5$",
+    "$\\sqrt{11}$",
+    "$\\sqrt{13}$",
+    "Cannot be determined."
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.2",
+    "11.2.1.10"
+   ],
+   "question": "The polynomial $P(x)=x^3+5x^2+bx+c$ has a double root at $x=-1$. What are the values of $b$ and $c$?",
+   "answer": "A double root at $-1$ means $P(-1)=0$ and $P'(-1)=0$. $P'(x)=3x^2+10x+b$, so $3-10+b=0$ and $b=7$. Then $P(-1)=-1+5-7+c=0$ gives $c=3$ (A). Check: $(x+1)^2(x+3)=x^3+5x^2+7x+3$.",
+   "options": [
+    "$b=7,\\ c=3$",
+    "$b=7,\\ c=-3$",
+    "$b=-7,\\ c=3$",
+    "$b=-7,\\ c=-3$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.3",
+    "12.4.2.3"
+   ],
+   "question": "What is the value of $\\displaystyle\\int_0^{\\pi/4}\\left(4\\cos^2x-5\\right)dx$?",
+   "answer": "$4\\cos^2x-5=2(1+\\cos2x)-5=2\\cos2x-3$. $\\displaystyle\\int_0^{\\pi/4}(2\\cos2x-3)dx=\\Big[\\sin2x-3x\\Big]_0^{\\pi/4}=1-\\dfrac{3\\pi}4$ (A).",
+   "options": [
+    "$1-\\dfrac{3\\pi}4$",
+    "$1-\\dfrac{5\\pi}4$",
+    "$-1-\\dfrac{3\\pi}4$",
+    "$2-\\dfrac{3\\pi}4$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.9"
+   ],
+   "question": "Which of the following is equivalent to $\\left|\\operatorname{proj}_{\\underset{\\sim}{v}}\\underset{\\sim}{u}\\right|$?",
+   "answer": "$\\operatorname{proj}_{\\mathbf v}\\mathbf u=\\dfrac{\\mathbf u\\cdot\\mathbf v}{|\\mathbf v|^2}\\mathbf v$, so its magnitude is $\\dfrac{|\\mathbf u\\cdot\\mathbf v|}{|\\mathbf v|^2}|\\mathbf v|=\\dfrac{|\\mathbf u\\cdot\\mathbf v|}{|\\mathbf v|}$ (C). The absolute value is needed since the magnitude is never negative (B can be negative).",
+   "options": [
+    "$|\\mathbf u|$",
+    "$\\dfrac{\\mathbf u\\cdot\\mathbf v}{|\\mathbf v|}$",
+    "$\\dfrac{|\\mathbf u\\cdot\\mathbf v|}{|\\mathbf v|}$",
+    "$\\dfrac{\\mathbf u\\cdot\\mathbf v}{|\\mathbf u|}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.3.3"
+   ],
+   "question": "Which of the following gives the same curve as $x=\\sin t$ and $y=-t$, for all real numbers $t$?",
+   "answer": "The original curve is $x=\\sin(-y)=-\\sin y$. A: $x=\\sin y$, which is a different curve. C and D: $y=t^2+\\pi$ or $y=-t^2$ cannot take all real values, so they give only part of the curve. B: $y=2t+\\pi$ takes all real values and $x=-\\sin(2t+\\pi)=-\\sin y$, which is the same curve (B).",
+   "options": [
+    "$x=\\sin(2t),\\ y=2t$",
+    "$x=-\\sin(2t+\\pi),\\ y=2t+\\pi$",
+    "$x=-\\sin(t^2+\\pi),\\ y=t^2+\\pi$",
+    "$x=\\sin(t^2),\\ y=-t^2$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.9"
+   ],
+   "question": "How many seven letter words can be formed from the word THUNDER, such that T and R must be at either end, and U is somewhere to the right of D?",
+   "answer": "T and R occupy the two ends in $2!=2$ ways. The other five letters fill the middle, and U is to the right of D in exactly half of the $5!$ arrangements, i.e. $\\dfrac{5!}{2}=60$. Total $=2\\times60=120$ (B).",
+   "options": [
+    "60",
+    "120",
+    "240",
+    "None of the above."
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.1.1.4",
+    "11.1.1.3"
+   ],
+   "question": "What is the number of solutions to the equation $x+e^{-x}=\\big||x|-2\\big|$?",
+   "answer": "Sketch $y=x+e^{-x}$ and $y=\\big||x|-2\\big|$ (a W shape with minima at $x=\\pm2$ and a local maximum of 2 at $x=0$). For large positive $x$, $e^{-x}\\to0$ so the exponential curve approaches $y=x$, which lies above the right arm $y=x-2$ and so never meets it. The curve $y=x+e^{-x}$ has a minimum value of 1 at $x=0$ and crosses the middle part of the W (the peak region near $x=0$) twice, once either side of the $y$-axis. There are no other intersections, so there are 2 solutions (C).",
+   "options": [
+    "0",
+    "1",
+    "2",
+    "3"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.1",
+    "12.5.4.9"
+   ],
+   "question": "The gradient of the normal at any point $P$ on a particular curve is half the gradient of the line joining $P$ and the origin. Which of the following differential equations does this curve satisfy?",
+   "answer": "Normal gradient $=-\\dfrac1{dy/dx}$ and the gradient of $OP$ is $\\dfrac yx$. So $-\\dfrac1{dy/dx}=\\dfrac12\\cdot\\dfrac yx$. Taking reciprocals, $-\\dfrac{dy}{dx}=\\dfrac{2x}y$, i.e. $\\dfrac{dy}{dx}+\\dfrac{2x}y=0$ (C).",
+   "options": [
+    "$\\dfrac{dy}{dx}+\\dfrac x{2y}=0$",
+    "$\\dfrac{dy}{dx}-\\dfrac x{2y}=0$",
+    "$\\dfrac{dy}{dx}+\\dfrac{2x}y=0$",
+    "$\\dfrac{dy}{dx}-\\dfrac{2x}y=0$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.3.2.9",
+    "11.3.3.2",
+    "12.4.2.2"
+   ],
+   "question": "Let $f(x)=\\sin(2x)-\\sqrt3\\cos(2x)$. What is the value of $\\displaystyle\\int_0^{\\pi/2}\\sin^{-1}\\left(\\dfrac{f(x)}2\\right)dx$?",
+   "answer": "$f(x)=2\\sin\\left(2x-\\dfrac\\pi3\\right)$, so the integrand is $\\sin^{-1}\\left(\\sin\\left(2x-\\dfrac\\pi3\\right)\\right)$. Let $u=2x-\\dfrac\\pi3$, $du=2dx$; the limits become $-\\dfrac\\pi3$ to $\\dfrac{2\\pi}3$: $I=\\dfrac12\\displaystyle\\int_{-\\pi/3}^{2\\pi/3}\\sin^{-1}(\\sin u)\\,du$. The graph of $\\sin^{-1}(\\sin u)$ equals $u$ for $|u|\\le\\dfrac\\pi2$ and $\\pi-u$ for $\\dfrac\\pi2\\le u\\le\\dfrac{3\\pi}2$. The integral is the signed area: $\\displaystyle\\int_{-\\pi/3}^{\\pi/2}u\\,du=\\dfrac12\\left(\\dfrac{\\pi^2}4-\\dfrac{\\pi^2}9\\right)=\\dfrac{5\\pi^2}{72}$ and $\\displaystyle\\int_{\\pi/2}^{2\\pi/3}(\\pi-u)du=\\dfrac12\\left(\\dfrac\\pi2\\right)^2-\\dfrac12\\left(\\dfrac\\pi3\\right)^2=\\dfrac{5\\pi^2}{72}$. Total $=\\dfrac{5\\pi^2}{36}$, so $I=\\dfrac12\\cdot\\dfrac{5\\pi^2}{36}=\\dfrac{5\\pi^2}{72}$ (D).",
+   "options": [
+    "$\\dfrac{\\pi^2}{12}$",
+    "$\\dfrac{\\pi^2}{18}$",
+    "$\\dfrac{5\\pi^2}{36}$",
+    "$\\dfrac{5\\pi^2}{72}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 5,
+   "dotpoints": [
+    "11.4.1.17"
+   ],
+   "question": "Distinct factors of $337\\,500$ are randomly selected. What is the minimum number of distinct factors of $337\\,500$ that must be selected to guarantee that the product of these selected factors will be a multiple of $337\\,500$?",
+   "answer": "$337\\,500=2^2\\times3^3\\times5^5$. The product is a multiple of $337\\,500$ only if the exponents of 2, 3 and 5 in the product sum to at least 2, 3 and 5 respectively. Worst case: select all factors with no factor of 2, i.e. $3^a5^b$ with $0\\le a\\le3$, $0\\le b\\le5$, which is $4\\times6=24$ factors. Their product contains no 2. Adding one more factor (which must contain at least one 2, e.g. $2^1$) gives only $2^1$, still not enough (25 factors). A 26th factor adds at least another 2, so the power of 2 is at least $2^2$, and since all 24 factors without 2 are included, the powers of 3 and 5 are far more than needed. So 26 factors are needed (B). (Leaving out all factors with no 3 or no 5 gives smaller worst-case sets of 18 and 12 factors respectively.)",
+   "options": [
+    "22",
+    "26",
+    "31",
+    "37"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Differentiate $(\\tan^{-1}x)^2$.",
+   "answer": "$\\dfrac d{dx}(\\tan^{-1}x)^2=2\\tan^{-1}x\\cdot\\dfrac1{1+x^2}=\\dfrac{2\\tan^{-1}x}{1+x^2}$."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Use the substitution $u=x+2$ to find $\\displaystyle\\int(x-1)\\sqrt{x+2}\\,dx$.",
+   "answer": "$x=u-2$ and $du=dx$. $\\displaystyle\\int(u-3)u^{1/2}du=\\int\\left(u^{3/2}-3u^{1/2}\\right)du=\\dfrac25u^{5/2}-2u^{3/2}+C=\\dfrac25(x+2)^{5/2}-2(x+2)^{3/2}+C$."
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Solve $\\dfrac x{1-x^2}<0$.",
+   "answer": "Multiply both sides by $(1-x^2)^2>0$ (valid for $x\\ne\\pm1$): $x(1-x^2)<0$, i.e. $x(1-x)(1+x)<0$. The cubic has negative leading coefficient and zeroes at $-1,0,1$, so it is negative for $-1<x<0$ and $x>1$. These avoid $x=\\pm1$ (undefined) and $x=0$ (equals 0). Solution: $-1<x<0$ or $x>1$."
+  },
+  {
+   "ref": "Q11(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.2.7"
+   ],
+   "question": "Consider the function $f(x)=\\dfrac{x-2}{x-5}$. State the range of $f^{-1}(x)$.",
+   "answer": "The range of $f^{-1}$ is the domain of $f$: all real $x$ with $x\\ne5$."
+  },
+  {
+   "ref": "Q11(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.2.5"
+   ],
+   "question": "Consider the function $f(x)=\\dfrac{x-2}{x-5}$. Find an expression for $f^{-1}(x)$.",
+   "answer": "Swap $x$ and $y$: $x=\\dfrac{y-2}{y-5}$. Then $xy-5x=y-2$, so $y(x-1)=5x-2$ and $f^{-1}(x)=\\dfrac{5x-2}{x-1}$."
+  },
+  {
+   "ref": "Q11(e)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.1"
+   ],
+   "question": "The graph of $y=f(x)$ is shown. It has a maximum at $(-1,1)$, $x$-intercepts at $-3$ and $1$, and $y$-intercept $\\tfrac23$. Sketch the graph of $y=\\dfrac1{f(x)}$, clearly showing all important features.",
+   "answer": "Features: vertical asymptotes at $x=-3$ and $x=1$ (the zeroes of $f$); horizontal asymptote $y=0$ (as $f\\to\\pm\\infty$); $y$-intercept $\\dfrac32$; a minimum at $(-1,1)$ between the asymptotes (the reciprocal of the maximum of $f$). The graph is above the $x$-axis for $-3<x<1$ and below it outside this interval, passing through the points where $f=-1$ (the same points as $f$). Sketch:",
+   "images": [
+    "assets/img/ext1-2026-sydney-girls/q11e.png"
+   ],
+   "answer_images": [
+    "assets/img/ext1-2026-sydney-girls/a11e1.png"
+   ]
+  },
+  {
+   "ref": "Q11(e)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.1.1.3",
+    "11.1.1.6"
+   ],
+   "question": "The graph of $y=f(x)$ is shown. It has a maximum at $(-1,1)$, $x$-intercepts at $-3$ and $1$, and $y$-intercept $\\tfrac23$. Sketch the graph of $y^2=|f(x)|$, clearly showing all important features.",
+   "answer": "First sketch $y=|f(x)|$ (reflect the part below the $x$-axis upwards), then $y=\\pm\\sqrt{|f(x)|}$. Features: $x$-intercepts at $-3$ and $1$ (with vertical tangents there); symmetric about the $x$-axis; $y$-intercepts $\\pm\\sqrt{\\tfrac23}$; the points $(-1,\\pm1)$; between $-3$ and $1$ the curve is outside the graph of $y=f(x)$ since $\\sqrt{|f|}>|f|$ when $|f|<1$ (so it lies above $f$ there); outside this interval the curves $y=\\pm\\sqrt{-f(x)}$ continue to grow like $\\pm\\sqrt{|x|}$. Sketch:",
+   "images": [
+    "assets/img/ext1-2026-sydney-girls/q11e.png"
+   ],
+   "answer_images": [
+    "assets/img/ext1-2026-sydney-girls/a11e2.png"
+   ]
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.2",
+    "12.4.2.3"
+   ],
+   "question": "Find $\\displaystyle\\int3\\cos(2x)\\cos\\left(5x-\\dfrac\\pi3\\right)dx$.",
+   "answer": "Using $\\cos A\\cos B=\\dfrac12[\\cos(A-B)+\\cos(A+B)]$ with $A=2x$, $B=5x-\\dfrac\\pi3$: $\\cos2x\\cos\\left(5x-\\dfrac\\pi3\\right)=\\dfrac12\\left[\\cos\\left(3x-\\dfrac\\pi3\\right)+\\cos\\left(7x-\\dfrac\\pi3\\right)\\right]$ (cosine is even). So $\\displaystyle\\int=\\dfrac32\\left[\\dfrac13\\sin\\left(3x-\\dfrac\\pi3\\right)+\\dfrac17\\sin\\left(7x-\\dfrac\\pi3\\right)\\right]+C=\\dfrac12\\sin\\left(3x-\\dfrac\\pi3\\right)+\\dfrac3{14}\\sin\\left(7x-\\dfrac\\pi3\\right)+C$."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.3.3.1",
+    "11.3.2.4"
+   ],
+   "question": "Solve $2\\operatorname{cosec}\\theta-4\\cot\\theta=3$ using the $t$-formula, for $0\\le\\theta\\le2\\pi$. Give your answer(s) correct to 3 significant figures.",
+   "answer": "Let $t=\\tan\\dfrac\\theta2$: $\\sin\\theta=\\dfrac{2t}{1+t^2}$ and $\\tan\\theta=\\dfrac{2t}{1-t^2}$, so $\\operatorname{cosec}\\theta=\\dfrac{1+t^2}{2t}$ and $\\cot\\theta=\\dfrac{1-t^2}{2t}$. Then $\\dfrac{2(1+t^2)-4(1-t^2)}{2t}=3$, so $6t^2-2=6t$, i.e. $3t^2-3t-1=0$ and $t=\\dfrac{3\\pm\\sqrt{21}}6$. $\\dfrac\\theta2=\\arctan\\dfrac{3+\\sqrt{21}}6$ gives $\\theta=1.80$; $\\dfrac\\theta2=\\pi+\\arctan\\dfrac{3-\\sqrt{21}}6$ (the principal value is negative, so add $\\pi$) gives $\\theta=5.77$. Both lie in $[0,2\\pi]$. Also $\\theta=\\pi$ ($t$ undefined) is not a solution since $\\cot\\pi$ is undefined. $\\theta=1.80,\\ 5.77$."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.4"
+   ],
+   "question": "The region enclosed by $y=e^{-x}$, $y=x$, $x=1$ and $x=3$ is rotated about the $x$-axis. Calculate the volume of the solid of revolution. Give your answer in fully simplified exact form.",
+   "answer": "On $[1,3]$, $x\\ge1>e^{-x}$, so $y=x$ is on top. $V=\\pi\\displaystyle\\int_1^3\\left(x^2-e^{-2x}\\right)dx=\\pi\\left[\\dfrac{x^3}3+\\dfrac12e^{-2x}\\right]_1^3=\\pi\\left[\\left(9+\\dfrac12e^{-6}\\right)-\\left(\\dfrac13+\\dfrac12e^{-2}\\right)\\right]=\\pi\\left(\\dfrac{26}3+\\dfrac12e^{-6}-\\dfrac12e^{-2}\\right)$ cubic units."
+  },
+  {
+   "ref": "Q12(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.7"
+   ],
+   "question": "Let $\\underset{\\sim}{u}=2\\mathbf i+5\\mathbf j$ and $\\underset{\\sim}{v}=-3\\mathbf i+\\lambda^2\\mathbf j$, where $\\lambda$ is a real number. Determine the values of $\\lambda$ such that $\\underset{\\sim}{u}$ and $\\underset{\\sim}{v}$ are perpendicular.",
+   "answer": "$\\mathbf u\\cdot\\mathbf v=-6+5\\lambda^2=0$, so $\\lambda^2=\\dfrac65$ and $\\lambda=\\pm\\sqrt{\\dfrac65}$."
+  },
+  {
+   "ref": "Q12(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.4"
+   ],
+   "question": "Let $\\underset{\\sim}{u}=2\\mathbf i+5\\mathbf j$ and $\\underset{\\sim}{v}=-3\\mathbf i+\\lambda^2\\mathbf j$, where $\\lambda$ is a real number. Explain why $\\underset{\\sim}{u}$ cannot be parallel to $\\underset{\\sim}{v}$. (Justify your answer mathematically.)",
+   "answer": "If parallel, there is a real $r$ with $\\mathbf u=r\\mathbf v$: $2=-3r$ and $5=r\\lambda^2$. The first gives $r=-\\dfrac23$, so $\\lambda^2=5\\div\\left(-\\dfrac23\\right)=-7.5$, which is impossible for real $\\lambda$. Hence $\\mathbf u$ and $\\mathbf v$ are never parallel. (Alternatively, $\\mathbf u$ points into the first quadrant while $\\mathbf v$ has negative $x$-component and non-negative $y$-component, so they cannot be scalar multiples.)"
+  },
+  {
+   "ref": "Q12(d)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.9",
+    "12.2.4.11"
+   ],
+   "question": "Let $\\underset{\\sim}{u}=2\\mathbf i+5\\mathbf j$ and $\\underset{\\sim}{v}=-3\\mathbf i+\\lambda^2\\mathbf j$. If $\\lambda=1$, determine $\\underset{\\sim}{q}$ such that $\\underset{\\sim}{u}=\\operatorname{proj}_{\\underset{\\sim}{v}}(\\underset{\\sim}{u})+\\underset{\\sim}{q}$.",
+   "answer": "With $\\lambda=1$, $\\mathbf v=(-3,1)$. $\\mathbf u\\cdot\\mathbf v=-6+5=-1$ and $\\mathbf v\\cdot\\mathbf v=10$. $\\operatorname{proj}_{\\mathbf v}\\mathbf u=\\dfrac{-1}{10}(-3,1)=(0.3,-0.1)$. $\\mathbf q=\\mathbf u-\\operatorname{proj}_{\\mathbf v}\\mathbf u=(2-0.3,\\ 5+0.1)=\\begin{pmatrix}1.7\\\\5.1\\end{pmatrix}$."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "The roots of $P(x)=8x^3-5x^2+2x-1$ are $\\alpha,\\beta$ and $\\gamma$. Find the value of $\\alpha^2+\\beta^2+\\gamma^2$.",
+   "answer": "$\\alpha+\\beta+\\gamma=\\dfrac58$ and $\\alpha\\beta+\\alpha\\gamma+\\beta\\gamma=\\dfrac28=\\dfrac14$. $\\alpha^2+\\beta^2+\\gamma^2=(\\alpha+\\beta+\\gamma)^2-2(\\alpha\\beta+\\alpha\\gamma+\\beta\\gamma)=\\dfrac{25}{64}-\\dfrac12=-\\dfrac7{64}$. (This is negative, so $P$ has non-real roots.)"
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "The triangle $ABC$ is right angled at $A$. Let $AB=5$ cm and $\\angle ABC=\\theta$ radians. If $\\theta$ is increasing at a constant rate of $0.1$ radians per second, find the rate at which the perimeter of the triangle is increasing when $\\theta=\\dfrac\\pi3$ radians. Leave your answer in exact form.",
+   "answer": "$AC=5\\tan\\theta$ and $BC=\\dfrac5{\\cos\\theta}=5\\sec\\theta$. Perimeter $p=5+5\\tan\\theta+5\\sec\\theta$. $\\dfrac{dp}{d\\theta}=5\\sec^2\\theta+5\\sec\\theta\\tan\\theta$. $\\dfrac{dp}{dt}=\\dfrac{dp}{d\\theta}\\cdot\\dfrac{d\\theta}{dt}=0.1\\left(5\\sec^2\\theta+5\\sec\\theta\\tan\\theta\\right)$. At $\\theta=\\dfrac\\pi3$: $\\sec=2$, $\\tan=\\sqrt3$, so $\\dfrac{dp}{dt}=0.1(20+10\\sqrt3)=2+\\sqrt3$ cm/s."
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Prove by mathematical induction that, for all integers $n\\ge1$, $2\\times1!+5\\times2!+10\\times3!+\\cdots+(n^2+1)\\times n!=n\\times(n+1)!$.",
+   "answer": "$n=1$: LHS $=(1+1)\\times1!=2$, RHS $=1\\times2!=2$. True.\n\nAssume true for $n=k$: $2\\times1!+\\cdots+(k^2+1)k!=k(k+1)!$.\n\nFor $n=k+1$: LHS $=k(k+1)!+\\left[(k+1)^2+1\\right](k+1)!=(k+1)!\\left[k+k^2+2k+2\\right]=(k+1)!\\left(k^2+3k+2\\right)=(k+1)!(k+1)(k+2)=(k+1)(k+2)!$, which is RHS for $n=k+1$. By induction it is true for all $n\\ge1$."
+  },
+  {
+   "ref": "Q13(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Show that $\\dfrac1{2000}\\left(\\dfrac1S+\\dfrac1{2000-S}\\right)=\\dfrac1{S(2000-S)}$.",
+   "answer": "LHS $=\\dfrac1{2000}\\cdot\\dfrac{(2000-S)+S}{S(2000-S)}=\\dfrac1{2000}\\cdot\\dfrac{2000}{S(2000-S)}=\\dfrac1{S(2000-S)}$."
+  },
+  {
+   "ref": "Q13(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.4.13",
+    "12.5.4.15"
+   ],
+   "question": "The rate of spread of a flu is modelled by $\\dfrac{dS}{dt}=\\dfrac{S(2000-S)}{5000}$, where $S$ is the total number of people infected after $t$ days. Solve the differential equation using separation of variables to show that $S=\\dfrac{2000}{1+Qe^{-0.4t}}$, where $Q$ is a constant.",
+   "answer": "$\\displaystyle\\int\\dfrac{dS}{S(2000-S)}=\\int\\dfrac{dt}{5000}$. By part (i), $\\dfrac1{2000}\\int\\left(\\dfrac1S+\\dfrac1{2000-S}\\right)dS=\\dfrac t{5000}+C$, so $\\ln\\left|\\dfrac S{2000-S}\\right|=0.4t+C_1$ (multiplying by 2000). Hence $\\dfrac S{2000-S}=Ae^{0.4t}$ ($A=\\pm e^{C_1}$). $S=Ae^{0.4t}(2000-S)$, so $S\\left(1+Ae^{0.4t}\\right)=2000Ae^{0.4t}$ and $S=\\dfrac{2000Ae^{0.4t}}{1+Ae^{0.4t}}=\\dfrac{2000}{1+\\frac1Ae^{-0.4t}}$. With $Q=\\dfrac1A$: $S=\\dfrac{2000}{1+Qe^{-0.4t}}$."
+  },
+  {
+   "ref": "Q13(d)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.6",
+    "12.5.4.7"
+   ],
+   "question": "The slope field of $\\dfrac{dS}{dt}=\\dfrac{S(2000-S)}{5000}$ is shown, with three regions labelled A (above $S=2000$), B (between $S=0$ and $S=2000$) and C (below $S=0$). Consider the particular solution $S=\\dfrac{2000}{1+199e^{-0.4t}}$. In which one of these three regions will the curve of the particular solution lie? You must justify your answer.",
+   "answer": "For $t\\ge0$, $199e^{-0.4t}>0$, so $1+199e^{-0.4t}>1$ and $0<S<2000$. At $t=0$, $S=\\dfrac{2000}{200}=10$ and as $t\\to\\infty$, $S\\to2000$ from below. So the curve lies entirely in region B.",
+   "images": [
+    "assets/img/ext1-2026-sydney-girls/q13d.png"
+   ]
+  },
+  {
+   "ref": "Q13(d)(iv)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.15",
+    "12.5.2.2"
+   ],
+   "question": "According to this model, and using $Q=199$, after how many days does the rate of spread reach its maximum? Give your answer correct to 2 decimal places.",
+   "answer": "$\\dfrac{dS}{dt}=\\dfrac{S(2000-S)}{5000}$ is a downward parabola in $S$ with its maximum at $S=1000$. Set $\\dfrac{2000}{1+199e^{-0.4t}}=1000$: $1+199e^{-0.4t}=2$, so $e^{-0.4t}=\\dfrac1{199}$ and $t=\\dfrac{\\ln199}{0.4}=13.23$ days."
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.6"
+   ],
+   "question": "In $\\triangle ABC$, $M$ and $N$ are the midpoints of $AB$ and $AC$ respectively. Let $\\overrightarrow{AB}=\\underset{\\sim}{b}$ and $\\overrightarrow{AC}=\\underset{\\sim}{c}$. Show that $\\overrightarrow{BN}=\\dfrac12\\underset{\\sim}{c}-\\underset{\\sim}{b}$, and write a similar expression for $\\overrightarrow{CM}$.",
+   "answer": "$\\overrightarrow{BN}=\\overrightarrow{BA}+\\overrightarrow{AN}=-\\mathbf b+\\dfrac12\\mathbf c=\\dfrac12\\mathbf c-\\mathbf b$. $\\overrightarrow{CM}=\\overrightarrow{CA}+\\overrightarrow{AM}=-\\mathbf c+\\dfrac12\\mathbf b=\\dfrac12\\mathbf b-\\mathbf c$."
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.4.7",
+    "12.2.4.5"
+   ],
+   "question": "In $\\triangle ABC$, $M$ and $N$ are the midpoints of $AB$ and $AC$ respectively. Let $\\overrightarrow{AB}=\\underset{\\sim}{b}$ and $\\overrightarrow{AC}=\\underset{\\sim}{c}$. Hence, using vectors, show that if $BN$ and $CM$ are perpendicular, then $|\\mathbf b|^2+|\\mathbf c|^2=5|\\mathbf a|^2$, where $\\mathbf a=\\overrightarrow{BC}$.",
+   "answer": "Perpendicular: $\\overrightarrow{BN}\\cdot\\overrightarrow{CM}=0$. $\\left(\\dfrac12\\mathbf c-\\mathbf b\\right)\\cdot\\left(\\dfrac12\\mathbf b-\\mathbf c\\right)=\\dfrac14\\mathbf b\\cdot\\mathbf c-\\dfrac12|\\mathbf c|^2-\\dfrac12|\\mathbf b|^2+\\mathbf b\\cdot\\mathbf c=\\dfrac54\\mathbf b\\cdot\\mathbf c-\\dfrac12\\left(|\\mathbf b|^2+|\\mathbf c|^2\\right)=0$, so $\\mathbf b\\cdot\\mathbf c=\\dfrac25\\left(|\\mathbf b|^2+|\\mathbf c|^2\\right)$ (1). Now $\\mathbf a=\\overrightarrow{BC}=\\mathbf c-\\mathbf b$, so $|\\mathbf a|^2=|\\mathbf b|^2+|\\mathbf c|^2-2\\mathbf b\\cdot\\mathbf c$. Substituting (1): $|\\mathbf a|^2=\\left(|\\mathbf b|^2+|\\mathbf c|^2\\right)\\left(1-\\dfrac45\\right)=\\dfrac15\\left(|\\mathbf b|^2+|\\mathbf c|^2\\right)$. Hence $|\\mathbf b|^2+|\\mathbf c|^2=5|\\mathbf a|^2$."
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.6",
+    "11.3.2.2"
+   ],
+   "question": "The position vectors of particles $P$ and $Q$ at time $t$ minutes are $\\begin{pmatrix}\\cos t\\\\\\sin t\\end{pmatrix}$ and $\\begin{pmatrix}\\cos3t\\\\\\sin3t\\end{pmatrix}$ respectively, where $0\\le t\\le2\\pi$. Let $\\theta$ be the angle between the vectors $\\overrightarrow{OP}$ and $\\overrightarrow{OQ}$ at time $t$, where $O$ is the origin. Show that $\\cos\\theta=\\cos2t$.",
+   "answer": "$|\\overrightarrow{OP}|=|\\overrightarrow{OQ}|=1$, so $\\cos\\theta=\\overrightarrow{OP}\\cdot\\overrightarrow{OQ}=\\cos t\\cos3t+\\sin t\\sin3t=\\cos(3t-t)=\\cos2t$."
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.4.6",
+    "11.3.3.4"
+   ],
+   "question": "The position vectors of particles $P$ and $Q$ at time $t$ minutes are $\\begin{pmatrix}\\cos t\\\\\\sin t\\end{pmatrix}$ and $\\begin{pmatrix}\\cos3t\\\\\\sin3t\\end{pmatrix}$ respectively, where $0\\le t\\le2\\pi$. Let $\\theta$ be the angle between the vectors $\\overrightarrow{OP}$ and $\\overrightarrow{OQ}$ at time $t$, where $O$ is the origin. Find the total time for which $\\theta\\ge\\dfrac\\pi4$.",
+   "answer": "$0\\le\\theta\\le\\pi$ and $\\cos$ is decreasing on this interval, so $\\theta\\ge\\dfrac\\pi4\\iff\\cos\\theta\\le\\dfrac1{\\sqrt2}\\iff\\cos2t\\le\\dfrac1{\\sqrt2}$. For $0\\le2t\\le4\\pi$ this holds for $2t\\in\\left[\\dfrac\\pi4,\\dfrac{7\\pi}4\\right]\\cup\\left[\\dfrac{9\\pi}4,\\dfrac{15\\pi}4\\right]$, i.e. $t\\in\\left[\\dfrac\\pi8,\\dfrac{7\\pi}8\\right]\\cup\\left[\\dfrac{9\\pi}8,\\dfrac{15\\pi}8\\right]$. Each interval has length $\\dfrac{3\\pi}4$, so the total time is $\\dfrac{3\\pi}2$ minutes."
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.2.6.6",
+    "12.2.6.8"
+   ],
+   "question": "A particle is projected from the origin $O$ with initial speed $U$ and angle of elevation $\\alpha$, where $0<\\alpha<\\dfrac\\pi2$. The position vector at time $t$ after projection, where $g$ is the acceleration due to gravity, is $\\underset{\\sim}{r}(t)=\\begin{pmatrix}Ut\\cos\\alpha\\\\Ut\\sin\\alpha-\\dfrac{gt^2}2\\end{pmatrix}$. (Do NOT prove this.) Prove that if the particle passes through the point $P(a,b)$, where $a>0$, then the minimum possible value of $U$ is $\\sqrt{g\\left(b+\\sqrt{a^2+b^2}\\right)}$.",
+   "answer": "Eliminate $t=\\dfrac x{U\\cos\\alpha}$: $y=x\\tan\\alpha-\\dfrac{gx^2}{2U^2}\\sec^2\\alpha=x\\tan\\alpha-\\dfrac{gx^2}{2U^2}\\left(1+\\tan^2\\alpha\\right)$. Passing through $(a,b)$ with $T=\\tan\\alpha$: $b=aT-\\dfrac{ga^2}{2U^2}(1+T^2)$, so $\\dfrac{ga^2}{2U^2}T^2-aT+\\left(b+\\dfrac{ga^2}{2U^2}\\right)=0$.\n\nFor a real $\\alpha$ to exist the discriminant must be non-negative: $a^2-4\\cdot\\dfrac{ga^2}{2U^2}\\left(b+\\dfrac{ga^2}{2U^2}\\right)\\ge0$. Dividing by $a^2$: $1\\ge\\dfrac{2g}{U^2}\\left(b+\\dfrac{ga^2}{2U^2}\\right)$, so $U^2\\ge2gb+\\dfrac{g^2a^2}{U^2}$, i.e. $U^4-2gbU^2-g^2a^2\\ge0$. Complete the square: $(U^2-gb)^2\\ge g^2b^2+g^2a^2$, so $|U^2-gb|\\ge g\\sqrt{a^2+b^2}$. Since $U^2-gb\\le-g\\sqrt{a^2+b^2}$ would give $U^2\\le g(b-\\sqrt{a^2+b^2})\\le0$, which is impossible, we need $U^2\\ge g\\left(b+\\sqrt{a^2+b^2}\\right)$. The minimum possible value of $U$ is $\\sqrt{g\\left(b+\\sqrt{a^2+b^2}\\right)}$."
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.6.8"
+   ],
+   "question": "A particle is projected from the origin $O$ with initial speed $U$ and angle of elevation $\\alpha$, where $0<\\alpha<\\dfrac\\pi2$. The position vector at time $t$ after projection, where $g$ is the acceleration due to gravity, is $\\underset{\\sim}{r}(t)=\\begin{pmatrix}Ut\\cos\\alpha\\\\Ut\\sin\\alpha-\\dfrac{gt^2}2\\end{pmatrix}$. (Do NOT prove this.) Suppose the particle is projected with the minimum possible speed in order to pass through $P(a,b)$. Show that $\\tan\\alpha=\\dfrac{b+\\sqrt{a^2+b^2}}a$.",
+   "answer": "At the minimum speed the discriminant is zero, so the quadratic $\\dfrac{ga^2}{2U^2}T^2-aT+\\left(b+\\dfrac{ga^2}{2U^2}\\right)=0$ has the repeated root $T=\\dfrac{a}{2\\cdot\\frac{ga^2}{2U^2}}=\\dfrac{U^2}{ga}$. With $U^2=g\\left(b+\\sqrt{a^2+b^2}\\right)$: $\\tan\\alpha=\\dfrac{b+\\sqrt{a^2+b^2}}a$."
+  },
+  {
+   "ref": "Q14(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.2.6.8",
+    "11.3.2.2"
+   ],
+   "question": "A particle is projected from the origin $O$ with initial speed $U$ and angle of elevation $\\alpha$, where $0<\\alpha<\\dfrac\\pi2$. The position vector at time $t$ after projection, where $g$ is the acceleration due to gravity, is $\\underset{\\sim}{r}(t)=\\begin{pmatrix}Ut\\cos\\alpha\\\\Ut\\sin\\alpha-\\dfrac{gt^2}2\\end{pmatrix}$. (Do NOT prove this.) The particle is projected with the minimum possible speed to pass through $P(a,b)$. Deduce that $\\underset{\\sim}{v}(0)$ bisects the angle between $OP$ and the positive $y$-axis, where $\\underset{\\sim}{v}(0)$ is the initial velocity vector of the particle.",
+   "answer": "Let $\\beta$ be the angle $OP$ makes with the positive $x$-axis, so $\\tan\\beta=\\dfrac ba$. The initial velocity makes angle $\\alpha$ with the $x$-axis. The angle between $\\mathbf v(0)$ and the positive $y$-axis is $\\dfrac\\pi2-\\alpha$ and the angle between $OP$ and $\\mathbf v(0)$ is $\\alpha-\\beta$. To show: $\\dfrac\\pi2-\\alpha=\\alpha-\\beta$ (this requires $\\alpha>\\beta$, which holds since $\\tan\\alpha>\\dfrac ba$).\n\n$\\tan\\left(\\dfrac\\pi2-\\alpha\\right)=\\cot\\alpha=\\dfrac a{b+\\sqrt{a^2+b^2}}$. Let $r=\\sqrt{a^2+b^2}$. $\\tan(\\alpha-\\beta)=\\dfrac{\\tan\\alpha-\\tan\\beta}{1+\\tan\\alpha\\tan\\beta}=\\dfrac{\\frac{b+r}a-\\frac ba}{1+\\frac{b(b+r)}{a^2}}=\\dfrac{r/a}{\\frac{a^2+b^2+br}{a^2}}=\\dfrac{ar}{r^2+br}=\\dfrac a{r+b}$. The two tangents are equal and both angles lie in $\\left(0,\\dfrac\\pi2\\right)$, so $\\dfrac\\pi2-\\alpha=\\alpha-\\beta$: $\\mathbf v(0)$ bisects the angle between $OP$ and the positive $y$-axis."
+  }
+ ]
+}
