@@ -35,6 +35,42 @@
     "$m < \\dfrac{1}{2\\pi} < \\dfrac{1}{a}$"
    ],
    "correct": "B"
+  },
+  {
+   "ref": "Q-Haysen-a",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.1.2"
+   ],
+   "question": "Frat is on a swing whose base is 10 metres away from a 1200 W speaker. The speaker plays music such that its loudness, $\\beta$ decibels, is given by\n$$\\beta = 10\\log_{10}\\left(\\frac{I}{10^{-12}}\\right), \\quad \\text{where } I = \\frac{P}{r^{2}},$$\n$P$ is the power of the sound source in watts, and $r$ is the distance in metres between the source and the observer.\n\nFrat starts swinging 1 metre away from the base of the swing, so that he is 11 m from the speaker. He then swings so that his horizontal displacement after $t$ seconds is sinusoidal, and he completes 3 swings in 7 seconds. Frat swings directly towards and away from the speaker.\n\nShow that $r = 10 + \\cos\\left(\\dfrac{6\\pi}{7}t\\right)$, where $t$ is in seconds.",
+   "answer": "Period $= \\dfrac{7}{3}$ s, so $b = \\dfrac{2\\pi}{7/3} = \\dfrac{6\\pi}{7}$.\n\nThe distance oscillates about the base (10 m) with amplitude 1 m, so $r = 10 + a\\cos(bt)$ with $a = 1$ (since $r = 11$ when $t = 0$, a cosine with no phase shift).\n\n$$r = 10 + \\cos\\left(\\frac{6\\pi}{7}t\\right)$$",
+   "answer_type": "worked",
+   "images": [],
+   "answer_images": [],
+   "source": "Original question",
+   "credit": "Haysen",
+   "author": "Haysen"
+  },
+  {
+   "ref": "Q-Haysen-b",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.4",
+    "12.1.2.1"
+   ],
+   "question": "Frat is on a swing whose base is 10 metres away from a 1200 W speaker. The speaker plays music such that its loudness, $\\beta$ decibels, is given by\n$$\\beta = 10\\log_{10}\\left(\\frac{I}{10^{-12}}\\right), \\quad \\text{where } I = \\frac{P}{r^{2}},$$\n$P$ is the power of the sound source in watts, and $r$ is the distance in metres between the source and the observer.\n\nFrat starts swinging 1 metre away from the base of the swing, so that he is 11 m from the speaker. He then swings so that his horizontal displacement after $t$ seconds is sinusoidal, and he completes 3 swings in 7 seconds. Frat swings directly towards and away from the speaker.\n\nHence, find the loudness Frat experiences after 1 minute. Give your answer to the nearest decibel.",
+   "answer": "When $t = 60$: $r = 10 + \\cos\\left(\\dfrac{360\\pi}{7}\\right) = 10 + \\cos\\left(\\dfrac{10\\pi}{7}\\right) \\approx 9.777$ m.\n\n$I = \\dfrac{1200}{9.777^{2}} \\approx 12.55$ W/m$^2$.\n\n$\\beta = 10\\log_{10}\\left(\\dfrac{12.55}{10^{-12}}\\right) = 10\\left(\\log_{10}12.55 + 12\\right) \\approx 131$ dB.",
+   "answer_type": "worked",
+   "images": [],
+   "answer_images": [],
+   "source": "Original question",
+   "credit": "Haysen",
+   "author": "Haysen"
   }
  ],
  "indexed": "2026-11-16"
