@@ -1,0 +1,485 @@
+{
+ "id": "ext1-2026-sydney-boys",
+ "course": "extension1",
+ "school": "Sydney Boys",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "Sydney Boys 2026 w. sol"
+ },
+ "indexed": "2026-11-24",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q7",
+   "reason": "Not in 2024 syllabus: uses the pigeonhole principle"
+  },
+  {
+   "ref": "Q12(d)",
+   "reason": "Not in 2024 syllabus: graphs of y^2 = f(x)"
+  },
+  {
+   "ref": "Q14(b)",
+   "reason": "Not in 2024 syllabus: normal approximation to the binomial distribution"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "Which of the following is equal to $\\displaystyle\\int\\dfrac1{\\sqrt{4-9x^2}}\\,dx$?",
+   "answer": "$\\sqrt{4-9x^2}=3\\sqrt{\\frac49-x^2}$, so $\\int\\frac1{\\sqrt{4-9x^2}}dx=\\frac13\\int\\frac1{\\sqrt{(2/3)^2-x^2}}dx=\\frac13\\sin^{-1}\\frac{x}{2/3}+C=\\frac13\\sin^{-1}\\frac{3x}2+C$ (A).",
+   "options": [
+    "$\\dfrac13\\sin^{-1}\\dfrac{3x}2+C$",
+    "$\\dfrac16\\sin^{-1}\\dfrac{3x}2+C$",
+    "$\\dfrac13\\sin^{-1}\\dfrac x2+C$",
+    "$\\dfrac16\\sin^{-1}\\dfrac x2+C$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.16"
+   ],
+   "question": "A 100 litre tub of salt water has initial concentration 3 g/L. Salt water of concentration 2 g/L flows in at 1 L/min and the mixture is stirred continuously, before flowing out of the tub at 1 L/min. Which of the following correctly gives the equation for the rate of change of concentration $c$ in g/L at time $t$ minutes?",
+   "answer": "The volume stays at 100 L. The mass of salt $s=100c$ changes at (rate in) $-$ (rate out) $=2(1)-c(1)=2-c$ g/min. So $100\\dfrac{dc}{dt}=2-c$, giving $\\dfrac{dc}{dt}=\\dfrac{2-c}{100}=\\dfrac1{50}-\\dfrac c{100}$ (D). (Check: at $c=2$ the system is in equilibrium, $\\frac{dc}{dt}=0$.)",
+   "options": [
+    "$\\dfrac{dc}{dt}=2-\\dfrac c{100}$",
+    "$\\dfrac{dc}{dt}=\\dfrac1{100}-2c$",
+    "$\\dfrac{dc}{dt}=\\dfrac1{50}-c$",
+    "$\\dfrac{dc}{dt}=\\dfrac1{50}-\\dfrac c{100}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.5"
+   ],
+   "question": "Let $P(x)$ be a polynomial that leaves a remainder of 2 when divided by $x-3$ and a remainder of $-2$ when divided by $x+1$. Which of the following is the remainder of $P(x)$ when it is divided by $x^2-2x-3$?",
+   "answer": "$x^2-2x-3=(x-3)(x+1)$, so the remainder has the form $ax+b$: $P(x)=(x-3)(x+1)Q(x)+ax+b$.\n\nBy the remainder theorem $P(3)=2$ and $P(-1)=-2$: $3a+b=2$ and $-a+b=-2$. Subtracting, $4a=4$, so $a=1$, $b=-1$.\n\nThe remainder is $x-1$ (D).",
+   "options": [
+    "$-x+1$",
+    "$-x-1$",
+    "$x+1$",
+    "$x-1$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "The graph shows a sketch of $y=\\sin^{-1}x$.\n\nThe graph is shifted down by $\\dfrac\\pi2$ units, before rotating the region bounded by the curve, the $y$-axis and $y=0$, around the $x$-axis to form a volume of revolution. Which of the following is equal to the volume of the solid?",
+   "answer": "The shifted curve is $y=\\sin^{-1}x-\\frac\\pi2$, running from $(0,-\\frac\\pi2)$ to $(1,0)$. The region lies between this curve, the $y$-axis ($x=0$) and $y=0$, for $0\\le x\\le1$, with radius $\\left|\\sin^{-1}x-\\frac\\pi2\\right|=\\frac\\pi2-\\sin^{-1}x$ about the $x$-axis.\n\n$$V=\\pi\\int_0^1\\left(\\frac\\pi2-\\sin^{-1}x\\right)^2dx\\quad\\text{(A)}.$$",
+   "options": [
+    "$\\pi\\displaystyle\\int_0^1\\left(\\dfrac\\pi2-\\sin^{-1}x\\right)^2dx$",
+    "$\\pi\\displaystyle\\int_0^{\\pi/2}\\left(\\dfrac\\pi2-\\sin x\\right)^2dx$",
+    "$\\pi\\displaystyle\\int_0^1\\left[\\dfrac\\pi2-(\\sin^{-1}x)^2\\right]dx$",
+    "$\\pi\\displaystyle\\int_0^{\\pi/2}\\left[\\dfrac\\pi2-(\\sin x)^2\\right]dx$"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/ext1-2026-sydney-boys/q4.png"
+   ]
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.4.1.19",
+    "12.6.2.6"
+   ],
+   "question": "A test contains 5 questions. Each question scores 1 point if answered correctly, 0 if not answered, and deducts a point from the total score if answered incorrectly.\n\nThe probability of a student answering a random question correctly is 0.3. The student will also leave, on average, one out of ten questions blank. A score of at least 3 is required to pass.\n\nWhat is the probability that the student will pass?",
+   "answer": "For each question: P(correct) $=0.3$, P(blank) $=0.1$, P(incorrect) $=0.6$. Score $=$ (number correct) $-$ (number incorrect).\n\nWays to score at least 3 from 5 questions:\n\n- 5 correct (score 5): $0.3^5=0.00243$\n- 4 correct, 1 blank (score 4): $5\\times0.3^4\\times0.1=0.00405$\n- 4 correct, 1 incorrect (score 3): $5\\times0.3^4\\times0.6=0.0243$\n- 3 correct, 2 blank (score 3): $\\binom52\\times0.3^3\\times0.1^2=0.0027$\n\n(3 correct with an incorrect answer scores at most 2.) Total $=0.00243+0.00405+0.0243+0.0027=0.03348$ (B).\n\nNote: the school's working labels \"4 correct + 1 wrong\" as a score of 4; it is a score of 3. The total is unchanged.",
+   "options": [
+    "0.00837",
+    "0.03348",
+    "0.06615",
+    "0.1638"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.9"
+   ],
+   "question": "Which of the following is equivalent to the function $f(\\theta)=\\cos^{-1}(\\cos\\theta)$ defined over the domain $\\theta\\in[0,2\\pi]$?",
+   "answer": "$\\cos^{-1}(\\cos\\theta)=\\theta$ for $0\\le\\theta\\le\\pi$, and for $\\pi<\\theta\\le2\\pi$ it equals $2\\pi-\\theta$ (the graph is a zig-zag from $(0,0)$ up to $(\\pi,\\pi)$ and back to $(2\\pi,0)$).\n\nTest $\\pi-|\\pi-\\theta|$: for $\\theta\\le\\pi$, $\\pi-(\\pi-\\theta)=\\theta$; for $\\theta>\\pi$, $\\pi-(\\theta-\\pi)=2\\pi-\\theta$. This matches (C).",
+   "options": [
+    "$\\pi+|\\pi-\\theta|$",
+    "$\\pi+|\\pi+\\theta|$",
+    "$\\pi-|\\pi-\\theta|$",
+    "$\\pi-|\\pi+\\theta|$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "A particle's velocity is a function of time, $v=f(t)$. The diagram shows the graph of $y=f(t)f'(t)$.\n\nThe particle has an initial velocity of 3 m/s. Calculate the speed of the particle at time $t=6$.",
+   "answer": "$\\dfrac d{dt}\\left[\\tfrac12f(t)^2\\right]=f(t)f'(t)$, so $\\tfrac12\\big[f(6)^2-f(0)^2\\big]=\\displaystyle\\int_0^6f(t)f'(t)\\,dt$, the signed area under the graph.\n\nAreas: $0\\le t\\le1$: rectangle $1\\times2=2$. $1\\le t\\le2$: the line from $(1,2)$ to $(2,-2)$ has average height 0, so $0$. $2\\le t\\le6$: the line from $(2,-2)$ to $(6,3)$ has average height $\\frac12$, so $4\\times\\frac12=2$. Total $=4$.\n\n$\\frac12\\big[f(6)^2-9\\big]=4$, so $f(6)^2=17$ and the speed is $\\sqrt{17}$ m/s (D).",
+   "options": [
+    "3 m/s",
+    "4 m/s",
+    "$\\sqrt{13}$ m/s",
+    "$\\sqrt{17}$ m/s"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/ext1-2026-sydney-boys/q8.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Let $f(x)=(2x+1)(3x+1)(4x+1)\\cdots(20x+1)$. Which of the following is equal to $f'(0)$?",
+   "answer": "By the product rule, $f'(x)$ is a sum of 19 terms, each with one factor $(kx+1)$ replaced by its derivative $k$. At $x=0$ every remaining factor equals 1, so $f'(0)=2+3+4+\\cdots+20=\\dfrac{19(2+20)}2=209$ (C).",
+   "options": [
+    "207",
+    "208",
+    "209",
+    "210"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.4"
+   ],
+   "question": "Let $y=f(x)$ be a continuous function defined for all real $x$. It has an inverse function defined by $y=g(x)$. Which of the following is equal to the derivative of $y=g(g(x))$?",
+   "answer": "Chain rule: $\\dfrac d{dx}g(g(x))=g'(g(x))\\,g'(x)$. For an inverse function $g'(u)=\\dfrac1{f'(g(u))}$, so $g'(x)=\\dfrac1{f'(g(x))}$ and $g'(g(x))=\\dfrac1{f'(g(g(x)))}$.\n\nHence $\\dfrac d{dx}g(g(x))=\\dfrac1{f'(g(x))\\,f'(g^2(x))}$ (A).",
+   "options": [
+    "$\\dfrac1{f'(g(x))\\,f'(g^2(x))}$",
+    "$\\dfrac1{f'(x)\\,f'(g(x))}$",
+    "$\\dfrac1{g'(f(x))\\,g'(f^2(x))}$",
+    "$\\dfrac1{g'(x)\\,g'(f(x))}$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Solve $\\dfrac{2x+1}{3-x}\\ge x$.",
+   "answer": "Multiply both sides by $(3-x)^2>0$ (with $x\\ne3$): $(3-x)(2x+1)\\ge x(3-x)^2$.\n\n$(3-x)\\big[(2x+1)-x(3-x)\\big]\\ge0\\Rightarrow(3-x)(x^2-x+1)\\ge0$.\n\nThe quadratic $x^2-x+1$ has discriminant $1-4<0$, so it is always positive. Hence $3-x\\ge0$ and $x\\ne3$:\n$$x<3.$$\n(Check: only critical point is $x=3$; $x=0$ gives $\\frac13\\ge0$ true, $x=4$ gives $-9\\ge4$ false.)"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "Let $\\alpha,\\beta,\\gamma$ be the roots of the polynomial $3x^3-3x^2+4x+9=0$. Evaluate $\\alpha^2+\\beta^2+\\gamma^2$.",
+   "answer": "$\\alpha+\\beta+\\gamma=-\\frac ba=1$ and $\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha=\\frac ca=\\frac43$.\n\n$\\alpha^2+\\beta^2+\\gamma^2=(\\alpha+\\beta+\\gamma)^2-2(\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha)=1-\\frac83=-\\frac53.$"
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Evaluate the integral $\\displaystyle\\int_0^{\\pi/2}\\sin\\theta\\sin^22\\theta\\,d\\theta$.",
+   "answer": "$\\sin^22\\theta=4\\sin^2\\theta\\cos^2\\theta$, so the integrand is $4\\sin^3\\theta\\cos^2\\theta=4\\sin\\theta(1-\\cos^2\\theta)\\cos^2\\theta$.\n\nLet $u=\\cos\\theta$, $du=-\\sin\\theta\\,d\\theta$; $\\theta=0\\to u=1$, $\\theta=\\frac\\pi2\\to u=0$:\n$$4\\int_0^{\\pi/2}\\sin\\theta(\\cos^2\\theta-\\cos^4\\theta)\\,d\\theta=4\\int_1^0-(u^2-u^4)\\,du=4\\int_0^1(u^2-u^4)\\,du=4\\left[\\frac{u^3}3-\\frac{u^5}5\\right]_0^1=4\\left(\\frac13-\\frac15\\right)=\\frac8{15}.$$"
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "Find the coefficient of $x$ in the expansion of $(1-3x)(2x-1)^9$.",
+   "answer": "In $(2x-1)^9$: the constant term is $(-1)^9=-1$ and the coefficient of $x$ is $\\binom91(2)(-1)^8=18$.\n\nCoefficient of $x$ in the product: $1\\times18+(-3)\\times(-1)=21$."
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.5"
+   ],
+   "question": "Prove that $\\tan\\left(\\dfrac\\pi4+\\theta\\right)=\\sec2\\theta+\\tan2\\theta$ by using the substitution $t=\\tan\\theta$.",
+   "answer": "LHS: $\\tan\\left(\\frac\\pi4+\\theta\\right)=\\dfrac{\\tan\\frac\\pi4+\\tan\\theta}{1-\\tan\\frac\\pi4\\tan\\theta}=\\dfrac{1+t}{1-t}$.\n\nRHS: using the $t$-formulas with $t=\\tan\\theta$: $\\cos2\\theta=\\dfrac{1-t^2}{1+t^2}$ and $\\tan2\\theta=\\dfrac{2t}{1-t^2}$, so\n$$\\sec2\\theta+\\tan2\\theta=\\frac{1+t^2}{1-t^2}+\\frac{2t}{1-t^2}=\\frac{(1+t)^2}{(1-t)(1+t)}=\\frac{1+t}{1-t}=\\text{LHS}.$$",
+   "course": "extension2"
+  },
+  {
+   "ref": "Q11(f)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.6",
+    "12.3.2.6"
+   ],
+   "question": "It is given that $a$ and $b$ are real numbers such that $\\sin^{-1}a=\\cos^{-1}b$. Prove that $(a,b)$ lies on the unit circle in the first quadrant.",
+   "answer": "Let $\\theta=\\sin^{-1}a=\\cos^{-1}b$. Since $\\sin^{-1}a\\in\\left[-\\frac\\pi2,\\frac\\pi2\\right]$ and $\\cos^{-1}b\\in[0,\\pi]$, $\\theta\\in\\left[0,\\frac\\pi2\\right]$.\n\nThen $a=\\sin\\theta\\ge0$ and $b=\\cos\\theta\\ge0$, so $(a,b)$ is in the first quadrant (including its boundary axes).\n\nAlso $a^2+b^2=\\sin^2\\theta+\\cos^2\\theta=1$, so $(a,b)$ lies on the unit circle. Hence $(a,b)$ lies on the unit circle in the first quadrant."
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.6"
+   ],
+   "question": "A section of the slope field for the differential equation $\\dfrac{dy}{dx}=y-x^2$ is shown, along with a point $Q$.\n\nOn the sheet provided, sketch a possible solution curve that passes through the point $Q$.",
+   "answer": "The solution curve must be smooth, pass through $Q$, and follow the slope segments without crossing any.\n\nSegments are horizontal where $y=x^2$, positive slope where $y>x^2$ and negative slope where $y<x^2$. Starting at $Q$ (above the parabola $y=x^2$), the curve rises to the right, reaches a local maximum where it meets $y=x^2$ on the right, then falls steeply. Going left from $Q$, it decreases to a local minimum where it meets $y=x^2$ on the left, then rises again for large negative $x$.\n\nOne possible curve is shown (it is the solution $y=x^2+2x+2-\\tfrac12e^x$ through $(0,\\tfrac32)$).",
+   "images": [
+    "assets/img/ext1-2026-sydney-boys/q12a.png"
+   ],
+   "answer_images": [
+    "assets/img/ext1-2026-sydney-boys/a12a.png"
+   ]
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "Let $n$ be an odd positive integer. Prove by mathematical induction that $5^n+2^n$ is divisible by 7.",
+   "answer": "Odd positive integers are $n=2k+1$, $k=0,1,2,\\dots$ Let $S(n)$: $5^n+2^n$ is divisible by 7.\n\n**Base case** $n=1$: $5+2=7$, divisible by 7. So $S(1)$ is true.\n\n**Inductive step:** assume $S(2k+1)$ is true for some integer $k\\ge0$: $5^{2k+1}+2^{2k+1}=7M$, $M\\in\\mathbb Z$. We must prove $S(2k+3)$: $5^{2k+3}+2^{2k+3}$ is divisible by 7.\n\n$$5^{2k+3}+2^{2k+3}=25\\cdot5^{2k+1}+4\\cdot2^{2k+1}=25\\left(7M-2^{2k+1}\\right)+4\\cdot2^{2k+1}=175M-21\\cdot2^{2k+1}=7\\left(25M-3\\cdot2^{2k+1}\\right),$$\na multiple of 7. So $S(2k+3)$ is true whenever $S(2k+1)$ is true.\n\nSince $S(1)$ is true, by the principle of mathematical induction $5^n+2^n$ is divisible by 7 for every odd positive integer $n$."
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.1"
+   ],
+   "question": "Some butter is in the shape of a sphere, with radius $r$. It is placed into an oven so that its volume is decreasing at a rate proportional to the square root of its surface area, $S$. You may assume as the butter melts, it is melting uniformly along its surface.\n\nShow that $\\dfrac{dr}{dt}=\\dfrac{-k}{\\sqrt S}$ for some positive constant $k>0$.",
+   "answer": "$V=\\frac43\\pi r^3$ and $S=4\\pi r^2$, so $\\dfrac{dV}{dr}=4\\pi r^2=S$. The volume is decreasing at a rate proportional to $\\sqrt S$: $\\dfrac{dV}{dt}=-k\\sqrt S$ with $k>0$.\n\n$$\\frac{dr}{dt}=\\frac{dr}{dV}\\cdot\\frac{dV}{dt}=\\frac1S\\cdot\\left(-k\\sqrt S\\right)=\\frac{-k}{\\sqrt S}.$$"
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "(Continuing the melting butter from part (c)(i).) The butter initially had radius 2 cm. By how much does the total melting time exceed the time needed for the butter to shrink to half of its original radius? Express your answer as a percentage, to the nearest percent.",
+   "answer": "$\\sqrt S=\\sqrt{4\\pi r^2}=2\\sqrt\\pi\\,r$, so $\\dfrac{dr}{dt}=-\\dfrac k{2\\sqrt\\pi\\,r}$, i.e. $2\\sqrt\\pi\\,r\\,dr=-k\\,dt$.\n\nIntegrating from $r=2$ at $t=0$: $\\sqrt\\pi\\,r^2-4\\sqrt\\pi=-kt$, so $t=\\dfrac{\\sqrt\\pi\\,(4-r^2)}k$.\n\nTime to reach half the radius ($r=1$): $t_1=\\dfrac{3\\sqrt\\pi}k$. Total melting time ($r=0$): $t_0=\\dfrac{4\\sqrt\\pi}k$.\n\n$$\\frac{t_0-t_1}{t_1}\\times100\\%=\\frac{4-3}3\\times100\\%=33\\%\\ \\text{(to the nearest percent)}.$$"
+  },
+  {
+   "ref": "Q12(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.1.1",
+    "11.2.3.4"
+   ],
+   "question": "For non-zero values of $p$ and $q$, the polynomial equation $P(x)=x^4-2px-q=0$ has 3 distinct roots. Prove that $27p^4+16q^3=0$.",
+   "answer": "A quartic has 4 roots counting multiplicity, so having only 3 distinct roots means exactly one root, $\\alpha$, is a double root. Then $P(\\alpha)=0$ and $P'(\\alpha)=0$ (a zero of multiplicity 2 is a zero of the derivative).\n\n$P'(x)=4x^3-2p$, so $4\\alpha^3=2p$, giving $p=2\\alpha^3$.\n\n$P(\\alpha)=\\alpha^4-2p\\alpha-q=\\alpha^4-4\\alpha^4-q=0$, giving $q=-3\\alpha^4$.\n\n$$27p^4+16q^3=27(2\\alpha^3)^4+16(-3\\alpha^4)^3=27\\cdot16\\alpha^{12}-16\\cdot27\\alpha^{12}=0.$$"
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.3.6",
+    "12.2.3.3"
+   ],
+   "question": "Let $A$ and $B$ represent the vectors $\\mathbf a$ and $\\mathbf b$ respectively. A point $P$ satisfies $3PA=PB$, and all possible points $P$ lie on the circle shown.\n\nBy using vector methods, prove the centre of the circle $C$ has position $\\overrightarrow{OC}=\\dfrac98\\mathbf a-\\dfrac18\\mathbf b$.",
+   "answer": "$Q$ and $R$ are the points where the circle meets line $AB$, so both satisfy the condition ($QB=3QA$ and $RB=3RA$). Since $Q$, $C$, $R$ are collinear with $C$ the centre, $QR$ is a diameter and $C$ is the midpoint of $QR$.\n\n**Point $Q$** ($Q$ is on the opposite side of $A$ from $B$, so $\\overrightarrow{QA}$ and $\\overrightarrow{QB}$ have the same direction): $\\overrightarrow{QA}=\\frac13\\overrightarrow{QB}$, so $\\mathbf a-\\overrightarrow{OQ}=\\frac13\\left(\\mathbf b-\\overrightarrow{OQ}\\right)$. Then $3\\mathbf a-3\\overrightarrow{OQ}=\\mathbf b-\\overrightarrow{OQ}$, so $\\overrightarrow{OQ}=\\frac12(3\\mathbf a-\\mathbf b)$.\n\n**Point $R$** ($R$ is between $A$ and $B$, so $\\overrightarrow{RA}$ and $\\overrightarrow{RB}$ are opposite): $\\overrightarrow{RA}=-\\frac13\\overrightarrow{RB}$, so $\\mathbf a-\\overrightarrow{OR}=-\\frac13\\left(\\mathbf b-\\overrightarrow{OR}\\right)$. Then $3\\mathbf a-3\\overrightarrow{OR}=-\\mathbf b+\\overrightarrow{OR}$, so $\\overrightarrow{OR}=\\frac14(3\\mathbf a+\\mathbf b)$.\n\n**Centre:**\n$$\\overrightarrow{OC}=\\frac12\\left(\\overrightarrow{OQ}+\\overrightarrow{OR}\\right)=\\frac12\\left(\\frac32\\mathbf a-\\frac12\\mathbf b+\\frac34\\mathbf a+\\frac14\\mathbf b\\right)=\\frac12\\left(\\frac94\\mathbf a-\\frac14\\mathbf b\\right)=\\frac98\\mathbf a-\\frac18\\mathbf b.$$\n\n(The condition $3PA=PB$ is about lengths, not directed vectors, so it can only be written as a vector equation at $Q$ and $R$, where $P$ is collinear with $A$ and $B$.)",
+   "images": [
+    "assets/img/ext1-2026-sydney-boys/q13a.png"
+   ]
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.7"
+   ],
+   "question": "(Continuing the circle of part (a)(i).) Find the radius of the circle, in terms of $\\mathbf a$ and $\\mathbf b$.",
+   "answer": "The radius is half the diameter $QR$:\n$$r=\\frac12\\left|\\overrightarrow{OR}-\\overrightarrow{OQ}\\right|=\\frac12\\left|\\frac34\\mathbf a+\\frac14\\mathbf b-\\frac32\\mathbf a+\\frac12\\mathbf b\\right|=\\frac12\\left|-\\frac34\\mathbf a+\\frac34\\mathbf b\\right|=\\frac38\\,|\\mathbf b-\\mathbf a|.$$"
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.17"
+   ],
+   "question": "Show that there are $\\dbinom{15}5$ ways to distribute 10 identical pineapples between 6 people.",
+   "answer": "Represent the 10 identical pineapples by 10 symbols $+$. To divide them among 6 people in order we need $6-1=5$ dividers $|$: the symbols before the first divider go to person 1, those between the first and second dividers go to person 2, and so on, with those after the fifth divider going to person 6. (For example $++|+++|+|++||++$ gives persons 1 to 6: $2,3,1,2,0,2$.)\n\nEach distribution corresponds to exactly one arrangement of 10 $+$ symbols and 5 $|$ symbols in a row, i.e. 15 positions. Choosing which 5 of the 15 positions hold dividers gives $\\binom{15}5$ ways."
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.4.1.17",
+    "11.5.1.9"
+   ],
+   "question": "(Continuing the pineapples of part (b)(i).) Hence, by considering the number of ways that 5 people can share up to 10 identical pineapples, prove using a combinatorial argument that\n$$\\sum_{n=4}^{14}\\binom n4=\\binom{15}5.$$",
+   "answer": "Count the ways to distribute the 10 pineapples among 6 people in two ways.\n\n**One way:** by part (i), $\\binom{15}5$.\n\n**Another way:** condition on the number $j$ of pineapples the first 5 people receive between them, $j=0,1,\\dots,10$; whatever remains ($10-j$) goes to the sixth person, so the sixth person's share is determined. By the same dividers method, sharing exactly $j$ pineapples among 5 people uses $j$ symbols $+$ and 4 dividers $|$, giving $\\binom{j+4}4$ ways.\n\nThese cases are mutually exclusive and cover every distribution, so the total is $\\sum_{j=0}^{10}\\binom{j+4}4=\\binom44+\\binom54+\\cdots+\\binom{14}4=\\sum_{n=4}^{14}\\binom n4$.\n\nBoth counts are the same, so $\\displaystyle\\sum_{n=4}^{14}\\binom n4=\\binom{15}5$."
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.6"
+   ],
+   "question": "A stream of water is shot from a nozzle from ground level at 21 m/s, at an acute angle of elevation $\\theta$. A board is placed vertically 30 metres horizontally from the nozzle, with a 4 metre hole cut such that its base is 8 metres above ground.\n\nYou may assume that the position of a particle launched from the origin with speed $U$ and angle $\\phi$ to the horizontal is given by (do NOT prove this)\n$$\\mathbf r(t)=(Ut\\cos\\phi)\\mathbf i+\\left(Ut\\sin\\phi-\\frac12gt^2\\right)\\mathbf j$$\nwhere $g$ is the acceleration due to gravity. Take $g=9.8$ m/s$^2$.\n\nProve the Cartesian trajectory of the water follows $y=x\\tan\\theta-\\dfrac1{90}x^2\\sec^2\\theta$.",
+   "answer": "With $U=21$, $\\phi=\\theta$, $g=9.8$: $x=21t\\cos\\theta$ and $y=21t\\sin\\theta-4.9t^2$.\n\nFrom the first, $t=\\dfrac x{21\\cos\\theta}$. Substituting:\n$$y=21\\sin\\theta\\cdot\\frac x{21\\cos\\theta}-4.9\\cdot\\frac{x^2}{21^2\\cos^2\\theta}=x\\tan\\theta-\\frac{4.9}{441}x^2\\sec^2\\theta=x\\tan\\theta-\\frac1{90}x^2\\sec^2\\theta.$$",
+   "images": [
+    "assets/img/ext1-2026-sydney-boys/q13c.png"
+   ]
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.6.8"
+   ],
+   "question": "(Continuing the water stream of part (c)(i).) For what range of values of $\\theta$ will the water stream pass through the hole? Leave your answer to 2 decimal places.",
+   "answer": "At $x=30$: $y=30\\tan\\theta-10\\sec^2\\theta=30\\tan\\theta-10(1+\\tan^2\\theta)=-10\\tan^2\\theta+30\\tan\\theta-10$.\n\nThe stream passes through the hole when $8<y<12$.\n\n$y>8$: $10\\tan^2\\theta-30\\tan\\theta+18<0\\Rightarrow5\\tan^2\\theta-15\\tan\\theta+9<0$, so $\\frac{15-3\\sqrt5}{10}<\\tan\\theta<\\frac{15+3\\sqrt5}{10}$, i.e. $39.66^\\circ<\\theta<65.27^\\circ$.\n\n$y<12$: $10\\tan^2\\theta-30\\tan\\theta+22>0\\Rightarrow5\\tan^2\\theta-15\\tan\\theta+11>0$, so $\\tan\\theta<\\frac{15-\\sqrt5}{10}$ or $\\tan\\theta>\\frac{15+\\sqrt5}{10}$, i.e. $\\theta<51.92^\\circ$ or $\\theta>59.88^\\circ$.\n\nBoth conditions must hold:\n$$39.66^\\circ<\\theta<51.92^\\circ\\quad\\text{or}\\quad59.88^\\circ<\\theta<65.27^\\circ.$$"
+  },
+  {
+   "ref": "Q13(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.2.6.7"
+   ],
+   "question": "(Continuing the water stream of part (c)(i).) What is the total length of wet ground to the right of the board as $\\theta$ varies? Give your answer to the nearest metre.",
+   "answer": "The stream lands where $y=0$: $x\\tan\\theta-\\frac1{90}x^2\\sec^2\\theta=0$, so $x=90\\sin\\theta\\cos\\theta=45\\sin2\\theta$.\n\n**Interval 1,** $39.66^\\circ<\\theta<51.92^\\circ$, so $79.32^\\circ<2\\theta<103.84^\\circ$. This contains $2\\theta=90^\\circ$, where $x=45$ is the maximum. The minimum is at the end further from $90^\\circ$, $2\\theta=103.84^\\circ$: $x=45\\sin103.84^\\circ\\approx43.69$. Wet ground: $[43.69,\\ 45]$, length $\\approx1.31$ m.\n\n**Interval 2,** $59.88^\\circ<\\theta<65.27^\\circ$, so $119.76^\\circ<2\\theta<130.54^\\circ$. Here $\\sin2\\theta$ is decreasing, so $x$ ranges from $45\\sin130.54^\\circ\\approx34.20$ to $45\\sin119.76^\\circ\\approx39.06$, length $\\approx4.86$ m.\n\nThe intervals do not overlap, so the total wet length is $\\approx1.31+4.86\\approx6$ m (to the nearest metre)."
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.2"
+   ],
+   "question": "Let $\\triangle ABC$ be inscribed in a circle of radius $r$ centred at $O$. Let $\\angle AOB=\\alpha$ and $\\angle AOC=\\theta$.\n\nProve that the area of triangle $ABC$ is given by\n$$A=2r^2\\sin\\left(\\frac{\\alpha+\\theta}2\\right)\\sin\\frac\\alpha2\\sin\\frac\\theta2.$$",
+   "answer": "The angles at $O$ add to $2\\pi$, so $\\angle BOC=2\\pi-(\\alpha+\\theta)$. The triangle is made of the three triangles $AOB$, $AOC$, $BOC$ with two sides equal to $r$:\n$$A=\\tfrac12r^2\\sin\\alpha+\\tfrac12r^2\\sin\\theta+\\tfrac12r^2\\sin\\big(2\\pi-(\\alpha+\\theta)\\big)=\\tfrac12r^2\\big[\\sin\\alpha+\\sin\\theta-\\sin(\\alpha+\\theta)\\big].$$\nUsing sum-to-product on the first two terms and the double angle on the third:\n$$\\sin\\theta+\\sin\\alpha=2\\sin\\frac{\\theta+\\alpha}2\\cos\\frac{\\theta-\\alpha}2,\\qquad\\sin(\\alpha+\\theta)=2\\sin\\frac{\\alpha+\\theta}2\\cos\\frac{\\alpha+\\theta}2.$$\n$$A=\\tfrac12r^2\\cdot2\\sin\\frac{\\alpha+\\theta}2\\left[\\cos\\frac{\\theta-\\alpha}2-\\cos\\frac{\\theta+\\alpha}2\\right]=r^2\\sin\\frac{\\alpha+\\theta}2\\cdot2\\sin\\frac\\theta2\\sin\\frac\\alpha2=2r^2\\sin\\frac{\\alpha+\\theta}2\\sin\\frac\\alpha2\\sin\\frac\\theta2,$$\nusing $\\cos X-\\cos Y=2\\sin\\frac{X+Y}2\\sin\\frac{Y-X}2$ with $X=\\frac{\\theta-\\alpha}2$, $Y=\\frac{\\theta+\\alpha}2$.",
+   "course": "extension2",
+   "images": [
+    "assets/img/ext1-2026-sydney-boys/q14a.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.4"
+   ],
+   "question": "(Continuing the inscribed triangle of part (a)(i).) Hence, or otherwise, find the value of $\\theta$ that maximises the area of the triangle if $\\alpha$ is fixed.",
+   "answer": "Use $\\sin P\\sin Q=\\frac12[\\cos(P-Q)-\\cos(P+Q)]$ with $P=\\frac{\\alpha+\\theta}2$, $Q=\\frac\\theta2$:\n$$A=2r^2\\sin\\frac\\alpha2\\cdot\\frac12\\left[\\cos\\frac\\alpha2-\\cos\\left(\\theta+\\frac\\alpha2\\right)\\right]=r^2\\sin\\frac\\alpha2\\left[\\cos\\frac\\alpha2-\\cos\\left(\\theta+\\frac\\alpha2\\right)\\right].$$\nWith $\\alpha$ fixed, $A$ is largest when $\\cos\\left(\\theta+\\frac\\alpha2\\right)=-1$, i.e. $\\theta+\\frac\\alpha2=\\pi$:\n$$\\theta=\\pi-\\frac\\alpha2.$$\n(Check by calculus: $\\dfrac{dA}{d\\theta}=r^2\\sin\\frac\\alpha2\\sin\\left(\\theta+\\frac\\alpha2\\right)=0$ at $\\theta=\\pi-\\frac\\alpha2$, and $\\dfrac{d^2A}{d\\theta^2}=r^2\\sin\\frac\\alpha2\\cos\\pi<0$, a maximum.)",
+   "course": "advanced"
+  },
+  {
+   "ref": "Q14(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.2.4"
+   ],
+   "question": "(Continuing the inscribed triangle of part (a)(i).) Hence, by treating $\\theta$ as a fixed angle or otherwise, find the values of $\\alpha$ and $\\theta$ where the maximum area occurs and state the type of triangle formed.",
+   "answer": "The area formula is symmetric in $\\alpha$ and $\\theta$, so by part (ii) with the roles swapped, for fixed $\\theta$ the area is maximised when $\\alpha=\\pi-\\frac\\theta2$.\n\nAt the overall maximum both conditions hold: $\\theta=\\pi-\\frac\\alpha2$ and $\\alpha=\\pi-\\frac\\theta2$. Substituting, $\\theta=\\pi-\\frac12\\left(\\pi-\\frac\\theta2\\right)=\\frac\\pi2+\\frac\\theta4$, so $\\frac{3\\theta}4=\\frac\\pi2$ and\n$$\\theta=\\frac{2\\pi}3,\\qquad\\alpha=\\pi-\\frac\\pi3=\\frac{2\\pi}3.$$\nThen $\\angle BOC=2\\pi-\\frac{4\\pi}3=\\frac{2\\pi}3$ as well. The three central angles are equal, so $AB=BC=CA$: the triangle is **equilateral**, with area $\\frac{3\\sqrt3}4r^2$.",
+   "course": "advanced"
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.11"
+   ],
+   "question": "Prove that if $\\dot w=lw$, then $w=Ae^{lt}$ for some real numbers $A$ and $l$.",
+   "answer": "$\\dfrac{dw}{dt}=lw$. Separating variables (for $w\\ne0$): $\\displaystyle\\int\\frac{dw}w=\\int l\\,dt$, so $\\ln|w|=lt+C$.\n\nHence $|w|=e^{lt+C}=e^Ce^{lt}$, so $w=\\pm e^Ce^{lt}=Ae^{lt}$ where $A=\\pm e^C$ is a non-zero real constant. (The case $w\\equiv0$ is $A=0$.)"
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.16"
+   ],
+   "question": "Suppose that $y_1$ and $y_2$ are the solutions to the paired differential equations\n$$\\dot y_1=2y_1+6y_2,\\qquad\\dot y_2=2y_1+3y_2$$\nwith the initial conditions $y_1(0)=2$ and $y_2(0)=-3$. Prove that $\\dot y_1+k\\dot y_2=(2+2k)y_1+(6+3k)y_2$ for all real constants $k$.",
+   "answer": "$$\\dot y_1+k\\dot y_2=(2y_1+6y_2)+k(2y_1+3y_2)=(2+2k)y_1+(6+3k)y_2.$$"
+  },
+  {
+   "ref": "Q14(c)(iii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.4.12"
+   ],
+   "question": "(Continuing the paired differential equations of part (c)(ii).) Hence, by letting $k=2$ and another suitable value, solve the differential equations for $y_1$ and $y_2$.",
+   "answer": "Let $w=y_1+ky_2$. We want $\\dot w=l\\,w$, i.e. $(2+2k)y_1+(6+3k)y_2=l(y_1+ky_2)$, so $l=2+2k$ and $lk=6+3k$. Then $(2+2k)k=6+3k$, so $2k^2-k-6=0$, $(2k+3)(k-2)=0$, giving $k=2$ or $k=-\\frac32$.\n\n**$k=2$:** $l=6$, so $w=y_1+2y_2=Ae^{6t}$. At $t=0$: $A=2+2(-3)=-4$, so $y_1+2y_2=-4e^{6t}$. (1)\n\n**$k=-\\frac32$:** $l=-1$, so $y_1-\\frac32y_2=Be^{-t}$. At $t=0$: $B=2+\\frac92=\\frac{13}2$, so $y_1-\\frac32y_2=\\frac{13}2e^{-t}$. (2)\n\n(1) $-$ (2): $\\frac72y_2=-4e^{6t}-\\frac{13}2e^{-t}$, so\n$$y_2=-\\frac87e^{6t}-\\frac{13}7e^{-t}.$$\nSubstituting into (1): $y_1=-4e^{6t}-2y_2=-4e^{6t}+\\frac{16}7e^{6t}+\\frac{26}7e^{-t}$, so\n$$y_1=-\\frac{12}7e^{6t}+\\frac{26}7e^{-t}.$$\n(Check: $y_1(0)=\\frac{14}7=2$, $y_2(0)=-\\frac{21}7=-3$.)"
+  }
+ ]
+}
