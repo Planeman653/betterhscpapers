@@ -1,0 +1,545 @@
+{
+ "id": "ext1-2025-girraween",
+ "course": "extension1",
+ "school": "Girraween",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "Girraween 2025 w. sol"
+ },
+ "indexed": "2026-11-25",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q6",
+   "reason": "The limit of sin(ax)/x as x→0 is not a dot point of the 2024 Mathematics Advanced or Extension 1 syllabus (no limits of trigonometric ratios beyond first-principles derivatives)"
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "reason": "Evaluating a limit as n→∞ of a ratio of polynomials in n is outside the 2024 syllabus (limits at infinity of sequences are not covered)"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.2",
+    "11.2.2.5"
+   ],
+   "question": "When the polynomial $P(x)=x^4+ax+2$ is divided by $x^2+1$, the remainder is $2x+3$. What is the value of $a$?",
+   "answer": "$x^4+ax+2=(x^2+1)(x^2-1)+(ax+3)$ since $(x^2+1)(x^2-1)=x^4-1$. The remainder is $ax+3=2x+3$, so $a=2$ (B).",
+   "options": [
+    "$1$",
+    "$2$",
+    "$0$",
+    "$3$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.4.1.11",
+    "11.4.1.18"
+   ],
+   "question": "A family of 6 adults and 4 children are randomly sitting around a circular table. What is the number of possible seating arrangements if none of the children sit together?",
+   "answer": "Arrange the 6 adults in a circle: $5!=120$ ways. This creates 6 gaps; place the 4 children into different gaps in order: $6\\times5\\times4\\times3=360$. Total $120\\times360=43\\,200$ (C).",
+   "options": [
+    "$14\\,400$",
+    "$21\\,600$",
+    "$43\\,200$",
+    "$86\\,200$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.1.8",
+    "11.5.1.9"
+   ],
+   "question": "What is the value of $\\ ^{4n}C_1+\\ ^{4n}C_2+\\cdots+\\ ^{4n}C_{4n-1}+\\ ^{4n}C_{4n}$?",
+   "answer": "$\\sum_{r=0}^{4n}\\binom{4n}r=2^{4n}$, so omitting the $r=0$ term gives $2^{4n}-1=16^n-1$ (C).",
+   "options": [
+    "$2^{2n}$",
+    "$2^{2n}-1$",
+    "$16^n-1$",
+    "$16^n$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.8",
+    "12.2.3.7"
+   ],
+   "question": "The vector $\\underset{\\sim}{v}$ has a magnitude of 6 units and makes an angle of $135^\\circ$ with the horizontal. Which of the following represents the vector $\\underset{\\sim}{v}$?",
+   "answer": "$\\underset{\\sim}{v}=6\\cos135^\\circ\\,\\underset{\\sim}{i}+6\\sin135^\\circ\\,\\underset{\\sim}{j}=-3\\sqrt2\\,\\underset{\\sim}{i}+3\\sqrt2\\,\\underset{\\sim}{j}$ (B).",
+   "options": [
+    "$3\\sqrt2\\,\\underset{\\sim}{i}+3\\sqrt2\\,\\underset{\\sim}{j}$",
+    "$-3\\sqrt2\\,\\underset{\\sim}{i}+3\\sqrt2\\,\\underset{\\sim}{j}$",
+    "$2\\sqrt3\\,\\underset{\\sim}{i}+2\\sqrt3\\,\\underset{\\sim}{j}$",
+    "$-2\\sqrt3\\,\\underset{\\sim}{i}+2\\sqrt3\\,\\underset{\\sim}{j}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.1",
+    "12.4.1.2"
+   ],
+   "question": "A curve is defined parametrically by $x=t^3+t$ and $y=t^4+2t^2$. The gradient of the tangent to the curve at $t=1$ is",
+   "answer": "$\\frac{dy}{dx}=\\frac{4t^3+4t}{3t^2+1}$. At $t=1$: $\\frac{8}{4}=2$ (A).",
+   "options": [
+    "$2$",
+    "$\\frac12$",
+    "$3$",
+    "$\\frac13$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "Which of the following is an expression for $\\displaystyle\\int\\frac3{\\sqrt{1-16x^2}}\\,dx$?",
+   "answer": "$\\int\\frac3{\\sqrt{1-(4x)^2}}dx=3\\cdot\\frac14\\sin^{-1}(4x)+C=\\frac34\\sin^{-1}(4x)+C$ (C).",
+   "options": [
+    "$3\\sin^{-1}(4x)+C$",
+    "$3\\cos^{-1}(4x)+C$",
+    "$\\frac34\\sin^{-1}(4x)+C$",
+    "$\\frac34\\cos^{-1}(4x)+C$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "If $y=\\sin(\\ln x)$, which is equal to $\\dfrac{d^2y}{dx^2}$?",
+   "answer": "$y'=\\frac{\\cos(\\ln x)}x$. By the quotient rule, $y''=\\frac{x\\cdot\\left(-\\frac{\\sin(\\ln x)}x\\right)-\\cos(\\ln x)}{x^2}=\\frac{-\\sin(\\ln x)-\\cos(\\ln x)}{x^2}$ (D).",
+   "options": [
+    "$\\dfrac{\\sin(\\ln x)+\\cos(\\ln x)}{x^2}$",
+    "$\\dfrac{\\sin(\\ln x)-\\cos(\\ln x)}{x^2}$",
+    "$\\dfrac{\\cos(\\ln x)-\\sin(\\ln x)}{x^2}$",
+    "$\\dfrac{-\\sin(\\ln x)-\\cos(\\ln x)}{x^2}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.1.2.5",
+    "12.4.1.4"
+   ],
+   "question": "The function $f(x)=\\log_ex^3$ has an inverse function $g(x)$. What is the equation of the normal to $y=g(x)$ at the point $(0,1)$?",
+   "answer": "$f(x)=3\\ln x$, so $g(x)=e^{x/3}$ and $g'(x)=\\frac13e^{x/3}$. At $(0,1)$ the tangent gradient is $\\frac13$, so the normal gradient is $-3$: $y-1=-3(x-0)$, i.e. $y=-3x+1$ (D).",
+   "options": [
+    "$y=\\frac13x-1$",
+    "$y=\\frac13x+1$",
+    "$y=-3x-1$",
+    "$y=-3x+1$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.4.4",
+    "12.5.4.9"
+   ],
+   "question": "The differential equation which best represents the direction field given below is",
+   "answer": "The slope is horizontal at $(1,2)$ and $(2,4)$ (the line $y=2x$), so the numerator is $2x-y$. The slope is undefined on the axes, so the denominator contains $xy$. Check B at $(1,1)$: slope $1$; at $(1,4)$: $-\\frac12$; at $(-2,2)$: $\\frac{-6}{-4}>0$; at $(2,-2)$: $\\frac{6}{-4}<0$, all matching the field (B). Option A would give no horizontal slopes in the first quadrant, and C and D are undefined on $y=-x$ or $y=x$ rather than the axes.",
+   "options": [
+    "$\\dfrac{dy}{dx}=\\dfrac{2x+y}{xy}$",
+    "$\\dfrac{dy}{dx}=\\dfrac{2x-y}{xy}$",
+    "$\\dfrac{dy}{dx}=\\dfrac{2x-y}{x+y}$",
+    "$\\dfrac{dy}{dx}=\\dfrac{2x-y}{x-y}$"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/ext1-2025-girraween/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.1.6"
+   ],
+   "question": "Solve $\\dfrac{4+x}{2x}\\ge1$.",
+   "answer": "$\\frac{4+x}{2x}-1\\ge0$, so $\\frac{4-x}{2x}\\ge0$. The critical values are $x=0$ (excluded, undefined) and $x=4$. Testing regions gives $0<x\\le4$. (Alternatively multiply by $x^2$: $x(4+x)\\ge2x^2$, so $x(x-4)\\le0$, i.e. $0\\le x\\le4$, with $x\\ne0$.)"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "Find the coefficient of $x^8$ in the expansion of $\\left(2x^3-\\dfrac1{x^2}\\right)^{11}$.",
+   "answer": "$T_{r+1}=\\binom{11}r(2x^3)^{11-r}\\left(-x^{-2}\\right)^r=(-1)^r\\binom{11}r2^{11-r}x^{33-5r}$. Setting $33-5r=8$ gives $r=5$. The coefficient is $(-1)^5\\binom{11}52^6=-462\\times64=-29\\,568$."
+  },
+  {
+   "ref": "Q11(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.1.9",
+    "11.2.1.10"
+   ],
+   "question": "Consider the polynomial $P(x)=x^4-3x^3-6x^2+28x-24$. It is known that $P(x)$ has a triple root at $x=\\alpha$. By using differentiation, find the value of $\\alpha$.",
+   "answer": "A triple root satisfies $P'(\\alpha)=P''(\\alpha)=0$ (and $P(\\alpha)=0$). $P''(x)=12x^2-18x-12=6(2x^2-3x-2)=6(2x+1)(x-2)$, so $\\alpha=2$ or $-\\frac12$. $P(2)=16-24-24+56-24=0$, whereas $P\\left(-\\frac12\\right)\\ne0$. So $\\alpha=2$. (Check: $P'(2)=32-36-24+28=0$ ✓.)"
+  },
+  {
+   "ref": "Q11(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.3",
+    "11.2.1.12"
+   ],
+   "question": "The polynomial $P(x)=x^4-3x^3-6x^2+28x-24$ has a triple root at $x=2$. Hence express $P(x)$ as the product of linear factors.",
+   "answer": "Let the fourth root be $\\beta$. The sum of the roots is $3$, so $2+2+2+\\beta=3$ and $\\beta=-3$. So $P(x)=(x-2)^3(x+3)$. (Check: the constant term is $(-8)(3)=-24$ ✓.)"
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^3\\frac x{\\sqrt{x+1}}\\,dx$, using the substitution $x=u^2-1$.",
+   "answer": "$dx=2u\\,du$; $x=0\\to u=1$ and $x=3\\to u=2$; $\\sqrt{x+1}=u$. $\\int_1^2\\frac{u^2-1}{u}\\cdot2u\\,du=2\\int_1^2(u^2-1)\\,du=2\\left[\\frac{u^3}3-u\\right]_1^2=2\\left[\\left(\\frac83-2\\right)-\\left(\\frac13-1\\right)\\right]=2\\cdot\\frac43=\\frac83$."
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.2",
+    "11.3.3.3"
+   ],
+   "question": "Express $\\sqrt{12}\\sin x+2\\cos x$ in the form $R\\sin(x-\\alpha)$ where $R>0$ and $0\\le\\alpha<2\\pi$.",
+   "answer": "$R\\sin(x-\\alpha)=R\\cos\\alpha\\sin x-R\\sin\\alpha\\cos x$. So $R\\cos\\alpha=\\sqrt{12}$ and $R\\sin\\alpha=-2$. $R^2=12+4=16$, $R=4$. $\\cos\\alpha=\\frac{\\sqrt3}2>0$ and $\\sin\\alpha=-\\frac12<0$, so $\\alpha$ is in the fourth quadrant: $\\alpha=2\\pi-\\frac\\pi6=\\frac{11\\pi}6$. So $\\sqrt{12}\\sin x+2\\cos x=4\\sin\\left(x-\\frac{11\\pi}6\\right)$."
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.3",
+    "11.3.3.1"
+   ],
+   "question": "Hence, or otherwise, solve $\\sqrt{12}\\sin x+2\\cos x=2$ for $0\\le x\\le2\\pi$.",
+   "answer": "$4\\sin\\left(x-\\frac{11\\pi}6\\right)=2$, so $\\sin\\left(x-\\frac{11\\pi}6\\right)=\\frac12$. Let $u=x-\\frac{11\\pi}6$, with $-\\frac{11\\pi}6\\le u\\le\\frac\\pi6$. Then $u=\\frac\\pi6,\\ -\\frac{7\\pi}6,\\ -\\frac{11\\pi}6$. So $x=2\\pi,\\ \\frac{2\\pi}3,\\ 0$. The solutions are $x=0,\\ \\frac{2\\pi}3,\\ 2\\pi$."
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.5"
+   ],
+   "question": "A freshly baked cake is cooling in a room of constant temperature $20^\\circ$C. At time $t$ minutes its temperature $T$ decreases according to $\\dfrac{dT}{dt}=-k(T-20)$, where $k$ is a positive constant. Show that $T=20+Ae^{-kt}$, where $A$ is a constant, is a solution to this equation.",
+   "answer": "$\\frac{dT}{dt}=-kAe^{-kt}$ and $-k(T-20)=-k\\left(Ae^{-kt}\\right)=-kAe^{-kt}$. These are equal, so it is a solution."
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.7"
+   ],
+   "question": "The initial temperature of the cake is $150^\\circ$C and it cools to $100^\\circ$C after $15$ minutes, with $T=20+Ae^{-kt}$. Find the values $A$ and $k$, giving $k$ correct to $3$ decimal places.",
+   "answer": "At $t=0$: $150=20+A$, so $A=130$. At $t=15$: $100=20+130e^{-15k}$, so $e^{-15k}=\\frac8{13}$ and $k=\\frac1{15}\\ln\\frac{13}8\\approx0.032$."
+  },
+  {
+   "ref": "Q12(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.7"
+   ],
+   "question": "The cake's temperature is $T=20+130e^{-kt}$ with $k=0.032$ (the value from the previous part). How long will it take for the cake to cool to $25^\\circ$C?",
+   "answer": "$25=20+130e^{-0.032t}$, so $e^{-0.032t}=\\frac5{130}=\\frac1{26}$ and $t=\\frac{\\ln26}{0.032}\\approx101.8$ minutes (about $102$ minutes). (Using the unrounded $k$ gives $\\approx100.7$ min; the question says to use $k=0.032$.)"
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.2",
+    "12.5.2.1"
+   ],
+   "question": "A tank in the shape of a cone ($6$ m across the top and $5$ m high) is filled with water, which is leaking out from the bottom at a rate of $1.5$ litres per minute. The volume of water in the tank is $V=\\frac13\\pi r^2h$, where $h$ is the height in metres and $r$ is the radius in metres. Find the rate at which the water level is falling when the height of the water is $1$ metre. [Note: $1\\ \\text{m}^3=1000$ L]",
+   "answer": "By similar triangles, $\\frac rh=\\frac35$, so $r=\\frac{3h}5$ and $V=\\frac13\\pi\\cdot\\frac{9h^2}{25}\\cdot h=\\frac{3\\pi h^3}{25}$. $\\frac{dV}{dh}=\\frac{9\\pi h^2}{25}$. $\\frac{dV}{dt}=-1.5$ L/min $=-0.0015$ m$^3$/min. $\\frac{dh}{dt}=\\frac{dV}{dt}\\div\\frac{dV}{dh}=\\frac{-0.0015\\times25}{9\\pi h^2}$. At $h=1$: $\\frac{dh}{dt}=-\\frac{0.0375}{9\\pi}\\approx-0.0013$ m/min. The water level is falling at about $0.0013$ m/min.",
+   "images": [
+    "assets/img/ext1-2025-girraween/q13a.png"
+   ]
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.4",
+    "12.5.3.3"
+   ],
+   "question": "Find the volume formed when the region between the curve $y=\\tan^{-1}x$ and the lines $y=x$, $y=\\dfrac\\pi3$ and $y=\\dfrac\\pi4$ is rotated about the $y$-axis, correct to 2 decimal places.",
+   "answer": "Rotating about the $y$-axis, write $x$ in terms of $y$: the curve is $x=\\tan y$ (outer) and the line is $x=y$ (inner). $V=\\pi\\int_{\\pi/4}^{\\pi/3}\\left(\\tan^2y-y^2\\right)dy=\\pi\\int_{\\pi/4}^{\\pi/3}\\left(\\sec^2y-1-y^2\\right)dy=\\pi\\left[\\tan y-y-\\frac{y^3}3\\right]_{\\pi/4}^{\\pi/3}=\\pi\\left[\\left(\\sqrt3-\\frac\\pi3-\\frac{\\pi^3}{81}\\right)-\\left(1-\\frac\\pi4-\\frac{\\pi^3}{192}\\right)\\right]\\approx0.78$ cubic units.",
+   "images": [
+    "assets/img/ext1-2025-girraween/q13b.png"
+   ]
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Use mathematical induction to prove $4\\left(1^3+2^3+3^3+\\cdots+n^3\\right)=n^2(n+1)^2$ for all positive integers $n$.",
+   "answer": "For $n=1$: LHS $=4$ and RHS $=1^2\\cdot2^2=4$. True. Assume true for $n=k$: $4\\left(1^3+\\cdots+k^3\\right)=k^2(k+1)^2$. For $n=k+1$: LHS $=4\\left(1^3+\\cdots+k^3\\right)+4(k+1)^3=k^2(k+1)^2+4(k+1)^3=(k+1)^2\\left(k^2+4(k+1)\\right)=(k+1)^2(k+2)^2=$ RHS for $n=k+1$. So it is true for $n=k+1$. By induction it is true for all positive integers $n$."
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.4",
+    "12.2.4.8"
+   ],
+   "question": "Consider the vectors $\\underset{\\sim}{p}=\\begin{pmatrix}t-8\\\\6\\end{pmatrix}$ and $\\underset{\\sim}{q}=\\begin{pmatrix}3\\\\2t\\end{pmatrix}$. What are the possible values of $t$ so that $\\underset{\\sim}{p}$ and $\\underset{\\sim}{q}$ are parallel?",
+   "answer": "Parallel means $\\underset{\\sim}{p}=\\lambda\\underset{\\sim}{q}$: $t-8=3\\lambda$ and $6=2\\lambda t$, so $\\lambda=\\frac3t$ and $t-8=\\frac9t$. Then $t^2-8t-9=0$, $(t-9)(t+1)=0$, so $t=9$ or $t=-1$."
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.6",
+    "12.2.2.9"
+   ],
+   "question": "$ABCDEF$ is a regular hexagon. Let $\\overrightarrow{AB}=\\underset{\\sim}{u}$, $\\overrightarrow{BC}=\\underset{\\sim}{v}$ and $\\overrightarrow{CD}=\\underset{\\sim}{w}$. $G$ is the midpoint of $CD$ and $M$ is the midpoint of $AD$. Find $\\overrightarrow{AG}$ in terms of $\\underset{\\sim}{u}$, $\\underset{\\sim}{v}$ and $\\underset{\\sim}{w}$.",
+   "answer": "$\\overrightarrow{AG}=\\overrightarrow{AB}+\\overrightarrow{BC}+\\overrightarrow{CG}=\\underset{\\sim}{u}+\\underset{\\sim}{v}+\\frac12\\underset{\\sim}{w}$.",
+   "images": [
+    "assets/img/ext1-2025-girraween/q14b.png"
+   ]
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.6",
+    "12.2.5.5"
+   ],
+   "question": "$ABCDEF$ is a regular hexagon with $\\overrightarrow{AB}=\\underset{\\sim}{u}$, $\\overrightarrow{BC}=\\underset{\\sim}{v}$, $\\overrightarrow{CD}=\\underset{\\sim}{w}$, $G$ the midpoint of $CD$ and $M$ the midpoint of $AD$. Given $\\overrightarrow{AG}=\\underset{\\sim}{u}+\\underset{\\sim}{v}+\\frac12\\underset{\\sim}{w}$, find $\\overrightarrow{MG}$ in terms of $\\underset{\\sim}{u}$ and $\\underset{\\sim}{v}$.",
+   "answer": "$\\overrightarrow{AD}=\\underset{\\sim}{u}+\\underset{\\sim}{v}+\\underset{\\sim}{w}$, so $\\overrightarrow{AM}=\\frac12\\left(\\underset{\\sim}{u}+\\underset{\\sim}{v}+\\underset{\\sim}{w}\\right)$. $\\overrightarrow{MG}=\\overrightarrow{AG}-\\overrightarrow{AM}=\\underset{\\sim}{u}+\\underset{\\sim}{v}+\\frac12\\underset{\\sim}{w}-\\frac12\\underset{\\sim}{u}-\\frac12\\underset{\\sim}{v}-\\frac12\\underset{\\sim}{w}=\\frac12\\left(\\underset{\\sim}{u}+\\underset{\\sim}{v}\\right)$.",
+   "images": [
+    "assets/img/ext1-2025-girraween/q14b.png"
+   ]
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.4.7",
+    "12.2.5.5"
+   ],
+   "question": "In the diagram, $OABC$ is a rectangle in which $\\overrightarrow{OA}=\\frac52\\underset{\\sim}{i}$ and $\\overrightarrow{OC}=\\underset{\\sim}{j}$. $P$ is a point on $OA$ such that $\\overrightarrow{OP}=\\lambda\\underset{\\sim}{i}$ for some scalar parameter $\\lambda$. Use vector methods, and the fact that $\\angle CPB=90^\\circ$, to show that $2\\lambda^2-5\\lambda+2=0$, and hence find any values of $\\lambda$.",
+   "answer": "$\\overrightarrow{PC}=\\overrightarrow{OC}-\\overrightarrow{OP}=-\\lambda\\underset{\\sim}{i}+\\underset{\\sim}{j}$ and $\\overrightarrow{PB}=\\overrightarrow{OB}-\\overrightarrow{OP}=\\left(\\frac52-\\lambda\\right)\\underset{\\sim}{i}+\\underset{\\sim}{j}$. Since $\\angle CPB=90^\\circ$, $\\overrightarrow{PC}\\cdot\\overrightarrow{PB}=0$: $-\\lambda\\left(\\frac52-\\lambda\\right)+1=0$, so $\\lambda^2-\\frac52\\lambda+1=0$, i.e. $2\\lambda^2-5\\lambda+2=0$. Then $(2\\lambda-1)(\\lambda-2)=0$, so $\\lambda=\\frac12$ or $\\lambda=2$ (both lie between $0$ and $\\frac52$, so both positions of $P$ are on $OA$).",
+   "images": [
+    "assets/img/ext1-2025-girraween/q14c.png"
+   ]
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.4",
+    "12.4.1.7"
+   ],
+   "question": "Given that $y=e^{-7x}$ satisfies the second order differential equation $y+ky''=0$, find the value of $k$.",
+   "answer": "$y'=-7e^{-7x}$ and $y''=49e^{-7x}$. Then $e^{-7x}+49ke^{-7x}=0$, so $1+49k=0$ (since $e^{-7x}\\ne0$) and $k=-\\frac1{49}$."
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "Consider the differential equation $\\dfrac{dy}{dx}=x\\sec y$. Find the solution that has a $y$-intercept of $\\dfrac\\pi6$, expressing your answer in the form $y=f(x)$.",
+   "answer": "Separate variables: $\\cos y\\,dy=x\\,dx$, so $\\sin y=\\frac{x^2}2+C$. At $x=0$, $y=\\frac\\pi6$: $\\frac12=C$. So $\\sin y=\\frac{x^2+1}2$ and $y=\\sin^{-1}\\left(\\frac{x^2+1}2\\right)$ (valid for $-1\\le x\\le1$)."
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.15"
+   ],
+   "question": "A rabbit population grows according to the logistic equation $\\dfrac{dP}{dt}=0.1P\\left(1-\\dfrac P{20\\,000}\\right)$, where $P$ is the number of rabbits after $t$ months. The initial population is $1000$. Show that $\\dfrac{20\\,000}{P(20\\,000-P)}\\equiv\\dfrac1P+\\dfrac1{20\\,000-P}$.",
+   "answer": "RHS $=\\frac{(20\\,000-P)+P}{P(20\\,000-P)}=\\frac{20\\,000}{P(20\\,000-P)}=$ LHS."
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.4.15",
+    "12.5.4.11"
+   ],
+   "question": "A rabbit population satisfies $\\dfrac{dP}{dt}=0.1P\\left(1-\\dfrac P{20\\,000}\\right)$ with $P(0)=1000$. Solve this equation and hence show that $P=\\dfrac{20\\,000e^{0.1t}}{19+e^{0.1t}}$.",
+   "answer": "$\\frac{dP}{dt}=\\frac{0.1P(20\\,000-P)}{20\\,000}$, so $\\int\\frac{20\\,000}{P(20\\,000-P)}dP=\\int0.1\\,dt$. By part (i): $\\ln P-\\ln(20\\,000-P)=0.1t+C$, i.e. $\\ln\\frac P{20\\,000-P}=0.1t+C$ (for $0<P<20\\,000$). At $t=0$, $P=1000$: $C=\\ln\\frac{1000}{19\\,000}=\\ln\\frac1{19}$. So $\\frac P{20\\,000-P}=\\frac{e^{0.1t}}{19}$, giving $19P=e^{0.1t}(20\\,000-P)$, so $P\\left(19+e^{0.1t}\\right)=20\\,000e^{0.1t}$ and $P=\\frac{20\\,000e^{0.1t}}{19+e^{0.1t}}$."
+  },
+  {
+   "ref": "Q15(c)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.16"
+   ],
+   "question": "A rabbit population is modelled by $P=\\dfrac{20\\,000e^{0.1t}}{19+e^{0.1t}}$, where $t$ is in months. Find the population of rabbits after seven months.",
+   "answer": "$P=\\frac{20\\,000e^{0.7}}{19+e^{0.7}}\\approx1916.6$, so about $1917$ rabbits (the school's solution gives $1916$ by truncating)."
+  },
+  {
+   "ref": "Q16(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.3",
+    "11.1.2.7"
+   ],
+   "question": "Consider the function $f(x)=2\\sin^{-1}\\left(\\dfrac x3\\right)+\\dfrac\\pi2$. Find the domain and range of $f(x)$.",
+   "answer": "The domain requires $-1\\le\\frac x3\\le1$, so $-3\\le x\\le3$. Since $-\\frac\\pi2\\le\\sin^{-1}\\frac x3\\le\\frac\\pi2$, $-\\pi+\\frac\\pi2\\le f(x)\\le\\pi+\\frac\\pi2$. Domain: $[-3,3]$. Range: $\\left[-\\frac\\pi2,\\frac{3\\pi}2\\right]$."
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.3.2.2",
+    "11.3.2.4"
+   ],
+   "question": "Show that $\\dfrac{\\sin\\theta+\\sin3\\theta+\\sin5\\theta}{\\cos\\theta+\\cos3\\theta+\\cos5\\theta}=\\tan3\\theta$.",
+   "answer": "Use the sum-to-product identities $\\sin\\theta+\\sin5\\theta=2\\sin3\\theta\\cos2\\theta$ and $\\cos\\theta+\\cos5\\theta=2\\cos3\\theta\\cos2\\theta$ (these follow from the sum and difference expansions of $\\sin(3\\theta\\pm2\\theta)$ and $\\cos(3\\theta\\pm2\\theta)$). Then the fraction is $\\frac{2\\sin3\\theta\\cos2\\theta+\\sin3\\theta}{2\\cos3\\theta\\cos2\\theta+\\cos3\\theta}=\\frac{\\sin3\\theta(2\\cos2\\theta+1)}{\\cos3\\theta(2\\cos2\\theta+1)}=\\tan3\\theta$."
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.1"
+   ],
+   "question": "Hence, solve $\\dfrac{\\sin\\theta+\\sin3\\theta+\\sin5\\theta}{\\cos\\theta+\\cos3\\theta+\\cos5\\theta}=1$ where $0\\le\\theta\\le2\\pi$.",
+   "answer": "$\\tan3\\theta=1$ with $0\\le3\\theta\\le6\\pi$: $3\\theta=\\frac\\pi4,\\frac{5\\pi}4,\\frac{9\\pi}4,\\frac{13\\pi}4,\\frac{17\\pi}4,\\frac{21\\pi}4$. So $\\theta=\\frac\\pi{12},\\frac{5\\pi}{12},\\frac{3\\pi}4,\\frac{13\\pi}{12},\\frac{17\\pi}{12},\\frac{7\\pi}4$. (None of these makes the denominator zero, since $\\cos3\\theta\\ne0$ and $2\\cos2\\theta+1\\ne0$ for them.)"
+  },
+  {
+   "ref": "Q16(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.6.6"
+   ],
+   "question": "A stone is projected from $O$ with velocity $V$ at an angle $\\alpha$ above the horizontal. Given that the equations of motion of the stone are $x=Vt\\cos\\alpha$ and $y=Vt\\sin\\alpha-\\dfrac{gt^2}2$, show that the Cartesian equation for the motion is $y=x\\tan\\alpha-\\dfrac{gx^2\\sec^2\\alpha}{2V^2}$.",
+   "answer": "From $x=Vt\\cos\\alpha$, $t=\\frac x{V\\cos\\alpha}$. Substituting, $y=V\\sin\\alpha\\cdot\\frac x{V\\cos\\alpha}-\\frac g2\\cdot\\frac{x^2}{V^2\\cos^2\\alpha}=x\\tan\\alpha-\\frac{gx^2\\sec^2\\alpha}{2V^2}$.",
+   "images": [
+    "assets/img/ext1-2025-girraween/q16c.png"
+   ]
+  },
+  {
+   "ref": "Q16(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.6.7",
+    "12.2.6.8"
+   ],
+   "question": "A stone is projected from $O$ with velocity $V$ at angle $\\alpha$ above the horizontal and follows $y=x\\tan\\alpha-\\dfrac{gx^2\\sec^2\\alpha}{2V^2}$. A straight road through $O$ makes an angle $\\theta$ above the horizontal ($0<\\theta<\\alpha$). The stone strikes the road at $R$. If $R$ is the point $(x,y)$, express $x$ and $y$ in terms of $RO$ and $\\theta$. Hence show that the range $RO$ of the stone up the road is $RO=\\dfrac{2V^2\\cos\\alpha\\sin(\\alpha-\\theta)}{g\\cos^2\\theta}$.",
+   "answer": "$x=RO\\cos\\theta$ and $y=RO\\sin\\theta$. Substituting into the trajectory: $RO\\sin\\theta=RO\\cos\\theta\\tan\\alpha-\\frac{g\\,RO^2\\cos^2\\theta\\sec^2\\alpha}{2V^2}$. Divide by $RO$ and multiply by $\\cos^2\\alpha$: $\\sin\\theta\\cos^2\\alpha=\\cos\\theta\\sin\\alpha\\cos\\alpha-\\frac{g\\,RO\\cos^2\\theta}{2V^2}$. So $\\frac{g\\,RO\\cos^2\\theta}{2V^2}=\\cos\\alpha\\left(\\sin\\alpha\\cos\\theta-\\cos\\alpha\\sin\\theta\\right)=\\cos\\alpha\\sin(\\alpha-\\theta)$, hence $RO=\\frac{2V^2\\cos\\alpha\\sin(\\alpha-\\theta)}{g\\cos^2\\theta}$.",
+   "images": [
+    "assets/img/ext1-2025-girraween/q16c.png"
+   ]
+  },
+  {
+   "ref": "Q16(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.6.7",
+    "12.2.6.8"
+   ],
+   "question": "The range up the road is $RO=\\dfrac{2V^2\\cos\\alpha\\sin(\\alpha-\\theta)}{g\\cos^2\\theta}$. Find an expression for $\\alpha$ when $RO$ is a maximum.",
+   "answer": "$\\frac{d(RO)}{d\\alpha}=\\frac{2V^2}{g\\cos^2\\theta}\\left[-\\sin\\alpha\\sin(\\alpha-\\theta)+\\cos\\alpha\\cos(\\alpha-\\theta)\\right]=\\frac{2V^2}{g\\cos^2\\theta}\\cos(2\\alpha-\\theta)$. Setting this to $0$: $2\\alpha-\\theta=\\frac\\pi2$, so $\\alpha=\\frac\\theta2+\\frac\\pi4$. The second derivative is $-\\frac{4V^2}{g\\cos^2\\theta}\\sin(2\\alpha-\\theta)=-\\frac{4V^2}{g\\cos^2\\theta}<0$ there, so this is a maximum: $\\alpha=\\frac\\theta2+\\frac\\pi4$.",
+   "images": [
+    "assets/img/ext1-2025-girraween/q16c.png"
+   ]
+  }
+ ]
+}
