@@ -1,0 +1,478 @@
+{
+ "id": "ext1-2026-sydney-tech",
+ "course": "extension1",
+ "school": "Sydney Tech",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "Sydney Tech 2026 w. sol"
+ },
+ "indexed": "2026-11-24",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q14(a)",
+   "reason": "Not in 2024 syllabus: pigeonhole principle"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.3"
+   ],
+   "question": "What is the solution to $|2x-5|>7$?",
+   "answer": "$|2x-5|>7$ means $2x-5>7$ or $2x-5<-7$. So $2x>12$, $x>6$; or $2x<-2$, $x<-1$. Hence $x<-1$ or $x>6$ (B).",
+   "options": [
+    "$-1<x<6$",
+    "$x<-1$ or $x>6$",
+    "$-6<x<1$",
+    "$x<-6$ or $x>1$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.9"
+   ],
+   "question": "The projection of $\\mathbf u$ onto $\\mathbf v$ is given by $\\left(\\dfrac{\\mathbf u\\cdot\\mathbf v}{|\\mathbf v|^2}\\right)\\mathbf v$. What is the projection of $\\mathbf u=2\\mathbf i+3\\mathbf j$ onto $\\mathbf v=-\\mathbf i+2\\mathbf j$?",
+   "answer": "$\\mathbf u\\cdot\\mathbf v=-2+6=4$ and $|\\mathbf v|^2=1+4=5$, so the projection is $\\frac45(-\\mathbf i+2\\mathbf j)$ (C).",
+   "options": [
+    "$\\dfrac45(2\\mathbf i+3\\mathbf j)$",
+    "$-\\dfrac45(2\\mathbf i+3\\mathbf j)$",
+    "$\\dfrac45(-\\mathbf i+2\\mathbf j)$",
+    "$\\dfrac45(\\mathbf i-2\\mathbf j)$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.9"
+   ],
+   "question": "Garrett, Dean, John L. and John T. sit at the kitchen bench in a row. In how many ways can the two Johns sit together?",
+   "answer": "Treat the two Johns as one block: $3!=6$ arrangements of the three “objects” (Garrett, Dean, block). Within the block the Johns can be ordered in $2!=2$ ways. Total $3!\\times2!=12$ (A).",
+   "options": [
+    "12",
+    "9",
+    "6",
+    "3"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Consider the integral $I=\\displaystyle\\int_0^3\\frac{1}{9-x^2}\\,dx$. The substitution $x=3\\sin\\theta$ is applied. Which of the following is obtained?",
+   "answer": "With $x=3\\sin\\theta$, $dx=3\\cos\\theta\\,d\\theta$. Limits: $x=0\\to\\theta=0$, $x=3\\to\\theta=\\frac\\pi2$. $9-x^2=9-9\\sin^2\\theta=9\\cos^2\\theta$. So $I=\\int_0^{\\pi/2}\\frac{3\\cos\\theta}{9\\cos^2\\theta}\\,d\\theta=\\frac13\\int_0^{\\pi/2}\\sec\\theta\\,d\\theta$ (D).",
+   "options": [
+    "$\\dfrac13\\displaystyle\\int_0^{\\pi}\\operatorname{cosec}\\theta\\,d\\theta$",
+    "$\\dfrac13\\displaystyle\\int_0^{\\pi}\\sec\\theta\\,d\\theta$",
+    "$\\dfrac13\\displaystyle\\int_0^{\\pi/2}\\operatorname{cosec}\\theta\\,d\\theta$",
+    "$\\dfrac13\\displaystyle\\int_0^{\\pi/2}\\sec\\theta\\,d\\theta$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.3.3.1"
+   ],
+   "question": "How many distinct solutions are there to the equation $\\sin3x+\\cos x=0$ for $0\\le x\\le2\\pi$?",
+   "answer": "Write $\\sin3x=-\\cos x=\\sin\\left(x-\\frac\\pi2\\right)$. Then either $3x=x-\\frac\\pi2+2k\\pi$, giving $x=-\\frac\\pi4+k\\pi$, i.e. $x=\\frac{3\\pi}4,\\frac{7\\pi}4$ in the interval; or $3x=\\pi-\\left(x-\\frac\\pi2\\right)+2k\\pi=\\frac{3\\pi}2-x+2k\\pi$, giving $x=\\frac{3\\pi}8+\\frac{k\\pi}2$, i.e. $x=\\frac{3\\pi}8,\\frac{7\\pi}8,\\frac{11\\pi}8,\\frac{15\\pi}8$. These six values are distinct, so there are 6 solutions (D). (Equivalently, the graphs of $y=\\sin3x$ and $y=-\\cos x$ meet 6 times.)",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.4"
+   ],
+   "question": "Given that $A$ is a non-zero constant, which of the following integrals is equal to zero?",
+   "answer": "A definite integral over $[-A,A]$ is zero when the integrand is odd. $\\sin x$, $\\tan x$, $\\sin^{-1}x$ and $\\tan^{-1}x$ are odd, $\\cos x$ is even, and $\\cos^{-1}x$ is neither. Odd $\\times$ even is odd: $\\tan^{-1}(x)\\cos(x)$ is odd, so the integral in C is $0$. (In A and D, $\\cos^{-1}x\\times$ odd is not odd, and in B, odd $\\times$ odd is even.)",
+   "options": [
+    "$\\displaystyle\\int_{-A}^{A}\\cos^{-1}(x)\\times\\sin(x)\\,dx$",
+    "$\\displaystyle\\int_{-A}^{A}\\sin^{-1}(x)\\times\\tan(x)\\,dx$",
+    "$\\displaystyle\\int_{-A}^{A}\\tan^{-1}(x)\\times\\cos(x)\\,dx$",
+    "$\\displaystyle\\int_{-A}^{A}\\cos^{-1}(x)\\times\\tan(x)\\,dx$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.4.9"
+   ],
+   "question": "Which of the following graphs could be a solution to the differential equation $\\dfrac{dy}{dx}=x+2y$?",
+   "answer": "Solving, $y=Ce^{2x}-\\frac x2-\\frac14$; for $C>0$ this decreases, reaches a minimum where $x+2y=0$, then rises steeply — the shape of graph A. The others are impossible: in B the maximum lies on the $y$-axis at positive $y$, but at $x=0$ the gradient is $2y\\neq0$ there; in C the line passes through the origin but at the origin the gradient must be $0+2(0)=0$, whereas the line is steep; in D the curve has a horizontal asymptote, so $\\frac{dy}{dx}\\to0$, but $x+2y$ cannot tend to $0$ while $x\\to\\infty$ with $y$ bounded.",
+   "options": [
+    "![Graph A](assets/img/ext1-2026-sydney-tech/q7a.png)",
+    "![Graph B](assets/img/ext1-2026-sydney-tech/q7b.png)",
+    "![Graph C](assets/img/ext1-2026-sydney-tech/q7c.png)",
+    "![Graph D](assets/img/ext1-2026-sydney-tech/q7d.png)"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.5"
+   ],
+   "question": "Given that $x^3-4x^2+c\\equiv(x-1)Q(x)+3$, where $Q(x)$ is a polynomial, what is the value of $c$?",
+   "answer": "Substitute $x=1$: $1-4+c=0+3$, so $c=6$ (D).",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.3"
+   ],
+   "question": "The vectors $\\mathbf a$ and $\\mathbf b$ have magnitudes of 4 and 7 respectively. Given that the angle between $\\mathbf a$ and $\\mathbf b$ is $\\dfrac{2\\pi}3$ and there exists a vector $\\mathbf c$ such that $\\mathbf a+\\mathbf b=-\\mathbf c$, what is the magnitude of $\\mathbf c$ to the nearest whole number?",
+   "answer": "$|\\mathbf c|^2=|\\mathbf a+\\mathbf b|^2=|\\mathbf a|^2+|\\mathbf b|^2+2\\mathbf a\\cdot\\mathbf b=16+49+2(4)(7)\\cos\\frac{2\\pi}3=65-28=37$. So $|\\mathbf c|=\\sqrt{37}\\approx6.08$, which is 6 to the nearest whole number (B).",
+   "options": [
+    "10",
+    "6",
+    "7",
+    "8"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.3"
+   ],
+   "question": "Let $g(x)$ be the inverse function of $f(x)$. If we know that $f(2)=4$, $f(3)=2$, $f'(3)=-1$ and $f'(2)=-2$, what is the derivative of $g(x)$ when $x=2$?",
+   "answer": "Since $f(3)=2$, $g(2)=3$. The derivative of an inverse function is $g'(x)=\\frac{1}{f'(g(x))}$, so $g'(2)=\\frac{1}{f'(3)}=\\frac1{-1}=-1$ (A).",
+   "options": [
+    "$-1$",
+    "$-\\dfrac12$",
+    "$1$",
+    "$\\dfrac12$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.2.5"
+   ],
+   "question": "Find the inverse function of $f(x)=\\dfrac{x+1}{x-1}$.",
+   "answer": "Let $y=\\frac{x+1}{x-1}$ and swap $x$ and $y$: $x=\\frac{y+1}{y-1}$. Then $xy-x=y+1$, so $y(x-1)=x+1$ and $y=\\frac{x+1}{x-1}$. So $f^{-1}(x)=\\dfrac{x+1}{x-1}$ (the function is its own inverse)."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.1"
+   ],
+   "question": "Solve $\\cos2\\theta+\\cos\\theta=1$ for $\\theta\\in[0,2\\pi]$.",
+   "answer": "Use $\\cos2\\theta=2\\cos^2\\theta-1$: $2\\cos^2\\theta+\\cos\\theta-2=0$. By the quadratic formula, $\\cos\\theta=\\frac{-1\\pm\\sqrt{1+16}}{4}=\\frac{-1\\pm\\sqrt{17}}{4}$. Since $-1\\le\\cos\\theta\\le1$, reject $\\frac{-1-\\sqrt{17}}4\\approx-1.28$. So $\\cos\\theta=\\frac{-1+\\sqrt{17}}4\\approx0.781$, giving $\\theta\\approx0.675$ or $\\theta=2\\pi-0.675\\approx5.608$ (3 decimal places)."
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.4"
+   ],
+   "course": "extension2",
+   "question": "Evaluate $\\displaystyle\\int_{\\pi/6}^{\\pi/2}2\\sin x\\cos3x\\,dx$.",
+   "answer": "Use $2\\sin A\\cos B=\\sin(A+B)+\\sin(A-B)$: $2\\sin x\\cos3x=\\sin4x+\\sin(-2x)=\\sin4x-\\sin2x$. Then $\\int_{\\pi/6}^{\\pi/2}(\\sin4x-\\sin2x)\\,dx=\\left[-\\frac{\\cos4x}4+\\frac{\\cos2x}2\\right]_{\\pi/6}^{\\pi/2}=\\left(-\\frac{\\cos2\\pi}4+\\frac{\\cos\\pi}2\\right)-\\left(-\\frac{\\cos\\frac{2\\pi}3}4+\\frac{\\cos\\frac\\pi3}2\\right)=\\left(-\\frac14-\\frac12\\right)-\\left(\\frac18+\\frac14\\right)=-\\frac34-\\frac38=-\\dfrac98$."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.1"
+   ],
+   "question": "Sketch $y=3\\sin^{-1}\\dfrac x2$.",
+   "answer": "This is $y=\\sin^{-1}x$ stretched horizontally by a factor of 2 and vertically by a factor of 3. The domain is $-2\\le x\\le2$ and the range is $-\\frac{3\\pi}2\\le y\\le\\frac{3\\pi}2$. The graph is odd, increasing, passes through the origin and has endpoints $\\left(-2,-\\frac{3\\pi}2\\right)$ and $\\left(2,\\frac{3\\pi}2\\right)$, with a vertical tangent at each endpoint (see graph).",
+   "answer_images": [
+    "assets/img/ext1-2026-sydney-tech/q11d_ans.png"
+   ]
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.4.7"
+   ],
+   "question": "If $\\mathbf u=\\begin{pmatrix}m\\\\4\\end{pmatrix}$ and $\\mathbf v=\\begin{pmatrix}2\\\\3\\end{pmatrix}$ are perpendicular, find the value of $m$.",
+   "answer": "Perpendicular vectors have $\\mathbf u\\cdot\\mathbf v=0$: $2m+12=0$, so $m=-6$."
+  },
+  {
+   "ref": "Q11(f)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "The roots of $P(x)=2x^3-3x^2+x-6$ are $\\alpha$, $\\beta$ and $\\gamma$. Find the value of $\\alpha^2\\beta\\gamma+\\alpha\\beta^2\\gamma+\\alpha\\beta\\gamma^2$.",
+   "answer": "$\\alpha^2\\beta\\gamma+\\alpha\\beta^2\\gamma+\\alpha\\beta\\gamma^2=\\alpha\\beta\\gamma(\\alpha+\\beta+\\gamma)$. For $2x^3-3x^2+x-6$: $\\alpha+\\beta+\\gamma=\\frac32$ and $\\alpha\\beta\\gamma=-\\frac{-6}{2}=3$. So the value is $3\\times\\frac32=\\dfrac92$."
+  },
+  {
+   "ref": "Q11(f)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "The roots of $P(x)=2x^3-3x^2+x-6$ are $\\alpha$, $\\beta$ and $\\gamma$. Find the value of $\\alpha^2+\\beta^2+\\gamma^2$.",
+   "answer": "$\\alpha^2+\\beta^2+\\gamma^2=(\\alpha+\\beta+\\gamma)^2-2(\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha)$. Here $\\alpha+\\beta+\\gamma=\\frac32$ and $\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha=\\frac12$. So the value is $\\left(\\frac32\\right)^2-2\\left(\\frac12\\right)=\\frac94-1=\\dfrac54$."
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.3.2.4"
+   ],
+   "question": "If $\\sin x=\\dfrac35$, where $x$ is acute, find the exact value of $\\cos2x$.",
+   "answer": "$\\cos2x=1-2\\sin^2x=1-2\\left(\\frac35\\right)^2=1-\\frac{18}{25}=\\dfrac7{25}$."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.3"
+   ],
+   "question": "Find $\\displaystyle\\int\\sin^22x\\,dx$.",
+   "answer": "Use $\\cos4x=1-2\\sin^22x$, so $\\sin^22x=\\frac12(1-\\cos4x)$. Then $\\int\\sin^22x\\,dx=\\frac12\\int(1-\\cos4x)\\,dx=\\frac12\\left(x-\\frac{\\sin4x}4\\right)+C=\\dfrac x2-\\dfrac{\\sin4x}8+C$."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.3.3.3"
+   ],
+   "question": "By expressing $2\\cos\\theta-\\sqrt5\\sin\\theta$ in terms of $R\\cos(\\theta+\\alpha)$, where $R>0$ and $0\\le\\alpha\\le\\frac\\pi2$, solve $2\\cos\\theta=\\sqrt5\\sin\\theta-3$ for $0\\le\\theta\\le2\\pi$.",
+   "answer": "$R\\cos(\\theta+\\alpha)=R\\cos\\theta\\cos\\alpha-R\\sin\\theta\\sin\\alpha$, so $R\\cos\\alpha=2$ and $R\\sin\\alpha=\\sqrt5$. Then $R^2=4+5=9$, $R=3$, and $\\tan\\alpha=\\frac{\\sqrt5}2$, so $\\alpha=\\tan^{-1}\\frac{\\sqrt5}2$ (acute). The equation becomes $2\\cos\\theta-\\sqrt5\\sin\\theta=-3$, i.e. $3\\cos(\\theta+\\alpha)=-3$, so $\\cos(\\theta+\\alpha)=-1$. For $0\\le\\theta\\le2\\pi$ we have $\\alpha\\le\\theta+\\alpha\\le2\\pi+\\alpha$ with $\\alpha<\\frac\\pi2$, so the only solution is $\\theta+\\alpha=\\pi$, giving $\\theta=\\pi-\\tan^{-1}\\frac{\\sqrt5}2\\ (\\approx2.30)$."
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "Solve the differential equation $\\dfrac{dy}{dx}=xy-x$, given $\\dfrac{dy}{dx}=-3$ when $x=-3$.",
+   "answer": "When $x=-3$, $\\frac{dy}{dx}=-3$: $-3=-3y+3$, so $y=2$. Now $\\frac{dy}{dx}=x(y-1)$, so $\\int\\frac{dy}{y-1}=\\int x\\,dx$, giving $\\ln|y-1|=\\frac{x^2}2+C$. Substituting $x=-3$, $y=2$: $\\ln1=\\frac92+C$, so $C=-\\frac92$. Hence $\\ln|y-1|=\\frac{x^2}2-\\frac92$, so $y-1=e^{(x^2-9)/2}$ (positive, since $y-1=1>0$ at the given point), i.e. $y=1+e^{\\frac{x^2-9}{2}}$."
+  },
+  {
+   "ref": "Q12(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Solve $\\dfrac{x}{3x+1}\\ge1$.",
+   "answer": "Note $x\\neq-\\frac13$. Multiply both sides by $(3x+1)^2>0$: $x(3x+1)\\ge(3x+1)^2$, so $0\\ge(3x+1)^2-x(3x+1)=(3x+1)(2x+1)$. The product $(3x+1)(2x+1)\\le0$ between its roots $-\\frac12$ and $-\\frac13$. Since $x\\ne-\\frac13$: $-\\dfrac12\\le x<-\\dfrac13$."
+  },
+  {
+   "ref": "Q12(f)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "Consider the region between the $x$-axis, $y$-axis, the line $y=10$ and the function $y=-\\dfrac{1}{0.7}\\ln\\dfrac{x-1}{3}$, as shown in the diagram. When the region is rotated about the $y$-axis, it forms the volume of the bell of Hannah’s clarinet. Find the volume of the bell.",
+   "answer": "Rotating about the $y$-axis, $V=\\pi\\int_0^{10}x^2\\,dy$. From $y=-\\frac1{0.7}\\ln\\frac{x-1}3$: $-0.7y=\\ln\\frac{x-1}{3}$, so $x=1+3e^{-0.7y}$. Then $x^2=1+6e^{-0.7y}+9e^{-1.4y}$ and $V=\\pi\\int_0^{10}\\left(1+6e^{-0.7y}+9e^{-1.4y}\\right)dy=\\pi\\left[y-\\frac{6}{0.7}e^{-0.7y}-\\frac9{1.4}e^{-1.4y}\\right]_0^{10}=\\pi\\left[10-\\frac{60}7e^{-7}-\\frac{45}7e^{-14}+\\frac{60}7+\\frac{45}7\\right]=\\pi\\left[25-\\frac{60}7e^{-7}-\\frac{45}7e^{-14}\\right]$ cubic units ($\\approx78.5$).",
+   "images": [
+    "assets/img/ext1-2026-sydney-tech/q12f.png"
+   ]
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Find $\\displaystyle\\int_0^2\\frac{x}{x^4+16}\\,dx$ using the substitution $u=x^2$.",
+   "answer": "$u=x^2$, $du=2x\\,dx$ so $x\\,dx=\\frac12du$; limits $x=0\\to u=0$, $x=2\\to u=4$. $\\int_0^2\\frac{x}{x^4+16}dx=\\frac12\\int_0^4\\frac{du}{u^2+16}=\\frac12\\left[\\frac14\\tan^{-1}\\frac u4\\right]_0^4=\\frac18\\left(\\tan^{-1}1-\\tan^{-1}0\\right)=\\dfrac\\pi{32}$."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "Given that $\\dfrac{dy}{dx}=\\dfrac{3}{2y-2}$ and $y=1$ when $x=0$, find $y$ as a function of $x$.",
+   "answer": "Separate variables: $\\int(2y-2)\\,dy=\\int3\\,dx$, so $y^2-2y=3x+C$. When $x=0$, $y=1$: $1-2=C$, so $C=-1$. Then $y^2-2y+1=3x$, i.e. $(y-1)^2=3x$, so $y=1\\pm\\sqrt{3x}$ (for $x\\ge0$). Both branches satisfy the differential equation and the condition $y=1$ at $x=0$, so the solution is $y=1\\pm\\sqrt{3x}$."
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.17"
+   ],
+   "question": "Briar Hawks is the men’s varsity ice hockey team at Briar University. The team has 12 players that make up **four** forward lines (3 players each) and 6 players that make up the **three** defensive lines (2 players each). The forward and defensive lines rotate time on the ice during the game. (Note defensive players and offensive players never swap roles.)\n\nIn how many ways can the three defensive lines be made?",
+   "answer": "Choose the pairs for the lines in turn: $\\binom62\\binom42\\binom22=15\\times6\\times1=90$. The three lines are indistinguishable (just three equal groups of 2), so divide by $3!$: $\\dfrac{90}{3!}=15$ ways."
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.18"
+   ],
+   "question": "Briar Hawks is the men’s varsity ice hockey team at Briar University. The team has 12 players that make up **four** forward lines (3 players each) and 6 players that make up the **three** defensive lines (2 players each). The forward and defensive lines rotate time on the ice during the game. (Note defensive players and offensive players never swap roles.)\n\nHow many player combinations are possible on the ice (3 forwards and 2 defenders at a time)?",
+   "answer": "Choose the 3 forwards from the 12 forwards: $\\binom{12}3=220$. Choose the 2 defenders from the 6 defenders: $\\binom62=15$. By the multiplication principle there are $220\\times15=3300$ possible combinations."
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Prove by mathematical induction that the sum of the squares of the first $2n$ positive integers can be given by $1^2+2^2+3^2+\\cdots+(2n)^2=\\dfrac{n(2n+1)(4n+1)}3$.",
+   "answer": "**Base case** $n=1$: LHS $=1^2+2^2=5$; RHS $=\\frac{1(3)(5)}3=5$ ✓. **Assume** true for $n=k$: $1^2+\\dots+(2k)^2=\\frac{k(2k+1)(4k+1)}3$. **Prove** for $n=k+1$: $1^2+\\dots+(2k+2)^2=\\frac{(k+1)(2k+3)(4k+5)}3$. LHS $=\\left[1^2+\\dots+(2k)^2\\right]+(2k+1)^2+(2k+2)^2=\\frac{k(2k+1)(4k+1)}3+(2k+1)^2+(2k+2)^2=\\frac{8k^3+6k^2+k+3(4k^2+4k+1)+3(4k^2+8k+4)}3=\\frac{8k^3+30k^2+37k+15}3$. RHS $=\\frac{(k+1)(2k+3)(4k+5)}3=\\frac{(k+1)(8k^2+22k+15)}3=\\frac{8k^3+30k^2+37k+15}3$ ✓. So true for $n=k+1$ whenever true for $n=k$; being true for $n=1$, it is true for all positive integers $n$ by induction."
+  },
+  {
+   "ref": "Q13(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "An ice hockey player, who is 200 cm tall with ice skates on, skates from directly under a single overhead light mounted at a height of 10 m from the ice. He skates at a constant rate of $3\\ \\text{m s}^{-1}$ away from the light towards the edge of the rink which is 30 m from his starting point. When the ice hockey player is $x$ m from his starting point, is the ice hockey player or the tip of his shadow moving more rapidly? Justify your solution with calculations. (Let $y$ m be the distance of the tip of his shadow from the point under the light.)",
+   "answer": "By similar triangles (light at height 10 m, player 2 m tall): $\\frac{y}{10}=\\frac{y-x}{2}$, so $2y=10y-10x$ and $y=\\frac54x$. The player moves at $\\frac{dx}{dt}=3$ m/s, so the tip of the shadow moves at $\\frac{dy}{dt}=\\frac{dy}{dx}\\cdot\\frac{dx}{dt}=\\frac54\\times3=3.75$ m/s. This is greater than $3$ m/s, so the **tip of his shadow** moves more rapidly (at every position $x$).",
+   "images": [
+    "assets/img/ext1-2026-sydney-tech/q13e.png"
+   ]
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.3.6"
+   ],
+   "question": "The diagram shows two triangles $OAB$ and $BCD$. The point $M$ is the point of intersection of $\\overrightarrow{AB}$ and $\\overrightarrow{CD}$. The point $C$ lies on $\\overrightarrow{OB}$ such that $\\overrightarrow{OB}=4\\overrightarrow{OC}$. $\\overrightarrow{OA}$ is parallel to $\\overrightarrow{BD}$ (in the same direction) and $|\\overrightarrow{OA}|=2|\\overrightarrow{BD}|$. Let $\\overrightarrow{OA}=\\mathbf a$ and $\\overrightarrow{OB}=\\mathbf b$. Find $\\dfrac{|\\overrightarrow{CM}|}{|\\overrightarrow{CD}|}$.",
+   "answer": "$\\overrightarrow{OC}=\\frac14\\mathbf b$ and $\\overrightarrow{BD}=\\frac12\\mathbf a$. $\\overrightarrow{CD}=\\overrightarrow{CB}+\\overrightarrow{BD}=\\frac34\\mathbf b+\\frac12\\mathbf a$. Since $M$ is on $CD$, let $\\overrightarrow{CM}=\\lambda\\overrightarrow{CD}$ (so the required ratio is $\\lambda$): $\\overrightarrow{CM}=\\frac\\lambda2\\mathbf a+\\frac{3\\lambda}4\\mathbf b$. Since $M$ is on $AB$, let $\\overrightarrow{AM}=\\mu\\overrightarrow{AB}=\\mu(\\mathbf b-\\mathbf a)$. Then $\\overrightarrow{CM}=\\overrightarrow{CO}+\\overrightarrow{OA}+\\overrightarrow{AM}=-\\frac14\\mathbf b+\\mathbf a+\\mu\\mathbf b-\\mu\\mathbf a=(1-\\mu)\\mathbf a+\\left(\\mu-\\frac14\\right)\\mathbf b$. As $\\mathbf a$ and $\\mathbf b$ are not parallel, equate coefficients: $\\frac\\lambda2=1-\\mu$ and $\\frac{3\\lambda}4=\\mu-\\frac14$. Adding: $\\frac{5\\lambda}4=\\frac34$, so $\\lambda=\\frac35$. Therefore $\\dfrac{|\\overrightarrow{CM}|}{|\\overrightarrow{CD}|}=\\dfrac35$.",
+   "images": [
+    "assets/img/ext1-2026-sydney-tech/q14b.png"
+   ]
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.5.1.9"
+   ],
+   "question": "By considering $(1+x)^{1000}+(1+x)^{999}+(1+x)^{998}+\\cdots+(1+x)^{950}$, or otherwise, show that $\\dbinom{1000}{50}+\\dbinom{999}{49}+\\dbinom{998}{48}+\\cdots+\\dbinom{950}{0}=\\dbinom{1001}{50}$.",
+   "answer": "The sum $S=(1+x)^{950}\\left[1+(1+x)+\\dots+(1+x)^{50}\\right]$ is a geometric series with 51 terms, ratio $(1+x)$: $S=(1+x)^{950}\\cdot\\frac{(1+x)^{51}-1}{(1+x)-1}=\\frac{(1+x)^{1001}-(1+x)^{950}}{x}$. Compare the coefficients of $x^{950}$. On the left (original form), the coefficient of $x^{950}$ in $(1+x)^k$ is $\\binom{k}{950}$, so it is $\\binom{1000}{950}+\\binom{999}{950}+\\dots+\\binom{950}{950}$. On the right, the coefficient of $x^{950}$ in $\\frac{(1+x)^{1001}}{x}$ is the coefficient of $x^{951}$ in $(1+x)^{1001}$, namely $\\binom{1001}{951}$, and $(1+x)^{950}$ has no $x^{951}$ term (so it contributes nothing to the coefficient of $x^{950}$ after dividing by $x$). Hence $\\binom{1000}{950}+\\binom{999}{950}+\\dots+\\binom{950}{950}=\\binom{1001}{951}$. Using $\\binom nr=\\binom n{n-r}$: $\\binom{1000}{950}=\\binom{1000}{50}$, $\\binom{999}{950}=\\binom{999}{49}$, $\\binom{998}{950}=\\binom{998}{48}$, …, $\\binom{950}{950}=\\binom{950}0$, and $\\binom{1001}{951}=\\binom{1001}{50}$. So $\\binom{1000}{50}+\\binom{999}{49}+\\dots+\\binom{950}0=\\binom{1001}{50}$."
+  },
+  {
+   "ref": "Q14(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.2.3.2"
+   ],
+   "question": "The equation $ax^3+cx+d=0$ has a double root. Show that $27ad^2+4c^3=0$.",
+   "answer": "Let the roots be $\\alpha,\\alpha,\\beta$. Sum of roots (no $x^2$ term): $2\\alpha+\\beta=0$, so $\\beta=-2\\alpha$. Sum of products in pairs: $\\alpha^2+2\\alpha\\beta=\\frac ca$, i.e. $\\alpha^2-4\\alpha^2=-3\\alpha^2=\\frac ca$, so $\\alpha^2=-\\frac{c}{3a}$. Product of roots: $\\alpha^2\\beta=-\\frac da$, i.e. $-2\\alpha^3=-\\frac da$, so $\\alpha^3=\\frac{d}{2a}$. Then $\\left(\\alpha^2\\right)^3=\\left(\\alpha^3\\right)^2$ gives $-\\frac{c^3}{27a^3}=\\frac{d^2}{4a^2}$. Multiply by $108a^3$: $-4c^3=27ad^2$, so $27ad^2+4c^3=0$."
+  },
+  {
+   "ref": "Q14(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "The equation $ax^3+cx+d=0$ has a double root precisely when $27ad^2+4c^3=0$. Hence, and without the use of calculus methods, find the exact values of the $y$-coordinates of the two stationary points on the curve $y=3x^3-4x+1$.",
+   "answer": "At a stationary point of $y=3x^3-4x+1$ with $y=m$, the equation $3x^3-4x+1-m=0$ has a double root (the horizontal line $y=m$ is tangent to the curve). So with $a=3$, $c=-4$, $d=1-m$: $27(3)(1-m)^2+4(-4)^3=0$, so $81(1-m)^2=256$ and $(1-m)^2=\\frac{256}{81}$, $1-m=\\pm\\frac{16}9$. Hence $m=1\\mp\\frac{16}9$, i.e. $m=-\\frac79$ or $m=\\frac{25}9$. The $y$-coordinates of the stationary points are $\\dfrac{25}9$ and $-\\dfrac79$."
+  },
+  {
+   "ref": "Q14(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.2.4.10"
+   ],
+   "question": "Let $\\mathbf x$, $\\mathbf y$ and $\\mathbf z$ be non-zero vectors. Let $\\alpha$ be the angle between $\\mathbf x$ and $\\mathbf y$ and $\\beta$ be the angle between $\\mathbf y$ and $\\mathbf z$, where $\\alpha+\\beta\\neq\\frac\\pi2$ and $\\alpha,\\beta\\in\\left(0,\\frac\\pi2\\right)$. The angle between $\\mathbf x$ and $\\mathbf z$ is $\\alpha+\\beta$ ($\\mathbf x,\\mathbf y,\\mathbf z$ lie in a plane with $\\mathbf y$ between $\\mathbf x$ and $\\mathbf z$). If $\\operatorname{proj}_{\\mathbf y}\\mathbf x=\\mathbf u$, show that $\\operatorname{proj}_{\\mathbf z}\\mathbf u=\\dfrac{\\cos\\alpha\\cos\\beta}{\\cos(\\alpha+\\beta)}\\times\\operatorname{proj}_{\\mathbf z}\\mathbf x$.",
+   "answer": "Use $\\operatorname{proj}_{\\mathbf b}\\mathbf a=\\frac{\\mathbf a\\cdot\\mathbf b}{|\\mathbf b|^2}\\mathbf b$ and $\\mathbf a\\cdot\\mathbf b=|\\mathbf a||\\mathbf b|\\cos\\theta$. $\\mathbf u=\\operatorname{proj}_{\\mathbf y}\\mathbf x=\\frac{\\mathbf x\\cdot\\mathbf y}{|\\mathbf y|^2}\\mathbf y$ with $\\cos\\alpha=\\frac{\\mathbf x\\cdot\\mathbf y}{|\\mathbf x||\\mathbf y|}$; similarly $\\cos\\beta=\\frac{\\mathbf y\\cdot\\mathbf z}{|\\mathbf y||\\mathbf z|}$ and $\\cos(\\alpha+\\beta)=\\frac{\\mathbf x\\cdot\\mathbf z}{|\\mathbf x||\\mathbf z|}$. Then $\\text{RHS}=\\frac{\\cos\\alpha\\cos\\beta}{\\cos(\\alpha+\\beta)}\\operatorname{proj}_{\\mathbf z}\\mathbf x=\\frac{\\frac{\\mathbf x\\cdot\\mathbf y}{|\\mathbf x||\\mathbf y|}\\cdot\\frac{\\mathbf y\\cdot\\mathbf z}{|\\mathbf y||\\mathbf z|}}{\\frac{\\mathbf x\\cdot\\mathbf z}{|\\mathbf x||\\mathbf z|}}\\cdot\\frac{\\mathbf x\\cdot\\mathbf z}{|\\mathbf z|^2}\\mathbf z=\\frac{(\\mathbf x\\cdot\\mathbf y)(\\mathbf y\\cdot\\mathbf z)}{|\\mathbf y|^2}\\cdot\\frac{\\mathbf z}{|\\mathbf z|^2}$. And LHS: $\\operatorname{proj}_{\\mathbf z}\\mathbf u=\\frac{\\mathbf u\\cdot\\mathbf z}{|\\mathbf z|^2}\\mathbf z=\\frac{\\left(\\frac{\\mathbf x\\cdot\\mathbf y}{|\\mathbf y|^2}\\mathbf y\\right)\\cdot\\mathbf z}{|\\mathbf z|^2}\\mathbf z=\\frac{(\\mathbf x\\cdot\\mathbf y)(\\mathbf y\\cdot\\mathbf z)}{|\\mathbf y|^2}\\cdot\\frac{\\mathbf z}{|\\mathbf z|^2}$. These are equal, so $\\operatorname{proj}_{\\mathbf z}\\mathbf u=\\frac{\\cos\\alpha\\cos\\beta}{\\cos(\\alpha+\\beta)}\\operatorname{proj}_{\\mathbf z}\\mathbf x$ as required."
+  }
+ ]
+}
