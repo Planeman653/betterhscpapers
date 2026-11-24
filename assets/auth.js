@@ -121,6 +121,31 @@ if (!CFG) {
     return { submissions: rows(s), queue: rows(q) };
   };
 
+  /* ---- whole-paper uploads: metadata in paperUploads/{id}, file bytes (base64) in paperUploads/{id}/chunks/* ---- */
+  A.addUpload = async (meta, files, onProgress) => {
+    const u = need(), CH = 700000;
+    const parts = files.map((f) => Math.max(1, Math.ceil(f.data.length / CH)));
+    const total = parts.reduce((a, b) => a + b, 0);
+    const d = clean({ ...meta, uid: u.uid, author: meta.author || u.name, created: Date.now(), updated: Date.now(), complete: false,
+      files: files.map((f, i) => ({ name: f.name, type: f.type, role: f.role, size: f.size, chunks: parts[i] })) });
+    const ref = await addDoc(collection(db, "paperUploads"), d);
+    let n = 0;
+    try {
+      for (let i = 0; i < files.length; i++) for (let k = 0; k < parts[i]; k++) {
+        await setDoc(doc(db, "paperUploads", ref.id, "chunks", i + "-" + String(k).padStart(3, "0")), { f: i, i: k, data: files[i].data.slice(k * CH, (k + 1) * CH) });
+        onProgress && onProgress(++n, total);
+      }
+      await updateDoc(doc(db, "paperUploads", ref.id), { complete: true, updated: Date.now() });
+    } catch (e) { await A.deleteUpload(ref.id, d.files).catch(() => {}); throw e; }
+    return ref.id;
+  };
+  A.deleteUpload = async (id, files) => {
+    for (let i = 0; i < (files || []).length; i++) for (let k = 0; k < files[i].chunks; k++)
+      await deleteDoc(doc(db, "paperUploads", id, "chunks", i + "-" + String(k).padStart(3, "0"))).catch(() => {});
+    await deleteDoc(doc(db, "paperUploads", id));
+  };
+  A.myUploads = async () => { const u = need(); return rows(await getDocs(query(collection(db, "paperUploads"), where("uid", "==", u.uid)))); };
+
   /* ---- admin ---- */
   A.allSubmissions = async () => rows(await getDocs(collection(db, "submissions")));
   A.allQueue = async () => rows(await getDocs(collection(db, "queue")));
@@ -157,7 +182,7 @@ function renderAccount() {
   const nSaved = Object.keys((A.progress && A.progress.saved) || {}).length;
   el.innerHTML = `<a class="saved-link" href="saved.html" title="Your saved questions"><span aria-hidden="true">★</span><i class="lbl"> Saved</i>${nSaved ? ` <b>${nSaved}</b>` : ""}</a><details class="acct-menu"><summary title="${esc(A.user.email)}">${A.user.photo ? `<img src="${esc(A.user.photo)}" alt="" referrerpolicy="no-referrer">` : `<span class="acct-i">${initial}</span>`}<span class="acct-name">${esc(A.user.name)}</span>${A.isAdmin ? '<span class="tag">Admin</span>' : ""}</summary>
     <div class="acct-pop"><div class="soft acct-email">${esc(A.user.email)}</div>
-    <a href="saved.html">★ Saved questions</a><a href="mine.html">My submitted questions</a><a href="submit.html">+ Submit a question</a>${A.isAdmin ? '<a href="admin.html">Admin inbox</a>' : ""}<button type="button" class="linkish" data-signout>Sign out</button></div></details>`;
+    <a href="saved.html">★ Saved questions</a><a href="mine.html">My submitted questions</a><a href="submit.html">+ Submit a question</a><a href="upload.html">⬆ Upload a paper</a>${A.isAdmin ? '<a href="admin.html">Admin inbox</a>' : ""}<button type="button" class="linkish" data-signout>Sign out</button></div></details>`;
   el.querySelector("[data-signout]").onclick = () => A.signOut();
 }
 if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", renderAccount); else renderAccount();

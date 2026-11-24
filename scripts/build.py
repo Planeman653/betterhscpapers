@@ -235,6 +235,8 @@ def main():
     sk = os.path.join(ROOT, "data/queue_skipped.json")
     skipped = {k: v.get("reason", "") for k, v in (json.load(open(sk)) if os.path.exists(sk) else {}).items()}
     json.dump(skipped, open(os.path.join(ROOT, "data/build/queue_skipped.json"), "w"), indent=0)
+    up = os.path.join(ROOT, "data/uploads_done.json")   # uploaded papers: id -> {paper} | {skipped}
+    json.dump(json.load(open(up)) if os.path.exists(up) else {}, open(os.path.join(ROOT, "data/build/uploads_done.json"), "w"), indent=0)
 
 
 if __name__ == "__main__":

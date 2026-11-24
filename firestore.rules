@@ -45,6 +45,22 @@ service cloud.firestore {
       allow delete: if isAdmin() || owns(resource.data);
     }
 
+    // whole papers / practice exams uploaded as photos or PDFs, for the daily task to index (public so the task can read them)
+    match /paperUploads/{id} {
+      allow read: if true;
+      allow create: if owns(request.resource.data) && course(request.resource.data)
+        && request.resource.data.title is string && request.resource.data.title.size() > 0 && request.resource.data.title.size() <= 120
+        && request.resource.data.files is list && request.resource.data.files.size() > 0 && request.resource.data.files.size() <= 60;
+      allow update: if isAdmin() || (owns(resource.data) && request.resource.data.uid == resource.data.uid && course(request.resource.data));
+      allow delete: if isAdmin() || owns(resource.data);
+      match /chunks/{cid} {
+        allow read: if true;
+        allow create, update: if signedIn() && get(/databases/$(database)/documents/paperUploads/$(id)).data.uid == request.auth.uid
+          && request.resource.data.data is string && request.resource.data.data.size() <= 800000;
+        allow delete: if isAdmin() || (signedIn() && get(/databases/$(database)/documents/paperUploads/$(id)).data.uid == request.auth.uid);
+      }
+    }
+
     // admin edits / deletions of any question on the site
     match /overrides/{qid} {
       allow read: if true;

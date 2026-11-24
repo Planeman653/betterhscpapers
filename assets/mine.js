@@ -21,15 +21,22 @@
       $("g-in").onclick = () => A.signIn(); return;
     }
     $("mine").innerHTML = `<div class="soft">Loading…</div>`;
-    let m, done, skipped;
-    try { [m, done, skipped] = await Promise.all([A.mine(), get("queue_done.json"), get("queue_skipped.json")]); }
+    let m, done, skipped, ups = [], udone = {};
+    try { [m, done, skipped, ups, udone] = await Promise.all([A.mine(), get("queue_done.json"), get("queue_skipped.json"), A.myUploads().catch(() => []), get("uploads_done.json")]); }
     catch (e) { $("mine").innerHTML = `<div class="soft">Couldn't load your questions (${esc(e.message)}).</div>`; return; }
     if (my !== tok) return;
-    const items = [...m.submissions.map((x) => ({ ...x, _kind: "sub" })), ...m.queue.map((x) => ({ ...x, _kind: "queue" }))]
+    const items = [...m.submissions.map((x) => ({ ...x, _kind: "sub" })), ...m.queue.map((x) => ({ ...x, _kind: "queue" })), ...ups.map((x) => ({ ...x, _kind: "up" }))]
       .sort((a, b) => (b.created || 0) - (a.created || 0));
-    if (!items.length) { $("mine").innerHTML = `<div class="soft">You haven't submitted any questions yet. <a href="submit.html">Submit one →</a></div>`; return; }
+    if (!items.length) { $("mine").innerHTML = `<div class="soft">You haven't submitted anything yet. <a href="submit.html">Submit a question →</a> or <a href="upload.html">upload a paper →</a></div>`; return; }
     $("mine").innerHTML = items.map((x) => {
       let status, actions;
+      if (x._kind === "up") {
+        const u = udone[x._id];
+        status = !x.complete ? '<span class="tag">Incomplete upload</span>' : u && u.paper ? '<span class="tag live">Live — paper added</span>' : u ? `<span class="tag">Not added</span> <span class="soft">${esc(u.skipped || "")}</span>` : '<span class="tag wait">Queued for indexing</span>';
+        actions = (u && u.paper ? `<a class="btn" href="${x.course}.html">View</a>` : "") + `<button type="button" class="btn" data-delup="${esc(x._id)}">Delete</button>`;
+        return `<div class="a-row"><div class="a-main"><b>${esc(NAMES[x.course] || x.course)}</b> · ⬆ Paper upload: ${esc(x.title || "")} ${status}
+        <div class="soft a-meta">${when(x.created)} · ${(x.files || []).length} file${(x.files || []).length === 1 ? "" : "s"}</div></div><div class="a-act">${actions}</div></div>`;
+      }
       if (x._kind === "sub") {
         status = '<span class="tag live">Live</span>';
         actions = `<a class="btn" href="${x.course}.html#fs-${encodeURIComponent(x._id)}">View</a><a class="btn" href="submit.html?edit=fs-${encodeURIComponent(x._id)}">Edit</a><button type="button" class="btn" data-delsub="${esc(x._id)}">Delete</button>`;
@@ -51,10 +58,10 @@
   document.addEventListener("DOMContentLoaded", () => {
     $("mine").addEventListener("click", async (e) => {
       const t = e.target.closest("button"); if (!t) return;
-      const { delsub, delq } = t.dataset;
-      if (!delsub && !delq) return;
+      const { delsub, delq, delup } = t.dataset;
+      if (!delsub && !delq && !delup) return;
       if (!confirm("Delete this question? This can't be undone.")) return;
-      try { delsub ? await A.deleteSubmission(delsub) : await A.deleteQueue(delq); } catch (err) { toast("Couldn't delete — " + err.message); return; }
+      try { if (delup) { const u = (await A.myUploads()).find((y) => y._id === delup); await A.deleteUpload(delup, (u && u.files) || []); } else delsub ? await A.deleteSubmission(delsub) : await A.deleteQueue(delq); } catch (err) { toast("Couldn't delete — " + err.message); return; }
       toast("Deleted"); render();
     });
     A.ready.then(render);
