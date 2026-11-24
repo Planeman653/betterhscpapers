@@ -1,0 +1,634 @@
+{
+ "id": "phys-2023-sydney-boys",
+ "course": "physics",
+ "school": "Sydney Boys",
+ "year": 2023,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "6528",
+  "title": "Sydney Boys 2023 w. sol"
+ },
+ "indexed": "2026-11-24",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q3",
+   "reason": "Generic Working Scientifically question (definition of a hypothesis) not tied to any Year 12 content dot point"
+  },
+  {
+   "ref": "Q11",
+   "reason": "Generic Working Scientifically question (accuracy v reliability of two data sets) not tied to any Year 12 content dot point"
+  },
+  {
+   "ref": "Q17",
+   "reason": "Generic Working Scientifically question (variables in a pendulum investigation) not tied to any Year 12 content dot point"
+  },
+  {
+   "ref": "Q18",
+   "reason": "Generic Working Scientifically question (reducing uncertainty in a pendulum period measurement) not tied to any Year 12 content dot point"
+  },
+  {
+   "ref": "Q32(a)",
+   "reason": "Year 11 content (not examined in the HSC): work–energy theorem applied to a throw from rest"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.1"
+   ],
+   "question": "A ball is thrown horizontally from the top of a building with speed $v$, and it hits the ground with a range $R$ from the bottom of the building. A second ball is thrown horizontally from the top of the same building with speed $2v$. What is the range of the second ball?",
+   "answer": "Both balls have zero initial vertical velocity, so the time to fall the building's height, $t=\\sqrt{2h/g}$, is the same for both. The horizontal motion is uniform, so $R=vt\\propto v$. Doubling the launch speed doubles the range: $2R$ (C).",
+   "options": [
+    "$R$",
+    "$\\sqrt2R$",
+    "$2R$",
+    "$4R$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.5.3.4"
+   ],
+   "question": "Two satellites orbit Earth, as shown. Satellite A has a circular orbit and Satellite B an elliptical orbit. The velocities at different points are shown by arrows. Which of the following correctly describes the work done by the gravitational field of Earth on Satellite A as it moves from R to S, and on Satellite B as it moves from P to Q?",
+   "answer": "Work done is $W=F_\\parallel s$. In a circular orbit the gravitational force is always perpendicular to the motion, the speed is constant and the potential energy does not change, so the work done on A is zero. In an elliptical orbit the force generally has a component along the path; from P (closest point) to Q (farthest point) satellite B slows down and its gravitational potential energy increases, so net (negative) work is done on it. Work on A is zero and on B is non-zero (B).",
+   "options": [
+    "A: zero; B: zero",
+    "A: zero; B: non-zero",
+    "A: non-zero; B: zero",
+    "A: non-zero; B: non-zero"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/phys-2023-sydney-boys/q2.png"
+   ]
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.3.4"
+   ],
+   "question": "Quantised energy levels within atoms can best be explained by",
+   "answer": "Treating the electron as a matter wave (de Broglie), only those orbits that can hold a whole number of wavelengths, i.e. standing waves, are stable. This restricts the allowed energies to discrete levels (D). A pure particle model (A) would predict radiation from the accelerating electron (Maxwell), and diffraction patterns (C) are unrelated to energy levels.",
+   "options": [
+    "electrons behaving as individual particles with varying energies.",
+    "atoms having specific energy requirements that can only be satisfied by electrons.",
+    "electrons behaving as waves, with each energy level representing a diffraction pattern.",
+    "electrons behaving as waves, with only standing waves at particular wavelengths allowed."
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.4.1"
+   ],
+   "question": "Actinium-227 can undergo either alpha- or beta-decay. What would be the product nuclei for either of the two modes of radioactive decay?",
+   "answer": "Alpha decay: $^{227}_{89}\\text{Ac}\\rightarrow{}^{223}_{87}\\text{Fr}+{}^{4}_{2}\\alpha$. Beta-minus decay: $^{227}_{89}\\text{Ac}\\rightarrow{}^{227}_{90}\\text{Th}+{}^{0}_{-1}\\beta+\\bar\\nu$ (mass number unchanged, atomic number up by one). Answer A.",
+   "options": [
+    "alpha: $^{223}\\text{Fr}$; beta: $^{227}\\text{Th}$",
+    "alpha: $^{223}\\text{Fr}$; beta: $^{228}\\text{Th}$",
+    "alpha: $^{225}\\text{Fr}$; beta: $^{227}\\text{Th}$",
+    "alpha: $^{225}\\text{Fr}$; beta: $^{228}\\text{Th}$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.2.1"
+   ],
+   "question": "The cathode ray tube shown contains a rotating paddle wheel that is free to move. The tube's electrodes are connected to a high-voltage source. Which of the following statements about cathode rays does this apparatus provide evidence for?",
+   "answer": "The paddle wheel turns when struck by the cathode rays, so the rays transfer momentum (and energy) to it, which indicates they are particles with mass and momentum (C). The path of the rays is not visible so straight-line travel is not shown; the apparatus says nothing about production only in vacuum; and electromagnetic waves would not deliver enough momentum to turn the wheel.",
+   "options": [
+    "Cathode rays travel in straight lines.",
+    "Cathode rays can only be produced in vacuum tubes.",
+    "Cathode rays are particles that have momentum.",
+    "Cathode rays are waves of high frequency and short wavelength."
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/phys-2023-sydney-boys/q6.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.1"
+   ],
+   "question": "Which graph is consistent with predictions resulting from Planck's hypothesis regarding radiation from hot objects?",
+   "answer": "Planck's black-body curves (intensity against wavelength) have a single peak whose height increases and whose wavelength decreases as temperature increases (Wien's law). So the hottest curve (1650 K) is the highest, with its peak at the shortest wavelength. Graph B shows this. Graphs A and C order the temperatures the wrong way round and plotting against frequency (C, D) gives curves of a different shape (B).",
+   "options": [
+    "![Graph A](assets/img/phys-2023-sydney-boys/q7a.png)",
+    "![Graph B](assets/img/phys-2023-sydney-boys/q7b.png)",
+    "![Graph C](assets/img/phys-2023-sydney-boys/q7c.png)",
+    "![Graph D](assets/img/phys-2023-sydney-boys/q7d.png)"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "At two separate times, two charged particles approach a current-carrying wire (current to the left) and follow the trajectories shown. What are the signs of the charges for particles X and Y?",
+   "answer": "The right-hand grip rule gives the field of the wire: into the page above the wire and out of the page below it. Above the wire particle X moves to the right and is deflected upwards (away from the wire). Using the right-hand palm rule with $\\mathbf v$ to the right and $\\mathbf B$ into the page, the force on a positive charge is up, so X is positive. Below the wire $\\mathbf B$ is out of the page; particle Y moves to the left and is deflected away from the wire (downwards). For a positive charge moving left in an out-of-the-page field the force would be up (towards the wire), so Y must be negative (A).",
+   "options": [
+    "X positive, Y negative",
+    "X positive, Y positive",
+    "X negative, Y negative",
+    "X negative, Y positive"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/phys-2023-sydney-boys/q8.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "Unpolarised light of intensity $I_0$ is incident upon a vertically polarised filter. The filtered light then passes through a pair of glasses whose lenses are polarising filters, with one lens polarised vertically (giving $I_y$) and the other horizontally (giving $I_z$). The filter undergoes a $180^\\circ$ rotation about point $P$, as shown. Which of the following correctly compares $I_y$ and $I_z$ during the rotation (where $\\theta$ is the angle through which the filter has rotated)?",
+   "answer": "By Malus's law, $I=I_{\\max}\\cos^2\\theta$ where $\\theta$ is the angle between the polarising directions. Initially the filter and the vertical lens (for $I_y$) are parallel, so $I_y$ starts at a maximum, falls to zero when they are perpendicular ($90^\\circ$) and returns to maximum at $180^\\circ$. For $I_z$ the filter and the horizontal lens start perpendicular, so $I_z$ starts at zero, rises to a maximum at $90^\\circ$ and returns to zero at $180^\\circ$. Graph B shows this.",
+   "options": [
+    "![Graph A](assets/img/phys-2023-sydney-boys/q9a.png)",
+    "![Graph B](assets/img/phys-2023-sydney-boys/q9b.png)",
+    "![Graph C](assets/img/phys-2023-sydney-boys/q9c.png)",
+    "![Graph D](assets/img/phys-2023-sydney-boys/q9d.png)"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/phys-2023-sydney-boys/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.2.1"
+   ],
+   "question": "J. J. Thomson determined the charge/mass ratio of the electron by constructing a device which contained",
+   "answer": "Thomson used perpendicular electric and magnetic fields as a velocity selector ($qE=qvB$, so $v=E/B$). With the electric field removed, the magnetic field alone bent the beam into a circular arc of radius $r$, giving $\\frac qm=\\frac vBr=\\frac{E}{B^2r}$ (D).",
+   "options": [
+    "perpendicular magnetic fields.",
+    "perpendicular electric fields.",
+    "parallel electric and magnetic fields.",
+    "perpendicular electric and magnetic fields."
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q12",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.3"
+   ],
+   "question": "Why is an iron core used in a transformer?",
+   "answer": "The soft iron core guides the changing magnetic flux from the primary coil through the secondary coil, increasing the flux linkage between them (C). Heating from eddy currents is reduced by laminating the core, not by using iron itself.",
+   "options": [
+    "To reduce the heat generated",
+    "To separate the magnetic fields",
+    "To increase the linkage of the flux",
+    "To limit eddy currents"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q13",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.1.1"
+   ],
+   "question": "Which of the following is NOT a contribution by Maxwell?",
+   "answer": "Maxwell unified electricity and magnetism, predicted electromagnetic waves and calculated their speed ($c=1/\\sqrt{\\mu_0\\varepsilon_0}$). Radio waves were first produced and detected by Hertz, so D is not a contribution by Maxwell.",
+   "options": [
+    "Predicting the velocity of electromagnetic radiation",
+    "Unifying electricity and magnetism",
+    "Predicting electromagnetic waves",
+    "Discovery of radio waves"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q14",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.4.2",
+    "12.6.3.1"
+   ],
+   "question": "An electrical generator is shown in the diagram. The generator is turning clockwise. The voltage between P and Q and the magnetic flux through the loop are both graphed as functions of time, with voltage as a solid line and magnetic flux as a dashed line. Which one of the following graphs best shows the relationships for this electrical generator?",
+   "answer": "In the position shown the loop's area vector is parallel to the field, so the flux starts at a maximum, then falls to zero and reverses. By Faraday's law $\\varepsilon=-N\\frac{\\Delta\\Phi}{\\Delta t}$, so the voltage is proportional to the negative gradient of the flux graph: it is zero where the flux is at a maximum or minimum and is at a maximum magnitude where the flux crosses zero, so the two curves are a quarter-cycle out of phase. Only graph D has the flux starting at a maximum with the voltage starting at zero and the two curves a quarter-cycle apart (D).",
+   "options": [
+    "![Graph A](assets/img/phys-2023-sydney-boys/q14a.png)",
+    "![Graph B](assets/img/phys-2023-sydney-boys/q14b.png)",
+    "![Graph C](assets/img/phys-2023-sydney-boys/q14c.png)",
+    "![Graph D](assets/img/phys-2023-sydney-boys/q14d.png)"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/phys-2023-sydney-boys/q14.png"
+   ]
+  },
+  {
+   "ref": "Q15",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.1"
+   ],
+   "question": "A bar magnet and a solenoid are suspended next to each other from a fixed platform, as shown. The switch on the solenoid circuit is closed. Which choice correctly indicates the direction(s) the magnet and solenoid will move immediately after the switch is closed?",
+   "answer": "Closing the switch gives a current in the solenoid. By the right-hand grip rule for a solenoid, the current produces a north pole on the left end of the solenoid (the end facing the magnet). This attracts the south pole of the bar magnet, so the magnet moves right (towards the solenoid) and, by Newton's third law, the solenoid moves left (towards the magnet) (A).",
+   "options": [
+    "Magnet moves right; solenoid moves left",
+    "Magnet moves left; solenoid moves right",
+    "Magnet moves right; solenoid moves right",
+    "Magnet moves left; solenoid moves left"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/phys-2023-sydney-boys/q15.png"
+   ]
+  },
+  {
+   "ref": "Q16",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "In a thought experiment, observer X is on a train travelling at a constant velocity of $0.95c$ relative to the ground. Observer Y is standing on the ground outside the train. As observer X passes observer Y, observer X sends a short light pulse towards the sensor. Which statement about the light pulse is correct as observed by X or Y in their respective frames of reference?",
+   "answer": "The speed of light is $c$ in both frames (so A is false). In X's frame the carriage is at rest and the pulse travels the proper length $L_0$ in time $L_0/c$. In Y's frame the sensor moves away from the pulse while it travels, so although the carriage is length-contracted the total distance the light covers is greater, $ct=\\frac{L_0}{\\gamma}+vt$, giving $t=\\frac{L_0}{\\gamma(c-v)}=\\frac{L_0}{c}\\sqrt{\\frac{c+v}{c-v}}\\approx6.2\\frac{L_0}{c}$ for $v=0.95c$. So X sees a shorter distance and a shorter time than Y (B).",
+   "options": [
+    "Its velocity observed by Y is $0.05c$.",
+    "X sees it travel a shorter distance to the sensor than Y.",
+    "X sees it take a longer time to reach the sensor than Y.",
+    "Both X and Y see it travel the same distance in the same amount of time."
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/phys-2023-sydney-boys/q16.png"
+   ]
+  },
+  {
+   "ref": "Q19",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.1"
+   ],
+   "question": "Two positive point charges, $q$ and $4q$, are placed 12 cm apart, as shown in the scale diagram. At which point along the straight line between the charges $q$ and $4q$ will a null point be found?",
+   "answer": "At the null point the electric fields of the two charges are equal and opposite: $\\frac{kq}{r_1^2}=\\frac{k(4q)}{r_2^2}$, so $\\frac{r_2}{r_1}=\\sqrt4=2$. The null point is therefore twice as far from $4q$ as from $q$: $r_1=4$ cm and $r_2=8$ cm from the charges. On the scale diagram this is point R (C).",
+   "options": [
+    "P",
+    "Q",
+    "R",
+    "S"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/phys-2023-sydney-boys/q19.png"
+   ]
+  },
+  {
+   "ref": "Q20",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.3",
+    "12.5.2.4"
+   ],
+   "question": "A carriage rolls down a rollercoaster track under the influence of gravity from point P, as shown. It proceeds along the track and around a vertical loop of radius $r$, before reaching the end of the track. Ignoring friction, which expression shows the decrease in speed from $u$ at point A (bottom of the loop) to $v$ at point B (top of the loop)?",
+   "answer": "Conservation of energy between A (bottom) and B (top, a height $2r$ higher): $\\frac12mu^2=\\frac12mv^2+mg(2r)$, so $u^2-v^2=4gr$. Then $(u-v)(u+v)=4gr$ and $u-v=\\dfrac{4gr}{u+v}$ (C).",
+   "options": [
+    "$\\dfrac{2gr}{u-v}$",
+    "$\\sqrt{4gr}$",
+    "$\\dfrac{4gr}{u+v}$",
+    "$\\sqrt{2gr}$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/phys-2023-sydney-boys/q20.png"
+   ]
+  },
+  {
+   "ref": "Q21",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.3"
+   ],
+   "question": "Explain refraction using both Huygens' and Newton's theories of light.",
+   "answer": "**Huygens (wave model):** every point on a wavefront acts as a source of secondary wavelets, and the new wavefront is the envelope of these wavelets. When light enters a denser medium (e.g. water) it travels more slowly, so the wavelets are smaller in radius in the same time. The wavefront therefore pivots and the refracted rays bend towards the normal, with the wave speed decreasing in the denser medium.\\n\\n**Newton (corpuscular model):** light consists of particles (corpuscles). As a corpuscle approaches a denser medium, the matter in that medium attracts it towards the interface, so the component of its velocity perpendicular to the surface increases while the component parallel to the surface is unchanged. The net velocity vector therefore bends towards the normal. (This predicts that light travels faster in a denser medium, the opposite of the wave model.)"
+  },
+  {
+   "ref": "Q22(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "A distant exoplanet, Methanos, has a single moon, Propedes. Compare the force of gravity exerted on Propedes by Methanos with the force of gravity exerted on Methanos by Propedes.",
+   "answer": "By Newton's law of universal gravitation, $F=\\frac{Gm_1m_2}{r^2}$, and by Newton's third law the two forces form an action–reaction pair. They have the **same magnitude** and **opposite directions** (each is directed towards the other body)."
+  },
+  {
+   "ref": "Q22(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "The acceleration due to gravity on the moon Propedes is $2.2\\ \\text{m s}^{-2}$ and on the planet Methanos it is $12.8\\ \\text{m s}^{-2}$. Quantitatively compare the mass and weight of a 95 kg astronaut on Propedes and on Methanos.",
+   "answer": "Mass is a property of the astronaut and does not change: it is 95 kg on both. Weight $=mg$: on Propedes $95\\times2.2=209$ N; on Methanos $95\\times12.8=1216$ N. The astronaut's weight on Methanos is about 5.8 times the weight on Propedes."
+  },
+  {
+   "ref": "Q23(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.3.1",
+    "12.6.3.2"
+   ],
+   "question": "A square coil of conducting wire, 44.0 cm long, is placed in a 2.75 T magnetic field directed into the page, as shown in Figure 1. The shape of the coil is uniformly changed to a circular shape in 1.25 ms, as shown in Figure 2. Calculate the magnitude of the average induced EMF.",
+   "answer": "Square: side $=\\frac{0.440}{4}=0.110$ m, area $=0.110^2=0.01210\\ \\text{m}^2$. Circle: $2\\pi r=0.440$, so $r=0.07003$ m and $A=\\pi r^2=0.01541\\ \\text{m}^2$. Change in area $=0.003306\\ \\text{m}^2$, so $\\Delta\\Phi=B\\Delta A=2.75\\times0.003306=9.09\\times10^{-3}$ Wb. Then $|\\varepsilon|=\\frac{\\Delta\\Phi}{\\Delta t}=\\frac{9.09\\times10^{-3}}{1.25\\times10^{-3}}=7.27$ V. (The school's solution gives 7.26 V — a rounding difference.)",
+   "images": [
+    "assets/img/phys-2023-sydney-boys/q23.png"
+   ]
+  },
+  {
+   "ref": "Q23(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.2"
+   ],
+   "question": "A square coil of conducting wire is placed in a uniform magnetic field directed into the page and is uniformly reshaped into a circle of larger area (Figures 1 and 2). Identify the direction of the current that passes through the conducting wire as a result of the induced EMF.",
+   "answer": "The flux into the page through the loop is increasing. By Lenz's law the induced current opposes this change by producing a field out of the page inside the loop. By the right-hand grip rule this requires an **anticlockwise** current.",
+   "images": [
+    "assets/img/phys-2023-sydney-boys/q23.png"
+   ]
+  },
+  {
+   "ref": "Q24",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.1.3"
+   ],
+   "question": "In the 1840s, the French physicist Hippolyte Fizeau performed an experiment to measure the speed of light. He shone an intense light source at a mirror 8.50 km away and broke up the light beam with a rotating cogwheel. He increased the speed of rotation of the wheel until the reflected light beam could no longer be seen returning through the gaps in the cogwheel. The diagram shows a similar experiment. The cogwheel has 50 teeth and 50 gaps of the same width. Explain why specific speeds of rotation of the cogwheel will completely block the returning light. Support your answer with calculations.",
+   "answer": "At low speeds a pulse of light passes through a gap, reflects from the mirror and returns through the same gap, so the observer sees the light. The round-trip time for the light is fixed: $t=\\frac{2d}{c}=\\frac{2\\times8.50\\times10^3}{3.00\\times10^8}=5.67\\times10^{-5}$ s. As the wheel speeds up, the wheel turns further during this time. When, in this time, the wheel has turned through exactly the angular width of one gap-to-tooth step, a tooth has moved into the path of the returning light and blocks it. With 50 teeth and 50 gaps there are 100 equal sections, so each step is $\\theta=\\frac{2\\pi}{100}=0.0628$ rad. The first speed that blocks the light is $\\omega=\\frac{\\theta}{t}=\\frac{0.0628}{5.67\\times10^{-5}}=1.11\\times10^{3}\\ \\text{rad s}^{-1}$ (about 176 revolutions per second). The light will also be blocked whenever the wheel advances by an odd number of steps in the round-trip time, so for odd multiples of this speed ($3\\times1110$, $5\\times1110$ rad s$^{-1}$, …); at even multiples the next gap lines up and the light is seen again.",
+   "images": [
+    "assets/img/phys-2023-sydney-boys/q24.png"
+   ]
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.4.6"
+   ],
+   "question": "A polonium-218 atom, at rest, undergoes radioactive decay, with a decay constant of $0.2236\\ \\text{min}^{-1}$. The masses of the nuclei involved are: polonium → lead + helium-4: $218.00897\\ \\text{u}\\rightarrow213.99981\\ \\text{u}+4.00260\\ \\text{u}$. Calculate the energy, in joules, released by this decay.",
+   "answer": "Mass defect: $\\Delta m=218.00897-(213.99981+4.00260)=0.00656\\ \\text{u}$. Energy: $E=\\Delta m\\times931.5\\ \\text{MeV}=0.00656\\times931.5=6.11\\ \\text{MeV}=6.11\\times10^{6}\\times1.602\\times10^{-19}=9.8\\times10^{-13}$ J. (Equivalently $\\Delta m=0.00656\\times1.661\\times10^{-27}=1.09\\times10^{-29}$ kg and $E=mc^2=9.8\\times10^{-13}$ J. The school's worked solution has a sign typo in the mass line and gets $9.82\\times10^{-13}$ J. The paper labels the nuclides polonium-118 and lead-114, but the masses given are those of polonium-218 and lead-214.)"
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.4.4"
+   ],
+   "question": "A polonium nucleus undergoes spontaneous alpha decay to produce lead-214. Identify whether the lead nucleus has a higher or lower binding energy per nucleon than the polonium nucleus.",
+   "answer": "Higher. The decay is spontaneous and releases energy, so the products are more stable (more tightly bound) than the parent nucleus: the lead nucleus has a higher binding energy per nucleon."
+  },
+  {
+   "ref": "Q25(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.4.2",
+    "12.8.4.2"
+   ],
+   "question": "A radioisotope has a decay constant of $0.2236\\ \\text{min}^{-1}$ when at rest in the laboratory. If an ion of this isotope is accelerated in a particle accelerator to $0.99945c$, what will be its decay constant as measured in the laboratory?",
+   "answer": "Because of time dilation the half-life in the laboratory is longer: $t_{1/2}'=\\gamma t_{1/2,0}$, with $\\gamma=\\frac1{\\sqrt{1-v^2/c^2}}$. Since $\\lambda=\\frac{\\ln2}{t_{1/2}}$, the decay constant in the lab is $\\lambda'=\\frac{\\lambda_0}{\\gamma}=\\lambda_0\\sqrt{1-\\frac{v^2}{c^2}}=0.2236\\times\\sqrt{1-0.99945^2}=0.2236\\times0.03316=7.4\\times10^{-3}\\ \\text{min}^{-1}$ (about $1.24\\times10^{-4}\\ \\text{s}^{-1}$)."
+  },
+  {
+   "ref": "Q26(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.3.2"
+   ],
+   "question": "The first four wavelengths of the Balmer series of hydrogen are: $H_\\alpha$ 656.3 nm, $H_\\beta$ 486.2 nm, $H_\\gamma$ 434.1 nm, $H_\\delta$ 410.2 nm (transitions $n=3,4,5,6\\to2$). Calculate the next wavelength, $H_\\varepsilon$, in the Balmer series.",
+   "answer": "The next line is the $n=7\\to n=2$ transition. $\\frac1\\lambda=R\\left(\\frac1{2^2}-\\frac1{7^2}\\right)=1.097\\times10^{7}\\left(\\frac14-\\frac1{49}\\right)=2.519\\times10^{6}\\ \\text{m}^{-1}$, so $\\lambda=3.970\\times10^{-7}$ m $=397.0$ nm."
+  },
+  {
+   "ref": "Q26(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.1.6"
+   ],
+   "question": "An astronomer measures the spectrum of a distant star. The $H_\\alpha$ absorption line (rest wavelength 656.3 nm) is measured to have a wavelength of 673.2 nm. Ignoring the velocity of the Earth, determine the velocity of the star with respect to Earth.",
+   "answer": "The line is shifted to a longer wavelength (red-shifted), so the star is moving away. For $v\\ll c$, $\\frac{\\lambda'-\\lambda}{\\lambda}=\\frac vc$, so $v=c\\frac{\\lambda'-\\lambda}{\\lambda}=3.00\\times10^8\\times\\frac{673.2-656.3}{656.3}=7.7\\times10^{6}\\ \\text{m s}^{-1}$ away from Earth. (The school's solution quotes $7.71\\times10^6$; unrounded the value is $7.72\\times10^6\\ \\text{m s}^{-1}$.)"
+  },
+  {
+   "ref": "Q26(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.3.1",
+    "12.7.1.6"
+   ],
+   "question": "The spectrum of a distant star shows intensity against wavelength with a peak at about 400 nm (the horizontal axis is labelled in µm in the paper but the wavelengths are in nm). The star is receding at $7.71\\times10^{6}\\ \\text{m s}^{-1}$, so the observed spectrum is Doppler shifted. Calculate the surface temperature of the star.",
+   "answer": "The observed peak is at 400 nm and has been red-shifted. The wavelength in the star's frame is $\\lambda_{\\text{peak}}=\\lambda'\\frac{c}{c+v}=400\\times\\frac{3.00\\times10^8}{3.00\\times10^8+7.71\\times10^6}=390.0$ nm. By Wien's law, $T=\\frac{b}{\\lambda_{\\max}}=\\frac{2.898\\times10^{-3}}{390.0\\times10^{-9}}=7.43\\times10^{3}\\ \\text{K}$.",
+   "images": [
+    "assets/img/phys-2023-sydney-boys/q26.png"
+   ]
+  },
+  {
+   "ref": "Q27",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.2.2"
+   ],
+   "question": "Geiger and Marsden performed their gold-foil experiment, measuring the number of alpha particles scattered at different angles. The results are shown (most particles pass straight through; very few are scattered through large angles, and a few are scattered back). Based on these results, Rutherford proposed his model of the atom. How do features of his model account for all the experimental evidence above?",
+   "answer": "Rutherford's model has a tiny, dense, positively charged nucleus containing almost all of the atom's mass, with electrons orbiting at distances much greater than the nuclear size, so the atom is mostly empty space. Because the atom is mostly empty space, almost all the alpha particles pass straight through the foil undeflected. (The electrons are far too light to deflect the heavy alpha particles significantly.) A very small fraction are deflected through large angles, some almost straight back, because they approach close to a gold nucleus and are strongly repelled by the electrostatic force between the positive nucleus and the positive alpha particle. The nucleus is massive compared with the alpha particle, so it can reverse its motion.",
+   "images": [
+    "assets/img/phys-2023-sydney-boys/q27.png"
+   ]
+  },
+  {
+   "ref": "Q28",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.4.1",
+    "12.7.4.2"
+   ],
+   "question": "Using examples from special relativity, explain how theories in science are validated in different ways.",
+   "answer": "Scientific theories are validated using the scientific method: the theory is used to make a prediction, an experiment is performed to test the prediction, and the results are compared with the prediction. If the results agree, the theory is supported; if not, it must be modified or rejected. Special relativity has been validated by several different experiments. **Muon decay (Frisch–Smith):** special relativity predicts that moving muons' lifetimes are dilated, so more muons reach sea level than would be expected from their rest half-life. Measurements of muons at altitude and at sea level showed the larger number predicted by relativity, supporting time dilation. **Particle accelerator experiments:** lithium ions accelerated to about one-third the speed of light had electron transitions that took longer, as measured in the laboratory frame, than those of stationary ions, again in agreement with time dilation. In both cases a prediction made by the theory (time dilation) was tested experimentally and found to agree, so the theory was validated in different ways (natural cosmic-ray muons and controlled laboratory accelerators). Thought experiments were used to develop the theory but are not validation, and the Michelson–Morley experiment preceded special relativity."
+  },
+  {
+   "ref": "Q29",
+   "kind": "written",
+   "marks": 9,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.2.2",
+    "12.7.3.2",
+    "12.7.3.3"
+   ],
+   "question": "Two experiments are performed with identical light sources having a wavelength of 295 nm. In experiment A, the light is incident on a pair of narrow slits 12 µm apart, producing a pattern of bright and dark bands on a screen located 2.0 m behind the slits. In experiment B, the light is incident on different metal samples inside an evacuated tube. The kinetic energy of any emitted photoelectrons can be measured. Results from experiment B: magnesium (work function 3.7 eV) gives a galvanometer reading of 3.26 µA; gold (work function 5.1 eV) gives 0.00 µA. How do the results from Experiment A and Experiment B support TWO different models of light? In your answer, include a quantitative analysis of each experiment.",
+   "answer": "**Experiment A – wave model.** Light passing through the two slits diffracts and the two waves interfere, producing alternating bright (constructive) and dark (destructive) bands. The band spacing is $\\Delta y=\\frac{\\lambda L}{d}=\\frac{295\\times10^{-9}\\times2.0}{12\\times10^{-6}}=0.049$ m $\\approx4.9$ cm. Only waves show diffraction and interference, so this supports the wave model.\\n\\n**Experiment B – particle (photon) model.** Photon energy: $E=\\frac{hc}{\\lambda}=\\frac{6.626\\times10^{-34}\\times3.00\\times10^8}{295\\times10^{-9}}=6.74\\times10^{-19}\\ \\text{J}=4.2\\ \\text{eV}$. For gold, $E=4.2\\ \\text{eV}<\\phi=5.1\\ \\text{eV}$, so a single photon does not have enough energy to eject an electron, and no photocurrent is observed (0.00 µA) no matter how intense the light. For magnesium, $E=4.2\\ \\text{eV}>3.7\\ \\text{eV}$, so electrons are emitted with $K_{\\max}=hf-\\phi=4.2-3.7=0.5\\ \\text{eV}$ and the galvanometer registers a current. The current of 3.26 µA corresponds to $\\frac{I}{e}=\\frac{3.26\\times10^{-6}}{1.602\\times10^{-19}}=2.0\\times10^{13}$ electrons per second. Emission depending on the energy (frequency) of individual photons rather than on intensity cannot be explained by the wave model and supports the particle (quantum) model."
+  },
+  {
+   "ref": "Q30",
+   "kind": "written",
+   "marks": 7,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.1.2"
+   ],
+   "question": "Three charged particles of identical mass, X, Y and Z, travelling along straight, parallel trajectories, enter a region in which there is a uniform electric field (directed downwards) which causes them to follow the paths shown: X and Y curve upwards (Y with the shallower curve) and Z curves downwards. Assume that the particles do not exert any significant force on each other. Explain the different paths that the particles follow through the electric field.",
+   "answer": "A charge in a uniform electric field experiences a constant force $F=qE$ parallel to the field (a force $-qE$ against it for a negative charge), so it has a constant acceleration $a=\\frac{qE}{m}$ along the field and none perpendicular to it. The motion is therefore like a projectile: constant velocity perpendicular to the field and constant acceleration parallel to it, so the paths are parabolic. The field points down. X and Y are deflected up, opposite to the field, so they are negatively charged; Z is deflected down, in the direction of the field, so it is positively charged. Since the masses and field are the same, the sideways deflection depends on $\\frac qm$ and the initial speed: $y=\\frac12\\frac{qE}{m}t^2$ with $t=\\frac xv$. Particle Y has a shallower path than X, so it has either a smaller charge magnitude or a greater initial speed (it travels further along the field region before being deflected to the plate). Z has the same curved shape as X but deflected in the opposite direction, so it has a similar charge magnitude but opposite sign. There are no magnetic effects (no circular motion) and no significant forces between the particles.",
+   "images": [
+    "assets/img/phys-2023-sydney-boys/q30.png"
+   ]
+  },
+  {
+   "ref": "Q31(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.4.1"
+   ],
+   "question": "A simple motor consists of a flat rectangular coil with 175 turns in a uniform magnetic field of 0.25 T, as shown. The coil carries a current of 0.75 A. The motor drives a pulley of diameter 50 cm, and weights can be hung from either side of the pulley at point X or point Y. In order to prevent rotation, should a weight be hung at point X or at point Y? Justify your answer.",
+   "answer": "Using the right-hand palm rule, the force on the top side of the coil is to the left, so the coil rotates anticlockwise (as viewed in the diagram) and turns the pulley anticlockwise. A weight must be hung at point **Y** so that its torque on the pulley acts in the opposite (clockwise) sense and balances the motor torque.",
+   "images": [
+    "assets/img/phys-2023-sydney-boys/q31.png"
+   ]
+  },
+  {
+   "ref": "Q31(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.4.1"
+   ],
+   "question": "A simple motor consists of a flat rectangular coil with 175 turns in a uniform magnetic field of 0.25 T. The coil carries a current of 0.75 A (coil plane parallel to the field). The motor drives a pulley of diameter 50 cm. If the motor is just stopped by a mass of 0.2 kg hung from the pulley, what area does the coil have?",
+   "answer": "The torques balance: $\\tau_{\\text{motor}}=\\tau_{\\text{weight}}$. $\\tau_{\\text{motor}}=nIAB\\sin\\theta$, with $\\theta=90^\\circ$ (coil parallel to field), and $\\tau_{\\text{weight}}=mgr$ with $r=0.25$ m. So $A=\\frac{mgr}{nIB}=\\frac{0.2\\times9.8\\times0.25}{175\\times0.75\\times0.25}=0.0149\\ \\text{m}^2\\approx0.015\\ \\text{m}^2$.",
+   "images": [
+    "assets/img/phys-2023-sydney-boys/q31.png"
+   ]
+  },
+  {
+   "ref": "Q32(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.1.4"
+   ],
+   "question": "A shot putter releases a 4.0 kg shot put at an angle of $45^\\circ$ above the horizontal with a launch speed of $11.8\\ \\text{m s}^{-1}$ from a height of 1.8 m above the ground. Determine the range of her throw.",
+   "answer": "$v_x=11.8\\cos45^\\circ=8.344\\ \\text{m s}^{-1}$ and $v_y=11.8\\sin45^\\circ=8.344\\ \\text{m s}^{-1}$ (upwards). Taking up as positive, $y=1.8+8.344t-\\frac12(9.8)t^2=0$, i.e. $4.9t^2-8.344t-1.8=0$, so $t=\\frac{8.344+\\sqrt{8.344^2+4(4.9)(1.8)}}{2(4.9)}=\\frac{8.344+10.24}{9.8}=1.896$ s. Range $=v_xt=8.344\\times1.896=15.8$ m. (Equivalently: rise to peak 3.55 m above release in 0.851 s, then fall 5.35 m in 1.045 s.)"
+  },
+  {
+   "ref": "Q33(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.3.4"
+   ],
+   "question": "A beam of particles was fired at a metal crystal, resulting in a diffraction pattern on the detector screen. The speed of the particles was varied, and the diffraction pattern was used to determine the associated wavelengths. Results (1 pm $=10^{-12}$ m):\\n\\n| Speed ($\\\\times10^6\\\\ \\\\text{m s}^{-1}$) | 1.4 | 2.9 | 4.1 | 6.8 | 7.3 |\\n|---|---|---|---|---|---|\\n| Wavelength (pm) | 56.3 | 27.2 | 17.2 | 11.6 | 8.5 |\\n| Inverse of the wavelength (pm$^{-1}$) | 0.017 | 0.039 | 0.051 | 0.089 | 0.117 |\\n\\nPlot a graph of the particle speed (horizontal axis) against the inverse of the wavelength (vertical axis), with labelled axes including units, and draw a suitable line of best fit.",
+   "answer": "Plot particle speed (in $10^6\\ \\text{m s}^{-1}$) on the horizontal axis and $1/\\lambda$ (in $\\text{pm}^{-1}$) on the vertical axis, with a linear scale and labelled axes with units, mark each data point (e.g. with a cross) and draw a straight line of best fit through the points, ignoring the point at 7.3 which lies clearly off the trend (the outlier). See the graph.",
+   "answer_images": [
+    "assets/img/phys-2023-sydney-boys/q33_ans.png"
+   ]
+  },
+  {
+   "ref": "Q33(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.8.3.4"
+   ],
+   "question": "Particles were fired at a metal crystal and their de Broglie wavelengths determined from the diffraction pattern. A graph of inverse wavelength $1/\\lambda$ (vertical axis, in $\\text{pm}^{-1}$) against particle speed (horizontal axis, in $10^6\\ \\text{m s}^{-1}$) gives a straight line of best fit passing through approximately $(2.0,\\ 0.026)$ and $(6.6,\\ 0.086)$. Use the graph to determine the mass of the particles.",
+   "answer": "From the de Broglie relation $\\lambda=\\frac{h}{mv}$, $\\frac1\\lambda=\\frac mhv$, so the gradient of the graph is $\\frac mh$. Gradient $=\\frac{(0.086-0.026)\\times10^{12}\\ \\text{m}^{-1}}{(6.6-2.0)\\times10^6\\ \\text{m s}^{-1}}=1.30\\times10^{4}\\ \\text{s m}^{-2}$. Then $m=h\\times\\text{gradient}=6.626\\times10^{-34}\\times1.30\\times10^{4}=8.6\\times10^{-30}$ kg. (The school's solution has $13\\,043\\ \\text{s m}^{-2}$ and $8.64\\times10^{-30}$ kg; a least-squares line through the non-outlier points gives about $8.7\\times10^{-30}$ kg.)"
+  },
+  {
+   "ref": "Q34",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.5.2",
+    "12.8.4.1"
+   ],
+   "question": "The diagram shows the isotope half-lives against the number of protons ($Z$) and neutrons ($N$) for known nuclides, with the stable nuclides forming a narrow band. Outline features of the nuclear force that explain the stability of isotopes illustrated in the diagram.",
+   "answer": "Gravity is negligible between nucleons because of their tiny masses. The nuclear (strong) force is a strongly attractive force acting between neighbouring nucleons over a very short range (about 0.8–2.5 fm), and in this range it is much larger than the repulsive Coulomb force between protons, so it holds the nucleus together. It is charge independent: it acts between proton–proton, proton–neutron and neutron–neutron pairs, so neutrons add attraction without adding repulsion (which is why heavier stable nuclei have more neutrons than protons). At very small separations (below about 0.8 fm) the nuclear force becomes repulsive, which prevents the nucleus from collapsing.",
+   "images": [
+    "assets/img/phys-2023-sydney-boys/q34.png"
+   ]
+  }
+ ]
+}
