@@ -1,0 +1,507 @@
+{
+ "id": "ext1-2025-barker",
+ "course": "extension1",
+ "school": "Barker",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "Barker 2025 w. sol"
+ },
+ "indexed": "2026-11-24",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q2",
+   "reason": "Pigeonhole principle question, outside the Year 12 Extension 1 scope used on this site."
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.3"
+   ],
+   "question": "What are the domain and range of the function $f(x)=\\sin^{-1}\\left(\\dfrac x4\\right)$?",
+   "answer": "We need $-1\\le\\frac x4\\le1$, so $-4\\le x\\le4$. The range of $\\sin^{-1}$ is $\\left[-\\frac\\pi2,\\frac\\pi2\\right]$ (C).",
+   "options": [
+    "Domain: $-1\\le x\\le1$ and range $-\\frac\\pi2\\le y\\le\\frac\\pi2$",
+    "Domain: $-4\\le x\\le4$ and range $-2\\pi\\le y\\le2\\pi$",
+    "Domain: $-4\\le x\\le4$ and range $-\\frac\\pi2\\le y\\le\\frac\\pi2$",
+    "Domain: $-1\\le x\\le1$ and range $-2\\pi\\le y\\le2\\pi$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.7"
+   ],
+   "question": "The diagram shows a rhombus spanned by the two vectors $\\mathbf a$ and $\\mathbf b$. Which of the following statements is always true?",
+   "answer": "The vectors $\\mathbf a+\\mathbf b$ and $\\mathbf a-\\mathbf b$ are the diagonals of the rhombus, and the diagonals of a rhombus are perpendicular. Algebraically $(\\mathbf a+\\mathbf b)\\cdot(\\mathbf a-\\mathbf b)=|\\mathbf a|^2-|\\mathbf b|^2=0$ since $|\\mathbf a|=|\\mathbf b|$ (A). The others are true only for a square or not at all.",
+   "options": [
+    "$(\\mathbf a+\\mathbf b)\\cdot(\\mathbf a-\\mathbf b)=0$",
+    "$\\mathbf a=\\mathbf b$",
+    "$\\mathbf a\\cdot\\mathbf b=0$",
+    "$|\\mathbf a+\\mathbf b|=|\\mathbf a-\\mathbf b|$"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/ext1-2025-barker/q3.png"
+   ]
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.2.4"
+   ],
+   "question": "Which function $f(x)$ and its inverse function $f^{-1}(x)$ are equivalent?",
+   "answer": "A function equals its inverse when its graph is symmetric about $y=x$. For $y=\\frac1x$, swapping $x$ and $y$ gives $x=\\frac1y$, so $y=\\frac1x$ again (D). The other options are not self-inverse (e.g. $x^2$ has inverse $\\sqrt x$).",
+   "options": [
+    "$f(x)=\\sin|x|$ for $\\left[-\\frac\\pi2,\\frac\\pi2\\right]$",
+    "$f(x)=x^2$ for $[0,\\infty)$",
+    "$f(x)=|e^x|$ for $(-\\infty,\\infty)$",
+    "$f(x)=\\dfrac1x$ for $(-\\infty,0)\\cup(0,\\infty)$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.2"
+   ],
+   "question": "Let $P(x)$ be a polynomial of degree 6. When $P(x)$ is divided by the polynomial $Q(x)$, the remainder is $x^2+2$. Which statement is true about the degree of $Q(x)$?",
+   "answer": "The remainder always has degree less than the divisor. The remainder $x^2+2$ has degree $2$, so $Q(x)$ must have degree at least $3$ (and at most $6$) (C).",
+   "options": [
+    "The degree of $Q(x)$ must be at least 2",
+    "The degree of $Q(x)$ must be 2",
+    "The degree of $Q(x)$ must be at least 3",
+    "The degree of $Q(x)$ must be 3"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.4"
+   ],
+   "question": "Consider the direction field shown. Which of the following differential equations does the direction field best represent?",
+   "answer": "On the $x$-axis ($y=0$) all slopes are horizontal, which is true for each option. On the line $y=-x$ the field shows slope $-1$: (A) gives $\\frac{-x}{-x}=1$, (B) gives $\\frac{x}{-x}=-1$, (C) gives $\\frac{-x}{3x}=-\\frac13$, (D) gives $\\frac{-x}{-3x}=\\frac13$. Only B matches. Checking a point in the first quadrant, e.g. $(1,1)$: B gives $-\\frac13$, a negative slope, as in the field (B).",
+   "options": [
+    "$\\dfrac{dy}{dx}=\\dfrac y{2y+x}$",
+    "$\\dfrac{dy}{dx}=\\dfrac{-y}{2y+x}$",
+    "$\\dfrac{dy}{dx}=\\dfrac y{-2y+x}$",
+    "$\\dfrac{dy}{dx}=\\dfrac y{2y-x}$"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/ext1-2025-barker/q6.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "What is the antiderivative of $\\dfrac{3x^2+6x^5}{4+x^6}$?",
+   "answer": "Split: $\\int\\frac{3x^2}{4+(x^3)^2}dx+\\int\\frac{6x^5}{4+x^6}dx$. The first is $\\frac32\\tan^{-1}\\!\\ldots$; with $u=x^3$, $du=3x^2dx$ it is $\\int\\frac{du}{4+u^2}=\\frac12\\tan^{-1}\\frac u2=\\frac12\\tan^{-1}\\left(\\frac{x^3}2\\right)$. The second is $\\ln|4+x^6|$ (numerator is the derivative of the denominator). So $\\frac12\\tan^{-1}\\left(\\frac{x^3}2\\right)+\\ln|4+x^6|+c$ (D).",
+   "options": [
+    "$\\frac14\\sin^{-1}\\left(\\frac{x^3}2\\right)+\\ln|6x^5|+c$",
+    "$\\frac14\\tan^{-1}\\left(\\frac{x^3}4\\right)+\\ln|x^6|+c$",
+    "$\\frac12\\sin^{-1}\\left(\\frac{x^3}2\\right)+\\ln|4+x^6|+c$",
+    "$\\frac12\\tan^{-1}\\left(\\frac{x^3}2\\right)+\\ln|4+x^6|+c$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.3.3"
+   ],
+   "question": "The diagram shows the interval from $(0,2)$ to $(2,0)$. Which pair of parametric equations does NOT represent the interval shown?",
+   "answer": "The interval is $x+y=2$ for $0\\le x\\le2$. In B, $x+y=2$ but $t=0$ gives $(0,2)$ and $t=\\ln2$ gives $(1,1)$, so only half of the interval is covered. In A, $t=0\\to(2,0)$ and $t=1\\to(0,2)$. In C, $y=2-2\\sin t$ and $x+y=2$ with endpoints $(0,2)$ and $(2,0)$. In D, $x+y=2$, $t=1\\to(2,0)$ and $t=-1\\to(0,2)$. So B does not represent the whole interval (B).",
+   "options": [
+    "$x=2(1-t^2),\\ y=2t^2$ for $0\\le t\\le1$",
+    "$x=e^t-1,\\ y=3-e^t$ for $0\\le t\\le\\ln2$",
+    "$x=2\\sin t,\\ y=2-2\\sqrt{1-\\cos^2t}$ for $0\\le t\\le\\frac\\pi2$",
+    "$x=2-\\frac2\\pi\\cos^{-1}t,\\ y=\\frac2\\pi\\cos^{-1}t$ for $-1\\le t\\le1$"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/ext1-2025-barker/q8.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.4"
+   ],
+   "question": "A solid is formed by rotating the region bounded by $y=e^{2x}$, the $x$-axis, the line $x=\\ln2$ and the line $x=\\ln3$ about the $y$-axis (shown). Which expression could be used to evaluate its volume? (Hint: use a horizontal line to divide the shaded region into two pieces before rotating.)",
+   "answer": "$x=\\frac{\\ln y}2$. At $x=\\ln2$, $y=e^{2\\ln2}=4$; at $x=\\ln3$, $y=9$. For $0\\le y\\le4$ the rotated slice is an annulus between radii $\\ln2$ and $\\ln3$, area $\\pi\\left((\\ln3)^2-(\\ln2)^2\\right)$, giving $4\\pi\\left((\\ln3)^2-(\\ln2)^2\\right)$. For $4\\le y\\le9$ the slice is an annulus between radii $\\frac{\\ln y}2$ and $\\ln3$, giving $\\pi\\int_4^9\\left((\\ln3)^2-\\left(\\frac{\\ln y}2\\right)^2\\right)dy$ (C).",
+   "options": [
+    "$V=2\\pi\\left((\\ln3)^2-(\\ln2)^2\\right)+\\pi\\displaystyle\\int_2^3\\left((\\ln3)^2-\\left(\\frac{\\ln y}2\\right)^2\\right)dy$",
+    "$V=2\\pi(\\ln3-\\ln2)^2+\\pi\\displaystyle\\int_2^3\\left(\\ln3-\\frac{\\ln y}2\\right)^2dy$",
+    "$V=4\\pi\\left((\\ln3)^2-(\\ln2)^2\\right)+\\pi\\displaystyle\\int_4^9\\left((\\ln3)^2-\\left(\\frac{\\ln y}2\\right)^2\\right)dy$",
+    "$V=4\\pi(\\ln3-\\ln2)^2+\\pi\\displaystyle\\int_4^9\\left(\\ln3-\\frac{\\ln y}2\\right)^2dy$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/ext1-2025-barker/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.6"
+   ],
+   "question": "Let $ABCD$ be a parallelogram where the diagonals intersect at $P$, and $O$ is the origin. Which of the following expressions is equivalent to $\\overrightarrow{OA}+\\overrightarrow{OB}+\\overrightarrow{OC}+\\overrightarrow{OD}$?",
+   "answer": "The diagonals of a parallelogram bisect each other, so $P$ is the midpoint of $AC$ and of $BD$: $\\overrightarrow{OA}+\\overrightarrow{OC}=2\\overrightarrow{OP}$ and $\\overrightarrow{OB}+\\overrightarrow{OD}=2\\overrightarrow{OP}$. The sum is $4\\overrightarrow{OP}$ (D).",
+   "options": [
+    "$\\overrightarrow{OP}$",
+    "$2\\overrightarrow{OP}$",
+    "$3\\overrightarrow{OP}$",
+    "$4\\overrightarrow{OP}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Solve $\\dfrac2{x-1}<x$.",
+   "answer": "$x\\ne1$. Multiply by $(x-1)^2>0$: $2(x-1)<x(x-1)^2\\Rightarrow0<(x-1)\\left[x(x-1)-2\\right]=(x-1)(x^2-x-2)=(x-1)(x+1)(x-2)$. A sign table gives positive values for $-1<x<1$ and $x>2$. So $-1<x<1$ or $x>2$."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.1.1.1"
+   ],
+   "question": "The diagram shows the graph of $y=f(x)$ where $f(x)=x^3-3x$, with turning points $(-1,2)$ and $(1,-2)$ and $x$-intercepts $-\\sqrt3,0,\\sqrt3$. Sketch $y=\\dfrac1{f(x)}$ on the diagram, clearly showing all turning points and asymptotes.",
+   "answer": "Vertical asymptotes at the zeroes of $f$: $x=-\\sqrt3$, $x=0$, $x=\\sqrt3$. Turning points: $f$ has a maximum $(-1,2)$, so $\\frac1f$ has a local minimum at $\\left(-1,\\frac12\\right)$; $f$ has a minimum $(1,-2)$, so $\\frac1f$ has a local maximum at $\\left(1,-\\frac12\\right)$. $\\frac1f$ has the same sign as $f$, and $y\\to0$ as $x\\to\\pm\\infty$ (horizontal asymptote $y=0$).",
+   "images": [
+    "assets/img/ext1-2025-barker/q11b.png"
+   ],
+   "answer_images": [
+    "assets/img/ext1-2025-barker/a11b.png"
+   ]
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.3.2"
+   ],
+   "question": "The cubic polynomial $P(x)=x^3+x^2-8x-12$ has zeroes $\\alpha$, $\\beta$ and $\\gamma$. Find $\\alpha^2+\\beta^2+\\gamma^2$.",
+   "answer": "$\\alpha+\\beta+\\gamma=-1$ and $\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha=-8$. $\\alpha^2+\\beta^2+\\gamma^2=(\\alpha+\\beta+\\gamma)^2-2(\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha)=1+16=17$."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.2"
+   ],
+   "question": "Use division of polynomials to express $P(x)=3x^3+14x+11$ in the form $P(x)=A(x)\\times Q(x)+R(x)$, where $A(x)=x^2-3x+2$.",
+   "answer": "Divide $3x^3+0x^2+14x+11$ by $x^2-3x+2$: first term $3x$ gives $3x^3-9x^2+6x$, remainder $9x^2+8x+11$; next term $9$ gives $9x^2-27x+18$, remainder $35x-7$. So $P(x)=(x^2-3x+2)(3x+9)+35x-7$."
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.4"
+   ],
+   "question": "A carton of milk is removed from a fridge and placed on a table. The fridge is $3^\\circ$C and the room is $24^\\circ$C. After sitting on the table for five minutes the milk is $15^\\circ$C. The temperature $T^\\circ$C of the milk is $T=B+Ae^{-kt}$ where $k$ is a positive constant and $t$ is time in minutes. Find the total number of minutes the milk can be left on the table before it reaches $20^\\circ$C, correct to the nearest whole number.",
+   "answer": "As $t\\to\\infty$, $T\\to B=24$. At $t=0$, $T=3$: $3=24+A$, so $A=-21$. At $t=5$, $T=15$: $15=24-21e^{-5k}$, so $e^{-5k}=\\frac37$ and $k=\\frac15\\ln\\frac73$. $T=20$: $20=24-21e^{-kt}$, so $e^{-kt}=\\frac4{21}$ and $t=\\frac1k\\ln\\frac{21}4=\\frac{5\\ln(21/4)}{\\ln(7/3)}\\approx9.8$. About $10$ minutes."
+  },
+  {
+   "ref": "Q11(f)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.2.4"
+   ],
+   "question": "Show that $\\sin^2x\\cos^2x=\\dfrac18\\left[1-\\cos(4x)\\right]$.",
+   "answer": "$\\sin^2x\\cos^2x=\\frac12(1-\\cos2x)\\cdot\\frac12(1+\\cos2x)=\\frac14(1-\\cos^22x)=\\frac14\\left[1-\\frac12(1+\\cos4x)\\right]=\\frac14\\left[\\frac12-\\frac12\\cos4x\\right]=\\frac18(1-\\cos4x)$."
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.1.8"
+   ],
+   "question": "In how many ways can the letters of the word SUCCESS be arranged in a line if there are no restrictions?",
+   "answer": "SUCCESS has $7$ letters with $3$ S's and $2$ C's repeated: $\\frac{7!}{3!\\,2!}=420$."
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.9"
+   ],
+   "question": "In how many ways can the letters of the word SUCCESS be arranged in a line if the two Cs are NOT adjacent?",
+   "answer": "Total arrangements $420$. Treat the two C's as one block: $6$ items with $3$ S's repeated, giving $\\frac{6!}{3!}=120$. Arrangements with the C's not adjacent: $420-120=300$."
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.3"
+   ],
+   "question": "Express $\\sqrt3\\cos x-\\sin x$ in the form $R\\cos(x+\\alpha)$ where $0\\le\\alpha\\le\\frac\\pi2$.",
+   "answer": "$R\\cos(x+\\alpha)=R\\cos x\\cos\\alpha-R\\sin x\\sin\\alpha$. So $R\\cos\\alpha=\\sqrt3$ and $R\\sin\\alpha=1$: $R=2$, $\\tan\\alpha=\\frac1{\\sqrt3}$, $\\alpha=\\frac\\pi6$. So $\\sqrt3\\cos x-\\sin x=2\\cos\\left(x+\\frac\\pi6\\right)$."
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.3"
+   ],
+   "question": "Hence, or otherwise, solve $\\sqrt3\\cos x-\\sin x=1$ for $0\\le x\\le2\\pi$.",
+   "answer": "$2\\cos\\left(x+\\frac\\pi6\\right)=1\\Rightarrow\\cos\\left(x+\\frac\\pi6\\right)=\\frac12$. For $\\frac\\pi6\\le x+\\frac\\pi6\\le\\frac{13\\pi}6$: $x+\\frac\\pi6=\\frac\\pi3$ or $\\frac{5\\pi}3$. So $x=\\frac\\pi6$ or $x=\\frac{3\\pi}2$."
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.1.6"
+   ],
+   "question": "Write down the expansion of $(1-x^2)^5$.",
+   "answer": "$(1-x^2)^5=1-5x^2+10x^4-10x^6+5x^8-x^{10}$."
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "Hence, or otherwise, find the term in $x^6$ in $(4x-1)^2(1-x^2)^5$.",
+   "answer": "$(4x-1)^2=16x^2-8x+1$. The $x^6$ terms: $16x^2\\times10x^4=160x^6$ and $1\\times(-10x^6)=-10x^6$ (the $-8x$ term gives only odd powers). The term is $150x^6$."
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.12"
+   ],
+   "question": "Solve for $n$: $^nC_3=3\\left(^nP_2\\right)$.",
+   "answer": "$\\frac{n!}{3!(n-3)!}=3\\cdot\\frac{n!}{(n-2)!}\\Rightarrow\\frac1{6(n-3)!}=\\frac3{(n-2)(n-3)!}\\Rightarrow n-2=18$. So $n=20$."
+  },
+  {
+   "ref": "Q12(e)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "If $n$ is an integer greater than or equal to 0, using mathematical induction, determine if $4^n-3n-1$ is divisible by any of the numbers 6, 7, 8 and 9.",
+   "answer": "Test $n=2$: $16-6-1=9$, which is not divisible by $6$, $7$ or $8$. So only $9$ is a candidate. Prove $4^n-3n-1=9M$ ($M$ a non-negative integer) by induction. $n=0$: $1-0-1=0=9(0)$. Assume $4^k-3k-1=9M$, so $4^k=9M+3k+1$. Then $4^{k+1}-3(k+1)-1=4(9M+3k+1)-3k-4=36M+9k=9(4M+k)$, divisible by $9$. By induction $4^n-3n-1$ is divisible by $9$ for all integers $n\\ge0$, and not (in general) by $6$, $7$ or $8$."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Find the $y$-intercept of the tangent to the curve $y=x^2\\sin^{-1}x$ at the point $\\left(\\frac12,\\frac\\pi{24}\\right)$.",
+   "answer": "$y'=2x\\sin^{-1}x+\\frac{x^2}{\\sqrt{1-x^2}}$. At $x=\\frac12$: $y'=\\sin^{-1}\\frac12+\\frac{1/4}{\\sqrt3/2}=\\frac\\pi6+\\frac1{2\\sqrt3}=\\frac{\\pi+\\sqrt3}6$. Tangent: $y-\\frac\\pi{24}=\\frac{\\pi+\\sqrt3}6\\left(x-\\frac12\\right)$. At $x=0$: $y=\\frac\\pi{24}-\\frac{\\pi+\\sqrt3}{12}=\\frac{\\pi-2\\pi-2\\sqrt3}{24}=-\\frac{\\pi+2\\sqrt3}{24}$."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Use the substitution $u=\\sqrt{x-2}$ to evaluate $\\displaystyle\\int_2^42x\\sqrt{x-2}\\,dx$. Give your answer as a simplified exact value.",
+   "answer": "$u^2=x-2$, so $x=u^2+2$ and $dx=2u\\,du$. When $x=2$, $u=0$; when $x=4$, $u=\\sqrt2$. $\\int_0^{\\sqrt2}2(u^2+2)u\\cdot2u\\,du=\\int_0^{\\sqrt2}(4u^4+8u^2)du=\\left[\\frac{4u^5}5+\\frac{8u^3}3\\right]_0^{\\sqrt2}=\\frac{16\\sqrt2}5+\\frac{16\\sqrt2}3=\\frac{128\\sqrt2}{15}$."
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "Find the curve which satisfies the differential equation $\\dfrac{dy}{dx}=\\dfrac y2$ and passes through the point $(0,-1)$.",
+   "answer": "$\\int\\frac{dy}y=\\int\\frac12dx\\Rightarrow\\ln|y|=\\frac x2+c\\Rightarrow y=Ae^{x/2}$. At $(0,-1)$: $A=-1$. So $y=-e^{x/2}$."
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "Find the shaded area enclosed by the curve $y=2x^3-3x^2$ and the line $y=23x-12$ (shown).",
+   "answer": "Intersections: $2x^3-3x^2-23x+12=0$. Testing $x=-3$ gives a factor, and $(x+3)(2x-1)(x-4)=0$, so $x=-3,\\frac12,4$. The shaded region lies between $x=\\frac12$ and $x=4$, where the line is above the curve. $A=\\int_{1/2}^4\\left(23x-12-2x^3+3x^2\\right)dx=\\left[\\frac{23x^2}2-12x-\\frac{x^4}2+x^3\\right]_{1/2}^4=72-\\left(-\\frac{97}{32}\\right)=\\frac{2401}{32}\\approx75.03$ square units.",
+   "images": [
+    "assets/img/ext1-2025-barker/q13d.png"
+   ]
+  },
+  {
+   "ref": "Q13(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "A light is on the ground 20 metres from a building. A man 2 metres tall walks from the light directly toward the building at 1 m/s. How fast is the length of his shadow on the building changing when he is 14 metres from the building?",
+   "answer": "Let $s$ be the man's distance from the light and $h$ the height of his shadow on the building. By similar triangles from the light: $\\frac2s=\\frac h{20}$, so $h=\\frac{40}s$. $\\frac{ds}{dt}=1$. $\\frac{dh}{dt}=-\\frac{40}{s^2}\\cdot1$. When he is $14$ m from the building, $s=6$, so $\\frac{dh}{dt}=-\\frac{40}{36}=-\\frac{10}9$ m/s. The shadow is decreasing at $\\frac{10}9\\approx1.1$ m/s."
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.6.6"
+   ],
+   "question": "A stone is thrown from the top of a 60 m cliff at an angle of $25^\\circ$ below the horizontal. It lands in the ocean 45 m from the base of the cliff. Assume $g=10\\ \\text{m s}^{-2}$. Taking the origin as the point where the stone is thrown and starting with $\\ddot y=-g$ and $\\ddot x=0$, show that the path is $y=-x\\tan25^\\circ-\\dfrac{5x^2}{V^2\\cos^225^\\circ}$, where $V$ is the initial velocity.",
+   "answer": "$\\ddot x=0\\Rightarrow\\dot x=V\\cos25^\\circ$ and $x=Vt\\cos25^\\circ$ (since $x(0)=0$). $\\ddot y=-10\\Rightarrow\\dot y=-10t-V\\sin25^\\circ$ and $y=-5t^2-Vt\\sin25^\\circ$. From $x$: $t=\\frac x{V\\cos25^\\circ}$. So $y=-\\frac{5x^2}{V^2\\cos^225^\\circ}-x\\tan25^\\circ$."
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.6.8"
+   ],
+   "question": "For the stone with path $y=-x\\tan25^\\circ-\\dfrac{5x^2}{V^2\\cos^225^\\circ}$ landing at $x=45$, $y=-60$ (taking the origin at the launch point), find the initial velocity to two decimal places.",
+   "answer": "$-60=-45\\tan25^\\circ-\\frac{5(45)^2}{V^2\\cos^225^\\circ}\\Rightarrow V^2=\\frac{5(45)^2}{\\cos^225^\\circ\\left(60-45\\tan25^\\circ\\right)}\\approx315.9$. So $V\\approx17.77$ m/s."
+  },
+  {
+   "ref": "Q14(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.6.7"
+   ],
+   "question": "For the stone with $V=17.77$ m/s launched $25^\\circ$ below the horizontal ($\\dot x=V\\cos25^\\circ$, $\\dot y=-10t-V\\sin25^\\circ$) and landing after travelling $45$ m horizontally, find the angle at which it enters the ocean, to the nearest degree.",
+   "answer": "$t=\\frac{45}{17.77\\cos25^\\circ}\\approx2.79$ s. $\\dot x=17.77\\cos25^\\circ\\approx16.11$ and $\\dot y=-10(2.79)-17.77\\sin25^\\circ\\approx-35.44$. $\\tan\\theta=\\frac{35.44}{16.11}\\approx2.20$, so $\\theta\\approx66^\\circ$ below the horizontal."
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.2.4"
+   ],
+   "question": "Let $f(x)=e^{-x}-2x$. Explain why the inverse of $f(x)$ is a function.",
+   "answer": "$f'(x)=-e^{-x}-2<0$ for all $x$ (since $e^{-x}>0$). So $f$ is always decreasing and hence one-to-one, so its inverse is also a function."
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.4"
+   ],
+   "question": "Let $f(x)=e^{-x}-2x$ and $g(x)=f^{-1}(x)$. Find the gradient of $g(x)$ where its graph cuts the $x$-axis.",
+   "answer": "$g(x)=0$ means $x=f(0)=1-0=1$, so $g$ cuts the $x$-axis at $(1,0)$. $g'(1)=\\frac1{f'(g(1))}=\\frac1{f'(0)}=\\frac1{-1-2}=-\\frac13$."
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.9"
+   ],
+   "question": "In the triangle shown, $BD$ is perpendicular to $AC$, with $AD:AC=1:4$ and $BD:AD=2:1$. $\\mathbf a=\\overrightarrow{AD}$ and $\\mathbf b=\\overrightarrow{DB}$. Write the simplest expression for $\\text{proj}_{\\mathbf a}\\overrightarrow{AB}$.",
+   "answer": "$\\overrightarrow{AB}=\\mathbf a+\\mathbf b$ with $\\mathbf b\\perp\\mathbf a$, so the projection of $\\overrightarrow{AB}$ onto $\\mathbf a$ is $\\mathbf a$.",
+   "images": [
+    "assets/img/ext1-2025-barker/q14c.png"
+   ]
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.4.7"
+   ],
+   "question": "In the same triangle ($BD\\perp AC$, $AD:AC=1:4$, $BD:AD=2:1$, $\\mathbf a=\\overrightarrow{AD}$, $\\mathbf b=\\overrightarrow{DB}$), prove that $\\overrightarrow{BA}\\cdot\\overrightarrow{BC}=|\\mathbf a|^2$.",
+   "answer": "$\\overrightarrow{DC}=3\\mathbf a$. $\\overrightarrow{BA}=-\\mathbf a-\\mathbf b$ and $\\overrightarrow{BC}=-\\mathbf b+3\\mathbf a$. $\\overrightarrow{BA}\\cdot\\overrightarrow{BC}=(-\\mathbf a-\\mathbf b)\\cdot(3\\mathbf a-\\mathbf b)=-3|\\mathbf a|^2+\\mathbf a\\cdot\\mathbf b-3\\mathbf a\\cdot\\mathbf b+|\\mathbf b|^2=-3|\\mathbf a|^2+|\\mathbf b|^2$ since $\\mathbf a\\cdot\\mathbf b=0$. Given $|\\mathbf b|=2|\\mathbf a|$, $|\\mathbf b|^2=4|\\mathbf a|^2$, so $\\overrightarrow{BA}\\cdot\\overrightarrow{BC}=|\\mathbf a|^2$.",
+   "images": [
+    "assets/img/ext1-2025-barker/q14c.png"
+   ]
+  },
+  {
+   "ref": "Q14(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "11.4.1.19"
+   ],
+   "question": "The digits $1,2,3,4,5$ and $6$ are spaced evenly around a circle. Each digit has another digit directly opposite it. If the digits are placed around the circle at random, what is the probability that exactly one pair of opposite digits adds to $7$?",
+   "answer": "Only the pairs $\\{1,6\\},\\{2,5\\},\\{3,4\\}$ add to $7$. Fix the position of $1$: the digit opposite it is equally likely to be any of the other $5$, and the whole arrangement is decided by how the six digits are matched into three opposite pairs. There are $15$ equally likely matchings. Exactly one special pair: choose which one ($3$ ways); the other four digits (two special pairs) must then be matched with neither special pair, which can be done in $2$ ways. So $3\\times2=6$ matchings out of $15$: probability $\\frac6{15}=\\frac25$."
+  }
+ ]
+}
