@@ -1,0 +1,765 @@
+{
+ "id": "adv-2026-sydney-boys",
+ "course": "advanced",
+ "school": "Sydney Boys High School",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5328",
+  "title": "Sydney Boys 2026 w. sol"
+ },
+ "indexed": "2026-11-25",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q29(a)",
+   "reason": "Not in 2024 syllabus: correlation strength of bivariate data"
+  },
+  {
+   "ref": "Q29(b)",
+   "reason": "Not in 2024 syllabus: line of best fit for bivariate data"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "Evaluate $\\sin\\dfrac{\\pi}{7}$ to 3 significant figures.",
+   "answer": "With the calculator in radian mode, $\\sin\\dfrac{\\pi}{7}=0.43388\\ldots\\approx0.434$ (D).",
+   "options": [
+    "0.00783",
+    "0.008",
+    "0.433",
+    "0.434"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.7"
+   ],
+   "question": "Which of the following is equal to $\\dfrac{9}{2^4}+\\dfrac{27}{2^6}+\\dfrac{81}{2^8}+\\dfrac{243}{2^{10}}+\\cdots$?",
+   "answer": "Geometric series with $a=\\dfrac{9}{16}$ and $r=\\dfrac{3}{4}$ ($|r|<1$): $S_\\infty=\\dfrac{a}{1-r}=\\dfrac{9/16}{1/4}=\\dfrac94$ (B).",
+   "options": [
+    "$4$",
+    "$\\dfrac94$",
+    "$\\dfrac97$",
+    "$\\dfrac{16}{7}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.7.2",
+    "11.1.7.4"
+   ],
+   "question": "The number of collisions on a highway is inversely proportional to the number of lanes. If 6 collisions occurred on a 4 lane road, how many collisions are expected on a 2 lane road?",
+   "answer": "$C=\\dfrac{k}{n}$, so $k=6\\times4=24$. For $n=2$: $C=\\dfrac{24}{2}=12$ (A).",
+   "options": [
+    "12",
+    "6",
+    "3",
+    "2"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.9.3",
+    "11.1.11.3"
+   ],
+   "question": "Which of the following is the domain of $y=\\ln\\left(\\sqrt{x^2}-\\sqrt3\\right)$?",
+   "answer": "$\\ln u$ requires $u>0$, so $\\sqrt{x^2}-\\sqrt3>0$, i.e. $|x|>\\sqrt3$. Hence $x<-\\sqrt3$ or $x>\\sqrt3$ (B).",
+   "options": [
+    "$\\left(-\\infty,-\\sqrt3\\,\\right]\\cup\\left[\\sqrt3,\\infty\\right)$",
+    "$\\left(-\\infty,-\\sqrt3\\,\\right)\\cup\\left(\\sqrt3,\\infty\\right)$",
+    "$\\left(\\sqrt3,\\infty\\right)$",
+    "$\\left[\\sqrt3,\\infty\\right)$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.2",
+    "12.7.2.4"
+   ],
+   "question": "What is the future value interest factor for $\\$1$ invested at the end of each period, at $4\\%$ per period over 3 periods?",
+   "answer": "Future value of an annuity of \\$1 per period: $\\dfrac{(1.04)^3-1}{0.04}=\\dfrac{0.124864}{0.04}=3.1216$ (D).",
+   "options": [
+    "1.124864",
+    "2.04",
+    "3.12",
+    "3.1216"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.3.10"
+   ],
+   "question": "Which of the following is equal to the derivative of $y=f(g(x))$?",
+   "answer": "Chain rule: differentiate the outer function, evaluated at $g(x)$, and multiply by the derivative of the inner function: $f'(g(x))\\,g'(x)$ (C).",
+   "options": [
+    "$f'(g(x))$",
+    "$f'(g(x))\\,g(x)$",
+    "$f'(g(x))\\,g'(x)$",
+    "$f'(g'(x))$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.7.3.4"
+   ],
+   "question": "Two standard dice are rolled and the numbers at the top are multiplied together. What is the difference in the probability that at least one of the dice shows a 6, with and without the information that the product is larger than 20?",
+   "answer": "Without the information: $P(\\text{at least one 6})=\\dfrac{11}{36}$.\n\nProducts above 20: $(4,6),(6,4),(5,5),(5,6),(6,5),(6,6)$, which is 6 outcomes, 5 of which contain a 6. So $P(\\text{a 6}\\mid\\text{product}>20)=\\dfrac56$.\n\nDifference: $\\dfrac56-\\dfrac{11}{36}=\\dfrac{30-11}{36}=\\dfrac{19}{36}$ (A).",
+   "options": [
+    "$\\dfrac{19}{36}$",
+    "$\\dfrac{23}{72}$",
+    "$\\dfrac{11}{36}$",
+    "$\\dfrac19$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.2.8"
+   ],
+   "question": "Which of the following options is not equal to the others?",
+   "answer": "B, C and D each equal $f'(x)$: B and C are backward difference quotients, and D is $\\dfrac{2h\\,f'(x)}{2h}$ (a gap of $2h$ between the points divided by $2h$). In A the gap between the points is $2h$ but the denominator is $h$, so the limit is $2f'(x)$ (A).",
+   "options": [
+    "$\\displaystyle\\lim_{h\\to0}\\dfrac{f(x+h)-f(x-h)}{h}$",
+    "$\\displaystyle\\lim_{h\\to0}\\dfrac{f(x-h)-f(x-2h)}{h}$",
+    "$\\displaystyle\\lim_{h\\to0}\\dfrac{f(x)-f(x-h)}{h}$",
+    "$\\displaystyle\\lim_{h\\to0}\\dfrac{f(x+3h)-f(x+h)}{2h}$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "In the triangle $\\triangle ABC$, let $\\angle ABC=\\beta$, $\\angle BAC=\\alpha$ and $\\angle ACB=\\gamma$. Also, let the side lengths $BC$, $AC$, $AB$ be $a$, $b$ and $c$ respectively. (Not to scale.)\n\nConsider the following scenarios.\n\n- Given side lengths $a$, $b$, $c$.\n- Given side lengths $a$, $b$ and angle $\\gamma$.\n- Given side lengths $a$, $b$ and angle $\\alpha$.\n- Given side length $a$ and angles $\\alpha$, $\\beta$.\n\nIn how many of the above situations can the exact area of the triangle be calculated, without any additional information?",
+   "answer": "SSS (cosine rule, or Heron's formula) works. SAS ($a,b,\\gamma$) works: $\\tfrac12ab\\sin\\gamma$. $a,b,\\alpha$ is the ambiguous case (SSA), so there can be two triangles and the area is not determined. $a,\\alpha,\\beta$ works, since $\\gamma=180^\\circ-\\alpha-\\beta$ and the sine rule gives the other sides. That is 3 situations (C).",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.3.1",
+    "12.4.8.4"
+   ],
+   "question": "The graph shows the function $y=f(t)$. The curves between $x=1$ and $x=5$ are quadrants of circles.\n\nHow many $x$-intercepts does the function $A(x)=\\displaystyle\\int_0^x f(t)\\,dt$ have for $0\\le x\\le10$?",
+   "answer": "$A(0)=0$ is an $x$-intercept. Signed areas read from the graph: $0$ to $1$: rectangle $2\\times1=2$; $1$ to $3$: quarter-disc of radius 2, $\\pi$; $3$ to $5$: region below the axis between the axis and the arc, $4-\\pi$ (negative); $5$ to $10$: triangle $\\tfrac12(5)(2)=5$ (negative).\n\n$A(3)=2+\\pi\\approx5.14$, $A(5)=2+\\pi-(4-\\pi)=2\\pi-2\\approx4.28$, $A(10)=2\\pi-2-5=2\\pi-7\\approx-0.72$.\n\n$A$ is positive for $0<x\\le5$ and negative at $x=10$, so it crosses zero exactly once between 5 and 10. Intercepts: $x=0$ and one more, giving 2 (C).",
+   "options": [
+    "0",
+    "1",
+    "2",
+    "3"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/adv-2026-sydney-boys/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "Find $345^\\circ$ in radians.",
+   "answer": "$345^\\circ=345\\times\\dfrac{\\pi}{180}=\\dfrac{23\\pi}{12}$ (approximately $6.02$)."
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.9.5"
+   ],
+   "question": "Prove that $y=r(x)=\\dfrac{x}{1+\\cos x}$ is an odd function.",
+   "answer": "$r(-x)=\\dfrac{-x}{1+\\cos(-x)}=\\dfrac{-x}{1+\\cos x}=-r(x)$, since $\\cos$ is even. Hence $r$ is odd."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.3.9",
+    "11.4.3.8"
+   ],
+   "question": "Find the derivative of $y=r(x)=\\dfrac{x}{1+\\cos x}$.",
+   "answer": "Quotient rule with $u=x$, $v=1+\\cos x$, $u'=1$, $v'=-\\sin x$:\n$$r'(x)=\\dfrac{(1+\\cos x)-x(-\\sin x)}{(1+\\cos x)^2}=\\dfrac{1+\\cos x+x\\sin x}{(1+\\cos x)^2}.$$"
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.5.5",
+    "12.4.4.3"
+   ],
+   "question": "Find $\\displaystyle\\int\\left(e^x+\\dfrac{1}{\\sqrt x}\\right)dx$.",
+   "answer": "$\\displaystyle\\int\\left(e^x+x^{-1/2}\\right)dx=e^x+2x^{1/2}+C=e^x+2\\sqrt x+C.$"
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.6.3",
+    "12.4.8.1"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_4^8\\dfrac{0.5-x}{5+x-x^2}\\,dx$.",
+   "answer": "The derivative of the denominator is $1-2x=2(0.5-x)$, so\n$$\\int_4^8\\dfrac{0.5-x}{5+x-x^2}dx=\\dfrac12\\int_4^8\\dfrac{1-2x}{5+x-x^2}dx=\\dfrac12\\Big[\\ln\\left|5+x-x^2\\right|\\Big]_4^8.$$\nAt $x=8$: $|5+8-64|=51$. At $x=4$: $|5+4-16|=7$.\n$$=\\dfrac12(\\ln51-\\ln7)=\\dfrac12\\ln\\dfrac{51}{7}=\\ln\\sqrt{\\dfrac{51}{7}}.$$"
+  },
+  {
+   "ref": "Q14",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.2",
+    "11.4.3.6"
+   ],
+   "question": "Find the equation of the normal to $y=3x-\\ln x$ where the tangent is parallel to $y=2x-3$.",
+   "answer": "$y'=3-\\dfrac1x=2\\Rightarrow x=1$, and $y=3$. The point is $(1,3)$. The tangent has gradient 2, so the normal has gradient $-\\dfrac12$:\n$$y-3=-\\tfrac12(x-1)\\Rightarrow x+2y-7=0.$$"
+  },
+  {
+   "ref": "Q15",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.6"
+   ],
+   "question": "A cart containing $n$ bags of artichokes is pushed around a market. Every customer that comes across it takes 10 more bags than the previous. If the first customer takes 20 bags, and the cart sells out after 9 more people, evaluate $n$.",
+   "answer": "The bags taken form an AP with $a=20$, $d=10$. The cart sells out after the first customer and 9 more, so there are 10 customers:\n$$n=S_{10}=\\dfrac{10}{2}\\left[2(20)+9(10)\\right]=5(130)=650.$$"
+  },
+  {
+   "ref": "Q16",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.12",
+    "11.3.1.11"
+   ],
+   "question": "Prove that $(\\cot\\varphi+\\operatorname{cosec}\\varphi)^2=\\dfrac{1+\\cos\\varphi}{1-\\cos\\varphi}$.",
+   "answer": "$$\\text{LHS}=\\left(\\dfrac{\\cos\\varphi}{\\sin\\varphi}+\\dfrac{1}{\\sin\\varphi}\\right)^2=\\dfrac{(1+\\cos\\varphi)^2}{\\sin^2\\varphi}=\\dfrac{(1+\\cos\\varphi)^2}{1-\\cos^2\\varphi}=\\dfrac{(1+\\cos\\varphi)^2}{(1-\\cos\\varphi)(1+\\cos\\varphi)}=\\dfrac{1+\\cos\\varphi}{1-\\cos\\varphi}=\\text{RHS}.$$"
+  },
+  {
+   "ref": "Q17",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.2.9",
+    "11.5.2.6"
+   ],
+   "question": "Solve for $x$ if $\\ln(x^3+19)=3\\ln(x+1)$.",
+   "answer": "$\\ln(x^3+19)=\\ln(x+1)^3$, so $x^3+19=x^3+3x^2+3x+1$, giving $3x^2+3x-18=0$, i.e. $x^2+x-6=0$ and $(x+3)(x-2)=0$.\n\nThe logarithms need $x+1>0$, so $x>-1$. Reject $x=-3$ (it gives $\\ln(-8)$). Check $x=2$: $\\ln27=3\\ln3$ ✓.\n\n$$x=2.$$"
+  },
+  {
+   "ref": "Q18",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.6.1.6",
+    "11.6.1.10"
+   ],
+   "question": "The graph of $y=f(x)$ has a $y$-intercept of 3. Find the corresponding point on the graph $y=-\\dfrac32f(2x+3)+4$.",
+   "answer": "$f(0)=3$. Put $2x+3=0$, so $x=-\\dfrac32$. Then $y=-\\dfrac32(3)+4=-\\dfrac12$.\n\nThe corresponding point is $\\left(-\\dfrac32,\\,-\\dfrac12\\right)$."
+  },
+  {
+   "ref": "Q19",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.8",
+    "12.5.3.5"
+   ],
+   "question": "The concentration of dirt after $t$ minutes in a flowing river follows $\\dfrac{dc}{dt}=-0.8c$, where $c$ is the concentration in g/L. Initially, the concentration is 45 g/L. Let $c=Ae^{-kt}$, where $k$ is a positive constant. By finding the values of $A$ and $k$, when does the concentration of dirt reach 25 mg/L, to the nearest minute?",
+   "answer": "$\\dfrac{dc}{dt}=-kAe^{-kt}=-kc$, so $k=0.8$. At $t=0$, $c=A=45$. So $c=45e^{-0.8t}$.\n\n25 mg/L $=0.025$ g/L: $45e^{-0.8t}=0.025\\Rightarrow e^{0.8t}=1800\\Rightarrow t=\\dfrac{\\ln1800}{0.8}\\approx9.37$ minutes, which is 9 minutes to the nearest minute.\n\nNote: the school's solution rounds up to 10 minutes because it treats the concentration as having \"reached\" 25 mg/L only once it is at or below that value. The question asks for the nearest minute, which is 9."
+  },
+  {
+   "ref": "Q20",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.8.11"
+   ],
+   "question": "A river 50 metres wide is surveyed at 10 metre intervals for the width as shown.\n\nUsing the trapezoidal rule, estimate the surface area of the river.",
+   "answer": "The river's total width (top plus bottom measurements) at each 10 m interval is $0,\\ 20+24=44,\\ 18+23=41,\\ 19+20=39,\\ 0+18=18,\\ 0$. The width is zero at both ends of the river.\n$$A\\approx\\dfrac{10}{2}\\left[0+2(44+41+39+18)+0\\right]=5(284)=1420\\text{ m}^2.$$",
+   "images": [
+    "assets/img/adv-2026-sydney-boys/q20.png"
+   ]
+  },
+  {
+   "ref": "Q21",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.2",
+    "11.4.3.5"
+   ],
+   "question": "Find the equations of tangents to $y=x^2-4x+5$ that have a $y$-intercept of 1.",
+   "answer": "Let the point of tangency be $(a,\\,a^2-4a+5)$. The gradient is $2a-4$, so the tangent is $y-(a^2-4a+5)=(2a-4)(x-a)$.\n\nIts $y$-intercept (put $x=0$) is $a^2-4a+5-a(2a-4)=5-a^2$. Setting $5-a^2=1$ gives $a=\\pm2$.\n\n- $a=2$: gradient 0, point $(2,1)$: $y=1$.\n- $a=-2$: gradient $-8$, point $(-2,17)$: $y-17=-8(x+2)$, so $y=-8x+1$.\n\nThe tangents are $y=1$ and $y=-8x+1$."
+  },
+  {
+   "ref": "Q22",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.2.2.10",
+    "11.2.1.2"
+   ],
+   "question": "An observatory on top of Mount Middleton sits 200 m above sea level. A ship is initially spotted at $A$, due North at an angle of depression of $30^\\circ$. The ship then travels half a kilometre and is then spotted again at $B$ on a bearing of S$30^\\circ$E from the observatory.\n\nFind the angle of elevation from which the ship sees the observatory from $B$.",
+   "answer": "Let $X$ be the observatory and $O$ the point at sea level below it, so $XO=200$ m. The angle of elevation of $X$ from $A$ is $30^\\circ$, so $OA=\\dfrac{200}{\\tan30^\\circ}=200\\sqrt3$ m.\n\n$A$ is due North and $B$ is on bearing S$30^\\circ$E ($150^\\circ$) from $O$, so $\\angle AOB=150^\\circ$. Also $AB=500$ m. Let $OB=x$. Cosine rule in $\\triangle AOB$:\n$$500^2=(200\\sqrt3)^2+x^2-2(200\\sqrt3)x\\cos150^\\circ\\Rightarrow x^2+600x-130000=0.$$\n$$x=\\dfrac{-600+\\sqrt{600^2+4(130000)}}{2}\\approx169.04\\text{ m}.$$\nThe angle of elevation at $B$: $\\tan\\theta=\\dfrac{200}{169.04}$, so $\\theta\\approx49.8^\\circ$.",
+   "images": [
+    "assets/img/adv-2026-sydney-boys/q22.png"
+   ]
+  },
+  {
+   "ref": "Q23(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.4",
+    "11.4.3.8"
+   ],
+   "question": "Find $\\dfrac{d}{dt}\\left(te^t\\right)$.",
+   "answer": "Product rule: $\\dfrac{d}{dt}(te^t)=e^t+te^t=e^t(1+t)$."
+  },
+  {
+   "ref": "Q23(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.9",
+    "12.4.1.9"
+   ],
+   "question": "A particle has acceleration $a=te^t$ m/s$^2$, where $t$ is the time measured in seconds after it is released. Hence, or otherwise, if the particle is stationary 1 second after release, find the initial velocity of the particle.",
+   "answer": "From (a), $te^t=\\dfrac{d}{dt}(te^t)-e^t$, so $v=\\displaystyle\\int te^t\\,dt=te^t-e^t+C$.\n\n$v(1)=0$: $e-e+C=0\\Rightarrow C=0$. So $v=(t-1)e^t$ and $v(0)=-1$.\n\nThe initial velocity is $-1$ m/s.\n\nNote: the school's Method 1 working ends with $v(0)=1$, which has a sign error; its Method 2 and the correct value are $-1$ m/s."
+  },
+  {
+   "ref": "Q23(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.10",
+    "12.4.8.4"
+   ],
+   "question": "Find the total distance travelled by the particle in the first 3 seconds.",
+   "answer": "$v=(t-1)e^t$ is negative for $0\\le t<1$ and positive for $1<t\\le3$, so the particle reverses direction at $t=1$ and the two parts must be added separately.\n\nA primitive of $v$ is $x=(t-2)e^t$ (check: $\\dfrac{d}{dt}(t-2)e^t=e^t+(t-2)e^t=(t-1)e^t$).\n\n$0\\\\le t\\\\le1$: $x(1)-x(0)=-e-(-2)=2-e$, a distance of $e-2$.\n\n$1\\\\le t\\\\le3$: $x(3)-x(1)=e^3+e$.\n\n$$\\text{Distance}=(e-2)+(e^3+e)=e^3+2e-2\\approx23.5\\text{ m}.$$"
+  },
+  {
+   "ref": "Q24(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.1.1",
+    "12.2.3.8"
+   ],
+   "question": "Mira invests \\$100 000 in a savings account that pays 12 percent interest per annum. The bank pays her monthly interest, and she will withdraw \\$8000 every three months. Let $A_n$ be the amount in the bank after $n$ months.\n\nWrite down expressions for the balance after the first, second and third month.",
+   "answer": "The monthly rate is $12\\%/12=1\\%$, and the withdrawal is made at the end of every third month.\n$$A_1=100000(1.01),\\qquad A_2=100000(1.01)^2,\\qquad A_3=100000(1.01)^3-8000.$$"
+  },
+  {
+   "ref": "Q24(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.5",
+    "12.7.1.1"
+   ],
+   "question": "Show that the balance after $3n$ months is\n$$A_{3n}=100000\\times1.01^{3n}-8000\\left(1+1.01^3+1.01^6+\\cdots+1.01^{3(n-1)}\\right).$$",
+   "answer": "Let $R=1.01^3$. Over each 3 months the balance is multiplied by $R$, and then \\$8000 is withdrawn:\n\n$A_3=100000R-8000$\n\n$A_6=A_3R-8000=100000R^2-8000R-8000=100000R^2-8000(1+R)$\n\n$A_9=A_6R-8000=100000R^3-8000(1+R+R^2)$\n\nContinuing this pattern,\n$$A_{3n}=100000R^n-8000\\left(1+R+R^2+\\cdots+R^{n-1}\\right)=100000\\times1.01^{3n}-8000\\left(1+1.01^3+1.01^6+\\cdots+1.01^{3(n-1)}\\right).$$"
+  },
+  {
+   "ref": "Q24(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.3.5",
+    "12.7.1.2"
+   ],
+   "question": "Hence, find the month in which she will withdraw her last sum of money to clear her account and reach a balance of zero.",
+   "answer": "The bracket is a GP with $a=1$, ratio $R=1.01^3$ and $n$ terms, so its sum is $\\dfrac{R^n-1}{R-1}$. Set $A_{3n}=0$:\n$$100000R^n=8000\\cdot\\dfrac{R^n-1}{R-1}\\Rightarrow R^n\\left[100000(R-1)-8000\\right]=-8000\\Rightarrow R^n=\\dfrac{8000}{8000-100000(R-1)}\\approx1.60969.$$\nThen $1.01^{3n}\\approx1.60969$, so $3n=\\dfrac{\\ln1.60969}{\\ln1.01}\\approx47.84$.\n\n$3n$ must be rounded up, because the balance is still positive at month 45 and the account is cleared by the withdrawal at the end of month 48. The last withdrawal is in month 48.\n\nNote: the school's answer is also month 48."
+  },
+  {
+   "ref": "Q24(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.1.3"
+   ],
+   "question": "How much interest did the bank pay to Mira overall?",
+   "answer": "Interest paid $=$ total withdrawn $-$ \\$100 000 (the account ends at zero).\n\nFifteen full withdrawals are made (months 3, 6, ..., 45) and $A_{45}=\\$7361.05$. At month 48 the balance before the withdrawal is $A_{45}\\times1.01^3=\\$7584.09$, which is less than \\$8000, so the final withdrawal is \\$7584.09.\n\nTotal withdrawn $=15\\times8000+7584.09=\\$127\\,584.09$.\n\nInterest $=127\\,584.09-100\\,000=\\$27\\,584.09$."
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.3.5",
+    "11.7.3.7",
+    "11.7.2.6"
+   ],
+   "question": "Let $P(A)=0.2$ and $P(B)=0.4$. If $P(A\\cup B)=0.5$, are $A$ and $B$ independent events?",
+   "answer": "$P(A\\cap B)=P(A)+P(B)-P(A\\cup B)=0.2+0.4-0.5=0.1$.\n\nBut $P(A)P(B)=0.2\\times0.4=0.08\ne0.1$.\n\nSo $A$ and $B$ are **not** independent."
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.7.2.6",
+    "11.7.2.4"
+   ],
+   "question": "Let $P(A)=0.2$, $P(B)=0.4$ and $P(A\\cup B)=0.5$. Evaluate $P\\left(\\overline{A}\\cup B\\right)$.",
+   "answer": "$P(\\overline A\\cup B)=P(\\overline A)+P(B)-P(\\overline A\\cap B)$. Now $P(\\overline A\\cap B)=P(B)-P(A\\cap B)=0.4-0.1=0.3$.\n\n$P(\\overline A\\cup B)=0.8+0.4-0.3=0.9$.\n\n(Check: $\\overline A\\cup B$ is the complement of $A\\cap\\overline B$, and $P(A\\cap\\overline B)=0.2-0.1=0.1$, so the probability is $1-0.1=0.9$.)"
+  },
+  {
+   "ref": "Q26(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.8.5",
+    "11.5.1.1"
+   ],
+   "question": "The graphs of $y=2^x$ and $y=4-2(x-2)^2$ are shown.\n\nProve that the graphs intersect at $(1,2)$ and $(2,4)$.",
+   "answer": "At $x=1$: $2^1=2$ and $4-2(1-2)^2=4-2=2$, so both curves pass through $(1,2)$.\n\nAt $x=2$: $2^2=4$ and $4-2(2-2)^2=4$, so both curves pass through $(2,4)$.",
+   "images": [
+    "assets/img/adv-2026-sydney-boys/q26.png"
+   ]
+  },
+  {
+   "ref": "Q26(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.8.6",
+    "12.4.8.8",
+    "12.4.5.3"
+   ],
+   "question": "The graphs of $y=2^x$ and $y=4-2(x-2)^2$ intersect at $(1,2)$ and $(2,4)$. Calculate the area of the shaded region.",
+   "answer": "The parabola meets the $x$-axis where $2(x-2)^2=4$, i.e. $x=2\\pm\\sqrt2$.\n\nThe shaded region is bounded by the parabola from $x=2-\\sqrt2$ to $x=1$, by $y=2^x$ from $x=1$ to $x=2$ (where it lies below the parabola), and by the parabola again from $x=2$ to $x=2+\\sqrt2$.\n\nEquivalently, $\\text{Area}=\\displaystyle\\int_{2-\\sqrt2}^{2+\\sqrt2}\\left[4-2(x-2)^2\\right]dx-\\int_1^2\\left[4-2(x-2)^2-2^x\\right]dx$.\n\nFirst integral, with $u=x-2$: $\\left[4u-\\tfrac23u^3\\right]_{-\\sqrt2}^{\\sqrt2}=2\\left(4\\sqrt2-\\tfrac23\\cdot2\\sqrt2\\right)=\\dfrac{16\\sqrt2}{3}$.\n\nSecond: $\\displaystyle\\int_1^2\\left[4-2(x-2)^2\\right]dx=\\left[4u-\\tfrac23u^3\\right]_{-1}^{0}=4-\\tfrac23=\\dfrac{10}{3}$, and $\\displaystyle\\int_1^22^x\\,dx=\\left[\\dfrac{2^x}{\\ln2}\\right]_1^2=\\dfrac{2}{\\ln2}$.\n\n$$\\text{Area}=\\dfrac{16\\sqrt2}{3}-\\dfrac{10}{3}+\\dfrac{2}{\\ln2}\\approx7.09\\text{ square units}.$$",
+   "images": [
+    "assets/img/adv-2026-sydney-boys/q26.png"
+   ]
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.4.11",
+    "11.1.1.2"
+   ],
+   "question": "Let $y=x^3-3x+2$. Show that $y=(x-1)^2(x+2)$.",
+   "answer": "$(x-1)^2(x+2)=(x^2-2x+1)(x+2)=x^3+2x^2-2x^2-4x+x+2=x^3-3x+2$ ✓."
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.4",
+    "12.5.1.8"
+   ],
+   "question": "Let $y=x^3-3x+2$. Find the coordinates of any stationary points, and determine their nature.",
+   "answer": "$y'=3x^2-3=0\\Rightarrow x=\\pm1$. $y''=6x$.\n\n$x=1$: $y=0$ and $y''=6>0$, so $(1,0)$ is a local minimum.\n\n$x=-1$: $y=-1+3+2=4$ and $y''=-6<0$, so $(-1,4)$ is a local maximum."
+  },
+  {
+   "ref": "Q27(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.6",
+    "12.5.1.7"
+   ],
+   "question": "Let $y=x^3-3x+2$. Find the coordinates of any inflexion points.",
+   "answer": "$y''=6x=0\\Rightarrow x=0$. The concavity changes (negative for $x<0$, positive for $x>0$), and $y(0)=2$.\n\nThe point of inflexion is $(0,2)$."
+  },
+  {
+   "ref": "Q27(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.9"
+   ],
+   "question": "Hence, or otherwise, sketch the curve $y=x^3-3x+2$.",
+   "answer": "Features: $x$-intercepts $(-2,0)$ and $(1,0)$ (the graph touches the axis at $x=1$, a double root); $y$-intercept $(0,2)$; local maximum $(-1,4)$; local minimum $(1,0)$; point of inflexion $(0,2)$. As $x\\to\\infty$, $y\\to\\infty$, and as $x\\to-\\infty$, $y\\to-\\infty$.",
+   "answer_images": [
+    "assets/img/adv-2026-sydney-boys/a27.png"
+   ]
+  },
+  {
+   "ref": "Q28",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.2.10",
+    "11.5.2.9"
+   ],
+   "question": "For some real number $p>1$, it is given that $\\log_p2=x$ and $\\log_p3=y$. Find, in terms of $x$ and $y$, the value of $\\ln\\left(12^{\\frac{1}{\\ln p}}\\right)$.",
+   "answer": "$\\ln\\left(12^{1/\\ln p}\\right)=\\dfrac{\\ln12}{\\ln p}=\\log_p12$ (change of base).\n\n$\\log_p12=\\log_p(2^2\\times3)=2\\log_p2+\\log_p3=2x+y.$"
+  },
+  {
+   "ref": "Q30",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.6",
+    "12.6.1.9"
+   ],
+   "question": "A discrete random variable $X$ has the following probability distribution.\n\n| $x$ | 1 | 3 | 4 | 5 |\n|---|---|---|---|---|\n| $P(X=x)$ | $a$ | $b$ | 0.1 | 0.4 |\n\nIf $\\operatorname{Var}(X)=1.94$ and $E(X^2)=14.9$, calculate the values of $a$ and $b$.",
+   "answer": "Probabilities sum to 1: $a+b+0.1+0.4=1\\Rightarrow a+b=0.5$.\n\n$E(X^2)=\\sum x^2P(x)=a+9b+16(0.1)+25(0.4)=a+9b+11.6=14.9\\Rightarrow a+9b=3.3$.\n\nSubtracting: $8b=2.8$, so $b=0.35$ and $a=0.15$.\n\nCheck: $E(X)=0.15+1.05+0.4+2=3.6$, and $\\operatorname{Var}(X)=14.9-3.6^2=1.94$ ✓."
+  },
+  {
+   "ref": "Q31(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.6",
+    "12.6.2.7"
+   ],
+   "question": "A continuous random variable $X$ with probability density function $f(x)$ follows the symmetrical triangle distribution between 0 and $a$, as shown in the diagram. Find the value of $k$.",
+   "answer": "The total area under a PDF is 1: $\\tfrac12\\times a\\times k=1\\Rightarrow k=\\dfrac{2}{a}$.",
+   "images": [
+    "assets/img/adv-2026-sydney-boys/q31.png"
+   ]
+  },
+  {
+   "ref": "Q31(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.5",
+    "12.6.2.7"
+   ],
+   "question": "For the distribution above, $f(x)=\\dfrac{2k}{a}x$ for $0\\le x<\\dfrac a2$, where $k$ is defined from (a). Write down the probability density function $f(x)$ for $0\\le x\\le a$. Your answer should be in terms of $a$ and $x$ only.",
+   "answer": "With $k=\\dfrac2a$, the left side is $f(x)=\\dfrac{4}{a^2}x$ for $0\\le x<\\dfrac a2$. By symmetry the right side has gradient $-\\dfrac{4}{a^2}$ and passes through $(a,0)$: $f(x)=-\\dfrac{4}{a^2}(x-a)$.\n$$f(x)=\\begin{cases}\\dfrac{4}{a^2}x,&0\\le x<\\dfrac a2\\\\[2mm]\\dfrac{4}{a^2}(a-x),&\\dfrac a2\\le x\\le a\\end{cases}$$",
+   "images": [
+    "assets/img/adv-2026-sydney-boys/q31.png"
+   ]
+  },
+  {
+   "ref": "Q31(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.2.11",
+    "12.6.2.9"
+   ],
+   "question": "For the distribution above, find the inter-quartile range.",
+   "answer": "$Q_1$ satisfies $\\displaystyle\\int_0^{Q_1}\\dfrac{4}{a^2}x\\,dx=\\dfrac14\\Rightarrow\\dfrac{2Q_1^2}{a^2}=\\dfrac14\\Rightarrow Q_1^2=\\dfrac{a^2}{8}\\Rightarrow Q_1=\\dfrac{a}{2\\sqrt2}$ (this lies below $\\tfrac a2$, so the left piece applies).\n\nBy symmetry about $x=\\dfrac a2$, $Q_3=a-Q_1=a-\\dfrac{a}{2\\sqrt2}$.\n$$\\text{IQR}=Q_3-Q_1=a-\\dfrac{a}{\\sqrt2}=\\dfrac{\\sqrt2-1}{\\sqrt2}\\,a\\approx0.293a.$$",
+   "images": [
+    "assets/img/adv-2026-sydney-boys/q31.png"
+   ]
+  },
+  {
+   "ref": "Q31(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.2.11",
+    "12.6.2.7"
+   ],
+   "question": "Prove that all values that the random variable $X$ takes are not outliers.",
+   "answer": "Using $\\text{IQR}=\\dfrac{\\sqrt2-1}{\\sqrt2}a$ and $Q_1=\\dfrac{a}{2\\sqrt2}$:\n\nLower fence: $Q_1-1.5\\,\\text{IQR}=\\dfrac{a}{2\\sqrt2}-\\dfrac32\\cdot\\dfrac{\\sqrt2-1}{\\sqrt2}a=\\dfrac{a}{2\\sqrt2}\\left(4-3\\sqrt2\\right)<0$, since $3\\sqrt2>4$.\n\nUpper fence: $Q_3+1.5\\,\\text{IQR}=a-\\dfrac{a}{2\\sqrt2}+\\dfrac32\\cdot\\dfrac{\\sqrt2-1}{\\sqrt2}a=\\dfrac{a}{2\\sqrt2}\\left(5\\sqrt2-4\\right)>a$, since $5\\sqrt2-4>2\\sqrt2$.\n\nAn outlier would need $x<Q_1-1.5\\,\\text{IQR}<0$ or $x>Q_3+1.5\\,\\text{IQR}>a$. But $X$ only takes values in $[0,a]$, so no value is an outlier."
+  },
+  {
+   "ref": "Q32",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.12",
+    "12.6.2.8"
+   ],
+   "question": "The waiting time for a train can be modelled by a continuous random variable $T$, which has cumulative distribution function\n$$G(t)=\\begin{cases}0,&t<0\\\\1-e^{-t^2},&t\\ge0.\\end{cases}$$\nFind the mode for the distribution of times.",
+   "answer": "The PDF is $g(t)=G'(t)=2te^{-t^2}$ for $t\\ge0$. The mode is where $g$ is maximised.\n\n$g'(t)=2e^{-t^2}-4t^2e^{-t^2}=2e^{-t^2}(1-2t^2)=0\\Rightarrow t=\\dfrac{1}{\\sqrt2}$ ($t>0$).\n\n$g'$ is positive for $t<\\dfrac1{\\sqrt2}$ (e.g. $g'(0.5)>0$) and negative for $t>\\dfrac1{\\sqrt2}$ (e.g. $g'(1)<0$), so this is a maximum.\n\nThe mode is $t=\\dfrac{1}{\\sqrt2}\\approx0.71$."
+  },
+  {
+   "ref": "Q33",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.6",
+    "12.6.3.10"
+   ],
+   "question": "99.7% of the scores of a recent medical test are found to exist symmetrically between 60 and 96. Assuming the scores are normally distributed, what proportion of scores are going to exist between 66 and 84?",
+   "answer": "99.7% of scores lie within 3 standard deviations of the mean, so $\\mu=\\dfrac{60+96}{2}=78$ and $3\\sigma=18$, giving $\\sigma=6$.\n\n$66=\\mu-2\\sigma$ and $84=\\mu+\\sigma$. By the empirical rule: $\\dfrac{95\\%}{2}+\\dfrac{68\\%}{2}=47.5\\%+34\\%=81.5\\%$.\n\nThe proportion is approximately $81.5\\%$."
+  },
+  {
+   "ref": "Q34(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "The rise and fall of the average heart rate $h(t)$ of an athlete through a race is modelled by a sinusoidal curve over the interval $0\\le t\\le48$, where $t$ is the time in seconds from the start of the race. The equation of the curve is $h(t)=a\\sin\\left[\\dfrac\\pi8(t-c)\\right]+k$. The heart rate reaches a maximum of 135 beats per minute and a minimum of 75 beats per minute.\n\nFind the values of $a$ and $k$, where $a$ and $k$ are positive constants.",
+   "answer": "$a$ is the amplitude and $k$ the midline:\n$$a=\\dfrac{135-75}{2}=30,\\qquad k=\\dfrac{135+75}{2}=105.$$",
+   "images": [
+    "assets/img/adv-2026-sydney-boys/q34.png"
+   ]
+  },
+  {
+   "ref": "Q34(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.2.1",
+    "11.3.1.10"
+   ],
+   "question": "Using $h(t)=30\\sin\\left[\\dfrac\\pi8(t-c)\\right]+105$ and the graph, the athlete started with an initial heart rate of 120 beats per minute. What is the value of $c$?",
+   "answer": "$h(0)=120$: $30\\sin\\left(-\\dfrac{\\pi c}{8}\\right)+105=120\\Rightarrow\\sin\\left(-\\dfrac{\\pi c}{8}\\right)=\\dfrac12$.\n\nSo $-\\dfrac{\\pi c}{8}=\\dfrac\\pi6+2\\pi m$ or $\\dfrac{5\\pi}6+2\\pi m$. The graph is decreasing at $t=0$ (the athlete is heading towards a minimum), so we need the second-quadrant solution $\\dfrac{5\\pi}{6}$ (where $\\cos<0$): $-\\dfrac{\\pi c}{8}=\\dfrac{5\\pi}6+2\\pi m\\Rightarrow c=-\\dfrac{20}{3}-16m$.\n\nSo $c=-\\dfrac{20}{3}$, or equivalently (adding the period 16) $c=\\dfrac{28}{3}$. Any value $c=-\\dfrac{20}{3}+16m$ gives the same curve; the first positive value is $c=\\dfrac{28}{3}$.",
+   "images": [
+    "assets/img/adv-2026-sydney-boys/q34.png"
+   ]
+  },
+  {
+   "ref": "Q34(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.1.2"
+   ],
+   "question": "A better trained athlete has the same minimum heart rate, but a maximum heart rate of 105 beats per minute. The better athlete also has an initial heart rate of 75 beats per minute, and his heart rate per minute will oscillate with a period 50% longer than the original. Sketch his heart rate on the diagram provided, and state the equation.",
+   "answer": "Amplitude $=\\dfrac{105-75}{2}=15$ and midline $=\\dfrac{105+75}{2}=90$.\n\nThe original period is $\\dfrac{2\\pi}{\\pi/8}=16$ s, so the new period is $1.5\\times16=24$ s and $b=\\dfrac{2\\pi}{24}=\\dfrac\\pi{12}$.\n\nThe initial value is the minimum (75), so the curve is an inverted cosine, or a sine shifted right by a quarter period (6 s):\n$$h(t)=15\\sin\\left[\\dfrac{\\pi}{12}(t-6)\\right]+90=90-15\\cos\\dfrac{\\pi t}{12}.$$\nIt has minima of 75 at $t=0,24,48$ and maxima of 105 at $t=12,36$.",
+   "images": [
+    "assets/img/adv-2026-sydney-boys/q34c.png"
+   ],
+   "answer_images": [
+    "assets/img/adv-2026-sydney-boys/a34c.png"
+   ]
+  },
+  {
+   "ref": "Q35(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.3",
+    "11.2.3.6"
+   ],
+   "question": "A data centre is stationed on the edge of a semi-circular bay of radius 4 km at $P$. A server is at $R$, positioned directly across the bay's diameter. An underwater connection could be laid from $P$ to a relay server at $Q$, then wrapped along the curved semi-circular boundary above ground from $Q$ to $R$.\n\nThe diameter of the bay is 8 km, centred at $O$. $\\angle PQR$ is a right angle (do NOT prove). Laying a direct internet connection underwater costs 6 million dollars per kilometre, whereas a direct internet connection above ground costs a quarter as much. Let $\\angle QOR=2\\theta$.\n\nProve the total cost in millions for laying the wires is $C=12(4\\cos\\theta+\\theta)$ dollars.",
+   "answer": "The angle at the centre is twice the angle at the circumference on the same arc $QR$, so $\\angle QPR=\\theta$.\n\nIn the right-angled triangle $PQR$, $PR=8$, so $PQ=8\\cos\\theta$.\n\nArc $QR=r\\times2\\theta=4(2\\theta)=8\\theta$.\n\nUnderwater costs 6 per km and above ground costs $\\dfrac64=1.5$ per km:\n$$C=6(8\\cos\\theta)+1.5(8\\theta)=48\\cos\\theta+12\\theta=12(4\\cos\\theta+\\theta).$$",
+   "images": [
+    "assets/img/adv-2026-sydney-boys/q35.png"
+   ]
+  },
+  {
+   "ref": "Q35(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.5.2.5"
+   ],
+   "question": "Using $C=12(4\\cos\\theta+\\theta)$ million dollars, where $0\\le\\theta\\le\\dfrac\\pi2$, find the minimum cost to lay a connection from $P$ to $R$.",
+   "answer": "$\\dfrac{dC}{d\\theta}=12(-4\\sin\\theta+1)=0\\Rightarrow\\sin\\theta=\\dfrac14$, $\\theta\\approx0.253$ (the other solution, $\\pi-0.253$, is outside the domain).\n\n$\\dfrac{d^2C}{d\\theta^2}=-48\\cos\\theta<0$ on the domain, so $\\theta\\approx0.253$ is a local **maximum** ($C\\approx49.5$), not a minimum.\n\nThe minimum therefore occurs at an endpoint of the domain:\n\n- $\\theta=0$ ($Q=R$, all underwater): $C=12(4)=48$.\n- $\\theta=\\dfrac\\pi2$ ($Q=P$, all along the boundary): $C=12\\left(0+\\dfrac\\pi2\\right)=6\\pi\\approx18.85$.\n\nThe minimum cost is $6\\pi\\approx\\$18.85$ million.",
+   "images": [
+    "assets/img/adv-2026-sydney-boys/q35.png"
+   ]
+  },
+  {
+   "ref": "Q36",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.1.10.1",
+    "11.1.11.2"
+   ],
+   "question": "Let $y=f(x)=\\begin{cases}0,&x<0\\\\x,&x\\ge0.\\end{cases}$ Express $y=f(x)$ as a single function without a piecewise definition.",
+   "answer": "For $x\\ge0$, $|x|=x$ so $x+|x|=2x$. For $x<0$, $|x|=-x$ so $x+|x|=0$. Hence\n$$f(x)=\\dfrac{x+|x|}{2}.$$"
+  }
+ ]
+}
