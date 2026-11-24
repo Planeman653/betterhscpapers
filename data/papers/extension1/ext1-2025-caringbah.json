@@ -1,0 +1,499 @@
+{
+ "id": "ext1-2025-caringbah",
+ "course": "extension1",
+ "school": "Caringbah High School",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "Caringbah 2025 w. sol"
+ },
+ "indexed": "2026-11-25",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q6",
+   "reason": "Not in the 2024 syllabus: pigeonhole principle (cards numbered 1–15 with a difference of 7)."
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.4.10"
+   ],
+   "question": "What is the solution of the inequality $x(x-4)<5$ ?",
+   "answer": "$x^2-4x-5<0\\Rightarrow(x-5)(x+1)<0$, so $-1<x<5$, i.e. $(-1,5)$ (B).",
+   "course": "advanced",
+   "options": [
+    "$(0,4)$",
+    "$(-1,5)$",
+    "$(-\\infty,-1)\\cup(5,\\infty)$",
+    "$(-\\infty,0)\\cup(4,\\infty)$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.4"
+   ],
+   "question": "What are the domain and range of the function $f(x)=\\cos^{-1}\\left(\\dfrac x4\\right)$ ?",
+   "answer": "Need $-1\\le\\frac x4\\le1$, so $-4\\le x\\le4$. The range of $\\cos^{-1}$ is always $[0,\\pi]$ (C).",
+   "options": [
+    "Domain: $-1\\le x\\le1$, Range: $0\\le y\\le\\pi$",
+    "Domain: $-4\\le x\\le4$, Range: $0\\le y\\le4\\pi$",
+    "Domain: $-4\\le x\\le4$, Range: $0\\le y\\le\\pi$",
+    "Domain: $-1\\le x\\le1$, Range: $0\\le y<4\\pi$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.5",
+    "11.2.2.6"
+   ],
+   "question": "$(x-1)$ is a factor of the polynomial $P(x)=x^3+kx^2+3x-2$, for some constant $k$. What is the remainder when $P'(x)$ is divided by $(x-1)$?",
+   "answer": "$P(1)=0\\Rightarrow1+k+3-2=0\\Rightarrow k=-2$. Then $P'(x)=3x^2-4x+3$ and the remainder is $P'(1)=3-4+3=2$ (D).",
+   "options": [
+    "$-2$",
+    "$-1$",
+    "$1$",
+    "$2$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.3",
+    "12.2.3.6"
+   ],
+   "question": "It is given that $\\mathbf a=\\overrightarrow{OA}=\\begin{pmatrix}2\\\\1\\end{pmatrix}$ and $\\mathbf b=\\overrightarrow{OB}=\\begin{pmatrix}2\\\\3\\end{pmatrix}$, and $\\mathbf v$ starts at the tip of $2\\mathbf b$ and finishes at the tip of $3\\mathbf a$ as shown. Which vector below is equal to $\\mathbf v$?",
+   "answer": "$\\mathbf v=3\\mathbf a-2\\mathbf b=\\begin{pmatrix}6\\\\3\\end{pmatrix}-\\begin{pmatrix}4\\\\6\\end{pmatrix}=\\begin{pmatrix}2\\\\-3\\end{pmatrix}$ (B).",
+   "options": [
+    "$\\begin{pmatrix}-2\\\\3\\end{pmatrix}$",
+    "$\\begin{pmatrix}2\\\\-3\\end{pmatrix}$",
+    "$\\begin{pmatrix}4\\\\4\\end{pmatrix}$",
+    "$\\begin{pmatrix}10\\\\9\\end{pmatrix}$"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/ext1-2025-caringbah/q4.png"
+   ]
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.1"
+   ],
+   "question": "Given that $\\cos x-2\\sin x+2=0$, what are the values of $t$, if $t=\\tan\\left(\\dfrac x2\\right)$ ?",
+   "answer": "With $\\cos x=\\dfrac{1-t^2}{1+t^2}$ and $\\sin x=\\dfrac{2t}{1+t^2}$: $\\dfrac{1-t^2}{1+t^2}-\\dfrac{4t}{1+t^2}+2=0\\Rightarrow1-t^2-4t+2+2t^2=0\\Rightarrow t^2-4t+3=0$, so $(t-1)(t-3)=0$ and $t=1$ or $3$ (A).",
+   "options": [
+    "$t=1$ or $t=3$",
+    "$t=1$ or $t=-2$",
+    "$t=1$ or $t=2$",
+    "$t=1$ or $t=-3$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.12"
+   ],
+   "question": "The diagram shows the graph of a function. Which function does the graph represent?",
+   "answer": "The graph is increasing, odd, with domain $-2\\le x\\le2$ and range $-\\pi\\le y\\le\\pi$. $y=2\\sin^{-1}\\frac x2$ has domain $-2\\le x\\le2$ (from $-1\\le\\frac x2\\le1$) and range $[-\\pi,\\pi]$ (C). $\\cos^{-1}$ versions are not odd; A has domain $[-\\frac12,\\frac12]$.",
+   "options": [
+    "$y=2\\sin^{-1}(2x)$",
+    "$y=-2\\cos^{-1}(2x)$",
+    "$y=2\\sin^{-1}\\left(\\dfrac x2\\right)$",
+    "$y=2\\cos^{-1}\\left(\\dfrac x2\\right)$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/ext1-2025-caringbah/q7.png"
+   ]
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "What is the primitive of $\\dfrac{3+2x}{4+x^2}$ ?",
+   "answer": "$\\dfrac{3+2x}{4+x^2}=\\dfrac{3}{4+x^2}+\\dfrac{2x}{4+x^2}$, with primitives $\\dfrac32\\tan^{-1}\\dfrac x2$ and $\\ln(4+x^2)$ respectively (D).",
+   "options": [
+    "$\\dfrac32\\tan^{-1}(x)+\\ln(4+x^2)+c$",
+    "$3\\tan^{-1}\\left(\\dfrac x2\\right)+\\ln(4+x^2)+c$",
+    "$\\dfrac32\\tan^{-1}(x)+\\ln(x^2)+c$",
+    "$\\dfrac32\\tan^{-1}\\left(\\dfrac x2\\right)+\\ln(4+x^2)+c$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "The coefficient of $x^2$ in the expansion of $\\left(5x+\\dfrac2x\\right)^8$ is:",
+   "answer": "$T_{k+1}={}^8C_k(5x)^k\\left(\\frac2x\\right)^{8-k}$ has power $x^{2k-8}$. For $x^2$, $k=5$: ${}^8C_5\\cdot5^5\\cdot2^3=56\\times3125\\times8=1\\,400\\,000$ (B).",
+   "options": [
+    "$112\\,000$",
+    "$1\\,400\\,000$",
+    "$700\\,000$",
+    "$224\\,000$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.6"
+   ],
+   "question": "In a game of basketball, Sam has a scoring accuracy of $70\\%$. What is the ratio of Sam scoring at least one of three attempts compared to scoring exactly twice out of three attempts?",
+   "answer": "$P(\\ge1)=1-0.3^3=0.973$ and $P(2)={}^3C_2(0.7)^2(0.3)=0.441$. Ratio $0.973:0.441=973:441=139:63$ (D) (dividing by $7$); B is not in lowest terms.",
+   "options": [
+    "$3:2$",
+    "$973:189$",
+    "$49:3$",
+    "$139:63$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.1.8"
+   ],
+   "question": "In how many ways can the letters of the word SUCCESS be arranged in a line if there are no restrictions?",
+   "answer": "$7$ letters with $S$ three times and $C$ twice: $\\dfrac{7!}{3!\\,2!}=420$."
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.9",
+    "11.4.1.8"
+   ],
+   "question": "In how many ways can the letters of the word SUCCESS be arranged in a line if the two Cs are NOT adjacent?",
+   "answer": "Arrangements with the Cs together: treat $CC$ as one object, giving $\\dfrac{6!}{3!}=120$. Not adjacent $=420-120=300$."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.2"
+   ],
+   "question": "Use division of polynomials to express $P(x)$ in the form $P(x)=A(x)Q(x)+R(x)$, where $P(x)=3x^3+14x+11$ and $A(x)=x^2-3x+2$.",
+   "answer": "Dividing: $3x^3+14x+11=3x(x^2-3x+2)+(9x^2+8x+11)$, then $9x^2+8x+11=9(x^2-3x+2)+(35x-7)$. So $$3x^3+14x+11=(x^2-3x+2)(3x+9)+(35x-7).$$ *Note: the school's final line is written as $(3x+3)\\ldots+17x+5$, which is inconsistent with its own division; the correct result has $Q(x)=3x+9$ and $R(x)=35x-7$ (check at $x=1$: $P(1)=28=0+28$ ✓).*"
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "Use mathematical induction to prove that $8^n-1$ is divisible by $7$, for all integers $n\\ge1$.",
+   "answer": "**Base case** $n=1$: $8-1=7$, divisible by $7$. **Assume** true for $n=k$: $8^k-1=7M$ for some integer $M$, i.e. $8^k=7M+1$. **Prove** for $n=k+1$: $8^{k+1}-1=8\\cdot8^k-1=8(7M+1)-1=56M+7=7(8M+1)$, divisible by $7$ since $8M+1$ is an integer. Hence by induction, $8^n-1$ is divisible by $7$ for all integers $n\\ge1$."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.7",
+    "12.2.4.5"
+   ],
+   "question": "$\\mathbf a$ and $\\mathbf b$ are two non-zero vectors. Prove that the vectors $\\mathbf u$ and $\\mathbf v$ below are perpendicular to each other. $$\\mathbf u=|\\mathbf b|\\mathbf a+|\\mathbf a|\\mathbf b,\\qquad\\mathbf v=|\\mathbf b|\\mathbf a-|\\mathbf a|\\mathbf b$$",
+   "answer": "$\\mathbf u\\cdot\\mathbf v=|\\mathbf b|^2\\,\\mathbf a\\cdot\\mathbf a-|\\mathbf a||\\mathbf b|\\,\\mathbf a\\cdot\\mathbf b+|\\mathbf a||\\mathbf b|\\,\\mathbf b\\cdot\\mathbf a-|\\mathbf a|^2\\,\\mathbf b\\cdot\\mathbf b=|\\mathbf b|^2|\\mathbf a|^2-|\\mathbf a|^2|\\mathbf b|^2=0$ (using $\\mathbf a\\cdot\\mathbf a=|\\mathbf a|^2$ and $\\mathbf a\\cdot\\mathbf b=\\mathbf b\\cdot\\mathbf a$). Since $\\mathbf u\\cdot\\mathbf v=0$ and both are non-zero, they are perpendicular."
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Using the substitution $u=x-1$, or otherwise, find $\\displaystyle\\int(x+3)(x-1)^5\\,dx$.",
+   "answer": "$u=x-1$, $x+3=u+4$, $du=dx$: $\\displaystyle\\int(u+4)u^5\\,du=\\int(u^6+4u^5)\\,du=\\frac{u^7}{7}+\\frac{2u^6}{3}+C=\\frac{(x-1)^7}{7}+\\frac{2(x-1)^6}{3}+C$."
+  },
+  {
+   "ref": "Q11(f)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.1"
+   ],
+   "question": "The diagram below shows the graph of $y=f(x)$. Sketch $y=\\dfrac1{f(x)}$ over the graph in the template provided, showing all turning points, relevant coordinates, and asymptotes.",
+   "answer": "$f(x)=0$ at $x=-\\sqrt3,\\,0,\\,\\sqrt3$, so $y=\\frac1{f(x)}$ has **vertical asymptotes** $x=-\\sqrt3$, $x=0$, $x=\\sqrt3$ and the horizontal asymptote $y=0$ (as $x\\to\\pm\\infty$, $f\\to\\pm\\infty$). The turning points of $f$ give turning points of $\\frac1f$ of the opposite type: $(-1,2)\\to(-1,\\tfrac12)$ (local **minimum**) and $(1,-2)\\to(1,-\\tfrac12)$ (local **maximum**). The reciprocal has the same sign as $f$, so: for $x<-\\sqrt3$ the curve is below the axis, rising towards $0^-$ as $x\\to-\\infty$ and falling to $-\\infty$ at $x=-\\sqrt3$; for $-\\sqrt3<x<0$ it lies above the axis, from $+\\infty$ down to $(-1,\\frac12)$ and back up to $+\\infty$ at $x=0$; for $0<x<\\sqrt3$ it lies below, from $-\\infty$ up to $(1,-\\frac12)$ and down to $-\\infty$ at $x=\\sqrt3$; for $x>\\sqrt3$ it lies above, falling from $+\\infty$ towards $0^+$. (Points where $f=\\pm1$ are invariant.)",
+   "images": [
+    "assets/img/ext1-2025-caringbah/q11f.png"
+   ],
+   "answer_images": [
+    "assets/img/ext1-2025-caringbah/q11f-sol.png"
+   ]
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.4.1"
+   ],
+   "question": "Given $\\mathbf u=4\\mathbf i+3\\mathbf j$ and $\\mathbf v=3\\mathbf i+5\\mathbf j$. Find $\\mathbf u\\cdot\\mathbf v$.",
+   "answer": "$\\mathbf u\\cdot\\mathbf v=4(3)+3(5)=27$."
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "Given $\\mathbf u=4\\mathbf i+3\\mathbf j$ and $\\mathbf v=3\\mathbf i+5\\mathbf j$. Find the angle between $\\mathbf u$ and $\\mathbf v$ to the nearest degree.",
+   "answer": "$|\\mathbf u|=5$, $|\\mathbf v|=\\sqrt{34}$. $\\cos\\theta=\\dfrac{\\mathbf u\\cdot\\mathbf v}{|\\mathbf u||\\mathbf v|}=\\dfrac{27}{5\\sqrt{34}}$, so $\\theta\\approx22^\\circ$."
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.2"
+   ],
+   "question": "Given $\\cos x+\\sqrt3\\sin x=A\\cos(x-\\alpha)$, find $A$ and $\\alpha$, where $0\\le\\alpha\\le2\\pi$ and $A>0$.",
+   "answer": "$A\\cos(x-\\alpha)=A\\cos\\alpha\\cos x+A\\sin\\alpha\\sin x$, so $A\\cos\\alpha=1$ and $A\\sin\\alpha=\\sqrt3$. Then $A=\\sqrt{1+3}=2$, $\\cos\\alpha=\\frac12$, $\\sin\\alpha=\\frac{\\sqrt3}2$ (first quadrant) so $\\alpha=\\dfrac\\pi3$."
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.3"
+   ],
+   "question": "Hence, or otherwise, solve $\\cos x+\\sqrt3\\sin x=2$, $0\\le x\\le2\\pi$.",
+   "answer": "$2\\cos\\left(x-\\frac\\pi3\\right)=2\\Rightarrow\\cos\\left(x-\\frac\\pi3\\right)=1$. With $u=x-\\frac\\pi3$ and $-\\frac\\pi3\\le u\\le\\frac{5\\pi}3$: $\\cos u=1\\Rightarrow u=0$ (the value $2\\pi$ is outside the range). So $x=\\dfrac\\pi3$."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "A spherical bubble is moving up through a liquid. As it rises, the bubble gets bigger, and its radius increases at a rate of $0.3$ mm/s. At what rate is the volume of the bubble increasing when its radius reaches $0.7$ mm? Give your answer correct to one decimal place.",
+   "answer": "$V=\\frac43\\pi r^3\\Rightarrow\\dfrac{dV}{dr}=4\\pi r^2$. $\\dfrac{dV}{dt}=\\dfrac{dV}{dr}\\cdot\\dfrac{dr}{dt}=4\\pi(0.7)^2(0.3)\\approx1.8\\ \\text{mm}^3/\\text{s}$."
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "The region bounded by the curve $y=\\sqrt x$, the $y$-axis and the line $y=2$ is rotated about the $y$-axis. Calculate the exact volume of the solid of revolution.",
+   "answer": "$x=y^2$. $V=\\pi\\displaystyle\\int_0^2(y^2)^2dy=\\pi\\int_0^2y^4\\,dy=\\pi\\left[\\frac{y^5}5\\right]_0^2=\\dfrac{32\\pi}{5}$ cubic units."
+  },
+  {
+   "ref": "Q12(e)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.2.8"
+   ],
+   "question": "A factory produces computer chips. Each chip has a $2\\%$ chance of being faulty and is produced independently. The factory's quality control department tests a random sample of $100$ chips. Calculate the mean and variance of the random variable $X\\sim\\text{Bin}(100,0.02)$.",
+   "answer": "$\\mu=np=100(0.02)=2$. $\\text{Var}(X)=np(1-p)=100(0.02)(0.98)=1.96$."
+  },
+  {
+   "ref": "Q12(e)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.6"
+   ],
+   "question": "A factory produces computer chips. Each chip has a $2\\%$ chance of being faulty and is produced independently, and $X\\sim\\text{Bin}(100,0.02)$ is the number of faulty chips in a sample of $100$. Using a binomial distribution, calculate the probability that a maximum of three chips is faulty. Give your answer correct to four decimal places.",
+   "answer": "$P(X\\le3)=\\sum_{r=0}^{3}{}^{100}C_r(0.02)^r(0.98)^{100-r}\\approx0.1326+0.2707+0.2734+0.1823\\approx0.8590$ (to 4 d.p.)."
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.1.17"
+   ],
+   "question": "A four-person team is to be chosen at random from nine women and seven men. In how many ways can the team be chosen?",
+   "answer": "${}^{16}C_4=1820$."
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.19"
+   ],
+   "question": "A four-person team is to be chosen at random from nine women and seven men. What is the probability that the team will consist of $4$ men?",
+   "answer": "$P=\\dfrac{{}^7C_4}{{}^{16}C_4}=\\dfrac{35}{1820}=\\dfrac1{52}$."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.3"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^{\\pi/2}\\sin^2(3x)\\,dx$.",
+   "answer": "$\\sin^2 3x=\\frac12(1-\\cos6x)$. $\\displaystyle\\int_0^{\\pi/2}\\tfrac12(1-\\cos6x)\\,dx=\\frac12\\left[x-\\frac{\\sin6x}{6}\\right]_0^{\\pi/2}=\\frac12\\left(\\frac\\pi2-\\frac{\\sin3\\pi}{6}\\right)=\\dfrac\\pi4$."
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.3",
+    "12.2.4.5"
+   ],
+   "question": "The unit vectors $\\mathbf p$ and $\\mathbf q$ make an angle of $\\dfrac\\pi3$ with each other. Find the magnitude of $\\mathbf p-\\dfrac{\\mathbf q}2$.",
+   "answer": "$\\mathbf p\\cdot\\mathbf q=|\\mathbf p||\\mathbf q|\\cos\\frac\\pi3=\\frac12$. $\\left|\\mathbf p-\\tfrac12\\mathbf q\\right|^2=|\\mathbf p|^2-\\mathbf p\\cdot\\mathbf q+\\tfrac14|\\mathbf q|^2=1-\\tfrac12+\\tfrac14=\\tfrac34$. Hence the magnitude is $\\dfrac{\\sqrt3}2$."
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.1.2",
+    "11.3.2.1"
+   ],
+   "question": "Use mathematical induction to prove that $$\\cos x+\\cos(3x)+\\cos(5x)+\\cdots+\\cos((2n-1)x)=\\frac{\\sin(2nx)}{2\\sin x}$$ for all positive integers $n\\ge1$.",
+   "answer": "**Base case** $n=1$: RHS $=\\dfrac{\\sin2x}{2\\sin x}=\\dfrac{2\\sin x\\cos x}{2\\sin x}=\\cos x=$ LHS. **Assume** true for $n=k$: $\\cos x+\\cdots+\\cos((2k-1)x)=\\dfrac{\\sin2kx}{2\\sin x}$. **Prove** for $n=k+1$: LHS $=\\dfrac{\\sin2kx}{2\\sin x}+\\cos((2k+1)x)=\\dfrac{\\sin2kx+2\\sin x\\cos((2k+1)x)}{2\\sin x}$. Since $2\\sin A\\cos B=\\sin(A+B)-\\sin(B-A)$, we have $2\\sin x\\cos((2k+1)x)=\\sin((2k+2)x)-\\sin(2kx)$, so this equals $\\dfrac{\\sin2kx+\\sin((2k+2)x)-\\sin2kx}{2\\sin x}=\\dfrac{\\sin(2(k+1)x)}{2\\sin x}=$ RHS. Hence by induction the result holds for all integers $n\\ge1$."
+  },
+  {
+   "ref": "Q13(e)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.6.7",
+    "12.2.6.8"
+   ],
+   "question": "A student is standing in the doorway to a classroom, which has a height of $h$ metres and a width of $w$ metres. He throws a ball from a height of $1.5$ metres, at a speed of $5$ m/s with an angle of projection of $40^\\circ$. The ball just touches the ceiling before landing at the junction of the floor and the wall, as shown in the figure below. The horizontal and vertical displacements $t$ seconds after projection are $$x=5t\\cos(40^\\circ),\\qquad y=5t\\sin(40^\\circ)-5t^2+1.5$$ (do not prove these). Find the width and height of the room in metres, correct to $1$ decimal place.",
+   "answer": "**Height:** the ball touches the ceiling at its highest point, where $\\dot y=0$: $5\\sin40^\\circ-10t=0\\Rightarrow t=\\dfrac{\\sin40^\\circ}2\\approx0.321$. Then $h=5(0.321)\\sin40^\\circ-5(0.321)^2+1.5\\approx2.0$ m. **Width:** the ball lands at floor level, $y=0$: $5t^2-5t\\sin40^\\circ-1.5=0\\Rightarrow t=\\dfrac{5\\sin40^\\circ+\\sqrt{25\\sin^240^\\circ+30}}{10}\\approx0.957$ s (positive root). Then $w=5(0.957)\\cos40^\\circ\\approx3.7$ m. So the room is about $3.7$ m wide and $2.0$ m high.",
+   "images": [
+    "assets/img/ext1-2025-caringbah/q13e.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.1.7",
+    "11.5.1.6"
+   ],
+   "question": "Given that $k$ is a non-zero constant and $n$ is a positive integer, then $$(1+kx)^n=1+40x+120k^2x^2+\\cdots$$ Find the values of $k$ and $n$.",
+   "answer": "$(1+kx)^n=1+nkx+\\dfrac{n(n-1)}2k^2x^2+\\cdots$. Comparing coefficients: $nk=40$ and $\\dfrac{n(n-1)}2k^2=120k^2$. Since $k\\neq0$: $n(n-1)=240\\Rightarrow n^2-n-240=0\\Rightarrow(n-16)(n+15)=0$, so $n=16$ (positive). Then $k=\\dfrac{40}{16}=\\dfrac52$. *(The school's solution writes $n^2-n-24=0$, a slip for $-240$; the factorisation and answer are correct.)*"
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.1",
+    "11.3.2.4"
+   ],
+   "question": "It is known that $\\cos(4\\theta)=8\\cos^4\\theta-8\\cos^2\\theta+1$ (do not prove this). Find the exact values of the solutions to the equation $8x^4-8x^2+1=0$, for $0\\le\\theta\\le\\pi$.",
+   "answer": "Let $x=\\cos\\theta$, so the equation becomes $\\cos4\\theta=0$ with $0\\le\\theta\\le\\pi$ (so $0\\le4\\theta\\le4\\pi$). Then $4\\theta=\\frac\\pi2,\\frac{3\\pi}2,\\frac{5\\pi}2,\\frac{7\\pi}2$, so $\\theta=\\frac\\pi8,\\frac{3\\pi}8,\\frac{5\\pi}8,\\frac{7\\pi}8$ and the solutions are $$x=\\cos\\frac\\pi8,\\ \\cos\\frac{3\\pi}8,\\ \\cos\\frac{5\\pi}8,\\ \\cos\\frac{7\\pi}8.$$"
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.2.3.3",
+    "11.2.3.4"
+   ],
+   "question": "It is known that $\\cos(4\\theta)=8\\cos^4\\theta-8\\cos^2\\theta+1$. The four solutions of $8x^4-8x^2+1=0$ are $\\cos\\frac\\pi8,\\cos\\frac{3\\pi}8,\\cos\\frac{5\\pi}8,\\cos\\frac{7\\pi}8$. Hence, or otherwise, find the exact value of $\\cos\\dfrac\\pi8\\cos\\dfrac{3\\pi}8$.",
+   "answer": "Product of the four roots $=\\dfrac ea=\\dfrac18$. Since $\\cos\\frac{5\\pi}8=-\\cos\\frac{3\\pi}8$ and $\\cos\\frac{7\\pi}8=-\\cos\\frac\\pi8$, the product is $\\left(\\cos\\frac\\pi8\\cos\\frac{3\\pi}8\\right)^2=\\dfrac18$. Both cosines are positive, so $\\cos\\dfrac\\pi8\\cos\\dfrac{3\\pi}8=\\dfrac1{\\sqrt8}=\\dfrac1{2\\sqrt2}\\left(=\\dfrac{\\sqrt2}4\\right)$."
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Use the substitution $x=\\tan^2\\theta$, $0\\le\\theta<\\dfrac\\pi2$, to evaluate $$\\int_0^1\\frac{1-x}{\\sqrt x\\,(1+x)^2}\\,dx.$$",
+   "answer": "$dx=2\\tan\\theta\\sec^2\\theta\\,d\\theta$; $x=0\\Rightarrow\\theta=0$, $x=1\\Rightarrow\\theta=\\frac\\pi4$. $\\sqrt x=\\tan\\theta$ and $(1+x)^2=\\sec^4\\theta$. So $$\\int_0^{\\pi/4}\\frac{1-\\tan^2\\theta}{\\tan\\theta\\sec^4\\theta}\\cdot2\\tan\\theta\\sec^2\\theta\\,d\\theta=2\\int_0^{\\pi/4}\\frac{1-\\tan^2\\theta}{\\sec^2\\theta}d\\theta=2\\int_0^{\\pi/4}(\\cos^2\\theta-\\sin^2\\theta)\\,d\\theta=2\\int_0^{\\pi/4}\\cos2\\theta\\,d\\theta=\\Big[\\sin2\\theta\\Big]_0^{\\pi/4}=1.$$"
+  },
+  {
+   "ref": "Q14(d)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.3",
+    "12.5.3.2"
+   ],
+   "question": "Let $f(x)=\\sqrt{m-3x}$ for $x\\le\\dfrac m3$. The graph of $y=f(x)$ is shown below. The area enclosed by the graph $y=f(x)$, the $x$-axis and the $y$-axis is rotated about the $y$-axis. Find the value of $m$ such that the volume of the solid formed is $\\dfrac{5000\\pi}{27}$ cubic units.",
+   "answer": "$y^2=m-3x\\Rightarrow x=\\dfrac{m-y^2}3$. At $x=0$, $y=\\sqrt m$. $$V=\\pi\\int_0^{\\sqrt m}\\left(\\frac{m-y^2}3\\right)^2dy=\\frac\\pi9\\int_0^{\\sqrt m}(m^2-2my^2+y^4)\\,dy=\\frac\\pi9\\left[m^2y-\\frac{2my^3}3+\\frac{y^5}5\\right]_0^{\\sqrt m}=\\frac\\pi9\\,m^{5/2}\\left(1-\\frac23+\\frac15\\right)=\\frac{8\\pi m^{5/2}}{135}.$$ Setting $\\dfrac{8\\pi m^{5/2}}{135}=\\dfrac{5000\\pi}{27}$ gives $m^{5/2}=3125=5^5$, so $m=25$.",
+   "images": [
+    "assets/img/ext1-2025-caringbah/q14d.png"
+   ]
+  }
+ ]
+}
