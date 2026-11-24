@@ -1,0 +1,618 @@
+{
+ "id": "ext2-2025-hornsby-girls",
+ "course": "extension2",
+ "school": "Hornsby Girls",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "Hornsby Girls 2025 w. sol"
+ },
+ "indexed": "2026-11-25",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q3",
+   "reason": "No option is the logical negation: the negation of 'any flying mammal is a bat' is 'some flying mammal is not a bat', which is not offered (the school's key B is the stronger 'no flying mammal is a bat')"
+  },
+  {
+   "ref": "Q4",
+   "reason": "No option is correct as printed: the segment from (4,2,3) to (5,-4,2) has direction (1,-6,-1), but the school's key C uses (-1,6,1) from (4,2,3), which ends at (3,8,4)"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.3",
+    "12.3.2.9"
+   ],
+   "question": "Given $z=2\\left(\\cos\\dfrac\\pi3+i\\sin\\dfrac\\pi3\\right)$, the expression that equals $(\\bar z)^{-1}$ is",
+   "answer": "$\\bar z=2\\left(\\cos\\frac\\pi3-i\\sin\\frac\\pi3\\right)=2\\,\\mathrm{cis}\\left(-\\frac\\pi3\\right)$. By de Moivre's theorem, $(\\bar z)^{-1}=\\frac12\\mathrm{cis}\\left(\\frac\\pi3\\right)=\\frac12\\left(\\cos\\frac\\pi3+i\\sin\\frac\\pi3\\right)$ (C).",
+   "options": [
+    "$\\frac12\\left(\\cos\\frac\\pi3-i\\sin\\frac\\pi3\\right)$",
+    "$2\\left(\\cos\\frac\\pi3-i\\sin\\frac\\pi3\\right)$",
+    "$\\frac12\\left(\\cos\\frac\\pi3+i\\sin\\frac\\pi3\\right)$",
+    "$2\\left(\\cos\\frac\\pi3+i\\sin\\frac\\pi3\\right)$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.11"
+   ],
+   "question": "Which of the following is a primitive of $\\dfrac{\\sec^2x}{\\tan^4x}$?",
+   "answer": "$\\displaystyle\\int\\sec^2x(\\tan x)^{-4}dx=\\frac{(\\tan x)^{-3}}{-3}+C=-\\frac13\\cot^3x+C$ (B).",
+   "options": [
+    "$\\frac13\\cot^3x$",
+    "$-\\frac13\\cot^3x$",
+    "$\\frac15\\cot^5x$",
+    "$-\\frac15\\cot^5x$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.7"
+   ],
+   "question": "One of the complex solutions to $z^5=-a$, where $a$ is a positive real constant, is $a^{\\frac15}\\mathrm{cis}\\left(\\dfrac\\pi5\\right)$. One of the other solutions is a real number and is equal to",
+   "answer": "The five roots are equally spaced by $\\frac{2\\pi}{5}$. Adding $2\\times\\frac{2\\pi}5=\\frac{4\\pi}5$ to $\\frac\\pi5$ gives $\\pi$, so the real root is $a^{\\frac15}\\mathrm{cis}\\,\\pi=-a^{\\frac15}$ (B). (Indeed $(-a^{1/5})^5=-a$.)",
+   "options": [
+    "$a^{\\frac15}\\mathrm{cis}\\left(\\frac{3\\pi}5\\right)$",
+    "$-a^{\\frac15}$",
+    "$a^{\\frac15}$",
+    "$a^{\\frac15}\\mathrm{cis}\\left(\\frac{9\\pi}5\\right)$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "If $\\dfrac{4}{(2x-1)(3-x)}=\\dfrac{A}{2x-1}+\\dfrac{B}{3-x}$, then $A$ and $B$ have values of:",
+   "answer": "$4=A(3-x)+B(2x-1)$. Let $x=3$: $4=5B$, so $B=\\frac45$. Let $x=\\frac12$: $4=\\frac52A$, so $A=\\frac85$ (D).",
+   "options": [
+    "$A=-\\frac85,\\ B=\\frac45$",
+    "$A=\\frac85,\\ B=-\\frac45$",
+    "$A=-\\frac85,\\ B=-\\frac45$",
+    "$A=\\frac85,\\ B=\\frac45$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.5",
+    "12.3.1.9"
+   ],
+   "question": "If $\\omega$ is the complex cube root of unity, then the value of $\\left(1-3\\omega+\\omega^2\\right)\\left(1+\\omega-8\\omega^2\\right)$ is:",
+   "answer": "Since $1+\\omega+\\omega^2=0$: $1+\\omega^2=-\\omega$, so $1-3\\omega+\\omega^2=-4\\omega$; and $1+\\omega=-\\omega^2$, so $1+\\omega-8\\omega^2=-9\\omega^2$. The product is $36\\omega^3=36$ since $\\omega^3=1$ (D).",
+   "options": [
+    "$36\\omega^3$",
+    "$-36$",
+    "$-36\\omega^3$",
+    "$36$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.11",
+    "12.1.1.12"
+   ],
+   "question": "The sign on a fence reads \"If you are not authorised, you may not enter.\" Which of the following statements is logically equivalent to the one above?",
+   "answer": "An implication is equivalent to its contrapositive. The contrapositive of \"if not authorised then may not enter\" is \"if you may enter then you are authorised\" (A). B and D are the inverse and converse.",
+   "options": [
+    "If you may enter, then you are authorised.",
+    "If you are authorised, then you may enter.",
+    "If you are not authorised, then you may enter.",
+    "If you may not enter, then you are not authorised."
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.1.4"
+   ],
+   "question": "$P$, $Q$ and $R$ are three collinear points with position vectors $\\underset{\\sim}{p}$, $\\underset{\\sim}{q}$ and $\\underset{\\sim}{r}$ respectively, where $Q$ lies between $P$ and $R$. If $|\\overrightarrow{QR}|=\\frac12|\\overrightarrow{PQ}|$, then $\\underset{\\sim}{r}$ is equal to",
+   "answer": "$Q$ lies between $P$ and $R$, so $\\overrightarrow{QR}=\\frac12\\overrightarrow{PQ}$. Then $\\underset{\\sim}{r}=\\underset{\\sim}{q}+\\frac12\\left(\\underset{\\sim}{q}-\\underset{\\sim}{p}\\right)=\\frac32\\underset{\\sim}{q}-\\frac12\\underset{\\sim}{p}$ (A).",
+   "options": [
+    "$\\frac32q-\\frac12p$",
+    "$\\frac32p-\\frac12q$",
+    "$\\frac12p-\\frac32q$",
+    "$\\frac32q-\\frac32p$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.5",
+    "12.3.2.5"
+   ],
+   "question": "Suppose that $x+\\dfrac1x=-1$. What is the value of $x^{2025}+\\dfrac{1}{x^{2025}}$?",
+   "answer": "$x^2+x+1=0$, so $x^3-1=(x-1)(x^2+x+1)=0$ and $x^3=1$. Then $x^{2025}=\\left(x^3\\right)^{675}=1$ and $\\dfrac1{x^{2025}}=1$, so the sum is $1+1=2$ (B).",
+   "options": [
+    "1",
+    "2",
+    "$\\frac{2\\pi}{3}$",
+    "$\\frac{4\\pi}{3}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.9"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{dx}{\\sqrt{14+6x-x^2}}$.",
+   "answer": "Complete the square: $14+6x-x^2=23-(x-3)^2$. So $\\displaystyle\\int\\frac{dx}{\\sqrt{23-(x-3)^2}}=\\sin^{-1}\\left(\\frac{x-3}{\\sqrt{23}}\\right)+C$."
+  },
+  {
+   "ref": "Q11(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.4"
+   ],
+   "question": "Express $-1+\\sqrt3\\,i$ in modulus-argument form.",
+   "answer": "$|{-1}+\\sqrt3 i|=\\sqrt{1+3}=2$. The point is in the second quadrant with $\\tan^{-1}\\left(\\frac{\\sqrt3}{1}\\right)=\\frac\\pi3$ as the related angle, so $\\arg=\\pi-\\frac\\pi3=\\frac{2\\pi}3$. Hence $-1+\\sqrt3i=2\\,\\mathrm{cis}\\left(\\frac{2\\pi}3\\right)$."
+  },
+  {
+   "ref": "Q11(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "Given $-1+\\sqrt3\\,i=2\\,\\mathrm{cis}\\left(\\frac{2\\pi}3\\right)$, evaluate $\\left(-1+\\sqrt3\\,i\\right)^{-6}$.",
+   "answer": "By de Moivre's theorem, $\\left(2\\,\\mathrm{cis}\\frac{2\\pi}3\\right)^{-6}=2^{-6}\\mathrm{cis}(-4\\pi)=\\dfrac1{64}\\left(\\cos4\\pi-i\\sin4\\pi\\right)=\\dfrac1{64}$."
+  },
+  {
+   "ref": "Q11(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.3",
+    "12.1.2.1"
+   ],
+   "question": "State whether $\\left(-1+\\sqrt3\\,i\\right)^n$, $n\\in\\mathbb Z$, is purely imaginary. Justify.",
+   "answer": "It is never purely imaginary. $\\left(-1+\\sqrt3i\\right)^n=2^n\\mathrm{cis}\\left(\\frac{2n\\pi}3\\right)$. For this to be purely imaginary we need $\\frac{2n\\pi}3=\\frac{(2k+1)\\pi}2$ for some integer $k$, i.e. $4n=3(2k+1)$, so $4n=6k+3$. The left side is even and the right side is odd, which is impossible for integers $n$ and $k$. Hence $\\left(-1+\\sqrt3i\\right)^n$ is not purely imaginary for any integer $n$."
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.6"
+   ],
+   "question": "Express $e^{1-\\frac{i\\pi}{6}}$ in Cartesian form.",
+   "answer": "$e^{1-\\frac{i\\pi}6}=e\\cdot e^{-\\frac{i\\pi}6}=e\\left(\\cos\\frac\\pi6-i\\sin\\frac\\pi6\\right)=e\\left(\\frac{\\sqrt3}2-\\frac12i\\right)=\\dfrac e2\\left(\\sqrt3-i\\right)$."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.2"
+   ],
+   "question": "Consider the following statements about a polynomial $P(x)$. (i) If $P(x)$ is even, then $P'(x)$ is odd. (ii) If $P'(x)$ is even, then $P(x)$ is odd. Indicate whether each of these statements is true or false. Give reasons for your answers.",
+   "answer": "(i) True. If $P(x)$ is even, it contains only even powers: $P(x)=a_nx^{2n}+a_{n-1}x^{2n-2}+\\cdots+a_2x^2+a_0$. Then $P'(x)=2na_nx^{2n-1}+(2n-2)a_{n-1}x^{2n-3}+\\cdots+2a_2x$ has only odd powers, so $P'(x)$ is odd.\\n\\n(ii) False. If $P'(x)$ is even, then $P(x)$ is a sum of odd powers plus a constant of integration $C$. The constant (an even term) need not be zero. Counterexample: $P(x)=x^3+1$ has $P'(x)=3x^2$ (even), but $P(-x)=-x^3+1\\neq-P(x)$, so $P$ is not odd."
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.5"
+   ],
+   "question": "Use the substitution $t=\\tan\\dfrac x2$ to find $\\displaystyle\\int\\frac{15}{17+8\\cos x}\\,dx$.",
+   "answer": "With $\\cos x=\\dfrac{1-t^2}{1+t^2}$ and $dx=\\dfrac{2\\,dt}{1+t^2}$: $\\displaystyle\\int\\frac{15}{17+8\\cos x}dx=\\int\\frac{15\\cdot2}{17(1+t^2)+8(1-t^2)}dt=\\int\\frac{30}{25+9t^2}dt=\\frac{30}{9}\\int\\frac{dt}{t^2+\\frac{25}9}$. This is $\\dfrac{30}{9}\\cdot\\dfrac35\\tan^{-1}\\left(\\dfrac{3t}5\\right)=2\\tan^{-1}\\left(\\dfrac{3t}{5}\\right)+C$. So the integral is $2\\tan^{-1}\\left(\\dfrac35\\tan\\dfrac x2\\right)+C$."
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.9"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{2x-5}{x^2+2x+2}\\,dx$.",
+   "answer": "Write $2x-5=(2x+2)-7$. Then $\\displaystyle\\int\\frac{2x+2}{x^2+2x+2}dx-7\\int\\frac{dx}{(x+1)^2+1}=\\ln\\left(x^2+2x+2\\right)-7\\tan^{-1}(x+1)+C$."
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Find $\\displaystyle\\int x^3\\sqrt{4-x^2}\\,dx$.",
+   "answer": "Let $u=4-x^2$, so $x^2=4-u$ and $x\\,dx=-\\frac12du$. Then $\\displaystyle\\int x^2\\sqrt{4-x^2}\\,x\\,dx=-\\frac12\\int(4-u)u^{1/2}du=-\\frac12\\left(\\frac83u^{3/2}-\\frac25u^{5/2}\\right)+C=-\\frac43u^{3/2}+\\frac15u^{5/2}+C$. So the integral is $-\\frac43(4-x^2)^{3/2}+\\frac15(4-x^2)^{5/2}+C$."
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.1",
+    "12.2.2.5"
+   ],
+   "question": "The vertices of a triangle $ABC$ are defined by the position vectors $\\overrightarrow{OA}=\\begin{pmatrix}1\\\\-6\\\\-2\\end{pmatrix}$, $\\overrightarrow{OB}=\\begin{pmatrix}0\\\\-4\\\\-1\\end{pmatrix}$ and $\\overrightarrow{OC}=\\begin{pmatrix}3\\\\-4\\\\2\\end{pmatrix}$. Show that $\\cos\\angle BAC=\\dfrac12$.",
+   "answer": "$\\overrightarrow{AB}=\\begin{pmatrix}-1\\\\2\\\\1\\end{pmatrix}$, $\\overrightarrow{AC}=\\begin{pmatrix}2\\\\2\\\\4\\end{pmatrix}$. $|\\overrightarrow{AB}|=\\sqrt6$, $|\\overrightarrow{AC}|=\\sqrt{24}=2\\sqrt6$, $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=-2+4+4=6$. So $\\cos\\angle BAC=\\dfrac{6}{\\sqrt6\\cdot2\\sqrt6}=\\dfrac{6}{12}=\\dfrac12$."
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "In triangle $ABC$ with $A(1,-6,-2)$, $B(0,-4,-1)$, $C(3,-4,2)$, $AB=\\sqrt6$, $AC=2\\sqrt6$ and $\\cos\\angle BAC=\\frac12$. Hence find the exact area of triangle $ABC$.",
+   "answer": "$\\angle BAC=60^\\circ$. Area $=\\frac12(AB)(AC)\\sin60^\\circ=\\frac12\\cdot\\sqrt6\\cdot2\\sqrt6\\cdot\\frac{\\sqrt3}2=3\\sqrt3$ square units."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.1.3"
+   ],
+   "question": "Consider the point $P(2,1,-6)$ and the line $L$ with equation $\\underset{\\sim}{r}=\\begin{pmatrix}-1\\\\2\\\\1\\end{pmatrix}+t\\begin{pmatrix}1\\\\3\\\\2\\end{pmatrix}$. Find the shortest distance from the point $P$ to the line.",
+   "answer": "A general point on $L$ is $A(-1+t,\\,2+3t,\\,1+2t)$, so $\\overrightarrow{PA}=\\begin{pmatrix}t-3\\\\3t+1\\\\2t+7\\end{pmatrix}$. The shortest distance occurs when $\\overrightarrow{PA}\\perp$ the direction $\\begin{pmatrix}1\\\\3\\\\2\\end{pmatrix}$: $(t-3)+3(3t+1)+2(2t+7)=14t+14=0$, so $t=-1$. Then $\\overrightarrow{PA}=\\begin{pmatrix}-4\\\\-2\\\\5\\end{pmatrix}$ and the distance is $\\sqrt{16+4+25}=\\sqrt{45}=3\\sqrt5$ units."
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.3.2"
+   ],
+   "question": "Prove by contradiction that if $a$ and $b$ are both positive integers then $\\dfrac ab+\\dfrac ba\\ge2$.",
+   "answer": "Suppose, for contradiction, that $a,b$ are positive integers with $\\dfrac ab+\\dfrac ba<2$. Multiplying by $ab>0$: $a^2+b^2<2ab$, so $a^2-2ab+b^2<0$, i.e. $(a-b)^2<0$. This is impossible since the square of a real number is never negative. Hence the assumption is false, and $\\dfrac ab+\\dfrac ba\\ge2$."
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.6"
+   ],
+   "question": "The line $L_1$ has vector equation $\\underset{\\sim}{r}_1=6\\underset{\\sim}{i}+5\\underset{\\sim}{j}+7\\underset{\\sim}{k}+\\lambda\\left(3\\underset{\\sim}{i}+4\\underset{\\sim}{j}+5\\underset{\\sim}{k}\\right)$. The line $L_2$ has vector equation $\\underset{\\sim}{r}_2=7\\underset{\\sim}{i}+3\\underset{\\sim}{j}+4\\underset{\\sim}{k}+\\mu\\left(2\\underset{\\sim}{i}+\\underset{\\sim}{j}+\\underset{\\sim}{k}\\right)$. Determine whether the two lines are parallel.",
+   "answer": "The direction vectors $(3,4,5)$ and $(2,1,1)$ are not scalar multiples of each other, so the lines are not parallel."
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.9",
+    "12.2.1.10"
+   ],
+   "question": "The line $L_1$ is $\\underset{\\sim}{r}_1=(6,5,7)+\\lambda(3,4,5)$ and $L_2$ is $\\underset{\\sim}{r}_2=(7,3,4)+\\mu(2,1,1)$. Determine whether the two lines intersect and, if so, where they intersect.",
+   "answer": "Equate components: $6+3\\lambda=7+2\\mu$, $5+4\\lambda=3+\\mu$, $7+5\\lambda=4+\\mu$. From the last two: $\\mu=4\\lambda+2=5\\lambda+3$, so $\\lambda=-1$ and $\\mu=-2$. Check in the first: $6-3=3$ and $7-4=3$ ✓. The lines intersect at $(3,1,2)$."
+  },
+  {
+   "ref": "Q13(a)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.11"
+   ],
+   "question": "The line $L_1$ is $(6,5,7)+\\lambda(3,4,5)$ and $L_2$ is $(7,3,4)+\\mu(2,1,1)$, and they intersect at $(3,1,2)$. Determine whether the two lines are skew.",
+   "answer": "Skew lines are not parallel and do not intersect. These lines intersect, so they are not skew."
+  },
+  {
+   "ref": "Q13(a)(iv)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "The line $L_1$ has direction $(3,4,5)$ and $L_2$ has direction $(2,1,1)$. Determine whether the two lines are perpendicular.",
+   "answer": "$(3,4,5)\\cdot(2,1,1)=6+4+5=15\\neq0$, so the lines are not perpendicular."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.13",
+    "12.4.1.11"
+   ],
+   "question": "Find $\\displaystyle\\int\\sec^3x\\,dx$.",
+   "answer": "Integrate by parts with $u=\\sec x$, $dv=\\sec^2x\\,dx$: $\\displaystyle\\int\\sec^3x\\,dx=\\sec x\\tan x-\\int\\sec x\\tan^2x\\,dx=\\sec x\\tan x-\\int\\sec x(\\sec^2x-1)dx=\\sec x\\tan x-\\int\\sec^3x\\,dx+\\int\\sec x\\,dx$. So $2\\int\\sec^3x\\,dx=\\sec x\\tan x+\\ln|\\sec x+\\tan x|$ and $\\displaystyle\\int\\sec^3x\\,dx=\\frac12\\left(\\sec x\\tan x+\\ln|\\sec x+\\tan x|\\right)+C$."
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.5",
+    "12.3.5.4"
+   ],
+   "question": "Sketch the region where the inequalities $-\\dfrac\\pi2\\le\\arg(z-1-2i)\\le\\dfrac\\pi4$ and $|z|\\le\\sqrt5$ both hold.",
+   "answer": "$\\arg(z-(1+2i))$ is the angle of the ray from the point $(1,2)$. The condition $-\\frac\\pi2\\le\\arg\\le\\frac\\pi4$ describes the sector between the downward vertical ray from $(1,2)$ and the ray at $45^\\circ$ above the horizontal (the line $y=x+1$), i.e. the region with $x\\ge1$ and $y\\le x+1$. The condition $|z|\\le\\sqrt5$ is the disc of radius $\\sqrt5$ centred at the origin; $(1,2)$ lies on its boundary. The $45^\\circ$ ray immediately leaves the disc, so the region is the part of the disc to the right of the line $x=1$ (a circular segment, bounded by the chord from $(1,-2)$ to $(1,2)$ and the arc through $(\\sqrt5,0)$). See the diagram.",
+   "answer_images": [
+    "assets/img/ext2-2025-hornsby-girls/q13c-sol.png"
+   ]
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.8",
+    "12.1.1.9",
+    "12.1.2.3"
+   ],
+   "question": "Let $P$ be the proposition: if $k+1$ is divisible by 3, then $k^3+1$ is divisible by 3, $k\\in\\mathbb Z^+$. Write down the converse of the proposition $P$ and state, with reasons, whether this converse is true or false.",
+   "answer": "Converse: if $k^3+1$ is divisible by 3, then $k+1$ is divisible by 3. This is true. Since $k^3+1=(k+1)\\left(k^2-k+1\\right)$, consider $k$ modulo 3. If $k\\equiv0$: $k^3+1\\equiv1$; if $k\\equiv1$: $k^3+1\\equiv2$; if $k\\equiv2$: $k^3+1\\equiv9\\equiv0$ and $k+1\\equiv0$. So $k^3+1$ is divisible by 3 only when $k\\equiv2\\pmod3$, i.e. exactly when $k+1$ is divisible by 3. Hence the converse is true."
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.5"
+   ],
+   "question": "Given that $a_{n+1}=\\sqrt{2a_n}$ and $a_1=1$, prove by mathematical induction that for all integers $n\\ge1$, $a_n=2^{\\left(1-2^{(1-n)}\\right)}$.",
+   "answer": "**Step 1** ($n=1$): $a_1=2^{1-2^0}=2^0=1$, which agrees with $a_1=1$. True for $n=1$.\\n\\n**Step 2:** Assume true for $n=k$: $a_k=2^{1-2^{1-k}}$.\\n\\n**Step 3:** Prove for $n=k+1$, i.e. $a_{k+1}=2^{1-2^{-k}}$. $a_{k+1}=\\sqrt{2a_k}=\\left(2\\cdot2^{1-2^{1-k}}\\right)^{\\frac12}=\\left(2^{2-2^{1-k}}\\right)^{\\frac12}=2^{1-\\frac12\\cdot2^{1-k}}=2^{1-2^{-k}}=2^{1-2^{1-(k+1)}}$.\\n\\n**Step 4:** True for $n=1$, and if true for $n=k$ then true for $n=k+1$, so by mathematical induction it is true for all integers $n\\ge1$."
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.11"
+   ],
+   "question": "Find $\\displaystyle\\int\\cos^5x\\,dx$.",
+   "answer": "$\\cos^5x=\\cos x\\left(1-\\sin^2x\\right)^2$. Let $u=\\sin x$: $\\displaystyle\\int\\left(1-u^2\\right)^2du=\\int\\left(1-2u^2+u^4\\right)du=u-\\frac23u^3+\\frac15u^5+C$. So $\\displaystyle\\int\\cos^5x\\,dx=\\sin x-\\frac23\\sin^3x+\\frac15\\sin^5x+C$."
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.17",
+    "12.2.1.18"
+   ],
+   "question": "Find the points of intersection of the line $\\underset{\\sim}{r}=t\\left(4\\underset{\\sim}{i}-2\\underset{\\sim}{j}-5\\underset{\\sim}{k}\\right)$ and the sphere which has equation $x^2+y^2+z^2=90$.",
+   "answer": "On the line, $x=4t$, $y=-2t$, $z=-5t$. Substituting: $16t^2+4t^2+25t^2=90$, so $45t^2=90$ and $t=\\pm\\sqrt2$. The points of intersection are $\\left(4\\sqrt2,\\,-2\\sqrt2,\\,-5\\sqrt2\\right)$ and $\\left(-4\\sqrt2,\\,2\\sqrt2,\\,5\\sqrt2\\right)$."
+  },
+  {
+   "ref": "Q14(d)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14",
+    "12.4.1.15"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^{\\pi/4}\\tan^nx\\,dx$, where $n$ is an integer and $n\\ge3$. Show that $I_n+I_{n-2}=\\dfrac1{n-1}$.",
+   "answer": "$I_n+I_{n-2}=\\displaystyle\\int_0^{\\pi/4}\\tan^{n-2}x\\left(\\tan^2x+1\\right)dx=\\int_0^{\\pi/4}\\tan^{n-2}x\\sec^2x\\,dx=\\left[\\frac{\\tan^{n-1}x}{n-1}\\right]_0^{\\pi/4}=\\frac1{n-1}-0=\\frac1{n-1}$."
+  },
+  {
+   "ref": "Q14(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^{\\pi/4}\\tan^nx\\,dx$ and $I_n+I_{n-2}=\\dfrac1{n-1}$ for $n\\ge3$. Hence evaluate $I_5$.",
+   "answer": "$I_5+I_3=\\frac14$ and $I_3+I_1=\\frac12$. Subtracting: $I_5=\\frac14-\\frac12+I_1=-\\frac14+I_1$. $I_1=\\displaystyle\\int_0^{\\pi/4}\\tan x\\,dx=\\left[\\ln|\\sec x|\\right]_0^{\\pi/4}=\\ln\\sqrt2=\\frac12\\ln2$. So $I_5=\\dfrac12\\ln2-\\dfrac14$."
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.7",
+    "12.4.1.8"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{x}{(2x+1)(x-3)^2}\\,dx$.",
+   "answer": "Let $\\dfrac{x}{(2x+1)(x-3)^2}=\\dfrac{A}{2x+1}+\\dfrac{B}{x-3}+\\dfrac{C}{(x-3)^2}$, so $x=A(x-3)^2+B(2x+1)(x-3)+C(2x+1)$. Let $x=3$: $3=7C$, so $C=\\frac37$. Let $x=-\\frac12$: $-\\frac12=\\frac{49}4A$, so $A=-\\frac2{49}$. Comparing $x^2$ coefficients: $0=A+2B$, so $B=\\frac1{49}$. Then $\\displaystyle\\int\\left(-\\frac{2}{49(2x+1)}+\\frac{1}{49(x-3)}+\\frac{3}{7(x-3)^2}\\right)dx=-\\frac1{49}\\ln|2x+1|+\\frac1{49}\\ln|x-3|-\\frac{3}{7(x-3)}+C$, i.e. $\\dfrac1{49}\\ln\\left|\\dfrac{x-3}{2x+1}\\right|-\\dfrac3{7(x-3)}+C$."
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.4"
+   ],
+   "question": "Find an expression for $\\cot2\\theta$ in terms of $\\tan\\theta$.",
+   "answer": "$\\tan2\\theta=\\dfrac{2\\tan\\theta}{1-\\tan^2\\theta}$, so $\\cot2\\theta=\\dfrac{1-\\tan^2\\theta}{2\\tan\\theta}$."
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "Show that $\\tan\\theta$ and $-\\cot\\theta$ satisfy the equation $x^2+2x\\cot2\\theta-1=0$.",
+   "answer": "The sum of the two numbers is $\\tan\\theta-\\cot\\theta=\\dfrac{\\tan^2\\theta-1}{\\tan\\theta}=-2\\cdot\\dfrac{1-\\tan^2\\theta}{2\\tan\\theta}=-2\\cot2\\theta$, and their product is $\\tan\\theta\\cdot(-\\cot\\theta)=-1$. A quadratic with sum of roots $-2\\cot2\\theta$ and product $-1$ is $x^2-(\\text{sum})x+\\text{product}=x^2+2x\\cot2\\theta-1=0$. So $\\tan\\theta$ and $-\\cot\\theta$ are its roots."
+  },
+  {
+   "ref": "Q15(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "Given that $\\tan\\theta$ and $-\\cot\\theta$ satisfy $x^2+2x\\cot2\\theta-1=0$, hence, or otherwise, find the exact value of $\\tan\\dfrac\\pi8$.",
+   "answer": "Let $\\theta=\\frac\\pi8$: $x^2+2x\\cot\\frac\\pi4-1=0$, i.e. $x^2+2x-1=0$. Then $(x+1)^2=2$ and $x=-1\\pm\\sqrt2$. $\\tan\\frac\\pi8>0$ and $-\\cot\\frac\\pi8<0$ are the two roots, so $\\tan\\frac\\pi8=\\sqrt2-1$ (and $-\\cot\\frac\\pi8=-\\sqrt2-1$)."
+  },
+  {
+   "ref": "Q15(b)(iv)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "Using $\\tan\\theta$ and $-\\cot\\theta$ as roots of $x^2+2x\\cot2\\theta-1=0$ and $\\cot\\dfrac\\pi8=\\sqrt2+1$, hence find the exact value of $\\tan\\dfrac\\pi{16}-\\cot\\dfrac\\pi{16}$.",
+   "answer": "With $\\theta=\\frac\\pi{16}$, the roots of $x^2+2x\\cot\\frac\\pi8-1=0$ are $\\tan\\frac\\pi{16}$ and $-\\cot\\frac\\pi{16}$. Their sum is $\\tan\\frac\\pi{16}-\\cot\\frac\\pi{16}=-2\\cot\\frac\\pi8=-2\\left(\\sqrt2+1\\right)=-2\\sqrt2-2$."
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.4",
+    "12.2.2.5"
+   ],
+   "question": "In $\\triangle OAB$, $BC$ is the altitude from $B$ to $OA$ and $AD$ is the altitude from $A$ to $OB$. $M$ and $N$ are the midpoints of $OA$ and $OB$ respectively. $\\overrightarrow{OA}=\\underset{\\sim}{a}$ and $\\overrightarrow{OB}=\\underset{\\sim}{b}$. Use vector methods to show that $|\\overrightarrow{OM}||\\overrightarrow{OC}|=|\\overrightarrow{ON}||\\overrightarrow{OD}|$.",
+   "answer": "$\\overrightarrow{OC}$ is the projection of $\\underset{\\sim}{b}$ onto $\\underset{\\sim}{a}$, so $|\\overrightarrow{OC}|=\\dfrac{\\underset{\\sim}{a}\\cdot\\underset{\\sim}{b}}{|\\underset{\\sim}{a}|}$ (for an acute angle $O$). Also $|\\overrightarrow{OM}|=\\frac12|\\underset{\\sim}{a}|$. Hence $|\\overrightarrow{OM}||\\overrightarrow{OC}|=\\frac12|\\underset{\\sim}{a}|\\cdot\\dfrac{\\underset{\\sim}{a}\\cdot\\underset{\\sim}{b}}{|\\underset{\\sim}{a}|}=\\frac12\\,\\underset{\\sim}{a}\\cdot\\underset{\\sim}{b}$. Similarly $\\overrightarrow{OD}$ is the projection of $\\underset{\\sim}{a}$ onto $\\underset{\\sim}{b}$, so $|\\overrightarrow{OD}|=\\dfrac{\\underset{\\sim}{a}\\cdot\\underset{\\sim}{b}}{|\\underset{\\sim}{b}|}$ and $|\\overrightarrow{ON}|=\\frac12|\\underset{\\sim}{b}|$, giving $|\\overrightarrow{ON}||\\overrightarrow{OD}|=\\frac12\\underset{\\sim}{a}\\cdot\\underset{\\sim}{b}$. The two products are equal.",
+   "images": [
+    "assets/img/ext2-2025-hornsby-girls/q15c.png"
+   ]
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.4",
+    "12.2.2.5"
+   ],
+   "question": "In $\\triangle OAB$, the altitudes $BC$ (from $B$ to $OA$) and $AD$ (from $A$ to $OB$) meet at $E$. A line drawn from $O$ passes through $E$ to meet the side $BA$ at point $F$. By letting $\\overrightarrow{OE}=\\underset{\\sim}{e}$, prove that $\\overrightarrow{OF}\\perp\\overrightarrow{BA}$.",
+   "answer": "$BE\\perp OA$, so $\\left(\\underset{\\sim}{e}-\\underset{\\sim}{b}\\right)\\cdot\\underset{\\sim}{a}=0$, giving $\\underset{\\sim}{e}\\cdot\\underset{\\sim}{a}=\\underset{\\sim}{a}\\cdot\\underset{\\sim}{b}$. $AE\\perp OB$, so $\\left(\\underset{\\sim}{e}-\\underset{\\sim}{a}\\right)\\cdot\\underset{\\sim}{b}=0$, giving $\\underset{\\sim}{e}\\cdot\\underset{\\sim}{b}=\\underset{\\sim}{a}\\cdot\\underset{\\sim}{b}$. Hence $\\underset{\\sim}{e}\\cdot\\underset{\\sim}{a}=\\underset{\\sim}{e}\\cdot\\underset{\\sim}{b}$, so $\\underset{\\sim}{e}\\cdot\\left(\\underset{\\sim}{b}-\\underset{\\sim}{a}\\right)=0$, i.e. $\\overrightarrow{OE}\\perp\\overrightarrow{AB}$. Since $O$, $E$, $F$ are collinear, $\\overrightarrow{OF}$ is parallel to $\\overrightarrow{OE}$, so $\\overrightarrow{OF}\\perp\\overrightarrow{BA}$.",
+   "images": [
+    "assets/img/ext2-2025-hornsby-girls/q15c.png"
+   ]
+  },
+  {
+   "ref": "Q16(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.2"
+   ],
+   "question": "Using mathematical induction, prove that for $n\\ge2$, where $n$ is an integer, $1+\\dfrac12+\\dfrac13+\\cdots+\\dfrac1n>\\dfrac{2n}{n+1}$.",
+   "answer": "**Step 1** ($n=2$): LHS $=1+\\frac12=\\frac32$ and RHS $=\\frac43$. Since $\\frac32>\\frac43$, true for $n=2$.\\n\\n**Step 2:** Assume true for $n=k$ ($k\\ge2$): $1+\\frac12+\\cdots+\\frac1k>\\frac{2k}{k+1}$.\\n\\n**Step 3:** Prove for $n=k+1$: $1+\\cdots+\\frac1k+\\frac1{k+1}>\\frac{2k}{k+1}+\\frac1{k+1}=\\frac{2k+1}{k+1}$ (by the assumption). It remains to show $\\frac{2k+1}{k+1}\\ge\\frac{2(k+1)}{k+2}$: $(2k+1)(k+2)-2(k+1)^2=2k^2+5k+2-2k^2-4k-2=k>0$, so $\\frac{2k+1}{k+1}>\\frac{2(k+1)}{k+2}$. Hence the sum $>\\frac{2(k+1)}{(k+1)+1}$.\\n\\n**Step 4:** By mathematical induction the result is true for all integers $n\\ge2$."
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.2",
+    "12.1.3.1"
+   ],
+   "question": "For positive real numbers $a,b$ and $c$, where $a\\ne b\\ne c$, prove $a^3+b^3>ab(a+b)$.",
+   "answer": "$a^3+b^3-ab(a+b)=a^3+b^3-a^2b-ab^2=a^2(a-b)-b^2(a-b)=(a-b)\\left(a^2-b^2\\right)=(a-b)^2(a+b)$. Since $a\\neq b$, $(a-b)^2>0$, and $a+b>0$, so the expression is positive. Hence $a^3+b^3>ab(a+b)$."
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "For positive real numbers $a,b$ and $c$ with $a\\ne b\\ne c$, given $a^3+b^3>ab(a+b)$ (and similarly for the other pairs), hence or otherwise prove that $2\\left(a^3+b^3+c^3\\right)>a^2(b+c)+b^2(a+c)+c^2(a+b)$.",
+   "answer": "Applying the result to each pair: $a^3+b^3>a^2b+ab^2$, $b^3+c^3>b^2c+bc^2$ and $a^3+c^3>a^2c+ac^2$. Adding: $2\\left(a^3+b^3+c^3\\right)>a^2b+ab^2+b^2c+bc^2+a^2c+ac^2=a^2(b+c)+b^2(a+c)+c^2(a+b)$."
+  },
+  {
+   "ref": "Q16(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "The function $F(p)$ is defined as $F(p)=\\displaystyle\\lim_{t\\to\\infty}\\int_0^tx^{p-1}e^{-x}\\,dx$, for $p>0$. Show that $F(1)=1$.",
+   "answer": "$F(1)=\\displaystyle\\lim_{t\\to\\infty}\\int_0^te^{-x}dx=\\lim_{t\\to\\infty}\\left[-e^{-x}\\right]_0^t=\\lim_{t\\to\\infty}\\left(1-e^{-t}\\right)=1$."
+  },
+  {
+   "ref": "Q16(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.12",
+    "12.4.1.14"
+   ],
+   "question": "The function $F(p)$ is defined as $F(p)=\\displaystyle\\lim_{t\\to\\infty}\\int_0^tx^{p-1}e^{-x}\\,dx$, for $p>0$. Use integration by parts to show that $F(p+1)=p\\times F(p)$.",
+   "answer": "$F(p+1)=\\displaystyle\\lim_{t\\to\\infty}\\int_0^tx^pe^{-x}dx$. By parts with $u=x^p$, $dv=e^{-x}dx$: $\\displaystyle\\int_0^tx^pe^{-x}dx=\\left[-x^pe^{-x}\\right]_0^t+p\\int_0^tx^{p-1}e^{-x}dx=-t^pe^{-t}+p\\int_0^tx^{p-1}e^{-x}dx$. As $t\\to\\infty$, $t^pe^{-t}\\to0$ (the exponential dominates), so $F(p+1)=p\\,F(p)$."
+  },
+  {
+   "ref": "Q16(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14",
+    "12.1.4.3"
+   ],
+   "question": "Given $F(1)=1$ and $F(p+1)=p\\,F(p)$, where $F(p)=\\displaystyle\\lim_{t\\to\\infty}\\int_0^tx^{p-1}e^{-x}dx$, hence find $F(n)$ for integers $n\\ge1$.",
+   "answer": "$F(2)=1\\cdot F(1)=1$, $F(3)=2F(2)=2$, $F(4)=3F(3)=6$, and in general $F(n+1)=nF(n)$, so $F(n)=(n-1)(n-2)\\cdots2\\cdot1\\cdot F(1)=(n-1)!$. (This is proved formally by induction on $n$.)"
+  }
+ ]
+}
