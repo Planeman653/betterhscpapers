@@ -9,7 +9,7 @@
   const DIFF = ["", "Easy", "Moderate", "Medium", "Hard", "Very hard"];
   const toast = (m) => { const t = $("toast"); t.textContent = m; t.style.display = "block"; clearTimeout(toast.t); toast.t = setTimeout(() => (t.style.display = "none"), 2600); };
   const cache = {}, syl = {};
-  const F = { search: "", diff: new Set([1, 2, 3, 4, 5]), kinds: new Set(["mc", "written"]), show: "all", sel: new Set() };   // sel holds "course|dotpoint"
+  const F = { strict: false, search: "", diff: new Set([1, 2, 3, 4, 5]), kinds: new Set(["mc", "written"]), show: "all", sel: new Set() };   // sel holds "course|dotpoint"
   const isDone = (q) => !!(A.progress && A.progress.done && A.progress.done[q.id]);
   const hay = (q) => (q._h = q._h || (String(q.question) + " " + (q.options || []).join(" ") + " " + (q._src || "") + " " + (q.ref || "")).toLowerCase());
   function passes(q, skipCourse, skipTopic, skipShow) {
@@ -18,6 +18,7 @@
     if (F.search) for (const w of F.search.split(/\s+/)) if (w && !hay(q).includes(w)) return false;
     if (!skipShow && F.show !== "all" && isDone(q) !== (F.show === "done")) return false;
     if (!skipTopic && F.sel.size && !(q.dotpoints || []).some((d) => F.sel.has(q.course + "|" + d))) return false;
+    if (!skipTopic && F.sel.size && F.strict && !(q.dotpoints || []).every((d) => F.sel.has(q.course + "|" + d))) return false;
     return true;
   }
   const visible = () => Q.filter((q) => passes(q));
@@ -278,6 +279,7 @@
       const k = e.target.dataset.dp; if (!k) return;
       e.target.checked ? F.sel.add(k) : F.sel.delete(k); draw();
     });
+    $("strict-dp").addEventListener("change", (e) => { F.strict = e.target.checked; draw(); });
     $("clear-topics").addEventListener("click", () => { F.sel.clear(); draw(); });
     $("reset").addEventListener("click", () => {
       F.search = ""; $("search").value = ""; F.diff = new Set([1, 2, 3, 4, 5]); F.kinds = new Set(["mc", "written"]); F.show = "all"; F.sel.clear(); filter = "";

@@ -29,6 +29,7 @@
     group: "subtopic",
     showAnswers: store.get("showAnswers", false),
     hideEmpty: true,
+    strictDp: store.get("strictDp", false),
     basket: new Set(store.get("basket:" + COURSE, [])),
     opened: new Set(),                    // per-question answers opened manually
     prevOpen: new Set(),                  // per-question "previous parts" opened
@@ -143,6 +144,7 @@
     if (!passesNonTopic(q)) return false;
     if (A.user && S.savedOnly && !isSaved(q.id)) return false;
     if (S.sel.size && !q.dotpoints.some((d) => S.sel.has(d))) return false;
+    if (S.sel.size && S.strictDp && !q.dotpoints.every((d) => S.sel.has(d))) return false;
     return true;
   }
   function passes(q) {
@@ -624,6 +626,8 @@
     $("answers").checked = S.showAnswers;
     $("answers").addEventListener("change", (e) => { S.showAnswers = e.target.checked; store.set("showAnswers", S.showAnswers); refresh(); });
     $("hide-empty").addEventListener("change", (e) => { S.hideEmpty = e.target.checked; buildTree(); });
+    $("strict-dp").checked = S.strictDp;
+    $("strict-dp").addEventListener("change", (e) => { S.strictDp = e.target.checked; store.set("strictDp", S.strictDp); refresh(true); });
     $("clear-topics").addEventListener("click", () => { S.sel.clear(); refresh(true); });
     $("reset").addEventListener("click", () => {
       S.sel.clear(); S.papers.clear(); S.diff = new Set([1, 2, 3, 4, 5]); S.kinds = new Set(["mc", "written"]); S.search = ""; $("search").value = "";

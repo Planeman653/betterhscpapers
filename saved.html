@@ -50,7 +50,8 @@
     <option value="syllabus">Syllabus order</option><option value="recent">Recently saved</option><option value="oldest">Oldest saved</option>
     <option value="easy">Easiest first</option><option value="hard">Hardest first</option><option value="marks-high">Most marks</option><option value="marks-low">Fewest marks</option><option value="paper">Source paper</option></select>
   <div class="panel-title" style="display:flex;align-items:center;gap:8px">Topics &amp; dot points <span style="flex:1"></span><button class="linkish" id="clear-topics" type="button">clear</button></div>
-  <div class="tree" id="tree"></div>
+  <label class="switch" style="font-size:13px;margin-bottom:6px" title="With dot points selected, hide questions that also test other dot points"><input type="checkbox" id="strict-dp"> Hide questions with unselected dot points</label>
+    <div class="tree" id="tree"></div>
   <div style="margin-top:14px"><button class="btn" id="reset" type="button">Reset all filters</button></div>
 </aside>
 <main class="admin saved-page main">
