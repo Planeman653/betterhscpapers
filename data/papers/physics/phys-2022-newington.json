@@ -1,0 +1,822 @@
+{
+ "id": "phys-2022-newington",
+ "course": "physics",
+ "school": "Newington",
+ "year": 2022,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "6528",
+  "title": "Newington 2022 w. sol"
+ },
+ "indexed": "2026-11-25",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q10",
+   "reason": "School accepted two answers (brushes and current applied to the rotor); no single correct option."
+  },
+  {
+   "ref": "Q32",
+   "reason": "Diagram has a misprinted vertical scale (the school's own warning says do not reuse); the question cannot be answered from the printed diagram."
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.2.1",
+    "12.6.1.2"
+   ],
+   "question": "An investigation was performed to measure the charge on small oil droplets. The small oil droplets had an electric charge $q$ applied to them before being fired with a known speed $u$ into a region between two parallel charged plates, as shown. The two plates have a known potential difference $V$ between them and are separated by a known distance $d$. The distance the droplets travelled before striking one of the charged plates, $X$, allowed for the calculation of the charge on the droplets. Which other variables would need to have a known value for the calculation of the charge to be found?",
+   "answer": "The droplet accelerates across the plates with $a=\\dfrac{qV}{md}$ and travels $X=u t$ along them, so $q$ follows from $X$, $u$, $V$, $d$ and the mass $m$, and the vertical distance fallen, which is fixed by where the droplet entered. $E=V/d$ is already known from $V$ and $d$, and the diameter is not needed. The mass and the entry point are required (A).",
+   "options": [
+    "The mass of the droplets and exactly where the droplets entered between the plates.",
+    "The diameter of the oil droplets.",
+    "The mass of the oil droplets and the size of the droplets.",
+    "The strength of the electric field between the plates."
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/phys-2022-newington/q1.png"
+   ]
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.3.4"
+   ],
+   "question": "The laminated iron core in a transformer",
+   "answer": "Lamination breaks up the conducting paths in the core, so eddy currents are smaller. Less energy is wasted as heat, which improves efficiency (B).",
+   "options": [
+    "increases the size of eddy currents to generate more electricity.",
+    "reduces the size of eddy currents to improve the efficiency of the transformer.",
+    "reduces the size of eddy currents to increase heat energy to better control the efficiency of the transformer.",
+    "increases the size of eddy currents to provide a constant supply of electricity."
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "An astronaut is travelling aboard a spacecraft. The spacecraft has a length of 130 m and is flying at a speed of $0.13c$. The spacecraft travels past a space station that has a length of 350 m, as shown in the diagram. Which of the following correctly shows the length of the space station as perceived by the astronaut?",
+   "answer": "The station is moving relative to the astronaut, so its length is contracted: $L=L_0\\sqrt{1-v^2/c^2}=350\\sqrt{1-0.13^2}=347$ m (A).",
+   "options": [
+    "347 m",
+    "349 m",
+    "350 m",
+    "353 m"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/phys-2022-newington/q3.png"
+   ]
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.2.2",
+    "12.8.3.4"
+   ],
+   "question": "James Chadwick discovered the neutron. He achieved this by observing the properties of the neutron, performing an experiment similar to the experiment shown in the diagram. What is X?",
+   "answer": "In Chadwick's experiment alpha particles from a polonium source struck beryllium, which emitted the neutral radiation (neutrons) that knocked protons out of paraffin wax. X is the alpha emitter (A).",
+   "options": [
+    "alpha emitter",
+    "beta emitter",
+    "visible light",
+    "cathode ray"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/phys-2022-newington/q4.png"
+   ]
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.1.1"
+   ],
+   "question": "A projectile is launched by a cannon as shown. Which of the following represents the acceleration of the particle at its maximum height?",
+   "answer": "The only force on a projectile (ignoring air resistance) is gravity, so its acceleration is $9.8\\ \\text{m s}^{-2}$ downward at every point, including the maximum height (B). Note: the school's marked copy circled both A and B; only B is correct.",
+   "options": [
+    "↑ (upward)",
+    "↓ (downward)",
+    "↘ (down and to the right)",
+    "→ (to the right)"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/phys-2022-newington/q5.png"
+   ]
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.4.1"
+   ],
+   "question": "A coil contains 20 loops and is placed in a magnetic field with its plane at an angle of $50^\\circ$ to the magnetic field, as shown in the diagram. The coil is $0.06$ m by $0.08$ m. The magnetic field is calculated to be 2.4 mT. An ammeter connected to the coil reads 0.6 mA. What is the magnitude of the torque acting on the coil and the direction of the coil's rotation?",
+   "answer": "$\\tau=nIAB\\cos\\theta$ with $\\theta=50^\\circ$ the angle between the plane of the coil and the field: $\\tau=20(0.6\\times10^{-3})(0.06\\times0.08)(2.4\\times10^{-3})\\cos50^\\circ=8.89\\times10^{-8}$ N m. The direction from the right-hand rule is clockwise (A).",
+   "options": [
+    "$8.89\\times10^{-8}$ N m clockwise",
+    "$8.89\\times10^{-8}$ N m anti-clockwise",
+    "$1.96\\times10^{-7}$ N m clockwise",
+    "$1.96\\times10^{-7}$ N m anti-clockwise"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/phys-2022-newington/q6.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "A student conducted an investigation to demonstrate Malus' Law. The student used two polarising filters and changed the filters' axes of polarisation to different angles. They recorded their results in a graph. Which graph shows an expected result for the experiment?",
+   "answer": "Malus' law: $I=I_0\\cos^2\\theta$. The intensity oscillates between a maximum and zero twice per $360^\\circ$, with minima at $90^\\circ$ and $270^\\circ$ and a maximum at $0^\\circ$, $180^\\circ$ and $360^\\circ$. Only graph A has this shape (B has the wrong phase and a period of $360^\\circ$; C never returns to zero) (A).",
+   "options": [
+    "Graph A",
+    "Graph B",
+    "Graph C",
+    "None of A, B, C"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/phys-2022-newington/q7a.png",
+    "assets/img/phys-2022-newington/q7b.png",
+    "assets/img/phys-2022-newington/q7c.png"
+   ]
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.2"
+   ],
+   "question": "The diagram shows the regular light and dark interference pattern produced by a laser beam through two close slits 0.10 mm apart on a screen 1.6 m away from the slits. The distance between maximum at R and minimum at T on the interference pattern is 18 mm. According to this information in the diagram, what is the wavelength of the incident light used in this experiment?",
+   "answer": "In the diagram R is a bright fringe and T is the dark fringe $2\\tfrac12$ fringe spacings away, so $18\\ \\text{mm}=2.5\\,\\Delta x$ and $\\Delta x=7.2$ mm. Then $\\lambda=\\dfrac{d\\,\\Delta x}{L}=\\dfrac{(1.0\\times10^{-4})(7.2\\times10^{-3})}{1.6}=4.5\\times10^{-7}$ m (C).",
+   "options": [
+    "$1.1\\times10^{-8}$ m",
+    "$2.2\\times10^{-7}$ m",
+    "$4.5\\times10^{-7}$ m",
+    "$4.5\\times10^{-4}$ m"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/phys-2022-newington/q8.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.4",
+    "12.5.3.2"
+   ],
+   "question": "Two satellites have the same mass. One (LEO) is in low earth orbit and the other (GEO) is in geostationary orbit. The total energy of a satellite is half its gravitational potential energy. Which row of the table correctly identifies the satellite with the lower orbital period and the satellite with the lower total energy?\n\n| | Lower orbital period | Lower total energy |\n|---|---|---|\n| A | LEO | GEO |\n| B | LEO | LEO |\n| C | GEO | GEO |\n| D | GEO | LEO |",
+   "answer": "Kepler's third law $T^2\\propto r^3$, so the satellite in the smaller orbit (LEO) has the lower period. The total energy is $E=\\tfrac12U=-\\dfrac{GMm}{2r}$, which is more negative (lower) for the smaller radius. LEO has both (B).",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q11",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.1"
+   ],
+   "question": "The diagram shows a model used to explain the refraction of light passing from medium X into medium Y. Which line in the following table correctly compares light speed, frequency and refractive index in each of mediums X and Y?\n\n| | Light speed | Frequency | Refractive index |\n|---|---|---|---|\n| A | X > Y | X > Y | X > Y |\n| B | X > Y | X = Y | X < Y |\n| C | X > Y | X < Y | X = Y |\n| D | X < Y | X = Y | X < Y |",
+   "answer": "The wavefronts are closer together in Y, so the wavelength and speed are smaller in Y ($v_X>v_Y$). The frequency does not change when light crosses a boundary ($f_X=f_Y$). Since $n=c/v$, the medium with the slower speed (Y) has the greater refractive index, so $n_X<n_Y$ (B).",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/phys-2022-newington/q11.png"
+   ]
+  },
+  {
+   "ref": "Q12",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.3.4"
+   ],
+   "question": "De Broglie contributed to quantum theory by investigating matter waves. At what velocity will an electron have a wavelength of 1 mm?",
+   "answer": "$\\lambda=\\dfrac h{mv}\\Rightarrow v=\\dfrac{6.626\\times10^{-34}}{(9.109\\times10^{-31})(1.0\\times10^{-3})}=0.73\\ \\text{m s}^{-1}$ (B).",
+   "options": [
+    "$7.3\\times10^{-4}\\ \\text{m s}^{-1}$",
+    "$0.73\\ \\text{m s}^{-1}$",
+    "$3.0\\times10^{8}\\ \\text{m s}^{-1}$",
+    "An electron is a particle and cannot have a wavelength."
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q13",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.1"
+   ],
+   "question": "Below is a diagram of several projectiles launched at the same speed and different angles. Which trajectory has the longest time of flight?",
+   "answer": "The time of flight depends only on the vertical component of the launch velocity, $t=\\dfrac{2u\\sin\\theta}{g}$. Trajectory A reaches the greatest height, so it has the greatest vertical launch component and the longest time of flight (A).",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/phys-2022-newington/q13.png"
+   ]
+  },
+  {
+   "ref": "Q14",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.2",
+    "12.6.2.3"
+   ],
+   "question": "Two parallel wires, each of length $l$, are placed so that wire 2 is being suspended above wire 1, due to the force caused by the currents flowing in each wire $I_1$ and $I_2$, balancing the weight of wire 2. Wire 2 is suspended 15 mm above wire 1. If both the currents are doubled to what distance above wire 1 will wire 2 move?",
+   "answer": "The magnetic force balances the (constant) weight: $\\dfrac{\\mu_0I_1I_2l}{2\\pi d}=mg$, so $d\\propto I_1I_2$. Doubling both currents multiplies $d$ by $2\\times2=4$, so $d=4\\times15=60$ mm (D).",
+   "options": [
+    "22.5 mm",
+    "30 mm",
+    "45 mm",
+    "60 mm"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/phys-2022-newington/q14.png"
+   ]
+  },
+  {
+   "ref": "Q15",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.2",
+    "12.7.3.3"
+   ],
+   "question": "The graph shows the relationship between the frequency of light used to irradiate two different metals, and the maximum kinetic energy of photoelectrons emitted. Suppose that light having a frequency of $8\\times10^{14}$ Hz is used to irradiate both metals. Compared to the photoelectrons emitted from metal X, photoelectrons emitted from metal Y will",
+   "answer": "The $x$-intercept is the threshold frequency: $4\\times10^{14}$ Hz for X and $8\\times10^{14}$ Hz for Y. At $8\\times10^{14}$ Hz, Y is exactly at threshold so $K_{\\max}=0$, whereas X has $K_{\\max}>0$. Y's photoelectrons have a lower maximum velocity (B). Emission is instantaneous in both metals, so A and D are wrong.",
+   "options": [
+    "Take a shorter time to gain sufficient energy to be ejected",
+    "Have a lower maximum velocity",
+    "Have a higher maximum velocity",
+    "Take a longer time to gain sufficient energy to be ejected"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/phys-2022-newington/q15.png"
+   ]
+  },
+  {
+   "ref": "Q16",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.1.7"
+   ],
+   "question": "What fundamental particle must be emitted from the nucleus of an atom as a net result of the process of fusion in which four protons are fused into a helium nucleus?",
+   "answer": "$4\\,{}^1_1\\text{p}\\rightarrow{}^4_2\\text{He}+2\\,e^++2\\nu_e$. Two protons must change into neutrons, each emitting a positron and an electron neutrino, so the particle that must be emitted is a neutrino (D). Note: the school's marked answer was B (electron). No electron is emitted (the emitted particle is a positron), so the neutrino is the correct choice.",
+   "options": [
+    "quark",
+    "electron",
+    "hydrogen atom",
+    "neutrino"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q17",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "When a bike travels up a circular ramp as the cyclist goes up the ramp they apply a force parallel to the ramp to maintain a constant speed. Which of the following statements is correct when the bike is on the ramp?",
+   "answer": "The bike moves at constant speed in a circle, so it is in uniform circular motion and its net force is the centripetal force, directed to the centre of the circle (D). The normal force changes in size as the ramp's slope changes, and it is only one component of the net force, so A, B and C are wrong.",
+   "options": [
+    "The magnitude of the normal force on the bike is constant",
+    "The normal force on the bike is the bikes centripetal force",
+    "The normal force on the bike is equal in magnitude to the bikes weight force",
+    "The direction of the net force on the bike is towards the centre of the circle"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/phys-2022-newington/q17.png"
+   ]
+  },
+  {
+   "ref": "Q18",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.2"
+   ],
+   "question": "A solenoid is connected to a DC power source with a switch connected in series. A magnet is placed near the end of the solenoid, suspended by cotton threads and free to swing. At the instant that the switch is closed:",
+   "answer": "When the switch closes the current begins to rise, so the flux through the solenoid changes and an induced back emf (Lenz's law) opposes the rise in current. The solenoid becomes an electromagnet which exerts a force on the nearby magnet, so the magnet swings (to the left, as determined from the solenoid's polarity) (A).",
+   "options": [
+    "back EMF would begin to be generated in the solenoid and the magnet would swing to the left.",
+    "a surge of current would flow through the solenoid and the magnet would not move.",
+    "a back EMF would be generated in the solenoid and the magnet would not move.",
+    "a surge of current would flow through the solenoid and the magnet would swing to the right."
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/phys-2022-newington/q18.png"
+   ]
+  },
+  {
+   "ref": "Q19",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.2"
+   ],
+   "question": "Laser light with a wavelength of 620 nm was passed through double slits with a separation of 60 µm. The screen was placed 2.00 m behind the slits. How far from the centre of the central maximum is the next bright spot in the interference pattern on the screen?",
+   "answer": "$\\dfrac{x}{L}=\\dfrac{\\lambda}{d}\\Rightarrow x=\\dfrac{(620\\times10^{-9})(2.00)}{60\\times10^{-6}}=0.0207$ m $=2.1$ cm (D).",
+   "options": [
+    "21 cm",
+    "10 cm",
+    "1.0 cm",
+    "2.1 cm"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q20",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.1.6"
+   ],
+   "question": "Four Stars PQRS are labelled on the Hertzsprung Russell Diagram. Which statement is correct?",
+   "answer": "On the diagram the temperature (spectral class) axis runs from hot (O, left) to cool (M, right). S (white dwarf region) lies in spectral class B/A, further left than R (class K/M, a red supergiant), so S has the higher surface temperature (D). R is a red supergiant (A is false), S has a much lower luminosity than Q (B is false), and R, a supergiant, is more evolved than the main-sequence star P (C is false).",
+   "options": [
+    "R is a blue star whereas S is a red star",
+    "S has a greater luminosity than Q",
+    "P is at a more advanced state of its evolution than R",
+    "S has a higher surface temperature than R"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/phys-2022-newington/q20.png"
+   ]
+  },
+  {
+   "ref": "Q21(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.5",
+    "12.5.2.3"
+   ],
+   "question": "In the past, Earth's rotation was much faster than it is today. Calculate the apparent weight of a 60.0 kg person standing on the equator if Earth's rotational period was 4 hours exactly.",
+   "answer": "At the equator the net force towards Earth's centre is the centripetal force: $mg-N=m\\omega^2r$, and the apparent weight is the normal force $N$. $\\omega=\\dfrac{2\\pi}{T}=\\dfrac{2\\pi}{4\\times3600}=4.36\\times10^{-4}$ rad s$^{-1}$. With $r=6.37\\times10^6$ m: $a_c=\\omega^2r=1.21\\ \\text{m s}^{-2}$. $$N=m(g-a_c)=60.0(9.8-1.21)=5.2\\times10^{2}\\ \\text{N}\\ (\\approx515\\ \\text{N}).$$"
+  },
+  {
+   "ref": "Q21(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.5"
+   ],
+   "question": "Identify and describe the effects of two other factors which affect the gravitational field strength on the surface of the earth.",
+   "answer": "**Altitude (height above the surface):** $g=\\dfrac{GM}{r^2}$, so as the distance from the centre of the Earth increases (e.g. on a mountain), $g$ decreases. **Local density/geology (mass distribution) or latitude:** a dense rock mass (e.g. an ore body) beneath the point increases $g$ locally, whereas lower-density material decreases it. (Latitude: the Earth's radius is larger at the equator, which together with the rotation makes $g$ smaller at the equator than at the poles.) Concession: the Earth's mass and radius were also accepted for 1 of 2 marks if the nature of the interaction was described."
+  },
+  {
+   "ref": "Q22(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "A proton entered a uniform magnetic field that had a magnitude of 0.80 T. The initial velocity of the proton was $3.3\\times10^{6}\\ \\text{m s}^{-1}$ perpendicular to the magnetic field. Explain why the proton travelled in a circular path at a constant speed after entering the magnetic field.",
+   "answer": "The magnetic force on the proton is $F=qvB\\sin\\theta$, which is always perpendicular to its velocity (and to the field). A force perpendicular to the velocity does no work, so the speed (and kinetic energy) remains constant, but it changes the direction of the velocity. Since the force has a constant magnitude (constant $B$, constant $v$) and always points towards the same centre, it acts as a centripetal force, giving uniform circular motion."
+  },
+  {
+   "ref": "Q22(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "A proton entered a uniform magnetic field that had a magnitude of 0.80 T. The initial velocity of the proton was $3.3\\times10^{6}\\ \\text{m s}^{-1}$ perpendicular to the magnetic field. Determine the radius of the circular path taken by the proton.",
+   "answer": "The magnetic force provides the centripetal force: $qvB=\\dfrac{mv^2}{r}\\Rightarrow r=\\dfrac{mv}{qB}=\\dfrac{(1.673\\times10^{-27})(3.3\\times10^{6})}{(1.602\\times10^{-19})(0.80)}=4.3\\times10^{-2}\\ \\text{m}.$"
+  },
+  {
+   "ref": "Q23(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.1"
+   ],
+   "question": "The Earth can be modelled as a black body. The average surface temperature of Earth is about 15 °C. What is the peak wavelength of the radiation emitted by Earth?",
+   "answer": "$T=15+273=288$ K. Wien's law: $\\lambda_{\\max}=\\dfrac bT=\\dfrac{2.898\\times10^{-3}}{288}=1.0\\times10^{-5}\\ \\text{m}$ (about 10 µm)."
+  },
+  {
+   "ref": "Q23(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.3.1"
+   ],
+   "question": "To which part of the electromagnetic spectrum does this peak wavelength correspond?",
+   "answer": "Infrared (a wavelength of about 10 µm is longer than visible light)."
+  },
+  {
+   "ref": "Q23(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.1.5",
+    "12.7.1.6"
+   ],
+   "question": "Light from the sun is passed through a spectroscope to produce a visible spectrum. A student views this spectrum and observes a number of dark lines as shown below. In the diagram only one of these dark lines due to hydrogen is shown. The position of this hydrogen line in the visible spectrum is shown for the sun, a distant star and a nearby star. Explain why the line is in a different position for the distant star compared to the sun and give possible reasons for the line from the nearby star having a different shape from that of the sun.",
+   "answer": "**Position (distant star):** the line is shifted to a shorter wavelength (a blue shift) than the same line in the Sun's spectrum. By the Doppler effect this means the star is moving towards us. (A shift in the opposite direction would mean it is receding. Any reference to a Doppler shift earned partial credit.) **Different shape (nearby star):** the line is broader/wider than the Sun's. Possible reasons: the star is rotating rapidly (light from the side moving towards us is blue-shifted and from the side moving away is red-shifted, broadening the line), or the star has a higher density or pressure (pressure broadening), or a higher temperature (thermal Doppler broadening).",
+   "images": [
+    "assets/img/phys-2022-newington/q23b.png"
+   ]
+  },
+  {
+   "ref": "Q23(d)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.2"
+   ],
+   "question": "Laser light of wavelength 650 nm is used in a double slit experiment. The distance between the double slits and the screen is 38.5 cm. The double slits are 0.085 mm apart. For a maximum, $d\\sin\\theta=m\\lambda=\\dfrac{dx}{L}$ and for a minimum $d\\sin\\theta=\\left(m-\\tfrac12\\right)\\lambda=\\dfrac{dx}{L}$ (with $m=1$ the first dark band, etc.). What is the angle of the first order bright band?",
+   "answer": "$\\sin\\theta=\\dfrac{m\\lambda}{d}=\\dfrac{650\\times10^{-9}}{0.085\\times10^{-3}}=7.65\\times10^{-3}\\Rightarrow\\theta=0.44^\\circ$."
+  },
+  {
+   "ref": "Q23(e)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.2"
+   ],
+   "question": "Laser light of wavelength 650 nm is used in a double slit experiment. The distance between the double slits and the screen is 38.5 cm. The double slits are 0.085 mm apart. What is the distance from the central band to the first order bright band?",
+   "answer": "$x=\\dfrac{m\\lambda L}{d}=\\dfrac{(650\\times10^{-9})(0.385)}{0.085\\times10^{-3}}=2.9\\times10^{-3}\\ \\text{m}=2.9\\ \\text{mm}.$"
+  },
+  {
+   "ref": "Q23(f)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.2"
+   ],
+   "question": "Laser light of wavelength 650 nm is used in a double slit experiment. How would the pattern change if a laser of wavelength 550 nm was used? Justify your response.",
+   "answer": "The fringes would be closer together. The fringe spacing $\\Delta x=\\dfrac{\\lambda L}{d}$ is directly proportional to the wavelength, so reducing the wavelength from 650 nm to 550 nm reduces the spacing by the factor $\\dfrac{550}{650}=0.85$ (the angle to the first maximum falls from $0.44^\\circ$ to $0.37^\\circ$)."
+  },
+  {
+   "ref": "Q24(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.3.1",
+    "12.8.2.2"
+   ],
+   "question": "The labelled diagram shows the model of the atom proposed by Rutherford (a small positive nucleus with electrons orbiting it). Outline the supporting evidence or conclusions for Rutherford's model, and state the observations or features unaccounted for in Rutherford's model.",
+   "answer": "**Evidence/conclusions:** in the Geiger–Marsden gold foil experiment most alpha particles passed straight through the foil (so the atom is mostly empty space), a small fraction were deflected through large angles and a few reversed direction (so there is a very small, dense, positively charged nucleus containing most of the mass), and the negative electrons orbit around it. **Not accounted for:** (1) the model does not explain the stability of the atom: orbiting electrons are accelerating and should radiate electromagnetic energy and spiral into the nucleus; (2) it cannot explain the discrete spectral lines of elements; (3) the atomic masses are not explained, because the nucleus of protons alone is too light (isotopes), which was later resolved by Chadwick's discovery of the neutron.",
+   "images": [
+    "assets/img/phys-2022-newington/q24a.png"
+   ]
+  },
+  {
+   "ref": "Q24(b)",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.8.3.4",
+    "12.8.3.1"
+   ],
+   "question": "The work of Bohr, de Broglie and, later, Schrödinger demonstrated that the quantum mechanical nature of matter was a better way to understand the structure of the atom. How does the nature of the electron proposed in each of the three models developed by Bohr, de Broglie and Schrödinger differ and what were the post de Broglie views on the physical nature of the electron?",
+   "answer": "**Bohr:** the electron is a negatively charged particle orbiting the nucleus only in certain allowed circular orbits (quantised energy levels, with quantised angular momentum). It does not radiate in these orbits and emits or absorbs a photon only when it jumps between levels. **De Broglie:** the electron has a wave–particle duality, with wavelength $\\lambda=\\dfrac h{mv}$; the allowed Bohr orbits are those in which the electron's standing wave fits a whole number of wavelengths around the circumference, which explains why the orbits are quantised. **Schrödinger:** the electron is described by a wave function (a solution of his wave equation) rather than as a particle in a definite orbit. The square of the wave function gives the probability of finding the electron, so it exists in 3D orbitals (probability clouds). **After de Broglie:** the electron is understood to be a quantum entity with both wave and particle properties, and the model is probabilistic. Heisenberg's uncertainty principle states that certain paired quantities (e.g. position and momentum) cannot both be known precisely, so there are inherent limits on defining the electron's path. The interpretation of the probabilistic view raised philosophical difficulties (e.g. Schrödinger's cat thought experiment)."
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.1"
+   ],
+   "question": "A student conducted several tests on circular motion in accordance with the diagram. Mass A was swung on a circular path and mass B provided the necessary weight force. The student measured the time for mass A to make 10 rotations. Averaged results after conducting three trials for each of the test conditions are presented in each row of the table.\n\n| Test | Mass of A (g) | Mass of B (g) | Radius of circle (m) | Average time for 10 rotations (s) |\n|---|---|---|---|---|\n| 1 | 50 | 50 | 0.125 | 10 |\n| 2 | 50 | 50 | 0.200 | 13 |\n| 3 | 50 | 50 | 0.250 | 14 |\n| 4 | 50 | 50 | 0.375 | 17 |\n| 5 | 50 | 75 | 0.125 | 8 |\n| 6 | 50 | 100 | 0.125 | 7 |\n| 7 | 50 | 200 | 0.125 | 5 |\n| 8 | 125 | 50 | 0.125 | 16 |\n| 9 | 250 | 50 | 0.125 | 22 |\n| 10 | 750 | 50 | 0.125 | 27 |\n\nOutline THREE different experiments conducted using the information from the table.",
+   "answer": "(1) **Effect of radius on the period:** Tests 1–4 (masses of A and B constant at 50 g, radius varied) investigate how the radius of the circle affects the time for rotations. (2) **Effect of the centripetal (weight) force on the period:** Tests 1, 5, 6 and 7 (mass of A and radius constant, mass of B varied) investigate how the force provided by mass B affects the period. (3) **Effect of the mass of the orbiting object on the period:** Tests 1, 8, 9 and 10 (mass of B and radius constant, mass of A varied).",
+   "images": [
+    "assets/img/phys-2022-newington/q25.png"
+   ]
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.1"
+   ],
+   "question": "For Tests 5, 6 and 7 of the circular motion experiment (mass A 50 g, radius 0.125 m, mass B 75 g, 100 g and 200 g), identify the dependent, independent and TWO controlled variables.",
+   "answer": "**Independent variable:** the mass of B (which sets the centripetal force, $F=m_Bg$). **Dependent variable:** the time for 10 rotations (the period). **Controlled variables:** the mass of A (50 g) and the radius of the circle (0.125 m)."
+  },
+  {
+   "ref": "Q25(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.1"
+   ],
+   "question": "If the student repeated all of the tests with 20 rotations would the experiment that used 10 rotations or the experiment that used 20 rotations be more accurate and reliable? Justify your answer.",
+   "answer": "The experiment that measured 20 rotations would be more accurate and reliable. A longer total time means the human reaction-time error in starting and stopping the stopwatch is a smaller fraction of the measured time, and dividing by more rotations averages out timing errors, giving a more precise period."
+  },
+  {
+   "ref": "Q25(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2",
+    "12.5.2.3"
+   ],
+   "question": "Assuming there are no frictional forces, derive an equation for the orbital radius of mass A in terms of $v$ and $g$. Justify your answer.",
+   "answer": "The weight of mass B provides the centripetal force on mass A: $F_c=\\dfrac{m_Av^2}{r}=F_w=m_Bg$. Rearranging: $$r=\\frac{m_A}{m_B}\\cdot\\frac{v^2}{g}.$$ If the two masses are equal, $r=\\dfrac{v^2}{g}$."
+  },
+  {
+   "ref": "Q26(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.4.2"
+   ],
+   "question": "A model representing a motor is shown below. What type of motor is it?",
+   "answer": "A DC motor (it has a split-ring commutator).",
+   "images": [
+    "assets/img/phys-2022-newington/q26.png"
+   ]
+  },
+  {
+   "ref": "Q26(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.4.1"
+   ],
+   "question": "While in the position shown in the diagram of the motor, a current of 0.50 A is flowing in the rotating coil. The coil has 10 turns and the magnetic field across the coil has a strength of 1 T. The side WX of the rectangular coil has a length of 5.0 cm and the side XY is 3 cm. Calculate the magnitude of the maximum torque on the coil and the direction of its rotation.",
+   "answer": "$\\tau_{\\max}=nIAB=10\\times0.50\\times(0.05\\times0.03)\\times1=7.5\\times10^{-3}\\ \\text{N m}$. From the right-hand rule (force on each side of the coil, $F=BIl$) the coil rotates **anticlockwise** (as viewed in the diagram).",
+   "images": [
+    "assets/img/phys-2022-newington/q26.png"
+   ]
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.2"
+   ],
+   "question": "UV light of frequency $2.4\\times10^{15}$ Hz strikes magnesium whose work function is 3.7 eV. What is the energy transferred by each photon?",
+   "answer": "$E=hf=(6.626\\times10^{-34})(2.4\\times10^{15})=1.59\\times10^{-18}\\ \\text{J}$ ($=9.93$ eV)."
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.2",
+    "12.7.3.3"
+   ],
+   "question": "UV light of frequency $2.4\\times10^{15}$ Hz strikes magnesium whose work function is 3.7 eV. Calculate the maximum kinetic energy of the ejected electrons.",
+   "answer": "$K_{\\max}=hf-\\phi=9.93-3.7=6.23\\ \\text{eV}=6.23\\times1.602\\times10^{-19}=9.98\\times10^{-19}\\ \\text{J}.$"
+  },
+  {
+   "ref": "Q27(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.2"
+   ],
+   "question": "Calculate the maximum speed of the ejected electrons.",
+   "answer": "$K_{\\max}=\\tfrac12mv^2\\Rightarrow v=\\sqrt{\\dfrac{2(9.98\\times10^{-19})}{9.109\\times10^{-31}}}=1.48\\times10^{6}\\ \\text{m s}^{-1}.$"
+  },
+  {
+   "ref": "Q27(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.2",
+    "12.7.3.3"
+   ],
+   "question": "Calculate the stopping voltage for the electrons.",
+   "answer": "$eV_s=K_{\\max}\\Rightarrow V_s=\\dfrac{K_{\\max}}{e}=\\dfrac{9.98\\times10^{-19}}{1.602\\times10^{-19}}=6.2\\ \\text{V}$ (the stopping voltage in volts equals the maximum kinetic energy in eV: 6.23 V)."
+  },
+  {
+   "ref": "Q28(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.1.3",
+    "12.8.4.6"
+   ],
+   "question": "Account for the release of energy in both the processes of fission and fusion. Support your answer with examples.",
+   "answer": "In both fission and fusion the products have more binding energy per nucleon (so a smaller total mass) than the reactants. The mass decrease (mass defect) is released as energy according to $E=mc^2$. Binding energy per nucleon is greatest for iron-56, so **fusion** of light nuclei (e.g. hydrogen nuclei fusing to form helium in the Sun) increases the binding energy per nucleon and releases energy. **Fission** of heavy nuclei (e.g. uranium-235 bombarded with neutrons splitting into smaller 'daughter' nuclei such as barium and krypton, as in nuclear reactors and atom bombs) also moves towards the peak and releases energy."
+  },
+  {
+   "ref": "Q28(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.4.3",
+    "12.7.4.4"
+   ],
+   "question": "When 2 protons fuse to form a deuterium nucleus, a positron and a neutrino are released. Calculate the binding energy per deuterium nucleus formed, assuming the mass of a neutrino to be negligible. (Assume the mass of a deuterium nucleus to be $3.3435\\times10^{-27}$ kg.)",
+   "answer": "Mass deficit $=2m_p-(m_d+m_{e^+})=2(1.673\\times10^{-27})-(3.3435\\times10^{-27}+9.109\\times10^{-31})=1.589\\times10^{-30}$ kg. $$E=mc^2=(1.589\\times10^{-30})(3.00\\times10^{8})^2=1.43\\times10^{-13}\\ \\text{J}\\ (\\approx0.89\\ \\text{MeV}).$$ Note: this is the energy released by the fusion reaction as the question intends. The strict binding energy of deuterium, $(m_p+m_n-m_d)c^2\\approx3.6\\times10^{-13}$ J (2.2 MeV), requires the neutron mass."
+  },
+  {
+   "ref": "Q29(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.1"
+   ],
+   "question": "Two projectiles are launched with the same initial speeds and angles to the horizontal. Projectile A has a mass of $m$, while projectile B has a mass of $2m$. Explain why the two projectiles will have the same range.",
+   "answer": "The horizontal velocity stays constant throughout the flight (there is no horizontal acceleration, $a_x=0$). The vertical acceleration of every projectile is the acceleration due to gravity, $g$, regardless of mass. Mass does not appear in the equations of motion, so both projectiles have the same time of flight and horizontal velocity, and so the same path and range."
+  },
+  {
+   "ref": "Q29(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2",
+    "12.5.2.3"
+   ],
+   "question": "The train line between Sydney and Newcastle is designed so that it can take slow moving freight trains as well as much faster passenger trains at speeds up to 100 km h$^{-1}$. The track has many tight curves along the route. For a section of track banked at $20^\\circ$ to the horizontal around a curve with a radius of 400 m, what is the design speed for a train?",
+   "answer": "At the design speed the horizontal component of the normal force provides the centripetal force and no sideways force is needed from the rails: $N\\sin\\theta=\\dfrac{mv^2}{r}$ and $N\\cos\\theta=mg$. Dividing: $\\tan\\theta=\\dfrac{v^2}{gr}$, so $$v=\\sqrt{gr\\tan\\theta}=\\sqrt{9.8\\times400\\times\\tan20^\\circ}=38\\ \\text{m s}^{-1}\\ (\\approx137\\ \\text{km h}^{-1}).$$"
+  },
+  {
+   "ref": "Q29(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.4"
+   ],
+   "question": "If a rocket is launched at $100\\ \\text{m s}^{-1}$ at $45^\\circ$ from its position on top of a 150 m high cliff determine its time of flight.",
+   "answer": "Vertical launch velocity $u_y=100\\sin45^\\circ=70.7\\ \\text{m s}^{-1}$ upward. Taking up as positive, the final displacement is $-150$ m: $s=u_yt+\\tfrac12at^2\\Rightarrow-150=70.7t-4.9t^2$, i.e. $4.9t^2-70.7t-150=0$. $$t=\\frac{70.7+\\sqrt{70.7^2+4(4.9)(150)}}{2(4.9)}=\\frac{70.7+89.1}{9.8}=16.3\\ \\text{s}.$$ (The negative root is rejected.)"
+  },
+  {
+   "ref": "Q30(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.1"
+   ],
+   "question": "A straight metal rod sits on parallel metal tracks spaced 2.0 m apart which are angled at $30^\\circ$ to the horizontal. The apparatus exists within a vertical magnetic field of strength $4.80\\times10^{-3}$ T, as shown. A current of 5.0 A flows through the metal rod. Neglecting the effects of gravity, what force would act on the metal rod as it sits motionless on the rails?",
+   "answer": "The rod is perpendicular to the (vertical) field, so $F=BIl=(4.80\\times10^{-3})(5.0)(2.0)=4.80\\times10^{-2}$ N, directed horizontally to the left (by the right-hand rule).",
+   "images": [
+    "assets/img/phys-2022-newington/q30.png"
+   ]
+  },
+  {
+   "ref": "Q30(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.2.1",
+    "12.5.1.1"
+   ],
+   "question": "Suggest a procedure that could be used to find the mass of the metal rod, given that gravity is taken into account but friction is ignored.",
+   "answer": "The component of the rod's weight down the rails is $mg\\sin30^\\circ=4.9m$. The magnetic force is horizontal, so its component up the rails is $BIl\\cos30^\\circ$. Vary the current through the rod (with the power source) until the rod just remains stationary (the net force along the rails is zero). Then $mg\\sin30^\\circ=BIl\\cos30^\\circ$, so $$m=\\frac{BIl\\cos30^\\circ}{g\\sin30^\\circ}=\\frac{BIl\\cos30^\\circ}{4.9},$$ with $l=2.0$ m and $B=4.80\\times10^{-3}$ T, and $I$ the measured current (e.g. 5.0 A gives about $8.5\\times10^{-3}$ kg).",
+   "images": [
+    "assets/img/phys-2022-newington/q30.png"
+   ]
+  },
+  {
+   "ref": "Q30(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.3.2"
+   ],
+   "question": "Discuss the validity of this statement and illustrate its meaning with reference to specific examples: \"Lenz's law is simply a consequence of the conservation of energy.\"",
+   "answer": "The statement is valid. Lenz's law states that the direction of an induced current is such that it opposes the change in flux that produced it. **Example 1:** when a bar magnet is pushed towards a solenoid connected in a circuit, the induced current makes the solenoid's field repel the approaching magnet. The electrical energy produced comes from the work done pushing the magnet against this repulsion. If the current flowed the other way, the magnet would be drawn in and gain kinetic energy while also producing electrical energy with no energy input, violating conservation of energy. **Example 2:** electromagnetic braking (eddy currents in a metal disc near a magnet) opposes the motion, converting kinetic energy to heat. If the opposite direction occurred, the disc would speed up and gain energy for free, again violating conservation of energy. So the direction predicted by Lenz's law is exactly the one required for energy to be conserved."
+  },
+  {
+   "ref": "Q30(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.1"
+   ],
+   "question": "Describe magnetic flux and identify whether it is a vector or a scalar.",
+   "answer": "Magnetic flux $\\Phi=BA\\cos\\theta$ is a measure of the total magnetic field passing perpendicularly through a surface of area $A$ (the number of field lines through it), where $\\theta$ is the angle between the field and the normal to the surface. Magnetic flux is a **scalar** (unit: weber, Wb), because it is the scalar product (dot product) of the field and the area vector and has magnitude only. Note: the school's sample answer says it is a vector, but this is incorrect; flux is a scalar."
+  },
+  {
+   "ref": "Q31(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "A spacecraft is travelling at $0.87c$ between Earth and Teegarden's Star, a distance of 12.51 light years from Earth's frame of reference. Calculate the distance of the journey in the spacecraft's frame of reference.",
+   "answer": "The distance is length-contracted in the spacecraft frame: $\\gamma=\\dfrac1{\\sqrt{1-0.87^2}}=2.03$, so $$L=\\frac{L_0}{\\gamma}=12.51\\sqrt{1-0.87^2}=6.17\\ \\text{light years}.$$"
+  },
+  {
+   "ref": "Q31(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.4.3"
+   ],
+   "question": "Outline how special relativity imposes a limitation on the maximum velocity of the spaceship.",
+   "answer": "Relativistic momentum $p=\\gamma mv$ tends to infinity as $v\\to c$ (because $\\gamma\\to\\infty$). An infinite force (or energy) would be needed to accelerate the spaceship to $c$, so its speed is limited to less than $c$."
+  },
+  {
+   "ref": "Q31(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "A muon is an elementary particle which decays into an electron. When at rest the decay time of a muon is 2.2 µs, but when observed moving at a relativistic velocity its decay time is measured as 8.8 µs. Explain how these muons provide evidence for Einstein's theory of special relativity and hence calculate the speed of the muons.",
+   "answer": "**Evidence:** special relativity predicts time dilation: a clock moving relative to an observer runs slow. The moving muons are observed (from Earth) to survive 8.8 µs, four times longer than their proper decay time of 2.2 µs at rest, as predicted. This is also why muons created high in the atmosphere reach Earth's surface. **Calculation:** $t=\\gamma t_0\\Rightarrow\\gamma=\\dfrac{8.8}{2.2}=4.0$. Then $\\gamma=\\dfrac{1}{\\sqrt{1-v^2/c^2}}\\Rightarrow\\dfrac{v}{c}=\\sqrt{1-\\dfrac1{\\gamma^2}}=\\sqrt{1-\\dfrac1{16}}=0.968$, so $v=0.968c=2.9\\times10^{8}\\ \\text{m s}^{-1}$."
+  }
+ ]
+}
