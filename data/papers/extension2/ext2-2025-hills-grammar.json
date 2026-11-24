@@ -1,0 +1,654 @@
+{
+ "id": "ext2-2025-hills-grammar",
+ "course": "extension2",
+ "school": "Hills Grammar",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "Hills Grammar 2025 w. sol"
+ },
+ "indexed": "2026-11-25",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.11",
+    "12.1.1.12"
+   ],
+   "question": "Consider the statement: 'If an animal can fly then it is a bird.' Which of the following is the contrapositive of this statement?",
+   "answer": "The contrapositive of 'if $P$ then $Q$' is 'if not $Q$ then not $P$': if an animal is not a bird then it cannot fly (A). B is the converse, C negates only the conclusion and D is the inverse.",
+   "options": [
+    "If an animal is not a bird then it cannot fly.",
+    "If an animal is a bird then it can fly.",
+    "If an animal can fly then it is not a bird.",
+    "If an animal cannot fly then it is not a bird."
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.5.3",
+    "12.3.2.3"
+   ],
+   "question": "It is given that $|z-1-i|=1$. What is the maximum value of $\\text{Arg}(z)$?",
+   "answer": "$|z-(1+i)|=1$ is the circle of radius $1$ centred at $(1,1)$. $\\text{Arg}(z)$ is greatest at the top-left point of the circle seen from the origin, namely $z=i$ (the point $(0,1)$ on the circle), where $\\text{Arg}(z)=\\dfrac\\pi2$ (C).",
+   "options": [
+    "$-\\dfrac\\pi2$",
+    "$0$",
+    "$\\dfrac\\pi2$",
+    "$\\pi$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.2",
+    "12.1.1.7"
+   ],
+   "question": "Consider the proposition: 'If a positive integer is not a perfect square, then it is not prime.' If a number was found which had the following properties, which would be a counterexample to the proposition?",
+   "answer": "A counterexample to '$P\\Rightarrow Q$' makes $P$ true and $Q$ false, i.e. $P\\wedge\\neg Q$: not a perfect square **and** prime (A).",
+   "options": [
+    "A positive integer that is not a perfect square and is prime.",
+    "A positive integer that is not a perfect square and is not prime.",
+    "A positive integer that is a perfect square and is prime.",
+    "A positive integer that is a perfect square and is not prime."
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.9",
+    "12.3.2.1"
+   ],
+   "question": "The diagram shows the complex number $z=x+iy$ in the third quadrant, with $x<y$. Given $z^2=a+ib$, which of the following statements is true?",
+   "answer": "$z^2=(x^2-y^2)+2xy\\,i$, so $a=x^2-y^2$ and $b=2xy$. Since $x<y<0$, $|x|>|y|$ so $x^2>y^2$ and $a>0$. Also $x$ and $y$ are both negative, so $xy>0$ and $b>0$ (D).",
+   "options": [
+    "$a<0,\\ b<0$",
+    "$a<0,\\ b>0$",
+    "$a>0,\\ b<0$",
+    "$a>0,\\ b>0$"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/ext2-2025-hills-grammar/q4.png"
+   ]
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Which of these algebraic fractions cannot be written as partial fractions in the form $\\dfrac{a}{x+b}+\\dfrac{c}{x+d}$, where $a,b,c$ and $d$ are real numbers?",
+   "answer": "The form requires the denominator to factorise into real linear factors, i.e. discriminant $\\Delta\\ge0$. A: $\\Delta=16$; B: $\\Delta=0$ (perfect square); D: $\\Delta=16$; C: $\\Delta=16-32=-16<0$, so $x^2-4x+8$ has no real linear factors (C).",
+   "options": [
+    "$\\dfrac{2x+6}{x^2+6x+5}$",
+    "$\\dfrac{2x-8}{x^2-8x+16}$",
+    "$\\dfrac{2x+4}{x^2-4x+8}$",
+    "$\\dfrac{2x+2}{x^2+2x-3}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "Which of the following is equivalent to $\\left(\\sqrt2\\,\\text{cis}\\dfrac\\pi4\\right)^3$?",
+   "answer": "By de Moivre, $\\left(\\sqrt2\\,\\text{cis}\\frac\\pi4\\right)^3=2\\sqrt2\\,\\text{cis}\\frac{3\\pi}4=2\\sqrt2\\left(-\\frac1{\\sqrt2}+\\frac{i}{\\sqrt2}\\right)=-2+2i$ (B). Check: $\\sqrt2\\,\\text{cis}\\frac\\pi4=1+i$ and $(1+i)^3=1+3i-3-i=-2+2i$.",
+   "options": [
+    "$-2-2i$",
+    "$-2+2i$",
+    "$2-2i$",
+    "$2+2i$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "Consider triangle $AOB$, where $A$ is the point $(1,0,1)$ and $B$ is the point $(0,2,2)$ and $O$ is the origin. Which of the following is true?",
+   "answer": "$|OA|=\\sqrt2$, $|OB|=\\sqrt8=2\\sqrt2$, $|AB|=|(-1,2,1)|=\\sqrt6$. Then $\\cos\\angle AOB=\\dfrac{2+8-6}{2\\sqrt2\\cdot2\\sqrt2}=\\dfrac12$, so $\\angle AOB=\\dfrac\\pi3$; $\\cos\\angle OBA=\\dfrac{8+6-2}{2\\cdot2\\sqrt2\\cdot\\sqrt6}=\\dfrac{\\sqrt3}2$, so $\\angle OBA=\\dfrac\\pi6$. Hence $\\angle AOB$ is twice $\\angle OBA$ (D). (Sides $\\sqrt2,\\sqrt6,2\\sqrt2$ are all different, so not isosceles; $OB^2=OA^2+AB^2$ so the right angle is at $A$.)",
+   "course": "extension1",
+   "options": [
+    "Angle $AOB$ is a right angle",
+    "Triangle $AOB$ is isosceles",
+    "Angle $OAB$ is twice the size of angle $OBA$",
+    "Angle $AOB$ is twice the size of angle $OBA$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.17",
+    "12.2.1.18"
+   ],
+   "question": "The spheres represented by $\\left|\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}\\right|=r_1$ and $\\left|\\begin{pmatrix}x-a\\\\y-b\\\\z-c\\end{pmatrix}\\right|=r_2$, where $r_1,r_2$ are prime numbers, intersect at one point only. Let $d=\\sqrt{a^2+b^2+c^2}$. Which statement could be true?",
+   "answer": "The centres are $(0,0,0)$ and $(a,b,c)$, a distance $d$ apart. Spheres meeting at exactly one point touch externally ($d=r_1+r_2$) or internally ($d=|r_1-r_2|$). A is impossible (all terms positive). B is the internal case (e.g. $r_1=5,\\ r_2=3,\\ d=2$). C: $d^2=(r_1\\pm r_2)^2=r_1^2+r_2^2\\pm2r_1r_2\\ne r_1^2+r_2^2$. D: $r_1r_2=r_1+r_2$ gives $(r_1-1)(r_2-1)=1$, impossible for distinct primes, and $r_1r_2=|r_1-r_2|$ is impossible. So B. *Note: the paper's argument for D assumes $r_1\\ne r_2$; if both radii were $2$ then D would also hold, so the question implicitly assumes distinct primes.*",
+   "options": [
+    "$r_1+r_2+d=0$",
+    "$r_1-r_2=d$",
+    "$(r_1)^2+(r_2)^2=d^2$",
+    "$r_1\\times r_2=d$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.8",
+    "12.4.1.11"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^3\\frac{1+x}{9+x^2}\\,dx$.",
+   "answer": "$\\displaystyle\\int_0^3\\left(\\frac{1}{9+x^2}+\\frac{x}{9+x^2}\\right)dx=\\left[\\frac13\\tan^{-1}\\frac x3+\\frac12\\ln(9+x^2)\\right]_0^3=\\frac13\\cdot\\frac\\pi4+\\frac12(\\ln18-\\ln9)=\\frac\\pi{12}+\\frac12\\ln2=\\frac\\pi{12}+\\ln\\sqrt2$ (D).",
+   "options": [
+    "$\\dfrac\\pi4+\\ln2\\sqrt3$",
+    "$\\dfrac\\pi4+\\ln\\sqrt2$",
+    "$\\dfrac\\pi{12}+\\ln2\\sqrt3$",
+    "$\\dfrac\\pi{12}+\\ln\\sqrt2$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.17",
+    "12.2.1.18"
+   ],
+   "question": "The equation of the sphere with centre $(4,b,-1)$ is $x^2-8x+y^2+4y+z^2+2z=4$. What is the value of $b$?",
+   "answer": "Complete the square: $(x-4)^2+(y+2)^2+(z+1)^2=4+16+4+1=25$. The centre is $(4,-2,-1)$, so $b=-2$ (C).",
+   "options": [
+    "$-8$",
+    "$-4$",
+    "$-2$",
+    "$2$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.3",
+    "12.2.3.6"
+   ],
+   "question": "Given $\\mathbf a=2\\mathbf i+3\\mathbf j+\\mathbf k$ and $\\mathbf b=-5\\mathbf i+\\mathbf j-2\\mathbf k$, find $2\\mathbf a-\\mathbf b$ in the form $\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}$.",
+   "answer": "$2\\mathbf a-\\mathbf b=2\\begin{pmatrix}2\\\\3\\\\1\\end{pmatrix}-\\begin{pmatrix}-5\\\\1\\\\-2\\end{pmatrix}=\\begin{pmatrix}4+5\\\\6-1\\\\2+2\\end{pmatrix}=\\begin{pmatrix}9\\\\5\\\\4\\end{pmatrix}$.",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.7"
+   ],
+   "question": "The complex number $z^2$ is shown on the diagram below (it has modulus $4$, and the marked angle $\\frac{2\\pi}{3}$ is measured clockwise from the positive real axis). Given that $z$ lies in the fourth quadrant only, find $z$ in mod-arg (polar) form.",
+   "answer": "From the diagram $z^2=4\\,\\text{cis}\\left(-\\dfrac{2\\pi}3\\right)$. Taking square roots: $|z|=\\sqrt4=2$ and $\\arg z=-\\dfrac{2\\pi}{3}\\div2=-\\dfrac\\pi3$ (the other root has argument $-\\dfrac\\pi3+\\pi=\\dfrac{2\\pi}3$, which lies in the second quadrant). Since $z$ is in the fourth quadrant,\n\n$$z=2\\,\\text{cis}\\left(-\\frac\\pi3\\right)=2\\left(\\cos\\left(-\\frac\\pi3\\right)+i\\sin\\left(-\\frac\\pi3\\right)\\right).$$",
+   "images": [
+    "assets/img/ext2-2025-hills-grammar/q11b.png"
+   ]
+  },
+  {
+   "ref": "Q11(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.7"
+   ],
+   "question": "Consider the line $\\mathbf r=\\begin{pmatrix}5\\\\3\\end{pmatrix}+\\lambda\\begin{pmatrix}-5\\\\3\\end{pmatrix}$ where $\\lambda\\in\\mathbb R$. Show that the point $(0,6)$ lies on $\\mathbf r$.",
+   "answer": "When $\\lambda=1$: $\\begin{pmatrix}5\\\\3\\end{pmatrix}+\\begin{pmatrix}-5\\\\3\\end{pmatrix}=\\begin{pmatrix}0\\\\6\\end{pmatrix}$, so $(0,6)$ lies on the line."
+  },
+  {
+   "ref": "Q11(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.7"
+   ],
+   "question": "Consider the line $\\mathbf r=\\begin{pmatrix}5\\\\3\\end{pmatrix}+\\lambda\\begin{pmatrix}-5\\\\3\\end{pmatrix}$ where $\\lambda\\in\\mathbb R$. Show that the line through the points $A(2,3)$ and $B(-1,-2)$ is perpendicular to $\\mathbf r$.",
+   "answer": "$\\overrightarrow{AB}=\\begin{pmatrix}-1-2\\\\-2-3\\end{pmatrix}=\\begin{pmatrix}-3\\\\-5\\end{pmatrix}$. The dot product with the direction of $\\mathbf r$: $\\begin{pmatrix}-3\\\\-5\\end{pmatrix}\\cdot\\begin{pmatrix}-5\\\\3\\end{pmatrix}=15-15=0$, so the lines are perpendicular.",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.1"
+   ],
+   "question": "It is known that $1+2i$ is one of the square roots of $4i-3$. Using this fact, or otherwise, solve $z^2-5z+7-i=0$.",
+   "answer": "$$z=\\frac{5\\pm\\sqrt{25-4(7-i)}}{2}=\\frac{5\\pm\\sqrt{4i-3}}{2}=\\frac{5\\pm(1+2i)}{2}.$$\n\nSo $z=\\dfrac{6+2i}2=3+i$ or $z=\\dfrac{4-2i}{2}=2-i$.\n\n*(Note: the square roots of $4i-3$ are $\\pm(1+2i)$; either sign gives the same pair of solutions.)*"
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "A particle is initially at the origin with velocity $2$ metres per second. Its acceleration is given by $v\\dfrac{dv}{dx}=v^2-v$, where $v$ is the velocity of the particle in metres per second and $x$ is its displacement in metres. Find an expression for $x$ in terms of $v$.",
+   "answer": "$v\\dfrac{dv}{dx}=v(v-1)$ and $v\\ne0$ (it starts at $2$ and $v=0$ is an equilibrium it can't reach), so $\\dfrac{dv}{dx}=v-1$ and\n\n$$\\int_2^v\\frac{dv}{v-1}=\\int_0^xdx\\ \\Rightarrow\\ \\Big[\\ln|v-1|\\Big]_2^v=x\\ \\Rightarrow\\ x=\\ln|v-1|-\\ln1=\\ln(v-1),$$\n\nsince $v\\ge2>1$ (so $v-1>0$ and the absolute value is not needed)."
+  },
+  {
+   "ref": "Q11(f)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Find the values of $a$ and $b$ such that $\\dfrac{x+7}{(x-2)(x+1)}=\\dfrac{a}{x-2}+\\dfrac{b}{x+1}$.",
+   "answer": "$x+7=a(x+1)+b(x-2)$. Put $x=2$: $9=3a$, so $a=3$. Put $x=-1$: $6=-3b$, so $b=-2$."
+  },
+  {
+   "ref": "Q11(f)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.8"
+   ],
+   "question": "Given $\\dfrac{x+7}{(x-2)(x+1)}=\\dfrac{3}{x-2}-\\dfrac{2}{x+1}$, show that $\\displaystyle\\int_0^1\\frac{x+7}{(x-2)(x+1)}\\,dx=-5\\ln2$.",
+   "answer": "$$\\int_0^1\\left(\\frac3{x-2}-\\frac2{x+1}\\right)dx=\\Big[3\\ln|x-2|-2\\ln|x+1|\\Big]_0^1=(3\\ln1-2\\ln2)-(3\\ln2-2\\ln1)=-5\\ln2.$$"
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.10",
+    "12.3.1.12"
+   ],
+   "question": "Consider the complex number $z=a+ib$. The product of $z$ and $\\bar z$ is $25$. The sum of $z$ and $\\bar z$ is $8$. Find $z$.",
+   "answer": "$z+\\bar z=2a=8$, so $a=4$. $z\\bar z=a^2+b^2=25$, so $16+b^2=25$, $b^2=9$, $b=\\pm3$. Hence $z=4\\pm3i$."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Find $\\displaystyle\\int x\\ln x\\,dx$.",
+   "answer": "By parts with $u=\\ln x$, $v'=x$ ($u'=\\frac1x$, $v=\\frac{x^2}2$): $\\displaystyle\\int x\\ln x\\,dx=\\frac{x^2}{2}\\ln x-\\frac12\\int x\\,dx=\\frac{x^2}2\\ln x-\\frac{x^2}4+C$."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "Prove that $(n+1)^n-n^{n+1}$ is odd for all positive integers $n$.",
+   "answer": "Consider two cases.\n\n**Case 1: $n$ odd.** Then $n+1$ is even, so $(n+1)^n$ is even (an even number to a positive power), while $n$ is odd so $n^{n+1}$ is odd. Even $-$ odd is odd.\n\n**Case 2: $n$ even.** Then $n+1$ is odd, so $(n+1)^n$ is odd, while $n^{n+1}$ is even. Odd $-$ even is odd.\n\nIn both cases $(n+1)^n-n^{n+1}$ is odd, so it is odd for all positive integers $n$."
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.7",
+    "12.3.2.5"
+   ],
+   "question": "For the complex numbers $z$ and $w$, it is known that $\\dfrac zw$ is purely real with a modulus of $2$. If $z=4\\,\\text{cis}\\dfrac\\pi3$, find $w$ in polar (mod-arg) form.",
+   "answer": "$\\dfrac zw$ is real with modulus $2$, so $\\dfrac zw=\\pm2$ (**not** just $+2$). Then $w=\\pm\\dfrac z2=\\pm2\\,\\text{cis}\\dfrac\\pi3$. So $w=2\\,\\text{cis}\\dfrac\\pi3$ or $w=-2\\,\\text{cis}\\dfrac\\pi3=2\\,\\text{cis}\\left(-\\dfrac{2\\pi}3\\right)$."
+  },
+  {
+   "ref": "Q12(e)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.2"
+   ],
+   "question": "An $80$-kilogram mass is being dragged along a horizontal surface by a force of $100$ newtons. The mass is subject to friction of $0.1v$ newtons, where $v$ is the speed of the mass in metres per second. The mass is initially at rest. The equation of motion is $\\ddot x=\\dfrac{1000-v}{800}$. (Do NOT prove this.) Show that the equation for time as a function of velocity is $t=800\\ln\\left(\\dfrac{1000}{1000-v}\\right)$.",
+   "answer": "$\\dfrac{dv}{dt}=\\dfrac{1000-v}{800}$, so $\\dfrac{dt}{dv}=\\dfrac{800}{1000-v}$. At $t=0$, $v=0$:\n\n$$\\int_0^tdt=\\int_0^v\\frac{800}{1000-v}dv\\ \\Rightarrow\\ t=-800\\Big[\\ln|1000-v|\\Big]_0^v=-800\\left(\\ln(1000-v)-\\ln1000\\right)$$\n\n(here $v<1000$, since $\\ddot x>0$ only while $v<1000$). Hence $t=800\\ln\\left(\\dfrac{1000}{1000-v}\\right)$."
+  },
+  {
+   "ref": "Q12(e)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.2"
+   ],
+   "question": "Given that $t=800\\ln\\left(\\dfrac{1000}{1000-v}\\right)$ for a mass dragged from rest along a horizontal surface, find the velocity of the mass after $10$ seconds, correct to $1$ decimal place.",
+   "answer": "$10=800\\ln\\dfrac{1000}{1000-v}\\Rightarrow\\ln\\dfrac{1000}{1000-v}=0.0125\\Rightarrow\\dfrac{1000-v}{1000}=e^{-0.0125}$, so $v=1000\\left(1-e^{-0.0125}\\right)=12.42\\ldots\\approx12.4\\text{ m s}^{-1}$."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.9",
+    "12.4.1.10"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{4x-3}{4x^2-4x+5}\\,dx$.",
+   "answer": "The denominator's derivative is $8x-4$, so write $4x-3=\\tfrac12(8x-4)-1$. Also $4x^2-4x+5=(2x-1)^2+2^2$.\n\n$$\\int\\frac{4x-3}{4x^2-4x+5}dx=\\frac12\\int\\frac{8x-4}{4x^2-4x+5}dx-\\int\\frac{dx}{(2x-1)^2+2^2}=\\frac12\\ln\\left(4x^2-4x+5\\right)-\\frac14\\tan^{-1}\\left(\\frac{2x-1}{2}\\right)+C.$$\n\n(No absolute value is needed since $4x^2-4x+5>0$ for all $x$.)"
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.5",
+    "12.1.3.6"
+   ],
+   "question": "It is known that for all positive real numbers $x,y$: $x+y\\ge2\\sqrt{xy}$. (Do NOT prove this.) Using this result, or otherwise, show that for all real $a$, $|a|\\le\\dfrac{a^2+1}{2}$.",
+   "answer": "Let $x=a^2$ and $y=1$ (both positive when $a\\ne0$): $a^2+1\\ge2\\sqrt{a^2\\cdot1}=2|a|$, so $|a|\\le\\dfrac{a^2+1}2$. (For $a=0$: $0\\le\\frac12$ is true.)\n\n*Alternatively:* $\\dfrac{a^2+1}2-|a|=\\dfrac{a^2-2|a|+1}{2}=\\dfrac{(|a|-1)^2}{2}\\ge0$."
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.5"
+   ],
+   "question": "Given $a_{n+1}=\\sqrt{2a_n}$ and $a_1=1$, prove by mathematical induction that for all integers $n\\ge1$, $a_n=2^{\\left(1-2^{(1-n)}\\right)}$.",
+   "answer": "**Base case** $n=1$: $2^{1-2^0}=2^0=1=a_1$ ✓.\n\n**Assume** $a_k=2^{\\left(1-2^{(1-k)}\\right)}$ for some $k\\ge1$. **Prove** $a_{k+1}=2^{\\left(1-2^{-k}\\right)}$.\n\n$$a_{k+1}=\\sqrt{2a_k}=\\sqrt{2\\cdot2^{1-2^{1-k}}}=\\sqrt{2^{2-2^{1-k}}}=2^{1-2^{-k}},$$\n\nsince $\\frac12\\cdot2^{1-k}=2^{-k}$. So the statement holds for $n=k+1$ whenever it holds for $n=k$; by mathematical induction it holds for all integers $n\\ge1$."
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.4",
+    "12.3.3.2"
+   ],
+   "question": "The complex number $1+i$ is a zero of the polynomial $P(z)=z^4-2z^3+z^2+2z-2$. Find the remaining zeros of the polynomial.",
+   "answer": "$P$ has real coefficients, so $1-i$ is also a zero. $(z-(1+i))(z-(1-i))=z^2-2z+2$. Dividing: $z^4-2z^3+z^2+2z-2=(z^2-2z+2)(z^2-1)$ (check: $z^4-2z^3+2z^2-z^2+2z-2$ ✓). So the remaining zeros are $1-i,\\ 1,\\ -1$."
+  },
+  {
+   "ref": "Q13(e)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "A tiler is working on the roof of a house which has an angle to the horizontal of $30^\\circ$ on both sides as shown. The tiler uses a rope and pulley to move a $50$-kilogram box up the roof, with a $60$-kilogram counterweight attached to the other end. Both masses are initially at rest. When the masses are released, the $60$-kilogram mass slides down the roof until it hits the safety stop, pulling the $50$-kilogram mass up the roof exactly $3$ metres. Assume that there is no friction and no air resistance. The acceleration due to gravity is $10\\text{ m s}^{-2}$. Prove that the speed $v$ of the masses after $t$ seconds is $v=\\dfrac{5t}{11}$.",
+   "answer": "Let $T$ be the tension in the rope and $a$ the common acceleration (down the slope for the $60$ kg mass, up the slope for the $50$ kg mass).\n\n$60$ kg: $60a=60(10)\\sin30^\\circ-T=300-T$\n\n$50$ kg: $50a=T-50(10)\\sin30^\\circ=T-250$\n\nAdding: $110a=50$, so $a=\\dfrac5{11}\\text{ m s}^{-2}$ (constant). Then $v=\\displaystyle\\int a\\,dt=\\frac5{11}t+c$, and $v=0$ when $t=0$ gives $c=0$. Hence $v=\\dfrac{5t}{11}$.",
+   "images": [
+    "assets/img/ext2-2025-hills-grammar/q13e.png"
+   ]
+  },
+  {
+   "ref": "Q13(e)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "Two masses on a rope over a pulley start from rest and move with speed $v=\\dfrac{5t}{11}$ ($v$ in m s$^{-1}$, $t$ in seconds). Hence, or otherwise, find the time it takes for the $50$-kilogram mass to move $3$ metres up the roof, correct to $1$ decimal place.",
+   "answer": "$\\dfrac{dx}{dt}=\\dfrac{5t}{11}$, so $x=\\dfrac{5t^2}{22}$ (with $x=0$ at $t=0$). Put $x=3$: $t^2=\\dfrac{66}{5}$, so $t=3.63\\ldots\\approx3.6$ seconds."
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.11"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{e^{2x}-e^x}{e^x+1}\\,dx$.",
+   "answer": "$e^{2x}-e^x=e^x(e^x+1)-2e^x$, so\n\n$$\\int\\left(e^x-\\frac{2e^x}{e^x+1}\\right)dx=e^x-2\\ln\\left(e^x+1\\right)+C$$\n\n(no absolute value needed since $e^x+1>0$). *Alternatively, with $u=e^x$:* $\\int\\frac{u-1}{u+1}du=\\int\\left(1-\\frac2{u+1}\\right)du=u-2\\ln(u+1)+C$."
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.1",
+    "12.5.2.2"
+   ],
+   "question": "A $2$-kilogram mass is moving in simple harmonic motion along the $x$-axis about the origin, with a period of $\\pi$ seconds. The greatest magnitude of the force acting on the mass during its motion is $24$ newtons. Show that $\\ddot x=-4x$ and the extremities of the mass' motion are $3$ metres from the centre of its motion.",
+   "answer": "SHM about the origin: $\\ddot x=-n^2x$ with period $\\dfrac{2\\pi}n=\\pi$, so $n=2$ and $\\ddot x=-4x$.\n\nThe force is $F=m\\ddot x=-8x$, so its magnitude is greatest at the extremities $x=\\pm a$ (amplitude $a$): $8a=24$, so $a=3$. The extremities are $3$ metres from the centre."
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.8"
+   ],
+   "question": "A $2$-kilogram mass moves in simple harmonic motion with $\\ddot x=-4x$ and extremities at $x=\\pm3$. By integrating $\\ddot x=-4x$, prove that $v^2=-4(x^2-9)$.",
+   "answer": "$\\ddot x=v\\dfrac{dv}{dx}=-4x$. At the extremity $x=-3$ (or $3$), $v=0$:\n\n$$\\int_0^vv\\,dv=-4\\int_{-3}^{x}x\\,dx\\ \\Rightarrow\\ \\frac{v^2}2=-2\\left(x^2-9\\right)\\ \\Rightarrow\\ v^2=-4\\left(x^2-9\\right).$$"
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.2",
+    "12.3.4.4"
+   ],
+   "question": "Let $z=\\cos\\theta+i\\sin\\theta$. Show that $z^n+z^{-n}=2\\cos n\\theta$.",
+   "answer": "By de Moivre's theorem (valid for all integers $n$), $z^n=\\cos n\\theta+i\\sin n\\theta$ and $z^{-n}=\\cos(-n\\theta)+i\\sin(-n\\theta)=\\cos n\\theta-i\\sin n\\theta$ (cosine is even, sine is odd). Adding, $z^n+z^{-n}=2\\cos n\\theta$."
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Given $z=\\cos\\theta+i\\sin\\theta$ and $z^n+z^{-n}=2\\cos n\\theta$, prove that $8\\cos^4\\theta-10\\cos^2\\theta+2=\\cos4\\theta-\\cos2\\theta$.",
+   "answer": "$(z+z^{-1})^4=z^4+4z^2+6+4z^{-2}+z^{-4}=(z^4+z^{-4})+4(z^2+z^{-2})+6$, so $(2\\cos\\theta)^4=2\\cos4\\theta+8\\cos2\\theta+6$, i.e. $8\\cos^4\\theta=\\cos4\\theta+4\\cos2\\theta+3$.\n\n$(z+z^{-1})^2=z^2+2+z^{-2}$, so $(2\\cos\\theta)^2=2\\cos2\\theta+2$, i.e. $\\cos^2\\theta=\\cos2\\theta/2+\\tfrac12$ and $10\\cos^2\\theta=5\\cos2\\theta+5$.\n\n$$8\\cos^4\\theta-10\\cos^2\\theta+2=(\\cos4\\theta+4\\cos2\\theta+3)-(5\\cos2\\theta+5)+2=\\cos4\\theta-\\cos2\\theta.$$"
+  },
+  {
+   "ref": "Q14(d)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.1.12",
+    "12.2.1.13"
+   ],
+   "question": "A spiral starts at the origin and completes two clockwise revolutions to end at $(0,2\\pi)$. Its position from $t=0$ to $t=T$ is shown in the diagram. The parametric equations of the spiral are $\\begin{cases}x=f(t)\\\\y=g(t)\\end{cases}$ for $t\\in[0,T]$. Find $f(t)$, $g(t)$ and $T$.",
+   "answer": "The distance from the origin grows steadily: the spiral crosses the axes at distances $\\frac\\pi4,\\frac\\pi2,\\frac{3\\pi}4,\\pi,\\ldots$ every quarter-turn ($\\frac\\pi2$ of angle), so the radius is $r=\\dfrac t2$ when the angle turned is $t$. Clockwise from the positive $y$-axis, the position is $(r\\sin t,\\ r\\cos t)$. Hence\n\n$$f(t)=\\frac t2\\sin t,\\qquad g(t)=\\frac t2\\cos t.$$\n\nCheck: $t=\\frac\\pi2$: $\\left(\\frac\\pi4,0\\right)$ ✓; $t=\\pi$: $\\left(0,-\\frac\\pi2\\right)$ ✓; $t=\\frac{3\\pi}2$: $\\left(-\\frac{3\\pi}4,0\\right)$ ✓. Two revolutions means $t$ runs through $4\\pi$, ending at $(0,2\\pi)$: $g(4\\pi)=2\\pi$ ✓. So $T=4\\pi$.",
+   "images": [
+    "assets/img/ext2-2025-hills-grammar/q14d.png"
+   ]
+  },
+  {
+   "ref": "Q14(d)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.1.13"
+   ],
+   "question": "A spiral is given by $x=f(t)=\\dfrac t2\\sin t$, $y=g(t)=\\dfrac t2\\cos t$ for $t\\in[0,4\\pi]$ (two clockwise revolutions from the origin to $(0,2\\pi)$, as in the diagram). The parametric equations of a second spiral are $\\begin{cases}x=g(t)\\\\y=f(t)\\end{cases}$ for $t\\in\\left[0,\\dfrac T2\\right]$, where $T=4\\pi$. If the second spiral were drawn on the same axes, how many points of intersection would it have with the first spiral?",
+   "answer": "**3 points.** The second spiral is $\\left(\\frac t2\\cos t,\\ \\frac t2\\sin t\\right)$ for $t\\in[0,2\\pi]$: a single anticlockwise spiral (the reflection of the first in the line $y=x$). A point on both spirals is at the same distance from the origin on each, so the parameters are equal, $t$ (the first spiral's point at parameter $s$ has distance $\\frac s2$ from the origin and the second's has $\\frac t2$, so $s=t$). Then $\\sin t=\\cos t$, i.e. $\\tan t=1$, giving $t=0,\\ \\dfrac\\pi4,\\ \\dfrac{5\\pi}4$ in $[0,2\\pi]$. That is the origin and two other points.",
+   "images": [
+    "assets/img/ext2-2025-hills-grammar/q14d.png"
+   ]
+  },
+  {
+   "ref": "Q15(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.1.3.2"
+   ],
+   "question": "For the positive real numbers $a$ and $b$, $a\\ne b$, it is given that $a^3+b^3=(a+b)(a^2-ab+b^2)$ and $(a-b)^2>0$. Using these facts, or otherwise, prove $a^3+b^3>ab(a+b)$.",
+   "answer": "$(a-b)^2>0\\Rightarrow a^2-2ab+b^2>0\\Rightarrow a^2-ab+b^2>ab$. Multiply by $a+b>0$: $(a+b)(a^2-ab+b^2)>ab(a+b)$, i.e. $a^3+b^3>ab(a+b)$."
+  },
+  {
+   "ref": "Q15(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "For positive real numbers $a,b,c$, no two of which are equal, it is given that $x^3+y^3>xy(x+y)$ for any two distinct positive reals $x,y$. Hence show that $2(a^3+b^3+c^3)>a^2(b+c)+b^2(a+c)+c^2(a+b)$.",
+   "answer": "Apply the result to each pair: $a^3+b^3>ab(a+b)=a^2b+ab^2$, $a^3+c^3>ac(a+c)=a^2c+ac^2$, $b^3+c^3>bc(b+c)=b^2c+bc^2$. Adding the three: $2(a^3+b^3+c^3)>a^2b+ab^2+a^2c+ac^2+b^2c+bc^2=a^2(b+c)+b^2(a+c)+c^2(a+b)$."
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.3.2"
+   ],
+   "question": "For the positive real numbers $a$ and $b$, with $a\\ne2b$, prove that $\\dfrac1{a-2b}\\ne\\dfrac1a-\\dfrac1{2b}$.",
+   "answer": "Suppose, for contradiction, that $\\dfrac1{a-2b}=\\dfrac1a-\\dfrac1{2b}=\\dfrac{2b-a}{2ab}=-\\dfrac{a-2b}{2ab}$. Cross-multiplying (valid as $a-2b\\ne0$): $2ab=-(a-2b)^2$, i.e. $-2ab=(a-2b)^2$. The left side is negative (as $a,b>0$) but the right side is positive (a square of a non-zero real). This is a contradiction. Hence $\\dfrac1{a-2b}\\ne\\dfrac1a-\\dfrac1{2b}$.\n\n*(Alternatively, the equation reduces to $a^2-2ab+4b^2=0$, i.e. $(a-b)^2+3b^2=0$, which has no solution for $b>0$.)*"
+  },
+  {
+   "ref": "Q15(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "The vectors $\\mathbf u$ and $\\mathbf v$ are defined as $\\mathbf u=\\mathbf a+m\\mathbf b$ and $\\mathbf v=m\\mathbf a-\\mathbf b$, where $\\mathbf a$ and $\\mathbf b$ are unit vectors and $m$ is a real constant. Given that the dot product of $\\mathbf u$ and $\\mathbf v$ is $1$, and that the acute angle between $\\mathbf a$ and $\\mathbf b$ is $\\dfrac\\pi3$, find the value of $m$.",
+   "answer": "$\\mathbf u\\cdot\\mathbf v=(\\mathbf a+m\\mathbf b)\\cdot(m\\mathbf a-\\mathbf b)=m|\\mathbf a|^2-\\mathbf a\\cdot\\mathbf b+m^2\\,\\mathbf a\\cdot\\mathbf b-m|\\mathbf b|^2=(m^2-1)\\,\\mathbf a\\cdot\\mathbf b$ (as $|\\mathbf a|=|\\mathbf b|=1$).\n\nSince $\\mathbf a\\cdot\\mathbf b=\\cos\\dfrac\\pi3=\\dfrac12$ and $\\mathbf u\\cdot\\mathbf v=1$: $\\dfrac{m^2-1}2=1$, so $m^2=3$ and $m=\\pm\\sqrt3$."
+  },
+  {
+   "ref": "Q15(d)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.5.2"
+   ],
+   "question": "A unit mass is projected vertically upward under gravity with a speed $S$ metres per second in a medium that exerts a resistance to motion equal to $kv$ newtons, where $k$ is a positive constant and $v$ is the upward velocity of the mass in metres per second. The acceleration due to gravity is $g\\text{ m s}^{-2}$, where $g>0$. If the particle reaches its greatest height in time $T$ seconds, show for $0\\le t\\le T$ that $v=\\dfrac{g\\left(e^{k(T-t)}-1\\right)}{k}$.",
+   "answer": "Take upward as positive. The forces are gravity $g$ and resistance $kv$, both downwards (while rising, $v>0$), and the mass is $1$, so\n\n$$\\ddot x=\\frac{dv}{dt}=-g-kv=-(g+kv).$$\n\nAt time $t$ the velocity is $v$, and at the top ($t=T$) it is $0$. Separate variables and integrate from $t$ to $T$:\n\n$$\\int_t^Tdt=-\\int_v^0\\frac{dv}{g+kv}\\ \\Rightarrow\\ T-t=-\\frac1k\\Big[\\ln(g+kv)\\Big]_v^0=\\frac1k\\ln\\left(\\frac{g+kv}{g}\\right).$$\n\nSo $e^{k(T-t)}=\\dfrac{g+kv}g$, giving $kv=g\\left(e^{k(T-t)}-1\\right)$, i.e. $v=\\dfrac{g\\left(e^{k(T-t)}-1\\right)}{k}$ for $0\\le t\\le T$."
+  },
+  {
+   "ref": "Q16(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Consider the integral $I_n=\\displaystyle\\int_0^1\\sqrt x(1-x)^n\\,dx$, $n=0,1,2,3,\\ldots$ Show that $I_n=\\dfrac{2n}{2n+3}I_{n-1}$ for $n=1,2,3,\\ldots$",
+   "answer": "By parts with $u=(1-x)^n$, $v'=\\sqrt x$: $u'=-n(1-x)^{n-1}$, $v=\\tfrac23x^{3/2}$.\n\n$$I_n=\\left[\\tfrac23x^{3/2}(1-x)^n\\right]_0^1+\\frac{2n}3\\int_0^1x^{3/2}(1-x)^{n-1}dx=0+\\frac{2n}{3}\\int_0^1\\sqrt x\\,\\big(1-(1-x)\\big)(1-x)^{n-1}dx$$\n\n$$=\\frac{2n}3\\int_0^1\\sqrt x(1-x)^{n-1}dx-\\frac{2n}3\\int_0^1\\sqrt x(1-x)^ndx=\\frac{2n}3I_{n-1}-\\frac{2n}3I_n.$$\n\nSo $3I_n=2nI_{n-1}-2nI_n$, $(2n+3)I_n=2nI_{n-1}$, i.e. $I_n=\\dfrac{2n}{2n+3}I_{n-1}$."
+  },
+  {
+   "ref": "Q16(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Given $I_n=\\displaystyle\\int_0^1\\sqrt x(1-x)^n\\,dx$ and $I_n=\\dfrac{2n}{2n+3}I_{n-1}$, evaluate $I_1$.",
+   "answer": "$I_1=\\dfrac25I_0=\\dfrac25\\displaystyle\\int_0^1\\sqrt x\\,dx=\\dfrac25\\left[\\dfrac23x^{3/2}\\right]_0^1=\\dfrac25\\cdot\\dfrac23=\\dfrac4{15}$."
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.4",
+    "12.3.2.6"
+   ],
+   "question": "The complex number $w$ lies on the unit circle with $\\text{Arg}(w)=\\theta$. Show that $\\dfrac{1+w}{1-w}=i\\cot\\dfrac\\theta2$.",
+   "answer": "Write $w=\\cos\\theta+i\\sin\\theta$ and use half-angles: $1+\\cos\\theta=2\\cos^2\\frac\\theta2$, $1-\\cos\\theta=2\\sin^2\\frac\\theta2$, $\\sin\\theta=2\\sin\\frac\\theta2\\cos\\frac\\theta2$.\n\n$$1+w=2\\cos\\frac\\theta2\\left(\\cos\\frac\\theta2+i\\sin\\frac\\theta2\\right),\\qquad 1-w=2\\sin\\frac\\theta2\\left(\\sin\\frac\\theta2-i\\cos\\frac\\theta2\\right)=-2i\\sin\\frac\\theta2\\left(\\cos\\frac\\theta2+i\\sin\\frac\\theta2\\right).$$\n\n$$\\frac{1+w}{1-w}=\\frac{2\\cos\\frac\\theta2}{-2i\\sin\\frac\\theta2}=\\frac{i\\cos\\frac\\theta2}{\\sin\\frac\\theta2}=i\\cot\\frac\\theta2$$\n\n(using $\\frac1{-i}=i$)."
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.3.4.7",
+    "12.3.4.12"
+   ],
+   "question": "Given that for $w=\\cos\\theta+i\\sin\\theta$, $\\dfrac{1+w}{1-w}=i\\cot\\dfrac\\theta2$, solve $\\left(\\dfrac{z-1}{z+1}\\right)^8=-1$.",
+   "answer": "Let $w=\\dfrac{z-1}{z+1}$, so $w^8=-1$ and $|w|=1$: $w=\\text{cis}\\dfrac{(2k+1)\\pi}8$, $k=-4,-3,\\ldots,3$. Solving $w=\\dfrac{z-1}{z+1}$ for $z$: $wz+w=z-1$, so $z(1-w)=1+w$ and $z=\\dfrac{1+w}{1-w}$ (valid as $w\\ne1$). By the previous result with $\\theta=\\dfrac{(2k+1)\\pi}{8}$:\n\n$$z=i\\cot\\left(\\frac{(2k+1)\\pi}{16}\\right),\\quad k=-4,\\ldots,3.$$\n\nSince $\\cot$ is odd, these are the eight solutions $z=\\pm i\\cot\\dfrac\\pi{16},\\ \\pm i\\cot\\dfrac{3\\pi}{16},\\ \\pm i\\cot\\dfrac{5\\pi}{16},\\ \\pm i\\cot\\dfrac{7\\pi}{16}$."
+  },
+  {
+   "ref": "Q16(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "$M$ and $P$ are two points with position vectors $\\overrightarrow{OM}=\\mathbf m$ and $\\overrightarrow{OP}=\\mathbf p$ respectively. $N$ is the midpoint of $MP$ and has position vector $\\overrightarrow{ON}=\\mathbf n$. $PQ$ is perpendicular to $MN$ and $\\overrightarrow{NQ}=\\lambda\\overrightarrow{ON}$, where $\\lambda\\in\\mathbb R$. Show that $\\lambda=\\dfrac{|\\mathbf m|^2+|\\mathbf n|^2-2\\,\\mathbf m\\cdot\\mathbf n}{|\\mathbf n|^2-\\mathbf m\\cdot\\mathbf n}$.",
+   "answer": "$N$ is the midpoint: $\\mathbf n=\\tfrac12(\\mathbf m+\\mathbf p)$, so $\\mathbf p=2\\mathbf n-\\mathbf m$. $\\overrightarrow{OQ}=\\overrightarrow{ON}+\\overrightarrow{NQ}=(1+\\lambda)\\mathbf n$.\n\n$\\overrightarrow{PQ}=\\overrightarrow{OQ}-\\overrightarrow{OP}=(1+\\lambda)\\mathbf n-2\\mathbf n+\\mathbf m=(\\lambda-1)\\mathbf n+\\mathbf m$, and $\\overrightarrow{MN}=\\mathbf n-\\mathbf m$.\n\n$PQ\\perp MN$: $\\left((\\lambda-1)\\mathbf n+\\mathbf m\\right)\\cdot(\\mathbf n-\\mathbf m)=0$\n\n$$(\\lambda-1)|\\mathbf n|^2-(\\lambda-1)\\,\\mathbf m\\cdot\\mathbf n+\\mathbf m\\cdot\\mathbf n-|\\mathbf m|^2=0$$\n\n$$\\lambda\\left(|\\mathbf n|^2-\\mathbf m\\cdot\\mathbf n\\right)=|\\mathbf n|^2-2\\,\\mathbf m\\cdot\\mathbf n+|\\mathbf m|^2\\ \\Rightarrow\\ \\lambda=\\frac{|\\mathbf m|^2+|\\mathbf n|^2-2\\,\\mathbf m\\cdot\\mathbf n}{|\\mathbf n|^2-\\mathbf m\\cdot\\mathbf n}.$$"
+  },
+  {
+   "ref": "Q16(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.4.1.15",
+    "12.4.1.6"
+   ],
+   "question": "Consider the curve $y=f(x)$, where $f(x)=\\dfrac1{1+\\cos x+\\sin x}$. The area of the region $R_1$, bounded by the $x$-axis, the $y$-axis, the line $x=\\dfrac\\pi2$ and the curve $y=f(x)$, is $\\ln2$ units$^2$. (Do NOT prove this.) The region $R_2$ is bounded by the $x$-axis, the line $x=\\dfrac\\pi2$ and the curve $y=x\\,f(x)$. Prove that the ratio of the area of $R_1$ to the area of $R_2$ is $4:\\pi$.",
+   "answer": "$A_1=\\ln2$ and $A_2=\\displaystyle\\int_0^{\\pi/2}x\\,f(x)\\,dx$. Substitute $u=\\dfrac\\pi2-x$ ($du=-dx$; limits swap):\n\n$$A_2=\\int_0^{\\pi/2}\\left(\\frac\\pi2-u\\right)f\\left(\\frac\\pi2-u\\right)du.$$\n\nSince $\\cos\\left(\\frac\\pi2-u\\right)=\\sin u$ and $\\sin\\left(\\frac\\pi2-u\\right)=\\cos u$, $f\\left(\\frac\\pi2-u\\right)=\\dfrac{1}{1+\\sin u+\\cos u}=f(u)$. Hence\n\n$$A_2=\\int_0^{\\pi/2}\\left(\\frac\\pi2-x\\right)f(x)\\,dx=\\frac\\pi2\\int_0^{\\pi/2}f(x)\\,dx-\\int_0^{\\pi/2}xf(x)\\,dx=\\frac\\pi2A_1-A_2.$$\n\nSo $2A_2=\\dfrac\\pi2\\ln2$, $A_2=\\dfrac\\pi4\\ln2$, and $A_1:A_2=\\ln2:\\dfrac\\pi4\\ln2=4:\\pi$."
+  }
+ ]
+}
