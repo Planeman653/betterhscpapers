@@ -1,0 +1,505 @@
+{
+ "id": "ext1-2025-blacktown-boys",
+ "course": "extension1",
+ "school": "Blacktown Boys",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "Blacktown Boys 2025 w. sol"
+ },
+ "indexed": "2026-11-24",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q6",
+   "reason": "Not in 2024 syllabus: pigeonhole principle"
+  },
+  {
+   "ref": "Q9",
+   "reason": "Not in 2024 syllabus: sample proportions"
+  },
+  {
+   "ref": "Q11(d)(iii)",
+   "reason": "Not in 2024 syllabus: normal approximation to the binomial distribution (explicitly excluded)"
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "reason": "Not in 2024 syllabus: normal approximation to the binomial distribution (explicitly excluded)"
+  },
+  {
+   "ref": "Q14(a)",
+   "reason": "Not in 2024 syllabus: graphing y = 1/sqrt(f(x)) (square-root / y^2 = f(x) type transformations removed)"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.12",
+    "12.3.1.3"
+   ],
+   "question": "Which function best describes the following graph?",
+   "options": [
+    "$y = \\dfrac{3}{4}\\sin^{-1}\\left(-\\dfrac{x}{2}\\right)$",
+    "$y = \\dfrac{3}{2}\\sin^{-1}\\left(-\\dfrac{x}{2}\\right)$",
+    "$y = \\dfrac{3}{4}\\sin^{-1}(-2x)$",
+    "$y = \\dfrac{3}{2}\\sin^{-1}(-2x)$"
+   ],
+   "correct": "B",
+   "answer": "The graph has domain $[-2, 2]$, so the argument is $-\\dfrac{x}{2}$ (eliminating C and D). Its range is $\\left[-\\dfrac{3\\pi}{4}, \\dfrac{3\\pi}{4}\\right]$, and since $\\sin^{-1}$ has range $\\left[-\\dfrac{\\pi}{2}, \\dfrac{\\pi}{2}\\right]$, the vertical dilation factor is $\\dfrac{3}{2}$. Hence $y = \\dfrac{3}{2}\\sin^{-1}\\left(-\\dfrac{x}{2}\\right)$, which is decreasing as shown.",
+   "images": [
+    "assets/img/ext1-2025-blacktown-boys/q1.png"
+   ]
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.4.10",
+    "12.2.4.9"
+   ],
+   "question": "Which of the following is the projection of $\\mathbf{a} = -2\\mathbf{i} - 3\\mathbf{j}$ onto $\\mathbf{b} = 5\\mathbf{i} - 4\\mathbf{j}$?",
+   "options": [
+    "$\\dfrac{10}{13}\\mathbf{i} - \\dfrac{8}{13}\\mathbf{j}$",
+    "$-\\dfrac{110}{13}\\mathbf{i} + \\dfrac{88}{13}\\mathbf{j}$",
+    "$\\dfrac{10}{41}\\mathbf{i} - \\dfrac{8}{41}\\mathbf{j}$",
+    "$-\\dfrac{110}{41}\\mathbf{i} + \\dfrac{88}{41}\\mathbf{j}$"
+   ],
+   "correct": "C",
+   "answer": "$$\\text{proj}_{\\mathbf{b}}\\mathbf{a} = \\frac{\\mathbf{a}\\cdot\\mathbf{b}}{|\\mathbf{b}|^2}\\,\\mathbf{b} = \\frac{(-2)(5) + (-3)(-4)}{5^2 + (-4)^2}(5\\mathbf{i} - 4\\mathbf{j}) = \\frac{2}{41}(5\\mathbf{i} - 4\\mathbf{j}) = \\frac{10}{41}\\mathbf{i} - \\frac{8}{41}\\mathbf{j}.$$"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.3"
+   ],
+   "question": "Which of the following is equivalent to $\\displaystyle\\int \\left(\\sin^2\\left(\\frac{x}{2}\\right) + 1\\right)dx$?",
+   "options": [
+    "$-\\dfrac{x}{2} - \\dfrac{1}{2}\\cos x + c$",
+    "$-\\dfrac{x}{2} + \\dfrac{1}{2}\\cos x + c$",
+    "$\\dfrac{3x}{2} - \\dfrac{1}{2}\\sin x + c$",
+    "$\\dfrac{3x}{2} + \\dfrac{1}{2}\\sin x + c$"
+   ],
+   "correct": "C",
+   "answer": "Using $\\sin^2\\left(\\dfrac{x}{2}\\right) = \\dfrac{1}{2}(1 - \\cos x)$:\n$$\\int\\left(\\frac{1}{2} - \\frac{1}{2}\\cos x + 1\\right)dx = \\int\\left(\\frac{3}{2} - \\frac{1}{2}\\cos x\\right)dx = \\frac{3x}{2} - \\frac{1}{2}\\sin x + c.$$\n\n*Note: the school's working writes $\\sin^2\\left(\\frac{x}{2}\\right) = \\frac{1}{2} + \\frac{1}{2}\\cos x$ (sign error); the correct identity has $-\\frac{1}{2}\\cos x$, which gives their final answer C.*"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.9",
+    "12.5.4.4"
+   ],
+   "question": "The direction field shown below best represents which differential equation?",
+   "options": [
+    "$\\dfrac{dy}{dx} = \\dfrac{y-1}{x}$",
+    "$\\dfrac{dy}{dx} = \\dfrac{y-1}{x^2}$",
+    "$\\dfrac{dy}{dx} = \\dfrac{x}{y-1}$",
+    "$\\dfrac{dy}{dx} = \\dfrac{x^2}{y-1}$"
+   ],
+   "correct": "B",
+   "answer": "The slopes are vertical along $x = 0$ and horizontal along $y = 1$, so $x$ is in the denominator and $y - 1$ in the numerator (eliminating C and D). In the second quadrant region $x < 0$, $y > 1$ the slopes are positive: $\\dfrac{y-1}{x^2} > 0$ there, whereas $\\dfrac{y-1}{x} < 0$. Hence B.",
+   "images": [
+    "assets/img/ext1-2025-blacktown-boys/q4.png"
+   ]
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.1",
+    "11.2.1.12"
+   ],
+   "question": "Given that $P(x) = x^3 + x^2 - 8x - 12$ has a double root at $x = -2$, which of the following is the solution to $P(x) < 0$?",
+   "options": [
+    "$x < -2$",
+    "$x < 3$",
+    "$-2 < x < 3$",
+    "$x < -2,\\ -2 < x < 3$"
+   ],
+   "correct": "D",
+   "answer": "Since $(x+2)^2 = x^2 + 4x + 4$ is a factor, $P(x) = (x+2)^2(x-3)$. As $(x+2)^2 \\ge 0$, $P(x) < 0$ exactly when $x - 3 < 0$ and $x \\ne -2$: that is, $x < -2$ or $-2 < x < 3$."
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.3",
+    "11.3.3.5"
+   ],
+   "question": "The displacement $x$ of a particle at time $t$ is given by $x = 20\\sin 2t + 21\\cos 2t$. What is the maximum speed of the particle?",
+   "options": [
+    "58",
+    "54",
+    "42",
+    "29"
+   ],
+   "correct": "A",
+   "answer": "$x = 20\\sin 2t + 21\\cos 2t = 29\\sin(2t + \\alpha)$ where $\\sqrt{20^2 + 21^2} = 29$ and $\\alpha = \\tan^{-1}\\dfrac{21}{20}$.\nThen $v = \\dfrac{dx}{dt} = 58\\cos(2t + \\alpha)$, so the maximum speed is $58$."
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.11",
+    "11.4.1.18"
+   ],
+   "question": "In how many ways can 8 people from a group of 21 people be chosen and then arranged in a circle?",
+   "options": [
+    "$\\dfrac{20!}{12!}$",
+    "$\\dfrac{20!}{12!\\times 8}$",
+    "$\\dfrac{21!}{13!}$",
+    "$\\dfrac{21!}{13!\\times 8}$"
+   ],
+   "correct": "D",
+   "answer": "Choose the 8 people in $\\binom{21}{8}$ ways, then arrange them in a circle in $7!$ ways:\n$$\\binom{21}{8}\\times 7! = \\frac{21!}{8!\\,13!}\\times 7! = \\frac{21!}{13!\\times 8}.$$"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.10",
+    "12.5.4.5"
+   ],
+   "question": "The differential equation $\\left(\\dfrac{dy}{dx}\\right)^2 + k\\dfrac{dy}{dx} + 1 = 0$ has exactly one solution for $\\dfrac{dy}{dx}$, where $k > 0$, and $y = 1$ when $x = 1$. A solution to the differential equation is",
+   "options": [
+    "$x + y = 2$",
+    "$2x - y = 1$",
+    "$y = e^{x-1}$",
+    "$y = 1 + \\log_e x$"
+   ],
+   "correct": "A",
+   "answer": "As a quadratic in $\\dfrac{dy}{dx}$ with exactly one solution, $\\Delta = k^2 - 4 = 0$, so $k = 2$ (since $k > 0$). Then $\\left(\\dfrac{dy}{dx} + 1\\right)^2 = 0$, so $\\dfrac{dy}{dx} = -1$ and $y = -x + c$. Using $(1, 1)$: $c = 2$, so $y = 2 - x$, i.e. $x + y = 2$."
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7",
+    "12.4.1.6"
+   ],
+   "question": "Given that $f(x) = e^x\\cos^{-1}(2x)$, find $f'(x)$.",
+   "answer": "By the product rule,\n$$f'(x) = e^x\\cos^{-1}(2x) + e^x\\times\\left(-\\frac{2}{\\sqrt{1 - 4x^2}}\\right) = e^x\\left(\\cos^{-1}(2x) - \\frac{2}{\\sqrt{1 - 4x^2}}\\right).$$"
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Given that $f(x) = e^x\\cos^{-1}(2x)$, so that $f'(x) = e^x\\left(\\cos^{-1}(2x) - \\dfrac{2}{\\sqrt{1 - 4x^2}}\\right)$, find the exact gradient of the tangent to $y = f(x)$ at the point where $x = 0$.",
+   "answer": "$$m = f'(0) = e^0\\left(\\cos^{-1}0 - \\frac{2}{\\sqrt{1 - 0}}\\right) = \\frac{\\pi}{2} - 2.$$"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Solve $\\dfrac{6}{1 - 2x} \\le 5$.",
+   "answer": "Note $x \\ne \\dfrac{1}{2}$. Multiply both sides by $(1 - 2x)^2 > 0$:\n$$6(1 - 2x) \\le 5(1 - 2x)^2$$\n$$(1 - 2x)\\big(6 - 5(1 - 2x)\\big) \\le 0$$\n$$(1 - 2x)(1 + 10x) \\le 0.$$\nThis is a concave-down parabola in $x$ with zeros $x = -\\dfrac{1}{10}$ and $x = \\dfrac{1}{2}$, so it is $\\le 0$ outside the zeros. Excluding $x = \\dfrac{1}{2}$:\n$$x \\le -\\frac{1}{10} \\quad\\text{or}\\quad x > \\frac{1}{2}.$$"
+  },
+  {
+   "ref": "Q11(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.1.8"
+   ],
+   "question": "In how many different ways can all the letters of the word PINEAPPLE be arranged in a line?",
+   "answer": "There are 9 letters, including 3 Ps and 2 Es:\n$$\\frac{9!}{3!\\,2!} = 30\\,240.$$"
+  },
+  {
+   "ref": "Q11(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.19",
+    "11.4.1.9"
+   ],
+   "question": "The letters of the word PINEAPPLE are arranged at random in a line. What is the probability that the arrangement has the three Ps together?",
+   "answer": "Total arrangements: $\\dfrac{9!}{3!\\,2!} = 30\\,240$.\n\nTreat PPP as one block. Arrange the block with I, N, E, A, L, E (7 items, with 2 Es): $\\dfrac{7!}{2!} = 2520$ ways.\n$$P = \\frac{2520}{30\\,240} = \\frac{1}{12}.$$"
+  },
+  {
+   "ref": "Q11(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.2.8"
+   ],
+   "question": "A customer service centre records every call it receives. It is found that $30\\%$ of all calls made to this centre are complaints. A sample of $2100$ calls is selected, and the number of calls in the sample which are complaints is denoted by the random variable $X$. Find the expected value $E(X)$.",
+   "answer": "$X \\sim \\text{Bin}(2100, 0.3)$, so $E(X) = np = 2100 \\times 0.3 = 630$."
+  },
+  {
+   "ref": "Q11(d)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.2.8"
+   ],
+   "question": "A customer service centre records every call it receives. It is found that $30\\%$ of all calls made to this centre are complaints. A sample of $2100$ calls is selected, and the number of calls in the sample which are complaints is denoted by the random variable $X$. Find the standard deviation of $X$.",
+   "answer": "$X \\sim \\text{Bin}(2100, 0.3)$, so\n$$\\sigma = \\sqrt{np(1-p)} = \\sqrt{2100 \\times 0.3 \\times 0.7} = \\sqrt{441} = 21.$$"
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Using the substitution $u = 2 - x$, find $\\displaystyle\\int 3x(2 - x)\\,dx$.",
+   "answer": "$u = 2 - x$, so $x = 2 - u$ and $du = -dx$.\n$$\\int 3x(2 - x)\\,dx = \\int 3(2 - u)u\\,(-du) = \\int (3u^2 - 6u)\\,du = u^3 - 3u^2 + c = (2 - x)^3 - 3(2 - x)^2 + c.$$\n(Check: $\\dfrac{d}{dx}\\left[(2-x)^3 - 3(2-x)^2\\right] = -3(2-x)^2 + 6(2-x) = 3x(2-x)$.)"
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.1.13"
+   ],
+   "question": "Show that $^{n}C_{2} = \\dfrac{n(n-1)}{2}$.",
+   "answer": "$$^{n}C_{2} = \\frac{n!}{2!\\,(n-2)!} = \\frac{n(n-1)(n-2)!}{2\\,(n-2)!} = \\frac{n(n-1)}{2}.$$"
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.13"
+   ],
+   "question": "Using $^{n}C_{2} = \\dfrac{n(n-1)}{2}$, solve for $n$ where $2 \\times {}^{n}C_{4} = 51 \\times {}^{n}C_{2}$.",
+   "answer": "$$2 \\times \\frac{n(n-1)(n-2)(n-3)}{4!} = 51 \\times \\frac{n(n-1)}{2}.$$\nSince $n \\ge 4$, divide by $n(n-1)$:\n$$\\frac{(n-2)(n-3)}{12} = \\frac{51}{2} \\implies (n-2)(n-3) = 306$$\n$$n^2 - 5n - 300 = 0 \\implies (n - 20)(n + 15) = 0.$$\nSince $n > 0$, $n = 20$."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "Prove by mathematical induction that $3^{2n} + 16n - 1$ is divisible by $8$ for all positive integers $n$.",
+   "answer": "**Base case** $n = 1$: $3^2 + 16 - 1 = 24 = 8 \\times 3$, divisible by 8.\n\n**Inductive step.** Assume true for $n = k$ ($k$ a positive integer): $3^{2k} + 16k - 1 = 8P$ for some integer $P$, i.e. $3^{2k} = 8P - 16k + 1$.\n\nConsider $n = k + 1$:\n$$3^{2k+2} + 16(k+1) - 1 = 9 \\times 3^{2k} + 16k + 15 = 9(8P - 16k + 1) + 16k + 15$$\n$$= 72P - 128k + 24 = 8(9P - 16k + 3),$$\nwhich is divisible by 8 since $9P - 16k + 3$ is an integer.\n\nHence, by mathematical induction, the statement is true for all positive integers $n$."
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.6"
+   ],
+   "question": "Onirban throws a ball at a target 15 times. Each time Onirban throws the ball, the probability of the ball hitting the target is $0.48$. Find the probability that Onirban hits the target exactly 3 times, correct to 4 decimal places.",
+   "answer": "Let $X \\sim \\text{Bin}(15, 0.48)$.\n$$P(X = 3) = \\binom{15}{3}(0.48)^3(0.52)^{12} = 455 \\times 0.48^3 \\times 0.52^{12} = 0.019668\\ldots \\approx 0.0197.$$"
+  },
+  {
+   "ref": "Q12(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.2",
+    "11.3.3.3"
+   ],
+   "question": "Express $\\sin 2x - \\sqrt{3}\\cos 2x$ in the form $A\\sin(2x - \\alpha)$, where $A > 0$ and $0 < \\alpha < \\dfrac{\\pi}{2}$.",
+   "answer": "$A\\sin(2x - \\alpha) = A\\sin 2x\\cos\\alpha - A\\cos 2x\\sin\\alpha$, so\n$$A\\cos\\alpha = 1, \\qquad A\\sin\\alpha = \\sqrt{3}.$$\nSquaring and adding: $A^2 = 1 + 3 = 4$, so $A = 2$. Dividing: $\\tan\\alpha = \\sqrt{3}$, so $\\alpha = \\dfrac{\\pi}{3}$.\n$$\\sin 2x - \\sqrt{3}\\cos 2x = 2\\sin\\left(2x - \\frac{\\pi}{3}\\right).$$"
+  },
+  {
+   "ref": "Q12(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.3",
+    "11.3.3.1"
+   ],
+   "question": "Given that $\\sin 2x - \\sqrt{3}\\cos 2x = 2\\sin\\left(2x - \\dfrac{\\pi}{3}\\right)$, solve $\\sin 2x - \\sqrt{3}\\cos 2x + \\sqrt{2} = 0$ for $0 \\le x \\le 2\\pi$.",
+   "answer": "$$2\\sin\\left(2x - \\frac{\\pi}{3}\\right) = -\\sqrt{2} \\implies \\sin\\left(2x - \\frac{\\pi}{3}\\right) = -\\frac{\\sqrt{2}}{2},$$\nwhere $0 \\le x \\le 2\\pi$ gives $-\\dfrac{\\pi}{3} \\le 2x - \\dfrac{\\pi}{3} \\le \\dfrac{11\\pi}{3}$.\n\nThe related angle is $\\dfrac{\\pi}{4}$ (third and fourth quadrants):\n$$2x - \\frac{\\pi}{3} = -\\frac{\\pi}{4},\\ \\frac{5\\pi}{4},\\ \\frac{7\\pi}{4},\\ \\frac{13\\pi}{4}$$\n$$2x = \\frac{\\pi}{12},\\ \\frac{19\\pi}{12},\\ \\frac{25\\pi}{12},\\ \\frac{43\\pi}{12}$$\n$$x = \\frac{\\pi}{24},\\ \\frac{19\\pi}{24},\\ \\frac{25\\pi}{24},\\ \\frac{43\\pi}{24}.$$"
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "$OABC$ is a parallelogram, where $\\overrightarrow{OA} = \\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix}$ and $\\overrightarrow{OC} = \\begin{pmatrix} 4 \\\\ 0 \\end{pmatrix}$.\n\nFind the size of angle $OAB$, to the nearest minute.",
+   "answer": "Let $\\theta = \\angle OAB$. Here $\\overrightarrow{AO} = \\begin{pmatrix} -1 \\\\ -2 \\end{pmatrix}$ and $\\overrightarrow{AB} = \\overrightarrow{OC} = \\begin{pmatrix} 4 \\\\ 0 \\end{pmatrix}$.\n$$\\cos\\theta = \\frac{\\overrightarrow{AO}\\cdot\\overrightarrow{AB}}{|\\overrightarrow{AO}|\\,|\\overrightarrow{AB}|} = \\frac{(-1)(4) + (-2)(0)}{\\sqrt{5}\\times 4} = -\\frac{1}{\\sqrt{5}}$$\n$$\\theta = 116^\\circ 33' 54'' \\approx 116^\\circ 34'.$$",
+   "images": [
+    "assets/img/ext1-2025-blacktown-boys/q13a.png"
+   ]
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.3",
+    "12.2.3.7"
+   ],
+   "question": "$OABC$ is a parallelogram, where $\\overrightarrow{OA} = \\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix}$ and $\\overrightarrow{OC} = \\begin{pmatrix} 4 \\\\ 0 \\end{pmatrix}$.\n\nGiven that $\\cos\\angle OAB = -\\dfrac{1}{\\sqrt{5}}$, find the exact area of the parallelogram $OABC$.",
+   "answer": "With $\\cos\\theta = -\\dfrac{1}{\\sqrt{5}}$ and $\\theta$ obtuse, $\\sin\\theta = \\sqrt{1 - \\dfrac{1}{5}} = \\dfrac{2}{\\sqrt{5}}$.\n\nThe parallelogram is twice triangle $OAB$:\n$$\\text{Area} = 2 \\times \\frac{1}{2}|\\overrightarrow{AO}|\\,|\\overrightarrow{AB}|\\sin\\theta = \\sqrt{5} \\times 4 \\times \\frac{2}{\\sqrt{5}} = 8 \\text{ units}^2.$$",
+   "images": [
+    "assets/img/ext1-2025-blacktown-boys/q13a.png"
+   ]
+  },
+  {
+   "ref": "Q13(a)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.6",
+    "12.2.1.7"
+   ],
+   "question": "$OABC$ is a parallelogram, where $\\overrightarrow{OA} = \\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix}$ and $\\overrightarrow{OC} = \\begin{pmatrix} 4 \\\\ 0 \\end{pmatrix}$.\n\n$X$ is a point on $OB$ such that $\\overrightarrow{OX} = k\\overrightarrow{OB}$, where $0 < k < 1$. Use vectors to determine the value of $k$ for which $\\overrightarrow{AX} = \\overrightarrow{XC}$.",
+   "answer": "$\\overrightarrow{OB} = \\overrightarrow{OA} + \\overrightarrow{AB} = \\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix} + \\begin{pmatrix} 4 \\\\ 0 \\end{pmatrix} = \\begin{pmatrix} 5 \\\\ 2 \\end{pmatrix}$, so $\\overrightarrow{OX} = k\\begin{pmatrix} 5 \\\\ 2 \\end{pmatrix}$.\n$$\\overrightarrow{AX} = \\overrightarrow{OX} - \\overrightarrow{OA} = k\\begin{pmatrix} 5 \\\\ 2 \\end{pmatrix} - \\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix}, \\qquad \\overrightarrow{XC} = \\overrightarrow{OC} - \\overrightarrow{OX} = \\begin{pmatrix} 4 \\\\ 0 \\end{pmatrix} - k\\begin{pmatrix} 5 \\\\ 2 \\end{pmatrix}.$$\nSetting $\\overrightarrow{AX} = \\overrightarrow{XC}$:\n- $i$-components: $5k - 1 = 4 - 5k \\implies k = \\dfrac{1}{2}$\n- $j$-components: $2k - 2 = -2k \\implies k = \\dfrac{1}{2}$ (consistent).\n\nHence $k = \\dfrac{1}{2}$.",
+   "images": [
+    "assets/img/ext1-2025-blacktown-boys/q13a.png"
+   ]
+  },
+  {
+   "ref": "Q13(a)(iv)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.7",
+    "12.2.3.4"
+   ],
+   "question": "$OABC$ is a parallelogram, where $\\overrightarrow{OA} = \\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix}$ and $\\overrightarrow{OC} = \\begin{pmatrix} 4 \\\\ 0 \\end{pmatrix}$.\n\n$X$ is the point on $OB$ with $\\overrightarrow{OX} = k\\overrightarrow{OB}$, and it is known that $\\overrightarrow{AX} = \\overrightarrow{XC}$ exactly when $k = \\dfrac{1}{2}$. Hence show that the diagonals of the parallelogram $OABC$ bisect each other.",
+   "answer": "With $k = \\dfrac{1}{2}$, $X$ is the midpoint of $OB$ and\n$$\\overrightarrow{AX} = \\frac{1}{2}\\begin{pmatrix} 5 \\\\ 2 \\end{pmatrix} - \\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix} = \\begin{pmatrix} 1.5 \\\\ -1 \\end{pmatrix}, \\qquad \\overrightarrow{XC} = \\begin{pmatrix} 4 \\\\ 0 \\end{pmatrix} - \\frac{1}{2}\\begin{pmatrix} 5 \\\\ 2 \\end{pmatrix} = \\begin{pmatrix} 1.5 \\\\ -1 \\end{pmatrix}.$$\nSince $\\overrightarrow{AX} = \\overrightarrow{XC}$, $X$ lies on $AC$ with $AX = XC$, so $X$ is also the midpoint of $AC$. The diagonals $OB$ and $AC$ meet at their common midpoint $X$, so they bisect each other.",
+   "images": [
+    "assets/img/ext1-2025-blacktown-boys/q13a.png"
+   ]
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "Find the particular solution to the differential equation\n$$\\frac{dy}{dx} = \\frac{\\sqrt{6y - 5}}{x^2}, \\quad x \\ne 0,\\ y > \\frac{5}{6}$$\nthat passes through the point $(1, 1)$. Express $y$ in terms of $x$.",
+   "answer": "Separating variables:\n$$\\int (6y - 5)^{-\\frac{1}{2}}\\,dy = \\int x^{-2}\\,dx$$\n$$\\frac{(6y - 5)^{\\frac{1}{2}}}{6 \\times \\frac{1}{2}} = -\\frac{1}{x} + c \\implies \\frac{\\sqrt{6y - 5}}{3} = -\\frac{1}{x} + c.$$\nAt $(1, 1)$: $\\dfrac{1}{3} = -1 + c$, so $c = \\dfrac{4}{3}$.\n$$\\sqrt{6y - 5} = 4 - \\frac{3}{x} \\implies 6y - 5 = \\left(4 - \\frac{3}{x}\\right)^2$$\n$$y = \\frac{1}{6}\\left(\\left(4 - \\frac{3}{x}\\right)^2 + 5\\right)$$\n(valid where $4 - \\dfrac{3}{x} > 0$, i.e. $x > \\dfrac{3}{4}$ on the branch through $(1,1)$)."
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2",
+    "12.4.2.1"
+   ],
+   "question": "Use the substitution $u = (2x + 1)^2$ to find the exact value of\n$$\\int_0^1 \\left(\\frac{6x + 3}{1 + (2x + 1)^4} + \\frac{2x + 1}{1 + (2x + 1)^2}\\right)dx.$$",
+   "answer": "$u = (2x + 1)^2$, so $du = 4(2x + 1)\\,dx$. When $x = 0$, $u = 1$; when $x = 1$, $u = 9$.\n\nSince $(6x + 3)\\,dx = 3(2x + 1)\\,dx = \\dfrac{3}{4}du$ and $(2x + 1)\\,dx = \\dfrac{1}{4}du$:\n$$I = \\frac{3}{4}\\int_1^9 \\frac{du}{1 + u^2} + \\frac{1}{4}\\int_1^9 \\frac{du}{1 + u}$$\n$$= \\frac{3}{4}\\Big[\\tan^{-1}u\\Big]_1^9 + \\frac{1}{4}\\Big[\\ln(1 + u)\\Big]_1^9$$\n$$= \\frac{3}{4}\\left(\\tan^{-1}9 - \\frac{\\pi}{4}\\right) + \\frac{1}{4}(\\ln 10 - \\ln 2) = \\frac{3}{4}\\left(\\tan^{-1}9 - \\frac{\\pi}{4}\\right) + \\frac{1}{4}\\ln 5.$$"
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "The figure shows the graph of the curve $C$ with equation $y = \\dfrac{12}{x - 3}$, $x \\ne 3$.\n\nThe points $P$ and $Q$ lie on $C$ where $x = 4$ and $x = 9$ respectively. The shaded region $R$ is bounded by the curve, the $y$-axis and the two horizontal lines passing through the points $P$ and $Q$. Find the exact volume of the solid of revolution when the region $R$ is rotated about the $y$-axis.",
+   "answer": "At $x = 4$, $y = 12$; at $x = 9$, $y = 2$. Making $x$ the subject: $x = \\dfrac{12}{y} + 3$, so\n$$x^2 = \\frac{144}{y^2} + \\frac{72}{y} + 9.$$\n$$V = \\pi\\int_2^{12}\\left(\\frac{144}{y^2} + \\frac{72}{y} + 9\\right)dy = \\pi\\left[-\\frac{144}{y} + 72\\ln y + 9y\\right]_2^{12}$$\n$$= \\pi\\Big[(-12 + 72\\ln 12 + 108) - (-72 + 72\\ln 2 + 18)\\Big] = \\pi(150 + 72\\ln 6) \\text{ units}^3.$$",
+   "images": [
+    "assets/img/ext1-2025-blacktown-boys/q14b.png"
+   ]
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.13",
+    "12.5.4.16"
+   ],
+   "question": "Points scored in the long jump event of a competition can be calculated using a solution of the differential equation\n$$(m - 220)\\frac{dP}{dm} = 1.5P, \\quad m > 220$$\nwhere $m$ is the distance jumped in centimetres and $P$ the points scored.\n\nGiven that a jump of $544$ centimetres scored $756$ points, find an expression for $P$ in terms of $m$ and determine the distance in centimetres jumped to have a score of $1792$ points.",
+   "answer": "Separating variables:\n$$\\int\\frac{1}{P}\\,dP = 1.5\\int\\frac{1}{m - 220}\\,dm \\implies \\ln P = 1.5\\ln(m - 220) + c \\quad (P > 0,\\ m > 220)$$\n$$P = A(m - 220)^{1.5}.$$\nAt $m = 544$, $P = 756$: $756 = A \\times 324^{1.5} = 5832A$, so $A = \\dfrac{756}{5832} = \\dfrac{7}{54}$.\n$$P = \\frac{7}{54}(m - 220)^{1.5}.$$\nFor $P = 1792$:\n$$(m - 220)^{\\frac{3}{2}} = 1792 \\times \\frac{54}{7} = 13\\,824 \\implies m - 220 = 13\\,824^{\\frac{2}{3}} = 24^2 = 576$$\n$$m = 796 \\text{ cm}.$$"
+  },
+  {
+   "ref": "Q14(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.1",
+    "11.3.1.3"
+   ],
+   "question": "$PQ$ and $SR$ are two vertical towers of height $0.7$ km, with feet $Q$ and $R$ on level ground. $Q$ is $10$ km due North of $R$. A vehicle at $T$ is travelling due East away from $Q$ at a constant speed of $10$ km/h. Let the distance $QT$ be $x$, the distance $PT$ be $k$ and $\\angle PTS = \\theta$ (as in the diagram, $\\angle SPT = 90^\\circ$).\n\nShow that\n$$\\frac{dk}{dt} = \\frac{10x}{\\sqrt{x^2 + 0.49}}.$$",
+   "answer": "In right triangle $PQT$: $k^2 = x^2 + 0.7^2$, so $k = (x^2 + 0.49)^{\\frac{1}{2}}$ and\n$$\\frac{dk}{dx} = \\frac{1}{2}\\times 2x(x^2 + 0.49)^{-\\frac{1}{2}} = \\frac{x}{\\sqrt{x^2 + 0.49}}.$$\nWith $\\dfrac{dx}{dt} = 10$:\n$$\\frac{dk}{dt} = \\frac{dk}{dx}\\times\\frac{dx}{dt} = \\frac{10x}{\\sqrt{x^2 + 0.49}}.$$",
+   "images": [
+    "assets/img/ext1-2025-blacktown-boys/q14d.png"
+   ]
+  },
+  {
+   "ref": "Q14(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.3",
+    "12.5.2.1"
+   ],
+   "question": "$PQ$ and $SR$ are two vertical towers of height $0.7$ km, with feet $Q$ and $R$ on level ground. $Q$ is $10$ km due North of $R$. A vehicle at $T$ is travelling due East away from $Q$ at a constant speed of $10$ km/h. Let the distance $QT$ be $x$, the distance $PT$ be $k$ and $\\angle PTS = \\theta$ (as in the diagram, $\\angle SPT = 90^\\circ$).\n\nShow that\n$$\\frac{dk}{d\\theta} = -10\\,\\text{cosec}^2\\,\\theta.$$",
+   "answer": "$PS = RQ = 10$ km (the towers have equal heights, so $PS$ is parallel to $RQ$), and $\\angle SPT = 90^\\circ$. In right triangle $SPT$:\n$$\\tan\\theta = \\frac{PS}{PT} = \\frac{10}{k} \\implies k = 10(\\tan\\theta)^{-1}.$$\n$$\\frac{dk}{d\\theta} = -10\\sec^2\\theta\\,(\\tan\\theta)^{-2} = -10\\times\\frac{1}{\\cos^2\\theta}\\times\\frac{\\cos^2\\theta}{\\sin^2\\theta} = -\\frac{10}{\\sin^2\\theta} = -10\\,\\text{cosec}^2\\,\\theta.$$",
+   "images": [
+    "assets/img/ext1-2025-blacktown-boys/q14d.png"
+   ]
+  },
+  {
+   "ref": "Q14(d)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.1",
+    "11.3.1.3"
+   ],
+   "question": "$PQ$ and $SR$ are two vertical towers of height $0.7$ km, with feet $Q$ and $R$ on level ground. $Q$ is $10$ km due North of $R$. A vehicle at $T$ is travelling due East away from $Q$ at a constant speed of $10$ km/h. Let the distance $QT$ be $x$, the distance $PT$ be $k$ and $\\angle PTS = \\theta$ (as in the diagram, $\\angle SPT = 90^\\circ$).\n\nGiven that $\\dfrac{dk}{dt} = \\dfrac{10x}{\\sqrt{x^2 + 0.49}}$, $\\dfrac{dk}{d\\theta} = -10\\,\\text{cosec}^2\\,\\theta$ and $\\tan\\theta = \\dfrac{10}{k}$, find the exact rate at which $\\theta$ is changing when the vehicle is $2.4$ km from $Q$.",
+   "answer": "When $x = 2.4$: $k = \\sqrt{2.4^2 + 0.7^2} = \\sqrt{6.25} = \\dfrac{5}{2}$, so $\\tan\\theta = \\dfrac{10}{5/2} = 4$ and\n$$\\text{cosec}^2\\theta = 1 + \\cot^2\\theta = 1 + \\frac{1}{16} = \\frac{17}{16}.$$\nAlso $\\dfrac{dk}{dt} = \\dfrac{10 \\times 2.4}{5/2} = \\dfrac{48}{5}$.\n$$\\frac{d\\theta}{dt} = \\frac{d\\theta}{dk}\\times\\frac{dk}{dt} = \\frac{1}{-10\\times\\frac{17}{16}}\\times\\frac{48}{5} = -\\frac{8}{85}\\times\\frac{48}{5} = -\\frac{384}{425}\\text{ rad/h}.$$\nSo $\\theta$ is decreasing at $\\dfrac{384}{425}$ radians per hour.",
+   "images": [
+    "assets/img/ext1-2025-blacktown-boys/q14d.png"
+   ]
+  }
+ ]
+}

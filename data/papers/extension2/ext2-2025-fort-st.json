@@ -1,0 +1,619 @@
+{
+ "id": "ext2-2025-fort-st",
+ "course": "extension2",
+ "school": "Fort St",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "Fort St 2025 w. sol"
+ },
+ "indexed": "2026-11-24",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.4"
+   ],
+   "question": "Which of the following vectors is parallel to the vector $3\\mathbf{i} - 4\\mathbf{j} + 2\\mathbf{k}$?",
+   "options": [
+    "$27\\mathbf{i} - 12\\mathbf{j} + 6\\mathbf{k}$",
+    "$21\\mathbf{i} - 28\\mathbf{j} + 14\\mathbf{k}$",
+    "$15\\mathbf{i} - 20\\mathbf{j} - 10\\mathbf{k}$",
+    "$24\\mathbf{i} - 28\\mathbf{j} + 16\\mathbf{k}$"
+   ],
+   "correct": "B",
+   "answer": "$7(3\\mathbf{i} - 4\\mathbf{j} + 2\\mathbf{k}) = 21\\mathbf{i} - 28\\mathbf{j} + 14\\mathbf{k}$, a scalar multiple, so it is parallel. None of the others is a multiple of $(3,-4,2)$. Hence B.",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.12",
+    "12.1.1.11"
+   ],
+   "question": "Consider the following statement.\n\n> 'If it rains, then the ground will be wet.'\n\nWhich of the following is logically equivalent to the statement above?",
+   "options": [
+    "If the ground is wet, then it has rained.",
+    "If the ground is not wet, then it will rain.",
+    "If the ground is not wet, then it has not rained.",
+    "If it does not rain then the ground will not be wet."
+   ],
+   "correct": "C",
+   "answer": "An implication is equivalent to its contrapositive $\\neg Q \\Rightarrow \\neg P$: 'If the ground is not wet, then it has not rained.' (A is the converse, D is the inverse.) Hence C."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.5.3",
+    "12.3.2.3"
+   ],
+   "question": "It is given that $|z - 1 - i| = 1$. What is the maximum value of $\\text{Arg}(z)$?",
+   "options": [
+    "$0$",
+    "$\\dfrac{\\pi}{4}$",
+    "$\\dfrac{\\pi}{2}$",
+    "$\\pi$"
+   ],
+   "correct": "C",
+   "answer": "$|z-1-i| = 1$ is the circle with centre $(1,1)$ and radius $1$, which touches the imaginary axis at $i$ and the real axis at $1$. The largest argument is at the point of tangency $z = i$, where $\\text{Arg}(z) = \\dfrac{\\pi}{2}$. Hence C."
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.2.2",
+    "12.1.1.7"
+   ],
+   "question": "Consider the following proposition.\n\n> 'If a positive integer is not a perfect square, then it is not prime.'\n\nIf a number was found which had the following properties, which would be a counterexample to the proposition?",
+   "options": [
+    "A positive integer that is a perfect square and is prime.",
+    "A positive integer that is not a perfect square and is prime.",
+    "A positive integer that is a perfect square and is not prime.",
+    "A positive integer that is not a perfect square and is not prime."
+   ],
+   "correct": "B",
+   "answer": "A counterexample to $P \\Rightarrow Q$ satisfies $P \\wedge \\neg Q$: not a perfect square **and** prime (e.g. $2$). Hence B."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.10",
+    "12.3.2.5"
+   ],
+   "question": "Consider the complex numbers $z$ and $w$ shown on the complex plane below (the dashed circle is the unit circle).\n\nWhich of the following could be true?",
+   "options": [
+    "$w = z \\div \\left(2\\left(\\cos\\left(-\\frac{\\pi}{2}\\right) + i\\sin\\left(-\\frac{\\pi}{2}\\right)\\right)\\right)$",
+    "$w = z \\times \\left(2\\left(\\cos\\left(-\\frac{\\pi}{2}\\right) + i\\sin\\left(-\\frac{\\pi}{2}\\right)\\right)\\right)$",
+    "$w = z \\div \\left(2\\left(\\cos\\frac{\\pi}{2} + i\\sin\\frac{\\pi}{2}\\right)\\right)$",
+    "$w = z \\times \\left(2\\left(\\cos\\frac{\\pi}{2} + i\\sin\\frac{\\pi}{2}\\right)\\right)$"
+   ],
+   "correct": "A",
+   "answer": "From the diagram $w$ is $z$ rotated anticlockwise by about $\\frac{\\pi}{2}$ with about half the modulus, i.e. $w = z \\times \\frac{1}{2}\\left(\\cos\\frac{\\pi}{2} + i\\sin\\frac{\\pi}{2}\\right)$. Dividing by $2\\,\\text{cis}\\left(-\\frac{\\pi}{2}\\right)$ multiplies the modulus by $\\frac12$ and adds $\\frac{\\pi}{2}$ to the argument. Hence A.",
+   "images": [
+    "assets/img/ext2-2025-fort-st/q5.png"
+   ]
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Which of these algebraic fractions cannot be written as partial fractions in the form\n$$\\frac{a}{x+b} + \\frac{c}{x+d}$$\nwhere $a$, $b$, $c$ and $d$ are real numbers?",
+   "options": [
+    "$\\dfrac{2x+6}{x^2+6x+5}$",
+    "$\\dfrac{2x-8}{x^2-8x+16}$",
+    "$\\dfrac{2x+2}{x^2+2x-3}$",
+    "$\\dfrac{2x+4}{x^2-4x+8}$"
+   ],
+   "correct": "D",
+   "answer": "The form needs the denominator to factor into real linear factors. A: $\\frac{1}{x+5}+\\frac{1}{x+1}$; B: $\\frac{1}{x-4}+\\frac{1}{x-4}$; C: $\\frac{1}{x-1}+\\frac{1}{x+3}$. For D, $x^2-4x+8 = (x-2)^2+4$ has $\\Delta = 16-32 = -16 < 0$, so it has no real linear factors. Hence D."
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.17"
+   ],
+   "question": "A point lies on a sphere such that its position vector, $\\mathbf{r}$, satisfies $|\\mathbf{r}|^2 = \\mathbf{r}\\cdot\\mathbf{c}$, where $\\mathbf{c}$ is a constant vector.\n\nWhat is the centre of the sphere?",
+   "options": [
+    "$\\mathbf{c}$",
+    "$\\frac{1}{2}\\mathbf{c}$",
+    "$-\\mathbf{c}$",
+    "$-\\frac{1}{2}\\mathbf{c}$"
+   ],
+   "correct": "B",
+   "answer": "$|\\mathbf{r}|^2 - \\mathbf{r}\\cdot\\mathbf{c} + \\frac{|\\mathbf{c}|^2}{4} = \\frac{|\\mathbf{c}|^2}{4}$, i.e. $\\left|\\mathbf{r} - \\frac12\\mathbf{c}\\right|^2 = \\frac{|\\mathbf{c}|^2}{4}$: a sphere with centre $\\frac12\\mathbf{c}$ and radius $\\frac12|\\mathbf{c}|$. Hence B."
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.6",
+    "12.2.4.3"
+   ],
+   "question": "A vector makes equal angles of $\\dfrac{\\pi}{4}$ with the positive directions of the $x$-axis and the $y$-axis. What angle does the vector make with the positive direction of the $z$-axis?",
+   "options": [
+    "$0$",
+    "$\\dfrac{\\pi}{4}$",
+    "$\\dfrac{\\pi}{2}$",
+    "$\\dfrac{3\\pi}{4}$"
+   ],
+   "correct": "C",
+   "answer": "Let $\\mathbf{v} = (a,b,c)$. Then $a = \\mathbf{v}\\cdot\\mathbf{i} = |\\mathbf{v}|\\cos\\frac{\\pi}{4} = \\frac{|\\mathbf{v}|}{\\sqrt2}$ and likewise $b = \\frac{|\\mathbf{v}|}{\\sqrt2}$. So $|\\mathbf{v}|^2 = \\frac{|\\mathbf{v}|^2}{2} + \\frac{|\\mathbf{v}|^2}{2} + c^2$, giving $c = 0$. Then $\\mathbf{v}\\cdot\\mathbf{k} = 0$, so the angle with the $z$-axis is $\\frac{\\pi}{2}$. Hence C.",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.14",
+    "12.2.1.13"
+   ],
+   "question": "Consider the diagram of the curve below for $0 \\le t \\le 7\\pi$.\n\nWhich of the following best describes the position vector of the points on the curve?",
+   "options": [
+    "$\\mathbf{r}(t) = \\frac{1}{2}\\sin(t)\\,\\mathbf{i} + \\frac{1}{2}\\cos(t)\\,\\mathbf{j} + \\left(\\frac{t}{\\pi}\\right)\\mathbf{k}$",
+    "$\\mathbf{r}(t) = \\frac{1}{2}\\cos(t)\\,\\mathbf{i} + \\frac{1}{2}\\sin(t)\\,\\mathbf{j} + \\left(\\frac{t}{\\pi}\\right)\\mathbf{k}$",
+    "$\\mathbf{r}(t) = \\frac{t}{2}\\sin(t)\\,\\mathbf{i} + \\frac{t}{2}\\cos(t)\\,\\mathbf{j} + \\left(\\frac{t}{\\pi}\\right)\\mathbf{k}$",
+    "$\\mathbf{r}(t) = \\frac{t}{2}\\cos(t)\\,\\mathbf{i} + \\frac{t}{2}\\sin(t)\\,\\mathbf{j} + \\left(\\frac{t}{\\pi}\\right)\\mathbf{k}$"
+   ],
+   "correct": "D",
+   "answer": "The radius of the spiral grows as $t$ increases, so the $\\mathbf{i}$ and $\\mathbf{j}$ components have amplitude $\\frac{t}{2}$ (ruling out A and B). Starting at the origin and viewed from above, the curve turns anticlockwise from the positive $x$-direction, so $x = \\frac{t}{2}\\cos t$, $y = \\frac{t}{2}\\sin t$. Hence D.",
+   "images": [
+    "assets/img/ext2-2025-fort-st/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.15",
+    "12.4.1.6"
+   ],
+   "question": "Which of the following is a necessary and sufficient condition for $f(x)$ to satisfy\n$$\\int_0^a \\big(f(x-a) + f(a-x)\\big)\\,dx = 0$$\nfor all positive values of $a$?",
+   "options": [
+    "$f(x)$ is odd",
+    "$f(x)$ is even",
+    "$f(x)$ is monotonically increasing",
+    "$f(x)$ is monotonically decreasing"
+   ],
+   "correct": "A",
+   "answer": "With $u = x-a$: $\\int_0^a f(x-a)\\,dx = \\int_{-a}^0 f(u)\\,du$. With $u = a-x$: $\\int_0^a f(a-x)\\,dx = \\int_0^a f(u)\\,du$. So the condition is $\\int_{-a}^{a} f(u)\\,du = 0$ for all $a>0$, which holds exactly when $f$ is odd. Hence A."
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.11",
+    "12.3.1.9"
+   ],
+   "question": "Let $z = 3 - i$ and $w = 2 + 5i$. Find $|z + w|$.",
+   "answer": "$z + w = (3 - i) + (2 + 5i) = 5 + 4i$, so\n$$|z+w| = \\sqrt{5^2 + 4^2} = \\sqrt{41}.$$"
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.13"
+   ],
+   "question": "Let $z = 3 - i$ and $w = 2 + 5i$. Express $\\dfrac{w}{z}$ in the form $a + ib$, where $a, b \\in \\mathbb{R}$.",
+   "answer": "$$\\frac{w}{z} = \\frac{2+5i}{3-i}\\times\\frac{3+i}{3+i} = \\frac{6 + 2i + 15i + 5i^2}{9+1} = \\frac{1 + 17i}{10} = \\frac{1}{10} + \\frac{17}{10}i.$$"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "Find the angle between the vectors $\\mathbf{a} = \\begin{pmatrix} 2 \\\\ -1 \\\\ 3 \\end{pmatrix}$ and $\\mathbf{b} = \\begin{pmatrix} -1 \\\\ 4 \\\\ 5 \\end{pmatrix}$, correct to the nearest minute.",
+   "answer": "$\\mathbf{a}\\cdot\\mathbf{b} = -2 - 4 + 15 = 9$, $|\\mathbf{a}| = \\sqrt{4+1+9} = \\sqrt{14}$, $|\\mathbf{b}| = \\sqrt{1+16+25} = \\sqrt{42}$.\n$$\\cos\\theta = \\frac{9}{\\sqrt{14}\\sqrt{42}} = \\frac{9}{14\\sqrt3}$$\n$$\\theta = \\cos^{-1}\\left(\\frac{9}{14\\sqrt3}\\right) \\approx 68^\\circ 13' \\text{ (nearest minute)}.$$",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.5.5",
+    "12.3.5.4"
+   ],
+   "question": "Sketch the region defined by $\\text{Im}(z) \\ge 2$ and $\\dfrac{\\pi}{2} \\le \\arg(z) \\le \\dfrac{3\\pi}{4}$.",
+   "answer": "$\\frac{\\pi}{2} \\le \\arg(z) \\le \\frac{3\\pi}{4}$ is the sector between the positive imaginary axis (the ray $x = 0$, $y > 0$) and the ray $y = -x$, $x < 0$ (origin excluded). $\\text{Im}(z) \\ge 2$ is the half-plane on or above the line $y = 2$.\n\nThe region is the unbounded strip-like area above $y = 2$, to the left of the imaginary axis and to the right of the line $y = -x$: it is bounded below by the segment from $-2+2i$ to $2i$, on the right by the imaginary axis ($x=0$, $y\\ge2$) and on the left by the ray $y = -x$ for $x \\le -2$. All boundaries are included.",
+   "answer_images": [
+    "assets/img/ext2-2025-fort-st/q11c-ans.png"
+   ]
+  },
+  {
+   "ref": "Q11(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Find $A$, $B$ and $C$ such that\n$$\\frac{1-2x}{(x+2)(x^2+1)} = \\frac{A}{x+2} + \\frac{Bx + C}{x^2+1}.$$",
+   "answer": "$1 - 2x = A(x^2+1) + (Bx + C)(x+2)$.\n\n- $x = -2$: $5 = 5A$, so $A = 1$.\n- Coefficient of $x^2$: $A + B = 0$, so $B = -1$.\n- Constant term: $1 = A + 2C$, so $C = 0$.\n\n$$\\frac{1-2x}{(x+2)(x^2+1)} = \\frac{1}{x+2} - \\frac{x}{x^2+1}.$$"
+  },
+  {
+   "ref": "Q11(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.8"
+   ],
+   "question": "Given that\n$$\\frac{1-2x}{(x+2)(x^2+1)} = \\frac{1}{x+2} - \\frac{x}{x^2+1},$$\nfind $\\displaystyle\\int \\frac{1-2x}{(x+2)(x^2+1)}\\,dx$.",
+   "answer": "$$\\int\\left(\\frac{1}{x+2} - \\frac{x}{x^2+1}\\right)dx = \\ln|x+2| - \\frac12\\ln(x^2+1) + C.$$"
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.11"
+   ],
+   "question": "Find $\\displaystyle\\int \\tan^4 x\\,dx$.",
+   "answer": "Using $\\tan^2 x = \\sec^2 x - 1$:\n$$\\int \\tan^4 x\\,dx = \\int \\tan^2 x(\\sec^2 x - 1)\\,dx = \\int\\left(\\tan^2 x\\sec^2 x - \\sec^2 x + 1\\right)dx$$\n$$= \\frac{1}{3}\\tan^3 x - \\tan x + x + C.$$"
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.14"
+   ],
+   "question": "Find the square roots of $3 + 2i\\sqrt{10}$.",
+   "answer": "Let $(x+iy)^2 = 3 + 2\\sqrt{10}\\,i$ with $x, y$ real. Then $x^2 - y^2 = 3$ and $2xy = 2\\sqrt{10}$, so $y = \\frac{\\sqrt{10}}{x}$.\n$$x^2 - \\frac{10}{x^2} = 3 \\;\\Rightarrow\\; x^4 - 3x^2 - 10 = 0 \\;\\Rightarrow\\; (x^2-5)(x^2+2) = 0.$$\nSince $x$ is real, $x^2 = 5$, $x = \\pm\\sqrt5$, and then $y = \\frac{\\sqrt{10}}{x} = \\pm\\sqrt2$ (same sign).\n\nThe square roots are $\\pm\\left(\\sqrt5 + i\\sqrt2\\right)$."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.10",
+    "12.3.1.12"
+   ],
+   "question": "Given $z \\ne 0$, show that $\\phi = \\dfrac{2z}{z^2 + |z|^2}$ is real.",
+   "answer": "Using $|z|^2 = z\\overline{z}$:\n$$\\phi = \\frac{2z}{z^2 + z\\overline{z}} = \\frac{2z}{z(z + \\overline{z})} = \\frac{2}{z + \\overline{z}} = \\frac{2}{2\\,\\text{Re}(z)} = \\frac{1}{\\text{Re}(z)},$$\nwhich is real (whenever $\\phi$ is defined, i.e. $\\text{Re}(z) \\ne 0$)."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.13"
+   ],
+   "question": "Find $\\displaystyle\\int e^{\\sqrt{x}}\\,dx$.",
+   "answer": "Let $u = \\sqrt{x}$, so $x = u^2$ and $dx = 2u\\,du$.\n$$\\int e^{\\sqrt x}\\,dx = \\int 2u e^u\\,du.$$\nBy parts:\n$$\\int 2ue^u\\,du = 2ue^u - \\int 2e^u\\,du = 2ue^u - 2e^u + C.$$\n$$\\therefore \\int e^{\\sqrt x}\\,dx = 2\\sqrt{x}\\,e^{\\sqrt x} - 2e^{\\sqrt x} + C.$$"
+  },
+  {
+   "ref": "Q12(d)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.10",
+    "12.2.1.11"
+   ],
+   "question": "The vector equations of lines $\\ell_1$ and $\\ell_2$ are\n$$\\ell_1:\\ \\mathbf{r} = \\begin{pmatrix} 2 \\\\ 1 \\\\ 0 \\end{pmatrix} + \\lambda\\begin{pmatrix} 3 \\\\ -2 \\\\ 4 \\end{pmatrix}, \\qquad \\ell_2:\\ \\mathbf{r} = \\begin{pmatrix} -2 \\\\ 1 \\\\ 2 \\end{pmatrix} + \\mu\\begin{pmatrix} 2 \\\\ 1 \\\\ -2 \\end{pmatrix}.$$\nShow that $\\ell_1$ and $\\ell_2$ do not intersect.",
+   "answer": "If they intersect, then for some $\\lambda, \\mu$:\n$$2 + 3\\lambda = -2 + 2\\mu \\quad (1)$$\n$$1 - 2\\lambda = 1 + \\mu \\quad (2)$$\n$$4\\lambda = 2 - 2\\mu \\quad (3)$$\nFrom (2), $\\mu = -2\\lambda$. Substituting into (3): $4\\lambda = 2 + 4\\lambda$, i.e. $0 = 2$, which is impossible.\n\nSo there are no values of $\\lambda, \\mu$ satisfying all three equations, and $\\ell_1$ and $\\ell_2$ do not intersect. (They are also not parallel, since $(3,-2,4)$ is not a multiple of $(2,1,-2)$, so they are skew.)\n\n*Note: the school's solution used $-1$ instead of $-2$ for the $z$-component of $\\ell_2$'s direction in equation (3), and got $\\lambda = 1$, $\\mu = -2$, which then fail (1). The conclusion is the same.*"
+  },
+  {
+   "ref": "Q12(d)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.1.11"
+   ],
+   "question": "The vector equations of lines $\\ell_1$ and $\\ell_2$ are\n$$\\ell_1:\\ \\mathbf{r} = \\begin{pmatrix} 2 \\\\ 1 \\\\ 0 \\end{pmatrix} + \\lambda\\begin{pmatrix} 3 \\\\ -2 \\\\ 4 \\end{pmatrix}, \\qquad \\ell_2:\\ \\mathbf{r} = \\begin{pmatrix} -2 \\\\ 1 \\\\ 2 \\end{pmatrix} + \\mu\\begin{pmatrix} 2 \\\\ 1 \\\\ -2 \\end{pmatrix}.$$\nFind a vector of the form $\\begin{pmatrix} 0 \\\\ a \\\\ b \\end{pmatrix}$ that is perpendicular to both $\\ell_1$ and $\\ell_2$.",
+   "answer": "We need\n$$\\begin{pmatrix} 0 \\\\ a \\\\ b \\end{pmatrix}\\cdot\\begin{pmatrix} 3 \\\\ -2 \\\\ 4 \\end{pmatrix} = -2a + 4b = 0, \\qquad \\begin{pmatrix} 0 \\\\ a \\\\ b \\end{pmatrix}\\cdot\\begin{pmatrix} 2 \\\\ 1 \\\\ -2 \\end{pmatrix} = a - 2b = 0.$$\nBoth give $a = 2b$. Taking $b = 1$: $\\begin{pmatrix} 0 \\\\ 2 \\\\ 1 \\end{pmatrix}$ (or any non-zero multiple)."
+  },
+  {
+   "ref": "Q12(d)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.1.11"
+   ],
+   "question": "The vector equations of lines $\\ell_1$ and $\\ell_2$ are\n$$\\ell_1:\\ \\mathbf{r} = \\begin{pmatrix} 2 \\\\ 1 \\\\ 0 \\end{pmatrix} + \\lambda\\begin{pmatrix} 3 \\\\ -2 \\\\ 4 \\end{pmatrix}, \\qquad \\ell_2:\\ \\mathbf{r} = \\begin{pmatrix} -2 \\\\ 1 \\\\ 2 \\end{pmatrix} + \\mu\\begin{pmatrix} 2 \\\\ 1 \\\\ -2 \\end{pmatrix}.$$\nThe vector $\\begin{pmatrix} 0 \\\\ 2 \\\\ 1 \\end{pmatrix}$ is perpendicular to both $\\ell_1$ and $\\ell_2$. Using this, find the minimum distance between $\\ell_1$ and $\\ell_2$.",
+   "answer": "A vector joining a point on $\\ell_2$ to a point on $\\ell_1$ is\n$$\\begin{pmatrix} 2 \\\\ 1 \\\\ 0 \\end{pmatrix} - \\begin{pmatrix} -2 \\\\ 1 \\\\ 2 \\end{pmatrix} = \\begin{pmatrix} 4 \\\\ 0 \\\\ -2 \\end{pmatrix}.$$\nThe minimum distance is the length of the projection of this vector onto the common perpendicular $\\mathbf{n} = (0,2,1)$:\n$$\\text{proj}_{\\mathbf{n}}\\begin{pmatrix} 4 \\\\ 0 \\\\ -2 \\end{pmatrix} = \\frac{0 + 0 - 2}{0 + 4 + 1}\\begin{pmatrix} 0 \\\\ 2 \\\\ 1 \\end{pmatrix} = -\\frac{2}{5}\\begin{pmatrix} 0 \\\\ 2 \\\\ 1 \\end{pmatrix}.$$\n$$\\text{Minimum distance} = \\frac{2}{5}\\sqrt{2^2 + 1^2} = \\frac{2\\sqrt5}{5}.$$"
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.5",
+    "12.4.1.6"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^{\\frac{\\pi}{3}} \\frac{5}{3 + 2\\cos x}\\,dx$.",
+   "answer": "Let $t = \\tan\\frac{x}{2}$, so $dx = \\frac{2\\,dt}{1+t^2}$ and $\\cos x = \\frac{1-t^2}{1+t^2}$. When $x = 0$, $t = 0$; when $x = \\frac{\\pi}{3}$, $t = \\frac{1}{\\sqrt3}$.\n$$\\int_0^{\\frac{\\pi}{3}} \\frac{5}{3+2\\cos x}\\,dx = \\int_0^{\\frac{1}{\\sqrt3}} \\frac{5}{3 + \\frac{2(1-t^2)}{1+t^2}}\\cdot\\frac{2\\,dt}{1+t^2} = \\int_0^{\\frac{1}{\\sqrt3}} \\frac{10}{3 + 3t^2 + 2 - 2t^2}\\,dt = \\int_0^{\\frac{1}{\\sqrt3}} \\frac{10}{5 + t^2}\\,dt$$\n$$= \\left[\\frac{10}{\\sqrt5}\\tan^{-1}\\frac{t}{\\sqrt5}\\right]_0^{\\frac{1}{\\sqrt3}} = 2\\sqrt5\\,\\tan^{-1}\\left(\\frac{1}{\\sqrt{15}}\\right) \\approx 1.130.$$"
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.3",
+    "12.1.2.1"
+   ],
+   "question": "Explain why there is no integer $p$ such that $p^{11} - (p+2)^7 = 2025$.",
+   "answer": "$p$ and $p+2$ have the same parity.\n\n- If $p$ is even, then $p^{11}$ and $(p+2)^7$ are both even, so $p^{11} - (p+2)^7 = 2M - 2L = 2(M-L)$ is even.\n- If $p$ is odd, then $p^{11}$ and $(p+2)^7$ are both odd, so $p^{11} - (p+2)^7 = (2Q+1) - (2R+1) = 2(Q-R)$ is even.\n\nIn every case the left side is even, but $2025$ is odd. Hence no integer $p$ satisfies the equation."
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.11",
+    "12.4.1.6"
+   ],
+   "question": "Find $\\displaystyle\\int \\frac{e^{2x} - e^x}{e^x + 1}\\,dx$.",
+   "answer": "Write the numerator in terms of $e^x + 1$: $e^{2x} - e^x = e^x(e^x + 1) - 2e^x$. So\n$$\\int \\frac{e^{2x} - e^x}{e^x+1}\\,dx = \\int\\left(e^x - \\frac{2e^x}{e^x+1}\\right)dx = e^x - 2\\ln(e^x + 1) + C.$$\n(No absolute value is needed since $e^x + 1 > 0$.)"
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.7",
+    "12.3.1.10"
+   ],
+   "question": "Let $z$ be a complex number and $\\lambda$ a real constant. Find the values of $|z|$ that satisfy the equation\n$$\\lambda(\\overline{z} + z^n) = i(\\overline{z} - z^n)$$\nfor $n \\ge 2$.",
+   "answer": "Rearranging: $\\lambda z^n + iz^n = i\\overline{z} - \\lambda\\overline{z}$, so\n$$z^n(\\lambda + i) = \\overline{z}(i - \\lambda).$$\nTaking moduli, and since $|\\lambda + i| = |i - \\lambda| = \\sqrt{\\lambda^2+1} \\ne 0$:\n$$|z|^n = |\\overline{z}| = |z| \\;\\Rightarrow\\; |z|\\left(|z|^{n-1} - 1\\right) = 0.$$\nSince $n \\ge 2$: $|z| = 0$ or $|z| = 1$."
+  },
+  {
+   "ref": "Q13(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.18",
+    "12.2.1.17"
+   ],
+   "question": "The line $L$ with equation $\\mathbf{r} = \\begin{pmatrix} -1 \\\\ 2 \\\\ 6 \\end{pmatrix} + \\lambda\\begin{pmatrix} 1 \\\\ 2 \\\\ 1 \\end{pmatrix}$ intersects the sphere with equation $(x+1)^2 + (y-2)^2 + z^2 = 45$ at the two points $A$ and $B$.\n\nFind the midpoint of $AB$.",
+   "answer": "Points on $L$: $x = -1 + \\lambda$, $y = 2 + 2\\lambda$, $z = 6 + \\lambda$. Substituting into the sphere:\n$$\\lambda^2 + (2\\lambda)^2 + (6+\\lambda)^2 = 45 \\;\\Rightarrow\\; 6\\lambda^2 + 12\\lambda + 36 = 45 \\;\\Rightarrow\\; 2\\lambda^2 + 4\\lambda - 3 = 0.$$\nIf $A$ and $B$ correspond to the roots $\\alpha$ and $\\beta$, the midpoint corresponds to $\\lambda = \\frac{\\alpha+\\beta}{2} = \\frac12\\left(-\\frac{4}{2}\\right) = -1$ (the parameter is linear along the line).\n$$M_{AB} = \\begin{pmatrix} -1 \\\\ 2 \\\\ 6 \\end{pmatrix} - \\begin{pmatrix} 1 \\\\ 2 \\\\ 1 \\end{pmatrix} = \\begin{pmatrix} -2 \\\\ 0 \\\\ 5 \\end{pmatrix},$$\ni.e. the midpoint is $(-2, 0, 5)$."
+  },
+  {
+   "ref": "Q13(f)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.5"
+   ],
+   "question": "Given $a_{n+1} = \\sqrt{2a_n}$ and $a_1 = 1$, prove by mathematical induction that for all integers $n \\ge 1$\n$$a_n = 2^{\\left(1 - 2^{(1-n)}\\right)}.$$",
+   "answer": "Let $P(n)$ be the statement $a_n = 2^{1 - 2^{1-n}}$.\n\n**Base case** $n = 1$: $2^{1 - 2^{0}} = 2^{0} = 1 = a_1$. So $P(1)$ is true.\n\n**Inductive step.** Assume $P(k)$ is true for some integer $k \\ge 1$: $a_k = 2^{1 - 2^{1-k}}$. Then\n$$a_{k+1} = \\sqrt{2a_k} = \\sqrt{2 \\times 2^{1 - 2^{1-k}}} = \\sqrt{2^{2 - 2^{1-k}}} = 2^{1 - \\frac12\\cdot 2^{1-k}} = 2^{1 - 2^{-k}} = 2^{1 - 2^{1-(k+1)}},$$\nwhich is $P(k+1)$.\n\nHence by mathematical induction, $P(n)$ is true for all integers $n \\ge 1$."
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Consider the expansion of $z^5$ for $z = \\cos\\theta + i\\sin\\theta$. Using De Moivre's theorem, show that\n$$\\cos 5\\theta = 16\\cos^5\\theta - 20\\cos^3\\theta + 5\\cos\\theta.$$",
+   "answer": "By De Moivre's theorem, $(\\cos\\theta + i\\sin\\theta)^5 = \\cos5\\theta + i\\sin5\\theta$.\n\nBy the binomial theorem, writing $c = \\cos\\theta$, $s = \\sin\\theta$:\n$$(c + is)^5 = c^5 + 5ic^4s - 10c^3s^2 - 10ic^2s^3 + 5cs^4 + is^5.$$\nEquating real parts:\n$$\\cos5\\theta = c^5 - 10c^3s^2 + 5cs^4 = c^5 - 10c^3(1-c^2) + 5c(1-c^2)^2$$\n$$= c^5 - 10c^3 + 10c^5 + 5c - 10c^3 + 5c^5 = 16\\cos^5\\theta - 20\\cos^3\\theta + 5\\cos\\theta.$$"
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Given that $\\cos 5\\theta = 16\\cos^5\\theta - 20\\cos^3\\theta + 5\\cos\\theta$, show that $x = \\pm\\cos\\dfrac{\\pi}{10}$ and $x = \\pm\\cos\\dfrac{3\\pi}{10}$ are the solutions to the equation $16x^4 - 20x^2 + 5 = 0$.",
+   "answer": "Solve $\\cos5\\theta = 0$ for $0 < \\theta < \\pi$: $5\\theta = \\frac{\\pi}{2}, \\frac{3\\pi}{2}, \\frac{5\\pi}{2}, \\frac{7\\pi}{2}, \\frac{9\\pi}{2}$, so\n$$\\theta = \\frac{\\pi}{10}, \\frac{3\\pi}{10}, \\frac{\\pi}{2}, \\frac{7\\pi}{10}, \\frac{9\\pi}{10}.$$\nFor these $\\theta$, $16\\cos^5\\theta - 20\\cos^3\\theta + 5\\cos\\theta = \\cos\\theta\\,(16\\cos^4\\theta - 20\\cos^2\\theta + 5) = 0$.\n\nFor $\\theta = \\frac{\\pi}{2}$, $\\cos\\theta = 0$; for the other four, $\\cos\\theta \\ne 0$, so $16\\cos^4\\theta - 20\\cos^2\\theta + 5 = 0$. Hence $x = \\cos\\theta$ satisfies $16x^4 - 20x^2 + 5 = 0$ for\n$$x = \\cos\\frac{\\pi}{10},\\quad \\cos\\frac{3\\pi}{10},\\quad \\cos\\frac{7\\pi}{10} = -\\cos\\frac{3\\pi}{10},\\quad \\cos\\frac{9\\pi}{10} = -\\cos\\frac{\\pi}{10}.$$\nThese four values are distinct, and a quartic has at most four roots, so the solutions are $x = \\pm\\cos\\frac{\\pi}{10}$ and $x = \\pm\\cos\\frac{3\\pi}{10}$."
+  },
+  {
+   "ref": "Q14(a)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "The solutions of $16x^4 - 20x^2 + 5 = 0$ are $x = \\pm\\cos\\dfrac{\\pi}{10}$ and $x = \\pm\\cos\\dfrac{3\\pi}{10}$. Deduce the exact value of $\\cos\\dfrac{\\pi}{10}$.",
+   "answer": "Let $u = x^2$: $16u^2 - 20u + 5 = 0$, so\n$$u = \\frac{20 \\pm \\sqrt{400 - 320}}{32} = \\frac{20 \\pm 4\\sqrt5}{32} = \\frac{5 \\pm \\sqrt5}{8}.$$\nSo the roots are $x = \\pm\\sqrt{\\frac{5+\\sqrt5}{8}}$ and $x = \\pm\\sqrt{\\frac{5-\\sqrt5}{8}}$.\n\n$\\cos\\frac{\\pi}{10}$ and $\\cos\\frac{3\\pi}{10}$ are the two positive roots, and since $\\cos$ is decreasing on $\\left[0, \\frac{\\pi}{2}\\right]$, $\\cos\\frac{\\pi}{10} > \\cos\\frac{3\\pi}{10}$. Therefore\n$$\\cos\\frac{\\pi}{10} = \\sqrt{\\frac{5+\\sqrt5}{8}}.$$"
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.11",
+    "12.3.4.9"
+   ],
+   "question": "Consider a square $ABCD$, of side length $a$, in the complex plane, with centre at the origin and vertices $A$, $B$, $C$, $D$ on the positive real, positive imaginary, negative real and negative imaginary axes respectively. The point $P$ lies on the circle centred at the origin, of radius $\\dfrac{a}{2}$, inscribed in square $ABCD$, as shown.\n\nFind, in terms of $a$, the value of $PA^2 + PB^2 + PC^2 + PD^2$.",
+   "answer": "Half the diagonal is $OA = \\frac{a}{\\sqrt2}$, so $A = \\frac{a}{\\sqrt2}$, $B = \\frac{a}{\\sqrt2}i$, $C = -\\frac{a}{\\sqrt2}$, $D = -\\frac{a}{\\sqrt2}i$.\n\nLet $P = x + iy$ with $x^2 + y^2 = \\frac{a^2}{4}$. Then\n$$PA^2 + PB^2 + PC^2 + PD^2 = \\left(x - \\tfrac{a}{\\sqrt2}\\right)^2 + y^2 + x^2 + \\left(y - \\tfrac{a}{\\sqrt2}\\right)^2 + \\left(x + \\tfrac{a}{\\sqrt2}\\right)^2 + y^2 + x^2 + \\left(y + \\tfrac{a}{\\sqrt2}\\right)^2$$\nThe cross terms cancel in pairs, leaving\n$$= 4x^2 + 4y^2 + 4\\cdot\\frac{a^2}{2} = 4\\cdot\\frac{a^2}{4} + 2a^2 = 3a^2.$$\n(Alternatively, with $P = \\frac{a}{2}(\\cos\\theta + i\\sin\\theta)$: $PA^2 = \\frac{a^2}{4}\\left(3 - 2\\sqrt2\\cos\\theta\\right)$, $PB^2 = \\frac{a^2}{4}(3 - 2\\sqrt2\\sin\\theta)$, $PC^2 = \\frac{a^2}{4}(3 + 2\\sqrt2\\cos\\theta)$, $PD^2 = \\frac{a^2}{4}(3 + 2\\sqrt2\\sin\\theta)$, which sum to $3a^2$.)",
+   "images": [
+    "assets/img/ext2-2025-fort-st/q14b.png"
+   ]
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.1",
+    "12.2.2.5"
+   ],
+   "question": "Consider the vectors $\\mathbf{p}$, $\\mathbf{q}$ and $\\mathbf{r}$ in 3 dimensions with magnitudes $\\sqrt{n}$, $2\\sqrt{n}$ and $3\\sqrt{n}$ respectively, where $n$ is a positive real number.\n\nThe magnitude of the resultant vector is $|\\mathbf{p} + \\mathbf{q} + \\mathbf{r}| = n$.\n\nWhat is the maximum value of $|\\mathbf{p} - \\mathbf{q}|^2 + |\\mathbf{q} - \\mathbf{r}|^2 + |\\mathbf{r} - \\mathbf{p}|^2$?",
+   "answer": "We have $|\\mathbf{p}|^2 = n$, $|\\mathbf{q}|^2 = 4n$, $|\\mathbf{r}|^2 = 9n$. Let $S = \\mathbf{p}\\cdot\\mathbf{q} + \\mathbf{q}\\cdot\\mathbf{r} + \\mathbf{r}\\cdot\\mathbf{p}$.\n$$y = |\\mathbf{p}-\\mathbf{q}|^2 + |\\mathbf{q}-\\mathbf{r}|^2 + |\\mathbf{r}-\\mathbf{p}|^2 = 2\\left(|\\mathbf{p}|^2 + |\\mathbf{q}|^2 + |\\mathbf{r}|^2\\right) - 2S = 28n - 2S.$$\nAlso\n$$n^2 = |\\mathbf{p}+\\mathbf{q}+\\mathbf{r}|^2 = |\\mathbf{p}|^2 + |\\mathbf{q}|^2 + |\\mathbf{r}|^2 + 2S = 14n + 2S \\;\\Rightarrow\\; 2S = n^2 - 14n.$$\nSo\n$$y = 28n - (n^2 - 14n) = 42n - n^2 = 441 - (n - 21)^2.$$\nThis concave-down parabola has its maximum at $n = 21$ (which is attainable, since $0 \\le n \\le \\sqrt{n} + 2\\sqrt{n} + 3\\sqrt{n} = 6\\sqrt{n}$ holds for $n = 21$).\n\nThe maximum value is $441$."
+  },
+  {
+   "ref": "Q15(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Consider the integral $I_n = \\displaystyle\\int_0^1 (x^2+1)^{\\frac{n}{2}}\\,dx$. Show that\n$$I_n = \\frac{1}{n+1}\\left(2^{\\frac{n}{2}} + nI_{n-2}\\right).$$",
+   "answer": "Integrating by parts with $u = (x^2+1)^{\\frac n2}$, $dv = dx$:\n$$I_n = \\left[x(x^2+1)^{\\frac n2}\\right]_0^1 - \\int_0^1 x\\cdot\\frac n2(x^2+1)^{\\frac n2 - 1}\\cdot 2x\\,dx = 2^{\\frac n2} - n\\int_0^1 x^2(x^2+1)^{\\frac n2 - 1}\\,dx$$\n$$= 2^{\\frac n2} - n\\int_0^1 \\left((x^2 + 1) - 1\\right)(x^2+1)^{\\frac n2 - 1}\\,dx = 2^{\\frac n2} - n\\left[\\int_0^1 (x^2+1)^{\\frac n2}\\,dx - \\int_0^1 (x^2+1)^{\\frac{n-2}{2}}\\,dx\\right]$$\n$$= 2^{\\frac n2} - n\\left(I_n - I_{n-2}\\right).$$\nSo $(n+1)I_n = 2^{\\frac n2} + nI_{n-2}$, i.e.\n$$I_n = \\frac{1}{n+1}\\left(2^{\\frac n2} + nI_{n-2}\\right).$$"
+  },
+  {
+   "ref": "Q15(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Show that\n$$\\int_0^{\\frac{\\pi}{4}} \\sec^3\\theta\\,d\\theta = \\frac12\\left(\\sqrt2 + \\ln\\left(1 + \\sqrt2\\right)\\right).$$",
+   "answer": "Let $J = \\int_0^{\\frac\\pi4}\\sec^3\\theta\\,d\\theta = \\int_0^{\\frac\\pi4}\\sec\\theta\\cdot\\sec^2\\theta\\,d\\theta$. By parts with $u = \\sec\\theta$, $dv = \\sec^2\\theta\\,d\\theta$:\n$$J = \\Big[\\sec\\theta\\tan\\theta\\Big]_0^{\\frac\\pi4} - \\int_0^{\\frac\\pi4}\\tan\\theta\\cdot\\sec\\theta\\tan\\theta\\,d\\theta = \\sqrt2 - \\int_0^{\\frac\\pi4}(\\sec^2\\theta - 1)\\sec\\theta\\,d\\theta = \\sqrt2 - J + \\int_0^{\\frac\\pi4}\\sec\\theta\\,d\\theta.$$\nNow $\\displaystyle\\int \\sec\\theta\\,d\\theta = \\int\\frac{\\sec\\theta(\\sec\\theta + \\tan\\theta)}{\\sec\\theta + \\tan\\theta}\\,d\\theta = \\ln|\\sec\\theta + \\tan\\theta| + C$, so\n$$2J = \\sqrt2 + \\Big[\\ln(\\sec\\theta + \\tan\\theta)\\Big]_0^{\\frac\\pi4} = \\sqrt2 + \\ln(\\sqrt2 + 1) - \\ln 1.$$\n$$\\therefore \\int_0^{\\frac\\pi4}\\sec^3\\theta\\,d\\theta = \\frac12\\left(\\sqrt2 + \\ln\\left(1+\\sqrt2\\right)\\right).$$"
+  },
+  {
+   "ref": "Q15(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14",
+    "12.4.1.6"
+   ],
+   "question": "Let $I_n = \\displaystyle\\int_0^1 (x^2+1)^{\\frac{n}{2}}\\,dx$. It is known that $I_n = \\dfrac{1}{n+1}\\left(2^{\\frac{n}{2}} + nI_{n-2}\\right)$ and that $\\displaystyle\\int_0^{\\frac{\\pi}{4}} \\sec^3\\theta\\,d\\theta = \\frac12\\left(\\sqrt2 + \\ln\\left(1+\\sqrt2\\right)\\right)$.\n\nEvaluate $I_3$, leaving your answer in the form $a\\sqrt2 + b\\ln\\left(1+\\sqrt2\\right)$.",
+   "answer": "$I_3 = \\frac14\\left(2^{\\frac32} + 3I_1\\right)$, where $I_1 = \\int_0^1\\sqrt{x^2+1}\\,dx$.\n\nSubstitute $x = \\tan\\theta$: $dx = \\sec^2\\theta\\,d\\theta$, $\\sqrt{\\tan^2\\theta + 1} = \\sec\\theta$, limits $0$ to $\\frac\\pi4$:\n$$I_1 = \\int_0^{\\frac\\pi4}\\sec^3\\theta\\,d\\theta = \\frac12\\left(\\sqrt2 + \\ln(1+\\sqrt2)\\right).$$\n$$I_3 = \\frac14\\left[2\\sqrt2 + \\frac32\\left(\\sqrt2 + \\ln(1+\\sqrt2)\\right)\\right] = \\frac14\\left[\\frac{7\\sqrt2}{2} + \\frac32\\ln(1+\\sqrt2)\\right] = \\frac{7}{8}\\sqrt2 + \\frac38\\ln\\left(1+\\sqrt2\\right).$$"
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.6",
+    "12.3.4.10"
+   ],
+   "question": "The complex number $w$ lies on the unit circle with $\\text{Arg}(w) = \\theta$ (where $w \\ne 1$). Show that\n$$\\frac{1+w}{1-w} = i\\cot\\frac{\\theta}{2}.$$",
+   "answer": "$w = \\cos\\theta + i\\sin\\theta$. Using $1 + \\cos\\theta = 2\\cos^2\\frac\\theta2$, $1 - \\cos\\theta = 2\\sin^2\\frac\\theta2$ and $\\sin\\theta = 2\\sin\\frac\\theta2\\cos\\frac\\theta2$:\n$$\\frac{1+w}{1-w} = \\frac{1 + \\cos\\theta + i\\sin\\theta}{1 - \\cos\\theta - i\\sin\\theta} = \\frac{2\\cos\\frac\\theta2\\left(\\cos\\frac\\theta2 + i\\sin\\frac\\theta2\\right)}{2\\sin\\frac\\theta2\\left(\\sin\\frac\\theta2 - i\\cos\\frac\\theta2\\right)}.$$\nSince $\\sin\\frac\\theta2 - i\\cos\\frac\\theta2 = -i\\left(\\cos\\frac\\theta2 + i\\sin\\frac\\theta2\\right)$,\n$$\\frac{1+w}{1-w} = \\frac{\\cos\\frac\\theta2}{-i\\sin\\frac\\theta2} = i\\cot\\frac\\theta2.$$"
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.12",
+    "12.3.4.7"
+   ],
+   "question": "It is known that if $w$ lies on the unit circle with $\\text{Arg}(w) = \\theta$ ($w \\ne 1$), then $\\dfrac{1+w}{1-w} = i\\cot\\dfrac{\\theta}{2}$.\n\nUsing this result, find all the solutions of\n$$(z-1)^5 + (z+1)^5 = 0$$\nwhere $z$ is a complex number.",
+   "answer": "$z = -1$ is not a solution, so divide by $(z+1)^5$: $\\left(\\frac{z-1}{z+1}\\right)^5 = -1$.\n\nLet $u = \\frac{z-1}{z+1}$, so $u^5 = -1$, giving $|u| = 1$ and\n$$u = \\text{cis}\\,\\theta,\\quad \\theta = \\frac{(2k+1)\\pi}{5},\\ k = 0, \\pm1, -2, \\text{ i.e. } \\theta = \\pm\\frac\\pi5,\\ \\pm\\frac{3\\pi}5,\\ \\pi.$$\nSolving for $z$: $z - 1 = uz + u \\Rightarrow z(1 - u) = 1 + u \\Rightarrow z = \\frac{1+u}{1-u}$ (note $u \\ne 1$).\n\nBy the given result with $w = u$, $z = i\\cot\\frac\\theta2$:\n$$z = i\\cot\\left(\\pm\\frac{\\pi}{10}\\right),\\ i\\cot\\left(\\pm\\frac{3\\pi}{10}\\right),\\ i\\cot\\frac\\pi2.$$\nSo the five solutions are\n$$z = 0,\\quad z = \\pm i\\cot\\frac{\\pi}{10},\\quad z = \\pm i\\cot\\frac{3\\pi}{10}.$$\n(Check: the equation is $2z^5 + 20z^3 + 10z = 0$, of degree 5, with roots $0$, $\\pm 3.078i$, $\\pm 0.727i$.)"
+  },
+  {
+   "ref": "Q15(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "$M$ and $P$ are two points with position vectors $\\overrightarrow{OM} = \\mathbf{m}$ and $\\overrightarrow{OP} = \\mathbf{p}$ respectively. $N$ is the midpoint of $MP$ and has position vector $\\overrightarrow{ON} = \\mathbf{n}$. $Q$ lies on the line $ON$ such that $PQ$ is perpendicular to $MP$, and $\\overrightarrow{NQ} = \\lambda\\overrightarrow{ON}$ where $\\lambda$ is a real number.\n\nShow that\n$$\\lambda = \\frac{|\\mathbf{m}|^2 + |\\mathbf{n}|^2 - 2\\mathbf{m}\\cdot\\mathbf{n}}{|\\mathbf{n}|^2 - \\mathbf{m}\\cdot\\mathbf{n}}.$$",
+   "answer": "Since $N$ is the midpoint of $MP$, $\\mathbf{n} = \\frac12(\\mathbf{m} + \\mathbf{p})$, so $\\mathbf{p} = 2\\mathbf{n} - \\mathbf{m}$.\n\n$\\overrightarrow{OQ} = \\overrightarrow{ON} + \\overrightarrow{NQ} = (1+\\lambda)\\mathbf{n}$.\n\n$\\overrightarrow{PQ} = (1+\\lambda)\\mathbf{n} - (2\\mathbf{n} - \\mathbf{m}) = (\\lambda - 1)\\mathbf{n} + \\mathbf{m}$, and $\\overrightarrow{MP} = \\mathbf{p} - \\mathbf{m} = 2(\\mathbf{n} - \\mathbf{m})$.\n\n$PQ \\perp MP$, so $\\overrightarrow{PQ}\\cdot(\\mathbf{n} - \\mathbf{m}) = 0$:\n$$\\left((\\lambda-1)\\mathbf{n} + \\mathbf{m}\\right)\\cdot(\\mathbf{n} - \\mathbf{m}) = (\\lambda - 1)\\left(|\\mathbf{n}|^2 - \\mathbf{m}\\cdot\\mathbf{n}\\right) + \\mathbf{m}\\cdot\\mathbf{n} - |\\mathbf{m}|^2 = 0.$$\n$$\\lambda\\left(|\\mathbf{n}|^2 - \\mathbf{m}\\cdot\\mathbf{n}\\right) = |\\mathbf{n}|^2 - \\mathbf{m}\\cdot\\mathbf{n} + |\\mathbf{m}|^2 - \\mathbf{m}\\cdot\\mathbf{n}$$\n$$\\therefore \\lambda = \\frac{|\\mathbf{m}|^2 + |\\mathbf{n}|^2 - 2\\mathbf{m}\\cdot\\mathbf{n}}{|\\mathbf{n}|^2 - \\mathbf{m}\\cdot\\mathbf{n}}.$$",
+   "images": [
+    "assets/img/ext2-2025-fort-st/q15c.png"
+   ]
+  },
+  {
+   "ref": "Q16(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.3"
+   ],
+   "question": "By considering the vectors $\\begin{pmatrix} 1 \\\\ 1 \\\\ 1 \\end{pmatrix}$ and $\\begin{pmatrix} p \\\\ q \\\\ r \\end{pmatrix}$, show that\n$$(p+q+r)^2 \\le 3(p^2 + q^2 + r^2)$$\nwhere $p$, $q$ and $r$ are positive real numbers.",
+   "answer": "Let $\\mathbf{u} = (1,1,1)$ and $\\mathbf{v} = (p,q,r)$. By the Cauchy–Schwarz inequality, $|\\mathbf{u}\\cdot\\mathbf{v}|^2 \\le |\\mathbf{u}|^2|\\mathbf{v}|^2$. Here $\\mathbf{u}\\cdot\\mathbf{v} = p + q + r$, $|\\mathbf{u}|^2 = 3$, $|\\mathbf{v}|^2 = p^2 + q^2 + r^2$, so\n$$(p+q+r)^2 \\le 3\\left(p^2 + q^2 + r^2\\right).$$"
+  },
+  {
+   "ref": "Q16(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.1.3.6"
+   ],
+   "question": "Consider the triangular pyramid $ABCD$, where $T$ is a point in the plane of triangle $ABC$, as shown.\n\nLet $O$ be the origin. It is known that $\\overrightarrow{OT} = \\frac13\\left(\\overrightarrow{OA} + \\overrightarrow{OB} + \\overrightarrow{OC}\\right)$.\n\nUsing the result $(p+q+r)^2 \\le 3(p^2+q^2+r^2)$ for positive reals $p, q, r$, show that\n$$\\left|\\overrightarrow{DT}\\right|^2 \\le \\frac13\\left(\\left|\\overrightarrow{AD}\\right|^2 + \\left|\\overrightarrow{BD}\\right|^2 + \\left|\\overrightarrow{CD}\\right|^2\\right).$$",
+   "answer": "$$\\overrightarrow{DT} = \\overrightarrow{OT} - \\overrightarrow{OD} = \\frac13\\left[(\\overrightarrow{OA} - \\overrightarrow{OD}) + (\\overrightarrow{OB} - \\overrightarrow{OD}) + (\\overrightarrow{OC} - \\overrightarrow{OD})\\right] = \\frac13\\left(\\overrightarrow{DA} + \\overrightarrow{DB} + \\overrightarrow{DC}\\right).$$\nSo, using the triangle inequality and then the given result with $p = |\\overrightarrow{AD}|$, $q = |\\overrightarrow{BD}|$, $r = |\\overrightarrow{CD}|$:\n$$\\left|\\overrightarrow{DT}\\right|^2 = \\frac19\\left|\\overrightarrow{DA} + \\overrightarrow{DB} + \\overrightarrow{DC}\\right|^2 \\le \\frac19\\left(|\\overrightarrow{AD}| + |\\overrightarrow{BD}| + |\\overrightarrow{CD}|\\right)^2 \\le \\frac19\\times3\\left(|\\overrightarrow{AD}|^2 + |\\overrightarrow{BD}|^2 + |\\overrightarrow{CD}|^2\\right)$$\n$$= \\frac13\\left(\\left|\\overrightarrow{AD}\\right|^2 + \\left|\\overrightarrow{BD}\\right|^2 + \\left|\\overrightarrow{CD}\\right|^2\\right).$$",
+   "images": [
+    "assets/img/ext2-2025-fort-st/q16a2.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.1.3.5"
+   ],
+   "question": "The three positive real numbers $r$, $s$ and $t$ are such that\n$$(r+n)(s+n)(t+n) = n^6.$$\nShow that $rst \\le (n^2 - n)^3$.\n\nYou may use the result $(a+b+c)^3 \\ge 27abc$ where $a$, $b$ and $c$ are positive. [Do not prove this.]",
+   "answer": "Expanding:\n$$(r+n)(s+n)(t+n) = rst + n(rs + rt + st) + n^2(r + s + t) + n^3 = n^6. \\quad (1)$$\nWith $a = r$, $b = s$, $c = t$: $(r+s+t)^3 \\ge 27rst$, so $r + s + t \\ge 3\\sqrt[3]{rst}$. $\\quad (2)$\n\nWith $a = rs$, $b = rt$, $c = st$: $(rs + rt + st)^3 \\ge 27r^2s^2t^2$, so $rs + rt + st \\ge 3\\sqrt[3]{r^2s^2t^2}$. $\\quad (3)$\n\nLet $k = \\sqrt[3]{rst} > 0$. Substituting (2) and (3) into (1) (with $n > 0$):\n$$n^6 \\ge k^3 + 3nk^2 + 3n^2k + n^3 = (k + n)^3.$$\nTaking cube roots: $k + n \\le n^2$, so $\\sqrt[3]{rst} \\le n^2 - n$. Cubing both sides (both sides are positive):\n$$rst \\le (n^2 - n)^3.$$"
+  },
+  {
+   "ref": "Q16(c)",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.3.4.12",
+    "12.3.3.4",
+    "12.3.2.7"
+   ],
+   "question": "Let $z_1$, $z_2$, $z_3$ be complex numbers such that\n$$|z_1| = |z_2| = |z_3| = 1,\\qquad z_1 + z_2 + z_3 \\ne 0,\\qquad z_1^2 + z_2^2 + z_3^2 = 0.$$\nShow that, for all integers $n \\ge 1$, $\\left|z_1^n + z_2^n + z_3^n\\right|$ can only take specific integer values, and state those values.",
+   "answer": "Let $z_1, z_2, z_3$ be the roots of $z^3 - az^2 + bz - c = 0$, so $a = z_1 + z_2 + z_3 \\ne 0$, $b = z_1z_2 + z_2z_3 + z_3z_1$, $c = z_1z_2z_3$, and $|c| = 1$.\n\n$a^2 = (z_1^2 + z_2^2 + z_3^2) + 2b = 2b$.\n\nSince $|z_k| = 1$, $\\overline{z_k} = \\frac{1}{z_k}$, so\n$$\\overline{a} = \\frac1{z_1} + \\frac1{z_2} + \\frac1{z_3} = \\frac{z_2z_3 + z_1z_3 + z_1z_2}{z_1z_2z_3} = \\frac{b}{c} \\;\\Rightarrow\\; b = c\\,\\overline{a}.$$\nThen $a^2 = 2c\\,\\overline{a}$, so $|a|^2 = 2|c||a| = 2|a|$, and since $a \\ne 0$, $|a| = 2$.\n\nWrite $a = 2w$ with $|w| = 1$. Then $b = \\frac{a^2}{2} = 2w^2$ and $c = \\frac{b}{\\overline{a}} = \\frac{2w^2}{2/w} = w^3$ (as $\\overline{w} = \\frac1w$). The polynomial is\n$$z^3 - 2wz^2 + 2w^2z - w^3 = (z - w)(z^2 - wz + w^2) = 0,$$\nwith roots $z = w$ and $z = \\frac{w \\pm \\sqrt{w^2 - 4w^2}}{2} = w\\cdot\\frac{1 \\pm \\sqrt3 i}{2} = w\\,\\text{cis}\\left(\\pm\\frac\\pi3\\right)$.\n\nSo $\\{z_1, z_2, z_3\\} = \\left\\{w,\\ w\\,\\text{cis}\\frac\\pi3,\\ w\\,\\text{cis}\\left(-\\frac\\pi3\\right)\\right\\}$ and\n$$\\left|z_1^n + z_2^n + z_3^n\\right| = |w|^n\\left|1 + \\text{cis}\\frac{n\\pi}{3} + \\text{cis}\\left(-\\frac{n\\pi}{3}\\right)\\right| = \\left|1 + 2\\cos\\frac{n\\pi}{3}\\right|.$$\n$\\cos\\frac{n\\pi}3$ repeats with period 6:\n\n| $n \\bmod 6$ | 1 | 2 | 3 | 4 | 5 | 0 |\n|---|---|---|---|---|---|---|\n| $\\cos\\frac{n\\pi}{3}$ | $\\frac12$ | $-\\frac12$ | $-1$ | $-\\frac12$ | $\\frac12$ | $1$ |\n| $\\left|1 + 2\\cos\\frac{n\\pi}3\\right|$ | $2$ | $0$ | $1$ | $0$ | $2$ | $3$ |\n\nHence $\\left|z_1^n + z_2^n + z_3^n\\right|$ only takes the integer values $0, 1, 2, 3$.\n\n*Note: the school's main solution concludes '0, 1, 2, 3, 4'; the value 4 never occurs (its own table and alternative solution give 0, 1, 2, 3).*"
+  }
+ ]
+}

@@ -1,0 +1,663 @@
+{
+ "id": "adv-2026-manly",
+ "course": "advanced",
+ "school": "Manly",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5328",
+  "title": "Manly 2026 w. sol"
+ },
+ "indexed": "2026-11-24",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q4",
+   "reason": "Not in 2024 syllabus: range and interquartile range from a stem-and-leaf display (summary statistics of a dataset)."
+  },
+  {
+   "ref": "Q17(a)",
+   "reason": "Not in 2024 syllabus: bivariate data (drawing a least-squares regression line on a scatterplot)."
+  },
+  {
+   "ref": "Q17(b)",
+   "reason": "Not in 2024 syllabus: bivariate data (interpreting the slope of a least-squares regression line)."
+  },
+  {
+   "ref": "Q17(c)",
+   "reason": "Not in 2024 syllabus: bivariate data (prediction from a least-squares regression line)."
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.2",
+    "12.2.2.5"
+   ],
+   "question": "The numbers $5, x, 13, 17, \\ldots$ form an arithmetic sequence. What is the sum of the first four terms?",
+   "answer": "The common difference is $d = 17-13 = 4$, so $x = 9$. Sum $= 5+9+13+17 = 44$ (D).",
+   "options": [
+    "$35$",
+    "$39$",
+    "$42$",
+    "$44$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.3.12",
+    "12.6.3.10"
+   ],
+   "question": "Two students, Pema and Sonakshi, sit different tests. Pema scores 75 in a test with a mean of 60 and a standard deviation of 10. Sonakshi scores 80 in a test with a mean of 70 and a standard deviation of 5.\n\nWho performed better relative to their group?",
+   "answer": "$z_{\\text{Pema}} = \\dfrac{75-60}{10} = 1.5$ and $z_{\\text{Sonakshi}} = \\dfrac{80-70}{5} = 2$. Sonakshi's $z$-score is higher, so she performed better relative to her group (B).",
+   "options": [
+    "Pema",
+    "Sonakshi",
+    "They performed equally well.",
+    "It is not possible to tell without knowing the total marks for each test."
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.7",
+    "12.4.4.3"
+   ],
+   "question": "What is $\\displaystyle\\int \\frac{1}{(x+2)^2}\\,dx$?",
+   "answer": "$\\displaystyle\\int (x+2)^{-2}\\,dx = \\frac{(x+2)^{-1}}{-1} + C = -\\frac{1}{x+2} + C$ (A).",
+   "options": [
+    "$-\\dfrac{1}{x+2}+C$",
+    "$\\dfrac{1}{x+2}+C$",
+    "$\\ln|x+2|+C$",
+    "$-\\dfrac{1}{(x+2)^3}+C$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.5",
+    "11.1.4.3"
+   ],
+   "question": "The diagram shows the graph of $y = x^2 + bx + c$, where $b$ and $c$ are constants. The parabola cuts the $y$-axis below the origin and its vertex lies to the right of the $y$-axis.\n\nWhich of the following is true?",
+   "answer": "The $y$-intercept is $c$, which is below the $x$-axis, so $c<0$.\n\nThe axis of symmetry $x = -\\dfrac{b}{2a} = -\\dfrac{b}{2}$ is to the right of the $y$-axis, so $-\\dfrac{b}{2} > 0$, i.e. $b<0$.\n\nSo $b<0$ and $c<0$ (D).",
+   "options": [
+    "$b>0$ and $c>0$",
+    "$b>0$ and $c<0$",
+    "$b<0$ and $c>0$",
+    "$b<0$ and $c<0$"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/adv-2026-manly/q5.png"
+   ]
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.10",
+    "11.4.4.3"
+   ],
+   "question": "The diagram shows the graph of $y = f(x)$. The curve increases from left to right to a local maximum (left of the $y$-axis), decreases to a local minimum on the $x$-axis at the origin, then increases steeply.\n\nWhich of the following could be the graph of $y = f'(x)$?",
+   "answer": "As $x \\to -\\infty$ the graph of $f$ flattens while increasing, so $f'(x) \\to 0^+$; this eliminates B and D (both are negative at the far left).\n\n$f$ is increasing for $x>0$, so $f'(x)>0$ for $x>0$; this eliminates A (which is negative to the right of the $y$-axis).\n\nIn C, $f'$ is positive, then negative between the maximum and the origin, then zero at the origin and positive after it. Answer: C.",
+   "options": [
+    "![Graph A](assets/img/adv-2026-manly/q6a.png)",
+    "![Graph B](assets/img/adv-2026-manly/q6b.png)",
+    "![Graph C](assets/img/adv-2026-manly/q6c.png)",
+    "![Graph D](assets/img/adv-2026-manly/q6d.png)"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/adv-2026-manly/q6.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.2.7",
+    "11.7.3.4"
+   ],
+   "question": "Box A contains 3 red balls and 2 white balls while Box B contains 6 red balls and 1 white ball. Zev draws a ball randomly from Box A and then puts it into Box B.\n\nIf Zev then draws a ball randomly from Box B, what is the probability that he draws a red ball?",
+   "answer": "If a red ball is moved (probability $\\tfrac35$), Box B has 7 red and 1 white; if a white ball is moved (probability $\\tfrac25$), Box B has 6 red and 2 white.\n\n$$P(R) = \\frac35\\times\\frac78 + \\frac25\\times\\frac68 = \\frac{21}{40} + \\frac{12}{40} = \\frac{33}{40}\\quad\\text{(C)}$$",
+   "options": [
+    "$\\dfrac{9}{20}$",
+    "$\\dfrac{21}{40}$",
+    "$\\dfrac{33}{40}$",
+    "$\\dfrac{9}{10}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.9",
+    "12.6.1.6"
+   ],
+   "question": "A raffle has a first prize of \\$200 and a second prize of \\$50. A ticketholder can win either first prize, second prize, or nothing. The probability of winning first prize is $0.05$ and the probability of winning second prize is $0.1$.\n\nIf tickets cost \\$10 each, what is the expected gain when buying a single ticket?",
+   "answer": "The gain $X$ (prize minus the \\$10 ticket) has distribution\n\n| $x$ | \\$190 | \\$40 | $-$\\$10 |\n|---|---|---|---|\n| $P(X=x)$ | $0.05$ | $0.1$ | $0.85$ |\n\n$E(X) = 190(0.05) + 40(0.1) - 10(0.85) = 9.5 + 4 - 8.5 = \\$5$ (B).",
+   "options": [
+    "\\$0",
+    "\\$5",
+    "\\$15",
+    "\\$25"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.2",
+    "12.4.6.2"
+   ],
+   "question": "A vessel initially contains 100 litres of water. It is being emptied at a rate of\n$$\\frac{dV}{dt} = -\\left(2 + \\frac{20}{t+1}\\right)$$\nwhere $V$ is the volume in litres after $t$ minutes.\n\nWhich of the following gives the exact volume of water (in litres) remaining in the vessel after five minutes?",
+   "answer": "$V = -2t - 20\\ln(t+1) + C$ (since $t+1>0$).\n\nWhen $t=0$, $V=100$: $100 = 0 - 20\\ln 1 + C$, so $C = 100$.\n\n$V(5) = -10 - 20\\ln 6 + 100 = 90 - 20\\ln 6$ (B).",
+   "options": [
+    "$10 + 20\\ln 6$",
+    "$90 - 20\\ln 6$",
+    "$90 + 20\\ln 6$",
+    "$110 + 20\\ln 6$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.5",
+    "12.4.8.2"
+   ],
+   "question": "Part of the graph of $y = f(x)$ is shown. The curve crosses the $x$-axis at $(a, 0)$, where $a>0$, and the horizontal line is a tangent to the curve at the local maximum $(b, f(b))$. The shaded area is bounded by the graph of $y = f(x)$, the coordinate axes and the horizontal line.\n\nWhich of the following is the correct expression for the area of the shaded region?",
+   "answer": "The shaded region is the rectangle with width $b$ and height $f(b)$ (between $x=0$ and $x=b$, under the horizontal line and above the $x$-axis), minus the area under the curve from $x=a$ to $x=b$:\n$$\\text{Area} = b\\,f(b) - \\int_a^b f(x)\\,dx \\quad\\text{(C)}$$",
+   "options": [
+    "$a f(b) - \\displaystyle\\int_a^b f(x)\\,dx$",
+    "$a f(b) + \\displaystyle\\int_a^b f(x)\\,dx$",
+    "$b f(b) - \\displaystyle\\int_a^b f(x)\\,dx$",
+    "$\\displaystyle\\int_0^b f(x)\\,dx - b f(b)$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/adv-2026-manly/q10.png"
+   ],
+   "answer_images": [
+    "assets/img/adv-2026-manly/q10-ans.png"
+   ]
+  },
+  {
+   "ref": "Q11",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.7.2",
+    "12.4.8.1"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_{\\frac{\\pi}{6}}^{\\frac{\\pi}{2}} 4\\sin(2x)\\,dx$.",
+   "answer": "$$\\int_{\\frac{\\pi}{6}}^{\\frac{\\pi}{2}} 4\\sin(2x)\\,dx = \\Big[-2\\cos(2x)\\Big]_{\\frac{\\pi}{6}}^{\\frac{\\pi}{2}} = \\left(-2\\cos\\pi\\right) - \\left(-2\\cos\\frac{\\pi}{3}\\right) = 2 - (-1) = 3$$"
+  },
+  {
+   "ref": "Q12",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.9.5"
+   ],
+   "question": "Determine algebraically whether the function $f(x) = x\\sin x$ is even, odd or neither.",
+   "answer": "$$f(-x) = (-x)\\sin(-x) = (-x)(-\\sin x) = x\\sin x = f(x)$$\n(using $\\sin(-x) = -\\sin x$). Since $f(-x) = f(x)$ for all $x$, $f$ is **even**."
+  },
+  {
+   "ref": "Q13",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7",
+    "12.4.8.1"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_2^3 \\frac{1}{\\sqrt{3x-4}}\\,dx$.",
+   "answer": "$$\\int_2^3 (3x-4)^{-\\frac12}\\,dx = \\left[\\frac{(3x-4)^{\\frac12}}{\\frac12\\times 3}\\right]_2^3 = \\frac23\\Big[\\sqrt{3x-4}\\Big]_2^3 = \\frac23\\left(\\sqrt5 - \\sqrt2\\right) \\approx 0.548$$"
+  },
+  {
+   "ref": "Q14",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.2",
+    "11.4.3.8"
+   ],
+   "question": "Find the equation of the tangent to the curve $y = x^2e^x$ at the point where $x = 2$.",
+   "answer": "By the product rule, $y' = 2xe^x + x^2e^x$.\n\nAt $x = 2$: $y = 4e^2$ and $y' = 4e^2 + 4e^2 = 8e^2$.\n\nTangent: $y - 4e^2 = 8e^2(x-2)$, so\n$$y = 8e^2x - 12e^2 \\quad(\\text{or } 8e^2x - y - 12e^2 = 0).$$"
+  },
+  {
+   "ref": "Q15",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.9.7",
+    "11.5.2.9"
+   ],
+   "question": "Consider the functions $f(x) = \\ln(2x-1)$ and $g(x) = x+2$. Find the value(s) of $x$ such that $f(g(x)) = 2\\ln 3$.",
+   "answer": "$f(g(x)) = \\ln\\big(2(x+2)-1\\big) = \\ln(2x+3)$.\n\n$2\\ln 3 = \\ln 9$, so $\\ln(2x+3) = \\ln 9 \\Rightarrow 2x+3 = 9 \\Rightarrow x = 3$.\n\n(Check: $2x+3 = 9 > 0$, so $x=3$ is valid.)"
+  },
+  {
+   "ref": "Q16",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.2"
+   ],
+   "question": "In an arithmetic sequence, the 6th term is 36 and the 9th term is 28. Find the first term.",
+   "answer": "$T_6 = a + 5d = 36 \\quad (1)$ and $T_9 = a + 8d = 28 \\quad (2)$.\n\n$(2) - (1)$: $3d = -8$, so $d = -\\dfrac83$.\n\nFrom (1): $a = 36 - 5\\left(-\\dfrac83\\right) = 36 + \\dfrac{40}{3} = \\dfrac{148}{3} = 49\\tfrac13$."
+  },
+  {
+   "ref": "Q18",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "The table shows future value interest factors for an annuity of \\$1, where deposits are made at the end of each period.\n\n| Period \\\\ Rate | 0.00350 | 0.00525 | 0.01050 | 0.04200 |\n|---|---|---|---|---|\n| 8 | 8.09869 | 8.14855 | 8.30026 | 9.28015 |\n| 32 | 33.79833 | 34.74607 | 37.79904 | 65.01190 |\n| 64 | 71.59481 | 75.83041 | 90.60013 | 307.53876 |\n| 96 | 113.86239 | 124.40923 | 164.35744 | 1212.28514 |\n\nHeidi wants to save some money for her daughter using an annuity. She wishes to have a future value of \\$40 000 after 8 years. Heidi will deposit a fixed amount into an investment account at the end of each month. The account pays 4.2% per annum, compounded monthly.\n\nUsing the table, determine how much Heidi needs to deposit each month.",
+   "answer": "Monthly rate $= 4.2\\% \\div 12 = 0.35\\% = 0.00350$; number of periods $= 8\\times12 = 96$.\n\nFrom the table the factor is $113.86239$, so\n$$40\\,000 = M \\times 113.86239 \\Rightarrow M = \\frac{40\\,000}{113.86239} \\approx \\$351.30$$"
+  },
+  {
+   "ref": "Q19",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.11.5",
+    "11.6.1.6"
+   ],
+   "question": "Sketch the graph of $y = 5 - |3x-6|$, indicating the intercepts with the axes.",
+   "answer": "The vertex is where $3x - 6 = 0$: $x = 2$, $y = 5$, so the vertex is $(2, 5)$ and the graph is an upside-down \"V\" (gradients $3$ and $-3$).\n\n$x$-intercepts: $|3x-6| = 5 \\Rightarrow 3x-6 = \\pm5 \\Rightarrow x = \\dfrac{11}{3}$ or $x = \\dfrac13$.\n\n$y$-intercept: $y = 5 - |{-6}| = -1$.\n\nSo the graph rises with gradient $3$ through $(0,-1)$ and $\\left(\\tfrac13, 0\\right)$ to the vertex $(2,5)$, then falls with gradient $-3$ through $\\left(\\tfrac{11}{3}, 0\\right)$.",
+   "answer_images": [
+    "assets/img/adv-2026-manly/q19-ans.png"
+   ]
+  },
+  {
+   "ref": "Q20(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.5.2.11"
+   ],
+   "question": "Sketch the graph of $y = \\log_{10}x$, showing all important features.",
+   "answer": "Key features:\n- domain $x > 0$, with the $y$-axis ($x=0$) as a vertical asymptote ($y \\to -\\infty$ as $x \\to 0^+$);\n- $x$-intercept $(1, 0)$, no $y$-intercept;\n- passes through $(10, 1)$;\n- increasing and concave down for all $x>0$.",
+   "answer_images": [
+    "assets/img/adv-2026-manly/q20a-ans.png"
+   ]
+  },
+  {
+   "ref": "Q20(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.8.11"
+   ],
+   "question": "Use the trapezoidal rule with four function values to approximate the area bounded by the curve $y = \\log_{10}x$ and the $x$-axis, from $x = 1$ to $x = 4$.",
+   "answer": "Four function values at $x = 1, 2, 3, 4$, so $h = 1$.\n\n$$A \\approx \\frac{h}{2}\\Big[f(1) + 2f(2) + 2f(3) + f(4)\\Big] = \\frac12\\Big[\\log_{10}1 + 2\\log_{10}2 + 2\\log_{10}3 + \\log_{10}4\\Big]$$\n$$= \\frac12\\big[0 + 0.60206 + 0.95424 + 0.60206\\big] \\approx 1.079\\ \\text{units}^2$$"
+  },
+  {
+   "ref": "Q21",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.13",
+    "12.6.3.10"
+   ],
+   "question": "Scientists are monitoring a population of quolls. Their lengths are normally distributed with a mean of 50 cm and a standard deviation of 2.3 cm. A scientist captures one of the quolls at random.\n\nThe table below shows values of $P(Z \\le z)$, where $Z$ is the standard normal random variable, for values of $z$ between 0 and 1.39.\n\n| $z$ | 0.00 | 0.01 | 0.02 | 0.03 | 0.04 | 0.05 | 0.06 | 0.07 | 0.08 | 0.09 |\n|---|---|---|---|---|---|---|---|---|---|---|\n| **0.0** | 0.5000 | 0.5040 | 0.5080 | 0.5120 | 0.5160 | 0.5199 | 0.5239 | 0.5279 | 0.5319 | 0.5359 |\n| **0.1** | 0.5398 | 0.5438 | 0.5478 | 0.5517 | 0.5557 | 0.5596 | 0.5636 | 0.5675 | 0.5714 | 0.5753 |\n| **0.2** | 0.5793 | 0.5832 | 0.5871 | 0.5910 | 0.5948 | 0.5987 | 0.6026 | 0.6064 | 0.6103 | 0.6141 |\n| **0.3** | 0.6179 | 0.6217 | 0.6255 | 0.6293 | 0.6331 | 0.6368 | 0.6406 | 0.6443 | 0.6480 | 0.6517 |\n| **0.4** | 0.6554 | 0.6591 | 0.6628 | 0.6664 | 0.6700 | 0.6736 | 0.6772 | 0.6808 | 0.6844 | 0.6879 |\n| **0.5** | 0.6915 | 0.6950 | 0.6985 | 0.7019 | 0.7054 | 0.7088 | 0.7123 | 0.7157 | 0.7190 | 0.7224 |\n| **0.6** | 0.7257 | 0.7291 | 0.7324 | 0.7357 | 0.7389 | 0.7422 | 0.7454 | 0.7486 | 0.7517 | 0.7549 |\n| **0.7** | 0.7580 | 0.7611 | 0.7642 | 0.7673 | 0.7704 | 0.7734 | 0.7764 | 0.7794 | 0.7823 | 0.7852 |\n| **0.8** | 0.7881 | 0.7910 | 0.7939 | 0.7967 | 0.7995 | 0.8023 | 0.8051 | 0.8078 | 0.8106 | 0.8133 |\n| **0.9** | 0.8159 | 0.8186 | 0.8212 | 0.8238 | 0.8264 | 0.8289 | 0.8315 | 0.8340 | 0.8365 | 0.8389 |\n| **1.0** | 0.8413 | 0.8438 | 0.8461 | 0.8485 | 0.8508 | 0.8531 | 0.8554 | 0.8577 | 0.8599 | 0.8621 |\n| **1.1** | 0.8643 | 0.8665 | 0.8686 | 0.8708 | 0.8729 | 0.8749 | 0.8770 | 0.8790 | 0.8810 | 0.8830 |\n| **1.2** | 0.8849 | 0.8869 | 0.8888 | 0.8907 | 0.8925 | 0.8944 | 0.8962 | 0.8980 | 0.8997 | 0.9015 |\n| **1.3** | 0.9032 | 0.9049 | 0.9066 | 0.9082 | 0.9099 | 0.9115 | 0.9131 | 0.9147 | 0.9162 | 0.9177 |\n\nUsing the table, find the probability that the quoll is longer than 49 cm but shorter than 52 cm, correct to three decimal places.",
+   "answer": "$z_{49} = \\dfrac{49-50}{2.3} \\approx -0.43$ and $z_{52} = \\dfrac{52-50}{2.3} \\approx 0.87$.\n\nFrom the table: $P(Z < 0.87) = 0.8078$ and $P(Z < 0.43) = 0.6664$.\n\nBy symmetry, $P(Z < -0.43) = P(Z > 0.43) = 1 - 0.6664 = 0.3336$.\n\n$$P(-0.43 < Z < 0.87) = 0.8078 - 0.3336 = 0.4742 \\approx 0.474$$"
+  },
+  {
+   "ref": "Q22",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.6.1.6",
+    "11.6.1.10"
+   ],
+   "question": "The graph of $y = f(x)$ is shown. It starts at the point $A(-4, 0)$ and passes through $B(0, 2)$, increasing for $x > -4$.\n\nOn the same set of axes, sketch the graph of $y = f(-2x) - 1$, clearly indicating the coordinates of $A'$ and $B'$, the images of points $A$ and $B$.",
+   "answer": "$y = f(-2x) - 1$ is obtained from $y = f(x)$ by a horizontal dilation by factor $\\tfrac12$, a reflection in the $y$-axis, and a translation down by 1.\n\nA point $(x, y)$ on $y=f(x)$ maps to $\\left(-\\dfrac{x}{2},\\ y - 1\\right)$:\n- $A(-4, 0) \\to A'(2, -1)$\n- $B(0, 2) \\to B'(0, 1)$\n\nThe new graph starts at $A'(2,-1)$ and extends to the **left**, passing through $B'(0, 1)$ and increasing as $x$ decreases (domain $x \\le 2$).",
+   "images": [
+    "assets/img/adv-2026-manly/q22.png"
+   ],
+   "answer_images": [
+    "assets/img/adv-2026-manly/q22-ans.png"
+   ]
+  },
+  {
+   "ref": "Q23(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.1.2"
+   ],
+   "question": "Cadel is riding his bicycle at a steady speed along a straight road. The height $h$ (cm) of one of the pedals in terms of time $t$ (seconds) is given by the equation\n$$h = 40 + 19\\sin(\\pi t).$$\n\nSketch the graph of height against time for the first five seconds.",
+   "answer": "- Centre (mean height) $40$ cm, amplitude $19$, so $h$ ranges from $21$ to $59$ cm.\n- Period $= \\dfrac{2\\pi}{\\pi} = 2$ seconds.\n- Starts at $(0, 40)$ and rises: maxima at $t = 0.5, 2.5, 4.5$ ($h = 59$), minima at $t = 1.5, 3.5$ ($h = 21$), and $h = 40$ at $t = 0, 1, 2, 3, 4, 5$.\n- The sketch is $2\\tfrac12$ cycles of a sine curve ending at $(5, 40)$.",
+   "answer_images": [
+    "assets/img/adv-2026-manly/q23a-ans.png"
+   ]
+  },
+  {
+   "ref": "Q23(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "Cadel is riding his bicycle at a steady speed along a straight road. The height $h$ (cm) of one of the pedals in terms of time $t$ (seconds) is given by the equation\n$$h = 40 + 19\\sin(\\pi t).$$\n\nHow long will the pedal take to complete a revolution?",
+   "answer": "One revolution is one period: $T = \\dfrac{2\\pi}{\\pi} = 2$ seconds."
+  },
+  {
+   "ref": "Q23(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.1.2"
+   ],
+   "question": "Cadel is riding his bicycle at a steady speed along a straight road. The height $h$ (cm) of one of the pedals in terms of time $t$ (seconds) is given by the equation\n$$h = 40 + 19\\sin(\\pi t).$$\n\nIf Cadel cycled faster, how would the equation above change?",
+   "answer": "Cycling faster means each revolution takes less time, so the period $\\dfrac{2\\pi}{n}$ is shorter. The coefficient of $t$ would therefore increase to a value greater than $\\pi$, i.e. $h = 40 + 19\\sin(nt)$ with $n > \\pi$ (the $40$ and $19$ are unchanged)."
+  },
+  {
+   "ref": "Q24(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.8",
+    "12.2.2.6"
+   ],
+   "question": "A competition offers three options for the first prize, each of which pays the winner a monthly sum for 24 months:\n\n- **Option 1:** \\$14 000 per month.\n- **Option 2:** \\$2500 in the first month, then each successive month pays \\$1000 more than the previous month.\n- **Option 3:** \\$400 in the first month, then each successive month pays 25% more than the previous month.\n\nDetermine which option will pay the most over the 24 months.",
+   "answer": "**Option 1:** $14\\,000 \\times 24 = \\$336\\,000$.\n\n**Option 2** (arithmetic, $a = 2500$, $d = 1000$):\n$$S_{24} = \\frac{24}{2}\\big(2\\times2500 + 23\\times1000\\big) = 12 \\times 28\\,000 = \\$336\\,000$$\n\n**Option 3** (geometric, $a = 400$, $r = 1.25$):\n$$S_{24} = \\frac{400(1.25^{24} - 1)}{1.25 - 1} \\approx \\$337\\,213$$\n\nTherefore Option 3 pays the most."
+  },
+  {
+   "ref": "Q24(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.8",
+    "12.2.3.5"
+   ],
+   "question": "A competition offers three options for the first prize, each of which pays the winner a monthly sum for 24 months:\n\n- **Option 1:** \\$14 000 per month.\n- **Option 2:** \\$2500 in the first month, then each successive month pays \\$1000 more than the previous month.\n- **Option 3:** \\$400 in the first month, then each successive month pays 25% more than the previous month.\n\nThe amount won in the first month for Option 3 is to be altered (the monthly increase stays at 25%), so that the total prize over the 24 months is \\$400 000. Calculate the new initial amount, correct to the nearest dollar.",
+   "answer": "$$400\\,000 = \\frac{a(1.25^{24} - 1)}{0.25} \\Rightarrow a = \\frac{100\\,000}{1.25^{24} - 1} = 474.477\\ldots \\approx \\$474$$"
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.1.2"
+   ],
+   "question": "Two hikers, Rita and Sam, leave a point $P$ at the same time and walk to a campsite, $C$. Rita walks 4 km on a bearing of 040° to point $Q$, then a further 6 km on a bearing of 155° to arrive at the campsite. Sam walks directly from point $P$ to the campsite.\n\nShow that $\\angle PQC = 65°$.",
+   "answer": "The bearing of $P$ from $Q$ is $040° + 180° = 220°$, and the bearing of $C$ from $Q$ is $155°$. So\n$$\\angle PQC = 220° - 155° = 65°.$$\n(Equivalently, using co-interior angles between the north lines: $\\angle PQC = 180° - 155° + 40° = 65°$.)",
+   "images": [
+    "assets/img/adv-2026-manly/q25.png"
+   ]
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "Two hikers, Rita and Sam, leave a point $P$ at the same time and walk to a campsite, $C$. Rita walks 4 km on a bearing of 040° to point $Q$, then a further 6 km on a bearing of 155° to arrive at the campsite. Sam walks directly from point $P$ to the campsite. You may use $\\angle PQC = 65°$.\n\nIf Rita walks at a speed of 10 km/h and Sam walks at 6 km/h, determine who arrives at the campsite first and how long they must wait for the other person to arrive.",
+   "answer": "By the cosine rule in $\\triangle PQC$:\n$$PC^2 = 4^2 + 6^2 - 2(4)(6)\\cos65° \\Rightarrow PC \\approx 5.632\\ \\text{km}$$\n\nSam's time $= \\dfrac{5.632}{6} \\approx 0.9386$ h. Rita walks $4 + 6 = 10$ km at 10 km/h, taking $1$ h.\n\nSo **Sam** arrives first and waits $1 - 0.9386 = 0.0614$ h $\\approx 3.68$ minutes (about 3 min 41 s).",
+   "images": [
+    "assets/img/adv-2026-manly/q25.png"
+   ]
+  },
+  {
+   "ref": "Q25(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.10",
+    "11.2.1.2"
+   ],
+   "question": "Two hikers, Rita and Sam, leave a point $P$ at the same time and walk to a campsite, $C$. Rita walks 4 km on a bearing of 040° to point $Q$, then a further 6 km on a bearing of 155° to arrive at the campsite. Sam walks directly from point $P$ to the campsite. You may use $\\angle PQC = 65°$ and $PC \\approx 5.632$ km.\n\nOn what bearing, to the nearest degree, must they walk from the campsite to return directly to point $P$?",
+   "answer": "By the sine rule in $\\triangle PQC$:\n$$\\frac{\\sin\\angle QCP}{4} = \\frac{\\sin65°}{5.632} \\Rightarrow \\angle QCP \\approx 40.07°$$\n\nThe bearing of $Q$ from $C$ is $155° + 180° = 335°$, i.e. $25°$ west of north. $P$ is a further $40.07°$ anticlockwise from $CQ$, so the bearing of $P$ from $C$ is\n$$360° - (25° + 40.07°) \\approx 295°.$$",
+   "images": [
+    "assets/img/adv-2026-manly/q25.png"
+   ]
+  },
+  {
+   "ref": "Q26",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.7",
+    "12.2.3.5"
+   ],
+   "question": "The limiting sum of a geometric series is 500, and the sum of the first three terms is 244. Find the sum of the first 10 terms, correct to two decimal places.",
+   "answer": "$\\dfrac{a}{1-r} = 500 \\Rightarrow a = 500(1-r)$ (1), and $\\dfrac{a(1-r^3)}{1-r} = 244$ (2).\n\nSubstituting (1) into (2): $500(1 - r^3) = 244 \\Rightarrow r^3 = 1 - \\dfrac{244}{500} = \\dfrac{64}{125} \\Rightarrow r = 0.8$.\n\nThen $a = 500(0.2) = 100$, and\n$$S_{10} = \\frac{100(1 - 0.8^{10})}{1 - 0.8} = 500(1 - 0.8^{10}) \\approx 446.31$$"
+  },
+  {
+   "ref": "Q27",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.7",
+    "12.4.5.2"
+   ],
+   "question": "The wait time $X$ (seconds) that a customer waits for their coffee at the Calculus Café can be modelled by the probability density function\n$$f(x) = \\begin{cases} \\dfrac{1}{60}e^{-\\frac{x}{60}}, & x \\ge 0 \\\\[2mm] 0, & \\text{otherwise.} \\end{cases}$$\n\nThe service is considered \"Unacceptable\" if the wait time exceeds 5 minutes. What percentage of customers experience \"Unacceptable\" wait times?",
+   "answer": "5 minutes $= 300$ seconds.\n$$P(X \\le 300) = \\int_0^{300} \\frac{1}{60}e^{-\\frac{x}{60}}\\,dx = \\Big[-e^{-\\frac{x}{60}}\\Big]_0^{300} = 1 - e^{-5} \\approx 0.99326$$\n$$P(X > 300) = e^{-5} \\approx 0.006738 \\approx 0.67\\%$$"
+  },
+  {
+   "ref": "Q28(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.7.3.8"
+   ],
+   "question": "A cybersecurity system sends automatic alerts when suspicious activity is detected. Each independent scan has a probability of $0.12$ of triggering an alert.\n\nWhat is the probability that no alerts are triggered in the first three scans? Give your answer correct to four decimal places.",
+   "answer": "$P(\\text{no alert in 3 scans}) = (1 - 0.12)^3 = 0.88^3 = 0.681472 \\approx 0.6815$"
+  },
+  {
+   "ref": "Q28(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.7.3.8",
+    "11.5.2.9"
+   ],
+   "question": "A cybersecurity system sends automatic alerts when suspicious activity is detected. Each independent scan has a probability of $0.12$ of triggering an alert. The system continues scanning until it triggers its first alert.\n\nFind the minimum number of scans required so that the probability that at least one alert has been triggered is greater than $0.75$.",
+   "answer": "$P(\\text{at least one alert in } n \\text{ scans}) = 1 - 0.88^n$.\n$$1 - 0.88^n > 0.75 \\Rightarrow 0.88^n < 0.25 \\Rightarrow n > \\frac{\\ln 0.25}{\\ln 0.88} \\approx 10.84$$\n(the inequality reverses because $\\ln 0.88 < 0$). So the minimum number is $n = 11$ scans."
+  },
+  {
+   "ref": "Q29",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.10",
+    "12.1.1.3"
+   ],
+   "question": "Solve $2\\sin\\left(3x + \\dfrac{\\pi}{2}\\right) = 1$ for $0 \\le x \\le \\pi$.",
+   "answer": "$\\sin\\left(3x + \\dfrac{\\pi}{2}\\right) = \\cos(3x)$, so the equation is $\\cos(3x) = \\dfrac12$.\n\nFor $0 \\le x \\le \\pi$, $0 \\le 3x \\le 3\\pi$:\n$$3x = \\frac{\\pi}{3},\\ \\frac{5\\pi}{3},\\ \\frac{7\\pi}{3} \\Rightarrow x = \\frac{\\pi}{9},\\ \\frac{5\\pi}{9},\\ \\frac{7\\pi}{9}$$"
+  },
+  {
+   "ref": "Q30(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.9",
+    "12.3.3.4"
+   ],
+   "question": "The velocity $v$ of a particle in metres per second at time $t$ seconds is given by\n$$v = 15\\sin(3t) + 2t \\quad (t \\ge 0).$$\nInitially the particle is 10 metres to the right of the origin.\n\nFind the first time when the acceleration of the particle is zero, correct to two decimal places.",
+   "answer": "$a = \\dfrac{dv}{dt} = 45\\cos(3t) + 2$.\n\n$a = 0 \\Rightarrow \\cos(3t) = -\\dfrac{2}{45}$. The smallest positive solution (in radians) is $3t = \\cos^{-1}\\left(-\\dfrac{2}{45}\\right) \\approx 1.6153$, so\n$$t \\approx 0.54 \\text{ seconds.}$$"
+  },
+  {
+   "ref": "Q30(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.10",
+    "12.4.7.2"
+   ],
+   "question": "The velocity $v$ of a particle in metres per second at time $t$ seconds is given by\n$$v = 15\\sin(3t) + 2t \\quad (t \\ge 0).$$\nInitially the particle is 10 metres to the right of the origin.\n\nFind the displacement of the particle after 4 seconds.",
+   "answer": "$x = \\displaystyle\\int \\big(15\\sin(3t) + 2t\\big)\\,dt = -5\\cos(3t) + t^2 + C$.\n\nWhen $t = 0$, $x = 10$: $10 = -5 + C \\Rightarrow C = 15$, so $x = -5\\cos(3t) + t^2 + 15$.\n\nAt $t = 4$: $x = -5\\cos 12 + 16 + 15 \\approx 26.78$ m, i.e. $26.78$ m to the right of the origin."
+  },
+  {
+   "ref": "Q31(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.8",
+    "11.1.1.6"
+   ],
+   "question": "The graphs of $y = \\dfrac{1}{2x-3}$ and $y = x - 1$ intersect at two points, as shown in the diagram.\n\nFind the $x$-coordinates of the points of intersection of the two graphs.",
+   "answer": "$$\\frac{1}{2x-3} = x - 1 \\Rightarrow 1 = (x-1)(2x-3) = 2x^2 - 5x + 3 \\Rightarrow 2x^2 - 5x + 2 = 0$$\n$$(2x-1)(x-2) = 0 \\Rightarrow x = \\frac12 \\text{ or } x = 2$$",
+   "images": [
+    "assets/img/adv-2026-manly/q31.png"
+   ]
+  },
+  {
+   "ref": "Q31(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.4.8",
+    "11.1.5.1"
+   ],
+   "question": "The graphs of $y = \\dfrac{1}{2x-3}$ and $y = x - 1$ intersect at two points, as shown in the diagram. The points of intersection have $x$-coordinates $x = \\tfrac12$ and $x = 2$, and $y = \\dfrac{1}{2x-3}$ has a vertical asymptote at $x = \\tfrac32$.\n\nHence or otherwise, solve the inequality $x - 1 \\le \\dfrac{1}{2x-3}$.",
+   "answer": "We need the line to be on or below the hyperbola.\n\n- For $x < \\tfrac32$: the line is below the left branch up to the intersection at $x = \\tfrac12$, so $x \\le \\tfrac12$.\n- For $x > \\tfrac32$: the right branch starts at $+\\infty$ and is above the line until the intersection at $x = 2$, so $\\tfrac32 < x \\le 2$.\n\n($x = \\tfrac32$ is excluded as the right side is undefined.)\n\n$$x \\le \\frac12 \\quad\\text{or}\\quad \\frac32 < x \\le 2$$",
+   "images": [
+    "assets/img/adv-2026-manly/q31.png"
+   ]
+  },
+  {
+   "ref": "Q31(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.5",
+    "12.4.6.2"
+   ],
+   "question": "The graphs of $y = \\dfrac{1}{2x-3}$ and $y = x - 1$ intersect at two points, as shown in the diagram. The right-hand intersection point is $(2, 1)$.\n\nFind the area of the shaded region bounded by $y = \\dfrac{1}{2x-3}$, $y = x - 1$, the $x$-axis and the line $x = 3$.",
+   "answer": "The line $y = x - 1$ meets the $x$-axis at $x = 1$ and the curve at $(2, 1)$.\n\nFrom $x = 1$ to $x = 2$ the region is a triangle under the line: area $= \\tfrac12 \\times 1 \\times 1 = \\tfrac12$.\n\nFrom $x = 2$ to $x = 3$ the region is under the curve:\n$$\\int_2^3 \\frac{1}{2x-3}\\,dx = \\frac12\\Big[\\ln(2x-3)\\Big]_2^3 = \\frac12(\\ln3 - \\ln1) = \\frac12\\ln3$$\n\nTotal area $= \\dfrac12(1 + \\ln3) \\approx 1.049\\ \\text{units}^2$.",
+   "images": [
+    "assets/img/adv-2026-manly/q31.png"
+   ]
+  },
+  {
+   "ref": "Q32(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.3.8",
+    "12.3.3.1"
+   ],
+   "question": "Find $\\dfrac{d}{dx}(x\\sin x)$.",
+   "answer": "By the product rule, $\\dfrac{d}{dx}(x\\sin x) = x\\cos x + \\sin x$."
+  },
+  {
+   "ref": "Q32(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.1",
+    "12.4.7.1"
+   ],
+   "question": "Given that $\\dfrac{d}{dx}(x\\sin x) = x\\cos x + \\sin x$, find $\\displaystyle\\int x\\cos x\\,dx$.",
+   "answer": "Integrating the given result: $\\displaystyle\\int (x\\cos x + \\sin x)\\,dx = x\\sin x + C$. So\n$$\\int x\\cos x\\,dx = x\\sin x - \\int\\sin x\\,dx = x\\sin x + \\cos x + C.$$"
+  },
+  {
+   "ref": "Q33",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.3.5",
+    "11.1.3.7"
+   ],
+   "question": "The normal to the curve $y = 3x^2 - ax + 2b$ at the point $(1, 5)$ has the equation $x + 2y - 11 = 0$. Find the values of $a$ and $b$.",
+   "answer": "$y' = 6x - a$, so the gradient of the tangent at $x = 1$ is $6 - a$.\n\nThe normal $x + 2y - 11 = 0$ is $y = -\\tfrac12x + \\tfrac{11}{2}$, with gradient $-\\tfrac12$, so the tangent has gradient $2$:\n$$6 - a = 2 \\Rightarrow a = 4.$$\n\n$(1, 5)$ lies on $y = 3x^2 - 4x + 2b$: $5 = 3 - 4 + 2b \\Rightarrow b = 3$.\n\nSo $a = 4$, $b = 3$."
+  },
+  {
+   "ref": "Q34",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.3.6",
+    "11.3.1.10"
+   ],
+   "question": "A cricket player hits a ball with an angle of elevation $\\theta°$, where $\\theta$ is normally distributed with a mean of $30°$ and a standard deviation of $15°$.\n\nThe horizontal distance travelled by the ball before hitting the ground is given by $d = 80\\sin(2\\theta)$, where $d$ is in metres.\n\nFind the probability that the ball travels more than 40 metres horizontally in the air before landing.",
+   "answer": "$d > 40 \\Rightarrow 80\\sin(2\\theta) > 40 \\Rightarrow \\sin(2\\theta) > \\tfrac12$.\n\nFor an angle of elevation ($0° < \\theta < 90°$, so $0° < 2\\theta < 180°$): $30° < 2\\theta < 150°$, i.e. $15° < \\theta < 75°$.\n\n$z$-scores: $z = \\dfrac{15 - 30}{15} = -1$ and $z = \\dfrac{75 - 30}{15} = 3$.\n\nBy the empirical rule (68% within 1 s.d., 99.7% within 3 s.d.):\n$$P(-1 < z < 3) = \\frac{68\\%}{2} + \\frac{99.7\\%}{2} = 34\\% + 49.85\\% = 83.85\\%$$\nSo the probability is about $0.8385$ (about $0.84$)."
+  },
+  {
+   "ref": "Q35",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.1.9",
+    "12.3.1.4"
+   ],
+   "question": "Sketch the curve $y = e^{x^2 + \\frac{x^3}{3}}$ by finding all stationary points and their nature. Indicate coordinates correct to two decimal places where appropriate.",
+   "answer": "$$y' = \\left(2x + x^2\\right)e^{x^2 + \\frac{x^3}{3}} = x(x+2)e^{x^2 + \\frac{x^3}{3}}$$\n\nSince $e^{x^2 + \\frac{x^3}{3}} > 0$, $y' = 0 \\Rightarrow x = 0$ or $x = -2$.\n\n- $x = 0$: $y = e^0 = 1$, point $(0, 1)$.\n- $x = -2$: $y = e^{4 - \\frac83} = e^{\\frac43} \\approx 3.79$, point $(-2, 3.79)$.\n\nNature (sign of $y'$, which is the sign of $x(x+2)$):\n\n| $x$ | $-3$ | $-2$ | $-1$ | $0$ | $1$ |\n|---|---|---|---|---|---|\n| $y'$ | $+$ | $0$ | $-$ | $0$ | $+$ |\n\nSo $(-2, 3.79)$ is a local maximum and $(0, 1)$ is a local minimum.\n\nOther features: $y > 0$ for all $x$; as $x \\to -\\infty$, $x^2 + \\tfrac{x^3}{3} \\to -\\infty$ so $y \\to 0^+$ (the $x$-axis is an asymptote); as $x \\to \\infty$, $y \\to \\infty$. The $y$-intercept is the minimum $(0, 1)$.",
+   "answer_images": [
+    "assets/img/adv-2026-manly/q35-ans.png"
+   ]
+  }
+ ]
+}

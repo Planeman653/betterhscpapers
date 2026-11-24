@@ -1,0 +1,676 @@
+{
+ "id": "adv-2026-north-sydney-girls",
+ "course": "advanced",
+ "school": "North Sydney Girls",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5328",
+  "title": "North Sydney Girls 2026 w. sol"
+ },
+ "indexed": "2026-11-24",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q13(a)",
+   "reason": "Not in 2024 syllabus: bivariate data (least-squares regression line)"
+  },
+  {
+   "ref": "Q13(b)",
+   "reason": "Not in 2024 syllabus: bivariate data (regression prediction and outliers)"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.4.5"
+   ],
+   "question": "Which graph best represents $y = 3 - x^2$?",
+   "answer": "$y = 3 - x^2$ is a concave-down parabola with axis of symmetry $x = 0$ and vertex $(0, 3)$ above the $x$-axis. Only (B) matches. **(B)**",
+   "options": [
+    "![Graph A](assets/img/adv-2026-north-sydney-girls/q1a.png)",
+    "![Graph B](assets/img/adv-2026-north-sydney-girls/q1b.png)",
+    "![Graph C](assets/img/adv-2026-north-sydney-girls/q1c.png)",
+    "![Graph D](assets/img/adv-2026-north-sydney-girls/q1d.png)"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.5.2.5"
+   ],
+   "question": "What is the exact solution of the equation $3 \\times 2^x = 15$?",
+   "answer": "$2^x = 5 \\implies x = \\log_2 5$. **(A)**",
+   "options": [
+    "$x = \\log_2 5$",
+    "$x = \\log_2 15$",
+    "$x = \\dfrac{1}{3}\\log_2 15$",
+    "$x = \\log_e 5$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.7.3",
+    "11.1.7.1"
+   ],
+   "question": "A certain recipe says the cooking time for a duck is directly proportional to its weight. The recipe says to cook a 3 kg duck for 2 hours.\n\nHow long should a 2 kg duck be cooked for?",
+   "answer": "$T = kw$ with $2 = 3k$, so $k = \\frac23$. Then $T = \\frac23 \\times 2 = \\frac43$ hours $= 1$ hour 20 minutes. **(D)**",
+   "options": [
+    "2 hours.",
+    "3 hours.",
+    "40 minutes.",
+    "1 hour 20 minutes."
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.1.6",
+    "12.6.1.9"
+   ],
+   "question": "What is the expected value for the discrete probability distribution shown below?\n\n| $x$ | $-1$ | $0$ | $1$ | $2$ |\n|---|---|---|---|---|\n| $p(x)$ | $0.2$ | $a$ | $0.3$ | $0.4$ |",
+   "answer": "$E(X) = (-1)(0.2) + 0(a) + 1(0.3) + 2(0.4) = -0.2 + 0.3 + 0.8 = 0.9$. **(D)**",
+   "options": [
+    "$0.1$",
+    "$0.9 + a$",
+    "$2$",
+    "$0.9$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.5.1.1",
+    "11.6.1.1"
+   ],
+   "question": "Which of the following could be the equation of the graph below?",
+   "answer": "The graph is defined for all $x$, has negative $y$-intercept, lies below the $x$-axis and approaches $y = 0$ from below as $x \\to \\infty$. $y = -e^{-x}$ (reflection of $y = e^{-x}$ in the $x$-axis) fits; $y = -e^{x}$ would approach 0 as $x \\to -\\infty$ instead. **(C)**",
+   "options": [
+    "$y = -\\dfrac{1}{x}$",
+    "$y = e^{-x}$",
+    "$y = -e^{-x}$",
+    "$y = -e^{x}$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/adv-2026-north-sydney-girls/q5.png"
+   ]
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.3"
+   ],
+   "question": "Which of the following is an expression for $\\dfrac{d}{dx}\\ln\\left(3x^2\\right)$?",
+   "answer": "$\\ln(3x^2) = \\ln 3 + 2\\ln x$, so the derivative is $\\dfrac{2}{x}$. **(A)**",
+   "options": [
+    "$\\dfrac{2}{x}$",
+    "$\\dfrac{1}{6x}$",
+    "$6x$",
+    "$\\dfrac{1}{x}$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.4.5"
+   ],
+   "question": "Which of the following is an expression for $\\displaystyle\\int x^3\\left(x^4 - 3\\right)^5 dx$?",
+   "answer": "$\\displaystyle\\int x^3(x^4-3)^5\\,dx = \\frac14\\int 4x^3(x^4-3)^5\\,dx = \\frac14\\cdot\\frac{(x^4-3)^6}{6} + C = \\frac{(x^4-3)^6}{24} + C$. **(A)**",
+   "options": [
+    "$\\dfrac{\\left(x^4-3\\right)^6}{24} + C$",
+    "$\\dfrac{\\left(x^4-3\\right)^6}{6} + C$",
+    "$\\dfrac{x^4\\left(x^4-3\\right)^6}{24} + C$",
+    "$\\dfrac{\\left(x^4-3\\right)^6}{24x^4} + C$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.3.5",
+    "11.4.1.9"
+   ],
+   "question": "If $f(2) = 5$ and $f'(2) = -3$, what is the best estimate for $f(2.2)$?",
+   "answer": "Using the tangent at $x = 2$: $f(2.2) \\approx f(2) + 0.2 f'(2) = 5 + 0.2(-3) = 4.4$. **(B)**",
+   "options": [
+    "$2.2$",
+    "$4.4$",
+    "$5$",
+    "$5.6$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.9.3",
+    "11.5.2.11"
+   ],
+   "question": "What is the domain of the function $f(x) = \\log_e(x+2) - \\sqrt{11 - x^2}$?",
+   "answer": "Need $x + 2 > 0$, i.e. $x > -2$, and $11 - x^2 \\ge 0$, i.e. $-\\sqrt{11} \\le x \\le \\sqrt{11}$. Together: $-2 < x \\le \\sqrt{11}$. **(B)**",
+   "options": [
+    "$\\left[-\\sqrt{11}, \\sqrt{11}\\right]$",
+    "$\\left(-2, \\sqrt{11}\\right]$",
+    "$\\left(-2, \\infty\\right)$",
+    "$\\left(2, \\sqrt{11}\\right]$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.3.4",
+    "11.7.2.7"
+   ],
+   "question": "If it is raining, the probability Bill is late to work is $\\dfrac{3}{10}$, whereas, if it is not raining the probability of Bill being late is $\\dfrac{1}{10}$. The probability that it is raining is $\\dfrac{2}{5}$.\n\nWhat is the probability that it is raining given that Bill was late to work?",
+   "answer": "$$P(\\text{rain}\\mid\\text{late}) = \\frac{\\frac25\\times\\frac{3}{10}}{\\frac25\\times\\frac{3}{10} + \\frac35\\times\\frac{1}{10}} = \\frac{\\frac{6}{50}}{\\frac{6}{50}+\\frac{3}{50}} = \\frac{6}{9} = \\frac23.$$ **(C)**",
+   "options": [
+    "$\\dfrac{2}{5}$",
+    "$\\dfrac{9}{50}$",
+    "$\\dfrac{2}{3}$",
+    "$\\dfrac{3}{4}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q11",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.11.6"
+   ],
+   "question": "Solve the equation $|2x + 3| = 7$.",
+   "answer": "$2x + 3 = 7$ or $2x + 3 = -7$, so $2x = 4$ or $2x = -10$.\n\n$x = 2$ or $x = -5$."
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.2"
+   ],
+   "question": "Given the arithmetic series $27 + x + y + z + 11 + \\ldots$\n\nFind the values of $x$, $y$ and $z$.",
+   "answer": "$a = 27$ and $T_5 = 11$, so $27 + 4d = 11 \\implies d = -4$.\n\nHence $x = 23$, $y = 19$, $z = 15$."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5",
+    "11.1.1.6"
+   ],
+   "question": "The arithmetic series $27 + 23 + 19 + 15 + 11 + \\ldots$ has first term 27 and common difference $-4$.\n\nFind the number of terms if the series sums to 99.",
+   "answer": "$$S_n = \\frac n2\\left[2a + (n-1)d\\right] \\implies 99 = \\frac n2\\left[54 - 4(n-1)\\right]$$\n$$198 = n(58 - 4n) \\implies 4n^2 - 58n + 198 = 0 \\implies 2n^2 - 29n + 99 = 0$$\n$$(2n - 11)(n - 9) = 0 \\implies n = \\tfrac{11}{2} \\text{ or } n = 9.$$\nSince $n$ must be a positive integer, $n = 9$. (Check: $S_9 = \\frac92(54 - 32) = 99$.)"
+  },
+  {
+   "ref": "Q14",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.7.2",
+    "12.4.8.1"
+   ],
+   "question": "Find $\\displaystyle\\int_0^{\\frac{\\pi}{2}} 3\\sin 2x\\,dx$.",
+   "answer": "$$\\int_0^{\\pi/2} 3\\sin 2x\\,dx = \\left[-\\frac32\\cos 2x\\right]_0^{\\pi/2} = -\\frac32\\cos\\pi - \\left(-\\frac32\\cos 0\\right) = \\frac32 + \\frac32 = 3.$$"
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.3.5",
+    "11.4.3.3"
+   ],
+   "question": "Find the equation of the tangent to the curve $y = 4\\sqrt{x} - \\dfrac{2}{x} - 5$ at $x = 1$.",
+   "answer": "$y = 4x^{1/2} - 2x^{-1} - 5$, so $\\dfrac{dy}{dx} = \\dfrac{2}{\\sqrt x} + \\dfrac{2}{x^2}$.\n\nAt $x = 1$: $\\dfrac{dy}{dx} = 2 + 2 = 4$ and $y = 4 - 2 - 5 = -3$.\n\nTangent: $y + 3 = 4(x - 1)$, i.e. $y = 4x - 7$."
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.2",
+    "12.3.2.1"
+   ],
+   "question": "The line $y = 4x - 7$ is a tangent to the curve $y = 4\\sqrt{x} - \\dfrac{2}{x} - 5$ at $x = 1$.\n\nFind the exact value of $c$ if the line $y = 4x - 7$ is also a tangent to $y = c + \\ln x$.",
+   "answer": "For $y = c + \\ln x$, $\\dfrac{dy}{dx} = \\dfrac1x$. For the tangent to have gradient 4: $\\dfrac1x = 4 \\implies x = \\dfrac14$.\n\nThe point of contact lies on the line: $y = 4\\left(\\frac14\\right) - 7 = -6$, so $\\left(\\frac14, -6\\right)$ is on $y = c + \\ln x$:\n$$-6 = c + \\ln\\tfrac14 = c - \\ln 4 \\implies c = \\ln 4 - 6.$$"
+  },
+  {
+   "ref": "Q16",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.2.9"
+   ],
+   "question": "Solve $\\log_2(x - 2) + \\log_2(x + 1) = 2$.",
+   "answer": "$$\\log_2\\left[(x-2)(x+1)\\right] = 2 \\implies x^2 - x - 2 = 4 \\implies x^2 - x - 6 = 0 \\implies (x-3)(x+2) = 0.$$\nSo $x = 3$ or $x = -2$. But the logarithms require $x > 2$ (and $x > -1$), so $x = 3$ is the only solution."
+  },
+  {
+   "ref": "Q17(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.3.1.12",
+    "11.3.1.11"
+   ],
+   "question": "Show that $\\left(1 - \\sin^2 2x\\right)\\sec 2x = \\cos 2x$.",
+   "answer": "$$\\text{LHS} = \\left(1 - \\sin^2 2x\\right)\\sec 2x = \\cos^2 2x\\cdot\\frac{1}{\\cos 2x} = \\cos 2x = \\text{RHS}.$$"
+  },
+  {
+   "ref": "Q17(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.1.10"
+   ],
+   "question": "It is given that $\\left(1 - \\sin^2 2x\\right)\\sec 2x = \\cos 2x$.\n\nHence or otherwise solve $2\\left(1 - \\sin^2 2x\\right)\\sec 2x = 1$ for $0 \\le x \\le \\pi$.",
+   "answer": "Using the identity, $2\\cos 2x = 1$, so $\\cos 2x = \\frac12$ with $0 \\le 2x \\le 2\\pi$.\n\n$2x = \\dfrac{\\pi}{3}$ or $\\dfrac{5\\pi}{3}$, so $x = \\dfrac{\\pi}{6}$ or $\\dfrac{5\\pi}{6}$.\n\n(Both values have $\\cos 2x \\ne 0$, so $\\sec 2x$ is defined.)"
+  },
+  {
+   "ref": "Q18(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.10",
+    "12.4.1.9"
+   ],
+   "question": "The acceleration $a\\ \\text{m s}^{-2}$ of a particle after $t$ seconds is given by $a = -6t + 18$.\n\nThe particle is initially at rest and 2 metres to the right of the origin. Find the equations for the velocity and displacement of the particle.",
+   "answer": "$v = -3t^2 + 18t + C_1$. At $t = 0$, $v = 0$, so $C_1 = 0$: $\\;v = -3t^2 + 18t$.\n\n$x = -t^3 + 9t^2 + C_2$. At $t = 0$, $x = 2$, so $C_2 = 2$: $\\;x = -t^3 + 9t^2 + 2$."
+  },
+  {
+   "ref": "Q18(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.10",
+    "12.5.2.4"
+   ],
+   "question": "A particle moves in a straight line with velocity $v = -3t^2 + 18t$ and displacement $x = -t^3 + 9t^2 + 2$ metres after $t$ seconds ($t \\ge 0$), and acceleration $a = -6t + 18$.\n\nDetermine the maximum displacement of the particle.",
+   "answer": "Stationary points of $x$: $v = -3t^2 + 18t = -3t(t - 6) = 0 \\implies t = 0$ or $t = 6$.\n\nAt $t = 0$, $a = 18 > 0$ (minimum); at $t = 6$, $a = -18 < 0$ (maximum).\n\nMaximum displacement $= -6^3 + 9(6^2) + 2 = -216 + 324 + 2 = 110$ m (for $t > 6$ the particle moves back towards the origin)."
+  },
+  {
+   "ref": "Q19",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.1",
+    "12.3.3.4"
+   ],
+   "question": "Find the derivative of $y = \\sin 5x\\tan\\left(e^x\\right)$.",
+   "answer": "Let $u = \\sin 5x$, $u' = 5\\cos 5x$; $v = \\tan(e^x)$, $v' = e^x\\sec^2(e^x)$.\n\nBy the product rule:\n$$\\frac{dy}{dx} = e^x\\sin 5x\\sec^2\\left(e^x\\right) + 5\\cos 5x\\tan\\left(e^x\\right).$$"
+  },
+  {
+   "ref": "Q20(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.6",
+    "12.4.5.2"
+   ],
+   "question": "The waiting time in minutes for commuters at a train station can be modelled by the continuous probability distribution with probability density function\n$$f(x) = \\begin{cases} ke^{-x}, & 0 \\le x \\le 4 \\\\ 0, & \\text{otherwise.}\\end{cases}$$\n\nFind the value of $k$.",
+   "answer": "$$\\int_0^4 ke^{-x}\\,dx = 1 \\implies \\left[-ke^{-x}\\right]_0^4 = 1 \\implies k - ke^{-4} = 1 \\implies k\\left(1 - e^{-4}\\right) = 1.$$\n$$k = \\frac{1}{1 - e^{-4}} = \\frac{e^4}{e^4 - 1}.$$"
+  },
+  {
+   "ref": "Q20(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.9"
+   ],
+   "question": "The waiting time in minutes for commuters at a train station can be modelled by the continuous probability distribution with probability density function\n$$f(x) = \\begin{cases} ke^{-x}, & 0 \\le x \\le 4 \\\\ 0, & \\text{otherwise.}\\end{cases}$$\n\nwhere $k = \\dfrac{1}{1 - e^{-4}}$.\n\nFind the cumulative distribution function as a piecewise function.",
+   "answer": "For $0 \\le x \\le 4$:\n$$F(x) = \\int_0^x ke^{-t}\\,dt = \\left[-ke^{-t}\\right]_0^x = k\\left(1 - e^{-x}\\right) = \\frac{1 - e^{-x}}{1 - e^{-4}}.$$\n$$F(x) = \\begin{cases} 0, & x < 0 \\\\[4pt] \\dfrac{1 - e^{-x}}{1 - e^{-4}}, & 0 \\le x \\le 4 \\\\[4pt] 1, & x > 4.\\end{cases}$$"
+  },
+  {
+   "ref": "Q20(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.11"
+   ],
+   "question": "The waiting time in minutes for commuters at a train station has cumulative distribution function\n$$F(x) = \\frac{1 - e^{-x}}{1 - e^{-4}} \\quad \\text{for } 0 \\le x \\le 4.$$\n\nFind the median waiting time.",
+   "answer": "For the median, $F(x) = \\frac12$:\n$$\\frac{1 - e^{-x}}{1 - e^{-4}} = \\frac12 \\implies 2 - 2e^{-x} = 1 - e^{-4} \\implies e^{-x} = \\tfrac12\\left(1 + e^{-4}\\right).$$\n$$x = -\\ln\\left[\\tfrac12\\left(1 + e^{-4}\\right)\\right] \\approx 0.675 \\text{ minutes} \\;(\\approx 40 \\text{ seconds}).$$"
+  },
+  {
+   "ref": "Q21(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.1",
+    "11.1.4.10"
+   ],
+   "question": "The rate at which the depth of snow at a ski resort is changing in a particular year can be modelled by the function $\\dfrac{dh}{dt} = -6t^2 + 78t - 180$ where $h$ is the depth of snow in centimetres and $t$ is the number of months since the beginning of the year and $0 \\le t \\le 12$.\n\nFor which values of $t$ is the depth of snow increasing?",
+   "answer": "Increasing when $\\dfrac{dh}{dt} > 0$:\n$$-6t^2 + 78t - 180 > 0 \\implies t^2 - 13t + 30 < 0 \\implies (t - 3)(t - 10) < 0.$$\nThe parabola $y = (t-3)(t-10)$ is concave up, so the depth is increasing for $3 < t < 10$."
+  },
+  {
+   "ref": "Q21(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.2",
+    "12.5.2.4"
+   ],
+   "question": "The rate at which the depth of snow at a ski resort is changing in a particular year can be modelled by the function $\\dfrac{dh}{dt} = -6t^2 + 78t - 180$ where $h$ is the depth of snow in centimetres and $t$ is the number of months since the beginning of the year and $0 \\le t \\le 12$. The depth is increasing for $3 < t < 10$ and decreasing for $0 \\le t < 3$ and $10 < t \\le 12$.\n\nIf the depth of snow is 300 cm at the start of the year, find the maximum depth of snow during the year.",
+   "answer": "$h = -2t^3 + 39t^2 - 180t + C$. At $t = 0$, $h = 300$, so $C = 300$:\n$$h = -2t^3 + 39t^2 - 180t + 300.$$\nThe depth changes from increasing to decreasing at $t = 10$, so there is a local maximum there:\n$$h(10) = -2000 + 3900 - 1800 + 300 = 400.$$\nCheck the endpoints: $h(0) = 300$ and $h(12) = -3456 + 5616 - 2160 + 300 = 300$.\n\nMaximum depth during the year is $400$ cm.\n\n*Note:* the school solution writes the units as m; $h$ is in centimetres, so the maximum is 400 cm."
+  },
+  {
+   "ref": "Q22(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.3.8",
+    "12.3.2.1"
+   ],
+   "question": "Find $\\dfrac{d}{dx}\\left(x\\ln x\\right)$.",
+   "answer": "$$\\frac{d}{dx}(x\\ln x) = x\\cdot\\frac1x + \\ln x\\cdot 1 = 1 + \\ln x.$$"
+  },
+  {
+   "ref": "Q22(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.1",
+    "12.4.4.4"
+   ],
+   "question": "It is given that $\\dfrac{d}{dx}\\left(x\\ln x\\right) = 1 + \\ln x$.\n\nHence find $\\displaystyle\\int \\ln x\\,dx$.",
+   "answer": "From the given result,\n$$\\int (1 + \\ln x)\\,dx = x\\ln x + C \\implies x + \\int\\ln x\\,dx = x\\ln x + C.$$\n$$\\therefore\\ \\int \\ln x\\,dx = x\\ln x - x + C.$$"
+  },
+  {
+   "ref": "Q23",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.8.6"
+   ],
+   "question": "The curves $y = x^2 + 2x$ and $y = 4 - x^2$ are shown below. Their intersection points are $(-2, 0)$ and $(1, 3)$.\n\nFind the area of the shaded region.",
+   "answer": "$$A = \\int_{-2}^{1}\\left[(4 - x^2) - (x^2 + 2x)\\right]dx = \\int_{-2}^{1}\\left(4 - 2x - 2x^2\\right)dx = \\left[4x - x^2 - \\frac{2x^3}{3}\\right]_{-2}^{1}$$\n$$= \\left(4 - 1 - \\tfrac23\\right) - \\left(-8 - 4 + \\tfrac{16}{3}\\right) = \\tfrac73 + \\tfrac{20}{3} = 9 \\text{ units}^2.$$",
+   "images": [
+    "assets/img/adv-2026-north-sydney-girls/q23.png"
+   ]
+  },
+  {
+   "ref": "Q24(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.10",
+    "11.2.2.9"
+   ],
+   "question": "Triangle $ABC$ is shown below with $AB = 17$, $BC = 21$ and $\\angle BAC = 45^\\circ$.\n\nDetermine the possible value(s) of angle $C$.",
+   "answer": "By the sine rule:\n$$\\frac{\\sin C}{17} = \\frac{\\sin 45^\\circ}{21} \\implies \\sin C = \\frac{17}{21\\sqrt2} \\approx 0.5724.$$\nSo $C \\approx 34.9^\\circ$ or $C \\approx 180^\\circ - 34.9^\\circ = 145.1^\\circ$.\n\nBut $145.1^\\circ + 45^\\circ = 190.1^\\circ > 180^\\circ$, which is impossible, so $C \\approx 34.9^\\circ$ only.",
+   "images": [
+    "assets/img/adv-2026-north-sydney-girls/q24.png"
+   ]
+  },
+  {
+   "ref": "Q24(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "Triangle $ABC$ is shown below with $AB = 17$, $BC = 21$ and $\\angle BAC = 45^\\circ$. The only possible value of angle $C$ is $C \\approx 34.9^\\circ$.\n\nHence, or otherwise, find the possible length(s) of $AC$.",
+   "answer": "$B = 180^\\circ - 45^\\circ - 34.9^\\circ = 100.1^\\circ$.\n$$\\frac{AC}{\\sin 100.1^\\circ} = \\frac{21}{\\sin 45^\\circ} \\implies AC = 21\\sqrt2\\sin 100.1^\\circ \\approx 29.2.$$\n(Check with the cosine rule: $21^2 = 17^2 + b^2 - 2(17)b\\cos 45^\\circ$ gives $b^2 - 17\\sqrt2\\,b - 152 = 0$, whose only positive root is $b \\approx 29.2$.)",
+   "images": [
+    "assets/img/adv-2026-north-sydney-girls/q24.png"
+   ]
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.9",
+    "11.6.1.7"
+   ],
+   "question": "Consider the line $y = mx$ and the circle $(x + 1)^2 + (y - 7)^2 = 10$.\n\nShow that the $x$-coordinates of their point(s) of intersection satisfy\n$$(m^2 + 1)x^2 + (2 - 14m)x + 40 = 0.$$",
+   "answer": "Substituting $y = mx$ into the circle:\n$$(x + 1)^2 + (mx - 7)^2 = 10 \\implies x^2 + 2x + 1 + m^2x^2 - 14mx + 49 = 10$$\n$$\\implies (m^2 + 1)x^2 + (2 - 14m)x + 40 = 0.$$"
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.7",
+    "11.1.4.10"
+   ],
+   "question": "The $x$-coordinates of the points of intersection of the line $y = mx$ and the circle $(x + 1)^2 + (y - 7)^2 = 10$ satisfy\n$$(m^2 + 1)x^2 + (2 - 14m)x + 40 = 0.$$\n\nHence, or otherwise, find the values of $m$ such that the line intersects the circle twice.",
+   "answer": "Two intersection points require $\\Delta > 0$:\n$$(2 - 14m)^2 - 4(m^2 + 1)(40) > 0 \\implies 4 - 56m + 196m^2 - 160m^2 - 160 > 0$$\n$$\\implies 36m^2 - 56m - 156 > 0 \\implies 9m^2 - 14m - 39 > 0 \\implies (9m + 13)(m - 3) > 0.$$\n$$\\therefore\\ m < -\\frac{13}{9} \\ \\text{ or } \\ m > 3.$$"
+  },
+  {
+   "ref": "Q26",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.8.11"
+   ],
+   "question": "Use two applications of the trapezoidal rule to estimate $\\displaystyle\\int_1^3 \\frac{\\ln x}{x^2}\\,dx$, leaving your answer in exact form.",
+   "answer": "With $h = 1$ and $x = 1, 2, 3$:\n$$\\int_1^3\\frac{\\ln x}{x^2}\\,dx \\approx \\frac12\\left[\\frac{\\ln 1}{1^2} + 2\\cdot\\frac{\\ln 2}{2^2} + \\frac{\\ln 3}{3^2}\\right] = \\frac12\\left(\\frac{\\ln 2}{2} + \\frac{\\ln 3}{9}\\right)$$\n$$= \\frac{9\\ln 2 + 2\\ln 3}{36} = \\frac{1}{36}\\ln\\left(2^9\\times 3^2\\right) = \\frac{\\ln 4608}{36}.$$"
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.8",
+    "12.5.1.3"
+   ],
+   "question": "Consider the curve with equation $y = \\dfrac{x^5}{5} + \\dfrac{x^4}{3} - \\dfrac{7x}{3}$.\n\nVerify that there is a minimum turning point when $x = 1$.",
+   "answer": "$\\dfrac{dy}{dx} = x^4 + \\dfrac{4x^3}{3} - \\dfrac73$ and $\\dfrac{d^2y}{dx^2} = 4x^3 + 4x^2$.\n\nAt $x = 1$: $\\dfrac{dy}{dx} = 1 + \\dfrac43 - \\dfrac73 = 0$ (stationary) and $\\dfrac{d^2y}{dx^2} = 4 + 4 = 8 > 0$ (concave up).\n\nHence there is a minimum turning point at $x = 1$."
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.7",
+    "12.5.1.6"
+   ],
+   "question": "Consider the curve with equation $y = \\dfrac{x^5}{5} + \\dfrac{x^4}{3} - \\dfrac{7x}{3}$.\n\nFind the coordinates of any points of inflection.",
+   "answer": "$\\dfrac{d^2y}{dx^2} = 4x^3 + 4x^2 = 4x^2(x + 1) = 0 \\implies x = 0$ or $x = -1$.\n\n| $x$ | $-2$ | $-1$ | $-\\frac12$ | $0$ | $1$ |\n|---|---|---|---|---|---|\n| $y''$ | $-16$ | $0$ | $\\frac12$ | $0$ | $8$ |\n\nConcavity changes at $x = -1$ but not at $x = 0$ (concave up on both sides, since $4x^2 \\ge 0$).\n\nAt $x = -1$: $y = -\\frac15 + \\frac13 + \\frac73 = \\frac{37}{15}$.\n\nPoint of inflection: $\\left(-1, \\dfrac{37}{15}\\right)$.\n\n*Note:* the school solution's table gives $y''(-2) = -48$; the correct value is $4(-8) + 4(4) = -16$ (the conclusion is unchanged)."
+  },
+  {
+   "ref": "Q28(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.2",
+    "12.2.3.8"
+   ],
+   "question": "A problem gambler gets good tips so he is able to make a profit during the day, but then he keeps betting and makes a loss each night. He is trying to stop gambling and reduce the amount he bets by a certain percentage compared to the previous day/night session. This means his profit/loss each session follows a geometric series. So if his profit/loss is $x$ dollars the first day, $y$ dollars the first night and $z$ dollars the next day then $x + y + z + \\ldots$ forms a geometric series.\n\nGiven the profit on the third day was \\$27 and the loss on the fourth night was \\$8, show that the ratio between successive profit/loss is $-\\dfrac23$ and find the profit on the first day.",
+   "answer": "Sessions in order: Day 1, Night 1, Day 2, Night 2, Day 3, Night 3, Day 4, Night 4, so Day 3 is $T_5$ and Night 4 is $T_8$:\n$$ar^4 = 27 \\quad (1), \\qquad ar^7 = -8 \\quad (2).$$\n$(2)\\div(1)$: $r^3 = -\\dfrac{8}{27}$, so $r = -\\dfrac23$.\n\nThen $a\\left(-\\frac23\\right)^4 = 27 \\implies a = \\dfrac{27 \\times 81}{16} = \\dfrac{3^7}{2^4} = \\dfrac{2187}{16} \\approx \\$136.69$."
+  },
+  {
+   "ref": "Q28(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.7"
+   ],
+   "question": "A problem gambler gets good tips so he is able to make a profit during the day, but then he keeps betting and makes a loss each night. He is trying to stop gambling and reduce the amount he bets by a certain percentage compared to the previous day/night session. This means his profit/loss each session follows a geometric series. So if his profit/loss is $x$ dollars the first day, $y$ dollars the first night and $z$ dollars the next day then $x + y + z + \\ldots$ forms a geometric series.\n\nHis profit/loss sessions form a geometric series with first term $\\dfrac{2187}{16}$ dollars and common ratio $-\\dfrac23$.\n\nHow much profit or loss will the gambler eventually make?",
+   "answer": "Since $|r| = \\frac23 < 1$, the limiting sum exists:\n$$S_\\infty = \\frac{a}{1 - r} = \\frac{\\frac{2187}{16}}{1 + \\frac23} = \\frac{2187}{16}\\times\\frac35 = \\frac{6561}{80} \\approx 82.01.$$\nThe gambler eventually makes a profit of about \\$82.01."
+  },
+  {
+   "ref": "Q29(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.6.3",
+    "12.4.8.4"
+   ],
+   "question": "Below is a sketch of $f(x) = \\dfrac{\\cos x}{2 + \\sin x}$.\n\nFind the area of the region between the curve and the $x$-axis for $0 \\le x \\le 2\\pi$.",
+   "answer": "$f(x) \\ge 0$ on $\\left[0, \\frac\\pi2\\right]$ and $\\left[\\frac{3\\pi}{2}, 2\\pi\\right]$, and $f(x) \\le 0$ on $\\left[\\frac\\pi2, \\frac{3\\pi}{2}\\right]$. Since $\\dfrac{d}{dx}(2 + \\sin x) = \\cos x$, a primitive is $\\ln(2 + \\sin x)$.\n$$A = \\Big[\\ln(2 + \\sin x)\\Big]_0^{\\pi/2} - \\Big[\\ln(2 + \\sin x)\\Big]_{\\pi/2}^{3\\pi/2} + \\Big[\\ln(2 + \\sin x)\\Big]_{3\\pi/2}^{2\\pi}$$\n$$= (\\ln 3 - \\ln 2) - (\\ln 1 - \\ln 3) + (\\ln 2 - \\ln 1) = 2\\ln 3 \\text{ units}^2.$$",
+   "images": [
+    "assets/img/adv-2026-north-sydney-girls/q29.png"
+   ]
+  },
+  {
+   "ref": "Q29(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.4",
+    "12.4.8.10"
+   ],
+   "question": "Let $f(x) = \\dfrac{\\cos x}{2 + \\sin x}$, a function with period $2\\pi$. The area of the region between the curve $y = f(x)$ and the $x$-axis for $0 \\le x \\le 2\\pi$ is $2\\ln 3$ square units.\n\nWhat is the area of the region between the curve and the $x$-axis for $0 \\le x \\le 2k\\pi$ where $k$ is a positive integer?",
+   "answer": "Since $f$ has period $2\\pi$, the interval $[0, 2k\\pi]$ consists of $k$ copies of one period, each enclosing $2\\ln 3$.\n\nArea $= 2k\\ln 3$ units$^2$.",
+   "images": [
+    "assets/img/adv-2026-north-sydney-girls/q29.png"
+   ]
+  },
+  {
+   "ref": "Q30(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "A population of bears follows a yearly cycle. The population peaks at 120 at the end of August. The lowest the population of bears gets to is 80. The population, $P$, can be modelled by the equation:\n$$P = a\\cos\\left(\\frac{\\pi}{6}(t - 8)\\right) + c$$\nwhere $t$ is the number of months since the start of the year.\n\nFind the values of $a$ and $c$.",
+   "answer": "$c = \\dfrac{120 + 80}{2} = 100$ (centre line), $\\;a = \\dfrac{120 - 80}{2} = 20$ (amplitude; $a > 0$ since the maximum occurs at $t = 8$)."
+  },
+  {
+   "ref": "Q30(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.2",
+    "12.1.2.1"
+   ],
+   "question": "A population of bears follows a yearly cycle. The population peaks at 120 at the end of August. The lowest the population of bears gets to is 80. The population, $P$, can be modelled by the equation:\n$$P = 20\\cos\\left(\\frac{\\pi}{6}(t - 8)\\right) + 100$$\nwhere $t$ is the number of months since the start of the year.\n\nSketch the graph of the population on the axes below for $0 \\le t \\le 12$.",
+   "answer": "Period $= \\dfrac{2\\pi}{\\pi/6} = 12$ months. Maximum $P = 120$ at $t = 8$; minimum $P = 80$ at $t = 2$.\n\nAt $t = 0$: $P = 20\\cos\\left(-\\frac{4\\pi}{3}\\right) + 100 = 90$, and at $t = 12$: $P = 20\\cos\\left(\\frac{2\\pi}{3}\\right) + 100 = 90$.\n\nThe graph falls from $(0, 90)$ to a minimum at $(2, 80)$, rises through $(5, 100)$ to a maximum at $(8, 120)$, then falls through $(11, 100)$ to $(12, 90)$.",
+   "images": [
+    "assets/img/adv-2026-north-sydney-girls/q30b-axes.png"
+   ],
+   "answer_images": [
+    "assets/img/adv-2026-north-sydney-girls/q30b-sol.png"
+   ]
+  },
+  {
+   "ref": "Q30(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.3",
+    "12.1.2.1"
+   ],
+   "question": "A population of bears follows a yearly cycle. The population peaks at 120 at the end of August. The lowest the population of bears gets to is 80. The population, $P$, can be modelled by the equation:\n$$P = 20\\cos\\left(\\frac{\\pi}{6}(t - 8)\\right) + 100$$\nwhere $t$ is the number of months since the start of the year.\n\nWhen the population of bears is above 110 it becomes unsafe for tourists to visit the bears' habitat. During which months should tourists stay away?",
+   "answer": "$$110 = 20\\cos\\left(\\tfrac{\\pi}{6}(t - 8)\\right) + 100 \\implies \\cos\\left(\\tfrac{\\pi}{6}(t - 8)\\right) = \\tfrac12.$$\nWith $-\\frac{4\\pi}{3} \\le \\frac\\pi6(t - 8) \\le \\frac{2\\pi}{3}$: $\\;\\frac\\pi6(t - 8) = -\\frac\\pi3$ or $\\frac\\pi3$, so $t - 8 = -2$ or $2$, i.e. $t = 6$ or $t = 10$.\n\n$P > 110$ for $6 < t < 10$ (around the peak at $t = 8$), i.e. from the end of June to the end of October.\n\nTourists should stay away in July, August, September and October."
+  },
+  {
+   "ref": "Q31",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.6.1.6",
+    "11.6.1.2",
+    "11.1.4.4"
+   ],
+   "question": "Let a quadratic function be given by $f(x) = (x + 1)(x - 5)$.\n\nThe graph of $f(x)$ is translated vertically by $a$ units and horizontally by $b$ units. The transformed function is $g(x)$ whose graph passes through the points $(-2, -20)$ and $(0, -20)$.\n\nFind the values of $a$ and $b$.",
+   "answer": "Translations do not change the leading coefficient, so $g$ is monic. Since $g(-2) = g(0)$, by symmetry the axis of $g$ is $x = -1$, so $g(x) = (x + 1)^2 + k$.\n\n$g(0) = -20 \\implies 1 + k = -20 \\implies k = -21$, so the vertex of $g$ is $(-1, -21)$.\n\n$f(x) = x^2 - 4x - 5 = (x - 2)^2 - 9$, so the vertex of $f$ is $(2, -9)$.\n\nThe graph moved from $(2, -9)$ to $(-1, -21)$: left 3 units and down 12 units.\n\n$\\therefore\\ a = -12$ and $b = -3$ (i.e. $g(x) = f(x + 3) - 12$)."
+  },
+  {
+   "ref": "Q32(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.3.8"
+   ],
+   "question": "At a mining site a circular digger with a radius of 15 metres digs out ore as shown below. The revenue is proportional to the area of the segment dug up, which is shown shaded in the diagram below with a central angle $\\theta$. Maintenance costs are proportional to the depth, $h$, that the digger is digging.\n\nInitially the mining company plans to dig at a depth of 3 m. They estimate they will earn \\$25/m$^2$ of ore dug out and maintenance is \\$18/m of depth. Calculate the estimated profit or loss.",
+   "answer": "The centre is $15 - 3 = 12$ m above the surface level, so $\\cos\\dfrac\\theta2 = \\dfrac{12}{15}$, giving $\\dfrac\\theta2 \\approx 0.6435$ and $\\theta \\approx 1.287$ radians.\n$$\\text{Segment area} = \\tfrac12(15)^2\\left(\\theta - \\sin\\theta\\right) = 112.5\\,(1.2870 - \\sin 1.2870) \\approx 36.79\\ \\text{m}^2.$$\n$$\\text{Profit} = 25 \\times 36.7877 - 18 \\times 3 \\approx \\$865.69.$$",
+   "images": [
+    "assets/img/adv-2026-north-sydney-girls/q32.png"
+   ]
+  },
+  {
+   "ref": "Q32(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.5.2.2",
+    "12.3.3.4"
+   ],
+   "question": "At a mining site a circular digger with a radius of 15 metres digs out ore as shown below. The revenue is proportional to the area of the segment dug up, which is shown shaded in the diagram below with a central angle $\\theta$. Maintenance costs are proportional to the depth, $h$, that the digger is digging. The depth is related to $\\theta$ by $h = 15 - 15\\cos\\dfrac{\\theta}{2}$.\n\nThe mining company does some more study and find that the profit, $P$, is given by:\n$$P = \\frac{1125}{2}\\left(\\theta - \\sin\\theta\\right) - 600\\left(1 - \\cos\\frac{\\theta}{2}\\right)$$\n\nPart of the graph of $y = 15\\cos x + 8\\sin\\dfrac{x}{2}$ is shown below (second diagram). Use this to find the depth they should dig to maximise profits given that the deepest they can dig is 7.5 m.",
+   "answer": "$$\\frac{dP}{d\\theta} = \\frac{1125}{2}(1 - \\cos\\theta) - 300\\sin\\frac\\theta2 = \\frac{75}{2}\\left(15 - 15\\cos\\theta - 8\\sin\\frac\\theta2\\right).$$\nStationary points: $15\\cos\\theta + 8\\sin\\frac\\theta2 = 15$. From the graph, $\\theta = 0$ or $\\theta \\approx \\frac\\pi6$ (more precisely $\\theta \\approx 0.54$).\n\nFor $0 < \\theta < 0.54$ the graph is above 15, so $\\frac{dP}{d\\theta} < 0$; for $\\theta > 0.54$ it is below 15, so $\\frac{dP}{d\\theta} > 0$. Hence $\\theta \\approx 0.54$ is a minimum, and the maximum profit occurs at an endpoint of the domain.\n\nMaximum depth $h = 7.5$: $15 - 15\\cos\\frac\\theta2 = 7.5 \\implies \\cos\\frac\\theta2 = \\frac12 \\implies \\theta = \\frac{2\\pi}{3}$.\n\n- $\\theta = 0$: $P = 0$.\n- $\\theta = \\frac{2\\pi}{3}$: $P = \\frac{1125}{2}\\left(\\frac{2\\pi}{3} - \\frac{\\sqrt3}{2}\\right) - 600\\left(1 - \\frac12\\right) \\approx \\$390.96$.\n\nMaximum profit of about \\$390.96 when they dig to the maximum depth of 7.5 m.",
+   "images": [
+    "assets/img/adv-2026-north-sydney-girls/q32.png",
+    "assets/img/adv-2026-north-sydney-girls/q32b.png"
+   ]
+  }
+ ]
+}

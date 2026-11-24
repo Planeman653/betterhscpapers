@@ -1,0 +1,689 @@
+{
+ "id": "ext2-2025-girraween",
+ "course": "extension2",
+ "school": "Girraween",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "Girraween 2025 w. sol"
+ },
+ "indexed": "2026-11-24",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "The angle between the vectors $\\begin{pmatrix}1\\\\3\\\\-2\\end{pmatrix}$ and $\\begin{pmatrix}-3\\\\4\\\\1\\end{pmatrix}$ is",
+   "options": [
+    "$27^\\circ$",
+    "$68^\\circ$",
+    "$112^\\circ$",
+    "$133^\\circ$"
+   ],
+   "correct": "B",
+   "answer": "$\\cos\\theta=\\dfrac{\\mathbf a\\cdot\\mathbf b}{|\\mathbf a||\\mathbf b|}=\\dfrac{-3+12-2}{\\sqrt{14}\\sqrt{26}}=\\dfrac{7}{\\sqrt{364}}$, so $\\theta\\approx68^\\circ$ (B)."
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.6"
+   ],
+   "question": "The statement “For all positive integers $n$, there exists a positive integer $p$ such that $p=n^2$” is represented in mathematical symbols by:",
+   "options": [
+    "$\\exists\\, n\\in\\mathbb{Z}^+\\ \\exists\\, p\\in\\mathbb{Z}^+$ such that $p=n^2$",
+    "$\\exists\\, n\\in\\mathbb{Z}\\ \\exists\\, p\\in\\mathbb{Z}$ such that $p=n^2$",
+    "$\\forall\\, n\\in\\mathbb{Z}^+\\ \\exists\\, p\\in\\mathbb{Z}^+$ such that $p=n^2$",
+    "$\\forall\\, n\\in\\mathbb{Z}\\ \\exists\\, p\\in\\mathbb{Z}$ such that $p=n^2$"
+   ],
+   "correct": "C",
+   "answer": "“For all” is $\\forall$, “there exists” is $\\exists$, and both $n$ and $p$ are positive integers ($\\mathbb{Z}^+$): $\\forall\\, n\\in\\mathbb{Z}^+\\ \\exists\\, p\\in\\mathbb{Z}^+$ such that $p=n^2$ (C)."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.11"
+   ],
+   "question": "The contrapositive of “If the sum of the digits of an integer is a multiple of 3, the integer is a multiple of 3” is",
+   "options": [
+    "“If an integer is a multiple of 3 the sum of its digits will be a multiple of 3”.",
+    "“If an integer is not a multiple of 3, the sum of its digits will NOT be a multiple of 3”.",
+    "“If the sum of the digits of an integer is NOT a multiple of 3, the number will NOT be a multiple of 3”.",
+    "“If the sum of the digits of an integer is NOT a multiple of 3, the integer is a multiple of 3”."
+   ],
+   "correct": "B",
+   "answer": "The contrapositive of $P\\Rightarrow Q$ is $\\neg Q\\Rightarrow\\neg P$: “If an integer is not a multiple of 3, the sum of its digits is not a multiple of 3” (B)."
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.8"
+   ],
+   "question": "The converse of “If the sum of the digits of an integer is a multiple of 3, the integer is a multiple of 3” is",
+   "options": [
+    "“If an integer is a multiple of 3 the sum of its digits will be a multiple of 3”.",
+    "“If an integer is not a multiple of 3, the sum of its digits will NOT be a multiple of 3”.",
+    "“If the sum of the digits of an integer is NOT a multiple of 3, the number will NOT be a multiple of 3”.",
+    "“If the sum of the digits of an integer is NOT a multiple of 3, the integer is a multiple of 3”."
+   ],
+   "correct": "A",
+   "answer": "The converse of $P\\Rightarrow Q$ is $Q\\Rightarrow P$: “If an integer is a multiple of 3, the sum of its digits is a multiple of 3” (A)."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.8",
+    "12.4.1.7"
+   ],
+   "question": "$\\displaystyle\\int\\frac{6}{(2x-1)(x+1)}\\,dx=$",
+   "options": [
+    "$\\ln\\left|\\dfrac{x+1}{2x-1}\\right|+C$",
+    "$\\ln\\left|\\dfrac{2x-1}{x+1}\\right|+C$",
+    "$2\\ln\\left|\\dfrac{x+1}{2x-1}\\right|+C$",
+    "$2\\ln\\left|\\dfrac{2x-1}{x+1}\\right|+C$"
+   ],
+   "correct": "D",
+   "answer": "$\\dfrac{6}{(2x-1)(x+1)}=\\dfrac{A}{2x-1}+\\dfrac{B}{x+1}$ gives $6=A(x+1)+B(2x-1)$. $x=-1$: $B=-2$; $x=\\tfrac12$: $A=4$. So the integral is $2\\ln|2x-1|-2\\ln|x+1|+C=2\\ln\\left|\\dfrac{2x-1}{x+1}\\right|+C$ (D)."
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.9"
+   ],
+   "question": "$i^{2025}=$",
+   "options": [
+    "$i$",
+    "$-i$",
+    "$1$",
+    "$-1$"
+   ],
+   "correct": "A",
+   "answer": "$i^{2025}=\\left(i^4\\right)^{506}\\times i=1\\times i=i$ (A)."
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.5.3"
+   ],
+   "question": "It is given for the complex number $z$ that $|z-2-i|=1$. The maximum modulus for $z$ is",
+   "options": [
+    "$1$",
+    "$\\sqrt5$",
+    "$\\sqrt5-1$",
+    "$\\sqrt5+1$"
+   ],
+   "correct": "D",
+   "answer": "$z$ lies on the circle with centre $2+i$ and radius 1. The centre is $|2+i|=\\sqrt5$ from the origin, so the furthest point of the circle from the origin is at distance $\\sqrt5+1$ (D)."
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "Two of the roots of a monic polynomial of degree 3 with all real coefficients are $4$ and $2+i$. The polynomial is",
+   "options": [
+    "$z^3-6z^2+18z-40$",
+    "$z^3+8z^2-21z+20$",
+    "$z^3-8z^2+21z-20$",
+    "$z^3+6z^2+18z-40$"
+   ],
+   "correct": "C",
+   "answer": "Real coefficients, so $2-i$ is also a root. $P(z)=(z-4)(z-2-i)(z-2+i)=(z-4)(z^2-4z+5)=z^3-8z^2+21z-20$ (C)."
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.4"
+   ],
+   "question": "A particle is moving with simple harmonic motion with a period of 12 seconds and an amplitude of 5 metres. If it starts at the centre of motion and is moving to the right, when will it first be 5 metres to the left of the centre of motion?",
+   "options": [
+    "After 3 seconds",
+    "After 6 seconds",
+    "After 9 seconds",
+    "After 12 seconds"
+   ],
+   "correct": "C",
+   "answer": "Each quarter period is 3 s: centre $\\to$ 5 m right (3 s) $\\to$ centre (6 s) $\\to$ 5 m left (9 s). Equivalently $x=5\\sin\\frac{\\pi t}{6}=-5$ first when $t=9$ (C)."
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.1",
+    "12.5.1.4"
+   ],
+   "question": "Two weights of 4 kg and 6 kg respectively are attached to a pulley by the same string, hanging vertically on either side of the pulley (see diagram). The acceleration due to gravity is $g$ metres per second squared. The acceleration of the 6 kg mass is",
+   "options": [
+    "$10g\\ \\text{m/s}^2$",
+    "$5g\\ \\text{m/s}^2$",
+    "$\\dfrac{g}{10}\\ \\text{m/s}^2$",
+    "$\\dfrac{g}{5}\\ \\text{m/s}^2$"
+   ],
+   "correct": "D",
+   "answer": "Let $a$ be the acceleration (6 kg mass down). 4 kg mass: $T-4g=4a$. 6 kg mass: $6g-T=6a$. Adding: $2g=10a$, so $a=\\dfrac g5$ (D).",
+   "images": [
+    "assets/img/ext2-2025-girraween/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.13"
+   ],
+   "question": "Let $z=1-i$ and $w=1-i\\sqrt3$. Show that $\\dfrac zw=\\dfrac{(1+\\sqrt3)+i(\\sqrt3-1)}{4}$.",
+   "answer": "$$\\frac zw=\\frac{(1-i)(1+i\\sqrt3)}{(1-i\\sqrt3)(1+i\\sqrt3)}=\\frac{1+i\\sqrt3-i+\\sqrt3}{1+3}=\\frac{(1+\\sqrt3)+i(\\sqrt3-1)}{4}.$$"
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.6",
+    "12.3.2.4"
+   ],
+   "question": "Let $z=1-i$ and $w=1-i\\sqrt3$. Express both $z$ and $w$ in modulus–argument (polar) form.",
+   "answer": "$|z|=\\sqrt{1+1}=\\sqrt2$, $\\arg z=-\\dfrac\\pi4$ (fourth quadrant), so $z=\\sqrt2\\left(\\cos\\left(-\\dfrac\\pi4\\right)+i\\sin\\left(-\\dfrac\\pi4\\right)\\right)$.\n\n$|w|=\\sqrt{1+3}=2$, $\\arg w=-\\dfrac\\pi3$, so $w=2\\left(\\cos\\left(-\\dfrac\\pi3\\right)+i\\sin\\left(-\\dfrac\\pi3\\right)\\right)$.\n\n(The paper asks for exponential form, $z=\\sqrt2e^{-i\\pi/4}$, $w=2e^{-i\\pi/3}$; polar form is equivalent.)"
+  },
+  {
+   "ref": "Q11(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.5",
+    "12.3.2.6"
+   ],
+   "question": "Let $z=1-i$ and $w=1-i\\sqrt3$. It is given that $\\dfrac zw=\\dfrac{(1+\\sqrt3)+i(\\sqrt3-1)}{4}$, and that in polar form $z=\\sqrt2\\left(\\cos\\left(-\\frac\\pi4\\right)+i\\sin\\left(-\\frac\\pi4\\right)\\right)$ and $w=2\\left(\\cos\\left(-\\frac\\pi3\\right)+i\\sin\\left(-\\frac\\pi3\\right)\\right)$. Using these results, show that $\\cos\\dfrac{\\pi}{12}=\\dfrac{\\sqrt2+\\sqrt6}{4}$.",
+   "answer": "Dividing in polar form: $\\dfrac zw=\\dfrac{\\sqrt2}{2}\\left(\\cos\\left(-\\frac\\pi4+\\frac\\pi3\\right)+i\\sin\\left(-\\frac\\pi4+\\frac\\pi3\\right)\\right)=\\dfrac1{\\sqrt2}\\left(\\cos\\dfrac\\pi{12}+i\\sin\\dfrac\\pi{12}\\right)$.\n\nEquating real parts with the Cartesian form:\n$$\\frac1{\\sqrt2}\\cos\\frac\\pi{12}=\\frac{1+\\sqrt3}{4}\\ \\Rightarrow\\ \\cos\\frac\\pi{12}=\\frac{\\sqrt2(1+\\sqrt3)}{4}=\\frac{\\sqrt2+\\sqrt6}{4}.$$"
+  },
+  {
+   "ref": "Q11(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.14"
+   ],
+   "question": "By letting $(x+iy)^2=-5-12i$, where $x,y$ are real, find the two square roots of $-5-12i$.",
+   "answer": "$(x+iy)^2=(x^2-y^2)+2xyi=-5-12i$, so $x^2-y^2=-5$ and $xy=-6$, i.e. $y=-\\dfrac6x$.\n\nSubstituting: $x^2-\\dfrac{36}{x^2}=-5\\Rightarrow x^4+5x^2-36=0\\Rightarrow(x^2-4)(x^2+9)=0$.\n\nAs $x$ is real, $x=\\pm2$, and then $y=\\mp3$. The square roots are $\\pm(2-3i)$."
+  },
+  {
+   "ref": "Q11(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.1"
+   ],
+   "question": "Given that the square roots of $-5-12i$ are $\\pm(2-3i)$, solve the equation $z^2+(2+i)z+(2+4i)=0$.",
+   "answer": "$$z=\\frac{-(2+i)\\pm\\sqrt{(2+i)^2-4(2+4i)}}{2}=\\frac{-2-i\\pm\\sqrt{3+4i-8-16i}}{2}=\\frac{-2-i\\pm\\sqrt{-5-12i}}{2}=\\frac{-2-i\\pm(2-3i)}{2}.$$\nSo $z=\\dfrac{-4i}{2}=-2i$ or $z=\\dfrac{-4+2i}{2}=-2+i$."
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.5",
+    "12.3.5.3",
+    "12.3.5.4"
+   ],
+   "question": "Shade the region on an Argand diagram where $|z+2-2i|\\ge2$ and $\\dfrac\\pi2\\le\\text{Arg}\\,z<\\dfrac{3\\pi}4$.",
+   "answer": "$|z-(-2+2i)|\\ge2$ is the circle with centre $-2+2i$ and radius 2 (touching the real axis at $-2$ and the imaginary axis at $2i$) together with its exterior.\n\n$\\dfrac\\pi2\\le\\text{Arg}\\,z<\\dfrac{3\\pi}4$ is the sector between the positive imaginary axis (included) and the ray $y=-x$, $x<0$ (excluded), with the origin excluded.\n\nThe ray $y=-x$ passes through the centre and meets the circle at $(-2+\\sqrt2)+(2-\\sqrt2)i$ and $(-2-\\sqrt2)+(2+\\sqrt2)i$. The required region is the part of the sector outside the circle: a small region near the origin bounded by the imaginary axis from $0$ to $2i$, the circle and the ray, and an unbounded region above the circle between the imaginary axis (above $2i$) and the ray. The boundary on the circle and on the imaginary axis is included; the ray $\\text{Arg}\\,z=\\frac{3\\pi}4$ and the origin are excluded.",
+   "answer_images": [
+    "assets/img/ext2-2025-girraween/a11c.png"
+   ]
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.7"
+   ],
+   "question": "Find the six sixth roots of $64i$. You may leave your answer in modulus–argument form.",
+   "answer": "$64i=64\\,\\text{cis}\\left(\\dfrac\\pi2+2k\\pi\\right)$, so by de Moivre's theorem $z=64^{1/6}\\,\\text{cis}\\left(\\dfrac{\\pi}{12}+\\dfrac{k\\pi}{3}\\right)=2\\,\\text{cis}\\left(\\dfrac{\\pi+4k\\pi}{12}\\right)$, $k=0,1,\\dots,5$:\n$$z=2\\,\\text{cis}\\frac{\\pi}{12},\\ 2\\,\\text{cis}\\frac{5\\pi}{12},\\ 2\\,\\text{cis}\\frac{3\\pi}{4},\\ 2\\,\\text{cis}\\frac{13\\pi}{12},\\ 2\\,\\text{cis}\\frac{17\\pi}{12},\\ 2\\,\\text{cis}\\frac{7\\pi}{4}$$\n(equivalently, with principal arguments, $2\\,\\text{cis}\\left(-\\frac{11\\pi}{12}\\right),\\ 2\\,\\text{cis}\\left(-\\frac{7\\pi}{12}\\right),\\ 2\\,\\text{cis}\\left(-\\frac{\\pi}{4}\\right)$ for the last three)."
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Find the values of $A$, $B$ and $C$ if $\\dfrac{A}{(x+1)^2}+\\dfrac{B}{x+1}+\\dfrac{C}{x-3}=\\dfrac{-13x-25}{(x+1)^2(x-3)}$.",
+   "answer": "$A(x-3)+B(x+1)(x-3)+C(x+1)^2=-13x-25$.\n\n$x=-1$: $-4A=13-25=-12\\Rightarrow A=3$.\n\n$x=3$: $16C=-39-25=-64\\Rightarrow C=-4$.\n\n$x=0$: $-3A-3B+C=-25\\Rightarrow-9-3B-4=-25\\Rightarrow B=4$.\n\nSo $A=3$, $B=4$, $C=-4$."
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.8"
+   ],
+   "question": "Given that $\\dfrac{-13x-25}{(x+1)^2(x-3)}=\\dfrac{3}{(x+1)^2}+\\dfrac{4}{x+1}-\\dfrac{4}{x-3}$, find $\\displaystyle\\int\\frac{-13x-25}{(x+1)^2(x-3)}\\,dx$.",
+   "answer": "$$\\int\\left(\\frac{3}{(x+1)^2}+\\frac{4}{x+1}-\\frac{4}{x-3}\\right)dx=-\\frac{3}{x+1}+4\\ln|x+1|-4\\ln|x-3|+C.$$"
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.10"
+   ],
+   "question": "Find $\\displaystyle\\int_1^4\\frac{1}{2+\\sqrt x}\\,dx$.",
+   "answer": "Let $x=u^2$ ($u=\\sqrt x$), $dx=2u\\,du$; $x=1\\Rightarrow u=1$, $x=4\\Rightarrow u=2$.\n$$\\int_1^2\\frac{2u}{2+u}\\,du=\\int_1^2\\left(2-\\frac{4}{u+2}\\right)du=\\Big[2u-4\\ln(u+2)\\Big]_1^2=(4-4\\ln4)-(2-4\\ln3)=2-4\\ln4+4\\ln3.$$\nSo the integral is $2+4\\ln\\dfrac34\\approx0.849$."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Find $\\displaystyle\\int(\\ln x)^2\\,dx$.",
+   "answer": "By parts with $u=(\\ln x)^2$, $v'=1$: $u'=\\dfrac{2\\ln x}{x}$, $v=x$:\n$$\\int(\\ln x)^2\\,dx=x(\\ln x)^2-2\\int\\ln x\\,dx.$$\nBy parts again ($u=\\ln x$, $v'=1$): $\\displaystyle\\int\\ln x\\,dx=x\\ln x-\\int1\\,dx=x\\ln x-x$.\n\nHence $\\displaystyle\\int(\\ln x)^2\\,dx=x(\\ln x)^2-2x\\ln x+2x+C$."
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.5",
+    "12.4.1.6"
+   ],
+   "question": "Use the substitution $t=\\tan\\left(\\dfrac x2\\right)$ to find $\\displaystyle\\int\\frac{1}{2+\\cos x}\\,dx$.",
+   "answer": "$t=\\tan\\dfrac x2\\Rightarrow\\dfrac{dt}{dx}=\\dfrac12\\sec^2\\dfrac x2=\\dfrac{1+t^2}{2}$, so $dx=\\dfrac{2\\,dt}{1+t^2}$, and $\\cos x=\\dfrac{1-t^2}{1+t^2}$.\n$$\\int\\frac{1}{2+\\frac{1-t^2}{1+t^2}}\\cdot\\frac{2\\,dt}{1+t^2}=\\int\\frac{2\\,dt}{2+2t^2+1-t^2}=\\int\\frac{2}{t^2+3}\\,dt=\\frac{2}{\\sqrt3}\\tan^{-1}\\frac{t}{\\sqrt3}+C=\\frac{2}{\\sqrt3}\\tan^{-1}\\left(\\frac{\\tan\\frac x2}{\\sqrt3}\\right)+C.$$\n*Note: the school's solution drops the factor 2 from $dx=\\frac{2\\,dt}{1+t^2}$ and gives $\\frac1{\\sqrt3}\\tan^{-1}\\left(\\frac{\\tan(x/2)}{\\sqrt3}\\right)+C$; the correct coefficient is $\\frac2{\\sqrt3}$.*"
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.5"
+   ],
+   "question": "A particle moves so that its displacement at time $t$ seconds is given by $x=4\\cos\\dfrac t2-4\\sqrt3\\sin\\dfrac t2$. Show that the particle is moving in simple harmonic motion.",
+   "answer": "$\\dot x=-2\\sin\\dfrac t2-2\\sqrt3\\cos\\dfrac t2$, $\\ddot x=-\\cos\\dfrac t2+\\sqrt3\\sin\\dfrac t2=-\\dfrac14\\left(4\\cos\\dfrac t2-4\\sqrt3\\sin\\dfrac t2\\right)=-\\dfrac14x$.\n\nThis is of the form $\\ddot x=-n^2x$ with $n=\\frac12$, so the motion is simple harmonic."
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.5.2.3"
+   ],
+   "question": "A particle moves so that its displacement at time $t$ seconds is given by $x=4\\cos\\dfrac t2-4\\sqrt3\\sin\\dfrac t2$. By expressing $x$ in the form $A\\cos\\left(\\dfrac t2+\\alpha\\right)$ or otherwise, find the period and amplitude of the motion.",
+   "answer": "$A\\cos\\left(\\frac t2+\\alpha\\right)=A\\cos\\alpha\\cos\\frac t2-A\\sin\\alpha\\sin\\frac t2$, so $A\\cos\\alpha=4$ and $A\\sin\\alpha=4\\sqrt3$.\n\n$A^2=16+48=64\\Rightarrow A=8$; $\\cos\\alpha=\\frac12$, $\\sin\\alpha=\\frac{\\sqrt3}2\\Rightarrow\\alpha=\\frac\\pi3$. So $x=8\\cos\\left(\\frac t2+\\frac\\pi3\\right)$.\n\nPeriod $=\\dfrac{2\\pi}{1/2}=4\\pi$ seconds; amplitude $=8$ m."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.8",
+    "12.5.2.4"
+   ],
+   "question": "A particle moves in simple harmonic motion so that its acceleration at time $t$ is given by $\\ddot x=-9(x+2)$. If the particle passes through $x=1$ with a speed of $12$ m/s, show that $v^2=189-9x^2-36x$ and state the period, amplitude and centre of motion.",
+   "answer": "$\\dfrac{d}{dx}\\left(\\tfrac12v^2\\right)=-9x-18\\Rightarrow v^2=\\int(-18x-36)\\,dx=-9x^2-36x+C$.\n\n$x=1$, $v^2=144$: $144=-9-36+C\\Rightarrow C=189$, so $v^2=189-9x^2-36x$.\n\n$n^2=9\\Rightarrow n=3$, period $=\\dfrac{2\\pi}{3}$ s.\n\n$v=0$: $9x^2+36x-189=0\\Rightarrow x^2+4x-21=0\\Rightarrow(x+7)(x-3)=0$, so the particle oscillates between $x=-7$ and $x=3$: centre of motion $x=-2$, amplitude $5$ m. (Check: $v^2=9\\left[25-(x+2)^2\\right]$.)"
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.4",
+    "12.5.4.5"
+   ],
+   "question": "A car with a mass of $1000$ kg starts from rest at a traffic light and drives on to a horizontal freeway. The car's engine provides a total force of $16000$ newtons and the combined resistance from friction from the freeway's surface and air resistance is $10v^2$ newtons, where $v$ m/s is the car's speed. Show that the car's acceleration is given by $\\ddot x=16-0.01v^2$ and find the speed the car cannot exceed on the freeway (i.e. the speed it can never reach).",
+   "answer": "By $F=m\\ddot x$: $1000\\ddot x=16000-10v^2\\Rightarrow\\ddot x=16-0.01v^2$.\n\nThe speed increases while $\\ddot x>0$ and approaches the value where $\\ddot x=0$: $16-0.01v^2=0\\Rightarrow v^2=1600\\Rightarrow v=40$. The car can never reach $40$ m/s ($144$ km/h)."
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.5.4.5"
+   ],
+   "question": "A car with a mass of $1000$ kg starts from rest at a traffic light and drives on to a horizontal freeway. The car's engine provides a total force of $16000$ newtons and the combined resistance from friction from the freeway's surface and air resistance is $10v^2$ newtons, where $v$ m/s is the car's speed. Its acceleration is $\\ddot x=16-0.01v^2$, where $x$ m is the distance travelled from the traffic light. Show that $x=50\\ln\\left(\\dfrac{1600}{1600-v^2}\\right)$ and find the distance the car has gone when it achieves a speed of $30$ m/s.",
+   "answer": "$v\\dfrac{dv}{dx}=16-0.01v^2\\Rightarrow\\dfrac{dx}{dv}=\\dfrac{v}{16-0.01v^2}=\\dfrac{100v}{1600-v^2}$.\n$$x=-50\\int\\frac{-2v}{1600-v^2}\\,dv=-50\\ln(1600-v^2)+C$$\n(no absolute value needed as $v<40$). $x=0$ when $v=0$: $C=50\\ln1600$, so $x=50\\ln\\left(\\dfrac{1600}{1600-v^2}\\right)$.\n\nWhen $v=30$: $x=50\\ln\\dfrac{1600}{700}=50\\ln\\dfrac{16}{7}\\approx41.3$ m."
+  },
+  {
+   "ref": "Q13(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.5"
+   ],
+   "question": "Two square weights, one with mass $5$ kg and one with mass $m$ kg where $m>5$, are attached by a single rope running over a smooth pulley. The $5$ kg mass is on a slope of $30^\\circ$ to the horizontal and the $m$ kg mass is on a slope of $45^\\circ$ to the horizontal. The two weights are stationary as they are being held in place by friction but are on the point of slipping, with the $m$ kg weight being about to fall down its slope, resulting in the $5$ kg weight being pulled UP its slope in response. Apart from friction, the weights are held in place by gravity (with force of $10$ times each object's mass) and by normal forces pushing out from the plane. Friction in each case is $0.6$ times the normal force (note that friction and the normal force are different at each object but the tension in the rope is the same) (see diagram). By resolving forces both parallel and perpendicular to the plane at the $5$ kg weight, show that the tension in the rope is equal to $(15\\sqrt3+25)$ newtons (you may treat tension as parallel to the plane).",
+   "answer": "Weight of the 5 kg mass $=50$ N. Component perpendicular to the plane $=50\\cos30^\\circ=25\\sqrt3$; component down the plane $=50\\sin30^\\circ=25$.\n\nPerpendicular: $N_1=25\\sqrt3$, so friction $F_1=0.6N_1=15\\sqrt3$, acting down the slope (the mass is about to move up).\n\nParallel (equilibrium): $T=F_1+25=(15\\sqrt3+25)$ N.",
+   "images": [
+    "assets/img/ext2-2025-girraween/q13d.png"
+   ]
+  },
+  {
+   "ref": "Q13(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.5"
+   ],
+   "question": "Two square weights, one with mass $5$ kg and one with mass $m$ kg where $m>5$, are attached by a single rope running over a smooth pulley. The $5$ kg mass is on a slope of $30^\\circ$ to the horizontal and the $m$ kg mass is on a slope of $45^\\circ$ to the horizontal. The two weights are stationary as they are being held in place by friction but are on the point of slipping, with the $m$ kg weight being about to fall down its slope, resulting in the $5$ kg weight being pulled UP its slope in response. Apart from friction, the weights are held in place by gravity (with force of $10$ times each object's mass) and by normal forces pushing out from the plane. Friction in each case is $0.6$ times the normal force (note that friction and the normal force are different at each object but the tension in the rope is the same) (see diagram). The tension in the rope is $(15\\sqrt3+25)$ newtons. By resolving forces both parallel and perpendicular to the plane at the $m$ kg weight, find the mass $m$ of the second weight in kilograms.",
+   "answer": "Perpendicular: $N_2=10m\\cos45^\\circ=5\\sqrt2\\,m$, so $F_2=0.6N_2=3\\sqrt2\\,m$, acting up the slope (the mass is about to slide down).\n\nParallel: $F_2+T=10m\\sin45^\\circ\\Rightarrow3\\sqrt2\\,m+15\\sqrt3+25=5\\sqrt2\\,m\\Rightarrow2\\sqrt2\\,m=15\\sqrt3+25$.\n$$m=\\frac{15\\sqrt3+25}{2\\sqrt2}\\approx18.02\\text{ kg}.$$",
+   "images": [
+    "assets/img/ext2-2025-girraween/q13d.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_N=\\displaystyle\\int_0^{\\pi/2}\\sin^Nx\\,dx$. Show that $I_N=\\dfrac{N-1}{N}I_{N-2}$.",
+   "answer": "By parts with $u=\\sin^{N-1}x$, $v'=\\sin x$: $u'=(N-1)\\sin^{N-2}x\\cos x$, $v=-\\cos x$.\n$$I_N=\\Big[-\\cos x\\sin^{N-1}x\\Big]_0^{\\pi/2}+(N-1)\\int_0^{\\pi/2}\\cos^2x\\sin^{N-2}x\\,dx=0+(N-1)\\int_0^{\\pi/2}(1-\\sin^2x)\\sin^{N-2}x\\,dx$$\n(the bracket is 0 as $\\cos\\frac\\pi2=0$ and $\\sin0=0$). So $I_N=(N-1)I_{N-2}-(N-1)I_N$, i.e. $NI_N=(N-1)I_{N-2}$ and $I_N=\\dfrac{N-1}{N}I_{N-2}$."
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_N=\\displaystyle\\int_0^{\\pi/2}\\sin^Nx\\,dx$. Given that $I_N=\\dfrac{N-1}{N}I_{N-2}$, find the exact value of $I_6$.",
+   "answer": "$I_0=\\displaystyle\\int_0^{\\pi/2}1\\,dx=\\frac\\pi2$. Then $I_2=\\frac12I_0=\\frac\\pi4$, $I_4=\\frac34I_2=\\frac{3\\pi}{16}$, $I_6=\\frac56I_4=\\dfrac{5\\pi}{32}$."
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.17"
+   ],
+   "question": "State the centre and radius of the sphere $S$: $(x-2)^2+(y+1)^2+(z-4)^2=14$.",
+   "answer": "Centre $(2,-1,4)$, radius $\\sqrt{14}$."
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.18",
+    "12.2.2.5"
+   ],
+   "question": "The sphere $S$ has equation $(x-2)^2+(y+1)^2+(z-4)^2=14$. The line $L_1$ is $\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}=\\begin{pmatrix}9\\\\6\\\\4\\end{pmatrix}+\\lambda\\begin{pmatrix}4\\\\5\\\\1\\end{pmatrix}$. By finding the perpendicular distance from the line $L_1$ to the centre of the sphere $S$, show that the line $L_1$ intersects the sphere in two places.",
+   "answer": "Let $C=(2,-1,4)$, $U=(9,6,4)$ on the line, direction $\\mathbf b=\\begin{pmatrix}4\\\\5\\\\1\\end{pmatrix}$. $\\mathbf a=\\overrightarrow{UC}=\\begin{pmatrix}-7\\\\-7\\\\0\\end{pmatrix}$.\n\n$\\text{proj}_{\\mathbf b}\\mathbf a=\\dfrac{\\mathbf a\\cdot\\mathbf b}{|\\mathbf b|^2}\\mathbf b=\\dfrac{-28-35+0}{42}\\mathbf b=-\\dfrac32\\begin{pmatrix}4\\\\5\\\\1\\end{pmatrix}=\\begin{pmatrix}-6\\\\-7.5\\\\-1.5\\end{pmatrix}$.\n\n$\\mathbf a-\\text{proj}_{\\mathbf b}\\mathbf a=\\begin{pmatrix}-1\\\\0.5\\\\1.5\\end{pmatrix}$, so the perpendicular distance is $\\sqrt{1+0.25+2.25}=\\sqrt{3.5}\\approx1.87$.\n\n(Alternatively, the squared distance from $C$ to a general point of $L_1$ is $(-7-4\\lambda)^2+(-7-5\\lambda)^2+\\lambda^2=42\\lambda^2+126\\lambda+98$, minimised at $\\lambda=-\\frac32$, giving $3.5$.)\n\nSince $\\sqrt{3.5}<\\sqrt{14}$ (the radius), the line passes through the interior of the sphere and so meets it in two points."
+  },
+  {
+   "ref": "Q14(b)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.18"
+   ],
+   "question": "The sphere $S$ has equation $(x-2)^2+(y+1)^2+(z-4)^2=14$. The line $L_1$ is $\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}=\\begin{pmatrix}9\\\\6\\\\4\\end{pmatrix}+\\lambda\\begin{pmatrix}4\\\\5\\\\1\\end{pmatrix}$. Find the two points of intersection of the line $L_1$ and the sphere $S$.",
+   "answer": "Points on $L_1$: $(9+4\\lambda,\\ 6+5\\lambda,\\ 4+\\lambda)$. Substituting into the sphere:\n$$(7+4\\lambda)^2+(7+5\\lambda)^2+\\lambda^2=14\\Rightarrow42\\lambda^2+126\\lambda+98=14\\Rightarrow\\lambda^2+3\\lambda+2=0\\Rightarrow(\\lambda+1)(\\lambda+2)=0.$$\n$\\lambda=-1$: $(5,1,3)$; $\\lambda=-2$: $(1,-4,2)$."
+  },
+  {
+   "ref": "Q14(b)(iv)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "The line $L_1$ is $\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}=\\begin{pmatrix}9\\\\6\\\\4\\end{pmatrix}+\\lambda\\begin{pmatrix}4\\\\5\\\\1\\end{pmatrix}$. The line $L_2$ is $\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}=\\begin{pmatrix}2\\\\-1\\\\4\\end{pmatrix}+\\mu\\begin{pmatrix}-2\\\\1\\\\3\\end{pmatrix}$. Show that the line $L_1$ is perpendicular to the line $L_2$.",
+   "answer": "$\\begin{pmatrix}4\\\\5\\\\1\\end{pmatrix}\\cdot\\begin{pmatrix}-2\\\\1\\\\3\\end{pmatrix}=-8+5+3=0$, so the direction vectors are perpendicular and $L_1\\perp L_2$."
+  },
+  {
+   "ref": "Q14(b)(v)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.10"
+   ],
+   "question": "The line $L_1$ is $\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}=\\begin{pmatrix}9\\\\6\\\\4\\end{pmatrix}+\\lambda\\begin{pmatrix}4\\\\5\\\\1\\end{pmatrix}$. The line $L_2$ is $\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}=\\begin{pmatrix}2\\\\-1\\\\4\\end{pmatrix}+\\mu\\begin{pmatrix}-2\\\\1\\\\3\\end{pmatrix}$. Find the point of intersection of the lines $L_1$ and $L_2$.",
+   "answer": "Equate components:\n\n$x$: $9+4\\lambda=2-2\\mu\\Rightarrow4\\lambda+2\\mu=-7$ (1)\n\n$y$: $6+5\\lambda=-1+\\mu\\Rightarrow5\\lambda-\\mu=-7$ (2)\n\n$z$: $4+\\lambda=4+3\\mu\\Rightarrow\\lambda=3\\mu$ (3)\n\n(3) in (1): $14\\mu=-7\\Rightarrow\\mu=-\\frac12$, $\\lambda=-\\frac32$. Check in (2): $-\\frac{15}2+\\frac12=-7$ ✓.\n\nPoint: $\\begin{pmatrix}9\\\\6\\\\4\\end{pmatrix}-\\frac32\\begin{pmatrix}4\\\\5\\\\1\\end{pmatrix}=\\begin{pmatrix}3\\\\-\\frac32\\\\\\frac52\\end{pmatrix}$ (also $=\\begin{pmatrix}2\\\\-1\\\\4\\end{pmatrix}-\\frac12\\begin{pmatrix}-2\\\\1\\\\3\\end{pmatrix}$), i.e. $\\left(3,-\\frac32,\\frac52\\right)$."
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.2"
+   ],
+   "question": "Prove $n!>3^n$ for all positive integers $n\\ge8$ using the method of mathematical induction.",
+   "answer": "**Base case** $n=8$: $8!=40320>6561=3^8$. True.\n\n**Assume** true for $n=k$ ($k\\ge8$): $k!>3^k$.\n\n**Prove** for $n=k+1$: $(k+1)!=(k+1)\\,k!>(k+1)3^k$ (by assumption) $>3\\cdot3^k=3^{k+1}$, since $k+1\\ge9>3$.\n\nSo if true for $n=k$ it is true for $n=k+1$; as it is true for $n=8$, by mathematical induction $n!>3^n$ for all integers $n\\ge8$.\n\n(The school's solution uses the base case $n=7$, $7!=5040>2187$, which proves the result for $n\\ge7$ and hence also for $n\\ge8$.)"
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.3.2"
+   ],
+   "question": "Prove that for all real numbers $a$ and $b$, $a^2+b^2\\ge2ab$.",
+   "answer": "$(a-b)^2\\ge0$ since $a-b$ is real, so $a^2-2ab+b^2\\ge0$, i.e. $a^2+b^2\\ge2ab$.\n\n*Note: the paper prints $a^2+b^2>2ab$, which is false when $a=b$; the intended (and proved) inequality is $\\ge$.*"
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "Using the result $a^2+b^2\\ge2ab$ for all real $a,b$, prove $a^2+b^2+c^2\\ge ab+ac+bc$ for all real numbers $a,b,c$.",
+   "answer": "$a^2+b^2\\ge2ab$, $a^2+c^2\\ge2ac$, $b^2+c^2\\ge2bc$. Adding: $2(a^2+b^2+c^2)\\ge2(ab+ac+bc)$, so $a^2+b^2+c^2\\ge ab+ac+bc$."
+  },
+  {
+   "ref": "Q15(b)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "Using the result $a^2+b^2+c^2\\ge ab+ac+bc$ for all real $a,b,c$, prove $\\dfrac1{a^2}+\\dfrac1{b^2}+\\dfrac1{c^2}\\ge\\dfrac{a+b+c}{abc}$ for all non-zero real numbers $a,b,c$.",
+   "answer": "Apply the result to the real numbers $\\frac1a,\\frac1b,\\frac1c$:\n$$\\frac1{a^2}+\\frac1{b^2}+\\frac1{c^2}\\ge\\frac1{ab}+\\frac1{ac}+\\frac1{bc}=\\frac{c+b+a}{abc}=\\frac{a+b+c}{abc}.$$"
+  },
+  {
+   "ref": "Q15(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "Prove by contradiction that $\\sqrt{29}$ is irrational.",
+   "answer": "Suppose $\\sqrt{29}=\\dfrac pq$ with $p,q\\in\\mathbb Z^+$ having no common factors. Then $p^2=29q^2$, so $29\\mid p^2$, and as 29 is prime, $29\\mid p$. Write $p=29k$: $841k^2=29q^2\\Rightarrow q^2=29k^2$, so $29\\mid q^2$ and hence $29\\mid q$.\n\nThen 29 is a common factor of $p$ and $q$, a contradiction. Hence $\\sqrt{29}$ is irrational."
+  },
+  {
+   "ref": "Q15(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "In triangle $OAB$, $\\overrightarrow{OA}=\\mathbf a$ and $\\overrightarrow{OB}=\\mathbf b$. $P$ is on $OA$ so that $\\overrightarrow{OP}=\\frac13\\overrightarrow{OA}$ and $Q$ is on $OB$ so that $\\overrightarrow{OQ}=\\frac12\\overrightarrow{OB}$. $X$ is the intersection of $AQ$ and $BP$, with $\\overrightarrow{PX}=\\lambda\\overrightarrow{PB}$ and $\\overrightarrow{QX}=\\mu\\overrightarrow{QA}$. $T$ is on $BA$ so that $O$, $X$ and $T$ are collinear (see diagram). Show that $\\overrightarrow{OX}=\\frac13(1-\\lambda)\\mathbf a+\\lambda\\mathbf b$.",
+   "answer": "$\\overrightarrow{PB}=\\overrightarrow{PO}+\\overrightarrow{OB}=-\\frac13\\mathbf a+\\mathbf b$.\n$$\\overrightarrow{OX}=\\overrightarrow{OP}+\\overrightarrow{PX}=\\tfrac13\\mathbf a+\\lambda\\left(-\\tfrac13\\mathbf a+\\mathbf b\\right)=\\tfrac13(1-\\lambda)\\mathbf a+\\lambda\\mathbf b.$$",
+   "images": [
+    "assets/img/ext2-2025-girraween/q15d.png"
+   ]
+  },
+  {
+   "ref": "Q15(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "In triangle $OAB$, $\\overrightarrow{OA}=\\mathbf a$ and $\\overrightarrow{OB}=\\mathbf b$. $P$ is on $OA$ so that $\\overrightarrow{OP}=\\frac13\\overrightarrow{OA}$ and $Q$ is on $OB$ so that $\\overrightarrow{OQ}=\\frac12\\overrightarrow{OB}$. $X$ is the intersection of $AQ$ and $BP$, with $\\overrightarrow{PX}=\\lambda\\overrightarrow{PB}$ and $\\overrightarrow{QX}=\\mu\\overrightarrow{QA}$. $T$ is on $BA$ so that $O$, $X$ and $T$ are collinear (see diagram). It is given that $\\overrightarrow{OX}=\\frac13(1-\\lambda)\\mathbf a+\\lambda\\mathbf b$ and that $\\overrightarrow{OX}$ can also be shown to be $\\mu\\mathbf a+\\frac12(1-\\mu)\\mathbf b$ (do NOT prove this). By finding $\\lambda$ and $\\mu$, show that $\\overrightarrow{OX}=\\frac15\\mathbf a+\\frac25\\mathbf b$.",
+   "answer": "$\\mathbf a$ and $\\mathbf b$ are not parallel, so equate coefficients:\n\n$\\mathbf a$: $\\frac13(1-\\lambda)=\\mu\\Rightarrow2-2\\lambda=6\\mu$ (1)\n\n$\\mathbf b$: $\\lambda=\\frac12(1-\\mu)\\Rightarrow2\\lambda=1-\\mu$ (2)\n\n(2) in (1): $2-(1-\\mu)=6\\mu\\Rightarrow\\mu=\\frac15$, then $\\lambda=\\frac25$.\n\n$\\overrightarrow{OX}=\\frac13\\left(1-\\frac25\\right)\\mathbf a+\\frac25\\mathbf b=\\frac15\\mathbf a+\\frac25\\mathbf b$.",
+   "images": [
+    "assets/img/ext2-2025-girraween/q15d.png"
+   ]
+  },
+  {
+   "ref": "Q15(d)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.1.4"
+   ],
+   "question": "In triangle $OAB$, $\\overrightarrow{OA}=\\mathbf a$ and $\\overrightarrow{OB}=\\mathbf b$. $P$ is on $OA$ so that $\\overrightarrow{OP}=\\frac13\\overrightarrow{OA}$ and $Q$ is on $OB$ so that $\\overrightarrow{OQ}=\\frac12\\overrightarrow{OB}$. $X$ is the intersection of $AQ$ and $BP$, with $\\overrightarrow{PX}=\\lambda\\overrightarrow{PB}$ and $\\overrightarrow{QX}=\\mu\\overrightarrow{QA}$. $T$ is on $BA$ so that $O$, $X$ and $T$ are collinear (see diagram). It is given that $\\overrightarrow{OX}=\\frac15\\mathbf a+\\frac25\\mathbf b$. Given that $T$ is collinear with $O$ and $X$ and is on the line $AB$, express $\\overrightarrow{OT}$ in terms of $\\mathbf a$ and $\\mathbf b$.",
+   "answer": "Collinear with $O$, $X$: $\\overrightarrow{OT}=k\\,\\overrightarrow{OX}=\\frac k5\\mathbf a+\\frac{2k}5\\mathbf b$ (1).\n\nOn $AB$: $\\overrightarrow{OT}=\\overrightarrow{OB}+h\\overrightarrow{BA}=\\mathbf b+h(\\mathbf a-\\mathbf b)=h\\mathbf a+(1-h)\\mathbf b$ (2).\n\nEquating coefficients: $\\frac k5=h$ and $\\frac{2k}5=1-h$. Adding: $\\frac{3k}5=1\\Rightarrow k=\\frac53$ (so $h=\\frac13$).\n\n$\\overrightarrow{OT}=\\frac53\\left(\\frac15\\mathbf a+\\frac25\\mathbf b\\right)=\\frac13\\mathbf a+\\frac23\\mathbf b$.",
+   "images": [
+    "assets/img/ext2-2025-girraween/q15d.png"
+   ]
+  },
+  {
+   "ref": "Q16(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.19",
+    "12.2.1.12"
+   ],
+   "question": "Sketch the curve $\\begin{pmatrix}x\\\\y\\end{pmatrix}=\\begin{pmatrix}t\\cos t\\\\t\\sin t\\end{pmatrix}$ from $t=0$ to $t=2\\pi$.",
+   "answer": "The distance from the origin is $\\sqrt{x^2+y^2}=t$ and the angle is $t$, so the curve is a spiral starting at the origin, winding anticlockwise and moving outwards.\n\n| $t$ | $0$ | $\\frac\\pi2$ | $\\pi$ | $\\frac{3\\pi}2$ | $2\\pi$ |\n|---|---|---|---|---|---|\n| $x$ | $0$ | $0$ | $-\\pi$ | $0$ | $2\\pi$ |\n| $y$ | $0$ | $\\frac\\pi2$ | $0$ | $-\\frac{3\\pi}2$ | $0$ |\n\nThe spiral passes through $(0,0)$, $(0,\\frac\\pi2)$, $(-\\pi,0)$, $(0,-\\frac{3\\pi}2)$ and ends at $(2\\pi,0)$.",
+   "answer_images": [
+    "assets/img/ext2-2025-girraween/a16a.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.5"
+   ],
+   "question": "State the solutions to $z^9-1=0$ (leave your solutions in modulus–argument form).",
+   "answer": "$z=\\text{cis}\\dfrac{2k\\pi}{9}$, $k=0,1,\\dots,8$, i.e. $z=1,\\ \\text{cis}\\frac{2\\pi}9,\\ \\text{cis}\\frac{4\\pi}9,\\ \\text{cis}\\frac{2\\pi}3,\\ \\text{cis}\\frac{8\\pi}9,\\ \\text{cis}\\frac{10\\pi}9,\\ \\text{cis}\\frac{4\\pi}3,\\ \\text{cis}\\frac{14\\pi}9,\\ \\text{cis}\\frac{16\\pi}9$."
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.12"
+   ],
+   "question": "The solutions to $z^9-1=0$ are $z=\\text{cis}\\dfrac{2k\\pi}{9}$, $k=0,1,\\dots,8$. Using the fact that $z^9-1=(z^3-1)(z^6+z^3+1)$, state the solutions to $z^6+z^3+1=0$.",
+   "answer": "The roots of $z^3-1=0$ are $1,\\ \\text{cis}\\frac{2\\pi}3=\\text{cis}\\frac{6\\pi}9,\\ \\text{cis}\\frac{4\\pi}3=\\text{cis}\\frac{12\\pi}9$. The remaining ninth roots of unity are the roots of $z^6+z^3+1=0$:\n$$z=\\text{cis}\\frac{2\\pi}9,\\ \\text{cis}\\frac{4\\pi}9,\\ \\text{cis}\\frac{8\\pi}9,\\ \\text{cis}\\frac{10\\pi}9,\\ \\text{cis}\\frac{14\\pi}9,\\ \\text{cis}\\frac{16\\pi}9.$$"
+  },
+  {
+   "ref": "Q16(b)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "Show that if $z=\\cos\\theta+i\\sin\\theta$, then $z^n+\\dfrac1{z^n}=2\\cos n\\theta$.",
+   "answer": "By de Moivre's theorem $z^n=\\cos n\\theta+i\\sin n\\theta$ and $z^{-n}=\\cos(-n\\theta)+i\\sin(-n\\theta)=\\cos n\\theta-i\\sin n\\theta$ (cos is even, sin is odd). Adding: $z^n+z^{-n}=2\\cos n\\theta$."
+  },
+  {
+   "ref": "Q16(b)(iv)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.12",
+    "12.3.3.4"
+   ],
+   "question": "The solutions to $z^6+z^3+1=0$ are $z=\\text{cis}\\frac{2\\pi}9,\\ \\text{cis}\\frac{4\\pi}9,\\ \\text{cis}\\frac{8\\pi}9,\\ \\text{cis}\\frac{10\\pi}9,\\ \\text{cis}\\frac{14\\pi}9,\\ \\text{cis}\\frac{16\\pi}9$. Express $z^6+z^3+1$ in terms of real quadratic factors.",
+   "answer": "The roots occur in conjugate pairs: $\\text{cis}\\frac{16\\pi}9=\\text{cis}\\left(-\\frac{2\\pi}9\\right)$, $\\text{cis}\\frac{14\\pi}9=\\text{cis}\\left(-\\frac{4\\pi}9\\right)$, $\\text{cis}\\frac{10\\pi}9=\\text{cis}\\left(-\\frac{8\\pi}9\\right)$.\n\nFor each pair, $(z-\\text{cis}\\,\\alpha)(z-\\text{cis}(-\\alpha))=z^2-z\\left(\\text{cis}\\,\\alpha+\\text{cis}(-\\alpha)\\right)+1=z^2-2z\\cos\\alpha+1$. Hence\n$$z^6+z^3+1=\\left(z^2-2z\\cos\\frac{2\\pi}9+1\\right)\\left(z^2-2z\\cos\\frac{4\\pi}9+1\\right)\\left(z^2-2z\\cos\\frac{8\\pi}9+1\\right).$$"
+  },
+  {
+   "ref": "Q16(b)(v)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.4",
+    "12.3.4.12"
+   ],
+   "question": "It is given that $z^6+z^3+1=\\left(z^2-2z\\cos\\frac{2\\pi}9+1\\right)\\left(z^2-2z\\cos\\frac{4\\pi}9+1\\right)\\left(z^2-2z\\cos\\frac{8\\pi}9+1\\right)$ and that if $z=\\cos\\theta+i\\sin\\theta$ then $z^n+\\frac1{z^n}=2\\cos n\\theta$. Hence show that\n$$\\cos3\\theta+\\frac12=4\\left(\\cos\\theta-\\cos\\frac{2\\pi}9\\right)\\left(\\cos\\theta-\\cos\\frac{4\\pi}9\\right)\\left(\\cos\\theta+\\cos\\frac{\\pi}9\\right).$$",
+   "answer": "Divide both sides by $z^3$ (one factor of $z$ for each quadratic):\n$$z^3+\\frac1{z^3}+1=\\left(z+\\frac1z-2\\cos\\frac{2\\pi}9\\right)\\left(z+\\frac1z-2\\cos\\frac{4\\pi}9\\right)\\left(z+\\frac1z-2\\cos\\frac{8\\pi}9\\right).$$\nWith $z=\\cos\\theta+i\\sin\\theta$: $2\\cos3\\theta+1=8\\left(\\cos\\theta-\\cos\\frac{2\\pi}9\\right)\\left(\\cos\\theta-\\cos\\frac{4\\pi}9\\right)\\left(\\cos\\theta-\\cos\\frac{8\\pi}9\\right)$.\n\nSince $\\cos\\frac{8\\pi}9=-\\cos\\frac{\\pi}9$, dividing by 2:\n$$\\cos3\\theta+\\frac12=4\\left(\\cos\\theta-\\cos\\frac{2\\pi}9\\right)\\left(\\cos\\theta-\\cos\\frac{4\\pi}9\\right)\\left(\\cos\\theta+\\cos\\frac{\\pi}9\\right).$$"
+  },
+  {
+   "ref": "Q16(c)",
+   "kind": "written",
+   "marks": 6,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.5.6",
+    "12.5.5.3"
+   ],
+   "question": "A projectile with mass $m$ kg is launched vertically from the ground with a velocity of $v_0$ metres per second, where $v_0<200$ metres per second. It experiences gravity of $10m$ newtons and air resistance of $0.05mv$ newtons against its direction of motion, where $v$ is the current velocity. If the projectile lands in the same place 5 seconds after launch, find its initial velocity $v_0$.",
+   "answer": "Take up as positive. Since the resistance $-0.05mv$ always opposes the motion (it acts upward when $v<0$), one equation holds for the whole flight:\n$$m\\ddot x=-10m-0.05mv\\Rightarrow\\frac{dv}{dt}=-\\frac{200+v}{20}.$$\n$t=-20\\displaystyle\\int_{v_0}^{v}\\frac{dv}{200+v}=-20\\ln\\frac{200+v}{200+v_0}$, so $v=(200+v_0)e^{-t/20}-200$.\n\nIntegrating with $x=0$ at $t=0$:\n$$x=(4000+20v_0)\\left(1-e^{-t/20}\\right)-200t.$$\nIt lands ($x=0$) at $t=5$: $(4000+20v_0)\\left(1-e^{-1/4}\\right)=1000$, so\n$$v_0=\\frac{4000e^{-1/4}-3000}{20\\left(1-e^{-1/4}\\right)}\\approx26.04\\text{ m/s}.$$\n(The school also gives an equivalent solution splitting the flight into the upward and downward stages, with the same result.)"
+  }
+ ]
+}

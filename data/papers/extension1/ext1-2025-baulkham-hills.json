@@ -1,0 +1,503 @@
+{
+ "id": "ext1-2025-baulkham-hills",
+ "course": "extension1",
+ "school": "Baulkham Hills",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "Baulkham Hills 2025 w. sol"
+ },
+ "indexed": "2026-11-24",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q14(c)(i)",
+   "reason": "Not in 2024 syllabus: normal approximation to the binomial distribution."
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "reason": "Not in 2024 syllabus: conditions for the normal approximation to the binomial distribution."
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.10"
+   ],
+   "question": "Given that $\\mathbf{u}=\\begin{pmatrix}-2\\\\1\\end{pmatrix}$ and $\\mathbf{v}=\\begin{pmatrix}3\\\\4\\end{pmatrix}$, which of the following best describes the direction of the projection of $\\mathbf{u}$ onto $\\mathbf{v}$?",
+   "options": [
+    "The projection is in the same direction as $\\mathbf{u}$.",
+    "The projection is in the same direction as $\\mathbf{v}$.",
+    "The projection is in the opposite direction to $\\mathbf{u}$.",
+    "The projection is in the opposite direction to $\\mathbf{v}$."
+   ],
+   "correct": "D",
+   "answer": "$\\text{proj}_{\\mathbf v}\\mathbf u=\\dfrac{\\mathbf u\\cdot\\mathbf v}{\\mathbf v\\cdot\\mathbf v}\\mathbf v=\\dfrac{-6+4}{9+16}\\mathbf v=-\\dfrac{2}{25}\\mathbf v$. The scalar is negative, so the projection is in the opposite direction to $\\mathbf v$ (D)."
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.2.6",
+    "11.1.2.9"
+   ],
+   "question": "Which of the following best represents the graphs of a function and its inverse function?",
+   "options": [
+    "![Graph A](assets/img/ext1-2025-baulkham-hills/q2a.png)",
+    "![Graph B](assets/img/ext1-2025-baulkham-hills/q2b.png)",
+    "![Graph C](assets/img/ext1-2025-baulkham-hills/q2c.png)",
+    "![Graph D](assets/img/ext1-2025-baulkham-hills/q2d.png)"
+   ],
+   "correct": "B",
+   "answer": "Both graphs must pass the vertical line test (each is a function, so the original is one-to-one) and they must be reflections of each other in $y=x$. In (A) and (D) one of the curves fails the vertical line test; in (C) the two lines are not reflections of each other in $y=x$ (their intercepts do not swap). Only (B) satisfies both conditions."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.3",
+    "12.5.3.1"
+   ],
+   "question": "Consider the functions $y=\\sin^2x$ and $y=\\cos^2x$ and the region shaded in the diagram (the region enclosed between the two curves, between consecutive intersection points $x=\\frac{\\pi}{4}$ and $x=\\frac{3\\pi}{4}$). What is the area of the shaded region?",
+   "options": [
+    "$\\frac12$ units$^2$",
+    "$1$ units$^2$",
+    "$\\frac{\\pi}{2}$ units$^2$",
+    "$2$ units$^2$"
+   ],
+   "correct": "B",
+   "answer": "Intersections: $\\sin^2x=\\cos^2x\\Rightarrow\\tan x=\\pm1\\Rightarrow x=\\frac{\\pi}{4},\\frac{3\\pi}{4}$. On this interval $\\sin^2x\\ge\\cos^2x$, so\n\n$$A=\\int_{\\pi/4}^{3\\pi/4}(\\sin^2x-\\cos^2x)\\,dx=-\\int_{\\pi/4}^{3\\pi/4}\\cos2x\\,dx=-\\frac12\\Big[\\sin2x\\Big]_{\\pi/4}^{3\\pi/4}=-\\frac12(-1-1)=1.$$\n\nThe area is 1 unit$^2$ (B).",
+   "images": [
+    "assets/img/ext1-2025-baulkham-hills/q3.png"
+   ]
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.6",
+    "12.3.2.6"
+   ],
+   "question": "What are the domain and range of the function $y=\\sin^{-1}x+\\tan^{-1}x+\\cot^{-1}x$? (Here $\\cot^{-1}x$ is the inverse cotangent function, defined for all real $x$ with range $0<\\cot^{-1}x<\\pi$.)",
+   "options": [
+    "Domain: $(-\\infty,\\infty)$ and Range: $[0,\\pi]$",
+    "Domain: $(-\\infty,\\infty)$ and Range: $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$",
+    "Domain: $[-1,1]$ and Range: $[0,\\pi]$",
+    "Domain: $[-1,1]$ and Range: $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$"
+   ],
+   "correct": "C",
+   "answer": "$\\tan^{-1}x$ and $\\cot^{-1}x$ are defined for all real $x$, so the domain is that of $\\sin^{-1}x$: $[-1,1]$. Since $\\cot^{-1}x=\\frac{\\pi}{2}-\\tan^{-1}x$, we have $\\tan^{-1}x+\\cot^{-1}x=\\frac{\\pi}{2}$, so $y=\\sin^{-1}x+\\frac{\\pi}{2}$. As $-\\frac{\\pi}{2}\\le\\sin^{-1}x\\le\\frac{\\pi}{2}$, the range is $0\\le y\\le\\pi$ (C)."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.6",
+    "11.1.1.3"
+   ],
+   "question": "Consider the graph of $y=f(x)$ drawn below. Which of the following shows the graph of $|y|=f(x)$?",
+   "options": [
+    "![Graph A](assets/img/ext1-2025-baulkham-hills/q5a.png)",
+    "![Graph B](assets/img/ext1-2025-baulkham-hills/q5b.png)",
+    "![Graph C](assets/img/ext1-2025-baulkham-hills/q5c.png)",
+    "![Graph D](assets/img/ext1-2025-baulkham-hills/q5d.png)"
+   ],
+   "correct": "A",
+   "answer": "$|y|=f(x)$ means $y=\\pm f(x)$ where $f(x)\\ge0$, and there are no points where $f(x)<0$. So keep the part of $y=f(x)$ on or above the $x$-axis and reflect it in the $x$-axis: graph (A). (B) is $y=f(|x|)$-type, (C) is $|y|=|f(x)|$ and (D) is $y=|f(x)|$-type, none of which match.",
+   "images": [
+    "assets/img/ext1-2025-baulkham-hills/q5.png"
+   ]
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.9"
+   ],
+   "question": "Which of the following best represents the direction field for the differential equation $\\dfrac{dy}{dx}=\\dfrac{\\sin y}{x}$?",
+   "options": [
+    "![Field A](assets/img/ext1-2025-baulkham-hills/q6a.png)",
+    "![Field B](assets/img/ext1-2025-baulkham-hills/q6b.png)",
+    "![Field C](assets/img/ext1-2025-baulkham-hills/q6c.png)",
+    "![Field D](assets/img/ext1-2025-baulkham-hills/q6d.png)"
+   ],
+   "correct": "C",
+   "answer": "At $x=0$ the gradient is undefined (vertical slopes near the $y$-axis), which eliminates (A) and (D). When $\\sin y=0$, i.e. $y=0,\\pm\\pi,\\dots$, the gradient is $0$, giving rows of horizontal segments at those $y$-values. Only (C) satisfies both conditions. (A) is $\\frac{dy}{dx}=\\frac{\\sin x}{y}$, (B) is $\\frac{dy}{dx}=\\frac{y}{\\sin x}$, (D) is $\\frac{dy}{dx}=\\frac{x}{\\sin y}$."
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.11"
+   ],
+   "question": "Five teachers and five students are to be seated around a circular table. In how many ways can this be done if the teachers and students must alternate?",
+   "options": [
+    "$2\\times4!\\times4!$",
+    "$4!\\times4!$",
+    "$4!\\times5!$",
+    "$5!\\times5!$"
+   ],
+   "correct": "C",
+   "answer": "Seat the 5 teachers around the table with an empty chair between each pair: $(5-1)!=4!$ ways. This creates 5 distinct gaps for the 5 students: $5!$ ways. Total $4!\\times5!$ (C)."
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.6"
+   ],
+   "question": "The point $C$ is the midpoint of $AB$, and $P$ is any point not on the interval $AB$. Which of the following statements is always correct?",
+   "options": [
+    "$\\overrightarrow{PA}+\\overrightarrow{PB}=2\\overrightarrow{PC}$",
+    "$\\overrightarrow{PA}+\\overrightarrow{PB}=\\overrightarrow{PC}$",
+    "$\\overrightarrow{PA}+\\overrightarrow{PB}+2\\overrightarrow{PC}=\\mathbf 0$",
+    "$\\overrightarrow{PA}+\\overrightarrow{PB}+\\overrightarrow{PC}=\\mathbf 0$"
+   ],
+   "correct": "A",
+   "answer": "$\\overrightarrow{PC}=\\overrightarrow{PA}+\\overrightarrow{AC}$ and $\\overrightarrow{PC}=\\overrightarrow{PB}+\\overrightarrow{BC}=\\overrightarrow{PB}-\\overrightarrow{AC}$ (since $\\overrightarrow{AC}=\\overrightarrow{CB}$). Adding: $2\\overrightarrow{PC}=\\overrightarrow{PA}+\\overrightarrow{PB}$ (A).",
+   "images": [
+    "assets/img/ext1-2025-baulkham-hills/q8.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.2.2"
+   ],
+   "question": "Given that $\\sec\\theta+\\tan\\theta=x$, what is the value of $\\tan\\theta$?",
+   "options": [
+    "$\\dfrac{x^2+1}{x}$",
+    "$\\dfrac{x^2-1}{x}$",
+    "$\\dfrac{x^2+1}{2x}$",
+    "$\\dfrac{x^2-1}{2x}$"
+   ],
+   "correct": "D",
+   "answer": "$\\sec^2\\theta-\\tan^2\\theta=1\\Rightarrow(\\sec\\theta+\\tan\\theta)(\\sec\\theta-\\tan\\theta)=1$, so $\\sec\\theta-\\tan\\theta=\\frac1x$. Subtracting this from $\\sec\\theta+\\tan\\theta=x$: $2\\tan\\theta=x-\\frac1x=\\frac{x^2-1}{x}$, so $\\tan\\theta=\\dfrac{x^2-1}{2x}$ (D)."
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.4",
+    "12.4.1.3"
+   ],
+   "question": "Let $f(x)=(2x+1)^3$ and $g(x)=f^{-1}(x)$. What is the value of $g'(1)$?",
+   "options": [
+    "$6$",
+    "$\\dfrac16$",
+    "$\\dfrac1{27}$",
+    "$\\dfrac1{54}$"
+   ],
+   "correct": "B",
+   "answer": "$g'(1)=\\dfrac{1}{f'(g(1))}$. $f(x)=1\\Rightarrow(2x+1)^3=1\\Rightarrow x=0$, so $g(1)=0$. $f'(x)=6(2x+1)^2$, so $f'(0)=6$ and $g'(1)=\\dfrac16$ (B)."
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.6",
+    "12.2.3.3"
+   ],
+   "question": "Consider the vectors $\\mathbf u=5\\mathbf i-4\\mathbf j$ and $\\mathbf v=-2\\mathbf i+3\\mathbf j$. Find $3\\mathbf u-2\\mathbf v$.",
+   "answer": "$3\\mathbf u-2\\mathbf v=(15\\mathbf i-12\\mathbf j)-(-4\\mathbf i+6\\mathbf j)=19\\mathbf i-18\\mathbf j$."
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "Consider the vectors $\\mathbf u=5\\mathbf i-4\\mathbf j$ and $\\mathbf v=-2\\mathbf i+3\\mathbf j$. Calculate the angle between $\\mathbf u$ and $\\mathbf v$, correct to the nearest degree.",
+   "answer": "$\\mathbf u\\cdot\\mathbf v=-10-12=-22$, $|\\mathbf u|=\\sqrt{41}$, $|\\mathbf v|=\\sqrt{13}$.\n\n$$\\cos\\theta=\\frac{\\mathbf u\\cdot\\mathbf v}{|\\mathbf u||\\mathbf v|}=\\frac{-22}{\\sqrt{533}}\\quad\\Rightarrow\\quad\\theta=162.349\\ldots^\\circ\\approx162^\\circ.$$"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.9",
+    "12.5.4.15"
+   ],
+   "question": "The diagram shows a direction field for a logistic differential equation $\\dfrac{dP}{dt}$ (horizontal axis $t$ from $0$ to about $45$, vertical axis $P$ from about $-60$ to $150$). Write down a possible differential equation for $\\dfrac{dP}{dt}$ in terms of $P$.",
+   "answer": "The slopes are zero along $P=0$ and $P=100$, so these are the equilibrium (constant) solutions. Between them the slopes are negative (the curve is decreasing), while for $P>100$ and $P<0$ the slopes are positive. So\n\n$$\\frac{dP}{dt}=kP(100-P)\\quad\\text{with }k<0,$$\n\nfor example $\\dfrac{dP}{dt}=-0.0025P(100-P)$ (equivalently $\\dfrac{dP}{dt}=0.0025P(P-100)$). Any negative $k$ is acceptable.",
+   "images": [
+    "assets/img/ext1-2025-baulkham-hills/q11b.png"
+   ]
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{dx}{\\sqrt{25-4x^2}}$.",
+   "answer": "$$\\int\\frac{dx}{\\sqrt{25-4x^2}}=\\frac12\\int\\frac{2\\,dx}{\\sqrt{5^2-(2x)^2}}=\\frac12\\sin^{-1}\\left(\\frac{2x}{5}\\right)+c.$$"
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Solve $\\dfrac{2x+1}{1-x}\\ge1$.",
+   "answer": "Note $x\\ne1$. Rearranging:\n\n$$\\frac{2x+1}{1-x}-1\\ge0\\;\\Rightarrow\\;\\frac{2x+1-(1-x)}{1-x}\\ge0\\;\\Rightarrow\\;\\frac{3x}{1-x}\\ge0.$$\n\nCritical points are $x=0$ (numerator zero, included) and $x=1$ (excluded). Testing intervals: for $x<0$ the expression is negative, for $0<x<1$ positive, for $x>1$ negative. Hence $0\\le x<1$."
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.6",
+    "11.2.2.2"
+   ],
+   "question": "Show that there exists only one value of $a$ for which the polynomial $P(x)=x^4+2x^3-x^2-8x-a$ is divisible by $Q(x)=x^2-4$.",
+   "answer": "Divide $P(x)$ by $x^2-4$:\n\n$$x^4+2x^3-x^2-8x-a=(x^2-4)(x^2+2x+3)+(12-a).$$\n\n(Check: $(x^2-4)(x^2+2x+3)=x^4+2x^3+3x^2-4x^2-8x-12=x^4+2x^3-x^2-8x-12$.)\n\n$P(x)$ is divisible by $x^2-4$ exactly when the remainder is zero: $12-a=0$, so $a=12$ is the only value.\n\nAlternatively, by the factor theorem we need $P(2)=0$ and $P(-2)=0$: $P(2)=16+16-4-16-a=12-a$ and $P(-2)=16-16-4+16-a=12-a$, both zero only for $a=12$."
+  },
+  {
+   "ref": "Q11(f)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.3"
+   ],
+   "question": "Solve $\\sqrt3\\sin x+\\cos x=1$ for $0\\le x\\le2\\pi$.",
+   "answer": "Write $\\sqrt3\\sin x+\\cos x=R\\sin(x+\\alpha)$ with $R=\\sqrt{3+1}=2$ and $\\tan\\alpha=\\frac1{\\sqrt3}$, so $\\alpha=\\frac{\\pi}{6}$. Then\n\n$$2\\sin\\left(x+\\frac{\\pi}{6}\\right)=1\\;\\Rightarrow\\;\\sin\\left(x+\\frac{\\pi}{6}\\right)=\\frac12,\\qquad\\frac{\\pi}{6}\\le x+\\frac{\\pi}{6}\\le\\frac{13\\pi}{6}.$$\n\nSo $x+\\frac{\\pi}{6}=\\frac{\\pi}{6},\\frac{5\\pi}{6},\\frac{13\\pi}{6}$, giving $x=0,\\ \\frac{2\\pi}{3},\\ 2\\pi$."
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.13",
+    "12.5.4.11"
+   ],
+   "question": "Solve the differential equation $\\dfrac{dy}{dx}=-2xy^2$.",
+   "answer": "$y=0$ is a (trivial) solution. For $y\\ne0$, separate the variables:\n\n$$\\int\\frac{dy}{y^2}=-\\int2x\\,dx\\;\\Rightarrow\\;-\\frac1y=-x^2+c\\;\\Rightarrow\\;y=\\frac{1}{x^2-c}.$$\n\nSo $y=\\dfrac{1}{x^2-c}$ (for a constant $c$) or $y=0$."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.3.3",
+    "12.2.5.4"
+   ],
+   "question": "The parametric equations of a curve are $x=t^2+6t-16$ and $y=6\\ln(t+3)$. Find the Cartesian equation of this curve in the form $y=a\\ln(x+b)$.",
+   "answer": "Completing the square, $x=(t+3)^2-25$, so $(t+3)^2=x+25$. Since $\\ln(t+3)$ requires $t+3>0$, $t+3=\\sqrt{x+25}$. Hence\n\n$$y=6\\ln\\sqrt{x+25}=3\\ln(x+25),$$\n\ni.e. $a=3$, $b=25$."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "Find the coefficient of $x^2y^6$ in the expansion of $\\left(1-\\dfrac{y}{x}\\right)(x+y)^8$.",
+   "answer": "$\\left(1-\\frac yx\\right)(x+y)^8=(x+y)^8-\\frac yx(x+y)^8$, with $(x+y)^8=\\sum_{k=0}^{8}\\binom8k x^{8-k}y^k$.\n\n- In $(x+y)^8$, the $x^2y^6$ term has $k=6$: coefficient $\\binom86=28$.\n- In $\\frac yx(x+y)^8=\\sum\\binom8k x^{7-k}y^{k+1}$, the $x^2y^6$ term has $k=5$: coefficient $\\binom85=56$.\n\nCoefficient of $x^2y^6$: $28-56=-28$."
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.4",
+    "12.4.1.2"
+   ],
+   "question": "Find $\\displaystyle\\int\\sin x\\sin3x\\,dx$.",
+   "answer": "Using $\\sin A\\sin B=\\frac12[\\cos(A-B)-\\cos(A+B)]$:\n\n$$\\int\\sin x\\sin3x\\,dx=\\frac12\\int(\\cos2x-\\cos4x)\\,dx=\\frac12\\left(\\frac12\\sin2x-\\frac14\\sin4x\\right)+c=\\frac14\\sin2x-\\frac18\\sin4x+c.$$",
+   "course": "extension2"
+  },
+  {
+   "ref": "Q12(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.4.1.8"
+   ],
+   "question": "In a shooting tournament, eight targets are arranged in two hanging columns of three and one hanging column of two, as pictured. The shooter must break all eight targets according to the following rules:\n\n1. Before each shot, the shooter chooses a column from which a target is to be broken.\n2. The shooter must then break the lowest remaining target in that column.\n\nIf these rules are followed, in how many different orders can the eight targets be broken?",
+   "answer": "Within each column the order is forced (bottom to top), so an order of breaking is determined entirely by the sequence of column choices. Label the columns $A$, $B$ (three targets each) and $C$ (two targets). Each order corresponds to an arrangement of the letters $AAABBBCC$, so the number of orders is\n\n$$\\frac{8!}{3!\\,3!\\,2!}=560.$$",
+   "images": [
+    "assets/img/ext1-2025-baulkham-hills/q12e.png"
+   ]
+  },
+  {
+   "ref": "Q12(f)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.6"
+   ],
+   "question": "Consider the function $f(x)=\\sin^{-1}\\left(\\dfrac1x\\right)$. Find the exact value of $f(\\sqrt2)$.",
+   "answer": "$f(\\sqrt2)=\\sin^{-1}\\left(\\frac1{\\sqrt2}\\right)=\\frac{\\pi}{4}$."
+  },
+  {
+   "ref": "Q12(f)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Consider the function $f(x)=\\sin^{-1}\\left(\\dfrac1x\\right)$, for which $f(\\sqrt2)=\\frac{\\pi}{4}$. Find the equation of the tangent at the point where $x=\\sqrt2$. Give your answer in the form $y=mx+c$.",
+   "answer": "$$f'(x)=\\frac{-\\frac{1}{x^2}}{\\sqrt{1-\\frac1{x^2}}}=-\\frac{1}{x^2\\sqrt{\\frac{x^2-1}{x^2}}}=-\\frac{1}{x\\sqrt{x^2-1}}\\quad(x>1).$$\n\nAt $x=\\sqrt2$: $f'(\\sqrt2)=-\\dfrac{1}{\\sqrt2\\cdot1}=-\\dfrac1{\\sqrt2}$. Tangent through $\\left(\\sqrt2,\\frac{\\pi}{4}\\right)$:\n\n$$y-\\frac{\\pi}{4}=-\\frac1{\\sqrt2}(x-\\sqrt2)\\;\\Rightarrow\\;y=-\\frac{x}{\\sqrt2}+1+\\frac{\\pi}{4}.$$\n\n(In general $f'(x)=-\\dfrac{|x|}{x^2\\sqrt{x^2-1}}$, which equals $-\\dfrac{1}{x\\sqrt{x^2-1}}$ for $x>1$.)"
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.9",
+    "12.6.2.6"
+   ],
+   "question": "A biased coin has a $0.7$ chance of showing a head when tossed. What is the most likely combination of heads and tails to occur in a sequence of five tosses? Justify your answer with calculations.",
+   "answer": "Let $X$ be the number of heads, $X\\sim\\text{Bin}(5,0.7)$. $E(X)=5\\times0.7=3.5$, so the most likely outcome is $3$ or $4$ heads.\n\n$$P(X=3)=\\binom53(0.7)^3(0.3)^2=0.3087,\\qquad P(X=4)=\\binom54(0.7)^4(0.3)=0.36015.$$\n\n(The others are smaller: $P(X=5)=0.16807$, $P(X=2)=0.1323$, $P(X=1)=0.02835$, $P(X=0)=0.00243$.)\n\nSo the most likely combination is $4$ heads and $1$ tail."
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Find the exact value of $\\displaystyle\\int_1^{\\sqrt2}\\frac{dx}{x^2\\sqrt{4-x^2}}$ using the substitution $x=2\\cos u$.",
+   "answer": "$x=2\\cos u$, $dx=-2\\sin u\\,du$. When $x=1$, $u=\\frac{\\pi}{3}$; when $x=\\sqrt2$, $u=\\frac{\\pi}{4}$. For $u\\in\\left[\\frac\\pi4,\\frac\\pi3\\right]$, $\\sqrt{4-4\\cos^2u}=2\\sin u$.\n\n$$\\int_1^{\\sqrt2}\\frac{dx}{x^2\\sqrt{4-x^2}}=\\int_{\\pi/3}^{\\pi/4}\\frac{-2\\sin u\\,du}{4\\cos^2u\\cdot2\\sin u}=\\frac14\\int_{\\pi/4}^{\\pi/3}\\sec^2u\\,du=\\frac14\\Big[\\tan u\\Big]_{\\pi/4}^{\\pi/3}=\\frac14\\left(\\sqrt3-1\\right).$$"
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "The region $S$ is bounded by the curve $y=\\dfrac{4}{x(4-x^2)^{\\frac14}}$, the lines $x=1$ and $x=\\sqrt2$, and the $x$-axis, as shown. Find the exact volume of the solid of revolution when the region $S$ is rotated about the $x$-axis. You may use the result $\\displaystyle\\int_1^{\\sqrt2}\\frac{dx}{x^2\\sqrt{4-x^2}}=\\frac14\\left(\\sqrt3-1\\right)$.",
+   "answer": "$y^2=\\dfrac{16}{x^2\\sqrt{4-x^2}}$, so\n\n$$V=\\pi\\int_1^{\\sqrt2}y^2\\,dx=16\\pi\\int_1^{\\sqrt2}\\frac{dx}{x^2\\sqrt{4-x^2}}=16\\pi\\times\\frac14(\\sqrt3-1)=4\\pi(\\sqrt3-1)\\text{ units}^3.$$",
+   "images": [
+    "assets/img/ext1-2025-baulkham-hills/q13b.png"
+   ]
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Use mathematical induction to prove that $1^3+3^3+5^3+\\dots+(2n-1)^3=n^2(2n^2-1)$ for all integers $n\\ge1$.",
+   "answer": "**Base case** $n=1$: LHS $=1^3=1$, RHS $=1^2(2-1)=1$. True for $n=1$.\n\n**Inductive step.** Assume true for $n=k$ ($k\\ge1$): $1^3+3^3+\\dots+(2k-1)^3=k^2(2k^2-1)$.\n\nProve for $n=k+1$: $1^3+3^3+\\dots+(2k+1)^3=(k+1)^2[2(k+1)^2-1]=(k+1)^2(2k^2+4k+1)$.\n\n$$\\begin{aligned}1^3+\\dots+(2k-1)^3+(2k+1)^3&=k^2(2k^2-1)+(2k+1)^3\\quad\\text{(by assumption)}\\\\&=2k^4-k^2+8k^3+12k^2+6k+1\\\\&=2k^4+8k^3+11k^2+6k+1\\\\&=(k^2+2k+1)(2k^2+4k+1)\\\\&=(k+1)^2(2k^2+4k+1).\\end{aligned}$$\n\n(Check: $(k^2+2k+1)(2k^2+4k+1)=2k^4+4k^3+k^2+4k^3+8k^2+2k+2k^2+4k+1=2k^4+8k^3+11k^2+6k+1$.)\n\nSo the result is true for $n=k+1$ whenever it is true for $n=k$. Since it is true for $n=1$, by mathematical induction it is true for all integers $n\\ge1$."
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.4.12",
+    "12.5.2.7"
+   ],
+   "question": "Yiwei is filling a container with capacity $C$ litres, with water. The volume, $V$, in litres, of the water, $t$ minutes after Yiwei starts filling the container can be modelled using the differential equation $\\dfrac{dV}{dt}=k(C-V)$, where $k$ is a constant. If one quarter of the container is filled in the first two minutes, using separation of variables, find what fraction of the container is filled in the next two minutes.",
+   "answer": "At $t=0$, $V=0$, and $V<C$ so $|C-V|=C-V$.\n\n$$\\int_0^V\\frac{dV}{C-V}=k\\int_0^t dt\\;\\Rightarrow\\;-\\Big[\\ln(C-V)\\Big]_0^V=kt\\;\\Rightarrow\\;\\ln\\left(\\frac{C-V}{C}\\right)=-kt.$$\n\nSo $C-V=Ce^{-kt}$, i.e. $V=C\\left(1-e^{-kt}\\right)$.\n\nAt $t=2$, $V=\\frac C4$: $\\frac C4=C-Ce^{-2k}\\Rightarrow e^{-2k}=\\frac34$.\n\nAt $t=4$: $V=C-C\\left(e^{-2k}\\right)^2=C-\\frac{9C}{16}=\\frac{7C}{16}$.\n\nIn the next two minutes the volume increases by $\\frac{7C}{16}-\\frac{C}{4}=\\frac{3C}{16}$, so $\\dfrac{3}{16}$ of the container is filled in the next two minutes."
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.3.6",
+    "12.2.3.4"
+   ],
+   "question": "The diagram shows two overlapping triangles $OBC$ and $ACD$. The point $X$ is the intersection of $BC$ and $AD$. The point $A$ lies on $OC$ so that $OA:OC=1:3$. $OB$ is parallel to $CD$ (in the same direction) and $|\\overrightarrow{OB}|=2|\\overrightarrow{CD}|$. Let $\\mathbf a=\\overrightarrow{OA}$ and $\\mathbf b=\\overrightarrow{OB}$. Find $\\dfrac{|\\overrightarrow{AX}|}{|\\overrightarrow{AD}|}$.",
+   "answer": "$\\overrightarrow{OC}=3\\mathbf a$ and $\\overrightarrow{CD}=\\frac12\\mathbf b$, so\n\n$$\\overrightarrow{AD}=\\overrightarrow{AC}+\\overrightarrow{CD}=2\\mathbf a+\\tfrac12\\mathbf b,\\qquad\\overrightarrow{BC}=3\\mathbf a-\\mathbf b.$$\n\nSince $X$ lies on $AD$, $\\overrightarrow{AX}=\\lambda\\overrightarrow{AD}=2\\lambda\\mathbf a+\\frac\\lambda2\\mathbf b$. Since $X$ lies on $BC$, $\\overrightarrow{BX}=\\mu\\overrightarrow{BC}$, so\n\n$$\\overrightarrow{AX}=\\overrightarrow{AO}+\\overrightarrow{OB}+\\overrightarrow{BX}=-\\mathbf a+\\mathbf b+\\mu(3\\mathbf a-\\mathbf b)=(3\\mu-1)\\mathbf a+(1-\\mu)\\mathbf b.$$\n\nAs $\\mathbf a$ and $\\mathbf b$ are not parallel, equate components: $1-\\mu=\\frac\\lambda2$ and $3\\mu-1=2\\lambda$. Then $\\mu=1-\\frac\\lambda2$, so $3-\\frac{3\\lambda}{2}-1=2\\lambda\\Rightarrow\\frac{7\\lambda}{2}=2\\Rightarrow\\lambda=\\frac47$.\n\nHence $\\dfrac{|\\overrightarrow{AX}|}{|\\overrightarrow{AD}|}=\\dfrac47$.",
+   "images": [
+    "assets/img/ext1-2025-baulkham-hills/q14a.png"
+   ]
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.2",
+    "12.5.2.1"
+   ],
+   "question": "Two flies are sitting on a spherical balloon of radius $r$ cm, while it is being inflated at a constant rate of $5\\text{ cm}^3/\\text{s}$. The straight-line distance between the flies is $x$ cm. Assume that the balloon has no air in it to begin with and that the flies are located at the North Pole and the Equator of the balloon, as illustrated (so the radii to the two flies are perpendicular). How fast is the straight-line distance between the flies changing after 3 seconds? Give your answer correct to 2 decimal places.",
+   "answer": "By Pythagoras, $x^2=r^2+r^2$, so $x=\\sqrt2\\,r$ and $\\dfrac{dx}{dr}=\\sqrt2$. With $V=\\frac43\\pi r^3$, $\\dfrac{dV}{dr}=4\\pi r^2$, and $\\dfrac{dV}{dt}=5$.\n\n$$\\frac{dx}{dt}=\\frac{dx}{dr}\\cdot\\frac{dr}{dV}\\cdot\\frac{dV}{dt}=\\sqrt2\\times\\frac{1}{4\\pi r^2}\\times5=\\frac{5\\sqrt2}{4\\pi r^2}.$$\n\nSince the balloon starts empty, $V=5t$, so at $t=3$, $V=15$: $\\frac43\\pi r^3=15\\Rightarrow r^3=\\frac{45}{4\\pi}\\Rightarrow r=\\sqrt[3]{\\frac{45}{4\\pi}}\\approx1.5297$.\n\n$$\\frac{dx}{dt}=\\frac{5\\sqrt2}{4\\pi\\left(\\frac{45}{4\\pi}\\right)^{2/3}}=0.2404\\ldots\\approx0.24\\text{ cm/s}.$$\n\n(The paper states $x$ in metres; this is a misprint, since all other lengths are in cm.)",
+   "images": [
+    "assets/img/ext1-2025-baulkham-hills/q14b.png"
+   ]
+  },
+  {
+   "ref": "Q14(d)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.6.8",
+    "12.2.6.5"
+   ],
+   "question": "In a clay pigeon shoot, the target is launched vertically from ground level with speed $30$ m/s. After $2$ seconds the competitor, who is at ground level and located $40$ m away, fires a bullet at a speed of $50$ m/s at an angle of $\\alpha$ to the horizontal, towards the clay pigeon. Taking the position of the shooter when the bullet is fired as the origin, the positions of the bullet and the clay pigeon at time $t$ seconds after the bullet is fired are (do NOT prove these)\n\n$$\\mathbf r_B=\\begin{pmatrix}50t\\cos\\alpha\\\\50t\\sin\\alpha-5t^2\\end{pmatrix}\\ \\text{(bullet)},\\qquad\\mathbf r_C=\\begin{pmatrix}40\\\\30(t+2)-5(t+2)^2\\end{pmatrix}\\ \\text{(clay pigeon)}.$$\n\nThe bullet hits the clay pigeon. Show that this occurs $\\dfrac43$ seconds after it is fired.",
+   "answer": "Collision occurs when $\\mathbf r_B=\\mathbf r_C$.\n\nHorizontal: $50t\\cos\\alpha=40\\Rightarrow\\cos\\alpha=\\dfrac{4}{5t}$.\n\nVertical: $50t\\sin\\alpha-5t^2=30(t+2)-5(t+2)^2=30t+60-5t^2-20t-20=-5t^2+10t+40$, so $50t\\sin\\alpha=10t+40\\Rightarrow\\sin\\alpha=\\dfrac{t+4}{5t}$.\n\nUsing $\\sin^2\\alpha+\\cos^2\\alpha=1$:\n\n$$\\left(\\frac{t+4}{5t}\\right)^2+\\left(\\frac4{5t}\\right)^2=1\\;\\Rightarrow\\;t^2+8t+16+16=25t^2\\;\\Rightarrow\\;24t^2-8t-32=0\\;\\Rightarrow\\;3t^2-t-4=0.$$\n\n$(3t-4)(t+1)=0$, so $t=\\frac43$ or $t=-1$. Since $t>0$, the bullet hits the clay pigeon $\\frac43$ seconds after it is fired.",
+   "images": [
+    "assets/img/ext1-2025-baulkham-hills/q14d.png"
+   ]
+  },
+  {
+   "ref": "Q14(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.6.7",
+    "12.2.4.6"
+   ],
+   "question": "In a clay pigeon shoot, the target is launched vertically from ground level with speed $30$ m/s. After $2$ seconds a competitor $40$ m away fires a bullet at $50$ m/s at an angle $\\alpha$ to the horizontal. With the shooter as origin, at time $t$ seconds after the bullet is fired\n\n$$\\mathbf r_B=\\begin{pmatrix}50t\\cos\\alpha\\\\50t\\sin\\alpha-5t^2\\end{pmatrix}\\ \\text{(bullet)},\\qquad\\mathbf r_C=\\begin{pmatrix}40\\\\30(t+2)-5(t+2)^2\\end{pmatrix}\\ \\text{(clay pigeon)},$$\n\nand the bullet hits the clay pigeon at $t=\\frac43$, where $\\cos\\alpha=\\frac{4}{5t}$. Find the impact angle, to the nearest degree, of the bullet with the clay pigeon (the angle between the bullet's path and the clay pigeon's vertical path at impact).",
+   "answer": "$\\mathbf v_B=\\begin{pmatrix}50\\cos\\alpha\\\\50\\sin\\alpha-10t\\end{pmatrix}$. At $t=\\frac43$: $\\cos\\alpha=\\frac{4}{5}\\times\\frac34=\\frac35$, so $\\sin\\alpha=\\frac45$ ($\\alpha$ acute).\n\n$$\\mathbf v_B=\\begin{pmatrix}50\\times\\frac35\\\\50\\times\\frac45-10\\times\\frac43\\end{pmatrix}=\\begin{pmatrix}30\\\\\\frac{80}{3}\\end{pmatrix}.$$\n\nThe clay pigeon moves vertically, so find the angle between $\\mathbf v_B$ and $\\mathbf j$:\n\n$$\\cos\\theta=\\frac{\\mathbf v_B\\cdot\\mathbf j}{|\\mathbf v_B|}=\\frac{\\frac{80}{3}}{\\sqrt{30^2+\\left(\\frac{80}{3}\\right)^2}}=\\frac{80}{3}\\times\\frac{3}{10\\sqrt{145}}=\\frac{8}{\\sqrt{145}}.$$\n\n$\\theta=48.366\\ldots^\\circ$, so the bullet hits the clay pigeon at an angle of about $48^\\circ$ (to its vertical line of motion)."
+  }
+ ]
+}
