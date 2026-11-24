@@ -1,0 +1,805 @@
+{
+ "id": "adv-2026-sydney-girls",
+ "course": "advanced",
+ "school": "Sydney Girls High School",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5328",
+  "title": "Sydney Girls 2026 w. sol"
+ },
+ "indexed": "2026-11-25",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q24(a)",
+   "reason": "Not in 2024 syllabus: least-squares regression line and correlation coefficient of bivariate data"
+  },
+  {
+   "ref": "Q24(b)",
+   "reason": "Not in 2024 syllabus: interpreting the gradient of a least-squares line"
+  },
+  {
+   "ref": "Q24(c)",
+   "reason": "Not in 2024 syllabus: describing correlation strength and direction"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.9.3"
+   ],
+   "question": "The domain of the function $y=\\dfrac{\\sqrt x}{x-1}$ is?",
+   "answer": "The square root needs $x\\ge0$, and the denominator must be non-zero, so $x\ne1$. The domain is $[0,1)\\cup(1,\\infty)$ (C).",
+   "options": [
+    "$[0,\\infty)$",
+    "$(1,\\infty)$",
+    "$[0,1)\\cup(1,\\infty)$",
+    "$(0,1)\\cup(1,\\infty)$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.11.5",
+    "12.5.1.2"
+   ],
+   "question": "Consider the function $f(x)=|4+2x|$, where $-6\\le x\\le2$. Which of the following is NOT true about $f(x)$?",
+   "answer": "$f(x)=2|x+2|$ has its vertex at $(-2,0)$. $f(-6)=f(2)=8$, so the range is $0\\le y\\le8$ (A true), and the domain is symmetric about $x=-2$ (B true). The graph is a connected V, so it is continuous (C true). There is a sharp corner at $x=-2$, so it is **not** differentiable there (D is false).",
+   "options": [
+    "The range of $f(x)$ is $0\\le y\\le8$",
+    "The line $x=-2$ is an axis of symmetry of $f(x)$.",
+    "$f(x)$ is a continuous function over the entire domain $-6\\le x\\le2$.",
+    "$f(x)$ is a differentiable function over the entire domain $-6\\le x\\le2$."
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.7",
+    "11.3.1.8",
+    "11.3.1.12"
+   ],
+   "question": "Simplify $\\tan(\\pi+x)\\cos(-x)+\\cos\\left(\\dfrac\\pi2-x\\right)$.",
+   "answer": "$\\tan(\\pi+x)=\\tan x$ (period $\\pi$), $\\cos(-x)=\\cos x$ and $\\cos\\left(\\frac\\pi2-x\\right)=\\sin x$. So the expression is $\\dfrac{\\sin x}{\\cos x}\\cos x+\\sin x=2\\sin x$ (D).",
+   "options": [
+    "$-2\\sin x$",
+    "$\\sin x+\\cos x$",
+    "$0$",
+    "$2\\sin x$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.9",
+    "11.4.5.3"
+   ],
+   "question": "The graph shows the velocity of a particle that starts to move from the origin along the $t$ axis.\n\nWhich statement describes the motion of the particle at the point where $t=t_1$?",
+   "answer": "Acceleration is the gradient of the velocity graph. At $t_1$ the curve is falling, so the acceleration is negative. Displacement is the signed area between the curve and the $t$-axis up to $t_1$. The area below the axis (the large first lobe) is greater than the total area above it, so the displacement is negative (D).",
+   "options": [
+    "The displacement is positive and the acceleration is negative.",
+    "The displacement is negative and the acceleration is positive.",
+    "The displacement is positive and the acceleration is positive.",
+    "The displacement is negative and the acceleration is negative."
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/adv-2026-sydney-girls/q4.png"
+   ]
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.4.11"
+   ],
+   "question": "Which of the following graphs best represents the function $f(x)=b(x-b)(x+2b)^2$, where $b<0$?",
+   "answer": "This is a cubic with zeros at $x=b$ (single, negative) and $x=-2b$ (double, positive, so the graph touches the axis there). The leading coefficient is $b<0$, so $f\\to+\\infty$ as $x\\to-\\infty$ and $f\\to-\\infty$ as $x\\to+\\infty$. For example, with $b=-3$: $f(x)=-3(x+3)(x-6)^2$. The graph comes down from the top left through $x=b$, dips below the axis, rises to touch the axis at $x=-2b$ from below, then falls away (A).",
+   "options": [
+    "![A](assets/img/adv-2026-sydney-girls/q5a.png)",
+    "![B](assets/img/adv-2026-sydney-girls/q5b.png)",
+    "![C](assets/img/adv-2026-sydney-girls/q5c.png)",
+    "![D](assets/img/adv-2026-sydney-girls/q5d.png)"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.6",
+    "12.6.3.13"
+   ],
+   "question": "A food critic scores restaurants each year, where a positive score means the restaurant exceeded expectations and a negative score means it fell below expectations. The scores follow a normal distribution where the mean score is equal to twice the standard deviation. Scores were recorded for all restaurants reviewed over one year. What percentage of the restaurants received a score below 0?",
+   "answer": "A score of 0 is $\\mu-2\\sigma$ (since $\\mu=2\\sigma$). By the empirical rule 95% lie within 2 standard deviations, so $\\dfrac{100-95}{2}=2.5\\%$ lie below $\\mu-2\\sigma$ (C).",
+   "options": [
+    "50 %",
+    "16 %",
+    "2.5 %",
+    "0.15 %"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.3.4"
+   ],
+   "question": "At a busy cafe, 70% of customers order coffee and 45% order food. A customer who orders food has a 60% chance of also ordering coffee. A customer is chosen at random. What is the probability that they order coffee but not food?",
+   "answer": "$P(C\\cap F)=P(F)\\,P(C\\mid F)=0.45\\times0.6=0.27$. Then $P(C\\cap\\overline F)=P(C)-P(C\\cap F)=0.70-0.27=0.43$ (C).",
+   "options": [
+    "0.27",
+    "0.31",
+    "0.43",
+    "0.6"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.3.10",
+    "11.4.3.5"
+   ],
+   "question": "The functions $P(x)$, $Q(x)$ and $R(x)$ are defined for all real $x$ and the function $R(x)=P[Q(x)]$. Given that $Q(2)=5$ and $Q'(2)=8$ and $P'(5)=-3$, what is the gradient of the normal to the curve $R(x)$ at $x=2$?",
+   "answer": "Chain rule: $R'(2)=P'(Q(2))\\,Q'(2)=P'(5)\\times8=-3\\times8=-24$. The normal has gradient $-\\dfrac{1}{R'(2)}=\\dfrac1{24}$ (B).",
+   "options": [
+    "$24$",
+    "$\\dfrac1{24}$",
+    "$-\\dfrac1{24}$",
+    "$-24$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.3.7",
+    "11.5.2.9"
+   ],
+   "question": "Find all real values of $x$ satisfying:\n$$\\log_2(x)-1=\\dfrac{3-\\log_2x}{2}+\\left(\\dfrac{3-\\log_2x}{2}\\right)^2+\\left(\\dfrac{3-\\log_2x}{2}\\right)^3+\\cdots$$",
+   "answer": "Let $t=\\log_2x$. The right side is a GP with $a=r=\\dfrac{3-t}{2}$, which converges only when $|r|<1$, i.e. $1<t<5$. Then\n$$t-1=\\dfrac{(3-t)/2}{1-(3-t)/2}=\\dfrac{3-t}{t-1}\\Rightarrow(t-1)^2=3-t\\Rightarrow t^2-t-2=0\\Rightarrow t=2\\text{ or }t=-1.$$\n$t=-1$ is outside $1<t<5$, so reject it. $t=2$ gives $x=2^2=4$ (A).",
+   "options": [
+    "$x=4$",
+    "$x=\\dfrac12$",
+    "$x=\\dfrac12,\\ x=4$",
+    "$x=2,\\ x=4$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.6.1.1",
+    "11.1.9.8"
+   ],
+   "question": "The graphs of $y=f(x)$ and $y=g(x)$ are sketched on the same set of axes below. Which of the following could be the graph of $y=g(f(x))$?",
+   "answer": "$f$ is the line $y=-x$, so $g(f(x))=g(-x)$, the reflection of $g$ in the $y$-axis. The original $g$ has its deeper minimum on the left and its higher maximum on the right of the $y$-axis, so after reflecting, the deeper minimum is on the right and the higher maximum is on the left (C).",
+   "options": [
+    "![A](assets/img/adv-2026-sydney-girls/q10a.png)",
+    "![B](assets/img/adv-2026-sydney-girls/q10b.png)",
+    "![C](assets/img/adv-2026-sydney-girls/q10c.png)",
+    "![D](assets/img/adv-2026-sydney-girls/q10d.png)"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/adv-2026-sydney-girls/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.6",
+    "12.2.2.5"
+   ],
+   "question": "The first term of an arithmetic series is $-7$ and the sum of the first 20 terms is 430. Find the common difference.",
+   "answer": "$S_{20}=\\dfrac{20}{2}\\left[2(-7)+19d\\right]=430\\Rightarrow-14+19d=43\\Rightarrow19d=57\\Rightarrow d=3.$"
+  },
+  {
+   "ref": "Q12",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.6.1.8"
+   ],
+   "question": "Find the coordinates of the centre and the radius of the circle with equation $x^2+y^2-8x+10y+5=0$.",
+   "answer": "Complete the square: $(x-4)^2+(y+5)^2=-5+16+25=36$.\n\nCentre $(4,-5)$, radius $6$."
+  },
+  {
+   "ref": "Q13",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.7.3",
+    "12.4.8.1"
+   ],
+   "question": "Evaluate the definite integral below, leaving your answer in exact form.\n$$\\int_0^{\\pi/4}\\sin(2x)\\,e^{\\cos2x}\\,dx$$",
+   "answer": "$\\dfrac{d}{dx}e^{\\cos2x}=-2\\sin2x\\,e^{\\cos2x}$, so\n$$\\int_0^{\\pi/4}\\sin2x\\,e^{\\cos2x}dx=\\left[-\\tfrac12e^{\\cos2x}\\right]_0^{\\pi/4}=-\\tfrac12\\left(e^{0}-e^{1}\\right)=\\tfrac12(e-1).$$"
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.3",
+    "11.5.2.9"
+   ],
+   "question": "Differentiate $y=\\ln\\sqrt x$ with respect to $x$.",
+   "answer": "$y=\\ln x^{1/2}=\\tfrac12\\ln x$, so $y'=\\dfrac1{2x}$."
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.4",
+    "11.4.3.8"
+   ],
+   "question": "Differentiate $y=x^2e^{-x}$ with respect to $x$.",
+   "answer": "Product rule with $u=x^2$, $v=e^{-x}$: $y'=x^2(-e^{-x})+e^{-x}(2x)=xe^{-x}(2-x).$"
+  },
+  {
+   "ref": "Q15",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.1.12"
+   ],
+   "question": "Prove that $\\dfrac{\\sin\\theta}{1-\\cos\\theta}-\\dfrac{\\sin\\theta}{1+\\cos\\theta}=2\\cot\\theta$.",
+   "answer": "$$\\text{LHS}=\\dfrac{\\sin\\theta(1+\\cos\\theta)-\\sin\\theta(1-\\cos\\theta)}{(1-\\cos\\theta)(1+\\cos\\theta)}=\\dfrac{2\\sin\\theta\\cos\\theta}{1-\\cos^2\\theta}=\\dfrac{2\\sin\\theta\\cos\\theta}{\\sin^2\\theta}=2\\cot\\theta=\\text{RHS}.$$"
+  },
+  {
+   "ref": "Q16",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.8.11",
+    "11.4.5.3"
+   ],
+   "question": "The graph below shows the velocity (in metres per second) of a particle over a 5 second period. The particle reaches its lowest velocity of 5 m/s after 3 seconds.\n\nUse the trapezoidal rule with 5 applications to determine an estimate for the distance the particle has travelled over the 5 seconds.",
+   "answer": "Distance is the area under the velocity graph. Read $v$ at $t=0,1,2,3,4,5$: $10,\\ 10,\\ 20,\\ 5,\\ 20,\\ 10$. With $h=1$:\n$$D\\approx\\dfrac12\\left[10+10+2(10+20+5+20)\\right]=\\dfrac12(130)=65\\text{ m}.$$",
+   "images": [
+    "assets/img/adv-2026-sydney-girls/q16.png"
+   ]
+  },
+  {
+   "ref": "Q17",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.2.9"
+   ],
+   "question": "Solve the following equation for $x$: $2\\log_2x-\\log_2(x+3)=2$.",
+   "answer": "$\\log_2\\dfrac{x^2}{x+3}=2\\Rightarrow\\dfrac{x^2}{x+3}=4\\Rightarrow x^2-4x-12=0\\Rightarrow(x-6)(x+2)=0.$\n\nThe logarithm of $x$ requires $x>0$, so reject $x=-2$.\n\n$$x=6.$$"
+  },
+  {
+   "ref": "Q18(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "Katie starts riding her bike from her house $H$. She rides 4 km on a bearing of $320^\\circ$ to the park $P$ then rides 5 km on a bearing of $250^\\circ$ to the beach $B$.\n\nUse the diagram to show that angle $HPB$ is $110^\\circ$. No geometric reasoning is required.",
+   "answer": "$P$ is on a bearing of $320^\\circ$ from $H$, so $H$ is on the reverse bearing $320^\\circ-180^\\circ=140^\\circ$ from $P$. Katie rides on from $P$ to $B$ on a bearing of $250^\\circ$. Both bearings are measured from the north line at $P$, so $\\angle HPB=250^\\circ-140^\\circ=110^\\circ$ (equivalently $70^\\circ+40^\\circ$, using the alternate angles with the two north lines).",
+   "images": [
+    "assets/img/adv-2026-sydney-girls/q18.png"
+   ]
+  },
+  {
+   "ref": "Q18(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "Katie rides 4 km from $H$ to $P$ then 5 km from $P$ to $B$, with $\\angle HPB=110^\\circ$. Find the distance $BH$, correct to 3 decimal places.",
+   "answer": "Cosine rule: $BH^2=5^2+4^2-2(5)(4)\\cos110^\\circ=41-40\\cos110^\\circ\\approx54.681$, so $BH\\approx7.395$ km.",
+   "images": [
+    "assets/img/adv-2026-sydney-girls/q18.png"
+   ]
+  },
+  {
+   "ref": "Q18(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.10",
+    "11.2.2.8"
+   ],
+   "question": "Katie rides 4 km from $H$ to $P$ then 5 km from $P$ to $B$, with $\\angle HPB=110^\\circ$ and $BH=7.395$ km. Hence, find the bearing of Katie's house $H$ from the beach $B$, to the nearest minute.",
+   "answer": "In $\\triangle PBH$: $\\cos\\angle PBH=\\dfrac{BH^2+5^2-4^2}{2\\times BH\\times5}=\\dfrac{54.681+9}{73.95}\\approx0.8612$, so $\\angle PBH\\approx30^\\circ33'$.\n\nThe bearing of $P$ from $B$ is $250^\\circ-180^\\circ=70^\\circ$, and $H$ lies clockwise from $P$ as seen from $B$, so the bearing of $H$ from $B$ is $70^\\circ+30^\\circ33'=100^\\circ33'$.",
+   "images": [
+    "assets/img/adv-2026-sydney-girls/q18.png"
+   ]
+  },
+  {
+   "ref": "Q19(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.11.5"
+   ],
+   "question": "The diagram shows the graph of $y=|2x-k|$ for some constant $k$. On the diagram, mark in terms of $k$ the intercepts on the axes.",
+   "answer": "$x$-intercept: $2x-k=0\\Rightarrow x=\\dfrac k2$, so $\\left(\\dfrac k2,0\\right)$ (this is also the vertex).\n\n$y$-intercept: $y=|-k|=k$ (taking $k>0$ as in the graph), so $(0,k)$.",
+   "images": [
+    "assets/img/adv-2026-sydney-girls/q19.png"
+   ],
+   "answer_images": [
+    "assets/img/adv-2026-sydney-girls/a19.png"
+   ]
+  },
+  {
+   "ref": "Q19(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.11.5",
+    "11.6.1.6"
+   ],
+   "question": "On the same diagram as $y=|2x-k|$, sketch the function $y=k-|2x-k|$ showing in terms of $k$ any intercepts on the axes and the coordinates of the vertex.",
+   "answer": "$y=k-|2x-k|$ is $y=|2x-k|$ reflected in the $x$-axis and translated up $k$ units, so it is an inverted V with vertex $\\left(\\dfrac k2,k\\right)$.\n\n$y$-intercept: $y=k-k=0$, so $(0,0)$.\n\n$x$-intercepts: $|2x-k|=k\\Rightarrow x=0$ or $x=k$, so $(0,0)$ and $(k,0)$.",
+   "images": [
+    "assets/img/adv-2026-sydney-girls/q19.png"
+   ],
+   "answer_images": [
+    "assets/img/adv-2026-sydney-girls/a19.png"
+   ]
+  },
+  {
+   "ref": "Q20(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.8"
+   ],
+   "question": "After a patient receives an injection, the concentration of the drug $C(t)$ in their bloodstream (in mg/L) is modelled by $C(t)=Ae^{-0.14t}$, where $t$ is the time in hours after the injection. A doctor measures the concentration to be 12.5 mg/L exactly 4 hours after the injection. Find the initial concentration $A$ at the time of injection, correct to one decimal place.",
+   "answer": "$12.5=Ae^{-0.14\\times4}\\Rightarrow A=12.5e^{0.56}\\approx21.9$ mg/L."
+  },
+  {
+   "ref": "Q20(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.8",
+    "11.5.2.9"
+   ],
+   "question": "The concentration of a drug is modelled by $C(t)=Ae^{-0.14t}$ with $A=12.5e^{0.56}\\approx21.9$ mg/L. The drug becomes ineffective when the concentration falls below 2 mg/L. Find the time $t$ after the injection at which the drug becomes ineffective. Give your answer to the nearest minute.",
+   "answer": "$C(t)<2\\Rightarrow e^{-0.14t}<\\dfrac{2}{A}\\Rightarrow-0.14t<\\ln\\dfrac2A\\Rightarrow t>\\dfrac{\\ln(A/2)}{0.14}\\approx17.0899$ hours, which is 17 h 5.4 min.\n\nThe drug is still effective at 17 h 5 min, so it becomes ineffective after 17 h 6 min.\n\n$$t\\approx17\\text{ hours }6\\text{ minutes (1026 minutes)}.$$\n\nNote: strict rounding of 17 h 5.4 min to the nearest minute gives 17 h 5 min; the school's marking accepts only 17 h 6 min, because the drug is still effective at 17 h 5 min."
+  },
+  {
+   "ref": "Q21(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.2",
+    "12.7.2.4"
+   ],
+   "question": "A table of future values for an annuity of \\$1 is shown below.\n\nSam contributes \\$3,000 at the end of each quarter into his superannuation account, which earns interest at 6% p.a. compounded quarterly, for 2 years. What is the total amount of interest earned?",
+   "answer": "The rate is $6\\%/4=1.5\\%$ per quarter for $2\\times4=8$ periods. The table factor is $8.4328$.\n\nFuture value $=3000\\times8.4328=\\$25\\,298.40$.\n\nTotal contributions $=3000\\times8=\\$24\\,000$.\n\nInterest $=25\\,298.40-24\\,000=\\$1298.40$.",
+   "images": [
+    "assets/img/adv-2026-sydney-girls/q21.png"
+   ]
+  },
+  {
+   "ref": "Q21(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.2",
+    "12.7.2.4"
+   ],
+   "question": "Using the table of future values for an annuity of \\$1: Elena makes equal contributions of $\\$M$ at the end of every six months into her investment account, which earns interest at 4% p.a. compounded six-monthly. What is the value of $M$ if the future value is \\$37 848.60 after 3 years?",
+   "answer": "The rate is $2\\%$ per period for $6$ periods. The table factor is $6.3081$.\n\n$M\\times6.3081=37\\,848.60\\Rightarrow M=\\$6000$.",
+   "images": [
+    "assets/img/adv-2026-sydney-girls/q21.png"
+   ]
+  },
+  {
+   "ref": "Q22(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "The water level of a harbour rises and falls according to changes in the tide. The harbour's water level can be modelled by $h(t)=A\\cos(Bt)+13$, where $h$ is the water level in metres above the seabed and $t$ is the number of hours after 8 am on a Saturday. At 8 am during a low tide, the water level is 10 m. At 2 pm during a high tide, the water level is 16 m. The graph shows the changes in water level over the 16-hour period.\n\nFind the values of $A$ and $B$.",
+   "answer": "At $t=0$: $A\\cos0+13=10\\Rightarrow A=-3$.\n\nThe high tide at 2 pm is $t=6$: $-3\\cos6B+13=16\\Rightarrow\\cos6B=-1\\Rightarrow6B=\\pi\\Rightarrow B=\\dfrac\\pi6$ (period 12 hours).\n\n$A=-3$, $B=\\dfrac\\pi6$.",
+   "images": [
+    "assets/img/adv-2026-sydney-girls/q22.png"
+   ]
+  },
+  {
+   "ref": "Q22(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.1.3"
+   ],
+   "question": "The harbour's water level is modelled by $h(t)=-3\\cos\\left(\\dfrac{\\pi t}{6}\\right)+13$, where $t$ is the number of hours after 8 am on a Saturday, for $0\\le t\\le16$. Serena's ship requires the water level to be at least 11.5 m to enter safely. At what times between 8 am and midnight on Saturday could Serena safely enter the harbour?",
+   "answer": "$-3\\cos\\dfrac{\\pi t}{6}+13\\ge11.5\\Rightarrow\\cos\\dfrac{\\pi t}{6}\\le\\dfrac12$.\n\nFor $0\\le t\\le12$: $\\dfrac\\pi3\\le\\dfrac{\\pi t}6\\le\\dfrac{5\\pi}3$, so $2\\le t\\le10$.\n\nThe next cycle starts at $t=12$: $14\\le t\\le22$, restricted to $t\\le16$, giving $14\\le t\\le16$.\n\nSerena can enter between **10 am and 6 pm**, and between **10 pm and midnight**.",
+   "images": [
+    "assets/img/adv-2026-sydney-girls/q22.png"
+   ]
+  },
+  {
+   "ref": "Q23",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.2.3.7",
+    "11.2.3.8",
+    "11.2.2.10"
+   ],
+   "question": "The triangle $COD$ is inside a sector that has a central angle of $\\dfrac{2\\pi}{3}$, as shown in the diagram. The lengths of the sector and triangle are as follows: $DC=8\\sqrt3$, $AC=BD$, $OC=2AC$.\n\nFind the exact area of the shaded region.",
+   "answer": "Let $AC=BD=a$. Then $OC=2a$ and the radius is $OA=OB=3a$, so $OD=3a-a=2a$.\n\nCosine rule in $\\triangle COD$: $(8\\sqrt3)^2=(2a)^2+(2a)^2-2(2a)(2a)\\cos\\dfrac{2\\pi}{3}=8a^2+4a^2=12a^2$, so $192=12a^2$, $a=4$.\n\nRadius $=3a=12$. Sector area $=\\dfrac12(12)^2\\dfrac{2\\pi}3=48\\pi$. Triangle area $=\\dfrac12(8)(8)\\sin\\dfrac{2\\pi}3=16\\sqrt3$.\n\n$$\\text{Shaded area}=48\\pi-16\\sqrt3\\text{ cm}^2.$$",
+   "images": [
+    "assets/img/adv-2026-sydney-girls/q23.png"
+   ]
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.3"
+   ],
+   "question": "$ABC$ is a right-angled triangle at $A$. The point $D$ lies on the hypotenuse $BC$ such that $BD=x$ and $DC=1$ km. The point $E$ lies on $AC$ such that $DE$ is parallel to $BA$ and $DE=x$ km. It is given that $\\dfrac{CA}{CE}=\\dfrac{CB}{CD}$.\n\nShow that the length of side $AC$ is $L=(1+x)\\sqrt{1-x^2}$.",
+   "answer": "$CB=CD+DB=1+x$, so $\\dfrac{CA}{CE}=\\dfrac{1+x}{1}$ and $CA=(1+x)\\,CE$.\n\n$DE\\parallel BA$ and $BA\\perp AC$, so $\\angle CED=90^\\circ$. In right-angled $\\triangle CED$: $CE^2=CD^2-DE^2=1-x^2$, so $CE=\\sqrt{1-x^2}$.\n\nHence $L=AC=(1+x)\\sqrt{1-x^2}$.",
+   "images": [
+    "assets/img/adv-2026-sydney-girls/q25.png"
+   ]
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.5.2.5"
+   ],
+   "question": "With $L=(1+x)\\sqrt{1-x^2}$ for $0<x<1$, find the exact maximum length $L$ of side $AC$. Use mathematical reasoning to justify that this is the maximum length of $L$.",
+   "answer": "Since $L>0$, $L$ is maximised when $L^2=(1+x)^2(1-x^2)=(1+x)^3(1-x)$ is.\n\n$\\dfrac{d(L^2)}{dx}=3(1+x)^2(1-x)-(1+x)^3=(1+x)^2(2-4x)=0\\Rightarrow x=\\dfrac12$ (as $x>-1$).\n\nFor $x<\\dfrac12$, $\\dfrac{d(L^2)}{dx}>0$ and for $x>\\dfrac12$ it is negative (the factor $(1+x)^2$ is positive and $2-4x$ changes sign), so $x=\\dfrac12$ is a maximum. At the endpoints $L(0)=1$ and $L(1)=0$, both less than the value at $x=\\frac12$.\n\n$$L_{\\max}=\\dfrac32\\sqrt{1-\\dfrac14}=\\dfrac{3\\sqrt3}{4}\\text{ km}\\approx1.30\\text{ km}.$$",
+   "images": [
+    "assets/img/adv-2026-sydney-girls/q25.png"
+   ]
+  },
+  {
+   "ref": "Q26(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.4",
+    "12.5.1.8",
+    "12.3.1.4"
+   ],
+   "question": "Consider the function $f(x)=xe^{-x/2}$. Find all stationary points and determine their nature.",
+   "answer": "$f'(x)=e^{-x/2}-\\dfrac x2e^{-x/2}=e^{-x/2}\\left(1-\\dfrac x2\\right)$. Since $e^{-x/2}>0$, $f'(x)=0$ when $x=2$, and $f(2)=2e^{-1}=\\dfrac2e$.\n\n$f''(x)=e^{-x/2}\\left(\\dfrac x4-1\\right)$, so $f''(2)=-\\dfrac1{2e}<0$.\n\nThe only stationary point is the local (and global) maximum $\\left(2,\\dfrac2e\\right)$."
+  },
+  {
+   "ref": "Q26(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.6",
+    "12.5.1.7"
+   ],
+   "question": "Consider the function $f(x)=xe^{-x/2}$, with $f''(x)=e^{-x/2}\\left(\\dfrac x4-1\\right)$. Find any points of inflection.",
+   "answer": "$f''(x)=0\\Rightarrow x=4$. For $x<4$, $f''<0$ and for $x>4$, $f''>0$, so the concavity changes. $f(4)=4e^{-2}$.\n\nThe point of inflection is $\\left(4,\\dfrac4{e^2}\\right)$."
+  },
+  {
+   "ref": "Q26(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.9"
+   ],
+   "question": "Sketch $y=xe^{-x/2}$ labelling all key features.",
+   "answer": "Key features: passes through the origin ($x$-intercept and $y$-intercept); local maximum $\\left(2,\\dfrac2e\\right)\\approx(2,0.74)$; point of inflection $\\left(4,\\dfrac{4}{e^2}\\right)\\approx(4,0.54)$; $f(x)<0$ for $x<0$ and $f\\to-\\infty$ as $x\\to-\\infty$; the $x$-axis is a horizontal asymptote as $x\\to\\infty$ (with $f>0$).",
+   "answer_images": [
+    "assets/img/adv-2026-sydney-girls/a26.png"
+   ]
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.10",
+    "12.6.3.13",
+    "12.6.3.14"
+   ],
+   "question": "The table below shows the probability that a random variable $z$ is less than $Z$.\n\nFor a particular airline, the number of minutes that the arrival time of a flight varies from its scheduled arrival time is normally distributed. A negative $x$ score indicates that the flight arrived early, and a positive $x$ score indicates that the flight arrived late.\n\nFor this airline, 30.85% of flights arrive more than 6 minutes early, while 2.28% of flights arrive more than 14 minutes late. Find the mean and standard deviation of this distribution.",
+   "answer": "From the table, $P(z<-0.5)=0.3085$, so a time of $-6$ minutes has $z=-0.5$. Also $P(z<2)=0.9772$, so $P(z>2)=0.0228$ and a time of $+14$ minutes has $z=2$.\n\n$\\dfrac{-6-\\mu}{\\sigma}=-0.5$ and $\\dfrac{14-\\mu}{\\sigma}=2$. Subtracting: $\\dfrac{20}{\\sigma}=2.5\\Rightarrow\\sigma=8$. Then $\\mu=14-2(8)=-2$.\n\nMean $=-2$ minutes (2 minutes early), standard deviation $=8$ minutes.",
+   "images": [
+    "assets/img/adv-2026-sydney-girls/q27.png"
+   ]
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.10",
+    "12.6.3.13"
+   ],
+   "question": "Using the same airline distribution (mean $-2$ minutes, standard deviation $8$ minutes, using the table of $P(z<Z)$ above): Effie is on a flight that has a scheduled arrival time of 16:14. Using the table, determine the percentage chance that her flight will arrive before 16:00. Give your answer correct to two decimal places.",
+   "answer": "Arriving before 16:00 means arriving more than 14 minutes early, i.e. $x<-14$. $z=\\dfrac{-14-(-2)}{8}=-1.5$.\n\n$P(z<-1.5)=0.0668$ from the table.\n\nThe chance is $6.68\\%$.",
+   "images": [
+    "assets/img/adv-2026-sydney-girls/q27.png"
+   ]
+  },
+  {
+   "ref": "Q28(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.9",
+    "11.4.5.3"
+   ],
+   "question": "A particle $P$ starts from a point $O$ and moves along a horizontal straight line. Its velocity $v$ after $t$ seconds is given by $v(t)=\\begin{cases}4t-1,&0\\le t\\le1\\\\3\\sqrt t,&1<t\\le9\\end{cases}$\n\nDoes the particle ever change direction? Justify your answer fully.",
+   "answer": "For $0\\le t\\le1$: $v=4t-1=0$ at $t=\\dfrac14$. $v<0$ for $0\\le t<\\dfrac14$ and $v>0$ for $\\dfrac14<t\\le1$ (for example $v(0)=-1$, $v(1)=3$). So the velocity changes from negative to positive and the particle changes direction at $t=\\dfrac14$.\n\nFor $1<t\\le9$: $v=3\\sqrt t>0$, so the particle keeps moving in the positive direction.\n\nThe particle changes direction exactly once, at $t=\\dfrac14$ s."
+  },
+  {
+   "ref": "Q28(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.10",
+    "12.4.8.4"
+   ],
+   "question": "A particle moves with velocity $v(t)=\\begin{cases}4t-1,&0\\le t\\le1\\\\3\\sqrt t,&1<t\\le9\\end{cases}$ and changes direction at $t=\\dfrac14$. Find the total distance travelled by the particle in the first 9 seconds.",
+   "answer": "Split at the change of direction:\n$$D=\\left|\\int_0^{1/4}(4t-1)dt\\right|+\\int_{1/4}^{1}(4t-1)dt+\\int_1^93\\sqrt t\\,dt.$$\n$\\left[2t^2-t\\right]_0^{1/4}=\\dfrac18-\\dfrac14=-\\dfrac18$, a distance of $\\dfrac18$.\n\n$\\left[2t^2-t\\right]_{1/4}^1=1-\\left(-\\dfrac18\\right)=\\dfrac98$.\n\n$\\left[2t^{3/2}\\right]_1^9=2(27-1)=52$.\n\n$$D=\\dfrac18+\\dfrac98+52=\\dfrac{213}{4}=53.25\\text{ m}.$$"
+  },
+  {
+   "ref": "Q28(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.10",
+    "12.4.8.4"
+   ],
+   "question": "Particle $P$ has velocity $v(t)=\\begin{cases}4t-1,&0\\le t\\le1\\\\3\\sqrt t,&1<t\\le9\\end{cases}$ from $O$. At $t=0$ a second particle $Q$ starts from the same point $O$ and moves along the same line with velocity $w(t)=kt$, where $k$ is a positive constant. Given that $P$ and $Q$ have the same displacement from $O$ at $t=9$, find the value of $k$.",
+   "answer": "Displacement of $P$: $\\displaystyle\\int_0^1(4t-1)dt+\\int_1^93\\sqrt t\\,dt=\\left[2t^2-t\\right]_0^1+52=1+52=53$.\n\nDisplacement of $Q$: $\\displaystyle\\int_0^9kt\\,dt=\\dfrac{81}{2}k$.\n\n$\\dfrac{81}{2}k=53\\Rightarrow k=\\dfrac{106}{81}\\approx1.31$."
+  },
+  {
+   "ref": "Q29(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.1.3",
+    "11.3.1.10"
+   ],
+   "question": "Find the $x$ coordinates of the points of intersection of $y=-3\\cos x$ and $y=\\tan x$ for $-\\pi\\le x\\le\\pi$. Give answers to 2 decimal places.",
+   "answer": "$-3\\cos x=\\dfrac{\\sin x}{\\cos x}\\Rightarrow-3\\cos^2x=\\sin x\\Rightarrow-3(1-\\sin^2x)=\\sin x\\Rightarrow3\\sin^2x-\\sin x-3=0.$\n\n$\\sin x=\\dfrac{1\\pm\\sqrt{37}}{6}$. $\\dfrac{1+\\sqrt{37}}6\\approx1.18>1$ is impossible, so $\\sin x=\\dfrac{1-\\sqrt{37}}6\\approx-0.847$.\n\nIn $-\\pi\\le x\\le\\pi$ (radians): $x=\\sin^{-1}(-0.847)\\approx-1.01$ and $x=-\\pi-(-1.01)\\approx-2.13$.\n\n$$x\\approx-2.13\\text{ and }x\\approx-1.01.$$"
+  },
+  {
+   "ref": "Q29(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.2",
+    "12.1.1.3"
+   ],
+   "question": "For $-\\pi\\le x\\le\\pi$, sketch the graph of the equations $y=-3\\cos x$ and $y=\\tan x$ on the same set of axes.",
+   "answer": "$y=-3\\cos x$ is an inverted cosine of amplitude 3: $(-\\pi,3)$, $(0,-3)$, $(\\pi,3)$ and zeros at $\\pm\\dfrac\\pi2$. $y=\\tan x$ passes through the origin with vertical asymptotes at $x=\\pm\\dfrac\\pi2$. The curves meet at the two points found in (a), $x\\approx-2.13$ and $x\\approx-1.01$ (both at $y\\approx\\pm1.59$).",
+   "answer_images": [
+    "assets/img/adv-2026-sydney-girls/a29.png"
+   ]
+  },
+  {
+   "ref": "Q29(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.8.5",
+    "12.4.8.6"
+   ],
+   "question": "Hence, find the area enclosed between the two curves $y=-3\\cos x$ and $y=\\tan x$ and the $y$-axis. Give your answer to 2 decimal places.",
+   "answer": "The enclosed region lies between $x\\approx-1.01$ (the intersection nearest the $y$-axis) and $x=0$, with $\\tan x$ above $-3\\cos x$ (e.g. at $x=-0.5$: $\\tan x=-0.55$, $-3\\cos x=-2.63$).\n$$A=\\int_{-1.01}^0\\left(\\tan x+3\\cos x\\right)dx=\\Big[-\\ln|\\cos x|+3\\sin x\\Big]_{-1.01}^0.$$\nAt $0$: $0$. At $-1.01$: $-\\ln(0.532)+3\\sin(-1.01)=0.631-2.541=-1.910$.\n\n$$A\\approx0-(-1.91)=1.91\\text{ square units}.$$"
+  },
+  {
+   "ref": "Q30(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.4",
+    "11.4.3.8"
+   ],
+   "question": "The duration of telemarketing calls to mobile phone users is a continuous random variable $t$ hours, with probability density function $f(t)=\\begin{cases}at\\sin\\left(\\dfrac\\pi2t\\right),&0\\le t\\le1\\\\0,&\\text{otherwise}\\end{cases}$\n\nShow that $\\dfrac{d}{dt}\\left(\\dfrac4{\\pi^2}\\sin\\dfrac\\pi2t-\\dfrac2\\pi t\\cos\\dfrac\\pi2t\\right)=t\\sin\\dfrac\\pi2t$.",
+   "answer": "$\\dfrac d{dt}\\left(\\dfrac4{\\pi^2}\\sin\\dfrac\\pi2t\\right)=\\dfrac4{\\pi^2}\\cdot\\dfrac\\pi2\\cos\\dfrac\\pi2t=\\dfrac2\\pi\\cos\\dfrac\\pi2t$.\n\nProduct rule: $\\dfrac d{dt}\\left(\\dfrac2\\pi t\\cos\\dfrac\\pi2t\\right)=\\dfrac2\\pi\\cos\\dfrac\\pi2t+\\dfrac2\\pi t\\left(-\\dfrac\\pi2\\sin\\dfrac\\pi2t\\right)=\\dfrac2\\pi\\cos\\dfrac\\pi2t-t\\sin\\dfrac\\pi2t$.\n\nSubtracting: $\\dfrac2\\pi\\cos\\dfrac\\pi2t-\\dfrac2\\pi\\cos\\dfrac\\pi2t+t\\sin\\dfrac\\pi2t=t\\sin\\dfrac\\pi2t$ ✓."
+  },
+  {
+   "ref": "Q30(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.6",
+    "12.6.2.9"
+   ],
+   "question": "For the PDF $f(t)=at\\sin\\left(\\dfrac\\pi2t\\right)$ on $0\\le t\\le1$, and using part (a), show that $a=\\dfrac{\\pi^2}{4}$.",
+   "answer": "The total area is 1: $a\\displaystyle\\int_0^1t\\sin\\dfrac\\pi2t\\,dt=a\\left[\\dfrac4{\\pi^2}\\sin\\dfrac\\pi2t-\\dfrac2\\pi t\\cos\\dfrac\\pi2t\\right]_0^1=a\\left(\\dfrac4{\\pi^2}-0\\right)=1$ (the lower limit gives 0).\n\nSo $a=\\dfrac{\\pi^2}4$."
+  },
+  {
+   "ref": "Q30(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.2.9",
+    "12.4.8.1"
+   ],
+   "question": "For the PDF $f(t)=\\dfrac{\\pi^2}4t\\sin\\dfrac\\pi2t$ on $0\\le t\\le1$ (in hours), show that the probability that a call lasts for more than 30 minutes is $1-\\dfrac1{\\sqrt2}+\\dfrac\\pi{4\\sqrt2}$.",
+   "answer": "$P\\left(t>\\tfrac12\\right)=\\dfrac{\\pi^2}4\\displaystyle\\int_{1/2}^1t\\sin\\dfrac\\pi2t\\,dt=\\dfrac{\\pi^2}4\\left[\\dfrac4{\\pi^2}\\sin\\dfrac\\pi2t-\\dfrac2\\pi t\\cos\\dfrac\\pi2t\\right]_{1/2}^1=\\left[\\sin\\dfrac\\pi2t-\\dfrac\\pi2t\\cos\\dfrac\\pi2t\\right]_{1/2}^1.$\n\nAt $t=1$: $1-0=1$. At $t=\\frac12$: $\\sin\\dfrac\\pi4-\\dfrac\\pi4\\cos\\dfrac\\pi4=\\dfrac1{\\sqrt2}-\\dfrac{\\pi}{4\\sqrt2}$.\n\n$P=1-\\dfrac1{\\sqrt2}+\\dfrac\\pi{4\\sqrt2}$ ✓ ($\\approx0.848$)."
+  },
+  {
+   "ref": "Q30(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 5,
+   "dotpoints": [
+    "11.7.3.7",
+    "12.6.3.6"
+   ],
+   "question": "The telemarketing company also surveys customers on how the call made them feel, rating their experience from 1 (very negative) to 5 (very positive). The survey results were normally distributed with a mean of 3 and a standard deviation of 0.5. The probability that a call received a rating of 2 or lower given that the call lasted more than 30 minutes is 1.5%. Use the empirical rule when required.\n\nFind the probability that a call lasted more than 30 minutes, given that the customer gave a rating of 2 or lower.",
+   "answer": "A rating of 2 is $\\mu-2\\sigma$, so by the empirical rule $P(\\text{rating}\\le2)=\\dfrac{1-0.95}{2}=0.025$.\n\n$P(\\text{rating}\\le2\\mid\\text{call}>30)=0.015$, so $P(\\text{call}>30\\cap\\text{rating}\\le2)=0.015\\times P(\\text{call}>30)=0.015\\left(1-\\dfrac1{\\sqrt2}+\\dfrac\\pi{4\\sqrt2}\\right)\\approx0.01272$.\n\n$$P(\\text{call}>30\\mid\\text{rating}\\le2)=\\dfrac{0.01272}{0.025}\\approx0.509=50.9\\%.$$"
+  },
+  {
+   "ref": "Q31(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.1.1",
+    "12.2.3.5"
+   ],
+   "question": "Elsha is planning to save \\$110 000 over 5 years by depositing her monthly salary of $\\$M$ at the beginning of each month into a savings account. The account pays interest at 6% p.a. compounded monthly. She will need to withdraw \\$500 at the end of each month to cover her living expenses. Let $A_n$ represent the balance in the account at the end of month $n$.\n\nShow that at the end of the second month, immediately after making her \\$500 withdrawal, the balance is given by $A_2=M(1.005^2+1.005)-500(1.005+1)$.",
+   "answer": "The monthly rate is $6\\%/12=0.5\\%$.\n\n$A_1=M(1.005)-500$.\n\nAt the start of month 2 the balance is $A_1+M$, which grows for a month and then \\$500 is withdrawn:\n$A_2=(A_1+M)(1.005)-500=\\left(M(1.005)-500+M\\right)(1.005)-500=M(1.005^2+1.005)-500(1.005)-500=M(1.005^2+1.005)-500(1.005+1)$ ✓."
+  },
+  {
+   "ref": "Q31(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.1.1",
+    "12.2.3.5"
+   ],
+   "question": "Show that $A_n=201M\\left(1.005^n-1\\right)-100\\,000\\left(1.005^n-1\\right)$ (using the setup in part (a): deposits of $\\$M$ at the start of each month, a \\$500 withdrawal at the end of each month, and 0.5% interest per month).",
+   "answer": "Continuing the pattern from (a): $A_n=M\\left(1.005^n+1.005^{n-1}+\\cdots+1.005\\right)-500\\left(1.005^{n-1}+1.005^{n-2}+\\cdots+1\\right)$.\n\nThe first bracket is a GP with first term $1.005$, ratio $1.005$ and $n$ terms: $\\dfrac{1.005\\left(1.005^n-1\\right)}{0.005}=201\\left(1.005^n-1\\right)$.\n\nThe second bracket is a GP with first term $1$, ratio $1.005$ and $n$ terms: $\\dfrac{1.005^n-1}{0.005}=200\\left(1.005^n-1\\right)$, and $500\\times200=100\\,000$.\n\n$$A_n=201M\\left(1.005^n-1\\right)-100\\,000\\left(1.005^n-1\\right).$$"
+  },
+  {
+   "ref": "Q31(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.1.3"
+   ],
+   "question": "Using $A_n=201M\\left(1.005^n-1\\right)-100\\,000\\left(1.005^n-1\\right)$, calculate Elsha's monthly salary $\\$M$ so that she has \\$110 000 after 5 years. Give your answer to the nearest cent.",
+   "answer": "$n=5\\times12=60$ and $A_{60}=110\\,000$:\n$$M=\\dfrac{110\\,000+100\\,000\\left(1.005^{60}-1\\right)}{201\\left(1.005^{60}-1\\right)}\\approx\\$2066.28.$$"
+  },
+  {
+   "ref": "Q31(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.7.1.2",
+    "12.7.1.3"
+   ],
+   "question": "Elsha deposits \\$2066.28 at the start of each month, earning 0.5% interest per month. After the 12th withdrawal she deposits \\$6000 she received from her grandparents. She decides she can now afford to withdraw a total of \\$600 at the end of each month for her living costs. How many more complete months will it take Elsha to reach her \\$110 000 goal?",
+   "answer": "After 12 months (with \\$500 withdrawals): $A_{12}=201(2066.28)\\left(1.005^{12}-1\\right)-100\\,000\\left(1.005^{12}-1\\right)\\approx19\\,448.39$. Adding the gift: $B_0=25\\,448.39$.\n\nNow each month: $B_{j+1}=(B_j+2066.28)(1.005)-600=1.005B_j+1476.61$. So\n$$B_k=1.005^k B_0+1476.61\\cdot\\dfrac{1.005^k-1}{0.005}=320\\,770.4\\times1.005^k-295\\,322.$$\nSet $B_k=110\\,000$: $1.005^k=\\dfrac{405\\,322}{320\\,770.4}\\approx1.2636$, so $k=\\dfrac{\\ln1.2636}{\\ln1.005}\\approx46.9$.\n\nThe goal is reached during the 47th month, so it takes **47** more months."
+  },
+  {
+   "ref": "Q32(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.3.1",
+    "12.2.3.7"
+   ],
+   "question": "Consider the lines $y=x$ and $y=rx+a$, where $r>0$ and $a>0$. The two lines intersect at an unknown point in the first quadrant. A sequence of right-angled triangles is constructed between the two lines. The heights ($h$) and lengths ($l$) of the triangles are labelled as $h_1,l_1,h_2,l_2,h_3,l_3,\\ldots$ as shown.\n\nState the range of the values of $r$ for which the two lines intersect in the first quadrant.",
+   "answer": "The line $y=rx+a$ starts above $y=x$ (at $x=0$ it is at height $a>0$), so to meet $y=x$ for $x>0$ it must have a smaller gradient: $r<1$. If $r\\ge1$ it never meets $y=x$ for $x>0$.\n\n$0<r<1$.",
+   "images": [
+    "assets/img/adv-2026-sydney-girls/q32.png"
+   ]
+  },
+  {
+   "ref": "Q32(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.3.1"
+   ],
+   "question": "Find the $x$-coordinate of the intersection point of $y=x$ and $y=rx+a$ in terms of $r$ and $a$.",
+   "answer": "$x=rx+a\\Rightarrow x(1-r)=a\\Rightarrow x=\\dfrac{a}{1-r}.$"
+  },
+  {
+   "ref": "Q32(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.2.3.7",
+    "12.2.3.8"
+   ],
+   "question": "Using infinite series only, find the total area of the triangles between the lines $y=x$ and $y=rx+a$ (with $0<r<1$ and the triangles as shown). Give your answer in terms of $a$ and $r$.",
+   "answer": "The line $y=x$ is at $45^\\circ$, so the triangles with their hypotenuse on $y=x$ are isosceles right triangles, and $h_1=l_1=a$.\n\nThe triangles with hypotenuse on $y=rx+a$ have vertical leg $h_{n+1}$ and horizontal leg $l_n$ with $\\dfrac{h_{n+1}}{l_n}=r$ (the gradient), so $h_2=r\\,l_1=ar$, $h_3=r\\,l_2$, and so on.\n\nAreas: $A_1=\\dfrac{a^2}2$; $A_2=\\dfrac12(a)(ar)=\\dfrac{a^2r}2$; $A_3=\\dfrac12(ar)(ar)=\\dfrac{a^2r^2}2$; $A_4=\\dfrac12(ar)(ar^2)=\\dfrac{a^2r^3}2$; ...\n\nThis is a GP with first term $\\dfrac{a^2}2$ and ratio $r$, and $|r|<1$:\n$$\\text{Total area}=\\dfrac{a^2/2}{1-r}=\\dfrac{a^2}{2(1-r)}.$$",
+   "images": [
+    "assets/img/adv-2026-sydney-girls/q32.png"
+   ]
+  }
+ ]
+}
