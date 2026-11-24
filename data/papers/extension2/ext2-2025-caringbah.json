@@ -1,0 +1,689 @@
+{
+ "id": "ext2-2025-caringbah",
+ "course": "extension2",
+ "school": "Caringbah",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "Caringbah 2025 w. sol"
+ },
+ "indexed": "2026-11-24",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q16(b)",
+   "reason": "Logarithmic differentiation of a monic polynomial with rational coefficients is outside the indexed Extension 2 syllabus on this site."
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "If $\\dfrac1{x^2+x}=\\dfrac Ax+\\dfrac B{x+1}$, what are the values of $A$ and $B$?",
+   "answer": "$\\frac1{x(x+1)}=\\frac Ax+\\frac B{x+1}\\Rightarrow1=A(x+1)+Bx$. Let $x=0$: $A=1$. Let $x=-1$: $B=-1$ (B).",
+   "options": [
+    "$A=-1,\\ B=-1$",
+    "$A=1,\\ B=-1$",
+    "$A=-1,\\ B=1$",
+    "$A=1,\\ B=1$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.13"
+   ],
+   "question": "If $z=\\dfrac{3+4i}{1+2i}$, the imaginary component of $z$ is:",
+   "answer": "$z=\\frac{(3+4i)(1-2i)}{(1+2i)(1-2i)}=\\frac{3-6i+4i+8}{5}=\\frac{11-2i}5$, so $\\text{Im}(z)=-\\frac25$ (C).",
+   "options": [
+    "$-2$",
+    "$\\dfrac25$",
+    "$-\\dfrac25$",
+    "$2$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.12"
+   ],
+   "question": "Given the complex number $z=a+ib$ where $a,b\\in\\mathbb R$, $a\\ne0$, $\\dfrac{4z\\bar z}{(z+\\bar z)^2}$ is equivalent to:",
+   "answer": "$z\\bar z=a^2+b^2$ and $z+\\bar z=2a$, so $\\frac{4(a^2+b^2)}{4a^2}=1+\\frac{b^2}{a^2}=1+\\left(\\frac{\\text{Im}(z)}{\\text{Re}(z)}\\right)^2$ (B).",
+   "options": [
+    "$4[\\text{Re}(z)\\times\\text{Im}(z)]$",
+    "$1+\\left(\\dfrac{\\text{Im}(z)}{\\text{Re}(z)}\\right)^2$",
+    "$4\\left([\\text{Re}(z)]^2+[\\text{Im}(z)]^2\\right)$",
+    "$\\dfrac{2\\times\\text{Im}(z)}{[\\text{Re}(z)]^2}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.7"
+   ],
+   "question": "Consider the statement “If I live in Berlin then I live in Germany.” What is the negation of this statement?",
+   "answer": "The negation of “if $P$ then $Q$” is “$P$ and not $Q$”. So the negation is “I live in Berlin and I don’t live in Germany” (D). (A is the inverse, B the contrapositive and C the converse.)",
+   "options": [
+    "If I don’t live in Berlin then I don’t live in Germany.",
+    "If I don’t live in Germany then I don’t live in Berlin.",
+    "If I live in Germany then I live in Berlin.",
+    "I live in Berlin and I don’t live in Germany."
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.1"
+   ],
+   "question": "The value of $i+i^2+i^3+\\dots+i^{2025}$ is:",
+   "answer": "Every four consecutive powers sum to $i-1-i+1=0$. The first $2024$ terms ($2024=4\\times506$) sum to $0$, leaving $i^{2025}=i^{4\\times506+1}=i$ (A).",
+   "options": [
+    "$i$",
+    "$-1$",
+    "$1$",
+    "$-i$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.4"
+   ],
+   "question": "Which of the following is the vector equation of a line that passes through the points $(8,-2,8)$ and $(0,7,0)$?",
+   "answer": "The direction is $(8,-2,8)-(0,7,0)=(8,-9,8)$, and the line passes through $(0,7,0)$. Only C has both the right point and the right direction A and B have the wrong direction components $(8,5,8)$, and D has direction $(-8,-9,-8)$, which is not parallel to the line) (C).",
+   "options": [
+    "$\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}=\\begin{pmatrix}8\\\\-2\\\\8\\end{pmatrix}+\\lambda\\begin{pmatrix}8\\\\5\\\\8\\end{pmatrix}$",
+    "$\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}=\\begin{pmatrix}0\\\\7\\\\0\\end{pmatrix}+\\lambda\\begin{pmatrix}8\\\\5\\\\8\\end{pmatrix}$",
+    "$\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}=\\begin{pmatrix}0\\\\7\\\\0\\end{pmatrix}+\\lambda\\begin{pmatrix}8\\\\-9\\\\8\\end{pmatrix}$",
+    "$\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}=\\begin{pmatrix}8\\\\-2\\\\8\\end{pmatrix}+\\lambda\\begin{pmatrix}-8\\\\-9\\\\-8\\end{pmatrix}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.1"
+   ],
+   "question": "A variable force acts on a particle moving in a straight line. At time $t\\ge0$ its velocity $v$ m/s and position $x$ m from the origin satisfy $v=e^x\\sin x$. The acceleration of the particle, in $\\text{m s}^{-2}$, can be expressed as:",
+   "answer": "$a=v\\frac{dv}{dx}$ with $\\frac{dv}{dx}=e^x\\sin x+e^x\\cos x$. So $a=e^x\\sin x\\cdot e^x(\\sin x+\\cos x)=e^{2x}(\\sin^2x+\\sin x\\cos x)=e^{2x}\\left(\\sin^2x+\\frac12\\sin2x\\right)$ (D).",
+   "options": [
+    "$e^x(\\sin x+\\cos x)$",
+    "$e^x\\sin x(\\sin x+\\cos x)$",
+    "$\\frac12e^{2x}\\sin^2x$",
+    "$e^{2x}\\left(\\sin^2x+\\frac12\\sin2x\\right)$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.4"
+   ],
+   "question": "Which of the following Argand diagrams represents the solutions to the equation $\\text{Arg}(z-i)=\\text{Arg}(z+1)$?",
+   "answer": "The vectors $z-i$ (from $i$ to $z$) and $z+1$ (from $-1$ to $z$) must have the same direction. That happens only on the line through $-1$ and $i$ when $z$ lies beyond $i$ (up and to the right) or beyond $-1$ (down and to the left); between the two points the directions are opposite, and the points $i$ and $-1$ themselves are excluded (arguments undefined). That is diagram A (A).",
+   "options": [
+    "![Option A](assets/img/ext2-2025-caringbah/q8a.png)",
+    "![Option B](assets/img/ext2-2025-caringbah/q8b.png)",
+    "![Option C](assets/img/ext2-2025-caringbah/q8c.png)",
+    "![Option D](assets/img/ext2-2025-caringbah/q8d.png)"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "Let $\\mathbf a=\\mathbf i+\\mathbf j$, $\\mathbf b=\\mathbf i-\\mathbf j$ and $\\mathbf c=\\mathbf i+2\\mathbf j+3\\mathbf k$. If $\\mathbf n$ is a unit vector such that $\\mathbf a\\cdot\\mathbf n=0$ and $\\mathbf b\\cdot\\mathbf n=0$, then $|\\mathbf c\\cdot\\mathbf n|$ is equal to:",
+   "answer": "Let $\\mathbf n=x\\mathbf i+y\\mathbf j+z\\mathbf k$. $\\mathbf a\\cdot\\mathbf n=x+y=0$ and $\\mathbf b\\cdot\\mathbf n=x-y=0$ give $x=y=0$, and unit length gives $z=\\pm1$. Then $|\\mathbf c\\cdot\\mathbf n|=|3z|=3$ (B).",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Which expression is equal to $\\displaystyle\\int_0^a\\left[f(a-x)+f(a+x)\\right]dx$ ?",
+   "answer": "$\\int_0^af(a-x)dx=\\int_0^af(x)dx$ (substituting $u=a-x$), and $\\int_0^af(a+x)dx=\\int_a^{2a}f(x)dx$ (substituting $u=a+x$). Adding gives $\\int_0^{2a}f(x)dx$ (B).",
+   "options": [
+    "$\\displaystyle\\int_0^af(x)\\,dx$",
+    "$\\displaystyle\\int_0^{2a}f(x)\\,dx$",
+    "$\\displaystyle2\\int_0^af(x)\\,dx$",
+    "$\\displaystyle\\int_{-a}^af(x)\\,dx$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.2"
+   ],
+   "question": "If $z=\\cos\\theta+i\\sin\\theta$, simplify $z+\\dfrac1z$.",
+   "answer": "$\\frac1z=z^{-1}=\\cos(-\\theta)+i\\sin(-\\theta)=\\cos\\theta-i\\sin\\theta$ (de Moivre). So $z+\\frac1z=2\\cos\\theta$."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "Given $\\mathbf a=\\begin{pmatrix}1\\\\2\\\\-1\\end{pmatrix}$ and $\\mathbf b=\\begin{pmatrix}2\\\\1\\\\2\\end{pmatrix}$, find the angle between $\\mathbf a$ and $\\mathbf b$ to the nearest degree.",
+   "answer": "$\\mathbf a\\cdot\\mathbf b=2+2-2=2$, $|\\mathbf a|=\\sqrt6$, $|\\mathbf b|=3$. $\\cos\\theta=\\frac2{3\\sqrt6}$, so $\\theta=\\cos^{-1}\\frac2{3\\sqrt6}\\approx74^\\circ$."
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.5.5"
+   ],
+   "question": "Sketch the region defined by $|z+1|\\le2$ and $\\text{Im}(z)\\ge0$.",
+   "answer": "$|z-(-1)|\\le2$ is the closed disc with centre $(-1,0)$ and radius $2$. $\\text{Im}(z)\\ge0$ is the upper half-plane (including the real axis). The region is the upper half of the disc, bounded by the semicircle through $(-3,0)$, $(-1,2)$, $(1,0)$ and the real axis.",
+   "answer_images": [
+    "assets/img/ext2-2025-caringbah/a11c.png"
+   ]
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.9"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{dx}{x^2+6x+13}$.",
+   "answer": "Complete the square: $x^2+6x+13=(x+3)^2+4$. $\\int\\frac{dx}{(x+3)^2+2^2}=\\frac12\\tan^{-1}\\left(\\frac{x+3}2\\right)+C$."
+  },
+  {
+   "ref": "Q11(e)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.14"
+   ],
+   "question": "Find the square roots of $3+4i$.",
+   "answer": "Let $(x+iy)^2=3+4i$: $x^2-y^2=3$, $2xy=4$ and $x^2+y^2=|3+4i|=5$. Adding and subtracting: $x^2=4$, $y^2=1$, and $xy>0$, so the roots are $2+i$ and $-2-i$."
+  },
+  {
+   "ref": "Q11(e)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.1"
+   ],
+   "question": "Hence, or otherwise, solve $z^2+iz-1-i=0$.",
+   "answer": "$z=\\frac{-i\\pm\\sqrt{i^2+4(1+i)}}{2}=\\frac{-i\\pm\\sqrt{3+4i}}{2}=\\frac{-i\\pm(2+i)}2$. So $z=1$ or $z=-1-i$."
+  },
+  {
+   "ref": "Q11(f)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "The region $R$ is bounded by the graph of $y=\\ln x$, the line $x=e$ and the $x$-axis (shown). Find the volume of the solid formed when $R$ is rotated about the $x$-axis.",
+   "answer": "$V=\\pi\\int_1^e(\\ln x)^2dx$. By parts with $u=(\\ln x)^2$, $v'=1$: $\\int(\\ln x)^2dx=x(\\ln x)^2-2\\int\\ln x\\,dx=x(\\ln x)^2-2(x\\ln x-x)$. Evaluating from $1$ to $e$: $\\left[e-2(e-e)\\right]-\\left[0-2(0-1)\\right]=e-2$. So $V=\\pi(e-2)$ cubic units.",
+   "images": [
+    "assets/img/ext2-2025-caringbah/q11f.png"
+   ]
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "By using a suitable substitution, or otherwise, find $\\displaystyle\\int\\frac{\\sin^3x}{\\cos^2x}\\,dx$.",
+   "answer": "Let $u=\\cos x$, $du=-\\sin x\\,dx$. $\\int\\frac{\\sin^2x}{\\cos^2x}\\sin x\\,dx=-\\int\\frac{1-u^2}{u^2}du=-\\int(u^{-2}-1)du=u^{-1}+u+C=\\sec x+\\cos x+C$."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "A body moves in a straight line so that when its displacement from a fixed origin $O$ is $x$ metres, its acceleration is $-4x\\ \\text{m s}^{-2}$. The body accelerates from rest and its velocity $v$ is equal to $-2\\ \\text{m s}^{-1}$ as it passes through the origin. The body then comes to rest again. Find $v$ in terms of $x$ for this interval.",
+   "answer": "$\\frac d{dx}\\left(\\frac12v^2\\right)=-4x\\Rightarrow\\frac12v^2=-2x^2+c$. When $x=0$, $v=-2$: $c=2$, so $v^2=4-4x^2$. Since $v<0$ here, $v=-2\\sqrt{1-x^2}$."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "Prove by contradiction that $\\sqrt{11}-\\sqrt5<\\sqrt2$.",
+   "answer": "Assume $\\sqrt{11}-\\sqrt5\\ge\\sqrt2$. Both sides are positive, so squaring: $16-2\\sqrt{55}\\ge2$, i.e. $2\\sqrt{55}\\le14$, so $\\sqrt{55}\\le7$ and $55\\le49$, which is false. This contradiction shows $\\sqrt{11}-\\sqrt5<\\sqrt2$."
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^6\\sqrt{36-x^2}\\,dx$.",
+   "answer": "This is the area of a quarter of a circle of radius $6$: $\\frac14\\pi(6)^2=9\\pi$. (Alternatively, with $x=6\\sin\\theta$ the integral is $18\\int_0^{\\pi/2}(1+\\cos2\\theta)d\\theta=9\\pi$.)"
+  },
+  {
+   "ref": "Q12(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.5.3"
+   ],
+   "question": "The point $P$ represents $z=x+iy$ in the complex plane. Prove that $\\text{Re}\\left(\\dfrac{z-ib}{z-a}\\right)=0$ is the equation of a circle, where $a$ and $b$ are real, and state its centre and radius in terms of $a$ and $b$.",
+   "answer": "$\\frac{z-ib}{z-a}=\\frac{x+i(y-b)}{(x-a)+iy}\\times\\frac{(x-a)-iy}{(x-a)-iy}$. The real part is $\\frac{x(x-a)+y(y-b)}{(x-a)^2+y^2}$. Setting it to $0$ (with $z\\ne a$): $x^2-ax+y^2-by=0$, i.e. $\\left(x-\\frac a2\\right)^2+\\left(y-\\frac b2\\right)^2=\\frac{a^2+b^2}4$. This is a circle with centre $\\left(\\frac a2,\\frac b2\\right)$ and radius $\\frac12\\sqrt{a^2+b^2}$ (the point $z=a$ is excluded)."
+  },
+  {
+   "ref": "Q12(f)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "$OPQ$ is a semicircle of radius $a$ with equation $y=\\sqrt{a^2-(x-a)^2}$, and $P(x,y)$ is on it (shown). Express $\\overrightarrow{OP}$ and $\\overrightarrow{QP}$ in terms of $a$, $x$, $y$, $\\mathbf i$ and $\\mathbf j$.",
+   "answer": "$Q=(2a,0)$. $\\overrightarrow{OP}=x\\mathbf i+y\\mathbf j$ and $\\overrightarrow{QP}=(x-2a)\\mathbf i+y\\mathbf j$.",
+   "images": [
+    "assets/img/ext2-2025-caringbah/q12f.png"
+   ]
+  },
+  {
+   "ref": "Q12(f)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "Hence determine whether $\\overrightarrow{OP}$ is perpendicular to $\\overrightarrow{QP}$ (using $y=\\sqrt{a^2-(x-a)^2}$, $\\overrightarrow{OP}=x\\mathbf i+y\\mathbf j$, $\\overrightarrow{QP}=(x-2a)\\mathbf i+y\\mathbf j$).",
+   "answer": "$\\overrightarrow{OP}\\cdot\\overrightarrow{QP}=x(x-2a)+y^2=x^2-2ax+a^2-(x-a)^2=x^2-2ax+a^2-x^2+2ax-a^2=0$. The dot product is zero, so $\\overrightarrow{OP}\\perp\\overrightarrow{QP}$ (the angle in a semicircle is a right angle)."
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.5"
+   ],
+   "question": "A particle moves in a straight line with position $x=2+\\sin2t+\\sqrt3\\cos2t$ at time $t$. Prove that the particle is undergoing simple harmonic motion about $x=2$.",
+   "answer": "$\\dot x=2\\cos2t-2\\sqrt3\\sin2t$ and $\\ddot x=-4\\sin2t-4\\sqrt3\\cos2t=-4(\\sin2t+\\sqrt3\\cos2t)=-4(x-2)$. This has the form $\\ddot x=-n^2(x-c)$ with $n=2$, $c=2$, so the motion is SHM about $x=2$."
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.4"
+   ],
+   "question": "For $x=2+\\sin2t+\\sqrt3\\cos2t$, find the amplitude of the motion.",
+   "answer": "$\\sin2t+\\sqrt3\\cos2t=2\\sin\\left(2t+\\frac\\pi3\\right)$, so the amplitude is $2$."
+  },
+  {
+   "ref": "Q13(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.10"
+   ],
+   "question": "For $x=2+\\sin2t+\\sqrt3\\cos2t$, when does the particle first reach its maximum speed after $t=0$?",
+   "answer": "Maximum speed occurs at the centre of motion $x=2$: $2\\sin\\left(2t+\\frac\\pi3\\right)=0$, so $2t+\\frac\\pi3=\\pi$ (the first non-negative solution) and $t=\\frac\\pi3$."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.2"
+   ],
+   "question": "Show that $\\dfrac{a^4+a^2+1}{a^2}\\ge3$ for all $a\\ne0$.",
+   "answer": "$(a^2-1)^2\\ge0\\Rightarrow a^4-2a^2+1\\ge0\\Rightarrow a^4+a^2+1\\ge3a^2$. Dividing by $a^2>0$: $\\frac{a^4+a^2+1}{a^2}\\ge3$."
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Show that $\\left(z-\\dfrac1z\\right)^5=(z^5-z^{-5})-5(z^3-z^{-3})+10(z-z^{-1})$.",
+   "answer": "By the binomial theorem: $z^5-5z^3+10z-10z^{-1}+5z^{-3}-z^{-5}=(z^5-z^{-5})-5(z^3-z^{-3})+10(z-z^{-1})$."
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "By letting $z=\\cos\\theta+i\\sin\\theta$, or otherwise, show that $32\\sin^5\\theta=2\\sin5\\theta-10\\sin3\\theta+20\\sin\\theta$ (using part (i)).",
+   "answer": "$z^n-z^{-n}=2i\\sin n\\theta$, so $z-z^{-1}=2i\\sin\\theta$. Part (i) gives $(2i\\sin\\theta)^5=2i\\sin5\\theta-5(2i\\sin3\\theta)+10(2i\\sin\\theta)$. The left side is $32i\\sin^5\\theta$; dividing by $i$: $32\\sin^5\\theta=2\\sin5\\theta-10\\sin3\\theta+20\\sin\\theta$."
+  },
+  {
+   "ref": "Q13(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.11"
+   ],
+   "question": "Using $32\\sin^5\\theta=2\\sin5\\theta-10\\sin3\\theta+20\\sin\\theta$, find the exact value of $\\displaystyle\\int_0^{\\pi/2}\\sin^5\\theta\\,d\\theta$.",
+   "answer": "$\\int_0^{\\pi/2}\\sin^5\\theta\\,d\\theta=\\frac1{16}\\int_0^{\\pi/2}(\\sin5\\theta-5\\sin3\\theta+10\\sin\\theta)d\\theta=\\frac1{16}\\left[-\\frac15\\cos5\\theta+\\frac53\\cos3\\theta-10\\cos\\theta\\right]_0^{\\pi/2}=\\frac1{16}\\left[0-\\left(-\\frac15+\\frac53-10\\right)\\right]=\\frac8{15}$."
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "Prove that the product of any three consecutive integers is even.",
+   "answer": "Let the integers be $k-1,k,k+1$. The product is $(k-1)k(k+1)=k^3-k$. If $k=2m$ is even: $8m^3-2m=2(4m^3-m)$, which is even. If $k=2m+1$ is odd: $(2m+1)^3-(2m+1)=8m^3+12m^2+4m=2(4m^3+6m^2+2m)$, which is even. So the product is always even."
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.4"
+   ],
+   "question": "Points $P(-1,2,3)$ and $Q(-2,4,2)$ are given. Find a vector equation of the line $PQ$, in the form $\\mathbf r=\\mathbf a+\\lambda\\mathbf b$.",
+   "answer": "$\\overrightarrow{PQ}=(-1,2,-1)$. So $\\mathbf r=\\begin{pmatrix}-1\\\\2\\\\3\\end{pmatrix}+\\lambda\\begin{pmatrix}-1\\\\2\\\\-1\\end{pmatrix}$."
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "The line $l$ is $\\mathbf v=\\begin{pmatrix}0\\\\3\\\\-5\\end{pmatrix}+\\mu\\begin{pmatrix}-1\\\\b\\\\2\\end{pmatrix}$ and line $PQ$ has direction $(-1,2,-1)$. Find the value(s) of $b$ for which the acute angle between $l$ and $PQ$ is $\\cos^{-1}\\frac16$.",
+   "answer": "The dot product of the directions is $1+2b-2=2b-1$, with magnitudes $\\sqrt{b^2+5}$ and $\\sqrt6$. The acute angle between lines needs $\\frac{|2b-1|}{\\sqrt{6(b^2+5)}}=\\frac16$. Squaring: $6(2b-1)^2=b^2+5$, so $23b^2-24b+1=0$, i.e. $(b-1)(23b-1)=0$. Hence $b=1$ or $b=\\frac1{23}$. (The school keeps only $b=1$, rejecting $b=\\frac1{23}$ because $2b-1<0$; but that gives an obtuse angle only between the direction vectors, and the acute angle between the lines is still $\\cos^{-1}\\frac16$, so both values work.)"
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.11"
+   ],
+   "question": "Suppose $x,y\\in\\mathbb R$. Consider the proposition: “If $y^3+yx^2\\le x^3+xy^2$, then $y\\le x$.” State the contrapositive of this proposition.",
+   "answer": "The contrapositive is: “If $y>x$, then $y^3+yx^2>x^3+xy^2$.”"
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.12"
+   ],
+   "question": "Hence prove the proposition “If $y^3+yx^2\\le x^3+xy^2$, then $y\\le x$” is true (for real $x,y$).",
+   "answer": "Prove the contrapositive: assume $y>x$. Then $y^3+yx^2-x^3-xy^2=y^2(y-x)+x^2(y-x)=(y-x)(x^2+y^2)$. Since $y>x$, $y-x>0$, and $x^2+y^2>0$ (they are not both zero), so $y^3+yx^2>x^3+xy^2$. The contrapositive is true, so the original proposition is true."
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.11"
+   ],
+   "question": "Two lines are $\\mathbf r_1=\\begin{pmatrix}0\\\\5\\\\4\\end{pmatrix}+\\lambda\\begin{pmatrix}-1\\\\4\\\\3\\end{pmatrix}$ and $\\mathbf r_2=\\begin{pmatrix}-2\\\\4\\\\1\\end{pmatrix}+\\mu\\begin{pmatrix}-1\\\\2\\\\2\\end{pmatrix}$. $A$ lies on $\\mathbf r_1$ with $\\lambda=p$ and $B$ lies on $\\mathbf r_2$ with $\\mu=q$. Show that $\\overrightarrow{AB}=\\begin{pmatrix}-2-q+p\\\\-1+2q-4p\\\\-3+2q-3p\\end{pmatrix}$.",
+   "answer": "$\\overrightarrow{OA}=(-p,\\,5+4p,\\,4+3p)$ and $\\overrightarrow{OB}=(-2-q,\\,4+2q,\\,1+2q)$. $\\overrightarrow{AB}=\\overrightarrow{OB}-\\overrightarrow{OA}=(-2-q+p,\\ -1+2q-4p,\\ -3+2q-3p)$."
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.1.11"
+   ],
+   "question": "Using $\\overrightarrow{AB}=(-2-q+p,\\,-1+2q-4p,\\,-3+2q-3p)$ and the directions $(-1,4,3)$ of $\\mathbf r_1$ and $(-1,2,2)$ of $\\mathbf r_2$, find $|\\overrightarrow{AB}|$ when $\\overrightarrow{AB}$ is perpendicular to both lines.",
+   "answer": "$\\overrightarrow{AB}\\cdot(-1,4,3)=0$: $-11+15q-26p=0$. $\\overrightarrow{AB}\\cdot(-1,2,2)=0$: $-6+9q-15p=0$, so $3q=5p+2$. Substituting: $-11+5(5p+2)-26p=0\\Rightarrow-p-1=0\\Rightarrow p=-1$, then $q=-1$. $\\overrightarrow{AB}=(-2,1,-2)$ and $|\\overrightarrow{AB}|=\\sqrt{4+1+4}=3$."
+  },
+  {
+   "ref": "Q14(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.17"
+   ],
+   "question": "Consider the spheres $S_1:x^2-2x+y^2+4y+z^2-4z=0$ and $S_2:x^2+y^2+z^2+10x+2z+10=0$. Show that $S_1$ and $S_2$ intersect.",
+   "answer": "Completing squares: $S_1:(x-1)^2+(y+2)^2+(z-2)^2=9$, centre $(1,-2,2)$, radius $3$. $S_2:(x+5)^2+y^2+(z+1)^2=16$, centre $(-5,0,-1)$, radius $4$. The distance between centres is $\\sqrt{6^2+2^2+3^2}=\\sqrt{49}=7=3+4$. The distance equals the sum of the radii, so the spheres touch externally, meeting at exactly one point (so they intersect)."
+  },
+  {
+   "ref": "Q14(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.8"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{e^x}{e^{2x}+3e^x+2}\\,dx$.",
+   "answer": "Let $u=e^x$, $du=e^xdx$: $\\int\\frac{du}{u^2+3u+2}=\\int\\frac{du}{(u+1)(u+2)}=\\int\\left(\\frac1{u+1}-\\frac1{u+2}\\right)du=\\ln(u+1)-\\ln(u+2)+C=\\ln\\left(\\frac{e^x+1}{e^x+2}\\right)+C$."
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Find $\\displaystyle\\int(1+2x^2)e^{x^2}\\,dx$.",
+   "answer": "Split: $\\int e^{x^2}dx+\\int x\\cdot2xe^{x^2}dx$. By parts on the second ($u=x$, $v'=2xe^{x^2}$, $v=e^{x^2}$): $xe^{x^2}-\\int e^{x^2}dx$. The two $\\int e^{x^2}dx$ terms cancel, leaving $xe^{x^2}+C$."
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "Show that $|\\sin(\\alpha+\\beta)|\\le|\\sin\\alpha|+|\\sin\\beta|$.",
+   "answer": "$|\\sin(\\alpha+\\beta)|=|\\sin\\alpha\\cos\\beta+\\cos\\alpha\\sin\\beta|\\le|\\sin\\alpha||\\cos\\beta|+|\\cos\\alpha||\\sin\\beta|\\le|\\sin\\alpha|+|\\sin\\beta|$, using the triangle inequality and $|\\cos\\theta|\\le1$."
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "Under what conditions will equality hold in $|\\sin(\\alpha+\\beta)|\\le|\\sin\\alpha|+|\\sin\\beta|$?",
+   "answer": "Equality in the last step needs $|\\sin\\alpha|(1-|\\cos\\beta|)=0$ and $|\\sin\\beta|(1-|\\cos\\alpha|)=0$. This holds when $\\sin\\alpha=0$ or $\\sin\\beta=0$, i.e. when $\\alpha$ or $\\beta$ is an integer multiple of $\\pi$."
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.6.2"
+   ],
+   "question": "A particle of mass $m$ is thrown from $O$ at the top of a very tall building with initial velocity $u$ at angle $\\alpha$ to the horizontal (shown). The resistance is proportional to velocity, with horizontal equation of motion $\\ddot x=-k\\dot x$. Derive $\\dot x=ue^{-kt}\\cos\\alpha$.",
+   "answer": "$\\frac{d\\dot x}{dt}=-k\\dot x\\Rightarrow\\int\\frac{d\\dot x}{\\dot x}=-k\\int dt\\Rightarrow\\ln\\dot x=-kt+c$, so $\\dot x=Ae^{-kt}$. At $t=0$, $\\dot x=u\\cos\\alpha$, so $A=u\\cos\\alpha$ and $\\dot x=ue^{-kt}\\cos\\alpha$.",
+   "images": [
+    "assets/img/ext2-2025-caringbah/q15c.png"
+   ]
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.6.2"
+   ],
+   "question": "The vertical equation of motion is $\\ddot y=-k\\dot y-g$. Verify that $\\dot y=\\dfrac1k\\left((ku\\sin\\alpha+g)e^{-kt}-g\\right)$ satisfies it.",
+   "answer": "$\\ddot y=-(ku\\sin\\alpha+g)e^{-kt}$. Also $-k\\dot y-g=-\\left[(ku\\sin\\alpha+g)e^{-kt}-g\\right]-g=-(ku\\sin\\alpha+g)e^{-kt}$. These agree, so the equation is satisfied (and $\\dot y(0)=\\frac1k(ku\\sin\\alpha)=u\\sin\\alpha$)."
+  },
+  {
+   "ref": "Q15(c)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.6.2"
+   ],
+   "question": "Using $\\dot y=\\frac1k\\left((ku\\sin\\alpha+g)e^{-kt}-g\\right)$, find the value of $t$ when the particle reaches its maximum height.",
+   "answer": "Maximum height when $\\dot y=0$: $(ku\\sin\\alpha+g)e^{-kt}=g$, so $e^{kt}=\\frac{ku\\sin\\alpha+g}g$ and $t=\\frac1k\\ln\\left(\\frac{ku\\sin\\alpha+g}g\\right)$."
+  },
+  {
+   "ref": "Q15(c)(iv)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.6.2"
+   ],
+   "question": "Using $\\dot x=ue^{-kt}\\cos\\alpha$ with $x=0$ at $t=0$, what is the limiting value of the horizontal displacement of the particle?",
+   "answer": "$x=\\int ue^{-kt}\\cos\\alpha\\,dt=-\\frac{u\\cos\\alpha}ke^{-kt}+C$. With $x(0)=0$: $x=\\frac{u\\cos\\alpha}k\\left(1-e^{-kt}\\right)$. As $t\\to\\infty$, $e^{-kt}\\to0$, so $x\\to\\frac{u\\cos\\alpha}k$."
+  },
+  {
+   "ref": "Q15(d)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "$M$ and $P$ have position vectors $\\mathbf m$ and $\\mathbf p$ (from $O$). $N$ is the midpoint of $MP$ with position vector $\\mathbf n$. $Q$ is such that $PQ\\perp MN$ and $\\overrightarrow{NQ}=\\lambda\\overrightarrow{ON}$ (shown). Show that $\\lambda=\\dfrac{|\\mathbf m|^2+|\\mathbf n|^2-2\\mathbf m\\cdot\\mathbf n}{|\\mathbf n|^2-\\mathbf m\\cdot\\mathbf n}$.",
+   "answer": "$N$ is the midpoint so $\\mathbf p=2\\mathbf n-\\mathbf m$. $\\overrightarrow{OQ}=\\overrightarrow{ON}+\\overrightarrow{NQ}=(1+\\lambda)\\mathbf n$. $\\overrightarrow{PQ}=(1+\\lambda)\\mathbf n-(2\\mathbf n-\\mathbf m)=(\\lambda-1)\\mathbf n+\\mathbf m$ and $\\overrightarrow{MN}=\\mathbf n-\\mathbf m$. $\\overrightarrow{PQ}\\cdot\\overrightarrow{MN}=0$: $[(\\lambda-1)\\mathbf n+\\mathbf m]\\cdot(\\mathbf n-\\mathbf m)=(\\lambda-1)|\\mathbf n|^2-(\\lambda-1)\\mathbf n\\cdot\\mathbf m+\\mathbf m\\cdot\\mathbf n-|\\mathbf m|^2=0$. So $\\lambda(|\\mathbf n|^2-\\mathbf m\\cdot\\mathbf n)=|\\mathbf n|^2-2\\mathbf m\\cdot\\mathbf n+|\\mathbf m|^2$, giving $\\lambda=\\frac{|\\mathbf m|^2+|\\mathbf n|^2-2\\mathbf m\\cdot\\mathbf n}{|\\mathbf n|^2-\\mathbf m\\cdot\\mathbf n}$.",
+   "images": [
+    "assets/img/ext2-2025-caringbah/q15d.png"
+   ]
+  },
+  {
+   "ref": "Q16(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.5.4"
+   ],
+   "question": "A particle of unit mass falls under gravity from rest in a medium exerting resistance proportional to its speed $v$, so $\\ddot x=g-kv$ with $k>0$. Show that the particle reaches a terminal velocity $T=\\dfrac gk$.",
+   "answer": "Terminal velocity occurs when the acceleration is zero: $g-kv=0$, so $v=\\frac gk$. Hence $T=\\frac gk$."
+  },
+  {
+   "ref": "Q16(a)(ii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.5.2"
+   ],
+   "question": "For the particle in part (i) ($\\ddot x=g-kv$, falling from rest, $T=g/k$), show that the distance fallen to reach half its terminal velocity is $x=\\dfrac{T^2}g\\ln2-\\dfrac{T^2}{2g}$.",
+   "answer": "$v\\frac{dv}{dx}=g-kv=k(T-v)$, so $\\frac{dx}{dv}=\\frac{v}{k(T-v)}=\\frac1k\\left(-1+\\frac T{T-v}\\right)$. Integrating: $x=\\frac1k\\left[-v-T\\ln(T-v)\\right]+C$. At $x=0$, $v=0$: $C=\\frac{T\\ln T}k$. So $x=\\frac Tk\\ln\\frac T{T-v}-\\frac vk$. At $v=\\frac T2$: $x=\\frac Tk\\ln2-\\frac T{2k}$. With $k=\\frac gT$: $x=\\frac{T^2}g\\ln2-\\frac{T^2}{2g}$."
+  },
+  {
+   "ref": "Q16(c)(i)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.4.2"
+   ],
+   "question": "Given that for $k>0$, $2k+3>2\\sqrt{(k+1)(k+2)}$, use mathematical induction to show that $\\displaystyle\\sum_{r=1}^n\\frac1{\\sqrt r}>2\\left(\\sqrt{n+1}-1\\right)$ for all positive integers $n$.",
+   "answer": "$n=1$: LHS $=1$ and RHS $=2(\\sqrt2-1)\\approx0.83$; $1>0.83$, true. Assume true for $n=k$: $\\sum_{r=1}^k\\frac1{\\sqrt r}>2(\\sqrt{k+1}-1)$. For $n=k+1$: LHS $>2\\sqrt{k+1}-2+\\frac1{\\sqrt{k+1}}=\\frac{2(k+1)+1}{\\sqrt{k+1}}-2=\\frac{2k+3}{\\sqrt{k+1}}-2>\\frac{2\\sqrt{(k+1)(k+2)}}{\\sqrt{k+1}}-2=2\\sqrt{k+2}-2$, which is the required RHS. So true for $n=k+1$; by induction true for all positive integers $n$."
+  },
+  {
+   "ref": "Q16(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "Use the graph of $y=\\dfrac1{\\sqrt x}$ to show that $\\displaystyle\\sum_{r=1}^n\\frac1{\\sqrt r}<1+\\int_1^n\\frac1{\\sqrt x}\\,dx$.",
+   "answer": "On the decreasing curve $y=\\frac1{\\sqrt x}$, draw rectangles of width $1$ and height $\\frac1{\\sqrt r}$ on $[r-1,r]$ for $r=2,\\dots,n$. Each rectangle lies under the curve, so $\\frac1{\\sqrt2}+\\frac1{\\sqrt3}+\\dots+\\frac1{\\sqrt n}<\\int_1^n\\frac1{\\sqrt x}dx$. Adding the first term $1$: $\\sum_{r=1}^n\\frac1{\\sqrt r}<1+\\int_1^n\\frac1{\\sqrt x}dx$."
+  },
+  {
+   "ref": "Q16(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "Hence show that $198<\\displaystyle\\sum_{r=1}^{10000}\\frac1{\\sqrt r}<199$.",
+   "answer": "Lower bound (part (i), $n=10000$): $2(\\sqrt{10001}-1)\\approx198.01>198$. Upper bound (part (ii)): $1+\\int_1^{10000}x^{-1/2}dx=1+\\left[2\\sqrt x\\right]_1^{10000}=1+2(100-1)=199$. So $198<\\sum<199$."
+  }
+ ]
+}
