@@ -1,0 +1,502 @@
+{
+ "id": "ext1-2025-danebank",
+ "course": "extension1",
+ "school": "Danebank",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "Danebank 2025 w. sol"
+ },
+ "indexed": "2026-11-25",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q1",
+   "reason": "Not in 2024 syllabus: pigeonhole-style worst-case counting (socks drawn to guarantee two blue)"
+  },
+  {
+   "ref": "Q14(a)",
+   "reason": "Not in 2024 syllabus: sketching y² = f(x) from the graph of y = f(x)"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.2"
+   ],
+   "question": "If $\\sqrt8\\sin x+2\\sqrt6\\cos x=R\\sin(x+\\alpha)$, find the values of $R$ and $\\alpha$.",
+   "answer": "$R\\sin(x+\\alpha)=R\\cos\\alpha\\sin x+R\\sin\\alpha\\cos x$, so $R\\cos\\alpha=\\sqrt8$ and $R\\sin\\alpha=2\\sqrt6$. Then $R=\\sqrt{8+24}=\\sqrt{32}$ and $\\tan\\alpha=\\dfrac{2\\sqrt6}{\\sqrt8}=\\sqrt3$, so $\\alpha=\\dfrac\\pi3$ (D).",
+   "options": [
+    "$\\alpha=\\dfrac\\pi6$ and $R=\\sqrt{24}$",
+    "$\\alpha=\\dfrac\\pi6$ and $R=\\sqrt{32}$",
+    "$\\alpha=\\dfrac\\pi3$ and $R=\\sqrt{24}$",
+    "$\\alpha=\\dfrac\\pi3$ and $R=\\sqrt{32}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.2.8",
+    "11.1.2.6"
+   ],
+   "question": "The graph below shows a function $y=f(x)$. Which of these graphs could represent the inverse function $y=f^{-1}(x)$? The graph of $y=f(x)$ is shown with a broken line in each graph.",
+   "answer": "The graph of $f^{-1}$ is the reflection of $y=f(x)$ in the line $y=x$. $f$ is increasing with a horizontal inflexion on the positive $y$-axis, so $f^{-1}$ is increasing with a vertical-tangent inflexion at the same coordinates reversed, on the positive $x$-axis (B). A and C are decreasing, and D is not one-to-one.",
+   "options": [
+    "![Graph A](assets/img/ext1-2025-danebank/q3a.png)",
+    "![Graph B](assets/img/ext1-2025-danebank/q3b.png)",
+    "![Graph C](assets/img/ext1-2025-danebank/q3c.png)",
+    "![Graph D](assets/img/ext1-2025-danebank/q3d.png)"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/ext1-2025-danebank/q3.png"
+   ]
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{6x^2\\,dx}{\\sqrt{100-[4x^6]}}$.",
+   "answer": "$4x^6=(2x^3)^2$, so with $f(x)=2x^3$, $f'(x)=6x^2$ and $a=10$: $\\displaystyle\\int\\frac{f'(x)}{\\sqrt{a^2-[f(x)]^2}}dx=\\sin^{-1}\\frac{f(x)}{a}+C=\\sin^{-1}\\left(\\frac{2x^3}{10}\\right)+C$ (C).",
+   "options": [
+    "$\\cos^{-1}\\left(\\dfrac{2x^3}{10}\\right)+C$",
+    "$\\cos^{-1}\\left(\\dfrac{4x^3}{100}\\right)+C$",
+    "$\\sin^{-1}\\left(\\dfrac{2x^3}{10}\\right)+C$",
+    "$\\sin^{-1}\\left(\\dfrac{4x^3}{100}\\right)+C$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.12"
+   ],
+   "question": "The graph of $y=f(x)$ is shown below. Which equation describes $f(x)$ ?",
+   "answer": "The graph is $y=\\sin^{-1}x$ translated $1$ unit right (domain $0\\le x\\le2$, passing through $(1,0)$) and dilated vertically by a factor of $2$ (range $-\\pi\\le y\\le\\pi$): $f(x)=2\\sin^{-1}(x-1)$ (C).",
+   "options": [
+    "$f(x)=2\\cos^{-1}(x-1)$",
+    "$f(x)=\\dfrac12\\sin^{-1}(x-1)$",
+    "$f(x)=2\\sin^{-1}(x-1)$",
+    "$f(x)=2\\sin^{-1}(x+1)$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/ext1-2025-danebank/q5.png"
+   ]
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.4",
+    "12.5.4.9"
+   ],
+   "question": "Consider the differential equation $\\dfrac{dy}{dx}=x^2y^2$. Which of the following best represents its direction field?",
+   "answer": "Test points: at $(-2,1)$, $\\frac{dy}{dx}=4>0$, which eliminates A and D (negative slopes there). At $(-2,-1)$, $\\frac{dy}{dx}=4>0$, which eliminates C (negative slope there). The slope is never negative and is zero along both axes (B).",
+   "options": [
+    "![Graph A](assets/img/ext1-2025-danebank/q6a.png)",
+    "![Graph B](assets/img/ext1-2025-danebank/q6b.png)",
+    "![Graph C](assets/img/ext1-2025-danebank/q6c.png)",
+    "![Graph D](assets/img/ext1-2025-danebank/q6d.png)"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "Which of these calculations will give the coefficient of $x^3y^9$ in the expansion of $(3x-y)^{12}$ ?",
+   "answer": "$T_{r+1}={}^{12}C_r(3x)^{12-r}(-y)^r$. For $y^9$, $r=9$: ${}^{12}C_9\\,3^3x^3(-1)^9y^9$, coefficient $-27\\times{}^{12}C_9$ (B).",
+   "options": [
+    "$-27\\times{}^{12}C_8$",
+    "$-27\\times{}^{12}C_9$",
+    "$9\\times{}^{12}C_8$",
+    "$27\\times{}^{12}C_9$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.3"
+   ],
+   "question": "Which graph best represents $y=a\\sin x-b\\cos x$, given $a$ and $b$ are positive constants?",
+   "answer": "At $x=0$: $y=-b\\cos0=-b<0$, so the graph crosses the $y$-axis below the origin, which eliminates A and C. Also $y'=a\\cos x+b\\sin x$, so $y'(0)=a>0$ and the graph is increasing there (B).",
+   "options": [
+    "![Graph A](assets/img/ext1-2025-danebank/q8a.png)",
+    "![Graph B](assets/img/ext1-2025-danebank/q8b.png)",
+    "![Graph C](assets/img/ext1-2025-danebank/q8c.png)",
+    "![Graph D](assets/img/ext1-2025-danebank/q8d.png)"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.1"
+   ],
+   "question": "The quantity of a substance in a container (in kg) at a time $t$ seconds after the container is first filled is given by the equation $Q(t)=20000e^{-0.025t}$. Which expression gives the rate of change of the quantity (in kg/s) after two minutes?",
+   "answer": "$Q'(t)=20000(-0.025)e^{-0.025t}=-500e^{-0.025t}$. Two minutes is $t=120$ s: $Q'(120)=-500e^{-3}=-\\dfrac{500}{e^3}$ (A).",
+   "course": "advanced",
+   "options": [
+    "$-\\dfrac{500}{e^3}$",
+    "$-\\dfrac{500}{e^{0.05}}$",
+    "$\\dfrac{500}{e^{0.05}}$",
+    "$\\dfrac{500}{e^3}$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.2.1"
+   ],
+   "question": "Given $\\cos(\\theta+\\phi)=\\dfrac45$ and $\\cot\\theta\\cot\\phi=\\dfrac13$, then $\\cos(\\theta-\\phi)$ is equivalent to:",
+   "answer": "$\\cos\\theta\\cos\\phi-\\sin\\theta\\sin\\phi=\\frac45$ and $\\dfrac{\\cos\\theta\\cos\\phi}{\\sin\\theta\\sin\\phi}=\\frac13\\Rightarrow\\sin\\theta\\sin\\phi=3\\cos\\theta\\cos\\phi$. Substituting: $-2\\cos\\theta\\cos\\phi=\\frac45\\Rightarrow\\cos\\theta\\cos\\phi=-\\frac25$, so $\\sin\\theta\\sin\\phi=-\\frac65$. Then $\\cos(\\theta-\\phi)=\\cos\\theta\\cos\\phi+\\sin\\theta\\sin\\phi=-\\frac25-\\frac65=-\\dfrac85$ (A). *(The given data are not achievable by real angles since $|\\cos(\\theta-\\phi)|>1$, but the algebra determines the intended answer.)*",
+   "options": [
+    "$-\\dfrac85$",
+    "$-\\dfrac45$",
+    "$\\dfrac35$",
+    "$\\dfrac65$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.19",
+    "11.4.1.9"
+   ],
+   "question": "Eight teachers and seven students are arranged in a straight line on $15$ chairs that are bolted to the ground and cannot be moved. What is the probability that none of the teachers will sit next to each other?",
+   "answer": "Total arrangements of the $15$ people: $15!$. For no two teachers to be adjacent, the $7$ students create $8$ gaps (including both ends) and the $8$ teachers must fill all $8$ gaps, one each, so the pattern is forced as T S T S … T: $8!\\times7!$ arrangements. $$P=\\frac{8!\\,7!}{15!}=\\frac{1}{{}^{15}C_8}=\\frac1{6435}.$$"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Solve the inequality $\\dfrac{2x}{x-3}\\ge5$.",
+   "answer": "$x\\ne3$. Multiply both sides by $(x-3)^2>0$: $2x(x-3)\\ge5(x-3)^2\\Rightarrow(x-3)[5(x-3)-2x]\\le0\\Rightarrow(x-3)(3x-15)\\le0\\Rightarrow(x-3)(x-5)\\le0$. So $3\\le x\\le5$, but $x\\ne3$: $$3<x\\le5.$$"
+  },
+  {
+   "ref": "Q11(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.2",
+    "11.2.3.4"
+   ],
+   "question": "Let $P(x)=3x^3-12x^2-x+8$ have roots $\\alpha,\\beta$ and $\\gamma$. What is the value of $\\alpha^2+\\beta^2+\\gamma^2$ ?",
+   "answer": "$\\alpha+\\beta+\\gamma=-\\frac ba=4$, $\\alpha\\beta+\\alpha\\gamma+\\beta\\gamma=\\frac ca=-\\frac13$, $\\alpha\\beta\\gamma=-\\frac da=-\\frac83$. Then $\\alpha^2+\\beta^2+\\gamma^2=(\\alpha+\\beta+\\gamma)^2-2(\\alpha\\beta+\\alpha\\gamma+\\beta\\gamma)=16+\\frac23=\\dfrac{50}3$."
+  },
+  {
+   "ref": "Q11(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.3.2",
+    "11.2.3.4"
+   ],
+   "question": "Let $P(x)=3x^3-12x^2-x+8$ have roots $\\alpha,\\beta$ and $\\gamma$. Find the value of $\\dfrac\\alpha{\\beta\\gamma}+\\dfrac\\beta{\\alpha\\gamma}+\\dfrac\\gamma{\\alpha\\beta}$.",
+   "answer": "Over the common denominator $\\alpha\\beta\\gamma$: $\\dfrac{\\alpha^2+\\beta^2+\\gamma^2}{\\alpha\\beta\\gamma}=\\dfrac{50/3}{-8/3}=-\\dfrac{25}4$."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.3"
+   ],
+   "question": "Show that $y=\\dfrac1{10}e^{3x}$ is a solution to the differential equation $y''+y=e^{3x}$.",
+   "answer": "$y'=\\frac3{10}e^{3x}$, $y''=\\frac9{10}e^{3x}$. LHS $=y''+y=\\frac9{10}e^{3x}+\\frac1{10}e^{3x}=e^{3x}=$ RHS. Hence $y=\\frac1{10}e^{3x}$ is a solution."
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Use the substitution $u=1-x^3$ to find $\\displaystyle\\int\\frac{x^2}{\\sqrt{1-x^3}}\\,dx$.",
+   "answer": "$du=-3x^2\\,dx$, so $x^2\\,dx=-\\frac13du$. $\\displaystyle\\int\\frac{x^2}{\\sqrt{1-x^3}}dx=-\\frac13\\int u^{-1/2}du=-\\frac13\\cdot2u^{1/2}+C=-\\dfrac23\\sqrt{1-x^3}+C$."
+  },
+  {
+   "ref": "Q11(f)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.7",
+    "12.4.2.2"
+   ],
+   "question": "Find $\\dfrac{d}{dx}(\\log_ex)^2$ and hence evaluate $\\displaystyle\\int_1^e\\frac{\\log_ex}{x}\\,dx$.",
+   "answer": "$\\dfrac{d}{dx}(\\log_ex)^2=2\\log_ex\\cdot\\dfrac1x=\\dfrac{2\\log_ex}{x}$. Hence $\\displaystyle\\int_1^e\\frac{\\log_ex}{x}dx=\\frac12\\int_1^e\\frac{2\\log_ex}{x}dx=\\frac12\\Big[(\\log_ex)^2\\Big]_1^e=\\frac12(1-0)=\\dfrac12$."
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.1.8"
+   ],
+   "question": "The letters of the word ABRACADABRA are arranged in a row. Find the number of different arrangements that can be made.",
+   "answer": "$11$ letters: A$\\times5$, B$\\times2$, R$\\times2$, C, D. $\\dfrac{11!}{5!\\,2!\\,2!}=83\\,160$."
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.4.1.8",
+    "11.4.1.18"
+   ],
+   "question": "The letters of the word ABRACADABRA are arranged in a row. Find the number of different arrangements in which the $2$ B's are next to each other, the $2$ R's are next to each other, exactly $4$ of the A's are next to each other, and the C is next to the D.",
+   "answer": "Treat as units: $BB$, $RR$, $AAAA$, $CD$ (or $DC$) and the remaining single $A$. Arranging these $5$ units: $5!\\times2=240$ (the factor $2$ is for $CD$ or $DC$). But this includes cases where the single A touches the block $AAAA$ (giving $5$ A's together). With all $5$ A's together we have $4$ units: $4!\\times2$ (for $CD/DC$) $\\times2$ (single A in front of or behind $AAAA$, both counted in the $240$) $=96$. Therefore the number with exactly $4$ A's together is $240-96=144$."
+  },
+  {
+   "ref": "Q12(a)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.19"
+   ],
+   "question": "The $11$ letters of ABRACADABRA are arranged randomly. Find the probability that all $5$ A's are together.",
+   "answer": "Treat $AAAAA$ as one unit with B, B, R, R, C, D: $\\dfrac{7!}{2!\\,2!}=1260$. $P=\\dfrac{1260}{83160}=\\dfrac1{66}$."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "A snowball in the shape of a sphere is melting such that its radius is decreasing at a rate of $1$ cm/min. At what rate is the volume of the snowball decreasing when its radius is $8$ cm?",
+   "answer": "$\\dfrac{dr}{dt}=-1$, $V=\\frac43\\pi r^3\\Rightarrow\\dfrac{dV}{dr}=4\\pi r^2$. $\\dfrac{dV}{dt}=\\dfrac{dV}{dr}\\cdot\\dfrac{dr}{dt}=-4\\pi r^2$. When $r=8$: $\\dfrac{dV}{dt}=-4\\pi(64)=-256\\pi$. The volume is decreasing at $256\\pi$ cm$^3$/min."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.3"
+   ],
+   "question": "Find $\\displaystyle\\int(\\sin^25x+\\sin x)\\,dx$.",
+   "answer": "$\\sin^25x=\\frac12(1-\\cos10x)$. $\\displaystyle\\int\\left[\\tfrac12(1-\\cos10x)+\\sin x\\right]dx=\\frac12\\left(x-\\frac{\\sin10x}{10}\\right)-\\cos x+C=\\dfrac x2-\\dfrac{\\sin10x}{20}-\\cos x+C$."
+  },
+  {
+   "ref": "Q12(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.2.5"
+   ],
+   "question": "Find the remainder, $R$, when $P(x)=x^3+2x^2+3x+10$ is divided by $x+2$.",
+   "answer": "$R=P(-2)=-8+8-6+10=4$."
+  },
+  {
+   "ref": "Q12(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.2"
+   ],
+   "question": "Find the polynomial $Q(x)$, such that $P(x)=(x+2)\\cdot Q(x)+R$, where $P(x)=x^3+2x^2+3x+10$ and $R=4$, and express $P(x)$ in that form.",
+   "answer": "$(x+2)Q(x)=P(x)-4=x^3+2x^2+3x+6$. Dividing by $x+2$ gives $Q(x)=x^2+3$. So $P(x)=(x+2)(x^2+3)+4$."
+  },
+  {
+   "ref": "Q12(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "Use mathematical induction to prove $5^n+31$ is divisible by $4$, for all integers $n\\ge1$.",
+   "answer": "**Base case** $n=1$: $5+31=36=4\\times9$, divisible by $4$. **Assume** true for $n=k$: $5^k+31=4P$ for some integer $P$, so $5^k=4P-31$. **Prove** for $n=k+1$: $5^{k+1}+31=5\\cdot5^k+31=5(4P-31)+31=20P-124=4(5P-31)$, divisible by $4$ since $5P-31$ is an integer. Hence by induction $5^n+31$ is divisible by $4$ for all integers $n\\ge1$."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.9"
+   ],
+   "question": "Let vector $\\mathbf u=\\mathbf i+3\\mathbf j$ and vector $\\mathbf v=4\\mathbf j$. Find $\\text{proj}_{\\mathbf u}\\mathbf v$.",
+   "answer": "$|\\mathbf u|^2=1+9=10$ and $\\mathbf u\\cdot\\mathbf v=0+12=12$. $\\text{proj}_{\\mathbf u}\\mathbf v=\\dfrac{\\mathbf u\\cdot\\mathbf v}{|\\mathbf u|^2}\\mathbf u=\\dfrac{12}{10}(\\mathbf i+3\\mathbf j)=\\dfrac65(\\mathbf i+3\\mathbf j)=\\dfrac65\\mathbf i+\\dfrac{18}5\\mathbf j$."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.3.3.1",
+    "11.3.3.3"
+   ],
+   "question": "Express $\\cos\\theta+\\sqrt3\\sin\\theta$ in terms of $t$, where $t=\\tan\\dfrac\\theta2$, and hence solve the equation $\\cos\\theta+\\sqrt3\\sin\\theta=1$ for $0\\le\\theta\\le2\\pi$.",
+   "answer": "With $\\cos\\theta=\\dfrac{1-t^2}{1+t^2}$ and $\\sin\\theta=\\dfrac{2t}{1+t^2}$: $$\\cos\\theta+\\sqrt3\\sin\\theta=\\frac{1-t^2+2\\sqrt3\\,t}{1+t^2}.$$ Setting this equal to $1$: $1-t^2+2\\sqrt3t=1+t^2\\Rightarrow2t(\\sqrt3-t)=0$, so $t=0$ or $t=\\sqrt3$. With $0\\le\\frac\\theta2\\le\\pi$: $\\tan\\frac\\theta2=0\\Rightarrow\\frac\\theta2=0,\\pi\\Rightarrow\\theta=0,2\\pi$; $\\tan\\frac\\theta2=\\sqrt3\\Rightarrow\\frac\\theta2=\\frac\\pi3\\Rightarrow\\theta=\\frac{2\\pi}3$. The substitution is undefined at $\\theta=\\pi$, so check it separately: $\\cos\\pi+\\sqrt3\\sin\\pi=-1\\ne1$, not a solution. Hence $\\theta=0,\\ \\dfrac{2\\pi}3,\\ 2\\pi$."
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.3.3",
+    "12.4.1.2"
+   ],
+   "question": "A curve is described by the parametric equations $x=12q$, $y=6(q+1)^2$. Find the gradient of the tangent to the curve at the point where $q=1\\frac12$.",
+   "answer": "$\\dfrac{dx}{dq}=12$, $\\dfrac{dy}{dq}=12(q+1)$, so $\\dfrac{dy}{dx}=\\dfrac{12(q+1)}{12}=q+1$. At $q=\\frac32$: gradient $=\\dfrac52=2\\frac12$. (Check: eliminating $q=\\frac x{12}$ gives $y=\\frac{x^2}{24}+x+6$, $y'=\\frac x{12}+1$, and at $x=18$ this is $2\\frac12$.)"
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.3.6",
+    "12.2.3.7"
+   ],
+   "question": "Forces of $60\\,N$ and $20\\,N$ act on an object, at point $A$, as shown in the diagram (the $20\\,N$ force is at $30^\\circ$ above the horizontal and the two forces are at right angles to each other). The vector sum of these forces acting on the object at point $A$ is called the resultant force. Find the magnitude of the resultant force vector, correct to $3$ decimal places, and its direction as a true bearing, correct to the nearest minute.",
+   "answer": "The $20\\,N$ force makes $30^\\circ$ with the positive $x$-axis and the $60\\,N$ force is perpendicular to it, at $120^\\circ$ (i.e. $60^\\circ$ above the negative $x$-axis). Components: $\\mathbf F=(20\\cos30^\\circ-60\\cos60^\\circ)\\mathbf i+(20\\sin30^\\circ+60\\sin60^\\circ)\\mathbf j=(10\\sqrt3-30)\\mathbf i+(10+30\\sqrt3)\\mathbf j\\approx-12.68\\mathbf i+61.96\\mathbf j$. Magnitude: $|\\mathbf F|=\\sqrt{(10\\sqrt3-30)^2+(10+30\\sqrt3)^2}=\\sqrt{4000}\\approx63.246\\ \\text{N}$. Direction: the resultant points up and to the left (second quadrant), making an angle $\\tan^{-1}\\dfrac{12.68}{61.96}\\approx11^\\circ34'$ west of north, so the true bearing is $360^\\circ-11^\\circ34'=348^\\circ26'$ T.",
+   "images": [
+    "assets/img/ext1-2025-danebank/q13d.png"
+   ]
+  },
+  {
+   "ref": "Q13(e)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.1"
+   ],
+   "question": "Show that $\\dfrac{\\cos(a+b)}{\\cos a\\sin b}=\\cot b-\\tan a$.",
+   "answer": "LHS $=\\dfrac{\\cos a\\cos b-\\sin a\\sin b}{\\cos a\\sin b}=\\dfrac{\\cos a\\cos b}{\\cos a\\sin b}-\\dfrac{\\sin a\\sin b}{\\cos a\\sin b}=\\cot b-\\tan a=$ RHS."
+  },
+  {
+   "ref": "Q13(e)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.1",
+    "11.3.2.1"
+   ],
+   "question": "Hence, find the exact value of the definite integral $\\displaystyle\\int_{\\pi/6}^{\\pi/3}\\frac{\\cos\\left(x+\\frac\\pi6\\right)}{\\cos\\frac\\pi6\\sin x}\\,dx$.",
+   "answer": "Using part (i) with $a=\\frac\\pi6$, $b=x$: the integrand is $\\cot x-\\tan\\frac\\pi6=\\dfrac{\\cos x}{\\sin x}-\\dfrac1{\\sqrt3}$. $$\\int_{\\pi/6}^{\\pi/3}\\left(\\frac{\\cos x}{\\sin x}-\\frac1{\\sqrt3}\\right)dx=\\Big[\\ln|\\sin x|-\\frac x{\\sqrt3}\\Big]_{\\pi/6}^{\\pi/3}=\\ln\\frac{\\sqrt3}2-\\frac\\pi{3\\sqrt3}-\\ln\\frac12+\\frac\\pi{6\\sqrt3}=\\ln\\sqrt3-\\frac\\pi{6\\sqrt3}.$$"
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "The diagram shows the graph of the function $y=\\tan^{-1}(1-x)$. The region in the first quadrant bounded by the curve and the coordinate axes is rotated through $2\\pi$ radians about the $y$-axis. Find, in simplest exact form, the volume of the solid formed.",
+   "answer": "$\\tan y=1-x\\Rightarrow x=1-\\tan y$. The curve meets the $y$-axis at $y=\\tan^{-1}1=\\frac\\pi4$, so $V=\\pi\\displaystyle\\int_0^{\\pi/4}(1-\\tan y)^2dy=\\pi\\int_0^{\\pi/4}(1-2\\tan y+\\tan^2y)\\,dy=\\pi\\int_0^{\\pi/4}(\\sec^2y-2\\tan y)\\,dy$ (using $1+\\tan^2y=\\sec^2y$) $=\\pi\\Big[\\tan y+2\\ln(\\cos y)\\Big]_0^{\\pi/4}=\\pi\\left(1+2\\ln\\frac1{\\sqrt2}\\right)=\\pi(1-\\ln2)$ cubic units.",
+   "images": [
+    "assets/img/ext1-2025-danebank/q14b.png"
+   ]
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.16"
+   ],
+   "question": "A tank initially contains $1000$ litres of water and $20$ kg of dissolved salt. Fresh water is pumped into the tank at a rate of $10$ L/min. The solution is thoroughly mixed at all times and is drained from the tank at a rate of $5$ L/min. Let $A$ be the amount of salt in the tank, in kg, at time $t$, in minutes. By considering the volume of liquid in the tank at time $t$, show that $C$, the concentration of salt in the tank, in kg/L, at time $t$ can be given by $C=\\dfrac{A}{1000+5t}$.",
+   "answer": "The volume increases at $10-5=5$ L/min, so $V=1000+5t$ litres. Concentration $=\\dfrac{\\text{amount of salt}}{\\text{volume}}$, so $C=\\dfrac{A}{1000+5t}$."
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.16"
+   ],
+   "question": "In the context of the salt tank (fresh water in at $10$ L/min, solution out at $5$ L/min, concentration $C=\\frac{A}{1000+5t}$), explain why $\\dfrac{dA}{dt}=-5C$.",
+   "answer": "The rate of change of salt equals the rate in minus the rate out. Fresh water carries no salt, so the rate in is $10\\times0=0$. Salt leaves at $5\\ \\text{L/min}\\times C\\ \\text{kg/L}=5C$ kg/min. Hence $\\dfrac{dA}{dt}=0-5C=-5C$."
+  },
+  {
+   "ref": "Q14(c)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.4.13",
+    "12.5.4.16"
+   ],
+   "question": "Hence find $A$ as a function of $t$ for the salt tank (initially $20$ kg of salt in $1000$ L, with $\\frac{dA}{dt}=-5C$ and $C=\\frac{A}{1000+5t}$).",
+   "answer": "$\\dfrac{dA}{dt}=-\\dfrac{5A}{1000+5t}$. Separating variables: $\\displaystyle\\int\\frac1A\\,dA=\\int\\frac{-5}{1000+5t}\\,dt\\Rightarrow\\ln A=-\\ln(1000+5t)+c$ ($A>0$, $t\\ge0$). When $t=0$, $A=20$: $\\ln20=-\\ln1000+c\\Rightarrow c=\\ln20000$. So $\\ln A=\\ln\\dfrac{20000}{1000+5t}$ and $$A=\\frac{20000}{1000+5t}=\\frac{4000}{200+t}\\ \\text{kg}.$$"
+  },
+  {
+   "ref": "Q14(d)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.6.5",
+    "12.2.6.8"
+   ],
+   "question": "A motorcycle stunt rider is positioned on top of a $4.8$ m high wharf and will ride off the end of the wharf at a constant speed with the intention of landing on a barge positioned in the water $25$ m from the wharf. The barge is $3.6$ m wide and sits $1.6$ m above the water level. To stop safely, she needs to land in the centre of the barge. For our calculations, we will use the point at which she leaves the wharf as the origin, gravity as $g=10\\ \\text{ms}^{-2}$ and treat the bike and rider as a single particle. Using $t$ as the time in seconds after leaving the edge of the wharf, the position vector $\\mathbf r(t)$ is given by $$\\mathbf r(t)=\\begin{pmatrix}Vt\\\\-5t^2\\end{pmatrix}\\quad\\text{(do not prove this)}$$ where $V$ is the velocity in ms$^{-1}$ when she leaves the wharf. Find the initial velocity required for her to land exactly in the centre of the barge and calculate the vertical component of her velocity when she lands.",
+   "answer": "The barge deck is $4.8-1.6=3.2$ m below the origin, so landing needs $y=-3.2$. $-5t^2=-3.2\\Rightarrow t^2=0.64\\Rightarrow t=0.8$ s ($t\\ge0$). The centre of the barge is $25+\\frac{3.6}2=26.8$ m horizontally, so $Vt=26.8\\Rightarrow V=\\dfrac{26.8}{0.8}=33.5$ m/s. Vertical velocity: $\\dot y=\\dfrac d{dt}(-5t^2)=-10t$; at $t=0.8$, $\\dot y=-8$ m/s (i.e. $8$ m/s downwards).",
+   "images": [
+    "assets/img/ext1-2025-danebank/q14d.png"
+   ]
+  }
+ ]
+}
