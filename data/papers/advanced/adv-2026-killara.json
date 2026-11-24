@@ -1,0 +1,670 @@
+{
+ "id": "adv-2026-killara",
+ "course": "advanced",
+ "school": "Killara",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5328",
+  "title": "Killara 2026 w. sol"
+ },
+ "indexed": "2026-11-24",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.5.2.5"
+   ],
+   "question": "What is the solution to the equation $\\log_3(x+5)=4$?",
+   "answer": "$x+5=3^4=81$, so $x=76$ (D).",
+   "options": [
+    "$7$",
+    "$59$",
+    "$61$",
+    "$76$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.1.6"
+   ],
+   "question": "The probability distribution for a discrete random variable $X$ is shown.\n\n| $x$ | 3 | 5 | 10 |\n|---|---|---|---|\n| $P(X=x)$ | 0.5 | 0.4 | |\n\nWhat is $E(X)$?",
+   "answer": "Probabilities sum to 1, so $P(X=10)=0.1$. $E(X)=3(0.5)+5(0.4)+10(0.1)=1.5+2+1=4.5$ (C).",
+   "options": [
+    "$0.1$",
+    "$3.5$",
+    "$4.5$",
+    "$5$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "The table shows future value interest factors for an annuity of \\$1.\n\n| Periods | 1% | 2% | 3% | 4% | 5% |\n|---|---|---|---|---|---|\n| 4 | 4.0604 | 4.1216 | 4.1836 | 4.2465 | 4.3101 |\n| 5 | 5.1010 | 5.2040 | 5.3091 | 5.4163 | 5.5256 |\n| 6 | 6.1520 | 6.3081 | 6.4684 | 6.6330 | 6.8019 |\n| 7 | 7.2135 | 7.4343 | 7.6625 | 7.8983 | 8.1420 |\n| 8 | 8.2857 | 8.5830 | 8.8923 | 9.2142 | 9.5491 |\n\nEva makes deposits of \\$1200 at the end of each year into an investment account for 5 years. The account pays interest at 4% per annum, compounded annually. What is the future value of Eva's annuity, to the nearest dollar?",
+   "answer": "Use the 5-period, 4% factor: $1200\\times5.4163=6499.56\\approx\\$6500$ (C).",
+   "options": [
+    "\\$5172",
+    "\\$6000",
+    "\\$6500",
+    "\\$7300"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.6.3"
+   ],
+   "question": "What is $\\displaystyle\\int\\frac{x}{x^2+1}\\,dx$?",
+   "answer": "The numerator is half the derivative of the denominator: $\\int\\frac{x}{x^2+1}dx=\\frac12\\int\\frac{2x}{x^2+1}dx=\\frac12\\ln(x^2+1)+C$ (A).",
+   "options": [
+    "$\\frac12\\ln(x^2+1)+C$",
+    "$2\\ln(x^2+1)+C$",
+    "$\\frac{2}{\\ln(x^2+1)}+C$",
+    "$\\frac{1}{2\\ln(x^2+1)}+C$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.4.11"
+   ],
+   "question": "Which graph shows the function $y=-x^2(x-2)(x+3)$?",
+   "answer": "The zeros are $x=-3$, $x=0$ (double, so the curve touches the axis) and $x=2$. The leading coefficient is negative, so the ends point down. Between $-3$ and $2$ the curve is above the axis (e.g. $x=-1$ gives $y=6$), and $x=-2$ gives $y=16$, a higher peak than $x=1$ ($y=4$). Only B has these features (B).",
+   "options": [
+    "![Option A](assets/img/adv-2026-killara/q5a.png)",
+    "![Option B](assets/img/adv-2026-killara/q5b.png)",
+    "![Option C](assets/img/adv-2026-killara/q5c.png)",
+    "![Option D](assets/img/adv-2026-killara/q5d.png)"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.7"
+   ],
+   "question": "A geometric series is given by $4+2x+x^2+\\dfrac{x^3}{2}+\\cdots$. If the limiting sum of the series is $10$, what is the value of $x$?",
+   "answer": "$a=4$, $r=\\frac x2$. $S_\\infty=\\frac{4}{1-x/2}=10\\Rightarrow1-\\frac x2=\\frac25\\Rightarrow x=\\frac65$, and $|r|=\\frac35<1$ is valid (D).",
+   "options": [
+    "$\\frac12$",
+    "$\\frac35$",
+    "$\\frac45$",
+    "$\\frac65$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.13"
+   ],
+   "question": "A random variable is normally distributed with mean $0$ and standard deviation $1$. The table gives the probability that this random variable is less than $z$.\n\n| $z$ | 0.7 | 0.8 | 0.9 | 1 | 1.1 | 1.2 |\n|---|---|---|---|---|---|---|\n| Probability | 0.7580 | 0.7881 | 0.8159 | 0.8413 | 0.8643 | 0.8849 |\n\nWhat is $P(-0.8<z<1.2)$?",
+   "answer": "By symmetry $P(z<-0.8)=1-0.7881=0.2119$. So $P(-0.8<z<1.2)=0.8849-0.2119=0.673$ (C).",
+   "options": [
+    "$0.0968$",
+    "$0.5968$",
+    "$0.673$",
+    "$0.68$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/adv-2026-killara/q7.png"
+   ]
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.6.1.10"
+   ],
+   "question": "The function $f(x)=\\ln(x+2)$ has the following transformations applied: it is translated up by $\\ln 2$ units, then dilated horizontally by a factor of $2$. The result is a new function $g(x)$. Which single transformation could also transform $f(x)$ to $g(x)$?",
+   "answer": "Translating up by $\\ln2$ gives $\\ln(x+2)+\\ln2=\\ln(2(x+2))$. A horizontal dilation by factor 2 replaces $x$ by $\\frac x2$: $\\ln\\left(2\\left(\\frac x2+2\\right)\\right)=\\ln(x+4)$. This equals $f(x+2)$, a translation left 2 units (A).",
+   "options": [
+    "Translation left 2 units",
+    "Translation right 2 units",
+    "Dilate vertically by a factor of 2",
+    "Dilate vertically by a factor of $\\frac12$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.10"
+   ],
+   "question": "How many solutions are there to $(\\tan x-1)(\\sin^2x-1)=0$ for $x\\in[0,2\\pi]$?",
+   "answer": "$\\tan x=1$ gives $x=\\frac\\pi4,\\frac{5\\pi}4$. $\\sin^2x=1$ gives $x=\\frac\\pi2,\\frac{3\\pi}2$, but $\\tan x$ is undefined there, so these are not solutions. Hence 2 solutions (B).",
+   "options": [
+    "$1$",
+    "$2$",
+    "$3$",
+    "$4$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.1.9.7"
+   ],
+   "question": "Two functions $y=f(x)$ (an increasing exponential-type curve that is always positive) and $y=g(x)$ (a U-shaped curve with a small negative minimum, crossing the $x$-axis twice) are shown. Which graph best represents $y=f(g(x))$?",
+   "answer": "$f$ is always positive, so $f(g(x))$ is always above the $x$-axis, which rules out C and D. $g$ is symmetric-looking and U-shaped, so $f(g(x))$ decreases to a minimum where $g$ is lowest and then increases, giving a U-shape that is positive everywhere; A is not U-shaped (B).",
+   "options": [
+    "![Option A](assets/img/adv-2026-killara/q10a.png)",
+    "![Option B](assets/img/adv-2026-killara/q10b.png)",
+    "![Option C](assets/img/adv-2026-killara/q10c.png)",
+    "![Option D](assets/img/adv-2026-killara/q10d.png)"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/adv-2026-killara/q10fg.png"
+   ]
+  },
+  {
+   "ref": "Q11",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.11.6"
+   ],
+   "question": "Solve $|3x-4|=13$.",
+   "answer": "$3x-4=\\pm13$. So $3x=17$ or $3x=-9$, giving $x=\\frac{17}3$ or $x=-3$."
+  },
+  {
+   "ref": "Q12",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.6"
+   ],
+   "question": "Pine Meadow High School's Year 12 students sat a Mathematics examination. Their marks were normally distributed with a mean of 75 and standard deviation of 8. What percentage of students would you expect to have scored between 67 and 91?",
+   "answer": "$z=\\frac{67-75}8=-1$ and $z=\\frac{91-75}8=2$. By the empirical rule, $P(-1<z<0)=\\frac{68}2=34\\%$ and $P(0<z<2)=\\frac{95}2=47.5\\%$. Total $=81.5\\%$."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.2",
+    "12.2.3.8"
+   ],
+   "question": "The number of subscribers of an influencer after a viral post is modelled by $S=A(1.075)^n$, where $S$ is the number of subscribers and $n$ is the number of days after the video was released. After 2 days the number of subscribers has hit $20\\,000$. Find the value of $A$, and describe its meaning in the context of the question.",
+   "answer": "$20000=A(1.075)^2\\Rightarrow A=\\frac{20000}{1.075^2}\\approx17307$. $A$ is the number of subscribers at the time the video was released ($n=0$), about $17\\,307$."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.2.5"
+   ],
+   "question": "The number of subscribers of an influencer after a viral post is modelled by $S=17307(1.075)^n$, where $n$ is the number of days after the video was released. How many days would it take for the influencer to reach $50\\,000$ subscribers, correct to the nearest day?",
+   "answer": "$1.075^n=\\frac{50000}{17307}$, so $n=\\log_{1.075}\\!\\left(\\frac{50000}{17307}\\right)=\\frac{\\ln(2.889\\ldots)}{\\ln1.075}\\approx14.66$. So it takes about 15 days."
+  },
+  {
+   "ref": "Q14",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.5.1",
+    "11.6.1.2"
+   ],
+   "question": "Sketch the function $y=\\dfrac3{x-2}+1$, clearly showing all intercepts and asymptotes.",
+   "answer": "$x$-intercept: $0=\\frac3{x-2}+1\\Rightarrow x-2=-3\\Rightarrow x=-1$. $y$-intercept: $x=0\\Rightarrow y=-\\frac32+1=-\\frac12$. Asymptotes: $x=2$ (vertical) and $y=1$ (horizontal). The graph is a hyperbola (the graph of $\\frac3x$ shifted right 2 and up 1) with branches in the top-right and bottom-left regions formed by the asymptotes.",
+   "answer_images": [
+    "assets/img/adv-2026-killara/q14_ans.png"
+   ]
+  },
+  {
+   "ref": "Q15",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.2.7"
+   ],
+   "question": "A drawer contains 6 black socks and 8 white socks. Two socks are selected at random, without replacement. What is the probability that the two socks are the same colour?",
+   "answer": "$P(BB)+P(WW)=\\frac6{14}\\times\\frac5{13}+\\frac8{14}\\times\\frac7{13}=\\frac{30+56}{182}=\\frac{43}{91}$."
+  },
+  {
+   "ref": "Q16",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.1.12"
+   ],
+   "question": "Show that $\\operatorname{cosec}\\theta-\\sin\\theta=\\cos\\theta\\cot\\theta$.",
+   "answer": "$\\text{LHS}=\\frac1{\\sin\\theta}-\\sin\\theta=\\frac{1-\\sin^2\\theta}{\\sin\\theta}=\\frac{\\cos^2\\theta}{\\sin\\theta}=\\cos\\theta\\cdot\\frac{\\cos\\theta}{\\sin\\theta}=\\cos\\theta\\cot\\theta=\\text{RHS}$."
+  },
+  {
+   "ref": "Q17",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.2"
+   ],
+   "question": "Find the equation of the tangent to the curve $y=(\\ln x+1)^3$ at $x=e$.",
+   "answer": "$y(e)=(1+1)^3=8$. $y'=3(\\ln x+1)^2\\cdot\\frac1x$, so $m=y'(e)=\\frac{3\\cdot4}e=\\frac{12}e$. Tangent: $y-8=\\frac{12}e(x-e)$, i.e. $y=\\frac{12}ex-4$."
+  },
+  {
+   "ref": "Q18(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.1",
+    "12.7.1.3"
+   ],
+   "question": "Present value interest factors for an annuity of \\$1 are given below.\n\n| Periods | 0.20% | 0.22% | 0.24% | 0.26% | 0.28% |\n|---|---|---|---|---|---|\n| 6 | 5.9582 | 5.9541 | 5.9499 | 5.9458 | 5.9416 |\n| 12 | 11.8454 | 11.8301 | 11.8149 | 11.7996 | 11.7844 |\n| 18 | 17.6625 | 17.6293 | 17.5961 | 17.5630 | 17.5300 |\n| 24 | 23.4103 | 23.3524 | 23.2947 | 23.2373 | 23.1800 |\n\nLuka deposits a lump sum into an account which earns interest at 2.4% per annum, compounding monthly. He can make withdrawals of \\$750 at the end of each month for 2 years. What is the minimum lump sum he must have deposited to be able to do this? Give your answer to the nearest dollar.",
+   "answer": "The monthly rate is $\\frac{2.4}{12}=0.2\\%$ and there are 24 periods, so the factor is $23.4103$. $PV=750\\times23.4103=17557.7\\approx\\$17\\,558$."
+  },
+  {
+   "ref": "Q18(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.1",
+    "12.7.1.3"
+   ],
+   "question": "Present value interest factors for an annuity of \\$1 are given below.\n\n| Periods | 0.20% | 0.22% | 0.24% | 0.26% | 0.28% |\n|---|---|---|---|---|---|\n| 6 | 5.9582 | 5.9541 | 5.9499 | 5.9458 | 5.9416 |\n| 12 | 11.8454 | 11.8301 | 11.8149 | 11.7996 | 11.7844 |\n| 18 | 17.6625 | 17.6293 | 17.5961 | 17.5630 | 17.5300 |\n| 24 | 23.4103 | 23.3524 | 23.2947 | 23.2373 | 23.1800 |\n\nLuka deposits \\$17 558 into an account which earns interest at 2.4% per annum, compounding monthly. He makes no withdrawals for the first 6 months, then begins monthly withdrawals at the end of each month for the remaining 18 months. What is the maximum amount he can withdraw each month, to the nearest dollar?",
+   "answer": "After 6 months the balance is $17558(1.002)^6\\approx\\$17\\,769.75$. This is the present value of an 18-month annuity at 0.2%, with factor $17.6625$. Withdrawal $=\\frac{17769.75}{17.6625}\\approx\\$1006$."
+  },
+  {
+   "ref": "Q19(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.2.8"
+   ],
+   "question": "State the domain of $f(x)=\\dfrac1{\\sqrt{x-1}}$.",
+   "answer": "We need $x-1>0$ (the square root must be real and the denominator non-zero), so the domain is $x>1$."
+  },
+  {
+   "ref": "Q19(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.1"
+   ],
+   "question": "For $f(x)=\\dfrac1{\\sqrt{x-1}}$, find $f'(x)$ and justify why the function is always decreasing.",
+   "answer": "$f(x)=(x-1)^{-1/2}$, so $f'(x)=-\\frac12(x-1)^{-3/2}=-\\frac1{2\\sqrt{(x-1)^3}}$. For all $x>1$ in the domain, $(x-1)^{3/2}>0$, so $f'(x)<0$ and the function is always decreasing."
+  },
+  {
+   "ref": "Q20",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.5"
+   ],
+   "question": "Find the exact area between the curve $y=x^2(x-3)$ and the $x$-axis, for $0\\le x\\le4$.",
+   "answer": "The curve is below the axis for $0<x<3$ and above for $3<x<4$. An antiderivative of $x^3-3x^2$ is $\\frac{x^4}4-x^3$. Area below: $-\\left[\\frac{x^4}4-x^3\\right]_0^3=-\\left(\\frac{81}4-27\\right)=\\frac{27}4$. Area above: $\\left[\\frac{x^4}4-x^3\\right]_3^4=(64-64)-\\left(\\frac{81}4-27\\right)=\\frac{27}4$. Total area $=\\frac{27}2$ square units."
+  },
+  {
+   "ref": "Q21(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "The graph shows the function $y=k\\sin(ax)+c$. Determine the values of $k$, $a$ and $c$.",
+   "answer": "The maximum is $4$ and the minimum is $-2$, so $c=\\frac{4+(-2)}2=1$ and $k=\\frac{4-(-2)}2=3$. The graph passes through $(0,1)$ and has period $\\pi$ (two full cycles by $2\\pi$), so $a=\\frac{2\\pi}{\\pi}=2$. Hence $k=3$, $a=2$, $c=1$.",
+   "images": [
+    "assets/img/adv-2026-killara/q21.png"
+   ]
+  },
+  {
+   "ref": "Q21(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "The function $y=3\\sin(2x)+1$ has range $[-2,4]$. It is transformed by translating, then dilating. Fill in the blanks so that the range of the new function is $y\\in[-3,9]$: a translation up ___ units, then a vertical dilation by a factor of ___.",
+   "answer": "Translate up $t$: range $[-2+t,4+t]$. Dilate vertically by $m$: $[m(t-2),m(t+4)]=[-3,9]$. Subtracting, $6m=12$, so $m=2$; then $t+4=4.5$, so $t=0.5$. Translation up $0.5$ units, then vertical dilation by a factor of $2$."
+  },
+  {
+   "ref": "Q22",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.4"
+   ],
+   "question": "Find the global maximum and minimum of the curve $y=x^3+x^2-5x-2$ on the domain $x\\in[-2,3]$.",
+   "answer": "$y'=3x^2+2x-5=(3x+5)(x-1)=0\\Rightarrow x=-\\frac53,1$. $y(1)=-5$, $y\\left(-\\frac53\\right)=\\frac{121}{27}\\approx4.48$. End points: $y(-2)=4$, $y(3)=19$. Global maximum is $19$ (at $x=3$) and global minimum is $-5$ (at $x=1$)."
+  },
+  {
+   "ref": "Q23(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.7"
+   ],
+   "question": "A continuous random variable $X$ has probability density function $f(x)=k\\sin\\left(x+\\frac\\pi3\\right)$ for $0\\le x\\le\\frac{2\\pi}3$, and $0$ otherwise. Show that $k=\\frac23$.",
+   "answer": "$\\int_0^{2\\pi/3}k\\sin\\left(x+\\frac\\pi3\\right)dx=1$, so $k\\left[-\\cos\\left(x+\\frac\\pi3\\right)\\right]_0^{2\\pi/3}=k\\left(-\\cos\\pi+\\cos\\frac\\pi3\\right)=k\\left(1+\\frac12\\right)=\\frac{3k}2=1$. Hence $k=\\frac23$."
+  },
+  {
+   "ref": "Q23(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.9"
+   ],
+   "question": "A continuous random variable $X$ has probability density function $f(x)=\\frac23\\sin\\left(x+\\frac\\pi3\\right)$ for $0\\le x\\le\\frac{2\\pi}3$, and $0$ otherwise. Find the cumulative distribution function $F(x)$ for $0\\le x\\le\\frac{2\\pi}3$.",
+   "answer": "$F(x)=\\int\\frac23\\sin\\left(x+\\frac\\pi3\\right)dx=-\\frac23\\cos\\left(x+\\frac\\pi3\\right)+c$. Since $F(0)=0$: $-\\frac23\\cdot\\frac12+c=0$, so $c=\\frac13$. Hence $F(x)=-\\frac23\\cos\\left(x+\\frac\\pi3\\right)+\\frac13$."
+  },
+  {
+   "ref": "Q23(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.11"
+   ],
+   "question": "A continuous random variable $X$ has cumulative distribution function $F(x)=-\\frac23\\cos\\left(x+\\frac\\pi3\\right)+\\frac13$ for $0\\le x\\le\\frac{2\\pi}3$. Find the median, correct to 2 decimal places.",
+   "answer": "Set $F(x)=0.5$: $-\\frac23\\cos\\left(x+\\frac\\pi3\\right)=\\frac16\\Rightarrow\\cos\\left(x+\\frac\\pi3\\right)=-\\frac14$. Then $x+\\frac\\pi3=\\cos^{-1}\\left(-\\frac14\\right)\\approx1.8235$ (the only value in $\\left[\\frac\\pi3,\\pi\\right]$), so $x\\approx0.78$."
+  },
+  {
+   "ref": "Q24",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "In an arithmetic sequence, the sum of the first six terms is 78 and the sum of the first ten terms is 210. Find the first term and the common difference.",
+   "answer": "$S_6=3(2a+5d)=78\\Rightarrow2a+5d=26$. $S_{10}=5(2a+9d)=210\\Rightarrow2a+9d=42$. Subtracting: $4d=16$, so $d=4$, then $2a+20=26$ gives $a=3$. First term $3$, common difference $4$."
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "A ship travels from point $A$ to point $B$ on a bearing of $076^\\circ$T for 62.6 km. It then travels on a bearing of $158^\\circ$T until it reaches point $C$, which is 71.6 km from $A$. What is the size of $\\angle ABC$?",
+   "answer": "At $B$ the direction back to $A$ is $076^\\circ+180^\\circ=256^\\circ$T, and the direction to $C$ is $158^\\circ$T. $\\angle ABC=256^\\circ-158^\\circ=98^\\circ$ (equivalently $360^\\circ-104^\\circ-158^\\circ$)."
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "In triangle $ABC$, $AB=62.6$ km, $AC=71.6$ km and $\\angle ABC=98^\\circ$. Find the distance $BC$, correct to 3 significant figures.",
+   "answer": "Sine rule: $\\frac{\\sin C}{62.6}=\\frac{\\sin98^\\circ}{71.6}$, so $\\sin C=0.8658\\ldots$ and $C\\approx59.97^\\circ$ (acute, as $B$ is obtuse). Then $\\angle A=180^\\circ-98^\\circ-59.97^\\circ=22.03^\\circ$. $\\frac{BC}{\\sin22.03^\\circ}=\\frac{71.6}{\\sin98^\\circ}$, so $BC\\approx27.1$ km."
+  },
+  {
+   "ref": "Q26",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.7.3.8"
+   ],
+   "question": "The Venn diagram shows two events $B$ and $C$ and some associated probabilities, where $p$ and $q$ are unknown probabilities. The events $B$ and $C$ are independent. Find $p$ and $q$.",
+   "answer": "$P(B)=0.35+0.25=0.6$ and $P(B\\cap C)=0.25$. Independence gives $P(C|B)=P(C)$: $\\frac{0.25}{0.6}=p+0.25$, so $p=\\frac5{12}-\\frac14=\\frac16$. Then $q=1-0.35-0.25-\\frac16=\\frac7{30}$.",
+   "images": [
+    "assets/img/adv-2026-killara/q26.png"
+   ]
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.8"
+   ],
+   "question": "A square pyramid has 4 isosceles triangular faces of equal area. These triangles have two sides of length 4 cm. The area of one triangular face is $6\\ \\text{cm}^2$ and the angle at the top of the pyramid for one of these triangles is $\\theta$, where $\\theta$ is acute. Find the exact value of $\\cos\\theta$.",
+   "answer": "Area $=\\frac12(4)(4)\\sin\\theta=6\\Rightarrow\\sin\\theta=\\frac34$. As $\\theta$ is acute, $\\cos\\theta=\\sqrt{1-\\frac9{16}}=\\frac{\\sqrt7}4$."
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "In an isosceles triangular face of a square pyramid, the two equal sides are 4 cm and the angle between them is $\\theta$, where $\\cos\\theta=\\frac{\\sqrt7}4$. The base of the pyramid is a square whose side is the third side of this triangle. Find the exact area of the base in the form $a+b\\sqrt c$.",
+   "answer": "Base area $=s^2$ where $s^2=4^2+4^2-2(4)(4)\\cos\\theta=32-32\\cdot\\frac{\\sqrt7}4=32-8\\sqrt7$ (cosine rule). So the area is $32-8\\sqrt7\\ \\text{cm}^2$."
+  },
+  {
+   "ref": "Q28",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.2.8",
+    "12.6.2.9"
+   ],
+   "question": "The probability density function shown has equation $f(x)=2xe^{-x^2}$ for $0\\le x\\le\\infty$ and $0$ otherwise. The maximum turning point $\\left(\\frac1{\\sqrt2},\\sqrt{\\frac2e}\\right)$ is given. Find $P(X<\\text{mode})$, correct to 3 significant figures.",
+   "answer": "The mode is the $x$-value of the maximum, $\\frac1{\\sqrt2}$. $P\\left(X<\\frac1{\\sqrt2}\\right)=\\int_0^{1/\\sqrt2}2xe^{-x^2}dx=\\left[-e^{-x^2}\\right]_0^{1/\\sqrt2}=1-e^{-1/2}\\approx0.393$.",
+   "images": [
+    "assets/img/adv-2026-killara/q28.png"
+   ]
+  },
+  {
+   "ref": "Q29(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.1.3"
+   ],
+   "question": "A reducing-balance loan of \\$900 000 is taken out. Interest is charged at a monthly rate of 0.4%, compounding monthly. Interest is added during the month and at the end of each month \\$$M$ is repaid. Let $A_n$ be the amount owing at the end of month $n$. Show that $A_2=900\\,000(1.004)^2-M(1+1.004)$.",
+   "answer": "$A_1=900000(1.004)-M$. $A_2=A_1(1.004)-M=900000(1.004)^2-M(1.004)-M=900000(1.004)^2-M(1+1.004)$."
+  },
+  {
+   "ref": "Q29(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.1.3"
+   ],
+   "question": "A reducing-balance loan of \\$900 000 has interest at 0.4% per month, compounding monthly, with a repayment of \\$$M$ at the end of each month. After 10 years the amount still owing is \\$660 800. Find the monthly repayment $M$, to the nearest dollar.",
+   "answer": "$A_{120}=900000(1.004)^{120}-M\\left(1+1.004+\\cdots+1.004^{119}\\right)=660800$. The geometric sum is $\\frac{1.004^{120}-1}{0.004}$, so $M\\cdot\\frac{1.004^{120}-1}{0.004}=900000(1.004)^{120}-660800\\approx792\\,300$. Hence $M\\approx\\$5157$."
+  },
+  {
+   "ref": "Q29(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.7.1.3"
+   ],
+   "question": "A loan has \\$660 800 owing and interest of 0.4% per month, compounding monthly. Monthly repayments of \\$5657 are made at the end of each month. How many months will it take to pay off the loan?",
+   "answer": "$A_n=660800(1.004)^n-5657\\cdot\\frac{1.004^n-1}{0.004}=0$. Since $\\frac{5657}{0.004}=1\\,414\\,250$: $660800(1.004)^n-1414250(1.004)^n+1414250=0$, so $753450(1.004)^n=1414250$ and $(1.004)^n=1.87703\\ldots$. $n=\\log_{1.004}(1.87703)\\approx157.7$, so it takes 158 months (rounded up, since a final smaller payment is needed). (The repayment of \\$5657 is the original \\$5157 plus \\$500.)"
+  },
+  {
+   "ref": "Q30(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "An observation wheel has radius 70 m. The height above the ground of an observer after $t$ minutes is $h(t)=-70\\cos\\left(\\frac{\\pi t}{10}\\right)+80$. What is the maximum height of the wheel above the ground?",
+   "answer": "The maximum occurs when $\\cos\\left(\\frac{\\pi t}{10}\\right)=-1$: $h=70+80=150$ m."
+  },
+  {
+   "ref": "Q30(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "The height above the ground of an observer on a wheel after $t$ minutes is $h(t)=-70\\cos\\left(\\frac{\\pi t}{10}\\right)+80$. How many minutes does it take to complete one rotation?",
+   "answer": "Period $=\\frac{2\\pi}{\\pi/10}=20$ minutes."
+  },
+  {
+   "ref": "Q30(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "The height above the ground of an observer on a wheel after $t$ minutes is $h(t)=-70\\cos\\left(\\frac{\\pi t}{10}\\right)+80$ for one rotation ($0\\le t\\le20$). A landmark can be seen when the observer's height is at least 100 m. For how long will the landmark be visible, correct to the nearest minute?",
+   "answer": "$-70\\cos\\left(\\frac{\\pi t}{10}\\right)+80=100\\Rightarrow\\cos\\left(\\frac{\\pi t}{10}\\right)=-\\frac27$. The related angle is $\\cos^{-1}\\frac27\\approx1.281$, and cosine is negative in quadrants 2 and 3: $\\frac{\\pi t}{10}=\\pi-1.281=1.861$ or $\\pi+1.281=4.423$, so $t\\approx5.92$ or $14.08$. The landmark is visible between these times, i.e. for $14.08-5.92\\approx8$ minutes."
+  },
+  {
+   "ref": "Q31",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.8.5",
+    "12.4.7.1"
+   ],
+   "question": "Find the exact area between the curves $y=\\tan^2\\left(\\frac x2\\right)$ and $y=3$ (the shaded region in the diagram).",
+   "answer": "Intersections: $\\tan^2\\frac x2=3\\Rightarrow\\tan\\frac x2=\\pm\\sqrt3\\Rightarrow x=\\pm\\frac{2\\pi}3$. By symmetry, Area $=2\\int_0^{2\\pi/3}\\left(3-\\tan^2\\frac x2\\right)dx$. Using $\\tan^2\\frac x2=\\sec^2\\frac x2-1$: $=2\\int_0^{2\\pi/3}\\left(4-\\sec^2\\frac x2\\right)dx=2\\left[4x-2\\tan\\frac x2\\right]_0^{2\\pi/3}=2\\left(\\frac{8\\pi}3-2\\sqrt3\\right)=\\frac{16\\pi}3-4\\sqrt3$ square units.",
+   "images": [
+    "assets/img/adv-2026-killara/q31.png"
+   ]
+  },
+  {
+   "ref": "Q32(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.3"
+   ],
+   "question": "The curve $y=\\sqrt{1-\\frac{x^2}a}$ is shown. A rectangle is constructed under the curve between $x$ and $-x$. Show that the area of the rectangle is $A(x)=\\sqrt{4x^2-\\frac{4x^4}a}$.",
+   "answer": "The width is $2x$ and the height is $\\sqrt{1-\\frac{x^2}a}$. $A=2x\\sqrt{1-\\frac{x^2}a}=\\sqrt{4x^2}\\sqrt{1-\\frac{x^2}a}=\\sqrt{4x^2-\\frac{4x^4}a}$ (for $x>0$).",
+   "images": [
+    "assets/img/adv-2026-killara/q32.png"
+   ]
+  },
+  {
+   "ref": "Q32(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.4"
+   ],
+   "question": "A rectangle under the curve $y=\\sqrt{1-\\frac{x^2}a}$ between $-x$ and $x$ has area $A(x)=\\sqrt{4x^2-\\frac{4x^4}a}$. There is an $x$ value greater than 0 that gives the maximum area. Show that this is $x=\\sqrt{\\frac a2}$. (You do not need to prove it is a maximum.)",
+   "answer": "$A'(x)=\\frac{8x-\\frac{16x^3}a}{2\\sqrt{4x^2-\\frac{4x^4}a}}=0$ when $8x-\\frac{16x^3}a=0$, i.e. $8x\\left(1-\\frac{2x^2}a\\right)=0$. As $x\\ne0$, $x^2=\\frac a2$, so $x=\\sqrt{\\frac a2}$ for $x>0$."
+  },
+  {
+   "ref": "Q32(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.4"
+   ],
+   "question": "The largest rectangle under the curve $y=\\sqrt{1-\\frac{x^2}a}$ (between $-x$ and $x$) occurs at $x=\\sqrt{\\frac a2}$, where the area function is $A(x)=\\sqrt{4x^2-\\frac{4x^4}a}$. This largest rectangle has area $10$ square units. Find $a$.",
+   "answer": "$A\\left(\\sqrt{\\frac a2}\\right)=\\sqrt{4\\cdot\\frac a2-\\frac{4\\cdot a^2/4}a}=\\sqrt{2a-a}=\\sqrt a=10$, so $a=100$."
+  },
+  {
+   "ref": "Q33(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.1"
+   ],
+   "question": "Differentiate $f(x)=x\\ln x$.",
+   "answer": "By the product rule, $f'(x)=x\\cdot\\frac1x+\\ln x=1+\\ln x$."
+  },
+  {
+   "ref": "Q33(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.1"
+   ],
+   "question": "Using the fact that $\\frac{d}{dx}(x\\ln x)=1+\\ln x$, find an expression for $\\displaystyle\\int_1^k\\ln x\\,dx$.",
+   "answer": "$\\ln x=(1+\\ln x)-1$, so $\\int_1^k\\ln x\\,dx=\\left[x\\ln x\\right]_1^k-\\left[x\\right]_1^k=k\\ln k-0-(k-1)=k\\ln k-k+1$."
+  },
+  {
+   "ref": "Q33(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.4.8.1"
+   ],
+   "question": "The graph shows $y=x\\ln x$. Given that $\\displaystyle\\int_1^k\\ln x\\,dx=k\\ln k-k+1$, use the graph to estimate the value of $k$ that solves $\\displaystyle\\int_1^k\\ln x\\,dx=4$.",
+   "answer": "We need $k\\ln k-k+1=4$, i.e. $k\\ln k=k+3$. So find where the graph of $y=x\\ln x$ meets the line $y=x+3$. At $x=5$ the line gives $8$ and the curve reads about $8$, so $k\\approx5$.",
+   "images": [
+    "assets/img/adv-2026-killara/q33.png"
+   ]
+  },
+  {
+   "ref": "Q34",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.3.13",
+    "11.7.3.4"
+   ],
+   "question": "On a farm the weights of baby cows have the following means and standard deviations (normally distributed).\n\n| | Male | Female |\n|---|---|---|\n| Mean | 39 kg | 36 kg |\n| Standard deviation | 4 kg | 5 kg |\n\n60% of the baby cows are male and 40% are female. One baby cow is chosen at random. Given that its weight is less than 31 kg, what is the probability that it is female? Leave your answer as a percentage (use the empirical rule).",
+   "answer": "Male: $z=\\frac{31-39}4=-2$, so $P(<31)\\approx0.025$. Female: $z=\\frac{31-36}5=-1$, so $P(<31)\\approx0.16$. $P(F|<31)=\\frac{0.16\\times0.4}{0.16\\times0.4+0.025\\times0.6}=\\frac{0.064}{0.079}\\approx81\\%$. (Using exact normal probabilities the answer is about 82.3%; the 81% is the empirical-rule approximation.)"
+  }
+ ]
+}
