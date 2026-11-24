@@ -1,0 +1,800 @@
+{
+ "id": "phys-2022-north-sydney-girls",
+ "course": "physics",
+ "school": "North Sydney Girls",
+ "year": 2022,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "6528",
+  "title": "North Sydney Girls 2022 w. sol"
+ },
+ "indexed": "2026-11-25",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.3.2"
+   ],
+   "question": "The magnetic flux passing through a loop of wire varies as shown by the straight line below. Which of the following gives the magnitude of the emf induced in the coil?",
+   "answer": "Faraday's law gives $\\varepsilon=-N\\frac{\\Delta\\Phi}{\\Delta t}$. The magnitude of the emf is proportional to the rate of change of flux, which is the gradient of the flux–time graph (A).",
+   "options": [
+    "the gradient of the graph",
+    "the reciprocal of the gradient of the graph",
+    "the area between the straight line and the time axis",
+    "the area between the straight line and the magnetic flux axis"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/phys-2022-north-sydney-girls/q1.png"
+   ]
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.4.1"
+   ],
+   "question": "Which of the following best describes a property of an inertial frame of reference?",
+   "answer": "An inertial frame is one that is not accelerating: it moves with constant velocity (constant speed in a straight line). Its speed can be anything below $c$, so only A is a defining property.",
+   "options": [
+    "It is travelling at a constant speed.",
+    "It is travelling at speed close to $c$.",
+    "It is travelling at speed much slower than $c$.",
+    "It is travelling with increasing speed."
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.2",
+    "12.5.2.3"
+   ],
+   "question": "An object travels in circular motion due to a centripetal force $F$. What is the centripetal force acting on the object when the radius of the circle halves and the kinetic energy of the object doubles?",
+   "answer": "$F=\\frac{mv^2}{r}=\\frac{2K}{r}$. Doubling $K$ and halving $r$ gives $F'=\\frac{2(2K)}{r/2}=4F$ (D).",
+   "options": [
+    "$\\dfrac{F}{4}$",
+    "$F$",
+    "$2F$",
+    "$4F$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.1"
+   ],
+   "question": "A water pipe is placed on the edge of an elevated platform that is $9.5$ m above the ground. Water runs off the hose with a (horizontal) velocity of $4.5$ m s$^{-1}$. The water hits the ground after $t$ seconds. What is the value of $t$?",
+   "answer": "The vertical motion is independent of the horizontal motion. Vertically $u_y=0$, so $9.5=\\frac12(9.8)t^2$ and $t=\\sqrt{\\frac{2(9.5)}{9.8}}=1.39$ s (C).",
+   "options": [
+    "$0.98$ s",
+    "$1.03$ s",
+    "$1.39$ s",
+    "$1.94$ s"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/phys-2022-north-sydney-girls/q4.png"
+   ]
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.2"
+   ],
+   "question": "A current-carrying straight wire is placed next to a loop of wire as shown in the diagram. What is the direction of the induced current in the loop if the current in the straight wire decreases with time?",
+   "answer": "The current in the wire flows to the right, so below the wire the magnetic field points into the page (right-hand grip rule). The current decreases, so the flux into the page through the loop decreases. By Lenz's law the induced current opposes this change by producing a field into the page inside the loop, which requires a clockwise current (B).",
+   "options": [
+    "alternating",
+    "clockwise",
+    "anticlockwise",
+    "zero"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/phys-2022-north-sydney-girls/q5.png"
+   ]
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.3"
+   ],
+   "question": "An ideal step-down transformer is used in a smart watch charger to transform the voltage from $240$ V to $6.0$ V. The smart watch draws a current of $2.4$ A while charging. What is the current drawn from the primary coil of the charger?",
+   "answer": "For an ideal transformer $V_pI_p=V_sI_s$, so $I_p=\\frac{6.0\\times2.4}{240}=0.06$ A (B).",
+   "options": [
+    "$400$ A",
+    "$0.06$ A",
+    "$0.007$ A",
+    "$0.0025$ A"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3",
+    "12.5.3.5"
+   ],
+   "question": "Two satellites, $P$ and $Q$, are both in circular orbit about the same planet. The mass of $P$ is greater than the mass of $Q$. The radius of $P$'s orbit is less than that of $Q$. Which of the following is the correct comparison of the orbital and escape velocities of $P$ and $Q$? (Escape velocity is taken from the satellite's orbit.)",
+   "answer": "$v_{orbit}=\\sqrt{\\frac{GM}{r}}$ and $v_{esc}=\\sqrt{\\frac{2GM}{r}}$, where $M$ is the planet's mass. Neither depends on the satellite's mass, and both increase as $r$ decreases. $P$ has the smaller radius, so both its orbital and escape velocities are greater (B).",
+   "options": [
+    "Orbital velocity of $P$ compared to $Q$: greater; escape velocity of $P$ compared to $Q$: less",
+    "Orbital velocity of $P$ compared to $Q$: greater; escape velocity of $P$ compared to $Q$: greater",
+    "Orbital velocity of $P$ compared to $Q$: less; escape velocity of $P$ compared to $Q$: less",
+    "Orbital velocity of $P$ compared to $Q$: less; escape velocity of $P$ compared to $Q$: greater"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/phys-2022-north-sydney-girls/q7.png"
+   ]
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.4.2"
+   ],
+   "question": "A simple generator is connected to an external circuit with a light globe as shown in the diagram. Which of the following best describes the function of the split-ring commutator?",
+   "answer": "A split-ring commutator reverses the connections to the external circuit every half rotation, just as the induced emf in the coil reverses. The current in the external circuit therefore always flows in the same direction, i.e. direct current (D).",
+   "options": [
+    "It ensures the force on the section $AB$ is always up.",
+    "It ensures the force on the section $AB$ is always down.",
+    "It ensures that alternating current is delivered to the light globe.",
+    "It ensures that direct current is delivered to the light globe."
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/phys-2022-north-sydney-girls/q8.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.3"
+   ],
+   "question": "A proton has kinetic energy equal to that of a photon with a wavelength of $715$ nm. What is the speed of the proton?",
+   "answer": "Photon energy: $E=\\frac{hc}{\\lambda}=\\frac{(6.626\\times10^{-34})(3.00\\times10^8)}{715\\times10^{-9}}=2.78\\times10^{-19}$ J. For the proton $\\frac12mv^2=E$, so $v=\\sqrt{\\frac{2(2.78\\times10^{-19})}{1.673\\times10^{-27}}}=1.8\\times10^4$ m s$^{-1}$ (C).",
+   "options": [
+    "$7.5\\times10^{-7}$ m s$^{-1}$",
+    "$1.3\\times10^{-4}$ m s$^{-1}$",
+    "$1.8\\times10^{4}$ m s$^{-1}$",
+    "$3.3\\times10^{8}$ m s$^{-1}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.4.6",
+    "12.7.4.4"
+   ],
+   "question": "Which of the following is the mass defect for a nuclear reaction which releases $5.42$ MeV of energy?",
+   "answer": "$E=5.42\\times10^6\\times1.602\\times10^{-19}=8.68\\times10^{-13}$ J. $\\Delta m=\\frac{E}{c^2}=\\frac{8.68\\times10^{-13}}{(3.00\\times10^8)^2}=9.65\\times10^{-30}$ kg (C).",
+   "options": [
+    "$6.02\\times10^{-11}$ kg",
+    "$6.02\\times10^{-17}$ kg",
+    "$9.65\\times10^{-30}$ kg",
+    "$9.65\\times10^{-36}$ kg"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q11",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.2"
+   ],
+   "question": "A magnet moves towards a coil with five turns as shown in the diagram. During the time interval $\\Delta t$, the magnetic flux changes by $0.07$ Wb and the average induced emf is $1.5$ V. Which of the following is closest to the time interval $\\Delta t$?",
+   "answer": "$\\varepsilon=N\\frac{\\Delta\\Phi}{\\Delta t}$, so $\\Delta t=\\frac{N\\Delta\\Phi}{\\varepsilon}=\\frac{5(0.07)}{1.5}=0.23$ s (B).",
+   "options": [
+    "$0.05$ s",
+    "$0.23$ s",
+    "$4.3$ s",
+    "$21$ s"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/phys-2022-north-sydney-girls/q11.png"
+   ]
+  },
+  {
+   "ref": "Q12",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.2"
+   ],
+   "question": "Monochromatic light is incident on a double slit to produce a pattern of bright and dark fringes on a viewing screen as shown in the diagram. Which of the following is correct when the spacing between the slits increases?",
+   "answer": "The fringe spacing is $\\Delta y=\\frac{\\lambda L}{d}$. Increasing the slit separation $d$ decreases $\\Delta y$, so the fringes are closer together (A).",
+   "options": [
+    "Fringes are spaced closer together.",
+    "Fringes are spaced further apart.",
+    "Fringes are spaced the same but the fringes are sharper.",
+    "Fringes are spaced the same but the fringes are more diffuse."
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/phys-2022-north-sydney-girls/q12.png"
+   ]
+  },
+  {
+   "ref": "Q13",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.1"
+   ],
+   "question": "A helium nucleus has four times the mass of a proton and two times the charge of a proton. A helium nucleus and a proton are both accelerated from rest through the same potential difference. Which of the following gives the ratio of the final kinetic energy of the helium nucleus to that of the proton?",
+   "answer": "The kinetic energy gained is $K=qV$, which does not depend on mass. With twice the charge and the same $V$, the helium nucleus gains twice the energy, so the ratio is $2:1$ (C).",
+   "options": [
+    "$\\sqrt{2}:1$",
+    "$1:\\sqrt{2}$",
+    "$2:1$",
+    "$1:2$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q14",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.1",
+    "12.5.3.5"
+   ],
+   "question": "At the surface of a planet of radius $r$, the gravitational field strength is $g$ and the gravitational potential is $U$. Which of the following gives the gravitational field strength and gravitational potential at a height $2r$ above the surface?",
+   "answer": "A height $2r$ above the surface is a distance $3r$ from the centre. The field strength $g=\\frac{GM}{r^2}\\propto\\frac{1}{r^2}$ becomes $\\frac{g}{9}$, and the potential $U=-\\frac{GM}{r}\\propto\\frac1r$ becomes $\\frac{U}{3}$ (B).",
+   "options": [
+    "Field strength $\\dfrac{g}{4}$; potential $\\dfrac{U}{2}$",
+    "Field strength $\\dfrac{g}{9}$; potential $\\dfrac{U}{3}$",
+    "Field strength $\\dfrac{g}{2}$; potential $\\dfrac{U}{2}$",
+    "Field strength $\\dfrac{g}{3}$; potential $\\dfrac{U}{3}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q15",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.2"
+   ],
+   "question": "A beam of monochromatic light is shone on a diffraction grating that has $6.00\\times10^{5}$ lines m$^{-1}$. The angle between the second-order maxima is $49^\\circ$. What is the wavelength of the light?",
+   "answer": "The second-order maxima lie on either side of the central maximum, so each is at $\\theta=\\frac{49^\\circ}{2}=24.5^\\circ$. The slit spacing is $d=\\frac{1}{6.00\\times10^5}=1.667\\times10^{-6}$ m. From $d\\sin\\theta=n\\lambda$: $\\lambda=\\frac{1.667\\times10^{-6}\\sin24.5^\\circ}{2}=3.46\\times10^{-7}$ m (B).",
+   "options": [
+    "$1.73\\times10^{-7}$ m",
+    "$3.46\\times10^{-7}$ m",
+    "$6.91\\times10^{-7}$ m",
+    "$7.72\\times10^{-7}$ m"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q16",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.3"
+   ],
+   "question": "An experiment is set up according to the diagram to investigate the photoelectric effect. Which of the following is essential to the measurement of the maximum kinetic energy of the emitted photoelectrons?",
+   "answer": "The variable source is connected so that it opposes the flow of photoelectrons. The voltage at which the photocurrent just falls to its minimum (zero) is the stopping voltage $V_0$, and $K_{max}=eV_0$. So the voltmeter reading when the current is at a minimum is the essential measurement (C). The intensity affects only the size of the current.",
+   "options": [
+    "the wavelength of light that passes through the filter",
+    "the intensity of the light source",
+    "the reading on the voltmeter when the current is at a minimum value",
+    "the reading on the ammeter when the voltage is at a maximum value"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/phys-2022-north-sydney-girls/q16.png"
+   ]
+  },
+  {
+   "ref": "Q17",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.2"
+   ],
+   "question": "Two loops of wire are placed next to each other. An alternating current is supplied to loop 1 and an ammeter is connected to loop 2, as shown. The variation of the current with time in loop 1 is shown by the solid line in each graph. Which of the following best represents the variation of the current in loop 2 (dotted line)?",
+   "answer": "The emf induced in loop 2 is proportional to $-\\frac{\\Delta\\Phi}{\\Delta t}$, i.e. to the negative of the rate of change of the current in loop 1. For a sinusoidal current $I_1\\propto\\sin\\omega t$, the induced current in loop 2 is proportional to $-\\cos\\omega t$. It is therefore a sine-shaped wave of the same frequency shifted by a quarter of a period from loop 1, and it starts at its most negative value when loop 1 is zero and increasing. This is graph C. (A has the wrong phase, B has no induced current, and D is exactly out of phase.)",
+   "options": [
+    "![A](assets/img/phys-2022-north-sydney-girls/q17a.png)",
+    "![B](assets/img/phys-2022-north-sydney-girls/q17b.png)",
+    "![C](assets/img/phys-2022-north-sydney-girls/q17c.png)",
+    "![D](assets/img/phys-2022-north-sydney-girls/q17d.png)"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/phys-2022-north-sydney-girls/q17.png"
+   ]
+  },
+  {
+   "ref": "Q18",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "Two polarising filters $A$ and $B$ are arranged as shown in the diagram. Filter $A$ is fixed and filter $B$ can be rotated. Unpolarised light of intensity $I_0$ is shone on filter $A$ and the intensity of the light is observed on the screen. With the arrangement shown, the intensity of the light on the screen is observed to be $\\frac13I_0$. Filter $B$ is rotated clockwise through an angle of $\\theta$ such that maximum intensity is observed on the screen. Which of the following is a possible value of $\\theta$?",
+   "answer": "Filter $A$ reduces the unpolarised light to $\\frac12I_0$. Then by Malus' law $\\frac13I_0=\\frac12I_0\\cos^2\\phi$, so $\\cos^2\\phi=\\frac23$ and $\\phi=35.3^\\circ$ between the axes of $A$ and $B$. Maximum intensity occurs when the axes are parallel, i.e. when $B$ is rotated by $35^\\circ$ in one direction or $180^\\circ-35^\\circ=145^\\circ$ in the other. Of the options only $145^\\circ$ works (D).",
+   "options": [
+    "$15^\\circ$",
+    "$55^\\circ$",
+    "$125^\\circ$",
+    "$145^\\circ$"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/phys-2022-north-sydney-girls/q18.png"
+   ]
+  },
+  {
+   "ref": "Q19",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.4"
+   ],
+   "question": "The table below gives the orbital data for four moons. Three of the moons orbit planet $P$.\n\n| Moon | Radius of orbit (m) | Period of orbit (Earth days) |\n|---|---|---|\n| A | $1.31\\times10^{8}$ | $1.41$ |\n| B | $1.91\\times10^{8}$ | $2.52$ |\n| C | $2.65\\times10^{8}$ | $4.14$ |\n| D | $4.5\\times10^{8}$ | $5.28$ |\n\nWhich of the following is not a moon of planet $P$?",
+   "answer": "Kepler's third law: for moons of the same planet, $\\frac{r^3}{T^2}$ is constant. In units of $10^{24}$ m$^3$/day$^2$: A: $\\frac{2.248}{1.988}=1.13$; B: $\\frac{6.967}{6.350}=1.10$; C: $\\frac{18.61}{17.14}=1.09$; D: $\\frac{91.1}{27.9}=3.27$. Moon D does not fit the pattern, so it is not a moon of $P$ (D).",
+   "options": [
+    "Moon A",
+    "Moon B",
+    "Moon C",
+    "Moon D"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q20",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "Matthew is conducting an experiment on Earth where he shines a beam of light onto a stationary mirror (relative to him). He observes that it took the beam of light $0.2$ seconds to reach the mirror. At the same time, Anna is travelling in a spacecraft moving at $0.78c$ relative to the Earth, in the direction from the light source towards the mirror, and she observes the same experiment on Earth. Which of the following does Anna observe about Matthew's experiment?\n\n| | Time taken for the beam of light to reach the mirror | Speed of the beam of light |\n|---|---|---|\n| A | More than $0.2$ seconds | $c$ |\n| B | Less than $0.2$ seconds | $c$ |\n| C | More than $0.2$ seconds | $0.22c$ |\n| D | Less than $0.2$ seconds | $0.22c$ |",
+   "answer": "The speed of light is $c$ in every inertial frame, which eliminates C and D. The emission and arrival of the light are not at the same place in Matthew's frame, so $0.2$ s is not a proper time and simple time dilation does not apply. Using the Lorentz transformation with $\\Delta x=c(0.2)$ and Anna moving at $v=0.78c$ in the direction of the light: $\\Delta t'=\\gamma\\left(\\Delta t-\\frac{v\\Delta x}{c^2}\\right)=1.598(0.2)(1-0.78)=0.07$ s. This is less than $0.2$ s (B). In Anna's frame the mirror moves towards the light, so the light has less distance to cover.",
+   "options": [
+    "More than $0.2$ s; speed $c$",
+    "Less than $0.2$ s; speed $c$",
+    "More than $0.2$ s; speed $0.22c$",
+    "Less than $0.2$ s; speed $0.22c$"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/phys-2022-north-sydney-girls/q20.png"
+   ]
+  },
+  {
+   "ref": "Q21(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "Two polarising filters, $P_1$ and $P_2$, are placed in the path of an initially unpolarised light source travelling towards point $A$ such that it passes through $P_1$ followed by $P_2$. The polarising axes of $P_1$ and $P_2$ are perpendicular. Explain whether any light will be observed at point $A$.",
+   "answer": "No light will be observed at $A$. $P_1$ transmits only the component of the light polarised parallel to its axis. This light then meets $P_2$ at $90^\\circ$ to its axis, and by Malus' law $I=I_0\\cos^2\\theta$ with $\\theta=90^\\circ$ gives $I=0$. $P_2$ has no component parallel to its axis to transmit.",
+   "images": [
+    "assets/img/phys-2022-north-sydney-girls/q21.png"
+   ]
+  },
+  {
+   "ref": "Q21(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.3"
+   ],
+   "question": "Unpolarised light passes through two polarising filters with perpendicular axes, and no light is transmitted. Identify which theory of light this supports.",
+   "answer": "The wave theory of light (Huygens' wave model). Polarisation requires light to be a transverse wave, which the particle (corpuscular) model cannot explain."
+  },
+  {
+   "ref": "Q22(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "A newly designed spaceship is travelling past Earth at $0.55c$ during its test flight. An engineer on Earth observes that the length of the spaceship does not match the measurement taken when the spaceship was stationary on Earth, however, the width does. Explain why there is a difference in the engineer's measurement for the length of the spaceship, but not for the width of the spaceship.",
+   "answer": "Due to relativistic length contraction, an object moving relative to an observer is measured by that observer to be shorter than its proper length. Length contraction occurs only along the direction of relative motion. The width is perpendicular to the direction of motion, so it is not contracted and the measurements agree.",
+   "images": [
+    "assets/img/phys-2022-north-sydney-girls/q22.png"
+   ]
+  },
+  {
+   "ref": "Q22(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "If a spaceship is travelling at $0.55c$ relative to an engineer on Earth and the engineer observes the length of the spaceship to be $154$ m, calculate the length of the spaceship when it was stationary on Earth.",
+   "answer": "The $154$ m observed by the engineer is the contracted length, $l=154$ m. Using $l=l_0\\sqrt{1-\\frac{v^2}{c^2}}$: $154=l_0\\sqrt{1-0.55^2}$, so $l_0=\\frac{154}{0.8352}=184$ m ($1.8\\times10^2$ m)."
+  },
+  {
+   "ref": "Q23(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.5"
+   ],
+   "question": "An electrical power plant operating at $15$ kV delivers $450.0$ MW to external transmission lines. Voltage is stepped up to $350.0$ kV for transmission and stepped down to $240.0$ V for household use. The transmission lines have a total resistance of $25\\ \\Omega$. Assume that the transformers are all ideal. Explain why the voltage is stepped up for transmission.",
+   "answer": "Stepping up the voltage reduces the power lost in the transmission lines. For a given power $P=VI$, a higher voltage means a lower current. The power lost in the lines is $P_{loss}=I^2R$, so reducing the current greatly reduces the loss."
+  },
+  {
+   "ref": "Q23(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.3",
+    "12.6.3.5"
+   ],
+   "question": "An electrical power plant delivers $450.0$ MW to external transmission lines. The voltage is stepped up to $350.0$ kV for transmission, and the transmission lines have a total resistance of $25\\ \\Omega$. Assume that the transformers are ideal. Calculate the current in the transmission lines.",
+   "answer": "The transformer is ideal, so $P_{in}=P_{out}$: $450.0\\times10^6=(350.0\\times10^3)I$, giving $I=1286$ A."
+  },
+  {
+   "ref": "Q23(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.5"
+   ],
+   "question": "An electrical power plant operating at $15$ kV delivers $450.0$ MW to external transmission lines. Voltage is stepped up to $350.0$ kV for transmission and stepped down to $240.0$ V for household use. The transmission lines have a total resistance of $25\\ \\Omega$. Assume that the transformers are all ideal. Determine the power delivered to households.",
+   "answer": "The current in the lines is $I=\\frac{450.0\\times10^6}{350.0\\times10^3}=1285.7$ A. Power lost in the lines: $P_{loss}=I^2R=(1285.7)^2(25)=4.13\\times10^7$ W. Power delivered to households $=450.0\\times10^6-4.13\\times10^7=4.09\\times10^8$ W $\\approx409$ MW. The step-down transformer is ideal, so no further loss occurs."
+  },
+  {
+   "ref": "Q24(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.4.2",
+    "12.6.3.2"
+   ],
+   "question": "The rotor of a simple AC generator is rotated smoothly at $200$ revolutions per second and the loop generates a maximum emf of $12$ V. The direction of rotation is as shown in the diagram. Sketch the output emf from $G$ to $H$ against time $t$ on the grid. The rotor starts from the position shown in the diagram. Your sketch should include two complete revolutions.",
+   "answer": "The period is $T=\\frac{1}{200}=0.005$ s, so two revolutions take $0.010$ s. The loop starts perpendicular to the field (as shown, flux is maximum) so the emf starts at $0$ and varies sinusoidally with amplitude $12$ V. From the direction of rotation and the magnet poles, positive charge accumulates at $H$ first, making $H$ the higher-potential terminal. The emf from $G$ to $H$ is therefore negative initially: $\\varepsilon=-12\\sin\\left(\\frac{2\\pi t}{0.005}\\right)$ V. The sketch is a sine wave starting at $0$, going down to $-12$ V at $0.00125$ s, back to $0$ at $0.0025$ s, up to $+12$ V at $0.00375$ s and back to $0$ at $0.005$ s, then repeating once more up to $0.010$ s.",
+   "images": [
+    "assets/img/phys-2022-north-sydney-girls/q24.png",
+    "assets/img/phys-2022-north-sydney-girls/q24grid.png"
+   ],
+   "answer_images": [
+    "assets/img/phys-2022-north-sydney-girls/q24-sol.png"
+   ]
+  },
+  {
+   "ref": "Q24(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.4.2"
+   ],
+   "question": "Describe the main function of the slip rings in the simple AC generator.",
+   "answer": "The slip rings allow alternating current to be supplied to the external circuit. Each ring stays connected to the same end of the rotating coil, so the output polarity reverses every half rotation, as the induced emf does."
+  },
+  {
+   "ref": "Q24(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.4.2"
+   ],
+   "question": "Describe how a simple AC generator can be changed to a DC generator.",
+   "answer": "Replace the slip rings with a split-ring commutator, which reverses the connection to the external circuit every half rotation so that the current in the external circuit always flows in the same direction."
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.2"
+   ],
+   "question": "In a double-slit experiment, a laser is incident on a double slit with a fixed distance of separation between the slits. A viewing screen is placed on the other side of the slits and the distance from the slits can be adjusted. An interference pattern is observed on the viewing screen. Describe how this experimental setup can be used to determine the wavelength of the laser.",
+   "answer": "Set the screen at a measured distance $L$ from the double slits and measure the distance $y$ from the central maximum to the first-order bright fringe (or measure across several fringes and divide). The slit separation $d$ is known. Then use $d\\frac{y}{L}=m\\lambda$ with $m=1$ to calculate $\\lambda=\\frac{dy}{L}$. To improve accuracy, repeat for several values of $L$ and record $y$ each time. Plot $y$ against $L$ and the gradient equals $\\frac{\\lambda}{d}$, so $\\lambda=d\\times$ gradient."
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.2",
+    "12.7.2.3"
+   ],
+   "question": "In a double-slit experiment, light from a laser passes through a double slit and forms a pattern of bright and dark fringes on a viewing screen. Explain why an interference pattern forms on the viewing screen.",
+   "answer": "Each slit acts as a source of coherent waves (the wavelets spread out by diffraction) and the waves from the two slits overlap on the screen and superpose, producing constructive and destructive interference. Where the path difference from the two slits is a whole number of wavelengths, $n\\lambda$, the waves arrive in phase and interfere constructively, giving a bright fringe. Where the path difference is $\\left(n+\\frac12\\right)\\lambda$, the waves arrive out of phase (half a period apart) and interfere destructively, giving a dark fringe."
+  },
+  {
+   "ref": "Q26(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.3.2"
+   ],
+   "question": "Experimental results of the photoelectric effect have shown that: (1) a photocurrent only occurs when light above a certain frequency is incident on a metal; (2) the size of the current depends on the intensity of the light but not the frequency; (3) the maximum kinetic energy of the photoelectrons depends on the frequency of the light but not the intensity. Explain how the predictions from the classical wave model contradicted the experimental results of the photoelectric effect.",
+   "answer": "(1) In the classical wave model the energy is spread over the wave and is absorbed continuously, so a photocurrent should occur at any frequency provided the intensity is high enough (or the light shone for long enough). There should be no threshold frequency. (2) The wave model predicts that the current should depend on both the intensity and the frequency. (3) The wave model predicts that the maximum kinetic energy of the electrons should depend on the intensity (greater wave energy gives electrons more energy), not on the frequency."
+  },
+  {
+   "ref": "Q26(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.3"
+   ],
+   "question": "Experimental results of the photoelectric effect have shown that: (1) a photocurrent only occurs when light above a certain frequency is incident on a metal; (2) the size of the current depends on the intensity of the light but not the frequency; (3) the maximum kinetic energy of the photoelectrons depends on the frequency of the light but not the intensity. How did Einstein explain the photoelectric effect using the photon model of light?",
+   "answer": "Einstein proposed that light consists of photons, each with energy $E=hf$, and that an electron absorbs a single photon in a one-to-one interaction. (1) An electron is only emitted if the photon energy is at least the work function, $hf\\ge\\phi$, so there is a threshold frequency. (2) The intensity is proportional to the number of photons per second. More photons per second liberate more electrons per second, so the current depends on intensity (and not on frequency). (3) By conservation of energy, $K_{max}=hf-\\phi$, so the maximum kinetic energy depends on frequency and not on intensity."
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "Planes are designed to produce lift force ($F_L$) at the wings, perpendicular to the surface of the wing, when flying. When a plane changes direction, it banks in a circular path whilst maintaining altitude. The forces acting on the plane during the bank are shown in the diagram (angle $\\theta$ to the vertical). On the diagram, accurately draw the centripetal force vector.",
+   "answer": "The centripetal force is the net force on the plane. The vertical components cancel (constant altitude), so the net force is the horizontal component of the lift force, $F_L\\sin\\theta$. The vector is drawn horizontally from the plane towards the centre of the circle, i.e. pointing in the same horizontal direction as the horizontal component of $F_L$ (to the right in the diagram).",
+   "images": [
+    "assets/img/phys-2022-north-sydney-girls/q27.png"
+   ],
+   "answer_images": [
+    "assets/img/phys-2022-north-sydney-girls/q27-sol.png"
+   ]
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2",
+    "12.5.2.3"
+   ],
+   "question": "A plane banks in a horizontal circle while maintaining altitude. The forces on the plane are its weight $F_g$ and the lift force $F_L$, which is perpendicular to the wings and at an angle $\\theta$ to the vertical. Calculate the centripetal force acting on a $757$ kg plane banking at an angle of $26^\\circ$ to the vertical whilst maintaining altitude.",
+   "answer": "To maintain altitude the vertical forces balance: $F_g=F_L\\cos\\theta$, so $F_L=\\frac{757\\times9.8}{\\cos26^\\circ}=8254$ N. The centripetal force is the horizontal component: $F_c=F_L\\sin\\theta=8254\\sin26^\\circ=3.6\\times10^3$ N. (Equivalently $F_c=mg\\tan\\theta$.)"
+  },
+  {
+   "ref": "Q27(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.3"
+   ],
+   "question": "A $757$ kg plane banks in a horizontal circle while maintaining altitude. The forces on the plane are its weight and the lift force, which is perpendicular to the wings and at an angle $\\theta$ to the vertical. The pilot adjusts the lift force to allow the plane to bank at an angle of $37^\\circ$ (instead of $26^\\circ$) whilst maintaining altitude. Explain how the motion of the plane will be affected if the radius of the bank remains the same. Include relevant calculations.",
+   "answer": "The weight is unchanged, so to maintain altitude $F_L\\cos\\theta=mg$: $F_L=\\frac{757\\times9.8}{\\cos37^\\circ}=9289$ N. Then $F_c=F_L\\sin37^\\circ=5.6\\times10^3$ N, which is greater than the $3.6\\times10^3$ N at $26^\\circ$. With the radius unchanged, $F_c=\\frac{mv^2}{r}$ shows the plane must be travelling faster (and so its period for a revolution is shorter)."
+  },
+  {
+   "ref": "Q28(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.3"
+   ],
+   "question": "A space station is designed in the shape of a hollow doughnut so that it can rotate at a constant speed to provide artificial gravity. If the radius of the space station is $1.20\\times10^{3}$ m, what should be its period of rotation such that a person standing on the outer wall inside the station experiences the same weight force as if they were on Earth?",
+   "answer": "The normal force from the wall provides the centripetal force, and it must equal the weight on Earth: $mg=\\frac{mv^2}{r}$, so $v=\\sqrt{gr}=\\sqrt{9.8(1.20\\times10^3)}=108.4$ m s$^{-1}$. Then $T=\\frac{2\\pi r}{v}=\\frac{2\\pi(1.20\\times10^3)}{108.4}=69.5\\approx70$ s.\n\nNote: The school's solution gives 69 s (truncating 69.53 s); correctly rounded to 2 significant figures the period is 70 s.",
+   "images": [
+    "assets/img/phys-2022-north-sydney-girls/q28.png"
+   ]
+  },
+  {
+   "ref": "Q28(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.3"
+   ],
+   "question": "A space station is designed in the shape of a hollow doughnut so that it can rotate at a constant speed to provide artificial gravity (the apparent weight is provided by the centripetal force of the outer wall). The radius of the space station and the speed of rotation can both be adjusted. Explain one way that the space station can be adjusted to simulate the gravity on Jupiter, given that $g_{Jupiter}>g_{Earth}$.",
+   "answer": "The apparent gravity is the centripetal acceleration $a_c=\\frac{v^2}{r}=\\frac{4\\pi^2r}{T^2}$, so to simulate a larger $g$ the centripetal force on a person must be greater. This can be done, for example, by increasing the speed of rotation (shorter period) while keeping the radius the same, or by decreasing the radius while keeping the speed the same."
+  },
+  {
+   "ref": "Q29",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.4.3",
+    "12.8.5.3"
+   ],
+   "question": "The Large Hadron Collider (LHC) is a circular particle accelerator with a radius of $4.2\\times10^{3}$ m capable of accelerating particles such as protons to travel close to the speed of light. With reference to special relativity and circular motion, discuss why the LHC has such a large radius.",
+   "answer": "As the protons approach the speed of light their relativistic momentum $p=\\frac{m_0v}{\\sqrt{1-v^2/c^2}}$ (and relativistic mass) increases enormously, so the particles have a very large momentum. To keep a particle moving in a circle, a centripetal force $F=\\frac{mv^2}{r}=\\frac{pv}{r}$ is required (provided by magnetic fields), and this force becomes very large because of the large relativistic mass at speeds close to $c$. For a given particle momentum and speed, the force required is inversely proportional to the radius, so a large radius reduces the centripetal force (and so the magnetic field strength) needed to keep the particles in orbit.",
+   "images": [
+    "assets/img/phys-2022-north-sydney-girls/q29.png"
+   ]
+  },
+  {
+   "ref": "Q30",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.4.2"
+   ],
+   "question": "Describe the key components of an AC induction motor and how they allow the motor to function.",
+   "answer": "The stator is a set of fixed electromagnets (coils) arranged around the motor at different orientations. The rotor is a squirrel-cage-like structure of conducting bars running along its length, free to rotate inside the stator. Alternating current supplied to the stator coils in different phases produces a rotating magnetic field. The rotor experiences a changing magnetic flux, so by Faraday's law a current is induced in its conducting bars (in the direction that opposes the change in flux, by Lenz's law). The induced currents in the rotor lie in the stator's magnetic field, so by the motor effect they experience forces. These forces produce a torque that turns the rotor, which follows the rotating field."
+  },
+  {
+   "ref": "Q31(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.5"
+   ],
+   "question": "A space shuttle of mass $m$ is launched from the surface of the Earth (radius $r_E$, mass $M$) at point $A$. The kinetic energy given to the shuttle at launch is $K_A=\\frac{5}{7}\\frac{GMm}{r_E}$. The shuttle then enters a circular orbit of radius $R$ at point $B$. Explain why the space shuttle cannot escape the gravitational field of the Earth.",
+   "answer": "From $K_A=\\frac12mv_A^2=\\frac57\\frac{GMm}{r_E}$, $v_A=\\sqrt{\\frac{10}{7}\\frac{GM}{r_E}}$. The escape velocity from the Earth's surface is $v_{esc}=\\sqrt{\\frac{2GM}{r_E}}$. Since $\\frac{10}{7}<2$, $v_A<v_{esc}$ (equivalently, the launch energy $\\frac57\\frac{GMm}{r_E}$ is less than the $\\frac{GMm}{r_E}$ needed), so the shuttle cannot escape.",
+   "images": [
+    "assets/img/phys-2022-north-sydney-girls/q31.png"
+   ]
+  },
+  {
+   "ref": "Q31(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.5",
+    "12.5.3.2"
+   ],
+   "question": "A space shuttle of mass $m$ is in a circular orbit of radius $R$ about the Earth (mass $M$). Show that the total energy of the space shuttle in its orbit is given by $E_{total}=-\\frac{GMm}{2R}$.",
+   "answer": "The gravitational potential energy is $U=-\\frac{GMm}{R}$. The gravitational force provides the centripetal force: $\\frac{GMm}{R^2}=\\frac{mv^2}{R}$, so $v^2=\\frac{GM}{R}$ and $K=\\frac12mv^2=\\frac12\\frac{GMm}{R}$. Then $E_{total}=U+K=-\\frac{GMm}{R}+\\frac{GMm}{2R}=-\\frac{GMm}{2R}$."
+  },
+  {
+   "ref": "Q31(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.5"
+   ],
+   "question": "A space shuttle of mass $m$ is launched from the surface of the Earth (radius $r_E$, mass $M$) at point $A$ with kinetic energy $K_A=\\frac57\\frac{GMm}{r_E}$, and then enters a circular orbit of radius $R$ at point $B$. The total energy of the shuttle in this orbit is $-\\frac{GMm}{2R}$. By using the conservation of energy, find $R$ in terms of $r_E$.",
+   "answer": "The total energy is conserved, so $E_A=E_B$. At $A$: $E_A=U_A+K_A=-\\frac{GMm}{r_E}+\\frac57\\frac{GMm}{r_E}=-\\frac27\\frac{GMm}{r_E}$. Then $-\\frac{GMm}{2R}=-\\frac{2}{7}\\frac{GMm}{r_E}$, so $\\frac{1}{2R}=\\frac{2}{7r_E}$ and $R=\\frac74r_E$.",
+   "images": [
+    "assets/img/phys-2022-north-sydney-girls/q31.png"
+   ]
+  },
+  {
+   "ref": "Q32(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.1",
+    "12.5.1.4"
+   ],
+   "question": "A golf ball $A$ is in a sandpit. The golfer hits the ball to give it a velocity $u$ m s$^{-1}$ at $25^\\circ$ to the horizontal. The horizontal component of $u$ is $6.2$ m s$^{-1}$. The ball is travelling horizontally as it reaches the point $P$ (at the top of the sandpit edge, a vertical distance $d$ above the ball's starting point). Assume that air resistance is negligible. Calculate the time taken for the ball to reach $P$.",
+   "answer": "$u\\cos25^\\circ=6.2$, so $u=6.84$ m s$^{-1}$ and $u_y=u\\sin25^\\circ=2.89$ m s$^{-1}$. At $P$ the ball is moving horizontally, so $v_y=0$: $0=2.89-9.8t$, giving $t=0.30$ s.",
+   "images": [
+    "assets/img/phys-2022-north-sydney-girls/q32.png"
+   ]
+  },
+  {
+   "ref": "Q32(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.1",
+    "12.5.1.4"
+   ],
+   "question": "A golf ball is hit from the bottom of a sandpit with velocity $u$ at $25^\\circ$ to the horizontal, where the horizontal component of $u$ is $6.2$ m s$^{-1}$. The ball is travelling horizontally as it reaches point $P$, which is a vertical distance $d$ (the depth of the sandpit) above the starting point, $0.295$ s after being hit. Assume that air resistance is negligible. Calculate the depth of the sandpit, $d$.",
+   "answer": "$d=u_yt-\\frac12gt^2=(2.89)(0.295)-\\frac12(9.8)(0.295)^2=0.43$ m. (Equivalently $d=\\frac{u_y^2}{2g}$ since $P$ is at the peak of the flight.)"
+  },
+  {
+   "ref": "Q32(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.1"
+   ],
+   "question": "A golf ball is hit from the bottom of a sandpit with velocity $u$ at $25^\\circ$ to the horizontal and lands at $P$, at the top edge of the sandpit, travelling horizontally at $P$. The ball is returned to the same location in the sandpit. This time the golfer hits the ball with the same speed $u$ but at an angle of $78^\\circ$, and the ball also lands at $P$. On the diagram, sketch the new trajectory of the golf ball.",
+   "answer": "The trajectory starts at the same point, rises more steeply to a maximum height well above $P$, and then descends to arrive at $P$ travelling downwards at a steep angle (it does not reach its peak at $P$).",
+   "images": [
+    "assets/img/phys-2022-north-sydney-girls/q32.png"
+   ],
+   "answer_images": [
+    "assets/img/phys-2022-north-sydney-girls/q32-sol.png"
+   ]
+  },
+  {
+   "ref": "Q32(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.1.1",
+    "12.5.1.4"
+   ],
+   "question": "A golf ball is hit from the bottom of a sandpit with speed $u=6.84$ m s$^{-1}$ at $25^\\circ$ to the horizontal and arrives at point $P$ (a height $d=0.43$ m above the start) travelling horizontally at $6.2$ m s$^{-1}$. The ball is returned to the same location and hit with the same speed $u$ but at an angle of $78^\\circ$, and it also lands at $P$. Compare the velocities at point $P$ for the two different trajectories.",
+   "answer": "The horizontal velocity is constant in each flight. For the first trajectory it is $u\\cos25^\\circ=6.2$ m s$^{-1}$; for the second it is $u\\cos78^\\circ=1.42$ m s$^{-1}$, which is smaller. The total speed at $P$ is the same for both: the ball starts with the same kinetic energy and gains the same gravitational potential energy in going to $P$, so by conservation of energy the kinetic energy (and speed) at $P$ must be the same, $6.2$ m s$^{-1}$. Since the horizontal component is smaller for the second trajectory but the speed is the same, the vertical component at $P$ must be larger: the first ball has $v_y=0$ at $P$, whereas the second has a downward $v_y\\approx6.0$ m s$^{-1}$ (so it arrives at about $77^\\circ$ below the horizontal). Check for the second ball: $0.43=6.69t-4.9t^2$ gives $t=1.30$ s, $v_y=6.69-9.8(1.30)=-6.03$ m s$^{-1}$, and $v=\\sqrt{1.42^2+6.03^2}=6.2$ m s$^{-1}$."
+  },
+  {
+   "ref": "Q33",
+   "kind": "written",
+   "marks": 8,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.6.3.2",
+    "12.6.4.3"
+   ],
+   "question": "The 'Hair Raiser' ride at Luna Park uses a platform to carry riders. The platform is lifted into the air and then dropped. It falls freely for some distance and before it reaches the ground, strong permanent magnets underneath the platform pass close to copper fins on the tower to act as a braking system. The velocity-time graph of the platform is shown (velocity is negative for downward motion). Analyse the motion of the platform by applying the law of conservation of energy. Your analysis should refer to gravity, the copper fins and include both qualitative and quantitative information.",
+   "answer": "**Free fall (0 to about 2.2 s).** The graph is a straight line, so the acceleration is constant. Reading the graph, the velocity changes from $0$ to about $-20$ m s$^{-1}$ in about $2.2$ s, so $a\\approx\\frac{-20}{2.2}\\approx-9$ m s$^{-2}$, which is about $g$ (the small difference is due to reading the graph). The distance fallen is the area under the graph, $\\frac12(2.2)(20)\\approx22$ m (or $v^2=2as$ gives $s=\\frac{20^2}{2(9.09)}=22$ m).\n\n**Energy in free fall.** Gravitational potential energy is converted to kinetic energy: $mgh=\\frac12mv^2$. With $h\\approx22$ m, $v=\\sqrt{2gh}\\approx20$ m s$^{-1}$, which agrees with the graph, showing that energy is conserved when only gravity acts (no losses).\n\n**Braking (about 2.2 s to 3.2 s).** When the magnets pass the copper fins, the changing magnetic flux through the fins induces emf (Faraday's law, $\\varepsilon=-\\frac{\\Delta\\Phi}{\\Delta t}$) and so eddy currents. By Lenz's law these currents flow in the direction that opposes the change, so the fins exert an upward magnetic force on the magnets that is much greater than the weight. The acceleration becomes positive (upward) with an initial gradient of about $+25$ m s$^{-2}$, and the platform slows rapidly.\n\n**Variation of the braking force.** The induced emf and eddy currents are proportional to the rate of change of flux, so are largest when the platform is moving fastest. The braking force and deceleration are therefore greatest at about $2.2$ s, and decrease smoothly as the platform slows, so the velocity approaches zero with a gradient tending to zero (at about $3$ s).\n\n**Overall energy.** The platform's gravitational potential energy is converted to kinetic energy in free fall. During braking its kinetic energy (and some remaining gravitational potential energy) is converted to electrical energy in the eddy currents and then to thermal energy in the copper fins. The total energy is conserved overall.",
+   "images": [
+    "assets/img/phys-2022-north-sydney-girls/q33a.png",
+    "assets/img/phys-2022-north-sydney-girls/q33.png"
+   ]
+  },
+  {
+   "ref": "Q34",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "Cosmic rays collide with air molecules in the Earth's upper atmosphere, at around $10$ km above the Earth's surface, to produce muons. The muons then travel at a speed of $0.99c$ towards the surface where some of the muons are detected by scientists. Muons are known to have an average lifetime of $2.2\\ \\mu$s when measured by an observer at rest relative to the muons. Explain how some of the muons are detected at the surface of the Earth when relativistic effects are considered from both the muons' and the scientists' perspective. Include relevant calculations.",
+   "answer": "**Scientists' (Earth) frame: time dilation.** The $2.2\\ \\mu$s lifetime is a proper time, measured in the muon's frame. The scientists measure a dilated lifetime $t=\\frac{t_0}{\\sqrt{1-v^2/c^2}}=\\frac{2.2}{\\sqrt{1-0.99^2}}=15.6\\ \\mu$s. In this time the muons travel $d=vt=0.99(3.00\\times10^8)(15.6\\times10^{-6})=4.6\\times10^3$ m $=4.6$ km. Without dilation the average distance would be only $0.99c(2.2\\ \\mu\\text{s})\\approx650$ m. Because the lifetime is an average and the muons live this much longer, a significant fraction ($10\\ \\text{km}\\approx2.2$ dilated lifetimes) survive the $10$ km trip, so some reach the surface.\n\n**Muons' frame: length contraction.** In the muon's frame the atmosphere is moving at $0.99c$, so the $10$ km distance (proper length) is contracted: $l=l_0\\sqrt{1-\\frac{v^2}{c^2}}=10\\,000\\sqrt{1-0.99^2}=1.41\\times10^3$ m. The time to reach the surface is $t=\\frac{l}{v}=\\frac{1410}{0.99(3.00\\times10^8)}=4.75\\ \\mu$s, which is about two lifetimes ($2.2\\ \\mu$s), so a fraction of the muons ($e^{-4.75/2.2}\\approx11\\%$) survive.\n\nBoth frames agree that some muons reach the surface.\n\nNote: The school's solution states the distance travelled in the Earth frame as $4.631\\times10^3$ km; the correct value is $4.63\\times10^3$ m (4.6 km).",
+   "images": [
+    "assets/img/phys-2022-north-sydney-girls/q34.png"
+   ]
+  }
+ ]
+}
