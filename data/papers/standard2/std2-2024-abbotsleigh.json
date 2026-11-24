@@ -1,0 +1,809 @@
+{
+ "id": "std2-2024-abbotsleigh",
+ "course": "standard2",
+ "school": "Abbotsleigh",
+ "year": 2024,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5318",
+  "title": "Abbotsleigh 2024 w. sol"
+ },
+ "indexed": "2026-11-25",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q4",
+   "reason": "Not in 2024 syllabus: absolute error of a measurement"
+  },
+  {
+   "ref": "Q20(a)",
+   "reason": "Only asks to complete a printed probability tree diagram"
+  },
+  {
+   "ref": "Q24",
+   "reason": "Not in 2024 syllabus: Pareto charts"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.1"
+   ],
+   "question": "In the right-angled triangle shown, the angle is $27^\\circ$ and the side opposite it is 37. Which expression can be used to find the length $x$ of the hypotenuse?",
+   "answer": "$\\sin27^\\circ=\\dfrac{37}{x}$, so $x=\\dfrac{37}{\\sin27^\\circ}$ (B).",
+   "options": [
+    "$37\\sin27^\\circ$",
+    "$\\dfrac{37}{\\sin27^\\circ}$",
+    "$37\\cos27^\\circ$",
+    "$\\dfrac{37}{\\cos27^\\circ}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.5"
+   ],
+   "question": "A bank charges $0.05753\\%$ interest per day on the amount owing on a credit card. What is the interest charged in four weeks on a balance of \\$1200?",
+   "answer": "Four weeks is 28 days. $I=1200\\times0.0005753\\times28=\\$19.33$ (A).",
+   "options": [
+    "\\$19.33",
+    "\\$27.61",
+    "\\$69.04",
+    "\\$276.14"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.1.5",
+    "11.1.1.8"
+   ],
+   "question": "The graph shows the income, in dollars, for a small business that makes and sells picture frames. The cost to make the picture frames is given by the formula $C=10n+20$, where $C$ is the cost and $n$ is the number of picture frames sold. If 6 picture frames are made and sold, which of the following statements is correct?",
+   "answer": "From the graph the income is \\$15 per frame (the line passes through $(0,0)$ and $(6.67,100)$), so 6 frames give \\$90. The cost is $10(6)+20=\\$80$. Profit $=90-80=\\$10$ (A).",
+   "options": [
+    "There is a profit of \\$10.",
+    "There is a loss of \\$10.",
+    "There is a profit of \\$90.",
+    "There is a loss of \\$80."
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/std2-2024-abbotsleigh/q3.png"
+   ]
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.1.3",
+    "11.2.1.4"
+   ],
+   "question": "There are four linear graphs shown on the set of axes. Which line has the equation $y=\\dfrac{6-x}{2}$?",
+   "answer": "$y=\\dfrac{6-x}{2}=-\\dfrac12x+3$, a line with $y$-intercept 3 and negative gradient $-\\frac12$. When $y=0$, $x=6$. Only Line D has a negative gradient, passes through $(0,3)$ and cuts the $x$-axis at 6 (D).",
+   "options": [
+    "Line A",
+    "Line B",
+    "Line C",
+    "Line D"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/std2-2024-abbotsleigh/q5.png"
+   ]
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.1.1",
+    "12.5.2.6"
+   ],
+   "question": "A full tank holds 2000 litres of water. Water is pumped out of the tank at a constant rate. The graph shows how the volume of water in the tank, $V$, changes with time, $t$. What is the constant rate at which the water is being pumped out of the tank?",
+   "answer": "The tank is empty after 160 minutes. Rate $=\\dfrac{2000}{160}=12.5$ litres per minute (C).",
+   "options": [
+    "0.8 litres per minute",
+    "2.0 litres per minute",
+    "12.5 litres per minute",
+    "80.0 litres per minute"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/std2-2024-abbotsleigh/q6.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.8.8.2"
+   ],
+   "question": "A test had the following five number summary: {20, 55, 61, 65, 73}. Declan, Ross and Mia scored the results below on the test.\n\n| | Mark |\n|---|---|\n| Declan | 69 |\n| Mia | 73 |\n| Ross | 30 |\n\nWhich of these results would be considered as outliers on the test?",
+   "answer": "$Q_1=55$, $Q_3=65$, so $\\mathrm{IQR}=10$. Upper fence $=65+1.5\\times10=80$ and lower fence $=55-1.5\\times10=40$. Ross's mark of 30 is below 40, so it is an outlier. Declan (69) and Mia (73) are within the fences (B).",
+   "options": [
+    "Only Mia's result is an outlier.",
+    "Only Ross's result is an outlier.",
+    "Mia's and Ross's results are both outliers.",
+    "All three results are outliers."
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.1.2"
+   ],
+   "question": "How many edges are in the network diagram shown?",
+   "answer": "The diagram has 5 vertices. Counting the line segments joining pairs of vertices gives 8 edges (C).",
+   "options": [
+    "5",
+    "7",
+    "8",
+    "10"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/std2-2024-abbotsleigh/q8.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.2"
+   ],
+   "question": "A used car was purchased for \\$6200. At the end of each year the declining balance method of depreciation is used to estimate the value of the car. The annual rate of depreciation is 18%. What is the approximate value of the car after 4 years?",
+   "answer": "$S=V_0(1-r)^n=6200(1-0.18)^4=6200(0.82)^4\\approx\\$2803$ (B).",
+   "options": [
+    "\\$1116",
+    "\\$2803",
+    "\\$3397",
+    "\\$5084"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.2.4"
+   ],
+   "question": "The data in the scatterplot compares the heights of some children with the amount of space in their lungs. What relationship is suggested by the data between the heights of the children and their lung space?",
+   "answer": "As height increases the lung space generally increases, and the points lie close to a rising line, but not exactly on it. This is a strong positive correlation (A).",
+   "options": [
+    "Strong positive correlation",
+    "Perfect positive correlation",
+    "Weak negative correlation",
+    "No correlation"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/std2-2024-abbotsleigh/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.10.2.5",
+    "12.10.3.1"
+   ],
+   "question": "In a normally distributed set of scores, the mean is 72 and the standard deviation is 6. Approximately what percentage of the scores will lie between 60 and 84?",
+   "answer": "$60=72-2(6)$ and $84=72+2(6)$, so the scores are within 2 standard deviations of the mean. By the empirical rule, about 95% of scores lie in this interval (C).",
+   "options": [
+    "34%",
+    "68%",
+    "95%",
+    "99.7%"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q12",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.5"
+   ],
+   "question": "When Samuel stops drinking alcohol at 9:00 pm, he has a blood alcohol content (BAC) of 0.07625. The number of hours required for a person to reach zero BAC after they stop consuming alcohol is given by the formula $\\text{Time}=\\dfrac{\\text{BAC}}{0.015}$. At what time should Samuel expect his BAC to be 0.05?",
+   "answer": "Time to reach zero: $\\dfrac{0.07625}{0.015}=5.083$ h. Time for a BAC of 0.05 to reach zero: $\\dfrac{0.05}{0.015}=3.333$ h. The difference is $5.083-3.333=1.75$ h $=1$ h 45 min after 9:00 pm, so 10:45 pm (D).",
+   "options": [
+    "2:05 am",
+    "2:08 am",
+    "10:35 pm",
+    "10:45 pm"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q13",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.2.6",
+    "11.5.2.5"
+   ],
+   "question": "An Olympic swimming pool is 50 m long and 25 m wide and gradually increases in depth as shown in the cross section below (depths 0.9 m, 1.5 m and 2.5 m at 25 m intervals). By first using two applications of the trapezoidal rule to find the area of the cross-section, find the volume of the pool in cubic metres.",
+   "answer": "$A\\approx\\dfrac{25}{2}(0.9+1.5)+\\dfrac{25}{2}(1.5+2.5)=30+50=80\\ \\text{m}^2$. $V=Ah=80\\times25=2000\\ \\text{m}^3$ (A).",
+   "options": [
+    "$2\\,000\\ \\text{m}^3$",
+    "$2\\,125\\ \\text{m}^3$",
+    "$4\\,000\\ \\text{m}^3$",
+    "$4\\,250\\ \\text{m}^3$"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/std2-2024-abbotsleigh/q13.png"
+   ]
+  },
+  {
+   "ref": "Q14",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.1.1"
+   ],
+   "question": "After the opening of a new housing estate, the population of a town increases from 12 500 to 15 500. What is this as a percentage increase?",
+   "answer": "$\\dfrac{15\\,500-12\\,500}{12\\,500}\\times100=\\dfrac{3000}{12\\,500}\\times100=24\\%$ (C).",
+   "options": [
+    "20%",
+    "22%",
+    "24%",
+    "25%"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q15",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "Consider the network. The capacity of the cut shown in the network is 40. What is the value of $x$?",
+   "answer": "The cut passes through the edges of capacity 11, $x$ and 10. The edge labelled 14 points back towards the source side of the cut, so it is not counted. $11+x+10=40$, so $x=19$ (D).",
+   "options": [
+    "5",
+    "15",
+    "16",
+    "19"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/std2-2024-abbotsleigh/q15.png"
+   ]
+  },
+  {
+   "ref": "Q16",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.1.8",
+    "11.5.1.4"
+   ],
+   "question": "The nutrition information for a box of cupcakes shows: 12 servings per container; serving size 58 g; Calories per serve 80. If 1 calorie is equal to 4.184 joules, what is the total number of kilojoules in the box of cupcakes?",
+   "answer": "Total energy $=80\\times12=960$ Calories (kilocalories, which is what a nutrition label's \\\"Calories\\\" means). $960\\times4.184=4016.64$ kJ. (The paper takes the label's Calories as kilocalories, so 1 Calorie $=4.184$ kJ.)"
+  },
+  {
+   "ref": "Q17(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.5",
+    "11.2.1.4"
+   ],
+   "question": "The income of a travel kit manufacturer is given by $I=7x$ (dollars) and their costs are given by $C=5x+1000$ (dollars), where $x$ represents the number of travel kits. Draw a sketch to represent the costs and the income for producing a travel kit.",
+   "answer": "Both graphs are straight lines. $I=7x$ passes through $(0,0)$ and, for example, $(500,3500)$. $C=5x+1000$ has $y$-intercept \\$1000 and passes through $(500,3500)$. They intersect at $(500,3500)$. See the diagram.",
+   "answer_images": [
+    "assets/img/std2-2024-abbotsleigh/q17-sol.png"
+   ]
+  },
+  {
+   "ref": "Q17(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.5"
+   ],
+   "question": "The income of a travel kit manufacturer is $I=7x$ and the costs are $C=5x+1000$ (dollars), where $x$ is the number of travel kits. How many travel kits are needed to break-even?",
+   "answer": "Break-even occurs when $I=C$: $7x=5x+1000$, so $2x=1000$ and $x=500$ travel kits."
+  },
+  {
+   "ref": "Q17(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.5"
+   ],
+   "question": "The income of a travel kit manufacturer is $I=7x$ and the costs are $C=5x+1000$ (dollars). Determine the level of production at the break-even point if the total cost increases by 5%.",
+   "answer": "New cost: $C=1.05(5x+1000)=5.25x+1050$. Break-even: $7x=5.25x+1050$, so $1.75x=1050$ and $x=600$. 600 travel kits would need to be sold to break even."
+  },
+  {
+   "ref": "Q18",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.3",
+    "11.6.2.1"
+   ],
+   "question": "A 4 kL water tank is being emptied at the rate of 5 litres per minute. How long will it take to empty the water tank? Answer in hours and minutes.",
+   "answer": "$4\\text{ kL}=4000$ L. Time $=\\dfrac{4000}{5}=800$ minutes $=13$ hours $20$ minutes."
+  },
+  {
+   "ref": "Q19(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.2.1"
+   ],
+   "question": "The floor plan for a house is shown. Lara enters the house through the front door and stands in the hallway. Which room can she NOT see inside?",
+   "answer": "The Laundry (it is enclosed by walls with no opening visible from the hallway, whereas the other rooms are open to the hallway).",
+   "images": [
+    "assets/img/std2-2024-abbotsleigh/q19.png"
+   ]
+  },
+  {
+   "ref": "Q19(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.2.1"
+   ],
+   "question": "The floor plan for a house is shown: the bathroom has an area of $4.2\\ \\text{m}^2$ and the top rooms (laundry, bathroom and kitchen) are 2.83 m deep. Find the width of the bathroom, in metres, correct to two decimal places.",
+   "answer": "$A=l\\times w$, so $4.2=2.83\\times w$ and $w=\\dfrac{4.2}{2.83}=1.484\\ldots\\approx1.48$ m. (The school's solution gave 1.5 m, which is not to two decimal places.)",
+   "images": [
+    "assets/img/std2-2024-abbotsleigh/q19.png"
+   ]
+  },
+  {
+   "ref": "Q20(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.9.1.5",
+    "12.9.1.6"
+   ],
+   "question": "A bag contains 5 white, 8 red and 4 purple marbles. Sarah intends to take two marbles from the bag (without replacement). Find the probability that at least ONE of the marbles is RED.",
+   "answer": "Total marbles $=17$. $P(\\text{at least one red})=1-P(\\text{no red})=1-\\dfrac{9}{17}\\times\\dfrac{8}{16}=1-\\dfrac{72}{272}=1-\\dfrac{9}{34}=\\dfrac{25}{34}$. (Equivalently $\\frac{8}{17}\\cdot\\frac{7}{16}+\\frac{8}{17}\\cdot\\frac{9}{16}+\\frac{9}{17}\\cdot\\frac{8}{16}=\\frac{200}{272}=\\frac{25}{34}$.)"
+  },
+  {
+   "ref": "Q21",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.8"
+   ],
+   "question": "The driving distance from Rebecca's home to her work is 18 km. She drives to and from work five times each week. Her car uses fuel at the rate of 8 L/100 km. How much fuel does she use driving to and from work each week?",
+   "answer": "Distance per week $=18\\times2\\times5=180$ km. Fuel $=\\dfrac{180}{100}\\times8=14.4$ L."
+  },
+  {
+   "ref": "Q22(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.2.7"
+   ],
+   "question": "Businesses often collect data on the total amount of money spent on advertising and total revenue. The table shows information about six consecutive sales quarters for a particular business.\n\n| Sales quarter | Money spent on advertising (\\$) | Total revenue (\\$) |\n|---|---|---|\n| 1 | 15 500 | 61 000 |\n| 2 | 18 000 | 62 000 |\n| 3 | 23 400 | 81 000 |\n| 4 | 32 000 | 94 000 |\n| 5 | 32 000 | 102 000 |\n| 6 | 40 000 | 150 000 |\n\nFind the equation of the least-squares regression line by calculating the gradient and $y$-intercept. Give these values correct to two decimal places.",
+   "answer": "Using a calculator with advertising spend as $x$ and revenue as $y$: gradient $=3.33$ and $y$-intercept $=2496.39$. The least-squares regression line is $y=3.33x+2496.39$."
+  },
+  {
+   "ref": "Q22(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.2.6",
+    "12.8.2.4"
+   ],
+   "question": "For six consecutive sales quarters, the money spent on advertising $x$ (\\$15 500, \\$18 000, \\$23 400, \\$32 000, \\$32 000, \\$40 000) and the total revenue $y$ (\\$61 000, \\$62 000, \\$81 000, \\$94 000, \\$102 000, \\$150 000) are recorded. The advertising manager of the business believes that the data shows a strong and positive correlation. Are they correct? Justify your answer using appropriate statistical measure(s) and mathematical reasoning.",
+   "answer": "Yes. Pearson's correlation coefficient is $r=0.9502\\ldots\\approx0.95$. A value of $r$ this close to $+1$ indicates a strong positive linear correlation."
+  },
+  {
+   "ref": "Q23(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.1.4"
+   ],
+   "question": "There are six accommodation buildings on a university campus, which are connected by paths. The table shows the length of each path in metres (a dash means no direct path).\n\n| Building | Archer | Bowen | Clarke | Dyson | Everly | Field |\n|---|---|---|---|---|---|---|\n| Archer | | 350 | – | 400 | – | 380 |\n| Bowen | 350 | | 300 | – | – | 120 |\n| Clarke | – | 300 | | – | 200 | 220 |\n| Dyson | 400 | – | – | | 110 | – |\n| Everly | – | – | 200 | 110 | | 180 |\n| Field | 380 | 120 | 220 | – | 180 | |\n\nUse the vertices A, B, C, D, E, F (for Archer, Bowen, Clarke, Dyson, Everly, Field) to draw a weighted network diagram to represent the information in the table.",
+   "answer": "Join each pair of buildings that have a path with an edge labelled with its length: AB 350, AD 400, AF 380, BC 300, BF 120, CE 200, CF 220, DE 110, EF 180 (nine edges). See the diagram.",
+   "answer_images": [
+    "assets/img/std2-2024-abbotsleigh/q23a-sol.png"
+   ]
+  },
+  {
+   "ref": "Q23(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.7.2.2",
+    "11.7.2.3"
+   ],
+   "question": "The weighted network of the six campus buildings has edges AB 350, AD 400, AF 380, BC 300, BF 120, CE 200, CF 220, DE 110, EF 180 (lengths in metres). The university wants to shelter some of the paths so that it is possible to move between all the buildings on sheltered paths, but at a minimum cost. Draw the minimum spanning tree that accomplishes this.",
+   "answer": "Use Kruskal's algorithm (choose the shortest edges that do not form a cycle): DE 110, BF 120, EF 180, CE 200 (CF 220 would form a cycle, BC 300 would form a cycle), then AB 350 (shorter than AF 380 and AD 400). The tree has 5 edges for 6 vertices: DE, BF, EF, CE, AB. See the diagram.",
+   "answer_images": [
+    "assets/img/std2-2024-abbotsleigh/q23b-sol.png"
+   ]
+  },
+  {
+   "ref": "Q23(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.2.3"
+   ],
+   "question": "The minimum spanning tree of the six campus buildings has edges DE 110, BF 120, EF 180, CE 200 and AB 350 (metres). What is the minimum length of sheltering required?",
+   "answer": "$110+120+180+200+350=960$ m. (The school's solution used the 380 m path AF instead of the 350 m path AB, giving 990 m, which is not the minimum.)"
+  },
+  {
+   "ref": "Q25",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.6.1.2",
+    "11.6.2.5"
+   ],
+   "question": "A live-streamed conference is being held in Santa Barbara, California (34° N, 119° W) and the keynote address starts at 9:00 on Monday morning. Angelique is in Sydney, NSW (34° S, 151° E) and wants to watch the address live. Every 15° difference in longitude corresponds to a 1-hour difference in local time. At what local time in Sydney should Angelique join in to watch the address?",
+   "answer": "Sydney is east of Santa Barbara. The longitude difference is $119^\\circ+151^\\circ=270^\\circ$, so the time difference is $\\dfrac{270}{15}=18$ hours, and Sydney is ahead. $9{:}00$ Monday $+18$ h $=27{:}00$, which is 3:00 am on Tuesday in Sydney. (The school's solution gave 2 am, an arithmetic slip.)"
+  },
+  {
+   "ref": "Q26",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.8",
+    "11.1.1.3"
+   ],
+   "question": "Andrew is driving at 80 km/h when he notices a branch on the road ahead and decides to apply the brakes. His reaction time is 1.7 seconds, and the braking distance ($D$ metres) is given by $D=0.01s^2$, where $s$ is speed in km/h. Stopping distance can be calculated using the formula: stopping distance = (reaction time distance) + (braking distance). What is Andrew's stopping distance, to the nearest metre?",
+   "answer": "Braking distance: $D=0.01(80)^2=64$ m. Speed in m/s: $80\\text{ km/h}=\\dfrac{80\\,000}{3600}=22.22$ m/s, so reaction distance $=22.22\\times1.7=37.78$ m. Stopping distance $=64+37.78=101.78\\approx102$ m."
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.12"
+   ],
+   "question": "The share price of a company is \\$16.25. The predicted dividend yield is 2.2%. What would be the dividend? Answer correct to the nearest cent.",
+   "answer": "Dividend $=0.022\\times16.25=\\$0.3575\\approx\\$0.36$."
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.12"
+   ],
+   "question": "The share price of a company is \\$16.25. The company decides to pay a dividend of \\$0.52. What is the dividend yield?",
+   "answer": "Dividend yield $=\\dfrac{0.52}{16.25}\\times100=3.2\\%$."
+  },
+  {
+   "ref": "Q28",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.3",
+    "12.6.1.4"
+   ],
+   "question": "Draw the minimum cut on the network diagram. If you draw multiple cuts, indicate which one is the minimum cut and its value.",
+   "answer": "The minimum cut separates the source and the four vertices on its side (top-left, middle, bottom and lower-right vertices) from the top-right vertex and the sink. It passes through the edges of capacity 5 (top edge leaving the top-left vertex), 15 (the edge from the lower-right vertex up to the top-right vertex) and 11 (the edge from the lower-right vertex to the sink). Capacity $=5+15+11=31$. Other cuts are larger (for example the cut around the source has capacity $18+9+7=34$ and the cut at the sink has capacity $22+11=33$). By the max-flow min-cut theorem the maximum flow is 31.",
+   "images": [
+    "assets/img/std2-2024-abbotsleigh/q28.png"
+   ]
+  },
+  {
+   "ref": "Q29",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.2"
+   ],
+   "question": "An isosceles triangle has a base angle of $32^\\circ$ and base length of 25 cm. Find the length of the equal sides in the triangle. Answer correct to 1 decimal place.",
+   "answer": "The apex angle is $180^\\circ-2(32^\\circ)=116^\\circ$. Sine rule: $\\dfrac{x}{\\sin32^\\circ}=\\dfrac{25}{\\sin116^\\circ}$, so $x=\\dfrac{25\\sin32^\\circ}{\\sin116^\\circ}=14.7$ cm.",
+   "images": [
+    "assets/img/std2-2024-abbotsleigh/q29.png"
+   ]
+  },
+  {
+   "ref": "Q30",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.2.5"
+   ],
+   "question": "Jenny used two containers: one in the shape of a cone (top diameter 5 cm, height 8 cm) and one in the shape of a cylinder (radius 2.5 cm, height $h$). When Jenny completely filled the conical container with water and then poured the water into the cylindrical container, she found that the containers had equal volumes. What is the height ($h$) of the cylindrical container, correct to two decimal places?",
+   "answer": "The cone has radius $2.5$ cm. $V_{cone}=\\dfrac13\\pi(2.5)^2(8)$ and $V_{cyl}=\\pi(2.5)^2h$. Equating: $\\dfrac13\\pi(2.5)^2(8)=\\pi(2.5)^2h$, so $h=\\dfrac83=2.67$ cm. (The school's solution treated the 5 cm as the cone's radius, giving 10.67 cm; the diagram shows 5 cm spanning the full width of the cone's top, so it is the diameter.)",
+   "images": [
+    "assets/img/std2-2024-abbotsleigh/q30.png"
+   ]
+  },
+  {
+   "ref": "Q31(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.10.2.3",
+    "12.10.3.1"
+   ],
+   "question": "The time taken for train trips from Sydney to Town A is normally distributed with a mean of 54 minutes and a standard deviation of 5 minutes. Lucy travelled by train from Sydney to Town A in 64 minutes. What percentage of the train trips from Sydney to Town A took longer than Lucy's trip?",
+   "answer": "$z=\\dfrac{64-54}{5}=2$. About 95% of trips lie within 2 standard deviations of the mean, so 5% lie outside, and half of this (2.5%) is above. 2.5% of trips took longer than Lucy's. (The school's solution gave 16%, which corresponds to $z=1$.)"
+  },
+  {
+   "ref": "Q31(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.10.2.3",
+    "12.10.3.1"
+   ],
+   "question": "The time taken for train trips from Sydney to Town B is normally distributed with a mean of 56 minutes and a standard deviation of 8 minutes. There were 1000 train trips from Sydney to Town B last year. Calculate the number of train trips from Sydney to Town B that would be expected to have a time taken less than Lucy's 64 minute trip to Town A.",
+   "answer": "$z=\\dfrac{64-56}{8}=1$. Within 1 standard deviation of the mean is about 68%, so $\\dfrac{68}{2}=34\\%$ lies between the mean and $z=1$. $P(X<64)=50\\%+34\\%=84\\%$. Expected number $=1000\\times0.84=840$ trips. (The school's solution gave 660.)"
+  },
+  {
+   "ref": "Q31(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.10.2.4",
+    "12.10.2.3"
+   ],
+   "question": "The time taken for train trips from Sydney to Town A is normally distributed with mean 54 minutes and standard deviation 5 minutes, and to Town B with mean 56 minutes and standard deviation 8 minutes. Isaac travelled by train from Sydney to Town A and Sydney to Town B. The time taken and the $z$-score was exactly the same for both trips. By first forming an equation, calculate the time taken by train for Isaac's trip.",
+   "answer": "Let the time be $x$. Equal $z$-scores: $\\dfrac{x-54}{5}=\\dfrac{x-56}{8}$. So $8x-432=5x-280$, $3x=152$ and $x=50.67$ minutes ($\\approx50.7$ min, with $z\\approx-0.73$)."
+  },
+  {
+   "ref": "Q32(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.9",
+    "12.4.1.5"
+   ],
+   "question": "The compass radial survey shows the position of four towns: A, B, C and X. Towns A and B lie at a true bearing of 328° and 110° respectively from town X. All distances between the towns are given in kilometres ($XA=25$, $XB=28$, $XC=19$). Find the distance between towns A and B, correct to the nearest kilometre.",
+   "answer": "$\\angle AXB=(360^\\circ-328^\\circ)+110^\\circ=142^\\circ$. Cosine rule: $AB^2=25^2+28^2-2(25)(28)\\cos142^\\circ=2512.2$, so $AB=50.1\\approx50$ km.",
+   "images": [
+    "assets/img/std2-2024-abbotsleigh/q32.png"
+   ]
+  },
+  {
+   "ref": "Q32(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.7",
+    "12.4.1.8"
+   ],
+   "question": "In the compass radial survey, $XB=28$ km, $XC=19$ km and town B lies at a true bearing of 110° from X. If the area of triangle $XCB$ is $265\\ \\text{km}^2$, find the true bearing of town C from town X. Give your answer correct to the nearest degree.",
+   "answer": "$A=\\tfrac12(19)(28)\\sin\\angle CXB=265$, so $\\sin\\angle CXB=\\dfrac{265}{266}$ and $\\angle CXB=85^\\circ$ (acute; the obtuse value $95^\\circ$ also satisfies the equation, but the diagram's acute angle is taken as in the school's solution). Measuring clockwise from XB, the bearing of C is $110^\\circ+85^\\circ=195^\\circ$.",
+   "images": [
+    "assets/img/std2-2024-abbotsleigh/q32.png"
+   ]
+  },
+  {
+   "ref": "Q33",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.5"
+   ],
+   "question": "The following table shows the fortnightly repayments required to repay a personal loan at 11.5% p.a. for terms from 2 to 5 years.\n\n| Amount borrowed | 2 years | 3 years | 4 years | 5 years |\n|---|---|---|---|---|\n| \\$12 000 | \\$269 | \\$190 | \\$151 | \\$127 |\n| \\$16 000 | \\$358 | \\$253 | \\$201 | \\$170 |\n| \\$20 000 | \\$447 | \\$316 | \\$251 | \\$212 |\n| \\$24 000 | \\$536 | \\$379 | \\$301 | \\$254 |\n| \\$28 000 | \\$581 | \\$411 | \\$326 | \\$275 |\n| \\$32 000 | \\$670 | \\$474 | \\$376 | \\$317 |\n\nAudrey borrows \\$24 000 over 4 years. How much interest does she pay?",
+   "answer": "The fortnightly repayment is \\$301. Over 4 years there are $26\\times4=104$ fortnights, so total repaid $=301\\times104=\\$31\\,304$. Interest $=31\\,304-24\\,000=\\$7304$."
+  },
+  {
+   "ref": "Q34(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.1.1"
+   ],
+   "question": "The table shows the seven tasks required to complete a project; the immediate predecessor(s) to each task; the earliest start time of each task in days; and the duration of some of the tasks in days.\n\n| Task | Immediate predecessor(s) | Earliest start time (days) | Duration (days) |\n|---|---|---|---|\n| A | – | 0 | ? |\n| B | A | 7 | 10 |\n| C | – | 0 | 14 |\n| D | – | 0 | ? |\n| E | D | 6 | 9 |\n| F | B, C, E | 17 | 5 |\n| G | A | 7 | 12 |\n\nDraw a network to represent the information shown in the table.",
+   "answer": "B starts at day 7 (its only predecessor is A, which starts at 0), so $A=7$ days. E starts at day 6, so $D=6$ days. Using activity-on-arc form: A and D and C leave the start; B and G follow A; E follows D; F follows B, C and E (so B, C and E all end at the same vertex); G ends at the finish together with F. See the diagram.",
+   "answer_images": [
+    "assets/img/std2-2024-abbotsleigh/q34a-sol.png"
+   ]
+  },
+  {
+   "ref": "Q34(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.1.4",
+    "12.7.1.5"
+   ],
+   "question": "The seven tasks of a project have durations A 7, B 10, C 14, D 6, E 9, F 5, G 12 days; predecessors B (A), E (D), F (B, C, E), G (A); and earliest start times A 0, B 7, C 0, D 0, E 6, F 17, G 7. Identify which activities can be delayed without affecting the duration of the entire project AND state the maximum number of days that these activities can be delayed.",
+   "answer": "Earliest finishes: B 17, C 14, E 15, so F starts at 17. Project time $=17+5=22$ days (G finishes at 19). The critical path is A–B–F (7+10+5=22). The other activities can be delayed by their float time (latest start − earliest start): C can be delayed by $17-14=3$ days, D by 2 days and E by 2 days (D–E path ends at 15, 2 days before day 17), and G by $22-19=3$ days."
+  },
+  {
+   "ref": "Q35(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.5",
+    "12.3.1.4"
+   ],
+   "question": "The table shows the future values of an annuity of \\$1.\n\n| Period (months) | 1% | 2% | 3% | 4% | 5% |\n|---|---|---|---|---|---|\n| 10 | 10.462 | 10.950 | 11.464 | 12.006 | 12.578 |\n| 11 | 11.567 | 12.169 | 12.808 | 13.486 | 14.207 |\n| 12 | 12.683 | 13.412 | 14.192 | 15.026 | 15.917 |\n| 13 | 13.809 | 14.680 | 15.618 | 16.627 | 17.713 |\n| 14 | 14.947 | 15.974 | 17.086 | 18.292 | 19.599 |\n| 15 | 16.097 | 17.293 | 18.599 | 20.024 | 21.579 |\n\nLuke wants to save \\$35 026 for a deposit to buy his first home. He is able to save \\$2050 each month and plans to invest his savings in an annuity for a fixed period. Using the future value table, find the most appropriate interest rate and time period for Luke's investment.",
+   "answer": "Factor $=\\dfrac{\\text{future value}}{\\text{contribution}}=\\dfrac{35\\,026}{2050}=17.086$. In the table, 17.086 is in the 3% column and the 14 months row. The interest rate is 3% per period (month) and the time period is 14 months."
+  },
+  {
+   "ref": "Q35(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.1.4"
+   ],
+   "question": "Luke will invest \\$2050 each month for 14 months at 3% per period (month) to reach \\$35 026. Using this interest rate and time period, calculate the single investment Luke would need to invest now to ensure he has the necessary deposit.",
+   "answer": "Present value: $PV=\\dfrac{FV}{(1+r)^n}=\\dfrac{35\\,026}{(1.03)^{14}}=\\dfrac{35\\,026}{1.5126}=\\$23\\,156.31$. (The school's solution divided the rate by 12 again, which is incorrect because the table's rate is already per month.)"
+  },
+  {
+   "ref": "Q36",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.10.3.1",
+    "12.10.3.3"
+   ],
+   "question": "The following table gives areas under the normal curve to the left of the $z$-score (values needed: $z=1.5$ gives 0.93319; $z=0.25$ gives 0.59871). The duration of human pregnancies approximates a normal distribution with a mean of 266 days and a standard deviation of 16 days. Use the table to help calculate the proportion of all pregnancies which require between 242 and 270 days (that is, roughly between 8 and 9 months).",
+   "answer": "$z_1=\\dfrac{242-266}{16}=-1.5$ and $z_2=\\dfrac{270-266}{16}=0.25$. From the table, $P(Z<0.25)=0.59871$ and $P(Z<1.5)=0.93319$, so by symmetry $P(Z<-1.5)=1-0.93319=0.06681$. $P(242<X<270)=0.59871-0.06681=0.5319$, about 53.2%. (The school's solution gave 0.315, an arithmetic error.)"
+  },
+  {
+   "ref": "Q37(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.5"
+   ],
+   "question": "Grace owns a credit card that has no annual fees and it charges 18.4% p.a. interest on all purchases. The interest is charged from the day of purchase, including the day of purchase. Show that the daily interest rate is 0.0504%.",
+   "answer": "Daily rate $=\\dfrac{18.4\\%}{365}=0.050411\\ldots\\%\\approx0.0504\\%$."
+  },
+  {
+   "ref": "Q37(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.5"
+   ],
+   "question": "Grace owns a credit card that charges 0.0504% interest per day on all purchases, from the day of purchase, including the day of purchase. On the 29th of June, Grace bought a TV for \\$899 using her credit card. Grace paid her credit card account on the 10th of July. What was the total amount she paid for the TV, including interest? Answer correct to the nearest cent.",
+   "answer": "Days: 29 and 30 June (2 days) plus 1 to 10 July (10 days) $=12$ days. $I=899\\times0.000504\\times12=\\$5.44$. Total $=899+5.44=\\$904.44$."
+  },
+  {
+   "ref": "Q38(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.1.3"
+   ],
+   "question": "A project requires a series of ten activities to be completed and the weighted network diagram is shown. Each number represents the number of days. Important junctions of the project are indicated by the seven red arrows in the diagram. Determine their earliest- and latest-starting times.",
+   "answer": "Using forward and backward scanning (EST | LST): start 0 | 0; vertex after A: 5 | 5; vertex after C (bottom-left): 4 | 5; vertex after E (bottom-right): 7 | 8; the central vertex (where B, D, H end and G, J start): 15 | 16 (EST via C, E, H is $4+3+8=15$; LST $=20-4=16$); the vertex after F (top-right): 20 | 20; finish: 29 | 29.",
+   "images": [
+    "assets/img/std2-2024-abbotsleigh/q38.png"
+   ]
+  },
+  {
+   "ref": "Q38(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.1.2",
+    "12.7.1.5"
+   ],
+   "question": "For the project network shown (activities A,5; B,7; C,4; D,2; E,3; F,15; G,4; H,8; I,9 (top right); J,9 (middle)), what is the critical path?",
+   "answer": "The critical path is the path along which EST = LST at every vertex: A–F–I ($5+15+9=29$ days). (The school's solution labelled the last activity J; on the diagram the top-right activity is the one on this path.)",
+   "images": [
+    "assets/img/std2-2024-abbotsleigh/q38.png"
+   ]
+  },
+  {
+   "ref": "Q38(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.1.6"
+   ],
+   "question": "What is the minimum time for the project network shown to be completed?",
+   "answer": "The length of the critical path: $5+15+9=29$ days.",
+   "images": [
+    "assets/img/std2-2024-abbotsleigh/q38.png"
+   ]
+  },
+  {
+   "ref": "Q39(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.2",
+    "12.2.3.5"
+   ],
+   "question": "Elena takes out a loan of \\$150 000, which has an interest rate of 6.14% per annum. She makes regular monthly repayments of \\$1000. The table shows the details to determine her monthly balance.\n\n| $n$ | Amount owing at start of month | Interest | Monthly repayment | Balance owing |\n|---|---|---|---|---|\n| 1 | \\$150 000 | \\$767.5 | \\$1000 | \\$149 767.50 |\n| 2 | | | \\$1000 | $A_2$ |\n\nComplete the table to find the value of $A_2$, answering to the nearest cent.",
+   "answer": "Monthly rate $=\\dfrac{6.14\\%}{12}=0.5117\\%$. Month 2: amount owing \\$149 767.50; interest $=149\\,767.50\\times\\dfrac{0.0614}{12}=\\$766.31$. $A_2=149\\,767.50+766.31-1000=\\$149\\,533.81$."
+  },
+  {
+   "ref": "Q39(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.2"
+   ],
+   "question": "Let $A_n$ be the value of Elena's loan after $n$ months (loan \\$150 000 at 6.14% p.a., monthly repayments of \\$1000). Complete the recurrence relation to model the value of this loan over time. That is, indicate both $A_0$ and $A_{n+1}$: $A_0=\\_\\_$, $A_{n+1}=\\_\\_\\times A_n-1000$. Where necessary, give your answers correct to three decimal places.",
+   "answer": "$A_0=150\\,000$. Each month the balance is multiplied by $1+\\dfrac{0.0614}{12}=1.005$ (to 3 d.p.), then the repayment is subtracted: $A_{n+1}=1.005\\,A_n-1000$."
+  },
+  {
+   "ref": "Q39(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.1.4",
+    "12.3.1.5"
+   ],
+   "question": "After the second month, Elena realises that the interest she pays is very high. She decides to switch to a different bank, which offers an interest rate of 6% per annum. The table shows the present value for an annuity of \\$1 (rows: period in months; columns: interest rate per period).\n\n| Period | 0.5% | 1% | 2% | 3% | 4% | 5% | 6% |\n|---|---|---|---|---|---|---|---|\n| 90 | 72.331 | 59.161 | 41.587 | 31.002 | 24.267 | 19.752 | 16.579 |\n| 100 | 78.543 | 63.029 | 43.098 | 31.599 | 24.505 | 19.848 | 16.618 |\n| 120 | 90.073 | 69.701 | 45.355 | 32.373 | 24.774 | 19.943 | 16.651 |\n| 132 | 96.460 | 73.111 | 46.338 | 32.660 | 24.859 | 19.968 | 16.659 |\n| 142 | 101.497 | 75.658 | 46.996 | 32.832 | 24.905 | 19.980 | 16.665 |\n| 144 | 102.475 | 76.137 | 47.112 | 32.861 | 24.912 | 19.982 | 16.663 |\n| 165 | 112.173 | 80.637 | 48.095 | 33.079 | 24.961 | 19.994 | 16.666 |\n| 168 | 113.477 | 81.206 | 48.205 | 33.101 | 24.966 | 19.994 | 16.666 |\n| 180 | 118.504 | 83.322 | 48.584 | 33.170 | 24.979 | 19.997 | 16.666 |\n\nUsing the table, calculate the total interest that Elena will pay if she repays the loan of \\$150 000 in full after 12 years.",
+   "answer": "Monthly rate $=\\dfrac{6\\%}{12}=0.5\\%$ and $n=12\\times12=144$ months. The table factor is 102.475. Repayment $=\\dfrac{150\\,000}{102.475}=\\$1463.77$. Total repaid $=1463.77\\times144\\approx\\$210\\,783$. Interest $=210\\,783-150\\,000\\approx\\$60\\,783$."
+  }
+ ]
+}
