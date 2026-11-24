@@ -1,0 +1,602 @@
+{
+ "id": "ext2-2025-barker",
+ "course": "extension2",
+ "school": "Barker",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "Barker 2025 w. sol"
+ },
+ "indexed": "2026-11-24",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q8",
+   "reason": "Options are written in exponential (Euler) form, which is not in the 2024 Ext 2 syllabus (also flawed: $z^4=i$ has arguments $\\frac{\\pi}{8}+\\frac{k\\pi}{2}$, so none of the options is a solution)"
+  },
+  {
+   "ref": "Q11(b)(i)",
+   "reason": "Not in 2024 syllabus: Euler's formula / exponential form $e^{i\\theta}$"
+  },
+  {
+   "ref": "Q11(b)(ii)",
+   "reason": "Not in 2024 syllabus: Euler's formula / exponential form $e^{i\\theta}$"
+  },
+  {
+   "ref": "Q11(b)(iii)",
+   "reason": "Not in 2024 syllabus: Euler's formula / exponential form $e^{i\\theta}$ (the result of part (ii) is required)"
+  },
+  {
+   "ref": "Q16(d)",
+   "reason": "Not in 2024 syllabus: motion with friction ($F=\\mu N$) on a rough inclined plane (the syllabus covers smooth planes only); the printed result also has a typo"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.3",
+    "12.3.4.3"
+   ],
+   "question": "The argument of a complex number $z$ is $\\dfrac{\\pi}{7}$. What is $\\operatorname{Arg}(z^{10})$ equal to?",
+   "answer": "$z=r\\operatorname{cis}\\frac{\\pi}{7}$, so $z^{10}=r^{10}\\operatorname{cis}\\frac{10\\pi}{7}$. The principal argument must lie in $(-\\pi,\\pi]$, and $\\frac{10\\pi}{7}>\\pi$, so subtract $2\\pi$: $\\frac{10\\pi}{7}-2\\pi=-\\frac{4\\pi}{7}$ (D).",
+   "options": [
+    "$\\dfrac{3\\pi}{7}$",
+    "$-\\dfrac{3\\pi}{7}$",
+    "$\\dfrac{4\\pi}{7}$",
+    "$-\\dfrac{4\\pi}{7}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "Let $\\mathbf{a}=\\begin{pmatrix}-4\\\\-2\\\\6\\end{pmatrix}$ and $\\mathbf{b}=\\begin{pmatrix}-2m\\\\2\\\\2\\end{pmatrix}$, where $m$ is a real constant. For what value of $m$ will the vector $\\mathbf{b}-\\mathbf{a}$ be perpendicular to the vector $\\mathbf{b}$?",
+   "answer": "$\\mathbf{b}-\\mathbf{a}=\\begin{pmatrix}4-2m\\\\4\\\\-4\\end{pmatrix}$. Perpendicular means $(\\mathbf{b}-\\mathbf{a})\\cdot\\mathbf{b}=0$: $(4-2m)(-2m)+8-8=0$, so $4m^2-8m=0$, $4m(m-2)=0$, giving $m=0$ or $m=2$ (C).",
+   "options": [
+    "$0$ only",
+    "$2$ only",
+    "$0$ or $2$",
+    "$0$ or $-2$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.2"
+   ],
+   "question": "Consider the proposition “If a positive integer is not a perfect square, then it is not prime.” If a number was found which had the following properties, which would be a counterexample to the proposition?",
+   "answer": "A counterexample to “if $P$ then $Q$” satisfies $P$ but not $Q$: the integer is not a perfect square (hypothesis true) but it **is** prime (conclusion false). This is A.",
+   "options": [
+    "A positive integer that is not a perfect square and is prime.",
+    "A positive integer that is not a perfect square and is not prime.",
+    "A positive integer that is a perfect square and is prime.",
+    "A positive integer that is a perfect square and is not prime."
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.12"
+   ],
+   "question": "A particle moves along a curve so that its position at time $t$ is given by $\\mathbf{x}=\\begin{pmatrix}2t\\\\t^2\\\\t^3\\end{pmatrix}$. The acceleration at $t=1$ is:",
+   "answer": "Differentiate twice: $\\dot{\\mathbf{x}}=\\begin{pmatrix}2\\\\2t\\\\3t^2\\end{pmatrix}$, $\\ddot{\\mathbf{x}}=\\begin{pmatrix}0\\\\2\\\\6t\\end{pmatrix}$. At $t=1$, $\\ddot{\\mathbf{x}}=2\\mathbf{j}+6\\mathbf{k}$ (A).",
+   "options": [
+    "$2\\mathbf{j}+6\\mathbf{k}$",
+    "$\\mathbf{i}+\\mathbf{j}+6\\mathbf{k}$",
+    "$\\mathbf{i}+2\\mathbf{j}+6\\mathbf{k}$",
+    "$\\mathbf{j}+6\\mathbf{k}$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.11"
+   ],
+   "question": "Which of the following is an expression for $\\displaystyle\\int\\frac{\\sin^3x-\\cos^3x}{\\sin x-\\cos x}\\,dx$?",
+   "answer": "Factorise the difference of cubes: $\\sin^3x-\\cos^3x=(\\sin x-\\cos x)(\\sin^2x+\\sin x\\cos x+\\cos^2x)$. The integrand becomes $1+\\sin x\\cos x$, and $\\int(1+\\sin x\\cos x)\\,dx=x+\\tfrac12\\sin^2x+c$ (B).",
+   "options": [
+    "$x-\\dfrac12\\sin^2x+c$",
+    "$x+\\dfrac12\\sin^2x+c$",
+    "$x+\\dfrac12\\cos2x+c$",
+    "$x-\\dfrac12\\cos2x+c$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.7"
+   ],
+   "question": "Which of the following statements is the negation of the statement “$\\forall x\\in\\mathbb{R}^+,\\ \\exists y\\in\\mathbb{R}^+$ such that $xy=1$”?",
+   "answer": "To negate, swap each quantifier ($\\forall\\leftrightarrow\\exists$) and negate the final statement: $\\neg(\\forall x\\,\\exists y\\ xy=1)=\\exists x\\ \\forall y\\ xy\\neq1$ (B).",
+   "options": [
+    "$\\exists x,\\ y\\in\\mathbb{R}^+$ such that $xy\\neq1$",
+    "$\\exists x\\in\\mathbb{R}^+$ such that $\\forall y\\in\\mathbb{R}^+,\\ xy\\neq1$",
+    "$\\forall x,\\ y\\in\\mathbb{R}^+,\\ xy\\neq1$",
+    "$\\forall x\\in\\mathbb{R}^+$, there exists a positive real number $y$ such that $xy\\neq1$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Using the substitution $x=\\pi-u$, the definite integral $\\displaystyle\\int_0^\\pi x\\sin x\\,dx$ will simplify to:",
+   "answer": "With $x=\\pi-u$, $dx=-du$, and the limits $x=0,\\pi$ become $u=\\pi,0$. So $I=\\int_0^\\pi(\\pi-u)\\sin(\\pi-u)\\,du=\\int_0^\\pi(\\pi-u)\\sin u\\,du=\\pi\\int_0^\\pi\\sin u\\,du-I$. Hence $2I=\\pi\\int_0^\\pi\\sin x\\,dx$, i.e. $I=\\frac{\\pi}{2}\\int_0^\\pi\\sin x\\,dx$ (C).",
+   "options": [
+    "$0$",
+    "$\\dfrac{\\pi^2}{4}\\displaystyle\\int_0^\\pi\\sin x\\,dx$",
+    "$\\dfrac{\\pi}{2}\\displaystyle\\int_0^\\pi\\sin x\\,dx$",
+    "$\\displaystyle\\int_0^\\pi\\sin x\\,dx$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.11"
+   ],
+   "question": "Which of the following statements is the contrapositive of the statement “if $x>y>0$ then $0<\\dfrac1x<\\dfrac1y$”?",
+   "answer": "The contrapositive of “if $P$ then $Q$” is “if not $Q$ then not $P$”. A chained inequality $a<b<c$ means “$a<b$ **and** $b<c$”, so its negation is “$a\\ge b$ **or** $b\\ge c$”: not $Q$ is “$0\\ge\\frac1x$ or $\\frac1x\\ge\\frac1y$”, and not $P$ is “$x\\le y$ or $y\\le0$” (A).",
+   "options": [
+    "If $0\\ge\\dfrac1x$ or $\\dfrac1x\\ge\\dfrac1y$ then $x\\le y$ or $y\\le0$.",
+    "If $0\\ge\\dfrac1x$ and $\\dfrac1x\\ge\\dfrac1y$ then $x\\le y$ and $y\\le0$.",
+    "If $0\\ge\\dfrac1x\\ge\\dfrac1y$ then $x\\le y\\le0$.",
+    "If $x\\le y\\le0$ then $0\\ge\\dfrac1x\\ge\\dfrac1y$."
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "Which of the following integrals has the largest value?",
+   "answer": "On $[0,\\frac{\\pi}{4}]$ we have $0\\le\\sin x\\le\\frac{\\sqrt2}{2}$, so $\\sin^2x\\le\\sin x\\le\\frac{\\sqrt2}{2}<1$. Hence $1-\\sin^2x\\ge1-\\sin x$ and $1-\\sin^2x=\\cos^2x\\ge\\frac12\\ge\\sin^2x$, so D has the largest integrand throughout. (Values: A $\\approx0.293$, B $\\approx0.143$, C $\\approx0.492$, D $=\\frac\\pi8+\\frac14\\approx0.643$.)",
+   "options": [
+    "$\\displaystyle\\int_0^{\\pi/4}\\sin x\\,dx$",
+    "$\\displaystyle\\int_0^{\\pi/4}\\sin^2x\\,dx$",
+    "$\\displaystyle\\int_0^{\\pi/4}(1-\\sin x)\\,dx$",
+    "$\\displaystyle\\int_0^{\\pi/4}(1-\\sin^2x)\\,dx$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.13"
+   ],
+   "question": "Let $z=a-2bi$. Find $\\dfrac1z$ in the form $x+iy$.",
+   "answer": "$\\dfrac1z=\\dfrac{1}{a-2bi}\\times\\dfrac{a+2bi}{a+2bi}=\\dfrac{a+2bi}{a^2+4b^2}=\\dfrac{a}{a^2+4b^2}+\\dfrac{2b}{a^2+4b^2}\\,i$."
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.9"
+   ],
+   "question": "Let $z=a-2bi$. Find $z^2$ in the form $x+iy$.",
+   "answer": "$z^2=a^2-4abi+4b^2i^2=(a^2-4b^2)-4ab\\,i$."
+  },
+  {
+   "ref": "Q11(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Find real numbers $A$ and $B$ such that $\\dfrac{6x^2+3x+17}{(x-3)(x^2+2x+5)}=\\dfrac{A}{x-3}+\\dfrac{Bx+1}{x^2+2x+5}$.",
+   "answer": "Multiply through: $6x^2+3x+17=A(x^2+2x+5)+(Bx+1)(x-3)$. Let $x=3$: $54+9+17=20A$, so $A=4$. Equate coefficients of $x^2$: $6=A+B$, so $B=2$. (Check the constant term: $5A-3=17$ ✓.) So $A=4$, $B=2$."
+  },
+  {
+   "ref": "Q11(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.8"
+   ],
+   "question": "Given that $\\dfrac{6x^2+3x+17}{(x-3)(x^2+2x+5)}=\\dfrac{4}{x-3}+\\dfrac{2x+1}{x^2+2x+5}$, find $\\displaystyle\\int\\frac{6x^2+3x+17}{(x-3)(x^2+2x+5)}\\,dx$.",
+   "answer": "$\\int\\frac{4}{x-3}\\,dx=4\\ln|x-3|$. For the second term write $2x+1=(2x+2)-1$: $\\int\\frac{2x+1}{x^2+2x+5}\\,dx=\\int\\frac{2x+2}{x^2+2x+5}\\,dx-\\int\\frac{dx}{(x+1)^2+4}=\\ln(x^2+2x+5)-\\frac12\\tan^{-1}\\!\\frac{x+1}{2}$. Therefore $$\\int\\frac{6x^2+3x+17}{(x-3)(x^2+2x+5)}\\,dx=4\\ln|x-3|+\\ln(x^2+2x+5)-\\tfrac12\\tan^{-1}\\!\\left(\\tfrac{x+1}{2}\\right)+C.$$"
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "Prove the following statement for positive $n$ using a proof by contradiction: “For each irrational number $n$, $\\sqrt n$ is also irrational.”",
+   "answer": "Suppose, for a contradiction, that $n$ is irrational but $\\sqrt n$ is rational. Then $\\sqrt n=\\frac ab$ for some integers $a,b$ with $b\\ne0$, so $n=\\frac{a^2}{b^2}$, which is a ratio of integers, so $n$ is rational. This contradicts the assumption that $n$ is irrational. Hence if $n$ is irrational then $\\sqrt n$ is irrational."
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.4"
+   ],
+   "question": "Assume that the tides rise and fall in simple harmonic motion. At low tide the depth of water in a harbour was 6 m, and at high tide it was 10 m. Low tide was at 8:00 am and the high tide following it was at 3:00 pm.\n\nWhat is the amplitude of the motion?",
+   "answer": "Amplitude $=\\dfrac{10-6}{2}=2$ m."
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.4"
+   ],
+   "question": "Assume that the tides rise and fall in simple harmonic motion. At low tide the depth of water in a harbour was 6 m, and at high tide it was 10 m. Low tide was at 8:00 am and the high tide following it was at 3:00 pm.\n\nWhat is the period of the motion?",
+   "answer": "Low tide to the next high tide is half a period: $\\tfrac12T=7$ hours (8:00 am to 3:00 pm), so the period is $T=14$ hours."
+  },
+  {
+   "ref": "Q12(a)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.10"
+   ],
+   "question": "Assume that the tides rise and fall in simple harmonic motion. At low tide the depth of water in a harbour was 6 m, and at high tide it was 10 m. Low tide was at 8:00 am and the high tide following it was at 3:00 pm.\n\nWhat was the depth of the harbour at 11:30 am?",
+   "answer": "11:30 am is $3\\tfrac12$ hours after low tide, which is halfway between low tide (8:00 am) and high tide (3:00 pm). So the depth is at the centre of motion: $\\dfrac{6+10}{2}=8$ m."
+  },
+  {
+   "ref": "Q12(a)(iv)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.9"
+   ],
+   "question": "Assume that the tides rise and fall in simple harmonic motion. At low tide the depth of water in a harbour was 6 m, and at high tide it was 10 m. Low tide was at 8:00 am and the high tide following it was at 3:00 pm. Starting with $y=a\\cos(nt+\\alpha)+c$ and by using the amplitude $2$ m, the period $14$ hours and the depth $8$ m at 11:30 am, show that the depth $y$ metres of the water in the harbour is given by $y=8-2\\cos\\left(\\dfrac{\\pi}{7}t\\right)$, where $t$ is the number of hours after 8:00 am.",
+   "answer": "The centre of motion is $c=8$ and the amplitude is $2$, so $y=2\\cos(nt+\\alpha)+8$ (taking $a=2$). The period is $14=\\frac{2\\pi}{n}$, so $n=\\frac\\pi7$. At $t=0$ (low tide) $y=6$: $6=2\\cos\\alpha+8$, so $\\cos\\alpha=-1$ and $\\alpha=\\pi$. Then $y=2\\cos\\left(\\frac\\pi7t+\\pi\\right)+8=-2\\cos\\left(\\frac\\pi7t\\right)+8=8-2\\cos\\left(\\frac\\pi7t\\right)$."
+  },
+  {
+   "ref": "Q12(a)(v)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.10"
+   ],
+   "question": "Assume that the tides rise and fall in simple harmonic motion. At low tide the depth of water in a harbour was 6 m, and at high tide it was 10 m. Low tide was at 8:00 am and the high tide following it was at 3:00 pm. The depth at time $t$ hours after 8:00 am is $y=8-2\\cos\\left(\\dfrac\\pi7t\\right)$. A boat needs at least 9 m of water to pass through the harbour. Between which times after 8:00 am on this day could the ship navigate safely through the harbour?",
+   "answer": "We need $8-2\\cos\\left(\\frac\\pi7t\\right)\\ge9$, i.e. $\\cos\\left(\\frac\\pi7t\\right)\\le-\\frac12$. For the first cycle $0\\le t\\le14$ (so $0\\le\\frac\\pi7t\\le2\\pi$) this gives $\\frac{2\\pi}3\\le\\frac\\pi7t\\le\\frac{4\\pi}3$, so $\\frac{14}3\\le t\\le\\frac{28}3$, i.e. $4$ h $40$ min $\\le t\\le9$ h $20$ min. The boat can pass between **12:40 pm and 5:20 pm**."
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "$P(z)=z^4-10z^3+117z^2-412z+1460$ has zeroes $2a+bi$ and $3a+2bi$, where $a$ and $b$ are integers. Find the values of $a$ and $b$ and hence find all the zeroes of $P(z)$.",
+   "answer": "$P$ has real coefficients, so the zeroes are $2a\\pm bi$ and $3a\\pm2bi$. The sum of the zeroes is $4a+6a=10a=10$ (from $-\\frac{-10}{1}$), so $a=1$. The zeroes are $2\\pm bi$, $3\\pm2bi$ and their product is $(4+b^2)(9+4b^2)=1460$, giving $4b^4+25b^2+36=1460$, i.e. $4b^4+25b^2-1424=0$. So $b^2=\\frac{-25\\pm153}{8}=16$ (the other root is negative), and $b=\\pm4$ as $b$ is an integer. Taking $b=4$: $a=1$, $b=4$ and the zeroes are $2\\pm4i$ and $3\\pm8i$."
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "The polynomial $P(z)=z^4-10z^3+117z^2-412z+1460$ has zeroes $2\\pm4i$ and $3\\pm8i$. Factorise $P(z)$ into its quadratic factors with real coefficients.",
+   "answer": "For $2\\pm4i$: sum $=4$, product $=4+16=20$, giving $z^2-4z+20$. For $3\\pm8i$: sum $=6$, product $=9+64=73$, giving $z^2-6z+73$. So $P(z)=(z^2-4z+20)(z^2-6z+73)$."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.4.2"
+   ],
+   "question": "It is given that $3^x>2x+\\dfrac12\\ln x$ for $x>0$. By forming a series of $n$ inequalities, show that $3^{n+1}>2n^2+2n+3+\\ln(n!)$.",
+   "answer": "Write the inequality for $x=1,2,\\dots,n$: $3^1>2(1)+\\frac12\\ln1$, $3^2>2(2)+\\frac12\\ln2$, …, $3^n>2(n)+\\frac12\\ln n$. Add them: $3+3^2+\\dots+3^n>2(1+2+\\dots+n)+\\frac12(\\ln1+\\ln2+\\dots+\\ln n)$. The left side is a geometric series: $\\frac{3(3^n-1)}{3-1}$. The right side is $2\\cdot\\frac{n(n+1)}{2}+\\frac12\\ln(1\\cdot2\\cdots n)=n(n+1)+\\frac12\\ln(n!)$. So $\\frac32(3^n-1)>n(n+1)+\\frac12\\ln(n!)$. Multiply by 2: $3^{n+1}-3>2n^2+2n+\\ln(n!)$, hence $3^{n+1}>2n^2+2n+3+\\ln(n!)$."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.5"
+   ],
+   "question": "Given that $u_1=1$ and $u_{n+1}=2u_n+(-1)^{n+1}$, prove that $u_n=\\dfrac13\\left(2^{n+1}+(-1)^n\\right)$, where $n\\in\\mathbb{Z}^+$, by mathematical induction.",
+   "answer": "**Base case** $n=1$: $\\frac13(2^2+(-1)^1)=\\frac13(4-1)=1=u_1$ ✓. **Assume** true for $n=k$: $u_k=\\frac13\\left(2^{k+1}+(-1)^k\\right)$. **Prove** for $n=k+1$, i.e. $u_{k+1}=\\frac13\\left(2^{k+2}+(-1)^{k+1}\\right)$. $u_{k+1}=2u_k+(-1)^{k+1}=\\frac23\\left(2^{k+1}+(-1)^k\\right)+(-1)^{k+1}=\\frac13\\left(2^{k+2}+2(-1)^k+3(-1)^{k+1}\\right)=\\frac13\\left(2^{k+2}+2(-1)^k-3(-1)^k\\right)=\\frac13\\left(2^{k+2}-(-1)^k\\right)=\\frac13\\left(2^{k+2}+(-1)^{k+1}\\right)$ ✓. So the statement is true for $n=k+1$ whenever it is true for $n=k$; being true for $n=1$, it is true for all positive integers $n$ by mathematical induction."
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Use a suitable substitution to show that $\\displaystyle\\int_0^af(x)\\,dx=\\int_0^af(a-x)\\,dx$.",
+   "answer": "Let $u=a-x$, so $du=-dx$; when $x=0$, $u=a$, and when $x=a$, $u=0$. Then $\\int_0^af(a-x)\\,dx=\\int_a^0f(u)(-du)=\\int_0^af(u)\\,du=\\int_0^af(x)\\,dx$ (renaming the dummy variable)."
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Using the result $\\displaystyle\\int_0^af(x)\\,dx=\\int_0^af(a-x)\\,dx$, or otherwise, evaluate $\\displaystyle\\int_0^{\\pi/4}\\frac{\\sin2x}{\\sin2x+\\cos2x}\\,dx$.",
+   "answer": "Let $I=\\int_0^{\\pi/4}\\frac{\\sin2x}{\\sin2x+\\cos2x}\\,dx$. Apply the result with $a=\\frac\\pi4$: $\\sin2\\left(\\frac\\pi4-x\\right)=\\sin\\left(\\frac\\pi2-2x\\right)=\\cos2x$ and $\\cos2\\left(\\frac\\pi4-x\\right)=\\sin2x$, so $I=\\int_0^{\\pi/4}\\frac{\\cos2x}{\\cos2x+\\sin2x}\\,dx$. Adding the two forms: $2I=\\int_0^{\\pi/4}\\frac{\\sin2x+\\cos2x}{\\sin2x+\\cos2x}\\,dx=\\int_0^{\\pi/4}1\\,dx=\\frac\\pi4$. Hence $I=\\dfrac\\pi8$."
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "The acceleration of a particle $P$ moving along the $x$-axis is given by $\\ddot x=4x^3-12x$. If $P$ is initially at the origin with velocity $u$, show that its velocity is given by $v^2=2x^4-12x^2+u^2$.",
+   "answer": "$\\frac{d}{dx}\\left(\\tfrac12v^2\\right)=4x^3-12x$, so $\\tfrac12v^2=x^4-6x^2+C$. When $x=0$, $v=u$: $C=\\frac{u^2}2$. Therefore $v^2=2x^4-12x^2+u^2$."
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "The acceleration of a particle $P$ moving along the $x$-axis is $\\ddot x=4x^3-12x$, and its velocity satisfies $v^2=2x^4-12x^2+u^2$ where $u$ is its initial velocity at the origin. If $u=4$, show that the particle oscillates within the interval $-\\sqrt2\\le x\\le\\sqrt2$.",
+   "answer": "With $u=4$: $v^2=2x^4-12x^2+16=2(x^4-6x^2+8)=2(x^2-2)(x^2-4)$. This is $\\ge0$ only when $x^2\\le2$ or $x^2\\ge4$, and $v^2<0$ (impossible) for $2<x^2<4$. The particle starts at $x=0$ (where $x^2<2$) and its motion is continuous, so it can never reach $|x|=\\sqrt2$ and pass beyond it: it stays in $-\\sqrt2\\le x\\le\\sqrt2$. At $x=\\sqrt2$, $v=0$ and $\\ddot x=4\\sqrt2(2-3)=-4\\sqrt2<0$, so the particle turns back towards the origin; at $x=-\\sqrt2$, $v=0$ and $\\ddot x=+4\\sqrt2>0$, so it again turns back. Hence it oscillates between $x=-\\sqrt2$ and $x=\\sqrt2$."
+  },
+  {
+   "ref": "Q13(c)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.1"
+   ],
+   "question": "A particle moves along the $x$-axis with acceleration $\\ddot x=4x^3-12x$ and oscillates within the interval $-\\sqrt2\\le x\\le\\sqrt2$. Is this motion simple harmonic motion? Give a reason for your answer.",
+   "answer": "No. Simple harmonic motion requires $\\ddot x=-n^2(x-c)$ (acceleration proportional to displacement from a centre and directed towards it). Here $\\ddot x=-4x(3-x^2)$, which is not of the form $-n^2(x-c)$ since the factor $3-x^2$ is not constant. So the motion is not simple harmonic."
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.5"
+   ],
+   "question": "When an aircraft touches down on a runway, two different retarding forces combine to ultimately bring the aircraft to rest. There is a constant frictional force of $-\\dfrac15M$ newtons, where the mass of the aircraft is $M$ kg. There is also a force of $-\\dfrac1{125}Mv^2$ newtons, where $v$ is the aircraft’s velocity in m/s, due to the reverse thrust of the engines. The reverse thrust of the engines is applied from 10 seconds after touchdown until the plane stops.\n\nThe aircraft’s speed at touchdown is 80 m/s. Show that, at the instant the reverse thrust of the engines takes effect, $v=78$ m/s and the aircraft’s displacement from its touchdown point is $x=790$ m.",
+   "answer": "For the first 10 seconds only the constant friction acts: $M\\ddot x=-\\frac15M$, so $\\ddot x=-0.2$. Then $v=-0.2t+C$, and $v=80$ at $t=0$ gives $v=80-0.2t$. At $t=10$: $v=80-2=78$ m/s. Integrating again, $x=80t-0.1t^2+D$ with $x=0$ at $t=0$ so $D=0$. At $t=10$: $x=800-10=790$ m."
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.1"
+   ],
+   "question": "When an aircraft touches down on a runway, two different retarding forces combine to ultimately bring the aircraft to rest. There is a constant frictional force of $-\\dfrac15M$ newtons, where the mass of the aircraft is $M$ kg. There is also a force of $-\\dfrac1{125}Mv^2$ newtons, where $v$ is the aircraft’s velocity in m/s, due to the reverse thrust of the engines. The reverse thrust of the engines is applied from 10 seconds after touchdown until the plane stops. Show that for $t>10$, and until the aircraft stops, $\\dfrac{d^2x}{dt^2}=-\\dfrac1{125}\\left(25+v^2\\right)$.",
+   "answer": "For $t>10$ both forces act: $M\\ddot x=-\\frac15M-\\frac1{125}Mv^2$, so $\\ddot x=-\\frac15-\\frac{v^2}{125}=-\\frac{1}{125}\\left(25+v^2\\right)$."
+  },
+  {
+   "ref": "Q14(a)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.3"
+   ],
+   "question": "When an aircraft touches down on a runway, two different retarding forces combine to ultimately bring the aircraft to rest. There is a constant frictional force of $-\\dfrac15M$ newtons, where the mass of the aircraft is $M$ kg. There is also a force of $-\\dfrac1{125}Mv^2$ newtons, where $v$ is the aircraft’s velocity in m/s, due to the reverse thrust of the engines. The reverse thrust of the engines is applied from 10 seconds after touchdown until the plane stops. Given that for $t>10$, $\\ddot x=-\\dfrac1{125}(25+v^2)$, and that at $t=10$ the velocity is $v=78$ m/s at displacement $x=790$ m, show that when $t>10$, $x=790+62.5\\left[\\ln6109-\\ln\\left(25+v^2\\right)\\right]$.",
+   "answer": "Write $\\ddot x=v\\frac{dv}{dx}=-\\frac1{125}(25+v^2)$, so $\\frac{dx}{dv}=-\\frac{125v}{25+v^2}=-\\frac{125}{2}\\cdot\\frac{2v}{25+v^2}$. Integrating: $x=-62.5\\ln(25+v^2)+C$. At $v=78$, $x=790$: $790=-62.5\\ln6109+C$ (since $25+78^2=6109$), so $C=790+62.5\\ln6109$. Hence $x=790+62.5\\left[\\ln6109-\\ln\\left(25+v^2\\right)\\right]$."
+  },
+  {
+   "ref": "Q14(a)(iv)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.5"
+   ],
+   "question": "When an aircraft touches down on a runway, two different retarding forces combine to ultimately bring the aircraft to rest. There is a constant frictional force of $-\\dfrac15M$ newtons, where the mass of the aircraft is $M$ kg. There is also a force of $-\\dfrac1{125}Mv^2$ newtons, where $v$ is the aircraft’s velocity in m/s, due to the reverse thrust of the engines. The reverse thrust of the engines is applied from 10 seconds after touchdown until the plane stops. For $t>10$, the displacement from touchdown is $x=790+62.5\\left[\\ln6109-\\ln\\left(25+v^2\\right)\\right]$. Calculate how far from the touchdown point the aircraft travels before it comes to rest. Answer to the nearest metre.",
+   "answer": "The aircraft is at rest when $v=0$: $x=790+62.5\\left[\\ln6109-\\ln25\\right]=790+62.5\\ln\\frac{6109}{25}\\approx790+343.67=1133.67$. So the aircraft travels about **1134 m**."
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.15"
+   ],
+   "question": "Three different particles move in the $xy$-plane according to trajectories defined parametrically by $\\mathbf R_1(t)=\\cos(t)\\,\\mathbf i+\\sin(t)\\,\\mathbf j$, $\\mathbf R_2(t)=\\cos(2t)\\,\\mathbf i+\\sin(2t)\\,\\mathbf j$ and $\\mathbf R_3(t)=\\sin(t)\\,\\mathbf i+\\cos(t)\\,\\mathbf j$. For each particle, describe: (1) the shape of the path, (2) the period of the motion, (3) the direction of the motion.",
+   "answer": "Each has $x^2+y^2=1$, so each path is the **unit circle** centred at the origin. $\\mathbf R_1$: period $2\\pi$; at $t=0$ it is at $(1,0)$ and at $t=\\frac\\pi2$ at $(0,1)$, so it moves **anticlockwise**. $\\mathbf R_2$: period $\\frac{2\\pi}{2}=\\pi$ (twice as fast); at $t=0$ it is at $(1,0)$ and at $t=\\frac\\pi4$ at $(0,1)$, so it moves **anticlockwise**. $\\mathbf R_3$: period $2\\pi$; at $t=0$ it is at $(0,1)$ and at $t=\\frac\\pi2$ at $(1,0)$, so it moves **clockwise**."
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "A body of mass 1 kg is moving in a horizontal straight line and is acted on by a force $F=8x^3+36x$ newtons, where $x$ is the displacement of the body in metres, measured from the origin. If the body is initially one metre to the right of the origin with velocity 11 m/s, find the displacement function $x(t)$.",
+   "answer": "$m=1$, so $\\ddot x=8x^3+36x$ and $\\frac{d}{dx}\\left(\\tfrac12v^2\\right)=8x^3+36x$, giving $\\tfrac12v^2=2x^4+18x^2+C$. At $x=1$, $v=11$: $\\frac{121}2=2+18+C$, so $C=\\frac{81}2$. Then $v^2=4x^4+36x^2+81=(2x^2+9)^2$. Since $v=11>0$ initially (and $2x^2+9>0$ always), $v=2x^2+9$, i.e. $\\frac{dx}{dt}=2x^2+9$. Then $t=\\int\\frac{dx}{2x^2+9}=\\frac12\\int\\frac{dx}{x^2+\\frac92}=\\frac12\\cdot\\frac{\\sqrt2}{3}\\tan^{-1}\\frac{\\sqrt2x}{3}+D=\\frac{1}{3\\sqrt2}\\tan^{-1}\\frac{\\sqrt2x}{3}+D$. At $t=0$, $x=1$: $D=-\\frac{1}{3\\sqrt2}\\tan^{-1}\\frac{\\sqrt2}3$. So $3\\sqrt2\\,t+\\tan^{-1}\\frac{\\sqrt2}3=\\tan^{-1}\\frac{\\sqrt2x}{3}$ and $$x=\\frac{3}{\\sqrt2}\\tan\\left(3\\sqrt2\\,t+\\tan^{-1}\\frac{\\sqrt2}{3}\\right).$$ (Check: $\\dot x=9\\sec^2(\\cdot)=9+2x^2$ ✓, and $x(0)=1$ ✓.)"
+  },
+  {
+   "ref": "Q15(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.10"
+   ],
+   "question": "Two lines are $\\mathbf R_1=\\begin{pmatrix}4\\\\0\\\\1\\end{pmatrix}+\\lambda\\begin{pmatrix}0\\\\1\\\\1\\end{pmatrix}$ and $\\mathbf R_2=\\begin{pmatrix}3\\\\0\\\\2\\end{pmatrix}+\\mu\\begin{pmatrix}1\\\\3\\\\2\\end{pmatrix}$.\n\nShow that these lines intersect and find the point of intersection.",
+   "answer": "Equate components: $4=3+\\mu$, $\\lambda=3\\mu$, $1+\\lambda=2+2\\mu$. The first gives $\\mu=1$, the second then gives $\\lambda=3$, and the third checks: $1+3=4=2+2(1)$ ✓. The equations are consistent, so the lines intersect, at $\\begin{pmatrix}4\\\\3\\\\4\\end{pmatrix}$, i.e. the point $(4,3,4)$."
+  },
+  {
+   "ref": "Q15(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "The line $\\mathbf R_1=\\begin{pmatrix}4\\\\0\\\\1\\end{pmatrix}+\\lambda\\begin{pmatrix}0\\\\1\\\\1\\end{pmatrix}$ is given. Find the shortest distance from the point $P(1,4,0)$ to the line $\\mathbf R_1$.",
+   "answer": "Let $A=(4,0,1)$ and $\\mathbf d=\\begin{pmatrix}0\\\\1\\\\1\\end{pmatrix}$. $\\overrightarrow{AP}=\\begin{pmatrix}-3\\\\4\\\\-1\\end{pmatrix}$. The foot $B$ of the perpendicular satisfies $\\overrightarrow{AB}=\\operatorname{proj}_{\\mathbf d}\\overrightarrow{AP}=\\frac{\\overrightarrow{AP}\\cdot\\mathbf d}{\\mathbf d\\cdot\\mathbf d}\\mathbf d=\\frac{3}{2}\\begin{pmatrix}0\\\\1\\\\1\\end{pmatrix}$. Then $\\overrightarrow{BP}=\\overrightarrow{AP}-\\overrightarrow{AB}=\\begin{pmatrix}-3\\\\\\frac52\\\\-\\frac52\\end{pmatrix}$ and the shortest distance is $|\\overrightarrow{BP}|=\\sqrt{9+\\frac{25}4+\\frac{25}4}=\\sqrt{21.5}=\\dfrac{\\sqrt{86}}{2}\\approx4.64$ units."
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^1\\frac{1}{(1+x^2)^n}\\,dx$ for $n\\ge1$. Use integration by parts to show that $I_n=\\dfrac1{2^n}+2n\\displaystyle\\int_0^1\\frac{x^2}{(1+x^2)^{n+1}}\\,dx$.",
+   "answer": "Take $u=(1+x^2)^{-n}$, $dv=dx$, so $du=-2nx(1+x^2)^{-n-1}dx$, $v=x$. $I_n=\\left[\\frac{x}{(1+x^2)^n}\\right]_0^1+2n\\int_0^1\\frac{x^2}{(1+x^2)^{n+1}}\\,dx=\\frac1{2^n}+2n\\int_0^1\\frac{x^2}{(1+x^2)^{n+1}}\\,dx$."
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^1\\frac{1}{(1+x^2)^n}\\,dx$ for $n\\ge1$. Given that $I_n=\\dfrac1{2^n}+2n\\displaystyle\\int_0^1\\frac{x^2}{(1+x^2)^{n+1}}\\,dx$, show that $I_{n+1}=\\dfrac{1}{n2^{n+1}}+\\dfrac{2n-1}{2n}I_n$.",
+   "answer": "Write $x^2=(1+x^2)-1$: $\\int_0^1\\frac{x^2}{(1+x^2)^{n+1}}dx=\\int_0^1\\left[\\frac1{(1+x^2)^n}-\\frac1{(1+x^2)^{n+1}}\\right]dx=I_n-I_{n+1}$. So $I_n=\\frac1{2^n}+2n(I_n-I_{n+1})$, giving $2nI_{n+1}=\\frac1{2^n}+(2n-1)I_n$ and $$I_{n+1}=\\frac{1}{n2^{n+1}}+\\frac{2n-1}{2n}I_n.$$"
+  },
+  {
+   "ref": "Q15(b)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^1\\frac{1}{(1+x^2)^n}\\,dx$ for $n\\ge1$. Given that $I_{n+1}=\\dfrac{1}{n2^{n+1}}+\\dfrac{2n-1}{2n}I_n$, evaluate $\\displaystyle\\int_0^1\\frac1{(1+x^2)^2}\\,dx$.",
+   "answer": "This is $I_2$. Put $n=1$: $I_2=\\frac1{1\\cdot2^2}+\\frac12I_1=\\frac14+\\frac12I_1$, where $I_1=\\int_0^1\\frac{dx}{1+x^2}=\\left[\\tan^{-1}x\\right]_0^1=\\frac\\pi4$. So $I_2=\\dfrac14+\\dfrac\\pi8$."
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "The faces of the tetrahedron $ODEF$ are equilateral triangles of side length 1 unit. The base $ODE$ lies in the $xy$-plane with one vertex at $O(0,0,0)$ and one vertex at $D(1,0,0)$, with $F$ above the $xy$-plane (see diagram).\n\nFind the coordinates of $E$.",
+   "answer": "$E$ lies in the $xy$-plane (on the side of the positive $y$-axis, as in the diagram) with $OE=DE=1$. It lies above the midpoint $M\\left(\\frac12,0,0\\right)$ of $OD$ at height $\\sqrt{1-\\frac14}=\\frac{\\sqrt3}2$. So $E=\\left(\\frac12,\\frac{\\sqrt3}2,0\\right)$.",
+   "images": [
+    "assets/img/ext2-2025-barker/q15c.png"
+   ]
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "The faces of the tetrahedron $ODEF$ are equilateral triangles of side length 1 unit. The base $ODE$ lies in the $xy$-plane with one vertex at $O(0,0,0)$ and one vertex at $D(1,0,0)$, with $F$ above the $xy$-plane (see diagram). Given that $E=\\left(\\frac12,\\frac{\\sqrt3}2,0\\right)$, find the coordinates of $F$.",
+   "answer": "Let $F=(x,y,z)$ with $z>0$. Since $|OF|=|DF|=|EF|=1$: $x^2+y^2+z^2=1$ and $(x-1)^2+y^2+z^2=1$. Subtracting: $2x-1=0$, so $x=\\frac12$. Using the angle $\\angle EOF=60^\\circ$: $\\overrightarrow{OE}\\cdot\\overrightarrow{OF}=|OE||OF|\\cos60^\\circ=\\frac12$, so $\\frac12\\cdot\\frac12+\\frac{\\sqrt3}2y=\\frac12$, giving $y=\\frac{1}{2\\sqrt3}=\\frac{\\sqrt3}6$. Then $1=\\frac14+\\frac1{12}+z^2$, so $z^2=\\frac23$ and $z=\\frac{\\sqrt6}3$. So $F=\\left(\\dfrac12,\\dfrac{\\sqrt3}6,\\dfrac{\\sqrt6}3\\right)$.",
+   "images": [
+    "assets/img/ext2-2025-barker/q15c.png"
+   ]
+  },
+  {
+   "ref": "Q16(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{dx}{\\sqrt{4x^2-1}}$ by making a suitable substitution.",
+   "answer": "Let $x=\\frac12\\sec\\theta$, so $dx=\\frac12\\sec\\theta\\tan\\theta\\,d\\theta$ and $\\sqrt{4x^2-1}=\\sqrt{\\sec^2\\theta-1}=\\tan\\theta$ (taking $\\tan\\theta>0$). Then $\\int\\frac{dx}{\\sqrt{4x^2-1}}=\\frac12\\int\\sec\\theta\\,d\\theta=\\frac12\\ln|\\sec\\theta+\\tan\\theta|+C$. Since $\\sec\\theta=2x$ and $\\tan\\theta=\\sqrt{4x^2-1}$: $$\\int\\frac{dx}{\\sqrt{4x^2-1}}=\\frac12\\ln\\left|2x+\\sqrt{4x^2-1}\\right|+C.$$"
+  },
+  {
+   "ref": "Q16(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.4.1"
+   ],
+   "question": "Given that the product of $n$ consecutive numbers is divisible by $n!$, use mathematical induction to prove that $n^5-n$ is divisible by 2, 3 and 5 for integers $n\\ge2$.",
+   "answer": "Divisible by 2, 3 and 5 (distinct primes) means divisible by $30$. **Base case** $n=2$: $2^5-2=30=30\\times1$ ✓. **Assume** $k^5-k=30\\ell$ for some integer $\\ell$ ($k\\ge2$). **Prove** $(k+1)^5-(k+1)$ is a multiple of 30. $(k+1)^5-(k+1)=k^5+5k^4+10k^3+10k^2+5k+1-k-1=(k^5-k)+5k(k^3+2k^2+2k+1)$. Now $k^3+2k^2+2k+1=(k+1)(k^2+k+1)$ and $k^2+k+1=(k-1)^2+3k$, so $5k(k+1)(k^2+k+1)=5k(k+1)(k-1)^2+15k^2(k+1)=5(k-1)\\cdot\\left[(k-1)k(k+1)\\right]+15k\\cdot\\left[k(k+1)\\right]$. The product of three consecutive integers $(k-1)k(k+1)$ is divisible by $3!=6$, say $=6p$; and $k(k+1)$ is divisible by $2!=2$, say $=2q$. So the extra term is $30p(k-1)+30qk$, giving $(k+1)^5-(k+1)=30\\ell+30p(k-1)+30qk=30\\left[\\ell+p(k-1)+qk\\right]$, a multiple of 30 as $\\ell,p,q,k$ are integers. Hence the statement is true for $n=k+1$ if true for $n=k$; being true for $n=2$, $n^5-n$ is divisible by 2, 3 and 5 for all integers $n\\ge2$ by mathematical induction."
+  },
+  {
+   "ref": "Q16(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.2.1.18"
+   ],
+   "question": "Consider the line $\\ell$ defined parametrically by $\\mathbf R(\\lambda)=\\mathbf a+\\lambda\\mathbf b$ and the sphere $S$ defined by $|\\mathbf y-\\mathbf c|=r$. Suppose $\\ell$ is a tangent to $S$. Given that the line and the sphere have only one point of intersection, prove that the position vector of the point of contact is given by $\\mathbf R(\\lambda)$ when $\\lambda=\\dfrac{\\mathbf b\\cdot(\\mathbf c-\\mathbf a)}{|\\mathbf b|^2}$. (You may **not** use the fact that the tangent is perpendicular to the radius.)",
+   "answer": "Points of intersection satisfy $|\\mathbf a+\\lambda\\mathbf b-\\mathbf c|^2=r^2$. Expanding: $\\lambda^2|\\mathbf b|^2+2\\lambda\\,\\mathbf b\\cdot(\\mathbf a-\\mathbf c)+|\\mathbf a-\\mathbf c|^2-r^2=0$, a quadratic in $\\lambda$. There is exactly one intersection point, so the discriminant is zero: $\\left[2\\mathbf b\\cdot(\\mathbf a-\\mathbf c)\\right]^2-4|\\mathbf b|^2\\left(|\\mathbf a-\\mathbf c|^2-r^2\\right)=0$, i.e. $\\left[\\mathbf b\\cdot(\\mathbf a-\\mathbf c)\\right]^2=|\\mathbf b|^2\\left(|\\mathbf a-\\mathbf c|^2-r^2\\right)$. Substituting this into the quadratic in place of the constant term $\\left(|\\mathbf a-\\mathbf c|^2-r^2\\right)|\\mathbf b|^2$ (after multiplying the quadratic by $|\\mathbf b|^2$): $\\lambda^2|\\mathbf b|^4+2\\lambda|\\mathbf b|^2\\,\\mathbf b\\cdot(\\mathbf a-\\mathbf c)+\\left[\\mathbf b\\cdot(\\mathbf a-\\mathbf c)\\right]^2=0$, i.e. $\\left(\\lambda|\\mathbf b|^2+\\mathbf b\\cdot(\\mathbf a-\\mathbf c)\\right)^2=0$. So $\\lambda=-\\dfrac{\\mathbf b\\cdot(\\mathbf a-\\mathbf c)}{|\\mathbf b|^2}=\\dfrac{\\mathbf b\\cdot(\\mathbf c-\\mathbf a)}{|\\mathbf b|^2}$, the repeated root, which gives the point of contact."
+  },
+  {
+   "ref": "Q16(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.18"
+   ],
+   "question": "Consider the line $\\ell$ defined parametrically by $\\mathbf R(\\lambda)=\\mathbf a+\\lambda\\mathbf b$ and the sphere $S$ defined by $|\\mathbf y-\\mathbf c|=r$. Suppose $\\ell$ is a tangent to $S$, touching it at the point $F=\\mathbf R(\\lambda)$ where $\\lambda=\\dfrac{\\mathbf b\\cdot(\\mathbf c-\\mathbf a)}{|\\mathbf b|^2}$. Hence show that the tangent to the sphere is perpendicular to the radius at the point of contact.",
+   "answer": "The radius to the point of contact is $\\overrightarrow{CF}=\\mathbf a+\\lambda\\mathbf b-\\mathbf c$ and the tangent has direction $\\mathbf b$. $\\overrightarrow{CF}\\cdot\\mathbf b=\\mathbf a\\cdot\\mathbf b-\\mathbf b\\cdot\\mathbf c+\\lambda|\\mathbf b|^2=\\mathbf a\\cdot\\mathbf b-\\mathbf b\\cdot\\mathbf c+\\mathbf b\\cdot(\\mathbf c-\\mathbf a)=0$. So the tangent is perpendicular to the radius at the point of contact."
+  }
+ ]
+}
