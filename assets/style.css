@@ -519,3 +519,13 @@ html.panel-open .sheet-fab{display:none}
 .saved-layout:has(#sidebar[hidden]){grid-template-columns:1fr;max-width:1100px}
 .saved-layout .sidebar .chips .chip b{margin-left:4px}
 .saved-layout .sidebar .sort-sel{width:100%}
+
+/* header on one line on desktop */
+@media (min-width:1320px){
+  .topbar-inner{flex-wrap:nowrap;gap:10px}
+  .topbar-inner .tabs{flex-wrap:nowrap;gap:2px;white-space:nowrap}
+  .topbar-inner .tabs a{padding:6px 8px;font-size:13.5px}
+  .topbar-inner .brand{white-space:nowrap}
+  .topbar-inner .acct,.topbar-inner .saved-link{white-space:nowrap;flex:none}
+  .acct-name{max-width:110px}
+}
