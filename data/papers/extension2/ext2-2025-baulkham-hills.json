@@ -1,0 +1,607 @@
+{
+ "id": "ext2-2025-baulkham-hills",
+ "course": "extension2",
+ "school": "Baulkham Hills",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "Baulkham Hills 2025 w. sol"
+ },
+ "indexed": "2026-11-24",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.11"
+   ],
+   "question": "Consider the statement “If my cricket team plays badly, they are not training enough”. Which one of the following statements is the contrapositive of the statement above?",
+   "answer": "The contrapositive of “if $P$ then $Q$” is “if not $Q$ then not $P$”. Here $P$: plays badly; $Q$: not training enough. Not $Q$ is “they are training enough” and not $P$ is “does not play badly”. So: if they are training enough, then the team does not play badly (B).",
+   "options": [
+    "If they are not training enough, then my cricket team plays badly.",
+    "If they are training enough, then my cricket team does not play badly.",
+    "If my cricket team doesn’t play badly, then they are training enough.",
+    "If my cricket team plays badly, then they need more training."
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.3"
+   ],
+   "question": "A particle of mass $m$ is moving horizontally in a straight line. Its motion is opposed by a force of magnitude $mkv+mkv^2$ newtons when its velocity is $v\\ \\text{m s}^{-1}$, where $k$ is a positive constant. At time $t$ seconds the particle has displacement $x$ metres from a fixed point $O$ on the line and velocity $v\\ \\text{m s}^{-1}$. Which of the following is an expression for $x$ in terms of $v$?",
+   "answer": "$m\\ddot x=-(mkv+mkv^2)=-mkv(1+v)$, so $\\ddot x=-kv(1+v)$. Using $\\ddot x=v\\frac{dv}{dx}$: $v\\frac{dv}{dx}=-kv(1+v)$, so $\\frac{dv}{dx}=-k(1+v)$ and $\\frac{dx}{dv}=-\\frac{1}{k(1+v)}$. Therefore $x=-\\frac1k\\int\\frac{dv}{1+v}$ (D).",
+   "options": [
+    "$\\dfrac1k\\displaystyle\\int\\frac{1}{1+v}\\,dv$",
+    "$\\dfrac1k\\displaystyle\\int\\frac{1}{v+v^2}\\,dv$",
+    "$-\\dfrac1k\\displaystyle\\int\\frac{1}{v+v^2}\\,dv$",
+    "$-\\dfrac1k\\displaystyle\\int\\frac{1}{1+v}\\,dv$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.3",
+    "12.3.2.5"
+   ],
+   "question": "What is the principal argument of $\\dfrac{-3\\sqrt2-i\\sqrt6}{2+2i}$?",
+   "answer": "The numerator $-3\\sqrt2-i\\sqrt6$ is in the third quadrant with reference angle $\\tan^{-1}\\frac{\\sqrt6}{3\\sqrt2}=\\tan^{-1}\\frac1{\\sqrt3}=\\frac\\pi6$, so its principal argument is $-\\pi+\\frac\\pi6=-\\frac{5\\pi}6$. The denominator $2+2i$ has argument $\\frac\\pi4$. Then $\\arg=-\\frac{5\\pi}6-\\frac\\pi4=-\\frac{13\\pi}{12}$, which is outside $(-\\pi,\\pi]$, so add $2\\pi$: $\\frac{11\\pi}{12}$ (C).",
+   "options": [
+    "$-\\dfrac{11\\pi}{12}$",
+    "$\\dfrac{7\\pi}{12}$",
+    "$\\dfrac{11\\pi}{12}$",
+    "$\\dfrac{13\\pi}{12}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.1"
+   ],
+   "question": "If $i^n=p$, then what is a simplified expression in terms of $p$ for $i^{2n+3}$?",
+   "answer": "$i^{2n+3}=(i^n)^2\\cdot i^3=p^2\\cdot(-i)=-p^2i$ (C).",
+   "options": [
+    "$p^2-i$",
+    "$p^2+i$",
+    "$-p^2i$",
+    "$p^2i$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Which expression is equal to $\\displaystyle\\int3\\sqrt x\\,\\ln x\\,dx$?",
+   "answer": "By parts with $u=\\ln x$, $v'=3\\sqrt x$ (so $v=2x^{3/2}$): $\\int3\\sqrt x\\ln x\\,dx=2x\\sqrt x\\ln x-\\int2\\sqrt x\\,dx=2x\\sqrt x\\ln x-\\frac43x\\sqrt x+C=2x\\sqrt x\\left(\\ln x-\\frac23\\right)+C$ (A).",
+   "options": [
+    "$2x\\sqrt x\\left(\\ln x-\\dfrac23\\right)+C$",
+    "$2x\\sqrt x\\left(\\ln x+\\dfrac23\\right)+C$",
+    "$\\dfrac1{\\sqrt x}\\left(\\dfrac32\\ln x-1\\right)+C$",
+    "$\\dfrac1{\\sqrt x}\\left(\\dfrac32\\ln x+1\\right)+C$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "If $\\theta$ is the angle between $\\mathbf a=\\sqrt3\\,\\mathbf i+4\\mathbf j-\\mathbf k$ and $\\mathbf b=\\mathbf i-4\\mathbf j+\\sqrt3\\,\\mathbf k$, what is the value of $\\cos(2\\theta)$?",
+   "answer": "$\\mathbf a\\cdot\\mathbf b=\\sqrt3-16-\\sqrt3=-16$ and $|\\mathbf a|=|\\mathbf b|=\\sqrt{20}$, so $\\cos\\theta=\\frac{-16}{20}=-\\frac45$. Then $\\cos2\\theta=2\\cos^2\\theta-1=2\\cdot\\frac{16}{25}-1=\\frac7{25}$ (C).",
+   "options": [
+    "$-\\dfrac{24}{25}$",
+    "$-\\dfrac45$",
+    "$\\dfrac7{25}$",
+    "$\\dfrac{14}{25}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.8"
+   ],
+   "question": "With a suitable substitution, which of the following is an equivalent expression to $\\displaystyle\\int_{\\pi/4}^{\\pi/3}\\frac{\\sec^2x\\,dx}{\\sec^2x-3\\tan x+1}$?",
+   "answer": "Let $u=\\tan x$, $du=\\sec^2x\\,dx$; $x=\\frac\\pi4\\to u=1$ and $x=\\frac\\pi3\\to u=\\sqrt3$. Since $\\sec^2x=1+u^2$, the denominator is $u^2-3u+2=(u-1)(u-2)$. Then $\\frac1{(u-1)(u-2)}=\\frac1{u-2}-\\frac1{u-1}$ (partial fractions), so the integral is $\\int_1^{\\sqrt3}\\left(\\frac1{u-2}-\\frac1{u-1}\\right)du$ (C).",
+   "options": [
+    "$\\displaystyle\\int_1^{\\sqrt3}\\left(\\frac1{u-1}\\right)+\\left(\\frac1{u-2}\\right)du$",
+    "$\\displaystyle\\int_1^{\\sqrt3}\\left(\\frac1{3(u-3)}\\right)-\\left(\\frac1{3u}\\right)du$",
+    "$\\displaystyle\\int_1^{\\sqrt3}\\left(\\frac1{u-2}\\right)-\\left(\\frac1{u-1}\\right)du$",
+    "$\\displaystyle\\int_1^{\\sqrt3}\\left(\\frac1{u-1}\\right)-\\left(\\frac1{u-2}\\right)du$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.12"
+   ],
+   "question": "The acceleration vector of a particle that starts from rest is given by $\\mathbf a(t)=-4\\sin(2t)\\,\\mathbf i+20\\cos(2t)\\,\\mathbf j-20e^{-2t}\\,\\mathbf k$, where $t\\ge0$. What is the velocity vector of the particle?",
+   "answer": "Integrate: $\\mathbf v(t)=(2\\cos2t+c_1)\\,\\mathbf i+(10\\sin2t+c_2)\\,\\mathbf j+(10e^{-2t}+c_3)\\,\\mathbf k$. Starting from rest, $\\mathbf v(0)=\\mathbf 0$: $2+c_1=0$, $c_2=0$, $10+c_3=0$, so $c_1=-2$, $c_2=0$, $c_3=-10$. Hence $\\mathbf v(t)=(2\\cos2t-2)\\,\\mathbf i+10\\sin2t\\,\\mathbf j+(10e^{-2t}-10)\\,\\mathbf k$ (B).",
+   "options": [
+    "$\\mathbf v(t)=2\\cos(2t)\\,\\mathbf i+10\\sin(2t)\\,\\mathbf j+10e^{-2t}\\,\\mathbf k$",
+    "$\\mathbf v(t)=(2\\cos(2t)-2)\\,\\mathbf i+10\\sin(2t)\\,\\mathbf j+(10e^{-2t}-10)\\,\\mathbf k$",
+    "$\\mathbf v(t)=(4\\cos(2t)-4)\\,\\mathbf i+20\\sin(2t)\\,\\mathbf j+(20e^{-2t}-20)\\,\\mathbf k$",
+    "$\\mathbf v(t)=(8-8\\cos(2t))\\,\\mathbf i-40\\sin(2t)\\,\\mathbf j+(40e^{-2t}-40)\\,\\mathbf k$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.5"
+   ],
+   "question": "A particle of mass $m$ kilograms hangs from a string that is attached to a fixed point. The particle is acted on by a horizontal force of magnitude $F$ newtons. The system is in equilibrium when the string makes an angle $\\alpha$ to the horizontal, as shown in the diagram. The tension in the string has magnitude $T$ newtons. What is the value of $\\tan\\alpha$?",
+   "answer": "The tension acts along the string, up and to the left, at angle $\\alpha$ to the horizontal. Resolve in equilibrium: vertically $T\\sin\\alpha=mg$; horizontally $T\\cos\\alpha=F$. Dividing: $\\tan\\alpha=\\dfrac{mg}{F}$ (D).",
+   "options": [
+    "$\\dfrac{mg}{T}$",
+    "$\\dfrac{T}{mg}$",
+    "$\\dfrac{F}{mg}$",
+    "$\\dfrac{mg}{F}$"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/ext2-2025-baulkham-hills/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "If the sum of two unit vectors $\\mathbf u$ and $\\mathbf v$ is a unit vector, what is the magnitude of the difference of the two unit vectors $\\mathbf u$ and $\\mathbf v$?",
+   "answer": "$|\\mathbf u+\\mathbf v|^2=1$ gives $|\\mathbf u|^2+2\\mathbf u\\cdot\\mathbf v+|\\mathbf v|^2=1$, so $1+2\\mathbf u\\cdot\\mathbf v+1=1$ and $\\mathbf u\\cdot\\mathbf v=-\\frac12$. Then $|\\mathbf u-\\mathbf v|^2=1-2\\mathbf u\\cdot\\mathbf v+1=3$, so $|\\mathbf u-\\mathbf v|=\\sqrt3$ (C).",
+   "options": [
+    "$0$",
+    "$\\sqrt2$",
+    "$\\sqrt3$",
+    "$\\sqrt5$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.4"
+   ],
+   "question": "Let $z=1+i\\sqrt3$. Express $z$ in modulus-argument form.",
+   "answer": "$|z|=\\sqrt{1+3}=2$. $z$ is in the first quadrant with $\\tan\\theta=\\sqrt3$, so $\\theta=\\frac\\pi3$. Hence $z=2\\left(\\cos\\frac\\pi3+i\\sin\\frac\\pi3\\right)=2\\operatorname{cis}\\frac\\pi3$."
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "Let $z=1+i\\sqrt3$. Hence, simplify $z^{10}+512z$.",
+   "answer": "With $z=2\\operatorname{cis}\\frac\\pi3$, de Moivre gives $z^{10}=2^{10}\\operatorname{cis}\\frac{10\\pi}3=1024\\operatorname{cis}\\frac{4\\pi}3=1024\\left(-\\frac12-\\frac{\\sqrt3}2i\\right)=-512-512\\sqrt3\\,i$. Also $512z=512+512\\sqrt3\\,i$. Therefore $z^{10}+512z=0$."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "$ABCD$ is a parallelogram. Given that $\\overrightarrow{AB}=6\\mathbf i-2\\mathbf j+3\\mathbf k$ and $\\overrightarrow{BC}=2\\mathbf i+5\\mathbf j+8\\mathbf k$, find the size of angle $ABC$, giving your answer in degrees, to two decimal places.",
+   "answer": "Angle $ABC$ is the angle between $\\overrightarrow{BA}=-\\overrightarrow{AB}=\\begin{pmatrix}-6\\\\2\\\\-3\\end{pmatrix}$ and $\\overrightarrow{BC}=\\begin{pmatrix}2\\\\5\\\\8\\end{pmatrix}$. $\\overrightarrow{BA}\\cdot\\overrightarrow{BC}=-12+10-24=-26$, $|\\overrightarrow{BA}|=\\sqrt{36+4+9}=7$, $|\\overrightarrow{BC}|=\\sqrt{4+25+64}=\\sqrt{93}$. So $\\cos\\angle ABC=\\frac{-26}{7\\sqrt{93}}$ and $\\angle ABC\\approx112.65^\\circ$."
+  },
+  {
+   "ref": "Q11(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.10"
+   ],
+   "question": "Points $P$ and $Q$ represent the complex numbers $z$ and $w$ respectively in the complex plane. Triangle $OPQ$ is an equilateral triangle (see diagram; $Q$ is obtained from $P$ by a rotation about $O$ in the anticlockwise direction). Explain why $wz=z^2\\operatorname{cis}\\left(\\dfrac\\pi3\\right)$.",
+   "answer": "Since $\\triangle OPQ$ is equilateral, $|w|=|z|$ and $\\angle POQ=\\frac\\pi3$, with $Q$ anticlockwise from $P$. So $w$ is $z$ rotated through $\\frac\\pi3$ anticlockwise: $w=z\\operatorname{cis}\\frac\\pi3$. Multiplying by $z$: $wz=z^2\\operatorname{cis}\\frac\\pi3$.",
+   "images": [
+    "assets/img/ext2-2025-baulkham-hills/q11c.png"
+   ]
+  },
+  {
+   "ref": "Q11(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.11"
+   ],
+   "question": "Points $P$ and $Q$ represent the complex numbers $z$ and $w$ respectively in the complex plane. Triangle $OPQ$ is an equilateral triangle (see diagram; $Q$ is obtained from $P$ by a rotation about $O$ in the anticlockwise direction). Given that $w=z\\operatorname{cis}\\left(\\dfrac\\pi3\\right)$, prove that $z^2+w^2=zw$.",
+   "answer": "$z^2+w^2=z^2+z^2\\operatorname{cis}\\frac{2\\pi}3=z^2\\left(1+\\cos\\frac{2\\pi}3+i\\sin\\frac{2\\pi}3\\right)=z^2\\left(1-\\frac12+\\frac{\\sqrt3}2i\\right)=z^2\\left(\\frac12+\\frac{\\sqrt3}2i\\right)=z^2\\operatorname{cis}\\frac\\pi3=zw$.",
+   "images": [
+    "assets/img/ext2-2025-baulkham-hills/q11c.png"
+   ]
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.9"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{dx}{\\sqrt{1+2x-x^2}}$.",
+   "answer": "Complete the square: $1+2x-x^2=2-(x^2-2x+1)=2-(x-1)^2$. So $\\int\\frac{dx}{\\sqrt{2-(x-1)^2}}=\\sin^{-1}\\!\\left(\\frac{x-1}{\\sqrt2}\\right)+C$."
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.8"
+   ],
+   "question": "The acceleration of a particle undergoing simple harmonic motion along the $x$-axis is given by $\\ddot x=-4(x-3)$. Find the maximum speed of the particle if its speed as it passes through $x=1$ is $4\\sqrt3$ metres per second.",
+   "answer": "$\\ddot x=-n^2(x-c)$ with $n=2$ and centre $c=3$. Use $v\\frac{dv}{dx}=-4(x-3)$: $\\int_{4\\sqrt3}^{v}v\\,dv=-4\\int_1^x(x-3)\\,dx$, so $\\frac{v^2}{2}-24=-4\\left[\\frac{x^2}2-3x\\right]_1^x=-2x^2+12x-10$, giving $v^2=-4x^2+24x+28$. The maximum speed occurs at the centre $x=3$: $v^2=-36+72+28=64$, so the maximum speed is $\\mathbf{8}$ m/s. (Alternatively $v^2=n^2[A^2-(x-3)^2]$: at $x=1$, $48=4(A^2-4)$, so $A=4$ and $v_{\\max}=nA=8$.)"
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "Prove, by the method of contradiction, that there are no integers $a$ and $b$ which satisfy $a^2-8b=7$.",
+   "answer": "Assume there are integers $a$, $b$ with $a^2-8b=7$. Then $a^2=8b+7$ is odd (even + odd), so $a$ is odd: $a=2k+1$ for some integer $k$. Then $4k^2+4k+1=8b+7$, so $4k^2+4k-8b=6$, i.e. $2k^2+2k-4b=3$, so $2(k^2+k-2b)=3$. The left side is even and the right side is odd, a contradiction. Hence there are no integers $a$ and $b$ with $a^2-8b=7$."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "By integrating one of the two terms in the integrand by parts, or otherwise, find $\\displaystyle\\int\\left(2\\sqrt{1+x^3}+\\frac{3x^3}{\\sqrt{1+x^3}}\\right)dx$.",
+   "answer": "Integrate $\\frac{3x^3}{\\sqrt{1+x^3}}=x\\cdot\\frac{3x^2}{\\sqrt{1+x^3}}$ by parts with $u=x$, $v'=\\frac{3x^2}{\\sqrt{1+x^3}}$ so $v=2\\sqrt{1+x^3}$: $\\int\\frac{3x^3}{\\sqrt{1+x^3}}dx=2x\\sqrt{1+x^3}-\\int2\\sqrt{1+x^3}\\,dx$. Therefore $\\int\\left(2\\sqrt{1+x^3}+\\frac{3x^3}{\\sqrt{1+x^3}}\\right)dx=2x\\sqrt{1+x^3}+C$. (Check: $\\frac{d}{dx}\\left(2x\\sqrt{1+x^3}\\right)=2\\sqrt{1+x^3}+\\frac{3x^3}{\\sqrt{1+x^3}}$ ✓.)"
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.1.3"
+   ],
+   "question": "The line $l$ has equation $\\dfrac{x-1}{h}=\\dfrac{y-1}{3}=\\dfrac{3-z}{6}$. Find the value(s) of $h$ for which the angle between $l$ and the $x$-axis is $120^\\circ$.",
+   "answer": "Writing each ratio as $\\lambda$: $x=1+h\\lambda$, $y=1+3\\lambda$, $z=3-6\\lambda$, so $l$ has direction vector $\\mathbf d=\\begin{pmatrix}h\\\\3\\\\-6\\end{pmatrix}$. With the $x$-axis taken in the direction $\\mathbf i=\\begin{pmatrix}1\\\\0\\\\0\\end{pmatrix}$: $\\mathbf d\\cdot\\mathbf i=|\\mathbf d||\\mathbf i|\\cos120^\\circ$, so $h=-\\frac12\\sqrt{h^2+45}$. Hence $-2h=\\sqrt{h^2+45}$ (so $h<0$); squaring, $4h^2=h^2+45$, $h^2=15$, $h=-\\sqrt{15}$. If instead the $x$-axis is taken in the direction $-\\mathbf i$, the same working gives $h=+\\sqrt{15}$. So $h=\\pm\\sqrt{15}$ (the paper’s solution accepts both, $h=-\\sqrt{15}$ corresponding to the direction $\\mathbf i$)."
+  },
+  {
+   "ref": "Q12(d)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.11"
+   ],
+   "question": "Show that $\\displaystyle\\int_{\\pi/3}^{2\\pi/3}\\frac1{1+\\sin x}\\,dx=4-2\\sqrt3$.",
+   "answer": "Multiply by $\\frac{1-\\sin x}{1-\\sin x}$: $\\frac1{1+\\sin x}=\\frac{1-\\sin x}{1-\\sin^2x}=\\frac{1-\\sin x}{\\cos^2x}=\\sec^2x-\\sin x\\cos^{-2}x$. Antiderivative: $\\tan x-\\sec x$ (since $\\frac{d}{dx}\\sec x=\\sec x\\tan x=\\sin x\\cos^{-2}x$). So the integral is $\\left[\\tan x-\\frac1{\\cos x}\\right]_{\\pi/3}^{2\\pi/3}=\\left(-\\sqrt3+2\\right)-\\left(\\sqrt3-2\\right)=4-2\\sqrt3$. (Alternatively use $t=\\tan\\frac x2$.)"
+  },
+  {
+   "ref": "Q12(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Given that $\\displaystyle\\int_{\\pi/3}^{2\\pi/3}\\frac1{1+\\sin x}\\,dx=4-2\\sqrt3$, hence find the exact value of $\\displaystyle\\int_{\\pi/3}^{2\\pi/3}\\frac{x}{1+\\sin x}\\,dx$.",
+   "answer": "Let $J=\\int_{\\pi/3}^{2\\pi/3}\\frac{x}{1+\\sin x}\\,dx$ and substitute $u=\\pi-x$: $du=-dx$, limits $\\frac{2\\pi}3\\to\\frac\\pi3$ and $\\frac\\pi3\\to\\frac{2\\pi}3$, and $\\sin(\\pi-u)=\\sin u$. So $J=\\int_{\\pi/3}^{2\\pi/3}\\frac{\\pi-u}{1+\\sin u}\\,du=\\pi\\int_{\\pi/3}^{2\\pi/3}\\frac{du}{1+\\sin u}-J$. Hence $2J=\\pi(4-2\\sqrt3)$ and $J=\\pi(2-\\sqrt3)$."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "The vertices of triangle $OAB$ have coordinates $A(6,-18,-6)$, $B(7,-1,3)$, where $O$ is a fixed origin. The point $N$ lies on $OA$ so that $ON:NA=1:2$. The point $M$ is the midpoint of $OB$. The point $P$ is the intersection of $AM$ and $BN$. By using vector methods, determine the coordinates of $P$.",
+   "answer": "Let $\\mathbf a=\\overrightarrow{OA}=(6,-18,-6)$ and $\\mathbf b=\\overrightarrow{OB}=(7,-1,3)$. Then $\\overrightarrow{ON}=\\frac13\\mathbf a$ and $\\overrightarrow{OM}=\\frac12\\mathbf b$. $P$ lies on $BN$: $\\overrightarrow{OP}=\\mathbf b+s\\left(\\frac13\\mathbf a-\\mathbf b\\right)=\\frac s3\\mathbf a+(1-s)\\mathbf b$. $P$ also lies on $AM$: $\\overrightarrow{OP}=\\mathbf a+t\\left(\\frac12\\mathbf b-\\mathbf a\\right)=(1-t)\\mathbf a+\\frac t2\\mathbf b$. Since $\\mathbf a$ and $\\mathbf b$ are not parallel, equate coefficients: $\\frac s3=1-t$ and $1-s=\\frac t2$. From the second, $t=2-2s$; substituting, $\\frac s3=2s-1$, so $s=\\frac35$ and $t=\\frac45$. Therefore $\\overrightarrow{OP}=\\frac15\\mathbf a+\\frac25\\mathbf b=\\frac15(6,-18,-6)+\\frac25(7,-1,3)=(4,-4,0)$. So $P=(4,-4,0)$.",
+   "images": [
+    "assets/img/ext2-2025-baulkham-hills/q13a.png"
+   ]
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "Prove, **without** the use of mathematical induction, that $5^{2n}-1$ is divisible by 8 for all positive integers $n$.",
+   "answer": "$5^{2n}-1=25^n-1$. Using $a^n-b^n=(a-b)\\left(a^{n-1}+a^{n-2}b+\\dots+b^{n-1}\\right)$ with $a=25$, $b=1$: $25^n-1=24\\left(25^{n-1}+25^{n-2}+\\dots+25+1\\right)$, which is $24$ times an integer, hence a multiple of 8. (Alternatively $5^{2n}-1=(5^n-1)(5^n+1)$ is a product of two consecutive even numbers, one of which is a multiple of 4, so the product is divisible by 8.)"
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.5.6"
+   ],
+   "question": "A particle of mass 1 kg is projected vertically upwards with an initial velocity of $100\\ \\text{m s}^{-1}$ in a medium in which the resistance force is equal to $0.01$ times the square of the particle’s velocity, that is $0.01v^2$. Use $g=10\\ \\text{m s}^{-2}$. Show that the maximum height reached by the particle is $50\\log_e11$ metres.",
+   "answer": "Take upwards as positive. Going up, gravity and resistance both act downwards: $\\ddot x=-10-0.01v^2=-\\frac{1000+v^2}{100}$. With $\\ddot x=v\\frac{dv}{dx}$: $\\frac{v\\,dv}{1000+v^2}=-\\frac{1}{100}dx$. At maximum height $H$, $v=0$: $\\int_{100}^{0}\\frac{v\\,dv}{1000+v^2}=-\\frac1{100}\\int_0^Hdx$, so $\\frac12\\left[\\ln(1000+v^2)\\right]_{100}^0=-\\frac H{100}$, giving $H=50\\left[\\ln11000-\\ln1000\\right]=50\\ln\\frac{11000}{1000}=50\\ln11$ metres."
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.5.6"
+   ],
+   "question": "A particle of mass 1 kg is projected vertically upwards with an initial velocity of $100\\ \\text{m s}^{-1}$ in a medium in which the resistance force is equal to $0.01$ times the square of the particle’s velocity, that is $0.01v^2$. Use $g=10\\ \\text{m s}^{-2}$. The maximum height reached is $50\\ln11$ metres. Calculate the downward velocity of the particle on its return to the point of projection. Give your answer correct to two decimal places.",
+   "answer": "Coming down (take downwards as positive, $x$ measured down from the top): $\\ddot x=10-0.01v^2=\\frac{1000-v^2}{100}$, so $\\frac{v\\,dv}{1000-v^2}=\\frac{dx}{100}$. From rest at the top ($v=0$) to the point of projection ($x=50\\ln11$), with final speed $V$: $-\\frac12\\left[\\ln(1000-v^2)\\right]_0^V=\\frac{50\\ln11}{100}$, so $-\\frac12\\ln\\frac{1000-V^2}{1000}=\\frac12\\ln11$, giving $\\frac{1000-V^2}{1000}=\\frac1{11}$. Then $V^2=1000-\\frac{1000}{11}=\\frac{10000}{11}\\approx909.09$ and $V\\approx30.15$ m/s downward."
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "A polynomial is given by $P(z)=z^4-6z^3+38z^2-94z+221$. Given that $z=2+3i$ is a root of the equation $P(z)=0$, find the three other roots of $P(z)=0$.",
+   "answer": "$P$ has real coefficients, so $2-3i$ is also a root. Let the other two roots be $\\alpha,\\beta$. Sum of roots: $\\alpha+\\beta+(2+3i)+(2-3i)=6$, so $\\alpha+\\beta=2$. Product of roots: $\\alpha\\beta(2+3i)(2-3i)=221$, so $13\\alpha\\beta=221$ and $\\alpha\\beta=17$. Then $\\alpha$ satisfies $\\alpha+\\frac{17}\\alpha=2$, i.e. $\\alpha^2-2\\alpha+17=0$, so $\\alpha=\\frac{2\\pm\\sqrt{-64}}2=1\\pm4i$. The other three roots are $2-3i$, $1+4i$ and $1-4i$."
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.12"
+   ],
+   "question": "If $z=r(\\cos\\theta+i\\sin\\theta)$, use de Moivre’s theorem to solve the complex equation $z^5=\\overline z$. Express your answer(s) in the form $a+ib$.",
+   "answer": "$\\overline z=r\\operatorname{cis}(-\\theta)$ and $z^5=r^5\\operatorname{cis}5\\theta$. Equate moduli: $r^5=r$, so $r(r^4-1)=0$, giving $r=0$ or $r=1$ (as $r\\ge0$). Equate arguments: $5\\theta=-\\theta+2k\\pi$, so $6\\theta=2k\\pi$ and $\\theta=\\frac{k\\pi}3$. For $r=1$: $k=0$: $z=1$; $k=1$: $z=\\frac12+\\frac{\\sqrt3}2i$; $k=2$: $z=-\\frac12+\\frac{\\sqrt3}2i$; $k=3$: $z=-1$; $k=-2$: $z=-\\frac12-\\frac{\\sqrt3}2i$; $k=-1$: $z=\\frac12-\\frac{\\sqrt3}2i$. Together with $r=0$: the solutions are $z=0$, $\\pm1$, $\\pm\\frac12\\pm\\frac{\\sqrt3}2i$ (all four sign combinations)."
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int\\operatorname{cosec}^nx\\,dx$ for integers $n\\ge0$. Show that $I_n=\\dfrac{-\\cot x\\operatorname{cosec}^{n-2}x}{n-1}+\\dfrac{n-2}{n-1}I_{n-2}$ for integers $n\\ge2$.",
+   "answer": "Write $\\operatorname{cosec}^nx=\\operatorname{cosec}^{n-2}x\\cdot\\operatorname{cosec}^2x$ and integrate by parts with $u=\\operatorname{cosec}^{n-2}x$, $v'=\\operatorname{cosec}^2x$. Then $u'=-(n-2)\\operatorname{cosec}^{n-2}x\\cot x$ and $v=-\\cot x$. $I_n=-\\cot x\\operatorname{cosec}^{n-2}x-(n-2)\\int\\operatorname{cosec}^{n-2}x\\cot^2x\\,dx$. Use $\\cot^2x=\\operatorname{cosec}^2x-1$: $I_n=-\\cot x\\operatorname{cosec}^{n-2}x-(n-2)(I_n-I_{n-2})$. So $(n-1)I_n=-\\cot x\\operatorname{cosec}^{n-2}x+(n-2)I_{n-2}$, giving $I_n=\\frac{-\\cot x\\operatorname{cosec}^{n-2}x}{n-1}+\\frac{n-2}{n-1}I_{n-2}$."
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int\\operatorname{cosec}^nx\\,dx$, where $I_n=\\dfrac{-\\cot x\\operatorname{cosec}^{n-2}x}{n-1}+\\dfrac{n-2}{n-1}I_{n-2}$ for $n\\ge2$. Hence evaluate $\\displaystyle\\int_{\\pi/6}^{5\\pi/6}\\operatorname{cosec}^4x\\,dx$.",
+   "answer": "With $n=4$: $I_4=-\\frac{\\cot x\\operatorname{cosec}^2x}3+\\frac23I_2$ and $I_2=\\int\\operatorname{cosec}^2x\\,dx=-\\cot x$. Evaluate between $\\frac\\pi6$ and $\\frac{5\\pi}6$, using $\\cot\\frac\\pi6=\\sqrt3$, $\\cot\\frac{5\\pi}6=-\\sqrt3$, $\\operatorname{cosec}^2=4$ at both: $\\left[-\\frac{\\cot x\\operatorname{cosec}^2x}3\\right]=\\frac{4\\sqrt3}3-\\left(-\\frac{4\\sqrt3}3\\right)=\\frac{8\\sqrt3}3$ and $\\frac23\\left[-\\cot x\\right]=\\frac23(\\sqrt3+\\sqrt3)=\\frac{4\\sqrt3}3$. Total: $\\frac{8\\sqrt3}3+\\frac{4\\sqrt3}3=4\\sqrt3$."
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.4.2"
+   ],
+   "question": "A train of mass $m$, pulled by a locomotive which exerts a constant (propelling) force $P$, is moving at speed $v\\ \\text{m s}^{-1}$ along a straight level track against a resistive force $mkv$, where $k$ is a positive constant. The speed increases from $2\\ \\text{m s}^{-1}$ to $4\\ \\text{m s}^{-1}$ over a time interval of 5 seconds. Show that $P=2km\\left(\\dfrac{2e^{5k}-1}{e^{5k}-1}\\right)$.",
+   "answer": "$m\\frac{dv}{dt}=P-mkv$, so $\\int_2^4\\frac{m\\,dv}{P-mkv}=\\int_0^5dt=5$. Then $-\\frac1k\\left[\\ln|P-mkv|\\right]_2^4=5$, so $\\ln\\left|\\frac{P-4mk}{P-2mk}\\right|=-5k$. Since $P>mkv$ throughout (the train is accelerating), $\\frac{P-2mk}{P-4mk}=e^{5k}$. Then $P-2mk=e^{5k}(P-4mk)$, so $P(e^{5k}-1)=4mke^{5k}-2mk=2mk(2e^{5k}-1)$ and $P=2km\\left(\\dfrac{2e^{5k}-1}{e^{5k}-1}\\right)$."
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.4.3"
+   ],
+   "question": "A train of mass $m$, pulled by a locomotive which exerts a constant (propelling) force $P$, is moving at speed $v\\ \\text{m s}^{-1}$ along a straight level track against a resistive force $mkv$, where $k$ is a positive constant. The speed increases from $2\\ \\text{m s}^{-1}$ to $4\\ \\text{m s}^{-1}$ over a time interval of 5 seconds. Given that $P=2km\\left(\\dfrac{2e^{5k}-1}{e^{5k}-1}\\right)$, find the corresponding distance moved.",
+   "answer": "Use $mv\\frac{dv}{dx}=P-mkv$: $\\int_2^4\\frac{mv\\,dv}{P-mkv}=\\int_0^{d}dx=d$. Write $\\frac{mv}{P-mkv}=-\\frac1k+\\frac{P}{k(P-mkv)}$. Then $d=\\left[-\\frac vk\\right]_2^4+\\frac Pk\\left[-\\frac1{mk}\\ln|P-mkv|\\right]_2^4=-\\frac2k-\\frac{P}{mk^2}\\ln\\left|\\frac{P-4mk}{P-2mk}\\right|=\\frac{P}{mk^2}\\ln\\frac{P-2mk}{P-4mk}-\\frac2k$. From part (i), $\\frac{P-2mk}{P-4mk}=e^{5k}$, so $d=\\frac{5P}{mk}-\\frac2k=\\dfrac{10\\left(2e^{5k}-1\\right)}{e^{5k}-1}-\\dfrac2k$ metres."
+  },
+  {
+   "ref": "Q14(c)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.5"
+   ],
+   "question": "A train of mass $m$, pulled by a locomotive which exerts a constant (propelling) force $P$, is moving at speed $v\\ \\text{m s}^{-1}$ along a straight level track against a resistive force $mkv$, where $k$ is a positive constant. The speed increases from $2\\ \\text{m s}^{-1}$ to $4\\ \\text{m s}^{-1}$ over a time interval of 5 seconds. There is an upper bound to the speed that the train can attain. Find the value of this upper bound. (Use $P=2km\\left(\\frac{2e^{5k}-1}{e^{5k}-1}\\right)$.)",
+   "answer": "The speed is bounded when the acceleration is zero: $0=P-mkv$, so $v=\\frac{P}{mk}=\\dfrac{2\\left(2e^{5k}-1\\right)}{e^{5k}-1}$ m/s."
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.2"
+   ],
+   "question": "Use the principle of mathematical induction to prove that $3^n>n^3$ for all integers $n>3$.",
+   "answer": "**Base case** $n=4$: $3^4=81>64=4^3$ ✓. **Assume** $3^k>k^3$ for some integer $k\\ge4$. **Prove** $3^{k+1}>(k+1)^3$. $3^{k+1}=3\\cdot3^k>3k^3$ (by the assumption). Now $3k^3-(k+1)^3=2k^3-3k^2-3k-1=(k-1)^3+k(k^2-6)>0$ for $k\\ge4$ (since $(k-1)^3>0$ and $k^2-6>0$). So $3^{k+1}>3k^3>(k+1)^3$. Hence if true for $n=k$ then true for $n=k+1$; as it is true for $n=4$, it is true for all integers $n>3$ by induction."
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.18"
+   ],
+   "question": "Let $S$ be a sphere with the centre at $\\begin{pmatrix}0\\\\0\\\\0\\end{pmatrix}$ and radius $r=5$. A line $l$ is defined by the parametric equation $\\mathbf r(\\lambda)=\\begin{pmatrix}3\\\\4\\\\0\\end{pmatrix}+\\lambda\\begin{pmatrix}-7\\\\-1\\\\0\\end{pmatrix}$, where $\\lambda\\in\\mathbb R$.\n\nFind the point(s) of intersection between the line and the sphere.",
+   "answer": "Points on the line: $(3-7\\lambda,\\,4-\\lambda,\\,0)$. On the sphere: $(3-7\\lambda)^2+(4-\\lambda)^2=25$, so $9-42\\lambda+49\\lambda^2+16-8\\lambda+\\lambda^2=25$, i.e. $50\\lambda^2-50\\lambda=0$, $\\lambda(\\lambda-1)=0$. So $\\lambda=0$ or $\\lambda=1$, giving the points $(3,4,0)$ and $(-4,3,0)$."
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.18"
+   ],
+   "question": "Let $S$ be a sphere with the centre at $\\begin{pmatrix}0\\\\0\\\\0\\end{pmatrix}$ and radius $r=5$. A line $l$ is defined by the parametric equation $\\mathbf r(\\lambda)=\\begin{pmatrix}3\\\\4\\\\0\\end{pmatrix}+\\lambda\\begin{pmatrix}-7\\\\-1\\\\0\\end{pmatrix}$, where $\\lambda\\in\\mathbb R$.\n\nFind the shortest distance from the centre of the sphere to the line.",
+   "answer": "The line meets the sphere at $A(3,4,0)$ and $B(-4,3,0)$, so the perpendicular from the centre $O$ meets the chord $AB$ at its midpoint $M$. $|AB|=\\sqrt{49+1}=5\\sqrt2$, so $AM=\\frac{5\\sqrt2}2$. Then $OM=\\sqrt{OA^2-AM^2}=\\sqrt{25-\\frac{25}2}=\\dfrac{5\\sqrt2}2\\approx3.54$. (Check: $\\overrightarrow{OA}\\cdot\\mathbf d$ projection: the component of $\\overrightarrow{AO}=\\begin{pmatrix}-3\\\\-4\\\\0\\end{pmatrix}$ along $\\mathbf d=\\begin{pmatrix}-7\\\\-1\\\\0\\end{pmatrix}$ is $\\frac{21+4}{\\sqrt{50}}=\\frac{5\\sqrt2}2$ along the chord, giving $AM=\\frac{5\\sqrt2}2$ as above.)"
+  },
+  {
+   "ref": "Q15(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.11"
+   ],
+   "question": "The points $A$, $B$ and $C$ represent the complex numbers $z_1$, $z_2$ and $z_3$ respectively on the Argand diagram. Prove that if $\\dfrac{z_2-z_3}{z_1-z_3}=\\dfrac{z_1-z_3}{z_1-z_2}$, then triangle $ABC$ is an equilateral triangle.",
+   "answer": "Let $a=z_1-z_2$, $b=z_2-z_3$, $c=z_3-z_1$, so $a+b+c=0$. The given relation is $\\frac{b}{-c}=\\frac{-c}{a}$, i.e. $ab=c^2$. Substitute $c=-(a+b)$: $ab=(a+b)^2=a^2+2ab+b^2$, so $a^2+ab+b^2=0$, i.e. $\\left(\\frac ab\\right)^2+\\frac ab+1=0$. Hence $\\frac ab=\\operatorname{cis}\\left(\\pm\\frac{2\\pi}3\\right)=\\omega$, a complex number of modulus 1, so $|a|=|b|$. Then $c=-(a+b)=-b(1+\\omega)=-b\\cdot(-\\omega^2)=b\\omega^2$ (using $1+\\omega+\\omega^2=0$), so $|c|=|b|$. Thus $|z_1-z_2|=|z_2-z_3|=|z_3-z_1|$, i.e. $AB=BC=CA$ and triangle $ABC$ is equilateral.",
+   "images": [
+    "assets/img/ext2-2025-baulkham-hills/q15c.png"
+   ]
+  },
+  {
+   "ref": "Q15(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Evaluate $\\displaystyle\\int\\frac{\\ln x}{(1+\\ln x)^2}\\,dx$.",
+   "answer": "Write $\\frac{\\ln x}{(1+\\ln x)^2}=\\frac{1}{1+\\ln x}-\\frac{1}{(1+\\ln x)^2}$ and integrate $\\int\\frac{dx}{1+\\ln x}$ by parts with $u=\\frac1{1+\\ln x}$, $v'=1$: $u'=-\\frac{1}{x(1+\\ln x)^2}$, $v=x$, so $\\int\\frac{dx}{1+\\ln x}=\\frac{x}{1+\\ln x}+\\int\\frac{dx}{(1+\\ln x)^2}$. Therefore $\\int\\frac{\\ln x}{(1+\\ln x)^2}dx=\\dfrac{x}{1+\\ln x}+C$. (Check: $\\frac{d}{dx}\\frac{x}{1+\\ln x}=\\frac{(1+\\ln x)-1}{(1+\\ln x)^2}=\\frac{\\ln x}{(1+\\ln x)^2}$ ✓.)"
+  },
+  {
+   "ref": "Q16(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "It is given that for any three positive numbers $x$, $y$ and $z$ it can be shown that $(x+y)(x+z)(y+z)\\ge8xyz$. Use this result to prove that if $a$, $b$ and $c$ are any three positive numbers such that each number is less than the sum of the other two, then $(a+b-c)(b+c-a)(c+a-b)\\le abc$.",
+   "answer": "Since each number is less than the sum of the other two, $a+b-c>0$, $b+c-a>0$ and $c+a-b>0$. Let $x=a+b-c$, $y=a+c-b$, $z=b+c-a$ (all positive). Then $x+y=2a$, $x+z=2b$, $y+z=2c$. The given result gives $(2a)(2b)(2c)\\ge8(a+b-c)(a+c-b)(b+c-a)$, i.e. $8abc\\ge8(a+b-c)(a+c-b)(b+c-a)$. Hence $(a+b-c)(b+c-a)(c+a-b)\\le abc$."
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "Let $S=(\\sqrt{50}+7)^{2000}+(\\sqrt{50}-7)^{2000}$. Prove that $S$ is an even integer.",
+   "answer": "By the binomial theorem, $(\\sqrt{50}+7)^{2000}=\\sum_{r=0}^{2000}\\binom{2000}{r}(\\sqrt{50})^{2000-r}7^r$ and $(\\sqrt{50}-7)^{2000}=\\sum_{r=0}^{2000}\\binom{2000}{r}(\\sqrt{50})^{2000-r}(-7)^r$. Adding, the terms with odd $r$ cancel and the terms with even $r$ double: $S=2\\sum_{k=0}^{1000}\\binom{2000}{2k}(\\sqrt{50})^{2000-2k}7^{2k}=2\\sum_{k=0}^{1000}\\binom{2000}{2k}50^{1000-k}7^{2k}$. Each term is an integer (the exponent of $\\sqrt{50}$ is even), so $S=2\\times$(an integer), an even integer."
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.1"
+   ],
+   "question": "Without the use of a calculator, show that $0<\\sqrt{50}-7<0.1$. (You may use the fact that $71^2=5041$.)",
+   "answer": "$49<50$ so $\\sqrt{50}>7$, giving $\\sqrt{50}-7>0$. Also $50<50.41=7.1^2$ (since $71^2=5041$), so $\\sqrt{50}<7.1$ and $\\sqrt{50}-7<0.1$. Hence $0<\\sqrt{50}-7<0.1$."
+  },
+  {
+   "ref": "Q16(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "Let $S=(\\sqrt{50}+7)^{2000}+(\\sqrt{50}-7)^{2000}$, which is an even integer, and $0<\\sqrt{50}-7<0.1$. Hence, or otherwise, prove that the first two thousand digits after the decimal point in the decimal expansion of $(\\sqrt{50}+7)^{2000}$ are all the digit 9.",
+   "answer": "$(\\sqrt{50}+7)^{2000}=S-(\\sqrt{50}-7)^{2000}$. Since $0<\\sqrt{50}-7<0.1=10^{-1}$, we have $0<(\\sqrt{50}-7)^{2000}<10^{-2000}$. So $(\\sqrt{50}+7)^{2000}=S-\\varepsilon$ with $S$ an integer and $0<\\varepsilon<10^{-2000}$. Therefore the number is just below the integer $S$: its fractional part is $1-\\varepsilon=0.\\underbrace{99\\ldots9}_{\\ge2000}\\ldots$ (since $1-\\varepsilon>1-10^{-2000}=0.\\underbrace{9\\ldots9}_{2000}$). So the first 2000 digits after the decimal point are all 9."
+  },
+  {
+   "ref": "Q16(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "The diagram shows the graph of $y=\\dfrac{e^x}{x}$.\n\nFind the coordinates of the stationary point.",
+   "answer": "$y=\\frac{e^x}x$, so $\\frac{dy}{dx}=\\frac{xe^x-e^x}{x^2}=\\frac{e^x(x-1)}{x^2}$. Stationary points occur when $\\frac{dy}{dx}=0$: $x=1$ (as $e^x\\ne0$), and $y=\\frac e1=e$. The stationary point is $(1,e)$ (a minimum, as $\\frac{dy}{dx}<0$ for $0<x<1$ and $>0$ for $x>1$).",
+   "images": [
+    "assets/img/ext2-2025-baulkham-hills/q16c.png"
+   ]
+  },
+  {
+   "ref": "Q16(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Find $a$ if $\\displaystyle\\int_a^{2a}\\frac{e^x}{x}\\,dx=\\int_a^{2a}\\frac{e^x}{x^2}\\,dx$.",
+   "answer": "Move to one side: $\\int_a^{2a}\\left(\\frac{e^x}x-\\frac{e^x}{x^2}\\right)dx=0$, i.e. $\\int_a^{2a}\\frac{xe^x-e^x}{x^2}dx=0$. The integrand is $\\frac{d}{dx}\\left(\\frac{e^x}x\\right)$ (from part (i)), so $\\left[\\frac{e^x}x\\right]_a^{2a}=0$: $\\frac{e^{2a}}{2a}-\\frac{e^a}a=0$, so $e^{2a}=2e^a$, $e^a=2$ and $a=\\ln2$.",
+   "images": [
+    "assets/img/ext2-2025-baulkham-hills/q16c.png"
+   ]
+  },
+  {
+   "ref": "Q16(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "The diagram shows the graph of $y=\\dfrac{e^x}{x}$. Hence, or otherwise, show that it is not possible to find distinct integers $m$ and $n$ such that $\\displaystyle\\int_m^n\\frac{e^x}{x}\\,dx=\\int_m^n\\frac{e^x}{x^2}\\,dx$.",
+   "answer": "As in part (ii), $\\int_m^n\\left(\\frac{e^x}x-\\frac{e^x}{x^2}\\right)dx=\\left[\\frac{e^x}x\\right]_m^n$, so the equality requires $\\frac{e^n}n=\\frac{e^m}m$ (the integrals only exist if $m,n$ are non-zero and of the same sign, since the integrand has a discontinuity at $x=0$). Suppose $m\\ne n$ are integers with $f(m)=f(n)$ where $f(x)=\\frac{e^x}x$. From the graph, $f$ is strictly decreasing on $(-\\infty,0)$ and on $(0,1)$ and strictly increasing on $(1,\\infty)$, with minimum $f(1)=e$. So $f(m)=f(n)$ for distinct $m,n$ of the same sign is only possible if one lies in $(0,1)$ and the other in $(1,\\infty)$ (on the negative axis $f$ is one-to-one, and on $[1,\\infty)$ it is one-to-one). But there is no integer in the interval $(0,1)$, a contradiction. Hence no such distinct integers exist.",
+   "images": [
+    "assets/img/ext2-2025-baulkham-hills/q16c.png"
+   ]
+  }
+ ]
+}
