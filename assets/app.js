@@ -202,11 +202,11 @@
         yHtml += `<details class="lvl-topic" data-key="${key}" ${openState.has(key) ? "open" : ""}><summary><span class="caret">▸</span><input type="checkbox" data-group="${t.id}"><span class="lbl">${nm(t.name)}</span><span class="cnt">${tCount}</span></summary><div class="kids">${tHtml}</div></details>`;
       }
       const yCount = ySet.size;
-      if (S.hideEmpty && !yCount) continue;
+      if (S.hideEmpty && !yCount && !(y.year === 11 && !S.inclY11)) continue;
       const key = "y" + y.year;
       const open = firstBuild || openState.has(key);
       html += S.syl.years.length > 1
-        ? `<details class="lvl-year" data-key="${key}" ${open ? "open" : ""}><summary><span class="caret">▸</span><span class="lbl">Year ${y.year}</span><span class="cnt">${yCount}</span></summary>${yHtml}</details>`
+        ? `<details class="lvl-year" data-key="${key}" ${open ? "open" : ""}><summary><span class="caret">▸</span>${y.year === 11 ? `<input type="checkbox" id="inc-y11" title="Include Year 11 questions" ${S.inclY11 ? "checked" : ""}>` : ""}<span class="lbl">Year ${y.year}</span><span class="cnt">${yCount}</span></summary>${yHtml}</details>`
         : yHtml;
     }
     root.innerHTML = html || `<div class="none" style="padding:10px">No indexed questions yet.</div>`;
@@ -628,21 +628,18 @@
     $("answers").checked = S.showAnswers;
     $("answers").addEventListener("change", (e) => { S.showAnswers = e.target.checked; store.set("showAnswers", S.showAnswers); refresh(); });
     $("hide-empty").addEventListener("change", (e) => { S.hideEmpty = e.target.checked; buildTree(); });
-    if ($("inc-y11")) {
-      $("inc-y11").checked = S.inclY11;
-      $("inc-y11").addEventListener("change", (e) => { S.inclY11 = e.target.checked; store.set("inclY11", S.inclY11); buildTree(); refresh(true); });
-    }
     $("strict-dp").checked = S.strictDp;
     $("strict-dp").addEventListener("change", (e) => { S.strictDp = e.target.checked; store.set("strictDp", S.strictDp); refresh(true); });
     $("clear-topics").addEventListener("click", () => { S.sel.clear(); refresh(true); });
     $("reset").addEventListener("click", () => {
       S.sel.clear(); S.papers.clear(); S.diff = new Set([1, 2, 3, 4, 5]); S.kinds = new Set(["mc", "written"]); S.search = ""; $("search").value = "";
-      if ($("inc-y11")) { S.inclY11 = true; store.set("inclY11", true); $("inc-y11").checked = true; }
+      S.inclY11 = true; store.set("inclY11", true);
       document.querySelectorAll("[data-diff],[data-kind]").forEach((b) => b.classList.add("on")); buildPapers(); refresh(true);
     });
     $("tree").addEventListener("change", (e) => {
       const t = e.target;
-      if (t.dataset.dp) { t.checked ? S.sel.add(t.dataset.dp) : S.sel.delete(t.dataset.dp); refresh(false); }
+      if (t.id === "inc-y11") { S.inclY11 = t.checked; store.set("inclY11", S.inclY11); refresh(true); }
+      else if (t.dataset.dp) { t.checked ? S.sel.add(t.dataset.dp) : S.sel.delete(t.dataset.dp); refresh(false); }
       else if (t.dataset.group) { for (const id of dpsUnder(t.dataset.group)) t.checked ? S.sel.add(id) : S.sel.delete(id); refresh(true); }
     });
     $("tree").addEventListener("click", (e) => { if (e.target.matches("summary input")) e.stopPropagation(); }, true);
