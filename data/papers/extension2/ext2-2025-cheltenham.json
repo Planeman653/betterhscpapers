@@ -1,0 +1,591 @@
+{
+ "id": "ext2-2025-cheltenham",
+ "course": "extension2",
+ "school": "Cheltenham Girls",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "Cheltenham Girls 2025 w. sol"
+ },
+ "indexed": "2026-11-24",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q3",
+   "reason": "The question page (printed page 3) is missing from the supplied PDF, so the stem and options cannot be read."
+  },
+  {
+   "ref": "Q4",
+   "reason": "The question page (printed page 3) is missing from the supplied PDF, so the stem and options cannot be read."
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.14"
+   ],
+   "question": "Which complex number is a square root of $7+24i$?",
+   "answer": "Let $(x+iy)^2=7+24i$: $x^2-y^2=7$, $xy=12$. Then $x=4,y=3$ (or $x=-4,y=-3$). So $\\pm(4+3i)$ are the square roots, and $-4-3i$ is one of them (D).",
+   "options": [
+    "$-3-4i$",
+    "$4-3i$",
+    "$-4+3i$",
+    "$-4-3i$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.7"
+   ],
+   "question": "Which of the following is the negation of “$y>6$ or $y\\le-2$”?",
+   "answer": "The negation of ($P$ or $Q$) is (not $P$ and not $Q$): $y\\le6$ and $y>-2$, i.e. $-2<y\\le6$ (C).",
+   "options": [
+    "$-2<y<6$",
+    "$-2\\le y<6$",
+    "$-2<y\\le6$",
+    "$-2\\le y\\le6$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.3"
+   ],
+   "question": "A cubic polynomial $P(z)$ has all real coefficients. Given that $z=3$ and $z=2+i$ are two roots such that $P(z)=0$, which equation best describes $P(z)$?",
+   "answer": "Complex roots of a real polynomial occur in conjugate pairs, so $2-i$ is also a root. $P(z)=(z-3)\\left[(z-2)^2+1\\right]=(z-3)(z^2-4z+5)=z^3-7z^2+17z-15$ (C).",
+   "options": [
+    "$P(z)=z^3-7z^2-17z+15$",
+    "$P(z)=z^3+7z^2-35z+15$",
+    "$P(z)=z^3-7z^2+17z-15$",
+    "$P(z)=z^3+7z^2+35z-15$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Find the expression that best represents $\\displaystyle\\int\\frac1{\\sqrt x}\\operatorname{cosec}(\\sqrt x)\\cot(\\sqrt x)\\,dx$.",
+   "answer": "$\\frac d{dx}\\operatorname{cosec}\\sqrt x=-\\frac1{2\\sqrt x}\\operatorname{cosec}\\sqrt x\\cot\\sqrt x$. So $\\int\\frac1{\\sqrt x}\\operatorname{cosec}\\sqrt x\\cot\\sqrt x\\,dx=-2\\operatorname{cosec}\\sqrt x+C$ (A).",
+   "options": [
+    "$-2\\operatorname{cosec}(\\sqrt x)+C$",
+    "$-\\frac12\\operatorname{cosec}(\\sqrt x)+C$",
+    "$\\frac12\\operatorname{cosec}(\\sqrt x)+C$",
+    "$2\\operatorname{cosec}(\\sqrt x)+C$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "A particle moves along a straight line. Initially its displacement is $x=1$, its velocity is $v=2$ and its acceleration is $a=4$. Which equation could describe the motion of the particle?",
+   "answer": "Use $a=v\\frac{dv}{dx}$ and test $x=1$. (A) $v=2$, $a=2\\cdot\\frac4x=8$. (B) $v=2$, $a=(2)(2\\cos0)=4$. (C) $v^2=-4$, impossible. (D) $v^2=7\\ne4$. Only B fits (B).",
+   "options": [
+    "$v=2+4\\ln x$",
+    "$v=2\\sin(x-1)+2$",
+    "$v^2=4(x^2-2)$",
+    "$v^2=x^2+2x+4$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.5"
+   ],
+   "question": "Which of the following is the region in the Argand diagram specified by $i(z-\\bar z)>4$?",
+   "answer": "With $z=x+iy$: $i(z-\\bar z)=i(2iy)=-2y>4$, so $y<-2$, i.e. $\\text{Im}(z)<-2$ (below the dashed line at $-2$). That is B (B).",
+   "options": [
+    "![Option A](assets/img/ext2-2025-cheltenham/q8a.png)",
+    "![Option B](assets/img/ext2-2025-cheltenham/q8b.png)",
+    "![Option C](assets/img/ext2-2025-cheltenham/q8c.png)",
+    "![Option D](assets/img/ext2-2025-cheltenham/q8d.png)"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "In the diagram (shown), $ABCD$ is a rhombus, $F$ is the midpoint of $CD$ and $BE$ is an extension of $AB$. Given $\\overrightarrow{AB}=\\mathbf a$, $\\overrightarrow{BC}=\\mathbf b$ and $B$ divides $AE$ internally in the ratio $4:3$, which of the following best represents $\\overrightarrow{FE}$ in terms of $\\mathbf a$ and $\\mathbf b$?",
+   "answer": "$B$ divides $AE$ in the ratio $4:3$, so $\\overrightarrow{BE}=\\frac34\\mathbf a$. $\\overrightarrow{FC}=\\frac12\\overrightarrow{DC}=\\frac12\\mathbf a$ and $\\overrightarrow{CB}=-\\mathbf b$. $\\overrightarrow{FE}=\\overrightarrow{FC}+\\overrightarrow{CB}+\\overrightarrow{BE}=\\frac12\\mathbf a-\\mathbf b+\\frac34\\mathbf a=\\frac54\\mathbf a-\\mathbf b$ (A).",
+   "options": [
+    "$\\frac54\\mathbf a-\\mathbf b$",
+    "$\\frac54\\mathbf a+\\mathbf b$",
+    "$\\frac{11}6\\mathbf a-\\mathbf b$",
+    "$\\frac{11}6\\mathbf a+\\mathbf b$"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/ext2-2025-cheltenham/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.17"
+   ],
+   "question": "A sphere of unit radius is tangent to the $xy$-plane, the $xz$-plane and the $yz$-plane. A point $A$ on the sphere is to be joined to the origin. What is the shortest possible distance?",
+   "answer": "The sphere has centre $(1,1,1)$ (in the first octant) and radius $1$. The centre is $\\sqrt3$ from the origin, so the nearest point of the sphere is $\\sqrt3-1$ away (D).",
+   "options": [
+    "1",
+    "$\\sqrt2$",
+    "$\\sqrt2-1$",
+    "$\\sqrt3-1$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.11"
+   ],
+   "question": "Let $z=1-i$ and $w=\\sqrt3+i$. Evaluate $|z|+|w|$, leaving your answer in exact form.",
+   "answer": "$|z|=\\sqrt{1+1}=\\sqrt2$ and $|w|=\\sqrt{3+1}=2$. So $|z|+|w|=\\sqrt2+2$."
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.8"
+   ],
+   "question": "With $z=1-i$ and $w=\\sqrt3+i$, evaluate $\\arg\\left(\\dfrac{z^2}{w^3}\\right)$ in terms of $\\pi$, showing all working.",
+   "answer": "$\\arg z=-\\frac\\pi4$ and $\\arg w=\\frac\\pi6$. By de Moivre, $\\arg z^2=-\\frac\\pi2$ and $\\arg w^3=\\frac\\pi2$. $\\arg\\frac{z^2}{w^3}=-\\frac\\pi2-\\frac\\pi2=-\\pi$, which is $\\pi$ as a principal argument."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "Prove by contradiction that $\\sqrt5$ is irrational.",
+   "answer": "Assume $\\sqrt5=\\frac pq$ with $p,q$ integers, $q\\ne0$, with no common factor. Then $5q^2=p^2$, so $p^2$ is divisible by $5$, hence $p$ is divisible by $5$. Let $p=5k$: $5q^2=25k^2$, so $q^2=5k^2$ and $q$ is divisible by $5$. Then $p$ and $q$ share a factor of $5$, a contradiction. Therefore $\\sqrt5$ is irrational."
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.8"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^\\infty\\frac1{(x^2+1)(x^2+4)}\\,dx$.",
+   "answer": "Partial fractions: $\\frac1{(x^2+1)(x^2+4)}=\\frac13\\left(\\frac1{x^2+1}-\\frac1{x^2+4}\\right)$. So $\\int_0^\\infty=\\frac13\\left[\\tan^{-1}x-\\frac12\\tan^{-1}\\frac x2\\right]_0^\\infty=\\frac13\\left(\\frac\\pi2-\\frac\\pi4\\right)=\\frac\\pi{12}$."
+  },
+  {
+   "ref": "Q11(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.5"
+   ],
+   "question": "Let $z=\\cos\\theta+i\\sin\\theta$. Solve $z^5-1=0$ over the complex field, giving your answer in modulus-argument form.",
+   "answer": "$z^5=1$, so the solutions are the fifth roots of unity: $z=\\cos\\frac{2k\\pi}5+i\\sin\\frac{2k\\pi}5$ for $k=0,\\pm1,\\pm2$, i.e. $1$, $\\operatorname{cis}\\frac{2\\pi}5$, $\\operatorname{cis}\\frac{4\\pi}5$, $\\operatorname{cis}\\left(-\\frac{2\\pi}5\\right)$, $\\operatorname{cis}\\left(-\\frac{4\\pi}5\\right)$."
+  },
+  {
+   "ref": "Q11(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.12"
+   ],
+   "question": "Hence, or otherwise, express $z^5-1$ as a product of linear and quadratic factors (real coefficients).",
+   "answer": "The roots are $1$ and two conjugate pairs. $(z-z_1)(z-\\bar z_1)=z^2-2\\cos\\frac{2\\pi}5z+1$ and $(z-z_2)(z-\\bar z_2)=z^2-2\\cos\\frac{4\\pi}5z+1$. So $z^5-1=(z-1)\\left(z^2-2\\cos\\frac{2\\pi}5z+1\\right)\\left(z^2-2\\cos\\frac{4\\pi}5z+1\\right)$."
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.9"
+   ],
+   "question": "Evaluate $\\displaystyle\\int\\frac{4x-10}{x^2+2x+2}\\,dx$.",
+   "answer": "$4x-10=2(2x+2)-14$. $\\int\\frac{2(2x+2)}{x^2+2x+2}dx-14\\int\\frac{dx}{(x+1)^2+1}=2\\ln(x^2+2x+2)-14\\tan^{-1}(x+1)+C$."
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Evaluate $\\displaystyle\\int2x^3\\sqrt{4-x^2}\\,dx$.",
+   "answer": "Let $u=4-x^2$, $du=-2x\\,dx$, $x^2=4-u$. $\\int2x^3\\sqrt{4-x^2}dx=-\\int(4-u)\\sqrt u\\,du=-\\int\\left(4u^{1/2}-u^{3/2}\\right)du=\\frac25u^{5/2}-\\frac83u^{3/2}+C=\\frac2{15}\\sqrt{4-x^2}\\left(3x^4-4x^2-32\\right)+C$."
+  },
+  {
+   "ref": "Q12(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Evaluate $\\displaystyle\\int e^{2x}\\cos2x\\,dx$.",
+   "answer": "Let $I=\\int e^{2x}\\cos2x\\,dx$. By parts (twice, the second time returning $I$): $I=\\frac12e^{2x}\\sin2x+\\frac12e^{2x}\\cos2x-I$, so $2I=\\frac12e^{2x}(\\sin2x+\\cos2x)$ and $I=\\frac14e^{2x}(\\sin2x+\\cos2x)+C$."
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Let $z=\\cos\\theta+i\\sin\\theta$, so $z^n+z^{-n}=2\\cos n\\theta$. By expanding $(z+z^{-1})^4$, prove that $\\cos4\\theta=8\\cos^4\\theta-8\\cos^2\\theta+1$.",
+   "answer": "$(z+z^{-1})^4=z^4+4z^2+6+4z^{-2}+z^{-4}=(z^4+z^{-4})+4(z^2+z^{-2})+6$. So $16\\cos^4\\theta=2\\cos4\\theta+8\\cos2\\theta+6=2\\cos4\\theta+8(2\\cos^2\\theta-1)+6$. Hence $2\\cos4\\theta=16\\cos^4\\theta-16\\cos^2\\theta+2$ and $\\cos4\\theta=8\\cos^4\\theta-8\\cos^2\\theta+1$."
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Hence solve $8x^4-8x^2+1=0$ and show that the solutions are $x=\\cos\\frac\\pi8,\\cos\\frac{3\\pi}8,\\cos\\frac{5\\pi}8,\\cos\\frac{7\\pi}8$.",
+   "answer": "Let $x=\\cos\\theta$. Then $8\\cos^4\\theta-8\\cos^2\\theta+1=\\cos4\\theta=0$, so $4\\theta=\\frac\\pi2,\\frac{3\\pi}2,\\frac{5\\pi}2,\\frac{7\\pi}2,\\dots$ and $\\theta=\\frac\\pi8,\\frac{3\\pi}8,\\frac{5\\pi}8,\\frac{7\\pi}8$ (four distinct roots for a quartic). So $x=\\cos\\frac\\pi8,\\cos\\frac{3\\pi}8,\\cos\\frac{5\\pi}8,\\cos\\frac{7\\pi}8$."
+  },
+  {
+   "ref": "Q12(b)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Hence explain why $\\cos\\frac\\pi8+\\cos\\frac{3\\pi}8+\\cos\\frac{5\\pi}8+\\cos\\frac{7\\pi}8=0$.",
+   "answer": "These four numbers are the roots of $8x^4-8x^2+1=0$, which has no $x^3$ term. The sum of the roots is $-\\frac ba=-\\frac08=0$."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.1"
+   ],
+   "question": "Solve the equation $x^3-5x^2+8x-6=0$ over the set of complex numbers.",
+   "answer": "$P(3)=27-45+24-6=0$, so $x-3$ is a factor: $P(x)=(x-3)(x^2-2x+2)$. $x^2-2x+2=0\\Rightarrow x=\\frac{2\\pm\\sqrt{-4}}2=1\\pm i$. The solutions are $x=3,\\ 1+i,\\ 1-i$."
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.12"
+   ],
+   "question": "Prove that the statement “If $n^2$ is even, then $n$ is even” is logically true, by considering its contrapositive.",
+   "answer": "The contrapositive is “If $n$ is not even, then $n^2$ is not even”. Let $n=2k+1$. Then $n^2=4k^2+4k+1=2(2k^2+2k)+1$, which is odd. The contrapositive is true, so the original statement is true by logical equivalence."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.18"
+   ],
+   "question": "The equation of a sphere is $x^2-8x+y^2+4y+z^2+2z=4$. Find the vector equation of the sphere and state its centre and radius.",
+   "answer": "Completing squares: $(x-4)^2+(y+2)^2+(z+1)^2=4+16+4+1=25$. The centre is $(4,-2,-1)$ and the radius is $5$. Vector equation: $\\left|\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}-\\begin{pmatrix}4\\\\-2\\\\-1\\end{pmatrix}\\right|=5$."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.4.1"
+   ],
+   "question": "Prove by mathematical induction that $(1+\\sqrt2)^n=p_n+q_n\\sqrt2$, where $p_n$ and $q_n$ are unique positive integers, for $n$ an integer, $n\\ge2$.",
+   "answer": "$n=2$: $(1+\\sqrt2)^2=3+2\\sqrt2$, so $p_2=3$, $q_2=2$. Assume true for $n=k$: $(1+\\sqrt2)^k=p_k+q_k\\sqrt2$. Then $(1+\\sqrt2)^{k+1}=(1+\\sqrt2)(p_k+q_k\\sqrt2)=p_k+2q_k+(p_k+q_k)\\sqrt2$, so $p_{k+1}=p_k+2q_k$ and $q_{k+1}=p_k+q_k$ are positive integers. They are unique because $\\sqrt2$ is irrational (if $a+b\\sqrt2=c+d\\sqrt2$ with integers then $a=c$, $b=d$). So the result holds for $n=k+1$ and by induction for all integers $n\\ge2$."
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "$\\overrightarrow{OA}=\\begin{pmatrix}3\\\\-2\\\\5\\end{pmatrix}$ and $\\overrightarrow{OB}=\\begin{pmatrix}-1\\\\3\\\\2\\end{pmatrix}$, where $O$ is the origin. Find the vector projection of $\\overrightarrow{OA}$ onto $\\overrightarrow{OB}$.",
+   "answer": "$\\overrightarrow{OA}\\cdot\\overrightarrow{OB}=-3-6+10=1$ and $|\\overrightarrow{OB}|^2=1+9+4=14$. $\\text{proj}=\\frac1{14}\\begin{pmatrix}-1\\\\3\\\\2\\end{pmatrix}$."
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.3"
+   ],
+   "question": "With $A=(3,-2,5)$ and $\\overrightarrow{OB}=(-1,3,2)$, find the vector equation of a line parallel to $\\overrightarrow{OB}$ and intersecting point $A$.",
+   "answer": "$\\mathbf r=\\begin{pmatrix}3\\\\-2\\\\5\\end{pmatrix}+\\lambda\\begin{pmatrix}-1\\\\3\\\\2\\end{pmatrix}$."
+  },
+  {
+   "ref": "Q13(d)(i)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Given $I_n=\\displaystyle\\int_0^{\\pi/4}\\sec^nx\\,dx$ where $n$ is a positive integer, show that $I_n=\\dfrac1{n-1}\\left[(\\sqrt2)^{n-2}+(n-2)I_{n-2}\\right]$ for $n\\ge2$.",
+   "answer": "$I_n=\\int_0^{\\pi/4}\\sec^{n-2}x\\sec^2x\\,dx$. By parts with $u=\\sec^{n-2}x$, $v'=\\sec^2x$: $I_n=\\left[\\sec^{n-2}x\\tan x\\right]_0^{\\pi/4}-(n-2)\\int_0^{\\pi/4}\\sec^{n-2}x\\tan^2x\\,dx$. The boundary term is $(\\sqrt2)^{n-2}$. Using $\\tan^2x=\\sec^2x-1$: $I_n=(\\sqrt2)^{n-2}-(n-2)(I_n-I_{n-2})$. So $(n-1)I_n=(\\sqrt2)^{n-2}+(n-2)I_{n-2}$, giving the result."
+  },
+  {
+   "ref": "Q13(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Using $I_n=\\frac1{n-1}\\left[(\\sqrt2)^{n-2}+(n-2)I_{n-2}\\right]$ and $I_n=\\int_0^{\\pi/4}\\sec^nx\\,dx$, evaluate $I_4$, leaving your answer in exact form.",
+   "answer": "$I_2=\\int_0^{\\pi/4}\\sec^2x\\,dx=\\tan\\frac\\pi4=1$. $I_4=\\frac13\\left[(\\sqrt2)^2+2I_2\\right]=\\frac13(2+2)=\\frac43$."
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.3.5.4"
+   ],
+   "question": "Let $z=x+iy$ be a complex number such that $\\arg\\left(\\dfrac{z-w_1}{z-w_2}\\right)=\\dfrac\\pi6$. Given $w_1=2(3+i)$ and $w_2=2(1+i)$, realise the denominator in the expression $\\dfrac{z-w_1}{z-w_2}$ and prove that $\\left|z-\\left(4+2(1+\\sqrt3)i\\right)\\right|=4$ by considering $\\arg\\left(\\dfrac{z-w_1}{z-w_2}\\right)=\\dfrac\\pi6$.",
+   "answer": "$\\frac{z-w_1}{z-w_2}=\\frac{(x-6)+i(y-2)}{(x-2)+i(y-2)}\\cdot\\frac{(x-2)-i(y-2)}{(x-2)-i(y-2)}$. Real part: $\\frac{(x-6)(x-2)+(y-2)^2}{(x-2)^2+(y-2)^2}$. Imaginary part: $\\frac{4(y-2)}{(x-2)^2+(y-2)^2}$. Since the argument is $\\frac\\pi6$: $\\tan\\frac\\pi6=\\frac{\\text{Im}}{\\text{Re}}$, so $\\text{Re}=\\sqrt3\\,\\text{Im}$: $(x-6)(x-2)+(y-2)^2=4\\sqrt3(y-2)$. Expanding: $x^2-8x+y^2-(4+4\\sqrt3)y=-16-8\\sqrt3$. Completing squares: $(x-4)^2+\\left(y-2(1+\\sqrt3)\\right)^2=16$. This is a circle with centre $4+2(1+\\sqrt3)i$ and radius $4$, so $\\left|z-\\left(4+2(1+\\sqrt3)i\\right)\\right|=4$."
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.5.5"
+   ],
+   "question": "Hence, or otherwise, sketch the locus of $z$ on the Argand diagram specified by $\\arg\\left(\\dfrac{z-w_1}{z-w_2}\\right)=\\dfrac\\pi6$ (with $w_1=6+2i$, $w_2=2+2i$), showing all important features including the point at which the locus meets the $y$-axis.",
+   "answer": "The locus is the major arc of the circle with centre $(4,2+2\\sqrt3)$ and radius $4$, above the chord joining $w_2=(2,2)$ and $w_1=(6,2)$ (the inscribed angle $\\frac\\pi6$ is acute, so $z$ lies on the major arc). The points $z=2+2i$ and $z=6+2i$ are excluded (open circles). Since the centre is $4$ from the $y$-axis (equal to the radius), the circle touches the $y$-axis at $(0,\\,2(1+\\sqrt3))$, which is on the locus.",
+   "answer_images": [
+    "assets/img/ext2-2025-cheltenham/a14.png"
+   ]
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "Given that the inequality $\\dfrac9{17}<\\dfrac n{n+k}<\\dfrac8{15}$ holds true for a unique integer $k$ and $n$ is a positive integer, prove that the largest positive value of $n$ is $144$.",
+   "answer": "Write $\\frac n{n+k}=\\frac1{1+k/n}$. Taking reciprocals (all quantities positive): $\\frac{15}8<1+\\frac kn<\\frac{17}9$, so $\\frac78<\\frac kn<\\frac89$ and $\\frac{7n}8<k<\\frac{8n}9$. This open interval has length $\\frac{8n}9-\\frac{7n}8=\\frac n{72}$. If $\\frac n{72}>2$, it contains at least two integers, so uniqueness requires $\\frac n{72}\\le2$, i.e. $n\\le144$. Also $n=144$ gives integer endpoints $126$ and $128$, leaving exactly one integer, so the largest value is $144$."
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "Hence, show that the inequality $\\frac9{17}<\\frac n{n+k}<\\frac8{15}$ indeed holds when $n=144$, by finding the unique integer $k$.",
+   "answer": "For $n=144$: $\\frac9{17}<\\frac{144}{144+k}<\\frac8{15}$. Right: $144(15)<8(144+k)\\Rightarrow k>126$. Left: $9(144+k)<144(17)\\Rightarrow k<128$. So $126<k<128$ and the unique integer is $k=127$."
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.1.3.5"
+   ],
+   "question": "It is known that $a+b+c\\ge1$ where $a,b,c$ are positive numbers. Prove that $\\left(\\dfrac{a(a+1)+b+c}a\\right)\\left(\\dfrac{b(b+1)+c+a}b\\right)\\left(\\dfrac{c(c+1)+a+b}c\\right)\\ge8$.",
+   "answer": "$a(a+1)+b+c=a^2+(a+b+c)\\ge a^2+1$ since $a+b+c\\ge1$. So the first factor is $\\ge\\frac{a^2+1}a=a+\\frac1a$, and similarly for the others. By AM-GM, $a+\\frac1a\\ge2\\sqrt{a\\cdot\\frac1a}=2$ (and likewise for $b$, $c$). The product of three positive quantities each $\\ge2$ is at least $2\\cdot2\\cdot2=8$. Hence the product is $\\ge8$."
+  },
+  {
+   "ref": "Q15(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.8"
+   ],
+   "question": "A particle performs SHM in a straight line with displacement $x$ m, velocity $v\\ \\text{m s}^{-1}$ and acceleration $\\ddot x=-2(x-1)$. Initially $x=2$ and $v=-\\sqrt6$. Show by integration that $v^2=-2x^2+4x+6$.",
+   "answer": "$\\frac d{dx}\\left(\\frac12v^2\\right)=-2(x-1)$, so $\\frac12v^2=-x^2+2x+C$ and $v^2=-2x^2+4x+C'$. At $x=2$, $v^2=6$: $6=-8+8+C'$, so $C'=6$. Therefore $v^2=-2x^2+4x+6$."
+  },
+  {
+   "ref": "Q15(a)(ii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.9"
+   ],
+   "question": "For the particle with $\\ddot x=-2(x-1)$, $v^2=-2x^2+4x+6$, initial $x=2$ and $v=-\\sqrt6$: by letting $x=B+A\\cos(nt+\\theta)$ where $A>0$, $n>0$ and $0<\\theta<\\pi$, find $B$, $A$, $n$ and $\\theta$.",
+   "answer": "The centre of motion is $x=1$ and $n^2=2$, so $B=1$, $n=\\sqrt2$. At the extremes $v=0$: $-2x^2+4x+6=0\\Rightarrow x=-1,3$, so the amplitude is $A=2$. Then $x=1+2\\cos(\\sqrt2t+\\theta)$. At $t=0$, $x=2$: $\\cos\\theta=\\frac12$, so $\\theta=\\frac\\pi3$ (and $v=-2\\sqrt2\\sin\\frac\\pi3=-\\sqrt6$ as required). So $B=1$, $A=2$, $n=\\sqrt2$, $\\theta=\\frac\\pi3$."
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.1.11"
+   ],
+   "question": "The line $L_1$ passes through $A=(5,4,0)$ and $B=(10,8,3)$, and the line $L_2$ passes through $C=(-1,-6,-10)$ and $D=(9,2,-4)$. Show that $L_1$ and $L_2$ do not intersect and find the shortest distance between them.",
+   "answer": "$\\overrightarrow{AB}=(5,4,3)$ and $\\overrightarrow{CD}=(10,8,6)=2\\overrightarrow{AB}$, so the lines are parallel. $A$ is not on $L_2$ ($\\overrightarrow{CA}=(6,10,10)$ is not a multiple of $(10,8,6)$), so the lines are distinct and do not intersect. The projection of $\\overrightarrow{CA}$ onto $\\overrightarrow{CD}$ is $\\frac{60+80+60}{200}(10,8,6)=\\overrightarrow{CD}$, so the foot of the perpendicular from $A$ to $L_2$ is $D$. The shortest distance is $|\\overrightarrow{AD}|=|(4,-2,-4)|=\\sqrt{16+4+16}=6$ units."
+  },
+  {
+   "ref": "Q15(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.2"
+   ],
+   "question": "Prove that if $\\dfrac d{dx}(f(x))=\\dfrac d{dx}(g(x))$, then $f(x)=g(x)$, is not always true by counterexample.",
+   "answer": "Let $f(x)=x+1$ and $g(x)=x+2$. Then $f'(x)=g'(x)=1$, but $f(x)\\ne g(x)$. So the statement is not always true."
+  },
+  {
+   "ref": "Q15(d)",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.2.1.18"
+   ],
+   "question": "A line $\\mathbf r=\\begin{pmatrix}-2\\\\0\\end{pmatrix}+\\lambda\\begin{pmatrix}1\\\\3\\end{pmatrix}$ intersects the circle $(x+1)^2+(y-2)^2=4$ at two points $A$ and $B$, to form a chord $AB$. Given that $M$ is the midpoint of chord $AB$ and $C$ is the centre of the circle, prove that $\\overrightarrow{CM}$ is perpendicular to $\\overrightarrow{AB}$ and find the perpendicular distance from the centre of the circle to chord $AB$.",
+   "answer": "On the line $x=-2+\\lambda$, $y=3\\lambda$. Substituting: $(\\lambda-1)^2+(3\\lambda-2)^2=4\\Rightarrow10\\lambda^2-14\\lambda+1=0$. The roots have mean $\\lambda=\\frac7{10}$, which gives the midpoint $M\\left(-\\frac{13}{10},\\frac{21}{10}\\right)$. The centre is $C(-1,2)$, so $\\overrightarrow{CM}=\\left(-\\frac3{10},\\frac1{10}\\right)$. The direction of $AB$ is $(1,3)$ and $\\overrightarrow{CM}\\cdot(1,3)=-\\frac3{10}+\\frac3{10}=0$, so $\\overrightarrow{CM}\\perp\\overrightarrow{AB}$. The perpendicular distance is $|\\overrightarrow{CM}|=\\sqrt{\\frac9{100}+\\frac1{100}}=\\frac1{\\sqrt{10}}=\\frac{\\sqrt{10}}{10}$."
+  },
+  {
+   "ref": "Q16(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "A regular tetrahedron $OABC$ has four congruent equilateral triangle faces with sides of length 1, where $O$ is the origin. Let $\\overrightarrow{OA}=\\mathbf a$, $\\overrightarrow{OB}=\\mathbf b$, $\\overrightarrow{OC}=\\mathbf c$, and $M$ and $N$ be the points that divide sides $AB$ and $BC$ in the ratio $x:1-x$, where $0<x<1$ (shown). Show that $\\mathbf a\\cdot\\mathbf b=\\mathbf b\\cdot\\mathbf c=\\mathbf a\\cdot\\mathbf c=\\frac12$.",
+   "answer": "Each pair of edges from $O$ has length $1$ and the angle between them is $\\frac\\pi3$ (equilateral faces). So $\\mathbf a\\cdot\\mathbf b=1\\cdot1\\cdot\\cos\\frac\\pi3=\\frac12$, and likewise $\\mathbf b\\cdot\\mathbf c=\\mathbf a\\cdot\\mathbf c=\\frac12$.",
+   "images": [
+    "assets/img/ext2-2025-cheltenham/q16a.png"
+   ]
+  },
+  {
+   "ref": "Q16(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "For the regular tetrahedron $OABC$ with unit edges and $M$ dividing $AB$ in the ratio $x:1-x$ (so $\\overrightarrow{AM}=x\\overrightarrow{AB}$), show that $|\\overrightarrow{OM}|=\\sqrt{1-x+x^2}$.",
+   "answer": "$\\overrightarrow{OM}=\\overrightarrow{OA}+x\\overrightarrow{AB}=(1-x)\\mathbf a+x\\mathbf b$. $|\\overrightarrow{OM}|^2=(1-x)^2|\\mathbf a|^2+2x(1-x)\\mathbf a\\cdot\\mathbf b+x^2|\\mathbf b|^2=(1-x)^2+x(1-x)+x^2=1-x+x^2$. So $|\\overrightarrow{OM}|=\\sqrt{1-x+x^2}$.",
+   "images": [
+    "assets/img/ext2-2025-cheltenham/q16a.png"
+   ]
+  },
+  {
+   "ref": "Q16(a)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.2"
+   ],
+   "question": "Let $f(x)=\\dfrac{1+x-x^2}{1-x+x^2}$ where $0<x<1$. Without using calculus, prove that $1<f(x)\\le\\dfrac53$.",
+   "answer": "$f(x)-1=\\frac{2x-2x^2}{1-x+x^2}=\\frac{2x(1-x)}{x^2-x+1}>0$ since $2x(1-x)>0$ for $0<x<1$ and $x^2-x+1>0$ for all $x$ (positive definite). So $f(x)>1$. Also $f(x)-\\frac53=\\frac{3(1+x-x^2)-5(1-x+x^2)}{3(1-x+x^2)}=\\frac{-2+8x-8x^2}{3(1-x+x^2)}=\\frac{-2(2x-1)^2}{3(1-x+x^2)}\\le0$. So $f(x)\\le\\frac53$ (equality at $x=\\frac12$)."
+  },
+  {
+   "ref": "Q16(a)(iv)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "Using $\\overrightarrow{OM}=(1-x)\\mathbf a+x\\mathbf b$, $\\overrightarrow{ON}=(1-x)\\mathbf b+x\\mathbf c$, $|\\overrightarrow{OM}|=|\\overrightarrow{ON}|=\\sqrt{1-x+x^2}$, and $1<f(x)\\le\\frac53$ with $f(x)=\\frac{1+x-x^2}{1-x+x^2}$, show that $\\cos^{-1}\\frac56\\le\\angle MON<\\frac\\pi3$.",
+   "answer": "$\\overrightarrow{OM}\\cdot\\overrightarrow{ON}=(1-x)^2\\mathbf a\\cdot\\mathbf b+x(1-x)\\mathbf a\\cdot\\mathbf c+x(1-x)|\\mathbf b|^2+x^2\\mathbf b\\cdot\\mathbf c=\\frac12(1-x)^2+\\frac12x(1-x)+x(1-x)+\\frac12x^2=\\frac{1+x-x^2}2$. So $\\cos\\angle MON=\\frac{(1+x-x^2)/2}{1-x+x^2}=\\frac{f(x)}2$. Since $1<f(x)\\le\\frac53$, $\\frac12<\\cos\\angle MON\\le\\frac56$, so $\\cos^{-1}\\frac56\\le\\angle MON<\\frac\\pi3$."
+  },
+  {
+   "ref": "Q16(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.13"
+   ],
+   "question": "Describe and sketch the general shape of the parametric curve $\\mathbf r=\\begin{pmatrix}3\\sin\\theta\\\\3\\cos\\theta\\\\\\theta\\end{pmatrix}$ for $0\\le\\theta\\le4\\pi$.",
+   "answer": "$x^2+y^2=9$ for all $\\theta$, so the curve lies on a cylinder of radius $3$ about the $z$-axis, while $z=\\theta$ increases steadily. It is a uniform helix (spiral) starting at $(0,3,0)$, making two complete turns and rising to height $4\\pi$.",
+   "answer_images": [
+    "assets/img/ext2-2025-cheltenham/a16b.png"
+   ]
+  },
+  {
+   "ref": "Q16(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.15"
+   ],
+   "question": "Show that $\\tan^{-1}\\left(\\dfrac1{x^2-5x+7}\\right)=\\tan^{-1}(x-2)-\\tan^{-1}(x-3)$.",
+   "answer": "$x^2-5x+7=1+(x-2)(x-3)$. So the LHS is $\\tan^{-1}\\frac1{1+(x-2)(x-3)}=\\tan^{-1}\\frac{(x-2)-(x-3)}{1+(x-2)(x-3)}$. With $\\tan A=x-2$, $\\tan B=x-3$ this is $\\tan^{-1}\\left(\\frac{\\tan A-\\tan B}{1+\\tan A\\tan B}\\right)=\\tan^{-1}(\\tan(A-B))=A-B=\\tan^{-1}(x-2)-\\tan^{-1}(x-3)$."
+  },
+  {
+   "ref": "Q16(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Hence evaluate $I=\\displaystyle\\int_2^3\\tan^{-1}\\left(\\dfrac1{x^2-5x+7}\\right)dx$, leaving your answer in exact form.",
+   "answer": "$I=\\int_2^3\\tan^{-1}(x-2)\\,dx-\\int_2^3\\tan^{-1}(x-3)\\,dx=\\int_0^1\\tan^{-1}\\alpha\\,d\\alpha-\\int_{-1}^0\\tan^{-1}\\beta\\,d\\beta$. By parts, $\\int\\tan^{-1}x\\,dx=x\\tan^{-1}x-\\frac12\\ln(1+x^2)$. So $\\int_0^1=\\frac\\pi4-\\frac12\\ln2$ and $\\int_{-1}^0=0-\\left(\\frac\\pi4-\\frac12\\ln2\\right)=-\\left(\\frac\\pi4-\\frac12\\ln2\\right)$. Hence $I=2\\left(\\frac\\pi4-\\frac12\\ln2\\right)=\\frac\\pi2-\\ln2$."
+  }
+ ]
+}
