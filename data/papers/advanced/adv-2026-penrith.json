@@ -1,0 +1,636 @@
+{
+ "id": "adv-2026-penrith",
+ "course": "advanced",
+ "school": "Penrith",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5328",
+  "title": "Penrith 2026 w. sol"
+ },
+ "indexed": "2026-11-25",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q5",
+   "reason": "Not in 2024 syllabus: effect of an outlier on mean, median, mode, range and IQR of a dataset"
+  },
+  {
+   "ref": "Q7",
+   "reason": "Not in 2024 syllabus: Pareto charts"
+  },
+  {
+   "ref": "Q17",
+   "reason": "Not in 2024 syllabus: least squares regression line, interpretation and extrapolation of bivariate data"
+  },
+  {
+   "ref": "Q29(c)(i)",
+   "reason": "Not in 2024 syllabus: interquartile range of a dataset from a cumulative frequency histogram"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.6.1.6"
+   ],
+   "question": "The parabola $y=x^2+2$ is translated down 4 units. It is then reflected about the $x$-axis. What is the equation of the resulting parabola?",
+   "answer": "Translating down 4 gives $y=x^2-2$. Reflecting in the $x$-axis replaces $y$ by $-y$: $y=-(x^2-2)=-x^2+2$ (C).",
+   "options": [
+    "$y=-x^2-6$",
+    "$y=-x^2-2$",
+    "$y=-x^2+2$",
+    "$y=-x^2+6$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.3.1"
+   ],
+   "question": "Calculate $\\dfrac{d}{dx}\\left[\\displaystyle\\int_5^x (g^4-2g^3+g-1)\\,dg\\right]$.",
+   "answer": "By the Fundamental Theorem of Calculus, $\\dfrac{d}{dx}\\int_a^x f(g)\\,dg=f(x)$, so the result is the integrand with $g$ replaced by $x$: $x^4-2x^3+x-1$ (C).",
+   "options": [
+    "$x^4-2x^3+x$",
+    "$x^4-2x^3+x-6$",
+    "$x^4-2x^3+x-1$",
+    "$x^4-2x^3+x+C$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.6"
+   ],
+   "question": "Which of the following could represent a probability density function for a continuous random variable?",
+   "answer": "A PDF must satisfy $f(x)\\ge0$ everywhere and have total area 1. A is a constant 0.6 on $[0,2]$ with area $1.2\\neq1$. B is a cumulative distribution–type curve rising to 1, so its area is clearly greater than 1. D takes negative values. C is non-negative and its total area is 1 (C). Note that $x$ may be negative in a PDF.",
+   "options": [
+    "![Q3A](assets/img/adv-2026-penrith/q3a.png)",
+    "![Q3B](assets/img/adv-2026-penrith/q3b.png)",
+    "![Q3C](assets/img/adv-2026-penrith/q3c.png)",
+    "![Q3D](assets/img/adv-2026-penrith/q3d.png)"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.3.7"
+   ],
+   "question": "Find the angle of inclination of the line $y=-8x-5$.",
+   "answer": "$\\tan\\theta=-8$, so the related angle is $\\tan^{-1}8\\approx82.87^\\circ$. The angle of inclination is obtuse because the gradient is negative: $\\theta=180^\\circ-82.87^\\circ\\approx97^\\circ$ (C).",
+   "options": [
+    "$76^\\circ$",
+    "$83^\\circ$",
+    "$97^\\circ$",
+    "$104^\\circ$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.2.6"
+   ],
+   "question": "Which of the following is the graph of $y=x^4-x^3-3x^2+5x+1$?",
+   "answer": "The $y$-intercept is 1, which eliminates B. The leading coefficient is positive, so both ends of the graph point up, which eliminates D. To choose between A and C, substitute $x=1$: $y=1-1-3+5+1=3$, which matches graph A (A).",
+   "options": [
+    "![Q6A](assets/img/adv-2026-penrith/q6a.png)",
+    "![Q6B](assets/img/adv-2026-penrith/q6b.png)",
+    "![Q6C](assets/img/adv-2026-penrith/q6c.png)",
+    "![Q6D](assets/img/adv-2026-penrith/q6d.png)"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.6.1.8"
+   ],
+   "question": "Which of the following describes the graph of $y^2-6y+x^2-16=0$?",
+   "answer": "Complete the square in $y$: $y^2-6y+9+x^2=16+9$, so $x^2+(y-3)^2=25$. This is a circle with centre $(0,3)$ and radius 5 (B).",
+   "options": [
+    "A circle with centre at $(0,-3)$ and radius 5 units.",
+    "A circle with centre at $(0,3)$ and radius 5 units.",
+    "A circle with centre at $(0,3)$ and radius 4 units.",
+    "A circle with centre at $(3,0)$ and radius $\\sqrt7$ units."
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.10",
+    "12.4.8.6"
+   ],
+   "question": "The diagram shows the graph $y=f(x)$, where $f(x)$ is an odd function. The shaded area is 1 square unit. A new function, $g(x)$, is found by taking the graph of $y=f(x)$ and translating it by 3 units upwards. Find $\\displaystyle\\int_{-1}^{1} g(x)\\,dx$.",
+   "answer": "$g(x)=f(x)+3$, so $\\displaystyle\\int_{-1}^{1}g(x)\\,dx=\\int_{-1}^{1}f(x)\\,dx+\\int_{-1}^{1}3\\,dx$. Since $f$ is odd, the areas on either side of the origin are equal in magnitude and opposite in sign, so $\\int_{-1}^{1}f(x)\\,dx=0$. The second integral is $3\\times2=6$. Total $=6$ (D).",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "6"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/adv-2026-penrith/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.4",
+    "12.5.1.9"
+   ],
+   "question": "The graph of a function $y=f'(x)$ is shown. Which of the following is the graph of $y=f(x)$?",
+   "answer": "The $x$-intercepts of $f'(x)$ are the stationary points of $f(x)$, so $f$ must have stationary points exactly there; this eliminates B and D. At the left and right edges of the graph $f'(x)>0$, so $f$ must be increasing (uphill) at both edges, which matches only A (A).",
+   "options": [
+    "Graph A",
+    "Graph B",
+    "Graph C",
+    "Graph D"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/adv-2026-penrith/q10.png",
+    "assets/img/adv-2026-penrith/q10opts.png"
+   ]
+  },
+  {
+   "ref": "Q11",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.7.3.4"
+   ],
+   "question": "A survey of 230 students found that 180 caught a train, 75 caught a bus and 40 caught neither on the way to school. What is the probability that a student caught a bus, given that they also caught a train?",
+   "answer": "$230-40=190$ students caught at least one. Since $180+75=255$, the number counted twice (caught both) is $255-190=65$. $P(B|T)=\\dfrac{n(B\\cap T)}{n(T)}=\\dfrac{65}{180}=\\dfrac{13}{36}$."
+  },
+  {
+   "ref": "Q12",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.8.11"
+   ],
+   "question": "Isaac is training for a marathon. His watch saves his running velocity, $v(t)$, in metres per minute every 20 minutes. The table gives the velocity $v(t)$ at time $t$ minutes.\n\n| $t$ | 0 | 20 | 40 | 60 | 80 |\n|---|---|---|---|---|---|\n| $v(t)$ | 160 | 175 | 178 | 166 | 150 |\n\nUse the trapezoidal rule and the velocity at each of the five time values to find the approximate distance in kilometres that Isaac has run in his 80 minute training session.",
+   "answer": "With $h=20$: $\\displaystyle\\int_0^{80}v\\,dt\\approx\\frac{20}{2}\\left[160+150+2(175+178+166)\\right]=10\\times1348=13\\,480$ m. Distance $\\approx13.48$ km."
+  },
+  {
+   "ref": "Q13",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.3"
+   ],
+   "question": "The rectangular prism below has $BF=5$ cm, $FG=9$ cm, $GH=12$ cm, $AH=\\sqrt{106}$ cm and $AF=13$ cm, as shown in the diagram. Find the size of $\\angle HAF$, correct to the nearest degree.",
+   "answer": "In the base, $HF=\\sqrt{12^2+9^2}=15$ cm. In $\\triangle AHF$, by the cosine rule: $\\cos\\angle HAF=\\dfrac{(\\sqrt{106})^2+13^2-15^2}{2\\times\\sqrt{106}\\times13}=\\dfrac{106+169-225}{26\\sqrt{106}}=\\dfrac{50}{26\\sqrt{106}}\\approx0.1868$. So $\\angle HAF\\approx79^\\circ$.",
+   "images": [
+    "assets/img/adv-2026-penrith/q13.png"
+   ],
+   "course": "extension1"
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.6"
+   ],
+   "question": "A discrete random variable $X$ has the probability distribution table shown below.\n\n| $X=x$ | 3 | 5 | $a$ | 12 |\n|---|---|---|---|---|\n| $P(x)$ | 0.1 | $m$ | 0.2 | 0.4 |\n\nFind the value of $a$ and $m$ given an expected value of 8.4.",
+   "answer": "Probabilities sum to 1: $0.1+m+0.2+0.4=1$, so $m=0.3$. $E(X)=\\sum xP(x)$: $3(0.1)+5(0.3)+0.2a+12(0.4)=8.4$, so $0.3+1.5+0.2a+4.8=8.4$, giving $0.2a=1.8$ and $a=9$."
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.6"
+   ],
+   "question": "A discrete random variable $X$ has the probability distribution $P(3)=0.1$, $P(5)=m$, $P(a)=0.2$, $P(12)=0.4$ with expected value 8.4, where $a=9$ and $m=0.3$ (from part (a)). Find the variance of $X$.",
+   "answer": "$E(X^2)=9(0.1)+25(0.3)+81(0.2)+144(0.4)=0.9+7.5+16.2+57.6=82.2$. $\\mathrm{Var}(X)=E(X^2)-[E(X)]^2=82.2-8.4^2=82.2-70.56=11.64$."
+  },
+  {
+   "ref": "Q15",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.2.9"
+   ],
+   "question": "Differentiate $f(x)=x^2-3x+2$ using the first principles formula $f'(x)=\\displaystyle\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}$.",
+   "answer": "$f(x+h)-f(x)=(x+h)^2-3(x+h)+2-(x^2-3x+2)=2xh+h^2-3h$. So $f'(x)=\\displaystyle\\lim_{h\\to0}\\frac{h(2x+h-3)}{h}=\\lim_{h\\to0}(2x+h-3)=2x-3$."
+  },
+  {
+   "ref": "Q16",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.7",
+    "11.1.4.10"
+   ],
+   "question": "For which values of $k$ does $y=kx^2+(k-2)x+1$ have real roots? Provide your answer in simplified exact form.",
+   "answer": "For real roots $\\Delta\\ge0$ (with $k\\neq0$ for a quadratic): $(k-2)^2-4k\\ge0$, so $k^2-8k+4\\ge0$. The roots of $k^2-8k+4=0$ are $k=\\dfrac{8\\pm\\sqrt{48}}{2}=4\\pm2\\sqrt3$. The parabola opens upwards, so $k^2-8k+4\\ge0$ when $k\\le4-2\\sqrt3$ or $k\\ge4+2\\sqrt3$. (The case $k=0$ gives the linear function $y=-2x+1$, which also has a real root, and $0\\le4-2\\sqrt3$ is already included.)"
+  },
+  {
+   "ref": "Q18",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.10",
+    "12.1.1.3"
+   ],
+   "question": "Solve $5\\cos\\left(2x+\\dfrac{\\pi}{3}\\right)+2=0$ for $0\\le x\\le\\pi$.",
+   "answer": "$\\cos\\left(2x+\\frac{\\pi}{3}\\right)=-0.4$ with $\\frac{\\pi}{3}\\le2x+\\frac{\\pi}{3}\\le\\frac{7\\pi}{3}$. The related angle is $\\cos^{-1}(0.4)\\approx1.1593$, and cosine is negative in quadrants 2 and 3: $2x+\\frac{\\pi}{3}=\\pi-1.1593=1.9823$ or $\\pi+1.1593=4.3009$. (Adding $2\\pi$ gives $8.27>\\frac{7\\pi}{3}\\approx7.33$, so no further solutions.) Then $2x=0.9351$ or $3.2537$, so $x\\approx0.47$ or $x\\approx1.63$."
+  },
+  {
+   "ref": "Q19",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.7.2.6",
+    "11.5.2.9"
+   ],
+   "question": "Charlie is playing basketball. He has a 13% chance of scoring a goal from beyond the halfway line. How many shots must he take to ensure at least a 97% chance of scoring at least one goal?",
+   "answer": "$P(\\text{at least one})=1-0.87^n\\ge0.97$, so $0.87^n\\le0.03$. Taking logs: $n\\ge\\dfrac{\\ln0.03}{\\ln0.87}\\approx25.2$ (the inequality reverses because $\\ln0.87<0$). He must take 26 shots."
+  },
+  {
+   "ref": "Q20",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "A table of future value interest factors for an annuity of \\$1 is shown.\n\n| Period $n$ \\ Rate $r$ | 0.005 | 0.01 | 0.015 | 0.02 | 0.03 | 0.06 |\n|---|---|---|---|---|---|---|\n| 7 | 7.10588 | 7.21354 | 7.32300 | 7.43428 | 7.66246 | 8.39384 |\n| 28 | 29.97452 | 32.12910 | 34.48148 | 37.05121 | 42.93092 | 68.52811 |\n| 56 | 64.44140 | 74.58098 | 86.79754 | 101.55826 | 141.15377 | 418.82235 |\n| 84 | 104.07393 | 130.67227 | 166.17264 | 213.86661 | 365.88054 | 2209.41676 |\n\nOwais deposits \\$2 000 into a savings account every three months for 7 years at an interest rate of 6% per annum, compounding quarterly. Find the amount of money in Owais' savings account at the end of the 7 years.",
+   "answer": "The interest rate per quarter is $6\\%\\div4=1.5\\%=0.015$ and the number of periods is $7\\times4=28$. The table factor is 34.48148, so $FV=2000\\times34.48148=\\$68\\,962.96$."
+  },
+  {
+   "ref": "Q21",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.6.1.1",
+    "11.4.3.5"
+   ],
+   "question": "At the point $(3,-4)$ on the curve $y=f(x)$, the tangent has equation $y=2x-10$. Determine the equation of the tangent to the curve $y=f(-x)$ at the point $(-3,-4)$.",
+   "answer": "$y=f(-x)$ is the reflection of $y=f(x)$ in the $y$-axis, so the point $(3,-4)$ maps to $(-3,-4)$ and the gradient of the tangent changes sign: $2\\to-2$. The tangent is $y+4=-2(x+3)$, i.e. $y=-2x-10$."
+  },
+  {
+   "ref": "Q22",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.6.3"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{3x-4}{3x^2-8x}\\,dx$.",
+   "answer": "The derivative of the denominator is $6x-8=2(3x-4)$. So $\\displaystyle\\int\\frac{3x-4}{3x^2-8x}\\,dx=\\frac12\\int\\frac{6x-8}{3x^2-8x}\\,dx=\\frac12\\ln|3x^2-8x|+C$."
+  },
+  {
+   "ref": "Q23(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.2.6"
+   ],
+   "question": "Use a logarithm law to write $\\ln\\dfrac{3x-1}{x+2}$ in the form $\\ln a-\\ln b$, where $a$ and $b$ are algebraic expressions with no fractions.",
+   "answer": "$\\ln\\dfrac{3x-1}{x+2}=\\ln(3x-1)-\\ln(x+2)$, so $a=3x-1$ and $b=x+2$."
+  },
+  {
+   "ref": "Q23(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.2.3",
+    "11.1.1.6"
+   ],
+   "question": "Given that $\\ln\\dfrac{3x-1}{x+2}=\\ln(3x-1)-\\ln(x+2)$, show that $y=\\ln\\dfrac{3x-1}{x+2}$ has a gradient of 1 at $x=\\dfrac{-5\\pm\\sqrt{133}}{6}$.",
+   "answer": "$\\dfrac{dy}{dx}=\\dfrac{3}{3x-1}-\\dfrac{1}{x+2}=\\dfrac{3(x+2)-(3x-1)}{(3x-1)(x+2)}=\\dfrac{7}{3x^2+5x-2}$. Setting this equal to 1: $3x^2+5x-2=7$, so $3x^2+5x-9=0$. Then $x=\\dfrac{-5\\pm\\sqrt{25+108}}{6}=\\dfrac{-5\\pm\\sqrt{133}}{6}$."
+  },
+  {
+   "ref": "Q23(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.5.2.11"
+   ],
+   "question": "Anika thought there was a fault in the answer to Question 23(b). She said the answer should be $x=\\dfrac{-5+\\sqrt{133}}{6}$ only. However, she is incorrect: there is no error in the answer to part (b). Anika made an error because she was solving \\\"Show that $y=\\ln a-\\ln b$ has a gradient of 1 at $x=\\dfrac{-5\\pm\\sqrt{133}}{6}$\\\" (where $a=3x-1$, $b=x+2$) instead of \\\"Show that $y=\\ln\\dfrac{3x-1}{x+2}$ has a gradient of 1 at $x=\\dfrac{-5\\pm\\sqrt{133}}{6}$\\\". Provide the restriction that Anika used that led to her incorrect answer.",
+   "answer": "For $y=\\ln(3x-1)-\\ln(x+2)$ to be defined, both logarithm arguments must be positive: $3x-1>0$ and $x+2>0$. Together these give $x>\\dfrac13$. Anika used the restriction $x>\\dfrac13$, which excludes the negative root."
+  },
+  {
+   "ref": "Q23(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.5.2.11",
+    "11.5.2.9"
+   ],
+   "question": "Substitute $x=\\dfrac{-5-\\sqrt{133}}{6}$ into $a=3x-1$ and $b=x+2$, giving answers correct to 2 decimal places, and hence explain why $x=\\dfrac{-5-\\sqrt{133}}{6}$ is not a solution if you start with the equation $y=\\ln a-\\ln b$ but is a solution if you start with $y=\\ln\\dfrac{3x-1}{x+2}$.",
+   "answer": "$x=\\dfrac{-5-\\sqrt{133}}{6}\\approx-2.76$, so $a=3x-1\\approx-9.27$ and $b=x+2\\approx-0.76$. Both are negative, so $\\ln a$ and $\\ln b$ are undefined and the function $y=\\ln a-\\ln b$ does not exist at this $x$-value. However $\\dfrac ab\\approx12.2>0$, so $\\ln\\dfrac{3x-1}{x+2}$ is defined there (the domain of $\\ln\\frac{3x-1}{x+2}$ includes $x<-2$ as well as $x>\\frac13$), and the gradient of 1 is valid."
+  },
+  {
+   "ref": "Q24(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.8"
+   ],
+   "question": "One morning a farmer's crops were attacked by 2 000 locusts (insects). During daylight each day, including the first, the locust population increases by 15%. Unfortunately, the farmer does not realise the severity of the locusts for the first two weeks. Show that there are 14 151 locusts at the farm when the farmer realises the severity of the locust plague, to the nearest whole.",
+   "answer": "After $n$ days the population is $2000(1.15)^n$. After the first two weeks ($n=14$): $2000(1.15)^{14}=14\\,151.4\\ldots\\approx14\\,151$."
+  },
+  {
+   "ref": "Q24(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.8"
+   ],
+   "question": "The farmer installs a locust trap at the start of the 15th day, which traps locusts at night-time. When the farmer installs the trap there are 14 151 locusts, and during each day the population grows by 15%. Find the minimum number of locusts per day that the trap must catch to reduce the number of locusts from the 15th day onwards.",
+   "answer": "Daily growth on 14 151 locusts is $0.15\\times14\\,151=2122.65$. To reduce the population the trap must catch more than this, so at least 2123 locusts per day."
+  },
+  {
+   "ref": "Q24(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.8"
+   ],
+   "question": "Once the trap is in use, the number of locusts at the end of the $n$th day is $A_n$, with $A_0=14\\,151$. Each day the population increases by 15% and the trap then catches exactly 4 000 locusts. Show that $A_2=14\\,151(1.15)^2-4000(1.15)-4000$.",
+   "answer": "$A_1=14\\,151(1.15)-4000$. $A_2=A_1(1.15)-4000=\\left[14\\,151(1.15)-4000\\right](1.15)-4000=14\\,151(1.15)^2-4000(1.15)-4000$."
+  },
+  {
+   "ref": "Q24(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.3.5",
+    "12.2.3.8"
+   ],
+   "question": "Using the recurrence $A_n=1.15A_{n-1}-4000$ with $A_0=14\\,151$ (so $A_2=14\\,151(1.15)^2-4000(1.15)-4000$), show that $A_n=14\\,151(1.15)^n-4000\\left(\\dfrac{1.15^n-1}{0.15}\\right)$.",
+   "answer": "Continuing the pattern, $A_n=14\\,151(1.15)^n-4000\\left[1.15^{n-1}+1.15^{n-2}+\\cdots+1.15+1\\right]$. The bracket is a geometric series with first term 1, ratio 1.15 and $n$ terms, so its sum is $\\dfrac{1(1.15^n-1)}{1.15-1}=\\dfrac{1.15^n-1}{0.15}$. Hence $A_n=14\\,151(1.15)^n-4000\\left(\\dfrac{1.15^n-1}{0.15}\\right)$."
+  },
+  {
+   "ref": "Q24(c)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.3.8",
+    "11.5.2.9"
+   ],
+   "question": "With $A_n=14\\,151(1.15)^n-4000\\left(\\dfrac{1.15^n-1}{0.15}\\right)$ the number of locusts at the end of the $n$th day after the trap is installed, how many days since the farmer installs the trap will it take to catch all of the locusts on their farm?",
+   "answer": "Set $A_n\\le0$: $14\\,151(1.15)^n\\le\\dfrac{4000}{0.15}(1.15^n-1)$. This gives $26\\,666.7\\le(26\\,666.7-14\\,151)(1.15)^n=12\\,515.7(1.15)^n$, so $1.15^n\\ge2.1307$ and $n\\ge\\dfrac{\\ln2.1307}{\\ln1.15}\\approx5.41$. Check: $A_5\\approx1493>0$ and $A_6<0$. So it takes 6 days."
+  },
+  {
+   "ref": "Q25",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.1.8",
+    "11.3.1.10"
+   ],
+   "question": "Find $x$, given that $\\sin(x+10)^\\circ=\\cos(3x+20)^\\circ$ and $0^\\circ\\le x\\le90^\\circ$.",
+   "answer": "Using the complementary angle identity $\\sin\\theta=\\cos(90^\\circ-\\theta)$: $\\cos(80^\\circ-x)=\\cos(3x+20^\\circ)$. So $80-x=3x+20$ (or $80-x=-(3x+20)+360k$, giving $x=-50+180k$, which is outside the domain except $x=130$, also outside). Hence $4x=60$ and $x=15^\\circ$."
+  },
+  {
+   "ref": "Q26",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.3",
+    "12.2.3.7"
+   ],
+   "question": "A computer program is designed to select any positive integer $x$. The probability distribution shown in the table below, where $m$ is a constant, shows the probabilities of selecting the first four positive integers only.\n\n| $x$ | 1 | 2 | 3 | 4 | … |\n|---|---|---|---|---|---|\n| $P(x)$ | $3m$ | $6m^2$ | $12m^3$ | $24m^4$ | … |\n\nFind the value of $m$.",
+   "answer": "The probabilities form a geometric series with first term $a=3m$ and common ratio $r=2m$. The sum of all probabilities is 1: $\\dfrac{3m}{1-2m}=1$, so $3m=1-2m$ and $m=\\dfrac15$ (this gives $|r|=0.4<1$, so the limiting sum exists)."
+  },
+  {
+   "ref": "Q27",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.6.1.6"
+   ],
+   "question": "Consider the graph of $y=f(x)$ as shown. Sketch the graph of $y=f(2x+4)$, labelling the $x$-intercepts and the coordinates of the turning points.",
+   "answer": "$f(2x+4)=f\\left(2(x+2)\\right)$: a horizontal compression by factor 2 (from the $y$-axis) followed by a translation 2 units left. Each $x$-coordinate $u$ on $y=f(x)$ becomes $x=\\dfrac{u-4}{2}$. Turning point $(0,0)\\to(-2,0)$ (this is also an $x$-intercept), turning point $(4,-8)\\to(0,-8)$, and $x$-intercept $(6,0)\\to(1,0)$. The sketch has a local maximum at $(-2,0)$, a local minimum at $(0,-8)$ and passes through $(1,0)$. See the diagram.",
+   "images": [
+    "assets/img/adv-2026-penrith/q27.png"
+   ],
+   "answer_images": [
+    "assets/img/adv-2026-penrith/q27-sol.png"
+   ]
+  },
+  {
+   "ref": "Q28",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.5.2.2"
+   ],
+   "question": "The noise level $N(t)$, in decibels, during a 90 minute football match can be modelled by the function $N(t)=\\dfrac{1}{20000}\\left(0.25t^4-35t^3+1225t^2+1\\,800\\,000\\right)$, where $t$ is the time in minutes that have been played in the match and $0\\le t\\le90$. Find the loudest noise level during the football match.",
+   "answer": "$N'(t)=\\dfrac{1}{20000}\\left(t^3-105t^2+2450t\\right)=\\dfrac{t(t-35)(t-70)}{20000}$, so the stationary points are at $t=0,35,70$. Evaluate $N$ at these and at the end of the domain: $N(0)=90$, $N(35)\\approx108.76$, $N(70)=90$ and $N(90)=\\dfrac{2\\,610\\,000}{20000}=130.5$. The global maximum is at the endpoint $t=90$: the loudest noise level is 130.5 decibels."
+  },
+  {
+   "ref": "Q29(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.8"
+   ],
+   "question": "Elena, the owner of Elena's Escape Rooms, records the time taken in minutes for each group to complete her escape room. She recognises this data as a continuous random variable, $X$, which can be modelled by the probability density function $f(x)=\\begin{cases}-\\dfrac{1}{4500}(x-10)(x-40)&10\\le x\\le40\\\\0&\\text{elsewhere}\\end{cases}$. Find the mode time taken to complete the escape room.",
+   "answer": "The mode is where $f(x)$ is greatest. On $10\\le x\\le40$, $f$ is a downward parabola with zeros at 10 and 40, so its maximum is at the midpoint $x=\\dfrac{10+40}{2}=25$. The mode is 25 minutes."
+  },
+  {
+   "ref": "Q29(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.9"
+   ],
+   "question": "For the probability density function $f(x)=-\\dfrac{1}{4500}(x-10)(x-40)$ on $10\\le x\\le40$ (and 0 elsewhere), show that the cumulative distribution function for the time taken to complete the escape room is given by $F(x)=-\\dfrac{1}{4500}\\left(\\dfrac{x^3}{3}-25x^2+400x\\right)+\\dfrac{11}{27}$ for $10\\le x\\le40$.",
+   "answer": "$f(x)=-\\dfrac{1}{4500}(x^2-50x+400)$, so $F(x)=\\displaystyle\\int_{10}^{x}f(t)\\,dt=-\\dfrac{1}{4500}\\left[\\dfrac{t^3}{3}-25t^2+400t\\right]_{10}^{x}=-\\dfrac{1}{4500}\\left(\\dfrac{x^3}{3}-25x^2+400x\\right)+\\dfrac{1}{4500}\\left(\\dfrac{1000}{3}-2500+4000\\right)$. The constant is $\\dfrac{1}{4500}\\times\\dfrac{5500}{3}=\\dfrac{5500}{13500}=\\dfrac{11}{27}$, as required."
+  },
+  {
+   "ref": "Q29(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.11"
+   ],
+   "question": "For the cumulative distribution function $F(x)=-\\dfrac{1}{4500}\\left(\\dfrac{x^3}{3}-25x^2+400x\\right)+\\dfrac{11}{27}$ on $10\\le x\\le40$, an online calculator solves $F(x)=0.25$ and $F(x)=0.75$. The calculator gives the solutions $x\\approx2.01866,\\ 19.79055,\\ 53.19077$ for $F(x)=0.25$, and $x\\approx-3.19077,\\ 30.20944,\\ 47.98133$ for $F(x)=0.75$. Calculate the interquartile range for the time taken to complete Elena's escape room.",
+   "answer": "Only solutions in the domain $10\\le x\\le40$ are valid, so $Q_1=19.79055$ and $Q_3=30.20944$. $\\mathrm{IQR}=Q_3-Q_1=30.20944-19.79055\\approx10.42$ minutes."
+  },
+  {
+   "ref": "Q29(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.4.4"
+   ],
+   "question": "A different escape room company, Escape From Axel, gathers data on the time its customers take to complete their escape room and displays it in the cumulative frequency histogram shown. Find the modal time group for the time taken to complete the escape room at Escape From Axel.",
+   "answer": "Read the cumulative frequencies at the right-hand ends of the groups: 30, 80, 150, 200. The frequency of each group is the difference between successive values: 0–10: 30; 10–20: 50; 20–30: 70; 30–40: 50. The largest frequency is 70, so the modal group is 20–30 minutes.",
+   "images": [
+    "assets/img/adv-2026-penrith/q29.png"
+   ]
+  },
+  {
+   "ref": "Q30",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.1",
+    "11.6.1.6"
+   ],
+   "question": "Identify the period, amplitude, phase shift and vertical shift of the graph formed by the equation $y=12\\cos\\left(\\dfrac{\\pi}{3}(x-2)\\right)+4$.",
+   "answer": "Compare with $y=A\\cos(B(x-C))+D$: amplitude $=12$; period $=\\dfrac{2\\pi}{\\pi/3}=6$; phase shift $=2$ units to the right; vertical shift $=4$ units up."
+  },
+  {
+   "ref": "Q31",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.1.3",
+    "11.1.9.8"
+   ],
+   "question": "Given $f(x)=16^x$ and $g(x)=\\dfrac12x+\\dfrac34$, show that the derivative of $y=f(g(x))$ is $\\ln2\\left(2^{2x+4}\\right)$.",
+   "answer": "$f(g(x))=16^{\\frac12x+\\frac34}=\\left(2^4\\right)^{\\frac12x+\\frac34}=2^{2x+3}$. Using $\\dfrac{d}{dx}\\left(a^{u}\\right)=\\ln a\\cdot a^{u}\\cdot\\dfrac{du}{dx}$ with $u=2x+3$: $\\dfrac{dy}{dx}=\\ln2\\cdot2^{2x+3}\\cdot2=\\ln2\\cdot2^{2x+4}$."
+  },
+  {
+   "ref": "Q32",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.12",
+    "12.4.4.4"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{\\tan^4x}{1-\\sec^2x}\\,dx$.",
+   "answer": "Using $1+\\tan^2x=\\sec^2x$, we have $1-\\sec^2x=-\\tan^2x$. So $\\dfrac{\\tan^4x}{1-\\sec^2x}=-\\tan^2x=1-\\sec^2x$. Then $\\displaystyle\\int(1-\\sec^2x)\\,dx=x-\\tan x+C$."
+  },
+  {
+   "ref": "Q33",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.8.6",
+    "12.4.5.3"
+   ],
+   "question": "The curve $y=2^{2x-3}$ meets the line $y=\\dfrac32x-1$ at $(1,0.5)$ and $(2,2)$, as shown in the diagram. Show that the shaded region has an area of $\\dfrac{5\\ln2-3}{4\\ln2}$ units$^2$.",
+   "answer": "Between $x=1$ and $x=2$ the line is above the curve. Area $=\\displaystyle\\int_1^2\\left(\\dfrac32x-1-2^{2x-3}\\right)dx=\\left[\\dfrac34x^2-x-\\dfrac{2^{2x-3}}{2\\ln2}\\right]_1^2$. At $x=2$: $3-2-\\dfrac{2}{2\\ln2}=1-\\dfrac{1}{\\ln2}$. At $x=1$: $\\dfrac34-1-\\dfrac{1/2}{2\\ln2}=-\\dfrac14-\\dfrac{1}{4\\ln2}$. Subtracting: $1-\\dfrac{1}{\\ln2}+\\dfrac14+\\dfrac{1}{4\\ln2}=\\dfrac54-\\dfrac{3}{4\\ln2}=\\dfrac{5\\ln2-3}{4\\ln2}$ units$^2$.",
+   "images": [
+    "assets/img/adv-2026-penrith/q33.png"
+   ]
+  },
+  {
+   "ref": "Q34",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.6",
+    "11.2.3.6"
+   ],
+   "question": "Mrs Palmer is setting up a javelin landing zone. The landing zone takes the form of a sector with angle $\\theta$ in radians. The first arc is 20 metres from the vertex of the sector and consecutive arcs are 8 metres apart (Landing Zone 1 is the region from the vertex to the first arc). The perimeter and internal arcs separating each landing zone must be marked on the grass with black paint, as shown in the diagram. Show that the total length of the lines to be marked with paint can be given by $L_n=4(n^2\\theta+4n\\theta+4n+6)$, where $n$ is the number of landing zones.",
+   "answer": "The arcs (including the outer perimeter arc) have radii $20,28,\\ldots,20+8(n-1)$: $n$ arcs forming an arithmetic sequence. Using $l=r\\theta$, the total arc length is $\\theta\\cdot\\dfrac n2\\left[20+\\left(20+8(n-1)\\right)\\right]=\\theta\\cdot\\dfrac n2(8n+32)=\\theta(4n^2+16n)$. The two straight edges each have length equal to the outer radius $20+8(n-1)=8n+12$, giving $2(8n+12)=16n+24$. Total: $L_n=4n^2\\theta+16n\\theta+16n+24=4(n^2\\theta+4n\\theta+4n+6)$.",
+   "images": [
+    "assets/img/adv-2026-penrith/q34.png"
+   ]
+  },
+  {
+   "ref": "Q35(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.6.1.6",
+    "11.2.3.5"
+   ],
+   "question": "The graph of $y=\\cos\\theta$ for $0\\le\\theta\\le2\\pi$ is shown. On the same Cartesian plane, sketch the graph of $y=-\\sin\\theta+1$ for $0<\\theta<2\\pi$.",
+   "answer": "$y=1-\\sin\\theta$ is the graph of $y=\\sin\\theta$ reflected in the $\\theta$-axis and translated up 1 unit. It has a minimum of 0 at $\\theta=\\frac{\\pi}{2}$, passes through $(0,1)$ (open end), reaches 1 at $\\theta=\\pi$, has maximum 2 at $\\theta=\\frac{3\\pi}{2}$ and returns to 1 at $\\theta=2\\pi$ (open end). See the diagram.",
+   "images": [
+    "assets/img/adv-2026-penrith/q35.png"
+   ],
+   "answer_images": [
+    "assets/img/adv-2026-penrith/q35a-sol.png"
+   ]
+  },
+  {
+   "ref": "Q35(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.13"
+   ],
+   "question": "Hence or otherwise, find any point(s) of intersection of $y=\\cos\\theta$ and $y=-\\sin\\theta+1$ for $0<\\theta<2\\pi$.",
+   "answer": "Solve $\\cos\\theta=1-\\sin\\theta$, i.e. $\\sin\\theta+\\cos\\theta=1$. Writing $\\sin\\theta+\\cos\\theta=\\sqrt2\\sin\\left(\\theta+\\frac\\pi4\\right)$: $\\sin\\left(\\theta+\\frac\\pi4\\right)=\\frac{1}{\\sqrt2}$, so $\\theta+\\frac\\pi4=\\frac\\pi4,\\frac{3\\pi}{4},\\ldots$ giving $\\theta=0$ (excluded) or $\\theta=\\dfrac\\pi2$. At $\\theta=\\frac\\pi2$, $y=\\cos\\frac\\pi2=0$. The only point of intersection is $\\left(\\dfrac\\pi2,0\\right)$ (the graphs also meet at $\\theta=0$ and $2\\pi$, which are excluded)."
+  },
+  {
+   "ref": "Q35(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.3.1.13",
+    "11.3.1.12"
+   ],
+   "question": "Hence or otherwise, solve $\\sin^2\\theta+\\sin\\theta\\cos\\theta-\\sin\\theta=0$ for $0<\\theta<2\\pi$.",
+   "answer": "Factorise: $\\sin\\theta(\\sin\\theta+\\cos\\theta-1)=0$. So $\\sin\\theta=0$, giving $\\theta=\\pi$ (in the domain), or $\\sin\\theta+\\cos\\theta=1$, i.e. $\\cos\\theta=1-\\sin\\theta$, which from part (b) gives $\\theta=\\dfrac\\pi2$. Hence $\\theta=\\dfrac\\pi2$ or $\\pi$."
+  }
+ ]
+}
