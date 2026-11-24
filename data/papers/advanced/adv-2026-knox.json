@@ -1,0 +1,713 @@
+{
+ "id": "adv-2026-knox",
+ "course": "advanced",
+ "school": "Knox",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5328",
+  "title": "Knox 2026 w. sol"
+ },
+ "indexed": "2026-11-24",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q4",
+   "reason": "Interquartile range of a dataset (summary statistics of data) is outside the Year 12 Advanced scope used on this site."
+  },
+  {
+   "ref": "Q22",
+   "reason": "Bivariate data (correlation coefficient and least-squares line) is outside the Year 12 Advanced scope used on this site."
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.11.6"
+   ],
+   "question": "What is the solution to $|x-2|<3$?",
+   "answer": "$-3<x-2<3$, so $-1<x<5$ (A).",
+   "options": [
+    "$-1<x<5$",
+    "$x<-5$ or $x>1$",
+    "$-5<x<1$",
+    "$x<-1$ or $x>5$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "Jacob deposits \\$750 every 6 months for 4 years into an account earning interest at 6% p.a. compounded biannually. The table shows future value interest factors for an annuity of \\$1.\n\n| Periods | 2% | 3% | 4% | 5% | 6% |\n|---|---|---|---|---|---|\n| 2 | 2.020 | 2.030 | 2.040 | 2.050 | 2.060 |\n| 4 | 4.122 | 4.184 | 4.247 | 4.310 | 4.375 |\n| 6 | 6.308 | 6.468 | 6.633 | 6.802 | 6.975 |\n| 8 | 8.583 | 8.892 | 9.214 | 9.549 | 9.898 |\n| 10 | 10.950 | 11.464 | 12.006 | 12.578 | 13.181 |\n\nWhat is the future value of Jacob's investment?",
+   "answer": "The rate is $3\\%$ per half-year and there are $8$ periods, so the factor is $8.892$. $FV=750\\times8.892=\\$6669.00$ (C).",
+   "options": [
+    "\\$3138.00",
+    "\\$3281.25",
+    "\\$6669.00",
+    "\\$7423.50"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Which of the following is true about $y=4\\sin\\left(\\dfrac x2\\right)$?",
+   "answer": "The amplitude is $4$ and the period is $\\frac{2\\pi}{1/2}=4\\pi$ (D).",
+   "options": [
+    "Amplitude $=4$ and period $=\\frac12$",
+    "Amplitude $=4$ and period $=2\\pi$",
+    "Amplitude $=\\frac12$ and period $=4$",
+    "Amplitude $=4$ and period $=4\\pi$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.3.1"
+   ],
+   "question": "What is the angle of inclination of the line $3x+2y=7$?",
+   "answer": "$y=-\\frac32x+\\frac72$, so $\\tan\\theta=-\\frac32$. The related angle is $\\tan^{-1}\\frac32=56^\\circ19'$ and the gradient is negative, so $\\theta=180^\\circ-56^\\circ19'=123^\\circ41'$ (C).",
+   "options": [
+    "$33^\\circ41'$",
+    "$56^\\circ19'$",
+    "$123^\\circ41'$",
+    "$146^\\circ19'$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.6"
+   ],
+   "question": "The probability density function for the continuous random variable $X$ is $f(x)=kx^3+\\frac34x$ for $0<x<2$, and $0$ otherwise. What is the value of $k$?",
+   "answer": "$\\int_0^2\\left(kx^3+\\frac34x\\right)dx=\\left[\\frac{kx^4}4+\\frac{3x^2}8\\right]_0^2=4k+\\frac32=1$, so $k=-\\frac18$ (A). (Check: $f(2)=-1+1.5>0$, so $f\\ge0$ on the interval.)",
+   "options": [
+    "$-\\frac18$",
+    "$-\\frac38$",
+    "$-\\frac3{16}$",
+    "$-\\frac9{16}$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.4"
+   ],
+   "question": "The graph of $y=f(x)$ crosses the $x$-axis at $(-3,0)$, $(0,0)$ and $(2,0)$. Shaded region $A$ (above the axis, between $-3$ and $0$) has area $189\\ \\text{u}^2$ and shaded region $B$ (below the axis, between $0$ and $2$) has area $64\\ \\text{u}^2$. What is the value of $\\displaystyle\\int_{-3}^2f(x)\\,dx$?",
+   "answer": "Area above the axis counts positively and area below counts negatively: $\\int_{-3}^2f(x)dx=189-64=125$ (C).",
+   "options": [
+    "$-253$",
+    "$-125$",
+    "$125$",
+    "$253$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/adv-2026-knox/q7.png"
+   ]
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.1"
+   ],
+   "question": "The values of a geometric sequence $T_n=ar^{n-1}$ are plotted on a bar graph (shown). Which statement must be true?",
+   "answer": "$T_1>0$, so $a>0$. The terms alternate in sign, so $r<0$, and the magnitudes decrease, so $|r|<1$. Hence $a>0$ and $-1<r<0$ (C).",
+   "options": [
+    "$a<0$, $-1<r<0$",
+    "$a<0$, $0<r<1$",
+    "$a>0$, $-1<r<0$",
+    "$a>0$, $0<r<1$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/adv-2026-knox/q8.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.1.9.5"
+   ],
+   "question": "A curve $y=g(x)$ has these properties: $g(x)$ is odd; $g(5)=0$ and $g'(2)=0$; $g'(x)>0$ for $x>2$. Which of the following could be the graph of $y=g(x)$?",
+   "answer": "Odd means the graph has half-turn symmetry about the origin, which rules out B and D (symmetric about the $y$-axis). $g'(2)=0$ with $g'>0$ for $x>2$ means a stationary point at $x=2$ with the curve increasing afterwards, i.e. a local minimum at $x=2$ then rising through $(5,0)$. A has a maximum at $x=2$, so only C fits (C).",
+   "options": [
+    "![Option A](assets/img/adv-2026-knox/q9a.png)",
+    "![Option B](assets/img/adv-2026-knox/q9b.png)",
+    "![Option C](assets/img/adv-2026-knox/q9c.png)",
+    "![Option D](assets/img/adv-2026-knox/q9d.png)"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.6.1.10"
+   ],
+   "question": "The point $P(2,-4)$ lies on $y=f(x)$. A sequence of transformations gives $g(x)=2f\\left(\\dfrac{4-x}3\\right)-1$. Which point on the graph of $g(x)$ corresponds to $P$?",
+   "answer": "We need $\\frac{4-x}3=2$, so $x=-2$. Then $g(-2)=2f(2)-1=2(-4)-1=-9$. The point is $(-2,-9)$ (C).",
+   "options": [
+    "$(-2,-8)$",
+    "$\\left(\\frac23,-8\\right)$",
+    "$(-2,-9)$",
+    "$\\left(\\frac23,-9\\right)$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.8"
+   ],
+   "question": "In an experiment, 5 million cells were stored in a container. 40% of the cells die every minute. The number of cells remaining after $t$ minutes is $N=Ae^{kt}$, where $A$ and $k$ are constants. Explain why $k=\\ln\\frac35$.",
+   "answer": "If 40% die each minute, 60% remain, so after $t=1$: $Ae^{k}=\\frac{60}{100}A$. Hence $e^k=\\frac35$ and $k=\\ln\\frac35$."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.8"
+   ],
+   "question": "The number of cells remaining after $t$ minutes is $N=5\\,000\\,000\\,e^{kt}$ with $k=\\ln\\frac35$. At what time, to two decimal places, will there be 2000 cells remaining?",
+   "answer": "$2000=5\\,000\\,000e^{(\\ln\\frac35)t}\\Rightarrow(\\ln\\tfrac35)t=\\ln\\frac{2000}{5000000}=\\ln\\frac1{2500}$. $t=\\frac{\\ln(1/2500)}{\\ln(3/5)}\\approx15.32$ minutes."
+  },
+  {
+   "ref": "Q12",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.7.1"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^{\\pi/2}\\cos x\\,dx$.",
+   "answer": "$\\left[\\sin x\\right]_0^{\\pi/2}=\\sin\\frac\\pi2-\\sin0=1$."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.1"
+   ],
+   "question": "Differentiate $y=xe^{5x}$.",
+   "answer": "By the product rule, $y'=e^{5x}+5xe^{5x}=e^{5x}(1+5x)$."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.1"
+   ],
+   "question": "Using the fact that $\\frac{d}{dx}\\left(xe^{5x}\\right)=e^{5x}(5x+1)$, find the exact value of $\\displaystyle\\int_0^3e^{5x}(20x+4)\\,dx$.",
+   "answer": "$e^{5x}(20x+4)=4e^{5x}(5x+1)$, so $\\int_0^3=4\\left[xe^{5x}\\right]_0^3=4(3e^{15}-0)=12e^{15}$."
+  },
+  {
+   "ref": "Q14",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.2"
+   ],
+   "question": "Find the equation of the tangent to the curve $y=x\\sin x$ at the point $\\left(-\\frac\\pi2,\\frac\\pi2\\right)$.",
+   "answer": "$y'=\\sin x+x\\cos x$. At $x=-\\frac\\pi2$: $y'=-1+\\left(-\\frac\\pi2\\right)(0)=-1$. Tangent: $y-\\frac\\pi2=-\\left(x+\\frac\\pi2\\right)$, i.e. $y=-x$."
+  },
+  {
+   "ref": "Q15",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "Find the sum of the arithmetic series $180+165+150+\\cdots-15-30$.",
+   "answer": "$a=180$, $d=-15$. $-30=180-15(n-1)\\Rightarrow n=15$. $S_{15}=\\frac{15}2(180-30)=1125$."
+  },
+  {
+   "ref": "Q16",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.1"
+   ],
+   "question": "Differentiate $y=\\dfrac{x^2-x}{x+2}$.",
+   "answer": "Quotient rule: $y'=\\frac{(2x-1)(x+2)-(x^2-x)(1)}{(x+2)^2}=\\frac{2x^2+3x-2-x^2+x}{(x+2)^2}=\\frac{x^2+4x-2}{(x+2)^2}$."
+  },
+  {
+   "ref": "Q17",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "If $y=\\ln\\left(\\dfrac{\\cos x}{1-\\sin x}\\right)$, show that $\\dfrac{dy}{dx}=\\sec x$.",
+   "answer": "$y=\\ln\\cos x-\\ln(1-\\sin x)$, so $\\frac{dy}{dx}=\\frac{-\\sin x}{\\cos x}+\\frac{\\cos x}{1-\\sin x}=\\frac{-\\sin x(1-\\sin x)+\\cos^2x}{\\cos x(1-\\sin x)}=\\frac{-\\sin x+\\sin^2x+\\cos^2x}{\\cos x(1-\\sin x)}=\\frac{1-\\sin x}{\\cos x(1-\\sin x)}=\\frac1{\\cos x}=\\sec x$."
+  },
+  {
+   "ref": "Q18",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.3.8"
+   ],
+   "question": "The diagram shows a sector $OAB$ of a circle of radius 18 cm with angle $AOB=\\frac\\pi6$. The chord $AB$ divides the sector into a triangle and a shaded segment. The area of the shaded segment can be written as $k(\\pi-3)\\ \\text{cm}^2$, where $k$ is an integer. Find $k$.",
+   "answer": "Segment area $=\\frac12r^2(\\theta-\\sin\\theta)=\\frac12(18)^2\\left(\\frac\\pi6-\\frac12\\right)=162\\left(\\frac{\\pi-3}6\\right)=27(\\pi-3)$. So $k=27$.",
+   "images": [
+    "assets/img/adv-2026-knox/q18.png"
+   ]
+  },
+  {
+   "ref": "Q19(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.3.5"
+   ],
+   "question": "Events $A$ and $B$ are independent with $P(A\\cap B')=0.64$, $P(A'\\cap B)=0.04$ and $P(A\\cap B)=x$, where $0<x<1$. If $x^2-0.32x+0.0256=(x-k)^2$, find $k$.",
+   "answer": "$(x-k)^2=x^2-2kx+k^2$, so $2k=0.32$ and $k=0.16$ (check: $0.16^2=0.0256$)."
+  },
+  {
+   "ref": "Q19(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.2.6"
+   ],
+   "question": "Events $A$ and $B$ satisfy $P(A\\cap B')=0.64$ and $P(A\\cap B)=x$. Given $A=(A\\cap B)\\cup(A\\cap B')$, explain why $P(A)=x+0.64$.",
+   "answer": "The events $A\\cap B$ and $A\\cap B'$ are mutually exclusive (no outcome is both in $B$ and not in $B$), so $P(A)=P(A\\cap B)+P(A\\cap B')=x+0.64$."
+  },
+  {
+   "ref": "Q19(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.7.3.8"
+   ],
+   "question": "Events $A$ and $B$ are independent with $P(A\\cap B')=0.64$, $P(A'\\cap B)=0.04$ and $P(A\\cap B)=x$, where $0<x<1$, and $P(A)=x+0.64$. By writing a similar result for $P(B)$, deduce that $P(A\\cap B)=(x+0.64)(x+0.04)$ and hence find the value of $x$.",
+   "answer": "Similarly $B=(A\\cap B)\\cup(A'\\cap B)$, so $P(B)=x+0.04$. For independent events $P(A\\cap B)=P(A)P(B)$, so $x=(x+0.64)(x+0.04)=x^2+0.68x+0.0256$. Then $x^2-0.32x+0.0256=0$, i.e. $(x-0.16)^2=0$ and $x=0.16$."
+  },
+  {
+   "ref": "Q19(d)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.3.6"
+   ],
+   "question": "Events $A$ and $B$ are independent, and $P(A\\cap B)=0.16$, $P(A\\cap B')=0.64$. Find $P(A|B)$.",
+   "answer": "$P(A)=0.16+0.64=0.8$. Since $A$ and $B$ are independent, $P(A|B)=P(A)=0.8$."
+  },
+  {
+   "ref": "Q20(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.12"
+   ],
+   "question": "Prove the identity $\\dfrac{\\sin^2x-\\cos x-1}{1+\\cos x}=-\\cos x$.",
+   "answer": "$\\text{LHS}=\\frac{(1-\\cos^2x)-\\cos x-1}{1+\\cos x}=\\frac{-\\cos^2x-\\cos x}{1+\\cos x}=\\frac{-\\cos x(\\cos x+1)}{1+\\cos x}=-\\cos x=\\text{RHS}$."
+  },
+  {
+   "ref": "Q20(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.10"
+   ],
+   "question": "Using the identity $\\dfrac{\\sin^2x-\\cos x-1}{1+\\cos x}=-\\cos x$, solve $\\dfrac{2\\sin^2x-2\\cos x-2}{1+\\cos x}=1$ for $0^\\circ\\le x\\le360^\\circ$.",
+   "answer": "The left side is $2\\times\\frac{\\sin^2x-\\cos x-1}{1+\\cos x}=-2\\cos x$. So $-2\\cos x=1$, $\\cos x=-\\frac12$, giving $x=120^\\circ$ or $240^\\circ$."
+  },
+  {
+   "ref": "Q21(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.3.6"
+   ],
+   "question": "The completion times of runners in a half-marathon are normally distributed with mean 110 minutes and standard deviation 20 minutes. Estimate the percentage of runners with times between 110 and 130 minutes.",
+   "answer": "130 is one standard deviation above the mean. By the empirical rule, 68% lie within one standard deviation, so about $\\frac{68}2=34\\%$ lie between 110 and 130."
+  },
+  {
+   "ref": "Q21(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.2"
+   ],
+   "question": "Completion times are normally distributed with mean 110 minutes and standard deviation 20 minutes. Explain why the percentage of runners with times between 90 and 130 minutes is twice the percentage with times between 110 and 130 minutes.",
+   "answer": "90 and 130 are each one standard deviation from the mean (110). The normal distribution is symmetric about the mean, so the percentage between 90 and 110 equals the percentage between 110 and 130. The interval 90 to 130 is the sum of these two, hence twice as large."
+  },
+  {
+   "ref": "Q21(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.14"
+   ],
+   "question": "Completion times are normally distributed with mean 110 minutes and standard deviation 20 minutes. Use the standard normal table below to find an approximate maximum completion time needed to finish in the fastest 10% of runners.\n\n| $z$ | 0.6 | 0.7 | 0.8 | 0.9 | 1.0 | 1.1 | 1.2 | 1.3 | 1.4 |\n|---|---|---|---|---|---|---|---|---|---|\n| $P(Z<z)$ | 0.7257 | 0.7580 | 0.7881 | 0.8159 | 0.8413 | 0.8643 | 0.8849 | 0.9032 | 0.9192 |",
+   "answer": "The fastest 10% are the lowest 10% of times, so we need $P(Z<z)\\approx0.1$. By symmetry $P(Z<-1.3)=1-0.9032=0.0968\\approx0.1$, so $z\\approx-1.3$. Then $t=110+(-1.3)(20)=84$ minutes."
+  },
+  {
+   "ref": "Q23(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "The depth of water in a tidal basin is $d(t)=3+2\\cos\\left(\\frac\\pi6t-\\frac\\pi3\\right)$ for $0\\le t\\le12$, where $d$ is the depth in metres and $t$ is the time in hours after midnight. Sketch the graph of $d(t)$ for $0\\le t\\le12$.",
+   "answer": "The amplitude is $2$, the centre line is $d=3$ and the period is $\\frac{2\\pi}{\\pi/6}=12$. The graph is a cosine curve shifted right by $2$ hours: maximum $(2,5)$, minimum $(8,1)$, and end points $d(0)=3+2\\cos\\left(-\\frac\\pi3\\right)=4$ and $d(12)=4$.",
+   "answer_images": [
+    "assets/img/adv-2026-knox/q23a_ans.png"
+   ]
+  },
+  {
+   "ref": "Q23(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "The depth of water in a tidal basin is $d(t)=3+2\\cos\\left(\\frac\\pi6t-\\frac\\pi3\\right)$ for $0\\le t\\le12$ ($t$ in hours after midnight). At what time is the depth decreasing at the fastest rate?",
+   "answer": "$d'(t)=-\\frac\\pi3\\sin\\left(\\frac\\pi6t-\\frac\\pi3\\right)$, which is most negative when $\\sin\\left(\\frac\\pi6t-\\frac\\pi3\\right)=1$, i.e. $\\frac\\pi6t-\\frac\\pi3=\\frac\\pi2$, $t=5$. This is the point of inflection between the maximum and minimum. The depth decreases fastest at 5:00 am."
+  },
+  {
+   "ref": "Q23(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "Solve $3+2\\cos\\left(\\frac\\pi6t-\\frac\\pi3\\right)=2$ for $0\\le t\\le12$.",
+   "answer": "$\\cos\\left(\\frac\\pi6t-\\frac\\pi3\\right)=-\\frac12$. For $0\\le t\\le12$ the angle $\\frac\\pi6t-\\frac\\pi3$ lies in $\\left[-\\frac\\pi3,\\frac{5\\pi}3\\right]$, so it equals $\\frac{2\\pi}3$ or $\\frac{4\\pi}3$. Then $\\frac\\pi6t=\\pi$ gives $t=6$, and $\\frac\\pi6t=\\frac{5\\pi}3$ gives $t=10$."
+  },
+  {
+   "ref": "Q23(d)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "The depth of water in a basin is $d(t)=3+2\\cos\\left(\\frac\\pi6t-\\frac\\pi3\\right)$ for $0\\le t\\le12$, and $d(t)=2$ at $t=6$ and $t=10$. The basin can be safely navigated when the depth is at least 2 metres. Find the total length of time during which it is safe over $0\\le t\\le12$.",
+   "answer": "The depth is at least 2 for $0\\le t\\le6$ and for $10\\le t\\le12$ (it dips below 2 only between $t=6$ and $t=10$, around the minimum at $t=8$). Total time $=6+(12-10)=8$ hours."
+  },
+  {
+   "ref": "Q24(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.10"
+   ],
+   "question": "A particle moves in a straight line with velocity $v=4-\\dfrac2{t+1}$ m/s at time $t$ seconds. Initially the particle is at the origin. Find an expression for its position $x$ at time $t$.",
+   "answer": "$x=\\int\\left(4-\\frac2{t+1}\\right)dt=4t-2\\ln(t+1)+C$. Since $x(0)=0$, $C=0$. So $x=4t-2\\ln(t+1)$."
+  },
+  {
+   "ref": "Q24(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.9"
+   ],
+   "question": "A particle moves in a straight line with velocity $v=4-\\dfrac2{t+1}$ m/s for $t\\ge0$. Explain why the velocity is never $4\\ \\text{m/s}$.",
+   "answer": "$v=4$ would need $\\frac2{t+1}=0$, which is impossible since $\\frac2{t+1}>0$ for $t\\ge0$. (The velocity approaches 4 as $t\\to\\infty$ but never reaches it.)"
+  },
+  {
+   "ref": "Q24(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.9"
+   ],
+   "question": "A particle moves in a straight line with velocity $v=4-\\dfrac2{t+1}$ m/s. Find its acceleration when $t=2$ seconds.",
+   "answer": "$a=\\frac{dv}{dt}=\\frac2{(t+1)^2}$. At $t=2$: $a=\\frac29\\ \\text{m/s}^2$."
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.11"
+   ],
+   "question": "Let $f(x)=x(x-a)(x-6)$ where $0<a<6$. Sketch $y=f(x)$, labelling all $x$-intercepts.",
+   "answer": "The cubic has positive leading coefficient, so it rises from the bottom left, with $x$-intercepts at $0$, $a$ and $6$, crossing the axis at each: positive on $(0,a)$, negative on $(a,6)$, positive for $x>6$.",
+   "answer_images": [
+    "assets/img/adv-2026-knox/q25a_ans.png"
+   ]
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.6.1.4"
+   ],
+   "question": "Let $f(x)=x(x-a)(x-6)$ where $0<a<6$. Sketch the graph of $y=f(-2x)$.",
+   "answer": "$f(-2x)$ is a reflection in the $y$-axis combined with a horizontal dilation by factor $\\frac12$. The $x$-intercepts $0,a,6$ become $0,-\\frac a2,-3$. The shape is the reflection of the original: negative on the far right, positive for $-\\frac a2<x<0$, negative for $-3<x<-\\frac a2$, and positive for $x<-3$.",
+   "answer_images": [
+    "assets/img/adv-2026-knox/q25b_ans.png"
+   ]
+  },
+  {
+   "ref": "Q26",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.11"
+   ],
+   "question": "A water trough has length 1500 cm. Its symmetrical cross-section is shown (Figure 2), with $x$ and $y$ in centimetres. Use the trapezoidal rule with the values below to estimate the trough's capacity. Assume $1\\ \\text{cm}^3=1$ mL.\n\n| $x$ | 0 | 0.4 | 0.8 | 1.2 | 1.6 | 2 |\n|---|---|---|---|---|---|---|\n| $y$ | $-3$ | $-2.943$ | $-2.752$ | $-2.353$ | $-1.572$ | 0 |",
+   "answer": "The depth below the top ($y=0$) is $|y|$. For $0\\le x\\le2$ with $h=0.4$: Area $\\approx\\frac{0.4}2\\left[3+0+2(2.943+2.752+2.353+1.572)\\right]=0.2(22.24)=4.448\\ \\text{cm}^2$. The full cross-section is $2\\times4.448=8.896\\ \\text{cm}^2$. Volume $=8.896\\times1500=13\\,344\\ \\text{cm}^3=13\\,344$ mL ($\\approx13.3$ L).",
+   "images": [
+    "assets/img/adv-2026-knox/q26.png"
+   ]
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.1.3"
+   ],
+   "question": "Michael invests \\$50 000 in an account that earns 8% p.a. compounded annually. He withdraws \\$$M$ at the end of each year, immediately after the interest is paid. How much is in the account immediately after his first withdrawal, in terms of $M$?",
+   "answer": "$A_1=50000(1.08)-M$."
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.1.3"
+   ],
+   "question": "Michael invests \\$50 000 at 8% p.a. compounded annually and withdraws \\$$M$ at the end of each year, immediately after interest is paid. Let $A_n$ be the amount in the account immediately after his $n$th withdrawal. Show that $A_{20}=50000(1.08)^{20}-M\\left[\\dfrac{1.08^{20}-1}{0.08}\\right]$.",
+   "answer": "$A_1=50000(1.08)-M$. $A_2=A_1(1.08)-M=50000(1.08)^2-M(1.08)-M=50000(1.08)^2-M(1+1.08)$. Continuing, $A_n=50000(1.08)^n-M\\left(1+1.08+\\cdots+1.08^{n-1}\\right)$. The bracket is a geometric series with $a=1$, $r=1.08$, so its sum is $\\frac{1.08^n-1}{1.08-1}$. For $n=20$: $A_{20}=50000(1.08)^{20}-M\\left[\\frac{1.08^{20}-1}{0.08}\\right]$."
+  },
+  {
+   "ref": "Q27(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.1.3"
+   ],
+   "question": "Michael invests \\$50 000 at 8% p.a. compounded annually and withdraws \\$$M$ at the end of each year. After the 20th withdrawal, the balance is $A_{20}=50000(1.08)^{20}-M\\left[\\frac{1.08^{20}-1}{0.08}\\right]$. Calculate $M$ so that the account is empty after the 20th withdrawal.",
+   "answer": "Set $A_{20}=0$: $M=\\frac{50000(1.08)^{20}(0.08)}{1.08^{20}-1}\\approx\\$5092.61$."
+  },
+  {
+   "ref": "Q28(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.9.5"
+   ],
+   "question": "Show that $f(x)=\\dfrac x{x^2+1}$ is an odd function.",
+   "answer": "$f(-x)=\\frac{-x}{(-x)^2+1}=-\\frac x{x^2+1}=-f(x)$, so $f$ is odd."
+  },
+  {
+   "ref": "Q28(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.4"
+   ],
+   "question": "For $f(x)=\\dfrac x{x^2+1}$, find any stationary points and determine their nature.",
+   "answer": "$f'(x)=\\frac{(x^2+1)-x(2x)}{(x^2+1)^2}=\\frac{1-x^2}{(x^2+1)^2}=0\\Rightarrow x=\\pm1$. $f(1)=\\frac12$, $f(-1)=-\\frac12$. Since the denominator is positive, the sign of $f'$ is the sign of $1-x^2$: negative for $x<-1$, positive for $-1<x<1$, negative for $x>1$. So $\\left(-1,-\\frac12\\right)$ is a local minimum and $\\left(1,\\frac12\\right)$ is a local maximum."
+  },
+  {
+   "ref": "Q28(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.9"
+   ],
+   "question": "Sketch $y=\\dfrac x{x^2+1}$, showing intercepts, asymptotes and stationary points. (It has a local maximum at $\\left(1,\\frac12\\right)$ and a local minimum at $\\left(-1,-\\frac12\\right)$.)",
+   "answer": "Intercept: $f(0)=0$ is the only intercept (the numerator is zero only at $x=0$). As $x\\to\\pm\\infty$, $f(x)\\to0$, so $y=0$ is a horizontal asymptote (the denominator is never zero, so there are no vertical asymptotes). The curve is odd (symmetric about the origin), rises from $(-1,-\\frac12)$ through the origin to $(1,\\frac12)$, then decays towards the $x$-axis on both sides.",
+   "answer_images": [
+    "assets/img/adv-2026-knox/q28c_ans.png"
+   ]
+  },
+  {
+   "ref": "Q29",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.8.5",
+    "12.3.4.2"
+   ],
+   "question": "The diagram shows part of the curve $C$ with equation $y=2x+\\dfrac8{x^2}-5$, $x>0$. The point $A\\left(4,\\frac72\\right)$ lies on $C$. The line $l$ is the tangent to $C$ at $A$. The shaded region $R$ is bounded by $l$, the curve $C$, the line $x=1$ and the $x$-axis. Find the exact area of $R$.",
+   "answer": "$y'=2-\\frac{16}{x^3}$, so at $x=4$: $m=2-\\frac14=\\frac74$. Tangent: $y-\\frac72=\\frac74(x-4)$, so $y=\\frac74x-\\frac72$, which meets the $x$-axis at $x=2$. The region is the area under $C$ from $x=1$ to $x=4$ minus the area under $l$ from $x=2$ to $x=4$ (a triangle). $\\int_1^4\\left(2x+8x^{-2}-5\\right)dx=\\left[x^2-\\frac8x-5x\\right]_1^4=(16-2-20)-(1-8-5)=6$. Triangle under $l$: $\\frac12(2)\\left(\\frac72\\right)=\\frac72$. Area $=6-\\frac72=\\frac52$ square units.",
+   "images": [
+    "assets/img/adv-2026-knox/q29.png"
+   ]
+  },
+  {
+   "ref": "Q30(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.6"
+   ],
+   "question": "A continuous random variable $X$ has probability density function $f(x)=ke^{-2x}$ for $x\\ge0$ and $0$ otherwise. Given $\\int_0^\\infty ke^{-2x}dx=\\lim_{N\\to\\infty}\\int_0^Nke^{-2x}dx$, show that $k=2$.",
+   "answer": "$\\int_0^Nke^{-2x}dx=\\frac k2\\left(1-e^{-2N}\\right)\\to\\frac k2$ as $N\\to\\infty$. Setting this equal to 1 gives $k=2$."
+  },
+  {
+   "ref": "Q30(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.9"
+   ],
+   "question": "A continuous random variable $X$ has probability density function $f(x)=2e^{-2x}$ for $x\\ge0$ and $0$ otherwise. Find $P(X\\le1)$.",
+   "answer": "$P(X\\le1)=\\int_0^12e^{-2x}dx=\\left[-e^{-2x}\\right]_0^1=1-e^{-2}\\approx0.865$."
+  },
+  {
+   "ref": "Q30(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.11"
+   ],
+   "question": "A continuous random variable $X$ has probability density function $f(x)=2e^{-2x}$ for $x\\ge0$ and $0$ otherwise. Find the median of the distribution.",
+   "answer": "The cumulative distribution function is $F(m)=1-e^{-2m}$. Setting $F(m)=\\frac12$: $e^{-2m}=\\frac12$, so $m=\\frac12\\ln2\\approx0.347$."
+  },
+  {
+   "ref": "Q31(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.2.2.8"
+   ],
+   "question": "The graph of $f(x)=\\sin x$ for $0\\le x\\le\\pi$ passes through $P(0,0)$ and $Q\\left(\\frac{2\\pi}3,\\frac{\\sqrt3}2\\right)$. The point $R(t,\\sin t)$ lies on the curve between $P$ and $Q$, where $0\\le t\\le\\frac{2\\pi}3$. Show that the area $A$ of triangle $PQR$ is $A=\\frac1{12}\\left(4\\pi\\sin t-3\\sqrt3\\,t\\right)$.",
+   "answer": "With $P$ at the origin, $A=\\frac12\\left|x_Qy_R-x_Ry_Q\\right|=\\frac12\\left|\\frac{2\\pi}3\\sin t-\\frac{\\sqrt3}2t\\right|$. $R$ lies above the line $PQ$ so the expression inside is non-negative. $A=\\frac12\\left(\\frac{2\\pi}3\\sin t-\\frac{\\sqrt3}2t\\right)=\\frac\\pi3\\sin t-\\frac{\\sqrt3}4t=\\frac1{12}\\left(4\\pi\\sin t-3\\sqrt3\\,t\\right)$.",
+   "images": [
+    "assets/img/adv-2026-knox/q31.png"
+   ]
+  },
+  {
+   "ref": "Q31(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.4"
+   ],
+   "question": "The area of triangle $PQR$ is $A(t)=\\frac1{12}\\left(4\\pi\\sin t-3\\sqrt3\\,t\\right)$ for $0\\le t\\le\\frac{2\\pi}3$. Find the maximum value of $A$, justifying your answer, correct to two decimal places.",
+   "answer": "$A'(t)=\\frac1{12}\\left(4\\pi\\cos t-3\\sqrt3\\right)=0\\Rightarrow\\cos t=\\frac{3\\sqrt3}{4\\pi}\\approx0.4135$, so $t\\approx1.1445$ (in the domain). $A''(t)=-\\frac\\pi3\\sin t<0$ there, so it is a maximum (also $A(0)=0$ and $A\\left(\\frac{2\\pi}3\\right)=0$ at the end points). $A(1.1445)=\\frac1{12}\\left(4\\pi(0.9105)-3\\sqrt3(1.1445)\\right)\\approx0.46$ square units."
+  },
+  {
+   "ref": "Q32(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "Two arithmetic progressions $A$ and $B$ each have 100 terms $a_i$ and $b_i$. The common difference of $A$ is $d$, a positive integer. Also $a_1=b_{100}=4$ and $b_1=a_{100}$. Given that there is at least one value of $i$ for which $b_i=10+a_i$, show that $i=\\frac{101}2-\\frac5d$.",
+   "answer": "$a_i=4+(i-1)d$ and $a_{100}=4+99d=b_1$. $B$ goes from $b_1=4+99d$ to $b_{100}=4$ in 99 steps, so its common difference is $-d$ and $b_i=4+99d-(i-1)d$. Setting $b_i=10+a_i$: $4+99d-(i-1)d=14+(i-1)d$, so $99d-10=2(i-1)d$, $i-1=\\frac{99}2-\\frac5d$, hence $i=\\frac{101}2-\\frac5d$."
+  },
+  {
+   "ref": "Q32(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.2"
+   ],
+   "question": "For two arithmetic progressions as described, $b_i=10+a_i$ holds when $i=\\frac{101}2-\\frac5d$, where $d$ is a positive integer and $i$ must be an integer with $1\\le i\\le100$. Determine the value(s) of $d$ for which $b_i=10+a_i$ is true.",
+   "answer": "For $i$ to be an integer, $\\frac5d$ must be a half-odd-integer (of the form $k+\\frac12$), so $\\frac5d=\\frac{2k+1}2$ and $d=\\frac{10}{2k+1}$ must be a positive integer. $2k+1$ must be an odd divisor of $10$: $1$ or $5$, giving $d=10$ or $d=2$. Check: $d=10$ gives $i=50.5-0.5=50$; $d=2$ gives $i=50.5-2.5=48$. Both are within $1\\le i\\le100$. So $d=2$ or $d=10$."
+  },
+  {
+   "ref": "Q33(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.9"
+   ],
+   "question": "For a certain constant $p$, the random variables $X$ and $Y$ each have this distribution:\n\n| $x$ | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|\n| $P(X=x)$ | $p$ | $\\frac16p$ | $p^2$ | $\\frac12$ |\n\nDetermine the value of $p$.",
+   "answer": "Probabilities sum to 1: $p+\\frac p6+p^2+\\frac12=1\\Rightarrow p^2+\\frac76p-\\frac12=0\\Rightarrow6p^2+7p-3=0\\Rightarrow(3p-1)(2p+3)=0$. Since $p>0$, $p=\\frac13$."
+  },
+  {
+   "ref": "Q33(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.7.3.4"
+   ],
+   "question": "$X$ and $Y$ are independent, each with $P(1)=\\frac13$, $P(2)=\\frac1{18}$, $P(3)=\\frac19$, $P(4)=\\frac12$. Calculate $P(Y=2X\\mid Y>X)$.",
+   "answer": "Pairs $(x,y)$ with $y>x$: $(1,2),(1,3),(1,4),(2,3),(2,4),(3,4)$ with probabilities $\\frac1{54},\\frac1{27},\\frac16,\\frac1{162},\\frac1{36},\\frac1{18}$, which sum to $\\frac{101}{324}$. Those with $y=2x$ are $(1,2)$ and $(2,4)$: $\\frac1{54}+\\frac1{36}=\\frac5{108}$. $P=\\frac{5/108}{101/324}=\\frac{15}{101}\\approx0.149$."
+  }
+ ]
+}
