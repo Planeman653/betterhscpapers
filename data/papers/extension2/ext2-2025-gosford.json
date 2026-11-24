@@ -1,0 +1,640 @@
+{
+ "id": "ext2-2025-gosford",
+ "course": "extension2",
+ "school": "Gosford",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "Gosford 2025 w. sol"
+ },
+ "indexed": "2026-11-25",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.6",
+    "12.3.1.7"
+   ],
+   "question": "Which of the following statements is a correct interpretation of '$\\forall a\\in\\mathbb{Z},\\ \\exists b\\in\\mathbb{Z}$ such that $\\dfrac{a}{b}\\in\\mathbb{Z}$'?",
+   "answer": "For every integer $a$ there is an integer $b$ (e.g. $b=1$) that divides $a$, i.e. every integer has an integer factor (D).",
+   "options": [
+    "Every integer is also a rational number",
+    "There exists a rational number that corresponds to each pair of integers",
+    "Every rational number is also an integer",
+    "Every integer has an integer factor"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.8"
+   ],
+   "question": "Which of the following is a unit vector in the opposite direction to $-\\underset{\\sim}{i}+2\\underset{\\sim}{j}-2\\underset{\\sim}{k}$?",
+   "answer": "$|-\\mathbf{i}+2\\mathbf{j}-2\\mathbf{k}|=\\sqrt{1+4+4}=3$. The opposite direction is $\\mathbf{i}-2\\mathbf{j}+2\\mathbf{k}$, so the unit vector is $\\dfrac13(\\mathbf{i}-2\\mathbf{j}+2\\mathbf{k})$ (C).",
+   "course": "extension1",
+   "options": [
+    "$\\dfrac{1}{\\sqrt5}\\left(-\\underset{\\sim}{i}+2\\underset{\\sim}{j}-2\\underset{\\sim}{k}\\right)$",
+    "$\\dfrac{1}{\\sqrt5}\\left(\\underset{\\sim}{i}-2\\underset{\\sim}{j}+2\\underset{\\sim}{k}\\right)$",
+    "$\\dfrac{1}{3}\\left(\\underset{\\sim}{i}-2\\underset{\\sim}{j}+2\\underset{\\sim}{k}\\right)$",
+    "$\\dfrac{1}{3}\\left(-\\underset{\\sim}{i}+2\\underset{\\sim}{j}-2\\underset{\\sim}{k}\\right)$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Which of the following is a primitive of $x\\sin(x)$?",
+   "answer": "By parts with $u=x,\\ v'=\\sin x$: $\\int x\\sin x\\,dx=-x\\cos x+\\int\\cos x\\,dx=\\sin x-x\\cos x$ (A).",
+   "options": [
+    "$\\sin(x)-x\\cos(x)$",
+    "$x\\cos(x)-\\sin(x)$",
+    "$-x\\cos(x)-\\sin(x)$",
+    "$x\\cos(x)+\\sin(x)$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.19"
+   ],
+   "question": "What is the Cartesian equation of the curve defined by $\\mathbf{r}(t)=\\begin{pmatrix}\\sin t\\\\ \\cos t\\\\ \\cos(2t)\\end{pmatrix}$?",
+   "answer": "$x=\\sin t,\\ y=\\cos t$ and $z=\\cos 2t=\\cos^2t-\\sin^2t=y^2-x^2$ (A). *Note: on this curve $x^2+y^2=1$, so $z=1-2x^2$ and $z=2y^2-1$ are also satisfied by every point of the curve; the paper's intended answer is A, which comes directly from $\\cos 2t=\\cos^2t-\\sin^2t$.*",
+   "options": [
+    "$z=y^2-x^2$",
+    "$z=1-2x^2$",
+    "$x^2+y^2=1$",
+    "$z=2y^2-1$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.4"
+   ],
+   "question": "Which of the following defines the locus of the complex number $z$ sketched in the diagram below?",
+   "answer": "The locus is the line through $i$ and $1+2i$ with the segment between these two points removed (open circles). $z-i$ and $z-(1+2i)$ point in the same direction exactly when $z$ is on that line outside the segment, so $\\arg(z-i)=\\arg(z-(1+2i))$ (C). Options A and B give the open segment between the two points ($\\arg=\\pi$ means opposite directions).",
+   "options": [
+    "$\\arg\\left(\\dfrac{z-(1+2i)}{z-i}\\right)=\\pi$",
+    "$\\arg\\left(\\dfrac{z-i}{z-(1+2i)}\\right)=\\pi$",
+    "$\\arg(z-i)=\\arg(z-(1+2i))$",
+    "$\\arg(z+i)=\\arg(z-(1+2i))$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/ext2-2025-gosford/q5.png"
+   ]
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.7"
+   ],
+   "question": "Which of the following statements is the negation of '$\\forall x,y\\in\\mathbb{R},\\ xy\\le 9\\Rightarrow x\\le 3$ or $y\\le 3$'?",
+   "answer": "$\\neg(\\forall,\\ P\\Rightarrow Q)$ is $\\exists,\\ P\\wedge\\neg Q$. Here $P$ is $xy\\le9$ and $\\neg Q$ is $x>3$ and $y>3$, so the negation is: there exist $x,y$ with $x>3$ and $y>3$ such that $xy\\le 9$ (D).",
+   "options": [
+    "$\\forall x,y\\in\\mathbb{R},\\ x\\le3$ or $y\\le3\\ \\Rightarrow\\ xy\\le9$",
+    "$\\forall x,y\\in\\mathbb{R},\\ x>3$ and $y>3\\ \\Rightarrow\\ xy>9$",
+    "$\\exists x,y\\in\\mathbb{R}$ with $x>3$ or $y>3$ such that $xy\\le 9$",
+    "$\\exists x,y\\in\\mathbb{R}$ with $x>3$ and $y>3$ such that $xy\\le 9$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.11",
+    "12.3.2.8"
+   ],
+   "question": "The points $A$, $B$, $C$ and $D$ on the Argand diagram below represent the complex numbers $a$, $b$, $c$ and $d$ respectively. The angle $\\theta$ is the acute angle between $AC$ and $BD$. Which of the following is a correct expression for $\\theta$?",
+   "answer": "$c-a$ represents $\\overrightarrow{AC}$ and $d-b$ represents $\\overrightarrow{BD}$. The angle from $\\overrightarrow{BD}$ to $\\overrightarrow{AC}$ is $\\arg(c-a)-\\arg(d-b)=\\arg\\left(\\dfrac{c-a}{d-b}\\right)$, which is the acute angle $\\theta$ shown (C).",
+   "options": [
+    "$\\theta=\\arg\\left(\\dfrac{c-d}{a-b}\\right)$",
+    "$\\theta=\\arg\\left(\\dfrac{a-b}{c-d}\\right)$",
+    "$\\theta=\\arg\\left(\\dfrac{c-a}{d-b}\\right)$",
+    "$\\theta=\\arg\\left(\\dfrac{d-b}{c-a}\\right)$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/ext2-2025-gosford/q7.png"
+   ]
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "If $\\dfrac{dy}{dx}=(1+\\ln x)\\,y$ and when $x=1,\\ y=1$, then $y=$?",
+   "answer": "Separate: $\\int\\dfrac{dy}{y}=\\int(1+\\ln x)\\,dx$, so $\\ln y=x\\ln x+C$ (since $\\int(1+\\ln x)dx=x\\ln x$). At $(1,1)$: $0=0+C$, so $C=0$ and $y=e^{x\\ln x}$ (A).",
+   "course": "extension1",
+   "options": [
+    "$e^{x\\ln x}$",
+    "$1+\\ln x$",
+    "$e^{2x+x\\ln x-2}$",
+    "$e^{\\frac{x^2-1}{x^2}}$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.14"
+   ],
+   "question": "Which of the following could be the parametric representation of the curve below?",
+   "answer": "The curve is a circular helix of radius 1 about the $z$-axis, so $x^2+y^2=1$ (rules out A and B). One full turn takes the $z$-coordinate through about $2\\pi\\approx 6.3$ units, so $z=t$ rather than $z=2t$. Hence $x=\\sin t,\\ y=\\cos t,\\ z=t$ (C).",
+   "options": [
+    "$x=t^2,\\ y=t,\\ z=1$",
+    "$x=\\sin t,\\ y=\\cos(2t),\\ z=t$",
+    "$x=\\sin t,\\ y=\\cos t,\\ z=t$",
+    "$x=\\sin t,\\ y=\\cos t,\\ z=2t$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/ext2-2025-gosford/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.3",
+    "12.3.4.9"
+   ],
+   "question": "Consider the complex number $z$ such that $|z-z_1|=\\sqrt5$ where $z_1=\\dfrac{7+4i}{3-2i}$. The largest possible value for $|z|$ is",
+   "answer": "$z_1=\\dfrac{(7+4i)(3+2i)}{13}=\\dfrac{13+26i}{13}=1+2i$, so $|z_1|=\\sqrt5$. $z$ lies on a circle of radius $\\sqrt5$ centred at $z_1$, so the greatest $|z|$ is $|z_1|+\\sqrt5=2\\sqrt5$ (A).",
+   "options": [
+    "$2\\sqrt5$",
+    "$\\sqrt5$",
+    "$\\sqrt{\\dfrac{11}{5}}$",
+    "$\\sqrt{65}$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.10",
+    "12.3.1.12"
+   ],
+   "question": "Given that $z=\\sqrt3-i$, find $z-\\bar z$.",
+   "answer": "$z-\\bar z=2i\\,\\text{Im}(z)\\ $, so $z-\\bar z=(\\sqrt3-i)-(\\sqrt3+i)=-2i$."
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.13"
+   ],
+   "question": "Given that $z=\\sqrt3-i$, find $z^{-1}$.",
+   "answer": "$z^{-1}=\\dfrac{1}{\\sqrt3-i}\\times\\dfrac{\\sqrt3+i}{\\sqrt3+i}=\\dfrac{\\sqrt3+i}{3+1}=\\dfrac14\\left(\\sqrt3+i\\right)$."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.2"
+   ],
+   "question": "Prove or disprove the statement: '$3^n+2$ is prime for all integers $n\\ge0$'.",
+   "answer": "The statement is false. Counterexample: $n=5$ gives $3^5+2=243+2=245=5\\times49$, which is not prime. Hence the statement is disproved by counterexample."
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Find $\\displaystyle\\int 3x^2\\tan^{-1}(x^3)\\,dx$.",
+   "answer": "By parts with $u=\\tan^{-1}(x^3)$, $v'=3x^2$, so $u'=\\dfrac{3x^2}{1+x^6}$ and $v=x^3$:\n\n$$\\int3x^2\\tan^{-1}(x^3)\\,dx=x^3\\tan^{-1}(x^3)-\\int\\frac{3x^5}{1+x^6}\\,dx=x^3\\tan^{-1}(x^3)-\\frac12\\ln(1+x^6)+C.$$"
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.14"
+   ],
+   "question": "Determine the square roots of $-15+8i$. Show all relevant working.",
+   "answer": "Let $(a+bi)^2=-15+8i$ with $a,b$ real. Then $a^2-b^2=-15$ and $2ab=8$, so $ab=4$. By inspection $a=\\pm1,\\ b=\\pm4$ (with $ab=4>0$ so the signs match): check $1-16=-15$. Hence $\\sqrt{-15+8i}=\\pm(1+4i)$."
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "For two vectors $\\mathbf{m}$ and $\\mathbf{p}$ it is known that $|\\mathbf{m}|=5$, $|\\mathbf{p}|=3$ and $\\mathbf{m}\\cdot\\mathbf{p}=9$. Find $|\\mathbf{m}-\\mathbf{p}|$.",
+   "answer": "$|\\mathbf{m}-\\mathbf{p}|^2=(\\mathbf{m}-\\mathbf{p})\\cdot(\\mathbf{m}-\\mathbf{p})=|\\mathbf{m}|^2-2\\,\\mathbf{m}\\cdot\\mathbf{p}+|\\mathbf{p}|^2=25-18+9=16$. Hence $|\\mathbf{m}-\\mathbf{p}|=4$."
+  },
+  {
+   "ref": "Q11(f)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.8",
+    "12.4.1.7"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_1^2\\frac{1}{x^2(x+2)}\\,dx$.",
+   "answer": "Partial fractions: $\\dfrac{1}{x^2(x+2)}\\equiv\\dfrac{A}{x^2}+\\dfrac{B}{x}+\\dfrac{C}{x+2}$, so $A(x+2)+Bx(x+2)+Cx^2\\equiv1$. Put $x=0$: $A=\\tfrac12$; $x=-2$: $C=\\tfrac14$; $x=-1$: $\\tfrac12-B+\\tfrac14=1$, so $B=-\\tfrac14$.\n\n$$\\int_1^2\\left(\\frac{1}{2x^2}-\\frac{1}{4x}+\\frac{1}{4(x+2)}\\right)dx=\\left[-\\frac{1}{2x}+\\frac14\\ln\\left|\\frac{x+2}{x}\\right|\\right]_1^2=\\left(-\\frac14+\\frac14\\ln2\\right)-\\left(-\\frac12+\\frac14\\ln3\\right)=\\frac14+\\frac14\\ln\\frac23.$$"
+  },
+  {
+   "ref": "Q11(g)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "Prove by contradiction that there are no integers $a,b$ such that $25a+15b=1$.",
+   "answer": "Suppose there are integers $a,b$ with $25a+15b=1$. Then $5(5a+3b)=1$, where $5a+3b$ is an integer, so $5$ divides $1$. This is a contradiction (since $5\\nmid1$). Hence no such integers exist."
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.5.5"
+   ],
+   "question": "Represent $z$ on an Argand diagram, where $\\dfrac{\\pi}{3}\\le\\arg(z)\\le\\dfrac{\\pi}{2}$.",
+   "answer": "This is the region between the ray from the origin at angle $\\frac{\\pi}{3}$ to the positive real axis and the positive imaginary axis, including both rays (origin excluded, as $\\arg 0$ is undefined). See diagram.",
+   "answer_images": [
+    "assets/img/ext2-2025-gosford/q12a-sol.png"
+   ]
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.11"
+   ],
+   "question": "Find values of $A$ and $B$ such that $A(\\cos x+\\sin x)+B(\\cos x-\\sin x)\\equiv4\\sin x$.",
+   "answer": "$(A+B)\\cos x+(A-B)\\sin x\\equiv4\\sin x$. Equating coefficients: $A+B=0$ and $A-B=4$, so $A=2,\\ B=-2$."
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.11",
+    "12.4.1.15"
+   ],
+   "question": "Given that $2(\\cos x+\\sin x)-2(\\cos x-\\sin x)\\equiv4\\sin x$, find $\\displaystyle\\int_0^{\\pi/4}\\frac{4\\sin x}{\\cos x+\\sin x}\\,dx$.",
+   "answer": "$$\\int_0^{\\pi/4}\\frac{4\\sin x}{\\cos x+\\sin x}dx=\\int_0^{\\pi/4}\\left(2-2\\cdot\\frac{\\cos x-\\sin x}{\\cos x+\\sin x}\\right)dx=\\Big[2x-2\\ln|\\cos x+\\sin x|\\Big]_0^{\\pi/4}$$\n\n$$=\\left(\\frac\\pi2-2\\ln\\sqrt2\\right)-\\left(0-2\\ln1\\right)=\\frac{\\pi}{2}-\\ln2.$$"
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.13",
+    "12.3.1.8"
+   ],
+   "question": "If $\\dfrac{3+2i\\sin\\theta}{1-2i\\sin\\theta}$ is purely imaginary, find $\\theta$ where $-\\pi<\\theta\\le\\pi$.",
+   "answer": "$$\\frac{3+2i\\sin\\theta}{1-2i\\sin\\theta}\\times\\frac{1+2i\\sin\\theta}{1+2i\\sin\\theta}=\\frac{3-4\\sin^2\\theta+8i\\sin\\theta}{1+4\\sin^2\\theta}.$$\n\nPurely imaginary means the real part is zero: $3-4\\sin^2\\theta=0$, so $\\sin\\theta=\\pm\\dfrac{\\sqrt3}{2}$ (the imaginary part $8\\sin\\theta\\neq0$, so this is valid). Hence $\\theta=\\pm\\dfrac\\pi3,\\ \\pm\\dfrac{2\\pi}{3}$."
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "Prove that $2^{2n}-1$ is divisible by $3$ for all positive integers $n$.",
+   "answer": "$2^{2n}-1=(2^n-1)(2^n+1)$. The integers $2^n-1,\\ 2^n,\\ 2^n+1$ are three consecutive integers, so one of them is divisible by $3$. Since $2^n$ is not divisible by $3$, either $2^n-1$ or $2^n+1$ is. Hence the product $(2^n-1)(2^n+1)=2^{2n}-1$ is divisible by $3$."
+  },
+  {
+   "ref": "Q12(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.10"
+   ],
+   "question": "Find the point of intersection of the lines $\\mathbf{r}=\\begin{pmatrix}0\\\\3\\\\-5\\end{pmatrix}+\\lambda\\begin{pmatrix}-1\\\\1\\\\2\\end{pmatrix}$ and $\\mathbf{p}=\\begin{pmatrix}-1\\\\2\\\\3\\end{pmatrix}+\\mu\\begin{pmatrix}-1\\\\2\\\\-1\\end{pmatrix}$.",
+   "answer": "Equate components:\n\n$x$: $-\\lambda=-1-\\mu\\Rightarrow\\mu-\\lambda=-1$ ①\n\n$y$: $3+\\lambda=2+2\\mu\\Rightarrow2\\mu-\\lambda=1$ ②\n\n$z$: $-5+2\\lambda=3-\\mu\\Rightarrow\\mu+2\\lambda=8$ ③\n\n② − ①: $\\mu=2$, so $\\lambda=3$. Check in ③: $2+2(3)=8$ ✓. Substituting $\\lambda=3$ into $\\mathbf{r}$: the point of intersection is $\\begin{pmatrix}-3\\\\6\\\\1\\end{pmatrix}$, i.e. $(-3,6,1)$."
+  },
+  {
+   "ref": "Q12(f)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.5"
+   ],
+   "question": "Consider the sequence defined by the recurrence relation $t_n=2t_{n-1}+3$ for $n\\ge2$, where $t_1=3$. Prove by mathematical induction that $t_n=3\\times2^n-3$ for $n\\ge1$.",
+   "answer": "**Base case** $n=1$: $3\\times2^1-3=3=t_1$ ✓.\n\n**Assume** $t_k=3\\times2^k-3$ for some integer $k\\ge1$. **Prove** $t_{k+1}=3\\times2^{k+1}-3$.\n\n$$t_{k+1}=2t_k+3=2(3\\times2^k-3)+3=3\\times2^{k+1}-6+3=3\\times2^{k+1}-3.$$\n\nSo the statement is true for $n=k+1$ whenever it is true for $n=k$. By mathematical induction it is true for all integers $n\\ge1$."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.10"
+   ],
+   "question": "The point $P(2,3)$ represents the complex number $2+3i$ on the Argand diagram. The line segment $OP$ is rotated anticlockwise about the origin by $60^\\circ$ to the location of point $Q$. Determine the coordinates of point $Q$.",
+   "answer": "Rotating anticlockwise by $\\frac\\pi3$ about the origin is multiplication by $\\text{cis}\\frac\\pi3$:\n\n$$(2+3i)\\left(\\frac12+\\frac{\\sqrt3}{2}i\\right)=1+\\sqrt3i+\\frac32i-\\frac{3\\sqrt3}{2}=\\left(1-\\frac{3\\sqrt3}{2}\\right)+\\left(\\frac32+\\sqrt3\\right)i.$$\n\nSo $Q=\\left(1-\\dfrac{3\\sqrt3}{2},\\ \\dfrac32+\\sqrt3\\right)$."
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.4"
+   ],
+   "question": "Relative to a fixed origin $O$, the points $A$, $B$ and $D$ have position vectors $(2\\mathbf i-\\mathbf j+5\\mathbf k)$, $(5\\mathbf i+2\\mathbf j+10\\mathbf k)$ and $(-\\mathbf i+\\mathbf j+4\\mathbf k)$ respectively. The line $l$ passes through the points $A$ and $B$. Find the vector equation of line $l$.",
+   "answer": "Direction $\\overrightarrow{AB}=\\begin{pmatrix}5-2\\\\2+1\\\\10-5\\end{pmatrix}=\\begin{pmatrix}3\\\\3\\\\5\\end{pmatrix}$, so $l:\\ \\mathbf r=\\begin{pmatrix}2\\\\-1\\\\5\\end{pmatrix}+\\lambda\\begin{pmatrix}3\\\\3\\\\5\\end{pmatrix}$."
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "Relative to a fixed origin $O$, the points $A$, $B$ and $D$ have position vectors $(2\\mathbf i-\\mathbf j+5\\mathbf k)$, $(5\\mathbf i+2\\mathbf j+10\\mathbf k)$ and $(-\\mathbf i+\\mathbf j+4\\mathbf k)$ respectively. The points $A,B,C,D$ form a parallelogram when joined in the given order. Find the position vector of point $C$.",
+   "answer": "In parallelogram $ABCD$, $\\overrightarrow{DC}=\\overrightarrow{AB}$, so $\\overrightarrow{OC}-\\overrightarrow{OD}=\\overrightarrow{OB}-\\overrightarrow{OA}$. Let $C=(x,y,z)$:\n\n$$\\begin{pmatrix}x+1\\\\y-1\\\\z-4\\end{pmatrix}=\\begin{pmatrix}3\\\\3\\\\5\\end{pmatrix}\\ \\Rightarrow\\ \\overrightarrow{OC}=\\begin{pmatrix}2\\\\4\\\\9\\end{pmatrix}.$$"
+  },
+  {
+   "ref": "Q13(b)(iii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.2.1"
+   ],
+   "question": "Relative to a fixed origin $O$, the points $A$, $B$, $C$ and $D$ have position vectors $A(2,-1,5)$, $B(5,2,10)$, $C(2,4,9)$ and $D(-1,1,4)$, and $ABCD$ is a parallelogram. Determine the area of the parallelogram $ABCD$, correct to 3 significant figures.",
+   "answer": "Use the sides at $D$: $\\overrightarrow{DA}=\\begin{pmatrix}3\\\\-2\\\\1\\end{pmatrix}$, $\\overrightarrow{DC}=\\begin{pmatrix}3\\\\3\\\\5\\end{pmatrix}$. $|\\overrightarrow{DA}|=\\sqrt{14}$, $|\\overrightarrow{DC}|=\\sqrt{43}$ and $\\overrightarrow{DA}\\cdot\\overrightarrow{DC}=9-6+5=8$.\n\n$$\\cos\\theta=\\frac{8}{\\sqrt{14}\\sqrt{43}}\\ \\Rightarrow\\ \\sin\\theta=\\frac{\\sqrt{602-64}}{\\sqrt{14}\\sqrt{43}}=\\frac{\\sqrt{538}}{\\sqrt{14}\\sqrt{43}}.$$\n\n$$\\text{Area}=|\\overrightarrow{DA}||\\overrightarrow{DC}|\\sin\\theta=\\sqrt{538}\\approx23.2\\text{ square units}.$$"
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^{\\pi/3}\\cos^5x\\,dx$.",
+   "answer": "$\\cos^5x=\\cos x(1-\\sin^2x)^2=\\cos x-2\\cos x\\sin^2x+\\cos x\\sin^4x$, so\n\n$$\\int_0^{\\pi/3}\\cos^5x\\,dx=\\left[\\sin x-\\frac{2\\sin^3x}{3}+\\frac{\\sin^5x}{5}\\right]_0^{\\pi/3}=\\frac{\\sqrt3}{2}-\\frac23\\cdot\\frac{3\\sqrt3}{8}+\\frac15\\cdot\\frac{9\\sqrt3}{32}=\\frac{49\\sqrt3}{160}.$$"
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.5",
+    "12.1.3.6"
+   ],
+   "question": "If $a,b>0$ and $a+b=1$, prove that the minimum value of $\\dfrac1a+\\dfrac1b$ is $4$.",
+   "answer": "$\\dfrac1a+\\dfrac1b=\\dfrac{a+b}{ab}=\\dfrac{1}{ab}$. By the AM–GM inequality, $\\sqrt{ab}\\le\\dfrac{a+b}{2}=\\dfrac12$, so $ab\\le\\dfrac14$ and hence $\\dfrac1a+\\dfrac1b=\\dfrac1{ab}\\ge4$. Equality holds when $a=b=\\dfrac12$, where $\\dfrac1a+\\dfrac1b=2+2=4$. So the minimum value is $4$."
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.5"
+   ],
+   "question": "Solve $z^5+1=0$.",
+   "answer": "$z^5=-1=\\text{cis}(\\pi+2k\\pi)$, so $z=\\text{cis}\\left(\\dfrac{\\pi+2k\\pi}{5}\\right)$: $z=-1,\\ \\text{cis}\\left(\\pm\\dfrac\\pi5\\right),\\ \\text{cis}\\left(\\pm\\dfrac{3\\pi}{5}\\right)$."
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.12",
+    "12.3.3.2"
+   ],
+   "question": "The solutions of $z^5+1=0$ are $z=-1,\\ \\text{cis}\\left(\\pm\\dfrac\\pi5\\right),\\ \\text{cis}\\left(\\pm\\dfrac{3\\pi}{5}\\right)$. Hence express $z^5+1$ as a product of real linear and quadratic factors.",
+   "answer": "$z^5+1=(z+1)\\left(z-\\text{cis}\\frac\\pi5\\right)\\left(z-\\text{cis}\\left(-\\frac\\pi5\\right)\\right)\\left(z-\\text{cis}\\frac{3\\pi}5\\right)\\left(z-\\text{cis}\\left(-\\frac{3\\pi}5\\right)\\right)$. Pair each conjugate pair: $\\left(z-\\text{cis}\\,\\alpha\\right)\\left(z-\\text{cis}(-\\alpha)\\right)=z^2-2\\cos\\alpha\\,z+1$. Hence\n\n$$z^5+1=(z+1)\\left(z^2-2\\cos\\frac\\pi5\\,z+1\\right)\\left(z^2-2\\cos\\frac{3\\pi}5\\,z+1\\right).$$"
+  },
+  {
+   "ref": "Q14(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.12"
+   ],
+   "question": "Given that $z^5+1=(z+1)\\left(z^2-2\\cos\\frac\\pi5\\,z+1\\right)\\left(z^2-2\\cos\\frac{3\\pi}5\\,z+1\\right)$, deduce that $4\\sin\\left(\\dfrac\\pi{10}\\right)\\cos\\left(\\dfrac\\pi5\\right)=1$.",
+   "answer": "Let $c_1=\\cos\\frac\\pi5$ and $c_3=\\cos\\frac{3\\pi}5$. $(z^2-2c_1z+1)(z^2-2c_3z+1)=z^4-2(c_1+c_3)z^3+(2+4c_1c_3)z^2-2(c_1+c_3)z+1$. Write this as $z^4+az^3+bz^2+az+1$ with $a=-2(c_1+c_3)$, $b=2+4c_1c_3$. Then\n\n$$(z+1)(z^4+az^3+bz^2+az+1)=z^5+(a+1)z^4+(a+b)z^3+(a+b)z^2+(a+1)z+1.$$\n\nComparing with $z^5+1$: $a+b=0$ and $a+1=0$, so $a=-1$, $b=1$. Then $2+4c_1c_3=1$, so $\\cos\\frac\\pi5\\cos\\frac{3\\pi}5=-\\frac14$. Now $\\cos\\frac{3\\pi}5=\\cos\\left(\\frac\\pi2+\\frac\\pi{10}\\right)=-\\sin\\frac\\pi{10}$, so $-\\cos\\frac\\pi5\\sin\\frac\\pi{10}=-\\frac14$, i.e. $4\\sin\\frac\\pi{10}\\cos\\frac\\pi5=1$."
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.10",
+    "12.4.1.9"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{x^3}{x^2+2x+5}\\,dx$.",
+   "answer": "Divide: $x^3=(x-2)(x^2+2x+5)+(-x+10)$, so $\\dfrac{x^3}{x^2+2x+5}=x-2+\\dfrac{-x+10}{x^2+2x+5}$. Write $-x+10=-\\tfrac12(2x+2)+11$:\n\n$$\\int\\left(x-2-\\frac12\\cdot\\frac{2x+2}{x^2+2x+5}+\\frac{11}{(x+1)^2+2^2}\\right)dx=\\frac{x^2}{2}-2x-\\frac12\\ln\\left(x^2+2x+5\\right)+\\frac{11}{2}\\tan^{-1}\\left(\\frac{x+1}{2}\\right)+C.$$"
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.4.2"
+   ],
+   "question": "For positive $a$ and $b$, show by mathematical induction that $\\left(\\dfrac{a+b}{2}\\right)^n\\le\\dfrac{a^n+b^n}{2}$ for all positive integers $n$.",
+   "answer": "**Base case** $n=1$: both sides equal $\\dfrac{a+b}{2}$ ✓.\n\n**Assume** $\\left(\\dfrac{a+b}2\\right)^k\\le\\dfrac{a^k+b^k}2$ for some $k\\ge1$. **Prove** $\\left(\\dfrac{a+b}2\\right)^{k+1}\\le\\dfrac{a^{k+1}+b^{k+1}}2$.\n\nUsing the assumption (and $\\frac{a+b}2>0$):\n\n$$\\left(\\frac{a+b}2\\right)^{k+1}=\\frac{a+b}2\\left(\\frac{a+b}2\\right)^k\\le\\frac{a+b}{2}\\cdot\\frac{a^k+b^k}{2}=\\frac{a^{k+1}+b^{k+1}+ab^k+a^kb}{4}.$$\n\n$$\\frac{a^{k+1}+b^{k+1}}2-\\frac{a^{k+1}+b^{k+1}+ab^k+a^kb}{4}=\\frac{a^{k+1}+b^{k+1}-ab^k-a^kb}{4}=\\frac{(a-b)(a^k-b^k)}{4}\\ge0,$$\n\nsince $a-b$ and $a^k-b^k$ always have the same sign (or are both $0$) for positive $a,b$. Hence $\\left(\\frac{a+b}2\\right)^{k+1}\\le\\frac{a^{k+1}+b^{k+1}}{2}$. By mathematical induction the result holds for all positive integers $n$."
+  },
+  {
+   "ref": "Q14(d)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.5.3",
+    "12.3.2.7"
+   ],
+   "question": "Sketch the locus of $w$ if $w=\\dfrac{z-1}{z}$, given that $|z|=2$.",
+   "answer": "$w=1-\\dfrac1z$, so $w-1=-\\dfrac1z$ and $|w-1|=\\dfrac{1}{|z|}=\\dfrac12$. (Alternatively $zw=z-1\\Rightarrow z=\\dfrac{1}{1-w}$, so $2=\\dfrac1{|1-w|}$.) Hence the locus of $w$ is the circle $|w-1|=\\dfrac12$: centre $1+0i$, radius $\\dfrac12$.",
+   "answer_images": [
+    "assets/img/ext2-2025-gosford/q14d-sol.png"
+   ]
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "By considering a suitable trigonometric substitution, or otherwise, find $\\displaystyle\\int\\frac{9}{(9-x^2)^{3/2}}\\,dx$.",
+   "answer": "Let $x=3\\sin\\theta$, $dx=3\\cos\\theta\\,d\\theta$:\n\n$$\\int\\frac{9\\cdot3\\cos\\theta}{(9\\cos^2\\theta)^{3/2}}d\\theta=\\int\\frac{27\\cos\\theta}{27\\cos^3\\theta}d\\theta=\\int\\sec^2\\theta\\,d\\theta=\\tan\\theta+C.$$\n\nWith $\\sin\\theta=\\frac x3$ the third side is $\\sqrt{9-x^2}$, so $\\tan\\theta=\\dfrac{x}{\\sqrt{9-x^2}}$. Hence $\\displaystyle\\int\\frac{9}{(9-x^2)^{3/2}}dx=\\frac{x}{\\sqrt{9-x^2}}+C$."
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.2",
+    "12.1.3.6"
+   ],
+   "question": "For positive $x$, $y$ and $z$, prove that $x+y+z+\\dfrac1{4x}+\\dfrac1{4y}+\\dfrac1{4z}\\ge3$.",
+   "answer": "For $a>0$, $\\left(\\sqrt a-\\dfrac1{2\\sqrt a}\\right)^2\\ge0$, so $a-1+\\dfrac1{4a}\\ge0$, i.e. $a+\\dfrac1{4a}\\ge1$. Apply this to $x$, $y$, $z$ (all positive):\n\n$$x+\\frac1{4x}\\ge1,\\qquad y+\\frac1{4y}\\ge1,\\qquad z+\\frac1{4z}\\ge1.$$\n\nAdding: $x+y+z+\\dfrac1{4x}+\\dfrac1{4y}+\\dfrac1{4z}\\ge3$."
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "If $I_n=\\displaystyle\\int_0^1(1-x^2)^{n/2}\\,dx$, show that $I_n=\\dfrac{n}{n+1}I_{n-2}$.",
+   "answer": "By parts with $u=(1-x^2)^{n/2}$, $v'=1$: $u'=-nx(1-x^2)^{\\frac{n-2}2}$, $v=x$.\n\n$$I_n=\\Big[x(1-x^2)^{n/2}\\Big]_0^1+n\\int_0^1x^2(1-x^2)^{\\frac{n-2}2}dx=0+n\\int_0^1\\left(1-(1-x^2)\\right)(1-x^2)^{\\frac{n-2}2}dx$$\n\n$$=n\\int_0^1\\left[(1-x^2)^{\\frac{n-2}2}-(1-x^2)^{\\frac n2}\\right]dx=n(I_{n-2}-I_n).$$\n\nSo $(n+1)I_n=nI_{n-2}$, i.e. $I_n=\\dfrac{n}{n+1}I_{n-2}$."
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "If $I_n=\\displaystyle\\int_0^1(1-x^2)^{n/2}\\,dx$ and $I_n=\\dfrac{n}{n+1}I_{n-2}$, evaluate $I_5$.",
+   "answer": "$I_5=\\dfrac56I_3=\\dfrac56\\cdot\\dfrac34I_1$. Now $I_1=\\displaystyle\\int_0^1\\sqrt{1-x^2}\\,dx$ is the area of a quarter of the unit circle, $\\dfrac{\\pi}{4}$. Hence $I_5=\\dfrac56\\cdot\\dfrac34\\cdot\\dfrac\\pi4=\\dfrac{5\\pi}{32}$."
+  },
+  {
+   "ref": "Q16(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "Show that $\\sin x>\\dfrac{2x}{\\pi}$ for $0<x<\\dfrac\\pi2$.",
+   "answer": "Let $f(x)=\\sin x-\\dfrac{2x}{\\pi}$ on $\\left[0,\\frac\\pi2\\right]$. Then $f(0)=0$ and $f\\left(\\frac\\pi2\\right)=1-1=0$. Also $f''(x)=-\\sin x<0$ on $\\left(0,\\frac\\pi2\\right)$, so $f$ is concave down there. A concave-down function lies above the chord joining its end points, which here is the $x$-axis, so $f(x)>0$, i.e. $\\sin x>\\dfrac{2x}{\\pi}$ for $0<x<\\frac\\pi2$. (Equivalently: the graph of $y=\\sin x$ is concave down and meets the line $y=\\frac{2x}\\pi$ only at $x=0$ and $x=\\frac\\pi2$.)"
+  },
+  {
+   "ref": "Q16(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.9",
+    "12.4.1.15"
+   ],
+   "question": "Given that $\\sin x>\\dfrac{2x}{\\pi}$ for $0<x<\\dfrac\\pi2$, explain why $\\displaystyle\\int_0^{\\pi/2}e^{-\\sin x}\\,dx<\\int_0^{\\pi/2}e^{-\\frac{2x}{\\pi}}\\,dx$.",
+   "answer": "For $0<x<\\frac\\pi2$, $-\\sin x<-\\frac{2x}\\pi$, and $e^t$ is an increasing function, so $e^{-\\sin x}<e^{-2x/\\pi}$ on the interval. Since the integrand on the left is strictly less than that on the right throughout the interval, the integral on the left is less than the integral on the right."
+  },
+  {
+   "ref": "Q16(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Show that $\\displaystyle\\int_{\\pi/2}^{\\pi}e^{-\\sin x}\\,dx=\\int_0^{\\pi/2}e^{-\\sin x}\\,dx$.",
+   "answer": "Let $u=\\pi-x$, $du=-dx$; when $x=\\frac\\pi2,\\ u=\\frac\\pi2$ and when $x=\\pi,\\ u=0$. Since $\\sin(\\pi-u)=\\sin u$:\n\n$$\\int_{\\pi/2}^{\\pi}e^{-\\sin x}dx=\\int_{\\pi/2}^{0}e^{-\\sin u}(-du)=\\int_0^{\\pi/2}e^{-\\sin u}du=\\int_0^{\\pi/2}e^{-\\sin x}dx.$$"
+  },
+  {
+   "ref": "Q16(a)(iv)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.15",
+    "12.1.3.9"
+   ],
+   "question": "Given that $\\displaystyle\\int_0^{\\pi/2}e^{-\\sin x}dx<\\int_0^{\\pi/2}e^{-\\frac{2x}\\pi}dx$ and $\\displaystyle\\int_{\\pi/2}^{\\pi}e^{-\\sin x}dx=\\int_0^{\\pi/2}e^{-\\sin x}dx$, show that $\\displaystyle\\int_0^{\\pi}e^{-\\sin x}dx<\\frac\\pi e(e-1)$.",
+   "answer": "$$\\int_0^\\pi e^{-\\sin x}dx=\\int_0^{\\pi/2}e^{-\\sin x}dx+\\int_{\\pi/2}^{\\pi}e^{-\\sin x}dx=2\\int_0^{\\pi/2}e^{-\\sin x}dx<2\\int_0^{\\pi/2}e^{-2x/\\pi}dx$$\n\n$$=2\\left[-\\frac\\pi2e^{-2x/\\pi}\\right]_0^{\\pi/2}=-\\pi\\left(e^{-1}-1\\right)=\\pi\\left(1-\\frac1e\\right)=\\frac\\pi e(e-1).$$"
+  },
+  {
+   "ref": "Q16(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.11",
+    "12.3.2.5"
+   ],
+   "question": "In the Argand diagram, the points $A$, $B$ and $C$ represent the triangle $ABC$. The vectors $\\overrightarrow{AB}$ and $\\overrightarrow{AC}$ are represented by the complex numbers $z_1$ and $z_2$ respectively, with $\\text{Arg}(z_1)=\\alpha$, $\\text{Arg}(z_2)=\\beta$ and $\\angle BAC=\\theta$. By expressing $z_1$ and $z_2$ in Mod-Arg form, or otherwise, show that the area of triangle $ABC$ is given by $\\text{Area}=\\left|\\dfrac12\\,\\text{Im}\\left(z_1\\overline{z_2}\\right)\\right|$.",
+   "answer": "$z_1=|z_1|\\text{cis}\\,\\alpha$ and $z_2=|z_2|\\text{cis}\\,\\beta$, so $\\overline{z_2}=|z_2|\\text{cis}(-\\beta)$ and\n\n$$z_1\\overline{z_2}=|z_1||z_2|\\,\\text{cis}(\\alpha-\\beta)\\ \\Rightarrow\\ \\text{Im}\\left(z_1\\overline{z_2}\\right)=|z_1||z_2|\\sin(\\alpha-\\beta).$$\n\nThe angle between the sides $AB$ and $AC$ is $\\theta=|\\alpha-\\beta|$, and $\\text{Area}=\\dfrac12|z_1||z_2|\\sin\\theta$. Since $\\theta$ is between $0$ and $\\pi$, $\\sin\\theta\\ge0$ and $\\sin\\theta=|\\sin(\\alpha-\\beta)|$. Hence\n\n$$\\text{Area}=\\frac12|z_1||z_2||\\sin(\\alpha-\\beta)|=\\left|\\frac12\\text{Im}\\left(z_1\\overline{z_2}\\right)\\right|.$$",
+   "answer_images": [
+    "assets/img/ext2-2025-gosford/q16b-sol.png"
+   ]
+  },
+  {
+   "ref": "Q16(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.4.1.14",
+    "12.4.1.13"
+   ],
+   "question": "By establishing a reduction formula for $I_n=\\displaystyle\\int(\\sin^{-1}x)^n\\,dx$, show that $\\displaystyle\\int_0^1(\\sin^{-1}x)^3\\,dx=\\frac{\\pi^3}{8}-3\\pi+6$.",
+   "answer": "By parts with $u=(\\sin^{-1}x)^n$, $v'=1$: $u'=\\dfrac{n(\\sin^{-1}x)^{n-1}}{\\sqrt{1-x^2}}$, $v=x$.\n\n$$I_n=x(\\sin^{-1}x)^n-n\\int\\frac{x}{\\sqrt{1-x^2}}(\\sin^{-1}x)^{n-1}dx.$$\n\nAgain by parts with $u=(\\sin^{-1}x)^{n-1}$, $v'=\\dfrac{x}{\\sqrt{1-x^2}}$ ($v=-\\sqrt{1-x^2}$): $\\displaystyle\\int\\frac{x(\\sin^{-1}x)^{n-1}}{\\sqrt{1-x^2}}dx=-\\sqrt{1-x^2}(\\sin^{-1}x)^{n-1}+(n-1)\\int(\\sin^{-1}x)^{n-2}dx$. Hence\n\n$$I_n=x(\\sin^{-1}x)^n+n\\sqrt{1-x^2}(\\sin^{-1}x)^{n-1}-n(n-1)I_{n-2}.$$\n\nDefinite case: for $n=1$, $\\displaystyle\\int_0^1\\sin^{-1}x\\,dx=\\Big[x\\sin^{-1}x+\\sqrt{1-x^2}\\Big]_0^1=\\frac\\pi2-1$.\n\nFor $n=3$ (the $\\sqrt{1-x^2}$ term vanishes at both limits):\n\n$$\\int_0^1(\\sin^{-1}x)^3dx=\\Big[x(\\sin^{-1}x)^3+3\\sqrt{1-x^2}(\\sin^{-1}x)^2\\Big]_0^1-6\\int_0^1\\sin^{-1}x\\,dx=\\frac{\\pi^3}{8}-6\\left(\\frac\\pi2-1\\right)=\\frac{\\pi^3}{8}-3\\pi+6.$$\n\n*Note: the paper's printed general reduction formula has the signs of the second and third terms reversed (it gives $x(\\sin^{-1}x)^n-n\\sqrt{1-x^2}(\\sin^{-1}x)^{n-1}+n(n-1)I_{n-2}$); the correct formula is above, and the paper's final value is correct.*"
+  }
+ ]
+}
