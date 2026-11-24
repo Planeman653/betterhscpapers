@@ -1,0 +1,715 @@
+{
+ "id": "phys-2022-north-sydney-boys",
+ "course": "physics",
+ "school": "North Sydney Boys",
+ "year": 2022,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "6528",
+  "title": "North Sydney Boys 2022 w. sol"
+ },
+ "indexed": "2026-11-25",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q12",
+   "reason": "Year 11 content (wave graph: reading frequency and amplitude) – not examined in the HSC"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.1",
+    "12.5.1.4"
+   ],
+   "question": "A stone is thrown with speed $v$ from the top of a cliff of height $H$, as shown. The stone is thrown at an angle to the horizontal so that it rises to a height $h$ above the top of the cliff before falling into the sea. The acceleration of free fall is $g$. Air resistance is negligible. Which one of the following expressions correctly gives the speed of the stone as it hits the sea?",
+   "answer": "By conservation of energy between the launch point and the sea, $\\frac12mv_f^2=\\frac12mv^2+mgH$, so $v_f=\\sqrt{v^2+2gH}$ (D). The speed does not depend on the launch angle, and speeds do not add as scalars.",
+   "options": [
+    "$v+\\sqrt{2gh}$",
+    "$v+\\sqrt{2gH}$",
+    "$\\sqrt{2g(h+H)}$",
+    "$\\sqrt{v^2+2gH}$"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/phys-2022-north-sydney-boys/q1.png"
+   ]
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.3"
+   ],
+   "question": "A transformer has a primary coil with $N_p$ turns and a secondary coil with $N_s$ turns. An alternating voltage supply of frequency $f$ and voltage $V_p$ is connected to the primary coil. Which of the following correctly gives the frequency and voltage in the secondary coil?",
+   "answer": "The changing flux in the core has the frequency of the supply, so the secondary frequency is still $f$. $\\frac{V_s}{V_p}=\\frac{N_s}{N_p}$, so $V_s=\\frac{N_s}{N_p}V_p$ (D).",
+   "options": [
+    "Frequency $\\frac{N_s}{N_p}f$; voltage $\\frac{N_p}{N_s}V_p$",
+    "Frequency $f$; voltage $\\frac{N_p}{N_s}V_p$",
+    "Frequency $\\frac{N_p}{N_s}f$; voltage $\\frac{N_s}{N_p}V_p$",
+    "Frequency $f$; voltage $\\frac{N_s}{N_p}V_p$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.4"
+   ],
+   "question": "The rings of Saturn are made of rocky particles that orbit the planet. The period $T$ of each particle depends on its distance $r$ from the centre of Saturn. The period $T$ is proportional to $r^n$. Which one of the following is $n$ equal to?",
+   "answer": "Kepler's third law gives $T^2\\propto r^3$, so $T\\propto r^{3/2}$ and $n=1.5$ (B).",
+   "options": [
+    "$1.0$",
+    "$1.5$",
+    "$2.0$",
+    "$3.0$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.2",
+    "12.7.2.1"
+   ],
+   "question": "The diagram shows the arrangement for a Young's double slit experiment. The function of the single slit is",
+   "answer": "The single slit acts as a single (secondary) source, so that the light reaching $S_1$ and $S_2$ comes from the same wavefront and is coherent (constant phase difference). This is needed to see a stable interference pattern (C).",
+   "options": [
+    "to direct the light towards $S_1$ and $S_2$.",
+    "to ensure equal intensities of light at $S_1$ and $S_2$.",
+    "to produce coherent light at $S_1$ and $S_2$.",
+    "to reduce the intensity of light at $S_1$ and $S_2$."
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/phys-2022-north-sydney-boys/q4.png"
+   ]
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.1"
+   ],
+   "question": "A proton of mass $m$ and charge $e$ is accelerated from rest through a potential difference $V$. The final speed of the proton is",
+   "answer": "The work done by the field equals the kinetic energy gained: $eV=\\frac12mv^2$, so $v=\\sqrt{\\frac{2eV}{m}}$ (A).",
+   "options": [
+    "$\\sqrt{\\dfrac{2Ve}{m}}$",
+    "$\\dfrac{2Ve}{m}$",
+    "$\\sqrt{\\dfrac{Ve}{m}}$",
+    "$\\dfrac{Ve}{m}$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "Newton's law of gravitation for the force $F$ between two point objects of masses $M$ and $m$, separated by a distance $d$, may be written as $Fd^2\\propto Mm$. The expression may also be used for the force of attraction between the Sun and the Earth, although they are not point masses. This is because",
+   "answer": "Spherical bodies behave as point masses at their centres, and the approximation is good when the separation is much greater than the radii of the bodies (C).",
+   "options": [
+    "the gravitational constant $G$ is not involved in the expression.",
+    "the force between the Sun and the Earth is very large.",
+    "the separation of the Sun and the Earth is much greater than their radii.",
+    "the mass of the Earth is much less than the mass of the Sun."
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "The diagram shows the path $XY$ of an electron that passes through a thin foil placed in a vacuum. There is a uniform magnetic field acting perpendicular to the plane of the page. Which one of the following statements best explains the path followed by the electron?",
+   "answer": "The electron loses kinetic energy passing through the foil, so its speed falls and the radius of its path $r=\\frac{mv}{eB}$ decreases. The radius is smaller on the $Y$ side, so the electron travels from $X$ to $Y$. At the foil it moves upward and curves to the left, so the force on it is to the left. For a negative charge, $\\vec F=-e\\,\\vec v\\times\\vec B$ is to the left when $\\vec v\\times\\vec B$ points right, i.e. $\\vec B$ out of the page (D).",
+   "options": [
+    "Motion of the electron: $Y$ to $X$; magnetic field into the page",
+    "Motion of the electron: $Y$ to $X$; magnetic field out of the page",
+    "Motion of the electron: $X$ to $Y$; magnetic field into the page",
+    "Motion of the electron: $X$ to $Y$; magnetic field out of the page"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/phys-2022-north-sydney-boys/q7.png"
+   ]
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.5"
+   ],
+   "question": "A satellite is in orbit about Earth. The satellite moves to an orbit closer to Earth. Which of the following correctly gives the change in the potential energy and the kinetic energy of the satellite?",
+   "answer": "The gravitational potential energy $-\\frac{GMm}r$ becomes more negative (decreases) as $r$ decreases. The orbital speed $v=\\sqrt{\\frac{GM}r}$ increases, so the kinetic energy increases (A).",
+   "options": [
+    "Potential energy decreases; kinetic energy increases",
+    "Potential energy decreases; kinetic energy decreases",
+    "Potential energy increases; kinetic energy increases",
+    "Potential energy increases; kinetic energy decreases"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.1"
+   ],
+   "question": "Which diagram best shows diffraction of plane wavefronts at a single slit?",
+   "answer": "Diffraction does not change the wavelength, so the wavefronts remain equally spaced after the slit. In B and D the spacing of the wavefronts near the slit is inconsistent with the incident wavelength. For a slit a few wavelengths wide, the wavefronts stay nearly plane in the centre and curve (spread) at the edges, as in A. In C the wavefronts are shown as perfect semicircles, which would only be right for a slit about one wavelength wide, not the wider slit drawn.",
+   "options": [
+    "Diagram A",
+    "Diagram B",
+    "Diagram C",
+    "Diagram D"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/phys-2022-north-sydney-boys/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.1"
+   ],
+   "question": "The diagram shows two lines of equipotential in a region of a uniform electric field. Line $X$ has a potential of $+50$ V and line $Y$ has a potential of $+100$ V. The distance between $X$ and $Y$ is $2.0$ cm. Which one of the following correctly gives the direction of the electric field and its strength?",
+   "answer": "The electric field points from high to low potential, i.e. from $Y$ to $X$. Its strength is $E=\\frac{\\Delta V}{d}=\\frac{50\\ \\text{V}}{2.0\\ \\text{cm}}=25$ V cm$^{-1}$ (C).",
+   "options": [
+    "$X\\to Y$, $25$ V cm$^{-1}$",
+    "$X\\to Y$, $100$ V cm$^{-1}$",
+    "$Y\\to X$, $25$ V cm$^{-1}$",
+    "$Y\\to X$, $100$ V cm$^{-1}$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/phys-2022-north-sydney-boys/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.3",
+    "12.5.3.1"
+   ],
+   "question": "Two satellites of equal mass, $S_1$ and $S_2$, orbit the Earth. $S_1$ is orbiting at a distance $r$ from the Earth's centre at speed $v$. $S_2$ orbits at a distance $2r$ from the Earth's centre at speed $\\dfrac v{\\sqrt2}$. The ratio of the centripetal force on $S_1$ to the centripetal force on $S_2$ is",
+   "answer": "$F=\\frac{mv^2}r$. For $S_1$: $\\frac{mv^2}r$. For $S_2$: $\\frac{m(v^2/2)}{2r}=\\frac{mv^2}{4r}$. The ratio is $4$ (C). (Consistent with $F\\propto\\frac1{r^2}$.)",
+   "options": [
+    "$\\frac18$",
+    "$\\frac14$",
+    "$4$",
+    "$8$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q13",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.1.1"
+   ],
+   "question": "Which one of the following is a correct definition of electric potential difference between two points?",
+   "answer": "Potential difference $V=\\frac Wq$ is the work done per unit charge moving a small positive test charge between the two points (D).",
+   "options": [
+    "The power to move a small positive charge between the two points.",
+    "The work done to move a small positive charge between the two points.",
+    "The power per unit charge to move a small positive charge between the two points.",
+    "The work done per unit charge to move a small positive charge between the two points."
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q14",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "The acceleration of free fall of a small sphere of mass $5.0\\times10^{-3}$ kg when close to the surface of Jupiter is $25$ m s$^{-2}$. The gravitational field strength at the surface of Jupiter is",
+   "answer": "Gravitational field strength is the force per unit mass, $g=\\frac Fm$, which equals the acceleration of free fall: $25$ N kg$^{-1}$ (C). The mass of the sphere does not matter.",
+   "options": [
+    "$2.0\\times10^{-4}$ N kg$^{-1}$",
+    "$1.3\\times10^{-1}$ N kg$^{-1}$",
+    "$25$ N kg$^{-1}$",
+    "$5.0\\times10^3$ N kg$^{-1}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q15",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.2"
+   ],
+   "question": "The waves from two light sources meet at a point. Which condition is essential for interference to be observed?",
+   "answer": "A stable interference pattern requires coherent sources, i.e. a constant phase difference (which also requires the same frequency) (A). Equal amplitudes only affect the contrast.",
+   "options": [
+    "Constant phase difference between the waves",
+    "Equal amplitude of the waves",
+    "Equal frequency of the waves",
+    "Equal intensities of the waves"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q16",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.5"
+   ],
+   "question": "The escape speed of an object of mass $m$ from a planet of mass $M$ and radius $r$ depends on the gravitational constant and",
+   "answer": "$\\frac12mv^2=\\frac{GMm}r$ gives $v_{esc}=\\sqrt{\\frac{2GM}r}$. The mass $m$ of the object cancels, so it depends only on $G$, $M$ and $r$ (A).",
+   "options": [
+    "$M$ and $r$.",
+    "$m$ and $r$.",
+    "$M$ only.",
+    "$M$, $m$, and $r$."
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q17(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.3.1"
+   ],
+   "question": "Explain the term black-body radiation.",
+   "answer": "Black-body radiation is the electromagnetic radiation emitted by a perfect emitter (a perfect absorber), whose spectrum depends only on its temperature."
+  },
+  {
+   "ref": "Q17(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.3.1"
+   ],
+   "question": "The diagram is a sketch graph of the black-body radiation spectrum of a certain star, with intensity on the vertical axis. Label the $x$-axis of the graph.",
+   "answer": "The $x$-axis is wavelength $\\lambda$ (e.g. in nm or $\\mu$m).",
+   "images": [
+    "assets/img/phys-2022-north-sydney-boys/q17.png"
+   ]
+  },
+  {
+   "ref": "Q17(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.1"
+   ],
+   "question": "On the graph, sketch the black-body radiation spectrum of a star that has a lower surface temperature and lower apparent brightness than this star.",
+   "answer": "A curve with the same general shape, lower intensity at every wavelength, and with its peak shifted to a longer wavelength (Wien's law).",
+   "images": [
+    "assets/img/phys-2022-north-sydney-boys/q17.png"
+   ],
+   "answer_images": [
+    "assets/img/phys-2022-north-sydney-boys/q17-sol.png"
+   ]
+  },
+  {
+   "ref": "Q17(d)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.1"
+   ],
+   "question": "The star Betelgeuse in the Orion constellation emits black-body radiation that has a maximum intensity at a wavelength of $0.97\\ \\mu$m. Deduce that the surface temperature of Betelgeuse is about $3000$ K.",
+   "answer": "Wien's law: $\\lambda_{max}T=b=2.90\\times10^{-3}$ m K. $T=\\frac{2.90\\times10^{-3}}{9.7\\times10^{-7}}=2990\\ \\text{K}\\approx3000$ K."
+  },
+  {
+   "ref": "Q18(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "State what is meant by polarised light.",
+   "answer": "Light in which the electric field vibrations are always (or predominantly) in the same plane (direction)."
+  },
+  {
+   "ref": "Q18(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "Polarised light of intensity $I_0$ is incident on an analyser. The transmission axis of the analyser makes an angle $\\theta$ with the direction of the electric field of the light. Calculate, in terms of $I_0$, the intensity of light transmitted through the analyser when $\\theta=60^\\circ$.",
+   "answer": "Malus' law: $I=I_0\\cos^2\\theta=I_0\\cos^260^\\circ=\\frac{I_0}4$."
+  },
+  {
+   "ref": "Q18(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "On the axes provided, sketch a graph to show the variation with angle $\\theta$ of the intensity of the transmitted light, for $\\theta$ from $0^\\circ$ to $180^\\circ$.",
+   "answer": "A $\\cos^2\\theta$ curve: maximum $I_0$ at $\\theta=0^\\circ$ and $180^\\circ$, touching zero at $\\theta=90^\\circ$.",
+   "images": [
+    "assets/img/phys-2022-north-sydney-boys/q18.png"
+   ],
+   "answer_images": [
+    "assets/img/phys-2022-north-sydney-boys/q18-sol.png"
+   ]
+  },
+  {
+   "ref": "Q18(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "Outline how polarising sunglasses reduce glare from a reflecting surface.",
+   "answer": "Light reflected from a horizontal surface (water, road) is partially polarised, mostly in the horizontal plane. Polarising sunglasses have their transmission axis vertical (at $90^\\circ$ to the plane of polarisation of the reflected light), so most of the reflected (glare) light is blocked, reducing its intensity."
+  },
+  {
+   "ref": "Q19(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.2.2"
+   ],
+   "question": "Light of wavelength $590$ nm is incident normally on a diffraction grating with $6.0\\times10^5$ lines per metre. Determine the total number of orders (both sides) of diffracted light, including the zero order, that can be observed.",
+   "answer": "Slit spacing $d=\\frac1{6.0\\times10^5}=1.67\\times10^{-6}$ m. From $d\\sin\\theta=m\\lambda$, the maximum order occurs when $\\sin\\theta\\le1$: $m\\le\\frac d\\lambda=\\frac{1.67\\times10^{-6}}{590\\times10^{-9}}=2.8$. So the maximum order is $m=2$. The orders observed are $0,\\pm1,\\pm2$: a total of $5$ orders.",
+   "images": [
+    "assets/img/phys-2022-north-sydney-boys/q19.png"
+   ]
+  },
+  {
+   "ref": "Q19(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.2"
+   ],
+   "question": "The incident light is replaced by a beam of light consisting of two wavelengths, $590$ nm and $589$ nm. State two observable differences between a first order spectrum and a second order spectrum of the diffracted light.",
+   "answer": "(1) The first order is brighter (more intense) than the second order. (2) The second order is more widely dispersed, so the two wavelengths (lines) are more likely to be seen as separate lines in the second order (and the second order lies at a larger angle)."
+  },
+  {
+   "ref": "Q20(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "A satellite goes round a planet at constant speed. Explain why, although its speed is constant, it is accelerating.",
+   "answer": "Acceleration is the rate of change of velocity, a vector. The direction of the satellite's motion is continually changing, so its velocity changes, i.e. it accelerates (centripetally, towards the centre of the planet)."
+  },
+  {
+   "ref": "Q20(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "A marble rolls down a track from end $A$, which is $0.80$ m above the ground; the bottom part of the track is a loop of diameter $0.35$ m ($B$ is the lowest point and $C$ the highest). The mass of the marble is $0.050$ kg. Friction and the kinetic energy of rotation can be ignored. Consider the marble when it is at point $C$. On the diagram, draw an arrow to show the direction of the resultant force acting on the marble.",
+   "answer": "The resultant (net) force points vertically downwards, towards the centre of the loop, since at the top of the loop the centre is directly below $C$.",
+   "images": [
+    "assets/img/phys-2022-north-sydney-boys/q20.png"
+   ]
+  },
+  {
+   "ref": "Q20(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "At the top ($C$) of the loop, state the names of the two forces acting on the marble.",
+   "answer": "The weight (force of gravity) and the normal (reaction) force from the track.",
+   "images": [
+    "assets/img/phys-2022-north-sydney-boys/q20.png"
+   ]
+  },
+  {
+   "ref": "Q20(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.3",
+    "12.5.2.4"
+   ],
+   "question": "Deduce that the speed of the marble at $C$ is approximately $3.0$ m s$^{-1}$.",
+   "answer": "By conservation of energy, the loss in gravitational potential energy from $A$ to $C$ equals the gain in kinetic energy: $mg(0.80-0.35)=\\frac12mv^2$. So $v=\\sqrt{2\\times9.8\\times0.45}=\\sqrt{8.82}=2.97\\approx3.0$ m s$^{-1}$.",
+   "images": [
+    "assets/img/phys-2022-north-sydney-boys/q20.png"
+   ]
+  },
+  {
+   "ref": "Q20(b)(iv)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2",
+    "12.5.2.3"
+   ],
+   "question": "Determine the resultant force acting on the marble at $C$ and hence determine the reaction force of the track on the marble. (Take $v\\approx3.0$ m s$^{-1}$, radius $=0.175$ m.)",
+   "answer": "The resultant force is the centripetal force $F_{net}=\\frac{mv^2}r=\\frac{0.050\\times3.0^2}{0.175}=2.6$ N (downwards). At the top, the weight and the normal force both point downwards: $F_{net}=mg+N$, so $N=\\frac{mv^2}r-mg=2.6-0.050\\times9.8=2.6-0.49\\approx2.1$ N (downwards, from the track on the marble). (Using the unrounded $v^2=8.82$ gives $F_{net}=2.5$ N and $N=2.0$ N.)",
+   "images": [
+    "assets/img/phys-2022-north-sydney-boys/q20.png"
+   ]
+  },
+  {
+   "ref": "Q21(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.4",
+    "12.5.1.1"
+   ],
+   "question": "A stone is thrown from the top of a cliff of height $28$ m above the sea at a speed of $14$ m s$^{-1}$ at an angle above the horizontal. Air resistance is negligible. By considering the energy of the stone, determine the speed with which the stone hits the sea.",
+   "answer": "Initial kinetic energy plus loss in gravitational potential energy equals the final kinetic energy: $\\frac12m(14)^2+mg(28)=\\frac12mv^2$. The mass cancels: $v=\\sqrt{14^2+2\\times9.8\\times28}=\\sqrt{744.8}=27$ m s$^{-1}$.",
+   "images": [
+    "assets/img/phys-2022-north-sydney-boys/q21.png"
+   ]
+  },
+  {
+   "ref": "Q21(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.1"
+   ],
+   "question": "The stone leaves the cliff at time $t=0$ and reaches its maximum height at $t=T_H$ (the maximum height reached above the launch point is $8.0$ m). On the axes provided, draw a sketch graph to show the variation with time $t$ of the magnitude of the vertical component of the speed of the stone from $t=0$ to $t=T_S$, the time just before the stone strikes the sea.",
+   "answer": "The vertical velocity decreases uniformly (slope $-g$) from $v_{y0}=\\sqrt{2g(8.0)}\\approx12.5$ m s$^{-1}$ to zero at $T_H$. After $T_H$ the magnitude increases at the same rate ($g$) until $T_S$, ending at $\\sqrt{12.5^2+2g(28)}\\approx26.6$ m s$^{-1}$, which is larger than the initial vertical speed. The graph is a V shape with equal slope magnitudes.",
+   "images": [
+    "assets/img/phys-2022-north-sydney-boys/q21b.png"
+   ],
+   "answer_images": [
+    "assets/img/phys-2022-north-sydney-boys/q21b-sol.png"
+   ]
+  },
+  {
+   "ref": "Q22(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.2"
+   ],
+   "question": "A small coil is placed with its plane parallel to a long straight current-carrying wire. State Faraday's law of electromagnetic induction.",
+   "answer": "The magnitude of the emf induced in a circuit is proportional to the rate of change of magnetic flux through (linking) the circuit: $\\varepsilon=-N\\frac{\\Delta\\Phi}{\\Delta t}$ (the negative sign expressing Lenz's law).",
+   "images": [
+    "assets/img/phys-2022-north-sydney-boys/q22.png"
+   ]
+  },
+  {
+   "ref": "Q22(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.2"
+   ],
+   "question": "Use the law to explain why, when the current in the wire changes, an emf is induced in the coil.",
+   "answer": "The magnetic field of the wire is proportional to the current, so when the current changes the magnetic field (and hence the flux) through the coil changes. A changing flux induces an emf in the coil.",
+   "images": [
+    "assets/img/phys-2022-north-sydney-boys/q22.png"
+   ]
+  },
+  {
+   "ref": "Q22(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.1"
+   ],
+   "question": "The graph shows the variation with time $t$ of the current in the wire (sinusoidal, starting at zero and increasing). Draw, on the axes provided, a sketch graph to show the variation with time $t$ of the magnetic flux in the coil.",
+   "answer": "The flux is proportional to the field, which is proportional to the current, so the graph is sinusoidal and in phase with the current.",
+   "images": [
+    "assets/img/phys-2022-north-sydney-boys/q22b.png"
+   ],
+   "answer_images": [
+    "assets/img/phys-2022-north-sydney-boys/q22b-sol.png"
+   ]
+  },
+  {
+   "ref": "Q22(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.2"
+   ],
+   "question": "Construct, on the axes provided, a sketch graph to show the variation with time $t$ of the emf induced in the coil.",
+   "answer": "$\\varepsilon=-N\\frac{d\\Phi}{dt}$: the emf is sinusoidal with the same frequency as the flux, but $90^\\circ$ out of phase with it (the negative of the gradient of the flux graph, i.e. $-\\cos$ if flux is $\\sin$). It is zero when the flux is at a maximum or minimum, and at its extreme values when the flux is zero (changing fastest).",
+   "images": [
+    "assets/img/phys-2022-north-sydney-boys/q22b.png"
+   ],
+   "answer_images": [
+    "assets/img/phys-2022-north-sydney-boys/q22b-sol.png"
+   ]
+  },
+  {
+   "ref": "Q22(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.1",
+    "12.6.3.2"
+   ],
+   "question": "State and explain the effect on the maximum emf induced in the coil when the coil is further away from the wire.",
+   "answer": "The maximum emf is reduced. The magnetic field of the wire is weaker further away, so the flux through the coil, and its rate of change, are smaller, which gives a smaller induced emf."
+  },
+  {
+   "ref": "Q22(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.5",
+    "12.6.3.2"
+   ],
+   "question": "Such a coil may be used to measure large alternating currents in a high-voltage cable. Identify one advantage and one disadvantage of this method.",
+   "answer": "Advantage: there is no direct electrical contact with the high-voltage cable (so it is safe and the cable need not be cut or disconnected). Disadvantage: the emf depends on the distance (and orientation) of the coil relative to the cable, so this must be fixed and known; it works only for alternating (changing) currents."
+  },
+  {
+   "ref": "Q23(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.4"
+   ],
+   "question": "Kepler's third law states that the period $T$ of the orbit of a planet about the Sun is related to the average orbital radius $R$ of the planet by $T^2=KR^3$, where $K$ is a constant. Suggest why the law specifies the average orbital radius.",
+   "answer": "Planetary orbits are elliptical rather than circular, so the distance from the Sun varies during the orbit; the average radius (semi-major axis) is used."
+  },
+  {
+   "ref": "Q23(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.3.4"
+   ],
+   "question": "State the name of the force that causes the acceleration of the planets orbiting the Sun.",
+   "answer": "Gravity (the gravitational force)."
+  },
+  {
+   "ref": "Q23(a)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "State an expression for the magnitude $F$ of the force in (ii) in terms of the mass $M_S$ of the Sun, the mass $m$ of the planet, the radius $R$ of the orbit and the universal gravitational constant $G$.",
+   "answer": "$F=\\dfrac{GM_Sm}{R^2}$."
+  },
+  {
+   "ref": "Q23(a)(iv)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.4",
+    "12.5.3.2"
+   ],
+   "question": "Hence deduce, explaining your working, that the constant $K$ is given by $K=\\dfrac{4\\pi^2}{GM_S}$.",
+   "answer": "Treat the orbit as circular with speed $v$; the centripetal acceleration is $\\frac{v^2}R$. By Newton's second law, $\\frac{GM_Sm}{R^2}=\\frac{mv^2}R$. The speed is $v=\\frac{2\\pi R}T$, so $\\frac{GM_Sm}{R^2}=\\frac{4\\pi^2mR}{T^2}$. Rearranging, $T^2=\\frac{4\\pi^2}{GM_S}R^3$, so $K=\\frac{4\\pi^2}{GM_S}$."
+  },
+  {
+   "ref": "Q23(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.2",
+    "12.5.2.3"
+   ],
+   "question": "Ganymede is one of the moons of Jupiter. Its average orbital radius is $1.1\\times10^9$ m and its orbital period is $6.2\\times10^5$ s ($G=6.67\\times10^{-11}$ N m$^2$ kg$^{-2}$). Deduce that the gravitational field strength of Jupiter at the surface of Ganymede is approximately $0.1$ N kg$^{-1}$.",
+   "answer": "The field strength equals the centripetal acceleration of Ganymede: $g=\\frac{v^2}R=\\frac{4\\pi^2R}{T^2}=\\frac{4\\pi^2\\times1.1\\times10^9}{\\left(6.2\\times10^5\\right)^2}=0.11\\approx0.1$ N kg$^{-1}$."
+  },
+  {
+   "ref": "Q23(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.2",
+    "12.5.3.3"
+   ],
+   "question": "Using the data for Ganymede (orbital radius $1.1\\times10^9$ m, period $6.2\\times10^5$ s, $G=6.67\\times10^{-11}$ N m$^2$ kg$^{-2}$), estimate the mass of Jupiter.",
+   "answer": "From $T^2=\\frac{4\\pi^2}{GM_J}R^3$: $M_J=\\frac{4\\pi^2R^3}{GT^2}=\\frac{4\\pi^2\\left(1.1\\times10^9\\right)^3}{6.67\\times10^{-11}\\left(6.2\\times10^5\\right)^2}\\approx2.0\\times10^{27}$ kg. (Alternatively $g=\\frac{GM}{R^2}$ gives $M=\\frac{gR^2}G=\\frac{0.1\\times\\left(1.1\\times10^9\\right)^2}{6.67\\times10^{-11}}\\approx1.8$–$2.0\\times10^{27}$ kg.)"
+  },
+  {
+   "ref": "Q24(a)",
+   "kind": "written",
+   "marks": 6,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.1.3"
+   ],
+   "question": "Describe one historical method used to determine the speed of light experimentally, including its limitations.",
+   "answer": "Sample answer (Fizeau's toothed wheel, 1849): Light from a source is reflected by a half-silvered mirror through a gap in a rapidly rotating toothed wheel, travels a long distance $d$ (about $8.6$ km) to a distant plane mirror and is reflected back along the same path to the wheel. If the wheel turns by half a tooth-spacing during the light's round-trip time $t=\\frac{2d}c$, the returning light hits a tooth and is blocked (observer sees eclipse). The wheel's rotation rate $f$ and the number of teeth $N$ give $t=\\frac1{2Nf}$, so $c=\\frac{2d}t=4dNf$ (Fizeau obtained about $3.1\\times10^8$ m s$^{-1}$ with $N=720$, $f\\approx12.6$ rev s$^{-1}$). Principles: light travels in straight lines at a finite speed, reflection at a mirror (return of the beam along its path), and speed = distance/time determined from the angular speed of the wheel. Limitations: (1) the distance travelled by light was short, so the time was very small and hard to measure; (2) the judgement of the point of 'eclipse' (minimum brightness) by eye was subjective, and the wheel speed could not be controlled and measured with great precision; (3) the light beam spreads and is attenuated over the long path, so the image is faint."
+  },
+  {
+   "ref": "Q24(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.1.3"
+   ],
+   "question": "In 1983, the speed of light was declared to be exactly $299\\,792\\,458$ m s$^{-1}$. Explain the currently accepted relationship of the speed of light to the measurement of distance and time.",
+   "answer": "The second is defined by the caesium-133 atom (the time for $9\\,192\\,631\\,770$ periods of the radiation from a specific energy transition), and the speed of light in a vacuum is fixed exactly. So the metre is defined as the distance travelled by light in a vacuum in $\\frac1{299\\,792\\,458}$ of a second. The speed of light is therefore a defined constant that links the units of distance and time, rather than something that is measured."
+  }
+ ]
+}
