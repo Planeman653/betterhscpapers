@@ -1,0 +1,748 @@
+{
+ "id": "ext2-2025-hurlstone",
+ "course": "extension2",
+ "school": "Hurlstone",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "Hurlstone 2025 w. sol"
+ },
+ "indexed": "2026-11-25",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.10",
+    "12.3.1.11"
+   ],
+   "question": "Let $z=a+ib$, where $a$ and $b$ are non-zero real numbers. If $z+\\dfrac1z\\in\\mathbb R$, which of the following must be true?",
+   "answer": "$z+\\frac1z=a+ib+\\frac{a-ib}{a^2+b^2}$, whose imaginary part is $b\\left(1-\\frac1{a^2+b^2}\\right)$. For this to be $0$ with $b\\ne0$ we need $a^2+b^2=1$, i.e. $|z|=1$ (D).",
+   "options": [
+    "$\\arg z=\\dfrac\\pi4$",
+    "$a=-b$",
+    "$a=b$",
+    "$|z|=1$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.10"
+   ],
+   "question": "Multiplying a non-zero complex number by $\\dfrac{1+i}{1-i}$ results in a rotation about the origin on an Argand diagram. What is the rotation?",
+   "answer": "$\\frac{1+i}{1-i}=\\frac{(1+i)^2}{2}=i$, which has modulus $1$ and argument $\\frac\\pi2$, so the rotation is anticlockwise by $\\frac\\pi2$ (D).",
+   "options": [
+    "Clockwise by $\\frac\\pi4$",
+    "Clockwise by $\\frac\\pi2$",
+    "Anticlockwise by $\\frac\\pi4$",
+    "Anticlockwise by $\\frac\\pi2$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.1"
+   ],
+   "question": "The diagram shows a point $z$ on the circle $x^2+y^2=2$ in an Argand diagram. What value does $z$ represent?",
+   "answer": "The circle has radius $\\sqrt2$ and $z$ lies on the positive imaginary axis, so $z=i\\sqrt2$ (B).",
+   "options": [
+    "$2i$",
+    "$i\\sqrt2$",
+    "$2+2i$",
+    "$-i\\sqrt2$"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/ext2-2025-hurlstone/q3.png"
+   ]
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "Using the same diagram of $z$ as in Question 3 ($z=i\\sqrt2$ on the circle $x^2+y^2=2$), which of the following best indicates the position of $z^3$?",
+   "answer": "$z^3=(i\\sqrt2)^3=-2\\sqrt2\\,i$. It lies on the negative imaginary axis at distance $2\\sqrt2>\\sqrt2$ from the origin, so it is below the circle, outside it (C).",
+   "options": [
+    "![A](assets/img/ext2-2025-hurlstone/q4a.png)",
+    "![B](assets/img/ext2-2025-hurlstone/q4b.png)",
+    "![C](assets/img/ext2-2025-hurlstone/q4c.png)",
+    "![D](assets/img/ext2-2025-hurlstone/q4d.png)"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "It is given that $a,b,c$ and $d$ are consecutive integers. Which of the following statements may be false?",
+   "answer": "Four consecutive integers contain a multiple of 3 and two even numbers, one of which is a multiple of 4, so $abcd$ is divisible by 3 and by 8. Their sum is $4a+6$, which is always even but not always divisible by 4 (e.g. $1+2+3+4=10$). So D may be false.",
+   "options": [
+    "$abcd$ is divisible by 3",
+    "$abcd$ is divisible by 8",
+    "$a+b+c+d$ is divisible by 2",
+    "$a+b+c+d$ is divisible by 4"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.7",
+    "12.1.2.2"
+   ],
+   "question": "Which of the following statements is true?",
+   "answer": "A is false ($\\sin30^\\circ=\\sin150^\\circ$). B is false ($a=5,b=-3$ gives $2>8$ false). D is false by the triangle inequality $|a+b|\\le|a|+|b|$. C is true: $a=b=2$ gives $\\ln4=\\ln2+\\ln2$ (C).",
+   "options": [
+    "$\\forall a,b\\in\\mathbb R,\\ \\sin a=\\sin b\\Rightarrow a=b$",
+    "$\\forall a,b\\in\\mathbb R,\\ |a+b|>|a-b|$",
+    "$\\exists a,b\\in\\mathbb R$ such that $\\ln(a+b)=\\ln a+\\ln b$",
+    "$\\exists a,b\\in\\mathbb C,\\ |a|+|b|<|a+b|$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "What is the value of $p$ for which the vectors $\\underset{\\sim}{i}-2p\\underset{\\sim}{j}+3\\underset{\\sim}{k}$ and $p\\underset{\\sim}{i}-4\\underset{\\sim}{j}+3\\underset{\\sim}{k}$ are perpendicular?",
+   "answer": "The dot product must be zero: $p+8p+9=0$, so $p=-1$ (A).",
+   "options": [
+    "$-1$",
+    "$2$",
+    "$-2$",
+    "$-3$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.14",
+    "12.2.1.13"
+   ],
+   "question": "Which of the following parametrisations will give the curve shown for $0\\le t\\le2\\pi$?",
+   "answer": "The curve passes through the origin, with $|x|\\le1$ and $|y|\\le1$, and has one period of $x$ for two of $y$ (a figure eight with lobes above and below the $x$-axis). Only $x=\\sin t$, $y=\\sin2t$ satisfies this: it passes through $(0,0)$ at $t=0$, and $y=\\sin 2t$ completes two periods while $x=\\sin t$ completes one (D). Options A and B have the wrong orientation, and C does not pass through the origin.",
+   "options": [
+    "$\\underset{\\sim}{r}(t)=(\\sin2t)\\underset{\\sim}{i}+(\\sin t)\\underset{\\sim}{j}$",
+    "$\\underset{\\sim}{r}(t)=(\\sin2t)\\underset{\\sim}{i}+(\\cos t)\\underset{\\sim}{j}$",
+    "$\\underset{\\sim}{r}(t)=(\\sin t)\\underset{\\sim}{i}+(\\cos2t)\\underset{\\sim}{j}$",
+    "$\\underset{\\sim}{r}(t)=(\\sin t)\\underset{\\sim}{i}+(\\sin2t)\\underset{\\sim}{j}$"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/ext2-2025-hurlstone/q8.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "If $\\displaystyle\\int_1^4f(x)\\,dx=k$ for some constant $k$, what is the value of $\\displaystyle\\int_1^4f(5-x)\\,dx$?",
+   "answer": "Let $u=5-x$, $du=-dx$; when $x=1$, $u=4$ and when $x=4$, $u=1$. So $\\int_1^4f(5-x)dx=-\\int_4^1f(u)du=\\int_1^4f(u)du=k$ (D).",
+   "options": [
+    "$-k$",
+    "$5-k$",
+    "$k+5$",
+    "$k$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.11"
+   ],
+   "question": "It is given that $f(x)$ is a non-zero even function and $g(x)$ is a non-zero odd function. Which expression is equal to $\\displaystyle\\int_{-a}^{a}\\big(f(x)+g(x)\\big)dx$?",
+   "answer": "For an odd function $\\int_{-a}^ag(x)dx=0$, and for an even function $\\int_{-a}^af(x)dx=2\\int_0^af(x)dx$. So the integral equals $2\\int_0^af(x)dx$ (A).",
+   "options": [
+    "$2\\displaystyle\\int_0^af(x)\\,dx$",
+    "$2\\displaystyle\\int_{-a}^{a}g(x)\\,dx$",
+    "$\\displaystyle\\int_{-a}^{a}g(x)\\,dx$",
+    "$\\displaystyle\\int_0^a\\big(f(x)+g(x)\\big)dx$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.9",
+    "12.3.1.10"
+   ],
+   "question": "Let $z=5-12i$ and $w=3+4i$. Find $z+\\overline w$ in the form $a+bi$.",
+   "answer": "$\\overline w=3-4i$, so $z+\\overline w=(5-12i)+(3-4i)=8-16i$."
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.13"
+   ],
+   "question": "Let $z=5-12i$ and $w=3+4i$. Show that $\\dfrac zw=-\\dfrac{33}{25}-\\dfrac{56}{25}i$.",
+   "answer": "$\\dfrac zw=\\dfrac{5-12i}{3+4i}\\times\\dfrac{3-4i}{3-4i}=\\dfrac{15-20i-36i+48i^2}{9+16}=\\dfrac{15-56i-48}{25}=\\dfrac{-33-56i}{25}=-\\dfrac{33}{25}-\\dfrac{56}{25}i$."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.5",
+    "12.3.5.4",
+    "12.3.5.3"
+   ],
+   "question": "On an Argand diagram, sketch the region where the inequalities $|z|<3$ and $-\\dfrac{2\\pi}3\\le\\arg(z+2)\\le\\dfrac\\pi6$ both hold. It is not necessary to find the intersection points.",
+   "answer": "$|z|<3$ is the interior of the circle of radius $3$ centred at the origin (dashed boundary). $\\arg(z+2)=\\arg(z-(-2))$ is the angle of the ray from the point $-2$. The condition $-\\frac{2\\pi}3\\le\\arg(z+2)\\le\\frac\\pi6$ is the sector bounded by the ray from $-2$ at $-120^\\circ$ (pointing down-left) and the ray from $-2$ at $30^\\circ$ (pointing up-right), including the rays, going through the positive real direction. The region is the part of this sector inside the circle (shaded).",
+   "answer_images": [
+    "assets/img/ext2-2025-hurlstone/q11b-sol.png"
+   ]
+  },
+  {
+   "ref": "Q11(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.8",
+    "12.3.4.9"
+   ],
+   "question": "Let $z$ and $w$ be two arbitrary complex numbers. Sketch the complex numbers $z$, $w$ and $z+w$ on an Argand diagram, representing each as a vector.",
+   "answer": "Draw $z$ and $w$ from the origin, then complete the parallelogram: $z+w$ is the diagonal from the origin (equivalently, place the tail of $w$ at the head of $z$).",
+   "answer_images": [
+    "assets/img/ext2-2025-hurlstone/q11c-sol.png"
+   ]
+  },
+  {
+   "ref": "Q11(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.10",
+    "12.1.3.4"
+   ],
+   "question": "Let $z$ and $w$ be arbitrary complex numbers. Justify why $|z+w|\\le|z|+|w|$.",
+   "answer": "In the triangle formed by the vectors $z$, $w$ and $z+w$, the length of one side ($|z+w|$) cannot exceed the sum of the lengths of the other two sides ($|z|+|w|$). Equality occurs only when $z$ and $w$ are in the same direction, i.e. the three points are collinear and the triangle is degenerate."
+  },
+  {
+   "ref": "Q11(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.10",
+    "12.3.2.7"
+   ],
+   "question": "If $|z|=10$, prove that $|13z^2-2z+5|\\le1325$.",
+   "answer": "By the triangle inequality, $|13z^2-2z+5|\\le|13z^2|+|-2z|+|5|=13|z|^2+2|z|+5=13(100)+2(10)+5=1325$."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.4",
+    "12.3.3.3"
+   ],
+   "question": "If $z=1+i$ is a root of the equation $z^3+pz^2+qz+6=0$, where $p$ and $q$ are real, find the values of $p$ and $q$.",
+   "answer": "Since the coefficients are real, $1-i$ is also a root. Let the third root be $\\gamma$. Product of roots: $(1+i)(1-i)\\gamma=-6$, so $2\\gamma=-6$ and $\\gamma=-3$. Sum of roots: $(1+i)+(1-i)-3=-p$, so $-1=-p$ and $p=1$. Sum of pairs: $(1+i)(1-i)+\\gamma\\big((1+i)+(1-i)\\big)=q$, so $q=2-6=-4$. Check: $z=-3$ gives $-27+9+12+6=0$ ✓. So $p=1$ and $q=-4$."
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.11",
+    "12.3.4.10"
+   ],
+   "question": "The points $A$ and $B$ represent the complex numbers $z_1=2-i$ and $z_2=8+i$ respectively. Find all possible complex numbers $z_3$, represented by $C$, such that $\\triangle ABC$ is isosceles and right-angled at $C$.",
+   "answer": "The midpoint of $AB$ is $M=5$, and $\\overrightarrow{AB}=6+2i$. Since the triangle is isosceles and right-angled at $C$, $C$ lies on the perpendicular bisector of $AB$ with $MC=\\frac12AB$, so $\\overrightarrow{MC}=\\pm\\frac i2(6+2i)=\\pm(-1+3i)$. Hence $z_3=5+(-1+3i)=4+3i$ or $z_3=5-(-1+3i)=6-3i$. Check for $4+3i$: $\\overrightarrow{CA}=-2-4i$ and $\\overrightarrow{CB}=4-2i$ have equal length $\\sqrt{20}$ and dot product $-8+8=0$ ✓. So $z_3=4+3i$ or $6-3i$."
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.4",
+    "12.3.2.6"
+   ],
+   "question": "Express $z=\\sqrt3-i$ in exponential form.",
+   "answer": "$|z|=\\sqrt{3+1}=2$ and $\\arg z=-\\frac\\pi6$, so $z=2e^{-\\frac{i\\pi}6}$."
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "Let $z=\\sqrt3-i$. Express $z^5$ in the form $a+bi$.",
+   "answer": "$z^5=2^5\\left(\\cos\\left(-\\frac{5\\pi}6\\right)+i\\sin\\left(-\\frac{5\\pi}6\\right)\\right)=32\\left(-\\frac{\\sqrt3}2-\\frac i2\\right)=-16\\sqrt3-16i$."
+  },
+  {
+   "ref": "Q12(a)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "Let $z=\\sqrt3-i$. For $n>0$, what is the least value of $n$ that will make $z^n$ a positive real number?",
+   "answer": "$z^n=2^n\\,\\mathrm{cis}\\left(-\\frac{n\\pi}6\\right)$ is a positive real exactly when $\\frac{n\\pi}6$ is a multiple of $2\\pi$, i.e. $n$ is a multiple of $12$. The least value is $n=12$."
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.5"
+   ],
+   "question": "Solve $z^3+1=0$.",
+   "answer": "$z^3=-1=\\mathrm{cis}\\,\\pi$, so $z=\\mathrm{cis}\\left(\\frac{\\pi+2k\\pi}3\\right)$ for $k=0,1,2$: $z=\\mathrm{cis}\\frac\\pi3=\\frac12+\\frac{\\sqrt3}2i$, $z=\\mathrm{cis}\\,\\pi=-1$ and $z=\\mathrm{cis}\\left(-\\frac\\pi3\\right)=\\frac12-\\frac{\\sqrt3}2i$."
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.5",
+    "12.3.3.1"
+   ],
+   "question": "Let $w$ be the value of $z$ with the smallest positive argument among the roots of $z^3+1=0$. Show that $w^2-w+1=0$.",
+   "answer": "Here $w=\\mathrm{cis}\\frac\\pi3$. Since $w^3+1=0$, $(w+1)(w^2-w+1)=0$. As $w\\ne-1$, $w^2-w+1=0$."
+  },
+  {
+   "ref": "Q12(b)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.12",
+    "12.3.4.3"
+   ],
+   "question": "Let $w=\\mathrm{cis}\\frac\\pi3$ be a root of $z^3+1=0$, so $w^2-w+1=0$. Hence, simplify $\\left(1+w^2\\right)^3(w-1)^2$.",
+   "answer": "From $w^2=w-1$: $1+w^2=w$ and $w-1=w^2$. So $\\left(1+w^2\\right)^3(w-1)^2=w^3\\cdot\\left(w^2\\right)^2=w^7$. Since $w^3=-1$, $w^7=(w^3)^2\\,w=w$. So the expression equals $w=\\frac12+\\frac{\\sqrt3}2i$."
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.2",
+    "12.3.4.4"
+   ],
+   "question": "Let $z=\\cos\\theta+i\\sin\\theta$. Show that $z^n+z^{-n}=2\\cos n\\theta$.",
+   "answer": "By de Moivre's theorem, $z^n=\\cos n\\theta+i\\sin n\\theta$ and $z^{-n}=\\cos n\\theta-i\\sin n\\theta$. Adding gives $z^n+z^{-n}=2\\cos n\\theta$."
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Expand $\\left(z+z^{-1}\\right)^4$.",
+   "answer": "$\\left(z+z^{-1}\\right)^4=z^4+4z^2+6+4z^{-2}+z^{-4}$."
+  },
+  {
+   "ref": "Q12(c)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Let $z=\\cos\\theta+i\\sin\\theta$. Use parts (i) and (ii) to show that $8\\cos^4\\theta=\\cos4\\theta+4\\cos2\\theta+3$.",
+   "answer": "By part (i), $z+z^{-1}=2\\cos\\theta$, so $\\left(z+z^{-1}\\right)^4=16\\cos^4\\theta$. By part (ii), $\\left(z+z^{-1}\\right)^4=\\left(z^4+z^{-4}\\right)+4\\left(z^2+z^{-2}\\right)+6=2\\cos4\\theta+8\\cos2\\theta+6$. Equating, $16\\cos^4\\theta=2\\cos4\\theta+8\\cos2\\theta+6$, so $8\\cos^4\\theta=\\cos4\\theta+4\\cos2\\theta+3$."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.11",
+    "12.1.2.3"
+   ],
+   "question": "Assuming $n>0$, prove using the contrapositive that if $4^n-1$ is prime, then $n$ is odd.",
+   "answer": "The contrapositive is: if $n$ is even then $4^n-1$ is not prime. Let $n=2k$ with $k\\ge1$ an integer. Then $4^n-1=\\left(4^k\\right)^2-1=\\left(4^k-1\\right)\\left(4^k+1\\right)$. Since $k\\ge1$, $4^k-1\\ge3>1$ and $4^k+1>1$, so $4^n-1$ is a product of two integers greater than $1$ and is composite. The contrapositive is true, so the original statement is true."
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.2",
+    "12.1.3.6"
+   ],
+   "question": "If $x$ and $y$ are real and unequal, then $x^2+y^2>2xy$ (do not prove this). Deduce that for $a,b,c$ real and unequal, $a^2+b^2+c^2>ab+bc+ac$.",
+   "answer": "Apply the result to each pair: $a^2+b^2>2ab$, $b^2+c^2>2bc$ and $a^2+c^2>2ac$. Adding, $2\\left(a^2+b^2+c^2\\right)>2(ab+bc+ac)$, so $a^2+b^2+c^2>ab+bc+ac$."
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "If $a,b,c$ are real and unequal and $a+b+c=6$, show that $ab+bc+ac<12$.",
+   "answer": "$(a+b+c)^2=a^2+b^2+c^2+2(ab+bc+ac)=36$. By part (i), $a^2+b^2+c^2>ab+bc+ac$, so $36>(ab+bc+ac)+2(ab+bc+ac)=3(ab+bc+ac)$. Hence $ab+bc+ac<12$."
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.6",
+    "12.1.1.7"
+   ],
+   "question": "Consider the statement: for all positive integers $a,b$, $a^2-4b\\ne2$. Write the negation of this statement in words.",
+   "answer": "There exist positive integers $a$ and $b$ such that $a^2-4b=2$."
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.2.3"
+   ],
+   "question": "Use proof by contradiction to prove that for all positive integers $a,b$, $a^2-4b\\ne2$.",
+   "answer": "Suppose there exist positive integers $a,b$ with $a^2-4b=2$. Then $a^2=4b+2$ is even, so $a$ is even; let $a=2m$. Then $4m^2=4b+2$, so $2m^2=2b+1$. The left side is even and the right side is odd, a contradiction. Hence $a^2-4b\\ne2$ for all positive integers $a,b$."
+  },
+  {
+   "ref": "Q13(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.9",
+    "12.4.1.6"
+   ],
+   "question": "By considering the integral $\\displaystyle\\int_k^{k+1}\\frac1{x\\sqrt x}\\,dx$, or otherwise, show that for all positive integers $k\\ge1$, $\\dfrac1{(k+1)\\sqrt{k+1}}<\\dfrac2{\\sqrt k}-\\dfrac2{\\sqrt{k+1}}$.",
+   "answer": "$\\displaystyle\\int_k^{k+1}x^{-3/2}dx=\\left[-2x^{-1/2}\\right]_k^{k+1}=\\frac2{\\sqrt k}-\\frac2{\\sqrt{k+1}}$. The function $x^{-3/2}$ is strictly decreasing, so on $[k,k+1]$ we have $x^{-3/2}\\ge(k+1)^{-3/2}$ with strict inequality for $x<k+1$. Integrating over an interval of width $1$ gives $\\int_k^{k+1}x^{-3/2}dx>\\frac1{(k+1)\\sqrt{k+1}}$. Hence $\\frac1{(k+1)\\sqrt{k+1}}<\\frac2{\\sqrt k}-\\frac2{\\sqrt{k+1}}$."
+  },
+  {
+   "ref": "Q13(d)(ii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.4.2"
+   ],
+   "question": "Hence, use the process of mathematical induction to prove that for all integers $n\\ge2$, $\\dfrac1{1\\sqrt1}+\\dfrac1{2\\sqrt2}+\\dfrac1{3\\sqrt3}+\\cdots+\\dfrac1{n\\sqrt n}<3-\\dfrac2{\\sqrt n}$.",
+   "answer": "For $n=2$: LHS $=1+\\frac1{2\\sqrt2}\\approx1.354$ and RHS $=3-\\sqrt2\\approx1.586$, so the statement holds. Assume it is true for $n=k\\ge2$: $\\sum_{r=1}^k\\frac1{r\\sqrt r}<3-\\frac2{\\sqrt k}$. Then for $n=k+1$: $\\sum_{r=1}^{k+1}\\frac1{r\\sqrt r}<3-\\frac2{\\sqrt k}+\\frac1{(k+1)\\sqrt{k+1}}<3-\\frac2{\\sqrt k}+\\frac2{\\sqrt k}-\\frac2{\\sqrt{k+1}}=3-\\frac2{\\sqrt{k+1}}$, using part (i). So the statement holds for $n=k+1$. By mathematical induction it is true for all integers $n\\ge2$."
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.3"
+   ],
+   "question": "Find the vector equation of the straight line that passes through $(2,10,-3)$ and is parallel to the vector $2\\underset{\\sim}{i}-3\\underset{\\sim}{k}$.",
+   "answer": "$\\underset{\\sim}{r}=\\begin{pmatrix}2\\\\10\\\\-3\\end{pmatrix}+\\lambda\\begin{pmatrix}2\\\\0\\\\-3\\end{pmatrix}$, $\\lambda\\in\\mathbb R$."
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.8"
+   ],
+   "question": "Determine whether the points $A(0,2,2)$, $B(4,10,18)$ and $C(6,14,26)$ are collinear.",
+   "answer": "$\\overrightarrow{AB}=\\begin{pmatrix}4\\\\8\\\\16\\end{pmatrix}$ and $\\overrightarrow{AC}=\\begin{pmatrix}6\\\\12\\\\24\\end{pmatrix}=\\frac32\\overrightarrow{AB}$. The vectors are parallel and share the point $A$, so $A$, $B$, $C$ are collinear."
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "Find the distance of the point $P(7,6,-2)$ from the $x$-axis.",
+   "answer": "The nearest point on the $x$-axis is $(7,0,0)$, so the distance is $\\sqrt{6^2+(-2)^2}=\\sqrt{40}=2\\sqrt{10}$."
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "Find the distance of the point $P(7,6,-2)$ from the point $(0,-4,5)$.",
+   "answer": "$\\sqrt{7^2+10^2+(-7)^2}=\\sqrt{198}=3\\sqrt{22}$."
+  },
+  {
+   "ref": "Q14(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.17",
+    "12.2.1.18"
+   ],
+   "question": "The sphere satisfies $x^2+y^2+z^2+6x-4y+2z+6=0$. Find the coordinates of its centre and its radius.",
+   "answer": "Completing the square: $(x+3)^2+(y-2)^2+(z+1)^2=9+4+1-6=8$. The centre is $(-3,2,-1)$ and the radius is $\\sqrt8=2\\sqrt2$.",
+   "images": [
+    "assets/img/ext2-2025-hurlstone/q14d.png"
+   ]
+  },
+  {
+   "ref": "Q14(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.18"
+   ],
+   "question": "The sphere satisfies $x^2+y^2+z^2+6x-4y+2z+6=0$. Find the Cartesian equation of the circle in which the sphere intersects the $x$-$y$ plane.",
+   "answer": "Put $z=0$: $x^2+y^2+6x-4y+6=0$, i.e. $(x+3)^2+(y-2)^2=7$ (with $z=0$). This is a circle of radius $\\sqrt7$ centred at $(-3,2,0)$.",
+   "images": [
+    "assets/img/ext2-2025-hurlstone/q14d.png"
+   ]
+  },
+  {
+   "ref": "Q14(e)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "Consider the vectors $\\underset{\\sim}{a}=\\begin{pmatrix}3\\\\1\\\\2\\end{pmatrix}$ and $\\underset{\\sim}{b}=\\begin{pmatrix}1\\\\-3\\\\4\\end{pmatrix}$. Find $\\cos\\theta$ as an exact value, where $\\theta$ is the angle between the two vectors.",
+   "answer": "$\\underset{\\sim}{a}\\cdot\\underset{\\sim}{b}=3-3+8=8$, $|\\underset{\\sim}{a}|=\\sqrt{14}$, $|\\underset{\\sim}{b}|=\\sqrt{26}$. So $\\cos\\theta=\\dfrac8{\\sqrt{14}\\sqrt{26}}=\\dfrac8{2\\sqrt{91}}=\\dfrac4{\\sqrt{91}}$."
+  },
+  {
+   "ref": "Q14(e)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.2.1"
+   ],
+   "question": "Let $\\underset{\\sim}{a}=\\begin{pmatrix}3\\\\1\\\\2\\end{pmatrix}$ and $\\underset{\\sim}{b}=\\begin{pmatrix}1\\\\-3\\\\4\\end{pmatrix}$, with $\\cos\\theta=\\frac4{\\sqrt{91}}$ where $\\theta$ is the angle between them. Hence find the exact area of the parallelogram that has vectors $\\underset{\\sim}{a}$ and $\\underset{\\sim}{b}$ as diagonals.",
+   "answer": "$\\sin\\theta=\\sqrt{1-\\frac{16}{91}}=\\frac{\\sqrt{75}}{\\sqrt{91}}=\\frac{5\\sqrt3}{\\sqrt{91}}$. The area of a parallelogram with diagonals $d_1$, $d_2$ meeting at angle $\\theta$ is $\\frac12d_1d_2\\sin\\theta$ (each of the four triangles has area $\\frac18d_1d_2\\sin\\theta$). So the area is $\\frac12\\sqrt{14}\\sqrt{26}\\cdot\\frac{5\\sqrt3}{\\sqrt{91}}=\\frac12\\cdot2\\sqrt{91}\\cdot\\frac{5\\sqrt3}{\\sqrt{91}}=5\\sqrt3$. (Check: $\\underset{\\sim}{a}\\times\\underset{\\sim}{b}=(10,-10,-10)$, $\\frac12|\\underset{\\sim}{a}\\times\\underset{\\sim}{b}|=5\\sqrt3$.)"
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Using a relevant substitution, find $\\displaystyle\\int\\frac{e^x}{e^{2x}+9}\\,dx$.",
+   "answer": "Let $u=e^x$, $du=e^xdx$. Then $\\int\\frac{du}{u^2+9}=\\frac13\\tan^{-1}\\frac u3+C=\\frac13\\tan^{-1}\\left(\\frac{e^x}3\\right)+C$."
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^2x^2\\ln x\\,dx$.",
+   "answer": "By parts with $u=\\ln x$, $dv=x^2dx$: $\\int x^2\\ln x\\,dx=\\frac{x^3}3\\ln x-\\int\\frac{x^2}3dx=\\frac{x^3}3\\ln x-\\frac{x^3}9$. At $x=2$: $\\frac83\\ln2-\\frac89$. At $x\\to0^+$ the expression tends to $0$ since $x^3\\ln x\\to0$. So the value is $\\frac83\\ln2-\\frac89$."
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.11"
+   ],
+   "question": "Differentiate $\\sin^{-1}x-\\sqrt{1-x^2}$. Give your answer in simplest form.",
+   "answer": "$\\dfrac d{dx}\\left(\\sin^{-1}x-\\sqrt{1-x^2}\\right)=\\dfrac1{\\sqrt{1-x^2}}+\\dfrac x{\\sqrt{1-x^2}}=\\dfrac{1+x}{\\sqrt{1-x^2}}$."
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.11"
+   ],
+   "question": "Hence, show that $\\displaystyle\\int_0^\\alpha\\sqrt{\\frac{1+x}{1-x}}\\,dx=\\sin^{-1}\\alpha+1-\\sqrt{1-\\alpha^2}$ for $0<\\alpha<1$.",
+   "answer": "For $-1<x<1$, $\\sqrt{\\frac{1+x}{1-x}}=\\frac{1+x}{\\sqrt{(1-x)(1+x)}}=\\frac{1+x}{\\sqrt{1-x^2}}$, which by part (i) is the derivative of $\\sin^{-1}x-\\sqrt{1-x^2}$. So the integral is $\\left[\\sin^{-1}x-\\sqrt{1-x^2}\\right]_0^\\alpha=\\sin^{-1}\\alpha-\\sqrt{1-\\alpha^2}-(0-1)=\\sin^{-1}\\alpha+1-\\sqrt{1-\\alpha^2}$."
+  },
+  {
+   "ref": "Q15(d)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^{\\pi/2}\\sin^nx\\,dx$. Show that $I_n=\\dfrac{n-1}n\\,I_{n-2}$ for $n\\ge2$.",
+   "answer": "Write $\\sin^nx=\\sin^{n-1}x\\sin x$ and integrate by parts with $u=\\sin^{n-1}x$, $dv=\\sin x\\,dx$: $I_n=\\left[-\\sin^{n-1}x\\cos x\\right]_0^{\\pi/2}+(n-1)\\int_0^{\\pi/2}\\sin^{n-2}x\\cos^2x\\,dx$. The boundary term is $0$ for $n\\ge2$. Using $\\cos^2x=1-\\sin^2x$: $I_n=(n-1)\\left(I_{n-2}-I_n\\right)$, so $nI_n=(n-1)I_{n-2}$ and $I_n=\\frac{n-1}nI_{n-2}$."
+  },
+  {
+   "ref": "Q15(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.14",
+    "12.1.4.3"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^{\\pi/2}\\sin^nx\\,dx$, with $I_n=\\frac{n-1}nI_{n-2}$ for $n\\ge2$. Hence, show that $I_{2n}=\\dfrac{\\pi\\,(2n)!}{2^{2n+1}(n!)^2}$.",
+   "answer": "Applying the recurrence repeatedly, $I_{2n}=\\frac{2n-1}{2n}\\cdot\\frac{2n-3}{2n-2}\\cdots\\frac12\\,I_0$ with $I_0=\\frac\\pi2$. The numerators multiply to $1\\cdot3\\cdots(2n-1)=\\frac{(2n)!}{2\\cdot4\\cdots2n}=\\frac{(2n)!}{2^nn!}$, and the denominators to $2\\cdot4\\cdots2n=2^nn!$. So $I_{2n}=\\frac\\pi2\\cdot\\frac{(2n)!}{2^nn!\\cdot2^nn!}=\\frac{\\pi\\,(2n)!}{2^{2n+1}(n!)^2}$. (Check: $n=1$ gives $\\frac{2\\pi}{8}=\\frac\\pi4=I_2$ ✓.)"
+  },
+  {
+   "ref": "Q16(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.1",
+    "12.5.1.2"
+   ],
+   "question": "At time $t$ the displacement $x$ of a particle satisfies $t=4-e^{-2x}$. Find the acceleration of the particle as a function of $x$.",
+   "answer": "$\\dfrac{dt}{dx}=2e^{-2x}$, so $v=\\dfrac{dx}{dt}=\\dfrac12e^{2x}$. Then $a=\\dfrac d{dx}\\left(\\tfrac12v^2\\right)=v\\dfrac{dv}{dx}=\\dfrac12e^{2x}\\cdot e^{2x}=\\dfrac12e^{4x}$."
+  },
+  {
+   "ref": "Q16(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.4",
+    "12.5.1.5"
+   ],
+   "question": "A $10$ kg box sits on frictionless ground and is subjected to a force of $T$ N inclined $30^\\circ$ up from the horizontal. If the box starts from rest and moves to the right, find its velocity after $t$ seconds in terms of $T$.",
+   "answer": "Horizontally, $10\\ddot x=T\\cos30^\\circ=\\frac{\\sqrt3}2T$, so $\\ddot x=\\frac{\\sqrt3\\,T}{20}$ (constant). Integrating with $v=0$ at $t=0$: $v=\\dfrac{\\sqrt3\\,T}{20}\\,t$ m/s.",
+   "images": [
+    "assets/img/ext2-2025-hurlstone/q16b.png"
+   ]
+  },
+  {
+   "ref": "Q16(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.1"
+   ],
+   "question": "A particle moves along the $x$-axis with $v^2=-2x^4+14x^2-24$. Show that the acceleration is $a=-4x\\left(x^2-\\dfrac72\\right)$.",
+   "answer": "$a=\\dfrac d{dx}\\left(\\tfrac12v^2\\right)=\\dfrac12\\left(-8x^3+28x\\right)=-4x^3+14x=-4x\\left(x^2-\\frac72\\right)$."
+  },
+  {
+   "ref": "Q16(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "A particle moves along the $x$-axis with $v^2=-2x^4+14x^2-24$ and $a=-4x\\left(x^2-\\frac72\\right)$. Initially it is stationary at $x=2$. Explain why the particle starts moving in the negative direction.",
+   "answer": "At $x=2$: $a=-8\\left(4-\\frac72\\right)=-4<0$. The particle is at rest and the acceleration is negative, so it begins to move in the negative direction."
+  },
+  {
+   "ref": "Q16(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "A particle moves along the $x$-axis with $v^2=-2x^4+14x^2-24$. Initially it is stationary at $x=2$ and starts moving in the negative direction. Where does the particle next come to rest?",
+   "answer": "$v=0$ when $2x^4-14x^2+24=0$, i.e. $x^4-7x^2+12=0$, so $(x^2-3)(x^2-4)=0$ and $x=\\pm2,\\pm\\sqrt3$. Moving left from $x=2$, the next point where $v=0$ is $x=\\sqrt3$ (between $\\sqrt3$ and $2$, $v^2>0$: e.g. at $x=1.9$, $v^2=-2(13.03)+14(3.61)-24=0.48>0$). So the particle next comes to rest at $x=\\sqrt3$ m."
+  },
+  {
+   "ref": "Q16(d)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "A particle moves horizontally. Initially it is at the origin with velocity $1$ m/s. Its acceleration is $a=x-1$, where $x$ is the displacement at time $t$. Show that the velocity is given by $v=1-x$.",
+   "answer": "$\\dfrac d{dx}\\left(\\tfrac12v^2\\right)=x-1$, so $\\frac12v^2=\\frac12(x-1)^2+C$. At $x=0$, $v=1$: $\\frac12=\\frac12+C$, so $C=0$ and $v^2=(x-1)^2$, i.e. $v=\\pm(1-x)$. Since $v=1>0$ when $x=0$, where $1-x=1$, and $v$ cannot change sign without being $0$ (which would require $x=1$), we take $v=1-x$."
+  },
+  {
+   "ref": "Q16(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "A particle moves horizontally with velocity $v=1-x$, starting at the origin at $t=0$. Find an expression for $x$ as a function of $t$.",
+   "answer": "$\\dfrac{dx}{dt}=1-x$, so $t=\\int\\frac{dx}{1-x}=-\\ln|1-x|+C$. At $t=0$, $x=0$ gives $C=0$. So $1-x=e^{-t}$ and $x=1-e^{-t}$."
+  },
+  {
+   "ref": "Q16(d)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "A particle moves horizontally with $x=1-e^{-t}$. Find the limiting position of the particle.",
+   "answer": "As $t\\to\\infty$, $e^{-t}\\to0$, so $x\\to1$. The limiting position is $x=1$ m."
+  }
+ ]
+}
