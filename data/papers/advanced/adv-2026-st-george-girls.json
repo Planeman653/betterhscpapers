@@ -1,0 +1,796 @@
+{
+ "id": "adv-2026-st-george-girls",
+ "course": "advanced",
+ "school": "St George Girls",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5328",
+  "title": "St George Girls 2026 w. sol"
+ },
+ "indexed": "2026-11-25",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q24(a)",
+   "reason": "Only asks to complete a printed probability tree diagram (the tree's probabilities are stated in the remaining parts)"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.3.4"
+   ],
+   "question": "There are 42 members in a dancing school. 10 members do neither Hip Hop nor Jazz, 15 do both Hip Hop and Jazz, and there are 20 members who do Jazz altogether. Given that a member chosen at random does Hip Hop, what is the probability that this member does not do Jazz?",
+   "answer": "Jazz only $=20-15=5$. Hip Hop only $=42-10-15-5=12$. Hip Hop total $=12+15=27$. $P(\\text{not Jazz}\\,|\\,\\text{Hip Hop})=\\dfrac{12}{27}=\\dfrac49$ (A).",
+   "options": [
+    "$\\frac49$",
+    "$\\frac59$",
+    "$\\frac27$",
+    "$\\frac{9}{14}$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.5.2",
+    "12.4.5.5"
+   ],
+   "question": "What is the correct solution to $\\displaystyle\\int\\left(e^2+e^{4x}\\right)dx$?",
+   "answer": "$e^2$ is a constant, so $\\int e^2\\,dx=e^2x$. $\\int e^{4x}dx=\\dfrac{e^{4x}}{4}$. Total: $e^2x+\\dfrac{e^{4x}}{4}+C$ (B).",
+   "options": [
+    "$e^2x+4e^{4x}+C$",
+    "$e^2x+\\dfrac{e^{4x}}{4}+C$",
+    "$2e^2+4e^{4x}+C$",
+    "$\\dfrac{e^2}{2}+\\dfrac{e^{4x}}{4}+C$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.2.1",
+    "11.6.1.6"
+   ],
+   "question": "Which interval gives the range of the function $y=5-2\\sin3x$?",
+   "answer": "The amplitude is 2 and the centre line is $y=5$, so the maximum is $5+2=7$ and the minimum is $5-2=3$. The range is $[3,7]$ (B).",
+   "options": [
+    "$[-2,2]$",
+    "$[3,7]$",
+    "$[2,8]$",
+    "$[2,7]$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.5",
+    "11.4.4.1"
+   ],
+   "question": "Which point on the following diagram has $y>0$, $\\dfrac{dy}{dx}>0$ and $\\dfrac{d^2y}{dx^2}<0$?",
+   "answer": "A is above the $x$-axis ($y>0$) on the rising part of the curve just before the local maximum, so $\\frac{dy}{dx}>0$, and the curve is concave down there, so $\\frac{d^2y}{dx^2}<0$. B is past the maximum, where the curve is decreasing. C is below the $x$-axis. D is above the axis and rising but the curve is concave up there. Only A satisfies all three conditions (A).",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/adv-2026-sgg/q4.png"
+   ]
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.4",
+    "11.1.4.1"
+   ],
+   "question": "The diagram below shows the graph of $y=x^2+bx+c$, where $b$ and $c$ are constants. Which of the following are true?",
+   "answer": "The $y$-intercept is below the origin, so $c<0$. The vertex (axis of symmetry) lies to the right of the $y$-axis, so $-\\dfrac{b}{2a}>0$, and with $a=1>0$ this gives $b<0$. So $b<0$ and $c<0$ (D).",
+   "options": [
+    "$b>0$ and $c>0$",
+    "$b>0$ and $c<0$",
+    "$b<0$ and $c>0$",
+    "$b<0$ and $c<0$"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/adv-2026-sgg/q5.png"
+   ]
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.6.1.6"
+   ],
+   "question": "Given that the graph of $y=f(x)$ has a local maximum at $(-4,3)$, what will the graph of $y=-2f\\left(\\dfrac12x\\right)$ have?",
+   "answer": "The negative sign reflects in the $x$-axis, so the maximum becomes a minimum: $(-4,3)\\to(-4,-3)$. The factor 2 is a vertical dilation: $(-4,-3)\\to(-4,-6)$. Replacing $x$ by $\\frac12x$ is a horizontal dilation by factor 2: $(-4,-6)\\to(-8,-6)$. So there is a local minimum at $(-8,-6)$ (A).",
+   "options": [
+    "A local minimum at $(-8,-6)$",
+    "A local minimum at $(-2,-6)$",
+    "A local maximum at $(-8,6)$",
+    "A local maximum at $(-2,6)$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.6.2",
+    "12.5.3.2"
+   ],
+   "question": "A vessel initially contains 100 litres of water. It is being emptied at a rate of $\\dfrac{dV}{dt}=-2-\\dfrac{20}{t+1}$, where $V$ is the volume in litres after $t$ minutes. Which of the following gives the exact volume of water (in litres) remaining in the vessel after five minutes?",
+   "answer": "$V=-2t-20\\ln(t+1)+C$. When $t=0$, $V=100$, so $C=100$. At $t=5$: $V=-10-20\\ln6+100=90-20\\ln6$ (B).",
+   "options": [
+    "$10+20\\ln6$",
+    "$90-20\\ln6$",
+    "$90+20\\ln6$",
+    "$110+20\\ln6$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.5",
+    "12.4.8.2"
+   ],
+   "question": "Part of the graph of $y=f(x)$ is shown below. The horizontal line $y=b$ is a tangent to the local maximum at $(b,f(b))$. The shaded area is bounded by the graph of $y=f(x)$, the coordinate axes, and the horizontal line. Which is the correct expression for the area of the shaded region?",
+   "answer": "The rectangle $0\\le x\\le b$, $0\\le y\\le f(b)$ has area $b\\times f(b)$. The shaded region is the part of this rectangle lying above the curve from $x=a$ to $x=b$ (where the curve is between the axis and the line $y=b$), so its area is the rectangle minus the area under the curve: $bf(b)-\\int_a^bf(x)\\,dx$ (C).",
+   "options": [
+    "$af(b)-\\displaystyle\\int_a^bf(x)\\,dx$",
+    "$af(b)+\\displaystyle\\int_a^bf(x)\\,dx$",
+    "$bf(b)-\\displaystyle\\int_a^bf(x)\\,dx$",
+    "$\\displaystyle\\int_0^bf(x)\\,dx-bf(b)$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/adv-2026-sgg/q8.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.4",
+    "12.5.3.10"
+   ],
+   "question": "The graph below shows the velocity, $v$ m/s, of a particle moving along a straight line for the first 8 seconds. The areas between the velocity curve and the time ($t$) axis during this time interval are as shown. Given that the displacement of the particle at $t=0$ is 4 m, find the displacement of the particle at $t=8$ seconds.",
+   "answer": "Displacement is the signed area under the velocity–time graph: $+2$ (from $t=0$ to 1), $-8$ (from $t=1$ to 5) and $+9$ (from $t=5$ to 8). Change in displacement $=2-8+9=3$ m. So $x(8)=4+3=7$ m (C).",
+   "options": [
+    "$x=2$ m",
+    "$x=3$ m",
+    "$x=7$ m",
+    "$x=24$ m"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/adv-2026-sgg/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.3.10",
+    "12.3.4.1"
+   ],
+   "question": "The functions $h(x)$ and $g(x)$ are defined for all real $x$, and $h(x)=[g(x)]^4$. Given that $h'(-2)=96$, $g'(-2)=-3$, what is the value of $h(-2)$?",
+   "answer": "$h'(x)=4[g(x)]^3g'(x)$. At $x=-2$: $96=4[g(-2)]^3(-3)=-12[g(-2)]^3$, so $[g(-2)]^3=-8$ and $g(-2)=-2$. Then $h(-2)=(-2)^4=16$ (D).",
+   "options": [
+    "$-16$",
+    "$-2$",
+    "$2$",
+    "$16$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q11",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.2"
+   ],
+   "question": "The first three terms of an arithmetic sequence are 5, 9 and 13. Find the 19th term.",
+   "answer": "$a=5$, $d=4$. $T_{19}=5+(19-1)(4)=77$."
+  },
+  {
+   "ref": "Q12",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.3.5",
+    "11.4.3.3"
+   ],
+   "question": "Find the equation of the tangent to the curve $y=1+2x^2-\\dfrac{4}{x^2}$ at the point $(2,8)$.",
+   "answer": "$y=1+2x^2-4x^{-2}$, so $y'=4x+8x^{-3}=4x+\\dfrac{8}{x^3}$. At $x=2$: $y'=8+1=9$. The tangent is $y-8=9(x-2)$, i.e. $y=9x-10$."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "The probability distribution of a discrete random variable $X$ is given in the table below.\n\n| $x$ | 0 | 2 | 3 | 5 |\n|---|---|---|---|---|\n| $P(X=x)$ | 0.3 | $2k$ | $3k$ | 0.1 |\n\nFind the value of $k$.",
+   "answer": "Probabilities sum to 1: $0.3+2k+3k+0.1=1$, so $5k=0.6$ and $k=0.12$."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.1.6"
+   ],
+   "question": "A discrete random variable $X$ has $P(0)=0.3$, $P(2)=0.24$, $P(3)=0.36$, $P(5)=0.1$ (that is, $k=0.12$). Calculate the expected value, $E(X)$.",
+   "answer": "$E(X)=0(0.3)+2(0.24)+3(0.36)+5(0.1)=0.48+1.08+0.5=2.06$."
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.6"
+   ],
+   "question": "A discrete random variable $X$ has $P(0)=0.3$, $P(2)=0.24$, $P(3)=0.36$, $P(5)=0.1$ and expected value $E(X)=2.06$. Find the standard deviation.",
+   "answer": "$E(X^2)=0+4(0.24)+9(0.36)+25(0.1)=0.96+3.24+2.5=6.7$. $\\mathrm{Var}(X)=6.7-2.06^2=6.7-4.2436=2.4564$. Standard deviation $=\\sqrt{2.4564}\\approx1.57$."
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.1.9"
+   ],
+   "question": "A discrete random variable $X$ has $P(0)=0.3$, $P(2)=0.24$, $P(3)=0.36$, $P(5)=0.1$. Find $P(X\\text{ is odd})$.",
+   "answer": "The odd values are 3 and 5: $P(X\\text{ odd})=0.36+0.1=0.46$."
+  },
+  {
+   "ref": "Q14",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.4.5",
+    "12.4.8.1"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^1\\frac{x}{\\sqrt{x^2+2}}\\,dx$ correct to 4 decimal places.",
+   "answer": "Since $\\dfrac{d}{dx}\\sqrt{x^2+2}=\\dfrac{x}{\\sqrt{x^2+2}}$: $\\displaystyle\\int_0^1\\frac{x}{\\sqrt{x^2+2}}dx=\\left[\\sqrt{x^2+2}\\right]_0^1=\\sqrt3-\\sqrt2\\approx0.3178$."
+  },
+  {
+   "ref": "Q15",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.1.13",
+    "11.3.1.7"
+   ],
+   "question": "Solve the equation $\\sin^2x-\\sqrt3\\sin x\\cos x=0$ for $0\\le x\\le2\\pi$.",
+   "answer": "Factorise: $\\sin x\\left(\\sin x-\\sqrt3\\cos x\\right)=0$. Either $\\sin x=0$, giving $x=0,\\pi,2\\pi$; or $\\sin x=\\sqrt3\\cos x$, i.e. $\\tan x=\\sqrt3$, giving $x=\\dfrac\\pi3,\\dfrac{4\\pi}3$. Solutions: $x=0,\\ \\dfrac\\pi3,\\ \\pi,\\ \\dfrac{4\\pi}{3},\\ 2\\pi$."
+  },
+  {
+   "ref": "Q16(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "In the diagram below, a car travels 8 km on a bearing of 080° from Town A to Town B. It then travels 13 km on a bearing of 132° from Town B to Town C. Find the size of $\\angle ABC$.",
+   "answer": "The bearing of A from B is $080^\\circ+180^\\circ=260^\\circ$. The bearing of C from B is $132^\\circ$. So $\\angle ABC=260^\\circ-132^\\circ=128^\\circ$.",
+   "images": [
+    "assets/img/adv-2026-sgg/q16.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "A car travels 8 km on a bearing of 080° from Town A to Town B, then 13 km on a bearing of 132° from Town B to Town C, so that $\\angle ABC=128^\\circ$. Find the bearing of Town C from Town A.",
+   "answer": "Cosine rule: $AC^2=8^2+13^2-2(8)(13)\\cos128^\\circ\\approx233+128.06=361.06$, so $AC\\approx19.00$ km. Sine rule: $\\dfrac{\\sin\\angle BAC}{13}=\\dfrac{\\sin128^\\circ}{19.00}$, so $\\sin\\angle BAC\\approx0.5391$ and $\\angle BAC\\approx32.6^\\circ$. C lies clockwise of B as seen from A, so the bearing of C from A is $080^\\circ+32.6^\\circ\\approx113^\\circ$.",
+   "images": [
+    "assets/img/adv-2026-sgg/q16.png"
+   ]
+  },
+  {
+   "ref": "Q17",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.9"
+   ],
+   "question": "The graph of $y=f(x)$ passes through the points $(2,5)$ and $(3,a)$. If its gradient function is given by $f'(x)=3x^2-4x$, find the value of $a$.",
+   "answer": "$f(x)=x^3-2x^2+C$. Using $(2,5)$: $8-8+C=5$, so $C=5$. Then $a=f(3)=27-18+5=14$."
+  },
+  {
+   "ref": "Q18",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.12",
+    "11.3.1.11"
+   ],
+   "question": "Prove that $\\sec x+\\tan x=\\dfrac{\\cos x}{1-\\sin x}$.",
+   "answer": "LHS $=\\dfrac{1}{\\cos x}+\\dfrac{\\sin x}{\\cos x}=\\dfrac{1+\\sin x}{\\cos x}$. Multiply top and bottom by $(1-\\sin x)$: $\\dfrac{(1+\\sin x)(1-\\sin x)}{\\cos x(1-\\sin x)}=\\dfrac{1-\\sin^2x}{\\cos x(1-\\sin x)}=\\dfrac{\\cos^2x}{\\cos x(1-\\sin x)}=\\dfrac{\\cos x}{1-\\sin x}=$ RHS."
+  },
+  {
+   "ref": "Q19(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.1"
+   ],
+   "question": "A charity starts a fundraising drive, and records the donations received each week for the first four weeks after the drive is launched. The graph shows the results: Week 1 \\$2 700, Week 2 \\$1 800, Week 3 \\$1 200, Week 4 \\$800. The director notices that the amount of donations received each week follows a geometric sequence. Find the common ratio.",
+   "answer": "$r=\\dfrac{1800}{2700}=\\dfrac23$.",
+   "images": [
+    "assets/img/adv-2026-sgg/q19.png"
+   ]
+  },
+  {
+   "ref": "Q19(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.2"
+   ],
+   "question": "Weekly donations form a geometric sequence with first term \\$2 700 and common ratio $\\frac23$. Assuming the same pattern continues, how much would be predicted to be received in Week 8 (to the nearest dollar)?",
+   "answer": "$T_8=2700\\left(\\dfrac23\\right)^7=\\dfrac{2700\\times128}{2187}\\approx\\$158$."
+  },
+  {
+   "ref": "Q19(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.5"
+   ],
+   "question": "Weekly donations form a geometric sequence with first term \\$2 700 and common ratio $\\frac23$. What total amount would be raised in the first thirteen weeks?",
+   "answer": "$S_{13}=\\dfrac{2700\\left(1-\\left(\\frac23\\right)^{13}\\right)}{1-\\frac23}=8100\\left(1-\\left(\\tfrac23\\right)^{13}\\right)\\approx\\$8058$."
+  },
+  {
+   "ref": "Q19(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.7",
+    "12.2.3.8"
+   ],
+   "question": "Weekly donations form a geometric sequence with first term \\$2 700 and common ratio $\\frac23$. The total raised in the first thirteen weeks is approximately \\$8 058. The director claims that the drive will never raise more than \\$8100 in total. Explain how she can make this prediction, and why she decides to launch a new fundraising drive after Week 13.",
+   "answer": "Since $|r|=\\frac23<1$ there is a limiting sum: $S_\\infty=\\dfrac{a}{1-r}=\\dfrac{2700}{1/3}=\\$8100$, which is the most the drive can ever raise. After 13 weeks \\$8 058 has already been raised, only about \\$42 less than the limiting sum, so very little more can be collected and it makes sense to start a new drive."
+  },
+  {
+   "ref": "Q20(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.4",
+    "12.5.3.8"
+   ],
+   "question": "The population of Victoria Street in Kogarah can be modelled by the function $V=1500e^{-0.06t}$, where $t$ is the number of years since the 1st of January 2026. Find the population of Victoria Street at the end of September 2026.",
+   "answer": "End of September is 9 months, so $t=\\frac{9}{12}=0.75$. $V=1500e^{-0.06(0.75)}=1500e^{-0.045}\\approx1434$ people."
+  },
+  {
+   "ref": "Q20(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.4",
+    "12.5.3.1"
+   ],
+   "question": "The population of Victoria Street in Kogarah can be modelled by $V=1500e^{-0.06t}$, where $t$ is the number of years since the 1st of January 2026. Find the rate at which the population is changing on the 1st of January 2031. Give your answer correct to the nearest whole number.",
+   "answer": "$\\dfrac{dV}{dt}=-90e^{-0.06t}$. On 1 January 2031, $t=5$: $\\dfrac{dV}{dt}=-90e^{-0.3}\\approx-66.7$. The population is decreasing at about 67 people per year."
+  },
+  {
+   "ref": "Q21",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.2.7",
+    "11.5.2.9"
+   ],
+   "question": "Solve the following simultaneous equations: $\\log_3x+\\log_3y=8$ and $\\log_xy=3$.",
+   "answer": "From the first, $\\log_3(xy)=8$, so $xy=3^8=6561$. From the second, $y=x^3$. Then $x\\cdot x^3=x^4=6561=9^4$, so $x=9$ (since $x>0$, $x\\ne1$). Then $y=9^3=729$."
+  },
+  {
+   "ref": "Q22",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.5",
+    "11.1.9.8"
+   ],
+   "question": "The area enclosed by the curve $y=x^2$, the $y$-axis and the line $y=a$, where $a>0$, in the first quadrant is exactly 10 units$^2$. Find the value of $a$ correct to 2 decimal places.",
+   "answer": "Area $=\\displaystyle\\int_0^a\\sqrt y\\,dy=\\left[\\frac23y^{3/2}\\right]_0^a=\\frac23a^{3/2}=10$. So $a^{3/2}=15$ and $a=15^{2/3}\\approx6.08$."
+  },
+  {
+   "ref": "Q23",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.2.3.7",
+    "11.2.2.10"
+   ],
+   "question": "The triangle $ODC$ is inside a sector $OBA$ that has a central angle of $\\dfrac{2\\pi}{3}$, as shown in the diagram. $D$ lies on $OB$ and $C$ lies on $OA$. The lengths of the sector and triangle are as follows: $DC=8\\sqrt3$ cm, $AC=BD$, and $OC=OD=2AC$. Find the exact area of the shaded region (the sector minus the triangle).",
+   "answer": "Let $AC=a$, so $OC=OD=2a$. In $\\triangle ODC$, by the cosine rule: $DC^2=(2a)^2+(2a)^2-2(2a)(2a)\\cos\\frac{2\\pi}{3}=8a^2+4a^2=12a^2$. So $12a^2=\\left(8\\sqrt3\\right)^2=192$ and $a=4$. Then $OA=OC+AC=3a=12$ cm, so the sector has radius 12. Sector area $=\\frac12(12)^2\\left(\\frac{2\\pi}{3}\\right)=48\\pi$. Triangle area $=\\frac12(8)(8)\\sin\\frac{2\\pi}{3}=32\\cdot\\frac{\\sqrt3}{2}=16\\sqrt3$. Shaded area $=\\left(48\\pi-16\\sqrt3\\right)$ cm$^2$.",
+   "images": [
+    "assets/img/adv-2026-sgg/q23.png"
+   ]
+  },
+  {
+   "ref": "Q24(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.3.7"
+   ],
+   "question": "In a particular city, the probability that it will snow on Monday is $x$. If it does snow on Monday, the probability that it will snow on Tuesday is $\\frac14x$. If it does not snow on Monday, the probability that it will snow on Tuesday is $x$. Find an expression, in terms of $x$, that gives the probability that it will snow on Tuesday.",
+   "answer": "Using the two branches that end in snow on Tuesday: $P(S_{Tue})=x\\cdot\\frac14x+(1-x)\\cdot x=\\frac{x^2}{4}+x-x^2=x-\\frac34x^2$."
+  },
+  {
+   "ref": "Q24(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.4",
+    "11.7.3.7"
+   ],
+   "question": "In a particular city, the probability that it will snow on Tuesday is $P=x-\\frac34x^2$, where $x$ is the probability that it will snow on Monday. Find the greatest probability of snow on Tuesday by first finding the value of $x$.",
+   "answer": "$\\dfrac{dP}{dx}=1-\\dfrac32x=0$ gives $x=\\dfrac23$. $\\dfrac{d^2P}{dx^2}=-\\dfrac32<0$, so this is a maximum. $P=\\dfrac23-\\dfrac34\\cdot\\dfrac49=\\dfrac23-\\dfrac13=\\dfrac13$. The greatest probability of snow on Tuesday is $\\dfrac13$."
+  },
+  {
+   "ref": "Q25",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "The trigonometric function shown is defined by the equation $y=a\\sin[b(t+c)]+d$. Find the values of $a$, $b$, $c$ and $d$ correct to 2 decimal places where required.",
+   "answer": "The maximum is 8 and the minimum is 4, so $a=\\dfrac{8-4}{2}=2$ and $d=\\dfrac{8+4}{2}=6$. The maxima at $t=1$ and $t=13$ give period 12, so $b=\\dfrac{2\\pi}{12}=\\dfrac\\pi6\\approx0.52$. For $c$: the maximum at $t=1$ requires $\\dfrac\\pi6(1+c)=\\dfrac\\pi2$, so $c=2$. (Using the labelled $y$-intercept $(0,7.59)$ instead: $7.59=2\\sin\\left(\\frac\\pi6c\\right)+6$ gives $c\\approx1.76$, which the school also accepted as a rounded reading of the graph.) So $a=2$, $b\\approx0.52$, $c=2$, $d=6$.",
+   "images": [
+    "assets/img/adv-2026-sgg/q25.png"
+   ]
+  },
+  {
+   "ref": "Q26(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.6.1.6",
+    "11.6.1.1"
+   ],
+   "question": "The figure shows the curve with equation $f(x)=(1+x)(5-x)$, and the curve with equation $y=g(x)$. Both curves meet the $y$-axis at the point $P$. The curve with equation $y=g(x)$ can be obtained by a series of transformations of the curve with equation $y=f(x)$. List the sequence of transformations applied to $f(x)$ to give $g(x)$, and hence find the equation of the curve $y=g(x)$.",
+   "answer": "$g(x)$ has the same shape as $f(x)$ but opens upward with the vertex at the same $x$-value, so the transformations are a reflection in the $x$-axis followed by a vertical translation. $f(x)=-x^2+4x+5$, so $-f(x)=x^2-4x-5$. Both curves pass through $P(0,5)$, so the translation is up 10 units: $g(x)=-f(x)+10=x^2-4x+5$, i.e. $g(x)=10-(1+x)(5-x)$.",
+   "images": [
+    "assets/img/adv-2026-sgg/q26.png"
+   ]
+  },
+  {
+   "ref": "Q26(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.6"
+   ],
+   "question": "The curves $y=f(x)=(1+x)(5-x)$ and $y=g(x)=x^2-4x+5$ both pass through the point $P$ on the $y$-axis and meet again at a second point. Calculate the area bounded by the two curves.",
+   "answer": "Intersection: $-x^2+4x+5=x^2-4x+5$, so $2x^2-8x=0$ and $x=0$ or $x=4$. On $0\\le x\\le4$, $f(x)\\ge g(x)$. Area $=\\displaystyle\\int_0^4\\left(f-g\\right)dx=\\int_0^4(8x-2x^2)\\,dx=\\left[4x^2-\\frac23x^3\\right]_0^4=64-\\frac{128}{3}=\\frac{64}{3}$ units$^2$.",
+   "images": [
+    "assets/img/adv-2026-sgg/q26.png"
+   ]
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.3.8",
+    "12.3.3.4"
+   ],
+   "question": "Differentiate $2x\\cos x$.",
+   "answer": "Product rule: $\\dfrac{d}{dx}(2x\\cos x)=2\\cos x+2x(-\\sin x)=2\\cos x-2x\\sin x$."
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.7.1",
+    "12.4.4.4"
+   ],
+   "question": "Given that $\\dfrac{d}{dx}(2x\\cos x)=2\\cos x-2x\\sin x$, find $\\displaystyle\\int x\\sin x\\,dx$.",
+   "answer": "Integrate both sides: $2x\\cos x=2\\sin x-2\\int x\\sin x\\,dx$ (+ constant). So $2\\int x\\sin x\\,dx=2\\sin x-2x\\cos x$, and $\\displaystyle\\int x\\sin x\\,dx=\\sin x-x\\cos x+C$."
+  },
+  {
+   "ref": "Q28(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "The number of hours, $h$, of daylight in a certain city can be modelled by the function of the form $h(t)=12+\\dfrac52\\cos\\left[\\dfrac{\\pi}{183}(t-22)\\right]$ for $1\\le t\\le366$, where $t$ is the number of days from the 1st of January in a leap year. For example, $t=1$ corresponds to the 1st of January and $t=366$ corresponds to the 31st of December. Find the maximum number of hours of daylight.",
+   "answer": "The maximum value of cosine is 1, so $h_{max}=12+\\frac52=14.5$ hours."
+  },
+  {
+   "ref": "Q28(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "The number of hours of daylight is modelled by $h(t)=12+\\dfrac52\\cos\\left[\\dfrac{\\pi}{183}(t-22)\\right]$ for $1\\le t\\le366$, where $t=1$ is the 1st of January in a leap year. On what date does the maximum occur for the first time?",
+   "answer": "The maximum occurs when $\\cos\\left[\\frac{\\pi}{183}(t-22)\\right]=1$, i.e. $t=22$. Since $t=1$ is 1 January, $t=22$ is 22 January."
+  },
+  {
+   "ref": "Q28(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.2.1",
+    "11.3.1.10"
+   ],
+   "question": "The number of hours of daylight is modelled by $h(t)=12+\\dfrac52\\cos\\left[\\dfrac{\\pi}{183}(t-22)\\right]$ for $1\\le t\\le366$. On how many days of the year is the number of hours of daylight at least 10 hours and 45 minutes?",
+   "answer": "10 h 45 min $=10.75$ h. Solve $12+\\frac52\\cos\\theta\\ge10.75$ where $\\theta=\\frac{\\pi}{183}(t-22)$: $\\cos\\theta\\ge-\\frac12$. Over one year $\\cos\\theta<-\\frac12$ when $\\frac{2\\pi}{3}<\\theta<\\frac{4\\pi}{3}$, i.e. $\\frac{\\pi}{183}(t-22)$ between $\\frac{2\\pi}{3}$ and $\\frac{4\\pi}{3}$, so $122<t-22<244$, i.e. $144<t<266$. This is the days $t=145$ to $t=265$: 121 days. So the daylight is at least 10 h 45 min on $366-121=245$ days."
+  },
+  {
+   "ref": "Q29(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.8.11"
+   ],
+   "question": "The diagram shows the graph of $y=(x-1)^4-2(x-1)^2+4$. The shaded area, $A_1$, is the area enclosed between the $x$-axis, the curve and the lines $x=0$ and $x=3$. Use three applications of the Trapezoidal rule to estimate the area $A_1$.",
+   "answer": "With $h=1$ and $y(0)=3$, $y(1)=4$, $y(2)=3$, $y(3)=12$: $A_1\\approx\\frac12\\left[3+12+2(4+3)\\right]=\\frac12(29)=14.5$ units$^2$.",
+   "images": [
+    "assets/img/adv-2026-sgg/q29.png"
+   ]
+  },
+  {
+   "ref": "Q29(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.6.1.2",
+    "12.4.8.5"
+   ],
+   "question": "Explain why $\\displaystyle\\int_0^3\\left[(x-1)^4-2(x-1)^2+4\\right]dx=\\int_{-1}^{2}\\left(x^4-2x^2+4\\right)dx$.",
+   "answer": "$y=(x-1)^4-2(x-1)^2+4$ is the graph of $y=x^4-2x^2+4$ translated 1 unit to the right. A horizontal translation does not change areas, so the area between $x=0$ and $x=3$ for the translated graph equals the area between $x=-1$ and $x=2$ for the original. (Equivalently, substitute $u=x-1$: the limits $0$ and $3$ become $-1$ and $2$.)"
+  },
+  {
+   "ref": "Q29(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.1",
+    "12.4.4.3"
+   ],
+   "question": "The area $A_1$ is $\\displaystyle\\int_0^3\\left[(x-1)^4-2(x-1)^2+4\\right]dx=\\int_{-1}^{2}\\left(x^4-2x^2+4\\right)dx$. Hence, or otherwise, find the exact value of $A_1$.",
+   "answer": "$\\displaystyle\\int_{-1}^{2}(x^4-2x^2+4)\\,dx=\\left[\\frac{x^5}{5}-\\frac{2x^3}{3}+4x\\right]_{-1}^{2}=\\left(\\frac{32}{5}-\\frac{16}{3}+8\\right)-\\left(-\\frac15+\\frac23-4\\right)=\\frac{33}{5}-6+12=\\frac{63}{5}$."
+  },
+  {
+   "ref": "Q29(d)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.11"
+   ],
+   "question": "The area $A_1$ under $y=(x-1)^4-2(x-1)^2+4$ between $x=0$ and $x=3$ was estimated as 14.5 using three applications of the Trapezoidal rule, while its exact value is $\\frac{63}{5}=12.6$. Explain why the approximation is greater than the exact area.",
+   "answer": "The curve is concave up on parts of the interval (where $y''=12(x-1)^2-4>0$, i.e. for $|x-1|>\\frac{1}{\\sqrt3}$), particularly on $2\\le x\\le3$ where it rises steeply. There the chord forming the top of each trapezium lies above the curve, so the trapezium has more area than the region under the curve. This overestimate in the last strip (7.5 against exactly $\\frac{83}{15}\\approx5.53$) outweighs the small underestimates in the first two strips.",
+   "images": [
+    "assets/img/adv-2026-sgg/q29.png"
+   ]
+  },
+  {
+   "ref": "Q30(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.4",
+    "12.5.1.8"
+   ],
+   "question": "Consider the function with equation $y=x^3e^x$, which has derivatives $\\dfrac{dy}{dx}=x^2e^x(x+3)$ and $\\dfrac{d^2y}{dx^2}=xe^x(x^2+6x+6)$. Find any stationary points and determine their nature.",
+   "answer": "$\\dfrac{dy}{dx}=0$ gives $x=0$ or $x=-3$. At $x=-3$: $y=-27e^{-3}\\approx-1.34$ and $\\dfrac{d^2y}{dx^2}=-3e^{-3}(9-18+6)=9e^{-3}>0$, so $\\left(-3,-27e^{-3}\\right)$ is a local minimum. At $x=0$: $y=0$ and $\\dfrac{d^2y}{dx^2}=0$, so test the sign of $\\dfrac{dy}{dx}$: $x^2e^x(x+3)>0$ on both sides of 0 (for $x>-3$). The gradient does not change sign, so $(0,0)$ is a horizontal point of inflection."
+  },
+  {
+   "ref": "Q30(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.9"
+   ],
+   "question": "Describe what happens to the function $y=x^3e^x$ as $x\\to\\pm\\infty$.",
+   "answer": "As $x\\to\\infty$, both $x^3$ and $e^x$ grow without bound, so $y\\to\\infty$. As $x\\to-\\infty$, $e^x\\to0$ much faster than $x^3$ grows, so $y\\to0$ (from below, since $y<0$ for $x<0$). The $x$-axis is a horizontal asymptote on the left."
+  },
+  {
+   "ref": "Q30(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.1"
+   ],
+   "question": "Find the global minimum value of $y=x^3e^x$.",
+   "answer": "The only local minimum is at $x=-3$, with $y=-27e^{-3}\\approx-1.34$. For $x>0$, $y>0$, and as $x\\to-\\infty$, $y\\to0^-$, so this is the global minimum: $y=-27e^{-3}\\approx-1.34$."
+  },
+  {
+   "ref": "Q30(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.9"
+   ],
+   "question": "You are given that $(-4.7,-0.9)$ and $(-1.3,-0.6)$ are points of inflection of $y=x^3e^x$. Sketch the graph of $y=x^3e^x$.",
+   "answer": "Key features: local minimum at $\\left(-3,-27e^{-3}\\right)\\approx(-3,-1.34)$; points of inflection at $(-4.7,-0.9)$ and $(-1.3,-0.6)$; a horizontal point of inflection at the origin; $y\\to0^-$ as $x\\to-\\infty$ and $y\\to\\infty$ as $x\\to\\infty$. See the diagram.",
+   "answer_images": [
+    "assets/img/adv-2026-sgg/q30-sol.png"
+   ]
+  },
+  {
+   "ref": "Q31(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.9"
+   ],
+   "question": "A particle starts to move from the origin along the $x$-axis. Its velocity at time $t$ seconds is given by $v=8+\\dfrac{6}{2t+1}$ metres per second. Find the acceleration of the particle after 2 seconds.",
+   "answer": "$v=8+6(2t+1)^{-1}$, so $a=\\dfrac{dv}{dt}=-12(2t+1)^{-2}=-\\dfrac{12}{(2t+1)^2}$. At $t=2$: $a=-\\dfrac{12}{25}=-0.48$ m/s$^2$."
+  },
+  {
+   "ref": "Q31(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.10"
+   ],
+   "question": "A particle moves along the $x$-axis with velocity $v=8+\\dfrac{6}{2t+1}$ metres per second at time $t\\ge0$ seconds. Explain why the particle is never at rest.",
+   "answer": "For $t\\ge0$, $\\dfrac{6}{2t+1}>0$, so $v>8>0$. The velocity is never zero, so the particle is never at rest."
+  },
+  {
+   "ref": "Q31(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.10",
+    "12.4.8.5"
+   ],
+   "question": "A particle moves along the $x$-axis with velocity $v=8+\\dfrac{6}{2t+1}$ metres per second at time $t\\ge0$ seconds, starting from the origin. Find the exact distance travelled by the particle between $t=0$ and $t=4$.",
+   "answer": "The velocity is always positive, so distance $=$ displacement $=\\displaystyle\\int_0^4\\left(8+\\frac{6}{2t+1}\\right)dt=\\left[8t+3\\ln(2t+1)\\right]_0^4=32+3\\ln9=32+6\\ln3$ metres."
+  },
+  {
+   "ref": "Q32(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.6"
+   ],
+   "question": "A plan for a cycling track is comprised of two equal straight sections which are $x$ km long, and two semicircular sections with diameters $8y$ km and $12y$ km respectively (see diagram). Show that the total distance around the track is given by $D=10\\pi y+2x$.",
+   "answer": "The two semicircular ends have total length $\\dfrac12\\pi(8y)+\\dfrac12\\pi(12y)=4\\pi y+6\\pi y=10\\pi y$. The straight sections add $2x$. So $D=10\\pi y+2x$.",
+   "images": [
+    "assets/img/adv-2026-sgg/q32.png"
+   ]
+  },
+  {
+   "ref": "Q32(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.6"
+   ],
+   "question": "A cycling track has total length $D=10\\pi y+2x$ km. Given that the total length of the track is to be 6 km, show that $y=\\dfrac{3-x}{5\\pi}$.",
+   "answer": "$10\\pi y+2x=6$, so $10\\pi y=6-2x$ and $y=\\dfrac{6-2x}{10\\pi}=\\dfrac{3-x}{5\\pi}$."
+  },
+  {
+   "ref": "Q32(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.5.2.3"
+   ],
+   "question": "The average speed of a cyclist on a track is given by $S=10\\pi y\\left(x^2+6x+5\\right)$ km/h, where the total length of the track is 6 km and $y=\\dfrac{3-x}{5\\pi}$ (with $0<x<3$). Find the value of $x$ which gives the maximum average speed around the track.",
+   "answer": "Since $10\\pi y=2(3-x)$: $S=2(3-x)(x^2+6x+5)=2\\left(-x^3-3x^2+13x+15\\right)=-2x^3-6x^2+26x+30$. $S'=-6x^2-12x+26=0$ gives $3x^2+6x-13=0$, so $x=\\dfrac{-6\\pm\\sqrt{36+156}}{6}=\\dfrac{-3\\pm4\\sqrt3}{3}$. Only the positive root is valid: $x=\\dfrac{4\\sqrt3-3}{3}\\approx1.31$ km. $S''=-12x-12<0$ for $x>0$, so this is a maximum.",
+   "images": [
+    "assets/img/adv-2026-sgg/q32.png"
+   ]
+  },
+  {
+   "ref": "Q33(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.2.9",
+    "12.2.2.6"
+   ],
+   "question": "In a laboratory environment, a certain bacteria culture grows such that its population size in the $n^{th}$ hour is given by $P_n=b\\times10^{n-1}$, where $b>0$. Let $B_n=\\log_{10}(P_n)$. Given that $B_1+B_2+B_3+\\cdots+B_{10}=25$, show that $b=0.01$.",
+   "answer": "$B_n=\\log_{10}\\left(b\\times10^{n-1}\\right)=\\log_{10}b+(n-1)$. This is an arithmetic sequence with $a=\\log_{10}b$ and $d=1$. $S_{10}=\\dfrac{10}{2}\\left[2\\log_{10}b+9\\right]=10\\log_{10}b+45=25$, so $\\log_{10}b=-2$ and $b=10^{-2}=0.01$."
+  },
+  {
+   "ref": "Q33(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.5",
+    "11.1.4.10"
+   ],
+   "question": "A bacteria culture has population size $P_n=0.01\\times10^{n-1}$ in the $n^{th}$ hour. Let $B_n=\\log_{10}(P_n)$. Find the smallest value of $n$ such that $B_1+B_2+B_3+\\cdots+B_n>50$.",
+   "answer": "$B_n=-2+(n-1)=n-3$, an arithmetic sequence with $a=-2$ and $d=1$. $S_n=\\dfrac n2\\left[2(-2)+(n-1)\\right]=\\dfrac{n(n-5)}{2}>50$, so $n^2-5n-100>0$. The positive root of $n^2-5n-100=0$ is $n=\\dfrac{5+\\sqrt{425}}{2}\\approx12.8$, so $n>12.8$. Check: $S_{12}=42$ and $S_{13}=52$. The smallest value is $n=13$."
+  }
+ ]
+}
