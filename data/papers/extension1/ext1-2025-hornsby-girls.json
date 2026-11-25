@@ -1,0 +1,498 @@
+{
+ "id": "ext1-2025-hornsby-girls",
+ "course": "extension1",
+ "school": "Hornsby Girls",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "Hornsby Girls 2025 w. sol"
+ },
+ "indexed": "2026-11-25",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q12(b)",
+   "reason": "Pigeonhole principle is not in the 2024 Mathematics Extension 1 syllabus"
+  },
+  {
+   "ref": "Q12(d)",
+   "reason": "Needs the standard limit sin(u)/u -> 1, which is not in the 2024 Mathematics Extension 1 syllabus"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.4"
+   ],
+   "question": "What is the domain of the function $y=\\cos^{-1}(2x)$ ?",
+   "answer": "$\\cos^{-1}u$ is defined for $-1\\le u\\le1$, so $-1\\le2x\\le1$, i.e. $-\\tfrac12\\le x\\le\\tfrac12$.",
+   "options": [
+    "$0\\le x\\le\\pi$",
+    "$-2\\le x\\le2$",
+    "$0\\le x\\le\\dfrac\\pi2$",
+    "$-\\dfrac12\\le x\\le\\dfrac12$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.7",
+    "12.2.3.8"
+   ],
+   "question": "Which one of the following vectors is perpendicular to $\\begin{pmatrix}-2\\\\5\\end{pmatrix}$ and has a magnitude of $4$ ?",
+   "answer": "Perpendicular vectors have dot product $0$. Option (C): $\\begin{pmatrix}5\\\\2\\end{pmatrix}\\cdot\\begin{pmatrix}-2\\\\5\\end{pmatrix}=-10+10=0$ ✓. Its magnitude is $\\dfrac4{\\sqrt{29}}\\sqrt{25+4}=4$ ✓.\n\nOption (A): $-4+25\\ne0$; (B) is parallel to the given vector (dot product $\\tfrac4{\\sqrt{29}}\\cdot29\\ne0$); (D): $-4-25\\ne0$.",
+   "options": [
+    "$\\begin{pmatrix}2\\\\5\\end{pmatrix}$",
+    "$\\dfrac4{\\sqrt{29}}\\begin{pmatrix}-2\\\\5\\end{pmatrix}$",
+    "$\\dfrac4{\\sqrt{29}}\\begin{pmatrix}5\\\\2\\end{pmatrix}$",
+    "$\\begin{pmatrix}2\\\\-5\\end{pmatrix}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.9"
+   ],
+   "question": "A four-digit number is formed by choosing four counters from the set $\\{9,8,7,6,5,4\\}$ and placing them in order. How many numbers greater than $6000$ can be formed?",
+   "answer": "The counters are used at most once each. For the number to exceed $6000$ the first digit must be $9,8,7$ or $6$: $4$ choices. The second digit can be any of the remaining $5$ counters, the third any of the remaining $4$ and the fourth any of the remaining $3$:\n$$4\\times5\\times4\\times3=240.$$",
+   "options": [
+    "$240$",
+    "$360$",
+    "$840$",
+    "$3024$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.2"
+   ],
+   "question": "Let $P(x)$ be a polynomial of degree $6$. When $P(x)$ is divided by the polynomial $Q(x)$, the remainder is $x^2+2$. Which statement is true about the degree of $Q(x)$ ?",
+   "answer": "In $P(x)=A(x)Q(x)+R(x)$ the remainder $R$ must have lower degree than the divisor. The remainder $x^2+2$ has degree $2$, so the divisor $Q(x)$ has degree greater than $2$, i.e. at least $3$ (and, since $P$ has degree $6$, at most $6$).",
+   "options": [
+    "The degree of $Q(x)$ must be at least $2$.",
+    "The degree of $Q(x)$ must be $2$.",
+    "The degree of $Q(x)$ must be at least $3$.",
+    "The degree of $Q(x)$ must be $3$."
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^1\\frac{dx}{\\sqrt{25-x^2}}$.",
+   "answer": "$\\displaystyle\\int_0^1\\frac{dx}{\\sqrt{25-x^2}}=\\Big[\\sin^{-1}\\frac x5\\Big]_0^1=\\sin^{-1}\\frac15-\\sin^{-1}0=\\sin^{-1}\\frac15.$",
+   "options": [
+    "$\\sin^{-1}\\left(\\dfrac15\\right)$",
+    "$\\dfrac15\\sin^{-1}\\left(\\dfrac15\\right)$",
+    "$\\tan^{-1}\\left(\\dfrac15\\right)$",
+    "$\\dfrac15\\tan^{-1}\\left(\\dfrac15\\right)$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "Which of these calculations will give the coefficient of $x^3y^9$ in the expansion of $(3x-y)^{12}$ ?",
+   "answer": "The general term is ${}^{12}C_r(3x)^{12-r}(-y)^r$. For $x^3y^9$, $r=9$: ${}^{12}C_9(3x)^3(-y)^9=-27\\times{}^{12}C_9\\,x^3y^9$, so the coefficient is $-27\\times{}^{12}C_9$.",
+   "options": [
+    "$-27\\times{}^{12}C_8$",
+    "$-27\\times{}^{12}C_9$",
+    "$9\\times{}^{12}C_8$",
+    "$27\\times{}^{12}C_9$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.1"
+   ],
+   "question": "The graph of $f(x)=\\dfrac2{x-3}+1$ is shown.\n\nA transformation, $y=g(x)$, is applied to $y=f(x)$ to obtain the second graph shown. What is the equation of $y=g(x)$ ?",
+   "answer": "Here $\\dfrac1{f(x)}=\\dfrac1{\\frac2{x-3}+1}=\\dfrac{x-3}{x-1}$, which has a vertical asymptote at $x=1$ (where $f(x)=0$), a horizontal asymptote $y=1$ (where $f(x)\\to1$ as $x\\to\\pm\\infty$), and an $x$-intercept at $x=3$ (the vertical asymptote of $f$). This matches the second graph: asymptotes at $x=1$ and $y=1$, crossing the $x$-axis at $x=3$.\n\n$f(-x)$ would have its vertical asymptote at $x=-3$; $f(|x|)$ is symmetric about the $y$-axis; and $\\sqrt{f(x)}$ is undefined where $f(x)<0$. The answer is (D).",
+   "options": [
+    "$g(x)=f(|x|)$",
+    "$g(x)=\\sqrt{f(x)}$",
+    "$g(x)=f(-x)$",
+    "$g(x)=\\dfrac1{f(x)}$"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/ext1-2025-hornsby-girls/q7a.png",
+    "assets/img/ext1-2025-hornsby-girls/q7b.png"
+   ]
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.9"
+   ],
+   "question": "Which of the following differential equations matches the slope field shown?",
+   "answer": "The slope field has vertical segments along the line $y=x$ (the gradient is undefined there) and the segments get flatter as the distance from that line increases. That rules out (A) and (B), which are defined everywhere (and equal $0$ on $y=x$), leaving the reciprocals (C) and (D).\n\nAbove the line $y=x$ the segments slope upward (positive gradient), so $\\dfrac{dy}{dx}>0$ when $y-x>0$, which is $\\dfrac1{y-x}$. Option (D) would give negative slopes above $y=x$. The answer is (C).",
+   "options": [
+    "$\\dfrac{dy}{dx}=y-x$",
+    "$\\dfrac{dy}{dx}=x-y$",
+    "$\\dfrac{dy}{dx}=\\dfrac1{y-x}$",
+    "$\\dfrac{dy}{dx}=\\dfrac1{x-y}$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/ext1-2025-hornsby-girls/q8.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.2.11"
+   ],
+   "question": "Which function, $f(x)$, and its inverse function, $f^{-1}(x)$, are equivalent, i.e. $f(x)=f^{-1}(x)$ ?",
+   "answer": "A function equals its inverse when its graph is symmetric about $y=x$. For (D): let $y=\\dfrac1x$, swap $x$ and $y$: $x=\\dfrac1y$, so $y=\\dfrac1x$, i.e. $f^{-1}(x)=f(x)$ ✓.\n\n(A) $\\sin|x|$ is not one-to-one on $\\left[-\\tfrac\\pi2,\\tfrac\\pi2\\right]$ so has no inverse; (B) has inverse $\\sqrt x\\ne x^2$; (C) $|e^x|=e^x$ has inverse $\\ln x\\ne e^x$.",
+   "options": [
+    "$f(x)=\\sin|x|$ for $\\left[-\\dfrac\\pi2,\\dfrac\\pi2\\right]$",
+    "$f(x)=x^2$ for $[0,\\infty)$",
+    "$f(x)=|e^x|$ for $(-\\infty,\\infty)$",
+    "$f(x)=\\dfrac1x$ for $(-\\infty,0)\\cup(0,\\infty)$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.1.1.6",
+    "11.2.1.12"
+   ],
+   "question": "The diagram shows the graph of $f(x)\\times g(x)$. Which one of the following represents the graphs of both $f(x)$ and $g(x)$ ?",
+   "answer": "The product is a cubic with a double zero at $x=0$ (the graph touches the axis there) and a single zero at some $x=a>0$, positive for large $x$: it has the form $kx^2(x-a)$ with $k>0$. So one function is a quadratic with a double zero at the origin, $x^2$ (concave up), and the other is a line with positive gradient crossing the $x$-axis at $x=a>0$, $x-a$.\n\nOptions (A) and (D) have a line with negative gradient, giving a product that tends to $-\\infty$ for large positive $x$. In (B) the line crosses the $x$-axis at a negative value, giving a product with a zero at negative $x$. Only (C) fits.",
+   "options": [
+    "![Graph A](assets/img/ext1-2025-hornsby-girls/q10a.png)",
+    "![Graph B](assets/img/ext1-2025-hornsby-girls/q10b.png)",
+    "![Graph C](assets/img/ext1-2025-hornsby-girls/q10c.png)",
+    "![Graph D](assets/img/ext1-2025-hornsby-girls/q10d.png)"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/ext1-2025-hornsby-girls/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.6"
+   ],
+   "question": "For the vectors $\\mathbf u=2\\mathbf i-\\mathbf j$ and $\\mathbf v=\\mathbf i+2\\mathbf j$, evaluate $\\mathbf u-3\\mathbf v$.",
+   "answer": "$\\mathbf u-3\\mathbf v=(2\\mathbf i-\\mathbf j)-3(\\mathbf i+2\\mathbf j)=-\\mathbf i-7\\mathbf j$."
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.7"
+   ],
+   "question": "For the vectors $\\mathbf u=2\\mathbf i-\\mathbf j$ and $\\mathbf v=\\mathbf i+2\\mathbf j$, evaluate $|\\mathbf u+\\mathbf v|$.",
+   "answer": "$\\mathbf u+\\mathbf v=3\\mathbf i+\\mathbf j$, so $|\\mathbf u+\\mathbf v|=\\sqrt{3^2+1^2}=\\sqrt{10}$."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Find the exact value of $\\displaystyle\\int_1^3x^2\\sqrt{3+x^3}\\,dx$ using the substitution $u=3+x^3$.",
+   "answer": "$u=3+x^3\\Rightarrow du=3x^2\\,dx$. When $x=1$, $u=4$; when $x=3$, $u=30$.\n$$\\int_1^3x^2\\sqrt{3+x^3}\\,dx=\\frac13\\int_4^{30}u^{1/2}\\,du=\\frac13\\left[\\frac23u^{3/2}\\right]_4^{30}=\\frac29\\left(30\\sqrt{30}-8\\right).$$"
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "Find the coefficient of $x^3$ in the expansion of $\\left(1-\\dfrac x3\\right)^9$.",
+   "answer": "The term in $x^3$ is ${}^9C_3(1)^6\\left(-\\dfrac x3\\right)^3=84\\times\\left(-\\dfrac1{27}\\right)x^3$, so the coefficient is $-\\dfrac{84}{27}=-\\dfrac{28}9$."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "There are two vectors in a plane: $\\mathbf p=\\begin{pmatrix}5\\\\-3\\end{pmatrix}$ and $\\mathbf q=\\begin{pmatrix}-3\\\\7\\end{pmatrix}$. Find the angle between $\\mathbf p$ and $\\mathbf q$. Answer correct to the nearest degree.",
+   "answer": "$$\\cos\\theta=\\frac{\\mathbf p\\cdot\\mathbf q}{|\\mathbf p||\\mathbf q|}=\\frac{5(-3)+(-3)(7)}{\\sqrt{34}\\sqrt{58}}=\\frac{-36}{\\sqrt{1972}}\\approx-0.8107,$$\nso $\\theta\\approx144^\\circ$."
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.2"
+   ],
+   "question": "Write $\\sqrt3\\sin x-3\\cos x$ in the form $R\\sin(x+\\alpha)$.",
+   "answer": "$R\\sin(x+\\alpha)=R\\cos\\alpha\\sin x+R\\sin\\alpha\\cos x$, so $R\\cos\\alpha=\\sqrt3$ and $R\\sin\\alpha=-3$.\n\n$R=\\sqrt{3+9}=\\sqrt{12}=2\\sqrt3$ and $\\tan\\alpha=\\dfrac{-3}{\\sqrt3}=-\\sqrt3$ with $\\alpha$ in the fourth quadrant (cosine positive, sine negative), so $\\alpha=-\\dfrac\\pi3$ (equivalently $\\dfrac{5\\pi}3$).\n\n$$\\sqrt3\\sin x-3\\cos x=2\\sqrt3\\sin\\left(x-\\frac\\pi3\\right).$$"
+  },
+  {
+   "ref": "Q11(f)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Solve $\\dfrac4{x+3}\\ge1$.",
+   "answer": "Here $x\\ne-3$. Multiply both sides by $(x+3)^2>0$: $4(x+3)\\ge(x+3)^2$, so\n$$(x+3)\\left[4-(x+3)\\right]\\ge0\\iff(x+3)(1-x)\\ge0\\iff(x+3)(x-1)\\le0.$$\nThis holds for $-3\\le x\\le1$, and excluding $x=-3$:\n$$-3<x\\le1.$$"
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.9"
+   ],
+   "question": "A direction field is to be drawn for the differential equation $\\dfrac{dy}{dx}=\\dfrac{2x-y}{y^2-x}$. Find the gradient of the direction field at each of the points $P(-1,1)$, $Q(1,1)$ and $R(2,1)$, and describe the interval that would be drawn at each point.",
+   "answer": "At $P(-1,1)$: $\\dfrac{dy}{dx}=\\dfrac{2(-1)-1}{1^2-(-1)}=\\dfrac{-3}2$. The interval slopes down to the right with gradient $-\\tfrac32$.\n\nAt $Q(1,1)$: $\\dfrac{dy}{dx}=\\dfrac{2-1}{1-1}=\\dfrac10$, which is undefined, so the interval at $Q$ is vertical.\n\nAt $R(2,1)$: $\\dfrac{dy}{dx}=\\dfrac{4-1}{1-2}=-3$. The interval slopes down to the right with gradient $-3$."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.7",
+    "12.4.1.5"
+   ],
+   "question": "Find the equation of the tangent to the curve $y=x\\cdot\\arcsin(x)$ at the point with coordinates $\\left(\\dfrac12,\\dfrac\\pi{12}\\right)$. Express your answer in the form $y=mx+c$.",
+   "answer": "By the product rule, $\\dfrac{dy}{dx}=\\sin^{-1}x+\\dfrac x{\\sqrt{1-x^2}}$. At $x=\\tfrac12$:\n$$m=\\sin^{-1}\\frac12+\\frac{\\frac12}{\\sqrt{1-\\frac14}}=\\frac\\pi6+\\frac{1/2}{\\sqrt3/2}=\\frac\\pi6+\\frac1{\\sqrt3}.$$\nTangent: $y-\\dfrac\\pi{12}=\\left(\\dfrac\\pi6+\\dfrac1{\\sqrt3}\\right)\\left(x-\\dfrac12\\right)$, so\n$$y=\\left(\\frac\\pi6+\\frac1{\\sqrt3}\\right)x-\\frac1{2\\sqrt3}.$$\n(The constant is $c=\\dfrac\\pi{12}-\\dfrac12\\left(\\dfrac\\pi6+\\dfrac1{\\sqrt3}\\right)=-\\dfrac1{2\\sqrt3}$.)"
+  },
+  {
+   "ref": "Q12(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "Use mathematical induction to prove that $15^n+2^{3n}-2$ is a multiple of $7$ for all integers $n>0$.",
+   "answer": "**Base case** $n=1$: $15+8-2=21=7\\times3$, a multiple of $7$. ✓\n\n**Inductive step.** Assume the result holds for $n=k$: $15^k+2^{3k}-2=7Q$ for some integer $Q$, so $2^{3k}=7Q-15^k+2$.\n\nFor $n=k+1$:\n$$15^{k+1}+2^{3(k+1)}-2=15\\cdot15^k+8\\cdot2^{3k}-2=15\\cdot15^k+8\\left(7Q-15^k+2\\right)-2$$\n$$=7\\cdot15^k+56Q+14=7\\left(15^k+8Q+2\\right),$$\na multiple of $7$.\n\nSo the result is true for $n=k+1$ whenever it is true for $n=k$. Since it is true for $n=1$, by mathematical induction it is true for all integers $n>0$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q12(f)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.5"
+   ],
+   "question": "In a restaurant with temperature $19^\\circ$C, pumpkin soup is poured into a bowl at $95^\\circ$C. The temperature, $T$ degrees Celsius, of the soup $t$ minutes after it is poured into the bowl can be modelled by the differential equation $\\dfrac{dT}{dt}=-k(T-T_1)$, where $k$ is the positive constant of proportionality and $T_1$ is a constant.\n\nShow that $T=T_1+Ae^{-kt}$ satisfies the differential equation $\\dfrac{dT}{dt}=-k(T-T_1)$.",
+   "answer": "If $T=T_1+Ae^{-kt}$ then $\\dfrac{dT}{dt}=-kAe^{-kt}=-k\\left(T-T_1\\right)$, since $T-T_1=Ae^{-kt}$. ✓"
+  },
+  {
+   "ref": "Q12(f)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.7"
+   ],
+   "question": "Soup at $95^\\circ$C is poured into a bowl in a restaurant at temperature $19^\\circ$C. Its temperature $t$ minutes later is $T=T_1+Ae^{-kt}$, where $T_1$ is the temperature of the surroundings. It takes $10$ minutes for the soup to cool to a temperature of $75^\\circ$C.\n\nShow that $T=19+76e^{-\\frac t{10}\\ln\\left(\\frac{19}{14}\\right)}$.",
+   "answer": "The surroundings are at $T_1=19$, so $T=19+Ae^{-kt}$. At $t=0$, $T=95$: $A=76$, so $T=19+76e^{-kt}$.\n\nAt $t=10$, $T=75$: $75=19+76e^{-10k}$, so $e^{-10k}=\\dfrac{56}{76}=\\dfrac{14}{19}$ and\n$$-10k=\\ln\\frac{14}{19}\\Rightarrow k=\\frac1{10}\\ln\\frac{19}{14}.$$\nHence $T=19+76e^{-\\frac t{10}\\ln\\left(\\frac{19}{14}\\right)}$. ✓"
+  },
+  {
+   "ref": "Q12(f)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.7"
+   ],
+   "question": "The temperature of the soup $t$ minutes after it is poured is $T=19+76e^{-\\frac t{10}\\ln\\left(\\frac{19}{14}\\right)}$ degrees Celsius. The optimal drinking temperature for a hot beverage is $57^\\circ$C. Find the value of $t$ when the soup reaches this temperature, giving your answer to the nearest minute.",
+   "answer": "$57=19+76e^{-\\frac t{10}\\ln\\frac{19}{14}}\\Rightarrow e^{-\\frac t{10}\\ln\\frac{19}{14}}=\\dfrac{38}{76}=\\dfrac12$. Taking logarithms, $-\\dfrac t{10}\\ln\\dfrac{19}{14}=-\\ln2$, so\n$$t=\\frac{10\\ln2}{\\ln\\frac{19}{14}}\\approx22.7\\approx23\\text{ minutes}.$$"
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.2.5",
+    "11.1.2.7"
+   ],
+   "question": "Consider the function $f(x)=4-\\ln(x+2)$, for $x\\ge-1$. Find the domain and the equation of $y=f^{-1}(x)$.",
+   "answer": "$f$ is decreasing, with $f(-1)=4-\\ln1=4$ and $f(x)\\to-\\infty$ as $x\\to\\infty$, so the range of $f$ is $y\\le4$. The domain of $f^{-1}$ is the range of $f$: $x\\le4$.\n\nSwap $x$ and $y$: $x=4-\\ln(y+2)\\Rightarrow\\ln(y+2)=4-x\\Rightarrow y+2=e^{4-x}$, so\n$$f^{-1}(x)=e^{4-x}-2,\\qquad\\text{domain }x\\le4.$$"
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.3.4",
+    "11.2.3.2"
+   ],
+   "question": "The three solutions of the equation $x^3-2x^2+3x+1=0$ are denoted by $\\alpha$, $\\beta$ and $\\gamma$. Consider the equation $x^3-x^2+7x+C=0$ whose solutions are $2\\alpha-1$, $2\\beta-1$ and $2\\gamma-1$. Find the value of $C$, where $C$ is an integer.",
+   "answer": "For $x^3-2x^2+3x+1=0$: $\\alpha+\\beta+\\gamma=2$, $\\alpha\\beta+\\beta\\gamma+\\alpha\\gamma=3$, $\\alpha\\beta\\gamma=-1$.\n\nFor the new equation, the product of the roots is $-C$:\n$$-C=(2\\alpha-1)(2\\beta-1)(2\\gamma-1)=8\\alpha\\beta\\gamma-4(\\alpha\\beta+\\beta\\gamma+\\alpha\\gamma)+2(\\alpha+\\beta+\\gamma)-1=-8-12+4-1=-17.$$\nSo $C=17$.\n\n(Check: the sum of the new roots is $2(2)-3=1$ ✓ and the sum of products in pairs is $4(3)-4(2)+3=7$ ✓, matching $x^3-x^2+7x+C$.)"
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.6"
+   ],
+   "question": "The diagram shows $\\triangle OAB$. $M$ is the midpoint of $AB$. Let $\\overrightarrow{OA}=\\mathbf a$, $\\overrightarrow{OB}=\\mathbf b$, $\\overrightarrow{OM}=\\mathbf m$ and $\\overrightarrow{AB}=\\mathbf p$. Write $\\mathbf p$ and $\\mathbf m$ in terms of $\\mathbf a$ and $\\mathbf b$.",
+   "answer": "$\\mathbf p=\\overrightarrow{AB}=\\overrightarrow{AO}+\\overrightarrow{OB}=\\mathbf b-\\mathbf a$.\n\n$\\mathbf m=\\overrightarrow{OA}+\\overrightarrow{AM}=\\mathbf a+\\tfrac12\\mathbf p=\\mathbf a+\\tfrac12(\\mathbf b-\\mathbf a)=\\tfrac12(\\mathbf a+\\mathbf b)$.",
+   "images": [
+    "assets/img/ext1-2025-hornsby-girls/q13c.png"
+   ]
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.5"
+   ],
+   "question": "In $\\triangle OAB$, $M$ is the midpoint of $AB$, with $\\overrightarrow{OA}=\\mathbf a$, $\\overrightarrow{OB}=\\mathbf b$, $\\overrightarrow{OM}=\\mathbf m=\\tfrac12(\\mathbf a+\\mathbf b)$ and $\\overrightarrow{AB}=\\mathbf p=\\mathbf b-\\mathbf a$. Show that $|\\mathbf p|^2+4|\\mathbf m|^2=2|\\mathbf a|^2+2|\\mathbf b|^2$.",
+   "answer": "Use $|\\mathbf v|^2=\\mathbf v\\cdot\\mathbf v$:\n$$|\\mathbf p|^2=(\\mathbf b-\\mathbf a)\\cdot(\\mathbf b-\\mathbf a)=\\mathbf b\\cdot\\mathbf b-2\\,\\mathbf a\\cdot\\mathbf b+\\mathbf a\\cdot\\mathbf a,$$\n$$4|\\mathbf m|^2=4\\cdot\\tfrac14(\\mathbf a+\\mathbf b)\\cdot(\\mathbf a+\\mathbf b)=\\mathbf a\\cdot\\mathbf a+2\\,\\mathbf a\\cdot\\mathbf b+\\mathbf b\\cdot\\mathbf b.$$\nAdding, the $\\mathbf a\\cdot\\mathbf b$ terms cancel:\n$$|\\mathbf p|^2+4|\\mathbf m|^2=2\\,\\mathbf a\\cdot\\mathbf a+2\\,\\mathbf b\\cdot\\mathbf b=2|\\mathbf a|^2+2|\\mathbf b|^2.\\ \\blacksquare$$"
+  },
+  {
+   "ref": "Q13(d)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.2"
+   ],
+   "question": "The graph shows part of the curve $y=f(x)$ with parametric equations $x=3\\tan\\theta$, $y=4\\cos^2\\theta$, for $0\\le\\theta\\le\\dfrac\\pi2$. The point $P$ lies on the curve and has coordinates $(3,2)$. The line $l$ is the normal to the curve at $P$. The line $l$ cuts the $x$-axis at the point $Q$.\n\nShow that the $x$-coordinate of $Q$ is $\\dfrac53$.",
+   "answer": "At $P$: $3\\tan\\theta=3\\Rightarrow\\tan\\theta=1\\Rightarrow\\theta=\\dfrac\\pi4$ (check: $y=4\\cos^2\\tfrac\\pi4=2$ ✓).\n\n$\\dfrac{dx}{d\\theta}=3\\sec^2\\theta$ and $\\dfrac{dy}{d\\theta}=-8\\cos\\theta\\sin\\theta$, so\n$$\\frac{dy}{dx}=\\frac{-8\\sin\\theta\\cos\\theta}{3\\sec^2\\theta}=-\\frac83\\sin\\theta\\cos^3\\theta.$$\nAt $\\theta=\\tfrac\\pi4$: $\\dfrac{dy}{dx}=-\\dfrac83\\cdot\\dfrac1{\\sqrt2}\\cdot\\dfrac1{2\\sqrt2}=-\\dfrac23$. The gradient of the normal is $\\dfrac32$.\n\nNormal at $P(3,2)$: $y-2=\\dfrac32(x-3)$. At $y=0$: $-2=\\dfrac32(x-3)\\Rightarrow x-3=-\\dfrac43\\Rightarrow x=\\dfrac53$. So $Q=\\left(\\dfrac53,0\\right)$. ✓",
+   "images": [
+    "assets/img/ext1-2025-hornsby-girls/q13d.png"
+   ]
+  },
+  {
+   "ref": "Q13(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.3.4",
+    "12.4.2.2"
+   ],
+   "question": "The curve $y=f(x)$ has parametric equations $x=3\\tan\\theta$, $y=4\\cos^2\\theta$, for $0\\le\\theta\\le\\dfrac\\pi2$. The point $P(3,2)$ lies on the curve, and the normal $l$ at $P$ cuts the $x$-axis at $Q\\left(\\dfrac53,0\\right)$ (see the diagram). The finite region $S$, shown shaded, is bounded by the curve $y=f(x)$, the $x$-axis, the $y$-axis and the line $l$. This region is rotated $360^\\circ$ about the $x$-axis to form a solid of revolution.\n\nBy showing that $\\pi\\displaystyle\\int_0^3y^2\\,dx=48\\pi\\int_0^{\\pi/4}\\cos^2\\theta\\,d\\theta$, find the exact value of the volume of the solid of revolution.",
+   "answer": "Rotating the region under the curve from $x=0$ to $x=3$ gives a solid of volume $\\pi\\int_0^3y^2\\,dx$, but the region between the line $l$ and the $x$-axis (triangle $QP(3,0)$) is not part of $S$. Rotating that triangle gives a cone of radius $2$ and height $3-\\tfrac53=\\tfrac43$ that must be subtracted:\n$$V=\\pi\\int_0^3y^2\\,dx-\\tfrac13\\pi(2)^2\\left(\\tfrac43\\right)=\\pi\\int_0^3y^2\\,dx-\\frac{16\\pi}9.$$\n**The integral.** With $x=3\\tan\\theta$, $dx=3\\sec^2\\theta\\,d\\theta$; $x=0\\Rightarrow\\theta=0$ and $x=3\\Rightarrow\\theta=\\tfrac\\pi4$; and $y^2=16\\cos^4\\theta$:\n$$\\pi\\int_0^3y^2\\,dx=\\pi\\int_0^{\\pi/4}16\\cos^4\\theta\\cdot3\\sec^2\\theta\\,d\\theta=48\\pi\\int_0^{\\pi/4}\\cos^2\\theta\\,d\\theta.$$\nThen, using $\\cos^2\\theta=\\tfrac12(1+\\cos2\\theta)$:\n$$48\\pi\\int_0^{\\pi/4}\\cos^2\\theta\\,d\\theta=24\\pi\\left[\\theta+\\frac{\\sin2\\theta}2\\right]_0^{\\pi/4}=24\\pi\\left(\\frac\\pi4+\\frac12\\right)=6\\pi^2+12\\pi.$$\nTherefore\n$$V=6\\pi^2+12\\pi-\\frac{16\\pi}9=6\\pi^2+\\frac{92\\pi}9\\ \\text{cubic units}.$$",
+   "images": [
+    "assets/img/ext1-2025-hornsby-girls/q13d.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "Show that $y=\\dfrac{e^x}{x+1}$, for $x\\ne-1$, is the particular solution to the differential equation $(x+1)\\dfrac{dy}{dx}=xy$ that passes through the point $(0,1)$.",
+   "answer": "Separate the variables (for $x\\ne-1$): $\\dfrac1y\\,dy=\\dfrac x{x+1}\\,dx=\\left(1-\\dfrac1{x+1}\\right)dx$. Integrating,\n$$\\ln|y|=x-\\ln|x+1|+C\\quad\\Rightarrow\\quad y=Ae^{x-\\ln|x+1|}=\\frac{Ae^x}{|x+1|},\\ \\text{i.e. }y=\\frac{Be^x}{x+1}\\text{ for a constant }B$$\n(the sign of $|x+1|$ is absorbed into the constant on each side of $x=-1$). Using the point $(0,1)$: $1=\\dfrac{Be^0}{1}$, so $B=1$ and\n$$y=\\frac{e^x}{x+1}.\\ \\blacksquare$$\n(Alternatively, verify directly: $\\dfrac{dy}{dx}=\\dfrac{e^x(x+1)-e^x}{(x+1)^2}=\\dfrac{xe^x}{(x+1)^2}$, so $(x+1)\\dfrac{dy}{dx}=\\dfrac{xe^x}{x+1}=xy$ ✓, and $y(0)=1$ ✓.)"
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.9",
+    "12.2.4.11"
+   ],
+   "question": "Let $\\mathbf u=\\begin{pmatrix}4\\\\2\\end{pmatrix}$ and $\\mathbf v=\\begin{pmatrix}7\\\\4\\end{pmatrix}$. Find the vector that is perpendicular to the vector projection of $\\mathbf v$ onto $\\mathbf u$, being the component of $\\mathbf v$ perpendicular to $\\mathbf u$ (that is, $\\mathbf v$ minus its projection onto $\\mathbf u$).",
+   "answer": "$\\operatorname{proj}_{\\mathbf u}\\mathbf v=\\dfrac{\\mathbf v\\cdot\\mathbf u}{|\\mathbf u|^2}\\mathbf u=\\dfrac{28+8}{16+4}\\begin{pmatrix}4\\\\2\\end{pmatrix}=\\dfrac95\\begin{pmatrix}4\\\\2\\end{pmatrix}=\\dfrac15\\begin{pmatrix}36\\\\18\\end{pmatrix}.$\n\nThe perpendicular component is\n$$\\mathbf v-\\operatorname{proj}_{\\mathbf u}\\mathbf v=\\begin{pmatrix}7\\\\4\\end{pmatrix}-\\begin{pmatrix}\\tfrac{36}5\\\\\\tfrac{18}5\\end{pmatrix}=\\begin{pmatrix}-\\tfrac15\\\\\\tfrac25\\end{pmatrix}.$$\nCheck: $\\begin{pmatrix}-\\frac15\\\\\\frac25\\end{pmatrix}\\cdot\\begin{pmatrix}4\\\\2\\end{pmatrix}=-\\tfrac45+\\tfrac45=0$ ✓.\n\n*Note:* as printed, the question does not say which perpendicular vector is wanted (any multiple of $(-1,2)$ is perpendicular to the projection); the school's solution, followed here, gives the perpendicular component $\\mathbf v-\\operatorname{proj}_{\\mathbf u}\\mathbf v$, and the question text has been clarified accordingly."
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.6.6"
+   ],
+   "question": "A projectile is fired from $O$ at an angle $\\theta$ to the horizontal with initial velocity $V$ m/s. The projectile strikes a target $R$ metres to the right of $O$ on level ground. The displacement vector is\n$$\\mathbf r(t)=Vt\\cos\\theta\\,\\mathbf i+\\left(Vt\\sin\\theta-\\frac{gt^2}2\\right)\\mathbf j.$$\nIf the projectile hits the target, prove that $\\tan^2\\theta-\\dfrac{2V^2}{gR}\\tan\\theta+1=0$.",
+   "answer": "At the target, $\\mathbf r=R\\,\\mathbf i$. Equating components: $Vt\\cos\\theta=R$ ① and $Vt\\sin\\theta-\\dfrac{gt^2}2=0$ ②.\n\nFrom ①, $t=\\dfrac R{V\\cos\\theta}$. Substitute into ②:\n$$V\\sin\\theta\\cdot\\frac R{V\\cos\\theta}-\\frac g2\\cdot\\frac{R^2}{V^2\\cos^2\\theta}=0\\ \\Rightarrow\\ R\\tan\\theta-\\frac{gR^2}{2V^2}\\sec^2\\theta=0.$$\nUsing $\\sec^2\\theta=1+\\tan^2\\theta$ and dividing by $\\dfrac{gR^2}{2V^2}$ (non-zero):\n$$\\frac{2V^2}{gR}\\tan\\theta-\\left(1+\\tan^2\\theta\\right)=0\\ \\Rightarrow\\ \\tan^2\\theta-\\frac{2V^2}{gR}\\tan\\theta+1=0.\\ \\blacksquare$$",
+   "images": [
+    "assets/img/ext1-2025-hornsby-girls/q14c.png"
+   ]
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.6.8"
+   ],
+   "question": "A projectile fired from $O$ with speed $V$ m/s at angle $\\theta$ to the horizontal strikes a target $R$ metres from $O$ on level ground, where $\\tan^2\\theta-\\dfrac{2V^2}{gR}\\tan\\theta+1=0$. Show that the target will be hit from two angles of projection, $\\theta_1$ and $\\theta_2$, if $R<\\dfrac{V^2}g$.",
+   "answer": "Two different angles of projection correspond to two distinct real roots for $\\tan\\theta$ of the quadratic, so the discriminant must be positive:\n$$\\Delta=\\left(\\frac{2V^2}{gR}\\right)^2-4(1)(1)>0\\iff\\frac{4V^4}{g^2R^2}>4\\iff\\frac{V^4}{g^2R^2}>1\\iff\\frac{V^2}{gR}>1$$\n(taking positive roots, as $V,g,R>0$), i.e. $R<\\dfrac{V^2}g$. Both roots are positive (their product is $1$ and their sum $\\dfrac{2V^2}{gR}$ is positive), giving two acute angles. $\\blacksquare$"
+  },
+  {
+   "ref": "Q14(c)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.6.7"
+   ],
+   "question": "A projectile is fired from $O$ with speed $V$ m/s at angle $\\theta$ to the horizontal, with displacement vector $\\mathbf r(t)=Vt\\cos\\theta\\,\\mathbf i+\\left(Vt\\sin\\theta-\\dfrac{gt^2}2\\right)\\mathbf j$. The target is hit from two angles of projection $\\theta_1$ and $\\theta_2$, with respective times of flight $t_1$ and $t_2$. Given $\\theta_1+\\theta_2=90^\\circ$ for the same range, prove that $t_1^2+t_2^2=\\dfrac{4V^2}{g^2}$.",
+   "answer": "The projectile lands when $y=0$: $t\\left(V\\sin\\theta-\\dfrac{gt}2\\right)=0$, so the time of flight is $t=\\dfrac{2V\\sin\\theta}g$. Hence\n$$t_1=\\frac{2V\\sin\\theta_1}g,\\qquad t_2=\\frac{2V\\sin\\theta_2}g.$$\nSince $\\theta_2=90^\\circ-\\theta_1$, $\\sin\\theta_2=\\cos\\theta_1$. Then\n$$t_1^2+t_2^2=\\frac{4V^2\\sin^2\\theta_1}{g^2}+\\frac{4V^2\\cos^2\\theta_1}{g^2}=\\frac{4V^2\\left(\\sin^2\\theta_1+\\cos^2\\theta_1\\right)}{g^2}=\\frac{4V^2}{g^2}.\\ \\blacksquare$$"
+  }
+ ]
+}
