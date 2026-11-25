@@ -1,0 +1,677 @@
+{
+ "id": "ext2-2025-killara",
+ "course": "extension2",
+ "school": "Killara",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "Killara 2025 w. sol"
+ },
+ "indexed": "2026-11-25",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q13(a)",
+   "reason": "Not in 2024 syllabus: complex exponential form $e^{i\\theta}$ / complex logarithm (Euler form)"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.11"
+   ],
+   "question": "Which of the following is the contrapositive of the statement \"If Gandalf has come to the Shire, then there will be fireworks.\"?",
+   "answer": "The contrapositive of \"if $P$ then $Q$\" is \"if not $Q$ then not $P$\": if there are no fireworks, then Gandalf has not come to the Shire.",
+   "options": [
+    "If there are fireworks, then Gandalf has come to the Shire.",
+    "If there are not fireworks, then Gandalf has not come to the Shire.",
+    "If Gandalf does not come to the Shire there will be no fireworks.",
+    "Gandalf has come to the Shire and there are no fireworks"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.11"
+   ],
+   "question": "Which one of the following is NOT a primitive of $\\displaystyle\\int \\frac{\\sin^3 x+\\cos^3 x}{\\sin x+\\cos x}\\,dx$ ?",
+   "answer": "Using $a^3+b^3=(a+b)(a^2-ab+b^2)$, the integrand is $\\sin^2x-\\sin x\\cos x+\\cos^2x = 1-\\sin x\\cos x = 1-\\tfrac12\\sin 2x$.\n\nDifferentiating each option: (A) $1-\\tfrac12\\sin 2x$ ✓; (B) $1-\\tfrac12\\cos 2x$ ✗; (C) $1-\\sin x\\cos x$ ✓; (D) $1-\\sin x\\cos x$ ✓. So (B) is not a primitive.",
+   "options": [
+    "$x+\\dfrac{\\cos 2x}{4}+c$",
+    "$x-\\dfrac{\\sin 2x}{4}+c$",
+    "$x+\\dfrac{\\cos^2 x}{2}+c$",
+    "$x-\\dfrac{\\sin^2 x}{2}+c$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.7"
+   ],
+   "question": "What is the negation of the statement $\\forall x\\in\\mathbb{Z},\\ \\exists y\\in\\mathbb{Z},\\ y\\ge x$ ?",
+   "answer": "Negating a quantified statement swaps $\\forall\\leftrightarrow\\exists$ and negates the final condition: $\\neg(y\\ge x)$ is $y<x$. So the negation is $\\exists x\\in\\mathbb{Z},\\ \\forall y\\in\\mathbb{Z},\\ y<x$.",
+   "options": [
+    "$\\forall x\\in\\mathbb{Z},\\ \\nexists\\, y\\in\\mathbb{Z},\\ y> x$",
+    "$\\forall x\\in\\mathbb{Z},\\ \\nexists\\, y\\in\\mathbb{Z},\\ y< x$",
+    "$\\exists x\\in\\mathbb{Z},\\ \\exists\\, y\\in\\mathbb{Z},\\ y< x$",
+    "$\\exists x\\in\\mathbb{Z},\\ \\forall y\\in\\mathbb{Z},\\ y< x$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "Given the vector $\\overrightarrow{OP}=\\sqrt2\\,\\mathbf{i}-\\mathbf{j}+\\mathbf{k}$, this vector",
+   "answer": "$|\\overrightarrow{OP}|=\\sqrt{2+1+1}=2$. The angles with the axes satisfy $\\cos\\alpha=\\dfrac{\\sqrt2}{2}$, $\\cos\\beta=-\\dfrac12$, $\\cos\\gamma=\\dfrac12$, so $\\alpha=45^\\circ$, $\\beta=120^\\circ$, $\\gamma=60^\\circ$. This is option (B).",
+   "options": [
+    "makes an angle of $120^\\circ$ with the positive $y$-axis and $30^\\circ$ with the positive $z$-axis.",
+    "makes an angle of $45^\\circ$ with the positive $x$-axis and $120^\\circ$ with the positive $y$-axis.",
+    "makes an angle of $45^\\circ$ with the positive $x$-axis and $150^\\circ$ with the positive $y$-axis.",
+    "makes an angle of $135^\\circ$ with the positive $x$-axis and $150^\\circ$ with the positive $y$-axis."
+   ],
+   "correct": "B",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "Evaluate the complex number $\\left(-2+2i\\sqrt3\\right)^3$.",
+   "answer": "$-2+2i\\sqrt3 = 4\\left(\\cos\\tfrac{2\\pi}{3}+i\\sin\\tfrac{2\\pi}{3}\\right)$. By de Moivre's theorem its cube is $4^3\\left(\\cos 2\\pi+i\\sin 2\\pi\\right)=64$.",
+   "options": [
+    "$-2+2i\\sqrt3$",
+    "$8+6i\\sqrt3$",
+    "$8$",
+    "$64$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "A particle of mass $m$ kg is on a smooth inclined plane that makes an angle $\\theta$ with the horizontal. The particle is attached to a light inextensible string that passes over a smooth pulley at the top of the plane. The other end of the string is connected to a hanging particle of mass $M$ kg. The system is released from rest and moves without friction (the hanging mass moves down). Assume the string remains taut, the acceleration of both masses is $a$, and gravity is $g$.\n\nWhich of the following pairs of equations correctly represents the motion of the two masses?",
+   "answer": "The hanging mass moves down: $Mg-T=Ma$. The mass on the plane is pulled up the slope by $T$ against the component of its weight along the slope, $mg\\sin\\theta$: $T-mg\\sin\\theta=ma$. This is option (D).",
+   "options": [
+    "$mg\\sin\\theta - T = ma$ and $Mg - T = Ma$",
+    "$mg\\cos\\theta - T = ma$ and $Mg - T = -Ma$",
+    "$T - mg\\cos\\theta = ma$ and $Mg - T = Ma$",
+    "$T - mg\\sin\\theta = ma$ and $Mg - T = Ma$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.13"
+   ],
+   "question": "Which graph matches the parametric equations $x=2\\cos 5t,\\ y=2\\sin 2t$ ?",
+   "answer": "The curve is closed with period $2\\pi$. It touches the vertical sides $x=\\pm2$ when $\\cos 5t=\\pm1$, i.e. at $t=\\tfrac{k\\pi}{5}$: that is 5 touching points on each side (at five different heights). It touches the top and bottom $y=\\pm2$ when $\\sin 2t=\\pm1$: only 2 touching points on each of the top and bottom. The graph with 5 lobes on each side and 2 on the top/bottom is (C).",
+   "options": [
+    "![Graph A](assets/img/ext2-2025-killara/q7a.png)",
+    "![Graph B](assets/img/ext2-2025-killara/q7b.png)",
+    "![Graph C](assets/img/ext2-2025-killara/q7c.png)",
+    "![Graph D](assets/img/ext2-2025-killara/q7d.png)"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.3"
+   ],
+   "question": "The polynomial equation $P(z)=0$ has exactly one complex (non-real) coefficient. Three of the roots of this equation are $z=4+2i$, $z=-9-2i$ and $z=0$. The minimum degree of $P(z)$ is",
+   "answer": "Since $P$ has non-real coefficients, the conjugate root theorem does not force $4-2i$ or $-9+2i$ to be roots. Try the cubic with just these three roots:\n$$P(z)=z\\,(z-4-2i)(z+9+2i)=z^3+5z^2-(32+26i)z,$$\nsince the sum of the roots is $(4+2i)+(-9-2i)+0=-5$ and $(4+2i)(-9-2i)=-32-26i$. Its coefficients are $1,\\,5,\\,-(32+26i),\\,0$, so exactly one coefficient ($-32-26i$) is non-real. At least 3 roots are needed, so the minimum degree is 3.",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "There are 4 trolls on a bridge. Each troll is either a knight (always tells the truth) or a knave (always lies). Each troll can see the other three trolls.\n\n- Troll 1: \"Every troll can see at least 1 knave.\"\n- Troll 2: \"I can see at least 1 troll that can only see knaves.\"\n- Troll 3: \"All trolls are afraid of goats.\"\n- Troll 4: \"Some trolls are afraid of goats.\"\n\nWhat can be deduced?",
+   "answer": "*Troll 1 is a knight.* If Troll 1 were a knave, then some troll sees no knave, and the only troll who can fail to see a knave is Troll 1 itself (every other troll sees Troll 1). So Trolls 2, 3, 4 would all be knights; but then Troll 2's statement is false (nobody sees only knaves), contradiction.\n\n*Troll 2 is a knave.* Every troll sees a knave, so there are at least 2 knaves. If Troll 2 were a knight, some troll would see only knaves; the only possibility is Troll 1 seeing Trolls 2, 3, 4 all knaves, contradicting Troll 2 being a knight. So Troll 2 is a knave, and (his statement being false) Troll 1 does not see only knaves, so not all of Trolls 2, 3, 4 are knaves. With at least two knaves, exactly one of Trolls 3 and 4 is a knave.\n\n*Troll 3 is the knave.* If Troll 3 were a knight, \"all are afraid\" would be true, so \"some are afraid\" would be true and Troll 4 would be a knight too, leaving only one knave, a contradiction. So Troll 3 is a knave and Troll 4 a knight.\n\nTroll 4 tells the truth: some trolls are afraid of goats (and Troll 3 lies, so not all are). The answer is (C).",
+   "options": [
+    "Three trolls are knaves",
+    "No trolls are afraid of goats",
+    "Some trolls are afraid of goats",
+    "All trolls are afraid of goats"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.1.17"
+   ],
+   "question": "The line $\\mathbf{r}_1(t)=\\begin{pmatrix}4\\\\-2\\\\0\\end{pmatrix}+t\\begin{pmatrix}\\lambda\\\\1\\\\2\\end{pmatrix}$ intersects the sphere $\\left|\\mathbf{r}_2-\\begin{pmatrix}1\\\\-2\\\\3\\end{pmatrix}\\right|=3$ at exactly one point. Which one of the following is correct?",
+   "answer": "The line meets the sphere at exactly one point when it is tangent. Substitute $\\mathbf{r}_1(t)$ into the sphere equation: $\\begin{pmatrix}3+\\lambda t\\\\ t\\\\ 2t-3\\end{pmatrix}$ has squared length $9$:\n$$(3+\\lambda t)^2+t^2+(2t-3)^2=9\\ \\Rightarrow\\ (\\lambda^2+5)t^2+(6\\lambda-12)t+9=0.$$\nOne solution requires the discriminant to be zero: $(6\\lambda-12)^2-36(\\lambda^2+5)=0$, i.e. $-144\\lambda-36=0$, so $\\lambda=-\\tfrac14$. (The tangent point has $t=\\tfrac43$, so $t$ is not one of the options.)",
+   "options": [
+    "$\\lambda=-\\dfrac14$",
+    "$\\lambda=\\dfrac14$",
+    "$t=-\\dfrac14$",
+    "$t=\\dfrac14$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.4"
+   ],
+   "question": "Let $z=1+3i$ and $w=2-6i$. Find $\\overline{z}+w$ in modulus-argument form.",
+   "answer": "$\\overline z+w=(1-3i)+(2-6i)=3-9i$.\n\nModulus: $\\sqrt{9+81}=3\\sqrt{10}$. Argument: $\\tan^{-1}(-3)$ (fourth quadrant), i.e. $-\\tan^{-1}3\\approx-1.249$.\n\n$$\\overline z+w=3\\sqrt{10}\\left[\\cos\\left(\\tan^{-1}(-3)\\right)+i\\sin\\left(\\tan^{-1}(-3)\\right)\\right]$$"
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.13"
+   ],
+   "question": "Let $z=1+3i$ and $w=2-6i$. Write $\\dfrac zw$ in the form $x+iy$, where $x$ and $y$ are real numbers.",
+   "answer": "$$\\frac zw=\\frac{(1+3i)(2+6i)}{(2-6i)(2+6i)}=\\frac{2+6i+6i+18i^2}{40}=\\frac{-16+12i}{40}=-\\frac25+\\frac{3}{10}i.$$"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.8"
+   ],
+   "question": "If the points $A(0,1,1)$, $B(2,5,9)$ and $C(3,b,c)$ are collinear, find the values of $b$ and $c$.",
+   "answer": "$\\overrightarrow{AB}=\\begin{pmatrix}2\\\\4\\\\8\\end{pmatrix}$ and $\\overrightarrow{BC}=\\begin{pmatrix}1\\\\b-5\\\\c-9\\end{pmatrix}$. For collinear points $\\overrightarrow{BC}=k\\overrightarrow{AB}$; comparing the $x$-components, $k=\\tfrac12$. Then $b-5=2\\Rightarrow b=7$ and $c-9=4\\Rightarrow c=13$."
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "Prove that if $n\\in\\mathbb{Z}$, then $n^2+2$ is not divisible by $4$.",
+   "answer": "Every integer is even or odd.\n\n*Case 1:* $n=2k$. Then $n^2+2=4k^2+2$. Since $4k^2$ is divisible by 4 and $2$ is not, $n^2+2$ is not divisible by 4.\n\n*Case 2:* $n=2k+1$. Then $n^2+2=4k^2+4k+3$, which leaves remainder $3$ on division by 4.\n\nIn both cases $n^2+2$ is not divisible by 4. $\\blacksquare$"
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.8"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{-x-17}{x^2-x-6}\\,dx$.",
+   "answer": "$x^2-x-6=(x-3)(x+2)$. Write $\\dfrac{-x-17}{(x-3)(x+2)}=\\dfrac{A}{x-3}+\\dfrac{B}{x+2}$, so $-x-17=A(x+2)+B(x-3)$.\n\nPut $x=3$: $-20=5A$, $A=-4$. Put $x=-2$: $-15=-5B$, $B=3$.\n\n$$\\int\\left(\\frac{-4}{x-3}+\\frac{3}{x+2}\\right)dx=3\\ln|x+2|-4\\ln|x-3|+C.$$"
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "Given $\\mathbf{a}=\\mathbf{i}-\\mathbf{j}+2\\mathbf{k}$ and $\\mathbf{b}=\\mathbf{i}-2\\mathbf{j}+3\\mathbf{k}$, find the angle between the two vectors to the nearest degree.",
+   "answer": "$\\mathbf a\\cdot\\mathbf b=1+2+6=9$, $|\\mathbf a|=\\sqrt{1+1+4}=\\sqrt6$, $|\\mathbf b|=\\sqrt{1+4+9}=\\sqrt{14}$.\n\n$$\\cos\\theta=\\frac{9}{\\sqrt6\\sqrt{14}}=\\frac{9}{\\sqrt{84}}\\ \\Rightarrow\\ \\theta\\approx10.89^\\circ\\approx11^\\circ.$$\n\n(The paper's solution wrote $\\mathbf a$ as $(1,-1,2)$ but its working line for $|\\mathbf a|$ showed $4+1+1$; the value $\\sqrt6$ and the answer $11^\\circ$ are correct.)",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q11(f)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.12"
+   ],
+   "question": "By using the contrapositive, prove that if $a$ and $b$ are integers and $a+b\\ge15$, then either $a\\ge7$ or $b\\ge8$.",
+   "answer": "The contrapositive is: if $a<7$ and $b<8$, then $a+b<15$.\n\nSuppose $a<7$ and $b<8$. Since $a,b$ are integers, $a\\le6$ and $b\\le7$, so $a+b\\le13<15$. (Even without integrality, $a+b<7+8=15$.) The contrapositive is true, and an implication is logically equivalent to its contrapositive, so the original statement is true. $\\blacksquare$"
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.1.3"
+   ],
+   "question": "A line $L$ has vector equation $\\mathbf r=\\begin{pmatrix}1\\\\2\\\\3\\end{pmatrix}+\\lambda\\begin{pmatrix}2\\\\-1\\\\1\\end{pmatrix}$, $\\lambda\\in\\mathbb{R}$. The point $A$ has position vector $\\mathbf a=\\begin{pmatrix}5\\\\1\\\\0\\end{pmatrix}$. Let $\\mathbf r_0=\\begin{pmatrix}1\\\\2\\\\3\\end{pmatrix}$ be the position vector of a point on $L$.\n\nFind the projection of $\\mathbf a-\\mathbf r_0$ onto the line (that is, onto the direction vector of $L$).",
+   "answer": "$\\mathbf a-\\mathbf r_0=\\begin{pmatrix}4\\\\-1\\\\-3\\end{pmatrix}$, $\\mathbf d=\\begin{pmatrix}2\\\\-1\\\\1\\end{pmatrix}$.\n$$\\operatorname{proj}_{\\mathbf d}(\\mathbf a-\\mathbf r_0)=\\frac{(\\mathbf a-\\mathbf r_0)\\cdot\\mathbf d}{|\\mathbf d|^2}\\mathbf d=\\frac{8+1-3}{4+1+1}\\begin{pmatrix}2\\\\-1\\\\1\\end{pmatrix}=\\begin{pmatrix}2\\\\-1\\\\1\\end{pmatrix}.$$"
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.1.3"
+   ],
+   "question": "A line $L$ has vector equation $\\mathbf r=\\begin{pmatrix}1\\\\2\\\\3\\end{pmatrix}+\\lambda\\begin{pmatrix}2\\\\-1\\\\1\\end{pmatrix}$, $\\lambda\\in\\mathbb{R}$, and $A$ has position vector $\\begin{pmatrix}5\\\\1\\\\0\\end{pmatrix}$. The projection of $\\overrightarrow{CA}$ onto $L$, where $C=(1,2,3)$ lies on $L$, is $\\begin{pmatrix}2\\\\-1\\\\1\\end{pmatrix}$.\n\nHence find the point at which the perpendicular from $A$ to $L$ meets $L$.",
+   "answer": "The foot of the perpendicular $B$ satisfies $\\overrightarrow{CB}=\\operatorname{proj}=\\begin{pmatrix}2\\\\-1\\\\1\\end{pmatrix}$, so $\\overrightarrow{OB}=\\begin{pmatrix}1\\\\2\\\\3\\end{pmatrix}+\\begin{pmatrix}2\\\\-1\\\\1\\end{pmatrix}=\\begin{pmatrix}3\\\\1\\\\4\\end{pmatrix}$. The point is $B(3,1,4)$ (it corresponds to $\\lambda=1$)."
+  },
+  {
+   "ref": "Q12(a)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "A line $L$ passes through $(1,2,3)$ with direction $\\begin{pmatrix}2\\\\-1\\\\1\\end{pmatrix}$, and $A=(5,1,0)$. The perpendicular from $A$ meets $L$ at $B(3,1,4)$.\n\nFind the shortest distance from $A$ to $L$.",
+   "answer": "The shortest distance is $AB=\\sqrt{(5-3)^2+(1-1)^2+(0-4)^2}=\\sqrt{4+16}=2\\sqrt5$ units."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "Prove or disprove: there exists an integer $k$ for which the expression $\\dfrac{(1+i)^k}{(1-i)^{k-1}}$ is purely real or purely imaginary.",
+   "answer": "In polar form $1+i=\\sqrt2\\,\\mathrm{cis}\\tfrac\\pi4$ and $1-i=\\sqrt2\\,\\mathrm{cis}\\left(-\\tfrac\\pi4\\right)$. By de Moivre's theorem\n$$\\frac{(1+i)^k}{(1-i)^{k-1}}=\\frac{2^{k/2}\\,\\mathrm{cis}\\tfrac{k\\pi}{4}}{2^{(k-1)/2}\\,\\mathrm{cis}\\left(-\\tfrac{(k-1)\\pi}{4}\\right)}=\\sqrt2\\,\\mathrm{cis}\\,\\frac{(2k-1)\\pi}{4}.$$\nThe argument $\\dfrac{(2k-1)\\pi}{4}$ is an odd multiple of $\\dfrac\\pi4$, so it is never a multiple of $\\dfrac\\pi2$ (that would need $2k-1$ to be even). Hence the expression is never real and never purely imaginary: it cycles through $1+i,\\,-1+i,\\,-1-i,\\,1-i$ as $k=1,2,3,4$ and then repeats.\n\nSo there is **no** such integer $k$ (the statement is disproved)."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{\\tan 2x}{1+\\cos 2x}\\,dx$.",
+   "answer": "*Method 1.* Let $t=\\tan x$, so $dx=\\dfrac{dt}{1+t^2}$, $\\tan2x=\\dfrac{2t}{1-t^2}$, $1+\\cos2x=\\dfrac{2}{1+t^2}$.\n$$\\int\\frac{\\frac{2t}{1-t^2}}{\\frac{2}{1+t^2}}\\cdot\\frac{dt}{1+t^2}=\\int\\frac{t}{1-t^2}\\,dt=-\\frac12\\ln|1-t^2|+C=-\\frac12\\ln\\left|1-\\tan^2x\\right|+C.$$\n\n*Method 2.* With $u=\\cos 2x$, $\\tan 2x\\,dx=-\\dfrac{du}{2u}$, giving $-\\dfrac12\\displaystyle\\int\\frac{du}{u(1+u)}=-\\dfrac12\\ln\\left|\\dfrac{\\cos2x}{1+\\cos2x}\\right|+C$, which differs from Method 1 only by a constant."
+  },
+  {
+   "ref": "Q12(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.4"
+   ],
+   "question": "The velocity $v$ m/s of a particle moving in simple harmonic motion along the $x$-axis is given by $v^2=-4x^2+96x+20$. Find the acceleration of the particle in terms of $x$.",
+   "answer": "$\\ddot x=\\dfrac{d}{dx}\\left(\\tfrac12v^2\\right)=\\dfrac{d}{dx}\\left(-2x^2+48x+10\\right)=-4x+48$."
+  },
+  {
+   "ref": "Q12(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.5"
+   ],
+   "question": "A particle moves in simple harmonic motion along the $x$-axis with $v^2=-4x^2+96x+20$ and acceleration $\\ddot x=-4x+48$. State the period and the centre of the motion.",
+   "answer": "$\\ddot x=-4(x-12)$, which has the form $-n^2(x-c)$ with $n^2=4$, $c=12$. The centre of motion is $x=12$ and the period is $\\dfrac{2\\pi}{n}=\\dfrac{2\\pi}{2}=\\pi$ seconds."
+  },
+  {
+   "ref": "Q12(d)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.8"
+   ],
+   "question": "A particle moves in simple harmonic motion along the $x$-axis with $v^2=-4x^2+96x+20$ and centre of motion $x=12$. What is the maximum speed of the particle?",
+   "answer": "Maximum speed occurs at the centre $x=12$: $v^2=-4(144)+96(12)+20=-576+1152+20=596$. Maximum speed $=\\sqrt{596}=2\\sqrt{149}$ m/s."
+  },
+  {
+   "ref": "Q12(e)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.5.4",
+    "12.3.5.5"
+   ],
+   "question": "Sketch on an Argand diagram the set of all points $z$ satisfying $\\arg\\left(\\dfrac{z-2}{z+2}\\right)=\\dfrac\\pi4$, showing all important features.",
+   "answer": "$\\arg\\dfrac{z-2}{z+2}=\\arg(z-2)-\\arg(z+2)$ is the angle subtended at $z$ by the interval joining $-2$ and $2$. The locus is therefore an arc of a circle through $-2$ and $2$, lying in the upper half-plane.\n\nA chord of length 4 subtending an inscribed angle $\\tfrac\\pi4$ on the major arc means a central angle of $\\tfrac\\pi2$, so the radius is $\\dfrac{4}{2\\sin(\\pi/4)}=2\\sqrt2$ and the centre is $(0,2)$. The sketch is the **major arc** of the circle $|z-2i|=2\\sqrt2$ lying above the real axis, from $-2$ to $2$, with highest point $z=(2+2\\sqrt2)i$. The end points $z=\\pm2$ are excluded (open circles)."
+  },
+  {
+   "ref": "Q12(e)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.4",
+    "12.3.5.5"
+   ],
+   "question": "Sketch on an Argand diagram the set of all points $z$ satisfying $\\arg\\left(\\dfrac{z-2}{z+2}\\right)=\\dfrac\\pi2$, showing all important features.",
+   "answer": "Here the interval from $-2$ to $2$ subtends a right angle at $z$, so by the angle in a semicircle the locus is the **upper semicircle** of $|z|=2$ (centre $0$, radius $2$, highest point $2i$), with the end points $\\pm2$ excluded."
+  },
+  {
+   "ref": "Q12(e)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.5"
+   ],
+   "question": "Sketch on an Argand diagram the region where $\\dfrac\\pi4\\le\\arg\\left(\\dfrac{z-2}{z+2}\\right)\\le\\dfrac\\pi2$.",
+   "answer": "The region lies between the two loci: it is the part of the upper half-plane **outside the semicircle** $|z|=2$ and **inside (or on) the major arc** of the circle $|z-2i|=2\\sqrt2$ (excluding the points $\\pm2$). Points inside the semicircle have argument greater than $\\tfrac\\pi2$, and points outside the large arc have argument less than $\\tfrac\\pi4$, so the shaded region is the crescent-shaped area between the two arcs, including both boundary arcs."
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Find the exact value of $\\displaystyle\\int_1^e\\left[\\ln x\\right]^2dx$.",
+   "answer": "Integrate by parts twice. $\\displaystyle\\int(\\ln x)^2dx=x(\\ln x)^2-\\int 2\\ln x\\,dx=x(\\ln x)^2-2\\left(x\\ln x-x\\right)+C$.\n$$\\int_1^e(\\ln x)^2dx=\\Big[x(\\ln x)^2-2x\\ln x+2x\\Big]_1^e=(e-2e+2e)-(2)=e-2.$$"
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "The curve $y=\\ln x$ on the interval $[1,e]$ is rotated about the $x$-axis. Find the exact volume of the solid generated.",
+   "answer": "$$V=\\pi\\int_1^e y^2\\,dx=\\pi\\int_1^e(\\ln x)^2dx=\\pi(e-2)\\ \\text{units}^3.$$"
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.3.3"
+   ],
+   "question": "A monic polynomial of degree 4 has integer coefficients and two real integer roots. Which of the following could be a root of the polynomial? Justify your answer.\n$$\\frac{1+\\sqrt{11}\\,i}{2},\\qquad 1+\\frac i2,\\qquad \\frac12+i,\\qquad \\frac{1+\\sqrt{13}\\,i}{2}$$",
+   "answer": "The polynomial has real coefficients, so a non-real root $\\alpha$ and its conjugate $\\bar\\alpha$ are both roots. Dividing out the two integer-root linear factors (monic, integer) leaves a monic quadratic with integer coefficients, namely $x^2-(\\alpha+\\bar\\alpha)x+\\alpha\\bar\\alpha$. So we need both $\\alpha+\\bar\\alpha=2\\operatorname{Re}\\alpha$ and $|\\alpha|^2$ to be integers.\n\n- $\\dfrac{1+\\sqrt{11}i}{2}$: sum $=1$, product $=\\dfrac{1+11}{4}=3$. Quadratic $x^2-x+3$: all integers ✓.\n- $1+\\dfrac i2$: sum $=2$, product $=1+\\tfrac14=\\tfrac54$ ✗.\n- $\\dfrac12+i$: sum $=1$, product $=\\tfrac14+1=\\tfrac54$ ✗.\n- $\\dfrac{1+\\sqrt{13}i}{2}$: sum $=1$, product $=\\dfrac{1+13}{4}=\\tfrac72$ ✗.\n\nOnly $\\dfrac{1+\\sqrt{11}\\,i}{2}$ could be a root."
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.4"
+   ],
+   "question": "Determine the coordinates of the point which divides the line segment joining $(1,-2,3)$ and $(3,4,-5)$ externally in the ratio $2:3$.",
+   "answer": "Let $A=(1,-2,3)$, $B=(3,4,-5)$ and let $C$ divide $AB$ externally in the ratio $2:3$, i.e. $AC:CB=2:3$ with $C$ outside the segment, beyond $A$. Then $\\overrightarrow{AC}=-\\tfrac23\\overrightarrow{CB}$, so the section formula with ratio $2:-3$ applies:\n$$\\overrightarrow{OC}=\\frac{3\\overrightarrow{OA}-2\\overrightarrow{OB}}{3-2}=3\\begin{pmatrix}1\\\\-2\\\\3\\end{pmatrix}-2\\begin{pmatrix}3\\\\4\\\\-5\\end{pmatrix}=\\begin{pmatrix}-3\\\\-14\\\\19\\end{pmatrix}.$$\nThe point is $(-3,-14,19)$.\n\n(Check: $\\overrightarrow{CA}=(4,12,-16)$ and $\\overrightarrow{CB}=(6,18,-24)$ point the same way from $C$ and $CA:CB=2:3$, so $C$ lies outside the segment $AB$.)"
+  },
+  {
+   "ref": "Q13(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.2"
+   ],
+   "question": "Let $x,y,z$ be positive real numbers with $xy+yz+zx=1$. Prove that $10x^2+10y^2+z^2\\ge4$.",
+   "answer": "Since $xy+yz+zx=1$, we have $4=4(xy+yz+zx)$, so\n$$10x^2+10y^2+z^2-4=10x^2+10y^2+z^2-4xy-4yz-4zx.$$\nNow $(2x+2y-z)^2=4x^2+4y^2+z^2+8xy-4xz-4yz$, and subtracting gives\n$$10x^2+10y^2+z^2-4xy-4yz-4zx=(2x+2y-z)^2+6x^2+6y^2-12xy=(2x+2y-z)^2+6(x-y)^2\\ge0.$$\nHence $10x^2+10y^2+z^2\\ge4$. $\\blacksquare$\n\n(The paper's working wrote the first bracket as $(2x+2y-4)^2$; it should read $(2x+2y-z)^2$.)"
+  },
+  {
+   "ref": "Q13(f)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "Two birds fly along straight paths with vector equations\n$$\\mathbf r_1=\\begin{pmatrix}-1\\\\5\\\\2\\end{pmatrix}+\\lambda\\begin{pmatrix}2\\\\a\\\\0\\end{pmatrix},\\qquad \\mathbf r_2=\\begin{pmatrix}4\\\\-1\\\\3\\end{pmatrix}+\\mu\\begin{pmatrix}0\\\\1\\\\-1\\end{pmatrix},$$\nwhere $\\lambda$ and $\\mu$ are scalar parameters. The angle between the flight paths is $120^\\circ$. Find the value of $a$.",
+   "answer": "Directions $\\mathbf d_1=(2,a,0)$, $\\mathbf d_2=(0,1,-1)$: $\\mathbf d_1\\cdot\\mathbf d_2=a$, $|\\mathbf d_1|=\\sqrt{4+a^2}$, $|\\mathbf d_2|=\\sqrt2$.\n$$a=\\sqrt{4+a^2}\\,\\sqrt2\\cos120^\\circ=-\\frac{\\sqrt2}{2}\\sqrt{4+a^2}.$$\nSo $a<0$. Squaring: $a^2=\\tfrac12(4+a^2)\\Rightarrow a^2=4$, so $a=-2$ (reject $a=2$ since $\\cos120^\\circ<0$).",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q13(f)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.10"
+   ],
+   "question": "Two birds fly along straight paths with vector equations\n$$\\mathbf r_1=\\begin{pmatrix}-1\\\\5\\\\2\\end{pmatrix}+\\lambda\\begin{pmatrix}2\\\\-2\\\\0\\end{pmatrix},\\qquad \\mathbf r_2=\\begin{pmatrix}4\\\\-1\\\\3\\end{pmatrix}+\\mu\\begin{pmatrix}0\\\\1\\\\-1\\end{pmatrix}.$$\nDetermine whether the flight paths will meet, and if so, where.",
+   "answer": "Equate components: $-1+2\\lambda=4$, $5-2\\lambda=-1+\\mu$, $2=3-\\mu$.\n\nThe first gives $\\lambda=\\tfrac52$ and the third gives $\\mu=1$. Check the second: $5-5=0$ and $-1+1=0$ ✓. The equations are consistent, so the paths meet, at $\\lambda=\\tfrac52$, $\\mu=1$:\n$$(x,y,z)=(4,\\,0,\\,2).$$"
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.12"
+   ],
+   "question": "Let $z$ be a solution of $z^7-1=0$ with $z\\ne1$. Compute the numerical value of\n$$z^{10}+\\frac1{z^{10}}+z^{30}+\\frac1{z^{30}}+z^{50}+\\frac1{z^{50}}.$$",
+   "answer": "Since $z^7=1$ and $z\\ne1$, $1+z+z^2+\\dots+z^6=\\dfrac{z^7-1}{z-1}=0$, so $z+z^2+\\dots+z^6=-1$.\n\nReduce the powers using $z^7=1$: $z^{10}=z^3$, $z^{30}=z^{2}$, $z^{50}=z$, and $\\dfrac1{z^{10}}=z^{-3}=z^4$, $\\dfrac1{z^{30}}=z^{-2}=z^5$, $\\dfrac1{z^{50}}=z^{-1}=z^6$. The sum is therefore\n$$z^3+z^4+z^2+z^5+z+z^6=-1.$$"
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.2.10"
+   ],
+   "question": "Find the greatest value of the moduli of the complex numbers $z$ satisfying the equation $\\left|z-\\dfrac4z\\right|=2$.",
+   "answer": "Let $|z|=r$. By the triangle inequality,\n$$r=|z|=\\left|\\left(z-\\frac4z\\right)+\\frac4z\\right|\\le\\left|z-\\frac4z\\right|+\\frac4{r}=2+\\frac4r.$$\nSo $r^2-2r-4\\le0$, giving $r\\le1+\\sqrt5$.\n\nThis bound is attained: for the real number $z=1+\\sqrt5$ we have $z-\\dfrac4z=z-(\\sqrt5-1)=2$, which satisfies the equation. (Alternatively, $z^4-12z^2+16=0$ gives $z^2=6\\pm2\\sqrt5$ and $\\sqrt{6+2\\sqrt5}=1+\\sqrt5$.)\n\nThe greatest value of $|z|$ is $1+\\sqrt5$."
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.4"
+   ],
+   "question": "A particle of mass $m$ and positive charge $q$ moves along the $x$-axis under the influence of a spatially varying electric potential $P(x)=-A\\sin^2x$, where $A>0$ and $\\tfrac\\pi6\\le x\\le\\tfrac\\pi2$. The electric force on the particle is $\\vec F=q\\vec E$, where the electric field is $\\vec E=-\\dfrac{dP}{dx}$.\n\nAssuming the electric force is the only force acting on the particle, show that its acceleration is $a(x)=\\dfrac{qA}{m}\\sin(2x)$.",
+   "answer": "$E=-\\dfrac{dP}{dx}=2A\\sin x\\cos x=A\\sin2x$. By Newton's second law, $ma=qE=qA\\sin2x$, so $a=\\dfrac{qA}{m}\\sin2x$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "A particle of mass $m$ and positive charge $q$ starts at $x=\\dfrac\\pi6$ with velocity $\\sqrt{\\dfrac{qA}{2m}}$ (in the positive $x$ direction) and moves along the $x$-axis with acceleration $a(x)=\\dfrac{qA}{m}\\sin2x$, for $\\tfrac\\pi6\\le x\\le\\tfrac\\pi2$, where $A>0$.\n\nHence show that the velocity of the particle at position $x$ is $v=\\sqrt{\\dfrac{2qA}{m}}\\sin x$.",
+   "answer": "$\\dfrac{d}{dx}\\left(\\tfrac12v^2\\right)=a$, so $\\dfrac d{dx}(v^2)=\\dfrac{2qA}{m}\\sin2x$ and $v^2=-\\dfrac{qA}{m}\\cos2x+C$.\n\nAt $x=\\tfrac\\pi6$, $v^2=\\tfrac{qA}{2m}$: $\\dfrac{qA}{2m}=-\\dfrac{qA}{m}\\cdot\\dfrac12+C\\Rightarrow C=\\dfrac{qA}{m}$. So\n$$v^2=\\frac{qA}{m}(1-\\cos2x)=\\frac{2qA}{m}\\sin^2x.$$\nSince $a\\ge0$ on the interval and the particle starts moving to the right, it keeps moving right, so $v>0$: $v=\\sqrt{\\dfrac{2qA}{m}}\\sin x$. $\\blacksquare$\n\n(Alternatively, by conservation of energy, $\\tfrac12mv^2+qP(x)$ is constant.)"
+  },
+  {
+   "ref": "Q14(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.15",
+    "12.5.1.2"
+   ],
+   "question": "A particle moves along the $x$-axis, starting at $x=\\dfrac\\pi6$, with velocity $v=\\sqrt{\\dfrac{2qA}{m}}\\sin x$ at position $x$ (where $q,A,m>0$). Find how much time it takes to reach $x=\\dfrac\\pi2$.",
+   "answer": "$\\dfrac{dx}{dt}=\\sqrt{\\dfrac{2qA}{m}}\\sin x$, so\n$$T=\\sqrt{\\frac m{2qA}}\\int_{\\pi/6}^{\\pi/2}\\frac{dx}{\\sin x}=\\sqrt{\\frac m{2qA}}\\Big[\\ln\\left|\\tan\\tfrac x2\\right|\\Big]_{\\pi/6}^{\\pi/2}=\\sqrt{\\frac m{2qA}}\\left(\\ln1-\\ln\\tan\\tfrac\\pi{12}\\right).$$\n(The antiderivative of $\\operatorname{cosec}x$ can be obtained with $t=\\tan\\tfrac x2$ or by $\\int\\dfrac{\\sin x}{1-\\cos^2x}dx$.) Since $\\tan\\tfrac\\pi{12}=2-\\sqrt3$,\n$$T=\\sqrt{\\frac m{2qA}}\\ln\\left(2+\\sqrt3\\right).$$"
+  },
+  {
+   "ref": "Q14(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Show that $\\displaystyle\\int_0^{\\pi/2}(\\sin x)^{2k}\\cos x\\,dx=\\frac1{2k+1}$, where $k$ is a positive integer.",
+   "answer": "Let $u=\\sin x$, $du=\\cos x\\,dx$; limits $0\\to1$:\n$$\\int_0^1u^{2k}du=\\left[\\frac{u^{2k+1}}{2k+1}\\right]_0^1=\\frac1{2k+1}.\\ \\blacksquare$$"
+  },
+  {
+   "ref": "Q14(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.15",
+    "12.4.1.6"
+   ],
+   "question": "Given that $\\displaystyle\\int_0^{\\pi/2}(\\sin x)^{2k}\\cos x\\,dx=\\frac1{2k+1}$ for non-negative integers $k$, show that\n$$\\int_0^{\\pi/2}(\\cos x)^{2n+1}dx=\\sum_{k=0}^n\\frac{(-1)^k}{2k+1}\\binom nk .$$",
+   "answer": "Write $(\\cos x)^{2n+1}=(\\cos^2x)^n\\cos x=(1-\\sin^2x)^n\\cos x$ and expand by the binomial theorem:\n$$(1-\\sin^2x)^n=\\sum_{k=0}^n\\binom nk(-1)^k(\\sin x)^{2k}.$$\nTherefore\n$$\\int_0^{\\pi/2}(\\cos x)^{2n+1}dx=\\sum_{k=0}^n\\binom nk(-1)^k\\int_0^{\\pi/2}(\\sin x)^{2k}\\cos x\\,dx=\\sum_{k=0}^n\\frac{(-1)^k}{2k+1}\\binom nk.\\ \\blacksquare$$"
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.4.1.15"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{\\sin x}{\\sin x+\\cos x+e^x}\\,dx$.",
+   "answer": "Let $I=\\displaystyle\\int\\frac{\\sin x}{S}dx$ and $J=\\displaystyle\\int\\frac{\\cos x+e^x}{S}dx$, where $S=\\sin x+\\cos x+e^x$. Then $I+J=\\displaystyle\\int\\frac{S}{S}dx=x$.\n\nAlso $S'=\\cos x-\\sin x+e^x$, so $J-I=\\displaystyle\\int\\frac{S'}{S}dx=\\ln|S|$.\n\nSubtracting, $2I=x-\\ln|S|$, so\n$$\\int\\frac{\\sin x}{\\sin x+\\cos x+e^x}dx=\\frac x2-\\frac12\\ln\\left|\\sin x+\\cos x+e^x\\right|+C.$$"
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.6.2"
+   ],
+   "question": "Two stones are thrown simultaneously from the same point, in the same direction and with the same non-zero angle of projection $\\alpha$ above the horizontal, but with different speeds $U$ and $V$ m/s, $U<V$. The slower stone lands at a point $P$ at the same level as the point of projection. At that instant the faster stone is just clearing a wall of height $h$ above the level of projection.\n\nShow that, while both stones are in flight, the line joining the two stones has a constant inclination. Hence express the horizontal distance from $P$ to the wall in terms of $h$ and $\\alpha$.",
+   "answer": "Take the point of projection as the origin. At time $t$ (no air resistance) the stones are at\n$$(Ut\\cos\\alpha,\\ Ut\\sin\\alpha-\\tfrac12gt^2)\\quad\\text{and}\\quad(Vt\\cos\\alpha,\\ Vt\\sin\\alpha-\\tfrac12gt^2).$$\nThe gradient of the line joining them is\n$$\\frac{Vt\\sin\\alpha-Ut\\sin\\alpha}{Vt\\cos\\alpha-Ut\\cos\\alpha}=\\tan\\alpha,$$\nwhich is constant, so the line always makes the angle $\\alpha$ with the horizontal.\n\nWhen the slower stone is at $P$ on the ground, the faster stone is at the top of the wall, at height $h$. The line from $P$ to that stone has inclination $\\alpha$, so the horizontal distance from $P$ to the wall is $\\dfrac h{\\tan\\alpha}=h\\cot\\alpha$."
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.6.2"
+   ],
+   "question": "Two stones are thrown simultaneously from the same point, in the same direction and at the same angle of projection $\\alpha$ above the horizontal, with speeds $U$ and $V$ m/s, $U<V$. The slower stone lands at a point $P$ at the same level as the point of projection. At that instant the faster stone clears a wall, and its downward path makes an angle $\\beta$ with the horizontal.\n\nShow that $V(\\tan\\alpha+\\tan\\beta)=2U\\tan\\alpha$.",
+   "answer": "The slower stone lands when $Ut\\sin\\alpha-\\tfrac12gt^2=0$, $t\\ne0$, i.e. $t=\\dfrac{2U\\sin\\alpha}{g}$.\n\nAt this time the faster stone has velocity components $\\dot x=V\\cos\\alpha$, $\\dot y=V\\sin\\alpha-gt$. Its path is descending at angle $\\beta$, so $\\dfrac{\\dot y}{\\dot x}=-\\tan\\beta$:\n$$\\frac{V\\sin\\alpha-2U\\sin\\alpha}{V\\cos\\alpha}=-\\tan\\beta\\ \\Rightarrow\\ V\\tan\\alpha-2U\\tan\\alpha=-V\\tan\\beta,$$\nso $V(\\tan\\alpha+\\tan\\beta)=2U\\tan\\alpha$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_1^e x(\\ln x)^n\\,dx$, where $n\\ge0$ is an integer. Show that\n$$I_{n+1}=\\frac12e^2-\\frac12(n+1)I_n.$$",
+   "answer": "Integrate by parts with $u=(\\ln x)^{n+1}$, $dv=x\\,dx$, so $du=(n+1)(\\ln x)^n\\dfrac1x\\,dx$ and $v=\\dfrac{x^2}2$:\n$$I_{n+1}=\\left[\\frac{x^2}2(\\ln x)^{n+1}\\right]_1^e-\\frac{n+1}2\\int_1^ex(\\ln x)^n\\,dx=\\frac{e^2}2-\\frac{n+1}2I_n.\\ \\blacksquare$$"
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.4.5",
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_1^ex(\\ln x)^n\\,dx$ for integers $n\\ge1$, and suppose $I_{n+1}=\\dfrac12e^2-\\dfrac12(n+1)I_n$ for $n\\ge0$.\n\nProve by induction that for all positive integers $n$, $I_n$ is of the form $A_ne^2+B_n$, where $A_n$ and $B_n$ are rational numbers.",
+   "answer": "*Base case $n=1$:* $I_0=\\displaystyle\\int_1^ex\\,dx=\\dfrac{e^2-1}2$, so $I_1=\\dfrac{e^2}2-\\dfrac12I_0=\\dfrac{e^2}2-\\dfrac{e^2-1}4=\\dfrac14e^2+\\dfrac14$. So $A_1=B_1=\\tfrac14$ are rational.\n\n*Inductive step:* assume $I_n=A_ne^2+B_n$ with $A_n,B_n\\in\\mathbb{Q}$ for some $n\\ge1$. Then\n$$I_{n+1}=\\frac{e^2}2-\\frac{n+1}2\\left(A_ne^2+B_n\\right)=\\underbrace{\\tfrac12\\bigl(1-(n+1)A_n\\bigr)}_{A_{n+1}}e^2+\\underbrace{\\left(-\\tfrac12(n+1)B_n\\right)}_{B_{n+1}}.$$\nSince $A_n,B_n$ are rational, so are $A_{n+1}$ and $B_{n+1}$. So the statement holds for $n+1$ whenever it holds for $n$.\n\nBy mathematical induction it holds for all positive integers $n$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q16(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.1.5"
+   ],
+   "question": "Two blocks are not attached to each other. The larger block has mass $M=88$ kg and the smaller block has mass $m=16$ kg. A horizontal force $\\vec F$ pushes the smaller block against the vertical face of the larger block, as shown. The coefficient of static friction between the blocks is $\\mu=0.38$, but the surface beneath the larger block is frictionless.\n\nWhat is the minimum magnitude of the horizontal force required to keep the smaller block from slipping down the larger block? (Take $g=9.8\\ \\text{m s}^{-2}$ and give your answer to 2 significant figures.)",
+   "answer": "Let $N$ be the normal reaction between the blocks and $a$ the common horizontal acceleration.\n\n*Whole system (horizontal):* $F=(m+M)a$.\n*Small block (vertical), on the point of slipping:* $\\mu N=mg$, so $N=\\dfrac{mg}\\mu$.\n*Large block (horizontal):* $N=Ma$.\n\nHence $a=\\dfrac N M=\\dfrac{mg}{\\mu M}$ and\n$$F=(m+M)\\frac{mg}{\\mu M}=\\frac{16\\times9.8\\times(16+88)}{0.38\\times88}\\approx488\\ \\text{N}\\approx490\\ \\text{N}.$$\n(The paper's intermediate formula omitted the $M$ in the denominator, but its numerical working used it correctly.)",
+   "images": [
+    "assets/img/ext2-2025-killara/q16a.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.5"
+   ],
+   "question": "It is known that for positive numbers $a,b,c$ the arithmetic mean is at least the geometric mean: $\\dfrac{a+b+c}3\\ge\\sqrt[3]{abc}$.\n\nGiven $a+b+c=t$ and $a,b,c>0$, prove that $\\dfrac1a+\\dfrac1b+\\dfrac1c\\ge\\dfrac9t$.",
+   "answer": "From the given inequality, $\\sqrt[3]{abc}\\le\\dfrac t3$, so $\\dfrac1{\\sqrt[3]{abc}}\\ge\\dfrac3t$.\n\nApply AM–GM to the positive numbers $\\dfrac1a,\\dfrac1b,\\dfrac1c$:\n$$\\frac1a+\\frac1b+\\frac1c\\ge3\\sqrt[3]{\\frac1a\\cdot\\frac1b\\cdot\\frac1c}=\\frac3{\\sqrt[3]{abc}}\\ge3\\cdot\\frac3t=\\frac9t.\\ \\blacksquare$$"
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "Given $a,b,c>0$ and $a+b+c=1$, prove that $\\left(\\dfrac1a-1\\right)\\left(\\dfrac1b-1\\right)\\left(\\dfrac1c-1\\right)\\ge8$. (You may use the result that $\\dfrac1a+\\dfrac1b+\\dfrac1c\\ge\\dfrac9{a+b+c}$ for positive $a,b,c$.)",
+   "answer": "Expand:\n$$\\left(\\frac1a-1\\right)\\left(\\frac1b-1\\right)\\left(\\frac1c-1\\right)=\\frac1{abc}-\\frac{a+b+c}{abc}+\\frac1a+\\frac1b+\\frac1c-1.$$\n(using $\\dfrac1{ab}+\\dfrac1{bc}+\\dfrac1{ca}=\\dfrac{a+b+c}{abc}$.) Since $a+b+c=1$, the first two terms cancel and the product equals $\\dfrac1a+\\dfrac1b+\\dfrac1c-1$.\n\nBy the given result with $t=1$, $\\dfrac1a+\\dfrac1b+\\dfrac1c\\ge9$, so the product is at least $9-1=8$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q16(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.5.3"
+   ],
+   "question": "A drone $A$ of mass $1$ kg moves under gravity and air resistance. The resistive force is proportional to its velocity, $F=-kv$ with $k>0$, and the acceleration due to gravity is $g>0$. Drone $A$ is launched vertically upward from ground level (take its initial position as the origin) with initial speed $U$ m/s.\n\nShow that the height of $A$ at time $t$ is $y_A=\\left(\\dfrac{kU+g}{k^2}\\right)\\left(1-e^{-kt}\\right)-\\dfrac{gt}k$.",
+   "answer": "Taking upward as positive, $\\ddot y=-g-kv$, i.e. $\\dfrac{dv}{dt}=-(g+kv)$. Separating variables,\n$$\\int\\frac{dv}{g+kv}=-\\int dt\\ \\Rightarrow\\ \\frac1k\\ln(g+kv)=-t+C_1.$$\nAt $t=0$, $v=U$, so $g+kv=(g+kU)e^{-kt}$ and\n$$v=\\left(U+\\frac gk\\right)e^{-kt}-\\frac gk.$$\nIntegrating, $y=-\\dfrac1k\\left(U+\\dfrac gk\\right)e^{-kt}-\\dfrac{g}{k}t+C$. With $y=0$ at $t=0$, $C=\\dfrac{kU+g}{k^2}$, so\n$$y_A=\\frac{kU+g}{k^2}\\left(1-e^{-kt}\\right)-\\frac{gt}k.\\ \\blacksquare$$"
+  },
+  {
+   "ref": "Q16(c)(iii)",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.6.2",
+    "12.5.5.3"
+   ],
+   "question": "Two drones $A$ and $B$, each of mass $1$ kg, move under gravity and air resistance. The resistive force on each drone is $-k\\mathbf v$ (proportional to its velocity, $k>0$) and $g>0$ is the acceleration due to gravity.\n\nAt time $t=0$, drone $A$ is launched vertically upward from the origin $(0,0)$ with speed $U$ m/s, so that its height is $y_A=\\dfrac{kU+g}{k^2}\\left(1-e^{-kt}\\right)-\\dfrac{gt}k$. At the same time drone $B$ starts at height $H$ m, a horizontal distance $d$ m from $A$ (at position $(-d,H)$), moving horizontally towards $A$ with initial speed $V$ m/s and no initial vertical velocity.\n\nFind $d$ in terms of $U$, $V$, $k$ and $H$ so that the two drones collide, and explain why $V>kd$.",
+   "answer": "*Motion of $B$.* Horizontally, $\\ddot x=-k\\dot x$, so $\\dot x=Ve^{-kt}$ and $x=-\\dfrac Vke^{-kt}+C$; with $x=-d$ at $t=0$, $C=\\dfrac Vk-d$:\n$$x_B=\\frac Vk\\left(1-e^{-kt}\\right)-d.$$\nVertically, $\\ddot y=-g-k\\dot y$ with $\\dot y=0$ initially gives $\\dot y=\\dfrac gk\\left(e^{-kt}-1\\right)$, and with $y=H$ at $t=0$,\n$$y_B=H-\\frac gkt+\\frac g{k^2}\\left(1-e^{-kt}\\right).$$\n\n*Collision.* Drone $A$ stays on the line $x=0$, so we need $x_B=0$ and $y_A=y_B$ at the same time $t$.\n\nFrom $x_B=0$: $\\dfrac Vk(1-e^{-kt})=d$, so $1-e^{-kt}=\\dfrac{kd}V$. $\\quad(1)$\n\nFrom $y_A=y_B$:\n$$\\frac{kU+g}{k^2}(1-e^{-kt})-\\frac{gt}k=H-\\frac{gt}k+\\frac g{k^2}(1-e^{-kt})\\ \\Rightarrow\\ \\frac Uk\\left(1-e^{-kt}\\right)=H.\\quad(2)$$\n\nSubstituting (1) into (2): $\\dfrac Uk\\cdot\\dfrac{kd}V=H$, so\n$$d=\\frac{VH}{U}.$$\n(The answer does not depend on $k$.)\n\n*Why $V>kd$.* From (1), $e^{-kt}=1-\\dfrac{kd}V$. Since $e^{-kt}>0$ for all real $t$, we need $1-\\dfrac{kd}V>0$, i.e. $V>kd$. Physically, $B$'s horizontal distance travelled tends to the limit $\\dfrac Vk$ (its terminal horizontal extent), so $B$ can only reach $x=0$ if $d<\\dfrac Vk$.\n\n(Note: the printed paper omitted part (ii), which in the school's solutions is finding the position of $B$; it is included in the working above.)"
+  }
+ ]
+}
