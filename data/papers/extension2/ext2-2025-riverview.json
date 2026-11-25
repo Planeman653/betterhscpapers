@@ -1,0 +1,732 @@
+{
+ "id": "ext2-2025-riverview",
+ "course": "extension2",
+ "school": "Riverview",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "Riverview 2025 w. sol"
+ },
+ "indexed": "2026-11-26",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.8"
+   ],
+   "question": "The points $A$, $B$, $C$ are collinear where $\\overrightarrow{OA}=\\mathbf i+\\mathbf j$, $\\overrightarrow{OB}=2\\mathbf i-\\mathbf j+\\mathbf k$ and $\\overrightarrow{OC}=3\\mathbf i+a\\mathbf j+b\\mathbf k$.\n\nWhat are the values of $a$ and $b$?",
+   "answer": "$\\overrightarrow{AB}=\\begin{pmatrix}1\\\\-2\\\\1\\end{pmatrix}$ and $\\overrightarrow{AC}=\\begin{pmatrix}2\\\\a-1\\\\b\\end{pmatrix}$. For collinear points, $\\overrightarrow{AC}=\\lambda\\overrightarrow{AB}$: the $x$-components give $\\lambda=2$, so $a-1=-4$ and $b=2$. Hence $a=-3$, $b=2$ (C).",
+   "options": [
+    "$a=-3,\\ b=-2$",
+    "$a=3,\\ b=-2$",
+    "$a=-3,\\ b=2$",
+    "$a=3,\\ b=2$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.7",
+    "12.1.1.6"
+   ],
+   "question": "The negation of the statement $\\forall x\\in\\mathbb R,\\ \\exists y\\in\\mathbb R$ such that $2x+3y=12$ is:",
+   "answer": "To negate, swap each quantifier ($\\forall\\leftrightarrow\\exists$) and negate the final statement: $\\exists x\\in\\mathbb R,\\ \\forall y\\in\\mathbb R,\\ 2x+3y\\ne12$ (B).",
+   "options": [
+    "$\\forall x\\in\\mathbb R,\\ \\exists y\\in\\mathbb R$ such that $2x+3y\\ne12$",
+    "$\\exists x\\in\\mathbb R,\\ \\forall y\\in\\mathbb R,\\ 2x+3y\\ne12$",
+    "$\\forall x\\in\\mathbb R,\\ \\forall y\\in\\mathbb R,\\ 2x+3y\\ne12$",
+    "$\\exists x\\in\\mathbb R,\\ \\exists y\\in\\mathbb R$ such that $2x+3y\\ne12$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.8"
+   ],
+   "question": "Which of the following is the converse of $\\sim P\\Rightarrow Q$ ?",
+   "answer": "The converse of 'if $A$ then $B$' is 'if $B$ then $A$'. With $A=\\ \\sim P$ and $B=Q$ the converse is $Q\\Rightarrow\\ \\sim P$ (B).",
+   "options": [
+    "$\\sim Q\\Rightarrow P$",
+    "$Q\\Rightarrow\\ \\sim P$",
+    "$P\\Rightarrow Q$",
+    "$\\sim P\\Rightarrow\\ \\sim Q$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.2",
+    "12.3.3.4"
+   ],
+   "question": "Four roots of the polynomial $P(x)$ lie on the unit circle on a complex plane, as shown ($\\alpha=-1$, and $\\beta$, $\\gamma$, $\\bar\\gamma$ are non-real). There may be other roots.\n\nWhich statement about $P(x)$ MUST be true?",
+   "answer": "$\\beta$ is non-real and its conjugate $\\bar\\beta$ is **not** shown as a root. If all coefficients are real, non-real roots occur in conjugate pairs, so $\\bar\\beta$ must also be a root. Then $P$ has at least the five roots $\\alpha,\\beta,\\bar\\beta,\\gamma,\\bar\\gamma$, so its degree is at least $5$ (C).\n\nA is not forced (a quartic with roots $\\alpha,\\beta,\\gamma,\\bar\\gamma$ has a non-real coefficient since $\\bar\\beta$ is not a root). B is not forced either (multiplying $P$ by a non-real constant can make every coefficient non-real). D is not forced (the roots need not be those of $z^n+1=0$).",
+   "options": [
+    "If $P(x)$ is a quartic then all its coefficients are real.",
+    "If $P(x)$ is a quartic then at least one of its coefficients is real.",
+    "If all of the coefficients of $P(x)$ are real then its degree is at least 5.",
+    "$P(x)$ is in the form $z^n+1=0$ where $n$ is odd and at least 5."
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/ext2-2025-riverview/q4.png"
+   ]
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.8",
+    "12.5.2.7"
+   ],
+   "question": "A particle is moving along the $x$-axis in simple harmonic motion. The displacement of the particle is $x$ metres and its velocity is $v$ ms$^{-1}$.\n\nThe graph of $v^2=n^2\\left(a^2-(x-c)^2\\right)$, where $a$, $c$ and $n$ are positive constants, is shown (not to scale). The graph has $x$-intercepts $-2$ and $10$ and a maximum value of $9$.\n\nThe values of $a$, $c$ and $n$ are:",
+   "answer": "$v=0$ at $x=c\\pm a$, so $c-a=-2$ and $c+a=10$, giving $c=4$ and $a=6$. The maximum of $v^2$ is $n^2a^2=9$, so $36n^2=9$ and $n=\\frac12$ (C).",
+   "options": [
+    "$a=4,\\ c=6$ and $n=\\dfrac12$",
+    "$a=4,\\ c=6$ and $n=\\dfrac32$",
+    "$a=6,\\ c=4$ and $n=\\dfrac12$",
+    "$a=6,\\ c=4$ and $n=\\dfrac32$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/ext2-2025-riverview/q5.png"
+   ]
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "Particles of mass $6$ kg and $4$ kg are attached to each end of a light inextensible string. The string passes over a pulley as shown in the diagram.\n\nWhich expression gives the acceleration of the $6$ kg mass as it moves downwards?",
+   "answer": "Let $T$ be the tension and $a$ the acceleration. $6$ kg (down): $6g-T=6a$. $4$ kg (up): $T-4g=4a$. Adding: $2g=10a$, so $a=\\frac15g$ (A).",
+   "options": [
+    "$\\dfrac15g$",
+    "$\\dfrac25g$",
+    "$2.5g$",
+    "$5g$"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/ext2-2025-riverview/q6.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.5.3",
+    "12.3.2.8"
+   ],
+   "question": "If $\\omega=\\dfrac{z+1}{z+i}$ and $\\omega$ is purely imaginary, what is the locus of $z$? (The four options are the diagrams (A)–(D) shown.)",
+   "answer": "Let $z=x+iy$. Then $\\omega=\\dfrac{(x+1)+iy}{x+i(y+1)}\\cdot\\dfrac{x-i(y+1)}{x-i(y+1)}$ and\n$$\\text{Re}(\\omega)=\\frac{x(x+1)+y(y+1)}{x^2+(y+1)^2}.$$\n$\\omega$ purely imaginary means $\\text{Re}(\\omega)=0$: $x^2+x+y^2+y=0$, i.e. $\\left(x+\\frac12\\right)^2+\\left(y+\\frac12\\right)^2=\\frac12$. This is a circle with centre $\\left(-\\frac12,-\\frac12\\right)$ and radius $\\frac{\\sqrt2}2$ (through the origin, $(-1,0)$ and $(0,-1)$). The point $z=-i$ (undefined) and the point $z=-1$ (where $\\omega=0$, which is not purely imaginary) are excluded, so there are open circles at $(0,-1)$ and $(-1,0)$. This is diagram (C).",
+   "options": [
+    "Diagram (A)",
+    "Diagram (B)",
+    "Diagram (C)",
+    "Diagram (D)"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/ext2-2025-riverview/q7.png"
+   ]
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.5",
+    "12.3.2.6"
+   ],
+   "question": "Which of the following is equivalent to $\\dfrac{e^{-\\frac{i\\pi}2}}{e^{\\frac{i\\pi}6}}$ ?",
+   "answer": "$\\dfrac{e^{-i\\pi/2}}{e^{i\\pi/6}}=e^{-i\\left(\\frac\\pi2+\\frac\\pi6\\right)}=e^{-\\frac{2\\pi}3i}=\\cos\\frac{2\\pi}3-i\\sin\\frac{2\\pi}3=-\\frac12-\\frac{\\sqrt3}2i$ (A).",
+   "options": [
+    "$-\\dfrac12-\\dfrac{\\sqrt3}2i$",
+    "$-\\dfrac12+\\dfrac{\\sqrt3}2i$",
+    "$\\dfrac12-\\dfrac{\\sqrt3}2i$",
+    "$\\dfrac12+\\dfrac{\\sqrt3}2i$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.8",
+    "12.3.4.3"
+   ],
+   "question": "The complex number $z=a+ib$, where $0<a<b$. Which of the following best describes the complex number $z^4$ ?",
+   "answer": "Since $0<a<b$, $z$ lies in the first quadrant above the line $y=x$, so $\\frac\\pi4<\\arg z<\\frac\\pi2$. Then $\\arg z^4=4\\arg z\\in(\\pi,2\\pi)$, which is in the lower half-plane, so $\\text{Im}(z^4)<0$ (C). (The real part can be either sign.)",
+   "options": [
+    "$\\text{Re}(z^4)<0$",
+    "$\\text{Re}(z^4)\\le0$",
+    "$\\text{Im}(z^4)<0$",
+    "$\\text{Im}(z^4)\\le0$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.2.2.1",
+    "12.1.3.5"
+   ],
+   "question": "Suppose there exist vectors $\\mathbf a$, $\\mathbf b$ and $\\mathbf r$ such that $\\mathbf r=\\mathbf a+(\\mathbf a\\cdot\\mathbf b)\\mathbf b$.\n\nIf $\\mathbf r$ is perpendicular to $(\\mathbf a-\\mathbf b)$, the minimum value of $1+|\\mathbf b|^2$ is?",
+   "answer": "Let $s=\\mathbf a\\cdot\\mathbf b$. $\\mathbf r\\cdot(\\mathbf a-\\mathbf b)=0$:\n$$|\\mathbf a|^2-\\mathbf a\\cdot\\mathbf b+s\\,\\mathbf a\\cdot\\mathbf b-s|\\mathbf b|^2=0\\ \\Rightarrow\\ |\\mathbf a|^2+s^2=s\\left(1+|\\mathbf b|^2\\right).$$\nSince $1+|\\mathbf b|^2>0$ and $|\\mathbf a|^2+s^2>0$, we need $s>0$, and $1+|\\mathbf b|^2=\\dfrac{|\\mathbf a|^2+s^2}s=\\dfrac{|\\mathbf a|^2}{s}+s\\ge2\\sqrt{|\\mathbf a|^2}=2|\\mathbf a|$ by AM–GM. The minimum value is $2|\\mathbf a|$ (C).",
+   "options": [
+    "$|\\mathbf a|+1$",
+    "$\\dfrac{|\\mathbf a|+1}2$",
+    "$2|\\mathbf a|$",
+    "$|\\mathbf a|$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Find $\\displaystyle\\int xe^{-2x}\\,dx$.",
+   "answer": "By parts with $u=x$, $dv=e^{-2x}dx$ ($du=dx$, $v=-\\frac12e^{-2x}$):\n$$\\int xe^{-2x}dx=-\\frac12xe^{-2x}+\\frac12\\int e^{-2x}dx=-\\frac12xe^{-2x}-\\frac14e^{-2x}+C=-\\frac14e^{-2x}(2x+1)+C.$$"
+  },
+  {
+   "ref": "Q11(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.9",
+    "12.3.1.10"
+   ],
+   "question": "If $z=2+i$ and $\\omega=3-2i$, express in the form $x+iy$: $2z+\\overline\\omega$.",
+   "answer": "$2z+\\overline\\omega=2(2+i)+(3+2i)=7+4i$."
+  },
+  {
+   "ref": "Q11(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.13"
+   ],
+   "question": "If $z=2+i$ and $\\omega=3-2i$, express in the form $x+iy$: $\\dfrac1{z-\\omega}$.",
+   "answer": "$z-\\omega=-1+3i$, so $\\dfrac1{-1+3i}\\cdot\\dfrac{-1-3i}{-1-3i}=\\dfrac{-1-3i}{1+9}=-\\dfrac1{10}-\\dfrac3{10}i$."
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.3",
+    "12.2.2.1"
+   ],
+   "question": "Consider the lines $\\ell_1:\\ x=y=z$ and $\\ell_2:\\ \\mathbf r=\\begin{pmatrix}0\\\\3\\\\2\\end{pmatrix}+t\\begin{pmatrix}1\\\\-2\\\\1\\end{pmatrix}$, where $t$ is a parameter.\n\nFind the angle between the two lines.",
+   "answer": "A direction vector of $\\ell_1$ is $\\begin{pmatrix}1\\\\1\\\\1\\end{pmatrix}$ and of $\\ell_2$ is $\\begin{pmatrix}1\\\\-2\\\\1\\end{pmatrix}$. Their dot product is $1-2+1=0$, so $\\cos\\theta=0$ and the lines are perpendicular: $\\theta=90^\\circ$."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.5",
+    "12.4.1.6",
+    "12.4.1.9"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^{\\pi/4}\\frac{d\\theta}{4+2\\sin2\\theta}$, using the substitution $t=\\tan\\theta$.",
+   "answer": "$t=\\tan\\theta$: $d\\theta=\\dfrac{dt}{1+t^2}$ and $\\sin2\\theta=\\dfrac{2t}{1+t^2}$; $\\theta=0\\Rightarrow t=0$, $\\theta=\\frac\\pi4\\Rightarrow t=1$.\n$$I=\\int_0^1\\frac{1}{4+\\frac{4t}{1+t^2}}\\cdot\\frac{dt}{1+t^2}=\\int_0^1\\frac{dt}{4(1+t^2)+4t}=\\frac14\\int_0^1\\frac{dt}{t^2+t+1}=\\frac14\\int_0^1\\frac{dt}{\\left(t+\\frac12\\right)^2+\\left(\\frac{\\sqrt3}2\\right)^2}$$\n$$=\\frac14\\cdot\\frac2{\\sqrt3}\\left[\\tan^{-1}\\frac{2t+1}{\\sqrt3}\\right]_0^1=\\frac1{2\\sqrt3}\\left(\\frac\\pi3-\\frac\\pi6\\right)=\\frac{\\pi}{12\\sqrt3}=\\frac{\\sqrt3\\,\\pi}{36}.$$"
+  },
+  {
+   "ref": "Q11(e)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.6",
+    "12.3.2.4"
+   ],
+   "question": "Consider the complex number $z=-1+\\sqrt3\\,i$. Write $z$ in modulus-argument form.",
+   "answer": "$|z|=\\sqrt{1+3}=2$. $z$ is in the second quadrant with reference angle $\\tan^{-1}\\sqrt3=\\frac\\pi3$, so $\\arg z=\\pi-\\frac\\pi3=\\frac{2\\pi}3$.\n\n$$z=2\\left(\\cos\\tfrac{2\\pi}3+i\\sin\\tfrac{2\\pi}3\\right).$$"
+  },
+  {
+   "ref": "Q11(e)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "Consider the complex number $z=-1+\\sqrt3\\,i=2\\left(\\cos\\frac{2\\pi}3+i\\sin\\frac{2\\pi}3\\right)$. Find the exact value of $z^{10}$ in exact cartesian form.",
+   "answer": "By de Moivre's theorem, $z^{10}=2^{10}\\left(\\cos\\frac{20\\pi}3+i\\sin\\frac{20\\pi}3\\right)$. Since $\\frac{20\\pi}3=6\\pi+\\frac{2\\pi}3$,\n$$z^{10}=2^{10}\\left(\\cos\\tfrac{2\\pi}3+i\\sin\\tfrac{2\\pi}3\\right)=2^{10}\\left(-\\tfrac12+\\tfrac{\\sqrt3}2i\\right)=2^9\\left(-1+\\sqrt3\\,i\\right)=-512+512\\sqrt3\\,i.$$"
+  },
+  {
+   "ref": "Q11(f)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.5.3"
+   ],
+   "question": "The locus of a point $P$ which moves in the complex plane is represented by the equation $|z-3-4i|=5$. Sketch the locus of the point $P$, noting intercepts.",
+   "answer": "$|z-(3+4i)|=5$ is a circle with centre $(3,4)$ and radius $5$. It passes through the origin. Intercepts: with the $x$-axis, set $y=0$: $(x-3)^2+16=25$, so $x=0$ or $6$. With the $y$-axis, set $x=0$: $9+(y-4)^2=25$, so $y=0$ or $8$. The intercepts are $(0,0)$, $(6,0)$ and $(0,8)$.",
+   "answer_images": [
+    "assets/img/ext2-2025-riverview/a11f.png"
+   ]
+  },
+  {
+   "ref": "Q11(f)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.5",
+    "12.3.2.2"
+   ],
+   "question": "The locus of a point $P$ in the complex plane is $|z-3-4i|=5$. Find the exact value of $\\arg z$ when $P$ is in the position of maximum modulus.",
+   "answer": "The circle passes through the origin, so the point furthest from $O$ is at the other end of the diameter through $O$: $2(3+4i)=6+8i$. Then $\\arg z=\\tan^{-1}\\dfrac86=\\tan^{-1}\\dfrac43$."
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.17",
+    "12.2.1.18"
+   ],
+   "question": "Find the point(s) of intersection of the line with parametric equation $\\mathbf r=\\mathbf i+3\\mathbf j-4\\mathbf k+t(\\mathbf i+2\\mathbf j+2\\mathbf k)$, with the sphere with equation $(x-1)^2+(y-3)^2+(z+4)^2=81$.",
+   "answer": "On the line, $x=1+t$, $y=3+2t$, $z=-4+2t$. Substituting into the sphere: $t^2+4t^2+4t^2=81$, so $9t^2=81$ and $t=\\pm3$.\n\n$t=3$: $(4,9,2)$. $t=-3$: $(-2,-3,-10)$.\n\n(The line passes through the centre $(1,3,-4)$ of the sphere, so the points are at distance $9$ from the centre.)"
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.7",
+    "12.4.1.8"
+   ],
+   "question": "Use partial fractions to find $\\displaystyle\\int\\frac{x^2+8x+11}{(x-3)\\left(x^2+2\\right)}\\,dx$.",
+   "answer": "Let $\\dfrac{x^2+8x+11}{(x-3)(x^2+2)}\\equiv\\dfrac A{x-3}+\\dfrac{Bx+C}{x^2+2}$, so $x^2+8x+11\\equiv A(x^2+2)+(Bx+C)(x-3)$.\n\n$x=3$: $44=11A$, so $A=4$. $x^2$ coefficient: $1=A+B$, so $B=-3$. $x=0$: $11=2A-3C=8-3C$, so $C=-1$.\n\n$$\\int\\left(\\frac4{x-3}-\\frac{3x+1}{x^2+2}\\right)dx=4\\ln|x-3|-\\frac32\\ln\\left(x^2+2\\right)-\\frac1{\\sqrt2}\\tan^{-1}\\frac x{\\sqrt2}+C.$$"
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.12",
+    "12.3.1.8"
+   ],
+   "question": "For $s$, a real variable, the complex number $z$ moves on the Argand plane according to the formula $z=\\dfrac1{1+is}$ as $s$ varies from $-\\infty$ to $+\\infty$. Find the value of $s$ for which $z=\\dfrac12+\\dfrac12i$.",
+   "answer": "$\\dfrac1{1+is}=\\dfrac12+\\dfrac12i\\Rightarrow1+is=\\dfrac1{\\frac12(1+i)}=\\dfrac2{1+i}=\\dfrac{2(1-i)}2=1-i$. So $is=-i$ and $s=-1$."
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.5.3",
+    "12.3.1.8"
+   ],
+   "question": "For $s$, a real variable, the complex number $z=\\dfrac1{1+is}$ moves on the Argand plane as $s$ varies from $-\\infty$ to $+\\infty$. The locus of $z$ is, in fact, a circle. Find the cartesian equation of the locus, writing down its centre and radius.",
+   "answer": "Let $z=x+iy$. Then $(x+iy)(1+is)=1$, so $(x-ys)+i(y+xs)=1$. Equating real and imaginary parts: $x-ys=1$ and $y+xs=0$. From the first, $s=\\dfrac{x-1}y$ (when $y\\neq0$); then $y+\\dfrac{x(x-1)}y=0$, giving\n$$x^2-x+y^2=0\\ \\Rightarrow\\ \\left(x-\\tfrac12\\right)^2+y^2=\\tfrac14.$$\nThe locus is a circle with centre $\\left(\\frac12,0\\right)$ and radius $\\frac12$ (the origin is not reached for any finite $s$)."
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.10",
+    "12.2.1.11"
+   ],
+   "question": "The equation of two lines are $\\mathbf r_1=\\begin{pmatrix}2\\\\-3\\\\1\\end{pmatrix}+\\lambda\\begin{pmatrix}1\\\\4\\\\1\\end{pmatrix}$ and $\\mathbf r_2=\\begin{pmatrix}-4\\\\6\\\\-2\\end{pmatrix}+\\mu\\begin{pmatrix}4\\\\-11\\\\3\\end{pmatrix}$.\n\nThese lines are not parallel, so determine if they are skew or whether they intersect, showing all necessary working.",
+   "answer": "Equate components:\n$$2+\\lambda=-4+4\\mu\\ \\ (1),\\qquad-3+4\\lambda=6-11\\mu\\ \\ (2),\\qquad1+\\lambda=-2+3\\mu\\ \\ (3).$$\nFrom (3), $\\lambda=-3+3\\mu$. Into (1): $2-3+3\\mu=-4+4\\mu$, so $\\mu=3$ and $\\lambda=6$.\n\nCheck in (2): LHS $=-3+24=21$, RHS $=6-33=-27$. $21\\ne-27$, so there is no solution: the lines do not intersect. They are not parallel, so the lines are **skew**."
+  },
+  {
+   "ref": "Q12(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.11",
+    "12.1.2.3"
+   ],
+   "question": "Show that for $x\\in\\mathbb Z$, if $x^2-6x+5$ is even, then $x$ is odd.",
+   "answer": "Prove the contrapositive: if $x$ is even then $x^2-6x+5$ is odd.\n\nLet $x=2k$, $k\\in\\mathbb Z$. Then $x^2-6x+5=4k^2-12k+5=2\\left(2k^2-6k+2\\right)+1=2p+1$, where $p=2k^2-6k+2\\in\\mathbb Z$. So $x^2-6x+5$ is odd.\n\nBy the contrapositive, if $x^2-6x+5$ is even then $x$ is odd. $\\blacksquare$"
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.3",
+    "12.2.2.5"
+   ],
+   "question": "Find the point on the line with vector equation $\\mathbf r=\\begin{pmatrix}1\\\\4\\\\6\\end{pmatrix}+\\lambda\\begin{pmatrix}2\\\\1\\\\1\\end{pmatrix}$ that is closest to the origin.",
+   "answer": "A point on the line is $(1+2\\lambda,\\,4+\\lambda,\\,6+\\lambda)$. Its squared distance from the origin is\n$$d^2=(1+2\\lambda)^2+(4+\\lambda)^2+(6+\\lambda)^2=6\\lambda^2+24\\lambda+53.$$\n$\\dfrac{d(d^2)}{d\\lambda}=12\\lambda+24=0\\Rightarrow\\lambda=-2$, and $\\dfrac{d^2(d^2)}{d\\lambda^2}=12>0$ so this is a minimum.\n\nThe closest point is $\\begin{pmatrix}1-4\\\\4-2\\\\6-2\\end{pmatrix}=\\begin{pmatrix}-3\\\\2\\\\4\\end{pmatrix}$, i.e. $(-3,2,4)$."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.1",
+    "12.5.2.8",
+    "12.5.2.4"
+   ],
+   "question": "A particle is moving along the $x$ axis in simple harmonic motion centred at $x=2$ and with amplitude $5$. The velocity of the particle is given by $v^2=p+8x-qx^2$, where $p$ and $q$ are constants.\n\nFind the exact numerical value for the period of the motion.",
+   "answer": "$\\ddot x=\\dfrac d{dx}\\left(\\tfrac12v^2\\right)=4-qx=-q\\left(x-\\frac4q\\right)$. This is SHM with $n^2=q$ and centre $x=\\dfrac4q$. The centre is $x=2$, so $q=2$ and $n=\\sqrt2$.\n\n$$T=\\frac{2\\pi}n=\\frac{2\\pi}{\\sqrt2}=\\sqrt2\\,\\pi.$$"
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.1",
+    "12.5.4.2",
+    "12.5.1.1"
+   ],
+   "question": "A particle is moving in the positive direction along a straight line in a medium that exerts a resistance to motion proportional to the cube of the velocity. No other forces act on the particle, that is $\\ddot x=-kv^3$, where $k$ is a positive constant.\n\nAt time $t=0$, the particle is at the origin and has velocity $U$. At time $t=T$, the particle is at $x=D$ and has a velocity $V$.\n\nShow that $\\dfrac1{V^2}-\\dfrac1{U^2}=2kT$.",
+   "answer": "$\\dfrac{dv}{dt}=-kv^3\\Rightarrow\\displaystyle\\int_U^Vv^{-3}dv=\\int_0^T-k\\,dt$.\n$$\\left[-\\frac1{2v^2}\\right]_U^V=-kT\\ \\Rightarrow\\ -\\frac1{2V^2}+\\frac1{2U^2}=-kT\\ \\Rightarrow\\ \\frac1{V^2}-\\frac1{U^2}=2kT.\\ \\blacksquare$$"
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.3",
+    "12.5.1.1"
+   ],
+   "question": "A particle is moving in the positive direction along a straight line in a medium that exerts a resistance to motion proportional to the cube of the velocity: $\\ddot x=-kv^3$, where $k$ is a positive constant.\n\nAt time $t=0$, the particle is at the origin and has velocity $U$. At time $t=T$, the particle is at $x=D$ and has a velocity $V$.\n\nShow that $\\dfrac1V-\\dfrac1U=kD$.",
+   "answer": "Use $\\ddot x=v\\dfrac{dv}{dx}=-kv^3$, so $\\dfrac{dv}{v^2}=-k\\,dx$ (for $v\\ne0$).\n$$\\int_U^Vv^{-2}dv=\\int_0^D-k\\,dx\\ \\Rightarrow\\ \\left[-\\frac1v\\right]_U^V=-kD\\ \\Rightarrow\\ -\\frac1V+\\frac1U=-kD\\ \\Rightarrow\\ \\frac1V-\\frac1U=kD.\\ \\blacksquare$$"
+  },
+  {
+   "ref": "Q13(c)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.5"
+   ],
+   "question": "For a particle with $\\ddot x=-kv^3$, starting at the origin with velocity $U$ and reaching $x=D$ with velocity $V$ at time $T$, it is known that $\\dfrac1{V^2}-\\dfrac1{U^2}=2kT$ and $\\dfrac1V-\\dfrac1U=kD$.\n\nHence show that $\\dfrac DT=\\dfrac{2UV}{U+V}$.",
+   "answer": "$\\dfrac1{V^2}-\\dfrac1{U^2}=\\left(\\dfrac1V-\\dfrac1U\\right)\\left(\\dfrac1V+\\dfrac1U\\right)=kD\\cdot\\dfrac{U+V}{UV}=2kT$. Hence $\\dfrac DT=\\dfrac{2UV}{U+V}$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q13(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.2"
+   ],
+   "question": "Prove that $a^2+b^2+c^2\\ge ab+ac+bc$.",
+   "answer": "For real $a,b,c$: $(a-b)^2\\ge0\\Rightarrow a^2+b^2\\ge2ab$. Similarly $a^2+c^2\\ge2ac$ and $b^2+c^2\\ge2bc$. Adding: $2\\left(a^2+b^2+c^2\\right)\\ge2(ab+ac+bc)$, so $a^2+b^2+c^2\\ge ab+ac+bc$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q13(d)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "Using $a^2+b^2+c^2\\ge ab+ac+bc$ for all real $a,b,c$, prove that $a^2b^2+a^2c^2+b^2c^2\\ge abc(a+b+c)$.",
+   "answer": "Apply part (i) to the numbers $ab$, $ac$ and $bc$: $(ab)^2+(ac)^2+(bc)^2\\ge(ab)(ac)+(ab)(bc)+(ac)(bc)=a^2bc+ab^2c+abc^2=abc(a+b+c)$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "Suppose that $n$ and $n+1$ are positive integers, neither of which is divisible by $3$. Prove that $n^3+(n+1)^3$ is divisible by $9$.",
+   "answer": "If $n=3k+2$ then $n+1=3k+3$ would be divisible by $3$, which is excluded. Also $n=3k$ is excluded. So $n=3k+1$ for some integer $k\\ge0$, and $n+1=3k+2$.\n\n$$n^3+(n+1)^3=(3k+1)^3+(3k+2)^3=\\left(27k^3+27k^2+9k+1\\right)+\\left(27k^3+54k^2+36k+8\\right)$$\n$$=54k^3+81k^2+45k+9=9\\left(6k^3+9k^2+5k+1\\right),$$\nwhich is divisible by $9$ as $6k^3+9k^2+5k+1$ is an integer. $\\blacksquare$"
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.2",
+    "12.3.5.5"
+   ],
+   "question": "The complex number $\\omega$ is given as $\\omega=\\dfrac{z-1}{z-2i}$. Describe the locus of $z$ geometrically if $\\omega$ is real.",
+   "answer": "Let $z=x+iy$. $\\omega=\\dfrac{(x-1)+iy}{x+i(y-2)}\\cdot\\dfrac{x-i(y-2)}{x-i(y-2)}$ has imaginary part $\\dfrac{xy-(x-1)(y-2)}{x^2+(y-2)^2}=\\dfrac{2x+y-2}{x^2+(y-2)^2}$. For $\\omega$ real: $y=-2x+2$.\n\nGeometrically (using arguments), $\\arg(z-1)-\\arg(z-2i)=0$ or $\\pi$ means $z$ is on the line through $1$ and $2i$.\n\nThe locus is the straight line $y=-2x+2$ through the points $1$ and $2i$, **excluding** the point $z=2i$ where $\\omega$ is undefined. (The point $z=1$ gives $\\omega=0$, which is real, so it is included.)"
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.3",
+    "12.1.4.1"
+   ],
+   "question": "Suppose that $p$ is a prime number and $a$ is a positive integer. Use the expansion of $(1+a)^p$ to prove that $(1+a)^p-1-a^p$ is divisible by $p$. (You may use the fact that $\\binom pk$ is divisible by $p$ for $k=1,2,3,\\dots,p-1$.)",
+   "answer": "$(1+a)^p=1+\\binom p1a+\\binom p2a^2+\\dots+\\binom p{p-1}a^{p-1}+a^p$, so\n$$(1+a)^p-1-a^p=\\binom p1a+\\binom p2a^2+\\dots+\\binom p{p-1}a^{p-1}.$$\nEach coefficient $\\binom pk$ ($1\\le k\\le p-1$) is divisible by $p$, so the sum is divisible by $p$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.4.1",
+    "12.1.2.3"
+   ],
+   "question": "Suppose that $p$ is a prime number and it is known that $(1+a)^p-1-a^p$ is divisible by $p$ for every positive integer $a$. Hence prove by mathematical induction that $a^p-a$ is divisible by $p$ for all positive integer values of $a$.",
+   "answer": "Let $S(a)$: $a^p-a$ is divisible by $p$.\n\n$a=1$: $1^p-1=0=p\\times0$, divisible by $p$. $S(1)$ is true.\n\nAssume $S(k)$: $k^p-k=pM$ for some $M\\in\\mathbb Z$.\n\nConsider $a=k+1$: $(k+1)^p-(k+1)=\\left[(k+1)^p-1-k^p\\right]+\\left(k^p-k\\right)$. By part (i), the bracket is $pN$ for some integer $N$, and by the assumption $k^p-k=pM$. So $(k+1)^p-(k+1)=p(N+M)$, divisible by $p$. $S(k+1)$ is true.\n\nBy mathematical induction, $a^p-a$ is divisible by $p$ for all positive integers $a$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q14(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.10"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{x^2}{x+1}\\,dx$.",
+   "answer": "$\\dfrac{x^2}{x+1}=x-1+\\dfrac1{x+1}$ (since $x^2=(x+1)(x-1)+1$). So $\\displaystyle\\int\\frac{x^2}{x+1}dx=\\frac{x^2}2-x+\\ln|x+1|+C$."
+  },
+  {
+   "ref": "Q14(e)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.2.4"
+   ],
+   "question": "In triangle $ABC$, $D$ is the point on $AC$ such that $AD:DC=2:1$ and $E$ is the point on $BC$ such that $BE:EC=1:2$. When $DE$ is extended, it meets $AB$ extended at $F$. Let $\\overrightarrow{AB}=\\mathbf b$ and $\\overrightarrow{AC}=\\mathbf c$.\n\nExpress $\\overrightarrow{CE}$ in terms of $\\mathbf b$ and $\\mathbf c$.",
+   "answer": "$\\overrightarrow{CB}=\\mathbf b-\\mathbf c$. $E$ is on $CB$ with $CE:EB=2:1$, so $\\overrightarrow{CE}=\\frac23\\overrightarrow{CB}=\\frac23(\\mathbf b-\\mathbf c)$.",
+   "images": [
+    "assets/img/ext2-2025-riverview/q14e.png"
+   ]
+  },
+  {
+   "ref": "Q14(e)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "In triangle $ABC$, $D$ is the point on $AC$ such that $AD:DC=2:1$ and $E$ is the point on $BC$ such that $BE:EC=1:2$. When $DE$ is extended, it meets $AB$ extended at $F$. Let $\\overrightarrow{AB}=\\mathbf b$ and $\\overrightarrow{AC}=\\mathbf c$.\n\nShow that $\\overrightarrow{DE}=\\dfrac23\\mathbf b-\\dfrac13\\mathbf c$.",
+   "answer": "$\\overrightarrow{DC}=\\frac13\\mathbf c$ (as $AD:DC=2:1$). $\\overrightarrow{DE}=\\overrightarrow{DC}+\\overrightarrow{CE}=\\frac13\\mathbf c+\\frac23(\\mathbf b-\\mathbf c)=\\frac23\\mathbf b-\\frac13\\mathbf c$. $\\blacksquare$",
+   "images": [
+    "assets/img/ext2-2025-riverview/q14e.png"
+   ]
+  },
+  {
+   "ref": "Q14(e)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.2.4"
+   ],
+   "question": "In triangle $ABC$, $D$ is the point on $AC$ such that $AD:DC=2:1$ and $E$ is the point on $BC$ such that $BE:EC=1:2$. When $DE$ is extended, it meets $AB$ extended at $F$. Let $\\overrightarrow{AB}=\\mathbf b$ and $\\overrightarrow{AC}=\\mathbf c$.\n\nShow that $AF:FB=4:1$.",
+   "answer": "$F$ is on line $DE$, so $\\overrightarrow{EF}=k\\,\\overrightarrow{DE}=k\\left(\\frac23\\mathbf b-\\frac13\\mathbf c\\right)$ for some scalar $k$. $F$ is on line $AB$, so $\\overrightarrow{BF}=\\ell\\mathbf b$ for some scalar $\\ell$. Also $\\overrightarrow{EF}=\\overrightarrow{EB}+\\overrightarrow{BF}$, where $\\overrightarrow{EB}=\\frac13\\overrightarrow{CB}=\\frac13(\\mathbf b-\\mathbf c)$. Hence\n$$\\tfrac13(\\mathbf b-\\mathbf c)+\\ell\\mathbf b=\\tfrac{2k}3\\mathbf b-\\tfrac k3\\mathbf c.$$\nSince $\\mathbf b$ and $\\mathbf c$ are not parallel, compare coefficients: $\\mathbf c$: $-\\frac13=-\\frac k3\\Rightarrow k=1$. $\\mathbf b$: $\\frac13+\\ell=\\frac{2k}3=\\frac23\\Rightarrow\\ell=\\frac13$.\n\nSo $\\overrightarrow{BF}=\\frac13\\overrightarrow{AB}$ and $F$ is beyond $B$: $AF=AB+BF=\\frac43AB$ and $FB=\\frac13AB$. Therefore $AF:FB=\\frac43:\\frac13=4:1$. $\\blacksquare$",
+   "images": [
+    "assets/img/ext2-2025-riverview/q14e.png"
+   ]
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.14",
+    "12.4.1.13"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^1\\left(1-x^2\\right)^{\\frac{n-1}2}dx$, where $n=1,2,3,\\dots$ Show that $nI_n=(n-1)I_{n-2}$ for $n=2,3,4,\\dots$",
+   "answer": "Integrate by parts with $u=\\left(1-x^2\\right)^{\\frac{n-1}2}$, $dv=dx$, so $du=\\frac{n-1}2\\left(1-x^2\\right)^{\\frac{n-3}2}(-2x)\\,dx$ and $v=x$:\n$$I_n=\\left[x\\left(1-x^2\\right)^{\\frac{n-1}2}\\right]_0^1+(n-1)\\int_0^1x^2\\left(1-x^2\\right)^{\\frac{n-3}2}dx.$$\nThe bracket is $0$ (for $n\\ge2$). Write $x^2=1-\\left(1-x^2\\right)$:\n$$I_n=(n-1)\\int_0^1\\left(1-x^2\\right)^{\\frac{n-3}2}dx-(n-1)\\int_0^1\\left(1-x^2\\right)^{\\frac{n-1}2}dx=(n-1)I_{n-2}-(n-1)I_n.$$\nSo $nI_n=(n-1)I_{n-2}$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.5.1.1",
+    "12.5.1.3"
+   ],
+   "question": "A particle of mass $m$ is moving in a straight line under the action of a force $F$ where $F=\\dfrac m{x^3}(6-10x)$ and $x$ is its displacement from the origin. Find its velocity if the particle starts from rest at $x=1$.",
+   "answer": "$m\\ddot x=F\\Rightarrow v\\dfrac{dv}{dx}=\\dfrac{6-10x}{x^3}=6x^{-3}-10x^{-2}$.\n$$\\tfrac12v^2=-3x^{-2}+10x^{-1}+C.$$\nAt $x=1$, $v=0$: $0=-3+10+C$, so $C=-7$. Then\n$$v^2=-\\frac6{x^2}+\\frac{20}x-14=\\frac{20x-14x^2-6}{x^2}\\ \\Rightarrow\\ v=\\pm\\frac{\\sqrt{20x-14x^2-6}}x.$$\nAt $x=1$, $\\ddot x=6-10=-4<0$, so the particle starts moving in the negative direction: $v=-\\dfrac{\\sqrt{20x-14x^2-6}}x$."
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "A particle moves in a straight line with velocity $v$ given by $v^2=\\dfrac{20x-14x^2-6}{x^2}$, starting from rest at $x=1$. At what other position does the particle come to rest?",
+   "answer": "$v=0$: $20x-14x^2-6=0\\Rightarrow7x^2-10x+3=0\\Rightarrow(7x-3)(x-1)=0$, so $x=1$ or $x=\\frac37$. The other position is $x=\\frac37$."
+  },
+  {
+   "ref": "Q15(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.9",
+    "12.4.1.11"
+   ],
+   "question": "Find $\\displaystyle\\int_1^2\\frac{x+1}{\\sqrt{-2+3x-x^2}}\\,dx$.",
+   "answer": "$-2+3x-x^2=\\frac14-\\left(x-\\frac32\\right)^2$. Also $x+1=-\\frac12(3-2x)+\\frac52$, and $\\dfrac d{dx}\\left(-2+3x-x^2\\right)=3-2x$.\n$$\\int_1^2\\frac{x+1}{\\sqrt{-2+3x-x^2}}dx=-\\frac12\\int_1^2\\frac{3-2x}{\\sqrt{-2+3x-x^2}}dx+\\frac52\\int_1^2\\frac{dx}{\\sqrt{\\frac14-\\left(x-\\frac32\\right)^2}}$$\n$$=-\\left[\\sqrt{-2+3x-x^2}\\right]_1^2+\\frac52\\left[\\sin^{-1}(2x-3)\\right]_1^2=-(0-0)+\\frac52\\left(\\sin^{-1}1-\\sin^{-1}(-1)\\right)=\\frac52\\cdot\\pi=\\frac{5\\pi}2.$$"
+  },
+  {
+   "ref": "Q15(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.1.3"
+   ],
+   "question": "Consider the line $\\mathbf r=\\lambda\\begin{pmatrix}1\\\\2\\\\1\\end{pmatrix}$. Show that the position vector of the point on the line $\\mathbf r$ closest to the point $(x_0,y_0,z_0)$ is $\\dfrac{x_0+2y_0+z_0}6\\begin{pmatrix}1\\\\2\\\\1\\end{pmatrix}$.",
+   "answer": "Let $\\mathbf d=\\begin{pmatrix}1\\\\2\\\\1\\end{pmatrix}$ and $P=(x_0,y_0,z_0)$. The closest point $Q=\\lambda\\mathbf d$ on the line is the foot of the perpendicular from $P$, so $(\\overrightarrow{OP}-\\lambda\\mathbf d)\\cdot\\mathbf d=0$. Hence\n$$\\lambda=\\frac{\\overrightarrow{OP}\\cdot\\mathbf d}{\\mathbf d\\cdot\\mathbf d}=\\frac{x_0+2y_0+z_0}{1+4+1}=\\frac{x_0+2y_0+z_0}6,$$\nso $Q=\\dfrac{x_0+2y_0+z_0}6\\begin{pmatrix}1\\\\2\\\\1\\end{pmatrix}$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q15(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.2.1.3",
+    "12.2.2.5"
+   ],
+   "question": "Consider the line $\\mathbf r=\\lambda\\begin{pmatrix}1\\\\2\\\\1\\end{pmatrix}$. The closest point on $\\mathbf r$ to the point $(x_0,y_0,z_0)$ is $\\dfrac{x_0+2y_0+z_0}6\\begin{pmatrix}1\\\\2\\\\1\\end{pmatrix}$.\n\nHence, or otherwise, find the point on the line $\\mathbf r$ that is closest to a second line $\\mathbf s=\\begin{pmatrix}4\\\\1\\\\0\\end{pmatrix}+t\\begin{pmatrix}-1\\\\1\\\\5\\end{pmatrix}$, where $t\\in(-\\infty,\\infty)$.",
+   "answer": "A point on $\\mathbf s$ is $P_t=(4-t,\\,1+t,\\,5t)$. By part (i), the closest point on $\\mathbf r$ to $P_t$ has\n$$\\lambda=\\frac{(4-t)+2(1+t)+5t}6=\\frac{6+6t}6=1+t.$$\nThe squared distance from $P_t$ to the line $\\mathbf r$ is then\n$$d^2=(4-t-(1+t))^2+(1+t-2(1+t))^2+(5t-(1+t))^2=(3-2t)^2+(1+t)^2+(4t-1)^2=21t^2-18t+11.$$\n$\\dfrac{d(d^2)}{dt}=42t-18=0\\Rightarrow t=\\frac37$, a minimum since $\\dfrac{d^2(d^2)}{dt^2}=42>0$. Then $\\lambda=1+\\frac37=\\frac{10}7$.\n\nThe closest point on $\\mathbf r$ is $\\dfrac{10}7\\begin{pmatrix}1\\\\2\\\\1\\end{pmatrix}=\\begin{pmatrix}\\frac{10}7\\\\\\frac{20}7\\\\\\frac{10}7\\end{pmatrix}$."
+  },
+  {
+   "ref": "Q16(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.15",
+    "12.1.3.9"
+   ],
+   "question": "In the diagram, the graph of $y=\\dfrac1{\\sqrt x}$ has been drawn, and $n$ rectangles have been constructed between $x=n$ and $x=2n$, each of width $1$ unit.\n\nShow that $\\displaystyle\\int_n^{2n}\\frac{dx}{\\sqrt x}=2\\sqrt n\\left(\\sqrt2-1\\right)$.",
+   "answer": "$$\\int_n^{2n}x^{-\\frac12}dx=\\Big[2\\sqrt x\\Big]_n^{2n}=2\\sqrt{2n}-2\\sqrt n=2\\sqrt n\\left(\\sqrt2-1\\right).\\ \\blacksquare$$",
+   "images": [
+    "assets/img/ext2-2025-riverview/q16a.png"
+   ]
+  },
+  {
+   "ref": "Q16(a)(ii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.1.3.9",
+    "12.4.1.15"
+   ],
+   "question": "In the diagram, the graph of $y=\\dfrac1{\\sqrt x}$ has been drawn, and $n$ rectangles of width $1$ unit have been constructed between $x=n$ and $x=2n$. Let $S_n=\\dfrac1{\\sqrt{n+1}}+\\dfrac1{\\sqrt{n+2}}+\\dots+\\dfrac1{\\sqrt{2n}}$, and recall $\\displaystyle\\int_n^{2n}\\frac{dx}{\\sqrt x}=2\\sqrt n\\left(\\sqrt2-1\\right)$.\n\nShow that $$2\\sqrt n\\left(\\sqrt2-1\\right)+\\frac{1-\\sqrt2}{\\sqrt{2n}}<S_n<2\\sqrt n\\left(\\sqrt2-1\\right).$$",
+   "answer": "The rectangles drawn under the curve (the 'lower' rectangles, whose right-hand corner touches the curve) have heights $\\frac1{\\sqrt{n+1}},\\dots,\\frac1{\\sqrt{2n}}$ and total area $S_n$. The upper rectangles (left-hand corner on the curve) have heights $\\frac1{\\sqrt n},\\frac1{\\sqrt{n+1}},\\dots,\\frac1{\\sqrt{2n-1}}$ and total area $\\frac1{\\sqrt n}+S_n-\\frac1{\\sqrt{2n}}$.\n\nSince $y=\\frac1{\\sqrt x}$ is decreasing, lower rectangles $<$ area under the curve $<$ upper rectangles:\n$$S_n<2\\sqrt n\\left(\\sqrt2-1\\right)<\\frac1{\\sqrt n}+S_n-\\frac1{\\sqrt{2n}}.$$\nThe left inequality is the required upper bound. The right inequality gives\n$$S_n>2\\sqrt n\\left(\\sqrt2-1\\right)-\\frac1{\\sqrt n}+\\frac1{\\sqrt{2n}}=2\\sqrt n\\left(\\sqrt2-1\\right)-\\frac{\\sqrt2-1}{\\sqrt{2n}}=2\\sqrt n\\left(\\sqrt2-1\\right)+\\frac{1-\\sqrt2}{\\sqrt{2n}},$$\nusing $\\frac1{\\sqrt n}=\\frac{\\sqrt2}{\\sqrt{2n}}$. $\\blacksquare$",
+   "images": [
+    "assets/img/ext2-2025-riverview/q16a.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.1.12",
+    "12.2.1.19"
+   ],
+   "question": "A particle's movement is represented by the vector $\\mathbf r=\\begin{pmatrix}t+t^{-1}\\\\t^3+t^{-3}\\end{pmatrix}$, where $t\\in\\mathbb R^+$. Sketch the Cartesian graph that shows the path the particle can move along.",
+   "answer": "$x=t+\\frac1t$, $y=t^3+\\frac1{t^3}$. Cubing, $x^3=t^3+3t+\\frac3t+\\frac1{t^3}=y+3x$, so\n$$y=x^3-3x=x(x-\\sqrt3)(x+\\sqrt3).$$\nFor $t>0$, $x=t+\\frac1t\\ge2$ (AM–GM, equality at $t=1$), so the path is only the part of this cubic with $x\\ge2$, starting at $(2,2)$ and rising to the right (each point is reached twice, by $t$ and $\\frac1t$). The rest of the cubic (dashed) is not part of the path.",
+   "answer_images": [
+    "assets/img/ext2-2025-riverview/a16b.png"
+   ]
+  },
+  {
+   "ref": "Q16(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.5.1",
+    "12.5.5.4"
+   ],
+   "question": "A particle $A$ of mass $m$ falls vertically from rest at a height $h$ above the ground. It is subject to a resistance $mkv$ where $v$ is its speed and $k$ is a positive constant. The acceleration due to gravity is $g$.\n\nShow that $\\ddot x=k(U-v)$, where $U$ is the terminal speed of the particle.",
+   "answer": "Taking downwards as positive: $m\\ddot x=mg-mkv$, so $\\ddot x=g-kv$. At terminal speed $\\ddot x=0$, so $U=\\dfrac gk$ and $g=kU$. Hence $\\ddot x=kU-kv=k(U-v)$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q16(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.5.2"
+   ],
+   "question": "A particle $A$ of mass $m$ falls vertically from rest at a height $h$ above the ground. It is subject to a resistance $mkv$ where $v$ is its speed and $k$ is a positive constant. The acceleration due to gravity is $g$.\n\nProve that the speed of particle $A$ at any time $t$ is given by $v=U\\left(1-e^{-kt}\\right)$.",
+   "answer": "$\\dfrac{dv}{dt}=k(U-v)\\Rightarrow\\displaystyle\\int_0^v\\frac{dv}{U-v}=\\int_0^tk\\,dt$ (note $v<U$).\n$$\\Big[-\\ln(U-v)\\Big]_0^v=kt\\ \\Rightarrow\\ \\ln\\frac U{U-v}=kt\\ \\Rightarrow\\ \\frac{U-v}U=e^{-kt}\\ \\Rightarrow\\ v=U\\left(1-e^{-kt}\\right).\\ \\blacksquare$$"
+  },
+  {
+   "ref": "Q16(c)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.5.6",
+    "12.5.5.3"
+   ],
+   "question": "A particle $A$ of mass $m$ falls vertically from rest at a height $h$ above the ground. It is subject to a resistance $mkv$ where $v$ is its speed and $k$ is a positive constant. The acceleration due to gravity is $g$.\n\nAt the same time as particle $A$ falls from rest, another particle $B$ of mass $m$ is projected upwards in the same vertical line from the ground with a speed of $kU$, where $U$ is the terminal speed of the particle. Hence it can be shown that for particle $B$ its speed (upwards) at any time $t$ is given by $v=kUe^{-kt}-U\\left(1-e^{-kt}\\right)$. (Do NOT prove this.)\n\nIf the two particles collide after time $T$ seconds when particle $A$ has fallen a distance $X$, prove that\n$$T=\\frac1k\\log_e\\left(\\frac U{U-h}\\right).$$",
+   "answer": "For $A$ (from $v=U(1-e^{-kt})$): $X=\\displaystyle\\int_0^TU\\left(1-e^{-kt}\\right)dt$.\n\nFor $B$ (starting at the ground), its height at time $T$ is\n$$x_B=\\int_0^T\\left[kUe^{-kt}-U\\left(1-e^{-kt}\\right)\\right]dt=\\int_0^TkUe^{-kt}dt-X=U\\left(1-e^{-kT}\\right)-X.$$\nAt the collision, $A$ is at height $h-X$ and $B$ is at height $x_B$, so $h-X=x_B$:\n$$h-X=U\\left(1-e^{-kT}\\right)-X\\ \\Rightarrow\\ h=U\\left(1-e^{-kT}\\right)\\ \\Rightarrow\\ e^{-kT}=\\frac{U-h}U.$$\n$$T=-\\frac1k\\ln\\frac{U-h}U=\\frac1k\\ln\\frac U{U-h}.\\ \\blacksquare$$"
+  }
+ ]
+}
