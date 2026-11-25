@@ -1,0 +1,899 @@
+{
+ "id": "phys-2022-sydney-grammar",
+ "course": "physics",
+ "school": "Sydney Grammar",
+ "year": 2022,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "6528",
+  "title": "Sydney Grammar 2022 w. sol"
+ },
+ "indexed": "2026-11-25",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "A car of mass $1000\\ \\text{kg}$ follows a circular road of radius $r$ at velocity $v$, and its centripetal force is $F_c$. A truck of mass $3000\\ \\text{kg}$ goes around the same corner. In order for the centripetal force to be the same for both the truck and the car:",
+   "options": [
+    "The truck's speed must be $\\dfrac{v}{\\sqrt3}$.",
+    "The truck's speed must be $\\dfrac v3$.",
+    "The truck's speed must be $\\sqrt3\\,v$.",
+    "The truck's speed must be the same as the car."
+   ],
+   "correct": "A",
+   "answer": "$F_c=\\dfrac{mv^2}{r}$. For the same $F_c$ and $r$: $3m\\,v_T^2=m v^2$, so $v_T^2=\\dfrac{v^2}{3}$ and $v_T=\\dfrac{v}{\\sqrt3}$ (A).",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q01.png"
+   ]
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.1"
+   ],
+   "question": "A ball is thrown horizontally from the top of a cliff, and it hits the ground with a range $R$ from the base of the cliff. A second ball is thrown horizontally from the top of the same cliff at three times the speed. What is the range of the second ball?",
+   "options": [
+    "$R$",
+    "$2R$",
+    "$3R$",
+    "$4R$"
+   ],
+   "correct": "C",
+   "answer": "The vertical motion is independent of the horizontal motion, so both balls take the same time $t$ to fall the height of the cliff. $R=ux\\,t$, so with horizontal speed $3u_x$ the range is $3u_xt=3R$ (C)."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.1"
+   ],
+   "question": "A square loop of wire of side length $0.15\\ \\text{m}$ is placed in a uniform magnetic field of $5.2\\ \\text{T}$. The side view shows the plane of the loop making an angle of $60^\\circ$ with the field lines. Calculate the magnetic flux, $\\Phi$, through the loop.",
+   "options": [
+    "$0.059\\ \\text{Wb}$",
+    "$0.101\\ \\text{Wb}$",
+    "$0.117\\ \\text{Wb}$",
+    "$0.78\\ \\text{Wb}$"
+   ],
+   "correct": "B",
+   "answer": "Area $A=0.15^2=0.0225\\ \\text{m}^2$. The angle between the field and the *plane* of the loop is $60^\\circ$, so the angle between the field and the normal to the loop is $30^\\circ$.\n\n$\\Phi=BA\\cos\\theta=5.2\\times0.0225\\times\\cos30^\\circ=0.101\\ \\text{Wb}$ (B), equivalently $BA\\sin60^\\circ$.",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q03.png"
+   ]
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.1",
+    "12.5.1.2"
+   ],
+   "question": "A boy throws a ball upwards from the roof of a moving car (which moves at constant velocity) and then catches it when the car has travelled $100\\ \\text{m}$ down the road. He throws the ball up again and it goes vertically four times higher than before. How far has the car travelled this time when he catches it again?",
+   "options": [
+    "$100\\ \\text{m}$",
+    "$200\\ \\text{m}$",
+    "$300\\ \\text{m}$",
+    "$400\\ \\text{m}$"
+   ],
+   "correct": "B",
+   "answer": "Four times the height needs twice the vertical launch speed ($h=\\dfrac{v^2}{2g}$), so the time of flight $t=\\dfrac{2v}{g}$ doubles. The car moves at constant speed, so in twice the time it travels twice as far: $2\\times100=200\\ \\text{m}$ (B)."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.1"
+   ],
+   "question": "An electron released from rest from the negative plate strikes the positive plate at a speed of $5.50\\times10^{6}\\ \\text{m s}^{-1}$. The separation of the plates is $3.0\\times10^{-2}\\ \\text{m}$. Calculate the potential difference, $V$, between the two plates.",
+   "options": [
+    "$1.56\\times10^{-5}\\ \\text{V}$",
+    "$8.60\\times10^{1}\\ \\text{V}$",
+    "$1.72\\times10^{2}\\ \\text{V}$",
+    "$1.65\\times10^{5}\\ \\text{V}$"
+   ],
+   "correct": "B",
+   "answer": "Work done by the field equals the kinetic energy gained: $qV=\\tfrac12mv^2$, so $$V=\\frac{mv^2}{2q}=\\frac{9.11\\times10^{-31}\\times(5.50\\times10^{6})^2}{2\\times1.6\\times10^{-19}}=86.1\\ \\text{V}\\approx8.6\\times10^{1}\\ \\text{V}$$ (B). The separation is not needed.",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q05.png"
+   ]
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.1"
+   ],
+   "question": "A wire of length $0.300\\ \\text{m}$ sits in a $2.50\\ \\text{T}$ magnetic field (directed into the page) in Position X, as shown. The wire carries a current of $1.80\\ \\text{A}$. The wire, which stays in the plane of the page, is then rotated $45.0^\\circ$ to Position Y. Calculate the *change* in the magnitude of the force acting on the wire after it rotates from X to Y.",
+   "options": [
+    "$0\\ \\text{N}$",
+    "$0.395\\ \\text{N}$",
+    "$0.955\\ \\text{N}$",
+    "$1.35\\ \\text{N}$"
+   ],
+   "correct": "A",
+   "answer": "$F=BIL\\sin\\theta$. The field is directed into the page and the wire lies in the plane of the page, so the wire is perpendicular to the field in *both* positions ($\\theta=90^\\circ$). Rotating the wire within the page does not change the angle. $F=2.50\\times1.80\\times0.300=1.35\\ \\text{N}$ in both positions, so the change is $0\\ \\text{N}$ (A).",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q06.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.4.1"
+   ],
+   "question": "The diagram shows a square coil rotating in a magnetic field at one instant in its rotation. The plane of the coil makes an angle of $35^\\circ$ with the field lines. The square coil consists of $15$ turns of wire and has dimensions $0.25\\ \\text{m}\\times0.25\\ \\text{m}$. A current of $I=3.25\\ \\text{A}$ flows through it. The external magnetic field is $B=1.20\\ \\text{T}$. Calculate the magnitude of the torque, $\\tau$, on the coil at the angle shown.",
+   "options": [
+    "$0.20\\ \\text{N m}$",
+    "$2.01\\ \\text{N m}$",
+    "$3.00\\ \\text{N m}$",
+    "$4.73\\ \\text{N m}$"
+   ],
+   "correct": "C",
+   "answer": "The torque is a maximum when the plane of the coil is parallel to the field, so with $\\theta=35^\\circ$ between the plane and the field: $$\\tau=nIAB\\cos35^\\circ=15\\times3.25\\times(0.25)^2\\times1.20\\times\\cos35^\\circ=3.00\\ \\text{N m}$$ (C).",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q07.png"
+   ]
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.3"
+   ],
+   "question": "Two very long parallel wires, X and Y, separated by a distance $d$, have a force per unit length between them of $5.5\\times10^{-5}\\ \\text{N m}^{-1}$. Wire X carries a current of $2\\ \\text{A}$ and Wire Y carries a current of $3\\ \\text{A}$, as shown in the diagram. What is the separation, $d$, between the two wires?",
+   "options": [
+    "$1\\ \\text{cm}$",
+    "$2\\ \\text{cm}$",
+    "$14\\ \\text{cm}$",
+    "$15\\ \\text{cm}$"
+   ],
+   "correct": "B",
+   "answer": "$\\dfrac Fl=\\dfrac{\\mu_0I_1I_2}{2\\pi d}$, so $$d=\\frac{\\mu_0I_1I_2}{2\\pi(F/l)}=\\frac{4\\pi\\times10^{-7}\\times2\\times3}{2\\pi\\times5.5\\times10^{-5}}=2.2\\times10^{-2}\\ \\text{m}\\approx2\\ \\text{cm}$$ (B).",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q08.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.3.2"
+   ],
+   "question": "A coil of wire is placed in a magnetic field (directed into the page) so that the plane of the coil is perpendicular to the direction of the field. The strength of the magnetic field is then varied, as shown in the graph of $B$ against time (constant for $0$–$2\\ \\text{s}$, decreasing steadily to zero at $4\\ \\text{s}$, increasing steadily to about half its original value at $6\\ \\text{s}$, then constant). Which of the following graphs correctly shows the EMF induced across the coil?",
+   "options": [
+    "![Graph A](assets/img/phys-2022-sydney-grammar/q09a.png)",
+    "![Graph B](assets/img/phys-2022-sydney-grammar/q09b.png)",
+    "![Graph C](assets/img/phys-2022-sydney-grammar/q09c.png)",
+    "![Graph D](assets/img/phys-2022-sydney-grammar/q09d.png)"
+   ],
+   "correct": "D",
+   "answer": "By Faraday's law $\\varepsilon=-N\\dfrac{\\Delta\\Phi}{\\Delta t}$, so the EMF is proportional to (minus) the gradient of the $B$–$t$ graph. $0$–$2\\ \\text{s}$: $B$ constant, so $\\varepsilon=0$. $2$–$4\\ \\text{s}$: $B$ decreases steadily, so a constant EMF of one sign. $4$–$6\\ \\text{s}$: $B$ increases at about half the rate, so a constant EMF of the opposite sign and about half the magnitude. $6$–$8\\ \\text{s}$: $B$ constant, so $\\varepsilon=0$. This is graph D.",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q09.png",
+    "assets/img/phys-2022-sydney-grammar/q09g.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.2"
+   ],
+   "question": "A square coil of conducting wire with sides of length $W$ is moved at constant speed $v$ left to right through a uniform magnetic field which is directed into the page and has width $W$, as shown below. From the point where the coil enters the magnetic field until the point where it leaves it, which description best describes the direction of the current induced in the coil?",
+   "options": [
+    "Clockwise.",
+    "Anti-clockwise.",
+    "Clockwise then anti-clockwise.",
+    "Anti-clockwise then clockwise."
+   ],
+   "correct": "D",
+   "answer": "While the coil enters the field, the flux into the page increases. By Lenz's law the induced current opposes this, producing a field out of the page, so the current is **anti-clockwise**. Because the coil is exactly as wide as the field, it begins to leave as soon as it is fully inside, so the flux then decreases. The induced current now produces a field into the page, so it is **clockwise**. The answer is D.",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.2",
+    "12.5.3.3"
+   ],
+   "question": "A satellite of mass $m$ is travelling in a circular orbit of radius $r$ around a planet of mass $M$. If the satellite is moved to a new circular orbit where its kinetic energy is now $25\\%$ larger, then the radius of the new circular orbit will be:",
+   "options": [
+    "$\\dfrac{\\sqrt5\\,r}{2}$",
+    "$\\dfrac{4r}{5}$",
+    "$\\dfrac{2r}{\\sqrt5}$",
+    "$\\dfrac{5r}{4}$"
+   ],
+   "correct": "B",
+   "answer": "For a circular orbit $\\dfrac{GMm}{r^2}=\\dfrac{mv^2}{r}$, so $K=\\tfrac12mv^2=\\dfrac{GMm}{2r}$, i.e. $K\\propto\\dfrac1r$. $K'=1.25K$ gives $r'=\\dfrac{r}{1.25}=\\dfrac{4r}{5}$ (B)."
+  },
+  {
+   "ref": "Q12",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2",
+    "12.5.3.2"
+   ],
+   "question": "The net force on a car (mass $m$, constant speed $v$) at the top of a circular hump-back bridge of radius $r$ is compared with the net force on a satellite (mass $m$, orbital speed $v$, orbital radius $r$) in a circular orbit around Earth (mass $M$). Which of the following correctly represents the net force in both situations?",
+   "options": [
+    "Car: $\\dfrac{mv^2}{r}$; Satellite: $\\dfrac{mv^2}{r}$",
+    "Car: $mg$; Satellite: $\\dfrac{GMm}{r^2}$",
+    "Car: $mg-\\dfrac{mv^2}{r}$; Satellite: $\\dfrac{mv^2}{r}$",
+    "Car: $\\dfrac{mv^2}{r}+mg$; Satellite: $\\dfrac{mv^2}{r}-\\dfrac{GMm}{r^2}$"
+   ],
+   "correct": "A",
+   "answer": "In uniform circular motion the **net** force is the centripetal force $\\dfrac{mv^2}{r}$ in both cases. For the car at the top of the bridge, $mg-N=\\dfrac{mv^2}{r}$ (the net force is $\\frac{mv^2}{r}$, not $mg$). For the satellite, gravity alone is the net force and $\\dfrac{GMm}{r^2}=\\dfrac{mv^2}{r}$. The answer is A.",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q12.png"
+   ]
+  },
+  {
+   "ref": "Q13",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.3"
+   ],
+   "question": "A red (wavelength $610\\ \\text{nm}$) laser pointer emits $0.5\\ \\text{mW}$ of light. How many photons per second are being emitted by the laser pointer?",
+   "options": [
+    "$1.5\\times10^{15}$",
+    "$1.5\\times10^{24}$",
+    "$1.2\\times10^{27}$",
+    "$4.6\\times10^{32}$"
+   ],
+   "correct": "A",
+   "answer": "Energy per photon $E=\\dfrac{hc}{\\lambda}=\\dfrac{6.626\\times10^{-34}\\times3.00\\times10^{8}}{610\\times10^{-9}}=3.26\\times10^{-19}\\ \\text{J}$. Photons per second $=\\dfrac{P}{E}=\\dfrac{0.5\\times10^{-3}}{3.26\\times10^{-19}}=1.5\\times10^{15}\\ \\text{s}^{-1}$ (A)."
+  },
+  {
+   "ref": "Q14",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "Plane-polarised light is incident normally on a polariser which is able to rotate in the plane perpendicular to the light. In Diagram 1, the intensity of the incident light is $8\\ \\text{W m}^{-2}$ and the transmitted intensity of light is $2\\ \\text{W m}^{-2}$. Diagram 2 shows the polariser rotated $90^\\circ$ from the orientation in Diagram 1. In Diagram 2, what is the new transmitted intensity?",
+   "options": [
+    "$0\\ \\text{W m}^{-2}$",
+    "$2\\ \\text{W m}^{-2}$",
+    "$6\\ \\text{W m}^{-2}$",
+    "$8\\ \\text{W m}^{-2}$"
+   ],
+   "correct": "C",
+   "answer": "Malus' law: $I=I_{\\max}\\cos^2\\theta$. Diagram 1: $2=8\\cos^2\\theta$, so $\\cos^2\\theta=\\dfrac14$ and $\\theta=60^\\circ$. Rotating the polariser through $90^\\circ$ makes the angle $30^\\circ$ (or $150^\\circ$), so $I=8\\cos^230^\\circ=8\\times\\dfrac34=6\\ \\text{W m}^{-2}$ (C). (Equivalently, $\\cos^2\\theta+\\sin^2\\theta=1$, so the two intensities add to $8$.)",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q14.png"
+   ]
+  },
+  {
+   "ref": "Q15",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "An observer notes that the second-hand on a stopwatch is four times slower on a passing spacecraft. What is the velocity of the spacecraft?",
+   "options": [
+    "$v=0.25c$",
+    "$v=0.87c$",
+    "$v=0.94c$",
+    "$v=0.97c$"
+   ],
+   "correct": "D",
+   "answer": "Time dilation: $t=\\gamma t_0$ with $\\gamma=4$. $\\gamma=\\dfrac1{\\sqrt{1-v^2/c^2}}=4$, so $1-\\dfrac{v^2}{c^2}=\\dfrac1{16}$ and $v=c\\sqrt{\\dfrac{15}{16}}=0.968c\\approx0.97c$ (D)."
+  },
+  {
+   "ref": "Q16",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.1"
+   ],
+   "question": "The spectrum of an object was measured and graphed (intensity against wavelength, from $200\\ \\text{nm}$ to $800\\ \\text{nm}$, with a maximum at about $340\\ \\text{nm}$). Which of the following best represents the temperature of this object?",
+   "options": [
+    "$8{,}280\\ \\text{K}$",
+    "$8{,}524\\ \\text{K}$",
+    "$9{,}348\\ \\text{K}$",
+    "$14{,}490\\ \\text{K}$"
+   ],
+   "correct": "B",
+   "answer": "The peak of the graph is at $\\lambda_{\\max}\\approx340\\ \\text{nm}$. By Wien's law, $\\lambda_{\\max}=\\dfrac bT$ with $b=2.898\\times10^{-3}\\ \\text{m K}$: $$T=\\frac{2.898\\times10^{-3}}{340\\times10^{-9}}=8.5\\times10^{3}\\ \\text{K}$$ (B, $8{,}524\\ \\text{K}$).",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q16.png"
+   ]
+  },
+  {
+   "ref": "Q17",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.4.3"
+   ],
+   "question": "What is the magnitude of the relativistic momentum of a proton travelling at half the speed of light?",
+   "options": [
+    "$9.7\\times10^{-28}\\ \\text{kg m s}^{-1}$",
+    "$1.9\\times10^{-27}\\ \\text{kg m s}^{-1}$",
+    "$2.9\\times10^{-19}\\ \\text{kg m s}^{-1}$",
+    "$3.5\\times10^{-19}\\ \\text{kg m s}^{-1}$"
+   ],
+   "correct": "C",
+   "answer": "$\\gamma=\\dfrac1{\\sqrt{1-0.5^2}}=1.155$. $p=\\gamma m_0v=1.155\\times1.673\\times10^{-27}\\times1.5\\times10^{8}=2.9\\times10^{-19}\\ \\text{kg m s}^{-1}$ (C)."
+  },
+  {
+   "ref": "Q18",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "At two separate times, two charged particles approach a current-carrying wire and follow the trajectories depicted in the diagram below. (The current in the wire flows to the left; Particle A passes above the wire and Particle B below it.) Determine the charge of each particle.",
+   "options": [
+    "A: positively charged; B: positively charged",
+    "A: positively charged; B: negatively charged",
+    "A: negatively charged; B: positively charged",
+    "A: negatively charged; B: negatively charged"
+   ],
+   "correct": "C",
+   "answer": "The current flows to the left. By the right-hand rule the magnetic field is **into the page above** the wire and **out of the page below** it.\n\nParticle A (above) is moving to the left at its closest point and is deflected upward (away from the wire), so the force is up. For a positive charge, $\\mathbf F=q\\mathbf v\\times\\mathbf B$ with $\\mathbf v$ to the left and $\\mathbf B$ into the page would be downward, so A must be **negative**.\n\nParticle B (below) is moving to the right at its closest point and is deflected downward. For a positive charge, $\\mathbf v$ to the right and $\\mathbf B$ out of the page gives a downward force, so B is **positive**. The answer is C.",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q18.png"
+   ]
+  },
+  {
+   "ref": "Q19",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "The range of a projectile on a horizontal surface is given by $R=\\dfrac{u^2\\sin(2\\theta)}{g}$, where $R$ is the range, $g$ is the acceleration due to gravity, $u$ is the initial speed and $\\theta$ is the angle of the projectile to the horizontal. Which of the following changes would increase the range of the projectile to $2R$?",
+   "options": [
+    "$u$ is doubled.",
+    "$g$ is doubled.",
+    "$\\theta$ is changed from $30^\\circ$ to $45^\\circ$.",
+    "$u$ is multiplied by $\\sqrt2$."
+   ],
+   "correct": "D",
+   "answer": "$R\\propto u^2$, so to double $R$ the speed must be multiplied by $\\sqrt2$ (D). Doubling $u$ gives $4R$; doubling $g$ halves $R$; changing $\\theta$ from $30^\\circ$ to $45^\\circ$ multiplies $R$ by $\\dfrac{\\sin90^\\circ}{\\sin60^\\circ}=1.15$ only."
+  },
+  {
+   "ref": "Q20",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.2"
+   ],
+   "question": "Two experiments are conducted using a photoelectric cell where the applied voltage is varied, and the resultant photocurrent is measured by the ammeter. The results of both experiments are shown in the following graphs. In Experiment A, three curves have different stopping potentials but the same saturation (maximum) photocurrent. In Experiment B, three curves have the same stopping potential but different saturation photocurrents. Which would be the correct interpretation of these experiments?",
+   "options": [
+    "A: three different frequencies of light; B: three different intensities of the same frequency of light",
+    "A: three different intensities of the same frequency of light; B: three different frequencies of light",
+    "A: three different intensities of the same frequency of light; B: three different metals",
+    "A: three different frequencies of light; B: three different metals"
+   ],
+   "correct": "A",
+   "answer": "The stopping voltage (where the photocurrent falls to zero) depends on the maximum kinetic energy of the photoelectrons, $K_{\\max}=hf-\\phi$, so it depends on the frequency (and the metal) but not the intensity. The saturation current depends on the number of photoelectrons per second, which is proportional to the light intensity.\n\nExperiment A has different stopping potentials, so the frequency (or metal) varies, and with the same saturation current the intensity is unchanged: three different frequencies. Experiment B has the same stopping potential (same frequency and metal) but different saturation currents: three different intensities of the same frequency. The answer is A.",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q20a.png",
+    "assets/img/phys-2022-sydney-grammar/q20b.png"
+   ]
+  },
+  {
+   "ref": "Q21",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "Muons are particles created in the upper atmosphere by cosmic ray collisions and travel towards the ground at $0.98c$. Of all the muons detected at an altitude of $10\\ \\text{km}$, only $1$ in $45{,}000$ were predicted to reach ground level with the rest decaying due to their short lifetime of $2.2\\ \\mu\\text{s}$. However, it was measured that $1$ in $8$ were able to be detected at ground level. Explain how this provides evidence to support Einstein's Special Theory of relativity. (Calculations are not required.)",
+   "answer": "Even moving at $0.98c$, most muons created in the upper atmosphere are expected to decay before travelling $10\\ \\text{km}$ to the ground because of their short lifetime (the classical prediction is only $1$ in $45{,}000$ surviving).\n\nAs a consequence of his two postulates, Einstein predicted time dilation: the time for an event occurring in a moving frame of reference is longer when measured by an external observer. For an observer on the ground, the lifetime of the (fast-moving) muons is therefore longer, so they survive for longer and travel further, and more muons are able to reach the ground. (From the muon's frame of reference, the distance to the ground is length-contracted, so it is shorter and fewer muons decay on the way.)\n\nThe much larger fraction detected at the ground ($1$ in $8$ instead of $1$ in $45{,}000$) matches the prediction of time dilation, and so supports Einstein's Special Theory of Relativity."
+  },
+  {
+   "ref": "Q22(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.3"
+   ],
+   "question": "When light is incident on Europium metal, photoelectrons are emitted. The graph below shows how the measured kinetic energy of the photoelectrons changes when different wavelengths of light are incident on the metal. Using the graph, determine the work function of Europium.",
+   "answer": "Choose a data point on the graph, e.g. $\\lambda=310\\ \\text{nm}$, $K_{\\max}=1.5\\ \\text{eV}$.\n\n$K_{\\max}=hf-\\phi=\\dfrac{hc}{\\lambda}-\\phi$, so $\\phi=\\dfrac{hc}{\\lambda}-K_{\\max}$.\n\n$\\dfrac{hc}{\\lambda}=\\dfrac{6.626\\times10^{-34}\\times3.00\\times10^{8}}{310\\times10^{-9}\\times1.6\\times10^{-19}}=4.0\\ \\text{eV}$\n\n$\\phi=4.0-1.5=2.5\\ \\text{eV}$ (or $\\approx4.0\\times10^{-19}\\ \\text{J}$).",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q22.png"
+   ]
+  },
+  {
+   "ref": "Q22(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.3",
+    "12.7.3.2"
+   ],
+   "question": "For any metal there is a maximum wavelength of light after which no photoelectrons are emitted. Use Einstein's explanation of the photoelectric effect to explain why no electrons are emitted if the wavelength is greater than this maximum.",
+   "answer": "Einstein proposed that light is made of photons, each with energy $E=hf=\\dfrac{hc}{\\lambda}$. When light is incident on a surface, all the energy of one photon is transferred to a single electron. The electron uses part of this energy to escape from the metal by overcoming the electrostatic attraction of the metal (the work function, $\\phi$), and the remaining energy is its maximum kinetic energy: $hf=\\phi+K_{\\max}$, or $K_{\\max}=hf-\\phi$.\n\nElectrons are only emitted if the energy of a photon is at least the work function: $E=\\dfrac{hc}{\\lambda}\\ge\\phi$. This minimum photon energy corresponds to a maximum wavelength $\\lambda_{\\max}=\\dfrac{hc}{\\phi}$ (where $K_{\\max}=0$). If the wavelength is greater than $\\lambda_{\\max}$, each photon has less energy than $\\phi$, so no electron can be released, no matter how intense the light (many low-energy photons cannot combine their energy)."
+  },
+  {
+   "ref": "Q23",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.4.3"
+   ],
+   "question": "Explain why, from an observer's point of view, an object with mass would not be able to accelerate to the speed of light, $c$, in a vacuum.",
+   "answer": "In order for conservation of momentum to hold in all inertial frames of reference, Einstein redefined momentum as $p_v=\\dfrac{m_0v}{\\sqrt{1-v^2/c^2}}$. As $v\\to c$, $p_v\\to\\infty$. The impulse is $I=\\Delta p=p_f-p_i=p_v$ when starting from rest ($p_i=0$), so an infinite impulse would be required to increase an object's speed to the speed of light. It is not possible to apply an infinite impulse to an object: as the velocity increases, an ever-increasing force ($F=\\dfrac{\\Delta p}{\\Delta t}$) would be required to change the momentum, or the effect of a constant force would change the velocity less and less (with the acceleration asymptotically reducing to zero). Equivalently, an infinite amount of work/energy would be needed, since $E^2=(pc)^2+(m_0c^2)^2\\to\\infty$ as $v\\to c$. This limit on the speed of an object with mass is a consequence of Einstein's postulates of special relativity."
+  },
+  {
+   "ref": "Q24(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "As a thought experiment, Observer A is on a train travelling at a velocity of $v=0.9c$ compared to Observer B. Observer A shines a laser beam towards a mirror at the front of the train, a distance of $2.3\\ \\text{m}$. The light beam reflects off the mirror and returns to a timing device on the laser. According to observer A, how long would it take for the light beam to complete this journey?",
+   "answer": "For Observer A the train is at rest and the light travels $2\\times2.3=4.6\\ \\text{m}$ at $c$: $$t_0=\\frac dv=\\frac{2\\times2.3}{3.0\\times10^{8}}=1.53\\times10^{-8}\\ \\text{s}.$$",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q24.png"
+   ]
+  },
+  {
+   "ref": "Q24(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "As a thought experiment, Observer A is on a train travelling at a velocity of $v=0.9c$ compared to Observer B. Observer A shines a laser beam towards a mirror at the front of the train, a distance of $2.3\\ \\text{m}$. The light beam reflects off the mirror and returns to a timing device on the laser. According to Observer A the journey takes $1.53\\times10^{-8}\\ \\text{s}$. According to Observer B, how long would it take for the light beam to complete this journey?",
+   "answer": "Observer A measures the proper time $t_0=1.53\\times10^{-8}\\ \\text{s}$ (both events happen at the same place on the train). Observer B measures the dilated time: $$\\gamma=\\frac1{\\sqrt{1-0.9^2}}=2.294,\\qquad t=\\gamma t_0=2.294\\times1.53\\times10^{-8}=3.52\\times10^{-8}\\ \\text{s}.$$",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q24.png"
+   ]
+  },
+  {
+   "ref": "Q24(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "As a thought experiment, Observer A is on a train travelling at a velocity of $v=0.9c$ compared to Observer B. The laser and the mirror at the front of the train are $2.3\\ \\text{m}$ apart according to Observer A. According to observer B, what is the distance he would measure between the laser and the mirror?",
+   "answer": "The $2.3\\ \\text{m}$ is the proper length $L_0$ (measured in the train's rest frame). Observer B sees length contraction along the direction of motion: $$L=L_0\\sqrt{1-\\frac{v^2}{c^2}}=2.3\\sqrt{1-0.9^2}=1.0\\ \\text{m}.$$",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q24.png"
+   ]
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.1.3"
+   ],
+   "question": "In the 1840s, French physicist Hippolyte Fizeau performed an experiment to measure the speed of light using a rotating toothed cogwheel. He shone an intense light source at a mirror and broke up the light beam with a rotating toothed cogwheel. He adjusted the speed of rotation of the wheel until the reflected light beam could no longer be seen returning through the gaps in the cogwheel. The diagram below shows a similar experiment: the rotating toothed cogwheel has $250$ teeth and $250$ gaps of the same width, and the distance between the rotating toothed cogwheel and the mirror is $500\\ \\text{m}$. Determine the minimum rotation speed of the cogwheel that would completely block the returning light.",
+   "answer": "The light travels to the mirror and back: $t=\\dfrac{2\\times500}{3.0\\times10^{8}}=3.33\\times10^{-6}\\ \\text{s}$.\n\nTo block the returning light, in this time the wheel must turn so that a tooth replaces the gap the light passed through, i.e. through half of one tooth-and-gap cycle. There are $250+250=500$ equal teeth and gaps, so the wheel turns through $\\dfrac{2\\pi}{500}\\ \\text{rad}$: $$\\omega=\\frac{2\\pi/500}{3.33\\times10^{-6}}\\approx3.77\\times10^{3}\\ \\text{rad s}^{-1}.$$ (Directly: $\\omega=\\dfrac{\\pi c}{500\\times500}=3.77\\times10^3\\ \\text{rad s}^{-1}$.)",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q25.png"
+   ]
+  },
+  {
+   "ref": "Q25(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.3"
+   ],
+   "question": "In a Fizeau-type experiment in air the minimum rotation speed of the toothed cogwheel that completely blocks the returning light was measured. The same experiment is performed again but this time a $500\\ \\text{m}$ long rectangular tank of pure water is added between the cogwheel and the mirror. The new minimum rotation speed of the toothed cogwheel that would completely block the returning light is $2830\\ \\text{rad s}^{-1}$, which is lower than the one measured in air. What conclusion about the speed of light in water can be made from this observation?",
+   "answer": "A lower rotation speed means the light takes longer to travel to the mirror and back (a longer time for the wheel to turn from a gap to a tooth). So the speed of light is **lower in water than in air**."
+  },
+  {
+   "ref": "Q25(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.3"
+   ],
+   "question": "A Fizeau-type experiment shows that light travels more slowly in water than in air, which provides evidence for Huygens' model of light. Describe one other observation or experimental evidence that supports Huygens' model.",
+   "answer": "The double-slit experiment (Young's experiment) shows the wave nature of light, as predicted by Huygens' model, through the observation of an interference pattern on a screen behind the slits. The dark and bright fringes can only occur if light is a wave (superposition of waves from the two slits, with constructive and destructive interference). (Diffraction and polarisation are also accepted as evidence; each cannot be explained by Newton's particle model.)"
+  },
+  {
+   "ref": "Q26",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.4.3",
+    "12.6.4.1"
+   ],
+   "question": "DC motors are used in electric trains because they can combine high starting torques with the ability to provide regenerative braking. When a DC motor is connected to a voltage source the armature current starts high and then falls as the speed of the vehicle reaches a steady value as shown in the graph below (current falls from $I_{\\max}$ to zero as the speed rises to a constant value). Explain why the current starts at a specific maximum value $I_{\\max}$ then falls to zero as the motor increases its speed.",
+   "answer": "$I_{\\max}$ is determined by the physical constraints of the system, i.e. the voltage supplied to the coil and the resistance of the coil: $I_{\\max}=\\dfrac{V_{\\text{supply}}}{R_{\\text{coil}}}$ (when the motor is at rest, there is no back EMF).\n\nAs the motor spins, its coil rotates in an external magnetic field and, by Faraday's law, an EMF is generated in the coil, in the opposite direction to the voltage supplied to the coil (Lenz's law). This is the back EMF, $\\varepsilon_{\\text{back}}$, so $V_{\\text{coil}}=V_{\\text{supply}}-\\varepsilon_{\\text{back}}$.\n\nBy Ohm's law, the overall current in the coil is $I_{\\text{coil}}=\\dfrac{V_{\\text{supply}}-\\varepsilon_{\\text{back}}}{R_{\\text{coil}}}=I_{\\max}-\\dfrac{\\varepsilon_{\\text{back}}}{R_{\\text{coil}}}$.\n\nAs the motor's speed of rotation increases, $\\varepsilon_{\\text{back}}$ increases too and $I_{\\text{coil}}$ decreases from its maximum value of $\\dfrac{V_{\\text{supply}}}{R_{\\text{coil}}}$. Eventually, $\\varepsilon_{\\text{back}}$ reaches the value of $V_{\\text{supply}}$ and $I_{\\text{coil}}=0$ (in practice, a small current remains to overcome friction and load).",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q26.png"
+   ]
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.2"
+   ],
+   "question": "A helium neon laser, which emits light of wavelength $\\lambda=632\\ \\text{nm}$, is shone through a diffraction grating with $120\\ \\text{lines/cm}$. It is placed $L=5.00\\ \\text{m}$ away from a screen. Determine the separation between the slits in the grating.",
+   "answer": "$d=\\dfrac1{120\\ \\text{lines/cm}}=\\dfrac1{120\\times10^{2}\\ \\text{lines/m}}=8.3\\times10^{-5}\\ \\text{m}$ ($=8.3\\times10^{-3}\\ \\text{cm}$).",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q27.png"
+   ]
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.2"
+   ],
+   "question": "A helium neon laser, which emits light of wavelength $\\lambda=632\\ \\text{nm}$, is shone through a diffraction grating. For the $3^{\\text{rd}}$ order maximum to occur, what is the additional distance or \\\"path difference\\\" that the light must have travelled from one slit on the grating to the screen compared to the adjacent slit?",
+   "answer": "For a maximum, the path difference between light from adjacent slits is a whole number of wavelengths: $m\\lambda=3\\times632\\ \\text{nm}=1.90\\times10^{-6}\\ \\text{m}$.\n\n*Note:* the school's working uses $620\\ \\text{nm}$ and gets $1.86\\times10^{-6}\\ \\text{m}$; with the given $\\lambda=632\\ \\text{nm}$ the path difference is $1.90\\times10^{-6}\\ \\text{m}$.",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q27.png"
+   ]
+  },
+  {
+   "ref": "Q27(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.2"
+   ],
+   "question": "A helium neon laser, which emits light of wavelength $\\lambda=632\\ \\text{nm}$, is shone through a diffraction grating with $120\\ \\text{lines/cm}$ (slit separation $d=8.3\\times10^{-5}\\ \\text{m}$). It is placed $L=5.00\\ \\text{m}$ away from a screen. What is the distance on the screen between the central maximum and the $3^{\\text{rd}}$ order maximum?",
+   "answer": "$d\\sin\\theta=m\\lambda$, so $\\sin\\theta=\\dfrac{3\\times632\\times10^{-9}}{8.3\\times10^{-5}}=0.0228$ and $\\theta=1.31^\\circ$.\n\nOn the screen, $\\tan\\theta=\\dfrac xL$, so $x=L\\tan\\theta=5.00\\times\\tan1.31^\\circ=0.114\\ \\text{m}$ ($11.4\\ \\text{cm}$).",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q27.png"
+   ]
+  },
+  {
+   "ref": "Q28",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.4.2"
+   ],
+   "question": "Explain how the stator in an AC induction motor generates torque in the rotor.",
+   "answer": "- The stator of an AC induction motor is usually made of $3$ pairs of electromagnets, each opposite pair being connected to one phase of a three-phase current generator. This setup creates a **rotating magnetic field** within the cavity of the stator, where the rotor is placed.\n- The rotor consists of several metallic bars connected at the ends by two metallic plates.\n- The rotating $B$ field within the stator creates a **change in magnetic flux** through the metallic bars of the rotor. By **Faraday's law**, an emf is induced in the bars ($\\varepsilon=-\\dfrac{\\Delta\\Phi_B}{\\Delta t}$). As the rotor is a closed conductor, induced **eddy currents** flow in the bars and through the connecting end plates.\n- By **Lenz's law**, these eddy currents flow in a direction such that the $B$ field they create opposes the change in flux that induced them in the first place.\n- The eddy currents in the bars are in the external $B$ field of the stator, so each bar experiences a **force** due to the motor effect ($F=BIl\\sin\\theta$).\n- Currents in opposite bars of the rotor flow in opposite directions, so the forces on them are equal in magnitude but opposite in direction, creating a **torque** on the rotor.\n- This torque makes the rotor turn in the **same direction** as the rotation of the $B$ field in the stator: as a consequence of Lenz's law, the rotor tries to catch up with the rotating $B$ field to minimise (counter) the change in flux it experiences."
+  },
+  {
+   "ref": "Q29",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.1.2",
+    "12.6.1.1"
+   ],
+   "question": "A charged particle of mass $6.0\\times10^{-7}\\ \\text{kg}$ is travelling at an initial velocity of $2.5\\times10^{3}\\ \\text{m s}^{-1}$. The particle enters a perpendicular electric field of $7.5\\times10^{4}\\ \\text{N C}^{-1}$ (between the plates shown, directed from the top plate to the bottom plate), and follows the trajectory shown below: it is deflected $0.0040\\ \\text{m}$ towards the bottom plate while travelling $0.34\\ \\text{m}$ horizontally. Calculate the magnitude of the charge on the particle.",
+   "answer": "Treat the motion like a projectile (ignore gravity).\n\nHorizontal (constant velocity): $t=\\dfrac{0.34}{2.5\\times10^{3}}=1.36\\times10^{-4}\\ \\text{s}$.\n\nVertical (starting from zero vertical velocity): $s=\\tfrac12at^2$, so $a=\\dfrac{2\\times0.0040}{(1.36\\times10^{-4})^2}=4.33\\times10^{5}\\ \\text{m s}^{-2}$.\n\nForce: $F=ma=6.0\\times10^{-7}\\times4.33\\times10^{5}=0.26\\ \\text{N}$, and $F=qE$, so $$q=\\frac{ma}{E}=\\frac{0.26}{7.5\\times10^{4}}=3.5\\times10^{-6}\\ \\text{C}.$$",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q29.png"
+   ]
+  },
+  {
+   "ref": "Q30",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "A subatomic particle with a charge of $-1.6\\times10^{-19}\\ \\text{C}$ travels at a speed of $5.3\\times10^{6}\\ \\text{m s}^{-1}$ into a perpendicular magnetic field of strength $12.5\\ \\text{T}$. It follows the semicircular path shown in the diagram below, which has a diameter of $9.96\\times10^{-4}\\ \\text{m}$. Calculate the mass of the particle.",
+   "answer": "The magnetic force provides the centripetal force: $qvB=\\dfrac{mv^2}{r}$, so $m=\\dfrac{qBr}{v}$.\n\nThe path is a semicircle of **diameter** $9.96\\times10^{-4}\\ \\text{m}$, so $r=4.98\\times10^{-4}\\ \\text{m}$.\n\n$$m=\\frac{1.6\\times10^{-19}\\times12.5\\times4.98\\times10^{-4}}{5.3\\times10^{6}}=1.9\\times10^{-28}\\ \\text{kg}.$$",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q30.png"
+   ]
+  },
+  {
+   "ref": "Q31",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.1"
+   ],
+   "question": "The diagram below shows a current-carrying wire ($I=2.5\\ \\text{A}$, current flowing down and to the left) in a uniform magnetic field of $B=3.6\\ \\text{T}$ directed to the right. The wire makes an angle of $48^\\circ$ with the field and spans $0.82\\ \\text{m}$ vertically and $0.75\\ \\text{m}$ horizontally. Calculate the magnitude and direction of the magnetic force acting on the wire in the position shown.",
+   "answer": "$F=BIL\\sin\\theta$ where $L\\sin\\theta$ is the length of wire perpendicular to the field, $=0.82\\ \\text{m}$ (the vertical extent): $$F=3.6\\times2.5\\times0.82=7.4\\ \\text{N}.$$ (Equivalently, $L=\\sqrt{0.82^2+0.75^2}=1.11\\ \\text{m}$ and $F=3.6\\times2.5\\times1.11\\times\\sin48^\\circ=7.4\\ \\text{N}$.)\n\nBy the right-hand palm rule (fingers along $B$ to the right, thumb along the current down-left), the force is **out of the page**.\n\n*Note:* using $\\cos48^\\circ$ or $\\sin52^\\circ$ gives an incorrect magnitude.",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q31.png"
+   ]
+  },
+  {
+   "ref": "Q32(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.3.3"
+   ],
+   "question": "A transformer operates from an A.C. primary voltage of $200\\ \\text{V}$. The primary coil of the transformer has $400$ turns, and the secondary coil has $1200$ turns. Calculate the voltage across the secondary coil of the transformer.",
+   "answer": "$\\dfrac{V_s}{V_p}=\\dfrac{n_s}{n_p}$, so $V_s=200\\times\\dfrac{1200}{400}=600\\ \\text{V}$.",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q32.png"
+   ]
+  },
+  {
+   "ref": "Q32(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.3.3"
+   ],
+   "question": "A transformer has a primary coil of $400$ turns and a secondary coil of $1200$ turns. Identify if this is a step-up or step-down transformer.",
+   "answer": "Step-up: the secondary coil has more turns than the primary coil, so the secondary voltage ($600\\ \\text{V}$) is greater than the primary voltage ($200\\ \\text{V}$).",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q32.png"
+   ]
+  },
+  {
+   "ref": "Q32(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.4"
+   ],
+   "question": "Explain one method of increasing the efficiency of a transformer.",
+   "answer": "One method is to **laminate the iron core** (build it from thin sheets of iron separated by insulating material). This reduces the size of the eddy currents induced in the core by the changing magnetic flux, which reduces the resistive (ohmic) heating and so minimises energy losses.\n\n(Other accepted answers: use lower-resistance (thicker) windings to reduce resistive heating, or use methods that increase the flux linkage between the coils, such as winding the coils closely on a soft-iron core in a closed loop.)"
+  },
+  {
+   "ref": "Q33",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.3.2",
+    "12.6.4.3"
+   ],
+   "question": "A pupil performs the experiments shown below. He puts a solenoid (a coil of wire) on the back of a motion trolley connected to an ammeter and a switch and pushes it towards a powerful fixed magnet at an initial speed $v$. In Experiment 1 the switch is open. In Experiment 2 the conditions are exactly the same as Experiment 1 but now the switch is closed. Describe and explain, in terms of the relevant laws of physics, the observations that he makes of the two experiments. (Ignore the effect of friction on the trolleys.)",
+   "answer": "**Experiment 1.** The trolley rolls towards the magnet at a constant speed. By Faraday's law, a voltage is induced across the coil (due to the change in flux as it approaches the magnet). Because the switch is open, no current can flow and so no forces can act between the coil and the magnet.\n\n**Experiment 2.** As with Experiment 1, a voltage is induced. This time, a current can flow in the coil. By Lenz's law, this flows to produce a magnetic field that acts to oppose the change in flux, i.e. to place a north pole on the right-hand end of the solenoid (facing the approaching north pole of the magnet). The trolley experiences a force to the left, which acts to slow it down (kinetic energy is transferred to electrical energy in the circuit).",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q33.png"
+   ]
+  },
+  {
+   "ref": "Q34(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.3"
+   ],
+   "question": "Two spheres A and B are attached to the ends of light inextensible strings XA and XB. They are swung in horizontal circles of radius $0.20\\ \\text{m}$ (sphere A) and $0.30\\ \\text{m}$ (sphere B) so that their periods are the same. Determine the ratio $\\dfrac{v_B}{v_A}$ of the speed of sphere B ($v_B$) to the speed of sphere A ($v_A$).",
+   "answer": "$v=\\dfrac{2\\pi r}{T}$ and both spheres have the same period $T$ (the same angular velocity $\\omega$), so $$\\frac{v_B}{v_A}=\\frac{2\\pi r_B/T}{2\\pi r_A/T}=\\frac{r_B}{r_A}=\\frac{0.30}{0.20}=1.5.$$",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q34.png"
+   ]
+  },
+  {
+   "ref": "Q34(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.3"
+   ],
+   "question": "Two spheres A and B are swung in horizontal circles of radius $r_A=0.20\\ \\text{m}$ and $r_B=0.30\\ \\text{m}$ with the same period, so that $\\dfrac{v_B}{v_A}=1.5$. Determine the ratio $\\dfrac{a_B}{a_A}$ of the centripetal acceleration of sphere B ($a_B$) to the centripetal acceleration of sphere A ($a_A$).",
+   "answer": "$a=\\dfrac{v^2}{r}$, so $$\\frac{a_B}{a_A}=\\frac{v_B^2/r_B}{v_A^2/r_A}=\\left(\\frac{v_B}{v_A}\\right)^2\\frac{r_A}{r_B}=1.5^2\\times\\frac{1}{1.5}=1.5.$$ (Equivalently, $a=\\omega^2r$ with the same $\\omega$ gives $\\dfrac{a_B}{a_A}=\\dfrac{r_B}{r_A}=1.5$.)",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q34.png"
+   ]
+  },
+  {
+   "ref": "Q35(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "A car of mass $m=1000\\ \\text{kg}$ is travelling around a frictionless banked track (there is no friction between the wheels and the track) at an angle of $\\theta=30^\\circ$ to the horizontal and radius of $r=60\\ \\text{m}$. Determine the magnitude of the force of the track on the car (i.e., the normal force).",
+   "answer": "There is no vertical acceleration, so the vertical component of the normal force balances the weight: $N\\cos\\theta=mg$, giving $$N=\\frac{mg}{\\cos\\theta}=\\frac{1000\\times9.8}{\\cos30^\\circ}=1.13\\times10^{4}\\ \\text{N}.$$",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q35.png"
+   ]
+  },
+  {
+   "ref": "Q35(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "A car of mass $m=1000\\ \\text{kg}$ is travelling around a frictionless banked track at an angle of $\\theta=30^\\circ$ to the horizontal and radius of $r=60\\ \\text{m}$. Determine the speed of the car required to maintain a constant radius of $60\\ \\text{m}$.",
+   "answer": "The horizontal component of the normal force provides the centripetal force: $N\\sin\\theta=\\dfrac{mv^2}{r}$. Dividing by $N\\cos\\theta=mg$: $$\\tan\\theta=\\frac{v^2}{rg}\\ \\Rightarrow\\ v=\\sqrt{rg\\tan\\theta}=\\sqrt{60\\times9.8\\times\\tan30^\\circ}=18.4\\ \\text{m s}^{-1}.$$",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q35.png"
+   ]
+  },
+  {
+   "ref": "Q35(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "A car is travelling around a frictionless banked track (inclined at a fixed angle $\\theta$ to the horizontal). If the speed of the car is doubled, explain why the car would have to move higher up the incline (i.e., $h$ becomes larger) to still go around the circular track without any sideways friction from the track.",
+   "answer": "Without friction, $v=\\sqrt{rg\\tan\\theta}$, i.e. $v^2=rg\\tan\\theta$. As $\\theta$ and $g$ are constant, $v^2\\propto r$. If the speed doubles ($v\\uparrow$), the radius of the circle must increase by a factor of $4$ ($r\\uparrow$). The radius of the circular path increases the higher up the incline the car is, so $r\\uparrow\\Rightarrow h\\uparrow$.\n\n(Equivalently, the normal force is constant, $N=\\dfrac{mg}{\\cos\\theta}$, so the centripetal force $N\\sin\\theta=\\dfrac{mv^2}{r}$ must stay constant; doubling $v$ requires $r$ to be quadrupled.)",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q35.png"
+   ]
+  },
+  {
+   "ref": "Q36(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.5.1.4"
+   ],
+   "question": "A golfer must hit a shot over a tree and onto an elevated green as shown in the diagram below. The distance from the golfer to the tree is $x=8.6\\ \\text{m}$ and the ball reaches its maximum height directly above the tree. The height of the green the ball lands on is $h=3.0\\ \\text{m}$ and the maximum height his shot reaches is $2h$. What is the initial vertical velocity of the ball?",
+   "answer": "At maximum height $v_y=0$, and the maximum height is $2h=6.0\\ \\text{m}$ above the launch point: $$v_y^2=u_y^2+2as\\ \\Rightarrow\\ 0=u_y^2-2(9.8)(6.0)\\ \\Rightarrow\\ u_y=\\sqrt{2\\times9.8\\times6.0}=10.8\\ \\text{m s}^{-1}.$$",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q36.png"
+   ]
+  },
+  {
+   "ref": "Q36(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.5.1.4"
+   ],
+   "question": "A golfer hits a shot over a tree and onto an elevated green. The ball is launched from the ground with an initial vertical velocity of $10.8\\ \\text{m s}^{-1}$. How long will it take the ball to reach its maximum height?",
+   "answer": "At maximum height $v_y=0$: $v=u+at\\ \\Rightarrow\\ t=\\dfrac{v-u}{a}=\\dfrac{0-10.8}{-9.8}=1.1\\ \\text{s}.$",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q36.png"
+   ]
+  },
+  {
+   "ref": "Q36(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.5.1.4"
+   ],
+   "question": "A golfer hits a shot over a tree and onto an elevated green. The distance from the golfer to the tree is $x=8.6\\ \\text{m}$, and the ball reaches its maximum height directly above the tree, $1.1\\ \\text{s}$ after being hit, with an initial vertical velocity of $10.8\\ \\text{m s}^{-1}$. What is the initial launch angle of the ball above the horizontal?",
+   "answer": "Horizontal velocity is constant: $s_H=u_Ht$, so $u_H=\\dfrac{8.6}{1.106}=7.8\\ \\text{m s}^{-1}$.\n\n$\\tan\\theta=\\dfrac{u_V}{u_H}=\\dfrac{10.8}{7.8}$, so $\\theta=54^\\circ$ above the horizontal.",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q36.png"
+   ]
+  },
+  {
+   "ref": "Q36(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.5.1.4"
+   ],
+   "question": "A golfer hits a shot over a tree and onto an elevated green. The ball has a horizontal velocity of $7.8\\ \\text{m s}^{-1}$ and reaches a maximum height of $6.0\\ \\text{m}$ above the ground directly above the tree. The green it lands on is $3.0\\ \\text{m}$ above the ground. What is the distance $d$ (the horizontal distance from the tree to where the ball lands on the green)?",
+   "answer": "After the maximum height, the ball falls $6.0-3.0=3.0\\ \\text{m}$ from rest (vertically): $s=\\tfrac12gt^2\\ \\Rightarrow\\ 3.0=4.9t^2\\ \\Rightarrow\\ t=0.78\\ \\text{s}$.\n\n$d=u_Ht=7.8\\times0.782=6.1\\ \\text{m}$.",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q36.png"
+   ]
+  },
+  {
+   "ref": "Q37(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.4"
+   ],
+   "question": "Four satellites labelled A, B, C and D are orbiting a distant planet called Calculon. Their orbital properties are plotted in the graph below ($r^3$ in units of $10^{20}\\ \\text{m}^3$ against $T^2$ in units of $10^{8}\\ \\text{s}^2$). Determine the mass of the planet Calculon.",
+   "answer": "Take a point on the graph, e.g. satellite D: $r^3=7.8\\times10^{20}\\ \\text{m}^3$, $T^2=9.6\\times10^{8}\\ \\text{s}^2$.\n\nKepler's third law: $\\dfrac{r^3}{T^2}=\\dfrac{GM}{4\\pi^2}$, so $$M=\\frac{4\\pi^2}{G}\\cdot\\frac{r^3}{T^2}=\\frac{4\\pi^2\\times7.8\\times10^{20}}{6.674\\times10^{-11}\\times9.6\\times10^{8}}=4.8\\times10^{23}\\ \\text{kg}.$$",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q37.png"
+   ]
+  },
+  {
+   "ref": "Q37(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.2",
+    "12.5.3.4"
+   ],
+   "question": "Four satellites A, B, C and D orbit a distant planet called Calculon, of mass $4.8\\times10^{23}\\ \\text{kg}$. Satellite B has $r^3=2.7\\times10^{20}\\ \\text{m}^3$ and $T^2=3.4\\times10^{8}\\ \\text{s}^2$ (see the graph). Determine the orbital velocity of satellite B.",
+   "answer": "From the graph, for B: $r^3=2.7\\times10^{20}\\ \\text{m}^3$, so $r=6.5\\times10^{6}\\ \\text{m}$ and $T=1.84\\times10^{4}\\ \\text{s}$.\n\n$v=\\sqrt{\\dfrac{GM}{r}}=\\sqrt{\\dfrac{6.674\\times10^{-11}\\times4.8\\times10^{23}}{6.5\\times10^{6}}}=2.2\\times10^{3}\\ \\text{m s}^{-1}$, or $v=\\dfrac{2\\pi r}{T}=\\dfrac{2\\pi\\times6.5\\times10^{6}}{1.84\\times10^{4}}=2.2\\times10^{3}\\ \\text{m s}^{-1}$.",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q37.png"
+   ]
+  },
+  {
+   "ref": "Q37(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "Satellite C orbits the planet Calculon with $T^2=6.1\\times10^{8}\\ \\text{s}^2$ (see the graph). If Satellite C is in a geostationary orbit around the planet Calculon then how long is a day on the planet (i.e., the time it takes for the planet to rotate once on its axis)?",
+   "answer": "A geostationary satellite has the same period as the rotation of the planet, so a day on Calculon equals the period of C: $T=\\sqrt{6.1\\times10^{8}}=2.5\\times10^{4}\\ \\text{s}$ (about $6.9$ hours).",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q37.png"
+   ]
+  },
+  {
+   "ref": "Q38",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.3.4",
+    "12.5.3.5"
+   ],
+   "question": "A planet of mass $m$ is orbiting a star, S, of mass $M$ in an elliptical orbit as shown below. The planet is shown at two points in its orbit. At position A it is at its closest to S and at position B, it is at its furthest. The distance from S to A is $r_A$ whereas the distance S to B is $r_B$. For an elliptical orbit the total energy is given by $$E=-\\frac{GMm}{r_A+r_B}.$$ Use the total energy to determine the ratio of the kinetic energy $\\left(\\dfrac{K_A}{K_B}\\right)$ of the planet at position A ($K_A$) compared to position B ($K_B$) if the distance $r_B$ is three times larger than $r_A$ (i.e., $r_A=r$ and $r_B=3r$ and $\\dfrac{r_B}{r_A}=3$).",
+   "answer": "Total energy: $E=-\\dfrac{GMm}{r+3r}=-\\dfrac{GMm}{4r}$.\n\nAt A: $E=K_A+U_A$, so $K_A-\\dfrac{GMm}{r}=-\\dfrac{GMm}{4r}$, giving $K_A=\\dfrac{3}{4}\\dfrac{GMm}{r}$.\n\nAt B: $K_B-\\dfrac{GMm}{3r}=-\\dfrac{GMm}{4r}$, giving $K_B=\\dfrac1{12}\\dfrac{GMm}{r}$.\n\n$$\\frac{K_A}{K_B}=\\frac{3/4}{1/12}=9.$$",
+   "images": [
+    "assets/img/phys-2022-sydney-grammar/q38.png"
+   ]
+  }
+ ]
+}
