@@ -1,0 +1,700 @@
+{
+ "id": "adv-2025-fort-st",
+ "course": "advanced",
+ "school": "Fort St",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5328",
+  "title": "Fort St 2025 w. sol"
+ },
+ "indexed": "2026-11-26",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q3",
+   "reason": "Comparing correlation coefficients of scatter plots (bivariate data) is not in the 2024 Mathematics Advanced syllabus."
+  },
+  {
+   "ref": "Q4",
+   "reason": "Pareto charts are not in the 2024 Mathematics Advanced syllabus."
+  },
+  {
+   "ref": "Q19",
+   "reason": "Comparing box plots (skewness, median, IQR and range) is not in the 2024 Mathematics Advanced syllabus."
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.1.6"
+   ],
+   "question": "What is the solution to the equation $3x^2+5x-1=0$?",
+   "answer": "$x=\\dfrac{-5\\pm\\sqrt{5^2-4(3)(-1)}}{2(3)}=\\dfrac{-5\\pm\\sqrt{37}}{6}$ (A).",
+   "options": [
+    "$x=\\dfrac{-5\\pm\\sqrt{37}}{6}$",
+    "$x=\\dfrac{-5\\pm\\sqrt{13}}{6}$",
+    "$x=\\dfrac{5\\pm\\sqrt{37}}{6}$",
+    "$x=\\dfrac{5\\pm\\sqrt{13}}{6}$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.1.4"
+   ],
+   "question": "Express $4x\\sqrt{11}$ in the form of $\\sqrt a$.",
+   "answer": "$4x\\sqrt{11}=\\sqrt{(4x)^2\\cdot11}=\\sqrt{176x^2}$ (C).",
+   "options": [
+    "$\\sqrt{44x^2}$",
+    "$\\sqrt{44x}$",
+    "$\\sqrt{176x^2}$",
+    "$\\sqrt{176x}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.1.4",
+    "11.7.1.9"
+   ],
+   "question": "Which of the Venn diagrams best represents $A\\cap\\overline B$?",
+   "answer": "$A\\cap\\overline B$ is the set of elements in $A$ that are not in $B$: the part of circle $A$ outside circle $B$ (A). Diagram B is $A\\cap B$, C is $\\overline B$ (everything outside $B$) and D is $B\\cap\\overline A$.",
+   "options": [
+    "Diagram A",
+    "Diagram B",
+    "Diagram C",
+    "Diagram D"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/adv-2025-fort-st/q5.png"
+   ]
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.9.3",
+    "11.5.2.11"
+   ],
+   "question": "What is the domain of $f(x)=\\log_{10}\\big[(x-3)(x-5)\\big]$?",
+   "answer": "The logarithm requires $(x-3)(x-5)>0$. The parabola $y=(x-3)(x-5)$ is positive outside its roots, so $x<3$ or $x>5$ (D).",
+   "options": [
+    "$\\{3\\le x\\le5\\}$",
+    "$\\{3<x<5\\}$",
+    "$\\{x\\le3\\ \\text{or}\\ x\\ge5\\}$",
+    "$\\{x<3\\ \\text{or}\\ x>5\\}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.2",
+    "12.6.3.9"
+   ],
+   "question": "Which of the following diagrams best represents a standardised normally distributed dataset with the interquartile range shaded?",
+   "answer": "The interquartile range contains the middle $50\\%$ of the data. For a standard normal distribution this is about $-0.67<z<0.67$, i.e. a region narrower than $\\pm1$ standard deviation (which would contain about $68\\%$). Only diagram A shades such a narrow, symmetric region (A).",
+   "options": [
+    "Diagram A",
+    "Diagram B",
+    "Diagram C",
+    "Diagram D"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/adv-2025-fort-st/q7.png"
+   ]
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.5",
+    "12.4.8.3"
+   ],
+   "question": "The area enclosed by the function $y=x(x-1)(2-x)$ and the $x$-axis can be described as:",
+   "answer": "The curve crosses the $x$-axis at $x=0,1,2$. For $0<x<1$: $x>0$, $x-1<0$, $2-x>0$, so $y<0$ (below the axis). For $1<x<2$ all three factors are positive, so $y>0$. The area is the positive value of each part: $-\\int_0^1y\\,dx+\\int_1^2y\\,dx$ (D).",
+   "options": [
+    "$-\\displaystyle\\int_0^2x(x-1)(2-x)\\,dx$",
+    "$\\displaystyle\\int_0^1x(x-1)(2-x)\\,dx-\\int_1^2x(x-1)(2-x)\\,dx$",
+    "$\\displaystyle\\int_0^2x(x-1)(2-x)\\,dx$",
+    "$-\\displaystyle\\int_0^1x(x-1)(2-x)\\,dx+\\int_1^2x(x-1)(2-x)\\,dx$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.5.3",
+    "11.4.5.2"
+   ],
+   "question": "The displacement of a car from a reference point along a straight road that runs east–west is $x$ kilometres. The car is initially $100$ metres east of the reference point. The graph below shows the displacement of the car at time $t$ seconds. When the car is at point $P$, which statement reflects its motion?",
+   "answer": "At $P$ the displacement is decreasing (the gradient is negative), so the velocity is negative: the car is moving west (towards the reference point and beyond). The graph is concave down at $P$, so the acceleration is negative as well; velocity and acceleration have the same sign, so the speed is increasing (B).",
+   "options": [
+    "The car is moving east, and its speed is increasing.",
+    "The car is moving west, and its speed is increasing.",
+    "The car is moving east, and its speed is decreasing.",
+    "The car is moving west, and its speed is decreasing."
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/adv-2025-fort-st/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.11.5",
+    "11.2.3.5"
+   ],
+   "question": "Which of the following functions has a period of $\\dfrac\\pi2$ and is increasing in the domain $\\left(\\dfrac\\pi4,\\dfrac\\pi2\\right)$?",
+   "answer": "$\\sin|x|$ and $\\cos|x|$ have period $2\\pi$, so A and C are out. $|\\sin2x|$ and $|\\cos2x|$ both have period $\\dfrac\\pi2$. For $\\dfrac\\pi4<x<\\dfrac\\pi2$, $\\pi/2<2x<\\pi$: $\\sin2x$ falls from $1$ to $0$ (so $|\\sin2x|$ is decreasing), while $\\cos2x$ goes from $0$ to $-1$ so $|\\cos2x|$ rises from $0$ to $1$ (increasing) (D).",
+   "options": [
+    "$f(x)=\\sin|x|$",
+    "$f(x)=|\\sin(2x)|$",
+    "$f(x)=\\cos|x|$",
+    "$f(x)=|\\cos(2x)|$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.2"
+   ],
+   "question": "Find an expression, in simplest form, for the general term of the arithmetic series $257+246+235+\\cdots$",
+   "answer": "$a=257$, $d=246-257=-11$.\n$$T_n=a+(n-1)d=257-11(n-1)=268-11n$$"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.2"
+   ],
+   "question": "Find the $125$th term of the series $257+246+235+\\cdots$",
+   "answer": "$T_{125}=268-11(125)=-1107$"
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "A discrete random variable $X$ has the probability distribution table below.\n\n| $X=x$ | 5 | 10 | 15 | 20 |\n|---|---|---|---|---|\n| $P(x)$ | 0.1 | 0.25 | $n$ | 0.35 |\n\nFind the value of $n$.",
+   "answer": "The probabilities sum to $1$: $0.1+0.25+n+0.35=1\\Rightarrow n=0.3$."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.6"
+   ],
+   "question": "(Distribution: $P(5)=0.1$, $P(10)=0.25$, $P(15)=0.3$, $P(20)=0.35$.) Find the expected value $E(X)$.",
+   "answer": "$$E(X)=\\sum xP(x)=5(0.1)+10(0.25)+15(0.3)+20(0.35)=0.5+2.5+4.5+7=14.5$$"
+  },
+  {
+   "ref": "Q13",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.3.8"
+   ],
+   "question": "The shaded segment shown is formed by an arc $BC$ of a circle with radius $1.6$ m. The arc subtends an angle of $\\dfrac{4\\pi}9$ radians at its centre, $A$. Find the area of the shaded segment, correct to $3$ significant figures.",
+   "answer": "Segment area = sector area $-$ triangle area:\n$$A=\\tfrac12r^2\\theta-\\tfrac12r^2\\sin\\theta=\\tfrac12(1.6)^2\\left(\\frac{4\\pi}9-\\sin\\frac{4\\pi}9\\right)=1.28(1.3963-0.9848)\\approx0.527\\ \\text{m}^2$$",
+   "images": [
+    "assets/img/adv-2025-fort-st/q13.png"
+   ]
+  },
+  {
+   "ref": "Q14",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.2.9"
+   ],
+   "question": "Given $\\log_52=a$ and $\\log_53=b$, express $\\log_5\\left(\\dfrac{12}{\\sqrt2}\\right)$ in terms of $a$ and $b$.",
+   "answer": "$\\dfrac{12}{\\sqrt2}=6\\sqrt2=2\\cdot3\\cdot2^{1/2}=2^{3/2}\\cdot3$, so\n$$\\log_5\\left(2^{3/2}\\cdot3\\right)=\\tfrac32\\log_52+\\log_53=\\tfrac32a+b$$"
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.3.10"
+   ],
+   "question": "Differentiate $y=(3x^2-7)^6$ with respect to $x$.",
+   "answer": "Chain rule: $y'=6(3x^2-7)^5\\cdot6x=36x(3x^2-7)^5$."
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.3.9"
+   ],
+   "question": "Differentiate $y=\\dfrac{2x-1}{x+8}$ with respect to $x$.",
+   "answer": "Quotient rule with $u=2x-1$, $v=x+8$:\n$$y'=\\frac{2(x+8)-(2x-1)}{(x+8)^2}=\\frac{17}{(x+8)^2}$$"
+  },
+  {
+   "ref": "Q16",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.3.5",
+    "12.3.2.3"
+   ],
+   "question": "Find the equation of the tangent to the curve $y=x^3+\\ln x+5$ at the point $(1,6)$.",
+   "answer": "$y'=3x^2+\\dfrac1x$, so at $x=1$ the gradient is $m=3+1=4$. Tangent: $y-6=4(x-1)\\Rightarrow y=4x+2$."
+  },
+  {
+   "ref": "Q17",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.11",
+    "11.3.1.12"
+   ],
+   "question": "If $\\sin x=\\dfrac{\\sqrt5}5$, $0<x<\\dfrac\\pi2$, find the value of $\\sin^4x-\\cos^4x$.",
+   "answer": "$\\sin^4x-\\cos^4x=(\\sin^2x-\\cos^2x)(\\sin^2x+\\cos^2x)=\\sin^2x-\\cos^2x=2\\sin^2x-1$.\nWith $\\sin^2x=\\dfrac15$: $2\\left(\\dfrac15\\right)-1=-\\dfrac35$."
+  },
+  {
+   "ref": "Q18",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.10",
+    "11.3.1.5"
+   ],
+   "question": "Solve for $x$ where $0\\le x\\le2\\pi$: $\\operatorname{cosec}\\left(x+\\dfrac\\pi3\\right)=\\sqrt2$.",
+   "answer": "$\\sin\\left(x+\\dfrac\\pi3\\right)=\\dfrac1{\\sqrt2}$, and $\\dfrac\\pi3\\le x+\\dfrac\\pi3\\le\\dfrac{7\\pi}3$. Sine is positive in the first and second quadrants, so\n$$x+\\frac\\pi3=\\frac\\pi4\\ (\\text{rejected, below }\\tfrac\\pi3),\\ \\frac{3\\pi}4,\\ \\frac{9\\pi}4,\\ \\frac{11\\pi}4\\ (\\text{rejected, above }\\tfrac{7\\pi}3).$$\n$$x=\\frac{3\\pi}4-\\frac\\pi3=\\frac{5\\pi}{12}\\quad\\text{or}\\quad x=\\frac{9\\pi}4-\\frac\\pi3=\\frac{23\\pi}{12}$$"
+  },
+  {
+   "ref": "Q20",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.12",
+    "11.3.1.5"
+   ],
+   "question": "Show that $\\sec^2A\\equiv\\dfrac{\\operatorname{cosec}A}{\\operatorname{cosec}A-\\sin A}$.",
+   "answer": "Start with the right-hand side and multiply the numerator and denominator by $\\sin A$:\n$$\\text{RHS}=\\frac{\\operatorname{cosec}A}{\\operatorname{cosec}A-\\sin A}=\\frac{\\frac1{\\sin A}}{\\frac1{\\sin A}-\\sin A}=\\frac{1}{1-\\sin^2A}=\\frac1{\\cos^2A}=\\sec^2A=\\text{LHS}$$"
+  },
+  {
+   "ref": "Q21(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.4.11",
+    "11.1.1.2"
+   ],
+   "question": "Given $f(x)=x-2$ and $g(x)=(x+2)(x^2-4)$, find all points of intersection between $f(x)$ and $g(x)$.",
+   "answer": "Since $x^2-4=(x+2)(x-2)$, $g(x)=(x+2)^2(x-2)$. Setting $f(x)=g(x)$:\n$$x-2=(x+2)^2(x-2)\\Rightarrow(x-2)\\left[(x+2)^2-1\\right]=0$$\n$x=2$, or $(x+2)^2=1\\Rightarrow x+2=\\pm1\\Rightarrow x=-1$ or $x=-3$.\nThe points of intersection are $(2,0)$, $(-1,-3)$ and $(-3,-5)$."
+  },
+  {
+   "ref": "Q21(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.4.11"
+   ],
+   "question": "(Functions $f(x)=x-2$ and $g(x)=(x+2)(x^2-4)$.) Sketch the graphs of $f(x)$ and $g(x)$ on the same axes, showing all important features. (Do not find any stationary points.)",
+   "answer": "- $f(x)=x-2$ is a straight line with intercepts $(2,0)$ and $(0,-2)$.\n- $g(x)=(x+2)^2(x-2)$ is a cubic with a double root at $x=-2$ (it touches the $x$-axis and turns there), a single root at $x=2$, $y$-intercept $(0,-8)$, and positive leading coefficient (falls to $-\\infty$ on the left, rises to $+\\infty$ on the right).\n- They intersect at $(-3,-5)$, $(-1,-3)$ and $(2,0)$ (see graph).",
+   "answer_images": [
+    "assets/img/adv-2025-fort-st/a21b.png"
+   ]
+  },
+  {
+   "ref": "Q21(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.11",
+    "11.1.4.8"
+   ],
+   "question": "(Functions $f(x)=x-2$ and $g(x)=(x+2)(x^2-4)$.) Hence, or otherwise, solve the inequality $x-2<(x+2)(x^2-4)$.",
+   "answer": "The inequality holds where the graph of $g$ is above the line $f$: between the first two intersection points and to the right of the last one:\n$$-3<x<-1\\quad\\text{or}\\quad x>2.$$"
+  },
+  {
+   "ref": "Q22(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.6"
+   ],
+   "question": "A company produces resistors with resistance being normally distributed ($\\mu=50\\ \\Omega$, $\\sigma=2\\ \\Omega$). Resistors below $48\\ \\Omega$ or exceeding $52\\ \\Omega$ are defective. Find the percentage of defective resistors.",
+   "answer": "$48$ and $52$ are one standard deviation below and above the mean. By the empirical rule, about $68\\%$ lie within one standard deviation, so $100\\%-68\\%=32\\%$ are defective."
+  },
+  {
+   "ref": "Q22(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.3.6"
+   ],
+   "question": "(Resistance normally distributed with $\\mu=50\\ \\Omega$, $\\sigma=2\\ \\Omega$; $32\\%$ defective.) In a batch of $1000$ resistors, how many are expected to be non-defective?",
+   "answer": "$1000\\times(1-0.32)=680$ resistors."
+  },
+  {
+   "ref": "Q23(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.3.8",
+    "12.3.3.3"
+   ],
+   "question": "Show that $\\dfrac{d}{dx}\\left(e^x\\tan x\\right)=e^x\\left(\\tan^2x+\\tan x+1\\right)$.",
+   "answer": "Product rule with $u=e^x$, $v=\\tan x$ ($u'=e^x$, $v'=\\sec^2x$):\n$$\\frac{d}{dx}(e^x\\tan x)=e^x\\sec^2x+e^x\\tan x=e^x(\\sec^2x+\\tan x)=e^x(\\tan^2x+1+\\tan x)$$\nusing $\\sec^2x=\\tan^2x+1$."
+  },
+  {
+   "ref": "Q23(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.1",
+    "12.4.4.1"
+   ],
+   "question": "Hence evaluate $\\displaystyle\\int_0^{\\pi/3}e^x\\left(\\tan^2x+\\tan x+1\\right)dx$.",
+   "answer": "By part (a), $e^x\\tan x$ is a primitive of the integrand:\n$$\\int_0^{\\pi/3}e^x(\\tan^2x+\\tan x+1)dx=\\Big[e^x\\tan x\\Big]_0^{\\pi/3}=e^{\\pi/3}\\tan\\frac\\pi3-e^0\\tan0=\\sqrt3\\,e^{\\pi/3}$$"
+  },
+  {
+   "ref": "Q24(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.6.1.6",
+    "11.1.2.9"
+   ],
+   "question": "The figure below shows the graph of a curve with equation $y=f(x)$. The curve meets the $x$-axis at $(-3,0)$ and the $y$-axis at $(0,2)$. Its maximum point is at $(3,4)$ and a minimum at $(-3,0)$. The line $y=2$ is a horizontal asymptote to the curve. What is the range of $\\tfrac12f(x)$?",
+   "answer": "The range of $f(x)$ is $[0,4]$ (from the minimum $0$ to the maximum $4$). A vertical dilation by $\\tfrac12$ halves every $y$-value, so the range of $\\tfrac12f(x)$ is $[0,2]$.",
+   "images": [
+    "assets/img/adv-2025-fort-st/q24.png"
+   ]
+  },
+  {
+   "ref": "Q24(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.6.1.6",
+    "11.6.1.10"
+   ],
+   "question": "(Curve $y=f(x)$ as in part (a): $x$-intercept and minimum $(-3,0)$, $y$-intercept $(0,2)$, maximum $(3,4)$, horizontal asymptote $y=2$.) Sketch the graph of $g(x)=f(3x)-4$, labelling all key points and asymptotes.",
+   "answer": "$f(3x)$ is a horizontal dilation by a factor of $\\tfrac13$ (the $x$-coordinates are divided by $3$); $-4$ is a translation down $4$ units. So:\n- minimum $(-3,0)\\to(-1,-4)$;\n- $y$-intercept $(0,2)\\to(0,-2)$;\n- maximum $(3,4)\\to(1,0)$;\n- horizontal asymptote $y=2\\to y=-2$ (the curve approaches it from below on the left and above on the right) (see graph).",
+   "answer_images": [
+    "assets/img/adv-2025-fort-st/a24b.png"
+   ]
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.2.5",
+    "11.7.2.6"
+   ],
+   "question": "Events $A$ and $B$ are such that $P(A)=\\dfrac{3k}4$, $P(B)=k$ and $P(\\overline A\\cap B)=k^2$ where $0<k<1$. Find the expression for $P(A\\cap B)$ in terms of $k$.",
+   "answer": "$B$ is split into the part inside $A$ and the part outside $A$: $P(B)=P(A\\cap B)+P(\\overline A\\cap B)$, so\n$$P(A\\cap B)=k-k^2.$$"
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.7.3.6",
+    "11.7.3.8"
+   ],
+   "question": "(Events $A$, $B$ with $P(A)=\\tfrac{3k}4$, $P(B)=k$, $P(\\overline A\\cap B)=k^2$, $0<k<1$, so $P(A\\cap B)=k-k^2$.) Given that the two events are independent, find the value of $k$.",
+   "answer": "For independent events $P(A\\cap B)=P(A)P(B)$:\n$$k-k^2=\\frac{3k}4\\cdot k\\Rightarrow1-k=\\frac{3k}4\\ (k\\ne0)\\Rightarrow4-4k=3k\\Rightarrow k=\\frac47$$\n(The other root of $k(7k-4)=0$ is $k=0$, which is rejected since $0<k<1$.)"
+  },
+  {
+   "ref": "Q26(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.6",
+    "12.4.4.3"
+   ],
+   "question": "The amount of time for Opstra Telecom to respond to a customer query follows the probability density function\n$$f(x)=\\begin{cases}\\dfrac{k}{(5x-1)^2}&x\\ge1\\\\0&0<x<1\\end{cases}$$\nwhere $x$ is time in hours. Show that $k=20$.",
+   "answer": "The total area under a PDF is $1$:\n$$\\int_1^\\infty\\frac k{(5x-1)^2}dx=k\\left[-\\frac1{5(5x-1)}\\right]_1^\\infty=k\\left(0+\\frac1{5(4)}\\right)=\\frac k{20}=1\\Rightarrow k=20.$$"
+  },
+  {
+   "ref": "Q26(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.2.11",
+    "12.6.2.7"
+   ],
+   "question": "(PDF $f(x)=\\dfrac{20}{(5x-1)^2}$ for $x\\ge1$, and $0$ for $0<x<1$; $x$ in hours.) Calculate the median response time.",
+   "answer": "Let the median be $m$, so $\\displaystyle\\int_1^m\\frac{20}{(5x-1)^2}dx=\\frac12$:\n$$20\\left[-\\frac1{5(5x-1)}\\right]_1^m=4\\left(\\frac14-\\frac1{5m-1}\\right)=1-\\frac4{5m-1}=\\frac12\\Rightarrow5m-1=8\\Rightarrow m=\\frac95=1.8\\ \\text{hours}.$$"
+  },
+  {
+   "ref": "Q26(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.7"
+   ],
+   "question": "(PDF $f(x)=\\dfrac{20}{(5x-1)^2}$ for $x\\ge1$, and $0$ for $0<x<1$; $x$ in hours.) What is the probability that the company spends more than $2$ hours but less than $3$ hours to respond to the customer query?",
+   "answer": "$$P(2<X<3)=\\int_2^3\\frac{20}{(5x-1)^2}dx=\\left[-\\frac4{5x-1}\\right]_2^3=-\\frac4{14}+\\frac49=\\frac49-\\frac27=\\frac{10}{63}$$"
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.10"
+   ],
+   "question": "The velocity of a particle is given by $\\dot x(t)=8t^3e^{t^4}$, where $\\dot x(t)$ is velocity in metres per second and $t$ is time in seconds. Initially, the particle is at the origin. Determine the time(s) the particle is at rest.",
+   "answer": "The particle is at rest when $\\dot x=0$: $8t^3e^{t^4}=0$. Since $e^{t^4}>0$ for all $t$, this requires $t=0$. The particle is at rest only at $t=0$ (initially)."
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.9",
+    "12.5.3.10"
+   ],
+   "question": "(Velocity $\\dot x(t)=8t^3e^{t^4}$ m/s; initially the particle is at the origin.) Show that the displacement function is $x(t)=2e^{t^4}-2$.",
+   "answer": "$$x(t)=\\int8t^3e^{t^4}dt=2\\int4t^3e^{t^4}dt=2e^{t^4}+C$$\nInitially $x(0)=0$: $2e^0+C=0\\Rightarrow C=-2$. Hence $x(t)=2e^{t^4}-2$."
+  },
+  {
+   "ref": "Q27(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.10"
+   ],
+   "question": "(Displacement $x(t)=2e^{t^4}-2$ metres.) At what time does the particle reach a displacement of $100$ metres? Give your answer to $2$ decimal places.",
+   "answer": "$$2e^{t^4}-2=100\\Rightarrow e^{t^4}=51\\Rightarrow t^4=\\ln51\\Rightarrow t=(\\ln51)^{1/4}\\approx1.41\\ \\text{seconds}$$"
+  },
+  {
+   "ref": "Q28(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.3.14",
+    "12.6.3.10"
+   ],
+   "question": "The mass of oranges at Fruit King farm is normally distributed with mean $\\mu$ and standard deviation $\\sigma$. It is known that $25.78\\%$ of these oranges have mass more than $190$ g and $34.46\\%$ of them have mass more than $180$ g. Using the table of $z$-scores below, find the mean $\\mu$ and standard deviation $\\sigma$.\n\n| $z$ | 0.35 | 0.4 | 0.45 | 0.5 | 0.55 | 0.6 | 0.65 | 0.7 | 0.75 |\n|---|---|---|---|---|---|---|---|---|---|\n| Probability | 0.6368 | 0.6554 | 0.6736 | 0.6915 | 0.7088 | 0.7257 | 0.7422 | 0.7580 | 0.7734 |\n\n(The table gives $P(Z<z)$.)",
+   "answer": "$P(X<190)=1-0.2578=0.7422$, which the table gives as $z=0.65$:\n$$\\frac{190-\\mu}{\\sigma}=0.65\\quad(1)$$\n$P(X<180)=1-0.3446=0.6554$, which gives $z=0.4$:\n$$\\frac{180-\\mu}{\\sigma}=0.4\\quad(2)$$\nSubtracting (2) from (1): $\\dfrac{10}\\sigma=0.25\\Rightarrow\\sigma=40$. Then $180-\\mu=0.4(40)=16\\Rightarrow\\mu=164$.\n\nThe mean is $164$ g and the standard deviation is $40$ g."
+  },
+  {
+   "ref": "Q28(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.6.3.13",
+    "11.7.3.4"
+   ],
+   "question": "(Orange masses are normally distributed with $\\mu=164$ g and $\\sigma=40$ g; $P(Z<0.75)=0.7734$ and $P(X<180)=0.6554$.) Two oranges from Fruit King farm are chosen at random. Given that the mass of both oranges is greater than $180$ grams, what is the probability that both of them have a mass less than $194$ g? Give your answer as a percentage to $2$ decimal places.",
+   "answer": "For $194$ g: $z=\\dfrac{194-164}{40}=0.75$, so $P(X<194)=0.7734$.\n\nFor one orange:\n$$P(X<194\\mid X>180)=\\frac{P(180<X<194)}{P(X>180)}=\\frac{0.7734-0.6554}{0.3446}=0.3424$$\nThe oranges are chosen independently, so\n$$P(\\text{both}<194\\mid\\text{both}>180)=(0.3424)^2=0.1173=11.73\\%$$"
+  },
+  {
+   "ref": "Q29(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.8"
+   ],
+   "question": "As shown in the diagram, a sequence of squares is inscribed within a right-angled triangle $ABC$, where $AB=a$, $BC=2a$ and $\\angle ABC=90^\\circ$. The squares are arranged such that each square touches the hypotenuse $AC$, and the side length is labelled as $a_1,a_2,\\ldots,a_n$. By considering similar triangles, show that $a_1=\\dfrac23a$.",
+   "answer": "The small triangle above the first square (with vertical side $a-a_1$ and horizontal side $a_1$) is similar to triangle $ABC$ (vertical side $a$, horizontal side $2a$). So\n$$\\frac{a-a_1}{a_1}=\\frac{a}{2a}=\\frac12\\Rightarrow2a-2a_1=a_1\\Rightarrow a_1=\\frac23a.$$",
+   "images": [
+    "assets/img/adv-2025-fort-st/q29.png"
+   ]
+  },
+  {
+   "ref": "Q29(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.3.1",
+    "12.2.3.8"
+   ],
+   "question": "(Squares of side $a_1,a_2,\\ldots$ inscribed in right-angled triangle $ABC$ with $AB=a$, $BC=2a$, as in part (a), with $a_1=\\tfrac23a$.) Show that the areas of the squares form a geometric sequence. State the common ratio.",
+   "answer": "The remaining triangle above each square is similar to the one before it with the same ratio, so each square is $\\tfrac23$ the side of the previous one: $a_2=\\tfrac23a_1$, $a_3=\\tfrac23a_2,\\ldots$ (the same argument as in part (a) applies to each smaller triangle).\nAreas: $A_1=a_1^2=\\tfrac49a^2$, $A_2=a_2^2=\\left(\\tfrac23a_1\\right)^2=\\tfrac49A_1$, $A_3=\\tfrac49A_2,\\ldots$ Each area is $\\tfrac49$ of the one before, so the areas form a geometric sequence with common ratio $r=\\dfrac49$.",
+   "images": [
+    "assets/img/adv-2025-fort-st/q29.png"
+   ]
+  },
+  {
+   "ref": "Q29(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.7"
+   ],
+   "question": "(The areas of the squares form a geometric sequence with first term $A_1=\\tfrac49a^2$ and common ratio $\\tfrac49$.) Find, in terms of $a$, the total sum of the areas of all the squares.",
+   "answer": "Since $|r|=\\tfrac49<1$ the series converges:\n$$S_\\infty=\\frac{A_1}{1-r}=\\frac{\\frac49a^2}{1-\\frac49}=\\frac{\\frac49a^2}{\\frac59}=\\frac45a^2$$"
+  },
+  {
+   "ref": "Q30(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.4",
+    "11.4.3.8"
+   ],
+   "question": "Let $f(x)=(x+1)e^x$. Show that $f''(x)=(x+3)e^x$.",
+   "answer": "Product rule: $f'(x)=e^x+(x+1)e^x=(x+2)e^x$. Again: $f''(x)=e^x+(x+2)e^x=(x+3)e^x$."
+  },
+  {
+   "ref": "Q30(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.1.4",
+    "12.5.1.6",
+    "12.5.1.8"
+   ],
+   "question": "(Function $f(x)=(x+1)e^x$, with $f'(x)=(x+2)e^x$ and $f''(x)=(x+3)e^x$.) Find any stationary points of $f(x)$, determine their nature, and find any points of inflection.",
+   "answer": "**Stationary points:** $f'(x)=0\\Rightarrow(x+2)e^x=0\\Rightarrow x=-2$ (as $e^x>0$). $f(-2)=-e^{-2}$. Since $f''(-2)=e^{-2}>0$, the point $(-2,-e^{-2})$ is a local minimum.\n\n**Inflection:** $f''(x)=0\\Rightarrow x=-3$. $f''$ changes sign there ($f''<0$ for $x<-3$ and $f''>0$ for $x>-3$), so there is a point of inflection at $(-3,-2e^{-3})$."
+  },
+  {
+   "ref": "Q30(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.9"
+   ],
+   "question": "(Function $f(x)=(x+1)e^x$.) Sketch the curve $f(x)$, labelling any stationary points, points of inflection and intercepts with the $x$-axis and the $y$-axis.",
+   "answer": "Key features: $y$-intercept $(0,1)$; $x$-intercept $(-1,0)$; local minimum $(-2,-e^{-2})$; point of inflection $(-3,-2e^{-3})$; as $x\\to-\\infty$, $f(x)\\to0^-$ (the $x$-axis is a horizontal asymptote); as $x\\to\\infty$, $f(x)\\to\\infty$ (see graph).",
+   "answer_images": [
+    "assets/img/adv-2025-fort-st/a30c.png"
+   ]
+  },
+  {
+   "ref": "Q31(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.4.9"
+   ],
+   "question": "Consider the two curves $L_1$: $y=-x^2+1$ for $0\\le x\\le1$ and $L_2$: $y=ax^2$ for $x\\ge0$. The diagram below shows the area enclosed by these two curves and the $x$- and $y$-axes. Show that the two curves intersect at the point $\\left(\\sqrt{\\dfrac1{1+a}},\\dfrac a{1+a}\\right)$.",
+   "answer": "Equating the curves: $-x^2+1=ax^2\\Rightarrow(1+a)x^2=1\\Rightarrow x^2=\\dfrac1{1+a}$. Since $x\\ge0$, $x=\\sqrt{\\dfrac1{1+a}}$. Then $y=ax^2=\\dfrac a{1+a}$.",
+   "images": [
+    "assets/img/adv-2025-fort-st/q31.png"
+   ]
+  },
+  {
+   "ref": "Q31(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.4.8.5",
+    "12.4.8.4"
+   ],
+   "question": "(Curves $L_1$: $y=1-x^2$ and $L_2$: $y=ax^2$ ($a>0$), meeting at $x=\\dfrac1{\\sqrt{1+a}}$. $S_1$ is the region between the two curves, to the left of the intersection; $S_2$ is the region below both curves.) Find the value of $a$ such that the areas of the two regions are equal.",
+   "answer": "The total area under $L_1$ from $0$ to $1$ is $\\displaystyle\\int_0^1(1-x^2)dx=\\tfrac23$. If $S_1=S_2$ then each is $\\tfrac13$.\n\nLet $c=\\dfrac1{\\sqrt{1+a}}$. Then\n$$S_1=\\int_0^c\\left(1-x^2-ax^2\\right)dx=\\int_0^c\\left(1-(1+a)x^2\\right)dx=c-\\frac{(1+a)c^3}3=c-\\frac c3=\\frac{2c}3$$\n(using $(1+a)c^2=1$). Setting $S_1=\\tfrac13$: $\\dfrac{2c}3=\\dfrac13\\Rightarrow c=\\dfrac12\\Rightarrow\\sqrt{1+a}=2\\Rightarrow a=3$.\n\n(The school's three methods all lead to $(1+a)^2(a-3)=0$; $a=-1$ is rejected as $a>0$.)"
+  },
+  {
+   "ref": "Q32(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.1.2"
+   ],
+   "question": "The diagram shows four scenic points located at the vertices of the trapezium $ABCD$. It is given that $AD=BC$, the distance between points $A$ and $B$ is $4$ kilometres, the distance between points $C$ and $D$ is $2$ km, and $\\angle DAB=\\angle CBA=60^\\circ$. A new lookout point, $P$, is to be constructed on segment $CD$ (excluding endpoints), with direct walking tracks built from $P$ to $A$ and from $P$ to $C$. The construction cost is $\\$100\\,000$ per km for track $AP$ and $\\$80\\,000$ per km for track $PC$. Let $\\angle BAP=\\theta$. Show that $AP=\\dfrac{\\sqrt3}{\\sin\\theta}$.",
+   "answer": "Drop perpendiculars from $D$ and $C$ to $AB$, meeting it at $E$ and $F$. The trapezium is isosceles, so $AE=BF=\\dfrac{4-2}2=1$ km. In $\\triangle ADE$: $\\tan60^\\circ=\\dfrac h1\\Rightarrow h=\\sqrt3$ km (the height of the trapezium). Drop a perpendicular from $P$ to $AB$ (meeting it at $H$); $PH=h=\\sqrt3$. In $\\triangle APH$: $\\sin\\theta=\\dfrac{\\sqrt3}{AP}\\Rightarrow AP=\\dfrac{\\sqrt3}{\\sin\\theta}$.",
+   "images": [
+    "assets/img/adv-2025-fort-st/q32.png"
+   ]
+  },
+  {
+   "ref": "Q32(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.1.2"
+   ],
+   "question": "(Trapezium $ABCD$: $AB=4$ km, $CD=2$ km, $AD=BC$, base angles $60^\\circ$, height $\\sqrt3$ km; $P$ on $CD$ with $\\angle BAP=\\theta$.) Find a similar expression for $DP$ in terms of $\\theta$.",
+   "answer": "In $\\triangle APH$: $\\tan\\theta=\\dfrac{\\sqrt3}{AH}\\Rightarrow AH=\\dfrac{\\sqrt3}{\\tan\\theta}$. Since $DP=EH=AH-AE$,\n$$DP=\\frac{\\sqrt3}{\\tan\\theta}-1.$$"
+  },
+  {
+   "ref": "Q32(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.5.2.5"
+   ],
+   "question": "(Trapezium $ABCD$ with $AP=\\dfrac{\\sqrt3}{\\sin\\theta}$ km and $DP=\\dfrac{\\sqrt3}{\\tan\\theta}-1$ km; $CD=2$ km; track $AP$ costs $\\$100\\,000$ per km and track $PC$ costs $\\$80\\,000$ per km.) Find the value of $\\cos\\theta$ that minimises the total cost of constructing the two tracks.",
+   "answer": "$PC=CD-DP=2-\\left(\\dfrac{\\sqrt3}{\\tan\\theta}-1\\right)=3-\\dfrac{\\sqrt3}{\\tan\\theta}$. The total cost is\n$$C=100\\,000\\cdot\\frac{\\sqrt3}{\\sin\\theta}+80\\,000\\left(3-\\frac{\\sqrt3\\cos\\theta}{\\sin\\theta}\\right)$$\n$$\\frac{dC}{d\\theta}=\\frac{-100\\,000\\sqrt3\\cos\\theta}{\\sin^2\\theta}+\\frac{80\\,000\\sqrt3}{\\sin^2\\theta}=\\frac{\\sqrt3\\,(80\\,000-100\\,000\\cos\\theta)}{\\sin^2\\theta}$$\n(using $\\dfrac{d}{d\\theta}\\cot\\theta=-\\operatorname{cosec}^2\\theta$). Setting $\\dfrac{dC}{d\\theta}=0$: $\\cos\\theta=\\dfrac{80\\,000}{100\\,000}=\\dfrac45$ ($\\theta\\approx36.9^\\circ$, which lies between $30^\\circ$ and $60^\\circ$ as required for $P$ to be on $CD$).\n\nFor $\\theta<36.9^\\circ$, $\\dfrac{dC}{d\\theta}<0$ and for $\\theta>36.9^\\circ$, $\\dfrac{dC}{d\\theta}>0$ (since $\\cos\\theta$ decreases as $\\theta$ increases), so this is a minimum. The cost is minimised when $\\cos\\theta=\\dfrac45$."
+  }
+ ]
+}
