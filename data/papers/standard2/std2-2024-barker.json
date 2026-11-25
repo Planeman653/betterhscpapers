@@ -1,0 +1,839 @@
+{
+ "id": "std2-2024-barker",
+ "course": "standard2",
+ "school": "Barker",
+ "year": 2024,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5318",
+  "title": "Barker 2024 w. sol"
+ },
+ "indexed": "2026-11-25",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q19",
+   "reason": "Not in 2024 syllabus: limits of accuracy (upper and lower bounds of a measurement)"
+  },
+  {
+   "ref": "Q22(a)",
+   "reason": "Only asks to complete a printed probability tree diagram"
+  },
+  {
+   "ref": "Q24",
+   "reason": "Not in 2024 syllabus: Pareto charts"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "What is $56\\,842\\,110.6$ expressed in scientific notation, rounded to two significant figures?",
+   "options": [
+    "$5.6\\times10^{7}$",
+    "$5.7\\times10^{7}$",
+    "$5.68\\times10^{7}$",
+    "$5.68\\times10^{-7}$"
+   ],
+   "correct": "B",
+   "answer": "$56\\,842\\,110.6=5.68\\ldots\\times10^{7}$. Rounded to two significant figures this is $5.7\\times10^{7}$ (B). (C is to three significant figures.)"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.1.3"
+   ],
+   "question": "Which of the following could be the graph of $y=2x-1$?",
+   "options": [
+    "Graph A",
+    "Graph B",
+    "Graph C",
+    "Graph D"
+   ],
+   "correct": "C",
+   "answer": "The gradient is $2$ (positive, so the line rises to the right) and the $y$-intercept is $-1$. Only graph C has a positive gradient and a $y$-intercept of $-1$.",
+   "images": [
+    "assets/img/std2-2024-barker/q02.png"
+   ]
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.8.6.2"
+   ],
+   "question": "The box plot shows the ages of students attending an athletics carnival. What is the interquartile range of this dataset?",
+   "options": [
+    "4",
+    "5",
+    "11",
+    "16"
+   ],
+   "correct": "B",
+   "answer": "From the box plot, $Q_1=12$ and $Q_3=17$ (the minimum is $7$, the median $16$ and the maximum $18$). $\\text{IQR}=Q_3-Q_1=17-12=5$ (B).",
+   "images": [
+    "assets/img/std2-2024-barker/q03.png"
+   ]
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.6.1.1"
+   ],
+   "question": "Joni is on a yacht in Fiji ($18^\\circ$S, $178^\\circ$E) and sails to Guam ($13^\\circ$N, $145^\\circ$E). Which of the following best describes Joni's journey from Fiji to Guam?",
+   "options": [
+    "Joni sailed $5^\\circ$ north and $33^\\circ$ west",
+    "Joni sailed $5^\\circ$ north and $33^\\circ$ east",
+    "Joni sailed $31^\\circ$ north and $33^\\circ$ west",
+    "Joni sailed $31^\\circ$ north and $33^\\circ$ east"
+   ],
+   "correct": "C",
+   "answer": "Going from $18^\\circ$S to $13^\\circ$N crosses the equator: $18+13=31^\\circ$ north. Going from $178^\\circ$E to $145^\\circ$E decreases the longitude by $33^\\circ$, so the journey is $33^\\circ$ west (C)."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.6"
+   ],
+   "question": "David was studying the salamander population in the local forest. He caught and marked 20 salamanders and released them back into the forest. Later, he caught 40 salamanders, of which 5 were already marked. Based on the number he had already caught and marked, what is the most likely estimate for the salamander population in the forest?",
+   "options": [
+    "60 salamanders",
+    "100 salamanders",
+    "160 salamanders",
+    "200 salamanders"
+   ],
+   "correct": "C",
+   "answer": "Capture–recapture: $\\dfrac{\\text{marked}}{\\text{population}}=\\dfrac{\\text{marked in sample}}{\\text{sample}}$, so $\\dfrac{20}{N}=\\dfrac{5}{40}$ and $N=\\dfrac{20\\times40}{5}=160$ (C)."
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.2"
+   ],
+   "question": "Taylor bought a car for \\$32 000 in 2014 and sold it 10 years later in 2024. It depreciated according to the declining balance method at a rate of 6% per annum. By how much had the car depreciated, to the nearest dollar, when Taylor sold it?",
+   "options": [
+    "\\$14 764",
+    "\\$17 236",
+    "\\$19 200",
+    "\\$25 307"
+   ],
+   "correct": "A",
+   "answer": "$S=V_0(1-r)^n=32\\,000(0.94)^{10}=\\$17\\,236$ (to the nearest dollar), which is the value when sold. The depreciation is $32\\,000-17\\,236=\\$14\\,764$ (A). (B is the salvage value, not the amount of depreciation.)"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.9.1.7",
+    "12.9.1.5"
+   ],
+   "question": "The weather forecast for a certain week states that there is a 35% chance that it will rain on any particular day that week. What is the probability that it does NOT rain on the weekend (Saturday and Sunday)?",
+   "options": [
+    "0.1225",
+    "0.4225",
+    "0.5775",
+    "0.8775"
+   ],
+   "correct": "B",
+   "answer": "$P(\\text{no rain on a day})=1-0.35=0.65$. Assuming the days are independent, $P(\\text{no rain on both days})=0.65\\times0.65=0.4225$ (B)."
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.10"
+   ],
+   "question": "Saxon attempted to solve the equation $3-\\dfrac{x}{5}=7x$. After he finished, Saxon realised that the final answer that he had calculated was incorrect. His working is shown below.\n\n$$3-\\frac x5=7x$$\nLine 1: $15-x=35x$\nLine 2: $15=34x$\nLine 3: $x=\\dfrac{34}{15}$\n\nOn which line(s) did Saxon make a mistake?",
+   "options": [
+    "Line 1 only",
+    "Line 1 and line 3",
+    "Line 2 only",
+    "Line 2 and line 3"
+   ],
+   "correct": "D",
+   "answer": "Line 1 is correct (multiplying every term by $5$). In Line 2, adding $x$ to both sides gives $15=36x$, not $34x$: this is a mistake. Line 3 is also wrong, because dividing by $34$ gives $x=\\frac{15}{34}$, not $\\frac{34}{15}$. So the mistakes are in lines 2 and 3 (D). The correct answer is $x=\\frac{15}{36}=\\frac{5}{12}$."
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.12"
+   ],
+   "question": "Chad bought 430 shares in a biomedical company for a total cost of \\$5500. The dividend yield was 8.5%. What was the value of the dividend per share?",
+   "options": [
+    "\\$1.09",
+    "\\$1.27",
+    "\\$3.66",
+    "\\$4.68"
+   ],
+   "correct": "A",
+   "answer": "Total dividend $=8.5\\%\\times5500=\\$467.50$. Per share: $\\dfrac{467.50}{430}=\\$1.087\\ldots\\approx\\$1.09$ (A)."
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.2"
+   ],
+   "question": "Which of the following could be a possible graph of $y=k(a^x)$, where $k$ is greater than 1 and $a$ is between 0 and 1?",
+   "options": [
+    "Graph A",
+    "Graph B",
+    "Graph C",
+    "Graph D"
+   ],
+   "correct": "D",
+   "answer": "The $y$-intercept is $k$, which is greater than $1$, so graphs C and D (with intercept $1.5$) are possible rather than A and B (intercept $0.5$). Since $0<a<1$, the graph is decreasing (exponential decay). So the answer is D.",
+   "images": [
+    "assets/img/std2-2024-barker/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.8.2.4"
+   ],
+   "question": "Which of the following would most likely show a negative correlation?",
+   "options": [
+    "The hours spent training for a race and the time taken to complete the race.",
+    "The price of petrol and the number of people taking public transport to work.",
+    "The time a student spent studying for an exam and their final score.",
+    "The eye colour of a child and their favourite colour."
+   ],
+   "correct": "A",
+   "answer": "A negative correlation means that as one variable increases the other decreases. As the hours of training increase the time taken to complete the race decreases (A). B is a positive correlation (higher petrol prices mean more people use public transport), C is positive, and D has no correlation (both variables are categorical)."
+  },
+  {
+   "ref": "Q12",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.1",
+    "12.4.1.10"
+   ],
+   "question": "Karen is watching a bird at the top of a tree. Karen is $1.6$ m tall and is standing $8$ metres away from the tree, as shown in the diagram. If the angle of depression from the bird to Karen is $73^\\circ$, what is the height of the tree?",
+   "options": [
+    "2.45 m",
+    "4.05 m",
+    "26.17 m",
+    "27.77 m"
+   ],
+   "correct": "D",
+   "answer": "The angle of depression from the bird equals the angle of elevation from Karen's eye level to the bird, $73^\\circ$. Let $x$ be the height of the bird above Karen's eye level: $\\tan73^\\circ=\\dfrac{x}{8}$, so $x=8\\tan73^\\circ=26.17$ m. The height of the tree is $h=1.6+26.17=27.77$ m (D). (C forgets to add Karen's $1.6$ m.)",
+   "images": [
+    "assets/img/std2-2024-barker/q12.png"
+   ]
+  },
+  {
+   "ref": "Q13",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.1",
+    "12.6.1.3"
+   ],
+   "question": "Consider the network shown. The capacity of the cut shown (the dashed line) on the network is $40$. What is the value of $x$?",
+   "options": [
+    "5",
+    "15",
+    "16",
+    "19"
+   ],
+   "correct": "D",
+   "answer": "The capacity of a cut is the total capacity of the edges that cross the cut **from the source side to the sink side**. The edges crossing the cut in that direction are $11$, $x$ and $10$. The edge labelled $14$ crosses in the opposite direction (from the sink side back to the source side), so it is not counted. $11+x+10=40$, so $x=19$ (D).",
+   "images": [
+    "assets/img/std2-2024-barker/q13.png"
+   ]
+  },
+  {
+   "ref": "Q14",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.8.2.1"
+   ],
+   "question": "The student population at a school is shown in the table.\n\n| Year Group | 7 | 8 | 9 | 10 | 11 | 12 | Total |\n|---|---|---|---|---|---|---|---|\n| Number of Students | 118 | 154 | 161 | 195 | 140 | 132 | 900 |\n\nDr Chua, a statistician, wishes to survey 10% of the student population. He surveys an equal number of students in each year group. How would the number of students surveyed in Years 10 and 11 change if he had chosen to use a stratified sample?",
+   "options": [
+    "Increase in both Year 10 and Year 11 students",
+    "Decrease in both Year 10 and Year 11 students",
+    "Increase in Year 10 and decrease in Year 11 students",
+    "Decrease in Year 10 and increase in Year 11 students"
+   ],
+   "correct": "C",
+   "answer": "A 10% sample is $90$ students. With an equal number from each of $6$ year groups, $90\\div6=15$ students are surveyed from each year. In a stratified sample, the number from each year is proportional to its size: Year 10: $\\dfrac{195}{900}\\times90=19.5$ (an increase from $15$); Year 11: $\\dfrac{140}{900}\\times90=14$ (a decrease from $15$). So Year 10 increases and Year 11 decreases (C)."
+  },
+  {
+   "ref": "Q15",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.5",
+    "11.1.1.1"
+   ],
+   "question": "The graph shows income, in dollars, for a business that makes and sells picture frames (a straight line through $(0,0)$ reaching about \\$100 at 6.7 frames). The cost of making the picture frames is given by the formula $C=10n+20$, where $C$ is the cost and $n$ is the number of picture frames sold. If 6 picture frames are made and sold, which of the following statements is true?",
+   "options": [
+    "There is a profit of \\$10.",
+    "There is a loss of \\$10.",
+    "There is a profit of \\$90.",
+    "There is a loss of \\$80."
+   ],
+   "correct": "A",
+   "answer": "From the graph the income for 6 frames is \\$90 (the line passes through $(6,90)$, a rate of \\$15 per frame). The cost is $C=10(6)+20=\\$80$. Profit $=90-80=\\$10$ (A).",
+   "images": [
+    "assets/img/std2-2024-barker/q15.png"
+   ]
+  },
+  {
+   "ref": "Q16",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.2.3"
+   ],
+   "question": "The cost of a new clothes dryer is \\$499. The dryer uses 315 kWh of electricity per year and electricity is charged at 28.66 cents per kWh. What is the total cost of purchasing and running the dryer over three years?",
+   "answer": "Running cost for one year $=315\\times\\$0.2866=\\$90.28$. Over three years: $315\\times0.2866\\times3=\\$270.84$. Total cost $=499+270.84=\\$769.84$."
+  },
+  {
+   "ref": "Q17",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.8.8.2"
+   ],
+   "question": "The five number summary for the dataset representing heights of Year 12 students is shown.\n\n| Minimum | $Q_1$ | Median | $Q_3$ | Maximum |\n|---|---|---|---|---|\n| 154 cm | 172 cm | 175 cm | 182 cm | 189 cm |\n\nShow that the shortest person must be an outlier.",
+   "answer": "$\\text{IQR}=Q_3-Q_1=182-172=10$ cm. Lower fence $=Q_1-1.5\\times\\text{IQR}=172-1.5\\times10=157$ cm. The shortest person is $154$ cm, which is less than $157$ cm, so this height is an outlier."
+  },
+  {
+   "ref": "Q18",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.4"
+   ],
+   "question": "Ariel invested \\$500 for 6 years in an account with interest of 4% p.a., compounded six-monthly. What is the future value of this investment? Round your answer to the nearest cent.",
+   "answer": "Compounding twice a year for $6$ years gives $n=12$ periods at $r=\\dfrac{4\\%}{2}=2\\%$ per period. $FV=500(1.02)^{12}=\\$634.12$."
+  },
+  {
+   "ref": "Q20",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "Charles purchased a \\$560 printer for his home office five years ago. Based on the straight-line method of depreciation, the value of the printer now is \\$325. By how much did the printer depreciate each year?",
+   "answer": "$S=V_0-Dn$, so $325=560-5D$, giving $5D=235$ and $D=\\$47$. The printer depreciated by \\$47 each year."
+  },
+  {
+   "ref": "Q21",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.3",
+    "12.6.1.4"
+   ],
+   "question": "Consider the network diagram. The edges (with their capacities) are: Source → A (8), Source → E (5), A → B (10), E → A (7), B → C (9), E → D (1), D → C (3) and C → Sink (15).\n\nFind the minimum cut on the network and hence determine the maximum flow.",
+   "answer": "A cut separating $\\{\\text{Source},A,B,E\\}$ from $\\{C,D,\\text{Sink}\\}$ crosses the edges $B\\to C$ (9) and $E\\to D$ (1). Its capacity is $9+1=10$. (The edge $D\\to C$ lies entirely on the sink side and is not counted.) No cut has a smaller capacity (for example the cut round the source has capacity $8+5=13$ and the cut round the sink has capacity $15$), so this is the minimum cut.\n\nBy the maximum-flow minimum-cut theorem, the maximum flow is $9+1=10$.",
+   "images": [
+    "assets/img/std2-2024-barker/q21.png"
+   ]
+  },
+  {
+   "ref": "Q22(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.9.1.5",
+    "12.9.1.7"
+   ],
+   "question": "A bag contains 3 white, 7 red and 2 purple marbles. Sally takes two marbles from the bag, without replacement. Find the probability that at least ONE of the marbles is red.",
+   "answer": "There are $12$ marbles, $7$ red and $5$ not red. $P(\\text{no red})=\\dfrac{5}{12}\\times\\dfrac{4}{11}=\\dfrac{20}{132}=\\dfrac{5}{33}$. $P(\\text{at least one red})=1-\\dfrac{5}{33}=\\dfrac{28}{33}$."
+  },
+  {
+   "ref": "Q23",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.2"
+   ],
+   "question": "Jonah worked as a cashier. In one week, he worked 38 hours normal time, three hours time-and-a-half and 2 hours double time. If he was paid \\$999.75 for that week, what is his hourly rate of pay?",
+   "answer": "Let the hourly rate be $x$. Pay $=38x+3(1.5x)+2(2x)=38x+4.5x+4x=46.5x$. $46.5x=999.75$, so $x=\\dfrac{999.75}{46.5}=\\$21.50$ per hour."
+  },
+  {
+   "ref": "Q25",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.10"
+   ],
+   "question": "Solve $x+\\dfrac{x+1}{3}=8$.",
+   "answer": "Multiply every term by $3$: $3x+x+1=24$, so $4x=23$ and $x=\\dfrac{23}{4}=5.75$."
+  },
+  {
+   "ref": "Q26",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.1",
+    "11.5.2.2"
+   ],
+   "question": "Two right-angled triangles, $ABC$ (right angle at $B$) and $ADC$ (right angle at $D$), are shown, with $AB=5.7$ cm, $AD=3.5$ cm and $DC=8$ cm. Calculate the size of angle $\\theta$ ($\\angle BAC$), correct to the nearest minute.",
+   "answer": "In $\\triangle ADC$, by Pythagoras, $AC^2=3.5^2+8^2=76.25$, so $AC=8.7321\\ldots$ cm. In $\\triangle ABC$, $\\cos\\theta=\\dfrac{AB}{AC}=\\dfrac{5.7}{8.7321\\ldots}$, so $\\theta=\\cos^{-1}(0.6527\\ldots)=49.25^\\circ\\approx49^\\circ15'$.",
+   "images": [
+    "assets/img/std2-2024-barker/q26.png"
+   ]
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.4.4"
+   ],
+   "question": "The brightness ($B$, in lumens) of a torch beam varies inversely with the distance ($d$, in metres) from the torch. The brightness of a torch beam 50 m from a torch was 16 lumens. Find the value of $k$, the constant of variation for this scenario.",
+   "answer": "Inverse variation: $B=\\dfrac{k}{d}$. Substituting $B=16$ and $d=50$: $16=\\dfrac{k}{50}$, so $k=800$."
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.4.5"
+   ],
+   "question": "The brightness ($B$, in lumens) of a torch beam varies inversely with the distance ($d$, in metres) from the torch, with $B=\\dfrac{800}{d}$. How far from the torch would the beam have a brightness of 40 lumens?",
+   "answer": "$40=\\dfrac{800}{d}$, so $d=\\dfrac{800}{40}=20$ m."
+  },
+  {
+   "ref": "Q28",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.8",
+    "11.5.1.7"
+   ],
+   "question": "The table shows the average energy used, in kilojoules per kilogram of body mass, by a person walking for 30 minutes at different speeds.\n\n| Walking speed | Energy used in 30 min |\n|---|---|\n| 4 km/h | 5.64 kJ/kg |\n| 6 km/h | 7.48 kJ/kg |\n\nSteve, who weighs 75 kg, ate a cheeseburger containing 1808 kJ of energy. How long must he walk at 4 km/h to burn off the energy contained in the cheeseburger? Round to the nearest minute.",
+   "answer": "Energy used by Steve in 30 minutes at 4 km/h $=75\\times5.64=423$ kJ. Time needed $=\\dfrac{1808}{423}\\times30=128.2\\ldots$ minutes, so he must walk for about $128$ minutes (2 hours 8 minutes)."
+  },
+  {
+   "ref": "Q29",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.2.6"
+   ],
+   "question": "The diagram shows the cross-section of a river, which is $38.2$ m wide. The depths at the left bank, the middle and the right bank are $1.2$ m, $3.5$ m and $2.3$ m respectively. Use two applications of the trapezoidal rule to estimate the area of the cross-section of the river, correct to the nearest square metre.",
+   "answer": "Two applications use two strips, each $\\dfrac{38.2}{2}=19.1$ m wide. $A\\approx\\dfrac{19.1}{2}(1.2+3.5)+\\dfrac{19.1}{2}(3.5+2.3)=44.885+55.39=100.275$, so the area is about $100\\ \\text{m}^2$.",
+   "images": [
+    "assets/img/std2-2024-barker/q29.png"
+   ]
+  },
+  {
+   "ref": "Q30(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.2.6"
+   ],
+   "question": "A school collects bivariate data of students' marks in a Maths test ($x$, out of 40) and an English essay ($y$, out of 30). The scatterplot shows the results: $(20,30)$, $(24,25)$, $(28,20)$, $(30,25)$, $(36,20)$ and $(36,15)$.\n\nCalculate Pearson's correlation coefficient for the data, rounding to 2 decimal places.",
+   "answer": "Using the statistics mode on a calculator with the six data pairs, $r=-0.8615\\ldots\\approx-0.86$.",
+   "images": [
+    "assets/img/std2-2024-barker/q30.png"
+   ]
+  },
+  {
+   "ref": "Q30(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.2.4"
+   ],
+   "question": "A school collects bivariate data of students' marks in a Maths test ($x$, out of 40) and an English essay ($y$, out of 30). The scatterplot shows the results: $(20,30)$, $(24,25)$, $(28,20)$, $(30,25)$, $(36,20)$ and $(36,15)$.\n\nIdentify the direction and strength of the relationship between the Maths marks and the English marks.",
+   "answer": "Since $r=-0.86$ is negative, the relationship has a negative direction (as the Maths mark increases the English mark tends to decrease). Since $|r|=0.86$ is between $0.75$ and $1$, the relationship is strong. So there is a strong negative correlation.",
+   "images": [
+    "assets/img/std2-2024-barker/q30.png"
+   ]
+  },
+  {
+   "ref": "Q30(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.2.7"
+   ],
+   "question": "A school collects bivariate data of students' marks in a Maths test ($x$, out of 40) and an English essay ($y$, out of 30). The scatterplot shows the results: $(20,30)$, $(24,25)$, $(28,20)$, $(30,25)$, $(36,20)$ and $(36,15)$.\n\nFind the equation of the least-squares regression line of best fit for this data.",
+   "answer": "Using the calculator (statistics mode) for the six data pairs: gradient $m=-0.70$ and $y$-intercept $c=42.91$, so $y=-0.70x+42.91$.",
+   "images": [
+    "assets/img/std2-2024-barker/q30.png"
+   ]
+  },
+  {
+   "ref": "Q30(d)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.2.9"
+   ],
+   "question": "A school collects bivariate data of students' marks in a Maths test ($x$, out of 40) and an English essay ($y$, out of 30). The scatterplot shows the results: $(20,30)$, $(24,25)$, $(28,20)$, $(30,25)$, $(36,20)$ and $(36,15)$.\n\nThe least-squares regression line is $y=-0.70x+42.91$. Predict the English result of a student who received a mark of 26 in their Maths test. Round your answer to the nearest whole number.",
+   "answer": "$y=-0.70(26)+42.91=24.71\\approx25$. (Using the unrounded line gives $24.6$, which is also $25$ to the nearest whole number.) The predicted English mark is $25$. This is interpolation, since $26$ lies within the range of the data.",
+   "images": [
+    "assets/img/std2-2024-barker/q30.png"
+   ]
+  },
+  {
+   "ref": "Q31",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.5",
+    "12.2.4.4"
+   ],
+   "question": "Jennifer has a credit card with the following conditions:\n\n- There is no interest-free period.\n- Interest is charged at the end of each month at 19.5% p.a., compounded daily.\n- The date of purchase and end of month are included in interest calculations.\n\nJennifer's credit card statement for October is shown below.\n\n| Date | Details | Amount (\\$) |\n|---|---|---|\n| 1 Oct | Opening Balance | 245.62 |\n| 21 Oct | 99 Bikes, Pennant Hills | 699.00 |\n| 31 Oct | Closing Balance (incl interest) | *** |\n\nWhat is Jennifer's closing balance?",
+   "answer": "The daily interest rate is $r=\\dfrac{19.5\\%}{365}=\\dfrac{0.195}{365}$.\n\nThe opening balance of \\$245.62 earns interest for all $31$ days of October, so it grows to $245.62\\left(1+\\dfrac{0.195}{365}\\right)^{31}=\\$249.72$.\n\nThe purchase of \\$699.00 on 21 October earns interest from 21 October to 31 October inclusive, which is $11$ days, so it grows to $699\\left(1+\\dfrac{0.195}{365}\\right)^{11}=\\$703.12$.\n\nClosing balance $=249.72+703.12=\\$952.84$."
+  },
+  {
+   "ref": "Q32",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.9",
+    "11.1.1.8"
+   ],
+   "question": "The child dosage of a particular pain relief medication can be calculated using the formula $C=\\dfrac{aD}{a+12}$, where $C$ is the child dosage in mL, $a$ is the age of the child in years, and $D$ is the adult dosage in mL. At what age is the child's dosage exactly half of the adult dosage?",
+   "answer": "We need $C=\\dfrac{D}{2}$, so $\\dfrac{D}{2}=\\dfrac{aD}{a+12}$. Dividing both sides by $D$ (which is not zero): $\\dfrac12=\\dfrac{a}{a+12}$. Cross-multiplying, $a+12=2a$, so $a=12$. The child's dosage is half the adult dosage at 12 years of age."
+  },
+  {
+   "ref": "Q33(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.1.3",
+    "12.7.1.5"
+   ],
+   "question": "A construction company is building new school classrooms. The activities, their durations in days, and their immediate predecessors are:\n\n| Activity | A | B | C | F | D | E | G | H | I |\n|---|---|---|---|---|---|---|---|---|---|\n| Duration (days) | 20 | 5 | 180 | 50 | 10 | 60 | 20 | 120 | 50 |\n| Immediate predecessor(s) | – | A | B | B | C, F | D | B | G | H |\n\nThe project finishes when activities E and I are both complete (the network diagram is shown).\n\nBy performing forward and backward scanning, find the earliest start time (EST) and latest start time (LST) of each activity.",
+   "answer": "Forward scan (earliest start times): A starts at $0$; B at $20$; C, F and G at $20+5=25$; D at $25+180=205$ (the longer of C: $205$ and F: $75$); E at $205+10=215$; H at $25+20=45$; I at $45+120=165$. Earliest finish of the project $=\\max(215+60,\\ 165+50)=275$ days.\n\nBackward scan (latest start times, with a project time of $275$): E: $275-60=215$; I: $275-50=225$; D: $215-10=205$; H: $225-120=105$; C: $205-180=25$; F: $205-50=155$; G: $105-20=85$; B: $\\min(25,155,85)-5=20$; A: $20-20=0$.\n\n| Activity | A | B | C | F | D | E | G | H | I |\n|---|---|---|---|---|---|---|---|---|---|\n| EST | 0 | 20 | 25 | 25 | 205 | 215 | 25 | 45 | 165 |\n| LST | 0 | 20 | 25 | 155 | 205 | 215 | 85 | 105 | 225 |",
+   "images": [
+    "assets/img/std2-2024-barker/q33.png"
+   ]
+  },
+  {
+   "ref": "Q33(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.1.5"
+   ],
+   "question": "A construction company is building new school classrooms. The activities, their durations in days, and their immediate predecessors are:\n\n| Activity | A | B | C | F | D | E | G | H | I |\n|---|---|---|---|---|---|---|---|---|---|\n| Duration (days) | 20 | 5 | 180 | 50 | 10 | 60 | 20 | 120 | 50 |\n| Immediate predecessor(s) | – | A | B | B | C, F | D | B | G | H |\n\nThe project finishes when activities E and I are both complete (the network diagram is shown).\n\nList the critical path for this project.",
+   "answer": "The critical activities are those with $\\text{EST}=\\text{LST}$: A, B, C, D, E. The critical path is $A-B-C-D-E$ (length $20+5+180+10+60=275$ days)."
+  },
+  {
+   "ref": "Q33(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.1.4"
+   ],
+   "question": "A construction company is building new school classrooms. The activities, their durations in days, and their immediate predecessors are:\n\n| Activity | A | B | C | F | D | E | G | H | I |\n|---|---|---|---|---|---|---|---|---|---|\n| Duration (days) | 20 | 5 | 180 | 50 | 10 | 60 | 20 | 120 | 50 |\n| Immediate predecessor(s) | – | A | B | B | C, F | D | B | G | H |\n\nThe project finishes when activities E and I are both complete (the network diagram is shown).\n\nThe activities A, B, C, D, E are on the critical path of $275$ days, and the other path is A, B, G, H, I. Task H was delayed by 30 days due to a shortage of materials. By considering float time, or otherwise, explain why this would not affect the completion time of the project.",
+   "answer": "H is not on the critical path. Its float time is $\\text{LST}-\\text{EST}=105-45=60$ days (equivalently, the path A–B–G–H–I takes $20+5+20+120+50=215$ days, which is $275-215=60$ days shorter than the critical path). A delay of $30$ days is less than the float of $60$ days, so H can be delayed without delaying the project, and the completion time is unchanged."
+  },
+  {
+   "ref": "Q34(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.5",
+    "12.4.1.9"
+   ],
+   "question": "A radial survey shows the position of four towns $A$, $B$, $C$ and $X$. Towns $A$ and $B$ lie at true bearings of $328^\\circ$ and $110^\\circ$ from town $X$, respectively. $XA=25$ km, $XB=28$ km and $XC=19$ km. By first finding angle $AXB$, find the distance between towns $A$ and $B$. Give your answer to the nearest kilometre.",
+   "answer": "$\\angle AXB=(360^\\circ-328^\\circ)+110^\\circ=32^\\circ+110^\\circ=142^\\circ$. By the cosine rule, $AB^2=25^2+28^2-2(25)(28)\\cos142^\\circ=2512.2\\ldots$, so $AB=50.1\\ldots\\approx50$ km.",
+   "images": [
+    "assets/img/std2-2024-barker/q34.png"
+   ]
+  },
+  {
+   "ref": "Q34(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.7",
+    "12.4.1.8"
+   ],
+   "question": "A radial survey shows the position of four towns $A$, $B$, $C$ and $X$. Town $B$ lies at a true bearing of $110^\\circ$ from town $X$, and $XB=28$ km and $XC=19$ km. If the area of triangle $XCB$ is $265\\ \\text{km}^2$, find the true bearing of town $C$ from town $X$. Round to the nearest degree (take $C$ to be on the side of $XB$ shown in the diagram, so that $\\angle BXC$ is measured clockwise from $B$).",
+   "answer": "$A=\\tfrac12ab\\sin C$: $265=\\tfrac12(19)(28)\\sin\\theta$, where $\\theta=\\angle BXC$. So $\\sin\\theta=\\dfrac{2\\times265}{19\\times28}=\\dfrac{530}{532}=0.9962\\ldots$ and $\\theta=85^\\circ$. The bearing of $C$ from $X$ is $110^\\circ+85^\\circ=195^\\circ$ T.\n\n*Note:* $\\sin\\theta=0.996\\ldots$ also has the obtuse solution $\\theta=95^\\circ$ (bearing $205^\\circ$), which fits the same data. The school's solution gives only $195^\\circ$.",
+   "images": [
+    "assets/img/std2-2024-barker/q34.png"
+   ]
+  },
+  {
+   "ref": "Q35(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.3.7"
+   ],
+   "question": "An object is thrown upwards from a cliff that overlooks the sea. Its height above the sea, in metres, is modelled by $h=32+12t-5t^2$, where $t$ is the time in seconds. What is the height of the cliff?",
+   "answer": "The object is thrown from the top of the cliff at $t=0$: $h=32+12(0)-5(0)^2=32$. The cliff is $32$ m high.",
+   "images": [
+    "assets/img/std2-2024-barker/q35.png"
+   ]
+  },
+  {
+   "ref": "Q35(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.3.7"
+   ],
+   "question": "An object is thrown upwards from a cliff that overlooks the sea. Its height above the sea, in metres, is modelled by $h=32+12t-5t^2$, where $t$ is the time in seconds. What is the height of the object after 2 seconds?",
+   "answer": "$h=32+12(2)-5(2)^2=32+24-20=36$ m.",
+   "images": [
+    "assets/img/std2-2024-barker/q35.png"
+   ]
+  },
+  {
+   "ref": "Q35(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.5",
+    "12.1.3.7"
+   ],
+   "question": "An object is thrown upwards from a cliff that overlooks the sea. Its height above the sea, in metres, is modelled by $h=32+12t-5t^2$, where $t$ is the time in seconds. Given that the axis of symmetry of the parabola is $t=1.2$ s, find the maximum height that the object reaches after being thrown.",
+   "answer": "The maximum occurs on the axis of symmetry, $t=1.2$: $h=32+12(1.2)-5(1.2)^2=32+14.4-7.2=39.2$ m.",
+   "images": [
+    "assets/img/std2-2024-barker/q35.png"
+   ]
+  },
+  {
+   "ref": "Q36",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.6.2.5",
+    "11.6.2.6"
+   ],
+   "question": "Kieran is travelling by aeroplane from Sydney (UTC +10) to Paris (UTC +1). His flight departs at 5 am Monday, Sydney time, and arrives at 3 pm Monday, Paris time. Ignore daylight saving time. If his plane stopped for 2 hours in Singapore, what was the total flying time for the journey?",
+   "answer": "Sydney is $10-1=9$ hours ahead of Paris. The arrival time of 3 pm Monday in Paris is $3\\text{ pm}+9\\text{ h}=12$ am Tuesday in Sydney. Elapsed time from $5$ am Monday to $12$ am Tuesday $=19$ hours. Subtracting the $2$-hour stop in Singapore, the total flying time was $19-2=17$ hours."
+  },
+  {
+   "ref": "Q37(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.2.1",
+    "11.1.1.8"
+   ],
+   "question": "A car uses 24 L of petrol on a trip of 210 km. Express this fuel consumption in L/100 km. Round to one decimal place.",
+   "answer": "$\\dfrac{24}{210}\\times100=11.428\\ldots\\approx11.4$ L/100 km."
+  },
+  {
+   "ref": "Q37(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.2.1",
+    "11.1.1.8"
+   ],
+   "question": "A car's fuel consumption is 11.4 L/100 km. Determine the cost of taking a 325 km trip if petrol was priced at 179.5 cents/L.",
+   "answer": "Petrol used $=\\dfrac{11.4}{100}\\times325=37.05$ L. Cost $=37.05\\times\\$1.795=\\$66.50$.\n\n*Note:* using the unrounded consumption ($24\\div210\\times325=37.14$ L) gives \\$66.67; the school's solution gives \\$66.50, using 11.4 from part (a)."
+  },
+  {
+   "ref": "Q38(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.3",
+    "12.6.1.4"
+   ],
+   "question": "Sydney Water is planning the supply of water to a new subdivision. Water starts at the treatment plant ($W$) and passes through the existing network of water pipes to arrive at the new subdivision ($S$). The capacity of each pipe is labelled in kilolitres per hour (kL/h): $W\\to A$ 400, $A\\to B$ 190, $A\\to D$ 110, $A\\to F$ 80, $D\\to B$ 90, $B\\to C$ 220, $D\\to E$ 130, $F\\to E$ 220, $E\\to C$ 150, $C\\to S$ 400. What is the maximum flow of water that can currently reach the subdivision $S$?",
+   "answer": "The cut through the pipes $B\\to C$ (220) and $E\\to C$ (150) has capacity $220+150=370$ kL/h. No cut has a smaller capacity (for example, the cut through the pipes leaving $A$ has capacity $190+110+80=380$), so by the maximum-flow minimum-cut theorem the maximum flow is $370$ kL/h.",
+   "images": [
+    "assets/img/std2-2024-barker/q38a.png"
+   ]
+  },
+  {
+   "ref": "Q38(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.1.5",
+    "12.6.1.4"
+   ],
+   "question": "Sydney Water is planning the supply of water to a new subdivision. The capacities of the pipes in kL/h are: $W\\to A$ 400, $A\\to B$ 190, $A\\to D$ 110, $A\\to F$ 80, $D\\to B$ 90, $B\\to C$ 220, $D\\to E$ 130, $F\\to E$ 220, $E\\to C$ 150, $C\\to S$ 400. Engineers determine that if the capacity of pipe $AF$ is increased to 100 kL/h and the capacity of pipe $EC$ is increased to 180 kL/h, then the flow of water to the subdivision can reach 400 kL/h. (You do not need to prove this.)\n\nWrite the flow rate through pipes $AF$, $FE$, $DE$, $BD$ and $EC$ that will allow water to reach the subdivision at 400 kL/h.",
+   "answer": "To carry $400$ kL/h out of $A$, the pipes $A\\to B$ ($190$), $A\\to D$ ($110$) and $A\\to F$ ($100$) must all be full: $190+110+100=400$.\n\n- $AF=100$ and so $FE=100$ (all the flow from $F$ goes to $E$).\n- $B\\to C$ has capacity $220$ and receives $190$ from $A$, so $BD$ carries $220-190=30$ kL/h from $D$ to $B$.\n- $D$ receives $110$ and sends $30$ to $B$, so $DE=110-30=80$ kL/h.\n- $E$ receives $80+100=180$, so $EC=180$ kL/h.\n\nCheck: into $C$ is $220+180=400$ kL/h.\n\n| Pipe | AF | FE | DE | BD | EC |\n|---|---|---|---|---|---|\n| Flow (kL/h) | 100 | 100 | 80 | 30 | 180 |",
+   "images": [
+    "assets/img/std2-2024-barker/q38b.png"
+   ]
+  },
+  {
+   "ref": "Q39(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.2"
+   ],
+   "question": "Amanda's taxable income for a particular year was \\$44 321. The tax table is:\n\n| Taxable income | Tax on this income |\n|---|---|\n| \\$0 – \\$18 200 | Nil |\n| \\$18 201 – \\$45 000 | 19 cents for each \\$1 over \\$18 200 |\n| \\$45 001 – \\$120 000 | \\$5092 plus 32.5 cents for each \\$1 over \\$45 000 |\n| \\$120 001 – \\$180 000 | \\$29 467 plus 37 cents for each \\$1 over \\$120 000 |\n| \\$180 001 and over | \\$51 667 plus 45 cents for each \\$1 over \\$180 000 |\n\nUse the tax table to find Amanda's income tax payable.",
+   "answer": "Amanda's taxable income is in the bracket \\$18 201 – \\$45 000. Tax $=0.19\\times(44\\,321-18\\,200)=0.19\\times26\\,121=\\$4962.99$."
+  },
+  {
+   "ref": "Q39(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.3.2.2"
+   ],
+   "question": "Amanda's taxable income for a particular year was \\$44 321. The tax table is:\n\n| Taxable income | Tax on this income |\n|---|---|\n| \\$0 – \\$18 200 | Nil |\n| \\$18 201 – \\$45 000 | 19 cents for each \\$1 over \\$18 200 |\n| \\$45 001 – \\$120 000 | \\$5092 plus 32.5 cents for each \\$1 over \\$45 000 |\n| \\$120 001 – \\$180 000 | \\$29 467 plus 37 cents for each \\$1 over \\$120 000 |\n| \\$180 001 and over | \\$51 667 plus 45 cents for each \\$1 over \\$180 000 |\n\nThe amount of income tax her friend Hallie pays is exactly twice the amount that Amanda pays. Using the tax table above, find Hallie's taxable income.",
+   "answer": "Hallie's tax is $2\\times4962.99=\\$9925.98$. This is more than \\$5092, so Hallie is in the \\$45 001 – \\$120 000 bracket: $5092+0.325(x-45\\,000)=9925.98$, so $x-45\\,000=\\dfrac{9925.98-5092}{0.325}=14\\,873.78$ and $x=\\$59\\,873.78$."
+  },
+  {
+   "ref": "Q40(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.1",
+    "11.5.2.1"
+   ],
+   "question": "A painter needs to paint a wall on one side of a home movie theatre. The wall is a trapezium: the top edge is 9 m long, the left side is vertical and 4 m high, the right side is vertical, and the bottom edge makes an angle of elevation of $10^\\circ$ with the horizontal (rising to the right). What is the area of the wall, correct to the nearest square metre?",
+   "answer": "The bottom edge rises by $9\\tan10^\\circ=1.587\\ldots$ m over the $9$ m length, so the right side is $4-9\\tan10^\\circ=2.41\\ldots$ m high. The area is a rectangle of $9\\times4=36$ m$^2$ minus the triangle under the bottom edge: $36-\\tfrac12\\times9\\times9\\tan10^\\circ=36-7.14=28.86\\approx29\\ \\text{m}^2$. (Equivalently, the area of the trapezium is $\\tfrac12(4+2.41)\\times9=28.86$.)",
+   "images": [
+    "assets/img/std2-2024-barker/q40.png"
+   ]
+  },
+  {
+   "ref": "Q40(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.2.1",
+    "11.4.1.1"
+   ],
+   "question": "A painter needs to paint a wall of area 29 m$^2$. A 5 L tin of paint costs \\$98 and covers 10 m$^2$. How much will it cost to paint the wall?",
+   "answer": "$29\\div10=2.9$, so $3$ tins are needed (tins cannot be bought in parts). Cost $=3\\times\\$98=\\$294$."
+  },
+  {
+   "ref": "Q41(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.1.3",
+    "12.7.1.6"
+   ],
+   "question": "The activities needed to complete a local council roadwork project, and their durations in weeks, are: A (6), B (3), C (5), D (3), E (unknown), F (8), G (4) and H (6). The network is shown in the diagram: A and C both lead into the node from which D and E start; B starts the path through C and F; D leads into G, G into H, and E, F and H all end at the finish.\n\nThe council has determined that activities E and H are critical. Determine the duration of activity E.",
+   "answer": "The path $B-C-D-G-H$ has length $3+5+3+4+6=21$ weeks. Since H is critical, the minimum completion time of the project is $21$ weeks. Activity E starts after A and C: its earliest start time is $\\max(6,\\ 3+5)=8$ weeks. Since E is also critical, $8+E=21$, so $E=13$ weeks.",
+   "images": [
+    "assets/img/std2-2024-barker/q41.png"
+   ]
+  },
+  {
+   "ref": "Q41(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.1.5"
+   ],
+   "question": "The activities needed to complete a local council roadwork project, and their durations in weeks, are: A (6), B (3), C (5), D (3), E (unknown), F (8), G (4) and H (6). The network is shown in the diagram: A and C both lead into the node from which D and E start; B starts the path through C and F; D leads into G, G into H, and E, F and H all end at the finish.\n\nThe duration of E is 13 weeks, and the minimum completion time of the project is 21 weeks. List the critical path(s) for this project.",
+   "answer": "The critical paths are the paths of length $21$ weeks: $B-C-D-G-H$ ($3+5+3+4+6=21$) and $B-C-E$ ($3+5+13=21$).",
+   "images": [
+    "assets/img/std2-2024-barker/q41.png"
+   ]
+  },
+  {
+   "ref": "Q41(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.7.1.8"
+   ],
+   "question": "The activities needed to complete a local council roadwork project, and their durations in weeks, are: A (6), B (3), C (5), D (3), E (unknown), F (8), G (4) and H (6). The network is shown in the diagram: A and C both lead into the node from which D and E start; B starts the path through C and F; D leads into G, G into H, and E, F and H all end at the finish.\n\nThe duration of E is 13 weeks, so the critical paths are $B-C-D-G-H$ and $B-C-E$ (21 weeks). It is possible to reduce the duration of certain activities, but doing so will incur additional costs. The cost per week to reduce the duration of four activities is:\n\n| Activity | A | C | E | H |\n|---|---|---|---|---|\n| Cost per week | \\$30 000 | \\$40 000 | \\$90 000 | \\$120 000 |\n\nFor example, to reduce the duration of activity A by two weeks will cost \\$60 000. The duration of each of these activities can be reduced by a maximum of three weeks.\n\nWhat will be the minimum cost to reduce the total duration of the roadworks to 18 weeks? In your answer state the activities that need to be reduced and the new durations of these activities.",
+   "answer": "The paths and their lengths are: $B-C-D-G-H=21$, $B-C-E=21$, $A-E=6+13=19$, $A-D-G-H=6+3+4+6=19$ and $B-F=11$.\n\nBoth critical paths pass through $C$, so reducing C by the maximum of $3$ weeks (the cheapest activity common to both) reduces both of them to $18$ weeks, at a cost of $3\\times\\$40\\,000=\\$120\\,000$. The paths $A-E$ and $A-D-G-H$ are then the longest at $19$ weeks, and both contain A, so A must be reduced by $1$ week at a cost of \\$30 000. All paths are then $18$ weeks or less.\n\nMinimum cost $=120\\,000+30\\,000=\\$150\\,000$: reduce C by $3$ weeks (new duration $2$ weeks) and A by $1$ week (new duration $5$ weeks). (Reducing E by $3$ weeks and H by $3$ weeks instead would cost \\$630 000.)",
+   "images": [
+    "assets/img/std2-2024-barker/q41.png"
+   ]
+  },
+  {
+   "ref": "Q42",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.5.2.5"
+   ],
+   "question": "Jordan was investigating the capacities of different glass tumblers. She used two tumblers, one in the shape of a cone with radius 5 cm and height 8 cm, and another in the shape of a cylinder with radius 2.5 cm and height $h$. When Jordan completely filled the conical tumbler with water then poured it into the cylindrical tumbler, she found it only half filled the cylinder. What is the height ($h$) of the cylindrical tumbler, correct to two decimal places?",
+   "answer": "Volume of the cone $=\\tfrac13\\pi r^2h=\\tfrac13\\pi(5)^2(8)=209.44\\ \\text{cm}^3$. This fills half of the cylinder, so $\\tfrac12\\pi(2.5)^2h=\\tfrac13\\pi(5)^2(8)$. Then $h=\\dfrac{2\\times\\tfrac13\\times25\\times8}{2.5^2}=\\dfrac{400/3}{6.25}=21.33$ cm.",
+   "images": [
+    "assets/img/std2-2024-barker/q42.png"
+   ]
+  }
+ ]
+}
