@@ -1,0 +1,518 @@
+{
+ "id": "ext1-2025-normanhurst",
+ "course": "extension1",
+ "school": "Normanhurst Boys",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "Normanhurst Boys 2025 w. sol"
+ },
+ "indexed": "2026-11-26",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.1.2.10",
+    "11.1.2.6"
+   ],
+   "question": "The graph of $y=f(x)$ is shown, and the $x$ and $y$ axes are both drawn to the same scale. $f(x)$ then has its domain restricted such that it contains the largest possible domain for which $y=f(x)$ has an inverse function $y=f^{-1}(x)$, and the function with the restricted domain is $g(x)$.\n\nHow many points of intersection are there between $y=g(x)$ and $y=g^{-1}(x)$ ?",
+   "answer": "The graph of $g^{-1}$ is the reflection of the graph of $g$ in $y=x$, so common points lie on $y=x$, or come in pairs reflected in $y=x$.\n\n*Left half of the parabola (increasing).* An increasing function and its inverse can only meet on $y=x$. The parabola meets $y=x$ once on this half, so there is one intersection.\n\n*Right half (decreasing).* The decreasing branch meets $y=x$ once. For the parabola as drawn (steepness measured from the diagram) there are no further pairs $(a,b)$, $(b,a)$ with $g(a)=b$, $g(b)=a$ inside the restricted domain, so again there is exactly one intersection.\n\nEither way there is $1$ point of intersection (A). (The school's worked solution is headed '(D)' but its key and reasoning give (A).)",
+   "options": [
+    "$1$",
+    "$2$",
+    "$3$",
+    "$4$"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/ext1-2025-normanhurst/q1.png"
+   ]
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.2"
+   ],
+   "question": "Given $\\tan\\theta=\\dfrac12$, what is the exact value of $\\tan\\left(\\theta-\\dfrac\\pi6\\right)$ ?",
+   "answer": "$$\\tan\\left(\\theta-\\tfrac\\pi6\\right)=\\frac{\\tan\\theta-\\tan\\frac\\pi6}{1+\\tan\\theta\\tan\\frac\\pi6}=\\frac{\\frac12-\\frac1{\\sqrt3}}{1+\\frac1{2\\sqrt3}}=\\frac{\\sqrt3-2}{2\\sqrt3+1}\\cdot\\frac{2\\sqrt3-1}{2\\sqrt3-1}=\\frac{6-\\sqrt3-4\\sqrt3+2}{12-1}=\\frac{8-5\\sqrt3}{11}$$ (D).",
+   "options": [
+    "$8+5\\sqrt3$",
+    "$8-5\\sqrt3$",
+    "$\\dfrac{8+5\\sqrt3}{11}$",
+    "$\\dfrac{8-5\\sqrt3}{11}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.2"
+   ],
+   "question": "The equation $x^3-3x^2-18x+40=0$ has roots $\\alpha,\\beta,\\gamma$. What is the value of $\\dfrac1{\\alpha\\beta}+\\dfrac1{\\beta\\gamma}+\\dfrac1{\\alpha\\gamma}$ ?",
+   "answer": "$\\alpha+\\beta+\\gamma=3$ and $\\alpha\\beta\\gamma=-40$. Over a common denominator, $\\dfrac1{\\alpha\\beta}+\\dfrac1{\\beta\\gamma}+\\dfrac1{\\alpha\\gamma}=\\dfrac{\\gamma+\\alpha+\\beta}{\\alpha\\beta\\gamma}=\\dfrac3{-40}=-\\dfrac3{40}$ (C).",
+   "options": [
+    "$-\\dfrac1{18}$",
+    "$\\dfrac1{18}$",
+    "$-\\dfrac3{40}$",
+    "$\\dfrac3{40}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.9",
+    "12.5.4.4"
+   ],
+   "question": "The slope field for a first order differential equation is shown. Which of the following could be the differential equation represented?",
+   "answer": "The slope is $0$ along the whole $x$-axis ($y=0$), and the slopes change sign across $x=-1$: above the axis the slopes are negative for $x<-1$ and positive for $x>-1$, and below the axis they are positive for $x<-1$ and negative for $x>-1$. This is the sign pattern of $y(x+1)$ (C).\n\nA has no dependence on $y$, so it cannot be $0$ along $y=0$. B and D do not have zero slope along $x=-1$.",
+   "options": [
+    "$\\dfrac{dy}{dx}=(x+1)^3$",
+    "$\\dfrac{dy}{dx}=x(y+1)$",
+    "$\\dfrac{dy}{dx}=y(x+1)$",
+    "$\\dfrac{dy}{dx}=y(x-1)$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/ext1-2025-normanhurst/q4.png"
+   ]
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.1"
+   ],
+   "question": "The function $f(x)$ has parametric equations $x=2e^t$, $y=\\cos\\left(1+e^{3t}\\right)$. Which of the following is the derivative $\\dfrac{dy}{dx}$ ?",
+   "answer": "$\\dfrac{dx}{dt}=2e^t$ and $\\dfrac{dy}{dt}=-3e^{3t}\\sin\\left(1+e^{3t}\\right)$. So $\\dfrac{dy}{dx}=\\dfrac{dy/dt}{dx/dt}=\\dfrac{-3e^{3t}\\sin(1+e^{3t})}{2e^t}=-\\dfrac32e^{2t}\\sin\\left(1+e^{3t}\\right)$ (A).",
+   "options": [
+    "$-\\dfrac32e^{2t}\\sin\\left(1+e^{3t}\\right)$",
+    "$\\dfrac32e^{2t}\\sin\\left(1+e^{3t}\\right)$",
+    "$-6e^{2t}\\sin\\left(1+e^{3t}\\right)$",
+    "$6e^{2t}\\sin\\left(1+e^{3t}\\right)$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.5",
+    "12.3.1.6"
+   ],
+   "question": "What is the range of the function $f(x)=2\\sin^{-1}x-\\tan^{-1}x$ ?",
+   "answer": "The domain is $-1\\le x\\le1$. $f'(x)=\\dfrac2{\\sqrt{1-x^2}}-\\dfrac1{1+x^2}>0$, so $f$ is increasing. $f(1)=2\\cdot\\frac\\pi2-\\frac\\pi4=\\frac{3\\pi}4$ and $f(-1)=-\\frac{3\\pi}4$. The range is the closed interval $\\left[-\\frac{3\\pi}4,\\frac{3\\pi}4\\right]$ (D).",
+   "options": [
+    "$y\\in\\left(-\\dfrac\\pi2,\\dfrac\\pi2\\right)$",
+    "$y\\in\\left[-\\dfrac\\pi2,\\dfrac\\pi2\\right]$",
+    "$y\\in\\left(-\\dfrac{3\\pi}4,\\dfrac{3\\pi}4\\right)$",
+    "$y\\in\\left[-\\dfrac{3\\pi}4,\\dfrac{3\\pi}4\\right]$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.2.2"
+   ],
+   "question": "What is the value of $\\displaystyle\\int_0^{\\pi/4}\\sin2\\theta\\cos3\\theta\\,d\\theta$ ?",
+   "answer": "Adding $\\sin(3\\theta+2\\theta)=\\sin3\\theta\\cos2\\theta+\\cos3\\theta\\sin2\\theta$ and $\\sin(2\\theta-3\\theta)=\\sin2\\theta\\cos3\\theta-\\cos2\\theta\\sin3\\theta$ gives $\\sin5\\theta-\\sin\\theta=2\\sin2\\theta\\cos3\\theta$. So\n$$\\int_0^{\\frac\\pi4}\\sin2\\theta\\cos3\\theta\\,d\\theta=\\frac12\\int_0^{\\frac\\pi4}(\\sin5\\theta-\\sin\\theta)\\,d\\theta=\\frac12\\left[-\\frac{\\cos5\\theta}5+\\cos\\theta\\right]_0^{\\frac\\pi4}$$\n$$=\\frac12\\left[\\left(\\frac1{5\\sqrt2}+\\frac1{\\sqrt2}\\right)-\\left(-\\frac15+1\\right)\\right]=\\frac12\\left[\\frac6{5\\sqrt2}-\\frac45\\right]=\\frac3{5\\sqrt2}-\\frac25$$ (D).",
+   "options": [
+    "$-\\dfrac25$",
+    "$\\dfrac1{\\sqrt2}-\\dfrac25$",
+    "$\\dfrac2{5\\sqrt2}-\\dfrac25$",
+    "$\\dfrac3{5\\sqrt2}-\\dfrac25$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "What is the primitive of $\\dfrac{3f'(x)}{1+9\\left(f(x)\\right)^2}$ ?",
+   "answer": "$\\dfrac d{dx}\\tan^{-1}(3f(x))=\\dfrac{3f'(x)}{1+(3f(x))^2}=\\dfrac{3f'(x)}{1+9(f(x))^2}$, so the primitive is $\\tan^{-1}(3f(x))$ (D).",
+   "options": [
+    "$\\tan^{-1}\\left(f(3x)\\right)$",
+    "$3\\tan^{-1}\\left(f(3x)\\right)$",
+    "$3\\ln3\\left(f(x)\\right)$",
+    "$\\tan^{-1}\\left(3f(x)\\right)$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.17",
+    "11.4.1.18"
+   ],
+   "question": "Daniel wants to display a total of five different Labubus on his shelf. He can choose from five different Labubus from the *Have a Seat* collection and five different Labubus from the *Exciting Macaron* collection.\n\nGiven that the pink *Exciting Macaron* Labubu must be displayed, how many ways can he select the remaining if he wants at least two from the *Have a Seat* collection and at least one other from the *Exciting Macaron* collection on the shelf?",
+   "answer": "The pink Labubu fills one of the five places, leaving $4$ places to fill from $5$ *Have a Seat* and the other $4$ *Exciting Macaron* Labubus, with at least $2$ *Have a Seat* and at least $1$ other *Exciting Macaron*.\n\n- $3$ *Have a Seat* and $1$ more *Exciting Macaron*: ${}^5C_3\\times{}^4C_1=10\\times4=40$.\n- $2$ *Have a Seat* and $2$ more *Exciting Macaron*: ${}^5C_2\\times{}^4C_2=10\\times6=60$.\n\nTotal $=40+60=100$ (A).",
+   "options": [
+    "$100$",
+    "$240$",
+    "$252$",
+    "$320$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.9",
+    "12.2.4.3"
+   ],
+   "question": "The magnitude of the projection of the vector $\\mathbf a=2\\mathbf i+5\\mathbf j$ in the direction of the vector $\\mathbf b$ is $\\dfrac{11}{\\sqrt{10}}$. Which of the following could be equal to $\\mathbf b$ ?",
+   "answer": "The magnitude of the projection is $\\dfrac{|\\mathbf a\\cdot\\mathbf b|}{|\\mathbf b|}$. For $\\mathbf b=3\\mathbf i+\\mathbf j$: $\\mathbf a\\cdot\\mathbf b=6+5=11$ and $|\\mathbf b|=\\sqrt{10}$, giving $\\dfrac{11}{\\sqrt{10}}$ (B). The others give $\\frac{17}{\\sqrt{10}}$ (A), $\\frac{13}{\\sqrt{10}}$ (C) and $\\frac1{\\sqrt{10}}$ (D).",
+   "options": [
+    "$\\mathbf i+3\\mathbf j$",
+    "$3\\mathbf i+\\mathbf j$",
+    "$\\mathbf i-3\\mathbf j$",
+    "$-3\\mathbf i+\\mathbf j$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Solve the inequality for $x$: $\\dfrac{-x}{(x-3)(2x+1)}\\le\\dfrac16$.",
+   "answer": "Multiply both sides by the positive quantity $(x-3)^2(2x+1)^2$ (with $x\\ne3,-\\frac12$):\n$$-x(x-3)(2x+1)\\le\\tfrac16(x-3)^2(2x+1)^2\\ \\Rightarrow\\ (x-3)^2(2x+1)^2+6x(x-3)(2x+1)\\ge0.$$\nFactor out $(x-3)(2x+1)$: $(x-3)(2x+1)\\left[(x-3)(2x+1)+6x\\right]\\ge0$. Now $(x-3)(2x+1)+6x=2x^2-5x-3+6x=2x^2+x-3=(2x+3)(x-1)$, so\n$$(x-3)(2x+1)(2x+3)(x-1)\\ge0.$$\nThe zeroes are $-\\frac32,-\\frac12,1,3$. A quartic with positive leading coefficient is $\\ge0$ outside the outer zeroes and between the middle two. Excluding $x=3$ and $x=-\\frac12$ (where the original expression is undefined):\n$$x\\le-\\tfrac32,\\qquad-\\tfrac12<x\\le1,\\qquad x>3.$$"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "Find the term independent of $x$ in the expansion of $\\left(2x+\\dfrac3{x^2}\\right)^{15}$. You may leave your answer in the form $\\dbinom nk2^a3^b$.",
+   "answer": "General term: $T_k=\\dbinom{15}k(2x)^{15-k}\\left(3x^{-2}\\right)^k=\\dbinom{15}k2^{15-k}3^kx^{15-3k}$. The term is independent of $x$ when $15-3k=0$, so $k=5$:\n$$T_5=\\binom{15}52^{10}3^5\\quad\\left(=\\binom{15}{10}2^{10}3^5\\right).$$"
+  },
+  {
+   "ref": "Q11(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.4"
+   ],
+   "question": "The graph of $f(x)=2-2^{-2x}$ is shown (it passes through $\\left(-\\frac12,0\\right)$ and $(0,1)$, with horizontal asymptote $y=2$). Using the graph of $f(x)$, sketch the graph of $y^2=f(x)$, showing all important features.",
+   "answer": "$y^2=f(x)\\Rightarrow y=\\pm\\sqrt{f(x)}$, defined where $f(x)\\ge0$, i.e. $x\\ge-\\frac12$. Features: the curve meets the $x$-axis at $\\left(-\\frac12,0\\right)$ with a vertical tangent there; it passes through $(0,1)$ and $(0,-1)$; and it has horizontal asymptotes $y=\\pm\\sqrt2$ as $x\\to\\infty$. It is symmetric about the $x$-axis.",
+   "images": [
+    "assets/img/ext1-2025-normanhurst/q11c.png"
+   ],
+   "answer_images": [
+    "assets/img/ext1-2025-normanhurst/a11ci.png"
+   ]
+  },
+  {
+   "ref": "Q11(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.1"
+   ],
+   "question": "The graph of $f(x)=2-2^{-2x}$ is shown (it passes through $\\left(-\\frac12,0\\right)$ and $(0,1)$, with horizontal asymptote $y=2$). Using the graph of $f(x)$, sketch the graph of $y=\\dfrac1{f(x)}$, showing all important features.",
+   "answer": "Zeroes of $f$ become vertical asymptotes: $x=-\\frac12$. Where $f>0$ ($x>-\\frac12$), $f$ increases from $0$ to $2$, so $\\frac1f$ decreases from $+\\infty$ to the horizontal asymptote $y=\\frac12$, passing through $(0,1)$. Where $f<0$ ($x<-\\frac12$), $f\\to0^-$ as $x\\to-\\frac12^-$, so $\\frac1f\\to-\\infty$, and $f\\to-\\infty$ as $x\\to-\\infty$, so $\\frac1f\\to0^-$ (asymptote $y=0$). There are no $x$-intercepts.",
+   "images": [
+    "assets/img/ext1-2025-normanhurst/q11c.png"
+   ],
+   "answer_images": [
+    "assets/img/ext1-2025-normanhurst/a11cii.png"
+   ]
+  },
+  {
+   "ref": "Q11(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.18",
+    "11.4.1.9"
+   ],
+   "question": "A group of six males and five females, including Aden and Ina, are to be placed into two separate lines. Line $A$ consists of six people and line $B$ consists of five people. How many ways can they be arranged across the two lines if Aden and Ina are to be placed in separate lines?",
+   "answer": "Case 1: Aden in line $A$, Ina in line $B$. Choose the other $5$ people of line $A$ from the $9$ people other than Aden and Ina: ${}^9C_5$ ways. Arrange line $A$: $6!$. Arrange line $B$ (the remaining $4$ people and Ina): $5!$.\n\nCase 2: Ina in line $A$, Aden in line $B$: the same number of ways.\n\nTotal $={}^9C_5\\times6!\\times5!\\times2=126\\times720\\times120\\times2=21\\,772\\,800$."
+  },
+  {
+   "ref": "Q11(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.4.1.18",
+    "11.4.1.9"
+   ],
+   "question": "A group of six males and five females are to be placed into two separate lines. Line $A$ consists of six people and line $B$ consists of five people. How many ways can they be arranged across the two lines if the members in line $A$ are selected first and must alternate between males and females within $A$?",
+   "answer": "Line $A$ has $6$ people alternating, so it has $3$ males and $3$ females.\n\n*Males in positions 1, 3, 5:* males $6\\times5\\times4$ ways, females in positions 2, 4, 6: $5\\times4\\times3$ ways. Females could instead occupy positions 1, 3, 5, giving the same count again, so double.\n\nThe remaining $5$ people form line $B$ in any order: $5!$ ways.\n\nTotal $=(6\\times5\\times4)(5\\times4\\times3)\\times5!\\times2=120\\times60\\times120\\times2=1\\,728\\,000$."
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Use the substitution $u=1+x$ to evaluate $15\\displaystyle\\int_{-1}^0x\\sqrt{1+x}\\,dx$.",
+   "answer": "$u=1+x$, so $x=u-1$ and $dx=du$. When $x=-1$, $u=0$; when $x=0$, $u=1$.\n$$15\\int_0^1(u-1)u^{\\frac12}du=15\\int_0^1\\left(u^{\\frac32}-u^{\\frac12}\\right)du=15\\left[\\frac25u^{\\frac52}-\\frac23u^{\\frac32}\\right]_0^1=15\\left(\\frac25-\\frac23\\right)=-4.$$"
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.4.7",
+    "12.2.2.9"
+   ],
+   "question": "In the diagram, $OABC$ is a rectangle in which $\\overrightarrow{OA}=\\frac72\\mathbf i$ and $\\overrightarrow{OC}=\\frac12\\mathbf j$. $P$ is a point on $OA$ such that $\\overrightarrow{OP}=\\lambda\\mathbf i$ for some scalar parameter $\\lambda$ and $\\angle CPB=90^\\circ$.\n\nUse vector methods to show that $4\\lambda^2-14\\lambda+1=0$ and hence find any values of $\\lambda$.",
+   "answer": "$\\overrightarrow{PC}=\\overrightarrow{OC}-\\overrightarrow{OP}=-\\lambda\\mathbf i+\\frac12\\mathbf j$. $\\overrightarrow{PB}=\\overrightarrow{PA}+\\overrightarrow{AB}=\\left(\\frac72-\\lambda\\right)\\mathbf i+\\frac12\\mathbf j$.\n\n$\\angle CPB=90^\\circ$, so $\\overrightarrow{PC}\\cdot\\overrightarrow{PB}=0$:\n$$-\\lambda\\left(\\tfrac72-\\lambda\\right)+\\tfrac14=0\\ \\Rightarrow\\ \\lambda^2-\\tfrac72\\lambda+\\tfrac14=0\\ \\Rightarrow\\ 4\\lambda^2-14\\lambda+1=0.\\ \\blacksquare$$\n$$\\lambda=\\frac{14\\pm\\sqrt{196-16}}8=\\frac{14\\pm6\\sqrt5}8=\\frac{7\\pm3\\sqrt5}4.$$\nBoth values satisfy $0<\\lambda<\\frac72$ (they are $\\approx0.073$ and $\\approx3.43$), so both are valid positions of $P$ on $OA$.",
+   "images": [
+    "assets/img/ext1-2025-normanhurst/q12a.png"
+   ]
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.1.2.5"
+   ],
+   "question": "Below is the graph of $y=\\ln\\left(\\dfrac{x-\\sqrt{x^2-4}}2\\right)$ (it starts at $(2,0)$ and passes through $\\left(e+\\frac1e,-1\\right)$).\n\nShow that the equation of the graph can also be expressed as $x=e^y+e^{-y}$.",
+   "answer": "$$e^y=\\frac{x-\\sqrt{x^2-4}}2\\ \\Rightarrow\\ x-2e^y=\\sqrt{x^2-4}\\ \\Rightarrow\\ x^2-4xe^y+4e^{2y}=x^2-4\\ \\Rightarrow\\ 4e^{2y}+4=4xe^y.$$\nDividing by $4e^y$: $x=e^y+e^{-y}$. $\\blacksquare$",
+   "images": [
+    "assets/img/ext1-2025-normanhurst/q12b.png"
+   ]
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "The graph of $y=\\ln\\left(\\dfrac{x-\\sqrt{x^2-4}}2\\right)$, equivalently $x=e^y+e^{-y}$, starts at $(2,0)$ and passes through $\\left(e+\\frac1e,-1\\right)$. The shaded region is bounded by the curve, the $y$-axis, the $x$-axis and the line $y=-1$.\n\nHence find the exact volume generated when the shaded region is rotated about the $y$ axis.",
+   "answer": "Rotating about the $y$-axis: $V=\\pi\\displaystyle\\int_{-1}^0x^2\\,dy$ with $x=e^y+e^{-y}$.\n$$V=\\pi\\int_{-1}^0\\left(e^{2y}+2+e^{-2y}\\right)dy=\\pi\\left[\\frac12e^{2y}+2y-\\frac12e^{-2y}\\right]_{-1}^0=\\pi\\left[0-\\left(\\frac12e^{-2}-2-\\frac12e^2\\right)\\right]$$\n$$=\\frac\\pi2\\left(e^2-e^{-2}+4\\right)\\text{ units}^3.$$",
+   "images": [
+    "assets/img/ext1-2025-normanhurst/q12b.png"
+   ]
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.8",
+    "12.2.3.6"
+   ],
+   "question": "Three students decide to test each other's strength by playing a game of tug-of-war. They each attach their rope to a weight and pull in their direction as shown in the diagram: Ashton's force $\\mathbf a$ is directed $45^\\circ$ above the negative $x$-axis (up-left), Brendon's force $\\mathbf b$ is directed $30^\\circ$ above the positive $x$-axis (up-right), and Conor's force $\\mathbf c$ is directed $45^\\circ$ below the negative $x$-axis (down-left).\n\nShow that $\\mathbf a=\\left(-\\dfrac1{\\sqrt2}|\\mathbf a|\\right)\\mathbf i+\\left(\\dfrac1{\\sqrt2}|\\mathbf a|\\right)\\mathbf j$ and $\\mathbf b=\\left(\\dfrac{\\sqrt3}2|\\mathbf b|\\right)\\mathbf i+\\left(\\dfrac12|\\mathbf b|\\right)\\mathbf j$.",
+   "answer": "Resolve each force into components along $\\mathbf i$ and $\\mathbf j$.\n\n$\\mathbf a$ is $45^\\circ$ from the vertical, pointing up and to the left: horizontal component $-|\\mathbf a|\\sin45^\\circ=-\\dfrac1{\\sqrt2}|\\mathbf a|$, vertical component $|\\mathbf a|\\cos45^\\circ=\\dfrac1{\\sqrt2}|\\mathbf a|$. Hence $\\mathbf a=-\\frac1{\\sqrt2}|\\mathbf a|\\,\\mathbf i+\\frac1{\\sqrt2}|\\mathbf a|\\,\\mathbf j$.\n\n$\\mathbf b$ is $30^\\circ$ above the horizontal, pointing right: horizontal component $|\\mathbf b|\\cos30^\\circ=\\dfrac{\\sqrt3}2|\\mathbf b|$, vertical component $|\\mathbf b|\\sin30^\\circ=\\dfrac12|\\mathbf b|$. Hence $\\mathbf b=\\frac{\\sqrt3}2|\\mathbf b|\\,\\mathbf i+\\frac12|\\mathbf b|\\,\\mathbf j$. $\\blacksquare$",
+   "images": [
+    "assets/img/ext1-2025-normanhurst/q12c.png"
+   ]
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.2.3.6",
+    "12.2.2.8"
+   ],
+   "question": "Three students play tug-of-war with forces $\\mathbf a$, $\\mathbf b$ and $\\mathbf c$ acting on a weight, where $\\mathbf a=-\\frac1{\\sqrt2}|\\mathbf a|\\,\\mathbf i+\\frac1{\\sqrt2}|\\mathbf a|\\,\\mathbf j$ ($45^\\circ$ above the negative $x$-axis), $\\mathbf b=\\frac{\\sqrt3}2|\\mathbf b|\\,\\mathbf i+\\frac12|\\mathbf b|\\,\\mathbf j$ and $\\mathbf c$ is directed $45^\\circ$ below the negative $x$-axis. It is given that $|\\mathbf c|=250$ N. When the game starts, all three students are unable to move the weight from its starting position in any direction.\n\nFind the exact value of $|\\mathbf a|$ and $|\\mathbf b|$. (You do not need to rationalise the denominators in your final answer.)",
+   "answer": "$\\mathbf c=-\\dfrac{250}{\\sqrt2}\\mathbf i-\\dfrac{250}{\\sqrt2}\\mathbf j$. The weight does not move, so $\\mathbf a+\\mathbf b+\\mathbf c=\\mathbf 0$.\n\n$\\mathbf i$: $-\\dfrac{|\\mathbf a|}{\\sqrt2}+\\dfrac{\\sqrt3}2|\\mathbf b|-\\dfrac{250}{\\sqrt2}=0$. $\\mathbf j$: $\\dfrac{|\\mathbf a|}{\\sqrt2}+\\dfrac12|\\mathbf b|-\\dfrac{250}{\\sqrt2}=0$.\n\nAdding: $\\dfrac{\\sqrt3+1}2|\\mathbf b|=\\dfrac{500}{\\sqrt2}$, so $|\\mathbf b|=\\dfrac{1000}{\\sqrt2(\\sqrt3+1)}=\\dfrac{1000}{\\sqrt6+\\sqrt2}$ N $\\left(=250\\left(\\sqrt6-\\sqrt2\\right)\\right)$.\n\nFrom the $\\mathbf j$ equation: $|\\mathbf a|=250-\\dfrac{\\sqrt2}2|\\mathbf b|=250-\\dfrac{500}{\\sqrt3+1}$ N $\\left(=250\\left(2-\\sqrt3\\right)\\right)$.\n\nSo $|\\mathbf a|=250-\\dfrac{500}{\\sqrt3+1}\\approx67.0$ N and $|\\mathbf b|=\\dfrac{1000}{\\sqrt6+\\sqrt2}\\approx258.8$ N.",
+   "images": [
+    "assets/img/ext1-2025-normanhurst/q12c.png"
+   ]
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.2"
+   ],
+   "question": "Show that $\\dfrac1{(n+2)!}-\\dfrac{n+1}{(n+3)!}=\\dfrac2{(n+3)!}$, where $n$ is an integer.",
+   "answer": "$\\dfrac1{(n+2)!}=\\dfrac{n+3}{(n+3)!}$, so LHS $=\\dfrac{(n+3)-(n+1)}{(n+3)!}=\\dfrac2{(n+3)!}$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Prove by mathematical induction that, for all positive integers $n$, $$\\frac{1\\times2}{3!}+\\frac{2\\times2^2}{4!}+\\frac{3\\times2^3}{5!}+\\dots+\\frac{n\\times2^n}{(n+2)!}=1-\\frac{2^{n+1}}{(n+2)!}.$$",
+   "answer": "Let $S(n)$ be the given statement.\n\n**Base case** $n=1$: LHS $=\\dfrac{1\\times2}{3!}=\\dfrac13$. RHS $=1-\\dfrac{2^2}{3!}=1-\\dfrac23=\\dfrac13$. $S(1)$ is true.\n\n**Inductive step.** Assume $S(k)$: $\\displaystyle\\sum_{r=1}^k\\frac{r\\,2^r}{(r+2)!}=1-\\frac{2^{k+1}}{(k+2)!}$. Then\n$$\\sum_{r=1}^{k+1}\\frac{r\\,2^r}{(r+2)!}=1-\\frac{2^{k+1}}{(k+2)!}+\\frac{(k+1)2^{k+1}}{(k+3)!}=1-2^{k+1}\\left[\\frac{k+3}{(k+3)!}-\\frac{k+1}{(k+3)!}\\right]=1-\\frac{2^{k+1}\\cdot2}{(k+3)!}=1-\\frac{2^{k+2}}{(k+3)!},$$\nwhich is $S(k+1)$.\n\nBy mathematical induction $S(n)$ is true for all positive integers $n$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.3.2.4",
+    "11.3.2.2"
+   ],
+   "question": "You are given that $\\cos3\\theta=4\\cos^3\\theta-3\\cos\\theta$ and $\\sin3\\theta=3\\sin\\theta-4\\sin^3\\theta$. Use this to show that $\\sin^4\\theta+\\cos^4\\theta=\\dfrac14(\\cos4\\theta+3)$.",
+   "answer": "Multiply the first by $\\cos\\theta$: $4\\cos^4\\theta=\\cos3\\theta\\cos\\theta+3\\cos^2\\theta$. Multiply the second by $\\sin\\theta$: $4\\sin^4\\theta=3\\sin^2\\theta-\\sin3\\theta\\sin\\theta$. Adding,\n$$4\\cos^4\\theta+4\\sin^4\\theta=\\cos3\\theta\\cos\\theta-\\sin3\\theta\\sin\\theta+3\\left(\\cos^2\\theta+\\sin^2\\theta\\right)=\\cos(3\\theta+\\theta)+3=\\cos4\\theta+3.$$\nSo $\\sin^4\\theta+\\cos^4\\theta=\\frac14(\\cos4\\theta+3)$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.1"
+   ],
+   "question": "By letting $x=\\cos\\theta$ in the quartic equation $8x^4+8\\left(1-x^2\\right)^2=7$, show that $\\cos4\\theta=\\dfrac12$. (You may use $\\sin^4\\theta+\\cos^4\\theta=\\frac14(\\cos4\\theta+3)$.)",
+   "answer": "With $x=\\cos\\theta$, $1-x^2=\\sin^2\\theta$, so the equation becomes $8\\cos^4\\theta+8\\sin^4\\theta=7$, i.e. $\\cos^4\\theta+\\sin^4\\theta=\\frac78$. Using the identity: $\\frac14(\\cos4\\theta+3)=\\frac78\\Rightarrow\\cos4\\theta+3=\\frac72\\Rightarrow\\cos4\\theta=\\frac12$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q13(b)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "11.2.3.3",
+    "11.3.3.1"
+   ],
+   "question": "Given that $x=\\cos\\theta$ satisfies $8x^4+8\\left(1-x^2\\right)^2=7$ exactly when $\\cos4\\theta=\\frac12$, show that $\\cos^2\\dfrac\\pi{12}\\cos^2\\dfrac{5\\pi}{12}=\\dfrac1{16}$.",
+   "answer": "$\\cos4\\theta=\\frac12$ gives $4\\theta=\\pm\\frac\\pi3+2\\pi k$, so (for $0\\le\\theta\\le\\pi$) $4\\theta=\\frac\\pi3,\\frac{5\\pi}3,\\frac{7\\pi}3,\\frac{11\\pi}3$ and $\\theta=\\frac\\pi{12},\\frac{5\\pi}{12},\\frac{7\\pi}{12},\\frac{11\\pi}{12}$. These give four distinct roots of the quartic:\n$$x=\\cos\\tfrac\\pi{12},\\ \\cos\\tfrac{5\\pi}{12},\\ \\cos\\tfrac{7\\pi}{12}=-\\cos\\tfrac{5\\pi}{12},\\ \\cos\\tfrac{11\\pi}{12}=-\\cos\\tfrac\\pi{12}.$$\nExpanding the quartic: $8x^4+8\\left(1-2x^2+x^4\\right)-7=0\\Rightarrow16x^4-16x^2+1=0$. The product of the roots is $\\dfrac{e}{a}=\\dfrac1{16}$. The product of the four roots is $\\left(\\cos\\frac\\pi{12}\\right)\\left(-\\cos\\frac\\pi{12}\\right)\\left(\\cos\\frac{5\\pi}{12}\\right)\\left(-\\cos\\frac{5\\pi}{12}\\right)=\\cos^2\\frac\\pi{12}\\cos^2\\frac{5\\pi}{12}$. Hence\n$$\\cos^2\\frac\\pi{12}\\cos^2\\frac{5\\pi}{12}=\\frac1{16}.\\ \\blacksquare$$"
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.4.16",
+    "12.5.4.15"
+   ],
+   "question": "A team of Australian wildlife conservationists are working on a project to increase the population of the mountain pygmy-possums in Kosciuszko National Park. Populations of more than $800$ are unsustainable due to a lack of habitat. They propose the logistic model of population growth $\\dfrac{dP}{dt}=rP(800-P)$, where $P$ is the number of pygmy-possums in the park, $t$ is time in years and $r$ is a constant. The team initially releases $100$ possums.\n\nDuring the months of spring, when the maximum growth rate occurs, all the pygmy-possums in the monitored population find a mate and half the possum pairs successfully raise an offspring.\n\nShow that $r=\\dfrac1{1600}$.",
+   "answer": "$\\dfrac{dP}{dt}=rP(800-P)$ is a downward parabola in $P$ with maximum at $P=400$, where $\\dfrac{dP}{dt}=r\\cdot400\\cdot400=160\\,000\\,r$.\n\nAt this time $400$ possums form $200$ pairs, and half of the pairs raise an offspring, so the population grows by $100$ per year: $160\\,000r=100$, so $r=\\dfrac1{1600}$. $\\blacksquare$\n\n(The school's printed working has '$16\\,000r$', a slip: $400\\times400=160\\,000$, and only $160\\,000r=100$ gives $r=\\frac1{1600}$.)"
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.4.15"
+   ],
+   "question": "The population $P$ of pygmy-possums satisfies $\\dfrac{dP}{dt}=\\dfrac1{1600}P(800-P)$ with $P(0)=100$. Given that $\\dfrac1{P(800-P)}=\\dfrac1{800}\\left(\\dfrac1P+\\dfrac1{800-P}\\right)$, solve the differential equation to show that $P(t)=\\dfrac{800}{1+7e^{-0.5t}}$.",
+   "answer": "$\\dfrac{dP}{P(800-P)}=\\dfrac{dt}{1600}\\Rightarrow\\dfrac1{800}\\displaystyle\\int\\left(\\frac1P+\\frac1{800-P}\\right)dP=\\int\\frac{dt}{1600}$.\n$$\\ln|P|-\\ln|800-P|=\\tfrac12t+C\\ \\Rightarrow\\ \\frac P{800-P}=Ae^{\\frac12t}$$\n(as $0<P<800$, the absolute values are not needed). Then $P=800Ae^{t/2}-PAe^{t/2}$, so $P\\left(1+Ae^{t/2}\\right)=800Ae^{t/2}$ and\n$$P=\\frac{800Ae^{t/2}}{1+Ae^{t/2}}=\\frac{800}{\\frac1Ae^{-t/2}+1}=\\frac{800}{1+Be^{-\\frac12t}},\\quad B=\\tfrac1A.$$\nWhen $t=0$, $P=100$: $100=\\dfrac{800}{1+B}\\Rightarrow B=7$. So $P(t)=\\dfrac{800}{1+7e^{-0.5t}}$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q13(c)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.16"
+   ],
+   "question": "The pygmy-possum population is modelled by $P(t)=\\dfrac{800}{1+7e^{-0.5t}}$, where $t$ is in years. How long, to the nearest year, will it take for the possum population to reach $85\\%$ of the maximum sustainable population (800)?",
+   "answer": "$85\\%$ of $800$ is $680$: $680=\\dfrac{800}{1+7e^{-t/2}}\\Rightarrow1+7e^{-t/2}=\\dfrac{20}{17}\\Rightarrow e^{-t/2}=\\dfrac3{119}\\Rightarrow t=2\\ln\\dfrac{119}3\\approx7.36$.\n\nAbout $7$ years."
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "A hemispherical water tank has radius $R$ cm. The tank has a hole at the bottom which allows water to drain out. Initially the tank is empty. Water is poured into the tank at a constant rate of $2kR$ cm$^3$/sec, where $k$ is a positive constant. After $t$ seconds, the height of the water in the tank is $h$ cm, and the volume of water in the tank is $V$ cm$^3$, where $V=\\pi\\left(Rh^2-\\dfrac{h^3}3\\right)$. (Do NOT prove this.)\n\nWhile water flows into the tank and also drains out of the bottom, the rate of change of the volume of water in the tank is given by $\\dfrac{dV}{dt}=k(2R-h)$.\n\nShow that $\\dfrac{dh}{dt}=\\dfrac k{\\pi h}$.",
+   "answer": "$\\dfrac{dV}{dh}=\\pi\\left(2Rh-h^2\\right)=\\pi h(2R-h)$. By the chain rule, $\\dfrac{dV}{dt}=\\dfrac{dV}{dh}\\cdot\\dfrac{dh}{dt}$, so\n$$k(2R-h)=\\pi h(2R-h)\\frac{dh}{dt}\\ \\Rightarrow\\ \\frac{dh}{dt}=\\frac k{\\pi h}.\\ \\blacksquare$$",
+   "images": [
+    "assets/img/ext1-2025-normanhurst/q14a.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "A hemispherical water tank has radius $R$ cm. The tank has a hole at the bottom which allows water to drain out. Initially the tank is empty. Water is poured into the tank at a constant rate of $2kR$ cm$^3$/sec, where $k$ is a positive constant. After $t$ seconds, the height of the water in the tank is $h$ cm, and the volume of water in the tank is $V$ cm$^3$, where $V=\\pi\\left(Rh^2-\\dfrac{h^3}3\\right)$. (Do NOT prove this.)\n\nWhile water flows into the tank and also drains out of the bottom, the rate of change of the volume of water in the tank is given by $\\dfrac{dV}{dt}=k(2R-h)$.\n\nGiven $\\dfrac{dh}{dt}=\\dfrac k{\\pi h}$, show that the tank is full of water after $T=\\dfrac{\\pi R^2}{2k}$ seconds.",
+   "answer": "$h\\,dh=\\dfrac k\\pi\\,dt\\Rightarrow\\dfrac{h^2}2=\\dfrac k\\pi t+C$. Initially $t=0$, $h=0$, so $C=0$ and $t=\\dfrac{\\pi h^2}{2k}$. The tank is full when $h=R$: $T=\\dfrac{\\pi R^2}{2k}$. $\\blacksquare$",
+   "images": [
+    "assets/img/ext1-2025-normanhurst/q14a.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.2.2",
+    "12.5.4.13"
+   ],
+   "question": "A hemispherical water tank has radius $R$ cm. The tank has a hole at the bottom which allows water to drain out. Initially the tank is empty. Water is poured into the tank at a constant rate of $2kR$ cm$^3$/sec, where $k$ is a positive constant. After $t$ seconds, the height of the water in the tank is $h$ cm, and the volume of water in the tank is $V$ cm$^3$, where $V=\\pi\\left(Rh^2-\\dfrac{h^3}3\\right)$. (Do NOT prove this.)\n\nWhile water flows into the tank and also drains out of the bottom, the rate of change of the volume of water in the tank is given by $\\dfrac{dV}{dt}=k(2R-h)$.\n\nThe instant the tank is full, water stops flowing into the tank, but it continues to drain out of the hole at the bottom as before. Given that the tank is full after $T=\\dfrac{\\pi R^2}{2k}$ seconds, show that the tank takes $3$ times as long to empty as it did to fill.",
+   "answer": "When water is flowing in at $2kR$ the net rate is $k(2R-h)=2kR-kh$, so the rate of draining out is $kh$. With no inflow, $\\dfrac{dV}{dt}=-kh$.\n\n$$\\pi h(2R-h)\\frac{dh}{dt}=-kh\\ \\Rightarrow\\ \\frac{dh}{dt}=-\\frac k{\\pi(2R-h)}\\ \\Rightarrow\\ \\int(2R-h)\\,dh=-\\frac k\\pi\\int dt.$$\n$$2Rh-\\frac{h^2}2=-\\frac k\\pi t+C.$$\nLet $t=0$ at the start of draining, where $h=R$: $2R^2-\\frac{R^2}2=C$, so $C=\\frac32R^2$. The tank is empty when $h=0$: $0=-\\dfrac k\\pi t+\\dfrac32R^2$, so $t=\\dfrac{3\\pi R^2}{2k}=3\\cdot\\dfrac{\\pi R^2}{2k}=3T$. $\\blacksquare$",
+   "images": [
+    "assets/img/ext1-2025-normanhurst/q14a.png"
+   ]
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.2.6.5",
+    "12.2.6.7",
+    "12.2.5.8"
+   ],
+   "question": "A particle is projected from the origin with velocity $V$ metres per second at an angle $\\theta$ to the horizontal. The position of the particle at time $t$ seconds is $\\mathbf r(t)=\\begin{pmatrix}Vt\\cos\\theta\\\\Vt\\sin\\theta-\\frac12gt^2\\end{pmatrix}$, where $g$ is the acceleration due to gravity. The time of flight is $T=\\dfrac{2V\\sin\\theta}g$ if the projectile lands back at ground level. (Do NOT prove this.)\n\nLet $S(t)=\\left|\\dot{\\mathbf r}(t)\\right|^2$ be the function of the square of the speed of the particle in terms of time.\n\nFind the initial projection angle $\\theta$, given that at the time where a quarter of the time of flight has elapsed, the speed of the particle is $\\dfrac{\\sqrt7}4$ of the initial projection speed.",
+   "answer": "$\\dot{\\mathbf r}(t)=\\begin{pmatrix}V\\cos\\theta\\\\V\\sin\\theta-gt\\end{pmatrix}$, so\n$$S(t)=V^2\\cos^2\\theta+\\left(V\\sin\\theta-gt\\right)^2=V^2-2Vgt\\sin\\theta+g^2t^2.$$\nA quarter of the time of flight is $t=\\dfrac T4=\\dfrac{V\\sin\\theta}{2g}$. Then $2Vgt\\sin\\theta=V^2\\sin^2\\theta$ and $g^2t^2=\\frac14V^2\\sin^2\\theta$, so\n$$S=V^2-V^2\\sin^2\\theta+\\tfrac14V^2\\sin^2\\theta=V^2\\left(1-\\tfrac34\\sin^2\\theta\\right).$$\nThe speed is $\\frac{\\sqrt7}4V$, so $S=\\frac7{16}V^2$: $1-\\frac34\\sin^2\\theta=\\frac7{16}\\Rightarrow\\sin^2\\theta=\\frac34\\Rightarrow\\sin\\theta=\\frac{\\sqrt3}2$.\n\nFor a projection angle $0^\\circ<\\theta<90^\\circ$, $\\theta=60^\\circ$ ($\\frac\\pi3$)."
+  }
+ ]
+}
