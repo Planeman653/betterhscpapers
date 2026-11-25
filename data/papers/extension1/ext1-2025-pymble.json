@@ -1,0 +1,519 @@
+{
+ "id": "ext1-2025-pymble",
+ "course": "extension1",
+ "school": "Pymble",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "Pymble 2025 w. sol"
+ },
+ "indexed": "2026-11-26",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q12(c)",
+   "reason": "Sketch of y=√f(x) from the graph of f is outside the Ext 1 syllabus (square-root-of-a-function graph, same family as y²=f(x))."
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.1"
+   ],
+   "question": "What are the values of $x$ for which $(x+3)(x-1)(2-x)>0$?",
+   "answer": "The cubic has leading coefficient $-1$ (from $-x\\cdot x\\cdot x$), so it is positive for $x\\to-\\infty$. Zeroes at $-3,1,2$; the sign alternates: positive for $x<-3$, negative on $(-3,1)$, positive on $(1,2)$, negative for $x>2$. So $x<-3$ or $1<x<2$ (A).",
+   "options": [
+    "$x<-3$ or $1<x<2$",
+    "$x>-3$ or $1<x<2$",
+    "$-3<x<1$ or $x>2$",
+    "$-3<x<1$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.6"
+   ],
+   "question": "If $x+a$ is a factor of $4x^5-11ax^3+x^4$, $a\\neq0$, what is the value of $a$?",
+   "answer": "$P(-a)=0$: $4(-a)^5-11a(-a)^3+(-a)^4=-4a^5+11a^4+a^4=-4a^4(a-3)=0$. Since $a\\ne0$, $a=3$ (B).",
+   "options": [
+    "$-2$",
+    "$3$",
+    "$2$",
+    "$-3$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "What is the area of the region enclosed by the graphs of $y=4-x^2$ and $y=3$?",
+   "answer": "Intersections: $4-x^2=3\\Rightarrow x=\\pm1$. Area $=\\int_{-1}^{1}\\left[(4-x^2)-3\\right]dx=\\int_{-1}^1(1-x^2)\\,dx=2\\left[x-\\frac{x^3}3\\right]_0^1=\\frac43$ (B).",
+   "options": [
+    "$\\dfrac23$ square units",
+    "$\\dfrac43$ square units",
+    "$\\dfrac73$ square units",
+    "$\\dfrac83$ square units"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.7"
+   ],
+   "question": "$\\overrightarrow{AB}=\\mathbf i+3\\mathbf j$ and $\\overrightarrow{BC}=2\\mathbf i-2\\mathbf j$. What is the magnitude of $\\overrightarrow{AC}$?",
+   "answer": "$\\overrightarrow{AC}=\\overrightarrow{AB}+\\overrightarrow{BC}=3\\mathbf i+\\mathbf j$, so $|\\overrightarrow{AC}|=\\sqrt{9+1}=\\sqrt{10}$ (A).",
+   "options": [
+    "$\\sqrt{10}$",
+    "$\\sqrt{24}$",
+    "$\\sqrt{26}$",
+    "$\\sqrt{34}$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.1.7"
+   ],
+   "question": "Consider the polynomial $p(x)=ax^3+bx^2+cx+d$, where $a<0$, $b<0$, $a\\neq0$. Which of the following curves represents $y=p(x)$?",
+   "answer": "$a<0$ means $y\\to+\\infty$ as $x\\to-\\infty$ and $y\\to-\\infty$ as $x\\to+\\infty$, which rules out A and B. The sum of the zeroes is $-\\frac ba<0$ (both $a,b<0$), so the zeroes lie mainly to the left of the $y$-axis: in C they do; in D the zeroes are on the right (sum positive). So C.",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/ext1-2025-pymble/q5.png"
+   ]
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Which of the following is the derivative of $\\arcsin\\left(\\dfrac x3\\right)$?",
+   "answer": "$\\dfrac{d}{dx}\\sin^{-1}\\frac x3=\\dfrac{1/3}{\\sqrt{1-x^2/9}}=\\dfrac{1}{\\sqrt{9-x^2}}$ (B).",
+   "options": [
+    "$\\dfrac1{3\\sqrt{1-x^2}}$",
+    "$\\dfrac1{\\sqrt{9-x^2}}$",
+    "$\\dfrac1{3\\sqrt{1-9x^2}}$",
+    "$-\\dfrac13\\cos\\left(\\dfrac x3\\right)$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.8"
+   ],
+   "question": "How many distinct arrangements are possible from the letters of the word NECESSITIES?",
+   "answer": "$11$ letters: E appears $3$ times, S $3$ times, I $2$ times. $\\dfrac{11!}{3!\\,3!\\,2!}=\\dfrac{39\\,916\\,800}{72}=554\\,400$ (B).",
+   "options": [
+    "$50\\,400$",
+    "$554\\,400$",
+    "$1\\,663\\,200$",
+    "$39\\,916\\,800$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.4"
+   ],
+   "question": "Given the function $f(x)=x+e^x$, $x\\ge0$, what is the gradient of the inverse function $y=f^{-1}(x)$ at $(1,0)$?",
+   "answer": "$f(0)=0+e^0=1$, so $(1,0)$ lies on $y=f^{-1}(x)$. $f'(x)=1+e^x$, so $f'(0)=2$. The gradient of the inverse at $(1,0)$ is $\\dfrac1{f'(0)}=\\dfrac12$ (C).",
+   "options": [
+    "$2$",
+    "$1+\\dfrac1e$",
+    "$\\dfrac12$",
+    "$\\dfrac e{e+1}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.7"
+   ],
+   "question": "The quantity $N$ increases exponentially over time according to the equation $N=P+Ae^{0.2t}$. The graph shows the change in $N$ over time $(t)$, with a horizontal asymptote at $N=10$ and a $N$-intercept of $35$. Which equation describes the rate of change of $N$ with respect to $t$?",
+   "answer": "The asymptote $N=10$ gives $P=10$. Then $\\dfrac{dN}{dt}=0.2Ae^{0.2t}=0.2(N-P)=0.2(N-10)$ (A).",
+   "options": [
+    "$\\dfrac{dN}{dt}=0.2(N-10)$",
+    "$\\dfrac{dN}{dt}=0.2(N-25)$",
+    "$\\dfrac{dN}{dt}=10(N-0.2)$",
+    "$\\dfrac{dN}{dt}=25(N-10)$"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/ext1-2025-pymble/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.4.9"
+   ],
+   "question": "Which of the following slope fields represents the differential equation $\\dfrac{dy}{dx}=x^2-y$?",
+   "answer": "The slope is $0$ (horizontal segments) along the parabola $y=x^2$, positive below it and negative above it. On the $y$-axis the slope is $-y$, and along the $x$-axis it is $x^2\\ge0$. Only slope field A has these features (A).",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/ext1-2025-pymble/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.10"
+   ],
+   "question": "Given $\\mathbf a=\\mathbf i+3\\mathbf j$ and $\\mathbf b=\\mathbf i-\\mathbf j$, find the vector projection of $\\mathbf a$ onto $\\mathbf b$.",
+   "answer": "$\\operatorname{proj}_{\\mathbf b}\\mathbf a=\\dfrac{\\mathbf a\\cdot\\mathbf b}{|\\mathbf b|^2}\\mathbf b=\\dfrac{1-3}{2}(\\mathbf i-\\mathbf j)=-(\\mathbf i-\\mathbf j)=-\\mathbf i+\\mathbf j$."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Solve $\\dfrac1{2-x}\\ge-1$.",
+   "answer": "$x\\neq2$. Multiply by $(2-x)^2>0$: $2-x\\ge-(2-x)^2\\Rightarrow(2-x)+(2-x)^2\\ge0\\Rightarrow(2-x)(3-x)\\ge0\\Rightarrow(x-2)(x-3)\\ge0$.\n$$x<2\\ \\text{ or }\\ x\\ge3$$"
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Using the substitution $u=3x^2+1$, find $\\displaystyle\\int x\\cos(3x^2+1)\\,dx$.",
+   "answer": "$du=6x\\,dx$, so $x\\,dx=\\frac{du}6$. $\\displaystyle\\int\\cos u\\,\\frac{du}6=\\frac16\\sin u+C=\\frac16\\sin\\left(3x^2+1\\right)+C$."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "Find the coefficient of the term in $x^6$ in the expansion of $\\left(\\dfrac{3x^2}2+\\dfrac15\\right)^6$.",
+   "answer": "$T_{r+1}=\\binom6r\\left(\\frac{3x^2}2\\right)^{6-r}\\left(\\frac15\\right)^r\\propto x^{12-2r}$. For $x^6$: $r=3$.\nCoefficient $=\\binom63\\left(\\dfrac32\\right)^3\\left(\\dfrac15\\right)^3=20\\cdot\\dfrac{27}{8}\\cdot\\dfrac1{125}=\\dfrac{27}{50}$."
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "The sum of two of the roots of the equation $2x^3+6x^2+kx-150=0$ is zero. Find the value of $k$.",
+   "answer": "Let the roots be $\\alpha,-\\alpha,\\beta$. Sum of roots $=-\\frac62=-3$, so $\\beta=-3$. Substitute $x=-3$: $2(-27)+6(9)-3k-150=0\\Rightarrow-3k=150\\Rightarrow k=-50$."
+  },
+  {
+   "ref": "Q11(f)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.2"
+   ],
+   "question": "Show that $\\cot(A+B)=\\dfrac{\\cot A\\cot B-1}{\\cot A+\\cot B}$.",
+   "answer": "$\\cot(A+B)=\\dfrac{\\cos(A+B)}{\\sin(A+B)}=\\dfrac{\\cos A\\cos B-\\sin A\\sin B}{\\sin A\\cos B+\\cos A\\sin B}$. Divide numerator and denominator by $\\sin A\\sin B$:\n$=\\dfrac{\\cot A\\cot B-1}{\\cot B+\\cot A}$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q11(g)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.3.3"
+   ],
+   "question": "Find the Cartesian equation of the curve with parametric equations $x=2\\cos\\theta$, $y=\\sqrt3\\sin\\theta$, $0\\le\\theta\\le2\\pi$.",
+   "answer": "$\\cos\\theta=\\frac x2$, $\\sin\\theta=\\frac y{\\sqrt3}$. Using $\\cos^2\\theta+\\sin^2\\theta=1$:\n$$\\frac{x^2}4+\\frac{y^2}3=1$$ (an ellipse)."
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.2"
+   ],
+   "question": "Write $\\sqrt3\\cos x-3\\sin x$ in the form $R\\cos(x+A)$ where $R>0$ and $0<A<\\dfrac\\pi2$.",
+   "answer": "$R\\cos(x+A)=R\\cos A\\cos x-R\\sin A\\sin x$, so $R\\cos A=\\sqrt3$ and $R\\sin A=3$. $R=\\sqrt{3+9}=2\\sqrt3$, $\\tan A=\\dfrac3{\\sqrt3}=\\sqrt3\\Rightarrow A=\\dfrac\\pi3$.\n$$\\sqrt3\\cos x-3\\sin x=2\\sqrt3\\cos\\left(x+\\frac\\pi3\\right)$$"
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.7",
+    "12.2.3.7"
+   ],
+   "question": "The diagram shows the vectors $\\mathbf a=\\begin{pmatrix}1\\\\6\\end{pmatrix}$, $\\mathbf b=\\begin{pmatrix}-7\\\\-5\\end{pmatrix}$ and the resultant vector $\\mathbf a+\\mathbf b$, where $\\overrightarrow{OA}=\\mathbf a$, $\\overrightarrow{OB}=\\mathbf b$ and $\\overrightarrow{OC}=\\mathbf a+\\mathbf b$. Show that the triangle $AOC$ formed by the vectors is an isosceles triangle.",
+   "answer": "$\\overrightarrow{OC}=\\mathbf a+\\mathbf b=\\begin{pmatrix}-6\\\\1\\end{pmatrix}$.\n$|\\overrightarrow{OC}|=\\sqrt{36+1}=\\sqrt{37}$ and $|\\overrightarrow{OA}|=\\sqrt{1+36}=\\sqrt{37}$.\nSince $|OC|=|OA|$, triangle $AOC$ is isosceles. $\\blacksquare$",
+   "images": [
+    "assets/img/ext1-2025-pymble/q12b.png"
+   ]
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "With $\\overrightarrow{OA}=\\begin{pmatrix}1\\\\6\\end{pmatrix}$ and $\\overrightarrow{OC}=\\begin{pmatrix}-6\\\\1\\end{pmatrix}$ as in the diagram, find the size of $\\angle AOC$.",
+   "answer": "$\\cos\\angle AOC=\\dfrac{\\overrightarrow{OA}\\cdot\\overrightarrow{OC}}{|OA||OC|}=\\dfrac{(1)(-6)+(6)(1)}{37}=0$, so $\\angle AOC=\\dfrac\\pi2$ ($90^\\circ$).",
+   "images": [
+    "assets/img/ext1-2025-pymble/q12b.png"
+   ]
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "If the roots of the equation $x^3+3x^2-6x-8=0$ are in arithmetic sequence, find all the roots.",
+   "answer": "Let the roots be $\\alpha-d,\\ \\alpha,\\ \\alpha+d$. Sum $=3\\alpha=-3\\Rightarrow\\alpha=-1$.\nProduct of roots $=-\\frac{-8}{1}=8$: $\\alpha(\\alpha-d)(\\alpha+d)=(-1)\\left(1-d^2\\right)=8\\Rightarrow d^2=9\\Rightarrow d=\\pm3$.\nRoots: $-4,\\ -1,\\ 2$."
+  },
+  {
+   "ref": "Q12(e)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "The internal surface of a water reservoir is created by rotating the parabola $y=4x^2$ about the $y$-axis between $y=0$ and $y=h$. The point $(r,h)$ lies on the parabola at the top surface of the water. Show that the volume of the water in the reservoir is given by $V=2\\pi r^4$.",
+   "answer": "$x^2=\\dfrac y4$. $V=\\pi\\displaystyle\\int_0^hx^2\\,dy=\\frac\\pi4\\int_0^hy\\,dy=\\frac\\pi8h^2$.\nSince $(r,h)$ is on the curve, $h=4r^2$, so $V=\\dfrac\\pi8\\left(4r^2\\right)^2=2\\pi r^4$. $\\blacksquare$",
+   "images": [
+    "assets/img/ext1-2025-pymble/q12e.png"
+   ]
+  },
+  {
+   "ref": "Q12(e)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "For the reservoir with $h=4r^2$, $h$ is the depth of the water at time $t$ hours and $r$ metres is the radius of the upper surface at that time. The radius of the surface is reducing at a constant rate such that $\\dfrac{dr}{dt}=-2$. Show that the rate of change of the depth is given by $\\dfrac{dh}{dt}=-16r$.",
+   "answer": "$h=4r^2\\Rightarrow\\dfrac{dh}{dr}=8r$. $\\dfrac{dh}{dt}=\\dfrac{dh}{dr}\\cdot\\dfrac{dr}{dt}=8r(-2)=-16r$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q12(e)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "For the reservoir with $V=2\\pi r^4$ and $\\dfrac{dr}{dt}=-2$, find the rate of change of the volume when the radius is $5$ metres.",
+   "answer": "$\\dfrac{dV}{dr}=8\\pi r^3$. $\\dfrac{dV}{dt}=\\dfrac{dV}{dr}\\cdot\\dfrac{dr}{dt}=8\\pi r^3(-2)=-16\\pi r^3$. At $r=5$: $\\dfrac{dV}{dt}=-16\\pi(125)=-2000\\pi$ m$^3$/hour (decreasing at $2000\\pi\\approx6283$ m$^3$/h)."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^{\\frac1{\\sqrt3}}\\frac{\\sin\\left(\\tan^{-1}x\\right)}{1+x^2}\\,dx$ by using the substitution $u=\\tan^{-1}x$.",
+   "answer": "$u=\\tan^{-1}x\\Rightarrow du=\\dfrac{dx}{1+x^2}$. When $x=0$, $u=0$; when $x=\\frac1{\\sqrt3}$, $u=\\frac\\pi6$.\n$\\displaystyle\\int_0^{\\pi/6}\\sin u\\,du=\\left[-\\cos u\\right]_0^{\\pi/6}=-\\cos\\frac\\pi6+\\cos0=1-\\frac{\\sqrt3}2$."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "Use mathematical induction to prove that $9^n-4^n$ is divisible by $5$ for all integers $n\\ge1$.",
+   "answer": "**Base case** $n=1$: $9-4=5$, divisible by $5$. ✓\n**Assume** $9^k-4^k=5M$ for some integer $M$, so $9^k=5M+4^k$.\n**Then** $9^{k+1}-4^{k+1}=9\\cdot9^k-4\\cdot4^k=9\\left(5M+4^k\\right)-4\\cdot4^k=45M+5\\cdot4^k=5\\left(9M+4^k\\right)$, divisible by $5$ since $9M+4^k$ is an integer.\nBy induction, the result is true for all integers $n\\ge1$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.1",
+    "12.3.1.3"
+   ],
+   "question": "Find the shaded area between the curve $y=3\\sin^{-1}\\!\\left(\\dfrac x2\\right)$ and the $x$-axis for $x\\in[0,2]$.",
+   "answer": "Shaded area $=\\displaystyle\\int_0^23\\sin^{-1}\\!\\left(\\frac x2\\right)dx$.\nAlternatively, in terms of $y$: $x=2\\sin\\frac y3$, and at $x=2$, $y=\\frac{3\\pi}2$. Area $=$ rectangle $-\\displaystyle\\int_0^{3\\pi/2}2\\sin\\frac y3\\,dy=3\\pi-\\left[-6\\cos\\frac y3\\right]_0^{3\\pi/2}=3\\pi-6\\left(\\cos0-\\cos\\frac\\pi2\\right)$\n$$=3\\pi-6\\ \\text{units}^2$$",
+   "images": [
+    "assets/img/ext1-2025-pymble/q13c.png"
+   ]
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.4.15"
+   ],
+   "question": "A beehive initially had a population of $100$ bees. The population growth of the colony is given by the logistic equation $\\dfrac{dP}{dt}=0.2P\\left(\\dfrac{M-P}M\\right)$, where $t$ is the time in months and $M$ is the carrying capacity. After $12$ months the population of the hive was $400$ bees. Use the fact that $\\dfrac M{P(M-P)}=\\dfrac1P+\\dfrac1{M-P}$ to show that the carrying capacity, $M$, is approximately $570$ bees.",
+   "answer": "$\\dfrac{M}{P(M-P)}\\,dP=0.2\\,dt\\Rightarrow\\displaystyle\\int\\left(\\frac1P+\\frac1{M-P}\\right)dP=0.2t+c\\Rightarrow\\ln\\left|\\frac P{M-P}\\right|=0.2t+c$.\nSo $\\dfrac P{M-P}=Ae^{0.2t}$ with $A>0$ (as $0<P<M$).\n$t=0,P=100$: $A=\\dfrac{100}{M-100}$.\n$t=12,P=400$: $\\dfrac{400}{M-400}=\\dfrac{100}{M-100}e^{2.4}\\Rightarrow4(M-100)=e^{2.4}(M-400)$.\n$M\\left(e^{2.4}-4\\right)=400e^{2.4}-400\\Rightarrow M=\\dfrac{400\\left(e^{2.4}-1\\right)}{e^{2.4}-4}\\approx570.9\\approx570$ bees."
+  },
+  {
+   "ref": "Q13(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.3.3.1",
+    "11.3.2.2"
+   ],
+   "question": "It is known that $\\cos3\\theta=4\\cos\\theta\\cos\\left(\\dfrac\\pi3-\\theta\\right)\\cos\\left(\\dfrac\\pi3+\\theta\\right)$. Using this result, or otherwise, solve $\\sqrt2\\cos\\theta\\left(\\cos^2\\theta-3\\sin^2\\theta\\right)=1$ for $0\\le\\theta\\le2\\pi$.",
+   "answer": "$\\cos\\left(\\frac\\pi3-\\theta\\right)\\cos\\left(\\frac\\pi3+\\theta\\right)=\\left(\\frac12\\cos\\theta+\\frac{\\sqrt3}2\\sin\\theta\\right)\\left(\\frac12\\cos\\theta-\\frac{\\sqrt3}2\\sin\\theta\\right)=\\frac14\\cos^2\\theta-\\frac34\\sin^2\\theta$.\nSo $\\cos3\\theta=4\\cos\\theta\\left(\\frac14\\cos^2\\theta-\\frac34\\sin^2\\theta\\right)=\\cos\\theta\\left(\\cos^2\\theta-3\\sin^2\\theta\\right)$.\nThe equation becomes $\\sqrt2\\cos3\\theta=1\\Rightarrow\\cos3\\theta=\\dfrac1{\\sqrt2}$, with $0\\le3\\theta\\le6\\pi$:\n$3\\theta=\\dfrac\\pi4,\\dfrac{7\\pi}4,\\dfrac{9\\pi}4,\\dfrac{15\\pi}4,\\dfrac{17\\pi}4,\\dfrac{23\\pi}4$.\n$$\\theta=\\frac\\pi{12},\\ \\frac{7\\pi}{12},\\ \\frac{3\\pi}4,\\ \\frac{5\\pi}4,\\ \\frac{17\\pi}{12},\\ \\frac{23\\pi}{12}$$"
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "Given that $\\dfrac{dy}{dx}=\\dfrac{y-1}{x+2}$ and $y(6)=3$, find the value of $y(1)$.",
+   "answer": "$\\displaystyle\\int\\frac{dy}{y-1}=\\int\\frac{dx}{x+2}\\Rightarrow\\ln|y-1|=\\ln|x+2|+c$.\n$y(6)=3$: $\\ln2=\\ln8+c\\Rightarrow c=\\ln\\frac14$. So $|y-1|=\\dfrac{|x+2|}4$.\nSince $y-1=2>0$ at $x=6$ and the solution cannot cross $y=1$ (a solution of the equation), $y-1>0$ throughout; for $x>-2$, $y-1=\\dfrac{x+2}4$. At $x=1$: $y-1=\\dfrac34$.\n$$y(1)=\\frac74$$\nNote: the school's solutions give $y=\\frac14$ or $\\frac74$; the branch $y=\\frac14$ would need $y-1<0$, which is impossible for the particular solution through $(6,3)$."
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.4.1.11",
+    "11.4.1.17"
+   ],
+   "question": "Two circular tables seat $6$ and $4$ people respectively. In how many ways can $10$ people be seated at the two tables if Taylor and Travis are to sit together at the bigger table?",
+   "answer": "Choose the other $4$ people for the bigger table: $\\binom84=70$.\nArrange at the bigger table: treat Taylor and Travis as one block, giving $5$ objects in a circle, $(5-1)!=4!$ ways, and $2!$ orders within the block.\nArrange the smaller table of $4$: $(4-1)!=3!$.\nTotal $=70\\times4!\\times2!\\times3!=70\\times24\\times2\\times6=20\\,160$."
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.1"
+   ],
+   "question": "Solve $\\tan4\\alpha=1$ for $0\\le\\alpha\\le\\pi$.",
+   "answer": "$0\\le4\\alpha\\le4\\pi$, $\\tan4\\alpha=1\\Rightarrow4\\alpha=\\dfrac\\pi4,\\dfrac{5\\pi}4,\\dfrac{9\\pi}4,\\dfrac{13\\pi}4\\Rightarrow\\alpha=\\dfrac\\pi{16},\\dfrac{5\\pi}{16},\\dfrac{9\\pi}{16},\\dfrac{13\\pi}{16}$."
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.3.2.4",
+    "11.2.1.8"
+   ],
+   "question": "Given $\\tan4\\alpha=\\dfrac{4\\tan\\alpha-4\\tan^3\\alpha}{1-6\\tan^2\\alpha+\\tan^4\\alpha}$ and by letting $x=\\tan\\alpha$, solve the equation $x^4+4x^3-6x^2-4x+1=0$.",
+   "answer": "$x^4+4x^3-6x^2-4x+1=0\\Rightarrow1-6x^2+x^4=4x-4x^3\\Rightarrow\\dfrac{4x-4x^3}{1-6x^2+x^4}=1$.\nWith $x=\\tan\\alpha$ this is $\\tan4\\alpha=1$, whose solutions are $\\alpha=\\frac\\pi{16},\\frac{5\\pi}{16},\\frac{9\\pi}{16},\\frac{13\\pi}{16}$ from part (i).\n$$x=\\tan\\frac\\pi{16},\\ \\tan\\frac{5\\pi}{16},\\ \\tan\\frac{9\\pi}{16},\\ \\tan\\frac{13\\pi}{16}$$"
+  },
+  {
+   "ref": "Q14(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "The roots of $x^4+4x^3-6x^2-4x+1=0$ are $\\tan\\dfrac\\pi{16},\\tan\\dfrac{5\\pi}{16},\\tan\\dfrac{9\\pi}{16},\\tan\\dfrac{13\\pi}{16}$. Hence, show that $\\tan^2\\dfrac\\pi{16}+\\tan^2\\dfrac{5\\pi}{16}+\\tan^2\\dfrac{9\\pi}{16}+\\tan^2\\dfrac{13\\pi}{16}=28$.",
+   "answer": "Let the roots be $\\alpha,\\beta,\\gamma,\\delta$. $\\sum\\alpha=-4$ and $\\sum\\alpha\\beta=-6$.\n$\\alpha^2+\\beta^2+\\gamma^2+\\delta^2=\\left(\\sum\\alpha\\right)^2-2\\sum\\alpha\\beta=(-4)^2-2(-6)=16+12=28$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q14(d)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.6.7"
+   ],
+   "question": "The position vector of a particle projected from the origin at an initial velocity of $v$ m/s at an angle of $\\theta$ to the horizontal is given by $\\mathbf r(t)=\\begin{pmatrix}vt\\cos\\theta\\\\vt\\sin\\theta-\\frac{gt^2}2\\end{pmatrix}$. Show that the time of flight of the particle is given by $t=\\dfrac{2v\\sin\\theta}g$ and the horizontal range by $R=\\dfrac{v^2\\sin2\\theta}g$.",
+   "answer": "Time of flight: $y=0\\Rightarrow vt\\sin\\theta-\\frac{gt^2}2=0\\Rightarrow t\\left(v\\sin\\theta-\\frac{gt}2\\right)=0\\Rightarrow t=\\dfrac{2v\\sin\\theta}g$ (for $t>0$).\nRange: $R=vt\\cos\\theta=v\\cos\\theta\\cdot\\dfrac{2v\\sin\\theta}g=\\dfrac{v^2\\cdot2\\sin\\theta\\cos\\theta}g=\\dfrac{v^2\\sin2\\theta}g$. $\\blacksquare$",
+   "images": [
+    "assets/img/ext1-2025-pymble/q14d1.png"
+   ]
+  },
+  {
+   "ref": "Q14(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.6.8"
+   ],
+   "question": "Particle $A$ is projected from the origin at a velocity of $u$ m/s at an angle of $60^\\circ$ to the horizontal. For particle $B$, the initial velocity is doubled to $2u$ m/s and the angle of elevation is halved to $30^\\circ$. Using $R=\\dfrac{v^2\\sin2\\theta}g$, show that the range of Particle $B$ is $4$ times that of Particle $A$.",
+   "answer": "$R_A=\\dfrac{u^2\\sin120^\\circ}g=\\dfrac{\\sqrt3u^2}{2g}$.\n$R_B=\\dfrac{(2u)^2\\sin60^\\circ}g=\\dfrac{4u^2\\cdot\\frac{\\sqrt3}2}g=\\dfrac{2\\sqrt3u^2}g$.\n$\\dfrac{R_B}{R_A}=\\dfrac{2\\sqrt3}{\\sqrt3/2}=4$. $\\blacksquare$",
+   "images": [
+    "assets/img/ext1-2025-pymble/q14d2.png"
+   ]
+  }
+ ]
+}
