@@ -1,0 +1,813 @@
+{
+ "id": "phys-2021-baulkham-hills",
+ "course": "physics",
+ "school": "Baulkham Hills",
+ "year": 2021,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "6528",
+  "title": "Baulkham Hills 2021 w. sol"
+ },
+ "indexed": "2026-11-25",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.1"
+   ],
+   "question": "A $10\\ \\text{g}$ ball rolls off the edge of a $1\\ \\text{m}$ tall table at $2\\ \\text{m s}^{-1}$. How far from the edge of the table does the ball land?",
+   "options": [
+    "$9.1\\ \\text{m}$",
+    "$90\\ \\text{cm}$",
+    "$136\\ \\text{cm}$",
+    "$64\\ \\text{cm}$"
+   ],
+   "correct": "B",
+   "answer": "Vertical: $s=\\tfrac12gt^2$, so $t=\\sqrt{\\dfrac{2\\times1}{9.8}}=0.452\\ \\text{s}$. Horizontal: $x=vt=2\\times0.452=0.90\\ \\text{m}=90\\ \\text{cm}$ (B). The mass is irrelevant."
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.2"
+   ],
+   "question": "A conductor (a sliding bar) moves to the left through a uniform magnetic field directed out of the page, along rails that are joined by a wire at the right-hand end, as shown. In which direction does the current flow in the external circuit?",
+   "options": [
+    "There is no induced current",
+    "Anti-clockwise",
+    "Clockwise",
+    "Vertically"
+   ],
+   "correct": "C",
+   "answer": "As the bar moves left, the area of the circuit (between the bar and the right-hand end) increases, so the flux out of the page through the circuit increases. By Lenz's law the induced current opposes this by producing a field **into** the page inside the loop, which requires a **clockwise** current (C).",
+   "images": [
+    "assets/img/phys-2021-baulkham-hills/q02.png"
+   ]
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.4"
+   ],
+   "question": "Two planets, A and B, orbit the same star. Planet A has an orbital radius of $2\\times10^{8}\\ \\text{m}$ whilst Planet B has an orbital radius of $6\\times10^{9}\\ \\text{m}$. Planet A's mass is $3\\times10^{25}\\ \\text{kg}$ and it has an orbital period of $15$ ooshwucks (a measurement of time on Planet A). What is the orbital period of Planet B in ooshwucks?",
+   "options": [
+    "$4.243\\times10^{-23}$",
+    "$2465$",
+    "$493.0$",
+    "$144.8$"
+   ],
+   "correct": "B",
+   "answer": "Kepler's third law for planets orbiting the same star: $\\dfrac{r^3}{T^2}=\\text{constant}$, so $$T_B=T_A\\left(\\frac{r_B}{r_A}\\right)^{3/2}=15\\times\\left(\\frac{6\\times10^{9}}{2\\times10^{8}}\\right)^{3/2}=15\\times30^{1.5}=2465$$ ooshwucks (B). The mass of the planet is irrelevant, and the unit of time does not matter since only a ratio is used."
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.3",
+    "12.6.1.4"
+   ],
+   "question": "An electron travelling at $3\\times10^{7}\\ \\text{m s}^{-1}$ to the right enters an electric field of strength $10\\ \\text{N C}^{-1}$ and is deflected. A magnetic field is then set up with direction into the page, acting over the distance of the electric field. This causes the electron to now travel in a straight line. What was the magnetic field strength?",
+   "options": [
+    "$3.33\\times10^{-7}\\ \\text{T}$",
+    "$6.67\\times10^{-7}\\ \\text{T}$",
+    "$3.00\\times10^{6}\\ \\text{T}$",
+    "$6.00\\times10^{6}\\ \\text{T}$"
+   ],
+   "correct": "A",
+   "answer": "For a straight path the electric and magnetic forces balance: $qE=qvB$, so $B=\\dfrac Ev=\\dfrac{10}{3\\times10^{7}}=3.33\\times10^{-7}\\ \\text{T}$ (A)."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.3",
+    "12.6.1.4"
+   ],
+   "question": "An electron travelling to the right enters an electric field and is deflected. A magnetic field directed **into the page** is then set up over the same region, which causes the electron to travel in a straight line. What was the direction of the electric field?",
+   "options": [
+    "Left",
+    "Right",
+    "Up",
+    "Down"
+   ],
+   "correct": "D",
+   "answer": "For the electron (negative charge) moving to the right in a field into the page, $\\mathbf F=q\\mathbf v\\times\\mathbf B$: $\\mathbf v\\times\\mathbf B$ is upward for a positive charge, so the magnetic force on the electron is **downward**. For a straight path the electric force on the electron must be **upward**. Since the electron is negative, the electric force is opposite to the field, so the electric field points **down** (D)."
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.3",
+    "12.5.2.2"
+   ],
+   "question": "A rollercoaster manufacturer wants to design their perfectly circular rollercoaster loop (diameter $10\\ \\text{m}$) such that the passengers will feel weightless once they reach the top of the rollercoaster. At what speed (in $\\text{m s}^{-1}$) should the rollercoaster be travelling at the top of the loop for this to occur?",
+   "options": [
+    "$\\sqrt{10g}$",
+    "$\\sqrt{5g}$",
+    "$\\sqrt{20g}$",
+    "$\\sqrt{g}$"
+   ],
+   "correct": "B",
+   "answer": "Passengers feel weightless when the normal force is zero, so gravity alone provides the centripetal force at the top: $mg=\\dfrac{mv^2}{r}$, so $v=\\sqrt{gr}=\\sqrt{5g}$ with $r=5\\ \\text{m}$ (B).\n\n*Note:* the paper asks for the speed at which the rollercoaster *enters* the loop, but its key ($\\sqrt{5g}$) is the speed required at the top. The entry speed would be $\\sqrt{25g}=5\\sqrt g\\approx15.6\\ \\text{m s}^{-1}$ (from $\\tfrac12mv_b^2=\\tfrac12mv_t^2+mg(10)$), which is not among the options, so the question has been reworded to ask for the speed at the top.",
+   "images": [
+    "assets/img/phys-2021-baulkham-hills/q06.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "What is the altitude of a geostationary satellite (above Earth's surface)?",
+   "options": [
+    "$42{,}230\\ \\text{km}$",
+    "$8.086\\times10^{13}\\ \\text{m}$",
+    "$5083\\ \\text{km}$",
+    "$35{,}930\\ \\text{km}$"
+   ],
+   "correct": "D",
+   "answer": "A geostationary satellite has $T=24\\ \\text{h}=86\\,400\\ \\text{s}$. From $\\dfrac{r^3}{T^2}=\\dfrac{GM}{4\\pi^2}$: $$r=\\left(\\frac{GMT^2}{4\\pi^2}\\right)^{1/3}\\approx4.22\\times10^{7}\\ \\text{m}\\ (42{,}200\\ \\text{km})$$ from the *centre* of the Earth. The altitude above the surface is $r-R_E\\approx42{,}200-6{,}400\\approx3.6\\times10^{4}\\ \\text{km}$, i.e. option D. ($42{,}230\\ \\text{km}$ is the orbital radius, not the altitude.)"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.3"
+   ],
+   "question": "The wires connecting to Mary's household are $240\\ \\text{V}$ AC with $3.6\\ \\text{A}$ of current running in them. Her phone charger has a non-ideal step-down transformer inside. If her phone requires $30\\ \\text{V}$ to charge, what is the most likely current output of the charger?",
+   "options": [
+    "$29\\ \\text{A}$",
+    "$28\\ \\text{A}$",
+    "$30\\ \\text{A}$",
+    "$31\\ \\text{A}$"
+   ],
+   "correct": "B",
+   "answer": "For an ideal transformer $V_pI_p=V_sI_s$: $I_s=\\dfrac{240\\times3.6}{30}=28.8\\ \\text{A}$. A non-ideal transformer loses some power (eddy currents, resistive heating, incomplete flux linkage), so the output power and current are *less* than ideal: $I_s<28.8\\ \\text{A}$, and the only option below this is $28\\ \\text{A}$ (B)."
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "A projectile is fired from the ground at an angle of $45^\\circ$ to the horizontal and hits the ground $20\\ \\text{m}$ away. Find the maximum height of the projectile.",
+   "options": [
+    "$1.4\\ \\text{m}$",
+    "$1.5\\ \\text{m}$",
+    "$2\\ \\text{m}$",
+    "$5\\ \\text{m}$"
+   ],
+   "correct": "D",
+   "answer": "$R=\\dfrac{u^2\\sin2\\theta}{g}=\\dfrac{u^2}{g}=20$, so $u^2=196$ and $u_y^2=\\dfrac{u^2}{2}=98$. Maximum height $h=\\dfrac{u_y^2}{2g}=\\dfrac{98}{19.6}=5\\ \\text{m}$ (D). (Alternatively $h=\\dfrac{R\\tan\\theta}{4}=5\\ \\text{m}$.)"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.3.2"
+   ],
+   "question": "A single-turn coil of wire is placed in a uniform magnetic field $B$ (directed downward) at right angles to the plane of the coil as shown in the diagrams. The coil is then rotated in a clockwise direction about the dashed axis as shown. Which of the following shows the direction of current flow in the coil as it begins to rotate?",
+   "options": [
+    "![A](assets/img/phys-2021-baulkham-hills/q10a.png)",
+    "![B](assets/img/phys-2021-baulkham-hills/q10b.png)",
+    "![C](assets/img/phys-2021-baulkham-hills/q10c.png)",
+    "![D](assets/img/phys-2021-baulkham-hills/q10d.png)"
+   ],
+   "correct": "A",
+   "answer": "The field is perpendicular to the plane of the coil, so the flux is a maximum. As the coil begins to rotate, the component of the coil's area perpendicular to $B$ decreases ($\\Phi=BA\\cos\\theta$), so the downward flux *decreases*. By Lenz's law the induced current opposes this by producing a field in the same (downward) direction through the coil, which is a **clockwise** current when viewed from above. This matches option A."
+  },
+  {
+   "ref": "Q11",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "A stationary observer on Earth looks at a ship flying past at $0.9c$ with a clock on it. What curious observation does the stationary observer make about the clock on the ship?",
+   "options": [
+    "The clock hands move backwards.",
+    "The clock moves slower than clocks on Earth.",
+    "The clock moves faster than clocks on Earth.",
+    "The clock was periodically appearing and disappearing."
+   ],
+   "correct": "B",
+   "answer": "Time dilation: moving clocks run slow as observed from a different inertial frame, $t=\\dfrac{t_0}{\\sqrt{1-v^2/c^2}}$ (B)."
+  },
+  {
+   "ref": "Q12",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.8.5.2"
+   ],
+   "question": "Which gauge boson carries the weak nuclear force?",
+   "options": [
+    "Gluons",
+    "Higgs Boson",
+    "Photons",
+    "W and Z particles"
+   ],
+   "correct": "D",
+   "answer": "The weak force is mediated by the $W^+$, $W^-$ and $Z^0$ bosons (D). Gluons carry the strong force and photons carry the electromagnetic force; the Higgs boson is associated with giving particles mass."
+  },
+  {
+   "ref": "Q13",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.3.1"
+   ],
+   "question": "Which of the following was a limitation of the Bohr model?",
+   "options": [
+    "It couldn't explain Hydrogen's emission spectra.",
+    "It couldn't explain why electrons do not emit EMR in orbit",
+    "It couldn't explain the emission spectra of atoms with multiple electrons in their valence shell.",
+    "It couldn't explain why few alpha particles deflected by angles > 90° in the Geiger-Marsden experiment"
+   ],
+   "correct": "C",
+   "answer": "The Bohr model successfully explained the hydrogen emission spectrum (so A is not a limitation), but it could not explain the spectra of atoms with more than one electron (C), the relative intensities of lines, or the splitting of lines (Zeeman effect). Alpha scattering (D) was explained by Rutherford's nuclear model, and Bohr simply *postulated* that orbiting electrons do not radiate."
+  },
+  {
+   "ref": "Q14",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.1.6"
+   ],
+   "question": "What is the absolute magnitude of a star?",
+   "options": [
+    "The apparent magnitude of a star measured from a distance of 10 parsecs.",
+    "The apparent magnitude of a star measured from Earth.",
+    "The apparent brightness of a star measured from a distance of 1 parsec.",
+    "The total energy released from a star during one cycle."
+   ],
+   "correct": "A",
+   "answer": "Absolute magnitude is the apparent magnitude a star would have if it were placed at a standard distance of $10$ parsecs from the observer, which allows the true luminosities of stars to be compared (A)."
+  },
+  {
+   "ref": "Q15",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.1.1",
+    "12.7.1.2"
+   ],
+   "question": "What did Maxwell define the propagation of electromagnetic waves as?",
+   "options": [
+    "Mutually propagating electric and magnetic fields parallel to each other.",
+    "Adjacent particles having completely elastic collisions to transfer energy.",
+    "Mutually propagating electric and magnetic fields perpendicular to each other.",
+    "Many electrons travelling at the speed of light with energy, $E = hf$."
+   ],
+   "correct": "C",
+   "answer": "Maxwell predicted that a changing electric field produces a changing magnetic field and vice versa, so an electromagnetic wave consists of self-propagating electric and magnetic fields that are perpendicular to each other and to the direction of propagation (C)."
+  },
+  {
+   "ref": "Q16",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.2"
+   ],
+   "question": "Wilhelm Hallwachs set up a gold leaf electroscope as shown (UV light is incident on the metal cap) to investigate the photoelectric effect. What did he observe when the metal cap was positively charged?",
+   "options": [
+    "The gold leaf did not move.",
+    "The gold leaf extended outwards.",
+    "The gold leaf collapsed onto the metal stem.",
+    "The gold leaf vibrated."
+   ],
+   "correct": "A",
+   "answer": "A positively charged cap with the gold leaf already repelled outwards: UV light can free photoelectrons from the metal, but they are attracted back to the positively charged surface, so no net charge is lost and the leaf does not move (A). (Had the cap been negatively charged, the emitted electrons would leave and the leaf would collapse.)",
+   "images": [
+    "assets/img/phys-2021-baulkham-hills/q16.png"
+   ]
+  },
+  {
+   "ref": "Q17",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.5.3"
+   ],
+   "question": "What is the role of magnetic fields in a synchrotron?",
+   "options": [
+    "To accelerate the charged particle.",
+    "To ionise the neutral particle.",
+    "To direct the charged particle.",
+    "To accelerate the neutral particle."
+   ],
+   "correct": "C",
+   "answer": "The magnetic force on a moving charge is perpendicular to its velocity, so it does no work and cannot change its speed. In a synchrotron the magnets bend the beam around the ring (they *direct* the charged particles), while electric fields in the RF cavities accelerate them (C)."
+  },
+  {
+   "ref": "Q18",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.1",
+    "12.8.1.5"
+   ],
+   "question": "The graph shows the continuous blackbody spectrum of a star, Star XLR8 (flux per unit wavelength against wavelength from $400\\ \\text{nm}$ to $800\\ \\text{nm}$, with a peak at about $450\\ \\text{nm}$). Make an educated guess of the colour of Star XLR8.",
+   "options": [
+    "Green",
+    "Orange",
+    "Yellow",
+    "Blue"
+   ],
+   "correct": "D",
+   "answer": "By Wien's law, $\\lambda_{\\max}=\\dfrac bT$, the peak at about $450\\ \\text{nm}$ (blue) corresponds to $T\\approx\\dfrac{2.898\\times10^{-3}}{450\\times10^{-9}}\\approx6400\\ \\text{K}$, with more blue light than red across the visible range. The star appears blue (blue-white) (D).",
+   "images": [
+    "assets/img/phys-2021-baulkham-hills/q18.png"
+   ]
+  },
+  {
+   "ref": "Q19",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.3.3"
+   ],
+   "question": "A student shot monochromatic light with a wavelength of exactly $656\\ \\text{nm}$ at a sample of hydrogen gas in a dark room. What did they observe behind the hydrogen sample through a spectroscope, and what electron transition occurred?",
+   "options": [
+    "One black line on a continuous background; $n=2$ to $n=4$",
+    "One black line on a continuous background; $n=2$ to $n=3$",
+    "One faint bright line on a black background; $n=3$ to $n=2$",
+    "One faint bright line on a black background; $n=4$ to $n=2$"
+   ],
+   "correct": "C",
+   "answer": "The source is monochromatic, so the only light that can reach the spectroscope is at $656\\ \\text{nm}$: there is no continuous background, which rules out options A and B (a dark absorption line requires a continuous spectrum). The $656\\ \\text{nm}$ line is the red Balmer H-$\\alpha$ line, with photon energy $\\Delta E=\\dfrac{hc}{\\lambda}=1.89\\ \\text{eV}=13.6\\left(\\dfrac1{2^2}-\\dfrac1{3^2}\\right)$, corresponding to the $n=3\\leftrightarrow n=2$ transition. The student sees a single faint bright line on a black background (C)."
+  },
+  {
+   "ref": "Q20",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "An astronaut from Earth travelled to a planet $10$ light years away at a speed of $0.995c$. He stays there for $10$ years to relax and then returns to Earth at the same speed. What is the age gap now between him and his twin sister to the nearest year?",
+   "options": [
+    "He is older by 18 years",
+    "He is older by 15 years",
+    "She is older by 18 years",
+    "She is older by 15 years"
+   ],
+   "correct": "C",
+   "answer": "Earth frame: each leg takes $\\dfrac{10}{0.995}=10.05$ years, so the sister ages $2\\times10.05+10=30.1$ years.\n\nAstronaut: $\\gamma=\\dfrac1{\\sqrt{1-0.995^2}}=10.0$, so the travelling time is $\\dfrac{20.1}{10.0}=2.0$ years, plus the $10$ years at the planet: $12.0$ years.\n\nAge gap $=30.1-12.0\\approx18$ years, with the **sister older** (C)."
+  },
+  {
+   "ref": "Q21(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "An $800\\ \\text{kg}$ F1 car travels on a rough banked track (inclined at $30^\\circ$ to the horizontal) in circular motion, at its maximum speed around the corner. State ALL the forces acting on the car, and state the direction of the net force.",
+   "answer": "Three forces act on the car:\n\n- its **weight** $F_w=mg$, vertically downward;\n- the **normal force** $N$ from the track, perpendicular to the surface of the track (tilted $30^\\circ$ from the vertical, towards the centre of the circle);\n- the **force of friction** $F_{\\text{fric}}$, acting down the slope along the surface (since the car is at its *maximum* speed, it is on the verge of sliding up and outwards, so friction acts down the incline towards the centre).\n\nThe **net force** is the centripetal force $F_c$, which is **horizontal**, directed towards the centre of the circular path.",
+   "images": [
+    "assets/img/phys-2021-baulkham-hills/q21.png"
+   ]
+  },
+  {
+   "ref": "Q21(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.2",
+    "12.5.2.3"
+   ],
+   "question": "An $800\\ \\text{kg}$ F1 car travels on a rough banked track (inclined at $30^\\circ$ to the horizontal) in circular motion at its maximum speed. If the radius of the track is $100\\ \\text{m}$ and the coefficient of friction of the track is $0.30$, find the maximum speed at which the car can travel around the track.",
+   "answer": "At maximum speed friction acts down the slope with $F_{\\text{fric}}=\\mu N$.\n\nVertical (no acceleration): $N\\cos\\theta=mg+\\mu N\\sin\\theta\\ \\Rightarrow\\ N(\\cos\\theta-\\mu\\sin\\theta)=mg$.\n\nHorizontal (centripetal): $N\\sin\\theta+\\mu N\\cos\\theta=\\dfrac{mv^2}{r}\\ \\Rightarrow\\ N(\\sin\\theta+\\mu\\cos\\theta)=\\dfrac{mv^2}{r}$.\n\nDividing: $$v_{\\max}=\\sqrt{\\frac{gr(\\sin\\theta+\\mu\\cos\\theta)}{\\cos\\theta-\\mu\\sin\\theta}}=\\sqrt{\\frac{9.8\\times100\\times(\\sin30^\\circ+0.30\\cos30^\\circ)}{\\cos30^\\circ-0.30\\sin30^\\circ}}=32\\ \\text{m s}^{-1}.$$",
+   "images": [
+    "assets/img/phys-2021-baulkham-hills/q21.png"
+   ]
+  },
+  {
+   "ref": "Q22(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.4.1"
+   ],
+   "question": "Below is a DC motor with a $5$-turn square coil of side length $4\\ \\text{cm}$, external magnetic field strength of $2\\times10^{-3}\\ \\text{T}$ and constant current of $25\\ \\text{A}$. In the position shown, the plane of the coil is parallel to the magnetic field. Calculate the torque experienced by the coil and state which direction it will rotate.",
+   "answer": "With the plane of the coil parallel to the field the torque is a maximum: $$\\tau=nBIA=5\\times(2\\times10^{-3})\\times25\\times(0.04\\times0.04)=4\\times10^{-4}\\ \\text{N m}.$$ The coil rotates **anti-clockwise** (as seen in the diagram, from the direction of the motor effect forces on the two sides of the coil).",
+   "images": [
+    "assets/img/phys-2021-baulkham-hills/q22.png"
+   ]
+  },
+  {
+   "ref": "Q22(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.4.1"
+   ],
+   "question": "Identify the purpose of a DC motor, and explain how it functions (no need to explain the split-ring commutator).",
+   "answer": "**Purpose:** a DC motor converts electrical energy into kinetic (mechanical, rotational) energy.\n\n**How it works:** current from the DC supply flows through the armature coil, which sits in the magnetic field of the permanent magnets. By the motor effect ($F=nBIl\\sin\\theta$) a force acts on each of the two sides of the coil perpendicular to the field. Because the current flows in opposite directions along the two sides, the forces are in opposite directions (one up, one down), and together they produce a torque on the coil, so it rotates about its axle."
+  },
+  {
+   "ref": "Q22(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.4.2"
+   ],
+   "question": "Compare a split-ring commutator to a slip ring.",
+   "answer": "**Split-ring commutator (DC motors/generators):** a ring split into two halves, each connected to one end of the coil, with brushes touching it. Every half turn, as the coil passes the vertical position, the contacts swap which half touches which brush, so the **direction of the current in the coil reverses**. This keeps the torque in the same direction, so the motor spins continuously in one direction (in a DC generator it converts the alternating induced current into a direct current).\n\n**Slip rings (AC generators/alternators):** two complete, unbroken rings, each permanently connected to one end of the coil, with brushes touching them. They provide a continuous connection that does **not** reverse the current, so the current in the external circuit alternates (AC) as it does in the coil.\n\n**Contrast:** a split-ring commutator reverses the connection every half-rotation (producing DC); slip rings maintain the same connection (producing AC).\n\n**Similarity:** both transfer current between the rotating coil (armature) and the stationary external circuit through brushes."
+  },
+  {
+   "ref": "Q22(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.4.1",
+    "12.6.4.3"
+   ],
+   "question": "A student was about to start a DC motor, but the teacher suggested they use a variable resistor before starting it. Why did the teacher suggest this?",
+   "answer": "A spinning motor coil cuts the magnetic field, so by Faraday's law an EMF is induced in it that opposes the supply voltage (Lenz's law). This is the **back EMF**, which is proportional to the speed of rotation and reduces the net voltage across the coil: $I=\\dfrac{V_{\\text{supply}}-\\varepsilon_{\\text{back}}}{R}$.\n\nWhen the motor is first started it is at rest, so the back EMF is zero and the current is $I=\\dfrac{V_{\\text{supply}}}{R}$, which is very large because the resistance of the coil is small. This very large starting current could overheat and damage the coil or overload the supply.\n\nA variable resistor in series (set to a high resistance at the start) limits the starting current. As the motor speeds up and the back EMF increases, the resistance can be reduced."
+  },
+  {
+   "ref": "Q23(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.4"
+   ],
+   "question": "Satvik Gupta is in a hot air balloon at rest on a $10\\ \\text{m}$ tall platform. It starts rising vertically at a constant acceleration of $2\\ \\text{m s}^{-2}$. Satvik stops the burner after $5$ seconds, and immediately throws his English text horizontally at $20\\ \\text{m s}^{-1}$ (in his frame of reference) which impacts the ground sometime later. At what height off the ground did Satvik throw his English text?",
+   "answer": "$s_y=u_yt+\\tfrac12a_yt^2=0+\\tfrac12(2)(5)^2=25\\ \\text{m}$ above the platform, so the height above the ground is $25+10=35\\ \\text{m}$."
+  },
+  {
+   "ref": "Q23(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.5.1.4"
+   ],
+   "question": "Satvik Gupta is in a hot air balloon at rest on a $10\\ \\text{m}$ tall platform. It starts rising vertically at a constant acceleration of $2\\ \\text{m s}^{-2}$. Satvik stops the burner after $5$ seconds, and immediately throws his English text horizontally at $20\\ \\text{m s}^{-1}$ (in his frame of reference). Determine the initial velocity of the English text as viewed from the ground.",
+   "answer": "At the moment of the throw the balloon (and so the text) is moving upward: $v_y=u_y+a_yt=0+(2)(5)=10\\ \\text{m s}^{-1}$ upward.\n\nInitial velocity from the ground: $20\\ \\text{m s}^{-1}$ horizontally and $10\\ \\text{m s}^{-1}$ upwards, so $$|v|=\\sqrt{10^2+20^2}=22\\ \\text{m s}^{-1},\\qquad\\theta=\\tan^{-1}\\frac{10}{20}=27^\\circ$$ above the horizontal."
+  },
+  {
+   "ref": "Q23(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.5.1.4"
+   ],
+   "question": "Satvik Gupta throws his English text from a height of $35\\ \\text{m}$ above the ground. As viewed from the ground, its initial velocity is $20\\ \\text{m s}^{-1}$ horizontally and $10\\ \\text{m s}^{-1}$ upwards. Determine the time of flight and range of the English text.",
+   "answer": "Vertical (taking up as positive): $s_y=u_yt+\\tfrac12a_yt^2$, so $-35=10t-4.9t^2$, i.e. $4.9t^2-10t-35=0$: $$t=\\frac{10+\\sqrt{100+686}}{9.8}=3.9\\ \\text{s}.$$ Range: $x=u_xt=20\\times3.88=78\\ \\text{m}$."
+  },
+  {
+   "ref": "Q23(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.5.1.4"
+   ],
+   "question": "Satvik Gupta throws his English text from a height of $35\\ \\text{m}$ with an initial velocity (as viewed from the ground) of $20\\ \\text{m s}^{-1}$ horizontally and $10\\ \\text{m s}^{-1}$ upwards. It lands $3.88\\ \\text{s}$ later. Determine the velocity of the English text on impact.",
+   "answer": "$v_x=20\\ \\text{m s}^{-1}$. $v_y=u_y+at=10-9.8\\times3.88=-28.0\\ \\text{m s}^{-1}$ (downward).\n\n$|v|=\\sqrt{20^2+28.0^2}=34\\ \\text{m s}^{-1}$ at $\\theta=\\tan^{-1}\\dfrac{28.0}{20}=54^\\circ$ below the horizontal."
+  },
+  {
+   "ref": "Q23(e)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.4"
+   ],
+   "question": "Satvik Gupta is in a hot air balloon rising vertically at $10\\ \\text{m s}^{-1}$ when he stops the burner (so the balloon and its contents are then in free fall) and throws his English text horizontally from a height of $35\\ \\text{m}$. If the landing platform is removed so that Satvik also lands on the ground, what is the time difference between himself and the English text impacting the ground?",
+   "answer": "**Zero.** After the burner stops, both Satvik (with the balloon) and the text have the same initial vertical velocity ($10\\ \\text{m s}^{-1}$ up), the same vertical acceleration ($g$ downward) and start from the same height. Horizontal motion does not affect the vertical motion, so they reach the ground at the same time."
+  },
+  {
+   "ref": "Q24(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.3.2",
+    "12.6.4.2"
+   ],
+   "question": "Early electric generators were often very simple. A hand-operated version is a metal disc rotated between the poles of a magnet by a handle, with Brush X touching the metal axle and Brush Y touching the rim of the disc (Brush Y is at the bottom). The diagram shows the metal disc viewed from the handle, rotating anti-clockwise, with the lower part of the disc in a region of uniform magnetic field (out of the page). Describe the eddy currents that form on the metal disc, and explain why they form.",
+   "answer": "As the disc rotates, the part of the disc moving into and out of the magnetic field has a **changing magnetic flux** through it. By **Faraday's law**, an EMF is induced in the metal, and because the disc is a conductor this drives circulating **eddy currents** (small loops of current that swirl within the disc, as drawn in the answer image: two loops of opposite sense side by side, which flow together through the central region towards the rim at Brush Y).\n\nBy **Lenz's law**, the eddy currents flow in the direction that produces magnetic fields opposing the change in flux that causes them (and, by the motor effect, they exert a force that opposes the rotation).",
+   "images": [
+    "assets/img/phys-2021-baulkham-hills/q24g.png",
+    "assets/img/phys-2021-baulkham-hills/q24d.png"
+   ],
+   "answer_images": [
+    "assets/img/phys-2021-baulkham-hills/q24a_ans.png"
+   ]
+  },
+  {
+   "ref": "Q24(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.4.2"
+   ],
+   "question": "In a hand-operated generator (a metal disc rotating in a magnetic field, with Brush X touching the axle and Brush Y touching the rim of the disc), explain which direction current will flow in the external circuit (X to Y or Y to X).",
+   "answer": "The eddy currents in the two regions of the disc swirl in opposite senses, so where the loops meet they converge near the centre-line of the disc and flow along the metal disc together, down towards the rim at Brush Y. The EMF therefore drives current through the disc towards Y and then round the external circuit (the globe) back to the axle: current flows from **Y to X** in the external circuit.",
+   "images": [
+    "assets/img/phys-2021-baulkham-hills/q24g.png",
+    "assets/img/phys-2021-baulkham-hills/q24d.png"
+   ]
+  },
+  {
+   "ref": "Q25",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.4"
+   ],
+   "question": "Briefly explain two strategies used to increase the efficiency of transformers.",
+   "answer": "1. **Use a soft iron core**: it has a high magnetic permeability, so it increases the flux linkage between the primary and secondary coils (less flux is lost), which makes more of the input power available at the output.\n2. **Laminate the iron core** (thin insulated sheets): this breaks up the paths available to the eddy currents induced in the core, reducing their size, which reduces resistive (heat) energy losses and so increases efficiency.\n\n(Other accepted strategies: wrapping the primary and secondary coils on top of each other for greater flux linkage; using thick, low-resistance wire and cooling fins to reduce resistive heating.)"
+  },
+  {
+   "ref": "Q26(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.1",
+    "12.6.1.2"
+   ],
+   "question": "An electron is shot at $4\\times10^{6}\\ \\text{m s}^{-1}$ at $30^\\circ$ above the horizontal from the lower plate into the electric field between two infinitely long parallel plates $5\\ \\text{cm}$ apart. The top plate is at $0\\ \\text{V}$ (negative) and the bottom plate is at $10\\ \\text{V}$ (positive). Find the acceleration experienced by the electron.",
+   "answer": "$E=\\dfrac Vd=\\dfrac{10}{0.05}=200\\ \\text{V m}^{-1}$. The only significant force is the electric force: $ma=qE$, so $$a=\\frac{qE}{m}=\\frac{1.602\\times10^{-19}\\times200}{9.109\\times10^{-31}}=3.5\\times10^{13}\\ \\text{m s}^{-2}$$ directed **downward** (the electron is attracted to the positive plate, opposite to the field direction).",
+   "images": [
+    "assets/img/phys-2021-baulkham-hills/q26.png"
+   ]
+  },
+  {
+   "ref": "Q26(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.1.2",
+    "12.6.1.1"
+   ],
+   "question": "An electron is shot at $4\\times10^{6}\\ \\text{m s}^{-1}$ at $30^\\circ$ above the horizontal from the lower (positive, $10\\ \\text{V}$) plate into the electric field between two infinitely long parallel plates $5\\ \\text{cm}$ apart. The top plate is at $0\\ \\text{V}$. The electron's acceleration is $3.5\\times10^{13}\\ \\text{m s}^{-2}$ downward. Determine the velocity of the electron upon impact and which plate it hits.",
+   "answer": "$u_x=4\\times10^{6}\\cos30^\\circ=3.46\\times10^{6}\\ \\text{m s}^{-1}$ (constant) and $u_y=4\\times10^{6}\\sin30^\\circ=2.0\\times10^{6}\\ \\text{m s}^{-1}$ upward.\n\n**Which plate?** The greatest height the electron could reach is $\\dfrac{u_y^2}{2a}=\\dfrac{(2\\times10^6)^2}{2\\times3.52\\times10^{13}}=0.057\\ \\text{m}=5.7\\ \\text{cm}>5\\ \\text{cm}$, so it reaches the top plate: it hits the **negative (top, $0\\ \\text{V}$) plate**.\n\n**Velocity on impact:** $v_y^2=u_y^2-2ad=(2\\times10^6)^2-2(3.52\\times10^{13})(0.05)=4.83\\times10^{11}$, so $v_y=6.9\\times10^{5}\\ \\text{m s}^{-1}$ upward.\n\n$$|v|=\\sqrt{(3.46\\times10^6)^2+(6.9\\times10^5)^2}=3.5\\times10^{6}\\ \\text{m s}^{-1},\\qquad\\theta=\\tan^{-1}\\frac{6.9\\times10^5}{3.46\\times10^6}=11^\\circ$$ above the horizontal. (Check by energy: the electron loses $10\\ \\text{eV}$ of its $45.5\\ \\text{eV}$ kinetic energy, giving $v=3.5\\times10^6\\ \\text{m s}^{-1}$.)\n\n*Note:* the paper's solution finds the same speed, but its angle ($2.1^\\circ$) comes from subtracting $\\Delta v_y=\\sqrt{2qV/m}$ from $u_y$, which is not valid (the energy change is $\\tfrac12m(v_y^2-u_y^2)$, not $\\tfrac12m(\\Delta v_y)^2$); the correct angle is about $11^\\circ$.",
+   "images": [
+    "assets/img/phys-2021-baulkham-hills/q26.png"
+   ]
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.3",
+    "12.7.3.2"
+   ],
+   "question": "A student conducts an experiment using a photoelectric cell. Light is shone through a grid onto a metal surface. The metal is at earth potential and the grid is at $100\\ \\text{V}$, so that any electrons emitted from the surface produce a current in the external circuit. The student shines light sources of different photon energies onto the metal surface, with equal intensities, and records the current flowing for each.\n\n| Photon energy (eV) | Photo-current ($\\mu$A) |\n|---|---|\n| 0.50 | 0 |\n| 0.90 | 0 |\n| 1.20 | 0.5 |\n| 1.70 | 2.8 |\n| 1.75 | 4.0 |\n| 1.90 | 8.0 |\n| 2.20 | 9.2 |\n| 2.50 | 9.4 |\n\nDescribe the straight line of best fit through the points in the region where the photo-current varies the most with photon energy (give its gradient and where it meets the photon-energy axis).",
+   "answer": "The steep region is between about $1.6$ and $1.9\\ \\text{eV}$ (points $(1.70, 2.8)$, $(1.75, 4.0)$ and $(1.90, 8.0)$). The best-fit line through these rises from the photon-energy axis at about $1.6\\ \\text{eV}$ to about $10\\ \\mu\\text{A}$ at about $1.95\\ \\text{eV}$: gradient $\\approx\\dfrac{10}{0.35}\\approx30\\ \\mu\\text{A eV}^{-1}$ (the red line in the answer image).",
+   "images": [
+    "assets/img/phys-2021-baulkham-hills/q27a.png",
+    "assets/img/phys-2021-baulkham-hills/q27g.png"
+   ],
+   "answer_images": [
+    "assets/img/phys-2021-baulkham-hills/q27_ans.png"
+   ]
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.3"
+   ],
+   "question": "In a photoelectric cell experiment, the line of best fit through the steep region of the photo-current against photon energy graph meets the photon-energy axis at about $1.6\\ \\text{eV}$ (points $(1.70,2.8)$, $(1.75,4.0)$, $(1.90,8.0)$ $\\mu$A, with no current for photon energies of $0.9\\ \\text{eV}$ or less). From the line, estimate the minimum energy (work function) for photoelectric emission.",
+   "answer": "Photoelectrons are only emitted when the photon energy is at least the work function, $hf\\ge\\phi$. The photocurrent is zero below this threshold, so the work function is where the line meets the photon-energy axis: $\\phi\\approx1.6\\ \\text{eV}$.",
+   "images": [
+    "assets/img/phys-2021-baulkham-hills/q27g.png"
+   ],
+   "answer_images": [
+    "assets/img/phys-2021-baulkham-hills/q27_ans.png"
+   ]
+  },
+  {
+   "ref": "Q27(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.2"
+   ],
+   "question": "In a photoelectric cell experiment, the photo-current against photon energy graph (with equal-intensity light sources) has a steep section with a gradient of about $30\\ \\mu\\text{A eV}^{-1}$ meeting the photon-energy axis at $1.6\\ \\text{eV}$. The experiment is repeated, but the intensities of the light sources are doubled. Predict the results of this new experiment by describing the new line.",
+   "answer": "The new line starts at the same point on the photon-energy axis ($1.6\\ \\text{eV}$, since the work function is a property of the metal and does not depend on intensity), but it has **double the gradient** (about $60\\ \\mu\\text{A eV}^{-1}$). So it is steeper and lies to the left of the first line (the blue line in the answer image), and the maximum (saturation) current is also doubled.",
+   "images": [
+    "assets/img/phys-2021-baulkham-hills/q27g.png"
+   ],
+   "answer_images": [
+    "assets/img/phys-2021-baulkham-hills/q27_ans.png"
+   ]
+  },
+  {
+   "ref": "Q27(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.2",
+    "12.7.3.3"
+   ],
+   "question": "In a photoelectric cell experiment, the experiment is repeated with the intensities of the light sources doubled, and the photo-current against photon energy graph then has twice the gradient of the original line, starting from the same threshold energy. Justify this.",
+   "answer": "Doubling the intensity doubles the number of photons arriving per second (each photon's energy $hf$ is unchanged). Each photon with energy above the work function releases at most one photoelectron, so twice as many photons release twice as many electrons per second. The photocurrent (charge per second) therefore doubles at each photon energy, which doubles the gradient. The threshold energy is unchanged because it depends only on the metal's work function."
+  },
+  {
+   "ref": "Q28",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.8.1.5",
+    "12.7.1.6",
+    "12.7.3.1"
+   ],
+   "question": "Explain how analysing stellar spectra can inform us about the characteristics of stars.",
+   "answer": "**Surface temperature.** The *continuous blackbody spectrum* of a star peaks at a wavelength that depends on its surface temperature (Wien's law, $\\lambda_{\\max}=\\dfrac bT$): a hotter star has its peak at a shorter wavelength (blue stars are hotter than red stars). The relative strengths of particular absorption lines also depend on temperature, which is used to classify stars into spectral classes (O, B, A, F, G, K, M).\n\n**Chemical composition.** The *absorption spectrum* of a star shows dark lines at wavelengths that match the emission/absorption lines of particular elements (e.g. hydrogen, helium, calcium) in the cooler outer atmosphere of the star. Identifying the pattern of lines identifies which elements are present.\n\n**Velocity and rotation.** The wavelengths of the *absorption lines* are Doppler shifted relative to their laboratory values: a shift to longer wavelengths (red-shift) means the star is moving away, and to shorter wavelengths (blue-shift) means it is moving towards us (radial velocity). The lines are also *broadened* for a rapidly rotating star, because one side is approaching and the other receding."
+  },
+  {
+   "ref": "Q29(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.4.1"
+   ],
+   "question": "Match each type of radioactive decay (alpha, beta, gamma) to the ionising and penetrating powers: (i) high ionising power, low penetrating power; (ii) medium ionising power, medium penetrating power; (iii) low ionising power, high penetrating power.",
+   "answer": "(i) **Alpha** — high ionising power, low penetrating power.\n\n(ii) **Beta** — medium ionising power, medium penetrating power.\n\n(iii) **Gamma** — low ionising power, high penetrating power."
+  },
+  {
+   "ref": "Q29(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.4.1"
+   ],
+   "question": "Explain the different ionising and penetrating powers of the three types of radioactive decay (alpha, beta and gamma).",
+   "answer": "Ionising power depends on how strongly the radiation interacts with atoms along its path (by electrostatic forces), and so on the charge and mass of the radiation. Penetrating power is inversely related: the more an emission ionises, the faster it loses energy.\n\n- **Alpha particles** (${}^4_2\\text{He}$ nuclei) are relatively massive and have a charge of $+2$, so they interact very strongly with atoms and strip electrons readily (high ionising power). They lose their energy over a very short distance, so they have low penetrating power (stopped by paper or a few cm of air).\n- **Beta particles** (electrons) have much less mass and a charge of $-1$, so they ionise less (medium) and penetrate further (stopped by a few mm of aluminium).\n- **Gamma rays** are high-energy photons with no mass and no charge, so they interact only rarely with atoms (low ionising power) and pass through large distances of material (high penetrating power; reduced by thick lead or concrete)."
+  },
+  {
+   "ref": "Q29(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.4.4",
+    "12.8.4.1"
+   ],
+   "question": "Carbon-14 decays into Nitrogen-14. Give a complete equation to show this decay.",
+   "answer": "This is beta-minus decay (a neutron changes into a proton, emitting an electron and an electron antineutrino): $${}^{14}_{6}\\text{C}\\rightarrow{}^{14}_{7}\\text{N}+{}^{\\ 0}_{-1}e+\\bar\\nu_e.$$"
+  },
+  {
+   "ref": "Q29(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.4.6"
+   ],
+   "question": "Calculate the energy released from the decay of Carbon-14 to Nitrogen-14 in MeV if the mass of Carbon-14 $=14.00421\\ \\text{u}$, Nitrogen-14 $=14.00307\\ \\text{u}$ and an electron $=0.00055\\ \\text{u}$.",
+   "answer": "Mass defect: $\\Delta m=m_{\\text{reactants}}-m_{\\text{products}}=14.00421-(14.00307+0.00055)=0.00059\\ \\text{u}$.\n\n$E=\\Delta mc^2=0.00059\\times931.5\\ \\text{MeV}=0.55\\ \\text{MeV}$."
+  },
+  {
+   "ref": "Q29(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.4.2"
+   ],
+   "question": "A student found a skull and measured its age using Carbon-14 dating. The half-life of Carbon-14 is $5{,}730$ years. He measured the mass of Carbon-14 in the skull to be $1.45\\ \\text{g}$. If the skull initially had $92.8\\ \\text{g}$ of Carbon-14 in it, find the age of the skull.",
+   "answer": "$\\dfrac{N}{N_0}=\\left(\\dfrac12\\right)^n$: $\\dfrac{1.45}{92.8}=\\dfrac1{64}=\\left(\\dfrac12\\right)^n$, so $n=6$ half-lives. Age $=6\\times5730=34{,}380$ years ($\\approx3.4\\times10^4$ years)."
+  },
+  {
+   "ref": "Q30(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "Unpolarised light rays of intensity $I_0$ pass through two polarising filters $P_1$ and $P_2$ to a light detector. The filters are originally aligned so that they produce the maximum amount of light, then filter $P_2$ is slowly rotated through $180^\\circ$. Sketch a graph showing how the intensity of the light at the detector, $I$, changes as $P_2$ rotates from $0$ to $180^\\circ$.",
+   "answer": "The unpolarised light is reduced to $\\dfrac{I_0}{2}$ by $P_1$. Then by Malus' law $I=\\dfrac{I_0}{2}\\cos^2\\theta$, where $\\theta$ is the angle by which $P_2$ has been rotated. The graph has a $\\cos^2\\theta$ shape: it starts at the maximum $\\dfrac{I_0}{2}$ at $0^\\circ$, falls to zero at $90^\\circ$, and returns to $\\dfrac{I_0}{2}$ at $180^\\circ$.",
+   "images": [
+    "assets/img/phys-2021-baulkham-hills/q30.png"
+   ],
+   "answer_images": [
+    "assets/img/phys-2021-baulkham-hills/q30a_ans.png"
+   ]
+  },
+  {
+   "ref": "Q30(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "Unpolarised light of intensity $I_0$ passes through two polarising filters $P_1$ and $P_2$ to a light detector. $P_2$ is rotated to a position so that no light reaches the detector (it is at $90^\\circ$ to $P_1$). Without moving $P_1$ or $P_2$, a third polariser filter ($P_{1.5}$) is inserted between $P_1$ and $P_2$ at an angle of $30^\\circ$ from $P_1$. Explain using calculations or diagrams why the light intensity at the detector is no longer zero.",
+   "answer": "After $P_1$: $I_1=\\dfrac{I_0}{2}$.\n\nThrough $P_{1.5}$ (at $30^\\circ$ to $P_1$): $I_{1.5}=I_1\\cos^230^\\circ=\\dfrac{I_0}{2}\\times\\dfrac34=\\dfrac38I_0$.\n\n$P_2$ is now at $90^\\circ-30^\\circ=60^\\circ$ to $P_{1.5}$: $I_2=I_{1.5}\\cos^260^\\circ=\\dfrac38I_0\\times\\dfrac14=\\dfrac{3}{32}I_0$.\n\nSo the intensity at the detector is $\\dfrac3{32}I_0\\ne0$: the middle filter rotates the plane of polarisation of the light, so some component of the light is now parallel to the axis of $P_2$."
+  },
+  {
+   "ref": "Q31",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.1.3"
+   ],
+   "question": "Many attempts have been made to measure the speed of light, some horrendous like Galileo approximating the speed of light to $3400\\ \\text{m s}^{-1}$, and some better ones today which can measure the speed of light to $9$ significant figures. Contrast a HISTORICAL method to a CONTEMPORARY method of measuring the speed of light.",
+   "answer": "**Historical method: Fizeau's toothed wheel (1849).** A beam of light was passed through a gap in a rotating toothed wheel, travelled a long distance ($\\approx8.6\\ \\text{km}$) to a mirror, and was reflected back to the wheel. The speed of rotation was increased until the returning light was blocked by the next tooth. Then the time for the round trip $t=\\dfrac{2d}{c}$ equals the time for the wheel to turn from a gap to a tooth (a known fraction of a revolution), so $c=\\dfrac{2d}{t}$. Result: $c\\approx3.15\\times10^{8}\\ \\text{m s}^{-1}$ (uncertainty of several percent).\n\n**Contemporary method: laser interferometry / electronic distance meter.** The frequency $f$ of a stable laser (measured against an atomic clock) and its wavelength $\\lambda$ (measured by interferometry, counting fringes) are measured, and $c=f\\lambda$. Since 1983 the metre has been *defined* from the speed of light, which is fixed at $299\\,792\\,458\\ \\text{m s}^{-1}$.\n\n**Contrast:** the historical method relied on mechanical apparatus, human observation of the light being blocked, and a long path through air, giving a low precision (about 1–5%). The contemporary method uses lasers, electronic detectors and atomic-clock time standards, giving a precision of about one part in $10^9$, and uses a much more compact apparatus. Both use the relationship between distance (or wavelength) and time (or frequency) for light."
+  },
+  {
+   "ref": "Q32(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.3.4"
+   ],
+   "question": "The early 1900s saw significant development to our understanding of the atom. De Broglie made a significant prediction about the particle-wave duality. Explain what his prediction was and support that prediction with ONE piece of experimental evidence.",
+   "answer": "De Broglie proposed that, just as light behaves as both a wave and a particle, **matter also has a wave nature**: all particles of momentum $p=mv$ have an associated matter wave of wavelength $\\lambda=\\dfrac{h}{mv}$.\n\n**Evidence: the Davisson–Germer experiment (1927).** A beam of electrons accelerated through a known potential difference was fired at a nickel crystal. The scattered electrons were detected at different angles, and a strong peak in the intensity of scattered electrons was observed at $50^\\circ$. This is an interference/diffraction pattern: the atoms of the crystal act as a diffraction grating (Bragg diffraction), and the wavelength calculated from the diffraction angle matched de Broglie's $\\lambda=\\dfrac h{mv}$ for the electrons ($\\approx0.165\\ \\text{nm}$). (G. P. Thomson's electron diffraction through thin metal foil, which produced ring patterns like X-rays, is another example.)"
+  },
+  {
+   "ref": "Q32(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.3.4"
+   ],
+   "question": "Calculate the de Broglie wavelength of a $50\\ \\text{g}$ tennis ball travelling at $20\\ \\text{m s}^{-1}$. Then explain why we do not observe everyday objects such as tennis balls to show wave properties.",
+   "answer": "$\\lambda=\\dfrac h{mv}=\\dfrac{6.626\\times10^{-34}}{0.050\\times20}=6.6\\times10^{-34}\\ \\text{m}$.\n\nWave properties such as diffraction and interference are only observable when the wavelength is comparable to the size of the gaps or obstacles the wave meets (about $10^{-10}\\ \\text{m}$ for atoms). The ball's wavelength is far smaller than the size of any object or gap it could pass through (even an atomic nucleus is about $10^{-15}\\ \\text{m}$), so no diffraction or interference effects could ever be detected: because $h$ is so small and the momentum of everyday objects so large, their wavelength is immeasurably small."
+  },
+  {
+   "ref": "Q32(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.8.3.4",
+    "12.8.3.3"
+   ],
+   "question": "Explain how de Broglie was able to derive Bohr's third postulate: \\\"the angular momentum ($mvr$) of electrons in orbit about a nucleus is quantised as $\\dfrac{nh}{2\\pi}$, where $n$ is a whole number.\\\" In your answer, use a diagram to illustrate the case for $n=4$.",
+   "answer": "De Broglie treated an orbiting electron as a matter wave. For the orbit to be stable the wave must form a **standing wave**, so the circumference of the orbit must hold a whole number of wavelengths (otherwise the wave would interfere destructively with itself): $$n\\lambda=2\\pi r.$$ Substituting the de Broglie wavelength $\\lambda=\\dfrac h{mv}$: $$\\frac{nh}{mv}=2\\pi r\\ \\Rightarrow\\ mvr=\\frac{nh}{2\\pi},$$ which is Bohr's third postulate: the angular momentum is quantised in whole-number multiples of $\\dfrac h{2\\pi}$.\n\nFor $n=4$: $4\\lambda=2\\pi r$, i.e. exactly four wavelengths fit around the orbit (see the diagram).",
+   "answer_images": [
+    "assets/img/phys-2021-baulkham-hills/q32c_ans.png"
+   ]
+  }
+ ]
+}
