@@ -1,0 +1,504 @@
+{
+ "id": "ext1-2025-gosford",
+ "course": "extension1",
+ "school": "Gosford",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "Gosford 2025 w. sol"
+ },
+ "indexed": "2026-11-25",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q3",
+   "reason": "Pigeonhole principle is not in the 2024 Mathematics Extension 1 syllabus"
+  },
+  {
+   "ref": "Q14(d)",
+   "reason": "As set, no triangle satisfies the conditions: the school's answer (p,q)=(16,-8) or (8,16) gives an angle of about 116.6° at X, so triangle XYZ is not acute-angled"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.3.2"
+   ],
+   "question": "The polynomial equation $2x^3-3x^2-4x+6=0$ has roots $\\alpha$, $\\beta$ and $\\gamma$. What is the value of $\\alpha\\beta\\gamma$ ?",
+   "answer": "For $ax^3+bx^2+cx+d=0$, $\\alpha\\beta\\gamma=-\\dfrac da=-\\dfrac62=-3$.",
+   "options": [
+    "$-6$",
+    "$-3$",
+    "$-2$",
+    "$\\dfrac32$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.5"
+   ],
+   "question": "The polynomial $P(x)=x^4+ax^2+b$ leaves a remainder of $3$ when divided by $(x-2)$. What is the remainder when $P(x)$ is divided by $(x+2)$ ?",
+   "answer": "$P(x)$ contains only even powers of $x$, so $P(-2)=P(2)$. By the remainder theorem $P(2)=3$, so the remainder on division by $(x+2)$ is $P(-2)=3$.",
+   "options": [
+    "$-3$",
+    "$-1$",
+    "$3$",
+    "$7$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "Which of the following is a primitive of $\\dfrac1{\\sqrt{4-9x^2}}$ ?",
+   "answer": "$\\displaystyle\\int\\frac{dx}{\\sqrt{4-9x^2}}=\\frac13\\int\\frac{dx}{\\sqrt{\\tfrac49-x^2}}=\\frac13\\sin^{-1}\\!\\left(\\frac{x}{2/3}\\right)+c=\\frac13\\sin^{-1}\\!\\left(\\frac{3x}2\\right)+c.$\nCheck: $\\dfrac d{dx}\\left[\\tfrac13\\sin^{-1}\\tfrac{3x}2\\right]=\\tfrac13\\cdot\\dfrac{3/2}{\\sqrt{1-\\tfrac{9x^2}4}}=\\dfrac1{\\sqrt{4-9x^2}}$.",
+   "options": [
+    "$\\dfrac16\\sin^{-1}\\left(\\dfrac{2x}3\\right)+c$",
+    "$\\dfrac13\\sin^{-1}\\left(\\dfrac{2x}3\\right)+c$",
+    "$\\dfrac16\\sin^{-1}\\left(\\dfrac{3x}2\\right)+c$",
+    "$\\dfrac13\\sin^{-1}\\left(\\dfrac{3x}2\\right)+c$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.3.3"
+   ],
+   "question": "A curve is defined by the parametric equations $x=\\sin\\theta$, $y=\\cos^2\\theta-3$. Which of the following is the Cartesian equation of the curve?",
+   "answer": "$y=\\cos^2\\theta-3=1-\\sin^2\\theta-3=-x^2-2$.",
+   "options": [
+    "$y=x^2-3$",
+    "$y=-x-2$",
+    "$y=-x^2-2$",
+    "$y=-2x^2-2$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.1"
+   ],
+   "question": "The graph below shows $y=\\dfrac1{f(x)}$. Which of the equations below could represent $y=f(x)$ ?",
+   "answer": "The vertical asymptotes of $y=\\frac1{f(x)}$ at $x=-1,0,1$ are the zeroes of $f$, and as $x\\to\\pm\\infty$, $\\frac1{f(x)}\\to0$.\n\nThe sign of $\\frac1{f(x)}$ is the sign of $f(x)$: from the graph it is negative for $x<-1$, positive on $(-1,0)$, negative on $(0,1)$ and positive for $x>1$. So $f$ changes sign at each of $-1,0,1$ (three simple zeroes), and an odd function such as $f(x)=x(x^2-1)$ fits (check: $x=-2$ gives $-6<0$, $x=-\\tfrac12$ gives $\\tfrac38>0$, $x=\\tfrac12$ gives $-\\tfrac38<0$, $x=2$ gives $6>0$).\n\nOptions (C) and (D) have a double zero at $0$ (no sign change there), and (A) has no zero at $0$, so the answer is (B).",
+   "options": [
+    "$f(x)=x^2-1$",
+    "$f(x)=x(x^2-1)$",
+    "$f(x)=x^2(x^2-1)$",
+    "$f(x)=x^2(x^2-1)^2$"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/ext1-2025-gosford/q6.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.9"
+   ],
+   "question": "A particle's displacement is given by $x=2\\sin(\\pi t)+1$. Which of the following statements is true?",
+   "answer": "$v=\\dfrac{dx}{dt}=2\\pi\\cos(\\pi t)$, which is greatest ($=2\\pi$) when $\\cos(\\pi t)=1$, i.e. $t=0,2,4,\\dots$. At $t=2$, $x=2\\sin2\\pi+1=1$. So (A) is true. (At $t=0.5$ the velocity is $0$ and at $t=1.5$ it is $0$, and $x=2\\pi$ is not a value of $x$ at $t=2$.)",
+   "options": [
+    "The maximum velocity of the particle occurs at $t=2$ when $x=1$.",
+    "The maximum velocity of the particle occurs at $t=2$ when $x=2\\pi$.",
+    "The maximum velocity of the particle occurs at $t=1.5$ when $x=-1$.",
+    "The maximum velocity of the particle occurs at $t=0.5$ when $x=3$."
+   ],
+   "correct": "A",
+   "course": "advanced"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.9"
+   ],
+   "question": "The diagram shows the direction field of a differential equation. Which of the following differential equations could have the given direction field?",
+   "answer": "The field has horizontal segments all along the line $y=1$ (the dashed line) and all along the $y$-axis ($x=0$), with slopes that are positive in some regions and negative in others (the sign changes across both lines).\n\nFor (D), $\\dfrac{dy}{dx}=x(y-1)$, which is $0$ exactly when $x=0$ or $y=1$ and changes sign across each of these lines, matching the field. Options (A), (B) and (C) are $0$ only along the lines $y=\\pm x$ (or only at the origin for (A)), and (A) is never negative, so they do not match.",
+   "options": [
+    "$\\dfrac{dy}{dx}=x^2+y^2$",
+    "$\\dfrac{dy}{dx}=x^2-y^2$",
+    "$\\dfrac{dy}{dx}=y^2-x^2$",
+    "$\\dfrac{dy}{dx}=xy-x$"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/ext1-2025-gosford/q8.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.6"
+   ],
+   "question": "In the diagram, the position vectors of the points $A$ and $B$ are $\\mathbf a$ and $\\mathbf b$ respectively, where $O$ is the origin. Point $C$ is the midpoint of $OB$ and point $D$ is such that $ABDC$ is a parallelogram. Which of the following is the position vector of $D$ ?",
+   "answer": "In parallelogram $ABDC$ the opposite sides $AB$ and $CD$ are equal and parallel, so $\\overrightarrow{CD}=\\overrightarrow{AB}=\\mathbf b-\\mathbf a$. Also $\\overrightarrow{OC}=\\tfrac12\\mathbf b$. Therefore\n$$\\overrightarrow{OD}=\\overrightarrow{OC}+\\overrightarrow{CD}=\\tfrac12\\mathbf b+\\mathbf b-\\mathbf a=\\tfrac32\\mathbf b-\\mathbf a.$$",
+   "options": [
+    "$\\dfrac32\\mathbf b+\\mathbf a$",
+    "$\\dfrac32\\mathbf b-\\mathbf a$",
+    "$\\dfrac12\\mathbf b-\\dfrac12\\mathbf a$",
+    "$\\dfrac12\\mathbf b-\\mathbf a$"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/ext1-2025-gosford/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "The diagram shows an equilateral triangle with side length $x$ cm and area $A$ cm$^2$.\n\nThe area of the triangle is increasing at a rate of $6$ cm$^2$ per second. At what rate is the side length $x$ increasing when the triangle has a side length of $4$ cm?",
+   "answer": "$A=\\tfrac12x^2\\sin60^\\circ=\\dfrac{\\sqrt3}4x^2$, so $\\dfrac{dA}{dx}=\\dfrac{\\sqrt3}2x$. Then\n$$\\frac{dx}{dt}=\\frac{dA}{dt}\\div\\frac{dA}{dx}=\\frac{6}{\\tfrac{\\sqrt3}2x}=\\frac{12}{\\sqrt3\\,x}.$$\nAt $x=4$: $\\dfrac{dx}{dt}=\\dfrac{12}{4\\sqrt3}=\\dfrac3{\\sqrt3}=\\sqrt3$ cm/s.",
+   "options": [
+    "$\\dfrac2{\\sqrt3}$ cm/s",
+    "$\\sqrt3$ cm/s",
+    "$6$ cm/s",
+    "$12\\sqrt3$ cm/s"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/ext1-2025-gosford/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.2"
+   ],
+   "question": "Express $2\\cos x-\\sin x$ in the form $R\\cos(x+\\alpha)$, where $R>0$ and $0^\\circ\\le\\alpha\\le360^\\circ$.",
+   "answer": "$R\\cos(x+\\alpha)=R\\cos\\alpha\\cos x-R\\sin\\alpha\\sin x$, so $R\\cos\\alpha=2$ and $R\\sin\\alpha=1$.\n\n$R=\\sqrt{2^2+1^2}=\\sqrt5$ and $\\tan\\alpha=\\tfrac12$ with $\\alpha$ in the first quadrant, so $\\alpha=\\tan^{-1}\\tfrac12\\approx26.57^\\circ$ (about $26^\\circ34'$).\n\n$$2\\cos x-\\sin x=\\sqrt5\\cos\\left(x+26.57^\\circ\\right).$$"
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.3"
+   ],
+   "question": "Given that $2\\cos x-\\sin x=\\sqrt5\\cos(x+\\alpha)$ where $\\alpha\\approx26.57^\\circ$, find the range of the function $g(x)=(2\\cos x-\\sin x)^2$.",
+   "answer": "$g(x)=5\\cos^2(x+\\alpha)$ and $0\\le\\cos^2(x+\\alpha)\\le1$, so the range is $0\\le g(x)\\le5$."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Solve $-\\dfrac1{x+1}\\le x+3$.",
+   "answer": "Here $x\\ne-1$. Multiply both sides by $(x+1)^2>0$:\n$$-(x+1)\\le(x+3)(x+1)^2\\iff(x+1)\\left[(x+3)(x+1)+1\\right]\\ge0\\iff(x+1)(x^2+4x+4)\\ge0\\iff(x+1)(x+2)^2\\ge0.$$\n$(x+2)^2\\ge0$ always, equal to $0$ only at $x=-2$. So the inequality holds when $x+1>0$, or when $x=-2$ (where the product is $0$). Check $x=-2$: $-\\dfrac1{-1}=1\\le1$ ✓. ($x=-1$ is excluded.)\n\n$$x>-1\\quad\\text{or}\\quad x=-2.$$"
+  },
+  {
+   "ref": "Q11(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.1.10"
+   ],
+   "question": "A group of six girls and two boys are to be seated around a round table. In how many different ways can the eight people be seated?",
+   "answer": "Arranging $8$ distinct people in a circle: $(8-1)!=7!=5040$."
+  },
+  {
+   "ref": "Q11(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.19"
+   ],
+   "question": "Six girls and two boys are to be seated around a round table (there are $7!=5040$ possible seatings). What is the probability that the two boys are not seated next to each other?",
+   "answer": "Count the seatings with the boys together: treat the two boys as one block, giving $7$ units in a circle, $(7-1)!=720$ ways, and $2$ orders inside the block, so $1440$ ways.\n\nBoys not together: $5040-1440=3600$ ways. Probability $=\\dfrac{3600}{5040}=\\dfrac57$."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Use the substitution $x=2\\cos u$ to evaluate $\\displaystyle\\int_0^1\\frac{x^2}{\\sqrt{4-x^2}}\\,dx$.",
+   "answer": "$x=2\\cos u\\Rightarrow dx=-2\\sin u\\,du$. When $x=0$, $u=\\tfrac\\pi2$; when $x=1$, $\\cos u=\\tfrac12$, so $u=\\tfrac\\pi3$. Also $\\sqrt{4-x^2}=\\sqrt{4\\sin^2u}=2\\sin u$ (as $\\sin u>0$ for $\\tfrac\\pi3\\le u\\le\\tfrac\\pi2$).\n$$\\int_{\\pi/2}^{\\pi/3}\\frac{4\\cos^2u}{2\\sin u}\\left(-2\\sin u\\right)du=\\int_{\\pi/3}^{\\pi/2}4\\cos^2u\\,du=2\\int_{\\pi/3}^{\\pi/2}(1+\\cos2u)\\,du=2\\left[u+\\tfrac12\\sin2u\\right]_{\\pi/3}^{\\pi/2}.$$\n$$=2\\left[\\left(\\tfrac\\pi2+0\\right)-\\left(\\tfrac\\pi3+\\tfrac{\\sqrt3}4\\right)\\right]=2\\left(\\tfrac\\pi6-\\tfrac{\\sqrt3}4\\right)=\\frac\\pi3-\\frac{\\sqrt3}2.$$"
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.2.4"
+   ],
+   "question": "By letting $t=\\tan\\theta$, or otherwise, show that $\\operatorname{cosec}(2\\theta)-\\cot(2\\theta)=\\tan\\theta$.",
+   "answer": "$$\\operatorname{cosec}2\\theta-\\cot2\\theta=\\frac1{\\sin2\\theta}-\\frac{\\cos2\\theta}{\\sin2\\theta}=\\frac{1-\\cos2\\theta}{\\sin2\\theta}=\\frac{1-(1-2\\sin^2\\theta)}{2\\sin\\theta\\cos\\theta}=\\frac{2\\sin^2\\theta}{2\\sin\\theta\\cos\\theta}=\\tan\\theta.\\ \\blacksquare$$"
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.4"
+   ],
+   "question": "Given that $\\operatorname{cosec}(2\\theta)-\\cot(2\\theta)=\\tan\\theta$, find the exact value of $\\tan\\dfrac\\pi8$.",
+   "answer": "Let $\\theta=\\tfrac\\pi8$, so $2\\theta=\\tfrac\\pi4$:\n$$\\tan\\frac\\pi8=\\operatorname{cosec}\\frac\\pi4-\\cot\\frac\\pi4=\\sqrt2-1.$$"
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.12"
+   ],
+   "question": "Sketch the graph of $y=\\pi-\\cos^{-1}(2x)$, clearly indicating the endpoints and any intercepts with the coordinate axes.",
+   "answer": "The domain of $\\cos^{-1}(2x)$ requires $-1\\le2x\\le1$, i.e. $-\\tfrac12\\le x\\le\\tfrac12$.\n\nEndpoints: at $x=-\\tfrac12$, $y=\\pi-\\cos^{-1}(-1)=\\pi-\\pi=0$, giving $\\left(-\\tfrac12,0\\right)$; at $x=\\tfrac12$, $y=\\pi-\\cos^{-1}(1)=\\pi$, giving $\\left(\\tfrac12,\\pi\\right)$.\n\nIntercepts: the $y$-intercept is $y=\\pi-\\cos^{-1}0=\\pi-\\tfrac\\pi2=\\tfrac\\pi2$, i.e. $\\left(0,\\tfrac\\pi2\\right)$; the only $x$-intercept is the endpoint $\\left(-\\tfrac12,0\\right)$.\n\nThe graph is an increasing curve (an inverse-sine shape, since $\\pi-\\cos^{-1}(2x)=\\tfrac\\pi2+\\sin^{-1}(2x)$) from $\\left(-\\tfrac12,0\\right)$ through $\\left(0,\\tfrac\\pi2\\right)$ to $\\left(\\tfrac12,\\pi\\right)$, with half-turn symmetry about $\\left(0,\\tfrac\\pi2\\right)$ and vertical tangents at both endpoints."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.3"
+   ],
+   "question": "Given that $y=e^{2x}+e^{-2x}$, determine the values of the constants $a$ and $b$ that satisfy the differential equation $\\dfrac{d^2y}{dx^2}+a\\dfrac{dy}{dx}+by=5e^{2x}+e^{-2x}$.",
+   "answer": "$\\dfrac{dy}{dx}=2e^{2x}-2e^{-2x}$ and $\\dfrac{d^2y}{dx^2}=4e^{2x}+4e^{-2x}$. Substituting,\n$$(4+2a+b)e^{2x}+(4-2a+b)e^{-2x}=5e^{2x}+e^{-2x}.$$\nEquating coefficients: $4+2a+b=5$ and $4-2a+b=1$. Adding: $8+2b=6$, so $b=-1$; then $2a=5-4+1=2$, so $a=1$.\n\n$$a=1,\\quad b=-1.$$"
+  },
+  {
+   "ref": "Q12(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.5"
+   ],
+   "question": "The population of a particular town is growing at a rate proportional to the excess of its current size $N$ above $3000$ individuals; that is, $\\dfrac{dN}{dt}=k(N-3000)$. Show that $N=3000+Ae^{kt}$ satisfies this model of population growth.",
+   "answer": "If $N=3000+Ae^{kt}$ then $\\dfrac{dN}{dt}=kAe^{kt}=k\\left(N-3000\\right)$, since $N-3000=Ae^{kt}$. ✓"
+  },
+  {
+   "ref": "Q12(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.7"
+   ],
+   "question": "The population of a town satisfies $N=3000+Ae^{kt}$, where $t$ is the time in years since the start of 2020. At the start of 2020 the population was $25\\,000$ and at the start of 2025 it was $29\\,400$. Show that $A=22\\,000$ and $k=\\dfrac15\\ln\\left(\\dfrac65\\right)$.",
+   "answer": "At $t=0$: $25\\,000=3000+A$, so $A=22\\,000$.\n\nAt $t=5$: $29\\,400=3000+22\\,000e^{5k}$, so $e^{5k}=\\dfrac{26\\,400}{22\\,000}=\\dfrac65$ and $k=\\dfrac15\\ln\\left(\\dfrac65\\right)$. ✓"
+  },
+  {
+   "ref": "Q12(d)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.7"
+   ],
+   "question": "A town's population is modelled by $N=3000+22\\,000e^{kt}$ where $k=\\dfrac15\\ln\\left(\\dfrac65\\right)$ and $t$ is the time in years since the start of 2020. In what year will the population first exceed $35\\,000$ ?",
+   "answer": "$35\\,000=3000+22\\,000e^{kt}\\Rightarrow e^{kt}=\\dfrac{32\\,000}{22\\,000}=\\dfrac{16}{11}$, so\n$$t=\\frac{\\ln\\frac{16}{11}}{k}=\\frac{5\\ln\\frac{16}{11}}{\\ln\\frac65}\\approx10.28\\text{ years}.$$\nThis is $10.28$ years after the start of 2020, i.e. during 2030, so the population first exceeds $35\\,000$ in the year $2030$."
+  },
+  {
+   "ref": "Q12(d)(iv)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.7"
+   ],
+   "question": "A town's population satisfies $\\dfrac{dN}{dt}=k(N-3000)$ with $k=\\dfrac15\\ln\\left(\\dfrac65\\right)$ (per year). What is the rate of population growth when the population reaches $35\\,000$ ?",
+   "answer": "$\\dfrac{dN}{dt}=k(35\\,000-3000)=32\\,000\\times\\dfrac15\\ln\\dfrac65=6400\\ln\\dfrac65\\approx1167$ people per year."
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Find $\\dfrac d{dx}\\left(x\\tan^{-1}x\\right)$.",
+   "answer": "By the product rule, $\\dfrac d{dx}\\left(x\\tan^{-1}x\\right)=\\tan^{-1}x+x\\cdot\\dfrac1{1+x^2}=\\tan^{-1}x+\\dfrac x{1+x^2}$."
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Given that $\\dfrac d{dx}\\left(x\\tan^{-1}x\\right)=\\tan^{-1}x+\\dfrac x{1+x^2}$, find $\\displaystyle\\int\\tan^{-1}x\\,dx$.",
+   "answer": "Integrating both sides: $x\\tan^{-1}x=\\displaystyle\\int\\tan^{-1}x\\,dx+\\int\\frac x{1+x^2}\\,dx$, so\n$$\\int\\tan^{-1}x\\,dx=x\\tan^{-1}x-\\frac12\\ln\\left(1+x^2\\right)+c.$$"
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.6.5"
+   ],
+   "question": "A particle is fired from a point on the ground, taken to be the origin, with speed of projection $80\\ \\text{ms}^{-1}$ at an angle $\\alpha$ above the horizontal. The position vector of the particle is $\\mathbf r(t)$, where $t$ is the time after projection, and the acceleration due to gravity is $g=10\\ \\text{ms}^{-2}$.\n\nShow that $\\mathbf r(t)=(80t\\cos\\alpha)\\,\\mathbf i+(80t\\sin\\alpha-5t^2)\\,\\mathbf j$.",
+   "answer": "Take $\\mathbf i$ horizontal and $\\mathbf j$ vertically up. The acceleration is $\\ddot{\\mathbf r}=-10\\,\\mathbf j$.\n\nIntegrating: $\\dot{\\mathbf r}=-10t\\,\\mathbf j+\\mathbf c_1$. At $t=0$ the velocity is $80\\cos\\alpha\\,\\mathbf i+80\\sin\\alpha\\,\\mathbf j$, so $\\mathbf c_1=80\\cos\\alpha\\,\\mathbf i+80\\sin\\alpha\\,\\mathbf j$ and\n$$\\dot{\\mathbf r}=80\\cos\\alpha\\,\\mathbf i+(80\\sin\\alpha-10t)\\,\\mathbf j.$$\nIntegrating again: $\\mathbf r=80t\\cos\\alpha\\,\\mathbf i+(80t\\sin\\alpha-5t^2)\\,\\mathbf j+\\mathbf c_2$. At $t=0$, $\\mathbf r=\\mathbf 0$, so $\\mathbf c_2=\\mathbf 0$. Hence\n$$\\mathbf r(t)=(80t\\cos\\alpha)\\,\\mathbf i+(80t\\sin\\alpha-5t^2)\\,\\mathbf j.\\ \\blacksquare$$"
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.6.8"
+   ],
+   "question": "A particle is fired from the origin with speed $80\\ \\text{ms}^{-1}$ at an angle $\\alpha$ above the horizontal, with $g=10\\ \\text{ms}^{-2}$, so that its position at time $t$ is $\\mathbf r(t)=(80t\\cos\\alpha)\\,\\mathbf i+(80t\\sin\\alpha-5t^2)\\,\\mathbf j$. The particle needs to clear a fence $5$ metres high at a horizontal distance of $400$ metres from the point of projection. Find the possible values of $\\alpha$ for the particle to clear the fence, correct to the nearest minute.",
+   "answer": "The particle is at horizontal distance $400$ when $80t\\cos\\alpha=400$, i.e. $t=\\dfrac5{\\cos\\alpha}$. Its height then is\n$$y=80\\cdot\\frac5{\\cos\\alpha}\\sin\\alpha-5\\cdot\\frac{25}{\\cos^2\\alpha}=400\\tan\\alpha-125\\sec^2\\alpha=400\\tan\\alpha-125(1+\\tan^2\\alpha).$$\nTo clear the fence, $y\\ge5$. With $T=\\tan\\alpha$:\n$$400T-125-125T^2\\ge5\\iff125T^2-400T+130\\le0\\iff25T^2-80T+26\\le0.$$\nThe roots are $T=\\dfrac{80\\pm\\sqrt{6400-2600}}{50}=\\dfrac{80\\pm\\sqrt{3800}}{50}\\approx0.3671,\\ 2.8329$, so $0.3671\\le\\tan\\alpha\\le2.8329$ and (for $0<\\alpha<90^\\circ$)\n$$20^\\circ10'\\le\\alpha\\le70^\\circ33'.$$"
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "Use mathematical induction to prove that $9^{n+2}-4^n$ is divisible by $5$ for all positive integers $n$.",
+   "answer": "**Base case** $n=1$: $9^3-4=729-4=725=5\\times145$, which is divisible by $5$. ✓\n\n**Inductive step.** Assume the result is true for $n=k$: $9^{k+2}-4^k=5M$ for some integer $M$, so $9^{k+2}=5M+4^k$.\n\nThen for $n=k+1$:\n$$9^{k+3}-4^{k+1}=9\\cdot9^{k+2}-4\\cdot4^k=9\\left(5M+4^k\\right)-4\\cdot4^k=45M+5\\cdot4^k=5\\left(9M+4^k\\right),$$\nwhich is divisible by $5$ since $9M+4^k$ is an integer.\n\nSo if the result holds for $n=k$ it holds for $n=k+1$. As it holds for $n=1$, by mathematical induction it holds for all positive integers $n$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.17"
+   ],
+   "question": "A Maths club has $2n$ members, half of which are male and half female. A Pi Day committee is made up of $3$ members of this club.\n\nBy considering all different combinations for this committee, show that $n\\,{}^nC_2+{}^nC_3=\\dfrac12\\,{}^{2n}C_3$, where $n\\ge3$.",
+   "answer": "The number of $3$-member committees is ${}^{2n}C_3$. Split by gender:\n\n- all three of the same gender: $3$ males (${}^nC_3$ ways) or $3$ females (${}^nC_3$ ways), giving $2\\,{}^nC_3$;\n- two of one gender and one of the other: $2$ males and $1$ female gives ${}^nC_2\\times n$, and $2$ females and $1$ male gives the same, so $2n\\,{}^nC_2$.\n\nTherefore ${}^{2n}C_3=2\\,{}^nC_3+2n\\,{}^nC_2$, and dividing by $2$,\n$$n\\,{}^nC_2+{}^nC_3=\\tfrac12\\,{}^{2n}C_3.\\ \\blacksquare$$"
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "In the expansion of $(3+2x)^n$, the coefficients of $x^2$ and $x$ are in the ratio $3:1$. Find the value of $n$.",
+   "answer": "The general term is ${}^nC_r\\,3^{n-r}(2x)^r$. The coefficient of $x$ is ${}^nC_1\\,3^{n-1}\\cdot2=2n\\cdot3^{n-1}$ and the coefficient of $x^2$ is ${}^nC_2\\,3^{n-2}\\cdot4=2n(n-1)\\cdot3^{n-2}$.\n\nRatio $x^2:x=3:1$:\n$$\\frac{2n(n-1)3^{n-2}}{2n\\cdot3^{n-1}}=3\\Rightarrow\\frac{n-1}{3}=3\\Rightarrow n=10.$$"
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "Solve the differential equation $(x^2+1)\\dfrac{dy}{dx}=6xy$, given that $y=2$ when $x=1$. Give your answer as the function $y$ in terms of $x$.",
+   "answer": "Separate the variables: $\\dfrac1y\\,dy=\\dfrac{6x}{x^2+1}\\,dx$. Integrating,\n$$\\ln|y|=3\\ln(x^2+1)+c.$$\nSo $y=A(x^2+1)^3$ where $A=\\pm e^c$. When $x=1$, $y=2$: $2=A\\cdot2^3$, so $A=\\tfrac14$.\n\n$$y=\\frac14\\left(x^2+1\\right)^3.$$"
+  },
+  {
+   "ref": "Q15(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.2.2"
+   ],
+   "question": "Show that $\\sin(x-y)\\sin(x+y)=\\sin^2x-\\sin^2y$.",
+   "answer": "$$\\sin(x-y)\\sin(x+y)=(\\sin x\\cos y-\\cos x\\sin y)(\\sin x\\cos y+\\cos x\\sin y)=\\sin^2x\\cos^2y-\\cos^2x\\sin^2y$$\n$$=\\sin^2x(1-\\sin^2y)-(1-\\sin^2x)\\sin^2y=\\sin^2x-\\sin^2x\\sin^2y-\\sin^2y+\\sin^2x\\sin^2y=\\sin^2x-\\sin^2y.\\ \\blacksquare$$"
+  },
+  {
+   "ref": "Q15(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.1"
+   ],
+   "question": "Using the identity $\\sin(x-y)\\sin(x+y)=\\sin^2x-\\sin^2y$, or otherwise, solve $\\sin^23x-\\sin^2x=\\sin4x$ for $0\\le x\\le\\pi$.",
+   "answer": "With the identity (letting the angles be $3x$ and $x$): $\\sin^23x-\\sin^2x=\\sin(3x-x)\\sin(3x+x)=\\sin2x\\sin4x$. So\n$$\\sin2x\\sin4x=\\sin4x\\iff\\sin4x\\,(\\sin2x-1)=0.$$\n- $\\sin4x=0$: $4x=0,\\pi,2\\pi,3\\pi,4\\pi$, so $x=0,\\tfrac\\pi4,\\tfrac\\pi2,\\tfrac{3\\pi}4,\\pi$.\n- $\\sin2x=1$: $2x=\\tfrac\\pi2$ (for $0\\le2x\\le2\\pi$), so $x=\\tfrac\\pi4$ (already found).\n\n$$x=0,\\ \\frac\\pi4,\\ \\frac\\pi2,\\ \\frac{3\\pi}4,\\ \\pi.$$"
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Show that $\\dfrac d{dx}(x\\ln x)=1+\\ln x$.",
+   "answer": "Using the product rule with $u=x$, $v=\\ln x$: $\\dfrac d{dx}(x\\ln x)=\\ln x\\cdot1+x\\cdot\\dfrac1x=\\ln x+1$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.1",
+    "11.1.2.6"
+   ],
+   "question": "The function $f(x)=1+\\ln x$ is defined in the domain $(0,1]$. The diagram shows the graphs of the function $y=f(x)$ and the inverse function $y=f^{-1}(x)$.\n\nFind, in simplest exact form, the area of the region in the first quadrant bounded by the curves $y=f(x)$, $y=f^{-1}(x)$ and the coordinate axes.\n\nYou may use the result $\\dfrac d{dx}(x\\ln x)=1+\\ln x$.",
+   "answer": "The curves $y=f(x)$ and $y=f^{-1}(x)$ are reflections in $y=x$ and meet at $(1,1)$. The curve $y=f(x)$ cuts the $x$-axis where $1+\\ln x=0$, i.e. $x=\\tfrac1e$.\n\nThe required region lies under $y=f^{-1}(x)$ for $0\\le x\\le1$ (where $f^{-1}(x)=e^{x-1}$) and above $y=f(x)$ for $\\tfrac1e\\le x\\le1$. Its area is\n$$A=\\int_0^1e^{x-1}\\,dx-\\int_{1/e}^1(1+\\ln x)\\,dx.$$\nEquivalently (using the symmetry in $y=x$), $A=1\\times1-2\\times(\\text{area under }f\\text{ from }x=\\tfrac1e\\text{ to }1)$.\n\nSince $\\dfrac d{dx}(x\\ln x)=1+\\ln x$,\n$$\\int_{1/e}^1(1+\\ln x)\\,dx=\\Big[x\\ln x\\Big]_{1/e}^1=0-\\frac1e\\ln\\frac1e=\\frac1e.$$\nSo $A=1-2\\cdot\\dfrac1e=1-\\dfrac2e$.\n\n(Check with the first form: $\\int_0^1e^{x-1}dx=1-\\tfrac1e$, and $1-\\tfrac1e-\\tfrac1e=1-\\tfrac2e$ ✓.)\n\n$$A=1-\\frac2e\\ \\text{square units}.$$",
+   "images": [
+    "assets/img/ext1-2025-gosford/q15b.png"
+   ]
+  },
+  {
+   "ref": "Q15(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "Let $f(x)=\\sqrt{m-3x}$ for $x\\le\\dfrac m3$. The graph of $y=f(x)$ is shown. The shaded area, enclosed by the graph of $y=f(x)$, the $x$-axis and the $y$-axis, is rotated about the $y$-axis.\n\nFind the value of $m$ such that the volume of the solid formed is $\\dfrac{5000\\pi}{27}$ cubic units.",
+   "answer": "Rotating about the $y$-axis, $V=\\pi\\displaystyle\\int_a^bx^2\\,dy$. From $y=\\sqrt{m-3x}$: $y^2=m-3x$, so $x=\\dfrac{m-y^2}3$ and $x^2=\\dfrac{(m-y^2)^2}9$. The shaded region runs from $y=0$ up to the $y$-intercept $y=\\sqrt m$ (where $x=0$), so\n$$V=\\frac\\pi9\\int_0^{\\sqrt m}\\left(m^2-2my^2+y^4\\right)dy=\\frac\\pi9\\left[m^2y-\\frac{2my^3}3+\\frac{y^5}5\\right]_0^{\\sqrt m}=\\frac\\pi9\\,m^{5/2}\\left(1-\\frac23+\\frac15\\right)=\\frac\\pi9\\cdot\\frac8{15}\\,m^{5/2}.$$\nSetting $V=\\dfrac{5000\\pi}{27}$: $\\dfrac{8}{135}m^{5/2}=\\dfrac{5000}{27}$, so $m^{5/2}=\\dfrac{5000\\cdot135}{27\\cdot8}=3125=5^5$, giving $m=\\left(5^5\\right)^{2/5}=5^2=25$.\n\n$$m=25.$$",
+   "images": [
+    "assets/img/ext1-2025-gosford/q15c.png"
+   ]
+  }
+ ]
+}
