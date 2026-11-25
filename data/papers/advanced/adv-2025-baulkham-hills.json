@@ -1,0 +1,713 @@
+{
+ "id": "adv-2025-baulkham-hills",
+ "course": "advanced",
+ "school": "Baulkham Hills",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5328",
+  "title": "Baulkham Hills 2025 w. sol"
+ },
+ "indexed": "2026-11-25",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q1",
+   "reason": "Not in 2024 syllabus: bivariate data (Pearson's correlation coefficient)"
+  },
+  {
+   "ref": "Q11(a)",
+   "reason": "Not in 2024 syllabus: Pareto charts"
+  },
+  {
+   "ref": "Q11(b)",
+   "reason": "Not in 2024 syllabus: Pareto charts"
+  },
+  {
+   "ref": "Q16(a)",
+   "reason": "Not in 2024 syllabus: bivariate data (correlation coefficient)"
+  },
+  {
+   "ref": "Q16(b)",
+   "reason": "Not in 2024 syllabus: bivariate data (least-squares regression line, drawn on a printed scatter plot)"
+  },
+  {
+   "ref": "Q16(c)",
+   "reason": "Not in 2024 syllabus: bivariate data (least-squares regression line)"
+  },
+  {
+   "ref": "Q16(d)",
+   "reason": "Not in 2024 syllabus: bivariate data (reliability of extrapolation)"
+  },
+  {
+   "ref": "Q19",
+   "reason": "Not in 2024 syllabus: box plots, quartiles, interquartile range and comparing datasets"
+  },
+  {
+   "ref": "Q22(a)",
+   "reason": "Only asks to complete a printed bearings diagram (the information is stated in the remaining parts)"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.2"
+   ],
+   "question": "There are 25 seats in the front row of an amphitheatre, 30 in the second row, 35 in the 3rd row and so on, such that the number of seats in each row is 5 more than the row in front. How many seats are in the 50th row?",
+   "answer": "The numbers of seats form an arithmetic sequence with $a=25$, $d=5$.\n\n$T_{50}=a+(n-1)d=25+49\\times5=270$.",
+   "options": [
+    "90",
+    "125",
+    "270",
+    "7375"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Which of the following correctly describes the order of the transformations of $y=\\sin x$ to $y=3\\sin(2x-1)$?",
+   "answer": "Write $y=3\\sin(2x-1)=3\\sin\\left(2\\left(x-\\tfrac12\\right)\\right)$. Starting from $y=\\sin x$: horizontal dilation by a factor of $\\tfrac12$, then translate right $\\tfrac12$, then vertical dilation by a factor of $3$.",
+   "options": [
+    "Vertical dilation by a factor of $3$, horizontal dilation by a factor of $2$, horizontal translation right $1$.",
+    "Horizontal translation right $1$, horizontal dilation by a factor of $2$, vertical dilation by a factor of $3$.",
+    "Horizontal dilation by a factor of $\\tfrac12$, horizontal translation right $\\tfrac12$, vertical dilation by a factor of $3$.",
+    "Horizontal dilation by a factor of $\\tfrac12$, horizontal translation right $2$, vertical dilation by a factor of $\\tfrac13$."
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.6"
+   ],
+   "question": "The weights of an Australian Cattle Dog are normally distributed with mean $25$ kg and standard deviation $4$ kg. Approximately what percentage of dogs will weigh between $29$ kg and $33$ kg?",
+   "answer": "$29$ kg is one standard deviation above the mean and $33$ kg is two standard deviations above the mean.\n\nBy the empirical rule, $68\\%$ lie within $1$ s.d. and $95\\%$ within $2$ s.d. of the mean, so the percentage between $1$ and $2$ s.d. above the mean is $\\dfrac{95\\%-68\\%}{2}=13.5\\%$.",
+   "options": [
+    "$2.35\\%$",
+    "$2.5\\%$",
+    "$13.5\\%$",
+    "$27\\%$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "When a drug enters the bloodstream, its concentration $y$ decreases over time $x$ such that the rate of decrease slows down. Which of the following best describes $\\dfrac{dy}{dx}$ and $\\dfrac{d^2y}{dx^2}$?",
+   "answer": "The concentration is decreasing, so $\\dfrac{dy}{dx}<0$. The rate of decrease is slowing (the curve flattens out), so the curve is concave up and $\\dfrac{d^2y}{dx^2}>0$.",
+   "options": [
+    "$\\dfrac{dy}{dx}<0$ and $\\dfrac{d^2y}{dx^2}<0$",
+    "$\\dfrac{dy}{dx}<0$ and $\\dfrac{d^2y}{dx^2}>0$",
+    "$\\dfrac{dy}{dx}>0$ and $\\dfrac{d^2y}{dx^2}<0$",
+    "$\\dfrac{dy}{dx}>0$ and $\\dfrac{d^2y}{dx^2}>0$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.6",
+    "12.6.2.7"
+   ],
+   "question": "Which of the following could be a continuous probability density function?",
+   "answer": "A PDF must satisfy $f(x)\\ge0$ for all $x$ and have total area $1$.\n\n- (A) $f(x)=\\tfrac12x$ is negative for $x<0$ and its area is not finite, so it fails.\n- (B) $1-x<0$ for $1<x\\le2$, so it fails (and the net area is $0$).\n- (C) The graph is a triangle with base $4$ and height $\\tfrac12$, so area $=\\tfrac12\\times4\\times\\tfrac12=1$, and $f(x)\\ge0$ everywhere. This works.\n- (D) $\\displaystyle\\int_0^1(1-x^2)\\,dx=\\tfrac23\\ne1$, so it fails.",
+   "options": [
+    "$f(x)=\\dfrac12x$",
+    "$f(x)=\\begin{cases}1-x & 0\\le x\\le2\\\\ 0 & \\text{for all other values of }x\\end{cases}$",
+    "$f(x)=\\begin{cases}\\dfrac14x & 0\\le x<2\\\\[1mm] 1-\\dfrac14x & 2\\le x\\le4\\\\[1mm] 0 & \\text{for all other values of }x\\end{cases}$",
+    "$f(x)=\\begin{cases}1-x^2 & 0\\le x\\le1\\\\ 0 & \\text{for all other values of }x\\end{cases}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.3.10",
+    "11.4.3.3"
+   ],
+   "question": "Which of the following is the derivative of $y=\\sqrt[3]{(9x-1)^2}$?",
+   "answer": "$y=(9x-1)^{2/3}$, so\n$$\\frac{dy}{dx}=\\frac23(9x-1)^{-1/3}\\times9=6(9x-1)^{-1/3}=\\frac{6}{\\sqrt[3]{9x-1}}.$$",
+   "options": [
+    "$\\dfrac{6}{\\sqrt[3]{9x-1}}$",
+    "$6\\sqrt[3]{9x-1}$",
+    "$\\dfrac{2}{3\\sqrt[3]{9x-1}}$",
+    "$\\dfrac{9\\sqrt{9x-1}}{2}$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.3.5"
+   ],
+   "question": "The diagram below shows the graph of a straight line $y=mx+b$. Which of the following statements is true about $m$ and $b$?",
+   "answer": "The line slopes upwards, so the gradient $m>0$, and it cuts the $y$-axis below the origin, so $b<0$. Hence $b<0<m$.",
+   "options": [
+    "$0<m<b$",
+    "$0<b<m$",
+    "$b<0<m$",
+    "$m<0<b$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/adv-2025-baulkham-hills/q8.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.5.3"
+   ],
+   "question": "Which of the following is the correct expression for the indefinite integral of $5^{2x+3}$?",
+   "answer": "Using $\\displaystyle\\int f'(x)a^{f(x)}\\,dx=\\frac{a^{f(x)}}{\\ln a}+c$ with $a=5$, $f(x)=2x+3$, $f'(x)=2$:\n$$\\int5^{2x+3}\\,dx=\\frac{5^{2x+3}}{2\\ln5}+c.$$",
+   "options": [
+    "$2\\times5^{2x+3}+c$",
+    "$2\\ln5\\times5^{2x+3}+c$",
+    "$\\dfrac{5^{2x+3}}{2}+c$",
+    "$\\dfrac{5^{2x+3}}{2\\ln5}+c$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.6.1.4",
+    "12.4.8.2"
+   ],
+   "question": "The area bounded by the graph of $y=f(x)$, the line $x=-2$, the line $x=4$ and the $x$-axis, as shaded in the diagram below, is $A$ units$^2$. Which of the following integrals is correct for $f(2x)$?",
+   "answer": "$y=f(2x)$ is $y=f(x)$ dilated horizontally by a factor of $\\tfrac12$ (from the $y$-axis), so the region over $-2\\le x\\le4$ becomes the region over $-1\\le x\\le2$, with half the width and the same heights. Its area is $\\tfrac A2$:\n$$\\int_{-1}^{2}f(2x)\\,dx=\\frac A2.$$",
+   "options": [
+    "$\\displaystyle\\int_{-4}^{8}f(2x)\\,dx=2A$",
+    "$\\displaystyle\\int_{-4}^{8}f(2x)\\,dx=A$",
+    "$\\displaystyle\\int_{-1}^{2}f(2x)\\,dx=A$",
+    "$\\displaystyle\\int_{-1}^{2}f(2x)\\,dx=\\dfrac{A}{2}$"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/adv-2025-baulkham-hills/q10.png"
+   ]
+  },
+  {
+   "ref": "Q12",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.8.11"
+   ],
+   "question": "Use three applications of the trapezoidal rule to estimate the value of $\\displaystyle\\int_1^4\\sqrt{x-1}\\,dx$. Give your answer correct to $4$ significant figures.",
+   "answer": "With three applications, $h=\\dfrac{4-1}{3}=1$ and the function values are\n\n| $x$ | $1$ | $2$ | $3$ | $4$ |\n|---|---|---|---|---|\n| $\\sqrt{x-1}$ | $0$ | $1$ | $\\sqrt2$ | $\\sqrt3$ |\n\n$$\\int_1^4\\sqrt{x-1}\\,dx\\approx\\frac{1}{2}\\left\\{0+\\sqrt3+2\\left(1+\\sqrt2\\right)\\right\\}=3.280\\ \\text{(4 s.f.)}$$"
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.6.1"
+   ],
+   "question": "Eric is organising a gala dinner. The function centre will charge him \\$2 000 to hire the room and he needs to pay a catering company \\$80 per person for food. Write an equation for the cost \\$$C$ of hosting the event for $n$ people.",
+   "answer": "$C=80n+2000$"
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.6.4"
+   ],
+   "question": "Eric is organising a gala dinner. The cost of hosting the event for $n$ people is \\$$C$ where $C=80n+2000$. Eric charges \\$120 per ticket. The graph below shows the planned cost (the line starting at \\$2 000 on the $C$-axis) and income (the line through the origin). Estimate the number of people required to break even.",
+   "answer": "Break-even occurs where the income and cost lines intersect. From the graph this is at $n=50$ (where $C=\\$6000$). So about $50$ people are required to break even.",
+   "images": [
+    "assets/img/adv-2025-baulkham-hills/q13.png"
+   ]
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.6.4"
+   ],
+   "question": "Eric is organising a gala dinner. The cost of hosting the event for $n$ people is \\$$C$ where $C=80n+2000$, and he charges \\$120 per ticket. The graph below shows the planned cost (the line starting at \\$2 000 on the $C$-axis) and income (the line through the origin). What is the profit if $75$ people attend the dinner?",
+   "answer": "At $n=75$: income $=120\\times75=\\$9000$ and cost $=80\\times75+2000=\\$8000$.\n\nProfit $=9000-8000=\\$1000$.",
+   "images": [
+    "assets/img/adv-2025-baulkham-hills/q13.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.8"
+   ],
+   "question": "A saucepan of hot water at a temperature of $T^\\circ$C loses heat when taken off the stove. It cools according to the equation $T=T_0+Ae^{kt}$, where $t$ is the time elapsed in minutes, $T_0$ is the room temperature in degrees Celsius and $k$ is a constant. A saucepan of hot water of temperature $95^\\circ$C is removed from the stove. It cools to a temperature of $90^\\circ$C five minutes later in a room with a temperature of $27^\\circ$C. By finding the values of the constants $T_0$ and $A$, write an equation for $T$ in terms of $t$.",
+   "answer": "$T_0=27$. When $t=0$, $T=95$: $95=27+A$, so $A=68$.\n\nWhen $t=5$, $T=90$:\n$$90=27+68e^{5k}\\ \\Rightarrow\\ e^{5k}=\\frac{63}{68}\\ \\Rightarrow\\ k=\\frac15\\ln\\frac{63}{68}=-0.0153\\ \\text{(3 s.f.)}$$\n\n$$T=27+68e^{-0.0153t}$$\n\n(The school's solution prints the exponent as $-0.153t$, a typo; its own value of $k$ is $-0.01527\\ldots$, which is used here.)"
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.3.8"
+   ],
+   "question": "A saucepan of hot water cools according to $T=27+68e^{kt}$, where $T$ is the temperature in $^\\circ$C, $t$ is the time in minutes and $k=\\dfrac15\\ln\\dfrac{63}{68}\\approx-0.01527$. How hot will the water be after $10$ minutes? Give your answer to the nearest degree.",
+   "answer": "$$T=27+68e^{10k}=27+68\\left(\\frac{63}{68}\\right)^2=85.37\\ldots\\approx85^\\circ\\text{C}$$"
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.12"
+   ],
+   "question": "Nathan's marks for a recent fitness test are shown below. The scores for each test are normally distributed.\n\n| | Nathan's score | Population mean | Population standard deviation |\n|---|---|---|---|\n| Muscular strength | $93$ | $84$ | $6$ |\n| Agility | $78$ | $70$ | $5$ |\n\nAssume that a higher number gives a better result. In which test did Nathan perform best relative to the population? Justify your answer with suitable calculations.",
+   "answer": "Compare $z$-scores, $z=\\dfrac{x-\\mu}{\\sigma}$.\n\nMuscular strength: $z=\\dfrac{93-84}{6}=1.5$.\n\nAgility: $z=\\dfrac{78-70}{5}=1.6$.\n\nAgility has the higher $z$-score, so Nathan performed best relative to the population in agility."
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.13"
+   ],
+   "question": "Scores on a muscular strength test are normally distributed with mean $84$ and standard deviation $6$. Students who score $93$ or above will be recommended for an elite training program. By using the $z$-tables provided or otherwise, find how many people you would expect to be recommended for the program if $200$ people are tested.",
+   "answer": "$z=\\dfrac{93-84}{6}=1.5$, and $P(Z<1.5)=0.9332$, so $P(Z\\ge1.5)=1-0.9332=0.0668$.\n\nExpected number $=0.0668\\times200=13.36$, so approximately $13$ people."
+  },
+  {
+   "ref": "Q17",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.2",
+    "11.4.3.9"
+   ],
+   "question": "Find the gradient of the normal to the curve $y=\\dfrac{x}{\\tan x}$ at the point where $x=\\dfrac\\pi4$. Give your answer correct to $3$ decimal places.",
+   "answer": "Quotient rule with $u=x$, $v=\\tan x$: $u'=1$, $v'=\\sec^2x$.\n$$\\frac{dy}{dx}=\\frac{\\tan x-x\\sec^2x}{\\tan^2x}.$$\nAt $x=\\dfrac\\pi4$: $\\tan\\dfrac\\pi4=1$, $\\sec^2\\dfrac\\pi4=2$, so\n$$m_T=\\frac{1-\\frac\\pi4\\times2}{1}=1-\\frac\\pi2.$$\nNormal gradient:\n$$m_N=\\frac{-1}{1-\\frac\\pi2}=\\frac{2}{\\pi-2}=1.752\\ \\text{(3 d.p.)}$$"
+  },
+  {
+   "ref": "Q18(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.9"
+   ],
+   "question": "Find the points of intersection of $y=4x+7$ and $y=x^3-3x^2+7$.",
+   "answer": "$$x^3-3x^2+7=4x+7\\ \\Rightarrow\\ x^3-3x^2-4x=0\\ \\Rightarrow\\ x(x-4)(x+1)=0$$\nso $x=0,\\,-1,\\,4$.\n\nWhen $x=0$, $y=7$; when $x=-1$, $y=3$; when $x=4$, $y=23$.\n\nThe points of intersection are $(-1,3)$, $(0,7)$ and $(4,23)$."
+  },
+  {
+   "ref": "Q18(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.9",
+    "12.5.1.8"
+   ],
+   "question": "Sketch the function $y=x^3-3x^2+7$, by first finding all stationary points and determining their nature. Do NOT find the $x$-intercepts and points of inflection.",
+   "answer": "$y$-intercept: $(0,7)$.\n\n$y'=3x^2-6x=3x(x-2)=0\\Rightarrow x=0$ or $x=2$.\n\nWhen $x=2$, $y=8-12+7=3$.\n\n$y''=6x-6$. At $x=0$, $y''=-6<0$, so $(0,7)$ is a local maximum. At $x=2$, $y''=6>0$, so $(2,3)$ is a local minimum.\n\nThe graph is a cubic with positive leading coefficient, rising to the right and falling to the left, with the local maximum $(0,7)$ and local minimum $(2,3)$ (see sketch).",
+   "answer_images": [
+    "assets/img/adv-2025-baulkham-hills/q18b_a.png"
+   ]
+  },
+  {
+   "ref": "Q18(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.3.6"
+   ],
+   "question": "On the same number plane as the graph of $y=x^3-3x^2+7$ (which has a local maximum at $(0,7)$ and a local minimum at $(2,3)$ and meets the line below at $x=-1$, $0$ and $4$), sketch the line $y=4x+7$, showing the points where it meets the cubic.",
+   "answer": "The line has $y$-intercept $7$ and gradient $4$. It meets the cubic at $(-1,3)$, $(0,7)$ and $(4,23)$ (see sketch).",
+   "answer_images": [
+    "assets/img/adv-2025-baulkham-hills/q18c_a.png"
+   ]
+  },
+  {
+   "ref": "Q18(d)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.9",
+    "11.1.4.10"
+   ],
+   "question": "The line $y=4x+7$ and the curve $y=x^3-3x^2+7$ intersect at $x=-1$, $x=0$ and $x=4$. Hence or otherwise solve the inequality $4x+7<x^3-3x^2+7$.",
+   "answer": "We need the values of $x$ for which the cubic lies above the line. The cubic starts below the line for $x<-1$, is above it between $x=-1$ and $x=0$, below it between $x=0$ and $x=4$, and above it for $x>4$ (see the graph in part (c)).\n\n$$-1<x<0\\quad\\text{or}\\quad x>4.$$",
+   "answer_images": [
+    "assets/img/adv-2025-baulkham-hills/q18c_a.png"
+   ]
+  },
+  {
+   "ref": "Q20(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.9"
+   ],
+   "question": "The acceleration of a particle is given by $a=5e^{-2t}$. Initially the particle is at rest. Write an equation for the velocity.",
+   "answer": "$$v=\\int5e^{-2t}\\,dt=-\\frac52e^{-2t}+c.$$\nWhen $t=0$, $v=0$: $0=-\\frac52+c$, so $c=\\frac52$.\n$$v=\\frac52-\\frac52e^{-2t}$$"
+  },
+  {
+   "ref": "Q20(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.10"
+   ],
+   "question": "The acceleration of a particle is given by $a=5e^{-2t}$ and its velocity is $v=\\dfrac52-\\dfrac52e^{-2t}$ (initially at rest). Explain why the particle is always speeding up for $t>0$.",
+   "answer": "Since $e^{-2t}>0$ for all $t$, the acceleration $a=5e^{-2t}$ is positive for all $t$. Also $e^{-2t}<1$ for $t>0$, so $v=\\frac52\\left(1-e^{-2t}\\right)>0$. Velocity and acceleration are both positive, so the particle is always speeding up."
+  },
+  {
+   "ref": "Q20(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.10",
+    "11.5.1.2"
+   ],
+   "question": "The velocity of a particle moving in a straight line is $v=\\dfrac52-\\dfrac52e^{-2t}$ for $t\\ge0$. Sketch the graph of the particle's velocity as a function of time.",
+   "answer": "The graph starts at the origin ($v=0$ when $t=0$), increases with decreasing gradient (the initial gradient is $a(0)=5$), and approaches the horizontal asymptote $v=\\frac52$ as $t\\to\\infty$ (see sketch).",
+   "answer_images": [
+    "assets/img/adv-2025-baulkham-hills/q20c_a.png"
+   ]
+  },
+  {
+   "ref": "Q21",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.1.7",
+    "12.3.4.1"
+   ],
+   "question": "The function $y=e^x\\cos2x$ has stationary points at $x=0.23$ and $x=1.80$ (correct to $2$ decimal places). Find the point of inflection of the function $y=e^x\\cos2x$ for $0.23<x<1.80$.",
+   "answer": "$$\\frac{dy}{dx}=e^x\\cos2x-2e^x\\sin2x$$\n$$\\frac{d^2y}{dx^2}=e^x\\cos2x-2e^x\\sin2x-2e^x\\sin2x-4e^x\\cos2x=-3e^x\\cos2x-4e^x\\sin2x.$$\nSet $\\dfrac{d^2y}{dx^2}=0$: $-e^x(3\\cos2x+4\\sin2x)=0$, and since $e^x>0$, $\\tan2x=-\\dfrac34$.\n\nThe related angle is $\\tan^{-1}\\frac34=0.6435$. For $0.23<x<1.80$ we have $0.46<2x<3.6$, so $2x=\\pi-0.6435=2.4981$, giving $x=1.25$ (2 d.p.).\n\nCheck the concavity changes: at $x=1$, $y''=-6.49<0$; at $x=1.7$, $y''=21.47>0$.\n\n$y=e^{1.249}\\cos(2.498)=-2.79$.\n\nThe point of inflection is approximately $(1.25,\\,-2.79)$."
+  },
+  {
+   "ref": "Q22(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "Joshua and Fahim leave base camp $C$ together and walk on a bearing of $100^\\circ$T for $10$ km to a waterfall $W$. Joshua stays at the waterfall and Fahim continues his journey by walking $6$ km on a bearing of $258^\\circ$T to a lookout $L$. Find the distance between the lookout and the base camp. Give your answer correct to $2$ decimal places.",
+   "answer": "The bearing of $C$ from $W$ is $100^\\circ+180^\\circ=280^\\circ$, and the bearing of $L$ from $W$ is $258^\\circ$, so $\\angle CWL=280^\\circ-258^\\circ=22^\\circ$.\n\nCosine rule in $\\triangle CWL$:\n$$CL^2=10^2+6^2-2(10)(6)\\cos22^\\circ=24.738\\ldots$$\n$$CL=4.97\\ \\text{km (2 d.p.)}$$",
+   "answer_images": [
+    "assets/img/adv-2025-baulkham-hills/q22_a.png"
+   ]
+  },
+  {
+   "ref": "Q22(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "Joshua and Fahim leave base camp $C$ together and walk on a bearing of $100^\\circ$T for $10$ km to a waterfall $W$. Fahim continues walking $6$ km on a bearing of $258^\\circ$T to a lookout $L$. The distance $CL$ is $4.97$ km (correct to $2$ decimal places) and $\\angle CWL=22^\\circ$. Hence, or otherwise, find the bearing on which Fahim must walk from $L$ to return to the base camp.",
+   "answer": "In $\\triangle CWL$ the side opposite $\\angle WLC$ is $WC=10$, so by the cosine rule\n$$\\cos\\angle WLC=\\frac{4.97^2+6^2-10^2}{2\\times4.97\\times6}=-0.6578\\ldots\\ \\Rightarrow\\ \\angle WLC=131^\\circ.$$\nThe bearing of $W$ from $L$ is $258^\\circ-180^\\circ=78^\\circ$. $C$ lies $131^\\circ$ anticlockwise from the direction $LW$, so the bearing of $C$ from $L$ is $78^\\circ-131^\\circ+360^\\circ=307^\\circ$.\n\n\nFahim must walk on a bearing of $307^\\circ$T.",
+   "answer_images": [
+    "assets/img/adv-2025-baulkham-hills/q22_a.png"
+   ]
+  },
+  {
+   "ref": "Q23",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.2.10",
+    "11.5.2.9"
+   ],
+   "question": "Solve $\\log_8x+\\log_4x=5$.",
+   "answer": "Change to base $2$:\n$$\\frac{\\log_2x}{\\log_28}+\\frac{\\log_2x}{\\log_24}=5\\ \\Rightarrow\\ \\frac{\\log_2x}{3}+\\frac{\\log_2x}{2}=5$$\n$$2\\log_2x+3\\log_2x=30\\ \\Rightarrow\\ \\log_2x=6\\ \\Rightarrow\\ x=2^6=64.$$"
+  },
+  {
+   "ref": "Q24",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.5",
+    "12.4.6.3"
+   ],
+   "question": "The curve $y=\\dfrac{4x}{x^2+3}$ intersects the line $y=\\dfrac x3$ at the points $(0,0)$, $(3,1)$ and $(-3,1)$. The region bounded by the curve $y=\\dfrac{4x}{x^2+3}$ and the line $y=\\dfrac x3$ between $x=0$ and $x=3$ is shaded in the diagram below. Find the exact area of the shaded region.",
+   "answer": "Between $x=0$ and $x=3$ the curve is above the line, so\n$$A=\\int_0^3\\left(\\frac{4x}{x^2+3}-\\frac x3\\right)dx=\\left[2\\ln(x^2+3)-\\frac{x^2}{6}\\right]_0^3$$\n$$=\\left(2\\ln12-\\frac96\\right)-\\left(2\\ln3-0\\right)=2\\ln\\frac{12}{3}-\\frac32=2\\ln4-\\frac32.$$",
+   "images": [
+    "assets/img/adv-2025-baulkham-hills/q24.png"
+   ]
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "The number of hours of daylight $H$ in Sydney can be modelled by the function $H=2.3\\sin\\left(0.005(\\pi t-265)\\right)+13.1$, where $t$ is the number of days after 1st January, 2025. What is the maximum number of hours of daylight in Sydney in a year?",
+   "answer": "The maximum occurs when $\\sin(\\cdot)=1$: $H_{max}=2.3+13.1=15.4$ hours."
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.4",
+    "12.5.3.1"
+   ],
+   "question": "The number of hours of daylight $H$ in Sydney can be modelled by $H=2.3\\sin\\left(0.005(\\pi t-265)\\right)+13.1$, where $t$ is the number of days after 1st January, 2025. How quickly is the number of hours of daylight increasing when $t=10$? Give your answer in hours per day, to $3$ significant figures.",
+   "answer": "$$\\frac{dH}{dt}=2.3\\times0.005\\pi\\cos\\left(0.005(\\pi t-265)\\right)=0.0115\\pi\\cos\\left(0.005(\\pi t-265)\\right).$$\nAt $t=10$: $\\dfrac{dH}{dt}=0.0115\\pi\\cos\\left(0.005(10\\pi-265)\\right)=0.0142$ hours per day."
+  },
+  {
+   "ref": "Q25(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.1.3",
+    "12.1.2.1"
+   ],
+   "question": "The number of hours of daylight $H$ in Sydney can be modelled by $H=2.3\\sin\\left(0.005(\\pi t-265)\\right)+13.1$, where $t$ is the number of days after 1st January, 2025. The graph of the function is shown below. Catherine is organising a festival in 2025. She would like to have it on a day that has more than $12$ hours of daylight. Between which $2$ values of $t$ should the festival be held? Give your answer to the nearest whole number.",
+   "answer": "Solve $H=12$:\n$$2.3\\sin\\left(0.005(\\pi t-265)\\right)=-1.1\\ \\Rightarrow\\ \\sin\\left(0.005(\\pi t-265)\\right)=-\\frac{1.1}{2.3}.$$\nThe related angle is $0.4987$, so\n$$0.005(\\pi t-265)=-0.4987\\ \\ \\text{or}\\ \\ 0.005(\\pi t-265)=\\pi+0.4987.$$\n$$\\pi t-265=-99.73\\Rightarrow t=52.6,\\qquad \\pi t-265=728.05\\Rightarrow t=316.1.$$\nFrom the graph, $H>12$ between these values, so the festival should be held between $t=53$ and $t=316$.",
+   "images": [
+    "assets/img/adv-2025-baulkham-hills/q25c.png"
+   ]
+  },
+  {
+   "ref": "Q26(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.7"
+   ],
+   "question": "The continuous random variable $X$ has probability density function given by\n$$f(x)=\\begin{cases}\\dfrac{a}{x^2} & 2\\le x\\le10\\\\[1mm] 0 & \\text{for all other values of }x.\\end{cases}$$\nFind the value of $a$ such that $f(x)$ is a probability density function.",
+   "answer": "The total area must be $1$:\n$$\\int_2^{10}\\frac{a}{x^2}\\,dx=\\left[-\\frac ax\\right]_2^{10}=-\\frac a{10}+\\frac a2=\\frac{2a}{5}=1\\ \\Rightarrow\\ a=\\frac52.$$"
+  },
+  {
+   "ref": "Q26(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.1",
+    "12.6.2.7"
+   ],
+   "question": "The continuous random variable $X$ has probability density function\n$$f(x)=\\begin{cases}\\dfrac{5}{2x^2} & 2\\le x\\le10\\\\[1mm] 0 & \\text{for all other values of }x.\\end{cases}$$\nFind $P(X>8)$.",
+   "answer": "$$P(X>8)=\\int_8^{10}\\frac{5}{2x^2}\\,dx=\\left[-\\frac{5}{2x}\\right]_8^{10}=-\\frac14+\\frac5{16}=\\frac1{16}.$$"
+  },
+  {
+   "ref": "Q26(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.11"
+   ],
+   "question": "The continuous random variable $X$ has probability density function\n$$f(x)=\\begin{cases}\\dfrac{5}{2x^2} & 2\\le x\\le10\\\\[1mm] 0 & \\text{for all other values of }x.\\end{cases}$$\nFind the median of $X$.",
+   "answer": "Let the median be $m$, so $\\displaystyle\\int_2^m\\frac{5}{2x^2}\\,dx=\\frac12$:\n$$\\left[-\\frac5{2x}\\right]_2^m=-\\frac5{2m}+\\frac54=\\frac12\\ \\Rightarrow\\ \\frac5{2m}=\\frac34\\ \\Rightarrow\\ m=\\frac{10}3.$$"
+  },
+  {
+   "ref": "Q27",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.6.1.6",
+    "11.6.1.5"
+   ],
+   "question": "The number plane below shows the graph of $y=f(x)$ (it has vertical asymptotes $x=\\pm1$, horizontal asymptote $y=1$, and $y$-intercept $-1$). On a number plane, sketch $y=1-2f(x)$. Clearly label the $y$-intercept and asymptotes.",
+   "answer": "$y=1-2f(x)$ is a vertical dilation by a factor of $2$, a reflection in the $x$-axis, then a translation up $1$.\n\n- Vertical asymptotes stay at $x=\\pm1$.\n- The horizontal asymptote $y=1$ becomes $y=1-2(1)=-1$.\n- The $y$-intercept $-1$ becomes $1-2(-1)=3$.\n\nThe branches outside the asymptotes are reflected (they now lie below the asymptote $y=-1$, going down to $-\\infty$ at $x=\\pm1$), and the middle branch now has a minimum at $(0,3)$ and rises to $+\\infty$ at $x=\\pm1$ (see sketch).",
+   "images": [
+    "assets/img/adv-2025-baulkham-hills/q27.png"
+   ],
+   "answer_images": [
+    "assets/img/adv-2025-baulkham-hills/q27_a.png"
+   ]
+  },
+  {
+   "ref": "Q28",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.7.3",
+    "12.4.8.5"
+   ],
+   "question": "The diagram below shows the graph of $y=\\cos2x\\sin^42x$. Find the shaded area bounded by the curve and the $x$-axis between $x=\\dfrac\\pi2$ and $x=0$.",
+   "answer": "The curve is above the $x$-axis on $0<x<\\frac\\pi4$ and below it on $\\frac\\pi4<x<\\frac\\pi2$, so\n$$A=\\int_0^{\\pi/4}\\cos2x\\sin^42x\\,dx+\\left|\\int_{\\pi/4}^{\\pi/2}\\cos2x\\sin^42x\\,dx\\right|.$$\nSince $\\dfrac{d}{dx}\\sin2x=2\\cos2x$, we have $\\displaystyle\\int\\cos2x\\sin^42x\\,dx=\\frac1{10}\\sin^52x+c$.\n\n$$\\int_0^{\\pi/4}=\\frac1{10}\\left(1-0\\right)=\\frac1{10},\\qquad\\int_{\\pi/4}^{\\pi/2}=\\frac1{10}\\left(0-1\\right)=-\\frac1{10}.$$\n$$A=\\frac1{10}+\\frac1{10}=\\frac15.$$",
+   "images": [
+    "assets/img/adv-2025-baulkham-hills/q28.png"
+   ]
+  },
+  {
+   "ref": "Q29",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.3.14",
+    "12.6.3.12"
+   ],
+   "question": "Nila builds furniture to order. The amount of time that it takes between placing an order and it leaving the warehouse follows a normal distribution. Nila knows that $2.5\\%$ of all her orders are made and leave her warehouse within $10$ days of being placed. In total, last year, Nila received $35$ orders and customers waited a combined total of $1610$ days for their orders to leave the warehouse. Nila decides that she will give a discount to at most $5\\%$ of her customers who have to wait a long time for their orders and would like to advertise this. What is the minimum waiting time a customer must exceed in order to qualify for the discount? You may use the $z$-tables provided.",
+   "answer": "Mean $\\mu=\\dfrac{1610}{35}=46$ days.\n\nSince $2.5\\%$ of orders take at most $10$ days, $10$ days corresponds to $z=-2$ (empirical rule):\n$$-2=\\frac{10-46}{\\sigma}\\ \\Rightarrow\\ \\sigma=18.$$\nFor the longest-waiting $5\\%$ of customers, $z=1.65$ (from the $z$-tables):\n$$1.65=\\frac{x-46}{18}\\ \\Rightarrow\\ x=75.7.$$\nCustomers who wait more than about $76$ days will receive a discount."
+  },
+  {
+   "ref": "Q30(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.7.2.7"
+   ],
+   "question": "Sunya and Jonathan are playing a game. A spinner is spun. If the hand lands on red then Sunya wins (and the game is over). If the hand lands on blue then Jonathan wins (and the game is over). If the hand lands on green then another spin is taken. The spinner is shown below. The blue sector is $\\tfrac{3}{10}$ of the circle, the red sector is $\\tfrac15$ and the green sector is $\\tfrac12$. What is the probability that Jonathan wins on the first spin?",
+   "answer": "$P(\\text{blue})=\\dfrac3{10}$.",
+   "images": [
+    "assets/img/adv-2025-baulkham-hills/q30.png"
+   ]
+  },
+  {
+   "ref": "Q30(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.2.7"
+   ],
+   "question": "Sunya and Jonathan are playing a game. A spinner is spun. If the hand lands on red then Sunya wins (and the game is over). If the hand lands on blue then Jonathan wins (and the game is over). If the hand lands on green then another spin is taken. The spinner is shown below. The blue sector is $\\tfrac{3}{10}$ of the circle, the red sector is $\\tfrac15$ and the green sector is $\\tfrac12$. What is the probability that Jonathan wins on the third spin?",
+   "answer": "Jonathan wins on the third spin if the first two spins are green and the third is blue:\n$$\\frac12\\times\\frac12\\times\\frac3{10}=\\frac3{40}.$$",
+   "images": [
+    "assets/img/adv-2025-baulkham-hills/q30.png"
+   ]
+  },
+  {
+   "ref": "Q30(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.7",
+    "11.7.2.7"
+   ],
+   "question": "Sunya and Jonathan are playing a game. A spinner is spun. If the hand lands on red then Sunya wins (and the game is over). If the hand lands on blue then Jonathan wins (and the game is over). If the hand lands on green then another spin is taken. The spinner is shown below. The blue sector is $\\tfrac{3}{10}$ of the circle, the red sector is $\\tfrac15$ and the green sector is $\\tfrac12$. What is the probability that Jonathan eventually wins the game?",
+   "answer": "$$P=\\frac3{10}+\\frac12\\cdot\\frac3{10}+\\left(\\frac12\\right)^2\\frac3{10}+\\cdots$$\nThis is a geometric series with $a=\\dfrac3{10}$ and $r=\\dfrac12$, so\n$$P=\\frac{a}{1-r}=\\frac{3/10}{1/2}=\\frac35.$$",
+   "images": [
+    "assets/img/adv-2025-baulkham-hills/q30.png"
+   ]
+  },
+  {
+   "ref": "Q31",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.2.6"
+   ],
+   "question": "The common difference of an arithmetic sequence is $-4$. The sum of the first $30$ terms is $23\\,940$ and the sum of the last $30$ terms is $-1980$. Find how many terms are in the sequence.",
+   "answer": "Sum of the first $30$ terms:\n$$23940=\\frac{30}2\\left(2a+29(-4)\\right)=15(2a-116)\\ \\Rightarrow\\ 2a-116=1596\\ \\Rightarrow\\ a=856.$$\nThe last $30$ terms are $a+(n-1)d,\\ a+(n-2)d,\\ \\ldots,\\ a+(n-30)d$, with sum\n$$30a+30dn-d(1+2+\\cdots+30)=30a+30dn-465d.$$\nSo $-1980=30(856)+30(-4)n-465(-4)=27540-120n$, giving $120n=29520$ and $n=246$.\n\nThe sequence has $246$ terms."
+  },
+  {
+   "ref": "Q32(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.1.1",
+    "12.7.1.3",
+    "12.2.3.5"
+   ],
+   "question": "Ella borrows \\$820 000 to purchase a house. She is being charged $8.4\\%$ per annum (interest calculated monthly) and plans to make equal monthly repayments of \\$6248 over $30$ years. Show that the amount owing after $10$ years is \\$724 960.57.",
+   "answer": "The monthly interest rate is $\\dfrac{8.4\\%}{12}=0.7\\%$, so the monthly multiplier is $1.007$. Let $A_n$ be the amount owing after $n$ months.\n$$A_1=820000(1.007)-6248$$\n$$A_2=1.007A_1-6248=820000(1.007)^2-6248(1.007)-6248$$\n$$A_n=820000(1.007)^n-6248\\left(1.007^{n-1}+1.007^{n-2}+\\cdots+1.007+1\\right).$$\nAfter $10$ years, $n=120$. The bracket is a geometric series with $a=1$, $r=1.007$ and $120$ terms:\n$$A_{120}=820000(1.007)^{120}-6248\\times\\frac{1.007^{120}-1}{1.007-1}=724\\,960.57\\ \\text{(to the nearest cent)}.$$"
+  },
+  {
+   "ref": "Q32(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.1.3",
+    "12.2.3.5"
+   ],
+   "question": "Ella borrows \\$820 000 at $8.4\\%$ per annum, interest calculated monthly, with monthly repayments of \\$6248. After $10$ years (immediately after making the $120$th payment), Ella gets a pay rise and makes a one-off payment to reduce the balance owing to \\$720 000. She then increases her monthly repayments so that the loan is paid off $25$ years after the initial loan. Calculate the amount of her new monthly payment.",
+   "answer": "The remaining time is $15$ years $=180$ months, the monthly multiplier is $1.007$, and the starting balance is \\$720 000. Let the new repayment be $M$:\n$$A_{180}=720000(1.007)^{180}-M\\left(1+1.007+\\cdots+1.007^{179}\\right)=0$$\n$$720000(1.007)^{180}=M\\times\\frac{1.007^{180}-1}{0.007}$$\n$$M=\\frac{720000(1.007)^{180}(0.007)}{1.007^{180}-1}=\\$7047.98.$$"
+  },
+  {
+   "ref": "Q33(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.1.2",
+    "12.5.2.3"
+   ],
+   "question": "The diagram shows a farmhouse $F$ that is located $300$ metres from a straight section of road. The road begins at the shops $S$, which is situated $4000$ metres from the front gate $G$ of the farmhouse ($FG$ is perpendicular to the road). The school bus leaves the shops at $8$ am and travels along the road at a speed of $20$ m/s. Lucas lives in the farmhouse and he can cycle across the open paddock between the house and the road at a speed of $8$ m/s. The bus will stop for Lucas anywhere on the road but will not wait for him.\n\nAssume that Lucas catches the bus at the point $P$ on the road where $\\angle GFP=\\theta$. Find two expressions in terms of $\\theta$, one for the time taken for the bus to travel from $S$ to $P$ and the other for the time taken by Lucas to cycle from $F$ to $P$.",
+   "answer": "In right-angled $\\triangle FGP$: $GP=300\\tan\\theta$ and $FP=\\dfrac{300}{\\cos\\theta}$.\n\nBus: $SP=4000+300\\tan\\theta$, so\n$$T_B=\\frac{4000+300\\tan\\theta}{20}=200+15\\tan\\theta\\ \\text{seconds}.$$\nLucas:\n$$T_L=\\frac{300/\\cos\\theta}{8}=\\frac{75}{2\\cos\\theta}\\ \\text{seconds}.$$",
+   "images": [
+    "assets/img/adv-2025-baulkham-hills/q33.png"
+   ]
+  },
+  {
+   "ref": "Q33(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.5.2.3"
+   ],
+   "question": "The diagram shows a farmhouse $F$ that is located $300$ metres from a straight section of road ($FG$ is perpendicular to the road at the front gate $G$). The road begins at the shops $S$, which is situated $4000$ metres from $G$. The school bus leaves the shops at $8$ am and travels along the road at $20$ m/s. Lucas lives in the farmhouse and can cycle across the open paddock between the house and the road at $8$ m/s. The bus will stop for Lucas anywhere on the road but will not wait for him. Lucas catches the bus at the point $P$ on the road where $\\angle GFP=\\theta$. The time taken for the bus to travel from $S$ to $P$ is $T_B=200+15\\tan\\theta$ seconds and the time taken by Lucas to cycle from $F$ to $P$ is $T_L=\\dfrac{75}{2\\cos\\theta}$ seconds. By considering the difference in the time taken for the bus and Lucas to travel to $P$, find the latest time that Lucas can leave home in order to catch the bus. Give your answer to the nearest minute.",
+   "answer": "Lucas can leave home at most $T=T_B-T_L$ seconds after 8 am, so the latest time is when $T$ is a maximum.\n$$T=200+15\\tan\\theta-\\frac{75}{2}\\sec\\theta$$\n$$\\frac{dT}{d\\theta}=15\\sec^2\\theta-\\frac{75}{2}\\sec\\theta\\tan\\theta=\\frac{15}{\\cos^2\\theta}-\\frac{75\\sin\\theta}{2\\cos^2\\theta}.$$\nSetting $\\dfrac{dT}{d\\theta}=0$: $15=\\dfrac{75}2\\sin\\theta$, so $\\sin\\theta=\\dfrac{30}{75}=\\dfrac25$, $\\theta=0.4115$.\n\nCheck: $\\dfrac{dT}{d\\theta}=40>0$ at $\\theta=0$ and $-47<0$ at $\\theta=0.5$, so this is a maximum.\n\n$$T=200+15\\tan(0.4115)-\\frac{75}{2\\cos(0.4115)}=165.6\\ \\text{seconds}\\approx2\\text{ min }45\\text{ s}.$$\nLucas must leave at $8{:}02$ am at the very latest (leaving at $8{:}03$ would make him miss the bus by about $15$ seconds)."
+  }
+ ]
+}
