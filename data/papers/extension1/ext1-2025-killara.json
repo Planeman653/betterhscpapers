@@ -1,0 +1,494 @@
+{
+ "id": "ext1-2025-killara",
+ "course": "extension1",
+ "school": "Killara",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "Killara 2025 w. sol"
+ },
+ "indexed": "2026-11-25",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q14(a)",
+   "reason": "Not in 2024 syllabus: pigeonhole principle (2 marks)"
+  },
+  {
+   "ref": "Q14(c)",
+   "reason": "Not in 2024 syllabus: requires the normal approximation to the binomial distribution (4 marks)"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.2.6",
+    "12.3.1.6"
+   ],
+   "question": "What is the range of the function $f(x)=|\\arcsin x|-\\arccos x$?",
+   "options": [
+    "$f(x)\\in[0,2\\pi]$",
+    "$f(x)\\in[0,\\pi]$",
+    "$f(x)\\in\\left[\\dfrac\\pi2,\\dfrac{3\\pi}2\\right]$",
+    "$f(x)\\in\\left[-\\dfrac\\pi2,\\dfrac\\pi2\\right]$"
+   ],
+   "correct": "D",
+   "answer": "The domain is $-1\\le x\\le1$. For $x\\ge0$: $\\arcsin x\\ge0$, so $f(x)=\\arcsin x-\\arccos x=\\arcsin x-\\left(\\frac\\pi2-\\arcsin x\\right)=2\\arcsin x-\\frac\\pi2$, which takes values from $-\\frac\\pi2$ (at $x=0$) to $\\frac\\pi2$ (at $x=1$). For $x<0$: $|\\arcsin x|=-\\arcsin x$, so $f(x)=-(\\arcsin x+\\arccos x)=-\\frac\\pi2$. Hence the range is $\\left[-\\dfrac\\pi2,\\dfrac\\pi2\\right]$ (D).\n\n*Note:* the school's answer sheet marks C, but $\\left[\\frac\\pi2,\\frac{3\\pi}2\\right]$ is impossible (e.g. $f(0)=-\\frac\\pi2$ and $f(1)=\\frac\\pi2$); the correct option is D."
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.5"
+   ],
+   "question": "Find the remainder when $x^4+2x^2-13x-60$ is divided by $2x+3$.",
+   "options": [
+    "$-\\dfrac{495}{16}$",
+    "$-\\dfrac{4070}{81}$",
+    "$0$",
+    "$78$"
+   ],
+   "correct": "A",
+   "answer": "By the remainder theorem the remainder is $P\\left(-\\frac32\\right)=\\frac{81}{16}+2\\cdot\\frac94+\\frac{39}2-60=\\frac{81}{16}+\\frac{72}{16}+\\frac{312}{16}-\\frac{960}{16}=-\\dfrac{495}{16}$ (A)."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.1",
+    "12.2.3.6"
+   ],
+   "question": "Let $O$ be the point $(0,0)$, $R$ the point $(-2,1)$ and $S$ the point $(-c,2c)$, where $c\\in\\mathbb R$. The scalar product $\\overrightarrow{OS}\\cdot\\overrightarrow{RS}$ is equal to:",
+   "options": [
+    "$4c-5$",
+    "$5-4c$",
+    "$4c-5c^2$",
+    "$5c^2-4c$"
+   ],
+   "correct": "D",
+   "answer": "$\\overrightarrow{OS}=(-c,2c)$ and $\\overrightarrow{RS}=(-c+2,\\,2c-1)$. $\\overrightarrow{OS}\\cdot\\overrightarrow{RS}=-c(2-c)+2c(2c-1)=-2c+c^2+4c^2-2c=5c^2-4c$ (D)."
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.6"
+   ],
+   "question": "The random variable $X$ represents the number of successes in $10$ Bernoulli trials. The probability of success is $p=0.4$ in each trial. Which of the following statements is true?",
+   "options": [
+    "$P(X<4)>P(X>4)$",
+    "$P(X<4)=P(X>6)$",
+    "$P(X\\le4)=0.5$",
+    "$P(X=4)<P(X>5)$"
+   ],
+   "correct": "A",
+   "answer": "$X\\sim\\text{Bin}(10,0.4)$. $P(X<4)=P(X\\le3)\\approx0.3823$ and $P(X>4)=P(X\\ge5)\\approx0.3669$, so A is true. For the others: $P(X>6)\\approx0.0548\\ne P(X<4)$ (B false); $P(X\\le4)\\approx0.6331$ (C false); $P(X=4)\\approx0.2508>P(X>5)\\approx0.1662$ (D false). The answer is A."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "The coefficient of $a^5b^4$ in the expansion of $\\left(3a-\\dfrac b3\\right)^9$ is:",
+   "options": [
+    "$-42$",
+    "$3$",
+    "$42$",
+    "$378$"
+   ],
+   "correct": "D",
+   "answer": "The term in $a^5b^4$ is ${}^9C_4(3a)^5\\left(-\\frac b3\\right)^4=126\\cdot243\\cdot\\frac1{81}\\,a^5b^4=126\\cdot3\\,a^5b^4=378\\,a^5b^4$ (D)."
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "The shaded region shown is rotated around the $x$-axis. Which expression calculates the volume of revolution formed? (The shaded region lies between $x=0$ and $x=6$, above the $x$-axis and below $f(x)$ for $0\\le x\\le3$; for $3\\le x\\le6$ it lies between $g(x)$, which is above the $x$-axis, and $f(x)$. $g(x)$ crosses the $x$-axis at $x=3$.)",
+   "options": [
+    "$\\pi\\displaystyle\\int_0^6\\big(f(x)-g(x)\\big)^2dx$",
+    "$\\pi\\displaystyle\\int_0^3\\big(f(x)\\big)^2dx+\\pi\\displaystyle\\int_3^6\\Big(\\big(f(x)\\big)^2-\\big(g(x)\\big)^2\\Big)dx$",
+    "$\\pi\\displaystyle\\int_0^6\\Big(\\big(f(x)\\big)^2-\\big(g(x)\\big)^2\\Big)dx$",
+    "$\\pi\\displaystyle\\int_0^3\\big(f(x)\\big)^2dx+\\pi\\displaystyle\\int_3^6\\big(g(x)\\big)^2dx$"
+   ],
+   "correct": "B",
+   "answer": "For $0\\le x\\le3$ the lower boundary of the region is the $x$-axis (since $g(x)<0$ there but the shading stops at the axis), so the solid is solid out to radius $f(x)$: $\\pi\\int_0^3f(x)^2dx$. For $3\\le x\\le6$ the region lies between $g$ and $f$, forming washers: $\\pi\\int_3^6\\left(f(x)^2-g(x)^2\\right)dx$. Total: B.",
+   "images": [
+    "assets/img/ext1-2025-killara/q06.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.3.3"
+   ],
+   "question": "The parametric equations $x=3\\cos t$, $y=4\\sin t$ are equivalent to which Cartesian equation?",
+   "options": [
+    "$x^2+y^2=25$",
+    "$\\dfrac{x^2}3+\\dfrac{y^2}4=1$",
+    "$\\dfrac{x^2}9+\\dfrac{y^2}{16}=1$",
+    "$x^2+y^2=16$"
+   ],
+   "correct": "C",
+   "answer": "$\\cos t=\\dfrac x3$ and $\\sin t=\\dfrac y4$, so $\\cos^2t+\\sin^2t=1$ gives $\\dfrac{x^2}9+\\dfrac{y^2}{16}=1$ (C)."
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.2.5"
+   ],
+   "question": "Given $g(x)=e^{2x}+2$, $g^{-1}(x)$ is given by:",
+   "options": [
+    "$y=\\dfrac{\\ln x-2}2$",
+    "$y=\\dfrac{\\ln x}{2\\ln2}$",
+    "$y=\\ln\\left(x^2-2\\right)$",
+    "$y=\\dfrac{\\ln(x-2)}2$"
+   ],
+   "correct": "D",
+   "answer": "Swap $x$ and $y$: $x=e^{2y}+2$, so $e^{2y}=x-2$, $2y=\\ln(x-2)$ and $y=\\dfrac{\\ln(x-2)}2$ (D)."
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.1"
+   ],
+   "question": "The following graph shows $y=\\dfrac1{f(x)}$ for a function $f(x)$. (It is always positive: it decreases from a large positive value on the left to a local minimum near the $y$-axis, rises to a local maximum, then decreases towards the $x$-axis from above as $x\\to\\infty$.) Which graph could represent $y=f(x)$?",
+   "options": [
+    "Graph A",
+    "Graph B",
+    "Graph C",
+    "Graph D"
+   ],
+   "correct": "B",
+   "answer": "$f(x)=\\dfrac1{y}$, so $f$ is always positive. Where $\\frac1f$ is very large (far left) $f\\to0^+$; a local minimum of $\\frac1f$ becomes a local maximum of $f$ (near the $y$-axis); the local maximum of $\\frac1f$ becomes a local minimum of $f$; and where $\\frac1f\\to0^+$ (far right), $f\\to+\\infty$. This describes B: it starts near $0$ on the left, rises to a peak, dips to a minimum, then increases without bound on the right.",
+   "images": [
+    "assets/img/ext1-2025-killara/q09.png",
+    "assets/img/ext1-2025-killara/q09_opts.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.4.4",
+    "12.5.4.9"
+   ],
+   "question": "Which differential equation best represents the slope field shown?",
+   "options": [
+    "$\\dfrac{dy}{dx}=-\\dfrac{2x}{y}$",
+    "$\\dfrac{dy}{dx}=\\dfrac{2x}{y}$",
+    "$\\dfrac{dy}{dx}=\\dfrac{y}{2x}$",
+    "$\\dfrac{dy}{dx}=x^2+y^2$"
+   ],
+   "correct": "A",
+   "answer": "In the field, the slope is horizontal (zero) along the $y$-axis ($x=0$) and becomes vertical (undefined) along the $x$-axis ($y=0$). The slope is negative in the first and third quadrants and positive in the second and fourth. This matches $\\dfrac{dy}{dx}=-\\dfrac{2x}{y}$ (A): zero when $x=0$, undefined when $y=0$, and negative when $x$ and $y$ have the same sign. B has the wrong signs, C is undefined along the $y$-axis, and D is always positive.",
+   "images": [
+    "assets/img/ext1-2025-killara/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.3"
+   ],
+   "question": "Solve the inequality $|3x-5|<4$.",
+   "answer": "$-4<3x-5<4$, so $1<3x<9$, so $\\dfrac13<x<3$."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Use the substitution $u=\\sin x$ to find $\\displaystyle\\int-\\cos x\\,\\sin^{3/2}x\\,dx$.",
+   "answer": "$u=\\sin x$, $du=\\cos x\\,dx$. $$\\int-\\cos x\\sin^{3/2}x\\,dx=-\\int u^{3/2}du=-\\frac25u^{5/2}+c=-\\frac25(\\sin x)^{5/2}+c.$$"
+  },
+  {
+   "ref": "Q11(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.1.8"
+   ],
+   "question": "The letters of the name NARUTO are arranged in a row. In how many ways can this be done using all the letters?",
+   "answer": "All six letters are different: $6!=720$."
+  },
+  {
+   "ref": "Q11(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.19"
+   ],
+   "question": "The letters of the name NARUTO are arranged in a row. What is the probability that the vowels are all together?",
+   "answer": "The vowels are $A$, $U$, $O$. Treat them as one block: $4$ objects can be arranged in $4!$ ways, and the vowels can be ordered within the block in $3!$ ways: $4!\\times3!=144$. The probability is $\\dfrac{144}{720}=\\dfrac15$."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "Determine the measure of angle $A$ in triangle $ABC$, where $A(1,1)$, $B(4,-3)$ and $C(-3,2)$. Express your answer in degrees to the nearest degree.",
+   "answer": "$\\overrightarrow{AB}=\\begin{pmatrix}3\\\\-4\\end{pmatrix}$, $\\overrightarrow{AC}=\\begin{pmatrix}-4\\\\1\\end{pmatrix}$, $|\\overrightarrow{AB}|=5$, $|\\overrightarrow{AC}|=\\sqrt{17}$, $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=-12-4=-16$.\n\n$\\cos A=\\dfrac{-16}{5\\sqrt{17}}$, so $A\\approx141^\\circ$."
+  },
+  {
+   "ref": "Q11(e)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.1"
+   ],
+   "question": "The graphs of $y=\\cos^2x$ and $y=3\\sin^2x$ are shown. Show that the points of intersection are at $x=\\dfrac\\pi6$ and $x=\\dfrac{5\\pi}6$.",
+   "answer": "At intersection $3\\sin^2x=\\cos^2x$, so $\\tan^2x=\\dfrac13$ and $\\tan x=\\pm\\dfrac1{\\sqrt3}$. For $0<x<\\pi$ (the interval shown): $\\tan x=\\dfrac1{\\sqrt3}$ gives $x=\\dfrac\\pi6$, and $\\tan x=-\\dfrac1{\\sqrt3}$ gives $x=\\dfrac{5\\pi}6$.",
+   "images": [
+    "assets/img/ext1-2025-killara/q11e.png"
+   ]
+  },
+  {
+   "ref": "Q11(e)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.1",
+    "12.4.2.3"
+   ],
+   "question": "The graphs of $y=\\cos^2x$ and $y=3\\sin^2x$ intersect at $x=\\dfrac\\pi6$ and $x=\\dfrac{5\\pi}6$, and $3\\sin^2x\\ge\\cos^2x$ between them. Find the exact shaded area between the two curves.",
+   "answer": "$$A=\\int_{\\pi/6}^{5\\pi/6}\\left(3\\sin^2x-\\cos^2x\\right)dx=\\int_{\\pi/6}^{5\\pi/6}\\left[\\frac{3(1-\\cos2x)}2-\\frac{1+\\cos2x}2\\right]dx=\\int_{\\pi/6}^{5\\pi/6}(1-2\\cos2x)\\,dx$$\n$$=\\Big[x-\\sin2x\\Big]_{\\pi/6}^{5\\pi/6}=\\left(\\frac{5\\pi}6-\\sin\\frac{5\\pi}3\\right)-\\left(\\frac\\pi6-\\sin\\frac\\pi3\\right)=\\left(\\frac{5\\pi}6+\\frac{\\sqrt3}2\\right)-\\left(\\frac\\pi6-\\frac{\\sqrt3}2\\right)=\\frac{2\\pi}3+\\sqrt3\\ \\text{units}^2.$$",
+   "images": [
+    "assets/img/ext1-2025-killara/q11e.png"
+   ]
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Using mathematical induction, verify that for all $n\\ge1$, the sum of the squares of the first $2n$ positive integers is given by the formula $$1^2+2^2+3^2+\\dots+(2n)^2=\\frac{n(2n+1)(4n+1)}3.$$",
+   "answer": "**Base case** $n=1$: LHS $=1^2+2^2=5$; RHS $=\\dfrac{1\\cdot3\\cdot5}3=5$. True.\n\n**Inductive step.** Assume true for $n=k$: $1^2+\\dots+(2k)^2=\\dfrac{k(2k+1)(4k+1)}3$. Then for $n=k+1$:\n$$1^2+\\dots+(2k)^2+(2k+1)^2+(2k+2)^2=\\frac{k(2k+1)(4k+1)}3+(2k+1)^2+(2k+2)^2$$\n$$=\\frac{(2k+1)\\big[k(4k+1)+3(2k+1)\\big]+3(2k+2)^2}3=\\frac{(2k+1)(4k^2+7k+3)+12(k+1)^2}3.$$\nSince $4k^2+7k+3=(4k+3)(k+1)$, this is $\\dfrac{(k+1)\\big[(2k+1)(4k+3)+12(k+1)\\big]}3$, and $(2k+1)(4k+3)+12(k+1)=8k^2+22k+15=(2k+3)(4k+5)$. So the sum is $\\dfrac{(k+1)(2k+3)(4k+5)}3=\\dfrac{(k+1)\\big(2(k+1)+1\\big)\\big(4(k+1)+1\\big)}3$, the formula for $n=k+1$.\n\nSo if true for $n=k$ then true for $n=k+1$; by induction it is true for all $n\\ge1$."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.3"
+   ],
+   "question": "Solve $\\cos x-\\sqrt3\\sin x=2$ for $0\\le x\\le2\\pi$.",
+   "answer": "Write $\\cos x-\\sqrt3\\sin x=R\\cos(x+\\alpha)=R\\cos x\\cos\\alpha-R\\sin x\\sin\\alpha$: $R\\cos\\alpha=1$, $R\\sin\\alpha=\\sqrt3$, so $R=2$ and $\\tan\\alpha=\\sqrt3$, $\\alpha=\\dfrac\\pi3$.\n\n$2\\cos\\left(x+\\dfrac\\pi3\\right)=2$, so $\\cos\\left(x+\\dfrac\\pi3\\right)=1$, giving $x+\\dfrac\\pi3=0,\\ 2\\pi$. In $0\\le x\\le2\\pi$: $x=\\dfrac{5\\pi}3$ (the value $x=-\\frac\\pi3$ is outside the domain)."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.7",
+    "12.5.4.12"
+   ],
+   "question": "The temperature $T$, in degrees Celsius, of tea, $t$ minutes after it is brewed can be modelled using the differential equation $\\dfrac{dT}{dt}=k(T-T_1)$, where $k$ is the constant of proportionality and $T_1$ is a constant. In a particular teahouse, the temperature is kept at a comfortable $22^\\circ$C and tea is poured out at $81^\\circ$C. If the tea cools to $64^\\circ$C in $5$ minutes, use separation of variables to solve the differential equation to determine a function $T(t)$ to model the temperature of the tea.",
+   "answer": "The tea cools towards room temperature, so $T_1=22$. Separate: $\\displaystyle\\int\\frac{dT}{T-22}=\\int k\\,dt$, so $\\ln|T-22|=kt+c$ and $T=22+Ae^{kt}$.\n\nAt $t=0$, $T=81$: $A=59$. At $t=5$, $T=64$: $64=22+59e^{5k}$, so $e^{5k}=\\dfrac{42}{59}$ and $k=\\dfrac15\\ln\\dfrac{42}{59}\\approx-0.068$.\n\n$$T(t)=22+59e^{kt}=22+59\\left(\\frac{42}{59}\\right)^{t/5},\\qquad k=\\frac15\\ln\\frac{42}{59}.$$\n\n*Note:* the school's printed working writes $e^{5k}=\\frac{59}{42}$ (inverted), which would give $k>0$ and a warming model; the correct value is $\\frac{42}{59}$ (so $k<0$, as expected for cooling)."
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.7"
+   ],
+   "question": "Given a rhombus $OACB$ as seen in the diagram, with $\\overrightarrow{OA}=\\mathbf a$ and $\\overrightarrow{OB}=\\mathbf b$, and using vector methods, prove that the diagonals of a rhombus are perpendicular.",
+   "answer": "$\\overrightarrow{OC}=\\mathbf a+\\mathbf b$ and $\\overrightarrow{AB}=\\mathbf b-\\mathbf a$. Then\n$$\\overrightarrow{OC}\\cdot\\overrightarrow{AB}=(\\mathbf a+\\mathbf b)\\cdot(\\mathbf b-\\mathbf a)=|\\mathbf b|^2-|\\mathbf a|^2=0,$$\nsince all sides of a rhombus are equal, $|\\mathbf a|=|\\mathbf b|$. So the diagonals $OC$ and $AB$ are perpendicular.",
+   "images": [
+    "assets/img/ext1-2025-killara/q12d.png"
+   ]
+  },
+  {
+   "ref": "Q12(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "The tangent to the curve $y=\\arcsin\\left(\\dfrac{x^2}2\\right)$ is drawn at the point $\\left(1,\\dfrac\\pi6\\right)$. Find the $y$-intercept of the tangent.",
+   "answer": "$y'=\\dfrac{1}{\\sqrt{1-\\frac{x^4}4}}\\cdot x=\\dfrac{2x}{\\sqrt{4-x^4}}$. At $x=1$: $y'=\\dfrac2{\\sqrt3}$.\n\nTangent: $y-\\dfrac\\pi6=\\dfrac2{\\sqrt3}(x-1)$. At $x=0$: $y=\\dfrac\\pi6-\\dfrac2{\\sqrt3}$. The $y$-intercept is $\\left(0,\\ \\dfrac\\pi6-\\dfrac2{\\sqrt3}\\right)$."
+  },
+  {
+   "ref": "Q12(f)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.6"
+   ],
+   "question": "A biased coin has a $60\\%$ chance of landing on tails. If this coin is tossed $5$ times, what is the probability that at least four of the tosses are tails?",
+   "answer": "Let $X$ be the number of tails, $X\\sim\\text{Bin}(5,0.6)$. $$P(X\\ge4)={}^5C_4(0.6)^4(0.4)+(0.6)^5=0.2592+0.07776=0.33696\\approx0.337.$$"
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.2",
+    "11.3.2.4"
+   ],
+   "question": "Show that $\\cos3\\theta=4\\cos^3\\theta-3\\cos\\theta$.",
+   "answer": "$\\cos3\\theta=\\cos(2\\theta+\\theta)=\\cos2\\theta\\cos\\theta-\\sin2\\theta\\sin\\theta=(2\\cos^2\\theta-1)\\cos\\theta-2\\sin^2\\theta\\cos\\theta$\n$=2\\cos^3\\theta-\\cos\\theta-2(1-\\cos^2\\theta)\\cos\\theta=2\\cos^3\\theta-\\cos\\theta-2\\cos\\theta+2\\cos^3\\theta=4\\cos^3\\theta-3\\cos\\theta.$"
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.2.4"
+   ],
+   "question": "Consider the cubic equation $x^3-3x-\\sqrt3=0$. By letting $x=2\\cos\\theta$, show that $\\cos3\\theta=\\dfrac{\\sqrt3}2$. (You may use that $\\cos3\\theta=4\\cos^3\\theta-3\\cos\\theta$.)",
+   "answer": "Substituting $x=2\\cos\\theta$: $8\\cos^3\\theta-6\\cos\\theta-\\sqrt3=0$, so $2(4\\cos^3\\theta-3\\cos\\theta)=\\sqrt3$, i.e. $4\\cos^3\\theta-3\\cos\\theta=\\dfrac{\\sqrt3}2$. Hence $\\cos3\\theta=\\dfrac{\\sqrt3}2$."
+  },
+  {
+   "ref": "Q13(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 5,
+   "dotpoints": [
+    "11.2.3.2",
+    "11.3.3.1"
+   ],
+   "question": "The roots of $x^3-3x-\\sqrt3=0$ are $2\\cos\\theta$ where $\\cos3\\theta=\\dfrac{\\sqrt3}2$. Hence prove that $$\\sec\\frac\\pi{18}+\\sec\\frac{11\\pi}{18}+\\sec\\frac{13\\pi}{18}=-2\\sqrt3.$$",
+   "answer": "$\\cos3\\theta=\\dfrac{\\sqrt3}2$ gives $3\\theta=\\dfrac\\pi6,\\ \\dfrac{11\\pi}6,\\ \\dfrac{13\\pi}6,\\dots$ (since $\\cos$ is positive in quadrants 1 and 4), so $\\theta=\\dfrac\\pi{18},\\ \\dfrac{11\\pi}{18},\\ \\dfrac{13\\pi}{18}$ give three distinct values of $x=2\\cos\\theta$, the three roots of the cubic: $2\\cos\\frac\\pi{18},\\ 2\\cos\\frac{11\\pi}{18},\\ 2\\cos\\frac{13\\pi}{18}$.\n\nFor a cubic $x^3+0x^2-3x-\\sqrt3=0$ with roots $\\alpha,\\beta,\\gamma$: $\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha=-3$ and $\\alpha\\beta\\gamma=\\sqrt3$. Then $\\dfrac1\\alpha+\\dfrac1\\beta+\\dfrac1\\gamma=\\dfrac{\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha}{\\alpha\\beta\\gamma}=\\dfrac{-3}{\\sqrt3}=-\\sqrt3$.\n\nSince $\\dfrac1{2\\cos\\theta}=\\dfrac12\\sec\\theta$, $\\dfrac12\\left(\\sec\\frac\\pi{18}+\\sec\\frac{11\\pi}{18}+\\sec\\frac{13\\pi}{18}\\right)=-\\sqrt3$, so $\\sec\\frac\\pi{18}+\\sec\\frac{11\\pi}{18}+\\sec\\frac{13\\pi}{18}=-2\\sqrt3$.\n\n(Equivalently, the substitution $x=\\frac1y$ gives the cubic $\\sqrt3y^3+3y^2-1=0$ whose roots are $\\frac12\\sec\\theta$, with sum $-\\frac3{\\sqrt3}=-\\sqrt3$.)"
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.13"
+   ],
+   "question": "The masses of mice are thought to be normally distributed. If $30\\%$ of mice have a mass of more than $65$ g and $20\\%$ have a mass of less than $40$ g, estimate the mean and the variance of the mass of the mice.",
+   "answer": "Let $X\\sim N(\\mu,\\sigma^2)$. $P(X>65)=0.3$ gives $z=0.53$ (from tables, $P(Z<0.53)\\approx0.70$): $\\dfrac{65-\\mu}\\sigma=0.53$. $P(X<40)=0.2$ gives $z=-0.85$: $\\dfrac{40-\\mu}\\sigma=-0.85$.\n\nSubtracting: $\\dfrac{25}\\sigma=1.38$, so $\\sigma\\approx18.1$ g. Then $\\mu=65-0.53\\sigma\\approx65-9.6\\approx55.4$ g.\n\nMean $\\approx55.4$ g; variance $\\sigma^2\\approx18.1^2\\approx328$ g$^2$ (about $328$–$335$ depending on the rounding of the $z$-values).",
+   "course": "advanced"
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.5.7"
+   ],
+   "question": "A ship is set to sail to an island which is on a bearing of $127^\\circ$T. There is a current coming from the west which is flowing at a rate of $4$ km/h. The ship is able to sail at a constant speed of $37$ km/h. Determine the bearing the ship should sail on to reach the island, to the nearest degree.",
+   "answer": "The current (from the west) moves the ship $4$ km/h towards the east ($090^\\circ$). The ship's velocity relative to the water $\\mathbf s$ (speed $37$) plus the current $\\mathbf c$ ($4$ km/h east) must give a resultant $\\mathbf R$ along $127^\\circ$T. In the vector triangle, the angle at the start between $\\mathbf c$ (east) and $\\mathbf R$ is $127^\\circ-90^\\circ=37^\\circ$, and it is opposite the side $|\\mathbf s|=37$. Let $\\theta$ be the angle between $\\mathbf s$ and $\\mathbf R$, opposite the side $|\\mathbf c|=4$. By the sine rule: $$\\frac{\\sin\\theta}4=\\frac{\\sin37^\\circ}{37}\\ \\Rightarrow\\ \\sin\\theta=\\frac{4\\sin37^\\circ}{37}\\ \\Rightarrow\\ \\theta\\approx3.73^\\circ.$$\nThe ship must aim to counteract the eastward drift, i.e. further south than the island: bearing $127^\\circ+3.73^\\circ\\approx131^\\circ$T."
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.4.13",
+    "12.4.2.2"
+   ],
+   "question": "Find the general solution of $\\dfrac{dy}{dx}=\\dfrac{y^3+1}{\\sqrt{xy}}$ using the substitution $y=u^{3/2}$.",
+   "answer": "Separate variables: $\\displaystyle\\int\\frac{\\sqrt y}{y^3+1}\\,dy=\\int\\frac1{\\sqrt x}\\,dx$.\n\nWith $y=u^{3/2}$: $dy=\\frac32u^{1/2}du$, $\\sqrt y=u^{3/4}$, $y^3=u^{9/2}$:\n$$\\frac32\\int\\frac{u^{3/4}\\cdot u^{1/2}}{u^{9/2}+1}du=\\frac32\\int\\frac{u^{5/4}}{1+\\left(u^{9/4}\\right)^2}du.$$\nLet $w=u^{9/4}$, $dw=\\frac94u^{5/4}du$: this is $\\dfrac32\\cdot\\dfrac49\\int\\dfrac{dw}{1+w^2}=\\dfrac23\\tan^{-1}w$.\n\nSo $\\dfrac23\\tan^{-1}\\left(u^{9/4}\\right)=2\\sqrt x+c$. Since $u^{9/4}=y^{3/2}$: $\\tan^{-1}\\left(y^{3/2}\\right)=3\\sqrt x+C$, so $y^{3/2}=\\tan\\left(3\\sqrt x+C\\right)$ and\n$$y=\\tan^{2/3}\\left(3\\sqrt x+C\\right),\\quad C\\in\\mathbb R.$$"
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.1.2.4",
+    "12.4.1.4"
+   ],
+   "question": "Consider the function $f(x)=x-k\\cos^2x$ for a constant $k$. Show that $f(x)$ has an inverse for $-1\\le k\\le1$.",
+   "answer": "$f'(x)=1+2k\\cos x\\sin x=1+k\\sin2x$. (Derivative of $\\cos^2x$ is $-2\\cos x\\sin x=-\\sin2x$.)\n\nFor $-1\\le k\\le1$ and since $-1\\le\\sin2x\\le1$, $|k\\sin2x|\\le1$, so $f'(x)=1+k\\sin2x\\ge0$ for all $x$, with equality only at isolated points. So $f$ is increasing for all $x$, therefore one-to-one, and so has an inverse."
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.4"
+   ],
+   "question": "Consider $f(x)=x-k\\cos^2x$ with $-1\\le k\\le1$. The maximum value of the derivative of $f^{-1}(x)$ is $3$. Find the value of $k$.",
+   "answer": "$(f^{-1})'(x)=\\dfrac1{f'(x)}$, so its maximum is $3$ when the minimum of $f'(x)$ is $\\dfrac13$. $f'(x)=1+k\\sin2x$ has minimum value $1-|k|$. So $1-|k|=\\dfrac13$, $|k|=\\dfrac23$, giving $k=\\pm\\dfrac23$.\n\n*Note:* the school's solution gives only $k=\\frac23$ (taking $k>0$); $k=-\\frac23$ also gives a minimum $f'=\\frac13$ (at $\\sin2x=1$), so both values satisfy the conditions."
+  },
+  {
+   "ref": "Q14(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "The region between the curve $x^2+y^2=r^2$ and the line $x=\\dfrac r2$ is rotated around the $x$-axis. Show that the volume of revolution is given by $V=\\dfrac{5\\pi r^3}{24}$.",
+   "answer": "The region is the circular segment $\\frac r2\\le x\\le r$. Using $y^2=r^2-x^2$:\n$$V=\\pi\\int_{r/2}^{r}\\left(r^2-x^2\\right)dx=\\pi\\left[r^2x-\\frac{x^3}3\\right]_{r/2}^{r}=\\pi\\left[\\left(r^3-\\frac{r^3}3\\right)-\\left(\\frac{r^3}2-\\frac{r^3}{24}\\right)\\right]=\\pi\\left(\\frac{2r^3}3-\\frac{11r^3}{24}\\right)=\\frac{5\\pi r^3}{24}.$$",
+   "images": [
+    "assets/img/ext1-2025-killara/q14d1.png"
+   ]
+  },
+  {
+   "ref": "Q14(d)(ii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.2.2",
+    "12.5.2.1"
+   ],
+   "question": "A spherical ball of radius $2$ cm has water in it, so that the height of the water in the ball is $1$ cm. The radius of the ball is increasing at a rate inversely proportional to its radius. At the same time, water is flowing into the ball so that the height of water in the ball is exactly half the radius. It is known that after $5$ seconds, the radius of the ball is $4$ cm. Find the rate of change of water in the ball when the radius is $8$ cm. (The volume of water is the volume of a cap of height $\\frac r2$, which by the previous part is $V=\\frac{5\\pi r^3}{24}$.)",
+   "answer": "$\\dfrac{dr}{dt}=\\dfrac kr$. Then $\\displaystyle\\int_2^4r\\,dr=\\int_0^5k\\,dt$ gives $\\left[\\dfrac{r^2}2\\right]_2^4=6=5k$, so $k=\\dfrac65$ and $\\dfrac{dr}{dt}=\\dfrac6{5r}$.\n\n$V=\\dfrac{5\\pi r^3}{24}$ so $\\dfrac{dV}{dr}=\\dfrac{5\\pi r^2}8$. Then $$\\frac{dV}{dt}=\\frac{dV}{dr}\\cdot\\frac{dr}{dt}=\\frac{5\\pi r^2}8\\cdot\\frac6{5r}=\\frac{3\\pi r}4.$$\nWhen $r=8$: $\\dfrac{dV}{dt}=6\\pi\\ \\text{cm}^3/\\text{s}\\approx18.8\\ \\text{cm}^3/\\text{s}$.\n\n*Note:* the school's printed solution multiplies by $\\frac{6r}5$ instead of $\\frac6{5r}$ (inverting its own $\\frac{dr}{dt}=\\frac kr$), which gives $48\\pi$; the correct value is $6\\pi\\ \\text{cm}^3/\\text{s}$.",
+   "images": [
+    "assets/img/ext1-2025-killara/q14d2.png"
+   ]
+  }
+ ]
+}
