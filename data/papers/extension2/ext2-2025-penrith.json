@@ -1,0 +1,651 @@
+{
+ "id": "ext2-2025-penrith",
+ "course": "extension2",
+ "school": "Penrith",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "Penrith 2025 w. sol"
+ },
+ "indexed": "2026-11-26",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q13(c)(i)",
+   "reason": "Only asks for a force diagram to be drawn"
+  },
+  {
+   "ref": "Q15(b)(iii)",
+   "reason": "The result to be shown is false for n ≥ 2 (e.g. $I_2=\\frac14$, but the printed formula gives $\\frac{\\pi}{16}$), and the school's working is invalid"
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "reason": "Not in 2024 syllabus: only converts exponential (Euler) form $e^{i\\theta}$ to polar form (parts (ii) and (iii) are kept in polar form)"
+  },
+  {
+   "ref": "Q16(c)(ii)",
+   "reason": "Flawed: the statement is false as printed — the greatest range $u^2/g$ occurs at $\\theta=45^\\circ$ (inside $10^\\circ$–$75^\\circ$), not at $\\theta_{\\max}$, so the outer radius is not $u^2\\sin(2\\theta_{\\max})/g$"
+  },
+  {
+   "ref": "Q16(c)(iii)",
+   "reason": "Flawed: relies on the incorrect claim in (ii) that the maximum range occurs at $75^\\circ$, and ignores the unwatered inner circle"
+  },
+  {
+   "ref": "Q16(c)(iv)",
+   "reason": "Ill-posed: the condition given is inconsistent with part (iii) and the school's answer reaches no conclusion"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.11",
+    "12.1.1.7"
+   ],
+   "question": "Consider the statement\n\n\"for any integers $m$ and $n$, if $m+n\\ge7$ then $m\\ge4$ or $n\\ge4$\"\n\nThe contrapositive of this statement is",
+   "answer": "The contrapositive of $P\\Rightarrow Q$ is $\\neg Q\\Rightarrow\\neg P$. Here $\\neg(m\\ge4\\text{ or }n\\ge4)$ is \"$m<4$ **and** $n<4$\", and $\\neg(m+n\\ge7)$ is \"$m+n<7$\". So: if $m<4$ and $n<4$ then $m+n<7$ (C).",
+   "options": [
+    "If $m<4$ or $n<4$, then $m+n<7$.",
+    "If $m\\ge4$ or $n\\ge4$, then $m+n\\ge7$.",
+    "If $m<4$ and $n<4$, then $m+n<7$.",
+    "If $m\\le4$ or $n\\le4$, then $m+n<7$."
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.5.2.1"
+   ],
+   "question": "Which of the following functions does **not** describe simple harmonic motion?",
+   "answer": "A: $x=-\\cos6t$ (SHM). B: a cosine with constant amplitude (SHM). D: $2\\sin^22t=1-\\cos4t$, so $x=3-6\\cos4t$ (SHM about $x=3$). C: $2\\sin4t-4\\cos2t$ combines two different frequencies ($4$ and $2$), so $\\ddot x$ is not a multiple of $-(x-c)$ — not SHM (C).",
+   "options": [
+    "$x=\\sin^23t-\\cos^23t$",
+    "$x=5\\cos\\left(2t+\\frac{\\pi}{6}\\right)$",
+    "$x=2\\sin4t-4\\cos2t$",
+    "$x=2\\sin^22t-5\\cos4t+2$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.6"
+   ],
+   "question": "Consider the statement: \"Whichever positive number $r$ you pick, it is possible to find a number $x$ greater than zero such that $\\dfrac{1}{x^2}<r$.\"\n\nWhen this statement is written in a formal language of proof, which of the following is obtained?",
+   "answer": "'Whichever $r$ you pick' means for **all** $r>0$; 'it is possible to find $x$' means there **exists** $x>0$. So $\\forall r>0,\\ \\exists x>0$ with $\\frac1{x^2}<r$ (A).",
+   "options": [
+    "$\\forall r>0,\\ \\exists x>0$ such that $\\dfrac1{x^2}<r$",
+    "$\\exists r>0,\\ \\exists x>0$ such that $\\dfrac1{x^2}<r$",
+    "$\\forall r>0,\\ \\forall x>0$ such that $\\dfrac1{x^2}<r$",
+    "$\\exists r>0,\\ \\forall x>0$ such that $\\dfrac1{x^2}<r$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.4",
+    "12.2.1.1"
+   ],
+   "question": "Which of the following is a vector equation of the line joining the points $P(1,-3,4)$ and $Q(5,0,-2)$?",
+   "answer": "$\\overrightarrow{PQ}=\\begin{pmatrix}4\\\\3\\\\-6\\end{pmatrix}$, so a direction vector is $\\pm\\begin{pmatrix}4\\\\3\\\\-6\\end{pmatrix}$, and the line must pass through $P$ or $Q$. Option B has the point $Q(5,0,-2)$ and direction $\\begin{pmatrix}-4\\\\-3\\\\6\\end{pmatrix}=-\\overrightarrow{PQ}$. (A has the wrong direction; C's point $(2,-1.5,1)$ is not on the line; D's direction is $\\overrightarrow{OQ}$.) Answer B.",
+   "options": [
+    "$\\mathbf r=\\begin{pmatrix}1\\\\-3\\\\4\\end{pmatrix}+\\lambda\\begin{pmatrix}4\\\\3\\\\6\\end{pmatrix}$",
+    "$\\mathbf r=\\begin{pmatrix}5\\\\0\\\\-2\\end{pmatrix}+\\lambda\\begin{pmatrix}-4\\\\-3\\\\6\\end{pmatrix}$",
+    "$\\mathbf r=\\begin{pmatrix}2\\\\-1.5\\\\1\\end{pmatrix}+\\lambda\\begin{pmatrix}4\\\\3\\\\-6\\end{pmatrix}$",
+    "$\\mathbf r=\\begin{pmatrix}1\\\\-3\\\\4\\end{pmatrix}+\\lambda\\begin{pmatrix}5\\\\0\\\\-2\\end{pmatrix}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.12",
+    "12.2.1.19"
+   ],
+   "question": "The position of a particle at a time $t$ is given by $\\mathbf r(t)=\\begin{pmatrix}\\sqrt{t-2}\\\\t\\end{pmatrix}$ for $t\\ge2$. The Cartesian equation of the path of the particle is given by",
+   "answer": "$x=\\sqrt{t-2}$, $y=t$. Then $x^2=t-2=y-2$, so $y=x^2+2$. Since $t\\ge2$, $x=\\sqrt{t-2}\\ge0$ (C).",
+   "options": [
+    "$y=x^2-2$ for $x\\ge0$",
+    "$y=x^2+2$ for $x\\ge2$",
+    "$y=x^2+2$ for $x\\ge0$",
+    "$y=2x^2+2$ for $x\\ge2$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.14",
+    "12.2.1.12"
+   ],
+   "question": "Which of the following curves describes the diagram given below?",
+   "answer": "The diagram is an arc of the unit circle from $\\left(\\frac1{\\sqrt2},-\\frac1{\\sqrt2}\\right)$ through $(1,0)$ and $(0,1)$ to $\\left(-\\frac1{\\sqrt2},\\frac1{\\sqrt2}\\right)$. For option A, $\\mathbf r=(\\sin t,-\\cos t)$ gives $t=\\frac\\pi4$: $\\left(\\frac1{\\sqrt2},-\\frac1{\\sqrt2}\\right)$; $t=\\frac\\pi2$: $(1,0)$; $t=\\pi$: $(0,1)$; $t=\\frac{5\\pi}4$: $\\left(-\\frac1{\\sqrt2},\\frac1{\\sqrt2}\\right)$ — this matches. (B and D start at $\\left(\\frac1{\\sqrt2},\\frac1{\\sqrt2}\\right)$; C covers only the top arc.) Answer A.",
+   "options": [
+    "$\\mathbf r(t)=\\begin{pmatrix}\\sin t\\\\-\\cos t\\end{pmatrix}$ for $\\frac\\pi4\\le t\\le\\frac{5\\pi}{4}$",
+    "$\\mathbf r(t)=\\begin{pmatrix}\\sin t\\\\\\cos t\\end{pmatrix}$ for $\\frac\\pi4\\le t\\le\\frac{3\\pi}{4}$",
+    "$\\mathbf r(t)=\\begin{pmatrix}\\sin t\\\\-\\cos t\\end{pmatrix}$ for $\\frac{3\\pi}4\\le t\\le\\frac{5\\pi}{4}$",
+    "$\\mathbf r(t)=\\begin{pmatrix}\\sin t\\\\\\cos t\\end{pmatrix}$ for $\\frac\\pi4\\le t\\le\\frac{5\\pi}{4}$"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/ext2-2025-penrith/q6.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.9"
+   ],
+   "question": "Which expression is equal to $\\displaystyle\\int\\frac{dx}{x^2+4x+6}$ ?",
+   "answer": "Complete the square: $x^2+4x+6=(x+2)^2+(\\sqrt2)^2$, so $\\displaystyle\\int\\frac{dx}{(x+2)^2+(\\sqrt2)^2}=\\frac1{\\sqrt2}\\tan^{-1}\\frac{x+2}{\\sqrt2}+c$ (B).",
+   "options": [
+    "$\\tan^{-1}\\dfrac{x+2}{2}+c$",
+    "$\\dfrac1{\\sqrt2}\\tan^{-1}\\dfrac{x+2}{\\sqrt2}+c$",
+    "$\\tan^{-1}\\dfrac{x+2}{\\sqrt2}+c$",
+    "$\\dfrac12\\tan^{-1}\\dfrac{x+2}{2}+c$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.1",
+    "12.5.1.2"
+   ],
+   "question": "A particle moves on the $x$-axis with velocity $v$. The particle is initially at rest at $x=2$. Its acceleration is given by $\\ddot x=x-5$. The speed at $x=1$ is given by",
+   "answer": "$\\dfrac d{dx}\\left(\\tfrac12v^2\\right)=x-5\\Rightarrow\\tfrac12v^2=\\tfrac{x^2}2-5x+C$. When $x=2$, $v=0$: $0=2-10+C$, so $C=8$. At $x=1$: $\\tfrac12v^2=\\tfrac12-5+8=\\tfrac72$, so $v^2=7$ and $|v|=\\sqrt7$ m/s (C).",
+   "options": [
+    "$|v|=7$ m/s",
+    "$|v|=\\dfrac72$ m/s",
+    "$|v|=\\sqrt7$ m/s",
+    "$|v|=\\dfrac{\\sqrt7}{2}$ m/s"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^{\\pi/4}\\tan^nx\\,dx$. Then $I_n+I_{n+2}$ is equal to",
+   "answer": "$I_n+I_{n+2}=\\displaystyle\\int_0^{\\pi/4}\\tan^nx\\left(1+\\tan^2x\\right)dx=\\int_0^{\\pi/4}\\tan^nx\\sec^2x\\,dx=\\left[\\frac{\\tan^{n+1}x}{n+1}\\right]_0^{\\pi/4}=\\frac1{n+1}$ (C).",
+   "options": [
+    "$\\dfrac1{n-1}$",
+    "$\\dfrac1{n-2}$",
+    "$\\dfrac1{n+1}$",
+    "$\\dfrac1{n+2}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "Two masses of $8$ kg and $12$ kg are hanging by a light and inextensible string over a frictionless pulley as shown in the diagram. The tension $T$ in the string is given by",
+   "answer": "$8$ kg mass (accelerating up): $T-8g=8a$. $12$ kg mass (accelerating down): $12g-T=12a$.\n\nAdding: $4g=20a$, so $a=\\frac g5$. Then $T=8g+8\\cdot\\frac g5=\\frac{48g}{5}$ N (D).",
+   "options": [
+    "$\\dfrac{20g}{5}$ N",
+    "$\\dfrac{24g}{5}$ N",
+    "$\\dfrac{4g}{5}$ N",
+    "$\\dfrac{48g}{5}$ N"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/ext2-2025-penrith/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.9",
+    "12.3.1.13"
+   ],
+   "question": "Given $z=1+i$, find $z^2+\\dfrac1{z^2}$ in the form $a+ib$, where $a$ and $b$ are real numbers.",
+   "answer": "$z^2=(1+i)^2=1+2i-1=2i$. $\\dfrac1{z^2}=\\dfrac1{2i}\\cdot\\dfrac ii=\\dfrac{i}{-2}=-\\dfrac i2$.\n\n$z^2+\\dfrac1{z^2}=2i-\\dfrac i2=\\dfrac32i$, so $a=0$, $b=\\dfrac32$."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.2.3",
+    "12.1.1.11"
+   ],
+   "question": "Suppose that $a,b\\in\\mathbb Z$. If $ab$ and $a-b$ are both even, prove that $a$ and $b$ are both even.",
+   "answer": "Prove the contrapositive: if $a$ and $b$ are **not both even**, then $ab$ or $a-b$ is odd.\n\n*Case 1: one odd, one even.* Say $a=2m+1$, $b=2n$ (the other way round is similar). Then $a-b=2(m-n)+1$ is odd.\n\n*Case 2: both odd.* $a=2m+1$, $b=2n+1$: $ab=4mn+2m+2n+1=2(2mn+m+n)+1$ is odd.\n\nIn both cases $ab$ and $a-b$ are not both even. Hence if $ab$ and $a-b$ are both even, then $a$ and $b$ are both even."
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.1",
+    "12.5.2.4"
+   ],
+   "question": "A particle moves in simple harmonic motion described by the differential equation $\\ddot x=-16(x+2)$. Find the period of motion and the centre of motion about which the motion occurs.",
+   "answer": "Compare with $\\ddot x=-n^2(x-c)$: $n^2=16$, so $n=4$ and $c=-2$.\n\nPeriod $=\\dfrac{2\\pi}{n}=\\dfrac{2\\pi}4=\\dfrac\\pi2$; centre of motion $x=-2$."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.10",
+    "12.2.2.1"
+   ],
+   "question": "Show that the pair of lines $L_1:\\ \\mathbf r=\\begin{pmatrix}1\\\\2\\\\3\\end{pmatrix}+\\lambda\\begin{pmatrix}-1\\\\-2\\\\1\\end{pmatrix}$ and $L_2:\\ \\mathbf s=\\begin{pmatrix}3\\\\1\\\\3\\end{pmatrix}+\\mu\\begin{pmatrix}2\\\\-1\\\\0\\end{pmatrix}$ are perpendicular to each other, where $\\lambda$ and $\\mu$ are scalar parameters. Also, show that they intersect at $\\begin{pmatrix}1\\\\2\\\\3\\end{pmatrix}$.",
+   "answer": "Direction vectors: $\\begin{pmatrix}-1\\\\-2\\\\1\\end{pmatrix}\\cdot\\begin{pmatrix}2\\\\-1\\\\0\\end{pmatrix}=-2+2+0=0$, so the lines are perpendicular.\n\n$L_1$ passes through $(1,2,3)$ at $\\lambda=0$. For $L_2$: $1=3+2\\mu$ and $2=1-\\mu$ give $\\mu=-1$ in both, and the third component is $3=3$ ✓. So $L_2$ at $\\mu=-1$ is $(3-2,1+1,3)=(1,2,3)$. The lines intersect at $(1,2,3)$."
+  },
+  {
+   "ref": "Q11(e)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.2",
+    "12.3.4.3"
+   ],
+   "question": "Let $z=\\cos\\theta+i\\sin\\theta$. Show that for any integer $n$, $z^n+z^{-n}=2\\cos n\\theta$.",
+   "answer": "By de Moivre's theorem (valid for all integers $n$), $z^n=\\cos n\\theta+i\\sin n\\theta$ and $z^{-n}=\\cos n\\theta-i\\sin n\\theta$. Adding: $z^n+z^{-n}=2\\cos n\\theta$.\n\n(The paper wrote $z$ as $e^{i\\theta}$; exponential form is not in the 2024 syllabus, so $\\cos\\theta+i\\sin\\theta$ is used.)"
+  },
+  {
+   "ref": "Q11(e)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Let $z=\\cos\\theta+i\\sin\\theta$, so that $z^n+z^{-n}=2\\cos n\\theta$ for any integer $n$. By expanding $\\left(z+z^{-1}\\right)^3$, show that $\\cos^3\\theta=\\dfrac34\\cos\\theta+\\dfrac14\\cos3\\theta$.",
+   "answer": "From the previous result, $\\left(z+z^{-1}\\right)^3=(2\\cos\\theta)^3=8\\cos^3\\theta$.\n\nExpanding: $\\left(z+z^{-1}\\right)^3=z^3+3z+3z^{-1}+z^{-3}=\\left(z^3+z^{-3}\\right)+3\\left(z+z^{-1}\\right)=2\\cos3\\theta+6\\cos\\theta$.\n\nSo $8\\cos^3\\theta=2\\cos3\\theta+6\\cos\\theta$, i.e. $\\cos^3\\theta=\\dfrac14\\cos3\\theta+\\dfrac34\\cos\\theta$."
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "Prove by contradiction that $\\log_49$ is an irrational number.",
+   "answer": "Assume $\\log_49$ is rational: $\\log_49=\\dfrac pq$ with $p,q$ positive integers (it is positive). Then $4^{p/q}=9$, so $4^p=9^q$.\n\n$4^p=2^{2p}$ is even (as $p\\ge1$), but $9^q$ is odd (a product of odd numbers). An even number cannot equal an odd number — a contradiction. Hence $\\log_49$ is irrational."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.5",
+    "12.4.1.8"
+   ],
+   "question": "Evaluate $\\displaystyle\\int\\frac{dx}{1-\\cos x+\\sin x}$.",
+   "answer": "Let $t=\\tan\\frac x2$: $dx=\\dfrac{2\\,dt}{1+t^2}$, $\\cos x=\\dfrac{1-t^2}{1+t^2}$, $\\sin x=\\dfrac{2t}{1+t^2}$.\n\n$1-\\cos x+\\sin x=\\dfrac{(1+t^2)-(1-t^2)+2t}{1+t^2}=\\dfrac{2t^2+2t}{1+t^2}$, so\n$$\\int\\frac{dx}{1-\\cos x+\\sin x}=\\int\\frac{2}{2t(t+1)}\\,dt=\\int\\left(\\frac1t-\\frac1{t+1}\\right)dt=\\ln\\left|\\frac t{t+1}\\right|+C=\\ln\\left|\\frac{\\tan\\frac x2}{\\tan\\frac x2+1}\\right|+C.$$"
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.4",
+    "12.3.3.3"
+   ],
+   "question": "The complex number $3-i$ is a zero of a cubic polynomial $Q(z)=z^3+pz^2+qz+r$ where $p,q,r$ are real numbers. Given that $z=-1$ is also a zero of $Q(z)$, find the values of $p,q,r$ and then write the complete factorisation of $Q(z)$.",
+   "answer": "Real coefficients, so $3+i$ is also a zero. The quadratic factor with zeros $3\\pm i$ is $z^2-6z+10$ (sum $6$, product $10$), and $z=-1$ gives the factor $z+1$:\n$$Q(z)=(z^2-6z+10)(z+1)=z^3-5z^2+4z+10.$$\nSo $p=-5$, $q=4$, $r=10$, and $Q(z)=(z-3+i)(z-3-i)(z+1)$."
+  },
+  {
+   "ref": "Q12(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.3.1"
+   ],
+   "question": "For all real numbers $x$ and $y$ with $x^2+y^2\\ne0$, prove that $\\left(\\dfrac{x}{\\sqrt{x^2+y^2}}\\right)^2+\\left(\\dfrac{y}{\\sqrt{x^2+y^2}}\\right)^2=1$.",
+   "answer": "LHS $=\\dfrac{x^2}{x^2+y^2}+\\dfrac{y^2}{x^2+y^2}=\\dfrac{x^2+y^2}{x^2+y^2}=1=$ RHS."
+  },
+  {
+   "ref": "Q12(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "For all real $x,y$ with $x^2+y^2\\ne0$, $\\left(\\dfrac{x}{\\sqrt{x^2+y^2}}\\right)^2+\\left(\\dfrac{y}{\\sqrt{x^2+y^2}}\\right)^2=1$. Hence, or otherwise, prove that $\\left|\\dfrac{x}{\\sqrt{x^2+y^2}}\\right|\\le1$ and $\\left|\\dfrac{y}{\\sqrt{x^2+y^2}}\\right|\\le1$.",
+   "answer": "Both squared terms are non-negative and sum to $1$, so each is at most $1$: $\\left(\\dfrac{x}{\\sqrt{x^2+y^2}}\\right)^2\\le1$ and $\\left(\\dfrac{y}{\\sqrt{x^2+y^2}}\\right)^2\\le1$. Taking square roots (both sides non-negative), $\\left|\\dfrac{x}{\\sqrt{x^2+y^2}}\\right|\\le1$ and $\\left|\\dfrac{y}{\\sqrt{x^2+y^2}}\\right|\\le1$."
+  },
+  {
+   "ref": "Q12(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.2.1.11",
+    "12.2.2.1"
+   ],
+   "question": "With respect to the origin $O$, the lines $L_1$ and $L_2$ are given by $L_1:\\ \\mathbf r_1=\\begin{pmatrix}10\\\\0\\\\-9\\end{pmatrix}+\\lambda\\begin{pmatrix}-1\\\\1\\\\2\\end{pmatrix}$ and $L_2:\\ \\mathbf r_2=\\begin{pmatrix}17\\\\1\\\\3\\end{pmatrix}+\\mu\\begin{pmatrix}5\\\\-1\\\\2\\end{pmatrix}$, where $\\lambda$ and $\\mu$ are scalar parameters. Show that the shortest distance between the two lines is $\\dfrac2{\\sqrt{11}}$ units.",
+   "answer": "Let $P=(10-\\lambda,\\ \\lambda,\\ -9+2\\lambda)$ on $L_1$ and $Q=(17+5\\mu,\\ 1-\\mu,\\ 3+2\\mu)$ on $L_2$. The shortest distance is $|\\overrightarrow{PQ}|$ when $\\overrightarrow{PQ}$ is perpendicular to both lines.\n\n$\\overrightarrow{PQ}=\\begin{pmatrix}7+5\\mu+\\lambda\\\\1-\\mu-\\lambda\\\\12+2\\mu-2\\lambda\\end{pmatrix}$.\n\n$\\overrightarrow{PQ}\\cdot\\begin{pmatrix}-1\\\\1\\\\2\\end{pmatrix}=0$: $-7-5\\mu-\\lambda+1-\\mu-\\lambda+24+4\\mu-4\\lambda=0\\Rightarrow18-2\\mu-6\\lambda=0\\Rightarrow\\mu+3\\lambda=9$.\n\n$\\overrightarrow{PQ}\\cdot\\begin{pmatrix}5\\\\-1\\\\2\\end{pmatrix}=0$: $35+25\\mu+5\\lambda-1+\\mu+\\lambda+24+4\\mu-4\\lambda=0\\Rightarrow58+30\\mu+2\\lambda=0\\Rightarrow15\\mu+\\lambda=-29$.\n\nSolving: $\\mu=9-3\\lambda$, so $15(9-3\\lambda)+\\lambda=-29\\Rightarrow135-44\\lambda=-29\\Rightarrow\\lambda=\\dfrac{41}{11}$, $\\mu=9-\\dfrac{123}{11}=-\\dfrac{24}{11}$.\n\nThen $\\overrightarrow{PQ}=\\left(-\\dfrac2{11},\\,-\\dfrac6{11},\\,\\dfrac2{11}\\right)$, so\n$$|\\overrightarrow{PQ}|=\\sqrt{\\frac{4+36+4}{121}}=\\sqrt{\\frac{44}{121}}=\\frac{2\\sqrt{11}}{11}=\\frac2{\\sqrt{11}}\\text{ units}.$$"
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Express $\\dfrac{x^2+1}{(x+1)(x-2)(x^2+x+1)}$ as the sum of partial fractions.",
+   "answer": "Let $\\dfrac{x^2+1}{(x+1)(x-2)(x^2+x+1)}=\\dfrac A{x+1}+\\dfrac B{x-2}+\\dfrac{Cx+D}{x^2+x+1}$, so\n$$x^2+1=A(x-2)(x^2+x+1)+B(x+1)(x^2+x+1)+(Cx+D)(x+1)(x-2).$$\n$x=-1$: $2=A(-3)(1)\\Rightarrow A=-\\dfrac23$. $x=2$: $5=B(3)(7)\\Rightarrow B=\\dfrac5{21}$.\n$x=0$: $1=-2A+B-2D\\Rightarrow2D=\\dfrac43+\\dfrac5{21}-1=\\dfrac47\\Rightarrow D=\\dfrac27$.\n$x=1$: $2=-3A+6B-2(C+D)\\Rightarrow2(C+D)=2+\\dfrac{10}7-2=\\dfrac{10}{7}\\Rightarrow C+D=\\dfrac57\\Rightarrow C=\\dfrac37$.\n$$\\frac{x^2+1}{(x+1)(x-2)(x^2+x+1)}=-\\frac2{3(x+1)}+\\frac5{21(x-2)}+\\frac{3x+2}{7(x^2+x+1)}.$$"
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.8",
+    "12.4.1.9"
+   ],
+   "question": "Given that $\\dfrac{x^2+1}{(x+1)(x-2)(x^2+x+1)}=-\\dfrac2{3(x+1)}+\\dfrac5{21(x-2)}+\\dfrac{3x+2}{7(x^2+x+1)}$, show that $$\\int\\frac{x^2+1}{(x+1)(x-2)(x^2+x+1)}\\,dx=-\\frac23\\ln|x+1|+\\frac5{21}\\ln|x-2|+\\frac3{14}\\ln|x^2+x+1|+\\frac1{7\\sqrt3}\\tan^{-1}\\frac{2x+1}{\\sqrt3}+C.$$",
+   "answer": "The first two terms integrate to $-\\frac23\\ln|x+1|+\\frac5{21}\\ln|x-2|$. For the third, write $3x+2=\\frac32(2x+1)+\\frac12$:\n$$\\int\\frac{3x+2}{7(x^2+x+1)}dx=\\frac3{14}\\int\\frac{2x+1}{x^2+x+1}dx+\\frac1{14}\\int\\frac{dx}{\\left(x+\\frac12\\right)^2+\\frac34}.$$\nThe first integral is $\\frac3{14}\\ln|x^2+x+1|$. The second is $\\frac1{14}\\cdot\\frac{2}{\\sqrt3}\\tan^{-1}\\frac{x+\\frac12}{\\frac{\\sqrt3}{2}}=\\frac1{7\\sqrt3}\\tan^{-1}\\frac{2x+1}{\\sqrt3}$. Adding gives the stated result."
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.3",
+    "12.3.1.11"
+   ],
+   "question": "Let $z\\in\\mathbb C$ and define $A=1+i$ and $B=-1+i$. Find the set of points satisfying the condition $|z-A|=2|z-B|$. Express this as a Cartesian equation.",
+   "answer": "Let $z=x+iy$. $|z-A|=2|z-B|\\Rightarrow\\sqrt{(x-1)^2+(y-1)^2}=2\\sqrt{(x+1)^2+(y-1)^2}$. Squaring:\n$$(x-1)^2+(y-1)^2=4(x+1)^2+4(y-1)^2\\Rightarrow0=3x^2+10x+3+3(y-1)^2\\Rightarrow x^2+\\tfrac{10}3x+1+(y-1)^2=0.$$\nCompleting the square: $\\left(x+\\dfrac53\\right)^2+(y-1)^2=\\dfrac{25}9-1=\\dfrac{16}9.$"
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.5.3"
+   ],
+   "question": "The set of points $z=x+iy$ satisfying $|z-(1+i)|=2|z-(-1+i)|$ has Cartesian equation $\\left(x+\\frac53\\right)^2+(y-1)^2=\\frac{16}9$. Interpret this result geometrically.",
+   "answer": "This is a circle with centre $\\left(-\\dfrac53,\\,1\\right)$ and radius $\\dfrac43$ in the complex plane."
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.5",
+    "12.5.1.4"
+   ],
+   "question": "A crate of mass $15$ kg is being pulled along a smooth horizontal surface by a rope inclined at $30^\\circ$ to the horizontal. The tension in the rope is $18$ N ($g=10\\ \\text{m s}^{-2}$). Find the acceleration of the crate.",
+   "answer": "The surface is smooth, so the only horizontal force is the horizontal component of the tension: $15a=18\\cos30^\\circ$.\n$$a=\\frac{18\\cdot\\frac{\\sqrt3}2}{15}=\\frac{3\\sqrt3}{5}\\approx1.04\\ \\text{m s}^{-2}.$$"
+  },
+  {
+   "ref": "Q13(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.5"
+   ],
+   "question": "A crate of mass $15$ kg is being pulled along a smooth horizontal surface by a rope inclined at $30^\\circ$ to the horizontal. The tension in the rope is $18$ N ($g=10\\ \\text{m s}^{-2}$). Find the normal force between the crate and the floor.",
+   "answer": "There is no vertical acceleration, so vertically $N+18\\sin30^\\circ=15g$:\n$$N=150-18\\cdot\\tfrac12=141\\ \\text{N}.$$"
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.3",
+    "12.1.2.1"
+   ],
+   "question": "Prove that a three-digit number is divisible by $3$ if and only if the sum of its digits is divisible by $3$.",
+   "answer": "Let the number be $N=100h+10t+u$ with digits $h,t,u$. Then $N=99h+9t+(h+t+u)=3(33h+3t)+(h+t+u)$.\n\n($\\Rightarrow$) If $3\\mid N$, write $N=3k$. Then $h+t+u=3k-3(33h+3t)=3(k-33h-3t)$, which is divisible by $3$.\n\n($\\Leftarrow$) If $h+t+u=3m$, then $N=3(33h+3t)+3m=3(33h+3t+m)$, which is divisible by $3$.\n\nBoth directions are proved."
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.11"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_{-0.5}^{0.5}\\sqrt{\\dfrac{1-x}{1+x}}\\,dx$.",
+   "answer": "Multiply numerator and denominator inside the root by $1-x$: $\\sqrt{\\dfrac{1-x}{1+x}}=\\dfrac{1-x}{\\sqrt{1-x^2}}$.\n$$\\int_{-0.5}^{0.5}\\frac{1-x}{\\sqrt{1-x^2}}dx=\\int_{-0.5}^{0.5}\\frac{dx}{\\sqrt{1-x^2}}+\\frac12\\int_{-0.5}^{0.5}\\frac{-2x}{\\sqrt{1-x^2}}dx=\\Big[\\sin^{-1}x+\\sqrt{1-x^2}\\Big]_{-0.5}^{0.5}$$\n$$=\\left(\\frac\\pi6+\\frac{\\sqrt3}2\\right)-\\left(-\\frac\\pi6+\\frac{\\sqrt3}2\\right)=\\frac\\pi3.$$"
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.17"
+   ],
+   "question": "A sphere has centre $\\begin{pmatrix}3\\\\2\\\\-1\\end{pmatrix}$ and its radius is $4$ units. Write down the vector equation of the sphere.",
+   "answer": "$\\left|\\mathbf r-\\begin{pmatrix}3\\\\2\\\\-1\\end{pmatrix}\\right|=4$."
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.18",
+    "12.2.1.3"
+   ],
+   "question": "A sphere has centre $\\begin{pmatrix}3\\\\2\\\\-1\\end{pmatrix}$ and radius $4$ units. A line has equation $\\mathbf r=\\begin{pmatrix}2\\\\3\\\\5\\end{pmatrix}+\\mu\\begin{pmatrix}2\\\\1\\\\-1\\end{pmatrix}$ where $\\mu$ is a scalar parameter. Determine whether the line is a tangent to the sphere, clearly justifying your conclusion.",
+   "answer": "A point on the line is at distance $4$ from the centre when $\\left|\\begin{pmatrix}2+2\\mu-3\\\\3+\\mu-2\\\\5-\\mu+1\\end{pmatrix}\\right|^2=16$, i.e.\n$$(2\\mu-1)^2+(\\mu+1)^2+(6-\\mu)^2=16\\ \\Rightarrow\\ 6\\mu^2-14\\mu+38=16\\ \\Rightarrow\\ 6\\mu^2-14\\mu+22=0.$$\nDiscriminant $\\Delta=(-14)^2-4(6)(22)=196-528=-332<0$, so there is no real $\\mu$: the line never meets the sphere. It is therefore **not** a tangent (a tangent meets the sphere at exactly one point).\n\n(Alternatively: the point of the line nearest the centre has $(2\\mu-1,\\mu+1,6-\\mu)\\cdot(2,1,-1)=6\\mu-7=0$, so $\\mu=\\frac76$, and its distance from the centre is $\\sqrt{\\left(\\frac43\\right)^2+\\left(\\frac{13}6\\right)^2+\\left(\\frac{29}6\\right)^2}=\\sqrt{\\frac{179}{6}}\\approx5.46>4$.)"
+  },
+  {
+   "ref": "Q14(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.13",
+    "12.4.1.14"
+   ],
+   "question": "Show that for $k\\ge0$, $$\\int_0^\\pi\\sin^{2k}\\theta\\cos2\\theta\\,d\\theta=-\\frac{k}{k+1}\\int_0^\\pi\\sin^{2k}\\theta\\,d\\theta.$$",
+   "answer": "Let $I=\\int_0^\\pi\\sin^{2k}\\theta\\cos2\\theta\\,d\\theta$. Integrate by parts with $u=\\sin^{2k}\\theta$, $dv=\\cos2\\theta\\,d\\theta$ ($v=\\frac12\\sin2\\theta$):\n$$I=\\Big[\\sin^{2k}\\theta\\cdot\\tfrac12\\sin2\\theta\\Big]_0^\\pi-\\int_0^\\pi2k\\sin^{2k-1}\\theta\\cos\\theta\\cdot\\tfrac12\\sin2\\theta\\,d\\theta=0-k\\int_0^\\pi\\sin^{2k-1}\\theta\\cos\\theta\\,(2\\sin\\theta\\cos\\theta)\\,d\\theta$$\n$$=-2k\\int_0^\\pi\\sin^{2k}\\theta\\cos^2\\theta\\,d\\theta=-k\\int_0^\\pi\\sin^{2k}\\theta\\,(1+\\cos2\\theta)\\,d\\theta=-k\\int_0^\\pi\\sin^{2k}\\theta\\,d\\theta-kI.$$\nSo $(k+1)I=-k\\int_0^\\pi\\sin^{2k}\\theta\\,d\\theta$, i.e. $I=-\\dfrac k{k+1}\\int_0^\\pi\\sin^{2k}\\theta\\,d\\theta$."
+  },
+  {
+   "ref": "Q14(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.1.4.3",
+    "12.4.1.14"
+   ],
+   "question": "Using the result that for $k\\ge0$, $\\displaystyle\\int_0^\\pi\\sin^{2k}\\theta\\cos2\\theta\\,d\\theta=-\\frac k{k+1}\\int_0^\\pi\\sin^{2k}\\theta\\,d\\theta$, prove by mathematical induction that $$\\int_0^\\pi\\sin^{2n}\\theta\\,d\\theta=\\frac{(2n)!}{(n!)^2}\\times\\frac\\pi{2^{2n}}$$ for all integers $n\\ge0$.",
+   "answer": "Let $J_n=\\int_0^\\pi\\sin^{2n}\\theta\\,d\\theta$.\n\n**$n=0$:** $J_0=\\int_0^\\pi1\\,d\\theta=\\pi$, and $\\dfrac{0!}{(0!)^2}\\cdot\\dfrac\\pi{2^0}=\\pi$. True.\n\n**Assume** $J_k=\\dfrac{(2k)!}{(k!)^2}\\cdot\\dfrac\\pi{2^{2k}}$ for some integer $k\\ge0$.\n\n**Prove** $J_{k+1}=\\dfrac{(2k+2)!}{((k+1)!)^2}\\cdot\\dfrac\\pi{2^{2k+2}}$. Using $\\sin^2\\theta=\\frac{1-\\cos2\\theta}2$:\n$$J_{k+1}=\\int_0^\\pi\\sin^{2k}\\theta\\cdot\\frac{1-\\cos2\\theta}2\\,d\\theta=\\tfrac12J_k-\\tfrac12\\int_0^\\pi\\sin^{2k}\\theta\\cos2\\theta\\,d\\theta=\\tfrac12J_k+\\frac k{2(k+1)}J_k=\\frac{2k+1}{2(k+1)}J_k.$$\nBy the assumption,\n$$J_{k+1}=\\frac{2k+1}{2(k+1)}\\cdot\\frac{(2k)!}{(k!)^2}\\cdot\\frac\\pi{2^{2k}}=\\frac{(2k+2)(2k+1)(2k)!}{2(k+1)\\cdot(2k+2)\\,(k!)^2}\\cdot\\frac\\pi{2^{2k}}=\\frac{(2k+2)!}{4\\,\\big((k+1)!\\big)^2}\\cdot\\frac\\pi{2^{2k}}=\\frac{(2k+2)!}{\\big((k+1)!\\big)^2}\\cdot\\frac\\pi{2^{2k+2}}.$$\nSo the result holds for $n=k+1$ whenever it holds for $n=k$. By induction it holds for all integers $n\\ge0$."
+  },
+  {
+   "ref": "Q15(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "The rectangular prism $ABCDEFGH$ has vertices $A(2,-2,0)$, $B(-2,-2,0)$, $C(-2,2,0)$, $D(2,2,0)$, $E(2,-2,2)$, $F(-2,-2,2)$, $G(-2,2,2)$ and $H(2,2,2)$ (see diagram). Show that the internal diagonals $AG$ and $DF$ bisect each other.",
+   "answer": "Midpoint of $AG$: $\\frac12\\big((2,-2,0)+(-2,2,2)\\big)=\\frac12(0,0,2)=(0,0,1)$.\n\nMidpoint of $DF$: $\\frac12\\big((2,2,0)+(-2,-2,2)\\big)=\\frac12(0,0,2)=(0,0,1)$.\n\nThe midpoints coincide, so the diagonals bisect each other.",
+   "images": [
+    "assets/img/ext2-2025-penrith/q15a.png"
+   ]
+  },
+  {
+   "ref": "Q15(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "The rectangular prism $ABCDEFGH$ has vertices $A(2,-2,0)$, $B(-2,-2,0)$, $C(-2,2,0)$, $D(2,2,0)$, $E(2,-2,2)$, $F(-2,-2,2)$, $G(-2,2,2)$ and $H(2,2,2)$ (see diagram). Calculate the acute angle $\\theta$ between the diagonals $AG$ and $DF$, to the nearest degree.",
+   "answer": "$\\overrightarrow{AG}=(-2,2,2)-(2,-2,0)=(-4,4,2)$ and $\\overrightarrow{DF}=(-2,-2,2)-(2,2,0)=(-4,-4,2)$.\n\n$\\overrightarrow{AG}\\cdot\\overrightarrow{DF}=16-16+4=4$, $|\\overrightarrow{AG}|=|\\overrightarrow{DF}|=\\sqrt{16+16+4}=6$.\n$$\\cos\\theta=\\frac{4}{6\\times6}=\\frac19\\ \\Rightarrow\\ \\theta\\approx83.6^\\circ\\approx84^\\circ.$$",
+   "images": [
+    "assets/img/ext2-2025-penrith/q15a.png"
+   ],
+   "course": "extension1"
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "If $I_n=\\displaystyle\\int_0^1\\frac{x^{n-1}}{(1+x^2)^n}\\,dx$ for $n\\ge1$, show that $I_n=\\displaystyle\\int_0^{\\pi/4}\\sin^{n-1}\\theta\\cos^{n-1}\\theta\\,d\\theta$ for $n\\ge1$.",
+   "answer": "Let $x=\\tan\\theta$: $dx=\\sec^2\\theta\\,d\\theta$; $x=0\\Rightarrow\\theta=0$, $x=1\\Rightarrow\\theta=\\frac\\pi4$; $1+x^2=\\sec^2\\theta$.\n$$I_n=\\int_0^{\\pi/4}\\frac{\\tan^{n-1}\\theta}{\\sec^{2n}\\theta}\\sec^2\\theta\\,d\\theta=\\int_0^{\\pi/4}\\tan^{n-1}\\theta\\cos^{2n-2}\\theta\\,d\\theta=\\int_0^{\\pi/4}\\frac{\\sin^{n-1}\\theta}{\\cos^{n-1}\\theta}\\cos^{2(n-1)}\\theta\\,d\\theta=\\int_0^{\\pi/4}\\sin^{n-1}\\theta\\cos^{n-1}\\theta\\,d\\theta.$$"
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "If $I_n=\\displaystyle\\int_0^{\\pi/4}\\sin^{n-1}\\theta\\cos^{n-1}\\theta\\,d\\theta$ for $n\\ge1$ and $K_n=\\displaystyle\\int_0^{\\pi/2}\\sin^n\\theta\\,d\\theta$, show that $I_n=\\dfrac1{2^n}K_{n-1}$.",
+   "answer": "$\\sin\\theta\\cos\\theta=\\frac12\\sin2\\theta$, so $I_n=\\left(\\frac12\\right)^{n-1}\\displaystyle\\int_0^{\\pi/4}\\sin^{n-1}2\\theta\\,d\\theta$. Let $u=2\\theta$, $d\\theta=\\frac{du}2$; $\\theta=0\\Rightarrow u=0$, $\\theta=\\frac\\pi4\\Rightarrow u=\\frac\\pi2$:\n$$I_n=\\frac1{2^{n-1}}\\cdot\\frac12\\int_0^{\\pi/2}\\sin^{n-1}u\\,du=\\frac1{2^n}K_{n-1}.$$"
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.5"
+   ],
+   "question": "Let $\\omega=\\cos\\dfrac{2\\pi}9+i\\sin\\dfrac{2\\pi}9$. Show that $\\omega^k$ is a solution of $z^9-1=0$, where $k$ is an integer.",
+   "answer": "By de Moivre, $\\omega^9=\\cos2\\pi+i\\sin2\\pi=1$. Then $(\\omega^k)^9=(\\omega^9)^k=1^k=1$, so $z=\\omega^k$ satisfies $z^9-1=0$."
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.5",
+    "12.3.4.12"
+   ],
+   "question": "Let $\\omega=\\cos\\dfrac{2\\pi}9+i\\sin\\dfrac{2\\pi}9$, so that $\\omega^9=1$ and $\\omega\\ne1$. Show that $1+\\omega+\\omega^2+\\omega^3+\\omega^4+\\omega^5+\\omega^6+\\omega^7+\\omega^8=0$.",
+   "answer": "$z^9-1=(z-1)(z^8+z^7+\\dots+z+1)$. Since $\\omega^9-1=0$ and $\\omega\\ne1$, $\\omega-1\\ne0$, so $1+\\omega+\\omega^2+\\dots+\\omega^8=0$.\n\n(Alternatively, this is a geometric series: $\\dfrac{1-\\omega^9}{1-\\omega}=\\dfrac{1-1}{1-\\omega}=0$.)"
+  },
+  {
+   "ref": "Q15(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.3.4.12"
+   ],
+   "question": "Let $\\omega=\\cos\\dfrac{2\\pi}9+i\\sin\\dfrac{2\\pi}9$. Given that $\\omega^k$ ($k=0,1,\\dots,8$) are the solutions of $z^9-1=0$, hence show that $8\\cos\\dfrac\\pi9\\times\\cos\\dfrac{2\\pi}9\\times\\cos\\dfrac{4\\pi}9-1=0$.",
+   "answer": "From (ii), $z^8+z^7+\\dots+z+1=(z-\\omega)(z-\\omega^2)\\cdots(z-\\omega^8)$. Put $z=-1$: the left side is $1$, so $(1+\\omega)(1+\\omega^2)\\cdots(1+\\omega^8)=1$ (eight factors, $(-1)^8=1$).\n\nPair conjugates $\\omega^k$ and $\\omega^{9-k}=\\overline{\\omega^k}$: $(1+\\omega^k)(1+\\omega^{-k})=2+2\\cos\\dfrac{2k\\pi}9=4\\cos^2\\dfrac{k\\pi}9$. So\n$$4^4\\cos^2\\tfrac\\pi9\\cos^2\\tfrac{2\\pi}9\\cos^2\\tfrac{3\\pi}9\\cos^2\\tfrac{4\\pi}9=1.$$\nWith $\\cos\\frac{3\\pi}9=\\frac12$: $64\\cos^2\\frac\\pi9\\cos^2\\frac{2\\pi}9\\cos^2\\frac{4\\pi}9=1$, so $\\left(8\\cos\\frac\\pi9\\cos\\frac{2\\pi}9\\cos\\frac{4\\pi}9\\right)^2=1$. All three cosines are positive (angles in $\\left(0,\\frac\\pi2\\right)$), so $8\\cos\\frac\\pi9\\cos\\frac{2\\pi}9\\cos\\frac{4\\pi}9=1$, i.e. $8\\cos\\frac\\pi9\\cos\\frac{2\\pi}9\\cos\\frac{4\\pi}9-1=0$."
+  },
+  {
+   "ref": "Q16(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.2.9",
+    "12.5.2.10"
+   ],
+   "question": "The point $P$ is $5$ metres to the right of the origin $O$ on a straight line. A particle is released from rest at $P$ and moves along the straight line in simple harmonic motion about $O$, with period $4\\pi$ seconds.\n\nAfter $\\pi$ seconds, another particle is released from rest at $P$ and moves along this straight line in simple harmonic motion about $O$, with period $4\\pi$ seconds.\n\nFind when and where the two particles first collide.",
+   "answer": "$n=\\frac{2\\pi}{4\\pi}=\\frac12$, amplitude $5$, starting at the extremity $x=5$ at rest, so\n$$x_1=5\\cos\\tfrac t2,\\qquad x_2=5\\cos\\tfrac{t-\\pi}2\\ \\ (t\\ge\\pi).$$\nThey collide when $\\cos\\frac t2=\\cos\\frac{t-\\pi}{2}$. Either $\\frac t2=\\frac{t-\\pi}2+2n\\pi$ (gives $\\frac\\pi2=2n\\pi$, $n=\\frac14$, impossible) or $\\frac t2=-\\frac{t-\\pi}2+2n\\pi$, i.e. $t=\\frac\\pi2+2n\\pi$.\n\nWe need $t>\\pi$, so the first collision is at $n=1$: $t=\\frac{5\\pi}2\\approx7.85$ s. (For $n=0$, $t=\\frac\\pi2<\\pi$ is before the second particle is released.)\n\nPosition: $x=5\\cos\\frac{5\\pi}4=-\\frac{5\\sqrt2}2\\approx-3.54$ m.\n\nThey first collide at $t=\\dfrac{5\\pi}2$ s, at $x=-\\dfrac{5\\sqrt2}{2}$ m (about $3.54$ m to the left of $O$)."
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.4",
+    "12.3.2.5"
+   ],
+   "question": "Let $z=\\cos\\dfrac{2\\pi}5+i\\sin\\dfrac{2\\pi}5$ and $w=\\cos\\dfrac{4\\pi}5+i\\sin\\dfrac{4\\pi}5$. Show that $|z+w|=\\sqrt{2\\left(1+\\cos\\dfrac{2\\pi}5\\right)}$.",
+   "answer": "$z+w=\\left(\\cos\\tfrac{2\\pi}5+\\cos\\tfrac{4\\pi}5\\right)+i\\left(\\sin\\tfrac{2\\pi}5+\\sin\\tfrac{4\\pi}5\\right)$, so\n$$|z+w|^2=\\cos^2\\tfrac{2\\pi}5+2\\cos\\tfrac{2\\pi}5\\cos\\tfrac{4\\pi}5+\\cos^2\\tfrac{4\\pi}5+\\sin^2\\tfrac{2\\pi}5+2\\sin\\tfrac{2\\pi}5\\sin\\tfrac{4\\pi}5+\\sin^2\\tfrac{4\\pi}5$$\n$$=2+2\\left(\\cos\\tfrac{4\\pi}5\\cos\\tfrac{2\\pi}5+\\sin\\tfrac{4\\pi}5\\sin\\tfrac{2\\pi}5\\right)=2+2\\cos\\left(\\tfrac{4\\pi}5-\\tfrac{2\\pi}5\\right)=2\\left(1+\\cos\\tfrac{2\\pi}5\\right).$$\nHence $|z+w|=\\sqrt{2\\left(1+\\cos\\frac{2\\pi}5\\right)}$."
+  },
+  {
+   "ref": "Q16(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.9",
+    "12.3.4.8"
+   ],
+   "question": "Let $z=\\cos\\dfrac{2\\pi}5+i\\sin\\dfrac{2\\pi}5$ and $w=\\cos\\dfrac{4\\pi}5+i\\sin\\dfrac{4\\pi}5$. In the complex plane, vectors $\\overrightarrow{OA}$, $\\overrightarrow{OB}$ and $\\overrightarrow{OC}$ represent the complex numbers $z$, $w$ and $z+w$ respectively, where $O$ is the origin. Show that $\\angle AOC=\\dfrac\\pi5$.",
+   "answer": "$|z|=|w|=1$, so $OACB$ (with $\\overrightarrow{OC}=\\overrightarrow{OA}+\\overrightarrow{OB}$) is a rhombus, and the diagonal $OC$ bisects $\\angle AOB$. $\\arg z=\\frac{2\\pi}5$ and $\\arg w=\\frac{4\\pi}5$, so $\\arg(z+w)=\\frac12\\left(\\frac{2\\pi}5+\\frac{4\\pi}5\\right)=\\frac{3\\pi}5$.\n\n(Algebraically, $z+w=2\\cos\\frac\\pi5\\left(\\cos\\frac{3\\pi}5+i\\sin\\frac{3\\pi}5\\right)$ with $2\\cos\\frac\\pi5>0$.)\n\n$$\\angle AOC=\\arg(z+w)-\\arg z=\\frac{3\\pi}5-\\frac{2\\pi}5=\\frac\\pi5.$$"
+  },
+  {
+   "ref": "Q16(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.6.7",
+    "12.2.6.5"
+   ],
+   "question": "A particle is projected upward from the origin with an initial velocity $u$ m/s at an angle $\\theta$ above the horizontal as shown in the diagram. Let the position vector of the particle at time $t$ be $\\mathbf r(t)$ and define the total time of flight as $T$. The particle moves under the constant acceleration due to gravity, $\\ddot{\\mathbf r}=\\begin{pmatrix}0\\\\-g\\end{pmatrix}$. The particle lands on the $x$-axis after time $T$, when $x=R$.\n\nShow that the range $R$ of the projectile is given by $R=\\dfrac{u^2\\sin2\\theta}{g}$.",
+   "answer": "Integrate $\\ddot x=0$, $\\ddot y=-g$ with $\\dot x(0)=u\\cos\\theta$, $\\dot y(0)=u\\sin\\theta$ and $x(0)=y(0)=0$:\n$$\\dot x=u\\cos\\theta,\\quad x=ut\\cos\\theta;\\qquad\\dot y=-gt+u\\sin\\theta,\\quad y=-\\tfrac12gt^2+ut\\sin\\theta.$$\nThe particle lands when $y=0$, $t\\ne0$: $t\\left(-\\tfrac12gt+u\\sin\\theta\\right)=0\\Rightarrow T=\\dfrac{2u\\sin\\theta}g$. Then\n$$R=uT\\cos\\theta=\\frac{2u^2\\sin\\theta\\cos\\theta}g=\\frac{u^2\\sin2\\theta}g.$$",
+   "images": [
+    "assets/img/ext2-2025-penrith/q16c.png"
+   ],
+   "course": "extension1"
+  }
+ ]
+}
