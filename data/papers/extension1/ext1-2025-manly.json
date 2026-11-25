@@ -1,0 +1,522 @@
+{
+ "id": "ext1-2025-manly",
+ "course": "extension1",
+ "school": "Manly",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "Manly 2025 w. sol"
+ },
+ "indexed": "2026-11-25",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q12(b)",
+   "reason": "Not in 2024 syllabus: normal approximation to a sample proportion (sample proportions)"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.4",
+    "12.2.2.8"
+   ],
+   "question": "Let the vector $\\mathbf{v}=-3\\mathbf{i}+7\\mathbf{j}$. Which line is parallel to $\\mathbf{v}$?",
+   "answer": "The vector $\\mathbf{v}$ joins $(0,0)$ to $(-3,7)$, so a line parallel to it has gradient $m=\\dfrac{7-0}{-3-0}=-\\dfrac73$. Hence $y=-\\dfrac73x+1$ (D).",
+   "options": [
+    "$y=7x-3$",
+    "$y=-3x+7$",
+    "$y=-\\dfrac{3}{7}x+1$",
+    "$y=-\\dfrac{7}{3}x+1$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.3.1"
+   ],
+   "question": "The polynomial $p(x)=ax^2-4x+8a$ has roots $\\alpha$ and $\\beta$. If $\\alpha+\\beta=\\alpha\\beta$, what is the value of $a$?",
+   "answer": "$\\alpha+\\beta=-\\dfrac{b}{a}=\\dfrac4a$ and $\\alpha\\beta=\\dfrac ca=8$. Setting $\\dfrac4a=8$ gives $a=\\dfrac12$ (A).",
+   "options": [
+    "$\\dfrac12$",
+    "$2$",
+    "$-\\dfrac12$",
+    "$-2$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.8"
+   ],
+   "question": "A discrete random variable $X$ is binomially distributed with a mean of $6$ and a variance of $1.5$. What is the number of independent trials?",
+   "answer": "$np=6$ and $np(1-p)=1.5$, so $6(1-p)=1.5$, $1-p=0.25$, $p=0.75$. Then $n\\times0.75=6$ gives $n=8$ (B).",
+   "options": [
+    "$24$",
+    "$8$",
+    "$6$",
+    "$5$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.4"
+   ],
+   "question": "Which of the following is equivalent to $\\displaystyle\\int\\frac{1-\\tan^2x}{\\sec^2x}\\,dx$?",
+   "answer": "$\\dfrac{1-\\tan^2x}{\\sec^2x}=\\cos^2x\\,(1-\\tan^2x)=\\cos^2x-\\sin^2x=\\cos2x$, so the integral is $\\displaystyle\\int\\cos2x\\,dx$ (D).",
+   "options": [
+    "$\\displaystyle\\int\\sin 2x\\,dx$",
+    "$\\displaystyle\\int\\sin\\dfrac{x}{2}\\,dx$",
+    "$\\displaystyle\\int\\cos\\dfrac{x}{2}\\,dx$",
+    "$\\displaystyle\\int\\cos 2x\\,dx$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.8"
+   ],
+   "question": "How many distinct ways are there to arrange the letters of the word WOLLONGONG if the two Ls must remain adjacent?",
+   "answer": "The letters are W, O, O, O, L, L, N, N, G, G. Treating the two adjacent Ls as one block gives 9 objects to arrange: W, O, O, O, LL, N, N, G, G, in which O appears 3 times, N twice and G twice. The number of arrangements is $\\dfrac{9!}{3!\\,2!\\,2!}$ (C).",
+   "options": [
+    "$\\dfrac{9!}{3!\\,2!\\,2!\\,2!}$",
+    "$\\dfrac{10!}{3!\\,2!\\,2!\\,2!}$",
+    "$\\dfrac{9!}{3!\\,2!\\,2!}$",
+    "$\\dfrac{10!}{3!\\,2!\\,2!}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.4",
+    "12.5.4.9"
+   ],
+   "question": "Which of the following differential equations matches the slope field shown?",
+   "answer": "The slope field is almost flat everywhere except close to the line $y=x$, where the slopes are very steep (they blow up). That rules out the linear options A and B (which would be steep far from the line) and requires $y-x$ in a denominator. Above the line $y=x$ (e.g. the top-left of the field) the slopes are small and positive, which needs $\\dfrac{1}{y-x}>0$ there, and below the line (bottom-right) they are small and negative. This matches C.",
+   "options": [
+    "$\\dfrac{dy}{dx}=y-x$",
+    "$\\dfrac{dy}{dx}=x-y$",
+    "$\\dfrac{dy}{dx}=\\dfrac{1}{y-x}$",
+    "$\\dfrac{dy}{dx}=\\dfrac{1}{x-y}$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/ext1-2025-manly/q6.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.7",
+    "12.2.4.5"
+   ],
+   "question": "If $\\mathbf{a}$ and $\\mathbf{b}$ are non-zero vectors, and $|\\mathbf{a}+\\mathbf{b}|=|\\mathbf{a}-\\mathbf{b}|$, which of the statements is true?",
+   "answer": "Square both sides: $(\\mathbf{a}+\\mathbf{b})\\cdot(\\mathbf{a}+\\mathbf{b})=(\\mathbf{a}-\\mathbf{b})\\cdot(\\mathbf{a}-\\mathbf{b})$, so $\\mathbf{a}\\cdot\\mathbf{a}+2\\mathbf{a}\\cdot\\mathbf{b}+\\mathbf{b}\\cdot\\mathbf{b}=\\mathbf{a}\\cdot\\mathbf{a}-2\\mathbf{a}\\cdot\\mathbf{b}+\\mathbf{b}\\cdot\\mathbf{b}$. Hence $4\\,\\mathbf{a}\\cdot\\mathbf{b}=0$, i.e. $\\mathbf{a}\\cdot\\mathbf{b}=0$ (B). (Geometrically the diagonals of a parallelogram are equal only for a rectangle.)",
+   "options": [
+    "$\\mathbf{a}\\cdot(\\mathbf{a}-\\mathbf{b})=0$",
+    "$\\mathbf{a}\\cdot\\mathbf{b}=0$",
+    "$(\\mathbf{a}-\\mathbf{b})\\cdot\\mathbf{b}=0$",
+    "$\\mathbf{a}=k\\mathbf{b}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "The surface area of a sphere is decreasing at a rate of $8\\ \\text{cm}^2/\\text{s}$ at the moment when its radius measures $R$ cm. What is the rate at which the volume of the sphere is decreasing at that moment?",
+   "answer": "$A=4\\pi r^2$ so $\\dfrac{dA}{dr}=8\\pi r$; $V=\\dfrac43\\pi r^3$ so $\\dfrac{dV}{dr}=4\\pi r^2$. Then $\\dfrac{dV}{dt}=\\dfrac{dV}{dr}\\times\\dfrac{dr}{dA}\\times\\dfrac{dA}{dt}=4\\pi r^2\\times\\dfrac{1}{8\\pi r}\\times(-8)=-4r$. At $r=R$, the volume is decreasing at $4R\\ \\text{cm}^3/\\text{s}$ (C).",
+   "options": [
+    "$0.4R$",
+    "$2R$",
+    "$4R$",
+    "$8R$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.9",
+    "12.2.4.11"
+   ],
+   "question": "The projection of the vector $\\begin{pmatrix}0\\\\5\\end{pmatrix}$ onto the line $y=\\dfrac x2$ is the vector $\\begin{pmatrix}2\\\\1\\end{pmatrix}$. The point $(0,5)$ is reflected over the line $y=\\dfrac x2$. What are the coordinates of the new point?",
+   "answer": "The reflected point is found by travelling from $(0,5)$ to the foot of the perpendicular $(2,1)$ (right 2, down 4) and then the same displacement again: $(2,1)+(2,-4)=(4,-3)$. Equivalently the image is $2\\,\\text{proj}-\\mathbf{v}=\\begin{pmatrix}4\\\\2\\end{pmatrix}-\\begin{pmatrix}0\\\\5\\end{pmatrix}=\\begin{pmatrix}4\\\\-3\\end{pmatrix}$ (B).",
+   "options": [
+    "$(5,0)$",
+    "$(4,-3)$",
+    "$(-5,0)$",
+    "$(3,-4)$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.5.1.10",
+    "11.5.1.9"
+   ],
+   "question": "By considering the product of $(x+1)^{100}$ and $(1+x)^{100}$, what is the value of the expression $$\\binom{100}{0}\\binom{100}{1}+\\binom{100}{1}\\binom{100}{2}+\\binom{100}{2}\\binom{100}{3}+\\dots+\\binom{100}{99}\\binom{100}{100}\\ ?$$",
+   "answer": "$(x+1)^{100}=\\binom{100}{0}x^{100}+\\binom{100}{1}x^{99}+\\dots+\\binom{100}{100}$ and $(1+x)^{100}=\\binom{100}{0}+\\binom{100}{1}x+\\dots+\\binom{100}{100}x^{100}$. The coefficient of $x^{101}$ in the product is $\\binom{100}{0}\\binom{100}{1}+\\binom{100}{1}\\binom{100}{2}+\\dots+\\binom{100}{99}\\binom{100}{100}$, which is the required sum. But $(x+1)^{100}(1+x)^{100}=(1+x)^{200}$, whose $x^{101}$ coefficient is $\\binom{200}{101}$ (D).\\n\\n*Note: the question as printed shows a minus sign before the third product; the intended expression (and the paper's solution) has every term added, which is how it is written here.*",
+   "options": [
+    "$\\dbinom{100}{50}$",
+    "$\\dbinom{100}{50}^2$",
+    "$\\dbinom{200}{100}$",
+    "$\\dbinom{200}{101}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Solve $\\dfrac{4}{2-x}\\le 3$.",
+   "answer": "Critical values: $x=2$ (denominator zero) and $\\dfrac{4}{2-x}=3\\Rightarrow 4=6-3x\\Rightarrow x=\\dfrac23$.\n\nMultiply both sides by $(2-x)^2>0$ (for $x\\neq2$):\n$$4(2-x)\\le 3(2-x)^2\\ \\Rightarrow\\ 8-4x\\le 12-12x+3x^2\\ \\Rightarrow\\ 3x^2-8x+4\\ge0\\ \\Rightarrow\\ (3x-2)(x-2)\\ge0.$$\nThe upward parabola is $\\ge0$ for $x\\le\\dfrac23$ or $x\\ge2$, and $x\\neq2$. Check: $x=0$ gives $2\\le3$ true; $x=1$ gives $4\\le3$ false; $x=3$ gives $-4\\le3$ true.\n$$x\\le\\frac23\\quad\\text{or}\\quad x>2.$$"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{3}{\\sqrt{1-9x^2}}\\,dx$.",
+   "answer": "$$\\int\\frac{3}{\\sqrt{1-(3x)^2}}\\,dx=\\sin^{-1}(3x)+C.$$"
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.5"
+   ],
+   "question": "Use $t$-formulae to solve the equation $3\\cos\\theta-4\\sin\\theta+3=0$ where $0^\\circ\\le\\theta\\le360^\\circ$, giving your answer(s) correct to the nearest minute.",
+   "answer": "Check $\\theta=180^\\circ$ separately (where $t=\\tan\\frac\\theta2$ is undefined): $3\\cos180^\\circ-4\\sin180^\\circ+3=-3-0+3=0$, so $\\theta=180^\\circ$ is a solution.\n\nFor $\\theta\\ne180^\\circ$ let $t=\\tan\\dfrac\\theta2$, so $\\cos\\theta=\\dfrac{1-t^2}{1+t^2}$ and $\\sin\\theta=\\dfrac{2t}{1+t^2}$:\n$$3\\cdot\\frac{1-t^2}{1+t^2}-4\\cdot\\frac{2t}{1+t^2}+3=0\\ \\Rightarrow\\ 3-3t^2-8t+3+3t^2=0\\ \\Rightarrow\\ 6-8t=0\\ \\Rightarrow\\ t=\\frac34.$$\nThen $\\tan\\dfrac\\theta2=\\dfrac34$ with $0^\\circ\\le\\dfrac\\theta2\\le180^\\circ$, so $\\dfrac\\theta2=\\tan^{-1}\\dfrac34$ and $\\theta=2\\tan^{-1}\\dfrac34\\approx73^\\circ44'$.\n\n$$\\theta=73^\\circ44'\\ \\text{ or }\\ 180^\\circ.$$",
+   "course": "extension2"
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.4"
+   ],
+   "question": "The vectors $\\begin{pmatrix}3\\\\k-1\\end{pmatrix}$ and $\\begin{pmatrix}-2\\\\2k+1\\end{pmatrix}$ are parallel. What are the possible value(s) of $k$?",
+   "answer": "Parallel vectors have equal ratios of components: $\\dfrac{k-1}{3}=\\dfrac{2k+1}{-2}$.\n$$-2(k-1)=3(2k+1)\\ \\Rightarrow\\ -2k+2=6k+3\\ \\Rightarrow\\ 8k=-1\\ \\Rightarrow\\ k=-\\frac18.$$\nThere is only one possible value, $k=-\\dfrac18$."
+  },
+  {
+   "ref": "Q11(e)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.3.2"
+   ],
+   "question": "Let $P(x)=3x^3-12x^2-x+8$ have roots $\\alpha$, $\\beta$ and $\\gamma$. Find $\\alpha\\beta\\gamma$.",
+   "answer": "$$\\alpha\\beta\\gamma=-\\frac da=-\\frac83.$$"
+  },
+  {
+   "ref": "Q11(e)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.4",
+    "11.2.3.2"
+   ],
+   "question": "Let $P(x)=3x^3-12x^2-x+8$ have roots $\\alpha$, $\\beta$ and $\\gamma$. Find $\\alpha^2+\\beta^2+\\gamma^2$.",
+   "answer": "$\\alpha+\\beta+\\gamma=-\\dfrac ba=4$ and $\\alpha\\beta+\\alpha\\gamma+\\beta\\gamma=\\dfrac ca=-\\dfrac13$. Then\n$$\\alpha^2+\\beta^2+\\gamma^2=(\\alpha+\\beta+\\gamma)^2-2(\\alpha\\beta+\\alpha\\gamma+\\beta\\gamma)=16+\\frac23=\\frac{50}{3}.$$"
+  },
+  {
+   "ref": "Q11(f)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Find the integral $\\displaystyle\\int x\\sqrt{2x+1}\\,dx$ using the substitution $u=2x+1$.",
+   "answer": "$u=2x+1$ gives $du=2\\,dx$, $dx=\\tfrac12du$, and $x=\\tfrac12(u-1)$. So\n$$\\int x\\sqrt{2x+1}\\,dx=\\int\\frac12(u-1)\\sqrt u\\cdot\\frac12\\,du=\\frac14\\int\\left(u^{3/2}-u^{1/2}\\right)du=\\frac14\\left(\\frac25u^{5/2}-\\frac23u^{3/2}\\right)+C.$$\n$$=\\frac1{10}(2x+1)^{5/2}-\\frac16(2x+1)^{3/2}+C.$$"
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.2.5",
+    "11.1.2.10"
+   ],
+   "question": "A function is defined by $f(x)=x^2+8x+10,\\ x\\ge-4$. Find the equation of the inverse function $y=f^{-1}(x)$.",
+   "answer": "Interchange $x$ and $y$: $x=y^2+8y+10$, so $x+6=(y+4)^2$ and $y+4=\\pm\\sqrt{x+6}$.\nSince $f$ has domain $x\\ge-4$, the inverse has range $y\\ge-4$, so $y+4\\ge0$ and we take the positive root:\n$$y=f^{-1}(x)=-4+\\sqrt{x+6}.$$"
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.2.8",
+    "11.1.2.7"
+   ],
+   "question": "A function is defined by $f(x)=x^2+8x+10,\\ x\\ge-4$. Sketch the graph of $y=f^{-1}(x)$. Clearly show the coordinates of the endpoint and the $x$-intercept.",
+   "answer": "From part (i), $f^{-1}(x)=-4+\\sqrt{x+6}$ (a square-root curve with domain $x\\ge-6$ and range $y\\ge-4$). The endpoint is $(-6,-4)$. The $x$-intercept: $-4+\\sqrt{x+6}=0\\Rightarrow x=10$, so $(10,0)$. The graph rises from $(-6,-4)$ with a vertical tangent there, passing through $(10,0)$ and flattening as $x$ increases.",
+   "answer_images": [
+    "assets/img/ext1-2025-manly/q12aii-ans.png"
+   ]
+  },
+  {
+   "ref": "Q12(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.2.12",
+    "11.1.2.6"
+   ],
+   "question": "A function is defined by $f(x)=x^2+8x+10,\\ x\\ge-4$. Find the point(s) of intersection of the graphs of $y=f(x)$ and $y=f^{-1}(x)$.",
+   "answer": "Since $f$ is increasing on its domain, its graph meets the graph of its inverse on the line $y=x$. Solve $f(x)=x$:\n$$x^2+8x+10=x\\ \\Rightarrow\\ x^2+7x+10=0\\ \\Rightarrow\\ (x+2)(x+5)=0.$$\nOnly $x=-2$ satisfies $x\\ge-4$. The point of intersection is $(-2,-2)$ (since $f(-2)=-2$)."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.4",
+    "12.4.2.3"
+   ],
+   "question": "The region bounded by the curves $y=\\cos x$ and $y=\\sin2x$ and contained between the ordinates at $x=0$ and $x=\\dfrac\\pi6$ is rotated about the $x$-axis. Find the exact value of the volume of the solid of revolution.",
+   "answer": "On $0\\le x\\le\\frac\\pi6$ the curve $y=\\cos x$ lies above $y=\\sin 2x$ (they meet at $x=\\frac\\pi6$), so\n$$V=\\pi\\int_0^{\\pi/6}\\left(\\cos^2x-\\sin^22x\\right)dx=\\pi\\int_0^{\\pi/6}\\left[\\tfrac12(1+\\cos2x)-\\tfrac12(1-\\cos4x)\\right]dx=\\frac\\pi2\\int_0^{\\pi/6}(\\cos2x+\\cos4x)\\,dx.$$\n$$V=\\frac\\pi2\\left[\\frac12\\sin2x+\\frac14\\sin4x\\right]_0^{\\pi/6}=\\frac\\pi8\\Big[2\\sin2x+\\sin4x\\Big]_0^{\\pi/6}=\\frac\\pi8\\left(2\\cdot\\frac{\\sqrt3}{2}+\\frac{\\sqrt3}{2}\\right)=\\frac{\\pi}{8}\\cdot\\frac{3\\sqrt3}{2}.$$\n$$V=\\frac{3\\sqrt3\\,\\pi}{16}\\ \\text{units}^3.$$",
+   "images": [
+    "assets/img/ext1-2025-manly/q12c.png"
+   ]
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.2",
+    "12.4.1.1"
+   ],
+   "question": "A function $y=f(x)$ is defined by the parametric equations $x=\\dfrac1t+t^2,\\ y=t^2+t+1$. Find the gradient of the tangent to the graph of $y=f(x)$ at the point $(2,3)$.",
+   "answer": "$\\dfrac{dx}{dt}=-t^{-2}+2t$ and $\\dfrac{dy}{dt}=2t+1$, so $\\dfrac{dy}{dx}=\\dfrac{dy}{dt}\\div\\dfrac{dx}{dt}=\\dfrac{2t+1}{-t^{-2}+2t}$.\n\nAt $y=3$: $t^2+t+1=3\\Rightarrow t^2+t-2=0\\Rightarrow(t+2)(t-1)=0$, so $t=1$ or $t=-2$. Then $x(1)=1+1=2$ but $x(-2)=-\\frac12+4=3.5$, so the point $(2,3)$ corresponds to $t=1$.\n$$\\frac{dy}{dx}=\\frac{2(1)+1}{-1+2}=3.$$"
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.12"
+   ],
+   "question": "The graph of $y=\\sin^{-1}(x-4)$ is dilated horizontally by a factor of $2$ and then shifted right $1$ unit. Write the equation of the transformed graph.",
+   "answer": "Dilating horizontally by a factor of 2 replaces $x$ with $\\frac x2$: $y=\\sin^{-1}\\left(\\dfrac x2-4\\right)$. Shifting right 1 unit replaces $x$ with $x-1$: $y=\\sin^{-1}\\left(\\dfrac{x-1}{2}-4\\right)$.\n$$y=\\sin^{-1}\\left(\\frac{x-9}{2}\\right).$$"
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "Prove by mathematical induction that $5^{2n+1}+2^{2n+1}$ is divisible by $7$ for integers $n\\ge0$.",
+   "answer": "Let $S(n)$: $5^{2n+1}+2^{2n+1}$ is divisible by 7.\n\n**$n=0$:** $5^1+2^1=7=7\\times1$, so $S(0)$ is true.\n\n**Assume $S(k)$:** $5^{2k+1}+2^{2k+1}=7A$ for some integer $A$.\n\n**Prove $S(k+1)$:** $5^{2k+3}+2^{2k+3}$ is divisible by 7.\n$$5^{2k+3}+2^{2k+3}=25\\cdot5^{2k+1}+4\\cdot2^{2k+1}=21\\cdot5^{2k+1}+4\\left(5^{2k+1}+2^{2k+1}\\right)=21\\cdot5^{2k+1}+4(7A)=7\\left(3\\cdot5^{2k+1}+4A\\right).$$\nSince $3\\cdot5^{2k+1}+4A$ is an integer, $S(k+1)$ is true whenever $S(k)$ is true. As $S(0)$ is true, $S(n)$ is true for all integers $n\\ge0$ by mathematical induction."
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.6"
+   ],
+   "question": "A company makes heating elements for electric ovens. A fixed number of randomly chosen heating elements are tested on each day and the number found to be faulty is denoted by $X$. Assume that $X$ has the distribution $B(80,0.02)$. Find the probability that more than $3$ elements are found to be faulty on a randomly chosen day.",
+   "answer": "$$P(X>3)=1-P(X\\le3)=1-\\left[0.98^{80}+{}^{80}C_1(0.02)(0.98)^{79}+{}^{80}C_2(0.02)^2(0.98)^{78}+{}^{80}C_3(0.02)^3(0.98)^{77}\\right]\\approx0.07685.$$"
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.9",
+    "12.6.2.6"
+   ],
+   "question": "A company makes heating elements for electric ovens. A fixed number of randomly chosen heating elements are tested on each day and the number found to be faulty is denoted by $X$. Assume that $X$ has the distribution $B(80,0.02)$. Find the probability that, in a randomly chosen 5-day working week, more than $3$ elements are found to be faulty on at least $2$ days.",
+   "answer": "From the previous part, the probability that more than 3 are faulty on a given day is $p=0.07685$ (so $1-p=0.92315$). Let $Y$ be the number of such days in a 5-day week, so $Y\\sim B(5,0.07685)$.\n$$P(Y\\ge2)=1-P(Y=0)-P(Y=1)=1-\\left[(0.92315)^5+{}^5C_1(0.07685)(0.92315)^4\\right]\\approx0.05049.$$\n*(Using the unrounded value of $p$ gives $0.0505$, the same to 3 significant figures.)*"
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.1",
+    "11.2.1.10"
+   ],
+   "question": "The polynomial $P(x)=3x^3-9x+6$ has a zero of multiplicity $2$. Solve $P(x)=0$.",
+   "answer": "A double zero of $P(x)$ is also a zero of $P'(x)=9x^2-9$. $P'(x)=0\\Rightarrow x=\\pm1$. Test: $P(1)=3-9+6=0$, so $x=1$ is the double zero (while $P(-1)=12\\ne0$).\nHence $3x^3-9x+6=(x-1)^2(ax+b)=(x^2-2x+1)(ax+b)$. Comparing the leading coefficient and the constant term gives $a=3$, $b=6$, so\n$$P(x)=(x-1)^2(3x+6)=0\\ \\Rightarrow\\ x=1\\ \\text{(double)}\\ \\text{or}\\ x=-2.$$"
+  },
+  {
+   "ref": "Q13(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.2",
+    "12.4.1.1"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^{\\pi/4}\\sin3x\\sin x\\,dx$.",
+   "answer": "Using $\\sin A\\sin B=\\frac12[\\cos(A-B)-\\cos(A+B)]$:\n$$\\int_0^{\\pi/4}\\sin3x\\sin x\\,dx=\\frac12\\int_0^{\\pi/4}(\\cos2x-\\cos4x)\\,dx=\\frac12\\left[\\frac12\\sin2x-\\frac14\\sin4x\\right]_0^{\\pi/4}=\\frac18\\Big[2\\sin2x-\\sin4x\\Big]_0^{\\pi/4}.$$\n$$=\\frac18\\left(2\\sin\\frac\\pi2-\\sin\\pi-0\\right)=\\frac18\\cdot2=\\frac14.$$",
+   "course": "extension2"
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.1.17"
+   ],
+   "question": "A standard pack of 52 cards consists of 13 cards from each of the four suits: Spades, Hearts, Clubs and Diamonds. In how many ways can six cards be selected without replacement so that exactly two are Spades and four are Clubs?",
+   "answer": "Choose 2 of the 13 Spades and 4 of the 13 Clubs: $${}^{13}C_2\\times{}^{13}C_4=78\\times715=55\\,770.$$"
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.17",
+    "11.4.1.18"
+   ],
+   "question": "A standard pack of 52 cards consists of 13 cards from each of the four suits: Spades, Hearts, Clubs and Diamonds. In how many ways can six cards be selected without replacement if at least five cards must be of the same suit?",
+   "answer": "Split into two disjoint cases.\n- Exactly 5 of one suit and 1 card from the other 39: ${}^{13}C_5\\times{}^{39}C_1$ for each of the 4 suits, giving $4\\times1287\\times39=200\\,772$.\n- All 6 of the same suit: $4\\times{}^{13}C_6=4\\times1716=6\\,864$.\n\nTotal $=200\\,772+6\\,864=207\\,636$.\n\n*(Note: $4\\times{}^{13}C_5\\times47$ is wrong because it counts the six-of-a-suit selections more than once.)*"
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.15"
+   ],
+   "question": "Show that $$\\frac{1}{N(20\\,000-N)}=\\frac{1}{20\\,000}\\left(\\frac1N+\\frac{1}{20\\,000-N}\\right).$$",
+   "answer": "$$\\frac1{20\\,000}\\left(\\frac1N+\\frac1{20\\,000-N}\\right)=\\frac1{20\\,000}\\cdot\\frac{(20\\,000-N)+N}{N(20\\,000-N)}=\\frac1{20\\,000}\\cdot\\frac{20\\,000}{N(20\\,000-N)}=\\frac1{N(20\\,000-N)}.$$"
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.15",
+    "12.5.4.13"
+   ],
+   "question": "A virus is spreading through a town with a population of $20\\,000$ people. The disease is spreading at a rate proportional to the product of the number of people, $N$, who have the virus and the number, $20\\,000-N$, who don't have the virus. That is, $\\dfrac{dN}{dt}=kN(20\\,000-N)$ where $k$ is a positive constant. Using the identity $\\dfrac{1}{N(20\\,000-N)}=\\dfrac{1}{20\\,000}\\left(\\dfrac1N+\\dfrac{1}{20\\,000-N}\\right)$, deduce that $\\dfrac{N}{20\\,000-N}=Ae^{\\alpha t}$ where $A$ and $\\alpha$ are constants.",
+   "answer": "Invert and separate variables: $\\dfrac{dt}{dN}=\\dfrac{1}{kN(20\\,000-N)}$, so\n$$kt+C=\\int\\frac{dN}{N(20\\,000-N)}=\\frac1{20\\,000}\\int\\left(\\frac1N+\\frac1{20\\,000-N}\\right)dN=\\frac1{20\\,000}\\left[\\ln N-\\ln(20\\,000-N)\\right]$$\n(for $0<N<20\\,000$). Hence $20\\,000kt+20\\,000C=\\ln\\dfrac{N}{20\\,000-N}$ and\n$$\\frac{N}{20\\,000-N}=e^{20\\,000C}e^{20\\,000kt}=Ae^{\\alpha t},\\quad A=e^{20\\,000C},\\ \\alpha=20\\,000k.$$"
+  },
+  {
+   "ref": "Q14(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.15",
+    "12.5.4.16"
+   ],
+   "question": "A virus is spreading through a town with a population of $20\\,000$ people. The disease is spreading at a rate proportional to the product of the number of people, $N$, who have the virus and the number, $20\\,000-N$, who don't have the virus. That is, $\\dfrac{dN}{dt}=kN(20\\,000-N)$ where $k$ is a positive constant. It is known that $\\dfrac{N}{20\\,000-N}=Ae^{\\alpha t}$. Suppose that initially $100$ people had the virus and that $400$ people had the virus after $10$ days. Find $\\alpha$ correct to four decimal places.",
+   "answer": "At $t=0$, $N=100$: $\\dfrac{100}{19\\,900}=A$, so $A=\\dfrac1{199}$.\nAt $t=10$, $N=400$: $\\dfrac{400}{19\\,600}=\\dfrac1{49}=\\dfrac1{199}e^{10\\alpha}$, so $e^{10\\alpha}=\\dfrac{199}{49}$ and\n$$\\alpha=\\frac1{10}\\ln\\frac{199}{49}\\approx0.1401.$$"
+  },
+  {
+   "ref": "Q14(b)(iv)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.16"
+   ],
+   "question": "A virus is spreading through a town with a population of $20\\,000$ people. The disease is spreading at a rate proportional to the product of the number of people, $N$, who have the virus and the number, $20\\,000-N$, who don't have the virus. That is, $\\dfrac{dN}{dt}=kN(20\\,000-N)$ where $k$ is a positive constant. Given that $\\dfrac{N}{20\\,000-N}=\\dfrac1{199}e^{\\alpha t}$ with $\\alpha=\\dfrac1{10}\\ln\\dfrac{199}{49}\\approx0.1401$, after how many days would exactly one half of the population have the virus? State your answer correct to the nearest day.",
+   "answer": "Half the population: $N=10\\,000$, so $\\dfrac{N}{20\\,000-N}=1$. Then $1=\\dfrac1{199}e^{\\alpha t}$, so $e^{\\alpha t}=199$ and\n$$t=\\frac{\\ln199}{\\alpha}\\approx\\frac{5.293}{0.1401}\\approx37.8.$$\nIt takes about $38$ days."
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.7"
+   ],
+   "question": "Triangle $ABC$ is isosceles with $AB=AC$. $D$ is the midpoint of $BC$ and $E$ is the foot of the perpendicular drawn from $D$ to $AC$. $F$ is the midpoint of $DE$. Let $\\overrightarrow{BD}=\\mathbf{a}$, $\\overrightarrow{DA}=\\mathbf{b}$ and $\\overrightarrow{DF}=\\mathbf{c}$. Prove that $\\mathbf{a}\\cdot\\mathbf{c}=\\mathbf{b}\\cdot\\mathbf{c}$.",
+   "answer": "$\\overrightarrow{DE}=2\\mathbf{c}$ and $\\overrightarrow{AC}=\\overrightarrow{AD}+\\overrightarrow{DC}=-\\mathbf{b}+\\mathbf{a}$ (as $\\overrightarrow{DC}=\\overrightarrow{BD}=\\mathbf{a}$). Since $DE\\perp AC$, $\\overrightarrow{DE}\\cdot\\overrightarrow{AC}=0$:\n$$2\\mathbf{c}\\cdot(\\mathbf{a}-\\mathbf{b})=0\\ \\Rightarrow\\ \\mathbf{c}\\cdot\\mathbf{a}-\\mathbf{c}\\cdot\\mathbf{b}=0\\ \\Rightarrow\\ \\mathbf{a}\\cdot\\mathbf{c}=\\mathbf{b}\\cdot\\mathbf{c}.$$",
+   "images": [
+    "assets/img/ext1-2025-manly/q14c.png"
+   ]
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.4.7",
+    "12.2.3.6"
+   ],
+   "question": "Triangle $ABC$ is isosceles with $AB=AC$. $D$ is the midpoint of $BC$ and $E$ is the foot of the perpendicular drawn from $D$ to $AC$. $F$ is the midpoint of $DE$. Let $\\overrightarrow{BD}=\\mathbf{a}$, $\\overrightarrow{DA}=\\mathbf{b}$ and $\\overrightarrow{DF}=\\mathbf{c}$. Given that $\\mathbf{a}\\cdot\\mathbf{c}=\\mathbf{b}\\cdot\\mathbf{c}$ (proved previously), prove that $\\overrightarrow{AF}\\perp\\overrightarrow{BE}$.",
+   "answer": "$\\overrightarrow{AF}=\\overrightarrow{AD}+\\overrightarrow{DF}=\\mathbf{c}-\\mathbf{b}$ and $\\overrightarrow{BE}=\\overrightarrow{BD}+\\overrightarrow{DE}=\\mathbf{a}+2\\mathbf{c}$. Then\n$$\\overrightarrow{AF}\\cdot\\overrightarrow{BE}=(\\mathbf{c}-\\mathbf{b})\\cdot(\\mathbf{a}+2\\mathbf{c})=\\mathbf{a}\\cdot\\mathbf{c}+2\\mathbf{c}\\cdot\\mathbf{c}-\\mathbf{a}\\cdot\\mathbf{b}-2\\mathbf{b}\\cdot\\mathbf{c}.$$\nSince $AD\\perp BC$ (isosceles triangle, $D$ the midpoint), $\\mathbf{a}\\cdot\\mathbf{b}=0$; and $\\mathbf{b}\\cdot\\mathbf{c}=\\mathbf{a}\\cdot\\mathbf{c}$ by the previous part. So\n$$\\overrightarrow{AF}\\cdot\\overrightarrow{BE}=\\mathbf{a}\\cdot\\mathbf{c}+2\\mathbf{c}\\cdot\\mathbf{c}-2\\mathbf{a}\\cdot\\mathbf{c}=2\\mathbf{c}\\cdot\\mathbf{c}-\\mathbf{a}\\cdot\\mathbf{c}.$$\nNow $\\overrightarrow{DE}\\perp\\overrightarrow{EC}$ (as $E$ lies on $AC$), where $\\overrightarrow{EC}=\\overrightarrow{DC}-\\overrightarrow{DE}=\\mathbf{a}-2\\mathbf{c}$. So $2\\mathbf{c}\\cdot(\\mathbf{a}-2\\mathbf{c})=0$, giving $2\\mathbf{c}\\cdot\\mathbf{c}=\\mathbf{a}\\cdot\\mathbf{c}$. Therefore\n$$\\overrightarrow{AF}\\cdot\\overrightarrow{BE}=\\mathbf{a}\\cdot\\mathbf{c}-\\mathbf{a}\\cdot\\mathbf{c}=0,$$\nso $\\overrightarrow{AF}\\perp\\overrightarrow{BE}$.",
+   "images": [
+    "assets/img/ext1-2025-manly/q14c.png"
+   ]
+  }
+ ]
+}
