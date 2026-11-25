@@ -1,0 +1,676 @@
+{
+ "id": "ext2-2025-normanhurst",
+ "course": "extension2",
+ "school": "Normanhurst Boys",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "Normanhurst Boys 2025 w. sol"
+ },
+ "indexed": "2026-11-25",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.8"
+   ],
+   "question": "Let $\\overrightarrow{OP}$, $\\overrightarrow{OQ}$ and $\\overrightarrow{OR}$ be the position vectors of points $P$, $Q$, $R$ respectively. It is given that\n$$\\overrightarrow{PQ}=\\begin{pmatrix}-4\\\\1\\\\8\\end{pmatrix},\\qquad \\overrightarrow{QR}=\\begin{pmatrix}\\lambda+2\\\\2\\\\\\mu-5\\end{pmatrix}.$$\nWhat are the values of $\\lambda$ and $\\mu$ if $P$, $Q$ and $R$ are collinear?",
+   "options": [
+    "$\\lambda=-4$ and $\\mu=9$",
+    "$\\lambda=-6$ and $\\mu=11$",
+    "$\\lambda=-6$ and $\\mu=13$",
+    "$\\lambda=-10$ and $\\mu=21$"
+   ],
+   "correct": "D",
+   "answer": "$P,Q,R$ are collinear when $\\overrightarrow{QR}=k\\overrightarrow{PQ}$. The $y$-components give $2=k(1)$, so $k=2$ and $\\overrightarrow{QR}=2\\overrightarrow{PQ}=\\begin{pmatrix}-8\\\\2\\\\16\\end{pmatrix}$. Hence $\\lambda+2=-8\\Rightarrow\\lambda=-10$ and $\\mu-5=16\\Rightarrow\\mu=21$ (D)."
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "Consider the two lines with vector equations\n$$\\mathbf{r}_1=\\begin{pmatrix}1\\\\-2\\\\-3\\end{pmatrix}+\\lambda\\begin{pmatrix}-1\\\\2\\\\1\\end{pmatrix}\\quad\\text{and}\\quad \\mathbf{r}_2=\\begin{pmatrix}1\\\\4\\\\2\\end{pmatrix}+\\mu\\begin{pmatrix}3\\\\-4\\\\-2\\end{pmatrix}.$$\nWhich of the following is the exact value of the angle between the two lines?",
+   "options": [
+    "$\\cos^{-1}\\left(\\dfrac{7}{\\sqrt{174}}\\right)$",
+    "$\\cos^{-1}\\left(\\dfrac{-13}{\\sqrt{174}}\\right)$",
+    "$\\cos^{-1}\\left(\\dfrac{7}{\\sqrt{294}}\\right)$",
+    "$\\cos^{-1}\\left(\\dfrac{-13}{\\sqrt{294}}\\right)$"
+   ],
+   "correct": "B",
+   "answer": "Use the direction vectors $\\mathbf{d}_1=(-1,2,1)$ and $\\mathbf{d}_2=(3,-4,-2)$. $\\mathbf{d}_1\\cdot\\mathbf{d}_2=-3-8-2=-13$, $|\\mathbf{d}_1|=\\sqrt6$, $|\\mathbf{d}_2|=\\sqrt{29}$, so $\\cos\\theta=\\dfrac{-13}{\\sqrt6\\sqrt{29}}=\\dfrac{-13}{\\sqrt{174}}$ (B). (Strictly the acute angle between the lines would use $+13$, but that is not an option; the school's key is B.)",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.5"
+   ],
+   "question": "Consider $z^6=1$. Which of the following are the roots of the equation?",
+   "options": [
+    "$\\operatorname{cis}\\dfrac{k\\pi}{3}$ for $k=\\pm1,\\pm2,\\pm3$",
+    "$\\operatorname{cis}\\dfrac{k\\pi}{6}$ for $k=\\pm1,\\pm2,\\pm3$",
+    "$\\operatorname{cis}\\dfrac{k\\pi}{3}$ for $k=0,1,2,\\dots,5$",
+    "$\\operatorname{cis}\\dfrac{k\\pi}{6}$ for $k=0,1,2,\\dots,5$"
+   ],
+   "correct": "C",
+   "answer": "The six sixth roots of unity are evenly spaced around the unit circle, $\\dfrac{2\\pi}{6}=\\dfrac{\\pi}{3}$ apart, so they are $\\operatorname{cis}\\dfrac{k\\pi}{3}$ — this rules out the $\\frac{k\\pi}{6}$ options (B), (D). Option (A) gives $\\operatorname{cis}(\\pm\\pi)=-1$ twice and omits $1$ (which is a root), so (A) fails. The answer is (C). (Written here with $\\operatorname{cis}\\theta=\\cos\\theta+i\\sin\\theta$; the original options used $e^{i\\theta}$.)"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.7"
+   ],
+   "question": "Consider the statement:\n$$\\forall x\\in\\mathbb{R},\\ \\exists y\\in\\mathbb{R}\\ \\text{such that}\\ x^y>1.$$\nWhich of the following is the negation of the statement above?",
+   "options": [
+    "$\\forall x\\in\\mathbb{R},\\ \\exists x\\in\\mathbb{R},\\ x^y\\le 1$",
+    "$\\exists x\\in\\mathbb{R},\\ \\forall y\\in\\mathbb{R},\\ x^y\\le 1$",
+    "$\\forall x,y\\in\\mathbb{R},\\ x^y\\le 1$",
+    "$\\exists x,y\\in\\mathbb{R},\\ x^y\\le 1$"
+   ],
+   "correct": "B",
+   "answer": "Negating each part: $\\forall x\\to\\exists x$, $\\exists y\\to\\forall y$, and $x^y>1\\to x^y\\le1$. The negation is $\\exists x\\in\\mathbb{R},\\ \\forall y\\in\\mathbb{R},\\ x^y\\le 1$ (B)."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "A particle moving along a horizontal line has acceleration\n$$a=\\frac{12-4x}{x^3}$$\nwhere $x$ is the displacement of the particle. The particle starts from rest at $x=6$.\n\nWhich of the following describes the velocity of the particle?",
+   "options": [
+    "$v^2=-\\dfrac{6}{x^2}+\\dfrac{4}{x}$",
+    "$v^2=-\\dfrac{12}{x^2}+\\dfrac{8}{x}$",
+    "$v^2=-\\dfrac{6}{x^2}+\\dfrac{4}{x}-\\dfrac12$",
+    "$v^2=-\\dfrac{12}{x^2}+\\dfrac{8}{x}-1$"
+   ],
+   "correct": "D",
+   "answer": "$\\dfrac{d}{dx}\\left(\\tfrac12v^2\\right)=\\dfrac{12}{x^3}-\\dfrac{4}{x^2}$, so $\\tfrac12v^2=-\\dfrac{6}{x^2}+\\dfrac4x+C$, i.e. $v^2=-\\dfrac{12}{x^2}+\\dfrac8x+2C$. At $x=6$, $v=0$: $0=-\\dfrac{12}{36}+\\dfrac86+2C=1+2C$, so $2C=-1$. Hence $v^2=-\\dfrac{12}{x^2}+\\dfrac8x-1$ (D). (The school's working has a slip, writing $C=0$ before correctly arriving at the constant $-1$.)"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.12",
+    "12.3.4.5"
+   ],
+   "question": "Let $\\omega$ be a non-real cube root of unity.\n\nWhich of the following is equivalent to $\\left(1+2\\omega-\\omega^2+\\omega^3\\right)^5$?",
+   "options": [
+    "$-243\\omega$",
+    "$-243\\omega^2$",
+    "$243\\omega$",
+    "$243\\omega^2$"
+   ],
+   "correct": "A",
+   "answer": "Since $\\omega^3=1$ and $\\omega$ is non-real, $1+\\omega+\\omega^2=0$. Then $1+2\\omega-\\omega^2+\\omega^3=2+2\\omega-\\omega^2=2(1+\\omega)-\\omega^2=-2\\omega^2-\\omega^2=-3\\omega^2$. So $(-3\\omega^2)^5=-243\\omega^{10}=-243\\omega\\,(\\omega^3)^3=-243\\omega$ (A)."
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.12",
+    "12.3.1.10"
+   ],
+   "question": "Let $z$ be a complex number such that $\\operatorname{Im}(z)\\ne0$.\n\nWhich of the following expressions is equivalent to $\\dfrac{8z\\overline{z}}{(\\overline{z}-z)^2}$?",
+   "options": [
+    "$2+2\\left(\\dfrac{\\operatorname{Re}(z)}{\\operatorname{Im}(z)}\\right)^2$",
+    "$2+2\\left(\\dfrac{\\operatorname{Im}(z)}{\\operatorname{Re}(z)}\\right)^2$",
+    "$-2-2\\left(\\dfrac{\\operatorname{Re}(z)}{\\operatorname{Im}(z)}\\right)^2$",
+    "$-2-2\\left(\\dfrac{\\operatorname{Im}(z)}{\\operatorname{Re}(z)}\\right)^2$"
+   ],
+   "correct": "C",
+   "answer": "$z\\overline z=|z|^2=[\\operatorname{Re}z]^2+[\\operatorname{Im}z]^2$ and $\\overline z-z=-2i\\operatorname{Im}(z)$, so $(\\overline z-z)^2=-4[\\operatorname{Im}z]^2$. Then\n$$\\frac{8z\\overline z}{(\\overline z-z)^2}=\\frac{8\\left([\\operatorname{Re}z]^2+[\\operatorname{Im}z]^2\\right)}{-4[\\operatorname{Im}z]^2}=-2\\left(\\left(\\frac{\\operatorname{Re}z}{\\operatorname{Im}z}\\right)^2+1\\right)=-2-2\\left(\\frac{\\operatorname{Re}z}{\\operatorname{Im}z}\\right)^2\\ \\text{(C)}.$$"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.1.14",
+    "12.2.1.12"
+   ],
+   "question": "Which position vector best describes the curve in the diagram? (The solid part of the curve and the dashed part together form the curve; the arrows show it continuing.)",
+   "options": [
+    "$\\mathbf{r}=\\begin{pmatrix}t\\\\-\\frac1t\\\\e^{-t}\\end{pmatrix}$",
+    "$\\mathbf{r}=\\begin{pmatrix}t\\\\\\frac1t\\\\e^{t}\\end{pmatrix}$",
+    "$\\mathbf{r}=\\begin{pmatrix}e^{-t}\\\\-\\frac1t\\\\t\\end{pmatrix}$",
+    "$\\mathbf{r}=\\begin{pmatrix}e^{t}\\\\-\\frac1t\\\\-t\\end{pmatrix}$"
+   ],
+   "correct": "D",
+   "answer": "On the solid branch, as the curve climbs up the $z$-axis ($z\\to+\\infty$), $x\\to0^+$ and $y\\to0^+$. Test each option as $z\\to\\infty$: (A) $z=e^{-t}\\to\\infty$ needs $t\\to-\\infty$, but then $x=t\\to-\\infty$; (B) $z=e^t\\to\\infty$ needs $t\\to\\infty$, but then $x=t\\to\\infty$; (C) $z=t\\to\\infty$, but then $y=-\\frac1t\\to0^-$; (D) $z=-t\\to\\infty$ needs $t\\to-\\infty$, giving $x=e^t\\to0^+$ and $y=-\\frac1t\\to0^+$. Only (D) fits (D).",
+   "images": [
+    "assets/img/ext2-2025-normanhurst/q8.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Which of the following integrals is equivalent to\n$$\\int_0^{\\frac{\\pi}{2}}\\frac{x}{1+\\sin x+\\cos x}\\,dx\\ ?$$",
+   "options": [
+    "$\\dfrac{\\pi}{2}\\displaystyle\\int_0^{\\frac{\\pi}{2}}\\dfrac{1}{1+\\sin x-\\cos x}\\,dx$",
+    "$\\dfrac{\\pi}{4}\\displaystyle\\int_0^{\\frac{\\pi}{2}}\\dfrac{1}{1+\\sin x-\\cos x}\\,dx$",
+    "$\\dfrac{\\pi}{2}\\displaystyle\\int_0^{\\frac{\\pi}{2}}\\dfrac{1}{1+\\sin x+\\cos x}\\,dx$",
+    "$\\dfrac{\\pi}{4}\\displaystyle\\int_0^{\\frac{\\pi}{2}}\\dfrac{1}{1+\\sin x+\\cos x}\\,dx$"
+   ],
+   "correct": "D",
+   "answer": "Let $I$ be the integral. Using $\\int_0^a f(x)\\,dx=\\int_0^a f(a-x)\\,dx$ with $a=\\frac\\pi2$ (so $\\sin(\\frac\\pi2-x)=\\cos x$, $\\cos(\\frac\\pi2-x)=\\sin x$):\n$$I=\\int_0^{\\pi/2}\\frac{\\frac\\pi2-x}{1+\\cos x+\\sin x}\\,dx=\\frac\\pi2\\int_0^{\\pi/2}\\frac{dx}{1+\\sin x+\\cos x}-I.$$\nSo $2I=\\dfrac\\pi2\\displaystyle\\int_0^{\\pi/2}\\dfrac{dx}{1+\\sin x+\\cos x}$ and $I=\\dfrac\\pi4\\displaystyle\\int_0^{\\pi/2}\\dfrac{dx}{1+\\sin x+\\cos x}$ (D)."
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.10",
+    "12.1.1.7",
+    "12.1.2.2"
+   ],
+   "question": "Consider the statement:\n\n*Period 0 is cancelled if and only if there is an excursion.*\n\nWhich of the following statements is FALSE?",
+   "options": [
+    "The negation is an ‘or’ statement.",
+    "The negation is ‘Period 0 being cancelled does not imply that there is an excursion’.",
+    "A counterexample is ‘There is no excursion and Period 0 is cancelled’.",
+    "A counterexample is ‘Period 0 is not cancelled and there is an excursion’."
+   ],
+   "correct": "B",
+   "answer": "Let $p$: ‘Period 0 is cancelled’ and $q$: ‘there is an excursion’. The statement is $(p\\Rightarrow q)\\wedge(q\\Rightarrow p)$, whose negation is $(p\\wedge\\neg q)\\vee(q\\wedge\\neg p)$ — an ‘or’ statement, so (A) is true. (C) is the case $p\\wedge\\neg q$ and (D) is the case $q\\wedge\\neg p$, so both are genuine counterexamples. (B) gives only one of the two parts of the negation (it negates just $p\\Rightarrow q$), so it is not the negation: (B) is FALSE."
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.13"
+   ],
+   "question": "Find $\\dfrac{-3+i}{1-2i}$, showing all working out.",
+   "answer": "$$\\frac{-3+i}{1-2i}=\\frac{(-3+i)(1+2i)}{(1-2i)(1+2i)}=\\frac{-3-6i+i+2i^2}{1+4}=\\frac{-5-5i}{5}=-1-i.$$"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.8",
+    "12.3.2.3"
+   ],
+   "question": "Given that $w=2-i\\left(2\\sqrt3\\right)$ and $\\operatorname{Arg}(zw)=\\dfrac\\pi3$, find the exact value of $\\operatorname{Arg}(z)$.",
+   "answer": "$w=2-2\\sqrt3\\,i$ is in the fourth quadrant with $\\tan\\theta=\\dfrac{-2\\sqrt3}{2}=-\\sqrt3$, so $\\operatorname{Arg}(w)=-\\dfrac\\pi3$.\n\nUsing $\\arg(zw)=\\arg z+\\arg w$:\n$$\\operatorname{Arg}(z)=\\frac\\pi3-\\left(-\\frac\\pi3\\right)=\\frac{2\\pi}{3},$$\nwhich lies in $(-\\pi,\\pi]$. Check: $\\operatorname{Arg}(zw)=\\frac{2\\pi}3-\\frac\\pi3=\\frac\\pi3$ ✓.\n\n*Note: the school's solution gives $-\\frac\\pi3$, which is wrong (it takes $\\operatorname{Arg}(w)=\\frac{2\\pi}{3}$, ignoring that $w$ is in the fourth quadrant); $-\\frac\\pi3$ would give $\\operatorname{Arg}(zw)=-\\frac{2\\pi}3$.*"
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.4",
+    "12.3.3.3"
+   ],
+   "question": "The complex numbers $z_1=2-3i$, $z_2$ and $z_3$ are roots of the polynomial $p(z)=z^3-8z^2+29z-52$. Find $z_2$ and $z_3$.",
+   "answer": "$p(z)$ has real coefficients, so the conjugate $2+3i$ is also a root. Take $z_2=2+3i$. By the sum of roots,\n$$(2-3i)+(2+3i)+z_3=-(-8)=8\\ \\Rightarrow\\ z_3=4.$$\nCheck by product of roots: $(2-3i)(2+3i)(4)=13\\times4=52$ ✓.\n\nSo $z_2=2+3i$ and $z_3=4$ (in either order). (The school's final line mistakenly lists $2-3i$ again, but its working finds $2+3i$ and $4$.)"
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.14"
+   ],
+   "question": "Find the square roots of $21-20i$.",
+   "answer": "Let $(x+iy)^2=21-20i$ with $x,y$ real. Then $x^2-y^2=21$ and $2xy=-20$, so $xy=-10$.\n\nBy inspection $x=5,\\ y=-2$ works ($25-4=21$, $5\\times(-2)=-10$), and so does $x=-5,\\ y=2$. (Algebraically: $x^2-\\frac{100}{x^2}=21\\Rightarrow x^4-21x^2-100=0\\Rightarrow(x^2-25)(x^2+4)=0\\Rightarrow x=\\pm5$.)\n\nThe square roots are $5-2i$ and $-5+2i$."
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "Prove that $\\dfrac32k^2-6k-\\dfrac{63}2$ is divisible by $12$ for all positive odd integers $k$.",
+   "answer": "Let $k=2a+1$ where $a\\ge0$ is an integer. Then\n$$\\frac32(2a+1)^2-6(2a+1)-\\frac{63}2=\\frac32\\left(4a^2+4a+1\\right)-12a-6-\\frac{63}2=6a^2-6a-36=6\\left(a^2-a-6\\right)=6\\left(a(a-1)-6\\right).$$\nNow $a(a-1)$ is a product of two consecutive integers, so it is even: $a(a-1)=2m$ for some integer $m$. Hence the expression equals $6(2m-6)=12(m-3)$, where $m-3$ is an integer, so it is divisible by $12$. $\\blacksquare$\n\n*(The school's justification, “one of the consecutive integers must be negative”, is not the right reason; evenness of $a(a-1)$ is what is needed.)*"
+  },
+  {
+   "ref": "Q11(f)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "By decomposing $\\dfrac{9x}{(x^2+2)(x+1)}$ into partial fractions, show that\n$$\\frac{9x}{(x^2+2)(x+1)}=\\frac{3x+6}{x^2+2}-\\frac{3}{x+1}.$$",
+   "answer": "Let $\\dfrac{9x}{(x^2+2)(x+1)}=\\dfrac{Ax+B}{x^2+2}+\\dfrac{C}{x+1}$. Then $9x=(Ax+B)(x+1)+C(x^2+2)$.\n\n- $x=-1$: $-9=3C\\Rightarrow C=-3$.\n- $x=0$: $0=B+2C\\Rightarrow B=6$.\n- $x=1$: $9=2(A+B)+3C=2(A+6)-9\\Rightarrow A=3$.\n\nTherefore $\\dfrac{9x}{(x^2+2)(x+1)}=\\dfrac{3x+6}{x^2+2}-\\dfrac3{x+1}$."
+  },
+  {
+   "ref": "Q11(f)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.8"
+   ],
+   "question": "Using the result $\\dfrac{9x}{(x^2+2)(x+1)}=\\dfrac{3x+6}{x^2+2}-\\dfrac{3}{x+1}$, find $\\displaystyle\\int\\frac{9x}{(x^2+2)(x+1)}\\,dx$.",
+   "answer": "$$\\int\\left(\\frac{3x}{x^2+2}+\\frac{6}{x^2+2}-\\frac3{x+1}\\right)dx=\\frac32\\ln(x^2+2)+\\frac{6}{\\sqrt2}\\tan^{-1}\\frac{x}{\\sqrt2}-3\\ln|x+1|+C,$$\nthat is $\\dfrac32\\ln(x^2+2)+3\\sqrt2\\tan^{-1}\\dfrac{x}{\\sqrt2}-3\\ln|x+1|+C$."
+  },
+  {
+   "ref": "Q11(g)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Using an appropriate substitution, find $\\displaystyle\\int\\frac{2}{1+\\sqrt{2x}}\\,dx$.",
+   "answer": "Let $u=1+\\sqrt{2x}$. Then $\\dfrac{du}{dx}=\\dfrac{1}{\\sqrt{2x}}$, so $dx=\\sqrt{2x}\\,du=(u-1)\\,du$.\n$$\\int\\frac{2}{1+\\sqrt{2x}}\\,dx=\\int\\frac{2(u-1)}{u}\\,du=2\\int\\left(1-\\frac1u\\right)du=2u-2\\ln|u|+C=2\\sqrt{2x}-2\\ln\\left(1+\\sqrt{2x}\\right)+C$$\n(the constant $2$ from $2u$ is absorbed into $C$)."
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.7"
+   ],
+   "question": "Consider the statement: *For all irrational numbers $p$, the number $\\left(\\dfrac13-5p\\right)$ is irrational.*\n\nState the negation of this statement.",
+   "answer": "There exists an irrational number $p$ such that $\\dfrac13-5p$ is rational."
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "Prove by contradiction that: for all irrational numbers $p$, the number $\\left(\\dfrac13-5p\\right)$ is irrational.",
+   "answer": "Assume the negation: there is an irrational $p$ with $\\dfrac13-5p$ rational. Then $\\dfrac13-5p=\\dfrac ab$ for some integers $a,b$ with $b\\ne0$. Solving for $p$:\n$$5p=\\frac13-\\frac ab=\\frac{b-3a}{3b}\\ \\Rightarrow\\ p=\\frac{b-3a}{15b}.$$\nSince $b-3a$ and $15b$ are integers with $15b\\neq0$, $p$ is rational. This contradicts $p$ being irrational. Hence the assumption is false and the statement is true. $\\blacksquare$"
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.5"
+   ],
+   "question": "Rosa’s office chair oscillates along a straight path with an amplitude of $3$ cm. The acceleration $\\ddot x$ cm/s$^2$ of the chair is $\\ddot x=20-4x$, where $x$ is the displacement of the chair from her desk.\n\nBriefly explain why the chair is undergoing simple harmonic motion.",
+   "answer": "$\\ddot x=20-4x=-2^2(x-5)$, which has the form $\\ddot x=-n^2(x-c)$ with $n=2$ and centre of motion $c=5$. Acceleration is proportional to, and opposite in direction to, the displacement from the centre $x=5$, so the motion is simple harmonic."
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.8",
+    "12.5.1.1"
+   ],
+   "question": "The acceleration of Rosa’s office chair is $\\ddot x=20-4x$ (cm/s$^2$), where $x$ cm is its displacement from her desk, and the amplitude of the oscillation is $3$ cm. By integrating $\\ddot x$ with respect to $x$, show that the velocity of the chair is given by\n$$v^2=-4\\left((x-5)^2-9\\right).$$",
+   "answer": "The centre of motion is $x=5$ and the amplitude is $3$, so the chair is momentarily at rest ($v=0$) at $x=5\\pm3$, e.g. $x=2$.\n\n$$\\frac{d}{dx}\\left(\\tfrac12v^2\\right)=20-4x\\ \\Rightarrow\\ \\tfrac12v^2=20x-2x^2+C.$$\nAt $x=2$, $v=0$: $0=40-8+C\\Rightarrow C=-32$. So $\\tfrac12v^2=20x-2x^2-32$ and\n$$v^2=40x-4x^2-64=-4\\left(x^2-10x+16\\right)=-4\\left((x-5)^2-9\\right).\\ \\blacksquare$$"
+  },
+  {
+   "ref": "Q12(b)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.10"
+   ],
+   "question": "The velocity of Rosa’s office chair (displacement $x$ cm from her desk) satisfies $v^2=-4\\left((x-5)^2-9\\right)$. Find the fastest speed that the chair reaches.",
+   "answer": "The speed is greatest at the centre of motion $x=5$, where $v^2=-4(0-9)=36$, so $|v|=6$. The fastest speed is $6$ cm/s."
+  },
+  {
+   "ref": "Q12(b)(iv)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.9"
+   ],
+   "question": "Rosa’s office chair oscillates in simple harmonic motion with $\\ddot x=20-4x$ (cm/s$^2$) and amplitude $3$ cm, where $x$ cm is the displacement from her desk. Given that the chair starts at the position closest to the desk, determine a possible equation for the displacement of the chair.",
+   "answer": "The centre is $c=5$, $n=2$ and the amplitude is $3$, so the chair moves between $x=2$ and $x=8$. It starts at the closest position $x=2$ at $t=0$, so\n$$x=5-3\\cos 2t.$$"
+  },
+  {
+   "ref": "Q12(b)(v)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.10"
+   ],
+   "question": "Rosa’s office chair has displacement $x=5-3\\cos2t$ cm from her desk at time $t$ seconds. Determine whether the chair is moving towards or away from the desk after $\\dfrac{37\\pi}{24}$ seconds. Justify your answer.",
+   "answer": "$\\dot x=6\\sin2t$. When $t=\\dfrac{37\\pi}{24}$, $2t=\\dfrac{37\\pi}{12}$ and $\\dot x=6\\sin\\dfrac{37\\pi}{12}=-6\\sin\\dfrac{\\pi}{12}\\approx-1.55<0$. The displacement from the desk is decreasing, so the chair is moving **towards** the desk.\n\n*Alternative:* the period is $\\pi$ and $\\frac{3\\pi}2<\\frac{37\\pi}{24}<2\\pi$. The chair starts at its minimum $x=2$, is at its maximum $x=8$ after $\\frac{\\pi}{2}$, back at $x=2$ at $\\pi$, and at $x=8$ again at $\\frac{3\\pi}{2}$; after that it is returning towards the desk."
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.10",
+    "12.3.2.5"
+   ],
+   "question": "The complex numbers $z_1$ and $z_2$ are represented by the points $A$ and $B$ respectively. In $\\triangle OAB$, $OA=2OB$ and $\\angle AOB=\\dfrac\\pi6$ as shown in the Argand diagram. It is given that $z_1=r(\\cos\\theta+i\\sin\\theta)$, where $r\\in\\mathbb{R}$ and $0<\\theta<\\dfrac\\pi2$.\n\nExpress $z_2$ in polar form, in terms of $r$ and $\\theta$.",
+   "answer": "$|z_2|=OB=\\tfrac12OA=\\tfrac12r$, and $B$ is $\\dfrac\\pi6$ anticlockwise from $A$, so $\\arg z_2=\\theta+\\dfrac\\pi6$. Equivalently $z_2=\\tfrac12\\cdot z_1\\cdot\\operatorname{cis}\\frac\\pi6$ (dilation by $\\frac12$, rotation by $\\frac\\pi6$). Therefore\n$$z_2=\\frac r2\\left(\\cos\\left(\\theta+\\frac\\pi6\\right)+i\\sin\\left(\\theta+\\frac\\pi6\\right)\\right).$$\n(The original question asks for exponential form $\\tfrac r2e^{i(\\theta+\\pi/6)}$; polar form is used here.)",
+   "images": [
+    "assets/img/ext2-2025-normanhurst/q12c.png"
+   ]
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.11",
+    "12.3.4.10"
+   ],
+   "question": "The complex numbers $z_1=r(\\cos\\theta+i\\sin\\theta)$ and $z_2=\\dfrac r2\\left(\\cos\\left(\\theta+\\dfrac\\pi6\\right)+i\\sin\\left(\\theta+\\dfrac\\pi6\\right)\\right)$ are represented by the points $A$ and $B$ respectively, where $r>0$ and $0<\\theta<\\dfrac\\pi2$ (so $OA=2OB$ and $\\angle AOB=\\dfrac\\pi6$, as in the diagram).\n\nLet $C$ be the point such that $ABOC$ is a parallelogram and $\\angle AOC=\\phi$, where $0<\\phi<\\dfrac\\pi2$. Consider the complex number $w$ for which $z_1w$ represents $C$.\n\nBy finding $w$, calculate $\\phi$ correct to two decimal places.",
+   "answer": "Opposite sides of the parallelogram are equal and parallel, so $\\overrightarrow{OC}=\\overrightarrow{BA}$, i.e. $z_1w=z_1-z_2$. Then\n$$z_1w=z_1\\left(1-\\tfrac12\\operatorname{cis}\\tfrac\\pi6\\right)\\ \\Rightarrow\\ w=1-\\tfrac12\\left(\\cos\\tfrac\\pi6+i\\sin\\tfrac\\pi6\\right)=\\left(1-\\frac{\\sqrt3}{4}\\right)-\\frac14i.$$\nMultiplying $z_1$ by $w$ rotates $OA$ through $\\arg w$, so $\\phi=|\\operatorname{Arg}w|=\\tan^{-1}\\dfrac{1/4}{1-\\sqrt3/4}=\\tan^{-1}\\dfrac{1}{4-\\sqrt3}\\approx0.4153$.\n\nHence $\\phi\\approx0.42$ radians.",
+   "images": [
+    "assets/img/ext2-2025-normanhurst/q12c.png"
+   ]
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.5",
+    "12.3.5.4"
+   ],
+   "question": "Consider the region of the complex plane defined by\n$$|z-2+2i|\\le4\\quad\\text{and}\\quad-\\frac\\pi3\\le\\operatorname{Arg}(z-1+3i)\\le\\frac\\pi4.$$\nOn an Argand diagram, clearly sketch the region.",
+   "answer": "$|z-(2-2i)|\\le4$ is the closed disc with centre $2-2i$ and radius $4$. $-\\frac\\pi3\\le\\operatorname{Arg}(z-(1-3i))\\le\\frac\\pi4$ is the wedge between the rays from $1-3i$ at angles $-\\frac\\pi3$ and $\\frac\\pi4$ to the positive real direction, with the point $1-3i$ itself excluded (its argument is undefined). The point $1-3i$ lies inside the circle, so the region is the part of the disc inside the wedge, shown shaded below (open circle at $1-3i$).",
+   "answer_images": [
+    "assets/img/ext2-2025-normanhurst/q13a-ans.png"
+   ]
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.5.5",
+    "12.3.2.3"
+   ],
+   "question": "Let $w$ represent any complex number that lies in the region defined by\n$$|z-2+2i|\\le4\\quad\\text{and}\\quad-\\frac\\pi3\\le\\operatorname{Arg}(z-1+3i)\\le\\frac\\pi4.$$\nFind the possible range of values for $\\operatorname{Arg}(w)$, giving your answer correct to two decimal places.",
+   "answer": "The region is the part of the disc with centre $2-2i$, radius $4$ inside the wedge from the point $1-3i$ (excluded) between the rays at $-\\frac\\pi3$ and $\\frac\\pi4$.\n\n*Maximum:* the origin lies inside the circle, so $\\operatorname{Arg}$ increases anticlockwise round the arc; the largest value occurs where the upper ray meets the circle, at $z_1$. The ray is $y=x-4$; substituting in $(x-2)^2+(y+2)^2=16$ gives $2(x-2)^2=16$, $x=2+2\\sqrt2$ (the right-hand intersection), $y=-2+2\\sqrt2$. So $z_1=(2+2\\sqrt2)+(-2+2\\sqrt2)i$ and $\\operatorname{Arg}z_1=\\tan^{-1}\\dfrac{-2+2\\sqrt2}{2+2\\sqrt2}\\approx0.17$.\n\n*Minimum:* arguments decrease towards the apex $1-3i$, which is excluded, so $\\operatorname{Arg}w>\\operatorname{Arg}(1-3i)=-\\tan^{-1}3\\approx-1.25$.\n\nHence $-1.25<\\operatorname{Arg}(w)\\le0.17$."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.4",
+    "12.1.3.6"
+   ],
+   "question": "Prove that $|a-b|+|c-b|+|c-d|\\ge a-d$.",
+   "answer": "Using $|c-b|=|b-c|$ and the triangle inequality $|x+y|\\le|x|+|y|$ twice:\n$$|a-b|+|b-c|+|c-d|\\ge|(a-b)+(b-c)|+|c-d|=|a-c|+|c-d|\\ge|(a-c)+(c-d)|=|a-d|.$$\nFinally $|a-d|\\ge a-d$ (if $a\\ge d$ then $|a-d|=a-d$; if $a<d$ then $|a-d|>0>a-d$). Hence $|a-b|+|c-b|+|c-d|\\ge a-d$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.12",
+    "12.1.2.3"
+   ],
+   "question": "By considering the contrapositive, prove that for all $a,b\\in\\mathbb{Z}^+$ and where $n\\in\\mathbb{Z}$,\n$$\\text{if } a+b\\ge2n+1,\\ \\text{then } a\\ge n+1\\ \\text{or}\\ b\\ge n+1.$$",
+   "answer": "The contrapositive is: if $a<n+1$ **and** $b<n+1$, then $a+b<2n+1$ (negating “$a\\ge n+1$ or $b\\ge n+1$” gives “$a<n+1$ and $b<n+1$”).\n\nSince $a,b,n$ are integers, $a<n+1$ means $a\\le n$, and likewise $b\\le n$. Adding, $a+b\\le2n<2n+1$. So the contrapositive is true, and therefore the original implication is true. $\\blacksquare$"
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.4.2"
+   ],
+   "question": "Use mathematical induction to prove that, for all integers $n\\ge3$,\n$$(3n)!<(n!)^3\\times27^n.$$",
+   "answer": "Let $P(n)$ be the proposition $(3n)!<(n!)^3\\times27^n$.\n\n**Base case** $n=3$: LHS $=9!=362\\,880$; RHS $=(3!)^3\\times27^3=216\\times19\\,683=4\\,251\\,528$. LHS $<$ RHS, so $P(3)$ is true.\n\n**Inductive step:** assume $P(k)$ for some integer $k\\ge3$: $(3k)!<(k!)^3\\times27^k$. Required: $(3k+3)!<((k+1)!)^3\\times27^{k+1}$.\n$$(3k+3)!=(3k+3)(3k+2)(3k+1)(3k)!<(3k+3)(3k+2)(3k+1)(k!)^3\\,27^k.$$\nNow $(3k+3)(3k+2)(3k+1)=3(k+1)(3k+2)(3k+1)$ and $(3k+2)(3k+1)=9k^2+9k+2<9k^2+18k+9=9(k+1)^2$. Hence\n$$(3k+3)(3k+2)(3k+1)<27(k+1)^3,$$\nso $(3k+3)!<27(k+1)^3(k!)^3\\,27^k=\\left((k+1)!\\right)^3\\,27^{k+1}$. So $P(k+1)$ is true whenever $P(k)$ is.\n\nBy mathematical induction, $P(n)$ holds for all integers $n\\ge3$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.2.1"
+   ],
+   "question": "Consider the rectangular prism in the diagram, with $O$ at the origin and $A$, $B$, $C$ on the $x$-, $y$- and $z$-axes respectively; $P$ is the vertex of the prism opposite $O$. Let $\\mathbf{a}$, $\\mathbf{b}$ and $\\mathbf{c}$ be the non-zero position vectors of the points $A$, $B$ and $C$.\n\nUsing vector methods, prove that triangle $ACP$ **cannot** be a right-angled triangle.",
+   "answer": "Since the axes are perpendicular, $\\mathbf a\\cdot\\mathbf b=\\mathbf b\\cdot\\mathbf c=\\mathbf a\\cdot\\mathbf c=0$, and $P$ has position vector $\\mathbf a+\\mathbf b+\\mathbf c$. Check each angle.\n\n*At $A$:* $\\overrightarrow{AC}=\\mathbf c-\\mathbf a$, $\\overrightarrow{AP}=\\mathbf b+\\mathbf c$.\n$$\\overrightarrow{AC}\\cdot\\overrightarrow{AP}=\\mathbf b\\cdot\\mathbf c+|\\mathbf c|^2-\\mathbf a\\cdot\\mathbf b-\\mathbf a\\cdot\\mathbf c=|\\mathbf c|^2\\ne0.$$\n*At $C$:* $\\overrightarrow{CA}=\\mathbf a-\\mathbf c$, $\\overrightarrow{CP}=\\mathbf a+\\mathbf b$.\n$$\\overrightarrow{CA}\\cdot\\overrightarrow{CP}=|\\mathbf a|^2+\\mathbf a\\cdot\\mathbf b-\\mathbf a\\cdot\\mathbf c-\\mathbf b\\cdot\\mathbf c=|\\mathbf a|^2\\ne0.$$\n*At $P$:* $\\overrightarrow{PA}=-\\mathbf b-\\mathbf c$, $\\overrightarrow{PC}=-\\mathbf a-\\mathbf b$.\n$$\\overrightarrow{PA}\\cdot\\overrightarrow{PC}=\\mathbf a\\cdot\\mathbf b+|\\mathbf b|^2+\\mathbf a\\cdot\\mathbf c+\\mathbf b\\cdot\\mathbf c=|\\mathbf b|^2\\ne0.$$\nNo pair of sides is perpendicular (each dot product is the square of a non-zero length), so triangle $ACP$ cannot be right-angled. $\\blacksquare$",
+   "images": [
+    "assets/img/ext2-2025-normanhurst/q14a.png"
+   ]
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Find the exact value of $\\displaystyle\\int_{3\\sqrt2}^{6}\\frac{dx}{x^3\\sqrt{x^2-9}}$.",
+   "answer": "Let $x=3\\sec\\theta$, $dx=3\\sec\\theta\\tan\\theta\\,d\\theta$. When $x=3\\sqrt2$, $\\theta=\\frac\\pi4$; when $x=6$, $\\theta=\\frac\\pi3$. Also $\\sqrt{x^2-9}=3\\tan\\theta$.\n$$\\int_{\\pi/4}^{\\pi/3}\\frac{3\\sec\\theta\\tan\\theta}{27\\sec^3\\theta\\cdot3\\tan\\theta}\\,d\\theta=\\frac1{27}\\int_{\\pi/4}^{\\pi/3}\\cos^2\\theta\\,d\\theta=\\frac1{54}\\int_{\\pi/4}^{\\pi/3}(1+\\cos2\\theta)\\,d\\theta=\\frac1{54}\\left[\\theta+\\tfrac12\\sin2\\theta\\right]_{\\pi/4}^{\\pi/3}.$$\n$$=\\frac1{54}\\left[\\left(\\frac\\pi3+\\frac{\\sqrt3}4\\right)-\\left(\\frac\\pi4+\\frac12\\right)\\right]=\\frac1{54}\\left(\\frac\\pi{12}+\\frac{\\sqrt3}{4}-\\frac12\\right)=\\frac{\\pi+3\\sqrt3-6}{648}.$$"
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.17",
+    "12.2.2.5"
+   ],
+   "question": "A rock band is performing at a small arena shaped as a hemisphere with a diameter of $26$ metres. Let the centre of the arena be the origin $O$. A mirror is placed at the point $R(a,b,c)$ on the arena’s roof (on the surface of the hemisphere). A light is shone from the point $P(-46,5,0)$ outside the arena to the mirror at $R$.\n\nGiven that $PR\\perp OR$, prove that $46a-5b+169=0$.",
+   "answer": "$\\overrightarrow{PR}=\\begin{pmatrix}a+46\\\\b-5\\\\c\\end{pmatrix}$ and $\\overrightarrow{OR}=\\begin{pmatrix}a\\\\b\\\\c\\end{pmatrix}$. Since $PR\\perp OR$,\n$$\\overrightarrow{PR}\\cdot\\overrightarrow{OR}=0:\\quad a^2+46a+b^2-5b+c^2=0.\\qquad(1)$$\n$R$ lies on the sphere of radius $13$ centred at $O$, so $a^2+b^2+c^2=169$. $\\quad(2)$\n\nSubstituting (2) into (1): $169+46a-5b=0$, i.e. $46a-5b+169=0$. $\\blacksquare$",
+   "images": [
+    "assets/img/ext2-2025-normanhurst/q14c.png"
+   ]
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.17"
+   ],
+   "question": "A hemispherical arena has diameter $26$ m and centre $O$ at the origin. A mirror is at $R(a,b,c)$ on its roof (on the sphere surface, $c>0$), where $46a-5b+169=0$. If the mirror at $R$ is directly above a seat in the arena located at $(k,-3,0)$, find the coordinates of $R$.",
+   "answer": "$R$ is directly above $(k,-3,0)$, so $a=k$, $b=-3$. Then $46a+15+169=0\\Rightarrow a=-4$. On the sphere, $a^2+b^2+c^2=169$: $16+9+c^2=169\\Rightarrow c^2=144$, and $c>0$ (the roof is above the ground), so $c=12$.\n\n$R=(-4,-3,12)$.",
+   "images": [
+    "assets/img/ext2-2025-normanhurst/q14c.png"
+   ]
+  },
+  {
+   "ref": "Q14(c)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.1.10",
+    "12.2.1.11"
+   ],
+   "question": "A mirror is at $R(-4,-3,12)$ on the roof of a hemispherical arena with centre at the origin $O$. The mirror is angled so that light is reflected upwards from $R$ in the direction of $\\overrightarrow{OR}$. Fireworks are shot along the path\n$$\\mathbf f=\\begin{pmatrix}-14\\\\-10\\\\0\\end{pmatrix}+\\mu\\begin{pmatrix}2\\\\1\\\\5\\end{pmatrix},\\quad\\mu\\in\\mathbb{R}.$$\nDetermine whether the trajectory of the fireworks will cross through the reflected ray of light.",
+   "answer": "The reflected ray is on the line through $R$ with direction $\\overrightarrow{OR}=(-4,-3,12)$: $\\mathbf r=\\lambda\\begin{pmatrix}-4\\\\-3\\\\12\\end{pmatrix}$ (this line passes through $O$ and $R$). Set $\\mathbf f=\\mathbf r$:\n$$-14+2\\mu=-4\\lambda\\ (3),\\qquad-10+\\mu=-3\\lambda\\ (4),\\qquad5\\mu=12\\lambda\\ (5).$$\n$(3)-2\\times(4)$: $6=2\\lambda$, so $\\lambda=3$; then from (4), $\\mu=1$.\nCheck in (5): LHS $=5\\mu=5$ but RHS $=12\\lambda=36$, so the equations are inconsistent. The directions $(2,1,5)$ and $(-4,-3,12)$ are not parallel and there is no intersection, so the lines are skew.\n\nThe trajectory of the fireworks does **not** cross the reflected ray of light."
+  },
+  {
+   "ref": "Q15(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.2"
+   ],
+   "question": "Let $a$, $b$ and $c$ be positive real numbers. Prove that $a^2+b^2+c^2\\ge ab+ac+bc$.",
+   "answer": "Since squares are non-negative, $(a-b)^2\\ge0$, giving $a^2+b^2\\ge2ab$. Similarly $a^2+c^2\\ge2ac$ and $b^2+c^2\\ge2bc$. Adding the three: $2(a^2+b^2+c^2)\\ge2(ab+ac+bc)$, so $a^2+b^2+c^2\\ge ab+ac+bc$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q15(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "Let $a$, $b$ and $c$ be positive real numbers. Given that $a^2+b^2+c^2\\ge ab+ac+bc$, prove that $a^3+b^3+c^3\\ge3abc$.",
+   "answer": "Multiply both sides of $a^2+b^2+c^2\\ge ab+ac+bc$ by $a+b+c>0$:\n$$a^3+b^3+c^3+\\left(a^2b+a^2c+ab^2+b^2c+ac^2+bc^2\\right)\\ge\\left(a^2b+a^2c+ab^2+b^2c+ac^2+bc^2\\right)+3abc.$$\nCancelling the common bracket: $a^3+b^3+c^3\\ge3abc$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q15(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.1.3.2"
+   ],
+   "question": "Let $a$, $b$ and $c$ be positive real numbers. Prove that $ac(a+c)+ab(a+b)+bc(b+c)\\ge6abc$.\n(You may use $a^2+b^2\\ge2ab$ for real $a,b$.)",
+   "answer": "Since $a^2+b^2\\ge2ab$ and $c>0$: $c(a^2+b^2)\\ge2abc$. Similarly $b(a^2+c^2)\\ge2abc$ and $a(b^2+c^2)\\ge2abc$. Adding,\n$$a^2c+b^2c+a^2b+bc^2+ab^2+ac^2\\ge6abc,$$\nand the left side equals $ac(a+c)+ab(a+b)+bc(b+c)$. $\\blacksquare$\n\n(Equivalently the difference is $a(b-c)^2+b(a-c)^2+c(a-b)^2\\ge0$. The school’s solution reaches the result by applying part (ii) to $\\frac1a,\\frac1b,\\frac1c$, multiplying inequalities and substituting cube roots; the direct proof above is simpler.)"
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.4",
+    "12.3.4.3"
+   ],
+   "question": "Consider the series\n$$C=1+\\cos\\theta+\\cos2\\theta+\\cdots+\\cos(n-1)\\theta,\\qquad S=\\sin\\theta+\\sin2\\theta+\\cdots+\\sin(n-1)\\theta.$$\nGiven that $z=\\cos\\theta+i\\sin\\theta$, show that $C+iS=\\dfrac{1-z^n}{1-z}$ where $z\\ne1$.",
+   "answer": "By de Moivre's theorem, $z^k=\\cos k\\theta+i\\sin k\\theta$. So\n$$C+iS=1+(\\cos\\theta+i\\sin\\theta)+\\cdots+(\\cos(n-1)\\theta+i\\sin(n-1)\\theta)=1+z+z^2+\\cdots+z^{n-1}.$$\nThis is a geometric series with first term $1$ and ratio $z\\neq1$, so $C+iS=\\dfrac{1-z^n}{1-z}$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.4",
+    "12.3.1.13"
+   ],
+   "question": "Let $C=1+\\cos\\theta+\\cdots+\\cos(n-1)\\theta$, $S=\\sin\\theta+\\sin2\\theta+\\cdots+\\sin(n-1)\\theta$ and $z=\\cos\\theta+i\\sin\\theta$. Using $C+iS=\\dfrac{1-z^n}{1-z}$, show that\n$$\\sin\\theta+\\sin2\\theta+\\cdots+\\sin(n-1)\\theta=\\frac{(\\sin\\theta-\\sin n\\theta)+\\sin[(n-1)\\theta]}{2(1-\\cos\\theta)}.$$",
+   "answer": "By de Moivre, $z^n=\\cos n\\theta+i\\sin n\\theta$. Multiply numerator and denominator by the conjugate of $1-z=(1-\\cos\\theta)-i\\sin\\theta$:\n$$C+iS=\\frac{\\left[(1-\\cos n\\theta)-i\\sin n\\theta\\right]\\left[(1-\\cos\\theta)+i\\sin\\theta\\right]}{(1-\\cos\\theta)^2+\\sin^2\\theta}.$$\nThe denominator is $2-2\\cos\\theta$. The imaginary part of the numerator is\n$$(1-\\cos n\\theta)\\sin\\theta-\\sin n\\theta(1-\\cos\\theta)=\\sin\\theta-\\sin n\\theta+(\\sin n\\theta\\cos\\theta-\\cos n\\theta\\sin\\theta)=\\sin\\theta-\\sin n\\theta+\\sin(n-1)\\theta.$$\nEquating imaginary parts, $S=\\dfrac{(\\sin\\theta-\\sin n\\theta)+\\sin[(n-1)\\theta]}{2(1-\\cos\\theta)}$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_{3n+2}=\\displaystyle\\int_0^1x^{3n+2}e^{x^3}\\,dx$, where $n$ is an integer with $n\\ge1$. Prove that $I_{3n+2}=\\dfrac e3-nI_{3n-1}$.",
+   "answer": "Integrate by parts with $u=x^{3n}$, $v'=x^2e^{x^3}$, so $u'=3nx^{3n-1}$, $v=\\tfrac13e^{x^3}$:\n$$I_{3n+2}=\\left[\\tfrac13x^{3n}e^{x^3}\\right]_0^1-\\int_0^1 n\\,x^{3n-1}e^{x^3}\\,dx=\\tfrac13e-nI_{3n-1}.\\ \\blacksquare$$\n(The boundary term at $x=0$ is $0$ because $n\\ge1$. The paper states $n\\ge0$, but for $n=0$ the formula would involve the divergent $I_{-1}$ and the lower boundary term is $\\tfrac13\\ne0$, so $n\\ge1$ is needed.)"
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_{3n+2}=\\displaystyle\\int_0^1x^{3n+2}e^{x^3}\\,dx$. Given the reduction formula $I_{3n+2}=\\dfrac e3-nI_{3n-1}$ (for $n\\ge1$), find $I_8$ as an exact value.",
+   "answer": "Taking $n=2$: $I_8=\\dfrac e3-2I_5$. Taking $n=1$: $I_5=\\dfrac e3-I_2$, where\n$$I_2=\\int_0^1x^2e^{x^3}\\,dx=\\left[\\tfrac13e^{x^3}\\right]_0^1=\\frac{e-1}3.$$\nSo $I_5=\\dfrac e3-\\dfrac{e-1}3=\\dfrac13$ and $I_8=\\dfrac e3-\\dfrac23=\\dfrac{e-2}{3}$."
+  },
+  {
+   "ref": "Q15(c)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.14",
+    "12.1.3.9"
+   ],
+   "question": "Let $I_{3n+2}=\\displaystyle\\int_0^1x^{3n+2}e^{x^3}\\,dx$ for integers $n\\ge1$, and recall $I_{3n+2}=\\dfrac e3-nI_{3n-1}$. Using this, prove that\n$$3\\int_0^1(1+x^3)\\,x^{3n-1}e^{x^3}\\,dx\\le e.$$",
+   "answer": "Expand: $3\\displaystyle\\int_0^1(1+x^3)x^{3n-1}e^{x^3}dx=3\\left(\\int_0^1x^{3n-1}e^{x^3}dx+\\int_0^1x^{3n+2}e^{x^3}dx\\right)=3\\left(I_{3n-1}+I_{3n+2}\\right)$.\n\nUsing the reduction formula: $3\\left(I_{3n-1}+\\dfrac e3-nI_{3n-1}\\right)=e-3(n-1)I_{3n-1}$.\n\nFor $0\\le x\\le1$ and $n\\ge1$, $x^{3n-1}\\ge0$ and $e^{x^3}>0$, so $I_{3n-1}=\\displaystyle\\int_0^1x^{3n-1}e^{x^3}dx\\ge0$. Also $n-1\\ge0$, so $3(n-1)I_{3n-1}\\ge0$. Therefore\n$$3\\int_0^1(1+x^3)x^{3n-1}e^{x^3}\\,dx=e-3(n-1)I_{3n-1}\\le e.\\ \\blacksquare$$"
+  },
+  {
+   "ref": "Q16(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "By considering a possible graph of $y=f(x)$, prove that:\n\nIf $f$ is a continuous function where $f'(x)>0$, $f''(x)<0$ and $f(0)=0$, then\n$$\\int_0^af(x)\\,dx+\\int_0^bf^{-1}(y)\\,dy\\ge ab,$$\nwhere $f^{-1}$ is the inverse function of $f$, $a\\ge0$ and $b\\ge0$.",
+   "answer": "$f$ is increasing, concave down, passes through the origin, so it has an inverse. $\\displaystyle\\int_0^af(x)\\,dx$ is the area between the curve and the $x$-axis for $0\\le x\\le a$, and $\\displaystyle\\int_0^bf^{-1}(y)\\,dy$ is the area between the curve and the $y$-axis for $0\\le y\\le b$ (since $y=f(x)\\Leftrightarrow x=f^{-1}(y)$). The rectangle $[0,a]\\times[0,b]$ has area $ab$.\n\n**Case 1: $f(a)=b$.** The two areas fit together exactly to fill the rectangle: the sum equals $ab$.\n\n**Case 2: $f(a)<b$.** The area to the left of the curve for $0\\le y\\le b$ extends beyond $x=a$ by an extra region $A_1>0$ (above the curve, to the right of $x=a$), so the sum is $ab+A_1>ab$.\n\n**Case 3: $f(a)>b$.** The area under the curve for $0\\le x\\le a$ extends above the line $y=b$ by an extra region $A_2>0$, so the sum is $ab+A_2>ab$.\n\n**Trivial case:** if $a=0$ or $b=0$, then $ab=0$ and both integrals are $\\ge0$ (as $f,f^{-1}\\ge0$ on $[0,\\infty)$), so the sum is $\\ge ab$.\n\nIn every case $\\displaystyle\\int_0^af(x)\\,dx+\\int_0^bf^{-1}(y)\\,dy\\ge ab$. $\\blacksquare$",
+   "answer_images": [
+    "assets/img/ext2-2025-normanhurst/q16a-case1.png",
+    "assets/img/ext2-2025-normanhurst/q16a-case2.png",
+    "assets/img/ext2-2025-normanhurst/q16a-case3.png"
+   ]
+  },
+  {
+   "ref": "Q16(a)(ii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.1.3.9",
+    "12.4.1.13"
+   ],
+   "question": "Given the result: if $f$ is continuous with $f'(x)>0$, $f''(x)<0$ and $f(0)=0$, then\n$$\\int_0^af(x)\\,dx+\\int_0^bf^{-1}(y)\\,dy\\ge ab\\quad(a,b\\ge0),$$\nprove that\n$$\\tan^{-1}\\left(\\frac12\\right)\\ge\\frac\\pi6+\\ln\\left(\\frac{15}{16}\\right).$$",
+   "answer": "Take $f(x)=\\tan^{-1}x$ for $x\\ge0$: $f(0)=0$, $f'(x)=\\dfrac1{1+x^2}>0$ and $f''(x)=\\dfrac{-2x}{(1+x^2)^2}<0$ for $x>0$, so the result applies. $f^{-1}(y)=\\tan y$.\n\nIntegrate by parts: $\\displaystyle\\int_0^a\\tan^{-1}x\\,dx=\\left[x\\tan^{-1}x\\right]_0^a-\\int_0^a\\frac{x}{1+x^2}dx=a\\tan^{-1}a-\\tfrac12\\ln(1+a^2)$, and $\\displaystyle\\int_0^b\\tan y\\,dy=\\left[-\\ln\\cos y\\right]_0^b=-\\ln\\cos b$ (for $0\\le b<\\frac\\pi2$).\n\nSo $a\\tan^{-1}a-\\tfrac12\\ln(1+a^2)-\\ln\\cos b\\ge ab$. Let $a=\\tfrac12$ and $b=\\tfrac\\pi6$: $\\cos b=\\tfrac{\\sqrt3}{2}$, $1+a^2=\\tfrac54$:\n$$\\tfrac12\\tan^{-1}\\tfrac12-\\tfrac12\\ln\\tfrac54-\\ln\\tfrac{\\sqrt3}2\\ge\\tfrac\\pi{12}.$$\nMultiply by $2$: $\\tan^{-1}\\tfrac12\\ge\\tfrac\\pi6+\\ln\\tfrac54+2\\ln\\tfrac{\\sqrt3}2=\\tfrac\\pi6+\\ln\\tfrac54+\\ln\\tfrac34=\\tfrac\\pi6+\\ln\\tfrac{15}{16}$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.5.2",
+    "12.5.5.1"
+   ],
+   "question": "An object of mass $2$ kg is at a height of $90$ metres above the ground. It is dropped from rest and falls vertically downwards through a gaseous medium which exerts a resistance to the motion equal to $\\dfrac{v^2}{45}$ newtons, where $v$ m s$^{-1}$ is the velocity of the object. After falling $25$ metres, the object exits the gaseous medium and continues to fall vertically downwards, subject to air resistance equal to $\\dfrac v{10}$ newtons. The acceleration due to gravity is $10$ m s$^{-2}$.\n\nShow that the object exits the gaseous medium approximately $2.34$ seconds after it was dropped.",
+   "answer": "Take downwards as positive. In the gaseous medium: $2\\ddot x=20-\\dfrac{v^2}{45}$, so $\\ddot x=\\dfrac{900-v^2}{90}$.\n\n*Speed on exit* ($v=V$ at $x=25$): $v\\dfrac{dv}{dx}=\\dfrac{900-v^2}{90}$, so\n$$\\int_0^V\\frac{v}{900-v^2}\\,dv=\\int_0^{25}\\frac1{90}\\,dx\\ \\Rightarrow\\ -\\tfrac12\\ln\\frac{900-V^2}{900}=\\frac{25}{90}\\ \\Rightarrow\\ 900-V^2=900e^{-5/9},$$\n$V^2=900\\left(1-e^{-5/9}\\right)$, $V\\approx19.586$ m s$^{-1}$.\n\n*Time:* $\\dfrac{dv}{dt}=\\dfrac{(30+v)(30-v)}{90}$, so (with $0\\le v<30$)\n$$\\int_0^V\\frac{1}{(30+v)(30-v)}dv=\\int_0^t\\frac1{90}dt\\ \\Rightarrow\\ \\frac1{60}\\int_0^V\\left(\\frac1{30+v}+\\frac1{30-v}\\right)dv=\\frac t{90}\\ \\Rightarrow\\ \\frac1{60}\\ln\\frac{30+V}{30-V}=\\frac t{90}.$$\nSo $t=\\dfrac32\\ln\\dfrac{30+V}{30-V}=\\dfrac32\\ln\\dfrac{49.586}{10.414}\\approx2.34$ s.\n\nThe object exits the gaseous medium about $2.34$ seconds after being dropped. $\\blacksquare$"
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.5.6",
+    "12.5.5.3"
+   ],
+   "question": "An object $A$ of mass $2$ kg is dropped from rest at a height of $90$ m above the ground. It falls through a gaseous medium (resistance $\\frac{v^2}{45}$ newtons) for its first $25$ m, i.e. between $90$ m and $65$ m above the ground, exiting it about $2.34$ s after release; below that it falls through air with resistance $\\frac{v}{10}$ newtons. Take $g=10$ m s$^{-2}$.\n\nAt the same instant that $A$ is dropped, an identical second object $B$ (mass $2$ kg) is launched vertically upwards from the ground directly below, at a speed of $40$ m s$^{-1}$, subject to air resistance $\\frac v{10}$ newtons, and it collides with $A$.\n\nDetermine in which medium (the gaseous medium or the air) the two objects collide. Justify your answer with the appropriate calculations.",
+   "answer": "Take upwards as positive for $B$ (in air): $2\\ddot x=-20-\\dfrac v{10}$, so $\\dfrac{dv}{dt}=-\\dfrac{200+v}{20}$.\n$$\\int_{40}^{v}\\frac{dv}{200+v}=-\\frac1{20}\\int_0^tdt\\ \\Rightarrow\\ \\ln\\frac{200+v}{240}=-\\frac t{20}\\ \\Rightarrow\\ v=240e^{-t/20}-200.$$\nIntegrating with $x(0)=0$: $x=4800\\left(1-e^{-t/20}\\right)-200t$.\n\nAt $t=2.34$ s (when $A$ leaves the gaseous medium): $x_B\\approx62.0$ m and $v_B\\approx13.5>0$, so $B$ is $62$ m above the ground and still rising.\n\nThe gaseous medium occupies heights $65$–$90$ m. At $t\\approx2.34$ s, $A$ is at $65$ m and $B$ is only at $62$ m, so $B$ has not yet reached the gas (and before this time $B$ was lower still, while $A$ was in the gas above $65$ m). Hence they cannot meet in the gaseous medium. After $t\\approx2.34$ s, $A$ is below $65$ m and falling while $B$ (below $A$) is rising, so they meet below $65$ m, in the air.\n\nThe two objects collide in the **air**."
+  }
+ ]
+}
