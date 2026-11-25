@@ -223,8 +223,8 @@
     "12.3.2.6",
     "12.3.2.3"
    ],
-   "question": "Express $-5-5i$ in the form $re^{i\\theta}$, where $-\\pi<\\theta\\le\\pi$.",
-   "answer": "$r=|-5-5i|=\\sqrt{25+25}=5\\sqrt2$. The point is in the third quadrant with reference angle $\\frac\\pi4$, so $\\theta=-\\pi+\\frac\\pi4=-\\frac{3\\pi}4$.\n\n$$-5-5i=5\\sqrt2\\,e^{-\\frac{3\\pi}4i}.$$"
+   "question": "Express $-5-5i$ in the form $r\\operatorname{cis}\\theta$, where $-\\pi<\\theta\\le\\pi$.",
+   "answer": "$r=|-5-5i|=\\sqrt{25+25}=5\\sqrt2$. The point is in the third quadrant with reference angle $\\frac\\pi4$, so $\\theta=-\\pi+\\frac\\pi4=-\\frac{3\\pi}4$.\n\n$$-5-5i=5\\sqrt2\\operatorname{cis}\\!\\left(-\\frac{3\\pi}4\\right).$$"
   },
   {
    "ref": "Q11(a)(ii)",
@@ -235,8 +235,8 @@
     "12.3.4.10",
     "12.3.4.7"
    ],
-   "question": "The point on an Argand diagram that represents $-5-5i$ is one of the vertices of an equilateral triangle whose centre is at the origin.\n\nFind the complex numbers represented by the other two vertices of the triangle. Give your answers in the form $re^{i\\theta}$, where $-\\pi<\\theta\\le\\pi$.",
-   "answer": "The vertices are equidistant from the centre, so each has modulus $5\\sqrt2$, and they are $\\frac{2\\pi}3$ apart in argument. Rotating $5\\sqrt2\\,e^{-\\frac{3\\pi}4i}$ by $\\pm\\frac{2\\pi}3$:\n\n$-\\frac{3\\pi}4+\\frac{2\\pi}3=-\\frac\\pi{12}$ and $-\\frac{3\\pi}4-\\frac{2\\pi}3=-\\frac{17\\pi}{12}\\equiv\\frac{7\\pi}{12}$.\n\nThe other two vertices are $5\\sqrt2\\,e^{-\\frac\\pi{12}i}$ and $5\\sqrt2\\,e^{\\frac{7\\pi}{12}i}$."
+   "question": "The point on an Argand diagram that represents $-5-5i$ is one of the vertices of an equilateral triangle whose centre is at the origin.\n\nFind the complex numbers represented by the other two vertices of the triangle. Give your answers in the form $r\\operatorname{cis}\\theta$, where $-\\pi<\\theta\\le\\pi$.",
+   "answer": "The vertices are equidistant from the centre, so each has modulus $5\\sqrt2$, and they are $\\frac{2\\pi}3$ apart in argument. Rotating $5\\sqrt2\\operatorname{cis}\\!\\left(-\\frac{3\\pi}4\\right)$ by $\\pm\\frac{2\\pi}3$:\n\n$-\\frac{3\\pi}4+\\frac{2\\pi}3=-\\frac\\pi{12}$ and $-\\frac{3\\pi}4-\\frac{2\\pi}3=-\\frac{17\\pi}{12}\\equiv\\frac{7\\pi}{12}$.\n\nThe other two vertices are $5\\sqrt2\\operatorname{cis}\\!\\left(-\\frac\\pi{12}\\right)$ and $5\\sqrt2\\operatorname{cis}\\!\\left(\\frac{7\\pi}{12}\\right)$."
   },
   {
    "ref": "Q11(b)(i)",

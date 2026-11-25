@@ -1,0 +1,484 @@
+{
+ "id": "ext1-2025-north-sydney-girls",
+ "course": "extension1",
+ "school": "North Sydney Girls",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "North Sydney Girls 2025 w. sol"
+ },
+ "indexed": "2026-11-26",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q5",
+   "reason": "Not in 2024 syllabus: graphs of y^2 = f(x)"
+  },
+  {
+   "ref": "Q12(e)",
+   "reason": "Not in 2024 syllabus: pigeonhole principle"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.2.5"
+   ],
+   "question": "What is the remainder when $P(x)=x^3-2x^2+x+5$ is divided by $(x-2)$?",
+   "answer": "By the remainder theorem, $P(2)=8-8+2+5=7$ (C).",
+   "options": [
+    "$-13$",
+    "$5$",
+    "$7$",
+    "$8$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.6",
+    "12.2.2.8"
+   ],
+   "question": "A particle has four ropes attached to it. The ropes pull the particle with forces $\\mathbf i+4\\mathbf j$, $b\\mathbf i-3\\mathbf j$, $8\\mathbf i$ and $a\\mathbf j$ as shown in the diagram. If the particle is in equilibrium, what are the values of $a$ and $b$?",
+   "answer": "In equilibrium the resultant is zero. $\\mathbf i$: $1+b+8=0\\Rightarrow b=-9$. $\\mathbf j$: $4-3+a=0\\Rightarrow a=-1$ (C).",
+   "options": [
+    "$a=-9,\\ b=-8$",
+    "$a=-9,\\ b=-1$",
+    "$a=-1,\\ b=-9$",
+    "$a=-1,\\ b=9$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/ext1-2025-north-sydney-girls/q2.png"
+   ]
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.5"
+   ],
+   "question": "What is the range of $y=\\pi+\\tan^{-1}(x)$?",
+   "answer": "$\\tan^{-1}x\\in\\left(-\\frac\\pi2,\\frac\\pi2\\right)$, so adding $\\pi$ gives $y\\in\\left(\\frac\\pi2,\\frac{3\\pi}2\\right)$ (B).",
+   "options": [
+    "All real $y$",
+    "$\\left(\\dfrac\\pi2,\\dfrac{3\\pi}2\\right)$",
+    "$\\left(-\\dfrac\\pi2,\\dfrac\\pi2\\right)$",
+    "$\\left(-\\dfrac{3\\pi}2,-\\dfrac\\pi2\\right)$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.8",
+    "11.4.1.9"
+   ],
+   "question": "How many arrangements in a row of the letters of the word SECRETS begin and end with E?",
+   "answer": "Fix an E at each end (there are two Es, so they are used up). The remaining letters S, C, R, T, S are arranged in the middle: $\\dfrac{5!}{2!}$ (D), as the two Ss are identical.",
+   "options": [
+    "$\\dfrac{7!}{2!\\times2!}$",
+    "$\\dfrac{7!}{2!}$",
+    "$\\dfrac{5!}{2!\\times2!}$",
+    "$\\dfrac{5!}{2!}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "The surface area of a sphere is increasing at a rate of $0.05\\ \\text{mm}^2/\\text{s}$. At what rate is the radius changing when it is $4$ mm?",
+   "answer": "$S=4\\pi r^2\\Rightarrow\\dfrac{dS}{dr}=8\\pi r$. $\\dfrac{dr}{dt}=\\dfrac{dS/dt}{dS/dr}=\\dfrac{0.05}{8\\pi(4)}=\\dfrac{1}{640\\pi}$ mm/s (B).",
+   "options": [
+    "$\\dfrac1{160\\pi}$ mm/s",
+    "$\\dfrac1{640\\pi}$ mm/s",
+    "$\\dfrac1{1280\\pi}$ mm/s",
+    "$\\dfrac3{5120\\pi}$ mm/s"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.9"
+   ],
+   "question": "What is the magnitude of the projection of $\\mathbf u=\\begin{pmatrix}5\\\\-1\\end{pmatrix}$ onto $\\mathbf v=\\begin{pmatrix}2\\\\9\\end{pmatrix}$?",
+   "answer": "$|\\operatorname{proj}_{\\mathbf v}\\mathbf u|=\\dfrac{|\\mathbf u\\cdot\\mathbf v|}{|\\mathbf v|}=\\dfrac{|10-9|}{\\sqrt{4+81}}=\\dfrac1{\\sqrt{85}}$ (A).",
+   "options": [
+    "$\\dfrac1{\\sqrt{85}}$",
+    "$\\dfrac{19}{\\sqrt{85}}$",
+    "$\\dfrac1{85}$",
+    "$\\dfrac1{\\sqrt{26}}$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "Which expression is equivalent to $\\displaystyle\\int\\frac1{\\sqrt{7-4x^2}}\\,dx$?",
+   "answer": "$\\displaystyle\\int\\frac{dx}{\\sqrt{7-(2x)^2}}=\\frac12\\sin^{-1}\\!\\left(\\frac{2x}{\\sqrt7}\\right)+C$ (A).",
+   "options": [
+    "$\\dfrac12\\sin^{-1}\\!\\left(\\dfrac{2x}{\\sqrt7}\\right)+C$",
+    "$\\dfrac12\\sin^{-1}\\!\\left(\\dfrac{2x}{7}\\right)+C$",
+    "$\\dfrac1{\\sqrt7}\\sin^{-1}\\!\\left(\\dfrac{2x}{\\sqrt7}\\right)+C$",
+    "$\\dfrac17\\sin^{-1}\\!\\left(\\dfrac{4x}{\\sqrt7}\\right)+C$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "When expanded, which expression contains a non-zero constant term?",
+   "answer": "In $\\left(x^2-x^{-1/2}\\right)^n$ the general term is $\\binom nk(x^2)^{n-k}\\left(-x^{-1/2}\\right)^k$, with power of $x$: $2(n-k)-\\frac k2=2n-\\frac{5k}2$. For a constant term, $k=\\frac{4n}5$ must be an integer, so $5\\mid n$. Only $n=10$ qualifies ($k=8$) (D).",
+   "options": [
+    "$\\left(x^2-\\dfrac1{\\sqrt x}\\right)^3$",
+    "$\\left(x^2-\\dfrac1{\\sqrt x}\\right)^6$",
+    "$\\left(x^2-\\dfrac1{\\sqrt x}\\right)^8$",
+    "$\\left(x^2-\\dfrac1{\\sqrt x}\\right)^{10}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.1.2.2",
+    "11.1.2.9"
+   ],
+   "question": "Two particles move simultaneously along the curves $y=f(x)$ (starting from $A$) and $y=f^{-1}(x)$ (starting from $B$) respectively, as shown. When the particle on $y=f(x)$ reaches $P$, it is one unit vertically above the origin. At that moment, the particle on $y=f^{-1}(x)$ reaches point $Q$ and is one unit to the right of the origin. The velocity vector of the particle at $Q$ is $\\begin{pmatrix}\\sqrt3\\\\1\\end{pmatrix}$. Which of the following could represent the velocity vector at $P$?",
+   "answer": "The graph of $y=f^{-1}(x)$ is the reflection of $y=f(x)$ in $y=x$, and $Q$ is the reflection of $P$. The particles move simultaneously, so the motion of one is the reflection of the other, and reflecting in $y=x$ swaps the components of a vector. The velocity at $P$ is therefore $\\begin{pmatrix}1\\\\\\sqrt3\\end{pmatrix}$ (B).",
+   "options": [
+    "$\\begin{pmatrix}2\\\\\\sqrt3\\end{pmatrix}$",
+    "$\\begin{pmatrix}1\\\\\\sqrt3\\end{pmatrix}$",
+    "$\\begin{pmatrix}1\\\\-\\sqrt3\\end{pmatrix}$",
+    "$\\begin{pmatrix}\\sqrt3\\\\1\\end{pmatrix}$"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/ext1-2025-north-sydney-girls/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Solve $\\dfrac{4x}{2-x}\\ge3$.",
+   "answer": "$x\\ne2$. $\\dfrac{4x}{2-x}-3\\ge0\\Rightarrow\\dfrac{7x-6}{2-x}\\ge0$. Multiply by $(2-x)^2>0$: $(7x-6)(2-x)\\ge0$, so $\\dfrac67\\le x<2$ (excluding $x=2$).\n$$\\frac67\\le x<2$$"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Find the derivative of $y=x\\arctan(2x)$.",
+   "answer": "By the product rule, $y'=\\arctan(2x)+x\\cdot\\dfrac{2}{1+4x^2}=\\arctan(2x)+\\dfrac{2x}{1+4x^2}$."
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.3.3"
+   ],
+   "question": "The parametric equations of a curve are $x=e^{-4t}$ and $y=e^{12t}-1$. Find the Cartesian equation of this curve, stating any restrictions on the domain and range.",
+   "answer": "$e^{4t}=\\dfrac1x$, so $e^{12t}=\\dfrac1{x^3}$. Hence $$y=\\frac1{x^3}-1.$$ Since $x=e^{-4t}>0$ and $y=e^{12t}-1>-1$: domain $x>0$, range $y>-1$."
+  },
+  {
+   "ref": "Q11(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.10"
+   ],
+   "question": "Two prefects sit around a circular table with six other students. Find the number of possible seating arrangements.",
+   "answer": "Eight people around a circle: $(8-1)!=7!=5040$."
+  },
+  {
+   "ref": "Q11(d)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.11"
+   ],
+   "question": "Two prefects sit around a circular table with six other students. Find the number of seating arrangements if the prefects are not seated together.",
+   "answer": "Prefects together: treat them as one block, giving $(7-1)!\\times2!=6!\\times2=1440$ arrangements. Not together: $5040-1440=3600$."
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Use the substitution $u=e^x+3$ to find $\\displaystyle\\int_0^{\\ln6}\\frac{e^x}{(e^x+3)^{3/2}}\\,dx$.",
+   "answer": "$du=e^x\\,dx$; $x=0\\Rightarrow u=4$, $x=\\ln6\\Rightarrow u=9$.\n$\\displaystyle\\int_4^9u^{-3/2}\\,du=\\Big[-2u^{-1/2}\\Big]_4^9=-2\\left(\\frac13-\\frac12\\right)=\\frac13$."
+  },
+  {
+   "ref": "Q11(f)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.3.3.1",
+    "11.3.2.4"
+   ],
+   "question": "Using the substitution $t=\\tan\\theta$, solve $\\sec2\\theta-2\\tan2\\theta=1$ for $0\\le\\theta\\le\\pi$.",
+   "answer": "With $t=\\tan\\theta$: $\\cos2\\theta=\\dfrac{1-t^2}{1+t^2}$ and $\\tan2\\theta=\\dfrac{2t}{1-t^2}$, so $\\sec2\\theta=\\dfrac{1+t^2}{1-t^2}$ (for $t\\ne\\pm1$).\n$\\dfrac{1+t^2}{1-t^2}-\\dfrac{4t}{1-t^2}=1\\Rightarrow1+t^2-4t=1-t^2\\Rightarrow2t^2-4t=0\\Rightarrow t=0$ or $t=2$.\n$\\tan\\theta=0\\Rightarrow\\theta=0,\\pi$; $\\tan\\theta=2\\Rightarrow\\theta=\\tan^{-1}2\\approx1.107$.\n$$\\theta=0,\\ 1.107,\\ \\pi$$ (check $\\theta=\\frac\\pi2$, where $t$ is undefined: $\\sec\\pi-2\\tan\\pi=-1\\ne1$, so it is not a solution)."
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.4.2",
+    "12.2.3.6"
+   ],
+   "question": "Evaluate $(\\mathbf a+\\mathbf b)\\cdot\\mathbf c$, given $\\mathbf a=\\begin{pmatrix}5\\\\-1\\end{pmatrix}$, $\\mathbf b=\\begin{pmatrix}-4\\\\2\\end{pmatrix}$ and $\\mathbf c=\\begin{pmatrix}3\\\\7\\end{pmatrix}$.",
+   "answer": "$\\mathbf a+\\mathbf b=\\begin{pmatrix}1\\\\1\\end{pmatrix}$, so $(\\mathbf a+\\mathbf b)\\cdot\\mathbf c=3+7=10$."
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "Using $(\\mathbf a+\\mathbf b)\\cdot\\mathbf c=10$ (with $\\mathbf a+\\mathbf b=\\begin{pmatrix}1\\\\1\\end{pmatrix}$ and $\\mathbf c=\\begin{pmatrix}3\\\\7\\end{pmatrix}$), find the size of the acute angle between $\\mathbf a+\\mathbf b$ and $\\mathbf c$. Give your answer to the nearest degree.",
+   "answer": "$\\cos\\theta=\\dfrac{10}{\\sqrt2\\sqrt{58}}=\\dfrac{10}{\\sqrt{116}}\\Rightarrow\\theta=21.8^\\circ\\approx22^\\circ$."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "Determine the coefficient of $x^2$ in the expansion of $(3-2x)(2+x)^4$.",
+   "answer": "$(3-2x)(2+x)^4=3(2+x)^4-2x(2+x)^4$. Using $(2+x)^4=\\sum\\binom4k2^{4-k}x^k$:\nthe $x^2$ coefficient of $(2+x)^4$ is $\\binom42\\,2^2=24$, and the $x^1$ coefficient is $\\binom41\\,2^3=32$.\nCoefficient of $x^2$ $=3(24)-2(32)=72-64=8$."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Use mathematical induction to prove that, for integers $n\\ge1$, $$\\ln\\!\\left(\\frac1{1+2}\\right)+\\ln\\!\\left(\\frac2{2+2}\\right)+\\ln\\!\\left(\\frac3{3+2}\\right)+\\dots+\\ln\\!\\left(\\frac n{n+2}\\right)=\\ln\\!\\left(\\frac2{(n+1)(n+2)}\\right)$$",
+   "answer": "**Base case** $n=1$: LHS $=\\ln\\frac13$; RHS $=\\ln\\frac{2}{2\\cdot3}=\\ln\\frac13$. ✓\n**Assume** the result holds for $n=k$ ($k\\ge1$).\n**Then** for $n=k+1$: LHS $=\\ln\\!\\left(\\dfrac{2}{(k+1)(k+2)}\\right)+\\ln\\!\\left(\\dfrac{k+1}{k+3}\\right)=\\ln\\!\\left(\\dfrac{2(k+1)}{(k+1)(k+2)(k+3)}\\right)=\\ln\\!\\left(\\dfrac2{(k+2)(k+3)}\\right)=\\ln\\!\\left(\\dfrac{2}{((k+1)+1)((k+1)+2)}\\right)$ = RHS.\nSo it holds for $n=k+1$, and by induction for all integers $n\\ge1$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "An $11$-metre ladder rests with one end against a wall and the other end on horizontal ground, level with the base of the wall, $x$ metres from the bottom of the wall. The end on the ground is sliding away from the wall at a constant rate of $0.1$ m/s. Find the rate at which the angle $\\theta$, in radians, between the ground and the ladder is decreasing when the ladder is $6$ metres away from the wall.",
+   "answer": "$\\cos\\theta=\\dfrac x{11}\\Rightarrow x=11\\cos\\theta$, so $\\dfrac{dx}{d\\theta}=-11\\sin\\theta$ and $\\dfrac{d\\theta}{dx}=\\dfrac{-1}{11\\sin\\theta}$.\n$\\dfrac{d\\theta}{dt}=\\dfrac{d\\theta}{dx}\\cdot\\dfrac{dx}{dt}=\\dfrac{-0.1}{11\\sin\\theta}$.\nWhen $x=6$: $\\cos\\theta=\\frac6{11}$, $\\sin\\theta=\\frac{\\sqrt{121-36}}{11}=\\frac{\\sqrt{85}}{11}$.\n$\\dfrac{d\\theta}{dt}=\\dfrac{-0.1}{\\sqrt{85}}\\approx-0.0108$. The angle is decreasing at $\\dfrac{0.1}{\\sqrt{85}}\\approx0.0108$ rad/s.",
+   "images": [
+    "assets/img/ext1-2025-north-sydney-girls/q12d.png"
+   ]
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.1"
+   ],
+   "question": "Show that $2\\sin5x\\cos x=\\sin6x+\\sin4x$.",
+   "answer": "$2\\sin5x\\cos x=2\\cdot\\tfrac12\\left[\\sin(5x+x)+\\sin(5x-x)\\right]=\\sin6x+\\sin4x$. $\\blacksquare$",
+   "course": "extension2"
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.4"
+   ],
+   "question": "Hence, find $\\displaystyle\\int\\frac{\\sin4x+\\sin6x}{\\cos4x+\\cos6x}\\,dx$.",
+   "answer": "Using part (i), $\\sin4x+\\sin6x=2\\sin5x\\cos x$, and similarly $\\cos6x+\\cos4x=2\\cos5x\\cos x$. So\n$\\displaystyle\\int\\frac{2\\sin5x\\cos x}{2\\cos5x\\cos x}dx=\\int\\tan5x\\,dx=-\\frac15\\ln|\\cos5x|+c$.",
+   "course": "extension2"
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.2"
+   ],
+   "question": "Write $\\sqrt3\\cos x+\\sin x$ in the form $R\\cos(x-\\alpha)$, where $R>0$ and $0<\\alpha<\\dfrac\\pi2$.",
+   "answer": "$R\\cos\\alpha=\\sqrt3$, $R\\sin\\alpha=1$. $R^2=3+1=4\\Rightarrow R=2$; $\\tan\\alpha=\\frac1{\\sqrt3}\\Rightarrow\\alpha=\\frac\\pi6$.\n$$\\sqrt3\\cos x+\\sin x=2\\cos\\!\\left(x-\\frac\\pi6\\right)$$"
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.3",
+    "12.4.2.3"
+   ],
+   "question": "A region bounded by the curve $y=\\sqrt3\\cos x+\\sin x+2$ and the coordinate axes is shown. The curve touches the $x$-axis at $x=\\dfrac{7\\pi}6$. Hence, or otherwise, find the volume of the solid formed when the shaded region is rotated about the $x$-axis.",
+   "answer": "By part (i), $y=2\\cos\\!\\left(x-\\frac\\pi6\\right)+2$.\n$V=\\pi\\displaystyle\\int_0^{7\\pi/6}\\left[2\\cos\\!\\left(x-\\tfrac\\pi6\\right)+2\\right]^2dx=4\\pi\\int_0^{7\\pi/6}\\left[\\cos^2\\!\\left(x-\\tfrac\\pi6\\right)+2\\cos\\!\\left(x-\\tfrac\\pi6\\right)+1\\right]dx$\n$=4\\pi\\displaystyle\\int_0^{7\\pi/6}\\left[\\tfrac32+\\tfrac12\\cos\\!\\left(2x-\\tfrac\\pi3\\right)+2\\cos\\!\\left(x-\\tfrac\\pi6\\right)\\right]dx=4\\pi\\left[\\tfrac{3x}2+\\tfrac14\\sin\\!\\left(2x-\\tfrac\\pi3\\right)+2\\sin\\!\\left(x-\\tfrac\\pi6\\right)\\right]_0^{7\\pi/6}$\nUpper limit: $\\frac{7\\pi}4+\\frac14\\sin2\\pi+2\\sin\\pi=\\frac{7\\pi}4$. Lower limit: $0+\\frac14\\sin\\!\\left(-\\frac\\pi3\\right)+2\\sin\\!\\left(-\\frac\\pi6\\right)=-\\frac{\\sqrt3}8-1$.\n$$V=4\\pi\\left(\\frac{7\\pi}4+\\frac{\\sqrt3}8+1\\right)=7\\pi^2+\\frac{\\sqrt3\\,\\pi}2+4\\pi\\ \\text{units}^3$$",
+   "images": [
+    "assets/img/ext1-2025-north-sydney-girls/q13b.png"
+   ]
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.6"
+   ],
+   "question": "Show that $\\sec\\!\\left(2\\sin^{-1}x\\right)$ can be expressed as $\\dfrac1{1-2x^2}$.",
+   "answer": "Let $\\alpha=\\sin^{-1}x$ (so $\\sin\\alpha=x$, $-1\\le x\\le1$). $\\sec2\\alpha=\\dfrac1{\\cos2\\alpha}=\\dfrac1{1-2\\sin^2\\alpha}=\\dfrac1{1-2x^2}$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.2.12",
+    "11.1.1.1"
+   ],
+   "question": "Hence, sketch the function $f(x)=\\sec\\!\\left(2\\sin^{-1}x\\right)$.",
+   "answer": "By part (i), $f(x)=\\dfrac1{1-2x^2}$ on the domain $-1\\le x\\le1$, $x\\ne\\pm\\frac1{\\sqrt2}$.\n- Vertical asymptotes at $x=\\pm\\frac1{\\sqrt2}$.\n- For $|x|<\\frac1{\\sqrt2}$: $f(x)\\ge1$ with a minimum at $(0,1)$, rising to $+\\infty$ at the asymptotes.\n- For $\\frac1{\\sqrt2}<|x|\\le1$: $f(x)\\le-1$, coming from $-\\infty$ at the asymptote to the endpoints $(\\pm1,-1)$.",
+   "answer_images": [
+    "assets/img/ext1-2025-north-sydney-girls/a13c.png"
+   ]
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.4.7",
+    "12.2.3.6"
+   ],
+   "question": "The points $A$ and $B$ have position vectors $\\mathbf a$ and $\\mathbf b$ relative to a fixed point $O$. The vector $\\overrightarrow{AB}$ is extended to a point $C$ such that $|\\overrightarrow{AB}|:|\\overrightarrow{AC}|=1:4$. The vector $\\overrightarrow{OB}$ is extended to a point $D$ such that $|\\overrightarrow{OB}|:|\\overrightarrow{OD}|=1:k$, where $k$ is a positive constant. If $\\overrightarrow{AB}$ and $\\overrightarrow{CD}$ are perpendicular, show that $k=\\dfrac{3|\\mathbf a|^2-7\\mathbf a\\cdot\\mathbf b+4|\\mathbf b|^2}{|\\mathbf b|^2-\\mathbf a\\cdot\\mathbf b}$.",
+   "answer": "$\\overrightarrow{AB}=\\mathbf b-\\mathbf a$, $\\overrightarrow{AC}=4\\overrightarrow{AB}=4\\mathbf b-4\\mathbf a$, $\\overrightarrow{OD}=k\\mathbf b$.\n$\\overrightarrow{OC}=\\mathbf a+4\\mathbf b-4\\mathbf a=4\\mathbf b-3\\mathbf a$, so $\\overrightarrow{CD}=k\\mathbf b-(4\\mathbf b-3\\mathbf a)=3\\mathbf a+(k-4)\\mathbf b$.\n$\\overrightarrow{AB}\\cdot\\overrightarrow{CD}=0$: $[3\\mathbf a+(k-4)\\mathbf b]\\cdot(\\mathbf b-\\mathbf a)=0$\n$3\\mathbf a\\cdot\\mathbf b-3|\\mathbf a|^2+(k-4)|\\mathbf b|^2-(k-4)\\mathbf a\\cdot\\mathbf b=0$\n$(k-4)\\left(|\\mathbf b|^2-\\mathbf a\\cdot\\mathbf b\\right)=3|\\mathbf a|^2-3\\mathbf a\\cdot\\mathbf b$\n$k=4+\\dfrac{3|\\mathbf a|^2-3\\mathbf a\\cdot\\mathbf b}{|\\mathbf b|^2-\\mathbf a\\cdot\\mathbf b}=\\dfrac{4|\\mathbf b|^2-4\\mathbf a\\cdot\\mathbf b+3|\\mathbf a|^2-3\\mathbf a\\cdot\\mathbf b}{|\\mathbf b|^2-\\mathbf a\\cdot\\mathbf b}=\\dfrac{3|\\mathbf a|^2-7\\mathbf a\\cdot\\mathbf b+4|\\mathbf b|^2}{|\\mathbf b|^2-\\mathbf a\\cdot\\mathbf b}$. $\\blacksquare$",
+   "images": [
+    "assets/img/ext1-2025-north-sydney-girls/q13d.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.6.7"
+   ],
+   "question": "A projectile is launched from the origin at ground level with an initial velocity of $V$ m/s at an angle $\\theta$ above the horizontal. The displacement vector $t$ seconds after launch is $\\mathbf r(t)=\\begin{pmatrix}Vt\\cos\\theta\\\\-\\frac12gt^2+Vt\\sin\\theta\\end{pmatrix}$ (do not prove this). Show that the maximum height attained by the projectile is $\\dfrac{V^2\\sin^2\\theta}{2g}$.",
+   "answer": "$\\mathbf v(t)=\\begin{pmatrix}V\\cos\\theta\\\\-gt+V\\sin\\theta\\end{pmatrix}$. At maximum height $\\dot y=0$: $t=\\dfrac{V\\sin\\theta}g$.\n$y_{\\max}=-\\frac12g\\left(\\frac{V\\sin\\theta}g\\right)^2+V\\sin\\theta\\cdot\\frac{V\\sin\\theta}g=-\\frac{V^2\\sin^2\\theta}{2g}+\\frac{V^2\\sin^2\\theta}g=\\dfrac{V^2\\sin^2\\theta}{2g}$. $\\blacksquare$",
+   "images": [
+    "assets/img/ext1-2025-north-sydney-girls/q14a.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.6.7"
+   ],
+   "question": "A projectile is launched from the origin at ground level with initial speed $V$ at angle $\\theta$ above the horizontal, with maximum height $\\dfrac{V^2\\sin^2\\theta}{2g}$. Hence, determine the set of values of $\\theta$ for which the maximum height reached by the projectile is less than its range. Give your answer to the nearest degree.",
+   "answer": "Range: $y=0\\Rightarrow t\\left(V\\sin\\theta-\\frac12gt\\right)=0$, so the time of flight is $t=\\dfrac{2V\\sin\\theta}g$ and $R=V\\cos\\theta\\cdot\\dfrac{2V\\sin\\theta}g=\\dfrac{2V^2\\sin\\theta\\cos\\theta}g$.\n$y_{\\max}<R$: $\\dfrac{V^2\\sin^2\\theta}{2g}<\\dfrac{2V^2\\sin\\theta\\cos\\theta}g\\Rightarrow\\sin^2\\theta<4\\sin\\theta\\cos\\theta$.\nFor $0<\\theta<\\frac\\pi2$, $\\sin\\theta>0$: $\\sin\\theta<4\\cos\\theta\\Rightarrow\\tan\\theta<4\\Rightarrow\\theta<76^\\circ$.\n$$0^\\circ<\\theta<76^\\circ$$"
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "11.1.2.4",
+    "11.1.2.1"
+   ],
+   "question": "The function $f(x)=\\dfrac{1+kx}{x^2-1}$ is continuous in the domain $-1<x<1$. Find the values of $k$ such that the inverse function $f^{-1}(x)$ exists.",
+   "answer": "$f^{-1}$ exists only if $f$ is one-to-one, i.e. monotonic on $(-1,1)$, so $f'(x)$ must not change sign.\n$f'(x)=\\dfrac{k(x^2-1)-2x(1+kx)}{(x^2-1)^2}=\\dfrac{-(kx^2+2x+k)}{(x^2-1)^2}$. The sign of $f'$ is the sign of $-(kx^2+2x+k)$.\nThe quadratic $kx^2+2x+k$ keeps one sign for all $x$ if $k>0$ and $\\Delta\\le0$, or $k<0$ and $\\Delta\\le0$. $\\Delta=4-4k^2\\le0\\Rightarrow k^2\\ge1\\Rightarrow k\\le-1$ or $k\\ge1$. (If $|k|<1$ the roots have product $1$, so exactly one lies in $(-1,1)$ and $f'$ changes sign; $k=0$ gives $f'\\propto-2x$, which also changes sign.)\n$$k\\le-1\\ \\text{ or }\\ k\\ge1$$"
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.2.1.9",
+    "12.5.1.1"
+   ],
+   "question": "The equation $px^3+qx+r=0$ has a double root. Show that $27pr^2+4q^3=0$.",
+   "answer": "Let $P(x)=px^3+qx+r$. A double root $\\alpha$ satisfies $P(\\alpha)=0$ and $P'(\\alpha)=3p\\alpha^2+q=0$, so $\\alpha^2=-\\dfrac q{3p}$.\n$r=-p\\alpha^3-q\\alpha=-\\alpha\\left(p\\alpha^2+q\\right)=-\\alpha\\cdot\\dfrac{2q}3$. Squaring: $r^2=\\dfrac{4q^2}9\\alpha^2=\\dfrac{4q^2}9\\cdot\\left(-\\dfrac q{3p}\\right)=-\\dfrac{4q^3}{27p}$.\n$27pr^2=-4q^3\\Rightarrow27pr^2+4q^3=0$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.2.1.9"
+   ],
+   "question": "Using $27pr^2+4q^3=0$ for a cubic $px^3+qx+r=0$ with a double root, find the exact value of the $y$ coordinates of the stationary points on the curve $y=2x^3-3x-1$ without the use of calculus.",
+   "answer": "A stationary point at height $y=k$ corresponds to $2x^3-3x-1=k$ having a double root, i.e. $2x^3-3x-(1+k)=0$. Here $p=2$, $q=-3$, $r=-(1+k)$.\n$27(2)(1+k)^2+4(-27)=0\\Rightarrow54(1+k)^2=108\\Rightarrow(1+k)^2=2\\Rightarrow k=-1\\pm\\sqrt2$.\nThe $y$ coordinates are $-1+\\sqrt2$ and $-1-\\sqrt2$."
+  }
+ ]
+}

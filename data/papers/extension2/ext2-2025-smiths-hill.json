@@ -336,7 +336,7 @@
     "12.3.1.12",
     "12.3.2.9"
    ],
-   "question": "Consider the complex number $z=re^{i\\theta}$. Show that $\\phi=\\dfrac{2z}{z^2+|z|^2}$ is purely real.",
+   "question": "Consider the complex number $z=r\\operatorname{cis}\\theta$. Show that $\\phi=\\dfrac{2z}{z^2+|z|^2}$ is purely real.",
    "answer": "$|z|^2=z\\bar z$, so $\\phi=\\dfrac{2z}{z^2+z\\bar z}=\\dfrac{2z}{z(z+\\bar z)}=\\dfrac{2}{z+\\bar z}=\\dfrac{2}{2\\operatorname{Re}(z)}=\\dfrac1{r\\cos\\theta}$, which is real. $\\blacksquare$"
   },
   {

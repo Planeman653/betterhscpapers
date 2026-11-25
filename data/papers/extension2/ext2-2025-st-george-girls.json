@@ -595,10 +595,10 @@
    "marks": 1,
    "difficulty": 2,
    "dotpoints": [
-    "12.3.4.4"
+    "12.3.4.3"
    ],
-   "question": "Consider $S_n=1+z+z^2+z^3+\\dots+z^n$, where $z=e^{i\\theta}$. Show that $S_n=\\dfrac{e^{i(n+1)\\theta}-1}{e^{i\\theta}-1}$.",
-   "answer": "$S_n$ is a geometric series with first term $1$, common ratio $z$ and $n+1$ terms: $S_n=\\dfrac{z^{n+1}-1}{z-1}=\\dfrac{\\left(e^{i\\theta}\\right)^{n+1}-1}{e^{i\\theta}-1}=\\dfrac{e^{i(n+1)\\theta}-1}{e^{i\\theta}-1}$. $\\blacksquare$"
+   "question": "Consider $S_n=1+z+z^2+z^3+\\dots+z^n$, where $z=\\cos\\theta+i\\sin\\theta$. Show that $S_n=\\dfrac{\\operatorname{cis}((n+1)\\theta)-1}{\\operatorname{cis}\\theta-1}$.",
+   "answer": "$S_n$ is a geometric series with first term $1$, common ratio $z$ and $n+1$ terms: $S_n=\\dfrac{z^{n+1}-1}{z-1}$. By de Moivre's theorem $z^{n+1}=\\operatorname{cis}((n+1)\\theta)$, so $S_n=\\dfrac{\\operatorname{cis}((n+1)\\theta)-1}{\\operatorname{cis}\\theta-1}$. $\\blacksquare$"
   },
   {
    "ref": "Q16(d)(ii)",
@@ -608,8 +608,8 @@
    "dotpoints": [
     "12.3.4.4"
    ],
-   "question": "With $S_n=1+z+\\dots+z^n=\\dfrac{e^{i(n+1)\\theta}-1}{e^{i\\theta}-1}$ where $z=e^{i\\theta}$, hence show that $\\sin\\theta+\\sin2\\theta+\\sin3\\theta+\\dots+\\sin n\\theta=\\dfrac{\\sin\\!\\left(\\frac{n\\theta}2\\right)\\sin\\!\\left(\\frac{n+1}2\\theta\\right)}{\\sin\\!\\left(\\frac\\theta2\\right)}$.",
-   "answer": "$\\sin\\theta+\\dots+\\sin n\\theta=\\operatorname{Im}(S_n)$, since $\\operatorname{Im}(z^k)=\\sin k\\theta$ and $\\operatorname{Im}(1)=0$.\nFactor half-angles: $e^{i(n+1)\\theta}-1=e^{i(n+1)\\theta/2}\\left(e^{i(n+1)\\theta/2}-e^{-i(n+1)\\theta/2}\\right)=e^{i(n+1)\\theta/2}\\cdot2i\\sin\\frac{(n+1)\\theta}2$, and $e^{i\\theta}-1=e^{i\\theta/2}\\cdot2i\\sin\\frac\\theta2$.\n$$S_n=e^{in\\theta/2}\\,\\frac{\\sin\\frac{(n+1)\\theta}2}{\\sin\\frac\\theta2}$$\nTaking the imaginary part: $\\operatorname{Im}(S_n)=\\sin\\frac{n\\theta}2\\cdot\\dfrac{\\sin\\frac{(n+1)\\theta}2}{\\sin\\frac\\theta2}$. $\\blacksquare$"
+   "question": "With $S_n=1+z+\\dots+z^n=\\dfrac{\\operatorname{cis}((n+1)\\theta)-1}{\\operatorname{cis}\\theta-1}$ where $z=\\operatorname{cis}\\theta$, hence show that $\\sin\\theta+\\sin2\\theta+\\sin3\\theta+\\dots+\\sin n\\theta=\\dfrac{\\sin\\!\\left(\\frac{n\\theta}2\\right)\\sin\\!\\left(\\frac{n+1}2\\theta\\right)}{\\sin\\!\\left(\\frac\\theta2\\right)}$.",
+   "answer": "$\\sin\\theta+\\dots+\\sin n\\theta=\\operatorname{Im}(S_n)$, since $\\operatorname{Im}(z^k)=\\sin k\\theta$ and $\\operatorname{Im}(1)=0$.\nFactor half-angles: for any $\\varphi$, $\\operatorname{cis}\\varphi-1=\\operatorname{cis}\\frac\\varphi2\\left(\\operatorname{cis}\\frac\\varphi2-\\operatorname{cis}\\!\\left(-\\frac\\varphi2\\right)\\right)=\\operatorname{cis}\\frac\\varphi2\\cdot2i\\sin\\frac\\varphi2$. So\n$$S_n=\\frac{\\operatorname{cis}\\frac{(n+1)\\theta}2\\cdot2i\\sin\\frac{(n+1)\\theta}2}{\\operatorname{cis}\\frac\\theta2\\cdot2i\\sin\\frac\\theta2}=\\operatorname{cis}\\frac{n\\theta}2\\cdot\\frac{\\sin\\frac{(n+1)\\theta}2}{\\sin\\frac\\theta2}$$\nTaking the imaginary part: $\\operatorname{Im}(S_n)=\\sin\\frac{n\\theta}2\\cdot\\dfrac{\\sin\\frac{(n+1)\\theta}2}{\\sin\\frac\\theta2}$. $\\blacksquare$"
   }
  ]
 }
