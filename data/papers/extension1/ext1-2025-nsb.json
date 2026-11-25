@@ -1,0 +1,575 @@
+{
+ "id": "ext1-2025-nsb",
+ "course": "extension1",
+ "school": "North Sydney Boys",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "North Sydney Boys 2025 w. sol"
+ },
+ "indexed": "2026-11-26",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q11(b)",
+   "reason": "Graphs of y² = f(x) are not in the NESA 2024 Extension 1 syllabus."
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.6",
+    "12.5.1.2"
+   ],
+   "question": "The graph on the right is shown. Which function does the graph represent?",
+   "answer": "The graph has vertical asymptotes $x=1$ and $x=2$ and no $x$-intercept, so the numerator is constant: this rules out B and C.\n\nThe curve is on the same side of the $x$-axis on both sides of $x=1$ (it goes to $-\\infty$ on both sides), so $x=1$ is a double factor. The sign changes at $x=2$ (negative to the left, positive to the right), so $x=2$ is a single factor. Hence $y=\\dfrac1{(x-1)^2(x-2)}$ (D).",
+   "options": [
+    "$y=\\dfrac{1}{(x-1)(x-2)}$",
+    "$y=\\dfrac{x}{(x-1)(x-2)^2}$",
+    "$y=\\dfrac{(x-1)(x-2)}{x}$",
+    "$y=\\dfrac{1}{(x-1)^2(x-2)}$"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/ext1-2025-nsb/q1.png"
+   ]
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.4"
+   ],
+   "question": "Which of the following is equivalent to the expression $\\sqrt{\\dfrac{4+4\\cos2x}{1-\\cos2x}}$ ?",
+   "answer": "$4+4\\cos2x=4(1+\\cos2x)=8\\cos^2x$ and $1-\\cos2x=2\\sin^2x$, so\n$$\\sqrt{\\frac{8\\cos^2x}{2\\sin^2x}}=\\sqrt{4\\cot^2x}=2\\cot x$$\n(taking $\\cot x>0$, as the options require) (B).",
+   "options": [
+    "$2\\cot^2x$",
+    "$2\\cot x$",
+    "$2\\tan x$",
+    "$2\\tan^2x$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.12",
+    "12.3.2.1"
+   ],
+   "question": "The diagram shows the graph of a function. Which function does the graph represent?",
+   "answer": "The graph runs from $(-1,0)$ up to $(0,\\pi)$, passing through $\\left(-\\frac12,\\frac\\pi2\\right)$, and is increasing.\n\nFor $y=\\frac\\pi2+\\sin^{-1}(2x+1)$: $x=-1$ gives $\\frac\\pi2-\\frac\\pi2=0$, $x=-\\frac12$ gives $\\frac\\pi2+0=\\frac\\pi2$, and $x=0$ gives $\\frac\\pi2+\\frac\\pi2=\\pi$. All three points fit (B).\n\nA and D have domain $0\\le x\\le1$ and C is decreasing, so none of them can match.",
+   "options": [
+    "$y=\\dfrac\\pi2-\\sin^{-1}(2x-1)$",
+    "$y=\\dfrac\\pi2+\\sin^{-1}(2x+1)$",
+    "$y=\\cos^{-1}(2x+1)$",
+    "$y=\\cos^{-1}(2x-1)$"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/ext1-2025-nsb/q3.png"
+   ]
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.1.17"
+   ],
+   "question": "In a class of 15 students, there are 9 boys and 6 girls. The class elects four representatives for the student council. How many different groups of representatives are possible?",
+   "answer": "The gender makes no difference to the selection and order does not matter, so the number of groups is ${}^{15}C_4=\\dfrac{15\\times14\\times13\\times12}{24}=1365$ (A).",
+   "options": [
+    "$1365$",
+    "$3240$",
+    "$5005$",
+    "$32\\,760$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.2",
+    "11.2.3.4"
+   ],
+   "question": "Let $\\alpha$, $\\beta$ and $\\gamma$ be the roots of $3x^3+8x-1=0$. What is the value of $\\dfrac1\\alpha+\\dfrac1\\beta+\\dfrac1\\gamma$ ?",
+   "answer": "$\\dfrac1\\alpha+\\dfrac1\\beta+\\dfrac1\\gamma=\\dfrac{\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha}{\\alpha\\beta\\gamma}$. For $3x^3+0x^2+8x-1$: $\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha=\\dfrac83$ and $\\alpha\\beta\\gamma=-\\dfrac{-1}{3}=\\dfrac13$.\n\nSo the value is $\\dfrac{8/3}{1/3}=8$ (D).",
+   "options": [
+    "$-\\dfrac83$",
+    "$\\dfrac13$",
+    "$\\dfrac18$",
+    "$8$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "What is the coefficient of $x^8$ in the expansion of $\\left(2x^3-\\dfrac1x\\right)^{12}$ ?",
+   "answer": "The general term is $T_{k}={}^{12}C_k(2x^3)^{12-k}\\left(-\\dfrac1x\\right)^k={}^{12}C_k\\,2^{12-k}(-1)^kx^{36-4k}$.\n\n$36-4k=8\\Rightarrow k=7$, so the coefficient is $-{}^{12}C_7\\times2^5$ (D).",
+   "options": [
+    "$-{}^{12}C_8\\times2^4$",
+    "${}^{12}C_8\\times2^4$",
+    "${}^{12}C_8\\times2^5$",
+    "$-{}^{12}C_7\\times2^5$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "What is the exact value of $\\displaystyle\\int_{-1}^{1}\\sqrt{4-x^2}\\,dx$ ? Use the substitution $x=2\\sin\\theta$.",
+   "answer": "$x=2\\sin\\theta$, $dx=2\\cos\\theta\\,d\\theta$; $x=\\pm1\\Rightarrow\\theta=\\pm\\frac\\pi6$ and $\\sqrt{4-x^2}=2\\cos\\theta$. So\n$$\\int_{-\\pi/6}^{\\pi/6}4\\cos^2\\theta\\,d\\theta=\\int_{-\\pi/6}^{\\pi/6}(2+2\\cos2\\theta)\\,d\\theta=\\Big[2\\theta+\\sin2\\theta\\Big]_{-\\pi/6}^{\\pi/6}=2\\left(\\frac\\pi3+\\frac{\\sqrt3}2\\right)=\\frac{2\\pi}3+\\sqrt3\\quad\\text{(C)}.$$",
+   "options": [
+    "$\\dfrac\\pi6+\\dfrac{\\sqrt3}4$",
+    "$\\dfrac\\pi3+\\dfrac{\\sqrt3}2$",
+    "$\\dfrac{2\\pi}3+\\sqrt3$",
+    "$\\dfrac{4\\pi}3+2\\sqrt3$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.9"
+   ],
+   "question": "The projection of vector $\\mathbf u=2\\mathbf i-\\mathbf j$ onto vector $\\mathbf i+\\mathbf j$ is",
+   "answer": "$\\operatorname{proj}_{\\mathbf v}\\mathbf u=\\dfrac{\\mathbf u\\cdot\\mathbf v}{|\\mathbf v|^2}\\mathbf v=\\dfrac{2(1)+(-1)(1)}{2}(\\mathbf i+\\mathbf j)=\\dfrac12\\mathbf i+\\dfrac12\\mathbf j$ (A).",
+   "options": [
+    "$\\dfrac12\\mathbf i+\\dfrac12\\mathbf j$",
+    "$\\mathbf i-\\dfrac12\\mathbf j$",
+    "$\\dfrac12\\mathbf i-\\dfrac12\\mathbf j$",
+    "$-\\dfrac12\\mathbf i+\\mathbf j$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.6.7"
+   ],
+   "question": "A particle is projected from a window $9$ metres above the horizontal ground, at an angle of $\\theta$ above the horizontal, where $\\tan\\theta=\\dfrac34$ and the initial velocity is $20$ metres/second. What is the maximum height above the ground reached by the particle? The equations of motion are $\\ddot y=-10$ and $\\dot y=-10t+V\\sin\\theta$.",
+   "answer": "$\\tan\\theta=\\frac34\\Rightarrow\\sin\\theta=\\frac35$, so $V\\sin\\theta=12$ and $\\dot y=-10t+12$. Integrating, $y=-5t^2+12t+9$.\n\nThe maximum is when $\\dot y=0$: $t=1.2$, giving $y=-5(1.44)+14.4+9=16.2$ m (D).",
+   "options": [
+    "$6.5$ metres",
+    "$7.2$ metres",
+    "$15.5$ metres",
+    "$16.2$ metres"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.9",
+    "12.5.4.4"
+   ],
+   "question": "The differential equation that has the diagram below as its direction field is",
+   "answer": "The slope depends only on $y-x$, so it is constant along each line $y=x+c$ (all four options have this property).\n\nAlong $y=x$ the segments rise at $45^\\circ$ (slope $1$), but A gives $\\sin0=0$ (horizontal) and D is undefined there, so A and D are out. The diagram also has many nearly horizontal segments, but C, $\\dfrac1{\\cos(y-x)}$, always has $|{\\rm slope}|\\ge1$. Only B, $\\cos(y-x)$, has slope $1$ on $y=x$ and slopes of every size between $-1$ and $1$ (B).",
+   "options": [
+    "$\\dfrac{dy}{dx}=\\sin(y-x)$",
+    "$\\dfrac{dy}{dx}=\\cos(y-x)$",
+    "$\\dfrac{dy}{dx}=\\dfrac1{\\cos(y-x)}$",
+    "$\\dfrac{dy}{dx}=\\dfrac1{\\sin(y-x)}$"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/ext1-2025-nsb/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "What is the solution to the inequality $\\dfrac3{x(2x-1)}\\ge1$ ?",
+   "answer": "Bring everything to one side:\n$$\\frac{3}{x(2x-1)}-1\\ge0\\iff\\frac{3-x(2x-1)}{x(2x-1)}\\ge0\\iff\\frac{-(2x-3)(x+1)}{x(2x-1)}\\ge0\\iff\\frac{(2x-3)(x+1)}{x(2x-1)}\\le0.$$\nThe critical values are $-1,\\ 0,\\ \\frac12,\\ \\frac32$ ($x\\ne0,\\frac12$). Testing each region, the expression is negative for $-1<x<0$ and $\\frac12<x<\\frac32$, and zero at $x=-1$ and $x=\\frac32$.\n\n$$-1\\le x<0\\quad\\text{or}\\quad\\frac12<x\\le\\frac32.$$"
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "Consider the vectors $\\mathbf a=m\\,\\mathbf i+\\mathbf j$ and $\\mathbf b=\\mathbf i+m\\,\\mathbf j$, where $m\\in\\mathbb R$. Find the value(s) of $m$ if the acute angle between $\\mathbf a$ and $\\mathbf b$ is $60^\\circ$.",
+   "answer": "$\\mathbf a\\cdot\\mathbf b=m+m=2m$ and $|\\mathbf a|=|\\mathbf b|=\\sqrt{m^2+1}$. Then\n$$\\cos60^\\circ=\\frac{2m}{m^2+1}=\\frac12\\Rightarrow m^2-4m+1=0\\Rightarrow m=\\frac{4\\pm\\sqrt{12}}2=2\\pm\\sqrt3.$$\nBoth values are positive, so $\\cos\\theta>0$ and the angle is acute: $m=2\\pm\\sqrt3$."
+  },
+  {
+   "ref": "Q11(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.10",
+    "11.4.1.11"
+   ],
+   "question": "The letters from the word VOLUME are placed at random on the circumference of a circle. Each letter is used only once.\n\nFind the number of different arrangements that can be formed.",
+   "answer": "Arranging $6$ distinct objects in a circle: $(6-1)!=5!=120$."
+  },
+  {
+   "ref": "Q11(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.19",
+    "11.4.1.11"
+   ],
+   "question": "The letters from the word VOLUME are placed at random on the circumference of a circle. Each letter is used only once.\n\nIf one of the arrangements is chosen at random, find the probability that all the vowels will be together.",
+   "answer": "The vowels are O, U, E and the consonants are V, L, M. Treat the three vowels as one block: arranging $4$ objects (block, V, L, M) in a circle gives $3!=6$ ways, and the vowels can be ordered within the block in $3!=6$ ways. So there are $6\\times6=36$ favourable arrangements and\n$$P=\\frac{36}{120}=\\frac3{10}.$$"
+  },
+  {
+   "ref": "Q11(d)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.4.1.19",
+    "11.4.1.11"
+   ],
+   "question": "The letters from the word VOLUME are placed at random on the circumference of a circle. Each letter is used only once.\n\nIf one of the arrangements is chosen at random, find the probability that the vowels and consonants will alternate.",
+   "answer": "Because only the relative positions on a circle matter, fix one vowel (say O) in place. The seats then alternate vowel, consonant, vowel, consonant, vowel, consonant. The other two vowels can fill the two remaining vowel seats in $2!=2$ ways and the three consonants the three consonant seats in $3!=6$ ways, giving $12$ arrangements.\n$$P=\\frac{12}{120}=\\frac1{10}.$$\n*The school's solution counts two 'patterns' (V-C-V-C-V-C and C-V-C-V-C-V), but on a circle these are rotations of each other, so $72$ favourable arrangements and $\\frac35$ is wrong; the correct answer is $\\frac1{10}$.*"
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.4.13",
+    "12.4.2.1"
+   ],
+   "question": "Express $y$ as a function of $x$, by solving the differential equation $$\\sqrt{2-x^2}\\,\\frac{dy}{dx}=\\frac1{2-y},\\qquad\\text{given }y(1)=0.$$",
+   "answer": "Separate the variables:\n$$\\int(2-y)\\,dy=\\int\\frac{dx}{\\sqrt{2-x^2}}\\ \\Rightarrow\\ 2y-\\frac{y^2}2=\\sin^{-1}\\frac x{\\sqrt2}+C.$$\n$y(1)=0$: $0=\\sin^{-1}\\frac1{\\sqrt2}+C=\\frac\\pi4+C$, so $C=-\\frac\\pi4$. Multiply by $-2$ and add $4$:\n$$(y-2)^2=y^2-4y+4=4+\\frac\\pi2-2\\sin^{-1}\\frac x{\\sqrt2}.$$\nSo $y=2\\pm\\sqrt{4+\\frac\\pi2-2\\sin^{-1}\\frac x{\\sqrt2}}$. At $x=1$, $y=0$ requires the negative sign:\n$$y=2-\\sqrt{4+\\frac\\pi2-2\\sin^{-1}\\!\\left(\\frac x{\\sqrt2}\\right)}.$$"
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.3"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^{\\pi/12}\\sin^23x\\,dx$.",
+   "answer": "Using $\\sin^23x=\\frac12(1-\\cos6x)$:\n$$\\int_0^{\\pi/12}\\sin^23x\\,dx=\\frac12\\left[x-\\frac{\\sin6x}6\\right]_0^{\\pi/12}=\\frac12\\left(\\frac\\pi{12}-\\frac16\\sin\\frac\\pi2\\right)=\\frac\\pi{24}-\\frac1{12}.$$\n*The school's solution gives $\\frac\\pi{24}-\\frac16$, which is negative and so impossible for the integral of a non-negative function; the correct value is $\\frac\\pi{24}-\\frac1{12}\\approx0.0476$.*"
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.5"
+   ],
+   "question": "Use $t$-formulae to show that $\\dfrac{1-\\cos\\theta}{\\sin\\theta}=\\tan\\dfrac\\theta2$.",
+   "answer": "Let $t=\\tan\\frac\\theta2$, so $\\cos\\theta=\\dfrac{1-t^2}{1+t^2}$ and $\\sin\\theta=\\dfrac{2t}{1+t^2}$.\n$$\\text{LHS}=\\frac{1-\\frac{1-t^2}{1+t^2}}{\\frac{2t}{1+t^2}}=\\frac{\\frac{2t^2}{1+t^2}}{\\frac{2t}{1+t^2}}=t=\\tan\\frac\\theta2=\\text{RHS}.\\ \\blacksquare$$",
+   "course": "extension2"
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.5"
+   ],
+   "question": "Using the result $\\dfrac{1-\\cos\\theta}{\\sin\\theta}=\\tan\\dfrac\\theta2$, find the exact value of $\\tan15^\\circ$.",
+   "answer": "Let $\\theta=30^\\circ$:\n$$\\tan15^\\circ=\\frac{1-\\cos30^\\circ}{\\sin30^\\circ}=\\frac{1-\\frac{\\sqrt3}2}{\\frac12}=2-\\sqrt3.$$",
+   "course": "extension2"
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Show that $5-4e^x-e^{2x}=3^2-(e^x+2)^2$.",
+   "answer": "$$\\text{RHS}=9-(e^{2x}+4e^x+4)=5-4e^x-e^{2x}=\\text{LHS}.\\ \\blacksquare$$"
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.1",
+    "12.4.2.2"
+   ],
+   "question": "Using $5-4e^x-e^{2x}=3^2-(e^x+2)^2$, find $\\displaystyle\\int\\frac{e^x}{\\sqrt{5-4e^x-e^{2x}}}\\,dx$.",
+   "answer": "$$\\int\\frac{e^x}{\\sqrt{3^2-(e^x+2)^2}}\\,dx=\\sin^{-1}\\!\\left(\\frac{e^x+2}3\\right)+C,$$\nusing $\\int\\frac{u'}{\\sqrt{a^2-u^2}}dx=\\sin^{-1}\\frac ua$ with $u=e^x+2$."
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.3"
+   ],
+   "question": "What is the solution to the equation $5\\cos\\left(x+\\tan^{-1}\\dfrac43\\right)=0.5$ for $0\\le x\\le2\\pi$? Leave your answer correct to $2$ d.p.",
+   "answer": "$\\cos\\left(x+\\tan^{-1}\\frac43\\right)=0.1$, with $\\tan^{-1}\\frac43\\approx0.9273$ and $0.9273\\le x+0.9273\\le2\\pi+0.9273$.\n\nThe principal value is $\\cos^{-1}0.1\\approx1.4706$, so $x+0.9273=1.4706$ or $2\\pi-1.4706=4.8126$ (the next solution, $2\\pi+1.4706$, is beyond the range).\n\n$x\\approx0.54$ or $x\\approx3.89$."
+  },
+  {
+   "ref": "Q12(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.6",
+    "12.2.3.7"
+   ],
+   "question": "Two tugboats are applying simultaneous forces to a container ship as it attempts to come in to port. One tugboat is applying a force of $3500$ N in a westerly direction and the second tugboat is applying a $2400$ N force directly north. What is the magnitude and direction of the resultant force being applied to the container ship?",
+   "answer": "The two forces are at right angles, so the resultant has magnitude\n$$\\sqrt{3500^2+2400^2}=\\sqrt{18\\,010\\,000}\\approx4244\\text{ N}.$$\nIts angle west of north is $\\theta=\\tan^{-1}\\dfrac{3500}{2400}\\approx55.56^\\circ=55^\\circ34'$.\n\nThe resultant force is $4244$ N in the direction $\\text{N}\\,55^\\circ34'\\,\\text{W}$ (a bearing of about $304^\\circ26'$)."
+  },
+  {
+   "ref": "Q12(f)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.5"
+   ],
+   "question": "An ingot of aluminium is placed in a room with a surrounding air temperature of $25^\\circ$C and allowed to cool. It loses heat according to Newton's law of cooling, $\\dfrac{dT}{dt}=-k(T-A)$ where $T$ is the temperature of the metal in degrees Celsius at time $t$ minutes, $A$ is the surrounding air temperature and $k$ is a positive constant. The initial temperature of the aluminium is $1350^\\circ$C. After $10$ minutes the temperature of the aluminium is $720^\\circ$C.\n\nShow that $T=A+Be^{-kt}$, where $B$ is a constant, is a solution of $\\dfrac{dT}{dt}=-k(T-A)$.",
+   "answer": "$\\dfrac{dT}{dt}=-kBe^{-kt}=-k\\left(Be^{-kt}\\right)=-k(T-A)$, since $T-A=Be^{-kt}$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q12(f)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.7"
+   ],
+   "question": "An ingot of aluminium is placed in a room with a surrounding air temperature of $25^\\circ$C and allowed to cool. It loses heat according to Newton's law of cooling, $\\dfrac{dT}{dt}=-k(T-A)$ where $T$ is the temperature of the metal in degrees Celsius at time $t$ minutes, $A$ is the surrounding air temperature and $k$ is a positive constant. The initial temperature of the aluminium is $1350^\\circ$C. After $10$ minutes the temperature of the aluminium is $720^\\circ$C.\n\nFind the value of $k$.",
+   "answer": "$A=25$, so $T=25+Be^{-kt}$. At $t=0$, $T=1350$: $B=1325$.\n\nAt $t=10$, $T=720$: $720=25+1325e^{-10k}\\Rightarrow e^{-10k}=\\dfrac{695}{1325}=\\dfrac{139}{265}$, so\n$$k=-\\frac1{10}\\ln\\frac{139}{265}=\\frac1{10}\\ln\\frac{265}{139}\\approx0.0645.$$"
+  },
+  {
+   "ref": "Q12(f)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.7"
+   ],
+   "question": "An ingot of aluminium is placed in a room with a surrounding air temperature of $25^\\circ$C and allowed to cool. It loses heat according to Newton's law of cooling, $\\dfrac{dT}{dt}=-k(T-A)$ where $T$ is the temperature of the metal in degrees Celsius at time $t$ minutes, $A$ is the surrounding air temperature and $k$ is a positive constant. The initial temperature of the aluminium is $1350^\\circ$C. After $10$ minutes the temperature of the aluminium is $720^\\circ$C.\n\nWhat total time elapses for the aluminium to cool to $50^\\circ$C?",
+   "answer": "$50=25+1325e^{-kt}\\Rightarrow e^{-kt}=\\dfrac{25}{1325}=\\dfrac1{53}\\Rightarrow t=\\dfrac{\\ln53}k\\approx\\dfrac{3.9703}{0.064526}\\approx61.53.$\n\nIt takes about $61.5$ minutes."
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.1.2"
+   ],
+   "question": "Graph, on the same axes, $y=\\sec x$ and $y=\\tan x$ for $0\\le x<\\dfrac\\pi2$.",
+   "answer": "Both curves increase and tend to $\\infty$ as $x\\to\\frac\\pi2^-$, so $x=\\frac\\pi2$ is a vertical asymptote of each.\n\n| $x$ | $0$ | $\\frac\\pi6$ | $\\frac\\pi4$ | $\\frac\\pi3$ |\n|---|---|---|---|---|\n| $\\sec x$ | $1$ | $\\frac2{\\sqrt3}$ | $\\sqrt2$ | $2$ |\n| $\\tan x$ | $0$ | $\\frac1{\\sqrt3}$ | $1$ | $\\sqrt3$ |\n\nSince $\\sec^2x-\\tan^2x=1$, the curves never meet and $\\sec x>\\tan x$ throughout.",
+   "answer_images": [
+    "assets/img/ext1-2025-nsb/a13ai.png"
+   ]
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.4"
+   ],
+   "question": "The area bounded by the positive $y$-axis, the curves $y=\\sec x$ and $y=\\tan x$, and the lines $x=0$, $x=N$, where $0<N<\\dfrac\\pi2$, is rotated about the $x$-axis.\n\nFind the volume of revolution in terms of $N$.",
+   "answer": "$$V=\\pi\\int_0^N\\left(\\sec^2x-\\tan^2x\\right)dx=\\pi\\int_0^N1\\,dx=\\pi N\\text{ units}^3.$$"
+  },
+  {
+   "ref": "Q13(a)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.4"
+   ],
+   "question": "The area bounded by the positive $y$-axis, the curves $y=\\sec x$ and $y=\\tan x$, and the lines $x=0$, $x=N$, where $0<N<\\dfrac\\pi2$, is rotated about the $x$-axis.\n\nFind the volume as $N$ approaches $\\dfrac\\pi2$.",
+   "answer": "$$\\lim_{N\\to\\pi/2}\\pi N=\\frac{\\pi^2}2\\text{ units}^3.$$"
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.15"
+   ],
+   "question": "In a certain country, the population of deer was estimated in $1990$ to be $150\\,000$. The population growth is given by the logistic equation\n$$\\frac{dP}{dt}=0.1P\\left(\\frac{C-P}C\\right)$$\nwhere $t$ is the number of years after $1990$ and $C$ is the carrying capacity. In the year $2020$, the population of deer was estimated to be $900\\,000$.\n\nProve that $\\dfrac C{P(C-P)}=\\dfrac1P+\\dfrac1{C-P}$.",
+   "answer": "$$\\text{RHS}=\\frac{(C-P)+P}{P(C-P)}=\\frac C{P(C-P)}=\\text{LHS}.\\ \\blacksquare$$"
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.4.15",
+    "12.5.4.16"
+   ],
+   "question": "In a certain country, the population of deer was estimated in $1990$ to be $150\\,000$. The population growth is given by the logistic equation\n$$\\frac{dP}{dt}=0.1P\\left(\\frac{C-P}C\\right)$$\nwhere $t$ is the number of years after $1990$ and $C$ is the carrying capacity. In the year $2020$, the population of deer was estimated to be $900\\,000$.\n\nUse part (i) to show that the carrying capacity is approximately $1\\,220\\,000$.",
+   "answer": "$\\dfrac{dP}{dt}=\\dfrac{P(C-P)}{10C}$, so\n$$\\frac{dt}{dP}=\\frac{10C}{P(C-P)}=10\\left(\\frac1P+\\frac1{C-P}\\right)\\ \\Rightarrow\\ t=10\\Big[\\ln P-\\ln(C-P)\\Big]+K=10\\ln\\frac P{C-P}+K,$$\nsince $0<P<C$. At $t=0$, $P=150\\,000$: $K=-10\\ln\\dfrac{150\\,000}{C-150\\,000}$, so\n$$t=10\\ln\\frac P{C-P}+10\\ln\\frac{C-150\\,000}{150\\,000}.$$\nAt $t=30$, $P=900\\,000$:\n$$3=\\ln\\frac{900\\,000\\,(C-150\\,000)}{150\\,000\\,(C-900\\,000)}=\\ln\\frac{6(C-150\\,000)}{C-900\\,000}\\ \\Rightarrow\\ e^3=\\frac{6C-900\\,000}{C-900\\,000}.$$\n$e^3C-900\\,000e^3=6C-900\\,000\\Rightarrow C(e^3-6)=900\\,000(e^3-1)$, so\n$$C=900\\,000\\cdot\\frac{e^3-1}{e^3-6}\\approx900\\,000\\times1.35497\\approx1\\,219\\,477\\approx1\\,220\\,000.\\ \\blacksquare$$"
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.7"
+   ],
+   "question": "A particle is projected horizontally from a point $P$, $h$ metres above $O$, with a velocity of $V$ metres per second. The equations of motion of the particle are $\\ddot x=0$ and $\\ddot y=-g$ with the position of the particle at time $t$ given by $x=Vt$ and $y=h-\\frac12gt^2$ (do not prove these).\n\nA canister containing a life raft is dropped from a plane to a stranded sailor. The plane is travelling at a constant velocity of $216$ km/h, at a height of $120$ metres above sea level, along a path that passes above the sailor.\n\nHow long will the canister take to hit the water? (Take $g=10$ m/s$^2$.)",
+   "answer": "$V=216$ km/h $=\\dfrac{216\\,000}{3600}=60$ m/s, $h=120$ m. The canister hits the water when $y=0$:\n$$0=120-5t^2\\Rightarrow t^2=24\\Rightarrow t=2\\sqrt6\\approx4.90\\text{ s}\\quad(t>0).$$",
+   "images": [
+    "assets/img/ext1-2025-nsb/q13c.png"
+   ]
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.6.8",
+    "12.2.6.7"
+   ],
+   "question": "A particle is projected horizontally from a point $P$, $h$ metres above $O$, with a velocity of $V$ metres per second. The equations of motion of the particle are $\\ddot x=0$ and $\\ddot y=-g$ with the position of the particle at time $t$ given by $x=Vt$ and $y=h-\\frac12gt^2$ (do not prove these).\n\nA canister containing a life raft is dropped from a plane to a stranded sailor. The plane is travelling at a constant velocity of $216$ km/h, at a height of $120$ metres above sea level, along a path that passes above the sailor.\n\nA current is causing the sailor to drift at a speed of $3.6$ km/h in the same direction as the plane is travelling. The canister is dropped from the plane when the horizontal distance from the plane to the sailor is $D$ metres. What values can $D$ take if the canister lands at most $50$ metres from the stranded sailor?",
+   "answer": "Take the plane's position at the drop as $x=0$. The sailor drifts at $3.6$ km/h $=1$ m/s, so after $t=2\\sqrt6$ s the sailor is at\n$$x_s=D+1\\cdot2\\sqrt6=D+2\\sqrt6.$$\nThe canister lands at $x=Vt=60\\times2\\sqrt6=120\\sqrt6$ m. It lands within $50$ m of the sailor when\n$$\\left|D+2\\sqrt6-120\\sqrt6\\right|\\le50\\iff118\\sqrt6-50\\le D\\le118\\sqrt6+50.$$\nSo $239\\ \\text{m}\\lesssim D\\lesssim339$ m (to the nearest metre, $239\\le D\\le339$).\n\n*The school's solution has a misprint in the upper bound (it prints $118\\sqrt6-50$ twice), but its stated final range $239$ to $339$ m agrees with this.*",
+   "images": [
+    "assets/img/ext1-2025-nsb/q13c.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.4"
+   ],
+   "question": "By considering the sum of the terms of an arithmetic series, show that $$(1+2+3+\\dots+n)^2=\\frac14n^2(n+1)^2.$$",
+   "answer": "$1+2+\\dots+n$ is an arithmetic series with first term $1$, last term $n$ and $n$ terms, so its sum is $\\frac n2(1+n)$. Then\n$$(1+2+\\dots+n)^2=\\left(\\frac{n(n+1)}2\\right)^2=\\frac14n^2(n+1)^2.\\ \\blacksquare$$",
+   "course": "advanced"
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "By using the Principle of Mathematical Induction, prove that $$1^3+2^3+3^3+\\dots+n^3=(1+2+3+\\dots+n)^2\\quad\\text{for all }n\\ge1.$$",
+   "answer": "By part (i), the statement $S(n)$ is equivalent to $1^3+2^3+\\dots+n^3=\\dfrac14n^2(n+1)^2$.\n\n**Base case** $n=1$: LHS $=1^3=1$; RHS $=\\frac14(1)^2(2)^2=1$. So $S(1)$ is true.\n\n**Inductive step.** Assume $S(k)$ is true for some integer $k\\ge1$: $1^3+2^3+\\dots+k^3=\\frac14k^2(k+1)^2$. Then\n$$1^3+\\dots+k^3+(k+1)^3=\\frac14k^2(k+1)^2+(k+1)^3=\\frac14(k+1)^2\\left[k^2+4(k+1)\\right]=\\frac14(k+1)^2(k+2)^2,$$\nwhich is $S(k+1)$: $\\frac14(k+1)^2\\big((k+1)+1\\big)^2$.\n\nSo $S(1)$ is true and $S(k)\\Rightarrow S(k+1)$. By the Principle of Mathematical Induction, $S(n)$ is true for all integers $n\\ge1$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.2.3.4",
+    "11.2.1.8"
+   ],
+   "question": "$N$ monic quadratic trinomials are given,\n$$y=x^2+a_1x+b_1,\\quad y=x^2+a_2x+b_2,\\quad y=x^2+a_3x+b_3,\\ \\dots,\\ y=x^2+a_nx+b_n,$$\nwith their zeros $x_0$ and $x_1$, $x_0$ and $x_2$, $x_0$ and $x_3$, $\\dots$, $x_0$ and $x_n$, respectively, where $x_0,x_1,x_2,\\dots,x_n\\in\\mathbb R$.\n\nConsider the quadratic trinomial\n$$y=x^2+\\frac{a_1+a_2+a_3+\\dots+a_n}n\\,x+\\frac{b_1+b_2+b_3+\\dots+b_n}n.$$\n\nProve that $x_0$ is one of the zeros.",
+   "answer": "Since $x_0$ is a zero of each of the given quadratics, $x_0^2+a_ix_0+b_i=0$ for $i=1,2,\\dots,n$. Adding these $n$ equations:\n$$nx_0^2+(a_1+\\dots+a_n)x_0+(b_1+\\dots+b_n)=0.$$\nDividing by $n$:\n$$x_0^2+\\frac{a_1+\\dots+a_n}nx_0+\\frac{b_1+\\dots+b_n}n=0,$$\nso $x_0$ is a zero of the averaged quadratic. $\\blacksquare$"
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 5,
+   "dotpoints": [
+    "11.2.3.1",
+    "11.2.3.4"
+   ],
+   "question": "$N$ monic quadratic trinomials are given,\n$$y=x^2+a_1x+b_1,\\quad y=x^2+a_2x+b_2,\\quad y=x^2+a_3x+b_3,\\ \\dots,\\ y=x^2+a_nx+b_n,$$\nwith their zeros $x_0$ and $x_1$, $x_0$ and $x_2$, $x_0$ and $x_3$, $\\dots$, $x_0$ and $x_n$, respectively, where $x_0,x_1,x_2,\\dots,x_n\\in\\mathbb R$.\n\nConsider the quadratic trinomial\n$$y=x^2+\\frac{a_1+a_2+a_3+\\dots+a_n}n\\,x+\\frac{b_1+b_2+b_3+\\dots+b_n}n.$$\n\nGiven that $x_0$ is a zero (part (i)), find the other zero.",
+   "answer": "Let the other zero of the averaged quadratic be $\\bar x$. It is real, because $x_0$ is real and the coefficients are real (so the sum $x_0+\\bar x=-\\frac{a_1+\\dots+a_n}n$ is real).\n\nFor the $i$th quadratic the sum of zeros gives $x_0+x_i=-a_i$, so $a_i=-(x_0+x_i)$. For the averaged quadratic,\n$$x_0+\\bar x=-\\frac{a_1+\\dots+a_n}n=\\frac{(x_0+x_1)+\\dots+(x_0+x_n)}n=x_0+\\frac{x_1+\\dots+x_n}n.$$\nHence\n$$\\bar x=\\frac{x_1+x_2+\\dots+x_n}n.$$"
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.3.4",
+    "12.2.3.6"
+   ],
+   "question": "Let points $O$, $A$, $B$ and $C$ be points on the same plane and let $\\mathbf a=\\overrightarrow{OA}$, $\\mathbf b=\\overrightarrow{OB}$ and $\\mathbf c=\\overrightarrow{OC}$. Assume that $\\mathbf a$ and $\\mathbf b$ are not parallel. If points $A$, $B$ and $C$ are collinear and $$\\mathbf c=\\alpha\\mathbf a+\\beta\\mathbf b,\\quad\\alpha,\\beta\\in\\mathbb R,$$ show that $\\alpha+\\beta=1$.",
+   "answer": "$A$, $B$, $C$ are collinear, so $C$ divides $AB$ in some ratio, i.e. $\\overrightarrow{AC}=\\lambda\\overrightarrow{AB}$ for some real $\\lambda$. Then\n$$\\mathbf c=\\mathbf a+\\lambda(\\mathbf b-\\mathbf a)=(1-\\lambda)\\mathbf a+\\lambda\\mathbf b.$$\nSince $\\mathbf a$ and $\\mathbf b$ are not parallel, the coefficients are unique: $\\alpha=1-\\lambda$, $\\beta=\\lambda$, so $\\alpha+\\beta=1$. $\\blacksquare$\n\n(In the school's solution $C$ divides $AB$ in the ratio $m:n$, giving $\\alpha=\\frac n{m+n}$, $\\beta=\\frac m{m+n}$, with the same sum.)"
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.2.3.6",
+    "12.2.3.4"
+   ],
+   "question": "In the figure, the point $G$ is the centroid of triangle $XYZ$ (the point where the lines joining each vertex to the midpoint of the opposite side meet). $M_1$, $M_2$, $M_3$ are the midpoints of the sides opposite the vertices $Z$, $X$, $Y$, respectively. A line passing through $G$ meets $ZX$ and $ZY$ at points $H$ and $K$ respectively, with $\\overrightarrow{ZH}=h\\overrightarrow{ZX}$ and $\\overrightarrow{ZK}=k\\overrightarrow{ZY}$.\n\nProve that $\\overrightarrow{ZG}=\\dfrac23\\overrightarrow{ZM_1}$, by firstly proving that the centroid $G$ divides each of the segments $\\overrightarrow{ZM_1}$, $\\overrightarrow{XM_2}$ and $\\overrightarrow{YM_3}$ in the ratio $2:1$, that is\n$$\\overrightarrow{ZG}:\\overrightarrow{GM_1}=2:1,\\quad\\overrightarrow{XG}:\\overrightarrow{GM_2}=2:1,\\quad\\overrightarrow{YG}:\\overrightarrow{GM_3}=2:1.$$",
+   "answer": "Let $\\mathbf p=\\overrightarrow{ZX}$ and $\\mathbf q=\\overrightarrow{ZY}$ (not parallel). Then\n$$\\overrightarrow{ZM_1}=\\tfrac12(\\mathbf p+\\mathbf q),\\qquad\\overrightarrow{ZM_2}=\\tfrac12\\mathbf q\\ (M_2\\text{ is the midpoint of }ZY),\\qquad\\overrightarrow{ZM_3}=\\tfrac12\\mathbf p.$$\n$G$ lies on $ZM_1$ and on $XM_2$, so for some scalars $\\gamma,\\delta$:\n$$\\overrightarrow{ZG}=\\gamma\\overrightarrow{ZM_1}=\\tfrac\\gamma2\\mathbf p+\\tfrac\\gamma2\\mathbf q,\\qquad\\overrightarrow{ZG}=\\overrightarrow{ZX}+\\delta\\overrightarrow{XM_2}=\\mathbf p+\\delta\\left(\\tfrac12\\mathbf q-\\mathbf p\\right)=(1-\\delta)\\mathbf p+\\tfrac\\delta2\\mathbf q.$$\nEquating coefficients (valid since $\\mathbf p,\\mathbf q$ are not parallel): $\\frac\\gamma2=1-\\delta$ and $\\frac\\gamma2=\\frac\\delta2$. So $\\gamma=\\delta$ and $\\frac\\gamma2=1-\\gamma$, giving $\\gamma=\\delta=\\frac23$.\n\nHence $\\overrightarrow{ZG}=\\frac23\\overrightarrow{ZM_1}$ (so $ZG:GM_1=2:1$) and $\\overrightarrow{XG}=\\frac23\\overrightarrow{XM_2}$ (so $XG:GM_2=2:1$).\n\nFor the third median: $\\overrightarrow{ZG}=\\frac13(\\mathbf p+\\mathbf q)$, so $\\overrightarrow{YG}=\\overrightarrow{ZG}-\\mathbf q=\\frac13\\mathbf p-\\frac23\\mathbf q$, while $\\overrightarrow{YM_3}=\\tfrac12\\mathbf p-\\mathbf q$. Since $\\overrightarrow{YG}=\\frac23\\overrightarrow{YM_3}$, $YG:GM_3=2:1$. $\\blacksquare$",
+   "images": [
+    "assets/img/ext1-2025-nsb/q14c.png"
+   ]
+  },
+  {
+   "ref": "Q14(c)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.3.4",
+    "12.2.3.6"
+   ],
+   "question": "In the figure, the point $G$ is the centroid of triangle $XYZ$ (the point where the lines joining each vertex to the midpoint of the opposite side meet). $M_1$, $M_2$, $M_3$ are the midpoints of the sides opposite the vertices $Z$, $X$, $Y$, respectively. A line passing through $G$ meets $ZX$ and $ZY$ at points $H$ and $K$ respectively, with $\\overrightarrow{ZH}=h\\overrightarrow{ZX}$ and $\\overrightarrow{ZK}=k\\overrightarrow{ZY}$.\n\nUsing the results of parts (i) and (ii), find the value of $\\dfrac1h+\\dfrac1k$.",
+   "answer": "From (ii), $\\overrightarrow{ZG}=\\frac23\\overrightarrow{ZM_1}=\\frac13(\\mathbf p+\\mathbf q)$ where $\\mathbf p=\\overrightarrow{ZX}=\\frac1h\\overrightarrow{ZH}$ and $\\mathbf q=\\overrightarrow{ZY}=\\frac1k\\overrightarrow{ZK}$. So\n$$\\overrightarrow{ZG}=\\frac1{3h}\\overrightarrow{ZH}+\\frac1{3k}\\overrightarrow{ZK}.$$\n$H$, $G$, $K$ are collinear and $\\overrightarrow{ZH},\\overrightarrow{ZK}$ are not parallel, so by (i), taking $Z$ as the origin, the coefficients sum to $1$:\n$$\\frac1{3h}+\\frac1{3k}=1\\ \\Rightarrow\\ \\frac1h+\\frac1k=3.$$",
+   "images": [
+    "assets/img/ext1-2025-nsb/q14c.png"
+   ]
+  }
+ ]
+}
