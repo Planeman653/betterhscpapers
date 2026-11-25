@@ -1,0 +1,774 @@
+{
+ "id": "phys-2021-hornsby-girls",
+ "course": "physics",
+ "school": "Hornsby Girls",
+ "year": 2021,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "6528",
+  "title": "Hornsby Girls 2021 w. sol"
+ },
+ "indexed": "2026-11-25",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.1"
+   ],
+   "question": "Consider the electric field between two parallel plates, shown in the diagram (the top plate is positive and the bottom plate is negative, so the field points downwards).\n\nWhich particle, fired horizontally from the left and moving into the field, would experience the greatest electric force upwards?",
+   "options": [
+    "An alpha particle",
+    "An electron",
+    "A proton",
+    "An oxygen ion, $\\text{O}^{2-}$"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/phys-2021-hornsby-girls/q1.png"
+   ],
+   "answer": "The field points down, so the force on a negative charge is upward (alpha particles and protons are positive and are pushed down). $F=qE$, and the $\\text{O}^{2-}$ ion carries $2e$ compared with $e$ for the electron, so it feels the greatest upward force."
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.5"
+   ],
+   "question": "The diagram (not to scale) shows two identical satellites orbiting a planet. The orbital radius of satellite X is $r$. Satellite Y is $2r$ from the planet's centre.\n\nHow would the gravitational potential energy of satellite Y change if it was moved into the same orbit as X?",
+   "options": [
+    "It would increase by a factor of 2.",
+    "It would decrease by a factor of 2.",
+    "It would increase by a factor of 4.",
+    "It would decrease by a factor of 4."
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/phys-2021-hornsby-girls/q2.png"
+   ],
+   "answer": "$U=-\\dfrac{GMm}{r}$. At $2r$, $U=-\\dfrac{GMm}{2r}$; at $r$, $U=-\\dfrac{GMm}{r}$. The potential energy becomes twice as negative, i.e. it decreases by a factor of 2 (B)."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.3"
+   ],
+   "question": "A $50\\ \\text{g}$ mass is rotating at 25 revolutions per minute at $15\\ \\text{cm}$ from the centre of a turntable.\n\nHow would the angular velocity of this mass change if it continued to rotate with the same frequency, but was moved to a position $20\\ \\text{cm}$ from the centre?",
+   "options": [
+    "The angular velocity would be 1.5 times greater.",
+    "The angular velocity would decrease by one third.",
+    "The angular velocity would decrease by two thirds.",
+    "The angular velocity would not change."
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/phys-2021-hornsby-girls/q3.png"
+   ],
+   "answer": "Angular velocity $\\omega=2\\pi f$ depends only on the frequency of rotation, not on the radius, so it does not change (D). Only the linear speed $v=\\omega r$ changes."
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.2",
+    "12.5.3.2"
+   ],
+   "question": "Which option best displays the directions of the centripetal force and instantaneous velocity of a satellite orbiting the Earth?",
+   "options": [
+    "![Option A](assets/img/phys-2021-hornsby-girls/q4a.png)",
+    "![Option B](assets/img/phys-2021-hornsby-girls/q4b.png)",
+    "![Option C](assets/img/phys-2021-hornsby-girls/q4c.png)",
+    "![Option D](assets/img/phys-2021-hornsby-girls/q4d.png)"
+   ],
+   "correct": "D",
+   "answer": "The centripetal (gravitational) force points towards the centre of the Earth, and the instantaneous velocity is along the tangent to the orbit, i.e. perpendicular to the force. Only D shows both."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "Which option identifies the characteristics of the motion of a charged particle when it is injected into a uniform magnetic field?",
+   "options": [
+    "The vertical velocity is greater than the horizontal velocity.",
+    "Both the net velocity and acceleration are constant.",
+    "It has constant horizontal motion and uniformly accelerated vertical motion.",
+    "It has constant vertical motion and uniformly accelerated horizontal motion."
+   ],
+   "correct": "B",
+   "answer": "The magnetic force is always perpendicular to the velocity, so it does no work: the speed is constant, and (with a constant-magnitude force) so is the magnitude of the acceleration, although their directions keep changing and the path is a circle/helix. Options C and D describe parabolic motion in a uniform electric field or gravitational field, and A has no basis. B is the best available choice (note: the paper's option B is only strictly correct for the magnitudes of velocity and acceleration)."
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.1"
+   ],
+   "question": "A projectile is launched directly upwards.\n\nWhich pair of graphs best displays how the horizontal velocity ($v_x$, left) and vertical velocity ($v_y$, right) change over time? (Dashed lines show the graphs; the solid line is the time axis.)",
+   "options": [
+    "![Option A](assets/img/phys-2021-hornsby-girls/q6a.png)",
+    "![Option B](assets/img/phys-2021-hornsby-girls/q6b.png)",
+    "![Option C](assets/img/phys-2021-hornsby-girls/q6c.png)",
+    "![Option D](assets/img/phys-2021-hornsby-girls/q6d.png)"
+   ],
+   "correct": "A",
+   "answer": "With only gravity acting (no air resistance) the horizontal velocity stays constant, so the $v_x$ graph is a horizontal line, while the vertical velocity changes uniformly at $-g$: a straight line of negative gradient that passes through zero at the top of the flight and becomes negative on the way down. Graph A is the only pair with constant $v_x$ and a single straight line of negative gradient for $v_y$ (B has a V-shape, which would be speed rather than velocity; C and D have a changing $v_x$)."
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "The diagram shows a polarising filter which has its polarising axis vertical and an analyser which has its polarising axis at an angle $\\theta$ to the first.\n\nWhat value for angle $\\theta$ will allow only $30\\%$ of the light intensity incident on the analyser to pass through the analyser?",
+   "options": [
+    "$30^\\circ$",
+    "$33^\\circ$",
+    "$57^\\circ$",
+    "$70^\\circ$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/phys-2021-hornsby-girls/q7.png"
+   ],
+   "answer": "Malus' law: $I=I_{\\max}\\cos^2\\theta$, so $\\cos^2\\theta=0.30$, $\\cos\\theta=0.5477$, $\\theta=56.8^\\circ\\approx57^\\circ$ (C)."
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.3"
+   ],
+   "question": "Three parallel current-carrying wires are set up as shown, each carrying $150\\ \\text{A}$ (in the directions shown). Wire X is $3d$ from wire Y, and wire Z is $d$ from wire Y. The net force on wire Y due to the other two wires is $F$.\n\nWhat will happen to the force on Y if the currents in X and Z are each halved, but the distances stay the same?",
+   "options": [
+    "It will halve to $F/2$.",
+    "It will decrease by a factor of 4 to $F/4$.",
+    "It will double to $2F$.",
+    "It will quadruple to $4F$."
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/phys-2021-hornsby-girls/q8.png"
+   ],
+   "answer": "The force per unit length on Y from each wire is $\\dfrac{\\mu_0 I_Y I}{2\\pi r}$, which is proportional to the current in the other wire. Y is attracted to Z (parallel currents) and repelled by X (opposite currents), so both forces act in the same direction (towards Z) and add. Halving $I_X$ and $I_Z$ halves each force, so the net force halves to $F/2$ (A). $I_Y$ is unchanged."
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "The figure shows a vehicle travelling in a horizontal circle at constant speed on a frictionless banked track.\n\nWhich arrow, A, B, C or D, represents the direction of the normal force on the vehicle?",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/phys-2021-hornsby-girls/q9.png"
+   ],
+   "answer": "The normal force acts perpendicular to the surface of the track and away from it, which is arrow A. (D is the weight, B is the horizontal net/centripetal force direction.)"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.3.3"
+   ],
+   "question": "A transformer with 1200 turns in the primary coil and 300 turns in the secondary coil has a current of $1.75\\ \\text{A}$ in the secondary coil (the current drawn from it).\n\nIf the transformer is ideal, what is the current in the primary coil?",
+   "options": [
+    "$0.375\\ \\text{A}$",
+    "$0.438\\ \\text{A}$",
+    "$1.75\\ \\text{A}$",
+    "$6.00\\ \\text{A}$"
+   ],
+   "correct": "B",
+   "answer": "$\\dfrac{I_p}{I_s}=\\dfrac{N_s}{N_p}$, so $I_p=1.75\\times\\dfrac{300}{1200}=0.4375\\approx0.438\\ \\text{A}$ (B)."
+  },
+  {
+   "ref": "Q11",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.3.4"
+   ],
+   "question": "In one of Thomson's experiments in 1897 he accelerated electrons to a speed of $2.65\\times10^{7}\\ \\text{m s}^{-1}$. What is the de Broglie wavelength of these electrons?",
+   "options": [
+    "$3.77\\times10^{-8}\\ \\text{m}$",
+    "$2.75\\times10^{-11}\\ \\text{m}$",
+    "$1.49\\times10^{-14}\\ \\text{m}$",
+    "$2.45\\times10^{-22}\\ \\text{m}$"
+   ],
+   "correct": "B",
+   "answer": "$\\lambda=\\dfrac{h}{mv}=\\dfrac{6.626\\times10^{-34}}{9.109\\times10^{-31}\\times2.65\\times10^{7}}=2.75\\times10^{-11}\\ \\text{m}$ (B)."
+  },
+  {
+   "ref": "Q12",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.4.1"
+   ],
+   "question": "Two spaceships Alpha and Delta are travelling towards each other, with velocities relative to space of $0.8c$ (Alpha) and $0.6c$ (Delta) as shown.\n\nIf Alpha sent a beam of light to Delta, what would the velocity of the light be when it reaches Delta?",
+   "options": [
+    "$1.0c$",
+    "$1.4c$",
+    "$1.6c$",
+    "$2.4c$"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/phys-2021-hornsby-girls/q12.png"
+   ],
+   "answer": "By Einstein's second postulate the speed of light in a vacuum is the same, $c$, for all inertial observers regardless of the motion of the source or the observer. The light travels at $1.0c$ as measured by Delta (A)."
+  },
+  {
+   "ref": "Q13",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.3"
+   ],
+   "question": "The diagram shows an experiment set up to demonstrate the photoelectric effect. Light is directed onto a metal plate (cathode) and the photocurrent is measured using the ammeter.\n\nIf the frequency of the light is increased, what effect will this have?",
+   "options": [
+    "The number of electrons emitted from the metal plate will increase.",
+    "The stopping potential will decrease.",
+    "The maximum photoelectron kinetic energy will increase.",
+    "The photocurrent magnitude will increase."
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/phys-2021-hornsby-girls/q13.png"
+   ],
+   "answer": "$K_{\\max}=hf-\\phi$: increasing $f$ increases the maximum kinetic energy of the photoelectrons (C), and hence the stopping potential also increases (so B is wrong). The number of electrons emitted and the photocurrent depend on the light intensity (number of photons), not frequency."
+  },
+  {
+   "ref": "Q14",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.5"
+   ],
+   "question": "When pushing on a very heavy door to close it, which of the following describes how to achieve maximum torque?",
+   "options": [
+    "The force should be applied at right angles to the door at the smallest distance possible from the hinge.",
+    "The force should be applied at $45^\\circ$ to the door at the smallest distance possible from the hinge.",
+    "The force should be applied at right angles to the door at the middle distance between the outer edge of the door and the hinge.",
+    "The force should be applied at right angles to the door at the largest distance possible from the hinge."
+   ],
+   "correct": "D",
+   "answer": "$\\tau=rF\\sin\\theta$ is maximised when $\\sin\\theta=1$ (force at $90^\\circ$ to the door) and $r$ is as large as possible (at the outer edge, furthest from the hinge) (D)."
+  },
+  {
+   "ref": "Q15",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.2"
+   ],
+   "question": "Monochromatic light of wavelength $\\lambda$ strikes a double slit and produces bright and dark fringes on a screen. Light from slit $S_1$ travels along path $P_1$ and light from slit $S_2$ travels along path $P_2$ to produce the bright fringe shown in the diagram.\n\nWhat is the difference in length between $P_1$ and $P_2$?",
+   "options": [
+    "$\\lambda$",
+    "$\\dfrac{3\\lambda}{2}$",
+    "$2\\lambda$",
+    "$\\dfrac{\\lambda}{2}$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/phys-2021-hornsby-girls/q15.png"
+   ],
+   "answer": "For a bright fringe (constructive interference) the path difference must be a whole number of wavelengths, $m\\lambda$, which rules out B and D. From the diagram the fringe shown is the second-order bright fringe ($m=2$), so the path difference is $2\\lambda$ (C), as given in the school's answer."
+  },
+  {
+   "ref": "Q16",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.1",
+    "12.6.4.2"
+   ],
+   "question": "A coil in a simple DC motor rotates through $360^\\circ$ within a uniform magnetic field. Initially the normal to the plane of the coil is perpendicular to the field lines.\n\nWhich graph best shows how the magnetic flux through the coil varies over time through one rotation?",
+   "options": [
+    "![Graph A](assets/img/phys-2021-hornsby-girls/q16a.png)",
+    "![Graph B](assets/img/phys-2021-hornsby-girls/q16b.png)",
+    "![Graph C](assets/img/phys-2021-hornsby-girls/q16c.png)",
+    "![Graph D](assets/img/phys-2021-hornsby-girls/q16d.png)"
+   ],
+   "correct": "A",
+   "answer": "$\\Phi=BA\\cos\\theta$ where $\\theta$ is the angle between the normal and the field. Initially $\\theta=90^\\circ$ so $\\Phi=0$; the flux then rises to a maximum, falls through zero to a negative maximum (the coil faces the other way) and returns to zero after $360^\\circ$. This is a sine curve starting at zero (A)."
+  },
+  {
+   "ref": "Q17",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.2.2"
+   ],
+   "question": "James Chadwick discovered the neutron by observing its properties in an experiment like the one in the diagram: alpha particles from a polonium source strike substance X, which emits neutrons; the neutrons strike substance Y, which emits protons that are detected.\n\nWhat is substance Y?",
+   "options": [
+    "alpha emitter",
+    "beta emitter",
+    "beryllium",
+    "paraffin wax"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/phys-2021-hornsby-girls/q17.png"
+   ],
+   "answer": "Substance X is beryllium (it emits neutrons when struck by alpha particles). Neutrons are uncharged so are not detected directly, but they knock protons out of a hydrogen-rich material, paraffin wax, and the protons are detected (D)."
+  },
+  {
+   "ref": "Q18",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "A charged particle $q$ enters a uniform magnetic field $B$ at velocity $v$. The particle follows a circular path of radius $r$ as shown.\n\nIf the velocity was doubled, what other change could be made to keep the radius the same?",
+   "options": [
+    "double the charge",
+    "halve the charge",
+    "double the mass",
+    "halve the field strength"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/phys-2021-hornsby-girls/q18.png"
+   ],
+   "answer": "$r=\\dfrac{mv}{qB}$. Doubling $v$ doubles $r$, so $q$ (or $B$) must be doubled to restore the original radius. Doubling the charge (A) works; the other options make $r$ larger or leave it the same as doubled."
+  },
+  {
+   "ref": "Q19",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.1.3"
+   ],
+   "question": "The diagram shows an attempt to measure the speed of light by passing a beam through a toothed wheel and observing reflections from a distant mirror.\n\nWhich person is this experiment attributed to?",
+   "options": [
+    "Galileo",
+    "Romer",
+    "Fizeau",
+    "Michelson"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/phys-2021-hornsby-girls/q19.png"
+   ],
+   "answer": "A rotating toothed wheel with a distant mirror was Fizeau's method (1849). Galileo used lanterns, Romer used Jupiter's moons, and Michelson used a rotating octagonal mirror."
+  },
+  {
+   "ref": "Q20",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.1"
+   ],
+   "question": "The diagram shows the intensity versus wavelength for spectra of light from sources X and Y.\n\nWhich option best compares the temperatures of the two bodies?",
+   "options": [
+    "Source X has a higher temperature because its peak wavelength is shorter than Y's.",
+    "Source X has a higher temperature because the intensity at its peak wavelength is higher than Y's.",
+    "Source X has a higher temperature because the total area under its graph is greater than Y's.",
+    "Source Y has a higher temperature because its peak intensity is at a longer wavelength than that of X."
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/phys-2021-hornsby-girls/q20.png"
+   ],
+   "answer": "By Wien's law $\\lambda_{\\max}=b/T$, a shorter peak wavelength means a higher temperature. X peaks at about 800 nm compared with about 1500 nm for Y, so X is hotter (A)."
+  },
+  {
+   "ref": "Q21(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "What is a geostationary satellite?",
+   "answer": "A geostationary satellite has an orbital period equal to the Earth's rotational period (24 hours), and it orbits in the plane of the equator in the same direction as the Earth rotates, at an altitude of about $36\\,000\\ \\text{km}$. As a result it stays above the same point on the Earth's surface."
+  },
+  {
+   "ref": "Q21(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "State one important function of a geostationary satellite.",
+   "answer": "Telecommunications (e.g. satellite TV and phone relay). Other acceptable uses: weather observation or oceanography."
+  },
+  {
+   "ref": "Q22(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "During the 1971 mission to the Moon, astronaut Alan Shepard hit a golf ball on level, flat ground. The Moon has a mass of $7.342\\times10^{22}\\ \\text{kg}$ and a radius of $1737.4\\ \\text{km}$. Find the acceleration due to gravity on the Moon.",
+   "answer": "$$g=\\frac{GM}{r^2}=\\frac{6.67\\times10^{-11}\\times7.342\\times10^{22}}{(1737.4\\times10^{3})^2}=1.62\\ \\text{m s}^{-2}$$"
+  },
+  {
+   "ref": "Q22(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "On the Moon (where $g=1.62\\ \\text{m s}^{-2}$) astronaut Alan Shepard hit a golf ball that landed $40.0\\ \\text{m}$ from where it was hit, on level flat ground. The ball was launched at an angle of $35.0^\\circ$ to the horizontal. Determine the initial launch speed of the ball.",
+   "answer": "Vertical: $\\Delta y=0$ at landing, so $0=u\\sin35^\\circ\\,t-\\tfrac12(1.62)t^2$, giving $t=\\dfrac{2u\\sin35^\\circ}{1.62}$.\n\nHorizontal: $40.0=u\\cos35^\\circ\\,t=\\dfrac{2u^2\\sin35^\\circ\\cos35^\\circ}{1.62}$.\n\n$$u^2=\\frac{40.0\\times1.62}{2\\sin35^\\circ\\cos35^\\circ}=\\frac{64.8}{0.9397}=68.96,\\qquad u\\approx 8.30\\ \\text{m s}^{-1}$$\n(The school's solution gives $8.31\\ \\text{m s}^{-1}$, a rounding difference.)"
+  },
+  {
+   "ref": "Q22(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "On the Moon ($g=1.62\\ \\text{m s}^{-2}$) a golf ball is launched at $35.0^\\circ$ to the horizontal with an initial speed of $8.31\\ \\text{m s}^{-1}$ from level ground. What is the maximum height above ground level reached by the golf ball?",
+   "answer": "At the top $v_y=0$ with $u_y=8.31\\sin35^\\circ=4.77\\ \\text{m s}^{-1}$:\n$$0=u_y^2-2gs\\ \\Rightarrow\\ s=\\frac{4.77^2}{2\\times1.62}=\\frac{22.7}{3.24}=7.00\\ \\text{m}$$"
+  },
+  {
+   "ref": "Q23",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.1"
+   ],
+   "question": "Students carried out an experiment to determine the relationship between the radius and velocity for a $55\\ \\text{g}$ mass moving with uniform circular motion. The centripetal force was kept constant for each variation in radius. The time for 10 complete cycles was measured. The results are shown in the table.\n\n| Radius of path (cm) | Time for 10 cycles (s) |\n|---|---|\n| 10 | 4.3 |\n| 20 | 6.1 |\n| 30 | 7.3 |\n| 40 | 8.5 |\n| 50 | 9.5 |\n| 60 | 10.1 |\n\nThey were asked to use all the results to determine the magnitude of the constant centripetal force. List and explain the steps of the analysis required to calculate the centripetal force. (You are not required to calculate the force.)",
+   "answer": "1. Use the model $F_c=\\dfrac{mv^2}{r}$, which rearranges to $v^2=\\dfrac{F_c}{m}\\,r$. Since $F_c$ and $m$ are constant, $v^2$ is directly proportional to $r$.\n2. Because there are several data sets, use graphical analysis so that all results are combined.\n3. Convert the data: find the period $T=\\dfrac{\\text{time for 10 cycles}}{10}$ and convert each radius to metres ($r$ in m).\n4. Calculate the linear speed for each trial using $v=\\dfrac{2\\pi r}{T}$, then square it to get $v^2$.\n5. Plot a graph of $v^2$ (vertical axis) against $r$ (horizontal axis) and draw a line of best fit.\n6. Find the gradient of the line of best fit, which equals $\\dfrac{F_c}{m}$.\n7. Calculate $F_c=\\text{gradient}\\times m$, ensuring that the mass is in kilograms ($0.055\\ \\text{kg}$)."
+  },
+  {
+   "ref": "Q24(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.3.4"
+   ],
+   "question": "The table displays data from the 8 planets in our solar system.\n\n| | Mercury | Venus | Earth | Mars | Jupiter | Saturn | Uranus | Neptune |\n|---|---|---|---|---|---|---|---|---|\n| Mass ($\\times10^{24}$ kg) | 0.33 | 4.87 | 5.97 | 0.642 | 1898 | 568 | 86.8 | 102 |\n| Diameter (km) | 4879 | 12,104 | 12,756 | 6792 | 142,984 | 120,536 | 51,118 | 49,528 |\n| Density (kg/m$^3$) | 5427 | 5243 | 5514 | 3933 | 1326 | 687 | 1271 | 1638 |\n| Length of day (hours) | 4222.6 | 2802 | 24 | 24.7 | 9.9 | 10.7 | 17.2 | 16.1 |\n| Orbital period (days) | 88 | 224.7 | 365.2 | 687 | 4331 | 10,747 | 30,589 | 59,800 |\n| Average distance from Sun ($\\times10^6$ km) | 57.9 | 108.2 | 149.6 | 227.9 | 778.6 | 1433.5 | 2872.5 | 4495.1 |\n| Perihelion ($\\times10^6$ km) | 46 | 107.5 | 147.1 | 206.6 | 740.5 | 1352.6 | 2741.3 | 4444.5 |\n| Aphelion ($\\times10^6$ km) | 69.8 | 108.9 | 152.1 | 249.2 | 816.6 | 1514.5 | 3003.6 | 4545.7 |\n\nWhich planet in the table has the most elliptical orbit?",
+   "answer": "Mercury. Its perihelion ($46\\times10^6$ km) and aphelion ($69.8\\times10^6$ km) differ the most in proportion, giving the largest eccentricity, $\\dfrac{69.8-46}{69.8+46}\\approx0.21$."
+  },
+  {
+   "ref": "Q24(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.4"
+   ],
+   "question": "The table displays data from the 8 planets in our solar system.\n\n| | Mercury | Venus | Earth | Mars | Jupiter | Saturn | Uranus | Neptune |\n|---|---|---|---|---|---|---|---|---|\n| Mass ($\\times10^{24}$ kg) | 0.33 | 4.87 | 5.97 | 0.642 | 1898 | 568 | 86.8 | 102 |\n| Diameter (km) | 4879 | 12,104 | 12,756 | 6792 | 142,984 | 120,536 | 51,118 | 49,528 |\n| Density (kg/m$^3$) | 5427 | 5243 | 5514 | 3933 | 1326 | 687 | 1271 | 1638 |\n| Length of day (hours) | 4222.6 | 2802 | 24 | 24.7 | 9.9 | 10.7 | 17.2 | 16.1 |\n| Orbital period (days) | 88 | 224.7 | 365.2 | 687 | 4331 | 10,747 | 30,589 | 59,800 |\n| Average distance from Sun ($\\times10^6$ km) | 57.9 | 108.2 | 149.6 | 227.9 | 778.6 | 1433.5 | 2872.5 | 4495.1 |\n| Perihelion ($\\times10^6$ km) | 46 | 107.5 | 147.1 | 206.6 | 740.5 | 1352.6 | 2741.3 | 4444.5 |\n| Aphelion ($\\times10^6$ km) | 69.8 | 108.9 | 152.1 | 249.2 | 816.6 | 1514.5 | 3003.6 | 4545.7 |\n\nAt what distance from the Sun is Mars travelling with its greatest orbital velocity? Which of Kepler's laws did you use to answer this?",
+   "answer": "Mars travels fastest at its closest point to the Sun, the perihelion, $206.6\\times10^6\\ \\text{km}$. This follows from Kepler's second law (law of equal areas): the line joining the planet to the Sun sweeps out equal areas in equal times, so the planet must move faster when it is closer to the Sun."
+  },
+  {
+   "ref": "Q24(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "The mass of the Sun is $2.00\\times10^{30}\\ \\text{kg}$. The mass of Mercury is $0.33\\times10^{24}\\ \\text{kg}$ and its average distance from the Sun is $57.9\\times10^{6}\\ \\text{km}$. What is the average gravitational force between the Sun and Mercury?",
+   "answer": "$$F=\\frac{GMm}{r^2}=\\frac{6.67\\times10^{-11}\\times2.00\\times10^{30}\\times0.33\\times10^{24}}{(57.9\\times10^{9})^2}=1.31\\times10^{22}\\ \\text{N}$$"
+  },
+  {
+   "ref": "Q25",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3",
+    "12.5.3.5"
+   ],
+   "question": "A satellite is in a stable low Earth orbit with a constant speed and altitude. The controller of the satellite wants to move it to a higher orbit. On-board rockets are fired to increase the speed of the satellite and, when the new orbit is reached, the rockets are fired to reduce the speed. Use your understanding of relevant physical principles to explain this sequence of events.",
+   "answer": "To move to a higher orbit the satellite must gain gravitational potential energy. By conservation of energy this comes from chemical energy in the rocket fuel, which is converted into kinetic energy of the satellite. The rocket works by Newton's third law: the exhaust gases are pushed backwards, and they push the rocket forwards with an equal and opposite force. By Newton's second law ($F=ma$) the unbalanced force speeds the satellite up, so it moves outwards to a higher altitude (gaining potential energy as it climbs and losing some speed).\n\nAt the new radius the orbital speed required for a circular orbit, $v=\\sqrt{\\dfrac{GM}{r}}$, is less than that of the lower orbit. So once the new altitude is reached the satellite is moving too fast for a circular orbit there, and the rockets are fired against the direction of motion. By Newton's second law this force decelerates the satellite to the lower orbital speed needed for a stable circular orbit at the larger radius."
+  },
+  {
+   "ref": "Q26",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.5"
+   ],
+   "question": "Explain why electrical energy is transmitted over large distances at very high AC voltages and low currents.",
+   "answer": "Electrical energy is transmitted as AC because AC can easily be stepped up or down using transformers.\n\nFor a given power $P=IV$, a higher voltage means a lower current. The power lost as heat in the transmission lines of resistance $R$ is $P_{\\text{loss}}=I^2R$, so a lower current greatly reduces the power lost (halving the current reduces the loss to a quarter). Reducing line loss makes the transmission more efficient, so more of the generated energy reaches consumers. Step-up transformers at the power station raise the voltage for transmission and step-down transformers lower it again for safe use in homes."
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.4"
+   ],
+   "question": "A charged particle, particle X, is moving perpendicular to a uniform electric field (field lines pointing to the right, particle moving down the page). Another charged particle, particle Y, is moving perpendicular to a uniform magnetic field (field into the page). The particles are identical in charge (positive) and mass and have the same initial velocity.\n\nOutline ONE similarity and ONE difference between the behaviours of the particles in the fields.",
+   "images": [
+    "assets/img/phys-2021-hornsby-girls/q27.png"
+   ],
+   "answer": "Similarity: both particles experience a force that acts perpendicular to their initial velocity, so both are deflected to the right and follow curved paths.\n\nDifference: the shape of the path. In the electric field the force has constant magnitude and direction so X follows a parabola; in the magnetic field the force is always perpendicular to the velocity so Y moves in a circle at constant speed. (Also: the electric force does work on X, increasing its speed, whereas the magnetic force does no work on Y.)"
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.4",
+    "12.6.1.2"
+   ],
+   "question": "A positively charged particle X moves perpendicular to a uniform electric field, and an identical particle Y moves perpendicular to a uniform magnetic field. The two particles have identical charge, mass and initial velocity.\n\nIf the initial velocity of each particle was doubled, what effect would this have on the motion in each field?",
+   "answer": "Particle X: the force $F=qE$ does not depend on speed, so the acceleration is unchanged. But with double the speed the particle spends only half the time in the field, so it is deflected less: the parabolic path becomes flatter (less curved).\n\nParticle Y: $qvB=\\dfrac{mv^2}{r}$ gives $r=\\dfrac{mv}{qB}$, so the radius is proportional to $v$. The radius of the circular path doubles."
+  },
+  {
+   "ref": "Q28(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.1"
+   ],
+   "question": "A motor uses a coil with 40 turns that has dimensions of $30.0\\ \\text{cm}\\times20.0\\ \\text{cm}$, as shown in the diagram. A current of $1.5\\ \\text{A}$ flows through the coil in the direction shown (A to B along the top side). The coil is vertical (in the plane of the page) and is in a magnetic field of $5.1\\times10^{-2}\\ \\text{T}$ directed down the page as shown.\n\nWhat is the magnitude and direction of the magnetic force exerted on side AB?",
+   "images": [
+    "assets/img/phys-2021-hornsby-girls/q28.png"
+   ],
+   "answer": "Side AB is perpendicular to the field ($\\theta=90^\\circ$), with length $0.300\\ \\text{m}$ and 40 turns:\n$$F=nBIL\\sin\\theta=40\\times5.1\\times10^{-2}\\times1.5\\times0.300=0.918\\ \\text{N}\\approx9.2\\times10^{-1}\\ \\text{N}$$\nDirection: using the right-hand rule (current to the right, field down the page) the force is into the page."
+  },
+  {
+   "ref": "Q28(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.4.1"
+   ],
+   "question": "A motor uses a coil with 40 turns that has dimensions of $30.0\\ \\text{cm}\\times20.0\\ \\text{cm}$ (AB = $30.0\\ \\text{cm}$). A current of $1.5\\ \\text{A}$ flows through the coil in the direction shown (A to B along the top side). The coil is vertical (in the plane of the page) in a magnetic field of $5.1\\times10^{-2}\\ \\text{T}$ directed down the page as shown, i.e. parallel to the plane of the coil.\n\nWhat is the magnitude and direction of the torque experienced by the coil in this position?",
+   "images": [
+    "assets/img/phys-2021-hornsby-girls/q28.png"
+   ],
+   "answer": "The area is $A=0.300\\times0.200=0.0600\\ \\text{m}^2$. The normal to the coil is perpendicular to the field ($\\theta=90^\\circ$), which is the position of maximum torque:\n$$\\tau=nIAB\\sin\\theta=40\\times1.5\\times0.0600\\times5.1\\times10^{-2}=0.18\\ \\text{N m}$$\nDirection: side AB is forced into the page and side CD out of the page, so the coil rotates with AB moving into the page and CD coming out."
+  },
+  {
+   "ref": "Q28(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.4.1"
+   ],
+   "question": "A coil in a simple DC motor starts with its plane parallel to a uniform magnetic field and rotates because of the applied torque. What would happen to the magnitude of the torque as the coil rotates through $90^\\circ$?",
+   "answer": "The torque falls to zero. After $90^\\circ$ the plane of the coil is perpendicular to the field, so $\\sin\\theta=0$ in $\\tau=nIAB\\sin\\theta$ (the forces on the sides are then along the same line and produce no turning effect)."
+  },
+  {
+   "ref": "Q29",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.2"
+   ],
+   "question": "A circular loop of wire is dropped vertically to fall through a magnetic field (into the page) as shown in the diagram. The plane of the coil is always perpendicular to the field lines. In Fig. 1 the loop is entering the field, a current flows in the direction shown and the coil experiences a force in the direction opposite to its motion. However, when the coil is entirely inside the field, Fig. 2, there is no current and no opposing force.\n\nUse your understanding of Faraday's law and Lenz's law to explain this scenario.",
+   "images": [
+    "assets/img/phys-2021-hornsby-girls/q29.png"
+   ],
+   "answer": "In Fig. 1 the coil is entering the field, so the magnetic flux through it ($\\Phi=BA$) is changing (increasing). By Faraday's law, $\\varepsilon=-N\\dfrac{\\Delta\\Phi}{\\Delta t}$, an emf is induced, and since the loop is a closed circuit a current flows. By Lenz's law the induced current flows in the direction that opposes the change in flux (here producing a field out of the page, anticlockwise as seen), and the resulting magnetic force on the current in the field opposes the motion of the loop (a retarding force, consistent with conservation of energy).\n\nIn Fig. 2 the loop is entirely inside the uniform field, so the flux through it is constant and $\\dfrac{\\Delta\\Phi}{\\Delta t}=0$. By Faraday's law there is no induced emf, so no current flows, and therefore there is no magnetic force opposing the motion: the loop falls without this retarding force."
+  },
+  {
+   "ref": "Q30",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "A student placed lens B over lens A and noted that the intensity of light passing through was reduced in the region where the lenses overlap (Figure 1). Lens B was then rotated (Figure 2), and it was noted that even less light passed through.\n\nExplain the observations made by the student.",
+   "images": [
+    "assets/img/phys-2021-hornsby-girls/q30.png"
+   ],
+   "answer": "Both lenses are polarising filters. Light passing through lens A becomes plane polarised along the transmission axis of A. When this passes through lens B, whose axis is at an angle $\\theta$ to that of A, only the component of the electric field along B's axis is transmitted. By Malus' law the transmitted intensity is $I=I_{\\max}\\cos^2\\theta$, which is less than $I_{\\max}$ for $\\theta\\neq0$, so the overlap region is darker (Figure 1).\n\nIn Figure 2, rotating B increased the angle $\\theta$ between the two axes (towards $90^\\circ$), so $\\cos^2\\theta$ decreased and less light was transmitted, giving a darker overlap region."
+  },
+  {
+   "ref": "Q31",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.3",
+    "12.6.3.4"
+   ],
+   "question": "A transformer in a laptop charger converts $240\\ \\text{V}$ AC into $6.0\\ \\text{V}$ AC. When the charger is plugged into the laptop there is an output current of $500\\ \\text{mA}$. The charger has an energy efficiency of $90\\%$. Calculate the input current to the transformer in the charger.",
+   "answer": "Output power: $P_{out}=V_sI_s=6.0\\times0.500=3.0\\ \\text{W}$.\n\nEfficiency $=\\dfrac{P_{out}}{P_{in}}=0.90$, so $P_{in}=\\dfrac{3.0}{0.90}=3.33\\ \\text{W}$.\n\n$$I_p=\\frac{P_{in}}{V_p}=\\frac{3.33}{240}=1.4\\times10^{-2}\\ \\text{A}\\ (14\\ \\text{mA})$$"
+  },
+  {
+   "ref": "Q32",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.3.3"
+   ],
+   "question": "Calculate the energy of a photon of light which is emitted when an electron in an excited hydrogen atom transitions from level 5 down to level 2.",
+   "answer": "Rydberg equation:\n$$\\frac1\\lambda=R\\left(\\frac1{n_f^2}-\\frac1{n_i^2}\\right)=1.097\\times10^{7}\\left(\\frac1{2^2}-\\frac1{5^2}\\right)=2.304\\times10^{6}\\ \\text{m}^{-1}$$\n$$\\lambda=4.34\\times10^{-7}\\ \\text{m}$$\n$$E=\\frac{hc}{\\lambda}=\\frac{6.626\\times10^{-34}\\times3.00\\times10^{8}}{4.34\\times10^{-7}}=4.58\\times10^{-19}\\ \\text{J}\\ (2.86\\ \\text{eV})$$\nNote: the school's solution gives $4.52\\times10^{-19}\\ \\text{J}$ ($2.7\\ \\text{eV}$), which is a calculation error; the correct value is $4.58\\times10^{-19}\\ \\text{J}$."
+  },
+  {
+   "ref": "Q33(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.2"
+   ],
+   "question": "A diffraction grating has 2000 lines per cm. It was placed between a monochromatic light source and a screen at a distance $D$. A student shone monochromatic light at the grating and found a first-order maximum at an angle of $7.5^\\circ$ to the central maximum. Find the wavelength of the light source. Express your answer in nanometres.",
+   "images": [
+    "assets/img/phys-2021-hornsby-girls/q33.png"
+   ],
+   "answer": "Slit spacing: $d=\\dfrac{1\\times10^{-2}}{2000}=5.0\\times10^{-6}\\ \\text{m}$.\n\n$d\\sin\\theta=m\\lambda$ with $m=1$: $\\lambda=5.0\\times10^{-6}\\times\\sin7.5^\\circ=6.53\\times10^{-7}\\ \\text{m}\\approx653\\ \\text{nm}$ (about $650\\ \\text{nm}$)."
+  },
+  {
+   "ref": "Q33(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.2"
+   ],
+   "question": "A diffraction grating is placed between a monochromatic light source and a screen at a distance $D$. If the distance $D$ between the screen and the diffraction grating was decreased, what would happen to the distance between the maxima on the screen?",
+   "images": [
+    "assets/img/phys-2021-hornsby-girls/q33.png"
+   ],
+   "answer": "The spacing between the maxima would decrease. The angles of the maxima are fixed by $d\\sin\\theta=m\\lambda$, and the separation on the screen is about $D\\tan\\theta$, which is proportional to $D$."
+  },
+  {
+   "ref": "Q34(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.3.1"
+   ],
+   "question": "The graph shows the intensity vs wavelength for 3 black bodies at different temperatures. Black body radiation curves could not be explained using classical wave mechanics. What new interpretation did Max Planck introduce to explain the shape of the curves?",
+   "images": [
+    "assets/img/phys-2021-hornsby-girls/q34.png"
+   ],
+   "answer": "Planck proposed that the energy of the radiation emitted (by the oscillating atoms in the body) is quantised: it can only be emitted or absorbed in discrete packets (quanta), $E=hf$, rather than continuously."
+  },
+  {
+   "ref": "Q34(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.1"
+   ],
+   "question": "The graph shows the intensity vs wavelength (wavelength in $\\mu\\text{m}$) for 3 black bodies at different temperatures. Use Wien's law to estimate the temperature of the hottest of the three bodies.",
+   "images": [
+    "assets/img/phys-2021-hornsby-girls/q34.png"
+   ],
+   "answer": "The hottest body has the shortest peak wavelength (the tallest curve), with $\\lambda_{\\max}\\approx0.8\\ \\mu\\text{m}=0.8\\times10^{-6}\\ \\text{m}$.\n$$T=\\frac{b}{\\lambda_{\\max}}=\\frac{2.898\\times10^{-3}}{0.8\\times10^{-6}}=3.6\\times10^{3}\\ \\text{K}\\ (\\approx4000\\ \\text{K to 1 s.f.})$$"
+  },
+  {
+   "ref": "Q34(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.2",
+    "12.7.3.3"
+   ],
+   "question": "Describe how Einstein used Planck's interpretation to explain the existence of the threshold frequency in the photoelectric effect.",
+   "answer": "Einstein extended Planck's idea of quantised energy by proposing that light itself consists of particles (photons), each carrying a quantum of energy $E=hf$. When a photon strikes the metal surface, its entire energy is transferred to a single electron (a one-photon, one-electron interaction).\n\nPart of this energy is used to free the electron from the metal; the minimum energy needed is the work function $\\phi$. Any remaining energy appears as the kinetic energy of the ejected electron: $K_{\\max}=hf-\\phi$.\n\nIf the light has a frequency below the threshold frequency $f_0=\\dfrac{\\phi}{h}$, each photon has less energy than $\\phi$, so it cannot free an electron, no matter how intense the light (many photons cannot combine their energy). If $f>f_0$, a photon has enough energy to eject an electron immediately, and the excess energy $hf-\\phi$ becomes its kinetic energy."
+  },
+  {
+   "ref": "Q35",
+   "kind": "written",
+   "marks": 6,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "Muons are unstable subatomic particles that decay into electrons and neutrinos with a mean lifetime of $2.2\\ \\mu\\text{s}$. They are produced when cosmic rays bombard the upper atmosphere about $11.4\\ \\text{km}$ above the Earth's surface, and they travel very close to the speed of light relative to the Earth.\n\nExplain how observations of these muons can be used as evidence to support Einstein's Special Theory of Relativity of both length contraction and time dilation.",
+   "answer": "Without relativity: at (say) $v=0.999c$ a muon would travel only $s=vt=0.999\\times3.0\\times10^{8}\\times2.2\\times10^{-6}\\approx660\\ \\text{m}$ before decaying, so almost none would reach the ground $11.4\\ \\text{km}$ away. In fact many more muons are detected at the Earth's surface than this predicts, which is evidence for relativistic effects.\n\nEarth frame (time dilation): the muon's lifetime of $2.2\\ \\mu\\text{s}$ is its proper time $t_0$. For an observer on Earth it is dilated:\n$$t=\\frac{t_0}{\\sqrt{1-v^2/c^2}}=\\frac{2.2\\times10^{-6}}{\\sqrt{1-0.999^2}}=49\\ \\mu\\text{s}$$\nThe time needed to travel $11.4\\ \\text{km}$ is $t=\\dfrac{11.4\\times10^{3}}{0.999\\times3.0\\times10^{8}}=38\\ \\mu\\text{s}$, which is less than $49\\ \\mu\\text{s}$, so many muons survive to reach the ground.\n\nMuon frame (length contraction): in the muon's frame its lifetime is only $2.2\\ \\mu\\text{s}$, but the atmosphere moves past it at $0.999c$ and the $11.4\\ \\text{km}$ is contracted:\n$$L=L_0\\sqrt{1-v^2/c^2}=11.4\\times10^{3}\\times\\sqrt{1-0.999^2}=510\\ \\text{m}$$\nThe time to cover $510\\ \\text{m}$ is $\\dfrac{510}{0.999\\times3.0\\times10^{8}}=1.7\\ \\mu\\text{s}$, which is less than $2.2\\ \\mu\\text{s}$, so the muon reaches the surface before decaying.\n\nBoth frames agree that the muon reaches the ground, with time dilation (Earth frame) and length contraction (muon frame) accounting for it, supporting Einstein's special relativity."
+  },
+  {
+   "ref": "Q36(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.2.1",
+    "12.6.1.1"
+   ],
+   "question": "An oil drop of mass $1.177\\times10^{-15}\\ \\text{kg}$ falls vertically into the evacuated space between two parallel charged plates, which are $2.00\\ \\text{cm}$ apart. The oil drop is negatively charged. The voltage is altered so that it slows the oil drop until it is stationary. When the potential difference between the plates is $72.0\\ \\text{V}$, the oil drop stops moving. How many excess electrons are on the oil drop?",
+   "images": [
+    "assets/img/phys-2021-hornsby-girls/q36.png"
+   ],
+   "answer": "When stationary the electric force balances the weight: $qE=mg$ with $E=\\dfrac{V}{d}$.\n$$q=\\frac{mgd}{V}=\\frac{1.177\\times10^{-15}\\times9.8\\times2.00\\times10^{-2}}{72.0}=3.20\\times10^{-18}\\ \\text{C}$$\n$$n=\\frac{q}{e}=\\frac{3.20\\times10^{-18}}{1.602\\times10^{-19}}=20\\ \\text{electrons}$$"
+  },
+  {
+   "ref": "Q36(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.2.1"
+   ],
+   "question": "An experiment with a similar approach (suspending charged oil drops between charged plates) was used by Robert Millikan. What did he conclude from his investigation?",
+   "answer": "The charge on each oil drop was always a whole-number multiple of a fundamental unit of charge, so charge is quantised, and the smallest unit is the charge on the electron, $e=1.6\\times10^{-19}\\ \\text{C}$."
+  },
+  {
+   "ref": "Q37",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.8.2.1"
+   ],
+   "question": "JJ Thomson performed an investigation (1897) that determined the charge-to-mass ratio of the electron using the apparatus shown. Outline his procedure and how he derived the relationship $\\dfrac{q}{m}=\\dfrac{E}{rB^2}$.",
+   "images": [
+    "assets/img/phys-2021-hornsby-girls/q37.png"
+   ],
+   "answer": "Procedure:\n1. A high potential difference between the cathode C and anode A of the discharge tube produced a beam of cathode rays (electrons), collimated by slits and seen as a glowing spot on the phosphorescent screen at the end of the tube.\n2. A magnetic field $B$ (from current-carrying coils) was applied perpendicular to the beam in the region between plates D and E. The beam was deflected in a circular arc, and the radius of curvature $r$ was found from the position of the spot on the screen.\n3. An electric field $E$ was then applied between the plates D and E, adjusted so that the electric force exactly cancelled the magnetic force and the beam returned to its undeflected position.\n\nDerivation:\nMagnetic force provides the centripetal force in step 2: $qvB=\\dfrac{mv^2}{r}\\ \\Rightarrow\\ \\dfrac{q}{m}=\\dfrac{v}{rB}$. (1)\n\nWith the fields balanced in step 3: $qE=qvB\\ \\Rightarrow\\ v=\\dfrac{E}{B}$. (2)\n\nSubstituting (2) into (1): $$\\frac{q}{m}=\\frac{E/B}{rB}=\\frac{E}{rB^2}$$\n(Note: the school's sample answer mislabels the electrodes: the cathode is C and the anode A.)"
+  }
+ ]
+}
