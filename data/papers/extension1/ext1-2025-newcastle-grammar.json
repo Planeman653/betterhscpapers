@@ -1,0 +1,438 @@
+{
+ "id": "ext1-2025-newcastle-grammar",
+ "course": "extension1",
+ "school": "Newcastle Grammar",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "Newcastle Grammar 2025 w. sol"
+ },
+ "indexed": "2026-11-26",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q11(b)",
+   "reason": "Sampling distribution of the sample proportion is not in the NESA 2024 Extension 1 syllabus (only sample means and the central limit theorem are)."
+  },
+  {
+   "ref": "Q14(a)",
+   "reason": "Normal approximation for the sample proportion is not in the NESA 2024 Extension 1 syllabus."
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.2",
+    "11.2.3.4"
+   ],
+   "question": "The polynomial $P(x)=2x^3+5x^2-x-6$ has roots $-2$, $1$ and $\\alpha$. What is the value of $\\alpha$?",
+   "answer": "Sum of roots $=-\\frac ba=-\\frac52$: $-2+1+\\alpha=-\\frac52\\Rightarrow\\alpha=-\\frac32$ (C).",
+   "options": [
+    "$-3$",
+    "$3$",
+    "$-\\dfrac32$",
+    "$\\dfrac32$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.2.8"
+   ],
+   "question": "$X$ is defined as a random variable such that $X\\sim\\text{Bin}(48,0.25)$. Which of the following are correct calculations of $E(X)$ and $\\text{Var}(X)$?",
+   "answer": "$E(X)=np=48\\times0.25=12$ and $\\text{Var}(X)=np(1-p)=12\\times0.75=9$ (C).",
+   "options": [
+    "$E(X)=24,\\ \\text{Var}(X)=12$",
+    "$E(X)=24,\\ \\text{Var}(X)=2\\sqrt3$",
+    "$E(X)=12,\\ \\text{Var}(X)=9$",
+    "$E(X)=12,\\ \\text{Var}(X)=3$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.7",
+    "12.6.2.8"
+   ],
+   "question": "A game of Three Card Monte involves a player guessing the correct position of their card after it is mixed with two other cards. Raymond plays Three Card Monte $7$ times. Which of the following diagrams represents the probabilities of Raymond winning $x$ games out of $7$?",
+   "answer": "The number of wins is $X\\sim\\text{Bin}\\left(7,\\frac13\\right)$ with $E(X)=\\frac73\\approx2.3$. Since $p<\\frac12$ the distribution is positively skewed with its peak near $2$ (A).",
+   "options": [
+    "![Diagram A](assets/img/ext1-2025-newcastle-grammar/q3a.png)",
+    "![Diagram B](assets/img/ext1-2025-newcastle-grammar/q3b.png)",
+    "![Diagram C](assets/img/ext1-2025-newcastle-grammar/q3c.png)",
+    "![Diagram D](assets/img/ext1-2025-newcastle-grammar/q3d.png)"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.6",
+    "12.2.3.7"
+   ],
+   "question": "Given $\\overrightarrow{OA}=\\begin{pmatrix}4\\\\3\\end{pmatrix}$ and $\\overrightarrow{OB}=\\begin{pmatrix}-2\\\\1\\end{pmatrix}$, what is the magnitude of vector $\\overrightarrow{AB}$?",
+   "answer": "$\\overrightarrow{AB}=\\overrightarrow{OB}-\\overrightarrow{OA}=\\begin{pmatrix}-6\\\\-2\\end{pmatrix}$, so $|\\overrightarrow{AB}|=\\sqrt{36+4}=\\sqrt{40}=2\\sqrt{10}$ (D).",
+   "options": [
+    "$\\sqrt2$",
+    "$2\\sqrt2$",
+    "$\\sqrt{10}$",
+    "$2\\sqrt{10}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.4",
+    "11.1.2.12"
+   ],
+   "question": "The line $y=3x-4$ is a tangent to the graph of $y=f(x)$ at the point where $x=1$. What is the equation of the normal to the graph of $y=f^{-1}(x)$ at the point where $x=-1$?",
+   "answer": "At $x=1$ the tangent gives $y=3(1)-4=-1$, so $(1,-1)$ is on $y=f(x)$ and $(-1,1)$ is on $y=f^{-1}(x)$. The gradient of $f$ there is $3$, so the gradient of $f^{-1}$ at $x=-1$ is $\\frac13$, and the normal has gradient $-3$.\n$$y-1=-3(x+1)\\Rightarrow y=-3x-2\\ \\text{(C)}.$$",
+   "options": [
+    "$y=-\\dfrac13x-\\dfrac23$",
+    "$y=\\dfrac13x+\\dfrac43$",
+    "$y=-3x-2$",
+    "$y=-3x+3$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.3",
+    "11.3.2.4"
+   ],
+   "question": "What does $\\cos^2\\left(\\dfrac\\pi4-3x\\right)-\\sin^2\\left(\\dfrac\\pi4-3x\\right)$ simplify to?",
+   "answer": "Using $\\cos2A=\\cos^2A-\\sin^2A$ with $A=\\frac\\pi4-3x$: the expression is $\\cos\\left(\\frac\\pi2-6x\\right)=\\sin6x$ (D).",
+   "options": [
+    "$1$",
+    "$\\cos2x$",
+    "$\\cos6x$",
+    "$\\sin6x$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.7"
+   ],
+   "question": "If $y=e^{2x}\\cos^{-1}(3x)$, which of the following is the correct expression for $\\dfrac{dy}{dx}$?",
+   "answer": "Product rule with $\\frac{d}{dx}\\cos^{-1}(3x)=-\\frac{3}{\\sqrt{1-9x^2}}$:\n$$\\frac{dy}{dx}=2e^{2x}\\cos^{-1}(3x)-\\frac{3e^{2x}}{\\sqrt{1-9x^2}}\\ \\text{(B)}.$$",
+   "options": [
+    "$e^{2x}\\left[2\\cos^{-1}(3x)+\\dfrac{3}{\\sqrt{1-3x^2}}\\right]$",
+    "$2e^{2x}\\cos^{-1}(3x)-\\dfrac{3e^{2x}}{\\sqrt{1-9x^2}}$",
+    "$e^{2x}\\left[2\\cos^{-1}(3x)-\\dfrac{3}{\\sqrt{1-3x^2}}\\right]$",
+    "$2e^{2x}\\cos^{-1}(3x)+\\dfrac{3e^{2x}}{\\sqrt{1-9x^2}}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.1.1.3"
+   ],
+   "question": "The graph of $y=f(x)$ is sketched below. Which of the following is the correct sketch of $y=\\left|f(|x|)\\right|$?",
+   "answer": "Step 1: $y=f(|x|)$: keep the part of the graph with $x\\ge0$ and reflect it in the $y$-axis. Step 2: $y=|f(|x|)|$: keep the parts with $y\\ge0$ and reflect the parts below the $x$-axis in the $x$-axis. The result is symmetric about the $y$-axis and lies entirely on or above the $x$-axis (B).",
+   "options": [
+    "![Graph A](assets/img/ext1-2025-newcastle-grammar/q8a.png)",
+    "![Graph B](assets/img/ext1-2025-newcastle-grammar/q8b.png)",
+    "![Graph C](assets/img/ext1-2025-newcastle-grammar/q8c.png)",
+    "![Graph D](assets/img/ext1-2025-newcastle-grammar/q8d.png)"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/ext1-2025-newcastle-grammar/q8.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "Consider the differential equation $\\dfrac{dy}{dx}=\\dfrac{x^2}{y^2+1}$. Which of the following equations best represents the relationship between $x$ and $y$?",
+   "answer": "Separating variables: $\\int(y^2+1)\\,dy=\\int x^2\\,dx\\Rightarrow\\frac{y^3}3+y=\\frac{x^3}3+c_1$. Multiplying by $3$: $y^3+3y=x^3+c$ (B).",
+   "options": [
+    "$y^3+3y=\\dfrac{x^3}{3}+c$",
+    "$y^3+3y=x^3+c$",
+    "$y=x^3\\ln\\left|y^2+1\\right|+c$",
+    "$y=\\dfrac{x^3}{3}\\ln\\left|y^2+1\\right|+c$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.6",
+    "12.2.3.4"
+   ],
+   "question": "Let $ABCD$ be a parallelogram, where the diagonals intersect at $P$, and $O$ is the origin. Which of the following expressions is equivalent to $\\overrightarrow{OA}+\\overrightarrow{OB}+\\overrightarrow{OC}+\\overrightarrow{OD}$?",
+   "answer": "The diagonals of a parallelogram bisect each other, so $P$ is the midpoint of $AC$ and of $BD$: $\\overrightarrow{OA}+\\overrightarrow{OC}=2\\overrightarrow{OP}$ and $\\overrightarrow{OB}+\\overrightarrow{OD}=2\\overrightarrow{OP}$. The sum is $4\\overrightarrow{OP}$ (C).",
+   "options": [
+    "$2\\overrightarrow{OP}$",
+    "$3\\overrightarrow{OP}$",
+    "$4\\overrightarrow{OP}$",
+    "$5\\overrightarrow{OP}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Solve the inequality $\\dfrac{2x+3}{x-1}\\ge1$.",
+   "answer": "Multiply both sides by $(x-1)^2>0$ (with $x\\ne1$): $(x-1)(2x+3)\\ge(x-1)^2\\Rightarrow(x-1)\\left[(2x+3)-(x-1)\\right]\\ge0\\Rightarrow(x-1)(x+4)\\ge0$.\n$$x\\le-4\\quad\\text{or}\\quad x>1.$$"
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "Find the coefficient of $x^8$ in the expansion of $(2x+2)^{10}$.",
+   "answer": "$T_3=\\binom{10}{2}(2x)^8(2)^2$, so the coefficient is $45\\times256\\times4=46\\,080$."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.7"
+   ],
+   "question": "The non-zero vectors $\\mathbf u$ and $\\mathbf v$ are given by $\\mathbf u=\\begin{pmatrix}2a\\\\a+1\\end{pmatrix}$ and $\\mathbf v=\\begin{pmatrix}a^2\\\\-a\\end{pmatrix}$. The vectors $\\mathbf u$ and $\\mathbf v$ are perpendicular. Find all possible values of $a$.",
+   "answer": "$\\mathbf u\\cdot\\mathbf v=0$: $2a\\cdot a^2+(a+1)(-a)=2a^3-a^2-a=a(2a+1)(a-1)=0$, so $a=0,-\\frac12,1$.\n\nBut $a=0$ gives $\\mathbf v=\\begin{pmatrix}0\\\\0\\end{pmatrix}$, the zero vector, which is excluded. Hence $a=-\\frac12$ or $a=1$."
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "Use mathematical induction to prove that $4^{2n}-1$ is divisible by $3$ for all integers $n\\ge1$.",
+   "answer": "**$n=1$:** $4^2-1=15=3\\times5$, divisible by $3$.\n\n**Assume** true for $n=k$: $4^{2k}-1=3M$ for some integer $M$, i.e. $4^{2k}=3M+1$.\n\n**Prove** for $n=k+1$: $4^{2(k+1)}-1=4^{2k}\\cdot16-1=(3M+1)\\cdot16-1=48M+15=3(16M+5)$, a multiple of $3$.\n\nSo true for $n=k+1$ whenever true for $n=k$; by induction it is true for all integers $n\\ge1$."
+  },
+  {
+   "ref": "Q11(f)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.3.3.2",
+    "11.1.1.1"
+   ],
+   "question": "Let $f(x)=2\\sin x+2\\sqrt3\\cos x+k$, for $0\\le x\\le2\\pi$ and $k$ is a real number. Find the values of $k$ for which $y=\\dfrac1{f(x)}$ has no asymptotes.",
+   "answer": "Vertical asymptotes of $y=\\frac1{f(x)}$ occur where $f(x)=0$, so we need $f(x)\\ne0$ for all $x$.\n\n$2\\sin x+2\\sqrt3\\cos x=R\\sin(x+\\alpha)$ with $R=\\sqrt{4+12}=4$, so $f(x)=4\\sin(x+\\alpha)+k$ has range $[k-4,\\,k+4]$. This never contains $0$ when\n$$k>4\\quad\\text{or}\\quad k<-4.$$"
+  },
+  {
+   "ref": "Q11(f)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.2",
+    "11.1.1.1"
+   ],
+   "question": "Let $f(x)=2\\sin x+2\\sqrt3\\cos x+k$, for $0\\le x\\le2\\pi$. Suppose now that $k=8$. Find the maximum and minimum values on the graph of $y=\\dfrac1{f(x)}$. (You do not need to sketch the graph.)",
+   "answer": "$f(x)=4\\sin(x+\\alpha)+8$ has minimum $4$ and maximum $12$. Therefore $y=\\frac1{f(x)}$ has\n$$\\text{maximum}=\\frac14\\ (\\text{where }f\\text{ is least}),\\qquad\\text{minimum}=\\frac1{12}\\ (\\text{where }f\\text{ is greatest}).$$"
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Use the substitution $u=\\sec2x$ to evaluate $\\displaystyle\\int_0^{\\pi/6}\\sec2x\\tan2x\\,dx$.",
+   "answer": "$u=\\sec2x\\Rightarrow du=2\\sec2x\\tan2x\\,dx$. When $x=0$, $u=\\sec0=1$; when $x=\\frac\\pi6$, $u=\\sec\\frac\\pi3=2$.\n$$\\int_0^{\\pi/6}\\sec2x\\tan2x\\,dx=\\frac12\\int_1^2du=\\frac12\\left[u\\right]_1^2=\\frac12.$$"
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "A conical tank has its radius and height in the ratio of $1:2$. Water is entering the tank at a rate of $1200$ L/min. Let the water depth be $h$ centimetres with the radius $r$ centimetres at the surface. Find the exact rate at which the height of the water is increasing at the time when $h=80$ cm. [NOTE: $1\\ \\text{L}=1000\\ \\text{cm}^3$]",
+   "answer": "$\\dfrac{dV}{dt}=1200\\times1000=1\\,200\\,000\\ \\text{cm}^3/\\text{min}$. With $r=\\frac h2$: $V=\\frac13\\pi r^2h=\\frac{\\pi h^3}{12}$, so $\\dfrac{dV}{dh}=\\dfrac{\\pi h^2}4$.\n$$\\frac{dh}{dt}=\\frac{dV}{dt}\\cdot\\frac{dh}{dV}=1\\,200\\,000\\times\\frac4{\\pi h^2}=\\frac{4\\,800\\,000}{\\pi h^2}.$$\nAt $h=80$: $\\dfrac{dh}{dt}=\\dfrac{4\\,800\\,000}{6400\\pi}=\\dfrac{750}{\\pi}$ cm/min."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.2"
+   ],
+   "question": "Use division of polynomials to express $P(x)$ in the form $P(x)=A(x)\\cdot Q(x)+R(x)$ where $P(x)=3x^3+14x+11$ and $A(x)=x^2-3x+2$.",
+   "answer": "Dividing $3x^3+0x^2+14x+11$ by $x^2-3x+2$: first term $3x$ (subtract $3x^3-9x^2+6x$, leaving $9x^2+8x+11$); next term $9$ (subtract $9x^2-27x+18$, leaving $35x-7$).\n$$P(x)=\\left(x^2-3x+2\\right)(3x+9)+(35x-7).$$"
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.4.1.11",
+    "11.4.1.9"
+   ],
+   "question": "There are seven people to be seated around a round table. Of these seven people, Alice and Bob must sit next to each other, while Charlie and Dean must not sit next to each other. In how many ways could these seven people be seated with the above conditions?",
+   "answer": "Alice and Bob together (treated as one block): $(6-1)!\\times2!=240$ arrangements.\n\nOf these, those with Charlie and Dean also together (two blocks, $5$ objects): $(5-1)!\\times2!\\times2!=96$.\n\nCharlie and Dean not together: $240-96=144$."
+  },
+  {
+   "ref": "Q12(e)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.2.3"
+   ],
+   "question": "Find an expression for $\\displaystyle\\int\\cos^4x\\,dx$.",
+   "answer": "$\\cos^4x=\\left(\\cos^2x\\right)^2=\\frac14(1+\\cos2x)^2=\\frac14\\left(1+2\\cos2x+\\cos^22x\\right)=\\frac14\\left(\\frac32+2\\cos2x+\\frac12\\cos4x\\right).$\n$$\\int\\cos^4x\\,dx=\\frac14\\left[\\frac32x+\\sin2x+\\frac18\\sin4x\\right]+C=\\frac38x+\\frac14\\sin2x+\\frac1{32}\\sin4x+C.$$"
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Use the substitution $u=\\sqrt{x-2}$ to evaluate $\\displaystyle\\int_2^4 2x\\sqrt{x-2}\\,dx$. Give your answer as an exact value in simplest form.",
+   "answer": "$u^2=x-2\\Rightarrow x=u^2+2$, $dx=2u\\,du$. When $x=2$, $u=0$; when $x=4$, $u=\\sqrt2$.\n$$I=\\int_0^{\\sqrt2}2(u^2+2)\\,u\\cdot2u\\,du=4\\int_0^{\\sqrt2}\\left(u^4+2u^2\\right)du=4\\left[\\frac{u^5}5+\\frac{2u^3}3\\right]_0^{\\sqrt2}=4\\left(\\frac{4\\sqrt2}5+\\frac{4\\sqrt2}3\\right)=\\frac{128\\sqrt2}{15}.$$"
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "The region bounded by the curve $y=\\sqrt x$, the $y$-axis and the line $y=2$ is rotated about the $y$-axis. Calculate the exact volume of the solid of revolution formed.",
+   "answer": "$y=\\sqrt x\\Rightarrow x=y^2$, so $x^2=y^4$, with $0\\le y\\le2$.\n$$V=\\pi\\int_0^2y^4\\,dy=\\frac\\pi5\\left[y^5\\right]_0^2=\\frac{32\\pi}5\\ \\text{units}^3.$$"
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.6",
+    "11.3.2.3"
+   ],
+   "question": "Find the exact value of $\\sin\\left(2\\arctan\\left(\\dfrac35\\right)\\right)$, showing all working.",
+   "answer": "Let $\\alpha=\\arctan\\frac35$, so $\\tan\\alpha=\\frac35$ and the hypotenuse is $\\sqrt{3^2+5^2}=\\sqrt{34}$: $\\sin\\alpha=\\frac3{\\sqrt{34}}$, $\\cos\\alpha=\\frac5{\\sqrt{34}}$.\n$$\\sin2\\alpha=2\\sin\\alpha\\cos\\alpha=2\\cdot\\frac3{\\sqrt{34}}\\cdot\\frac5{\\sqrt{34}}=\\frac{30}{34}=\\frac{15}{17}.$$"
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.3.4",
+    "12.2.3.6"
+   ],
+   "question": "Consider a parallelogram $OABC$ where the point $P$ is the midpoint of $AB$. The point $Q$ lies on the diagonal $AC$ so that $AQ:QC=1:2$. Let $\\overrightarrow{OA}=\\mathbf a$ and $\\overrightarrow{OC}=\\mathbf c$. Prove that $O$, $P$ and $Q$ are collinear.",
+   "answer": "In the parallelogram, $\\overrightarrow{AB}=\\overrightarrow{OC}=\\mathbf c$, and $\\overrightarrow{AC}=\\mathbf c-\\mathbf a$.\n\n$P$ is the midpoint of $AB$: $\\overrightarrow{OP}=\\overrightarrow{OA}+\\tfrac12\\overrightarrow{AB}=\\mathbf a+\\tfrac12\\mathbf c$.\n\n$AQ:QC=1:2$ gives $\\overrightarrow{AQ}=\\tfrac13\\overrightarrow{AC}$: $\\overrightarrow{OQ}=\\mathbf a+\\tfrac13(\\mathbf c-\\mathbf a)=\\tfrac23\\mathbf a+\\tfrac13\\mathbf c=\\tfrac23\\left(\\mathbf a+\\tfrac12\\mathbf c\\right)=\\tfrac23\\overrightarrow{OP}$.\n\nSo $\\overrightarrow{OQ}$ is a scalar multiple of $\\overrightarrow{OP}$; the vectors are parallel and share the point $O$, hence $O$, $P$, $Q$ are collinear."
+  },
+  {
+   "ref": "Q13(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Use mathematical induction to prove that $$\\frac1{2\\times5}+\\frac1{5\\times8}+\\frac1{8\\times11}+\\dots+\\frac1{(3n-1)(3n+2)}=\\frac n{6n+4}$$ where $n$ is a positive integer.",
+   "answer": "**$n=1$:** LHS $=\\frac1{2\\times5}=\\frac1{10}$; RHS $=\\frac1{6+4}=\\frac1{10}$. True.\n\n**Assume** true for $n=k$: $\\frac1{2\\times5}+\\dots+\\frac1{(3k-1)(3k+2)}=\\frac k{6k+4}$.\n\n**Prove** for $n=k+1$: RHS should be $\\frac{k+1}{6(k+1)+4}$.\n$$\\text{LHS}=\\frac k{6k+4}+\\frac1{(3k+2)(3k+5)}=\\frac{k(3k+5)+2}{2(3k+2)(3k+5)}=\\frac{3k^2+5k+2}{2(3k+2)(3k+5)}=\\frac{(3k+2)(k+1)}{2(3k+2)(3k+5)}=\\frac{k+1}{6k+10}=\\frac{k+1}{6(k+1)+4}.$$\nSo true for $n=k+1$ whenever true for $n=k$; by induction it is true for all positive integers $n$."
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.5",
+    "12.3.1.5"
+   ],
+   "question": "Consider the function $f(x)=\\tan^{-1}\\left(\\dfrac{\\cos x}{1+\\sin x}\\right)$, $-\\dfrac\\pi2<x<\\dfrac\\pi2$. By first finding $f'(x)$, sketch the graph of $y=f(x)$, showing all relevant features.",
+   "answer": "$$f'(x)=\\frac1{1+\\left(\\frac{\\cos x}{1+\\sin x}\\right)^2}\\cdot\\frac{(1+\\sin x)(-\\sin x)-\\cos x\\cdot\\cos x}{(1+\\sin x)^2}=\\frac{-(1+\\sin x)}{(1+\\sin x)^2+\\cos^2x}=\\frac{-(1+\\sin x)}{2(1+\\sin x)}=-\\frac12.$$\nSo the gradient is constant and $f$ is linear. $f(0)=\\tan^{-1}1=\\frac\\pi4$, so $f(x)=\\frac\\pi4-\\frac x2$.\n\nThe graph is a straight line of gradient $-\\frac12$ with $y$-intercept $\\frac\\pi4$, running from an open endpoint at $\\left(-\\frac\\pi2,\\frac\\pi2\\right)$ to an open endpoint at $\\left(\\frac\\pi2,0\\right)$.",
+   "answer_images": [
+    "assets/img/ext1-2025-newcastle-grammar/a14b.png"
+   ]
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.4.13",
+    "12.4.2.2",
+    "12.4.2.3"
+   ],
+   "question": "Use the substitution $x=\\sin\\theta$ for $-\\dfrac\\pi2<\\theta<\\dfrac\\pi2$, to solve the differential equation $\\dfrac{dy}{dx}=y\\sqrt{1-x^2}$ where $-1<x<1$, and given that $y=2$ when $x=0$.",
+   "answer": "Separate: $\\int\\frac{dy}y=\\int\\sqrt{1-x^2}\\,dx$. With $x=\\sin\\theta$, $dx=\\cos\\theta\\,d\\theta$ and $\\sqrt{1-x^2}=\\cos\\theta$ (as $\\cos\\theta>0$):\n$$\\int\\cos^2\\theta\\,d\\theta=\\frac12\\int(1+\\cos2\\theta)\\,d\\theta=\\frac12\\left[\\theta+\\frac{\\sin2\\theta}2\\right]+C.$$\nSo $\\ln|y|=\\frac\\theta2+\\frac{\\sin2\\theta}4+C$. When $x=0$, $\\theta=0$ and $y=2$: $C=\\ln2$.\n\nSince $\\sin2\\theta=2\\sin\\theta\\cos\\theta=2x\\sqrt{1-x^2}$ and $\\theta=\\sin^{-1}x$:\n$$\\ln|y|=\\frac{\\sin^{-1}x}2+\\frac{x\\sqrt{1-x^2}}2+\\ln2\\ \\Rightarrow\\ y=2\\,e^{\\frac12\\sin^{-1}x+\\frac12x\\sqrt{1-x^2}}.$$"
+  },
+  {
+   "ref": "Q14(d)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.4"
+   ],
+   "question": "The region $R$ is bounded by the $y$-axis, the graph of $y=e^x$, the graph of $y=e^{-x}$, and the line $x=k$ where $k>0$, as shown in the diagram. The volume of the solid of revolution formed when the region $R$ is rotated about the $x$-axis is $V=\\dfrac{9\\pi}8$ units$^3$. Find the exact value of $k$.",
+   "answer": "$$V=\\pi\\int_0^k\\left[(e^x)^2-(e^{-x})^2\\right]dx=\\pi\\int_0^k\\left(e^{2x}-e^{-2x}\\right)dx=\\pi\\left[\\frac{e^{2x}}2+\\frac{e^{-2x}}2\\right]_0^k=\\pi\\left[\\frac{e^{2k}+e^{-2k}}2-1\\right].$$\nSetting this equal to $\\frac{9\\pi}8$: $e^{2k}+e^{-2k}-2=\\frac94$, i.e. $\\left(e^k-e^{-k}\\right)^2=\\frac94$. As $k>0$, $e^k-e^{-k}=\\frac32$, so $2e^{2k}-3e^k-2=0$:\n$$(2e^k+1)(e^k-2)=0\\Rightarrow e^k=2\\ (e^k=-\\tfrac12\\text{ impossible})\\Rightarrow k=\\ln2.$$",
+   "images": [
+    "assets/img/ext1-2025-newcastle-grammar/q14d.png"
+   ]
+  }
+ ]
+}
