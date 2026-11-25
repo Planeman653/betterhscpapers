@@ -1,0 +1,652 @@
+{
+ "id": "ext2-2025-smiths-hill",
+ "course": "extension2",
+ "school": "Smiths Hill",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "Smiths Hill 2025 w. sol"
+ },
+ "indexed": "2026-11-26",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.11"
+   ],
+   "question": "Consider the statement: *If an animal can fly, then it is a bird.* Which of the following is the contrapositive of this statement?",
+   "answer": "The contrapositive of 'if $P$ then $Q$' is 'if not $Q$ then not $P$': if an animal is not a bird, then it cannot fly (A).",
+   "options": [
+    "If an animal is not a bird, then it cannot fly.",
+    "If an animal is a bird, then it can fly.",
+    "If an animal can fly, then it is not a bird.",
+    "If an animal cannot fly, then it is not a bird."
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.4"
+   ],
+   "question": "What is the equation of the line which passes through $A(4,6,5)$ and $B(-2,3,-1)$?",
+   "answer": "Direction $\\overrightarrow{AB}=(-2-4,\\,3-6,\\,-1-5)=(-6,-3,-6)$, and the line passes through $A$, so $\\mathbf r=\\begin{pmatrix}4\\\\6\\\\5\\end{pmatrix}+\\lambda\\begin{pmatrix}-6\\\\-3\\\\-6\\end{pmatrix}$ (D).",
+   "options": [
+    "$\\mathbf r=\\begin{pmatrix}4\\\\6\\\\5\\end{pmatrix}-\\lambda\\begin{pmatrix}-2\\\\3\\\\-1\\end{pmatrix}$",
+    "$\\mathbf r=\\begin{pmatrix}4\\\\6\\\\5\\end{pmatrix}-\\lambda\\begin{pmatrix}2\\\\9\\\\4\\end{pmatrix}$",
+    "$\\mathbf r=\\begin{pmatrix}4\\\\6\\\\5\\end{pmatrix}+\\lambda\\begin{pmatrix}2\\\\9\\\\4\\end{pmatrix}$",
+    "$\\mathbf r=\\begin{pmatrix}4\\\\6\\\\5\\end{pmatrix}+\\lambda\\begin{pmatrix}-6\\\\-3\\\\-6\\end{pmatrix}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.2"
+   ],
+   "question": "Consider the proposition: *If a positive integer is not a perfect square, then it is not prime.* A counterexample to this proposition is to be found. A number with which of the following properties would suffice?",
+   "answer": "A counterexample to 'if $P$ then $Q$' makes $P$ true and $Q$ false: not a perfect square, and prime (A), e.g. $2$.",
+   "options": [
+    "A positive integer that is not a perfect square and is prime.",
+    "A positive integer that is not a perfect square and is not prime.",
+    "A positive integer that is a perfect square and is prime.",
+    "A positive integer that is a perfect square and is not prime."
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.8"
+   ],
+   "question": "A particle is moving in simple harmonic motion in a straight line with an amplitude of $3$ metres. When the particle is $2$ metres from the centre of motion, its speed is $5$ m/s. What is the period of the motion?",
+   "answer": "$v^2=n^2(A^2-x^2)\\Rightarrow25=n^2(9-4)\\Rightarrow n=\\sqrt5$. Period $T=\\dfrac{2\\pi}{n}=\\dfrac{2\\pi}{\\sqrt5}=\\dfrac{2\\sqrt5\\pi}{5}$ (B).",
+   "options": [
+    "$\\dfrac{\\sqrt5\\pi}{2}$",
+    "$\\dfrac{2\\sqrt5\\pi}{5}$",
+    "$\\sqrt5\\pi$",
+    "$2\\sqrt5\\pi$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "The roots of the cubic equation $f(x)=0$ are $\\alpha,\\beta$ and $\\gamma$. Which of the following cubic equations has roots $2\\alpha+1$, $2\\beta+1$ and $2\\gamma+1$?",
+   "answer": "If $x=2\\alpha+1$ then $\\alpha=\\dfrac{x-1}{2}$, and $\\alpha$ is a root of $f$, so the new equation is $f\\!\\left(\\dfrac{x-1}{2}\\right)=0$ (C).",
+   "options": [
+    "$f(2x+1)=0$",
+    "$f\\!\\left(\\dfrac x2+1\\right)=0$",
+    "$f\\!\\left(\\dfrac{x-1}{2}\\right)=0$",
+    "$f\\!\\left(\\dfrac{x+1}{2}\\right)=0$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.1",
+    "12.3.1.9"
+   ],
+   "question": "The diagram shows the complex number $z=x+iy$, which lies in the third quadrant such that $x<y$. Given that $z^2=a+ib$, which of the following statements is true?",
+   "answer": "$z^2=(x^2-y^2)+2xyi$. In the third quadrant $x<0$ and $y<0$, so $xy>0$ and $b=2xy>0$. Since $x<y<0$, $|x|>|y|$, so $a=x^2-y^2>0$ (D).",
+   "options": [
+    "$a<0,\\ b<0$",
+    "$a<0,\\ b>0$",
+    "$a>0,\\ b<0$",
+    "$a>0,\\ b>0$"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/ext2-2025-smiths-hill/q6.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.13"
+   ],
+   "question": "Consider the position vector of a particle $\\mathbf r=t^2\\mathbf i+2\\cos t\\,\\mathbf j+2\\sin t\\,\\mathbf k$. Which of the following best describes the motion of the particle?",
+   "answer": "The $\\mathbf j,\\mathbf k$ components $(2\\cos t,2\\sin t)$ describe a circle of radius $2$ about the $x$ axis, traversed anticlockwise (viewed from the positive $x$ side). The $x$ component $t^2$ has increasing speed, so the particle advances along the axis at an increasing rate (B).",
+   "options": [
+    "Spiralling at an increasing rate about the $z$ axis in an anticlockwise direction.",
+    "Spiralling at an increasing rate about the $x$ axis in an anticlockwise direction.",
+    "Spiralling at an increasing rate about the $x$ axis in a clockwise direction.",
+    "Spiralling at a constant rate about the $x$ axis in an anticlockwise direction."
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "Consider triangle $AOB$, where $A$ is the point $(1,0,1)$ and $B$ is the point $(0,2,2)$. Which of the following is true?",
+   "answer": "$OA=\\sqrt2$, $OB=\\sqrt8$, $AB=\\sqrt{1+4+1}=\\sqrt6$. Since $OA^2+AB^2=8=OB^2$, the right angle is at $A$. Then $\\tan\\angle AOB=\\dfrac{AB}{OA}=\\sqrt3$, so $\\angle AOB=60^\\circ$ and $\\angle OBA=30^\\circ$: $\\angle AOB=2\\angle OBA$ (D).",
+   "options": [
+    "$\\angle AOB$ is a right angle",
+    "$\\triangle AOB$ is isosceles",
+    "$\\angle OAB$ is twice the size of $\\angle OBA$",
+    "$\\angle AOB$ is twice the size of $\\angle OBA$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.7"
+   ],
+   "question": "Consider the complex equation $z^3=-p^3i$, where $p$ is a positive real number. What is the sum of all of the imaginary parts of all of the solutions that have a negative principal argument?",
+   "answer": "$-p^3i=p^3\\operatorname{cis}\\!\\left(-\\tfrac\\pi2\\right)$, so $z=p\\operatorname{cis}\\!\\left(-\\tfrac\\pi6+\\tfrac{2k\\pi}3\\right)$: arguments $-\\tfrac\\pi6,\\ \\tfrac\\pi2,\\ -\\tfrac{5\\pi}6$. The two negative arguments give imaginary parts $-\\tfrac p2$ and $-\\tfrac p2$, a sum of $-p$ (D). (The question asks for a sum of imaginary parts, which is real, so $-p$ not $-pi$.)",
+   "options": [
+    "$pi$",
+    "$-pi$",
+    "$p$",
+    "$-p$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.2.2.1",
+    "12.5.1.5"
+   ],
+   "question": "A unit mass is projected horizontally from the top of a tall building. Air resistance is $\\mathbf R$ and the gravitational force is $\\mathbf G$. The position vector of the mass is $\\mathbf r$, with the origin at the base of the building, and the velocity vector is $\\mathbf v$. At the point $P$ (see diagram), $\\mathbf r\\cdot\\mathbf v=0$. Which of the following is consistent with the motion of the particle at $P$?",
+   "answer": "Each fraction is the cosine of the angle between two vectors. Resistance opposes the velocity, so $\\cos(\\mathbf R,\\mathbf v)=-1$. Gravity points down and $\\mathbf r$ points up-and-across from the base, so $\\cos(\\mathbf G,\\mathbf r)$ is negative. Since $\\mathbf r\\cdot\\mathbf v=0$ and $\\mathbf R$ is parallel to $-\\mathbf v$, $\\mathbf R\\cdot\\mathbf r=0$. Gravity has a component along the downward-moving velocity, so $\\cos(\\mathbf G,\\mathbf v)>0$. Thus $-1<\\cos(\\mathbf G,\\mathbf r)<0=\\cos(\\mathbf R,\\mathbf r)<\\cos(\\mathbf G,\\mathbf v)$, which is option A.",
+   "options": [
+    "$\\dfrac{\\mathbf R\\cdot\\mathbf v}{|\\mathbf R||\\mathbf v|}<\\dfrac{\\mathbf G\\cdot\\mathbf r}{|\\mathbf G||\\mathbf r|}<\\dfrac{\\mathbf R\\cdot\\mathbf r}{|\\mathbf R||\\mathbf r|}<\\dfrac{\\mathbf G\\cdot\\mathbf v}{|\\mathbf G||\\mathbf v|}$",
+    "$\\dfrac{\\mathbf G\\cdot\\mathbf r}{|\\mathbf G||\\mathbf r|}<\\dfrac{\\mathbf G\\cdot\\mathbf v}{|\\mathbf G||\\mathbf v|}<\\dfrac{\\mathbf v\\cdot\\mathbf R}{|\\mathbf v||\\mathbf R|}<\\dfrac{\\mathbf R\\cdot\\mathbf r}{|\\mathbf R||\\mathbf r|}$",
+    "$\\dfrac{\\mathbf r\\cdot\\mathbf R}{|\\mathbf r||\\mathbf R|}<\\dfrac{\\mathbf v\\cdot\\mathbf G}{|\\mathbf v||\\mathbf G|}<\\dfrac{\\mathbf r\\cdot\\mathbf G}{|\\mathbf r||\\mathbf G|}<\\dfrac{\\mathbf v\\cdot\\mathbf R}{|\\mathbf v||\\mathbf R|}$",
+    "$\\dfrac{\\mathbf v\\cdot\\mathbf G}{|\\mathbf v||\\mathbf G|}<\\dfrac{\\mathbf r\\cdot\\mathbf G}{|\\mathbf r||\\mathbf G|}<\\dfrac{\\mathbf R\\cdot\\mathbf v}{|\\mathbf R||\\mathbf v|}<\\dfrac{\\mathbf r\\cdot\\mathbf R}{|\\mathbf r||\\mathbf R|}$"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/ext2-2025-smiths-hill/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "Consider the vector $\\mathbf r=p\\mathbf i-4\\mathbf j+5\\mathbf k$. If $\\mathbf r$ has a magnitude of $5\\sqrt2$ units, what are the exact value(s) of $p$?",
+   "answer": "$p^2+16+25=50\\Rightarrow p^2=9\\Rightarrow p=\\pm3$."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "Find the size of the angle between the vectors $\\mathbf a=\\begin{pmatrix}1\\\\-2\\\\2\\end{pmatrix}$ and $\\mathbf b=\\begin{pmatrix}3\\\\-2\\\\-1\\end{pmatrix}$, giving your answer correct to the nearest minute.",
+   "answer": "$\\mathbf a\\cdot\\mathbf b=3+4-2=5$, $|\\mathbf a|=3$, $|\\mathbf b|=\\sqrt{14}$.\n$\\cos\\theta=\\dfrac{5}{3\\sqrt{14}}$, so $\\theta=63^\\circ33'$."
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.5",
+    "12.3.5.4"
+   ],
+   "question": "Sketch the region in the complex plane where the inequalities $|z-i|\\le1$ and $0\\le\\arg(z-i)\\le\\dfrac\\pi3$ hold simultaneously.",
+   "answer": "$|z-i|\\le1$ is the closed disc of radius $1$ centred at $i$. $0\\le\\arg(z-i)\\le\\frac\\pi3$ is the region between the horizontal ray from $i$ to the right and the ray from $i$ at $60^\\circ$ above it (the centre $i$ itself excluded, as $\\arg 0$ is undefined). The region is the circular sector of radius $1$ centred at $i$ between these two rays, with the boundary arcs and rays included but the point $i$ excluded."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.2"
+   ],
+   "question": "Show that, if $a$ and $b$ are positive integers, then $\\dfrac ab+\\dfrac ba\\ge2$.",
+   "answer": "$\\dfrac ab+\\dfrac ba-2=\\dfrac{a^2+b^2-2ab}{ab}=\\dfrac{(a-b)^2}{ab}\\ge0$ since $(a-b)^2\\ge0$ and $ab>0$. Hence $\\dfrac ab+\\dfrac ba\\ge2$."
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.7",
+    "12.3.2.5"
+   ],
+   "question": "The complex number $z^2$ is shown on the diagram. Given that $z$ lies in the fourth quadrant, find $z$ in modulus-argument form.",
+   "answer": "From the diagram $z^2=4\\operatorname{cis}\\!\\left(-\\tfrac{2\\pi}3\\right)$. Then $z=\\pm2\\operatorname{cis}\\!\\left(-\\tfrac\\pi3\\right)$, i.e. $2\\operatorname{cis}\\!\\left(-\\tfrac\\pi3\\right)$ or $2\\operatorname{cis}\\!\\left(\\tfrac{2\\pi}3\\right)$. The fourth quadrant solution is\n$$z=2\\operatorname{cis}\\!\\left(-\\frac\\pi3\\right).$$",
+   "images": [
+    "assets/img/ext2-2025-smiths-hill/q11e.png"
+   ]
+  },
+  {
+   "ref": "Q11(f)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "Consider the equation $(p+5)^{36}+(p+3)^{35}=7$. Give reasons as to why there is no integer root $p$ for the equation.",
+   "answer": "If $p$ is odd, $p+5$ and $p+3$ are both even, so both terms are even and their sum is even.\nIf $p$ is even, $p+5$ and $p+3$ are both odd, so both terms are odd and their sum is even.\nIn either case the left side is even, but $7$ is odd, so there is no integer root."
+  },
+  {
+   "ref": "Q11(g)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Find $\\displaystyle\\int x\\ln x\\,dx$.",
+   "answer": "By parts with $u=\\ln x$, $dv=x\\,dx$: $\\displaystyle\\int x\\ln x\\,dx=\\frac{x^2}{2}\\ln x-\\int\\frac x2\\,dx=\\frac{x^2}{2}\\ln x-\\frac{x^2}{4}+c$."
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Find $A$, $B$ and $C$ such that $\\dfrac{x}{(x-2)^2(x-1)}=\\dfrac{A}{x-2}+\\dfrac{B}{(x-2)^2}+\\dfrac{C}{x-1}$.",
+   "answer": "$x=A(x-2)(x-1)+B(x-1)+C(x-2)^2$.\n$x=2$: $2=B$. $x=1$: $1=C$. Coefficient of $x^2$: $0=A+C\\Rightarrow A=-1$.\n$$A=-1,\\ B=2,\\ C=1$$"
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.8"
+   ],
+   "question": "Hence, show that $\\displaystyle\\int_3^4\\frac{x}{(x-2)^2(x-1)}\\,dx=\\ln\\!\\left(\\frac34\\right)+1$.",
+   "answer": "$\\displaystyle\\int_3^4\\left[\\frac{-1}{x-2}+\\frac2{(x-2)^2}+\\frac1{x-1}\\right]dx=\\left[\\ln\\frac{x-1}{x-2}-\\frac{2}{x-2}\\right]_3^4$\n$=\\left(\\ln\\tfrac32-1\\right)-\\left(\\ln2-2\\right)=\\ln\\tfrac32-\\ln2+1=\\ln\\tfrac34+1$."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.8",
+    "12.1.2.3"
+   ],
+   "question": "Consider the statement $P$: *If $2n^2+3n+1$ is even, then $n$ is odd.* Prove that the converse of $P$ is true.",
+   "answer": "The converse is: if $n$ is odd, then $2n^2+3n+1$ is even.\nLet $n=2k+1$. Then $2n^2+3n+1=2(4k^2+4k+1)+6k+3+1=8k^2+14k+6=2(4k^2+7k+3)$, which is even. $\\blacksquare$"
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "Factorise $P(z)=z^4-6z^3+18z^2-14z-39$, given that one of the zeros of $P(z)$ is $2-3i$.",
+   "answer": "$P$ has real coefficients, so $2+3i$ is also a zero. The quadratic factor is $z^2-4z+13$. Dividing, $P(z)=(z^2-4z+13)(z^2-2z-3)=(z^2-4z+13)(z+1)(z-3)$.\n$$P(z)=(z+1)(z-3)(z^2-4z+13)$$ (zeros $-1,\\ 3,\\ 2\\pm3i$)."
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.12",
+    "12.3.2.9"
+   ],
+   "question": "Consider the complex number $z=re^{i\\theta}$. Show that $\\phi=\\dfrac{2z}{z^2+|z|^2}$ is purely real.",
+   "answer": "$|z|^2=z\\bar z$, so $\\phi=\\dfrac{2z}{z^2+z\\bar z}=\\dfrac{2z}{z(z+\\bar z)}=\\dfrac{2}{z+\\bar z}=\\dfrac{2}{2\\operatorname{Re}(z)}=\\dfrac1{r\\cos\\theta}$, which is real. $\\blacksquare$"
+  },
+  {
+   "ref": "Q12(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.8"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{e^{2x}-e^x}{e^x+1}\\,dx$.",
+   "answer": "Let $u=e^x$, $du=e^x\\,dx$: $\\displaystyle\\int\\frac{u-1}{u+1}\\,du=\\int\\left(1-\\frac2{u+1}\\right)du=u-2\\ln(u+1)+c$.\n$$=e^x-2\\ln(e^x+1)+c$$"
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.1"
+   ],
+   "question": "For positive real numbers $a$ and $b$, $a\\ne b$, it is given that $a^3+b^3=(a+b)(a^2-ab+b^2)$ and $(a-b)^2>0$. Using these facts, or otherwise, prove that $a^3+b^3>ab(a+b)$.",
+   "answer": "$a^3+b^3-ab(a+b)=(a+b)(a^2-ab+b^2)-ab(a+b)=(a+b)(a-b)^2>0$, since $a+b>0$ and $(a-b)^2>0$. Hence $a^3+b^3>ab(a+b)$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "Hence, or otherwise, show that if $c$ is also a positive real number not equal to $a$ or $b$, then $2(a^3+b^3+c^3)>a^2(b+c)+b^2(a+c)+c^2(a+b)$.",
+   "answer": "From part (i) applied to each pair:\n$a^3+b^3>a^2b+ab^2$, $\\ b^3+c^3>b^2c+bc^2$, $\\ a^3+c^3>a^2c+ac^2$.\nAdding: $2(a^3+b^3+c^3)>a^2(b+c)+b^2(a+c)+c^2(a+b)$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.9",
+    "12.5.2.4"
+   ],
+   "question": "A particle moves along the $x$ axis in simple harmonic motion. Its displacement $x$ cm from the origin at time $t$ seconds is $x=5-4\\cos^22\\pi t$. Find the centre and the amplitude of the motion.",
+   "answer": "$\\cos^22\\pi t=\\dfrac{1+\\cos4\\pi t}{2}$, so $x=5-2-2\\cos4\\pi t=3-2\\cos4\\pi t$.\nThe centre of motion is $x=3$ cm and the amplitude is $2$ cm."
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.10"
+   ],
+   "question": "For the particle in part (i), $x=3-2\\cos4\\pi t$. Find the distance travelled by the particle in the first $5$ seconds.",
+   "answer": "The period is $\\dfrac{2\\pi}{4\\pi}=\\dfrac12$ s, so in $5$ s there are $10$ complete oscillations. Each oscillation covers $4\\times2=8$ cm, so the distance is $10\\times8=80$ cm."
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "Prove by contradiction that $P(x)=120+120x+60x^2+20x^3+5x^4+x^5$ has no double roots.",
+   "answer": "Suppose $P$ has a double root $\\alpha$, so $P(\\alpha)=0$ and $P'(\\alpha)=0$.\n$P'(x)=120+120x+60x^2+20x^3+5x^4$, so $P(x)-P'(x)=x^5$.\nThen $\\alpha^5=P(\\alpha)-P'(\\alpha)=0$, so $\\alpha=0$. But $P(0)=120\\ne0$, a contradiction. Hence $P$ has no double roots. $\\blacksquare$"
+  },
+  {
+   "ref": "Q13(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.5",
+    "12.3.2.6"
+   ],
+   "question": "Let $z=1+i$ and $w=-\\sqrt3+i$. Find $zw$ in modulus-argument form.",
+   "answer": "$z=\\sqrt2\\operatorname{cis}\\frac\\pi4$, $w=2\\operatorname{cis}\\frac{5\\pi}6$. $zw=2\\sqrt2\\operatorname{cis}\\!\\left(\\frac\\pi4+\\frac{5\\pi}6\\right)=2\\sqrt2\\operatorname{cis}\\frac{13\\pi}{12}=2\\sqrt2\\operatorname{cis}\\!\\left(-\\frac{11\\pi}{12}\\right)$."
+  },
+  {
+   "ref": "Q13(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.2.6"
+   ],
+   "question": "Let $z=1+i$ and $w=-\\sqrt3+i$. Hence show that $\\cos\\!\\left(\\dfrac\\pi{12}\\right)=\\dfrac{\\sqrt6+\\sqrt2}{4}$.",
+   "answer": "Directly, $zw=(1+i)(-\\sqrt3+i)=-\\sqrt3-1+i(1-\\sqrt3)=-(1+\\sqrt3)+i(1-\\sqrt3)$.\nEquating real parts with $2\\sqrt2\\cos\\!\\left(-\\frac{11\\pi}{12}\\right)=-2\\sqrt2\\cos\\frac\\pi{12}$:\n$$\\cos\\frac\\pi{12}=\\frac{1+\\sqrt3}{2\\sqrt2}=\\frac{\\sqrt2+\\sqrt6}{4}.\\ \\blacksquare$$"
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.9"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{2x-5}{x^2+2x+2}\\,dx$.",
+   "answer": "$2x-5=(2x+2)-7$. So $\\displaystyle\\int\\frac{2x+2}{x^2+2x+2}dx-7\\int\\frac{dx}{(x+1)^2+1}=\\ln(x^2+2x+2)-7\\tan^{-1}(x+1)+c$."
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.2"
+   ],
+   "question": "An $80$ kg mass is dragged along a horizontal surface by a force of $100$ N, and is subject to friction of $0.1v$ newtons, where $v$ is its speed in m/s. The mass is initially at rest. The equation of motion is $\\ddot x=\\dfrac{1000-v}{800}$ (do not prove this). Show that $t=800\\ln\\!\\left(\\dfrac{1000}{1000-v}\\right)$.",
+   "answer": "$\\dfrac{dv}{dt}=\\dfrac{1000-v}{800}\\Rightarrow t=800\\displaystyle\\int\\frac{dv}{1000-v}=-800\\ln(1000-v)+C$.\n$t=0,\\ v=0$: $C=800\\ln1000$. So $t=800\\ln\\!\\left(\\dfrac{1000}{1000-v}\\right)$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.2"
+   ],
+   "question": "For the $80$ kg mass above, $t=800\\ln\\!\\left(\\dfrac{1000}{1000-v}\\right)$. Find the velocity of the mass after $10$ seconds, correct to $1$ decimal place.",
+   "answer": "$\\dfrac{1000}{1000-v}=e^{t/800}\\Rightarrow v=1000\\left(1-e^{-t/800}\\right)$.\nAt $t=10$: $v=1000(1-e^{-1/80})=12.4$ m/s."
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "The vectors $\\mathbf u$ and $\\mathbf v$ are defined as $\\mathbf u=\\mathbf a+m\\mathbf b$ and $\\mathbf v=m\\mathbf a-\\mathbf b$, where $\\mathbf a$ and $\\mathbf b$ are unit vectors and $m$ is a real constant. Given that $\\mathbf u\\cdot\\mathbf v=1$, and that the acute angle between $\\mathbf a$ and $\\mathbf b$ is $\\dfrac\\pi3$, find the value(s) of $m$.",
+   "answer": "$\\mathbf a\\cdot\\mathbf b=\\cos\\frac\\pi3=\\frac12$.\n$\\mathbf u\\cdot\\mathbf v=m|\\mathbf a|^2-\\mathbf a\\cdot\\mathbf b+m^2\\,\\mathbf a\\cdot\\mathbf b-m|\\mathbf b|^2=m-\\frac12+\\frac{m^2}2-m=\\frac{m^2-1}{2}$.\n$\\frac{m^2-1}2=1\\Rightarrow m^2=3\\Rightarrow m=\\pm\\sqrt3$."
+  },
+  {
+   "ref": "Q14(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "Two masses $M$ kg and $(4M+12)$ kg are attached to the ends of a light inextensible string passing over a pulley. The mass $M$ kg accelerates upwards at $3\\ \\text{m s}^{-2}$ while the $(4M+12)$ kg mass moves down a smooth plane inclined at $30^\\circ$ (see diagram). Take $g=10\\ \\text{m s}^{-2}$. Find $M$.",
+   "answer": "Let $T$ be the tension. For $M$: $T-10M=3M\\Rightarrow T=13M$.\nFor the other mass along the slope: $(4M+12)(10)\\sin30^\\circ-T=3(4M+12)$.\n$5(4M+12)-13M=3(4M+12)\\Rightarrow2(4M+12)=13M\\Rightarrow5M=24$.\n$$M=4.8\\text{ kg}$$",
+   "images": [
+    "assets/img/ext2-2025-smiths-hill/q14d.png"
+   ]
+  },
+  {
+   "ref": "Q15(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.1.12",
+    "12.2.1.19"
+   ],
+   "question": "A spiral starts at the origin and completes two clockwise turns to end at $(0,2\\pi)$ (see diagram). Its position from $t=0$ to $t=T$ is given by $x=f(t)$, $y=g(t)$. Find $f(t)$, $g(t)$ and $T$.",
+   "answer": "The radius grows linearly from $0$ to $2\\pi$ over two turns, and the spiral is clockwise starting from the $y$-axis direction, so with angle $t$ and radius $\\frac t2$:\n$$f(t)=\\frac t2\\sin t,\\qquad g(t)=\\frac t2\\cos t,\\qquad T=4\\pi.$$\nCheck: at $t=4\\pi$, $f=0$ and $g=2\\pi$.",
+   "images": [
+    "assets/img/ext2-2025-smiths-hill/q15a.png"
+   ]
+  },
+  {
+   "ref": "Q15(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.1.12"
+   ],
+   "question": "The spiral in part (i) is $x=\\frac t2\\sin t$, $y=\\frac t2\\cos t$ for $t\\in[0,4\\pi]$. A second spiral has $x=g(t)=\\frac t2\\cos t$, $y=f(t)=\\frac t2\\sin t$ for $t\\in[0,\\frac T2]=[0,2\\pi]$. If the second spiral were drawn on the same axes, how many points of intersection would it have with the first spiral?",
+   "answer": "The second spiral is the reflection of the first (restricted to its first turn) in the line $y=x$, so intersections lie on $y=x$ (or are symmetric pairs). Counting from the diagram gives $3$ points of intersection: the origin, and the points at $t=\\frac\\pi4$ and $t=\\frac{5\\pi}4$ on the line $y=x$."
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Consider $I_n=\\displaystyle\\int_0^1\\sqrt x\\,(1-x)^n\\,dx$, $n=0,1,2,3,\\dots$ Show that $I_n=\\dfrac{2n}{2n+3}I_{n-1}$ for $n=1,2,3,\\dots$",
+   "answer": "By parts with $u=(1-x)^n$, $dv=\\sqrt x\\,dx$, $v=\\frac23x^{3/2}$:\n$I_n=\\left[\\frac23x^{3/2}(1-x)^n\\right]_0^1+\\frac{2n}3\\displaystyle\\int_0^1x^{3/2}(1-x)^{n-1}dx$. The boundary term is $0$.\nWrite $x^{3/2}=\\sqrt x\\,[1-(1-x)]$: $I_n=\\frac{2n}3\\left(I_{n-1}-I_n\\right)$.\n$\\left(1+\\frac{2n}3\\right)I_n=\\frac{2n}3I_{n-1}\\Rightarrow I_n=\\dfrac{2n}{2n+3}I_{n-1}$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "With $I_n=\\displaystyle\\int_0^1\\sqrt x\\,(1-x)^n\\,dx$ and $I_n=\\dfrac{2n}{2n+3}I_{n-1}$, evaluate $I_1$.",
+   "answer": "$I_0=\\displaystyle\\int_0^1\\sqrt x\\,dx=\\frac23$, so $I_1=\\dfrac25\\cdot\\dfrac23=\\dfrac4{15}$."
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.5.1"
+   ],
+   "question": "A particle of mass $m$ is released and allowed to fall vertically in a medium in which the resistance is $mk$ times the square of the velocity $v$ of the particle. Write an equation for the acceleration of the particle in terms of $v$.",
+   "answer": "Taking downwards as positive: $m\\ddot x=mg-mkv^2$, so $\\ddot x=g-kv^2$."
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.5.4",
+    "12.5.5.5"
+   ],
+   "question": "A particle falls vertically from rest with acceleration $\\ddot x=g-kv^2$. Show that the terminal velocity is $V_T=\\sqrt{\\dfrac gk}$.",
+   "answer": "At terminal velocity $\\ddot x=0$: $g-kV_T^2=0\\Rightarrow V_T=\\sqrt{\\dfrac gk}$ (taking the positive root as the particle falls downwards). $\\blacksquare$"
+  },
+  {
+   "ref": "Q15(c)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.5.2"
+   ],
+   "question": "A particle falls from rest with $\\ddot x=g-kv^2$. Show that the distance fallen is $x=\\dfrac1{2k}\\ln\\!\\left(\\dfrac g{g-kv^2}\\right)$.",
+   "answer": "$v\\dfrac{dv}{dx}=g-kv^2\\Rightarrow x=\\displaystyle\\int\\frac{v}{g-kv^2}dv=-\\frac1{2k}\\ln(g-kv^2)+C$.\n$x=0,\\ v=0$: $C=\\frac1{2k}\\ln g$. So $x=\\dfrac1{2k}\\ln\\!\\left(\\dfrac g{g-kv^2}\\right)$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q15(c)(iv)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.5.6"
+   ],
+   "question": "Hence, find an expression for the distance that the particle has fallen when the velocity reaches $\\frac12V_T$.",
+   "answer": "$v=\\frac12\\sqrt{g/k}\\Rightarrow kv^2=\\frac g4$, so $g-kv^2=\\frac{3g}4$.\n$x=\\dfrac1{2k}\\ln\\!\\left(\\dfrac g{3g/4}\\right)=\\dfrac1{2k}\\ln\\dfrac43$."
+  },
+  {
+   "ref": "Q16(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.1.17",
+    "12.2.1.18"
+   ],
+   "question": "The line $L$ with equation $\\mathbf r=\\begin{pmatrix}-1\\\\2\\\\6\\end{pmatrix}+\\lambda\\begin{pmatrix}1\\\\2\\\\1\\end{pmatrix}$ intersects the sphere $(x+1)^2+(y-2)^2+(z-3)^2=45$ at two points $A$ and $B$. Find the shortest distance between the centre of the sphere $C$ and the chord $AB$.",
+   "answer": "On $L$: $x+1=\\lambda$, $y-2=2\\lambda$, $z-3=3+\\lambda$. Substituting: $\\lambda^2+4\\lambda^2+(3+\\lambda)^2=45\\Rightarrow\\lambda^2+\\lambda-6=0\\Rightarrow\\lambda=2$ or $-3$.\n$A(1,6,8)$ and $B(-4,-4,3)$. The centre is $C(-1,2,3)$ and the midpoint of $AB$ is $M\\!\\left(-\\tfrac32,1,\\tfrac{11}2\\right)$.\nThe shortest distance from $C$ to the chord is $CM$: $\\overrightarrow{CM}=\\left(-\\tfrac12,-1,\\tfrac52\\right)$, $|CM|=\\sqrt{\\tfrac14+1+\\tfrac{25}4}=\\dfrac{\\sqrt{30}}2$."
+  },
+  {
+   "ref": "Q16(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.4.5"
+   ],
+   "question": "Given $a_{n+1}=\\sqrt{2a_n}$ and $a_1=1$, prove by mathematical induction that for all integers $n\\ge1$, $a_n=2^{\\left(1-2^{(1-n)}\\right)}$.",
+   "answer": "**Base case** $n=1$: $a_1=2^{1-2^0}=2^0=1$. ✓\n**Assume** $a_k=2^{1-2^{1-k}}$ for some $k\\ge1$.\n**Then** $a_{k+1}=\\sqrt{2\\cdot2^{1-2^{1-k}}}=\\left(2^{2-2^{1-k}}\\right)^{1/2}=2^{1-2^{-k}}=2^{1-2^{1-(k+1)}}$.\nSo the result holds for $n=k+1$. By induction it is true for all integers $n\\ge1$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q16(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Use de Moivre's theorem to express $\\cos4\\theta$ in terms of $\\cos\\theta$.",
+   "answer": "$\\cos4\\theta+i\\sin4\\theta=(\\cos\\theta+i\\sin\\theta)^4$. Real part: $\\cos^4\\theta-6\\cos^2\\theta\\sin^2\\theta+\\sin^4\\theta=\\cos^4\\theta-6\\cos^2\\theta(1-\\cos^2\\theta)+(1-\\cos^2\\theta)^2$\n$$\\cos4\\theta=8\\cos^4\\theta-8\\cos^2\\theta+1$$"
+  },
+  {
+   "ref": "Q16(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Use $\\cos4\\theta=8\\cos^4\\theta-8\\cos^2\\theta+1$ to solve the equation $8x^4-8x^2+1=0$.",
+   "answer": "Let $x=\\cos\\theta$: the equation is $\\cos4\\theta=0$, so $4\\theta=\\frac\\pi2+k\\pi$, $\\theta=\\frac\\pi8,\\frac{3\\pi}8,\\frac{5\\pi}8,\\frac{7\\pi}8$.\n$$x=\\cos\\frac\\pi8,\\ \\cos\\frac{3\\pi}8,\\ \\cos\\frac{5\\pi}8,\\ \\cos\\frac{7\\pi}8$$"
+  },
+  {
+   "ref": "Q16(c)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "The roots of $8x^4-8x^2+1=0$ are $\\cos\\frac\\pi8,\\cos\\frac{3\\pi}8,\\cos\\frac{5\\pi}8,\\cos\\frac{7\\pi}8$. Hence, show that $\\cos\\frac\\pi8\\cos\\frac{3\\pi}8\\cos\\frac{5\\pi}8\\cos\\frac{7\\pi}8=\\dfrac18$.",
+   "answer": "The product of the roots of $8x^4-8x^2+1=0$ is $\\dfrac{1}{8}$ (constant term over leading coefficient, with an even degree). $\\blacksquare$"
+  },
+  {
+   "ref": "Q16(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "$M$ and $P$ are points with position vectors $\\overrightarrow{OM}=\\mathbf m$ and $\\overrightarrow{OP}=\\mathbf p$. $N$ is the midpoint of $MP$ and has position vector $\\overrightarrow{ON}=\\mathbf n$. $PQ$ is perpendicular to $MN$ and $\\overrightarrow{NQ}=\\lambda\\overrightarrow{ON}$. Show that $\\lambda=\\dfrac{|\\mathbf m|^2+|\\mathbf n|^2-2\\mathbf m\\cdot\\mathbf n}{|\\mathbf n|^2-\\mathbf m\\cdot\\mathbf n}$.",
+   "answer": "$N$ is the midpoint, so $\\mathbf p=2\\mathbf n-\\mathbf m$. $\\overrightarrow{MN}=\\mathbf n-\\mathbf m$.\n$\\overrightarrow{OQ}=\\mathbf n+\\lambda\\mathbf n=(1+\\lambda)\\mathbf n$, so $\\overrightarrow{PQ}=(1+\\lambda)\\mathbf n-(2\\mathbf n-\\mathbf m)=(\\lambda-1)\\mathbf n+\\mathbf m$.\n$PQ\\perp MN$: $[(\\lambda-1)\\mathbf n+\\mathbf m]\\cdot(\\mathbf n-\\mathbf m)=0$\n$(\\lambda-1)|\\mathbf n|^2-(\\lambda-1)\\mathbf m\\cdot\\mathbf n+\\mathbf m\\cdot\\mathbf n-|\\mathbf m|^2=0$\n$(\\lambda-1)\\left(|\\mathbf n|^2-\\mathbf m\\cdot\\mathbf n\\right)=|\\mathbf m|^2-\\mathbf m\\cdot\\mathbf n$\n$\\lambda=1+\\dfrac{|\\mathbf m|^2-\\mathbf m\\cdot\\mathbf n}{|\\mathbf n|^2-\\mathbf m\\cdot\\mathbf n}=\\dfrac{|\\mathbf m|^2+|\\mathbf n|^2-2\\mathbf m\\cdot\\mathbf n}{|\\mathbf n|^2-\\mathbf m\\cdot\\mathbf n}$. $\\blacksquare$"
+  }
+ ]
+}
