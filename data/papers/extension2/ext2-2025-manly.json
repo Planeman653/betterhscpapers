@@ -1,0 +1,706 @@
+{
+ "id": "ext2-2025-manly",
+ "course": "extension2",
+ "school": "Manly",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "Manly 2025 w. sol"
+ },
+ "indexed": "2026-11-25",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.9"
+   ],
+   "question": "If $w=a+2ai$, which of the following is equivalent to $i^3w$?",
+   "options": [
+    "$2a-ai$",
+    "$a+2ai$",
+    "$a-2ai$",
+    "$2a+ai$"
+   ],
+   "correct": "A",
+   "answer": "$i^3=-i$, so $i^3w=-i(a+2ai)=-ai-2ai^2=2a-ai$ (A)."
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.11",
+    "12.1.1.12"
+   ],
+   "question": "The sign on a fence reads: \"If you are not authorised, you may not enter.\" Which of the following statements is logically equivalent to the one above?",
+   "options": [
+    "If you may enter, then you are authorised",
+    "If you are authorised, then you may enter",
+    "If you are not authorised, then you may enter",
+    "If you may not enter, then you are not authorised"
+   ],
+   "correct": "A",
+   "answer": "An implication is equivalent to its contrapositive. For 'if not authorised then may not enter', the contrapositive is 'if you may enter, then you are authorised' (A). B and D are the inverse and converse, which are not equivalent."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.7",
+    "12.1.1.6"
+   ],
+   "question": "Consider the statement $\\forall x,y\\in\\mathbb R,\\ xy\\le9\\ \\Rightarrow\\ x\\le3\\text{ or }y\\le3$. Which of the following is the negation of this statement?",
+   "options": [
+    "$\\forall x,y\\in\\mathbb R,\\ x\\le3\\text{ or }y\\le3\\Rightarrow xy\\le9$",
+    "$\\forall x,y\\in\\mathbb R,\\ x>3\\text{ and }y>3\\Rightarrow xy>9$",
+    "$\\exists x,y\\in\\mathbb R$, with $x>3$ or $y>3$, such that $xy\\le9$",
+    "$\\exists x,y\\in\\mathbb R$, with $x>3$ and $y>3$, such that $xy\\le9$"
+   ],
+   "correct": "D",
+   "answer": "The negation of a 'for all' statement is a 'there exists' statement, and the negation of $P\\Rightarrow Q$ is '$P$ and not $Q$'. Here $P$ is $xy\\le9$ and not $Q$ is $x>3$ and $y>3$. So the negation is: there exist $x,y$ with $x>3$ and $y>3$ such that $xy\\le9$ (D)."
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.1",
+    "12.3.1.10"
+   ],
+   "question": "Which of the following is the region in the Argand diagram specified by $iz-i\\bar z>4$? (The shaded regions in the four diagrams are, in order: A the region $\\mathrm{Im}(z)>-2$, B the region $\\mathrm{Im}(z)<-2$, C the region $\\mathrm{Im}(z)>2$, D the region $\\mathrm{Im}(z)<2$, with the boundary line dashed.)",
+   "options": [
+    "Diagram A",
+    "Diagram B",
+    "Diagram C",
+    "Diagram D"
+   ],
+   "correct": "B",
+   "answer": "Let $z=x+iy$. Then $iz-i\\bar z=i(x+iy)-i(x-iy)=-y-y=-2y$. So $-2y>4$, giving $y<-2$. The region is $\\mathrm{Im}(z)<-2$: the half-plane below the line $y=-2$ (dashed), which is B.",
+   "images": [
+    "assets/img/ext2-2025-manly/q04.png"
+   ]
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.2",
+    "12.2.1.1"
+   ],
+   "question": "A vector makes equal angles of $\\dfrac\\pi4$ with the positive directions of the $x$-axis and the $y$-axis. What angle does the vector make with the positive direction of the $z$-axis?",
+   "options": [
+    "$0$",
+    "$\\dfrac\\pi4$",
+    "$\\dfrac\\pi2$",
+    "$\\dfrac{3\\pi}4$"
+   ],
+   "correct": "C",
+   "answer": "If $\\alpha,\\beta,\\gamma$ are the angles with the axes (direction cosines), then $\\cos^2\\alpha+\\cos^2\\beta+\\cos^2\\gamma=1$. With $\\alpha=\\beta=\\frac\\pi4$: $\\frac12+\\frac12+\\cos^2\\gamma=1$, so $\\cos\\gamma=0$ and $\\gamma=\\dfrac\\pi2$ (C)."
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.6",
+    "12.3.4.10"
+   ],
+   "question": "The complex number $\\dfrac1z$ is shown on the Argand diagram (inside the unit circle, in the first quadrant). Points $A$ (outside the circle, first quadrant), $B$ (outside the circle, fourth quadrant), $C$ (inside the circle, fourth quadrant) and $D$ (inside the circle, second quadrant) are also shown. Which one of the points could correspond to the complex number $z$?",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "correct": "B",
+   "answer": "Let $\\dfrac1z=R\\,\\mathrm{cis}\\,\\theta$ with $0<R<1$ and $0<\\theta<\\frac\\pi2$. Then $z=\\dfrac{1}{R}\\,\\mathrm{cis}(-\\theta)$. Its modulus $\\frac1R>1$, so $z$ is outside the unit circle, and its argument is $-\\theta$, a reflection in the real axis, so $z$ is in the fourth quadrant. Point $B$ fits (B).",
+   "images": [
+    "assets/img/ext2-2025-manly/q06.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.4",
+    "12.3.3.3"
+   ],
+   "question": "Given that $2-i$ is a root of $P(z)=z^4-2z^3+az^2+bz+50$, where $a,b\\in\\mathbb R$, which one of the following is a factor of $P(z)$?",
+   "options": [
+    "$z^2+4z-5$",
+    "$z^2+4z+5$",
+    "$z^2+2z-10$",
+    "$z^2+2z+10$"
+   ],
+   "correct": "D",
+   "answer": "The coefficients are real, so complex roots occur in conjugate pairs and $2+i$ is also a root. The factor with these roots is $(z-(2-i))(z-(2+i))=z^2-4z+5$. The other quadratic factor is $z^2+pz+q$ with $5q=50$ (the constant term), so $q=10$. The $z^3$ coefficient: $p-4=-2$, so $p=2$. The other factor is $z^2+2z+10$ (D)."
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.12",
+    "12.2.1.13"
+   ],
+   "question": "The curve $\\mathbf r(t)=(t^2,\\,t^4,\\,t^6)$ is defined for all real values of $t$. Which of the following graphs best represents its projection onto the $xz$-plane?",
+   "options": [
+    "Graph A",
+    "Graph B",
+    "Graph C",
+    "Graph D"
+   ],
+   "correct": "C",
+   "answer": "The projection onto the $xz$-plane is $(x,z)=(t^2,t^6)$. Since $x=t^2$, $z=t^6=x^3$, and since $x=t^2\\ge0$ the curve is only defined for $x\\ge0$. So the projection is the cubic $z=x^3$ for $x\\ge0$ only (C): it starts at the origin and rises steeply to the right (A shows the whole cubic including $x<0$, B is symmetric about the $z$-axis, and D has the wrong shape).",
+   "images": [
+    "assets/img/ext2-2025-manly/q08.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.5"
+   ],
+   "question": "Which of the following is equal to the integral $\\displaystyle\\int_0^{\\pi/2}\\frac{1}{1+\\sin\\theta+\\cos\\theta}\\,d\\theta$?",
+   "options": [
+    "$\\displaystyle\\int_0^1\\frac{1}{1+\\theta}\\,d\\theta$",
+    "$\\displaystyle\\int_0^1\\frac{2}{2+2\\theta-\\theta^2}\\,d\\theta$",
+    "$\\displaystyle\\int_0^{\\pi/2}\\frac{1+\\theta^2}{1+\\theta}\\,d\\theta$",
+    "$\\displaystyle\\int_0^{\\pi/2}\\frac{1-\\sin\\theta-\\cos\\theta}{2-2\\sin\\theta\\cos\\theta}\\,d\\theta$"
+   ],
+   "correct": "A",
+   "answer": "Let $t=\\tan\\dfrac\\theta2$, so $d\\theta=\\dfrac{2\\,dt}{1+t^2}$, $\\sin\\theta=\\dfrac{2t}{1+t^2}$, $\\cos\\theta=\\dfrac{1-t^2}{1+t^2}$. When $\\theta=0$, $t=0$; when $\\theta=\\frac\\pi2$, $t=1$. Then\n$$\\int_0^{\\pi/2}\\frac{d\\theta}{1+\\sin\\theta+\\cos\\theta}=\\int_0^1\\frac{1}{1+\\frac{2t}{1+t^2}+\\frac{1-t^2}{1+t^2}}\\cdot\\frac{2\\,dt}{1+t^2}=\\int_0^1\\frac{2\\,dt}{1+t^2+2t+1-t^2}=\\int_0^1\\frac{2\\,dt}{2t+2}=\\int_0^1\\frac{dt}{t+1}.$$\nRenaming the variable $t$ as $\\theta$ gives (A)."
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.17",
+    "12.2.1.18"
+   ],
+   "question": "The point $P$ with position vector $\\overrightarrow{OP}=4\\mathbf i+5\\mathbf j+6\\mathbf k$ lies on a sphere with centre $O$. Which one of the following points also lies on the sphere?",
+   "options": [
+    "$A$ with $\\overrightarrow{OA}=2\\mathbf i+5\\mathbf j+7\\mathbf k$",
+    "$B$ with $\\overrightarrow{OB}=5\\mathbf i+5\\mathbf j+5\\mathbf k$",
+    "$C$ with $\\overrightarrow{OC}=2\\mathbf i+3\\mathbf j+8\\mathbf k$",
+    "$D$ with $\\overrightarrow{OD}=2\\mathbf i+6\\mathbf j+6\\mathbf k$"
+   ],
+   "correct": "C",
+   "answer": "The radius is $|\\overrightarrow{OP}|=\\sqrt{16+25+36}=\\sqrt{77}$. Another point lies on the sphere if its distance from $O$ is also $\\sqrt{77}$. $|\\overrightarrow{OA}|=\\sqrt{4+25+49}=\\sqrt{78}$; $|\\overrightarrow{OB}|=\\sqrt{75}$; $|\\overrightarrow{OC}|=\\sqrt{4+9+64}=\\sqrt{77}$; $|\\overrightarrow{OD}|=\\sqrt{4+36+36}=\\sqrt{76}$. Only $C$ is on the sphere (C)."
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.9"
+   ],
+   "question": "Consider the complex numbers $w=2-i$ and $z=1+3i$. Find $w^2$ in the form $a+bi$, where $a$ and $b$ are real. Show your working.",
+   "answer": "$w^2=(2-i)^2=4-4i+i^2=3-4i$."
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.13",
+    "12.3.1.10"
+   ],
+   "question": "Consider the complex numbers $w=2-i$ and $z=1+3i$. Find $\\dfrac{1}{\\bar w+z}$ in the form $a+bi$, where $a$ and $b$ are real. Show your working.",
+   "answer": "$\\bar w=2+i$, so $\\bar w+z=(2+i)+(1+3i)=3+4i$. Then $\\dfrac{1}{3+4i}=\\dfrac{1}{3+4i}\\times\\dfrac{3-4i}{3-4i}=\\dfrac{3-4i}{9+16}=\\dfrac{3}{25}-\\dfrac{4}{25}i$."
+  },
+  {
+   "ref": "Q11(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Find $A$, $B$ and $C$ such that $$\\frac{8x+3}{(x-2)(x^2+1)}=\\frac{A}{x-2}+\\frac{Bx+C}{x^2+1}.$$",
+   "answer": "Multiplying through: $8x+3\\equiv A(x^2+1)+(Bx+C)(x-2)$.\n\nLet $x=2$: $19=5A$, so $A=\\dfrac{19}{5}$.\n\nLet $x=0$: $3=A-2C=\\dfrac{19}{5}-2C$, so $C=\\dfrac{2}{5}$.\n\nLet $x=1$: $11=2A-(B+C)=\\dfrac{38}{5}-B-\\dfrac25$, so $B=\\dfrac{36}{5}-11=-\\dfrac{19}{5}$.\n\nSo $A=\\dfrac{19}{5}$, $B=-\\dfrac{19}{5}$, $C=\\dfrac25$."
+  },
+  {
+   "ref": "Q11(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.8"
+   ],
+   "question": "Given that $\\dfrac{8x+3}{(x-2)(x^2+1)}=\\dfrac{19/5}{x-2}+\\dfrac{-\\frac{19}{5}x+\\frac25}{x^2+1}$, find $\\displaystyle\\int\\frac{8x+3}{(x-2)(x^2+1)}\\,dx$.",
+   "answer": "$$\\int\\frac{8x+3}{(x-2)(x^2+1)}dx=\\frac{19}{5}\\int\\frac{dx}{x-2}-\\frac{19}{10}\\int\\frac{2x}{x^2+1}dx+\\frac25\\int\\frac{dx}{x^2+1}$$\n$$=\\frac{19}{5}\\ln|x-2|-\\frac{19}{10}\\ln(x^2+1)+\\frac25\\tan^{-1}x+C.$$"
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.14"
+   ],
+   "question": "Find the square roots of $12-16i$, giving your answers in the form $a+bi$, where $a$ and $b$ are real numbers.",
+   "answer": "Let $(x+iy)^2=12-16i$ with $x,y\\in\\mathbb R$. Then $x^2-y^2+2xyi=12-16i$. Equating real and imaginary parts: $x^2-y^2=12$ and $xy=-8$.\n\nSubstituting $y=-\\dfrac8x$: $x^2-\\dfrac{64}{x^2}=12$, so $x^4-12x^2-64=0$, $(x^2-16)(x^2+4)=0$. Since $x$ is real, $x^2=16$, so $x=\\pm4$ and $y=\\mp2$.\n\nThe square roots are $4-2i$ and $-4+2i$."
+  },
+  {
+   "ref": "Q11(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.1",
+    "12.2.2.2"
+   ],
+   "question": "Consider the vectors $\\mathbf u=2\\sqrt2\\,\\mathbf i+2\\sqrt2\\,\\mathbf j+8\\mathbf k$ and $\\mathbf v=6\\mathbf i+6\\mathbf j+2\\sqrt2\\,\\mathbf k$. Find the angle between the vectors $\\mathbf u$ and $\\mathbf v$.",
+   "answer": "$\\mathbf u\\cdot\\mathbf v=2\\sqrt2(6)+2\\sqrt2(6)+8(2\\sqrt2)=(12+12+16)\\sqrt2=40\\sqrt2$.\n\n$|\\mathbf u|=\\sqrt{8+8+64}=\\sqrt{80}$ and $|\\mathbf v|=\\sqrt{36+36+8}=\\sqrt{80}$.\n\n$\\cos\\theta=\\dfrac{\\mathbf u\\cdot\\mathbf v}{|\\mathbf u||\\mathbf v|}=\\dfrac{40\\sqrt2}{80}=\\dfrac{1}{\\sqrt2}$, so $\\theta=\\dfrac\\pi4$."
+  },
+  {
+   "ref": "Q11(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "Consider the vectors $\\mathbf u=2\\sqrt2\\,\\mathbf i+2\\sqrt2\\,\\mathbf j+8\\mathbf k$ and $\\mathbf v=6\\mathbf i+6\\mathbf j+2\\sqrt2\\,\\mathbf k$. Find the projection of the vector $\\mathbf u$ onto the vector $\\mathbf v$.",
+   "answer": "$\\mathbf u\\cdot\\mathbf v=40\\sqrt2$ and $|\\mathbf v|^2=80$. The projection of $\\mathbf u$ onto $\\mathbf v$ is\n$$\\text{proj}_{\\mathbf v}\\mathbf u=\\frac{\\mathbf u\\cdot\\mathbf v}{|\\mathbf v|^2}\\,\\mathbf v=\\frac{40\\sqrt2}{80}\\,\\mathbf v=\\frac{\\sqrt2}{2}\\left(6\\mathbf i+6\\mathbf j+2\\sqrt2\\,\\mathbf k\\right)=3\\sqrt2\\,\\mathbf i+3\\sqrt2\\,\\mathbf j+2\\mathbf k.$$"
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.11"
+   ],
+   "question": "Find $\\displaystyle\\int\\tan^4x\\,dx$.",
+   "answer": "$$\\int\\tan^4x\\,dx=\\int\\tan^2x(\\sec^2x-1)\\,dx=\\int\\tan^2x\\sec^2x\\,dx-\\int(\\sec^2x-1)\\,dx=\\frac13\\tan^3x-\\tan x+x+C.$$"
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.2.2"
+   ],
+   "question": "Consider the statement: 'for $x\\in\\mathbb R$: $x^2-x>0\\Rightarrow x<0$'. Show that the statement is false.",
+   "answer": "A counterexample: $x=2$ gives $x^2-x=4-2=2>0$, but $x=2$ is not less than $0$. So the implication is false."
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.8"
+   ],
+   "question": "Consider the statement: 'for $x\\in\\mathbb R$: $x^2-x>0\\Rightarrow x<0$'. State the converse of the statement.",
+   "answer": "The converse is: 'for $x\\in\\mathbb R$: $x<0\\Rightarrow x^2-x>0$'."
+  },
+  {
+   "ref": "Q12(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.9",
+    "12.1.3.1"
+   ],
+   "question": "Determine, with proof, whether the converse of the statement 'for $x\\in\\mathbb R$: $x^2-x>0\\Rightarrow x<0$', namely 'for $x\\in\\mathbb R$: $x<0\\Rightarrow x^2-x>0$', is true.",
+   "answer": "The converse is true. Proof: let $x<0$. Then $x^2>0$ and $-x>0$. Adding, $x^2+(-x)>0$, so $x^2-x>0$. (Alternatively, $x<0$ and $x-1<0$, and the product of two negative numbers is positive, so $x(x-1)=x^2-x>0$.)"
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.4",
+    "12.3.2.6"
+   ],
+   "question": "Express the complex number $-2+2i\\sqrt3$ in complex exponential form with principal argument.",
+   "answer": "The modulus is $\\sqrt{4+12}=4$. The number is in the second quadrant with $\\tan^{-1}\\left|\\dfrac{2\\sqrt3}{-2}\\right|=\\dfrac\\pi3$, so the argument is $\\pi-\\dfrac\\pi3=\\dfrac{2\\pi}3$. So $-2+2i\\sqrt3=4e^{\\,i\\frac{2\\pi}{3}}$."
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.7"
+   ],
+   "question": "Hence, or otherwise, find the fourth roots of $-2+2i\\sqrt3$ (which equals $4e^{\\,i\\frac{2\\pi}3}$) in simplest complex exponential form with principal arguments.",
+   "answer": "Let $z=re^{i\\theta}$ with $z^4=4e^{i\\frac{2\\pi}{3}}$. Then $r^4=4$, so $r=\\sqrt2$, and $4\\theta=\\dfrac{2\\pi}3+2k\\pi$, so $\\theta=\\dfrac{\\pi}{6}+\\dfrac{k\\pi}{2}$, $k=0,1,2,3$. Taking principal arguments:\n$$z=\\sqrt2e^{\\,i\\frac\\pi6},\\quad\\sqrt2e^{\\,i\\frac{2\\pi}3},\\quad\\sqrt2e^{-i\\frac{5\\pi}6},\\quad\\sqrt2e^{-i\\frac{\\pi}3}.$$"
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.7",
+    "12.3.1.12"
+   ],
+   "question": "Show that $\\mathrm{Re}\\left(\\dfrac{1-z}{1+z}\\right)=0$ for any $z\\in\\mathbb C$ with $|z|=1$ (and $z\\ne-1$).",
+   "answer": "Let $z=x+iy$, so $x^2+y^2=1$. Then\n$$\\frac{1-z}{1+z}=\\frac{(1-x)-iy}{(1+x)+iy}\\times\\frac{(1+x)-iy}{(1+x)-iy}=\\frac{(1-x)(1+x)-y^2-i\\big[y(1-x)+y(1+x)\\big]}{(1+x)^2+y^2}$$\nso the real part is $\\dfrac{1-x^2-y^2}{(1+x)^2+y^2}=\\dfrac{1-|z|^2}{(1+x)^2+y^2}=\\dfrac{1-1}{(1+x)^2+y^2}=0.$\n\n(Alternatively, $w=\\frac{1-z}{1+z}$ is purely imaginary if $w+\\bar w=0$; using $\\bar z=\\frac1z$ this reduces to $\\frac{2-2|z|^2}{|1+z|^2}=0$.)"
+  },
+  {
+   "ref": "Q12(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.5",
+    "12.5.2.1"
+   ],
+   "question": "An object is moving so that its displacement, $x$ metres, is given by $x=5\\cos^2t+4\\sin^2t$, where $t$ is time in seconds. Show that the motion is simple harmonic.",
+   "answer": "$x=4\\cos^2t+4\\sin^2t+\\cos^2t=4+\\cos^2t=4+\\dfrac{1+\\cos2t}{2}=\\dfrac92+\\dfrac12\\cos2t$.\n\n$\\dot x=-\\sin2t$ and $\\ddot x=-2\\cos2t=-4\\left(\\dfrac12\\cos2t\\right)=-4\\left(x-\\dfrac92\\right)$.\n\nThe acceleration has the form $\\ddot x=-n^2(x-c)$ with $n=2$ and $c=\\frac92$, so the acceleration is proportional to the displacement from $x=\\frac92$ and is directed towards it. The motion is simple harmonic."
+  },
+  {
+   "ref": "Q12(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.4"
+   ],
+   "question": "An object is moving so that its displacement, $x$ metres, is given by $x=5\\cos^2t+4\\sin^2t=\\dfrac92+\\dfrac12\\cos2t$, where $t$ is time in seconds. State the centre, amplitude and period of the motion.",
+   "answer": "Centre $=\\dfrac92=4.5$ m. Amplitude $=\\dfrac12$ m. Period $=\\dfrac{2\\pi}{n}=\\dfrac{2\\pi}{2}=\\pi$ seconds."
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.3"
+   ],
+   "question": "Consider the line $l_1$ with Cartesian equation $\\dfrac{x-4}{7}=\\dfrac{y+3}{2}=-\\dfrac z6$. Find the parametric vector equation of $l_1$.",
+   "answer": "Let $\\dfrac{x-4}{7}=\\dfrac{y+3}{2}=-\\dfrac z6=\\mu$. Then $x=4+7\\mu$, $y=-3+2\\mu$, $z=-6\\mu$, so\n$$l_1:\\ \\mathbf r=\\begin{pmatrix}4\\\\-3\\\\0\\end{pmatrix}+\\mu\\begin{pmatrix}7\\\\2\\\\-6\\end{pmatrix},\\ \\mu\\in\\mathbb R.$$"
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.10",
+    "12.2.1.11"
+   ],
+   "question": "Consider the line $l_1:\\ \\mathbf r=\\begin{pmatrix}4\\\\-3\\\\0\\end{pmatrix}+\\mu\\begin{pmatrix}7\\\\2\\\\-6\\end{pmatrix}$ and the line $l_2:\\ \\mathbf r=\\begin{pmatrix}1\\\\0\\\\-1\\end{pmatrix}+\\lambda\\begin{pmatrix}2\\\\1\\\\1\\end{pmatrix}$ ($\\lambda\\in\\mathbb R$). Show that the lines $l_1$ and $l_2$ do not intersect.",
+   "answer": "If the lines meet, there are $\\mu,\\lambda$ such that\n$$4+7\\mu=1+2\\lambda\\ \\ (1),\\qquad -3+2\\mu=\\lambda\\ \\ (2),\\qquad -6\\mu=-1+\\lambda\\ \\ (3).$$\nSubstituting (2) into (3): $-6\\mu=-1-3+2\\mu$, so $-8\\mu=-4$ and $\\mu=\\frac12$, then $\\lambda=-3+1=-2$.\n\nCheck in (1): LHS $=4+\\frac72=7.5$, but RHS $=1+2(-2)=-3$. Since $7.5\\ne-3$ the equations are inconsistent, so the lines do not intersect. (The direction vectors are not parallel, so the lines are skew.)"
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.2.3"
+   ],
+   "question": "Use a proof by contradiction to prove that there are no positive integers $p$ and $q$ such that $p^2-q^2=2$.",
+   "answer": "Suppose there exist positive integers $p$ and $q$ with $p^2-q^2=2$. Then $(p-q)(p+q)=2$. Since $p$ and $q$ are positive integers, $p-q$ and $p+q$ are integers, and $p-q<p+q$, so the only factor pair of $2$ in positive integers (as $p+q>0$) is $p-q=1$ and $p+q=2$. Adding, $2p=3$, so $p=\\dfrac32$ and $q=\\dfrac12$, which are not integers. This contradicts the assumption, so there are no such positive integers."
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.9",
+    "12.4.1.11"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{1-3x}{\\sqrt{6x-x^2}}\\,dx$.",
+   "answer": "Complete the square: $6x-x^2=9-(x-3)^2$. Let $u=x-3$, so $x=u+3$ and $dx=du$:\n$$\\int\\frac{1-3(u+3)}{\\sqrt{9-u^2}}du=\\int\\frac{-3u-8}{\\sqrt{9-u^2}}du=-3\\int\\frac{u}{\\sqrt{9-u^2}}du-8\\int\\frac{du}{\\sqrt{9-u^2}}$$\n$$=3\\sqrt{9-u^2}-8\\sin^{-1}\\frac u3+C=3\\sqrt{6x-x^2}-8\\sin^{-1}\\frac{x-3}{3}+C.$$"
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.2",
+    "12.3.5.4",
+    "12.3.5.5"
+   ],
+   "question": "Sketch the region defined by $|z-i|<|z+i|$ and $-\\dfrac\\pi6\\le\\mathrm{Arg}(z-i)\\le\\dfrac\\pi6$ on a carefully drawn, fully labelled Argand diagram.",
+   "answer": "Let $z=x+iy$. $|z-i|<|z+i|$ means $x^2+(y-1)^2<x^2+(y+1)^2$, so $-2y<2y$ and $y>0$: the points closer to $i$ than to $-i$, the half-plane above the real axis, the perpendicular bisector of the interval from $-i$ to $i$ being $\\mathrm{Im}(z)=0$ (drawn dashed, as it is not included).\n\n$-\\frac\\pi6\\le\\mathrm{Arg}(z-i)\\le\\frac\\pi6$ is the region between the two rays from $i$ at angles $\\pm\\frac\\pi6$ to the positive real direction: $y=1\\pm\\frac{x}{\\sqrt3}$ for $x>0$ (the point $i$ itself is excluded since $\\mathrm{Arg}(0)$ is undefined). The lower ray meets the real axis at $x=\\sqrt3$.\n\nThe required region is the part of this wedge that lies above the dashed line $\\mathrm{Im}(z)=0$ (shaded in the diagram).",
+   "answer_images": [
+    "assets/img/ext2-2025-manly/q13d_ans.png"
+   ]
+  },
+  {
+   "ref": "Q13(e)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.14",
+    "12.4.1.13"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^\\pi x^n\\sin x\\,dx$. Show that $I_n=\\pi^n-n(n-1)I_{n-2}$ for $n\\ge2$.",
+   "answer": "Integrate by parts with $u=x^n$, $v'=\\sin x$, so $u'=nx^{n-1}$, $v=-\\cos x$:\n$$I_n=\\big[-x^n\\cos x\\big]_0^\\pi+n\\int_0^\\pi x^{n-1}\\cos x\\,dx=\\pi^n+n\\int_0^\\pi x^{n-1}\\cos x\\,dx,$$\nsince $-\\pi^n\\cos\\pi=\\pi^n$ and the term at $0$ is $0$ (for $n\\ge1$).\n\nIntegrate by parts again with $u=x^{n-1}$, $v'=\\cos x$, so $u'=(n-1)x^{n-2}$, $v=\\sin x$:\n$$\\int_0^\\pi x^{n-1}\\cos x\\,dx=\\big[x^{n-1}\\sin x\\big]_0^\\pi-(n-1)\\int_0^\\pi x^{n-2}\\sin x\\,dx=0-(n-1)I_{n-2}.$$\nTherefore $I_n=\\pi^n-n(n-1)I_{n-2}$."
+  },
+  {
+   "ref": "Q13(e)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^\\pi x^n\\sin x\\,dx$, where $I_n=\\pi^n-n(n-1)I_{n-2}$ for $n\\ge2$. Evaluate $I_4$.",
+   "answer": "$I_0=\\displaystyle\\int_0^\\pi\\sin x\\,dx=\\big[-\\cos x\\big]_0^\\pi=2$.\n\n$I_2=\\pi^2-2(1)I_0=\\pi^2-4$.\n\n$I_4=\\pi^4-4(3)I_2=\\pi^4-12(\\pi^2-4)=\\pi^4-12\\pi^2+48$."
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.5",
+    "12.4.1.11"
+   ],
+   "question": "Use the substitution $t=\\tan x$ to find $\\displaystyle\\int\\frac{1}{\\sin x\\cos x}\\,dx$.",
+   "answer": "$\\sin x\\cos x=\\frac12\\sin2x$, so the integrand is $\\dfrac{2}{\\sin2x}$. With $t=\\tan x$: $\\sin2x=\\dfrac{2t}{1+t^2}$ and $dx=\\dfrac{dt}{1+t^2}$. Then\n$$\\int\\frac{2(1+t^2)}{2t}\\cdot\\frac{1}{1+t^2}dt=\\int\\frac1t\\,dt=\\ln|t|+C=\\ln|\\tan x|+C.$$"
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.5.2.8",
+    "12.5.2.10"
+   ],
+   "question": "A particle moves in simple harmonic motion such that its acceleration is $\\ddot x=-25(x-4)$. Initially the particle is located at $x=6$ metres from the origin and has a velocity of $-10\\ \\text{m s}^{-1}$. Determine the range of motion of the particle.",
+   "answer": "Using $\\ddot x=\\dfrac{d}{dx}\\left(\\tfrac12v^2\\right)$: $\\dfrac{d}{dx}\\left(\\tfrac12v^2\\right)=-25(x-4)$, so $\\tfrac12v^2=-\\dfrac{25}{2}(x-4)^2+c$, i.e. $v^2=-25(x-4)^2+C$.\n\nWhen $x=6$, $v=-10$: $100=-25(4)+C$, so $C=200$. Hence $v^2=200-25(x-4)^2$.\n\nThe particle can only be where $v^2\\ge0$: $25(x-4)^2\\le200$, so $(x-4)^2\\le8$ and $-2\\sqrt2\\le x-4\\le2\\sqrt2$. The particle moves between $x=4-2\\sqrt2$ and $x=4+2\\sqrt2$ metres, so the range of motion is $4-2\\sqrt2\\le x\\le4+2\\sqrt2$ (a distance of $4\\sqrt2$ m)."
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.9"
+   ],
+   "question": "Consider the lines with parametric vector equations $\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}=\\begin{pmatrix}1\\\\0\\\\0\\end{pmatrix}+\\lambda\\begin{pmatrix}0\\\\-1\\\\3\\end{pmatrix}$ ($\\lambda\\in\\mathbb R$) and $\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}=\\begin{pmatrix}0\\\\1\\\\-1\\end{pmatrix}+\\mu\\begin{pmatrix}1\\\\0\\\\-2\\end{pmatrix}$ ($\\mu\\in\\mathbb R$). Find the point of intersection of the two lines.",
+   "answer": "Equating components: $x$: $1=\\mu$; $y$: $-\\lambda=1$; $z$: $3\\lambda=-1-2\\mu$.\n\nFrom the first two, $\\mu=1$ and $\\lambda=-1$. Check the third: $3(-1)=-3$ and $-1-2(1)=-3$ ✓.\n\nThe lines meet at $(1,\\,1,\\,-3)$."
+  },
+  {
+   "ref": "Q14(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "In the diagram $OABC$ is a trapezium in which $\\overrightarrow{OA}=\\mathbf a$, $\\overrightarrow{OC}=\\mathbf c$ and $\\overrightarrow{CB}=k\\overrightarrow{OA}$ for some constant $0<k<1$. The points $M$, $N$, $P$ and $Q$ are the midpoints of $OA$, $AB$, $BC$ and $CO$ respectively. Use vector methods to show that $MP$ and $QN$ bisect each other.",
+   "answer": "$\\overrightarrow{OB}=\\mathbf c+k\\mathbf a$. The position vectors of the midpoints are $\\overrightarrow{OM}=\\tfrac12\\mathbf a$, $\\overrightarrow{OQ}=\\tfrac12\\mathbf c$, $\\overrightarrow{ON}=\\tfrac12(\\mathbf a+\\mathbf c+k\\mathbf a)=\\tfrac12\\mathbf c+\\tfrac12(k+1)\\mathbf a$ and $\\overrightarrow{OP}=\\tfrac12(\\mathbf c+\\mathbf c+k\\mathbf a)=\\mathbf c+\\tfrac12k\\mathbf a$.\n\nThe midpoint of $MP$ has position vector $\\tfrac12\\left(\\tfrac12\\mathbf a+\\mathbf c+\\tfrac12k\\mathbf a\\right)=\\tfrac12\\mathbf c+\\tfrac14(k+1)\\mathbf a$.\n\nThe midpoint of $QN$ has position vector $\\tfrac12\\left(\\tfrac12\\mathbf c+\\tfrac12\\mathbf c+\\tfrac12(k+1)\\mathbf a\\right)=\\tfrac12\\mathbf c+\\tfrac14(k+1)\\mathbf a$.\n\nThese are the same point, so $MP$ and $QN$ have a common midpoint and bisect each other.",
+   "images": [
+    "assets/img/ext2-2025-manly/q14d.png"
+   ]
+  },
+  {
+   "ref": "Q14(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.2.1"
+   ],
+   "question": "In the diagram $OABC$ is a trapezium in which $\\overrightarrow{OA}=\\mathbf a$, $\\overrightarrow{OC}=\\mathbf c$ and $\\overrightarrow{CB}=k\\overrightarrow{OA}$ for some constant $0<k<1$. The points $M$, $N$, $P$ and $Q$ are the midpoints of $OA$, $AB$, $BC$ and $CO$ respectively. If $MP\\perp QN$, use vector methods to show that $|\\overrightarrow{OC}|^2=|\\overrightarrow{AB}|^2$.",
+   "answer": "$\\overrightarrow{MP}=\\overrightarrow{OP}-\\overrightarrow{OM}=\\mathbf c+\\tfrac12(k-1)\\mathbf a$ and $\\overrightarrow{QN}=\\overrightarrow{ON}-\\overrightarrow{OQ}=\\tfrac12(k+1)\\mathbf a$.\n\nSince $MP\\perp QN$: $\\left(\\mathbf c+\\tfrac12(k-1)\\mathbf a\\right)\\cdot\\tfrac12(k+1)\\mathbf a=0$. As $k+1\\ne0$, this gives $\\mathbf a\\cdot\\mathbf c=-\\tfrac12(k-1)\\,\\mathbf a\\cdot\\mathbf a\\ \\ (*)$.\n\nNow $\\overrightarrow{AB}=\\overrightarrow{AO}+\\overrightarrow{OC}+\\overrightarrow{CB}=-\\mathbf a+\\mathbf c+k\\mathbf a=\\mathbf c+(k-1)\\mathbf a$. So\n$$|\\overrightarrow{AB}|^2=\\mathbf c\\cdot\\mathbf c+(k-1)^2\\,\\mathbf a\\cdot\\mathbf a+2(k-1)\\,\\mathbf a\\cdot\\mathbf c.$$\nUsing $(*)$: $2(k-1)\\mathbf a\\cdot\\mathbf c=-(k-1)^2\\,\\mathbf a\\cdot\\mathbf a$, so the last two terms cancel and $|\\overrightarrow{AB}|^2=\\mathbf c\\cdot\\mathbf c=|\\overrightarrow{OC}|^2$.",
+   "images": [
+    "assets/img/ext2-2025-manly/q14d.png"
+   ]
+  },
+  {
+   "ref": "Q15(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.3",
+    "12.1.4.1"
+   ],
+   "question": "Consider the sequence of propositions $P_n$, $n=1,2,3,\\ldots$ defined by $P_n$: '$14^n$ can be expressed as the sum of the squares of three different positive integers'. Show that $P_1$ and $P_2$ are true.",
+   "answer": "$14^1=14=1^2+2^2+3^2$, so $P_1$ is true. $14^2=196=12^2+6^2+4^2$ ($=144+36+16$), so $P_2$ is true."
+  },
+  {
+   "ref": "Q15(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.2.3",
+    "12.1.4.1"
+   ],
+   "question": "Consider the sequence of propositions $P_n$, $n=1,2,3,\\ldots$ defined by $P_n$: '$14^n$ can be expressed as the sum of the squares of three different positive integers'. ($P_1$ and $P_2$ are true.) By considering $P_k$ and $P_{k+2}$, use Mathematical Induction to prove that $P_n$ is true for all positive integers $n\\ge1$.",
+   "answer": "Assume $P_k$ is true for some $k\\ge1$: $14^k=a^2+b^2+c^2$ for some different positive integers $a,b,c$.\n\nThen $14^{k+2}=14^2\\cdot14^k=196(a^2+b^2+c^2)=(14a)^2+(14b)^2+(14c)^2$, where $14a$, $14b$, $14c$ are different positive integers. So $P_{k+2}$ is true.\n\nSo if $P_k$ is true then $P_{k+2}$ is true. Since $P_1$ is true, $P_n$ is true for all odd $n\\ge1$ by induction; since $P_2$ is true, $P_n$ is true for all even $n\\ge2$. Hence $P_n$ is true for all positive integers $n\\ge1$."
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.9",
+    "12.3.1.10"
+   ],
+   "question": "Show that $\\dfrac{1+z}{1+z^{-1}}=z$ for $z\\ne-1$.",
+   "answer": "$\\dfrac{1+z}{1+z^{-1}}=\\dfrac{1+z}{\\frac{z+1}{z}}=\\dfrac{z(1+z)}{1+z}=z$ (valid for $z\\ne-1$ and $z\\ne0$)."
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.6",
+    "12.3.2.9"
+   ],
+   "question": "Given that $\\dfrac{1+z}{1+z^{-1}}=z$ for $z\\ne-1$, find the imaginary part of $\\dfrac{1+\\cos\\alpha+i\\sin\\alpha}{1+\\cos\\alpha-i\\sin\\alpha}$.",
+   "answer": "Let $z=\\cos\\alpha+i\\sin\\alpha$, so $z^{-1}=\\cos(-\\alpha)+i\\sin(-\\alpha)=\\cos\\alpha-i\\sin\\alpha$. The expression is $\\dfrac{1+z}{1+z^{-1}}=z=\\cos\\alpha+i\\sin\\alpha$, so the imaginary part is $\\sin\\alpha$."
+  },
+  {
+   "ref": "Q15(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.3",
+    "12.3.4.1"
+   ],
+   "question": "Let $\\alpha\\in\\mathbb R$, $n\\in\\mathbb Z^+$ and $B_n=\\left(\\dfrac{1+\\sin\\alpha+i\\cos\\alpha}{1+\\sin\\alpha-i\\cos\\alpha}\\right)^n$. Given that $\\dfrac{1+z}{1+z^{-1}}=z$ for $z\\neq-1$, show that $B_n=\\cos n\\left(\\dfrac\\pi2-\\alpha\\right)+i\\sin n\\left(\\dfrac\\pi2-\\alpha\\right)$.",
+   "answer": "Let $z=\\sin\\alpha+i\\cos\\alpha$. Then $|z|=1$, so $z^{-1}=\\bar z=\\sin\\alpha-i\\cos\\alpha$, and the fraction is $\\dfrac{1+z}{1+z^{-1}}=z$. So $B_n=z^n=(\\sin\\alpha+i\\cos\\alpha)^n$.\n\nSince $\\sin\\alpha=\\cos\\left(\\frac\\pi2-\\alpha\\right)$ and $\\cos\\alpha=\\sin\\left(\\frac\\pi2-\\alpha\\right)$,\n$$z=\\cos\\left(\\tfrac\\pi2-\\alpha\\right)+i\\sin\\left(\\tfrac\\pi2-\\alpha\\right).$$\nBy de Moivre's theorem, $B_n=\\cos n\\left(\\dfrac\\pi2-\\alpha\\right)+i\\sin n\\left(\\dfrac\\pi2-\\alpha\\right)$."
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.14",
+    "12.4.1.12"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^{\\pi/3}\\tan^{n+1}x\\sec x\\,dx$. Given that $\\displaystyle\\int\\tan x\\sec x\\,dx=\\sec x$, show that $I_n=\\dfrac{2\\times3^{n/2}}{n+1}-\\dfrac{n}{n+1}I_{n-2}$.",
+   "answer": "Write $I_n=\\displaystyle\\int_0^{\\pi/3}\\tan^nx\\,(\\tan x\\sec x)\\,dx$ and integrate by parts with $u=\\tan^nx$, $v'=\\tan x\\sec x$, so $u'=n\\tan^{n-1}x\\sec^2x$ and $v=\\sec x$:\n$$I_n=\\Big[\\tan^nx\\sec x\\Big]_0^{\\pi/3}-n\\int_0^{\\pi/3}\\tan^{n-1}x\\sec^3x\\,dx=2\\times3^{n/2}-n\\int_0^{\\pi/3}\\tan^{n-1}x\\,\\sec^2x\\,\\sec x\\,dx,$$\nsince $\\tan\\frac\\pi3=\\sqrt3$ and $\\sec\\frac\\pi3=2$, and the term at $0$ is $0$. Now use $\\sec^2x=\\tan^2x+1$:\n$$I_n=2\\times3^{n/2}-n\\int_0^{\\pi/3}\\left(\\tan^{n+1}x\\sec x+\\tan^{n-1}x\\sec x\\right)dx=2\\times3^{n/2}-nI_n-nI_{n-2}.$$\nSo $(n+1)I_n=2\\times3^{n/2}-nI_{n-2}$, and $I_n=\\dfrac{2\\times3^{n/2}}{n+1}-\\dfrac{n}{n+1}I_{n-2}$."
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^{\\pi/3}\\tan^{n+1}x\\sec x\\,dx$, where $I_n=\\dfrac{2\\times3^{n/2}}{n+1}-\\dfrac{n}{n+1}I_{n-2}$. Hence find $I_2$.",
+   "answer": "$I_2=\\dfrac{2\\times3}{3}-\\dfrac23I_0=2-\\dfrac23I_0$.\n\n$I_0=\\displaystyle\\int_0^{\\pi/3}\\tan x\\sec x\\,dx=\\big[\\sec x\\big]_0^{\\pi/3}=2-1=1$.\n\nSo $I_2=2-\\dfrac23=\\dfrac43$."
+  },
+  {
+   "ref": "Q16(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.4.1.11",
+    "12.4.1.5"
+   ],
+   "question": "Find $\\displaystyle\\int\\operatorname{cosec}^3x\\,\\sec x\\,dx$.",
+   "answer": "$$\\operatorname{cosec}^3x\\sec x=\\frac{\\operatorname{cosec}^2x}{\\sin x\\cos x}=\\frac{1+\\cot^2x}{\\sin x\\cos x}=\\frac{1}{\\sin x\\cos x}+\\frac{\\cot^2x}{\\sin x\\cos x}=2\\operatorname{cosec}2x+\\frac{\\cos x}{\\sin^3x}.$$\nFor the first term, with $t=\\tan x$: $\\displaystyle\\int2\\operatorname{cosec}2x\\,dx=\\int\\frac{1+t^2}{t}\\cdot\\frac{dt}{1+t^2}=\\ln|\\tan x|$. For the second term, $\\displaystyle\\int\\frac{\\cos x}{\\sin^3x}dx=-\\frac{1}{2\\sin^2x}$ (equivalently $-\\frac{1}{2\\tan^2x}$ up to a constant, since $\\frac{1}{\\sin^2x}=1+\\frac1{\\tan^2x}$).\n\n$$\\int\\operatorname{cosec}^3x\\sec x\\,dx=\\ln|\\tan x|-\\frac{1}{2\\tan^2x}+C.$$"
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.1.3.1"
+   ],
+   "question": "If $x\\ge y>0$, prove that $x^xy^y\\ge x^yy^x$.",
+   "answer": "Since $x\\ge y>0$, $\\dfrac xy\\ge1$. For a base $\\ge1$ a larger exponent gives a larger value, and $x\\ge y$, so $\\left(\\dfrac xy\\right)^x\\ge\\left(\\dfrac xy\\right)^y$, i.e. $\\dfrac{x^x}{y^x}\\ge\\dfrac{x^y}{y^y}$. Multiplying both sides by $y^xy^y>0$ gives $x^xy^y\\ge x^yy^x$."
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "Using the result that if $x\\ge y>0$ then $x^xy^y\\ge x^yy^x$, or otherwise, prove that for real numbers $a\\ge b\\ge c>0$, $a^ab^bc^c\\ge(abc)^{\\frac{a+b+c}{3}}$.",
+   "answer": "Apply the result to each pair (using $a\\ge b$, $b\\ge c$ and $a\\ge c$):\n$$a^ab^b\\ge a^bb^a,\\qquad b^bc^c\\ge b^cc^b,\\qquad c^ca^a\\ge c^aa^c.$$\nMultiplying the three inequalities (all terms positive):\n$$\\left(a^ab^bc^c\\right)^2\\ge a^{b+c}b^{a+c}c^{a+b}.$$\nMultiply both sides by $a^ab^bc^c$:\n$$\\left(a^ab^bc^c\\right)^3\\ge a^{a+b+c}b^{a+b+c}c^{a+b+c}=(abc)^{a+b+c}.$$\nTaking the cube root, $a^ab^bc^c\\ge(abc)^{\\frac{a+b+c}{3}}$."
+  },
+  {
+   "ref": "Q16(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.2.1"
+   ],
+   "question": "A regular tetrahedron $OABC$ has sides of length $1$, where $O$ is the origin. Let $P$ and $Q$ be the points that divide sides $AB$ and $BC$ in the ratio $x:1-x$ (so $AP=x\\,AB$ and $BQ=x\\,BC$), where $0<x<1$. Let $\\overrightarrow{OA}=\\mathbf a$, $\\overrightarrow{OB}=\\mathbf b$ and $\\overrightarrow{OC}=\\mathbf c$. It is given that $\\mathbf a\\cdot\\mathbf b=\\mathbf b\\cdot\\mathbf c=\\mathbf a\\cdot\\mathbf c=\\tfrac12$.\n\nShow that $|\\overrightarrow{OP}|=\\sqrt{1-x+x^2}$.",
+   "answer": "$\\overrightarrow{OP}=\\overrightarrow{OA}+x\\overrightarrow{AB}=\\mathbf a+x(\\mathbf b-\\mathbf a)=(1-x)\\mathbf a+x\\mathbf b$. Since the edges have length $1$, $\\mathbf a\\cdot\\mathbf a=\\mathbf b\\cdot\\mathbf b=1$. Then\n$$|\\overrightarrow{OP}|^2=(1-x)^2\\mathbf a\\cdot\\mathbf a+2x(1-x)\\mathbf a\\cdot\\mathbf b+x^2\\mathbf b\\cdot\\mathbf b=(1-x)^2+x(1-x)+x^2=1-x+x^2.$$\nSo $|\\overrightarrow{OP}|=\\sqrt{1-x+x^2}$.",
+   "images": [
+    "assets/img/ext2-2025-manly/q16c.png"
+   ]
+  },
+  {
+   "ref": "Q16(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.1.3.1",
+    "12.1.3.2"
+   ],
+   "question": "Let $f(x)=\\dfrac{1+x-x^2}{1-x+x^2}$ where $0<x<1$. Without using calculus, prove that $1<f(x)\\le\\dfrac53$.",
+   "answer": "**Lower bound.** $f(x)-1=\\dfrac{(1+x-x^2)-(1-x+x^2)}{1-x+x^2}=\\dfrac{2x-2x^2}{1-x+x^2}=\\dfrac{2x(1-x)}{\\frac34+\\left(x-\\frac12\\right)^2}$. For $0<x<1$ the numerator $2x(1-x)>0$ and the denominator is at least $\\frac34>0$, so $f(x)-1>0$ and $f(x)>1$.\n\n**Upper bound.** $\\dfrac53-f(x)=\\dfrac{5(1-x+x^2)-3(1+x-x^2)}{3(1-x+x^2)}=\\dfrac{2-8x+8x^2}{3(1-x+x^2)}=\\dfrac{2(1-2x)^2}{3\\left(\\frac34+\\left(x-\\frac12\\right)^2\\right)}\\ge0$, since a square is non-negative and the denominator is positive. So $f(x)\\le\\dfrac53$ (with equality when $x=\\frac12$).\n\nHence $1<f(x)\\le\\dfrac53$."
+  },
+  {
+   "ref": "Q16(c)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.2.2.1",
+    "12.2.2.5"
+   ],
+   "question": "A regular tetrahedron $OABC$ has sides of length $1$, where $O$ is the origin. Let $P$ and $Q$ be the points that divide sides $AB$ and $BC$ in the ratio $x:1-x$ (so $AP=x\\,AB$ and $BQ=x\\,BC$), where $0<x<1$. Let $\\overrightarrow{OA}=\\mathbf a$, $\\overrightarrow{OB}=\\mathbf b$ and $\\overrightarrow{OC}=\\mathbf c$. It is given that $\\mathbf a\\cdot\\mathbf b=\\mathbf b\\cdot\\mathbf c=\\mathbf a\\cdot\\mathbf c=\\tfrac12$.\n\nGiven that $|\\overrightarrow{OP}|=\\sqrt{1-x+x^2}$ and that $f(x)=\\dfrac{1+x-x^2}{1-x+x^2}$ satisfies $1<f(x)\\le\\dfrac53$, determine the range of values of $\\angle POQ$.",
+   "answer": "$\\overrightarrow{OQ}=\\overrightarrow{OB}+x\\overrightarrow{BC}=(1-x)\\mathbf b+x\\mathbf c$, and as in part (i), $|\\overrightarrow{OQ}|=\\sqrt{1-x+x^2}$.\n\n$$\\overrightarrow{OP}\\cdot\\overrightarrow{OQ}=\\big((1-x)\\mathbf a+x\\mathbf b\\big)\\cdot\\big((1-x)\\mathbf b+x\\mathbf c\\big)=(1-x)^2\\mathbf a\\cdot\\mathbf b+x(1-x)\\mathbf a\\cdot\\mathbf c+x(1-x)\\mathbf b\\cdot\\mathbf b+x^2\\mathbf b\\cdot\\mathbf c$$\n$$=\\tfrac12(1-x)^2+\\tfrac12x(1-x)+x(1-x)+\\tfrac12x^2=\\tfrac12\\left(1+x-x^2\\right).$$\n\n$$\\cos\\angle POQ=\\frac{\\overrightarrow{OP}\\cdot\\overrightarrow{OQ}}{|\\overrightarrow{OP}||\\overrightarrow{OQ}|}=\\frac{\\frac12(1+x-x^2)}{1-x+x^2}=\\frac12f(x).$$\nFrom part (ii), $\\dfrac12<\\cos\\angle POQ\\le\\dfrac56$. Since cosine is decreasing on $[0,\\pi]$, $\\cos^{-1}\\dfrac56\\le\\angle POQ<\\dfrac\\pi3$, i.e. approximately $33.6^\\circ\\le\\angle POQ<60^\\circ$.",
+   "images": [
+    "assets/img/ext2-2025-manly/q16c.png"
+   ]
+  }
+ ]
+}
