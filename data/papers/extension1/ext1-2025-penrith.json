@@ -1,0 +1,532 @@
+{
+ "id": "ext1-2025-penrith",
+ "course": "extension1",
+ "school": "Penrith",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "Penrith 2025 w. sol"
+ },
+ "indexed": "2026-11-26",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.2"
+   ],
+   "question": "Which expression is equivalent to $\\cos(4\\theta+\\alpha)\\cos(3\\theta+\\alpha)+\\sin(4\\theta+\\alpha)\\sin(3\\theta+\\alpha)$?",
+   "answer": "$\\cos A\\cos B+\\sin A\\sin B=\\cos(A-B)$ with $A=4\\theta+\\alpha$, $B=3\\theta+\\alpha$: $\\cos(\\theta)$ (D).",
+   "options": [
+    "$\\cos(7\\theta+2\\alpha)$",
+    "$\\sin(7\\theta+2\\alpha)$",
+    "$\\cos(\\theta+2\\alpha)$",
+    "$\\cos\\theta$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.8"
+   ],
+   "question": "An eight-sided die is rolled $64$ times and the number of times a $7$ appears is noted. What is the mean and standard deviation of the binomial distribution formed?",
+   "answer": "$X\\sim\\text{Bin}\\left(64,\\tfrac18\\right)$. $E(X)=np=8$, $\\operatorname{Var}(X)=np(1-p)=64\\cdot\\tfrac18\\cdot\\tfrac78=7$, so $\\sigma=\\sqrt7\\approx2.646$ (C).",
+   "options": [
+    "$E(X)=10.7,\\ \\sigma=8.9$",
+    "$E(X)=10.7,\\ \\sigma=2.981$",
+    "$E(X)=8,\\ \\sigma=2.646$",
+    "$E(X)=8,\\ \\sigma=7$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.5.10"
+   ],
+   "question": "A particle moves through the air according to the displacement vector $\\mathbf r=\\begin{pmatrix}3t\\\\4t-2t^2\\end{pmatrix}$, where $\\mathbf r$ is measured in metres. What horizontal distance will the particle travel before it hits the ground?",
+   "answer": "Ground level: $4t-2t^2=0\\Rightarrow t=0$ or $t=2$. At $t=2$, $x=3(2)=6$ m (C).",
+   "options": [
+    "$2$ m",
+    "$4$ m",
+    "$6$ m",
+    "$9$ m"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.3.3"
+   ],
+   "question": "Let $\\alpha,\\beta,\\gamma$ and $\\delta$ be the roots of $x^4+2x^3-5x^2+7x-11=0$. Find $\\dfrac1\\alpha+\\dfrac1\\beta+\\dfrac1\\gamma+\\dfrac1\\delta$.",
+   "answer": "$\\sum\\frac1\\alpha=\\dfrac{\\alpha\\beta\\gamma+\\alpha\\beta\\delta+\\alpha\\gamma\\delta+\\beta\\gamma\\delta}{\\alpha\\beta\\gamma\\delta}=\\dfrac{-d/a}{e/a}=\\dfrac{-7}{-11}=\\dfrac7{11}$ (A).",
+   "options": [
+    "$\\dfrac7{11}$",
+    "$-\\dfrac7{11}$",
+    "$-\\dfrac{11}7$",
+    "$\\dfrac2{11}$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Use the substitution $u=x^2+4x-32$ to find $\\displaystyle\\int(x+2)\\sqrt[3]{x^2+4x-32}\\,dx$.",
+   "answer": "$du=2(x+2)\\,dx$, so the integral is $\\dfrac12\\int u^{1/3}du=\\dfrac12\\cdot\\dfrac34u^{4/3}+c=\\dfrac38\\left(x^2+4x-32\\right)^{4/3}+c$ (B).",
+   "options": [
+    "$\\dfrac12\\sqrt[3]{x^2+4x-32}+c$",
+    "$\\dfrac38\\left(x^2+4x-32\\right)^{4/3}+c$",
+    "$\\dfrac34\\left(x^2+4x-32\\right)^{3/4}+c$",
+    "$\\dfrac32\\left(x^2+4x-32\\right)^{4/3}+c$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.5"
+   ],
+   "question": "Which expression is equal to $\\dfrac{1+\\sin\\theta+\\cos\\theta}{1+\\sin\\theta-\\cos\\theta}$ if $t=\\tan\\dfrac\\theta2$?",
+   "answer": "With $\\sin\\theta=\\dfrac{2t}{1+t^2}$ and $\\cos\\theta=\\dfrac{1-t^2}{1+t^2}$: numerator $\\propto(1+t^2)+2t+(1-t^2)=2+2t$; denominator $\\propto(1+t^2)+2t-(1-t^2)=2t^2+2t$.\nThe ratio is $\\dfrac{2(1+t)}{2t(t+1)}=\\dfrac1t$ (B).",
+   "options": [
+    "$t$",
+    "$\\dfrac1t$",
+    "$2t$",
+    "$\\dfrac1{2t}$"
+   ],
+   "correct": "B",
+   "course": "extension2"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.4.9"
+   ],
+   "question": "Which of the following slope fields best represents the differential equation $\\dfrac{dy}{dx}=\\dfrac{x+y}{x-y}$?",
+   "answer": "Along the $x$-axis ($y=0$) the slope is $\\frac xx=1$ (rising at $45^\\circ$); along the $y$-axis ($x=0$) the slope is $\\frac{y}{-y}=-1$; along $y=x$ the slope is undefined (vertical segments); along $y=-x$ the slope is $0$ (horizontal segments). Only slope field D has these features (D).",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/ext1-2025-penrith/q7.png"
+   ]
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.4.15"
+   ],
+   "question": "The population $P(t)$ of a certain species changes over time according to the differential equation $\\dfrac{dP}{dt}=P\\left(2-\\dfrac P{10\\,000}\\right)$ with initial population $P(0)=4000$, where $t$ is the time in years. (Note: $\\dfrac1P+\\dfrac1{20\\,000-P}=\\dfrac{20\\,000}{P(20\\,000-P)}$.) What is the population as $t\\to\\infty$?",
+   "answer": "This is logistic growth: $\\frac{dP}{dt}=\\frac{P(20\\,000-P)}{10\\,000}$, with equilibria $P=0$ and $P=20\\,000$. Since $0<P(0)<20\\,000$, $P$ increases towards the carrying capacity: $P\\to20\\,000$ (D).",
+   "options": [
+    "$4\\,000$",
+    "$5\\,000$",
+    "$10\\,000$",
+    "$20\\,000$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.9"
+   ],
+   "question": "In which diagram is $\\left|\\operatorname{proj}_{\\mathbf b}\\mathbf a\\right|>|\\mathbf b|$ (diagrams are drawn to scale)?",
+   "answer": "$|\\operatorname{proj}_{\\mathbf b}\\mathbf a|=|\\mathbf a|\\,|\\cos\\theta|$, where $\\theta$ is the angle between $\\mathbf a$ and $\\mathbf b$. It exceeds $|\\mathbf b|$ only when $\\mathbf a$ is long and nearly parallel to $\\mathbf b$ and $\\mathbf b$ is short: in D, the long vector $\\mathbf a$ lies close to the direction of the short vector $\\mathbf b$ (D).",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/ext1-2025-penrith/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.8"
+   ],
+   "question": "Starting from any letter 'T' as shown in the diagram, the word TENET can be spelled by moving up, down, left or right to an adjacent letter. Letters may be revisited (repetition is allowed). How many ways are there to spell TENET?",
+   "answer": "Each of the four Es is adjacent to exactly three Ts (and to N). There are $4\\times3=12$ ways to spell TEN (T then E, ending on the central N) and, similarly, $12$ ways to continue NET. Total $12\\times12=144$ (C).",
+   "options": [
+    "$64$",
+    "$100$",
+    "$144$",
+    "$196$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/ext1-2025-penrith/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "The shaded region bounded by the curve $y=\\sqrt{x-2}$, the coordinate axes and the line $y=2$ is rotated about the $y$-axis. Calculate the volume of the solid generated.",
+   "answer": "$y=\\sqrt{x-2}\\Rightarrow x=y^2+2$. Rotating about the $y$-axis:\n$V=\\pi\\displaystyle\\int_0^2x^2\\,dy=\\pi\\int_0^2\\left(y^2+2\\right)^2dy=\\pi\\int_0^2\\left(y^4+4y^2+4\\right)dy=\\pi\\left[\\frac{y^5}5+\\frac{4y^3}3+4y\\right]_0^2=\\pi\\left(\\frac{32}5+\\frac{32}3+8\\right)$\n$$V=\\frac{376\\pi}{15}\\ \\text{units}^3$$",
+   "images": [
+    "assets/img/ext1-2025-penrith/q11a.png"
+   ]
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.6"
+   ],
+   "question": "Show that $\\cos\\left(\\tan^{-1}x\\right)=\\dfrac1{\\sqrt{x^2+1}}$.",
+   "answer": "Let $\\alpha=\\tan^{-1}x$, so $\\tan\\alpha=x$ with $\\alpha\\in\\left(-\\frac\\pi2,\\frac\\pi2\\right)$ and $\\cos\\alpha>0$. In a right triangle with opposite side $x$ and adjacent side $1$, the hypotenuse is $\\sqrt{x^2+1}$, so $\\cos\\alpha=\\dfrac1{\\sqrt{x^2+1}}$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q11(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.7"
+   ],
+   "question": "Eleanor placed an object in a freezer to cool. After $t$ minutes, its temperature is $T^\\circ$C. The freezer is at a constant temperature of $-8^\\circ$C. The object's temperature decreases according to $\\dfrac{dT}{dt}=k(T+8)$. If the object's initial temperature is $40^\\circ$C, solve the differential equation for $T$ in terms of $k$ and $t$.",
+   "answer": "$\\displaystyle\\int\\frac{dT}{T+8}=\\int k\\,dt\\Rightarrow\\ln|T+8|=kt+C$. At $t=0$, $T=40$: $C=\\ln48$. So $T+8=48e^{kt}$:\n$$T=48e^{kt}-8$$"
+  },
+  {
+   "ref": "Q11(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.7"
+   ],
+   "question": "For $T=48e^{kt}-8$ ($t$ in minutes), if the object cools to $30^\\circ$C in half an hour, show that $k=\\dfrac1{30}\\ln\\!\\left(\\dfrac{19}{24}\\right)$.",
+   "answer": "$30=48e^{30k}-8\\Rightarrow e^{30k}=\\dfrac{38}{48}=\\dfrac{19}{24}\\Rightarrow k=\\dfrac1{30}\\ln\\!\\left(\\dfrac{19}{24}\\right)$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q11(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.7"
+   ],
+   "question": "For $T=48e^{kt}-8$ with $k=\\dfrac1{30}\\ln\\!\\left(\\dfrac{19}{24}\\right)$, when will the temperature of the object be $0^\\circ$C, correct to the nearest minute?",
+   "answer": "$0=48e^{kt}-8\\Rightarrow e^{kt}=\\frac16\\Rightarrow t=\\dfrac1k\\ln\\frac16=\\dfrac{30\\ln\\frac16}{\\ln\\frac{19}{24}}\\approx230.1$.\nAfter about $230$ minutes."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Solve $\\dfrac{x^2+4}{x}<5$.",
+   "answer": "$x\\ne0$. Multiply by $x^2>0$: $x(x^2+4)<5x^2\\Rightarrow x^3-5x^2+4x<0\\Rightarrow x(x-1)(x-4)<0$.\nSign diagram for the cubic (positive for large $x$): negative for $x<0$ and for $1<x<4$.\n$$x<0\\ \\text{ or }\\ 1<x<4$$"
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.1.1.4"
+   ],
+   "question": "The diagram shows the graph of $y=f(x)$, which has a horizontal asymptote at $y=3$ (as $x\\to-\\infty$) and $x$-intercepts at $0$ and $2$, with minimum value $-1$ at $x=1$. Sketch the graph of $y=(f(x))^2$.",
+   "answer": "Key features of $y=(f(x))^2$:\n- Zeros at $x=0$ and $x=2$ (touching the $x$-axis, since $f$ changes sign there and the square is never negative).\n- Where $0<|f|<1$, $(f)^2<|f|$; at $x=1$ there is a local maximum at $(1,1)$ between the two zeros.\n- As $x\\to-\\infty$, $f\\to3$, so $y\\to9$: horizontal asymptote $y=9$.\n- For $x>2$, $f$ increases, so $y=f^2$ increases without bound.",
+   "images": [
+    "assets/img/ext1-2025-penrith/q11e.png"
+   ],
+   "answer_images": [
+    "assets/img/ext1-2025-penrith/a11e.png"
+   ]
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "Find an expression for the coefficient of $x^8y^4$ in the expansion of $(3x+2y)^{12}$.",
+   "answer": "The term is $\\binom{12}{4}(3x)^8(2y)^4$, so the coefficient is $\\binom{12}8\\,3^8\\,2^4=51\\,963\\,120$."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Differentiate $y=\\ln\\left(\\sin^{-1}4x\\right)$.",
+   "answer": "$\\dfrac{dy}{dx}=\\dfrac{1}{\\sin^{-1}4x}\\cdot\\dfrac{4}{\\sqrt{1-16x^2}}=\\dfrac4{\\sqrt{1-16x^2}\\,\\sin^{-1}4x}$."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.3",
+    "12.4.2.3"
+   ],
+   "question": "A solid of revolution is formed by rotating the region bounded by the $x$-axis and the curve $y=(a+2)\\sin(ax)$, where $a>0$, between $x=0$ and $x=\\dfrac\\pi{2a}$ about the $x$-axis (see diagram). Find the value of $a$ for which the volume is $2\\pi^2$ cubic units.",
+   "answer": "$V=\\pi\\displaystyle\\int_0^{\\pi/2a}(a+2)^2\\sin^2(ax)\\,dx=\\pi(a+2)^2\\int_0^{\\pi/2a}\\frac{1-\\cos2ax}{2}\\,dx=\\pi(a+2)^2\\left[\\frac x2-\\frac{\\sin2ax}{4a}\\right]_0^{\\pi/2a}=\\pi(a+2)^2\\cdot\\frac\\pi{4a}$.\n$\\dfrac{\\pi^2(a+2)^2}{4a}=2\\pi^2\\Rightarrow(a+2)^2=8a\\Rightarrow a^2-4a+4=0\\Rightarrow(a-2)^2=0$.\n$$a=2$$",
+   "images": [
+    "assets/img/ext1-2025-penrith/q12c.png"
+   ]
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "Use the principle of mathematical induction to prove that for any integer $n\\ge1$, $3^{3n-1}+5^{3n-2}$ is divisible by $7$.",
+   "answer": "**Base case** $n=1$: $3^2+5^1=14=7\\times2$. ✓\n**Assume** $3^{3k-1}+5^{3k-2}=7M$ for some integer $M$, so $3^{3k-1}=7M-5^{3k-2}$.\n**Then** $3^{3(k+1)-1}+5^{3(k+1)-2}=3^{3k+2}+5^{3k+1}=27\\cdot3^{3k-1}+125\\cdot5^{3k-2}=27\\left(7M-5^{3k-2}\\right)+125\\cdot5^{3k-2}=189M+98\\cdot5^{3k-2}=7\\left(27M+14\\cdot5^{3k-2}\\right)$, divisible by $7$.\nBy induction the result holds for all integers $n\\ge1$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q12(e)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.9"
+   ],
+   "question": "A scientist captures and tags $30$ trout before releasing them back into a lake. Several days later, he randomly catches a sample of $15$ trout and finds that $2$ of them are tagged. Show, using appropriate reasoning and calculations, that the total number of trout in the lake is approximately $225$.",
+   "answer": "Assuming the sample is representative, the proportion tagged in the sample equals the proportion tagged in the lake: $\\dfrac{2}{15}=\\dfrac{30}{N}\\Rightarrow N=\\dfrac{15\\times30}{2}=225$."
+  },
+  {
+   "ref": "Q12(e)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.6",
+    "12.6.2.9"
+   ],
+   "question": "Assume the lake has $225$ trout, $30$ of which are tagged, so each trout caught is tagged with probability $\\dfrac{30}{225}=\\dfrac2{15}$. Show that the probability of finding at most $3$ tagged fish in a random catch of $15$ fish is approximately $0.871$.",
+   "answer": "Model the number of tagged fish as $X\\sim\\text{Bin}\\left(15,\\frac2{15}\\right)$.\n$P(X\\le3)=\\sum_{r=0}^3\\binom{15}r\\left(\\frac2{15}\\right)^r\\left(\\frac{13}{15}\\right)^{15-r}=0.1169+0.2697+0.2905+0.1937\\approx0.8708\\approx0.871$."
+  },
+  {
+   "ref": "Q12(e)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.2.6",
+    "12.6.2.9"
+   ],
+   "question": "The probability of finding at most $3$ tagged fish in a random catch of $15$ fish is $0.871$. The scientist continues the experiment, taking $20$ separate samples of $15$ trout. What is the probability that exactly $4$ of these samples contain more than $3$ tagged fish?",
+   "answer": "$P(\\text{more than }3\\text{ tagged})=1-0.871=0.129$. Let $Y$ be the number of samples (out of $20$) with more than $3$ tagged fish: $Y\\sim\\text{Bin}(20,0.129)$.\n$P(Y=4)=\\binom{20}4(0.129)^4(0.871)^{16}\\approx0.147$."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.1"
+   ],
+   "question": "Solve the equation $\\sin2x=2\\sin^2x$ for $0<x<\\pi$.",
+   "answer": "$2\\sin x\\cos x=2\\sin^2x\\Rightarrow2\\sin x(\\cos x-\\sin x)=0$.\n$\\sin x=0$ has no solutions in $0<x<\\pi$. $\\cos x=\\sin x\\Rightarrow\\tan x=1\\Rightarrow x=\\dfrac\\pi4$.\n$$x=\\frac\\pi4$$"
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.3.3.2"
+   ],
+   "question": "By expressing $\\sqrt3\\sin x+3\\cos x$ in the form $A\\sin(x+\\alpha)$, solve $\\sqrt3\\sin x+3\\cos x=\\sqrt3$ for $0\\le x\\le2\\pi$.",
+   "answer": "$A\\cos\\alpha=\\sqrt3$, $A\\sin\\alpha=3$: $A^2=3+9=12\\Rightarrow A=2\\sqrt3$, $\\tan\\alpha=\\frac3{\\sqrt3}=\\sqrt3\\Rightarrow\\alpha=\\frac\\pi3$. So $\\sqrt3\\sin x+3\\cos x=2\\sqrt3\\sin\\left(x+\\frac\\pi3\\right)$.\n$2\\sqrt3\\sin\\left(x+\\frac\\pi3\\right)=\\sqrt3\\Rightarrow\\sin\\left(x+\\frac\\pi3\\right)=\\frac12$. For $\\frac\\pi3\\le x+\\frac\\pi3\\le\\frac{7\\pi}3$: $x+\\frac\\pi3=\\frac{5\\pi}6,\\ \\frac{13\\pi}6$.\n$$x=\\frac\\pi2,\\ \\frac{11\\pi}6$$"
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.6.7"
+   ],
+   "question": "A water cannon is placed at ground level on a flat horizontal surface. It fires water at a fixed speed $v$ m s$^{-1}$ at an angle of projection $\\theta$. Taking the origin as the point of projection, the position of the water at time $t$ is $\\mathbf r(t)=(vt\\cos\\theta)\\mathbf i+\\left(vt\\sin\\theta-\\frac12gt^2\\right)\\mathbf j$ (do not prove this). Show that the water returns to ground level at a horizontal distance of $\\dfrac{v^2\\sin2\\theta}g$ metres from the cannon.",
+   "answer": "Ground level: $vt\\sin\\theta-\\frac12gt^2=0\\Rightarrow t\\left(v\\sin\\theta-\\frac12gt\\right)=0\\Rightarrow t=0$ or $t=\\dfrac{2v\\sin\\theta}g$.\nHorizontal distance $=vt\\cos\\theta=v\\cos\\theta\\cdot\\dfrac{2v\\sin\\theta}g=\\dfrac{v^2(2\\sin\\theta\\cos\\theta)}g=\\dfrac{v^2\\sin2\\theta}g$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.8"
+   ],
+   "question": "The cannon is aimed at a vertical wall that is $20$ metres high and located $40$ metres away (horizontally) from the cannon. When the angle of projection $\\theta$ is $15^\\circ$, the water just reaches the base of the wall. Show that $v^2=80g$.",
+   "answer": "The range at $\\theta=15^\\circ$ is $40$ m: $\\dfrac{v^2\\sin30^\\circ}g=40\\Rightarrow v^2=\\dfrac{40g}{\\sin30^\\circ}=80g$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q13(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.6.6"
+   ],
+   "question": "With $x=vt\\cos\\theta$, $y=vt\\sin\\theta-\\frac12gt^2$ and $v^2=80g$, show that the Cartesian equation of the path of the water is $y=x\\tan\\theta-\\dfrac{x^2\\sec^2\\theta}{160}$.",
+   "answer": "From $x=vt\\cos\\theta$: $t=\\dfrac x{v\\cos\\theta}$. Substituting into $y$: $y=x\\tan\\theta-\\dfrac{g}{2}\\cdot\\dfrac{x^2}{v^2\\cos^2\\theta}=x\\tan\\theta-\\dfrac{gx^2\\sec^2\\theta}{2v^2}$.\nWith $v^2=80g$: $y=x\\tan\\theta-\\dfrac{x^2\\sec^2\\theta}{160}$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q13(c)(iv)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.6.8"
+   ],
+   "question": "The path of the water is $y=x\\tan\\theta-\\dfrac{x^2\\sec^2\\theta}{160}$, and the wall is $20$ metres high and $40$ metres away. Show that the water just clears the top of the wall if $\\tan^2\\theta-4\\tan\\theta+3=0$.",
+   "answer": "At the top of the wall $x=40$, $y=20$: $20=40\\tan\\theta-\\dfrac{1600\\sec^2\\theta}{160}=40\\tan\\theta-10\\left(1+\\tan^2\\theta\\right)$.\n$10\\tan^2\\theta-40\\tan\\theta+30=0\\Rightarrow\\tan^2\\theta-4\\tan\\theta+3=0$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q13(c)(v)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.8"
+   ],
+   "question": "The water just clears the top of the wall if $\\tan^2\\theta-4\\tan\\theta+3=0$. Hence, find all values of $\\theta$, to the nearest degree, for which the water just clears the top of the wall.",
+   "answer": "$(\\tan\\theta-1)(\\tan\\theta-3)=0\\Rightarrow\\tan\\theta=1$ or $3$, so $\\theta=45^\\circ$ or $\\theta=71^\\circ34'\\approx72^\\circ$ (both acute, as $\\theta$ is an angle of projection).\n$$\\theta=45^\\circ\\ \\text{or}\\ 72^\\circ$$"
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.3.3"
+   ],
+   "question": "Find the Cartesian form of the equation for $x=-2+5\\cos\\theta$, $y=4+5\\sin\\theta$ and describe its shape.",
+   "answer": "$\\cos\\theta=\\frac{x+2}5$, $\\sin\\theta=\\frac{y-4}5$, and $\\cos^2\\theta+\\sin^2\\theta=1$:\n$$(x+2)^2+(y-4)^2=25$$ This is a circle with centre $(-2,4)$ and radius $5$."
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.5"
+   ],
+   "question": "What is the range of the function $y=4\\sin^{-1}(4x)+4\\cos^{-1}(4x)$?",
+   "answer": "$\\sin^{-1}u+\\cos^{-1}u=\\frac\\pi2$ for $-1\\le u\\le1$, so $y=4\\cdot\\frac\\pi2=2\\pi$ for all $x$ in the domain $-\\frac14\\le x\\le\\frac14$. The range is the single value $\\{2\\pi\\}$."
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.8",
+    "12.6.2.6"
+   ],
+   "question": "A binomial random variable $X$ is defined such that $E(X)=3.5$ and $\\operatorname{Var}(X)=2.625$. Calculate $P(X=5)$, correct to $4$ decimal places.",
+   "answer": "$np=3.5$, $np(1-p)=2.625\\Rightarrow1-p=0.75\\Rightarrow p=0.25$, $n=\\frac{3.5}{0.25}=14$.\n$P(X=5)=\\binom{14}5(0.25)^5(0.75)^9=0.1468$."
+  },
+  {
+   "ref": "Q14(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.8"
+   ],
+   "question": "The eleven letters of the word EXAMINATION are written on eleven separate pieces of A5 paper. Find the number of arrangements that can be made using these eleven letters.",
+   "answer": "The letters A, I and N each appear twice, so $\\dfrac{11!}{2!\\,2!\\,2!}=4\\,989\\,600$."
+  },
+  {
+   "ref": "Q14(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.19",
+    "11.4.1.9"
+   ],
+   "question": "The eleven letters of the word EXAMINATION are arranged at random. Find the probability that the four-letter word EXAM will appear in one of these eleven-letter arrangements.",
+   "answer": "Treat EXAM as one block. The remaining letters are I, N, A, T, I, O, N, so there are $8$ objects with I and N each repeated twice: $\\dfrac{8!}{2!\\,2!}=10\\,080$ arrangements.\n$P=\\dfrac{10\\,080}{4\\,989\\,600}=\\dfrac1{495}\\approx0.00202$."
+  },
+  {
+   "ref": "Q14(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "Consider the differential equation $(e^x+1)\\dfrac{dy}{dx}=e^x\\sec y$. Using separation of variables, find the solution if its curve passes through the origin.",
+   "answer": "$\\cos y\\,dy=\\dfrac{e^x}{e^x+1}\\,dx\\Rightarrow\\sin y=\\ln(e^x+1)+C$ (note $e^x+1>0$).\nThrough $(0,0)$: $0=\\ln2+C\\Rightarrow C=-\\ln2$.\n$$\\sin y=\\ln\\!\\left(\\frac{e^x+1}2\\right)\\quad\\text{i.e.}\\quad y=\\sin^{-1}\\!\\left[\\ln\\!\\left(\\frac{e^x+1}2\\right)\\right]$$"
+  },
+  {
+   "ref": "Q14(f)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.2.4.3",
+    "12.2.4.7"
+   ],
+   "question": "Let $A$ and $B$ be points on the number plane where $\\overrightarrow{AB}=\\begin{pmatrix}3\\\\1\\end{pmatrix}$. Let $C$ be another point so that the area of $\\triangle ABC$ is $5$ units$^2$. If $\\left|\\overrightarrow{AC}\\right|=2\\sqrt5$, find all possible vectors $\\overrightarrow{AC}$.",
+   "answer": "$|\\overrightarrow{AB}|=\\sqrt{10}$. Area $=\\frac12|\\overrightarrow{AB}||\\overrightarrow{AC}|\\sin\\theta$: $5=\\frac12\\sqrt{10}\\cdot2\\sqrt5\\sin\\theta\\Rightarrow\\sin\\theta=\\dfrac5{\\sqrt{50}}=\\dfrac1{\\sqrt2}$, so $\\cos\\theta=\\pm\\dfrac1{\\sqrt2}$ ($\\theta=45^\\circ$ or $135^\\circ$).\n$\\overrightarrow{AC}\\cdot\\overrightarrow{AB}=\\sqrt{10}\\cdot2\\sqrt5\\cos\\theta=10\\sqrt2\\cos\\theta=\\pm10$.\nLet $\\overrightarrow{AC}=\\begin{pmatrix}x\\\\y\\end{pmatrix}$: $3x+y=\\pm10$ and $x^2+y^2=20$.\nCase $+10$: $y=10-3x$, $x^2+(10-3x)^2=20\\Rightarrow x^2-6x+8=0\\Rightarrow x=4,2$, giving $(4,-2)$ and $(2,4)$.\nCase $-10$: $y=-10-3x$, $x^2+6x+8=0\\Rightarrow x=-4,-2$, giving $(-4,2)$ and $(-2,-4)$.\n$$\\overrightarrow{AC}=\\begin{pmatrix}4\\\\-2\\end{pmatrix},\\ \\begin{pmatrix}2\\\\4\\end{pmatrix},\\ \\begin{pmatrix}-4\\\\2\\end{pmatrix},\\ \\begin{pmatrix}-2\\\\-4\\end{pmatrix}$$"
+  }
+ ]
+}
