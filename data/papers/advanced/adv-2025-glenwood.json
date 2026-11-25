@@ -1,0 +1,682 @@
+{
+ "id": "adv-2025-glenwood",
+ "course": "advanced",
+ "school": "Glenwood",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5328",
+  "title": "Glenwood 2025 w. sol"
+ },
+ "indexed": "2026-11-26",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q9",
+   "reason": "Pareto charts are not in the 2024 Mathematics Advanced syllabus."
+  },
+  {
+   "ref": "Q13",
+   "reason": "Pearson's correlation coefficient and least-squares regression (bivariate data) are not in the 2024 Mathematics Advanced syllabus."
+  },
+  {
+   "ref": "Q24",
+   "reason": "Parallel box plots and skewness comparisons (bivariate/univariate data analysis) are not in the 2024 Mathematics Advanced syllabus."
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.7.4.3"
+   ],
+   "question": "The stem and leaf plot below shows the number of lollies that fourteen students in the class have eaten this week.\n\n| Stem | Leaves |\n|---|---|\n| 0 | 0 0 2 5 |\n| 1 | 1 2 2 6 9 |\n| 2 | 0 4 4 7 |\n| 3 | 3 |\n\nTwo students were absent when this data was collected. Once their data was added to the data of the rest of the class, a grouped frequency distribution table with classes $0-9$, $10-19$, $20-29$, $30-39$ (frequency and cumulative frequency columns) was completed. The cumulative frequency for the $10-19$ class is marked with an $X$. Which of the following values for $X$ could be true?",
+   "answer": "From the plot, $4$ students are in $0-9$ and $5$ in $10-19$, so the cumulative frequency of the $10-19$ class is $9$ for the fourteen students. The two absent students each add $0$ or $1$ to this (if they fall in $0-9$ or $10-19$), so $X$ can be $9$, $10$ or $11$. Only $X=9$ is listed (A).",
+   "options": [
+    "$X=9$",
+    "$X=12$",
+    "$X=14$",
+    "$X=16$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.3.5"
+   ],
+   "question": "What is the gradient of the normal to the curve $f(x)=3x^3-4x+2$ at the point $(-1,3)$?",
+   "answer": "$f'(x)=9x^2-4$, so $f'(-1)=5$. The normal is perpendicular to the tangent, so its gradient is $-\\dfrac{1}{5}$ (C).",
+   "options": [
+    "$5$",
+    "$-5$",
+    "$-\\dfrac15$",
+    "$-\\dfrac13$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.2.9",
+    "11.5.2.5"
+   ],
+   "question": "What is the solution of the equation $2a^{3x}=b$, where $a$ and $b$ are positive constants?",
+   "answer": "$a^{3x}=\\dfrac b2\\Rightarrow 3x=\\log_a\\dfrac b2\\Rightarrow x=\\dfrac13\\log_a\\dfrac b2$ (C).",
+   "options": [
+    "$x=\\dfrac12\\log_a\\dfrac b3$",
+    "$x=\\dfrac12\\log_b\\dfrac a3$",
+    "$x=\\dfrac13\\log_a\\dfrac b2$",
+    "$x=\\dfrac13\\log_b\\dfrac a2$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.10",
+    "12.6.3.11"
+   ],
+   "question": "Savannah competed in four throwing events at the district athletics carnival. The distances achieved in each event by the competitors were normally distributed.\n\n| Event | Savannah's result | Event mean | Event standard deviation |\n|---|---|---|---|\n| Shot put | 15 m | 13 m | 2 m |\n| Discus | 37 m | 43 m | 6 m |\n| Javelin | 59 m | 47 m | 8 m |\n| Hammer throw | 33 m | 48 m | 10 m |\n\nWhich was Savannah's weakest event compared with the other competitors?",
+   "answer": "Compare $z$-scores $z=\\dfrac{x-\\mu}{\\sigma}$: shot put $\\dfrac{15-13}{2}=1$; discus $\\dfrac{37-43}{6}=-1$; javelin $\\dfrac{59-47}{8}=1.5$; hammer throw $\\dfrac{33-48}{10}=-1.5$. The lowest $z$-score is the hammer throw (D).",
+   "options": [
+    "Shot put",
+    "Discus",
+    "Javelin",
+    "Hammer throw"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Which diagram shows the graph of $y=\\sin\\left(\\dfrac{\\pi}{2}-2x\\right)$?",
+   "answer": "$\\sin\\left(\\dfrac\\pi2-2x\\right)=\\cos2x$, which has period $\\dfrac{2\\pi}{2}=\\pi$, amplitude $1$ and a maximum at $x=0$. Only graph B has these features (A has period $2\\pi$; C has a minimum at $x=0$; D has period $2\\pi$ with a different shape).",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/adv-2025-glenwood/q5.png"
+   ]
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.5"
+   ],
+   "question": "Two fair dice are thrown in a game. If the sum of the two numbers thrown is $7$, the player gains \\$36. The player gains \\$6 on any other number rolled. What is the expected gain from this game?",
+   "answer": "$P(\\text{sum}=7)=\\dfrac{6}{36}=\\dfrac16$. $E=\\dfrac16(36)+\\dfrac56(6)=6+5=\\$11$ (A).",
+   "options": [
+    "\\$11",
+    "\\$12",
+    "\\$30",
+    "\\$31"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.9.3"
+   ],
+   "question": "What is the range of the function $f(x)=\\sqrt{3x^2+6x+5}$?",
+   "answer": "$3x^2+6x+5=3(x+1)^2+2\\ge2$, with minimum $2$ at $x=-1$ and no upper bound. So $f(x)\\ge\\sqrt2$ and the range is $[\\sqrt2,\\infty)$ (B).",
+   "options": [
+    "$[0,\\infty)$",
+    "$[\\sqrt2,\\infty)$",
+    "$[0,\\sqrt2]$",
+    "$[0,1]$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.7.2"
+   ],
+   "question": "What is $\\displaystyle\\int\\left(e^{2x}+e^{2x+1}\\right)dx$?",
+   "answer": "$\\displaystyle\\int e^{2x}dx+\\int e^{2x+1}dx=\\frac{e^{2x}}{2}+\\frac{e^{2x+1}}{2}+c=\\frac{e^{2x}(1+e)}{2}+c$ (D).",
+   "options": [
+    "$\\dfrac{e^{2x}(3-2e)}{2}+c$",
+    "$\\dfrac{e^{2x}(3+2e)}{2}+c$",
+    "$\\dfrac{e^{2x}(1-e)}{2}+c$",
+    "$\\dfrac{e^{2x}(1+e)}{2}+c$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.9",
+    "11.4.5.3"
+   ],
+   "question": "The displacement of a car to the east of its starting point along a straight road that runs east–west is $x$ kilometres. At time $t$ hours the car's velocity is $\\dfrac{dx}{dt}$ and its acceleration is $\\dfrac{d^2x}{dt^2}$. The graph of $x=f(t)$ is shown. When the car is at point $P$, which statement reflects its motion?",
+   "answer": "At $P$: $x<0$ (below the $t$-axis), so the car is west of its start. The curve is decreasing, so $\\dfrac{dx}{dt}<0$ and it moves west. The curve is concave up at $P$, so $\\dfrac{d^2x}{dt^2}>0$: acceleration is east while velocity is west, so the speed is decreasing (C).",
+   "options": [
+    "The car is west of its starting point, it is moving east, and its speed is decreasing.",
+    "The car is west of its starting point, it is moving east, and its speed is increasing.",
+    "The car is west of its starting point, it is moving west, and its speed is decreasing.",
+    "The car is west of its starting point, it is moving west, and its speed is increasing."
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/adv-2025-glenwood/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.2.7"
+   ],
+   "question": "When Cody plays Sofia at tennis, he wins the first set two out of every seven times they play. If he wins the first set, he wins the second set three out of every five times, but if he loses the first set, he wins the second set one out of every five times. Complete the probability tree below and find the probability that Cody loses both sets.",
+   "answer": "| Branch | Probability |\n|---|---|\n| W then W | $\\frac27\\times\\frac35=\\frac{6}{35}$ |\n| W then L | $\\frac27\\times\\frac25=\\frac{4}{35}$ |\n| L then W | $\\frac57\\times\\frac15=\\frac{1}{7}$ |\n| L then L | $\\frac57\\times\\frac45=\\frac47$ |\n\nThe missing branch labels are $P(W_1)=\\frac27$, $P(L_1)=\\frac57$, $P(L_2|W_1)=\\frac25$, $P(W_2|L_1)=\\frac15$ and $P(L_2|L_1)=\\frac45$.\n\n$P(\\text{loses both})=\\dfrac57\\times\\dfrac45=\\dfrac47$.",
+   "images": [
+    "assets/img/adv-2025-glenwood/q11.png"
+   ]
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.2.7"
+   ],
+   "question": "Cody wins the first set two out of every seven times he plays Sofia; he wins the second set $\\frac35$ of the time after winning the first and $\\frac15$ of the time after losing the first. Suppose Cody and Sofia play 70 matches in a year. In how many of those matches would Cody expect to win at least one set?",
+   "answer": "$P(\\text{wins at least one set})=1-\\dfrac47=\\dfrac37$, so the expected number is $70\\times\\dfrac37=30$ matches."
+  },
+  {
+   "ref": "Q12",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.11.6"
+   ],
+   "question": "Solve: $|5-x|=4$.",
+   "answer": "$5-x=4\\Rightarrow x=1$, or $5-x=-4\\Rightarrow x=9$. So $x=1$ or $x=9$."
+  },
+  {
+   "ref": "Q14",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.13"
+   ],
+   "question": "Find all the values of $\\theta$, where $0^\\circ\\le\\theta\\le360^\\circ$, such that $\\sin(2\\theta-30^\\circ)=-\\dfrac12$.",
+   "answer": "Let $u=2\\theta-30^\\circ$, with $-30^\\circ\\le u\\le690^\\circ$. $\\sin u=-\\dfrac12$ gives $u=-30^\\circ,\\,210^\\circ,\\,330^\\circ,\\,570^\\circ,\\,690^\\circ$.\nSo $2\\theta=0^\\circ,240^\\circ,360^\\circ,600^\\circ,720^\\circ$ and $\\theta=0^\\circ,\\,120^\\circ,\\,180^\\circ,\\,300^\\circ,\\,360^\\circ$."
+  },
+  {
+   "ref": "Q15",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.8",
+    "12.2.3.8"
+   ],
+   "question": "A population of wasps, $P$, is to be modelled using the function $P=100(1.3)^{-t}$, where $t$ is the time in hours since a pesticide was applied. What is the percentage decrease in the wasp population over the first four hours since the pesticide was applied?",
+   "answer": "$P(0)=100$ and $P(4)=100(1.3)^{-4}=35.01\\ldots$. The decrease is $100-35.01=64.99$, i.e. a decrease of about $65\\%$."
+  },
+  {
+   "ref": "Q16",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.6.1.6",
+    "12.1.1.2"
+   ],
+   "question": "Describe three transformations which, when applied in succession, change the graph of $y=4\\sin x$ to the graph with equation $y=\\sin\\left(\\dfrac{x+\\pi}{3}\\right)$.",
+   "answer": "One sequence:\n1. A vertical dilation (stretch) by a factor of $\\dfrac14$ (from the $x$-axis): $y=\\sin x$.\n2. A horizontal dilation by a factor of $3$ (from the $y$-axis): $y=\\sin\\dfrac x3$.\n3. A horizontal translation of $\\pi$ units to the left: $y=\\sin\\dfrac{x+\\pi}{3}$."
+  },
+  {
+   "ref": "Q17(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.11"
+   ],
+   "question": "The curve $y=\\dfrac1x$ and the lines $x=1$ and $x=2$ are shown on the graph. By completing the table below and using the trapezoidal rule with six function values find an approximation for $\\displaystyle\\int_1^2\\frac1x\\,dx$, correct to 2 significant figures.\n\n| $x$ | 1 | $\\frac65$ | $\\frac75$ | $\\frac85$ | $\\frac95$ | 2 |\n|---|---|---|---|---|---|---|\n| $f(x)$ | | | | | | |",
+   "answer": "| $x$ | 1 | $\\frac65$ | $\\frac75$ | $\\frac85$ | $\\frac95$ | 2 |\n|---|---|---|---|---|---|---|\n| $f(x)$ | $1$ | $\\frac56$ | $\\frac57$ | $\\frac58$ | $\\frac59$ | $\\frac12$ |\n\nWith $h=0.2$:\n$$\\int_1^2\\frac1x\\,dx\\approx\\frac{0.2}{2}\\left[1+\\tfrac12+2\\left(\\tfrac56+\\tfrac57+\\tfrac58+\\tfrac59\\right)\\right]=0.1\\times6.956\\ldots\\approx0.70$$",
+   "images": [
+    "assets/img/adv-2025-glenwood/q17.png"
+   ]
+  },
+  {
+   "ref": "Q17(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.8.1"
+   ],
+   "question": "Find the exact value of $\\displaystyle\\int_1^2\\frac1x\\,dx$.",
+   "answer": "$\\displaystyle\\int_1^2\\frac1x\\,dx=\\Big[\\ln x\\Big]_1^2=\\ln2-\\ln1=\\ln2$."
+  },
+  {
+   "ref": "Q17(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.8.11"
+   ],
+   "question": "The trapezoidal rule is used to approximate $\\displaystyle\\int_1^2\\frac1x\\,dx$ (exact value $\\ln2\\approx0.6931$) and gives $0.6956$. State whether this approximation is an under-estimate or over-estimate of the exact area and explain why this is the case.",
+   "answer": "It is an over-estimate ($0.6956>\\ln2\\approx0.6931$). The curve $y=\\frac1x$ is concave up, so each trapezoid's top edge (a chord) lies above the curve."
+  },
+  {
+   "ref": "Q18",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.3",
+    "12.5.1.4"
+   ],
+   "question": "Determine the global maximum and minimum values of $y$ for the curve $y=e^2+e^x-xe^2$ in the domain $0\\le x\\le5$. Give your answers as exact values.",
+   "answer": "$\\dfrac{dy}{dx}=e^x-e^2=0\\Rightarrow x=2$, and $y(2)=e^2+e^2-2e^2=0$. Since $\\dfrac{d^2y}{dx^2}=e^x>0$, this is a local minimum.\nEndpoints: $y(0)=e^2+1\\approx8.39$; $y(5)=e^2+e^5-5e^2=e^5-4e^2\\approx118.86$.\nGlobal minimum value $=0$ (at $x=2$); global maximum value $=e^5-4e^2$ (at $x=5$)."
+  },
+  {
+   "ref": "Q19(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.1.2"
+   ],
+   "question": "Two mountains, $P$ and $Q$, lie directly north of a campground $C$. Tom walks 4 km from $C$ on a bearing of $065^\\circ$ to a point $T$. From point $T$, the base of mountain $P$ is on a bearing of $285^\\circ$ whilst the base of mountain $Q$ is on a bearing of $315^\\circ$. Show that $\\angle QTC=70^\\circ$.",
+   "answer": "The bearing of $C$ from $T$ is $065^\\circ+180^\\circ=245^\\circ$. The bearing of $Q$ from $T$ is $315^\\circ$, so $\\angle QTC=315^\\circ-245^\\circ=70^\\circ$.",
+   "images": [
+    "assets/img/adv-2025-glenwood/q19.png"
+   ]
+  },
+  {
+   "ref": "Q19(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "Two mountains, $P$ and $Q$, lie directly north of a campground $C$. Tom walks 4 km from $C$ on a bearing of $065^\\circ$ to a point $T$. From $T$, the base of $P$ is on a bearing of $285^\\circ$ and the base of $Q$ is on a bearing of $315^\\circ$. Use the sine rule to find the distance $CQ$, correct to 1 decimal place.",
+   "answer": "In $\\triangle CTQ$: $\\angle TCQ=65^\\circ$, $\\angle QTC=70^\\circ$, so $\\angle CQT=180^\\circ-65^\\circ-70^\\circ=45^\\circ$.\n$$\\frac{CQ}{\\sin70^\\circ}=\\frac{4}{\\sin45^\\circ}\\Rightarrow CQ=\\frac{4\\sin70^\\circ}{\\sin45^\\circ}\\approx5.3\\text{ km}$$",
+   "images": [
+    "assets/img/adv-2025-glenwood/q19.png"
+   ]
+  },
+  {
+   "ref": "Q19(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "Two mountains, $P$ and $Q$, lie directly north of a campground $C$. Tom walks 4 km from $C$ on a bearing of $065^\\circ$ to a point $T$. From $T$, the base of $P$ is on a bearing of $285^\\circ$ and the base of $Q$ is on a bearing of $315^\\circ$. Given $CQ\\approx5.3$ km, find the distance $PQ$, correct to 1 decimal place.",
+   "answer": "$\\angle PTC=285^\\circ-245^\\circ=40^\\circ$, so in $\\triangle CTP$, $\\angle CPT=180^\\circ-65^\\circ-40^\\circ=75^\\circ$.\n$$CP=\\frac{4\\sin40^\\circ}{\\sin75^\\circ}\\approx2.66\\text{ km}$$\n$PQ=CQ-CP=5.315-2.662\\approx2.7$ km.",
+   "images": [
+    "assets/img/adv-2025-glenwood/q19.png"
+   ]
+  },
+  {
+   "ref": "Q20(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.8.3",
+    "11.1.8.4",
+    "11.6.1.7"
+   ],
+   "question": "A semi-circle on the number plane is defined by the equation $y=\\sqrt{-x^2+10x-16}$. Find the centre and radius of the semi-circle.",
+   "answer": "$y^2=-x^2+10x-16$ with $y\\ge0$, so $x^2-10x+y^2=-16$. Completing the square: $(x-5)^2+y^2=9$.\nThe centre is $(5,0)$ and the radius is $3$ (the upper semicircle)."
+  },
+  {
+   "ref": "Q20(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.8.4"
+   ],
+   "question": "A semi-circle on the number plane is defined by $y=\\sqrt{-x^2+10x-16}$. Sketch the curve.",
+   "answer": "The upper semicircle with centre $(5,0)$ and radius $3$, from $(2,0)$ to $(8,0)$ with top point $(5,3)$.",
+   "answer_images": [
+    "assets/img/adv-2025-glenwood/a20.png"
+   ]
+  },
+  {
+   "ref": "Q21(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.7.2"
+   ],
+   "question": "The time it takes for a cupcake at a picnic to be eaten by ants ($t$ minutes) varies inversely with the number of ants eating the cupcake ($N$ ants). When there are 10 ants the cupcake is eaten in 120 minutes. The equation relating $t$ and $N$ is $t=\\dfrac kN$. What is the value of $k$?",
+   "answer": "$120=\\dfrac{k}{10}\\Rightarrow k=1200$."
+  },
+  {
+   "ref": "Q21(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.7.2",
+    "11.1.7.4"
+   ],
+   "question": "The time it takes for a cupcake to be eaten by $N$ ants is $t=\\dfrac{1200}{N}$ minutes. By first completing this table of values, graph the curve representing the relationship between the time taken for the cupcake to be eaten and the number of ants eating the cupcake from $N=10$ to $N=120$.\n\n| $N$ | 10 | 30 | 60 | 120 |\n|---|---|---|---|---|\n| $t$ | 120 | | | |",
+   "answer": "| $N$ | 10 | 30 | 60 | 120 |\n|---|---|---|---|---|\n| $t$ | 120 | 40 | 20 | 10 |\n\nThe graph is a decreasing hyperbola through these points.",
+   "answer_images": [
+    "assets/img/adv-2025-glenwood/a21.png"
+   ]
+  },
+  {
+   "ref": "Q22(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.10",
+    "12.6.3.11"
+   ],
+   "question": "A random variable is normally distributed with a mean of 0 and a standard deviation of 1. The table gives the probability that this random variable lies less than $z$.\n\n| $z$ | $-1.0$ | $-0.9$ | $-0.8$ | $-0.7$ | $-0.6$ | $-0.5$ | $-0.4$ | $-0.3$ | $-0.2$ | $-0.1$ | $0.0$ |\n|---|---|---|---|---|---|---|---|---|---|---|---|\n| Probability | 0.1587 | 0.1841 | 0.2119 | 0.242 | 0.2743 | 0.3085 | 0.3446 | 0.3821 | 0.4207 | 0.4602 | 0.5000 |\n\nThe time it takes for a worker to drive from home to work is normally distributed with a mean of 32 minutes and a standard deviation of 4 minutes. What is the probability that on a particular day the drive takes between 30 and 32 minutes?",
+   "answer": "$z=\\dfrac{30-32}{4}=-0.5$. $P(30<T<32)=P(-0.5<Z<0)=0.5-0.3085=0.1915$."
+  },
+  {
+   "ref": "Q22(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.10",
+    "12.6.3.11"
+   ],
+   "question": "A random variable is normally distributed with a mean of 0 and a standard deviation of 1. The table gives the probability that this random variable lies less than $z$.\n\n| $z$ | $-1.0$ | $-0.9$ | $-0.8$ | $-0.7$ | $-0.6$ | $-0.5$ | $-0.4$ | $-0.3$ | $-0.2$ | $-0.1$ | $0.0$ |\n|---|---|---|---|---|---|---|---|---|---|---|---|\n| Probability | 0.1587 | 0.1841 | 0.2119 | 0.242 | 0.2743 | 0.3085 | 0.3446 | 0.3821 | 0.4207 | 0.4602 | 0.5000 |\n\nThe time it takes for a worker to drive from home to work is normally distributed with a mean of 32 minutes and a standard deviation of 4 minutes. What is the probability that the drive takes 32.8 minutes or less?",
+   "answer": "$z=\\dfrac{32.8-32}{4}=0.2$. By symmetry $P(Z<0.2)=1-P(Z<-0.2)=1-0.4207=0.5793$."
+  },
+  {
+   "ref": "Q23(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.3.11",
+    "12.3.1.4"
+   ],
+   "question": "Show that $\\dfrac{d}{dx}\\left(e^x\\tan x\\right)=e^x\\left(\\tan^2x+\\tan x+1\\right)$.",
+   "answer": "Product rule: $\\dfrac{d}{dx}(e^x\\tan x)=e^x\\tan x+e^x\\sec^2x=e^x\\tan x+e^x(1+\\tan^2x)=e^x\\left(\\tan^2x+\\tan x+1\\right)$."
+  },
+  {
+   "ref": "Q23(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.1",
+    "12.4.7.1"
+   ],
+   "question": "Find the exact value of $\\displaystyle\\int_0^{\\pi/4}2e^x\\left(\\tan^2x+\\tan x+1\\right)dx$.",
+   "answer": "By part (a), $e^x\\tan x$ is a primitive of $e^x(\\tan^2x+\\tan x+1)$:\n$$\\int_0^{\\pi/4}2e^x(\\tan^2x+\\tan x+1)\\,dx=2\\Big[e^x\\tan x\\Big]_0^{\\pi/4}=2\\left(e^{\\pi/4}\\cdot1-0\\right)=2e^{\\pi/4}$$"
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.1.5"
+   ],
+   "question": "Emily's number of goals scored in football each game she has played this season has the following probability distribution.\n\n| $x$ | 0 | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|---|\n| $P(X=x)$ | 0.46 | 0.34 | $k$ | 0.08 | 0.05 |\n\nShow that $k=0.07$.",
+   "answer": "Probabilities sum to 1: $0.46+0.34+k+0.08+0.05=1\\Rightarrow0.93+k=1\\Rightarrow k=0.07$."
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.5"
+   ],
+   "question": "Emily's number of goals scored in each game has distribution $P(X=0)=0.46$, $P(1)=0.34$, $P(2)=0.07$, $P(3)=0.08$, $P(4)=0.05$. Find $E(X)$, correct to 4 decimal places.",
+   "answer": "$E(X)=0(0.46)+1(0.34)+2(0.07)+3(0.08)+4(0.05)=0.34+0.14+0.24+0.20=0.9200$."
+  },
+  {
+   "ref": "Q25(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.7"
+   ],
+   "question": "Emily's number of goals scored in each game has distribution $P(X=0)=0.46$, $P(1)=0.34$, $P(2)=0.07$, $P(3)=0.08$, $P(4)=0.05$ (so $E(X)=0.92$). Find $\\mathrm{Var}(X)$.",
+   "answer": "$E(X^2)=0.34+4(0.07)+9(0.08)+16(0.05)=0.34+0.28+0.72+0.80=2.14$.\n$\\mathrm{Var}(X)=E(X^2)-[E(X)]^2=2.14-0.92^2=2.14-0.8464=1.2936$."
+  },
+  {
+   "ref": "Q26",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.2.2.10",
+    "11.2.1.2"
+   ],
+   "question": "The figure shows three buoys at sea at $A$, $B$ and $C$. A helicopter is flying along $FH$ and then $HG$, where $F$, $G$ and $H$ are three points of the same height vertically above $A$, $B$ and $C$ respectively. When the helicopter reaches $H$, the angles of depression of $A$ and $B$ from the helicopter are $60^\\circ$ and $30^\\circ$ respectively, while the true bearings of $A$ and $B$ from $C$ are $250^\\circ$ and $130^\\circ$ respectively. The distance between $A$ and $B$ is $100\\sqrt{13}$ km. Show that the distance between $A$ and $C$ is $100$ km.",
+   "answer": "Let the height of $H$ above $C$ be $h$. From the angles of depression, $CA=\\dfrac{h}{\\tan60^\\circ}=\\dfrac{h}{\\sqrt3}$ and $CB=\\dfrac{h}{\\tan30^\\circ}=h\\sqrt3$.\n$\\angle ACB=250^\\circ-130^\\circ=120^\\circ$. Cosine rule in $\\triangle ABC$:\n$$AB^2=\\frac{h^2}{3}+3h^2-2\\cdot\\frac{h}{\\sqrt3}\\cdot h\\sqrt3\\cos120^\\circ=\\frac{h^2}{3}+3h^2+h^2=\\frac{13h^2}{3}$$\n$\\dfrac{13h^2}{3}=(100\\sqrt{13})^2=130\\,000\\Rightarrow h^2=30\\,000$, so $h=100\\sqrt3$.\nThen $AC=\\dfrac{100\\sqrt3}{\\sqrt3}=100$ km.",
+   "images": [
+    "assets/img/adv-2025-glenwood/q26.png"
+   ]
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.4",
+    "12.6.2.3"
+   ],
+   "question": "A continuous random variable $X$ has the cumulative distribution function $F(x)=\\begin{cases}0&x<0\\\\Bx^2(4-x^2)&0\\le x\\le1\\\\1&x>1\\end{cases}$. Show that $B=\\dfrac13$.",
+   "answer": "$F$ is continuous with $F(1)=1$: $B(1)(4-1)=1\\Rightarrow3B=1\\Rightarrow B=\\dfrac13$."
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.3"
+   ],
+   "question": "A continuous random variable $X$ has cumulative distribution function $F(x)=\\dfrac13x^2(4-x^2)$ for $0\\le x\\le1$ (and $0$ for $x<0$, $1$ for $x>1$). Find $P(X>0.5)$.",
+   "answer": "$P(X>0.5)=1-F(0.5)=1-\\dfrac13(0.25)(3.75)=1-0.3125=0.6875\\left(=\\dfrac{11}{16}\\right)$."
+  },
+  {
+   "ref": "Q27(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.2.12",
+    "12.6.2.8"
+   ],
+   "question": "A continuous random variable $X$ has cumulative distribution function $F(x)=\\dfrac13x^2(4-x^2)$ for $0\\le x\\le1$ (and $0$ for $x<0$, $1$ for $x>1$). Find the mode of the distribution.",
+   "answer": "$f(x)=F'(x)=\\dfrac13\\left(8x-4x^3\\right)$ for $0\\le x\\le1$. The mode is where $f$ is maximised: $f'(x)=\\dfrac13(8-12x^2)=0\\Rightarrow x^2=\\dfrac23$, $x=\\sqrt{\\dfrac23}=\\dfrac{\\sqrt6}{3}\\approx0.816$ (in $[0,1]$).\n$f''(x)=-8x<0$, so this is a maximum. The mode is $x=\\dfrac{\\sqrt6}{3}$."
+  },
+  {
+   "ref": "Q28",
+   "kind": "written",
+   "marks": 6,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.1.4",
+    "12.5.1.7",
+    "12.5.1.9"
+   ],
+   "question": "Sketch the curve $y=x^3(4-x)$, showing $x$ and $y$ intercepts, any stationary points (classifying their nature) and stating if any inflection points exist and if so showing them.",
+   "answer": "**Intercepts:** $y=0$ at $x=0$ and $x=4$, so $(0,0)$ and $(4,0)$.\n**Stationary points:** $y=4x^3-x^4$, $y'=12x^2-4x^3=4x^2(3-x)=0\\Rightarrow x=0$ or $x=3$.\n$y''=24x-12x^2=12x(2-x)$.\n- $x=3$: $y=27$, $y''(3)=-36<0$, so $(3,27)$ is a local (global) maximum.\n- $x=0$: $y''=0$; $y'\\ge0$ on both sides, so $(0,0)$ is a horizontal point of inflection.\n\n**Inflection points:** $y''=0$ at $x=0$ and $x=2$. $y''$ changes sign at both ($y''<0$ for $x<0$, $>0$ for $0<x<2$, $<0$ for $x>2$). The inflection points are $(0,0)$ and $(2,16)$.",
+   "answer_images": [
+    "assets/img/adv-2025-glenwood/a28.png"
+   ]
+  },
+  {
+   "ref": "Q29(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "The depth of water (in metres) in a lagoon is given by $D=8+2\\cos\\left(\\dfrac{4\\pi t}{25}\\right)$ for $0\\le t\\le25$, where $t$ is the time in hours after noon. What is the depth of water at noon?",
+   "answer": "$t=0$: $D=8+2\\cos0=10$ m."
+  },
+  {
+   "ref": "Q29(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "The depth of water (in metres) in a lagoon is $D=8+2\\cos\\left(\\dfrac{4\\pi t}{25}\\right)$ for $0\\le t\\le25$, where $t$ is the time in hours after noon. The depth at noon is $10$ m. At what time will the water next be at this depth?",
+   "answer": "$D=10\\Rightarrow\\cos\\dfrac{4\\pi t}{25}=1\\Rightarrow\\dfrac{4\\pi t}{25}=2\\pi\\Rightarrow t=12.5$. The water is next at $10$ m at $12.5$ hours after noon, i.e. 12:30 am."
+  },
+  {
+   "ref": "Q29(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "The depth of water (in metres) in a lagoon is $D=8+2\\cos\\left(\\dfrac{4\\pi t}{25}\\right)$ for $0\\le t\\le25$, where $t$ is the time in hours after noon. Sketch the curve, showing the maximum and minimum depths of the lagoon during the time period $0\\le t\\le25$.",
+   "answer": "Amplitude $2$, centre line $D=8$, period $\\dfrac{2\\pi}{4\\pi/25}=12.5$ h. Maximum depth $10$ m (at $t=0,\\,12.5,\\,25$); minimum depth $6$ m (at $t=6.25,\\,18.75$).",
+   "answer_images": [
+    "assets/img/adv-2025-glenwood/a29.png"
+   ]
+  },
+  {
+   "ref": "Q30(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.3.8"
+   ],
+   "question": "In a science experiment, a robot arm attempts to successfully pick up a small object. The probability that the robot arm successfully picks up the object on any single attempt is $\\dfrac14$. What is the probability that the robot arm successfully picks up the object on the third attempt only, after failing the first two attempts?",
+   "answer": "$P=\\dfrac34\\times\\dfrac34\\times\\dfrac14=\\dfrac{9}{64}$."
+  },
+  {
+   "ref": "Q30(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.3.8"
+   ],
+   "question": "The probability that a robot arm successfully picks up an object on any single attempt is $\\dfrac14$ (attempts are independent). What is the probability that the robot arm is unsuccessful in the first four attempts?",
+   "answer": "$P=\\left(\\dfrac34\\right)^4=\\dfrac{81}{256}$."
+  },
+  {
+   "ref": "Q30(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.7.3.8",
+    "11.5.2.9"
+   ],
+   "question": "The probability that a robot arm successfully picks up an object on any single attempt is $\\dfrac14$ (attempts are independent). Determine the minimum number of attempts required so that the probability of at least one successful pick-up exceeds $0.95$.",
+   "answer": "$P(\\text{at least one success in }n)=1-\\left(\\dfrac34\\right)^n>0.95\\Rightarrow\\left(\\dfrac34\\right)^n<0.05$.\n$n\\ln\\dfrac34<\\ln0.05\\Rightarrow n>\\dfrac{\\ln0.05}{\\ln0.75}=10.4\\ldots$ (the inequality reverses as $\\ln0.75<0$).\nThe minimum number of attempts is $11$."
+  },
+  {
+   "ref": "Q31(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.7.2",
+    "12.5.3.9"
+   ],
+   "question": "A particle is moving along the $x$-axis such that at a time $t$ seconds its displacement from the origin is $x$ metres. The acceleration of the particle is given by $a=\\dfrac{8}{e^{2t}}+\\dfrac{3}{e^t}$. Initially its velocity is $-6$ m/s and its displacement is $5$ m. Find the equation for the displacement ($x$) of the particle in terms of $t$.",
+   "answer": "$a=8e^{-2t}+3e^{-t}$, so $v=-4e^{-2t}-3e^{-t}+C$. $v(0)=-6$: $-4-3+C=-6\\Rightarrow C=1$, so $v=1-4e^{-2t}-3e^{-t}$.\n$x=2e^{-2t}+3e^{-t}+t+D$. $x(0)=5$: $2+3+D=5\\Rightarrow D=0$.\n$$x=2e^{-2t}+3e^{-t}+t$$"
+  },
+  {
+   "ref": "Q31(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.9",
+    "12.5.3.10"
+   ],
+   "question": "A particle moves along the $x$-axis with velocity $v=1-4e^{-2t}-3e^{-t}$ and displacement $x=2e^{-2t}+3e^{-t}+t$ (metres, $t$ in seconds). At what time and where does the particle come to rest?",
+   "answer": "$v=0$: $1-4e^{-2t}-3e^{-t}=0$. Let $u=e^{-t}$: $4u^2+3u-1=0\\Rightarrow(4u-1)(u+1)=0$. Since $u>0$, $u=\\dfrac14$, so $e^{-t}=\\dfrac14$ and $t=\\ln4\\approx1.39$ s.\n$x=2\\left(\\dfrac1{16}\\right)+3\\left(\\dfrac14\\right)+\\ln4=\\dfrac78+\\ln4\\approx2.26$ m."
+  },
+  {
+   "ref": "Q32",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.3",
+    "12.5.2.4"
+   ],
+   "question": "A municipal park needs a cylindrical water tank that holds $2\\ \\text{m}^3$ of water. The tank will have a flat top and bottom and the cost of the metal for all surfaces is the same per square metre. Let the radius of the tank be $r$ and its height be $h$. Find the relationship between $r$ and $h$ that would minimise the surface area of the tank.",
+   "answer": "$V=\\pi r^2h=2\\Rightarrow h=\\dfrac{2}{\\pi r^2}$.\n$$A=2\\pi r^2+2\\pi rh=2\\pi r^2+\\frac4r$$\n$\\dfrac{dA}{dr}=4\\pi r-\\dfrac{4}{r^2}=0\\Rightarrow r^3=\\dfrac1\\pi$. $\\dfrac{d^2A}{dr^2}=4\\pi+\\dfrac{8}{r^3}>0$, so this is a minimum.\nThen $h=\\dfrac{2}{\\pi r^2}=\\dfrac{2r}{\\pi r^3}=2r$. The surface area is minimised when $h=2r$."
+  },
+  {
+   "ref": "Q33",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.8.5",
+    "12.4.8.6"
+   ],
+   "question": "The graphs of $y=2x-3$ and $y=\\sqrt{\\dfrac x2}$ intersect at point $A$ as shown in the diagram. Find the area of the shaded region.",
+   "answer": "Intersection: $(2x-3)^2=\\dfrac x2\\Rightarrow8x^2-25x+18=0\\Rightarrow x=2$ or $x=\\dfrac98$. Since $2x-3\\ge0$ is needed, $x=2$ and $A=(2,1)$. The line meets the $x$-axis at $\\left(\\dfrac32,0\\right)$.\nThe shaded region lies under the curve from $x=0$ to $x=2$, excluding the triangle under the line from $x=\\dfrac32$ to $x=2$:\n$$\\text{Area}=\\int_0^2\\sqrt{\\frac x2}\\,dx-\\int_{3/2}^2(2x-3)\\,dx=\\frac{1}{\\sqrt2}\\cdot\\frac23\\Big[x^{3/2}\\Big]_0^2-\\Big[x^2-3x\\Big]_{3/2}^2=\\frac43-\\frac14=\\frac{13}{12}$$",
+   "images": [
+    "assets/img/adv-2025-glenwood/q33.png"
+   ]
+  }
+ ]
+}
