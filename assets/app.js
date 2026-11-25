@@ -522,7 +522,7 @@
       const ans = `<div class="ans"><div class="ans-label">${ansLabelOf(q)}${q.kind === "mc" && q.correct ? " — " + q.correct : ""}</div><div class="ans-body">${md(q.answer)}${(q.answer_images || []).map((s) => `<img src="${esc(s)}">`).join("")}</div></div>`;
       h += `<div class="pq"><div class="pq-head">Question ${i + 1} <span>(${q.marks} mark${q.marks === 1 ? "" : "s"})</span></div><div class="q-body">${md(q.question)}${imgs}</div>${opts}`
         + (showSrc ? `<div class="src">Source: ${q.mine ? "Your question" : q.source ? esc(q.source) : esc(q._paper.label) + ", " + esc(q.ref)}</div>` : "")
-        + (space !== "none" && q.kind === "written" && ansMode !== "inline" ? `<div class="work ${space}"></div>` : "")
+        + (space !== "none" && q.kind === "written" && ansMode !== "inline" ? `<div class="work ${space}${document.getElementById("pdf-lines").value === "lined" ? " lined" : ""}"></div>` : "")
         + (ansMode === "inline" ? ans : "") + `</div>`;
     });
     if (ansMode === "end") {

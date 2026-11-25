@@ -63,6 +63,7 @@
       <div class="field grow"><label class="lab" for="pdf-title">Title</label><input type="text" id="pdf-title" placeholder="Saved questions"></div>
       <div class="field"><label class="lab" for="pdf-answers">Answers</label><select id="pdf-answers"><option value="end">Answer key at the end</option><option value="inline">Under each question</option><option value="none">No answers</option></select></div>
       <div class="field"><label class="lab" for="pdf-space">Working space</label><select id="pdf-space"><option value="none">None</option><option value="s">Small</option><option value="l">Large</option></select></div>
+      <div class="field"><label class="lab" for="pdf-lines">Working space style</label><select id="pdf-lines"><option value="blank">Blank</option><option value="lined">Ruled lines</option></select></div>
       <div class="field"><label class="lab" for="pdf-order">Order</label><select id="pdf-order"><option value="page">Same as the list below</option><option value="diff">Easy → hard</option></select></div>
     </div>
     <div class="row"><label class="switch"><input type="checkbox" id="pdf-src" checked> Show source of each question</label><span class="soft">Pick questions with “Include in PDF” below, or <button type="button" class="linkish" id="pick-all">select all</button> / <button type="button" class="linkish" id="pick-none">none</button>.</span><span style="flex:1"></span><span class="soft" id="pdf-count"></span><button type="button" class="btn primary" id="make-pdf">Generate PDF</button></div>

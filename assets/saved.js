@@ -201,7 +201,7 @@
       const prevH = prev.length ? `<div class="p-prev">${prev.map((x) => `<div><b>${esc(x.ref)}</b> ${md(x.question)}${(x.images || []).map((s) => `<img src="${esc(s)}">`).join("")}</div>`).join("")}</div>` : "";
       h += `<div class="pq"><div class="pq-head">Question ${i + 1} <span>(${q.marks} mark${q.marks === 1 ? "" : "s"})</span></div>${prevH}<div class="q-body">${md(q.question)}${imgs}</div>${opts}`
         + (showSrc ? `<div class="src">${courses.length > 1 ? esc(NAMES[q.course]) + " · " : ""}Source: ${esc(q._src)}</div>` : "")
-        + (space !== "none" && q.kind !== "mc" && ansMode !== "inline" ? `<div class="work ${space}"></div>` : "")
+        + (space !== "none" && q.kind !== "mc" && ansMode !== "inline" ? `<div class="work ${space}${document.getElementById("pdf-lines").value === "lined" ? " lined" : ""}"></div>` : "")
         + (ansMode === "inline" ? ans : "") + `</div>`;
     });
     if (ansMode === "end") {
