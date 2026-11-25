@@ -1,0 +1,911 @@
+{
+ "id": "phys-2021-james-ruse",
+ "course": "physics",
+ "school": "James Ruse",
+ "year": 2021,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "6528",
+  "title": "James Ruse 2021 w. sol"
+ },
+ "indexed": "2026-11-25",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q34(c)",
+   "reason": "Year 11 content (not examined in the HSC): conservation of momentum after an explosion"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.1",
+    "12.7.2.3"
+   ],
+   "question": "Figure 1 (black body radiation curves at different temperatures) and Figure 2 (waves passing through a double slit, with interference maxima and minima) illustrate two pieces of experimental evidence.\n\nWhich model of light does the evidence in each figure support?",
+   "options": [
+    "Figure 1: wave; Figure 2: particle",
+    "Figure 1: wave; Figure 2: wave",
+    "Figure 1: particle; Figure 2: particle",
+    "Figure 1: particle; Figure 2: wave"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/phys-2021-james-ruse/q1.png"
+   ],
+   "answer": "Figure 1 is black body radiation, which could only be explained by Planck's quantum (particle) model; Figure 2 is double-slit interference, which supports the wave model."
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.4.2"
+   ],
+   "question": "The graph shows the activity of Indium-116 as a function of time.\n\nWhat is the half-life and decay constant of this isotope?",
+   "options": [
+    "Half-life 13 s; decay constant $18.76\\ \\text{s}^{-1}$",
+    "Half-life 35 s; decay constant $50.49\\ \\text{s}^{-1}$",
+    "Half-life 13 s; decay constant $0.053\\ \\text{s}^{-1}$",
+    "Half-life 35 s; decay constant $0.020\\ \\text{s}^{-1}$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/phys-2021-james-ruse/q2.png"
+   ],
+   "answer": "The activity falls from 160 to 80 disintegrations/s (half of the initial value) at about 13 s, so $t_{1/2}\\approx 13$ s. Then $\\lambda=\\dfrac{\\ln 2}{t_{1/2}}=\\dfrac{0.693}{13}\\approx 0.053\\ \\text{s}^{-1}$."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "Unpolarised light of intensity $I_0$ passes through two polarising filters in turn, and the intensity of the transmitted light is then measured to be $\\dfrac{I_0}{4}$.\n\nWhat is the angle between the transmission axes of the two polarising filters?",
+   "options": [
+    "$30^\\circ$",
+    "$45^\\circ$",
+    "$60^\\circ$",
+    "$90^\\circ$"
+   ],
+   "correct": "B",
+   "answer": "The first filter transmits half of the unpolarised light: $I_1=\\dfrac{I_0}{2}$. By Malus' law $I_2=I_1\\cos^2\\theta$, so $\\dfrac{I_0}{4}=\\dfrac{I_0}{2}\\cos^2\\theta$, $\\cos^2\\theta=\\dfrac12$, $\\theta=45^\\circ$.\n(Note: the original wording said the filters were 'crossed', which would give zero intensity; that word has been removed.)"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.4.1"
+   ],
+   "question": "A square coil carrying a current of 1 A, with sides of 10 cm and 50 turns, is free to pivot about point P in a uniform magnetic field of 1.2 T (field direction from the S pole to the N pole of the magnets, i.e. horizontal). The end-on view shows the coil's plane making an angle of $60^\\circ$ with the horizontal field.\n\nWhen the coil is at the angle shown, what is the torque on the coil?",
+   "options": [
+    "0.3 N m",
+    "0.5 N m",
+    "30 N m",
+    "50 N m"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/phys-2021-james-ruse/q4.png"
+   ],
+   "answer": "$\\tau=nIAB\\sin\\theta$ where $\\theta$ is the angle between the field and the normal to the coil. The plane is at $60^\\circ$ to the field, so the normal is at $30^\\circ$.\n$\\tau=50\\times1\\times(0.10)^2\\times1.2\\times\\sin30^\\circ=0.3\\ \\text{N m}$."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.2.2"
+   ],
+   "question": "An alpha particle is fired at a thin piece of gold foil and passes close to a gold nucleus. As it approaches the gold nucleus, which one of the following is true about the electric potential energy of the system and the magnitude of the momentum of the alpha particle?",
+   "options": [
+    "Potential energy decreases; momentum unchanged",
+    "Potential energy increases; momentum decreases",
+    "Potential energy decreases; momentum decreases",
+    "Potential energy increases; momentum unchanged"
+   ],
+   "correct": "B",
+   "answer": "Both are positively charged, so the repulsive electric force does negative work on the approaching alpha particle: the electric potential energy of the system increases and the alpha particle's kinetic energy, and hence its momentum, decreases."
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.4.1",
+    "12.8.4.4"
+   ],
+   "question": "A radioactive nucleus is formed by $\\beta^-$ decay. The nucleus then decays by $\\alpha$ decay.\n\nWhich graph of nucleon number $N$ plotted against proton number $Z$ shows the $\\beta^-$ decay followed by $\\alpha$ decay?",
+   "options": [
+    "![Graph A](assets/img/phys-2021-james-ruse/q6a.png)",
+    "![Graph B](assets/img/phys-2021-james-ruse/q6b.png)",
+    "![Graph C](assets/img/phys-2021-james-ruse/q6c.png)",
+    "![Graph D](assets/img/phys-2021-james-ruse/q6d.png)"
+   ],
+   "correct": "B",
+   "answer": "In $\\beta^-$ decay a neutron becomes a proton: $Z$ increases by 1 and the nucleon number is unchanged (arrow to the right). In $\\alpha$ decay $Z$ decreases by 2 and $N$ by 4 (arrow to the lower left, ending at $Z$ down 2, $N$ down 4). Only graph B shows this."
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.2.3"
+   ],
+   "question": "A student is investigating the force between two parallel current-carrying wires of equal length. With a particular experimental setup, the student measures a force of $F$ newtons.\n\nWhich of the following changes to the experiment would produce the force described?\n\n| | Change to experimental design | Force produced |\n|---|---|---|\n| A | reverse the direction of one of the currents | $F/2$ |\n| B | double the length of one wire | $F$ |\n| C | double each current | $2F$ |\n| D | halve the distance between the wires | $4F$ |",
+   "options": [
+    "Reverse the direction of one of the currents: force $F/2$",
+    "Double the length of one wire: force $F$",
+    "Double each current: force $2F$",
+    "Halve the distance between the wires: force $4F$"
+   ],
+   "correct": "B",
+   "answer": "$\\dfrac{F}{l}=\\dfrac{\\mu_0}{2\\pi}\\dfrac{I_1I_2}{r}$, where $l$ is the length over which the wires overlap. Doubling the length of one wire does not change the overlapping length, so the force stays $F$. Reversing a current reverses the force direction but not its size (so not $F/2$); doubling each current gives $4F$; halving the distance gives $2F$."
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.3.5"
+   ],
+   "question": "Which of the following is a contribution that Schrodinger made to the current model of the atom?",
+   "options": [
+    "Postulated that electrons exist as standing waves with quantised angular momentum which explains their unusual stability.",
+    "Developed a mathematical model called matrix mechanics to simultaneously determine the position and momentum of a particle.",
+    "Developed a mathematical model called wave mechanics which can be used to describe the likelihood of finding an electron in a certain position.",
+    "Proposed that no two electrons in the same quantum system can simultaneously have the same set of four quantum numbers."
+   ],
+   "correct": "C",
+   "answer": "Schrodinger developed wave mechanics, whose wave function gives the probability of finding an electron at a given position. (A is Bohr/de Broglie, B is Heisenberg, D is Pauli.)"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "The length and height of a train carriage are measured to be $L=5$ m and $H=2.5$ m respectively by an observer at rest with respect to the carriage.\n\nAnother observer measures the length $L'$ and height $H'$ of the same carriage as it moves past him at a speed of $v=0.8c$ (along its length) as shown in the diagram.\n\nWhich of the following correctly describes this observer's measurements?",
+   "options": [
+    "$L'=5$ m, $H'=1.5$ m",
+    "$L'=5$ m, $H'=2.5$ m",
+    "$L'=3$ m, $H'=2.5$ m",
+    "$L'=3$ m, $H'=1.5$ m"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/phys-2021-james-ruse/q9.png"
+   ],
+   "answer": "Length contraction occurs only along the direction of motion: $L'=L\\sqrt{1-v^2/c^2}=5\\times0.6=3$ m. The height is perpendicular to the motion and is unchanged: $H'=2.5$ m."
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "A rider in the \"rotor\" at an amusement park finds herself stuck with her back to the wall as the floor gradually falls away while the rotor reaches its optimum safe speed (diagram shown).\n\nWhich diagram correctly shows the forces acting on her?",
+   "options": [
+    "![Diagram A](assets/img/phys-2021-james-ruse/q10a.png)",
+    "![Diagram B](assets/img/phys-2021-james-ruse/q10b.png)",
+    "![Diagram C](assets/img/phys-2021-james-ruse/q10c.png)",
+    "![Diagram D](assets/img/phys-2021-james-ruse/q10d.png)"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/phys-2021-james-ruse/q10.png"
+   ],
+   "answer": "Vertically she does not accelerate, so friction (up) balances her weight (down). Horizontally the wall's normal force points towards the axis and provides the centripetal force. There is no outward force on her (centrifugal force is not a real force). Diagram A."
+  },
+  {
+   "ref": "Q11",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.4",
+    "12.6.3.5"
+   ],
+   "question": "The electrical substation at Carlingford contains a number of transformers as part of the electricity supply to local households, schools and businesses (they step the high transmission voltage down).\n\nWhich of the following diagrams provides a model for these transformers?",
+   "options": [
+    "![Diagram A](assets/img/phys-2021-james-ruse/q11a.png)",
+    "![Diagram B](assets/img/phys-2021-james-ruse/q11b.png)",
+    "![Diagram C](assets/img/phys-2021-james-ruse/q11c.png)",
+    "![Diagram D](assets/img/phys-2021-james-ruse/q11d.png)"
+   ],
+   "correct": "D",
+   "answer": "A step-down transformer has fewer turns on the secondary than the primary (primary on the right with more turns in B and D). Eddy currents in the core are reduced by laminating it with the laminations parallel to the flux path (the sheets lying in the plane of the core loop, 'vertical laminations') so the eddy-current loops are cut. Only D has both features."
+  },
+  {
+   "ref": "Q12",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "To safely negotiate curved sections of road at some critical speed, roads are usually banked, as shown (road inclined at angle $\\theta$ to the horizontal, car on the incline).\n\nWhich of the following statements is correct?",
+   "options": [
+    "A component of the normal reaction force provides the frictional force, parallel to the inclined plane of the road.",
+    "At speeds lower than the critical speed, the car will tend to slide up the inclined plane of the road, while the frictional force acts down the plane.",
+    "A component of the normal reaction force provides the centripetal force, directed towards the centre of the curved section of the road.",
+    "At speeds greater than the critical speed, the car will tend to slide down the inclined plane of the road, while the frictional force acts up the plane."
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/phys-2021-james-ruse/q12.png"
+   ],
+   "answer": "On a banked road the horizontal component of the normal reaction (together with any friction component) provides the net force directed towards the centre of the curve, i.e. the centripetal force. (Below the critical speed the car tends to slide down the incline and friction acts up it; above it, the car tends to slide up and friction acts down.)"
+  },
+  {
+   "ref": "Q13",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.3"
+   ],
+   "question": "The diagram shows a screenshot from a simulation of the photoelectric effect. The voltage has been adjusted to the value with the smallest magnitude so that there is no current between the cathode and anode. The light has wavelength 210 nm and the voltage reading is $-1.59$ V.\n\nUsing the information provided in the diagram, the work function of the metal is:",
+   "options": [
+    "1.59 eV",
+    "4.32 eV",
+    "5.91 eV",
+    "7.50 eV"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/phys-2021-james-ruse/q13.png"
+   ],
+   "answer": "At the stopping voltage $K_{\\max}=1.59$ eV. Photon energy $E=\\dfrac{hc}{\\lambda}=\\dfrac{1240\\ \\text{eV nm}}{210\\ \\text{nm}}=5.91$ eV. Then $\\phi=E-K_{\\max}=5.91-1.59=4.32$ eV."
+  },
+  {
+   "ref": "Q14",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.5",
+    "12.5.3.2"
+   ],
+   "question": "Figure 1 shows satellite A in an elliptical orbit around Earth. The velocity of satellite A at two locations, X and Y, is shown using vectors. Figure 2 shows satellite B in a circular orbit around Earth. The velocity of satellite B at two locations P and Q is also shown using vectors.\n\nWhich of the following correctly describes the work done by the force of gravity on satellite A as it moves between positions X and Y, and the work done on satellite B as it moves between positions P and Q?",
+   "options": [
+    "A: non-zero; B: zero",
+    "A: non-zero; B: non-zero",
+    "A: zero; B: zero",
+    "A: zero; B: non-zero"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/phys-2021-james-ruse/q14.png"
+   ],
+   "answer": "In the elliptical orbit the speed (kinetic energy) differs at X and Y (the vectors have different lengths), so gravity does non-zero work between them. In the circular orbit the speed is constant and gravity is always perpendicular to the motion, so the work done is zero."
+  },
+  {
+   "ref": "Q15",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.4.3",
+    "12.6.3.2"
+   ],
+   "question": "An electromagnetic brake is shown, with the disc rotating in a clockwise direction.\n\nWhich of the following correctly describes the eddy current at X and the vector quantity Y, as shown on the diagram?",
+   "options": [
+    "Eddy current clockwise; Y is a force",
+    "Eddy current clockwise; Y is a torque",
+    "Eddy current anticlockwise; Y is a force",
+    "Eddy current anticlockwise; Y is a torque"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/phys-2021-james-ruse/q15.png"
+   ],
+   "answer": "The field between the poles passes through the disc (from the N pole to the S pole, away from the viewer). The disc material at X is moving out of the region of strong field, so the flux through it is decreasing; by Lenz's law the eddy current flows to oppose this loss, i.e. clockwise (to produce a field in the same direction as the decreasing field). Y is a force: the magnetic force on the eddy current opposes the motion (Lenz's law), which brakes the disc."
+  },
+  {
+   "ref": "Q16",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.1.7",
+    "12.8.1.6"
+   ],
+   "question": "Consider the Hertzsprung-Russell diagram with 4 star groups labelled A, B, C and D (A: main sequence, B: red giants, C: supergiants, D: white dwarfs).\n\nIdentify the star groups where the following predominantly occur:\n\n(i) p-p chain reaction: $4\\,{}^1_1\\text{H}\\rightarrow{}^4_2\\text{He}+2\\,{}^{\\ 0}_{+1}e+2\\nu+2\\gamma$\n\n(ii) Triple-alpha reaction: ${}^4_2\\text{He}+{}^4_2\\text{He}\\rightarrow{}^8_4\\text{Be}+\\gamma$ and ${}^4_2\\text{He}+{}^8_4\\text{Be}\\rightarrow{}^{12}_6\\text{C}+\\gamma$",
+   "options": [
+    "p-p chain: A; triple-alpha: A and C",
+    "p-p chain: D; triple-alpha: B and C",
+    "p-p chain: A; triple-alpha: B and C",
+    "p-p chain: D; triple-alpha: A and C"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/phys-2021-james-ruse/q16.png"
+   ],
+   "answer": "The p-p chain (hydrogen fusion) is the main energy source of main sequence stars (A). The triple-alpha process (helium fusion) occurs in post-main-sequence stars: red giants (B) and supergiants (C)."
+  },
+  {
+   "ref": "Q17",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.5",
+    "12.5.3.2"
+   ],
+   "question": "Two satellites, A and B, of equal mass $m$, orbit the Earth at altitudes of $R$ and $3R$ respectively, where $R$ is the radius of the Earth.\n\nWhich row of the table is a correct comparison of the satellites' gravitational potential energy $U$ and orbital velocity $v$?",
+   "options": [
+    "$U_A=3U_B$ and $v_A=\\sqrt3\\,v_B$",
+    "$U_A=2U_B$ and $v_A=\\sqrt3\\,v_B$",
+    "$U_A=3U_B$ and $v_A=\\sqrt2\\,v_B$",
+    "$U_A=2U_B$ and $v_A=\\sqrt2\\,v_B$"
+   ],
+   "correct": "D",
+   "answer": "The orbital radii (from Earth's centre) are $r_A=2R$ and $r_B=4R$. $U=-\\dfrac{GMm}{r}$ so $\\dfrac{U_A}{U_B}=\\dfrac{r_B}{r_A}=2$. $v=\\sqrt{\\dfrac{GM}{r}}$ so $\\dfrac{v_A}{v_B}=\\sqrt{\\dfrac{4R}{2R}}=\\sqrt2$."
+  },
+  {
+   "ref": "Q18",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.3.2",
+    "12.6.3.1"
+   ],
+   "question": "In a famous magic trick, a magician stands inside a metal ring attached to a lightweight curtain. The magician throws the ring into the air (1), and is momentarily hidden by the curtain (2). When the curtain falls down again, the magician has been replaced by a rabbit (3).\n\nWhich of the following graphs is consistent with the predicted emf induced by the movement of the ring in the Earth's magnetic field?",
+   "options": [
+    "![Graph A](assets/img/phys-2021-james-ruse/q18a.png)",
+    "![Graph B](assets/img/phys-2021-james-ruse/q18b.png)",
+    "![Graph C](assets/img/phys-2021-james-ruse/q18c.png)",
+    "![Graph D](assets/img/phys-2021-james-ruse/q18d.png)"
+   ],
+   "correct": "C",
+   "answer": "While the ring is in free flight in the (essentially uniform) Earth's field with its orientation unchanged, the magnetic flux through it does not change, so by Faraday's law the induced emf is zero. (The graph with emf constant at zero.)"
+  },
+  {
+   "ref": "Q19",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.1.1"
+   ],
+   "question": "Two rollercoaster designs are frictionless and identical in shape everywhere except between positions $x_1$ and $x_2$. Between these positions, rollercoaster A has a hill of height $H$, whereas on rollercoaster B the cart leaves the track and flies through the air before landing safely on the other side. In both designs the cart starts from rest at height $H$ as shown.\n\nWhich of the following correctly describes the maximum height that the carts in rollercoaster A and B reach between positions $x_1$ and $x_2$?",
+   "options": [
+    "A: equal to H; B: equal to H",
+    "A: equal to H; B: less than H",
+    "A: less than H; B: equal to H",
+    "A: less than H; B: less than H"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/phys-2021-james-ruse/q19.png"
+   ],
+   "answer": "In A the cart can just reach the top of the hill at height $H$ (all its energy is potential there). In B the cart leaves the track as a projectile with a horizontal velocity component, which remains at the top of its flight, so some energy is still kinetic and it cannot reach height $H$: its maximum height is less than $H$."
+  },
+  {
+   "ref": "Q20",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.5"
+   ],
+   "question": "A probe is launched vertically upwards from the surface of a planet of radius $R$ with speed equal to three quarters of the escape speed for that planet.\n\nIn terms of $R$, what is the maximum height, from the surface of the planet, reached by the probe? Ignore air resistance.",
+   "options": [
+    "$\\dfrac{16}{7}R$",
+    "$\\dfrac{9}{16}R$",
+    "$\\dfrac{9}{7}R$",
+    "$\\dfrac{23}{9}R$"
+   ],
+   "correct": "C",
+   "answer": "$v_{esc}^2=\\dfrac{2GM}{R}$, so $v^2=\\dfrac{9}{16}\\cdot\\dfrac{2GM}{R}=\\dfrac{9GM}{8R}$. Energy conservation: $\\tfrac12v^2-\\dfrac{GM}{R}=-\\dfrac{GM}{r}$, so $\\dfrac{9GM}{16R}-\\dfrac{GM}{R}=-\\dfrac{7GM}{16R}=-\\dfrac{GM}{r}$, giving $r=\\dfrac{16}{7}R$. Height $=r-R=\\dfrac97R$."
+  },
+  {
+   "ref": "Q21(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.8.1.4"
+   ],
+   "question": "The two spectra shown (A: a smooth, unbroken band of colours from red to violet; B: a dark background with a few discrete coloured lines) are of different types. Name the two types of spectra.",
+   "images": [
+    "assets/img/phys-2021-james-ruse/q21.png"
+   ],
+   "answer": "A: continuous (black body) spectrum. B: (line) emission spectrum."
+  },
+  {
+   "ref": "Q21(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.1.4",
+    "12.8.1.4"
+   ],
+   "question": "The image shows a continuous spectrum (A) and a line emission spectrum (B). Describe how these two spectra can be produced and observed in a science classroom.",
+   "images": [
+    "assets/img/phys-2021-james-ruse/q21.png"
+   ],
+   "answer": "Continuous spectrum: pass a current through an incandescent (tungsten) filament lamp so it heats up and glows; its light contains all wavelengths (alternatively, view sunlight reflected from a white surface).\nEmission spectrum: apply a high voltage across a discharge (spectral) tube containing a low-pressure gas (e.g. hydrogen); the excited atoms emit light only at specific wavelengths.\nObservation: view each light source through a diffraction grating (or a spectroscope); different wavelengths are diffracted to different angles, spreading the light into its spectrum."
+  },
+  {
+   "ref": "Q22(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "The diagram shows a \"light clock\", in which light travels from an emitter to a mirror a distance $L_0$ and back along the same path to a detector.\n\nWrite down an expression for the time, $t_0$, taken by light to travel from the emitter to the mirror and back, as measured by an observer in the same reference frame as the clock.",
+   "images": [
+    "assets/img/phys-2021-james-ruse/q22a.png"
+   ],
+   "answer": "$t_0=\\dfrac{2L_0}{c}$"
+  },
+  {
+   "ref": "Q22(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "In a thought experiment, an observer with a light clock (distance $L_0$ between emitter/detector and mirror) observes a second, identical light clock moving at speed $v$ to the right (the diagram shows the light's path in the moving clock). Explain why the observer will see light take longer to travel from the emitter to the mirror and back on the moving clock than the time it takes light to travel this path in a stationary clock.",
+   "images": [
+    "assets/img/phys-2021-james-ruse/q22b.png"
+   ],
+   "answer": "The speed of light is the same, $c$, in all inertial frames, so light moves at $c$ in both the observer's clock and the moving clock. In the observer's frame the moving clock moves sideways while the light is travelling, so the light follows a longer diagonal path (up to the mirror and down to the displaced detector) than the straight path $2L_0$ in the stationary clock. Using $t=\\dfrac{d}{c}$ with the same $c$ but a greater distance, the observer measures a longer time between emission and detection (a longer 'tick') for the moving clock."
+  },
+  {
+   "ref": "Q22(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "In a thought experiment, an observer sees a light clock moving at speed $v$ take longer for light to travel from the emitter to the mirror and back than an identical stationary light clock. Name the effect predicted by this thought experiment.",
+   "answer": "Time dilation."
+  },
+  {
+   "ref": "Q22(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "Describe ONE way in which time dilation has been validated experimentally.",
+   "answer": "Muon experiment (Rossi and Hall, 1941): muons are produced by cosmic rays in the upper atmosphere and have a rest lifetime of only $2.2\\ \\mu$s. Travelling at about $0.994c$, they should on average decay before reaching low altitude, yet far more were detected at the lower altitude (Denver) than predicted without relativity. The result is explained by time dilation: in Earth's frame the muons' lifetime is lengthened, so more survive.\n(Alternative: Hafele and Keating, 1971, flew atomic clocks around the world on aircraft; compared with clocks left on the ground, the moving clocks showed a time difference consistent with the predictions of special relativity.)"
+  },
+  {
+   "ref": "Q23(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.8.2.2"
+   ],
+   "question": "Outline the key features of the Rutherford model of the atom.",
+   "answer": "A small, dense, positively charged nucleus at the centre contains nearly all the mass of the atom; negatively charged electrons orbit the nucleus at a distance; the atom is mostly empty space. (There are no neutrons in Rutherford's model.)"
+  },
+  {
+   "ref": "Q23(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.3.1"
+   ],
+   "question": "Explain how the Bohr model of the atom overcomes an identified limitation of the Rutherford model of the atom.",
+   "answer": "Limitation: in Rutherford's model the orbiting electrons are accelerating (centripetal acceleration) so, according to classical electromagnetism, they should continuously radiate energy and spiral into the nucleus, making the atom unstable; the model also cannot explain the discrete line spectra of hydrogen.\nBohr postulated that electrons orbit in fixed, stationary, quantised energy levels (shells) in which they do not radiate energy, so they do not spiral in. When an electron drops from a higher level to a lower level it emits a photon of energy $E=hf$ equal to the difference in energy of the levels, which explains the discrete frequencies of the emission lines."
+  },
+  {
+   "ref": "Q24(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.1.1"
+   ],
+   "question": "Electrons of different velocities are passed through a hole in plate A. A potential difference $V$ between plates A and B produces an electric field $\\vec E$; after the electrons enter the gap they slow down and stop at a stopping distance $d$ (diagram). The results are:\n\n| Electron velocity, $v$ (m s$^{-1}$) | Stopping distance, $d$ ($\\mu$m) | Square of electron velocity, $v^2$ (m$^2$ s$^{-2}$) |\n|---|---|---|\n| 1000 | 1.9 | |\n| 2000 | 8 | |\n| 3000 | 17 | |\n| 4000 | 31 | |\n| 5000 | 46 | |\n\nComplete the last column of the table.",
+   "images": [
+    "assets/img/phys-2021-james-ruse/q24.png"
+   ],
+   "answer": "| $v$ (m s$^{-1}$) | $d$ ($\\mu$m) | $v^2$ (m$^2$ s$^{-2}$) |\n|---|---|---|\n| 1000 | 1.9 | $1\\times10^{6}$ |\n| 2000 | 8 | $4\\times10^{6}$ |\n| 3000 | 17 | $9\\times10^{6}$ |\n| 4000 | 31 | $1.6\\times10^{7}$ |\n| 5000 | 46 | $2.5\\times10^{7}$ |"
+  },
+  {
+   "ref": "Q24(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.1"
+   ],
+   "question": "Electrons of different velocities enter the gap between two plates and slow to a stop. The squares of the electron velocities and stopping distances are:\n\n| $v^2$ (m$^2$ s$^{-2}$) | $1\\times10^{6}$ | $4\\times10^{6}$ | $9\\times10^{6}$ | $1.6\\times10^{7}$ | $2.5\\times10^{7}$ |\n|---|---|---|---|---|---|\n| $d$ ($\\mu$m) | 1.9 | 8 | 17 | 31 | 46 |\n\nPlot a graph of stopping distance against the square of the electron velocity and draw the line of best fit.",
+   "answer": "Plot $d$ ($\\mu$m) on the vertical axis against $v^2$ (with the multiplier inside the units, e.g. $\\times10^{6}$ m$^2$ s$^{-2}$) on the horizontal axis, with labelled axes and units, a suitable linear scale using most of the grid, all five points plotted accurately, and a straight line of best fit through the points (passing close to the origin). The graph is a straight line.",
+   "answer_images": [
+    "assets/img/phys-2021-james-ruse/q24b_ans.png"
+   ]
+  },
+  {
+   "ref": "Q24(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.1"
+   ],
+   "question": "An electron of mass $m$ and charge magnitude $q$ enters a uniform electric field of strength $E$ with velocity $v$ directed against the field's force, and slows to a stop after a distance $d$. Derive an expression for the relationship between the electron's velocity and the stopping distance in terms of the mass and charge of the electron and the electric field strength.",
+   "answer": "Work done by the electric force equals the change in kinetic energy: $W=Fd=qEd=\\Delta K=\\tfrac12mv^2$.\nSo $\\tfrac12mv^2=qEd$, giving $v^2=\\dfrac{2qEd}{m}$, or $d=\\dfrac{m}{2qE}v^2$."
+  },
+  {
+   "ref": "Q24(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.1.1"
+   ],
+   "question": "Electrons of mass $9.1\\times10^{-31}$ kg and charge magnitude $1.6\\times10^{-19}$ C enter a uniform electric field (between plates A and B, with electrons moving from A towards B) and stop after distance $d$. The relationship is $d=\\dfrac{m}{2qE}v^2$. The measurements of $d$ against $v^2$ lie on a straight line through the points $(2.5\\times10^{6}\\ \\text{m}^2\\text{s}^{-2},\\ 5\\ \\mu\\text{m})$ and $(2.25\\times10^{7}\\ \\text{m}^2\\text{s}^{-2},\\ 42\\ \\mu\\text{m})$ (best-fit line; e.g. $v^2=2.5\\times10^{7}$ gives $d=46\\ \\mu$m).\n\nUse the graph to determine the magnitude and direction of the electric field $\\vec E$ between the plates.",
+   "answer": "Gradient of the $d$ against $v^2$ graph $=\\dfrac{m}{2qE}$:\n$\\text{gradient}=\\dfrac{(42-5)\\times10^{-6}}{(22.5-2.5)\\times10^{6}}=1.85\\times10^{-12}\\ \\text{s}^2\\text{m}^{-1}$.\n$E=\\dfrac{m}{2q\\times\\text{gradient}}=\\dfrac{9.1\\times10^{-31}}{2\\times1.6\\times10^{-19}\\times1.85\\times10^{-12}}\\approx1.5\\ \\text{N C}^{-1}$ (V m$^{-1}$).\nDirection: the electrons are decelerated, so the force on them points back towards A. Since the electron is negative, the field points the opposite way: towards B, i.e. to the right (in the direction the electrons were moving)."
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.1.3",
+    "12.6.1.4"
+   ],
+   "question": "Auroras are caused by charged particles ejected from the Sun as part of the solar wind. When the charged particles come close to the Earth they spiral inwards around the Earth's magnetic field lines (diagram shows a positively charged hydrogen nucleus following a helical path as the field lines converge towards the pole).\n\nWith reference to the force(s) on the hydrogen nucleus, explain the motion of the charged particle when it is close to the Earth but before it reaches the atmosphere.",
+   "images": [
+    "assets/img/phys-2021-james-ruse/q25.png"
+   ],
+   "answer": "The moving hydrogen nucleus (a charged particle) experiences a magnetic force $F=qvB\\sin\\theta$ that is perpendicular to both its velocity and the field (right-hand rule for a positive charge).\n- The component of velocity parallel to the field produces no magnetic force, so the particle keeps moving along the field line towards the Earth.\n- The component of velocity perpendicular to the field gives a force perpendicular to the velocity, which acts as a centripetal force, so the particle moves in a circle of radius $r=\\dfrac{mv_\\perp}{qB}$.\nThe combination of uniform motion along the field line and circular motion about it gives the helical (spiral) path.\nAs the particle moves towards the pole the field gets stronger, so $r\\propto1/B$ decreases and the spiral tightens. The converging field also gives a force component opposing the motion along the field (magnetic mirror effect), reducing the pitch of the helix. Gravity and radiation losses have only a negligible effect on the particle's path here, and there is no atmosphere yet to slow it."
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.3",
+    "12.6.1.4"
+   ],
+   "question": "A positively charged hydrogen nucleus from the solar wind spirals around the Earth's magnetic field lines towards the pole. Outline qualitatively how the motion of an electron from the solar wind would differ from the motion of a hydrogen nucleus once it reaches the Earth's magnetic field.",
+   "answer": "The electron has the opposite charge, so the magnetic force is in the opposite direction: it spirals around the field line in the opposite sense (clockwise rather than anticlockwise as seen along the field) while still spiralling in towards the pole. Its charge-to-mass ratio is much larger (mass about $\\tfrac{1}{1836}$ of a proton), so for the same speed $r=\\dfrac{mv}{qB}$ is much smaller: it follows a much tighter helix."
+  },
+  {
+   "ref": "Q26",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.4.1"
+   ],
+   "question": "A toy car with a DC motor is connected to a 9 V battery. A child switches on the car while it is held in the air and the motor starts to spin freely. The car is then placed on some grass and starts to move. As grass gets caught in the axle of the wheels, the motor stops spinning. The child picks up the car and switches off the motor.\n\nDescribe the changes to back emf that occur in the motor during this time, for each stage: (i) car switched off; (ii) switched on and held in the air; (iii) moving on grass; (iv) stationary on grass; (v) switched off.",
+   "answer": "(i) Switched off (before starting): the motor is not spinning, so there is no back emf (and no supply emf).\n(ii) Switched on and spinning freely in the air: the back emf, produced by the coil rotating in the magnetic field, rises from zero to a large steady value, a little less than the 9 V supply (it varies periodically with the rotation). The net emf is small, so the current is small.\n(iii) Moving on grass: the load makes the motor slow down, so the back emf decreases significantly; the net emf and current increase (more power delivered).\n(iv) Stationary on grass: the motor is not turning, so the back emf is zero; the current is then at its maximum (risking overheating).\n(v) Switched off: no rotation, so the back emf is zero."
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.2.1"
+   ],
+   "question": "In an experiment to measure the charge of an electron, a student allows tiny oil drops to enter the space between two horizontal plates connected to a variable voltage supply (plates 7.71 mm apart). With no potential difference between the plates the student watches a drop fall at a constant speed of $0.0313$ mm s$^{-1}$.\n\nDescribe the forces acting on the oil drop as it falls (as in a free body diagram), including their directions and relative sizes.",
+   "images": [
+    "assets/img/phys-2021-james-ruse/q27.png"
+   ],
+   "answer": "Two forces act: the weight of the drop (gravity) acting downwards, and the drag force (air resistance) acting upwards. As the speed is constant, the net force is zero, so they are drawn as arrows of equal length (equal magnitude) in opposite directions."
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.2.1",
+    "12.6.1.1"
+   ],
+   "question": "In an oil drop experiment the oil drop has captured one or more electrons and is negatively charged. A potential difference is applied across two horizontal plates until the oil drop is stationary. Name the two forces now acting on the oil drop.",
+   "answer": "The electric force (due to the electric field between the plates) acting upwards on the negatively charged drop, and the gravitational force (weight) acting downwards."
+  },
+  {
+   "ref": "Q27(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.2.1",
+    "12.6.1.1"
+   ],
+   "question": "In a Millikan-style experiment, an oil drop of mass $2.93\\times10^{-15}$ kg is held stationary between two horizontal plates 7.71 mm apart when the potential difference between the plates is 346 V. Calculate the electric charge of the oil drop.",
+   "images": [
+    "assets/img/phys-2021-james-ruse/q27.png"
+   ],
+   "answer": "The drop is stationary, so the electric force equals the weight: $qE=mg$ with $E=\\dfrac{V}{d}$.\n$q=\\dfrac{mgd}{V}=\\dfrac{2.93\\times10^{-15}\\times9.8\\times7.71\\times10^{-3}}{346}=6.4\\times10^{-19}\\ \\text{C}$ (magnitude; the drop is negative)."
+  },
+  {
+   "ref": "Q27(d)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.2.1"
+   ],
+   "question": "A student carrying out Millikan's oil drop experiment obtains the following charges on the oil drops investigated: $9.6\\times10^{-19}$ C, $12.8\\times10^{-19}$ C and $3.2\\times10^{-19}$ C. State how these results support Millikan's conclusion.",
+   "answer": "Each charge is an integer multiple of the elementary charge $1.6\\times10^{-19}$ C ($6e$, $8e$ and $2e$ respectively), which supports Millikan's conclusion that charge is quantised and the electron carries a fixed minimum charge."
+  },
+  {
+   "ref": "Q28(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.4.5",
+    "12.8.4.3"
+   ],
+   "question": "The graph shows the binding energy per nucleon as a function of nucleon number. Using this diagram, account for the release of energy in fission and fusion reactions.",
+   "images": [
+    "assets/img/phys-2021-james-ruse/q28.png"
+   ],
+   "answer": "Binding energy per nucleon is a measure of how tightly the nucleons are bound; the energy equivalent of the mass defect is $E=\\Delta mc^2$. The curve rises to a maximum near iron-56 (about 8.8 MeV per nucleon).\nFusion: light nuclei (below Fe-56) join to form a heavier nucleus with a higher binding energy per nucleon. The product is more tightly bound and has less mass per nucleon than the reactants, so mass is converted to energy, which is released.\nFission: a heavy nucleus (above Fe-56) splits into two medium-mass nuclei, which have a higher binding energy per nucleon than the original nucleus. The products have a total mass less than the reactant, and the mass defect is released as energy."
+  },
+  {
+   "ref": "Q28(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.4.6"
+   ],
+   "question": "Consider one of the reactions in the proton-proton chain reaction: ${}^2_1\\text{H}+{}^1_1\\text{H}\\rightarrow{}^3_2\\text{He}+\\gamma$.\n\nThe binding energy per nucleon for deuterium (${}^2_1\\text{H}$) is 1.1 MeV and for helium-3 (${}^3_2\\text{He}$) is 2.6 MeV. Calculate the energy released in this reaction.",
+   "answer": "Total binding energy of ${}^3_2$He $=3\\times2.6=7.8$ MeV; of ${}^2_1$H $=2\\times1.1=2.2$ MeV; of ${}^1_1$H $=0$ (a single proton).\nEnergy released = BE(products) $-$ BE(reactants) $=7.8-2.2-0=5.6$ MeV."
+  },
+  {
+   "ref": "Q29",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.4.3"
+   ],
+   "question": "The diagram shows a model of nuclear fission (a neutron strikes a uranium-235 nucleus, which splits and releases three neutrons; one escapes and two go on to strike further uranium-235 nuclei, each releasing two or three neutrons). Relate this model to the concepts of controlled and uncontrolled chain reactions.",
+   "images": [
+    "assets/img/phys-2021-james-ruse/q29.png"
+   ],
+   "answer": "The model shows a neutron striking a ${}^{235}$U nucleus to initiate fission, releasing about 2-3 neutrons (and energy) per fission (neutron multiplication). One neutron escapes without causing further fission, while the other two each cause another fission.\nUncontrolled chain reaction: on average more than one neutron from each fission goes on to cause another fission (multiplication factor $k>1$, supercritical), so the number of fissions and the rate of energy release grow exponentially. This is what the model shows, with two neutrons from the first fission initiating new fissions.\nControlled chain reaction: on average exactly one neutron from each fission goes on to cause another fission ($k=1$, critical), so the reaction proceeds at a steady rate. The model would represent this if only one neutron were left to cause a further fission and the others were absorbed (e.g. by control rods) or escaped."
+  },
+  {
+   "ref": "Q30(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.3.3"
+   ],
+   "question": "Some of the energy levels in a mercury atom are: $n=4$: $-2.50$ eV; $n=3$: $-5.90$ eV; $n=2$: $-12.6$ eV; $n=1$: $-28.4$ eV.\n\nList all the possible downward electron transitions that can occur in a mercury atom (initially in the $n=1$ level) after a successful collision with an incoming 22.5 eV photon. Justify your reasoning.",
+   "answer": "Energy absorbed from $n=1$: $-28.4+22.5=-5.9$ eV, which is exactly the $n=3$ level. So the electron is excited to $n=3$ (22.5 eV $=28.4-5.9$ eV; it cannot reach $n=4$, which needs 25.9 eV, and a photon is absorbed only if its energy matches a level difference).\nFrom $n=3$ it can then de-excite by the downward transitions: $3\\rightarrow2$, $2\\rightarrow1$, and directly $3\\rightarrow1$."
+  },
+  {
+   "ref": "Q30(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.3.3",
+    "12.7.3.3"
+   ],
+   "question": "Mercury atom energy levels include $n=2$: $-12.6$ eV and $n=1$: $-28.4$ eV. A mercury lamp is used to produce light which is filtered so that only the wavelength produced by the $n=2$ to $n=1$ transition remains. Calculate the wavelength of the photon that strikes a potassium plate.",
+   "answer": "Photon energy $\\Delta E=28.4-12.6=15.8$ eV $=15.8\\times1.602\\times10^{-19}$ J.\n$\\lambda=\\dfrac{hc}{\\Delta E}=\\dfrac{6.626\\times10^{-34}\\times3\\times10^{8}}{15.8\\times1.602\\times10^{-19}}=7.85\\times10^{-8}\\ \\text{m}=78.5$ nm."
+  },
+  {
+   "ref": "Q30(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.3"
+   ],
+   "question": "Light of photon energy 15.8 eV is shone onto a potassium metal plate whose work function is 2.00 eV. Calculate the maximum velocity of any electrons liberated from the potassium plate. Ignore relativistic effects.",
+   "answer": "$K_{\\max}=hf-\\phi=15.8-2.00=13.8$ eV $=13.8\\times1.602\\times10^{-19}=2.21\\times10^{-18}$ J.\n$v=\\sqrt{\\dfrac{2K_{\\max}}{m}}=\\sqrt{\\dfrac{2\\times2.21\\times10^{-18}}{9.109\\times10^{-31}}}=2.2\\times10^{6}\\ \\text{m s}^{-1}$."
+  },
+  {
+   "ref": "Q31(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.1.3"
+   ],
+   "question": "A student standing in the rain on a windless day measures the velocity of raindrops to be $v_{RG}$ directly downwards. Another student travelling on a train moving with velocity $v_{TG}$ to the left relative to the ground observes that the apparent direction the rain is arriving from is $\\theta^\\circ$ to the vertical. Construct an equation which relates $v_{TG}$, $v_{RG}$ and the angle $\\theta$.",
+   "images": [
+    "assets/img/phys-2021-james-ruse/q31a.png"
+   ],
+   "answer": "Relative to the train the rain has horizontal speed $v_{TG}$ (towards the train's rear) and vertical speed $v_{RG}$, so $\\tan\\theta=\\dfrac{v_{TG}}{v_{RG}}$."
+  },
+  {
+   "ref": "Q31(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.1.3"
+   ],
+   "question": "Light from stars appears to arrive at an angle to its true direction because of the Earth's motion around the Sun, just as rain appears to arrive at an angle $\\theta$ to the vertical for a moving train where $\\tan\\theta=\\dfrac{v_{train}}{v_{rain}}$. The largest shift in the apparent position of a star (near the poles) is $0^\\circ0'20.5''$. The distance from Earth to the Sun is $r=1.5\\times10^{11}$ m and the Earth's orbital period is $T=365.25$ days. Showing all working, determine the speed of light from this information.",
+   "images": [
+    "assets/img/phys-2021-james-ruse/q31b.png"
+   ],
+   "answer": "Orbital speed of Earth: $v_E=\\dfrac{2\\pi r}{T}=\\dfrac{2\\pi\\times1.5\\times10^{11}}{365.25\\times24\\times3600}=2.99\\times10^{4}\\ \\text{m s}^{-1}$.\nBy analogy with the rain, the Earth's velocity plays the role of the train and light the role of the rain: $\\tan\\theta=\\dfrac{v_E}{c}$ so $c=\\dfrac{v_E}{\\tan\\theta}=\\dfrac{2.99\\times10^{4}}{\\tan(20.5'')}=\\dfrac{2.99\\times10^{4}}{9.94\\times10^{-5}}\\approx3.0\\times10^{8}\\ \\text{m s}^{-1}$."
+  },
+  {
+   "ref": "Q32(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.1.6",
+    "12.7.3.1"
+   ],
+   "question": "In the future an artificial \"ringworld\" is built around a newly discovered star (Neos): a thin cylinder of radius $R$ completely encircling Neos (Figure 1). The Sun is a G-class star; Neos is an A-class star (Figure 2, a Hertzsprung-Russell diagram on which Neos is about 10 times as luminous as the Sun). Inhabitants live on the inner face of the cylinder, which rotates at speed $v$; the radius is chosen so that the intensity of light on the inner surface is the same as on Earth.\n\nData: Earth's distance from the Sun $r_E=1.5\\times10^{11}$ m; mass of Neos $4.0\\times10^{30}$ kg; surface area of a sphere $4\\pi r^2$.\n\nShow, with working, that the intensity of light on the surface of the ringworld will be the same as the intensity on Earth if the radius of the ringworld is $R=4.7\\times10^{11}$ m.",
+   "images": [
+    "assets/img/phys-2021-james-ruse/q32a.png",
+    "assets/img/phys-2021-james-ruse/q32b.png"
+   ],
+   "answer": "From the HR diagram Neos has luminosity $L_N\\approx10L_{Sun}$. Intensity obeys an inverse square law, $I=\\dfrac{L}{4\\pi r^2}$. Equal intensities: $\\dfrac{10L_{Sun}}{4\\pi R^2}=\\dfrac{L_{Sun}}{4\\pi r_E^2}$, so $R=\\sqrt{10}\\,r_E=\\sqrt{10}\\times1.5\\times10^{11}=4.7\\times10^{11}$ m."
+  },
+  {
+   "ref": "Q32(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.1",
+    "12.8.1.5"
+   ],
+   "question": "In the future an artificial \"ringworld\" is built around a newly discovered star (Neos): a thin cylinder of radius $R$ completely encircling Neos (Figure 1). The Sun is a G-class star; Neos is an A-class star (Figure 2, a Hertzsprung-Russell diagram on which Neos is about 10 times as luminous as the Sun). Inhabitants live on the inner face of the cylinder, which rotates at speed $v$; the radius is chosen so that the intensity of light on the inner surface is the same as on Earth.\n\nData: Earth's distance from the Sun $r_E=1.5\\times10^{11}$ m; mass of Neos $4.0\\times10^{30}$ kg; surface area of a sphere $4\\pi r^2$.\n\nIdentify how the electromagnetic radiation experienced by the inhabitants of the ringworld will be different from that they would experience on Earth.",
+   "images": [
+    "assets/img/phys-2021-james-ruse/q32a.png",
+    "assets/img/phys-2021-james-ruse/q32b.png"
+   ],
+   "answer": "Neos is an A-class star, hotter than the Sun (G-class). By Wien's law $\\lambda_{\\max}=\\dfrac{b}{T}$ the peak wavelength of its radiation is shorter, so the inhabitants would receive more ultraviolet (and bluer light) than on Earth."
+  },
+  {
+   "ref": "Q32(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.5"
+   ],
+   "question": "In the future an artificial \"ringworld\" is built around a newly discovered star (Neos): a thin cylinder of radius $R$ completely encircling Neos (Figure 1). The Sun is a G-class star; Neos is an A-class star (Figure 2, a Hertzsprung-Russell diagram on which Neos is about 10 times as luminous as the Sun). Inhabitants live on the inner face of the cylinder, which rotates at speed $v$; the radius is chosen so that the intensity of light on the inner surface is the same as on Earth.\n\nData: Earth's distance from the Sun $r_E=1.5\\times10^{11}$ m; mass of Neos $4.0\\times10^{30}$ kg; surface area of a sphere $4\\pi r^2$.\n\nCalculate the escape velocity for an object at a distance $R=4.7\\times10^{11}$ m from Neos.",
+   "images": [
+    "assets/img/phys-2021-james-ruse/q32a.png",
+    "assets/img/phys-2021-james-ruse/q32b.png"
+   ],
+   "answer": "$v_{esc}=\\sqrt{\\dfrac{2GM}{R}}=\\sqrt{\\dfrac{2\\times6.67\\times10^{-11}\\times4.0\\times10^{30}}{4.7\\times10^{11}}}=3.4\\times10^{4}\\ \\text{m s}^{-1}$."
+  },
+  {
+   "ref": "Q32(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.2",
+    "12.5.2.3"
+   ],
+   "question": "In the future an artificial \"ringworld\" is built around a newly discovered star (Neos): a thin cylinder of radius $R$ completely encircling Neos (Figure 1). The Sun is a G-class star; Neos is an A-class star (Figure 2, a Hertzsprung-Russell diagram on which Neos is about 10 times as luminous as the Sun). Inhabitants live on the inner face of the cylinder, which rotates at speed $v$; the radius is chosen so that the intensity of light on the inner surface is the same as on Earth.\n\nData: Earth's distance from the Sun $r_E=1.5\\times10^{11}$ m; mass of Neos $4.0\\times10^{30}$ kg; surface area of a sphere $4\\pi r^2$.\n\nExplain how rotating the ring can provide the sensation of weight for the inhabitants and determine the speed, $v$, at which the ring should spin to produce artificial gravity that will mimic that experienced on the surface of Earth ($R=4.7\\times10^{11}$ m).",
+   "images": [
+    "assets/img/phys-2021-james-ruse/q32a.png",
+    "assets/img/phys-2021-james-ruse/q32b.png"
+   ],
+   "answer": "An inhabitant moves in a circle with the ring, so a net centripetal force towards the centre is needed. The ring's floor provides this as a normal force acting inwards (through the inhabitant's feet), and this normal force is what is felt as weight. To feel the same weight as on Earth, $N=mg$, so the centripetal acceleration must be $9.8$ m s$^{-2}$:\n$N=\\dfrac{mv^2}{R}=mg\\ \\Rightarrow\\ v=\\sqrt{Rg}=\\sqrt{4.7\\times10^{11}\\times9.8}=2.1\\times10^{6}\\ \\text{m s}^{-1}$.\n(The gravitational attraction of Neos, about $GM/R^2\\approx0.0012$ m s$^{-2}$, is negligible.)"
+  },
+  {
+   "ref": "Q32(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.3.5",
+    "12.5.3.2"
+   ],
+   "question": "In the future an artificial \"ringworld\" is built around a newly discovered star (Neos): a thin cylinder of radius $R$ completely encircling Neos (Figure 1). The Sun is a G-class star; Neos is an A-class star (Figure 2, a Hertzsprung-Russell diagram on which Neos is about 10 times as luminous as the Sun). Inhabitants live on the inner face of the cylinder, which rotates at speed $v$; the radius is chosen so that the intensity of light on the inner surface is the same as on Earth.\n\nData: Earth's distance from the Sun $r_E=1.5\\times10^{11}$ m; mass of Neos $4.0\\times10^{30}$ kg; surface area of a sphere $4\\pi r^2$.\n\nThe 'top down' view shows the ring rotating anticlockwise about Neos. Draw the trajectory (path) taken by an inhabitant who accidentally steps off the side of the ring at position X (at the bottom of the ring). Explain why the trajectory you have drawn is correct.",
+   "images": [
+    "assets/img/phys-2021-james-ruse/q32e.png",
+    "assets/img/phys-2021-james-ruse/q32a.png",
+    "assets/img/phys-2021-james-ruse/q32b.png"
+   ],
+   "answer": "The inhabitant leaves along a straight line tangent to the ring at X, in the direction they were moving just before stepping off (to the right at X for anticlockwise rotation), as shown. Their speed ($2.1\\times10^{6}$ m s$^{-1}$) is far greater than the escape velocity at that distance ($3.4\\times10^{4}$ m s$^{-1}$), so they are not bound to Neos; gravity from Neos is negligible and barely bends the path (strictly a hyperbola), and the person never returns. Once off the ring there is no centripetal force, so by Newton's first law the person continues in a straight line.",
+   "answer_images": [
+    "assets/img/phys-2021-james-ruse/q32e_ans.png"
+   ]
+  },
+  {
+   "ref": "Q33(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.4.3"
+   ],
+   "question": "Electrons with a velocity of $0.70c$ pass through a double slit and form an interference pattern. Show that the momentum of the electrons is $p=2.7\\times10^{-22}$ kg m s$^{-1}$.",
+   "answer": "Relativistic momentum: $p=\\dfrac{m_0v}{\\sqrt{1-v^2/c^2}}=\\dfrac{9.109\\times10^{-31}\\times0.70\\times3\\times10^{8}}{\\sqrt{1-0.70^2}}=\\dfrac{1.913\\times10^{-22}}{0.714}=2.7\\times10^{-22}\\ \\text{kg m s}^{-1}$.\n(The school's solution wrote $0.695$ inside the root; with $0.70c$ the factor is $\\sqrt{1-0.49}=0.714$ and the result is the same to 2 s.f.)"
+  },
+  {
+   "ref": "Q33(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.8.3.4"
+   ],
+   "question": "Electrons with velocity $0.70c$ (momentum $p=2.7\\times10^{-22}$ kg m s$^{-1}$) pass through a double slit with slit separation $d=220$ nm and arrive at a screen to form the interference pattern shown. The intensity is graphed against the angle $\\theta$ from the centre axis. The maximum marked X is the third-order maximum (the 0th, 1st and 2nd order maxima are obscured by direct transmission of the electron beam). \n\nDe Broglie proposed that matter exhibits wave-like properties according to $\\lambda=\\dfrac hp$. Describe how the data from this experiment provides qualitative evidence to support this proposal.",
+   "images": [
+    "assets/img/phys-2021-james-ruse/q33.png"
+   ],
+   "answer": "The electrons form an interference (diffraction) pattern of alternating maxima and minima on the screen. Interference and diffraction are wave properties, so the electrons (particles) are behaving as waves."
+  },
+  {
+   "ref": "Q33(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.8.3.4",
+    "12.7.2.2"
+   ],
+   "question": "Electrons with velocity $0.70c$ (momentum $p=2.7\\times10^{-22}$ kg m s$^{-1}$) pass through a double slit with slit separation $d=220$ nm and arrive at a screen to form the interference pattern shown. The intensity is graphed against the angle $\\theta$ from the centre axis. The maximum marked X is the third-order maximum (the 0th, 1st and 2nd order maxima are obscured by direct transmission of the electron beam). \n\nDe Broglie proposed that matter exhibits wave-like properties according to $\\lambda=\\dfrac hp$. Explain how the data from this experiment provides quantitative evidence to support this proposal.",
+   "images": [
+    "assets/img/phys-2021-james-ruse/q33.png"
+   ],
+   "answer": "De Broglie's prediction: $\\lambda=\\dfrac hp=\\dfrac{6.626\\times10^{-34}}{2.7\\times10^{-22}}=2.5\\times10^{-12}$ m.\nExperimental value: for a double slit, $d\\sin\\theta=n\\lambda$, and for small angles $\\lambda=\\dfrac{d\\theta}{n}$. From the graph the third-order maximum (n = 3) is at $\\theta\\approx3.3\\times10^{-5}$ rad, so $\\lambda=\\dfrac{220\\times10^{-9}\\times3.3\\times10^{-5}}{3}=2.4\\times10^{-12}$ m.\nThe wavelength measured from the interference pattern agrees with the de Broglie wavelength to within about 5%, so the data quantitatively supports de Broglie's relationship."
+  },
+  {
+   "ref": "Q34(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.1",
+    "12.5.1.2"
+   ],
+   "question": "A 1 kg explosive device is fired at an angle of $60^\\circ$ with a speed of $30$ m s$^{-1}$ into the air. Air resistance is negligible. Determine the maximum height $H$ reached by the device.",
+   "answer": "Initial vertical velocity $v_y=30\\sin60^\\circ=26$ m s$^{-1}$. At the top $v=0$: $v^2=v_y^2+2aH$, so $H=\\dfrac{0-26^2}{2\\times(-9.8)}=34$ m."
+  },
+  {
+   "ref": "Q34(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.4.4"
+   ],
+   "question": "A 1 kg explosive device is fired at $60^\\circ$ with a speed of $30$ m s$^{-1}$. At its maximum height it explodes into two pieces (A and B), each of mass $0.5$ kg. Piece A has zero velocity immediately after the explosion. Assume air resistance is negligible.\n\nApply conservation of momentum and conservation of energy to calculate the mass defect due to the conversion of chemical energy to other forms of energy during the explosion.",
+   "answer": "At the top the device moves horizontally with $v_x=30\\cos60^\\circ=15$ m s$^{-1}$ (vertical velocity is zero).\nMomentum (the explosion forces are internal and much greater than gravity): $m v_x=m_Av_A+m_Bv_B$, $1\\times15=0+0.5v_B$, so $v_B=30$ m s$^{-1}$ horizontally (it has no vertical momentum).\nKinetic energy before: $\\tfrac12(1)(15)^2=112.5$ J. After: $\\tfrac12(0.5)(30)^2+0=225$ J.\nThe extra 112.5 J comes from chemical energy, i.e. from mass converted to energy: $\\Delta m=\\dfrac{E}{c^2}=\\dfrac{112.5}{(3\\times10^{8})^2}=1.25\\times10^{-15}$ kg."
+  }
+ ]
+}
