@@ -1,0 +1,718 @@
+{
+ "id": "phys-2022-pymble",
+ "course": "physics",
+ "school": "Pymble",
+ "year": 2022,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "6528",
+  "title": "Pymble 2022 w. sol"
+ },
+ "indexed": "2026-11-25",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.1.1"
+   ],
+   "question": "A field hockey player scoops the ball up and over opposing players to pass to their teammate further up the field. The ball moves from position A to position D, as shown in the diagram. At which position(s) would the acceleration of the ball be vertically downward? (Ignore air resistance.)",
+   "answer": "Once the ball has left the stick it is a projectile: the only force acting is gravity, so its acceleration is $g=9.8\\ \\text{m s}^{-2}$ vertically downward at every point of the flight (at A, B, C and D), whatever its velocity is at that point.",
+   "options": [
+    "D only",
+    "C and D only",
+    "B, C and D only",
+    "A, B, C and D"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/phys-2022-pymble/q1.png"
+   ]
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.1"
+   ],
+   "question": "Two balls were simultaneously released from the same starting position. The black ball was dropped from rest and the white ball was projected horizontally, as shown in the diagram. The dashed lines represent equal distance intervals.\n\nWhich row of the table identifies the relative motions of the balls?",
+   "answer": "The horizontal and vertical motions are independent. Vertically both balls start from rest and accelerate at $g$, so at any instant they are at the same height (same $y$ position), have the same vertical velocity and the same vertical acceleration. Horizontally the black ball has zero velocity while the white ball moves at constant horizontal velocity, so their $x$ positions and $x$ velocities differ. This is row A.",
+   "options": [
+    "X position: different; Y position: same; Y velocities: same; X velocities: different; Y acceleration: same",
+    "X position: same; Y position: same; Y velocities: same; X velocities: same; Y acceleration: same",
+    "X position: different; Y position: different; Y velocities: different; X velocities: different; Y acceleration: different",
+    "X position: different; Y position: same; Y velocities: same; X velocities: different; Y acceleration: different"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/phys-2022-pymble/q2.png"
+   ]
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.4"
+   ],
+   "question": "A National Aeronautics and Space Administration (NASA) scientist uses a simulator to model the surface gravity of four different bodies in the Solar System. The surface gravity of each body is shown in the table.\n\n| Body | Surface gravity (m s$^{-2}$) |\n|---|---|\n| Ceres | 5.55 |\n| Icarus | 0.38 |\n| Hermes | 4.97 |\n| Pallas | 2.49 |\n\nIn the first simulation, the scientist throws a small cube with a mass of $450$ g upwards. The cube initially travels at a speed of $6.5\\ \\text{m s}^{-1}$ and reaches a maximum height of $8.5$ m. Which body is the scientist simulating?",
+   "answer": "At the maximum height the speed is zero: $v^2=u^2+2as$ gives $0=6.5^2-2g\\times8.5$, so\n$$g=\\frac{6.5^2}{2\\times8.5}=\\frac{42.25}{17}=2.49\\ \\text{m s}^{-2},$$\nwhich is the surface gravity of Pallas. (The mass of the cube is not needed.)",
+   "options": [
+    "Ceres",
+    "Icarus",
+    "Hermes",
+    "Pallas"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "A road has a curve of radius $63$ m and is banked at an angle of $12^\\circ$. The diagram shows a car approaching the curve in wet, slippery conditions.\n\nAssuming that there is no friction, calculate the maximum speed at which the car can safely make the turn.",
+   "answer": "With no friction, the horizontal component of the normal force supplies the centripetal force while its vertical component balances the weight:\n$$N\\cos\\theta=mg,\\qquad N\\sin\\theta=\\frac{mv^2}r\\ \\Rightarrow\\ \\tan\\theta=\\frac{v^2}{rg}.$$\n$$v=\\sqrt{rg\\tan\\theta}=\\sqrt{63\\times9.8\\times\\tan12^\\circ}=11.46\\ \\text{m s}^{-1}=11.46\\times3.6=41.2\\ \\text{km h}^{-1}.$$",
+   "options": [
+    "$6.07\\ \\text{km h}^{-1}$",
+    "$11.5\\ \\text{km h}^{-1}$",
+    "$36.5\\ \\text{km h}^{-1}$",
+    "$41.2\\ \\text{km h}^{-1}$"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/phys-2022-pymble/q4.png"
+   ]
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.8.1.4",
+    "12.7.1.5"
+   ],
+   "question": "What will be produced when white light is passed through a gaseous sample of an element and examined with a spectrometer?",
+   "answer": "The gas absorbs photons at the wavelengths corresponding to its own energy-level transitions from the continuous white light passing through it. The spectrum is therefore an absorption spectrum: dark lines (the absorbed wavelengths) on the coloured continuous background.",
+   "options": [
+    "an absorption spectrum that is shown as a series of dark lines on a coloured background",
+    "an emission spectrum that is shown as a series of coloured lines on a dark background",
+    "an absorption spectrum that is shown as a series of coloured lines on a dark background",
+    "an emission spectrum that is shown as a series of dark lines on a coloured background"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.4.1"
+   ],
+   "question": "Consider the current-carrying loop shown, in a uniform magnetic field $B$ directed up the page, with the current in the direction shown. How is torque created in the current-carrying loop?",
+   "answer": "Sides $WZ$ and $XY$ carry current in opposite directions, perpendicular to the field, so by $F=BIl\\sin\\theta$ and the right-hand rule the forces on them are equal in magnitude and opposite in direction: one into the page and the other out of the page. These two equal and opposite forces, acting along different lines, form a couple that produces the torque (the forces cannot both act in the same direction). Applying the right-hand rule to the diagram gives the force on $WZ$ into the page and on $XY$ out of the page.",
+   "options": [
+    "There is a force on $WZ$ out of the page and a force on $XY$ into the page.",
+    "There is a force on $WZ$ into the page and a force on $XY$ out of the page.",
+    "There is a force on $WZ$ out of the page and a force on $XY$ out of the page.",
+    "There is a force on $WZ$ into the page and a force on $XY$ into the page."
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/phys-2022-pymble/q6.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.1"
+   ],
+   "question": "A Physics teacher drew two magnetic fields and asked their students to explain the difference between the magnetic flux of each field. The two magnetic fields are shown in the diagram (each cross represents a field line into the page). Which of the following statements is correct?",
+   "answer": "Magnetic flux is proportional to the number of field lines passing through the region ($\\Phi=BA$). Both diagrams show the same number of field lines ($9$), so the flux is the same. Flux density $B=\\Phi/A$ is the number of lines per unit area, so the same flux through the smaller area means the greater flux density.",
+   "options": [
+    "The two magnetic fields show the same amount of flux, and the smaller magnetic field shows less flux density.",
+    "The two magnetic fields show different amounts of flux, and the smaller magnetic field shows less flux density.",
+    "The two magnetic fields show different amounts of flux, and the smaller magnetic field shows greater flux density.",
+    "The two magnetic fields show the same amount of flux, and the smaller magnetic field shows greater flux density."
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/phys-2022-pymble/q7.png"
+   ]
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.2.3"
+   ],
+   "question": "The diagram shows a set-up that uses three long parallel rods (A–C), each carrying a current in the direction indicated by the arrows: rod A carries $3$ A to the right, rod B carries $4$ A to the left and rod C carries $5$ A to the left. Rod A and rod B are $10$ cm apart and rod B and rod C are $20$ cm apart.\n\nWhat is the magnitude and direction of the force per unit length on rod C?",
+   "answer": "Use $\\dfrac Fl=\\dfrac{\\mu_0}{2\\pi}\\dfrac{I_1I_2}{d}$ with $\\dfrac{\\mu_0}{2\\pi}=2\\times10^{-7}\\ \\text{N A}^{-2}$.\n\nRod B (current in the same direction as C, $0.20$ m away) attracts C upward: $2\\times10^{-7}\\times\\dfrac{4\\times5}{0.20}=2\\times10^{-5}\\ \\text{N m}^{-1}$ up.\n\nRod A (current opposite to C, $0.30$ m away) repels C downward: $2\\times10^{-7}\\times\\dfrac{3\\times5}{0.30}=1\\times10^{-5}\\ \\text{N m}^{-1}$ down.\n\nNet force per unit length on C $=2\\times10^{-5}-1\\times10^{-5}=1\\times10^{-5}\\ \\text{N m}^{-1}$ up.",
+   "options": [
+    "$1\\times10^{-5}\\ \\text{N m}^{-1}$ down",
+    "$1\\times10^{-5}\\ \\text{N m}^{-1}$ up",
+    "$3\\times10^{-5}\\ \\text{N m}^{-1}$ up",
+    "$3\\times10^{-5}\\ \\text{N m}^{-1}$ down"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/phys-2022-pymble/q8.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.2"
+   ],
+   "question": "A conducting rod slides to the right along a metal conducting loop, in a uniform magnetic field directed into the page, as shown in the diagram. Which row of the table is correct?\n\n| | Direction of force on the conducting rod | Direction of induced current in the rod | Direction of current around the conducting loop |\n|---|---|---|---|\n| A. | to the left | up the rod | anticlockwise |\n| B. | to the left | down the rod | clockwise |\n| C. | to the right | up the rod | anticlockwise |\n| D. | to the right | down the rod | clockwise |",
+   "answer": "The rod moves right through a field directed into the page, so the area of the conducting loop (and the flux into the page through it) is increasing. By Lenz's law the induced current opposes this increase: it must produce a field out of the page inside the loop, which requires an **anticlockwise** current around the loop, i.e. **up** the moving rod (on the right-hand side of the loop). The same follows from $\\mathbf F=q\\mathbf v\\times\\mathbf B$: positive charge moving right in a field into the page is pushed up the rod.\n\nThe force on a current up the rod in a field into the page is directed to the **left** ($\\mathbf F=I\\mathbf l\\times\\mathbf B$), opposing the motion, as Lenz's law requires. Row A.",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/phys-2022-pymble/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.1"
+   ],
+   "question": "A student carries out an investigation to find the relationship between the centripetal force, rotational speed and radius of an object moving in uniform circular motion. The student attaches a rubber stopper to a hanging mass using a string that passes through a tube and swings the rubber stopper around the tube, as shown in the diagram. As the rubber stopper is swung, the hanging mass rises and falls depending on the rotational speed of the stopper. When the hanging mass neither rises nor falls, the radius of the stopper's path is measured.\n\nWhich row of the table identifies the variables for this investigation?\n\n| | Independent variable | Dependent variable | Controlled variables |\n|---|---|---|---|\n| A. | hanging mass | length of string | mass of rubber stopper, rotational speed |\n| B. | rotational speed | length of string | hanging mass, rotational speed |\n| C. | mass of rubber stopper | rotational speed | hanging mass, length of string |\n| D. | rotational speed | radius of stopper path | mass of rubber stopper, length of string |",
+   "answer": "The student changes the rotational speed (independent variable) and measures the radius of the stopper's path when the hanging mass is stationary (dependent variable). The mass of the rubber stopper and the length of the string must be kept constant (controlled variables). Row D. (Row B lists rotational speed as both independent and controlled; row C changes the stopper mass, which would change the centripetal force being investigated; row A changes the hanging mass.)",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/phys-2022-pymble/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.1.6"
+   ],
+   "question": "As a star rotates, the observed atomic absorption bands appear broader. Consider the statement about this relationship and choose the correct terms in the table below corresponding to X, Y and Z.\n\n*When a star is rotating relative to an observer, as shown on the diagram, light received from the left side of the photosphere is X while the light received from the right side of the photosphere is Y. The Z it rotates, the wider the absorption band will appear in its spectrum.*\n\n| | X | Y | Z |\n|---|---|---|---|\n| A. | blue-shifted | red-shifted | faster |\n| B. | red-shifted | blue-shifted | faster |\n| C. | blue-shifted | red-shifted | slower |\n| D. | red-shifted | blue-shifted | slower |",
+   "answer": "As the star rotates (see the arrows in the diagram) one limb moves away from the observer and the other moves towards the observer. Light from the limb moving away is red-shifted (longer wavelength) and light from the limb moving towards the observer is blue-shifted. In the diagram the left side moves away (red-shifted) and the right side moves towards the observer (blue-shifted). The absorption line is therefore spread over a range of wavelengths (Doppler broadening), and the faster the star rotates, the greater the Doppler shifts and the wider the absorption band. Row B.",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/phys-2022-pymble/q11.png"
+   ]
+  },
+  {
+   "ref": "Q12",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.2"
+   ],
+   "question": "Young performed an experiment where photons were beamed through a double-slit onto a screen, as shown in the diagram. The following changes were made. Change 1: the slit separation is changed. Change 2: the distance between the double-slit and the screen is increased.\n\nWhich row of the table identifies what will occur after each change?\n\n| | Change 1 | Change 2 |\n|---|---|---|\n| A. | If the slit separation increases, the spacing between the bright bands decreases. | The spacing between the bright bands decreases. |\n| B. | If the slit separation increases, the spacing between the bright bands decreases. | The spacing between the bright bands increases. |\n| C. | If the slit separation increases, the spacing between the bright bands increases. | The spacing between the bright bands increases. |\n| D. | If the slit separation decreases, the spacing between the bright bands increases. | The spacing between the bright bands decreases. |",
+   "answer": "The fringe spacing is $\\Delta y=\\dfrac{\\lambda L}{d}$ where $d$ is the slit separation and $L$ the distance to the screen. Increasing $d$ decreases the spacing; increasing $L$ increases the spacing. This is row B. (Row D is wrong in its second column.)",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/phys-2022-pymble/q12.png"
+   ]
+  },
+  {
+   "ref": "Q13",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.4"
+   ],
+   "question": "Most stars have at least one planet orbiting them. Two planets, Psi and Tri, have been observed to orbit a star. Psi has an orbital path with a radius that is four times smaller than the radius of Tri's orbital path. Which of the following statements about Psi and Tri is correct?",
+   "answer": "Kepler's third law: $\\dfrac{r^3}{T^2}$ is constant, so $T\\propto r^{3/2}$. With $r_{Tri}=4r_{Psi}$: $\\dfrac{T_{Tri}}{T_{Psi}}=4^{3/2}=8$. Tri takes $8$ times longer than Psi.",
+   "options": [
+    "Tri would take 8 times longer than Psi to make a full orbit of the star.",
+    "Psi would take 8 times longer than Tri to make a full orbit of the star.",
+    "Tri would take 64 times longer than Psi to make a full orbit of the star.",
+    "Psi would take 64 times longer than Tri to make a full orbit of the star."
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q14",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.3"
+   ],
+   "question": "An ideal transformer is used to convert an input of $800$ V to an output current of $24$ A. There are $5700$ turns in the primary coil and $460$ turns in the secondary coil. What is the current in the primary?",
+   "answer": "For an ideal transformer $\\dfrac{I_p}{I_s}=\\dfrac{N_s}{N_p}$, so $I_p=24\\times\\dfrac{460}{5700}=1.94$ A. (The $800$ V is not needed.)",
+   "options": [
+    "$1.94$ A",
+    "$3.81$ A",
+    "$13.8$ A",
+    "$64.6$ A"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q15",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "A rocket is travelling past an asteroid at a speed of $0.85c$ in the direction shown below. Which picture below correctly shows how the asteroid will appear to the travellers aboard the rocket?",
+   "answer": "In the rocket's frame the asteroid is moving at $0.85c$ in the direction of the rocket's line of travel (horizontal in the diagram), so its length in that direction is contracted: $L=L_0\\sqrt{1-v^2/c^2}=L_0\\sqrt{1-0.85^2}\\approx0.53L_0$. The dimension perpendicular to the motion is unchanged. The asteroid therefore appears narrower horizontally and the same height: picture (D). (Pictures (A) and (B) show a uniform size change, and (C) shows it elongated vertically.)",
+   "options": [
+    "Picture (A)",
+    "Picture (B)",
+    "Picture (C)",
+    "Picture (D)"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/phys-2022-pymble/q15.png"
+   ]
+  },
+  {
+   "ref": "Q16",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.2"
+   ],
+   "question": "The device shows an aluminium disk and a magnet set up on the same axle. The disk and magnet are free to turn relative to each other on the axle. The magnet is turning relative to the disk. What occurs if the angular velocity of the magnet is increased?",
+   "answer": "A faster-rotating magnet means a greater rate of change of flux through the disk, so a greater emf and larger eddy currents are induced in the disk. By Lenz's law the eddy currents oppose the relative motion by exerting a force that drags the disk along in the direction the magnet is turning, with a greater torque. So the disk rotates more quickly (it speeds up towards the speed of the magnet). The magnetic force on the induced (eddy) current is what provides this torque, but option (B) states the underlying cause: the greater emf and eddy currents.",
+   "options": [
+    "The disk rotates more slowly due to the back emf",
+    "The disk rotates more quickly due to the greater emf and eddy currents",
+    "The disk rotates more slowly due to increased friction",
+    "The disk rotates more quickly due to the magnetic force on a current."
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q17",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.2"
+   ],
+   "question": "If light had a pure wave nature, which observation from investigations into the photoelectric effect would occur?",
+   "answer": "In the wave model energy is delivered continuously and spread over the whole wavefront, so an electron would need time to accumulate enough energy to escape, giving a measurable delay in emission (which is not observed experimentally; emission is almost instantaneous). Options (B) and (D) describe discrete (particle/photon) energy transfer, and (C) and (D) wrongly claim an interference pattern would appear on the metal.",
+   "options": [
+    "The energy transfer from the light source to the metal would occur continuously therefore there would be a delay in the initial emission of photoelectrons.",
+    "The energy transfer from the light source to the metal would occur discretely therefore the initial emission of photoelectrons would be nearly instantaneous.",
+    "The energy transfer from the light source to the metal would occur continuously therefore interference pattern would be observed on the metal.",
+    "The energy transfer from the light source to the metal would occur discretely therefore interferences pattern would be observed on the metal."
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q18",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.4"
+   ],
+   "question": "A non-ideal step-down transformer has a primary voltage of $33$ kV and a primary current of $200$ A. The secondary voltage is $11$ kV with a secondary current of $460$ A. The transformer's efficiency is closest to:",
+   "answer": "Efficiency $=\\dfrac{P_{out}}{P_{in}}=\\dfrac{11\\,000\\times460}{33\\,000\\times200}=\\dfrac{5.06\\times10^6}{6.6\\times10^6}=0.767\\approx75\\%$.",
+   "options": [
+    "$90\\%$",
+    "$75\\%$",
+    "$50\\%$",
+    "$33\\%$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q19",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.1.1"
+   ],
+   "question": "A charged particle $+Q$ enters a region of uniform electric field $E$ between two parallel plates, as shown. The particle's speed before entering is $v$. The apparatus is in a vacuum and the experiment is being performed in weightless conditions. The charged particle travels a horizontal distance $D$ before striking the charged plate (a vertical distance $d$ from its entry point).\n\nWhat change would result in the charged particle having twice the range, i.e. $2D$ ?",
+   "answer": "Vertically the particle accelerates from rest at $a=\\dfrac{QE}m$, so $d=\\tfrac12at^2$ gives the time to reach the plate $t=\\sqrt{\\dfrac{2dm}{QE}}$. The horizontal speed is constant, so\n$$D=vt=v\\sqrt{\\frac{2dm}{QE}}.$$\nDoubling $v$ doubles $D$ (A). Halving $d$ or the mass divides $D$ by $\\sqrt2$, and halving $E$ multiplies $D$ by $\\sqrt2$, so none of (B)–(D) gives exactly $2D$.",
+   "options": [
+    "doubling the initial velocity to $2v$",
+    "halving the vertical distance, $d$",
+    "halving the electric field strength",
+    "halving the mass of the particle"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/phys-2022-pymble/q19.png"
+   ]
+  },
+  {
+   "ref": "Q20",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "A beam of unpolarised light is incident on two polarisers. The axes of polarisation of both polarisers are initially parallel. The second polariser is then rotated through $360^\\circ$ as shown. Which graph shows the variation of intensity with angle $\\theta$ for the light leaving the second polariser?",
+   "answer": "By Malus' law the intensity leaving the second polariser is $I=I_{max}\\cos^2\\theta$. It is a maximum at $\\theta=0^\\circ$ (axes parallel), falls to zero at $90^\\circ$, is a maximum again at $180^\\circ$, zero at $270^\\circ$ and a maximum at $360^\\circ$. Graph B is the one that starts at a maximum at $0^\\circ$, has maxima at $0^\\circ$, $180^\\circ$ and $360^\\circ$ and zeros at $90^\\circ$ and $270^\\circ$ (two complete cycles, never negative). Graph A has only one minimum, and graphs C and D do not start at a maximum.",
+   "options": [
+    "Graph A",
+    "Graph B",
+    "Graph C",
+    "Graph D"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/phys-2022-pymble/q20a.png",
+    "assets/img/phys-2022-pymble/q20b.png"
+   ]
+  },
+  {
+   "ref": "Q21",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.5"
+   ],
+   "question": "By applying the law of conservation of energy to the relationship between gravitational potential energy and kinetic energy, explain how the escape velocity from a distance $r$ from the centre of mass of a planet is given by $v_{escape}=\\sqrt{\\dfrac{2GM}{r}}$, where $M$ is the mass of the planet.",
+   "answer": "The escape velocity is the minimum initial speed needed for an object to reach infinitely far from the planet, where its kinetic energy has fallen to zero (it just reaches infinity with no speed left).\n\nThe total energy of the object (mass $m$) is conserved (taking the planet's field only):\n$$U(r)+K(r)=U(\\infty)+K(\\infty).$$\nThe gravitational potential energy is $U=-\\dfrac{GMm}r$, which tends to $0$ as $r\\to\\infty$, and the kinetic energy is $K=\\tfrac12mv^2$. At infinity the object is just at rest, so $U(\\infty)+K(\\infty)=0+0=0$.\n\nAt distance $r$ with launch speed $v_{escape}$:\n$$\\tfrac12mv_{escape}^2-\\frac{GMm}r=0\\ \\Rightarrow\\ v_{escape}^2=\\frac{2GM}r\\ \\Rightarrow\\ v_{escape}=\\sqrt{\\frac{2GM}r}.$$\n(The mass $m$ of the object cancels, so the escape velocity does not depend on it.)"
+  },
+  {
+   "ref": "Q22(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.1"
+   ],
+   "question": "Two projectiles are launched with the same initial speeds and angles to the horizontal. Projectile A has a mass of $m$, while projectile B has a mass of $2m$. Explain why the two projectiles will have the same range.",
+   "answer": "Ignoring air resistance, the only force on each projectile is its weight $mg$. By Newton's second law $a=\\dfrac{F}{m}=\\dfrac{mg}{m}=g$, so both projectiles have the same acceleration regardless of mass. With the same initial velocity components (same speed and angle) and the same acceleration, they have the same time of flight and the same constant horizontal velocity, so the same range."
+  },
+  {
+   "ref": "Q22(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "Two projectiles A and B are launched from level ground at the same angle to the horizontal but with different initial speeds. Projectile B remains in flight for twice as long as projectile A over level ground. How many times further does projectile B travel compared to projectile A?",
+   "answer": "The time of flight over level ground is $t=\\dfrac{2u\\sin\\theta}g$, so with the same angle, $t_B=2t_A$ means $u_B=2u_A$ (the launch speed of B is twice that of A).\n\nThe horizontal range is $R=u\\cos\\theta\\times t=\\dfrac{2u^2\\sin\\theta\\cos\\theta}g\\propto u^2$ for a fixed angle. Hence\n$$\\frac{R_B}{R_A}=\\left(\\frac{u_B}{u_A}\\right)^2=2^2=4.$$\nProjectile B travels $4$ times further than A."
+  },
+  {
+   "ref": "Q23",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.1"
+   ],
+   "question": "Outline a procedure to investigate how the external magnetic field and the current impact the direction of the force on a straight current-carrying wire.",
+   "answer": "1. Set up a straight, flexible (or lightly suspended) wire between the poles of a horseshoe magnet (or between two magnets), connected through a variable power supply (or battery), a switch and an ammeter, so that the wire passes through the field at right angles to it. Mark the field direction (N to S) and note the initial position of the wire.\n2. Close the switch briefly and observe and record the direction in which the wire is deflected (the direction of the force). Use the right-hand rule as a prediction.\n3. **Reverse the current** only (swap the power-supply leads) keeping the magnet unchanged. Close the switch and record the direction of the deflection.\n4. Return to the original current direction and **reverse the magnetic field** only (turn the magnet round so the poles are swapped). Close the switch and record the direction of the deflection.\n5. Change one variable at a time (current direction, then field direction), keep the current magnitude the same each trial (use the ammeter) and repeat each trial to check reliability.\n6. Compare the deflection directions: reversing either the current or the field reverses the force, while reversing both leaves the direction unchanged."
+  },
+  {
+   "ref": "Q24",
+   "kind": "written",
+   "marks": 7,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.3.2",
+    "12.6.4.3"
+   ],
+   "question": "A student sets up an aluminium disc which is able to rotate in the vertical plane. The axle of the disc has a pulley wheel turned by a motor in series with an ammeter, battery and switch. A clamp with a horseshoe magnet can be attached so that a horizontal magnetic field passes through one part of the disc.\n\nThe student observes the current and the speed of the disc rotation, before and after the magnet is attached. When the magnet is in place, the current through the ammeter is greater and the speed of rotation of the disc is lower.\n\nAccount for each observation.",
+   "answer": "**Speed of the disc is lower.** As the aluminium disc rotates, the part of it passing through the magnetic field has a changing magnetic flux, so by Faraday's law an emf is induced in the disc and circulating **eddy currents** flow in it. These currents are in a magnetic field, so there is a force on them (the motor effect). By Lenz's law the induced currents are in the direction that opposes the change (the relative motion between the disc and the magnet), so the force on the eddy currents opposes the rotation of the disc: it acts as a braking torque, and the disc slows down to a lower speed (the speed at which the motor's driving torque equals the braking torque).\n\n**Current in the ammeter is greater.** The motor is also a coil rotating in a magnetic field, so it generates a **back emf** (Faraday's law) opposing the supply emf, proportional to its angular speed: $\\varepsilon_{back}\\propto\\omega$. The motor's current is $I=\\dfrac{V_{supply}-\\varepsilon_{back}}R$. The motor drives the disc through the axle and pulley, so a lower angular speed of the disc means a lower angular speed of the motor. A lower speed means a lower back emf, so the net emf driving the circuit is larger and a greater current flows. This larger current also gives the motor a larger torque, helping it to keep turning against the braking effect of the eddy currents."
+  },
+  {
+   "ref": "Q25",
+   "kind": "written",
+   "marks": 6,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.4.2",
+    "12.6.2.1"
+   ],
+   "question": "Using two specific examples, explain how the interaction of electricity and magnetism and their respective fields is responsible for various phenomena studied in the Physics course.",
+   "answer": "**Example 1 – the motor effect / DC electric motor.** A current is a flow of charge that produces its own magnetic field around the conductor. When a current-carrying conductor is placed in an external (uniform) magnetic field, the two fields interact and there is a force on the conductor, $F=BIl\\sin\\theta$, perpendicular to both the field and the current (right-hand rule). In a DC motor the current in the coil is in opposite directions on opposite sides of the coil, so the forces form a couple that produces a torque $\\tau=nBIA\\cos\\theta$ and the coil rotates. The electrical factor (the supply voltage and current) therefore causes motion through the interaction with the magnetic field, converting electrical energy to rotational kinetic energy. The motion of the coil in the field then induces a back emf (Faraday's law).\n\n**Example 2 – electromagnetic induction in a generator (or transformer).** A changing magnetic flux through a coil, for example because the coil rotates in a magnetic field, induces an emf in it: $\\varepsilon=-N\\dfrac{\\Delta\\Phi}{\\Delta t}$ (Faraday's law). If the circuit is closed, the induced emf drives a current which produces its own magnetic field, opposing the change in flux (Lenz's law). In an AC generator the rotating coil produces a continuously changing flux and so an alternating emf; the magnetic field (flux) is the cause and the electrical output (emf and current) is the effect, converting mechanical energy to electrical energy.\n\nIn each case a change or interaction in one field (the current's magnetic field with an external field, or a changing magnetic field) is linked to an electrical quantity (force on a current, or induced emf), showing the interdependence of electricity and magnetism."
+  },
+  {
+   "ref": "Q26(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.3.1"
+   ],
+   "question": "Observations of black body radiation could not be explained using a wave model of light. Discuss how Planck's contribution to the explanation of radiation from a black body led to a change in the model of light.",
+   "answer": "The wave model (classical physics, the Rayleigh–Jeans law) predicted that the intensity of radiation from a black body would increase without limit at short wavelengths (high frequencies), so a body would radiate infinite energy in the ultraviolet — the \"ultraviolet catastrophe\". This disagreed with experiment, which showed the intensity rising to a peak (at a wavelength depending on temperature, Wien's law) and then falling towards zero at short wavelengths.\n\nPlanck fitted the measured black-body spectrum with a mathematical model by proposing that the oscillators in the walls of the black body can only emit or absorb energy in discrete packets (quanta) of energy proportional to the frequency, $E=hf$, rather than continuously. This quantisation of energy exchange reduces the emission at high frequencies and matches the observed curve. Planck himself did not explain why energy should be quantised, but the idea that energy is transferred in discrete amounts led Einstein to propose that light itself is made of quanta (photons), which led to the particle (quantum) model of light being used alongside the wave model, to explain the photoelectric effect."
+  },
+  {
+   "ref": "Q26(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.1"
+   ],
+   "question": "Determine the peak wavelength of a star with a photosphere of temperature $7000$ K.",
+   "answer": "Wien's law: $\\lambda_{max}=\\dfrac bT$ with $b=2.898\\times10^{-3}\\ \\text{m K}$:\n$$\\lambda_{max}=\\frac{2.898\\times10^{-3}}{7000}=4.14\\times10^{-7}\\ \\text{m}=414\\ \\text{nm}.$$"
+  },
+  {
+   "ref": "Q27",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "The Hafele–Keating experiment involved flying extremely precise atomic clocks onboard aircraft in different directions around the world and comparing the times on the clocks to the time on clocks that remained on Earth. Explain how the Hafele–Keating experiment supported an aspect of special relativity as proposed by Einstein.",
+   "answer": "Einstein's special relativity predicts **time dilation**: a clock moving at speed $v$ relative to an observer runs slow, as measured by that observer, by the factor $\\gamma=\\dfrac1{\\sqrt{1-v^2/c^2}}$ ($t=\\gamma t_0$), so a moving clock records less proper time than a stationary one.\n\nThe effect is tiny at everyday speeds, so the experiment needed **very high-speed aircraft** (to get a measurable $v$) and **extremely precise atomic clocks** (able to detect differences of the order of nanoseconds) flown around the world over long times so the difference would accumulate. The clocks that flew were compared with identical clocks that stayed at the laboratory on Earth.\n\nThe results showed that the clocks that were flown (relative to the Earth's frame) lost or gained time as predicted by the theory, in agreement within experimental uncertainty with the predictions of relativity (after allowing for the general-relativity effect of gravity and the Earth's rotation). The agreement between the measured time differences and the predicted time dilation supports Einstein's prediction that time is not absolute but depends on relative motion."
+  },
+  {
+   "ref": "Q28(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "A small $870$ g mass is whirled around in a horizontal circle at one end of a $0.85$ m length of string, forming a cone shape with angle $\\theta$ to the vertical. The string when hanging vertically will just support a load of $44$ N without breaking.\n\nDraw the force diagram for the spinning mass, showing the vectors and their vertical and horizontal components.",
+   "answer": "The only forces on the mass are the tension $T$ in the string (directed along the string towards the point of suspension, at angle $\\theta$ to the vertical) and the weight $mg$ (vertically downward).\n\nThe tension is resolved into a vertical component $T\\cos\\theta$ (upward) and a horizontal component $T\\sin\\theta$ (directed towards the centre of the circle). Since the mass does not accelerate vertically, $T\\cos\\theta=mg$; the horizontal component is the net (centripetal) force: $T\\sin\\theta=\\dfrac{mv^2}r$.",
+   "answer_images": [
+    "assets/img/phys-2022-pymble/q28s.png"
+   ]
+  },
+  {
+   "ref": "Q28(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.3"
+   ],
+   "question": "A small $870$ g mass is whirled around in a horizontal circle at one end of a $0.85$ m length of string, forming a cone shape with angle $\\theta$ to the vertical. The string when hanging vertically will just support a load of $44$ N without breaking. Calculate the angle $\\theta$ and the maximum angular speed, in rad s$^{-1}$, of the mass before the string breaks.",
+   "answer": "At the maximum speed the tension is the breaking tension $T=44$ N. Vertically, $T\\cos\\theta=mg$:\n$$\\cos\\theta=\\frac{0.870\\times9.8}{44}=0.1938\\ \\Rightarrow\\ \\theta=78.8^\\circ.$$\nThe radius of the circle is $r=0.85\\sin\\theta=0.85\\sin78.8^\\circ=0.83$ m.\n\nHorizontally the centripetal force is provided by $T\\sin\\theta$: $T\\sin\\theta=m\\omega^2r$, so\n$$\\omega^2=\\frac{T\\sin\\theta}{mr}=\\frac{44\\times\\sin78.8^\\circ}{0.870\\times0.834}=59.5\\ \\Rightarrow\\ \\omega=7.7\\ \\text{rad s}^{-1}.$$\n*Note:* the school's sample answer writes $\\omega^2=\\dfrac{\\sin\\theta}{mr}$, omitting the factor $T$; its final value $7.7$ rad s$^{-1}$ is correct."
+  },
+  {
+   "ref": "Q29(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.1",
+    "12.6.3.2"
+   ],
+   "question": "The diagram shows a coil connected to a $12$ V battery. The switch is initially open, then at $2.0$ s it is closed, and it stays closed until $t=5.0$ s when it is opened again. A graph of potential difference $V$ across the coil against $t$ is shown.\n\nAccording to the graph, at what time(s) does the magnetic field inside the coil have maximum strength? Justify your answer.",
+   "answer": "The magnetic field inside a solenoid is proportional to the current, $B=\\dfrac{\\mu_0NI}{L}$. The potential difference across the coil is $12$ V (and so the current is a maximum, $I=V/R$) while the switch is closed, from $t=2.0$ s to $t=5.0$ s. So the magnetic field has its maximum strength for $2.0\\ \\text{s}\\le t\\le5.0$ s.",
+   "images": [
+    "assets/img/phys-2022-pymble/q29.png"
+   ]
+  },
+  {
+   "ref": "Q29(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.3.2"
+   ],
+   "question": "A coil is connected to a $12$ V battery through a switch which is closed at $t=2.0$ s and opened again at $t=5.0$ s. The graph of the battery potential difference $V$ against time shows a constant $12$ V from $2.0$ s to $5.0$ s. The graph does not accurately represent the production of back emf induced in the coil. Explain when you would expect the induced back emf in the coil to be greatest and why this occurs.",
+   "answer": "An emf is induced in the coil only when the magnetic flux through it changes: $\\varepsilon=-N\\dfrac{\\Delta\\Phi}{\\Delta t}$ (Faraday's law), with the sign (Lenz's law) opposing the change. While the current is steady (between $2.0$ s and $5.0$ s) the flux is constant, so there is no induced emf.\n\nThe flux changes at the instants the switch is closed ($t=2.0$ s, when the current and field grow from zero) and opened ($t=5.0$ s, when they fall to zero). The induced emf is greatest at these times, when $\\dfrac{\\Delta\\Phi}{\\Delta t}$ is largest: at $t=2.0$ s the back emf opposes the supply and the growth of current. (The school's sample answer gives $t=2$ s.) The emf at $t=5.0$ s, when the field collapses, is in the same direction as the original current."
+  },
+  {
+   "ref": "Q29(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.2"
+   ],
+   "question": "Calculate the emf induced across a coil if there are $220$ turns, the magnetic flux density through the coil changes from $0.004$ T to $0.032$ T in a time of $26$ ms and the coil radius is $3.1$ cm.",
+   "answer": "The flux is $\\Phi=BA$ with area $A=\\pi r^2=\\pi(0.031)^2=3.02\\times10^{-3}\\ \\text{m}^2$.\n$$\\varepsilon=-N\\frac{\\Delta\\Phi}{\\Delta t}=-220\\times\\frac{(0.032-0.004)\\times\\pi(0.031)^2}{26\\times10^{-3}}=-0.72\\ \\text{V}.$$\nThe magnitude of the induced emf is $0.72$ V (the negative sign shows it opposes the increase in flux)."
+  },
+  {
+   "ref": "Q30(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "A proton is moving in a region of uniform magnetic field directed into the plane of the paper. The arrow shows the velocity of the proton at one instant and the dotted circle gives the path followed by the proton. Explain why the path of the proton is a circle.",
+   "answer": "The magnetic force on a moving charge, $F=qvB\\sin\\theta$, is always perpendicular to both the velocity and the magnetic field. So the force is always perpendicular to the proton's velocity: it changes the direction of the velocity but does no work and does not change the speed. As the proton's direction changes, the force (always at right angles to the velocity, in the plane of the paper) stays directed toward the same point, the centre of the circle, with constant magnitude. A constant-magnitude force always towards a fixed centre provides the centripetal force for uniform circular motion.",
+   "images": [
+    "assets/img/phys-2022-pymble/q30.png"
+   ]
+  },
+  {
+   "ref": "Q30(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "A proton moves in a region of uniform magnetic field of strength $B=0.35$ T, perpendicular to its velocity, with a speed of $2.0\\times10^6\\ \\text{m s}^{-1}$. Calculate the radius of its circular path. (Mass of a proton $1.673\\times10^{-27}$ kg; charge $1.602\\times10^{-19}$ C.)",
+   "answer": "The magnetic force provides the centripetal force: $qvB=\\dfrac{mv^2}r$, so\n$$r=\\frac{mv}{qB}=\\frac{1.673\\times10^{-27}\\times2.0\\times10^6}{1.602\\times10^{-19}\\times0.35}=5.97\\times10^{-2}\\ \\text{m}\\ (\\approx6.0\\ \\text{cm}).$$"
+  },
+  {
+   "ref": "Q30(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "A proton moves in a circle of radius $5.97\\times10^{-2}$ m at a speed of $2.0\\times10^6\\ \\text{m s}^{-1}$ in a uniform magnetic field. Calculate the time for one complete revolution, in microseconds.",
+   "answer": "$v=\\dfrac{2\\pi r}T\\Rightarrow T=\\dfrac{2\\pi r}v=\\dfrac{2\\pi\\times5.97\\times10^{-2}}{2.0\\times10^6}=1.88\\times10^{-7}\\ \\text{s}=0.19\\ \\mu\\text{s}.$"
+  },
+  {
+   "ref": "Q30(d)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "A proton moves in a circular path in a uniform magnetic field. Calculate the work done by the magnetic field on the proton.",
+   "answer": "$W=F_\\parallel s$: the magnetic force is always perpendicular to the displacement (the velocity), so its component along the displacement is zero. The work done by the magnetic field on the proton is $0$ J (the kinetic energy and speed stay constant)."
+  },
+  {
+   "ref": "Q31",
+   "kind": "written",
+   "marks": 7,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.6.3.2",
+    "12.6.4.3"
+   ],
+   "question": "A solenoid is mounted on trolley 1 as shown. The solenoid is connected to an ammeter, an open switch and a battery. The solenoid is sitting near a copper block that is on trolley 2. Both trolleys are free to roll. The mass of trolley 1 is $4.0$ kg and the mass of trolley 2 is $2.0$ kg.\n\nThe switch is closed and this causes trolley 1 to start moving at $1.5\\ \\text{m s}^{-1}$. Describe and explain the motion of the two trolleys. Include a quantitative analysis.",
+   "answer": "**Explanation.** When the switch is closed a current starts to flow in the solenoid, which produces a magnetic field (and a magnetic pole at its end next to the copper block). The magnetic flux through the nearby copper block increases from zero, so by Faraday's law an emf is induced in the block and **eddy currents** flow in it. By Lenz's law the eddy currents are in the direction that opposes the increase of flux: they set up a magnetic field in the block with the same pole facing the solenoid's end (like poles). The solenoid and the block therefore **repel** each other with equal and opposite forces (Newton's third law), so trolley 1 and trolley 2 move apart, in opposite directions.\n\n**Quantitative analysis.** The system of two trolleys has no external horizontal force (the forces between them are internal), so momentum is conserved. Initially both are at rest, so the total momentum is $0$:\n$$m_1v_1+m_2v_2=0\\ \\Rightarrow\\ 4.0\\times1.5+2.0\\times v_2=0\\ \\Rightarrow\\ v_2=-3.0\\ \\text{m s}^{-1}.$$\nSo trolley 2 moves in the opposite direction at $3.0\\ \\text{m s}^{-1}$, twice the speed of trolley 1 since it has half the mass.\n\nThe kinetic energy is not conserved: it increases from $0$ to $\\tfrac12(4.0)(1.5)^2+\\tfrac12(2.0)(3.0)^2=4.5+9.0=13.5$ J. This energy is supplied by the battery (electrical energy), with some of it dissipated as heat in the circuit and the block by the eddy currents.",
+   "images": [
+    "assets/img/phys-2022-pymble/q31.png"
+   ]
+  },
+  {
+   "ref": "Q32(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.2"
+   ],
+   "question": "Some physics students conduct an experiment by using a laser and double slits in a darkened room, as shown. $X$ is a dark band (the second dark band from the central bright band) and $P$ is a bright band. Describe how the dark band forms at $X$.",
+   "answer": "Light from the laser is diffracted at each of the two slits $S_1$ and $S_2$, so the two slits act as coherent sources and the waves from them overlap (superpose) on the screen. At $X$ the path difference between the waves from the two slits is an odd multiple of half a wavelength (here $1.5\\lambda$), so the waves arrive exactly out of phase (crest meeting trough). They interfere destructively, the resultant amplitude and intensity are (near) zero and a dark band forms.",
+   "images": [
+    "assets/img/phys-2022-pymble/q32.png"
+   ]
+  },
+  {
+   "ref": "Q32(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.2"
+   ],
+   "question": "In a double-slit experiment with a laser, point $X$ is the second dark band from the central bright band. The path length difference $S_1X-S_2X$ is measured to be $726\\times10^{-9}$ m. Calculate the wavelength of the laser.",
+   "answer": "The second dark band from the central bright band has a path difference of $\\left(1+\\tfrac12\\right)\\lambda=1.5\\lambda$:\n$$726\\times10^{-9}=1.5\\lambda\\ \\Rightarrow\\ \\lambda=\\frac{726\\times10^{-9}}{1.5}=484\\times10^{-9}\\ \\text{m}=484\\ \\text{nm}.$$",
+   "images": [
+    "assets/img/phys-2022-pymble/q32.png"
+   ]
+  },
+  {
+   "ref": "Q33(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.3"
+   ],
+   "question": "Amy carried out a photoelectric effect experiment. Light of a particular frequency (selected with filters) was shone onto a photocell. The variable voltage was increased until the photocurrent just went to zero, and this voltage was recorded as the stopping voltage. Amy repeated this process for different frequencies.\n\n| Frequency (Hz) | Stopping voltage (V) |\n|---|---|\n| $6.0\\times10^{14}$ | 0.16 |\n| $7.0\\times10^{14}$ | 0.52 |\n| $7.5\\times10^{14}$ | 0.72 |\n| $8.0\\times10^{14}$ | 0.88 |\n| $9.0\\times10^{14}$ | 1.35 |\n\nUsing the range from zero to $9\\times10^{14}$ Hz on the frequency axis, plot the results on a graph of stopping voltage against frequency, and draw a line of best fit.",
+   "answer": "Plot stopping voltage (V) on the vertical axis against frequency ($\\times10^{14}$ Hz) on the horizontal axis, with a title and labelled axes with units, and a scale that runs from $0$ to $9$ (or $10$)$\\times10^{14}$ Hz on the horizontal axis and includes the negative vertical intercept if the line is extended back to the vertical axis. The five points lie close to a straight line with a positive gradient, so draw a single straight line of best fit through them (extended back to the horizontal axis, which it crosses at about $5.7\\times10^{14}$ Hz, and to the vertical axis), as in the graph shown.",
+   "answer_images": [
+    "assets/img/phys-2022-pymble/q33a_ans.png"
+   ]
+  },
+  {
+   "ref": "Q33(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.3"
+   ],
+   "question": "In a photoelectric effect experiment the voltage applied across the photocell is increased until the photocurrent just falls to zero; this is the stopping voltage. Explain how the stopping voltage is related to the electrons' kinetic energy.",
+   "answer": "The applied voltage sets up an electric field that opposes the motion of the emitted photoelectrons towards the collector, so the field does negative work on each electron as it crosses the potential difference $V$: $W=qV=eV$. When the voltage is increased to the stopping voltage, the work done by the field on even the most energetic electrons equals their maximum kinetic energy on leaving the surface, so none reach the collector and the photocurrent just falls to zero. Hence $K_{max}=eV_{stop}$: the stopping voltage is the lowest applied voltage at which no photocurrent is recorded, and it is a direct measure of the maximum kinetic energy of the photoelectrons."
+  },
+  {
+   "ref": "Q33(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.3.3"
+   ],
+   "question": "In a photoelectric effect experiment the stopping voltage $V$ was measured for light of different frequencies $f$:\n\n| $f$ ($\\times10^{14}$ Hz) | 6.0 | 7.0 | 7.5 | 8.0 | 9.0 |\n|---|---|---|---|---|---|\n| $V$ (V) | 0.16 | 0.52 | 0.72 | 0.88 | 1.35 |\n\nUse a line of best fit through the graph of $V$ against $f$ to determine the work function in eV, as well as Planck's constant.",
+   "answer": "From $K_{max}=hf-\\phi$ and $K_{max}=eV$: $V=\\dfrac hef-\\dfrac\\phi e$. A graph of $V$ against $f$ is a straight line with gradient $\\dfrac he$ and vertical intercept $-\\dfrac\\phi e$.\n\n**Gradient** of the best-fit line: $\\dfrac{1.35-0.16}{(9.0-6.0)\\times10^{14}}\\approx3.9\\times10^{-15}\\ \\text{V s}$ (a least-squares line through all five points gives $3.93\\times10^{-15}$), so\n$$h=e\\times\\text{gradient}=1.602\\times10^{-19}\\times3.93\\times10^{-15}\\approx6.3\\times10^{-34}\\ \\text{J s}.$$\n**Work function.** The line meets the frequency axis ($V=0$) at the threshold frequency $f_0\\approx5.7\\times10^{14}$ Hz (equivalently its vertical intercept is about $-2.2$ V), so\n$$\\phi=hf_0=6.3\\times10^{-34}\\times5.65\\times10^{14}\\approx3.6\\times10^{-19}\\ \\text{J}\\approx2.2\\ \\text{eV}.$$\n(Values read from a hand-drawn line of best fit are acceptable within a reasonable range: the school's sample gives $h\\approx6.5\\times10^{-34}$ J s and $\\phi\\approx2.3$ eV.)"
+  },
+  {
+   "ref": "Q33(d)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.3.2",
+    "12.7.3.3"
+   ],
+   "question": "In a photoelectric effect experiment the stopping voltage was measured for light of different frequencies. Amy repeats the same procedure. This time she doubles the intensity of the incident light and produces a new graph of stopping voltage against frequency which is identical to the first one. Use the appropriate model of light to account for this observation.",
+   "answer": "The observation is explained by the **photon (quantum) model** of light: light consists of photons each carrying energy $E=hf$, and each photoelectron is released by the absorption of a single photon, so $K_{max}=hf-\\phi$.\n\nDoubling the intensity at a given frequency means twice as many photons arrive per second, but each photon still has the same energy $hf$. So twice as many electrons are released (a larger photocurrent), but the maximum kinetic energy of each electron, $K_{max}=hf-\\phi$, depends only on the frequency of the light (and the work function of the metal), not on the intensity. As the stopping voltage is given by $eV_{stop}=K_{max}$, the stopping voltage at each frequency is unchanged, which is why the graph is identical to the first. (The wave model, in which more intense light would give electrons more energy, cannot explain this.)"
+  }
+ ]
+}
