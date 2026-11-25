@@ -1,0 +1,842 @@
+{
+ "id": "adv-2025-blacktown-boys",
+ "course": "advanced",
+ "school": "Blacktown Boys",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5328",
+  "title": "Blacktown Boys 2025 w. sol"
+ },
+ "indexed": "2026-11-25",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "Which of the following is an arithmetic sequence?",
+   "answer": "An arithmetic sequence has a constant common difference. Only $27, 34, 41$ has constant difference ($+7$). A and D have a constant ratio (geometric), and B has differences $5$ then $6$.",
+   "options": [
+    "$6, 24, 96, \\dots$",
+    "$9, 14, 20, \\dots$",
+    "$27, 34, 41, \\dots$",
+    "$48, -24, 12, \\dots$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.9.3"
+   ],
+   "question": "Which of the following is the domain of the function $y = \\dfrac{1}{\\sqrt{x^2-4}}$?",
+   "answer": "We need $x^2-4>0$ (strictly, since the root is in the denominator), so $x<-2$ or $x>2$: $(-\\infty,-2)\\cup(2,\\infty)$.",
+   "options": [
+    "$[-2,2]$",
+    "$(-2,2)$",
+    "$(-\\infty,-2]\\cup[2,\\infty)$",
+    "$(-\\infty,-2)\\cup(2,\\infty)$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.2"
+   ],
+   "question": "Find the $100$th term of the sequence $10,\\ 6\\tfrac12,\\ 3,\\ \\dots$",
+   "answer": "Arithmetic with $a=10$, $d=-3\\tfrac12$. $T_{100}=10+99\\times\\left(-\\tfrac72\\right)=10-346.5=-336\\tfrac12$.",
+   "options": [
+    "$356\\tfrac12$",
+    "$-336\\tfrac12$",
+    "$-333$",
+    "$353$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.11"
+   ],
+   "question": "The diagram shows the section of a wall in a building. All measurements are in metres. The wall is divided into five strips of width $3$ m. The heights of the first five vertical lines are $5.5$, $8.3$, $9.8$, $8.1$ and $5.6$, and the wall ends at the right-hand end of the fifth strip where its height is $0$.\n\nAn approximate value of the area of the wall using the trapezoidal rule with five sub-intervals is:",
+   "answer": "There are six ordinates: $5.5,\\ 8.3,\\ 9.8,\\ 8.1,\\ 5.6,\\ 0$, with $h=3$.\n\n$$A\\approx\\frac{3}{2}\\Big[5.5+0+2(8.3+9.8+8.1+5.6)\\Big]=1.5\\,[5.5+63.6]=103.65\\approx103.7\\ \\text{m}^2.$$",
+   "options": [
+    "$103.7\\ \\text{m}^2$",
+    "$41.3\\ \\text{m}^2$",
+    "$107.3\\ \\text{m}^2$",
+    "$86.4\\ \\text{m}^2$"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/adv-2025-blacktown-boys/q4.png"
+   ]
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.2"
+   ],
+   "question": "Which expression is a term of the geometric series $2x-4x^2+8x^3-16x^4+\\cdots$?",
+   "answer": "The first term is $2x$ and the ratio is $r=-2x$, so $T_n=2x(-2x)^{n-1}=2(-2)^{n-1}x^{n}$. The power of $x$ equals the term number, so the term in $x^{11}$ is $T_{11}=2(-2)^{10}x^{11}=2048x^{11}$ (positive since the exponent $10$ is even). The terms in $x^{10}$ have coefficient $2(-2)^9=-1024$, so C and D are not terms.",
+   "options": [
+    "$-2048x^{11}$",
+    "$2048x^{11}$",
+    "$-2048x^{10}$",
+    "$2048x^{10}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.3.2",
+    "11.7.3.3"
+   ],
+   "question": "In a class of $30$ students, students were asked what subjects they studied and the results are shown in the Venn diagram.\n\nA student who studies Maths is chosen at random. What is the probability that the chosen student also studies Chemistry?",
+   "answer": "$P(\\text{Chem}\\mid\\text{Maths})=\\dfrac{n(\\text{Chem}\\cap\\text{Maths})}{n(\\text{Maths})}=\\dfrac{3+2}{3+2+4+7}=\\dfrac{5}{16}$.",
+   "options": [
+    "$\\dfrac16$",
+    "$\\dfrac{16}{25}$",
+    "$\\dfrac{3}{16}$",
+    "$\\dfrac{5}{16}$"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/adv-2025-blacktown-boys/q6.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.3",
+    "12.3.3.4"
+   ],
+   "question": "Find $\\dfrac{d}{dx}\\big(\\ln(\\tan x)\\big)$.",
+   "answer": "$\\dfrac{d}{dx}\\ln(\\tan x)=\\dfrac{\\sec^2x}{\\tan x}=\\dfrac{1}{\\cos^2x}\\cdot\\dfrac{\\cos x}{\\sin x}=\\dfrac{1}{\\sin x\\cos x}=\\operatorname{cosec}x\\sec x$.",
+   "options": [
+    "$-\\cot x$",
+    "$-\\operatorname{cosec}x\\sec x$",
+    "$\\cot x$",
+    "$\\operatorname{cosec}x\\sec x$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.6",
+    "12.6.1.3"
+   ],
+   "question": "The discrete random variable $X$ has the following probability distribution.\n\n| $x$ | 0 | 1 | 2 | 3 |\n|---|---|---|---|---|\n| $P(X=x)$ | $a$ | $4a$ | $5a$ | $2a$ |\n\nWhich of the following is the mean of $X$?",
+   "answer": "The probabilities sum to $1$: $12a=1$, so $a=\\tfrac1{12}$.\n\n$E(X)=0\\cdot\\tfrac1{12}+1\\cdot\\tfrac4{12}+2\\cdot\\tfrac5{12}+3\\cdot\\tfrac2{12}=\\tfrac{4+10+6}{12}=\\tfrac{20}{12}=\\tfrac53$.",
+   "options": [
+    "$\\dfrac{1}{12}$",
+    "$\\dfrac53$",
+    "$1$",
+    "$\\dfrac35$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.5.3",
+    "12.5.3.9"
+   ],
+   "question": "A particle is moving along a straight line. The graph shows the velocity, $v$, of the particle for the time $t\\ge0$. How many times does the acceleration of the particle equal zero?",
+   "answer": "Acceleration is the gradient of the velocity-time graph, so it is zero at the stationary points of the graph. The graph has a local maximum (touching the $t$-axis), then a local minimum, then a local maximum: $3$ points. (The curve then flattens out asymptotically towards the $t$-axis at the right-hand end, which is not counted.)",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/adv-2025-blacktown-boys/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.9",
+    "11.4.4.3"
+   ],
+   "question": "The graph of $y=f'(x)$ is shown. The curve $y=f(x)$ has a maximum value of $14$. What is the equation of the curve $y=f(x)$?",
+   "answer": "The line passes through $(0,6)$ and $(2,0)$, so $f'(x)=-3x+6$. Then $f(x)=-\\tfrac32x^2+6x+c$. The maximum occurs where $f'(x)=0$, i.e. $x=2$: $f(2)=-6+12+c=14$, so $c=8$ and $f(x)=-\\tfrac32x^2+6x+8$.",
+   "options": [
+    "$y=-\\dfrac32x^2+6x+6$",
+    "$y=\\dfrac32x^2+6x+20$",
+    "$y=\\dfrac32x^2+6x+14$",
+    "$y=-\\dfrac32x^2+6x+8$"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/adv-2025-blacktown-boys/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.1"
+   ],
+   "question": "For the geometric series $18+6+2+\\cdots$, find the common ratio.",
+   "answer": "$r=\\dfrac{6}{18}=\\dfrac13$."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.2"
+   ],
+   "question": "For the geometric series $18+6+2+\\cdots$ (first term $18$, common ratio $\\tfrac13$), find the $8$th term.",
+   "answer": "$T_8=ar^{7}=18\\left(\\tfrac13\\right)^7=\\dfrac{18}{2187}=\\dfrac{2}{243}$."
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.7"
+   ],
+   "question": "For the geometric series $18+6+2+\\cdots$ (first term $18$, common ratio $\\tfrac13$), find the limiting sum.",
+   "answer": "Since $|r|<1$, $S_\\infty=\\dfrac{a}{1-r}=\\dfrac{18}{1-\\frac13}=27$."
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.9.5"
+   ],
+   "question": "Show that $f(x)=x\\cos^2 3x$ is an odd function.",
+   "answer": "$f(-x)=(-x)\\cos^2(-3x)=-x\\cos^2 3x$ (since $\\cos(-\\theta)=\\cos\\theta$) $=-f(x)$. Hence $f$ is odd."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.1",
+    "12.3.3.4"
+   ],
+   "question": "Given $f(x)=x\\cos^2 3x$, find $f'(x)$.",
+   "answer": "Product rule with $u=x$, $v=\\cos^2 3x$: $u'=1$, $v'=2\\cos3x\\cdot(-3\\sin3x)=-6\\cos3x\\sin3x$.\n\n$$f'(x)=x(-6\\cos3x\\sin3x)+\\cos^23x=\\cos^23x-6x\\cos3x\\sin3x.$$"
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.3.13"
+   ],
+   "question": "The queueing times, in minutes, at a busy canteen are modelled by a normal distribution with mean $16$ and standard deviation $4$. Use the table of the standard normal distribution below to find $P(z\\le1.36)$.",
+   "answer": "Read the row $1.3$ and column $0.06$: $P(z\\le1.36)=0.9131$.",
+   "images": [
+    "assets/img/adv-2025-blacktown-boys/q13.png"
+   ]
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.13",
+    "12.6.3.10"
+   ],
+   "question": "The queueing times, in minutes, at a busy canteen are modelled by a normal distribution with mean $16$ and standard deviation $4$. Use the table of the standard normal distribution below to determine the probability that a randomly chosen customer will have to queue between $13$ and $21$ minutes.",
+   "answer": "$z_{13}=\\dfrac{13-16}{4}=-0.75$ and $z_{21}=\\dfrac{21-16}{4}=1.25$.\n\n$$P(13<T<21)=P(z<1.25)-P(z<-0.75)=P(z<1.25)-\\big[1-P(z<0.75)\\big]=0.8944-(1-0.7734)=0.6678.$$",
+   "images": [
+    "assets/img/adv-2025-blacktown-boys/q13.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.11.5"
+   ],
+   "question": "Sketch $y=|4x-2|$, showing all key features.",
+   "answer": "The graph is a V-shape with vertex (and $x$-intercept) at $\\left(\\tfrac12,0\\right)$ and $y$-intercept $(0,2)$. For $x\\le\\tfrac12$ it is the line $y=2-4x$ (gradient $-4$) and for $x\\ge\\tfrac12$ it is $y=4x-2$ (gradient $4$). It passes through $(-1,6)$ and $(3,10)$ (the ends of the interval used in part (b)).",
+   "answer_images": [
+    "assets/img/adv-2025-blacktown-boys/q14a-ans.png"
+   ]
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.8",
+    "12.4.8.5"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_{-1}^{3}|4x-2|\\,dx$. (The graph of $y=|4x-2|$ is a V-shape with vertex $\\left(\\tfrac12,0\\right)$ and passes through $(-1,6)$ and $(3,10)$.)",
+   "answer": "Split at the vertex $x=\\tfrac12$:\n$$\\int_{-1}^{1/2}(2-4x)\\,dx+\\int_{1/2}^{3}(4x-2)\\,dx=\\Big[2x-2x^2\\Big]_{-1}^{1/2}+\\Big[2x^2-2x\\Big]_{1/2}^{3}$$\n$$=\\left(\\tfrac12+4\\right)+\\left(12+\\tfrac12\\right)=\\tfrac92+\\tfrac{25}{2}=17.$$\nCheck with triangle areas: $\\tfrac12\\cdot\\tfrac32\\cdot6+\\tfrac12\\cdot\\tfrac52\\cdot10=\\tfrac92+\\tfrac{25}2=17$."
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.9.3"
+   ],
+   "question": "Given $f(x)=\\dfrac{3}{2-x}+1$, write down the domain of the function using interval notation.",
+   "answer": "We need $2-x\\ne0$, so $x\\ne2$. Domain: $(-\\infty,2)\\cup(2,\\infty)$."
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.5.1",
+    "11.6.1.6"
+   ],
+   "question": "Sketch $f(x)=\\dfrac{3}{2-x}+1$, showing all key features.",
+   "answer": "This is a hyperbola with vertical asymptote $x=2$ and horizontal asymptote $y=1$.\n\n$y$-intercept: $f(0)=\\tfrac32+1=\\tfrac52$, so $\\left(0,\\tfrac52\\right)$. $x$-intercept: $\\dfrac{3}{2-x}=-1\\Rightarrow 2-x=-3\\Rightarrow x=5$, so $(5,0)$.\n\nThe left branch lies above $y=1$ (rising to $+\\infty$ as $x\\to2^-$) and the right branch lies below $y=1$ on the right of $x=2$ (falling to $-\\infty$ as $x\\to2^+$), passing through $(5,0)$.",
+   "answer_images": [
+    "assets/img/adv-2025-blacktown-boys/q15b-ans.png"
+   ]
+  },
+  {
+   "ref": "Q15(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.6.1.6",
+    "11.6.1.10"
+   ],
+   "question": "The function $f(x)=\\dfrac{3}{2-x}+1$ is translated to the left by $4$ units and then dilated vertically by a factor of $6$. What is the equation of the final graph?",
+   "answer": "Translate left by $4$: replace $x$ by $x+4$: $y=\\dfrac{3}{2-(x+4)}+1=\\dfrac{3}{-x-2}+1$.\n\nDilate vertically by $6$: $y=6\\left[\\dfrac{3}{-x-2}+1\\right]=\\dfrac{18}{-x-2}+6=-\\dfrac{18}{x+2}+6$."
+  },
+  {
+   "ref": "Q16",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.13"
+   ],
+   "question": "Solve the equation $2\\sin^2x+\\cos x=1$ for $0\\le x\\le2\\pi$.",
+   "answer": "Using $\\sin^2x=1-\\cos^2x$: $2-2\\cos^2x+\\cos x=1\\Rightarrow 2\\cos^2x-\\cos x-1=0$.\n\n$(2\\cos x+1)(\\cos x-1)=0$, so $\\cos x=-\\tfrac12$ or $\\cos x=1$.\n\n$\\cos x=-\\tfrac12$: $x=\\tfrac{2\\pi}{3},\\ \\tfrac{4\\pi}{3}$. $\\cos x=1$: $x=0,\\ 2\\pi$.\n\n$$x=0,\\ \\frac{2\\pi}{3},\\ \\frac{4\\pi}{3},\\ 2\\pi.$$"
+  },
+  {
+   "ref": "Q17",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.2"
+   ],
+   "question": "In an arithmetic sequence, the sixth term is $37$ and the nineteenth term is $193$. Find the first term, $a$, and the common difference, $d$.",
+   "answer": "$a+5d=37$ (1) and $a+18d=193$ (2). (2)$-$(1): $13d=156\\Rightarrow d=12$. Then $a=37-5(12)=-23$.\n\n$a=-23$, $d=12$."
+  },
+  {
+   "ref": "Q18(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "The table shows the future value of a \\$1 annuity at different interest rates over different numbers of time periods.\n\n| Time period | 1% | 2% | 3% | 4% | 5% |\n|---|---|---|---|---|---|\n| 1 | 1.0000 | 1.0000 | 1.0000 | 1.0000 | 1.0000 |\n| 2 | 2.0100 | 2.0200 | 2.0300 | 2.0400 | 2.0500 |\n| 3 | 3.0301 | 3.0604 | 3.0909 | 3.1216 | 3.1525 |\n| 4 | 4.0604 | 4.1216 | 4.1836 | 4.2465 | 4.3101 |\n| 5 | 5.1010 | 5.2040 | 5.3091 | 5.4163 | 5.5256 |\n| 6 | 6.1520 | 6.3081 | 6.4684 | 6.6330 | 6.8019 |\n| 7 | 7.2135 | 7.4343 | 7.6625 | 7.8983 | 8.1420 |\n| 8 | 8.2857 | 8.5830 | 8.8923 | 9.2142 | 9.5491 |\n\nWhat would be the future value of a \\$7000 per year annuity at $4\\%$ per annum for $5$ years, with interest compounding yearly?",
+   "answer": "From the table (5 periods, $4\\%$) the factor is $5.4163$.\n\n$FV=7000\\times5.4163=\\$37\\,914.10$."
+  },
+  {
+   "ref": "Q18(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "The table shows the future value of a \\$1 annuity at different interest rates over different numbers of time periods.\n\n| Time period | 1% | 2% | 3% | 4% | 5% |\n|---|---|---|---|---|---|\n| 1 | 1.0000 | 1.0000 | 1.0000 | 1.0000 | 1.0000 |\n| 2 | 2.0100 | 2.0200 | 2.0300 | 2.0400 | 2.0500 |\n| 3 | 3.0301 | 3.0604 | 3.0909 | 3.1216 | 3.1525 |\n| 4 | 4.0604 | 4.1216 | 4.1836 | 4.2465 | 4.3101 |\n| 5 | 5.1010 | 5.2040 | 5.3091 | 5.4163 | 5.5256 |\n| 6 | 6.1520 | 6.3081 | 6.4684 | 6.6330 | 6.8019 |\n| 7 | 7.2135 | 7.4343 | 7.6625 | 7.8983 | 8.1420 |\n| 8 | 8.2857 | 8.5830 | 8.8923 | 9.2142 | 9.5491 |\n\nWhat is the annual payment of an annuity that would provide a future value of \\$1\\,020\\,285 after $6$ years at $5\\%$ per annum compound interest (compounding yearly)?",
+   "answer": "From the table (6 periods, $5\\%$) the factor is $6.8019$.\n\n$M=\\dfrac{1\\,020\\,285}{6.8019}=\\$150\\,000$."
+  },
+  {
+   "ref": "Q18(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "The table shows the future value of a \\$1 annuity at different interest rates over different numbers of time periods.\n\n| Time period | 1% | 2% | 3% | 4% | 5% |\n|---|---|---|---|---|---|\n| 1 | 1.0000 | 1.0000 | 1.0000 | 1.0000 | 1.0000 |\n| 2 | 2.0100 | 2.0200 | 2.0300 | 2.0400 | 2.0500 |\n| 3 | 3.0301 | 3.0604 | 3.0909 | 3.1216 | 3.1525 |\n| 4 | 4.0604 | 4.1216 | 4.1836 | 4.2465 | 4.3101 |\n| 5 | 5.1010 | 5.2040 | 5.3091 | 5.4163 | 5.5256 |\n| 6 | 6.1520 | 6.3081 | 6.4684 | 6.6330 | 6.8019 |\n| 7 | 7.2135 | 7.4343 | 7.6625 | 7.8983 | 8.1420 |\n| 8 | 8.2857 | 8.5830 | 8.8923 | 9.2142 | 9.5491 |\n\nAn annuity of \\$4000 per six months is invested at $2\\%$ per annum, compounded every six months, for $3$ years. What will be the amount of interest earned?",
+   "answer": "Each period is six months: $n=6$ periods at $\\tfrac{2\\%}{2}=1\\%$ per period. Table factor $=6.1520$.\n\n$FV=4000\\times6.1520=\\$24\\,608$.\n\nTotal contributions $=6\\times4000=\\$24\\,000$, so interest $=24\\,608-24\\,000=\\$608$."
+  },
+  {
+   "ref": "Q19(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.1",
+    "12.3.1.4"
+   ],
+   "question": "Given $f(x)=\\dfrac{2x}{e^{5x-2}}$, show that $f'(x)=\\dfrac{2(1-5x)}{e^{5x-2}}$.",
+   "answer": "Quotient rule with $u=2x$, $v=e^{5x-2}$: $u'=2$, $v'=5e^{5x-2}$.\n\n$$f'(x)=\\frac{2e^{5x-2}-2x\\cdot5e^{5x-2}}{\\left(e^{5x-2}\\right)^2}=\\frac{e^{5x-2}(2-10x)}{e^{5x-2}\\cdot e^{5x-2}}=\\frac{2-10x}{e^{5x-2}}=\\frac{2(1-5x)}{e^{5x-2}}.$$"
+  },
+  {
+   "ref": "Q19(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.2"
+   ],
+   "question": "Given $f(x)=\\dfrac{2x}{e^{5x-2}}$ and $f'(x)=\\dfrac{2(1-5x)}{e^{5x-2}}$, find the equation of the normal at $x=\\dfrac25$.",
+   "answer": "At $x=\\tfrac25$: $f\\left(\\tfrac25\\right)=\\dfrac{4/5}{e^0}=\\tfrac45$, and $f'\\left(\\tfrac25\\right)=\\dfrac{2(1-2)}{e^0}=-2$.\n\nThe normal has gradient $\\tfrac12$ and passes through $\\left(\\tfrac25,\\tfrac45\\right)$:\n$$y-\\tfrac45=\\tfrac12\\left(x-\\tfrac25\\right)\\Rightarrow 10y-8=5x-2\\Rightarrow 5x-10y+6=0.$$"
+  },
+  {
+   "ref": "Q20",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.3.8",
+    "11.2.3.7"
+   ],
+   "question": "The area of the minor segment of the circle pictured below is $2.5\\ \\text{m}^2$. The segment is cut off by a chord subtending an angle of $\\tfrac{\\pi}{3}$ at the centre $O$, and the radius is $r$. Find the radius of the circle to $2$ decimal places.",
+   "answer": "$A=\\tfrac12r^2(\\theta-\\sin\\theta)=\\tfrac12r^2\\left(\\tfrac\\pi3-\\tfrac{\\sqrt3}{2}\\right)=\\dfrac{r^2(2\\pi-3\\sqrt3)}{12}.$\n\nSetting $A=2.5$: $r^2=\\dfrac{30}{2\\pi-3\\sqrt3}\\approx27.60$, so $r\\approx5.25$ m.",
+   "images": [
+    "assets/img/adv-2025-blacktown-boys/q20.png"
+   ]
+  },
+  {
+   "ref": "Q21(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.7",
+    "12.6.2.6"
+   ],
+   "question": "Consider the probability density function $f$ for a random variable $X$ given by\n$$f(x)=\\begin{cases}\\dfrac{m}{\\sqrt{25+3x}}, & 0\\le x\\le8\\\\[2mm] 0, & \\text{otherwise}\\end{cases}$$\nwhere $m$ is a constant.\n\nShow that $m=\\dfrac34$.",
+   "answer": "The total area under a PDF is $1$: $\\displaystyle\\int_0^8\\frac{m}{\\sqrt{25+3x}}dx=1$.\n\n$$m\\left[\\frac23\\sqrt{25+3x}\\right]_0^8=m\\cdot\\frac23(7-5)=\\frac{4m}{3}=1\\Rightarrow m=\\frac34.$$"
+  },
+  {
+   "ref": "Q21(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.9"
+   ],
+   "question": "Consider the probability density function $f$ for a random variable $X$ given by\n$$f(x)=\\begin{cases}\\dfrac{m}{\\sqrt{25+3x}}, & 0\\le x\\le8\\\\[2mm] 0, & \\text{otherwise}\\end{cases}$$\nwhere $m$ is a constant.\n\nGiven that $m=\\tfrac34$, find the cumulative distribution function $F(x)$.",
+   "answer": "For $0\\le x\\le8$: $F(x)=\\dfrac34\\displaystyle\\int_0^x(25+3t)^{-1/2}dt=\\dfrac34\\cdot\\dfrac23\\Big[\\sqrt{25+3t}\\Big]_0^x=\\dfrac{\\sqrt{25+3x}-5}{2}$.\n\n$$F(x)=\\begin{cases}0,&x<0\\\\[1mm]\\dfrac{\\sqrt{25+3x}-5}{2},&0\\le x\\le8\\\\[2mm]1,&x>8\\end{cases}$$"
+  },
+  {
+   "ref": "Q21(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.2.11"
+   ],
+   "question": "Consider the probability density function $f$ for a random variable $X$ given by\n$$f(x)=\\begin{cases}\\dfrac{m}{\\sqrt{25+3x}}, & 0\\le x\\le8\\\\[2mm] 0, & \\text{otherwise}\\end{cases}$$\nwhere $m$ is a constant.\n\nGiven that $m=\\tfrac34$ and the cumulative distribution function is $F(x)=\\dfrac{\\sqrt{25+3x}-5}{2}$ for $0\\le x\\le8$, find the interquartile range.",
+   "answer": "Solve $F(x)=p$: $\\sqrt{25+3x}=2p+5\\Rightarrow x=\\dfrac{(2p+5)^2-25}{3}$.\n\nUpper quartile ($p=\\tfrac34$): $Q_3=\\dfrac{(6.5)^2-25}{3}=\\dfrac{17.25}{3}=\\dfrac{23}{4}$.\n\nLower quartile ($p=\\tfrac14$): $Q_1=\\dfrac{(5.5)^2-25}{3}=\\dfrac{5.25}{3}=\\dfrac74$.\n\n$$\\text{IQR}=Q_3-Q_1=\\frac{23}{4}-\\frac74=4.$$"
+  },
+  {
+   "ref": "Q22",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.7.3.8",
+    "11.7.2.6"
+   ],
+   "question": "Thomas is playing two games. He is equally likely to win each game (and the games are independent). The probability that he will win at least one of the games is $90\\%$. What is the probability that Thomas will win both games?",
+   "answer": "Let $L$ be the probability he loses a game. $P(\\text{at least one win})=1-P(\\text{lose both})=0.9$, so $L^2=0.1$ and $L=\\sqrt{0.1}\\approx0.316$.\n\n$P(\\text{win a game})=1-0.316=0.684$, so $P(\\text{win both})=0.684^2\\approx0.468$, i.e. about $46.8\\%$."
+  },
+  {
+   "ref": "Q23(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "A Ferris wheel at a city rotates in an anticlockwise direction at a constant rate and does not stop at any time. A camera was attached to point $X$ on the side of car $C$ when $X$ was at its lowest point at 2:00 pm. The height, $h$ in metres, of the point $X$ above the ground level, at time $t$ hours after 2:00 pm is given by\n$$h(t)=52+50\\sin\\!\\left(\\frac{(5t-1)\\pi}{2}\\right).$$\n\nWhat is the minimum height, in metres, of point $X$ above the ground?",
+   "answer": "The minimum occurs when $\\sin(\\cdot)=-1$: $h_{\\min}=52-50=2$ m."
+  },
+  {
+   "ref": "Q23(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "A Ferris wheel at a city rotates in an anticlockwise direction at a constant rate and does not stop at any time. A camera was attached to point $X$ on the side of car $C$ when $X$ was at its lowest point at 2:00 pm. The height, $h$ in metres, of the point $X$ above the ground level, at time $t$ hours after 2:00 pm is given by\n$$h(t)=52+50\\sin\\!\\left(\\frac{(5t-1)\\pi}{2}\\right).$$\n\nAt what time after 2:00 pm does point $X$ first return to its lowest point?",
+   "answer": "Period $=\\dfrac{2\\pi}{5\\pi/2}=\\dfrac45$ hour $=48$ minutes. (At $t=0$, $h=52+50\\sin(-\\tfrac\\pi2)=2$, the lowest point.) So $X$ first returns to its lowest point at $t=0.8$ h, i.e. at 2:48 pm."
+  },
+  {
+   "ref": "Q23(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.1.3"
+   ],
+   "question": "A Ferris wheel at a city rotates in an anticlockwise direction at a constant rate and does not stop at any time. A camera was attached to point $X$ on the side of car $C$ when $X$ was at its lowest point at 2:00 pm. The height, $h$ in metres, of the point $X$ above the ground level, at time $t$ hours after 2:00 pm is given by\n$$h(t)=52+50\\sin\\!\\left(\\frac{(5t-1)\\pi}{2}\\right).$$\n\nFind the number of minutes during one rotation that point $X$ will be at least $77$ m above ground level.",
+   "answer": "Solve $h=77$: $\\sin\\dfrac{(5t-1)\\pi}{2}=\\dfrac{25}{50}=\\dfrac12$, so $\\dfrac{(5t-1)\\pi}{2}=\\dfrac\\pi6$ or $\\dfrac{5\\pi}6$.\n\n$5t-1=\\tfrac13\\Rightarrow t=\\tfrac4{15}$; $\\ 5t-1=\\tfrac53\\Rightarrow t=\\tfrac8{15}$.\n\n$h\\ge77$ for $\\tfrac{4}{15}\\le t\\le\\tfrac{8}{15}$, a duration of $\\tfrac{4}{15}$ hour $=16$ minutes."
+  },
+  {
+   "ref": "Q24",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.6.2"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^2\\frac{3}{7x+2}\\,dx$.",
+   "answer": "$$\\int_0^2\\frac{3}{7x+2}dx=\\frac37\\Big[\\ln|7x+2|\\Big]_0^2=\\frac37(\\ln16-\\ln2)=\\frac37\\ln8=\\frac97\\ln2.$$"
+  },
+  {
+   "ref": "Q25",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.7.2",
+    "12.4.5.2"
+   ],
+   "question": "Find $\\displaystyle\\int\\left(\\sin5x-\\frac{3}{e^{2x}}\\right)dx$.",
+   "answer": "Write $\\dfrac{3}{e^{2x}}=3e^{-2x}$.\n\n$$\\int\\left(\\sin5x-3e^{-2x}\\right)dx=-\\frac15\\cos5x+\\frac32e^{-2x}+C.$$"
+  },
+  {
+   "ref": "Q26(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.1.6",
+    "11.1.4.1"
+   ],
+   "question": "The curves $y=(x-3)^2$ and $y=17-x^2$ intersect at two points, as shown in the diagram. Solve simultaneously to find the $x$-coordinates of the points of intersection of the two curves.",
+   "answer": "$(x-3)^2=17-x^2\\Rightarrow x^2-6x+9=17-x^2\\Rightarrow2x^2-6x-8=0\\Rightarrow x^2-3x-4=0$.\n\n$(x-4)(x+1)=0$, so $x=-1$ or $x=4$.",
+   "images": [
+    "assets/img/adv-2025-blacktown-boys/q26.png"
+   ]
+  },
+  {
+   "ref": "Q26(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.5"
+   ],
+   "question": "The curves $y=(x-3)^2$ and $y=17-x^2$ intersect at $x=-1$ and $x=4$ (the region between them is shaded in the diagram). Find the area enclosed by the two curves.",
+   "answer": "On $[-1,4]$ the curve $y=17-x^2$ lies above $y=(x-3)^2$.\n\n$$A=\\int_{-1}^{4}\\big[(17-x^2)-(x-3)^2\\big]dx=\\int_{-1}^{4}(-2x^2+6x+8)\\,dx=\\Big[-\\tfrac23x^3+3x^2+8x\\Big]_{-1}^{4}$$\n$$=\\left(-\\tfrac{128}{3}+48+32\\right)-\\left(\\tfrac23+3-8\\right)=\\tfrac{112}{3}+\\tfrac{13}{3}=\\frac{125}{3}\\ \\text{units}^2.$$",
+   "images": [
+    "assets/img/adv-2025-blacktown-boys/q26.png"
+   ]
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.5.2",
+    "12.5.3.10"
+   ],
+   "question": "The velocity of a particle moving along a straight line is given by $v=6-4t$, where $t$ is time in seconds. Initially the particle is $8$ units to the right of the origin.\n\nShow that the particle is initially moving to the right.",
+   "answer": "At $t=0$, $v=6-0=6>0$, so the particle is initially moving to the right."
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.9",
+    "12.5.3.10"
+   ],
+   "question": "The velocity of a particle moving along a straight line is given by $v=6-4t$, where $t$ is time in seconds. Initially the particle is $8$ units to the right of the origin.\n\nShow that the displacement function is $x=8+6t-2t^2$.",
+   "answer": "$x=\\int(6-4t)\\,dt=6t-2t^2+C$. At $t=0$, $x=8$, so $C=8$. Hence $x=8+6t-2t^2$."
+  },
+  {
+   "ref": "Q27(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.10",
+    "11.4.5.2"
+   ],
+   "question": "The velocity of a particle moving along a straight line is given by $v=6-4t$, where $t$ is time in seconds. Initially the particle is $8$ units to the right of the origin. The displacement is $x=8+6t-2t^2$.\n\nFind the distance the particle travelled in the first $3$ seconds.",
+   "answer": "The particle changes direction when $v=0$: $6-4t=0\\Rightarrow t=\\tfrac32$.\n\n$x(0)=8$, $x\\left(\\tfrac32\\right)=8+9-\\tfrac92=\\tfrac{25}{2}$, $x(3)=8+18-18=8$.\n\nDistance $=\\left(\\tfrac{25}{2}-8\\right)+\\left(\\tfrac{25}{2}-8\\right)=\\tfrac92+\\tfrac92=9$ units."
+  },
+  {
+   "ref": "Q28(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.3.8"
+   ],
+   "question": "A small meteor passes through a dust shower. It picks up particles and gains weight (kg) in time $t$ (hours) according to the expression $W_t=1.7e^{0.05t}$. What was the initial weight of the meteor?",
+   "answer": "At $t=0$: $W_0=1.7e^{0}=1.7$ kg."
+  },
+  {
+   "ref": "Q28(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.8",
+    "11.5.2.5"
+   ],
+   "question": "A small meteor passes through a dust shower. It picks up particles and gains weight (kg) in time $t$ (hours) according to the expression $W_t=1.7e^{0.05t}$. How long will it take for the meteor to triple in weight?",
+   "answer": "Tripling means $W_t=3\\times1.7=5.1$: $1.7e^{0.05t}=5.1\\Rightarrow e^{0.05t}=3\\Rightarrow t=\\dfrac{\\ln3}{0.05}\\approx21.97$ hours."
+  },
+  {
+   "ref": "Q29",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.7.2.7"
+   ],
+   "question": "Tom and Ricky play against each other in a chess match. The champion will be the first person to win two games. Tom's probability of winning each game is $0.7$ and Ricky's probability of winning each game is $0.3$. What is the probability that Tom wins the match?",
+   "answer": "Tom wins the match by winning in 2 games (TT) or in 3 games (TRT or RTT):\n\n$P=0.7\\times0.7+0.7\\times0.3\\times0.7+0.3\\times0.7\\times0.7=0.49+0.147+0.147=0.784.$"
+  },
+  {
+   "ref": "Q30",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.6",
+    "12.2.2.5"
+   ],
+   "question": "Mike is a building contractor who is planning to build a brick wall that approximates the shape of a trapezoid as shown in the diagram. The shorter base of the trapezoid needs to start with a row of $5$ bricks, and each row must increase by $2$ bricks on each side until all of the $495$ bricks that he has are used. How many rows will Mike be able to lay with the $495$ bricks?",
+   "answer": "Each row has $4$ more bricks than the row above: an arithmetic sequence $5,9,13,\\dots$ with $a=5$, $d=4$.\n\n$S_n=\\dfrac n2[2(5)+(n-1)4]=\\dfrac n2(4n+6)=n(2n+3)=495\\Rightarrow2n^2+3n-495=0.$\n\n$n=\\dfrac{-3\\pm\\sqrt{9+3960}}{4}=\\dfrac{-3\\pm63}{4}$, so $n=15$ or $n=-\\tfrac{33}2$ (rejected). Mike can lay $15$ rows ($15\\times33=495$ bricks).",
+   "images": [
+    "assets/img/adv-2025-blacktown-boys/q30.png"
+   ]
+  },
+  {
+   "ref": "Q31(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.4",
+    "12.5.1.8"
+   ],
+   "question": "Consider the curve given by $y=x^3-12x+2$. Find the coordinates of the stationary points and determine their nature.",
+   "answer": "$\\dfrac{dy}{dx}=3x^2-12=0\\Rightarrow x=\\pm2$. When $x=-2$, $y=-8+24+2=18$; when $x=2$, $y=8-24+2=-14$.\n\n$\\dfrac{d^2y}{dx^2}=6x$: at $x=-2$ it is $-12<0$ (maximum); at $x=2$ it is $12>0$ (minimum).\n\nStationary points: $(-2,18)$ local maximum and $(2,-14)$ local minimum."
+  },
+  {
+   "ref": "Q31(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.7",
+    "12.5.1.6"
+   ],
+   "question": "Consider the curve given by $y=x^3-12x+2$. Determine any point of inflection.",
+   "answer": "$\\dfrac{d^2y}{dx^2}=6x=0\\Rightarrow x=0$, $y=2$. Check the concavity changes: at $x=-1$, $y''=-6<0$ (concave down); at $x=1$, $y''=6>0$ (concave up). So $(0,2)$ is a point of inflection."
+  },
+  {
+   "ref": "Q31(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.9"
+   ],
+   "question": "Consider the curve given by $y=x^3-12x+2$. Sketch the curve for the domain $-4\\le x\\le3$. Clearly label endpoints, turning points, point of inflection, and $y$-intercept.",
+   "answer": "Endpoints: $x=-4$: $y=-64+48+2=-14$, giving $(-4,-14)$; $x=3$: $y=27-36+2=-7$, giving $(3,-7)$.\n\nTurning points $(-2,18)$ (maximum) and $(2,-14)$ (minimum); the $y$-intercept $(0,2)$ is also the point of inflection. The curve rises from $(-4,-14)$ to the maximum $(-2,18)$, falls through $(0,2)$ to the minimum $(2,-14)$, then rises to $(3,-7)$.",
+   "answer_images": [
+    "assets/img/adv-2025-blacktown-boys/q31c-ans.png"
+   ]
+  },
+  {
+   "ref": "Q31(d)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.1",
+    "12.5.2.2"
+   ],
+   "question": "Consider the curve given by $y=x^3-12x+2$. What is the maximum value of $x^3-12x+2$ in the domain $-4\\le x\\le3$?",
+   "answer": "Compare the local maximum $18$ at $x=-2$ with the endpoint values $-14$ and $-7$. The maximum value is $18$."
+  },
+  {
+   "ref": "Q32(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.3"
+   ],
+   "question": "Ravi plans to better support a section of roof truss $ABC$ which sits on top of a wall $CBDE$, by installing two steel ropes $AF$ and $BF$, as shown in the diagram. The wall $CBDE$ sits on the ground, which is a level surface. The apex $A$ of the roof is $11$ m above the ground (so $AE=11$) and the other end of the roof truss (point $B$) is $8$ m above the ground (so $BD=8$). Ravi installs a steel rope from $B$ to a peg at point $F$, which is located at ground level, and another steel rope from $A$ to $F$. The angle of elevation from $F$ to $B$ is $65^\\circ$ and the angle of elevation from $F$ to $A$ is $55^\\circ$.\n\nShow that $DF=8\\cot65^\\circ$.",
+   "answer": "In the right-angled triangle $BDF$ (right angle at $D$), $\\tan65^\\circ=\\dfrac{BD}{DF}=\\dfrac{8}{DF}$, so $DF=\\dfrac{8}{\\tan65^\\circ}=8\\cot65^\\circ$.",
+   "course": "extension1",
+   "images": [
+    "assets/img/adv-2025-blacktown-boys/q32.png"
+   ]
+  },
+  {
+   "ref": "Q32(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.3.1.3"
+   ],
+   "question": "Ravi plans to better support a section of roof truss $ABC$ which sits on top of a wall $CBDE$, by installing two steel ropes $AF$ and $BF$, as shown in the diagram. The wall $CBDE$ sits on the ground, which is a level surface. The apex $A$ of the roof is $11$ m above the ground (so $AE=11$) and the other end of the roof truss (point $B$) is $8$ m above the ground (so $BD=8$). Ravi installs a steel rope from $B$ to a peg at point $F$, which is located at ground level, and another steel rope from $A$ to $F$. The angle of elevation from $F$ to $B$ is $65^\\circ$ and the angle of elevation from $F$ to $A$ is $55^\\circ$. From part (a), $DF=8\\cot65^\\circ$.\n\nThe area of $\\triangle DFE$ is $12.34\\ \\text{m}^2$. Show that $\\angle DFE=59^\\circ12'$.",
+   "answer": "In the right-angled triangle $AEF$ (right angle at $E$), $\\tan55^\\circ=\\dfrac{11}{EF}$, so $EF=11\\cot55^\\circ$.\n\nArea of $\\triangle DFE$: $\\tfrac12(DF)(EF)\\sin\\angle DFE=12.34$\n$$\\tfrac12(8\\cot65^\\circ)(11\\cot55^\\circ)\\sin\\angle DFE=12.34\\Rightarrow\\sin\\angle DFE=\\frac{12.34\\tan65^\\circ\\tan55^\\circ}{44}\\approx0.8589.$$\nSo $\\angle DFE=\\sin^{-1}(0.8589)\\approx59^\\circ12'$ (to the nearest minute, taking the acute angle as in the diagram).",
+   "course": "extension1",
+   "images": [
+    "assets/img/adv-2025-blacktown-boys/q32.png"
+   ]
+  },
+  {
+   "ref": "Q32(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.3.1.3"
+   ],
+   "question": "Ravi plans to better support a section of roof truss $ABC$ which sits on top of a wall $CBDE$, by installing two steel ropes $AF$ and $BF$, as shown in the diagram. The wall $CBDE$ sits on the ground, which is a level surface. The apex $A$ of the roof is $11$ m above the ground (so $AE=11$) and the other end of the roof truss (point $B$) is $8$ m above the ground (so $BD=8$). Ravi installs a steel rope from $B$ to a peg at point $F$, which is located at ground level, and another steel rope from $A$ to $F$. The angle of elevation from $F$ to $B$ is $65^\\circ$ and the angle of elevation from $F$ to $A$ is $55^\\circ$. Given $DF=8\\cot65^\\circ$, $EF=11\\cot55^\\circ$ and $\\angle DFE=59^\\circ12'$, find the slant length of the roof truss $AB$, correct to two decimal places.",
+   "answer": "In $\\triangle DFE$ (cosine rule): $DE^2=DF^2+EF^2-2(DF)(EF)\\cos\\angle DFE$, with $DF\\approx3.7305$, $EF\\approx7.7023$:\n$$DE^2=(8\\cot65^\\circ)^2+(11\\cot55^\\circ)^2-2(8\\cot65^\\circ)(11\\cot55^\\circ)\\cos59^\\circ12'\\Rightarrow DE\\approx6.6194.$$\n$BCED$ is a rectangle, so $BC=DE\\approx6.6194$ m, and $AC=11-8=3$ m. In the right-angled triangle $ABC$:\n$$AB^2=BC^2+AC^2=6.6194^2+3^2\\Rightarrow AB\\approx7.27\\ \\text{m}.$$",
+   "course": "extension1",
+   "images": [
+    "assets/img/adv-2025-blacktown-boys/q32.png"
+   ]
+  },
+  {
+   "ref": "Q33(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.1.1",
+    "12.7.1.3",
+    "12.2.3.5"
+   ],
+   "question": "\\$50\\,000 is borrowed at $9\\%$ per annum reducible interest, calculated monthly. The loan is repaid in equal monthly instalments of $\\$M$ over $6$ years. Interest is charged before repayments are made every month. Let $A_n$ be the amount owing after $n$ monthly repayments.\n\nShow that $A_n=50\\,000\\left(\\dfrac{403}{400}\\right)^n-400M\\left(\\dfrac{\\left(\\frac{403}{400}\\right)^n-1}{3}\\right)$.",
+   "answer": "Monthly rate $=\\dfrac{9\\%}{12}=0.75\\%=\\dfrac{3}{400}$, so the monthly multiplier is $R=1+\\dfrac3{400}=\\dfrac{403}{400}$.\n\n$A_1=50\\,000R-M$\n\n$A_2=(50\\,000R-M)R-M=50\\,000R^2-MR-M$\n\n$A_3=50\\,000R^3-MR^2-MR-M$\n\n$$A_n=50\\,000R^n-M\\left(R^{n-1}+\\dots+R^2+R+1\\right).$$\nThe bracket is a geometric series with $a=1$, ratio $R$, $n$ terms: $\\dfrac{R^n-1}{R-1}=\\dfrac{R^n-1}{3/400}=400\\cdot\\dfrac{R^n-1}{3}$. Hence\n$$A_n=50\\,000\\left(\\frac{403}{400}\\right)^n-400M\\left(\\frac{\\left(\\frac{403}{400}\\right)^n-1}{3}\\right).$$"
+  },
+  {
+   "ref": "Q33(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.1.3"
+   ],
+   "question": "\\$50\\,000 is borrowed at $9\\%$ per annum reducible interest, calculated monthly. The loan is repaid in equal monthly instalments of $\\$M$ over $6$ years. Interest is charged before repayments are made every month. Let $A_n$ be the amount owing after $n$ monthly repayments. Given that $A_n=50\\,000\\left(\\dfrac{403}{400}\\right)^n-400M\\left(\\dfrac{\\left(\\frac{403}{400}\\right)^n-1}{3}\\right)$, show that the monthly repayment is \\$901.28.",
+   "answer": "The loan is repaid after $72$ months, so $A_{72}=0$:\n$$50\\,000\\left(\\tfrac{403}{400}\\right)^{72}=400M\\cdot\\frac{\\left(\\frac{403}{400}\\right)^{72}-1}{3}\\Rightarrow M=\\frac{50\\,000\\left(\\frac{403}{400}\\right)^{72}\\cdot\\frac{3}{400}}{\\left(\\frac{403}{400}\\right)^{72}-1}=\\$901.28.$$"
+  },
+  {
+   "ref": "Q33(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.1.3"
+   ],
+   "question": "\\$50\\,000 is borrowed at $9\\%$ per annum reducible interest, calculated monthly. The loan is repaid in equal monthly instalments of $\\$M$ over $6$ years. Interest is charged before repayments are made every month. Let $A_n$ be the amount owing after $n$ monthly repayments. The monthly repayment is \\$901.28 and $A_n=50\\,000\\left(\\dfrac{403}{400}\\right)^n-400M\\left(\\dfrac{\\left(\\frac{403}{400}\\right)^n-1}{3}\\right)$. What is the balance owing after the $21$st payment?",
+   "answer": "$A_{21}=50\\,000\\left(\\tfrac{403}{400}\\right)^{21}-400(901.28)\\left(\\dfrac{\\left(\\frac{403}{400}\\right)^{21}-1}{3}\\right)=\\$38\\,078.49.$"
+  },
+  {
+   "ref": "Q34(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.3"
+   ],
+   "question": "A manufacturer of chocolates is launching a new product in novelty shaped cardboard boxes. The box is a rectangular prism with a different rectangular prism tunnel through it (open at the top and bottom).\n- The height of the box is $h$ centimetres.\n- The top of the box is a square of side $3x$ centimetres.\n- The end of the tunnel is a square of side $x$ centimetres.\n- The volume of the box is $3456\\ \\text{cm}^3$.\n\nShow that $h=\\dfrac{432}{x^2}$.",
+   "answer": "Volume $=$ (prism) $-$ (tunnel) $=(3x)(3x)h-x\\cdot x\\cdot h=9x^2h-x^2h=8x^2h=3456\\Rightarrow h=\\dfrac{3456}{8x^2}=\\dfrac{432}{x^2}$.",
+   "images": [
+    "assets/img/adv-2025-blacktown-boys/q34.png"
+   ]
+  },
+  {
+   "ref": "Q34(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.3"
+   ],
+   "question": "A manufacturer of chocolates is launching a new product in novelty shaped cardboard boxes. The box is a rectangular prism with a different rectangular prism tunnel through it (open at the top and bottom).\n- The height of the box is $h$ centimetres.\n- The top of the box is a square of side $3x$ centimetres.\n- The end of the tunnel is a square of side $x$ centimetres.\n- The volume of the box is $3456\\ \\text{cm}^3$. The height is $h=\\dfrac{432}{x^2}$.\n\nShow that the total surface area, $A\\ \\text{cm}^2$, of the box is given by $A=16x^2+\\dfrac{6912}{x}$.",
+   "answer": "Total surface area = top and bottom (each $9x^2-x^2$ with the tunnel opening removed) + four outer walls + four inner tunnel walls:\n$$A=2(9x^2-x^2)+4(3x\\cdot h)+4(x\\cdot h)=16x^2+12xh+4xh=16x^2+16xh.$$\nSubstituting $h=\\dfrac{432}{x^2}$: $A=16x^2+\\dfrac{16\\cdot432}{x}=16x^2+\\dfrac{6912}{x}$.",
+   "images": [
+    "assets/img/adv-2025-blacktown-boys/q34.png"
+   ]
+  },
+  {
+   "ref": "Q34(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.5.2.5"
+   ],
+   "question": "The surface area $A\\ \\text{cm}^2$ of a cardboard box is given by $A=16x^2+\\dfrac{6912}{x}$ for $x>0$. To minimise the cost of production, $A$ should be as small as possible. Find the minimum value of $A$.",
+   "answer": "$A=16x^2+6912x^{-1}$, so $\\dfrac{dA}{dx}=32x-\\dfrac{6912}{x^2}$.\n\n$\\dfrac{dA}{dx}=0\\Rightarrow32x^3=6912\\Rightarrow x^3=216\\Rightarrow x=6$.\n\n$\\dfrac{d^2A}{dx^2}=32+\\dfrac{13\\,824}{x^3}$, which at $x=6$ is $96>0$, so this is a minimum.\n\n$A_{\\min}=16(36)+\\dfrac{6912}{6}=576+1152=1728\\ \\text{cm}^2.$"
+  }
+ ]
+}
