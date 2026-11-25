@@ -1,0 +1,470 @@
+{
+ "id": "ext1-2025-knox",
+ "course": "extension1",
+ "school": "Knox",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "Knox 2025 w. sol"
+ },
+ "indexed": "2026-11-25",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q12(a)",
+   "reason": "Not in 2024 syllabus: pigeonhole principle"
+  },
+  {
+   "ref": "Q14(b)",
+   "reason": "Not in 2024 syllabus: normal approximation to a sample proportion (sample proportions)"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "Find $\\displaystyle\\int \\frac{1}{1+4x^2}\\,dx$.",
+   "answer": "Write $\\dfrac{1}{1+4x^2}=\\dfrac12\\cdot\\dfrac{2}{1+(2x)^2}$, so the integral is $\\dfrac12\\tan^{-1}2x+c$ (B).",
+   "options": [
+    "$\\tan^{-1}2x+c$",
+    "$\\dfrac{1}{2}\\tan^{-1}2x+c$",
+    "$2\\tan^{-1}2x+c$",
+    "$\\dfrac{1}{2}\\tan^{-1}\\dfrac{x}{2}+c$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.3.2.4"
+   ],
+   "question": "It is given that $\\cos x=\\dfrac23$, where $0<x<\\dfrac{\\pi}{2}$. What is the value of $\\cos 2x$?",
+   "answer": "$\\cos2x=2\\cos^2x-1=2\\left(\\dfrac49\\right)-1=-\\dfrac19$ (A).",
+   "options": [
+    "$-\\dfrac19$",
+    "$-\\dfrac43$",
+    "$\\dfrac19$",
+    "$\\dfrac43$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.8"
+   ],
+   "question": "A discrete random variable $X$ is binomially distributed with a mean of $6$ and a variance of $1.5$. What is the number of independent trials?",
+   "answer": "$np=6$ and $np(1-p)=1.5$, so $1-p=\\dfrac{1.5}{6}=\\dfrac14$, $p=\\dfrac34$. Then $n=\\dfrac{6}{3/4}=8$ (C).",
+   "options": [
+    "5",
+    "6",
+    "8",
+    "24"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.3"
+   ],
+   "question": "The graph of $y=f(x)$ is shown, and it is transformed to give the graph of $y=g(x)$, also shown. What transformation was applied?",
+   "answer": "$g$ is even, and for $x>0$ it copies the part of $f$ at $-x$ (e.g. $g(1)=f(-1)=1$), so $g(x)=f(-|x|)$ (C). Option A equals $f(|x|)$, which would give $g(1)=f(1)=-2$. Options B and D involve square roots/squares of $f$, which are not defined where $f$ has the wrong sign, or do not give the graph.",
+   "options": [
+    "$g(x)=f(|-x|)$",
+    "$g(x)=\\sqrt{f(-x)}$",
+    "$g(x)=f(-|x|)$",
+    "$[g(x)]^2=-f(x)$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/ext1-2025-knox/q4f.png",
+    "assets/img/ext1-2025-knox/q4g.png"
+   ]
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Which diagram best represents the solution set of $\\dfrac{2}{3-x}\\le 1$?",
+   "answer": "Multiply by $(3-x)^2>0$: $2(3-x)\\le(3-x)^2\\Rightarrow(3-x)(2-(3-x))\\le0\\Rightarrow(3-x)(x-1)\\le0$, i.e. $(x-3)(x-1)\\ge0$ with $x\\ne3$. So $x\\le1$ or $x>3$ (B).",
+   "options": [
+    "![A](assets/img/ext1-2025-knox/q5a.png)",
+    "![B](assets/img/ext1-2025-knox/q5b.png)",
+    "![C](assets/img/ext1-2025-knox/q5c.png)",
+    "![D](assets/img/ext1-2025-knox/q5d.png)"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.2.2"
+   ],
+   "question": "Which of the following is the simplest expression for $\\dfrac{\\cos4\\theta}{\\sin2\\theta}+\\dfrac{\\sin4\\theta}{\\cos2\\theta}$?",
+   "answer": "Common denominator: $\\dfrac{\\cos4\\theta\\cos2\\theta+\\sin4\\theta\\sin2\\theta}{\\sin2\\theta\\cos2\\theta}=\\dfrac{\\cos(4\\theta-2\\theta)}{\\sin2\\theta\\cos2\\theta}=\\dfrac{\\cos2\\theta}{\\sin2\\theta\\cos2\\theta}=\\dfrac1{\\sin2\\theta}=\\operatorname{cosec}2\\theta$ (D).",
+   "options": [
+    "$\\dfrac{2\\cos6\\theta}{\\cos4\\theta}$",
+    "$\\dfrac{\\sin4\\theta}{\\cos2\\theta}$",
+    "$\\sin2\\theta$",
+    "$\\operatorname{cosec}2\\theta$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.2.12",
+    "12.4.1.4"
+   ],
+   "question": "The line $y=3x-4$ is tangential to the graph of $y=f(x)$ at the point where $x=1$. Assuming $y=f(x)$ is invertible, what is the equation of the normal to the graph of $y=f^{-1}(x)$ at the point where $x=-1$?",
+   "answer": "From the tangent, $f(1)=3(1)-4=-1$ and $f'(1)=3$. So $f^{-1}(-1)=1$: the point $(-1,1)$ lies on $y=f^{-1}(x)$, with gradient $\\dfrac{1}{f'(1)}=\\dfrac13$. The normal has gradient $-3$: $y-1=-3(x+1)$, so $y=-3x-2$ (C).",
+   "options": [
+    "$y=-\\dfrac13x-\\dfrac23$",
+    "$y=\\dfrac13x+\\dfrac43$",
+    "$y=-3x-2$",
+    "$y=-3x+3$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.8"
+   ],
+   "question": "In how many ways can the letters of the word DIFFERENT be arranged in a row with the Fs separated?",
+   "answer": "DIFFERENT has 9 letters with two Fs and two Es. All arrangements: $\\dfrac{9!}{2!\\,2!}=90\\,720$. Arrangements with the Fs together (treat FF as one block): $\\dfrac{8!}{2!}=20\\,160$. Fs separated: $90\\,720-20\\,160=70\\,560$ (B).",
+   "options": [
+    "20 160",
+    "70 560",
+    "80 640",
+    "90 720"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.4.9",
+    "12.5.4.4"
+   ],
+   "question": "The general solution to a differential equation is $f(x)=\\ln(e^x+c)$, where $c$ is a constant. Which of the following best represents the direction field for the differential equation?",
+   "answer": "With $y=\\ln(e^x+c)$ we have $e^y=e^x+c$, so $c=e^y-e^x$, and $\\dfrac{dy}{dx}=\\dfrac{e^x}{e^x+c}=\\dfrac{e^x}{e^y}=e^{x-y}$. The slope depends on $x-y$: it equals $1$ along $y=x$, is steep (near vertical) where $y<x$ (below the line) and is nearly horizontal where $y>x$ (above the line). This is diagram D.",
+   "options": [
+    "![A](assets/img/ext1-2025-knox/q9a.png)",
+    "![B](assets/img/ext1-2025-knox/q9b.png)",
+    "![C](assets/img/ext1-2025-knox/q9c.png)",
+    "![D](assets/img/ext1-2025-knox/q9d.png)"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.7",
+    "12.5.2.4"
+   ],
+   "question": "The temperature of a pastry, $T^\\circ$C, is monitored after it is placed into an oven set to a temperature of $160^\\circ$C. It is assumed that $T=160-Ae^{-kt}$, where $A$ and $k$ are constants, and $t$ is the time in minutes after the pastry was placed in the oven. A recording shows that the pastry reaches $100^\\circ$C after $t=10$ minutes and the linear rate of change in the temperature at that time would mean it reaches $160^\\circ$C when $t=25$ minutes, as shown (graph not to scale). What is the value of $k$?",
+   "answer": "$\\dfrac{dT}{dt}=kAe^{-kt}=k(160-T)$. At $t=10$, $T=100$, so the gradient is $60k$. The tangent passes through $(10,100)$ and $(25,160)$, so its gradient is $\\dfrac{160-100}{25-10}=4$. Hence $60k=4$ and $k=\\dfrac1{15}$ (C).",
+   "options": [
+    "$\\dfrac14$",
+    "$-\\dfrac14$",
+    "$\\dfrac1{15}$",
+    "$-\\dfrac1{15}$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/ext1-2025-knox/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.1.17"
+   ],
+   "question": "A mathematics class consists of 4 girls and 4 boys. A committee of 5 students must be formed. Find the number of different committees that can be formed.",
+   "answer": "$\\binom85=56$."
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.19"
+   ],
+   "question": "A mathematics class consists of 4 girls and 4 boys. A committee of 5 students is formed (there are 56 possible committees). Find the probability that there are more girls than boys on the committee.",
+   "answer": "More girls than boys means 3 girls and 2 boys, or 4 girls and 1 boy.\n$\\binom43\\binom42+\\binom44\\binom41=4\\times6+1\\times4=28$.\n$$P=\\frac{28}{56}=\\frac12.$$"
+  },
+  {
+   "ref": "Q11(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.2"
+   ],
+   "question": "Let $f(x)=2\\sin x+6\\cos x+13$, for $0\\le x\\le2\\pi$. Write $2\\sin x+6\\cos x$ in the form $R\\sin(x+\\alpha)$, where $R>0$ and $\\alpha$ is acute.",
+   "answer": "$R\\sin(x+\\alpha)=R\\sin x\\cos\\alpha+R\\cos x\\sin\\alpha$, so $R\\cos\\alpha=2$ and $R\\sin\\alpha=6$.\n$R=\\sqrt{2^2+6^2}=\\sqrt{40}=2\\sqrt{10}$ and $\\tan\\alpha=3$, so $\\alpha=\\tan^{-1}3$.\n$$2\\sin x+6\\cos x=2\\sqrt{10}\\sin\\left(x+\\tan^{-1}3\\right).$$"
+  },
+  {
+   "ref": "Q11(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.3"
+   ],
+   "question": "Let $f(x)=2\\sin x+6\\cos x+13$, for $0\\le x\\le2\\pi$, so that $f(x)=2\\sqrt{10}\\sin\\left(x+\\tan^{-1}3\\right)+13$. Show that $$\\frac1{13+\\sqrt{40}}\\le\\frac1{f(x)}\\le\\frac1{13-\\sqrt{40}}.$$",
+   "answer": "Since $-1\\le\\sin(x+\\tan^{-1}3)\\le1$ and $2\\sqrt{10}=\\sqrt{40}$, we have $13-\\sqrt{40}\\le f(x)\\le13+\\sqrt{40}$.\nBoth bounds are positive ($13>\\sqrt{40}$), so $f(x)>0$ and taking reciprocals reverses the inequalities:\n$$\\frac1{13+\\sqrt{40}}\\le\\frac1{f(x)}\\le\\frac1{13-\\sqrt{40}}.$$\nThe minimum of $\\frac1{f(x)}$ occurs when $\\sin(\\cdot)=1$ and the maximum when $\\sin(\\cdot)=-1$, as required."
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "Find the coefficient of $x^5$ in the expansion of $(1+3x)^2(1+x)^7$.",
+   "answer": "$(1+3x)^2=1+6x+9x^2$. The $x^5$ terms come from $1\\cdot\\binom75x^5$, $6x\\cdot\\binom74x^4$ and $9x^2\\cdot\\binom73x^3$:\n$$\\binom75+6\\binom74+9\\binom73=21+6(35)+9(35)=21+210+315=546.$$"
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.9"
+   ],
+   "question": "Given that $\\overrightarrow{OA}=\\mathbf{u}=\\begin{pmatrix}-3\\\\2\\end{pmatrix}$, $\\overrightarrow{OB}=\\mathbf{v}=\\begin{pmatrix}5\\\\-3\\end{pmatrix}$ and $\\mathbf{w}=\\overrightarrow{AB}$, find $\\operatorname{proj}_{\\mathbf{v}}\\mathbf{w}$.",
+   "answer": "$\\mathbf{w}=\\overrightarrow{AB}=\\mathbf{v}-\\mathbf{u}=\\begin{pmatrix}8\\\\-5\\end{pmatrix}$.\n$\\mathbf{w}\\cdot\\mathbf{v}=8(5)+(-5)(-3)=55$ and $|\\mathbf{v}|^2=25+9=34$.\n$$\\operatorname{proj}_{\\mathbf{v}}\\mathbf{w}=\\frac{\\mathbf{w}\\cdot\\mathbf{v}}{|\\mathbf{v}|^2}\\mathbf{v}=\\frac{55}{34}\\begin{pmatrix}5\\\\-3\\end{pmatrix}.$$"
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Use the substitution $u=\\sin^2x$ to evaluate $\\displaystyle\\int_{\\pi/4}^{\\pi/3}\\frac{\\sin2x}{1+\\sin^2x}\\,dx$, leaving your final answer in the form $\\ln\\dfrac ab$.",
+   "answer": "$u=\\sin^2x\\Rightarrow du=2\\sin x\\cos x\\,dx=\\sin2x\\,dx$.\nWhen $x=\\frac\\pi4$, $u=\\frac12$; when $x=\\frac\\pi3$, $u=\\frac34$.\n$$\\int_{1/2}^{3/4}\\frac{du}{1+u}=\\Big[\\ln|1+u|\\Big]_{1/2}^{3/4}=\\ln\\frac74-\\ln\\frac32=\\ln\\frac{7}{6}.$$"
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "Use mathematical induction to prove that $13\\times6^n+2$ is divisible by 5 for all integers $n\\ge1$.",
+   "answer": "**Step 1 (n = 1).** $13\\times6+2=80=5\\times16$, which is divisible by 5. True for $n=1$.\n**Step 2.** Assume true for $n=k$: $13\\times6^k+2=5M$ for some integer $M$, i.e. $13\\times6^k=5M-2$.\nProve true for $n=k+1$:\n$$13\\times6^{k+1}+2=6(13\\times6^k)+2=6(5M-2)+2=30M-10=5(6M-2),$$\nwhich is divisible by 5 since $6M-2$ is an integer.\n**Step 3.** True for $n=1$, and if true for $n=k$ then true for $n=k+1$; so by the principle of mathematical induction it is true for all integers $n\\ge1$."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.2.6",
+    "12.6.2.9"
+   ],
+   "question": "It is known that an Olympic archer has an $80\\%$ chance of hitting the bullseye. What is the minimum number of shots that must be attempted for the probability of hitting a bullseye exactly 9 times to be higher than the probability of hitting the bullseye exactly 8 times?",
+   "answer": "Let $X\\sim\\text{Bin}(n,0.8)$. We need $P(X=9)>P(X=8)$:\n$$\\binom n9(0.8)^9(0.2)^{n-9}>\\binom n8(0.8)^8(0.2)^{n-8}.$$\nDivide by $(0.8)^8(0.2)^{n-9}$ and use $\\binom n9\\big/\\binom n8=\\dfrac{n-8}{9}$:\n$$\\frac{n-8}{9}(0.8)>0.2\\Rightarrow n-8>\\frac{9}{4}\\Rightarrow n>10.25.$$\nThe minimum number of shots is $11$."
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.5"
+   ],
+   "question": "Using $t=\\tan\\dfrac x2$, solve the equation $5\\sin x-12\\cos x=5$ for $-\\pi\\le x\\le\\pi$, giving answers correct to two decimal places where necessary.",
+   "answer": "With $\\sin x=\\dfrac{2t}{1+t^2}$ and $\\cos x=\\dfrac{1-t^2}{1+t^2}$:\n$$10t-12(1-t^2)=5(1+t^2)\\Rightarrow 7t^2+10t-17=0\\Rightarrow(t-1)(7t+17)=0,$$\nso $t=1$ or $t=-\\dfrac{17}{7}$.\nSince $-\\frac\\pi2\\le\\frac x2\\le\\frac\\pi2$: $\\tan\\frac x2=1\\Rightarrow x=\\dfrac\\pi2$, and $\\tan\\frac x2=-\\frac{17}7\\Rightarrow x=-2\\tan^{-1}\\frac{17}{7}\\approx-2.36$.\n$$x=\\frac\\pi2\\ \\text{ or }\\ x\\approx-2.36.$$ (Check: $x=\\pi$ gives $5\\sin\\pi-12\\cos\\pi=12\\ne5$, so no solution is lost.)",
+   "course": "extension2"
+  },
+  {
+   "ref": "Q12(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "The region enclosed by the curve $y=\\sqrt{\\dfrac{3}{2x+1}}$, the $x$-axis and the lines $x=1$ and $x=a$ is shaded (see diagram). When the shaded region is rotated about the $x$-axis, the solid generated has a volume of $\\pi\\ln\\dfrac{64}{27}$ units$^3$. Find the exact value of $a$.",
+   "answer": "$$V=\\pi\\int_1^a\\frac{3}{2x+1}\\,dx=\\frac{3\\pi}{2}\\Big[\\ln(2x+1)\\Big]_1^a=\\frac{3\\pi}2\\ln\\frac{2a+1}{3}.$$\nSet equal to $\\pi\\ln\\frac{64}{27}$: $\\ln\\dfrac{2a+1}3=\\dfrac23\\ln\\dfrac{64}{27}=\\ln\\left(\\dfrac{64}{27}\\right)^{2/3}=\\ln\\dfrac{16}{9}$.\nSo $\\dfrac{2a+1}{3}=\\dfrac{16}9$, $2a+1=\\dfrac{16}{3}$, giving $$a=\\frac{13}{6}.$$",
+   "images": [
+    "assets/img/ext1-2025-knox/q12e.png"
+   ]
+  },
+  {
+   "ref": "Q12(f)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.5"
+   ],
+   "question": "When a polynomial $P(x)$ is divided by $(x-2)(x+1)$ it gives a remainder of $x-b$. When this polynomial is divided by $x+1$, it gives a remainder of $3$. What is the value of $b$?",
+   "answer": "$P(x)=(x-2)(x+1)Q(x)+x-b$. By the remainder theorem $P(-1)=3$:\n$$3=0+(-1)-b\\Rightarrow b=-4.$$"
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "The area of a sector $ABC$ with a radius of $r$ metres and an angle $\\theta$ radians at the centre $A$ is increasing at a rate of $5\\ \\text{m}^2\\text{s}^{-1}$ while $\\theta$ remains constant. At what rate is the radius $r$ increasing when the arc length of the sector is $20$ m?",
+   "answer": "$A=\\frac12r^2\\theta\\Rightarrow\\dfrac{dA}{dr}=r\\theta$. The arc length is $\\ell=r\\theta$, so $\\dfrac{dA}{dr}=\\ell$.\n$$\\frac{dA}{dt}=\\frac{dA}{dr}\\cdot\\frac{dr}{dt}\\Rightarrow5=20\\frac{dr}{dt}\\Rightarrow\\frac{dr}{dt}=0.25.$$\nThe radius is increasing at $0.25$ m/s.",
+   "images": [
+    "assets/img/ext1-2025-knox/q13a.png"
+   ]
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.5",
+    "12.2.4.3"
+   ],
+   "question": "In the diagram, $\\mathbf a$ and $\\mathbf b$ are unit vectors that intersect at an angle of $2\\theta$. Express $|\\mathbf a+\\mathbf b|^2$ in terms of $\\cos\\theta$.",
+   "answer": "$$|\\mathbf a+\\mathbf b|^2=(\\mathbf a+\\mathbf b)\\cdot(\\mathbf a+\\mathbf b)=|\\mathbf a|^2+2\\,\\mathbf a\\cdot\\mathbf b+|\\mathbf b|^2=1+2\\cos2\\theta+1.$$\nSo $|\\mathbf a+\\mathbf b|^2=2+2(2\\cos^2\\theta-1)=4\\cos^2\\theta$.",
+   "images": [
+    "assets/img/ext1-2025-knox/q13b.png"
+   ]
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.2.12",
+    "11.1.2.5"
+   ],
+   "question": "If $f(x)=f^{-1}(x)$, then the function $f(x)$ is said to be *self-inverse* for all $x$ in the domain. Let $f(x)=\\dfrac{3x-5}{x+k}$. Find the value of $k$ so that $f(x)$ is self-inverse.",
+   "answer": "Let $y=\\dfrac{3x-5}{x+k}$. Swap variables: $x=\\dfrac{3y-5}{y+k}\\Rightarrow xy+kx=3y-5\\Rightarrow y(x-3)=-kx-5$, so $f^{-1}(x)=\\dfrac{-kx-5}{x-3}=\\dfrac{kx+5}{3-x}$.\nSelf-inverse: $\\dfrac{3x-5}{x+k}=\\dfrac{kx+5}{3-x}$, so $(3x-5)(3-x)=(kx+5)(x+k)$:\n$$-3x^2+14x-15=kx^2+(k^2+5)x+5k.$$\nComparing $x^2$ coefficients: $k=-3$. Check: $k^2+5=14$ and $5k=-15$. \n$$k=-3.$$"
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.2",
+    "12.4.1.1"
+   ],
+   "question": "A curve is defined parametrically by $x=\\cos(\\sin^{-1}t)$, $y=\\sin(\\sin^{-1}t)$, where $0\\le t\\le1$. Find the equation of the tangent to the curve at the point where $t=0$.",
+   "answer": "For $0\\le t\\le1$, $\\sin(\\sin^{-1}t)=t$ and $\\cos(\\sin^{-1}t)=\\sqrt{1-t^2}$. So $x=\\sqrt{1-t^2}$, $y=t$.\n$\\dfrac{dx}{dt}=\\dfrac{-t}{\\sqrt{1-t^2}}$, $\\dfrac{dy}{dt}=1$, so $\\dfrac{dy}{dx}=\\dfrac{\\sqrt{1-t^2}}{-t}$.\nAt $t=0$ the point is $(1,0)$ and $\\dfrac{dx}{dt}=0$, $\\dfrac{dy}{dt}=1\\ne0$: the gradient is undefined, so the tangent is vertical.\n$$x=1.$$ (Alternatively, $x^2+y^2=1$ with $y\\ge0$ is a unit semicircle, whose tangent at $(1,0)$ is $x=1$.)"
+  },
+  {
+   "ref": "Q13(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.1",
+    "12.4.2.2"
+   ],
+   "question": "The region enclosed by the graph of $y=\\tan^{-1}x$, the $x$-axis and the lines $x=1$ and $x=\\sqrt3$ is shaded (see diagram; the curve passes through $\\left(1,\\frac\\pi4\\right)$ and $\\left(\\sqrt3,\\frac\\pi3\\right)$). Find the area of the shaded region, leaving your answer in exact form.",
+   "answer": "Area $=\\displaystyle\\int_1^{\\sqrt3}\\tan^{-1}x\\,dx$. This equals the rectangle $[0,\\sqrt3]\\times[0,\\frac\\pi3]$ minus the rectangle $[0,1]\\times[0,\\frac\\pi4]$ minus the area between $x=\\tan y$ and the $y$-axis for $\\frac\\pi4\\le y\\le\\frac\\pi3$:\n$$A=\\frac{\\pi\\sqrt3}{3}-\\frac\\pi4-\\int_{\\pi/4}^{\\pi/3}\\tan y\\,dy.$$\n$\\displaystyle\\int_{\\pi/4}^{\\pi/3}\\tan y\\,dy=\\Big[-\\ln|\\cos y|\\Big]_{\\pi/4}^{\\pi/3}=-\\ln\\frac12+\\ln\\frac1{\\sqrt2}=\\ln2-\\frac12\\ln2=\\frac12\\ln2$.\n$$A=\\frac{\\pi\\sqrt3}{3}-\\frac\\pi4-\\frac12\\ln2=\\frac{4\\pi\\sqrt3-3\\pi-6\\ln2}{12}.$$",
+   "images": [
+    "assets/img/ext1-2025-knox/q13e.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.6",
+    "12.2.3.3"
+   ],
+   "question": "The diagram shows a triangle $ABD$ with $C$ on $BD$, where $\\overrightarrow{AD}=\\mathbf a$ and $\\overrightarrow{BC}=\\mathbf b$. Given that $5\\overrightarrow{BD}=6\\overrightarrow{CD}$, prove that $\\overrightarrow{AB}=\\mathbf a-6\\mathbf b$.",
+   "answer": "$\\overrightarrow{BD}=\\overrightarrow{BC}+\\overrightarrow{CD}=\\mathbf b+\\overrightarrow{CD}$. Substituting into $5\\overrightarrow{BD}=6\\overrightarrow{CD}$:\n$$5\\mathbf b+5\\overrightarrow{CD}=6\\overrightarrow{CD}\\Rightarrow\\overrightarrow{CD}=5\\mathbf b.$$\nSo $\\overrightarrow{BD}=\\mathbf b+5\\mathbf b=6\\mathbf b$.\n$$\\overrightarrow{AB}=\\overrightarrow{AD}+\\overrightarrow{DB}=\\mathbf a-6\\mathbf b.$$",
+   "images": [
+    "assets/img/ext1-2025-knox/q14a.png"
+   ]
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.4.13",
+    "12.4.2.2"
+   ],
+   "question": "Use the substitution $x=\\sin\\theta$, for $-\\dfrac\\pi2<\\theta<\\dfrac\\pi2$, to solve the differential equation $\\dfrac{dy}{dx}=y\\sqrt{1-x^2}$ where $-1<x<1$, given that $y=2$ when $x=0$.",
+   "answer": "Separate variables: $\\displaystyle\\int\\frac{dy}{y}=\\int\\sqrt{1-x^2}\\,dx$.\nWith $x=\\sin\\theta$, $dx=\\cos\\theta\\,d\\theta$ and $\\sqrt{1-x^2}=\\cos\\theta$ (as $\\cos\\theta>0$):\n$$\\int\\cos^2\\theta\\,d\\theta=\\frac12\\int(1+\\cos2\\theta)\\,d\\theta=\\frac\\theta2+\\frac{\\sin2\\theta}{4}+C.$$\nSo $\\ln|y|=\\dfrac{\\theta}{2}+\\dfrac{\\sin\\theta\\cos\\theta}{2}+C=\\dfrac{\\sin^{-1}x+x\\sqrt{1-x^2}}{2}+C$.\nWhen $x=0$, $y=2$: $\\ln2=C$.\n$$y=2\\exp\\left(\\frac{\\sin^{-1}x+x\\sqrt{1-x^2}}{2}\\right).$$"
+  },
+  {
+   "ref": "Q14(d)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.6.7",
+    "12.2.6.5"
+   ],
+   "question": "A particle is projected from the origin with initial speed $v_0$ m/s at an angle $\\theta$ to the horizontal. The velocity vector at time $t$ after projection is $\\mathbf v(t)=\\begin{pmatrix}v_0\\cos\\theta\\\\v_0\\sin\\theta-gt\\end{pmatrix}$ (do not prove this). The speed of the projectile is half of the initial speed when it is at a vertical height of $H$ metres above the horizontal. Show that $H=\\dfrac{3v_0^2}{8g}$.",
+   "answer": "Speed $=\\tfrac12v_0$ means $|\\mathbf v|^2=\\tfrac14v_0^2$:\n$$v_0^2\\cos^2\\theta+(v_0\\sin\\theta-gt)^2=\\tfrac14v_0^2\\Rightarrow v_0^2-2v_0gt\\sin\\theta+g^2t^2=\\tfrac14v_0^2,$$\nso $g^2t^2=2v_0gt\\sin\\theta-\\tfrac34v_0^2\\quad(1)$.\nIntegrating the vertical velocity (with $y=0$ at $t=0$): $y=v_0t\\sin\\theta-\\tfrac12gt^2$. At this time $y=H$, and by (1) $\\tfrac12gt^2=\\dfrac{1}{2g}\\left(2v_0gt\\sin\\theta-\\tfrac34v_0^2\\right)=v_0t\\sin\\theta-\\dfrac{3v_0^2}{8g}$. Hence\n$$H=v_0t\\sin\\theta-\\left(v_0t\\sin\\theta-\\frac{3v_0^2}{8g}\\right)=\\frac{3v_0^2}{8g}.$$"
+  },
+  {
+   "ref": "Q14(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.2.6.8"
+   ],
+   "question": "A particle is projected from the origin with initial speed $v_0$ m/s at an angle $\\theta$ to the horizontal, with velocity $\\mathbf v(t)=\\begin{pmatrix}v_0\\cos\\theta\\\\v_0\\sin\\theta-gt\\end{pmatrix}$. The speed of the projectile equals half of its initial speed, $\\tfrac12v_0$, exactly when $g^2t^2-2v_0g\\sin\\theta\\,t+\\tfrac34v_0^2=0$. If the speed of the projectile is half of its initial speed only once during its flight, find the value of $\\theta$.",
+   "answer": "The quadratic in $t$ has exactly one solution when its discriminant is zero:\n$$(2v_0g\\sin\\theta)^2-4g^2\\cdot\\tfrac34v_0^2=0\\Rightarrow4\\sin^2\\theta=3\\Rightarrow\\sin\\theta=\\frac{\\sqrt3}2$$\n(taking $0<\\theta<\\frac\\pi2$ as an angle of projection). Therefore $$\\theta=\\frac\\pi3\\ (60^\\circ).$$ (This is when the speed is half of $v_0$ only at the top of the flight, where $v=v_0\\cos\\theta=\\frac12v_0$.)"
+  }
+ ]
+}
