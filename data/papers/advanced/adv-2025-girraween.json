@@ -1,0 +1,668 @@
+{
+ "id": "adv-2025-girraween",
+ "course": "advanced",
+ "school": "Girraween",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5328",
+  "title": "Girraween 2025 w. sol"
+ },
+ "indexed": "2026-11-26",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q17",
+   "reason": "Scatterplots and least-squares regression lines (bivariate data) are not in the 2024 Mathematics Advanced syllabus."
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "The amplitude and period of the curve $f(x)=3\\sin(4x)$ are:",
+   "answer": "The amplitude is $3$ and the period is $\\dfrac{2\\pi}{4}=\\dfrac{\\pi}{2}$ (D).",
+   "options": [
+    "amplitude $=3$, period $=4$",
+    "amplitude $=4$, period $=3$",
+    "amplitude $=3$, period $=\\dfrac{\\pi}{4}$",
+    "amplitude $=3$, period $=\\dfrac{\\pi}{2}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.8"
+   ],
+   "question": "What amount must be invested to obtain a future value of $\\$30\\,000$ after 15 years at a rate of $12\\%$ p.a. compounded quarterly?",
+   "answer": "The rate is $3\\%$ per quarter for $60$ quarters: $30\\,000=P(1.03)^{60}$, so $P=\\dfrac{30\\,000}{1.03^{60}}=\\$5091.99$ (B).",
+   "options": [
+    "$\\$182.93$",
+    "$\\$5091.99$",
+    "$\\$5480.89$",
+    "$\\$176\\,748.09$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7",
+    "12.3.2.3"
+   ],
+   "question": "Which of the following represents a possible primitive function of $f'(x)=\\dfrac{4}{2-x}$?",
+   "answer": "$\\displaystyle\\int\\frac{4}{2-x}dx=4\\times\\frac{\\ln|2-x|}{-1}=-4\\ln|2-x|+c$ (B). (Check: $\\dfrac{d}{dx}\\left(-4\\ln|2-x|\\right)=-4\\cdot\\dfrac{-1}{2-x}=\\dfrac{4}{2-x}$.)",
+   "options": [
+    "$f(x)=-2\\log|2-x|$",
+    "$f(x)=-4\\log|2-x|$",
+    "$f(x)=4\\log|2+x|$",
+    "$f(x)=4\\log|2-x|$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.2.8",
+    "11.1.2.9"
+   ],
+   "question": "What is the domain and range of the function $f(x)=\\sqrt{4-x^2}$?",
+   "answer": "We need $4-x^2\\ge0$, so $-2\\le x\\le2$. The graph is the upper semicircle of radius $2$ (centre the origin), so the range is $[0,2]$ (D).",
+   "options": [
+    "Domain: $[-2,2]$, Range: $[-2,2]$",
+    "Domain: $[0,2]$, Range: $[0,4]$",
+    "Domain: $[-4,4]$, Range: $[0,2]$",
+    "Domain: $[-2,2]$, Range: $[0,2]$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.3.10"
+   ],
+   "question": "Differentiate: $y=2(3x-7)^4$.",
+   "answer": "By the chain rule, $y'=2\\times4\\times3\\,(3x-7)^3=24(3x-7)^3$ (D).",
+   "options": [
+    "$8(3x-7)^3$",
+    "$8(3x-7)^4$",
+    "$12(3x-7)^3$",
+    "$24(3x-7)^3$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.7",
+    "11.2.3.8"
+   ],
+   "question": "$AOB$ is a sector of a circle with centre $O$ and radius $5$ cm. The sector has an area of $10\\pi$ cm$^2$. What is the arc length of the sector in exact form?",
+   "answer": "$A=\\tfrac12r^2\\theta$: $10\\pi=\\tfrac12(25)\\theta$, so $\\theta=\\dfrac{4\\pi}{5}$. The arc length is $l=r\\theta=5\\times\\dfrac{4\\pi}{5}=4\\pi$ cm (B).",
+   "options": [
+    "$2\\pi$ cm",
+    "$4\\pi$ cm",
+    "$6\\pi$ cm",
+    "$10\\pi$ cm"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/adv-2025-girraween/q6.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.1",
+    "12.2.3.2"
+   ],
+   "question": "The first term of a geometric series is $4$ and the third term is $9$. The common ratio is negative. The $40^{\\text{th}}$ term of the series is given by:",
+   "answer": "$ar^2=9$ with $a=4$ gives $r^2=\\dfrac94$, so $r=-\\dfrac32$ (negative). Then $T_{40}=ar^{39}=4\\times(-1.5)^{39}$ (C).",
+   "options": [
+    "$T_{40}=4\\times(-1.5)^{40}$",
+    "$T_{40}=4+(40-1)\\times(-2.5)$",
+    "$T_{40}=4\\times(-1.5)^{39}$",
+    "$T_{40}=4\\times(-2.5)^{39}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.10",
+    "12.6.3.11"
+   ],
+   "question": "A normally distributed random variable $X$ has a mean of $90$. It is known that $P(X<85)\\approx0.1587$. Find $P(90<X<95)$.",
+   "answer": "By symmetry $P(X>95)=P(X<85)=0.1587$, so $P(X>90)=0.5$ and $P(90<X<95)=0.5-0.1587=0.3413$ (C). (This is the 68–95–99.7 rule: $85$ and $95$ are one standard deviation from the mean.)",
+   "options": [
+    "$0.1587$",
+    "$0.3174$",
+    "$0.3413$",
+    "$0.9207$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.9",
+    "11.3.1.12"
+   ],
+   "question": "Given that $\\sin\\theta=-\\dfrac{7}{13}$ and $\\tan\\theta>0$, which of the following is equivalent to $\\sec\\theta$?",
+   "answer": "$\\sin\\theta<0$ and $\\tan\\theta>0$, so $\\theta$ is in the third quadrant and $\\cos\\theta<0$. The adjacent side is $\\sqrt{13^2-7^2}=\\sqrt{120}$, so $\\cos\\theta=-\\dfrac{\\sqrt{120}}{13}$ and $\\sec\\theta=-\\dfrac{13}{\\sqrt{120}}$ (C).",
+   "options": [
+    "$\\dfrac{7}{\\sqrt{120}}$",
+    "$-\\dfrac{13}{7}$",
+    "$-\\dfrac{13}{\\sqrt{120}}$",
+    "$-\\dfrac{\\sqrt{120}}{13}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.5",
+    "12.5.1.6"
+   ],
+   "question": "The graph of $y=f(x)$ is shown. At $x=A$ and $x=C$ there are stationary points, and at $x=B$ there is a point of inflection. Which of the domains below show where $f'(x)<0$ and $f''(x)>0$?",
+   "answer": "$f'(x)<0$ means the curve is decreasing (between $A$ and $C$), and $f''(x)>0$ means it is concave up (to the right of the inflection $B$). Both hold for $B<x<C$ (D). (For $A<x<B$ the curve decreases but is concave down.)",
+   "options": [
+    "$x<A$",
+    "$x>C$",
+    "$A<x<B$",
+    "$B<x<C$"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/adv-2025-girraween/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.3.9"
+   ],
+   "question": "Differentiate: $\\dfrac{5x^2-7}{x+2}$.",
+   "answer": "Quotient rule, with $u=5x^2-7$, $v=x+2$:\n$$\\frac{dy}{dx}=\\frac{10x(x+2)-(5x^2-7)}{(x+2)^2}=\\frac{5x^2+20x+7}{(x+2)^2}$$"
+  },
+  {
+   "ref": "Q12",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.11.6"
+   ],
+   "question": "Solve the equation $|2x-3|=9x$.",
+   "answer": "Case 1: $2x-3=9x\\Rightarrow x=-\\dfrac37$. Then $9x<0$, but $|2x-3|\\ge0$, so this is rejected.\nCase 2: $2x-3=-9x\\Rightarrow x=\\dfrac{3}{11}$. Check: $|2\\times\\frac{3}{11}-3|=\\frac{27}{11}=9\\times\\frac{3}{11}$ ✓.\nThe solution is $x=\\dfrac{3}{11}$."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.2.7"
+   ],
+   "question": "A bag contains 5 red, 6 green and 3 white jellybeans. Two jellybeans are chosen at random without replacement. Draw a probability tree for the situation.",
+   "answer": "There are 14 jellybeans. First pick: R $\\frac{5}{14}$, G $\\frac{6}{14}$, W $\\frac{3}{14}$. Second pick (without replacement):\n\n| First | Second R | Second G | Second W |\n|---|---|---|---|\n| R | $\\frac{4}{13}$ | $\\frac{6}{13}$ | $\\frac{3}{13}$ |\n| G | $\\frac{5}{13}$ | $\\frac{5}{13}$ | $\\frac{3}{13}$ |\n| W | $\\frac{5}{13}$ | $\\frac{6}{13}$ | $\\frac{2}{13}$ |\n\nEach branch is labelled with these probabilities."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.2.7"
+   ],
+   "question": "A bag contains 5 red, 6 green and 3 white jellybeans. Two jellybeans are chosen at random without replacement. Find the probability of selecting at least 1 red jellybean.",
+   "answer": "$P(\\text{at least 1 red})=1-P(\\text{no red})=1-\\dfrac{9}{14}\\times\\dfrac{8}{13}=1-\\dfrac{72}{182}=\\dfrac{110}{182}=\\dfrac{55}{91}$."
+  },
+  {
+   "ref": "Q14",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.3.11",
+    "11.1.3.1"
+   ],
+   "question": "Find the coordinates of the point on the curve $y=x^2-2x-3$ where the tangent is perpendicular to the line $x+4y-1=0$.",
+   "answer": "The line has gradient $-\\dfrac14$, so the tangent has gradient $4$ (perpendicular).\n$y'=2x-2=4\\Rightarrow x=3$, and $y=9-6-3=0$.\nThe point is $(3,0)$."
+  },
+  {
+   "ref": "Q15",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.7.2",
+    "12.4.8.1"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^{\\pi/4}\\cos2x\\,dx$.",
+   "answer": "$$\\int_0^{\\pi/4}\\cos2x\\,dx=\\left[\\tfrac12\\sin2x\\right]_0^{\\pi/4}=\\tfrac12\\sin\\tfrac{\\pi}{2}-\\tfrac12\\sin0=\\tfrac12$$"
+  },
+  {
+   "ref": "Q16",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.5",
+    "12.5.1.9"
+   ],
+   "question": "The graph shows the gradient function $y=f'(x)$ for a particular curve. On the same set of axes, sketch a possible primitive function $y=f(x)$ of the curve. Note: carefully line up any stationary points and points of inflection.",
+   "answer": "Where $f'$ crosses the $x$-axis, $f$ has stationary points: a local minimum at the left zero (where $f'$ goes from negative to positive), a local maximum at the middle zero ($f'$ positive to negative), and a local minimum at the right zero. Where $f'$ has its local maximum and minimum, $f$ has points of inflection. The $y$-position of the curve is arbitrary (any vertical shift is a primitive). The sketch looks like an upward-opening quartic shape (a \"W\").",
+   "images": [
+    "assets/img/adv-2025-girraween/q16.png"
+   ],
+   "answer_images": [
+    "assets/img/adv-2025-girraween/a16.png"
+   ]
+  },
+  {
+   "ref": "Q18(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "A ship ($S$) observes a lighthouse ($L$) to be on a bearing of $\\text{N}26^\\circ\\text{E}$ and a tower ($T$) to be on a bearing of $\\text{N}70^\\circ\\text{E}$. The bearing of the lighthouse from the tower is $\\text{N}15^\\circ\\text{E}$ and the distance from the lighthouse to the tower is $6.8$ km. Complete the diagram showing the above information.",
+   "answer": "Draw north lines at $S$ and $T$ (and $L$). $L$ is at $26^\\circ$ east of north from $S$, $T$ is at $70^\\circ$ east of north from $S$, and $L$ is $15^\\circ$ east of north from $T$. Mark $LT=6.8$ km. The angle $LST=70^\\circ-26^\\circ=44^\\circ$.",
+   "images": [
+    "assets/img/adv-2025-girraween/q18.png"
+   ],
+   "answer_images": [
+    "assets/img/adv-2025-girraween/a18.png"
+   ]
+  },
+  {
+   "ref": "Q18(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "A ship ($S$) observes a lighthouse ($L$) on a bearing of $\\text{N}26^\\circ\\text{E}$ and a tower ($T$) on a bearing of $\\text{N}70^\\circ\\text{E}$. The bearing of the lighthouse from the tower is $\\text{N}15^\\circ\\text{E}$ and $LT=6.8$ km. Find the distance of the ship to the tower, correct to one decimal place.",
+   "answer": "$\\angle LST=70^\\circ-26^\\circ=44^\\circ$. The bearing of $T$ from $L$ is $195^\\circ$ and of $S$ from $L$ is $206^\\circ$, so $\\angle SLT=206^\\circ-195^\\circ=11^\\circ$.\nSine rule in $\\triangle SLT$: $\\dfrac{ST}{\\sin11^\\circ}=\\dfrac{6.8}{\\sin44^\\circ}$, so $ST=\\dfrac{6.8\\sin11^\\circ}{\\sin44^\\circ}=1.87\\ldots\\approx1.9$ km.",
+   "images": [
+    "assets/img/adv-2025-girraween/q18.png"
+   ]
+  },
+  {
+   "ref": "Q19",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.6.1.6",
+    "12.1.1.1"
+   ],
+   "question": "Find the equation of the new function if $f(x)=x^3$ is transformed in the following order: 1. horizontal dilation by a factor of 3; 2. reflection across the $y$-axis; 3. translated to the left by 1 unit.",
+   "answer": "1. Horizontal dilation by a factor of $3$: $x\\to\\dfrac x3$, giving $y=\\left(\\dfrac x3\\right)^3$.\n2. Reflection in the $y$-axis: $x\\to-x$, giving $y=\\left(-\\dfrac x3\\right)^3$.\n3. Translation $1$ unit left: $x\\to x+1$, giving $y=\\left(-\\dfrac{x+1}{3}\\right)^3$.\n$$y=-\\frac{(x+1)^3}{27}$$"
+  },
+  {
+   "ref": "Q20(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.1.3"
+   ],
+   "question": "A discrete random variable $X$ has the probability distribution table: $P(X=1)=0.7$, $P(X=2)=m$, $P(X=3)=0.2$. Find the value of $m$.",
+   "answer": "The probabilities sum to 1: $0.7+m+0.2=1$, so $m=0.1$."
+  },
+  {
+   "ref": "Q20(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.1.5"
+   ],
+   "question": "A discrete random variable $X$ has $P(X=1)=0.7$, $P(X=2)=0.1$, $P(X=3)=0.2$. Calculate the expected value $E(X)$.",
+   "answer": "$E(X)=1(0.7)+2(0.1)+3(0.2)=1.5$."
+  },
+  {
+   "ref": "Q20(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.7",
+    "12.6.1.9"
+   ],
+   "question": "A discrete random variable $X$ has $P(X=1)=0.7$, $P(X=2)=0.1$, $P(X=3)=0.2$. Calculate the standard deviation of the distribution, to 2 decimal places.",
+   "answer": "$E(X^2)=1(0.7)+4(0.1)+9(0.2)=2.9$, so $\\text{Var}(X)=2.9-1.5^2=0.65$ and $\\sigma=\\sqrt{0.65}=0.81$."
+  },
+  {
+   "ref": "Q21(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.10",
+    "12.6.3.14"
+   ],
+   "question": "Cailey produces and sells tubs of slime. The weights of the tubs of slime are normally distributed. $84\\%$ of her tubs weigh more than $152$ grams and $16\\%$ of her tubs weigh more than $200$ grams. Find the mean, $\\mu$, and the standard deviation, $\\sigma$, of the distribution.",
+   "answer": "$84\\%$ above $152$ means $152$ is one standard deviation below the mean, and $16\\%$ above $200$ means $200$ is one standard deviation above the mean (the $68\\%$ rule).\n$\\mu-\\sigma=152$ and $\\mu+\\sigma=200$, so $\\mu=176$ g and $\\sigma=24$ g."
+  },
+  {
+   "ref": "Q21(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.11"
+   ],
+   "question": "The weights of tubs of slime are normally distributed with mean $176$ g and standard deviation $24$ g. Find the percentage of tubs of slime that weigh between $152$ grams and $224$ grams.",
+   "answer": "$152=\\mu-\\sigma$ and $224=\\mu+2\\sigma$. Using the empirical rule: $34\\%+34\\%+13.5\\%=81.5\\%$."
+  },
+  {
+   "ref": "Q22",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.11",
+    "11.3.1.12"
+   ],
+   "question": "Show that $\\dfrac{\\tan\\theta\\sec\\theta}{1+\\tan^2\\theta}=\\sin\\theta$.",
+   "answer": "Using $1+\\tan^2\\theta=\\sec^2\\theta$:\n$$\\text{LHS}=\\frac{\\tan\\theta\\sec\\theta}{\\sec^2\\theta}=\\frac{\\tan\\theta}{\\sec\\theta}=\\frac{\\sin\\theta}{\\cos\\theta}\\times\\cos\\theta=\\sin\\theta=\\text{RHS}$$"
+  },
+  {
+   "ref": "Q23(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.9"
+   ],
+   "question": "A continuous probability distribution is given by $f(x)=\\dfrac{3x^2}{279}$, defined in the domain $[4,7]$. Find the cumulative distribution function.",
+   "answer": "$$F(x)=\\int_4^x\\frac{3t^2}{279}dt=\\left[\\frac{t^3}{279}\\right]_4^x=\\frac{x^3-64}{279},\\quad4\\le x\\le7$$ ($F(x)=0$ for $x<4$ and $F(x)=1$ for $x>7$; check $F(7)=\\frac{343-64}{279}=1$.)"
+  },
+  {
+   "ref": "Q23(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.11"
+   ],
+   "question": "A continuous probability distribution is given by $f(x)=\\dfrac{3x^2}{279}$ on $[4,7]$, with cumulative distribution function $F(x)=\\dfrac{x^3-64}{279}$. Find the median of the distribution to 1 decimal place.",
+   "answer": "$F(m)=0.5$: $m^3-64=139.5$, so $m^3=203.5$ and $m=\\sqrt[3]{203.5}=5.88\\ldots\\approx5.9$."
+  },
+  {
+   "ref": "Q24(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.1.4",
+    "12.5.1.8",
+    "12.3.4.1"
+   ],
+   "question": "Consider the function $y=(1+x)e^{-2x}$. Find the coordinates of any stationary points and determine their nature.",
+   "answer": "$y'=e^{-2x}-2(1+x)e^{-2x}=e^{-2x}(-1-2x)=-e^{-2x}(1+2x)$.\n$y'=0$ gives $x=-\\tfrac12$ (since $e^{-2x}>0$), and $y=\\tfrac12e^{1}=\\dfrac e2$. Stationary point: $\\left(-\\tfrac12,\\dfrac e2\\right)$.\n$y''=4xe^{-2x}$ (see part b), so $y''\\left(-\\tfrac12\\right)=-2e<0$: a **local maximum**. (Or by testing the sign of $y'$: positive at $x=-1$, negative at $x=0$.)"
+  },
+  {
+   "ref": "Q24(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.1.6",
+    "12.5.1.8"
+   ],
+   "question": "Consider the function $y=(1+x)e^{-2x}$. Find the point of inflection.",
+   "answer": "Differentiating $y'=-e^{-2x}(1+2x)$:\n$$y''=2e^{-2x}(1+2x)-2e^{-2x}=4xe^{-2x}$$\n$y''=0$ when $x=0$. For $x<0$, $y''<0$, and for $x>0$, $y''>0$, so the concavity changes. The point of inflection is $(0,1)$."
+  },
+  {
+   "ref": "Q24(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.9",
+    "11.5.1.1"
+   ],
+   "question": "Consider the function $y=(1+x)e^{-2x}$. Describe the behaviour of the curve as $x\\to\\pm\\infty$.",
+   "answer": "As $x\\to\\infty$, $e^{-2x}\\to0$ faster than $(1+x)$ grows, so $y\\to0$ (from above): $y=0$ is a horizontal asymptote.\nAs $x\\to-\\infty$, $e^{-2x}\\to\\infty$ and $(1+x)\\to-\\infty$, so $y\\to-\\infty$."
+  },
+  {
+   "ref": "Q24(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.9"
+   ],
+   "question": "Consider the function $y=(1+x)e^{-2x}$. Sketch the curve, showing all important features including intercepts.",
+   "answer": "Intercepts: $x$-intercept $(-1,0)$ and $y$-intercept $(0,1)$. Local maximum $\\left(-\\tfrac12,\\tfrac e2\\right)\\approx(-0.5,1.36)$, point of inflection $(0,1)$, horizontal asymptote $y=0$ as $x\\to\\infty$, and $y\\to-\\infty$ as $x\\to-\\infty$.",
+   "answer_images": [
+    "assets/img/adv-2025-girraween/a24.png"
+   ]
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.7.3",
+    "11.4.5.5"
+   ],
+   "question": "A particle moves with velocity $v=12\\sin\\dfrac{\\pi t}{2}$, where $v$ and $t$ are measured in cm/s and seconds respectively. The particle was initially at rest at $x=-\\dfrac{24}{\\pi}$. Find the equation for displacement, $x$, in terms of $t$.",
+   "answer": "$x=\\displaystyle\\int12\\sin\\frac{\\pi t}{2}dt=-\\frac{24}{\\pi}\\cos\\frac{\\pi t}{2}+C$.\nAt $t=0$, $x=-\\dfrac{24}{\\pi}$: $-\\dfrac{24}{\\pi}=-\\dfrac{24}{\\pi}+C$, so $C=0$.\n$$x=-\\frac{24}{\\pi}\\cos\\frac{\\pi t}{2}$$"
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.4.5.2",
+    "12.5.3.9"
+   ],
+   "question": "A particle moves with displacement $x=-\\dfrac{24}{\\pi}\\cos\\dfrac{\\pi t}{2}$ cm (velocity $v=12\\sin\\dfrac{\\pi t}{2}$ cm/s) from time $t=0$ seconds. Find the distance travelled by the particle in the first 3 seconds.",
+   "answer": "$v=0$ when $\\sin\\dfrac{\\pi t}{2}=0$, i.e. $t=0,2,4,\\ldots$, so the particle changes direction at $t=2$.\n$x(0)=-\\dfrac{24}{\\pi}$, $x(2)=-\\dfrac{24}{\\pi}\\cos\\pi=\\dfrac{24}{\\pi}$, $x(3)=-\\dfrac{24}{\\pi}\\cos\\dfrac{3\\pi}{2}=0$.\nDistance $=\\left(\\dfrac{24}{\\pi}+\\dfrac{24}{\\pi}\\right)+\\left(\\dfrac{24}{\\pi}-0\\right)=\\dfrac{72}{\\pi}\\approx22.9$ cm."
+  },
+  {
+   "ref": "Q26",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.5",
+    "12.4.8.6"
+   ],
+   "question": "Consider the curve $y=2x^2$ and the line $y=-10x+12$ (shown in the graph). Find the area enclosed between the two functions. Give the answer to 1 decimal place.",
+   "answer": "Intersections: $2x^2=-10x+12\\Rightarrow x^2+5x-6=0\\Rightarrow(x+6)(x-1)=0$, so $x=-6$ and $x=1$. The line is above the curve between them.\n$$A=\\int_{-6}^{1}\\left(-10x+12-2x^2\\right)dx=\\left[-5x^2+12x-\\tfrac23x^3\\right]_{-6}^{1}=\\tfrac{19}{3}-(-108)=114.3\\text{ units}^2$$"
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.1",
+    "12.2.2.6"
+   ],
+   "question": "A company produces $40$ tonnes of rice in the first year of production, $80$ tonnes in the second year and $120$ tonnes in its third year of production. The company continues to increase its rice production by this same amount each year thereafter. In which year of production did the amount of rice produced for that year equal $2000$ tonnes?",
+   "answer": "An arithmetic sequence with $a=40$, $d=40$: $T_n=40+(n-1)40=40n$. $40n=2000\\Rightarrow n=50$. The 50th year."
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.6"
+   ],
+   "question": "A company produces $40$ tonnes of rice in the first year of production, $80$ tonnes in the second year and $120$ tonnes in its third year, continuing to increase its production by the same amount each year. What was the total amount of rice produced in the first 20 years of production?",
+   "answer": "$S_{20}=\\dfrac{20}{2}\\left(2\\times40+19\\times40\\right)=10\\times840=8400$ tonnes."
+  },
+  {
+   "ref": "Q28",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.10"
+   ],
+   "question": "Solve the equation $\\sqrt3+2\\cos\\theta=0$ in the domain $0\\le\\theta\\le2\\pi$.",
+   "answer": "$\\cos\\theta=-\\dfrac{\\sqrt3}{2}$. The related acute angle is $\\dfrac\\pi6$, and cosine is negative in the second and third quadrants: $\\theta=\\pi-\\dfrac\\pi6=\\dfrac{5\\pi}{6}$ or $\\theta=\\pi+\\dfrac\\pi6=\\dfrac{7\\pi}{6}$."
+  },
+  {
+   "ref": "Q29",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.2.1.2",
+    "11.2.2.10"
+   ],
+   "question": "A vertical tower of height $h$ metres stands on horizontal ground. From a point $P$ on the ground due east of the tower, the angle of elevation of the top of the tower is $45^\\circ$. From a point $Q$ on the ground due south of the tower, the angle of elevation of the top of the tower is $30^\\circ$. If the distance $PQ$ is $40$ metres, find the exact height of the tower.",
+   "answer": "Let $R$ be the base of the tower, so $\\triangle PRQ$ has a right angle at $R$ (east and south are perpendicular).\n$\\tan45^\\circ=\\dfrac{h}{PR}\\Rightarrow PR=h$, and $\\tan30^\\circ=\\dfrac{h}{QR}\\Rightarrow QR=\\sqrt3\\,h$.\nPythagoras: $PQ^2=PR^2+QR^2$, so $1600=h^2+3h^2=4h^2$ and $h^2=400$.\nThe height of the tower is $h=20$ m.",
+   "images": [
+    "assets/img/adv-2025-girraween/q29.png"
+   ]
+  },
+  {
+   "ref": "Q30",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.8",
+    "12.5.3.1",
+    "12.3.1.1"
+   ],
+   "question": "A population of insects varies according to the formula $P=3000\\,n^{t/10}$, where $n$ is a positive constant and $t$ is the time in days. The initial population was $3000$. After $20$ days the population had grown to $12\\,000$. Find the value of $t$, correct to one decimal place, for which the instantaneous rate of increase is $6000$ insects per day.",
+   "answer": "At $t=20$: $12\\,000=3000\\,n^2$, so $n^2=4$ and $n=2$. So $P=3000\\times2^{t/10}=3000\\,e^{(t\\ln2)/10}$.\n$$\\frac{dP}{dt}=3000\\times\\frac{\\ln2}{10}\\times2^{t/10}=300\\ln2\\times2^{t/10}$$\nSet $\\dfrac{dP}{dt}=6000$: $2^{t/10}=\\dfrac{20}{\\ln2}=28.85\\ldots$, so $\\dfrac{t}{10}=\\dfrac{\\ln28.85}{\\ln2}=4.85$ and $t=48.5$ days."
+  },
+  {
+   "ref": "Q31(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.7",
+    "11.3.1.11"
+   ],
+   "question": "Consider the geometric series $1-\\tan^2\\theta+\\tan^4\\theta-\\cdots$. When the limiting sum exists, find an expression for the limiting sum in simplest form.",
+   "answer": "$a=1$, $r=-\\tan^2\\theta$.\n$$S_\\infty=\\frac{1}{1+\\tan^2\\theta}=\\frac{1}{\\sec^2\\theta}=\\cos^2\\theta$$"
+  },
+  {
+   "ref": "Q31(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.7"
+   ],
+   "question": "For what values of $\\theta$ in the interval $-\\dfrac\\pi2<\\theta<\\dfrac\\pi2$ does the limiting sum of the series $1-\\tan^2\\theta+\\tan^4\\theta-\\cdots$ exist?",
+   "answer": "The limiting sum exists when $|r|<1$: $\\tan^2\\theta<1$, so $-1<\\tan\\theta<1$. In the interval $-\\dfrac\\pi2<\\theta<\\dfrac\\pi2$ this gives $-\\dfrac\\pi4<\\theta<\\dfrac\\pi4$."
+  },
+  {
+   "ref": "Q32(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.2.1",
+    "12.2.3.8"
+   ],
+   "question": "Jackson inherits $\\$200\\,000$. He invests it into an account earning interest at a rate of $6\\%$ p.a. compounding monthly. At the end of each month, immediately after the interest has been paid, Jackson withdraws $\\$2000$. Find the total amount that is in the account immediately after the $3^{\\text{rd}}$ withdrawal.",
+   "answer": "The monthly rate is $\\dfrac{6\\%}{12}=0.5\\%$.\n$A_1=200\\,000(1.005)-2000=199\\,000$.\n$A_2=199\\,000(1.005)-2000=197\\,995$.\n$A_3=197\\,995(1.005)-2000=\\$196\\,984.98$."
+  },
+  {
+   "ref": "Q32(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.1"
+   ],
+   "question": "Jackson inherits $\\$200\\,000$ and invests it in an account earning $6\\%$ p.a. compounding monthly, withdrawing $\\$2000$ at the end of each month immediately after the interest has been paid. The balance after the 3rd withdrawal is $\\$196\\,984.98$. How much interest was earned in the first three months?",
+   "answer": "Without interest the balance would be $200\\,000-3\\times2000=194\\,000$. Interest earned $=196\\,984.98-194\\,000=\\$2984.98$."
+  },
+  {
+   "ref": "Q32(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.7.2.4",
+    "12.2.3.6"
+   ],
+   "question": "Jackson inherits $\\$200\\,000$ and invests it in an account earning $6\\%$ p.a. compounding monthly, withdrawing $\\$2000$ at the end of each month immediately after the interest has been paid. Calculate the amount of money in the account immediately after the $70^{\\text{th}}$ withdrawal.",
+   "answer": "$$A_{70}=200\\,000(1.005)^{70}-2000\\left(1+1.005+\\cdots+1.005^{69}\\right)=200\\,000(1.005)^{70}-2000\\times\\frac{1.005^{70}-1}{0.005}$$\n$=283\\,566.11-167\\,132.21=\\$116\\,433.89$."
+  },
+  {
+   "ref": "Q33(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.2.1.2",
+    "11.3.1.1"
+   ],
+   "question": "A light is to be placed over the centre of a circle. The intensity ($I$) of the light varies as the sine of the angle ($\\alpha$) at which the rays strike the illuminated surface, divided by the square of the distance ($d$) from the light, i.e. $I=\\dfrac{k\\sin\\alpha}{d^2}$, where $k$ is a positive constant. The light is at height $y$ above the centre $O$ of a circle of radius $a$, and $P$ is a point on the circumference. Show that $I=\\dfrac{ky}{(y^2+a^2)^{3/2}}$.",
+   "answer": "In the right-angled triangle, $\\sin\\alpha=\\dfrac yd$ and, by Pythagoras, $d^2=y^2+a^2$, so $d=(y^2+a^2)^{1/2}$.\n$$I=\\frac{k\\sin\\alpha}{d^2}=\\frac{k\\cdot\\frac yd}{d^2}=\\frac{ky}{d^3}=\\frac{ky}{(y^2+a^2)^{3/2}}$$",
+   "images": [
+    "assets/img/adv-2025-girraween/q33.png"
+   ]
+  },
+  {
+   "ref": "Q33(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.2.3",
+    "12.5.2.4"
+   ],
+   "question": "The intensity of a light at height $y$ above the centre of a circle of radius $a$, measured at the circumference, is $I=\\dfrac{ky}{(y^2+a^2)^{3/2}}$ ($k>0$). Find the optimal height for the light to be placed over the centre of the circle to provide maximum illumination to the circumference. Give the final answer as an exact value.",
+   "answer": "$$\\frac{dI}{dy}=k\\,\\frac{(y^2+a^2)^{3/2}-y\\cdot\\tfrac32(y^2+a^2)^{1/2}\\cdot2y}{(y^2+a^2)^3}=k\\,\\frac{(y^2+a^2)-3y^2}{(y^2+a^2)^{5/2}}=k\\,\\frac{a^2-2y^2}{(y^2+a^2)^{5/2}}$$\n$\\dfrac{dI}{dy}=0$ gives $y^2=\\dfrac{a^2}{2}$, so $y=\\dfrac{a}{\\sqrt2}=\\dfrac{\\sqrt2\\,a}{2}$ (since $y>0$).\nFor $y<\\dfrac{a}{\\sqrt2}$, $\\dfrac{dI}{dy}>0$ and for $y>\\dfrac{a}{\\sqrt2}$, $\\dfrac{dI}{dy}<0$, so this is a maximum. The optimal height is $\\dfrac{a}{\\sqrt2}=\\dfrac{\\sqrt2}{2}a$."
+  }
+ ]
+}
