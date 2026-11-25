@@ -1,0 +1,717 @@
+{
+ "id": "adv-2026-sydney-tech",
+ "course": "advanced",
+ "school": "Sydney Tech",
+ "year": 2026,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5328",
+  "title": "Sydney Tech 2026 w. sol"
+ },
+ "indexed": "2026-11-25",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q4",
+   "reason": "Not in 2024 syllabus: Pearson's correlation coefficient and scatterplots (bivariate data)"
+  },
+  {
+   "ref": "Q23",
+   "reason": "Not in 2024 syllabus: least-squares regression line (bivariate data)"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.5",
+    "11.4.4.1"
+   ],
+   "question": "The mass $m$ of an object is graphed against the velocity $v$ of its motion. Which of the following graphs shows $\\dfrac{dm}{dv}<0$ and $\\dfrac{d^2m}{dv^2}=0$?",
+   "options": [
+    "![Graph A](assets/img/adv-2026-sydney-tech/q1a.png)",
+    "![Graph B](assets/img/adv-2026-sydney-tech/q1b.png)",
+    "![Graph C](assets/img/adv-2026-sydney-tech/q1c.png)",
+    "![Graph D](assets/img/adv-2026-sydney-tech/q1d.png)"
+   ],
+   "correct": "D",
+   "answer": "$\\frac{dm}{dv}<0$ means $m$ is decreasing, and $\\frac{d^2m}{dv^2}=0$ means the gradient is constant (no concavity), so the graph is a straight line with negative gradient: D. (A is decreasing but concave up; B is increasing; C is increasing.)"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.6.1.6",
+    "11.1.5.2"
+   ],
+   "question": "Consider the graph of $y=\\dfrac{1}{x-5}-5$. What is the equation of the horizontal asymptote?",
+   "options": [
+    "$y=-5$",
+    "$y=5$",
+    "$x=5$",
+    "$x=-5$"
+   ],
+   "correct": "A",
+   "answer": "As $x\\to\\pm\\infty$, $\\frac1{x-5}\\to0$, so $y\\to-5$. The horizontal asymptote is $y=-5$ (the vertical asymptote is $x=5$)."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.2.8",
+    "11.5.2.11"
+   ],
+   "question": "Consider the function $f(x)=\\sqrt{5-x}+\\ln(2x+1)$. The domain of the function is:",
+   "options": [
+    "$\\left[\\tfrac12,5\\right]$",
+    "$\\left[-\\tfrac12,5\\right]$",
+    "$\\left(-\\tfrac12,5\\right]$",
+    "$\\left(-\\tfrac12,5\\right)$"
+   ],
+   "correct": "C",
+   "answer": "$\\sqrt{5-x}$ needs $5-x\\ge0$, so $x\\le5$. $\\ln(2x+1)$ needs $2x+1>0$, so $x>-\\tfrac12$. The domain is $\\left(-\\tfrac12,5\\right]$."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.9.7"
+   ],
+   "question": "The table shows the function values of $y=f(x)$ and $y=g(x)$.\n\n| $x$ | $-1$ | $0$ | $1$ | $2$ | $3$ |\n|---|---|---|---|---|---|\n| $f(x)$ | 3 | 0 | 3 | 12 | 27 |\n| $g(x)$ | 4 | 3 | 2 | 1 | 0 |\n\nWhat is the value of $A$ if $f(g(A))=0$?",
+   "options": [
+    "0",
+    "1",
+    "2",
+    "3"
+   ],
+   "correct": "D",
+   "answer": "$f(g(A))=0$ requires $g(A)=0$ (from the table $f(0)=0$ is the only zero of $f$). $g(3)=0$, so $A=3$."
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.3.4",
+    "11.7.3.1"
+   ],
+   "question": "A box contains 5 red, 4 blue and 3 green counters. Two counters are drawn without replacement. The value of $P(\\text{red}\\mid\\text{not green})$ is:",
+   "options": [
+    "$\\tfrac49$",
+    "$\\tfrac5{12}$",
+    "$\\tfrac59$",
+    "$\\tfrac57$"
+   ],
+   "correct": "C",
+   "answer": "Given that a counter is not green, it is one of $5+4=9$ non-green counters, of which $5$ are red, so $P(\\text{red}\\mid\\text{not green})=\\dfrac{5/12}{9/12}=\\dfrac59$ (the same value applies to either draw, by symmetry)."
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.3.11",
+    "11.4.3.8"
+   ],
+   "question": "Given $f(1)=9$, $f'(1)=-8$, $g(1)=1$ and $g'(1)=6$, and $h(x)=x\\,f[g(x)]$, then $h'(1)=$",
+   "options": [
+    "$-48$",
+    "$-39$",
+    "$9$",
+    "$54$"
+   ],
+   "correct": "B",
+   "answer": "By the product and chain rules, $h'(x)=f[g(x)]+x\\,f'[g(x)]\\,g'(x)$. At $x=1$: $h'(1)=f(1)+1\\cdot f'(1)\\cdot g'(1)=9+(-8)(6)=-39$."
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.4.3",
+    "12.3.3.4"
+   ],
+   "question": "The curve $y=f(x)$ is graphed below. What is the equation of the curve $y=g(x)$, where $g(x)=f'(x)$?",
+   "options": [
+    "$g(x)=\\tfrac12\\sin3x$",
+    "$g(x)=\\tfrac12\\cos3x$",
+    "$g(x)=-\\tfrac32\\sin3x$",
+    "$g(x)=\\tfrac32\\cos3x$"
+   ],
+   "correct": "D",
+   "answer": "The graph has amplitude $\\tfrac12$, passes through the origin rising, and completes 3 cycles in $2\\pi$ (period $\\tfrac{2\\pi}3$), so $f(x)=\\tfrac12\\sin3x$. Then $g(x)=f'(x)=\\tfrac12\\cdot3\\cos3x=\\tfrac32\\cos3x$.",
+   "images": [
+    "assets/img/adv-2026-sydney-tech/q8.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.8.10",
+    "12.4.4.3"
+   ],
+   "question": "Which of the following definite integrals has the largest value?",
+   "options": [
+    "$\\displaystyle\\int_{-1}^{1}x^5\\,dx$",
+    "$\\displaystyle\\int_{-1}^{1}2\\sin x\\,dx$",
+    "$\\displaystyle\\int_{-1}^{1}x^4\\,dx$",
+    "$\\displaystyle\\int_{-1}^{1}\\left(e^x-e^{-x}\\right)dx$"
+   ],
+   "correct": "C",
+   "answer": "The integrands in A, B and D are odd functions ($x^5$, $2\\sin x$, $e^x-e^{-x}$), so each integral over $[-1,1]$ is $0$. In C, $\\int_{-1}^{1}x^4dx=2\\left[\\tfrac{x^5}5\\right]_0^1=\\tfrac25>0$, so C is largest."
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.8",
+    "11.2.2.6"
+   ],
+   "question": "For the angle $\\theta$, $\\tan\\theta=\\dfrac9{40}$ and $\\sin\\theta<0$. What is the value of $\\cos(90^\\circ-\\theta)+\\cos(180^\\circ+\\theta)$?",
+   "options": [
+    "$-\\tfrac{40}{41}$",
+    "$\\tfrac{31}{41}$",
+    "$\\tfrac{40}{41}$",
+    "$-\\tfrac{49}{41}$"
+   ],
+   "correct": "B",
+   "answer": "$\\tan\\theta>0$ and $\\sin\\theta<0$, so $\\theta$ is in the third quadrant, with $\\sin\\theta=-\\tfrac9{41}$ and $\\cos\\theta=-\\tfrac{40}{41}$ (hypotenuse $\\sqrt{9^2+40^2}=41$). Then $\\cos(90^\\circ-\\theta)=\\sin\\theta=-\\tfrac9{41}$ and $\\cos(180^\\circ+\\theta)=-\\cos\\theta=\\tfrac{40}{41}$. The sum is $\\tfrac{31}{41}$."
+  },
+  {
+   "ref": "Q11",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.1.3"
+   ],
+   "question": "Solve the equation $7-\\dfrac{2-3x}{2}=4$.",
+   "answer": "$$7-\\frac{2-3x}2=4\\ \\Rightarrow\\ \\frac{2-3x}2=3\\ \\Rightarrow\\ 2-3x=6\\ \\Rightarrow\\ x=-\\frac43.$$"
+  },
+  {
+   "ref": "Q12",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.2",
+    "12.2.2.1"
+   ],
+   "question": "Find the first term of the series $-12-8-4+\\cdots$ that is greater than $150$.",
+   "answer": "Arithmetic with $a=-12$, $d=4$: $T_n=-12+4(n-1)=4n-16$. Need $4n-16>150$, so $n>41.5$, so $n=42$ and $T_{42}=4(42)-16=152$.\n\nThe first term greater than $150$ is $152$."
+  },
+  {
+   "ref": "Q13",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.4",
+    "12.5.1.6"
+   ],
+   "question": "The diagram shows the graph of $y=f'(x)$. Describe the feature of the curve $y=f(x)$ at $x=6$. Justify your feature mathematically.",
+   "answer": "At $x=6$ the graph of $y=f'(x)$ touches the $x$-axis, so $f'(6)=0$ (stationary point), but $f'(x)<0$ on both sides of $x=6$ (the graph of $f'$ is below the axis just before and just after $x=6$). So the gradient is negative on both sides and does not change sign: $f(x)$ is decreasing through $x=6$ and the stationary point is a **horizontal point of inflexion** (the concavity changes since $f'$ has a local maximum at $x=6$).",
+   "images": [
+    "assets/img/adv-2026-sydney-tech/q13.png"
+   ]
+  },
+  {
+   "ref": "Q14",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.3.5",
+    "11.4.3.10"
+   ],
+   "question": "Find the equation of the tangent to the curve $y=\\sqrt{2x+1}$ at the point where $x=4$.",
+   "answer": "$\\dfrac{dy}{dx}=\\tfrac12(2x+1)^{-1/2}\\cdot2=\\dfrac1{\\sqrt{2x+1}}$. At $x=4$: $y=\\sqrt9=3$ and $m=\\tfrac13$.\n\n$y-3=\\tfrac13(x-4)\\ \\Rightarrow\\ 3y-9=x-4\\ \\Rightarrow\\ x-3y+5=0$, i.e. $y=\\tfrac13x+\\tfrac53$."
+  },
+  {
+   "ref": "Q15",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.11.6"
+   ],
+   "question": "Solve the equation $|4-3x|=13$.",
+   "answer": "$4-3x=13\\Rightarrow x=-3$, or $4-3x=-13\\Rightarrow3x=17\\Rightarrow x=\\tfrac{17}3$.\n\nSo $x=-3$ or $x=\\tfrac{17}3$."
+  },
+  {
+   "ref": "Q16(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.3.9",
+    "12.3.3.4"
+   ],
+   "question": "Find $\\dfrac{d}{dx}\\left(\\dfrac{x^2}{\\sin x}\\right)$.",
+   "answer": "Quotient rule with $u=x^2$, $v=\\sin x$:\n$$\\frac{d}{dx}\\left(\\frac{x^2}{\\sin x}\\right)=\\frac{\\sin x\\cdot2x-x^2\\cos x}{\\sin^2x}=\\frac{2x\\sin x-x^2\\cos x}{\\sin^2x}.$$"
+  },
+  {
+   "ref": "Q16(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.3",
+    "12.3.2.2",
+    "11.4.3.8"
+   ],
+   "question": "Find $\\dfrac{d}{dx}\\left(2^x\\log_2x\\right)$.",
+   "answer": "Product rule with $\\frac{d}{dx}(2^x)=2^x\\ln2$ and $\\frac{d}{dx}(\\log_2x)=\\frac1{x\\ln2}$:\n$$\\frac{d}{dx}\\left(2^x\\log_2x\\right)=2^x\\cdot\\frac1{x\\ln2}+2^x\\ln2\\cdot\\log_2x=\\frac{2^x}{x\\ln2}+2^x\\ln2\\,\\log_2x.$$"
+  },
+  {
+   "ref": "Q17",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.9",
+    "12.3.2.1"
+   ],
+   "question": "A particle moves along the $x$-axis with its displacement, in metres from $O$, at time $t$ seconds, given by $x=2t^2-\\ln t$. Where and when does the particle come to rest?",
+   "answer": "$v=\\dfrac{dx}{dt}=4t-\\dfrac1t$ (for $t>0$). At rest: $v=0\\Rightarrow4t^2-1=0\\Rightarrow(2t-1)(2t+1)=0$, so $t=\\tfrac12$ (rejecting $t=-\\tfrac12$ since $t>0$ for $\\ln t$ to be defined).\n\nAt $t=\\tfrac12$: $x=2\\left(\\tfrac12\\right)^2-\\ln\\tfrac12=\\tfrac12+\\ln2$.\n\nThe particle is at rest at $t=\\tfrac12$ s, when it is $\\tfrac12+\\ln2\\approx1.19$ m from $O$."
+  },
+  {
+   "ref": "Q18",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.3",
+    "11.3.1.1"
+   ],
+   "question": "A triangular prism $ABCDEF$ is made as a door wedge. It has a height of $22$ mm and a width of $60$ mm. The angle of the wedge is $18^\\circ$ (the angle $EAD$). Find the angle, correct to the nearest degree, between the diagonal $BE$ and the diagonal of the base $ABCD$ (the base is a rectangle with $AB=60$ mm, and $DE=22$ mm is perpendicular to the base).",
+   "answer": "In $\\triangle EDA$ (right angle at $D$): $\\tan18^\\circ=\\dfrac{22}{AD}\\Rightarrow AD=\\dfrac{22}{\\tan18^\\circ}=67.71$ mm.\n\nThe base diagonal is $BD$: $BD=\\sqrt{60^2+67.71^2}=90.47$ mm.\n\n$E$ is directly above $D$, so the angle between $BE$ and the base diagonal $BD$ is $\\angle EBD$ in right triangle $EDB$:\n$$\\tan\\theta=\\frac{22}{90.47}\\Rightarrow\\theta=13.7^\\circ\\approx14^\\circ.$$",
+   "images": [
+    "assets/img/adv-2026-sydney-tech/q18.png"
+   ],
+   "course": "extension1"
+  },
+  {
+   "ref": "Q19",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.2.9"
+   ],
+   "question": "Solve the equation $2\\log_75=2\\log_7x-\\log_73$.",
+   "answer": "$\\log_7 25=\\log_7\\dfrac{x^2}3\\Rightarrow25=\\dfrac{x^2}3\\Rightarrow x^2=75$. Since $x>0$ (for $\\log_7x$), $x=\\sqrt{75}=5\\sqrt3$."
+  },
+  {
+   "ref": "Q20(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.4.3",
+    "12.4.4.4"
+   ],
+   "question": "Find $\\displaystyle\\int(\\ln3)\\,x^2\\,dx$.",
+   "answer": "$\\ln3$ is a constant, so $\\displaystyle\\int(\\ln3)x^2dx=\\frac{(\\ln3)\\,x^3}{3}+C$."
+  },
+  {
+   "ref": "Q20(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.6.3"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{3x}{3-x^2}\\,dx$.",
+   "answer": "The derivative of $3-x^2$ is $-2x$, so $3x=-\\tfrac32\\cdot(-2x)$:\n$$\\int\\frac{3x}{3-x^2}dx=-\\frac32\\int\\frac{-2x}{3-x^2}dx=-\\frac32\\ln\\left|3-x^2\\right|+C.$$"
+  },
+  {
+   "ref": "Q20(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7",
+    "12.4.8.1"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_{-1}^{2}\\frac{dx}{(4-x)^2}$.",
+   "answer": "$$\\int_{-1}^{2}(4-x)^{-2}dx=\\left[\\frac1{4-x}\\right]_{-1}^{2}=\\frac12-\\frac15=\\frac3{10}.$$"
+  },
+  {
+   "ref": "Q21(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.3.10"
+   ],
+   "question": "Find $\\dfrac{d}{dx}\\left(x^2-6\\right)^8$.",
+   "answer": "$$\\frac{d}{dx}\\left(x^2-6\\right)^8=8\\left(x^2-6\\right)^7\\cdot2x=16x\\left(x^2-6\\right)^7.$$"
+  },
+  {
+   "ref": "Q21(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.4.5",
+    "12.4.8.1"
+   ],
+   "question": "Using the result $\\dfrac{d}{dx}\\left(x^2-6\\right)^8=16x\\left(x^2-6\\right)^7$, evaluate $\\displaystyle\\int_0^2x\\left(x^2-6\\right)^7dx$.",
+   "answer": "$$\\int_0^2x(x^2-6)^7dx=\\frac1{16}\\int_0^216x(x^2-6)^7dx=\\frac1{16}\\left[(x^2-6)^8\\right]_0^2=\\frac1{16}\\left[(-2)^8-(-6)^8\\right]$$\n$$=\\frac{256-1\\,679\\,616}{16}=-104\\,960.$$\n\n*Note: the school's solution gives $104\\,992$, which has the wrong sign and a slip in the arithmetic; the correct value is $-104\\,960$ (the integrand is negative on $[0,2]$ since $x^2-6<0$ so $(x^2-6)^7<0$).*"
+  },
+  {
+   "ref": "Q22",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.12",
+    "11.3.1.11"
+   ],
+   "question": "Prove that $$\\frac{\\sin\\theta}{1+\\cos\\theta}+\\frac{1+\\cos\\theta}{\\sin\\theta}=2\\operatorname{cosec}\\theta.$$",
+   "answer": "$$\\text{LHS}=\\frac{\\sin^2\\theta+(1+\\cos\\theta)^2}{(1+\\cos\\theta)\\sin\\theta}=\\frac{\\sin^2\\theta+1+2\\cos\\theta+\\cos^2\\theta}{(1+\\cos\\theta)\\sin\\theta}$$\nUsing $\\sin^2\\theta+\\cos^2\\theta=1$:\n$$=\\frac{2+2\\cos\\theta}{(1+\\cos\\theta)\\sin\\theta}=\\frac{2(1+\\cos\\theta)}{(1+\\cos\\theta)\\sin\\theta}=\\frac2{\\sin\\theta}=2\\operatorname{cosec}\\theta=\\text{RHS}.$$"
+  },
+  {
+   "ref": "Q24(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.1.3",
+    "11.7.2.6"
+   ],
+   "question": "The random variable $X$ has the following probability distribution:\n\n| $x$ | 2 | 3 | 5 | 7 | 9 |\n|---|---|---|---|---|---|\n| $P(X=x)$ | $\\tfrac16$ | $\\tfrac13$ | $\\tfrac14$ | $p$ | $q$ |\n\nFind the values of $p$ and $q$, given $P(X=\\{\\text{prime}\\cap\\text{odd}\\})=\\dfrac{31}{48}$.",
+   "answer": "The probabilities sum to 1: $\\tfrac16+\\tfrac13+\\tfrac14+p+q=1\\Rightarrow p+q=\\tfrac14$.\n\nThe odd primes in the table are $3,5,7$, so $P(\\text{prime}\\cap\\text{odd})=\\tfrac13+\\tfrac14+p=\\tfrac{31}{48}\\Rightarrow p=\\tfrac{31}{48}-\\tfrac{28}{48}=\\tfrac1{16}$.\n\nThen $q=\\tfrac14-\\tfrac1{16}=\\tfrac3{16}$."
+  },
+  {
+   "ref": "Q24(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.6"
+   ],
+   "question": "The random variable $X$ has the following probability distribution:\n\n| $x$ | 2 | 3 | 5 | 7 | 9 |\n|---|---|---|---|---|---|\n| $P(X=x)$ | $\\tfrac16$ | $\\tfrac13$ | $\\tfrac14$ | $\\tfrac1{16}$ | $\\tfrac3{16}$ |\n\nFind $E(X)$.",
+   "answer": "$$E(X)=\\sum xP(x)=\\frac26+\\frac33+\\frac54+\\frac7{16}+\\frac{27}{16}=\\frac{113}{24}\\approx4.71.$$"
+  },
+  {
+   "ref": "Q25",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.6.1.6",
+    "11.6.1.10"
+   ],
+   "question": "The graph of $y=\\sqrt x$ has been dilated both horizontally and vertically by a factor of $2$ and then translated to the left $3$ units before being reflected in the $x$-axis, to produce the equation $y=g(x)$. Write down the equation of $y=g(x)$.",
+   "answer": "Dilation by a factor of 2 horizontally and vertically: replace $x$ by $\\tfrac x2$ and $y$ by $\\tfrac y2$: $\\tfrac y2=\\sqrt{\\tfrac x2}$, i.e. $y=2\\sqrt{\\tfrac x2}$.\n\nTranslate 3 units left: replace $x$ by $x+3$: $y=2\\sqrt{\\tfrac{x+3}2}$.\n\nReflect in the $x$-axis (replace $y$ by $-y$):\n$$y=g(x)=-2\\sqrt{\\frac{x+3}2}.$$"
+  },
+  {
+   "ref": "Q26(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.1.2",
+    "11.2.2.10"
+   ],
+   "question": "Two mountains, $P$ and $Q$, lie directly north of a campground $C$. Rehan walks from $C$ on a bearing of $065^\\circ$ to a point $T$, a distance of $4$ km. The diagram shows the relative positions, viewed from above (not to scale). From $T$, the base of mountain $P$ is on a bearing of $285^\\circ$ and the base of mountain $Q$ is on a bearing of $315^\\circ$.\n\nExplain why $\\angle QTC=70^\\circ$.",
+   "answer": "The bearing of $C$ from $T$ is $065^\\circ+180^\\circ=245^\\circ$ (the back bearing, using co-interior angles with the north lines). The bearing of $Q$ from $T$ is $315^\\circ$, so $\\angle QTC=315^\\circ-245^\\circ=70^\\circ$.\n\n(Alternatively: $\\angle PTQ=315^\\circ-285^\\circ=30^\\circ$ and $\\angle CTP=285^\\circ-245^\\circ=40^\\circ$, so $\\angle QTC=30^\\circ+40^\\circ=70^\\circ$.)",
+   "images": [
+    "assets/img/adv-2026-sydney-tech/q26.png"
+   ]
+  },
+  {
+   "ref": "Q26(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "Two mountains, $P$ and $Q$, lie directly north of a campground $C$. Rehan walks from $C$ on a bearing of $065^\\circ$ to a point $T$, a distance of $4$ km. The diagram shows the relative positions, viewed from above (not to scale). From $T$, the base of mountain $P$ is on a bearing of $285^\\circ$ and the base of mountain $Q$ is on a bearing of $315^\\circ$.\n\nGiven $\\angle QTC=70^\\circ$, find the distance $CQ$, correct to 1 decimal place.",
+   "answer": "In $\\triangle CQT$: $\\angle QCT=65^\\circ$, $\\angle QTC=70^\\circ$, so $\\angle CQT=180^\\circ-65^\\circ-70^\\circ=45^\\circ$. By the sine rule:\n$$\\frac{CQ}{\\sin70^\\circ}=\\frac4{\\sin45^\\circ}\\Rightarrow CQ=\\frac{4\\sin70^\\circ}{\\sin45^\\circ}=5.3\\text{ km (1 d.p.)}.$$",
+   "images": [
+    "assets/img/adv-2026-sydney-tech/q26.png"
+   ]
+  },
+  {
+   "ref": "Q26(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "Two mountains, $P$ and $Q$, lie directly north of a campground $C$. Rehan walks from $C$ on a bearing of $065^\\circ$ to a point $T$, a distance of $4$ km. The diagram shows the relative positions, viewed from above (not to scale). From $T$, the base of mountain $P$ is on a bearing of $285^\\circ$ and the base of mountain $Q$ is on a bearing of $315^\\circ$.\n\nGiven that $CQ=5.3157$ km (unrounded), find the distance $PQ$.",
+   "answer": "In $\\triangle CPT$: $\\angle PCT=65^\\circ$, $\\angle CTP=40^\\circ$, so $\\angle CPT=75^\\circ$. By the sine rule:\n$$\\frac{CP}{\\sin40^\\circ}=\\frac4{\\sin75^\\circ}\\Rightarrow CP=\\frac{4\\sin40^\\circ}{\\sin75^\\circ}=2.662\\text{ km}.$$\n$$PQ=CQ-CP=5.316-2.662=2.65\\approx2.7\\text{ km}.$$\n\n*Note: the school's solution subtracts the already-rounded values ($5.3-2.7$) and gets $2.6$ km; using unrounded values gives $2.65\\ldots\\approx2.7$ km.*",
+   "images": [
+    "assets/img/adv-2026-sydney-tech/q26.png"
+   ]
+  },
+  {
+   "ref": "Q27(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.7.2.7",
+    "11.7.2.6"
+   ],
+   "question": "Thomas makes up a card game where he gets points for the type of card chosen randomly from a well-shuffled deck of 52 playing cards. He replaces the card chosen after each draw. The game is scored as follows:\n\n- He scores $10$ points if he draws an Ace, King, Queen or Jack.\n- He scores $3$ points if he draws a card less than $10$ (2 to 9).\n- He scores $-10$ points if the card drawn is a $10$ of any suit.\n\nWhat is the probability that Thomas will score zero in his first 2 draws?",
+   "answer": "There are $16$ picture cards/aces ($+10$), $32$ cards from 2 to 9 ($+3$) and $4$ tens ($-10$). A total of zero after two draws is only possible with $+10$ and $-10$ (in either order), since $3+3=6$, $3-10=-7$, $3+10=13$, etc. are non-zero:\n$$P=\\frac{16}{52}\\times\\frac4{52}+\\frac4{52}\\times\\frac{16}{52}=\\frac{128}{2704}=\\frac8{169}.$$"
+  },
+  {
+   "ref": "Q27(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.3.7",
+    "11.7.2.7"
+   ],
+   "question": "Thomas plays a card game with a well-shuffled deck of 52 playing cards, replacing the card after each draw. His rules are: he wins and the game stops if he draws an Ace, King, Queen or Jack; he plays again if he draws a card less than $10$ (2 to 9); he loses and the game stops if he draws a $10$ of any suit. What is the probability that he wins the game?",
+   "answer": "$P(\\text{win on a draw})=\\tfrac{16}{52}$, $P(\\text{play again})=\\tfrac{32}{52}$. He wins on draw 1, or after one replay then wins, etc.:\n$$P(W)=\\frac{16}{52}+\\frac{32}{52}\\cdot\\frac{16}{52}+\\left(\\frac{32}{52}\\right)^2\\frac{16}{52}+\\cdots=\\frac{16}{52}\\left(1+\\frac{32}{52}+\\left(\\frac{32}{52}\\right)^2+\\cdots\\right)$$\nThis is a geometric series with $a=1$, $r=\\tfrac{32}{52}$, $|r|<1$, so $S_\\infty=\\dfrac1{1-\\frac{32}{52}}=\\dfrac{52}{20}$:\n$$P(W)=\\frac{16}{52}\\times\\frac{52}{20}=\\frac45.$$\n(Alternatively, only a winning or losing card ends the game, so $P(W)=\\frac{16}{16+4}=\\frac45$.)"
+  },
+  {
+   "ref": "Q28",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.3.8",
+    "11.2.3.6",
+    "11.2.2.10"
+   ],
+   "question": "A sector $OPQ$ of a circle is shown in the diagram. The circle has its centre at $O$ and a radius of $8$ cm, and $\\angle QOP=\\dfrac\\pi6$. Find the perimeter of the shaded segment (bounded by the chord $PQ$ and the arc $PQ$), leaving your answer in exact form.",
+   "answer": "Chord $PQ$ (cosine rule in $\\triangle OPQ$ with $OP=OQ=8$):\n$$PQ^2=8^2+8^2-2(8)(8)\\cos\\tfrac\\pi6=128-128\\cdot\\tfrac{\\sqrt3}2=128-64\\sqrt3,$$\nso $PQ=\\sqrt{128-64\\sqrt3}$ (which equals $8\\sqrt{2-\\sqrt3}$).\n\nArc $PQ$: $l=r\\theta=8\\times\\tfrac\\pi6=\\tfrac{4\\pi}3$.\n\n$$\\text{Perimeter}=\\frac{4\\pi}3+\\sqrt{128-64\\sqrt3}\\ \\text{cm}.$$",
+   "images": [
+    "assets/img/adv-2026-sydney-tech/q28.png"
+   ]
+  },
+  {
+   "ref": "Q29(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.8",
+    "12.5.3.5"
+   ],
+   "question": "Mathsville's population at the start of 2000 is unknown. However, by the beginning of 2020 it had grown to $2.5$ million. Assuming that the population of Mathsville can be modelled exponentially using the equation $P=Ae^{0.0144t}$, where $A$ is a constant and $t$ is measured in years from the beginning of 2000, find the value of $A$.",
+   "answer": "The beginning of 2020 is $t=20$, with $P=2.5\\times10^6$:\n$$2.5\\times10^6=Ae^{0.0144\\times20}=Ae^{0.288}\\Rightarrow A=\\frac{2.5\\times10^6}{e^{0.288}}\\approx1\\,874\\,404.$$\n\n*Note: the school's solution uses $t=10$ (giving $A\\approx2\\,164\\,719$), but 2000 to 2020 is 20 years. The conclusion in part (ii) is the same either way.*"
+  },
+  {
+   "ref": "Q29(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.8"
+   ],
+   "question": "The population of Mathsville is modelled by $P=Ae^{0.0144t}$, where $t$ is measured in years from the beginning of 2000 and $A\\approx1\\,874\\,404$ (the population was $2.5$ million at the beginning of 2020). A newspaper article, published in 1980, forecast that the population of Mathsville would reach $5$ million by the year $2050$. Using calculations to justify your response, state whether you agree or disagree with this article.",
+   "answer": "At the year 2050, $t=50$:\n$$P=1\\,874\\,404\\times e^{0.0144\\times50}=1\\,874\\,404\\times e^{0.72}\\approx3.85\\text{ million}.$$\n(Equivalently $P=2.5\\times10^6\\times e^{0.0144\\times30}\\approx3.85$ million.)\n\nThe model predicts about $3.85$ million, which is less than $5$ million, so I **disagree** with the newspaper article's forecast."
+  },
+  {
+   "ref": "Q30(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.9.5"
+   ],
+   "question": "For the curve $f(x)=x^4-8x^2$, show that $y=f(x)$ represents an even function.",
+   "answer": "$f(-x)=(-x)^4-8(-x)^2=x^4-8x^2=f(x)$, so $f$ is an even function."
+  },
+  {
+   "ref": "Q30(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.4",
+    "12.5.1.8"
+   ],
+   "question": "For the curve $f(x)=x^4-8x^2$, find the coordinates of all the stationary points and determine their nature.",
+   "answer": "$f'(x)=4x^3-16x=4x(x^2-4)=4x(x+2)(x-2)=0\\Rightarrow x=0,\\pm2$.\n\n$f(0)=0$ and $f(\\pm2)=16-32=-16$. The stationary points are $(0,0)$, $(-2,-16)$ and $(2,-16)$.\n\nNature (using $f''(x)=12x^2-16$): $f''(0)=-16<0$, so $(0,0)$ is a local maximum; $f''(\\pm2)=32>0$, so $(-2,-16)$ and $(2,-16)$ are local minima. (Equivalently, a table of the sign of $f'(x)$: for $x=-3,-2,-1$: $f'=-60,0,12$, i.e. $\\searrow$ then $\\nearrow$; for $x=-1,0,1$: $12,0,-12$, i.e. $\\nearrow$ then $\\searrow$; for $x=1,2,3$: $-12,0,60$.)"
+  },
+  {
+   "ref": "Q30(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.6",
+    "12.5.1.7"
+   ],
+   "question": "For the curve $f(x)=x^4-8x^2$, find any points of inflexion.",
+   "answer": "$f''(x)=12x^2-16=0\\Rightarrow x^2=\\tfrac43\\Rightarrow x=\\pm\\dfrac2{\\sqrt3}$.\n\nCheck that the concavity changes: $f''(-3)=92>0$, $f''(-1)=-4<0$, $f''(1)=-4<0$, $f''(3)=92>0$, so $f''$ changes sign at each of these values.\n\n$y=\\left(\\tfrac43\\right)^2-8\\left(\\tfrac43\\right)=\\tfrac{16}9-\\tfrac{96}9=-\\tfrac{80}9$. The points of inflexion are $\\left(\\pm\\dfrac2{\\sqrt3},-\\dfrac{80}9\\right)$."
+  },
+  {
+   "ref": "Q30(iv)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.9"
+   ],
+   "question": "Sketch the curve $f(x)=x^4-8x^2$ in the domain showing all stationary points as well as any inflexions and intercepts with the coordinate axes. (Use: $f$ is even; stationary points $(0,0)$ maximum and $(\\pm2,-16)$ minima; inflexions at $\\left(\\pm\\tfrac2{\\sqrt3},-\\tfrac{80}9\\right)$.)",
+   "answer": "Intercepts: $y$-intercept $(0,0)$; $x$-intercepts from $x^2(x^2-8)=0$: $x=0$ and $x=\\pm\\sqrt8=\\pm2\\sqrt2$.\n\nThe graph is symmetric about the $y$-axis (even), rises steeply as $|x|\\to\\infty$, has a local maximum at the origin, local minima at $(\\pm2,-16)$ and inflexions at $\\left(\\pm\\tfrac2{\\sqrt3},-\\tfrac{80}9\\right)$ (on the way down from the origin to the minima). Marks: even symmetry; all stationary and inflexion points correct; intercepts on the $x$-axis correct.",
+   "answer_images": [
+    "assets/img/adv-2026-sydney-tech/q30iv_ans.png"
+   ]
+  },
+  {
+   "ref": "Q31",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.7.1",
+    "11.3.1.8"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_{\\pi/4}^{\\pi/3}\\frac{\\cos^2\\left(\\frac\\pi2-x\\right)}{\\cos^2x}\\,dx$.",
+   "answer": "Since $\\cos\\left(\\tfrac\\pi2-x\\right)=\\sin x$, the integrand is $\\dfrac{\\sin^2x}{\\cos^2x}=\\tan^2x=\\sec^2x-1$:\n$$\\int_{\\pi/4}^{\\pi/3}(\\sec^2x-1)dx=\\Big[\\tan x-x\\Big]_{\\pi/4}^{\\pi/3}=\\left(\\sqrt3-\\frac\\pi3\\right)-\\left(1-\\frac\\pi4\\right)=\\sqrt3-1-\\frac\\pi{12}.$$"
+  },
+  {
+   "ref": "Q32(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.2",
+    "12.2.2.6"
+   ],
+   "question": "Jerome starts working on January 1, 2027. The advertised wage is \\$56 000 p.a. After the first year his wage will increase to \\$62 000, then increase by the same amount each year for the first 10 years of his employment; after that it will increase by the CPI of 3% p.a.\n\nShow that Jerome earns \\$74 000 at the start of 2030.",
+   "answer": "The wage forms an arithmetic sequence with $a=56\\,000$ and $d=62\\,000-56\\,000=6000$. The start of 2030 is the 4th year: $T_4=56\\,000+3(6000)=\\$74\\,000$."
+  },
+  {
+   "ref": "Q32(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "Jerome's wage is \\$56 000 in his first year and increases by \\$6000 each year for the first 10 years of his employment. How much will Jerome earn in total for the first 10 years?",
+   "answer": "$$S_{10}=\\frac{10}2\\left[2(56\\,000)+9(6000)\\right]=5(112\\,000+54\\,000)=\\$830\\,000.$$"
+  },
+  {
+   "ref": "Q32(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.3.5",
+    "12.2.3.8"
+   ],
+   "question": "Jerome's wage is \\$56 000 in his first year and increases by \\$6000 each year for the first 10 years (he earns \\$830 000 in total over these 10 years). After that his wage increases by the CPI of 3% p.a. How many years will Jerome need to work before the total he has earned is over 2 million dollars?",
+   "answer": "In year 10 his wage is $56\\,000+9(6000)=\\$110\\,000$, so in year 11 it is $110\\,000\\times1.03=\\$113\\,300$. From year 11, the wages form a geometric series with $a=113\\,300$ and $r=1.03$. After a further $n$ years:\n$$830\\,000+\\frac{113\\,300\\left(1.03^n-1\\right)}{0.03}>2\\,000\\,000\\Rightarrow1.03^n-1>\\frac{1\\,170\\,000\\times0.03}{113\\,300}=0.30979\\ldots$$\n$$1.03^n>1.3098\\Rightarrow n>\\frac{\\ln1.3098}{\\ln1.03}=9.13\\ldots$$\nSo $n=10$ further years, and Jerome must work $10+10=\\mathbf{20}$ years."
+  },
+  {
+   "ref": "Q33(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.10",
+    "11.2.3.4"
+   ],
+   "question": "The graphs of $y=\\sin2x$ and $y=\\cos x$ in the domain $-\\dfrac\\pi2\\le x\\le\\pi$ are shown. Show that the coordinates of the point $A$, the point of intersection of the two curves in the first quadrant, is $\\left(\\dfrac\\pi6,\\dfrac{\\sqrt3}2\\right)$.",
+   "answer": "The curves intersect where $\\sin2x=\\cos x$:\n$$2\\sin x\\cos x=\\cos x\\Rightarrow\\cos x(2\\sin x-1)=0\\Rightarrow\\cos x=0\\text{ or }\\sin x=\\tfrac12.$$\nIn the first quadrant ($0<x<\\tfrac\\pi2$), $\\cos x\\ne0$, so $\\sin x=\\tfrac12$ and $x=\\tfrac\\pi6$. Then $y=\\cos\\tfrac\\pi6=\\tfrac{\\sqrt3}2$, so $A=\\left(\\tfrac\\pi6,\\tfrac{\\sqrt3}2\\right)$.",
+   "images": [
+    "assets/img/adv-2026-sydney-tech/q33.png"
+   ]
+  },
+  {
+   "ref": "Q33(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.8.5",
+    "12.4.7.2"
+   ],
+   "question": "The graphs of $y=\\sin2x$ and $y=\\cos x$ in the domain $-\\dfrac\\pi2\\le x\\le\\pi$ are shown, and they meet at $x=-\\tfrac\\pi2$, $x=\\tfrac\\pi6$ and $x=\\tfrac\\pi2$. Find the shaded area (the region enclosed between the two curves from $x=-\\tfrac\\pi2$ to $x=\\tfrac\\pi2$).",
+   "answer": "For $-\\tfrac\\pi2\\le x\\le\\tfrac\\pi6$, $\\cos x\\ge\\sin2x$; for $\\tfrac\\pi6\\le x\\le\\tfrac\\pi2$, $\\sin2x\\ge\\cos x$.\n$$A=\\int_{-\\pi/2}^{\\pi/6}(\\cos x-\\sin2x)dx+\\int_{\\pi/6}^{\\pi/2}(\\sin2x-\\cos x)dx$$\n$$=\\left[\\sin x+\\tfrac12\\cos2x\\right]_{-\\pi/2}^{\\pi/6}+\\left[-\\tfrac12\\cos2x-\\sin x\\right]_{\\pi/6}^{\\pi/2}$$\nFirst part: $\\left(\\tfrac12+\\tfrac14\\right)-\\left(-1-\\tfrac12\\right)=\\tfrac34+\\tfrac32=\\tfrac94$.\n\nSecond part: $\\left(\\tfrac12-1\\right)-\\left(-\\tfrac14-\\tfrac12\\right)=-\\tfrac12+\\tfrac34=\\tfrac14$.\n\n$$A=\\tfrac94+\\tfrac14=\\tfrac52\\text{ square units}.$$",
+   "images": [
+    "assets/img/adv-2026-sydney-tech/q33.png"
+   ]
+  },
+  {
+   "ref": "Q34(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.3"
+   ],
+   "question": "A point $P(x,f(x))$ lies on the curve $f(x)=\\dfrac2{\\sqrt[5]{e^x}}=2e^{-x/5}$. The perpendicular from $P$ to the $x$-axis, at $Q$, is shown and triangle $OPQ$ is shaded. Find the area of triangle $OPQ$ in terms of $x$.",
+   "answer": "$OQ=x$ and $PQ=f(x)=2e^{-x/5}$, so\n$$A=\\tfrac12\\times x\\times2e^{-x/5}=xe^{-x/5}.$$",
+   "images": [
+    "assets/img/adv-2026-sydney-tech/q34.png"
+   ]
+  },
+  {
+   "ref": "Q34(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.3.1.4"
+   ],
+   "question": "A point $P(x,f(x))$ lies on the curve $f(x)=2e^{-x/5}$ and $Q$ is the foot of the perpendicular from $P$ to the $x$-axis. The area of triangle $OPQ$ is $A=xe^{-x/5}$ ($x>0$). Find the $x$-coordinate of $P$ for which the triangle $OPQ$ has a maximum area.",
+   "answer": "By the product rule, $\\dfrac{dA}{dx}=e^{-x/5}+x\\left(-\\tfrac15\\right)e^{-x/5}=e^{-x/5}\\left(1-\\dfrac x5\\right)$.\n\n$\\dfrac{dA}{dx}=0\\Rightarrow1-\\dfrac x5=0\\Rightarrow x=5$ (since $e^{-x/5}\\ne0$).\n\nNature: $e^{-x/5}>0$ for all $x$, so the sign of $\\frac{dA}{dx}$ is that of $1-\\frac x5$: at $x=4$ it is $+$, at $x=5$ it is $0$, at $x=6$ it is $-$. So $A$ has a maximum at $x=5$."
+  },
+  {
+   "ref": "Q34(iii)(α)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.4",
+    "11.5.1.5"
+   ],
+   "question": "The curve $y=f(x)=2e^{-x/5}$ crosses the $y$-axis at $S$, and $T$ is the point on the curve where $y=\\tfrac12$. Find the exact value of $x$ at the point $T$.",
+   "answer": "$2e^{-x/5}=\\tfrac12\\Rightarrow e^{-x/5}=\\tfrac14\\Rightarrow-\\tfrac x5=\\ln\\tfrac14=-\\ln4\\Rightarrow x=5\\ln4$ ($=10\\ln2$).",
+   "images": [
+    "assets/img/adv-2026-sydney-tech/q34c.png"
+   ]
+  },
+  {
+   "ref": "Q34(iii)(β)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.4.8.6",
+    "12.4.5.2",
+    "12.4.8.5"
+   ],
+   "question": "The curve $y=f(x)=2e^{-x/5}$ crosses the $y$-axis at $S(0,2)$, and $T$ is the point on the curve with $y=\\tfrac12$, at $x=5\\ln4$. Find the area of the shaded region, between the line $ST$ and the curve $y=f(x)$.",
+   "answer": "The line $ST$ lies above the (concave up) curve between $S$ and $T$, so the shaded area is the area of the trapezium under $ST$ minus the area under the curve.\n\nTrapezium: $\\tfrac12\\left(2+\\tfrac12\\right)\\times5\\ln4=\\tfrac54\\times5\\ln4=\\tfrac{25}4\\ln4=\\tfrac{25}2\\ln2$.\n\nArea under the curve: $\\displaystyle\\int_0^{5\\ln4}2e^{-x/5}dx=\\left[-10e^{-x/5}\\right]_0^{5\\ln4}=-10\\cdot\\tfrac14+10=\\tfrac{15}2$.\n\n$$\\text{Shaded area}=\\frac{25}2\\ln2-\\frac{15}2=\\frac12\\left(25\\ln2-15\\right)\\text{ square units}.$$",
+   "images": [
+    "assets/img/adv-2026-sydney-tech/q34c.png"
+   ]
+  }
+ ]
+}
