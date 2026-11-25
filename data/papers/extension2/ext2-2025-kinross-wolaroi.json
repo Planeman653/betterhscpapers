@@ -1,0 +1,624 @@
+{
+ "id": "ext2-2025-kinross-wolaroi",
+ "course": "extension2",
+ "school": "Kinross Wolaroi",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "Kinross Wolaroi 2025 w. sol"
+ },
+ "indexed": "2026-11-25",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q14(a)(i)",
+   "reason": "Only asks to copy a printed diagram and mark the forces on it (diagram-only task)"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.5"
+   ],
+   "question": "$\\omega$ is a complex fifth root of unity. What is the value of $\\omega^{2025}$ ?",
+   "answer": "$\\omega^5=1$ and $2025=5\\times405$, so $\\omega^{2025}=(\\omega^5)^{405}=1$.",
+   "options": [
+    "$1$",
+    "$-1$",
+    "$i$",
+    "$-i$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.11"
+   ],
+   "question": "What is the contrapositive of the statement \"If it is snowing, then the ground is white.\"?",
+   "answer": "The contrapositive of \"if $P$ then $Q$\" is \"if not $Q$ then not $P$\": if the ground is not white, then it is not snowing.",
+   "options": [
+    "If the ground is white, then it is snowing.",
+    "If the ground is not white, then it is not snowing.",
+    "If the ground is not white, then it is snowing.",
+    "If it is not snowing, then the ground is not white."
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.3"
+   ],
+   "question": "Which equation describes the line joining $A(4,6,5)$ to $B(-2,3,-1)$?",
+   "answer": "A direction vector is $\\overrightarrow{AB}=\\begin{pmatrix}-2-4\\\\3-6\\\\-1-5\\end{pmatrix}=\\begin{pmatrix}-6\\\\-3\\\\-6\\end{pmatrix}$ and the line passes through $A$, giving option (C).",
+   "options": [
+    "$\\mathbf r=\\begin{pmatrix}4\\\\6\\\\5\\end{pmatrix}-\\lambda\\begin{pmatrix}-2\\\\3\\\\-5\\end{pmatrix}$",
+    "$\\mathbf r=\\begin{pmatrix}4\\\\6\\\\5\\end{pmatrix}-\\lambda\\begin{pmatrix}2\\\\9\\\\4\\end{pmatrix}$",
+    "$\\mathbf r=\\begin{pmatrix}4\\\\6\\\\5\\end{pmatrix}+\\lambda\\begin{pmatrix}-6\\\\-3\\\\-6\\end{pmatrix}$",
+    "$\\mathbf r=\\begin{pmatrix}4\\\\6\\\\5\\end{pmatrix}+\\lambda\\begin{pmatrix}2\\\\9\\\\4\\end{pmatrix}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.8"
+   ],
+   "question": "A particle is describing simple harmonic motion in a straight line with an amplitude of $3$ metres. When the particle is $2$ metres from the centre of the motion, its speed is $5$ m/s. What is the period of the motion?",
+   "answer": "$v^2=n^2(a^2-x^2)$ gives $25=n^2(9-4)=5n^2$, so $n=\\sqrt5$. The period is $T=\\dfrac{2\\pi}{n}=\\dfrac{2\\pi}{\\sqrt5}=\\dfrac{2\\sqrt5\\pi}{5}$.",
+   "options": [
+    "$\\dfrac{\\sqrt5\\pi}{2}$",
+    "$\\dfrac{2\\sqrt5\\pi}{5}$",
+    "$\\sqrt5\\pi$",
+    "$2\\sqrt5\\pi$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "$ABCD$ is a rhombus with $\\overrightarrow{AB}=\\mathbf a$ and $\\overrightarrow{BC}=\\mathbf b$. The point $E$ lies on $AB$ produced beyond $B$ with $AB:BE=4:3$, and $F$ is the midpoint of $CD$.\n\nWhich expression gives the vector $\\overrightarrow{FE}$ in terms of $\\mathbf a$ and $\\mathbf b$?",
+   "answer": "$\\overrightarrow{BE}=\\tfrac34\\mathbf a$, $\\overrightarrow{CD}=-\\mathbf a$ so $\\overrightarrow{FC}=\\tfrac12\\mathbf a$, and $\\overrightarrow{CB}=-\\mathbf b$. Then\n$$\\overrightarrow{FE}=\\overrightarrow{FC}+\\overrightarrow{CB}+\\overrightarrow{BE}=\\tfrac12\\mathbf a-\\mathbf b+\\tfrac34\\mathbf a=\\tfrac54\\mathbf a-\\mathbf b.$$",
+   "options": [
+    "$\\dfrac54\\mathbf a-\\mathbf b$",
+    "$\\dfrac54\\mathbf a+\\mathbf b$",
+    "$\\dfrac{11}{6}\\mathbf a-\\mathbf b$",
+    "$\\dfrac{11}{6}\\mathbf a+\\mathbf b$"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/ext2-2025-kinross-wolaroi/q5.png"
+   ]
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "A cubic polynomial $P(z)$ has all real coefficients. $z=3$ and $z=2+i$ are two roots of $P(z)=0$. Which equation describes $P(z)$?",
+   "answer": "Real coefficients means $2-i$ is also a root. $P(z)=(z-3)\\left[(z-2)^2+1\\right]=(z-3)(z^2-4z+5)=z^3-7z^2+17z-15$.",
+   "options": [
+    "$P(z)=z^3-7z^2-17z+15$",
+    "$P(z)=z^3-7z^2+17z-15$",
+    "$P(z)=z^3+7z^2-35z+15$",
+    "$P(z)=z^3+7z^2+35z-15$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.8"
+   ],
+   "question": "Issy tries to find $\\displaystyle\\int_{-2}^{0}\\frac{1}{x^2-1}\\,dx$ but she can't seem to get a simple answer. Which of the following could be the reason she is having trouble?",
+   "answer": "$\\dfrac1{x^2-1}$ has a vertical asymptote at $x=-1$, which lies inside $[-2,0]$, so the function is discontinuous on the interval and the integral is improper (it diverges). The function is differentiable at $x=0$, and there is no horizontal asymptote in the interval. The answer is (D).",
+   "options": [
+    "Because the function is not differentiable at $x=0$.",
+    "Because there is no appropriate substitution to begin calculating the integral.",
+    "Because the function has a horizontal asymptote in the domain $[-2,0]$.",
+    "Because the function is discontinuous in the domain $[-2,0]$."
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Ollie is trying to find $\\displaystyle\\int\\sqrt{4x^2-9}\\,dx$. Which substitution should he use?",
+   "answer": "$\\sqrt{4x^2-9}=2\\sqrt{x^2-\\tfrac94}$. The form $\\sqrt{x^2-a^2}$ suggests $x=a\\sec\\theta$ with $a=\\tfrac32$, which turns $4x^2-9$ into $9\\tan^2\\theta$.",
+   "options": [
+    "$x=\\sec\\theta$",
+    "$x=\\dfrac32\\sec\\theta$",
+    "$x=\\dfrac23\\sec\\theta$",
+    "$x=\\dfrac32\\sin\\theta$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "If $a,b,c$ and $d$ are consecutive integers, which of the following statements may be false?",
+   "answer": "Let the integers be $n,n+1,n+2,n+3$. The sum is $4n+6=2(2n+3)$, which is always even but is $\\equiv2\\pmod 4$, so it is never divisible by 4: statement (B) can be false (it is in fact always false). Among four consecutive integers one is a multiple of 3, and there are two even numbers, one of which is a multiple of 4, so the product is divisible by $2\\times4=8$; both (C) and (D) are always true.",
+   "options": [
+    "$a+b+c+d$ is divisible by 2",
+    "$a+b+c+d$ is divisible by 4",
+    "$a\\times b\\times c\\times d$ is divisible by 3",
+    "$a\\times b\\times c\\times d$ is divisible by 8"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.1"
+   ],
+   "question": "A particle starts moving along a straight line from rest at the origin. At time $t$ its velocity is $v$ and its displacement from the origin is $x$. If $\\dfrac{dv}{dx}=\\dfrac1{2v}$, which of the following best describes the particle's acceleration and velocity?",
+   "answer": "$a=v\\dfrac{dv}{dx}=v\\cdot\\dfrac1{2v}=\\dfrac12$, a constant. Integrating $\\dfrac{d}{dx}(v^2)=1$ gives $v^2=x$ (using $v=0$ at $x=0$), so $v=\\sqrt x$, which increases as the particle moves away from the origin. The acceleration is constant and the velocity is increasing.",
+   "options": [
+    "Constant acceleration and constant velocity",
+    "Constant acceleration and decreasing velocity",
+    "Constant acceleration and increasing velocity",
+    "Increasing acceleration and increasing velocity"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.4"
+   ],
+   "question": "Write $1-i\\sqrt3$ in modulus-argument form.",
+   "answer": "$1-i\\sqrt3=2\\left(\\tfrac12-\\tfrac{\\sqrt3}{2}i\\right)=2\\left[\\cos\\left(-\\tfrac\\pi3\\right)+i\\sin\\left(-\\tfrac\\pi3\\right)\\right]=2\\,\\mathrm{cis}\\left(-\\tfrac\\pi3\\right).$"
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "Given $1-i\\sqrt3=2\\,\\mathrm{cis}\\left(-\\dfrac\\pi3\\right)$, write $\\dfrac{\\left(1-i\\sqrt3\\right)^4}{1+i\\sqrt3}$ in exact Cartesian form.",
+   "answer": "$1+i\\sqrt3=2\\,\\mathrm{cis}\\tfrac\\pi3$. By de Moivre,\n$$\\frac{\\left(1-i\\sqrt3\\right)^4}{1+i\\sqrt3}=\\frac{16\\,\\mathrm{cis}\\left(-\\tfrac{4\\pi}{3}\\right)}{2\\,\\mathrm{cis}\\tfrac\\pi3}=8\\,\\mathrm{cis}\\left(-\\tfrac{5\\pi}3\\right)=8\\,\\mathrm{cis}\\tfrac\\pi3=8\\left(\\tfrac12+\\tfrac{\\sqrt3}2i\\right)=4+4\\sqrt3\\,i.$$"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.4"
+   ],
+   "question": "Find a vector equation for the line that passes through $A(1,-1,0)$ and $B(2,-1,4)$.",
+   "answer": "A direction vector is $\\overrightarrow{AB}=\\begin{pmatrix}1\\\\0\\\\4\\end{pmatrix}$, so\n$$\\mathbf r=\\begin{pmatrix}1\\\\-1\\\\0\\end{pmatrix}+\\lambda\\begin{pmatrix}1\\\\0\\\\4\\end{pmatrix},\\ \\lambda\\in\\mathbb{R}.$$"
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.5"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^{\\pi/2}\\frac1{1+\\cos x}\\,dx$.",
+   "answer": "Let $t=\\tan\\tfrac x2$, so $\\cos x=\\dfrac{1-t^2}{1+t^2}$, $dx=\\dfrac{2\\,dt}{1+t^2}$; when $x=0$, $t=0$ and when $x=\\tfrac\\pi2$, $t=1$.\n$$\\int_0^1\\frac{\\frac{2}{1+t^2}}{1+\\frac{1-t^2}{1+t^2}}\\,dt=\\int_0^1\\frac{2}{(1+t^2)+(1-t^2)}\\,dt=\\int_0^11\\,dt=1.$$"
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "Prove that $\\sqrt2$ is irrational by contradiction.",
+   "answer": "Assume $\\sqrt2$ is rational, so $\\sqrt2=\\dfrac pq$ where $p,q$ are integers with no common factor (lowest terms), $q\\ne0$.\n\nThen $2q^2=p^2$, so $p^2$ is even, hence $p$ is even; let $p=2r$. Then $2q^2=4r^2$, so $q^2=2r^2$ is even, hence $q$ is even.\n\nSo $p$ and $q$ are both even, contradicting that $\\dfrac pq$ is in lowest terms. Hence $\\sqrt2$ is irrational. $\\blacksquare$"
+  },
+  {
+   "ref": "Q11(e)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.4.2"
+   ],
+   "question": "Let $\\mathbf u=5\\mathbf i+\\mathbf j+3\\mathbf k$ and $\\mathbf v=-2\\mathbf i-2\\mathbf j+\\mathbf k$. Find the dot product $\\mathbf u\\cdot\\mathbf v$.",
+   "answer": "$\\mathbf u\\cdot\\mathbf v=5(-2)+1(-2)+3(1)=-9$.",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q11(e)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.4.5"
+   ],
+   "question": "Let $\\mathbf v=-2\\mathbf i-2\\mathbf j+\\mathbf k$. Find the unit vector $\\hat{\\mathbf v}$.",
+   "answer": "$|\\mathbf v|=\\sqrt{4+4+1}=3$, so $\\hat{\\mathbf v}=-\\tfrac23\\mathbf i-\\tfrac23\\mathbf j+\\tfrac13\\mathbf k$.",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.9"
+   ],
+   "question": "Show that $(1-3i)^2=-8-6i$.",
+   "answer": "$(1-3i)^2=1-6i+9i^2=1-6i-9=-8-6i.$ $\\blacksquare$"
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.1",
+    "12.3.1.14"
+   ],
+   "question": "Given that $(1-3i)^2=-8-6i$, solve the equation $2z^2-8z+(12+3i)=0$.",
+   "answer": "$$z=\\frac{8\\pm\\sqrt{64-8(12+3i)}}{4}=\\frac{8\\pm\\sqrt{-32-24i}}{4}=\\frac{8\\pm2\\sqrt{-8-6i}}{4}.$$\nSince $(1-3i)^2=-8-6i$, $\\sqrt{-8-6i}=\\pm(1-3i)$, so\n$$z=\\frac{8\\pm2(1-3i)}{4}:\\qquad z=\\frac{10-6i}{4}=\\frac52-\\frac32i\\quad\\text{or}\\quad z=\\frac{6+6i}{4}=\\frac32+\\frac32i.$$"
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "The points $D$, $E$ and $F$ have position vectors relative to the origin $O$ given by $\\overrightarrow{OD}=\\begin{pmatrix}4\\\\2\\\\-3\\end{pmatrix}$, $\\overrightarrow{OE}=\\begin{pmatrix}6\\\\3\\\\-1\\end{pmatrix}$, $\\overrightarrow{OF}=\\begin{pmatrix}5\\\\1\\\\0\\end{pmatrix}$. Find $\\angle DEF$ to the nearest minute.",
+   "answer": "The angle at $E$ is the angle between $\\overrightarrow{ED}$ and $\\overrightarrow{EF}$:\n$$\\overrightarrow{ED}=\\begin{pmatrix}-2\\\\-1\\\\-2\\end{pmatrix},\\quad\\overrightarrow{EF}=\\begin{pmatrix}-1\\\\-2\\\\1\\end{pmatrix},\\quad|\\overrightarrow{ED}|=3,\\ |\\overrightarrow{EF}|=\\sqrt6,$$\n$$\\overrightarrow{ED}\\cdot\\overrightarrow{EF}=2+2-2=2,\\qquad\\cos\\angle DEF=\\frac{2}{3\\sqrt6}\\ \\Rightarrow\\ \\angle DEF\\approx74^\\circ12'.$$\n\n*Correction to the paper's solution:* it used $\\overrightarrow{DE}=(2,1,2)$ together with $\\overrightarrow{EF}$, which gives the angle between the vectors $\\overrightarrow{DE}$ and $\\overrightarrow{EF}$ ($\\cos\\theta=-\\tfrac{2}{3\\sqrt6}$, $\\theta=105^\\circ48'$). That is the supplement of the interior angle; $\\angle DEF=180^\\circ-105^\\circ48'=74^\\circ12'$.",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.5.3",
+    "12.3.5.5"
+   ],
+   "question": "Sketch, on an Argand diagram, the region that satisfies $|z-1|\\le3$.",
+   "answer": "$|z-1|=3$ is the circle with centre $1$ (the point $(1,0)$) and radius $3$, crossing the real axis at $-2$ and $4$ and the imaginary axis at $\\pm i\\sqrt8$. The condition $|z-1|\\le3$ is the circle together with its **interior**: shade the whole disc, with the boundary drawn as a solid line (points on the circle are included)."
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "A light string passes over a smooth pulley. Attached to one end is a $9$ kg mass, and to the other end a $7$ kg mass. Find the acceleration of the $9$ kg mass in terms of $g$.",
+   "answer": "Let $T$ be the tension and $a$ the common acceleration (the $9$ kg mass accelerates downward, the $7$ kg mass upward):\n$$9a=9g-T,\\qquad 7a=T-7g.$$\nAdding: $16a=2g$, so $a=\\dfrac g8$ (downward) for the $9$ kg mass."
+  },
+  {
+   "ref": "Q12(e)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Express $\\dfrac{x^3+3x^2-11x+12}{(x-2)^2(x^2+1)}$ in the form $\\dfrac{a}{(x-2)^2}+\\dfrac b{x-2}+\\dfrac{cx+d}{x^2+1}$.",
+   "answer": "$x^3+3x^2-11x+12=a(x^2+1)+b(x-2)(x^2+1)+(cx+d)(x-2)^2$.\n\nPut $x=2$: $10=5a$, so $a=2$. Equate $x^3$: $1=b+c$. Equate $x^2$: $3=a-2b+d-4c$. Equate constants: $12=a-2b+4d$.\n\nWith $a=2$: $d-2b-4c=1$ and $4d-2b=10$. Substituting $c=1-b$: $2b+d=5$, and $2d-b=5$, so $b=1$, $d=3$, $c=0$.\n$$\\frac{x^3+3x^2-11x+12}{(x-2)^2(x^2+1)}=\\frac2{(x-2)^2}+\\frac1{x-2}+\\frac3{x^2+1}.$$"
+  },
+  {
+   "ref": "Q12(e)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.8"
+   ],
+   "question": "Given that $\\dfrac{x^3+3x^2-11x+12}{(x-2)^2(x^2+1)}=\\dfrac2{(x-2)^2}+\\dfrac1{x-2}+\\dfrac3{x^2+1}$, evaluate $\\displaystyle\\int_0^1\\frac{x^3+3x^2-11x+12}{(x-2)^2(x^2+1)}\\,dx$. Leave your answer in exact form.",
+   "answer": "$$\\int_0^1\\left[\\frac2{(x-2)^2}+\\frac1{x-2}+\\frac3{x^2+1}\\right]dx=\\left[-\\frac2{x-2}+\\ln|x-2|+3\\tan^{-1}x\\right]_0^1$$\n$$=\\left(2+0+\\frac{3\\pi}4\\right)-\\left(1+\\ln2+0\\right)=1+\\frac{3\\pi}4-\\ln2.$$"
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.1"
+   ],
+   "question": "A particle travels in a straight line so that its velocity $v$ cm/s and displacement $x$ cm are related by the equation $v=-0.2x$. Determine the acceleration $\\ddot x$ in terms of its displacement $x$.",
+   "answer": "$\\ddot x=\\dfrac{d}{dx}\\left(\\tfrac12v^2\\right)=\\dfrac d{dx}\\left(\\tfrac12(0.04x^2)\\right)=\\dfrac d{dx}(0.02x^2)=0.04x.$"
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.1"
+   ],
+   "question": "A particle travels in a straight line with acceleration $\\ddot x=0.04x$, where $x$ cm is its displacement. Is the particle moving in simple harmonic motion? Justify your answer.",
+   "answer": "No. Simple harmonic motion requires $\\ddot x=-n^2(x-c)$, with acceleration directed towards the centre. Here $\\ddot x=+0.04x$ has the wrong sign (the acceleration is directed away from the origin), so the motion is not simple harmonic."
+  },
+  {
+   "ref": "Q13(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "A particle travels in a straight line so that its velocity $v$ cm/s and displacement $x$ cm satisfy $v=-0.2x$. The initial displacement is $x=4$ cm. Determine, correct to 2 decimal places, when the particle has a displacement of $2$ cm.",
+   "answer": "$\\dfrac{dx}{dt}=-0.2x=-\\dfrac x5$, so $\\dfrac{dt}{dx}=-\\dfrac5x$ and $t=-5\\ln x+C$. At $t=0$, $x=4$: $C=5\\ln4$, so $t=5\\ln\\dfrac4x$.\n\nWhen $x=2$: $t=5\\ln2\\approx3.47$ seconds."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "The area enclosed by the graph of $y=\\sqrt x\\sin x$, the $x$-axis and the lines $x=0$, $x=\\pi$ is rotated around the $x$-axis. Find the exact volume of the solid formed.",
+   "answer": "$$V=\\pi\\int_0^\\pi y^2\\,dx=\\pi\\int_0^\\pi x\\sin^2x\\,dx=\\pi\\int_0^\\pi\\frac{x(1-\\cos2x)}2\\,dx.$$\nIntegrate by parts for the second term ($u=x$, $v'=\\cos2x$): $\\displaystyle\\int x\\cos2x\\,dx=\\frac{x\\sin2x}2+\\frac{\\cos2x}4$. Hence\n$$\\int_0^\\pi x\\sin^2x\\,dx=\\left[\\frac{x^2}4-\\frac{x\\sin2x}4-\\frac{\\cos2x}8\\right]_0^\\pi=\\left(\\frac{\\pi^2}4-0-\\frac18\\right)-\\left(0-0-\\frac18\\right)=\\frac{\\pi^2}4.$$\nSo $V=\\dfrac{\\pi^3}{4}$ cubic units."
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "Consider the polynomial $P(z)=2z^5-13z^4+52z^3-91z^2+86z-26$. Given $z=1-i$ is a zero of $P(z)$, find all the roots of $P(z)=0$.",
+   "answer": "$P$ has real coefficients, so $z=1+i$ is also a root, and $(z-(1-i))(z-(1+i))=z^2-2z+2$ is a factor. Divide:\n$$P(z)=(z^2-2z+2)(2z^3+az^2+bz-13).$$\nEquate $z^4$: $a-4=-13\\Rightarrow a=-9$. Equate $z^3$: $b-2a+4=52\\Rightarrow b=30$. So $P(z)=(z^2-2z+2)(2z^3-9z^2+30z-13)$.\n\nNow $z=\\tfrac12$ is a root of the cubic: $2\\cdot\\tfrac18-\\tfrac94+15-13=\\tfrac14-\\tfrac94+2=0$ ✓. So $2z^3-9z^2+30z-13=(2z-1)(z^2-4z+13)$, and $z^2-4z+13=0$ gives $z=\\dfrac{4\\pm\\sqrt{-36}}2=2\\pm3i$.\n\nThe five roots are $z=1-i,\\ 1+i,\\ \\dfrac12,\\ 2+3i,\\ 2-3i$."
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.1.5"
+   ],
+   "question": "A taut rope of length $1\\tfrac23$ m suspends a mass of $20$ kg from a fixed point $O$. A horizontal force of $P$ newtons displaces the mass by $1$ metre horizontally so that the taut rope is then at an angle $\\theta$ to the vertical (see diagram). Show that $\\sin\\theta=\\dfrac35$.",
+   "answer": "The rope length is $1\\tfrac23=\\tfrac53$ m and the horizontal displacement is $1$ m, so $\\sin\\theta=\\dfrac{1}{5/3}=\\dfrac35$. $\\blacksquare$",
+   "images": [
+    "assets/img/ext2-2025-kinross-wolaroi/q14a.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.5"
+   ],
+   "question": "A taut rope of length $1\\tfrac23$ m suspends a mass of $20$ kg from a fixed point $O$. A horizontal force of $P$ newtons displaces the mass by $1$ metre horizontally so that the taut rope makes an angle $\\theta$ with the vertical, where $\\sin\\theta=\\dfrac35$ (see diagram). Find the magnitude of the tension force in the rope in newtons. (Leave your answer in terms of $g$.)",
+   "answer": "Since $\\sin\\theta=\\tfrac35$, $\\cos\\theta=\\tfrac45$ and $\\tan\\theta=\\tfrac34$. The mass is in equilibrium under the weight $20g$ (down), the tension $T$ (along the rope) and the force $P$ (horizontal).\n\nVertical: $T\\cos\\theta=20g$, so $T=\\dfrac{20g}{4/5}=25g$ N.\n\n(Horizontal: $P=T\\sin\\theta=25g\\cdot\\tfrac35=15g$ N, which agrees with $\\tan\\theta=\\dfrac P{20g}=\\tfrac34$.)\n\nThe tension has magnitude $25g$ newtons.",
+   "images": [
+    "assets/img/ext2-2025-kinross-wolaroi/q14a.png"
+   ]
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "Prove that, if $a^2-2a+2025$ is even, then $a$ is odd.",
+   "answer": "Suppose $a^2-2a+2025$ is even. Since $2025$ is odd, $a^2-2a$ must be odd, i.e. $a(a-2)$ is odd. A product of integers is odd only if every factor is odd, so $a$ and $a-2$ are both odd. In particular $a$ is odd. $\\blacksquare$\n\n(Alternatively, by the contrapositive: if $a=2k$ is even then $a^2-2a+2025=4k^2-4k+2025$ is odd.)"
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Use integration by parts to find an expression for $\\displaystyle\\int e^x\\sin x\\,dx$.",
+   "answer": "Let $I=\\int e^x\\sin x\\,dx$. With $u=e^x$, $v'=\\sin x$: $I=-e^x\\cos x+\\int e^x\\cos x\\,dx$.\n\nParts again on $\\int e^x\\cos x\\,dx$ with $u=e^x$, $v'=\\cos x$: $\\int e^x\\cos x\\,dx=e^x\\sin x-\\int e^x\\sin x\\,dx=e^x\\sin x-I$.\n\nSo $I=-e^x\\cos x+e^x\\sin x-I$, giving $2I=e^x(\\sin x-\\cos x)$ and\n$$I=\\frac{e^x}2(\\sin x-\\cos x)+C.$$"
+  },
+  {
+   "ref": "Q14(d)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.5",
+    "12.4.1.9"
+   ],
+   "question": "Use the $t$-formulas ($t=\\tan\\frac x2$) to find an expression for $\\displaystyle\\int\\frac1{5+4\\cos x+3\\sin x}\\,dx$.",
+   "answer": "With $t=\\tan\\tfrac x2$: $dx=\\dfrac{2\\,dt}{1+t^2}$, $\\cos x=\\dfrac{1-t^2}{1+t^2}$, $\\sin x=\\dfrac{2t}{1+t^2}$.\n$$\\int\\frac{\\frac{2}{1+t^2}}{5+\\frac{4(1-t^2)}{1+t^2}+\\frac{6t}{1+t^2}}\\,dt=\\int\\frac{2\\,dt}{5(1+t^2)+4(1-t^2)+6t}=\\int\\frac{2\\,dt}{t^2+6t+9}=\\int\\frac{2\\,dt}{(t+3)^2}.$$\n$$=-\\frac2{t+3}+C=-\\frac{2}{\\tan\\frac x2+3}+C.$$"
+  },
+  {
+   "ref": "Q15(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "$OABC$ is a kite with $OB$ as its line of symmetry, so $|OA|=|OC|$ and $|AB|=|BC|$. Let $\\mathbf a=\\overrightarrow{OA}$, $\\mathbf b=\\overrightarrow{OB}$, $\\mathbf c=\\overrightarrow{OC}$. Prove that $\\mathbf a\\cdot\\mathbf b=\\mathbf b\\cdot\\mathbf c$.",
+   "answer": "Since $OB$ is a line of symmetry, $\\angle AOB=\\angle COB=\\theta$, and $|\\mathbf a|=|\\mathbf c|$. Then\n$$\\mathbf a\\cdot\\mathbf b=|\\mathbf a||\\mathbf b|\\cos\\theta=|\\mathbf c||\\mathbf b|\\cos\\theta=\\mathbf c\\cdot\\mathbf b.\\ \\blacksquare$$\n(Equivalently, triangles $OAB$ and $OCB$ are congruent (SSS), so the angles at $O$ are equal.)"
+  },
+  {
+   "ref": "Q15(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "$OABC$ is a kite with $OB$ as its line of symmetry ($|OA|=|OC|$, $|AB|=|BC|$). Let $\\mathbf a=\\overrightarrow{OA}$, $\\mathbf b=\\overrightarrow{OB}$, $\\mathbf c=\\overrightarrow{OC}$, and suppose $\\mathbf a\\cdot\\mathbf b=\\mathbf b\\cdot\\mathbf c$. Hence, or otherwise, prove that the diagonals of the kite are perpendicular.",
+   "answer": "The diagonals are $\\overrightarrow{OB}=\\mathbf b$ and $\\overrightarrow{CA}=\\mathbf a-\\mathbf c$. Their dot product is\n$$(\\mathbf a-\\mathbf c)\\cdot\\mathbf b=\\mathbf a\\cdot\\mathbf b-\\mathbf c\\cdot\\mathbf b=0$$\nby the given result. The diagonals are non-zero vectors with zero dot product, so they are perpendicular. $\\blacksquare$"
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.2"
+   ],
+   "question": "Use the principle of mathematical induction to prove that $(1+x)^n>1+nx$ for integers $n>1$ and $x>0$.",
+   "answer": "*Base case $n=2$:* LHS $=(1+x)^2=1+2x+x^2>1+2x=$ RHS since $x>0$. ✓\n\n*Inductive step:* assume $(1+x)^k>1+kx$ for some integer $k\\ge2$. Then, since $1+x>0$,\n$$(1+x)^{k+1}=(1+x)(1+x)^k>(1+x)(1+kx)=1+(k+1)x+kx^2>1+(k+1)x,$$\nbecause $kx^2>0$. So the result holds for $n=k+1$.\n\nBy mathematical induction it is true for all integers $n\\ge2$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.4"
+   ],
+   "question": "Kajan goes bungy-jumping. He is tied to a bridge at point $O$ by an elastic cable of length $L$ metres and falls vertically from rest from $O$. After falling $L$ metres he is slowed by the cable, which exerts a force (in newtons) of $mgk$ times the distance greater than $L$ that he has fallen, where $m$ is his mass in kg and $k$ is a constant. Let $x$ metres be the distance he has fallen (measured downward from $O$) and $v$ m/s his speed.\n\nShow that\n$$\\ddot x=\\begin{cases}g,&x\\le L\\\\ g-gk(x-L),&x>L.\\end{cases}$$",
+   "answer": "For $x\\le L$ the cable is slack and the only force is his weight: $m\\ddot x=mg$, so $\\ddot x=g$.\n\nFor $x>L$ the cable exerts an upward force $mgk(x-L)$ in addition to the downward weight: $m\\ddot x=mg-mgk(x-L)$, so $\\ddot x=g-gk(x-L)$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "A bungy jumper of mass $m$ falls vertically from rest at $O$ with acceleration $\\ddot x=g$ for $0\\le x\\le L$ (where $x$ is the distance fallen). Show that $v^2=2gL$ at the instant he is at $x=L$.",
+   "answer": "$\\dfrac d{dx}\\left(\\tfrac12v^2\\right)=g$, so $\\tfrac12v^2=gx+C$. At $x=0$, $v=0$ so $C=0$ and $v^2=2gx$. At $x=L$, $v^2=2gL$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q15(c)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "A bungy jumper falls from rest at $O$. For $x>L$ (where $x$ is the distance fallen) his acceleration is $\\ddot x=g-gk(x-L)$, and $v^2=2gL$ when $x=L$. Show that $v^2=2gx-gk(x-L)^2$ for $x>L$.",
+   "answer": "$\\dfrac d{dx}\\left(\\tfrac12v^2\\right)=g-gk(x-L)$, so $\\tfrac12v^2=gx-\\dfrac{gk(x-L)^2}2+C$. At $x=L$, $v^2=2gL$: $gL=gL+C$, so $C=0$. Hence $v^2=2gx-gk(x-L)^2$. $\\blacksquare$"
+  },
+  {
+   "ref": "Q15(c)(iv)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "A bungy jumper falls vertically from rest. For $x>L$ (where $x$ is the distance fallen) his speed satisfies $v^2=2gx-gk(x-L)^2$. Show that he stops for the first time at $x=L+\\dfrac1k+\\sqrt{\\dfrac{2L}k+\\left(\\dfrac1k\\right)^2}$.",
+   "answer": "He stops when $v=0$: $2gx-gk(x-L)^2=0$, i.e. $kx^2-2(1+kL)x+kL^2=0$, or\n$$x^2-\\frac{2(1+kL)}kx+L^2=0.$$\nComplete the square: $\\left(x-\\dfrac{1+kL}k\\right)^2=\\dfrac{(1+kL)^2-k^2L^2}{k^2}=\\dfrac{1+2kL}{k^2}$, so\n$$x=\\frac{1+kL}k\\pm\\frac{\\sqrt{1+2kL}}k.$$\nThe root $x=L+\\dfrac{1-\\sqrt{1+2kL}}k$ is less than $L$ (as $\\sqrt{1+2kL}>1$), so it is not in the region $x>L$ where this formula for $v^2$ holds. For $x>L$, $v^2$ is positive just after $x=L$ (it equals $2gL$ there) and is a downward-opening parabola in $x$, so $v^2>0$ until the larger root. Hence he first stops at\n$$x=L+\\frac1k+\\frac{\\sqrt{1+2kL}}k=L+\\frac1k+\\sqrt{\\frac{2L}k+\\left(\\frac1k\\right)^2}.\\ \\blacksquare$$"
+  },
+  {
+   "ref": "Q15(c)(v)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "A bungy jumper falls from rest at the bridge point $O$, and first stops (momentarily) at the distance $x=L+\\dfrac1k+\\sqrt{\\dfrac{2L}k+\\left(\\dfrac1k\\right)^2}$ metres below $O$. Given that $\\dfrac1k=\\dfrac L4$, show that $O$ must be at least $2L$ metres above any obstruction on his path.",
+   "answer": "With $\\dfrac1k=\\dfrac L4$:\n$$x=L+\\frac L4+\\sqrt{2L\\cdot\\frac L4+\\frac{L^2}{16}}=\\frac{5L}4+\\sqrt{\\frac{L^2}2+\\frac{L^2}{16}}=\\frac{5L}4+\\sqrt{\\frac{9L^2}{16}}=\\frac{5L}4+\\frac{3L}4=2L.$$\nThe lowest point of the fall is $2L$ metres below $O$, so $O$ must be at least $2L$ metres above any obstruction. $\\blacksquare$"
+  },
+  {
+   "ref": "Q16(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.9",
+    "12.4.1.15"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_1^2\\frac{x+1}{\\sqrt{3x-2-x^2}}\\,dx$.",
+   "answer": "Write $3x-2-x^2=\\tfrac14-\\left(x-\\tfrac32\\right)^2$, and $x+1=-\\tfrac12(-2x+3)+\\tfrac52$. Then\n$$\\int_1^2\\frac{x+1}{\\sqrt{3x-2-x^2}}dx=-\\frac12\\int_1^2\\frac{-2x+3}{\\sqrt{3x-2-x^2}}dx+\\frac52\\int_1^2\\frac{dx}{\\sqrt{\\tfrac14-\\left(x-\\tfrac32\\right)^2}}.$$\nThe first integral is $\\Big[2\\sqrt{3x-2-x^2}\\Big]_1^2=0-0=0$ (both end points make the radicand $0$), so the first term is $0$. The second is\n$$\\frac52\\Big[\\sin^{-1}(2x-3)\\Big]_1^2=\\frac52\\left(\\sin^{-1}1-\\sin^{-1}(-1)\\right)=\\frac52\\left(\\frac\\pi2+\\frac\\pi2\\right)=\\frac{5\\pi}2.$$"
+  },
+  {
+   "ref": "Q16(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "Find $|\\mathbf u+\\mathbf v|$ if $|\\mathbf u|=6$, $|\\mathbf v|=5$ and $\\mathbf u\\cdot\\mathbf v=-4$.",
+   "answer": "$|\\mathbf u+\\mathbf v|^2=(\\mathbf u+\\mathbf v)\\cdot(\\mathbf u+\\mathbf v)=|\\mathbf u|^2+2\\mathbf u\\cdot\\mathbf v+|\\mathbf v|^2=36-8+25=53$, so $|\\mathbf u+\\mathbf v|=\\sqrt{53}$."
+  },
+  {
+   "ref": "Q16(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "Prove that $\\dfrac{n!}{r!\\,(n-r)!}+\\dfrac{n!}{(r-1)!\\,(n-r+1)!}=\\dfrac{(n+1)!}{r!\\,(n-r+1)!}$.",
+   "answer": "Use the common denominator $r!\\,(n-r+1)!$. Since $(n-r+1)!=(n-r+1)(n-r)!$ and $r!=r\\,(r-1)!$:\n$$\\text{LHS}=\\frac{n!\\,(n-r+1)+n!\\,r}{r!\\,(n-r+1)!}=\\frac{n!\\,(n+1)}{r!\\,(n-r+1)!}=\\frac{(n+1)!}{r!\\,(n-r+1)!}=\\text{RHS}.\\ \\blacksquare$$"
+  },
+  {
+   "ref": "Q16(d)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.5"
+   ],
+   "question": "It is known that for positive numbers the arithmetic mean is at least the geometric mean: $\\dfrac{a+b+c}3\\ge\\sqrt[3]{abc}$. Given $a+b+c=t$ and $a,b,c>0$, prove that $\\dfrac1a+\\dfrac1b+\\dfrac1c\\ge\\dfrac9t$.",
+   "answer": "From the given inequality, $\\dfrac t3\\ge\\sqrt[3]{abc}$, so $\\dfrac1{\\sqrt[3]{abc}}\\ge\\dfrac3t$.\n\nApplying AM–GM to $\\dfrac1a,\\dfrac1b,\\dfrac1c$ (all positive):\n$$\\frac1a+\\frac1b+\\frac1c\\ge3\\sqrt[3]{\\frac1a\\cdot\\frac1b\\cdot\\frac1c}=\\frac3{\\sqrt[3]{abc}}\\ge3\\cdot\\frac3t=\\frac9t.\\ \\blacksquare$$"
+  },
+  {
+   "ref": "Q16(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "Given $a,b,c>0$ and $a+b+c=1$, prove that $\\left(\\dfrac1a-1\\right)\\left(\\dfrac1b-1\\right)\\left(\\dfrac1c-1\\right)\\ge8$. (You may use the result that $\\dfrac1a+\\dfrac1b+\\dfrac1c\\ge\\dfrac9{a+b+c}$ for positive $a,b,c$.)",
+   "answer": "$$\\left(\\frac1a-1\\right)\\left(\\frac1b-1\\right)\\left(\\frac1c-1\\right)=\\frac{(1-a)(1-b)(1-c)}{abc}=\\frac{1-(a+b+c)+(ab+bc+ca)-abc}{abc}.$$\nSince $a+b+c=1$ this is $\\dfrac{ab+bc+ca-abc}{abc}=\\dfrac1a+\\dfrac1b+\\dfrac1c-1$.\n\nBy the given result with $a+b+c=1$, $\\dfrac1a+\\dfrac1b+\\dfrac1c\\ge9$, so the product is at least $9-1=8$. $\\blacksquare$"
+  }
+ ]
+}
