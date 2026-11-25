@@ -1,0 +1,636 @@
+{
+ "id": "ext2-2025-north-sydney-girls",
+ "course": "extension2",
+ "school": "North Sydney Girls",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "North Sydney Girls 2025 w. sol"
+ },
+ "indexed": "2026-11-26",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.11"
+   ],
+   "question": "Consider the statement:\n\n\"If you do not try, then you will not succeed.\"\n\nWhich of the following statements is logically equivalent to the statement above?",
+   "answer": "Let $P$: \"do not try\" and $Q$: \"do not succeed\". The statement is $P\\Rightarrow Q$. Its contrapositive $\\neg Q\\Rightarrow\\neg P$ is logically equivalent: \"If you succeeded, then you tried\" (C).",
+   "options": [
+    "If you did not succeed, then you tried.",
+    "If you did not succeed, then you did not try.",
+    "If you succeeded, then you tried.",
+    "If you succeeded, then you did not try."
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.7"
+   ],
+   "question": "Which of the following vectors is perpendicular to the vector $2\\mathbf{i}+9\\mathbf{j}-3\\mathbf{k}$?",
+   "answer": "Perpendicular vectors have dot product $0$. $(2,9,-3)\\cdot(-3,2,4)=-6+18-12=0$ (D). The others give: A $6+9+15=30$, B $12-9+3=6$, C $-2+18+9=25$.",
+   "options": [
+    "$3\\mathbf{i}+\\mathbf{j}-5\\mathbf{k}$",
+    "$6\\mathbf{i}-\\mathbf{j}-\\mathbf{k}$",
+    "$-\\mathbf{i}+2\\mathbf{j}-3\\mathbf{k}$",
+    "$-3\\mathbf{i}+2\\mathbf{j}+4\\mathbf{k}$"
+   ],
+   "correct": "D",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.5"
+   ],
+   "question": "Let $R$ be the region in the complex plane defined by $-2\\le z+\\overline{z}\\le 4$ and $\\dfrac{\\pi}{4}\\le\\operatorname{Arg}(z-1+i)\\le\\pi$.\n\nWhich diagram best represents the region $R$?",
+   "answer": "$z+\\overline{z}=2\\operatorname{Re}(z)$, so $-2\\le 2\\operatorname{Re}(z)\\le 4$ gives $-1\\le\\operatorname{Re}(z)\\le 2$: the vertical strip between $x=-1$ and $x=2$.\n\n$\\operatorname{Arg}(z-(1-i))$ is the argument measured from the point $(1,-1)$, so $\\frac{\\pi}{4}\\le\\operatorname{Arg}\\le\\pi$ is the region above/left of the ray from $(1,-1)$ at $\\frac{\\pi}{4}$ and above the horizontal line $y=-1$ (the point $(1,-1)$ itself is excluded). Intersecting with the strip gives diagram A (A: the ray from $(1,-1)$ meets $x=2$ at $(2,0)$).",
+   "options": [
+    "![Graph A](assets/img/ext2-2025-north-sydney-girls/q3a.png)",
+    "![Graph B](assets/img/ext2-2025-north-sydney-girls/q3b.png)",
+    "![Graph C](assets/img/ext2-2025-north-sydney-girls/q3c.png)",
+    "![Graph D](assets/img/ext2-2025-north-sydney-girls/q3d.png)"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.2"
+   ],
+   "question": "An object of mass $6$ kg is placed on a smooth ramp that is inclined at an angle of $22^\\circ$ to the horizontal. It is pulled up the ramp by a force of $75$ Newtons as shown in the diagram.\n\nThe acceleration due to gravity is $9.8\\ \\text{m s}^{-2}$. Which of the following is closest to the acceleration of the block?",
+   "answer": "Resolving along the ramp (smooth, so no friction): $6a=75-6(9.8)\\sin22^\\circ$, so $a=\\dfrac{75-6(9.8)\\sin 22^\\circ}{6}\\approx 8.8\\ \\text{m s}^{-2}$ (B).",
+   "options": [
+    "$3.4\\ \\text{m s}^{-2}$",
+    "$8.8\\ \\text{m s}^{-2}$",
+    "$16.2\\ \\text{m s}^{-2}$",
+    "$21.6\\ \\text{m s}^{-2}$"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/ext2-2025-north-sydney-girls/q4.png"
+   ]
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.4"
+   ],
+   "question": "Which of the following is a vector equation of the line joining the points $A(3,-2,5)$ and $B(-1,4,9)$?",
+   "answer": "A direction vector is $\\overrightarrow{BA}=\\begin{pmatrix}3-(-1)\\\\-2-4\\\\5-9\\end{pmatrix}=\\begin{pmatrix}4\\\\-6\\\\-4\\end{pmatrix}$, and any parallel vector works, e.g. $\\begin{pmatrix}2\\\\-3\\\\-2\\end{pmatrix}$. With the point $B(-1,4,9)$ on the line, this is option B.",
+   "options": [
+    "$\\mathbf{r}=\\begin{pmatrix}-1\\\\4\\\\9\\end{pmatrix}+\\lambda\\begin{pmatrix}3\\\\-2\\\\5\\end{pmatrix}$",
+    "$\\mathbf{r}=\\begin{pmatrix}-1\\\\4\\\\9\\end{pmatrix}+\\lambda\\begin{pmatrix}2\\\\-3\\\\-2\\end{pmatrix}$",
+    "$\\mathbf{r}=\\begin{pmatrix}3\\\\-2\\\\5\\end{pmatrix}+\\lambda\\begin{pmatrix}-1\\\\4\\\\9\\end{pmatrix}$",
+    "$\\mathbf{r}=\\begin{pmatrix}2\\\\-3\\\\-2\\end{pmatrix}+\\lambda\\begin{pmatrix}3\\\\-2\\\\5\\end{pmatrix}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "A light inextensible string passes over a smooth pulley. Attached to the ends of the string are masses of $8$ kg and $3$ kg as shown.\n\nThe acceleration due to gravity is $9.8\\ \\text{m s}^{-2}$. Which of the following is closest to the acceleration of the masses?",
+   "answer": "For the $8$ kg mass: $8a=8g-T$. For the $3$ kg mass: $3a=T-3g$. Adding: $11a=5g$, so $a=\\dfrac{5g}{11}\\approx 4.5\\ \\text{m s}^{-2}$ (A).",
+   "options": [
+    "$4.5\\ \\text{m s}^{-2}$",
+    "$6.1\\ \\text{m s}^{-2}$",
+    "$13.5\\ \\text{m s}^{-2}$",
+    "$21.6\\ \\text{m s}^{-2}$"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/ext2-2025-north-sydney-girls/q6.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.5"
+   ],
+   "question": "Which of the following is equal to $\\displaystyle\\int_0^{\\pi/4}\\frac{1}{6+\\cos 2x}\\,dx$ ?",
+   "answer": "Let $t=\\tan x$, so $dx=\\dfrac{dt}{1+t^2}$ and $\\cos 2x=\\dfrac{1-t^2}{1+t^2}$; the limits $x=0,\\frac{\\pi}{4}$ become $t=0,1$.\n$$\\int_0^1\\frac{1}{6+\\frac{1-t^2}{1+t^2}}\\cdot\\frac{dt}{1+t^2}=\\int_0^1\\frac{dt}{6(1+t^2)+1-t^2}=\\int_0^1\\frac{dt}{7+5t^2}\\quad\\text{(A)}.$$",
+   "options": [
+    "$\\displaystyle\\int_0^1\\frac{1}{7+5t^2}\\,dt$",
+    "$\\displaystyle\\int_0^1\\frac{1}{5+7t^2}\\,dt$",
+    "$\\dfrac13\\displaystyle\\int_0^1\\frac{1}{3t^2+t+3}\\,dt$",
+    "$\\dfrac13\\displaystyle\\int_0^1\\frac{1}{3t^2-t+3}\\,dt$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.8",
+    "12.5.2.1"
+   ],
+   "question": "A particle undergoes simple harmonic motion between $x=-3$ and $x=5$, where $x$ is the displacement measured in metres from a fixed point $O$. Given that its maximum acceleration is $20\\ \\text{m s}^{-2}$, what is the velocity of the particle at $x=0$?",
+   "answer": "Centre $=\\frac{-3+5}{2}=1$ and amplitude $A=\\frac{5-(-3)}{2}=4$, so $\\ddot x=-n^2(x-1)$. The maximum acceleration occurs at an extremity, e.g. $x=-3$: $20=-n^2(-3-1)$, so $n^2=5$.\n\n$v^2=n^2\\left[A^2-(x-1)^2\\right]$. At $x=0$: $v^2=5(16-1)=75$, so $|v|=5\\sqrt3\\ \\text{m s}^{-1}$ (B).",
+   "options": [
+    "$8\\ \\text{m s}^{-1}$",
+    "$5\\sqrt3\\ \\text{m s}^{-1}$",
+    "$4\\sqrt5\\ \\text{m s}^{-1}$",
+    "$\\dfrac{8\\sqrt{15}}{3}\\ \\text{m s}^{-1}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.9",
+    "12.4.1.8"
+   ],
+   "question": "Of the following expressions, which one need **NOT** contain a term involving $\\arctan$ in its anti-derivative?",
+   "answer": "Option B: with $u=e^x$ the integrand becomes $\\dfrac{1}{u^2+5u+6}=\\dfrac{1}{(u+2)(u+3)}$, which has distinct real linear factors, so its anti-derivative involves only logarithms (no $\\arctan$).\n\nThe others do give $\\arctan$: A is $\\dfrac{2}{(x+1)^2+6}$; C with $u=\\sqrt x$ becomes $\\dfrac{2}{u^2+3}$; D with $u=\\cos x$ (and $\\cos2x=2\\cos^2x-1$) becomes $-\\dfrac{2}{2u^2+8}=-\\dfrac{1}{u^2+4}$.",
+   "options": [
+    "$\\dfrac{2}{x^2+2x+7}$",
+    "$\\dfrac{e^x}{e^{2x}+5e^x+6}$",
+    "$\\dfrac{1}{\\sqrt x\\,(x+3)}$",
+    "$\\dfrac{2\\sin x}{\\cos 2x+9}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.1.14",
+    "12.2.1.13"
+   ],
+   "question": "The diagram below shows a curve on the surface of a cone with radius $4$ and height $10$.\n\nWhich of the following position vectors can **NOT** describe the curve?",
+   "answer": "All four options start at $(-4,0,0)$ and end at $(0,0,10)$, so the end points do not decide it; check the direction of rotation.\n\nOption D: $2(2-t)\\sin(-4\\pi t)=2(t-2)\\sin(4\\pi t)$, so D is the same curve as B. In B and D, after a quarter of a cycle ($t=\\frac18$, since the period is $\\frac{2\\pi}{4\\pi}=\\frac12$) the $y$-coordinate is $2\\left(\\tfrac18-2\\right)\\sin\\tfrac{\\pi}{2}=-3.75<0$; A also gives $y<0$ after a quarter turn from its start.\n\nFor C, at $t=\\frac18$: $y=2\\left(\\tfrac18-2\\right)\\sin\\left(-\\tfrac{\\pi}{2}\\right)=3.75>0$, so C winds around the cone in the opposite direction. Hence C cannot describe the curve.",
+   "options": [
+    "$\\mathbf{r}(t)=2\\left(t-\\tfrac{19}{8}\\right)\\sin(-4\\pi t)\\,\\mathbf{i}+2\\left(t-\\tfrac{19}{8}\\right)\\cos(4\\pi t)\\,\\mathbf{j}+5\\left(t-\\tfrac38\\right)\\mathbf{k}$ for $\\tfrac38\\le t\\le\\tfrac{19}{8}$",
+    "$\\mathbf{r}(t)=2(t-2)\\cos(4\\pi t)\\,\\mathbf{i}+2(t-2)\\sin(4\\pi t)\\,\\mathbf{j}+5t\\,\\mathbf{k}$ for $0\\le t\\le 2$",
+    "$\\mathbf{r}(t)=2(t-2)\\cos(4\\pi t)\\,\\mathbf{i}+2(t-2)\\sin(-4\\pi t)\\,\\mathbf{j}+5t\\,\\mathbf{k}$ for $0\\le t\\le 2$",
+    "$\\mathbf{r}(t)=2(t-2)\\cos(4\\pi t)\\,\\mathbf{i}+2(2-t)\\sin(-4\\pi t)\\,\\mathbf{j}+5t\\,\\mathbf{k}$ for $0\\le t\\le 2$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/ext2-2025-north-sydney-girls/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.10",
+    "12.3.1.9"
+   ],
+   "question": "Consider the complex numbers $w=1-2i$ and $z=1+3i$. Express $w+\\overline{z}$ in the form $x+iy$, where $x$ and $y$ are real numbers.",
+   "answer": "$\\overline{z}=1-3i$, so $w+\\overline{z}=(1-2i)+(1-3i)=2-5i$."
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.4",
+    "12.3.1.13"
+   ],
+   "question": "Consider the complex numbers $w=1-2i$ and $z=1+3i$. Express $\\dfrac{w}{z}$ in modulus-argument form.",
+   "answer": "$$\\frac{1-2i}{1+3i}=\\frac{(1-2i)(1-3i)}{(1+3i)(1-3i)}=\\frac{-5-5i}{10}=\\frac12(-1-i).$$\nModulus $=\\frac12\\sqrt2=\\frac{\\sqrt2}{2}$; the point is in the third quadrant at $45^\\circ$ to the axis, so $\\operatorname{Arg}=-\\frac{3\\pi}{4}$.\n$$\\frac wz=\\frac{\\sqrt2}{2}\\left[\\cos\\left(-\\frac{3\\pi}{4}\\right)+i\\sin\\left(-\\frac{3\\pi}{4}\\right)\\right].$$"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Find $\\displaystyle\\int xe^{-x}\\,dx$.",
+   "answer": "Integrate by parts with $u=x$, $dv=e^{-x}dx$ ($v=-e^{-x}$):\n$$\\int xe^{-x}dx=-xe^{-x}+\\int e^{-x}dx=-xe^{-x}-e^{-x}+C.$$"
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "Find the angle between the vectors $\\mathbf{u}=2\\mathbf{i}-5\\mathbf{j}+\\mathbf{k}$ and $\\mathbf{v}=-\\mathbf{i}+4\\mathbf{j}+3\\mathbf{k}$, giving the angle in degrees correct to 1 decimal place.",
+   "answer": "$|\\mathbf{u}|=\\sqrt{4+25+1}=\\sqrt{30}$, $|\\mathbf{v}|=\\sqrt{1+16+9}=\\sqrt{26}$, $\\mathbf{u}\\cdot\\mathbf{v}=(2)(-1)+(-5)(4)+(1)(3)=-19$.\n$$\\cos\\theta=\\frac{-19}{\\sqrt{30}\\sqrt{26}}=\\frac{-19}{\\sqrt{780}}\\quad\\Rightarrow\\quad\\theta\\approx132.9^\\circ.$$",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.7",
+    "12.3.4.5"
+   ],
+   "question": "Given that $3-\\sqrt3\\,i$ is a fourth root of $-72\\left(1+\\sqrt3\\,i\\right)$, find the remaining $3$ roots and express them in polar form $r(\\cos\\theta+i\\sin\\theta)$.",
+   "answer": "$3-\\sqrt3\\,i$ has modulus $\\sqrt{9+3}=2\\sqrt3$ and argument $-\\frac{\\pi}{6}$.\n\nThe four fourth roots are equally spaced around a circle of radius $2\\sqrt3$, with angle $\\frac{2\\pi}{4}=\\frac{\\pi}{2}$ between them. Adding multiples of $\\frac{\\pi}{2}$ to $-\\frac{\\pi}{6}$ gives the remaining roots:\n$$2\\sqrt3\\left[\\cos\\left(-\\tfrac{2\\pi}{3}\\right)+i\\sin\\left(-\\tfrac{2\\pi}{3}\\right)\\right],\\quad 2\\sqrt3\\left[\\cos\\tfrac{\\pi}{3}+i\\sin\\tfrac{\\pi}{3}\\right],\\quad 2\\sqrt3\\left[\\cos\\tfrac{5\\pi}{6}+i\\sin\\tfrac{5\\pi}{6}\\right].$$\n(The paper wrote these as $re^{i\\theta}$; exponential form is not in the 2024 syllabus, so polar form is used here.)"
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.4.5"
+   ],
+   "question": "Consider the sequence $u_n$ where $u_1=0$, $u_{n+1}=2n-u_n$ for $n=1,2,\\dots$. Use mathematical induction to show that $2u_n=2n-1+(-1)^n$ for $n=1,2,\\dots$.",
+   "answer": "**Base case $n=1$:** $u_1=0$, and $2n-1+(-1)^n=2-1-1=0=2u_1$. True.\n\n**Assume** true for $n=k$: $2u_k=2k-1+(-1)^k$.\n\n**Prove** true for $n=k+1$, i.e. $2u_{k+1}=2(k+1)-1+(-1)^{k+1}$.\n$$2u_{k+1}=2(2k-u_k)=4k-2u_k=4k-\\left(2k-1+(-1)^k\\right)=2k+1-(-1)^k=2(k+1)-1+(-1)^{k+1}.$$\nSo it is true for $n=k+1$ whenever it is true for $n=k$. By induction the formula holds for all integers $n\\ge1$."
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.2.3"
+   ],
+   "question": "Consider Statement A: 'If the last digit of the integer $n$ is $5$ then $n$ is divisible by $5$.' Prove by contradiction that Statement A is true.",
+   "answer": "Assume the last digit of the integer $n$ is $5$ and $n$ is **not** divisible by $5$.\n\nSince the last digit is $5$, $n=10k+5$ for some integer $k$. Then $n=5(2k+1)$ where $2k+1$ is an integer, so $n$ is divisible by $5$. This contradicts the assumption. Hence Statement A is true."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Use an appropriate substitution of the form $x=a+b\\sin\\theta$ to evaluate $\\displaystyle\\int_7^{10}\\sqrt{(x-4)(10-x)}\\,dx$.",
+   "answer": "$(x-4)(10-x)=9-(x-7)^2$ (check: $-x^2+14x-40=9-(x^2-14x+49)$). Let $x=7+3\\sin\\theta$, so $dx=3\\cos\\theta\\,d\\theta$; $x=7\\Rightarrow\\theta=0$ and $x=10\\Rightarrow\\theta=\\frac{\\pi}{2}$.\n$$\\int_7^{10}\\sqrt{9-(x-7)^2}\\,dx=\\int_0^{\\pi/2}\\sqrt{9-9\\sin^2\\theta}\\,(3\\cos\\theta)\\,d\\theta=9\\int_0^{\\pi/2}\\cos^2\\theta\\,d\\theta=\\frac92\\int_0^{\\pi/2}(1+\\cos2\\theta)\\,d\\theta$$\n$$=\\frac92\\left[\\theta+\\tfrac12\\sin2\\theta\\right]_0^{\\pi/2}=\\frac92\\cdot\\frac{\\pi}{2}=\\frac{9\\pi}{4}.$$"
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.5"
+   ],
+   "question": "The velocity of a particle moving in a straight line is given by $v^2=128+32x-16x^2$, where $v$ is measured in $\\text{m s}^{-1}$ and $x$ is the displacement measured in m from the origin. Show that the particle moves in simple harmonic motion with period $\\dfrac{\\pi}{2}$ s.",
+   "answer": "$\\tfrac12v^2=64+16x-8x^2$, so\n$$\\ddot x=\\frac{d}{dx}\\left(\\tfrac12v^2\\right)=16-16x=-4^2(x-1).$$\nThis has the form $\\ddot x=-n^2(x-c)$ with $n=4$ and $c=1$, so the motion is simple harmonic about $x=1$ with period $T=\\frac{2\\pi}{n}=\\frac{2\\pi}{4}=\\frac{\\pi}{2}$ s."
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.10",
+    "12.5.2.4"
+   ],
+   "question": "The velocity of a particle moving in a straight line is given by $v^2=128+32x-16x^2$, where $v$ is in $\\text{m s}^{-1}$ and $x$ is the displacement in m from the origin. The motion is simple harmonic. What distance does the particle travel during a full period of its motion?",
+   "answer": "At the extremities $v=0$: $128+32x-16x^2=0\\Rightarrow x^2-2x-8=0\\Rightarrow(x-4)(x+2)=0$, so $x=-2$ and $x=4$. The amplitude is $A=3$.\n\nIn one full period the particle travels $4A=12$ m."
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.17",
+    "12.2.1.18"
+   ],
+   "question": "The position vectors of points $A$ and $B$ are $\\begin{pmatrix}-7\\\\-3\\\\2\\end{pmatrix}$ and $\\begin{pmatrix}5\\\\-1\\\\-8\\end{pmatrix}$ respectively. Find the vector equation of the sphere with $AB$ as its diameter.",
+   "answer": "Centre (midpoint of $AB$): $\\begin{pmatrix}\\frac{-7+5}{2}\\\\\\frac{-3-1}{2}\\\\\\frac{2-8}{2}\\end{pmatrix}=\\begin{pmatrix}-1\\\\-2\\\\-3\\end{pmatrix}$.\n\n$\\overrightarrow{AB}=\\begin{pmatrix}12\\\\2\\\\-10\\end{pmatrix}$, so the radius is $\\frac12|\\overrightarrow{AB}|=\\frac12\\sqrt{144+4+100}=\\frac12\\sqrt{248}=\\sqrt{62}$.\n\nSphere: $\\left|\\mathbf{r}-\\begin{pmatrix}-1\\\\-2\\\\-3\\end{pmatrix}\\right|=\\sqrt{62}$."
+  },
+  {
+   "ref": "Q12(e)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.5",
+    "12.1.3.2"
+   ],
+   "question": "Prove that $\\forall x,y\\in\\mathbb{R}^+$, $\\dfrac{x+y}{2}\\ge\\sqrt{xy}$.",
+   "answer": "For all real $a,b$: $(a-b)^2\\ge0\\Rightarrow a^2+b^2\\ge2ab\\Rightarrow\\dfrac{a^2+b^2}{2}\\ge ab$. Substituting $a=\\sqrt x$, $b=\\sqrt y$ (valid since $x,y>0$) gives $\\dfrac{x+y}{2}\\ge\\sqrt{xy}$."
+  },
+  {
+   "ref": "Q12(e)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "Let $a,b,c,d$ be positive real numbers. Use the result that $\\dfrac{x+y}{2}\\ge\\sqrt{xy}$ for all positive $x,y$ to prove that $$(a+b+c+d)\\left(\\frac1a+\\frac1b+\\frac1c+\\frac1d\\right)\\ge16.$$",
+   "answer": "Expand: \n$$(a+b+c+d)\\left(\\tfrac1a+\\tfrac1b+\\tfrac1c+\\tfrac1d\\right)=4+\\left(\\tfrac ab+\\tfrac ba\\right)+\\left(\\tfrac ac+\\tfrac ca\\right)+\\left(\\tfrac ad+\\tfrac da\\right)+\\left(\\tfrac bc+\\tfrac cb\\right)+\\left(\\tfrac bd+\\tfrac db\\right)+\\left(\\tfrac cd+\\tfrac dc\\right).$$\nBy the result with $x=\\frac pq$, $y=\\frac qp$: $\\frac pq+\\frac qp\\ge2\\sqrt{\\frac pq\\cdot\\frac qp}=2$. Each of the six pairs is therefore $\\ge2$, so the expression is $\\ge4+6\\times2=16$."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.15",
+    "12.4.1.6"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^{\\pi}x\\sin x\\cos^4x\\,dx$ using the property $\\displaystyle\\int_0^a f(x)\\,dx=\\int_0^a f(a-x)\\,dx$.",
+   "answer": "Let $I=\\int_0^\\pi x\\sin x\\cos^4x\\,dx$. Using the property with $a=\\pi$ (note $\\sin(\\pi-x)=\\sin x$, $\\cos^4(\\pi-x)=\\cos^4x$):\n$$I=\\int_0^\\pi(\\pi-x)\\sin x\\cos^4x\\,dx=\\pi\\int_0^\\pi\\sin x\\cos^4x\\,dx-I.$$\nSo $2I=\\pi\\int_0^\\pi\\sin x\\cos^4x\\,dx=\\pi\\left[-\\frac{\\cos^5x}{5}\\right]_0^\\pi=\\pi\\left(\\frac15+\\frac15\\right)=\\frac{2\\pi}{5}$, hence $I=\\dfrac{\\pi}{5}$."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.10"
+   ],
+   "question": "Consider the two lines in three dimensions given by $\\mathbf{r}=\\begin{pmatrix}-2\\\\5\\\\1\\end{pmatrix}+\\lambda\\begin{pmatrix}1\\\\3\\\\-6\\end{pmatrix}$ and $\\mathbf{r}=\\begin{pmatrix}5\\\\4\\\\-1\\end{pmatrix}+\\mu\\begin{pmatrix}2\\\\-5\\\\8\\end{pmatrix}$. Find the point of intersection of the two lines.",
+   "answer": "Equate components:\n$$\\mathbf{i}:\\ -2+\\lambda=5+2\\mu\\ (1),\\qquad \\mathbf{j}:\\ 5+3\\lambda=4-5\\mu\\ (2).$$\n(2) $-3\\times$(1): $11=-11-11\\mu\\Rightarrow\\mu=-2$, and then (1) gives $\\lambda=3$.\n\nCheck $\\mathbf{k}$: $1-6(3)=-17$ and $-1+8(-2)=-17$. ✓ \n\nIntersection point: $(-2+3,\\ 5+9,\\ -17)=(1,14,-17)$."
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "The acceleration of a particle moving in a straight line is given by $a=4-v^2$, where $v$ is its velocity. Initially, the particle has a velocity of $\\dfrac23\\ \\text{m s}^{-1}$ at $x=0$. What is the displacement of the particle when it is travelling at a velocity of $1\\ \\text{m s}^{-1}$?",
+   "answer": "Use $v\\dfrac{dv}{dx}=4-v^2$, so $\\displaystyle\\int_{2/3}^{1}\\frac{v}{4-v^2}\\,dv=\\int_0^x dx$:\n$$x=\\left[-\\tfrac12\\ln(4-v^2)\\right]_{2/3}^{1}=-\\tfrac12\\ln3+\\tfrac12\\ln\\tfrac{32}{9}=\\tfrac12\\ln\\frac{32}{27}\\ \\text{m}.$$"
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.4.1.8"
+   ],
+   "question": "The acceleration of a particle moving in a straight line is given by $a=4-v^2$, where $v$ is its velocity. Initially, the particle has a velocity of $\\dfrac23\\ \\text{m s}^{-1}$ at $x=0$. What is the velocity of the particle at $t=\\dfrac12$?",
+   "answer": "$\\dfrac{dv}{dt}=4-v^2$, so $\\displaystyle\\int\\frac{dv}{(2-v)(2+v)}=\\int dt$. Partial fractions: $\\dfrac{1}{(2-v)(2+v)}=\\dfrac14\\left(\\dfrac{1}{2-v}+\\dfrac{1}{2+v}\\right)$, so\n$$\\tfrac14\\left[-\\ln(2-v)+\\ln(2+v)\\right]=t+C_1\\ \\Rightarrow\\ \\ln\\frac{2+v}{2-v}=4t+C_2.$$\nAt $t=0$, $v=\\frac23$: $\\ln\\dfrac{8/3}{4/3}=\\ln2=C_2$. Then $\\dfrac{2+v}{2-v}=2e^{4t}$, so $2+v=2e^{4t}(2-v)$ and\n$$v=\\frac{2\\left(2e^{4t}-1\\right)}{2e^{4t}+1}\\ \\text{m s}^{-1}.$$\nAt $t=\\frac12$: $v=\\dfrac{2\\left(2e^{2}-1\\right)}{2e^{2}+1}\\ \\text{m s}^{-1}$."
+  },
+  {
+   "ref": "Q13(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "The integral $I_n$ is defined by $I_n=\\displaystyle\\int_0^1e^{-x}(1-x)^n\\,dx$ for $n\\ge0$. Show that $I_n=1-nI_{n-1}$ for $n\\ge1$.",
+   "answer": "Integrate by parts with $u=(1-x)^n$, $dv=e^{-x}dx$:\n$$I_n=\\left[-(1-x)^ne^{-x}\\right]_0^1-\\int_0^1(-e^{-x})\\cdot\\left(-n(1-x)^{n-1}\\right)dx=\\left(0+1\\right)-n\\int_0^1e^{-x}(1-x)^{n-1}dx=1-nI_{n-1}.$$"
+  },
+  {
+   "ref": "Q13(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.14",
+    "12.1.4.5"
+   ],
+   "question": "The integral $I_n$ is defined by $I_n=\\displaystyle\\int_0^1e^{-x}(1-x)^n\\,dx$ for $n\\ge0$, and $I_n=1-nI_{n-1}$ for $n\\ge1$. Given that $I_n$ can be expressed in the form $a+be^{-1}$ where $a$ and $b$ are integers, find an expression for $b$ in terms of $n$.",
+   "answer": "$I_0=\\int_0^1e^{-x}dx=1-e^{-1}$, so $b_0=-1$. The recurrence $I_n=1-nI_{n-1}$ gives $b_n=-nb_{n-1}$, so\n$$b_n=(-1)^nn!\\,b_0=(-1)^{n+1}n!.$$\n(Check: $I_1=1-I_0=e^{-1}$, $b_1=1$; $I_2=1-2e^{-1}$, $b_2=-2$; $I_3=-2+6e^{-1}$, $b_3=6$.)"
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.2"
+   ],
+   "question": "Prove by mathematical induction that $n^3-1>n^2+n$, for integers $n\\ge2$.",
+   "answer": "**$n=2$:** LHS $=7$, RHS $=6$, and $7>6$. True.\n\n**Assume** $k^3-1>k^2+k$ for some integer $k\\ge2$.\n\n**Prove** $(k+1)^3-1>(k+1)^2+(k+1)$.\n$$(k+1)^3-1-(k+1)^2-(k+1)=k^3+3k^2+3k-k^2-3k-2=(k^3-1)+2k^2-1>(k^2+k)+2k^2-1=3k^2+k-1.$$\nFor $k\\ge2$, $3k^2+k-1>0$, so the statement holds for $n=k+1$. By induction it holds for all integers $n\\ge2$."
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.8",
+    "12.4.1.7"
+   ],
+   "question": "Use the method of partial fractions to find the value of $a$, where $a>0$, such that $$\\int_0^a\\frac{3-5x}{(1+x)(1-x+2x^2)}\\,dx=0.$$",
+   "answer": "Let $\\dfrac{3-5x}{(1+x)(1-x+2x^2)}=\\dfrac{A}{1+x}+\\dfrac{Bx+C}{1-x+2x^2}$, so $3-5x=A(1-x+2x^2)+(Bx+C)(1+x)$.\n\n$x=-1$: $8=4A\\Rightarrow A=2$. $x=0$: $3=A+C\\Rightarrow C=1$. $x=1$: $-2=2A+2(B+C)\\Rightarrow B=-4$.\n\n$$\\int_0^a\\left[\\frac{2}{1+x}+\\frac{1-4x}{1-x+2x^2}\\right]dx=\\Big[2\\ln(1+x)-\\ln(1-x+2x^2)\\Big]_0^a=\\ln\\frac{(1+a)^2}{1-a+2a^2}.$$\n(Note $\\frac{d}{dx}(1-x+2x^2)=4x-1$ and $1-x+2x^2>0$ for all $x$.) This is $0$ when $(1+a)^2=1-a+2a^2$, i.e. $a^2-3a=0$. Since $a>0$, $a=3$."
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.2",
+    "12.3.1.8"
+   ],
+   "question": "Let $w=\\cos\\theta+i\\sin\\theta$, where $0<\\theta<\\pi$. It is known that the complex number $w^2+\\dfrac{3\\sqrt2}{w}-3$ is purely imaginary. Show that $2\\cos^2\\theta+3\\sqrt2\\cos\\theta-4=0$.",
+   "answer": "Since $w^{-1}=\\cos\\theta-i\\sin\\theta$ (de Moivre),\n$$w^2+\\frac{3\\sqrt2}{w}-3=\\left(\\cos2\\theta+3\\sqrt2\\cos\\theta-3\\right)+i\\left(\\sin2\\theta-3\\sqrt2\\sin\\theta\\right).$$\nPurely imaginary means the real part is $0$: $\\cos2\\theta+3\\sqrt2\\cos\\theta-3=0$. Using $\\cos2\\theta=2\\cos^2\\theta-1$:\n$$2\\cos^2\\theta+3\\sqrt2\\cos\\theta-4=0.$$"
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.4"
+   ],
+   "question": "Let $w=\\cos\\theta+i\\sin\\theta$, where $0<\\theta<\\pi$, and $2\\cos^2\\theta+3\\sqrt2\\cos\\theta-4=0$. Hence, or otherwise, find $w$.",
+   "answer": "Quadratic in $\\cos\\theta$: $\\cos\\theta=\\dfrac{-3\\sqrt2\\pm\\sqrt{18+32}}{4}=\\dfrac{-3\\sqrt2\\pm5\\sqrt2}{4}$, so $\\cos\\theta=\\dfrac{\\sqrt2}{2}$ or $\\cos\\theta=-2\\sqrt2$.\n\n$\\cos\\theta=-2\\sqrt2<-1$ is impossible. So $\\cos\\theta=\\frac{\\sqrt2}{2}$ and, as $0<\\theta<\\pi$, $\\theta=\\frac{\\pi}{4}$: $w=\\cos\\frac{\\pi}{4}+i\\sin\\frac{\\pi}{4}$."
+  },
+  {
+   "ref": "Q14(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.10",
+    "12.3.2.7"
+   ],
+   "question": "Let $w=\\cos\\dfrac{\\pi}{4}+i\\sin\\dfrac{\\pi}{4}$. $A$ and $B$ are two points on an Argand diagram representing two distinct complex numbers $z_1$ and $z_2$ respectively. Suppose that $z_2=wz_1$ and $|z_1|=3$. Find the exact length of $AB$.",
+   "answer": "$AB=|z_2-z_1|=|wz_1-z_1|=|z_1||w-1|=3\\left|\\left(\\cos\\tfrac{\\pi}{4}-1\\right)+i\\sin\\tfrac{\\pi}{4}\\right|$.\n$$|w-1|^2=\\left(\\cos\\tfrac\\pi4-1\\right)^2+\\sin^2\\tfrac\\pi4=2-2\\cos\\tfrac\\pi4=2-\\sqrt2,$$\nso $AB=3\\sqrt{2-\\sqrt2}$.\n\n(Alternatively, by the cosine rule in triangle $OAB$ with $OA=OB=3$ and $\\angle AOB=\\frac{\\pi}{4}$: $AB^2=18-18\\cos\\frac\\pi4=18-9\\sqrt2$.)"
+  },
+  {
+   "ref": "Q14(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "Consider $f(x)=x^m-mx$ where $m>1$. By using calculus, or otherwise, show that $x^m-1\\ge m(x-1)$ for all $x>0$.",
+   "answer": "$f'(x)=mx^{m-1}-m=m(x^{m-1}-1)$, which is $0$ only at $x=1$ (for $x>0$, $m>1$). $f''(x)=m(m-1)x^{m-2}>0$, so $f''(1)=m(m-1)>0$: a minimum at $x=1$ and the only stationary point, so it is the global minimum for $x>0$.\n\n$f(1)=1-m$, so $x^m-mx\\ge1-m$, i.e. $x^m-1\\ge mx-m=m(x-1)$."
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.9",
+    "12.1.1.5"
+   ],
+   "question": "Let $z$ and $w$ be non-zero complex numbers. Consider the statements $P:\\ z\\overline{w}+\\overline{z}w=0$ and $Q:\\ \\dfrac zw=ik,\\ k\\in\\mathbb{R}$. Prove that $P\\Rightarrow Q$.",
+   "answer": "Assume $P$: $z\\overline w+\\overline z w=0$. Since $\\overline{z\\overline w}=\\overline z w$, this says $2\\operatorname{Re}(z\\overline w)=0$, so $z\\overline w$ is purely imaginary: $z\\overline w=ia$ for some real $a$.\n\nThen $\\dfrac zw=\\dfrac{z\\overline w}{w\\overline w}=\\dfrac{ia}{|w|^2}=ik$ where $k=\\dfrac{a}{|w|^2}\\in\\mathbb{R}$ (as $w\\ne0$). Hence $P\\Rightarrow Q$."
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.13"
+   ],
+   "question": "By using a suitable substitution, show that $$\\int\\sin\\sqrt x\\,dx=2\\sin\\sqrt x-2\\sqrt x\\cos\\sqrt x+C.$$",
+   "answer": "Let $u=\\sqrt x$, so $x=u^2$ and $dx=2u\\,du$:\n$$\\int\\sin\\sqrt x\\,dx=2\\int u\\sin u\\,du.$$\nBy parts ($U=u$, $dV=\\sin u\\,du$): $2\\int u\\sin u\\,du=2\\left[-u\\cos u+\\int\\cos u\\,du\\right]=-2u\\cos u+2\\sin u+C.$\nSubstituting back, $\\int\\sin\\sqrt x\\,dx=2\\sin\\sqrt x-2\\sqrt x\\cos\\sqrt x+C$."
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.16",
+    "12.4.1.13"
+   ],
+   "question": "The diagram shows part of the curve $y=\\sin\\sqrt x$ for $x\\ge0$. The curve intersects the $x$-axis at $0,x_1,x_2,x_3,x_4,\\dots$. The regions bounded by the curve and the $x$-axis are defined by $R_1,R_2,R_3,R_4,\\dots$ as shown in the diagram. Given $\\displaystyle\\int\\sin\\sqrt x\\,dx=2\\sin\\sqrt x-2\\sqrt x\\cos\\sqrt x+C$, and by first finding an expression for $x_n$, or otherwise, express the area of the region $R_n$ in terms of $n$ and $\\pi$.",
+   "answer": "$\\sin\\sqrt x=0\\Rightarrow\\sqrt x=n\\pi$, so $x_n=n^2\\pi^2$.\n\nLet $F(x)=2\\sin\\sqrt x-2\\sqrt x\\cos\\sqrt x$. Then $F(x_n)=-2n\\pi\\cos n\\pi=-2n\\pi(-1)^n$ and $F(x_{n-1})=-2(n-1)\\pi(-1)^{n-1}$, so\n$$\\int_{x_{n-1}}^{x_n}\\sin\\sqrt x\\,dx=F(x_n)-F(x_{n-1})=(-1)^{n+1}\\left(2n\\pi+2(n-1)\\pi\\right)=(-1)^{n+1}(4n-2)\\pi.$$\nRegions alternate above ($n$ odd, positive integral) and below ($n$ even) the axis, so the area is the absolute value:\n$$\\text{Area}(R_n)=(4n-2)\\pi.$$\n(Check: $R_1=2\\pi$.)",
+   "images": [
+    "assets/img/ext2-2025-north-sydney-girls/q15b.png"
+   ]
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "In triangle $ABC$, the point $E$ lies on $AB$ so that $AE:EB=\\lambda:1$ and $CE\\perp AB$. The point $G$ is the mid-point of $CE$. Let $\\overrightarrow{BE}=\\mathbf{u}$ and $\\overrightarrow{EG}=\\mathbf{v}$. Express $\\overrightarrow{BG}$ in terms of $\\mathbf{u}$ and $\\mathbf{v}$.",
+   "answer": "$\\overrightarrow{BG}=\\overrightarrow{BE}+\\overrightarrow{EG}=\\mathbf{u}+\\mathbf{v}$.",
+   "images": [
+    "assets/img/ext2-2025-north-sydney-girls/q15c.png"
+   ]
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "In triangle $ABC$, the point $E$ lies on $AB$ so that $AE:EB=\\lambda:1$ and $CE\\perp AB$. The point $G$ is the mid-point of $CE$. $BG$ is produced to meet $AC$ at $D$ and $AD:DC=r:1$. Let $\\overrightarrow{BE}=\\mathbf{u}$ and $\\overrightarrow{EG}=\\mathbf{v}$, so that $\\overrightarrow{BG}=\\mathbf{u}+\\mathbf{v}$. By considering $\\overrightarrow{BD}$, use vector methods to show that $r=\\lambda+1$.",
+   "answer": "Since $B,G,D$ are collinear, $\\overrightarrow{BD}=k\\overrightarrow{BG}=k(\\mathbf{u}+\\mathbf{v})$ for some real $k$. $\\quad(1)$\n\nAlso $\\overrightarrow{BD}=\\overrightarrow{BA}+\\overrightarrow{AD}$, where $\\overrightarrow{BA}=(\\lambda+1)\\mathbf{u}$ (as $AE:EB=\\lambda:1$), $\\overrightarrow{AD}=\\dfrac{r}{r+1}\\overrightarrow{AC}$, and $\\overrightarrow{AC}=\\overrightarrow{AE}+\\overrightarrow{EC}=-\\lambda\\mathbf{u}+2\\mathbf{v}$ ($\\overrightarrow{AE}$ points the opposite way to $\\overrightarrow{BE}$ and has $\\lambda$ times its length; $G$ is the midpoint of $CE$). So\n$$\\overrightarrow{BD}=(\\lambda+1)\\mathbf{u}+\\frac{r}{r+1}(-\\lambda\\mathbf{u}+2\\mathbf{v})=\\left(\\lambda+1-\\frac{\\lambda r}{r+1}\\right)\\mathbf{u}+\\frac{2r}{r+1}\\mathbf{v}.\\quad(2)$$\n$\\mathbf{u}$ and $\\mathbf{v}$ are not parallel, so equate coefficients in (1) and (2):\n$$\\lambda+1-\\frac{\\lambda r}{r+1}=\\frac{2r}{r+1}\\ (=k).$$\nMultiply by $r+1$: $(\\lambda+1)(r+1)-\\lambda r=2r\\Rightarrow\\lambda r+\\lambda+r+1-\\lambda r=2r\\Rightarrow r=\\lambda+1.$",
+   "images": [
+    "assets/img/ext2-2025-north-sydney-girls/q15c.png"
+   ]
+  },
+  {
+   "ref": "Q16(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.1.3.5"
+   ],
+   "question": "It is given that for positive numbers $a_1,a_2,\\dots,a_n$ with arithmetic mean $A$, $A^n\\ge a_1\\times a_2\\times\\dots\\times a_n$. (Do NOT prove this.) Let $k$ be a positive integer. Prove that $k^k\\ge1\\times3\\times5\\times\\dots\\times(2k-1)$.",
+   "answer": "Apply the given result to the $k$ positive odd numbers $1,3,5,\\dots,2k-1$. Their sum is $\\frac k2\\left(1+(2k-1)\\right)=k^2$ (AP sum), so the arithmetic mean is $A=\\frac{k^2}{k}=k$. Hence\n$$k^k\\ge1\\times3\\times5\\times\\dots\\times(2k-1).$$"
+  },
+  {
+   "ref": "Q16(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "It is given that for positive numbers $a_1,\\dots,a_n$ with arithmetic mean $A$, $A^n\\ge a_1a_2\\cdots a_n$, and (from the previous part) $k^k\\ge1\\times3\\times5\\times\\dots\\times(2k-1)$ for any positive integer $k$. Hence prove that $(k^2+k)^k\\ge(2k)!$.",
+   "answer": "Apply the given result to the even numbers $2,4,6,\\dots,2k$: the sum is $\\frac k2(2+2k)=k(k+1)$, so $A=k+1$ and\n$$(k+1)^k\\ge2\\times4\\times6\\times\\dots\\times2k.$$\nBoth inequalities have positive sides, so multiply them:\n$$k^k(k+1)^k\\ge\\left[1\\cdot3\\cdot5\\cdots(2k-1)\\right]\\left[2\\cdot4\\cdot6\\cdots2k\\right]=(2k)!.$$\nThat is, $\\left(k(k+1)\\right)^k=(k^2+k)^k\\ge(2k)!$."
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.3.4.7",
+    "12.3.4.12"
+   ],
+   "question": "Consider the equation $(z+2)^8=z^8$. Show that the $6$ non-real roots of the equation can be expressed in the form $-1-i\\cot\\left(\\dfrac{k\\pi}{8}\\right)$, $k=\\pm1,\\pm2,\\pm3$.",
+   "answer": "Since $z\\ne0$, $\\left(\\dfrac{z+2}{z}\\right)^8=1$, so $\\dfrac{z+2}{z}=\\cos\\dfrac{2k\\pi}{8}+i\\sin\\dfrac{2k\\pi}{8}$, $k=0,\\pm1,\\pm2,\\pm3,4$ (eight values of $k$ modulo $8$). For $k=4$ the value is $-1$, giving the real root $z=-1$; the other $6$ values with $k=\\pm1,\\pm2,\\pm3$ give the non-real roots.\n\nLet $\\alpha=\\frac{k\\pi}{4}$. From $z+2=z\\,\\text{cis}\\,\\alpha$: $z=\\dfrac{2}{\\text{cis}\\,\\alpha-1}$. Using $\\text{cis}\\,\\alpha-1=e^{i\\alpha/2}\\left(e^{i\\alpha/2}-e^{-i\\alpha/2}\\right)=2i\\sin\\frac\\alpha2\\left(\\cos\\frac\\alpha2+i\\sin\\frac\\alpha2\\right)$,\n$$z=\\frac{\\cos\\frac\\alpha2-i\\sin\\frac\\alpha2}{i\\sin\\frac\\alpha2}=\\frac{-i\\cos\\frac\\alpha2-\\sin\\frac\\alpha2}{\\sin\\frac\\alpha2}=-1-i\\cot\\frac\\alpha2=-1-i\\cot\\frac{k\\pi}{8},\\quad k=\\pm1,\\pm2,\\pm3.$$"
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.3.4.12"
+   ],
+   "question": "The roots of $(z+2)^8=z^8$ are $-1$ and $-1-i\\cot\\left(\\dfrac{k\\pi}{8}\\right)$ for $k=\\pm1,\\pm2,\\pm3$. Hence, find the value of $\\sin^2\\left(\\dfrac{\\pi}{8}\\right)\\sin^2\\left(\\dfrac{2\\pi}{8}\\right)\\sin^2\\left(\\dfrac{3\\pi}{8}\\right)$ given that the product of roots of the equation is $-16$.",
+   "answer": "The roots $k$ and $-k$ are conjugates, so their product is\n$$\\left(-1-i\\cot\\tfrac{k\\pi}{8}\\right)\\left(-1+i\\cot\\tfrac{k\\pi}{8}\\right)=1+\\cot^2\\tfrac{k\\pi}{8}=\\csc^2\\tfrac{k\\pi}{8}.$$\nThe seven roots are $-1$ and the three conjugate pairs ($k=1,2,3$), so the product of all roots is\n$$(-1)\\,\\csc^2\\tfrac{\\pi}{8}\\csc^2\\tfrac{2\\pi}{8}\\csc^2\\tfrac{3\\pi}{8}=-16\\ \\Rightarrow\\ \\frac{1}{\\sin^2\\frac\\pi8\\sin^2\\frac{2\\pi}{8}\\sin^2\\frac{3\\pi}{8}}=16.$$\nTherefore $\\sin^2\\frac{\\pi}{8}\\sin^2\\frac{2\\pi}{8}\\sin^2\\frac{3\\pi}{8}=\\dfrac{1}{16}$."
+  },
+  {
+   "ref": "Q16(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.3",
+    "12.3.2.6"
+   ],
+   "question": "Let $z=\\cos\\theta+i\\sin\\theta$. Find the four values of $z$ such that $\\operatorname{Im}\\left(z^2+\\overline z\\right)=0$.",
+   "answer": "$z^2+\\overline z=(\\cos2\\theta+i\\sin2\\theta)+(\\cos\\theta-i\\sin\\theta)$, so $\\operatorname{Im}=\\sin2\\theta-\\sin\\theta=\\sin\\theta(2\\cos\\theta-1)$.\n\n$\\operatorname{Im}=0\\Rightarrow\\sin\\theta=0$ ($\\theta=0,\\pi$) or $\\cos\\theta=\\frac12$ ($\\theta=\\pm\\frac\\pi3$). Hence\n$$z=1,\\quad -1,\\quad \\cos\\tfrac\\pi3-i\\sin\\tfrac\\pi3\\ (=\\tfrac12-\\tfrac{\\sqrt3}{2}i),\\quad \\cos\\tfrac\\pi3+i\\sin\\tfrac\\pi3\\ (=\\tfrac12+\\tfrac{\\sqrt3}{2}i).$$"
+  },
+  {
+   "ref": "Q16(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.3.4.12",
+    "12.3.4.6"
+   ],
+   "question": "Let $z_1=\\cos\\frac{\\pi}{3}-i\\sin\\frac{\\pi}{3}$ and $z_2=\\cos\\frac{\\pi}{3}+i\\sin\\frac{\\pi}{3}$ (the values of $z$ with $\\operatorname{Im}(z_1)<0<\\operatorname{Im}(z_2)$ such that $\\operatorname{Im}(z^2+\\overline z)=0$). Also let $S_n=\\displaystyle\\sum_{r=1}^{n}w^r$, where $w=\\dfrac{z_2}{z_1}$, for any positive integer $n$. Find all positive integers $k$ such that $(S_n)^k+(S_{n+1})^k+(S_{n+2})^k=2$ for any positive integer $n$.",
+   "answer": "$w=\\dfrac{z_2}{z_1}=\\text{cis}\\left(\\tfrac\\pi3-\\left(-\\tfrac\\pi3\\right)\\right)=\\text{cis}\\tfrac{2\\pi}{3}$, so $w^3=1$, $w\\ne1$ and $1+w+w^2=0$.\n\nOf $n,n+1,n+2$, one is a multiple of $3$. Take $n=3A$ (the other two residues give the same three values in a different order). Then $S_n=\\dfrac{w(w^{3A}-1)}{w-1}=0$, $S_{n+1}=S_n+w^{3A+1}=w$, $S_{n+2}=w+w^{3A+2}=w+w^2=-1$.\n\n(For $n\\equiv1$: the values are $w,\\,-1,\\,0$; for $n\\equiv2$: $-1,\\,0,\\,w$ — the same set.)\n\nSo we need $0^k+w^k+(-1)^k=2$.\n- $k$ odd: $w^k-1=2\\Rightarrow w^k=3$, impossible since $|w^k|=1$.\n- $k$ even: $w^k+1=2\\Rightarrow w^k=1$, which requires $3\\mid k$.\n\nHence $k$ is an even multiple of $3$: $k=6B$ for $B\\in\\mathbb{Z}^+$."
+  }
+ ]
+}
