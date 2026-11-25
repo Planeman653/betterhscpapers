@@ -1,0 +1,707 @@
+{
+ "id": "adv-2025-caringbah",
+ "course": "advanced",
+ "school": "Caringbah",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5328",
+  "title": "Caringbah 2025 w. sol"
+ },
+ "indexed": "2026-11-26",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q15",
+   "reason": "Least-squares regression lines and Pearson's correlation coefficient (bivariate data) are not in the 2024 Mathematics Advanced syllabus."
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.9.8"
+   ],
+   "question": "If $f(x)=2x+1$, what is the solution of the equation $f(f(x))=11$?",
+   "answer": "$f(f(x))=2(2x+1)+1=4x+3=11\\Rightarrow x=2$ (A).",
+   "options": [
+    "$x=2$",
+    "$x=3$",
+    "$x=4$",
+    "$x=5$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.5.2"
+   ],
+   "question": "What is $\\displaystyle\\int\\left(e^{2x}+e^{2x+1}\\right)dx$?",
+   "answer": "$\\displaystyle\\int e^{2x}dx=\\tfrac12e^{2x}$ and $\\displaystyle\\int e^{2x+1}dx=\\tfrac12e^{2x+1}=\\tfrac12e^{2x}\\cdot e$, so the integral is $\\dfrac{e^{2x}+e^{2x+1}}{2}+c=\\dfrac{e^{2x}(1+e)}{2}+c$ (D).",
+   "options": [
+    "$\\dfrac{e^{2x}(3-2e)}{2}+c$",
+    "$\\dfrac{e^{2x}(3+2e)}{2}+c$",
+    "$\\dfrac{e^{2x}(1-e)}{2}+c$",
+    "$\\dfrac{e^{2x}(1+e)}{2}+c$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.2"
+   ],
+   "question": "An arithmetic sequence has a common difference of $-2.5$ and a fifth term of $15$. What is the tenth term?",
+   "answer": "$T_5=a+4(-2.5)=15\\Rightarrow a=25$. Then $T_{10}=25+9(-2.5)=2.5$ (C).",
+   "options": [
+    "$-17.5$",
+    "$-14.5$",
+    "$2.5$",
+    "$15$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.7.2.6",
+    "11.7.3.8"
+   ],
+   "question": "If $A$ and $B$ are two independent events such that $P(A)=0.5$ and $P(B)=0.4$, what is the value of $P(A\\cup B)$?",
+   "answer": "For independent events $P(A\\cap B)=P(A)P(B)=0.2$, so $P(A\\cup B)=0.5+0.4-0.2=0.7$ (B).",
+   "options": [
+    "$0.6$",
+    "$0.7$",
+    "$0.8$",
+    "$0.9$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.8"
+   ],
+   "question": "The population of a type of bacteria is given by the equation $P=500e^{0.3t}$, where $P$ is the number of bacteria after $t$ hours. What is the hourly percentage change in the population?",
+   "answer": "Each hour the population is multiplied by $e^{0.3}=1.3499\\ldots$, an increase of about $35\\%$ per hour (D). (The $30\\%$ in option C is the continuous growth rate, not the hourly percentage change.)",
+   "options": [
+    "$0.3$",
+    "$0.35$",
+    "$30\\%$",
+    "$35\\%$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.9.3",
+    "11.5.2.11"
+   ],
+   "question": "What is the domain of the function $f(x)=\\sqrt{x+3}+\\ln(4-x)$?",
+   "answer": "$\\sqrt{x+3}$ requires $x+3\\ge0$, so $x\\ge-3$. $\\ln(4-x)$ requires $4-x>0$, so $x<4$. The domain is $[-3,4)$ (C).",
+   "options": [
+    "$(-3,4)$",
+    "$[-3,4]$",
+    "$[-3,4)$",
+    "$(-3,4]$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.6.1.6",
+    "12.1.1.2"
+   ],
+   "question": "The function $y=2\\sin x+1$ is translated up $m$ units and then vertically dilated by a factor of $n$ from the $x$-axis, where $m$ and $n$ are positive numbers. What is the range of the new curve?",
+   "answer": "After the translation: $y=2\\sin x+1+m$. After the vertical dilation by $n$: $y=n(2\\sin x+1+m)=2n\\sin x+mn+n$. This has amplitude $2n$ and centre $mn+n$, so the range is $[mn+n-2n,\\ mn+n+2n]=[mn-n,\\ mn+3n]$ (B).",
+   "options": [
+    "$[mn-2n,\\ mn+n]$",
+    "$[mn-n,\\ mn+3n]$",
+    "$[mn+n,\\ mn+3n]$",
+    "$[mn+2n,\\ mn+n]$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.2.9"
+   ],
+   "question": "What is the solution to the equation $x=\\log_2 2\\sqrt2+\\log_2\\sqrt2$?",
+   "answer": "$x=\\log_2\\left(2\\sqrt2\\times\\sqrt2\\right)=\\log_2 4=2$ (A).",
+   "options": [
+    "$x=2$",
+    "$x=3$",
+    "$x=4$",
+    "$x=5$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.3"
+   ],
+   "question": "What is the derivative of $y=\\ln\\left(\\dfrac{x-2}{4x+1}\\right)$?",
+   "answer": "$y=\\ln(x-2)-\\ln(4x+1)$, so\n$$\\frac{dy}{dx}=\\frac1{x-2}-\\frac4{4x+1}=\\frac{(4x+1)-4(x-2)}{(x-2)(4x+1)}=\\frac{9}{(x-2)(4x+1)}$$\n(B).",
+   "options": [
+    "$\\dfrac{3x+3}{(x-2)(4x+1)}$",
+    "$\\dfrac{9}{(x-2)(4x+1)}$",
+    "$\\dfrac{3x-1}{(x-2)(4x+1)}$",
+    "$\\dfrac{4x+1}{x-2}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.6",
+    "11.1.4.4"
+   ],
+   "question": "Consider the diagram of the parabola $y=-x^2+bx+c$ below. What are the values of $b$ and $c$?",
+   "answer": "The $y$-intercept is $1$, so $c=1$. The axis of symmetry is $x=2$, so $\\dfrac{-b}{2(-1)}=2\\Rightarrow b=4$ (A). (Check: $-x^2+4x+1=0$ gives $x=2\\pm\\sqrt5$, matching the $x$-intercept $2+\\sqrt5$.)",
+   "options": [
+    "$b=4,\\ c=1$",
+    "$b=2,\\ c=2+\\sqrt5$",
+    "$b=-2,\\ c=2+\\sqrt5$",
+    "$b=-4,\\ c=1$"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/adv-2025-caringbah/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.1.10"
+   ],
+   "question": "Solve $\\sin x=-\\dfrac12$, where $0\\le x\\le2\\pi$. Give the answers in exact form in radians.",
+   "answer": "The related angle is $\\dfrac\\pi6$. Sine is negative in the third and fourth quadrants, so\n$$x=\\pi+\\frac\\pi6=\\frac{7\\pi}6\\quad\\text{or}\\quad x=2\\pi-\\frac\\pi6=\\frac{11\\pi}6.$$"
+  },
+  {
+   "ref": "Q12",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.11"
+   ],
+   "question": "Use two applications of the Trapezoidal rule to find an approximate value, correct to 2 decimal places, for $\\displaystyle\\int_1^3\\ln(x^2+1)\\,dx$.",
+   "answer": "With two applications, $h=\\dfrac{3-1}{2}=1$, and the function values at $x=1,2,3$ are $\\ln2$, $\\ln5$, $\\ln10$:\n$$\\int_1^3\\ln(x^2+1)\\,dx\\approx\\frac12\\Big[\\ln2+2\\ln5+\\ln10\\Big]=\\frac12(0.6931+3.2189+2.3026)\\approx3.11$$"
+  },
+  {
+   "ref": "Q13",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.5.3"
+   ],
+   "question": "Find $\\displaystyle\\int10^{5x-1}\\,dx$.",
+   "answer": "Using $\\displaystyle\\int a^{kx+b}dx=\\frac{a^{kx+b}}{k\\ln a}+C$ (or the substitution $u=5x-1$):\n$$\\int10^{5x-1}dx=\\frac{10^{5x-1}}{5\\ln10}+C$$"
+  },
+  {
+   "ref": "Q14",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.1.2"
+   ],
+   "question": "At 9 am, Brooklyn is $11$ km due north of camp, while Milan is $12$ km due east of camp. Their positions are shown on the diagram below. They both start walking directly towards camp at a speed of $4$ kilometres per hour. Find the distance between Brooklyn and Milan at 11 am.",
+   "answer": "After 2 hours each has walked $2\\times4=8$ km towards camp. Brooklyn is $11-8=3$ km north of camp and Milan is $12-8=4$ km east of camp. The two directions are at right angles, so by Pythagoras\n$$d=\\sqrt{3^2+4^2}=5\\ \\text{km}.$$",
+   "images": [
+    "assets/img/adv-2025-caringbah/q14.png"
+   ]
+  },
+  {
+   "ref": "Q16",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.4.1",
+    "12.3.1.4"
+   ],
+   "question": "Find the values of $x$ for which the function $f(x)=e^{5x^3-10x}$ is increasing.",
+   "answer": "$f$ is increasing where $f'(x)>0$.\n$$f'(x)=(15x^2-10)e^{5x^3-10x}=5(3x^2-2)e^{5x^3-10x}$$\nSince $e^{5x^3-10x}>0$ for all $x$, we need $3x^2-2>0$, i.e. $x^2>\\dfrac23$. So $f$ is increasing for\n$$x<-\\sqrt{\\tfrac23}\\quad\\text{or}\\quad x>\\sqrt{\\tfrac23}.$$"
+  },
+  {
+   "ref": "Q17",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.7.2",
+    "12.4.8.1"
+   ],
+   "question": "Evaluate in simplest form $\\displaystyle\\int_0^{\\pi/2}\\sin2x\\,dx$.",
+   "answer": "$$\\int_0^{\\pi/2}\\sin2x\\,dx=\\left[-\\tfrac12\\cos2x\\right]_0^{\\pi/2}=-\\tfrac12\\cos\\pi+\\tfrac12\\cos0=\\tfrac12+\\tfrac12=1$$"
+  },
+  {
+   "ref": "Q18(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.3.9"
+   ],
+   "question": "Differentiate $\\dfrac{3x+2}{x+4}$ with respect to $x$.",
+   "answer": "Quotient rule with $u=3x+2$, $v=x+4$ ($u'=3$, $v'=1$):\n$$\\frac{d}{dx}\\left(\\frac{3x+2}{x+4}\\right)=\\frac{3(x+4)-(3x+2)}{(x+4)^2}=\\frac{10}{(x+4)^2}$$"
+  },
+  {
+   "ref": "Q18(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.3.8",
+    "11.4.3.10"
+   ],
+   "question": "Differentiate $x(1+2x)^4$ with respect to $x$.",
+   "answer": "Product rule with $u=x$, $v=(1+2x)^4$ ($u'=1$, $v'=8(1+2x)^3$):\n$$\\frac{d}{dx}\\left[x(1+2x)^4\\right]=8x(1+2x)^3+(1+2x)^4=(1+2x)^3(8x+1+2x)=(10x+1)(1+2x)^3$$"
+  },
+  {
+   "ref": "Q19(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.2.6"
+   ],
+   "question": "Finn is working in the garden when he has an accident and puts a hole in the bottom of his rainwater tank. At the time of the accident, the tank contained $10\\,200$ litres of water. In the first hour after the accident, Finn noticed that the volume of water in the tank decreased by $200$ litres. In the second hour, the volume decreased by a further $250$ litres. Finn is concerned that the leak is growing, but he is not sure what will happen next. He wonders if the amount of water leaking from the tank each hour might form an arithmetic or geometric sequence.\n\nIf the amount of water that leaks out of the tank each hour forms an arithmetic sequence, how many hours will it take until the tank is empty?",
+   "answer": "The hourly leaks form an arithmetic sequence with $a=200$ and $d=50$. The tank is empty when the total leaked is $10\\,200$:\n$$S_n=\\frac n2\\big[2(200)+(n-1)50\\big]=10\\,200$$\n$$n(350+50n)=20\\,400\\Rightarrow n^2+7n-408=0\\Rightarrow(n-17)(n+24)=0$$\nSince $n>0$, $n=17$: the tank is empty after $17$ hours."
+  },
+  {
+   "ref": "Q19(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.5",
+    "12.2.3.8"
+   ],
+   "question": "If the amount of water that leaks out of the tank each hour forms a geometric sequence, show that eight hours after the leak, over $60\\%$ of the water remains in the tank. (Same tank and leak as in part (a): $10\\,200$ L initially, $200$ L leaked in the first hour and $250$ L in the second.)",
+   "answer": "The hourly leaks form a geometric sequence with $a=200$ and $r=\\dfrac{250}{200}=1.25$. The total leaked in $8$ hours is\n$$S_8=\\frac{200(1.25^8-1)}{1.25-1}=3968.37\\ \\text{L}$$\nWater remaining $=10\\,200-3968.37=6231.63$ L, which is\n$$\\frac{6231.63}{10\\,200}\\times100=61.09\\%>60\\%.$$"
+  },
+  {
+   "ref": "Q20(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.1.12",
+    "11.3.1.7"
+   ],
+   "question": "Prove that $\\sec x+\\tan x=\\dfrac{\\cos x}{1-\\sin x}$.",
+   "answer": "$$\\text{LHS}=\\frac1{\\cos x}+\\frac{\\sin x}{\\cos x}=\\frac{1+\\sin x}{\\cos x}=\\frac{(1+\\sin x)(1-\\sin x)}{\\cos x(1-\\sin x)}=\\frac{1-\\sin^2x}{\\cos x(1-\\sin x)}=\\frac{\\cos^2x}{\\cos x(1-\\sin x)}=\\frac{\\cos x}{1-\\sin x}=\\text{RHS}$$"
+  },
+  {
+   "ref": "Q20(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.6.3",
+    "12.4.8.1"
+   ],
+   "question": "Hence, or otherwise, find the exact value of $\\displaystyle\\int_0^{\\pi/3}(\\sec x+\\tan x)\\,dx$.",
+   "answer": "Using part (a), and $\\dfrac{d}{dx}(1-\\sin x)=-\\cos x$:\n$$\\int_0^{\\pi/3}\\frac{\\cos x}{1-\\sin x}dx=\\Big[-\\ln|1-\\sin x|\\Big]_0^{\\pi/3}=-\\ln\\left(1-\\frac{\\sqrt3}2\\right)+\\ln1=-\\ln\\frac{2-\\sqrt3}2=\\ln\\frac{2}{2-\\sqrt3}$$\n(which equals $\\ln(4+2\\sqrt3)$)."
+  },
+  {
+   "ref": "Q21(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.13",
+    "12.6.3.10"
+   ],
+   "question": "A random variable is normally distributed with a mean of $0$ and a standard deviation of $1$. The table gives the probability that this random variable lies below $z$ for some negative values of $z$.\n\n| $z$ | $-1.0$ | $-0.9$ | $-0.8$ | $-0.7$ | $-0.6$ | $-0.5$ | $-0.4$ | $-0.3$ | $-0.2$ | $-0.1$ | $0.0$ |\n|---|---|---|---|---|---|---|---|---|---|---|---|\n| Probability | 0.1587 | 0.1841 | 0.2119 | 0.242 | 0.2743 | 0.3085 | 0.3446 | 0.3821 | 0.4207 | 0.4602 | 0.5000 |\n\nThe probability values given in the table are represented by the shaded area in the diagram.\n\nThe time it takes for a worker to drive from home to work is normally distributed with a mean of $32$ minutes and a standard deviation of $4$ minutes.\n\nWhat is the probability that on a particular day the drive takes between $30$ and $32$ minutes?",
+   "answer": "For $T=30$: $z=\\dfrac{30-32}{4}=-0.5$, and $T=32$ corresponds to $z=0$.\n$$P(30<T<32)=P(z<0)-P(z<-0.5)=0.5-0.3085=0.1915\\approx19.2\\%$$\n*(The school's solution wrote the final percentage as $19.5\\%$; $0.1915$ is $19.15\\%\\approx19.2\\%$.)*",
+   "images": [
+    "assets/img/adv-2025-caringbah/q21.png"
+   ]
+  },
+  {
+   "ref": "Q21(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.2",
+    "12.6.3.9"
+   ],
+   "question": "For the same driver (drive time normally distributed with mean $32$ minutes and standard deviation $4$ minutes), explain why the probability that the drive takes between $30$ and $34$ minutes is twice your answer to part (a).",
+   "answer": "The normal distribution is symmetric about the mean $32$. Since $30$ and $34$ are each $2$ minutes from the mean, $P(32<T<34)=P(30<T<32)$, so $P(30<T<34)=2\\,P(30<T<32)$."
+  },
+  {
+   "ref": "Q22(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.7.1.10",
+    "11.7.1.9"
+   ],
+   "question": "A survey of all the zoology students at the local university showed that $\\dfrac34$ of them had a pet cat, $\\dfrac38$ of them had a pet dog and $\\dfrac14$ of them had both a pet cat and a pet dog. $25$ of the students had either a pet cat or a pet dog but not both types of pet.\n\nShow that a total of $40$ zoology students were surveyed.",
+   "answer": "Cat only $=\\dfrac34-\\dfrac14=\\dfrac12$ of the students; dog only $=\\dfrac38-\\dfrac14=\\dfrac18$ of the students. So the fraction with exactly one type of pet is\n$$\\frac12+\\frac18=\\frac58.$$\nIf $n$ students were surveyed, $\\dfrac58n=25\\Rightarrow n=25\\times\\dfrac85=40$."
+  },
+  {
+   "ref": "Q22(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.7.2.7",
+    "11.7.3.8"
+   ],
+   "question": "(Same survey: $40$ students; $\\tfrac38$ of them have a pet dog.) If two of the zoology students are chosen at random, find, as a fraction in simplest form, the probability that neither of these students has a pet dog.",
+   "answer": "The number with a dog is $\\dfrac38\\times40=15$, so $25$ do not have a dog.\n$$P(\\text{neither has a dog})=\\frac{25}{40}\\times\\frac{24}{39}=\\frac{600}{1560}=\\frac5{13}$$"
+  },
+  {
+   "ref": "Q23",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.10"
+   ],
+   "question": "A triangle has one side that is $8$ metres in length with the angle opposite being $82^\\circ28'$. A second angle is $41^\\circ25'$, with the side opposite this angle being $x$. Find the length of $x$, correct to the nearest metre.",
+   "answer": "By the sine rule:\n$$\\frac{x}{\\sin41^\\circ25'}=\\frac{8}{\\sin82^\\circ28'}\\Rightarrow x=\\frac{8\\sin41^\\circ25'}{\\sin82^\\circ28'}=5.34\\ldots\\approx5\\ \\text{m}$$",
+   "images": [
+    "assets/img/adv-2025-caringbah/q23.png"
+   ]
+  },
+  {
+   "ref": "Q24(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.4"
+   ],
+   "question": "The lifetime, $X$, in tens of hours, of a battery has a cumulative distribution function $F(x)$ given by\n$$F(x)=\\begin{cases}0&x<1\\\\\\dfrac{25}{116}\\left(x^2+3x-4\\right)&1\\le x\\le1.8\\\\1&x>1.8\\end{cases}$$\nSketch the cumulative distribution function.",
+   "answer": "$F(x)=0$ up to $x=1$. At $x=1$: $F(1)=\\dfrac{25}{116}(1+3-4)=0$, and at $x=1.8$: $F(1.8)=\\dfrac{25}{116}(3.24+5.4-4)=1$, so the curve is continuous. Between them it is an increasing curve (part of an upward-opening parabola) from $(1,0)$ to $(1.8,1)$, and it is constant at $1$ for $x\\ge1.8$ (see graph).",
+   "answer_images": [
+    "assets/img/adv-2025-caringbah/a24a.png"
+   ]
+  },
+  {
+   "ref": "Q24(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.2.3",
+    "12.6.2.9"
+   ],
+   "question": "(Battery lifetime $X$, in tens of hours, has the cumulative distribution function in part (a).) An outdoor lantern requires three batteries, all of which must be working, to operate. Three new batteries are inserted into the lantern. Find the probability that the lantern will still be working after $15$ hours. Give your answer as a percentage, rounded to two decimal places.",
+   "answer": "$15$ hours is $1.5$ tens of hours. For one battery,\n$$P(X>1.5)=1-F(1.5)=1-\\frac{25}{116}(2.25+4.5-4)=1-\\frac{25}{116}(2.75)=1-\\frac{275}{464}=\\frac{189}{464}$$\nAll three batteries must last, and they are independent:\n$$\\left(\\frac{189}{464}\\right)^3=0.0676\\ldots=6.76\\%$$"
+  },
+  {
+   "ref": "Q24(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.12"
+   ],
+   "question": "(Battery lifetime $X$, in tens of hours, has the cumulative distribution function in part (a).) Find the probability density function of the random variable $X$.",
+   "answer": "The PDF is the derivative of the CDF:\n$$f(x)=F'(x)=\\frac{25}{116}(2x+3)\\quad\\text{for }1<x<1.8,$$\n$$f(x)=\\begin{cases}\\dfrac{25}{116}(2x+3)&1\\le x\\le1.8\\\\0&\\text{elsewhere}\\end{cases}$$"
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "The population of mosquitoes in a garden varies throughout the year according to the formula $P=60+50\\cos\\left(\\dfrac\\pi6t\\right)$, where $t$ is the time in months since the start of January. Find the maximum and minimum mosquito population during the year.",
+   "answer": "The cosine ranges from $-1$ to $1$, so the amplitude is $50$ and the centre is $60$:\nminimum $=60-50=10$, maximum $=60+50=110$."
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1",
+    "11.3.1.10"
+   ],
+   "question": "(Mosquito population $P=60+50\\cos\\left(\\dfrac\\pi6t\\right)$, $t$ in months since the start of January.) Find the times in the year when $P=85$.",
+   "answer": "$$60+50\\cos\\left(\\frac\\pi6t\\right)=85\\Rightarrow\\cos\\left(\\frac\\pi6t\\right)=\\frac12$$\nFor $0\\le t\\le12$, $\\dfrac\\pi6t$ ranges over $[0,2\\pi]$, so $\\dfrac\\pi6t=\\dfrac\\pi3$ or $\\dfrac{5\\pi}3$, giving $t=2$ or $t=10$ months."
+  },
+  {
+   "ref": "Q26(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.6.1.6",
+    "11.6.1.10"
+   ],
+   "question": "Point $P(-1,-2)$ lies on $f(x)$. Point $P'$ is the image of point $P$ on the function $g(x)=2f(3x-1)$. By clearly stating the transformations required to produce $g(x)$ from $f(x)$, show that the coordinates of point $P'$ are $(0,-4)$.",
+   "answer": "$g(x)=2f(3x-1)=2f\\big(3(x-\\tfrac13)\\big)$, so $g$ is obtained from $f$ by:\n- a horizontal dilation by a factor of $\\tfrac13$ (from the $y$-axis): $P(-1,-2)\\to(-\\tfrac13,-2)$;\n- a translation $\\tfrac13$ unit to the right: $(-\\tfrac13,-2)\\to(0,-2)$;\n- a vertical dilation by a factor of $2$ (from the $x$-axis): $(0,-2)\\to(0,-4)$.\n\nSo $P'=(0,-4)$. (Check: $g(0)=2f(-1)=2(-2)=-4$.)"
+  },
+  {
+   "ref": "Q26(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.4.3.10",
+    "11.4.3.5"
+   ],
+   "question": "(Point $P(-1,-2)$ lies on $f(x)$, and $P'(0,-4)$ is its image on $g(x)=2f(3x-1)$.) If the equation of the tangent at point $P$ on $f(x)$ is $y=x-1$, find the equation of the tangent at point $P'$ on $g(x)$.",
+   "answer": "The tangent at $P$ has gradient $f'(-1)=1$. By the chain rule,\n$$g'(x)=2f'(3x-1)\\times3=6f'(3x-1)\\Rightarrow g'(0)=6f'(-1)=6.$$\nThe tangent at $P'(0,-4)$: $y-(-4)=6(x-0)$, i.e. $y=6x-4$."
+  },
+  {
+   "ref": "Q27(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.9",
+    "11.4.3.10"
+   ],
+   "question": "A particle moves along the $x$-axis, where left is in a positive direction. After $t$ seconds its displacement, $x$ metres, is given by the equation $x=(t^2-1)^2$. Show that the acceleration of the particle is given by the equation $\\ddot x=12t^2-4$.",
+   "answer": "$$x=(t^2-1)^2=t^4-2t^2+1\\Rightarrow\\dot x=4t^3-4t\\Rightarrow\\ddot x=12t^2-4$$"
+  },
+  {
+   "ref": "Q27(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.10"
+   ],
+   "question": "(Particle with displacement $x=(t^2-1)^2$ metres after $t$ seconds, acceleration $\\ddot x=12t^2-4$.) The particle initially moves left, before turning around and moving to the right. Find the particle's acceleration when it returns to its initial position.",
+   "answer": "Initially ($t=0$) the particle is at $x=(0-1)^2=1$. It returns to this position when\n$$(t^2-1)^2=1\\Rightarrow t^2-1=\\pm1\\Rightarrow t^2=0\\ \\text{or}\\ 2.$$\nSo $t=0$ (the start) or $t=\\sqrt2$ (for $t>0$). Then\n$$\\ddot x=12(\\sqrt2)^2-4=24-4=20\\ \\text{m/s}^2.$$"
+  },
+  {
+   "ref": "Q28(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.4",
+    "12.3.2.3"
+   ],
+   "question": "Differentiate $\\dfrac{d}{dx}\\cos(\\ln x)$.",
+   "answer": "By the chain rule, with $u=\\ln x$:\n$$\\frac{d}{dx}\\cos(\\ln x)=-\\sin(\\ln x)\\times\\frac1x=-\\frac{\\sin(\\ln x)}{x}$$"
+  },
+  {
+   "ref": "Q28(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.2.5",
+    "11.3.1.10"
+   ],
+   "question": "The graph of $y=\\dfrac{-\\sin(\\ln x)}{kx}$ for $0<x\\le1$ is shown below. Show that one of the $x$-intercepts has a value of $e^{-\\pi}$.",
+   "answer": "At an $x$-intercept, $\\dfrac{-\\sin(\\ln x)}{kx}=0$, so $\\sin(\\ln x)=0$ (as $x>0$). Then $\\ln x=0$ or $-\\pi$ (or other multiples of $\\pi$), so $x=1$ or $x=e^{-\\pi}$. Hence one of the $x$-intercepts is $e^{-\\pi}$.",
+   "images": [
+    "assets/img/adv-2025-caringbah/q28.png"
+   ]
+  },
+  {
+   "ref": "Q28(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.2.6",
+    "12.4.7.3"
+   ],
+   "question": "The probability density function of a random variable $x$ is given by\n$$f(x)=\\begin{cases}\\dfrac{-\\sin(\\ln x)}{kx}&\\text{for }e^{-\\pi}\\le x\\le1\\\\0&\\text{elsewhere}\\end{cases}$$\nShow that $k=2$.",
+   "answer": "For a PDF the total area is $1$. Using part (a), $\\dfrac d{dx}\\cos(\\ln x)=-\\dfrac{\\sin(\\ln x)}x$:\n$$\\int_{e^{-\\pi}}^{1}\\frac{-\\sin(\\ln x)}{kx}dx=\\frac1k\\Big[\\cos(\\ln x)\\Big]_{e^{-\\pi}}^{1}=\\frac1k\\big(\\cos0-\\cos(-\\pi)\\big)=\\frac1k(1+1)=\\frac2k$$\nSetting $\\dfrac2k=1$ gives $k=2$."
+  },
+  {
+   "ref": "Q28(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.2.7",
+    "12.6.2.9"
+   ],
+   "question": "(Probability density function $f(x)=\\dfrac{-\\sin(\\ln x)}{2x}$ for $e^{-\\pi}\\le x\\le1$, and $0$ elsewhere.) Find $P\\left(x<\\dfrac\\pi4\\right)$. Give your answer correct to three decimal places.",
+   "answer": "$$P\\left(x<\\frac\\pi4\\right)=\\int_{e^{-\\pi}}^{\\pi/4}\\frac{-\\sin(\\ln x)}{2x}dx=\\frac12\\Big[\\cos(\\ln x)\\Big]_{e^{-\\pi}}^{\\pi/4}=\\frac12\\left(\\cos\\left(\\ln\\frac\\pi4\\right)-\\cos(-\\pi)\\right)$$\n$$=\\frac12\\left(0.97096+1\\right)=0.985$$"
+  },
+  {
+   "ref": "Q29",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.6.1.6",
+    "11.1.4.4"
+   ],
+   "question": "The parabola $y=x^2-8x+17$ is dilated vertically by a factor of $2$ and reflected about the $y$-axis. Find the equation of the transformed parabola in the form $y=a(x+b)^2+c$, where $a$, $b$ and $c$ are integers.",
+   "answer": "Vertical dilation by $2$: $y=2(x^2-8x+17)=2x^2-16x+34$.\nReflection about the $y$-axis (replace $x$ by $-x$): $y=2x^2+16x+34$.\nCompleting the square: $y=2(x^2+8x+17)=2\\big[(x+4)^2+1\\big]=2(x+4)^2+2$."
+  },
+  {
+   "ref": "Q30",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.5",
+    "12.4.6.1"
+   ],
+   "question": "The curve $y=\\sqrt x$ intersects the curve $y=\\dfrac8x$ at $(4,2)$. The region bounded by the curve $y=\\sqrt x$, the curve $y=\\dfrac8x$, the line $x=8$ and the $x$-axis is shaded in the diagram. Show that the exact area of the shaded region is $\\dfrac{8(2+3\\ln2)}3$.",
+   "answer": "Split the region at $x=4$:\n$$A=\\int_0^4x^{1/2}dx+\\int_4^8\\frac8x\\,dx=\\left[\\tfrac23x^{3/2}\\right]_0^4+8\\Big[\\ln x\\Big]_4^8=\\tfrac23(8)+8(\\ln8-\\ln4)=\\frac{16}3+8\\ln2=\\frac{16+24\\ln2}3=\\frac{8(2+3\\ln2)}3$$",
+   "images": [
+    "assets/img/adv-2025-caringbah/q30.png"
+   ]
+  },
+  {
+   "ref": "Q31(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.9"
+   ],
+   "question": "Consider the function $y=\\dfrac{x^2}{(x-1)^2}$. Find $\\displaystyle\\lim_{x\\to\\infty}\\dfrac{x^2}{(x-1)^2}$.",
+   "answer": "Dividing numerator and denominator by $x^2$:\n$$\\lim_{x\\to\\infty}\\frac{x^2}{(x-1)^2}=\\lim_{x\\to\\infty}\\frac{1}{1-\\frac2x+\\frac1{x^2}}=\\frac1{1-0+0}=1$$"
+  },
+  {
+   "ref": "Q31(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.9.3"
+   ],
+   "question": "(Function $y=\\dfrac{x^2}{(x-1)^2}$.) Find the domain of the function.",
+   "answer": "The denominator is zero when $x=1$, so the domain is all real $x$ with $x\\ne1$."
+  },
+  {
+   "ref": "Q31(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.4",
+    "11.4.3.9"
+   ],
+   "question": "(Function $y=\\dfrac{x^2}{(x-1)^2}$.) Find the coordinates of any stationary point(s) of the function.",
+   "answer": "By the quotient rule:\n$$y'=\\frac{2x(x-1)^2-2x^2(x-1)}{(x-1)^4}=\\frac{2x(x-1)\\big[(x-1)-x\\big]}{(x-1)^4}=\\frac{-2x}{(x-1)^3}$$\n$y'=0\\Rightarrow x=0$, and $y(0)=0$. The stationary point is $(0,0)$. (The gradient is negative for $x<0$ and positive for $0<x<1$, so it is a local minimum.)"
+  },
+  {
+   "ref": "Q31(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.9",
+    "12.5.1.4"
+   ],
+   "question": "(Function $y=\\dfrac{x^2}{(x-1)^2}$.) Sketch the graph of $y=\\dfrac{x^2}{(x-1)^2}$ on the set of axes below. Show all critical features, including the equations of any asymptotes.",
+   "answer": "Features:\n- vertical asymptote $x=1$ (and $y\\to+\\infty$ on both sides of it);\n- horizontal asymptote $y=1$ (from part (a); the curve approaches it from below as $x\\to-\\infty$ and from above as $x\\to+\\infty$);\n- local minimum at the origin $(0,0)$, which is also the only intercept;\n- $y\\ge0$ everywhere; decreasing for $x<0$, increasing for $0<x<1$ and decreasing for $x>1$ (see graph).",
+   "images": [
+    "assets/img/adv-2025-caringbah/q31.png"
+   ],
+   "answer_images": [
+    "assets/img/adv-2025-caringbah/a31d.png"
+   ]
+  },
+  {
+   "ref": "Q32(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.9"
+   ],
+   "question": "The diagram shows the graphs of the parabola $y=x(x-k)$ and the line $y=kx$, where $k>0$ is a constant, intersecting at the origin $O(0,0)$ and the point $P$. Find, in terms of $k$, the $x$-coordinate of the point $P$.",
+   "answer": "Set $x(x-k)=kx\\Rightarrow x^2-2kx=0\\Rightarrow x(x-2k)=0$. At $P$ the $x$-coordinate is $2k$.",
+   "images": [
+    "assets/img/adv-2025-caringbah/q32.png"
+   ]
+  },
+  {
+   "ref": "Q32(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.8.5"
+   ],
+   "question": "(Parabola $y=x(x-k)$ and line $y=kx$ with $k>0$ intersecting at $O(0,0)$ and $P(2k,2k^2)$.) Find, in simplest form and in terms of $k$, the area of the shaded region enclosed by the parabola and the line.",
+   "answer": "The line is above the parabola between $x=0$ and $x=2k$:\n$$A=\\int_0^{2k}\\big[kx-x(x-k)\\big]dx=\\int_0^{2k}(2kx-x^2)\\,dx=\\left[kx^2-\\tfrac13x^3\\right]_0^{2k}=4k^3-\\tfrac83k^3=\\frac43k^3\\ \\text{square units}$$",
+   "images": [
+    "assets/img/adv-2025-caringbah/q32.png"
+   ]
+  },
+  {
+   "ref": "Q33(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.2.3.7",
+    "11.2.2.10"
+   ],
+   "question": "The diagram shows two circles, one with radius $r\\sqrt r$ and the other with radius $r$ units. The shaded segment has an angle of $\\dfrac\\pi3$ subtended at the centre of the circle. Given that $r>1$, show that the area of the shaded region is $\\dfrac\\pi6r^3-\\dfrac{\\sqrt3}4r^2$ square units.",
+   "answer": "The shaded region is the sector of the large circle (radius $r\\sqrt r$, angle $\\dfrac\\pi3$) with the triangle formed by two radii of the small circle (sides $r$, $r$ with included angle $\\dfrac\\pi3$) removed:\n$$A=\\tfrac12(r\\sqrt r)^2\\cdot\\frac\\pi3-\\tfrac12r\\cdot r\\sin\\frac\\pi3=\\frac{r^3}2\\cdot\\frac\\pi3-\\frac12r^2\\cdot\\frac{\\sqrt3}2=\\frac\\pi6r^3-\\frac{\\sqrt3}4r^2$$",
+   "images": [
+    "assets/img/adv-2025-caringbah/q33.png"
+   ]
+  },
+  {
+   "ref": "Q33(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.5.2.5"
+   ],
+   "question": "(Shaded area $A=\\dfrac\\pi6r^3-\\dfrac{\\sqrt3}4r^2$ square units.) Find the value of $r$ at which the area of the shaded segment is a minimum.",
+   "answer": "$$A'=\\frac\\pi2r^2-\\frac{\\sqrt3}2r=\\frac r2\\left(\\pi r-\\sqrt3\\right)=0\\Rightarrow r=0\\ \\text{or}\\ r=\\frac{\\sqrt3}\\pi\\ (r>0)$$\n$A''=\\pi r-\\dfrac{\\sqrt3}2$. At $r=\\dfrac{\\sqrt3}\\pi$: $A''=\\sqrt3-\\dfrac{\\sqrt3}2=\\dfrac{\\sqrt3}2>0$, so this is a minimum: $r=\\dfrac{\\sqrt3}\\pi$.\n\n*Note:* $\\dfrac{\\sqrt3}\\pi\\approx0.55$ is less than $1$, so it lies outside the condition $r>1$ stated in part (a) (for $r>1$ the area is increasing); the school's answer was marked as given."
+  }
+ ]
+}
