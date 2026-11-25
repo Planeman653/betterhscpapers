@@ -1,0 +1,725 @@
+{
+ "id": "ext2-2025-north-sydney-boys",
+ "course": "extension2",
+ "school": "North Sydney Boys",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "North Sydney Boys 2025 w. sol"
+ },
+ "indexed": "2026-11-25",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "The displacement of a particle is given by\n$$x=\\frac{e^{2t}-e^{-2t}}{2}.$$\nThe acceleration of the particle is",
+   "answer": "$\\dot x=\\dfrac{2e^{2t}+2e^{-2t}}{2}$, so $\\ddot x=\\dfrac{4e^{2t}-4e^{-2t}}{2}=4\\left(\\dfrac{e^{2t}-e^{-2t}}{2}\\right)=4x$. The acceleration is four times the displacement, in the same direction (C).",
+   "options": [
+    "Twice the displacement in the same direction",
+    "Twice the displacement in the opposite direction",
+    "Four times the displacement in the same direction",
+    "Four times the displacement in the opposite direction"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.7"
+   ],
+   "question": "Which of the following is the negation of the statement\n\n\"If I know how to negate this statement, then I will select the correct answer\"?",
+   "answer": "The negation of $P\\Rightarrow Q$ is $P\\wedge\\neg Q$: \"I know how to negate this statement and I will not select the correct answer\" (B).",
+   "options": [
+    "If I don't know how to negate this statement, then I will not select the correct answer",
+    "I know how to negate this statement and I will not select the correct answer",
+    "If I do not select the correct answer, then I do not know how to negate this statement",
+    "I do not know how to negate this statement and I will select the correct answer"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.9",
+    "12.3.1.3"
+   ],
+   "question": "For the complex number $z=a+ib$, which of the following is the correct expression for\n$$\\sum_{k=0}^{2025} i^{k}z\\ ?$$",
+   "answer": "Write $\\sum_{k=0}^{2025}i^kz=(i^0+i^1)z+\\sum_{k=2}^{2025}i^kz$. The last sum has $2024$ terms, a multiple of $4$, and any four consecutive powers of $i$ sum to $0$, so it vanishes. Hence the sum is $(1+i)(a+ib)=a+ib+ia-b=(a-b)+(a+b)i$ (B).",
+   "options": [
+    "$(a+b)+(a+b)i$",
+    "$(a-b)+(a+b)i$",
+    "$(a+b)+(a-b)i$",
+    "$(a-b)+(b-a)i$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.8"
+   ],
+   "question": "Using the substitution $u=1+e^{x}$,\n$$\\int_0^{\\ln 2}\\frac{1}{1+e^{x}}\\,dx$$\ncan be expressed as",
+   "answer": "$du=e^x\\,dx$, so $dx=\\dfrac{du}{u-1}$. When $x=0$, $u=2$; when $x=\\ln2$, $u=3$. Then $\\displaystyle\\int_2^3\\frac{1}{u(u-1)}\\,du$ and $\\dfrac{1}{u(u-1)}=\\dfrac{1}{u-1}-\\dfrac1u$, giving $\\displaystyle\\int_2^3\\left(\\frac1{u-1}-\\frac1u\\right)du$ (B).",
+   "options": [
+    "$\\displaystyle\\int_1^{1+e^2}\\left(\\frac1{u-1}+\\frac1u\\right)du$",
+    "$\\displaystyle\\int_2^3\\left(\\frac1{u-1}-\\frac1u\\right)du$",
+    "$\\displaystyle\\int_2^3\\left(\\frac1u-\\frac1{u-1}\\right)du$",
+    "$\\displaystyle\\int_1^{1+e^2}\\left(\\frac1u-\\frac1{u-1}\\right)du$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.1",
+    "12.5.1.5"
+   ],
+   "question": "For the vectors $\\mathbf{p}=\\begin{pmatrix}a\\\\b\\\\c\\end{pmatrix}$ and $\\mathbf{q}=\\begin{pmatrix}b\\\\c\\\\a\\end{pmatrix}$, which of the following is the expression for $\\left|\\operatorname{proj}_{\\mathbf{q}}\\mathbf{p}\\right|$?",
+   "answer": "$\\left|\\operatorname{proj}_{\\mathbf q}\\mathbf p\\right|=\\dfrac{|\\mathbf p\\cdot\\mathbf q|}{|\\mathbf q|}=\\dfrac{|ab+bc+ca|}{\\sqrt{a^2+b^2+c^2}}$ (D).",
+   "options": [
+    "$a^2+b^2+c^2$",
+    "$|ab+bc+ca|$",
+    "$\\dfrac{a^2+b^2+c^2}{|ab+bc+ca|}$",
+    "$\\dfrac{|ab+bc+ca|}{\\sqrt{a^2+b^2+c^2}}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.2",
+    "12.3.5.1"
+   ],
+   "question": "Let $a$ and $b$ be real numbers with $a\\ne b$. Let $z=x+iy$ be a complex number such that $|z-a|^2-|z-b|^2=1$. Which of the following best describes the locus of $z$?",
+   "answer": "$(x-a)^2+y^2-\\left[(x-b)^2+y^2\\right]=1\\Rightarrow 2(b-a)x+a^2-b^2=1$, so $x=\\dfrac{1+b^2-a^2}{2(b-a)}$, a constant (as $a\\neq b$). The locus is a vertical line (D).",
+   "options": [
+    "A circle with centre $(0,0)$",
+    "A circle with centre $(a,b)$",
+    "A ray",
+    "A vertical line"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3",
+    "12.5.3.2"
+   ],
+   "question": "Two particles with masses $m_1$ kilograms and $m_2$ kilograms are connected by a taut light string that passes over a smooth pulley. The particles sit on smooth inclined planes, inclined at $2\\theta$ and $\\theta$ to the horizontal, as shown in the diagram.\n\nIf the system is in equilibrium, then $\\dfrac{m_1}{m_2}$ is equal to",
+   "answer": "Along each smooth plane the tension balances the component of weight down the plane: $T=m_1g\\sin2\\theta$ and $T=m_2g\\sin\\theta$. Hence $\\dfrac{m_1}{m_2}=\\dfrac{\\sin\\theta}{\\sin2\\theta}=\\dfrac{\\sin\\theta}{2\\sin\\theta\\cos\\theta}=\\dfrac1{2\\cos\\theta}=\\dfrac{\\sec\\theta}{2}$ (A).",
+   "options": [
+    "$\\dfrac{\\sec\\theta}{2}$",
+    "$\\dfrac{\\sin2\\theta}{2}$",
+    "$\\dfrac12$",
+    "$2$"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/ext2-2025-north-sydney-boys/q7.png"
+   ]
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.5",
+    "12.1.3.6"
+   ],
+   "question": "How many ordered pairs of positive real numbers $(a,b)$ exist that satisfy the equation\n$$(1+2a)(2+2b)(2a+b)=32ab\\ ?$$",
+   "answer": "By AM-GM: $1+2a\\ge2\\sqrt{2a}$, $2+2b\\ge2\\sqrt{4b}$, $2a+b\\ge2\\sqrt{2ab}$. Multiplying, $(1+2a)(2+2b)(2a+b)\\ge8\\sqrt{16a^2b^2}=32ab$. Equality holds only if $1=2a$, $2=2b$ and $2a=b$, i.e. $a=\\tfrac12$, $b=1$ (consistent in all three). So there is exactly one pair, $(\\tfrac12,1)$ (B).",
+   "options": [
+    "0",
+    "1",
+    "2",
+    "Infinitely many"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.1",
+    "12.2.2.5"
+   ],
+   "question": "Points $P$ and $Q$ have position vectors $\\mathbf{p}$ and $\\mathbf{q}$ respectively. The expression\n$$\\frac12\\sqrt{|\\mathbf{p}|^2|\\mathbf{q}|^2-(\\mathbf{p}\\cdot\\mathbf{q})^2}$$\nis an expression for",
+   "answer": "With $\\mathbf p\\cdot\\mathbf q=|\\mathbf p||\\mathbf q|\\cos\\theta$: $\\tfrac12\\sqrt{|\\mathbf p|^2|\\mathbf q|^2(1-\\cos^2\\theta)}=\\tfrac12|\\mathbf p||\\mathbf q|\\sin\\theta$, which is the area of $\\triangle OPQ$ (B).",
+   "options": [
+    "The perimeter of $\\triangle OPQ$",
+    "The area of $\\triangle OPQ$",
+    "The magnitude of the position vector of the midpoint of $PQ$",
+    "The cosine of $\\angle POQ$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.3.5.5",
+    "12.3.1.11"
+   ],
+   "question": "For complex numbers $z$ satisfying $|1+z+z^2|=4$, the maximum magnitude of the imaginary part of $z$ can be written as $\\dfrac{\\sqrt m}{n}$. What is $m+n$?",
+   "answer": "Complete the square: $1+z+z^2=\\left(z+\\tfrac12\\right)^2+\\tfrac34$. Let $u=z+\\tfrac12$, which has the same imaginary part as $z$. Then $|u^2+\\tfrac34|=4$, so $u^2$ lies on the circle with centre $-\\tfrac34$ and radius $4$, whose farthest point from the origin is $u^2=-\\tfrac{19}4$, so $|u^2|\\le\\tfrac{19}4$. Since $\\operatorname{Im}z=\\operatorname{Im}u$ and $|\\operatorname{Im}u|\\le|u|=\\sqrt{|u^2|}\\le\\dfrac{\\sqrt{19}}2$, with equality when $u=\\pm\\tfrac{\\sqrt{19}}2i$ (then $u^2=-\\tfrac{19}4$), the maximum is $\\dfrac{\\sqrt{19}}2$. So $m+n=19+2=21$ (C).",
+   "options": [
+    "13",
+    "17",
+    "21",
+    "25"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.11"
+   ],
+   "question": "What is the contrapositive of the statement\n\n\"For any integers $a$ and $b$, $a+b\\ge15$ implies that $a\\ge8$ or $b\\ge8$\"?",
+   "answer": "The contrapositive of $P\\Rightarrow Q$ is $\\neg Q\\Rightarrow\\neg P$: \"For any integers $a$ and $b$, $a<8$ and $b<8$ implies that $a+b<15$.\""
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.12",
+    "12.1.2.3"
+   ],
+   "question": "Prove that for any integers $a$ and $b$, if $a+b\\ge15$ then $a\\ge8$ or $b\\ge8$, by proving its contrapositive: for any integers $a$ and $b$, $a<8$ and $b<8$ implies that $a+b<15$.",
+   "answer": "Since $a$ and $b$ are integers, $a<8\\Rightarrow a\\le7$ and $b<8\\Rightarrow b\\le7$. Hence $a+b\\le14<15$. The contrapositive is true, so the original statement is true (an implication is equivalent to its contrapositive)."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Find $\\displaystyle\\int x\\sin x\\,dx$.",
+   "answer": "Integrate by parts with $u=x$, $v'=\\sin x$ ($u'=1$, $v=-\\cos x$):\n$$\\int x\\sin x\\,dx=-x\\cos x+\\int\\cos x\\,dx=-x\\cos x+\\sin x+C.$$"
+  },
+  {
+   "ref": "Q11(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.9"
+   ],
+   "question": "Show that $x=2i$ is a solution to $x^4-2x^3+8x^2-8x+16=0$.",
+   "answer": "$(2i)^4-2(2i)^3+8(2i)^2-8(2i)+16=16+16i-32-16i+16=0.$ So $x=2i$ is a solution."
+  },
+  {
+   "ref": "Q11(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.2",
+    "12.3.3.4"
+   ],
+   "question": "Given that $x=2i$ is a root of $P(x)=x^4-2x^3+8x^2-8x+16$, express $P(x)$ as a product of two quadratic factors (with real coefficients).",
+   "answer": "$P$ has real coefficients, so $x=-2i$ is also a root (conjugate root theorem). Thus $(x-2i)(x+2i)=x^2+4$ is a factor. Dividing, $P(x)\\div(x^2+4)=x^2-2x+4$ (check: $(x^2+4)(x^2-2x+4)=x^4-2x^3+8x^2-8x+16$). So\n$$P(x)=(x^2+4)(x^2-2x+4).$$"
+  },
+  {
+   "ref": "Q11(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.4",
+    "12.3.3.1"
+   ],
+   "question": "Given that $P(x)=x^4-2x^3+8x^2-8x+16=(x^2+4)(x^2-2x+4)$, express $P(x)$ as the product of four linear factors.",
+   "answer": "$x^2+4=(x-2i)(x+2i)$. For $x^2-2x+4=0$: $x=\\dfrac{2\\pm\\sqrt{4-16}}{2}=1\\pm\\sqrt3\\,i$. Hence\n$$P(x)=(x-2i)(x+2i)\\left(x-1-\\sqrt3 i\\right)\\left(x-1+\\sqrt3 i\\right).$$"
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.1",
+    "12.2.2.5"
+   ],
+   "question": "Points $A$, $B$ and $C$ are defined by position vectors $\\mathbf{a}=\\mathbf{i}-\\mathbf{j}+2\\mathbf{k}$, $\\mathbf{b}=2\\mathbf{i}-\\mathbf{j}+\\mathbf{k}$ and $\\mathbf{c}=p\\mathbf{i}-2\\mathbf{j}$, where $p$ is a real constant. Given that $\\angle ABC=\\dfrac\\pi3$, find the value(s) of $p$.",
+   "answer": "$\\overrightarrow{BA}=\\begin{pmatrix}-1\\\\0\\\\1\\end{pmatrix}$, $\\overrightarrow{BC}=\\begin{pmatrix}p-2\\\\-1\\\\-1\\end{pmatrix}$, so $|\\overrightarrow{BA}|=\\sqrt2$, $|\\overrightarrow{BC}|=\\sqrt{p^2-4p+6}$ and $\\overrightarrow{BA}\\cdot\\overrightarrow{BC}=-(p-2)-1=1-p$.\n\nFrom $\\overrightarrow{BA}\\cdot\\overrightarrow{BC}=|\\overrightarrow{BA}||\\overrightarrow{BC}|\\cos\\frac\\pi3$:\n$$1-p=\\tfrac12\\sqrt2\\sqrt{p^2-4p+6}.$$\nThe right side is positive so $p<1$. Squaring: $(1-p)^2=\\tfrac14\\cdot2(p^2-4p+6)\\Rightarrow 2-4p+2p^2=p^2-4p+6\\Rightarrow p^2=4$, so $p=\\pm2$. As $p<1$, $p=-2$."
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.15"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^{\\pi/3}(\\sec x\\tan x)^3\\,dx$.",
+   "answer": "$$(\\sec x\\tan x)^3=\\sec x\\tan x\\cdot\\sec^2x\\tan^2x=\\sec x\\tan x\\sec^2x(\\sec^2x-1)=\\sec^4x\\cdot\\sec x\\tan x-\\sec^2x\\cdot\\sec x\\tan x.$$\nSince $\\frac{d}{dx}\\sec x=\\sec x\\tan x$,\n$$\\int_0^{\\pi/3}=\\left[\\frac{\\sec^5x}{5}-\\frac{\\sec^3x}{3}\\right]_0^{\\pi/3}=\\left(\\frac{32}{5}-\\frac83\\right)-\\left(\\frac15-\\frac13\\right)=\\frac{31}{5}-\\frac73=\\frac{58}{15}.$$"
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.12"
+   ],
+   "question": "The displacement, from origin $O$, of a small statue caught in a tornado is given by the vector\n$$\\mathbf{r}=\\left(50+25\\cos\\frac{\\pi t}{30}\\right)\\mathbf{i}+\\left(50+25\\sin\\frac{\\pi t}{30}\\right)\\mathbf{j}+\\frac{2t}{5}\\mathbf{k}$$\nwhere $\\mathbf{i}$ is a unit vector East, $\\mathbf{j}$ a unit vector North and $\\mathbf{k}$ a unit vector vertically up. Displacement components are in metres and time $t$ is in seconds.\n\nFind the time, in seconds, for the statue to reach a height of $60$ m.",
+   "answer": "Height is the $\\mathbf k$ component: $\\dfrac{2t}{5}=60\\Rightarrow t=150$ seconds."
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.12",
+    "12.2.2.1"
+   ],
+   "question": "The displacement, from origin $O$, of a small statue caught in a tornado is given by the vector\n$$\\mathbf{r}=\\left(50+25\\cos\\frac{\\pi t}{30}\\right)\\mathbf{i}+\\left(50+25\\sin\\frac{\\pi t}{30}\\right)\\mathbf{j}+\\frac{2t}{5}\\mathbf{k}$$\nwhere $\\mathbf{i}$ is a unit vector East, $\\mathbf{j}$ a unit vector North and $\\mathbf{k}$ a unit vector vertically up. Displacement components are in metres and time $t$ is in seconds.\n\nFind, to the nearest degree, the angle of elevation from $O$ of the statue when it is at a height of $60$ m.",
+   "answer": "At $t=150$: $\\frac{\\pi t}{30}=5\\pi$, so $x=50+25\\cos5\\pi=25$, $y=50+25\\sin5\\pi=50$, $z=60$. The horizontal distance from $O$ is $\\sqrt{25^2+50^2}$, so\n$$\\theta=\\tan^{-1}\\!\\left(\\frac{60}{\\sqrt{25^2+50^2}}\\right)\\approx47^\\circ.$$"
+  },
+  {
+   "ref": "Q12(a)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.12"
+   ],
+   "question": "The displacement, from origin $O$, of a small statue caught in a tornado is given by the vector\n$$\\mathbf{r}=\\left(50+25\\cos\\frac{\\pi t}{30}\\right)\\mathbf{i}+\\left(50+25\\sin\\frac{\\pi t}{30}\\right)\\mathbf{j}+\\frac{2t}{5}\\mathbf{k}$$\nwhere $\\mathbf{i}$ is a unit vector East, $\\mathbf{j}$ a unit vector North and $\\mathbf{k}$ a unit vector vertically up. Displacement components are in metres and time $t$ is in seconds.\n\nAfter how many seconds will the statue first be directly above its original point on the surface of the planet?",
+   "answer": "The horizontal position $(50+25\\cos\\frac{\\pi t}{30},\\,50+25\\sin\\frac{\\pi t}{30})$ returns to its initial value after one period $T=\\dfrac{2\\pi}{\\pi/30}=60$ seconds."
+  },
+  {
+   "ref": "Q12(a)(iv)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.12",
+    "12.2.2.1"
+   ],
+   "question": "The displacement, from origin $O$, of a small statue caught in a tornado is given by the vector\n$$\\mathbf{r}=\\left(50+25\\cos\\frac{\\pi t}{30}\\right)\\mathbf{i}+\\left(50+25\\sin\\frac{\\pi t}{30}\\right)\\mathbf{j}+\\frac{2t}{5}\\mathbf{k}$$\nwhere $\\mathbf{i}$ is a unit vector East, $\\mathbf{j}$ a unit vector North and $\\mathbf{k}$ a unit vector vertically up. Displacement components are in metres and time $t$ is in seconds.\n\nShow that the velocity of the statue is perpendicular to its acceleration.",
+   "answer": "$$\\mathbf v=\\dot{\\mathbf r}=-\\frac{5\\pi}{6}\\sin\\frac{\\pi t}{30}\\,\\mathbf i+\\frac{5\\pi}{6}\\cos\\frac{\\pi t}{30}\\,\\mathbf j+\\frac25\\mathbf k,\\qquad \\mathbf a=\\dot{\\mathbf v}=-\\frac{\\pi^2}{36}\\cos\\frac{\\pi t}{30}\\,\\mathbf i-\\frac{\\pi^2}{36}\\sin\\frac{\\pi t}{30}\\,\\mathbf j.$$\n$$\\mathbf a\\cdot\\mathbf v=\\frac{5\\pi^3}{216}\\sin\\frac{\\pi t}{30}\\cos\\frac{\\pi t}{30}-\\frac{5\\pi^3}{216}\\sin\\frac{\\pi t}{30}\\cos\\frac{\\pi t}{30}+\\frac25\\cdot0=0.$$\nHence $\\mathbf v\\perp\\mathbf a$."
+  },
+  {
+   "ref": "Q12(a)(v)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.12"
+   ],
+   "question": "The displacement, from origin $O$, of a small statue caught in a tornado is given by the vector\n$$\\mathbf{r}=\\left(50+25\\cos\\frac{\\pi t}{30}\\right)\\mathbf{i}+\\left(50+25\\sin\\frac{\\pi t}{30}\\right)\\mathbf{j}+\\frac{2t}{5}\\mathbf{k}$$\nwhere $\\mathbf{i}$ is a unit vector East, $\\mathbf{j}$ a unit vector North and $\\mathbf{k}$ a unit vector vertically up. Displacement components are in metres and time $t$ is in seconds.\n\nFind the speed, in metres per second, at which the statue is travelling. Answer correct to two decimal places.",
+   "answer": "Let $\\theta=\\frac{\\pi t}{30}$. $|\\mathbf v|^2=\\frac{25\\pi^2}{36}(\\sin^2\\theta+\\cos^2\\theta)+\\frac4{25}=\\frac{25\\pi^2}{36}+\\frac{4}{25}\\approx7.01$. So the speed is constant: $\\approx2.65$ m s$^{-1}$."
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.1",
+    "12.3.4.7"
+   ],
+   "question": "Let $\\omega$ be a non-real root of the equation $z^3+8=0$. Show that $\\omega^2=2\\omega-4$.",
+   "answer": "$z^3+8=(z+2)(z^2-2z+4)=0$. Since $\\omega$ is a root, $(\\omega+2)(\\omega^2-2\\omega+4)=0$. As $\\omega$ is non-real, $\\omega\\ne-2$, so $\\omega^2-2\\omega+4=0$, i.e. $\\omega^2=2\\omega-4$."
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.7",
+    "12.3.4.3"
+   ],
+   "question": "Let $\\omega$ be a non-real root of $z^3+8=0$, so that $\\omega^2=2\\omega-4$. Hence evaluate $(2\\omega-4)^6$.",
+   "answer": "$(2\\omega-4)^6=(\\omega^2)^6=\\omega^{12}=(\\omega^3)^4=(-8)^4=4096.$"
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.1",
+    "12.1.3.6"
+   ],
+   "question": "Prove that for $a,b,c>0$,\n$$\\frac{a^2}{b^3c}-\\frac{a}{b^2}\\ge\\frac cb-\\frac{c^2}{a}.$$",
+   "answer": "Over the common denominator $ab^3c$:\n$$\\frac{a^2}{b^3c}-\\frac a{b^2}-\\frac cb+\\frac{c^2}a=\\frac{a^3-a^2bc-ab^2c^2+b^3c^3}{ab^3c}=\\frac{a^2(a-bc)-b^2c^2(a-bc)}{ab^3c}=\\frac{(a-bc)(a^2-b^2c^2)}{ab^3c}=\\frac{(a-bc)^2(a+bc)}{ab^3c}.$$\nFor $a,b,c>0$ this is $\\ge0$, so LHS $\\ge$ RHS."
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.1"
+   ],
+   "question": "For $a,b,c>0$ it is known that\n$$\\frac{a^2}{b^3c}-\\frac{a}{b^2}-\\left(\\frac cb-\\frac{c^2}{a}\\right)=\\frac{(a-bc)^2(a+bc)}{ab^3c}\\ge0.$$\nUnder what conditions does equality occur in $\\dfrac{a^2}{b^3c}-\\dfrac{a}{b^2}\\ge\\dfrac cb-\\dfrac{c^2}{a}$?",
+   "answer": "Equality holds when $(a-bc)^2(a+bc)=0$. As $a+bc>0$, this requires $a=bc$."
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.7",
+    "12.4.1.8"
+   ],
+   "question": "Use partial fractions to find $\\displaystyle\\int\\frac{dx}{x^2(x-1)}$.",
+   "answer": "Write $\\dfrac{1}{x^2(x-1)}=\\dfrac{A}{x-1}+\\dfrac Bx+\\dfrac C{x^2}$, so $1=Ax^2+Bx(x-1)+C(x-1)=(A+B)x^2+(C-B)x-C$. Then $C=-1$, $B=-1$, $A=1$.\n$$\\int\\frac{dx}{x^2(x-1)}=\\int\\left(\\frac1{x-1}-\\frac1x-\\frac1{x^2}\\right)dx=\\ln|x-1|-\\ln|x|+\\frac1x+C.$$"
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.5",
+    "12.4.1.6"
+   ],
+   "question": "Use the substitution $t=\\tan\\dfrac\\theta2$ to find $\\displaystyle\\int\\operatorname{cosec}\\theta\\,d\\theta$.",
+   "answer": "With $t=\\tan\\frac\\theta2$: $\\sin\\theta=\\dfrac{2t}{1+t^2}$ and $d\\theta=\\dfrac{2\\,dt}{1+t^2}$. Then\n$$\\int\\operatorname{cosec}\\theta\\,d\\theta=\\int\\frac{1+t^2}{2t}\\cdot\\frac{2}{1+t^2}\\,dt=\\int\\frac1t\\,dt=\\ln|t|+C=\\ln\\left|\\tan\\frac\\theta2\\right|+C.$$"
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.11",
+    "12.3.4.10"
+   ],
+   "question": "$OABC$ is a parallelogram drawn on the Argand plane such that $O$ is the origin, $A$ is represented by the complex number $w$ and $C$ by the complex number $z$. Squares are constructed outwards on each of the four sides of the parallelogram, with centres $P$, $Q$, $R$ and $S$ (on sides $OA$, $AB$, $BC$ and $CO$ respectively) as shown.\n\nShow that $\\overrightarrow{PR}$ is given by the complex number $z+iw$.",
+   "answer": "Let $D$ be the midpoint of $OA$ and $F$ the midpoint of $BC$. $P$ is the centre of the square on $OA$, so $\\overrightarrow{DP}$ is half of $\\overrightarrow{OA}=w$ rotated by $-90^\\circ$: $\\overrightarrow{OP}=\\tfrac12w-\\tfrac12iw$. Similarly $\\overrightarrow{CF}=\\tfrac12w$, and $\\overrightarrow{FR}$ is half of $\\overrightarrow{CB}=w$ rotated by $+90^\\circ$: $\\overrightarrow{OR}=z+\\tfrac12w+\\tfrac12iw$. Then\n$$\\overrightarrow{PR}=\\overrightarrow{OR}-\\overrightarrow{OP}=z+\\tfrac12w+\\tfrac12iw-\\tfrac12w+\\tfrac12iw=z+iw.$$",
+   "images": [
+    "assets/img/ext2-2025-north-sydney-boys/q13b.png"
+   ]
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.11",
+    "12.3.4.10"
+   ],
+   "question": "$OABC$ is a parallelogram drawn on the Argand plane such that $O$ is the origin, $A$ is represented by the complex number $w$ and $C$ by the complex number $z$. Squares are constructed outwards on each of the four sides of the parallelogram, with centres $P$, $Q$, $R$ and $S$ (on sides $OA$, $AB$, $BC$ and $CO$ respectively) as shown.\n\nFind a similar expression in terms of $w$, $z$ and $i$ for $\\overrightarrow{QS}$.",
+   "answer": "Let $E$ be the midpoint of $AB$ and $G$ the midpoint of $CO$. $\\overrightarrow{AB}=z$, so $\\overrightarrow{OQ}=\\overrightarrow{OA}+\\overrightarrow{AE}+\\overrightarrow{EQ}=w+\\tfrac12z-\\tfrac12iz$. Also $\\overrightarrow{OS}=\\overrightarrow{OG}+\\overrightarrow{GS}=\\tfrac12z+\\tfrac12iz$. Therefore\n$$\\overrightarrow{QS}=\\overrightarrow{OS}-\\overrightarrow{OQ}=\\tfrac12z+\\tfrac12iz-w-\\tfrac12z+\\tfrac12iz=iz-w.$$",
+   "images": [
+    "assets/img/ext2-2025-north-sydney-boys/q13b.png"
+   ]
+  },
+  {
+   "ref": "Q13(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.11"
+   ],
+   "question": "$OABC$ is a parallelogram drawn on the Argand plane such that $O$ is the origin, $A$ is represented by the complex number $w$ and $C$ by the complex number $z$. Squares are constructed outwards on each of the four sides of the parallelogram, with centres $P$, $Q$, $R$ and $S$ (on sides $OA$, $AB$, $BC$ and $CO$ respectively) as shown.\n\nGiven that $\\overrightarrow{PR}=z+iw$ and $\\overrightarrow{QS}=iz-w$, show that $PQRS$ is a square.",
+   "answer": "$i\\overrightarrow{PR}=iz+i^2w=iz-w=\\overrightarrow{QS}$, so the diagonals $PR$ and $QS$ are equal in length and perpendicular (rotation by $90^\\circ$). The midpoint of $PR$ is $\\tfrac12(\\overrightarrow{OP}+\\overrightarrow{OR})=\\tfrac12(w+z)$ and the midpoint of $QS$ is $\\tfrac12(\\overrightarrow{OQ}+\\overrightarrow{OS})=\\tfrac12(w+\\tfrac12z-\\tfrac12iz+\\tfrac12z+\\tfrac12iz)=\\tfrac12(w+z)$, so the diagonals bisect each other. A quadrilateral whose diagonals are equal, perpendicular and bisect each other is a square.",
+   "images": [
+    "assets/img/ext2-2025-north-sydney-boys/q13b.png"
+   ]
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.3",
+    "12.2.1.18"
+   ],
+   "question": "Find the points of intersection between the sphere\n$$x^2+y^2+z^2-4x+2y-6z+5=0$$\nand the line\n$$\\mathbf r=\\begin{pmatrix}7\\\\-1\\\\9\\end{pmatrix}+\\lambda\\begin{pmatrix}3\\\\-1\\\\4\\end{pmatrix}.$$",
+   "answer": "Completing the square: $(x-2)^2+(y+1)^2+(z-3)^2=9$. On the line, $x=7+3\\lambda$, $y=-1-\\lambda$, $z=9+4\\lambda$:\n$$(5+3\\lambda)^2+\\lambda^2+(6+4\\lambda)^2=9\\Rightarrow26\\lambda^2+78\\lambda+52=0\\Rightarrow\\lambda^2+3\\lambda+2=0,$$\nso $\\lambda=-1$ or $\\lambda=-2$. The points of intersection are $(4,0,5)$ and $(1,1,1)$."
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.5.1.1"
+   ],
+   "question": "A particle moves in a straight line with acceleration $a=2x^3+2x$ metres per second squared, where $x$ is its displacement in metres. It starts at the origin with an initial velocity of $1$ m s$^{-1}$. Find its velocity in terms of displacement.",
+   "answer": "$v\\dfrac{dv}{dx}=2x(x^2+1)$, so $\\displaystyle\\int_1^v v\\,dv=\\int_0^x2x(x^2+1)\\,dx$:\n$$\\tfrac12v^2-\\tfrac12=\\tfrac12(x^2+1)^2-\\tfrac12\\Rightarrow v^2=(x^2+1)^2.$$\nSince $v\\ne0$ for all $x$ and the initial velocity is positive, $v=x^2+1$."
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "A particle moves in a straight line, starting at the origin at $t=0$. Its velocity in terms of its displacement $x$ is $v=x^2+1$. Find its displacement in terms of time.",
+   "answer": "$\\dfrac{dx}{dt}=x^2+1\\Rightarrow\\displaystyle\\int_0^t dt=\\int_0^x\\frac{dx}{1+x^2}\\Rightarrow t=\\tan^{-1}x$. Hence $x=\\tan t$."
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.1.1"
+   ],
+   "question": "A parallelepiped is a three-dimensional figure formed by six parallelograms; opposite faces are identical. Consider the parallelepiped $OABCDEFG$ shown, where $O$ is adjacent to $A$, $C$ and $D$.\n\nProve that the diagonals $OF$ and $CE$ bisect each other.",
+   "answer": "Let $\\overrightarrow{OA}=\\mathbf a$, $\\overrightarrow{OC}=\\mathbf c$, $\\overrightarrow{OD}=\\mathbf d$. Opposite edges are equal: $\\overrightarrow{AB}=\\overrightarrow{OC}=\\mathbf c$, $\\overrightarrow{BF}=\\overrightarrow{OD}=\\mathbf d$, $\\overrightarrow{DE}=\\overrightarrow{OA}=\\mathbf a$.\n\nLet $X$ be the midpoint of $OF$: $\\overrightarrow{OX}=\\tfrac12\\overrightarrow{OF}=\\tfrac12(\\overrightarrow{OA}+\\overrightarrow{AB}+\\overrightarrow{BF})=\\tfrac12(\\mathbf a+\\mathbf c+\\mathbf d)$.\n\nLet $Y$ be the midpoint of $CE$: $\\overrightarrow{OY}=\\overrightarrow{OC}+\\tfrac12\\overrightarrow{CE}=\\tfrac12(\\overrightarrow{OC}+\\overrightarrow{OE})=\\tfrac12(\\mathbf c+\\overrightarrow{OD}+\\overrightarrow{DE})=\\tfrac12(\\mathbf c+\\mathbf d+\\mathbf a)$.\n\nSo $X$ and $Y$ coincide: the diagonals bisect each other.",
+   "images": [
+    "assets/img/ext2-2025-north-sydney-boys/q14b.png"
+   ]
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "A parallelepiped is a three-dimensional figure formed by six parallelograms; opposite faces are identical. Consider the parallelepiped $OABCDEFG$ shown, where $O$ is adjacent to $A$, $C$ and $D$.\n\nLet $M$ be the midpoint of $CB$ and $N$ the midpoint of $DE$. It has been shown that the diagonals $OF$ and $CE$ bisect each other, at the point with position vector $\\tfrac12(\\mathbf a+\\mathbf c+\\mathbf d)$, where $\\mathbf a=\\overrightarrow{OA}$, $\\mathbf c=\\overrightarrow{OC}$, $\\mathbf d=\\overrightarrow{OD}$. Prove that the midpoint of $MN$ is the point where the diagonals $OF$ and $CE$ intersect.",
+   "answer": "Since $\\overrightarrow{CB}=\\overrightarrow{DE}=\\overrightarrow{OA}=\\mathbf a$: $\\overrightarrow{OM}=\\mathbf c+\\tfrac12\\mathbf a$ and $\\overrightarrow{ON}=\\mathbf d+\\tfrac12\\mathbf a$. The midpoint $Z$ of $MN$ has\n$$\\overrightarrow{OZ}=\\tfrac12\\left(\\mathbf c+\\tfrac12\\mathbf a+\\mathbf d+\\tfrac12\\mathbf a\\right)=\\tfrac12(\\mathbf a+\\mathbf c+\\mathbf d),$$\nthe same as the intersection point of $OF$ and $CE$.",
+   "images": [
+    "assets/img/ext2-2025-north-sydney-boys/q14b.png"
+   ]
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.5",
+    "12.1.3.2"
+   ],
+   "question": "Prove that for $a,b\\in\\mathbb R^+$, $\\dfrac{a+b}2\\ge\\sqrt{ab}$.",
+   "answer": "$(\\sqrt a-\\sqrt b)^2\\ge0\\Rightarrow a-2\\sqrt{ab}+b\\ge0\\Rightarrow\\dfrac{a+b}{2}\\ge\\sqrt{ab}$."
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.1.3.5"
+   ],
+   "question": "Given that $\\dfrac{a+b}2\\ge\\sqrt{ab}$ for all $a,b\\in\\mathbb R^+$, prove that for $a,b\\in\\mathbb R^+$\n$$\\sqrt{ab}\\ge\\frac{2}{\\frac1a+\\frac1b}.$$",
+   "answer": "Apply the given result to $\\frac1a$ and $\\frac1b$: $\\dfrac{\\frac1a+\\frac1b}{2}\\ge\\sqrt{\\dfrac1{ab}}=\\dfrac1{\\sqrt{ab}}$. Taking reciprocals of both (positive) sides reverses the inequality: $\\dfrac{2}{\\frac1a+\\frac1b}\\le\\sqrt{ab}$."
+  },
+  {
+   "ref": "Q14(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.1.3.2"
+   ],
+   "question": "Prove that for $a,b\\in\\mathbb R^+$\n$$\\frac{2}{\\frac1a+\\frac1b}\\le\\sqrt{ab}\\le\\frac{a+b}2\\le\\sqrt{\\frac{a^2+b^2}2}.$$\n(You may use that $\\dfrac{a+b}2\\ge\\sqrt{ab}$ and $\\sqrt{ab}\\ge\\dfrac2{\\frac1a+\\frac1b}$ for positive $a,b$.)",
+   "answer": "The first two inequalities are the given results. For the last: $(a-b)^2\\ge0\\Rightarrow a^2+b^2\\ge2ab\\Rightarrow2(a^2+b^2)\\ge(a+b)^2\\Rightarrow\\dfrac{a^2+b^2}{2}\\ge\\left(\\dfrac{a+b}2\\right)^2$. Both sides are positive and $\\sqrt{\\ }$ is increasing, so $\\sqrt{\\dfrac{a^2+b^2}2}\\ge\\dfrac{a+b}2$. Chaining the inequalities gives the result."
+  },
+  {
+   "ref": "Q14(c)(iv)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.1.3.5"
+   ],
+   "question": "Using the inequality $\\dfrac{2}{\\frac1a+\\frac1b}\\le\\dfrac{a+b}{2}$ (valid for all $a,b\\in\\mathbb R^+$), or otherwise, prove that for $x,y,z\\in\\mathbb R^+$:\n$$\\frac1{x+y}+\\frac1{y+z}+\\frac1{z+x}\\le\\frac12\\left(\\frac1x+\\frac1y+\\frac1z\\right).$$",
+   "answer": "With $a=x$, $b=y$: $\\dfrac{2xy}{x+y}\\le\\dfrac{x+y}2$, so (reciprocating) $\\dfrac{x+y}{2xy}\\ge\\dfrac2{x+y}$, i.e. $\\dfrac12\\left(\\dfrac1y+\\dfrac1x\\right)\\ge\\dfrac{2}{x+y}$, giving\n$$\\frac1{x+y}\\le\\frac14\\left(\\frac1x+\\frac1y\\right).$$\nSimilarly $\\dfrac1{y+z}\\le\\dfrac14\\left(\\dfrac1y+\\dfrac1z\\right)$ and $\\dfrac1{z+x}\\le\\dfrac14\\left(\\dfrac1z+\\dfrac1x\\right)$. Adding:\n$$\\frac1{x+y}+\\frac1{y+z}+\\frac1{z+x}\\le\\frac14\\left(\\frac2x+\\frac2y+\\frac2z\\right)=\\frac12\\left(\\frac1x+\\frac1y+\\frac1z\\right).$$"
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.9",
+    "12.4.1.16"
+   ],
+   "question": "By considering the function $y=\\sqrt x$ from $x=0$ to $x=n+1$, use $n+1$ applications of the trapezoidal rule to show that\n$$\\sum_{k=1}^{n}\\sqrt k<\\frac{(4n+1)\\sqrt{n+1}}{6}.$$",
+   "answer": "Divide $[0,n+1]$ into $n+1$ strips of width $1$ with ordinates $\\sqrt0,\\sqrt1,\\dots,\\sqrt{n+1}$. Since $y=\\sqrt x$ is concave down, each trapezium lies under the curve, so the trapezoidal rule underestimates the integral:\n$$\\frac12\\Big[\\sqrt0+\\sqrt{n+1}+2\\big(\\sqrt1+\\sqrt2+\\dots+\\sqrt n\\big)\\Big]<\\int_0^{n+1}\\sqrt x\\,dx=\\tfrac23(n+1)^{3/2}.$$\nSo $\\sum_{k=1}^n\\sqrt k<\\tfrac23(n+1)^{3/2}-\\tfrac12\\sqrt{n+1}=\\dfrac{4(n+1)\\sqrt{n+1}-3\\sqrt{n+1}}{6}=\\dfrac{(4n+1)\\sqrt{n+1}}6.$"
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.14",
+    "12.4.1.13"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^1\\sqrt{(1-x^2)^n}\\,dx$. Show that for integers $n\\ge2$,\n$$I_n=\\frac{n}{n+1}I_{n-2}.$$",
+   "answer": "$I_n=\\int_0^1(1-x^2)^{n/2}dx$. By parts with $u=(1-x^2)^{n/2}$, $v'=1$ ($u'=-nx(1-x^2)^{\\frac{n-2}2}$, $v=x$):\n$$I_n=\\Big[x(1-x^2)^{n/2}\\Big]_0^1+n\\int_0^1x^2(1-x^2)^{\\frac{n-2}2}dx=n\\int_0^1\\big(1-(1-x^2)\\big)(1-x^2)^{\\frac{n-2}2}dx=nI_{n-2}-nI_n.$$\nHence $(n+1)I_n=nI_{n-2}$, so $I_n=\\dfrac n{n+1}I_{n-2}$."
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^1\\sqrt{(1-x^2)^n}\\,dx$, and given that $I_n=\\dfrac n{n+1}I_{n-2}$ for integers $n\\ge2$, evaluate $\\displaystyle\\int_0^1\\sqrt{(1-x^2)^5}\\,dx$.",
+   "answer": "$I_1=\\int_0^1\\sqrt{1-x^2}\\,dx=\\dfrac\\pi4$ (area of a quarter of the unit circle). Then $I_3=\\tfrac34I_1=\\dfrac{3\\pi}{16}$ and $I_5=\\tfrac56I_3=\\dfrac{5\\pi}{32}$."
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.4.3",
+    "12.5.4.5"
+   ],
+   "question": "Gabbro's rocket ship, of mass $m$ kilograms, is initially stationary on the surface of his home planet. The engines deliver a constant upward force of $F$ newtons. Up to a height of $h$ metres above the surface the ship experiences a constant gravitational acceleration $g$ m s$^{-2}$ and an air resistance of $50\\%$ of the square of the ship's velocity (i.e. $0.5v^2$ newtons).\n\nShow that when Gabbro has reached a height of $h$ metres he is travelling at a speed of\n$$\\sqrt{2(F-mg)\\left(1-e^{-\\frac hm}\\right)}\\ \\text{ metres per second.}$$",
+   "answer": "Taking up as positive, $ma=F-mg-0.5v^2$, so $v\\dfrac{dv}{dx}=\\dfrac{F-mg-0.5v^2}{m}$ and $\\dfrac{dx}{dv}=\\dfrac{mv}{F-mg-0.5v^2}$. Then\n$$\\int_0^hdx=\\int_0^v\\frac{mv}{F-mg-0.5v^2}dv\\ \\Rightarrow\\ h=-m\\Big[\\ln\\left|F-mg-0.5v^2\\right|\\Big]_0^v=-m\\ln\\frac{F-mg-0.5v^2}{F-mg}.$$\nSo $\\dfrac{F-mg-0.5v^2}{F-mg}=e^{-h/m}$, giving $0.5v^2=(F-mg)\\left(1-e^{-h/m}\\right)$ and (as $v>0$) $v=\\sqrt{2(F-mg)\\left(1-e^{-h/m}\\right)}$."
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "The gravitational acceleration of a ship near a planet of radius $R$ is inversely proportional to the square of its distance from the centre of the planet, and equals $g$ at the surface. Show that when the ship is at height $x$ above the surface, the gravity has magnitude $\\dfrac{gR^2}{(R+x)^2}$ metres per second squared.",
+   "answer": "The distance from the centre is $R+x$, so the magnitude is $\\dfrac k{(R+x)^2}$. At the surface ($x=0$) it equals $g$: $g=\\dfrac k{R^2}\\Rightarrow k=gR^2$. Hence the gravity is $\\dfrac{gR^2}{(R+x)^2}$."
+  },
+  {
+   "ref": "Q15(c)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.5.4.5"
+   ],
+   "question": "Gabbro's rocket ship, of mass $m$ kilograms, is initially stationary on the surface of his home planet. The engines deliver a constant upward force of $F$ newtons. Up to a height of $h$ metres above the surface the ship experiences a constant gravitational acceleration $g$ m s$^{-2}$ and an air resistance of $50\\%$ of the square of the ship's velocity (i.e. $0.5v^2$ newtons).\nAt height $h$ the engines are turned off and air resistance becomes negligible. Above this height the only force on the ship is gravity, of magnitude $\\dfrac{gR^2}{(R+x)^2}$ where $R$ is the radius of the planet and $x$ the height above the surface. Using the result that the speed at height $h$ is $\\sqrt{2(F-mg)\\left(1-e^{-h/m}\\right)}$, show that for the ship to escape (never return), the force of the engines must exceed the weight of the ship by\n$$\\frac{gR^2}{(h+R)\\left(1-e^{-h/m}\\right)}\\ \\text{newtons.}$$",
+   "answer": "Let $u$ be the speed at height $h$. Above $h$, taking up as positive, $v\\dfrac{dv}{dx}=-\\dfrac{gR^2}{(R+x)^2}$, so\n$$\\int_u^vv\\,dv=-gR^2\\int_h^x\\frac{dx}{(R+x)^2}\\ \\Rightarrow\\ \\tfrac12v^2-\\tfrac12u^2=gR^2\\left(\\frac1{R+x}-\\frac1{R+h}\\right).$$\nThus $v^2=u^2-2gR^2\\left(\\dfrac1{R+h}-\\dfrac1{R+x}\\right)$. Since the acceleration is always negative, the ship escapes only if $v^2>0$ for all $x$; as $x\\to\\infty$ this requires $u^2>\\dfrac{2gR^2}{R+h}$.\n\nSubstituting $u^2=2(F-mg)\\left(1-e^{-h/m}\\right)$:\n$$2(F-mg)\\left(1-e^{-h/m}\\right)>\\frac{2gR^2}{h+R}\\ \\Rightarrow\\ F-mg>\\frac{gR^2}{(h+R)\\left(1-e^{-h/m}\\right)}.$$\nSince $mg$ is the weight of the ship, the engine force must exceed the weight by this amount."
+  },
+  {
+   "ref": "Q16(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.15"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^1\\frac{\\ln(x+1)}{x^2+1}\\,dx$.\n\n(You may quote the identity $\\displaystyle\\int_0^af(x)\\,dx=\\int_0^af(a-x)\\,dx$ without proof at any point in your working.)",
+   "answer": "Let $x=\\tan u$, $dx=\\sec^2u\\,du$; limits $0\\to\\frac\\pi4$:\n$$I=\\int_0^{\\pi/4}\\frac{\\ln(\\tan u+1)}{\\sec^2u}\\sec^2u\\,du=\\int_0^{\\pi/4}\\ln(1+\\tan u)\\,du.$$\nApply the identity: \n$$I=\\int_0^{\\pi/4}\\ln\\left(1+\\tan\\left(\\tfrac\\pi4-u\\right)\\right)du=\\int_0^{\\pi/4}\\ln\\left(1+\\frac{1-\\tan u}{1+\\tan u}\\right)du=\\int_0^{\\pi/4}\\ln\\frac2{1+\\tan u}\\,du$$\n$$=\\int_0^{\\pi/4}\\ln2\\,du-\\int_0^{\\pi/4}\\ln(1+\\tan u)\\,du=\\frac\\pi4\\ln2-I.$$\nSo $2I=\\dfrac\\pi4\\ln2$ and $I=\\dfrac\\pi8\\ln2$."
+  },
+  {
+   "ref": "Q16(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.3.4.12",
+    "12.3.5.3",
+    "12.3.2.6"
+   ],
+   "question": "Let $z$ be a complex number such that $|z|=1$ and $z^{n+1}-z^n-1=0$. Prove that $n+2$ is a multiple of $6$.",
+   "answer": "From $z^n(z-1)=1$ and $|z|=1$: $|z-1|=1$. So $z$ lies on both $|z|=1$ and $|z-1|=1$; the triangle with vertices $0$, $1$, $z$ is equilateral, so $z=\\cos\\frac\\pi3\\pm i\\sin\\frac\\pi3$, i.e. $\\arg z=\\pm\\frac\\pi3$. Then $z^3=\\cos(\\pm\\pi)=-1$, so $z^3+1=(z+1)(z^2-z+1)=0$ and since $z\\ne-1$, $z^2-z+1=0$, i.e. $z^2=z-1$. Substituting into $z^n(z-1)=1$: $z^{n+2}=1$.\n\nBy de Moivre, $z^{n+2}=\\cos\\left(\\pm\\frac{(n+2)\\pi}3\\right)+i\\sin\\left(\\pm\\frac{(n+2)\\pi}3\\right)=1$ requires $\\frac{(n+2)\\pi}{3}=2\\pi k$ for an integer $k$, so $n+2=6k$: a multiple of $6$.\n\n(The school's working ends by noting $z^6=1$ so $z^{6k}=1$ and concludes $n+2=6k$; that step is the converse of what is needed. The argument above uses $\\arg z=\\pm\\frac\\pi3$ to justify it. The school's working also used exponential form $e^{\\pm i\\pi/3}$, which is rewritten here in polar form.)"
+  },
+  {
+   "ref": "Q16(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "Coprime integers share no common factor other than $1$. If $a$ and $b$ are coprime and $ax=by$, show that $a$ is a factor of $y$, for integers $a,b,x,y$.",
+   "answer": "$ax=by$, so $\\dfrac xy=\\dfrac ba$ (for $y\\ne 0$). Since $a$ and $b$ are coprime, $\\dfrac ba$ is in lowest terms, so any other representation of this ratio has the form $\\dfrac xy=\\dfrac{kb}{ka}$ for an integer $k$. Hence $y=ka$ and $a$ is a factor of $y$. (If $y=0$ then $a$ divides $y$ trivially.)"
+  },
+  {
+   "ref": "Q16(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "Coprime integers share no common factor other than $1$. You may use that if $a$ and $b$ are coprime and $ax=by$ then $a$ is a factor of $y$.\n\n$P(x)=a_nx^n+a_{n-1}x^{n-1}+\\dots+a_1x+a_0$ is a polynomial of degree $n$ with integer coefficients. Let a rational root of $P(x)$ be written $\\dfrac pq$ where $p$ and $q$ are coprime integers (so $p^n$ and $q$ are also coprime). Prove that $q$ is a factor of $a_n$.",
+   "answer": "$P\\!\\left(\\tfrac pq\\right)=0$; multiply by $q^n$: $a_np^n+a_{n-1}p^{n-1}q+\\dots+a_1pq^{n-1}+a_0q^n=0$. Hence\n$$a_np^n=q\\left(-a_{n-1}p^{n-1}-a_{n-2}p^{n-2}q-\\dots-a_0q^{n-1}\\right).$$\nThis has the form $q\\cdot X=p^n\\cdot a_n$ with $q$ and $p^n$ coprime, so by part (i) $q$ is a factor of $a_n$."
+  },
+  {
+   "ref": "Q16(c)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.3.4.4",
+    "12.3.4.1"
+   ],
+   "question": "Letting $\\cos\\theta=x$, we can write cos$(n\\theta)$ as a polynomial in $x$:\n$\\cos0\\theta=1$, $\\cos\\theta=x$, $\\cos2\\theta=2x^2-1$, $\\cos3\\theta=4x^3-3x$, $\\cos4\\theta=8x^4-8x^2+1$, $\\dots$\n\nBy considering the first few terms in the expansion of $(\\cos\\theta+i\\sin\\theta)^n$, or otherwise, show that the leading coefficient of the polynomial expansion of $\\cos n\\theta$ in $x$ is $2^{n-1}$ (for $n\\ge1$).",
+   "answer": "Let $c=\\cos\\theta$, $s=\\sin\\theta$. By de Moivre and the binomial theorem, equating real parts:\n$$\\cos n\\theta=\\binom n0c^n-\\binom n2c^{n-2}s^2+\\binom n4c^{n-4}s^4-\\dots$$\nReplace $s^2=1-c^2$: the $k$-th even term is $(-1)^k\\binom n{2k}c^{n-2k}(1-c^2)^k$, whose leading term is $(-1)^k\\binom n{2k}c^{n-2k}(-c^2)^k=\\binom n{2k}c^n$. So the coefficient of $c^n=x^n$ is\n$$\\binom n0+\\binom n2+\\binom n4+\\dots.$$\nFrom $(1+t)^n$ at $t=1$ and $t=-1$: $2^n=\\sum\\binom nk$ and $0=\\sum(-1)^k\\binom nk$. Adding: $2^n=2\\left[\\binom n0+\\binom n2+\\dots\\right]$, so the sum of the even-indexed binomial coefficients is $2^{n-1}$. So the leading coefficient is $2^{n-1}$."
+  },
+  {
+   "ref": "Q16(c)(iv)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.3.4.4"
+   ],
+   "question": "Let $n$ be an odd integer with $n\\ge3$ and suppose $\\cos^{-1}\\!\\left(\\dfrac1{\\sqrt n}\\right)=k\\pi$. Prove that $k$ is irrational.\n\nYou may use: (1) if $p$ and $q$ are coprime integers and $\\dfrac pq$ is a rational root of a polynomial with integer coefficients, then $q$ divides the leading coefficient; (2) $\\cos(m\\theta)$ is a polynomial in $x=\\cos\\theta$ with integer coefficients and leading coefficient $2^{m-1}$ (for integers $m\\ge1$).",
+   "answer": "Suppose, for contradiction, that $k=\\dfrac pq$ is rational ($p,q$ positive integers). Let $\\alpha=k\\pi$, so $\\cos\\alpha=\\dfrac1{\\sqrt n}$ and $\\cos^2\\alpha=\\dfrac1n$. Then $\\dfrac1n=\\dfrac12+\\dfrac12\\cos2\\alpha$, so\n$$\\cos2\\alpha=\\frac2n-1=\\frac{2-n}{n}.$$\nAs $n$ is odd, $\\gcd(2-n,n)=\\gcd(2,n)=1$, so this fraction is in lowest terms.\n\nNow $2\\alpha=\\dfrac{2p\\pi}{q}$, so $q\\cdot2\\alpha=2p\\pi$ and $\\cos(q\\cdot2\\alpha)=1$. Writing $x=\\cos2\\alpha$, $\\cos(q\\cdot2\\alpha)=T(x)$ where $T$ is an integer-coefficient polynomial of degree $q$ with leading coefficient $2^{q-1}$. So $x=\\dfrac{2-n}{n}$ is a rational root of $T(x)-1=0$, a polynomial with integer coefficients and leading coefficient $2^{q-1}$. By (1), the denominator $n$ divides $2^{q-1}$. But $n$ is odd and $n\\ge3$, so $n$ cannot divide a power of $2$. This is a contradiction, hence $k$ is irrational."
+  }
+ ]
+}
