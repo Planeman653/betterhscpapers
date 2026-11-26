@@ -1,0 +1,566 @@
+{
+ "id": "ext1-2024-baulkham-hills",
+ "course": "extension1",
+ "school": "Baulkham Hills",
+ "year": 2024,
+ "type": "Trial",
+ "thsc": {
+  "viewno": 5338,
+  "title": "Baulkham Hills 2024 w. sol"
+ },
+ "indexed": "2026-11-27",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q14(c)(iii)",
+   "reason": "Not in 2024 syllabus: normal approximation to the binomial distribution"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.12"
+   ],
+   "question": "What are the domain and range of $y=2\\sin^{-1}(3x)$?",
+   "answer": "$-1\\le3x\\le1$ and $2\\times\\left(\\pm\\frac\\pi2\\right)=\\pm\\pi$.",
+   "options": [
+    "Domain $-3\\le x\\le3$, range $-\\frac{\\pi}{4}\\le y\\le\\frac\\pi4$",
+    "Domain $-\\frac13\\le x\\le\\frac13$, range $-\\frac{\\pi}{4}\\le y\\le\\frac\\pi4$",
+    "Domain $-3\\le x\\le3$, range $-\\pi\\le y\\le\\pi$",
+    "Domain $-\\frac13\\le x\\le\\frac13$, range $-\\pi\\le y\\le\\pi$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Which of the following is equivalent to $\\dfrac{d}{dx}\\big[\\arccos(2x)\\big]$?",
+   "answer": "$\\dfrac{d}{dx}\\cos^{-1}f(x)=-\\dfrac{f'(x)}{\\sqrt{1-f(x)^2}}$.",
+   "options": [
+    "$-\\dfrac{1}{2\\sqrt{1-4x^2}}$",
+    "$-\\dfrac{2}{\\sqrt{1-4x^2}}$",
+    "$\\dfrac{2}{\\sqrt{4x^2-1}}$",
+    "$\\dfrac{1}{2\\sqrt{1-4x^2}}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.5"
+   ],
+   "question": "If $t=\\tan\\dfrac\\theta2$, which of the following expressions represents $\\sec\\theta+\\tan\\theta$?",
+   "answer": "$\\sec\\theta+\\tan\\theta=\\dfrac{1+t^2}{1-t^2}+\\dfrac{2t}{1-t^2}=\\dfrac{(1+t)^2}{(1-t)(1+t)}=\\dfrac{1+t}{1-t}$.",
+   "options": [
+    "$\\dfrac{1+t}{1-t}$",
+    "$\\dfrac{1-t}{1+t}$",
+    "$\\left(\\dfrac{1+t}{1-t}\\right)^2$",
+    "$\\left(\\dfrac{1-t}{1+t}\\right)^2$"
+   ],
+   "correct": "A",
+   "course": "extension2"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.4"
+   ],
+   "question": "What is the value of $\\sin 2A$ given $\\tan A=-\\dfrac{5}{12}$ and $-\\dfrac\\pi2<A<0$?",
+   "answer": "$\\sin A=-\\frac5{13}$, $\\cos A=\\frac{12}{13}$, so $\\sin2A=2\\sin A\\cos A=-\\frac{120}{169}$.",
+   "options": [
+    "$\\dfrac{60}{169}$",
+    "$-\\dfrac{60}{169}$",
+    "$\\dfrac{120}{169}$",
+    "$-\\dfrac{120}{169}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "Which of the following is a solution of the differential equation $\\dfrac{dy}{dx}=1+x+y^2+xy^2$ with initial condition $y(0)=0$?",
+   "answer": "$\\dfrac{dy}{dx}=(1+x)(1+y^2)$, so $\\tan^{-1}y=x+\\frac{x^2}{2}+C$ with $C=0$.",
+   "options": [
+    "$y=\\tan\\left(x+\\dfrac{x^2}{2}\\right)$",
+    "$y=\\tan\\left(\\ln|1+x|\\right)$",
+    "$y=e^{x+\\frac{x^2}{2}}-1$",
+    "$y=x$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.9"
+   ],
+   "question": "Which of the following differential equations best describes the slope field shown?",
+   "answer": "The segments are horizontal along $y=x$ and vertical along $y=-x$.",
+   "options": [
+    "$\\dfrac{dy}{dx}=\\dfrac{x+y}{x-y}$",
+    "$\\dfrac{dy}{dx}=\\dfrac{x-y}{x+y}$",
+    "$\\dfrac{dy}{dx}=(x+y)(x-y)$",
+    "$\\dfrac{dy}{dx}=\\dfrac{1}{(x+y)(x-y)}$"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/ext1-2024-baulkham-hills/q6.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.3"
+   ],
+   "question": "Which of the following statements is true if $m$ and $n$ are integers with $m>n>0$?",
+   "answer": "For any positive integer $k$, $\\int_0^\\pi\\sin^2kx\\,dx=\\int_0^\\pi\\cos^2kx\\,dx=\\frac\\pi2$. So C reads $\\frac{m\\pi}{2}>\\frac{n\\pi}{2}$, which is true.",
+   "options": [
+    "$\\displaystyle\\int_0^\\pi\\sin^2mx\\,dx>\\int_0^\\pi\\cos^2nx\\,dx$",
+    "$\\displaystyle\\int_0^\\pi\\cos^2mx\\,dx>\\int_0^\\pi\\sin^2nx\\,dx$",
+    "$\\displaystyle m\\int_0^\\pi\\sin^2x\\,dx>n\\int_0^\\pi\\cos^2x\\,dx$",
+    "$\\displaystyle m\\int_0^\\pi\\sin^2x\\,dx<n\\int_0^\\pi\\cos^2x\\,dx$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.5"
+   ],
+   "question": "Given unit vectors $\\mathbf{a}$ and $\\mathbf{b}$ such that $\\mathbf{a}+\\mathbf{b}$ is also a unit vector, what is the value of $|\\mathbf{a}-\\mathbf{b}|$?",
+   "answer": "$|\\mathbf a+\\mathbf b|^2=2+2\\mathbf a\\cdot\\mathbf b=1$ gives $\\mathbf a\\cdot\\mathbf b=-\\frac12$, so $|\\mathbf a-\\mathbf b|^2=2+1=3$.",
+   "options": [
+    "$1$",
+    "$\\sqrt3$",
+    "$\\dfrac{\\sqrt3}{2}$",
+    "$\\sqrt2$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.6"
+   ],
+   "question": "A random variable $X$ has a binomial distribution with parameters $n$ and $p$, where $0<p<1$. Given that $\\dfrac{P(X=r)}{P(X=n-r)}$ is independent of $n$ and $r$, what is the value of $p$?",
+   "answer": "The ratio is $\\left(\\dfrac{1-p}{p}\\right)^{n-2r}$, independent of $n$ and $r$ only when $\\dfrac{1-p}{p}=1$.",
+   "options": [
+    "$\\dfrac12$",
+    "$\\dfrac13$",
+    "$\\dfrac14$",
+    "$\\dfrac34$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.9"
+   ],
+   "question": "For non-zero vectors $\\mathbf{a}$ and $\\mathbf{b}$, which of the following relationships guarantees that $\\operatorname{proj}_{\\mathbf a}\\mathbf b=\\operatorname{proj}_{\\mathbf b}\\mathbf a$?",
+   "answer": "If $\\mathbf a\\perp\\mathbf b$ both projections are $\\mathbf 0$. For parallel vectors, $\\operatorname{proj}_{\\mathbf a}\\mathbf b=\\mathbf b$ and $\\operatorname{proj}_{\\mathbf b}\\mathbf a=\\mathbf a$, which need not be equal.",
+   "options": [
+    "$\\mathbf a=-\\mathbf b$",
+    "$\\mathbf a$ is parallel to $\\mathbf b$",
+    "$\\mathbf a$ is perpendicular to $\\mathbf b$",
+    "$|\\mathbf a|=|\\mathbf b|$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{dx}{16+25x^2}$.",
+   "answer": "$$\\frac1{25}\\int\\frac{dx}{(4/5)^2+x^2}=\\frac1{25}\\cdot\\frac54\\tan^{-1}\\frac{5x}{4}+C=\\frac1{20}\\tan^{-1}\\frac{5x}{4}+C$$"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "Find the exact volume of the solid of revolution formed when the region enclosed by the curve $y=3x-x^2$ and the $x$-axis is rotated about the $x$-axis.",
+   "answer": "$$V=\\pi\\int_0^3(9x^2-6x^3+x^4)\\,dx=\\pi\\left[3x^3-\\frac{3x^4}{2}+\\frac{x^5}{5}\\right]_0^3=\\frac{81\\pi}{10}\\text{ units}^3$$"
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "Calculate the angle between $\\mathbf a=6\\mathbf i-\\mathbf j$ and $\\mathbf b=-3\\mathbf i+2\\mathbf j$, correct to the nearest degree.",
+   "answer": "$\\cos\\theta=\\dfrac{-18-2}{\\sqrt{37}\\sqrt{13}}=\\dfrac{-20}{\\sqrt{481}}$, so $\\theta\\approx156^\\circ$."
+  },
+  {
+   "ref": "Q11(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.2"
+   ],
+   "question": "By considering $\\tan3A$ as $\\tan(2A+A)$, show that $\\tan A\\tan2A\\tan3A=\\tan3A-\\tan2A-\\tan A$.",
+   "answer": "$\\tan3A=\\dfrac{\\tan2A+\\tan A}{1-\\tan2A\\tan A}$, so $\\tan3A-\\tan A\\tan2A\\tan3A=\\tan2A+\\tan A$. Rearranging gives the result."
+  },
+  {
+   "ref": "Q11(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.1"
+   ],
+   "question": "Using $\\tan A\\tan2A\\tan3A=\\tan3A-\\tan2A-\\tan A$, solve $\\tan3A-\\tan2A-\\tan A=0$ for $0\\le A\\le\\pi$.",
+   "answer": "$\\tan A\\tan2A\\tan3A=0$. $\\tan A=0$: $A=0,\\pi$. $\\tan2A=0$: $A=0,\\frac\\pi2,\\pi$. $\\tan3A=0$: $A=0,\\frac\\pi3,\\frac{2\\pi}3,\\pi$. Reject $A=\\frac\\pi2$ since $\\tan A$ is undefined there. Hence $A=0,\\frac\\pi3,\\frac{2\\pi}{3},\\pi$."
+  },
+  {
+   "ref": "Q11(e)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.2"
+   ],
+   "question": "Express $3\\sin x-5\\cos x$ in the form $A\\sin(x-\\alpha)$ where $A>0$ and $0^\\circ\\le\\alpha\\le90^\\circ$.",
+   "answer": "$A\\cos\\alpha=3$, $A\\sin\\alpha=5$, so $A=\\sqrt{34}$ and $\\alpha=\\tan^{-1}\\frac53\\approx59^\\circ2'$. $$3\\sin x-5\\cos x=\\sqrt{34}\\sin(x-59^\\circ2')$$"
+  },
+  {
+   "ref": "Q11(e)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.1"
+   ],
+   "question": "Given $3\\sin x-5\\cos x=\\sqrt{34}\\sin(x-59^\\circ2')$, solve $3\\sin x-5\\cos x=-1$ for $0^\\circ\\le x\\le360^\\circ$, correct to the nearest minute.",
+   "answer": "$\\sin(x-59^\\circ2')=-\\dfrac1{\\sqrt{34}}$, so $x-59^\\circ2'=-9^\\circ52'$ or $189^\\circ52'$. Hence $x=49^\\circ10'$ or $248^\\circ54'$."
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.6.7"
+   ],
+   "question": "A cannonball is fired from a cannon on top of a cliff into the sea. Initially the cannonball is 50 m above the foot of the cliff (the origin) with velocity $30\\sqrt3\\,\\mathbf i+15\\mathbf j\\ \\text{m s}^{-1}$. Gravity is $9.8\\ \\text{m s}^{-2}$, air resistance is negligible, and the velocity after $t$ seconds is $\\mathbf v(t)=30\\sqrt3\\,\\mathbf i+(15-9.8t)\\mathbf j$. Calculate the initial speed correct to the nearest metre per second.",
+   "answer": "$\\sqrt{(30\\sqrt3)^2+15^2}=\\sqrt{2925}\\approx54\\ \\text{m s}^{-1}$",
+   "images": [
+    "assets/img/ext1-2024-baulkham-hills/q12a.png"
+   ]
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.6.7"
+   ],
+   "question": "A cannonball is fired from a cannon on top of a cliff into the sea. Initially the cannonball is 50 m above the foot of the cliff (the origin) with velocity $30\\sqrt3\\,\\mathbf i+15\\mathbf j\\ \\text{m s}^{-1}$. Gravity is $9.8\\ \\text{m s}^{-2}$, air resistance is negligible, and the velocity after $t$ seconds is $\\mathbf v(t)=30\\sqrt3\\,\\mathbf i+(15-9.8t)\\mathbf j$. Find the angle of projection correct to the nearest degree.",
+   "answer": "$\\theta=\\tan^{-1}\\dfrac{15}{30\\sqrt3}\\approx16^\\circ$",
+   "images": [
+    "assets/img/ext1-2024-baulkham-hills/q12a.png"
+   ]
+  },
+  {
+   "ref": "Q12(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.5"
+   ],
+   "question": "A cannonball is fired from a cannon on top of a cliff into the sea. Initially the cannonball is 50 m above the foot of the cliff (the origin) with velocity $30\\sqrt3\\,\\mathbf i+15\\mathbf j\\ \\text{m s}^{-1}$. Gravity is $9.8\\ \\text{m s}^{-2}$, air resistance is negligible, and the velocity after $t$ seconds is $\\mathbf v(t)=30\\sqrt3\\,\\mathbf i+(15-9.8t)\\mathbf j$. Write down the position vector $\\mathbf r(t)$ of the cannonball.",
+   "answer": "Integrating and using $\\mathbf r(0)=50\\mathbf j$: $$\\mathbf r(t)=30\\sqrt3t\\,\\mathbf i+(50+15t-4.9t^2)\\,\\mathbf j$$",
+   "images": [
+    "assets/img/ext1-2024-baulkham-hills/q12a.png"
+   ]
+  },
+  {
+   "ref": "Q12(a)(iv)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.7"
+   ],
+   "question": "A cannonball is fired from a cannon on top of a cliff into the sea. Initially the cannonball is 50 m above the foot of the cliff (the origin) with velocity $30\\sqrt3\\,\\mathbf i+15\\mathbf j\\ \\text{m s}^{-1}$. Gravity is $9.8\\ \\text{m s}^{-2}$, air resistance is negligible, and the velocity after $t$ seconds is $\\mathbf v(t)=30\\sqrt3\\,\\mathbf i+(15-9.8t)\\mathbf j$. Its position vector is $\\mathbf r(t)=30\\sqrt3t\\,\\mathbf i+(50+15t-4.9t^2)\\mathbf j$. Determine the greatest height above sea level reached by the cannonball, correct to 2 decimal places.",
+   "answer": "$\\dot y=0$ when $t=\\dfrac{15}{9.8}\\approx1.53$ s. Then $y=50+\\dfrac{15^2}{19.6}\\approx61.48$ m.",
+   "images": [
+    "assets/img/ext1-2024-baulkham-hills/q12a.png"
+   ]
+  },
+  {
+   "ref": "Q12(a)(v)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.7"
+   ],
+   "question": "A cannonball is fired from a cannon on top of a cliff into the sea. Initially the cannonball is 50 m above the foot of the cliff (the origin) with velocity $30\\sqrt3\\,\\mathbf i+15\\mathbf j\\ \\text{m s}^{-1}$. Gravity is $9.8\\ \\text{m s}^{-2}$, air resistance is negligible, and the velocity after $t$ seconds is $\\mathbf v(t)=30\\sqrt3\\,\\mathbf i+(15-9.8t)\\mathbf j$. Its position vector is $\\mathbf r(t)=30\\sqrt3t\\,\\mathbf i+(50+15t-4.9t^2)\\mathbf j$. How long does it take the cannonball to land on the sea (the level of the foot of the cliff)? Answer to 2 decimal places.",
+   "answer": "$4.9t^2-15t-50=0$, so $t=\\dfrac{15+\\sqrt{225+980}}{9.8}\\approx5.07$ s.",
+   "images": [
+    "assets/img/ext1-2024-baulkham-hills/q12a.png"
+   ]
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.1.1"
+   ],
+   "question": "The graph of $y=f(x)$ is shown. Graph $y=\\dfrac{1}{f(x)}$.",
+   "answer": "Vertical asymptotes at the zeros $x=-2,0,2$; $y\\to0$ as $x\\to\\pm\\infty$. The points where $f(x)=\\pm1$, namely $(-3,-1),(-1,1),(1,-1),(3,1)$, are unchanged, with $(-1,1)$ a minimum and $(1,-1)$ a maximum.",
+   "images": [
+    "assets/img/ext1-2024-baulkham-hills/q12b.png"
+   ],
+   "answer_images": [
+    "assets/img/ext1-2024-baulkham-hills/q12bi.png"
+   ]
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.3"
+   ],
+   "question": "The graph of $y=f(x)$ is shown. Graph $y=f(|x|-2)$.",
+   "answer": "Translate $y=f(x)$ 2 units right to get $y=f(x-2)$, then for $x\\ge0$ keep that graph and reflect it in the $y$-axis (replacing $x$ by $|x|$).",
+   "images": [
+    "assets/img/ext1-2024-baulkham-hills/q12b.png"
+   ],
+   "answer_images": [
+    "assets/img/ext1-2024-baulkham-hills/q12bii.png"
+   ]
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.1.8"
+   ],
+   "question": "In how many ways can the letters of the word DIFFERENCE be arranged if there are no restrictions?",
+   "answer": "10 letters with F twice and E three times: $\\dfrac{10!}{2!\\,3!}=302400$."
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.4.1.9"
+   ],
+   "question": "In how many ways can the letters of DIFFERENCE be arranged if all three Es are next to each other and this block of Es is somewhere between the two Fs?",
+   "answer": "Treat EEE as one letter: 8 items with two Fs give $\\dfrac{8!}{2!}=20160$ arrangements. By symmetry, EEE is before both Fs, between them, or after both, equally often. So the number is $\\dfrac{20160}{3}=6720$."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.1"
+   ],
+   "question": "Prove by mathematical induction that for all positive integers $n$, $$2\\times6\\times10\\times\\dots\\times(4n-2)=\\frac{(2n)!}{n!}$$",
+   "answer": "**$n=1$:** LHS $=2$, RHS $=\\frac{2!}{1!}=2$.\n\n**Assume** true for $n=k$. Then $$\\text{LHS}_{k+1}=\\frac{(2k)!}{k!}(4k+2)=\\frac{(2k)!\\,2(2k+1)}{k!}\\times\\frac{k+1}{k+1}=\\frac{(2k+1)!\\,(2k+2)}{(k+1)!}=\\frac{(2k+2)!}{(k+1)!}$$ So true for $n=k+1$. By induction it is true for all positive integers $n$."
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.2.6"
+   ],
+   "question": "The polynomial $f(x)=x^3+(a+2)x^2-2x+b$, where $a$ and $b$ are non-zero integers, has $(x-2)$ and $(x+a)$ as factors, with $a>0$. Justify why $4a+b=-12$.",
+   "answer": "$f(2)=0$: $8+4(a+2)-4+b=0$, so $4a+b=-12$."
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.6"
+   ],
+   "question": "The polynomial $f(x)=x^3+(a+2)x^2-2x+b$, where $a$ and $b$ are non-zero integers, has $(x-2)$ and $(x+a)$ as factors, with $a>0$. Show that $2a^2+2a+b=0$.",
+   "answer": "$f(-a)=0$: $-a^3+(a+2)a^2+2a+b=0$, so $2a^2+2a+b=0$."
+  },
+  {
+   "ref": "Q13(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.6"
+   ],
+   "question": "The polynomial $f(x)=x^3+(a+2)x^2-2x+b$, where $a$ and $b$ are non-zero integers, has $(x-2)$ and $(x+a)$ as factors, with $a>0$. Given $4a+b=-12$ and $2a^2+2a+b=0$, evaluate $a$ and $b$.",
+   "answer": "$b=-4a-12$, so $2a^2-2a-12=0$, $(a-3)(a+2)=0$. Since $a>0$, $a=3$ and $b=-24$."
+  },
+  {
+   "ref": "Q13(b)(iv)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.7",
+    "12.5.1.3"
+   ],
+   "question": "Fully factorise $f(x)=x^3+5x^2-2x-24$, given that $(x-2)$ is a factor, and graph $y=f(x)$ showing all intercepts. (Turning points are not required.)",
+   "answer": "$f(x)=(x-2)(x^2+7x+12)=(x-2)(x+3)(x+4)$. $x$-intercepts $-4,-3,2$; $y$-intercept $-24$.",
+   "answer_images": [
+    "assets/img/ext1-2024-baulkham-hills/q13biv.png"
+   ]
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.3"
+   ],
+   "question": "Consider the differential equation $y''-2y'-3y=0$. For a constant $k$, show that if $y=e^{kx}$ is a solution then $k^2-2k-3=0$.",
+   "answer": "$y'=ke^{kx}$, $y''=k^2e^{kx}$, so $e^{kx}(k^2-2k-3)=0$. Since $e^{kx}\\ne0$, $k^2-2k-3=0$."
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.4.3"
+   ],
+   "question": "Consider the differential equation $y''-2y'-3y=0$. If $y=e^{kx}$ is a solution then $k^2-2k-3=0$. Hence find the solutions of the form $y=e^{kx}$.",
+   "answer": "$(k-3)(k+1)=0$, so $k=3$ or $-1$: $y=e^{3x}$ and $y=e^{-x}$."
+  },
+  {
+   "ref": "Q13(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.3"
+   ],
+   "question": "Consider the differential equation $y''-2y'-3y=0$. Suppose $k_1$ and $k_2$ are the values of $k$ for which $y=e^{kx}$ is a solution. Show that $y=Ae^{k_1x}+Be^{k_2x}$, where $A$ and $B$ are constants, is also a solution.",
+   "answer": "$$y''-2y'-3y=Ae^{k_1x}(k_1^2-2k_1-3)+Be^{k_2x}(k_2^2-2k_2-3)=0$$ since $k_1,k_2$ satisfy $k^2-2k-3=0$."
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.5"
+   ],
+   "question": "Given two non-zero vectors $\\mathbf p$ and $\\mathbf q$, show that $\\dfrac{|\\mathbf p+\\mathbf q|^2+|\\mathbf p-\\mathbf q|^2}{|\\mathbf p|^2+|\\mathbf q|^2}=2$.",
+   "answer": "$|\\mathbf p\\pm\\mathbf q|^2=(\\mathbf p\\pm\\mathbf q)\\cdot(\\mathbf p\\pm\\mathbf q)=|\\mathbf p|^2\\pm2\\mathbf p\\cdot\\mathbf q+|\\mathbf q|^2$. Adding gives $2(|\\mathbf p|^2+|\\mathbf q|^2)$, so the ratio is $2$."
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Use the substitution $u=9-\\sqrt h$ to show that $\\displaystyle\\int\\frac{dh}{9-\\sqrt h}=-18\\ln|9-\\sqrt h|-2\\sqrt h+c$.",
+   "answer": "$h=(9-u)^2$, $dh=-2(9-u)\\,du$. $$\\int\\frac{-2(9-u)}{u}du=2u-18\\ln|u|+c_1=-18\\ln|9-\\sqrt h|-2\\sqrt h+c,\\quad c=c_1+18$$"
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.16"
+   ],
+   "question": "The height $h$ metres of a species of tree, $t$ years after planting, is modelled by $\\dfrac{dh}{dt}=\\dfrac{t^{0.5}\\left(9-\\sqrt h\\right)}{18}$. According to the model, what is the range of heights of trees of this species?",
+   "answer": "The trees are growing, so $\\dfrac{dh}{dt}>0$, which requires $\\sqrt h<9$. Hence $0\\le h<81$."
+  },
+  {
+   "ref": "Q14(b)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "The height $h$ metres of a species of tree, $t$ years after planting, is modelled by $\\dfrac{dh}{dt}=\\dfrac{t^{0.5}\\left(9-\\sqrt h\\right)}{18}$. One of these trees is 1 metre high when planted. Using $\\displaystyle\\int\\frac{dh}{9-\\sqrt h}=-18\\ln|9-\\sqrt h|-2\\sqrt h+c$, calculate the time it takes to reach 16 metres, correct to 3 significant figures.",
+   "answer": "$$\\Big[-18\\ln|9-\\sqrt h|-2\\sqrt h\\Big]_1^{16}=\\frac1{18}\\int_0^t\\tau^{0.5}d\\tau=\\frac{t^{1.5}}{27}$$ $$t^{1.5}=27\\left(18\\ln\\tfrac85-6\\right),\\qquad t\\approx16.4\\text{ years}$$"
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.2.6"
+   ],
+   "question": "Each rose bush of a particular variety grows roses of one colour, red or pink, with a 15% chance of pink. Ten bushes are bought. Find the probability that exactly 3 of them grow pink roses.",
+   "answer": "$P(X=3)={}^{10}C_3(0.15)^3(0.85)^7\\approx0.130$"
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.9"
+   ],
+   "question": "Each rose bush of a particular variety grows roses of one colour, red or pink, with a 15% chance of pink. Calculate the least number of bushes that must be bought so that the probability of at least one growing pink roses exceeds 0.95.",
+   "answer": "$1-0.85^n>0.95\\Rightarrow0.85^n<0.05\\Rightarrow n>\\dfrac{\\ln0.05}{\\ln0.85}\\approx18.4$. At least 19 bushes."
+  }
+ ]
+}
