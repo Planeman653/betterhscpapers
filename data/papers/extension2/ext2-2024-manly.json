@@ -1,0 +1,631 @@
+{
+ "id": "ext2-2024-manly",
+ "course": "extension2",
+ "school": "Manly",
+ "year": 2024,
+ "type": "Trial",
+ "thsc": {
+  "viewno": 5348,
+  "title": "Manly 2024 w. sol"
+ },
+ "indexed": "2026-11-27",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.6",
+    "12.1.2.2"
+   ],
+   "question": "Consider the two statements:\n$$P:\\ \\forall x\\in\\mathbb R,\\ \\exists y\\in\\mathbb R,\\ y^3=x\\qquad Q:\\ \\exists y\\in\\mathbb R,\\ \\forall x\\in\\mathbb R,\\ y^3=x$$\nWhich statement best represents the truth of each of $P$ and $Q$?",
+   "answer": "$P$ is true ($y=\\sqrt[3]{x}$). $Q$ claims a single $y$ whose cube equals every real $x$, which is false.",
+   "options": [
+    "$P$ is true and $Q$ is true.",
+    "$P$ is true and $Q$ is false.",
+    "$P$ is false and $Q$ is true.",
+    "$P$ is false and $Q$ is false."
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "Let $\\underset{\\sim}{a}=\\begin{pmatrix}1\\\\2\\\\3\\end{pmatrix}$ and $\\underset{\\sim}{b}=\\begin{pmatrix}3\\\\-1\\\\2\\end{pmatrix}$. What is the value of $\\underset{\\sim}{a}\\cdot(\\underset{\\sim}{a}-3\\underset{\\sim}{b})$?",
+   "answer": "$\\underset{\\sim}{a}\\cdot\\underset{\\sim}{a}-3\\,\\underset{\\sim}{a}\\cdot\\underset{\\sim}{b}=14-3(7)=-7$.",
+   "options": [
+    "$-7$",
+    "$0$",
+    "$3$",
+    "$6$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.8",
+    "12.3.4.3"
+   ],
+   "question": "Let $z=a+ib$, where $0<a<b$. Which of the following must be true of $z^4$?",
+   "answer": "$\\frac{\\pi}{4}<\\arg z<\\frac{\\pi}{2}$, so $\\pi<\\arg z^4<2\\pi$ and $\\text{Im}(z^4)<0$.",
+   "options": [
+    "$\\text{Re}(z^4)<0$",
+    "$\\text{Re}(z^4)>0$",
+    "$\\text{Im}(z^4)<0$",
+    "$\\text{Im}(z^4)>0$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.8",
+    "12.5.2.4"
+   ],
+   "question": "The velocity $v$ m/s of an object moving in simple harmonic motion is given by $v^2=40+32x-4x^2$, where $x$ is its displacement. What is the period of the motion?",
+   "answer": "$v^2=4\\left[26-(x-4)^2\\right]$, so $n=2$ and the period is $\\pi$.",
+   "options": [
+    "$\\dfrac{\\pi}{4}$",
+    "$\\dfrac{\\pi}{2}$",
+    "$\\pi$",
+    "$2\\pi$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.9"
+   ],
+   "question": "For how many integer values of $n$ is $n^4+(n+i)^4$ an integer?",
+   "answer": "The imaginary part is $4n^3-4n=0$, so $n=0,\\pm1$.",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.11",
+    "12.1.1.8"
+   ],
+   "question": "$f(x)$ and $g(x)$ are functions with domain $(-\\infty,\\infty)$. Consider the statement: \"If $f(x)$ and $g(x)$ are both odd, then $f(g(x))$ is odd.\" Which of the following is correct?",
+   "answer": "$f(g(-x))=f(-g(x))=-f(g(x))$, so the statement and hence its contrapositive are true. The converse is false: $f(x)=x-1$ and $g(x)=x+1$ are not odd, yet $f(g(x))=x$ is.",
+   "options": [
+    "The contrapositive is false and the converse is false.",
+    "The contrapositive is true and the converse is true.",
+    "The contrapositive is false and the converse is true.",
+    "The contrapositive is true and the converse is false."
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.18",
+    "12.2.1.17"
+   ],
+   "question": "Two spheres are given by $|\\underset{\\sim}{r_1}|=6$ and $\\left|\\underset{\\sim}{r_2}-\\begin{pmatrix}4\\\\0\\\\0\\end{pmatrix}\\right|=3$. What is the centre of their circle of intersection?",
+   "answer": "Subtract $x^2+y^2+z^2=36$ from $(x-4)^2+y^2+z^2=9$: $-8x+16=-27$, so $x=\\frac{43}{8}$.",
+   "options": [
+    "$(2,0,0)$",
+    "$\\left(\\dfrac{25}{8},0,0\\right)$",
+    "$\\left(\\dfrac{33}{8},0,0\\right)$",
+    "$\\left(\\dfrac{43}{8},0,0\\right)$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.12",
+    "12.3.4.3"
+   ],
+   "question": "A complex number $\\omega$ satisfies $\\omega^2+\\dfrac{1}{1+\\omega^2}=\\omega$. Which of the following is correct?",
+   "answer": "Clearing the fraction gives $\\omega^4-\\omega^3+\\omega^2-\\omega+1=0$, so $\\omega^5=-1$. Then $\\omega^{2024}=\\omega^4(\\omega^5)^{404}=\\omega^4$.",
+   "options": [
+    "$\\omega^{2024}=\\omega$",
+    "$\\omega^{2024}=\\omega^2$",
+    "$\\omega^{2024}=\\omega^3$",
+    "$\\omega^{2024}=\\omega^4$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.11"
+   ],
+   "question": "Consider the complex numbers $z=\\cos^2\\theta+i\\sin^2\\theta$, where $0\\le\\theta\\le\\dfrac{\\pi}{2}$. What is the range of possible values of $|z|$?",
+   "answer": "$|z|^2=\\cos^4\\theta+\\sin^4\\theta=1-\\frac12\\sin^22\\theta$, which lies in $\\left[\\frac12,1\\right]$.",
+   "options": [
+    "$0\\le|z|\\le1$",
+    "$\\dfrac{1}{\\sqrt2}\\le|z|\\le1$",
+    "$\\dfrac12\\le|z|\\le1$",
+    "$\\dfrac14\\le|z|\\le1$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.15"
+   ],
+   "question": "Which of the following integrals is greater than zero?",
+   "answer": "A and B have odd integrands (integral 0). The integrand in D is never positive. $\\tan^{-1}(x^2)\\ge0$.",
+   "options": [
+    "$\\displaystyle\\int_{-1}^1\\frac{x^3}{1+x^2}dx$",
+    "$\\displaystyle\\int_{-1}^1x\\sec x\\,dx$",
+    "$\\displaystyle\\int_{-1}^1\\tan^{-1}(x^2)\\,dx$",
+    "$\\displaystyle\\int_{-1}^1(e^{-x^2}-1)\\,dx$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "The position vectors of $A$ and $B$ are $\\overrightarrow{OA}=2\\underset{\\sim}{i}+4\\underset{\\sim}{j}-3\\underset{\\sim}{k}$ and $\\overrightarrow{OB}=-\\underset{\\sim}{i}+\\underset{\\sim}{j}+2\\underset{\\sim}{k}$. Determine the exact distance between $A$ and $B$.",
+   "answer": "$\\overrightarrow{AB}=(-3,-3,5)$, so $|\\overrightarrow{AB}|=\\sqrt{43}$."
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "The position vectors of $A$ and $B$ are $\\overrightarrow{OA}=2\\underset{\\sim}{i}+4\\underset{\\sim}{j}-3\\underset{\\sim}{k}$ and $\\overrightarrow{OB}=-\\underset{\\sim}{i}+\\underset{\\sim}{j}+2\\underset{\\sim}{k}$. Show that there is no real value of $m$ such that $\\overrightarrow{OC}=m\\underset{\\sim}{i}+2\\underset{\\sim}{j}-m^2\\underset{\\sim}{k}$ is perpendicular to $\\overrightarrow{OA}$.",
+   "answer": "$\\overrightarrow{OA}\\cdot\\overrightarrow{OC}=2m+8+3m^2=0$. The discriminant is $4-96=-92<0$, so there is no real $m$."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.13",
+    "12.3.1.11"
+   ],
+   "question": "Given $z_1=3-i$ and $z_2=1-2i$, determine the possible values of the real constant $k$ if $\\left|\\dfrac{z_1}{z_2}+k\\right|=\\sqrt{k+2}$.",
+   "answer": "$\\dfrac{z_1}{z_2}=\\dfrac{(3-i)(1+2i)}{5}=1+i$. Then $(1+k)^2+1=k+2$, so $k^2+k=0$ and $k=0$ or $k=-1$."
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.1"
+   ],
+   "question": "Determine the complex solutions of $z^2-(1-2i)z=7+i$.",
+   "answer": "$z=\\dfrac{(1-2i)\\pm\\sqrt{(1-2i)^2+4(7+i)}}{2}=\\dfrac{(1-2i)\\pm\\sqrt{25}}{2}$, so $z=3-i$ or $z=-2-i$."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "Consider $P(z)=z^4-2z^3+az^2+bz+50$, where $a,b\\in\\mathbb R$ and $P(2-i)=0$. Fully factorise $P(z)$ so that all factors have real coefficients.",
+   "answer": "$2+i$ is also a zero, so $z^2-4z+5$ is a factor. Write $P(z)=(z^2-4z+5)(z^2+mz+n)$.\n\nConstant: $5n=50$, so $n=10$. $z^3$: $m-4=-2$, so $m=2$.\n\n$$P(z)=(z^2-4z+5)(z^2+2z+10).$$"
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.5",
+    "12.4.1.6"
+   ],
+   "question": "Evaluate, in simplest exact form, $\\displaystyle\\int_{\\pi/3}^{\\pi/2}\\frac{1}{5+3\\sin x-4\\cos x}\\,dx$.",
+   "answer": "Let $t=\\tan\\frac x2$, $dx=\\dfrac{2\\,dt}{1+t^2}$, with limits $\\frac{1}{\\sqrt3}$ to $1$. Then $5+3\\sin x-4\\cos x=\\dfrac{(3t+1)^2}{1+t^2}$.\n$$I=\\int_{1/\\sqrt3}^1\\frac{2\\,dt}{(3t+1)^2}=\\left[\\frac{-2}{3(3t+1)}\\right]_{1/\\sqrt3}^1=\\frac{\\sqrt3}{3}-\\frac12.$$"
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.7"
+   ],
+   "question": "Find the fourth roots of $z=2+2\\sqrt3\\,i$.",
+   "answer": "$z=4\\,\\text{cis}\\frac{\\pi}{3}$, so $w=\\sqrt2\\,\\text{cis}\\left(\\dfrac{\\pi}{12}+\\dfrac{k\\pi}{2}\\right)$:\n$$\\sqrt2\\,\\text{cis}\\frac{\\pi}{12},\\ \\sqrt2\\,\\text{cis}\\frac{7\\pi}{12},\\ \\sqrt2\\,\\text{cis}\\left(-\\frac{11\\pi}{12}\\right),\\ \\sqrt2\\,\\text{cis}\\left(-\\frac{5\\pi}{12}\\right).$$"
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Find $A$, $B$ and $C$ such that $\\dfrac{3}{(x+1)(x^2+5)}\\equiv\\dfrac{A}{x+1}+\\dfrac{Bx+C}{x^2+5}$.",
+   "answer": "$3=A(x^2+5)+(Bx+C)(x+1)$. At $x=-1$: $A=\\frac12$. Coefficient of $x^2$: $B=-\\frac12$. Coefficient of $x$: $C=\\frac12$."
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.8"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{3}{(x+1)(x^2+5)}\\,dx$.",
+   "answer": "$\\dfrac{3}{(x+1)(x^2+5)}=\\dfrac12\\left(\\dfrac{1}{x+1}+\\dfrac{1-x}{x^2+5}\\right)$, so\n$$I=\\frac12\\ln|x+1|+\\frac{1}{2\\sqrt5}\\tan^{-1}\\frac{x}{\\sqrt5}-\\frac14\\ln(x^2+5)+C.$$"
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "The vectors $\\underset{\\sim}{u}$ and $\\underset{\\sim}{v}$ satisfy $\\underset{\\sim}{u}+\\underset{\\sim}{v}=17\\underset{\\sim}{i}-\\underset{\\sim}{j}+2\\underset{\\sim}{k}$ and $\\underset{\\sim}{u}-\\underset{\\sim}{v}=\\underset{\\sim}{i}+9\\underset{\\sim}{j}-4\\underset{\\sim}{k}$. Find the acute angle between $\\underset{\\sim}{u}$ and $\\underset{\\sim}{v}$.",
+   "answer": "Adding and subtracting: $\\underset{\\sim}{u}=(9,4,-1)$, $\\underset{\\sim}{v}=(8,-5,3)$.\n\n$\\cos\\theta=\\dfrac{49}{\\sqrt{98}\\sqrt{98}}=\\dfrac12$, so $\\theta=\\dfrac{\\pi}{3}$."
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.2.3"
+   ],
+   "question": "Prove by contradiction that there are no integers $a$ and $b$ such that $a^2=4b-2$.",
+   "answer": "Suppose integers $a,b$ satisfy $a^2=4b-2=2(2b-1)$. Then $a^2$ is even, so $a$ is even: $a=2k$.\n\n$4k^2=4b-2\\Rightarrow 2k^2=2b-1$. The LHS is even and the RHS is odd, a contradiction. So no such integers exist."
+  },
+  {
+   "ref": "Q12(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.1.12",
+    "12.1.2.3"
+   ],
+   "question": "Let $a,b,c$ be positive integers. Prove by contraposition: \"If $a^3+b^3+c^3$ is divisible by 9, then at least one of $a,b,c$ is divisible by 3.\"",
+   "answer": "Contrapositive: if none of $a,b,c$ is divisible by 3, then $a^3+b^3+c^3$ is not divisible by 9.\n\nIf $3\\nmid n$ then $n=3k\\pm1$ and $n^3=27k^3\\pm27k^2+9k\\pm1=9m\\pm1$.\n\nSo $a^3+b^3+c^3=9M+(\\pm1\\pm1\\pm1)$, where the bracket is $\\pm1$ or $\\pm3$. None of these is a multiple of 9, so the sum is not divisible by 9. Hence the statement is true."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.1"
+   ],
+   "question": "Prove by mathematical induction that $7^n+13^n+19^n$ is divisible by 13 for all positive odd integers $n$.",
+   "answer": "$n=1$: $7+13+19=39=13\\times3$.\n\nAssume $7^k+13^k+19^k=13M$ for some odd $k$. For $n=k+2$:\n$$7^{k+2}+13^{k+2}+19^{k+2}=49\\cdot7^k+169\\cdot13^k+361\\cdot19^k$$\n$$=49(13M-13^k-19^k)+169\\cdot13^k+361\\cdot19^k$$\n$$=13\\cdot49M+120\\cdot13^k+312\\cdot19^k.$$\nSince $13\\mid13^k$ and $312=13\\times24$, this is divisible by 13. By induction the result holds for all positive odd $n$."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Find $\\displaystyle\\int_1^9\\frac{1}{\\sqrt x\\,(1+\\sqrt x)}\\,dx$.",
+   "answer": "Let $x=u^2$, $dx=2u\\,du$. $\\displaystyle I=\\int_1^3\\frac{2}{1+u}du=2\\left[\\ln(1+u)\\right]_1^3=2\\ln2$."
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.10"
+   ],
+   "question": "Prove that if $z=\\overline z$ then $z$ is real.",
+   "answer": "Let $z=x+iy$. $z=\\overline z\\Rightarrow x+iy=x-iy\\Rightarrow y=0$, so $z$ is real."
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.9",
+    "12.3.1.10"
+   ],
+   "question": "The complex numbers $z$ and $w$ satisfy $|z|=|w|=1$, with $zw\\ne-1$. Prove that $\\dfrac{z+w}{1+zw}$ is real.",
+   "answer": "$|z|=1\\Rightarrow\\overline z=\\dfrac1z$, and similarly $\\overline w=\\dfrac1w$. So\n$$\\overline{\\left(\\frac{z+w}{1+zw}\\right)}=\\frac{\\overline z+\\overline w}{1+\\overline z\\,\\overline w}=\\frac{\\frac1z+\\frac1w}{1+\\frac{1}{zw}}=\\frac{w+z}{zw+1}.$$\nThe number equals its conjugate, so it is real."
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.5.5",
+    "12.3.5.4"
+   ],
+   "question": "Sketch on an Argand diagram the region $\\mathcal R$ satisfying both $|z-i|<|z-2+i|$ and $\\dfrac{\\pi}{4}\\le\\arg(iz+1)\\le\\dfrac{\\pi}{2}$.",
+   "answer": "$|z-i|<|z-(2-i)|$: points closer to $(0,1)$ than to $(2,-1)$, i.e. $y>x-1$.\n\n$iz+1=i(z-i)$, so $\\arg(iz+1)=\\frac{\\pi}{2}+\\arg(z-i)$, giving $-\\dfrac{\\pi}{4}\\le\\arg(z-i)\\le0$.\n\n$\\mathcal R$ is the triangle with vertices $i$, $1$ and $2+i$. The sides on $y=1$ and $y=1-x$ are included, the side on $y=x-1$ is excluded, and all three vertices are excluded.",
+   "answer_images": [
+    "assets/img/ext2-2024-manly/a13d.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.11",
+    "12.2.1.10"
+   ],
+   "question": "Consider the lines $l_1:\\ x=y=z$ and $l_2:\\ \\underset{\\sim}{r}=\\begin{pmatrix}0\\\\3\\\\2\\end{pmatrix}+t\\begin{pmatrix}1\\\\-2\\\\1\\end{pmatrix}$. Show that $l_1$ and $l_2$ are non-parallel, non-intersecting lines.",
+   "answer": "$l_1$ has direction $(1,1,1)$, which is not a multiple of $(1,-2,1)$, so they are not parallel.\n\nFor an intersection: $s=t$, $s=3-2t$, $s=2+t$. The first and third give $0=2$, a contradiction. So they do not intersect."
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "Consider the lines $l_1:\\ x=y=z$ and $l_2:\\ \\underset{\\sim}{r}=\\begin{pmatrix}0\\\\3\\\\2\\end{pmatrix}+t\\begin{pmatrix}1\\\\-2\\\\1\\end{pmatrix}$. Determine the angle between $l_1$ and $l_2$.",
+   "answer": "$(1,1,1)\\cdot(1,-2,1)=0$, so the angle is $\\dfrac{\\pi}{2}$."
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.5"
+   ],
+   "question": "A particle moves in a straight line with displacement $x=1+\\sqrt2\\cos2t+\\sqrt2\\sin2t$. Show that the motion is simple harmonic and state the centre and period.",
+   "answer": "$\\ddot x=-4\\sqrt2\\cos2t-4\\sqrt2\\sin2t=-4(x-1)$. This is SHM with centre $x=1$, $n=2$ and period $\\pi$."
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.4"
+   ],
+   "question": "A particle moves in a straight line with displacement $x=1+\\sqrt2\\cos2t+\\sqrt2\\sin2t$. Find the amplitude of the motion.",
+   "answer": "$x=1+2\\cos\\left(2t-\\dfrac{\\pi}{4}\\right)$, so the amplitude is 2."
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.6"
+   ],
+   "question": "Prove that for every positive real number $x$, there is a real number $y$ such that $y(y+1)=x$.",
+   "answer": "Solving $y^2+y-x=0$ gives $y=\\dfrac{-1\\pm\\sqrt{1+4x}}{2}$. Since $x>0$, $1+4x>0$, so $y$ is real. For example $y=\\dfrac{-1+\\sqrt{1+4x}}{2}$ works."
+  },
+  {
+   "ref": "Q14(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.19"
+   ],
+   "question": "A particle's movement is given by $\\underset{\\sim}{r}(t)=\\begin{pmatrix}t+t^{-1}\\\\t^3+t^{-3}\\end{pmatrix}$, $t\\in\\mathbb R^+$. Find the Cartesian equation of the path.",
+   "answer": "$x^3=\\left(t+\\frac1t\\right)^3=t^3+\\frac{1}{t^3}+3\\left(t+\\frac1t\\right)=y+3x$, so $y=x^3-3x$, with $x\\ge2$ (since $t+\\frac1t\\ge2$)."
+  },
+  {
+   "ref": "Q14(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.19"
+   ],
+   "question": "A particle's movement is given by $\\underset{\\sim}{r}(t)=\\begin{pmatrix}t+t^{-1}\\\\t^3+t^{-3}\\end{pmatrix}$, $t\\in\\mathbb R^+$. Sketch the graph of the path.",
+   "answer": "The path is the part of $y=x^3-3x$ with $x\\ge2$, starting at the closed point $(2,2)$ and increasing.",
+   "answer_images": [
+    "assets/img/ext2-2024-manly/a14d.png"
+   ]
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_1^{\\sqrt3}\\frac{1}{x^2\\sqrt{1+x^2}}\\,dx$ in simplest exact form with a rational denominator.",
+   "answer": "Let $x=\\tan\\theta$, limits $\\frac{\\pi}{4}$ to $\\frac{\\pi}{3}$:\n$$I=\\int_{\\pi/4}^{\\pi/3}\\frac{\\sec\\theta}{\\tan^2\\theta}d\\theta=\\int_{\\pi/4}^{\\pi/3}\\frac{\\cos\\theta}{\\sin^2\\theta}d\\theta=\\left[-\\frac{1}{\\sin\\theta}\\right]_{\\pi/4}^{\\pi/3}=\\sqrt2-\\frac{2}{\\sqrt3}=\\frac{3\\sqrt2-2\\sqrt3}{3}.$$"
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.15"
+   ],
+   "question": "Let $\\displaystyle I_n=\\int_0^1x^{2n}\\sqrt{1-x^2}\\,dx$, $n=0,1,2,\\dots$ State the value of $I_0$.",
+   "answer": "$I_0$ is the area of a quarter of the unit circle, $\\dfrac{\\pi}{4}$."
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $\\displaystyle I_n=\\int_0^1x^{2n}\\sqrt{1-x^2}\\,dx$, $n=0,1,2,\\dots$ Use integration by parts to show that $I_n=\\left(\\dfrac{2n-1}{2n+2}\\right)I_{n-1}$ for $n\\ge1$.",
+   "answer": "Take $u=x^{2n-1}$ and $dv=x\\sqrt{1-x^2}\\,dx$, so $v=-\\frac13(1-x^2)^{3/2}$. The boundary term vanishes:\n$$I_n=\\frac{2n-1}{3}\\int_0^1x^{2n-2}(1-x^2)\\sqrt{1-x^2}\\,dx=\\frac{2n-1}{3}(I_{n-1}-I_n).$$\nSo $(2n+2)I_n=(2n-1)I_{n-1}$."
+  },
+  {
+   "ref": "Q15(b)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $\\displaystyle I_n=\\int_0^1x^{2n}\\sqrt{1-x^2}\\,dx$, $n=0,1,2,\\dots$ Given $I_0=\\dfrac{\\pi}{4}$ and $I_n=\\left(\\dfrac{2n-1}{2n+2}\\right)I_{n-1}$, calculate $\\displaystyle\\int_0^1x^6\\sqrt{1-x^2}\\,dx$.",
+   "answer": "$I_3=\\dfrac58I_2=\\dfrac58\\cdot\\dfrac36I_1=\\dfrac58\\cdot\\dfrac36\\cdot\\dfrac14\\cdot\\dfrac{\\pi}{4}=\\dfrac{5\\pi}{256}$."
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "The acceleration of a particle moving in a straight line is $\\ddot x=2x-5$ m s$^{-2}$, where $x$ is its displacement. It is initially at rest at $x=6$. Find an expression for $v^2$, where $v$ is its velocity.",
+   "answer": "$\\dfrac{d}{dx}\\left(\\frac12v^2\\right)=2x-5\\Rightarrow\\frac12v^2=x^2-5x+C$. At $x=6$, $v=0$, so $C=-6$ and $v^2=2x^2-10x-12$."
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "The acceleration of a particle moving in a straight line is $\\ddot x=2x-5$ m s$^{-2}$, where $x$ is its displacement. It is initially at rest at $x=6$. You are given $v^2=2x^2-10x-12$. Does the particle return to a rest position? Justify your answer.",
+   "answer": "No. $v^2=2(x-6)(x+1)$, so rest is only possible at $x=6$ or $x=-1$. At $x=6$, $\\ddot x=7>0$, so it moves right. For $x\\ge6$, $\\ddot x>0$, so it keeps speeding up and never returns."
+  },
+  {
+   "ref": "Q16(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "The diagram shows the region bounded by $y=\\dfrac{1}{\\sqrt{1-x^2}}$, the coordinate axes and the line $x=\\dfrac12$. Find the area of the region.",
+   "answer": "$A=\\displaystyle\\int_0^{1/2}\\frac{dx}{\\sqrt{1-x^2}}=\\sin^{-1}\\frac12=\\frac{\\pi}{6}$.",
+   "images": [
+    "assets/img/ext2-2024-manly/q16a.png"
+   ]
+  },
+  {
+   "ref": "Q16(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "Show that for $n\\ge2$, $\\displaystyle\\frac12\\le\\int_0^{1/2}\\frac{dx}{\\sqrt{1-x^n}}\\le\\frac{\\pi}{6}$.",
+   "answer": "For $0\\le x\\le\\frac12$ and $n\\ge2$: $0\\le x^n\\le x^2$, so $\\sqrt{1-x^2}\\le\\sqrt{1-x^n}\\le1$ and hence\n$$1\\le\\frac{1}{\\sqrt{1-x^n}}\\le\\frac{1}{\\sqrt{1-x^2}}.$$\nIntegrating from 0 to $\\frac12$:\n$$\\frac12\\le\\int_0^{1/2}\\frac{dx}{\\sqrt{1-x^n}}\\le\\sin^{-1}\\frac12=\\frac{\\pi}{6}.$$"
+  },
+  {
+   "ref": "Q16(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.10",
+    "12.2.1.12"
+   ],
+   "question": "The graph shown is obtained by rotating $y=\\sin x$ anticlockwise about the origin by $45^\\circ$. Show that it can be represented by the parametric equations $x=\\dfrac{t-\\sin t}{\\sqrt2}$, $y=\\dfrac{t+\\sin t}{\\sqrt2}$.",
+   "answer": "A point $(t,\\sin t)$ is represented by $t+i\\sin t$. Rotating:\n$$\\text{cis}\\frac{\\pi}{4}\\,(t+i\\sin t)=\\frac{(1+i)(t+i\\sin t)}{\\sqrt2}=\\frac{t-\\sin t}{\\sqrt2}+i\\,\\frac{t+\\sin t}{\\sqrt2}.$$\nReading off real and imaginary parts gives the equations.",
+   "images": [
+    "assets/img/ext2-2024-manly/q16b.png"
+   ]
+  },
+  {
+   "ref": "Q16(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.3.5"
+   ],
+   "question": "Prove that for all $a,b>0$, $\\dfrac{a+b}{2}\\ge\\sqrt{ab}$.",
+   "answer": "$(\\sqrt a-\\sqrt b)^2\\ge0\\Rightarrow a-2\\sqrt{ab}+b\\ge0\\Rightarrow\\dfrac{a+b}{2}\\ge\\sqrt{ab}$."
+  },
+  {
+   "ref": "Q16(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "Prove that if $x>1$ then $\\dfrac{x}{\\sqrt{x-1}}\\ge2$.",
+   "answer": "$\\left(\\sqrt{x-1}-1\\right)^2\\ge0\\Rightarrow x-2\\sqrt{x-1}\\ge0\\Rightarrow\\dfrac{x}{\\sqrt{x-1}}\\ge2$, since $\\sqrt{x-1}>0$."
+  },
+  {
+   "ref": "Q16(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.1.3.5"
+   ],
+   "question": "Using $\\dfrac{x}{\\sqrt{x-1}}\\ge2$ for $x>1$, or otherwise, prove that for $a,b>1$, $\\dfrac{a^2}{b-1}+\\dfrac{b^2}{a-1}\\ge8$.",
+   "answer": "By AM–GM,\n$$\\frac{a^2}{b-1}+\\frac{b^2}{a-1}\\ge2\\sqrt{\\frac{a^2b^2}{(b-1)(a-1)}}=2\\cdot\\frac{a}{\\sqrt{a-1}}\\cdot\\frac{b}{\\sqrt{b-1}}\\ge2\\cdot2\\cdot2=8.$$"
+  },
+  {
+   "ref": "Q16(d)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.4.3",
+    "12.4.1.14"
+   ],
+   "question": "Prove by mathematical induction that $\\displaystyle\\int_0^{\\pi/2}\\sin^{2n}x\\,dx=\\frac{2\\pi(2n)!}{4^{n+1}(n!)^2}$ for all integers $n\\ge1$.",
+   "answer": "Let $I_n$ be the integral.\n\n$n=1$: $I_1=\\frac12\\int_0^{\\pi/2}(1-\\cos2x)\\,dx=\\frac{\\pi}{4}$, and the RHS is $\\dfrac{4\\pi}{16}=\\dfrac{\\pi}{4}$.\n\nAssume true for $n=k$. Now $I_{k+1}=\\int\\sin^{2k}x(1-\\cos^2x)\\,dx=I_k-\\int\\cos x\\,(\\sin^{2k}x\\cos x)\\,dx$. By parts the last integral is\n$$\\left[\\frac{\\sin^{2k+1}x\\cos x}{2k+1}\\right]_0^{\\pi/2}+\\frac{I_{k+1}}{2k+1}=\\frac{I_{k+1}}{2k+1}.$$\nSo $I_{k+1}=\\dfrac{2k+1}{2k+2}I_k$. Using the assumption,\n$$I_{k+1}=\\frac{(2k+2)(2k+1)}{(2k+2)^2}\\cdot\\frac{2\\pi(2k)!}{4^{k+1}(k!)^2}=\\frac{2\\pi(2k+2)!}{4^{k+2}\\left((k+1)!\\right)^2}.$$\nBy induction it is true for all $n\\ge1$."
+  }
+ ]
+}
