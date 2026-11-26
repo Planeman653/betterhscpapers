@@ -1,0 +1,539 @@
+{
+ "id": "ext1-2025-sydney-girls",
+ "course": "extension1",
+ "school": "Sydney Girls",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": 5338,
+  "title": "Sydney Girls 2025 w. sol"
+ },
+ "indexed": "2026-11-26",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "13(e)(i)",
+   "reason": "Pigeonhole principle (not in the current syllabus)"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.7"
+   ],
+   "question": "Find the length of the vector $\\begin{pmatrix}-7\\\\8\\end{pmatrix}$.",
+   "answer": "$\\sqrt{(-7)^2+8^2}=\\sqrt{113}$",
+   "options": [
+    "$13$",
+    "$\\sqrt{15}$",
+    "$\\sqrt{113}$",
+    "$\\sqrt{117}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.3.2"
+   ],
+   "question": "A circle with centre $(3,-4)$ passes through the origin. Which of the following gives the equation of the circle in parametric form?",
+   "answer": "The radius is $\\sqrt{3^2+4^2}=5$, so $x=3+5\\cos\\theta$, $y=-4+5\\sin\\theta$.",
+   "options": [
+    "$x=3-5\\cos\\theta,\\ y=4+5\\sin\\theta$",
+    "$x=3-5\\cos\\theta,\\ y=4-5\\sin\\theta$",
+    "$x=-3+5\\cos\\theta,\\ y=4+5\\sin\\theta$",
+    "$x=3+5\\cos\\theta,\\ y=-4+5\\sin\\theta$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "The vectors $\\underset{\\sim}{a}$ and $\\underset{\\sim}{b}$ satisfy $\\hat{\\underset{\\sim}{a}}\\cdot\\hat{\\underset{\\sim}{b}}=-\\dfrac12$. Which of the following is the angle between $\\underset{\\sim}{a}$ and $\\underset{\\sim}{b}$?",
+   "answer": "Unit vectors give $\\cos\\theta=-\\tfrac12$, so $\\theta=\\dfrac{2\\pi}{3}$.",
+   "options": [
+    "$\\dfrac{\\pi}{3}$",
+    "$\\dfrac{2\\pi}{3}$",
+    "$\\dfrac{5\\pi}{6}$",
+    "$\\dfrac{3\\pi}{4}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.9"
+   ],
+   "question": "Consider the slope field shown below. Which of the following differential equations could generate this slope field?",
+   "answer": "The field only exists below the line $y=x$, and the slopes are zero along $y=x-1$. Hence $y'=\\ln(x-y)$, which is defined for $x>y$ and zero when $x-y=1$.",
+   "images": [
+    "assets/img/ext1-2025-sydney-girls/q4.png"
+   ],
+   "options": [
+    "$y'=\\ln(x+y)$",
+    "$y'=\\ln(x-y)$",
+    "$y'=\\ln(y-x)$",
+    "$y'=\\ln(-y-x)$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.1.11"
+   ],
+   "question": "It is given that $mx^4+3x^3+1=0$ has a double root. Which of the following is a correct expression for this double root?",
+   "answer": "A double root satisfies $P'(x)=4mx^3+9x^2=x^2(4mx+9)=0$. Since $x=0$ is not a root of $P$, $x=-\\dfrac{9}{4m}$.",
+   "options": [
+    "$-\\dfrac{9m}{4}$",
+    "$\\dfrac{9m}{4}$",
+    "$-\\dfrac{9}{4m}$",
+    "$\\dfrac{9}{4m}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.1"
+   ],
+   "question": "Using a graphical approach, how many solutions are there to $\\ln|x|=\\dfrac{1}{\\ln x}$?",
+   "answer": "The right side requires $x>0$, where the equation is $(\\ln x)^2=1$. So $x=e$ or $x=\\tfrac1e$: the graphs meet twice.",
+   "options": [
+    "$0$",
+    "$1$",
+    "$2$",
+    "$3$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "Which of the following is a particular solution to $\\dfrac{dy}{dx}=-\\dfrac{y}{3y^2+x}$?",
+   "answer": "Differentiating $y^3+xy=1$ implicitly: $3y^2y'+y+xy'=0$, so $y'=-\\dfrac{y}{3y^2+x}$.",
+   "options": [
+    "$y^3-y=1$",
+    "$y^3+y=1$",
+    "$y^3-xy=1$",
+    "$y^3+xy=1$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.12"
+   ],
+   "question": "Which of the following is a correct expression for $\\arccos(1-2x)$?",
+   "answer": "$\\arccos(1-2x)=\\dfrac\\pi2-\\arcsin(1-2x)=\\dfrac\\pi2+\\arcsin(2x-1)$, since $\\arcsin$ is odd.",
+   "options": [
+    "$\\dfrac{\\pi}{2}-\\arccos(2x-1)$",
+    "$\\dfrac{\\pi}{2}+\\arccos(2x-1)$",
+    "$\\dfrac{\\pi}{2}-\\arcsin(2x-1)$",
+    "$\\dfrac{\\pi}{2}+\\arcsin(2x-1)$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.4.1.11"
+   ],
+   "question": "Flowers are made with exactly six petals. Each petal is coloured either white or grey. A flower with three white and three grey petals is shown below. Any two rotations of the same flower are considered to be identical. How many different flowers are possible?",
+   "answer": "Count by the number of white petals $0,1,\\dots,6$. The numbers of distinct circular patterns are $1,1,3,4,3,1,1$, a total of $14$.",
+   "images": [
+    "assets/img/ext1-2025-sydney-girls/q9.png"
+   ],
+   "options": [
+    "$12$",
+    "$14$",
+    "$16$",
+    "$18$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.1.2.12"
+   ],
+   "question": "The function $f(x+a)-b$ is odd, where $a$ and $b$ are positive. When the domain of $f(x)$ is restricted to $x\\ge 2a$, $f(x)$ becomes one-to-one. For $f(x)$ subject to this restriction, let $f^{-1}(x)$ be the inverse function. Which of the following is a correct expression for $f^{-1}\\big(2b-f(-1)\\big)$?",
+   "answer": "Let $g(x)=f(x+a)-b$. Since $g$ is odd, $g(a+1)=-g(-a-1)$, so $f(2a+1)-b=-\\big(f(-1)-b\\big)$, giving $f(2a+1)=2b-f(-1)$. As $2a+1\\ge 2a$, $f^{-1}\\big(2b-f(-1)\\big)=2a+1$.",
+   "options": [
+    "$a+1$",
+    "$a-1$",
+    "$2a+1$",
+    "$2a-1$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.2.5"
+   ],
+   "question": "Find the remainder when $x^4-3x^3+7$ is divided by $x+3$.",
+   "answer": "By the remainder theorem, $P(-3)=81+81+7=169$."
+  },
+  {
+   "ref": "11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^2\\frac{8}{4+x^2}\\,dx$.",
+   "answer": "$$\\int_0^2\\frac{8}{4+x^2}\\,dx=8\\left[\\frac12\\tan^{-1}\\frac x2\\right]_0^2=4\\left(\\frac\\pi4-0\\right)=\\pi$$"
+  },
+  {
+   "ref": "11(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "Find the coefficient of $x^6$ in the expansion of $(4+3x^2)^7$.",
+   "answer": "The general term is $\\dbinom7k4^{7-k}(3x^2)^k$. For $x^6$, $2k=6$ so $k=3$.\n\nCoefficient $=\\dbinom73\\times4^4\\times3^3=35\\times256\\times27=241\\,920$."
+  },
+  {
+   "ref": "11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "A block of ice is melting in such a way that it always remains in the shape of a $500$ mm tall cylinder. The radius of the cylinder decreases at a rate of $3$ mm/min. Find how fast the volume is decreasing when the radius is $30$ mm.",
+   "answer": "$V=500\\pi r^2$, so $\\dfrac{dV}{dr}=1000\\pi r$.\n\n$$\\frac{dV}{dt}=\\frac{dV}{dr}\\cdot\\frac{dr}{dt}=1000\\pi(30)(-3)=-90\\,000\\pi$$\n\nThe volume is decreasing at $90\\,000\\pi$ mm³/min."
+  },
+  {
+   "ref": "11(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.4"
+   ],
+   "question": "Determine whether $A$, $B$ and $C$ are collinear if $\\overrightarrow{OA}=-3\\underset{\\sim}{i}+15\\underset{\\sim}{j}$, $\\overrightarrow{OB}=5\\underset{\\sim}{i}-9\\underset{\\sim}{j}$ and $\\overrightarrow{OC}=\\underset{\\sim}{i}+3\\underset{\\sim}{j}$.",
+   "answer": "$\\overrightarrow{AB}=8\\underset{\\sim}{i}-24\\underset{\\sim}{j}$ and $\\overrightarrow{AC}=4\\underset{\\sim}{i}-12\\underset{\\sim}{j}$.\n\nSo $\\overrightarrow{AB}=2\\overrightarrow{AC}$: the vectors are parallel and share the point $A$, hence $A$, $B$ and $C$ are collinear.\n\n*Note: the school's solution reaches the right conclusion but writes the ratio inverted ($\\overrightarrow{AB}=\\tfrac12\\overrightarrow{AC}$); the correct relation is $\\overrightarrow{AB}=2\\overrightarrow{AC}$.*"
+  },
+  {
+   "ref": "11(f)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "course": "extension2",
+   "dotpoints": [
+    "12.4.1.5"
+   ],
+   "question": "If $t=\\tan\\dfrac x2$, show that $\\dfrac{1}{\\cot x+\\operatorname{cosec}x}=t$.",
+   "answer": "$\\cot x=\\dfrac{1-t^2}{2t}$ and $\\operatorname{cosec}x=\\dfrac{1+t^2}{2t}$, so\n\n$$\\cot x+\\operatorname{cosec}x=\\frac{(1-t^2)+(1+t^2)}{2t}=\\frac1t$$\n\nHence $\\dfrac{1}{\\cot x+\\operatorname{cosec}x}=t$."
+  },
+  {
+   "ref": "11(g)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "Find the general solution to the differential equation $\\dfrac{dy}{dx}=2x\\sec y$.",
+   "answer": "Separating variables: $\\displaystyle\\int\\cos y\\,dy=\\int 2x\\,dx$, so $\\sin y=x^2+C$."
+  },
+  {
+   "ref": "12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Find the equation of the tangent to the curve $y=\\arctan(\\cos x)$ at the point $\\left(\\dfrac\\pi2,0\\right)$.",
+   "answer": "$$y'=\\frac{-\\sin x}{1+\\cos^2x}$$\n\nAt $x=\\dfrac\\pi2$, $y'=-1$. The tangent is $y-0=-\\left(x-\\dfrac\\pi2\\right)$, so $y=\\dfrac\\pi2-x$.\n\n*Note: the paper gave the point as $\\left(\\tfrac\\pi2,\\tfrac\\pi4\\right)$, which is not on the curve ($\\arctan(\\cos\\tfrac\\pi2)=0$), so the school's answer $y=\\tfrac{3\\pi}{4}-x$ is not a tangent to it. The point has been corrected here.*"
+  },
+  {
+   "ref": "12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.3"
+   ],
+   "question": "Suppose that $y=Ae^{rx}$ is a solution to the differential equation $y''-6y'+8y=0$. Find the possible values of $A$ and $r$ if $y=e^3$ when $x=1$.",
+   "answer": "$y'=rAe^{rx}$ and $y''=r^2Ae^{rx}$, so $Ae^{rx}(r^2-6r+8)=0$.\n\nSince $y\\ne0$ at $x=1$, $(r-2)(r-4)=0$, so $r=2$ or $r=4$.\n\nFrom $Ae^{r}=e^3$: if $r=2$ then $A=e$; if $r=4$ then $A=e^{-1}$."
+  },
+  {
+   "ref": "12(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.12"
+   ],
+   "question": "Sketch the graph of $y=5\\cos^{-1}(2x)$, indicating the domain and range.",
+   "answer": "Domain: $-1\\le 2x\\le1$, so $-\\tfrac12\\le x\\le\\tfrac12$. Range: $0\\le y\\le5\\pi$.\n\nThe curve runs from $\\left(-\\tfrac12,5\\pi\\right)$ through $\\left(0,\\tfrac{5\\pi}{2}\\right)$ to $\\left(\\tfrac12,0\\right)$.",
+   "answer_images": [
+    "assets/img/ext1-2025-sydney-girls/ans12c.png"
+   ]
+  },
+  {
+   "ref": "12(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.9"
+   ],
+   "question": "Let $\\underset{\\sim}{a}=\\begin{pmatrix}k\\\\4\\end{pmatrix}$ and $\\underset{\\sim}{b}=\\begin{pmatrix}12\\\\-5\\end{pmatrix}$. Find $\\text{proj}_{\\underset{\\sim}{b}}\\,\\underset{\\sim}{a}$ in terms of $k$.",
+   "answer": "$$\\text{proj}_{\\underset{\\sim}{b}}\\,\\underset{\\sim}{a}=\\frac{\\underset{\\sim}{a}\\cdot\\underset{\\sim}{b}}{|\\underset{\\sim}{b}|^2}\\,\\underset{\\sim}{b}=\\frac{12k-20}{169}\\begin{pmatrix}12\\\\-5\\end{pmatrix}$$"
+  },
+  {
+   "ref": "12(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.9"
+   ],
+   "question": "Let $\\underset{\\sim}{a}=\\begin{pmatrix}k\\\\4\\end{pmatrix}$ and $\\underset{\\sim}{b}=\\begin{pmatrix}12\\\\-5\\end{pmatrix}$. Find the possible values of $k$ if $\\left|\\text{proj}_{\\underset{\\sim}{b}}\\,\\underset{\\sim}{a}\\right|=8$.",
+   "answer": "$|\\underset{\\sim}{b}|=13$, so $\\left|\\text{proj}_{\\underset{\\sim}{b}}\\,\\underset{\\sim}{a}\\right|=\\dfrac{|12k-20|}{13}=8$.\n\n$12k-20=\\pm104$, so $k=\\dfrac{31}{3}$ or $k=-7$."
+  },
+  {
+   "ref": "12(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "Find the volume of the solid formed when the region bounded by the $y$-axis, the curve $y=\\sin^{-1}x$ and the line $y=\\dfrac\\pi4$ is rotated about the $y$-axis.",
+   "answer": "$x=\\sin y$, so\n\n$$V=\\pi\\int_0^{\\pi/4}\\sin^2y\\,dy=\\frac\\pi2\\int_0^{\\pi/4}(1-\\cos2y)\\,dy=\\frac\\pi2\\left[y-\\frac12\\sin2y\\right]_0^{\\pi/4}$$\n\n$$V=\\frac{\\pi^2}{8}-\\frac\\pi4\\text{ cubic units}$$",
+   "images": [
+    "assets/img/ext1-2025-sydney-girls/q12e.png"
+   ]
+  },
+  {
+   "ref": "13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Use mathematical induction to prove that\n$$1\\times3+2\\times4+3\\times5+\\dots+n(n+2)=\\frac{n(n+1)(2n+7)}{6}$$\nfor all integers $n\\ge1$.",
+   "answer": "**$n=1$:** LHS $=3$, RHS $=\\dfrac{1\\times2\\times9}{6}=3$. True.\n\n**Assume true for $n=k$:** $1\\times3+\\dots+k(k+2)=\\dfrac{k(k+1)(2k+7)}{6}$.\n\n**Prove for $n=k+1$:** the sum should equal $\\dfrac{(k+1)(k+2)(2k+9)}{6}$.\n\n$$\\text{LHS}=\\frac{k(k+1)(2k+7)}{6}+(k+1)(k+3)=\\frac{(k+1)(2k^2+13k+18)}{6}=\\frac{(k+1)(k+2)(2k+9)}{6}=\\text{RHS}$$\n\nHence by mathematical induction the statement is true for all integers $n\\ge1$."
+  },
+  {
+   "ref": "13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "The curves $y=1+3x-x^2$ and $y=\\dfrac3x$ are sketched below. Using the diagram, or otherwise, solve $1+3x-x^2\\le\\dfrac3x$.",
+   "answer": "The curves meet when $x+3x^2-x^3=3$, i.e. $x^3-3x^2-x+3=(x-3)(x-1)(x+1)=0$, so $x=-1,1,3$.\n\nFrom the graph (with $x\\ne0$), the parabola is on or below the hyperbola when\n\n$$x\\le-1,\\quad 0<x\\le1\\quad\\text{or}\\quad x\\ge3$$",
+   "images": [
+    "assets/img/ext1-2025-sydney-girls/q13b.png"
+   ]
+  },
+  {
+   "ref": "13(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Using the substitution $u=2e^x+e^{-x}$, and by considering $u^2$, find\n$$\\int\\frac{2e^x-e^{-x}}{\\sqrt{5-4e^{2x}-e^{-2x}}}\\,dx$$",
+   "answer": "$du=(2e^x-e^{-x})\\,dx$ and $u^2=4e^{2x}+4+e^{-2x}$, so $5-4e^{2x}-e^{-2x}=9-u^2$.\n\n$$\\int\\frac{du}{\\sqrt{9-u^2}}=\\sin^{-1}\\frac u3+C=\\sin^{-1}\\left(\\frac{2e^x+e^{-x}}{3}\\right)+C$$"
+  },
+  {
+   "ref": "13(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.3"
+   ],
+   "question": "The graphs of $y=\\cos x$ and $y=\\sin x$ are sketched below. The dashed line indicates the greatest vertical distance, $d$ units, between the two curves. The $x$-coordinate of the dashed line is $\\theta$. Find $d$, giving reasons for your answer.",
+   "answer": "The vertical distance is $\\cos x-\\sin x=\\sqrt2\\cos\\left(x+\\dfrac\\pi4\\right)$, whose maximum value is $\\sqrt2$. So $d=\\sqrt2$.",
+   "images": [
+    "assets/img/ext1-2025-sydney-girls/q13d.png"
+   ]
+  },
+  {
+   "ref": "13(d)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.3"
+   ],
+   "question": "The graphs of $y=\\cos x$ and $y=\\sin x$ are sketched below. The dashed line indicates the greatest vertical distance, $d$ units, between the two curves. The $x$-coordinate of the dashed line is $\\theta$. Find $\\theta$, giving reasons for your answer.",
+   "answer": "$\\cos x-\\sin x=\\sqrt2\\cos\\left(x+\\dfrac\\pi4\\right)$ is greatest when $x+\\dfrac\\pi4=0$ (the solution nearest zero on the negative side, as shown). So $\\theta=-\\dfrac\\pi4$.",
+   "images": [
+    "assets/img/ext1-2025-sydney-girls/q13d.png"
+   ]
+  },
+  {
+   "ref": "13(e)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.4.1.17"
+   ],
+   "question": "A fair coin is tossed repeatedly until either $100$ heads or $100$ tails have been recorded (not necessarily consecutive), at which point the experiment ends. Find the number of outcomes of the experiment which have $199$ tosses.",
+   "answer": "For the experiment to last $199$ tosses, the first $198$ tosses must contain exactly $99$ heads and $99$ tails; the last toss is then either a head or a tail.\n\n$$\\text{Number of outcomes}=2\\times\\dbinom{198}{99}$$"
+  },
+  {
+   "ref": "14(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.7"
+   ],
+   "question": "A frog leaps with an initial speed of $V$ m s⁻¹ at an angle of projection $\\theta$, as shown. The horizontal range of the frog is $R$. Let $\\alpha$ and $\\beta$ be the $x$-coordinates of the frog when $y=h$. The vector equation of motion is\n$$\\begin{pmatrix}x\\\\y\\end{pmatrix}=\\begin{pmatrix}Vt\\cos\\theta\\\\Vt\\sin\\theta-\\frac12gt^2\\end{pmatrix}$$\n\nShow that $R=\\dfrac{2V^2\\sin\\theta\\cos\\theta}{g}$.",
+   "answer": "$y=0$ when $t\\left(V\\sin\\theta-\\tfrac12gt\\right)=0$, so the frog lands at $t=\\dfrac{2V\\sin\\theta}{g}$.\n\n$$R=V\\cos\\theta\\cdot\\frac{2V\\sin\\theta}{g}=\\frac{2V^2\\sin\\theta\\cos\\theta}{g}$$",
+   "images": [
+    "assets/img/ext1-2025-sydney-girls/q14a.png"
+   ]
+  },
+  {
+   "ref": "14(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.6.6"
+   ],
+   "question": "A frog leaps with an initial speed of $V$ m s⁻¹ at an angle of projection $\\theta$, as shown. The horizontal range of the frog is $R$. Let $\\alpha$ and $\\beta$ be the $x$-coordinates of the frog when $y=h$. The vector equation of motion is\n$$\\begin{pmatrix}x\\\\y\\end{pmatrix}=\\begin{pmatrix}Vt\\cos\\theta\\\\Vt\\sin\\theta-\\frac12gt^2\\end{pmatrix}$$\n\nGiven that $R=\\dfrac{2V^2\\sin\\theta\\cos\\theta}{g}$, show that $y=x\\left(1-\\dfrac xR\\right)\\tan\\theta$.",
+   "answer": "$t=\\dfrac{x}{V\\cos\\theta}$, so\n\n$$y=x\\tan\\theta-\\frac{gx^2}{2V^2\\cos^2\\theta}=x\\tan\\theta\\left(1-\\frac{gx}{2V^2\\sin\\theta\\cos\\theta}\\right)=x\\left(1-\\frac xR\\right)\\tan\\theta$$",
+   "images": [
+    "assets/img/ext1-2025-sydney-girls/q14a.png"
+   ]
+  },
+  {
+   "ref": "14(a)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.8"
+   ],
+   "question": "A frog leaps with an initial speed of $V$ m s⁻¹ at an angle of projection $\\theta$, as shown. The horizontal range of the frog is $R$. Let $\\alpha$ and $\\beta$ be the $x$-coordinates of the frog when $y=h$. The vector equation of motion is\n$$\\begin{pmatrix}x\\\\y\\end{pmatrix}=\\begin{pmatrix}Vt\\cos\\theta\\\\Vt\\sin\\theta-\\frac12gt^2\\end{pmatrix}$$\n\nThe path of the frog is $y=x\\left(1-\\dfrac xR\\right)\\tan\\theta$. Show that $\\alpha$ and $\\beta$ are the roots of $x^2\\tan\\theta-xR\\tan\\theta+Rh=0$.",
+   "answer": "Put $y=h$: $h=x\\left(1-\\dfrac xR\\right)\\tan\\theta$, so $Rh=x(R-x)\\tan\\theta$, giving $x^2\\tan\\theta-xR\\tan\\theta+Rh=0$.\n\nIts roots are the $x$-coordinates where $y=h$, namely $\\alpha$ and $\\beta$.",
+   "images": [
+    "assets/img/ext1-2025-sydney-girls/q14a.png"
+   ]
+  },
+  {
+   "ref": "14(a)(iv)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "A frog leaps with an initial speed of $V$ m s⁻¹ at an angle of projection $\\theta$, as shown. The horizontal range of the frog is $R$. Let $\\alpha$ and $\\beta$ be the $x$-coordinates of the frog when $y=h$. The vector equation of motion is\n$$\\begin{pmatrix}x\\\\y\\end{pmatrix}=\\begin{pmatrix}Vt\\cos\\theta\\\\Vt\\sin\\theta-\\frac12gt^2\\end{pmatrix}$$\n\nGiven that $\\alpha$ and $\\beta$ are the roots of $x^2\\tan\\theta-xR\\tan\\theta+Rh=0$, deduce that $(\\beta-\\alpha)^2=R(R-4h\\cot\\theta)$.",
+   "answer": "$\\alpha+\\beta=R$ and $\\alpha\\beta=\\dfrac{Rh}{\\tan\\theta}=Rh\\cot\\theta$.\n\n$$(\\beta-\\alpha)^2=(\\alpha+\\beta)^2-4\\alpha\\beta=R^2-4Rh\\cot\\theta=R(R-4h\\cot\\theta)$$",
+   "images": [
+    "assets/img/ext1-2025-sydney-girls/q14a.png"
+   ]
+  },
+  {
+   "ref": "14(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.4"
+   ],
+   "question": "In the diagram, $\\triangle AOB$ is right-angled with $\\angle OAB=90^\\circ$. The midpoints of $OA$, $AB$ and $OB$ are $M$, $N$ and $L$ respectively. The intersection of $ML$ and $ON$ is $X$. Let $\\underset{\\sim}{a}=\\overrightarrow{OA}$ and $\\underset{\\sim}{b}=\\overrightarrow{OB}$.\n\nUse vectors to show that $OMNL$ is a parallelogram.",
+   "answer": "$$\\overrightarrow{MN}=\\overrightarrow{MA}+\\overrightarrow{AN}=\\frac12\\underset{\\sim}{a}+\\frac12(\\underset{\\sim}{b}-\\underset{\\sim}{a})=\\frac12\\underset{\\sim}{b}=\\overrightarrow{OL}$$\n\n$MN$ and $OL$ are equal and parallel, so $OMNL$ is a parallelogram.",
+   "images": [
+    "assets/img/ext1-2025-sydney-girls/q14b.png"
+   ]
+  },
+  {
+   "ref": "14(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.4.7"
+   ],
+   "question": "In the diagram, $\\triangle AOB$ is right-angled with $\\angle OAB=90^\\circ$. The midpoints of $OA$, $AB$ and $OB$ are $M$, $N$ and $L$ respectively. The intersection of $ML$ and $ON$ is $X$. Let $\\underset{\\sim}{a}=\\overrightarrow{OA}$ and $\\underset{\\sim}{b}=\\overrightarrow{OB}$.\n\n$OMNL$ is a parallelogram. Suppose that $AX$ is perpendicular to $MN$. Use vectors to show that $|\\underset{\\sim}{b}|=\\sqrt3\\,|\\underset{\\sim}{a}|$. (You may assume that the diagonals of a parallelogram bisect each other.)",
+   "answer": "$X$ is the midpoint of $ON$, and $\\overrightarrow{ON}=\\tfrac12(\\underset{\\sim}{a}+\\underset{\\sim}{b})$, so $\\overrightarrow{AX}=\\tfrac14(\\underset{\\sim}{a}+\\underset{\\sim}{b})-\\underset{\\sim}{a}=\\tfrac14\\underset{\\sim}{b}-\\tfrac34\\underset{\\sim}{a}$.\n\n$\\overrightarrow{AX}\\cdot\\overrightarrow{MN}=0$ with $\\overrightarrow{MN}=\\tfrac12\\underset{\\sim}{b}$ gives $(\\underset{\\sim}{b}-3\\underset{\\sim}{a})\\cdot\\underset{\\sim}{b}=0$, so $|\\underset{\\sim}{b}|^2=3\\,\\underset{\\sim}{a}\\cdot\\underset{\\sim}{b}$.\n\nSince $OA\\perp AB$: $\\underset{\\sim}{a}\\cdot(\\underset{\\sim}{b}-\\underset{\\sim}{a})=0$, so $\\underset{\\sim}{a}\\cdot\\underset{\\sim}{b}=|\\underset{\\sim}{a}|^2$.\n\nHence $|\\underset{\\sim}{b}|^2=3|\\underset{\\sim}{a}|^2$ and $|\\underset{\\sim}{b}|=\\sqrt3\\,|\\underset{\\sim}{a}|$.",
+   "images": [
+    "assets/img/ext1-2025-sydney-girls/q14b.png"
+   ]
+  },
+  {
+   "ref": "14(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "By considering $\\dfrac{d}{dx}\\left(\\dfrac xy\\right)$, or otherwise, find the general solution to $y'=\\dfrac{y}{y^2+x}$, expressing your answer with $y$ as the subject.",
+   "answer": "By the quotient rule, $\\dfrac{d}{dx}\\left(\\dfrac xy\\right)=\\dfrac{y-xy'}{y^2}$.\n\nThe equation gives $y'y^2+xy'=y$, so $y'=\\dfrac{y-xy'}{y^2}=\\dfrac{d}{dx}\\left(\\dfrac xy\\right)$.\n\nIntegrating: $y+C=\\dfrac xy$, so $y^2+Cy-x=0$ and\n\n$$y=\\frac{-C\\pm\\sqrt{C^2+4x}}{2}$$"
+  },
+  {
+   "ref": "14(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.3.3.1",
+    "11.3.2.4"
+   ],
+   "question": "Solve $\\cos^2x+\\cos^22x+\\cos^23x=1$ for $0\\le x\\le2\\pi$.",
+   "answer": "Using $2\\cos^2\\theta=1+\\cos2\\theta$, the equation becomes $\\cos2x+\\cos4x+2\\cos^23x=0$.\n\nSince $\\cos2x+\\cos4x=2\\cos3x\\cos x$:\n\n$$2\\cos3x(\\cos x+\\cos3x)=0\\ \\Rightarrow\\ 4\\cos x\\cos2x\\cos3x=0$$\n\nSolving $\\cos x=0$, $\\cos2x=0$ and $\\cos3x=0$:\n\n$$x=\\frac\\pi6,\\ \\frac\\pi4,\\ \\frac\\pi2,\\ \\frac{3\\pi}4,\\ \\frac{5\\pi}6,\\ \\frac{7\\pi}6,\\ \\frac{5\\pi}4,\\ \\frac{3\\pi}2,\\ \\frac{7\\pi}4,\\ \\frac{11\\pi}6$$"
+  }
+ ]
+}
