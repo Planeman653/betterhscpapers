@@ -1,0 +1,580 @@
+{
+ "id": "ext1-2025-sydney-grammar",
+ "course": "extension1",
+ "school": "Sydney Grammar",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": 5338,
+  "title": "Sydney Grammar 2025 w. sol"
+ },
+ "indexed": "2026-11-26",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.6"
+   ],
+   "question": "The diagram shows the parallelogram $OABC$ with $\\overrightarrow{OA}=\\underset{\\sim}{a}$ and $\\overrightarrow{OC}=\\underset{\\sim}{c}$. Which expressions correctly represent the diagonals $\\overrightarrow{OB}$ and $\\overrightarrow{AC}$?",
+   "answer": "$\\overrightarrow{OB}=\\underset{\\sim}{a}+\\underset{\\sim}{c}$ and $\\overrightarrow{AC}=\\overrightarrow{OC}-\\overrightarrow{OA}=\\underset{\\sim}{c}-\\underset{\\sim}{a}$.",
+   "images": [
+    "assets/img/ext1-2025-sydney-grammar/q1.png"
+   ],
+   "options": [
+    "$\\overrightarrow{OB}=\\underset{\\sim}{a}-\\underset{\\sim}{c}$ and $\\overrightarrow{AC}=\\underset{\\sim}{a}+\\underset{\\sim}{c}$",
+    "$\\overrightarrow{OB}=\\underset{\\sim}{c}-\\underset{\\sim}{a}$ and $\\overrightarrow{AC}=\\underset{\\sim}{a}+\\underset{\\sim}{c}$",
+    "$\\overrightarrow{OB}=\\underset{\\sim}{a}+\\underset{\\sim}{c}$ and $\\overrightarrow{AC}=\\underset{\\sim}{a}-\\underset{\\sim}{c}$",
+    "$\\overrightarrow{OB}=\\underset{\\sim}{a}+\\underset{\\sim}{c}$ and $\\overrightarrow{AC}=\\underset{\\sim}{c}-\\underset{\\sim}{a}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Given $y=\\sin^{-1}(e^{2x})$, what is $\\dfrac{dy}{dx}$?",
+   "answer": "By the chain rule, $\\dfrac{dy}{dx}=\\dfrac{2e^{2x}}{\\sqrt{1-(e^{2x})^2}}$.",
+   "options": [
+    "$\\dfrac{2e^{2x}}{\\sqrt{1-e^{4x}}}$",
+    "$\\dfrac{e^{2x}}{\\sqrt{1-e^{4x}}}$",
+    "$\\dfrac{2e^{2x}}{\\sqrt{1+e^{4x}}}$",
+    "$\\dfrac{2e^{2x}}{\\sqrt{e^{4x}-1}}$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "Which of the following is the correct expression for the coefficient of $x^3$ in the expansion of $(4x+5)^9$?",
+   "answer": "The term in $x^3$ is ${}^9C_3(4x)^3 5^6$, and ${}^9C_3={}^9C_6$. The coefficient does not include $x^3$.",
+   "options": [
+    "${}^9C_6\\times4^3\\times5^6\\times x^3$",
+    "${}^9C_6\\times4^6\\times5^3\\times x^3$",
+    "${}^9C_6\\times4^3\\times5^6$",
+    "${}^9C_6\\times4^6\\times5^3$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "When a fish market has a supply of $x$ kilograms of salmon available for sale on a given day, it charges $y$ dollars per kilogram according to $y=32-8\\tan^{-1}\\dfrac{x}{100}$. If the daily supply is decreasing at a rate of 5 kilograms per day, at what rate is the price changing when the supply is 100 kilograms?",
+   "answer": "$\\dfrac{dy}{dx}=\\dfrac{-8/100}{1+(x/100)^2}=-0.04$ at $x=100$. Then $\\dfrac{dy}{dt}=(-0.04)(-5)=0.2$, so the price is increasing at 20 cents per day.",
+   "options": [
+    "decreasing at \\$0.04 per day",
+    "decreasing at \\$0.20 per day",
+    "increasing at \\$0.04 per day",
+    "increasing at \\$0.20 per day"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.9"
+   ],
+   "question": "In how many ways can the letters of the word SASSAFRAS be arranged in a line if the letters F and R must be adjacent?",
+   "answer": "Treat FR as one item: 8 items with four S's and three A's, then order F and R in $2!$ ways.",
+   "options": [
+    "$\\dfrac{8!}{3!\\,4!}$",
+    "$\\dfrac{8!\\,2!}{3!\\,4!}$",
+    "$\\dfrac{9!}{3!\\,4!}$",
+    "$\\dfrac{9!\\,2!}{3!\\,4!}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.2.5"
+   ],
+   "question": "The function $f(x)$ has an inverse function $f^{-1}(x)$. Which of the following is always a correct expression for the inverse of $y=f(3x)$?",
+   "answer": "Swap variables: $x=f(3y)$, so $3y=f^{-1}(x)$ and $y=\\tfrac13f^{-1}(x)$.",
+   "options": [
+    "$f^{-1}\\left(\\dfrac x3\\right)$",
+    "$f^{-1}(3x)$",
+    "$\\dfrac13f^{-1}(x)$",
+    "$3f^{-1}(x)$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.2",
+    "11.3.2.4"
+   ],
+   "question": "Which expression is **not** equivalent to $\\displaystyle\\int\\sin x\\cos x\\,dx$?",
+   "answer": "$\\int\\sin x\\cos x\\,dx=\\int\\tfrac12\\sin2x\\,dx=-\\tfrac14\\cos2x+c$, and A and B differ from this only by a constant. D is twice as large.",
+   "options": [
+    "$-\\dfrac{\\cos^2x}{2}+c$",
+    "$\\dfrac{\\sin^2x}{2}+c$",
+    "$-\\dfrac{\\cos 2x}{4}+c$",
+    "$-\\dfrac{\\cos 2x}{2}+c$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.9"
+   ],
+   "question": "Which of the following statements is **always** true, given that $\\underset{\\sim}{u}\\ne\\underset{\\sim}{0}$ and $\\underset{\\sim}{p}\\ne\\underset{\\sim}{0}$ (and $\\underset{\\sim}{q}\\ne\\underset{\\sim}{0}$)?",
+   "answer": "$\\text{proj}_{\\underset{\\sim}{p}}(-\\underset{\\sim}{u})=-\\text{proj}_{\\underset{\\sim}{p}}\\underset{\\sim}{u}$, so equality forces the projection to be zero, that is $\\underset{\\sim}{u}\\cdot\\underset{\\sim}{p}=0$.",
+   "options": [
+    "If $\\text{proj}_{\\underset{\\sim}{p}}\\underset{\\sim}{u}=\\text{proj}_{\\underset{\\sim}{p}}(-\\underset{\\sim}{u})$, then $\\underset{\\sim}{u}\\cdot\\underset{\\sim}{p}=0$.",
+    "If $\\text{proj}_{\\underset{\\sim}{p}}\\underset{\\sim}{u}=\\underset{\\sim}{u}$, then $\\underset{\\sim}{u}=\\underset{\\sim}{p}$.",
+    "If $\\text{proj}_{\\underset{\\sim}{p}}\\underset{\\sim}{u}=\\text{proj}_{\\underset{\\sim}{p}}\\underset{\\sim}{w}$, then $\\underset{\\sim}{u}=\\underset{\\sim}{w}$.",
+    "If $\\text{proj}_{\\underset{\\sim}{p}}\\underset{\\sim}{u}=\\text{proj}_{\\underset{\\sim}{q}}\\underset{\\sim}{u}$, then $\\underset{\\sim}{p}=\\underset{\\sim}{q}$."
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.7"
+   ],
+   "question": "Consider the range, time of flight and maximum height of a projectile launched from and landing on level ground. Which of these quantities will not change if the initial vertical velocity of the projectile is fixed, but the initial horizontal velocity is allowed to vary?",
+   "answer": "The vertical motion alone determines the time of flight and maximum height. The range also depends on the horizontal velocity.",
+   "options": [
+    "maximum height only",
+    "time of flight only",
+    "maximum height and time of flight",
+    "range and maximum height"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.1"
+   ],
+   "question": "If $f(x)=\\ln x$, which of the following best describes the equation of the graph shown?",
+   "answer": "The graph is symmetric about the $x$-axis, exists only for $x>1$, has an asymptote at $x=1$ and tends to 0 as $x\\to\\infty$. This is $y=\\pm\\dfrac{1}{\\sqrt{\\ln x}}$.",
+   "images": [
+    "assets/img/ext1-2025-sydney-grammar/q10.png"
+   ],
+   "options": [
+    "$y^2=\\dfrac{1}{f(x)}$",
+    "$y=\\dfrac{1}{f(x)}$",
+    "$|y|=\\sqrt{f(x)}$",
+    "$y=\\sqrt{f(x)}$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "11(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.6"
+   ],
+   "question": "For the vectors $\\underset{\\sim}{u}=\\begin{pmatrix}1\\\\-2\\end{pmatrix}$ and $\\underset{\\sim}{v}=\\begin{pmatrix}3\\\\2\\end{pmatrix}$, calculate $\\underset{\\sim}{u}-5\\underset{\\sim}{v}$.",
+   "answer": "$$\\underset{\\sim}{u}-5\\underset{\\sim}{v}=\\begin{pmatrix}1-15\\\\-2-10\\end{pmatrix}=\\begin{pmatrix}-14\\\\-12\\end{pmatrix}$$"
+  },
+  {
+   "ref": "11(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.4.1"
+   ],
+   "question": "For the vectors $\\underset{\\sim}{u}=\\begin{pmatrix}1\\\\-2\\end{pmatrix}$ and $\\underset{\\sim}{v}=\\begin{pmatrix}3\\\\2\\end{pmatrix}$, calculate $\\underset{\\sim}{u}\\cdot\\underset{\\sim}{v}$.",
+   "answer": "$\\underset{\\sim}{u}\\cdot\\underset{\\sim}{v}=(1)(3)+(-2)(2)=-1$"
+  },
+  {
+   "ref": "11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.5.1.6"
+   ],
+   "question": "Expand and simplify $(x-2)^3$.",
+   "answer": "$(x-2)^3=x^3-6x^2+12x-8$"
+  },
+  {
+   "ref": "11(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Solve $\\dfrac{4}{x-1}\\le9$.",
+   "answer": "$x\\ne1$. Multiply by $(x-1)^2$:\n\n$$4(x-1)\\le9(x-1)^2\\ \\Rightarrow\\ (x-1)(9x-13)\\ge0$$\n\nSo $x<1$ or $x\\ge\\dfrac{13}{9}$."
+  },
+  {
+   "ref": "11(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.1.10"
+   ],
+   "question": "Consider the polynomial $P(x)=2x^3-7x^2-12x+45$. Show that $x=3$ is a zero with multiplicity of at least two.",
+   "answer": "$P(3)=54-63-36+45=0$.\n\n$P'(x)=6x^2-14x-12$, so $P'(3)=54-42-12=0$.\n\nHence $x=3$ is a zero of multiplicity at least two."
+  },
+  {
+   "ref": "11(d)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "Consider the polynomial $P(x)=2x^3-7x^2-12x+45$. Given that $x=3$ is a double zero, find the third zero of $P(x)$.",
+   "answer": "Sum of zeros: $3+3+\\alpha=\\dfrac72$, so $\\alpha=-\\dfrac52$."
+  },
+  {
+   "ref": "11(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.12"
+   ],
+   "question": "Write down the domain and range of $y=2\\cos^{-1}\\left(\\dfrac x3\\right)$.",
+   "answer": "Domain: $-3\\le x\\le3$. Range: $0\\le y\\le2\\pi$."
+  },
+  {
+   "ref": "11(f)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Use the substitution $u=x+6$ to find $\\displaystyle\\int x(x+6)^5\\,dx$.",
+   "answer": "$du=dx$ and $x=u-6$:\n\n$$\\int(u-6)u^5\\,du=\\frac{u^7}{7}-u^6+c=\\frac{(x+6)^7}{7}-(x+6)^6+c$$"
+  },
+  {
+   "ref": "12(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.2"
+   ],
+   "question": "Express $\\sin x-\\sqrt3\\cos x$ in the form $R\\sin(x-\\alpha)$, where $R>0$ and $0\\le\\alpha\\le\\dfrac\\pi2$.",
+   "answer": "$R\\cos\\alpha=1$ and $R\\sin\\alpha=\\sqrt3$, so $R=2$ and $\\tan\\alpha=\\sqrt3$, $\\alpha=\\dfrac\\pi3$.\n\n$$\\sin x-\\sqrt3\\cos x=2\\sin\\left(x-\\frac\\pi3\\right)$$"
+  },
+  {
+   "ref": "12(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.3"
+   ],
+   "question": "By first writing $\\sin x-\\sqrt3\\cos x$ in the form $R\\sin(x-\\alpha)$, solve $\\sin x-\\sqrt3\\cos x=2$ for $0\\le x\\le\\pi$.",
+   "answer": "$2\\sin\\left(x-\\dfrac\\pi3\\right)=2$, so $x-\\dfrac\\pi3=\\dfrac\\pi2$ and $x=\\dfrac{5\\pi}{6}$."
+  },
+  {
+   "ref": "12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^2\\frac{dx}{4+3x^2}$.",
+   "answer": "$$\\int_0^2\\frac{dx}{4+3x^2}=\\frac13\\int_0^2\\frac{dx}{\\left(\\frac{2}{\\sqrt3}\\right)^2+x^2}=\\frac{\\sqrt3}{6}\\left[\\tan^{-1}\\frac{\\sqrt3x}{2}\\right]_0^2=\\frac{\\sqrt3}{6}\\cdot\\frac\\pi3=\\frac{\\sqrt3\\,\\pi}{18}$$"
+  },
+  {
+   "ref": "12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "Prove by mathematical induction that $3^{2n}-1$ is divisible by 8 for all integers $n\\ge1$.",
+   "answer": "**$n=1$:** $3^2-1=8$, divisible by 8.\n\n**Assume true for $n=k$:** $3^{2k}-1=8A$ for some integer $A$.\n\n**$n=k+1$:** $3^{2k+2}-1=9\\cdot3^{2k}-1=9(8A+1)-1=8(9A+1)$, which is divisible by 8.\n\nHence by mathematical induction it is true for all integers $n\\ge1$."
+  },
+  {
+   "ref": "12(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.9"
+   ],
+   "question": "The diagram shows the position vectors $\\overrightarrow{OA}=\\begin{pmatrix}3\\\\\\sqrt3\\end{pmatrix}$ and $\\overrightarrow{OB}=\\begin{pmatrix}2\\\\2\\sqrt3\\end{pmatrix}$. The point $X$ is the foot of the perpendicular from $A$ to $OB$. Find $\\overrightarrow{OX}$ by calculating the projection of $\\overrightarrow{OA}$ onto $\\overrightarrow{OB}$.",
+   "answer": "$\\overrightarrow{OA}\\cdot\\overrightarrow{OB}=6+6=12$ and $|\\overrightarrow{OB}|^2=4+12=16$.\n\n$$\\overrightarrow{OX}=\\frac{12}{16}\\begin{pmatrix}2\\\\2\\sqrt3\\end{pmatrix}=\\frac32\\begin{pmatrix}1\\\\\\sqrt3\\end{pmatrix}$$",
+   "images": [
+    "assets/img/ext1-2025-sydney-grammar/q12d.png"
+   ]
+  },
+  {
+   "ref": "12(e)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.4"
+   ],
+   "question": "Consider the differential equation $\\dfrac{dy}{dx}=-(x^2-1)(y-1)$ and its slope field, shown first below. By referring to the slope field, explain why a solution could not have the graph shown second.",
+   "answer": "The slope field (and the equation) shows that every solution has gradient zero wherever $y=1$. The graph shown crosses $y=1$ (near $x=2$) with a clearly positive gradient, so it cannot be a solution.",
+   "images": [
+    "assets/img/ext1-2025-sydney-grammar/q12e_field.png",
+    "assets/img/ext1-2025-sydney-grammar/q12e_graph.png"
+   ]
+  },
+  {
+   "ref": "12(e)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "Consider the differential equation $\\dfrac{dy}{dx}=-(x^2-1)(y-1)$ and its slope field, shown first below. Find the particular solution that passes through the point $(0,2)$.",
+   "answer": "$$\\int\\frac{dy}{y-1}=\\int(1-x^2)\\,dx\\ \\Rightarrow\\ \\ln|y-1|=x-\\frac{x^3}{3}+c$$\n\nSo $y=1+Ae^{x-\\frac{x^3}{3}}$. At $(0,2)$, $A=1$:\n\n$$y=1+e^{x-\\frac{x^3}{3}}$$",
+   "images": [
+    "assets/img/ext1-2025-sydney-grammar/q12e_field.png"
+   ]
+  },
+  {
+   "ref": "13(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.3"
+   ],
+   "question": "The points $O$, $A$ and $B$ form an equilateral triangle and the points $B$, $P$, $Q$ and $R$ are as shown in the diagram. The points $O$, $P$ and $Q$ are collinear, $\\overrightarrow{BR}=\\tfrac12\\overrightarrow{OA}$, and $\\overrightarrow{QR}=\\lambda\\overrightarrow{AB}$ for some constant $\\lambda$. Let $\\overrightarrow{OA}=\\underset{\\sim}{a}$ and $\\overrightarrow{OB}=\\underset{\\sim}{b}$.\n\nShow that $\\underset{\\sim}{a}\\cdot\\underset{\\sim}{b}=\\tfrac12|\\underset{\\sim}{a}|^2$.",
+   "answer": "The triangle is equilateral, so $|\\underset{\\sim}{b}|=|\\underset{\\sim}{a}|$ and the angle between them is $60^\\circ$:\n\n$$\\underset{\\sim}{a}\\cdot\\underset{\\sim}{b}=|\\underset{\\sim}{a}||\\underset{\\sim}{a}|\\cos60^\\circ=\\tfrac12|\\underset{\\sim}{a}|^2$$",
+   "images": [
+    "assets/img/ext1-2025-sydney-grammar/q13a.png"
+   ]
+  },
+  {
+   "ref": "13(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.6"
+   ],
+   "question": "The points $O$, $A$ and $B$ form an equilateral triangle and the points $B$, $P$, $Q$ and $R$ are as shown in the diagram. The points $O$, $P$ and $Q$ are collinear, $\\overrightarrow{BR}=\\tfrac12\\overrightarrow{OA}$, and $\\overrightarrow{QR}=\\lambda\\overrightarrow{AB}$ for some constant $\\lambda$. Let $\\overrightarrow{OA}=\\underset{\\sim}{a}$ and $\\overrightarrow{OB}=\\underset{\\sim}{b}$.\n\nWrite down expressions for $\\overrightarrow{AB}$ and $\\overrightarrow{OQ}$ in terms of $\\underset{\\sim}{a}$, $\\underset{\\sim}{b}$ and $\\lambda$.",
+   "answer": "$\\overrightarrow{AB}=\\underset{\\sim}{b}-\\underset{\\sim}{a}$.\n\n$$\\overrightarrow{OQ}=\\overrightarrow{OB}+\\overrightarrow{BR}+\\overrightarrow{RQ}=\\underset{\\sim}{b}+\\tfrac12\\underset{\\sim}{a}-\\lambda(\\underset{\\sim}{b}-\\underset{\\sim}{a})=\\left(\\tfrac12+\\lambda\\right)\\underset{\\sim}{a}+(1-\\lambda)\\underset{\\sim}{b}$$",
+   "images": [
+    "assets/img/ext1-2025-sydney-grammar/q13a.png"
+   ]
+  },
+  {
+   "ref": "13(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.7"
+   ],
+   "question": "The points $O$, $A$ and $B$ form an equilateral triangle and the points $B$, $P$, $Q$ and $R$ are as shown in the diagram. The points $O$, $P$ and $Q$ are collinear, $\\overrightarrow{BR}=\\tfrac12\\overrightarrow{OA}$, and $\\overrightarrow{QR}=\\lambda\\overrightarrow{AB}$ for some constant $\\lambda$. Let $\\overrightarrow{OA}=\\underset{\\sim}{a}$ and $\\overrightarrow{OB}=\\underset{\\sim}{b}$.\n\nYou may use $\\underset{\\sim}{a}\\cdot\\underset{\\sim}{b}=\\tfrac12|\\underset{\\sim}{a}|^2$ and $\\overrightarrow{OQ}=\\left(\\tfrac12+\\lambda\\right)\\underset{\\sim}{a}+(1-\\lambda)\\underset{\\sim}{b}$. Given that $AB$ is perpendicular to $OQ$, find the value of $\\lambda$.",
+   "answer": "$(\\underset{\\sim}{b}-\\underset{\\sim}{a})\\cdot\\underset{\\sim}{a}=-\\tfrac12|\\underset{\\sim}{a}|^2$ and $(\\underset{\\sim}{b}-\\underset{\\sim}{a})\\cdot\\underset{\\sim}{b}=\\tfrac12|\\underset{\\sim}{a}|^2$.\n\nSo $\\overrightarrow{AB}\\cdot\\overrightarrow{OQ}=\\tfrac12|\\underset{\\sim}{a}|^2\\left[-\\left(\\tfrac12+\\lambda\\right)+(1-\\lambda)\\right]=0$.\n\nHence $\\tfrac12-2\\lambda=0$ and $\\lambda=\\tfrac14$.",
+   "images": [
+    "assets/img/ext1-2025-sydney-grammar/q13a.png"
+   ]
+  },
+  {
+   "ref": "13(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3",
+    "12.4.2.3"
+   ],
+   "question": "The diagram shows the graph of $f(x)=\\dfrac{\\pi}{\\pi x+1}\\sin\\left(\\dfrac{\\pi}{\\pi x+1}\\right)$ for $x\\ge0$. The shaded region $R$ is bounded by $y=f(x)$, the $x$-axis and the line $x=k$, where $k>0$. Show that the volume $V$ of the solid generated when $R$ is rotated about the $x$-axis is\n$$V=\\frac{\\pi^3}{2}\\int_0^k\\frac{1}{(\\pi x+1)^2}\\left[1-\\cos\\left(\\frac{2\\pi}{\\pi x+1}\\right)\\right]dx$$",
+   "answer": "$$V=\\pi\\int_0^k\\frac{\\pi^2}{(\\pi x+1)^2}\\sin^2\\left(\\frac{\\pi}{\\pi x+1}\\right)dx$$\n\nUsing $\\sin^2\\theta=\\tfrac12(1-\\cos2\\theta)$:\n\n$$V=\\frac{\\pi^3}{2}\\int_0^k\\frac{1}{(\\pi x+1)^2}\\left[1-\\cos\\left(\\frac{2\\pi}{\\pi x+1}\\right)\\right]dx$$",
+   "images": [
+    "assets/img/ext1-2025-sydney-grammar/q13b.png"
+   ]
+  },
+  {
+   "ref": "13(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "The volume of a solid is\n$$V=\\frac{\\pi^3}{2}\\int_0^k\\frac{1}{(\\pi x+1)^2}\\left[1-\\cos\\left(\\frac{2\\pi}{\\pi x+1}\\right)\\right]dx,\\quad k>0$$\nUse the substitution $u=\\dfrac{2\\pi}{\\pi x+1}$ to show that $V=\\dfrac\\pi4\\left[\\sin\\left(\\dfrac{2\\pi}{\\pi k+1}\\right)+\\dfrac{2\\pi^2k}{\\pi k+1}\\right]$.",
+   "answer": "$du=-\\dfrac{2\\pi^2}{(\\pi x+1)^2}\\,dx$. When $x=0$, $u=2\\pi$; when $x=k$, $u=\\dfrac{2\\pi}{\\pi k+1}$.\n\n$$V=-\\frac{\\pi}{4}\\int_{2\\pi}^{\\frac{2\\pi}{\\pi k+1}}(1-\\cos u)\\,du=\\frac\\pi4\\Big[\\sin u-u\\Big]_{2\\pi}^{\\frac{2\\pi}{\\pi k+1}}$$\n\n$$=\\frac\\pi4\\left[\\sin\\frac{2\\pi}{\\pi k+1}-\\frac{2\\pi}{\\pi k+1}+2\\pi\\right]=\\frac\\pi4\\left[\\sin\\left(\\frac{2\\pi}{\\pi k+1}\\right)+\\frac{2\\pi^2k}{\\pi k+1}\\right]$$"
+  },
+  {
+   "ref": "13(b)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "A solid has volume $V=\\dfrac\\pi4\\left[\\sin\\left(\\dfrac{2\\pi}{\\pi k+1}\\right)+\\dfrac{2\\pi^2k}{\\pi k+1}\\right]$. What does $V$ approach as $k\\to\\infty$?",
+   "answer": "$\\sin\\left(\\dfrac{2\\pi}{\\pi k+1}\\right)\\to0$ and $\\dfrac{2\\pi^2k}{\\pi k+1}\\to2\\pi$, so $V\\to\\dfrac{\\pi^2}{2}$."
+  },
+  {
+   "ref": "13(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.4"
+   ],
+   "question": "Prove that $\\dfrac12\\cot\\theta-\\dfrac12\\tan\\theta=\\cot2\\theta$, where $\\theta\\ne\\dfrac{k\\pi}{2}$ for any integer $k$.",
+   "answer": "$$\\text{LHS}=\\frac{1}{2\\tan\\theta}-\\frac{\\tan\\theta}{2}=\\frac{1-\\tan^2\\theta}{2\\tan\\theta}=\\frac{1}{\\tan2\\theta}=\\cot2\\theta$$"
+  },
+  {
+   "ref": "13(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Using the identity $\\dfrac12\\cot\\theta-\\dfrac12\\tan\\theta=\\cot2\\theta$, use mathematical induction to prove that, for all positive integers $n$,\n$$\\frac12\\tan\\frac x2+\\frac1{2^2}\\tan\\frac x{2^2}+\\dots+\\frac1{2^n}\\tan\\frac x{2^n}=\\frac1{2^n}\\cot\\frac x{2^n}-\\cot x$$\nwhere $x\\ne k\\pi$ for any integer $k$.",
+   "answer": "**$n=1$:** putting $\\theta=\\tfrac x2$ in the identity, $\\tfrac12\\cot\\tfrac x2-\\tfrac12\\tan\\tfrac x2=\\cot x$, so $\\tfrac12\\tan\\tfrac x2=\\tfrac12\\cot\\tfrac x2-\\cot x$. True.\n\n**Assume true for $n=k$.**\n\n**$n=k+1$:**\n$$\\text{LHS}=\\frac1{2^k}\\cot\\frac x{2^k}-\\cot x+\\frac1{2^{k+1}}\\tan\\frac x{2^{k+1}}$$\n\nWith $\\theta=\\dfrac{x}{2^{k+1}}$ the identity gives $\\cot\\dfrac x{2^k}=\\dfrac12\\cot\\dfrac x{2^{k+1}}-\\dfrac12\\tan\\dfrac x{2^{k+1}}$, so\n\n$$\\text{LHS}=\\frac1{2^{k+1}}\\cot\\frac x{2^{k+1}}-\\frac1{2^{k+1}}\\tan\\frac x{2^{k+1}}-\\cot x+\\frac1{2^{k+1}}\\tan\\frac x{2^{k+1}}=\\frac1{2^{k+1}}\\cot\\frac x{2^{k+1}}-\\cot x$$\n\nHence the result is true for all positive integers $n$ by induction."
+  },
+  {
+   "ref": "14(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.6"
+   ],
+   "question": "As part of avalanche control programs, small explosives are fired into mountainsides. An explosive is fired upwards along a mountainside that has a gradient of $0.6$. It is launched with an initial speed of $v$ m s⁻¹ at an angle of $\\alpha$ to the horizontal, and hits the mountainside at the point of impact $P$, as shown. The position of the projectile after $t$ seconds is\n$$\\underset{\\sim}{r}=\\begin{pmatrix}vt\\cos\\alpha\\\\vt\\sin\\alpha-5t^2\\end{pmatrix}$$\n\nShow that the Cartesian equation of the path is $y=x\\tan\\alpha-\\dfrac{5x^2}{v^2}\\sec^2\\alpha$.",
+   "answer": "$t=\\dfrac{x}{v\\cos\\alpha}$, so\n\n$$y=v\\sin\\alpha\\cdot\\frac{x}{v\\cos\\alpha}-5\\left(\\frac{x}{v\\cos\\alpha}\\right)^2=x\\tan\\alpha-\\frac{5x^2}{v^2}\\sec^2\\alpha$$",
+   "images": [
+    "assets/img/ext1-2025-sydney-grammar/q14a.png"
+   ]
+  },
+  {
+   "ref": "14(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.6.8"
+   ],
+   "question": "As part of avalanche control programs, small explosives are fired into mountainsides. An explosive is fired upwards along a mountainside that has a gradient of $0.6$. It is launched with an initial speed of $v$ m s⁻¹ at an angle of $\\alpha$ to the horizontal, and hits the mountainside at the point of impact $P$, as shown. The position of the projectile after $t$ seconds is\n$$\\underset{\\sim}{r}=\\begin{pmatrix}vt\\cos\\alpha\\\\vt\\sin\\alpha-5t^2\\end{pmatrix}$$\n\nThe path is $y=x\\tan\\alpha-\\dfrac{5x^2}{v^2}\\sec^2\\alpha$. Show that the horizontal distance of $P$ from the point of projection, in metres, is $\\dfrac15v^2\\cos^2\\alpha\\,(\\tan\\alpha-0.6)$.",
+   "answer": "The mountainside is $y=0.6x$:\n\n$$0.6x=x\\tan\\alpha-\\frac{5x^2}{v^2}\\sec^2\\alpha$$\n\nSince $x\\ne0$ at $P$, $\\dfrac{5x}{v^2}\\sec^2\\alpha=\\tan\\alpha-0.6$, so $x=\\dfrac15v^2\\cos^2\\alpha\\,(\\tan\\alpha-0.6)$.",
+   "images": [
+    "assets/img/ext1-2025-sydney-grammar/q14a.png"
+   ]
+  },
+  {
+   "ref": "14(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.6.8"
+   ],
+   "question": "As part of avalanche control programs, small explosives are fired into mountainsides. An explosive is fired upwards along a mountainside that has a gradient of $0.6$. It is launched with an initial speed of $v$ m s⁻¹ at an angle of $\\alpha$ to the horizontal, and hits the mountainside at the point of impact $P$, as shown. The position of the projectile after $t$ seconds is\n$$\\underset{\\sim}{r}=\\begin{pmatrix}vt\\cos\\alpha\\\\vt\\sin\\alpha-5t^2\\end{pmatrix}$$\n\nThe path is $y=x\\tan\\alpha-\\dfrac{5x^2}{v^2}\\sec^2\\alpha$ and the horizontal distance to $P$ is $\\tfrac15v^2\\cos^2\\alpha(\\tan\\alpha-0.6)$. Given that the path is perpendicular to the mountainside at the point of impact, show that the angle of projection is approximately $71^\\circ$, to the nearest degree.",
+   "answer": "At $P$ the gradient of the path is $-\\dfrac{1}{0.6}=-\\dfrac53$.\n\n$$\\frac{dy}{dx}=\\tan\\alpha-\\frac{10x}{v^2}\\sec^2\\alpha=\\tan\\alpha-2(\\tan\\alpha-0.6)=1.2-\\tan\\alpha$$\n\nSo $1.2-\\tan\\alpha=-\\dfrac53$, giving $\\tan\\alpha=\\dfrac{43}{15}$ and $\\alpha\\approx71^\\circ$.",
+   "images": [
+    "assets/img/ext1-2025-sydney-grammar/q14a.png"
+   ]
+  },
+  {
+   "ref": "14(a)(iv)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.6.8"
+   ],
+   "question": "As part of avalanche control programs, small explosives are fired into mountainsides. An explosive is fired upwards along a mountainside that has a gradient of $0.6$. It is launched with an initial speed of $v$ m s⁻¹ at an angle of $\\alpha$ to the horizontal, and hits the mountainside at the point of impact $P$, as shown. The position of the projectile after $t$ seconds is\n$$\\underset{\\sim}{r}=\\begin{pmatrix}vt\\cos\\alpha\\\\vt\\sin\\alpha-5t^2\\end{pmatrix}$$\n\nThe horizontal distance to $P$ is $\\tfrac15v^2\\cos^2\\alpha(\\tan\\alpha-0.6)$ and $\\alpha\\approx71^\\circ$. Hence determine the impact speed as a percentage of the initial speed, correct to the nearest percent.",
+   "answer": "Time of impact: $t=\\dfrac{x}{v\\cos\\alpha}=\\dfrac15v\\cos\\alpha(\\tan\\alpha-0.6)$.\n\n$\\dot x=v\\cos\\alpha$ and $\\dot y=v\\sin\\alpha-10t=v(1.2\\cos\\alpha-\\sin\\alpha)$.\n\n$$\\text{speed}=v\\sqrt{\\cos^2 71^\\circ+(1.2\\cos71^\\circ-\\sin71^\\circ)^2}\\approx0.64v$$\n\nThe impact speed is about $64\\%$ of the initial speed.",
+   "images": [
+    "assets/img/ext1-2025-sydney-grammar/q14a.png"
+   ]
+  },
+  {
+   "ref": "14(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.4.12"
+   ],
+   "question": "The differential equation $\\dfrac{dx}{dt}=kx$, where $k$ is a constant, has initial condition $x=x_0$ when $t=0$. Show that $x=x_0e^{kt}$ satisfies the differential equation and the initial condition.",
+   "answer": "$\\dfrac{dx}{dt}=kx_0e^{kt}=kx$, and at $t=0$, $x=x_0e^0=x_0$."
+  },
+  {
+   "ref": "14(b)(ii)(α)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.3"
+   ],
+   "question": "The rate at which new Wikipedia articles are written can be modelled by\n$$\\frac{dN}{dt}=0.17N\\ln\\left(\\frac{7.2}{N}\\right)$$\nwhere $N$ is the number of articles in millions and $t$ is the number of years after the beginning of January 2001. Find any constant solutions of the differential equation.",
+   "answer": "A constant solution has $\\dfrac{dN}{dt}=0$. Since $N>0$, $\\ln\\left(\\dfrac{7.2}{N}\\right)=0$, so $N=7.2$."
+  },
+  {
+   "ref": "14(b)(ii)(β)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.4.16"
+   ],
+   "question": "The rate at which new Wikipedia articles are written can be modelled by\n$$\\frac{dN}{dt}=0.17N\\ln\\left(\\frac{7.2}{N}\\right)$$\nwhere $N$ is the number of articles in millions and $t$ is the number of years after the beginning of January 2001. Let $u=\\ln\\left(\\dfrac{7.2}{N}\\right)$. Initially there were 3600 articles ($N=0.0036$). Show that the initial value of $u$, correct to two significant figures, is $u_0=7.6$.",
+   "answer": "$u_0=\\ln\\left(\\dfrac{7.2}{0.0036}\\right)=\\ln 2000=7.6009\\ldots\\approx7.6$"
+  },
+  {
+   "ref": "14(b)(ii)(γ)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.4.16",
+    "12.5.4.12"
+   ],
+   "question": "The rate at which new Wikipedia articles are written can be modelled by\n$$\\frac{dN}{dt}=0.17N\\ln\\left(\\frac{7.2}{N}\\right)$$\nwhere $N$ is the number of articles in millions and $t$ is the number of years after the beginning of January 2001. Initially $N=0.0036$, so that $u=\\ln\\left(\\dfrac{7.2}{N}\\right)$ has initial value $u_0\\approx7.6$. Use this substitution to find the solution $N(t)$ that satisfies the initial condition.",
+   "answer": "$u=\\ln7.2-\\ln N$, so $\\dfrac{du}{dt}=-\\dfrac1N\\dfrac{dN}{dt}=-0.17\\ln\\left(\\dfrac{7.2}{N}\\right)=-0.17u$.\n\nHence $u=u_0e^{-0.17t}=7.6e^{-0.17t}$.\n\n$$\\ln\\left(\\frac{7.2}{N}\\right)=7.6e^{-0.17t}\\ \\Rightarrow\\ N=7.2\\,e^{-7.6e^{-0.17t}}$$"
+  }
+ ]
+}
