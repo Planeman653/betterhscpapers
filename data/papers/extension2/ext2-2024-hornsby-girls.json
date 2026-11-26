@@ -1,0 +1,730 @@
+{
+ "id": "ext2-2024-hornsby-girls",
+ "course": "extension2",
+ "school": "Hornsby Girls",
+ "year": 2024,
+ "type": "Trial",
+ "thsc": {
+  "viewno": 5348,
+  "title": "Hornsby Girls 2024 w. sol"
+ },
+ "indexed": "2026-11-27",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q12(a)(iv)",
+   "reason": "Flawed: ABMN is a parallelogram only if k = -1, which contradicts the trapezium shown (the intended figure was probably ABNM)"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.11"
+   ],
+   "question": "Which is the correct expression for $\\displaystyle\\int\\frac{-1}{\\sqrt{1-16x^2}}\\,dx$?",
+   "answer": "$\\frac{d}{dx}\\cos^{-1}4x=\\frac{-4}{\\sqrt{1-16x^2}}$.",
+   "options": [
+    "$\\frac14\\cos^{-1}\\frac x4+C$",
+    "$4\\cos^{-1}\\frac x4+C$",
+    "$\\frac14\\cos^{-1}4x+C$",
+    "$4\\cos^{-1}4x+C$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.1.8"
+   ],
+   "question": "$\\underset{\\sim}{a},\\underset{\\sim}{b},\\underset{\\sim}{c}$ are position vectors of points $A,B,C$ with $\\underset{\\sim}{b}-\\underset{\\sim}{a}=\\lambda(\\underset{\\sim}{c}-\\underset{\\sim}{a})$ where $0<\\lambda<1$. Which must be **false**?",
+   "answer": "$\\overrightarrow{AB}=\\lambda\\overrightarrow{AC}$ with $0<\\lambda<1$, so $B$ lies between $A$ and $C$.",
+   "options": [
+    "$B$ divides $AC$ internally in the ratio $\\lambda:(1-\\lambda)$",
+    "$B$ divides $AC$ externally in the ratio $\\lambda:(1-\\lambda)$",
+    "$A$, $B$ and $C$ are collinear",
+    "$\\overrightarrow{AB}\\parallel\\overrightarrow{AC}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.2",
+    "12.1.1.6"
+   ],
+   "question": "Which statement is true?",
+   "answer": "$a=b=2$ works.",
+   "options": [
+    "$\\forall a,b\\in\\mathbb R,\\ \\sin a=\\sin b\\Rightarrow a=b$",
+    "$\\forall a,b\\in\\mathbb R,\\ |a+b|>|a-b|$",
+    "$\\exists a,b\\in\\mathbb R$ such that $\\ln(a+b)=\\ln(ab)$",
+    "$\\exists a,b\\in\\mathbb C,\\ |a+b|>|a|+|b|$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Which is $\\displaystyle\\int x\\tan^{-1}x\\,dx$?",
+   "answer": "Integrate by parts, then write $\\frac{x^2}{1+x^2}=1-\\frac{1}{1+x^2}$.",
+   "options": [
+    "$x+\\tan^{-1}x+C$",
+    "$\\dfrac{x}{\\tan^{-1}x}+\\frac12\\ln(1+x^2)+C$",
+    "$x\\tan^{-1}x+\\frac12\\ln(1+x^2)+C$",
+    "$\\frac{x^2}{2}\\tan^{-1}x-\\frac12x+\\frac12\\tan^{-1}x+C$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.10",
+    "12.3.4.9"
+   ],
+   "question": "The diagram shows the points representing $z$ and $w$. In which quadrant does $z-iw$ lie?",
+   "answer": "$-iw$ is $w$ rotated clockwise by $90^\\circ$ into quadrant 1; adding $z$ (also quadrant 1) stays there.",
+   "options": [
+    "Quadrant 1",
+    "Quadrant 2",
+    "Quadrant 3",
+    "Quadrant 4"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/ext2-2024-hornsby-girls/q5.png"
+   ]
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.9",
+    "12.1.1.12"
+   ],
+   "question": "‘For any function $f(x)$: $f$ is not continuous at $x=a\\Rightarrow f$ is not differentiable at $x=a$.’ Which is correct?",
+   "answer": "$|x|$ disproves the converse; the contrapositive is equivalent to the true statement.",
+   "options": [
+    "Converse false, contrapositive false",
+    "Converse false, contrapositive true",
+    "Converse true, contrapositive false",
+    "Converse true, contrapositive true"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.1",
+    "12.2.2.5"
+   ],
+   "question": "$\\overrightarrow{OA}=\\begin{pmatrix}2\\\\-1\\\\3\\end{pmatrix}$, $|\\overrightarrow{OB}|=3$ and $\\overrightarrow{OA}\\cdot\\overrightarrow{OB}=6$. Find the area of $\\triangle OAB$.",
+   "answer": "$\\cos\\theta=\\frac{2}{\\sqrt{14}}$, $\\sin\\theta=\\sqrt{\\frac{10}{14}}$, area $=\\frac12\\sqrt{14}\\cdot3\\sin\\theta$.",
+   "options": [
+    "$3\\sqrt{10}$",
+    "$\\frac{3\\sqrt{14}}{2}$",
+    "$\\frac{3\\sqrt{10}}{4}$",
+    "$\\frac{3\\sqrt{10}}{2}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.11",
+    "12.4.1.15"
+   ],
+   "question": "Given $\\displaystyle\\int_0^\\pi\\frac{\\sin x}{1+\\cos^2x}dx=\\frac\\pi2$, find $\\displaystyle\\int_0^\\pi\\frac{x\\sin x}{1+\\cos^2x}dx$.",
+   "answer": "$x\\to\\pi-x$ gives $2I=\\pi\\cdot\\frac\\pi2$.",
+   "options": [
+    "$0$",
+    "$\\frac\\pi2$",
+    "$\\frac{\\pi^2}{2}$",
+    "$\\frac{\\pi^2}{4}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.4"
+   ],
+   "question": "The point $P(z)$ traces three quarters of a circle with endpoints $\\alpha$ and $\\beta$, where the radii to $\\alpha$ and $\\beta$ are perpendicular. Which could be the equation of the locus?",
+   "answer": "The angle at the circumference is half the $\\frac\\pi2$ at the centre.",
+   "options": [
+    "$\\text{Arg}(z-\\alpha)-\\text{Arg}(z-\\beta)=0$",
+    "$\\text{Arg}(z-\\alpha)-\\text{Arg}(z-\\beta)=\\frac\\pi4$",
+    "$\\text{Arg}(z-\\alpha)-\\text{Arg}(z-\\beta)=\\frac\\pi2$",
+    "$\\text{Arg}(z-\\beta)-\\text{Arg}(z-\\alpha)=\\frac\\pi4$"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/ext2-2024-hornsby-girls/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.5"
+   ],
+   "question": "A mass hangs from a ceiling by two light strings. The strings are changed so that $l_1>l_2$, with $\\alpha$ and $\\beta$ their angles to the horizontal. Which is now true?",
+   "answer": "$l_1\\sin\\alpha=l_2\\sin\\beta$ gives $\\alpha<\\beta$; $T_1\\cos\\alpha=T_2\\cos\\beta$ gives $T_1<T_2$.",
+   "options": [
+    "$\\alpha>\\beta,\\ T_1>T_2$",
+    "$\\alpha>\\beta,\\ T_2>T_1$",
+    "$\\alpha<\\beta,\\ T_2>T_1$",
+    "$\\alpha<\\beta,\\ T_1>T_2$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/ext2-2024-hornsby-girls/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.10",
+    "12.3.1.9"
+   ],
+   "question": "Let $w=8-2i$ and $z=-5+3i$. Find $w+\\bar z$.",
+   "answer": "$8-2i+(-5-3i)=3-5i$"
+  },
+  {
+   "ref": "Q11(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.9"
+   ],
+   "question": "Show that $(1-2i)^2=-3-4i$.",
+   "answer": "$1-4i+4i^2=-3-4i$"
+  },
+  {
+   "ref": "Q11(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.1",
+    "12.3.1.14"
+   ],
+   "question": "Given $(1-2i)^2=-3-4i$, solve $z^2-5z+(7+i)=0$.",
+   "answer": "$\\Delta=25-4(7+i)=-3-4i=(1-2i)^2$\n$z=\\dfrac{5\\pm(1-2i)}{2}$, so $z=3-i$ or $z=2+i$."
+  },
+  {
+   "ref": "Q11(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.12"
+   ],
+   "question": "Find $\\dfrac{d}{dx}\\left(x\\sin^{-1}x\\right)$.",
+   "answer": "$\\sin^{-1}x+\\dfrac{x}{\\sqrt{1-x^2}}$"
+  },
+  {
+   "ref": "Q11(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Hence or otherwise find $\\displaystyle\\int\\sin^{-1}x\\,dx$.",
+   "answer": "$\\displaystyle\\int\\sin^{-1}x\\,dx=x\\sin^{-1}x-\\int\\frac{x}{\\sqrt{1-x^2}}dx=x\\sin^{-1}x+\\sqrt{1-x^2}+C$"
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.1.2.3"
+   ],
+   "question": "Give a non-inductive proof that $12^n>5^n+7^n$ for all integers $n\\ge2$.",
+   "answer": "$$12^n=(5+7)^n=5^n+\\sum_{r=1}^{n-1}\\binom nr5^{n-r}7^r+7^n$$\nFor $n\\ge2$ the middle sum has at least one term and all terms are positive, so $12^n>5^n+7^n$."
+  },
+  {
+   "ref": "Q11(e)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Use $e^{in\\theta}=\\cos n\\theta+i\\sin n\\theta$ to show $e^{in\\theta}+e^{-in\\theta}=2\\cos n\\theta$.",
+   "answer": "$e^{-in\\theta}=\\cos n\\theta-i\\sin n\\theta$; adding gives $2\\cos n\\theta$."
+  },
+  {
+   "ref": "Q11(e)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "By expanding $(e^{i\\theta}+e^{-i\\theta})^4$, prove that $\\cos^4\\theta=\\frac18\\cos4\\theta+\\frac12\\cos2\\theta+\\frac38$.",
+   "answer": "$(e^{i\\theta}+e^{-i\\theta})^4=(e^{4i\\theta}+e^{-4i\\theta})+4(e^{2i\\theta}+e^{-2i\\theta})+6$\n$16\\cos^4\\theta=2\\cos4\\theta+8\\cos2\\theta+6$\n$\\cos^4\\theta=\\frac18\\cos4\\theta+\\frac12\\cos2\\theta+\\frac38$"
+  },
+  {
+   "ref": "Q11(e)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.11",
+    "12.3.4.4"
+   ],
+   "question": "Using $\\cos^4\\theta=\\frac18\\cos4\\theta+\\frac12\\cos2\\theta+\\frac38$, find $\\displaystyle\\int_0^{\\pi/2}\\cos^4\\theta\\,d\\theta$.",
+   "answer": "$\\left[\\frac{\\sin4\\theta}{32}+\\frac{\\sin2\\theta}{4}+\\frac{3\\theta}{8}\\right]_0^{\\pi/2}=\\dfrac{3\\pi}{16}$"
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "$OABC$ is a trapezium with $\\overrightarrow{AB}=k\\overrightarrow{OC}$. Let $\\underset{\\sim}{a}=\\overrightarrow{OA}$, $\\underset{\\sim}{c}=\\overrightarrow{OC}$; $M$ and $N$ are the midpoints of $OB$ and $AC$. Find $\\overrightarrow{OM}$ in terms of $\\underset{\\sim}{a}$ and $\\underset{\\sim}{c}$.",
+   "answer": "$\\overrightarrow{OM}=\\frac12\\overrightarrow{OB}=\\frac12(\\underset{\\sim}{a}+k\\underset{\\sim}{c})$",
+   "images": [
+    "assets/img/ext2-2024-hornsby-girls/q12.png"
+   ]
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "$OABC$ is a trapezium with $\\overrightarrow{AB}=k\\overrightarrow{OC}$. Let $\\underset{\\sim}{a}=\\overrightarrow{OA}$, $\\underset{\\sim}{c}=\\overrightarrow{OC}$; $M$ and $N$ are the midpoints of $OB$ and $AC$. Find $\\overrightarrow{ON}$ in terms of $\\underset{\\sim}{a}$ and $\\underset{\\sim}{c}$.",
+   "answer": "$\\overrightarrow{ON}=\\frac12(\\overrightarrow{OA}+\\overrightarrow{OC})=\\frac12(\\underset{\\sim}{a}+\\underset{\\sim}{c})$",
+   "images": [
+    "assets/img/ext2-2024-hornsby-girls/q12.png"
+   ]
+  },
+  {
+   "ref": "Q12(a)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "$OABC$ is a trapezium with $\\overrightarrow{AB}=k\\overrightarrow{OC}$. Let $\\underset{\\sim}{a}=\\overrightarrow{OA}$, $\\underset{\\sim}{c}=\\overrightarrow{OC}$; $M$ and $N$ are the midpoints of $OB$ and $AC$. Find $\\overrightarrow{MN}$ in terms of $\\underset{\\sim}{a}$ and $\\underset{\\sim}{c}$.",
+   "answer": "$\\overrightarrow{MN}=\\overrightarrow{ON}-\\overrightarrow{OM}=\\frac12(1-k)\\underset{\\sim}{c}$",
+   "images": [
+    "assets/img/ext2-2024-hornsby-girls/q12.png"
+   ]
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Express $\\dfrac{x^2+1}{(x-1)(x^2+x+1)}$ in the form $\\dfrac{A}{x-1}+\\dfrac{Bx+C}{x^2+x+1}$.",
+   "answer": "$x^2+1=A(x^2+x+1)+(Bx+C)(x-1)$\n$x=1$: $A=\\frac23$. $x=0$: $C=-\\frac13$. Coefficient of $x^2$: $B=\\frac13$.\n$$\\frac{2}{3(x-1)}+\\frac{x-1}{3(x^2+x+1)}$$"
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.8",
+    "12.4.1.9"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{x^2+1}{(x-1)(x^2+x+1)}dx$.",
+   "answer": "The integrand is $\\dfrac{2}{3(x-1)}+\\dfrac{x-1}{3(x^2+x+1)}$, and $x-1=\\frac12(2x+1)-\\frac32$.\n$$\\int=\\tfrac23\\ln|x-1|+\\tfrac16\\ln(x^2+x+1)-\\tfrac12\\int\\frac{dx}{(x+\\frac12)^2+\\frac34}$$\n$$=\\tfrac23\\ln|x-1|+\\tfrac16\\ln(x^2+x+1)-\\frac{1}{\\sqrt3}\\tan^{-1}\\frac{2x+1}{\\sqrt3}+C$$"
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "Prove by contradiction that $\\log_25$ is irrational.",
+   "answer": "Suppose $\\log_25=\\frac pq$ with $p,q$ positive integers (positive since $\\log_25>0$).\nThen $2^{p/q}=5$, so $2^p=5^q$.\n$2^p$ is even but $5^q$ is odd: contradiction. So $\\log_25$ is irrational."
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.3"
+   ],
+   "question": "Write the line $x=\\lambda+1$, $y=\\lambda$, $z=2\\lambda+3$ in the form $\\underset{\\sim}{r}=\\underset{\\sim}{a}+\\lambda\\underset{\\sim}{b}$.",
+   "answer": "$\\underset{\\sim}{r}=\\begin{pmatrix}1\\\\0\\\\3\\end{pmatrix}+\\lambda\\begin{pmatrix}1\\\\1\\\\2\\end{pmatrix}$"
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.18",
+    "12.2.1.17"
+   ],
+   "question": "A sphere $S$ has centre $(2,-1,0)$ and radius $\\sqrt{29}$. The line $l$ is $x=\\lambda+1$, $y=\\lambda$, $z=2\\lambda+3$. Find the points $P$ and $Q$ where $l$ meets $S$.",
+   "answer": "$(\\lambda-1)^2+(\\lambda+1)^2+(2\\lambda+3)^2=29$\n$6\\lambda^2+12\\lambda-18=0\\Rightarrow(\\lambda+3)(\\lambda-1)=0$\n$P(-2,-3,-3)$ and $Q(2,1,5)$."
+  },
+  {
+   "ref": "Q13(a)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.18"
+   ],
+   "question": "A sphere $S$ has centre $(2,-1,0)$ and radius $\\sqrt{29}$. The line $l$ is $x=\\lambda+1$, $y=\\lambda$, $z=2\\lambda+3$. $l$ meets $S$ at $P(-2,-3,-3)$ and $Q(2,1,5)$. Determine whether $PQ$ is a diameter of $S$.",
+   "answer": "$PQ=\\sqrt{16+16+64}=\\sqrt{96}\\ne2\\sqrt{29}=\\sqrt{116}$, so $PQ$ is **not** a diameter."
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.5"
+   ],
+   "question": "A particle's displacement from $O$ is $x=6\\cos\\left(2t+\\frac\\pi4\\right)+\\cos2t$ metres. Show that it moves in simple harmonic motion about $O$.",
+   "answer": "$\\dot x=-12\\sin(2t+\\frac\\pi4)-2\\sin2t$\n$\\ddot x=-24\\cos(2t+\\frac\\pi4)-4\\cos2t=-4x$\nThis is $\\ddot x=-n^2x$ with $n=2$: SHM about $O$."
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.10"
+   ],
+   "question": "A particle's displacement from $O$ is $x=6\\cos\\left(2t+\\frac\\pi4\\right)+\\cos2t$ metres. Find the amplitude correct to 1 decimal place.",
+   "answer": "$x=(3\\sqrt2+1)\\cos2t-3\\sqrt2\\sin2t$\n$A=\\sqrt{(3\\sqrt2+1)^2+(3\\sqrt2)^2}=\\sqrt{37+6\\sqrt2}\\approx6.7$ m"
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.11",
+    "12.4.1.6"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{dx}{\\sqrt{(1-x^2)^3}}$, giving the answer without trigonometric functions.",
+   "answer": "Let $x=\\sin\\theta$, $-\\frac\\pi2<\\theta<\\frac\\pi2$, $dx=\\cos\\theta\\,d\\theta$.\n$$\\int\\frac{\\cos\\theta}{\\cos^3\\theta}d\\theta=\\int\\sec^2\\theta\\,d\\theta=\\tan\\theta+C=\\frac{x}{\\sqrt{1-x^2}}+C$$"
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.10",
+    "12.3.2.8"
+   ],
+   "question": "The line $l$ through the origin makes angle $\\alpha$ ($0<\\alpha<\\frac\\pi2$) with the positive real axis. $P$ represents $z_1$ where $0<\\arg z_1<\\alpha$; $Q$, representing $z_2$, is the reflection of $P$ in $l$, so $|z_1|=|z_2|$. Explain why $\\arg z_1+\\arg z_2=2\\alpha$.",
+   "answer": "Reflection preserves the angle with $l$: $Q$ is $\\alpha-\\arg z_1$ above $l$.\nSo $\\arg z_2=\\alpha+(\\alpha-\\arg z_1)$, hence $\\arg z_1+\\arg z_2=2\\alpha$.",
+   "images": [
+    "assets/img/ext2-2024-hornsby-girls/q14.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.5"
+   ],
+   "question": "The line $l$ through the origin makes angle $\\alpha$ ($0<\\alpha<\\frac\\pi2$) with the positive real axis. $P$ represents $z_1$ where $0<\\arg z_1<\\alpha$; $Q$, representing $z_2$, is the reflection of $P$ in $l$, so $|z_1|=|z_2|$. Deduce that $z_1z_2=|z_1|^2(\\cos2\\alpha+i\\sin2\\alpha)$.",
+   "answer": "$|z_1z_2|=|z_1||z_2|=|z_1|^2$ and $\\arg(z_1z_2)=\\arg z_1+\\arg z_2=2\\alpha$.",
+   "images": [
+    "assets/img/ext2-2024-hornsby-girls/q14.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.4"
+   ],
+   "question": "The line $l$ through the origin makes angle $\\alpha$ ($0<\\alpha<\\frac\\pi2$) with the positive real axis. $P$ represents $z_1$ where $0<\\arg z_1<\\alpha$; $Q$, representing $z_2$, is the reflection of $P$ in $l$, so $|z_1|=|z_2|$. Let $\\alpha=\\frac\\pi4$ and $R$ represent $z_1z_2$. Describe the locus of $R$ as $z_1$ varies.",
+   "answer": "$z_1z_2=i|z_1|^2$ with $|z_1|>0$: the positive imaginary axis, excluding $O$.",
+   "images": [
+    "assets/img/ext2-2024-hornsby-girls/q14.png"
+   ]
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.2",
+    "12.1.3.6"
+   ],
+   "question": "Given $a^2+b^2>2ab$ for unequal reals, deduce that for real unequal $a,b,c$: $a^2+b^2+c^2>ab+bc+ca$.",
+   "answer": "Add $a^2+b^2>2ab$, $b^2+c^2>2bc$, $c^2+a^2>2ca$ and halve."
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "For real unequal $a,b,c$ with $a+b+c=6$, show that $ab+bc+ca<12$. (You may use $a^2+b^2+c^2>ab+bc+ca$.)",
+   "answer": "$36=(a+b+c)^2=a^2+b^2+c^2+2(ab+bc+ca)>3(ab+bc+ca)$\nso $ab+bc+ca<12$."
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.5",
+    "12.4.1.6"
+   ],
+   "question": "Using $t=\\tan\\frac x2$, find $\\displaystyle\\int\\frac{dx}{3-\\cos x-2\\sin x}$.",
+   "answer": "$dx=\\dfrac{2\\,dt}{1+t^2}$, $\\cos x=\\dfrac{1-t^2}{1+t^2}$, $\\sin x=\\dfrac{2t}{1+t^2}$\n$$\\int\\frac{2\\,dt}{4t^2-4t+2}=\\int\\frac{2\\,dt}{(2t-1)^2+1}=\\tan^{-1}\\left(2\\tan\\tfrac x2-1\\right)+C$$"
+  },
+  {
+   "ref": "Q14(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "A particle starts at $x=2$ with velocity $v=\\sqrt{16-3x^2}$. Find $x$ in terms of $t$.",
+   "answer": "$t=\\displaystyle\\int_2^x\\frac{dx}{\\sqrt{16-3x^2}}=\\frac{1}{\\sqrt3}\\left(\\sin^{-1}\\frac{\\sqrt3x}{4}-\\frac\\pi3\\right)$\n$x=\\dfrac{4}{\\sqrt3}\\sin\\left(\\sqrt3t+\\dfrac\\pi3\\right)$"
+  },
+  {
+   "ref": "Q14(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.12"
+   ],
+   "question": "The position of an object is $\\underset{\\sim}{r}=\\begin{pmatrix}10\\cos t\\\\10\\sin t\\\\15-t\\end{pmatrix}$. Find the velocity vector and the initial speed.",
+   "answer": "$\\underset{\\sim}{v}=\\begin{pmatrix}-10\\sin t\\\\10\\cos t\\\\-1\\end{pmatrix}$; initial speed $=|(0,10,-1)|=\\sqrt{101}$"
+  },
+  {
+   "ref": "Q15(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.5"
+   ],
+   "question": "Solve $z^5+1=0$ by finding the fifth roots of $-1$.",
+   "answer": "$z^5=e^{i(\\pi+2k\\pi)}$, so $z=e^{\\pm i\\pi/5},\\ e^{\\pm 3i\\pi/5},\\ -1$."
+  },
+  {
+   "ref": "Q15(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.12"
+   ],
+   "question": "Show that if $z^5+1=0$ and $z\\ne-1$, then $u=z+\\frac1z$ satisfies $u^2-u-1=0$.",
+   "answer": "$(z+1)(z^4-z^3+z^2-z+1)=0$ and $z\\ne-1$. Divide the quartic by $z^2$:\n$\\left(z^2+\\frac1{z^2}\\right)-\\left(z+\\frac1z\\right)+1=0$\n$(u^2-2)-u+1=0\\Rightarrow u^2-u-1=0$\n*(The paper misprints the condition as $z\\ne1$.)*"
+  },
+  {
+   "ref": "Q15(a)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.12"
+   ],
+   "question": "For roots $z\\ne-1$ of $z^5+1=0$, $u=z+\\frac1z$ satisfies $u^2-u-1=0$. Hence find the exact value of $\\cos\\frac{3\\pi}{5}$.",
+   "answer": "For $z=e^{i\\theta}$, $u=2\\cos\\theta$, and $u=\\dfrac{1\\pm\\sqrt5}{2}$, so $\\cos\\theta=\\dfrac{1\\pm\\sqrt5}{4}$.\n$\\cos\\frac{3\\pi}{5}<0$, so $\\cos\\dfrac{3\\pi}{5}=\\dfrac{1-\\sqrt5}{4}$."
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.3.3"
+   ],
+   "question": "$x^4+ax^3+bx^2+cx+d=0$, with $a,b,c,d$ integers, has a root $ki$ ($k$ real, $k\\ne0$). State why $-ki$ is also a root.",
+   "answer": "The coefficients are real, so non-real roots occur in conjugate pairs."
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "$x^4+ax^3+bx^2+cx+d=0$, with $a,b,c,d$ integers, has a root $ki$ ($k$ real, $k\\ne0$). Show that $c=k^2a$.",
+   "answer": "$k^4-ak^3i-bk^2+cki+d=0$. Imaginary part: $k(c-ak^2)=0$, so $c=ak^2$."
+  },
+  {
+   "ref": "Q15(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "$x^4+ax^3+bx^2+cx+d=0$, with $a,b,c,d$ integers, has a root $ki$ ($k$ real, $k\\ne0$). Show that $c^2+a^2d=abc$.",
+   "answer": "Real part: $k^4-bk^2+d=0$. Multiply by $a^2$ and use $ak^2=c$:\n$c^2-abc+a^2d=0$, so $c^2+a^2d=abc$."
+  },
+  {
+   "ref": "Q15(b)(iv)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.3.4",
+    "12.1.2.3"
+   ],
+   "question": "$x^4+ax^3+bx^2+cx+d=0$, with $a,b,c,d$ integers, has a root $ki$ ($k$ real, $k\\ne0$). If 2 is also a root and $b=0$, show that $c$ is even.",
+   "answer": "$P(2)=0$: $16+8a+2c+d=0$, so $d$ is even.\nIf $a=0$ then $c=ak^2=0$, which is even.\nOtherwise $b=0$ gives $d=-k^4$ and $k^2=\\frac ca$ is rational. A rational whose square is the integer $-d$ is an integer, so $k^2=m\\in\\mathbb Z$.\n$d=-m^2$ is even, so $m$ is even, and $c=am$ is even."
+  },
+  {
+   "ref": "Q16(a)(i)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.5"
+   ],
+   "question": "$T_1=1$ and $T_{n+1}=\\dfrac{4+T_n}{1+T_n}$. Prove by induction that $T_n=2\\left(\\dfrac{1+(-3)^{-n}}{1-(-3)^{-n}}\\right)$ for $n\\ge1$.",
+   "answer": "$n=1$: $2\\cdot\\dfrac{2/3}{4/3}=1=T_1$.\nAssume true for $n=k$ and let $r=(-3)^{-k}$, so $T_k=\\dfrac{2(1+r)}{1-r}$.\n$$T_{k+1}=\\frac{4(1-r)+2(1+r)}{(1-r)+2(1+r)}=\\frac{6-2r}{3+r}=\\frac{2(1-\\frac r3)}{1+\\frac r3}$$\nSince $(-3)^{-(k+1)}=-\\frac r3$, this is $2\\,\\dfrac{1+(-3)^{-(k+1)}}{1-(-3)^{-(k+1)}}$. By induction it holds for all $n\\ge1$."
+  },
+  {
+   "ref": "Q16(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.4.4"
+   ],
+   "question": "$T_1=1$ and $T_{n+1}=\\dfrac{4+T_n}{1+T_n}$. Given $T_n=2\\,\\dfrac{1+(-3)^{-n}}{1-(-3)^{-n}}$, find $\\lim_{n\\to\\infty}T_n$.",
+   "answer": "$(-3)^{-n}\\to0$, so $T_n\\to2$."
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^{\\pi/4}\\tan^nx\\,dx$ and $J_n=(-1)^nI_{2n}$. Show that $I_n+I_{n+2}=\\dfrac1{n+1}$.",
+   "answer": "$I_n+I_{n+2}=\\displaystyle\\int_0^{\\pi/4}\\tan^nx\\sec^2x\\,dx=\\left[\\frac{\\tan^{n+1}x}{n+1}\\right]_0^{\\pi/4}=\\frac{1}{n+1}$"
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^{\\pi/4}\\tan^nx\\,dx$ and $J_n=(-1)^nI_{2n}$. Find $I_4$.",
+   "answer": "$I_0=\\frac\\pi4$, $I_2=1-\\frac\\pi4$, $I_4=\\frac13-I_2=\\frac\\pi4-\\frac23$"
+  },
+  {
+   "ref": "Q16(b)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^{\\pi/4}\\tan^nx\\,dx$ and $J_n=(-1)^nI_{2n}$. Deduce that $J_n-J_{n-1}=\\dfrac{(-1)^n}{2n-1}$ for $n\\ge1$.",
+   "answer": "$J_n-J_{n-1}=(-1)^n(I_{2n}+I_{2n-2})=\\dfrac{(-1)^n}{2n-1}$, using $I_k+I_{k+2}=\\frac1{k+1}$ with $k=2n-2$."
+  },
+  {
+   "ref": "Q16(b)(iv)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.15"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^{\\pi/4}\\tan^nx\\,dx$ and $J_n=(-1)^nI_{2n}$. Given $J_n-J_{n-1}=\\dfrac{(-1)^n}{2n-1}$, show that $J_m=\\dfrac\\pi4+\\displaystyle\\sum_{n=1}^m\\frac{(-1)^n}{2n-1}$.",
+   "answer": "$J_m=J_0+\\displaystyle\\sum_{n=1}^m(J_n-J_{n-1})$ (telescoping), and $J_0=I_0=\\frac\\pi4$."
+  },
+  {
+   "ref": "Q16(b)(v)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^{\\pi/4}\\tan^nx\\,dx$ and $J_n=(-1)^nI_{2n}$. Use $u=\\tan x$ to show that $I_n=\\displaystyle\\int_0^1\\frac{u^n}{1+u^2}du$.",
+   "answer": "$du=\\sec^2x\\,dx$, so $dx=\\dfrac{du}{1+u^2}$; limits $0$ to $1$."
+  },
+  {
+   "ref": "Q16(b)(vi)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.4.1.15"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^{\\pi/4}\\tan^nx\\,dx$ and $J_n=(-1)^nI_{2n}$. Using $I_n=\\displaystyle\\int_0^1\\frac{u^n}{1+u^2}du$, deduce $0\\le I_n\\le\\dfrac1{n+1}$ and conclude $J_n\\to0$.",
+   "answer": "On $[0,1]$, $0\\le\\dfrac{u^n}{1+u^2}\\le u^n$, so $0\\le I_n\\le\\dfrac{1}{n+1}$.\nThen $|J_n|=I_{2n}\\le\\dfrac{1}{2n+1}\\to0$."
+  }
+ ]
+}
