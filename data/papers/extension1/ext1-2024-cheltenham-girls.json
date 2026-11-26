@@ -1,0 +1,534 @@
+{
+ "id": "ext1-2024-cheltenham-girls",
+ "course": "extension1",
+ "school": "Cheltenham Girls",
+ "year": 2024,
+ "type": "Trial",
+ "thsc": {
+  "viewno": 5338,
+  "title": "Cheltenham Girls 2024 w. sol"
+ },
+ "indexed": "2026-11-27",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q2",
+   "reason": "Pigeonhole principle is not in the current Extension 1 syllabus"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^{1/2}\\frac{dx}{\\sqrt{1-4x^2}}$.",
+   "answer": "$\\left[\\tfrac12\\sin^{-1}2x\\right]_0^{1/2}=\\frac\\pi4$.",
+   "options": [
+    "$\\dfrac\\pi2$",
+    "$\\dfrac\\pi3$",
+    "$\\dfrac\\pi4$",
+    "$\\dfrac\\pi6$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.1.6",
+    "11.1.4.1"
+   ],
+   "question": "The graph shows $y=x^2$ and the lines $y=x+a$ and $y=a-x$, with their points of intersection ($a,m,n,p,q$ are positive). What is the solution to $x^2+x-a<0$?",
+   "answer": "$x^2<a-x$: the parabola lies below $y=a-x$ between $x=-n$ and $x=m$.",
+   "options": [
+    "$-n<x<-m$",
+    "$-n<x<m$",
+    "$-m<x<m$",
+    "$-m<x<n$"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/ext1-2024-cheltenham-girls/q3.png"
+   ]
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.3.2.4"
+   ],
+   "question": "$\\sin2A\\cos2A=$",
+   "answer": "$\\sin4A=2\\sin2A\\cos2A$.",
+   "options": [
+    "$4\\sin A\\cos A$",
+    "$\\dfrac12\\sin2A$",
+    "$2\\sin2A$",
+    "$\\dfrac12\\sin4A$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.6"
+   ],
+   "question": "The diagram shows vectors $\\mathbf u$ and $\\mathbf v$. Resultants $\\mathbf r_1$ and $\\mathbf r_2$ are constructed using $\\mathbf v_1$ and $\\mathbf v_2$, which are parallel to and equal in length to $\\mathbf v$. Which statement is true?",
+   "answer": "From the tip of $\\mathbf u$, adding $\\mathbf v$ gives $\\mathbf r_1$ and adding $-\\mathbf v$ gives $\\mathbf r_2$.",
+   "options": [
+    "$\\mathbf r_1=\\mathbf u-\\mathbf v,\\ \\mathbf r_2=\\mathbf u+\\mathbf v$",
+    "$\\mathbf r_1=\\mathbf v+\\mathbf u,\\ \\mathbf r_2=\\mathbf v-\\mathbf u$",
+    "$\\mathbf r_1=\\mathbf u+\\mathbf v,\\ \\mathbf r_2=\\mathbf u-\\mathbf v$",
+    "$\\mathbf r_1=\\mathbf v-\\mathbf u,\\ \\mathbf r_2=\\mathbf u-\\mathbf v$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/ext1-2024-cheltenham-girls/q5.png"
+   ]
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.8"
+   ],
+   "question": "How many distinct arrangements are possible from the letters of the word NECESSITIES?",
+   "answer": "11 letters with E ×3, S ×3, I ×2: $\\dfrac{11!}{3!\\,3!\\,2!}=554400$.",
+   "options": [
+    "50 400",
+    "554 400",
+    "1 663 200",
+    "39 916 800"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.4",
+    "12.2.3.6"
+   ],
+   "question": "$\\overrightarrow{AB}$ joins $A(-5,4)$ and $B(3,10)$. Given $\\mathbf u=\\mathbf i+2\\mathbf j$, $\\mathbf v=2\\mathbf i+\\mathbf j$ and $\\mathbf w=3\\mathbf i+\\mathbf j$, which vector is parallel to $\\overrightarrow{AB}$?",
+   "answer": "$\\overrightarrow{AB}=(8,6)$ and $\\mathbf w+\\mathbf u=(4,3)$.",
+   "options": [
+    "$\\mathbf u-\\mathbf v$",
+    "$\\mathbf u+\\mathbf v$",
+    "$\\mathbf w+\\mathbf v$",
+    "$\\mathbf w+\\mathbf u$"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/ext1-2024-cheltenham-girls/q7.png"
+   ]
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.9"
+   ],
+   "question": "The direction field for a differential equation is shown. Considering the point $(1,1)$, which differential equation could give this field?",
+   "answer": "The slope at $(1,1)$ is negative; only $y-2x=-1$ is negative.",
+   "options": [
+    "$y'=y-2x$",
+    "$y'=y+2x$",
+    "$y'=y+x$",
+    "$y'=x-y$"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/ext1-2024-cheltenham-girls/q8.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.1.3"
+   ],
+   "question": "The first diagram shows $y=h(x)$. Which of graphs A–D (second diagram) shows $y=|h(x)|$?",
+   "answer": "Parts below the $x$-axis are reflected above it; the rest is unchanged.",
+   "options": [
+    "Graph A",
+    "Graph B",
+    "Graph C",
+    "Graph D"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/ext1-2024-cheltenham-girls/q9.png",
+    "assets/img/ext1-2024-cheltenham-girls/q9opts.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.7"
+   ],
+   "question": "$N$ increases according to $N=P+Ae^{0.2t}$, as graphed. Which equation describes the rate of change of $N$?",
+   "answer": "The asymptote gives $P=10$ and $k=0.2$, so $\\frac{dN}{dt}=k(N-P)$.",
+   "options": [
+    "$\\dfrac{dN}{dt}=0.2(N-10)$",
+    "$\\dfrac{dN}{dt}=0.2(N-25)$",
+    "$\\dfrac{dN}{dt}=10(N-0.2)$",
+    "$\\dfrac{dN}{dt}=25(N-10)$"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/ext1-2024-cheltenham-girls/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.4.7"
+   ],
+   "question": "Show that the vectors $\\mathbf s=\\dbinom{5}{10}$ and $\\mathbf t=\\dbinom{-4}{2}$ are perpendicular.",
+   "answer": "$\\mathbf s\\cdot\\mathbf t=5(-4)+10(2)=0$.\nNeither vector is zero, so $\\cos\\theta=0$, $\\theta=90^\\circ$: they are perpendicular."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Use the substitution $u=\\tan\\theta$ to evaluate $\\displaystyle\\int_0^{\\pi/3}\\tan\\theta\\sec^2\\theta\\,d\\theta$.",
+   "answer": "$du=\\sec^2\\theta\\,d\\theta$; limits $u=0$ to $\\sqrt3$.\n$$\\int_0^{\\sqrt3}u\\,du=\\left[\\frac{u^2}{2}\\right]_0^{\\sqrt3}=\\frac32$$"
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "Find the coefficient of $x^9$ in the expansion of $\\left(\\dfrac{3x^3}{2}+\\dfrac15\\right)^6$.",
+   "answer": "The $x^9$ term has $(x^3)^3$:\n$$\\binom63\\left(\\frac32\\right)^3\\left(\\frac15\\right)^3=20\\times\\frac{27}{8}\\times\\frac1{125}=\\frac{27}{50}$$"
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.6",
+    "12.2.3.7"
+   ],
+   "question": "The diagram shows $\\mathbf a=\\dbinom45$, $\\mathbf b=\\dbinom{-9}{-1}$ and the resultant $\\mathbf a+\\mathbf b$. Show that $\\triangle OAC$ formed by the vectors is isosceles and find the size of $\\angle OAC$.",
+   "answer": "$\\mathbf a+\\mathbf b=\\dbinom{-5}{4}$, so $|\\mathbf a|=\\sqrt{41}=|\\mathbf a+\\mathbf b|$, i.e. $OA=OC$: isosceles.\n$\\mathbf a\\cdot(\\mathbf a+\\mathbf b)=-20+20=0$, so $\\angle AOC=90^\\circ$.\nThe base angles are equal, so $\\angle OAC=45^\\circ$.",
+   "images": [
+    "assets/img/ext1-2024-cheltenham-girls/q11d.png"
+   ]
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.2.1",
+    "12.4.2.2"
+   ],
+   "question": "Find the exact value of $\\displaystyle\\int_0^1\\frac{2x^2+1}{25+(2x^3+3x)^2}\\,dx$.",
+   "answer": "Let $u=2x^3+3x$, so $du=3(2x^2+1)\\,dx$; limits $0$ to $5$.\n$$\\frac13\\int_0^5\\frac{du}{25+u^2}=\\frac13\\left[\\frac15\\tan^{-1}\\frac u5\\right]_0^5=\\frac1{15}\\cdot\\frac\\pi4=\\frac{\\pi}{60}$$"
+  },
+  {
+   "ref": "Q11(f)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.7",
+    "11.2.1.9"
+   ],
+   "question": "Given that $P(x)=x^4-9x^3+25x^2-27x+10$ has a double root, factorise $P(x)$ into linear factors.",
+   "answer": "$P(1)=0$ and $P'(1)=4-27+50-27=0$, so $(x-1)^2$ is a factor.\nDividing: $P(x)=(x-1)^2(x^2-7x+10)=(x-1)^2(x-2)(x-5)$."
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.2.8"
+   ],
+   "question": "The graph of $f(x)=(x-1)^3-4$, $x\\ge0$, is shown. Sketch $y=f^{-1}(x)$ on the same diagram.",
+   "answer": "Reflect $y=f(x)$ in the line $y=x$. The inverse starts at $(-5,0)$, has a vertical tangent at $(-4,1)$ and meets $y=f(x)$ on the line $y=x$ near $x=2.9$.",
+   "images": [
+    "assets/img/ext1-2024-cheltenham-girls/q12a.png"
+   ],
+   "answer_images": [
+    "assets/img/ext1-2024-cheltenham-girls/q12a_ans.png"
+   ]
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.2.5",
+    "11.1.2.7"
+   ],
+   "question": "Let $f(x)=(x-1)^3-4$, $x\\ge0$. Write the equation of $y=f^{-1}(x)$ and state its domain.",
+   "answer": "Swap: $x=(y-1)^3-4$, so $f^{-1}(x)=\\sqrt[3]{x+4}+1$.\nDomain = range of $f$: $x\\ge f(0)=-5$."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.3",
+    "11.3.3.2"
+   ],
+   "question": "Express $\\sqrt6\\sin x+\\sqrt2\\cos x$ in the form $R\\sin(x+\\alpha)$ and hence, or otherwise, solve $\\sqrt6\\sin x+\\sqrt2\\cos x=2$ for $x\\in[0,2\\pi]$.",
+   "answer": "$R=\\sqrt{6+2}=2\\sqrt2$, $\\tan\\alpha=\\dfrac{\\sqrt2}{\\sqrt6}=\\dfrac1{\\sqrt3}$, $\\alpha=\\dfrac\\pi6$.\n$2\\sqrt2\\sin\\left(x+\\frac\\pi6\\right)=2\\Rightarrow\\sin\\left(x+\\frac\\pi6\\right)=\\frac1{\\sqrt2}$\n$x+\\frac\\pi6=\\frac\\pi4,\\ \\frac{3\\pi}4$, so $x=\\dfrac{\\pi}{12},\\ \\dfrac{7\\pi}{12}$."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.5.1.4",
+    "11.4.1.16"
+   ],
+   "question": "Given ${}^nC_4=p$ and ${}^nC_5=q$, use Pascal's triangle relationships to find an expression in $p$ and $q$ for ${}^{n+1}C_{n-4}+{}^nC_{n-4}$.",
+   "answer": "Symmetry: ${}^nC_{n-4}={}^nC_4=p$ and ${}^{n+1}C_{n-4}={}^{n+1}C_5$.\nPascal: ${}^{n+1}C_5={}^nC_4+{}^nC_5=p+q$.\nSum $=2p+q$."
+  },
+  {
+   "ref": "Q12(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.4"
+   ],
+   "question": "The internal surface of a water reservoir is formed by rotating $y=4x^2$ about the $y$-axis between $y=0$ and $y=h$; $r$ is the radius of the water surface when the depth is $h$ (metres). Show that the volume of water is $V=2\\pi r^4$.",
+   "answer": "$$V=\\pi\\int_0^h x^2\\,dy=\\pi\\int_0^h\\frac y4\\,dy=\\frac{\\pi h^2}{8}$$\nSince $h=4r^2$: $V=\\dfrac{\\pi(4r^2)^2}{8}=2\\pi r^4$.",
+   "images": [
+    "assets/img/ext1-2024-cheltenham-girls/q12d.png"
+   ]
+  },
+  {
+   "ref": "Q12(d)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "The internal surface of a water reservoir is formed by rotating $y=4x^2$ about the $y$-axis between $y=0$ and $y=h$; $r$ is the radius of the water surface when the depth is $h$ (metres). The radius changes at $\\dfrac{dr}{dt}=-2$ (time in hours). Show that $\\dfrac{dh}{dt}=-16r$.",
+   "answer": "$h=4r^2$, so $\\dfrac{dh}{dt}=\\dfrac{dh}{dr}\\cdot\\dfrac{dr}{dt}=8r(-2)=-16r$.",
+   "images": [
+    "assets/img/ext1-2024-cheltenham-girls/q12d.png"
+   ]
+  },
+  {
+   "ref": "Q12(d)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "The internal surface of a water reservoir is formed by rotating $y=4x^2$ about the $y$-axis between $y=0$ and $y=h$; $r$ is the radius of the water surface when the depth is $h$ (metres). The volume is $V=2\\pi r^4$ and $\\dfrac{dr}{dt}=-2$ (time in hours). Find the rate of change of $V$ when $r=5$.",
+   "answer": "$\\dfrac{dV}{dt}=8\\pi r^3\\cdot\\dfrac{dr}{dt}=-16\\pi r^3$.\nAt $r=5$: $\\dfrac{dV}{dt}=-2000\\pi\\ \\text{m}^3/\\text{h}$.",
+   "images": [
+    "assets/img/ext1-2024-cheltenham-girls/q12d.png"
+   ]
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.6",
+    "11.3.2.4"
+   ],
+   "question": "Evaluate $\\cos\\left[2\\sin^{-1}\\dfrac38\\right]$ in simplest exact form.",
+   "answer": "Let $\\theta=\\sin^{-1}\\frac38$. $\\cos2\\theta=1-2\\sin^2\\theta=1-\\dfrac{18}{64}=\\dfrac{23}{32}$."
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.1.10"
+   ],
+   "question": "In how many ways can seven girls be seated around a circular table with no restrictions?",
+   "answer": "$(7-1)!=720$"
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.11"
+   ],
+   "question": "Seven girls sit around a circular table. Three of them (Mahua, Inara and Lily) must sit next to each other with Lily in the middle. In how many ways can the seven be seated?",
+   "answer": "Treat the three as one unit: 5 units around a circle, $4!$ ways. Mahua and Inara can swap: $2$ ways.\nTotal $=2\\times4!=48$."
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.13",
+    "12.5.4.5"
+   ],
+   "question": "Use separation of variables to solve $\\dfrac{dy}{dx}=\\dfrac{3y}{x}$, given that $\\dfrac{dy}{dx}=6$ when $x=2$.",
+   "answer": "$$\\int\\frac{dy}{y}=\\int\\frac{3\\,dx}{x}\\Rightarrow\\ln|y|=3\\ln|x|+c\\Rightarrow y=Ax^3$$\nAt $x=2$: $6=\\dfrac{3y}{2}$, so $y=4$. Then $4=8A$, $A=\\frac12$.\n$$y=\\frac{x^3}{2}$$"
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.6"
+   ],
+   "question": "Given $\\tan^{-1}\\left(\\dfrac pq\\right)=\\alpha$ where $p,q>0$, find an expression for $\\cos\\left(\\dfrac\\pi2-\\alpha\\right)$ in terms of $p$ and $q$.",
+   "answer": "In a right triangle with opposite $p$ and adjacent $q$, the hypotenuse is $\\sqrt{p^2+q^2}$.\n$$\\cos\\left(\\tfrac\\pi2-\\alpha\\right)=\\sin\\alpha=\\frac{p}{\\sqrt{p^2+q^2}}$$"
+  },
+  {
+   "ref": "Q13(e)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "The equation $x^3-5x^2+2x-12=0$ has roots $\\alpha,\\beta,\\gamma$. Find $\\alpha+\\beta+\\gamma$.",
+   "answer": "$\\alpha+\\beta+\\gamma=-\\dfrac ba=5$"
+  },
+  {
+   "ref": "Q13(e)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "The equation $x^3-5x^2+2x-12=0$ has roots $\\alpha,\\beta,\\gamma$. Find $\\dfrac1\\alpha+\\dfrac1\\beta+\\dfrac1\\gamma$.",
+   "answer": "$$\\frac{\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha}{\\alpha\\beta\\gamma}=\\frac{2}{12}=\\frac16$$"
+  },
+  {
+   "ref": "Q13(f)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "Use mathematical induction to prove that $9^n-4^n$ is divisible by 5 for all integers $n\\ge1$.",
+   "answer": "$n=1$: $9-4=5$, true.\nAssume $9^k-4^k=5M$ for an integer $M$.\n$$9^{k+1}-4^{k+1}=9(5M+4^k)-4\\cdot4^k=5(9M+4^k)$$\nwhich is divisible by 5. Hence true for all $n\\ge1$ by induction."
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Using the substitution $u=\\sqrt x$, find $\\displaystyle\\int\\frac{dx}{\\sqrt x\\,e^{\\sqrt x}}$.",
+   "answer": "$du=\\dfrac{dx}{2\\sqrt x}$, so the integral is $\\displaystyle\\int2e^{-u}du=-2e^{-\\sqrt x}+C$."
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Solve $\\dfrac{x}{x+1}\\ge0$.",
+   "answer": "Multiply by $(x+1)^2$: $x(x+1)\\ge0$, with $x\\ne-1$.\n$$x<-1\\quad\\text{or}\\quad x\\ge0$$"
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.3"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_{\\pi/12}^{\\pi/4}2\\sin^24x\\,dx$ in simplest exact form.",
+   "answer": "$2\\sin^24x=1-\\cos8x$.\n$$\\left[x-\\frac{\\sin8x}{8}\\right]_{\\pi/12}^{\\pi/4}=\\frac\\pi4-\\left(\\frac\\pi{12}-\\frac{\\sqrt3}{16}\\right)=\\frac\\pi6+\\frac{\\sqrt3}{16}$$"
+  },
+  {
+   "ref": "Q14(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.1.9"
+   ],
+   "question": "By considering the expansion of $(1+x)^n$, prove that $$\\binom n1+3\\binom n2+9\\binom n3+\\dots+3^{n-1}\\binom nn=\\frac13\\left(2^{2n}-1\\right).$$",
+   "answer": "$$(1+x)^n=\\binom n0+\\binom n1x+\\binom n2x^2+\\dots+\\binom nnx^n$$\nPut $x=3$:\n$$4^n=1+3\\binom n1+3^2\\binom n2+\\dots+3^n\\binom nn$$\n$$2^{2n}-1=3\\left[\\binom n1+3\\binom n2+\\dots+3^{n-1}\\binom nn\\right]$$\nDividing by 3 gives the result."
+  },
+  {
+   "ref": "Q14(e)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.7",
+    "12.2.6.5"
+   ],
+   "question": "A particle projected from the origin at $v$ m/s at angle $\\theta$ to the horizontal has $x=vt\\cos\\theta$, $y=vt\\sin\\theta-\\dfrac{gt^2}{2}$. Show that the time of flight is $t=\\dfrac{2v\\sin\\theta}{g}$ and the horizontal range is $R=\\dfrac{v^2\\sin2\\theta}{g}$.",
+   "answer": "Landing: $y=0\\Rightarrow t\\left(v\\sin\\theta-\\dfrac{gt}{2}\\right)=0$. Since $t>0$, $t=\\dfrac{2v\\sin\\theta}{g}$.\n$$R=v\\cos\\theta\\cdot\\frac{2v\\sin\\theta}{g}=\\frac{v^2\\sin2\\theta}{g}$$",
+   "images": [
+    "assets/img/ext1-2024-cheltenham-girls/q14e.png"
+   ]
+  },
+  {
+   "ref": "Q14(e)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.7"
+   ],
+   "question": "The range of a projectile is $R=\\dfrac{v^2\\sin2\\theta}{g}$. Particle A is projected at $u$ m/s at $60^\\circ$; particle B at $2u$ m/s at $30^\\circ$. Show that the range of B is 4 times that of A.",
+   "answer": "$R_A=\\dfrac{u^2\\sin120^\\circ}{g}$ and $R_B=\\dfrac{4u^2\\sin60^\\circ}{g}$.\nSince $\\sin120^\\circ=\\sin60^\\circ$, $R_B=4R_A$.",
+   "images": [
+    "assets/img/ext1-2024-cheltenham-girls/q14eii.png"
+   ]
+  }
+ ]
+}
