@@ -1,0 +1,615 @@
+{
+ "id": "ext2-2024-abbotsleigh",
+ "course": "extension2",
+ "school": "Abbotsleigh",
+ "year": 2024,
+ "type": "Trial",
+ "thsc": {
+  "viewno": 5348,
+  "title": "Abbotsleigh 2024 w. sol"
+ },
+ "indexed": "2026-11-26",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q11(d)",
+   "reason": "Exponential (Euler) form of complex numbers"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.8"
+   ],
+   "question": "Consider the statement: \"If you understand the chain rule for differentiation, it will reduce the number of formulas for derivatives you need to remember.\"\n\nThe converse of this statement is:",
+   "answer": "**B.** The converse of $P\\Rightarrow Q$ is $Q\\Rightarrow P$.",
+   "options": [
+    "If you don't want to remember formulas, understand the chain rule.",
+    "If you have reduced the number of formulas for derivatives that you remember, then you understand the chain rule.",
+    "If you haven't reduced the number of derivative formulas you need to remember, you don't understand the chain rule.",
+    "If you don't understand the chain rule for differentiation you will need to remember a lot of formulas."
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "What is the magnitude of the vector $\\sin\\theta\\,\\underset{\\sim}{i}+\\cot\\theta\\,\\underset{\\sim}{j}+\\cos\\theta\\,\\underset{\\sim}{k}$, where $0<\\theta<\\dfrac\\pi2$?",
+   "answer": "**B.** $\\sqrt{\\sin^2\\theta+\\cot^2\\theta+\\cos^2\\theta}=\\sqrt{1+\\cot^2\\theta}=\\text{cosec}\\,\\theta$.",
+   "options": [
+    "$1$",
+    "$\\text{cosec}\\,\\theta$",
+    "$\\cot\\theta$",
+    "$\\sec\\theta$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.6",
+    "12.3.4.7"
+   ],
+   "question": "$a,b,c,d$ and $p$ are the fifth roots of unity as shown. Which of the points represents a square root of $p$?",
+   "answer": "**C.** Squaring doubles the argument. $c$ has argument $144^\\circ$, and $288^\\circ$ is the argument of $p$, so $c^2=p$.",
+   "images": [
+    "assets/img/ext2-2024-abbotsleigh/q3.png"
+   ],
+   "options": [
+    "$a$",
+    "$b$",
+    "$c$",
+    "$d$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.11"
+   ],
+   "question": "Which of the following is a correct expression for $\\displaystyle\\int\\frac{2x+1}{\\sqrt{9-x^2}}\\,dx$?",
+   "answer": "**C.** Split into $\\int\\frac{2x}{\\sqrt{9-x^2}}dx=-2\\sqrt{9-x^2}$ and $\\int\\frac{dx}{\\sqrt{9-x^2}}=\\sin^{-1}\\frac x3$.",
+   "options": [
+    "$\\sin^{-1}\\frac x3-\\sqrt{9-x^2}+C$",
+    "$\\cos^{-1}\\frac x3-2\\sqrt{9-x^2}+C$",
+    "$\\sin^{-1}\\frac x3-2\\sqrt{9-x^2}+C$",
+    "$-\\cos^{-1}\\frac x3-\\sqrt{9-x^2}+C$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.3",
+    "12.3.2.2"
+   ],
+   "question": "$z$ satisfies $|z-\\sqrt3+i|=1$. The minimum value of $\\arg z$ is:",
+   "answer": "**C.** The circle has centre $\\sqrt3-i$ (distance 2, argument $-30^\\circ$) and radius 1. The tangents from $O$ make angles $\\sin^{-1}\\frac12=30^\\circ$ with the line to the centre, so the least argument is $-60^\\circ$.",
+   "options": [
+    "$0^\\circ$",
+    "$-30^\\circ$",
+    "$-60^\\circ$",
+    "$-75^\\circ$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.2.1"
+   ],
+   "question": "$OACB$ is a rectangle with $\\overrightarrow{OA}=\\begin{pmatrix}2\\\\-1\\\\3\\end{pmatrix}$ and $\\overrightarrow{OB}=\\begin{pmatrix}-1\\\\4\\\\b\\end{pmatrix}$. Which of the following is $\\overrightarrow{OC}$?",
+   "answer": "**D.** $\\overrightarrow{OA}\\cdot\\overrightarrow{OB}=0$ gives $-6+3b=0$, so $b=2$, and $\\overrightarrow{OC}=\\overrightarrow{OA}+\\overrightarrow{OB}=(1,3,5)$.",
+   "options": [
+    "$\\begin{pmatrix}2\\\\4\\\\1\\end{pmatrix}$",
+    "$\\begin{pmatrix}2\\\\4\\\\5\\end{pmatrix}$",
+    "$\\begin{pmatrix}1\\\\3\\\\1\\end{pmatrix}$",
+    "$\\begin{pmatrix}1\\\\3\\\\5\\end{pmatrix}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.6",
+    "12.1.1.3"
+   ],
+   "question": "Which of the following is a symbolic representation of \"At least one of your friends is perfect\"?\n\nLet $P(x)$ be \"$x$ is perfect\", $F(x)$ be \"$x$ is your friend\", and let the domain be all people.",
+   "answer": "**C.** There exists a person who is both your friend and perfect.\n\n*Note: the paper writes $\\cap$ for \"and\"; the logical symbol is $\\land$.*",
+   "options": [
+    "$\\forall x\\,(F(x)\\to P(x))$",
+    "$\\forall x\\,(F(x)\\land P(x))$",
+    "$\\exists x\\,(F(x)\\land P(x))$",
+    "$\\exists x\\,(F(x)\\to P(x))$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.5.1",
+    "12.5.5.2"
+   ],
+   "question": "A particle of mass 1 kg is projected vertically upwards with speed $u$ from the origin $O$. It is subject to gravity and a resistance proportional to half the square of its velocity $v\\ \\text{m s}^{-1}$, the constant of proportionality being $k$. Let $x$ be its displacement above $O$ and $g$ the acceleration due to gravity.\n\nWhich expression gives the maximum height reached?",
+   "answer": "**B.** $v\\dfrac{dv}{dx}=-g-\\dfrac k2v^2$, so $H=\\displaystyle\\int_u^0\\frac{v\\,dv}{-g-\\frac k2v^2}$.",
+   "options": [
+    "$\\displaystyle\\int_u^0\\frac{dv}{-g-\\frac k2v^2}$",
+    "$\\displaystyle\\int_u^0\\frac{v\\,dv}{-g-\\frac k2v^2}$",
+    "$\\displaystyle\\int_u^0\\frac{dv}{-g+\\frac k2v^2}$",
+    "$\\displaystyle\\int_u^0\\frac{v\\,dv}{-g+\\frac k2v^2}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "What is the value of $\\displaystyle\\int_1^ex^3\\ln x\\,dx$?",
+   "answer": "**D.** By parts: $\\left[\\tfrac{x^4}4\\ln x\\right]_1^e-\\int_1^e\\tfrac{x^3}4dx=\\tfrac{e^4}4-\\tfrac{e^4-1}{16}=\\tfrac{3e^4+1}{16}$.",
+   "options": [
+    "$\\frac{3e^2}{2}-1$",
+    "$\\frac{3e^2}{2}+1$",
+    "$\\frac1{16}(3e^4-1)$",
+    "$\\frac1{16}(3e^4+1)$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.18",
+    "12.2.1.17"
+   ],
+   "question": "Consider the spheres\n$$S_1:(x+1)^2+(y-3)^2+(z+2)^2=4,\\qquad S_2:(x-1)^2+(y+1)^2+(z-2)^2=r^2.$$\nIf the spheres are tangential to each other, what are the possible values of $r$?",
+   "answer": "**B.** The centres are 6 apart. External contact: $r+2=6$; internal contact: $r-2=6$.",
+   "options": [
+    "$r=2$ or $4$",
+    "$r=4$ or $8$",
+    "$r=2$ or $8$",
+    "$r=4$ or $6$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.4"
+   ],
+   "question": "Solve $z^2+z+3=0$, $z\\in\\mathbb C$, giving your answers in Cartesian form.",
+   "answer": "$$z=\\frac{-1\\pm\\sqrt{1-12}}{2}=-\\frac12\\pm\\frac{\\sqrt{11}}{2}i$$"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.3",
+    "12.2.1.6"
+   ],
+   "question": "Find the equation of the line that is parallel to $\\underset{\\sim}{r}(\\lambda)=(2\\underset{\\sim}{i}+3\\underset{\\sim}{j}-\\underset{\\sim}{k})+\\lambda(-\\underset{\\sim}{i}+2\\underset{\\sim}{j}-4\\underset{\\sim}{k})$ and passes through the point $(2,-1,3)$.",
+   "answer": "$$\\underset{\\sim}{p}(\\mu)=(2\\underset{\\sim}{i}-\\underset{\\sim}{j}+3\\underset{\\sim}{k})+\\mu(-\\underset{\\sim}{i}+2\\underset{\\sim}{j}-4\\underset{\\sim}{k})$$"
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "Prove that $n^3-n$ is divisible by 6 for all integers $n$.",
+   "answer": "$n^3-n=(n-1)n(n+1)$ is a product of three consecutive integers. At least one of them is even and exactly one is a multiple of 3, so the product is divisible by $2$ and by $3$. Since 2 and 3 are coprime, it is divisible by 6."
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.2"
+   ],
+   "question": "Prove that the sum of two irrational numbers is irrational, or disprove it by counterexample.",
+   "answer": "It is **false**. $2+\\sqrt3$ and $2-\\sqrt3$ are both irrational, but their sum is $4$, which is rational."
+  },
+  {
+   "ref": "Q11(f)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.8",
+    "12.4.1.7"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{x+16}{x^2+2x-8}\\,dx$.",
+   "answer": "$\\dfrac{x+16}{(x+4)(x-2)}=\\dfrac{-2}{x+4}+\\dfrac{3}{x-2}$, so\n$$\\int=3\\ln|x-2|-2\\ln|x+4|+C$$"
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "Prove that $\\log_25$ is irrational.",
+   "answer": "Suppose $\\log_25=\\dfrac pq$ with $p,q$ positive integers (it is positive). Then $2^{p/q}=5$, so $2^p=5^q$.\n\nThe left side is even and the right side is odd, a contradiction. So $\\log_25$ is irrational."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.11"
+   ],
+   "question": "Find $\\displaystyle\\int_0^\\pi\\left(\\frac{\\cot\\theta+1}{\\text{cosec}\\,\\theta}-\\frac{\\sec\\theta}{\\tan\\theta+\\cot\\theta}\\right)d\\theta$.",
+   "answer": "$$\\frac{\\cot\\theta+1}{\\text{cosec}\\,\\theta}=\\cos\\theta+\\sin\\theta,\\qquad\\frac{\\sec\\theta}{\\tan\\theta+\\cot\\theta}=\\frac{1}{\\cos\\theta}\\cdot\\sin\\theta\\cos\\theta=\\sin\\theta$$\nSo the integrand simplifies to $\\cos\\theta$, and $\\displaystyle\\int_0^\\pi\\cos\\theta\\,d\\theta=0$."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.1",
+    "12.3.1.9"
+   ],
+   "question": "Given $i(\\omega+2)=z$ and $\\omega z=-4i$, where $\\text{Im}(\\omega)<0$, find the exact values of $\\omega$ and $z$ in the form $a+ib$.",
+   "answer": "Substituting, $\\omega\\,i(\\omega+2)=-4i$, so $\\omega^2+2\\omega+4=0$ and $(\\omega+1)^2=-3$.\n\nAs $\\text{Im}(\\omega)<0$: $\\omega=-1-\\sqrt3\\,i$, and then $z=i(1-\\sqrt3\\,i)=\\sqrt3+i$."
+  },
+  {
+   "ref": "Q12(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.4",
+    "12.2.1.3"
+   ],
+   "question": "The diagram shows the design of a garage. $ABCD$ is an inclined rectangular roof with $AB=10$ m and $AD=5$ m. $EFGH$ is a rectangle on horizontal ground with $EF=10$ m and $EH=4$ m. $A$ and $B$ are 3 m directly above $E$ and $F$; $C$ and $D$ are 6 m directly above $G$ and $H$. The origin $O$ is at the centre of $EFGH$, and the unit vectors $\\underset{\\sim}{i},\\underset{\\sim}{j},\\underset{\\sim}{k}$ are in the directions of $\\overrightarrow{EF},\\overrightarrow{EH},\\overrightarrow{EA}$.\n\nShow that $\\overrightarrow{AC}=\\begin{pmatrix}10\\\\4\\\\3\\end{pmatrix}$ and find a vector equation of the line through $A$ and $C$.",
+   "answer": "$A=(-5,-2,3)$ and $C=(5,2,6)$, so $\\overrightarrow{AC}=(10,4,3)$.\n$$\\underset{\\sim}{r}=\\begin{pmatrix}-5\\\\-2\\\\3\\end{pmatrix}+\\lambda\\begin{pmatrix}10\\\\4\\\\3\\end{pmatrix}$$",
+   "images": [
+    "assets/img/ext2-2024-abbotsleigh/q12d.png"
+   ]
+  },
+  {
+   "ref": "Q12(d)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.7",
+    "12.2.1.8"
+   ],
+   "question": "The diagram shows the design of a garage. $ABCD$ is an inclined rectangular roof with $AB=10$ m and $AD=5$ m. $EFGH$ is a rectangle on horizontal ground with $EF=10$ m and $EH=4$ m. $A$ and $B$ are 3 m directly above $E$ and $F$; $C$ and $D$ are 6 m directly above $G$ and $H$. The origin $O$ is at the centre of $EFGH$, and the unit vectors $\\underset{\\sim}{i},\\underset{\\sim}{j},\\underset{\\sim}{k}$ are in the directions of $\\overrightarrow{EF},\\overrightarrow{EH},\\overrightarrow{EA}$.\n\nA spotlight is on a vertical pillar standing at $Q(15,6,0)$. Find the height of the pillar if the spotlight is collinear with $A$ and $C$.",
+   "answer": "On line $AC$, $-5+10\\lambda=15$ gives $\\lambda=2$ (and $y=-2+8=6$ ✓). Then $z=3+6=9$, so the pillar is **9 m** high.",
+   "images": [
+    "assets/img/ext2-2024-abbotsleigh/q12d.png"
+   ]
+  },
+  {
+   "ref": "Q12(d)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.2.1"
+   ],
+   "question": "The diagram shows the design of a garage. $ABCD$ is an inclined rectangular roof with $AB=10$ m and $AD=5$ m. $EFGH$ is a rectangle on horizontal ground with $EF=10$ m and $EH=4$ m. $A$ and $B$ are 3 m directly above $E$ and $F$; $C$ and $D$ are 6 m directly above $G$ and $H$. The origin $O$ is at the centre of $EFGH$, and the unit vectors $\\underset{\\sim}{i},\\underset{\\sim}{j},\\underset{\\sim}{k}$ are in the directions of $\\overrightarrow{EF},\\overrightarrow{EH},\\overrightarrow{EA}$.\n\nThe main electrical supply runs along the line between $A$ and $C$. Find the coordinates of the point $X$ on $AC$ such that the distance from a light mounted at $D$ to the supply is minimised.",
+   "answer": "$D=(-5,2,6)$, so $\\overrightarrow{AD}=(0,4,3)$. $X$ is the foot of the perpendicular from $D$:\n$$\\overrightarrow{AX}=\\frac{\\overrightarrow{AD}\\cdot\\overrightarrow{AC}}{|\\overrightarrow{AC}|^2}\\overrightarrow{AC}=\\frac{25}{125}(10,4,3)=\\tfrac15(10,4,3)$$\n$$X=\\left(-3,\\ -\\frac65,\\ \\frac{18}{5}\\right)$$",
+   "images": [
+    "assets/img/ext2-2024-abbotsleigh/q12d.png"
+   ]
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Find $\\displaystyle\\int\\ln\\left(x+\\sqrt{x^2-4}\\right)dx$.",
+   "answer": "With $u=\\ln(x+\\sqrt{x^2-4})$, we get $u'=\\dfrac{1+\\frac{x}{\\sqrt{x^2-4}}}{x+\\sqrt{x^2-4}}=\\dfrac1{\\sqrt{x^2-4}}$. By parts:\n$$\\int=x\\ln(x+\\sqrt{x^2-4})-\\int\\frac{x}{\\sqrt{x^2-4}}\\,dx=x\\ln(x+\\sqrt{x^2-4})-\\sqrt{x^2-4}+C$$"
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.4.5",
+    "12.1.4.4"
+   ],
+   "question": "A sequence is defined by $u_1=2$ and $u_{r+1}=u_r+\\dfrac1{2^r}$. Prove by mathematical induction that $u_n=3-\\left(\\dfrac12\\right)^{n-1}$ for all $n\\in\\mathbb Z^+$.",
+   "answer": "**$n=1$:** $3-\\left(\\tfrac12\\right)^0=2=u_1$.\n\n**Assume** $u_k=3-\\left(\\tfrac12\\right)^{k-1}$. Then\n$$u_{k+1}=u_k+\\frac1{2^k}=3-\\frac{2}{2^k}+\\frac1{2^k}=3-\\left(\\tfrac12\\right)^k.$$\n\nSo it holds for $n=k+1$, and by induction for all $n\\in\\mathbb Z^+$."
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.5.1.1"
+   ],
+   "question": "The acceleration of a particle moving along the $x$-axis is $a=2x^3-5x\\ \\text{m s}^{-2}$. The particle has velocity $v=2\\ \\text{m s}^{-1}$ when $x=0$. Find an expression for $v$ in terms of $x$ and determine what values $x$ can take.",
+   "answer": "$$\\frac{d}{dx}\\left(\\tfrac12v^2\\right)=2x^3-5x\\ \\Rightarrow\\ v^2=x^4-5x^2+C$$\n$v=2$ at $x=0$ gives $C=4$:\n$$v^2=x^4-5x^2+4=(x^2-1)(x^2-4)$$\n\nWe need $v^2\\ge0$, and motion starting at $x=0$ stays in the interval containing 0, so $-1\\le x\\le1$.\n\nInitially $v=\\sqrt{x^4-5x^2+4}$. At $x=\\pm1$ the particle is momentarily at rest with acceleration directed back towards $O$, so it oscillates and $v=\\pm\\sqrt{x^4-5x^2+4}$.\n\n*Note: the school takes only the positive root, which holds just until the particle first stops at $x=1$. (The paper also gives the velocity's unit as $\\text{m s}^{-2}$.)*"
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.4",
+    "12.3.3.2"
+   ],
+   "question": "Given that $P(x)=x^4-2x^2-3x+a$ has a factor of $x^2+x+1$, find the value of $a$ and hence the roots of $P(x)$.",
+   "answer": "Dividing, $P(x)=(x^2+x+1)(x^2-x-2)+(a+2)$, so $a=-2$.\n\nThen $P(x)=(x^2+x+1)(x-2)(x+1)$, with roots\n$$x=2,\\ -1,\\ \\frac{-1\\pm\\sqrt3\\,i}{2}.$$"
+  },
+  {
+   "ref": "Q13(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.1",
+    "12.2.2.5"
+   ],
+   "question": "Let $\\underset{\\sim}{u}=\\underset{\\sim}{i}+\\underset{\\sim}{j}$ and $\\underset{\\sim}{v}=\\underset{\\sim}{i}+2\\underset{\\sim}{k}$. Find a unit vector perpendicular to both $\\underset{\\sim}{u}$ and $\\underset{\\sim}{v}$.",
+   "answer": "Let $\\underset{\\sim}{w}=(a,b,c)$. Then $a+b=0$ and $a+2c=0$, so $\\underset{\\sim}{w}\\parallel(2,-2,-1)$, which has length 3.\n$$\\hat{\\underset{\\sim}{w}}=\\pm\\tfrac13\\left(2\\underset{\\sim}{i}-2\\underset{\\sim}{j}-\\underset{\\sim}{k}\\right)$$\n\n*Note: the paper asks for \"the\" unit vector, but there are two, in opposite directions.*"
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{2x\\ln(2x^2+1)}{2x^2+1}\\,dx$.",
+   "answer": "With $u=\\ln(2x^2+1)$, $du=\\dfrac{4x}{2x^2+1}dx$:\n$$\\int=\\frac12\\int u\\,du=\\frac14\\left[\\ln(2x^2+1)\\right]^2+C$$"
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.3.5"
+   ],
+   "question": "Let $a,b,x,y,z\\in\\mathbb R^+$.\n\nProve the AM–GM inequality $\\dfrac{a+b}2\\ge\\sqrt{ab}$.",
+   "answer": "$(\\sqrt a-\\sqrt b)^2\\ge0$ gives $a-2\\sqrt{ab}+b\\ge0$, so $\\dfrac{a+b}{2}\\ge\\sqrt{ab}$."
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.1.3.5"
+   ],
+   "question": "Let $a,b,x,y,z\\in\\mathbb R^+$.\n\nGiven $x+y+z=1$ and the AM–GM inequality $\\dfrac{a+b}{2}\\ge\\sqrt{ab}$, prove that $\\dfrac{xy}z+\\dfrac{yz}x+\\dfrac{zx}y\\ge1$.",
+   "answer": "By AM–GM, $\\dfrac{xy}z+\\dfrac{yz}x\\ge2\\sqrt{y^2}=2y$. Similarly $\\dfrac{xy}z+\\dfrac{zx}y\\ge2x$ and $\\dfrac{yz}x+\\dfrac{zx}y\\ge2z$.\n\nAdding: $2\\left(\\dfrac{xy}z+\\dfrac{yz}x+\\dfrac{zx}y\\right)\\ge2(x+y+z)=2$, which gives the result."
+  },
+  {
+   "ref": "Q14(b)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.1.3.5"
+   ],
+   "question": "Given that $\\dfrac{a+b+c+d}4\\ge\\sqrt[4]{abcd}$ for $a,b,c,d\\in\\mathbb R^+$, prove that $\\dfrac{a+b+c}3\\ge\\sqrt[3]{abc}$.",
+   "answer": "Choose $d=\\dfrac{a+b+c}3$, so $a+b+c=3d$. The given inequality becomes\n$$\\frac{3d+d}{4}=d\\ge(abcd)^{1/4}.$$\nRaising to the fourth power: $d^4\\ge abcd$, so $d^3\\ge abc$ (as $d>0$), and therefore $\\dfrac{a+b+c}{3}\\ge\\sqrt[3]{abc}$."
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.17",
+    "12.2.1.18"
+   ],
+   "question": "A cube has diagonally opposite vertices at the origin $O$ and at $A(2a,4a,6a)$, where $a>0$. The edges of the cube are not parallel to the axes.\n\nProve that the vertices of the cube lie on the sphere $x^2+y^2+z^2=2ax+4ay+6az$.",
+   "answer": "All vertices of a cube are equidistant from its centre, which is the midpoint of the space diagonal $OA$: $(a,2a,3a)$.\n\nThe radius is the distance from the centre to $O$: $\\sqrt{a^2+4a^2+9a^2}=\\sqrt{14}\\,a$.\n\nSo all vertices lie on\n$$(x-a)^2+(y-2a)^2+(z-3a)^2=14a^2,$$\nwhich expands to $x^2+y^2+z^2=2ax+4ay+6az$."
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.18"
+   ],
+   "question": "Find the coordinates of the point on the sphere $x^2+y^2+z^2=2ax+4ay+6az$ (where $a>0$) that has the most negative $x$-value.",
+   "answer": "The sphere has centre $(a,2a,3a)$ and radius $\\sqrt{14}\\,a$. Moving one radius in the negative $x$-direction gives\n$$\\left(a(1-\\sqrt{14}),\\ 2a,\\ 3a\\right).$$"
+  },
+  {
+   "ref": "Q15(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14",
+    "12.4.1.13"
+   ],
+   "question": "For $n\\ge0$ let $I_n=\\displaystyle\\int_0^{\\pi/4}\\sec^nx\\,dx$. Show that $I_n=\\dfrac{(\\sqrt2)^{n-2}}{n-1}+\\dfrac{n-2}{n-1}I_{n-2}$ for $n\\ge2$.",
+   "answer": "By parts with $u=\\sec^{n-2}x$, $dv=\\sec^2x\\,dx$:\n$$I_n=\\left[\\sec^{n-2}x\\tan x\\right]_0^{\\pi/4}-(n-2)\\int_0^{\\pi/4}\\sec^{n-2}x\\tan^2x\\,dx$$\n$$=(\\sqrt2)^{n-2}-(n-2)(I_n-I_{n-2}).$$\n\nSo $(n-1)I_n=(\\sqrt2)^{n-2}+(n-2)I_{n-2}$, which gives the result."
+  },
+  {
+   "ref": "Q15(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Using $I_n=\\dfrac{(\\sqrt2)^{n-2}}{n-1}+\\dfrac{n-2}{n-1}I_{n-2}$, where $I_n=\\displaystyle\\int_0^{\\pi/4}\\sec^nx\\,dx$, evaluate $\\displaystyle\\int_0^{\\pi/4}\\sec^6x\\,dx$.",
+   "answer": "$I_2=1$, $I_4=\\dfrac23+\\dfrac23I_2=\\dfrac43$, and $I_6=\\dfrac45+\\dfrac45I_4=\\dfrac{28}{15}$."
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "A tetrahedron has vertices $A,B,C,D$ with position vectors $\\underset{\\sim}{a},\\underset{\\sim}{b},\\underset{\\sim}{c},\\underset{\\sim}{d}$. $E$ and $F$ are the midpoints of $AB$ and $CD$, and $M$ is the midpoint of $EF$. Find an expression for $\\overrightarrow{OM}$ in terms of $\\underset{\\sim}{a},\\underset{\\sim}{b},\\underset{\\sim}{c},\\underset{\\sim}{d}$.",
+   "answer": "$\\overrightarrow{OE}=\\tfrac12(\\underset{\\sim}{a}+\\underset{\\sim}{b})$ and $\\overrightarrow{OF}=\\tfrac12(\\underset{\\sim}{c}+\\underset{\\sim}{d})$. Hence\n$$\\overrightarrow{OM}=\\tfrac12\\left(\\overrightarrow{OE}+\\overrightarrow{OF}\\right)=\\tfrac14(\\underset{\\sim}{a}+\\underset{\\sim}{b}+\\underset{\\sim}{c}+\\underset{\\sim}{d})$$",
+   "images": [
+    "assets/img/ext2-2024-abbotsleigh/q15b.png"
+   ]
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.3",
+    "12.1.4.1"
+   ],
+   "question": "Given $P_n(x)=(x-a_1)(x-a_2)\\cdots(x-a_n)$, prove by mathematical induction that\n$$\\frac{P_n'(x)}{P_n(x)}=\\frac1{x-a_1}+\\frac1{x-a_2}+\\cdots+\\frac1{x-a_n}\\quad\\text{for }n\\ge2.$$",
+   "answer": "**$n=2$:** $P_2'(x)=(x-a_2)+(x-a_1)$, so $\\dfrac{P_2'}{P_2}=\\dfrac1{x-a_1}+\\dfrac1{x-a_2}$.\n\n**Assume** true for $n=k$. Since $P_{k+1}=(x-a_{k+1})P_k$, the product rule gives\n$$\\frac{P_{k+1}'}{P_{k+1}}=\\frac{P_k+(x-a_{k+1})P_k'}{(x-a_{k+1})P_k}=\\frac1{x-a_{k+1}}+\\frac{P_k'}{P_k}.$$\n\nBy the assumption this is $\\sum_{j=1}^{k+1}\\dfrac1{x-a_j}$. So the result holds for all $n\\ge2$ (for $x$ not equal to any $a_j$)."
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.12",
+    "12.3.4.5"
+   ],
+   "question": "Let $\\omega=\\cos\\dfrac{2\\pi}n+i\\sin\\dfrac{2\\pi}n$ and $P(z)=(z-\\omega)(z-\\omega^2)\\cdots(z-\\omega^{n-1})$.\n\nYou may use $\\dfrac{P'(z)}{P(z)}=\\sum\\dfrac1{z-a_j}$, where the $a_j$ are the zeros of $P$. By finding another expression for $P(z)$, or otherwise, show that\n$$\\frac1{1-\\omega}+\\frac1{1-\\omega^2}+\\cdots+\\frac1{1-\\omega^{n-1}}=\\frac{n-1}{2}.$$",
+   "answer": "The numbers $1,\\omega,\\dots,\\omega^{n-1}$ are the roots of $z^n=1$, so $z^n-1=(z-1)P(z)$ and therefore\n$$P(z)=1+z+z^2+\\cdots+z^{n-1}.$$\n\nThen $P(1)=n$ and $P'(1)=1+2+\\cdots+(n-1)=\\dfrac{n(n-1)}2$.\n\nHence\n$$\\sum_{j=1}^{n-1}\\frac1{1-\\omega^j}=\\frac{P'(1)}{P(1)}=\\frac{n-1}2.$$\n\n*Note: the paper says only that $\\omega$ is \"an $n$th root of unity\". It must be a primitive root, such as $\\cos\\frac{2\\pi}n+i\\sin\\frac{2\\pi}n$ (specified here), for the powers to give all the other roots.*"
+  },
+  {
+   "ref": "Q16(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.1.3.1"
+   ],
+   "question": "Given $x\\ge0$, prove that $1-x\\le\\dfrac1{1+x}\\le1$.",
+   "answer": "Since $x\\ge0$: $1-x^2\\le1\\le1+x$. Dividing by $1+x>0$ gives\n$$1-x\\le\\frac1{1+x}\\le1.$$"
+  },
+  {
+   "ref": "Q16(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.9",
+    "12.1.3.6"
+   ],
+   "question": "Given that $1-x\\le\\dfrac1{1+x}\\le1$ for $x\\ge0$, show that for $x>0$,\n$$1-\\frac1{2x}\\le x\\ln\\left(1+\\frac1x\\right)\\le1.$$",
+   "answer": "Integrating the inequality from $0$ to $u>0$:\n$$u-\\frac{u^2}2\\le\\ln(1+u)\\le u\\ \\Rightarrow\\ 1-\\frac u2\\le\\frac{\\ln(1+u)}{u}\\le1.$$\n\nPut $u=\\dfrac1x$ with $x>0$:\n$$1-\\frac1{2x}\\le x\\ln\\left(1+\\frac1x\\right)\\le1.$$"
+  },
+  {
+   "ref": "Q16(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.8"
+   ],
+   "question": "Given that $1-\\dfrac1{2x}\\le x\\ln\\left(1+\\dfrac1x\\right)\\le1$ for $x>0$, deduce that $\\displaystyle\\lim_{x\\to\\infty}\\left(1+\\frac1x\\right)^x=e$.",
+   "answer": "Exponentiating (the exponential function is increasing):\n$$e^{1-\\frac1{2x}}\\le\\left(1+\\frac1x\\right)^x\\le e.$$\nAs $x\\to\\infty$, $e^{1-\\frac1{2x}}\\to e$. By the squeeze theorem the limit is $e$."
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.5.2",
+    "12.5.5.1"
+   ],
+   "question": "An object of mass 1 kg is dropped from a height $h$ metres above the ground. It is subject to a gravitational force $g$ and a resistive force $kv$ newtons, where $v\\ \\text{m s}^{-1}$ is its velocity, so $a=g-kv$.\n\nShow that its velocity at time $t$ is $v=\\dfrac gk\\left(1-e^{-kt}\\right)$.",
+   "answer": "$$\\int_0^v\\frac{dv}{g-kv}=\\int_0^tdt\\ \\Rightarrow\\ -\\frac1k\\ln\\frac{g-kv}{g}=t$$\nSo $g-kv=ge^{-kt}$ and $v=\\dfrac gk(1-e^{-kt})$."
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.5.3"
+   ],
+   "question": "An object of mass 1 kg is dropped from a height $h$ metres above the ground. It is subject to a gravitational force $g$ and a resistive force $kv$ newtons, where $v\\ \\text{m s}^{-1}$ is its velocity, so $a=g-kv$.\n\nGiven $v=\\dfrac gk(1-e^{-kt})$, show that its distance below the point of release at time $t$ is $x=\\dfrac{gt}k+\\dfrac g{k^2}\\left(e^{-kt}-1\\right)$.",
+   "answer": "$$x=\\int_0^t\\frac gk(1-e^{-ks})\\,ds=\\frac gk\\left[s+\\frac{e^{-ks}}{k}\\right]_0^t=\\frac{gt}{k}+\\frac{g}{k^2}\\left(e^{-kt}-1\\right)$$"
+  },
+  {
+   "ref": "Q16(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.5.3"
+   ],
+   "question": "An object of mass 1 kg is dropped from a height $h$ metres above the ground. It is subject to a gravitational force $g$ and a resistive force $kv$ newtons, where $v\\ \\text{m s}^{-1}$ is its velocity, so $a=g-kv$.\n\nAt the same time as it is released, a second identical object is projected vertically upwards from the ground with velocity $u\\ \\text{m s}^{-1}$. Taking the ground as origin and upwards as positive, its velocity is $v=\\dfrac{g+ku}{k}e^{-kt}-\\dfrac gk$.\n\nShow that the distance $X$ of the second object below the height $h$ is $X=h+\\dfrac{g+ku}{k^2}\\left(e^{-kt}-1\\right)+\\dfrac gkt$.",
+   "answer": "The height of the second object is\n$$y=\\int_0^tv\\,ds=\\frac{g+ku}{k^2}\\left(1-e^{-kt}\\right)-\\frac gkt.$$\nSo $X=h-y=h+\\dfrac{g+ku}{k^2}(e^{-kt}-1)+\\dfrac gkt$."
+  },
+  {
+   "ref": "Q16(b)(iv)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.5.6"
+   ],
+   "question": "An object of mass 1 kg is dropped from a height $h$ metres above the ground. It is subject to a gravitational force $g$ and a resistive force $kv$ newtons, where $v\\ \\text{m s}^{-1}$ is its velocity, so $a=g-kv$.\n\nAt the same time as it is released, a second identical object is projected vertically upwards from the ground with velocity $u\\ \\text{m s}^{-1}$. Taking the ground as origin and upwards as positive, its velocity is $v=\\dfrac{g+ku}{k}e^{-kt}-\\dfrac gk$.\n\nThe distances below height $h$ of the first and second objects are\n$$x=\\frac{gt}k+\\frac g{k^2}(e^{-kt}-1),\\qquad X=h+\\frac{g+ku}{k^2}(e^{-kt}-1)+\\frac gkt.$$\nIf the objects collide at time $T$, show that $T=\\dfrac1k\\ln\\left(\\dfrac u{u-kh}\\right)$.",
+   "answer": "At collision $x=X$. Cancelling $\\dfrac{gT}{k}$:\n$$\\left(e^{-kT}-1\\right)\\left(\\frac{g}{k^2}-\\frac{g+ku}{k^2}\\right)=h\\ \\Rightarrow\\ -\\frac uk\\left(e^{-kT}-1\\right)=h.$$\n\nSo $e^{-kT}=\\dfrac{u-kh}{u}$ and $T=\\dfrac1k\\ln\\left(\\dfrac{u}{u-kh}\\right)$ (this needs $u>kh$)."
+  }
+ ]
+}
