@@ -1,0 +1,633 @@
+{
+ "id": "ext2-2024-ascham",
+ "course": "extension2",
+ "school": "Ascham",
+ "year": 2024,
+ "type": "Trial",
+ "thsc": {
+  "viewno": 5348,
+  "title": "Ascham 2024 w. sol"
+ },
+ "indexed": "2026-11-26",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "5",
+   "reason": "The perspective plot of the 3D curve does not allow the four parametrisations to be distinguished reliably"
+  },
+  {
+   "ref": "10",
+   "reason": "Flawed: with no initial conditions, all four options satisfy the given acceleration equation"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.12",
+    "12.2.1.14"
+   ],
+   "question": "Which of the following does $\\underset{\\sim}{u}=\\begin{pmatrix}4t\\\\5t^2\\\\3t^3\\end{pmatrix}$ describe?",
+   "answer": "It is a twisted (cubic) curve in three dimensions: $y=\\dfrac{5x^2}{16}$ and $z=\\dfrac{3x^3}{64}$.",
+   "options": [
+    "A circle",
+    "A parabola",
+    "A sphere",
+    "None of the above"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "What are the roots of $x^3-7x^2+17x-15=0$?",
+   "answer": "The sum of the roots is 7 and the product is 15.",
+   "options": [
+    "$2+i,\\ 2-i,\\ 3$",
+    "$-2+i,\\ -2-i,\\ 3$",
+    "$2+i,\\ 2-i,\\ -3$",
+    "$-2+i,\\ -2-i,\\ -3$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.6",
+    "12.3.2.4"
+   ],
+   "question": "Let $z^n=\\big(r(\\cos\\alpha+i\\sin\\alpha)\\big)^n$. Which of the following is true?",
+   "answer": "$z^n=r^n\\cos n\\alpha+ir^n\\sin n\\alpha$ always has real parts, though they need not be rational.",
+   "options": [
+    "$\\forall r,n\\in\\mathbb{N},\\ \\exists x,y\\in\\mathbb{Q}:\\ z^n=x+iy$",
+    "$\\forall x,y\\in\\mathbb{R},\\ \\exists r,n\\in\\mathbb{N}:\\ z^n=x+iy$",
+    "$\\forall r,n\\in\\mathbb{N},\\ \\exists x,y\\in\\mathbb{R}:\\ z^n=x+iy$",
+    "$\\forall x,y\\in\\mathbb{Z},\\ \\exists r,n\\in\\mathbb{Z}:\\ z^n=x+iy$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.12"
+   ],
+   "question": "$\\omega$ is a complex cube root of unity. What is the value of $(\\omega^2+\\omega-1)(\\omega^2-\\omega+1)$?",
+   "answer": "Using $1+\\omega+\\omega^2=0$: $(-2)(-2\\omega)=4\\omega$.",
+   "options": [
+    "$\\omega$",
+    "$2\\omega$",
+    "$3\\omega$",
+    "$4\\omega$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.8"
+   ],
+   "question": "Which is the converse of the statement \"If you vape, then your lungs do not function properly\"?",
+   "answer": "The converse of $P\\Rightarrow Q$ is $Q\\Rightarrow P$.",
+   "options": [
+    "If you vape, your lungs function properly.",
+    "If your lungs do not function properly, then you vape.",
+    "If your lungs function properly, then you vape.",
+    "If you do not vape, then your lungs do not function properly."
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.7"
+   ],
+   "question": "What is the modulus of $\\left(\\dfrac{1+i\\sqrt3}{1-i\\sqrt2}\\right)^{10}$?",
+   "answer": "$\\left(\\dfrac{2}{\\sqrt3}\\right)^{10}=\\dfrac{2^{10}}{3^5}$.",
+   "options": [
+    "$\\dfrac{4^{10}}{3^{10}}$",
+    "$\\dfrac{4^{10}}{3^5}$",
+    "$\\dfrac{2^{10}}{3^5}$",
+    "$\\dfrac{2^{10}}{3^{10}}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Without a full calculation, what is the value of $\\displaystyle\\int_0^\\pi\\sin^8x\\,dx$?",
+   "answer": "The integral is positive and much smaller than $\\int_0^\\pi\\sin x\\,dx=2$, ruling out C and D in favour of $\\dfrac{35\\pi}{128}\\approx0.86$ (A is negative).",
+   "options": [
+    "$\\dfrac{3\\pi}{90}-1$",
+    "$\\dfrac{35\\pi}{128}$",
+    "$\\dfrac{\\pi}{2}$",
+    "$\\pi$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.1.5"
+   ],
+   "question": "A box of mass 2 kg is held by two strings with tensions $T_1$ and $T_2$, making angles $\\theta$ and $\\alpha$ respectively with the horizontal, as shown. Which equation correctly describes the vertical forces on the box?",
+   "answer": "Both tensions have upward vertical components balancing the weight $2g$.",
+   "images": [
+    "assets/img/ext2-2024-ascham/q9.png"
+   ],
+   "options": [
+    "$T_1\\sin\\theta+T_2\\sin\\alpha=2g$",
+    "$T_1\\sin\\theta-T_2\\sin\\alpha=2g$",
+    "$T_1\\cos\\theta+T_2\\cos\\alpha=2g$",
+    "$T_1\\cos\\theta-T_2\\cos\\alpha=2g$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "11(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.2",
+    "12.3.1.11"
+   ],
+   "question": "Given $z=-1+i\\sqrt3$, find $\\arg z$ and $|z|$.",
+   "answer": "$|z|=\\sqrt{1+3}=2$ and, since $z$ is in the second quadrant, $\\arg z=\\dfrac{2\\pi}{3}$."
+  },
+  {
+   "ref": "11(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "Given $z=-1+i\\sqrt3$, find $z^{15}$ in Cartesian form.",
+   "answer": "$z=2\\left(\\cos\\dfrac{2\\pi}3+i\\sin\\dfrac{2\\pi}3\\right)$, so by de Moivre\n\n$$z^{15}=2^{15}(\\cos10\\pi+i\\sin10\\pi)=32\\,768+0i$$"
+  },
+  {
+   "ref": "11(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.11"
+   ],
+   "question": "Find $\\displaystyle\\int_{-3}^{3}(x+4)\\sqrt{9-x^2}\\,dx$.",
+   "answer": "$$=\\int_{-3}^3x\\sqrt{9-x^2}\\,dx+4\\int_{-3}^3\\sqrt{9-x^2}\\,dx$$\n\nThe first integrand is odd, so that integral is $0$. The second is the area of a semicircle of radius 3, $\\dfrac{9\\pi}{2}$.\n\n$$\\text{Value}=4\\times\\frac{9\\pi}{2}=18\\pi$$"
+  },
+  {
+   "ref": "11(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "Explain briefly why $n(n+1)(n-1)$ is divisible by 6 for $n\\in\\mathbb{N}$.",
+   "answer": "$(n-1)$, $n$, $(n+1)$ are three consecutive integers. At least one of them is even and exactly one is a multiple of 3, so the product is divisible by $2\\times3=6$.\n\n*Note: the school's argument claims that for even $n$ one of $n\\pm1$ is divisible by 3, which is false (e.g. $n=6$).*"
+  },
+  {
+   "ref": "11(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.2.3"
+   ],
+   "question": "Consider the true statement: for $a,b,c\\in\\mathbb{N}$, if either $a$ or $b$ is divisible by $c$, then $ab$ is divisible by $c$. Use proof by contradiction to prove that $n(n+1)(n-1)$ is not divisible by 30 if $n=5m\\pm2$ for some integer $m$.",
+   "answer": "Suppose $n=5m\\pm2$ and $n(n+1)(n-1)$ is divisible by 30. Then it is divisible by 5.\n\nNow $n^2=25m^2\\pm20m+4$, so $n^2-1=25m^2\\pm20m+3$. Hence\n\n$$n(n^2-1)=(5m\\pm2)\\big(5(5m^2\\pm4m)+3\\big)=5k\\pm6$$\n\nfor some integer $k$. Since $\\pm6$ is not a multiple of 5, the product is not divisible by 5, a contradiction. Hence it is not divisible by 30.\n\n*Note: the school writes the expansion as $5Y+3$; the constant term is $\\pm6$. The conclusion is unaffected. The quoted statement has also been simplified from the paper's garbled wording.*"
+  },
+  {
+   "ref": "11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.7"
+   ],
+   "question": "Write the negation of the statement: *There exists a student who studies for her exams with an ATAR < 90.*",
+   "answer": "Every student who studies for her exams has an ATAR of at least 90. (Equivalently: there is no student who studies for her exams with an ATAR below 90.)"
+  },
+  {
+   "ref": "12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Find $\\displaystyle\\int\\tan x\\,\\ln(\\cos x)\\,dx$.",
+   "answer": "Let $u=\\ln(\\cos x)$, so $du=-\\tan x\\,dx$.\n\n$$\\int\\tan x\\ln(\\cos x)\\,dx=-\\int u\\,du=-\\frac12\\big(\\ln(\\cos x)\\big)^2+C$$"
+  },
+  {
+   "ref": "12(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.15"
+   ],
+   "question": "Explain geometrically why $\\displaystyle\\int_1^e\\ln x\\,dx+\\int_0^1e^x\\,dx=e$.",
+   "answer": "$y=e^x$ and $y=\\ln x$ are inverse functions, so their graphs are reflections in $y=x$. The area $\\int_1^e\\ln x\\,dx$ under $y=\\ln x$ reflects to the area between $y=e^x$, the line $y=e$ and the $y$-axis (from $y=1$ to $y=e$).\n\nTogether with the area under $y=e^x$ from 0 to 1, this fills exactly the rectangle $0\\le x\\le1$, $0\\le y\\le e$, whose area is $e$.",
+   "answer_images": [
+    "assets/img/ext2-2024-ascham/ans12b.png"
+   ]
+  },
+  {
+   "ref": "12(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.7"
+   ],
+   "question": "Find the six roots of $z^6=-1$ and plot them on an Argand diagram.",
+   "answer": "$z^6=\\cos(\\pi+2k\\pi)+i\\sin(\\pi+2k\\pi)$, so $z=\\text{cis}\\dfrac{(2k+1)\\pi}{6}$:\n\n$$z=\\text{cis}\\left(\\pm\\frac\\pi6\\right),\\ \\pm i,\\ \\text{cis}\\left(\\pm\\frac{5\\pi}6\\right)$$\n\nThey are equally spaced on the unit circle.",
+   "answer_images": [
+    "assets/img/ext2-2024-ascham/ans12c.png"
+   ]
+  },
+  {
+   "ref": "12(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.12"
+   ],
+   "question": "Using the six roots of $z^6=-1$, or otherwise, find the four roots of $z^4-z^2+1=0$.",
+   "answer": "$z^6+1=(z^2+1)(z^4-z^2+1)$. The factor $z^2+1$ accounts for $z=\\pm i$, so the roots of $z^4-z^2+1=0$ are\n\n$$z=\\text{cis}\\left(\\pm\\frac\\pi6\\right),\\ \\text{cis}\\left(\\pm\\frac{5\\pi}6\\right)$$"
+  },
+  {
+   "ref": "12(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.11",
+    "12.3.4.10"
+   ],
+   "question": "The complex numbers $z_1,z_2,z_3,z_4$ are represented by $Z_1,Z_2,Z_3,Z_4$, the vertices of a rectangle with $2Z_1Z_2=Z_2Z_3$, as shown. Let $z_2=\\sqrt3+i$ and $z_3=4\\sqrt3+4i$. Find $z_1$ in Cartesian form.",
+   "answer": "$Z_2Z_1$ is $Z_2Z_3$ rotated anticlockwise by $90^\\circ$ and halved: $z_1-z_2=\\dfrac i2(z_3-z_2)=\\dfrac i2(3\\sqrt3+3i)=-\\dfrac32+\\dfrac{3\\sqrt3}{2}i$.\n\n$$z_1=\\left(\\sqrt3-\\frac32\\right)+\\left(1+\\frac{3\\sqrt3}2\\right)i$$\n\n*Note: the school's answer has real part $\\sqrt3+\\tfrac32$, a sign error (it would put $Z_1$ to the right of $Z_2$).*",
+   "images": [
+    "assets/img/ext2-2024-ascham/q12d.png"
+   ]
+  },
+  {
+   "ref": "12(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.9"
+   ],
+   "question": "The complex numbers $z_1,z_2,z_3,z_4$ are represented by $Z_1,Z_2,Z_3,Z_4$, the vertices of a rectangle with $2Z_1Z_2=Z_2Z_3$, as shown. Let $z_2=\\sqrt3+i$ and $z_3=4\\sqrt3+4i$. Find $z_4$ in Cartesian form.",
+   "answer": "$z_4=z_3+(z_1-z_2)$:\n\n$$z_4=\\left(4\\sqrt3-\\frac32\\right)+\\left(4+\\frac{3\\sqrt3}2\\right)i$$",
+   "images": [
+    "assets/img/ext2-2024-ascham/q12d.png"
+   ]
+  },
+  {
+   "ref": "12(d)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.11",
+    "12.3.2.8"
+   ],
+   "question": "The complex numbers $z_1,z_2,z_3,z_4$ are represented by $Z_1,Z_2,Z_3,Z_4$, the vertices of a rectangle with $2Z_1Z_2=Z_2Z_3$, as shown. Let $z_2=\\sqrt3+i$ and $z_3=4\\sqrt3+4i$. Prove that $\\arg\\left(\\dfrac{z_4-z_2}{z_3-z_1}\\right)=\\tan^{-1}\\dfrac43$.",
+   "answer": "Let $u=z_3-z_2$, so $z_1-z_2=\\tfrac i2u$ and $z_4-z_2=u+\\tfrac i2u$, $z_3-z_1=u-\\tfrac i2u$.\n\n$$\\frac{z_4-z_2}{z_3-z_1}=\\frac{2+i}{2-i}=\\frac{(2+i)^2}{5}=\\frac{3+4i}{5}$$\n\nThis is in the first quadrant, so its argument is $\\tan^{-1}\\dfrac43$.",
+   "images": [
+    "assets/img/ext2-2024-ascham/q12d.png"
+   ]
+  },
+  {
+   "ref": "13(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.1"
+   ],
+   "question": "Given $a>0$, $b>0$ and $a+b=s$, prove that $\\dfrac1a+\\dfrac1b\\ge\\dfrac4s$.",
+   "answer": "$$\\frac1a+\\frac1b-\\frac4{a+b}=\\frac{(a+b)^2-4ab}{ab(a+b)}=\\frac{(a-b)^2}{ab(a+b)}\\ge0$$\n\nHence $\\dfrac1a+\\dfrac1b\\ge\\dfrac4s$."
+  },
+  {
+   "ref": "13(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "Given $a>0$, $b>0$ and $a+b=s$, prove that $\\dfrac1{a^2}+\\dfrac1{b^2}\\ge\\dfrac8{s^2}$.",
+   "answer": "Since $\\left(\\dfrac1a-\\dfrac1b\\right)^2\\ge0$, $\\dfrac1{a^2}+\\dfrac1{b^2}\\ge\\dfrac2{ab}$.\n\nSince $(a+b)^2\\ge4ab$, $\\dfrac1{ab}\\ge\\dfrac4{s^2}$.\n\nHence $\\dfrac1{a^2}+\\dfrac1{b^2}\\ge\\dfrac2{ab}\\ge\\dfrac8{s^2}$."
+  },
+  {
+   "ref": "13(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.18"
+   ],
+   "question": "The point $P(3,2,1)$ lies on the sphere $S_1$ with centre $C(2,3,4)$, and $PQ$ is a diameter. Find the coordinates of $Q$.",
+   "answer": "$C$ is the midpoint of $PQ$, so $Q=2C-P=(1,4,7)$."
+  },
+  {
+   "ref": "13(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.18",
+    "12.2.2.1"
+   ],
+   "question": "The point $P(3,2,1)$ lies on the sphere $S_1$ with centre $C(2,3,4)$, and $PQ$ is a diameter. Show that the line $\\underset{\\sim}{r}=\\begin{pmatrix}3\\\\2\\\\1\\end{pmatrix}+\\lambda\\begin{pmatrix}4\\\\1\\\\1\\end{pmatrix}$ is a tangent to the sphere.",
+   "answer": "The line passes through $P$, which is on the sphere. $\\overrightarrow{CP}=\\begin{pmatrix}1\\\\-1\\\\-3\\end{pmatrix}$ and\n\n$$\\begin{pmatrix}4\\\\1\\\\1\\end{pmatrix}\\cdot\\begin{pmatrix}1\\\\-1\\\\-3\\end{pmatrix}=4-1-3=0$$\n\nThe line is perpendicular to the radius at $P$, so it is a tangent."
+  },
+  {
+   "ref": "13(b)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.3",
+    "12.2.2.1"
+   ],
+   "question": "The point $P(3,2,1)$ lies on the sphere $S_1$ with centre $C(2,3,4)$, and $PQ$ is a diameter. Find a vector equation of the line $l$ through $Q$ which is perpendicular to both $PQ$ and the direction $\\begin{pmatrix}4\\\\1\\\\1\\end{pmatrix}$.",
+   "answer": "Let the direction be $(a,b,c)$. Then $4a+b+c=0$ and, since $\\overrightarrow{PQ}\\parallel(-1,1,3)$, $-a+b+3c=0$.\n\nSubtracting: $5a-2c=0$. Take $a=2$, $c=5$, giving $b=-13$.\n\n$$\\underset{\\sim}{r}=\\begin{pmatrix}1\\\\4\\\\7\\end{pmatrix}+\\mu\\begin{pmatrix}2\\\\-13\\\\5\\end{pmatrix}$$"
+  },
+  {
+   "ref": "13(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "$ABCD$ is a parallelogram. $F$ lies on $BC$ with $\\overrightarrow{BF}=\\tfrac13\\overrightarrow{BC}$, $E$ lies on $DC$ with $\\overrightarrow{DE}=\\tfrac34\\overrightarrow{DC}$, and $X$ is the intersection of $DF$ and $AE$. Let $\\overrightarrow{DX}=\\lambda\\overrightarrow{DF}$, $\\overrightarrow{AX}=\\mu\\overrightarrow{AE}$, $\\overrightarrow{AB}=\\underset{\\sim}{p}$ and $\\overrightarrow{AD}=\\underset{\\sim}{q}$. Prove that $\\overrightarrow{AX}=\\mu\\left(\\underset{\\sim}{q}+\\tfrac34\\underset{\\sim}{p}\\right)$.",
+   "answer": "$\\overrightarrow{DC}=\\overrightarrow{AB}=\\underset{\\sim}{p}$ (opposite sides of a parallelogram), so\n\n$$\\overrightarrow{AX}=\\mu\\overrightarrow{AE}=\\mu\\big(\\overrightarrow{AD}+\\tfrac34\\overrightarrow{DC}\\big)=\\mu\\left(\\underset{\\sim}{q}+\\tfrac34\\underset{\\sim}{p}\\right)$$",
+   "images": [
+    "assets/img/ext2-2024-ascham/q13c.png"
+   ]
+  },
+  {
+   "ref": "13(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "$ABCD$ is a parallelogram. $F$ lies on $BC$ with $\\overrightarrow{BF}=\\tfrac13\\overrightarrow{BC}$, $E$ lies on $DC$ with $\\overrightarrow{DE}=\\tfrac34\\overrightarrow{DC}$, and $X$ is the intersection of $DF$ and $AE$. Let $\\overrightarrow{DX}=\\lambda\\overrightarrow{DF}$, $\\overrightarrow{AX}=\\mu\\overrightarrow{AE}$, $\\overrightarrow{AB}=\\underset{\\sim}{p}$ and $\\overrightarrow{AD}=\\underset{\\sim}{q}$. Given $\\overrightarrow{AX}=\\mu\\left(\\underset{\\sim}{q}+\\tfrac34\\underset{\\sim}{p}\\right)$, prove that $AE$ bisects $DF$.",
+   "answer": "$\\overrightarrow{DF}=\\overrightarrow{DC}+\\overrightarrow{CF}=\\underset{\\sim}{p}-\\tfrac23\\underset{\\sim}{q}$, so\n\n$$\\overrightarrow{AX}=\\underset{\\sim}{q}+\\lambda\\left(\\underset{\\sim}{p}-\\tfrac23\\underset{\\sim}{q}\\right)$$\n\nEquating with $\\mu\\left(\\underset{\\sim}{q}+\\tfrac34\\underset{\\sim}{p}\\right)$, since $\\underset{\\sim}{p}$ and $\\underset{\\sim}{q}$ are not parallel: $\\lambda=\\tfrac34\\mu$ and $1-\\tfrac23\\lambda=\\mu$.\n\nSo $1-\\tfrac12\\mu=\\mu$, $\\mu=\\tfrac23$ and $\\lambda=\\tfrac12$. Hence $X$ is the midpoint of $DF$: $AE$ bisects $DF$.",
+   "images": [
+    "assets/img/ext2-2024-ascham/q13c.png"
+   ]
+  },
+  {
+   "ref": "14(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "Find the minimum value of $f(x)=x-n\\ln x$ for $x>0$, where $n$ is a positive integer.",
+   "answer": "$f'(x)=1-\\dfrac nx=0$ when $x=n$, and $f''(x)=\\dfrac n{x^2}>0$. The minimum value is $f(n)=n-n\\ln n$."
+  },
+  {
+   "ref": "14(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "By considering the minimum of $f(x)=x-n\\ln x$, prove that $\\dfrac{e^x}{x^n}>\\dfrac{e^n}{n^n}$ for all $x>n$, where $n$ is a positive integer.",
+   "answer": "$f'(x)=1-\\dfrac nx>0$ for $x>n$, so $f(x)>f(n)$:\n\n$$x-n\\ln x>n-n\\ln n$$\n\nExponentiating both sides, $\\dfrac{e^x}{x^n}>\\dfrac{e^n}{n^n}$."
+  },
+  {
+   "ref": "14(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^{\\pi/2}\\cos^nx\\,dx$. Show that $I_n=\\dfrac1n\\Big[\\cos^{n-1}x\\sin x\\Big]_0^{\\pi/2}+\\dfrac{n-1}{n}I_{n-2}$ for $n\\ge2$.",
+   "answer": "By parts with $u=\\cos^{n-1}x$ and $dv=\\cos x\\,dx$:\n\n$$I_n=\\Big[\\cos^{n-1}x\\sin x\\Big]_0^{\\pi/2}+(n-1)\\int_0^{\\pi/2}\\cos^{n-2}x\\sin^2x\\,dx$$\n\n$$=\\Big[\\cos^{n-1}x\\sin x\\Big]_0^{\\pi/2}+(n-1)(I_{n-2}-I_n)$$\n\nSo $nI_n=\\Big[\\cos^{n-1}x\\sin x\\Big]_0^{\\pi/2}+(n-1)I_{n-2}$, and dividing by $n$ gives the result."
+  },
+  {
+   "ref": "14(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "For $I_n=\\displaystyle\\int_0^{\\pi/2}\\cos^nx\\,dx$ it is known that $I_n=\\dfrac{n-1}{n}I_{n-2}$ for $n\\ge2$. Use this to find $\\displaystyle\\int_0^{\\pi/2}\\cos^5x\\,dx$.",
+   "answer": "$$I_5=\\frac45I_3=\\frac45\\cdot\\frac23I_1=\\frac8{15}\\int_0^{\\pi/2}\\cos x\\,dx=\\frac8{15}$$"
+  },
+  {
+   "ref": "14(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.4.2"
+   ],
+   "question": "Use mathematical induction to prove that $n!>2^n$ for integers $n>3$.",
+   "answer": "**$n=4$:** $4!=24>16=2^4$.\n\n**Assume** $k!>2^k$ for some $k\\ge4$.\n\n**$n=k+1$:** $(k+1)!=(k+1)k!>(k+1)2^k>2\\times2^k=2^{k+1}$.\n\nHence by induction $n!>2^n$ for all integers $n>3$."
+  },
+  {
+   "ref": "14(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "Given that $n!>2^n$ for $n>3$, prove that $\\displaystyle\\sum_{k=4}^n\\frac1{k!}<\\sum_{k=4}^n\\frac1{2^k}$ for $n\\ge4$.",
+   "answer": "For each $k\\ge4$, $k!>2^k>0$, so $\\dfrac1{k!}<\\dfrac1{2^k}$. Adding these inequalities for $k=4,5,\\dots,n$ gives the result."
+  },
+  {
+   "ref": "14(c)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "Given that $\\displaystyle\\sum_{k=4}^n\\frac1{k!}<\\sum_{k=4}^n\\frac1{2^k}$, explain why $\\displaystyle\\lim_{n\\to\\infty}\\left(\\frac1{4!}+\\frac1{5!}+\\dots+\\frac1{n!}\\right)<\\frac18$.",
+   "answer": "The right side is a geometric series with $a=\\tfrac1{16}$ and $r=\\tfrac12$, with limiting sum $\\dfrac{1/16}{1-1/2}=\\dfrac18$. Each term on the left is smaller than the matching term on the right (so the gap between the sums is at least $\\tfrac1{16}-\\tfrac1{24}>0$ for every $n$), hence the limit on the left is strictly less than $\\tfrac18$."
+  },
+  {
+   "ref": "15(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.15"
+   ],
+   "question": "Prove that $\\tan^{-1}(k+1)-\\tan^{-1}k=\\tan^{-1}\\left(\\dfrac1{k(k+1)+1}\\right)$ for $k=1,2,3,\\dots$",
+   "answer": "Let $\\alpha=\\tan^{-1}(k+1)$ and $\\beta=\\tan^{-1}k$.\n\n$$\\tan(\\alpha-\\beta)=\\frac{(k+1)-k}{1+k(k+1)}=\\frac1{k(k+1)+1}$$\n\nSince $0<\\beta<\\alpha<\\dfrac\\pi2$, $\\alpha-\\beta$ is acute, so $\\alpha-\\beta=\\tan^{-1}\\left(\\dfrac1{k(k+1)+1}\\right)$."
+  },
+  {
+   "ref": "15(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.15"
+   ],
+   "question": "Given that $\\tan^{-1}(k+1)-\\tan^{-1}k=\\tan^{-1}\\left(\\dfrac1{k(k+1)+1}\\right)$, evaluate\n$$\\tan^{-1}\\left(\\frac1{1\\times2+1}\\right)+\\tan^{-1}\\left(\\frac1{2\\times3+1}\\right)+\\tan^{-1}\\left(\\frac1{3\\times4+1}\\right)+\\dots$$",
+   "answer": "The sum of the first $n$ terms telescopes:\n\n$$\\sum_{k=1}^n\\big[\\tan^{-1}(k+1)-\\tan^{-1}k\\big]=\\tan^{-1}(n+1)-\\tan^{-1}1$$\n\nAs $n\\to\\infty$ this tends to $\\dfrac\\pi2-\\dfrac\\pi4=\\dfrac\\pi4$."
+  },
+  {
+   "ref": "15(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.10"
+   ],
+   "question": "A box jellyfish floats on the ocean surface, rising and falling with the tide in simple harmonic motion. At 11 am it is 3 metres below a wharf. High tide, at 1 pm, brings it to 1 metre below the wharf, and the following low tide is at 7 pm. Show that the period of the motion is 12 hours.",
+   "answer": "The time from high tide (1 pm) to the next low tide (7 pm) is half a period: 6 hours. So the period is 12 hours."
+  },
+  {
+   "ref": "15(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.10"
+   ],
+   "question": "A box jellyfish floats on the ocean surface, rising and falling with the tide in simple harmonic motion. At 11 am it is 3 metres below a wharf. High tide, at 1 pm, brings it to 1 metre below the wharf, and the following low tide is at 7 pm. Given the period is 12 hours, find the amplitude of the motion.",
+   "answer": "Let $d$ be the depth below the wharf and $t$ the hours after 1 pm. Then $n=\\dfrac\\pi6$ and\n\n$$d=c-a\\cos\\frac{\\pi t}6$$\n\nAt $t=0$: $c-a=1$. At $t=-2$: $c-\\dfrac a2=3$. Hence $a=4$, $c=5$. The amplitude is 4 metres."
+  },
+  {
+   "ref": "15(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.10"
+   ],
+   "question": "A box jellyfish floats on the ocean surface, rising and falling with the tide in simple harmonic motion. At 11 am it is 3 metres below a wharf. High tide, at 1 pm, brings it to 1 metre below the wharf, and the following low tide is at 7 pm. The period is 12 hours. At what time after 11 am is the jellyfish first rising at its fastest rate?",
+   "answer": "The speed is greatest at the centre of motion. Low tide is at 7 pm, and the jellyfish is rising from then until the next high tide, passing the centre a quarter period (3 hours) after 7 pm: **10 pm**."
+  },
+  {
+   "ref": "15(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.3",
+    "12.3.4.4"
+   ],
+   "question": "By expanding $(1+i)^n$ in two different ways, show that\n$$1-\\binom n2+\\binom n4-\\binom n6+\\dots=2^{n/2}\\cos\\frac{n\\pi}4$$",
+   "answer": "Binomial theorem: $(1+i)^n=\\displaystyle\\sum_{k=0}^n\\binom nki^k$. The real part comes from even $k$: $1-\\binom n2+\\binom n4-\\binom n6+\\dots$\n\nDe Moivre: $(1+i)^n=\\left(\\sqrt2\\,\\text{cis}\\dfrac\\pi4\\right)^n=2^{n/2}\\left(\\cos\\dfrac{n\\pi}4+i\\sin\\dfrac{n\\pi}4\\right)$.\n\nEquating real parts gives the result."
+  },
+  {
+   "ref": "16(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.5",
+    "12.4.1.11"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{\\cos x}{1+\\cos x}\\,dx$.",
+   "answer": "$$\\frac{\\cos x}{1+\\cos x}=1-\\frac1{1+\\cos x}=1-\\frac12\\sec^2\\frac x2$$\n\n$$\\int\\frac{\\cos x}{1+\\cos x}\\,dx=x-\\tan\\frac x2+C$$"
+  },
+  {
+   "ref": "16(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Show that $\\cos4\\theta=8\\cos^4\\theta-8\\cos^2\\theta+1$.",
+   "answer": "By de Moivre, $\\cos4\\theta$ is the real part of $(c+is)^4$, where $c=\\cos\\theta$, $s=\\sin\\theta$:\n\n$$\\cos4\\theta=c^4-6c^2s^2+s^4=c^4-6c^2(1-c^2)+(1-c^2)^2=8c^4-8c^2+1$$"
+  },
+  {
+   "ref": "16(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Using $\\cos4\\theta=8\\cos^4\\theta-8\\cos^2\\theta+1$, solve $16x^4-16x^2+1=0$.",
+   "answer": "Let $x=\\cos\\theta$. Then $16x^4-16x^2+1=2\\cos4\\theta-1=0$, so $\\cos4\\theta=\\tfrac12$ and $4\\theta=\\dfrac\\pi3,\\dfrac{5\\pi}3,\\dfrac{7\\pi}3,\\dfrac{11\\pi}3$.\n\n$$x=\\cos\\frac\\pi{12},\\ \\cos\\frac{5\\pi}{12},\\ \\cos\\frac{7\\pi}{12},\\ \\cos\\frac{11\\pi}{12}$$"
+  },
+  {
+   "ref": "16(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "The roots of $16x^4-16x^2+1=0$ are $\\cos\\dfrac\\pi{12},\\cos\\dfrac{5\\pi}{12},\\cos\\dfrac{7\\pi}{12},\\cos\\dfrac{11\\pi}{12}$. Hence find the exact values of $\\cos\\dfrac\\pi{12}$ and $\\cos\\dfrac{5\\pi}{12}$.",
+   "answer": "$$x^2=\\frac{16\\pm\\sqrt{256-64}}{32}=\\frac{2\\pm\\sqrt3}4$$\n\nBoth required values are positive and $\\cos\\dfrac\\pi{12}>\\cos\\dfrac{5\\pi}{12}$, so\n\n$$\\cos\\frac\\pi{12}=\\frac{\\sqrt{2+\\sqrt3}}2,\\qquad\\cos\\frac{5\\pi}{12}=\\frac{\\sqrt{2-\\sqrt3}}2$$"
+  },
+  {
+   "ref": "16(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "The displacement of a particle is given by $x=2v-\\tan^{-1}v-2+\\dfrac\\pi4$, where $v$ is its velocity. The particle is initially at the origin with velocity $1$. Show that $v\\dfrac{dv}{dx}=\\dfrac{v(1+v^2)}{1+2v^2}$.",
+   "answer": "$$\\frac{dx}{dv}=2-\\frac1{1+v^2}=\\frac{1+2v^2}{1+v^2}$$\n\nSo $\\dfrac{dv}{dx}=\\dfrac{1+v^2}{1+2v^2}$ and $v\\dfrac{dv}{dx}=\\dfrac{v(1+v^2)}{1+2v^2}$."
+  },
+  {
+   "ref": "16(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.4.1.8"
+   ],
+   "question": "The displacement of a particle is given by $x=2v-\\tan^{-1}v-2+\\dfrac\\pi4$, where $v$ is its velocity. The particle is initially at the origin with velocity $1$. Given the acceleration $\\dfrac{v(1+v^2)}{1+2v^2}$, find the time taken for the particle to reach a velocity of $7$.",
+   "answer": "$$\\frac{dv}{dt}=\\frac{v(1+v^2)}{1+2v^2}\\implies t=\\int_1^7\\frac{1+2v^2}{v(1+v^2)}\\,dv=\\int_1^7\\left(\\frac1v+\\frac v{1+v^2}\\right)dv$$\n\n$$t=\\Big[\\ln v+\\tfrac12\\ln(1+v^2)\\Big]_1^7=\\ln7+\\tfrac12\\ln50-\\tfrac12\\ln2=\\ln35$$"
+  }
+ ]
+}
