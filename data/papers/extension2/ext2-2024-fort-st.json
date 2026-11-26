@@ -1,0 +1,617 @@
+{
+ "id": "ext2-2024-fort-st",
+ "course": "extension2",
+ "school": "Fort St",
+ "year": 2024,
+ "type": "Trial",
+ "thsc": {
+  "viewno": 5348,
+  "title": "Fort St 2024 w. sol"
+ },
+ "indexed": "2026-11-27",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.4.2"
+   ],
+   "question": "Let $\\mathbf{a}=\\begin{pmatrix}1\\\\2\\\\3\\end{pmatrix}$ and $\\mathbf{b}=\\begin{pmatrix}3\\\\-1\\\\2\\end{pmatrix}$. What is the value of $\\mathbf{a}\\cdot(\\mathbf{a}-3\\mathbf{b})$?",
+   "answer": "$\\mathbf{a}\\cdot\\mathbf{a}-3\\,\\mathbf{a}\\cdot\\mathbf{b}=14-3(7)=-7$.",
+   "options": [
+    "$-7$",
+    "$0$",
+    "$3$",
+    "$6$"
+   ],
+   "correct": "A",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Which is an expression for $\\displaystyle\\int\\frac{x^3-1}{(x^4-4x)^{2/3}}\\,dx$?",
+   "answer": "With $u=x^4-4x$, $du=4(x^3-1)\\,dx$: $\\frac14\\int u^{-2/3}du=\\frac34u^{1/3}+C$.",
+   "options": [
+    "$\\dfrac{3}{4(x^3-4x)}+C$",
+    "$\\dfrac34(x^3-4x)+C$",
+    "$\\dfrac34\\sqrt[3]{x^4-4x}+C$",
+    "$\\dfrac{3}{4\\sqrt[3]{x^4-4x}}+C$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "What is the value of $\\displaystyle\\int_0^{\\pi/2}x\\sin x\\,dx$?",
+   "answer": "$[-x\\cos x]_0^{\\pi/2}+\\int_0^{\\pi/2}\\cos x\\,dx=0+1=1$.",
+   "options": [
+    "$\\dfrac{\\pi}{4}$",
+    "$\\dfrac{\\pi}{2}$",
+    "$\\pi$",
+    "$1$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.5",
+    "12.3.4.9"
+   ],
+   "question": "In which quadrant does the complex number $2e^{-\\frac{5\\pi i}{12}}+2e^{\\frac{\\pi i}{12}}$ lie?",
+   "answer": "It equals $2e^{-\\frac{i\\pi}{6}}\\left(e^{-\\frac{i\\pi}{4}}+e^{\\frac{i\\pi}{4}}\\right)=2\\sqrt2\\,e^{-\\frac{i\\pi}{6}}$: quadrant IV.",
+   "options": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.9"
+   ],
+   "question": "For how many integer values of $n$ is $n^4+(n+i)^4$ an integer?",
+   "answer": "The imaginary part $4n^3-4n$ must be 0, so $n=0,\\pm1$.",
+   "options": [
+    "4",
+    "3",
+    "2",
+    "1"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.8",
+    "12.3.4.3"
+   ],
+   "question": "$z=a+ib$ where $0<a<b$. Which best describes $z^4$?",
+   "answer": "$\\frac\\pi4<\\arg z<\\frac\\pi2$, so $\\pi<4\\arg z<2\\pi$ and $\\text{Im}(z^4)<0$.",
+   "options": [
+    "$\\text{Re}(z^4)<0$",
+    "$\\text{Re}(z^4)\\le0$",
+    "$\\text{Im}(z^4)<0$",
+    "$\\text{Im}(z^4)\\le0$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.13"
+   ],
+   "question": "A particle has position vector $\\mathbf{r}(t)=-3\\sin t\\,\\mathbf{i}+3\\cos t\\,\\mathbf{j}+t\\,\\mathbf{k}$. Which best describes its motion?",
+   "answer": "In the $xy$-plane it goes from $(0,3)$ to $(-3,0)$: anticlockwise, while rising in $z$.",
+   "options": [
+    "A spiral about the $z$-axis, anticlockwise",
+    "A spiral about the $z$-axis, clockwise",
+    "A spiral about the $x$-axis, anticlockwise",
+    "A spiral about the $x$-axis, clockwise"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.6.3",
+    "12.2.4.3"
+   ],
+   "question": "A particle is projected from the origin, reaches maximum height at $B$ and lands at $D$. Its acceleration is $\\mathbf{a}(t)=\\begin{pmatrix}0\\\\-9.8\\end{pmatrix}$ and its velocity $\\mathbf{v}(t)$. For any $V>0$ and $0^\\circ<\\theta<90^\\circ$, at which point are both $\\mathbf{v}(t)\\cdot\\mathbf{a}(t)<0$ and $\\mathbf{r}(t)\\cdot\\mathbf{v}(t)>0$ always true?",
+   "answer": "$\\mathbf{v}\\cdot\\mathbf{a}<0$ requires the particle to be rising, and on the way up $\\mathbf{r}\\cdot\\mathbf{v}>0$.",
+   "options": [
+    "$A$",
+    "$B$",
+    "$C$",
+    "$D$"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/ext2-2024-fort-st/q8.png"
+   ],
+   "course": "extension1"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.5"
+   ],
+   "question": "A vehicle moves horizontally on a frictionless surface in a medium whose resistive force is proportional to the square of its velocity. Its driving force varies so that it is always half the resistive force. Its initial speed is $5\\ \\text{m s}^{-1}$. Which is always true about its motion?",
+   "answer": "The net force is $-\\frac12kv^2$, so $v=5e^{-kx/2m}$ decreases towards zero.",
+   "options": [
+    "The velocity increases until it eventually comes to rest",
+    "The velocity decreases until it eventually comes to rest",
+    "The velocity increases until it reaches terminal velocity",
+    "The velocity decreases until it reaches $2\\ \\text{m s}^{-1}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.5.3"
+   ],
+   "question": "The complex number $z$ satisfies $|z+a|=a$, where $a>0$. The point $P$ represents $ka+a(k+1)i$, where $k>0$. The greatest distance of $z$ from $P$ is $(3\\sqrt2+1)a$. What is $k$?",
+   "answer": "Distance from centre $(-a,0)$ to $P$ is $\\sqrt2(k+1)a$; adding the radius gives $\\sqrt2(k+1)+1=3\\sqrt2+1$, so $k=2$.",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.2"
+   ],
+   "question": "$\\overrightarrow{OA}=2\\mathbf{i}+4\\mathbf{j}-3\\mathbf{k}$ and $\\overrightarrow{OB}=-\\mathbf{i}+\\mathbf{j}+2\\mathbf{k}$. Find the exact distance between $A$ and $B$.",
+   "answer": "$\\overrightarrow{AB}=(-3,-3,5)$, so $AB=\\sqrt{9+9+25}=\\sqrt{43}$.",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.7"
+   ],
+   "question": "$\\overrightarrow{OA}=2\\mathbf{i}+4\\mathbf{j}-3\\mathbf{k}$. Show that there is no value of $m$ for which $\\overrightarrow{OC}=m\\mathbf{i}+2\\mathbf{j}-m^2\\mathbf{k}$ is perpendicular to $\\overrightarrow{OA}$.",
+   "answer": "Perpendicular requires $\\overrightarrow{OC}\\cdot\\overrightarrow{OA}=2m+8+3m^2=0$. $\\Delta=4-96<0$, so there is no real $m$.",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.1",
+    "12.3.1.14"
+   ],
+   "question": "Solve $z^2-(2+6i)z=5-2i$, giving answers in the form $x+iy$.",
+   "answer": "$\\Delta=(2+6i)^2+4(5-2i)=-12+16i=(2+4i)^2$.\n\n$z=\\dfrac{(2+6i)\\pm(2+4i)}{2}$, so $z=2+5i$ or $z=i$."
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{\\cos^3x}{\\sqrt{\\sin x}}\\,dx$.",
+   "answer": "Let $u=\\sin x$: $\\displaystyle\\int\\frac{1-u^2}{\\sqrt u}du=\\int\\left(u^{-1/2}-u^{3/2}\\right)du=2\\sqrt{\\sin x}-\\frac25\\sin^{5/2}x+C$."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.3",
+    "12.5.1.2"
+   ],
+   "question": "A particle moves along the $x$-axis with acceleration $a=v^3+4v$. It starts at the origin with velocity $2\\ \\text{cm s}^{-1}$. Find $x$ in terms of $v$.",
+   "answer": "$v\\dfrac{dv}{dx}=v(v^2+4)\\Rightarrow dx=\\dfrac{dv}{v^2+4}$.\n\n$x=\\left[\\tfrac12\\tan^{-1}\\tfrac v2\\right]_2^v=\\dfrac12\\tan^{-1}\\dfrac v2-\\dfrac\\pi8$."
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.13",
+    "12.3.1.11"
+   ],
+   "question": "$z_1=3-i$ and $z_2=1-2i$. Find the possible values of the real constant $k$ if $\\left|\\dfrac{z_1}{z_2}+k\\right|=\\sqrt{k+2}$.",
+   "answer": "$\\dfrac{z_1}{z_2}=\\dfrac{(3-i)(1+2i)}{5}=1+i$.\n\n$(1+k)^2+1=k+2\\Rightarrow k^2+k=0$, so $k=0$ or $k=-1$."
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Find $A$, $B$ and $C$ such that $\\dfrac{1-2x}{(x+2)(x^2+1)}=\\dfrac{A}{x+2}+\\dfrac{Bx+C}{x^2+1}$.",
+   "answer": "$1-2x=A(x^2+1)+(Bx+C)(x+2)$.\n\n$x=-2$: $5=5A$, so $A=1$. Coefficient of $x^2$: $B=-1$. $x=0$: $1=A+2C$, so $C=0$."
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.8"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{1-2x}{(x+2)(x^2+1)}\\,dx$.",
+   "answer": "$\\displaystyle\\int\\left(\\frac1{x+2}-\\frac{x}{x^2+1}\\right)dx=\\ln|x+2|-\\frac12\\ln(x^2+1)+C$."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.11",
+    "12.2.1.10"
+   ],
+   "question": "Show that the lines $l_1:\\ x=y=z$ and $l_2:\\ \\mathbf{r}=\\begin{pmatrix}0\\\\3\\\\2\\end{pmatrix}+t\\begin{pmatrix}1\\\\-2\\\\1\\end{pmatrix}$ are skew.",
+   "answer": "$l_1$ is $\\mathbf r=\\lambda(1,1,1)$. The directions $(1,1,1)$ and $(1,-2,1)$ are not multiples, so the lines are not parallel.\n\nIntersection requires $\\lambda=t$, $\\lambda=3-2t$, $\\lambda=2+t$. The first two give $t=\\lambda=1$, but then $2+t=3\\ne1$. So they do not intersect: they are skew."
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "$P(z)=z^4-8z^3+pz^2+qz-80$, where $p,q$ are real, has root $3+i$. Find all the roots.",
+   "answer": "Real coefficients, so $3-i$ is a root. Let the others be $\\alpha,\\beta$: $\\alpha+\\beta+6=8$ and $10\\alpha\\beta=-80$.\n\nSo $\\alpha+\\beta=2$, $\\alpha\\beta=-8$: the roots are $3\\pm i,\\ 4,\\ -2$."
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "$P(z)=z^4-8z^3+pz^2+qz-80$, where $p,q$ are real, has root $3+i$. Write $P(z)$ as a product of two real quadratic factors.",
+   "answer": "$P(z)=(z^2-6z+10)(z^2-2z-8)$."
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.5"
+   ],
+   "question": "Use the substitution $t=\\tan\\dfrac x2$ to find the exact value of $\\displaystyle\\int_0^{\\pi/3}\\frac{dx}{4+5\\cos x}$.",
+   "answer": "$dx=\\dfrac{2\\,dt}{1+t^2}$, $\\cos x=\\dfrac{1-t^2}{1+t^2}$, limits $0$ to $\\frac1{\\sqrt3}$.\n\n$I=\\displaystyle\\int_0^{1/\\sqrt3}\\frac{2\\,dt}{9-t^2}=\\frac13\\int_0^{1/\\sqrt3}\\left(\\frac1{3+t}+\\frac1{3-t}\\right)dt=\\frac13\\left[\\ln\\frac{3+t}{3-t}\\right]_0^{1/\\sqrt3}$\n\n$=\\dfrac13\\ln\\dfrac{3\\sqrt3+1}{3\\sqrt3-1}$."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.9",
+    "12.4.1.6"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{(2\\tan\\theta+3)\\sec^2\\theta}{\\sec^2\\theta+\\tan\\theta}\\,d\\theta$.",
+   "answer": "Let $u=\\tan\\theta$: $\\displaystyle I=\\int\\frac{2u+3}{u^2+u+1}du=\\int\\frac{2u+1}{u^2+u+1}du+\\int\\frac{2\\,du}{(u+\\frac12)^2+\\frac34}$\n\n$=\\ln(\\tan^2\\theta+\\tan\\theta+1)+\\dfrac4{\\sqrt3}\\tan^{-1}\\dfrac{2\\tan\\theta+1}{\\sqrt3}+C$."
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.6.2"
+   ],
+   "question": "A particle of mass 1 kg is projected from the origin with speed $V$ m/s at angle $\\alpha$ to the horizontal. Its equations of motion are $\\ddot x=-5\\dot x$ and $\\ddot y=-10-5\\dot y$. Show that $\\mathbf v(t)=\\begin{pmatrix}Ve^{-5t}\\cos\\alpha\\\\(V\\sin\\alpha+2)e^{-5t}-2\\end{pmatrix}$.",
+   "answer": "$\\dfrac{d\\dot x}{dt}=-5\\dot x$ with $\\dot x(0)=V\\cos\\alpha$: $\\ln\\dfrac{\\dot x}{V\\cos\\alpha}=-5t$, so $\\dot x=Ve^{-5t}\\cos\\alpha$.\n\n$\\dfrac{d\\dot y}{dt}=-5(\\dot y+2)$ with $\\dot y(0)=V\\sin\\alpha$: $\\ln\\dfrac{\\dot y+2}{V\\sin\\alpha+2}=-5t$, so $\\dot y=(V\\sin\\alpha+2)e^{-5t}-2$."
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.6.2"
+   ],
+   "question": "A particle of mass 1 kg is projected from the origin with speed $V$ m/s at angle $\\alpha$ to the horizontal. Its equations of motion are $\\ddot x=-5\\dot x$ and $\\ddot y=-10-5\\dot y$. The velocity is $\\mathbf v(t)=\\begin{pmatrix}Ve^{-5t}\\cos\\alpha\\\\(V\\sin\\alpha+2)e^{-5t}-2\\end{pmatrix}$. Given $\\mathbf v(1)=\\begin{pmatrix}250e^{-5}\\\\(250\\sqrt3+2)e^{-5}-2\\end{pmatrix}$, find $V$ and $\\alpha$.",
+   "answer": "$V\\cos\\alpha=250$ and $V\\sin\\alpha=250\\sqrt3$. So $\\tan\\alpha=\\sqrt3$, $\\alpha=60^\\circ$, and $V=500$ m/s."
+  },
+  {
+   "ref": "Q13(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.6.2"
+   ],
+   "question": "A particle of mass 1 kg is projected from the origin with speed $V$ m/s at angle $\\alpha$ to the horizontal. Its equations of motion are $\\ddot x=-5\\dot x$ and $\\ddot y=-10-5\\dot y$. It is projected with $V=500$ and $\\alpha=60^\\circ$, and $\\mathbf v(t)=\\begin{pmatrix}Ve^{-5t}\\cos\\alpha\\\\(V\\sin\\alpha+2)e^{-5t}-2\\end{pmatrix}$. Show that the ratio of the horizontal velocity at the origin to that at maximum height is $(1+125\\sqrt3):1$.",
+   "answer": "At the origin $\\dot x=500\\cos60^\\circ=250$.\n\nAt maximum height $\\dot y=0$: $e^{-5t}=\\dfrac{2}{250\\sqrt3+2}=\\dfrac1{125\\sqrt3+1}$, so $\\dot x=\\dfrac{250}{125\\sqrt3+1}$.\n\nRatio $=250:\\dfrac{250}{125\\sqrt3+1}=(1+125\\sqrt3):1$."
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.10",
+    "12.3.4.11"
+   ],
+   "question": "On the Argand diagram, $B$ lies on the line $y=5$, $C$ lies on $y=-12$ and $A$ represents $-5-4i$. Given $AC=2AB$ and $\\angle BAC=\\dfrac{5\\pi}6$, find the exact complex number representing $C$.",
+   "answer": "Let $B=b+5i$ and $C=c-12i$, and $u=b+5$. Rotating $\\overrightarrow{AB}$ anticlockwise by $\\frac{5\\pi}6$ and doubling:\n\n$\\overrightarrow{AC}=2(u+9i)\\left(-\\tfrac{\\sqrt3}2+\\tfrac i2\\right)=(-\\sqrt3u-9)+i(u-9\\sqrt3)$.\n\nImaginary part: $u-9\\sqrt3=-8$, so $u=9\\sqrt3-8$. Real part: $c+5=-\\sqrt3u-9=8\\sqrt3-36$.\n\n$C$ represents $(8\\sqrt3-41)-12i$.",
+   "images": [
+    "assets/img/ext2-2024-fort-st/q13c.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.3",
+    "12.3.4.12"
+   ],
+   "question": "Given $z=e^{\\frac{\\pi i}{11}}$, show that $z+z^3+z^5+z^7+z^9=\\dfrac1{1-z}$.",
+   "answer": "Geometric series with ratio $z^2$: $S=\\dfrac{z(z^{10}-1)}{z^2-1}=\\dfrac{z^{11}-z}{z^2-1}$.\n\n$z^{11}=e^{i\\pi}=-1$, so $S=\\dfrac{-(1+z)}{(z-1)(z+1)}=\\dfrac1{1-z}$."
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.12",
+    "12.3.1.12"
+   ],
+   "question": "Given $z=e^{\\frac{\\pi i}{11}}$ and $z+z^3+z^5+z^7+z^9=\\dfrac1{1-z}$, show that $\\cos\\frac{\\pi}{11}+\\cos\\frac{3\\pi}{11}+\\cos\\frac{5\\pi}{11}+\\cos\\frac{7\\pi}{11}+\\cos\\frac{9\\pi}{11}=\\dfrac12$.",
+   "answer": "The left side is $\\text{Re}\\left(\\dfrac1{1-z}\\right)$. With $\\theta=\\frac\\pi{11}$:\n\n$\\dfrac1{1-\\cos\\theta-i\\sin\\theta}=\\dfrac{(1-\\cos\\theta)+i\\sin\\theta}{(1-\\cos\\theta)^2+\\sin^2\\theta}=\\dfrac{(1-\\cos\\theta)+i\\sin\\theta}{2(1-\\cos\\theta)}$,\n\nwhose real part is $\\frac12$."
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.15"
+   ],
+   "question": "Use the substitution $u=\\dfrac1x$ to show that $\\displaystyle\\int_{1/\\sqrt3}^{\\sqrt3}\\frac{\\ln x}{1+x^2}\\,dx=0$.",
+   "answer": "$dx=-\\dfrac{du}{u^2}$ and the limits swap:\n\n$I=\\displaystyle\\int_{\\sqrt3}^{1/\\sqrt3}\\frac{-\\ln u}{1+u^{-2}}\\cdot\\frac{-du}{u^2}=-\\int_{1/\\sqrt3}^{\\sqrt3}\\frac{\\ln u}{1+u^2}du=-I$, so $I=0$."
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.15",
+    "12.4.1.6"
+   ],
+   "question": "Given $\\displaystyle\\int_{1/\\sqrt3}^{\\sqrt3}\\frac{\\ln x}{1+x^2}dx=0$, show that $\\displaystyle\\int_1^3\\frac{\\ln x}{3+x^2}\\,dx=\\frac{\\pi\\sqrt3\\ln3}{36}$.",
+   "answer": "Let $x=\\sqrt3u$:\n\n$I=\\displaystyle\\int_{1/\\sqrt3}^{\\sqrt3}\\frac{\\ln\\sqrt3+\\ln u}{3(1+u^2)}\\sqrt3\\,du=\\frac1{\\sqrt3}\\left(\\frac{\\ln3}2\\Big[\\tan^{-1}u\\Big]_{1/\\sqrt3}^{\\sqrt3}+0\\right)$\n\n$=\\dfrac{\\ln3}{2\\sqrt3}\\cdot\\dfrac\\pi6=\\dfrac{\\pi\\sqrt3\\ln3}{36}$."
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.5.5",
+    "12.3.5.2"
+   ],
+   "question": "Sketch on an Argand diagram the region satisfying both $|z-1|\\le|z-i|$ and $|z-2-2i|\\le1$.",
+   "answer": "$|z-1|\\le|z-i|$ is the half-plane on and below the line $y=x$. $|z-2-2i|\\le1$ is the disc centre $(2,2)$, radius 1. The region is the half of the disc below $y=x$, boundaries included.",
+   "answer_images": [
+    "assets/img/ext2-2024-fort-st/q14c-ans.png"
+   ]
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.4",
+    "12.3.5.5"
+   ],
+   "question": "The point $Q(w)$ lies on the boundary of the region defined by $|z-1|\\le|z-i|$ and $|z-2-2i|\\le1$, and $\\arg(w-1)=\\dfrac\\pi4$. Find all possible $w$ in the form $x+iy$.",
+   "answer": "$\\arg(w-1)=\\frac\\pi4$ gives the ray $y=x-1$, $x>1$ (parallel to, and below, $y=x$).\n\nOn the circle: $(x-2)^2+(x-3)^2=1\\Rightarrow x^2-5x+6=0$, so $x=2,3$.\n\n$w=2+i$ or $w=3+2i$."
+  },
+  {
+   "ref": "Q15(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.3"
+   ],
+   "question": "A particle of mass $m$ kg moves along the $x$-axis under a resisting force $m(pv+v^2)$, where $v$ is its velocity and $p>0$. Initially it is at $x=\\ln2$ with velocity $p$ m/s. Show that $x=\\ln\\left(\\dfrac{4p}{p+v}\\right)$.",
+   "answer": "$v\\dfrac{dv}{dx}=-(pv+v^2)\\Rightarrow\\dfrac{dv}{p+v}=-dx$.\n\n$\\ln(p+v)-\\ln2p=-(x-\\ln2)$, so $x=\\ln2+\\ln\\dfrac{2p}{p+v}=\\ln\\dfrac{4p}{p+v}$."
+  },
+  {
+   "ref": "Q15(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.2"
+   ],
+   "question": "A particle of mass $m$ kg moves along the $x$-axis under a resisting force $m(pv+v^2)$, where $v$ is its velocity and $p>0$. Initially it is at $x=\\ln2$ with velocity $p$ m/s. Show that $t=\\dfrac1p\\ln\\left(\\dfrac{p+v}{2v}\\right)$.",
+   "answer": "$\\dfrac{dv}{dt}=-v(p+v)$, so $t=\\displaystyle\\int_v^p\\frac{dv}{v(p+v)}=\\frac1p\\int_v^p\\left(\\frac1v-\\frac1{p+v}\\right)dv=\\frac1p\\left[\\ln\\frac{v}{p+v}\\right]_v^p$\n\n$=\\dfrac1p\\left(\\ln\\dfrac12-\\ln\\dfrac{v}{p+v}\\right)=\\dfrac1p\\ln\\dfrac{p+v}{2v}$."
+  },
+  {
+   "ref": "Q15(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.5"
+   ],
+   "question": "A particle of mass $m$ kg moves along the $x$-axis under a resisting force $m(pv+v^2)$, where $v$ is its velocity and $p>0$. Initially it is at $x=\\ln2$ with velocity $p$ m/s. Its motion satisfies $x=\\ln\\dfrac{4p}{p+v}$ and $t=\\dfrac1p\\ln\\dfrac{p+v}{2v}$. It takes $\\frac12\\ln2$ seconds to reach $x=\\ln3$. Find $p$.",
+   "answer": "$x=\\ln3$: $3(p+v)=4p$, so $v=\\dfrac p3$.\n\n$t=\\dfrac1p\\ln\\dfrac{4p/3}{2p/3}=\\dfrac{\\ln2}p=\\dfrac12\\ln2$, so $p=2$."
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "$ABCD$ is a parallelogram, $E$ is the midpoint of $AD$, $F$ the midpoint of $DC$, $R=AC\\cap BE$ and $T=AC\\cap BF$. Let $\\mathbf b=\\overrightarrow{AB}$, $\\mathbf d=\\overrightarrow{AD}$, and $\\overrightarrow{ER}=k\\overrightarrow{EB}$. Show that $\\overrightarrow{AR}=k\\mathbf b+(1-k)\\dfrac{\\mathbf d}2$.",
+   "answer": "$\\overrightarrow{AR}=\\overrightarrow{AE}+k\\overrightarrow{EB}=\\dfrac{\\mathbf d}2+k\\left(\\mathbf b-\\dfrac{\\mathbf d}2\\right)=k\\mathbf b+(1-k)\\dfrac{\\mathbf d}2$.",
+   "images": [
+    "assets/img/ext2-2024-fort-st/q15b.png"
+   ]
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "$ABCD$ is a parallelogram, $E$ is the midpoint of $AD$, $F$ the midpoint of $DC$, $R=AC\\cap BE$ and $T=AC\\cap BF$. Let $\\mathbf b=\\overrightarrow{AB}$, $\\mathbf d=\\overrightarrow{AD}$, and $\\overrightarrow{ER}=k\\overrightarrow{EB}$. Given $\\overrightarrow{AR}=k\\mathbf b+(1-k)\\dfrac{\\mathbf d}2$, show that $\\overrightarrow{AT}=\\dfrac23\\overrightarrow{AC}$.",
+   "answer": "$R$ is on $AC$: $\\overrightarrow{AR}=\\lambda(\\mathbf b+\\mathbf d)$. Since $\\mathbf b,\\mathbf d$ are not parallel, $\\lambda=k=\\dfrac{1-k}2$, so $k=\\lambda=\\dfrac13$ and $AR=\\frac13AC$.\n\nBy the same argument from $C$ (with $F$ the midpoint of $DC$), $CT=\\frac13CA$. Hence $\\overrightarrow{AT}=\\dfrac23\\overrightarrow{AC}$.",
+   "images": [
+    "assets/img/ext2-2024-fort-st/q15b.png"
+   ]
+  },
+  {
+   "ref": "Q15(b)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "$ABCD$ is a parallelogram, $E$ is the midpoint of $AD$, $F$ the midpoint of $DC$, $R=AC\\cap BE$ and $T=AC\\cap BF$. Let $\\mathbf b=\\overrightarrow{AB}$, $\\mathbf d=\\overrightarrow{AD}$, and $\\overrightarrow{ER}=k\\overrightarrow{EB}$. $T$ satisfies $\\overrightarrow{AT}=\\frac23\\overrightarrow{AC}$. The vertices are joined to a point $P$ in space with $\\overrightarrow{PT}\\cdot\\overrightarrow{AC}=0$. Prove that $3|\\overrightarrow{PA}|^2-3|\\overrightarrow{PC}|^2=|\\overrightarrow{AC}|^2$.",
+   "answer": "$PT\\perp AC$, so $PA^2=PT^2+TA^2$ and $PC^2=PT^2+TC^2$.\n\n$PA^2-PC^2=TA^2-TC^2=\\left(\\tfrac49-\\tfrac19\\right)AC^2=\\tfrac13AC^2$, giving $3PA^2-3PC^2=AC^2$.",
+   "images": [
+    "assets/img/ext2-2024-fort-st/q15b.png"
+   ]
+  },
+  {
+   "ref": "Q16(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.10",
+    "12.3.4.11"
+   ],
+   "question": "In the Argand diagram, $z_A,z_B,z_C,z_D,z_E$ represent $A,B,C,D,E$. $AB$ is a side of a square whose diagonals meet at $D$; $BC$ is a side of a larger square whose diagonals meet at $E$. Show that $z_B=z_E+(z_C-z_E)i$.",
+   "answer": "The diagonals of a square are equal, bisect each other and are perpendicular, so $\\overrightarrow{EB}$ is $\\overrightarrow{EC}$ rotated $90^\\circ$ anticlockwise: $z_B-z_E=i(z_C-z_E)$. Hence the result.",
+   "images": [
+    "assets/img/ext2-2024-fort-st/q16a.png"
+   ]
+  },
+  {
+   "ref": "Q16(a)(ii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.11",
+    "12.3.4.10"
+   ],
+   "question": "In the Argand diagram, $z_A,z_B,z_C,z_D,z_E$ represent $A,B,C,D,E$. $AB$ is a side of a square whose diagonals meet at $D$; $BC$ is a side of a larger square whose diagonals meet at $E$. Show that the angle between the lines $AC$ and $DE$ is $\\dfrac\\pi4$.",
+   "answer": "As $z_B=z_E+i(z_C-z_E)$: $z_B=(1-i)z_E+iz_C$.\n\nIn the smaller square $\\overrightarrow{DB}$ is $\\overrightarrow{DA}$ rotated $90^\\circ$ anticlockwise: $z_B-z_D=i(z_A-z_D)$, so $z_B=(1-i)z_D+iz_A$.\n\nSubtracting: $(1-i)(z_E-z_D)+i(z_C-z_A)=0$, so $z_C-z_A=\\dfrac{(1-i)(z_E-z_D)}{-i}=(1+i)(z_E-z_D)$.\n\n$\\arg(1+i)=\\dfrac\\pi4$, so the angle between $AC$ and $DE$ is $\\dfrac\\pi4$.",
+   "images": [
+    "assets/img/ext2-2024-fort-st/q16a.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^{\\pi/2}\\sin^{2n+3}\\theta\\cos^5\\theta\\,d\\theta$ for $n=0,1,2,\\ldots$ Prove that $I_n=\\dfrac{n+1}{n+4}I_{n-1}$ for $n\\ge1$.",
+   "answer": "By parts with $u=\\sin^{2n+2}\\theta$, $dv=\\cos^5\\theta\\sin\\theta\\,d\\theta$, $v=-\\frac16\\cos^6\\theta$ (boundary term zero):\n\n$I_n=\\dfrac{n+1}3\\displaystyle\\int_0^{\\pi/2}\\sin^{2n+1}\\theta\\cos^7\\theta\\,d\\theta=\\dfrac{n+1}3\\int_0^{\\pi/2}\\sin^{2n+1}\\theta\\cos^5\\theta(1-\\sin^2\\theta)\\,d\\theta=\\dfrac{n+1}3(I_{n-1}-I_n)$.\n\nSo $(n+4)I_n=(n+1)I_{n-1}$."
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^{\\pi/2}\\sin^{2n+3}\\theta\\cos^5\\theta\\,d\\theta$ for $n=0,1,2,\\ldots$ Given $I_n=\\dfrac{n+1}{n+4}I_{n-1}$, prove that $I_n=\\dfrac1{(n+4)(n+3)(n+2)}$.",
+   "answer": "$I_0=\\displaystyle\\int_0^{\\pi/2}(\\cos^5\\theta-\\cos^7\\theta)\\sin\\theta\\,d\\theta=\\frac16-\\frac18=\\frac1{24}$.\n\n$I_n=\\dfrac{n+1}{n+4}\\cdot\\dfrac{n}{n+3}\\cdots\\dfrac25\\,I_0=\\dfrac{(n+1)!}{(n+4)!/4!}\\cdot\\dfrac1{24}=\\dfrac{(n+1)!}{(n+4)!}=\\dfrac1{(n+4)(n+3)(n+2)}$."
+  },
+  {
+   "ref": "Q16(b)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.15"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^{\\pi/2}\\sin^{2n+3}\\theta\\cos^5\\theta\\,d\\theta$ for $n=0,1,2,\\ldots$ Let $J_n=\\displaystyle\\int_0^1x^{4n+7}(1-x^4)^2\\,dx$. Show that $J_n=\\frac12I_n$.",
+   "answer": "Let $x^2=\\sin\\theta$, so $x\\,dx=\\frac12\\cos\\theta\\,d\\theta$, limits $0$ to $\\frac\\pi2$:\n\n$J_n=\\displaystyle\\int_0^1(x^2)^{2n+3}(1-(x^2)^2)^2\\,x\\,dx=\\frac12\\int_0^{\\pi/2}\\sin^{2n+3}\\theta\\cos^4\\theta\\cos\\theta\\,d\\theta=\\frac12I_n$."
+  }
+ ]
+}
