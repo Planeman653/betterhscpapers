@@ -30,7 +30,6 @@
     showAnswers: store.get("showAnswers", false),
     hideEmpty: true,
     strictDp: store.get("strictDp", false),
-    inclY11: store.get("inclY11", true),
     basket: new Set(store.get("basket:" + COURSE, [])),
     opened: new Set(),                    // per-question answers opened manually
     prevOpen: new Set(),                  // per-question "previous parts" opened
@@ -136,7 +135,6 @@
   function passesNonTopic(q) {
     if (!S.diff.has(q.difficulty)) return false;
     if (!S.kinds.has(q.kind)) return false;
-    if (!S.inclY11 && q.dotpoints.length && q.dotpoints.every((d) => d.startsWith("11."))) return false;
     if (S.papers.size && !S.papers.has(q.paper)) return false;
     if (S.search) for (const w of S.search.split(/\s+/)) if (w && !q._text.includes(w)) return false;
     return true;
@@ -202,11 +200,11 @@
         yHtml += `<details class="lvl-topic" data-key="${key}" ${openState.has(key) ? "open" : ""}><summary><span class="caret">▸</span><input type="checkbox" data-group="${t.id}"><span class="lbl">${nm(t.name)}</span><span class="cnt">${tCount}</span></summary><div class="kids">${tHtml}</div></details>`;
       }
       const yCount = ySet.size;
-      if (S.hideEmpty && !yCount && !(y.year === 11 && !S.inclY11)) continue;
+      if (S.hideEmpty && !yCount) continue;
       const key = "y" + y.year;
       const open = firstBuild || openState.has(key);
       html += S.syl.years.length > 1
-        ? `<details class="lvl-year" data-key="${key}" ${open ? "open" : ""}><summary><span class="caret">▸</span>${y.year === 11 ? `<input type="checkbox" id="inc-y11" title="Include Year 11 questions" ${S.inclY11 ? "checked" : ""}>` : ""}<span class="lbl">Year ${y.year}</span><span class="cnt">${yCount}</span></summary>${yHtml}</details>`
+        ? `<details class="lvl-year" data-key="${key}" ${open ? "open" : ""}><summary><span class="caret">▸</span>${S.syl.years.length > 1 ? `<input type="checkbox" data-group="${y.year}" title="Select all Year ${y.year} dot points">` : ""}<span class="lbl">Year ${y.year}</span><span class="cnt">${yCount}</span></summary>${yHtml}</details>`
         : yHtml;
     }
     root.innerHTML = html || `<div class="none" style="padding:10px">No indexed questions yet.</div>`;
@@ -633,13 +631,11 @@
     $("clear-topics").addEventListener("click", () => { S.sel.clear(); refresh(true); });
     $("reset").addEventListener("click", () => {
       S.sel.clear(); S.papers.clear(); S.diff = new Set([1, 2, 3, 4, 5]); S.kinds = new Set(["mc", "written"]); S.search = ""; $("search").value = "";
-      S.inclY11 = true; store.set("inclY11", true);
       document.querySelectorAll("[data-diff],[data-kind]").forEach((b) => b.classList.add("on")); buildPapers(); refresh(true);
     });
     $("tree").addEventListener("change", (e) => {
       const t = e.target;
-      if (t.id === "inc-y11") { S.inclY11 = t.checked; store.set("inclY11", S.inclY11); refresh(true); }
-      else if (t.dataset.dp) { t.checked ? S.sel.add(t.dataset.dp) : S.sel.delete(t.dataset.dp); refresh(false); }
+      if (t.dataset.dp) { t.checked ? S.sel.add(t.dataset.dp) : S.sel.delete(t.dataset.dp); refresh(false); }
       else if (t.dataset.group) { for (const id of dpsUnder(t.dataset.group)) t.checked ? S.sel.add(id) : S.sel.delete(id); refresh(true); }
     });
     $("tree").addEventListener("click", (e) => { if (e.target.matches("summary input")) e.stopPropagation(); }, true);
