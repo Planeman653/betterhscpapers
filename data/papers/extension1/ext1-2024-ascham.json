@@ -1,0 +1,505 @@
+{
+ "id": "ext1-2024-ascham",
+ "course": "extension1",
+ "school": "Ascham",
+ "year": 2024,
+ "type": "Trial",
+ "thsc": {
+  "viewno": 5338,
+  "title": "Ascham 2024 w. sol"
+ },
+ "indexed": "2026-11-26",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "11(e)",
+   "reason": "Normal approximation to a sample proportion (uses the normal table) — not in the current Extension 1 syllabus"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.19",
+    "11.4.1.11"
+   ],
+   "question": "Four boys and four girls are randomly seated around a circular table. What is the probability that boys and girls alternate?",
+   "answer": "There are $7!$ circular arrangements. Seat the boys in $3!$ ways, then the girls in the gaps in $4!$ ways.",
+   "options": [
+    "$\\dfrac{4!\\,3!}{7!}$",
+    "$\\dfrac{4!\\,4!}{7!}$",
+    "$\\dfrac{4!\\,3!}{8!}$",
+    "$\\dfrac{4!\\,4!}{8!}$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Given $f(x)=\\sin^{-1}\\left(\\dfrac ax\\right)$ for $x>a>0$, which is the correct expression for $f'(x)$?",
+   "answer": "$f'(x)=\\dfrac{-a/x^2}{\\sqrt{1-a^2/x^2}}=\\dfrac{-a}{x\\sqrt{x^2-a^2}}$.",
+   "options": [
+    "$\\dfrac{-a}{x\\sqrt{x^2-a^2}}$",
+    "$\\dfrac{a}{x\\sqrt{x^2-a^2}}$",
+    "$\\dfrac{-ax}{\\sqrt{x^2-a^2}}$",
+    "$\\dfrac{ax}{\\sqrt{x^2-a^2}}$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.2"
+   ],
+   "question": "What is the value of $\\beta$ such that $\\sqrt3\\sin x-\\cos x=2\\cos(x-\\beta)$?",
+   "answer": "$2\\cos(x-\\beta)=2\\cos\\beta\\cos x+2\\sin\\beta\\sin x$, so $\\cos\\beta=-\\frac12$, $\\sin\\beta=\\frac{\\sqrt3}{2}$ and $\\beta=\\frac{2\\pi}{3}$.\n\n*Note: the school's working swaps the two values; the answer C is correct.*",
+   "options": [
+    "$\\dfrac{\\pi}{6}$",
+    "$\\dfrac{\\pi}{3}$",
+    "$\\dfrac{2\\pi}{3}$",
+    "$\\dfrac{5\\pi}{6}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.5"
+   ],
+   "question": "What is the equation of the tangent to $y=\\cos^{-1}x$ at $x=0$?",
+   "answer": "At $x=0$, $y=\\frac\\pi2$ and $y'=-1$, so $y=-x+\\frac\\pi2$.",
+   "options": [
+    "$2x+2y+\\pi=0$",
+    "$2x+2y-\\pi=0$",
+    "$2x-2y+\\pi=0$",
+    "$2x-2y-\\pi=0$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.9"
+   ],
+   "question": "The diagram shows a vector $\\underset{\\sim}{u}$ and four points $A$, $B$, $C$ and $D$ on a unit grid. Which vector has the greatest magnitude?",
+   "answer": "$\\underset{\\sim}{u}=(3,-1)$. The magnitudes are proportional to $|\\underset{\\sim}{u}\\cdot\\overrightarrow{OP}|$: $9, 7, 11, 5$ for $A,B,C,D$.",
+   "images": [
+    "assets/img/ext1-2024-ascham/q5.png"
+   ],
+   "options": [
+    "$\\text{proj}_{\\underset{\\sim}{u}}\\overrightarrow{OA}$",
+    "$\\text{proj}_{\\underset{\\sim}{u}}\\overrightarrow{OB}$",
+    "$\\text{proj}_{\\underset{\\sim}{u}}\\overrightarrow{OC}$",
+    "$\\text{proj}_{\\underset{\\sim}{u}}\\overrightarrow{OD}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.5",
+    "12.3.1.6"
+   ],
+   "question": "What is the range of $y=\\tan^{-1}(\\sin x)$?",
+   "answer": "$-1\\le\\sin x\\le1$ and $\\tan^{-1}$ is increasing.",
+   "options": [
+    "$\\left[-\\dfrac\\pi2,\\dfrac\\pi2\\right]$",
+    "$\\left(-\\dfrac\\pi2,\\dfrac\\pi2\\right)$",
+    "$\\left[-\\dfrac\\pi4,\\dfrac\\pi4\\right]$",
+    "$\\left(-\\dfrac\\pi4,\\dfrac\\pi4\\right)$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.9",
+    "12.5.4.4"
+   ],
+   "question": "Which differential equation could be represented by this direction field?",
+   "answer": "The segments are vertical where $y=0$ and horizontal along $y=-x$.",
+   "images": [
+    "assets/img/ext1-2024-ascham/q7.png"
+   ],
+   "options": [
+    "$\\dfrac{dy}{dx}=\\dfrac{y-x}{y}$",
+    "$\\dfrac{dy}{dx}=\\dfrac{y+x}{y}$",
+    "$\\dfrac{dy}{dx}=\\dfrac{x-y}{x}$",
+    "$\\dfrac{dy}{dx}=\\dfrac{x+y}{x}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.3.3",
+    "11.2.3.4"
+   ],
+   "question": "$P(x)=x^4-5x^2+x+2$ has four real zeros. If the graph of $P(x)$ is translated 1 unit to the left, what is the product of the zeros of the new polynomial?",
+   "answer": "The new polynomial is $P(x+1)$, which is monic with constant term $P(1)=-1$. The product of the zeros is $-1$.",
+   "options": [
+    "$-3$",
+    "$-1$",
+    "$1$",
+    "$7$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.3.2.2"
+   ],
+   "question": "Given $\\tan\\alpha=\\dfrac12$, what is the exact value of $\\tan\\left(\\alpha+\\dfrac\\pi3\\right)$?",
+   "answer": "$\\dfrac{\\frac12+\\sqrt3}{1-\\frac{\\sqrt3}{2}}=\\dfrac{1+2\\sqrt3}{2-\\sqrt3}$.",
+   "options": [
+    "$\\dfrac{\\sqrt3-2}{2\\sqrt3+1}$",
+    "$\\dfrac{\\sqrt3+2}{2\\sqrt3-1}$",
+    "$\\dfrac{1-2\\sqrt3}{2+\\sqrt3}$",
+    "$\\dfrac{1+2\\sqrt3}{2-\\sqrt3}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.5"
+   ],
+   "question": "$\\underset{\\sim}{a}$, $\\underset{\\sim}{b}$ and $\\underset{\\sim}{a}+\\underset{\\sim}{b}$ all have magnitude 1. What is $|\\underset{\\sim}{a}-\\underset{\\sim}{b}|$?",
+   "answer": "$|a+b|^2=2+2a\\cdot b=1$ gives $a\\cdot b=-\\frac12$, so $|a-b|^2=2-2a\\cdot b=3$.",
+   "options": [
+    "$1$",
+    "$\\sqrt2$",
+    "$\\sqrt3$",
+    "$2$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{1}{\\sqrt{4-9x^2}}\\,dx$.",
+   "answer": "$\\dfrac13\\sin^{-1}\\left(\\dfrac{3x}{2}\\right)+C$"
+  },
+  {
+   "ref": "11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.6"
+   ],
+   "question": "Given $\\underset{\\sim}{a}=\\begin{pmatrix}1\\\\-2\\end{pmatrix}$ and $\\underset{\\sim}{b}=\\begin{pmatrix}-2\\\\3\\end{pmatrix}$, find $\\underset{\\sim}{c}$ if $\\underset{\\sim}{a}+2\\underset{\\sim}{b}+\\underset{\\sim}{c}=\\underset{\\sim}{0}$.",
+   "answer": "$\\underset{\\sim}{c}=-\\underset{\\sim}{a}-2\\underset{\\sim}{b}=\\begin{pmatrix}3\\\\-4\\end{pmatrix}$."
+  },
+  {
+   "ref": "11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.2.6"
+   ],
+   "question": "Five fair dice are rolled. Calculate the probability that exactly two of them show a 6.",
+   "answer": "$\\displaystyle\\binom52\\left(\\frac16\\right)^2\\left(\\frac56\\right)^3=\\frac{625}{3888}\\approx0.161$"
+  },
+  {
+   "ref": "11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.3"
+   ],
+   "question": "Find the exact value of $\\displaystyle\\int_{\\pi/6}^{\\pi/3}\\cos^2x\\,dx$.",
+   "answer": "$$\\frac12\\int_{\\pi/6}^{\\pi/3}(1+\\cos2x)\\,dx=\\frac12\\left[x+\\frac{\\sin2x}{2}\\right]_{\\pi/6}^{\\pi/3}=\\frac{\\pi}{12}$$"
+  },
+  {
+   "ref": "11(f)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "To make a solid rim for a wheel, the region between the curve $y=e^{x/4}+e^{-x/4}$, the lines $x=-2$ and $x=2$, and the $x$-axis is rotated about the $x$-axis. Find the volume of the solid.",
+   "answer": "$$V=\\pi\\int_{-2}^{2}\\left(e^{x/2}+2+e^{-x/2}\\right)dx=2\\pi\\left[2e^{x/2}+2x-2e^{-x/2}\\right]_0^2=4\\pi\\left(e+2-\\frac1e\\right)$$",
+   "images": [
+    "assets/img/ext1-2024-ascham/q11f.png"
+   ]
+  },
+  {
+   "ref": "12(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.1.9",
+    "12.5.1.1"
+   ],
+   "question": "$P(x)=x^3+bx^2+cx+3$ has a root of multiplicity 2 at $x=-1$. Find $b$ and $c$.",
+   "answer": "Let the third root be $\\beta$. Product of roots: $(-1)(-1)\\beta=-3$, so $\\beta=-3$.\n\nSum: $-5=-b$, so $b=5$. Sum in pairs: $1+3+3=c$, so $c=7$."
+  },
+  {
+   "ref": "12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "Use mathematical induction to prove that $(-1)^n+2^{n+1}$ is a multiple of 3 for all integers $n\\ge1$.",
+   "answer": "**$n=1$:** $-1+4=3$, true.\n\n**Assume** $(-1)^k+2^{k+1}=3M$ for an integer $M$, so $(-1)^k=3M-2^{k+1}$.\n\n**$n=k+1$:**\n$$(-1)^{k+1}+2^{k+2}=-(3M-2^{k+1})+2^{k+2}=3\\left(2^{k+1}-M\\right)$$\nwhich is a multiple of 3. So by induction the result holds for all $n\\ge1$."
+  },
+  {
+   "ref": "12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Use the substitution $u=\\sqrt{2-x}$ to find the exact value of $\\displaystyle\\int_0^1\\frac{x}{\\sqrt{2-x}}\\,dx$.",
+   "answer": "$x=2-u^2$ and $dx=-2u\\,du$; the limits are $u=\\sqrt2$ to $1$.\n\n$$\\int_{\\sqrt2}^{1}\\frac{(2-u^2)(-2u)}{u}\\,du=\\int_1^{\\sqrt2}(4-2u^2)\\,du=\\left[4u-\\frac{2u^3}{3}\\right]_1^{\\sqrt2}=\\frac{8\\sqrt2-10}{3}$$"
+  },
+  {
+   "ref": "12(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.7"
+   ],
+   "question": "A stuntman is projected from a point 5 m above level ground at $30^\\circ$ to the horizontal with speed 10 m/s. A pad 1 m high is placed on the ground to cushion his landing. His position is $\\underset{\\sim}{r}=5\\sqrt3\\,t\\,\\underset{\\sim}{i}+5(1+t-t^2)\\,\\underset{\\sim}{j}$. Show that the time of flight until he lands on the pad is approximately 1.52 seconds.",
+   "answer": "He lands when $y=1$: $5(1+t-t^2)=1$, so $5t^2-5t-4=0$ and $t=\\dfrac{5+\\sqrt{105}}{10}\\approx1.52$ s (taking $t>0$).",
+   "images": [
+    "assets/img/ext1-2024-ascham/q12d.png"
+   ]
+  },
+  {
+   "ref": "12(d)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.6.7"
+   ],
+   "question": "A stuntman is projected from a point 5 m above level ground at $30^\\circ$ to the horizontal with speed 10 m/s. A pad 1 m high is placed on the ground to cushion his landing. His position is $\\underset{\\sim}{r}=5\\sqrt3\\,t\\,\\underset{\\sim}{i}+5(1+t-t^2)\\,\\underset{\\sim}{j}$. Given that he lands on the pad after 1.52 seconds (to 2 decimal places), determine how far from $O$, to the nearest centimetre, the pad should be centred.",
+   "answer": "Using $t=\\dfrac{5+\\sqrt{105}}{10}$: $x=5\\sqrt3\\,t\\approx13.20$ m.",
+   "images": [
+    "assets/img/ext1-2024-ascham/q12d.png"
+   ]
+  },
+  {
+   "ref": "12(d)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.5.8",
+    "12.2.6.7"
+   ],
+   "question": "A stuntman is projected from a point 5 m above level ground at $30^\\circ$ to the horizontal with speed 10 m/s. A pad 1 m high is placed on the ground to cushion his landing. His position is $\\underset{\\sim}{r}=5\\sqrt3\\,t\\,\\underset{\\sim}{i}+5(1+t-t^2)\\,\\underset{\\sim}{j}$. He lands on the pad after about 1.52 seconds. Calculate his impact speed to the nearest m/s.",
+   "answer": "$\\underset{\\sim}{v}=5\\sqrt3\\,\\underset{\\sim}{i}+5(1-2t)\\,\\underset{\\sim}{j}$. At $t=1.52$:\n\n$$|\\underset{\\sim}{v}|=\\sqrt{(5\\sqrt3)^2+\\big(5(1-3.04)\\big)^2}=\\sqrt{75+104.0}\\approx13\\ \\text{m/s}$$",
+   "images": [
+    "assets/img/ext1-2024-ascham/q12d.png"
+   ]
+  },
+  {
+   "ref": "12(d)(iv)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.7"
+   ],
+   "question": "A stuntman is projected from a point 5 m above level ground at $30^\\circ$ to the horizontal with speed 10 m/s. A pad 1 m high is placed on the ground to cushion his landing. His position is $\\underset{\\sim}{r}=5\\sqrt3\\,t\\,\\underset{\\sim}{i}+5(1+t-t^2)\\,\\underset{\\sim}{j}$. The stunt is to be performed in a stadium with a ceiling 8 m high. By how much will he miss the ceiling at his highest point?",
+   "answer": "$\\dot y=5(1-2t)=0$ at $t=\\frac12$, where $y=5\\times\\frac54=6.25$ m. He misses the ceiling by $1.75$ m.",
+   "images": [
+    "assets/img/ext1-2024-ascham/q12d.png"
+   ]
+  },
+  {
+   "ref": "13(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.3"
+   ],
+   "question": "Show that $y=e^{-x^2/2}$ is a solution of the differential equation $y''=y(x^2-1)$.",
+   "answer": "$y'=-xe^{-x^2/2}$ and $y''=-e^{-x^2/2}+x^2e^{-x^2/2}=y(x^2-1)$."
+  },
+  {
+   "ref": "13(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.3"
+   ],
+   "question": "The function $y=e^{-x^2/2}$ satisfies $y''=y(x^2-1)$. Hence, or otherwise, find the coordinates of its points of inflection.",
+   "answer": "$y>0$, so $y''=0$ at $x=\\pm1$, and $y''$ changes sign there. The points of inflection are $\\left(\\pm1,\\dfrac{1}{\\sqrt e}\\right)$."
+  },
+  {
+   "ref": "13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "course": "extension2",
+   "dotpoints": [
+    "12.4.1.4"
+   ],
+   "question": "Find $\\displaystyle\\int_0^{\\pi/6}\\cos3x\\cos x\\,dx$.",
+   "answer": "$$\\frac12\\int_0^{\\pi/6}(\\cos2x+\\cos4x)\\,dx=\\frac12\\left[\\frac{\\sin2x}{2}+\\frac{\\sin4x}{4}\\right]_0^{\\pi/6}=\\frac12\\left(\\frac{\\sqrt3}{4}+\\frac{\\sqrt3}{8}\\right)=\\frac{3\\sqrt3}{16}$$"
+  },
+  {
+   "ref": "13(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.3",
+    "12.4.1.4"
+   ],
+   "question": "The function $f(x)=\\dfrac{2}{x+1}$ passes through $\\left(\\dfrac12,\\dfrac43\\right)$. Find the gradient of $y=f^{-1}(x)$ at $\\left(\\dfrac43,\\dfrac12\\right)$.",
+   "answer": "$f'(x)=\\dfrac{-2}{(x+1)^2}$, so $f'\\left(\\frac12\\right)=-\\dfrac89$. The gradient of the inverse is the reciprocal, $-\\dfrac98$."
+  },
+  {
+   "ref": "13(d)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.15"
+   ],
+   "question": "The repopulation of koalas in a habitat is modelled by $\\dfrac{dP}{dt}=\\dfrac{P(300-P)}{300}$, where $t$ is in years. Initially 120 koalas are released. Using $\\dfrac{300}{P(300-P)}=\\dfrac1P+\\dfrac{1}{300-P}$, show that $P=\\dfrac{600}{2+3e^{-t}}$.",
+   "answer": "$$\\int\\left(\\frac1P+\\frac1{300-P}\\right)dP=\\int dt\\ \\Rightarrow\\ \\ln\\frac{P}{300-P}=t+c$$\nSo $\\dfrac{P}{300-P}=Ae^t$, and $P(0)=120$ gives $A=\\dfrac23$. Then $3P=2e^t(300-P)$, so\n$$P=\\frac{600e^t}{3+2e^t}=\\frac{600}{2+3e^{-t}}$$"
+  },
+  {
+   "ref": "13(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.16"
+   ],
+   "question": "The repopulation of koalas in a habitat is modelled by $\\dfrac{dP}{dt}=\\dfrac{P(300-P)}{300}$, where $t$ is in years. Initially 120 koalas are released. The solution is $P=\\dfrac{600}{2+3e^{-t}}$. The maximum growth rate occurs within the first year. After how many complete months will the growth rate be decreasing? Justify your answer.",
+   "answer": "$\\dfrac{dP}{dt}$ is a concave-down quadratic in $P$, greatest when $P=150$. Then $2+3e^{-t}=4$, so $t=\\ln\\frac32\\approx0.405$ years $\\approx4.87$ months.\n\nThe growth rate starts to decrease during the fifth month, so it is decreasing after **5** complete months.\n\n*Note: the school converts $0.405$ years to 4.8 months; it is about 4.9 months.*"
+  },
+  {
+   "ref": "13(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.1",
+    "11.1.1.6"
+   ],
+   "question": "Let $f(x)=x^2+c$ for a constant $c$. By considering the graph of $y=\\dfrac{1}{f(x)}$, or otherwise, find all values of $c$ for which $f(x)=\\dfrac{1}{f(x)}$ has exactly two real solutions.",
+   "answer": "$f(x)=\\dfrac1{f(x)}$ means $f(x)=\\pm1$, that is $x^2=1-c$ or $x^2=-1-c$.\n\n- $c>1$: no solutions; $c=1$: one.\n- $-1<c<1$: only $x^2=1-c$ has solutions, giving two.\n- $c=-1$: three; $c<-1$: four.\n\nSo there are exactly two solutions when $-1<c<1$."
+  },
+  {
+   "ref": "14(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.2",
+    "11.1.4.3"
+   ],
+   "question": "Solve $\\dfrac{2}{|x-1|}\\ge3$.",
+   "answer": "For $x\\neq1$, $|x-1|>0$, so $|x-1|\\le\\dfrac23$. Hence $\\dfrac13\\le x\\le\\dfrac53$, $x\\neq1$."
+  },
+  {
+   "ref": "14(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.3.3",
+    "11.1.3.4"
+   ],
+   "question": "Sketch the curve with parametric equations $x=2t-1$, $y=t^2+t$ for $-1\\le t\\le1$.",
+   "answer": "$t=\\dfrac{x+1}{2}$ gives $y=\\dfrac14(x+1)(x+3)$ for $-3\\le x\\le1$: part of a parabola from $(-3,0)$ to $(1,2)$, with vertex $\\left(-2,-\\frac14\\right)$, $x$-intercepts $-3,-1$ and $y$-intercept $\\frac34$.",
+   "answer_images": [
+    "assets/img/ext1-2024-ascham/ans14b.png"
+   ]
+  },
+  {
+   "ref": "14(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "A conical tank (top diameter 6 m, depth 5 m, vertex down) is leaking water from the bottom at 1.5 litres per minute. The volume of water is $V=\\frac13\\pi r^2h$, where $h$ m is the depth and $r$ m the radius of the water surface. Find the rate at which the water level is falling when the depth is 1 m. [$1\\text{ m}^3=1000$ L]",
+   "answer": "By similar triangles $r=\\dfrac{3h}{5}$, so $V=\\dfrac{3\\pi h^3}{25}$ and $\\dfrac{dV}{dh}=\\dfrac{9\\pi h^2}{25}$.\n\n$$\\frac{dh}{dt}=\\frac{dV}{dt}\\div\\frac{dV}{dh}=-0.0015\\times\\frac{25}{9\\pi}\\approx-0.00133\\ \\text{m/min}$$\n\nThe level is falling at about $1.3$ mm per minute.",
+   "images": [
+    "assets/img/ext1-2024-ascham/q14c.png"
+   ]
+  },
+  {
+   "ref": "14(d)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.6",
+    "12.2.3.7"
+   ],
+   "question": "For two values of $k$, the position vectors $\\overrightarrow{OA}=3\\underset{\\sim}{i}-\\underset{\\sim}{j}$ and $\\overrightarrow{OB}=2\\underset{\\sim}{i}+k\\underset{\\sim}{j}$ form adjacent sides of a rhombus. Find the two possible areas of the rhombus.",
+   "answer": "A rhombus has equal sides: $4+k^2=10$, so $k=\\pm\\sqrt6$.\n\n$\\cos\\theta=\\dfrac{\\overrightarrow{OA}\\cdot\\overrightarrow{OB}}{10}=\\dfrac{6-k}{10}$ and the area is $|OA||OB|\\sin\\theta=10\\sin\\theta$:\n\n$$\\text{Area}=\\sqrt{100-(6-k)^2}$$\n\nFor $k=\\sqrt6$: area $=3\\sqrt6+2\\approx9.3$. For $k=-\\sqrt6$: area $=3\\sqrt6-2\\approx5.3$ square units."
+  },
+  {
+   "ref": "14(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.4.1.17",
+    "11.4.1.18"
+   ],
+   "question": "Two teams of four players and an umpire are to be formed from nine people. Amelia and Chloe cannot be on the same team, although either may be the umpire. How many ways can the nine people be grouped into two teams and an umpire?",
+   "answer": "Without restriction (the teams are not labelled): $\\dfrac{\\binom94\\binom54}{2}=315$.\n\nWith Amelia and Chloe on the same team: choose their 2 team-mates from the other 7 and the second team from the remaining 5: $\\binom72\\binom54=105$.\n\nNumber of ways $=315-105=210$."
+  }
+ ]
+}
