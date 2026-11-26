@@ -1,0 +1,717 @@
+{
+ "id": "ext2-2025-trinity-grammar",
+ "course": "extension2",
+ "school": "Trinity Grammar",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": 5348,
+  "title": "Trinity Grammar 2025 w. sol"
+ },
+ "indexed": "2026-11-26",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q3",
+   "reason": "Exponential (Euler) form of complex numbers"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.9"
+   ],
+   "question": "If $w=a-2ai$, which of the following is equivalent to $i^3w$?",
+   "answer": "**A.** $i^3=-i$, so $i^3w=-i(a-2ai)=-ai+2ai^2=-2a-ai$.",
+   "options": [
+    "$-2a-ai$",
+    "$-a-2ai$",
+    "$2a-ai$",
+    "$-a+2ai$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.11",
+    "12.1.1.12"
+   ],
+   "question": "The sign on a door reads: \"If you are not permitted, you do not have access.\"\n\nWhich of the following statements is logically equivalent to this?",
+   "answer": "**B.** An implication is equivalent to its contrapositive.",
+   "options": [
+    "If you do not have access, then you are not permitted.",
+    "If you have access, then you are permitted.",
+    "If you are not permitted, then you have access.",
+    "If you are permitted, then you have access."
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.5.1.1"
+   ],
+   "question": "The acceleration of a body is given by $a=3v$, where $v$ is its velocity. Which of the following equations is correct, given that the velocity is $4\\ \\text{m s}^{-1}$ when the body is 2 m to the right of the origin?",
+   "answer": "**C.** $v\\dfrac{dv}{dx}=3v\\Rightarrow\\dfrac{dv}{dx}=3\\Rightarrow v=3x+c$, and $4=6+c$ gives $c=-2$.",
+   "options": [
+    "$v=2x$",
+    "$v=4x-4$",
+    "$v=3x-2$",
+    "$v=-3x+10$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.4",
+    "12.3.5.2"
+   ],
+   "question": "Which of the Argand diagrams shows the solution to $\\text{Arg}(z+i)=\\text{Arg}(z-1)$?",
+   "answer": "**B.** The directions from $-i$ to $z$ and from $1$ to $z$ must be the same, so $z$ lies on the line through $-i$ and $1$ but outside the segment joining them (inside the segment the directions are opposite). The two points themselves are excluded.",
+   "images": [
+    "assets/img/ext2-2025-trinity-grammar/q5.png"
+   ],
+   "options": [
+    "Diagram A",
+    "Diagram B",
+    "Diagram C",
+    "Diagram D"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Which expression is equal to $\\displaystyle\\int x\\sqrt{1+x}\\,dx$?",
+   "answer": "**D.** With $u=1+x$: $\\int(u-1)\\sqrt u\\,du=\\frac25u^{5/2}-\\frac23u^{3/2}+C$.",
+   "options": [
+    "$\\frac25(1+x)^{5/2}+\\frac23(1+x)^{3/2}+C$",
+    "$-\\frac25(1+x)^{5/2}-\\frac23(1+x)^{3/2}+C$",
+    "$-\\frac25(1+x)^{5/2}+\\frac23(1+x)^{3/2}+C$",
+    "$\\frac25(1+x)^{5/2}-\\frac23(1+x)^{3/2}+C$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.14",
+    "12.2.1.12"
+   ],
+   "question": "The spiral shown describes the position $(x,y)$ of a particle for $0\\le t\\le T$. Which of the following describes the spiral?",
+   "answer": "**A.** At $t=\\frac\\pi2$ option A gives $\\left(\\frac\\pi4,0\\right)$, and at $t=4\\pi$ it gives $(0,2\\pi)$, matching the graph.",
+   "images": [
+    "assets/img/ext2-2025-trinity-grammar/q7.png"
+   ],
+   "options": [
+    "$x=\\frac t2\\sin t,\\ y=\\frac t2\\cos t,\\ T=4\\pi$",
+    "$x=t\\sin 2t,\\ y=t\\cos 2t,\\ T=4\\pi$",
+    "$x=t\\sin t,\\ y=t\\cos t,\\ T=2\\pi$",
+    "$x=\\frac t2\\sin t,\\ y=-\\frac t2\\cos t,\\ T=4\\pi$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.6",
+    "12.3.4.5"
+   ],
+   "question": "What is the perimeter of the regular $n$-gon formed by the solutions of $z^n=1$, for $n\\ge3$?",
+   "answer": "**D.** Each side subtends $\\frac{2\\pi}n$ at the centre of the unit circle, so has length $2\\sin\\frac\\pi n$. There are $n$ sides.",
+   "options": [
+    "$2n\\cos\\frac{2\\pi}{n}$",
+    "$2n\\cos\\frac{\\pi}{n}$",
+    "$2n\\sin\\frac{2\\pi}{n}$",
+    "$2n\\sin\\frac{\\pi}{n}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.7",
+    "12.1.1.6"
+   ],
+   "question": "Which of the following is the negation of $\\forall x\\in\\mathbb R^+,\\ \\exists y\\in\\mathbb R^+: xy=1$?",
+   "answer": "**C.** Negation swaps \"for all\" and \"there exists\" and negates the final statement.",
+   "options": [
+    "$\\exists x,y\\in\\mathbb R^+: xy\\ne1$",
+    "$\\forall x,y\\in\\mathbb R^+,\\ xy\\ne1$",
+    "$\\exists x\\in\\mathbb R^+:\\forall y\\in\\mathbb R^+,\\ xy\\ne1$",
+    "$\\forall x\\in\\mathbb R^+,\\ \\exists y\\in\\mathbb R^+: xy\\ne1$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.6.1",
+    "12.2.2.1"
+   ],
+   "question": "The point $P$ represents the position of a unit mass that has been projected horizontally from the top of a cliff. The air resistance is $\\underset{\\sim}{R}$, the gravitational force is $\\underset{\\sim}{G}$, the velocity is $\\underset{\\sim}{v}$, and the position of the mass relative to an origin **at the foot of the cliff** is $\\underset{\\sim}{r}$. Write $\\widehat{ab}$ for $\\dfrac{a\\cdot b}{|a||b|}$.\n\nWhich of the following is consistent with the motion at $P$?",
+   "answer": "**B.** $\\underset{\\sim}{R}$ is opposite to $\\underset{\\sim}{v}$, so $\\widehat{Rv}=-1$ is the least. $\\underset{\\sim}{G}$ and $\\underset{\\sim}{v}$ make an acute angle, so $\\widehat{Gv}>0$. With $\\underset{\\sim}{r}$ pointing up and to the right, the angle between $\\underset{\\sim}{G}$ and $\\underset{\\sim}{r}$ is obtuse and larger than the angle between $\\underset{\\sim}{R}$ and $\\underset{\\sim}{r}$, so $\\widehat{Gr}<\\widehat{Rr}<0$.\n\n*Note: the paper does not say where the origin of $\\underset{\\sim}{r}$ is. The school's solution takes it at the foot of the cliff (added here); with the origin at the launch point none of the options would be correct.*",
+   "images": [
+    "assets/img/ext2-2025-trinity-grammar/q10.png"
+   ],
+   "options": [
+    "$\\widehat{Gr}<\\widehat{Gv}<\\widehat{Rv}<\\widehat{Rr}$",
+    "$\\widehat{Rv}<\\widehat{Gr}<\\widehat{Rr}<\\widehat{Gv}$",
+    "$\\widehat{Gv}<\\widehat{Gr}<\\widehat{Rv}<\\widehat{Rr}$",
+    "$\\widehat{Rr}<\\widehat{Gv}<\\widehat{Gr}<\\widehat{Rv}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.11",
+    "12.3.1.9"
+   ],
+   "question": "Let $z_1=-3-2i$, $z_2=2-i$ and $z_3=i\\left(z_1-\\overline{z_2}\\right)$. Calculate $|z_3|$.",
+   "answer": "$$z_1-\\overline{z_2}=(-3-2i)-(2+i)=-5-3i,\\qquad z_3=i(-5-3i)=3-5i$$\n$$|z_3|=\\sqrt{9+25}=\\sqrt{34}$$"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.5.5",
+    "12.3.1.12"
+   ],
+   "question": "Sketch the region of the Argand diagram described by $iz-i\\overline z>4$.",
+   "answer": "Let $z=x+iy$. Then $iz-i\\overline z=i(2iy)=-2y$, so $-2y>4$, that is $y<-2$.\n\nThe region is everything strictly below the line $\\text{Im}(z)=-2$ (dashed boundary).",
+   "answer_images": [
+    "assets/img/ext2-2025-trinity-grammar/ans11b.png"
+   ]
+  },
+  {
+   "ref": "Q11(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.7"
+   ],
+   "question": "Consider the line $\\underset{\\sim}{r}=\\begin{pmatrix}4\\\\-3\\end{pmatrix}+\\lambda\\begin{pmatrix}-2\\\\5\\end{pmatrix}$.\n\nShow that the point $(0,7)$ lies on the line.",
+   "answer": "$4-2\\lambda=0$ gives $\\lambda=2$, and then $-3+5(2)=7$. The same $\\lambda$ satisfies both components, so $(0,7)$ lies on the line."
+  },
+  {
+   "ref": "Q11(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.3",
+    "12.2.2.1"
+   ],
+   "question": "Consider the line $\\underset{\\sim}{r}=\\begin{pmatrix}4\\\\-3\\end{pmatrix}+\\lambda\\begin{pmatrix}-2\\\\5\\end{pmatrix}$.\n\nShow that the line through $A(3,2)$ and $B(8,4)$ is perpendicular to $\\underset{\\sim}{r}$.",
+   "answer": "$\\overrightarrow{AB}=\\begin{pmatrix}5\\\\2\\end{pmatrix}$ and\n$$\\begin{pmatrix}5\\\\2\\end{pmatrix}\\cdot\\begin{pmatrix}-2\\\\5\\end{pmatrix}=-10+10=0.$$\nThe direction vectors are perpendicular, so the lines are perpendicular."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.4",
+    "12.3.3.2"
+   ],
+   "question": "It is given that $2+3i$ is a zero of $P(z)=z^3-2z^2+5z+26$. Solve $P(z)=0$.",
+   "answer": "The coefficients are real, so $2-3i$ is also a zero. If the third zero is $\\alpha$, the sum of zeros gives $4+\\alpha=2$, so $\\alpha=-2$.\n\n$z=2+3i,\\ 2-3i,\\ -2$."
+  },
+  {
+   "ref": "Q11(e)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.2.2"
+   ],
+   "question": "Consider the statement: for $x\\in\\mathbb R$, $x^2-x>0\\Rightarrow x<0$.\n\nShow that the statement is false.",
+   "answer": "Counterexample: $x=2$ gives $x^2-x=2>0$, but $2$ is not less than $0$."
+  },
+  {
+   "ref": "Q11(e)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.8"
+   ],
+   "question": "Consider the statement: for $x\\in\\mathbb R$, $x^2-x>0\\Rightarrow x<0$.\n\nState the converse of the statement.",
+   "answer": "For $x\\in\\mathbb R$, $x<0\\Rightarrow x^2-x>0$."
+  },
+  {
+   "ref": "Q11(e)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.9",
+    "12.1.3.6"
+   ],
+   "question": "Consider the statement: for $x\\in\\mathbb R$, $x^2-x>0\\Rightarrow x<0$.\n\nDetermine whether the converse is true.",
+   "answer": "$x^2-x=x(x-1)$. If $x<0$ then $x$ and $x-1$ are both negative, so their product is positive. The converse is **true**."
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.4",
+    "12.3.2.6"
+   ],
+   "question": "Consider the complex number $z=1+\\sqrt3\\,i$.\n\nWrite $z$ in modulus–argument form.",
+   "answer": "$$z=2\\left(\\cos\\tfrac\\pi3+i\\sin\\tfrac\\pi3\\right)$$"
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "Consider the complex number $z=1+\\sqrt3\\,i$.\n\nEvaluate $z^6$.",
+   "answer": "$$z^6=2^6(\\cos2\\pi+i\\sin2\\pi)=64$$"
+  },
+  {
+   "ref": "Q12(a)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "Consider the complex number $z=1+\\sqrt3\\,i$.\n\nFind all values of $n$ for which $z^n$ is purely real.",
+   "answer": "$z^n=2^n\\left(\\cos\\frac{n\\pi}3+i\\sin\\frac{n\\pi}3\\right)$ is real when $\\sin\\frac{n\\pi}3=0$, that is when $n$ is a multiple of 3: $n=3k$, $k\\in\\mathbb Z$."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.1",
+    "12.2.2.5"
+   ],
+   "question": "Consider the points $A(1,0,1)$ and $B(0,2,2)$. Find the projection of $\\overrightarrow{AB}$ onto the $xy$-plane.",
+   "answer": "$\\overrightarrow{AB}=\\begin{pmatrix}-1\\\\2\\\\1\\end{pmatrix}$. Projecting onto the $xy$-plane removes the $z$-component:\n$$\\begin{pmatrix}-1\\\\2\\\\0\\end{pmatrix}$$"
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.8",
+    "12.4.1.7"
+   ],
+   "question": "Use partial fractions to show that $\\displaystyle\\int_0^1\\frac{x+7}{(x-2)(x+1)}\\,dx=-5\\ln2$.",
+   "answer": "$\\dfrac{x+7}{(x-2)(x+1)}=\\dfrac{3}{x-2}-\\dfrac{2}{x+1}$.\n$$\\int_0^1=\\Big[3\\ln|x-2|-2\\ln|x+1|\\Big]_0^1=(0-2\\ln2)-(3\\ln2-0)=-5\\ln2$$"
+  },
+  {
+   "ref": "Q12(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.3",
+    "12.2.1.6"
+   ],
+   "question": "Consider the line $\\underset{\\sim}{r}=\\begin{pmatrix}2\\\\-1\\\\3\\end{pmatrix}+\\lambda\\begin{pmatrix}2\\\\5\\\\-1\\end{pmatrix}$, and the line $l$ that passes through $(-2,1,4)$ parallel to $\\underset{\\sim}{r}$.\n\nFind the Cartesian equation of $l$.",
+   "answer": "$l:\\ (x,y,z)=(-2+2\\lambda,\\ 1+5\\lambda,\\ 4-\\lambda)$, so\n$$\\frac{x+2}{2}=\\frac{y-1}{5}=\\frac{z-4}{-1}$$"
+  },
+  {
+   "ref": "Q12(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.9",
+    "12.2.1.7"
+   ],
+   "question": "Consider the line $\\underset{\\sim}{r}=\\begin{pmatrix}2\\\\-1\\\\3\\end{pmatrix}+\\lambda\\begin{pmatrix}2\\\\5\\\\-1\\end{pmatrix}$, and the line $l$ that passes through $(-2,1,4)$ parallel to $\\underset{\\sim}{r}$.\n\nDetermine where $l$ meets the $xz$-plane.",
+   "answer": "On the $xz$-plane $y=0$: $1+5\\lambda=0$, so $\\lambda=-\\frac15$. The point is $\\left(-\\dfrac{12}{5},\\ 0,\\ \\dfrac{21}{5}\\right)$."
+  },
+  {
+   "ref": "Q12(e)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.3",
+    "12.5.2.2"
+   ],
+   "question": "The motion of a section of a roller coaster can be modelled by simple harmonic motion. The force on the roller coaster is $F=-kx$, where $k>0$ and $x(t)$ is its displacement from the centre of motion at time $t$. Its mass is $m$ and the amplitude of the motion is $A$.\n\nShow that $x=A\\cos\\left(\\sqrt{\\frac km}\\,t\\right)$ satisfies $F=-kx$.",
+   "answer": "$\\dot x=-A\\sqrt{\\frac km}\\sin\\sqrt{\\frac km}t$ and $\\ddot x=-A\\frac km\\cos\\sqrt{\\frac km}t=-\\frac km x$.\n\nSo $F=m\\ddot x=-kx$."
+  },
+  {
+   "ref": "Q12(e)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.5.2.10"
+   ],
+   "question": "The motion of a section of a roller coaster can be modelled by simple harmonic motion. The force on the roller coaster is $F=-kx$, where $k>0$ and $x(t)$ is its displacement from the centre of motion at time $t$. Its mass is $m$ and the amplitude of the motion is $A$.\n\nThe mechanical energy is $M(t)=\\frac12mv^2+\\frac12kx^2$, where $x=A\\cos\\left(\\sqrt{\\frac km}t\\right)$ and $v$ is the velocity. Show that $M(t)$ is proportional to $A^2$.",
+   "answer": "$$M=\\tfrac12mA^2\\tfrac km\\sin^2\\sqrt{\\tfrac km}t+\\tfrac12kA^2\\cos^2\\sqrt{\\tfrac km}t=\\tfrac12kA^2(\\sin^2+\\cos^2)=\\tfrac12kA^2$$\nSo $M$ is constant and proportional to $A^2$."
+  },
+  {
+   "ref": "Q12(e)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.4"
+   ],
+   "question": "The motion of a section of a roller coaster can be modelled by simple harmonic motion. The force on the roller coaster is $F=-kx$, where $k>0$ and $x(t)$ is its displacement from the centre of motion at time $t$. Its mass is $m$ and the amplitude of the motion is $A$.\n\nFor $x=A\\cos\\left(\\sqrt{\\frac km}t\\right)$, show that the maximum velocity of the roller coaster is $A\\sqrt{\\dfrac km}$.",
+   "answer": "$v=-A\\sqrt{\\frac km}\\sin\\sqrt{\\frac km}t$. Since $-1\\le\\sin\\sqrt{\\frac km}t\\le1$, the greatest value of $v$ is $A\\sqrt{\\dfrac km}$, attained when the sine equals $-1$.\n\n*Note: the paper asks to show that $v_{max}=-A\\sqrt{k/m}$. That is the minimum velocity (greatest speed in the negative direction), so the question has been corrected.*"
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.8"
+   ],
+   "question": "Find the value of $k$ such that the points $(-2,k,3)$, $(1,-1,3)$ and $(3,5,3)$ are collinear.",
+   "answer": "Let the points be $A$, $B$, $C$. $\\overrightarrow{BC}=(2,6,0)$ and $\\overrightarrow{BA}=(-3,k+1,0)$. For collinearity $\\overrightarrow{BA}=t\\,\\overrightarrow{BC}$: $-3=2t$ gives $t=-\\frac32$, so $k+1=-9$ and $k=-10$."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.13",
+    "12.3.1.10"
+   ],
+   "question": "Let $z=x+iy$, $z_1=6+2i$ and $z_2=2+2i$, where $x,y\\in\\mathbb R$. Find $\\dfrac{z-z_1}{z-z_2}$ with a real denominator.",
+   "answer": "$$\\frac{(x-6)+i(y-2)}{(x-2)+i(y-2)}\\times\\frac{(x-2)-i(y-2)}{(x-2)-i(y-2)}=\\frac{(x-6)(x-2)+(y-2)^2+4i(y-2)}{(x-2)^2+(y-2)^2}$$"
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.5.3"
+   ],
+   "question": "Sketch on an Argand diagram: $|z-1|=4$.",
+   "answer": "A circle with centre $(1,0)$ and radius 4: $(x-1)^2+y^2=16$. It meets the real axis at $-3$ and $5$ and the imaginary axis at $\\pm\\sqrt{15}\\,i$.",
+   "answer_images": [
+    "assets/img/ext2-2025-trinity-grammar/ans13ci.png"
+   ]
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.4",
+    "12.3.5.5"
+   ],
+   "question": "Sketch on an Argand diagram: $-\\dfrac\\pi3<\\arg(z+i)\\le\\dfrac\\pi4$.",
+   "answer": "The region is the wedge with vertex at $-i$ between the ray at angle $\\frac\\pi4$ (solid, included; it passes through $1$ on the real axis) and the ray at angle $-\\frac\\pi3$ (dashed, excluded). The vertex $-i$ is an open circle.",
+   "answer_images": [
+    "assets/img/ext2-2025-trinity-grammar/ans13cii.png"
+   ]
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.18",
+    "12.2.1.17"
+   ],
+   "question": "Consider the spheres\n$$S_1: x^2-2x+y^2+4y+z^2-4z=0,\\qquad S_2: x^2+10x+y^2+z^2+2z+10=0.$$\nShow that $S_1$ and $S_2$ intersect at a point.",
+   "answer": "Completing the squares:\n\n- $S_1:(x-1)^2+(y+2)^2+(z-2)^2=9$, centre $(1,-2,2)$, radius 3.\n- $S_2:(x+5)^2+y^2+(z+1)^2=16$, centre $(-5,0,-1)$, radius 4.\n\nDistance between centres $=\\sqrt{6^2+(-2)^2+3^2}=7=3+4$. The spheres touch externally, so they meet at exactly one point."
+  },
+  {
+   "ref": "Q13(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.5",
+    "12.3.2.7"
+   ],
+   "question": "Let $z_2=1+i$ and, for $n>2$, let $z_n=z_{n-1}\\left(1+\\dfrac{i}{|z_{n-1}|}\\right)$. Use mathematical induction to prove that $|z_n|=\\sqrt n$ for all integers $n\\ge2$.",
+   "answer": "**Base case** $n=2$: $|z_2|=|1+i|=\\sqrt2$.\n\n**Assume** $|z_k|=\\sqrt k$ for some integer $k\\ge2$. Then\n$$|z_{k+1}|=|z_k|\\left|1+\\frac{i}{|z_k|}\\right|=\\sqrt k\\left|1+\\frac{i}{\\sqrt k}\\right|=|\\sqrt k+i|=\\sqrt{k+1}.$$\n\nSo the result holds for $n=k+1$, and by mathematical induction it holds for all integers $n\\ge2$."
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.1.3.2"
+   ],
+   "question": "Prove that $a^3+b^3>ab(a+b)$ for $a,b\\in\\mathbb R^+$, $a\\ne b$.",
+   "answer": "$$a^3+b^3-a^2b-ab^2=a^2(a-b)-b^2(a-b)=(a-b)^2(a+b)$$\nSince $a\\ne b$, $(a-b)^2>0$, and $a+b>0$. So the difference is positive and $a^3+b^3>ab(a+b)$."
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.9",
+    "12.4.1.11"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^{1/2}\\frac{4x-3}{4x^2-4x+5}\\,dx$.",
+   "answer": "Write $4x-3=\\tfrac12(8x-4)-1$ and $4x^2-4x+5=(2x-1)^2+4$:\n$$\\int_0^{1/2}=\\left[\\tfrac12\\ln(4x^2-4x+5)-\\tfrac14\\tan^{-1}\\frac{2x-1}{2}\\right]_0^{1/2}$$\n$$=\\tfrac12\\ln4-\\left(\\tfrac12\\ln5+\\tfrac14\\tan^{-1}\\tfrac12\\right)=\\tfrac12\\ln\\tfrac45-\\tfrac14\\tan^{-1}\\tfrac12$$"
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3",
+    "12.5.1.5"
+   ],
+   "question": "A pulley system uses a 60 kg counterweight to move a 50 kg box of tiles up a roof. The roof is inclined at $30^\\circ$ to the horizontal on both sides, and a safety stop ensures the box is pulled exactly 3 metres up the roof.\n\nBoth masses are initially at rest and $g=10\\ \\text{m s}^{-2}$. Air resistance is negligible, but the frictional force opposing the motion of each mass is equal to half its normal force.\n\nDetermine whether the pulley system will work as intended.",
+   "answer": "Components down the slope: counterweight $600\\sin30^\\circ=300$ N; box $500\\sin30^\\circ=250$ N. The net driving force is $50$ N.\n\nMaximum frictional forces: $\\tfrac12(600\\cos30^\\circ)=150\\sqrt3$ N and $\\tfrac12(500\\cos30^\\circ)=125\\sqrt3$ N, a total of $275\\sqrt3\\approx476$ N.\n\nThe driving force (50 N) is far smaller than the friction available, so the masses stay at rest: the system **will not work**.",
+   "images": [
+    "assets/img/ext2-2025-trinity-grammar/q14c.png"
+   ]
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3",
+    "12.5.1.5"
+   ],
+   "question": "A pulley system uses a 60 kg counterweight to move a 50 kg box of tiles up a roof. The roof is inclined at $30^\\circ$ to the horizontal on both sides, and a safety stop ensures the box is pulled exactly 3 metres up the roof.\n\nBoth masses are initially at rest and $g=10\\ \\text{m s}^{-2}$. Air resistance is negligible, but the frictional force opposing the motion of each mass is equal to half its normal force.\n\nFind the maximum weight of the box that can be pulled using this system.",
+   "answer": "For a box of mass $x$ kg to move up:\n$$300-150\\sqrt3-5x-\\frac{5\\sqrt3}{2}x>0$$\n$$x<\\frac{120-60\\sqrt3}{2+\\sqrt3}=420-240\\sqrt3\\approx4.31$$\n\nThe box must have mass less than about 4.31 kg, a weight of less than about **43.1 N**.\n\n*Note: the school stops at the mass, 4.31 kg, although the question asks for the weight.*",
+   "images": [
+    "assets/img/ext2-2025-trinity-grammar/q14c.png"
+   ]
+  },
+  {
+   "ref": "Q14(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.4",
+    "12.3.4.9"
+   ],
+   "question": "The complex number $z$ lies on the unit circle with $\\text{Arg}(z)=\\theta$, $z\\ne1$.\n\nShow that $\\dfrac{1+z}{1-z}=i\\cot\\dfrac\\theta2$.",
+   "answer": "With $c=\\cos\\frac\\theta2$ and $s=\\sin\\frac\\theta2$:\n$$1+z=1+\\cos\\theta+i\\sin\\theta=2c^2+2isc=2c(c+is)$$\n$$1-z=1-\\cos\\theta-i\\sin\\theta=2s^2-2isc=-2is(c+is)$$\n$$\\frac{1+z}{1-z}=\\frac{2c}{-2is}=i\\cot\\frac\\theta2$$"
+  },
+  {
+   "ref": "Q14(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.7",
+    "12.3.4.5"
+   ],
+   "question": "Solve $\\left(\\dfrac{w-1}{w+1}\\right)^8=1$, where $w$ is a complex number. You may use the fact that $\\dfrac{1+z}{1-z}=i\\cot\\dfrac\\theta2$ when $z=\\cos\\theta+i\\sin\\theta$, $z\\ne1$.",
+   "answer": "Let $u=\\dfrac{w-1}{w+1}$. Then $u^8=1$, so $u=\\cos\\frac{k\\pi}4+i\\sin\\frac{k\\pi}4$ for $k=-3,\\dots,4$.\n\nSolving for $w$: $w=\\dfrac{1+u}{1-u}$, which is undefined for $u=1$ ($k=0$ gives $w-1=w+1$, impossible). Otherwise $w=i\\cot\\dfrac{k\\pi}{8}$.\n\n$$w=0,\\ \\pm i,\\ \\pm i\\cot\\frac\\pi8,\\ \\pm i\\cot\\frac{3\\pi}8$$\n($w=0$ comes from $k=4$.)"
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "For $p,q\\in\\mathbb R^+$ with $p\\ne2q$, explain why $\\dfrac1{p-2q}\\ne\\dfrac1p-\\dfrac1{2q}$.",
+   "answer": "Suppose, for a contradiction, that $\\dfrac1{p-2q}=\\dfrac1p-\\dfrac1{2q}=\\dfrac{2q-p}{2pq}$.\n\nCross-multiplying: $2pq=(2q-p)(p-2q)=-(p-2q)^2$.\n\nThe left side is positive since $p,q>0$, while the right side is negative since $p\\ne2q$. This is a contradiction, so the two expressions are never equal."
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.9"
+   ],
+   "question": "Consider the complex number $z=\\cos\\theta+i\\sin\\theta$.\n\nExpand and simplify $(z^3-1)(z^6+z^3+1)$.",
+   "answer": "$$(z^3-1)(z^6+z^3+1)=z^9-1$$"
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.12",
+    "12.3.3.4"
+   ],
+   "question": "Consider the complex number $z=\\cos\\theta+i\\sin\\theta$.\n\nShow that $z^6+z^3+1=\\left(z^2-2z\\cos\\frac{2\\pi}9+1\\right)\\left(z^2-2z\\cos\\frac{4\\pi}9+1\\right)\\left(z^2-2z\\cos\\frac{8\\pi}9+1\\right)$.",
+   "answer": "Since $(z^3-1)(z^6+z^3+1)=z^9-1$, the roots of $z^6+z^3+1=0$ are the ninth roots of unity that are not cube roots of unity: $\\text{cis}\\left(\\pm\\frac{2\\pi}9\\right)$, $\\text{cis}\\left(\\pm\\frac{4\\pi}9\\right)$, $\\text{cis}\\left(\\pm\\frac{8\\pi}9\\right)$.\n\nFor each conjugate pair,\n$$(z-\\text{cis}\\,\\alpha)(z-\\text{cis}(-\\alpha))=z^2-2z\\cos\\alpha+1.$$\n\nBoth sides are monic of degree 6 with the same roots, which gives the factorisation."
+  },
+  {
+   "ref": "Q15(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Consider the complex number $z=\\cos\\theta+i\\sin\\theta$.\n\nUsing $z^6+z^3+1=\\prod\\left(z^2-2z\\cos\\alpha+1\\right)$ for $\\alpha=\\frac{2\\pi}9,\\frac{4\\pi}9,\\frac{8\\pi}9$, show that $2\\cos3\\theta+1=8\\left(\\cos\\theta-\\cos\\frac{2\\pi}9\\right)\\left(\\cos\\theta-\\cos\\frac{4\\pi}9\\right)\\left(\\cos\\theta-\\cos\\frac{8\\pi}9\\right)$.",
+   "answer": "Divide both sides by $z^3$, giving one factor of $z$ to each bracket:\n$$z^3+1+z^{-3}=\\prod\\left(z+z^{-1}-2\\cos\\alpha\\right).$$\n\nBy de Moivre, $z^n+z^{-n}=2\\cos n\\theta$, so\n$$2\\cos3\\theta+1=\\prod(2\\cos\\theta-2\\cos\\alpha)=8\\prod(\\cos\\theta-\\cos\\alpha).$$"
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "Double factorials are defined for positive integers by $n!!=n(n-2)(n-4)\\cdots4\\times2$ when $n$ is even, and $n!!=n(n-2)(n-4)\\cdots3\\times1$ when $n$ is odd.\n\nShow that $(2k)!!=k!\\,2^k$.",
+   "answer": "$(2k)!!=(2k)(2k-2)\\cdots4\\cdot2$. Taking a factor of 2 from each of the $k$ terms gives $2^k\\,k(k-1)\\cdots2\\cdot1=2^k\\,k!$."
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "Double factorials are defined for positive integers by $n!!=n(n-2)(n-4)\\cdots4\\times2$ when $n$ is even, and $n!!=n(n-2)(n-4)\\cdots3\\times1$ when $n$ is odd.\n\nUsing $(2k)!!=k!\\,2^k$, prove that $(2k+1)!!=\\dfrac{(2k+1)!}{k!\\,2^k}$.",
+   "answer": "$(2k+1)!!=(2k+1)(2k-1)\\cdots3\\cdot1$. Multiplying by $(2k)!!$ interleaves the even factors:\n$$(2k+1)!!\\,(2k)!!=(2k+1)!$$\nSo $(2k+1)!!=\\dfrac{(2k+1)!}{(2k)!!}=\\dfrac{(2k+1)!}{k!\\,2^k}$."
+  },
+  {
+   "ref": "Q15(c)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.14",
+    "12.4.1.13"
+   ],
+   "question": "Double factorials are defined for positive integers by $n!!=n(n-2)(n-4)\\cdots4\\times2$ when $n$ is even, and $n!!=n(n-2)(n-4)\\cdots3\\times1$ when $n$ is odd.\n\nYou may use $(2k)!!=k!\\,2^k$ and $(2k+1)!!=\\dfrac{(2k+1)!}{k!\\,2^k}$. Hence, or otherwise, prove that\n$$\\int_0^{\\pi/2}\\cos^{2n}x\\,dx=\\frac{(2n)!\\,\\pi}{2^{2n+1}(n!)^2}.$$",
+   "answer": "Let $I_n=\\int_0^{\\pi/2}\\cos^{2n}x\\,dx$. By parts with $u=\\cos^{2n-1}x$, $dv=\\cos x\\,dx$:\n$$I_n=\\left[\\cos^{2n-1}x\\sin x\\right]_0^{\\pi/2}+(2n-1)\\int_0^{\\pi/2}\\cos^{2n-2}x\\sin^2x\\,dx=(2n-1)(I_{n-1}-I_n).$$\n\nSo $I_n=\\dfrac{2n-1}{2n}I_{n-1}$, and with $I_0=\\frac\\pi2$:\n$$I_n=\\frac{(2n-1)!!}{(2n)!!}\\cdot\\frac\\pi2.$$\n\nNow $(2n-1)!!=\\dfrac{(2n)!}{(2n)!!}=\\dfrac{(2n)!}{n!\\,2^n}$ and $(2n)!!=n!\\,2^n$, so\n$$I_n=\\frac{(2n)!}{(n!)^2\\,2^{2n}}\\cdot\\frac\\pi2=\\frac{(2n)!\\,\\pi}{2^{2n+1}(n!)^2}.$$"
+  },
+  {
+   "ref": "Q16(a)",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.5.2",
+    "12.5.5.1"
+   ],
+   "question": "A unit mass is projected vertically upwards with initial speed $S\\ \\text{m s}^{-1}$ in a resisting medium that exerts a force of $kv$ opposing the motion, where $k$ is a positive constant and the acceleration due to gravity is $g\\ \\text{m s}^{-2}$.\n\nFind an expression for the velocity $v(t)$, independent of $S$, given that the mass reaches its maximum height after $T$ seconds.",
+   "answer": "Taking upwards as positive, $\\dfrac{dv}{dt}=-(g+kv)$.\n$$\\int\\frac{dv}{g+kv}=-\\int dt\\ \\Rightarrow\\ \\frac1k\\ln(g+kv)=-t+C\\ \\Rightarrow\\ g+kv=Ae^{-kt}$$\n\nAt maximum height $v=0$ at $t=T$, so $g=Ae^{-kT}$, giving $A=ge^{kT}$. Therefore\n$$v(t)=\\frac gk\\left(e^{k(T-t)}-1\\right),$$\nvalid for the motion while this model applies on the way up ($0\\le t\\le T$)."
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.1.3.9"
+   ],
+   "question": "$OABC$ is a regular triangular pyramid (all edges of length 1), as shown. $M$ and $N$ divide the sides $AB$ and $BC$ respectively in the ratio $x:1-x$. Let $\\overrightarrow{OA}=\\underset{\\sim}{a}$, $\\overrightarrow{OB}=\\underset{\\sim}{b}$ and $\\overrightarrow{OC}=\\underset{\\sim}{c}$.\n\nLet $f(x)=\\dfrac{1+x-x^2}{1-x+x^2}$, where $0<x<1$. Prove that $1<f(x)\\le\\dfrac53$.",
+   "answer": "$$f(x)=\\frac{2-(1-x+x^2)}{1-x+x^2}=\\frac{2}{1-x+x^2}-1$$\nNow $1-x+x^2=\\left(x-\\tfrac12\\right)^2+\\tfrac34$, and for $0<x<1$ we have $0\\le\\left(x-\\tfrac12\\right)^2<\\tfrac14$. So $\\tfrac34\\le1-x+x^2<1$.\n\nHence $2<\\dfrac{2}{1-x+x^2}\\le\\dfrac83$, and so $1<f(x)\\le\\dfrac53$.",
+   "images": [
+    "assets/img/ext2-2025-trinity-grammar/q16b.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.1",
+    "12.2.2.5"
+   ],
+   "question": "$OABC$ is a regular triangular pyramid (all edges of length 1), as shown. $M$ and $N$ divide the sides $AB$ and $BC$ respectively in the ratio $x:1-x$. Let $\\overrightarrow{OA}=\\underset{\\sim}{a}$, $\\overrightarrow{OB}=\\underset{\\sim}{b}$ and $\\overrightarrow{OC}=\\underset{\\sim}{c}$.\n\nShow that $\\underset{\\sim}{a}\\cdot\\underset{\\sim}{b}=\\underset{\\sim}{b}\\cdot\\underset{\\sim}{c}=\\underset{\\sim}{c}\\cdot\\underset{\\sim}{a}=\\dfrac12$.",
+   "answer": "Every face is an equilateral triangle of side 1, so the angle between any two of $\\underset{\\sim}{a},\\underset{\\sim}{b},\\underset{\\sim}{c}$ is $60^\\circ$ and each has length 1. Each dot product is $1\\times1\\times\\cos60^\\circ=\\frac12$.",
+   "images": [
+    "assets/img/ext2-2025-trinity-grammar/q16b.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.2.1"
+   ],
+   "question": "$OABC$ is a regular triangular pyramid (all edges of length 1), as shown. $M$ and $N$ divide the sides $AB$ and $BC$ respectively in the ratio $x:1-x$. Let $\\overrightarrow{OA}=\\underset{\\sim}{a}$, $\\overrightarrow{OB}=\\underset{\\sim}{b}$ and $\\overrightarrow{OC}=\\underset{\\sim}{c}$.\n\nGiven $\\underset{\\sim}{a}\\cdot\\underset{\\sim}{b}=\\underset{\\sim}{b}\\cdot\\underset{\\sim}{c}=\\underset{\\sim}{c}\\cdot\\underset{\\sim}{a}=\\frac12$, show that $|\\overrightarrow{ON}|=\\sqrt{x^2-x+1}$.",
+   "answer": "$\\overrightarrow{ON}=(1-x)\\underset{\\sim}{b}+x\\underset{\\sim}{c}$, so\n$$|\\overrightarrow{ON}|^2=(1-x)^2+2x(1-x)\\left(\\tfrac12\\right)+x^2=x^2-x+1.$$",
+   "images": [
+    "assets/img/ext2-2025-trinity-grammar/q16b.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)(iv)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.2.1"
+   ],
+   "question": "$OABC$ is a regular triangular pyramid (all edges of length 1), as shown. $M$ and $N$ divide the sides $AB$ and $BC$ respectively in the ratio $x:1-x$. Let $\\overrightarrow{OA}=\\underset{\\sim}{a}$, $\\overrightarrow{OB}=\\underset{\\sim}{b}$ and $\\overrightarrow{OC}=\\underset{\\sim}{c}$.\n\nYou may use $\\underset{\\sim}{a}\\cdot\\underset{\\sim}{b}=\\underset{\\sim}{b}\\cdot\\underset{\\sim}{c}=\\underset{\\sim}{c}\\cdot\\underset{\\sim}{a}=\\frac12$, $|\\overrightarrow{ON}|=\\sqrt{x^2-x+1}$, and that $1<\\dfrac{1+x-x^2}{1-x+x^2}\\le\\dfrac53$ for $0<x<1$. Determine the range of values of $\\angle MON$.",
+   "answer": "$\\overrightarrow{OM}=(1-x)\\underset{\\sim}{a}+x\\underset{\\sim}{b}$, and similarly $|\\overrightarrow{OM}|=\\sqrt{x^2-x+1}$.\n$$\\overrightarrow{OM}\\cdot\\overrightarrow{ON}=\\tfrac12(1-x)^2+\\tfrac12x(1-x)+x(1-x)+\\tfrac12x^2=\\tfrac12(1+x-x^2)$$\nSo\n$$\\cos\\angle MON=\\frac12\\cdot\\frac{1+x-x^2}{1-x+x^2}\\in\\left(\\tfrac12,\\tfrac56\\right].$$\n\nHence $\\cos^{-1}\\dfrac56\\le\\angle MON<60^\\circ$ (about $33.6^\\circ$ to $60^\\circ$).",
+   "images": [
+    "assets/img/ext2-2025-trinity-grammar/q16b.png"
+   ]
+  }
+ ]
+}
