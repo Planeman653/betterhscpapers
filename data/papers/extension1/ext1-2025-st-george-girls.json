@@ -1,0 +1,514 @@
+{
+ "id": "ext1-2025-st-george-girls",
+ "course": "extension1",
+ "school": "St George Girls",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": 5338,
+  "title": "St George Girls 2025 w. sol"
+ },
+ "indexed": "2026-11-26",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "5",
+   "reason": "Not in 2024 syllabus: pigeonhole principle"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.4"
+   ],
+   "question": "Consider $\\mathbf a=8\\mathbf i+2\\mathbf j$. Which of the following vectors is parallel to $\\mathbf a$?",
+   "answer": "$8\\mathbf i+2\\mathbf j=2(4\\mathbf i+\\mathbf j)$.",
+   "options": [
+    "$12\\mathbf i+4\\mathbf j$",
+    "$4\\mathbf i+\\mathbf j$",
+    "$6\\mathbf i+\\mathbf j$",
+    "$2\\mathbf i+\\mathbf j$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "Which of the following represents $\\displaystyle\\int\\frac{dx}{\\sqrt{100-x^2}}$?",
+   "answer": "Standard integral with $a=10$.",
+   "options": [
+    "$\\cos^{-1}\\left(\\frac{x}{10}\\right)+C$",
+    "$\\sin^{-1}\\left(\\frac{x}{10}\\right)+C$",
+    "$\\cos^{-1}\\left(\\frac{x}{100}\\right)+C$",
+    "$\\sin^{-1}\\left(\\frac{x}{100}\\right)+C$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.11",
+    "11.4.1.17"
+   ],
+   "question": "A group of 9 people are to be arranged into two groups to sit around two circular tables. One of the groups must contain 5 people. In how many ways can they sit around the two tables?",
+   "answer": "Taking the two tables as different: $\\binom95\\times4!\\times3!\\times2=126\\times24\\times6\\times2=36\\,288$ (the factor 2 chooses which table gets the group of five).",
+   "options": [
+    "36 288",
+    "90 720",
+    "362 880",
+    "144"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.1.3",
+    "11.1.1.6"
+   ],
+   "question": "The graph of $y=f(x)$ is shown first, and the graph of $y=g(x)$, obtained by transforming it, is shown second. What transformation was applied?",
+   "answer": "$g$ is even and non-negative, and on both sides it copies the left (positive) half of $f$, so $g(x)=|f(-|x|)|$.",
+   "images": [
+    "assets/img/ext1-2025-st-george-girls/q4f.png",
+    "assets/img/ext1-2025-st-george-girls/q4g.png"
+   ],
+   "options": [
+    "$g(x)=f(|-x|)$",
+    "$g(x)=|f(-|x|)|$",
+    "$g(x)=\\sqrt{f(-x)}$",
+    "$[g(x)]^2=-f(x)$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7",
+    "12.4.1.6"
+   ],
+   "question": "If $y=e^{2x}\\cos^{-1}(3x)$, which of the following is the correct expression for $\\dfrac{dy}{dx}$?",
+   "answer": "Product rule with $\\frac{d}{dx}\\cos^{-1}3x=\\frac{-3}{\\sqrt{1-9x^2}}$.",
+   "options": [
+    "$e^{2x}\\left[2\\cos^{-1}(3x)+\\dfrac{3}{\\sqrt{1-9x^2}}\\right]$",
+    "$2e^{2x}\\cos^{-1}(3x)-\\dfrac{3e^{2x}}{\\sqrt{1-9x^2}}$",
+    "$e^{2x}\\left[2\\cos^{-1}(3x)-\\dfrac{3}{\\sqrt{1-3x^2}}\\right]$",
+    "$2e^{2x}\\cos^{-1}(3x)+\\dfrac{3e^{2x}}{\\sqrt{1-3x^2}}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "course": "extension2",
+   "dotpoints": [
+    "12.4.1.4"
+   ],
+   "question": "Which of the following is an expression for $\\displaystyle\\int_0^b\\sin2x\\,\\sin3x\\,dx$?",
+   "answer": "$\\sin2x\\sin3x=\\frac12(\\cos x-\\cos5x)$, which integrates to $\\frac12\\sin x-\\frac1{10}\\sin5x$.",
+   "options": [
+    "$\\dfrac{\\cos5b}{10}-\\dfrac{\\cos b}{2}$",
+    "$-\\dfrac{\\cos5b}{10}+\\dfrac{\\cos b}{2}$",
+    "$\\dfrac{\\sin5b}{10}-\\dfrac{\\sin b}{2}$",
+    "$-\\dfrac{\\sin5b}{10}+\\dfrac{\\sin b}{2}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.3.2.4"
+   ],
+   "question": "Which expression is equivalent to $\\sin\\left(\\dfrac\\pi4-x\\right)\\cos\\left(\\dfrac\\pi4-x\\right)$?",
+   "answer": "It equals $\\frac12\\sin\\left(\\frac\\pi2-2x\\right)=\\frac12\\cos2x$.",
+   "options": [
+    "$\\frac12\\sin2x$",
+    "$2\\cos2x$",
+    "$\\frac12\\cos2x$",
+    "$\\frac12\\sin\\left(\\frac\\pi4-2x\\right)$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.9",
+    "11.3.2.2"
+   ],
+   "question": "Consider $\\mathbf p=\\sin3\\lambda\\,\\mathbf i-\\cos3\\lambda\\,\\mathbf j$ and $\\mathbf q=\\cos\\lambda\\,\\mathbf i+\\sin\\lambda\\,\\mathbf j$, where $0\\le\\lambda\\le\\dfrac\\pi4$. If the scalar projection of $\\mathbf p$ onto $\\mathbf q$ is $\\dfrac{\\sqrt3}{2}$, which of the following represents $\\mathbf p$?",
+   "answer": "$\\mathbf p\\cdot\\hat{\\mathbf q}=\\sin(3\\lambda-\\lambda)=\\sin2\\lambda=\\frac{\\sqrt3}2$, so $\\lambda=\\frac\\pi6$ and $\\mathbf p=\\mathbf i$.",
+   "options": [
+    "$\\mathbf p=0\\mathbf i-\\mathbf j$",
+    "$\\mathbf p=\\frac{\\sqrt3}{2}\\mathbf i-\\mathbf j$",
+    "$\\mathbf p=\\mathbf i+\\frac12\\mathbf j$",
+    "$\\mathbf p=\\mathbf i-0\\mathbf j$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.7"
+   ],
+   "question": "What are the domain and range of $f(x)=\\tan(\\tan^{-1}x)-x$?",
+   "answer": "$\\tan(\\tan^{-1}x)=x$ for all real $x$, so $f(x)=0$.",
+   "options": [
+    "Domain $(-\\infty,\\infty)$, range $[0,0]$",
+    "Domain $(-\\infty,\\infty)$, range $\\left(-\\frac\\pi2,\\frac\\pi2\\right)$",
+    "Domain $(-1,1)$, range $\\left(-\\frac\\pi2,\\frac\\pi2\\right)$",
+    "Domain $(-\\infty,\\infty)$, range $(-\\infty,\\infty)$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Solve the inequality $\\dfrac{x+3}{x-1}>1$.",
+   "answer": "$\\dfrac{x+3}{x-1}-1=\\dfrac{4}{x-1}>0$, so $x>1$."
+  },
+  {
+   "ref": "11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "Find the constant term in the expansion of $\\left(x^2+\\dfrac2x\\right)^6$.",
+   "answer": "General term $\\binom6k(x^2)^{6-k}\\left(\\frac2x\\right)^k=\\binom6k2^kx^{12-3k}$. The constant term has $k=4$: $\\binom64\\times2^4=240$."
+  },
+  {
+   "ref": "11(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Use the substitution $u=x-2$ to show that $\\displaystyle\\int_2^4 2x\\sqrt{x-2}\\,dx=\\frac{128\\sqrt2}{15}$.",
+   "answer": "$du=dx$, $x=u+2$, and the limits become $0$ and $2$.\n$$\\int_0^2 2(u+2)u^{1/2}\\,du=2\\left[\\tfrac25u^{5/2}+\\tfrac43u^{3/2}\\right]_0^2=2\\left(\\frac{8\\sqrt2}{5}+\\frac{8\\sqrt2}{3}\\right)=\\frac{128\\sqrt2}{15}.$$"
+  },
+  {
+   "ref": "11(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "course": "extension2",
+   "dotpoints": [
+    "12.4.1.5"
+   ],
+   "question": "Express $\\cos\\theta+\\sqrt3\\sin\\theta$ in terms of $t$, where $t=\\tan\\dfrac\\theta2$.",
+   "answer": "$\\dfrac{1-t^2}{1+t^2}+\\sqrt3\\cdot\\dfrac{2t}{1+t^2}=\\dfrac{1-t^2+2\\sqrt3\\,t}{1+t^2}$."
+  },
+  {
+   "ref": "11(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "course": "extension2",
+   "dotpoints": [
+    "12.4.1.5"
+   ],
+   "question": "Using $t=\\tan\\dfrac\\theta2$, $\\cos\\theta+\\sqrt3\\sin\\theta=\\dfrac{1-t^2+2\\sqrt3t}{1+t^2}$. Hence solve $\\cos\\theta+\\sqrt3\\sin\\theta=1$ for $0\\le\\theta\\le2\\pi$.",
+   "answer": "$1-t^2+2\\sqrt3t=1+t^2$ gives $2t(t-\\sqrt3)=0$, so $\\tan\\frac\\theta2=0$ or $\\sqrt3$, with $0\\le\\frac\\theta2\\le\\pi$. Thus $\\theta=0,\\ 2\\pi$ or $\\dfrac{2\\pi}{3}$.\n\n$t$ is undefined at $\\theta=\\pi$, so check it separately: $\\cos\\pi+\\sqrt3\\sin\\pi=-1\\ne1$.\n\n**Solutions:** $\\theta=0,\\ \\dfrac{2\\pi}3,\\ 2\\pi$."
+  },
+  {
+   "ref": "11(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.1"
+   ],
+   "question": "The polynomial $P(x)=2x^3-3ax+4b^3$, where $a\\ne b\\ne0$, has $x=2$ as a root of multiplicity 2. Find the values of $a$ and $b$.",
+   "answer": "$P'(x)=6x^2-3a$ and $P'(2)=0$ gives $a=8$. Then $P(2)=16-48+4b^3=0$, so $b^3=8$ and $b=2$."
+  },
+  {
+   "ref": "12(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.2",
+    "11.3.3.3"
+   ],
+   "question": "The graphs of $y=f(x)$ and $y=g(x)$ are shown, drawn to scale, where $f$ is a cosine function and $g$ is a sine function. Given $f(x)+g(x)=R\\cos(x-\\theta)$ with $0<\\theta<\\dfrac\\pi2$, find $R$ and $\\theta$ (in radians).",
+   "answer": "From the graph $f(x)=\\sqrt3\\cos x$ and $g(x)=3\\sin x$.\n\n$R\\cos\\theta=\\sqrt3$ and $R\\sin\\theta=3$, so $R=\\sqrt{12}=2\\sqrt3$ and $\\tan\\theta=\\sqrt3$, giving $\\theta=\\dfrac\\pi3$.",
+   "images": [
+    "assets/img/ext1-2025-st-george-girls/q12a.png"
+   ]
+  },
+  {
+   "ref": "12(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.1"
+   ],
+   "question": "Can we use mathematical induction to prove that $\\tan\\theta=\\dfrac{\\sin\\theta}{\\cos\\theta}$? Justify your answer.",
+   "answer": "No. Induction proves statements indexed by integers, going from $n=k$ to $n=k+1$. Here $\\theta$ takes a continuum of real values, so there is no base case and next case that would cover them all."
+  },
+  {
+   "ref": "12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "Triangle $PQR$ has $PQ=20$ cm and $QR=15$ cm fixed. $\\angle PQR=\\theta$ is increasing at $\\dfrac\\pi6$ radians per hour. Find the exact rate at which the area of the triangle is changing when $\\theta=\\dfrac\\pi3$.",
+   "answer": "$A=\\frac12(20)(15)\\sin\\theta=150\\sin\\theta$. $\\dfrac{dA}{dt}=150\\cos\\theta\\cdot\\dfrac\\pi6=25\\pi\\cos\\theta$. At $\\theta=\\frac\\pi3$, $\\dfrac{dA}{dt}=\\dfrac{25\\pi}{2}$ cm²/h.",
+   "images": [
+    "assets/img/ext1-2025-st-george-girls/q12c.png"
+   ]
+  },
+  {
+   "ref": "12(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.7",
+    "11.3.2.3"
+   ],
+   "question": "Show that $\\dfrac{d}{d\\theta}\\left(\\cos^2\\theta\\right)=-\\sin2\\theta$.",
+   "answer": "By the chain rule, $2\\cos\\theta(-\\sin\\theta)=-2\\sin\\theta\\cos\\theta=-\\sin2\\theta$."
+  },
+  {
+   "ref": "12(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Given $\\dfrac{d}{d\\theta}(\\cos^2\\theta)=-\\sin2\\theta$, show that $\\displaystyle\\int\\tan2\\theta\\cos2\\theta\\,d\\theta=-\\cos^2\\theta+c$.",
+   "answer": "$\\tan2\\theta\\cos2\\theta=\\sin2\\theta$ (where $\\cos2\\theta\\ne0$), so the integral is $-\\displaystyle\\int(-\\sin2\\theta)\\,d\\theta=-\\cos^2\\theta+c$."
+  },
+  {
+   "ref": "12(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "Use mathematical induction to prove that $4^{2n}-1$ is divisible by 3 for all integers $n\\ge1$.",
+   "answer": "**$n=1$:** $4^2-1=15=3\\times5$.\n\n**Assume** $4^{2k}-1=3M$ for an integer $M$.\n\n**$n=k+1$:** $4^{2k+2}-1=16(3M+1)-1=48M+15=3(16M+5)$, divisible by 3.\n\nBy mathematical induction the statement is true for all integers $n\\ge1$."
+  },
+  {
+   "ref": "13(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.6.7"
+   ],
+   "question": "A ball is kicked at 20 m/s at $45^\\circ$ to the ground. Its displacement after $t$ seconds is $\\mathbf r(t)=\\dfrac{20t}{\\sqrt2}\\mathbf i+\\left(-5t^2+\\dfrac{20t}{\\sqrt2}\\right)\\mathbf j$.\n\nFind the maximum height reached.",
+   "answer": "$y=-5t^2+10\\sqrt2t$, $\\dot y=-10t+10\\sqrt2=0$ at $t=\\sqrt2$. Then $y=-10+20=10$ m."
+  },
+  {
+   "ref": "13(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.6.7"
+   ],
+   "question": "A ball is kicked at 20 m/s at $45^\\circ$ to the ground. Its displacement after $t$ seconds is $\\mathbf r(t)=\\dfrac{20t}{\\sqrt2}\\mathbf i+\\left(-5t^2+\\dfrac{20t}{\\sqrt2}\\right)\\mathbf j$.\n\nFind the time at which the ball lands on the ground.",
+   "answer": "$y=0$: $5t(2\\sqrt2-t)=0$, so it lands at $t=2\\sqrt2$ seconds."
+  },
+  {
+   "ref": "13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Prove by mathematical induction that $r+r^2+\\cdots+r^n=\\dfrac{1-r^{n+1}}{1-r}-1$ for integers $n\\ge1$ (where $r\\ne1$).",
+   "answer": "**$n=1$:** RHS $=\\dfrac{(1-r)(1+r)}{1-r}-1=r=$ LHS.\n\n**Assume** true for $n=k$.\n\n**$n=k+1$:**\n$$r+\\cdots+r^k+r^{k+1}=\\frac{1-r^{k+1}}{1-r}-1+r^{k+1}=\\frac{1-r^{k+1}+r^{k+1}-r^{k+2}}{1-r}-1=\\frac{1-r^{k+2}}{1-r}-1.$$\n\nBy induction it is true for all $n\\ge1$."
+  },
+  {
+   "ref": "13(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.1",
+    "11.1.3.3"
+   ],
+   "question": "A curve is defined by $x=\\cos t$, $y=\\cos^2t$. For $0\\le t\\le\\dfrac\\pi2$, find the exact area enclosed by this curve above the $x$-axis (bounded by the curve, the $x$-axis and the vertical line through its endpoint).",
+   "answer": "Eliminating $t$: $y=x^2$ for $0\\le x\\le1$. Area $=\\displaystyle\\int_0^1x^2\\,dx=\\frac13$ square units."
+  },
+  {
+   "ref": "13(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.11"
+   ],
+   "question": "Let $\\mathbf u=\\begin{pmatrix}4\\\\8\\end{pmatrix}$ and $\\mathbf v=\\begin{pmatrix}2\\\\2\\end{pmatrix}$. Find the component of $\\mathbf u$ perpendicular to $\\mathbf v$.",
+   "answer": "$\\text{proj}_{\\mathbf v}\\mathbf u=\\dfrac{24}{8}\\begin{pmatrix}2\\\\2\\end{pmatrix}=\\begin{pmatrix}6\\\\6\\end{pmatrix}$, so the perpendicular component is $\\mathbf u-\\text{proj}_{\\mathbf v}\\mathbf u=\\begin{pmatrix}-2\\\\2\\end{pmatrix}$."
+  },
+  {
+   "ref": "14(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.7"
+   ],
+   "question": "A carton of milk is taken from a fridge at $3^\\circ$C and placed on a table in a room at $24^\\circ$C. Its temperature after $t$ minutes is $T=P+Ae^{kt}$. After five minutes it is $15^\\circ$C. Find, to the nearest minute, the total time it can be left on the table before it reaches $20^\\circ$C.",
+   "answer": "$P=24$, and $T(0)=3$ gives $A=-21$.\n\n$15=24-21e^{5k}\\Rightarrow k=\\frac15\\ln\\frac37$.\n\n$20=24-21e^{kt}\\Rightarrow t=\\dfrac{\\ln(4/21)}{k}\\approx9.79$, so about **10 minutes**."
+  },
+  {
+   "ref": "14(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.1"
+   ],
+   "question": "It is given that $\\tan3\\theta=\\dfrac{3\\tan\\theta-\\tan^3\\theta}{1-3\\tan^2\\theta}$. By letting $x=\\tan\\theta$, find all the distinct solutions of $x^3-3x^2-3x+1=0$.",
+   "answer": "The equation rearranges to $3x-x^3=1-3x^2$, i.e. $\\tan3\\theta=1$.\n\nSo $3\\theta=\\dfrac\\pi4,\\dfrac{5\\pi}4,\\dfrac{9\\pi}4$ and\n$$x=\\tan\\frac{\\pi}{12},\\ \\tan\\frac{5\\pi}{12},\\ \\tan\\frac{3\\pi}{4}$$\nthat is, $x=2-\\sqrt3,\\ 2+\\sqrt3,\\ -1$."
+  },
+  {
+   "ref": "14(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.4"
+   ],
+   "question": "A shape is modelled by rotating the region between $y=\\ln x$ and $y=\\dfrac xe$, for $0\\le y\\le1$, about the $y$-axis. Find the exact volume of the shape.",
+   "answer": "$x=e^y$ (outer) and $x=ey$ (inner).\n$$V=\\pi\\int_0^1\\left(e^{2y}-e^2y^2\\right)dy=\\pi\\left[\\frac{e^{2y}}2-\\frac{e^2y^3}{3}\\right]_0^1=\\frac{\\pi(e^2-3)}{6}\\ \\text{cubic units}.$$",
+   "images": [
+    "assets/img/ext1-2025-st-george-girls/q14c.png"
+   ]
+  },
+  {
+   "ref": "14(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.1.6",
+    "12.3.2.6"
+   ],
+   "question": "Given that $\\sin^{-1}p+\\cos^{-1}p=\\dfrac\\pi2$, solve $2\\sin^{-1}(1-x)-\\cos^{-1}(x-1)=-\\dfrac\\pi6$, leaving the answer in exact form.",
+   "answer": "Let $u=1-x$. Then $\\cos^{-1}(-u)=\\pi-\\cos^{-1}u=\\dfrac\\pi2+\\sin^{-1}u$.\n\nThe equation becomes $2\\sin^{-1}u-\\dfrac\\pi2-\\sin^{-1}u=-\\dfrac\\pi6$, so $\\sin^{-1}u=\\dfrac\\pi3$ and $u=\\dfrac{\\sqrt3}{2}$.\n\nHence $x=1-\\dfrac{\\sqrt3}{2}$."
+  },
+  {
+   "ref": "15(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.6"
+   ],
+   "question": "$ABCDEF$ is a regular hexagon with centre $O$, with $\\overrightarrow{OA}=\\mathbf a$, $\\overrightarrow{OB}=\\mathbf b$, $\\overrightarrow{OC}=\\mathbf c$. $M$ is the midpoint of $BC$, $AO\\parallel BC$, and $AB$ is extended to $X$ so that $AB:BX=3:2$.\n\nShow that $\\overrightarrow{OM}=\\mathbf b-\\frac12\\mathbf a$.",
+   "answer": "In a regular hexagon $\\overrightarrow{BC}=\\overrightarrow{AO}=-\\mathbf a$. So $\\overrightarrow{OM}=\\overrightarrow{OB}+\\frac12\\overrightarrow{BC}=\\mathbf b-\\frac12\\mathbf a$.",
+   "images": [
+    "assets/img/ext1-2025-st-george-girls/q15a.png"
+   ]
+  },
+  {
+   "ref": "15(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.6"
+   ],
+   "question": "$ABCDEF$ is a regular hexagon with centre $O$, with $\\overrightarrow{OA}=\\mathbf a$, $\\overrightarrow{OB}=\\mathbf b$, $\\overrightarrow{OC}=\\mathbf c$. $M$ is the midpoint of $BC$, $AO\\parallel BC$, and $AB$ is extended to $X$ so that $AB:BX=3:2$.\n\nProve that $\\overrightarrow{BX}=\\frac23(\\mathbf b-\\mathbf a)$.",
+   "answer": "$B,X$ continue the line $AB$ with $BX=\\frac23AB$, so $\\overrightarrow{BX}=\\frac23\\overrightarrow{AB}=\\frac23(\\mathbf b-\\mathbf a)$.",
+   "images": [
+    "assets/img/ext1-2025-st-george-girls/q15a.png"
+   ]
+  },
+  {
+   "ref": "15(a)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.4"
+   ],
+   "question": "$ABCDEF$ is a regular hexagon with centre $O$, with $\\overrightarrow{OA}=\\mathbf a$, $\\overrightarrow{OB}=\\mathbf b$, $\\overrightarrow{OC}=\\mathbf c$. $M$ is the midpoint of $BC$, $AO\\parallel BC$, and $AB$ is extended to $X$ so that $AB:BX=3:2$.\n\nGiven $\\overrightarrow{OM}=\\mathbf b-\\frac12\\mathbf a$ and $\\overrightarrow{BX}=\\frac23(\\mathbf b-\\mathbf a)$, justify that $E$, $M$ and $X$ lie on the same straight line.",
+   "answer": "$E$ is opposite $B$, so $\\overrightarrow{OE}=-\\mathbf b$.\n\n$\\overrightarrow{EM}=\\overrightarrow{OM}-\\overrightarrow{OE}=2\\mathbf b-\\frac12\\mathbf a=\\frac12(4\\mathbf b-\\mathbf a)$.\n\n$\\overrightarrow{MX}=\\overrightarrow{OB}+\\overrightarrow{BX}-\\overrightarrow{OM}=\\frac23\\mathbf b-\\frac16\\mathbf a=\\frac16(4\\mathbf b-\\mathbf a)$.\n\nSo $\\overrightarrow{EM}=3\\overrightarrow{MX}$. The vectors are parallel and share the point $M$, so $E$, $M$, $X$ are collinear.",
+   "images": [
+    "assets/img/ext1-2025-st-george-girls/q15a.png"
+   ]
+  },
+  {
+   "ref": "15(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.6.8"
+   ],
+   "question": "Projectiles $A$ and $B$ are launched simultaneously at $t=0$ and later collide. $A$ is launched from ground level; $B$ is launched towards the left from a ledge 15 m high, 30 m horizontally from where $A$ is launched. With no air resistance and $g=9.8$ m s$^{-2}$:\n$$\\mathbf r_A(t)=10t\\,\\mathbf i+(-4.9t^2+10t)\\,\\mathbf j,\\qquad\\mathbf r_B(t)=(30-5t)\\,\\mathbf i+(-4.9t^2+2.5t+15)\\,\\mathbf j.$$\n\nFind the time when the projectiles collide.",
+   "answer": "Equating horizontal components: $10t=30-5t$, so $t=2$ s (the vertical components also agree then, both $0.4$ m)."
+  },
+  {
+   "ref": "15(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.6.8"
+   ],
+   "question": "Projectiles $A$ and $B$ are launched simultaneously at $t=0$ and later collide. $A$ is launched from ground level; $B$ is launched towards the left from a ledge 15 m high, 30 m horizontally from where $A$ is launched. With no air resistance and $g=9.8$ m s$^{-2}$:\n$$\\mathbf r_A(t)=10t\\,\\mathbf i+(-4.9t^2+10t)\\,\\mathbf j,\\qquad\\mathbf r_B(t)=(30-5t)\\,\\mathbf i+(-4.9t^2+2.5t+15)\\,\\mathbf j.$$\n\nThey collide at $t=2$. Find the coordinates of the point of collision.",
+   "answer": "$x=20$, $y=-4.9(4)+20=0.4$: the point is $(20,\\ 0.4)$."
+  },
+  {
+   "ref": "15(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.7",
+    "12.2.5.8"
+   ],
+   "question": "Projectiles $A$ and $B$ are launched simultaneously at $t=0$ and later collide. $A$ is launched from ground level; $B$ is launched towards the left from a ledge 15 m high, 30 m horizontally from where $A$ is launched. With no air resistance and $g=9.8$ m s$^{-2}$:\n$$\\mathbf r_A(t)=10t\\,\\mathbf i+(-4.9t^2+10t)\\,\\mathbf j,\\qquad\\mathbf r_B(t)=(30-5t)\\,\\mathbf i+(-4.9t^2+2.5t+15)\\,\\mathbf j.$$\n\nThey collide at $t=2$. Find the speed of projectile $A$ at the collision, to 3 significant figures.",
+   "answer": "$\\dot{\\mathbf r}_A=10\\,\\mathbf i+(10-9.8t)\\,\\mathbf j=10\\,\\mathbf i-9.6\\,\\mathbf j$ at $t=2$. Speed $=\\sqrt{100+92.16}\\approx13.9$ m s$^{-1}$."
+  }
+ ]
+}
