@@ -1,0 +1,595 @@
+{
+ "id": "ext2-2024-cheltenham-girls",
+ "course": "extension2",
+ "school": "Cheltenham Girls",
+ "year": 2024,
+ "type": "Trial",
+ "thsc": {
+  "viewno": 5348,
+  "title": "Cheltenham Girls 2024 w. sol"
+ },
+ "indexed": "2026-11-27",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q2",
+   "reason": "Removed from the paper by the school (crossed out in both paper and marking guidelines)"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.17"
+   ],
+   "question": "What are the centre and radius of the sphere with equation $x^2+y^2+z^2-2x+6y+4z-2=0$?",
+   "answer": "$(x-1)^2+(y+3)^2+(z+2)^2=16$.",
+   "options": [
+    "Centre $(1,-3,-2)$, radius $4$",
+    "Centre $(-1,3,2)$, radius $4$",
+    "Centre $(1,-3,-2)$, radius $16$",
+    "Centre $(-1,3,-2)$, radius $16$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.11"
+   ],
+   "question": "If $\\omega=\\dfrac{1+2i}{3}$, what is the modulus of $\\omega$?",
+   "answer": "$|\\omega|=\\sqrt{\\frac19+\\frac49}=\\dfrac{\\sqrt5}{3}$.",
+   "options": [
+    "$\\dfrac{\\sqrt5}{\\sqrt3}$",
+    "$\\dfrac{\\sqrt3}{5}$",
+    "$\\dfrac{\\sqrt5}{3}$",
+    "$\\dfrac{3}{\\sqrt5}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.11"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_1^e\\frac{(\\ln x)^3}{x}\\,dx$.",
+   "answer": "With $u=\\ln x$: $\\int_0^1u^3\\,du=\\frac14$.",
+   "options": [
+    "$\\dfrac15$",
+    "$\\dfrac14$",
+    "$\\dfrac13$",
+    "$\\dfrac12$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.7"
+   ],
+   "question": "Consider the vector $\\mathbf{a}=2\\mathbf{i}-b\\mathbf{j}+6\\mathbf{k}$. If $\\mathbf{a}$ has magnitude $4\\sqrt3$ units, what is the exact (positive) value of $b$?",
+   "answer": "$4+b^2+36=48$, so $b^2=8$, $b=2\\sqrt2$.",
+   "options": [
+    "$2\\sqrt2$",
+    "$4\\sqrt2$",
+    "$4$",
+    "$8$"
+   ],
+   "correct": "A",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.5.2.9"
+   ],
+   "question": "A particle is moving in simple harmonic motion with displacement $x=1+4\\sin\\left(2t-\\dfrac{\\pi}{5}\\right)$. Which of the following is the first time (for $t\\ge0$) that the velocity of the particle is at a minimum?",
+   "answer": "$v=8\\cos\\left(2t-\\frac\\pi5\\right)$ is first a minimum when $2t-\\frac\\pi5=\\pi$, i.e. $t=\\frac{3\\pi}{5}$.",
+   "options": [
+    "$\\dfrac{3\\pi}{5}$",
+    "$\\dfrac{\\pi}{10}$",
+    "$\\dfrac{7\\pi}{10}$",
+    "$\\dfrac{2\\pi}{5}$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.10",
+    "12.3.4.3"
+   ],
+   "question": "In the Argand diagram the point $E$ represents a complex number. When this number is multiplied by $\\left(\\sqrt3+i\\right)^4\\left(\\dfrac14-\\dfrac{\\sqrt3}{4}i\\right)^3$ it gives a new complex number. Which of the points represents the new complex number?",
+   "answer": "$(\\sqrt3+i)^4=16\\,\\text{cis}\\frac{2\\pi}{3}$ and $\\left(\\tfrac14-\\tfrac{\\sqrt3}{4}i\\right)^3=\\tfrac18\\,\\text{cis}(-\\pi)$, so the multiplier is $2\\,\\text{cis}\\left(-\\frac\\pi3\\right)$. $E$ is rotated $60^\\circ$ clockwise and its distance from $O$ doubled, giving $H$.",
+   "options": [
+    "$F$",
+    "$G$",
+    "$H$",
+    "$I$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/ext2-2024-cheltenham-girls/q7.png"
+   ]
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.10"
+   ],
+   "question": "The lines $\\ell_1$ and $\\ell_2$ are $\\mathbf{r}_1=\\begin{pmatrix}-1+t(2^\\lambda)\\\\-5+t(6-2^\\lambda)\\\\-2+t(7-2^\\lambda)\\end{pmatrix}$ and $\\mathbf{r}_2=\\begin{pmatrix}1+t(8+2^\\lambda)\\\\2+6t\\\\-3+t(5+2^\\lambda)\\end{pmatrix}$, where $t$ is a real number and $\\lambda$ is a constant. For what value of $\\lambda$ are the two lines parallel?",
+   "answer": "For $\\lambda=2$ the direction vectors are $(4,2,3)$ and $(12,6,9)=3(4,2,3)$, so the lines are parallel.",
+   "options": [
+    "$4$",
+    "$3$",
+    "$2$",
+    "$1$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "A particle initially at rest at the origin starts to move along the $x$-axis with velocity $v\\ \\text{m s}^{-1}$ at time $t$ seconds. Its acceleration is $a=(1+v^2)^{\\frac32}$. Which of the following is the correct expression for $v$?",
+   "answer": "$t=\\displaystyle\\int_0^v\\frac{dv}{(1+v^2)^{3/2}}$. With $v=\\tan\\theta$, $t=\\sin\\theta$, so $v=\\tan(\\sin^{-1}t)$.",
+   "options": [
+    "$v=\\tan(\\cos^{-1}t)$",
+    "$v=\\tan(\\sin^{-1}t)$",
+    "$v=\\sin^{-1}(\\tan t)$",
+    "$v=\\cos(\\sin^{-1}t)$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.5.3"
+   ],
+   "question": "The complex number $z$ satisfies $|z+a|=a$, where $a>0$. The greatest distance that $z$ can be from the point $P$ representing $ka+a(k+1)i$, where $k>0$, is $(3\\sqrt2+1)a$. What is the value of $k$?",
+   "answer": "$z$ lies on the circle centre $(-a,0)$, radius $a$. The distance from the centre to $P$ is $\\sqrt2\\,a(k+1)$, so the greatest distance is $a(\\sqrt2(k+1)+1)=(3\\sqrt2+1)a$, giving $k=2$.",
+   "options": [
+    "$2$",
+    "$3$",
+    "$1$",
+    "$4$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.6",
+    "12.3.1.9"
+   ],
+   "question": "Consider the complex numbers $\\alpha=2i$ and $\\beta=\\sqrt3+i$. Evaluate $(\\alpha-\\beta)^2$, leaving your answer in modulus–argument (polar) form.",
+   "answer": "$\\alpha-\\beta=-\\sqrt3+i$, so $(\\alpha-\\beta)^2=2-2\\sqrt3\\,i$. The modulus is $4$ and the argument $-\\frac\\pi3$: $$(\\alpha-\\beta)^2=4\\left(\\cos\\left(-\\frac{\\pi}{3}\\right)+i\\sin\\left(-\\frac{\\pi}{3}\\right)\\right)$$"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.1.7"
+   ],
+   "question": "Consider the line $\\ell$: $\\mathbf{r}=\\begin{pmatrix}3\\\\-2\\\\5\\end{pmatrix}+\\lambda\\begin{pmatrix}2\\\\6\\\\4\\end{pmatrix}$. Show that the point $A(2,-5,3)$ lies on $\\ell$.",
+   "answer": "$2=3+2\\lambda$, $-5=-2+6\\lambda$ and $3=5+4\\lambda$ each give $\\lambda=-\\frac12$. Since one value of $\\lambda$ satisfies all three, $A$ lies on $\\ell$."
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.1",
+    "12.3.1.14"
+   ],
+   "question": "Solve $z^2-z+(4-2i)=0$, giving your answers in the form $x+yi$ where $x$ and $y$ are real.",
+   "answer": "$z=\\dfrac{1\\pm\\sqrt{1-4(4-2i)}}{2}=\\dfrac{1\\pm\\sqrt{-15+8i}}{2}$. Let $(a+ib)^2=-15+8i$: $a^2-b^2=-15$, $2ab=8$, $a^2+b^2=17$, so $a=\\pm1$, $b=\\pm4$. Hence $z=\\dfrac{1\\pm(1+4i)}{2}$, i.e. $z=1+2i$ or $z=-2i$."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.6",
+    "12.2.3.7"
+   ],
+   "question": "$PQRS$ is a parallelogram with vertices $P(2,4,3)$, $Q(4,3,1)$, $R(3,2,5)$ and $S(x,y,z)$. Find the coordinates of $S$ and the length of the diagonal $|\\overrightarrow{QS}|$.",
+   "answer": "$\\overrightarrow{QP}=\\overrightarrow{RS}$, so $(-2,1,2)=(x-3,y-2,z-5)$ and $S=(1,3,7)$. $\\overrightarrow{QS}=(-3,0,6)$, so $|\\overrightarrow{QS}|=3\\sqrt5$.",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.8"
+   ],
+   "question": "A particle moves along the $x$-axis in simple harmonic motion centred at $x=2$ with amplitude $3$. Its velocity satisfies $v^2=p+qx-6x^2$, where $p$ and $q$ are constants. Find $p$, $q$ and the period of the motion.",
+   "answer": "$v=0$ at the extremities $x=-1$ and $x=5$: $p-q-6=0$ and $p+5q-150=0$. So $q=24$, $p=30$. Then $\\tfrac12v^2=15+12x-3x^2$ and $\\ddot x=12-6x=-6(x-2)$, so $n=\\sqrt6$ and the period is $\\dfrac{2\\pi}{\\sqrt6}$."
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.2.2"
+   ],
+   "question": "Prove by counterexample that the assertion $|2x+1|\\le5\\Rightarrow|x|\\le2$ is false.",
+   "answer": "Take $x=-3$: $|2(-3)+1|=5\\le5$, but $|x|=3>2$. Hence the assertion is false."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.8",
+    "12.1.2.3"
+   ],
+   "question": "Consider the statement $P$ about integers: *If $5n^4+8n$ is a multiple of 16, then $n$ is even.* Prove that the converse of $P$ is true.",
+   "answer": "Converse: if $n$ is even then $5n^4+8n$ is a multiple of 16. Let $n=2m$, $m\\in\\mathbb{Z}$. Then $5n^4+8n=80m^4+16m=16(5m^4+m)$, which is a multiple of 16. So the converse is true."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.7"
+   ],
+   "question": "Find all the fourth roots of $1+\\sqrt3\\,i$, giving your answers in modulus–argument (polar) form.",
+   "answer": "$1+\\sqrt3 i=2\\,\\text{cis}\\frac\\pi3$. If $z=r\\,\\text{cis}\\theta$ then $r^4=2$ and $4\\theta=\\frac\\pi3+2k\\pi$, so the roots are $$2^{1/4}\\,\\text{cis}\\frac{\\pi}{12},\\ \\ 2^{1/4}\\,\\text{cis}\\frac{7\\pi}{12},\\ \\ 2^{1/4}\\,\\text{cis}\\left(-\\frac{5\\pi}{12}\\right),\\ \\ 2^{1/4}\\,\\text{cis}\\left(-\\frac{11\\pi}{12}\\right)$$ where $\\text{cis}\\,\\theta=\\cos\\theta+i\\sin\\theta$."
+  },
+  {
+   "ref": "Q12(d)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "The polynomial $Q(z)=z^4-8z^3+pz^2+qz-80$, where $p$ and $q$ are real, has a root $3+i$. Find all the roots of $Q(z)$.",
+   "answer": "Real coefficients, so $3-i$ is also a root. Let the others be $\\alpha,\\beta$. Sum: $6+\\alpha+\\beta=8$, so $\\alpha+\\beta=2$. Product: $10\\alpha\\beta=-80$, so $\\alpha\\beta=-8$. Thus $\\alpha,\\beta$ solve $z^2-2z-8=0$. Roots: $3+i,\\ 3-i,\\ 4,\\ -2$."
+  },
+  {
+   "ref": "Q12(d)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "The polynomial $Q(z)=z^4-8z^3+pz^2+qz-80$, where $p$ and $q$ are real, has a root $3+i$. Given that its roots are $3\\pm i$, $4$ and $-2$, write $Q(z)$ as a product of two real quadratic factors.",
+   "answer": "$Q(z)=(z^2-6z+10)(z^2-2z-8)$"
+  },
+  {
+   "ref": "Q12(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "A particle starts from $x=\\ln(e^4+1)$ with initial velocity $e$ and has acceleration $v^2(e^4+\\ln v)$, where $v$ is its velocity. Find an expression for its displacement $x$ in terms of $v$.",
+   "answer": "$v\\dfrac{dv}{dx}=v^2(e^4+\\ln v)$ gives $\\dfrac{dx}{dv}=\\dfrac{1}{v(e^4+\\ln v)}$. Since $v=e>0$ initially and the acceleration is positive, $v$ stays positive. Integrating, $x=\\ln(e^4+\\ln v)+c$. When $x=\\ln(e^4+1)$, $v=e$, so $c=0$. Hence $x=\\ln(e^4+\\ln v)$."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.5.5"
+   ],
+   "question": "On an Argand diagram, sketch the region represented by the intersection of the inequalities $1\\le|z+1|<2$ and $\\dfrac{\\pi}{4}<\\arg(z+1)<\\dfrac{2\\pi}{3}$.",
+   "answer": "This is the part of the annulus centred at $-1$ between radii 1 (included, solid) and 2 (excluded, dashed), lying between the rays from $-1$ at angles $\\frac\\pi4$ and $\\frac{2\\pi}3$ (excluded, dashed).",
+   "answer_images": [
+    "assets/img/ext2-2024-cheltenham-girls/q13a.png"
+   ]
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.9"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{dx}{\\sqrt{6-5x-x^2}}$.",
+   "answer": "$6-5x-x^2=\\frac{49}{4}-\\left(x+\\frac52\\right)^2$, so the integral is $\\sin^{-1}\\left(\\dfrac{2x+5}{7}\\right)+C$."
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.12",
+    "12.1.2.3"
+   ],
+   "question": "Use proof by contrapositive to prove: *If $p$ is divisible by 5, then $p$ can be expressed as a sum of five consecutive integers.*",
+   "answer": "Contrapositive: if $p$ cannot be expressed as a sum of five consecutive integers, then $p$ is not divisible by 5. Suppose there is no integer $q$ with $p=q+(q+1)+(q+2)+(q+3)+(q+4)=5(q+2)$. As $q$ runs over all integers, so does $r=q+2$; hence $p\\ne5r$ for every integer $r$, i.e. $p$ is not divisible by 5. So the original statement is true."
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.11",
+    "12.4.1.9"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{(2\\tan\\theta+3)\\sec^2\\theta}{\\sec^2\\theta+\\tan\\theta}\\,d\\theta$.",
+   "answer": "Let $u=\\tan\\theta$: $$\\int\\frac{2u+3}{u^2+u+1}du=\\int\\frac{2u+1}{u^2+u+1}du+\\int\\frac{2\\,du}{(u+\\frac12)^2+\\frac34}$$ $$=\\ln(\\tan^2\\theta+\\tan\\theta+1)+\\frac{4}{\\sqrt3}\\tan^{-1}\\left(\\frac{2\\tan\\theta+1}{\\sqrt3}\\right)+C$$"
+  },
+  {
+   "ref": "Q13(e)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.3.1"
+   ],
+   "question": "Show that $\\dfrac{2k}{k+2}<\\dfrac{2k+2}{k+3}$ for $k>0$.",
+   "answer": "$\\dfrac{2k}{k+2}-\\dfrac{2k+2}{k+3}=\\dfrac{(2k^2+6k)-(2k^2+6k+4)}{(k+2)(k+3)}=\\dfrac{-4}{(k+2)(k+3)}<0$."
+  },
+  {
+   "ref": "Q13(e)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.4.2"
+   ],
+   "question": "Given that $\\dfrac{2k}{k+2}<\\dfrac{2k+2}{k+3}$ for $k>0$, use mathematical induction to prove that for $n\\ge1$, $$\\frac1{3!}+\\frac2{4!}+\\frac3{5!}+\\dots+\\frac{n}{(n+2)!}<\\frac{2n}{n+2}-\\frac1{(n+2)!}$$",
+   "answer": "**$n=1$:** LHS $=\\frac16$, RHS $=\\frac23-\\frac16=\\frac12$, so true.\n\n**Assume** true for $n=k$. Then $$\\text{LHS}_{k+1}<\\frac{2k}{k+2}-\\frac1{(k+2)!}+\\frac{k+1}{(k+3)!}=\\frac{2k}{k+2}-\\frac{(k+3)-(k+1)}{(k+3)!}=\\frac{2k}{k+2}-\\frac{2}{(k+3)!}$$ $$<\\frac{2k+2}{k+3}-\\frac{1}{(k+3)!}$$ So it is true for $n=k+1$, and by induction for all $n\\ge1$."
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Given that $z^n+\\dfrac1{z^n}=2\\cos n\\theta$, where $z=\\cos\\theta+i\\sin\\theta$, express $\\cos^6\\theta$ in terms of $\\cos n\\theta$.",
+   "answer": "$\\left(z+\\frac1z\\right)^6=\\left(z^6+z^{-6}\\right)+6\\left(z^4+z^{-4}\\right)+15\\left(z^2+z^{-2}\\right)+20$, so $64\\cos^6\\theta=2\\cos6\\theta+12\\cos4\\theta+30\\cos2\\theta+20$. Hence $$\\cos^6\\theta=\\tfrac1{32}\\left(\\cos6\\theta+6\\cos4\\theta+15\\cos2\\theta+10\\right)$$"
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.18"
+   ],
+   "question": "Find the intersections of the line $\\mathbf{r}=3\\mathbf{i}+2\\mathbf{j}-\\mathbf{k}+t(2\\mathbf{i}-\\mathbf{j}-2\\mathbf{k})$ with the sphere $(x-3)^2+(y-2)^2+(z+1)^2=36$.",
+   "answer": "Substituting $x=3+2t$, $y=2-t$, $z=-1-2t$: $9t^2=36$, so $t=\\pm2$. The points are $(7,0,-5)$ and $(-1,4,3)$."
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.4.7"
+   ],
+   "question": "Two vertical posts $CE$ and $BD$ stand on a horizontal plane $ADE$. Using $A$ as the origin, the vectors $\\mathbf{b}=\\begin{pmatrix}4\\\\-2\\\\4\\end{pmatrix}$ and $\\mathbf{c}=\\begin{pmatrix}1\\\\8\\\\3\\end{pmatrix}$ give the positions of the tops $B$ and $C$ of the posts. Show that $\\triangle ABC$ is right-angled at $A$.",
+   "answer": "$\\mathbf b\\cdot\\mathbf c=4-16+12=0$, so $\\overrightarrow{AB}\\perp\\overrightarrow{AC}$ and $\\angle BAC=90^\\circ$.\n\n*Note: the school solution labels this angle $ABC$; it is the angle at $A$.*",
+   "images": [
+    "assets/img/ext2-2024-cheltenham-girls/q14c.png"
+   ],
+   "course": "extension1"
+  },
+  {
+   "ref": "Q14(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.5"
+   ],
+   "question": "Using the AM–GM inequality, or otherwise, prove that if $x>1$ then $\\dfrac{x}{\\sqrt{x-1}}\\ge2$.",
+   "answer": "$\\dfrac{x}{\\sqrt{x-1}}=\\sqrt{x-1}+\\dfrac1{\\sqrt{x-1}}\\ge2\\sqrt{\\sqrt{x-1}\\cdot\\dfrac{1}{\\sqrt{x-1}}}=2$."
+  },
+  {
+   "ref": "Q14(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "Given that $\\dfrac{x}{\\sqrt{x-1}}\\ge2$ for $x>1$, prove that for $a>1$, $b>1$: $$\\frac{a^2}{b-1}+\\frac{b^2}{a-1}\\ge8$$",
+   "answer": "By AM–GM, $$\\frac{a^2}{b-1}+\\frac{b^2}{a-1}\\ge2\\sqrt{\\frac{a^2b^2}{(a-1)(b-1)}}=2\\cdot\\frac{a}{\\sqrt{a-1}}\\cdot\\frac{b}{\\sqrt{b-1}}\\ge2\\times2\\times2=8$$"
+  },
+  {
+   "ref": "Q14(e)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.12"
+   ],
+   "question": "The five roots of $z^5=i$ are $\\text{cis}\\frac{\\pi}{10}$, $\\text{cis}\\frac{\\pi}{2}$, $\\text{cis}\\frac{9\\pi}{10}$, $\\text{cis}\\left(-\\frac{7\\pi}{10}\\right)$ and $\\text{cis}\\left(-\\frac{3\\pi}{10}\\right)$, where $\\text{cis}\\,\\theta=\\cos\\theta+i\\sin\\theta$. Show that $\\text{cis}\\frac{9\\pi}{10}+\\text{cis}\\frac{\\pi}{10}+\\text{cis}\\left(-\\frac{7\\pi}{10}\\right)+\\text{cis}\\left(-\\frac{3\\pi}{10}\\right)=2i\\sin\\frac{\\pi}{10}-2i\\sin\\frac{3\\pi}{10}$.",
+   "answer": "$\\cos\\frac{9\\pi}{10}=-\\cos\\frac\\pi{10}$ and $\\cos\\frac{7\\pi}{10}=-\\cos\\frac{3\\pi}{10}$, so the real parts cancel. $\\sin\\frac{9\\pi}{10}=\\sin\\frac\\pi{10}$ and $\\sin\\frac{7\\pi}{10}=\\sin\\frac{3\\pi}{10}$, so the sum is $2i\\sin\\frac\\pi{10}-2i\\sin\\frac{3\\pi}{10}$."
+  },
+  {
+   "ref": "Q14(e)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.12"
+   ],
+   "question": "The five roots of $z^5=i$ are $\\text{cis}\\frac{\\pi}{10}$, $\\text{cis}\\frac{\\pi}{2}$, $\\text{cis}\\frac{9\\pi}{10}$, $\\text{cis}\\left(-\\frac{7\\pi}{10}\\right)$ and $\\text{cis}\\left(-\\frac{3\\pi}{10}\\right)$, where $\\text{cis}\\,\\theta=\\cos\\theta+i\\sin\\theta$. You are given that the sum of the four roots other than $i$ is $2i\\sin\\frac{\\pi}{10}-2i\\sin\\frac{3\\pi}{10}$. Hence show that $\\sin\\frac{3\\pi}{10}-\\sin\\frac{\\pi}{10}=\\frac12$.",
+   "answer": "The sum of all five roots of $z^5-i=0$ is zero: $2i\\sin\\frac\\pi{10}-2i\\sin\\frac{3\\pi}{10}+i=0$. Hence $\\sin\\frac{3\\pi}{10}-\\sin\\frac\\pi{10}=\\frac12$."
+  },
+  {
+   "ref": "Q14(e)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.2"
+   ],
+   "question": "Given that $\\sin\\frac{3\\pi}{10}-\\sin\\frac{\\pi}{10}=\\frac12$, use the identity $\\sin(A+B)-\\sin(A-B)=2\\cos A\\sin B$ to show that $\\cos\\frac{\\pi}{5}\\sin\\frac{\\pi}{10}=\\frac14$.",
+   "answer": "Take $A+B=\\frac{3\\pi}{10}$, $A-B=\\frac\\pi{10}$, so $A=\\frac\\pi5$, $B=\\frac\\pi{10}$. Then $2\\cos\\frac\\pi5\\sin\\frac\\pi{10}=\\frac12$, so $\\cos\\frac\\pi5\\sin\\frac\\pi{10}=\\frac14$."
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.10",
+    "12.2.1.11"
+   ],
+   "question": "Lines $L_1$ and $L_2$ have equations $\\mathbf{r}_1=\\begin{pmatrix}-1\\\\-1\\\\1\\end{pmatrix}+\\lambda\\begin{pmatrix}-1\\\\2\\\\1\\end{pmatrix}$ and $\\mathbf{r}_2=\\begin{pmatrix}-1\\\\1\\\\-1\\end{pmatrix}+\\mu\\begin{pmatrix}1\\\\-1\\\\1\\end{pmatrix}$. Show that $L_1$ and $L_2$ are neither parallel nor intersecting.",
+   "answer": "The direction vectors $(-1,2,1)$ and $(1,-1,1)$ are not scalar multiples, so the lines are not parallel. For an intersection: $-1-\\lambda=-1+\\mu$ and $-1+2\\lambda=1-\\mu$, giving $\\mu=-\\lambda$, $\\lambda=2$, $\\mu=-2$. Then the $z$-components are $1+\\lambda=3$ and $-1+\\mu=-3$, which differ. So the lines do not intersect (they are skew)."
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.11"
+   ],
+   "question": "Show that if $\\cos x\\equiv A(3\\cos x+4\\sin x)+B(4\\cos x-3\\sin x)$, then $A=\\dfrac3{25}$ and $B=\\dfrac4{25}$.",
+   "answer": "$x=0$: $1=3A+4B$. $x=\\frac\\pi2$: $0=4A-3B$. Solving, $A=\\frac3{25}$, $B=\\frac4{25}$."
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.4.1.15"
+   ],
+   "question": "Given that $\\cos x=\\frac3{25}(3\\cos x+4\\sin x)+\\frac4{25}(4\\cos x-3\\sin x)$, determine $\\displaystyle\\int\\frac{e^{x/2}\\cos x}{\\sqrt[3]{3\\cos x+4\\sin x}}\\,dx$.",
+   "answer": "Let $u=3\\cos x+4\\sin x$, so $u'=4\\cos x-3\\sin x$ and $\\cos x=\\frac{3}{25}u+\\frac4{25}u'$. Then $$I=\\int e^{x/2}\\left(\\tfrac3{25}u^{2/3}+\\tfrac4{25}u^{-1/3}u'\\right)dx=\\frac6{25}\\int\\left(\\tfrac12e^{x/2}u^{2/3}+e^{x/2}\\cdot\\tfrac23u^{-1/3}u'\\right)dx$$ The integrand is $\\dfrac{d}{dx}\\left(e^{x/2}u^{2/3}\\right)$, so $$I=\\frac{6}{25}e^{x/2}(3\\cos x+4\\sin x)^{2/3}+C$$\n\n*Note: the printed question shows $e^{x}$, for which the integral has no elementary form; the marking guidelines use $e^{x/2}$, as used here.*"
+  },
+  {
+   "ref": "Q15(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.5"
+   ],
+   "question": "The numbers $a_n$, for integers $n\\ge1$, are defined by $a_1=2$, $a_2=56$ and $a_n=a_{n-1}+6a_{n-2}$ for $n\\ge3$. Use mathematical induction to prove that for all integers $n\\ge1$, $a_n=5(-2)^n+4\\times3^n$.",
+   "answer": "**$n=1,2$:** $-10+12=2$ and $20+36=56$, so true.\n\n**Assume** true for $n=k-2$ and $n=k-1$ ($k\\ge3$). Then $$a_k=a_{k-1}+6a_{k-2}=5(-2)^{k-2}(-2+6)+4\\times3^{k-2}(3+6)=5(-2)^k+4\\times3^k$$ So true for $n=k$. By induction it is true for all $n\\ge1$."
+  },
+  {
+   "ref": "Q15(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.5"
+   ],
+   "question": "Use the substitution $t=\\tan\\dfrac x2$, or otherwise, to evaluate $\\displaystyle\\int_{\\pi/3}^{\\pi/2}\\frac{2}{\\sin x+1}\\,dx$.",
+   "answer": "$dx=\\dfrac{2\\,dt}{1+t^2}$, $\\sin x=\\dfrac{2t}{1+t^2}$, limits $\\frac1{\\sqrt3}$ to $1$. $$\\int_{1/\\sqrt3}^1\\frac{4\\,dt}{(1+t)^2}=-4\\left[\\frac1{1+t}\\right]_{1/\\sqrt3}^1=-2+\\frac{4\\sqrt3}{\\sqrt3+1}=4-2\\sqrt3$$"
+  },
+  {
+   "ref": "Q16(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.11"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^1x^{2n}\\sqrt{1-x^2}\\,dx$ where $n=0,1,2,\\dots$. State the value of $I_0$.",
+   "answer": "$I_0=\\int_0^1\\sqrt{1-x^2}\\,dx=\\dfrac\\pi4$ (the area of a quarter of the unit circle)."
+  },
+  {
+   "ref": "Q16(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^1x^{2n}\\sqrt{1-x^2}\\,dx$ where $n=0,1,2,\\dots$. Use integration by parts to show that for $n=1,2,3,\\dots$, $I_n=\\dfrac{2n-1}{2n+2}I_{n-1}$.",
+   "answer": "With $u=x^{2n-1}$ and $v'=x\\sqrt{1-x^2}$, $v=-\\frac13(1-x^2)^{3/2}$: $$I_n=\\Big[-\\tfrac13x^{2n-1}(1-x^2)^{3/2}\\Big]_0^1+\\frac{2n-1}{3}\\int_0^1x^{2n-2}(1-x^2)\\sqrt{1-x^2}\\,dx=\\frac{2n-1}{3}(I_{n-1}-I_n)$$ So $(2n+2)I_n=(2n-1)I_{n-1}$."
+  },
+  {
+   "ref": "Q16(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^1x^{2n}\\sqrt{1-x^2}\\,dx$ where $n=0,1,2,\\dots$. Given that $I_0=\\dfrac\\pi4$ and $I_n=\\dfrac{2n-1}{2n+2}I_{n-1}$, calculate $\\displaystyle\\int_0^1x^6\\sqrt{1-x^2}\\,dx$.",
+   "answer": "$I_1=\\frac14I_0=\\frac\\pi{16}$, $I_2=\\frac12I_1=\\frac\\pi{32}$, $I_3=\\frac58I_2=\\dfrac{5\\pi}{256}$."
+  },
+  {
+   "ref": "Q16(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.3.1"
+   ],
+   "question": "Prove by contradiction that for $a>6$, $\\sqrt{2a+2}>\\sqrt{a+8}$.",
+   "answer": "Suppose that for some $a>6$, $\\sqrt{2a+2}\\le\\sqrt{a+8}$. Both sides are non-negative, so $2a+2\\le a+8$, giving $a\\le6$. This contradicts $a>6$. Hence $\\sqrt{2a+2}>\\sqrt{a+8}$."
+  },
+  {
+   "ref": "Q16(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.10",
+    "12.3.4.11"
+   ],
+   "question": "The point $A$, representing $z_A=-5-4i$, lies between the parallel lines $\\ell_1: y=5$ and $\\ell_2: y=-12$. The point $B$ lies on $\\ell_1$ and the point $C$, representing $z_C$, lies on $\\ell_2$ such that $AC=2AB$ and $\\angle BAC=\\dfrac{5\\pi}{6}$. Find the exact value of $z_C$.",
+   "answer": "Let $B=b+5i$ and $C=c-12i$. Then $\\overrightarrow{AB}=(b+5)+9i$, $\\overrightarrow{AC}=(c+5)-8i$, and $\\overrightarrow{AC}$ is $\\overrightarrow{AB}$ rotated anticlockwise by $\\frac{5\\pi}6$ and doubled: $$(c+5)-8i=(-\\sqrt3+i)\\big((b+5)+9i\\big)$$ Imaginary parts: $-8=(b+5)-9\\sqrt3$, so $b=9\\sqrt3-13$. Real parts: $c+5=-\\sqrt3(b+5)-9=-36+8\\sqrt3$, so $c=8\\sqrt3-41$. Hence $$z_C=(8\\sqrt3-41)-12i$$",
+   "images": [
+    "assets/img/ext2-2024-cheltenham-girls/q16c.png"
+   ]
+  }
+ ]
+}
