@@ -1,0 +1,477 @@
+{
+ "id": "ext1-2025-smiths-hill",
+ "course": "extension1",
+ "school": "Smiths Hill",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": 5338,
+  "title": "Smiths Hill 2025 w. sol"
+ },
+ "indexed": "2026-11-26",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "13(d)",
+   "reason": "Normal approximation to the binomial distribution (not in the current Extension 1 syllabus)"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.3.3.2"
+   ],
+   "question": "Which of the following expressions is equivalent to $\\cos x+\\sin x$?",
+   "answer": "$\\cos x+\\sin x=R\\cos(x-\\alpha)$ with $R=\\sqrt2$ and $\\tan\\alpha=1$, so it equals $\\sqrt2\\cos\\left(x-\\frac\\pi4\\right)$.",
+   "options": [
+    "$\\sqrt2\\cos\\left(x+\\dfrac{\\pi}{4}\\right)$",
+    "$\\sqrt2\\cos\\left(x-\\dfrac{\\pi}{4}\\right)$",
+    "$\\sqrt2\\sin\\left(x-\\dfrac{\\pi}{4}\\right)$",
+    "$\\sqrt2\\sin\\left(x+\\dfrac{\\pi}{2}\\right)$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.5.1.6"
+   ],
+   "question": "Which of the following is the correct expansion of $(3x-1)^3$?",
+   "answer": "$(3x)^3-3(3x)^2+3(3x)-1=27x^3-27x^2+9x-1$.",
+   "options": [
+    "$27x^3+27x^2+9x+1$",
+    "$9x^3-27x^2+12x-1$",
+    "$27x^3-27x^2+9x-1$",
+    "$27x^3-27x^2+12x-9$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.1.7",
+    "11.2.1.1"
+   ],
+   "question": "The graph of a polynomial $y=P(x)$ is shown below. What is the minimum possible degree of the polynomial $(P(x))^3$?",
+   "answer": "The graph has three turning points and both ends rise, so $P(x)$ has degree at least 4. Hence $(P(x))^3$ has degree at least $12$.",
+   "images": [
+    "assets/img/ext1-2025-smiths-hill/q3.png"
+   ],
+   "options": [
+    "3",
+    "6",
+    "9",
+    "12"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Which of the following is the derivative of $y=3x\\cos^{-1}(3x)$?",
+   "answer": "Product rule: $y'=3\\cos^{-1}(3x)+3x\\cdot\\dfrac{-3}{\\sqrt{1-9x^2}}$.",
+   "options": [
+    "$3\\cos^{-1}(3x)+\\dfrac{9x}{\\sqrt{1-9x^2}}$",
+    "$3\\cos^{-1}(3x)-\\dfrac{9x}{\\sqrt{1-9x^2}}$",
+    "$3x\\cos^{-1}(3x)+\\dfrac{9x}{\\sqrt{1-9x^2}}$",
+    "$3x\\cos^{-1}(3x)-\\dfrac{9x}{\\sqrt{1-9x^2}}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "What is the angle between the vectors $\\begin{pmatrix}1\\\\-1\\end{pmatrix}$ and $\\begin{pmatrix}1\\\\0\\end{pmatrix}$?",
+   "answer": "$\\cos\\theta=\\dfrac{1}{\\sqrt2\\times1}$, so $\\theta=45^\\circ$.",
+   "options": [
+    "$30^\\circ$",
+    "$45^\\circ$",
+    "$60^\\circ$",
+    "$75^\\circ$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "The polynomial $x^3+3x^2-10x-24$ has zeros $-2$, $3$ and $a$. What is the value of $a$?",
+   "answer": "Sum of zeros: $-2+3+a=-3$, so $a=-4$.",
+   "options": [
+    "$4$",
+    "$-4$",
+    "$3$",
+    "$6$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.4.6",
+    "12.5.4.4"
+   ],
+   "question": "A differential equation has the direction field shown below. A solution curve to the differential equation includes $(1,-3)$. Which one of the following points will the solution curve also include?",
+   "answer": "Follow the field from $(1,-3)$: the curve rises to the left, becomes vertical on the line $y\\approx x$ near $(-1.4,-1.4)$, then turns and rises to the right. The field matches $\\dfrac{dy}{dx}=\\dfrac1{y-x}$, whose curve through $(1,-3)$ is $x=y-1+5e^{-3-y}$. At $y=2$ this gives $x\\approx1.03$, so it passes essentially through $(1,2)$. The other points miss it by noticeably more (at $y=0.75$, $x\\approx-0.13$; at $y=0$, $x\\approx-0.75$; at $y=-0.5$, $x\\approx-1.09$).\n\n*Note: the school's answer is C, from a hand-drawn curve; tracing the field accurately gives D. (Strictly, the curve is followed through its vertical tangent, where $y$ is no longer a function of $x$.)*",
+   "images": [
+    "assets/img/ext1-2025-smiths-hill/q7.png"
+   ],
+   "options": [
+    "$(-1,-0.5)$",
+    "$(-1,0)$",
+    "$(0,0.75)$",
+    "$(1,2)$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.19"
+   ],
+   "question": "A bag contains 6 identical red marbles, 9 identical white marbles and 4 identical black marbles. Three marbles are drawn at random. Which expression gives the probability that exactly two white marbles are drawn?",
+   "answer": "Choose 2 of the 9 white and 1 of the 10 non-white marbles, out of ${}^{19}C_3$ selections.",
+   "options": [
+    "$\\dfrac{{}^9C_2}{{}^{19}C_3}$",
+    "$\\dfrac{{}^9C_2\\times{}^{10}C_1}{{}^{19}C_3}$",
+    "$\\dfrac{{}^9C_2\\times{}^6C_1\\times{}^4C_1}{{}^{19}C_3}$",
+    "$\\dfrac{6}{19}\\times\\dfrac{5}{18}\\times\\dfrac{13}{17}$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "Which of the following is the value of $\\displaystyle\\int_0^1\\frac{dx}{4+4x^2}$?",
+   "answer": "$\\frac14\\left[\\tan^{-1}x\\right]_0^1=\\dfrac{\\pi}{16}$.",
+   "options": [
+    "$\\dfrac14$",
+    "$\\dfrac{\\pi}{2}$",
+    "$\\dfrac{\\pi}{4}$",
+    "$\\dfrac{\\pi}{16}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.15"
+   ],
+   "question": "The population, $P$, of turkeys at an oval is increasing such that $\\dfrac{dP}{dt}=P(20\\,000-P)$, where $t$ is time. The initial population is $8000$ turkeys. Which of the following is true?",
+   "answer": "$\\dfrac{dP}{dt}=P(20\\,000-P)$ is a downward parabola in $P$, greatest at $P=10\\,000$.",
+   "options": [
+    "$P=20\\,000-12\\,000e^{20\\,000t}$",
+    "The population is increasing most rapidly when $P=10\\,000$",
+    "The population is increasing most rapidly when $t=10\\,000$",
+    "The maximum population is $P=10\\,000$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "11(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.1"
+   ],
+   "question": "The diagram shows the graph of $y=f(x)$, where $f(x)=x^3-3x$. Sketch $y=\\dfrac{1}{f(x)}$, showing all turning points and asymptotes.",
+   "answer": "- Vertical asymptotes where $f(x)=0$: $x=-\\sqrt3$, $x=0$, $x=\\sqrt3$. Horizontal asymptote $y=0$.\n- Turning points: the maximum $(-1,2)$ of $f$ becomes a minimum $\\left(-1,\\frac12\\right)$; the minimum $(1,-2)$ becomes a maximum $\\left(1,-\\frac12\\right)$.\n- $\\frac1{f}$ has the same sign as $f$: negative for $x<-\\sqrt3$ and $0<x<\\sqrt3$, positive otherwise.",
+   "images": [
+    "assets/img/ext1-2025-smiths-hill/q11a.png"
+   ],
+   "answer_images": [
+    "assets/img/ext1-2025-smiths-hill/ans11a.png"
+   ]
+  },
+  {
+   "ref": "11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Using the substitution $u=5x^3-1$, or otherwise, find $\\displaystyle\\int x^2(5x^3-1)^5\\,dx$.",
+   "answer": "$du=15x^2\\,dx$, so\n$$\\int x^2(5x^3-1)^5\\,dx=\\frac1{15}\\int u^5\\,du=\\frac{u^6}{90}+C=\\frac{(5x^3-1)^6}{90}+C.$$"
+  },
+  {
+   "ref": "11(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.3"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^{\\pi/3}\\sin^2 3x\\,dx$.",
+   "answer": "$$\\int_0^{\\pi/3}\\sin^2 3x\\,dx=\\frac12\\int_0^{\\pi/3}(1-\\cos6x)\\,dx=\\frac12\\left[x-\\frac{\\sin6x}{6}\\right]_0^{\\pi/3}=\\frac{\\pi}{6}.$$"
+  },
+  {
+   "ref": "11(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.1.8"
+   ],
+   "question": "In how many ways can the letters of the word SUCCESS be arranged in a line if there are no restrictions?",
+   "answer": "There are 7 letters with three S's and two C's: $\\dfrac{7!}{3!\\,2!}=420$."
+  },
+  {
+   "ref": "11(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.9",
+    "11.4.1.8"
+   ],
+   "question": "In how many ways can the letters of the word SUCCESS be arranged in a line if the two C's are NOT adjacent?",
+   "answer": "Total arrangements: $\\dfrac{7!}{3!\\,2!}=420$. With the C's together (one block, three S's among 6 objects): $\\dfrac{6!}{3!}=120$.\n\nNot adjacent: $420-120=300$."
+  },
+  {
+   "ref": "11(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "Find the angle between the vectors $\\begin{pmatrix}-12\\\\5\\end{pmatrix}$ and $\\begin{pmatrix}8\\\\6\\end{pmatrix}$, correct to the nearest degree.",
+   "answer": "$$\\cos\\theta=\\frac{-96+30}{13\\times10}=-\\frac{66}{130},\\qquad\\theta\\approx121^\\circ.$$"
+  },
+  {
+   "ref": "11(f)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.7"
+   ],
+   "question": "The volume, $V$, of a weather balloon in cubic metres after $t$ minutes is modelled by $V=1.26+Ae^{0.1t}$. The balloon initially has a volume of 2.5 cubic metres. Find the volume after ten minutes, correct to two decimal places.",
+   "answer": "At $t=0$: $2.5=1.26+A$, so $A=1.24$. At $t=10$: $V=1.26+1.24e^{1}\\approx4.63$ m³."
+  },
+  {
+   "ref": "12(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.3",
+    "11.3.3.2"
+   ],
+   "question": "Solve the equation $4\\sin x+3\\cos x=2.5$ for $0\\le x\\le2\\pi$ (correct to 2 decimal places).",
+   "answer": "$4\\sin x+3\\cos x=5\\sin(x+\\alpha)$ where $\\tan\\alpha=\\frac34$, $\\alpha\\approx0.6435$.\n\n$\\sin(x+\\alpha)=\\frac12$, so $x+\\alpha=\\dfrac{5\\pi}{6},\\ \\dfrac{13\\pi}{6}$.\n$$x\\approx1.97,\\;6.16.$$"
+  },
+  {
+   "ref": "12(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "Find the coefficient of $x^8$ in the expansion of $(2x+2)^{10}$.",
+   "answer": "The term in $x^8$ is $\\binom{10}{2}(2x)^8(2)^2$, so the coefficient is $45\\times256\\times4=46\\,080$."
+  },
+  {
+   "ref": "12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "Use mathematical induction to prove that for all integers $n\\ge1$, $3^{2n}-1$ is divisible by 8.",
+   "answer": "**$n=1$:** $3^2-1=8$, divisible by 8.\n\n**Assume** $3^{2k}-1=8P$ for some integer $P$.\n\n**$n=k+1$:** $$3^{2k+2}-1=9\\cdot3^{2k}-1=9(8P+1)-1=8(9P+1),$$\nwhich is divisible by 8 since $9P+1$ is an integer.\n\nHence the statement is true for all integers $n\\ge1$ by induction."
+  },
+  {
+   "ref": "12(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.2",
+    "11.2.2.1"
+   ],
+   "question": "Given the polynomial $P(x)=x^3+2x^2+3x+10$, find the polynomial $Q(x)$ such that $P(x)=(x+2)Q(x)+R$.",
+   "answer": "$$x^3+2x^2+3x+10=x^2(x+2)+3(x+2)+4=(x+2)(x^2+3)+4.$$\nSo $Q(x)=x^2+3$ (and $R=4$)."
+  },
+  {
+   "ref": "12(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.6"
+   ],
+   "question": "When a fair coin is tossed, the chance that it will come up tails is exactly 50%. The coin is tossed 100 times. What is the probability that it will NOT come up tails exactly 50 times? Leave your answer in unsimplified form.",
+   "answer": "$X\\sim\\text{Bin}(100,\\frac12)$.\n$$P(X\\ne50)=1-P(X=50)=1-\\binom{100}{50}\\left(\\frac12\\right)^{50}\\left(\\frac12\\right)^{50}.$$"
+  },
+  {
+   "ref": "13(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "course": "extension2",
+   "dotpoints": [
+    "12.4.1.5"
+   ],
+   "question": "Using $t=\\tan\\dfrac x2$, or otherwise, prove that $\\dfrac{2}{1+\\cos x}=\\sec^2\\left(\\dfrac x2\\right)$.",
+   "answer": "With $\\cos x=\\dfrac{1-t^2}{1+t^2}$:\n$$\\frac{2}{1+\\cos x}=\\frac{2(1+t^2)}{(1+t^2)+(1-t^2)}=1+t^2=1+\\tan^2\\frac x2=\\sec^2\\frac x2.$$"
+  },
+  {
+   "ref": "13(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.4"
+   ],
+   "question": "A three-dimensional shape is modelled by rotating the region $S$ between the curve $y=\\ln x$ and the line $y=\\dfrac xe$, for $0\\le y\\le1$, about the $y$-axis. Find the exact volume of the shape.",
+   "answer": "The curves are $x=e^y$ (outer) and $x=ey$ (inner).\n$$V=\\pi\\int_0^1\\left(e^{2y}-e^2y^2\\right)dy=\\pi\\left[\\frac{e^{2y}}{2}-\\frac{e^2y^3}{3}\\right]_0^1=\\pi\\left(\\frac{e^2}{2}-\\frac{e^2}{3}-\\frac12\\right)=\\frac{\\pi}{6}\\left(e^2-3\\right)\\text{ units}^3.$$",
+   "images": [
+    "assets/img/ext1-2025-smiths-hill/q13b.png"
+   ]
+  },
+  {
+   "ref": "13(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.2",
+    "12.4.1.1"
+   ],
+   "question": "A curve is described by the parametric equations $x=12q$, $y=6(q+1)^2$. Find the gradient of the tangent to the curve at the point where $q=1\\frac12$.",
+   "answer": "$\\dfrac{dx}{dq}=12$ and $\\dfrac{dy}{dq}=12(q+1)$, so $\\dfrac{dy}{dx}=q+1$. At $q=\\frac32$ the gradient is $\\dfrac52$."
+  },
+  {
+   "ref": "13(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.11",
+    "12.5.4.5"
+   ],
+   "question": "Find the curve, in the form $y=f(x)$, which satisfies the differential equation $\\dfrac{dy}{dx}=\\operatorname{cosec}y$ and passes through the point $\\left(-\\dfrac{\\pi}{3},\\dfrac{\\pi}{2}\\right)$.",
+   "answer": "$$\\int\\sin y\\,dy=\\int dx\\;\\Rightarrow\\;-\\cos y=x+c.$$\nAt $\\left(-\\frac\\pi3,\\frac\\pi2\\right)$: $0=-\\frac\\pi3+c$, so $c=\\frac\\pi3$. Then $\\cos y=-\\left(x+\\frac\\pi3\\right)$ with $0\\le y\\le\\pi$:\n$$y=\\cos^{-1}\\left(-x-\\frac\\pi3\\right)=\\pi-\\cos^{-1}\\left(x+\\frac\\pi3\\right).$$"
+  },
+  {
+   "ref": "14(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.8"
+   ],
+   "question": "A motorcycle stunt rider is positioned on top of a 4.8 m high wharf and will ride off the end of the wharf at a constant speed with the intention of landing on a barge positioned in the water 25 m from the wharf. The barge is 3.6 m wide and sits 1.6 m above the water level. For safety, she aims to land in the centre of the barge. Take the point at which she leaves the wharf as the origin, $g=10$ ms⁻², and treat the bike and rider as a single particle. $t$ seconds after leaving the wharf, the position vector of the particle is\n$$\\mathbf{r}(t)=\\begin{pmatrix}Vt\\\\-5t^2\\end{pmatrix}\\quad\\text{(do not prove this)}$$\nwhere $V$ is the velocity in ms⁻¹ when she leaves the wharf.\n\nFind the initial velocity required to land exactly in the centre of the barge.",
+   "answer": "The centre of the barge top is at $x=25+1.8=26.8$, $y=-(4.8-1.6)=-3.2$.\n\n$-5t^2=-3.2$ gives $t=0.8$. Then $0.8V=26.8$, so $V=33.5$ ms⁻¹.",
+   "images": [
+    "assets/img/ext1-2025-smiths-hill/q14a.png"
+   ]
+  },
+  {
+   "ref": "14(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.6.7",
+    "12.2.5.8"
+   ],
+   "question": "A motorcycle stunt rider is positioned on top of a 4.8 m high wharf and will ride off the end of the wharf at a constant speed with the intention of landing on a barge positioned in the water 25 m from the wharf. The barge is 3.6 m wide and sits 1.6 m above the water level. For safety, she aims to land in the centre of the barge. Take the point at which she leaves the wharf as the origin, $g=10$ ms⁻², and treat the bike and rider as a single particle. $t$ seconds after leaving the wharf, the position vector of the particle is\n$$\\mathbf{r}(t)=\\begin{pmatrix}Vt\\\\-5t^2\\end{pmatrix}\\quad\\text{(do not prove this)}$$\nwhere $V$ is the velocity in ms⁻¹ when she leaves the wharf.\n\nAt what angle, to the nearest degree, will she hit the barge if she lands exactly in its centre?",
+   "answer": "Landing in the centre ($x=26.8$, $y=-3.2$) needs $t=0.8$ and $V=33.5$. Velocity: $\\mathbf{v}=(33.5,\\,-10t)=(33.5,\\,-8)$.\n$$\\tan\\alpha=\\frac{8}{33.5},\\qquad\\alpha\\approx13^\\circ\\text{ to the horizontal.}$$",
+   "images": [
+    "assets/img/ext1-2025-smiths-hill/q14a.png"
+   ]
+  },
+  {
+   "ref": "14(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "The cubic polynomial $P(x)=x^3+x^2-8x-12$ has roots $\\alpha$, $\\beta$ and $\\gamma$. Find $\\alpha^2+\\beta^2+\\gamma^2$.",
+   "answer": "$$\\alpha^2+\\beta^2+\\gamma^2=(\\alpha+\\beta+\\gamma)^2-2(\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha)=(-1)^2-2(-8)=17.$$"
+  },
+  {
+   "ref": "14(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.3.3.1"
+   ],
+   "question": "It is given that $\\tan3\\theta=\\dfrac{3\\tan\\theta-\\tan^3\\theta}{1-3\\tan^2\\theta}$. By letting $x=\\tan\\theta$, solve $x^3-3x^2-3x+1=0$.",
+   "answer": "With $x=\\tan\\theta$ the equation is $1-3x^2=3x-x^3$, that is $\\dfrac{3x-x^3}{1-3x^2}=1$, so $\\tan3\\theta=1$.\n\n$3\\theta=\\dfrac\\pi4,\\ \\dfrac{5\\pi}4,\\ \\dfrac{9\\pi}4$, so $\\theta=\\dfrac{\\pi}{12},\\ \\dfrac{5\\pi}{12},\\ \\dfrac{3\\pi}{4}$, which give three distinct values:\n$$x=\\tan\\frac{\\pi}{12},\\quad\\tan\\frac{5\\pi}{12},\\quad-1.$$"
+  },
+  {
+   "ref": "14(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.5",
+    "12.2.3.6"
+   ],
+   "question": "$PQR$ is a triangle and $S$ is the midpoint of $QR$. Let $\\overrightarrow{PQ}=\\mathbf{a}$ and $\\overrightarrow{PR}=\\mathbf{b}$. Show that\n$$2\\left(|\\overrightarrow{PS}|^2+|\\overrightarrow{QS}|^2\\right)=|\\overrightarrow{PQ}|^2+|\\overrightarrow{PR}|^2.$$",
+   "answer": "$\\overrightarrow{QS}=\\frac12(\\mathbf{b}-\\mathbf{a})$ and $\\overrightarrow{PS}=\\mathbf{a}+\\overrightarrow{QS}=\\frac12(\\mathbf{a}+\\mathbf{b})$.\n$$2\\left(|\\overrightarrow{PS}|^2+|\\overrightarrow{QS}|^2\\right)=\\frac12\\big[(\\mathbf{a}+\\mathbf{b})\\cdot(\\mathbf{a}+\\mathbf{b})+(\\mathbf{b}-\\mathbf{a})\\cdot(\\mathbf{b}-\\mathbf{a})\\big]$$\n$$=\\frac12\\left(2|\\mathbf{a}|^2+2|\\mathbf{b}|^2\\right)=|\\overrightarrow{PQ}|^2+|\\overrightarrow{PR}|^2.$$",
+   "images": [
+    "assets/img/ext1-2025-smiths-hill/q14d.png"
+   ]
+  },
+  {
+   "ref": "14(e)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "The curved surface area, $A$, of a cone with a fixed height of 12 cm is increasing at the rate of $18\\pi$ cm² s⁻¹. The curved surface of a cone with radius $r$ and slant height $l$ has area $A=\\pi rl$. Find the rate at which its radius is increasing when its slant height is 15 cm.",
+   "answer": "$l=\\sqrt{r^2+144}$, so $A=\\pi r\\sqrt{r^2+144}$ and\n$$\\frac{dA}{dr}=\\pi\\sqrt{r^2+144}+\\frac{\\pi r^2}{\\sqrt{r^2+144}}.$$\nWhen $l=15$, $r=9$: $\\dfrac{dA}{dr}=\\pi\\left(15+\\dfrac{81}{15}\\right)=\\dfrac{102\\pi}{5}$.\n$$\\frac{dr}{dt}=\\frac{dA/dt}{dA/dr}=\\frac{18\\pi}{102\\pi/5}=\\frac{15}{17}\\text{ cm s}^{-1}.$$"
+  }
+ ]
+}
