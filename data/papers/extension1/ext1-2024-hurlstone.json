@@ -1,0 +1,514 @@
+{
+ "id": "ext1-2024-hurlstone",
+ "course": "extension1",
+ "school": "Hurlstone",
+ "year": 2024,
+ "type": "Trial",
+ "thsc": {
+  "viewno": 5338,
+  "title": "Hurlstone 2024 w. sol"
+ },
+ "indexed": "2026-11-27",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q2",
+   "reason": "pigeonhole principle is not in the Extension 1 syllabus"
+  },
+  {
+   "ref": "Q11(a)",
+   "reason": "sketching y = sqrt(f(x)) from y = f(x) is not in the Extension 1 syllabus"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.1.3"
+   ],
+   "question": "Which of graphs A–D correctly shows $y=\\dfrac{|x|}{x^2}$?",
+   "answer": "$y=\\dfrac{1}{|x|}$ is even and always positive.",
+   "options": [
+    "Graph A",
+    "Graph B",
+    "Graph C",
+    "Graph D"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/ext1-2024-hurlstone/q1.png"
+   ]
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "Which of the following is the constant term in the expansion of $\\left(2x-\\dfrac{5}{x^3}\\right)^{12}$?",
+   "answer": "The general term has power $x^{12-4r}$, so $r=3$: $\\binom{12}{3}2^9(-5)^3$.",
+   "options": [
+    "$\\binom{12}{3}2^9\\,5^3$",
+    "$\\binom{12}{9}2^3\\,5^9$",
+    "$-\\binom{12}{3}2^9\\,5^3$",
+    "$-\\binom{12}{9}2^3\\,5^9$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.9"
+   ],
+   "question": "What is the vector projection of $\\underset{\\sim}{a}=-3\\underset{\\sim}{i}+4\\underset{\\sim}{j}$ onto $\\underset{\\sim}{b}=2\\underset{\\sim}{i}-\\underset{\\sim}{j}$?",
+   "answer": "$\\dfrac{a\\cdot b}{|b|^2}b=\\dfrac{-10}{5}b=-4\\underset{\\sim}{i}+2\\underset{\\sim}{j}$.",
+   "options": [
+    "$2\\underset{\\sim}{i}-4\\underset{\\sim}{j}$",
+    "$4\\underset{\\sim}{i}-2\\underset{\\sim}{j}$",
+    "$-2\\underset{\\sim}{i}+\\underset{\\sim}{j}$",
+    "$-4\\underset{\\sim}{i}+2\\underset{\\sim}{j}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.2.5"
+   ],
+   "question": "What is the remainder when $2x^5-3x^3+x^2-5$ is divided by $x+2$?",
+   "answer": "$P(-2)=-64+24+4-5=-41$.",
+   "options": [
+    "$-41$",
+    "$-5$",
+    "$39$",
+    "$41$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.12"
+   ],
+   "question": "Which function best describes the following graph?",
+   "answer": "Domain $[-2,2]$ and range $\\left[-\\frac{3\\pi}{2},\\frac{3\\pi}{2}\\right]$.",
+   "options": [
+    "$y=3\\sin^{-1}2x$",
+    "$y=\\dfrac32\\sin^{-1}2x$",
+    "$y=3\\sin^{-1}\\dfrac x2$",
+    "$y=\\dfrac32\\sin^{-1}\\dfrac x2$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/ext1-2024-hurlstone/q6.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.3.2.2"
+   ],
+   "question": "Which expression is equivalent to $\\dfrac{\\tan2x-\\tan x}{1+\\tan2x\\tan x}$?",
+   "answer": "It is $\\tan(2x-x)$.",
+   "options": [
+    "$\\tan x$",
+    "$\\tan3x$",
+    "$\\dfrac{\\tan2x-1}{1+\\tan2x}$",
+    "$\\dfrac{\\tan x}{1+\\tan2x\\tan x}$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.4"
+   ],
+   "question": "It is given that $\\sin x=\\dfrac14$, where $\\dfrac{\\pi}{2}<x<\\pi$. What is the value of $\\sin2x$?",
+   "answer": "$\\cos x=-\\frac{\\sqrt{15}}{4}$, so $\\sin2x=2\\sin x\\cos x=-\\frac{\\sqrt{15}}{8}$.",
+   "options": [
+    "$-\\dfrac78$",
+    "$-\\dfrac{\\sqrt{15}}{8}$",
+    "$\\dfrac{\\sqrt{15}}{8}$",
+    "$\\dfrac78$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "Sand pours onto the ground forming a cone of height $h$ cm and base radius $r=\\sqrt3h$ cm. Sand is poured at 12 cm$^3$/s. At what rate is the height increasing when the height is 12 cm?",
+   "answer": "$V=\\pi h^3$, so $\\dfrac{dh}{dt}=\\dfrac{12}{3\\pi h^2}=\\dfrac{1}{36\\pi}$ at $h=12$.",
+   "options": [
+    "$\\dfrac{1}{24\\pi}$ cm/s",
+    "$\\dfrac{1}{36\\pi}$ cm/s",
+    "$\\dfrac{\\pi}{24}$ cm/s",
+    "$\\dfrac{\\pi}{36}$ cm/s"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.4"
+   ],
+   "question": "At time $t$ years the number of ants in a colony is $N=500-400e^{-0.1t}$. What is the rate of growth in ants/year when $t=20$?",
+   "answer": "$\\dfrac{dN}{dt}=40e^{-0.1t}=40e^{-2}$.",
+   "options": [
+    "$40e^2$",
+    "$-40e^2$",
+    "$\\dfrac{40}{e^2}$",
+    "$-\\dfrac{40}{e^2}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Solve $\\dfrac{8-x}{x}\\le1$.",
+   "answer": "Multiply by $x^2$ $(x\\ne0)$: $x(8-x)\\le x^2$, so $x(4-x)\\le0$.\n\n$x<0$ or $x\\ge4$."
+  },
+  {
+   "ref": "Q11(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.3.3"
+   ],
+   "question": "Eliminate $t$ from the parametric equations $x=\\cos t$, $y=\\sin^2t$.",
+   "answer": "$y=1-\\cos^2t=1-x^2$, where $-1\\le x\\le1$."
+  },
+  {
+   "ref": "Q11(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.3.4"
+   ],
+   "question": "Sketch the curve defined by $x=\\cos t$, $y=\\sin^2t$.",
+   "answer": "The part of the parabola $y=1-x^2$ with $-1\\le x\\le1$ (so $0\\le y\\le1$).",
+   "answer_images": [
+    "assets/img/ext1-2024-hurlstone/a11c.png"
+   ]
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.2"
+   ],
+   "question": "Write $\\sqrt3\\cos x-\\sin x$ in the form $2\\cos(x+\\alpha)$, where $0<\\alpha<\\dfrac{\\pi}{2}$.",
+   "answer": "$\\cos\\alpha=\\frac{\\sqrt3}{2}$, $\\sin\\alpha=\\frac12$, so $\\sqrt3\\cos x-\\sin x=2\\cos\\left(x+\\dfrac{\\pi}{6}\\right)$."
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.3"
+   ],
+   "question": "Hence, or otherwise, solve $\\sqrt3\\cos x=1+\\sin x$ for $0<x<2\\pi$.",
+   "answer": "$2\\cos\\left(x+\\frac{\\pi}{6}\\right)=1\\Rightarrow x+\\dfrac{\\pi}{6}=\\dfrac{\\pi}{3},\\dfrac{5\\pi}{3}$, so $x=\\dfrac{\\pi}{6},\\dfrac{3\\pi}{2}$."
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.2.4"
+   ],
+   "question": "The graph of $f(x)=x^2-4x+5$ is shown. Explain why $f(x)$ does not have an inverse function.",
+   "answer": "$f$ is not one-to-one: it fails the horizontal line test (for example $f(1)=f(3)$).",
+   "images": [
+    "assets/img/ext1-2024-hurlstone/q12b.png"
+   ]
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.2.8"
+   ],
+   "question": "Let $g(x)=x^2-4x+5$, $x\\ge2$ (the right half of a parabola with vertex $(2,1)$). Sketch the graph of the inverse function $g^{-1}(x)$.",
+   "answer": "Reflect $y=g(x)$ in $y=x$: a half-parabola starting at $(1,2)$, vertical there, increasing and concave down.",
+   "answer_images": [
+    "assets/img/ext1-2024-hurlstone/a12b.png"
+   ]
+  },
+  {
+   "ref": "Q12(b)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.2.7"
+   ],
+   "question": "Let $g(x)=x^2-4x+5$, $x\\ge2$ (the right half of a parabola with vertex $(2,1)$). State the domain of $g^{-1}(x)$.",
+   "answer": "$x\\ge1$."
+  },
+  {
+   "ref": "Q12(b)(iv)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.2.5"
+   ],
+   "question": "Let $g(x)=x^2-4x+5$, $x\\ge2$ (the right half of a parabola with vertex $(2,1)$). Find an expression for $g^{-1}(x)$.",
+   "answer": "Swap: $x=y^2-4y+5\\Rightarrow(y-2)^2=x-1$. Since $y\\ge2$, $g^{-1}(x)=2+\\sqrt{x-1}$."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.2.4"
+   ],
+   "question": "Prove that $\\text{cosec}\\,\\theta+\\cot\\theta=\\cot\\dfrac{\\theta}{2}$.",
+   "answer": "$\\text{cosec}\\,\\theta+\\cot\\theta=\\dfrac{1+\\cos\\theta}{\\sin\\theta}=\\dfrac{2\\cos^2\\frac\\theta2}{2\\sin\\frac\\theta2\\cos\\frac\\theta2}=\\cot\\dfrac\\theta2$."
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.1.10"
+   ],
+   "question": "Three boys and five girls are at a party. In how many ways can the children be seated around a circle?",
+   "answer": "$7!=5040$."
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.11"
+   ],
+   "question": "Three boys and five girls sit in a circle. Two particular boys are asked not to sit together. In how many ways can this occur?",
+   "answer": "Total minus those with the two boys together: $7!-2\\times6!=5040-1440=3600$."
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Show that $\\dfrac{d}{dx}\\left[\\sin^{-1}(2x-1)\\right]=\\dfrac{1}{\\sqrt{x-x^2}}$.",
+   "answer": "$\\dfrac{2}{\\sqrt{1-(2x-1)^2}}=\\dfrac{2}{\\sqrt{4x-4x^2}}=\\dfrac{1}{\\sqrt{x-x^2}}$."
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "Hence, or otherwise, show that $\\displaystyle\\int_{3/4}^1\\frac{dx}{\\sqrt{x-x^2}}=\\frac{\\pi}{3}$.",
+   "answer": "$\\Big[\\sin^{-1}(2x-1)\\Big]_{3/4}^1=\\sin^{-1}1-\\sin^{-1}\\frac12=\\dfrac{\\pi}{2}-\\dfrac{\\pi}{6}=\\dfrac{\\pi}{3}$."
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Using the substitution $x=2\\cos\\theta$, evaluate $\\displaystyle\\int_1^{\\sqrt2}\\frac{dx}{x^2\\sqrt{4-x^2}}$ in simplest exact form.",
+   "answer": "$dx=-2\\sin\\theta\\,d\\theta$; $x=1\\to\\theta=\\frac{\\pi}{3}$, $x=\\sqrt2\\to\\theta=\\frac{\\pi}{4}$.\n$$I=\\int_{\\pi/3}^{\\pi/4}\\frac{-2\\sin\\theta\\,d\\theta}{4\\cos^2\\theta\\cdot2\\sin\\theta}=\\frac14\\int_{\\pi/4}^{\\pi/3}\\sec^2\\theta\\,d\\theta=\\frac14\\Big[\\tan\\theta\\Big]_{\\pi/4}^{\\pi/3}=\\frac{\\sqrt3-1}{4}.$$"
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "The diagram shows part of the curve $C$: $y=2-\\dfrac{1}{2x-1}$, $x\\ne\\dfrac12$. The region bounded by $C$, the lines $x=1$, $x=2$ and the $x$-axis is rotated about the $x$-axis. Show that the volume of the solid is $\\pi\\left(\\dfrac{13}{3}-2\\ln3\\right)$ units$^3$.",
+   "answer": "$$V=\\pi\\int_1^2\\left(4-\\frac{4}{2x-1}+\\frac{1}{(2x-1)^2}\\right)dx=\\pi\\left[4x-2\\ln(2x-1)-\\frac{1}{2(2x-1)}\\right]_1^2$$\n$$=\\pi\\left[\\left(8-2\\ln3-\\frac16\\right)-\\left(4-\\frac12\\right)\\right]=\\pi\\left(\\frac{13}{3}-2\\ln3\\right).$$",
+   "images": [
+    "assets/img/ext1-2024-hurlstone/q13d.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Prove by mathematical induction that for integers $n\\ge1$, $$\\frac{3}{1\\times2\\times2}+\\frac{4}{2\\times3\\times2^2}+\\dots+\\frac{n+2}{n(n+1)2^n}=1-\\frac{1}{(n+1)2^n}.$$",
+   "answer": "$n=1$: LHS $=\\frac34$, RHS $=1-\\frac14=\\frac34$.\n\nAssume true for $n=k$. Then\n$$\\text{LHS}_{k+1}=1-\\frac{1}{(k+1)2^k}+\\frac{k+3}{(k+1)(k+2)2^{k+1}}=1-\\frac{2(k+2)-(k+3)}{(k+1)(k+2)2^{k+1}}=1-\\frac{1}{(k+2)2^{k+1}}.$$\nBy induction the result holds for all $n\\ge1$."
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.1"
+   ],
+   "question": "A spherical weather balloon is inflated from empty so that its volume increases at a constant 0.5 m$^3$/s. Show that the radius at time $t$ is $r=\\sqrt[3]{\\dfrac{3t}{8\\pi}}$ m.",
+   "answer": "$V=0.5t$ (as $V=0$ at $t=0$). So $\\dfrac43\\pi r^3=\\dfrac t2$, giving $r^3=\\dfrac{3t}{8\\pi}$."
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "A spherical weather balloon is inflated from empty so that its volume increases at a constant 0.5 m$^3$/s. The radius at time $t$ is $r=\\sqrt[3]{\\dfrac{3t}{8\\pi}}$. Show that the rate of increase of surface area after 8 seconds is $\\sqrt[3]{\\dfrac{\\pi}{3}}$ m$^2$/s.",
+   "answer": "$\\dfrac{dA}{dt}=\\dfrac{dA}{dr}\\cdot\\dfrac{dr}{dV}\\cdot\\dfrac{dV}{dt}=8\\pi r\\cdot\\dfrac{1}{4\\pi r^2}\\cdot\\dfrac12=\\dfrac1r$.\n\nAt $t=8$, $r=\\sqrt[3]{3/\\pi}$, so $\\dfrac{dA}{dt}=\\sqrt[3]{\\dfrac{\\pi}{3}}$ m$^2$/s."
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.5"
+   ],
+   "question": "The temperature $T^\\circ$C of water in a kettle, $t$ seconds after it is switched on, satisfies $\\dfrac{dT}{dt}=k(120-T)$ with $k>0$. The temperature is $20^\\circ$C when switched on. Show that $T=120-100e^{-kt}$ satisfies the differential equation and the initial condition.",
+   "answer": "$\\dfrac{dT}{dt}=100ke^{-kt}=k(120-T)$. At $t=0$, $T=120-100=20$."
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.16",
+    "12.5.2.7"
+   ],
+   "question": "The temperature $T^\\circ$C of water in a kettle, $t$ seconds after it is switched on, satisfies $\\dfrac{dT}{dt}=k(120-T)$ with $k>0$. The temperature is $20^\\circ$C when switched on. You are given $T=120-100e^{-kt}$. The kettle switches off at $100^\\circ$C. If it takes 10 seconds to reach $30^\\circ$C, find how long it takes to switch off, to the nearest second.",
+   "answer": "$30=120-100e^{-10k}\\Rightarrow k=-\\frac1{10}\\ln0.9\\approx0.010536$.\n\n$100=120-100e^{-kt}\\Rightarrow e^{-kt}=0.2\\Rightarrow t=\\dfrac{\\ln5}{k}\\approx152.8$.\n\nIt switches off after about 153 seconds."
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "The roots of $2x^3-6x^2-8x+12=0$ are $\\alpha,\\beta,\\gamma$. Find the value of $(\\alpha+2)(\\beta+2)(\\gamma+2)$.",
+   "answer": "$\\sum\\alpha=3$, $\\sum\\alpha\\beta=-4$, $\\alpha\\beta\\gamma=-6$.\n$$(\\alpha+2)(\\beta+2)(\\gamma+2)=\\alpha\\beta\\gamma+2\\sum\\alpha\\beta+4\\sum\\alpha+8=-6-8+12+8=6.$$"
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "In the expansion of $\\left(1-\\dfrac32x\\right)^p$ in ascending powers of $x$, the coefficient of $x$ is $-24$. By considering the expansion of $(1+x)^p$, find $p$.",
+   "answer": "The coefficient of $x$ is $\\binom p1\\left(-\\frac32\\right)=-\\dfrac{3p}{2}=-24$, so $p=16$."
+  },
+  {
+   "ref": "Q15(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.16"
+   ],
+   "question": "Show that ${}^{n-1}C_{k-1}+{}^{n-1}C_k=\\dfrac{n!}{(n-k)!\\,k!}$.",
+   "answer": "$$\\frac{(n-1)!}{(n-k)!(k-1)!}+\\frac{(n-1)!}{(n-1-k)!\\,k!}=\\frac{(n-1)!\\,\\big[k+(n-k)\\big]}{k!\\,(n-k)!}=\\frac{n!}{k!\\,(n-k)!}.$$"
+  },
+  {
+   "ref": "Q15(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.9"
+   ],
+   "question": "Consider the points $P(a,2a)$, $Q(-a,5a)$, $R(3a,4a)$ and $S(9a,12a)$, where $a>0$. Express $\\overrightarrow{PQ}$ in the form $p\\underset{\\sim}{i}+q\\underset{\\sim}{j}$.",
+   "answer": "$\\overrightarrow{PQ}=-2a\\underset{\\sim}{i}+3a\\underset{\\sim}{j}$."
+  },
+  {
+   "ref": "Q15(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.9"
+   ],
+   "question": "Consider the points $P(a,2a)$, $Q(-a,5a)$, $R(3a,4a)$ and $S(9a,12a)$, where $a>0$. Given that the length of the projection of $\\overrightarrow{PQ}$ onto $\\overrightarrow{RS}$ is 12, find $a$.",
+   "answer": "$\\overrightarrow{RS}=(6a,8a)$. Length $=\\dfrac{|\\overrightarrow{PQ}\\cdot\\overrightarrow{RS}|}{|\\overrightarrow{RS}|}=\\dfrac{12a^2}{10a}=\\dfrac{6a}{5}=12$, so $a=10$."
+  },
+  {
+   "ref": "Q15(e)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.6"
+   ],
+   "question": "A quadrilateral $ABCD$ has $|AB|=|BC|$ and $|CD|=|DA|$. $M$ is the intersection of $AC$ and $BD$, and $M$ bisects $AC$. Show that $\\overrightarrow{BM}=\\dfrac12\\overrightarrow{BC}-\\dfrac12\\overrightarrow{AB}$.",
+   "answer": "$\\overrightarrow{BM}=\\overrightarrow{BA}+\\dfrac12\\overrightarrow{AC}=-\\overrightarrow{AB}+\\dfrac12(\\overrightarrow{AB}+\\overrightarrow{BC})=\\dfrac12\\overrightarrow{BC}-\\dfrac12\\overrightarrow{AB}$."
+  },
+  {
+   "ref": "Q15(e)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.7"
+   ],
+   "question": "A quadrilateral $ABCD$ has $|AB|=|BC|$ and $|CD|=|DA|$. $M$ is the intersection of $AC$ and $BD$, and $M$ bisects $AC$. Using $\\overrightarrow{BM}=\\dfrac12\\overrightarrow{BC}-\\dfrac12\\overrightarrow{AB}$, prove that the diagonals of a kite are perpendicular.",
+   "answer": "$$\\overrightarrow{AC}\\cdot\\overrightarrow{BM}=(\\overrightarrow{AB}+\\overrightarrow{BC})\\cdot\\frac12(\\overrightarrow{BC}-\\overrightarrow{AB})=\\frac12\\left(|\\overrightarrow{BC}|^2-|\\overrightarrow{AB}|^2\\right)=0,$$\nsince $|AB|=|BC|$. So $AC\\perp BM$, and hence $AC\\perp BD$."
+  }
+ ]
+}
