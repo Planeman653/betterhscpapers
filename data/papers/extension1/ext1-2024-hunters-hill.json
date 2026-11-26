@@ -1,0 +1,511 @@
+{
+ "id": "ext1-2024-hunters-hill",
+ "course": "extension1",
+ "school": "Hunters Hill",
+ "year": 2024,
+ "type": "Trial",
+ "thsc": {
+  "viewno": 5338,
+  "title": "Hunters Hill 2024 w. sol"
+ },
+ "indexed": "2026-11-27",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q3",
+   "reason": "y^2 = f(x) graphs are not in the Extension 1 syllabus"
+  },
+  {
+   "ref": "Q12(c)",
+   "reason": "pigeonhole principle is not in the Extension 1 syllabus"
+  },
+  {
+   "ref": "Q14(a)",
+   "reason": "normal approximation for sample proportions is not in the Extension 1 syllabus"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.4.3"
+   ],
+   "question": "For which values of $x$ is $|x-1|\\ge4$?",
+   "answer": "$x-1\\le-4$ or $x-1\\ge4$.",
+   "options": [
+    "$-3\\le x\\le5$",
+    "$x\\le-3,\\ x\\ge5$",
+    "$x\\ge5$",
+    "$-3<x\\le5$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.4"
+   ],
+   "question": "Given the substitution $t=\\tan\\dfrac{\\theta}{2}$, the expression $\\dfrac{1-\\cos\\theta}{\\sin\\theta}$ can be written as",
+   "answer": "$\\dfrac{1-\\frac{1-t^2}{1+t^2}}{\\frac{2t}{1+t^2}}=\\dfrac{2t^2}{2t}=t$.",
+   "options": [
+    "$t$",
+    "$0$",
+    "$\\dfrac1t$",
+    "$2t$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.11",
+    "11.4.1.18"
+   ],
+   "question": "In how many ways can 7 people, chosen from a group of 12 people, be arranged around a table?",
+   "answer": "$\\binom{12}{7}\\times6!=\\dfrac{12!}{7!\\,5!}\\times6!=\\dfrac{12!}{5!\\,7}$.",
+   "options": [
+    "$\\dfrac{11!}{4!\\,7}$",
+    "$\\dfrac{11!}{4!}$",
+    "$\\dfrac{12!}{5!\\,7}$",
+    "$\\dfrac{12!}{5!}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.4",
+    "11.2.1.9"
+   ],
+   "question": "The polynomial $P(x)=3x^3+\\alpha x^2+\\beta x+\\gamma$ has roots $3$ and $-2$, with one of them being a double root. What is a possible value of $\\beta$?",
+   "answer": "$\\frac{\\beta}{3}$ is the sum of products in pairs. For roots $3,3,-2$: $9-6-6=-3$, so $\\beta=-9$.",
+   "options": [
+    "$-3$",
+    "$-9$",
+    "$3$",
+    "$9$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.12"
+   ],
+   "question": "Which function best describes the following graph?",
+   "answer": "The domain is $\\left[-\\frac12,\\frac12\\right]$ and the range is $\\left[0,\\frac{2\\pi}{3}\\right]$.",
+   "options": [
+    "$y=\\dfrac32\\cos^{-1}\\left(-\\dfrac x2\\right)$",
+    "$y=\\dfrac23\\cos^{-1}\\left(-\\dfrac x2\\right)$",
+    "$y=\\dfrac32\\cos^{-1}(-2x)$",
+    "$y=\\dfrac23\\cos^{-1}(-2x)$"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/ext1-2024-hunters-hill/q6.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.2.3"
+   ],
+   "question": "The integral of $\\cos^22x$ is",
+   "answer": "$\\cos^22x=\\frac12(1+\\cos4x)$.",
+   "options": [
+    "$\\dfrac12(1+\\cos4x)+c$",
+    "$\\dfrac12(1-\\cos4x)+c$",
+    "$\\dfrac12\\left(x+\\dfrac14\\sin4x\\right)+c$",
+    "$\\dfrac12\\left(x-\\dfrac14\\sin4x\\right)+c$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "Which of the following vector pairs creates an acute angle of approximately $25^\\circ$?",
+   "answer": "Directions of $(2,3)$ and $(1,7)$ are $56.3^\\circ$ and $81.9^\\circ$, a difference of about $25.6^\\circ$.",
+   "options": [
+    "$\\underset{\\sim}{u}=-2\\underset{\\sim}{i}+3\\underset{\\sim}{j}$ and $\\underset{\\sim}{v}=2\\underset{\\sim}{i}-3\\underset{\\sim}{j}$",
+    "$\\underset{\\sim}{u}=2\\underset{\\sim}{i}+3\\underset{\\sim}{j}$ and $\\underset{\\sim}{v}=-\\underset{\\sim}{i}+\\sqrt3\\,\\underset{\\sim}{j}$",
+    "$\\underset{\\sim}{u}=2\\underset{\\sim}{i}+3\\underset{\\sim}{j}$ and $\\underset{\\sim}{v}=0\\underset{\\sim}{i}+3\\underset{\\sim}{j}$",
+    "$\\underset{\\sim}{u}=2\\underset{\\sim}{i}+3\\underset{\\sim}{j}$ and $\\underset{\\sim}{v}=\\underset{\\sim}{i}+7\\underset{\\sim}{j}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.4"
+   ],
+   "question": "The differential equation that best represents the slope field shown is",
+   "answer": "Slopes are zero on $x=0$ and vertical on the line $y=-x$.",
+   "options": [
+    "$\\dfrac{dy}{dx}=\\dfrac{x+y}{x}$",
+    "$\\dfrac{dy}{dx}=\\dfrac{x}{x+y}$",
+    "$\\dfrac{dy}{dx}=\\dfrac{x}{y-2}$",
+    "$\\dfrac{dy}{dx}=\\dfrac{y}{x-2}$"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/ext1-2024-hunters-hill/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.8"
+   ],
+   "question": "Let $X$ be a binomial random variable with mean $2.4$ and variance $1.68$. The values of $n$ (number of independent trials) and $p$ (probability of success in each trial) are",
+   "answer": "$1-p=\\dfrac{1.68}{2.4}=0.7$, so $p=0.3$ and $n=\\dfrac{2.4}{0.3}=8$.\n\n*Note: the paper writes this as $X\\sim\\text{Bin}(2.4,1.68)$, but these are the mean and variance, not $n$ and $p$.*",
+   "options": [
+    "$n=8,\\ p=0.3$",
+    "$n=6,\\ p=0.3$",
+    "$n=8,\\ p=0.4$",
+    "$n=6,\\ p=0.4$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.3.3"
+   ],
+   "question": "Convert the parametric equations $x=3-t^2$, $y=2t+1$ to Cartesian form, with $y$ as the subject.",
+   "answer": "$t=\\dfrac{y-1}{2}$, so $x=3-\\dfrac{(y-1)^2}{4}$, giving $(y-1)^2=4(3-x)$ and $y=1\\pm2\\sqrt{3-x}$."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Solve $\\dfrac{2}{x-1}\\ge x$.",
+   "answer": "Multiply by $(x-1)^2$ $(x\\ne1)$: $2(x-1)\\ge x(x-1)^2$, so $(x-1)(x^2-x-2)\\le0$, i.e. $(x-1)(x-2)(x+1)\\le0$.\n\n$x\\le-1$ or $1<x\\le2$."
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{dx}{5+4x^2}$.",
+   "answer": "$\\displaystyle\\frac14\\int\\frac{dx}{\\frac54+x^2}=\\frac{1}{2\\sqrt5}\\tan^{-1}\\frac{2x}{\\sqrt5}+C$."
+  },
+  {
+   "ref": "Q11(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.6"
+   ],
+   "question": "Let $\\underset{\\sim}{a}=\\begin{pmatrix}4\\\\-1\\end{pmatrix}$, $\\underset{\\sim}{b}=\\begin{pmatrix}-2\\\\-3\\end{pmatrix}$ and $\\underset{\\sim}{c}=\\begin{pmatrix}2\\\\6\\end{pmatrix}$. Find $2\\underset{\\sim}{a}-\\underset{\\sim}{c}$.",
+   "answer": "$\\begin{pmatrix}6\\\\-8\\end{pmatrix}$."
+  },
+  {
+   "ref": "Q11(d)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.7"
+   ],
+   "question": "Let $\\underset{\\sim}{a}=\\begin{pmatrix}4\\\\-1\\end{pmatrix}$, $\\underset{\\sim}{b}=\\begin{pmatrix}-2\\\\-3\\end{pmatrix}$ and $\\underset{\\sim}{c}=\\begin{pmatrix}2\\\\6\\end{pmatrix}$. Find $|\\underset{\\sim}{a}|$.",
+   "answer": "$\\sqrt{17}$."
+  },
+  {
+   "ref": "Q11(d)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.8"
+   ],
+   "question": "Let $\\underset{\\sim}{a}=\\begin{pmatrix}4\\\\-1\\end{pmatrix}$, $\\underset{\\sim}{b}=\\begin{pmatrix}-2\\\\-3\\end{pmatrix}$ and $\\underset{\\sim}{c}=\\begin{pmatrix}2\\\\6\\end{pmatrix}$. Find $\\hat{b}$, the unit vector in the direction of $\\underset{\\sim}{b}$.",
+   "answer": "$\\hat b=\\dfrac{1}{\\sqrt{13}}\\begin{pmatrix}-2\\\\-3\\end{pmatrix}$."
+  },
+  {
+   "ref": "Q11(d)(iv)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.9"
+   ],
+   "question": "Let $\\underset{\\sim}{a}=\\begin{pmatrix}4\\\\-1\\end{pmatrix}$, $\\underset{\\sim}{b}=\\begin{pmatrix}-2\\\\-3\\end{pmatrix}$ and $\\underset{\\sim}{c}=\\begin{pmatrix}2\\\\6\\end{pmatrix}$. Find $\\text{proj}_{\\underset{\\sim}{a}}\\underset{\\sim}{c}$.",
+   "answer": "$\\dfrac{\\underset{\\sim}{c}\\cdot\\underset{\\sim}{a}}{|\\underset{\\sim}{a}|^2}\\underset{\\sim}{a}=\\dfrac{2}{17}\\begin{pmatrix}4\\\\-1\\end{pmatrix}$."
+  },
+  {
+   "ref": "Q11(e)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.2.7"
+   ],
+   "question": "The graph of $f(x)=\\sin^{-1}(x-1)$ is shown. State the range of the inverse function $f^{-1}(x)$.",
+   "answer": "The range of $f^{-1}$ is the domain of $f$: $0\\le y\\le2$.",
+   "images": [
+    "assets/img/ext1-2024-hunters-hill/q11e.png"
+   ]
+  },
+  {
+   "ref": "Q11(e)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.2.12"
+   ],
+   "question": "The graph of $f(x)=\\sin^{-1}(x-1)$ is shown. How many points of intersection exist between $f(x)$ and $f^{-1}(x)$? Justify your answer.",
+   "answer": "None. $f$ is increasing, so $y=f(x)$ and $y=f^{-1}(x)$ could only meet on $y=x$. The whole graph of $f$ lies below $y=x$ (for example $f(2)=\\frac{\\pi}{2}<2$), so there are no intersections.",
+   "images": [
+    "assets/img/ext1-2024-hunters-hill/q11e.png"
+   ]
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.4"
+   ],
+   "question": "If $\\cos\\theta=-\\dfrac58$ and $\\tan\\theta<0$, determine the exact value of $\\sin\\theta$.",
+   "answer": "$\\theta$ is in the second quadrant, so $\\sin\\theta>0$: $\\sin\\theta=\\sqrt{1-\\frac{25}{64}}=\\dfrac{\\sqrt{39}}{8}$."
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.1",
+    "11.2.1.10"
+   ],
+   "question": "Let $P(x)=x^4-11x^3+24x^2+4x-32$. Show that $P(x)$ has a zero $x=2$ of multiplicity two.",
+   "answer": "$P(2)=16-88+96+8-32=0$.\n\n$P'(x)=4x^3-33x^2+48x+4$, so $P'(2)=32-132+96+4=0$.\n\nAlso $P''(2)=12(4)-66(2)+48=-36\\ne0$. So $x=2$ is a zero of multiplicity 2."
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.2",
+    "11.2.2.7"
+   ],
+   "question": "Let $P(x)=x^4-11x^3+24x^2+4x-32$. Given that $x=2$ is a double zero, use polynomial division to find the remaining zeros and hence write $P(x)$ as a product of linear factors.",
+   "answer": "Dividing by $(x-2)^2=x^2-4x+4$ gives $x^2-7x-8=(x-8)(x+1)$. So $P(x)=(x-2)^2(x-8)(x+1)$, with remaining zeros $8$ and $-1$."
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.1",
+    "11.3.2.2"
+   ],
+   "question": "Solve $\\sin\\left(x+\\dfrac{\\pi}{3}\\right)\\cos\\left(x-\\dfrac{\\pi}{3}\\right)=\\dfrac{1+\\sqrt3}{4}$ for $0\\le x\\le2\\pi$.",
+   "answer": "LHS $=\\dfrac12\\left[\\sin2x+\\sin\\dfrac{2\\pi}{3}\\right]=\\dfrac12\\sin2x+\\dfrac{\\sqrt3}{4}$, so $\\sin2x=\\dfrac12$.\n\nFor $0\\le2x\\le4\\pi$: $2x=\\dfrac{\\pi}{6},\\dfrac{5\\pi}{6},\\dfrac{13\\pi}{6},\\dfrac{17\\pi}{6}$, so $x=\\dfrac{\\pi}{12},\\dfrac{5\\pi}{12},\\dfrac{13\\pi}{12},\\dfrac{17\\pi}{12}$."
+  },
+  {
+   "ref": "Q12(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "Prove by mathematical induction that $3^{2n+1}+2^{n+2}$ is divisible by 7 for integers $n\\ge1$.",
+   "answer": "$n=1$: $27+8=35=7\\times5$.\n\nAssume $3^{2k+1}+2^{k+2}=7M$. Then\n$$3^{2k+3}+2^{k+3}=9(7M-2^{k+2})+2\\cdot2^{k+2}=7(9M-2^{k+2}),$$\nwhich is divisible by 7. By induction the result holds for all $n\\ge1$."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Using the substitution $u=\\sin^2x$, evaluate $\\displaystyle\\int_0^{\\pi/3}\\frac{\\sin2x}{\\sin^2x-1}\\,dx$.",
+   "answer": "$du=\\sin2x\\,dx$, limits $0$ to $\\frac34$: $\\displaystyle\\int_0^{3/4}\\frac{du}{u-1}=\\Big[\\ln|u-1|\\Big]_0^{3/4}=\\ln\\frac14=-2\\ln2$."
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "A spherical latex balloon is filled with helium to an initial radius of 20 cm. Helium escapes through pores in its surface so that the radius decreases at 1.6 cm h$^{-1}$. At what rate is the volume decreasing when the radius reaches 10 cm? Answer to 1 decimal place.",
+   "answer": "$\\dfrac{dV}{dt}=4\\pi r^2\\dfrac{dr}{dt}=4\\pi(100)(-1.6)\\approx-2010.6$. The volume is decreasing at $2010.6$ cm$^3$ h$^{-1}$."
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.1"
+   ],
+   "question": "A spherical latex balloon is filled with helium to an initial radius of 20 cm. Helium escapes through pores in its surface so that the radius decreases at 1.6 cm h$^{-1}$. The balloon is considered 'deflated' once its volume reaches 800 cm$^3$. How many hours does this take?",
+   "answer": "$\\frac43\\pi r^3=800\\Rightarrow r=\\sqrt[3]{600/\\pi}\\approx5.759$ cm. Since $r=20-1.6t$, $t=\\dfrac{20-5.759}{1.6}\\approx8.90$ hours (about 9 hours)."
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.16",
+    "12.5.2.7"
+   ],
+   "question": "In an old ceramic kiln the thermocouple fails at high temperatures, so the initial temperature cannot be read. Six hours after the kiln begins to cool, the temperature is $750^\\circ$C. Three hours later it is $500^\\circ$C. The temperature obeys Newton's law of cooling $\\dfrac{dT}{dt}=-k(T-A)$, where $t$ is in hours after cooling begins and the room temperature is $A=80^\\circ$C. Calculate the initial temperature of the kiln.",
+   "answer": "$T=80+Be^{-kt}$.\n\n$t=6$: $Be^{-6k}=670$. $t=9$: $Be^{-9k}=420$.\n\nDividing: $e^{3k}=\\dfrac{67}{42}$, so $k\\approx0.1557$.\n\n$B=670e^{6k}=670\\left(\\dfrac{67}{42}\\right)^2\\approx1705$.\n\nInitial temperature $T(0)=80+1705=1785^\\circ$C."
+  },
+  {
+   "ref": "Q13(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.4.3"
+   ],
+   "question": "For $\\dfrac{dy}{dx}=xy-2x$, find the gradient of the tangent to the solution curve through $(2,3)$ at that point.",
+   "answer": "$\\dfrac{dy}{dx}=2(3)-2(2)=2$."
+  },
+  {
+   "ref": "Q13(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "Find the equation of the solution curve of $\\dfrac{dy}{dx}=xy-2x$ that passes through $(2,3)$.",
+   "answer": "$\\displaystyle\\int\\frac{dy}{y-2}=\\int x\\,dx\\Rightarrow\\ln|y-2|=\\frac{x^2}{2}+C$.\n\nAt $(2,3)$: $C=-2$. Hence $y=2+e^{\\frac{x^2}{2}-2}$."
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "Find the term independent of $x$ in the expansion of $\\left(2x^2-\\dfrac3x\\right)^6$.",
+   "answer": "The general term is $\\binom6r(2x^2)^{6-r}\\left(-\\frac3x\\right)^r$, with power $12-3r=0$, so $r=4$. Term $=\\binom64(2^2)(-3)^4=4860$."
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.5.8"
+   ],
+   "question": "In a game of cornhole, a player throws a bean bag at a hole in a board inclined at $30^\\circ$ that begins 3 m from the player. With the origin $O$ where the player stands, the bag leaves the hand 1 m above $O$ at angle $\\theta^\\circ$ to the horizontal, and its position (metres, $t$ seconds after release) is $\\underset{\\sim}{r}(t)=3t\\,\\underset{\\sim}{i}+(1+5t-4.9t^2)\\underset{\\sim}{j}$. Find the speed of the bag when it leaves the player's hand.",
+   "answer": "$\\underset{\\sim}{v}=3\\underset{\\sim}{i}+(5-9.8t)\\underset{\\sim}{j}$, so at $t=0$ the speed is $\\sqrt{3^2+5^2}=\\sqrt{34}$ m s$^{-1}$.",
+   "images": [
+    "assets/img/ext1-2024-hunters-hill/q14c.png"
+   ]
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.6.5"
+   ],
+   "question": "In a game of cornhole, a player throws a bean bag at a hole in a board inclined at $30^\\circ$ that begins 3 m from the player. With the origin $O$ where the player stands, the bag leaves the hand 1 m above $O$ at angle $\\theta^\\circ$ to the horizontal, and its position (metres, $t$ seconds after release) is $\\underset{\\sim}{r}(t)=3t\\,\\underset{\\sim}{i}+(1+5t-4.9t^2)\\underset{\\sim}{j}$. Find the angle $\\theta^\\circ$.",
+   "answer": "$\\tan\\theta=\\dfrac53$, so $\\theta\\approx59.0^\\circ$.",
+   "images": [
+    "assets/img/ext1-2024-hunters-hill/q14c.png"
+   ]
+  },
+  {
+   "ref": "Q14(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.7"
+   ],
+   "question": "In a game of cornhole, a player throws a bean bag at a hole in a board inclined at $30^\\circ$ that begins 3 m from the player. With the origin $O$ where the player stands, the bag leaves the hand 1 m above $O$ at angle $\\theta^\\circ$ to the horizontal, and its position (metres, $t$ seconds after release) is $\\underset{\\sim}{r}(t)=3t\\,\\underset{\\sim}{i}+(1+5t-4.9t^2)\\underset{\\sim}{j}$. Find the maximum height above $O$ reached by the bag, correct to 1 decimal place.",
+   "answer": "$\\dot y=0$ when $t=\\dfrac{5}{9.8}$. Height $=1+\\dfrac{25}{19.6}\\approx2.3$ m.",
+   "images": [
+    "assets/img/ext1-2024-hunters-hill/q14c.png"
+   ]
+  },
+  {
+   "ref": "Q14(c)(iv)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.6.8",
+    "12.2.6.7"
+   ],
+   "question": "In a game of cornhole, a player throws a bean bag at a hole in a board inclined at $30^\\circ$ that begins 3 m from the player. With the origin $O$ where the player stands, the bag leaves the hand 1 m above $O$ at angle $\\theta^\\circ$ to the horizontal, and its position (metres, $t$ seconds after release) is $\\underset{\\sim}{r}(t)=3t\\,\\underset{\\sim}{i}+(1+5t-4.9t^2)\\underset{\\sim}{j}$. The bag lands on the board. Find the length of time it spends in the air.",
+   "answer": "The board's surface is $y=\\dfrac{x-3}{\\sqrt3}$. With $x=3t$, $y=\\sqrt3\\,t-\\sqrt3$:\n$$1+5t-4.9t^2=\\sqrt3\\,t-\\sqrt3\\Rightarrow4.9t^2+(\\sqrt3-5)t-(1+\\sqrt3)=0.$$\nTaking the positive root, $t\\approx1.15$ s.",
+   "images": [
+    "assets/img/ext1-2024-hunters-hill/q14c.png"
+   ]
+  },
+  {
+   "ref": "Q14(c)(v)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.6.8"
+   ],
+   "question": "In a game of cornhole, a player throws a bean bag at a hole in a board inclined at $30^\\circ$ that begins 3 m from the player. With the origin $O$ where the player stands, the bag leaves the hand 1 m above $O$ at angle $\\theta^\\circ$ to the horizontal, and its position (metres, $t$ seconds after release) is $\\underset{\\sim}{r}(t)=3t\\,\\underset{\\sim}{i}+(1+5t-4.9t^2)\\underset{\\sim}{j}$. The bag passes through the hole, having been in the air for $t\\approx1.151$ s. Find the distance of the hole from the bottom of the board, measured along the board.",
+   "answer": "$x=3t\\approx3.454$, so the horizontal distance along from the foot of the board is $0.454$ m. Along the board: $\\dfrac{0.454}{\\cos30^\\circ}\\approx0.52$ m.",
+   "images": [
+    "assets/img/ext1-2024-hunters-hill/q14c.png"
+   ]
+  }
+ ]
+}
