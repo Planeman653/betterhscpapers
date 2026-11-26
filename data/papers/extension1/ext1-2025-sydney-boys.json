@@ -1,0 +1,543 @@
+{
+ "id": "ext1-2025-sydney-boys",
+ "course": "extension1",
+ "school": "Sydney Boys",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": 5338,
+  "title": "Sydney Boys 2025 w. sol"
+ },
+ "indexed": "2026-11-26",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "6",
+   "reason": "Not in 2024 syllabus: pigeonhole principle"
+  },
+  {
+   "ref": "12(b)",
+   "reason": "Not in 2024 syllabus: sample proportions / normal approximation to the binomial"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.7"
+   ],
+   "question": "A 1 litre tub of ice cream is left out in the open during a lesson. Its temperature $T$ (in °C) after $t$ minutes follows Newton's law of cooling according to $T=18-18e^{-2t}$. What is its temperature after 2 minutes, to the nearest whole degree?",
+   "answer": "$T=18(1-e^{-4})\\approx17.67$, which rounds to 18°C.",
+   "options": [
+    "18°C",
+    "17°C",
+    "16°C",
+    "15°C"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "What is the angle between the vectors $\\mathbf u=\\begin{pmatrix}1\\\\2\\end{pmatrix}$ and $\\mathbf v=\\begin{pmatrix}-2\\\\4\\end{pmatrix}$?",
+   "answer": "$\\cos\\theta=\\dfrac{-2+8}{\\sqrt5\\sqrt{20}}=0.6$.",
+   "options": [
+    "$\\cos^{-1}(0.06)$",
+    "$\\cos^{-1}(0.08)$",
+    "$\\cos^{-1}(0.6)$",
+    "$\\cos^{-1}(0.8)$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.2.2"
+   ],
+   "question": "What is the remainder when $P(x)=x^3+3x^2-x+4$ is divided by $x^2+1$?",
+   "answer": "$P(x)=(x^2+1)(x+3)+(-2x+1)$.",
+   "options": [
+    "$x+3$",
+    "$x-3$",
+    "$2x+1$",
+    "$-2x+1$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "course": "extension2",
+   "dotpoints": [
+    "12.4.1.2"
+   ],
+   "question": "Simplify the expression $\\dfrac{\\sin\\theta+\\sin\\alpha}{\\cos\\theta+\\cos\\alpha}$.",
+   "answer": "With $A=\\frac{\\theta+\\alpha}2$, $B=\\frac{\\theta-\\alpha}2$: numerator $=2\\sin A\\cos B$ and denominator $=2\\cos A\\cos B$.",
+   "options": [
+    "$\\tan\\left(\\frac{\\theta+\\alpha}2\\right)$",
+    "$\\cot\\left(\\frac{\\theta+\\alpha}2\\right)$",
+    "$\\tan\\left(\\frac{\\theta-\\alpha}2\\right)$",
+    "$\\cot\\left(\\frac{\\theta-\\alpha}2\\right)$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.9",
+    "12.5.4.4"
+   ],
+   "question": "Which diagram best represents the direction field for $\\dfrac{dy}{dx}=x+e^x$?",
+   "answer": "The gradient depends only on $x$, so segments in each column are parallel (A or B). At $x=-1$ the gradient is negative, giving B.",
+   "images": [
+    "assets/img/ext1-2025-sydney-boys/q5.png"
+   ],
+   "options": [
+    "Diagram (A)",
+    "Diagram (B)",
+    "Diagram (C)",
+    "Diagram (D)"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.2.11",
+    "11.1.2.12"
+   ],
+   "question": "The function $f(x)=\\ln\\left[(x+2)^2\\right]$ has an inverse function $g=f^{-1}$ when $f$ is restricted to $x>-2$. What is the value of $g(f(x))$ when $x<-2$?",
+   "answer": "By symmetry about $x=-2$, $f(x)=f(-4-x)$ and $-4-x>-2$, so $g(f(x))=-4-x$.",
+   "options": [
+    "$x$",
+    "$x-4$",
+    "$4-x$",
+    "$-4-x$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.15",
+    "12.5.4.16"
+   ],
+   "question": "The population $P$ of animals in an environment with scarce resources satisfies $\\dfrac{dP}{dt}=P(100-P)$, where $t$ is time. The initial population is 20. Which of the following is true?",
+   "answer": "$P(100-P)$ is a concave-down quadratic in $P$ with maximum at $P=50$.",
+   "options": [
+    "$P=100-80e^{100t}$",
+    "The population is increasing most rapidly when $t=50$.",
+    "The population is increasing most rapidly when $P=50$.",
+    "The maximum population is $P=50$."
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "What is the coefficient of $x$ in $\\left(x-\\dfrac{2}{x^2}\\right)^7$?",
+   "answer": "The general term has power $x^{7-3r}$, so $r=2$: $\\binom72(-2)^2=84$.",
+   "options": [
+    "84",
+    "−84",
+    "280",
+    "−280"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.5.1.3",
+    "11.4.1.17"
+   ],
+   "question": "What is the coefficient of $x^{293}$ in the expansion of $(x-1)(x^2-2)(x^3-3)\\cdots(x^{24}-24)$?",
+   "answer": "The total degree is 300, so constants are taken from brackets whose degrees sum to 7: $\\{7\\},\\{1,6\\},\\{2,5\\},\\{3,4\\},\\{1,2,4\\}$ give $-7+6+10+12-8=13$.",
+   "options": [
+    "−7",
+    "13",
+    "20",
+    "28"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "11(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.4.3"
+   ],
+   "question": "What values of $t$ satisfy $|1-t|>3$?",
+   "answer": "$|t-1|>3$, so $t<-2$ or $t>4$."
+  },
+  {
+   "ref": "11(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "Let $\\alpha,\\beta,\\gamma$ be the roots of $-2x^3-4x^2-9x+6=0$. Find the value of $\\dfrac1\\alpha+\\dfrac1\\beta+\\dfrac1\\gamma$.",
+   "answer": "$\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha=\\frac92$ and $\\alpha\\beta\\gamma=3$, so $\\dfrac1\\alpha+\\dfrac1\\beta+\\dfrac1\\gamma=\\dfrac{9/2}{3}=\\dfrac32$."
+  },
+  {
+   "ref": "11(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "Let $\\alpha,\\beta,\\gamma$ be the roots of $-2x^3-4x^2-9x+6=0$. Find the value of $\\alpha^2+\\beta^2+\\gamma^2$.",
+   "answer": "$\\sum\\alpha=-2$ and $\\sum\\alpha\\beta=\\frac92$, so $\\alpha^2+\\beta^2+\\gamma^2=(-2)^2-2\\cdot\\frac92=-5$."
+  },
+  {
+   "ref": "11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.3"
+   ],
+   "question": "Solve $\\sin\\theta+\\cos\\theta=-1$ for $0\\le\\theta\\le2\\pi$.",
+   "answer": "$\\sqrt2\\sin\\left(\\theta+\\frac\\pi4\\right)=-1$, so $\\theta+\\frac\\pi4=\\frac{5\\pi}4$ or $\\frac{7\\pi}4$. Hence $\\theta=\\pi$ or $\\dfrac{3\\pi}2$."
+  },
+  {
+   "ref": "11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.4.2",
+    "11.1.4.1"
+   ],
+   "question": "Solve $\\dfrac{1+x}{x}\\ge2x+1$ for $x$.",
+   "answer": "$x\\ne0$. Multiply by $x^2>0$: $x(1+x)\\ge x^2(2x+1)$, so $x(2x^2-1)\\le0$.\n\nFrom the sign of the cubic, $x\\le-\\dfrac1{\\sqrt2}$ or $0<x\\le\\dfrac1{\\sqrt2}$."
+  },
+  {
+   "ref": "11(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Use the substitution $u=x+1$ to evaluate $\\displaystyle\\int_0^3\\frac{x-2}{(x+1)\\sqrt{x+1}}\\,dx$.",
+   "answer": "$\\displaystyle\\int_1^4\\frac{u-3}{u^{3/2}}\\,du=\\int_1^4\\left(u^{-1/2}-3u^{-3/2}\\right)du=\\Big[2\\sqrt u+\\frac6{\\sqrt u}\\Big]_1^4=7-8=-1$."
+  },
+  {
+   "ref": "11(f)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.3",
+    "12.4.2.3"
+   ],
+   "question": "Find the volume of the solid formed when the region bounded by $y=\\sin2x$ and the $x$-axis between $x=\\dfrac\\pi4$ and $x=\\dfrac\\pi3$ is rotated about the $x$-axis.",
+   "answer": "$V=\\pi\\displaystyle\\int_{\\pi/4}^{\\pi/3}\\sin^22x\\,dx=\\frac\\pi2\\Big[x-\\tfrac14\\sin4x\\Big]_{\\pi/4}^{\\pi/3}=\\frac\\pi2\\left(\\frac\\pi{12}+\\frac{\\sqrt3}8\\right)=\\frac{\\pi^2}{24}+\\frac{\\sqrt3\\pi}{16}$ cubic units."
+  },
+  {
+   "ref": "12(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Prove by mathematical induction that for all positive integers $n$, $\\dfrac1{2!}+\\dfrac2{3!}+\\dfrac3{4!}+\\cdots+\\dfrac{n}{(n+1)!}=1-\\dfrac1{(n+1)!}$.",
+   "answer": "**$n=1$:** LHS $=\\frac12$, RHS $=1-\\frac12=\\frac12$.\n\n**Assume** true for $n=k$.\n\n**$n=k+1$:**\n$$\\text{LHS}=1-\\frac1{(k+1)!}+\\frac{k+1}{(k+2)!}=1-\\frac{(k+2)-(k+1)}{(k+2)!}=1-\\frac1{(k+2)!}.$$\n\nSo the result holds for $n=k+1$, and by induction for all positive integers $n$."
+  },
+  {
+   "ref": "12(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.1.3"
+   ],
+   "question": "The diagram shows the graph of $y=f(x)$. The line $y=x$ is an asymptote, and there are vertical asymptotes at the $y$-axis and at a line $x=a$ where $a<0$. Sketch $y=f(|x|)$, showing all relevant information.",
+   "answer": "Keep the part of the graph with $x>0$ and reflect it in the $y$-axis (discard the original part with $x<0$). The result is even, with vertical asymptote $x=0$ and oblique asymptotes $y=x$ (right) and $y=-x$ (left). The curve passes through $(\\pm1,1)$ and has a minimum on each side.",
+   "images": [
+    "assets/img/ext1-2025-sydney-boys/q12c.png"
+   ],
+   "answer_images": [
+    "assets/img/ext1-2025-sydney-boys/ans12ci.png"
+   ]
+  },
+  {
+   "ref": "12(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.4",
+    "11.1.1.6"
+   ],
+   "question": "The diagram shows the graph of $y=f(x)$. The line $y=x$ is an asymptote, and there are vertical asymptotes at the $y$-axis and at a line $x=a$ where $a<0$. Sketch $y=f(x)-x$, showing all relevant information.",
+   "answer": "Subtract the ordinates of $y=x$ from $y=f(x)$.\n- The oblique asymptote becomes the horizontal asymptote $y=0$; the vertical asymptotes $x=a$ and $x=0$ remain.\n- **$x<a$:** $f(x)$ is above $y=x$, so the curve is positive, rising from near 0 towards $+\\infty$.\n- **$a<x<0$:** the curve goes to $-\\infty$ at both ends, with a positive maximum between and two zeros (where $f(x)$ meets $y=x$).\n- **$x>0$:** it falls from $+\\infty$, crosses zero at $x=1$, reaches a negative minimum and approaches 0 from below.",
+   "images": [
+    "assets/img/ext1-2025-sydney-boys/q12c.png"
+   ],
+   "answer_images": [
+    "assets/img/ext1-2025-sydney-boys/ans12cii.png"
+   ]
+  },
+  {
+   "ref": "12(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.5.4",
+    "11.3.2.4"
+   ],
+   "question": "A particle moves on the time interval $0\\le t\\le T$ according to $\\mathbf r(t)=\\begin{pmatrix}1\\\\2\\end{pmatrix}+4\\sin t\\begin{pmatrix}\\sin t\\\\-\\cos t\\end{pmatrix}$. Prove the particle moves on a circle, stating its centre and radius.",
+   "answer": "$\\mathbf r=\\begin{pmatrix}1+4\\sin^2t\\\\2-4\\sin t\\cos t\\end{pmatrix}=\\begin{pmatrix}3-2\\cos2t\\\\2-2\\sin2t\\end{pmatrix}$. So $(x-3)^2+(y-2)^2=4\\cos^22t+4\\sin^22t=4$: a circle with centre $(3,2)$ and radius 2."
+  },
+  {
+   "ref": "12(d)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.5.2"
+   ],
+   "question": "A particle moves on the time interval $0\\le t\\le T$ according to $\\mathbf r(t)=\\begin{pmatrix}1\\\\2\\end{pmatrix}+4\\sin t\\begin{pmatrix}\\sin t\\\\-\\cos t\\end{pmatrix}$. The path is a circle. The particle completes exactly 3 revolutions before stopping. Find $T$.",
+   "answer": "$\\mathbf r=(3-2\\cos2t,\\ 2-2\\sin2t)$ completes one revolution every $\\pi$ units of time, so $T=3\\pi$."
+  },
+  {
+   "ref": "12(d)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.5.8",
+    "12.2.4.7"
+   ],
+   "question": "A particle moves on the time interval $0\\le t\\le T$ according to $\\mathbf r(t)=\\begin{pmatrix}1\\\\2\\end{pmatrix}+4\\sin t\\begin{pmatrix}\\sin t\\\\-\\cos t\\end{pmatrix}$. Prove that the acceleration is always perpendicular to the velocity.",
+   "answer": "$\\mathbf v=(4\\sin2t,\\,-4\\cos2t)$ and $\\mathbf a=(8\\cos2t,\\,8\\sin2t)$. $\\mathbf v\\cdot\\mathbf a=32\\sin2t\\cos2t-32\\cos2t\\sin2t=0$, so $\\mathbf a\\perp\\mathbf v$."
+  },
+  {
+   "ref": "12(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "Find $f(x)$ if it satisfies $\\displaystyle\\int x^3[f(x)]^2\\,dx=f(x)-x^4+C$.",
+   "answer": "Differentiating: $x^3f^2=f'-4x^3$, so $f'(x)=x^3\\left(f^2+4\\right)$. With $y=f(x)$,\n$$\\int\\frac{dy}{y^2+4}=\\int x^3\\,dx\\implies\\frac12\\tan^{-1}\\frac y2=\\frac{x^4}4+D,$$\nso $f(x)=2\\tan\\left(\\dfrac{x^4}{2}+K\\right)$ for a constant $K$.\n\n*Note: the school's final line gives $2\\tan\\left(\\frac14x^4+K\\right)$; the coefficient should be $\\frac12$.*"
+  },
+  {
+   "ref": "13(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "A tank $L$ metres long has a semicircular cross-section of radius 2 m. The ends are glass and the curved section is copper. The depth of water is $h$ metres and its volume is $V$ m³ at $t$ minutes. Show that $V=\\left[4\\cos^{-1}\\left(\\dfrac{2-h}{2}\\right)+(h-2)\\sqrt{h(4-h)}\\right]L$.",
+   "answer": "The water's cross-section is a circular segment. Let $\\theta$ be the angle at the centre between the vertical and a radius to the water's edge: $\\cos\\theta=\\frac{2-h}{2}$. The half-width of the surface is $\\sqrt{4-(2-h)^2}=\\sqrt{h(4-h)}$.\n\nSegment area $=$ sector $-$ triangle $=\\frac12(2^2)(2\\theta)-(2-h)\\sqrt{h(4-h)}$.\n\nMultiplying by $L$ gives the stated expression for $V$.",
+   "images": [
+    "assets/img/ext1-2025-sydney-boys/q13a.png"
+   ]
+  },
+  {
+   "ref": "13(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "A tank $L$ metres long has a semicircular cross-section of radius 2 m. The ends are glass and the curved section is copper. The depth of water is $h$ metres and its volume is $V$ m³ at $t$ minutes. Show that the area of copper touching the water is $A=4L\\cos^{-1}\\left(1-\\dfrac h2\\right)$.",
+   "answer": "The wetted arc subtends $2\\theta$ with $\\cos\\theta=1-\\frac h2$, so its length is $2(2\\theta)=4\\theta$. Hence $A=4\\theta L=4L\\cos^{-1}\\left(1-\\frac h2\\right)$.",
+   "images": [
+    "assets/img/ext1-2025-sydney-boys/q13a.png"
+   ]
+  },
+  {
+   "ref": "13(a)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.5.2.2",
+    "12.4.1.7"
+   ],
+   "question": "A tank $L$ metres long has a semicircular cross-section of radius 2 m. The ends are glass and the curved section is copper. The depth of water is $h$ metres and its volume is $V$ m³ at $t$ minutes. The volume is $V=\\left[4\\cos^{-1}\\left(\\dfrac{2-h}{2}\\right)+(h-2)\\sqrt{h(4-h)}\\right]L$ and the wetted copper area is $A=4L\\cos^{-1}\\left(1-\\dfrac h2\\right)$. The water evaporates so that $\\dfrac{dV}{dt}=-k\\dfrac{dA}{dt}\\left(\\dfrac{dh}{dt}\\right)^{-1}$. Prove that $\\dfrac{dh}{dt}=\\dfrac{2k}{h^2-4h}$.",
+   "answer": "Since $\\dfrac{dA}{dt}\\left(\\dfrac{dh}{dt}\\right)^{-1}=\\dfrac{dA}{dh}$, we have $\\dfrac{dV}{dt}=-k\\dfrac{dA}{dh}$.\n\nDifferentiating:\n$$\\frac{dA}{dh}=\\frac{4L}{\\sqrt{4h-h^2}},$$\n$$\\frac{dV}{dh}=L\\left[\\frac{4}{\\sqrt{4h-h^2}}+\\sqrt{4h-h^2}-\\frac{(h-2)^2}{\\sqrt{4h-h^2}}\\right]=2L\\sqrt{4h-h^2}.$$\nThen\n$$\\frac{dh}{dt}=\\frac{dV/dt}{dV/dh}=\\frac{-4kL}{\\sqrt{4h-h^2}\\cdot2L\\sqrt{4h-h^2}}=\\frac{2k}{h^2-4h}.$$",
+   "images": [
+    "assets/img/ext1-2025-sydney-boys/q13a.png"
+   ]
+  },
+  {
+   "ref": "13(a)(iv)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.11"
+   ],
+   "question": "The depth $h$ metres of water in a tank satisfies $\\dfrac{dh}{dt}=\\dfrac{2k}{h^2-4h}$ ($t$ in minutes). Initially the tank is full, with $h=2$. After 3 minutes the depth has halved. How much longer will it take for the tank to be completely dry?",
+   "answer": "$\\displaystyle\\int_2^h(h^2-4h)\\,dh=2kt$ gives $\\dfrac{h^3}3-2h^2+\\dfrac{16}3=2kt$.\n\nAt $t=3$, $h=1$: $\\frac{11}{3}=6k$, so $k=\\frac{11}{18}$.\n\nAt $h=0$: $\\frac{16}3=\\frac{11}{9}t$, so $t=\\frac{48}{11}$. It takes a further $\\dfrac{48}{11}-3=\\dfrac{15}{11}$ minutes."
+  },
+  {
+   "ref": "13(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.1.7"
+   ],
+   "question": "A physics classroom has 4 double desks (8 chairs) at the front, as shown. Five students, Taf, Jon, Lou, Ale and Bhu, seat themselves randomly. Find the total number of ways they can sit.",
+   "answer": "${}^8P_5=6720$.",
+   "images": [
+    "assets/img/ext1-2025-sydney-boys/q13b.png"
+   ]
+  },
+  {
+   "ref": "13(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.4.1.19"
+   ],
+   "question": "A physics classroom has 4 double desks (8 chairs) at the front, as shown. Five students, Taf, Jon, Lou, Ale and Bhu, seat themselves randomly. Given that Bhu sits on his own at a desk, find the probability that Jon and Lou share a double desk while Taf and Ale share another.",
+   "answer": "**Sample space** (Bhu alone): Bhu has 8 seats; the other four fill 4 of the remaining 6 seats (not his desk partner's): $8\\times\\binom64\\times4!=2880$.\n\n**Favourable:** Jon–Lou: $4\\times2!$; Taf–Ale: $3\\times2!$; Bhu: any of the $4$ seats at the other two desks. Total $192$.\n\nProbability $=\\dfrac{192}{2880}=\\dfrac1{15}$.",
+   "images": [
+    "assets/img/ext1-2025-sydney-boys/q13b.png"
+   ]
+  },
+  {
+   "ref": "13(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.2"
+   ],
+   "question": "Explain why $\\sin\\theta=\\sin2\\theta\\cos\\theta-\\sin\\theta\\cos2\\theta$.",
+   "answer": "$\\sin\\theta=\\sin(2\\theta-\\theta)=\\sin2\\theta\\cos\\theta-\\cos2\\theta\\sin\\theta$ by the compound angle formula."
+  },
+  {
+   "ref": "13(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.3.2.2"
+   ],
+   "question": "Using $\\sin\\theta=\\sin2\\theta\\cos\\theta-\\sin\\theta\\cos2\\theta$, prove that for positive integers $n$, $\\displaystyle\\sum_{k=0}^n\\tan(2^kx)\\sec(2^{k+1}x)=\\tan(2^{n+1}x)-\\tan x$.",
+   "answer": "With $\\theta=2^kx$,\n$$\\tan\\theta\\sec2\\theta=\\frac{\\sin\\theta}{\\cos\\theta\\cos2\\theta}=\\frac{\\sin2\\theta\\cos\\theta-\\sin\\theta\\cos2\\theta}{\\cos\\theta\\cos2\\theta}=\\tan2\\theta-\\tan\\theta.$$\nSo each term is $\\tan(2^{k+1}x)-\\tan(2^kx)$. The sum telescopes:\n$$(\\tan2x-\\tan x)+(\\tan4x-\\tan2x)+\\cdots+(\\tan2^{n+1}x-\\tan2^nx)=\\tan(2^{n+1}x)-\\tan x.$$"
+  },
+  {
+   "ref": "14(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "A solution to $\\dfrac{dy}{dx}=\\dfrac{x}{\\tan y\\,(x^2+1)}$, where $x\\ge0$ and $-\\dfrac\\pi2<y<0$, passes through $\\left(1,-\\dfrac\\pi4\\right)$. Determine this solution in the simplified form $x=f(y)$.",
+   "answer": "$\\displaystyle\\int\\tan y\\,dy=\\int\\frac{x}{x^2+1}\\,dx$ gives $-\\ln(\\cos y)=\\frac12\\ln(x^2+1)+C$.\n\nAt $\\left(1,-\\frac\\pi4\\right)$: $\\frac12\\ln2=\\frac12\\ln2+C$, so $C=0$. Then $x^2+1=\\sec^2y$, so $x^2=\\tan^2y$.\n\nSince $x\\ge0$ and $\\tan y<0$: $x=-\\tan y$."
+  },
+  {
+   "ref": "14(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.8"
+   ],
+   "question": "Find the unit vector $\\hat{\\mathbf u}$ where $\\mathbf u=\\begin{pmatrix}3\\\\-5\\end{pmatrix}$.",
+   "answer": "$\\hat{\\mathbf u}=\\dfrac1{\\sqrt{34}}\\begin{pmatrix}3\\\\-5\\end{pmatrix}$."
+  },
+  {
+   "ref": "14(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.8"
+   ],
+   "question": "Using vector methods, find the point on the circle $(x-2)^2+(y-2)^2=2$ that is closest to the circle $(x-5)^2+(y+3)^2=6$.",
+   "answer": "The centres are $(2,2)$ and $(5,-3)$, a distance $\\sqrt{34}>\\sqrt2+\\sqrt6$ apart, so the circles are separate. The closest point lies from $(2,2)$ towards $(5,-3)$, a distance $\\sqrt2$:\n$$\\begin{pmatrix}2\\\\2\\end{pmatrix}+\\frac{\\sqrt2}{\\sqrt{34}}\\begin{pmatrix}3\\\\-5\\end{pmatrix}=\\begin{pmatrix}2+\\frac{3}{\\sqrt{17}}\\\\2-\\frac{5}{\\sqrt{17}}\\end{pmatrix}.$$"
+  },
+  {
+   "ref": "14(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "11.5.1.9"
+   ],
+   "question": "Let $S=(1+x)^{1000}+2x(1+x)^{999}+3x^2(1+x)^{998}+\\cdots+1001x^{1000}$. By considering $\\left(\\dfrac{x}{1+x}\\right)S$, or otherwise, find the coefficient of $x^{50}$.",
+   "answer": "$$\\frac{x}{1+x}S=x(1+x)^{999}+2x^2(1+x)^{998}+\\cdots+1000x^{1000}+\\frac{1001x^{1001}}{1+x}.$$\nSubtracting from $S$, with $S-\\frac{x}{1+x}S=\\frac{S}{1+x}$:\n$$\\frac{S}{1+x}=(1+x)^{1000}+x(1+x)^{999}+\\cdots+x^{1000}-\\frac{1001x^{1001}}{1+x}.$$\nMultiply by $1+x$. The geometric series has sum\n$$(1+x)\\sum_{k=0}^{1000}x^k(1+x)^{1000-k}=(1+x)\\left[(1+x)^{1001}-x^{1001}\\right],$$\nso\n$$S=(1+x)^{1002}-x^{1001}(1+x)-1001x^{1001}=(1+x)^{1002}-1002x^{1001}-x^{1002}.$$\nThe coefficient of $x^{50}$ is $\\dbinom{1002}{50}$."
+  },
+  {
+   "ref": "14(d)(i)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.2.6.8",
+    "12.2.6.3"
+   ],
+   "question": "Projectiles $P_1$ and $P_2$ are launched at the same instant from the origin $O$ and from $C(D,H)$ respectively, both with speed $V$ m/s and each aimed directly at a chosen point $E(m,k)$, where $O$, $E$ and $C$ are not collinear. The particles hit each other. Their initial velocities make angles $\\theta$ and $\\alpha$ with the horizontal ($P_2$ travels leftwards and downwards). A particle launched from $(r,h)$ with speed $U$ at angle $\\phi$ has $\\mathbf r(t)=(Ut\\cos\\phi+r)\\mathbf i+\\left(Ut\\sin\\phi-\\tfrac12gt^2+h\\right)\\mathbf j$ (do not prove this). Prove, using the position vector of each particle, that $E$ is equidistant from $O$ and $C$.",
+   "answer": "$$\\mathbf r_1(t)=\\begin{pmatrix}Vt\\cos\\theta\\\\Vt\\sin\\theta-\\frac12gt^2\\end{pmatrix},\\qquad\\mathbf r_2(t)=\\begin{pmatrix}D-Vt\\cos\\alpha\\\\H-Vt\\sin\\alpha-\\frac12gt^2\\end{pmatrix}.$$\nThey collide at some time $T>0$, so $\\mathbf r_1(T)=\\mathbf r_2(T)$. The gravity terms cancel, leaving\n$$VT\\begin{pmatrix}\\cos\\theta\\\\\\sin\\theta\\end{pmatrix}=\\begin{pmatrix}D\\\\H\\end{pmatrix}-VT\\begin{pmatrix}\\cos\\alpha\\\\\\sin\\alpha\\end{pmatrix}.$$\nCall this point $Q$. The left side shows $Q$ is on the ray from $O$ in the direction $\\theta$, i.e. the ray $OE$, with $OQ=VT$. The right side shows $Q$ is on the ray $CE$ with $CQ=VT$.\n\nSince $O$, $E$, $C$ are not collinear, the lines $OE$ and $CE$ meet only at $E$. So $Q=E$ and $OE=VT=CE$.\n\n*Note: the non-collinear condition is necessary (if $E$ is on segment $OC$, the particles meet midway whatever $E$ is), but the exam paper omits it and the school's solution claims the result holds even then.*",
+   "images": [
+    "assets/img/ext1-2025-sydney-boys/q14d.png"
+   ]
+  },
+  {
+   "ref": "14(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.6.8"
+   ],
+   "question": "Projectiles $P_1$ and $P_2$ are launched at the same instant from the origin $O$ and from $C(D,H)$ respectively, both with speed $V$ m/s and each aimed directly at a chosen point $E(m,k)$, where $O$, $E$ and $C$ are not collinear. The particles hit each other. Their initial velocities make angles $\\theta$ and $\\alpha$ with the horizontal ($P_2$ travels leftwards and downwards). A particle launched from $(r,h)$ with speed $U$ at angle $\\phi$ has $\\mathbf r(t)=(Ut\\cos\\phi+r)\\mathbf i+\\left(Ut\\sin\\phi-\\tfrac12gt^2+h\\right)\\mathbf j$ (do not prove this). Hence prove that the time to impact is $t=\\dfrac{\\sqrt{m^2+k^2}}{V}$.",
+   "answer": "At impact, $T$ satisfies $\\mathbf r_1(T)=\\mathbf r_2(T)$, and from part (i) $OE=VT$. Since $OE=\\sqrt{m^2+k^2}$, $T=\\dfrac{\\sqrt{m^2+k^2}}{V}$.",
+   "images": [
+    "assets/img/ext1-2025-sydney-boys/q14d.png"
+   ]
+  }
+ ]
+}
