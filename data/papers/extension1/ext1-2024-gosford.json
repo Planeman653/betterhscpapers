@@ -1,0 +1,493 @@
+{
+ "id": "ext1-2024-gosford",
+ "course": "extension1",
+ "school": "Gosford",
+ "year": 2024,
+ "type": "Trial",
+ "thsc": {
+  "viewno": 5338,
+  "title": "Gosford 2024 w. sol"
+ },
+ "indexed": "2026-11-27",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^{\\frac13}\\frac{1}{\\sqrt{1-9x^2}}\\,dx$.",
+   "answer": "$\\frac13\\left[\\sin^{-1}3x\\right]_0^{1/3}=\\frac13\\cdot\\frac\\pi2=\\frac\\pi6$.",
+   "options": [
+    "$\\dfrac\\pi2$",
+    "$\\dfrac\\pi3$",
+    "$\\dfrac\\pi6$",
+    "$\\dfrac\\pi4$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.4.7"
+   ],
+   "question": "Which of the following pairs of vectors are perpendicular?",
+   "answer": "For D, $\\underset{\\sim}{u}\\cdot\\underset{\\sim}{v}=14\\cdot\\frac12+1\\cdot(-7)=0$.",
+   "options": [
+    "$\\underset{\\sim}{u}=3\\underset{\\sim}{i}-7\\underset{\\sim}{j},\\ \\underset{\\sim}{v}=\\frac73\\underset{\\sim}{i}-\\underset{\\sim}{j}$",
+    "$\\underset{\\sim}{u}=\\frac25\\underset{\\sim}{i}-2\\underset{\\sim}{j},\\ \\underset{\\sim}{v}=5\\underset{\\sim}{i}+3\\underset{\\sim}{j}$",
+    "$\\underset{\\sim}{u}=\\frac92\\underset{\\sim}{i}+\\frac72\\underset{\\sim}{j},\\ \\underset{\\sim}{v}=-9\\underset{\\sim}{i}-\\frac17\\underset{\\sim}{j}$",
+    "$\\underset{\\sim}{u}=14\\underset{\\sim}{i}+\\underset{\\sim}{j},\\ \\underset{\\sim}{v}=\\frac12\\underset{\\sim}{i}-7\\underset{\\sim}{j}$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "Consider the differential equation $\\dfrac{dy}{dx}=xy$. Which of the following equations best represents this relationship between $x$ and $y$?",
+   "answer": "$\\int\\frac{dy}{y}=\\int x\\,dx\\Rightarrow\\ln|y|=\\frac{x^2}{2}+c$, so $y=Ae^{x^2/2}$.",
+   "options": [
+    "$y=Ae^{\\frac{x^2}{2}}$",
+    "$y=Ae^x$",
+    "$y=\\log_e|x|+c$",
+    "$y=\\log_e\\left|\\dfrac{x^2}{2}+c\\right|$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "The acute angle between the vectors $\\underset{\\sim}{u}=\\begin{pmatrix}\\sqrt5\\\\3\\end{pmatrix}$ and $\\underset{\\sim}{v}=\\begin{pmatrix}6\\\\\\sqrt{14}\\end{pmatrix}$ is (to the nearest degree):",
+   "answer": "$\\cos\\theta=\\dfrac{6\\sqrt5+3\\sqrt{14}}{\\sqrt{14}\\sqrt{50}}\\approx0.931$, so $\\theta\\approx21^\\circ$.",
+   "options": [
+    "$21^\\circ$",
+    "$88^\\circ$",
+    "$159^\\circ$",
+    "$92^\\circ$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.2"
+   ],
+   "question": "If $3\\sin x+\\sqrt3\\cos x$ is expressed in the form $A\\sin(x+\\alpha)$, then the values of $A$ and $\\alpha$ are:",
+   "answer": "$A=\\sqrt{9+3}=2\\sqrt3$ and $\\tan\\alpha=\\frac{\\sqrt3}{3}$, so $\\alpha=\\frac\\pi6$.",
+   "options": [
+    "$A=2,\\ \\alpha=\\frac\\pi6$",
+    "$A=2,\\ \\alpha=\\frac\\pi3$",
+    "$A=2\\sqrt3,\\ \\alpha=\\frac\\pi6$",
+    "$A=2\\sqrt3,\\ \\alpha=\\frac\\pi3$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.9"
+   ],
+   "question": "Which of the slope fields shown represents $\\dfrac{dy}{dx}=\\dfrac{y^2+6}{x^2-4}$?",
+   "answer": "$y^2+6>0$, so gradients are negative for $|x|<2$ and positive for $|x|>2$, becoming vertical near $x=\\pm2$ and steeper as $|y|$ grows. This is D.",
+   "options": [
+    "Slope field A",
+    "Slope field B",
+    "Slope field C",
+    "Slope field D"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/ext1-2024-gosford/q6.png"
+   ]
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.11"
+   ],
+   "question": "8 adults and 4 children need to be seated at a circular table. How many arrangements exist if the children must sit together?",
+   "answer": "Treat the children as one block: 9 objects in a circle give $8!$, times $4!$ inside the block: $967\\,680$.",
+   "options": [
+    "8709120",
+    "967680",
+    "362880",
+    "120960"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "What is the term independent of $x$ in the expansion of $\\left(x^3+\\dfrac{3}{x^2}\\right)^{20}$?",
+   "answer": "The term in $3^k$ has power $x^{60-5k}$, so $k=12$: $\\binom{20}{12}3^{12}=\\binom{20}{8}3^{12}$.",
+   "options": [
+    "$\\binom{20}{8}3^8$",
+    "$\\binom{20}{8}3^{12}$",
+    "$\\binom{20}{12}3^8$",
+    "$\\binom{20}{14}3^6$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.3"
+   ],
+   "question": "Find the exact value of the area under the curve $f(x)=\\sin^2x+1$ between $x=0$ and $x=\\dfrac{\\pi}{12}$.",
+   "answer": "$\\int_0^{\\pi/12}\\left(\\frac32-\\frac12\\cos2x\\right)dx=\\left[\\frac{3x}{2}-\\frac{\\sin2x}{4}\\right]_0^{\\pi/12}=\\frac{\\pi-1}{8}$.",
+   "options": [
+    "$\\dfrac{\\pi-3\\sqrt3}{8}$",
+    "$\\dfrac{\\pi-1}{4}$",
+    "$\\dfrac{\\pi-1}{8}$",
+    "$\\dfrac{\\pi-3\\sqrt3}{4}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.2"
+   ],
+   "question": "When the polynomial $p(x)$ is divided by $x^2-x-2$, the remainder is $-\\dfrac13x+\\dfrac{11}{3}$. What is the remainder when $p(x)$ is divided by $x-2$?",
+   "answer": "$p(x)=(x-2)(x+1)Q(x)-\\frac13x+\\frac{11}3$, so $p(2)=-\\frac23+\\frac{11}{3}=3$.",
+   "options": [
+    "$3$",
+    "$-3$",
+    "$4$",
+    "$-4$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.4.9"
+   ],
+   "question": "Consider the vectors $\\underset{\\sim}{u}=2\\underset{\\sim}{i}+5\\underset{\\sim}{j}$ and $\\underset{\\sim}{v}=7\\underset{\\sim}{i}-8\\underset{\\sim}{j}$. Find $\\operatorname{proj}_{\\underset{\\sim}{u}}\\underset{\\sim}{v}$.",
+   "answer": "$$\\operatorname{proj}_{\\underset{\\sim}{u}}\\underset{\\sim}{v}=\\frac{\\underset{\\sim}{v}\\cdot\\underset{\\sim}{u}}{\\underset{\\sim}{u}\\cdot\\underset{\\sim}{u}}\\underset{\\sim}{u}=\\frac{14-40}{29}\\underset{\\sim}{u}=-\\frac{26}{29}\\left(2\\underset{\\sim}{i}+5\\underset{\\sim}{j}\\right)$$"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Solve the inequality $\\dfrac{2x+1}{x-2}\\ge1$.",
+   "answer": "Multiply by $(x-2)^2$, $x\\ne2$:\n$$(x-2)(2x+1)\\ge(x-2)^2\\ \\Rightarrow\\ (x-2)(x+3)\\ge0$$\nSo $x\\le-3$ or $x>2$."
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.6",
+    "11.3.2.4"
+   ],
+   "question": "Show that $\\cos\\left[2\\tan^{-1}\\left(\\dfrac{3}{\\sqrt{55}}\\right)\\right]=\\dfrac{23}{32}$.",
+   "answer": "Let $\\alpha=\\tan^{-1}\\dfrac{3}{\\sqrt{55}}$. The right triangle with legs $3$ and $\\sqrt{55}$ has hypotenuse $8$, so $\\cos\\alpha=\\frac{\\sqrt{55}}8$, $\\sin\\alpha=\\frac38$.\n$$\\cos2\\alpha=\\cos^2\\alpha-\\sin^2\\alpha=\\frac{55}{64}-\\frac{9}{64}=\\frac{23}{32}$$"
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Use the substitution $x=u-2$ to evaluate $\\displaystyle\\int_{-1}^2\\frac{3x+5}{\\sqrt{x+2}}\\,dx$.",
+   "answer": "$u=x+2$, $du=dx$; limits $1$ to $4$.\n$$\\int_1^4\\frac{3u-1}{\\sqrt u}\\,du=\\int_1^4\\left(3u^{\\frac12}-u^{-\\frac12}\\right)du=\\left[2u^{\\frac32}-2u^{\\frac12}\\right]_1^4=12-0=12$$"
+  },
+  {
+   "ref": "Q11(e)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "The polynomial equation $4x^3+3x^2-2x+5=0$ has roots $\\alpha,\\beta,\\gamma$. Find $\\dfrac1\\alpha+\\dfrac1\\beta+\\dfrac1\\gamma$.",
+   "answer": "$\\alpha\\beta+\\alpha\\gamma+\\beta\\gamma=-\\frac12$ and $\\alpha\\beta\\gamma=-\\frac54$, so$$\\frac1\\alpha+\\frac1\\beta+\\frac1\\gamma=\\frac{\\alpha\\beta+\\alpha\\gamma+\\beta\\gamma}{\\alpha\\beta\\gamma}=\\frac25$$"
+  },
+  {
+   "ref": "Q11(e)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "The polynomial equation $4x^3+3x^2-2x+5=0$ has roots $\\alpha,\\beta,\\gamma$. Find $\\alpha^2\\beta+\\alpha\\beta^2+\\alpha\\gamma^2+\\alpha^2\\gamma+\\beta^2\\gamma+\\beta\\gamma^2$.",
+   "answer": "$\\sum\\alpha=-\\frac34$, $\\sum\\alpha\\beta=-\\frac12$, $\\alpha\\beta\\gamma=-\\frac54$.\nThe expression equals $\\left(\\sum\\alpha\\right)\\left(\\sum\\alpha\\beta\\right)-3\\alpha\\beta\\gamma$:\n$$=\\left(-\\tfrac34\\right)\\left(-\\tfrac12\\right)-3\\left(-\\tfrac54\\right)=\\frac{33}{8}$$"
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.4.10",
+    "12.4.2.1"
+   ],
+   "question": "Given that $\\dfrac{dy}{dx}=\\dfrac{1}{1+x^2}$ and $x=1$ when $y=0$, find $y$ when $x=\\sqrt3$.",
+   "answer": "$y=\\tan^{-1}x+c$ and $c=-\\frac\\pi4$. At $x=\\sqrt3$: $y=\\frac\\pi3-\\frac\\pi4=\\frac{\\pi}{12}$."
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "The diagram shows the graph of $y=\\sin^{-1}2x$. The shaded area is bounded by the curve, the $y$-axis and the line $y=\\dfrac\\pi2$. Find the shaded area.",
+   "answer": "$x=\\frac12\\sin y$:$$A=\\int_0^{\\pi/2}\\tfrac12\\sin y\\,dy=\\left[-\\tfrac12\\cos y\\right]_0^{\\pi/2}=\\frac12\\text{ units}^2$$",
+   "images": [
+    "assets/img/ext1-2024-gosford/q12b.png"
+   ]
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3",
+    "12.4.2.3"
+   ],
+   "question": "The diagram shows the graph of $y=\\sin^{-1}2x$. The shaded area is bounded by the curve, the $y$-axis and the line $y=\\dfrac\\pi2$. If this area is rotated about the $y$-axis, find the volume of the solid formed.",
+   "answer": "$$V=\\pi\\int_0^{\\pi/2}\\tfrac14\\sin^2y\\,dy=\\frac\\pi8\\int_0^{\\pi/2}(1-\\cos2y)\\,dy=\\frac\\pi8\\cdot\\frac\\pi2=\\frac{\\pi^2}{16}\\text{ units}^3$$",
+   "images": [
+    "assets/img/ext1-2024-gosford/q12b.png"
+   ]
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.1",
+    "12.4.1.7"
+   ],
+   "question": "The amount $Q$ (mg) of a substance present in a chemical reaction at time $t$ minutes satisfies $\\dfrac{d^2Q}{dt^2}+6\\dfrac{dQ}{dt}+9Q=0$. Show that $Q=(A+Bt)e^{-3t}$ satisfies the differential equation.",
+   "answer": "$Q'=(B-3A-3Bt)e^{-3t}$ and $Q''=(9A-6B+9Bt)e^{-3t}$.\n$$Q''+6Q'+9Q=\\big[(9A-6B+9Bt)+6(B-3A-3Bt)+9(A+Bt)\\big]e^{-3t}=0$$"
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.5"
+   ],
+   "question": "The amount $Q$ (mg) of a substance present in a chemical reaction at time $t$ minutes satisfies $\\dfrac{d^2Q}{dt^2}+6\\dfrac{dQ}{dt}+9Q=0$. Given $Q=(A+Bt)e^{-3t}$, find $A$ and $B$ if $Q$ is 2 initially and $102e^{-15}$ after 5 minutes.",
+   "answer": "$Q(0)=A=2$. $Q(5)=(2+5B)e^{-15}=102e^{-15}\\Rightarrow B=20$."
+  },
+  {
+   "ref": "Q12(c)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.16"
+   ],
+   "question": "The amount $Q$ (mg) of a substance present in a chemical reaction at time $t$ minutes satisfies $\\dfrac{d^2Q}{dt^2}+6\\dfrac{dQ}{dt}+9Q=0$. Given $Q=(2+20t)e^{-3t}$, find the maximum value of $Q$ and the time at which it occurs.",
+   "answer": "$\\dfrac{dQ}{dt}=(14-60t)e^{-3t}=0$ gives $t=\\dfrac7{30}$ min. $Q'>0$ before and $Q'<0$ after, so it is a maximum.\n$$Q_{\\max}=\\left(2+\\frac{14}{3}\\right)e^{-0.7}=\\frac{20}{3}e^{-7/10}\\approx3.31\\text{ mg}$$"
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.3.2.4"
+   ],
+   "question": "Show that $\\dfrac{\\sin2x}{1+\\cos2x}=\\tan x$.",
+   "answer": "$$\\frac{\\sin2x}{1+\\cos2x}=\\frac{2\\sin x\\cos x}{1+(2\\cos^2x-1)}=\\frac{\\sin x}{\\cos x}=\\tan x$$"
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "Prove by mathematical induction that $7^n+2$ is divisible by 3 for all $n\\in\\mathbb Z^+$.",
+   "answer": "**$n=1$:** $7+2=9$, divisible by 3.\n**Assume** $7^k+2=3M$ for an integer $M$.\n**$n=k+1$:** $7^{k+1}+2=7(3M-2)+2=21M-12=3(7M-4)$, divisible by 3.\nHence true for all positive integers $n$ by induction."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.7",
+    "12.2.4.6"
+   ],
+   "question": "In the isosceles triangle $ABC$, $|\\overrightarrow{AB}|=|\\overrightarrow{AC}|$. $D$ is the midpoint of $AB$ and $E$ is the midpoint of $AC$. $\\overrightarrow{CD}$ is perpendicular to $\\overrightarrow{BE}$. Use vector methods to find the size of $\\angle BAC$, to the nearest degree.",
+   "answer": "Let $\\overrightarrow{AB}=\\underset{\\sim}{a}$, $\\overrightarrow{AC}=\\underset{\\sim}{b}$ with $|\\underset{\\sim}{a}|=|\\underset{\\sim}{b}|$.\n$\\overrightarrow{CD}=\\frac12\\underset{\\sim}{a}-\\underset{\\sim}{b}$ and $\\overrightarrow{BE}=\\frac12\\underset{\\sim}{b}-\\underset{\\sim}{a}$.\n$$\\overrightarrow{CD}\\cdot\\overrightarrow{BE}=\\tfrac54\\,\\underset{\\sim}{a}\\cdot\\underset{\\sim}{b}-\\tfrac12|\\underset{\\sim}{a}|^2-\\tfrac12|\\underset{\\sim}{b}|^2=\\tfrac54\\,\\underset{\\sim}{a}\\cdot\\underset{\\sim}{b}-|\\underset{\\sim}{a}|^2=0$$\nSo $\\cos\\angle BAC=\\dfrac{\\underset{\\sim}{a}\\cdot\\underset{\\sim}{b}}{|\\underset{\\sim}{a}|^2}=\\dfrac45$, giving $\\angle BAC\\approx37^\\circ$.",
+   "images": [
+    "assets/img/ext1-2024-gosford/q13b.png"
+   ]
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.1.9"
+   ],
+   "question": "By considering the expansion of $(1+x)^{n-1}$ for integers $n>2$, show that $$n\\binom{n-1}{1}+n\\binom{n-1}{2}+\\cdots+n\\binom{n-1}{n-2}=n\\left(2^{n-1}-2\\right).$$",
+   "answer": "$(1+x)^{n-1}=1+\\binom{n-1}1x+\\cdots+\\binom{n-1}{n-2}x^{n-2}+x^{n-1}$. Put $x=1$:\n$$2^{n-1}-2=\\binom{n-1}1+\\binom{n-1}2+\\cdots+\\binom{n-1}{n-2}$$\nMultiplying both sides by $n$ gives the result."
+  },
+  {
+   "ref": "Q13(d)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "A hollow sphere of diameter 20 m is cut in half and its top removed. Water is poured into the remaining hemisphere at a constant rate of 20 m$^3$/minute. The water level is $h$ metres above the base of the hemisphere. By considering a volume of revolution, show that the volume of water is $V=\\dfrac13\\pi h^2(30-h)$.",
+   "answer": "The cross-section is the circle $x^2+(y-10)^2=100$, so $x^2=20y-y^2$.\n$$V=\\pi\\int_0^h(20y-y^2)\\,dy=\\pi\\left(10h^2-\\frac{h^3}{3}\\right)=\\frac13\\pi h^2(30-h)$$\n*Note: the paper states the level is $h$ cm; it must be $h$ metres.*",
+   "images": [
+    "assets/img/ext1-2024-gosford/q13d.png"
+   ]
+  },
+  {
+   "ref": "Q13(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "A hollow sphere of diameter 20 m is cut in half and its top removed. Water is poured into the remaining hemisphere at a constant rate of 20 m$^3$/minute. The water level is $h$ metres above the base of the hemisphere. Given $V=\\dfrac13\\pi h^2(30-h)$, find the rate of change of the water level when the water is 6 m above the base.",
+   "answer": "$\\dfrac{dV}{dh}=\\pi(20h-h^2)=84\\pi$ at $h=6$. So$$\\frac{dh}{dt}=\\frac{dV/dt}{dV/dh}=\\frac{20}{84\\pi}=\\frac{5}{21\\pi}\\text{ m/min}$$",
+   "images": [
+    "assets/img/ext1-2024-gosford/q13d.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.1"
+   ],
+   "question": "Solve $\\cos^2x+\\sin x-1=0$ for $0\\le x\\le2\\pi$.",
+   "answer": "$1-\\sin^2x+\\sin x-1=0\\Rightarrow\\sin x(1-\\sin x)=0$. So $\\sin x=0$ or $1$:$$x=0,\\ \\frac\\pi2,\\ \\pi,\\ 2\\pi$$"
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.7"
+   ],
+   "question": "Joe takes a free kick from the origin in indoor soccer. Opposing players 3 m from the ball are 1.8 m tall but can jump an extra 1.2 m. The ceiling is 8 m above the floor. Joe kicks the ball at 13 m s$^{-1}$ at angle $\\theta$ to the horizontal. With no air resistance and $g=10$, the position after $t$ seconds is $x=13t\\cos\\theta$, $y=13t\\sin\\theta-5t^2$ (do not prove this). Show that the maximum height reached by the ball is $h=\\dfrac{169\\sin^2\\theta}{20}$.",
+   "answer": "$\\dot y=13\\sin\\theta-10t=0$ gives $t=\\frac{13\\sin\\theta}{10}$.\n$$h=\\frac{169\\sin^2\\theta}{10}-5\\cdot\\frac{169\\sin^2\\theta}{100}=\\frac{169\\sin^2\\theta}{20}$$",
+   "images": [
+    "assets/img/ext1-2024-gosford/q14b.png"
+   ]
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.6"
+   ],
+   "question": "Joe takes a free kick from the origin in indoor soccer. Opposing players 3 m from the ball are 1.8 m tall but can jump an extra 1.2 m. The ceiling is 8 m above the floor. Joe kicks the ball at 13 m s$^{-1}$ at angle $\\theta$ to the horizontal. With no air resistance and $g=10$, the position after $t$ seconds is $x=13t\\cos\\theta$, $y=13t\\sin\\theta-5t^2$ (do not prove this). Show that the Cartesian equation of the trajectory is $y=x\\tan\\theta-\\dfrac{5x^2}{169}(1+\\tan^2\\theta)$.",
+   "answer": "$t=\\dfrac{x}{13\\cos\\theta}$, so$$y=x\\tan\\theta-\\frac{5x^2}{169\\cos^2\\theta}=x\\tan\\theta-\\frac{5x^2}{169}(1+\\tan^2\\theta)$$",
+   "images": [
+    "assets/img/ext1-2024-gosford/q14b.png"
+   ]
+  },
+  {
+   "ref": "Q14(b)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.6.8"
+   ],
+   "question": "Joe takes a free kick from the origin in indoor soccer. Opposing players 3 m from the ball are 1.8 m tall but can jump an extra 1.2 m. The ceiling is 8 m above the floor. Joe kicks the ball at 13 m s$^{-1}$ at angle $\\theta$ to the horizontal. With no air resistance and $g=10$, the position after $t$ seconds is $x=13t\\cos\\theta$, $y=13t\\sin\\theta-5t^2$ (do not prove this). Using $h=\\dfrac{169\\sin^2\\theta}{20}$ and $y=x\\tan\\theta-\\dfrac{5x^2}{169}(1+\\tan^2\\theta)$, show that for the ball to pass over the defenders and stay below the ceiling, $\\theta$ must be between $50^\\circ41'$ and $76^\\circ39'$.",
+   "answer": "**Ceiling:** $\\dfrac{169\\sin^2\\theta}{20}<8\\Rightarrow\\sin\\theta<\\sqrt{\\dfrac{160}{169}}\\Rightarrow\\theta<76^\\circ39'$.\n**Defenders:** at $x=3$ we need $y>3$. With $T=\\tan\\theta$:\n$$3T-\\frac{45}{169}(1+T^2)>3\\ \\Rightarrow\\ 45T^2-507T+552<0$$\n$$1.2211<T<10.046\\ \\Rightarrow\\ 50^\\circ41'<\\theta<84^\\circ19'$$\nBoth conditions hold when $50^\\circ41'<\\theta<76^\\circ39'$.",
+   "images": [
+    "assets/img/ext1-2024-gosford/q14b.png"
+   ]
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.16"
+   ],
+   "question": "A tiny pond is initially unpolluted and holds 450 L of water. An input stream with pollutant concentration 5 g/L flows in at 30 L/day, and an output stream flows out at 30 L/day. Let $m$ be the mass (g) of pollutant in the pond $t$ days after inflow begins. Show that $\\dfrac{dm}{dt}=150-\\dfrac{m}{15}$.",
+   "answer": "The volume stays 450 L. Rate in $=5\\times30=150$ g/day; rate out $=30\\times\\dfrac{m}{450}=\\dfrac m{15}$ g/day. Hence $\\dfrac{dm}{dt}=150-\\dfrac m{15}$."
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.11",
+    "12.5.4.16"
+   ],
+   "question": "A tiny pond is initially unpolluted and holds 450 L of water. An input stream with pollutant concentration 5 g/L flows in at 30 L/day, and an output stream flows out at 30 L/day. Let $m$ be the mass (g) of pollutant in the pond $t$ days after inflow begins. Given $\\dfrac{dm}{dt}=150-\\dfrac{m}{15}$, what is the concentration of pollutant in the pond after 10 days?",
+   "answer": "$$\\int\\frac{dm}{2250-m}=\\int\\frac{dt}{15}\\ \\Rightarrow\\ -\\ln(2250-m)=\\frac t{15}+C$$\n$m(0)=0$ gives $m=2250\\left(1-e^{-t/15}\\right)$.\nConcentration at $t=10$: $\\dfrac{m}{450}=5\\left(1-e^{-2/3}\\right)\\approx2.43$ g/L."
+  }
+ ]
+}
