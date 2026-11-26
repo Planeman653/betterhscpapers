@@ -1,0 +1,689 @@
+{
+ "id": "ext2-2024-caringbah",
+ "course": "extension2",
+ "school": "Caringbah",
+ "year": 2024,
+ "type": "Trial",
+ "thsc": {
+  "viewno": 5348,
+  "title": "Caringbah 2024 w. sol"
+ },
+ "indexed": "2026-11-27",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.1"
+   ],
+   "question": "What is the value of $i^{2024}$?",
+   "answer": "$i^{2024}=(i^4)^{506}=1$.",
+   "options": [
+    "$i$",
+    "$-i$",
+    "$1$",
+    "$-1$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.8"
+   ],
+   "question": "Points $A$, $B$ and $C$ have position vectors $\\mathbf{a}=\\begin{pmatrix}5\\\\1\\\\-3\\end{pmatrix}$, $\\mathbf{b}=\\begin{pmatrix}4\\\\m\\\\-1\\end{pmatrix}$ and $\\mathbf{c}=\\begin{pmatrix}1\\\\-7\\\\n\\end{pmatrix}$ respectively. What values of $m$ and $n$ will ensure that $A$, $B$ and $C$ are collinear?",
+   "answer": "$\\overrightarrow{AB}=\\begin{pmatrix}-1\\\\m-1\\\\2\\end{pmatrix}$, $\\overrightarrow{AC}=\\begin{pmatrix}-4\\\\-8\\\\n+3\\end{pmatrix}$. For collinearity $\\overrightarrow{AC}=4\\,\\overrightarrow{AB}$, so $4(m-1)=-8$ and $n+3=8$, giving $m=-1$, $n=5$.",
+   "options": [
+    "$m=1$ and $n=-5$",
+    "$m=-1$ and $n=-5$",
+    "$m=1$ and $n=5$",
+    "$m=-1$ and $n=5$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.12",
+    "12.2.1.17"
+   ],
+   "question": "An insect is crawling in a spiral down and around a sphere of radius 1. The insect's path begins at the top of the sphere and ends at the bottom of the sphere. Which of the following parametric equations could define the insect's path?",
+   "answer": "The path must lie on $x^2+y^2+z^2=1$. For A: $x^2+y^2+z^2=\\sin^2t(\\cos^2 2t+\\sin^2 2t)+\\cos^2t=1$.",
+   "options": [
+    "$x=\\sin t\\cos 2t,\\ y=\\sin t\\sin 2t,\\ z=\\cos t$",
+    "$x=\\sin t\\cos 2t,\\ y=\\sin t\\cos 2t,\\ z=\\cos t$",
+    "$x=\\cos t\\cos 2t,\\ y=\\sin t\\cos 2t,\\ z=\\cos t$",
+    "$x=\\cos t\\cos 2t,\\ y=\\sin t\\sin 2t,\\ z=\\cos t$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "Particles $A$ and $B$, of masses $M_A$ and $M_B$ respectively, are connected by a light inextensible string passing over a frictionless pulley as shown. Particle $A$ lies on a frictionless surface inclined at $30^\\circ$ to the horizontal, while particle $B$ hangs vertically from the string. The particles are initially at rest, and when they are released, neither particle moves. Which expression shows the relationship between $M_A$ and $M_B$?",
+   "answer": "In equilibrium, the tension is $T=M_Bg$ and along the plane $T=M_Ag\\sin30^\\circ$. So $M_B=\\tfrac12 M_A$, i.e. $M_A=2M_B$.",
+   "options": [
+    "$M_A=M_B$",
+    "$M_A=\\sqrt3\\,M_B$",
+    "$M_A=2M_B$",
+    "$M_A=2\\sqrt3\\,M_B$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/ext2-2024-caringbah/q4.png"
+   ]
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.8"
+   ],
+   "question": "A particle moves in simple harmonic motion with velocity $v\\ \\text{m s}^{-1}$. The motion is described by $v^2=25-5x^2$, where $x$ is the particle's displacement from the origin. What is the period of the motion?",
+   "answer": "$v^2=5(5-x^2)$, which is of the form $n^2(a^2-x^2)$ with $n=\\sqrt5$. Period $=\\dfrac{2\\pi}{\\sqrt5}$.",
+   "options": [
+    "$-5$",
+    "$\\dfrac{2\\pi}{25}$",
+    "$\\dfrac{2\\pi}{\\sqrt5}$",
+    "$5$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.11"
+   ],
+   "question": "Consider the statement: $\\forall n\\in\\mathbb{Z}$, if $n^2$ is odd then $n$ is odd. Which of the following is the contrapositive of this statement?",
+   "answer": "The contrapositive of $P\\Rightarrow Q$ is $\\neg Q\\Rightarrow\\neg P$; the quantifier $\\forall$ is unchanged.",
+   "options": [
+    "$\\forall n\\in\\mathbb{Z}$, if $n$ is not odd then $n^2$ is not odd",
+    "$\\exists n\\in\\mathbb{Z}$, if $n$ is not odd then $n^2$ is not odd",
+    "$\\forall n\\in\\mathbb{Z}$, if $n$ is not odd then $n^2$ is odd",
+    "$\\exists n\\in\\mathbb{Z}$, if $n$ is not odd then $n^2$ is odd"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.4",
+    "12.3.2.8"
+   ],
+   "question": "If $y=r(\\cos\\theta+i\\sin\\theta)$, where $r>0$, which of the following statements is FALSE?",
+   "answer": "Multiplying by the positive real number 2 does not change the argument: $\\operatorname{Arg}(2y)=\\operatorname{Arg}(y)$, not $2\\theta$. The other statements are true.",
+   "options": [
+    "$\\dfrac{r^2}{y}=\\overline{y}$",
+    "$|y^2|=r^2$",
+    "$\\operatorname{Arg}(2y)=2\\theta$",
+    "$iy=r\\left(\\cos\\left(\\theta+\\frac{\\pi}{2}\\right)+i\\sin\\left(\\theta+\\frac{\\pi}{2}\\right)\\right)$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.11"
+   ],
+   "question": "It is given that $f(a)=-2$, $f(b)=8$, $g(a)=1$ and $g(b)=2$. What is the value of $\\displaystyle\\int_a^b\\frac{f'(x)g(x)-f(x)g'(x)}{(g(x))^2}\\,dx$?",
+   "answer": "The integrand is the derivative of $\\dfrac{f(x)}{g(x)}$, so the integral is $\\dfrac{8}{2}-\\dfrac{-2}{1}=6$.",
+   "options": [
+    "$2$",
+    "$6$",
+    "$-6$",
+    "$-18$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.11"
+   ],
+   "question": "What is the value of $\\displaystyle\\int_0^2\\frac{2x+2}{x^2+4}\\,dx$?",
+   "answer": "$\\left[\\ln(x^2+4)+\\tan^{-1}\\frac{x}{2}\\right]_0^2=\\ln 2+\\dfrac{\\pi}{4}$.",
+   "options": [
+    "$\\ln2+\\dfrac{\\pi}{2}$",
+    "$\\ln2+\\dfrac{\\pi}{4}$",
+    "$\\ln 2$",
+    "$2\\ln2$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "The molecular structure of methane can be modelled by a tetrahedron, as shown, with the carbon atom at $O$ and the four hydrogen atoms at $A(1,-1,1)$, $B(1,1,-1)$, $C(-1,1,1)$ and $D(-1,-1,-1)$. The bond angle $\\theta$ is the angle between the vectors from $O$ to any two of $A$, $B$, $C$, $D$. What is the size of the bond angle, correct to one decimal place?",
+   "answer": "$\\cos\\theta=\\dfrac{\\overrightarrow{OA}\\cdot\\overrightarrow{OB}}{|\\overrightarrow{OA}||\\overrightarrow{OB}|}=\\dfrac{1-1-1}{3}=-\\dfrac13$, so $\\theta\\approx109.5^\\circ$.",
+   "options": [
+    "$54.7^\\circ$",
+    "$70.5^\\circ$",
+    "$109.5^\\circ$",
+    "$179.0^\\circ$"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/ext2-2024-caringbah/q10.png"
+   ],
+   "course": "extension1"
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.9"
+   ],
+   "question": "Consider $z=2-5i$ and $w=-3-i$. Find a simplified expression for $z-w$.",
+   "answer": "$z-w=2-5i+3+i=5-4i$"
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.10",
+    "12.3.1.9"
+   ],
+   "question": "Consider $z=2-5i$ and $w=-3-i$. Find the value of $z\\overline{z}$.",
+   "answer": "$z\\overline z=(2-5i)(2+5i)=4+25=29$"
+  },
+  {
+   "ref": "Q11(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.13"
+   ],
+   "question": "Consider $z=2-5i$ and $w=-3-i$. Find a simplified expression for $\\dfrac{z}{w}$.",
+   "answer": "$$\\frac{2-5i}{-3-i}\\times\\frac{-3+i}{-3+i}=\\frac{-6+2i+15i+5}{10}=\\frac{-1+17i}{10}$$"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.10"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{x^6+3x^2-1}{x^3+1}\\,dx$.",
+   "answer": "$x^6-1=(x^3-1)(x^3+1)$, so $$\\int\\left(x^3-1+\\frac{3x^2}{x^3+1}\\right)dx=\\frac{x^4}{4}-x+\\ln|x^3+1|+C$$"
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "Prove algebraically that the difference between two consecutive square numbers is odd.",
+   "answer": "Let the squares be $k^2$ and $(k+1)^2$ with $k\\in\\mathbb{Z}$. Then $(k+1)^2-k^2=2k+1$, which is odd. Hence the difference between two consecutive squares is odd."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "Given $z=2\\left(\\cos\\dfrac{2\\pi}{3}+i\\sin\\dfrac{2\\pi}{3}\\right)$, express $z^4$ in the form $a+ib$.",
+   "answer": "By de Moivre's theorem, $z^4=16\\left(\\cos\\dfrac{8\\pi}{3}+i\\sin\\dfrac{8\\pi}{3}\\right)=16\\left(\\cos\\dfrac{2\\pi}{3}+i\\sin\\dfrac{2\\pi}{3}\\right)=-8+8\\sqrt3\\,i$"
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.3",
+    "12.2.1.6"
+   ],
+   "question": "Let $\\ell_1$ be the straight line segment with equation $\\mathbf{r}=\\begin{pmatrix}6\\\\4\\end{pmatrix}+\\lambda\\begin{pmatrix}2\\\\1\\end{pmatrix}$, $-3\\le\\lambda\\le1$. The straight line segment $\\ell_2$ is perpendicular to $\\ell_1$, and the ends of $\\ell_2$ are its $x$- and $y$-intercepts. Given that the point with position vector $\\begin{pmatrix}2\\\\2\\end{pmatrix}$ lies on both $\\ell_1$ and $\\ell_2$, find the vector equation of $\\ell_2$ in the form $\\mathbf{r}=\\mathbf{a}+\\mu\\mathbf{b}$, including any restrictions on the value of $\\mu$.",
+   "answer": "A direction perpendicular to $\\begin{pmatrix}2\\\\1\\end{pmatrix}$ is $\\begin{pmatrix}1\\\\-2\\end{pmatrix}$, and $\\ell_2$ passes through $(2,2)$: $$\\mathbf{r}=\\begin{pmatrix}2\\\\2\\end{pmatrix}+\\mu\\begin{pmatrix}1\\\\-2\\end{pmatrix}$$ $x=0$ gives $\\mu=-2$; $y=0$ gives $\\mu=1$. So the equation is as above with $-2\\le\\mu\\le1$."
+  },
+  {
+   "ref": "Q11(f)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.9"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{dx}{\\sqrt{4+2x-x^2}}$.",
+   "answer": "$$\\int\\frac{dx}{\\sqrt{5-(x-1)^2}}=\\sin^{-1}\\left(\\frac{x-1}{\\sqrt5}\\right)+C$$"
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.10"
+   ],
+   "question": "Consider the lines $\\mathbf{r}(\\lambda)=\\begin{pmatrix}-2+2\\lambda\\\\1+\\lambda\\\\4-2\\lambda\\end{pmatrix}$ and $\\mathbf{w}(\\mu)=\\begin{pmatrix}1+\\mu\\\\3+2\\mu\\\\2-2\\mu\\end{pmatrix}$. Determine whether the lines intersect.",
+   "answer": "Equate components: $-2+2\\lambda=1+\\mu$, $1+\\lambda=3+2\\mu$, $4-2\\lambda=2-2\\mu$. From the second, $\\lambda=2+2\\mu$; substituting into the first, $2+4\\mu=1+\\mu$, so $\\mu=-\\frac13$, $\\lambda=\\frac43$. In the third, LHS $=\\frac43$ but RHS $=\\frac83$. The equations are inconsistent, so the lines do not intersect."
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.11",
+    "12.2.1.10"
+   ],
+   "question": "Consider the lines $\\mathbf{r}(\\lambda)=\\begin{pmatrix}-2+2\\lambda\\\\1+\\lambda\\\\4-2\\lambda\\end{pmatrix}$ and $\\mathbf{w}(\\mu)=\\begin{pmatrix}1+\\mu\\\\3+2\\mu\\\\2-2\\mu\\end{pmatrix}$. Given that these lines do not intersect, determine whether they are parallel, perpendicular or skew. Justify your answer.",
+   "answer": "The direction vectors are $\\begin{pmatrix}2\\\\1\\\\-2\\end{pmatrix}$ and $\\begin{pmatrix}1\\\\2\\\\-2\\end{pmatrix}$. Neither is a scalar multiple of the other, so the lines are not parallel. Their dot product is $2+2+4=8\\neq0$, so they are not perpendicular. Since they do not intersect and are not parallel, the lines are skew."
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.2",
+    "12.3.4.3"
+   ],
+   "question": "Consider $z=\\cos\\theta+i\\sin\\theta$. Show that $z^n+z^{-n}=2\\cos n\\theta$.",
+   "answer": "By de Moivre, $z^n+z^{-n}=\\cos n\\theta+i\\sin n\\theta+\\cos(-n\\theta)+i\\sin(-n\\theta)=2\\cos n\\theta$, since cosine is even and sine is odd."
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Let $z=\\cos\\theta+i\\sin\\theta$. Using $z^n+z^{-n}=2\\cos n\\theta$, solve $3(z^2+z^{-2})-(z+z^{-1})+2=0$.",
+   "answer": "$6\\cos2\\theta-2\\cos\\theta+2=0\\Rightarrow 12\\cos^2\\theta-2\\cos\\theta-4=0\\Rightarrow(3\\cos\\theta-2)(2\\cos\\theta+1)=0$. So $\\cos\\theta=\\frac23$ (then $\\sin\\theta=\\pm\\frac{\\sqrt5}{3}$) or $\\cos\\theta=-\\frac12$ (then $\\sin\\theta=\\pm\\frac{\\sqrt3}{2}$). Hence $$z=\\frac{2\\pm i\\sqrt5}{3},\\quad\\frac{-1\\pm i\\sqrt3}{2}$$"
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.9",
+    "12.5.2.5"
+   ],
+   "question": "A particle moves along the $x$-axis according to the equation $\\ddot{x}=1-x$. Initially the particle is at rest at $x=0$. Find the displacement of the particle as a function of time.",
+   "answer": "$\\ddot x=-(x-1)$, so the motion is simple harmonic with $n=1$ and centre $x=1$. The particle starts at rest at $x=0$, so this is an extremity and the amplitude is $1$. Starting at the lower extremity, $x=1-\\cos t$."
+  },
+  {
+   "ref": "Q12(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.3.5"
+   ],
+   "question": "For $a,b\\ge0$, prove that $a+b\\ge2\\sqrt{ab}$.",
+   "answer": "$(\\sqrt a-\\sqrt b)^2\\ge0\\Rightarrow a-2\\sqrt{ab}+b\\ge0\\Rightarrow a+b\\ge2\\sqrt{ab}$."
+  },
+  {
+   "ref": "Q12(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "The graphs of $y=\\sec^2x$ and $y=2|\\tan x|$ lie on or above the $x$-axis. (Do NOT prove this.) Using the result $a+b\\ge2\\sqrt{ab}$ for $a,b\\ge0$, or otherwise, prove that the graph of $y=\\sec^2x$ lies on or above the graph of $y=2|\\tan x|$.",
+   "answer": "Put $a=1$, $b=\\tan^2x$: $1+\\tan^2x\\ge2\\sqrt{\\tan^2x}$, so $\\sec^2x\\ge2|\\tan x|$ wherever $\\tan x$ is defined. Hence $y=\\sec^2x$ lies on or above $y=2|\\tan x|$."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.17"
+   ],
+   "question": "Find the vector equation of the sphere $x^2+y^2+z^2+2x-14y+25=0$.",
+   "answer": "Completing the square: $(x+1)^2+(y-7)^2+z^2=25$. Hence $$\\left|\\mathbf{r}-\\begin{pmatrix}-1\\\\7\\\\0\\end{pmatrix}\\right|=5$$"
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.9",
+    "12.4.1.11"
+   ],
+   "question": "Using the substitution $u=\\sin x+1$, or otherwise, find $\\displaystyle\\int\\frac{\\cos x}{\\sin^2x+2\\sin x+5}\\,dx$.",
+   "answer": "$du=\\cos x\\,dx$ and $\\sin^2x+2\\sin x+5=u^2+4$. So $$\\int\\frac{du}{u^2+4}=\\frac12\\tan^{-1}\\left(\\frac{\\sin x+1}{2}\\right)+C$$"
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.5"
+   ],
+   "question": "Given the complex number $z=x+iy$, sketch and shade the subset of the Argand diagram such that $|z|\\le\\sqrt{10}$ and $\\operatorname{Im}(z^2)\\ge6$.",
+   "answer": "$|z|\\le\\sqrt{10}$ is the disc $x^2+y^2\\le10$. $\\operatorname{Im}(z^2)=2xy\\ge6$ gives $xy\\ge3$, the region beyond each branch of the hyperbola $xy=3$ (away from the origin). The curves meet at $(1,3)$, $(3,1)$, $(-1,-3)$ and $(-3,-1)$. Shade the two lens-shaped regions, boundaries included.",
+   "answer_images": [
+    "assets/img/ext2-2024-caringbah/q13c.png"
+   ]
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.2.3"
+   ],
+   "question": "Prove by contradiction that if $m^2-4n=3$, then $m$ and $n$ cannot both be integers.",
+   "answer": "Suppose $m^2-4n=3$ with $m,n\\in\\mathbb{Z}$. Then $m^2=4n+3$ is odd, so $m$ is odd; let $m=2j+1$. Then $4j^2+4j+1-4n=3$, so $4(j^2+j-n)=2$. The LHS is a multiple of 4 but 2 is not: a contradiction. Hence $m$ and $n$ cannot both be integers."
+  },
+  {
+   "ref": "Q13(e)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.5"
+   ],
+   "question": "A particle travels in a straight line. Its displacement, $x$ cm, from $O$ at time $t$ seconds is given by $x=1+\\sin^2t$. Prove that the particle is moving in simple harmonic motion.",
+   "answer": "$\\dot x=2\\sin t\\cos t$ and $\\ddot x=2(\\cos^2t-\\sin^2t)=2(1-2\\sin^2t)$. Since $\\sin^2t=x-1$, $\\ddot x=2(3-2x)=-4\\left(x-\\frac32\\right)$. This is of the form $\\ddot x=-n^2(x-c)$, so the motion is SHM with $n=2$."
+  },
+  {
+   "ref": "Q13(e)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.4"
+   ],
+   "question": "A particle travels in a straight line. Its displacement, $x$ cm, from $O$ at time $t$ seconds is given by $x=1+\\sin^2t$. The particle moves in simple harmonic motion. Find the centre of motion.",
+   "answer": "$\\ddot x=-4\\left(x-\\frac32\\right)$, so the centre of motion is $x=\\frac32$ cm."
+  },
+  {
+   "ref": "Q13(e)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.5.2.10"
+   ],
+   "question": "A particle travels in a straight line. Its displacement, $x$ cm, from $O$ at time $t$ seconds is given by $x=1+\\sin^2t$. Find the total distance travelled by the particle in the first $\\dfrac{3\\pi}{2}$ seconds.",
+   "answer": "$1\\le x\\le2$, so the amplitude is $\\frac12$ and the period is $\\frac{2\\pi}{2}=\\pi$ s. $\\frac{3\\pi}{2}$ s is $1.5$ oscillations, each of length $4\\times\\frac12=2$ cm. Total distance $=3$ cm.\n\n*Note: the school solution states 3 m; the units in the question are centimetres.*"
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.8",
+    "12.2.3.6"
+   ],
+   "question": "A stationary object suspended in a vacuum is moved by two forces $F_A$ and $F_B$, where the magnitude of $F_A$ is twice the magnitude of $F_B$. The directions of $F_A$ and $F_B$ are $\\begin{pmatrix}-1\\\\2\\\\1\\end{pmatrix}$ and $\\begin{pmatrix}1\\\\1\\\\1\\end{pmatrix}$ respectively. Calculate the direction in which the object moves, giving your answer in vector form.",
+   "answer": "Unit vectors are $\\frac{1}{\\sqrt6}\\begin{pmatrix}-1\\\\2\\\\1\\end{pmatrix}$ and $\\frac{1}{\\sqrt3}\\begin{pmatrix}1\\\\1\\\\1\\end{pmatrix}$. The resultant is in the direction of $2\\hat F_A+\\hat F_B$: $$\\frac{2}{\\sqrt6}\\begin{pmatrix}-1\\\\2\\\\1\\end{pmatrix}+\\frac{1}{\\sqrt3}\\begin{pmatrix}1\\\\1\\\\1\\end{pmatrix}=\\frac1{\\sqrt3}\\begin{pmatrix}1-\\sqrt2\\\\1+2\\sqrt2\\\\1+\\sqrt2\\end{pmatrix}$$",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.11"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^1\\frac{dx}{1+e^x}$.",
+   "answer": "$$\\int_0^1\\left(1-\\frac{e^x}{1+e^x}\\right)dx=\\Big[x-\\ln(1+e^x)\\Big]_0^1=1-\\ln(1+e)+\\ln2=\\ln\\frac{2e}{1+e}$$"
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.9",
+    "12.3.1.13"
+   ],
+   "question": "The complex number $z\\ne-1$ lies on the unit circle in the Argand diagram and $w=\\dfrac{1}{z+1}$. Show that $\\operatorname{Re}(w)=\\dfrac12$.",
+   "answer": "Let $z=x+iy$ with $x^2+y^2=1$. Then $w=\\dfrac{(x+1)-iy}{(x+1)^2+y^2}$, so $$\\operatorname{Re}(w)=\\frac{x+1}{x^2+y^2+2x+1}=\\frac{x+1}{2(x+1)}=\\frac12$$"
+  },
+  {
+   "ref": "Q14(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Use integration by parts to evaluate $\\displaystyle\\int_0^1\\sin^{-1}x\\,dx$.",
+   "answer": "With $u=\\sin^{-1}x$, $v'=1$: $$\\int_0^1\\sin^{-1}x\\,dx=\\Big[x\\sin^{-1}x\\Big]_0^1-\\int_0^1\\frac{x}{\\sqrt{1-x^2}}\\,dx=\\frac{\\pi}{2}+\\Big[\\sqrt{1-x^2}\\Big]_0^1=\\frac{\\pi}{2}-1$$"
+  },
+  {
+   "ref": "Q14(e)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.2"
+   ],
+   "question": "Show that for $k\\ge0$, $2k+3>2\\sqrt{(k+2)(k+1)}$.",
+   "answer": "Both sides are positive and $(2k+3)^2-4(k+2)(k+1)=4k^2+12k+9-4k^2-12k-8=1>0$. Hence $2k+3>2\\sqrt{(k+2)(k+1)}$."
+  },
+  {
+   "ref": "Q14(e)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "You are given that $2k+3>2\\sqrt{(k+2)(k+1)}$ for $k\\ge0$. By decomposing $2k+3$, show that $\\dfrac{1}{\\sqrt{k+1}}>2\\left(\\sqrt{k+2}-\\sqrt{k+1}\\right)$.",
+   "answer": "$2(k+1)+1>2\\sqrt{(k+2)(k+1)}$. Divide by $\\sqrt{k+1}>0$: $2\\sqrt{k+1}+\\dfrac{1}{\\sqrt{k+1}}>2\\sqrt{k+2}$. Hence $\\dfrac1{\\sqrt{k+1}}>2(\\sqrt{k+2}-\\sqrt{k+1})$."
+  },
+  {
+   "ref": "Q14(e)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "You are given that $\\dfrac{1}{\\sqrt{k+1}}>2\\left(\\sqrt{k+2}-\\sqrt{k+1}\\right)$ for $k\\ge0$. Hence, or otherwise, show that for $n\\ge1$, $$1+\\frac1{\\sqrt2}+\\frac1{\\sqrt3}+\\dots+\\frac1{\\sqrt n}>2\\left(\\sqrt{n+1}-1\\right)$$",
+   "answer": "Substitute $k=0,1,\\dots,n-1$ and add the inequalities: $$\\sum_{r=1}^{n}\\frac1{\\sqrt r}>2\\big[(\\sqrt2-1)+(\\sqrt3-\\sqrt2)+\\dots+(\\sqrt{n+1}-\\sqrt n)\\big]=2(\\sqrt{n+1}-1)$$ since the sum telescopes."
+  },
+  {
+   "ref": "Q15(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.11"
+   ],
+   "question": "Using the substitution $u=a-x$, or otherwise, prove that $\\displaystyle\\int_0^af(x)\\,dx=\\int_0^af(a-x)\\,dx$.",
+   "answer": "$u=a-x$, $du=-dx$; $x=0\\to u=a$, $x=a\\to u=0$. So $$\\int_0^af(x)\\,dx=-\\int_a^0f(a-u)\\,du=\\int_0^af(a-u)\\,du=\\int_0^af(a-x)\\,dx$$ (dummy variable)."
+  },
+  {
+   "ref": "Q15(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.15"
+   ],
+   "question": "Using the result $\\displaystyle\\int_0^af(x)\\,dx=\\int_0^af(a-x)\\,dx$, evaluate $\\displaystyle\\int_0^\\pi\\frac{x\\sin x}{1+\\cos^2x}\\,dx$.",
+   "answer": "Let $I$ be the integral. Then $I=\\displaystyle\\int_0^\\pi\\frac{(\\pi-x)\\sin x}{1+\\cos^2x}\\,dx$, so $2I=\\pi\\displaystyle\\int_0^\\pi\\frac{\\sin x}{1+\\cos^2x}\\,dx$. With $u=\\cos x$: $$2I=\\pi\\int_{-1}^{1}\\frac{du}{1+u^2}=\\pi\\cdot\\frac{\\pi}{2}$$ Hence $I=\\dfrac{\\pi^2}{4}$."
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.1.2.3"
+   ],
+   "question": "Prove that $m!\\,n!<(m+n)!$ for positive integers $m$ and $n$.",
+   "answer": "For each $r=1,2,\\dots,m$, $r<n+r$ since $n\\ge1$. Multiplying these inequalities between positive numbers: $m!<(n+1)(n+2)\\cdots(n+m)$. Multiply both sides by $n!$: $$m!\\,n!<n!\\,(n+1)\\cdots(n+m)=(m+n)!$$"
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "The acceleration $a\\ \\text{m s}^{-2}$ of a particle $P$ moving in a straight line is $a=4x(x^2-3)$, where $x$ metres is the displacement to the right of the origin. Initially the particle is at the origin moving with velocity $10\\ \\text{m s}^{-1}$. Show that the velocity $v\\ \\text{m s}^{-1}$ satisfies $v^2=2x^4-12x^2+100$.",
+   "answer": "$\\dfrac{d}{dx}\\left(\\tfrac12v^2\\right)=4x^3-12x$, so $\\tfrac12v^2=x^4-6x^2+C$. At $x=0$, $v=10$: $C=50$. Hence $v^2=2x^4-12x^2+100$."
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "The acceleration $a\\ \\text{m s}^{-2}$ of a particle $P$ moving in a straight line is $a=4x(x^2-3)$, where $x$ metres is the displacement to the right of the origin. Initially the particle is at the origin moving with velocity $10\\ \\text{m s}^{-1}$. Given that $v^2=2x^4-12x^2+100$, describe the motion of the particle, justifying your answer.",
+   "answer": "$v^2=2\\left[(x^2-3)^2+41\\right]>0$ for all $x$, so the particle never stops. Since $v=10>0$ initially, $v>0$ always: it moves to the right forever. For $0<x<\\sqrt3$, $a<0$ so it slows (to a minimum speed $\\sqrt{82}\\ \\text{m s}^{-1}$ at $x=\\sqrt3$); for $x>\\sqrt3$, $a>0$ so it speeds up without bound."
+  },
+  {
+   "ref": "Q15(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.5"
+   ],
+   "question": "The vectors $\\mathbf{a},\\mathbf{b},\\mathbf{c}$ satisfy $|\\mathbf{a}|=1$, $|\\mathbf{b}|=2$, $|\\mathbf{c}|=4$, $\\mathbf{a}\\cdot\\mathbf{b}=-2$ and $\\mathbf{c}\\cdot(\\mathbf{a}+\\mathbf{b})=-4$. Using dot products, show that $|\\mathbf{a}+\\mathbf{b}+\\mathbf{c}|^2=9$.",
+   "answer": "$$|\\mathbf a+\\mathbf b+\\mathbf c|^2=|\\mathbf a|^2+|\\mathbf b|^2+|\\mathbf c|^2+2\\mathbf a\\cdot\\mathbf b+2\\mathbf c\\cdot(\\mathbf a+\\mathbf b)=1+4+16-4-8=9$$",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q15(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.4.8",
+    "12.2.4.3"
+   ],
+   "question": "The vectors $\\mathbf{a},\\mathbf{b},\\mathbf{c}$ satisfy $|\\mathbf{a}|=1$, $|\\mathbf{b}|=2$, $|\\mathbf{c}|=4$, $\\mathbf{a}\\cdot\\mathbf{b}=-2$ and $\\mathbf{c}\\cdot(\\mathbf{a}+\\mathbf{b})=-4$. By considering the angles between the vectors $\\mathbf{a}$, $\\mathbf{b}$ and $\\mathbf{c}$, or otherwise, show that $|\\mathbf{a}-\\mathbf{b}+\\mathbf{c}|=7$.",
+   "answer": "$\\cos\\theta_{ab}=\\dfrac{-2}{1\\times2}=-1$, so $\\mathbf b=-2\\mathbf a$. Then $\\mathbf c\\cdot(\\mathbf a+\\mathbf b)=-\\mathbf a\\cdot\\mathbf c=-4$, so $\\mathbf a\\cdot\\mathbf c=4$. Hence $\\cos\\theta_{ac}=\\dfrac{4}{1\\times4}=1$, so $\\mathbf c=4\\mathbf a$. Therefore $|\\mathbf a-\\mathbf b+\\mathbf c|=|\\mathbf a+2\\mathbf a+4\\mathbf a|=7|\\mathbf a|=7$.",
+   "course": "extension1"
+  },
+  {
+   "ref": "Q16(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.2.10"
+   ],
+   "question": "Find the greatest value of the modulus of a complex number $z$ that satisfies $\\left|z-\\dfrac4z\\right|=2$.",
+   "answer": "By the triangle inequality, $|z|-\\dfrac{4}{|z|}\\le\\left|z-\\dfrac4z\\right|=2$, so $|z|^2-2|z|-4\\le0$, giving $|z|\\le1+\\sqrt5$. Equality occurs for the real number $z=1+\\sqrt5$, since $z-\\frac4z=(1+\\sqrt5)-(\\sqrt5-1)=2$. The greatest modulus is $1+\\sqrt5$."
+  },
+  {
+   "ref": "Q16(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Find $\\displaystyle\\int\\cos\\sqrt{x}\\,dx$.",
+   "answer": "Let $t=\\sqrt x$, so $x=t^2$, $dx=2t\\,dt$: $$\\int2t\\cos t\\,dt=2t\\sin t-\\int2\\sin t\\,dt=2\\sqrt x\\sin\\sqrt x+2\\cos\\sqrt x+C$$"
+  },
+  {
+   "ref": "Q16(c)",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.15"
+   ],
+   "question": "The diagram shows a circle of radius 1, with centre on the $y$-axis, that is tangent to the parabola $y=x^2$ at two distinct points. The circle has centre $(0,k)$ for some $k>0$ and therefore has equation $x^2+(y-k)^2=1$. (Do NOT prove this.) By showing that the $x$-values of the points of tangency are $x=\\pm\\dfrac{\\sqrt3}{2}$, find the exact area between the circle and the parabola (the shaded region).",
+   "answer": "Substituting $x^2=y$: $y^2+(1-2k)y+k^2-1=0$. Tangency requires a double root: $(1-2k)^2-4(k^2-1)=0$, so $5-4k=0$, $k=\\frac54$. Then $y^2-\\frac32y+\\frac9{16}=0$, $y=\\frac34$, so $x=\\pm\\frac{\\sqrt3}{2}$.\n\nThe lower arc of the circle is $y=\\frac54-\\sqrt{1-x^2}$, so $$A=2\\int_0^{\\sqrt3/2}\\left(\\tfrac54-x^2-\\sqrt{1-x^2}\\right)dx$$ $2\\left[\\frac{5x}4-\\frac{x^3}3\\right]_0^{\\sqrt3/2}=\\sqrt3$. With $x=\\sin\\theta$: $$2\\int_0^{\\pi/3}\\cos^2\\theta\\,d\\theta=\\left[\\theta+\\tfrac12\\sin2\\theta\\right]_0^{\\pi/3}=\\frac\\pi3+\\frac{\\sqrt3}4$$ Hence $A=\\dfrac{3\\sqrt3}{4}-\\dfrac{\\pi}{3}$ units².",
+   "images": [
+    "assets/img/ext2-2024-caringbah/q16c.png"
+   ]
+  },
+  {
+   "ref": "Q16(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "Let $f(x)=1+\\dfrac1x$ and $\\varphi=\\dfrac{1+\\sqrt5}{2}$. Show that $1+\\dfrac1\\varphi=\\varphi$ and $1+\\dfrac1{1-\\varphi}=1-\\varphi$.",
+   "answer": "$\\varphi$ and $1-\\varphi=\\dfrac{1-\\sqrt5}{2}$ have sum $1$ and product $-1$, so they are the roots of $t^2-t-1=0$. Hence each root $t$ satisfies $t^2=t+1$; dividing by $t\\ne0$ gives $t=1+\\dfrac1t$."
+  },
+  {
+   "ref": "Q16(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.4.5",
+    "12.1.4.1"
+   ],
+   "question": "Let $f(x)=1+\\dfrac1x$ and $\\varphi=\\dfrac{1+\\sqrt5}{2}$. Define $f^0(x)=1$ and, for $n\\ge1$, let $f^n(x)$ be $f$ composed with itself $n$ times. Given that $1+\\dfrac1\\varphi=\\varphi$ and $1+\\dfrac1{1-\\varphi}=1-\\varphi$, show using mathematical induction that for all integers $n\\ge0$, $$f^n(1)=\\frac{\\varphi^{n+2}-(1-\\varphi)^{n+2}}{\\varphi^{n+1}-(1-\\varphi)^{n+1}}$$",
+   "answer": "Let $\\psi=1-\\varphi$. **$n=0$:** RHS $=\\dfrac{\\varphi^2-\\psi^2}{\\varphi-\\psi}=\\varphi+\\psi=1=f^0(1)$.\n\n**Assume** true for $n=k$. Then $$f^{k+1}(1)=1+\\frac{1}{f^k(1)}=1+\\frac{\\varphi^{k+1}-\\psi^{k+1}}{\\varphi^{k+2}-\\psi^{k+2}}=\\frac{\\varphi^{k+2}\\left(1+\\frac1\\varphi\\right)-\\psi^{k+2}\\left(1+\\frac1\\psi\\right)}{\\varphi^{k+2}-\\psi^{k+2}}=\\frac{\\varphi^{k+3}-\\psi^{k+3}}{\\varphi^{k+2}-\\psi^{k+2}}$$ So it is true for $n=k+1$. By induction it holds for all integers $n\\ge0$."
+  },
+  {
+   "ref": "Q16(d)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.4"
+   ],
+   "question": "Let $f(x)=1+\\dfrac1x$ and $\\varphi=\\dfrac{1+\\sqrt5}{2}$. Define $f^0(x)=1$ and, for $n\\ge1$, let $f^n(x)$ be $f$ composed with itself $n$ times. Given that $f^n(1)=\\dfrac{\\varphi^{n+2}-(1-\\varphi)^{n+2}}{\\varphi^{n+1}-(1-\\varphi)^{n+1}}$, find $\\displaystyle\\lim_{n\\to\\infty}f^n(1)$.",
+   "answer": "Divide numerator and denominator by $\\varphi^{n+1}$ and let $r=\\dfrac{1-\\varphi}{\\varphi}$, where $|r|<1$: $$f^n(1)=\\frac{\\varphi-(1-\\varphi)r^{n+1}}{1-r^{n+1}}\\to\\varphi=\\frac{1+\\sqrt5}{2}$$"
+  }
+ ]
+}
