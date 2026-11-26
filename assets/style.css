@@ -531,3 +531,9 @@ html.panel-open .sheet-fab{display:none}
   .acct-name{max-width:110px}
 }
 .basket-btn,.saved-link,.filters-btn{white-space:nowrap;flex:none}
+
+/* keep wide tables and equations from widening the page on phones */
+.q-body,.ans-body,.opts,.prev-parts{max-width:100%;min-width:0}
+.q-body table,.ans-body table{display:block;max-width:100%;overflow-x:auto}
+.q-body .katex-display,.ans-body .katex-display{max-width:100%;overflow-x:auto;overflow-y:hidden}
+.main,.doc,article.q{min-width:0;max-width:100%}
