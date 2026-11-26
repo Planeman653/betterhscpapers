@@ -1,0 +1,677 @@
+{
+ "id": "ext2-2024-killara",
+ "course": "extension2",
+ "school": "Killara",
+ "year": 2024,
+ "type": "Trial",
+ "thsc": {
+  "viewno": 5348,
+  "title": "Killara 2024 w. sol"
+ },
+ "indexed": "2026-11-27",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q3",
+   "reason": "Shaded region is missing from the diagram in the available copy of the paper"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.6",
+    "12.1.2.2"
+   ],
+   "question": "From the statements given below, select the **TRUE** statement.",
+   "answer": "$x=y=0$ satisfies C. A fails outside $\\left[-\\frac\\pi2,\\frac\\pi2\\right]$, B fails for $A=-B\\ne0$, and D is not a set identity.",
+   "options": [
+    "$y=\\sin x\\iff x=\\sin^{-1}y$",
+    "$A^2=B^2\\implies A=B$",
+    "$\\exists\\, x,y\\in\\mathbb R:\\ \\sqrt{x^2+y^2}=x+y$",
+    "$(A\\cap B)\\cup C=A\\cap(B\\cup C)$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.11"
+   ],
+   "question": "The contrapositive of the statement “All counters in this box are blue” is best given by:",
+   "answer": "The statement is “in the box $\\Rightarrow$ blue”. Its contrapositive is “not blue $\\Rightarrow$ not in the box”.",
+   "options": [
+    "No counters in this box are blue.",
+    "All counters in this box are not blue.",
+    "No counters that are not blue are in this box.",
+    "All counters that are not blue are not in this box."
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.1",
+    "12.2.2.5"
+   ],
+   "question": "The right-angled triangle shown has sides represented by the vectors $\\underset{\\sim}{a},\\underset{\\sim}{b}$ and $\\underset{\\sim}{c}$. Which of the following statements is **FALSE**?",
+   "answer": "$\\underset{\\sim}{a}-\\underset{\\sim}{c}=\\underset{\\sim}{b}$, so $\\underset{\\sim}{b}\\cdot(\\underset{\\sim}{a}-\\underset{\\sim}{c})=|\\underset{\\sim}{b}|^2$, which is not $|\\underset{\\sim}{b}||\\underset{\\sim}{c}|$ in general.",
+   "options": [
+    "$\\underset{\\sim}{b}\\cdot(\\underset{\\sim}{a}-\\underset{\\sim}{c})=|\\underset{\\sim}{b}|^2$",
+    "$\\underset{\\sim}{b}\\cdot(\\underset{\\sim}{a}-\\underset{\\sim}{c})=|\\underset{\\sim}{b}||\\underset{\\sim}{c}|$",
+    "$\\underset{\\sim}{a}\\cdot\\underset{\\sim}{b}=|\\underset{\\sim}{a}||\\underset{\\sim}{b}|\\cos\\theta$",
+    "$\\underset{\\sim}{a}\\cdot\\underset{\\sim}{c}=|\\underset{\\sim}{a}||\\underset{\\sim}{c}|\\sin\\theta$"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/ext2-2024-killara/q4.png"
+   ]
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Which of the following is equivalent to $\\displaystyle\\int x^5\\sqrt{1-x^2}\\,dx$ (under a suitable substitution)?",
+   "answer": "Let $x=\\sin u$: $\\int\\sin^5u\\cos^2u\\,du=\\int(\\sin^5u-\\sin^7u)\\,du$.",
+   "options": [
+    "$\\int\\cos^5x\\sin x\\,dx$",
+    "$\\int\\cos^5x\\sin^2x\\,dx$",
+    "$\\int(\\sin^5x-\\sin^7x)\\,dx$",
+    "$\\int(\\sin^6x-\\sin^7x)\\,dx$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.4"
+   ],
+   "question": "A particle is moving in simple harmonic motion. A new force is applied that halves the period without changing the amplitude. What effect does this have on the magnitude of the velocity?",
+   "answer": "Halving $T=\\frac{2\\pi}{n}$ doubles $n$. Since $v^2=n^2(A^2-x^2)$, the speed at each position doubles.",
+   "options": [
+    "It remains unchanged.",
+    "It halves.",
+    "It doubles.",
+    "It quadruples."
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.3",
+    "12.3.2.8"
+   ],
+   "question": "Which of the following is always true for non-zero complex numbers $z_1,z_2$? ($\\operatorname{Arg}z$ is the principal argument.)",
+   "answer": "$e^{-2\\pi i}=1$, so C is always true. A and B can leave $(-\\pi,\\pi]$, and D fails in the second and third quadrants.",
+   "options": [
+    "$\\operatorname{Arg}\\left(\\frac{z_1}{z_2}\\right)=\\operatorname{Arg}z_1-\\operatorname{Arg}z_2$",
+    "$\\operatorname{Arg}(z_1z_2)=\\operatorname{Arg}z_1+\\operatorname{Arg}z_2$",
+    "$z_1=r_1e^{i\\theta_1},\\ z_2=r_2e^{i\\theta_2}\\Rightarrow\\frac{z_1}{z_2}=\\frac{r_1}{r_2}e^{(\\theta_1-\\theta_2-2\\pi)i}$",
+    "$z_1=x_1+iy_1,\\ z_2=x_2+iy_2\\Rightarrow\\operatorname{Arg}(z_1+z_2)=\\tan^{-1}\\left(\\frac{y_1+y_2}{x_1+x_2}\\right)$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.8",
+    "12.1.1.11"
+   ],
+   "question": "A local politician said, “If young people have access to good schools then they will become valued members of society!” Taking the converse and then the contrapositive of this statement, you would get:",
+   "answer": "For $P\\Rightarrow Q$, the converse is $Q\\Rightarrow P$, and its contrapositive is $\\neg P\\Rightarrow\\neg Q$.",
+   "options": [
+    "If young people do not have access to good schools then they will not become valued members of society.",
+    "If young people do not become valued members of society then they did not have access to good schools.",
+    "If young people become valued members of society then they had access to good schools.",
+    "If young people do not have access to good schools then they will become valued members of society."
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.15"
+   ],
+   "question": "Which of the following has the largest value?",
+   "answer": "A and D have non-positive integrands. B $=\\int_0^{2\\pi}(8+12\\cos x+6\\cos^2x+\\cos^3x)\\,dx=22\\pi$, while C $=\\frac{3\\pi}{4}$.",
+   "options": [
+    "$\\displaystyle\\int_0^2(x^2-4)\\sin^8x\\,dx$",
+    "$\\displaystyle\\int_0^{2\\pi}(2+\\cos x)^3\\,dx$",
+    "$\\displaystyle\\int_0^{2\\pi}\\sin^4x\\,dx$",
+    "$\\displaystyle\\int_0^{8\\pi}108(\\sin^3x-1)\\,dx$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.14",
+    "12.2.1.12"
+   ],
+   "question": "A curve follows a hyperbolic spiral such that $r=\\dfrac a\\theta$ in the $xy$ plane and wraps around the $z$ axis anticlockwise exactly three times for $z\\in[1,4]$. The point $P(1,0,1)$ lies on the curve. Which of the following best describes the curve?",
+   "answer": "D passes through $(1,0,1)$ at $t=\\frac12$. For $z=2t\\in[1,4]$ the angle $4\\pi t$ goes from $2\\pi$ to $8\\pi$: three anticlockwise turns, with $r=\\frac1{2t}=\\frac{2\\pi}{\\theta}$.",
+   "options": [
+    "$\\left(\\frac{\\sin2\\pi t}{t},\\frac{\\cos2\\pi t}{t},t\\right)$",
+    "$\\left(\\frac{\\sin4\\pi t}{t},\\frac{\\cos4\\pi t}{t},t\\right)$",
+    "$\\left(\\frac{\\cos4\\pi t}{t},\\frac{\\sin4\\pi t}{t},t\\right)$",
+    "$\\left(\\frac{\\cos4\\pi t}{2t},\\frac{\\sin4\\pi t}{2t},2t\\right)$"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/ext2-2024-killara/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.13"
+   ],
+   "question": "Express $\\dfrac{1+i}{\\sqrt3-i}$ in the form $a+ib$.",
+   "answer": "$$\\frac{1+i}{\\sqrt3-i}\\times\\frac{\\sqrt3+i}{\\sqrt3+i}=\\frac{(\\sqrt3-1)+(\\sqrt3+1)i}{4}=\\frac{\\sqrt3-1}{4}+\\frac{\\sqrt3+1}{4}i$$"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Find $\\displaystyle\\int\\sec^7x\\tan x\\,dx$.",
+   "answer": "Let $u=\\sec x$, $du=\\sec x\\tan x\\,dx$:$$\\int u^6\\,du=\\frac{\\sec^7x}{7}+C$$"
+  },
+  {
+   "ref": "Q11(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.3",
+    "12.3.2.6"
+   ],
+   "question": "Let $w=2e^{i\\frac\\pi3}$. Write $w^4$ in the form $a+ib$, where $a,b\\in\\mathbb R$.",
+   "answer": "$$w^4=16e^{\\frac{4\\pi i}{3}}=16\\left(\\cos\\tfrac{4\\pi}{3}+i\\sin\\tfrac{4\\pi}{3}\\right)=-8-8\\sqrt3\\,i$$"
+  },
+  {
+   "ref": "Q11(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "Let $w=2e^{i\\frac\\pi3}$. Find the smallest integer $k>4$ such that $w^k$ is a real number.",
+   "answer": "$w^k=2^ke^{\\frac{ik\\pi}{3}}$ is real when $\\frac{k\\pi}{3}$ is a multiple of $\\pi$, i.e. $k$ is a multiple of 3. The smallest with $k>4$ is $k=6$."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.3",
+    "12.2.2.5"
+   ],
+   "question": "Find the vector equation of the line through the point $A(6,-5,1)$ that is perpendicular to, and intersects, the line $\\underset{\\sim}{a}=\\lambda(-3,2,-2)$.",
+   "answer": "The foot of the perpendicular from $A$ is the projection of $\\overrightarrow{OA}$ onto $\\underset{\\sim}{d}=(-3,2,-2)$:\n$$\\frac{\\overrightarrow{OA}\\cdot\\underset{\\sim}{d}}{|\\underset{\\sim}{d}|^2}\\underset{\\sim}{d}=\\frac{-30}{17}(-3,2,-2)=\\left(\\tfrac{90}{17},-\\tfrac{60}{17},\\tfrac{60}{17}\\right)$$\nDirection from $A$ to the foot: $\\frac1{17}(-12,25,43)$. So\n$$\\underset{\\sim}{r}=(6,-5,1)+\\mu(-12,25,43)$$"
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.5",
+    "12.4.1.9"
+   ],
+   "question": "By using the substitution $t=\\tan\\left(\\dfrac x2\\right)$, find $\\displaystyle\\int\\frac{1}{\\cos x-2\\sin x+3}\\,dx$.",
+   "answer": "$dx=\\dfrac{2\\,dt}{1+t^2}$, $\\cos x=\\dfrac{1-t^2}{1+t^2}$, $\\sin x=\\dfrac{2t}{1+t^2}$.\n$$I=\\int\\frac{2\\,dt}{1-t^2-4t+3(1+t^2)}=\\int\\frac{dt}{t^2-2t+2}=\\int\\frac{dt}{(t-1)^2+1}$$\n$$=\\tan^{-1}\\left(\\tan\\tfrac x2-1\\right)+C$$"
+  },
+  {
+   "ref": "Q11(f)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.4"
+   ],
+   "question": "Find the solutions to $z^2-8z+25=0$ where $z$ is a complex number.",
+   "answer": "$$z=\\frac{8\\pm\\sqrt{64-100}}{2}=4\\pm3i$$"
+  },
+  {
+   "ref": "Q11(g)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.10",
+    "12.5.2.9"
+   ],
+   "question": "A mass is attached to a spring. It is pulled down and then released, after which it begins oscillating in simple harmonic motion. Initially the mass has a height of $2\\sqrt5$ cm above the ground before being released and it reaches its highest point $4\\sqrt5$ cm after $\\dfrac\\pi6$ seconds. Find an equation for the height above the ground $y$ in terms of $t$.",
+   "answer": "Half a period is $\\frac\\pi6$, so $T=\\frac\\pi3$ and $n=6$.\nCentre $=\\dfrac{4\\sqrt5+2\\sqrt5}{2}=3\\sqrt5$, amplitude $=\\sqrt5$. The motion starts at the lowest point, so\n$$y=3\\sqrt5-\\sqrt5\\cos6t$$"
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.2"
+   ],
+   "question": "If $a,b,c>0$, prove that $a^2+b^2+c^2\\ge bc+ca+ab$.",
+   "answer": "$(a-b)^2\\ge0\\Rightarrow a^2+b^2\\ge2ab$. Similarly $b^2+c^2\\ge2bc$ and $c^2+a^2\\ge2ca$.\nAdding: $2(a^2+b^2+c^2)\\ge2(ab+bc+ca)$, so $a^2+b^2+c^2\\ge bc+ca+ab$."
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "If $a,b,c>0$, prove that $2(a^3+b^3+c^3)\\ge bc(b+c)+ca(c+a)+ab(a+b)$.",
+   "answer": "Since $a^2+b^2\\ge2ab$ and $a+b>0$:\n$$(a^2+b^2)(a+b)\\ge2ab(a+b)$$\n$$a^3+b^3+ab(a+b)\\ge2ab(a+b)\\ \\Rightarrow\\ a^3+b^3\\ge ab(a+b)$$\nSimilarly $b^3+c^3\\ge bc(b+c)$ and $c^3+a^3\\ge ca(c+a)$. Adding the three gives the result."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "Prove that $\\sqrt{15}$ is irrational.",
+   "answer": "Suppose $\\sqrt{15}=\\dfrac pq$ with $p,q$ coprime integers, $q\\ne0$. Then $p^2=15q^2$.\nSo 3 and 5 divide $p^2$; both are prime, so both divide $p$, hence $p=15k$.\nThen $225k^2=15q^2$, so $q^2=15k^2$ and by the same argument $15$ divides $q$.\nThis contradicts $p,q$ being coprime. Hence $\\sqrt{15}$ is irrational."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.12"
+   ],
+   "question": "At time $t$, the position vectors of two points $P$ and $Q$ are $\\underset{\\sim}{p}=2t\\,\\mathbf i+(3t^2-4t)\\mathbf j+t^3\\mathbf k$ and $\\underset{\\sim}{q}=t^3\\mathbf i-2t\\,\\mathbf j+(2t^2-1)\\mathbf k$. Find the velocity and acceleration of $Q$ relative to $P$ when $t=3$.",
+   "answer": "$$\\underset{\\sim}{q}-\\underset{\\sim}{p}=(t^3-2t)\\mathbf i+(2t-3t^2)\\mathbf j+(2t^2-1-t^3)\\mathbf k$$\n$$\\underset{\\sim}{v}=(3t^2-2)\\mathbf i+(2-6t)\\mathbf j+(4t-3t^2)\\mathbf k,\\qquad\\underset{\\sim}{v}(3)=25\\mathbf i-16\\mathbf j-15\\mathbf k$$\n$$\\underset{\\sim}{a}=6t\\,\\mathbf i-6\\mathbf j+(4-6t)\\mathbf k,\\qquad\\underset{\\sim}{a}(3)=18\\mathbf i-6\\mathbf j-14\\mathbf k$$"
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.13",
+    "12.4.1.8"
+   ],
+   "question": "Find $\\displaystyle\\int\\ln(x^2-1)\\,dx$.",
+   "answer": "By parts:\n$$I=x\\ln(x^2-1)-\\int\\frac{2x^2}{x^2-1}\\,dx=x\\ln(x^2-1)-\\int\\left(2+\\frac1{x-1}-\\frac1{x+1}\\right)dx$$\n$$=x\\ln(x^2-1)-2x+\\ln\\left|\\frac{x+1}{x-1}\\right|+C$$"
+  },
+  {
+   "ref": "Q12(e)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.3.3"
+   ],
+   "question": "Given that $3-i$ is a root of $P(x)=3x^4-6x^3-27x^2+30x+150$, explain why $3+i$ is also a root.",
+   "answer": "$P(x)$ has real coefficients, so non-real roots occur in conjugate pairs (conjugate root theorem). Hence $\\overline{3-i}=3+i$ is also a root."
+  },
+  {
+   "ref": "Q12(e)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "Given that $3-i$ is a root of $P(x)=3x^4-6x^3-27x^2+30x+150$, find all remaining roots of $P(x)$.",
+   "answer": "$3+i$ is a root. Let the other two be $\\alpha,\\beta$.\nSum: $6+\\alpha+\\beta=2\\Rightarrow\\alpha+\\beta=-4$. Product: $10\\alpha\\beta=50\\Rightarrow\\alpha\\beta=5$.\nSo $\\alpha,\\beta$ satisfy $x^2+4x+5=0$: $x=-2\\pm i$.\nRemaining roots: $3+i,\\ -2+i,\\ -2-i$."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.2"
+   ],
+   "question": "Prove or refute the following: for any list of primes $p_1,\\dots,p_n$, the number $(p_1p_2\\cdots p_n)+1$ is prime.",
+   "answer": "The statement is false. Counterexample: for the primes $3,5$, $3\\times5+1=16=2^4$, which is not prime."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.1",
+    "12.1.2.3"
+   ],
+   "question": "Prove by mathematical induction that $x^n-y^n$ is divisible by $x+y$ when $n$ is even.",
+   "answer": "**Base case** $n=2$: $x^2-y^2=(x+y)(x-y)$, divisible by $x+y$.\n**Assume** true for even $n=k$: $x^k-y^k=(x+y)M(x,y)$ for a polynomial $M$.\n**For** $n=k+2$:\n$$x^{k+2}-y^{k+2}=x^2(x^k-y^k)+y^k(x^2-y^2)=(x+y)\\left[x^2M(x,y)+y^k(x-y)\\right]$$\nwhich is divisible by $x+y$. Hence by induction the result holds for all positive even $n$."
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "Let $\\underset{\\sim}{u}=\\underset{\\sim}{i}+\\underset{\\sim}{j}+z\\underset{\\sim}{k}$ and $\\underset{\\sim}{v}=2\\underset{\\sim}{i}-\\underset{\\sim}{j}+3\\underset{\\sim}{k}$. Find all $z$ such that the angle between $\\underset{\\sim}{u}$ and $\\underset{\\sim}{v}$ is $\\dfrac\\pi3$.",
+   "answer": "$$\\cos\\tfrac\\pi3=\\frac{1+3z}{\\sqrt{z^2+2}\\sqrt{14}}=\\frac12\\ \\Rightarrow\\ 2+6z=\\sqrt{14(z^2+2)}$$\nThis requires $1+3z>0$. Squaring: $22z^2+24z-24=0$, i.e. $11z^2+12z-12=0$, so $z=\\dfrac{-6\\pm2\\sqrt{42}}{11}$.\nSince $1+3z>0$, the only solution is $z=\\dfrac{-6+2\\sqrt{42}}{11}$."
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.12",
+    "12.3.2.9"
+   ],
+   "question": "For complex numbers $z,w$ lying on the unit circle (with $zw\\ne1$), prove that $\\dfrac{z-w}{1-zw}$ is real.",
+   "answer": "Since $|z|=|w|=1$, $\\bar z=\\frac1z$ and $\\bar w=\\frac1w$. Let $u=\\dfrac{z-w}{1-zw}$. Then\n$$\\bar u=\\frac{\\frac1z-\\frac1w}{1-\\frac1{zw}}=\\frac{w-z}{zw-1}=\\frac{z-w}{1-zw}=u$$\nAs $\\bar u=u$, $u$ is real."
+  },
+  {
+   "ref": "Q13(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.5.1",
+    "12.5.5.2"
+   ],
+   "question": "A particle is fired vertically upwards from the ground with initial velocity $u$. It experiences a force from air resistance of magnitude $|F|=0.098mv^2$, as well as the gravitational force. Show that its height $y$ when its velocity is $v$ is $$y=\\frac{250}{49}\\log_e\\frac{100+u^2}{100+v^2}.$$ You may assume $g=9.8$ m s$^{-2}$.",
+   "answer": "Taking up as positive:\n$$m\\ddot y=-9.8m-0.098mv^2\\ \\Rightarrow\\ v\\frac{dv}{dy}=-0.098(100+v^2)$$\n$$\\int_u^v\\frac{v\\,dv}{100+v^2}=-0.098\\int_0^y dy$$\n$$\\tfrac12\\ln\\frac{100+v^2}{100+u^2}=-0.098y$$\n$$y=\\frac{1}{0.196}\\ln\\frac{100+u^2}{100+v^2}=\\frac{250}{49}\\ln\\frac{100+u^2}{100+v^2}$$\n*Note: the paper prints $\\frac{100-u^2}{100-v^2}$, which is wrong for upward motion; the signs should be $+$ (as above).*"
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.2.3"
+   ],
+   "question": "Prove that, for any integer greater than one, there is only one prime factorisation (up to the order of the factors).",
+   "answer": "Suppose some integer greater than 1 has two different prime factorisations, and let $A$ be the smallest such integer:\n$$A=p_1p_2\\cdots p_r=q_1q_2\\cdots q_s$$\n$p_1$ divides $q_1q_2\\cdots q_s$. A prime dividing a product divides one of its factors, so (reordering) $p_1\\mid q_1$, and since $q_1$ is prime, $p_1=q_1$.\nCancelling gives $\\dfrac{A}{p_1}=p_2\\cdots p_r=q_2\\cdots q_s$.\nIf $\\frac A{p_1}=1$ both factorisations were just $p_1$. Otherwise $\\frac A{p_1}$ is a smaller integer greater than 1 whose two factorisations still differ, contradicting the minimality of $A$.\nHence every integer greater than 1 has only one prime factorisation."
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Show that $\\displaystyle\\int_a^bf(x)\\,dx=\\int_a^bf(a+b-x)\\,dx$.",
+   "answer": "In the right side let $u=a+b-x$, $du=-dx$; $x=a\\Rightarrow u=b$, $x=b\\Rightarrow u=a$:$$\\int_a^bf(a+b-x)\\,dx=-\\int_b^af(u)\\,du=\\int_a^bf(u)\\,du=\\int_a^bf(x)\\,dx$$"
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.15"
+   ],
+   "question": "Using $\\displaystyle\\int_a^bf(x)\\,dx=\\int_a^bf(a+b-x)\\,dx$, or otherwise, evaluate $\\displaystyle\\int_{-1}^1\\frac{x^2}{1+e^x}\\,dx$.",
+   "answer": "$$I=\\int_{-1}^1\\frac{x^2}{1+e^{-x}}\\,dx=\\int_{-1}^1\\frac{x^2e^x}{e^x+1}\\,dx$$\nAdding to the original: $2I=\\displaystyle\\int_{-1}^1\\frac{x^2(1+e^x)}{1+e^x}\\,dx=\\int_{-1}^1x^2\\,dx=\\frac23$, so $I=\\dfrac13$."
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.11",
+    "12.2.2.5"
+   ],
+   "question": "Find the shortest distance between the lines $\\vec r_1=(\\hat i+2\\hat j+\\hat k)+\\lambda(\\hat i-\\hat j+\\hat k)$ and $\\vec r_2=(2\\hat i-\\hat j-\\hat k)+\\mu(2\\hat i+\\hat j+2\\hat k)$.",
+   "answer": "Let $P$ and $Q$ be points on the lines: $\\overrightarrow{PQ}=(1+2\\mu-\\lambda,\\ -3+\\mu+\\lambda,\\ -2+2\\mu-\\lambda)$.\nThe shortest $PQ$ is perpendicular to both directions:\n$$\\overrightarrow{PQ}\\cdot(1,-1,1)=0\\Rightarrow3\\mu-3\\lambda+2=0$$\n$$\\overrightarrow{PQ}\\cdot(2,1,2)=0\\Rightarrow9\\mu-3\\lambda-5=0$$\nSo $\\mu=\\frac76$, $\\lambda=\\frac{11}6$ and $\\overrightarrow{PQ}=\\left(\\frac32,0,-\\frac32\\right)$.\nShortest distance $=\\dfrac{3\\sqrt2}{2}$."
+  },
+  {
+   "ref": "Q14(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.5",
+    "12.3.2.10"
+   ],
+   "question": "If $z_1$ and $z_2$ are complex numbers such that $|z_1-5+3i|\\le4$ and $|z_2-5i|\\le2$, find the maximum and minimum values of $|z_1-z_2|$.",
+   "answer": "$z_1$ lies in the disc centre $5-3i$, radius 4; $z_2$ in the disc centre $5i$, radius 2.\nDistance between centres $=\\sqrt{5^2+8^2}=\\sqrt{89}>6$, so the discs do not overlap. Along the line of centres:\n$$\\max|z_1-z_2|=\\sqrt{89}+6,\\qquad\\min|z_1-z_2|=\\sqrt{89}-6$$"
+  },
+  {
+   "ref": "Q14(e)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.15",
+    "12.4.1.6"
+   ],
+   "question": "Find $\\displaystyle\\int e^x\\sqrt{10e^x-e^{2x}}\\,dx$.",
+   "answer": "Let $u=e^x$: $I=\\displaystyle\\int\\sqrt{10u-u^2}\\,du=\\int\\sqrt{25-(u-5)^2}\\,du$.\nLet $u-5=5\\sin\\theta$:\n$$I=25\\int\\cos^2\\theta\\,d\\theta=\\frac{25}{2}\\left(\\theta+\\sin\\theta\\cos\\theta\\right)+C$$\n$$=\\frac{25}{2}\\sin^{-1}\\left(\\frac{e^x-5}{5}\\right)+\\frac{(e^x-5)\\sqrt{10e^x-e^{2x}}}{2}+C$$"
+  },
+  {
+   "ref": "Q15(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.5.1"
+   ],
+   "question": "A device of mass 2 kg is released from rest at the ocean's surface and sinks in a vertical line. The water exerts a resistance of $4v$ newtons to its motion, where $v$ m s$^{-1}$ is the velocity of the device $t$ seconds after release. By considering the forces acting on the device, show that its acceleration is $a=g-2v$.",
+   "answer": "The forces are the weight $2g$ downwards and the resistance $4v$ upwards (diagram). Taking down as positive:\n$$2a=2g-4v\\ \\Rightarrow\\ a=g-2v$$",
+   "answer_images": [
+    "assets/img/ext2-2024-killara/a15a.png"
+   ]
+  },
+  {
+   "ref": "Q15(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.5.2"
+   ],
+   "question": "A device of mass 2 kg is released from rest at the ocean's surface and sinks in a vertical line. The water exerts a resistance of $4v$ newtons to its motion, where $v$ m s$^{-1}$ is the velocity of the device $t$ seconds after release. Given $a=g-2v$, find an expression for $t$ in terms of $g$ and $v$.",
+   "answer": "$$\\frac{dv}{dt}=g-2v\\ \\Rightarrow\\ t=\\int_0^v\\frac{dv}{g-2v}=-\\tfrac12\\Big[\\ln(g-2v)\\Big]_0^v=\\tfrac12\\ln\\frac{g}{g-2v}$$"
+  },
+  {
+   "ref": "Q15(a)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.5.5"
+   ],
+   "question": "A device of mass 2 kg is released from rest at the ocean's surface and sinks in a vertical line. The water exerts a resistance of $4v$ newtons to its motion, where $v$ m s$^{-1}$ is the velocity of the device $t$ seconds after release. Given $a=g-2v$, state the terminal velocity.",
+   "answer": "Terminal velocity occurs when $a=0$: $v=\\dfrac g2$ ($=4.9$ m s$^{-1}$ for $g=9.8$)."
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.5"
+   ],
+   "question": "Two masses of 5 kg and 2 kg are connected by a light inextensible string passing over a pulley. The 5 kg mass rests on a rough plane inclined at $30^\\circ$ and the 2 kg mass hangs under the pulley. The masses are at rest before being released. Describe, with a diagram, the forces acting on each mass.",
+   "answer": "**5 kg mass:** weight $5g$ vertically down; normal reaction $R$ perpendicular to the plane; tension $T$ up the plane; friction $F$ up the plane (without friction it would tend to slide down, since $5g\\sin30^\\circ=2.5g>2g$).\n**2 kg mass:** weight $2g$ down; tension $T$ up.",
+   "images": [
+    "assets/img/ext2-2024-killara/q15b.png"
+   ],
+   "answer_images": [
+    "assets/img/ext2-2024-killara/a15b.png"
+   ]
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.1.5",
+    "12.5.1.3"
+   ],
+   "question": "Two masses of 5 kg and 2 kg are connected by a light inextensible string passing over a pulley. The 5 kg mass rests on a rough plane inclined at $30^\\circ$ and the 2 kg mass hangs under the pulley. The masses are at rest before being released. If the coefficient of friction is 0.3, find the net force on the 5 kg mass.",
+   "answer": "Component of weight down the plane: $5g\\sin30^\\circ=2.5g$. Pull of the string (from the 2 kg mass): $2g$ up the plane.\nSo the force tending to move the 5 kg mass is $0.5g=4.9$ N down the plane.\nMaximum available friction: $0.3\\times5g\\cos30^\\circ=1.5g\\cdot\\frac{\\sqrt3}{2}\\approx12.7$ N, which exceeds 4.9 N.\nSo the system stays at rest: friction is only $4.9$ N up the plane, and the **net force on the 5 kg mass is zero**.\n*Note: the school's solution applies the full limiting friction and gets a negative driving force $\\frac57\\left(\\frac12-\\frac{3\\sqrt3}{4}\\right)g$ N. Friction cannot reverse the motion, so that is incorrect.*",
+   "images": [
+    "assets/img/ext2-2024-killara/q15b.png"
+   ]
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "For $I_n=\\displaystyle\\int_0^a(a-x)^n\\cos x\\,dx$, $a>0$, $n\\ge0$, show that for $n\\ge2$, $I_n=na^{n-1}-n(n-1)I_{n-2}$.",
+   "answer": "$$I_n=\\Big[(a-x)^n\\sin x\\Big]_0^a+n\\int_0^a(a-x)^{n-1}\\sin x\\,dx$$\nThe first term is 0. By parts again:\n$$I_n=n\\left(\\Big[-(a-x)^{n-1}\\cos x\\Big]_0^a-(n-1)\\int_0^a(a-x)^{n-2}\\cos x\\,dx\\right)$$\n$$=n\\left(a^{n-1}-(n-1)I_{n-2}\\right)=na^{n-1}-n(n-1)I_{n-2}$$"
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "For $I_n=\\displaystyle\\int_0^a(a-x)^n\\cos x\\,dx$ with $I_n=na^{n-1}-n(n-1)I_{n-2}$, evaluate $\\displaystyle\\int_0^{\\frac\\pi2}\\left(\\frac\\pi2-x\\right)^2\\cos x\\,dx$.",
+   "answer": "$I_0=\\int_0^{\\pi/2}\\cos x\\,dx=1$, so $I_2=2\\left(\\frac\\pi2\\right)-2(1)I_0=\\pi-2$."
+  },
+  {
+   "ref": "Q16(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.12"
+   ],
+   "question": "Let the points $A_1,\\dots,A_n$ represent the $n$th roots of unity $w_1,\\dots,w_n$ ($n\\ge2$), and suppose $P$ represents any complex number $z$ with $|z|=1$. Prove that $w_1+w_2+\\cdots+w_n=0$.",
+   "answer": "$w_1,\\dots,w_n$ are the roots of $z^n-1=0$. The sum of roots is minus the coefficient of $z^{n-1}$, which is $0$ for $n\\ge2$."
+  },
+  {
+   "ref": "Q16(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.11",
+    "12.3.4.9"
+   ],
+   "question": "Let the points $A_1,\\dots,A_n$ represent the $n$th roots of unity $w_1,\\dots,w_n$ ($n\\ge2$), and suppose $P$ represents any complex number $z$ with $|z|=1$. Show that $|PA_i|^2=(z-w_i)(\\bar z-\\overline{w_i})$ for $i=1,2,\\dots,n$.",
+   "answer": "$|PA_i|=|z-w_i|$, so $|PA_i|^2=(z-w_i)\\overline{(z-w_i)}=(z-w_i)(\\bar z-\\overline{w_i})$."
+  },
+  {
+   "ref": "Q16(a)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.12",
+    "12.3.4.11"
+   ],
+   "question": "Let the points $A_1,\\dots,A_n$ represent the $n$th roots of unity $w_1,\\dots,w_n$ ($n\\ge2$), and suppose $P$ represents any complex number $z$ with $|z|=1$. Prove that $\\displaystyle\\sum_{i=1}^n|PA_i|^2=2n$.",
+   "answer": "$$\\sum|PA_i|^2=\\sum(z\\bar z-z\\overline{w_i}-\\bar zw_i+w_i\\overline{w_i})=\\sum2-z\\,\\overline{\\sum w_i}-\\bar z\\sum w_i$$\nsince $|z|=|w_i|=1$. As $\\sum w_i=0$ (sum of the roots of $z^n-1=0$), the sum is $2n$."
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.3.2"
+   ],
+   "question": "Let $f(x)=1+x^2$ and let $x_1$ be a real number. For $n=1,2,3,\\dots$ define $x_{n+1}=x_n-\\dfrac{f(x_n)}{f'(x_n)}$ (you may assume $f'(x_n)\\ne0$). Show that $|x_{n+1}-x_n|\\ge1$ for $n=1,2,3,\\dots$",
+   "answer": "$|x_{n+1}-x_n|=\\dfrac{1+x_n^2}{2|x_n|}$. Since $(|x_n|-1)^2\\ge0$, $1+x_n^2\\ge2|x_n|$, so $|x_{n+1}-x_n|\\ge1$."
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.11"
+   ],
+   "question": "Graph the function $y=\\cot\\theta$ for $0<\\theta<\\pi$.",
+   "answer": "The graph decreases from $+\\infty$ (asymptote $\\theta=0$), crosses the axis at $\\theta=\\frac\\pi2$, and tends to $-\\infty$ (asymptote $\\theta=\\pi$).",
+   "answer_images": [
+    "assets/img/ext2-2024-killara/a16b.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.3",
+    "12.1.1.6"
+   ],
+   "question": "Let $f(x)=1+x^2$ and let $x_1$ be a real number. For $n=1,2,3,\\dots$ define $x_{n+1}=x_n-\\dfrac{f(x_n)}{f'(x_n)}$ (you may assume $f'(x_n)\\ne0$). Using the graph of $y=\\cot\\theta$ for $0<\\theta<\\pi$, show that there exists a real number $\\theta_n$ such that $x_n=\\cot\\theta_n$ where $0<\\theta_n<\\pi$.",
+   "answer": "On $(0,\\pi)$, $\\cot\\theta$ is continuous and decreases from $+\\infty$ to $-\\infty$, so it takes every real value exactly once. Hence for each real $x_n$ there is a $\\theta_n\\in(0,\\pi)$ with $\\cot\\theta_n=x_n$."
+  },
+  {
+   "ref": "Q16(b)(iv)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.5"
+   ],
+   "question": "Let $f(x)=1+x^2$ and let $x_1$ be a real number. For $n=1,2,3,\\dots$ define $x_{n+1}=x_n-\\dfrac{f(x_n)}{f'(x_n)}$ (you may assume $f'(x_n)\\ne0$). With $x_n=\\cot\\theta_n$, $0<\\theta_n<\\pi$, deduce that $\\cot\\theta_{n+1}=\\cot2\\theta_n$ for $n=1,2,3,\\dots$ [You may assume $\\tan2\\theta=\\dfrac{2\\tan\\theta}{1-\\tan^2\\theta}$.]",
+   "answer": "$$\\cot2\\theta=\\frac{1-\\tan^2\\theta}{2\\tan\\theta}=\\frac{\\cot^2\\theta-1}{2\\cot\\theta}$$\n$$\\cot\\theta_{n+1}=x_{n+1}=x_n-\\frac{1+x_n^2}{2x_n}=\\frac{x_n^2-1}{2x_n}=\\frac{\\cot^2\\theta_n-1}{2\\cot\\theta_n}=\\cot2\\theta_n$$"
+  },
+  {
+   "ref": "Q16(b)(v)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.1.2.3",
+    "12.4.1.5"
+   ],
+   "question": "Let $f(x)=1+x^2$ and let $x_1$ be a real number. For $n=1,2,3,\\dots$ define $x_{n+1}=x_n-\\dfrac{f(x_n)}{f'(x_n)}$ (you may assume $f'(x_n)\\ne0$). Find all points $x_1$ such that, for some $n$, $x_1=x_{n+1}$. (You may use $x_n=\\cot\\theta_n$ with $0<\\theta_n<\\pi$ and $\\cot\\theta_{n+1}=\\cot2\\theta_n$.)",
+   "answer": "Since $\\cot$ has period $\\pi$, $\\theta_{n+1}$ differs from $2\\theta_n$ by a multiple of $\\pi$, so $\\theta_{n+1}=2^n\\theta_1-k\\pi$ for an integer $k$.\n$x_1=x_{n+1}\\iff\\theta_{n+1}=\\theta_1\\iff(2^n-1)\\theta_1=m\\pi$ for an integer $m$.\nSo $\\theta_1=\\dfrac{m\\pi}{2^n-1}$ with $0<\\theta_1<\\pi$:\n$$x_1=\\cot\\frac{m\\pi}{2^n-1},\\qquad n\\ge2,\\ m=1,2,\\dots,2^n-2$$\n(No iterate has $x_k=0$, since $2^n-1$ is odd.) For example $x_1=\\frac1{\\sqrt3}$ gives $x_2=-\\frac1{\\sqrt3}$, $x_3=\\frac1{\\sqrt3}$."
+  }
+ ]
+}
