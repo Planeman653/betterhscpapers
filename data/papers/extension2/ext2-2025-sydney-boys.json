@@ -1,0 +1,728 @@
+{
+ "id": "ext2-2025-sydney-boys",
+ "course": "extension2",
+ "school": "Sydney Boys",
+ "year": 2025,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "Sydney Boys 2025 w. sol"
+ },
+ "indexed": "2026-11-26",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q6",
+   "reason": "Not in 2024 syllabus: exponential (Euler) form of a complex number, |e^{iz}|"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.5",
+    "12.3.2.4"
+   ],
+   "question": "Let $\\alpha$ be the complex number plotted on the Argand diagram below. Which expression is equal to $(\\overline{\\alpha})^{-1}$?",
+   "answer": "From the diagram $\\alpha=2\\operatorname{cis}\\frac{2\\pi}{7}$, so $\\overline\\alpha=2\\operatorname{cis}\\left(-\\frac{2\\pi}{7}\\right)$ and $(\\overline\\alpha)^{-1}=\\frac12\\operatorname{cis}\\frac{2\\pi}{7}$ (C).",
+   "images": [
+    "assets/img/ext2-2025-sydney-boys/q1.png"
+   ],
+   "options": [
+    "$\\dfrac12\\left(\\cos\\dfrac{2\\pi}{7}-i\\sin\\dfrac{2\\pi}{7}\\right)$",
+    "$2\\left(\\cos\\dfrac{2\\pi}{7}-i\\sin\\dfrac{2\\pi}{7}\\right)$",
+    "$\\dfrac12\\left(\\cos\\dfrac{2\\pi}{7}+i\\sin\\dfrac{2\\pi}{7}\\right)$",
+    "$2\\left(\\cos\\dfrac{2\\pi}{7}+i\\sin\\dfrac{2\\pi}{7}\\right)$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.3.2",
+    "12.3.3.3"
+   ],
+   "question": "A polynomial with positive integer coefficients has roots $2$ and $4-5i$. Which of the following must also be a root?",
+   "answer": "The coefficients are real, so by the conjugate root theorem $\\overline{4-5i}=4+5i$ is also a root.",
+   "options": [
+    "$5-4i$",
+    "$4+5i$",
+    "$5+4i$",
+    "$-4+5i$"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.5"
+   ],
+   "question": "Using a $t$-substitution, which of the following is equivalent to $\\displaystyle\\int\\frac{dx}{1-\\sin x-\\cos x}$?",
+   "answer": "With $t=\\tan\\frac x2$, $dx=\\frac{2\\,dt}{1+t^2}$ and $1-\\sin x-\\cos x=\\frac{(1+t^2)-2t-(1-t^2)}{1+t^2}=\\frac{2t^2-2t}{1+t^2}$. So the integral is $\\int\\frac{2\\,dt}{2t^2-2t}=\\int\\frac{dt}{t^2-t}$.",
+   "options": [
+    "$\\displaystyle\\int\\frac{dt}{t^2-t}$",
+    "$\\displaystyle\\int\\frac{2\\,dt}{t^2-t}$",
+    "$\\displaystyle-\\int\\frac{dt}{t}$",
+    "$\\displaystyle-\\int\\frac{2\\,dt}{t}$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.12",
+    "12.3.1.11"
+   ],
+   "question": "If $|z|=1$ and $w=\\dfrac{z-1}{z+1}$ (where $z\\ne-1$), which of the following is equal to $\\text{Re}(w)$?",
+   "answer": "$w=\\dfrac{(z-1)(\\overline z+1)}{|z+1|^2}=\\dfrac{|z|^2+z-\\overline z-1}{|z+1|^2}=\\dfrac{2i\\,\\text{Im}(z)}{|z+1|^2}$, which is purely imaginary, so $\\text{Re}(w)=0$.",
+   "options": [
+    "$0$",
+    "$\\dfrac{1}{|z+1|^2}$",
+    "$\\left|\\dfrac{1}{z+1}\\right|\\cdot\\dfrac{1}{|z+1|^2}$",
+    "$\\dfrac{\\sqrt2}{|z+1|^2}$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.5.1.1"
+   ],
+   "question": "A particle moves in a straight line with acceleration $a=\\dfrac{1}{\\sqrt{x+1}}$ m/s². It is initially at the origin, moving to the right at 2 m/s. At what position will it first reach a speed of 4 m/s?",
+   "answer": "$v\\dfrac{dv}{dx}=(x+1)^{-1/2}\\Rightarrow\\left[\\tfrac12v^2\\right]_2^4=\\left[2\\sqrt{x+1}\\right]_0^x\\Rightarrow 6=2\\sqrt{x+1}-2\\Rightarrow x=15$.",
+   "images": [
+    "assets/img/ext2-2025-sydney-boys/q5.png"
+   ],
+   "options": [
+    "$x=8$",
+    "$x=9$",
+    "$x=15$",
+    "$x=16$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.4",
+    "12.5.2.6"
+   ],
+   "question": "A particle is executing simple harmonic motion with a period of $T$ seconds. At time $t=0$ it is at its centre of motion. Which of the following would be the best graph of $v^2$ against time?",
+   "answer": "At the centre the speed is greatest, so $v^2$ is a maximum at $t=0$. It is zero a quarter period later (an extremity) and a maximum again after half a period. This is graph B.",
+   "options": [
+    "![Graph A](assets/img/ext2-2025-sydney-boys/q7a.png)",
+    "![Graph B](assets/img/ext2-2025-sydney-boys/q7b.png)",
+    "![Graph C](assets/img/ext2-2025-sydney-boys/q7c.png)",
+    "![Graph D](assets/img/ext2-2025-sydney-boys/q7d.png)"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "course": "extension1",
+   "dotpoints": [
+    "12.2.3.7"
+   ],
+   "question": "Find the magnitude of the vector $\\mathbf{u}=\\mathbf{i}+\\tan\\theta\\,\\mathbf{j}$ for $\\theta\\in\\left(\\dfrac{\\pi}{2},\\pi\\right)$.",
+   "answer": "$|\\mathbf u|=\\sqrt{1+\\tan^2\\theta}=|\\sec\\theta|=-\\sec\\theta$ since $\\sec\\theta<0$ in the second quadrant.",
+   "options": [
+    "$1$",
+    "$\\sec\\theta$",
+    "$\\tan\\theta$",
+    "$-\\sec\\theta$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.12",
+    "12.3.4.5"
+   ],
+   "question": "$\\omega$ is a non-real cube root of unity and $n$ is an even positive integer. Evaluate\n$$(1+\\omega)(1+\\omega^2)(1+\\omega^4)(1+\\omega^8)\\cdots\\left(1+\\omega^{2^n}\\right).$$",
+   "answer": "$\\omega^{2^k}$ is $\\omega$ for even $k$ and $\\omega^2$ for odd $k$. Each pair $(1+\\omega)(1+\\omega^2)=2+\\omega+\\omega^2=1$. There are $n+1$ factors, so one unpaired factor $1+\\omega=-\\omega^2=-\\dfrac1\\omega$ remains.",
+   "options": [
+    "$1$",
+    "$\\omega$",
+    "$\\dfrac1\\omega$",
+    "$-\\dfrac1\\omega$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.5.5",
+    "12.3.5.4"
+   ],
+   "question": "Let $\\alpha,\\beta\\in\\mathbb C$ with $\\text{Im}(\\alpha)=\\text{Im}(\\beta)$ and $\\text{Re}(\\alpha)>\\text{Re}(\\beta)$. Which of the following equations can be used to find the set of values of $z$ where $\\text{Arg}(z-\\alpha)=2\\,\\text{Arg}(z-\\beta)$?",
+   "answer": "In the triangle with vertices $z,\\alpha,\\beta$, the exterior angle at $\\alpha$ is twice the interior angle at $\\beta$, so the angle at $z$ equals the angle at $\\beta$. The triangle is isosceles: $|z-\\alpha|=|\\beta-\\alpha|$. (Equivalently, the angle at the centre $\\alpha$ is twice the angle at the circumference.)",
+   "options": [
+    "$|z-\\alpha|=|\\beta-\\alpha|$",
+    "$|z-\\beta|=|\\beta-\\alpha|$",
+    "$|z-\\alpha|=|z-\\beta|^2$",
+    "$|z-\\beta|=|z-\\alpha|^2$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.10",
+    "12.3.1.9"
+   ],
+   "question": "Let $z=5-12i$ and $w=3+4i$. Find $v$ such that $3\\overline v=z-2\\overline w$.",
+   "answer": "$$3\\overline v=5-12i-2(3-4i)=-1-4i$$\nTaking conjugates, $3v=-1+4i$, so $v=-\\dfrac13+\\dfrac43i$."
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.13"
+   ],
+   "question": "Let $z=5-12i$ and $w=3+4i$. Find the value of $\\dfrac2w+z$.",
+   "answer": "$$\\frac{2}{3+4i}+5-12i=\\frac{2(3-4i)}{25}+5-12i=\\frac{131}{25}-\\frac{308}{25}i$$"
+  },
+  {
+   "ref": "Q11(a)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.14"
+   ],
+   "question": "Let $z=5-12i$ and $w=3+4i$. Find $u$ such that $u$ is a square root of $zw$. Give your answer in the form $a+ib$, where $a,b$ are real and $a>0$.",
+   "answer": "$zw=(5-12i)(3+4i)=63-16i$. Let $(a+ib)^2=63-16i$:\n$$a^2-b^2=63,\\quad 2ab=-16,\\quad a^2+b^2=|63-16i|=65.$$\nAdding, $2a^2=128$, so $a=8$ (as $a>0$) and $b=-1$. Hence $u=8-i$."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "course": "extension1",
+   "dotpoints": [
+    "12.2.4.7"
+   ],
+   "question": "Find the values of $a$ if the vectors $\\mathbf p=\\begin{pmatrix}9a-4\\\\5\\end{pmatrix}$ and $\\mathbf q=\\begin{pmatrix}a\\\\-1\\end{pmatrix}$ are perpendicular.",
+   "answer": "$\\mathbf p\\cdot\\mathbf q=0\\Rightarrow a(9a-4)-5=0\\Rightarrow 9a^2-4a-5=0\\Rightarrow(9a+5)(a-1)=0$, so $a=1$ or $a=-\\dfrac59$."
+  },
+  {
+   "ref": "Q11(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Find the values of the constants $A$, $B$ and $C$ such that $$\\frac{5x^2-9x+4}{(x-3)(x^2+2)}=\\frac{A}{x-3}+\\frac{Bx+C}{x^2+2}.$$",
+   "answer": "$5x^2-9x+4=A(x^2+2)+(Bx+C)(x-3)$.\n- $x=3$: $22=11A$, so $A=2$.\n- Coefficient of $x^2$: $A+B=5$, so $B=3$.\n- $x=0$: $4=2A-3C$, so $C=0$."
+  },
+  {
+   "ref": "Q11(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.8"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{5x^2-9x+4}{(x-3)(x^2+2)}\\,dx$.",
+   "answer": "Using partial fractions,\n$$\\int\\left(\\frac{2}{x-3}+\\frac{3x}{x^2+2}\\right)dx=2\\ln|x-3|+\\frac32\\ln(x^2+2)+C.$$"
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Find $\\displaystyle\\int\\cos^{-1}(2x)\\,dx$.",
+   "answer": "By parts with $u=\\cos^{-1}2x$, $dv=dx$:\n$$\\int\\cos^{-1}2x\\,dx=x\\cos^{-1}2x+\\int\\frac{2x}{\\sqrt{1-4x^2}}\\,dx=x\\cos^{-1}2x-\\frac12\\sqrt{1-4x^2}+C.$$"
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.5.5",
+    "12.3.5.4"
+   ],
+   "question": "Find the value of $k\\in\\mathbb R$ so that the circle $|z-2-2i|=1$ meets the region $\\left|\\text{Arg}(z-k-i)-\\dfrac{\\pi}{6}\\right|\\ge\\dfrac{\\pi}{6}$ in exactly two points.",
+   "answer": "The region is $\\text{Arg}(z-k-i)\\ge\\frac\\pi3$ or $\\text{Arg}(z-k-i)\\le0$. Its complement is the wedge $0<\\text{Arg}(z-k-i)<\\frac\\pi3$ with vertex $A(k,1)$.\n\nFor exactly two common points the circle (centre $C(2,2)$, radius 1) must lie in the wedge and touch both boundary rays. It already touches $y=1$ at $B(2,1)$. For it also to touch the ray at angle $\\frac\\pi3$, $AC$ bisects the wedge, so $\\angle BAC=\\frac\\pi6$ and\n$$AB=\\frac{BC}{\\tan\\frac\\pi6}=\\sqrt3.$$\nHence $k=2-\\sqrt3$."
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.5.1",
+    "12.5.1.4"
+   ],
+   "question": "A 2 kg toy helicopter is low on battery and provides a thrust of 10 N upwards. It starts falling from rest, and is subject to gravity and air resistance numerically equal to $kv^2$ where $k=0.096$. Take $g=9.8$ m/s². Let $x$ be the downward displacement (in metres) of the helicopter from its initial position, with velocity $v$ m/s and acceleration $a$ m/s².\n\nExplain why the motion of the helicopter follows $a=4.8-0.048v^2$.",
+   "answer": "Taking downwards as positive, the forces are weight $2g$ (down), thrust 10 N (up) and resistance $0.096v^2$ (up). By Newton's second law\n$$2a=2(9.8)-10-0.096v^2\\;\\Rightarrow\\;a=4.8-0.048v^2.$$",
+   "images": [
+    "assets/img/ext2-2025-sydney-boys/q12b.png"
+   ]
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.5.2"
+   ],
+   "question": "A 2 kg toy helicopter is low on battery and provides a thrust of 10 N upwards. It starts falling from rest, and is subject to gravity and air resistance numerically equal to $kv^2$ where $k=0.096$. Take $g=9.8$ m/s². Let $x$ be the downward displacement (in metres) of the helicopter from its initial position, with velocity $v$ m/s and acceleration $a$ m/s². Its motion satisfies $a=4.8-0.048v^2$.\n\nProve that the velocity of the helicopter is given by $v=\\dfrac{10\\left(e^{0.96t}-1\\right)}{e^{0.96t}+1}$.",
+   "answer": "$$\\frac{dv}{dt}=0.048(100-v^2)\\Rightarrow\\int_0^v\\frac{dv}{100-v^2}=0.048\\int_0^t dt$$\n$$\\frac1{20}\\int_0^v\\left(\\frac1{10-v}+\\frac1{10+v}\\right)dv=0.048t\\Rightarrow\\ln\\frac{10+v}{10-v}=0.96t\\quad(0\\le v<10).$$\nSo $10+v=(10-v)e^{0.96t}$, giving $v\\left(e^{0.96t}+1\\right)=10\\left(e^{0.96t}-1\\right)$ and hence\n$$v=\\frac{10(e^{0.96t}-1)}{e^{0.96t}+1}.$$",
+   "images": [
+    "assets/img/ext2-2025-sydney-boys/q12b.png"
+   ]
+  },
+  {
+   "ref": "Q12(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.5.6",
+    "12.5.5.2"
+   ],
+   "question": "A 2 kg toy helicopter is low on battery and provides a thrust of 10 N upwards. It starts falling from rest, and is subject to gravity and air resistance numerically equal to $kv^2$ where $k=0.096$. Take $g=9.8$ m/s². Let $x$ be the downward displacement (in metres) of the helicopter from its initial position, with velocity $v$ m/s and acceleration $a$ m/s². Its motion satisfies $a=4.8-0.048v^2$.\n\nGiven that the helicopter hits the ground with speed 6.5 m/s, find the height it was initially at, correct to 2 decimal places.",
+   "answer": "$$v\\frac{dv}{dx}=0.048(100-v^2)\\Rightarrow\\int_0^v\\frac{v\\,dv}{100-v^2}=0.048x\\Rightarrow x=\\frac{1}{0.096}\\ln\\frac{100}{100-v^2}=\\frac{125}{12}\\ln\\frac{100}{100-v^2}.$$\nAt $v=6.5$: $x=\\dfrac{125}{12}\\ln\\dfrac{100}{57.75}\\approx5.72$ m.\n\n*Note: the school's working uses $a=\\frac{12}{125}(100-v^2)$ (twice the correct coefficient $\\frac6{125}$), which would give 2.86 m; its stated answer of 5.72 m is nevertheless correct.*",
+   "images": [
+    "assets/img/ext2-2025-sydney-boys/q12b.png"
+   ]
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Using De Moivre's theorem, prove that $\\cos6\\theta=32\\cos^6\\theta-48\\cos^4\\theta+18\\cos^2\\theta-1$.",
+   "answer": "Let $c=\\cos\\theta$, $s=\\sin\\theta$. By De Moivre, $\\cos6\\theta+i\\sin6\\theta=(c+is)^6$. Equating real parts of the binomial expansion:\n$$\\cos6\\theta=c^6-15c^4s^2+15c^2s^4-s^6.$$\nWith $s^2=1-c^2$:\n$$=c^6-15c^4(1-c^2)+15c^2(1-c^2)^2-(1-c^2)^3$$\n$$=32c^6-48c^4+18c^2-1.$$"
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.4",
+    "12.3.4.12"
+   ],
+   "question": "Using the identity $\\cos6\\theta=32\\cos^6\\theta-48\\cos^4\\theta+18\\cos^2\\theta-1$ and a substitution $x=A\\cos\\theta$ for a suitable $A$, or otherwise, find all the roots of $P(x)=x^6-6x^4+9x^2-2$.",
+   "answer": "Put $x=2\\cos\\theta$:\n$$P(2\\cos\\theta)=64c^6-96c^4+36c^2-2=2(32c^6-48c^4+18c^2-1)=2\\cos6\\theta.$$\n$\\cos6\\theta=0$ gives $\\theta=\\frac{\\pi}{12},\\frac{3\\pi}{12},\\frac{5\\pi}{12},\\frac{7\\pi}{12},\\frac{9\\pi}{12},\\frac{11\\pi}{12}$, giving six distinct values of $2\\cos\\theta$. The roots are\n$$x=\\pm2\\cos\\frac{\\pi}{12},\\quad\\pm\\sqrt2,\\quad\\pm2\\cos\\frac{5\\pi}{12}.$$"
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.5"
+   ],
+   "question": "A ball moves in a straight line according to $v^2=9(12+4x-x^2)$, where $v$ is its velocity in cm/s and $x$ is its displacement from the origin in cm. Prove that the ball is moving in simple harmonic motion.",
+   "answer": "$$a=\\frac{d}{dx}\\left(\\tfrac12v^2\\right)=\\frac92(4-2x)=-3^2(x-2),$$\nwhich has the form $a=-n^2(x-c)$ with $n=3$, $c=2$. So the motion is simple harmonic."
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.8"
+   ],
+   "question": "A ball moves in a straight line according to $v^2=9(12+4x-x^2)$, where $v$ is its velocity in cm/s and $x$ is its displacement from the origin in cm. Find the range of values of $x$ in which the ball can move.",
+   "answer": "$v^2\\ge0\\Rightarrow-9(x-6)(x+2)\\ge0\\Rightarrow-2\\le x\\le6$."
+  },
+  {
+   "ref": "Q13(a)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.10"
+   ],
+   "question": "A ball moves in a straight line according to $v^2=9(12+4x-x^2)$, where $v$ is its velocity in cm/s and $x$ is its displacement from the origin in cm. The ball is in the *extreme zone* when it is more than 2 cm from its central position. It completes one whole oscillation. For what percentage of the time, to the nearest whole number, is it in the extreme zone?",
+   "answer": "The centre is $x=2$, the amplitude is 4 and $n=3$, so take $x=2+4\\sin3t$ (period $\\frac{2\\pi}3$).\n\nThe extreme zone is $|x-2|>2$, i.e. $|\\sin3t|>\\frac12$. In one period $3t$ runs over $[0,2\\pi]$ and this holds for $\\frac\\pi6<3t<\\frac{5\\pi}6$ and $\\frac{7\\pi}6<3t<\\frac{11\\pi}6$, a total of $\\frac{4\\pi}3$ out of $2\\pi$.\n\nThe percentage is $\\frac23\\approx67\\%$."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.4",
+    "12.3.3.1"
+   ],
+   "question": "By considering the expansion of $(z+1)^4$, or otherwise, solve $z^4+4z^3+8z^2+8z+3=0$.",
+   "answer": "$$z^4+4z^3+8z^2+8z+3=(z+1)^4+2z^2+4z+2=(z+1)^4+2(z+1)^2=(z+1)^2\\left[(z+1)^2+2\\right].$$\nSo $z=-1$ (double root) or $(z+1)^2=-2$, giving $z=-1\\pm\\sqrt2\\,i$."
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3",
+    "12.5.3.2"
+   ],
+   "question": "Two weights of mass $m$ kg and $M$ kg are joined by a string of negligible mass over a smooth pulley at the top of a slope, as shown: $M$ lies on the slope and $m$ hangs vertically. The angle between the slope and the vertical is $\\alpha$. A frictional force $F=\\mu N$ acts on the mass $M$, where $N$ is the normal reaction of the slope on it and $\\mu$ is a constant. The $m$ kg mass is moving downwards. By resolving parallel and perpendicular to the slope, show that the acceleration of the masses is $a=\\dfrac{g(m-\\mu M\\sin\\alpha-M\\cos\\alpha)}{m+M}$.",
+   "answer": "For the hanging mass: $ma=mg-T$. (1)\n\nFor $M$ (friction acts down the slope since $M$ moves up), perpendicular to the slope: $N=Mg\\sin\\alpha$. Parallel to the slope:\n$$Ma=T-Mg\\cos\\alpha-\\mu N=T-Mg\\cos\\alpha-\\mu Mg\\sin\\alpha.\\quad(2)$$\nAdding (1) and (2): $(m+M)a=g(m-M\\cos\\alpha-\\mu M\\sin\\alpha)$, so\n$$a=\\frac{g(m-\\mu M\\sin\\alpha-M\\cos\\alpha)}{m+M}.$$",
+   "images": [
+    "assets/img/ext2-2025-sydney-boys/q13c.png"
+   ]
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "Two weights of mass $m$ kg and $M$ kg are joined by a string of negligible mass over a smooth pulley at the top of a slope, as shown: $M$ lies on the slope and $m$ hangs vertically. The angle between the slope and the vertical is $\\alpha$. A frictional force $F=\\mu N$ acts on the mass $M$, where $N$ is the normal reaction of the slope on it and $\\mu$ is a constant. The $m$ kg mass is moving downwards with acceleration $a=\\dfrac{g(m-\\mu M\\sin\\alpha-M\\cos\\alpha)}{m+M}$. Find the tension in the string.",
+   "answer": "$$T=mg-ma=\\frac{mg}{m+M}\\left[m+M-m+\\mu M\\sin\\alpha+M\\cos\\alpha\\right]=\\frac{mMg}{m+M}(1+\\mu\\sin\\alpha+\\cos\\alpha).$$",
+   "images": [
+    "assets/img/ext2-2025-sydney-boys/q13c.png"
+   ]
+  },
+  {
+   "ref": "Q13(c)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.3",
+    "12.1.3.6"
+   ],
+   "question": "Two weights of mass $m$ kg and $M$ kg are joined by a string of negligible mass over a smooth pulley at the top of a slope, as shown: $M$ lies on the slope and $m$ hangs vertically. The angle between the slope and the vertical is $\\alpha$. A frictional force $F=\\mu N$ acts on the mass $M$, where $N$ is the normal reaction of the slope on it and $\\mu$ is a constant. The acceleration is $a=\\dfrac{g(m-\\mu M\\sin\\alpha-M\\cos\\alpha)}{m+M}$. Prove that if the vertically hung mass is moving downwards (accelerating from rest), then\n$$\\alpha<\\sin^{-1}\\left(\\frac{m}{M\\sqrt{1+\\mu^2}}\\right)-\\tan^{-1}\\frac1\\mu.$$\nYou may assume that $\\alpha+\\tan^{-1}\\dfrac1\\mu<\\dfrac\\pi2$.",
+   "answer": "We need $a>0$, i.e. $\\dfrac mM>\\mu\\sin\\alpha+\\cos\\alpha$.\n\nWrite $\\mu\\sin\\alpha+\\cos\\alpha=R\\sin(\\alpha+\\theta)$, with $R\\cos\\theta=\\mu$ and $R\\sin\\theta=1$. So $R=\\sqrt{1+\\mu^2}$ and $\\theta=\\tan^{-1}\\frac1\\mu$. Hence\n$$\\sin\\left(\\alpha+\\tan^{-1}\\tfrac1\\mu\\right)<\\frac{m}{M\\sqrt{1+\\mu^2}}.$$\nSince $0<\\alpha+\\tan^{-1}\\frac1\\mu<\\frac\\pi2$, where $\\sin$ is increasing, (and provided the right side is at most 1, otherwise the inverse sine is undefined)\n$$\\alpha<\\sin^{-1}\\left(\\frac{m}{M\\sqrt{1+\\mu^2}}\\right)-\\tan^{-1}\\frac1\\mu.$$",
+   "images": [
+    "assets/img/ext2-2025-sydney-boys/q13c.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.12"
+   ],
+   "question": "A complex number $z$ satisfies $z^5+i=0$, where $z\\ne-i$. Show that $z^4-iz^3-z^2+iz+1=0$.",
+   "answer": "Since $i^5=i$, $z^5+i=z^5+i^5=(z+i)(z^4-iz^3+i^2z^2-i^3z+i^4)=(z+i)(z^4-iz^3-z^2+iz+1)$.\n\nThis is zero and $z+i\\ne0$, so $z^4-iz^3-z^2+iz+1=0$."
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.7",
+    "12.3.4.12"
+   ],
+   "question": "A complex number $z$ satisfies $z^5+i=0$, where $z\\ne-i$. Prove that $(z+i)\\left(z^2+2iz\\sin\\dfrac{\\pi}{10}-1\\right)\\left(z^2-2iz\\sin\\dfrac{3\\pi}{10}-1\\right)=0$.",
+   "answer": "$z^5=-i=\\operatorname{cis}\\left(-\\frac\\pi2\\right)$, so the roots are $z=\\operatorname{cis}\\left(-\\frac{\\pi}{10}+\\frac{2k\\pi}{5}\\right)$:\n$$-i,\\;\\operatorname{cis}\\left(-\\tfrac{\\pi}{10}\\right),\\;\\operatorname{cis}\\left(-\\tfrac{9\\pi}{10}\\right),\\;\\operatorname{cis}\\tfrac{3\\pi}{10},\\;\\operatorname{cis}\\tfrac{7\\pi}{10}.$$\nPair the roots symmetric about the imaginary axis.\n\nFor $\\operatorname{cis}(-\\frac\\pi{10}),\\operatorname{cis}(-\\frac{9\\pi}{10})$: sum $=-2i\\sin\\frac\\pi{10}$, product $=\\operatorname{cis}(-\\pi)=-1$, giving the factor $z^2+2iz\\sin\\frac\\pi{10}-1$.\n\nFor $\\operatorname{cis}\\frac{3\\pi}{10},\\operatorname{cis}\\frac{7\\pi}{10}$: sum $=2i\\sin\\frac{3\\pi}{10}$, product $=\\operatorname{cis}\\pi=-1$, giving $z^2-2iz\\sin\\frac{3\\pi}{10}-1$.\n\nHence $z^5+i=(z+i)\\left(z^2+2iz\\sin\\frac{\\pi}{10}-1\\right)\\left(z^2-2iz\\sin\\frac{3\\pi}{10}-1\\right)=0$."
+  },
+  {
+   "ref": "Q14(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.12"
+   ],
+   "question": "It is given that $$z^4-iz^3-z^2+iz+1=\\left(z^2+2iz\\sin\\frac{\\pi}{10}-1\\right)\\left(z^2-2iz\\sin\\frac{3\\pi}{10}-1\\right).$$ Hence prove that $\\sin\\dfrac{\\pi}{10}-\\sin\\dfrac{3\\pi}{10}=-\\dfrac12$.",
+   "answer": "Equating coefficients of $z^3$:\n$$2i\\sin\\frac\\pi{10}-2i\\sin\\frac{3\\pi}{10}=-i\\;\\Rightarrow\\;\\sin\\frac\\pi{10}-\\sin\\frac{3\\pi}{10}=-\\frac12.$$"
+  },
+  {
+   "ref": "Q14(a)(iv)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.12"
+   ],
+   "question": "It is given that $$z^4-iz^3-z^2+iz+1=\\left(z^2+2iz\\sin\\frac{\\pi}{10}-1\\right)\\left(z^2-2iz\\sin\\frac{3\\pi}{10}-1\\right).$$ Hence find the exact values of $\\sin\\dfrac{\\pi}{10}$ and $\\sin\\dfrac{3\\pi}{10}$.",
+   "answer": "Let $p=\\sin\\frac\\pi{10}$, $q=\\sin\\frac{3\\pi}{10}$. Equating coefficients of $z^3$ gives $p-q=-\\frac12$. Equating coefficients of $z^2$: $-2+4pq=-1$, so $pq=\\frac14$.\n\nWith $q=p+\\frac12$: $p\\left(p+\\tfrac12\\right)=\\tfrac14\\Rightarrow4p^2+2p-1=0\\Rightarrow p=\\dfrac{-1\\pm\\sqrt5}{4}$.\n\nSince $p>0$: $\\sin\\dfrac\\pi{10}=\\dfrac{\\sqrt5-1}{4}$ and $\\sin\\dfrac{3\\pi}{10}=\\dfrac{\\sqrt5+1}{4}$."
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $\\displaystyle I_n=\\int_0^{\\frac12}x^2(1-x^3)^n\\,dx$ for $n\\ge0$. Prove that $(k+1)I_k-kI_{k-1}=\\dfrac1{24}\\left(\\dfrac78\\right)^k$ for $k\\ge1$.",
+   "answer": "By parts with $u=(1-x^3)^k$, $dv=x^2dx$:\n$$I_k=\\left[\\frac{x^3}{3}(1-x^3)^k\\right]_0^{1/2}+k\\int_0^{1/2}x^5(1-x^3)^{k-1}dx=\\frac1{24}\\left(\\frac78\\right)^k+k\\int_0^{1/2}x^5(1-x^3)^{k-1}dx.$$\nWrite $x^5=x^2\\left[1-(1-x^3)\\right]$:\n$$I_k=\\frac1{24}\\left(\\frac78\\right)^k+k\\left(I_{k-1}-I_k\\right).$$\nHence $(k+1)I_k-kI_{k-1}=\\dfrac1{24}\\left(\\dfrac78\\right)^k$."
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.14",
+    "12.4.1.15"
+   ],
+   "question": "Let $\\displaystyle I_n=\\int_0^{\\frac12}x^2(1-x^3)^n\\,dx$ for $n\\ge0$. Using $(k+1)I_k-kI_{k-1}=\\dfrac1{24}\\left(\\dfrac78\\right)^k$ (for $k\\ge1$) and taking an appropriate sum on both sides, prove that for all $n\\ge0$,\n$$I_n=\\frac{1}{3(n+1)}\\left[1-\\left(\\frac78\\right)^{n+1}\\right].$$",
+   "answer": "Sum from $k=1$ to $n$. The left side telescopes to $(n+1)I_n-I_0$. The right side is a geometric series:\n$$(n+1)I_n-I_0=\\frac1{24}\\cdot\\frac{\\frac78\\left(1-(\\frac78)^n\\right)}{1-\\frac78}=\\frac7{24}\\left(1-\\left(\\tfrac78\\right)^n\\right).$$\nNow $I_0=\\int_0^{1/2}x^2dx=\\frac1{24}$, so\n$$(n+1)I_n=\\frac1{24}+\\frac7{24}-\\frac7{24}\\left(\\tfrac78\\right)^n=\\frac13\\left[1-\\left(\\tfrac78\\right)^{n+1}\\right],$$\ngiving the result (it also holds for $n=0$)."
+  },
+  {
+   "ref": "Q15(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.11"
+   ],
+   "question": "Prove that $\\displaystyle\\int_0^af(x)\\,dx=\\int_0^{\\frac a2}\\big[f(x)+f(a-x)\\big]dx$.",
+   "answer": "$$\\int_0^af(x)\\,dx=\\int_0^{a/2}f(x)\\,dx+\\int_{a/2}^af(x)\\,dx.$$\nIn the second integral put $x=a-u$, $dx=-du$:\n$$\\int_{a/2}^af(x)\\,dx=-\\int_{a/2}^0f(a-u)\\,du=\\int_0^{a/2}f(a-u)\\,du,$$\nand $u$ is a dummy variable. Adding gives the result."
+  },
+  {
+   "ref": "Q15(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.11",
+    "12.4.1.15"
+   ],
+   "question": "Let $\\displaystyle I=\\int_0^{\\frac\\pi2}\\ln(\\sin x)\\,dx$. Using $\\displaystyle\\int_0^af(x)\\,dx=\\int_0^{a/2}\\big[f(x)+f(a-x)\\big]dx$, or otherwise, prove that $\\displaystyle I=\\int_0^{\\frac\\pi4}\\ln\\left(\\frac{\\sin2x}{2}\\right)dx$.",
+   "answer": "With $a=\\frac\\pi2$:\n$$I=\\int_0^{\\pi/4}\\left[\\ln\\sin x+\\ln\\sin\\left(\\tfrac\\pi2-x\\right)\\right]dx=\\int_0^{\\pi/4}\\ln(\\sin x\\cos x)\\,dx=\\int_0^{\\pi/4}\\ln\\left(\\frac{\\sin2x}{2}\\right)dx.$$"
+  },
+  {
+   "ref": "Q15(a)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.15",
+    "12.4.1.6"
+   ],
+   "question": "Let $\\displaystyle I=\\int_0^{\\frac\\pi2}\\ln(\\sin x)\\,dx$. It is known that $\\displaystyle I=\\int_0^{\\frac\\pi4}\\ln\\left(\\frac{\\sin2x}{2}\\right)dx$. Hence evaluate $I$.",
+   "answer": "$$I=\\int_0^{\\pi/4}\\ln(\\sin2x)\\,dx-\\frac\\pi4\\ln2.$$\nWith $u=2x$: $\\int_0^{\\pi/4}\\ln(\\sin2x)\\,dx=\\frac12\\int_0^{\\pi/2}\\ln(\\sin u)\\,du=\\frac I2$. So $I=\\frac I2-\\frac\\pi4\\ln2$, giving\n$$I=-\\frac\\pi2\\ln2.$$"
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.4.4"
+   ],
+   "question": "Seven distinct colours are used to colour the numbered sectors of a circle divided into $n$ sectors, as shown. Let $a_n$ be the number of ways to colour the circle so that each sector has one colour and any two adjacent sectors have different colours. Explain why $a_n+a_{n-1}=7\\times6^{n-1}$ for integers $n\\ge3$.",
+   "answer": "Colour sector 1 (7 ways), then each of sectors $2,3,\\dots,n$ differently from the one before it (6 ways each). This gives $7\\times6^{n-1}$ colourings in which every adjacent pair differs, except possibly sectors $n$ and 1.\n\nThese split into two cases:\n- sector $n$ differs from sector 1: a valid colouring of $n$ sectors, $a_n$ ways;\n- sector $n$ has the same colour as sector 1: merge sectors $n$ and 1 into one sector. This gives exactly a valid colouring of a circle with $n-1$ sectors, $a_{n-1}$ ways.\n\nHence $a_n+a_{n-1}=7\\times6^{n-1}$.",
+   "images": [
+    "assets/img/ext2-2025-sydney-boys/q15b.png"
+   ]
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.5"
+   ],
+   "question": "Seven distinct colours are used to colour the numbered sectors of a circle divided into $n$ sectors, as shown. Let $a_n$ be the number of ways to colour the circle so that each sector has one colour and any two adjacent sectors have different colours. It is known that $a_n+a_{n-1}=7\\times6^{n-1}$ for $n\\ge3$, and that $a_2=42$. Use mathematical induction to show that for integers $n\\ge3$,\n$$a_n=6\\times(-1)^n+6^n.$$",
+   "answer": "**$n=3$:** three mutually adjacent sectors give $a_3=7\\times6\\times5=210$, and $6(-1)^3+6^3=-6+216=210$. True.\n\n**Assume** $a_k=6(-1)^k+6^k$ for some $k\\ge3$.\n\n**$n=k+1$:**\n$$a_{k+1}=7\\times6^k-a_k=7\\times6^k-6^k-6(-1)^k=6^{k+1}+6(-1)^{k+1}.$$\nSo the result is true for $k+1$, and by induction for all $n\\ge3$."
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.6.2",
+    "12.5.5.3"
+   ],
+   "question": "A 100 g football is kicked up a slope with equation $2y-x=0$, from the origin $O$, with speed $25\\sqrt2$ m/s at $45^\\circ$ to the horizontal. It is subject to gravity ($10$ m/s²) and air resistance $-0.02\\mathbf v$ newtons, where $\\mathbf v$ is its velocity, so its acceleration is $\\mathbf a=-\\mathbf g-0.2\\mathbf v$, where $\\mathbf g=\\begin{pmatrix}0\\\\10\\end{pmatrix}$. Show that the vertical displacement of the football is $y=-50t+375\\left(1-e^{-0.2t}\\right)$.",
+   "answer": "Vertically $\\dfrac{dv_y}{dt}=-10-0.2v_y=-\\tfrac15(50+v_y)$, with $v_y(0)=25\\sqrt2\\sin45^\\circ=25$.\n$$\\int_{25}^{v_y}\\frac{dv}{50+v}=-\\frac t5\\Rightarrow\\ln\\frac{50+v_y}{75}=-0.2t\\Rightarrow v_y=75e^{-0.2t}-50.$$\nIntegrating with $y(0)=0$:\n$$y=-375e^{-0.2t}-50t+375=-50t+375(1-e^{-0.2t}).$$",
+   "images": [
+    "assets/img/ext2-2025-sydney-boys/q15c.png"
+   ]
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.6.2"
+   ],
+   "question": "A 100 g football is kicked up a slope with equation $2y-x=0$, from the origin $O$, with speed $25\\sqrt2$ m/s at $45^\\circ$ to the horizontal. It is subject to gravity ($10$ m/s²) and air resistance $-0.02\\mathbf v$ newtons, where $\\mathbf v$ is its velocity, so its acceleration is $\\mathbf a=-\\mathbf g-0.2\\mathbf v$, where $\\mathbf g=\\begin{pmatrix}0\\\\10\\end{pmatrix}$. Its displacement components are $x=125\\left(1-e^{-0.2t}\\right)$ and $y=-50t+375\\left(1-e^{-0.2t}\\right)$. Prove that the Cartesian equation of the trajectory is $y=3x+250\\ln\\left(1-\\dfrac{x}{125}\\right)$.",
+   "answer": "$375(1-e^{-0.2t})=3x$. Also $e^{-0.2t}=1-\\frac x{125}$, so $t=-5\\ln\\left(1-\\frac x{125}\\right)$. Hence\n$$y=3x-50t=3x+250\\ln\\left(1-\\frac{x}{125}\\right).$$",
+   "images": [
+    "assets/img/ext2-2025-sydney-boys/q15c.png"
+   ]
+  },
+  {
+   "ref": "Q15(c)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.6.2"
+   ],
+   "question": "A football kicked from the origin up the slope $2y-x=0$ follows the trajectory $y=3x+250\\ln\\left(1-\\dfrac{x}{125}\\right)$. The graph below shows the point where $y=5$ on the curve $y=\\dfrac{4\\ln(1+x)}{x}$: it is $(-0.37137,\\,5)$. Hence, or otherwise, find the range $R$ of the kick, measured up the slope, correct to 4 decimal places.",
+   "answer": "The ball lands where $3x+250\\ln\\left(1-\\frac{x}{125}\\right)=\\frac x2$, i.e. $250\\ln\\left(1-\\frac x{125}\\right)=-\\frac{5x}{2}$.\n\nLet $z=-\\frac{x}{125}$, so $x=-125z$:\n$$250\\ln(1+z)=\\frac{625z}{2}\\Rightarrow\\frac{4\\ln(1+z)}{z}=5.$$\nFrom the graph $z=-0.37137$, so $x=125\\times0.37137=46.42125$.\n\nOn the slope $y=\\frac x2$, so\n$$R=\\sqrt{x^2+\\left(\\tfrac x2\\right)^2}=\\frac{\\sqrt5}{2}x\\approx51.9005\\text{ m}.$$",
+   "images": [
+    "assets/img/ext2-2025-sydney-boys/q15c-iii.png"
+   ]
+  },
+  {
+   "ref": "Q16(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.15"
+   ],
+   "question": "Explain why $\\displaystyle\\frac{d}{dx}\\left[\\int_0^{g(x)}h(t)\\,dt\\right]=g'(x)\\,h(g(x))$.",
+   "answer": "Let $H$ be a primitive of $h$. By the fundamental theorem of calculus the integral equals $H(g(x))-H(0)$. Differentiating by the chain rule ($H(0)$ is constant):\n$$H'(g(x))\\,g'(x)=g'(x)\\,h(g(x)).$$"
+  },
+  {
+   "ref": "Q16(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.4.1.15",
+    "12.4.1.16"
+   ],
+   "question": "Consider the area under the graph $y=\\sqrt{1+t^2}$ between $t=-\\dfrac{1}{\\sqrt x}$ and $t=\\sqrt x$, where $x>0$. Using $\\displaystyle\\frac{d}{dx}\\left[\\int_0^{g(x)}h(t)\\,dt\\right]=g'(x)\\,h(g(x))$, find the value of $x$ for which the area is minimised.",
+   "answer": "$$A(x)=\\int_0^{\\sqrt x}\\sqrt{1+t^2}\\,dt-\\int_0^{-1/\\sqrt x}\\sqrt{1+t^2}\\,dt.$$\nHere $\\frac{d}{dx}\\sqrt x=\\frac{1}{2\\sqrt x}$ and $\\frac{d}{dx}\\left(-x^{-1/2}\\right)=\\frac12x^{-3/2}$, so\n$$A'(x)=\\frac{\\sqrt{1+x}}{2\\sqrt x}-\\frac{1}{2x\\sqrt x}\\sqrt{1+\\frac1x}=\\frac{\\sqrt{1+x}}{2\\sqrt x}-\\frac{\\sqrt{1+x}}{2x^2}=\\frac{\\sqrt{1+x}}{2x^2}\\left(x^{3/2}-1\\right).$$\nFor $x>0$, $A'(x)=0$ only at $x=1$, with $A'<0$ for $x<1$ and $A'>0$ for $x>1$. So the area is a minimum when $x=1$.",
+   "images": [
+    "assets/img/ext2-2025-sydney-boys/q16a.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "A circle centred at $P$ is inscribed in a right-angled triangle $OVW$ (right angle at $O$), touching the sides at $S$ (on $OV$), $U$ (on $OW$) and $Q$ (on the hypotenuse $VW$), as shown. $\\overrightarrow{VQ}=k\\overrightarrow{VW}$ with $k>0$. Let $\\overrightarrow{OS}=\\mathbf a$, $\\overrightarrow{OU}=\\mathbf b$, $\\overrightarrow{OV}=\\mu\\mathbf a$ and $\\overrightarrow{OW}=\\lambda\\mathbf b$, where $\\lambda,\\mu>1$. Explain why $\\overrightarrow{VQ}=k(\\lambda\\mathbf b-\\mu\\mathbf a)$.",
+   "answer": "$\\overrightarrow{VW}=\\overrightarrow{OW}-\\overrightarrow{OV}=\\lambda\\mathbf b-\\mu\\mathbf a$, so $\\overrightarrow{VQ}=k\\overrightarrow{VW}=k(\\lambda\\mathbf b-\\mu\\mathbf a)$.",
+   "images": [
+    "assets/img/ext2-2025-sydney-boys/q16b.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "A circle centred at $P$ is inscribed in a right-angled triangle $OVW$ (right angle at $O$), touching the sides at $S$ (on $OV$), $U$ (on $OW$) and $Q$ (on the hypotenuse $VW$), as shown. $\\overrightarrow{VQ}=k\\overrightarrow{VW}$ with $k>0$. Let $\\overrightarrow{OS}=\\mathbf a$, $\\overrightarrow{OU}=\\mathbf b$, $\\overrightarrow{OV}=\\mu\\mathbf a$ and $\\overrightarrow{OW}=\\lambda\\mathbf b$, where $\\lambda,\\mu>1$. By considering $VS$, prove that $k=\\dfrac{\\mu-1}{\\sqrt{\\lambda^2+\\mu^2}}$.",
+   "answer": "$OSPU$ is a square with side equal to the radius $r$, so $|\\mathbf a|=|\\mathbf b|=r$, and $\\mathbf a\\cdot\\mathbf b=0$.\n\n$\\overrightarrow{SV}=(\\mu-1)\\mathbf a$, so $VS=(\\mu-1)r$.\n\n$VQ^2=k^2|\\lambda\\mathbf b-\\mu\\mathbf a|^2=k^2r^2(\\lambda^2+\\mu^2)$, so $VQ=kr\\sqrt{\\lambda^2+\\mu^2}$.\n\nTangents from an external point are equal, $VS=VQ$, hence $k=\\dfrac{\\mu-1}{\\sqrt{\\lambda^2+\\mu^2}}$.",
+   "images": [
+    "assets/img/ext2-2025-sydney-boys/q16b.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "A circle centred at $P$ is inscribed in a right-angled triangle $OVW$ (right angle at $O$), touching the sides at $S$ (on $OV$), $U$ (on $OW$) and $Q$ (on the hypotenuse $VW$), as shown. $\\overrightarrow{VQ}=k\\overrightarrow{VW}$ with $k>0$. Let $\\overrightarrow{OS}=\\mathbf a$, $\\overrightarrow{OU}=\\mathbf b$, $\\overrightarrow{OV}=\\mu\\mathbf a$ and $\\overrightarrow{OW}=\\lambda\\mathbf b$, where $\\lambda,\\mu>1$. Prove that $\\overrightarrow{PQ}=\\big[(1-k)\\mu-1\\big]\\mathbf a+(k\\lambda-1)\\mathbf b$.",
+   "answer": "$\\overrightarrow{OP}=\\mathbf a+\\mathbf b$ and $\\overrightarrow{OQ}=\\overrightarrow{OV}+\\overrightarrow{VQ}=\\mu\\mathbf a+k(\\lambda\\mathbf b-\\mu\\mathbf a)$. So\n$$\\overrightarrow{PQ}=\\overrightarrow{OQ}-\\overrightarrow{OP}=\\big[(1-k)\\mu-1\\big]\\mathbf a+(k\\lambda-1)\\mathbf b.$$",
+   "images": [
+    "assets/img/ext2-2025-sydney-boys/q16b.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)(iv)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.2.2.1"
+   ],
+   "question": "A circle centred at $P$ is inscribed in a right-angled triangle $OVW$ (right angle at $O$), touching the sides at $S$ (on $OV$), $U$ (on $OW$) and $Q$ (on the hypotenuse $VW$), as shown. $\\overrightarrow{VQ}=k\\overrightarrow{VW}$ with $k>0$. Let $\\overrightarrow{OS}=\\mathbf a$, $\\overrightarrow{OU}=\\mathbf b$, $\\overrightarrow{OV}=\\mu\\mathbf a$ and $\\overrightarrow{OW}=\\lambda\\mathbf b$, where $\\lambda,\\mu>1$. Using $\\overrightarrow{PQ}=\\big[(1-k)\\mu-1\\big]\\mathbf a+(k\\lambda-1)\\mathbf b$, or otherwise, prove that $k=\\dfrac{\\lambda+\\mu^2-\\mu}{\\lambda^2+\\mu^2}$.",
+   "answer": "The radius $PQ$ is perpendicular to the tangent $VW$, so $\\overrightarrow{PQ}\\cdot(\\lambda\\mathbf b-\\mu\\mathbf a)=0$. With $\\mathbf a\\cdot\\mathbf b=0$ and $|\\mathbf a|=|\\mathbf b|$:\n$$\\lambda(k\\lambda-1)-\\mu\\big[(1-k)\\mu-1\\big]=0$$\n$$k(\\lambda^2+\\mu^2)=\\lambda+\\mu^2-\\mu\\;\\Rightarrow\\;k=\\frac{\\lambda+\\mu^2-\\mu}{\\lambda^2+\\mu^2}.$$",
+   "images": [
+    "assets/img/ext2-2025-sydney-boys/q16b.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)(v)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "A circle centred at $P$ is inscribed in a right-angled triangle $OVW$ (right angle at $O$), touching the sides at $S$ (on $OV$), $U$ (on $OW$) and $Q$ (on the hypotenuse $VW$), as shown. $\\overrightarrow{VQ}=k\\overrightarrow{VW}$ with $k>0$. Let $\\overrightarrow{OS}=\\mathbf a$, $\\overrightarrow{OU}=\\mathbf b$, $\\overrightarrow{OV}=\\mu\\mathbf a$ and $\\overrightarrow{OW}=\\lambda\\mathbf b$, where $\\lambda,\\mu>1$. Given that $k=\\dfrac{\\mu-1}{\\sqrt{\\lambda^2+\\mu^2}}$ and $k=\\dfrac{\\lambda+\\mu^2-\\mu}{\\lambda^2+\\mu^2}$, prove that $\\lambda=\\dfrac{2(\\mu-1)}{\\mu-2}$.",
+   "answer": "Equating and multiplying by $\\lambda^2+\\mu^2$:\n$$(\\mu-1)\\sqrt{\\lambda^2+\\mu^2}=\\lambda+\\mu(\\mu-1)\\Rightarrow\\sqrt{\\lambda^2+\\mu^2}=\\frac{\\lambda}{\\mu-1}+\\mu.$$\nSquaring: $\\lambda^2+\\mu^2=\\dfrac{\\lambda^2}{(\\mu-1)^2}+\\dfrac{2\\lambda\\mu}{\\mu-1}+\\mu^2$, so\n$$\\lambda^2(\\mu-1)^2=\\lambda^2+2\\lambda\\mu(\\mu-1).$$\nSince $\\lambda\\ne0$: $\\lambda(\\mu^2-2\\mu)=2\\mu(\\mu-1)$, hence $\\lambda=\\dfrac{2(\\mu-1)}{\\mu-2}$.",
+   "images": [
+    "assets/img/ext2-2025-sydney-boys/q16b.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)(vi)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "A circle centred at $P$ is inscribed in a right-angled triangle $OVW$ (right angle at $O$), touching the sides at $S$ (on $OV$), $U$ (on $OW$) and $Q$ (on the hypotenuse $VW$), as shown. $\\overrightarrow{VQ}=k\\overrightarrow{VW}$ with $k>0$. Let $\\overrightarrow{OS}=\\mathbf a$, $\\overrightarrow{OU}=\\mathbf b$, $\\overrightarrow{OV}=\\mu\\mathbf a$ and $\\overrightarrow{OW}=\\lambda\\mathbf b$, where $\\lambda,\\mu>1$. Using these results, or otherwise, show that the area of the inscribed circle is $\\dfrac\\pi4(OV+OW-VW)^2$.",
+   "answer": "Let $r$ be the radius. The triangle splits into $OPV$, $OPW$ and $VPW$, each with height $r$:\n$$\\tfrac12\\,OV\\cdot OW=\\tfrac12r\\,(OV+OW+VW)\\Rightarrow r=\\frac{OV\\cdot OW}{OV+OW+VW}.$$\nBy Pythagoras, $(OV+OW)^2-VW^2=2\\,OV\\cdot OW$, i.e.\n$$(OV+OW-VW)(OV+OW+VW)=2\\,OV\\cdot OW.$$\nTherefore $r=\\dfrac{OV+OW-VW}{2}$ and the area is\n$$\\pi r^2=\\frac\\pi4(OV+OW-VW)^2.$$",
+   "images": [
+    "assets/img/ext2-2025-sydney-boys/q16b.png"
+   ]
+  }
+ ]
+}
