@@ -1,0 +1,734 @@
+{
+ "id": "phys-2020-north-sydney-boys",
+ "course": "physics",
+ "school": "North Sydney Boys",
+ "year": 2020,
+ "type": "Trial",
+ "thsc": {
+  "viewno": 6528,
+  "title": "North Sydney Boys 2020 w. sol"
+ },
+ "indexed": "2026-11-27",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q8",
+   "reason": "Dimensional analysis of Stokes' law (viscosity and buoyancy are not in the 2017 syllabus)"
+  },
+  {
+   "ref": "Q21(a)",
+   "reason": "Year 11 content (weight, F = mg; not examined in the HSC)"
+  },
+  {
+   "ref": "Q24",
+   "reason": "Year 11 content (refraction and Snell's law; not examined in the HSC)"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.4"
+   ],
+   "question": "Unpolarised light reflected from water is horizontally polarised. The windscreen of a speed boat is a polariser with its axis at $30^\\circ$ to the vertical. By what percentage is the intensity of the reflected light seen by the driver reduced?",
+   "answer": "The angle between the light's (horizontal) polarisation and the axis is $60^\\circ$. By Malus' law $I = I_{max}\\cos^2 60^\\circ = 0.25 I_{max}$, a 75% reduction.",
+   "options": [
+    "75%",
+    "37.5%",
+    "62.5%",
+    "25%"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.5.1.4"
+   ],
+   "question": "Hole 12 at a golf course is on a circular green between a lake and a sand trap. The map shows distances from the tee, which is at the same elevation as the hole. A golfer hits the ball in line with the hole at $47.8\\ \\text{m s}^{-1}$ at $42.5^\\circ$ above the ground. Where does the ball land?",
+   "answer": "Time of flight $t = \\dfrac{2(47.8\\sin 42.5^\\circ)}{9.8} = 6.59\\ \\text{s}$; range $= 47.8\\cos 42.5^\\circ \\times 6.59 = 232\\ \\text{m}$, which is in the sand trap.",
+   "options": [
+    "In the sand",
+    "In the lake",
+    "On the green",
+    "In the hole"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/phys-2020-north-sydney-boys/q2.png"
+   ]
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "The radius of the Moon's orbit is $3.84 \\times 10^{8}$ m, the mass of the Moon is $7.34 \\times 10^{22}$ kg and the mass of the Earth is $5.98 \\times 10^{24}$ kg. At what distance from the centre of the Earth does a lunar spacecraft experience no net gravitational force from the Earth and Moon?",
+   "answer": "$\\dfrac{M_E}{r^2} = \\dfrac{M_M}{(d-r)^2}$ gives $\\dfrac{r}{d-r} = \\sqrt{M_E/M_M} = 9.03$, so $r = \\dfrac{9.03}{10.03}\\times 3.84\\times10^{8} = 3.46 \\times 10^{8}\\ \\text{m}$.",
+   "options": [
+    "$3.49 \\times 10^{8}$ m",
+    "$3.46 \\times 10^{8}$ m",
+    "$3.42 \\times 10^{8}$ m",
+    "$3.15 \\times 10^{8}$ m"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.1"
+   ],
+   "question": "A rectangular coil of wire with sides 2.0 cm and 5.0 cm lies in a plane at $30^\\circ$ to a magnetic field of 20.0 T, as shown. What is the magnetic flux through the coil?",
+   "answer": "The field makes $60^\\circ$ with the normal to the coil: $\\Phi = BA\\cos\\theta = 20.0 \\times (0.020\\times 0.050)\\times\\cos 60^\\circ = 0.010\\ \\text{Wb}$. (The paper printed the unit as W; flux is measured in webers.)",
+   "options": [
+    "100 Wb",
+    "20 mWb",
+    "17 mWb",
+    "10 mWb"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/phys-2020-north-sydney-boys/q4.png"
+   ]
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.2",
+    "12.6.1.3"
+   ],
+   "question": "A stream of electrons is generated in a vacuum tube as shown. What is the direction of the magnetic field at point $P$?",
+   "answer": "Electrons move from cathode to anode (to the right), so conventional current in the tube is to the left. By the right-hand grip rule the field below this current is out of the page.",
+   "options": [
+    "To the right",
+    "Down the page",
+    "Into the page",
+    "Out of the page"
+   ],
+   "correct": "D",
+   "images": [
+    "assets/img/phys-2020-north-sydney-boys/q5.png"
+   ]
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.1"
+   ],
+   "question": "An aeroplane at an altitude of 500 m is moving horizontally at $160\\ \\text{m s}^{-1}$ when a small object falls from it. Which describes the effect of including air resistance, compared with ignoring it, on the object's motion until it hits the ground?",
+   "answer": "Drag reduces the downward acceleration (longer time of flight) and reduces the horizontal velocity (shorter horizontal displacement). The vertical displacement is unchanged.",
+   "options": [
+    "Time of flight is longer and horizontal displacement is shorter",
+    "Time of flight is shorter and horizontal displacement is shorter",
+    "Horizontal displacement is longer and vertical acceleration is smaller",
+    "Vertical displacement is shorter and vertical acceleration is smaller"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.2",
+    "12.5.3.3"
+   ],
+   "question": "Two satellites are in circular orbits around the Earth. The first is $R$ metres from the centre of the Earth and has orbital speed $V$. The second is $4R$ metres from the centre. What is the orbital speed of the second satellite?",
+   "answer": "$v = \\sqrt{GM/r}$, so quadrupling $r$ halves $v$.",
+   "options": [
+    "$V/4$",
+    "$4V$",
+    "$V/2$",
+    "$2V$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.1.1"
+   ],
+   "question": "How much work is done on a proton accelerated between two charged plates with a potential difference of 1 kV?",
+   "answer": "$W = qV = 1.602\\times10^{-19}\\times 1000 = 1.6\\times10^{-16}\\ \\text{J}$.",
+   "options": [
+    "$8.0 \\times 10^{-17}$ J",
+    "$1.6 \\times 10^{-16}$ J",
+    "$1.7 \\times 10^{-24}$ J",
+    "$8.0 \\times 10^{-18}$ J"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.5"
+   ],
+   "question": "A satellite of mass $6.30 \\times 10^{3}$ kg orbits the Earth at an altitude of $1.88 \\times 10^{4}$ km. Its gravitational potential energy is closest to:",
+   "answer": "$r = 6.371\\times10^{6} + 1.88\\times10^{7} = 2.52\\times10^{7}$ m; $U = -\\dfrac{GMm}{r} = -\\dfrac{6.67\\times10^{-11}\\times6.0\\times10^{24}\\times6.30\\times10^{3}}{2.52\\times10^{7}} = -1.00\\times10^{11}\\ \\text{J}$.",
+   "options": [
+    "$-1.00 \\times 10^{11}$ J",
+    "$-1.00 \\times 10^{14}$ J",
+    "$-3.95 \\times 10^{11}$ J",
+    "$-1.34 \\times 10^{14}$ J"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "Q11",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.1"
+   ],
+   "question": "5 cm of a conductor carrying a current of 0.35 A runs through a 1.3 T magnetic field directed into the page, as shown. What is the magnitude of the force on this length of conductor?",
+   "answer": "The conductor lies in the plane of the page, so it is perpendicular to the field whatever its angle in the page: $F = BIl = 1.3\\times0.35\\times0.05 = 0.023\\ \\text{N}$.",
+   "options": [
+    "0.020 N",
+    "0.023 N",
+    "0.011 N",
+    "0.046 N"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/phys-2020-north-sydney-boys/q11.png"
+   ]
+  },
+  {
+   "ref": "Q12",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.1.6",
+    "12.8.1.2"
+   ],
+   "question": "The hydrogen-$\\alpha$ line of the Balmer series occurs at 656.3 nm. In the spectrum of a star it is recorded at 686.2 nm. Which of the following is true?",
+   "answer": "The observed wavelength is longer (red shift), so the star is moving away.",
+   "options": [
+    "The star is blue-shifted and moving away from Earth",
+    "The star is blue-shifted and moving towards Earth",
+    "The star is red-shifted and moving towards Earth",
+    "The star is red-shifted and moving away from Earth"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q13",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.4.2"
+   ],
+   "question": "The trace of a sine wave on an oscilloscope is shown. What is the frequency of the wave?",
+   "answer": "The period is about 2.3 ms (about 4 cycles in 9 ms), so $f = 1/T \\approx 440\\ \\text{Hz}$.",
+   "options": [
+    "440 Hz",
+    "22 Hz",
+    "44 Hz",
+    "2.2 Hz"
+   ],
+   "correct": "A",
+   "images": [
+    "assets/img/phys-2020-north-sydney-boys/q13.png"
+   ]
+  },
+  {
+   "ref": "Q14",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.3",
+    "12.5.2.1"
+   ],
+   "question": "A doughnut-shaped spacecraft with outer radius 48.6 m rotates to provide artificial gravity for its occupants in deep space. What period of rotation gives an artificial gravity of $9.8\\ \\text{m s}^{-2}$ at the outer radius?",
+   "answer": "$a = \\dfrac{4\\pi^2 r}{T^2} \\Rightarrow T = 2\\pi\\sqrt{48.6/9.8} = 14.0\\ \\text{s}$.",
+   "options": [
+    "28.0 s",
+    "12.8 s",
+    "14.0 s",
+    "25.6 s"
+   ],
+   "correct": "C",
+   "images": [
+    "assets/img/phys-2020-north-sydney-boys/q14.png"
+   ]
+  },
+  {
+   "ref": "Q15",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.3"
+   ],
+   "question": "The transformer in a laptop charger has 2400 turns in the primary coil and 400 turns in the secondary coil. The laptop draws 4.2 A when charging. What is the current in the primary coil?",
+   "answer": "$I_p = I_s\\dfrac{N_s}{N_p} = 4.2\\times\\dfrac{400}{2400} = 0.70\\ \\text{A}$.",
+   "options": [
+    "25.2 A",
+    "0.70 A",
+    "40.0 A",
+    "0.35 A"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q16",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.2.2"
+   ],
+   "question": "A laser of wavelength 536 nm is shone through a pair of small slits in a card. On a wall 5.54 m away, the bright spots are 3.3 cm apart. What is the separation of the slits?",
+   "answer": "$d = \\dfrac{\\lambda L}{\\Delta y} = \\dfrac{536\\times10^{-9}\\times5.54}{0.033} = 9.0\\times10^{-5}\\ \\text{m}$.",
+   "options": [
+    "900 $\\mu$m",
+    "341 $\\mu$m",
+    "31.9 $\\mu$m",
+    "90 $\\mu$m"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q17",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.4.2"
+   ],
+   "question": "The spaceship shown has a proper length of 86.0 m and is observed from Earth to be travelling at $2.7 \\times 10^{8}\\ \\text{m s}^{-1}$. What length does the observer on Earth measure?",
+   "answer": "$l = l_0\\sqrt{1 - v^2/c^2} = 86.0\\sqrt{1-0.9^2} = 37.5\\ \\text{m}$. (Option C was printed with unit 'ms'.)",
+   "options": [
+    "16.3 m",
+    "37.5 m",
+    "197 m",
+    "86.0 m"
+   ],
+   "correct": "B",
+   "images": [
+    "assets/img/phys-2020-north-sydney-boys/q17.png"
+   ]
+  },
+  {
+   "ref": "Q18",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "The acceleration due to gravity at the Earth's surface is $g$. A planet has three times the mass and twice the radius of the Earth. What is the acceleration due to gravity at its surface?",
+   "answer": "$g_p = \\dfrac{G(3M)}{(2R)^2} = \\tfrac{3}{4}g$.",
+   "options": [
+    "$3g$",
+    "$2g$",
+    "$1.5g$",
+    "$0.75g$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "Q19",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.4.1"
+   ],
+   "question": "Michelson and Morley performed an experiment to detect the motion of the Earth through the luminiferous aether. The result of the experiment showed that:",
+   "answer": "The null result provided no evidence for the aether; it could not confirm it, but did not by itself prove it does not exist.",
+   "options": [
+    "The Earth was moving at a constant speed through the aether",
+    "The existence of the aether could not be confirmed",
+    "The Earth was not moving through the aether",
+    "The aether did not exist"
+   ],
+   "correct": "B"
+  },
+  {
+   "ref": "Q20",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.3.2",
+    "12.6.4.3"
+   ],
+   "question": "A magnet is dropped down a copper pipe with its north pole facing down and its acceleration is recorded. It is then dropped down the same pipe with its south pole facing down. Which best describes the acceleration of the magnet in each case (north pole down; south pole down)?",
+   "answer": "By Lenz's law the induced eddy currents oppose the relative motion whichever pole leads, so the acceleration is less than $g$ in both cases.",
+   "options": [
+    "$g$; $g$",
+    "greater than $g$; greater than $g$",
+    "less than $g$; less than $g$",
+    "less than $g$; greater than $g$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "Q21(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.3"
+   ],
+   "question": "A car is driven around a curve of radius 25.0 m at a constant speed of $20\\ \\text{m s}^{-1}$. Calculate the acceleration of the car.",
+   "answer": "$a = \\dfrac{v^2}{r} = \\dfrac{20^2}{25.0} = 16\\ \\text{m s}^{-2}$, directed towards the centre of the curve."
+  },
+  {
+   "ref": "Q21(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.2",
+    "12.5.2.3"
+   ],
+   "question": "A car is driven around a curve of radius 25.0 m at a constant speed of $20\\ \\text{m s}^{-1}$. If the driver has a mass of 68 kg, calculate the net force on the driver.",
+   "answer": "$F = \\dfrac{mv^2}{r} = \\dfrac{68\\times20^2}{25.0} = 1.1\\times10^{3}\\ \\text{N}$ (1088 N), directed towards the centre of the curve."
+  },
+  {
+   "ref": "Q22(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.2",
+    "12.7.2.1"
+   ],
+   "question": "In a double slit experiment, two slits, each 100 $\\mu$m wide and separated by 600 $\\mu$m, are placed in front of a blue laser of wavelength 380 nm. The interference pattern is observed on a screen 2.4 m away. Calculate the spacing between the (single-slit) Fraunhofer diffraction minima.",
+   "answer": "Single-slit minima: $w\\sin\\theta = m\\lambda$ with $\\sin\\theta \\approx y/L$, so the spacing is $\\Delta y = \\dfrac{\\lambda L}{w} = \\dfrac{380\\times10^{-9}\\times2.4}{100\\times10^{-6}} = 9.1\\times10^{-3}\\ \\text{m}$. (The central maximum is twice this wide.)"
+  },
+  {
+   "ref": "Q22(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.7.2.2"
+   ],
+   "question": "In a double slit experiment, two slits, each 100 $\\mu$m wide and separated by 600 $\\mu$m, are placed in front of a blue laser of wavelength 380 nm. The interference pattern is observed on a screen 2.4 m away. Calculate the number of interference maxima visible within the central diffraction maximum.",
+   "answer": "Interference maxima are spaced $\\Delta y = \\dfrac{\\lambda L}{d} = \\dfrac{380\\times10^{-9}\\times2.4}{600\\times10^{-6}} = 1.52\\times10^{-3}\\ \\text{m}$.\n\nThe first diffraction minimum is at $9.12\\times10^{-3}$ m, i.e. at order $m = d/w = 6$, so the $m = \\pm6$ maxima are missing.\n\nVisible orders are $m = -5$ to $+5$: **11 maxima**."
+  },
+  {
+   "ref": "Q22(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.2.2",
+    "12.7.2.1"
+   ],
+   "question": "In a double slit experiment, two slits, each 100 $\\mu$m wide and separated by 600 $\\mu$m, are placed in front of a blue laser of wavelength 380 nm. The interference pattern is observed on a screen 2.4 m away. Describe any changes that would be observed if the blue laser were replaced with a red laser.",
+   "answer": "Red light has a longer wavelength (and the pattern is red).\n\n- Diffraction minima are at $y = m\\lambda L/w$, so they move further apart: the diffraction envelope is wider.\n- Interference maxima are spaced $\\lambda L/d$ apart, so the fringes are further apart.\n- The number of fringes within the central diffraction maximum is unchanged (11), since it depends only on $d/w$."
+  },
+  {
+   "ref": "Q23(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.1",
+    "12.6.1.3"
+   ],
+   "question": "A velocity selector consists of parallel plates producing an electric field $E$ inside a magnetic field $B$, as shown. A charged particle entering it experiences both electric and magnetic forces; when they balance, the particle continues straight through. Derive an expression for the velocity of a particle that passes straight through.",
+   "answer": "The electric force on a charge $q$ is $F_E = qE$ (down the page for $+q$, towards the negative plate). The magnetic force is $F_B = qvB\\sin 90^\\circ = qvB$ (up the page, by the right-hand rule).\n\nFor no deflection $qvB = qE$, so $v = \\dfrac{E}{B}$.",
+   "images": [
+    "assets/img/phys-2020-north-sydney-boys/q23.png"
+   ]
+  },
+  {
+   "ref": "Q23(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.1.3",
+    "12.6.1.1"
+   ],
+   "question": "A velocity selector consists of parallel plates producing an electric field $E$ inside a magnetic field $B$, as shown. A charged particle entering it experiences both electric and magnetic forces; when they balance, the particle continues straight through. A particle that would pass straight through has its positive charge replaced by an equal negative charge, with all other properties and both fields unchanged. Describe the effect of the fields on its path.",
+   "answer": "It also passes straight through undeflected. Both the electric and magnetic forces reverse direction (electric now up the page, magnetic down), but their magnitudes $qE$ and $qvB$ are still equal, so they cancel. The condition $v = E/B$ does not depend on the charge.",
+   "images": [
+    "assets/img/phys-2020-north-sydney-boys/q23.png"
+   ]
+  },
+  {
+   "ref": "Q25(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.5"
+   ],
+   "question": "An astronaut doing maintenance on a spaceship in orbit above the Earth uses a spanner with a 45 cm shaft to tighten a nut, which requires a torque of 5.0 N m to be fully tightened. Calculate the force required if the astronaut applies it perpendicular to the spanner shaft.",
+   "answer": "$\\tau = rF\\sin\\theta$, so $F = \\dfrac{\\tau}{r\\sin 90^\\circ} = \\dfrac{5.0}{0.45} = 11\\ \\text{N}$."
+  },
+  {
+   "ref": "Q25(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.5"
+   ],
+   "question": "An astronaut doing maintenance on a spaceship in orbit above the Earth uses a spanner with a 45 cm shaft to tighten a nut, which requires a torque of 5.0 N m to be fully tightened. The force needed to tighten the nut when applied perpendicular to the shaft is instead applied at $75^\\circ$ to the shaft. How much torque is applied to the nut?",
+   "answer": "$F = 5.0/0.45 = 11.1$ N, so $\\tau = rF\\sin75^\\circ = 0.45\\times11.1\\times\\sin75^\\circ = 4.8\\ \\text{N m}$."
+  },
+  {
+   "ref": "Q25(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.4",
+    "12.5.3.2"
+   ],
+   "question": "Describe the changes in the kinetic and potential energy of an orbiting spaceship as it fires its engines to move to a higher orbit.",
+   "answer": "The engines do work on the spaceship, increasing its total mechanical energy $E = -\\dfrac{GMm}{2r}$.\n\n- Gravitational potential energy $U = -\\dfrac{GMm}{r}$ **increases** (becomes less negative) as work is done against gravity.\n- In the new, higher orbit the kinetic energy $K = \\dfrac{GMm}{2r}$ is **smaller** (the orbital speed is lower).\n\nFor a move from $r = R$ to $2R$: $\\Delta U = +\\dfrac{GMm}{2R}$, $\\Delta K = -\\dfrac{GMm}{4R}$ and $\\Delta E = +\\dfrac{GMm}{4R}$, supplied by the engines.\n\n*Note: the school solution's working gives $\\Delta K = -GMm/R$; the correct value is $-GMm/(4R)$.*"
+  },
+  {
+   "ref": "Q25(d)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.4",
+    "12.5.3.3"
+   ],
+   "question": "Distinguish between escape velocity and orbital velocity, including formulae for both in your answer.",
+   "answer": "**Orbital velocity** is the speed needed for a circular orbit of radius $r$: gravity supplies exactly the centripetal force, $\\dfrac{GMm}{r^2} = \\dfrac{mv^2}{r}$, so $v_o = \\sqrt{\\dfrac{GM}{r}}$. The object stays bound, with total energy $K + U = -\\dfrac{GMm}{2r} < 0$.\n\n**Escape velocity** is the minimum speed at distance $r$ for an object (without further thrust) to move infinitely far away, arriving with zero speed: $\\tfrac12 mv^2 - \\dfrac{GMm}{r} = 0$, so $v_e = \\sqrt{\\dfrac{2GM}{r}}$. The object is no longer bound (total energy zero).\n\n$v_e = \\sqrt2\\,v_o$; for speeds between them (launched tangentially) the orbit is elliptical."
+  },
+  {
+   "ref": "Q26(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.4.3"
+   ],
+   "question": "An electron is accelerated to $0.9999c$ in a particle accelerator. Calculate its relativistic mass.",
+   "answer": "$m = \\dfrac{m_0}{\\sqrt{1-v^2/c^2}} = \\dfrac{9.109\\times10^{-31}}{\\sqrt{1-0.9999^2}} = 6.44\\times10^{-29}\\ \\text{kg}$."
+  },
+  {
+   "ref": "Q26(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.4.3"
+   ],
+   "question": "An electron is accelerated to $0.9999c$ in a particle accelerator. Calculate the electron's relativistic momentum.",
+   "answer": "$p = \\dfrac{m_0 v}{\\sqrt{1-v^2/c^2}} = 6.44\\times10^{-29}\\times0.9999\\times3.00\\times10^{8} = 1.93\\times10^{-20}\\ \\text{kg m s}^{-1}$."
+  },
+  {
+   "ref": "Q26(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.4.4"
+   ],
+   "question": "A positron is the antiparticle of the electron, with the same properties except for a charge of $+1$. When a positron collides with an electron they annihilate and produce two photons. Calculate the energy released, taking both particles to be essentially at rest.",
+   "answer": "The rest mass of both particles is converted to energy: $E = 2m_ec^2 = 2\\times9.109\\times10^{-31}\\times(3.00\\times10^{8})^2 = 1.64\\times10^{-13}\\ \\text{J}$ (1.02 MeV)."
+  },
+  {
+   "ref": "Q26(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.8.1.3",
+    "12.8.4.5"
+   ],
+   "question": "Justify how Einstein's mass–energy equivalence equation can be used to explain phenomena such as the energy produced by the Sun.",
+   "answer": "$E = mc^2$ states that mass and energy are equivalent; because $c^2$ is very large, a small loss of mass corresponds to a very large amount of energy.\n\nIn the Sun's core, hydrogen nuclei fuse into helium (overall $4\\,{}^1_1\\text{H} \\to {}^4_2\\text{He} + 2e^+ + 2\\nu$). The products have less mass than the reactants. This mass defect $\\Delta m$ is released as energy $E = \\Delta mc^2$ (kinetic energy of products and photons).\n\nThe enormous number of fusion reactions each second accounts for the Sun's power output, so the equation quantitatively explains the source of its energy."
+  },
+  {
+   "ref": "Q26(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.4.2",
+    "12.7.4.1"
+   ],
+   "question": "Outline one piece of evidence that supports Einstein's theory of special relativity.",
+   "answer": "**Muon decay.** Muons are produced by cosmic rays high in the atmosphere and travel at close to $c$. Their mean lifetime at rest is only about 2.2 $\\mu$s, so without relativity very few should reach the ground.\n\nFar more are detected at sea level than this predicts (e.g. Frisch and Smith, 1963). In the Earth's frame the moving muon's lifetime is dilated, $t = \\dfrac{t_0}{\\sqrt{1-v^2/c^2}}$ (in the muon's frame, the distance is length-contracted), and the number detected agrees with this prediction."
+  },
+  {
+   "ref": "Q27",
+   "kind": "written",
+   "marks": 6,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.3.2",
+    "12.6.3.3"
+   ],
+   "question": "A wireless charger is used to recharge the battery of a mobile phone; the arrangement is shown. Explain the operation of the charger when charging the phone.",
+   "answer": "- The charger contains a primary coil supplied with **alternating** current.\n- This current produces a continually changing magnetic field around the coil.\n- The phone, placed on the charger, has a secondary coil close to and aligned with the primary, so part of the changing field passes through it: the flux $\\Phi = BA\\cos\\theta$ through the secondary changes.\n- By Faraday's law an emf $\\varepsilon = -N\\dfrac{\\Delta\\Phi}{\\Delta t}$ is induced in the secondary; in the closed circuit this drives an alternating current whose field, by Lenz's law, opposes the change in flux.\n- The phone's circuit board rectifies the AC to DC (and regulates the voltage) to charge the battery.\n\nEnergy is therefore transferred from charger to phone through the changing magnetic field, with no electrical contact, like a transformer: $\\dfrac{V_s}{V_p} = \\dfrac{N_s}{N_p}$ in the ideal case. In practice, with no iron core there is flux leakage, plus resistive and eddy current heating, so efficiency is less than 100%; keeping the coils close and aligned reduces these losses.",
+   "images": [
+    "assets/img/phys-2020-north-sydney-boys/q27.png"
+   ]
+  },
+  {
+   "ref": "Q28(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.3",
+    "12.6.1.1"
+   ],
+   "question": "A simple device for investigating the photoelectric effect is shown. When light of sufficient energy hits the cathode, electrons are ejected towards the anode. The voltage of the supply can be varied until no current is measured at the ammeter; this is the stopping voltage. Calculate the maximum initial speed of the electrons leaving the cathode if the stopping voltage is 4.9 V.",
+   "answer": "$\\tfrac12 m v^2 = qV$, so $v = \\sqrt{\\dfrac{2\\times1.602\\times10^{-19}\\times4.9}{9.109\\times10^{-31}}} = 1.3\\times10^{6}\\ \\text{m s}^{-1}$.",
+   "images": [
+    "assets/img/phys-2020-north-sydney-boys/q28.png"
+   ]
+  },
+  {
+   "ref": "Q28(b)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.7.3.2",
+    "12.7.3.3"
+   ],
+   "question": "A simple device for investigating the photoelectric effect is shown. When light of sufficient energy hits the cathode, electrons are ejected towards the anode. The voltage of the supply can be varied until no current is measured at the ammeter; this is the stopping voltage. The device is used to investigate the relationship between the type of metal at the cathode and the stopping voltage. Write a suitable hypothesis for this investigation.",
+   "answer": "For light of a given frequency above threshold, a cathode metal with a larger work function will give a smaller stopping voltage.",
+   "images": [
+    "assets/img/phys-2020-north-sydney-boys/q28.png"
+   ]
+  },
+  {
+   "ref": "Q28(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.7.3.3",
+    "12.7.3.2"
+   ],
+   "question": "A simple device for investigating the photoelectric effect is shown. When light of sufficient energy hits the cathode, electrons are ejected towards the anode. The voltage of the supply can be varied until no current is measured at the ammeter; this is the stopping voltage.\n\nThe following data was collected for a zinc cathode.\n\n| photon frequency ($\\times 10^{15}$ Hz) | stopping voltage (V) |\n|---|---|\n| 1.00 | no current detected |\n| 1.25 | 0.87 |\n| 1.50 | 1.90 |\n| 1.75 | 2.94 |\n| 2.00 | 3.97 |\n| 2.25 | 5.01 |\n\nPlot this data on a graph with a line of best fit.",
+   "answer": "Plot stopping voltage (vertical axis) against frequency (horizontal axis), with labelled axes and units, a title and a straight line of best fit extended to the frequency axis. The line has gradient $\\approx 4.14\\times10^{-15}$ V s ($= h/e$) and horizontal intercept $\\approx 1.04\\times10^{15}$ Hz. The 1.00 point (no current) is below threshold and is not plotted as a data point.\n\n*Note: the school paper gave the frequencies as $\\times10^{14}$ Hz, which would imply a Planck constant ten times too small; they have been corrected to $\\times10^{15}$ Hz.*",
+   "images": [
+    "assets/img/phys-2020-north-sydney-boys/q28.png"
+   ],
+   "answer_images": [
+    "assets/img/phys-2020-north-sydney-boys/q28c-ans.png"
+   ]
+  },
+  {
+   "ref": "Q28(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.3"
+   ],
+   "question": "A simple device for investigating the photoelectric effect is shown. When light of sufficient energy hits the cathode, electrons are ejected towards the anode. The voltage of the supply can be varied until no current is measured at the ammeter; this is the stopping voltage.\n\nThe following data was collected for a zinc cathode.\n\n| photon frequency ($\\times 10^{15}$ Hz) | stopping voltage (V) |\n|---|---|\n| 1.00 | no current detected |\n| 1.25 | 0.87 |\n| 1.50 | 1.90 |\n| 1.75 | 2.94 |\n| 2.00 | 3.97 |\n| 2.25 | 5.01 |\n\nUsing a graph of this data, calculate the work function of zinc.",
+   "answer": "The line of best fit crosses the frequency axis at the threshold frequency $f_0 = 1.04\\times10^{15}$ Hz.\n\n$\\phi = hf_0 = 6.626\\times10^{-34}\\times1.04\\times10^{15} = 6.9\\times10^{-19}\\ \\text{J}$ (4.3 eV).\n\n*Note: the school paper gave the frequencies as $\\times10^{14}$ Hz, which would imply a Planck constant ten times too small; they have been corrected to $\\times10^{15}$ Hz.* *The school's answer of $7.0\\times10^{-20}$ J is too small by a factor of ten.*",
+   "images": [
+    "assets/img/phys-2020-north-sydney-boys/q28.png"
+   ]
+  },
+  {
+   "ref": "Q28(e)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.7.3.2",
+    "12.7.3.3"
+   ],
+   "question": "A simple device for investigating the photoelectric effect is shown. When light of sufficient energy hits the cathode, electrons are ejected towards the anode. The voltage of the supply can be varied until no current is measured at the ammeter; this is the stopping voltage.\n\nThe following data was collected for a zinc cathode.\n\n| photon frequency ($\\times 10^{15}$ Hz) | stopping voltage (V) |\n|---|---|\n| 1.00 | no current detected |\n| 1.25 | 0.87 |\n| 1.50 | 1.90 |\n| 1.75 | 2.94 |\n| 2.00 | 3.97 |\n| 2.25 | 5.01 |\n\nExplain how the quantum model of light accounts for the results of this experiment.",
+   "answer": "In the quantum model light consists of photons, each of energy $E = hf$, and one photon gives all its energy to one electron.\n\n- An electron needs at least the work function $\\phi$ to escape. If $hf < \\phi$ no electrons are emitted whatever the intensity, which explains why no current is detected at $1.00\\times10^{15}$ Hz (below the threshold $f_0 = \\phi/h \\approx 1.04\\times10^{15}$ Hz).\n- Above threshold the surplus becomes kinetic energy: $K_{max} = hf - \\phi$.\n- The stopping voltage satisfies $eV_s = K_{max}$, so $V_s = \\dfrac{h}{e}f - \\dfrac{\\phi}{e}$: a straight line, as observed, with gradient $h/e$ and intercept set by zinc's work function.\n\nA wave model, in which energy depends on intensity and can accumulate, cannot explain the threshold frequency or this dependence on frequency.",
+   "images": [
+    "assets/img/phys-2020-north-sydney-boys/q28.png"
+   ]
+  },
+  {
+   "ref": "Q29(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.4.1"
+   ],
+   "question": "Explain, using a series of annotated diagrams or a step-by-step description through one rotation, how a small DC motor operates.",
+   "answer": "**Components:** a coil (armature) in the magnetic field of a pair of magnets (stator), connected to a DC supply through a split-ring commutator and brushes.\n\n1. **Coil parallel to the field:** current flows in opposite directions in the two sides, so by $F = BIl$ they experience forces in opposite directions (one up, one down). This gives maximum torque $\\tau = nIAB$.\n2. **Rotating towards perpendicular:** the forces stay the same size but their perpendicular distance from the axis shrinks, so $\\tau = nIAB\\sin\\theta$ ($\\theta$ between the field and the normal to the coil) decreases.\n3. **Coil perpendicular to the field:** torque is zero; the brushes cross the gaps in the split ring and momentum carries the coil past.\n4. **Just past:** the commutator has swapped the connections, reversing the current in the coil. The side now on each side of the motor again feels a force in the original sense, so the torque continues in the same direction.\n\nThis repeats every half turn, giving continuous rotation."
+  },
+  {
+   "ref": "Q29(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.4.2"
+   ],
+   "question": "If the shaft of a single-coil DC motor is turned by an external torque it acts as a generator. Sketch the output voltage of this DC generator against the angle of the shaft for one complete rotation.",
+   "answer": "A full-wave rectified sine curve: two positive humps per rotation, falling to zero every $180^\\circ$ (where the commutator swaps connections). The graph shown takes $0^\\circ$ as the position with the coil perpendicular to the field (zero emf).",
+   "answer_images": [
+    "assets/img/phys-2020-north-sydney-boys/q29b-ans.png"
+   ]
+  },
+  {
+   "ref": "Q30(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "A simple pendulum consists of a bob of mass $m$ on a massless string of length $L$ fixed at a pivot $P$. When displaced and released it swings with periodic motion, and its period (for small angles) is $T = 2\\pi\\sqrt{\\dfrac{L}{g}}$. An investigation aims to estimate the acceleration due to gravity $g$ using a simple pendulum. Write a procedure to collect appropriate data from the pendulum to meet this aim.",
+   "answer": "1. Clamp a string with a small dense bob firmly at the top. Measure $L$ from the pivot to the centre of the bob with a metre rule.\n2. Displace the bob by a small angle (less than about $10^\\circ$) and release it without pushing, so it swings in one plane.\n3. Using a stopwatch, time 10 complete oscillations, timing from the lowest point; divide by 10 to get $T$.\n4. Repeat at least three times for the same length and average.\n5. Repeat for at least five different lengths (e.g. 0.2 m to 1.0 m), keeping the bob and release angle the same.\n6. Record $L$, the times, $T$ and $T^2$ in a table, then graph $T^2$ against $L$.\n\n*Note: the school paper printed the period as $T=\\sqrt{L/g}$, omitting the factor $2\\pi$; it is corrected here.*",
+   "images": [
+    "assets/img/phys-2020-north-sydney-boys/q30.png"
+   ]
+  },
+  {
+   "ref": "Q30(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "A simple pendulum consists of a bob of mass $m$ on a massless string of length $L$ fixed at a pivot $P$. When displaced and released it swings with periodic motion, and its period (for small angles) is $T = 2\\pi\\sqrt{\\dfrac{L}{g}}$. An investigation aims to estimate the acceleration due to gravity $g$ using a simple pendulum. Show how the equation can be rearranged so the data can be analysed graphically to obtain a value for $g$.",
+   "answer": "Squaring: $T^2 = \\dfrac{4\\pi^2}{g}L$.\n\nA graph of $T^2$ (vertical) against $L$ (horizontal) is a straight line through the origin with gradient $\\dfrac{4\\pi^2}{g}$, so $g = \\dfrac{4\\pi^2}{\\text{gradient}}$.\n\n*Note: the school paper omitted the $2\\pi$ from the period formula, so its answer (gradient $1/g$) is wrong.*",
+   "images": [
+    "assets/img/phys-2020-north-sydney-boys/q30.png"
+   ]
+  }
+ ]
+}
