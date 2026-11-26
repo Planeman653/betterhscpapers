@@ -1,0 +1,508 @@
+{
+ "id": "ext1-2024-barker",
+ "course": "extension1",
+ "school": "Barker",
+ "year": 2024,
+ "type": "Trial",
+ "thsc": {
+  "viewno": 5338,
+  "title": "Barker 2024 w. sol"
+ },
+ "indexed": "2026-11-26",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "8",
+   "reason": "Pigeonhole principle — not in the current Extension 1 syllabus"
+  },
+  {
+   "ref": "12(b)",
+   "reason": "Sketch of y = √f(x) — not in the current Extension 1 syllabus"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.11",
+    "12.3.1.4"
+   ],
+   "question": "What are the domain and range of $y=4\\cos^{-1}\\left(\\dfrac{3x}{2}\\right)$?",
+   "answer": "$-1\\le\\frac{3x}2\\le1$ and $0\\le\\cos^{-1}\\le\\pi$.",
+   "options": [
+    "Domain $-\\frac23\\le x\\le\\frac23$, range $0\\le y\\le4\\pi$",
+    "Domain $-\\frac32\\le x\\le\\frac32$, range $-4\\pi\\le y\\le4\\pi$",
+    "Domain $-\\frac23\\le x\\le\\frac23$, range $-4\\pi\\le y\\le4\\pi$",
+    "Domain $-\\frac23\\le x\\le\\frac23$, range $0\\le y\\le4$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "Which expression equals $\\displaystyle\\int\\frac{3}{9+x^2}\\,dx$?",
+   "answer": "$3\\times\\frac13\\tan^{-1}\\frac x3$.",
+   "options": [
+    "$\\tan^{-1}\\dfrac x3+C$",
+    "$\\dfrac13\\tan^{-1}\\dfrac x3+C$",
+    "$3\\tan^{-1}\\dfrac x3+C$",
+    "$\\dfrac13\\tan^{-1}\\dfrac x9+C$"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.4.3"
+   ],
+   "question": "The diagram shows an equilateral triangle of side 3 units with vectors $\\underset{\\sim}{u}$ and $\\underset{\\sim}{v}$ along two sides from a common vertex. What is $\\underset{\\sim}{u}\\cdot\\underset{\\sim}{v}$?",
+   "answer": "$3\\times3\\times\\cos60^\\circ=\\frac92$.",
+   "images": [
+    "assets/img/ext1-2024-barker/q3.png"
+   ],
+   "options": [
+    "$0$",
+    "$\\dfrac{9}{\\sqrt2}$",
+    "$\\dfrac92$",
+    "$9$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.9",
+    "12.5.4.4"
+   ],
+   "question": "Which direction field best represents $\\dfrac{dy}{dx}=\\dfrac{3x^2}{2y}$?",
+   "answer": "The gradient has the sign of $y$, is zero on $x=0$ and vertical near $y=0$.",
+   "images": [
+    "assets/img/ext1-2024-barker/q4.png"
+   ],
+   "options": [
+    "Field A",
+    "Field B",
+    "Field C",
+    "Field D"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.3.3"
+   ],
+   "question": "A circle has parametric equations $x=2\\sin t$, $y=2\\cos t+1$. What are its centre and radius?",
+   "answer": "$x^2+(y-1)^2=4$.",
+   "options": [
+    "Centre (0, 1), radius 2",
+    "Centre (0, 1), radius 4",
+    "Centre (0, −1), radius 2",
+    "Centre (0, −1), radius 4"
+   ],
+   "correct": "A"
+  },
+  {
+   "ref": "6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.3",
+    "11.2.1.12"
+   ],
+   "question": "$P(x)=x^5+ax^4+bx^3+cx^2+dx+e$ has a root of multiplicity 3 and is divisible by $x^2-x$. Which could be the graph of $y=P(x)$?",
+   "answer": "It is monic of odd degree (rises to the right), passes through $x=0$ and another positive root, and has a horizontal point of inflection at the triple root.",
+   "images": [
+    "assets/img/ext1-2024-barker/q6.png"
+   ],
+   "options": [
+    "Graph A",
+    "Graph B",
+    "Graph C",
+    "Graph D"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.4.9",
+    "12.2.4.10"
+   ],
+   "question": "What is the projection of $\\underset{\\sim}{u}=-5\\underset{\\sim}{i}+2\\underset{\\sim}{j}$ onto $\\underset{\\sim}{v}=-10\\underset{\\sim}{i}-10\\underset{\\sim}{j}$?",
+   "answer": "$\\dfrac{\\underset{\\sim}{u}\\cdot\\underset{\\sim}{v}}{|\\underset{\\sim}{v}|^2}\\underset{\\sim}{v}=\\dfrac{30}{200}\\underset{\\sim}{v}$.",
+   "options": [
+    "$\\dfrac72\\underset{\\sim}{i}+\\dfrac72\\underset{\\sim}{j}$",
+    "$\\dfrac{3}{20}\\underset{\\sim}{i}+\\dfrac{3}{20}\\underset{\\sim}{j}$",
+    "$-\\dfrac32\\underset{\\sim}{i}-\\dfrac32\\underset{\\sim}{j}$",
+    "$-\\dfrac{7}{20}\\underset{\\sim}{i}-\\dfrac{7}{20}\\underset{\\sim}{j}$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.3"
+   ],
+   "question": "Which function is **not** a solution of $y''+3y'-4y=0$?",
+   "answer": "For $y=e^{5x}$: $25+15-4\\ne0$.",
+   "options": [
+    "$y=e^{-4x}$",
+    "$y=e^{x}$",
+    "$y=e^{5x}$",
+    "$y=0$"
+   ],
+   "correct": "C"
+  },
+  {
+   "ref": "10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "Let $n\\ge4$ be an integer. What is the coefficient of $x^3y^5$ in the expansion of $(1+xy+y^2)^n$?",
+   "answer": "The term is $\\binom nk y^k(x+y)^k$. For $x^3y^5$: $k=4$, giving $\\binom n4\\binom41$.",
+   "options": [
+    "$n$",
+    "$2^n$",
+    "$\\dbinom n3\\dbinom n2$",
+    "$4\\dbinom n4$"
+   ],
+   "correct": "D"
+  },
+  {
+   "ref": "11(a)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.3.6"
+   ],
+   "question": "Given $\\underset{\\sim}{a}=\\begin{pmatrix}-2\\\\1\\end{pmatrix}$ and $\\underset{\\sim}{b}=\\begin{pmatrix}1\\\\5\\end{pmatrix}$, find $\\underset{\\sim}{b}-\\underset{\\sim}{a}$.",
+   "answer": "$\\begin{pmatrix}3\\\\4\\end{pmatrix}$"
+  },
+  {
+   "ref": "11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.4",
+    "11.2.3.2"
+   ],
+   "question": "The roots of $2x^3-4x^2+x-2=0$ are $\\alpha,\\beta,\\gamma$. Find $\\dfrac{1}{\\alpha\\beta}+\\dfrac{1}{\\beta\\gamma}+\\dfrac{1}{\\gamma\\alpha}$.",
+   "answer": "$=\\dfrac{\\alpha+\\beta+\\gamma}{\\alpha\\beta\\gamma}=\\dfrac{2}{1}=2$."
+  },
+  {
+   "ref": "11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.1"
+   ],
+   "question": "Solve $\\cos2\\theta+\\sin\\theta=0$ for $[0,2\\pi]$.",
+   "answer": "$1-2\\sin^2\\theta+\\sin\\theta=0$, so $(2\\sin\\theta+1)(\\sin\\theta-1)=0$.\n\n$$\\theta=\\frac\\pi2,\\ \\frac{7\\pi}{6},\\ \\frac{11\\pi}{6}$$"
+  },
+  {
+   "ref": "11(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.17"
+   ],
+   "question": "A team of nine players is selected at random from seven girls and five boys, with no more than four boys on the team. How many teams can be formed?",
+   "answer": "$\\binom54\\binom75+\\binom53\\binom76+\\binom52\\binom77=105+70+10=185$."
+  },
+  {
+   "ref": "11(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.19"
+   ],
+   "question": "A team of nine players is selected at random from seven girls and five boys, with no more than four boys on the team. Three of the girls are sisters. Find the probability that all three are selected.",
+   "answer": "The other 6 places come from 4 girls and 5 boys with at most 4 boys:\n$$\\binom54\\binom42+\\binom53\\binom43+\\binom52\\binom44=30+40+10=80$$\nThere are 185 possible teams, so the probability is $\\dfrac{80}{185}=\\dfrac{16}{37}$."
+  },
+  {
+   "ref": "11(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "Use mathematical induction to prove that $4^{2n+1}+3^{2n+1}$ is divisible by 7 for all integers $n\\ge1$.",
+   "answer": "**$n=1$:** $64+27=91=7\\times13$.\n\n**Assume** $4^{2k+1}+3^{2k+1}=7M$ for an integer $M$.\n\n**$n=k+1$:**\n$$4^{2k+3}+3^{2k+3}=16(7M-3^{2k+1})+9\\cdot3^{2k+1}=7(16M-3^{2k+1})$$\nwhich is divisible by 7. By induction the result holds for all $n\\ge1$."
+  },
+  {
+   "ref": "12(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.5.1.6"
+   ],
+   "question": "Write down the expansion of $(1-x)^5$.",
+   "answer": "$1-5x+10x^2-10x^3+5x^4-x^5$"
+  },
+  {
+   "ref": "12(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "Find the term in $x^2$ in the expansion of $(2x-3)^2(1-x)^5$.",
+   "answer": "$(4x^2-12x+9)(1-5x+10x^2-\\dots)$ gives $(4+60+90)x^2=154x^2$."
+  },
+  {
+   "ref": "12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "Sand drops onto a floor at 5 cm³ per second, forming a pile whose volume $V$ cm³ and height $h$ cm satisfy $V=-2+\\sqrt{2h^3+3h+4}$. Find, to 3 decimal places, the rate at which the height is increasing when $h=11$ cm.",
+   "answer": "$$\\frac{dV}{dh}=\\frac{6h^2+3}{2\\sqrt{2h^3+3h+4}}$$\nAt $h=11$: $\\dfrac{dV}{dh}=\\dfrac{729}{2\\sqrt{2699}}$.\n\n$$\\frac{dh}{dt}=\\frac{dV}{dt}\\div\\frac{dV}{dh}=\\frac{10\\sqrt{2699}}{729}\\approx0.713\\ \\text{cm/s}$$"
+  },
+  {
+   "ref": "12(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.6",
+    "12.2.3.4"
+   ],
+   "question": "In the diagram, $\\overrightarrow{AD}=\\underset{\\sim}{a}$, $\\overrightarrow{BC}=\\underset{\\sim}{b}$ and $C$ lies on $BD$. Given $5\\overrightarrow{BD}=6\\overrightarrow{CD}$, prove that $\\overrightarrow{AB}=\\underset{\\sim}{a}-6\\underset{\\sim}{b}$.",
+   "answer": "$\\overrightarrow{BD}=\\underset{\\sim}{b}+\\overrightarrow{CD}$, so $5\\underset{\\sim}{b}+5\\overrightarrow{CD}=6\\overrightarrow{CD}$ and $\\overrightarrow{CD}=5\\underset{\\sim}{b}$. Hence $\\overrightarrow{BD}=6\\underset{\\sim}{b}$.\n\n$$\\overrightarrow{AB}=\\overrightarrow{AD}-\\overrightarrow{BD}=\\underset{\\sim}{a}-6\\underset{\\sim}{b}$$",
+   "images": [
+    "assets/img/ext1-2024-barker/q12d.png"
+   ]
+  },
+  {
+   "ref": "13(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.11",
+    "12.3.2.12"
+   ],
+   "question": "Graph $y=2\\sin^{-1}2x$, clearly stating the domain and range.",
+   "answer": "Domain $\\left[-\\frac12,\\frac12\\right]$, range $[-\\pi,\\pi]$. The curve is odd, passes through the origin and has endpoints $\\left(\\pm\\frac12,\\pm\\pi\\right)$.",
+   "answer_images": [
+    "assets/img/ext1-2024-barker/ans13a.png"
+   ]
+  },
+  {
+   "ref": "13(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.11",
+    "12.5.4.12"
+   ],
+   "question": "A frozen dinner at $0^\\circ$C is placed in an oven at $180^\\circ$C. Its temperature $T$ after $t$ minutes satisfies $\\dfrac{dT}{dt}=k(T-180)$ for a constant $k$. Using separation of variables, show that $T=180+Ae^{kt}$ for a constant $A$.",
+   "answer": "$$\\int\\frac{dT}{T-180}=\\int k\\,dt\\ \\Rightarrow\\ \\ln|T-180|=kt+C$$\nSo $T-180=\\pm e^Ce^{kt}$, giving $T=180+Ae^{kt}$. (Since $T(0)=0$, $A=-180$.)"
+  },
+  {
+   "ref": "13(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.7"
+   ],
+   "question": "A frozen dinner at $0^\\circ$C is placed in an oven at $180^\\circ$C. Its temperature $T$ after $t$ minutes satisfies $\\dfrac{dT}{dt}=k(T-180)$ for a constant $k$. Given $T=180+Ae^{kt}$ and that the dinner is at $25^\\circ$C after 15 minutes, find, to 3 decimal places, the rate of change of its temperature (in °C/min) when it is at $100^\\circ$C.",
+   "answer": "$A=-180$, and $25=180-180e^{15k}$ gives $k=\\dfrac1{15}\\ln\\dfrac{31}{36}$.\n\n$$\\frac{dT}{dt}=k(100-180)=-\\frac{80}{15}\\ln\\frac{31}{36}\\approx0.798\\ ^\\circ\\text{C/min}$$"
+  },
+  {
+   "ref": "13(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.2"
+   ],
+   "question": "Express $3\\sin x+4\\cos x$ in the form $A\\sin(x+\\alpha)$ where $0\\le\\alpha\\le\\dfrac\\pi2$.",
+   "answer": "$A=\\sqrt{3^2+4^2}=5$ and $\\tan\\alpha=\\dfrac43$, so $5\\sin\\left(x+\\tan^{-1}\\dfrac43\\right)\\approx5\\sin(x+0.927)$."
+  },
+  {
+   "ref": "13(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.3",
+    "11.3.3.1"
+   ],
+   "question": "Solve $3\\sin x+4\\cos x=5$ for $0\\le x\\le2\\pi$, to 2 decimal places.",
+   "answer": "$5\\sin(x+\\alpha)=5$ with $\\alpha=\\tan^{-1}\\frac43$, so $x+\\alpha=\\dfrac\\pi2$ and $x\\approx0.64$."
+  },
+  {
+   "ref": "13(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2",
+    "12.4.2.1"
+   ],
+   "question": "Use the substitution $u=x-8$ to find $\\displaystyle\\int_8^{8.5}\\frac{dx}{\\sqrt{(7-x)(x-9)}}$.",
+   "answer": "$du=dx$, limits $0$ to $0.5$, and $(7-x)(x-9)=(-1-u)(u-1)=1-u^2$.\n\n$$\\int_0^{0.5}\\frac{du}{\\sqrt{1-u^2}}=\\left[\\sin^{-1}u\\right]_0^{0.5}=\\frac\\pi6$$"
+  },
+  {
+   "ref": "14(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.5",
+    "12.4.1.6"
+   ],
+   "question": "Let $f(x)=\\cos^{-1}(x)+\\cos^{-1}(-x)$. Show that $f(x)$ is constant by finding $f'(x)$.",
+   "answer": "$f'(x)=\\dfrac{-1}{\\sqrt{1-x^2}}+\\dfrac{1}{\\sqrt{1-x^2}}=0$ for $-1<x<1$, so $f$ is constant."
+  },
+  {
+   "ref": "14(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.6"
+   ],
+   "question": "Let $f(x)=\\cos^{-1}(x)+\\cos^{-1}(-x)$. This function is constant. Find the value of the constant.",
+   "answer": "$f(0)=\\dfrac\\pi2+\\dfrac\\pi2=\\pi$."
+  },
+  {
+   "ref": "14(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "For $A(2,-2)$ and $B(2,6)$, find $\\angle AOB$ to the nearest degree, where $O$ is the origin.",
+   "answer": "$\\cos\\theta=\\dfrac{4-12}{\\sqrt8\\sqrt{40}}=-\\dfrac{1}{\\sqrt5}$, so $\\theta\\approx117^\\circ$."
+  },
+  {
+   "ref": "14(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Solve $\\dfrac{x+5}{x-1}\\ge\\dfrac9x$ for $x\\ne0,1$.",
+   "answer": "Multiply by $x^2(x-1)^2>0$:\n$$x(x-1)\\big[x(x+5)-9(x-1)\\big]\\ge0\\ \\Rightarrow\\ x(x-1)(x^2-4x+9)\\ge0$$\nSince $x^2-4x+9>0$, the solution is $x<0$ or $x>1$."
+  },
+  {
+   "ref": "14(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Given that $\\dfrac{x+5}{x-1}\\ge\\dfrac9x$ has solution $x<0$ or $x>1$, find the values of $x$ satisfying $\\dfrac{e^x+5}{e^x-1}\\ge\\dfrac{9}{e^x}$.",
+   "answer": "We need $e^x<0$ (impossible) or $e^x>1$, so $x>0$."
+  },
+  {
+   "ref": "14(d)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "The region bounded by the $x$-axis, $y=\\sqrt{\\tan^2x+2}$ and the lines $x=\\pm a$ is rotated about the $x$-axis. The value of $a$ is chosen so that the outer radius is $\\sqrt3$ cm, as shown. Find the volume of the solid formed.",
+   "answer": "$\\sqrt{\\tan^2a+2}=\\sqrt3$ gives $\\tan a=1$, $a=\\dfrac\\pi4$.\n\n$$V=2\\pi\\int_0^{\\pi/4}(\\tan^2x+2)\\,dx=2\\pi\\int_0^{\\pi/4}(\\sec^2x+1)\\,dx=2\\pi\\left(1+\\frac\\pi4\\right)=2\\pi+\\frac{\\pi^2}{2}\\ \\text{cm}^3$$",
+   "images": [
+    "assets/img/ext1-2024-barker/q14d.png"
+   ]
+  },
+  {
+   "ref": "15(a)",
+   "kind": "written",
+   "marks": 5,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.6.7",
+    "12.2.6.8"
+   ],
+   "question": "A ball is kicked from ground level at speed $V$ m/s and angle $\\theta$. Its position after $t$ seconds is $\\underset{\\sim}{r}(t)=(Vt\\cos\\theta)\\underset{\\sim}{i}+(Vt\\sin\\theta-5t^2)\\underset{\\sim}{j}$. Two seconds after being kicked, the ball just clears the far side of a 5 m high building. The building is 5 m wide and its closest wall is 10 m from the student. Let $d_1$ be the distance by which the ball clears the closest wall and $d_2$ the distance from the far wall to the point of impact, as shown. By first finding $d_1$ and $d_2$, show that $d_2$ is within 1 m of $d_1$.",
+   "answer": "At $t=2$: $x=15$ and $y=5$, so $V\\cos\\theta=7.5$ and $2V\\sin\\theta-20=5$, giving $V\\sin\\theta=12.5$.\n\nAt $x=10$: $t=\\dfrac43$ and $y=12.5\\times\\dfrac43-5\\times\\dfrac{16}{9}=\\dfrac{70}{9}$, so $d_1=\\dfrac{70}{9}-5=\\dfrac{25}{9}\\approx2.78$ m.\n\nLanding: $t=\\dfrac{12.5}{5}=2.5$, $x=7.5\\times2.5=18.75$, so $d_2=3.75$ m.\n\n$d_2-d_1\\approx0.97<1$, so $d_2$ is within 1 m of $d_1$.",
+   "images": [
+    "assets/img/ext1-2024-barker/q15a.png"
+   ]
+  },
+  {
+   "ref": "15(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "course": "extension2",
+   "dotpoints": [
+    "12.4.1.5"
+   ],
+   "question": "Given $t=\\tan\\dfrac\\theta2$ where $0\\le\\theta<\\pi$, show that $\\cos\\dfrac\\theta2=\\dfrac{1}{\\sqrt{1+t^2}}$.",
+   "answer": "$\\sec^2\\dfrac\\theta2=1+t^2$, and $\\cos\\dfrac\\theta2>0$ for $0\\le\\theta<\\pi$, so $\\cos\\dfrac\\theta2=\\dfrac{1}{\\sqrt{1+t^2}}$.\n\n*Note: the paper does not restrict $\\theta$; for $\\pi<\\theta\\le2\\pi$ the cosine is negative, so the restriction has been added.*"
+  },
+  {
+   "ref": "15(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.1",
+    "11.3.2.4"
+   ],
+   "question": "Solve $\\sin\\theta-\\cos\\dfrac\\theta2=0$ for $0\\le\\theta\\le2\\pi$.",
+   "answer": "$$2\\sin\\tfrac\\theta2\\cos\\tfrac\\theta2-\\cos\\tfrac\\theta2=\\cos\\tfrac\\theta2\\left(2\\sin\\tfrac\\theta2-1\\right)=0$$\nWith $0\\le\\frac\\theta2\\le\\pi$: $\\cos\\frac\\theta2=0$ gives $\\theta=\\pi$; $\\sin\\frac\\theta2=\\frac12$ gives $\\theta=\\dfrac\\pi3,\\dfrac{5\\pi}{3}$."
+  },
+  {
+   "ref": "15(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "$\\alpha,\\beta,\\gamma$ are the roots of $2x^3+5x^2-4x+8=0$. Given $\\alpha^2+\\beta^2+\\gamma^2=\\dfrac{41}{4}$ and $\\alpha^3+\\beta^3+\\gamma^3=-\\dfrac{341}{8}$, find $\\alpha^4+\\beta^4+\\gamma^4$.",
+   "answer": "Each root satisfies $2x^3+5x^2-4x+8=0$; multiplying by $x$, $2x^4+5x^3-4x^2+8x=0$. Summing over the three roots:\n$$2\\sum\\alpha^4+5\\left(-\\tfrac{341}{8}\\right)-4\\left(\\tfrac{41}{4}\\right)+8\\left(-\\tfrac52\\right)=0$$\n$$2\\sum\\alpha^4=\\frac{1705}{8}+41+20=\\frac{2193}{8}\\ \\Rightarrow\\ \\alpha^4+\\beta^4+\\gamma^4=\\frac{2193}{16}$$"
+  }
+ ]
+}
