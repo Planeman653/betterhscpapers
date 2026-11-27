@@ -1,0 +1,674 @@
+{
+ "id": "ext2-2024-sydney-girls",
+ "course": "extension2",
+ "school": "Sydney Girls",
+ "year": 2024,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "Sydney Girls 2024 w. sol"
+ },
+ "indexed": "2026-11-28",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q13(b)(i)",
+   "reason": "exponential form of complex numbers is not in the 2024 syllabus"
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "reason": "hence-part built on the exponential form (not in the 2024 syllabus)"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.7"
+   ],
+   "question": "Consider the statement: 'If $n$ is a perfect square, then $n$ is not 2 more than a multiple of 3.' Which is the negation of this statement?",
+   "options": [
+    "If $n$ is not 2 more than a multiple of 3, then $n$ is a perfect square.",
+    "$n$ is a perfect square and $n$ is 2 more than a multiple of 3.",
+    "If $n$ is 2 more than a multiple of 3, then $n$ is not a perfect square.",
+    "$n$ is not a perfect square and $n$ is not 2 more than a multiple of 3."
+   ],
+   "correct": 1,
+   "answer": "**1.** The negation of $P\\Rightarrow Q$ is $P$ and not $Q$."
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.1"
+   ],
+   "question": "Which gives the two solutions of $z^2-(2+6i)z-5+2i=0$?",
+   "options": [
+    "$z=2$ or $z=2+5i$",
+    "$z=2$ or $z=6i$",
+    "$z=i$ or $z=2+5i$",
+    "$z=i$ or $z=6i$"
+   ],
+   "correct": 2,
+   "answer": "**2.** $i+(2+5i)=2+6i$ and $i(2+5i)=-5+2i$."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.11"
+   ],
+   "question": "What is the contrapositive of: 'If $n=2^k$ then $n$ has exactly $k+1$ factors'?",
+   "options": [
+    "If $n$ has $k+1$ factors then $n=2^k$.",
+    "If $n$ does not have exactly $k+1$ factors, then $n=2^k$.",
+    "If $n$ has exactly $k+1$ factors, then $n\\ne2^k$.",
+    "If $n$ does not have exactly $k+1$ factors, then $n\\ne2^k$."
+   ],
+   "correct": 3,
+   "answer": "**3.** The contrapositive of $P\\Rightarrow Q$ is $\\neg Q\\Rightarrow\\neg P$."
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.1",
+    "12.3.4.10"
+   ],
+   "question": "The first Argand diagram shows the complex number $z$. Which of diagrams A–D shows the location of $i\\bar z$?",
+   "options": [
+    "Diagram A",
+    "Diagram B",
+    "Diagram C",
+    "Diagram D"
+   ],
+   "correct": 1,
+   "answer": "**1.** If $z=-a-bi$ with $a>b>0$, then $i\\bar z=i(-a+bi)=-b-ai$: third quadrant, below the line $y=x$.",
+   "images": [
+    "assets/img/ext2-2024-sydney-girls/q4a.png",
+    "assets/img/ext2-2024-sydney-girls/q4b.png"
+   ]
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "What is the value of $(-\\sqrt3+i)^{2024}$?",
+   "options": [
+    "$2^{2024}(-1+\\sqrt3 i)$",
+    "$2^{2024}(1+\\sqrt3 i)$",
+    "$2^{2023}(-1+\\sqrt3 i)$",
+    "$2^{2023}(1+\\sqrt3 i)$"
+   ],
+   "correct": 2,
+   "answer": "**2.** $-\\sqrt3+i=2\\,\\mathrm{cis}\\frac{5\\pi}{6}$; $2024\\times\\frac{5\\pi}{6}\\equiv\\frac{2\\pi}{3}$, giving $2^{2024}\\mathrm{cis}\\frac{2\\pi}{3}=2^{2023}(-1+\\sqrt3 i)$."
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.10"
+   ],
+   "question": "Which is equal to $\\displaystyle\\int\\frac{x^3-2x^2+3x}{x-2}\\,dx$?",
+   "options": [
+    "$\\frac13x^3+3x+6\\ln|x-2|+C$",
+    "$\\frac13x^3+3x-6\\ln|x-2|+C$",
+    "$\\frac14x^4+3x+6\\ln|x-2|+C$",
+    "$\\frac14x^4+3x-6\\ln|x-2|+C$"
+   ],
+   "correct": 0,
+   "answer": "**0.** The integrand is $x^2+3+\\dfrac{6}{x-2}$."
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.13",
+    "12.4.1.6"
+   ],
+   "question": "Which is equal to $\\displaystyle\\int_{9\\pi^2/4}^{25\\pi^2/4}\\sin\\sqrt x\\,dx$?",
+   "options": [
+    "2",
+    "$-2$",
+    "4",
+    "$-4$"
+   ],
+   "correct": 2,
+   "answer": "**2.** With $u=\\sqrt x$: $\\int_{3\\pi/2}^{5\\pi/2}2u\\sin u\\,du=2[\\sin u-u\\cos u]=2(1-(-1))=4$."
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.3"
+   ],
+   "question": "The complex number $z$ satisfies $|z+i|=3$. What are the minimum and maximum values of $|4z-3|$?",
+   "options": [
+    "$5\\le|4z-3|\\le15$",
+    "$5\\le|4z-3|\\le17$",
+    "$7\\le|4z-3|\\le15$",
+    "$7\\le|4z-3|\\le17$"
+   ],
+   "correct": 3,
+   "answer": "**3.** $|4z-3|=4|z-\\frac34|$ and the distance from $-i$ to $\\frac34$ is $\\frac54$, so the range is $4(3\\mp\\frac54)$: 7 to 17."
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "By considering the graph of $y=\\tan x$ for $\\frac\\pi4<x<\\frac\\pi2$, which holds for all $t\\in(\\frac\\pi4,\\frac\\pi2)$?",
+   "options": [
+    "$\\sec t<e^{\\frac12(t-\\frac\\pi4)(1+\\tan t)}$",
+    "$\\sec t>e^{\\frac12(t-\\frac\\pi4)(1+\\tan t)}$",
+    "$\\sec t<\\sqrt2\\,e^{\\frac12(t-\\frac\\pi4)(1+\\tan t)}$",
+    "$\\sec t>\\sqrt2\\,e^{\\frac12(t-\\frac\\pi4)(1+\\tan t)}$"
+   ],
+   "correct": 2,
+   "answer": "**2.** $\\tan x$ is concave up, so $\\int_{\\pi/4}^t\\tan x\\,dx=\\ln\\dfrac{\\sec t}{\\sqrt2}$ is less than the trapezium area $\\frac12(t-\\frac\\pi4)(1+\\tan t)$."
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.2.2.1",
+    "12.1.3.6"
+   ],
+   "question": "Vectors $\\underset{\\sim}{a},\\underset{\\sim}{b},\\underset{\\sim}{r}$ satisfy $\\underset{\\sim}{r}=\\underset{\\sim}{a}+(\\underset{\\sim}{a}\\cdot\\underset{\\sim}{b})\\underset{\\sim}{b}$. If $\\underset{\\sim}{r}$ is perpendicular to $\\underset{\\sim}{a}-\\underset{\\sim}{b}$, what is the minimum value of $1+|\\underset{\\sim}{b}|^2$?",
+   "options": [
+    "$|\\underset{\\sim}{a}|+1$",
+    "$\\dfrac{|\\underset{\\sim}{a}|+1}{2}$",
+    "$2|\\underset{\\sim}{a}|$",
+    "$|\\underset{\\sim}{a}|$"
+   ],
+   "correct": 2,
+   "answer": "**2.** With $k=\\underset{\\sim}{a}\\cdot\\underset{\\sim}{b}$, $\\underset{\\sim}{r}\\cdot(\\underset{\\sim}{a}-\\underset{\\sim}{b})=0$ gives $1+|\\underset{\\sim}{b}|^2=\\dfrac{|\\underset{\\sim}{a}|^2}{k}+k\\ge2|\\underset{\\sim}{a}|$ (AM–GM, $k>0$)."
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.13"
+   ],
+   "question": "Express $\\overline{7+6i}+\\dfrac{2}{3-i}$ in the form $x+iy$, where $x$ and $y$ are real.",
+   "answer": "$7-6i+\\dfrac{2(3+i)}{10}=\\dfrac{38}{5}-\\dfrac{29}{5}i$"
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{\\tan^2x+2}{x+\\tan x}\\,dx$.",
+   "answer": "$\\dfrac{d}{dx}(x+\\tan x)=1+\\sec^2x=\\tan^2x+2$, so the integral is $\\ln|x+\\tan x|+C$."
+  },
+  {
+   "ref": "Q11(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "If integers $a$ and $b$ are divisible by $d$, show that $ma+nb$ is divisible by $d$ for integers $m,n$.",
+   "answer": "Let $a=pd$, $b=qd$. Then $ma+nb=d(mp+nq)$, where $mp+nq$ is an integer, so it is divisible by $d$."
+  },
+  {
+   "ref": "Q11(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.2",
+    "12.1.1.8"
+   ],
+   "question": "Prove by counterexample that the following is false: 'if $ma+nb$ is divisible by $d$, then $a$ and $b$ are divisible by $d$' (all integers).",
+   "answer": "Take $d=2$, $a=b=1$, $m=n=1$: $ma+nb=2$ is divisible by 2, but neither $a$ nor $b$ is."
+  },
+  {
+   "ref": "Q11(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Expand and simplify $(\\cos\\theta+i\\sin\\theta)^4$.",
+   "answer": "With $c=\\cos\\theta$, $s=\\sin\\theta$: $(c^4-6c^2s^2+s^4)+i(4c^3s-4cs^3)$."
+  },
+  {
+   "ref": "Q11(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Using de Moivre's theorem and the expansion of $(\\cos\\theta+i\\sin\\theta)^4$, show that $\\tan4\\theta=\\dfrac{4\\tan\\theta-4\\tan^3\\theta}{1-6\\tan^2\\theta+\\tan^4\\theta}$.",
+   "answer": "By de Moivre, $\\cos4\\theta+i\\sin4\\theta=(c^4-6c^2s^2+s^4)+i(4c^3s-4cs^3)$. Equating real and imaginary parts and dividing:\n$$\\tan4\\theta=\\frac{4c^3s-4cs^3}{c^4-6c^2s^2+s^4}.$$\nDividing top and bottom by $c^4$ gives the result."
+  },
+  {
+   "ref": "Q11(e)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.6"
+   ],
+   "question": "Let $\\underset{\\sim}{u}=\\begin{pmatrix}2\\lambda\\\\2\\\\3\\end{pmatrix}$ and $\\underset{\\sim}{v}=\\begin{pmatrix}6\\lambda\\\\-12\\lambda\\\\6\\end{pmatrix}$, where $\\lambda$ is real. Show that $\\underset{\\sim}{u}$ and $\\underset{\\sim}{v}$ are not parallel.",
+   "answer": "Suppose $\\underset{\\sim}{v}=k\\underset{\\sim}{u}$. The third components give $k=2$; the first then give $6\\lambda=4\\lambda$, so $\\lambda=0$; the second then require $0=4$, a contradiction. So they are not parallel."
+  },
+  {
+   "ref": "Q11(e)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "Let $\\underset{\\sim}{u}=\\begin{pmatrix}2\\lambda\\\\2\\\\3\\end{pmatrix}$ and $\\underset{\\sim}{v}=\\begin{pmatrix}6\\lambda\\\\-12\\lambda\\\\6\\end{pmatrix}$, where $\\lambda$ is real. Show that $\\underset{\\sim}{u}$ and $\\underset{\\sim}{v}$ are not perpendicular.",
+   "answer": "$\\underset{\\sim}{u}\\cdot\\underset{\\sim}{v}=12\\lambda^2-24\\lambda+18=6(2\\lambda^2-4\\lambda+3)$. The discriminant $16-24<0$, so this is never zero."
+  },
+  {
+   "ref": "Q11(f)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.10"
+   ],
+   "question": "A particle moves in simple harmonic motion about the origin, starting at the origin. Its period is $\\frac\\pi3$ seconds. Find the first two times at which its speed is half the maximum speed.",
+   "answer": "$n=\\dfrac{2\\pi}{\\pi/3}=6$, $x=A\\sin6t$, $v=6A\\cos6t$. Need $|\\cos6t|=\\frac12$: $6t=\\frac\\pi3,\\frac{2\\pi}{3}$, so $t=\\frac{\\pi}{18}$ s and $t=\\frac\\pi9$ s."
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.12"
+   ],
+   "question": "Let $\\omega=\\mathrm{cis}\\frac{2\\pi}{5}$, a fifth root of unity. Prove that $\\omega+\\omega^2+\\omega^3+\\omega^4=-1$.",
+   "answer": "$\\omega^5=1$ and $\\omega\\ne1$, so $1+\\omega+\\omega^2+\\omega^3+\\omega^4=\\dfrac{\\omega^5-1}{\\omega-1}=0$, giving the result."
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.12"
+   ],
+   "question": "Let $\\omega=\\mathrm{cis}\\frac{2\\pi}{5}$, a fifth root of unity. Let $\\alpha=\\omega+\\omega^4$ and $\\beta=\\omega^2+\\omega^3$ be the roots of $x^2+bx+c=0$. Find $b$ and $c$.",
+   "answer": "$\\alpha+\\beta=-1$, so $b=1$. $\\alpha\\beta=\\omega^3+\\omega^4+\\omega^6+\\omega^7=\\omega^3+\\omega^4+\\omega+\\omega^2=-1$, so $c=-1$."
+  },
+  {
+   "ref": "Q12(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.12"
+   ],
+   "question": "Let $\\omega=\\mathrm{cis}\\frac{2\\pi}{5}$, a fifth root of unity. Given that $\\omega+\\omega^4$ and $\\omega^2+\\omega^3$ are the roots of $x^2+x-1=0$, find the exact value of $\\cos\\frac{4\\pi}{5}$.",
+   "answer": "$\\beta=\\omega^2+\\bar\\omega^2=2\\cos\\frac{4\\pi}{5}<0$. The roots are $\\dfrac{-1\\pm\\sqrt5}{2}$, so $\\cos\\frac{4\\pi}{5}=-\\dfrac{1+\\sqrt5}{4}$."
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.10",
+    "12.4.1.8"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{x^2+x+3}{x^2+x-2}\\,dx$.",
+   "answer": "$\\dfrac{x^2+x+3}{x^2+x-2}=1+\\dfrac{5}{(x-1)(x+2)}=1+\\dfrac53\\left(\\dfrac{1}{x-1}-\\dfrac{1}{x+2}\\right)$, so the integral is $x+\\dfrac53\\ln\\left|\\dfrac{x-1}{x+2}\\right|+C$."
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^1\\frac{1}{1+\\sqrt[3]{x}}\\,dx$.",
+   "answer": "Let $u=\\sqrt[3]x$, $dx=3u^2\\,du$:\n$$3\\int_0^1\\frac{u^2}{1+u}\\,du=3\\int_0^1\\left(u-1+\\frac1{1+u}\\right)du=3\\ln2-\\frac32.$$"
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.5",
+    "12.5.3.2"
+   ],
+   "question": "A bowling ball of mass $m$ kg is held stationary on a frictionless ramp inclined at $\\alpha$ to the horizontal by a light string with tension $T$ newtons at angle $\\beta$ to the ramp, as shown. The normal force has magnitude $N$ newtons and $g$ is the acceleration due to gravity. Prove that $N=mg(\\cos\\alpha-\\tan\\beta\\sin\\alpha)$.",
+   "answer": "Resolving along the ramp: $T\\cos\\beta=mg\\sin\\alpha$.\nPerpendicular to the ramp: $N+T\\sin\\beta=mg\\cos\\alpha$.\nSo $N=mg\\cos\\alpha-\\dfrac{mg\\sin\\alpha}{\\cos\\beta}\\sin\\beta=mg(\\cos\\alpha-\\tan\\beta\\sin\\alpha)$.",
+   "images": [
+    "assets/img/ext2-2024-sydney-girls/q12c.png"
+   ]
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "Let $P(z)=z^3+kz^2+6$, where $z$ is complex and $k$ is real. When $P(z)$ is divided by $z^2+4$ the remainder is $-4z-6$. Find $k$.",
+   "answer": "$P(z)=(z^2+4)Q(z)-4z-6$. At $z=2i$: $-8i-4k+6=-8i-6$, so $k=3$."
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.11",
+    "12.4.1.9"
+   ],
+   "question": "Find $\\displaystyle\\int\\sqrt{\\frac{2+x}{3-x}}\\,dx$.",
+   "answer": "$\\displaystyle\\int\\frac{2+x}{\\sqrt{6+x-x^2}}\\,dx=\\int\\frac{-\\frac12(1-2x)+\\frac52}{\\sqrt{6+x-x^2}}\\,dx$\n$$=-\\sqrt{6+x-x^2}+\\frac52\\sin^{-1}\\left(\\frac{2x-1}{5}\\right)+C.$$"
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.9"
+   ],
+   "question": "The lines $\\underset{\\sim}{r_1}=\\begin{pmatrix}3\\\\-1\\\\4\\end{pmatrix}+\\lambda\\begin{pmatrix}2\\\\0\\\\1\\end{pmatrix}$ and $\\underset{\\sim}{r_2}=\\begin{pmatrix}-3\\\\1\\\\2\\end{pmatrix}+\\mu\\begin{pmatrix}0\\\\p\\\\4\\end{pmatrix}$, with $p$ real, intersect at an angle $\\theta$. Show that $\\theta=\\arccos\\frac15$.",
+   "answer": "$x$: $3+2\\lambda=-3$, so $\\lambda=-3$. $z$: $1=2+4\\mu$, so $\\mu=-\\frac14$. $y$: $-1=1+\\mu p$, so $p=8$.\n$$\\cos\\theta=\\frac{(2,0,1)\\cdot(0,8,4)}{\\sqrt5\\sqrt{80}}=\\frac4{20}=\\frac15.$$"
+  },
+  {
+   "ref": "Q13(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "Prove that $\\sqrt{29}$ is irrational.",
+   "answer": "Suppose $\\sqrt{29}=\\frac pq$ with $p,q$ coprime integers. Then $p^2=29q^2$, so $29\\mid p^2$ and, as 29 is prime, $29\\mid p$. Put $p=29k$: $q^2=29k^2$, so $29\\mid q$. This contradicts coprimality, so $\\sqrt{29}$ is irrational."
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^1x^2\\sqrt{1-x^2}\\,dx$.",
+   "answer": "$x=\\sin\\theta$: $\\displaystyle\\int_0^{\\pi/2}\\sin^2\\theta\\cos^2\\theta\\,d\\theta=\\int_0^{\\pi/2}\\frac{1-\\cos4\\theta}{8}\\,d\\theta=\\frac{\\pi}{16}$."
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.8"
+   ],
+   "question": "A particle in simple harmonic motion with amplitude $a$ satisfies $\\ddot x=-n^2x$. Prove that $v^2=n^2(a^2-x^2)$.",
+   "answer": "$\\dfrac{d}{dx}\\left(\\tfrac12v^2\\right)=-n^2x$, so $\\tfrac12v^2=-\\tfrac12n^2x^2+C$. Since $v=0$ at $x=a$, $C=\\tfrac12n^2a^2$, giving the result."
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.8"
+   ],
+   "question": "A particle in simple harmonic motion about the origin has maximum speed $M$. Find, in terms of $M$, its speed when halfway between the origin and an endpoint.",
+   "answer": "$v^2=n^2(a^2-x^2)$ and $M=na$. At $x=\\frac a2$: $v^2=\\frac34n^2a^2$, so speed $=\\dfrac{\\sqrt3}{2}M$."
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.1.18",
+    "12.2.2.5"
+   ],
+   "question": "The sphere $(x-1)^2+(y+1)^2+(z+1)^2=5$ and the line $\\underset{\\sim}{r}=\\begin{pmatrix}-2\\\\1\\\\1\\end{pmatrix}+\\lambda\\begin{pmatrix}1\\\\0\\\\-2\\end{pmatrix}$ do not intersect. Find the point on the sphere closest to the line.",
+   "answer": "Centre $C(1,-1,-1)$, radius $\\sqrt5$. The foot $F$ of the perpendicular from $C$ has $\\lambda=\\dfrac{(C-A)\\cdot d}{|d|^2}=\\dfrac75$ with $A(-2,1,1)$, so $F=(-\\frac35,1,-\\frac95)$.\n$\\overrightarrow{CF}=(-\\frac85,2,-\\frac45)$, $|CF|=\\dfrac{6}{\\sqrt5}$.\nThe closest point is $C+\\dfrac{\\sqrt5}{|CF|}\\overrightarrow{CF}=C+\\dfrac56\\overrightarrow{CF}=\\left(-\\dfrac13,\\dfrac23,-\\dfrac53\\right)$."
+  },
+  {
+   "ref": "Q14(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.11",
+    "12.3.4.10"
+   ],
+   "question": "In the diagram, $OAB$ and $OCD$ are equilateral triangles, and $K,L,M$ are the midpoints of $OA$, $BC$ and $OD$. The complex numbers $a,b,c,d$ represent $A,B,C,D$, and $\\omega=\\mathrm{cis}\\frac\\pi3$. Show that $\\overrightarrow{KL}$ is represented by $\\frac12(a(\\omega-1)+c)$ and $\\overrightarrow{KM}$ by $\\frac12(c\\omega-a)$.",
+   "answer": "$b=\\omega a$ and $d=\\omega c$ (rotations through $60^\\circ$). $K=\\frac a2$, $L=\\frac{\\omega a+c}{2}$, $M=\\frac{\\omega c}{2}$.\nSo $L-K=\\frac12(a(\\omega-1)+c)$ and $M-K=\\frac12(c\\omega-a)$.",
+   "images": [
+    "assets/img/ext2-2024-sydney-girls/q14d.png"
+   ]
+  },
+  {
+   "ref": "Q14(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.11",
+    "12.3.4.10"
+   ],
+   "question": "In the diagram, $OAB$ and $OCD$ are equilateral triangles, and $K,L,M$ are the midpoints of $OA$, $BC$ and $OD$. The complex numbers $a,b,c,d$ represent $A,B,C,D$, and $\\omega=\\mathrm{cis}\\frac\\pi3$. Given that $\\overrightarrow{KL}=\\frac12(a(\\omega-1)+c)$ and $\\overrightarrow{KM}=\\frac12(c\\omega-a)$, deduce that triangle $KLM$ is equilateral.",
+   "answer": "$\\omega^2-\\omega+1=0$ (as $\\omega^3=-1$, $\\omega\\ne-1$), so\n$$\\omega\\,\\overrightarrow{KL}=\\tfrac12(a(\\omega^2-\\omega)+c\\omega)=\\tfrac12(c\\omega-a)=\\overrightarrow{KM}.$$\nSo $KM$ is $KL$ rotated by $60^\\circ$: $KL=KM$ with included angle $60^\\circ$, hence equilateral.",
+   "images": [
+    "assets/img/ext2-2024-sydney-girls/q14d.png"
+   ]
+  },
+  {
+   "ref": "Q15(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.5.1.4"
+   ],
+   "question": "A particle of mass 3 kg moves in a straight line under the force $F=18x^5+24x^3+6x$, where $x$ is its displacement. Initially $x=1$ and $v=-2\\sqrt2$. It always moves to the left and never passes through the origin. Show that $v=-\\sqrt2\\,x(1+x^2)$.",
+   "answer": "$3v\\dfrac{dv}{dx}=F$, so $\\tfrac12v^2=x^6+2x^4+x^2+C$. At $x=1$, $v^2=8$ gives $C=0$. So $v^2=2x^2(1+x^2)^2$; as $v<0$ and $x>0$, $v=-\\sqrt2x(1+x^2)$."
+  },
+  {
+   "ref": "Q15(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.4.1.8"
+   ],
+   "question": "A particle of mass 3 kg moves in a straight line under the force $F=18x^5+24x^3+6x$, where $x$ is its displacement. Initially $x=1$ and $v=-2\\sqrt2$. It always moves to the left and never passes through the origin. Given $v=-\\sqrt2x(1+x^2)$, show that $x=\\dfrac{1}{\\sqrt{2e^{2\\sqrt2t}-1}}$.",
+   "answer": "$\\displaystyle\\int\\left(\\frac1x-\\frac{x}{1+x^2}\\right)dx=-\\sqrt2\\int dt$, so $\\ln x-\\tfrac12\\ln(1+x^2)=-\\sqrt2t+C$, with $C=-\\tfrac12\\ln2$.\nHence $\\dfrac{x^2}{1+x^2}=\\tfrac12e^{-2\\sqrt2t}$, so $\\dfrac1{x^2}=2e^{2\\sqrt2t}-1$, giving the result ($x>0$)."
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "You are given that for positive reals $x_1,\\dots,x_n$: $\\dfrac{x_1+\\dots+x_n}{n}\\ge\\sqrt[n]{x_1x_2\\cdots x_n}$. If positive reals satisfy $x_1+\\dots+x_n=n^2$, show that $\\dfrac1{x_1^n}+\\dots+\\dfrac1{x_n^n}\\ge n^{1-n}$.",
+   "answer": "AM–GM on the $x_i$: $x_1\\cdots x_n\\le n^n$.\nAM–GM on the $\\dfrac1{x_i^n}$:\n$$\\sum\\frac1{x_i^n}\\ge n\\sqrt[n]{\\frac{1}{(x_1\\cdots x_n)^n}}=\\frac{n}{x_1\\cdots x_n}\\ge\\frac{n}{n^n}=n^{1-n}.$$"
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^1x(1-x^3)^n\\,dx$ for integers $n\\ge0$. Show that $I_n=\\dfrac{3n}{3n+2}I_{n-1}$ for $n\\ge1$.",
+   "answer": "By parts: $I_n=\\left[\\tfrac{x^2}{2}(1-x^3)^n\\right]_0^1+\\tfrac{3n}{2}\\displaystyle\\int_0^1x^4(1-x^3)^{n-1}dx$.\nSince $x^4=x-x(1-x^3)$: $I_n=\\tfrac{3n}{2}(I_{n-1}-I_n)$, so $I_n=\\dfrac{3n}{3n+2}I_{n-1}$."
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^1x(1-x^3)^n\\,dx$ for integers $n\\ge0$. Given $I_n=\\dfrac{3n}{3n+2}I_{n-1}$, deduce that $\\displaystyle\\sum_{r=0}^n{}^nC_r\\frac{(-1)^r}{3r+2}=\\frac{3^n\\,n!}{(3n+2)(3n-1)\\cdots2}$.",
+   "answer": "Expanding: $I_n=\\displaystyle\\int_0^1\\sum_r{}^nC_r(-1)^rx^{3r+1}dx=\\sum_r{}^nC_r\\frac{(-1)^r}{3r+2}$.\nAlso $I_0=\\tfrac12$ and repeated use of the recurrence gives\n$$I_n=\\frac{3n}{3n+2}\\cdot\\frac{3(n-1)}{3n-1}\\cdots\\frac35\\cdot\\frac12=\\frac{3^nn!}{(3n+2)(3n-1)\\cdots5\\cdot2}.$$"
+  },
+  {
+   "ref": "Q15(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.4.2"
+   ],
+   "question": "Prove by mathematical induction that for all positive integers $n$: $\\dfrac{1^2}{\\sqrt2}+\\dfrac{2^2}{\\sqrt3}+\\dots+\\dfrac{n^2}{\\sqrt{n+1}}<n^2\\sqrt n$.",
+   "answer": "$n=1$: $\\frac1{\\sqrt2}<1$. Assume true for $n=k$. It suffices that $k^2\\sqrt k+\\dfrac{(k+1)^2}{\\sqrt{k+2}}<(k+1)^2\\sqrt{k+1}$.\nNow $\\sqrt{k+1}-\\dfrac1{\\sqrt{k+2}}=\\dfrac{\\sqrt{(k+1)(k+2)}-1}{\\sqrt{k+2}}>\\dfrac{k}{\\sqrt{k+2}}$, so\n$(k+1)^2\\left(\\sqrt{k+1}-\\dfrac1{\\sqrt{k+2}}\\right)>\\dfrac{k(k+1)^2}{\\sqrt{k+2}}$.\nAnd $\\dfrac{k(k+1)^2}{\\sqrt{k+2}}>k^2\\sqrt k$ because $(k+1)^2>k\\sqrt{k^2+2k}$ (since $\\sqrt{k^2+2k}<k+1$). So it is true for $k+1$, hence for all $n$."
+  },
+  {
+   "ref": "Q16(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "Let $n$ be a positive integer and $P(x)=\\dfrac{(1+ix)^{4n+1}-(1-ix)^{4n+1}}{2ix}$. Show that $x=\\tan\\frac{\\pi}{4n+1}$ is a zero of $P(x)$.",
+   "answer": "With $\\theta=\\frac\\pi{4n+1}$: $1\\pm i\\tan\\theta=\\sec\\theta\\,\\mathrm{cis}(\\pm\\theta)$, so the numerator is $\\sec^{4n+1}\\theta\\,[\\mathrm{cis}\\,\\pi-\\mathrm{cis}(-\\pi)]=0$. As $x=\\tan\\theta\\ne0$, it is a zero."
+  },
+  {
+   "ref": "Q16(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "Let $n$ be a positive integer and $P(x)=\\dfrac{(1+ix)^{4n+1}-(1-ix)^{4n+1}}{2ix}$. Show that $P(x)={}^{4n+1}C_1-{}^{4n+1}C_3x^2+{}^{4n+1}C_5x^4-\\dots+x^{4n}$.",
+   "answer": "Let $N=4n+1$. In the difference the even powers cancel: numerator $=2\\sum_{j=0}^{2n}{}^NC_{2j+1}(ix)^{2j+1}$. Dividing by $2ix$: $P(x)=\\sum_{j=0}^{2n}{}^NC_{2j+1}(-1)^jx^{2j}$. The last term ($j=2n$) is $+{}^NC_Nx^{4n}=x^{4n}$."
+  },
+  {
+   "ref": "Q16(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.2.3",
+    "12.1.2.1"
+   ],
+   "question": "The polynomial $P(x)={}^{4n+1}C_1-{}^{4n+1}C_3x^2+\\dots+x^{4n}$ has integer coefficients. Prove that if $r$ is a rational zero of $P(x)$, then $r$ is an integer.",
+   "answer": "Let $r=\\frac pq$ with $p,q$ coprime, $q>0$. Multiplying $P(r)=0$ by $q^{4n}$:\n$$p^{4n}=-q\\left({}^{N}C_1q^{4n-1}-{}^{N}C_3p^2q^{4n-3}+\\dots\\right),\\quad N=4n+1,$$\nso $q\\mid p^{4n}$. Since $p,q$ are coprime, $q=1$ and $r=p$ is an integer."
+  },
+  {
+   "ref": "Q16(a)(iv)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "$x=\\tan\\frac\\pi{4n+1}$ ($n$ a positive integer) is a zero of a polynomial $P(x)$ whose only rational zeros are integers. Deduce that $\\tan\\frac\\pi{4n+1}$ is irrational.",
+   "answer": "Since $0<\\frac\\pi{4n+1}<\\frac\\pi4$, $0<\\tan\\frac\\pi{4n+1}<1$, so it is not an integer. A rational zero would have to be an integer, so it is irrational."
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "A sphere with centre $O$ and radius $r$ is inscribed in a regular tetrahedron $ABCD$, touching faces $ABC$ and $BDC$ at $P$ and $Q$. $M$ is the midpoint of $BC$, $OP\\perp AM$ and $OQ\\perp DM$. Let $\\overrightarrow{OA},\\overrightarrow{OB},\\overrightarrow{OC},\\overrightarrow{OD}$ be $\\underset{\\sim}{a},\\underset{\\sim}{b},\\underset{\\sim}{c},\\underset{\\sim}{d}$, each of magnitude $R$. Use $|AB|=|BC|=|AC|$ to show $\\underset{\\sim}{a}\\cdot\\underset{\\sim}{b}=\\underset{\\sim}{b}\\cdot\\underset{\\sim}{c}=\\underset{\\sim}{a}\\cdot\\underset{\\sim}{c}$.",
+   "answer": "$|\\underset{\\sim}{b}-\\underset{\\sim}{a}|^2=2R^2-2\\underset{\\sim}{a}\\cdot\\underset{\\sim}{b}$, and similarly for the other sides. Equal sides give equal dot products.",
+   "images": [
+    "assets/img/ext2-2024-sydney-girls/q16b.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "A sphere with centre $O$ and radius $r$ is inscribed in a regular tetrahedron $ABCD$, touching faces $ABC$ and $BDC$ at $P$ and $Q$. $M$ is the midpoint of $BC$, $OP\\perp AM$ and $OQ\\perp DM$. Let $\\overrightarrow{OA},\\overrightarrow{OB},\\overrightarrow{OC},\\overrightarrow{OD}$ be $\\underset{\\sim}{a},\\underset{\\sim}{b},\\underset{\\sim}{c},\\underset{\\sim}{d}$, each of magnitude $R$. Given $\\underset{\\sim}{a}\\cdot\\underset{\\sim}{b}=\\underset{\\sim}{b}\\cdot\\underset{\\sim}{c}=\\underset{\\sim}{a}\\cdot\\underset{\\sim}{c}$, show that $\\overrightarrow{AP}=\\frac23\\overrightarrow{AM}$.",
+   "answer": "Let $k$ be the common dot product. $\\overrightarrow{AM}=\\frac12(\\underset{\\sim}{b}+\\underset{\\sim}{c})-\\underset{\\sim}{a}$, and as $OP\\perp AM$, $\\overrightarrow{AP}$ is the projection of $\\overrightarrow{AO}=-\\underset{\\sim}{a}$ onto $\\overrightarrow{AM}$.\n$\\overrightarrow{AO}\\cdot\\overrightarrow{AM}=R^2-k$ and $|\\overrightarrow{AM}|^2=\\tfrac14(2R^2+2k)-2k+R^2=\\tfrac32(R^2-k)$.\nSo $\\overrightarrow{AP}=\\dfrac{R^2-k}{\\frac32(R^2-k)}\\overrightarrow{AM}=\\tfrac23\\overrightarrow{AM}$.",
+   "images": [
+    "assets/img/ext2-2024-sydney-girls/q16b.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.2.5",
+    "12.1.3.7"
+   ],
+   "question": "A sphere with centre $O$ and radius $r$ is inscribed in a regular tetrahedron $ABCD$, touching faces $ABC$ and $BDC$ at $P$ and $Q$. $M$ is the midpoint of $BC$, $OP\\perp AM$ and $OQ\\perp DM$. Let $\\overrightarrow{OA},\\overrightarrow{OB},\\overrightarrow{OC},\\overrightarrow{OD}$ be $\\underset{\\sim}{a},\\underset{\\sim}{b},\\underset{\\sim}{c},\\underset{\\sim}{d}$, each of magnitude $R$. You are given $\\overrightarrow{AP}=\\frac23\\overrightarrow{AM}$, $\\overrightarrow{DQ}=\\frac23\\overrightarrow{DM}$, and that $A,O,Q$ are collinear. Deduce that $R=3r$.",
+   "answer": "Let $h=AM=DM$. In triangle $AQM$ (right angle at $Q$, as $AQ\\perp$ face $BCD$), $MQ=\\frac h3$, so $(R+r)^2=AQ^2=\\tfrac89h^2$.\nIn triangle $APO$ (right angle at $P$): $R^2=\\left(\\tfrac23h\\right)^2+r^2$, so $h^2=\\tfrac94(R^2-r^2)$.\nThen $(R+r)^2=2(R^2-r^2)$, so $R+r=2(R-r)$ and $R=3r$.",
+   "images": [
+    "assets/img/ext2-2024-sydney-girls/q16b.png"
+   ]
+  },
+  {
+   "ref": "Q16(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.3.5.4",
+    "12.3.2.8"
+   ],
+   "question": "Sketch on an Argand diagram the set of all complex numbers $z$ satisfying $\\mathrm{Arg}(z-1)=\\mathrm{Arg}(\\bar z+i)$.",
+   "answer": "$\\bar z+i=\\overline{z-i}$, so the condition is $\\mathrm{Arg}(z-1)=-\\mathrm{Arg}(z-i)$: $(z-1)(z-i)$ is positive real. With $z=x+iy$, zero imaginary part gives $y=\\dfrac{x-1}{2x-1}$. The arguments require $y$ and $y-1$ to have opposite signs, leaving the parts of this hyperbola with $x<0$ and with $x>1$; the points $(0,1)$ and $(1,0)$ are excluded (see sketch).",
+   "answer_images": [
+    "assets/img/ext2-2024-sydney-girls/a16c.png"
+   ]
+  }
+ ]
+}
