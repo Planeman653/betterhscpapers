@@ -1,0 +1,492 @@
+{
+ "id": "ext1-2024-normanhurst-boys",
+ "course": "extension1",
+ "school": "Normanhurst Boys",
+ "year": 2024,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "Normanhurst Boys 2024 w. sol"
+ },
+ "indexed": "2026-11-28",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q4",
+   "reason": "Graphs of |y| = f(x) are not in the 2024 syllabus"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "What is the angle between $\\underset{\\sim}{p}=-\\underset{\\sim}{i}+4\\underset{\\sim}{j}$ and $\\underset{\\sim}{q}=7\\underset{\\sim}{i}-3\\underset{\\sim}{j}$, to the nearest degree?",
+   "options": [
+    "$53^\\circ$",
+    "$81^\\circ$",
+    "$109^\\circ$",
+    "$127^\\circ$"
+   ],
+   "correct": "D",
+   "answer": "**D.** $\\cos\\theta=\\dfrac{-19}{\\sqrt{17}\\sqrt{58}}$, so $\\theta\\approx127^\\circ$."
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.2",
+    "12.4.2.3"
+   ],
+   "question": "Which of the following is equal to $\\displaystyle\\int\\sin2x\\cos6x\\,dx$?",
+   "options": [
+    "$-\\frac1{16}\\cos8x+\\frac18\\cos4x+C$",
+    "$\\frac1{16}\\cos8x-\\frac18\\cos4x+C$",
+    "$-\\frac14\\cos2x+\\frac18\\cos4x+C$",
+    "$\\frac14\\cos2x-\\frac18\\cos4x+C$"
+   ],
+   "correct": "A",
+   "answer": "**A.** $\\sin2x\\cos6x=\\frac12(\\sin8x-\\sin4x)$, then integrate."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.3"
+   ],
+   "question": "Which of the following is a particular solution to the differential equation $2y-3\\dfrac{dy}{dx}=1$?",
+   "options": [
+    "$y=-\\frac13$",
+    "$y=-e^{\\frac13(2x-1)}$",
+    "$y=\\frac12$",
+    "$y=3e^{\\frac23x}$"
+   ],
+   "correct": "C",
+   "answer": "**C.** For $y=\\frac12$: $y'=0$ and $2y=1$."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.8",
+    "11.4.1.9"
+   ],
+   "question": "In how many ways can all the letters of the word REGRESSION be placed in a line with the two Rs together?",
+   "options": [
+    "90 720",
+    "181 440",
+    "362 880",
+    "907 200"
+   ],
+   "correct": "A",
+   "answer": "**A.** Treat RR as one letter: 9 objects with two Es and two Ss, $\\frac{9!}{2!\\,2!}=90\\,720$."
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "Ignoring the constant of integration, which is a primitive of $\\dfrac{1}{1+3(x-2)^2}$?",
+   "options": [
+    "$\\sqrt3\\tan^{-1}\\left(\\sqrt3(x-2)\\right)$",
+    "$\\frac1{\\sqrt3}\\tan^{-1}\\left(\\sqrt3(x-2)\\right)$",
+    "$\\sqrt3\\tan^{-1}\\left(\\frac1{\\sqrt3}(x-2)\\right)$",
+    "$\\frac1{\\sqrt3}\\tan^{-1}\\left(\\frac1{\\sqrt3}(x-2)\\right)$"
+   ],
+   "correct": "B",
+   "answer": "**B.** With $u=\\sqrt3(x-2)$, $\\int\\frac{dx}{1+u^2}=\\frac1{\\sqrt3}\\tan^{-1}u$."
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Which of the following is the derivative of $\\cos^{-1}(\\sin^{-1}x)$?",
+   "options": [
+    "$\\sqrt{\\dfrac{1-x^2}{1-(\\sin^{-1}x)^2}}$",
+    "$\\dfrac{1}{\\sqrt{(1-(\\sin^{-1}x)^2)(1-x^2)}}$",
+    "$\\dfrac{-\\sin^{-1}x}{\\sqrt{1-(\\sin^{-1}x)^2}}$",
+    "$\\dfrac{-1}{\\sqrt{(1-(\\sin^{-1}x)^2)(1-x^2)}}$"
+   ],
+   "correct": "D",
+   "answer": "**D.** Chain rule: $\\dfrac{-1}{\\sqrt{1-(\\sin^{-1}x)^2}}\\cdot\\dfrac{1}{\\sqrt{1-x^2}}$."
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.1"
+   ],
+   "question": "A function has parametric equations $x=e^{-t}$, $y=3t^2-t^3$. Which is $\\dfrac{dy}{dx}$?",
+   "options": [
+    "$-e^{-t}(6t-3t^2)$",
+    "$\\dfrac{-e^{-t}}{6t-3t^2}$",
+    "$-e^{t}(6t-3t^2)$",
+    "$\\dfrac{-e^{t}}{6t-3t^2}$"
+   ],
+   "correct": "C",
+   "answer": "**C.** $\\dfrac{dy}{dx}=\\dfrac{6t-3t^2}{-e^{-t}}$."
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Mathematical induction is used to prove for all integers $n\\ge1$:\n$$\\left(1\\times1!+\\tfrac{0}{1!}\\right)+\\left(2\\times2!+\\tfrac1{2!}\\right)+\\dots+\\left(n\\times n!+\\tfrac{n-1}{n!}\\right)=(n+1)!-\\tfrac1{n!}$$\nWhich is a correct expression for part of the inductive step, when proving the statement for $n=k+1$?",
+   "options": [
+    "LHS $=(k+1)!+\\dfrac{k}{(k+1)!}-\\dfrac1{k!}$",
+    "LHS $=(k+2)!+\\dfrac{k}{(k+1)!}-\\dfrac1{k!}$",
+    "LHS $=(k+1)!+k\\times k!+\\dfrac{k-1}{k!}$",
+    "LHS $=(k+2)!+\\dfrac{k-1}{k!}-\\dfrac1{(k-1)!}$"
+   ],
+   "correct": "B",
+   "answer": "**B.** $(k+1)!-\\frac1{k!}+(k+1)(k+1)!+\\frac{k}{(k+1)!}=(k+2)!+\\frac{k}{(k+1)!}-\\frac1{k!}$."
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.10"
+   ],
+   "question": "Let $\\underset{\\sim}{a}=\\begin{pmatrix}-3\\\\-4\\end{pmatrix}$ and $\\underset{\\sim}{b}=\\begin{pmatrix}-1\\\\k\\end{pmatrix}$, where $-2\\le k\\le0$. Which of the following is a possible projection of $\\underset{\\sim}{b}$ onto $\\underset{\\sim}{a}$?",
+   "options": [
+    "$\\frac25\\hat{\\underset{\\sim}{a}}$",
+    "$\\frac95\\hat{\\underset{\\sim}{a}}$",
+    "$\\frac25\\hat{\\underset{\\sim}{b}}$",
+    "$\\frac95\\hat{\\underset{\\sim}{b}}$"
+   ],
+   "correct": "B",
+   "answer": "**B.** $\\text{proj}=\\dfrac{3-4k}{5}\\hat{\\underset{\\sim}{a}}$, and $\\frac{3-4k}5$ ranges over $[\\frac35,\\frac{11}5]$."
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.4.2",
+    "11.1.4.1"
+   ],
+   "question": "Solve $\\dfrac{(2x+1)^2}{x-1}\\le-3$.",
+   "answer": "$x\\ne1$. Multiply by $(x-1)^2$: $(x-1)\\left[(2x+1)^2+3(x-1)\\right]\\le0$, so $(x-1)(4x-1)(x+2)\\le0$.\n\n$x\\le-2$ or $\\frac14\\le x<1$.\n\nNote: the school's final line appears to give $-\\frac14\\le x<1$; the root is $+\\frac14$."
+  },
+  {
+   "ref": "Q11(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.2"
+   ],
+   "question": "Find $R$ and $\\alpha$ such that $6\\sin x-8\\cos x\\equiv R\\sin(x-\\alpha)$, where $R>0$ and $0<\\alpha<\\frac\\pi2$. Give $\\alpha$ to two decimal places.",
+   "answer": "$R\\cos\\alpha=6$, $R\\sin\\alpha=8$, so $R=10$ and $\\alpha=\\tan^{-1}\\frac43\\approx0.93$."
+  },
+  {
+   "ref": "Q11(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.3"
+   ],
+   "question": "Given $f(x)=6\\sin x-8\\cos x=10\\sin(x-\\alpha)$ with $\\alpha=\\tan^{-1}\\frac43$, find the minimum value of $f$ and the smallest positive $x$ at which it occurs, to two decimal places.",
+   "answer": "Minimum $-10$, when $x-\\alpha=\\frac{3\\pi}2$: $x=\\frac{3\\pi}2+0.927\\approx5.64$."
+  },
+  {
+   "ref": "Q11(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.12",
+    "12.3.2.11"
+   ],
+   "question": "Consider $f(x)=\\sin^{-1}\\left(\\dfrac16x+\\dfrac12\\right)$. State the domain and range.",
+   "answer": "$-1\\le\\frac x6+\\frac12\\le1$ gives domain $-9\\le x\\le3$. Range $-\\frac\\pi2\\le y\\le\\frac\\pi2$."
+  },
+  {
+   "ref": "Q11(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.12",
+    "12.3.2.11"
+   ],
+   "question": "Consider $f(x)=\\sin^{-1}\\left(\\dfrac16x+\\dfrac12\\right)$. Draw the graph of $y=f(x)$, showing the intercepts and endpoints.",
+   "answer": "An inverse sine curve from $(-9,-\\frac\\pi2)$ to $(3,\\frac\\pi2)$ with $x$-intercept $-3$ and $y$-intercept $\\frac\\pi6$.",
+   "answer_images": [
+    "assets/img/ext1-2024-normanhurst-boys/q11c2.png"
+   ]
+  },
+  {
+   "ref": "Q11(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.1"
+   ],
+   "question": "Consider $f(x)=\\sin^{-1}\\left(\\dfrac16x+\\dfrac12\\right)$. Draw the graph of $y=\\dfrac1{f(x)}$, showing any intercepts and the endpoints.",
+   "answer": "Vertical asymptote $x=-3$; endpoints $(-9,-\\frac2\\pi)$ and $(3,\\frac2\\pi)$; $y$-intercept $\\frac6\\pi$; no $x$-intercept. Each branch is decreasing.",
+   "answer_images": [
+    "assets/img/ext1-2024-normanhurst-boys/q11c3.png"
+   ]
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "Prove by mathematical induction that $7^{2k+1}+2^{2k+1}$ is divisible by 9 for all integers $k\\ge1$.",
+   "answer": "$k=1$: $7^3+2^3=351=9\\times39$.\n\nAssume $7^{2r+1}+2^{2r+1}=9M$. Then $7^{2r+3}+2^{2r+3}=49(9M-2^{2r+1})+4\\cdot2^{2r+1}=9(49M-5\\cdot2^{2r+1})$, divisible by 9.\n\nSo true for all $k\\ge1$ by induction."
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.2",
+    "11.3.3.3"
+   ],
+   "question": "Solve $2-3\\sin x+2\\cos x=0$ for $0\\le x\\le2\\pi$, to two decimal places where necessary.",
+   "answer": "$3\\sin x-2\\cos x=2$, so $\\sqrt{13}\\sin(x-\\alpha)=2$ with $\\alpha=\\tan^{-1}\\frac23\\approx0.588$.\n\n$x-\\alpha=\\sin^{-1}\\frac2{\\sqrt{13}}=\\alpha$ or $\\pi-\\alpha$, so $x\\approx1.18$ or $x=\\pi$."
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.11"
+   ],
+   "question": "How many ways can six people be seated at a circular table if two particular people must sit next to each other?",
+   "answer": "$(5-1)!\\times2=48$."
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "11.4.1.11",
+    "11.4.1.18"
+   ],
+   "question": "Eight coworkers are to be seated at two circular tables, six at one table and two at the other. Andy, Lewis and Kelly are on bad terms, so no two of these three may sit next to each other. How many seatings are possible?",
+   "answer": "Case 1: one of the three sits at the table of two ($3$ choices) with one of the other five ($5$ choices). The table of six has $5!=120$ arrangements, of which 48 have the remaining two enemies together: $3\\times5\\times72=1080$.\n\nCase 2: all three sit at the table of six. Choose the other three ($\\binom53=10$), seat them in a circle ($2!$), and place the three enemies in the gaps ($3!$): $120$.\n\nTotal $1200$."
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.2",
+    "12.2.3.6"
+   ],
+   "question": "In the diagram, $P$ and $Q$ have position vectors $\\underset{\\sim}{p}$ and $\\underset{\\sim}{q}$, $M$ is a point on $PQ$, $\\overrightarrow{QR}=\\frac32\\overrightarrow{OP}$, $PM:MQ=\\lambda:1$ and $OM:MR=\\mu:1$. Show that $\\overrightarrow{OM}=\\dfrac{\\mu}{\\mu+1}\\left(\\dfrac32\\underset{\\sim}{p}+\\underset{\\sim}{q}\\right)$.",
+   "answer": "$\\overrightarrow{OM}=\\frac{\\mu}{\\mu+1}\\overrightarrow{OR}$ and $\\overrightarrow{OR}=\\underset{\\sim}{q}+\\frac32\\underset{\\sim}{p}$.",
+   "images": [
+    "assets/img/ext1-2024-normanhurst-boys/q12c.png"
+   ]
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.2",
+    "12.2.3.6"
+   ],
+   "question": "In the diagram, $P$ and $Q$ have position vectors $\\underset{\\sim}{p}$ and $\\underset{\\sim}{q}$, $M$ is a point on $PQ$, $\\overrightarrow{QR}=\\frac32\\overrightarrow{OP}$, $PM:MQ=\\lambda:1$ and $OM:MR=\\mu:1$. Show that $\\overrightarrow{OM}=\\underset{\\sim}{p}+\\dfrac{\\lambda}{\\lambda+1}(\\underset{\\sim}{q}-\\underset{\\sim}{p})$.",
+   "answer": "$\\overrightarrow{OM}=\\overrightarrow{OP}+\\overrightarrow{PM}=\\underset{\\sim}{p}+\\frac{\\lambda}{\\lambda+1}\\overrightarrow{PQ}$.",
+   "images": [
+    "assets/img/ext1-2024-normanhurst-boys/q12c.png"
+   ]
+  },
+  {
+   "ref": "Q12(c)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.4",
+    "12.2.3.6"
+   ],
+   "question": "In the diagram, $P$ and $Q$ have position vectors $\\underset{\\sim}{p}$ and $\\underset{\\sim}{q}$, $M$ is a point on $PQ$, $\\overrightarrow{QR}=\\frac32\\overrightarrow{OP}$, $PM:MQ=\\lambda:1$ and $OM:MR=\\mu:1$. Given $\\overrightarrow{OM}=\\frac{\\mu}{\\mu+1}\\left(\\frac32\\underset{\\sim}{p}+\\underset{\\sim}{q}\\right)=\\underset{\\sim}{p}+\\frac{\\lambda}{\\lambda+1}(\\underset{\\sim}{q}-\\underset{\\sim}{p})$, prove that $\\lambda=\\frac23$ and hence show that $\\overrightarrow{OM}=\\frac35\\underset{\\sim}{p}+\\frac25\\underset{\\sim}{q}$.",
+   "answer": "$\\underset{\\sim}{p},\\underset{\\sim}{q}$ are not parallel, so equate coefficients: $\\frac{3\\mu}{2(\\mu+1)}=\\frac1{\\lambda+1}$ and $\\frac{\\mu}{\\mu+1}=\\frac{\\lambda}{\\lambda+1}$. Substituting, $3\\lambda=2$, so $\\lambda=\\frac23$ (and $\\mu=\\lambda$). Then $\\overrightarrow{OM}=\\frac25\\left(\\frac32\\underset{\\sim}{p}+\\underset{\\sim}{q}\\right)=\\frac35\\underset{\\sim}{p}+\\frac25\\underset{\\sim}{q}$.",
+   "images": [
+    "assets/img/ext1-2024-normanhurst-boys/q12c.png"
+   ]
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "The polynomial $P(x)=ax^3+bx^2+cx+d$ has roots $-\\frac12$ and $\\gamma$, where $-\\frac12$ is a double root. Show that $4\\left(\\dfrac ca\\right)-16\\left(\\dfrac da\\right)=1$.",
+   "answer": "The roots are $-\\frac12,-\\frac12,\\gamma$. $\\frac ca=\\frac14-\\gamma$ and $\\frac da=-\\frac\\gamma4$. So $4\\frac ca-16\\frac da=1-4\\gamma+4\\gamma=1$."
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "The polynomial $P(x)=ax^3+bx^2+cx+d$ has roots $-\\frac12$ and $\\gamma$, where $-\\frac12$ is a double root. Given $4\\frac ca-16\\frac da=1$ and $\\frac da=-\\frac\\gamma4$, show that if $3c=11d$ then $\\gamma=3$.",
+   "answer": "$\\frac ca=\\frac{11}3\\frac da$, so $\\frac{44}3\\frac da-16\\frac da=1$, giving $\\frac da=-\\frac34$. Hence $\\gamma=-4\\frac da=3$."
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2",
+    "12.4.2.3"
+   ],
+   "question": "Use the substitution $x=\\cos\\theta$, $0\\le\\theta\\le\\frac\\pi2$, to evaluate $\\displaystyle\\int_0^{1/2}\\sqrt{1-x^2}\\,dx$.",
+   "answer": "$dx=-\\sin\\theta\\,d\\theta$; limits $\\frac\\pi2$ to $\\frac\\pi3$. $\\displaystyle\\int_{\\pi/3}^{\\pi/2}\\sin^2\\theta\\,d\\theta=\\frac12\\left[\\theta-\\frac12\\sin2\\theta\\right]_{\\pi/3}^{\\pi/2}=\\frac\\pi{12}+\\frac{\\sqrt3}8$."
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.3.4",
+    "12.5.3.3"
+   ],
+   "question": "The graphs of $f(x)=\\log_3x+2$ and $g(x)=4x^3-2$ intersect at $P(1,2)$ as shown. Find the volume of the solid formed when the region bounded by $f(x)$, $g(x)$ and the $x$-axis is rotated about the $y$-axis, to two decimal places.",
+   "answer": "$x^2=\\left(\\frac{y+2}4\\right)^{2/3}$ on $g$ and $x^2=3^{2y-4}$ on $f$.\n\n$V=\\pi\\displaystyle\\int_0^2\\left[\\left(\\frac{y+2}4\\right)^{2/3}-3^{2y-4}\\right]dy=\\pi\\left[4^{-2/3}\\cdot\\frac35(y+2)^{5/3}-\\frac{3^{2y-4}}{2\\ln3}\\right]_0^2\\approx3.75$ units$^3$.",
+   "images": [
+    "assets/img/ext1-2024-normanhurst-boys/q13c.png"
+   ]
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "Sound intensity $I$ (W/m$^2$) is $I=\\dfrac{P}{4\\pi D^2}$, where $D$ is the direct distance in metres from source to listener and $P$ is the sound power in watts. A student walks along a corridor at 1.2 m/s towards a speaker mounted 3 m above (see diagram). The speaker plays a chime of power 10 W. Find the rate of change of the intensity when the direct distance is 8 m, to three decimal places.",
+   "answer": "$I=\\dfrac{5}{2\\pi D^2}$, so $\\dfrac{dI}{dD}=-\\dfrac{5}{\\pi D^3}$. $D^2=x^2+9$, so $\\dfrac{dD}{dt}=\\dfrac{x}{D}\\dfrac{dx}{dt}$. At $D=8$, $x=\\sqrt{55}$ and $\\dfrac{dx}{dt}=-1.2$.\n\n$\\dfrac{dI}{dt}=-\\dfrac{5}{512\\pi}\\times\\dfrac{\\sqrt{55}}{8}\\times(-1.2)=\\dfrac{3\\sqrt{55}}{2048\\pi}\\approx0.003$ W/m$^2$ per second (increasing).",
+   "images": [
+    "assets/img/ext1-2024-normanhurst-boys/q13d.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "Consider $\\left(3x^a-\\dfrac1{x^{4a}}\\right)^{3n}$, where $a,n$ are positive integers. Show that there is a term independent of $x$ only if $n$ is a multiple of 5.",
+   "answer": "General term: $\\binom{3n}k3^{3n-k}(-1)^kx^{3an-5ak}$. Independent of $x$ needs $3n=5k$ (as $a\\ne0$). Since 3 and 5 are coprime and $k$ is an integer, $n$ must be a multiple of 5."
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "Find the term independent of $x$ in $\\left(3x^2-\\dfrac1{x^8}\\right)^{75}$.",
+   "answer": "General term $\\binom{75}k3^{75-k}(-1)^kx^{150-10k}$. $k=15$: term $=-\\binom{75}{15}3^{60}$."
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.15",
+    "12.5.4.13"
+   ],
+   "question": "A researcher releases 400 mosquitoes on an island. The population $P$ after $t$ years satisfies $\\dfrac{dP}{dt}=rP\\left(1-\\dfrac{P}{16000}\\right)$. Given $\\dfrac{1}{P(16000-P)}=\\dfrac1{16000}\\left(\\dfrac1P+\\dfrac1{16000-P}\\right)$, show by integration that $P=\\dfrac{16000}{39e^{-rt}+1}$.",
+   "answer": "$\\displaystyle\\int\\left(\\frac1P+\\frac1{16000-P}\\right)dP=\\int r\\,dt$, so $\\ln\\dfrac{P}{16000-P}=rt+C$. $P=400$ at $t=0$ gives $C=\\ln\\frac1{39}$. So $\\dfrac{39P}{16000-P}=e^{rt}$ and $P=\\dfrac{16000}{39e^{-rt}+1}$."
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.15"
+   ],
+   "question": "A researcher releases 400 mosquitoes on an island. The population $P$ after $t$ years satisfies $\\dfrac{dP}{dt}=rP\\left(1-\\dfrac{P}{16000}\\right)$. The solution is $P=\\dfrac{16000}{39e^{-rt}+1}$. After five years the population is 4600. Show that $r=-\\frac15\\ln\\frac{19}{299}$.",
+   "answer": "$4600=\\dfrac{16000}{39e^{-5r}+1}$ gives $39e^{-5r}=\\frac{80}{23}-1=\\frac{57}{23}$, so $e^{-5r}=\\frac{19}{299}$."
+  },
+  {
+   "ref": "Q14(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.15"
+   ],
+   "question": "A researcher releases 400 mosquitoes on an island. The population $P$ after $t$ years satisfies $\\dfrac{dP}{dt}=rP\\left(1-\\dfrac{P}{16000}\\right)$. The solution is $P=\\dfrac{16000}{39e^{-rt}+1}$ with $r=-\\frac15\\ln\\frac{19}{299}$. When is the population growing fastest?",
+   "answer": "$\\dfrac{dP}{dt}$ is a quadratic in $P$ with maximum at $P=8000$. Then $39e^{-rt}=1$, so $t=\\dfrac{\\ln39}{r}\\approx6.65$ years.\n\nNote: the school gives 6.64; the value is $6.6465\\ldots$, which rounds to 6.65."
+  },
+  {
+   "ref": "Q14(b)(iv)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.4.15"
+   ],
+   "question": "A researcher releases 400 mosquitoes on an island. The population $P$ after $t$ years satisfies $\\dfrac{dP}{dt}=rP\\left(1-\\dfrac{P}{16000}\\right)$. Find the island's carrying capacity for the mosquitoes.",
+   "answer": "$\\dfrac{dP}{dt}\\to0$ as $P\\to16000$, so the carrying capacity is $16\\,000$."
+  },
+  {
+   "ref": "Q14(b)(v)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.16"
+   ],
+   "question": "A researcher releases 400 mosquitoes on an island. The population $P$ after $t$ years satisfies $\\dfrac{dP}{dt}=rP\\left(1-\\dfrac{P}{16000}\\right)$. The solution is $P=\\dfrac{16000}{39e^{-rt}+1}$ with $r=-\\frac15\\ln\\frac{19}{299}$. The ecosystem is harmed if the population exceeds 13 000. Spiders are introduced, and the model becomes $\\dfrac{dP}{dt}=rP\\left(1-\\dfrac{P}{16000}\\right)-0.09P$. Will the ecosystem be protected? Justify with calculations.",
+   "answer": "$\\dfrac{dP}{dt}=0$ with $P>0$ when $P=16000\\left(1-\\dfrac{0.09}{r}\\right)\\approx13\\,388$. This new limiting population exceeds 13 000 (at $P=13000$, $\\frac{dP}{dt}\\approx173.55>0$), so the ecosystem will not be protected."
+  }
+ ]
+}
