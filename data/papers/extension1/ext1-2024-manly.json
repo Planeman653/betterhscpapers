@@ -1,0 +1,511 @@
+{
+ "id": "ext1-2024-manly",
+ "course": "extension1",
+ "school": "Manly",
+ "year": 2024,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "Manly 2024 w. sol"
+ },
+ "indexed": "2026-11-28",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q11(a)",
+   "reason": "Not in 2024 syllabus: pigeonhole principle"
+  },
+  {
+   "ref": "Q13(b)",
+   "reason": "Not in 2024 syllabus: sample proportions"
+  },
+  {
+   "ref": "Q14(d)",
+   "reason": "Not in 2024 syllabus: sample proportions / normal approximation"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.6.1.4"
+   ],
+   "question": "The probability of success of a particular Bernoulli trial is $0.29$. What is the variance of this trial?",
+   "options": [
+    "$0.2059$",
+    "$0.2149$",
+    "$0.1927$",
+    "$0.3299$"
+   ],
+   "correct": "A",
+   "answer": "**A.** $p(1-p)=0.29\\times0.71=0.2059$."
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^{\\frac12}\\frac{1}{\\sqrt{1-4x^2}}\\,dx$.",
+   "options": [
+    "$\\dfrac\\pi2$",
+    "$\\dfrac\\pi3$",
+    "$\\dfrac\\pi4$",
+    "$\\dfrac\\pi6$"
+   ],
+   "correct": "C",
+   "answer": "**C.** $\\left[\\frac12\\sin^{-1}2x\\right]_0^{1/2}=\\frac\\pi4$."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.11"
+   ],
+   "question": "$6$ adults and $4$ children are to be seated at a circular table. How many arrangements are there if the children must sit together?",
+   "options": [
+    "$120960$",
+    "$17280$",
+    "$362880$",
+    "$30240$"
+   ],
+   "correct": "B",
+   "answer": "**B.** $7$ units around a table give $6!$, and the children can be ordered in $4!$ ways: $6!\\,4!=17280$."
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "Given $\\alpha,\\beta,\\gamma$ are the roots of $4x^3+5x^2+4x-1=0$, $\\dfrac1\\alpha+\\dfrac1\\beta+\\dfrac1\\gamma$ is equal to:",
+   "options": [
+    "$-4$",
+    "$4$",
+    "$-5$",
+    "$5$"
+   ],
+   "correct": "B",
+   "answer": "**B.** $\\dfrac{\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha}{\\alpha\\beta\\gamma}=\\dfrac{1}{1/4}=4$."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Which of the following is a correct expression for $\\displaystyle\\int\\cos^3x\\,dx$, using the substitution $u=\\sin x$?",
+   "options": [
+    "$\\sin x-\\dfrac13\\sin^3x+c$",
+    "$\\sin x-\\dfrac13\\cos^3x+c$",
+    "$\\cos x-\\dfrac13\\sin^3x+c$",
+    "$\\cos x-\\dfrac13\\cos^3x+c$"
+   ],
+   "correct": "A",
+   "answer": "**A.** $\\int(1-u^2)\\,du=u-\\frac{u^3}3+c$."
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.9"
+   ],
+   "question": "The scalar projection of vector $\\mathbf u$ in the direction of vector $\\mathbf v$ is $-4$. If $\\mathbf v=-\\sqrt3\\,\\mathbf i$, the vector projection of $\\mathbf u$ in the direction of $\\mathbf v$ is:",
+   "options": [
+    "$-4\\mathbf i$",
+    "$-3\\mathbf i$",
+    "$3\\mathbf i$",
+    "$4\\mathbf i$"
+   ],
+   "correct": "D",
+   "answer": "**D.** $\\hat{\\mathbf v}=-\\mathbf i$, so the projection is $(-4)(-\\mathbf i)=4\\mathbf i$."
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.7"
+   ],
+   "question": "Consider the vectors $\\mathbf a=-\\text{cosec}\\,\\theta\\,\\mathbf i+\\sqrt3\\,\\mathbf j$ and $\\mathbf b=\\cos\\theta\\,\\mathbf i+\\mathbf j$. If $\\mathbf a$ is perpendicular to $\\mathbf b$, then possible values of $\\theta$ are:",
+   "options": [
+    "$\\dfrac\\pi6$ and $\\dfrac{7\\pi}6$",
+    "$\\dfrac\\pi3$ and $\\dfrac{4\\pi}3$",
+    "$\\dfrac{5\\pi}6$ and $\\dfrac{11\\pi}6$",
+    "$\\dfrac{2\\pi}3$ and $\\dfrac{5\\pi}3$"
+   ],
+   "correct": "A",
+   "answer": "**A.** $\\mathbf a\\cdot\\mathbf b=-\\cot\\theta+\\sqrt3=0$, so $\\tan\\theta=\\frac1{\\sqrt3}$."
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "Consider the graphs of $y=f(x)$ and $y=g(x)$ shown. Which of the following is equal to the area of the shaded region?",
+   "options": [
+    "$\\displaystyle\\int_1^5(g(x)-f(x))\\,dx$",
+    "$\\displaystyle\\int_1^5(g(x)-g(x))\\,dx$",
+    "$\\displaystyle\\int_0^3(5-g(x))\\,dx+\\int_3^6(5-f(x))\\,dx$",
+    "$\\displaystyle\\int_0^3(5-f(x))\\,dx+\\int_3^6(5-g(x))\\,dx$"
+   ],
+   "correct": "D",
+   "answer": "**D.** The region lies below $y=5$, above $f$ for $0\\le x\\le3$ and above $g$ for $3\\le x\\le6$.",
+   "images": [
+    "assets/img/ext1-2024-manly/q8.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.1.6"
+   ],
+   "question": "The graph of $y=\\sqrt{x^3-4x}$ could be:",
+   "options": [
+    "![Graph A](assets/img/ext1-2024-manly/q9a.png)",
+    "![Graph B](assets/img/ext1-2024-manly/q9b.png)",
+    "![Graph C](assets/img/ext1-2024-manly/q9c.png)",
+    "![Graph D](assets/img/ext1-2024-manly/q9d.png)"
+   ],
+   "correct": "B",
+   "answer": "**B.** $x^3-4x=x(x-2)(x+2)\\ge0$ for $-2\\le x\\le0$ or $x\\ge2$."
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.17",
+    "11.4.1.8"
+   ],
+   "question": "Moving only right or up along the grid lines, how many different paths exist from point $A$ to point $B$?",
+   "options": [
+    "$45$",
+    "$840$",
+    "$480480$",
+    "$16!$"
+   ],
+   "correct": "B",
+   "answer": "**B.** The two rectangles meet at one point: $\\dbinom83\\times\\dbinom62=56\\times15=840$.",
+   "images": [
+    "assets/img/ext1-2024-manly/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.5.5",
+    "12.2.3.6"
+   ],
+   "question": "Let $\\mathbf i$ be a unit vector pointing east and $\\mathbf j$ a unit vector pointing north. A group of hikers travels $5$ km in the direction S$30^\\circ$W and then north for $10$ km. Determine the exact position vector $\\mathbf a$ of the hikers with respect to the starting point, in terms of $\\mathbf i$ and $\\mathbf j$.",
+   "answer": "$$\\mathbf a=-5\\sin30^\\circ\\,\\mathbf i+(10-5\\cos30^\\circ)\\,\\mathbf j=-\\frac52\\mathbf i+\\frac{20-5\\sqrt3}{2}\\mathbf j$$"
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.8"
+   ],
+   "question": "Let $X\\sim\\text{Bin}(n,p)$ where the mean and the standard deviation of $X$ are equal. Given $0<p<1$, calculate the smallest number of trials $n$ such that $p\\le0.01$.",
+   "answer": "$np=\\sqrt{np(1-p)}\\Rightarrow np=1-p\\Rightarrow p=\\dfrac1{n+1}$.\n\n$\\dfrac1{n+1}\\le0.01\\Rightarrow n\\ge99$. The smallest number of trials is $99$."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.3"
+   ],
+   "question": "Find the exact value of $\\displaystyle\\int_0^{\\frac\\pi{12}}\\sin^24x\\,dx$.",
+   "answer": "$$\\int_0^{\\pi/12}\\tfrac12(1-\\cos8x)\\,dx=\\left[\\frac x2-\\frac{\\sin8x}{16}\\right]_0^{\\pi/12}=\\frac\\pi{24}-\\frac{\\sqrt3}{32}=\\frac{4\\pi-3\\sqrt3}{96}$$"
+  },
+  {
+   "ref": "Q11(e)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.5",
+    "11.2.2.6"
+   ],
+   "question": "Let $P(x)=(x+1)(x-4)Q(x)+ax+b$, where $Q(x)$ is a polynomial and $a,b$ are real. $P(x)$ has a factor $x-4$, and when $P(x)$ is divided by $x+1$ the remainder is $15$. Find the values of $a$ and $b$.",
+   "answer": "$P(4)=0$: $4a+b=0$. $P(-1)=15$: $-a+b=15$. So $a=-3$, $b=12$."
+  },
+  {
+   "ref": "Q11(e)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.2.2"
+   ],
+   "question": "Let $P(x)=(x+1)(x-4)Q(x)+ax+b$, where $Q(x)$ is a polynomial and $a,b$ are real. $P(x)$ has a factor $x-4$, and when $P(x)$ is divided by $x+1$ the remainder is $15$. Find the remainder when $P(x)$ is divided by $(x+1)(x-4)$.",
+   "answer": "The remainder is $ax+b$. From $4a+b=0$ and $-a+b=15$, it is $-3x+12$."
+  },
+  {
+   "ref": "Q11(f)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.5"
+   ],
+   "question": "On a $36^\\circ$C day, an ice cream is taken out of a freezer set at $-18^\\circ$C. After one minute its temperature is $-10^\\circ$C. Its temperature $T$ after $t$ minutes satisfies $\\dfrac{dT}{dt}=-k(T-36)$. Show that $T=36+Ae^{-kt}$, where $A$ is a constant, satisfies the differential equation.",
+   "answer": "$\\dfrac{dT}{dt}=-kAe^{-kt}=-k(T-36)$ since $Ae^{-kt}=T-36$."
+  },
+  {
+   "ref": "Q11(f)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.7"
+   ],
+   "question": "On a $36^\\circ$C day, an ice cream is taken out of a freezer set at $-18^\\circ$C. After one minute its temperature is $-10^\\circ$C. Its temperature $T$ after $t$ minutes satisfies $\\dfrac{dT}{dt}=-k(T-36)$. Given $T=36+Ae^{-kt}$, and that ice cream begins to melt at $0^\\circ$C, after how many minutes will it begin to melt? Answer to one decimal place.",
+   "answer": "$t=0$: $-18=36+A$, so $A=-54$.\n\n$t=1$: $-10=36-54e^{-k}$, so $e^{-k}=\\dfrac{23}{27}$.\n\n$T=0$: $54e^{-kt}=36$, so $\\left(\\dfrac{23}{27}\\right)^t=\\dfrac23$ and $t=\\dfrac{\\ln(2/3)}{\\ln(23/27)}\\approx2.5$ minutes."
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.9"
+   ],
+   "question": "Find the number of ways the letters of the word TRIANGLE can be arranged in a line so that the vowels are all next to each other but the consonants are not all next to each other.",
+   "answer": "There are $3$ vowels and $5$ consonants, all distinct.\n\nVowels together: $6!\\,3!=4320$. Vowels together **and** consonants together: $2!\\,3!\\,5!=1440$.\n\nRequired number $=4320-1440=2880$."
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.1",
+    "12.3.2.1"
+   ],
+   "question": "The diagram shows the graph of $y=\\sin^{-1}2x$. Find the shaded area bounded by the curve, the $y$-axis and the line $y=\\dfrac\\pi2$.",
+   "answer": "$x=\\frac12\\sin y$:\n\n$$A=\\int_0^{\\pi/2}\\tfrac12\\sin y\\,dy=\\tfrac12\\Big[-\\cos y\\Big]_0^{\\pi/2}=\\tfrac12\\ \\text{unit}^2$$",
+   "images": [
+    "assets/img/ext1-2024-manly/q12b.png"
+   ]
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.3",
+    "12.4.2.3"
+   ],
+   "question": "The region bounded by the curve $y=\\sin^{-1}2x$, the $y$-axis and the line $y=\\dfrac\\pi2$ (shaded) is rotated about the $y$-axis. Find the volume of the solid formed.",
+   "answer": "$$V=\\pi\\int_0^{\\pi/2}x^2\\,dy=\\frac\\pi4\\int_0^{\\pi/2}\\sin^2y\\,dy=\\frac\\pi8\\Big[y-\\tfrac12\\sin2y\\Big]_0^{\\pi/2}=\\frac{\\pi^2}{16}\\ \\text{units}^3$$",
+   "images": [
+    "assets/img/ext1-2024-manly/q12b.png"
+   ]
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Solve $\\dfrac{1}{2x-x^2}\\ge1$.",
+   "answer": "$x\\ne0,2$. The left side must be positive, so $x(2-x)>0$, i.e. $0<x<2$. Then $1\\ge2x-x^2\\iff(x-1)^2\\ge0$, always true.\n\nSolution: $0<x<2$."
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^{\\frac1{\\sqrt3}}\\frac{\\sin(\\tan^{-1}x)}{1+x^2}\\,dx$ using the substitution $u=\\tan^{-1}x$.",
+   "answer": "$du=\\dfrac{dx}{1+x^2}$, limits $0$ to $\\dfrac\\pi6$:\n\n$$\\int_0^{\\pi/6}\\sin u\\,du=1-\\frac{\\sqrt3}{2}$$"
+  },
+  {
+   "ref": "Q12(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.6",
+    "12.2.5.7"
+   ],
+   "question": "The diagram shows a stationary body $B$ acted on by four forces (magnitudes $F_1$, $F_2$, $8$ and $6$). Calculate the value of $F_1$.",
+   "answer": "Equilibrium, so the components sum to zero.\n\nVertically: $F_2\\sin60^\\circ=6\\sin30^\\circ$, so $F_2=2\\sqrt3$.\n\nHorizontally: $F_1+6\\cos30^\\circ=8+F_2\\cos60^\\circ$, so\n\n$$F_1=8+\\sqrt3-3\\sqrt3=8-2\\sqrt3$$",
+   "images": [
+    "assets/img/ext1-2024-manly/q12e.png"
+   ]
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.3",
+    "12.2.4.6"
+   ],
+   "question": "Consider $\\mathbf a=x\\mathbf i+\\mathbf j$, $\\mathbf b=\\mathbf i-\\mathbf j$ and $\\mathbf c=\\mathbf i+x\\mathbf j$. If $\\theta$ is the angle between $\\mathbf a$ and $\\mathbf b$, and $\\varphi$ the angle between $\\mathbf b$ and $\\mathbf c$, show that $\\cos\\theta\\cos\\varphi=\\dfrac{-(x-1)^2}{2(1+x^2)}$.",
+   "answer": "$$\\cos\\theta=\\frac{x-1}{\\sqrt2\\sqrt{x^2+1}},\\qquad\\cos\\varphi=\\frac{1-x}{\\sqrt2\\sqrt{x^2+1}}$$\n\n$$\\cos\\theta\\cos\\varphi=\\frac{(x-1)(1-x)}{2(x^2+1)}=\\frac{-(x-1)^2}{2(1+x^2)}$$"
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.11",
+    "12.4.2.1"
+   ],
+   "question": "Find the particular solution of $\\dfrac{dy}{dx}=\\sqrt{16-3y^2}$ that passes through $(0,2)$.",
+   "answer": "$$x=\\int\\frac{dy}{\\sqrt{16-3y^2}}=\\frac1{\\sqrt3}\\sin^{-1}\\frac{\\sqrt3\\,y}{4}+c$$\n\nAt $(0,2)$: $c=-\\dfrac1{\\sqrt3}\\sin^{-1}\\dfrac{\\sqrt3}{2}=-\\dfrac{\\pi}{3\\sqrt3}$. So $\\sqrt3x+\\dfrac\\pi3=\\sin^{-1}\\dfrac{\\sqrt3y}{4}$ and\n\n$$y=\\frac4{\\sqrt3}\\sin\\left(\\sqrt3x+\\frac\\pi3\\right)$$"
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.4"
+   ],
+   "question": "Find a simplified exact value of $\\sin\\dfrac\\pi8$.",
+   "answer": "$\\cos\\dfrac\\pi4=1-2\\sin^2\\dfrac\\pi8$, so $\\sin^2\\dfrac\\pi8=\\dfrac{1-\\frac{\\sqrt2}{2}}{2}=\\dfrac{2-\\sqrt2}{4}$.\n\nSince $\\sin\\dfrac\\pi8>0$: $\\sin\\dfrac\\pi8=\\dfrac{\\sqrt{2-\\sqrt2}}{2}$."
+  },
+  {
+   "ref": "Q13(e)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.3.2",
+    "11.1.3.2"
+   ],
+   "question": "A hollow sphere of diameter $20$ m is cut in half and the top half removed. Water is poured into the remaining half at a constant rate of $20\\ \\text{m}^3$ per minute; $h$ m is the height of the water above the base. With the origin at the base, show that the curved edge can be defined by $x^2=20y-y^2$.",
+   "answer": "The edge is part of a circle with centre $(0,10)$ and radius $10$: $x^2+(y-10)^2=100$, so $x^2=20y-y^2$.",
+   "images": [
+    "assets/img/ext1-2024-manly/q13e.png"
+   ]
+  },
+  {
+   "ref": "Q13(e)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.3"
+   ],
+   "question": "A hollow sphere of diameter $20$ m is cut in half and the top half removed. Water is poured into the remaining half at a constant rate of $20\\ \\text{m}^3$ per minute; $h$ m is the height of the water above the base. The curved edge is $x^2=20y-y^2$. Find an expression for the volume of water in terms of $h$.",
+   "answer": "$$V=\\pi\\int_0^h(20y-y^2)\\,dy=\\pi\\left(10h^2-\\frac{h^3}{3}\\right)=\\frac{\\pi h^2(30-h)}{3}$$",
+   "images": [
+    "assets/img/ext1-2024-manly/q13e.png"
+   ]
+  },
+  {
+   "ref": "Q13(e)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "A hollow sphere of diameter $20$ m is cut in half and the top half removed. Water is poured into the remaining half at a constant rate of $20\\ \\text{m}^3$ per minute; $h$ m is the height of the water above the base. The volume of water is $V=\\pi\\left(10h^2-\\frac{h^3}3\\right)$. Find the rate of change of the water level when the water is $6$ m above the base.",
+   "answer": "$\\dfrac{dV}{dh}=\\pi(20h-h^2)=84\\pi$ at $h=6$.\n\n$$\\frac{dh}{dt}=\\frac{20}{84\\pi}=\\frac{5}{21\\pi}\\ \\text{m per minute}$$",
+   "images": [
+    "assets/img/ext1-2024-manly/q13e.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.2.11",
+    "11.1.2.10"
+   ],
+   "question": "Given that $f(x)=\\dfrac2{x^2+1}$, where $f^{-1}$ denotes the inverse of $f$ restricted to $x\\ge0$, find the value of $f^{-1}(f(N))$ for $N<0$.",
+   "answer": "With the restriction $x\\ge0$, $f^{-1}(x)=\\sqrt{\\dfrac2x-1}$.\n\n$$f^{-1}(f(N))=\\sqrt{(N^2+1)-1}=|N|=-N\\quad\\text{since }N<0$$\n\n*Note: the paper does not state the restriction; the school's solution takes the inverse on $x\\\\ge0$ (taking the inverse on $x\\\\le0$ instead would give $N$).*"
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.1",
+    "12.4.1.7"
+   ],
+   "question": "A function $f$ has rule $f(x)=xe^{2x}$. Use mathematical induction to prove that $f^{(n)}(x)=(2^nx+n2^{n-1})e^{2x}$ for $n\\ge1$, where $f^{(n)}(x)$ is the $n$th derivative of $f(x)$.",
+   "answer": "**$n=1$:** $f'(x)=e^{2x}+2xe^{2x}=(2x+1)e^{2x}$, which matches.\n\n**Assume** $f^{(k)}(x)=(2^kx+k2^{k-1})e^{2x}$. Then\n\n$$f^{(k+1)}(x)=2^ke^{2x}+2(2^kx+k2^{k-1})e^{2x}=\\left(2^{k+1}x+(k+1)2^k\\right)e^{2x}$$\n\nwhich is the formula for $n=k+1$. By induction it holds for all $n\\ge1$."
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.1"
+   ],
+   "question": "Solve $\\sin3x=\\sin2x$ for $0\\le x\\le2\\pi$.",
+   "answer": "$$\\sin3x-\\sin2x=2\\cos\\frac{5x}2\\sin\\frac x2=0$$\n\n- $\\sin\\dfrac x2=0$: $x=0,2\\pi$.\n- $\\cos\\dfrac{5x}2=0$: $x=\\dfrac\\pi5,\\dfrac{3\\pi}5,\\pi,\\dfrac{7\\pi}5,\\dfrac{9\\pi}5$."
+  },
+  {
+   "ref": "Q14(e)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.3"
+   ],
+   "question": "The graph of $y=\\sqrt3(\\cos2x+\\sin2x)-(\\sin2x-\\cos2x)$ is shown. Without using calculus, find the coordinates of $A$ (the first maximum shown) and $B$ (where the graph crosses the $x$-axis).",
+   "answer": "$y=(\\sqrt3+1)\\cos2x+(\\sqrt3-1)\\sin2x=R\\cos(2x-\\alpha)$ with $R=\\sqrt8=2\\sqrt2$ and $\\tan\\alpha=\\dfrac{\\sqrt3-1}{\\sqrt3+1}=2-\\sqrt3$, so $\\alpha=\\dfrac\\pi{12}$.\n\n$A$: $2x=\\dfrac\\pi{12}$, so $A\\left(\\dfrac\\pi{24},\\,2\\sqrt2\\right)$.\n\n$B$: $2x-\\dfrac\\pi{12}=\\dfrac\\pi2$, so $B\\left(\\dfrac{7\\pi}{24},\\,0\\right)$.",
+   "images": [
+    "assets/img/ext1-2024-manly/q14e.png"
+   ]
+  },
+  {
+   "ref": "Q14(e)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.3"
+   ],
+   "question": "Using $\\sqrt3(\\cos2x+\\sin2x)-(\\sin2x-\\cos2x)=2\\sqrt2\\cos\\left(2x-\\dfrac\\pi{12}\\right)$, or otherwise, solve $\\sqrt3(\\cos2x+\\sin2x)-(\\sin2x-\\cos2x)=2\\sqrt2$ for $0\\le x\\le2\\pi$.",
+   "answer": "$\\cos\\left(2x-\\dfrac\\pi{12}\\right)=1$, so $2x-\\dfrac\\pi{12}=0,2\\pi$ and $x=\\dfrac\\pi{24},\\ \\dfrac{25\\pi}{24}$."
+  }
+ ]
+}
