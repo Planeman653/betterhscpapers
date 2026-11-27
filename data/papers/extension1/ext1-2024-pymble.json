@@ -1,0 +1,524 @@
+{
+ "id": "ext1-2024-pymble",
+ "course": "extension1",
+ "school": "Pymble",
+ "year": 2024,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "Pymble 2024 w. sol"
+ },
+ "indexed": "2026-11-28",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.6",
+    "12.2.1.7"
+   ],
+   "question": "The grid is made of identical parallelograms. With $\\mathbf a=\\overrightarrow{AB}$ and $\\mathbf c=\\overrightarrow{CD}$, what is $\\overrightarrow{EF}$?",
+   "options": [
+    "$\\mathbf a+3\\mathbf c$",
+    "$-3\\mathbf a+\\mathbf c$",
+    "$-3\\mathbf a-\\mathbf c$",
+    "$3\\mathbf a-\\mathbf c$"
+   ],
+   "correct": "D",
+   "answer": "**D.** From E to F is three steps in the direction of AB and one step opposite to CD.",
+   "images": [
+    "assets/img/ext1-2024-pymble/q1.png"
+   ]
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.11"
+   ],
+   "question": "Four female and four male students sit around a circular table, alternating. In how many ways can this be done?",
+   "options": [
+    "$4!\\times4!$",
+    "$3!\\times4!$",
+    "$3!\\times3!$",
+    "$2\\times3!\\times3!$"
+   ],
+   "correct": "B",
+   "answer": "**B.** Seat one group in 3! ways, then the other in the 4 gaps in 4! ways."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Which is equal to $\\dfrac d{dx}\\left(2\\sin^{-1}\\dfrac x2\\right)$?",
+   "options": [
+    "$\\dfrac1{\\sqrt{1-x^2}}$",
+    "$\\dfrac2{\\sqrt{1-x^2}}$",
+    "$\\dfrac2{\\sqrt{4-x^2}}$",
+    "$\\dfrac1{2\\sqrt{4-x^2}}$"
+   ],
+   "correct": "C",
+   "answer": "**C.** Chain rule."
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.2"
+   ],
+   "question": "Which is identical to $2\\sin3x\\sin5x$?",
+   "options": [
+    "$-\\cos2x-\\cos8x$",
+    "$\\cos8x-\\cos2x$",
+    "$\\cos2x-\\cos8x$",
+    "$\\cos2x+\\cos8x$"
+   ],
+   "correct": "C",
+   "answer": "**C.** $\\cos(5x-3x)-\\cos(5x+3x)$."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.2.2"
+   ],
+   "question": "$\\sin A=t$ and $\\cos B=t$ with $\\frac\\pi2<A<\\pi$ and $0<B<\\frac\\pi2$. What is $\\cos(B+A)$?",
+   "options": [
+    "$0$",
+    "$\\sqrt{1-t^2}$",
+    "$1-2t^2$",
+    "$-2t\\sqrt{1-t^2}$"
+   ],
+   "correct": "D",
+   "answer": "**D.** $\\cos A=-\\sqrt{1-t^2}$, $\\sin B=\\sqrt{1-t^2}$."
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.4"
+   ],
+   "question": "$R$ is the region between $y=1$ and $y=\\sin x$ for $0\\le x\\le\\frac\\pi2$. Which gives the volume when $R$ is revolved about the $x$-axis?",
+   "options": [
+    "$2\\pi\\displaystyle\\int_0^{\\pi/2}x\\sin x\\,dx$",
+    "$\\pi\\displaystyle\\int_0^{\\pi/2}(1-\\sin x)^2dx$",
+    "$\\pi\\displaystyle\\int_0^{\\pi/2}\\sin^2x\\,dx$",
+    "$\\pi\\displaystyle\\int_0^{\\pi/2}\\cos^2x\\,dx$"
+   ],
+   "correct": "D",
+   "answer": "**D.** $\\pi\\int(1-\\sin^2x)\\,dx$."
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "A spherical balloon is inflated at $200\\pi$ cm³/s. How fast is the radius increasing when it is 10 cm?",
+   "options": [
+    "0.25 cm/s",
+    "0.5 cm/s",
+    "1 cm/s",
+    "2 cm/s"
+   ],
+   "correct": "B",
+   "answer": "**B.** $200\\pi=400\\pi\\,\\dfrac{dr}{dt}$."
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.12"
+   ],
+   "question": "What is the domain of $y=5\\cos^{-1}\\dfrac{2-x}3$?",
+   "options": [
+    "$[1,5]$",
+    "$[-1,5]$",
+    "$[-5,1]$",
+    "$[-5,-1]$"
+   ],
+   "correct": "B",
+   "answer": "**B.** $-1\\le\\frac{2-x}3\\le1$."
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.6"
+   ],
+   "question": "$PQR$ is a straight line with $PQ=2QR$. If $\\overrightarrow{OQ}=3\\mathbf i-2\\mathbf j$ and $\\overrightarrow{OR}=\\mathbf i+3\\mathbf j$, what is $\\overrightarrow{OP}$?",
+   "options": [
+    "$-\\mathbf i+8\\mathbf j$",
+    "$7\\mathbf i-12\\mathbf j$",
+    "$4\\mathbf i-10\\mathbf j$",
+    "$-4\\mathbf i+10\\mathbf j$"
+   ],
+   "correct": "B",
+   "answer": "**B.** $\\overrightarrow{OP}=3\\overrightarrow{OQ}-2\\overrightarrow{OR}$.",
+   "images": [
+    "assets/img/ext1-2024-pymble/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.2.12"
+   ],
+   "question": "$g$ is the inverse of $f(x)=\\ln(x-1)$. Which must be true for all $x$ in the domain of $g$?",
+   "options": [
+    "$g(x)<0$",
+    "$g'(x)<0$",
+    "$g''(x)>0$",
+    "$g''(x)<0$"
+   ],
+   "correct": "C",
+   "answer": "**C.** $g(x)=e^x+1$, so $g''(x)=e^x>0$."
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "Find the term independent of $x$ in $\\left(3x^2+\\dfrac2x\\right)^{12}$.",
+   "answer": "General term power: $24-3r=0$, so $r=8$: $\\dbinom{12}8 3^4 2^8=10\\,264\\,320$."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.9"
+   ],
+   "question": "Eight exams, including Extension 1 and Extension 2, are to be ordered. In how many ways can this be done so those two are not consecutive?",
+   "answer": "$8!-2\\times7!=30\\,240$."
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Solve $\\dfrac{x^2+10}x\\le7$.",
+   "answer": "Multiply by $x^2$: $x(x-2)(x-5)\\le0$, $x\\ne0$. So $x<0$ or $2\\le x\\le5$."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.1"
+   ],
+   "question": "$P(x)=8x^4-38x^3+9x^2+ax+b$ has a double root at $x=3$. Find $a$ and $b$.",
+   "answer": "$P'(3)=0$ gives $a=108$; $P(3)=0$ gives $b=-27$."
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^2\\dfrac{dx}{\\sqrt{16-x^2}}$.",
+   "answer": "$\\left[\\sin^{-1}\\dfrac x4\\right]_0^2=\\dfrac\\pi6$."
+  },
+  {
+   "ref": "Q11(f)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.3"
+   ],
+   "question": "Prove by induction that $8n^3-2n$ is divisible by 3 for all integers $n\\ge1$.",
+   "answer": "$n=1$: $6$. Assume $8k^3-2k=3M$.\n\n$8(k+1)^3-2(k+1)=(8k^3-2k)+24k^2+24k+6=3(M+8k^2+8k+2)$.\n\nSo the result holds for all $n\\ge1$."
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.3"
+   ],
+   "question": "Solve $\\cos x-\\sqrt3\\sin x+1=0$ for $0\\le x\\le2\\pi$.",
+   "answer": "$2\\cos\\left(x+\\frac\\pi3\\right)=-1$, so $x+\\frac\\pi3=\\frac{2\\pi}3,\\frac{4\\pi}3$ and $x=\\dfrac\\pi3,\\ \\pi$."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Using $u=x-4$, find $\\displaystyle\\int x\\sqrt{x-4}\\,dx$.",
+   "answer": "$\\displaystyle\\int(u^{3/2}+4u^{1/2})\\,du=\\frac25(x-4)^{5/2}+\\frac83(x-4)^{3/2}+C$."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.5",
+    "11.2.2.2"
+   ],
+   "question": "When $P(x)$ is divided by $9x^2-1$ the remainder is $3x+7$. Find the remainder when $P(x)$ is divided by $3x+1$.",
+   "answer": "$P(x)=(3x-1)(3x+1)Q(x)+3x+7$, so $P(-\\frac13)=6$."
+  },
+  {
+   "ref": "Q12(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.7"
+   ],
+   "question": "A ball is kicked from $O$ with speed $V$ at angle $\\alpha$: $\\mathbf r=Vt\\cos\\alpha\\,\\mathbf i+\\left(Vt\\sin\\alpha-\\frac g2t^2\\right)\\mathbf j$. It reaches maximum height $h$ and lands on a hill at height $\\frac h4$, a horizontal distance $d$ away. Show that $h=\\dfrac{V^2\\sin^2\\alpha}{2g}$.",
+   "answer": "$\\dot y=0$ at $t=\\frac{V\\sin\\alpha}g$; substituting gives $h=\\dfrac{V^2\\sin^2\\alpha}{2g}$.",
+   "images": [
+    "assets/img/ext1-2024-pymble/q12d.png"
+   ]
+  },
+  {
+   "ref": "Q12(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.6.7"
+   ],
+   "question": "A ball is kicked from $O$ with speed $V$ at angle $\\alpha$: $\\mathbf r=Vt\\cos\\alpha\\,\\mathbf i+\\left(Vt\\sin\\alpha-\\frac g2t^2\\right)\\mathbf j$. It reaches maximum height $h$ and lands on a hill at height $\\frac h4$, a horizontal distance $d$ away. Given $h=\\frac{V^2\\sin^2\\alpha}{2g}$, show the time to land on the hill is $t=\\dfrac{(2+\\sqrt3)V\\sin\\alpha}{2g}$.",
+   "answer": "$\\frac g2t^2-Vt\\sin\\alpha+\\dfrac{V^2\\sin^2\\alpha}{8g}=0$ gives $t=\\dfrac{(2\\pm\\sqrt3)V\\sin\\alpha}{2g}$.\n\nThe ball is descending when it lands, so take the larger root.",
+   "images": [
+    "assets/img/ext1-2024-pymble/q12d.png"
+   ]
+  },
+  {
+   "ref": "Q12(d)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.6.7"
+   ],
+   "question": "A ball is kicked from $O$ with speed $V$ at angle $\\alpha$: $\\mathbf r=Vt\\cos\\alpha\\,\\mathbf i+\\left(Vt\\sin\\alpha-\\frac g2t^2\\right)\\mathbf j$. It reaches maximum height $h$ and lands on a hill at height $\\frac h4$, a horizontal distance $d$ away. It lands at $t=\\frac{(2+\\sqrt3)V\\sin\\alpha}{2g}$. Find $d$.",
+   "answer": "$d=Vt\\cos\\alpha=\\dfrac{(2+\\sqrt3)V^2\\sin2\\alpha}{4g}$.",
+   "images": [
+    "assets/img/ext1-2024-pymble/q12d.png"
+   ]
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.4"
+   ],
+   "question": "Let $f(x)=x\\sin^{-1}\\dfrac x2$, $-2\\le x\\le2$. Show that $f$ is even.",
+   "answer": "$f(-x)=-x\\sin^{-1}(-\\frac x2)=x\\sin^{-1}\\frac x2=f(x)$."
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.12"
+   ],
+   "question": "Let $f(x)=x\\sin^{-1}\\dfrac x2$, $-2\\le x\\le2$. Sketch $y=f(x)$ showing intercepts and endpoints.",
+   "answer": "Even, minimum at $(0,0)$, endpoints $(\\pm2,\\pi)$.",
+   "answer_images": [
+    "assets/img/ext1-2024-pymble/q13a.png"
+   ]
+  },
+  {
+   "ref": "Q13(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.4"
+   ],
+   "question": "Water has temperature $T=20+80e^{-0.2t}$ °C after $t$ minutes. How fast is it cooling when its temperature has fallen to half its initial value?",
+   "answer": "Initially $T=100$. $\\dfrac{dT}{dt}=-0.2(T-20)$, so at $T=50$ it is cooling at $6$ °C/min."
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.1"
+   ],
+   "question": "Part of $y=\\sqrt{\\cos3x\\sin2x}$ is shown. By solving $\\cos3x\\sin2x=0$, show the smallest positive solution is $\\dfrac\\pi6$.",
+   "answer": "$\\cos3x=0$ gives $x=\\frac\\pi6,\\frac\\pi2,\\dots$; $\\sin2x=0$ gives $x=0,\\frac\\pi2,\\dots$. The smallest positive solution is $\\frac\\pi6$.",
+   "images": [
+    "assets/img/ext1-2024-pymble/q13c.png"
+   ]
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.3",
+    "11.3.2.2"
+   ],
+   "question": "Part of $y=\\sqrt{\\cos3x\\sin2x}$ is shown. The region from $x=0$ to $\\frac\\pi6$ is rotated about the $x$-axis. Find the volume.",
+   "answer": "$V=\\dfrac\\pi2\\displaystyle\\int_0^{\\pi/6}(\\sin5x-\\sin x)\\,dx=\\dfrac\\pi2\\left[\\cos x-\\frac{\\cos5x}5\\right]_0^{\\pi/6}=\\dfrac{(3\\sqrt3-4)\\pi}{10}$.",
+   "images": [
+    "assets/img/ext1-2024-pymble/q13c.png"
+   ]
+  },
+  {
+   "ref": "Q13(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.12"
+   ],
+   "question": "Sketch $y=-\\tan^{-1}x$, labelling the point where $x=1$.",
+   "answer": "A decreasing curve through the origin with asymptotes $y=\\pm\\frac\\pi2$, passing through $(1,-\\frac\\pi4)$.",
+   "answer_images": [
+    "assets/img/ext1-2024-pymble/q13d.png"
+   ]
+  },
+  {
+   "ref": "Q13(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "Find the area bounded by $y=-\\tan^{-1}x$, the $x$-axis and $x=1$.",
+   "answer": "$A=\\dfrac\\pi4-\\displaystyle\\int_0^{\\pi/4}\\tan y\\,dy=\\dfrac\\pi4-\\dfrac12\\ln2$."
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.11"
+   ],
+   "question": "A bug has $\\dfrac{dv}{dt}=\\sqrt{v+1}$ m/s² and starts at rest. Find its velocity after 1 second.",
+   "answer": "$2\\sqrt{v+1}=t+2$, so at $t=1$, $v=\\dfrac54$ m/s."
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.4.15"
+   ],
+   "question": "Penguins satisfy $\\dfrac{dP}{dt}=0.001P(400-P)$ ($t$ in years), with $P=50$ initially. What is the carrying capacity?",
+   "answer": "400 penguins."
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.15"
+   ],
+   "question": "Penguins satisfy $\\dfrac{dP}{dt}=0.001P(400-P)$ ($t$ in years), with $P=50$ initially. Given $\\dfrac1{P(400-P)}=\\dfrac1{400}\\left(\\dfrac1P+\\dfrac1{400-P}\\right)$, find when the population reaches half the carrying capacity.",
+   "answer": "$\\ln\\dfrac P{400-P}=0.4t-\\ln7$. At $P=200$: $t=\\dfrac{\\ln7}{0.4}\\approx4.86$ years."
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.5"
+   ],
+   "question": "A circle, centre $O$ and radius $r$, is inscribed in square $ABCD$; $P$ is any point on the circle. Show that $\\overrightarrow{AP}\\cdot\\overrightarrow{AP}=3r^2-2\\,\\overrightarrow{OP}\\cdot\\overrightarrow{OA}$.",
+   "answer": "$\\overrightarrow{AP}=\\overrightarrow{OP}-\\overrightarrow{OA}$, so $|\\overrightarrow{AP}|^2=r^2+2r^2-2\\overrightarrow{OP}\\cdot\\overrightarrow{OA}$ since $|OA|^2=2r^2$.",
+   "images": [
+    "assets/img/ext1-2024-pymble/q14c.png"
+   ]
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.5"
+   ],
+   "question": "A circle, centre $O$ and radius $r$, is inscribed in square $ABCD$; $P$ is any point on the circle. Given $AP^2=3r^2-2\\overrightarrow{OP}\\cdot\\overrightarrow{OA}$, find $AP^2+BP^2+CP^2+DP^2$.",
+   "answer": "The sum is $12r^2-2\\overrightarrow{OP}\\cdot(\\overrightarrow{OA}+\\overrightarrow{OB}+\\overrightarrow{OC}+\\overrightarrow{OD})=12r^2$.",
+   "images": [
+    "assets/img/ext1-2024-pymble/q14c.png"
+   ]
+  },
+  {
+   "ref": "Q14(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.4"
+   ],
+   "question": "$A$ lies on a circle with centre $O$, radius $a$. An arc with centre $A$ and radius $r<2a$ meets the circle at $B$ and $C$; arc $BC$ has length $\\ell$ and $\\angle BAC=2\\theta$. Show that $r=2a\\cos\\theta$ and $\\ell=4a\\theta\\cos\\theta$.",
+   "answer": "In isosceles triangle $AOB$, $\\cos\\theta=\\dfrac{r}{2a}$. Then $\\ell=r(2\\theta)=4a\\theta\\cos\\theta$.",
+   "images": [
+    "assets/img/ext1-2024-pymble/q14d.png"
+   ]
+  },
+  {
+   "ref": "Q14(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "$A$ lies on a circle with centre $O$, radius $a$. An arc with centre $A$ and radius $r<2a$ meets the circle at $B$ and $C$; arc $BC$ has length $\\ell$ and $\\angle BAC=2\\theta$. Given $\\ell=4a\\theta\\cos\\theta$, show that $\\ell$ is a maximum when $\\theta=\\cot\\theta$.",
+   "answer": "$\\ell'=4a(\\cos\\theta-\\theta\\sin\\theta)=0$ when $\\theta=\\cot\\theta$.\n\n$\\ell''=-4a(2\\sin\\theta+\\theta\\cos\\theta)<0$ for $0<\\theta<\\frac\\pi2$, so it is a maximum.",
+   "images": [
+    "assets/img/ext1-2024-pymble/q14d.png"
+   ]
+  }
+ ]
+}
