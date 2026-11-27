@@ -30,7 +30,7 @@
     showAnswers: store.get("showAnswers", false),
     hideEmpty: true,
     strictDp: store.get("strictDp", false),
-    y11: store.get("y11", true),            // Year 11 dot points never count as "unselected" in strict mode
+    y11only: store.get("y11only", false),   // also show questions whose dot points are all Year 11
     basket: new Set(store.get("basket:" + COURSE, [])),
     opened: new Set(),                    // per-question answers opened manually
     prevOpen: new Set(),                  // per-question "previous parts" opened
@@ -144,8 +144,9 @@
   function passesForProgress(q) {
     if (!passesNonTopic(q)) return false;
     if (A.user && S.savedOnly && !isSaved(q.id)) return false;
+    if (S.syl.years.length > 1 && !S.y11only && !q.dotpoints.some((d) => !d.startsWith("11.")) && !(S.sel.size && q.dotpoints.some((d) => S.sel.has(d)))) return false;
     if (S.sel.size && !q.dotpoints.some((d) => S.sel.has(d))) return false;
-    if (S.sel.size && S.strictDp && !q.dotpoints.every((d) => S.sel.has(d) || (S.y11 && d.startsWith("11.")))) return false;
+    if (S.sel.size && S.strictDp && !q.dotpoints.every((d) => S.sel.has(d))) return false;
     return true;
   }
   function passes(q) {
@@ -205,7 +206,7 @@
       const key = "y" + y.year;
       const open = firstBuild || openState.has(key);
       html += S.syl.years.length > 1
-        ? `<details class="lvl-year" data-key="${key}" ${open ? "open" : ""}><summary><span class="caret">▸</span>${S.syl.years.length > 1 ? (y.year === 11 ? `<input type="checkbox" id="inc-y11" title="Keep questions that also have Year 11 dot points when hiding questions with unselected dot points" ${S.y11 ? "checked" : ""}>` : `<input type="checkbox" data-group="${y.year}" title="Select all Year ${y.year} dot points">`) : ""}<span class="lbl">Year ${y.year}</span><span class="cnt">${yCount}</span></summary>${yHtml}</details>`
+        ? `<details class="lvl-year" data-key="${key}" ${open ? "open" : ""}><summary><span class="caret">▸</span>${S.syl.years.length > 1 ? `<input type="checkbox" data-group="${y.year}" title="Select all Year ${y.year} dot points">` : ""}<span class="lbl">Year ${y.year}</span><span class="cnt">${yCount}</span></summary>${yHtml}</details>`
         : yHtml;
     }
     root.innerHTML = html || `<div class="none" style="padding:10px">No indexed questions yet.</div>`;
@@ -627,17 +628,20 @@
     $("answers").checked = S.showAnswers;
     $("answers").addEventListener("change", (e) => { S.showAnswers = e.target.checked; store.set("showAnswers", S.showAnswers); refresh(); });
     $("hide-empty").addEventListener("change", (e) => { S.hideEmpty = e.target.checked; buildTree(); });
+    if ($("y11-only")) {
+      $("y11-only").checked = S.y11only;
+      $("y11-only").addEventListener("change", (e) => { S.y11only = e.target.checked; store.set("y11only", S.y11only); refresh(false); });
+    }
     $("strict-dp").checked = S.strictDp;
     $("strict-dp").addEventListener("change", (e) => { S.strictDp = e.target.checked; store.set("strictDp", S.strictDp); refresh(true); });
     $("clear-topics").addEventListener("click", () => { S.sel.clear(); refresh(true); });
     $("reset").addEventListener("click", () => {
-      S.y11 = true; store.set("y11", true); S.sel.clear(); S.papers.clear(); S.diff = new Set([1, 2, 3, 4, 5]); S.kinds = new Set(["mc", "written"]); S.search = ""; $("search").value = "";
+      S.y11only = false; store.set("y11only", false); if ($("y11-only")) $("y11-only").checked = false; S.sel.clear(); S.papers.clear(); S.diff = new Set([1, 2, 3, 4, 5]); S.kinds = new Set(["mc", "written"]); S.search = ""; $("search").value = "";
       document.querySelectorAll("[data-diff],[data-kind]").forEach((b) => b.classList.add("on")); buildPapers(); refresh(true);
     });
     $("tree").addEventListener("change", (e) => {
       const t = e.target;
-      if (t.id === "inc-y11") { S.y11 = t.checked; store.set("y11", S.y11); refresh(false); }
-      else if (t.dataset.dp) { t.checked ? S.sel.add(t.dataset.dp) : S.sel.delete(t.dataset.dp); refresh(false); }
+      if (t.dataset.dp) { t.checked ? S.sel.add(t.dataset.dp) : S.sel.delete(t.dataset.dp); refresh(false); }
       else if (t.dataset.group) { for (const id of dpsUnder(t.dataset.group)) t.checked ? S.sel.add(id) : S.sel.delete(id); refresh(true); }
     });
     $("tree").addEventListener("click", (e) => { if (e.target.matches("summary input")) e.stopPropagation(); }, true);
