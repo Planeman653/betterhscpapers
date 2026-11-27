@@ -20,10 +20,10 @@
 
   const S = {
     syl: null, data: null, dp: {}, sub: {}, topic: {}, order: {},
-    sel: new Set(),                       // selected dot point ids (empty = all)
+    sel: new Set(),                       // selected dot point ids (all selected by default)
     diff: new Set([1, 2, 3, 4, 5]),
     kinds: new Set(["mc", "written"]),
-    papers: new Set(),                    // selected paper ids (empty = all)
+    papers: new Set(),                    // selected paper ids (all selected by default)
     search: "",
     sort: "syllabus",
     group: "subtopic",
@@ -66,7 +66,13 @@
     }
     addMine(data);
     await mergeLive(data);
+    S.sel = new Set(Object.keys(S.dp));     // everything is selected by default
+    const multi = syl.years.length > 1;
     for (const q of data.questions) {
+      if (multi && q.dotpoints.length > 1) {   // Year 12 dot points lead; Year 11 ones are minor tags
+        q.dotpoints = [...q.dotpoints.filter((d) => !d.startsWith("11.")), ...q.dotpoints.filter((d) => d.startsWith("11."))];
+        const f = S.dp[q.dotpoints[0]]; if (f) { q.topic = f.topic; q.subtopic = f.sub; }
+      }
       q._order = S.order[q.dotpoints[0]] ?? 1e9;
       q._paper = data.papers[q.paper] || { label: q.paper, year: 0 };
       q._text = (q.question + " " + (q.options || []).join(" ") + " " + q._paper.label + " " + q.ref).toLowerCase();
@@ -144,9 +150,11 @@
   function passesForProgress(q) {
     if (!passesNonTopic(q)) return false;
     if (A.user && S.savedOnly && !isSaved(q.id)) return false;
-    if (S.syl.years.length > 1 && !S.y11only && !q.dotpoints.some((d) => !d.startsWith("11.")) && !(S.sel.size && q.dotpoints.some((d) => S.sel.has(d)))) return false;
-    if (S.sel.size && !q.dotpoints.some((d) => S.sel.has(d))) return false;
-    if (S.sel.size && S.strictDp && !q.dotpoints.every((d) => S.sel.has(d))) return false;
+    if (S.syl.years.length > 1 && !S.y11only && !q.dotpoints.some((d) => !d.startsWith("11."))) return false;
+    if (S.sel.size !== Object.keys(S.dp).length) {
+      if (!q.dotpoints.some((d) => S.sel.has(d))) return false;
+      if (S.strictDp && !q.dotpoints.every((d) => S.sel.has(d))) return false;
+    }
     return true;
   }
   function passes(q) {
@@ -635,8 +643,9 @@
     $("strict-dp").checked = S.strictDp;
     $("strict-dp").addEventListener("change", (e) => { S.strictDp = e.target.checked; store.set("strictDp", S.strictDp); refresh(true); });
     $("clear-topics").addEventListener("click", () => { S.sel.clear(); refresh(true); });
+    if ($("all-topics")) $("all-topics").addEventListener("click", () => { S.sel = new Set(Object.keys(S.dp)); refresh(true); });
     $("reset").addEventListener("click", () => {
-      S.y11only = false; store.set("y11only", false); if ($("y11-only")) $("y11-only").checked = false; S.sel.clear(); S.papers.clear(); S.diff = new Set([1, 2, 3, 4, 5]); S.kinds = new Set(["mc", "written"]); S.search = ""; $("search").value = "";
+      S.y11only = false; store.set("y11only", false); if ($("y11-only")) $("y11-only").checked = false; S.sel = new Set(Object.keys(S.dp)); S.papers.clear(); S.diff = new Set([1, 2, 3, 4, 5]); S.kinds = new Set(["mc", "written"]); S.search = ""; $("search").value = "";
       document.querySelectorAll("[data-diff],[data-kind]").forEach((b) => b.classList.add("on")); buildPapers(); refresh(true);
     });
     $("tree").addEventListener("change", (e) => {
