@@ -1,0 +1,676 @@
+{
+ "id": "ext2-2024-penrith",
+ "course": "extension2",
+ "school": "Penrith",
+ "year": 2024,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "Penrith 2024 w. sol"
+ },
+ "indexed": "2026-11-28",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.9"
+   ],
+   "question": "Which expression is equal to $\\displaystyle\\int_0^1\\frac{dx}{x^2+2x+2}$?",
+   "options": [
+    "$\\frac\\pi4$",
+    "$-\\frac\\pi4$",
+    "$-\\frac\\pi4+\\tan^{-1}2$",
+    "$\\frac\\pi4-\\tan^{-1}2$"
+   ],
+   "correct": "C",
+   "answer": "**C.** $\\int_0^1\\frac{dx}{(x+1)^2+1}=[\\tan^{-1}(x+1)]_0^1=\\tan^{-1}2-\\frac\\pi4$."
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.2",
+    "12.3.2.3"
+   ],
+   "question": "If $\\text{Arg}(-\\sqrt3+ai)=-\\dfrac{5\\pi}{6}$, find the value of the real number $a$.",
+   "options": [
+    "$a=-1$",
+    "$a=1$",
+    "$a=0.5$",
+    "$a=-0.5$"
+   ],
+   "correct": "A",
+   "answer": "**A.** The point is in the third quadrant with $\\tan\\frac\\pi6=\\frac{|a|}{\\sqrt3}$, so $a=-1$."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.7",
+    "12.1.1.6"
+   ],
+   "question": "Which of the following is the negation of the statement \\\"$\\forall m\\in\\mathbb{Z},\\ \\exists n\\ge m$ such that $n=m^2$\\\"?",
+   "options": [
+    "$\\exists m\\in\\mathbb{Z}$ such that $n=m^2,\\ \\forall n\\ge m$",
+    "$\\forall m\\in\\mathbb{Z}$, such that $n\\ne m^2,\\ \\forall n\\ge m$",
+    "$\\exists m\\in\\mathbb{Z}$ such that $n\\ne m^2,\\ \\forall n\\ge m$",
+    "$\\forall m\\in\\mathbb{Z}$, such that $n\\ne m^2,\\ \\exists n\\ge m$"
+   ],
+   "correct": "C",
+   "answer": "**C.** Negating swaps $\\forall$ and $\\exists$ and negates the final condition."
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.12",
+    "12.2.1.19"
+   ],
+   "question": "Consider the curve with parametric vector equation $\\underset{\\sim}{r}(t)=\\cos t\\,\\underset{\\sim}{i}+\\sin t\\,\\underset{\\sim}{j}+(1-\\sin t)\\,\\underset{\\sim}{k}$. Which one of the following statements is true?",
+   "options": [
+    "The curve looks like $x^2+y^2=1$ in the $xy$-plane.",
+    "The curve looks like $z=1-y$ in the $yz$-plane.",
+    "The curve looks like $x^2+(z-1)^2=1$ in the $xz$-plane.",
+    "All of the above."
+   ],
+   "correct": "D",
+   "answer": "**D.** $x^2+y^2=1$, $z=1-y$ and $x^2+(z-1)^2=\\cos^2t+\\sin^2t=1$."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.9",
+    "12.3.4.11"
+   ],
+   "question": "$P,Q,R$ represent the complex numbers $p=1+i$, $q=2+6i$, $r=-1+7i$. Find the complex number $s$ so that the four points form the vertices of parallelogram $PSQR$.",
+   "options": [
+    "$s=12i$",
+    "$s=-2+2i$",
+    "$s=4$",
+    "Not enough information."
+   ],
+   "correct": "C",
+   "answer": "**C.** Diagonals $PQ$ and $SR$ bisect each other: $s=p+q-r=4$."
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "Consider $S_n=1+z+z^2+\\dots+z^n$, where $z=\\text{cis}\\,\\theta\\ne1$. Which expression is equal to $S_n$?",
+   "options": [
+    "$\\dfrac{\\text{cis}\\,n\\theta-1}{\\text{cis}\\,\\theta-1}$",
+    "$\\dfrac{\\text{cis}\\,(n-1)\\theta-1}{\\text{cis}\\,\\theta-1}$",
+    "$\\dfrac{\\text{cis}\\,(n-1)\\theta-1}{\\text{cis}(-\\theta)-1}$",
+    "$\\dfrac{\\text{cis}\\,(n+1)\\theta-1}{\\text{cis}\\,\\theta-1}$"
+   ],
+   "correct": "D",
+   "answer": "**D.** A geometric series with $n+1$ terms: $\\frac{z^{n+1}-1}{z-1}$, then apply de Moivre."
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.17",
+    "12.2.1.18"
+   ],
+   "question": "Consider the line $\\underset{\\sim}{r}=(\\underset{\\sim}{i}-2\\underset{\\sim}{j})+\\mu(3\\underset{\\sim}{i}+2\\underset{\\sim}{j}+\\underset{\\sim}{k})$ and the sphere $|\\underset{\\sim}{v}-\\underset{\\sim}{a}|=3$ where $\\underset{\\sim}{a}=(2,-1,3)$. Which statement is true?",
+   "options": [
+    "The line touches the sphere",
+    "The line intersects the sphere at two points",
+    "There is no point of intersection",
+    "Not enough information"
+   ],
+   "correct": "B",
+   "answer": "**B.** Substituting: $14\\mu^2-16\\mu+11=9$, i.e. $7\\mu^2-8\\mu+1=0$, which has two roots."
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.3",
+    "12.5.1.4"
+   ],
+   "question": "The diagram shows two objects with masses $m_1$ kg and $m_2$ kg, where $m_1<m_2$, on either end of a light inextensible string over a smooth pulley. The acceleration of the heavier particle is given by:",
+   "options": [
+    "$a=\\left(\\frac{m_1-m_2}{m_1+m_2}\\right)g$",
+    "$a=\\left(\\frac{m_2-m_1}{m_2+m_1}\\right)g$",
+    "$a=\\left(\\frac{m_2-m_1}{m_2}\\right)g$",
+    "$a=\\left(\\frac{m_2+m_1}{m_1}\\right)g$"
+   ],
+   "correct": "B",
+   "answer": "**B.** $(m_1+m_2)a=(m_2-m_1)g$ (downwards positive for the heavier mass).",
+   "images": [
+    "assets/img/ext2-2024-penrith/q8.png"
+   ]
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.5.1.4"
+   ],
+   "question": "A variable force of $F$ newtons acts on a 3 kg mass moving in a straight line. Its velocity $v$ m/s and position $x$ m satisfy $v=3-x^2$. It follows that",
+   "options": [
+    "$F=-2x$",
+    "$F=-6x$",
+    "$F=6x^3-18x$",
+    "$F=9x-3x^3$"
+   ],
+   "correct": "C",
+   "answer": "**C.** $a=v\\frac{dv}{dx}=(3-x^2)(-2x)$, so $F=3a=6x^3-18x$."
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.19",
+    "12.2.1.12"
+   ],
+   "question": "A curve has parametric vector equation $\\underset{\\sim}{r}(t)=\\begin{pmatrix}t+\\frac1t\\\\t^2+\\frac1{t^2}\\end{pmatrix}$. Which statement is correct?",
+   "options": [
+    "The Cartesian equation is $y=x^2-2$, $t\\le0$.",
+    "The Cartesian equation is $y=2x^2-1$, $t\\ge0$.",
+    "The Cartesian equation is $y=x^2-2$, $t>0$.",
+    "The Cartesian equation is $y=2x^2-1$, $t<0$."
+   ],
+   "correct": "C",
+   "answer": "**C.** $x^2=t^2+2+\\frac1{t^2}$, so $y=x^2-2$. A is wrong because it includes $t=0$, where the curve is undefined."
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.12",
+    "12.1.2.3"
+   ],
+   "question": "Let $n\\in\\mathbb{Z}$. Use the contrapositive to prove that if $n^3$ is even then $n$ is even.",
+   "answer": "Contrapositive: if $n$ is odd then $n^3$ is odd. Let $n=2k+1$: $n^3=2(4k^3+6k^2+3k)+1$, which is odd. Hence if $n^3$ is even, $n$ is even."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.8",
+    "12.3.1.13"
+   ],
+   "question": "Find a complex number $z=x+iy$ such that $\\text{Im}(\\bar z)+2z=\\dfrac1{1+i}$.",
+   "answer": "$-y+2x+2iy=\\frac{1-i}{2}$. So $2y=-\\frac12$, $y=-\\frac14$, and $2x-y=\\frac12$, $x=\\frac18$. $z=\\frac18-\\frac14i$."
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^{\\pi/4}(2x+1)\\cos x\\,dx$.",
+   "answer": "By parts: $[(2x+1)\\sin x]_0^{\\pi/4}-\\int_0^{\\pi/4}2\\sin x\\,dx=[(2x+1)\\sin x+2\\cos x]_0^{\\pi/4}=\\dfrac{\\pi+6}{2\\sqrt2}-2$."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "Let $\\underset{\\sim}{a}=3\\underset{\\sim}{i}+2\\underset{\\sim}{j}+m\\underset{\\sim}{k}$ and $\\underset{\\sim}{b}=4\\underset{\\sim}{i}-\\underset{\\sim}{j}+m^2\\underset{\\sim}{k}$, where $m$ is real. The scalar projection of $\\underset{\\sim}{a}$ in the direction of $\\underset{\\sim}{b}$ is $\\dfrac{74}{\\sqrt{273}}$. Show that $m=4$.",
+   "answer": "$\\dfrac{\\underset{\\sim}{a}\\cdot\\underset{\\sim}{b}}{|\\underset{\\sim}{b}|}=\\dfrac{10+m^3}{\\sqrt{17+m^4}}=f(m)$. At $m=4$: $f(4)=\\dfrac{74}{\\sqrt{273}}$.\n\nIt is the only solution: $f'(m)=\\dfrac{m^2(m^4-20m+51)}{(17+m^4)^{3/2}}\\ge0$ since $m^4-20m+51>0$ for all $m$, so $f$ is increasing. Hence $m=4$.\n\n(The school equates numerators and denominators separately, which does not by itself show this is the only solution.)"
+  },
+  {
+   "ref": "Q11(e)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.5"
+   ],
+   "question": "A particle moves so that its speed satisfies $|v|=\\sqrt{-9x^2+12x+32}$. Prove that it is undergoing simple harmonic motion.",
+   "answer": "$a=\\frac{d}{dx}\\left(\\frac12v^2\\right)=\\frac{d}{dx}\\left(-\\frac92x^2+6x+16\\right)=-9x+6=-9\\left(x-\\frac23\\right)$, which is of the form $-n^2(x-c)$, so the motion is SHM."
+  },
+  {
+   "ref": "Q11(e)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.8",
+    "12.5.2.4"
+   ],
+   "question": "A particle moves so that its speed satisfies $|v|=\\sqrt{-9x^2+12x+32}$. The motion is simple harmonic. Find its period and amplitude.",
+   "answer": "$n=3$, so period $\\frac{2\\pi}3$. $v=0$ at $x=-\\frac43,\\frac83$, so amplitude $2$ (centre $\\frac23$)."
+  },
+  {
+   "ref": "Q11(e)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.4"
+   ],
+   "question": "A particle moves so that its speed satisfies $|v|=\\sqrt{-9x^2+12x+32}$. The motion is simple harmonic. Find the two positions where it moves at half its maximum speed.",
+   "answer": "Maximum speed is at $x=\\frac23$: $|v|=6$. Set $v^2=9$: $9x^2-12x-23=0$, so $x=\\dfrac{2\\pm3\\sqrt3}{3}$."
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.9"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_1^2\\frac{dx}{\\sqrt{3+2x-x^2}}$.",
+   "answer": "$3+2x-x^2=4-(x-1)^2$. $\\left[\\sin^{-1}\\frac{x-1}2\\right]_1^2=\\sin^{-1}\\frac12=\\frac\\pi6$."
+  },
+  {
+   "ref": "Q12(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.5.2"
+   ],
+   "question": "A line in the complex plane is given by $|z-1|=|z+2-3i|$. Show that its Cartesian equation is $y=x+2$.",
+   "answer": "$(x-1)^2+y^2=(x+2)^2+(y-3)^2$, so $-2x+1=4x-6y+13$, giving $y=x+2$."
+  },
+  {
+   "ref": "Q12(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.5.3",
+    "12.3.5.2"
+   ],
+   "question": "Draw a graph of the line $|z-1|=|z+2-3i|$ (Cartesian equation $y=x+2$) and the circle $|z-1|=3$ on the same Argand plane, labelling all essential features including the points of intersection.",
+   "answer": "Circle: centre $1$, radius 3. Substituting $y=x+2$ into $(x-1)^2+y^2=9$ gives $x=1$ or $-2$: intersections $1+3i$ and $-2$.",
+   "answer_images": [
+    "assets/img/ext2-2024-penrith/q12b.png"
+   ]
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "Assume that for integers $a,b,c$, if $a\\mid c$, $b\\mid c$ and $a,b$ are coprime, then $ab\\mid c$. Given that $n$ is a positive integer, show that $n(n-1)(n+1)$ is always divisible by 6.",
+   "answer": "$n-1,n,n+1$ are consecutive integers, so at least one is even and one is a multiple of 3. So the product is divisible by 2 and 3, which are coprime, hence by 6."
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.3"
+   ],
+   "question": "Assume that for integers $a,b,c$, if $a\\mid c$, $b\\mid c$ and $a,b$ are coprime, then $ab\\mid c$. Given that $n$ is a positive integer and $n(n-1)(n+1)$ is divisible by 6, show that it is divisible by 30 unless $n=5m\\pm2$ for some integer $m$.",
+   "answer": "As 5 and 6 are coprime, test divisibility by 5. Every integer is $5m$, $5m\\pm1$ or $5m\\pm2$.\n\nIf $n=5m$, $n$ is divisible by 5. If $n=5m+1$, $n-1$ is. If $n=5m-1$, $n+1$ is. So in these cases the product is divisible by 30.\n\nIf $n=5m\\pm2$, the three factors leave remainders $1,2,3$ or $2,3,4$ (in some order) on division by 5, so none is divisible by 5."
+  },
+  {
+   "ref": "Q12(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.1"
+   ],
+   "question": "Given $\\sin\\theta+\\sin\\varphi=2\\cos\\left(\\frac{\\theta-\\varphi}2\\right)\\sin\\left(\\frac{\\theta+\\varphi}2\\right)$, show that $\\cos\\theta+\\cos\\varphi=2\\cos\\left(\\frac{\\theta-\\varphi}2\\right)\\cos\\left(\\frac{\\theta+\\varphi}2\\right)$.",
+   "answer": "Apply the given identity to $\\frac\\pi2-\\theta$ and $\\frac\\pi2-\\varphi$: $\\cos\\theta+\\cos\\varphi=2\\cos\\left(\\frac{\\varphi-\\theta}2\\right)\\sin\\left(\\frac\\pi2-\\frac{\\theta+\\varphi}2\\right)=2\\cos\\left(\\frac{\\theta-\\varphi}2\\right)\\cos\\left(\\frac{\\theta+\\varphi}2\\right)$."
+  },
+  {
+   "ref": "Q12(d)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.4",
+    "12.4.1.2"
+   ],
+   "question": "Using the identities for $\\sin\\theta+\\sin\\varphi$ and $\\cos\\theta+\\cos\\varphi$, deduce that $\\text{cis}\\,\\theta+\\text{cis}\\,\\varphi=2\\cos\\left(\\frac{\\theta-\\varphi}2\\right)\\text{cis}\\left(\\frac{\\theta+\\varphi}2\\right)$.",
+   "answer": "LHS $=(\\cos\\theta+\\cos\\varphi)+i(\\sin\\theta+\\sin\\varphi)=2\\cos\\left(\\frac{\\theta-\\varphi}2\\right)\\left[\\cos\\frac{\\theta+\\varphi}2+i\\sin\\frac{\\theta+\\varphi}2\\right]=$ RHS."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.10"
+   ],
+   "question": "Find the point of intersection of $\\underset{\\sim}{r}=(\\underset{\\sim}{i}+2\\underset{\\sim}{k})+\\alpha(2\\underset{\\sim}{i}-\\underset{\\sim}{j}+\\underset{\\sim}{k})$ and $\\underset{\\sim}{s}=(-2\\underset{\\sim}{i}+2\\underset{\\sim}{j}+\\underset{\\sim}{k})+\\beta(-3\\underset{\\sim}{i}+2\\underset{\\sim}{j}-\\underset{\\sim}{k})$.",
+   "answer": "$1+2\\alpha=-2-3\\beta$, $-\\alpha=2+2\\beta$, $2+\\alpha=1-\\beta$. The last two give $\\beta=-1$, $\\alpha=0$, which satisfy the first. Point $(1,0,2)$."
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.4.1"
+   ],
+   "question": "Show that $\\tan\\left(\\frac\\pi2+\\theta\\right)=-\\cot\\theta$.",
+   "answer": "$\\tan\\left(\\frac\\pi2+\\theta\\right)=\\dfrac{\\sin(\\pi/2+\\theta)}{\\cos(\\pi/2+\\theta)}=\\dfrac{\\cos\\theta}{-\\sin\\theta}=-\\cot\\theta$."
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.1"
+   ],
+   "question": "Given $\\tan\\left(\\frac\\pi2+\\theta\\right)=-\\cot\\theta$, use mathematical induction to prove that $\\tan\\left(\\dfrac{(2n+1)\\pi}{4}\\right)=(-1)^n$ for all positive integers $n$.",
+   "answer": "$n=1$: $\\tan\\frac{3\\pi}4=-1$. True.\n\nAssume $\\tan\\frac{(2k+1)\\pi}4=(-1)^k$. Then $\\tan\\frac{(2k+3)\\pi}4=\\tan\\left(\\frac{(2k+1)\\pi}4+\\frac\\pi2\\right)=-\\cot\\frac{(2k+1)\\pi}4=-\\dfrac1{(-1)^k}=(-1)^{k+1}$.\n\nSo by induction it holds for all positive integers $n$."
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Define $I_n=\\displaystyle\\int_0^\\infty x^{n-1}e^{-x}\\,dx$ for $n\\ge1$, and assume $\\lim_{x\\to\\infty}x^ne^{-x}=0$ for all real $n>0$. Show that $I_{n+1}=nI_n$.",
+   "answer": "By parts: $I_{n+1}=\\left[-x^ne^{-x}\\right]_0^\\infty+n\\displaystyle\\int_0^\\infty x^{n-1}e^{-x}dx=0+nI_n$."
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Define $I_n=\\displaystyle\\int_0^\\infty x^{n-1}e^{-x}\\,dx$ for $n\\ge1$, and assume $\\lim_{x\\to\\infty}x^ne^{-x}=0$ for all real $n>0$. Given $I_{n+1}=nI_n$, deduce that $I_{n+1}=n!$.",
+   "answer": "$I_{n+1}=n(n-1)\\cdots2\\cdot1\\cdot I_1$, and $I_1=\\int_0^\\infty e^{-x}dx=1$. So $I_{n+1}=n!$."
+  },
+  {
+   "ref": "Q13(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.14",
+    "12.4.1.15"
+   ],
+   "question": "Define $I_n=\\displaystyle\\int_0^\\infty x^{n-1}e^{-x}\\,dx$ for $n\\ge1$, and assume $\\lim_{x\\to\\infty}x^ne^{-x}=0$ for all real $n>0$. Given $I_{n+1}=n!$, let $T_n=\\displaystyle\\int_0^1(\\ln x)^n\\,dx$. Prove that $\\dfrac{I_{n+1}}{T_n}=(-1)^n$.",
+   "answer": "By parts: $T_n=[x(\\ln x)^n]_0^1-n\\int_0^1(\\ln x)^{n-1}dx=-nT_{n-1}$. As $T_0=1$, $T_n=(-1)^nn!$. Hence $\\dfrac{I_{n+1}}{T_n}=\\dfrac{n!}{(-1)^nn!}=(-1)^n$."
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.5"
+   ],
+   "question": "A taut rope of length 1.25 m suspends a 10 kg mass from a fixed point $O$. A horizontal force of $P$ newtons displaces the mass 1 m horizontally so that the rope makes an angle $\\theta$ with the vertical. Find the magnitude of the tension in the rope in newtons. ($g=10\\text{ m/s}^2$)",
+   "answer": "$\\sin\\theta=\\frac1{1.25}=\\frac45$, so $\\cos\\theta=\\frac35$. Vertically $T\\cos\\theta=100$, so $T=\\frac{500}3\\approx166.7$ N.",
+   "images": [
+    "assets/img/ext2-2024-penrith/q13d.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.3",
+    "12.3.4.2"
+   ],
+   "question": "Simplify $\\dfrac{(\\cos3\\theta+i\\sin3\\theta)^2(\\cos\\theta-i\\sin\\theta)^4}{(\\cos2\\theta-i\\sin2\\theta)^{-3}}$, leaving the answer in modulus–argument form.",
+   "answer": "$\\dfrac{\\text{cis}\\,6\\theta\\cdot\\text{cis}(-4\\theta)}{\\text{cis}\\,6\\theta}=\\text{cis}(-4\\theta)=\\cos(-4\\theta)+i\\sin(-4\\theta)$."
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.3.9"
+   ],
+   "question": "On the curve $y=e^x$, $P$ and $Q$ are points with $x$-coordinates $a$ and $b$, $a>b$. Prove that $y=e^x$ is concave up for all $x$.",
+   "answer": "$y''=e^x>0$ for all $x$, so the curve is concave up."
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.9",
+    "12.1.3.7"
+   ],
+   "question": "On the curve $y=e^x$, $P$ and $Q$ are points with $x$-coordinates $a$ and $b$, $a>b$. Explain why $\\frac12(e^a+e^b)>e^{\\frac12(a+b)}$.",
+   "answer": "Since the curve is concave up, the chord $PQ$ lies above the curve. The chord's midpoint has height $\\frac12(e^a+e^b)$ and the curve at the same $x$ has height $e^{\\frac{a+b}2}$."
+  },
+  {
+   "ref": "Q14(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "Given $\\frac12(e^p+e^q)>e^{\\frac12(p+q)}$ whenever $p>q$, show that $e^a+e^b+e^c+e^d>4e^{\\frac{a+b+c+d}4}$ if $a>b>c>d$.",
+   "answer": "$e^a+e^b>2e^{\\frac{a+b}2}$ and $e^c+e^d>2e^{\\frac{c+d}2}$. Adding, then applying the inequality to $p=\\frac{a+b}2>q=\\frac{c+d}2$: $e^a+e^b+e^c+e^d>2\\left(e^p+e^q\\right)>4e^{\\frac{p+q}2}=4e^{\\frac{a+b+c+d}4}$."
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "It is given that $\\cos6\\theta=32\\cos^6\\theta-48\\cos^4\\theta+18\\cos^2\\theta-1$. Find all the roots of $32x^6-48x^4+18x^2-1=0$.",
+   "answer": "With $x=\\cos\\theta$ the equation is $\\cos6\\theta=0$, so $\\theta=\\frac{(2k+1)\\pi}{12}$. The six distinct roots are $\\pm\\cos\\frac\\pi{12}$, $\\pm\\cos\\frac{\\pi}{4}$, $\\pm\\cos\\frac{5\\pi}{12}$.\n\nNote: the school lists $\\cos\\left(\\pm\\frac\\pi{12}\\right),\\cos\\left(\\pm\\frac{3\\pi}{12}\\right),\\cos\\left(\\pm\\frac{5\\pi}{12}\\right)$. Cosine is even, so that is only three distinct roots; the other three are their negatives."
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "It is given that $\\cos6\\theta=32\\cos^6\\theta-48\\cos^4\\theta+18\\cos^2\\theta-1$. The roots of $32x^6-48x^4+18x^2-1=0$ are $\\pm\\cos\\frac\\pi{12},\\pm\\cos\\frac\\pi4,\\pm\\cos\\frac{5\\pi}{12}$. Show that $\\cos\\frac\\pi{12}\\cos\\frac{5\\pi}{12}=\\frac14$.",
+   "answer": "Product of roots: $-\\cos^2\\frac\\pi{12}\\cos^2\\frac\\pi4\\cos^2\\frac{5\\pi}{12}=-\\frac1{32}$. As $\\cos^2\\frac\\pi4=\\frac12$, $\\cos^2\\frac\\pi{12}\\cos^2\\frac{5\\pi}{12}=\\frac1{16}$. Both cosines are positive, so $\\cos\\frac\\pi{12}\\cos\\frac{5\\pi}{12}=\\frac14$."
+  },
+  {
+   "ref": "Q14(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "It is given that $\\cos6\\theta=32\\cos^6\\theta-48\\cos^4\\theta+18\\cos^2\\theta-1$. The roots of $32x^6-48x^4+18x^2-1=0$ are $\\pm\\cos\\frac\\pi{12},\\pm\\cos\\frac\\pi4,\\pm\\cos\\frac{5\\pi}{12}$. Show that $\\cos^2\\frac\\pi{12}+\\cos^2\\frac{5\\pi}{12}=1$.",
+   "answer": "With $y=x^2$, $32y^3-48y^2+18y-1=0$ has roots $\\cos^2\\frac\\pi{12},\\frac12,\\cos^2\\frac{5\\pi}{12}$. Their sum is $\\frac{48}{32}=\\frac32$, so $\\cos^2\\frac\\pi{12}+\\cos^2\\frac{5\\pi}{12}=1$."
+  },
+  {
+   "ref": "Q14(c)(iv)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Given $\\cos\\frac\\pi{12}\\cos\\frac{5\\pi}{12}=\\frac14$ and $\\cos^2\\frac\\pi{12}+\\cos^2\\frac{5\\pi}{12}=1$, show that $\\cos\\frac\\pi{12}+\\cos\\frac{5\\pi}{12}=\\frac{\\sqrt6}2$.",
+   "answer": "$\\left(\\cos\\frac\\pi{12}+\\cos\\frac{5\\pi}{12}\\right)^2=1+2\\cdot\\frac14=\\frac32$. The sum is positive, so it equals $\\sqrt{\\frac32}=\\frac{\\sqrt6}2$."
+  },
+  {
+   "ref": "Q15(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.15",
+    "12.4.1.6"
+   ],
+   "question": "Using $\\int_0^af(x)\\,dx=\\int_0^af(a-x)\\,dx$, evaluate $\\displaystyle\\int_0^\\pi\\frac{x\\sin x}{1+\\cos^2x}\\,dx$.",
+   "answer": "$I=\\displaystyle\\int_0^\\pi\\frac{(\\pi-x)\\sin x}{1+\\cos^2x}dx$, so $2I=\\pi\\displaystyle\\int_0^\\pi\\frac{\\sin x}{1+\\cos^2x}dx$. With $u=\\cos x$: $2I=\\pi\\displaystyle\\int_{-1}^1\\frac{du}{1+u^2}=\\frac{\\pi^2}2$. So $I=\\dfrac{\\pi^2}4$."
+  },
+  {
+   "ref": "Q15(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.1"
+   ],
+   "question": "If $\\underset{\\sim}{a}=2\\underset{\\sim}{i}-\\underset{\\sim}{j}+3\\underset{\\sim}{k}$ and $\\underset{\\sim}{b}=-m\\underset{\\sim}{i}+\\underset{\\sim}{j}+2\\underset{\\sim}{k}$, find the value(s) of $m$ so that $\\underset{\\sim}{a}-\\underset{\\sim}{b}$ is perpendicular to $\\underset{\\sim}{b}$.",
+   "answer": "$\\underset{\\sim}{a}-\\underset{\\sim}{b}=(m+2,-2,1)$. $(\\underset{\\sim}{a}-\\underset{\\sim}{b})\\cdot\\underset{\\sim}{b}=-m(m+2)-2+2=0$, so $m=0$ or $m=-2$."
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "Prove that $\\sqrt3$ is irrational.",
+   "answer": "Suppose $\\sqrt3=\\frac pq$ with integers $p,q$ having no common factor. Then $p^2=3q^2$, so $3\\mid p$; let $p=3k$. Then $q^2=3k^2$, so $3\\mid q$, contradicting the assumption. Hence $\\sqrt3$ is irrational."
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.5",
+    "12.1.2.1"
+   ],
+   "question": "Given that $\\sqrt3$ is irrational, let $T_1=2$ and $T_n=\\sqrt{1+T_{n-1}}$ for $n\\ge2$. Use mathematical induction to prove that $T_n$ is irrational for all $n\\ge2$.",
+   "answer": "$T_2=\\sqrt3$ is irrational.\n\nAssume $T_k$ is irrational. Suppose $T_{k+1}=\\sqrt{1+T_k}$ is rational. Then $T_k=T_{k+1}^2-1$ is rational, a contradiction. So $T_{k+1}$ is irrational.\n\nBy induction $T_n$ is irrational for all $n\\ge2$."
+  },
+  {
+   "ref": "Q15(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "A car is initially at rest at $A$, 1 km to the right of a shop, and moves in a straight line towards the shop. For $x\\ne0$ its acceleration is $-\\dfrac{k}{x^2}$, where $x$ is its distance (km) from the shop and $k>0$. Prove that $\\dfrac{dx}{dt}=-\\sqrt{\\dfrac{2k(1-x)}{x}}$.",
+   "answer": "$\\frac{d}{dx}\\left(\\frac12v^2\\right)=-\\frac k{x^2}$, so $\\frac12v^2=\\frac kx+C$. $v=0$ at $x=1$ gives $C=-k$, so $v^2=\\frac{2k(1-x)}x$. The car moves left, so $v=\\frac{dx}{dt}$ takes the negative root."
+  },
+  {
+   "ref": "Q15(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.4.1.6"
+   ],
+   "question": "A car is initially at rest at $A$, 1 km to the right of a shop, and moves in a straight line towards the shop. For $x\\ne0$ its acceleration is $-\\dfrac{k}{x^2}$, where $x$ is its distance (km) from the shop and $k>0$. Given $\\dfrac{dx}{dt}=-\\sqrt{\\dfrac{2k(1-x)}{x}}$, use $x=\\cos^2\\theta$ to show that the time to reach a distance $D$ km from the shop is $t=\\sqrt{\\dfrac2k}\\displaystyle\\int_0^{\\cos^{-1}\\sqrt D}\\cos^2\\theta\\,d\\theta$.",
+   "answer": "$t=-\\dfrac1{\\sqrt{2k}}\\displaystyle\\int_1^D\\sqrt{\\frac x{1-x}}dx$. With $x=\\cos^2\\theta$, $dx=-2\\cos\\theta\\sin\\theta\\,d\\theta$ and $\\sqrt{\\frac x{1-x}}=\\frac{\\cos\\theta}{\\sin\\theta}$; limits $0$ to $\\cos^{-1}\\sqrt D$. So $t=\\dfrac{2}{\\sqrt{2k}}\\displaystyle\\int_0^{\\cos^{-1}\\sqrt D}\\cos^2\\theta\\,d\\theta=\\sqrt{\\frac2k}\\int_0^{\\cos^{-1}\\sqrt D}\\cos^2\\theta\\,d\\theta$."
+  },
+  {
+   "ref": "Q15(d)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.11"
+   ],
+   "question": "Given $t=\\sqrt{\\dfrac2k}\\displaystyle\\int_0^{\\cos^{-1}\\sqrt D}\\cos^2\\theta\\,d\\theta$ with $k>0$ and $0<D\\le1$, show that $t=\\sqrt{\\dfrac1{2k}}\\left(\\sqrt{D-D^2}+\\cos^{-1}\\sqrt D\\right)$.",
+   "answer": "$\\cos^2\\theta=\\frac12(1+\\cos2\\theta)$, so $t=\\sqrt{\\frac2k}\\left[\\frac\\theta2+\\frac{\\sin\\theta\\cos\\theta}2\\right]_0^{\\cos^{-1}\\sqrt D}$. There $\\cos\\theta=\\sqrt D$ and $\\sin\\theta=\\sqrt{1-D}$, so $t=\\sqrt{\\frac1{2k}}\\left(\\cos^{-1}\\sqrt D+\\sqrt{D-D^2}\\right)$."
+  },
+  {
+   "ref": "Q16(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.10"
+   ],
+   "question": "The tide at a harbour can be modelled by simple harmonic motion. High tide is 12 m and low tide is 2 m, and it takes 4 hours to go from low tide to high tide. It is low tide at 2 am. Let $t$ be hours since 2 am. Show that the depth is $x=7-5\\cos\\left(\\dfrac{\\pi t}4\\right)$.",
+   "answer": "Centre $\\frac{12+2}2=7$, amplitude $5$. Period $8$ h, so $n=\\frac\\pi4$. Starting at the minimum when $t=0$: $x=7-5\\cos\\frac{\\pi t}4$."
+  },
+  {
+   "ref": "Q16(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.10"
+   ],
+   "question": "The tide at a harbour can be modelled by simple harmonic motion. High tide is 12 m and low tide is 2 m, and it takes 4 hours to go from low tide to high tide. It is low tide at 2 am. Let $t$ be hours since 2 am. The depth is $x=7-5\\cos\\frac{\\pi t}4$. A ship needs at least 5 m of water to enter the harbour. Find the earliest time it may enter.",
+   "answer": "$7-5\\cos\\frac{\\pi t}4=5$ gives $\\cos\\frac{\\pi t}4=\\frac25$, so $t=\\frac4\\pi\\cos^{-1}0.4\\approx1.476$ h $\\approx1$ h 29 min. Earliest time: about 3:29 am."
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Find real numbers $a,b,c$ such that $\\dfrac{5-5x^2}{(1+2x)(1+x^2)}\\equiv\\dfrac a{1+2x}+\\dfrac{bx+c}{1+x^2}$.",
+   "answer": "$5-5x^2=a(1+x^2)+(bx+c)(1+2x)$. $x=-\\frac12$: $a=3$. $x=0$: $c=2$. $x=1$: $b=-4$."
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.8"
+   ],
+   "question": "Given $\\dfrac{5-5x^2}{(1+2x)(1+x^2)}=\\dfrac3{1+2x}+\\dfrac{2-4x}{1+x^2}$, show that $\\displaystyle\\int_0^1\\frac{5-5x^2}{(1+2x)(1+x^2)}dx=\\frac12\\left(\\pi+\\ln\\frac{27}{16}\\right)$.",
+   "answer": "$\\left[\\frac32\\ln(1+2x)-2\\ln(1+x^2)+2\\tan^{-1}x\\right]_0^1=\\frac32\\ln3-2\\ln2+\\frac\\pi2=\\frac12\\left(\\pi+\\ln\\frac{27}{16}\\right)$."
+  },
+  {
+   "ref": "Q16(b)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.5"
+   ],
+   "question": "Given $\\displaystyle\\int_0^1\\frac{5-5x^2}{(1+2x)(1+x^2)}dx=\\frac12\\left(\\pi+\\ln\\frac{27}{16}\\right)$, use $t=\\tan x$ to evaluate $\\displaystyle\\int_0^{\\pi/4}\\frac{\\cos2x}{1+2\\sin2x+\\cos2x}\\,dx$.",
+   "answer": "$\\cos2x=\\frac{1-t^2}{1+t^2}$, $\\sin2x=\\frac{2t}{1+t^2}$, $dx=\\frac{dt}{1+t^2}$. The integral becomes $\\displaystyle\\int_0^1\\frac{1-t^2}{(2+4t)(1+t^2)}dt=\\frac1{10}\\int_0^1\\frac{5-5t^2}{(1+2t)(1+t^2)}dt=\\frac1{20}\\left(\\pi+\\ln\\frac{27}{16}\\right)$."
+  }
+ ]
+}
