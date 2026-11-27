@@ -1,0 +1,502 @@
+{
+ "id": "ext1-2024-riverview",
+ "course": "extension1",
+ "school": "Riverview",
+ "year": 2024,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "Riverview 2024 w. sol"
+ },
+ "indexed": "2026-11-28",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.3"
+   ],
+   "question": "How many integer solutions does $\\dfrac{1}{|x-2|}>\\dfrac14$ have?",
+   "options": [
+    "7",
+    "6",
+    "5",
+    "4"
+   ],
+   "correct": 1,
+   "answer": "**1.** $0<|x-2|<4$ gives $x=-1,0,1,3,4,5$: six integers. (The school's answer key gives 7, which wrongly counts $x=2$.)"
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.2.3.4"
+   ],
+   "question": "For $3x^3+2x^2-x+5=0$, what is the sum of the reciprocals of the roots?",
+   "options": [
+    "$\\frac15$",
+    "$\\frac25$",
+    "$\\frac52$",
+    "$-5$"
+   ],
+   "correct": 0,
+   "answer": "**0.** $\\dfrac{\\sum\\alpha\\beta}{\\alpha\\beta\\gamma}=\\dfrac{-1/3}{-5/3}=\\dfrac15$."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.3",
+    "11.3.3.2"
+   ],
+   "question": "What is the maximum value of $15\\sin\\theta-8\\cos\\theta+2$?",
+   "options": [
+    "9",
+    "17",
+    "19",
+    "23"
+   ],
+   "correct": 2,
+   "answer": "**2.** The amplitude is $\\sqrt{15^2+8^2}=17$, so the maximum is 19."
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.3.3"
+   ],
+   "question": "Find the Cartesian equation of the curve $x=4-t$, $y=3t^3$.",
+   "options": [
+    "$y=64-48x+12x^2-x^3$",
+    "$y=64+48x+12x^2+x^3$",
+    "$y=192+144x+36x^2-3x^3$",
+    "$y=192-144x+36x^2-3x^3$"
+   ],
+   "correct": 3,
+   "answer": "**3.** $y=3(4-x)^3=192-144x+36x^2-3x^3$."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.1"
+   ],
+   "question": "A particle is initially at $x=-1$ and has velocity $v=\\dfrac{1}{t+e}$. Which is true when it is at the origin?",
+   "options": [
+    "$t=e^{-1}$, $v=1$",
+    "$t=1$, $v=e^{-1}$",
+    "$t=e^{-2}$, $v=-1$",
+    "$t=e^2-e$, $v=e^{-2}$"
+   ],
+   "correct": 3,
+   "answer": "**3.** $x=\\ln(t+e)-2$, so $x=0$ when $t+e=e^2$, where $v=e^{-2}$."
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.12"
+   ],
+   "question": "What are the domain and range of $y=4\\cos^{-1}\\dfrac{3x}{2}$?",
+   "options": [
+    "$-\\frac23\\le x\\le\\frac23$, $-4\\pi\\le y\\le4\\pi$",
+    "$-\\frac32\\le x\\le\\frac32$, $-4\\pi\\le y\\le4\\pi$",
+    "$-\\frac23\\le x\\le\\frac23$, $0\\le y\\le4\\pi$",
+    "$-\\frac23\\le x\\le\\frac23$, $0\\le y\\le4$"
+   ],
+   "correct": 2,
+   "answer": "**2.** $-1\\le\\frac{3x}2\\le1$ and $0\\le\\cos^{-1}\\le\\pi$."
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "The angle between the vectors $\\begin{pmatrix}2\\\\3\\end{pmatrix}$ and $\\begin{pmatrix}-1\\\\2\\end{pmatrix}$ is approximately",
+   "options": [
+    "$\\cos^{-1}(0.5)$",
+    "$\\cos^{-1}(-0.5)$",
+    "$\\cos^{-1}(1)$",
+    "$\\cos^{-1}(-1)$"
+   ],
+   "correct": 0,
+   "answer": "**0.** $\\cos\\theta=\\dfrac{4}{\\sqrt{13}\\sqrt5}\\approx0.496$."
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.6"
+   ],
+   "question": "$X,Y,Z$ are collinear points with position vectors $\\underset{\\sim}{x},\\underset{\\sim}{y},\\underset{\\sim}{z}$, with $Y$ between $X$ and $Z$ and $|\\overrightarrow{YZ}|=\\frac12|\\overrightarrow{XY}|$. Which equals $\\underset{\\sim}{z}$?",
+   "options": [
+    "$\\frac12\\underset{\\sim}{x}-\\frac32\\underset{\\sim}{y}$",
+    "$\\frac32\\underset{\\sim}{x}-\\frac12\\underset{\\sim}{y}$",
+    "$\\frac32\\underset{\\sim}{y}-\\frac32\\underset{\\sim}{x}$",
+    "$\\frac32\\underset{\\sim}{y}-\\frac12\\underset{\\sim}{x}$"
+   ],
+   "correct": 3,
+   "answer": "**3.** $\\underset{\\sim}{z}=\\underset{\\sim}{y}+\\tfrac12(\\underset{\\sim}{y}-\\underset{\\sim}{x})$."
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7",
+    "12.4.1.6"
+   ],
+   "question": "What is the derivative of $y=x^2\\sin^{-1}(2x)$?",
+   "options": [
+    "$2x\\sin^{-1}2x+\\dfrac{2x^2}{\\sqrt{1-4x^2}}$",
+    "$2x\\sin^{-1}2x+\\dfrac{x^2}{\\sqrt{1-4x^2}}$",
+    "$2x\\sin^{-1}2x+\\dfrac{2x^2}{\\sqrt{1-2x^2}}$",
+    "$2x\\sin^{-1}2x+\\dfrac{x^2}{\\sqrt{1-2x^2}}$"
+   ],
+   "correct": 0,
+   "answer": "**0.** Product rule with $\\dfrac{d}{dx}\\sin^{-1}2x=\\dfrac{2}{\\sqrt{1-4x^2}}$."
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.9",
+    "12.5.4.4"
+   ],
+   "question": "A slope field is drawn for $\\dfrac{dy}{dx}=2x+\\dfrac yx$. Which of diagrams A–D shows the correct slope lines at $P(1,1)$ and $Q(-1,-1)$?",
+   "options": [
+    "Diagram A",
+    "Diagram B",
+    "Diagram C",
+    "Diagram D"
+   ],
+   "correct": 1,
+   "answer": "**1.** The slope at $P$ is $3$ (positive) and at $Q$ is $-1$ (negative).",
+   "images": [
+    "assets/img/ext1-2024-riverview/q10ab.png",
+    "assets/img/ext1-2024-riverview/q10cd.png"
+   ]
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.4.3"
+   ],
+   "question": "Solve $|1-2x|\\ge15$.",
+   "answer": "$1-2x\\ge15$ or $1-2x\\le-15$, so $x\\le-7$ or $x\\ge8$."
+  },
+  {
+   "ref": "Q11(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.3"
+   ],
+   "question": "Using the velocity–time graph shown, find the acceleration during the first 10 seconds.",
+   "answer": "Gradient $=\\dfrac{10}{10}=1$ m s$^{-2}$.",
+   "images": [
+    "assets/img/ext1-2024-riverview/q11b.png"
+   ]
+  },
+  {
+   "ref": "Q11(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.3"
+   ],
+   "question": "Using the velocity–time graph shown (the velocity at $t=30$ is $15$ m/s below the axis), find the total distance travelled in the first 30 seconds.",
+   "answer": "Areas: $50+100+20+\\tfrac12(6)(15)=45$, giving $215$ m.",
+   "images": [
+    "assets/img/ext1-2024-riverview/q11b.png"
+   ]
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.2",
+    "12.4.2.1"
+   ],
+   "question": "Use the substitution $u=e^{2x}$ to find $\\displaystyle\\int\\frac{e^{2x}}{9+e^{4x}}\\,dx$.",
+   "answer": "$du=2e^{2x}dx$: $\\displaystyle\\frac12\\int\\frac{du}{9+u^2}=\\frac16\\tan^{-1}\\frac{e^{2x}}{3}+C$."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "Water is poured into a container at $8$ cm$^3$/s. The volume of water at depth $h$ cm is $V=\\frac32(h^2+8h)$ cm$^3$. Find the rate of change of the depth when $V=72$ cm$^3$.",
+   "answer": "$h^2+8h=48$ gives $h=4$. $\\dfrac{dV}{dh}=3h+12=24$, so $\\dfrac{dh}{dt}=\\dfrac{8}{24}=\\dfrac13$ cm/s."
+  },
+  {
+   "ref": "Q11(e)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.2"
+   ],
+   "question": "Express $\\cos x-\\sqrt3\\sin x$ in the form $R\\cos(x+\\alpha)$ with $R>0$ and $0\\le\\alpha\\le2\\pi$.",
+   "answer": "$R=2$, $\\cos\\alpha=\\frac12$, $\\sin\\alpha=\\frac{\\sqrt3}2$, so $2\\cos\\left(x+\\frac\\pi3\\right)$."
+  },
+  {
+   "ref": "Q11(e)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.3",
+    "11.3.3.4"
+   ],
+   "question": "Find the coordinates of the points where $y=\\cos x-\\sqrt3\\sin x$ meets the $x$ and $y$ axes, for $0\\le x\\le2\\pi$.",
+   "answer": "$y=2\\cos(x+\\frac\\pi3)$. $y$-intercept $(0,1)$. $x$-intercepts: $x+\\frac\\pi3=\\frac\\pi2,\\frac{3\\pi}2$, giving $\\left(\\frac\\pi6,0\\right)$ and $\\left(\\frac{7\\pi}6,0\\right)$."
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.4",
+    "11.3.2.2"
+   ],
+   "question": "Prove that $\\dfrac{\\sin3x}{\\sin x}-\\dfrac{\\cos3x}{\\cos x}=2$.",
+   "answer": "LHS $=\\dfrac{\\sin3x\\cos x-\\cos3x\\sin x}{\\sin x\\cos x}=\\dfrac{\\sin2x}{\\sin x\\cos x}=2$."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2",
+    "12.4.2.3"
+   ],
+   "question": "Use the substitution $x=2\\sin\\theta$ to find the exact value of $\\displaystyle\\int_0^1\\sqrt{4-x^2}\\,dx$.",
+   "answer": "$\\displaystyle\\int_0^{\\pi/6}4\\cos^2\\theta\\,d\\theta=\\big[2\\theta+\\sin2\\theta\\big]_0^{\\pi/6}=\\frac\\pi3+\\frac{\\sqrt3}{2}$."
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.7",
+    "11.3.3.1"
+   ],
+   "question": "The vectors $\\underset{\\sim}{u}=\\begin{pmatrix}3\\\\\\sin2\\alpha\\end{pmatrix}$ and $\\underset{\\sim}{v}=\\begin{pmatrix}\\cos\\alpha\\\\-3\\end{pmatrix}$, where $0<\\alpha<\\pi$, are perpendicular. Find the possible values of $\\alpha$.",
+   "answer": "$3\\cos\\alpha-3\\sin2\\alpha=0$, so $\\cos\\alpha(1-2\\sin\\alpha)=0$: $\\alpha=\\dfrac\\pi6,\\dfrac\\pi2,\\dfrac{5\\pi}6$."
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.1"
+   ],
+   "question": "Let $P(x)=x^5-6x^3-8x^2-3x$. Show that $x=-1$ is a root of multiplicity three.",
+   "answer": "$P(-1)=0$; $P'(x)=5x^4-18x^2-16x-3$ gives $P'(-1)=0$; $P''(x)=20x^3-36x-16$ gives $P''(-1)=0$; $P'''(x)=60x^2-36$ gives $P'''(-1)=24\\ne0$. So the multiplicity is exactly three."
+  },
+  {
+   "ref": "Q12(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.5"
+   ],
+   "question": "$ABCD$ is a parallelogram with $\\overrightarrow{AB}=\\underset{\\sim}{p}$ and $\\overrightarrow{AD}=\\underset{\\sim}{q}$. Prove using vectors that the sum of the squares of the lengths of the diagonals equals the sum of the squares of the lengths of the four sides.",
+   "answer": "Diagonals: $\\underset{\\sim}{p}+\\underset{\\sim}{q}$ and $\\underset{\\sim}{q}-\\underset{\\sim}{p}$.\n$$|\\underset{\\sim}{p}+\\underset{\\sim}{q}|^2+|\\underset{\\sim}{q}-\\underset{\\sim}{p}|^2=2|\\underset{\\sim}{p}|^2+2|\\underset{\\sim}{q}|^2$$\n(the $\\pm2\\underset{\\sim}{p}\\cdot\\underset{\\sim}{q}$ terms cancel), which is the sum of the squares of the four sides.",
+   "images": [
+    "assets/img/ext1-2024-riverview/q12e.png"
+   ]
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.2"
+   ],
+   "question": "Show that $\\sin(x-y)\\sin(x+y)=\\sin^2x-\\sin^2y$.",
+   "answer": "$(\\sin x\\cos y-\\cos x\\sin y)(\\sin x\\cos y+\\cos x\\sin y)=\\sin^2x\\cos^2y-\\cos^2x\\sin^2y$. Using $\\cos^2=1-\\sin^2$ this is $\\sin^2x-\\sin^2y$."
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.3.3.1"
+   ],
+   "question": "Using $\\sin(x-y)\\sin(x+y)=\\sin^2x-\\sin^2y$, or otherwise, solve $\\sin^23x-\\sin^2x=\\sin4x$ for $x\\in[0,\\pi]$.",
+   "answer": "LHS $=\\sin2x\\sin4x$, so $\\sin4x(\\sin2x-1)=0$. Hence $x=0,\\dfrac\\pi4,\\dfrac\\pi2,\\dfrac{3\\pi}4,\\pi$."
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.1.1.1"
+   ],
+   "question": "Sketch the graph of $y=f(x)=x^2-1$.",
+   "answer": "A parabola with vertex $(0,-1)$ and $x$-intercepts $\\pm1$ (see graph).",
+   "answer_images": [
+    "assets/img/ext1-2024-riverview/a13bi.png"
+   ]
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.1"
+   ],
+   "question": "Sketch the graph of $y=\\dfrac{1}{x^2-1}+2$, clearly identifying asymptotes and intercepts (you may use the graph of $y=x^2-1$).",
+   "answer": "Asymptotes $x=\\pm1$ and $y=2$; $y$-intercept $(0,1)$ (a local maximum); $x$-intercepts $\\pm\\dfrac{1}{\\sqrt2}$ (see graph).",
+   "answer_images": [
+    "assets/img/ext1-2024-riverview/a13bii.png"
+   ]
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.5"
+   ],
+   "question": "Given $|\\underset{\\sim}{p}|=3$, $|\\underset{\\sim}{q}|=5$ and $\\underset{\\sim}{p}\\cdot\\underset{\\sim}{q}=6$, calculate $|2\\underset{\\sim}{p}-3\\underset{\\sim}{q}|$.",
+   "answer": "$|2\\underset{\\sim}{p}-3\\underset{\\sim}{q}|^2=4(9)-12(6)+9(25)=189$, so the length is $3\\sqrt{21}$."
+  },
+  {
+   "ref": "Q13(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Let $f(x)=\\ln\\left(\\dfrac{2x}{3}\\right)$. Show that the normal to $y=f(x)$ at $x=\\dfrac{3e^2}{2}$ is $y=-\\dfrac{3e^2x}{2}+\\dfrac{9e^4}{4}+2$.",
+   "answer": "The point is $\\left(\\frac{3e^2}2,2\\right)$ and $f'(x)=\\frac1x=\\frac{2}{3e^2}$, so the normal has gradient $-\\frac{3e^2}2$: $y-2=-\\frac{3e^2}{2}\\left(x-\\frac{3e^2}2\\right)$, which gives the result."
+  },
+  {
+   "ref": "Q13(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "Find the exact area enclosed by $y=\\ln\\left(\\dfrac{2x}3\\right)$, the line $y=-\\dfrac{3e^2x}{2}+\\dfrac{9e^4}4+2$ and the $x$-axis.",
+   "answer": "The curve meets the axis at $x=\\frac32$, the line at $x=\\frac{3e^2}2+\\frac{4}{3e^2}$, and they meet at $\\left(\\frac{3e^2}2,2\\right)$.\nUnder the curve: $\\left[x\\ln\\frac{2x}3-x\\right]_{3/2}^{3e^2/2}=\\frac{3e^2}{2}+\\frac32$.\nTriangle: $\\frac12\\cdot\\frac{4}{3e^2}\\cdot2=\\frac{4}{3e^2}$.\nArea $=\\dfrac{3e^2}{2}+\\dfrac32+\\dfrac{4}{3e^2}$ units$^2$.",
+   "images": [
+    "assets/img/ext1-2024-riverview/q13d.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Show that $\\dfrac{d}{dx}(\\tan^3x)=3\\sec^4x-3\\sec^2x$.",
+   "answer": "$3\\tan^2x\\sec^2x=3(\\sec^2x-1)\\sec^2x$."
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Using $\\dfrac{d}{dx}(\\tan^3x)=3\\sec^4x-3\\sec^2x$, or otherwise, evaluate $\\displaystyle\\int_0^{\\pi/4}\\sec^4x\\,dx$.",
+   "answer": "$\\displaystyle\\int_0^{\\pi/4}\\sec^4x\\,dx=\\left[\\tfrac13\\tan^3x+\\tan x\\right]_0^{\\pi/4}=\\frac43$."
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Prove by mathematical induction that for all integers $n\\ge1$: $\\dfrac12+\\dfrac{2}{2^2}+\\dfrac{3}{2^3}+\\dots+\\dfrac{n}{2^n}=2-\\dfrac{n+2}{2^n}$.",
+   "answer": "$n=1$: LHS $=\\frac12=2-\\frac32$. Assume true for $n=k$. Then the sum to $k+1$ is $2-\\dfrac{k+2}{2^k}+\\dfrac{k+1}{2^{k+1}}=2-\\dfrac{2k+4-k-1}{2^{k+1}}=2-\\dfrac{(k+1)+2}{2^{k+1}}$. So it holds for all $n\\ge1$."
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.11"
+   ],
+   "question": "Given $\\dfrac{dy}{dx}=\\dfrac14(y-1)^2$ and $y(0)=0$, what is the value of $x$ when $y=2$?",
+   "answer": "$\\dfrac{dx}{dy}=4(y-1)^{-2}$, so $x=-\\dfrac{4}{y-1}+C$ with $C=-4$. At $y=2$, $x=-8$.\nNote: $x=-8$ is the intended answer, but strictly the solution curve through $(0,0)$ has $y<1$ for all $x>-4$; $y=2$ lies on the other branch of $x=-\\frac{4}{y-1}-4$, beyond the discontinuity at $x=-4$."
+  },
+  {
+   "ref": "Q14(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "Solve $\\dfrac{dy}{dx}=\\dfrac{2}{x^3e^y}$ given $y(1)=0$, expressing the answer as $y=f(x)$.",
+   "answer": "$\\displaystyle\\int e^y\\,dy=\\int2x^{-3}\\,dx$ gives $e^y=-x^{-2}+C$ with $C=2$. So $y=\\ln\\left(2-\\dfrac1{x^2}\\right)$."
+  },
+  {
+   "ref": "Q14(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.4.3",
+    "12.2.4.6"
+   ],
+   "question": "Let $\\underset{\\sim}{g}=|\\underset{\\sim}{e}|\\underset{\\sim}{f}+|\\underset{\\sim}{f}|\\underset{\\sim}{e}$, where $\\underset{\\sim}{e},\\underset{\\sim}{f},\\underset{\\sim}{g}$ are non-zero vectors. Show that $\\underset{\\sim}{g}$ bisects the angle between $\\underset{\\sim}{e}$ and $\\underset{\\sim}{f}$.",
+   "answer": "Let $\\alpha,\\beta$ be the angles from $\\underset{\\sim}{g}$ to $\\underset{\\sim}{e}$ and $\\underset{\\sim}{f}$.\n$$\\cos\\alpha=\\frac{\\underset{\\sim}{g}\\cdot\\underset{\\sim}{e}}{|\\underset{\\sim}{g}||\\underset{\\sim}{e}|}=\\frac{\\underset{\\sim}{e}\\cdot\\underset{\\sim}{f}+|\\underset{\\sim}{e}||\\underset{\\sim}{f}|}{|\\underset{\\sim}{g}|},$$\nand $\\cos\\beta$ simplifies to the same expression. As both angles are in $[0,\\pi]$, $\\alpha=\\beta$."
+  }
+ ]
+}
