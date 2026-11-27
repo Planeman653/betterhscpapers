@@ -1,0 +1,676 @@
+{
+ "id": "ext2-2024-normanhurst-boys",
+ "course": "extension2",
+ "school": "Normanhurst Boys",
+ "year": 2024,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "Normanhurst Boys 2024 w. sol"
+ },
+ "indexed": "2026-11-28",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.3.4",
+    "12.3.3.2"
+   ],
+   "question": "The polynomial $P(z)$ has real coefficients, and $z=2+i$ is a root of $P(z)$.\n\nWhich quadratic polynomial must be a factor of $P(z)$?",
+   "options": [
+    "$z^2-4z+5$",
+    "$z^2+4z+5$",
+    "$z^2-4z+3$",
+    "$z^2+4z+3$"
+   ],
+   "correct": "A",
+   "answer": "**A.** Real coefficients, so $2-i$ is also a root. Sum of roots $=4$, product $=5$, giving $z^2-4z+5$."
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "A particle starts from rest and moves so that its acceleration $a\\ \\text{m s}^{-2}$ is given by $a=1+v$, where $v\\ \\text{m s}^{-1}$ is its velocity after $t$ seconds.\n\nWhat is the velocity of the particle after $\\log_e(e+1)$ seconds?",
+   "options": [
+    "$e$",
+    "$e+1$",
+    "$e^2+1$",
+    "$\\log_e(1+e)+1$"
+   ],
+   "correct": "A",
+   "answer": "**A.** $\\dfrac{dv}{dt}=1+v$ with $v(0)=0$ gives $v=e^t-1$. At $t=\\ln(e+1)$, $v=e$."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.1",
+    "12.2.2.2"
+   ],
+   "question": "It is given that $\\mathbf{a}=\\mathbf{i}+\\mathbf{j}$, $\\mathbf{b}=\\mathbf{i}-\\mathbf{j}$ and $\\mathbf{c}=\\mathbf{i}+2\\mathbf{j}+3\\mathbf{k}$.\n\nIf $\\mathbf{v}$ is a unit vector such that $\\mathbf{a}\\cdot\\mathbf{v}=0$ and $\\mathbf{b}\\cdot\\mathbf{v}=0$, which of the following is equal to $|\\mathbf{c}\\cdot\\mathbf{v}|$?",
+   "options": [
+    "$0$",
+    "$1$",
+    "$2$",
+    "$3$"
+   ],
+   "correct": "D",
+   "answer": "**D.** $x+y=0$ and $x-y=0$ force $x=y=0$, so $\\mathbf{v}=\\pm\\mathbf{k}$ and $|\\mathbf{c}\\cdot\\mathbf{v}|=3$."
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.1",
+    "12.2.2.5"
+   ],
+   "question": "Given $\\mathbf{a}$ and $\\mathbf{b}$ are unit vectors, and $\\mathbf{a}+\\mathbf{b}$ is also a unit vector, which of the following is $|\\mathbf{a}-\\mathbf{b}|$?",
+   "options": [
+    "$\\sqrt2$",
+    "$\\dfrac{1}{\\sqrt2}$",
+    "$\\sqrt3$",
+    "$\\dfrac{1}{\\sqrt3}$"
+   ],
+   "correct": "C",
+   "answer": "**C.** $|\\mathbf{a}+\\mathbf{b}|^2+|\\mathbf{a}-\\mathbf{b}|^2=2|\\mathbf{a}|^2+2|\\mathbf{b}|^2=4$, so $|\\mathbf{a}-\\mathbf{b}|^2=3$."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.11",
+    "12.1.1.7"
+   ],
+   "question": "Consider the statement: *If I have solar panels on my rooftop and use public transport, then I am reducing my carbon emissions.*\n\nWhich of the following is the contrapositive of the statement?",
+   "options": [
+    "If I am reducing my carbon emissions, then I have solar panels on my rooftop and take public transport.",
+    "If I am not reducing my carbon emissions, then I do not have solar panels on my rooftop or I do not use public transport.",
+    "If I am reducing my carbon emissions, then I do not have solar panels on my rooftop and I do not use public transport.",
+    "If I am not reducing my carbon emissions, then I do not have solar panels on my rooftop but use public transport."
+   ],
+   "correct": "B",
+   "answer": "**B.** The contrapositive of $(P\\wedge Q)\\Rightarrow R$ is $\\neg R\\Rightarrow(\\neg P\\vee\\neg Q)$."
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.11"
+   ],
+   "question": "Consider the complex numbers $z=\\cos^2\\theta+i\\sin^2\\theta$ with $\\theta\\in\\left[0,\\dfrac{\\pi}{2}\\right]$.\n\nWhat is the range of possible values of $|z|$?",
+   "options": [
+    "$[0,1]$",
+    "$\\left[\\dfrac{1}{\\sqrt2},1\\right]$",
+    "$\\left[\\dfrac12,1\\right]$",
+    "$\\left[\\dfrac14,1\\right]$"
+   ],
+   "correct": "B",
+   "answer": "**B.** With $c=\\cos^2\\theta$, $|z|^2=c^2+(1-c)^2$ for $c\\in[0,1]$, which ranges from $\\frac12$ to $1$. So $\\frac1{\\sqrt2}\\le|z|\\le1$."
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.5.5",
+    "12.3.5.4"
+   ],
+   "question": "If $z=x+iy$, where $x,y\\in\\mathbb{R}$, which of the following does **not** intersect the graph given by $|z-5|=2$?",
+   "options": [
+    "$\\operatorname{Arg}(z-3)=\\dfrac{\\pi}{2}$",
+    "$\\operatorname{Im}(z)=2$",
+    "$2\\operatorname{Re}(z)+3\\operatorname{Im}(z)=6$",
+    "$|z-5-5i|=4$"
+   ],
+   "correct": "A",
+   "answer": "**A.** $\\operatorname{Arg}(z-3)=\\frac\\pi2$ is a vertical ray starting at $3$ but excluding that point, which is the only point of the line $x=3$ on the circle. (B is a tangent, C and D cut the circle.)"
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.11"
+   ],
+   "question": "Which of the following is an expression for $\\displaystyle\\int\\cos^3x\\,dx$?",
+   "options": [
+    "$\\sin x\\cos^2x+\\dfrac13\\sin^3x+C$",
+    "$\\sin x\\cos^2x-\\dfrac13\\sin^3x+C$",
+    "$\\sin x+\\dfrac13\\sin^3x+C$",
+    "$\\sin x-\\dfrac13\\sin^3x+C$"
+   ],
+   "correct": "D",
+   "answer": "**D.** $\\int(1-\\sin^2x)\\cos x\\,dx=\\sin x-\\frac13\\sin^3x+C$."
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6",
+    "12.4.1.8"
+   ],
+   "question": "What does $\\displaystyle\\int_0^{\\ln2}\\frac{1}{e^x+1}\\,dx$ transform into by using the substitution $u=e^x+1$?",
+   "options": [
+    "$\\displaystyle\\int_2^3\\left(\\frac1u-\\frac1{u-1}\\right)du$",
+    "$\\displaystyle\\int_2^3\\left(\\frac1{u-1}-\\frac1u\\right)du$",
+    "$\\displaystyle\\int_1^3\\left(\\frac1u-\\frac1{u-1}\\right)du$",
+    "$\\displaystyle\\int_2^{e^2+1}\\left(\\frac1{u-1}-\\frac1u\\right)du$"
+   ],
+   "correct": "B",
+   "answer": "**B.** $dx=\\dfrac{du}{u-1}$, limits $2$ to $3$, and $\\dfrac{1}{u(u-1)}=\\dfrac1{u-1}-\\dfrac1u$."
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.9",
+    "12.5.2.8"
+   ],
+   "question": "A particle is moving in simple harmonic motion. Its displacement $x$ and velocity $v$ satisfy $v^2=n^2(2kx-x^2)$, where $n$ and $k$ are positive constants. The particle is initially at $x=k$.\n\nWhich function of time $t$ could represent the motion of the particle?",
+   "options": [
+    "$x=k\\cos(nt)$",
+    "$x=k\\sin(nt)+k$",
+    "$x=2k\\cos(nt)-k$",
+    "$x=2k\\sin(nt)+k$"
+   ],
+   "correct": "B",
+   "answer": "**B.** $v^2=n^2\\left(k^2-(x-k)^2\\right)$: centre $k$, amplitude $k$, starting at the centre."
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.14"
+   ],
+   "question": "Find the square roots of $3+4i$.",
+   "answer": "Let $(x+iy)^2=3+4i$ with $x,y$ real. Equating parts: $x^2-y^2=3$ and $2xy=4$.\n\nSubstituting $y=\\dfrac2x$: $x^4-3x^2-4=0\\Rightarrow(x^2-4)(x^2+1)=0$, so $x=\\pm2$ and $y=\\pm1$.\n\nThe square roots are $\\pm(2+i)$."
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.1"
+   ],
+   "question": "Using the square roots of $3+4i$, or otherwise, solve $z^2+iz-1-i=0$.",
+   "answer": "$$z=\\frac{-i\\pm\\sqrt{i^2+4(1+i)}}{2}=\\frac{-i\\pm\\sqrt{3+4i}}{2}=\\frac{-i\\pm(2+i)}{2}$$\n\nso $z=1$ or $z=-1-i$."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.5.5"
+   ],
+   "question": "Shade the region on the Argand diagram where the following inequalities hold simultaneously:\n\n$$|z-2-2i|\\le2,\\qquad|\\operatorname{Im}(z-2i)|\\ge1$$",
+   "answer": "$|z-(2+2i)|\\le2$ is the closed disc with centre $2+2i$ and radius $2$.\n\nWith $z=x+iy$, $|\\operatorname{Im}(z-2i)|=|y-2|\\ge1$ gives $y\\ge3$ or $y\\le1$.\n\nThe region is the two caps of the disc above $y=3$ and below $y=1$, boundaries included.",
+   "answer_images": [
+    "assets/img/ext2-2024-normanhurst-boys/q11b-ans.png"
+   ]
+  },
+  {
+   "ref": "Q11(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.5",
+    "12.3.4.12"
+   ],
+   "question": "Let $\\omega$ be a non-real cube root of unity. Show that $1+\\omega+\\omega^2=0$.",
+   "answer": "$\\omega^3-1=0\\Rightarrow(\\omega-1)(\\omega^2+\\omega+1)=0$. Since $\\omega$ is non-real, $\\omega\\ne1$, so $1+\\omega+\\omega^2=0$."
+  },
+  {
+   "ref": "Q11(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.12"
+   ],
+   "question": "Let $\\omega$ be a non-real cube root of unity, so $1+\\omega+\\omega^2=0$. Show that $\\omega\\left(1+2\\omega+3\\omega^2\\right)^2=-3$.",
+   "answer": "Using $1=-\\omega-\\omega^2$:\n\n$$1+2\\omega+3\\omega^2=\\omega+2\\omega^2=\\omega(1+2\\omega)$$\n\n$$\\omega\\left(1+2\\omega+3\\omega^2\\right)^2=\\omega^3(1+2\\omega)^2=1+4\\omega+4\\omega^2=4(1+\\omega+\\omega^2)-3=-3$$"
+  },
+  {
+   "ref": "Q11(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.5"
+   ],
+   "question": "A particle moves in a straight line. Its displacement $x$ metres from the origin after $t$ seconds is $x=\\dfrac{1}{\\sqrt3}\\cos2t+\\sin2t-\\dfrac{1}{\\sqrt3}$. Prove that the particle is moving in simple harmonic motion centred at $x=-\\dfrac{1}{\\sqrt3}$.",
+   "answer": "$$\\ddot x=-\\frac{4}{\\sqrt3}\\cos2t-4\\sin2t=-4\\left(\\frac1{\\sqrt3}\\cos2t+\\sin2t\\right)=-2^2\\left(x+\\frac1{\\sqrt3}\\right)$$\n\nThis has the form $\\ddot x=-n^2(x-c)$ with $n=2$, $c=-\\dfrac1{\\sqrt3}$, so the motion is simple harmonic about $x=-\\dfrac1{\\sqrt3}$."
+  },
+  {
+   "ref": "Q11(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.10"
+   ],
+   "question": "A particle moves with displacement $x=\\dfrac{1}{\\sqrt3}\\cos2t+\\sin2t-\\dfrac{1}{\\sqrt3}$ metres after $t$ seconds. Find the first three times after $t=0$ at which the particle has a **speed** of $2\\ \\text{m s}^{-1}$.",
+   "answer": "By the auxiliary angle method, $x=\\dfrac2{\\sqrt3}\\cos\\left(2t-\\dfrac\\pi3\\right)-\\dfrac1{\\sqrt3}$, so $\\dot x=-\\dfrac4{\\sqrt3}\\sin\\left(2t-\\dfrac\\pi3\\right)$.\n\n$|\\dot x|=2$ gives $\\sin\\left(2t-\\dfrac\\pi3\\right)=\\pm\\dfrac{\\sqrt3}{2}$, so $2t-\\dfrac\\pi3=-\\dfrac\\pi3,\\ \\dfrac\\pi3,\\ \\dfrac{2\\pi}3,\\ \\dfrac{4\\pi}3,\\dots$\n\nThe first of these is $t=0$, so the first three times after it are $t=\\dfrac\\pi3,\\ \\dfrac\\pi2,\\ \\dfrac{5\\pi}6$ seconds."
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.9",
+    "12.3.4.11"
+   ],
+   "question": "Let $z_1=\\cos\\alpha+i\\sin\\alpha$ and $z_2=\\cos\\beta+i\\sin\\beta$ where $0<\\alpha<\\beta<\\dfrac\\pi2$. The numbers $z_1$, $z_2$ and $z_1+z_2$ are represented by the points $A$, $B$ and $C$ on the Argand diagram, and $OC$ meets $AB$ at $M$. Let $z_1+z_2=r(\\cos\\theta+i\\sin\\theta)$.\n\nGive a brief reason why $OACB$ is a rhombus.",
+   "answer": "By vector addition $OACB$ is a parallelogram, and its adjacent sides are equal since $|z_1|=|z_2|=1$. So it is a rhombus.",
+   "images": [
+    "assets/img/ext2-2024-normanhurst-boys/q12a.png"
+   ]
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.11"
+   ],
+   "question": "Let $z_1=\\cos\\alpha+i\\sin\\alpha$ and $z_2=\\cos\\beta+i\\sin\\beta$ where $0<\\alpha<\\beta<\\dfrac\\pi2$. The numbers $z_1$, $z_2$ and $z_1+z_2$ are represented by the points $A$, $B$ and $C$ on the Argand diagram, and $OC$ meets $AB$ at $M$. Let $z_1+z_2=r(\\cos\\theta+i\\sin\\theta)$.\n\n$OACB$ is a rhombus. Show that $r=2\\cos\\left(\\dfrac{\\beta-\\alpha}{2}\\right)$.",
+   "answer": "$\\angle AOB=\\beta-\\alpha$, so $\\angle OAC=\\pi-(\\beta-\\alpha)$. By the cosine rule in $\\triangle OAC$:\n\n$$r^2=1+1-2\\cos\\left(\\pi-(\\beta-\\alpha)\\right)=2+2\\cos(\\beta-\\alpha)=4\\cos^2\\left(\\frac{\\beta-\\alpha}2\\right)$$\n\nSince $0<\\frac{\\beta-\\alpha}{2}<\\frac\\pi4$ the cosine is positive, so $r=2\\cos\\left(\\dfrac{\\beta-\\alpha}2\\right)$.",
+   "images": [
+    "assets/img/ext2-2024-normanhurst-boys/q12a.png"
+   ]
+  },
+  {
+   "ref": "Q12(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.11",
+    "12.3.4.8"
+   ],
+   "question": "Let $z_1=\\cos\\alpha+i\\sin\\alpha$ and $z_2=\\cos\\beta+i\\sin\\beta$ where $0<\\alpha<\\beta<\\dfrac\\pi2$. The numbers $z_1$, $z_2$ and $z_1+z_2$ are represented by the points $A$, $B$ and $C$ on the Argand diagram, and $OC$ meets $AB$ at $M$. Let $z_1+z_2=r(\\cos\\theta+i\\sin\\theta)$.\n\nGiven that $OACB$ is a rhombus and $r=2\\cos\\left(\\dfrac{\\beta-\\alpha}{2}\\right)$, show that $\\theta=\\frac12(\\alpha+\\beta)$, and hence show that\n\n$$\\cos\\alpha+\\cos\\beta=2\\cos\\left(\\frac{\\beta-\\alpha}2\\right)\\cos\\left(\\frac{\\beta+\\alpha}2\\right)$$",
+   "answer": "The diagonal of a rhombus bisects the angle, so $\\angle AOM=\\dfrac{\\beta-\\alpha}2$ and $\\theta=\\alpha+\\dfrac{\\beta-\\alpha}2=\\dfrac{\\alpha+\\beta}2$.\n\nThen $(\\cos\\alpha+\\cos\\beta)+i(\\sin\\alpha+\\sin\\beta)=2\\cos\\left(\\dfrac{\\beta-\\alpha}2\\right)(\\cos\\theta+i\\sin\\theta)$. Equating real parts gives the result.",
+   "images": [
+    "assets/img/ext2-2024-normanhurst-boys/q12a.png"
+   ]
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.1",
+    "12.2.2.5"
+   ],
+   "question": "Suppose $\\mathbf{u}$, $\\mathbf{v}$ and $\\mathbf{w}$ are distinct, non-zero vectors with $\\operatorname{proj}_{\\mathbf{w}}\\mathbf{u}=\\operatorname{proj}_{\\mathbf{w}}\\mathbf{v}$. Prove that $\\mathbf{u}-\\mathbf{v}$ is perpendicular to $\\mathbf{w}$.",
+   "answer": "$$\\frac{\\mathbf u\\cdot\\mathbf w}{|\\mathbf w|^2}\\mathbf w=\\frac{\\mathbf v\\cdot\\mathbf w}{|\\mathbf w|^2}\\mathbf w$$\n\nSince $\\mathbf w\\ne\\mathbf 0$, $\\mathbf u\\cdot\\mathbf w=\\mathbf v\\cdot\\mathbf w$, so $(\\mathbf u-\\mathbf v)\\cdot\\mathbf w=0$. As $\\mathbf u\\ne\\mathbf v$ and $\\mathbf w\\ne\\mathbf 0$, $\\mathbf u-\\mathbf v$ is perpendicular to $\\mathbf w$."
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.3",
+    "12.2.1.4"
+   ],
+   "question": "A rectangular prism $OABCTDEF$ has vertices $O(0,0,0)$, $A(4,0,0)$, $C(0,8,0)$ and $T(0,0,6)$, with $B$ in the $xy$-plane. Determine a vector equation of the line $BT$, one of the diagonals of the prism.",
+   "answer": "$B=(4,8,0)$ and $\\overrightarrow{BT}=\\begin{pmatrix}-4\\\\-8\\\\6\\end{pmatrix}$, so\n\n$$\\mathbf r=\\begin{pmatrix}0\\\\0\\\\6\\end{pmatrix}+\\lambda\\begin{pmatrix}-4\\\\-8\\\\6\\end{pmatrix}$$",
+   "images": [
+    "assets/img/ext2-2024-normanhurst-boys/q12c.png"
+   ]
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.17",
+    "12.2.1.18"
+   ],
+   "question": "A rectangular prism $OABCTDEF$ has vertices $O(0,0,0)$, $A(4,0,0)$, $C(0,8,0)$ and $T(0,0,6)$, with $B$ in the $xy$-plane. Find the vector equation of the sphere that contains all of the vertices of the prism, in the form $|\\mathbf v-\\mathbf c|=r$.\n\n*Hint:* consider the midpoint of the diagonal $BT$.",
+   "answer": "$B=(4,8,0)$, so the midpoint of $BT$ is $(2,4,3)$, which is equidistant from all eight vertices. The radius is the distance to $T$: $r=\\sqrt{4+16+9}=\\sqrt{29}$.\n\n$$\\left|\\mathbf v-\\begin{pmatrix}2\\\\4\\\\3\\end{pmatrix}\\right|=\\sqrt{29}$$",
+   "images": [
+    "assets/img/ext2-2024-normanhurst-boys/q12c.png"
+   ]
+  },
+  {
+   "ref": "Q12(c)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.11",
+    "12.2.1.10"
+   ],
+   "question": "A rectangular prism $OABCTDEF$ has vertices $O(0,0,0)$, $A(4,0,0)$, $C(0,8,0)$ and $T(0,0,6)$, with $B$ in the $xy$-plane. The point $M(0,4,3)$ is the centre of the face $OCFT$. Prove, using vector methods, that the lines $AM$ and $BT$ are skew.",
+   "answer": "$$AM:\\ \\mathbf r=\\begin{pmatrix}4\\\\0\\\\0\\end{pmatrix}+\\mu\\begin{pmatrix}-4\\\\4\\\\3\\end{pmatrix},\\qquad BT:\\ \\mathbf r=\\begin{pmatrix}0\\\\0\\\\6\\end{pmatrix}+\\lambda\\begin{pmatrix}4\\\\8\\\\-6\\end{pmatrix}$$\n\nThe direction vectors are not scalar multiples of each other, so the lines are not parallel.\n\nFor an intersection: $4-4\\mu=4\\lambda$, $4\\mu=8\\lambda$, $3\\mu=6-6\\lambda$. The first two give $\\lambda=\\frac13$, $\\mu=\\frac23$. In the third, $3\\mu=2$ but $6-6\\lambda=4$: a contradiction, so the lines do not intersect.\n\nLines that are neither parallel nor intersecting are skew.",
+   "images": [
+    "assets/img/ext2-2024-normanhurst-boys/q12c.png"
+   ]
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.4"
+   ],
+   "question": "The function $f(x)=x^x$ is defined and positive for all $x>0$. By differentiating $\\ln\\left(f(x)\\right)$, find the value of $x$ at which $f(x)$ is a minimum.",
+   "answer": "$\\ln f(x)=x\\ln x$, so $\\dfrac{d}{dx}\\ln f(x)=1+\\ln x$, which is zero when $x=e^{-1}$.\n\nThe derivative is negative for $x<e^{-1}$ and positive for $x>e^{-1}$, so $\\ln f(x)$ has its minimum there. Since $\\ln$ is increasing, $f(x)$ is also a minimum at $x=\\dfrac1e$.",
+   "course": "advanced"
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.7"
+   ],
+   "question": "Find real numbers $a$, $b$ and $c$ such that $\\dfrac{5}{x^2(2-x)}\\equiv\\dfrac{ax+b}{x^2}+\\dfrac{c}{2-x}$.",
+   "answer": "$5\\equiv(ax+b)(2-x)+cx^2$.\n\n- $x=0$: $5=2b$, so $b=\\frac52$.\n- $x=2$: $5=4c$, so $c=\\frac54$.\n- $x=1$: $5=a+\\frac52+\\frac54$, so $a=\\frac54$."
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.8"
+   ],
+   "question": "Using $\\dfrac{5}{x^2(2-x)}\\equiv\\dfrac{\\frac54x+\\frac52}{x^2}+\\dfrac{\\frac54}{2-x}$, or otherwise, find $\\displaystyle\\int\\frac{20}{x^2(2-x)}\\,dx$.",
+   "answer": "$$\\int\\left(\\frac5x+\\frac{10}{x^2}+\\frac5{2-x}\\right)dx=5\\ln|x|-\\frac{10}{x}-5\\ln|2-x|+C$$"
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.5",
+    "12.4.1.9"
+   ],
+   "question": "Find $\\displaystyle\\int_0^{\\frac\\pi2}\\frac{dx}{3-\\cos x-2\\sin x}$.",
+   "answer": "Let $t=\\tan\\frac x2$, so $dx=\\dfrac{2\\,dt}{1+t^2}$; the limits become $0$ to $1$.\n\n$$\\int_0^1\\frac{2\\,dt}{3(1+t^2)-(1-t^2)-4t}=\\int_0^1\\frac{2\\,dt}{4t^2-4t+2}=\\int_0^1\\frac{2\\,dt}{1+(2t-1)^2}$$\n\n$$=\\left[\\tan^{-1}(2t-1)\\right]_0^1=\\frac\\pi4-\\left(-\\frac\\pi4\\right)=\\frac\\pi2$$"
+  },
+  {
+   "ref": "Q13(d)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^{\\frac\\pi4}\\tan^nx\\,dx$ for integers $n\\ge0$. Show that $I_n=\\dfrac{1}{n-1}-I_{n-2}$ for all integers $n\\ge2$.",
+   "answer": "$$I_n=\\int_0^{\\frac\\pi4}\\tan^{n-2}x(\\sec^2x-1)\\,dx=\\left[\\frac{\\tan^{n-1}x}{n-1}\\right]_0^{\\frac\\pi4}-I_{n-2}=\\frac1{n-1}-I_{n-2}$$"
+  },
+  {
+   "ref": "Q13(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^{\\frac\\pi4}\\tan^nx\\,dx$, where $I_n=\\dfrac{1}{n-1}-I_{n-2}$ for $n\\ge2$. Hence find $\\displaystyle\\int_0^{\\frac\\pi4}\\tan^5x\\,dx$.",
+   "answer": "$$I_5=\\frac14-I_3=\\frac14-\\left(\\frac12-I_1\\right)=-\\frac14+I_1$$\n\n$$I_1=\\left[-\\ln|\\cos x|\\right]_0^{\\frac\\pi4}=\\tfrac12\\ln2$$\n\nSo $I_5=\\frac12\\ln2-\\frac14$."
+  },
+  {
+   "ref": "Q14(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Using a suitable substitution, show that $\\displaystyle\\int_0^af(x)\\,dx=\\int_0^af(a-x)\\,dx$.",
+   "answer": "Let $u=a-x$, $du=-dx$; $x=0\\to u=a$, $x=a\\to u=0$.\n\n$$\\int_0^af(x)\\,dx=\\int_a^0f(a-u)(-du)=\\int_0^af(a-u)\\,du=\\int_0^af(a-x)\\,dx$$"
+  },
+  {
+   "ref": "Q14(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.15"
+   ],
+   "question": "A function $f(x)$ has the property $f(x)+f(a-x)=f(a)$. Using $\\displaystyle\\int_0^af(x)\\,dx=\\int_0^af(a-x)\\,dx$, or otherwise, show that $\\displaystyle\\int_0^af(x)\\,dx=\\frac a2f(a)$.",
+   "answer": "$$2\\int_0^af(x)\\,dx=\\int_0^a\\left(f(x)+f(a-x)\\right)dx=\\int_0^af(a)\\,dx=af(a)$$\n\nSo $\\displaystyle\\int_0^af(x)\\,dx=\\frac a2f(a)$."
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.9",
+    "12.3.1.11"
+   ],
+   "question": "If $z$ and $w$ are complex numbers such that $|z|=|w|$, show that\n\n$$\\left(\\tfrac12(z+w)\\right)\\overline{\\left(\\tfrac12(z+w)\\right)}+\\left(\\tfrac12(z-w)\\right)\\overline{\\left(\\tfrac12(z-w)\\right)}=z\\overline z$$",
+   "answer": "$$\\text{LHS}=\\tfrac14\\left[(z+w)(\\bar z+\\bar w)+(z-w)(\\bar z-\\bar w)\\right]=\\tfrac14\\left(2z\\bar z+2w\\bar w\\right)=\\tfrac12\\left(|z|^2+|w|^2\\right)=|z|^2=z\\bar z$$"
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "Let $z=\\cos\\theta+i\\sin\\theta$. Show that $z^n+\\dfrac1{z^n}=2\\cos n\\theta$.",
+   "answer": "By de Moivre's theorem $z^n=\\cos n\\theta+i\\sin n\\theta$ and $z^{-n}=\\cos n\\theta-i\\sin n\\theta$. Adding gives $2\\cos n\\theta$."
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.3.1",
+    "12.3.4.4"
+   ],
+   "question": "Using $z^n+z^{-n}=2\\cos n\\theta$ for $z=\\cos\\theta+i\\sin\\theta$, or otherwise, solve $3z^4-z^3+4z^2-z+3=0$.",
+   "answer": "$z\\ne0$, so divide by $z^2$:\n\n$$3\\left(z^2+\\frac1{z^2}\\right)-\\left(z+\\frac1z\\right)+4=0$$\n\nWith $z=\\cos\\theta+i\\sin\\theta$: $6\\cos2\\theta-2\\cos\\theta+4=0$, i.e. $6\\cos^2\\theta-\\cos\\theta-1=0$, so $\\cos\\theta=\\frac12$ or $-\\frac13$.\n\nHence $z+\\dfrac1z=1$ or $-\\dfrac23$:\n\n- $z^2-z+1=0\\Rightarrow z=\\dfrac{1\\pm\\sqrt3\\,i}{2}$\n- $3z^2+2z+3=0\\Rightarrow z=\\dfrac{-1\\pm2\\sqrt2\\,i}{3}$"
+  },
+  {
+   "ref": "Q14(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "By using de Moivre's theorem, show that $\\cos5\\theta=16\\cos^5\\theta-20\\cos^3\\theta+5\\cos\\theta$.",
+   "answer": "$\\cos5\\theta+i\\sin5\\theta=(\\cos\\theta+i\\sin\\theta)^5$. With $c=\\cos\\theta$, $s=\\sin\\theta$, the real part of the binomial expansion is\n\n$$\\cos5\\theta=c^5-10c^3s^2+5cs^4=c^5-10c^3(1-c^2)+5c(1-c^2)^2=16c^5-20c^3+5c$$"
+  },
+  {
+   "ref": "Q14(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.4"
+   ],
+   "question": "Using $\\cos5\\theta=16\\cos^5\\theta-20\\cos^3\\theta+5\\cos\\theta$, or otherwise, find all solutions of $32x^5-40x^3+10x-1=0$.",
+   "answer": "Let $x=\\cos\\theta$. The equation becomes $2\\cos5\\theta-1=0$, i.e. $\\cos5\\theta=\\frac12$.\n\n$5\\theta=\\dfrac\\pi3,\\dfrac{5\\pi}3,\\dfrac{7\\pi}3,\\dfrac{11\\pi}3,\\dfrac{13\\pi}3,\\dots$\n\nThe five distinct values of $\\cos\\theta$ are\n\n$$x=\\cos\\frac{\\pi}{15},\\ \\cos\\frac{\\pi}{3}=\\frac12,\\ \\cos\\frac{7\\pi}{15},\\ \\cos\\frac{11\\pi}{15},\\ \\cos\\frac{13\\pi}{15}$$"
+  },
+  {
+   "ref": "Q14(d)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.4",
+    "12.3.4.12"
+   ],
+   "question": "The solutions of $32x^5-40x^3+10x-1=0$ are $x=\\cos\\dfrac{\\pi}{15},\\ \\dfrac12,\\ \\cos\\dfrac{7\\pi}{15},\\ \\cos\\dfrac{11\\pi}{15},\\ \\cos\\dfrac{13\\pi}{15}$. Deduce that $\\cos\\dfrac{\\pi}{15}\\cos\\dfrac{2\\pi}{15}\\cos\\dfrac{4\\pi}{15}\\cos\\dfrac{7\\pi}{15}=\\dfrac1{16}$.",
+   "answer": "The product of the roots is $\\dfrac1{32}$. Since $\\cos\\dfrac{11\\pi}{15}=-\\cos\\dfrac{4\\pi}{15}$ and $\\cos\\dfrac{13\\pi}{15}=-\\cos\\dfrac{2\\pi}{15}$:\n\n$$\\frac12\\cos\\frac{\\pi}{15}\\cos\\frac{2\\pi}{15}\\cos\\frac{4\\pi}{15}\\cos\\frac{7\\pi}{15}=\\frac1{32}$$\n\nand multiplying by $2$ gives the result."
+  },
+  {
+   "ref": "Q15(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.2.3"
+   ],
+   "question": "Prove that $\\sqrt{14}$ is irrational.",
+   "answer": "Suppose $\\sqrt{14}=\\dfrac pq$ with $p,q$ positive integers having no common factor. Then $14q^2=p^2$, so $p^2$ is even and hence $p$ is even, say $p=2k$.\n\nThen $14q^2=4k^2$, so $7q^2=2k^2$. Thus $7q^2$ is even, so $q^2$ and hence $q$ is even.\n\nBoth $p$ and $q$ are even, a contradiction. So $\\sqrt{14}$ is irrational."
+  },
+  {
+   "ref": "Q15(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.1"
+   ],
+   "question": "Given that $\\sqrt{14}$ is irrational, prove that it is not possible for both $\\sqrt{2n}$ and $\\sqrt{7n}$ to be rational for any positive integer $n$.",
+   "answer": "Suppose $\\sqrt{2n}=\\dfrac ab$ and $\\sqrt{7n}=\\dfrac cd$ with $a,b,c,d$ positive integers. Multiplying, $\\sqrt{14n^2}=n\\sqrt{14}=\\dfrac{ac}{bd}$, so $\\sqrt{14}=\\dfrac{ac}{nbd}$ is rational. This contradicts the irrationality of $\\sqrt{14}$."
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.4.5"
+   ],
+   "question": "A sequence is given by $a_1=1$ and $a_{n+1}=\\dfrac{4+a_n}{1+a_n}$ for $n\\ge1$. Prove by mathematical induction that for $n\\ge1$, with $b=-\\frac13$, $a_n=2\\left(\\dfrac{1+b^n}{1-b^n}\\right)$.",
+   "answer": "**$n=1$:** $2\\left(\\dfrac{1-\\frac13}{1+\\frac13}\\right)=2\\times\\dfrac12=1=a_1$.\n\n**Assume** $a_k=2\\left(\\dfrac{1+b^k}{1-b^k}\\right)$. Then\n\n$$a_{k+1}=\\frac{4+a_k}{1+a_k}=\\frac{4(1-b^k)+2(1+b^k)}{(1-b^k)+2(1+b^k)}=\\frac{6-2b^k}{3+b^k}=2\\left(\\frac{3-b^k}{3+b^k}\\right)$$\n\nSince $b^k=-3b^{k+1}$:\n\n$$a_{k+1}=2\\left(\\frac{3+3b^{k+1}}{3-3b^{k+1}}\\right)=2\\left(\\frac{1+b^{k+1}}{1-b^{k+1}}\\right)$$\n\nSo the result holds for $n=k+1$, and by induction for all $n\\ge1$."
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.4.5"
+   ],
+   "question": "A sequence is given by $a_1=1$ and $a_{n+1}=\\dfrac{4+a_n}{1+a_n}$ for $n\\ge1$. Given that $a_n=2\\left(\\dfrac{1+b^n}{1-b^n}\\right)$ with $b=-\\frac13$, find the limiting value of $a_n$ as $n\\to\\infty$.",
+   "answer": "Since $\\left(-\\frac13\\right)^n\\to0$, $a_n\\to2$."
+  },
+  {
+   "ref": "Q15(c)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.1.3.5"
+   ],
+   "question": "It is given that $\\dfrac{x+y}{2}\\ge\\sqrt{xy}$ for any positive real numbers $x,y$. Use this result to prove that $(a+b+c)^3\\ge27abc$ for positive real $a,b,c$.",
+   "answer": "Replacing $x,y$ by squares, $x^2+y^2\\ge2xy$, and similarly for the other pairs. Adding the three,\n\n$$x^2+y^2+z^2-xy-yz-zx\\ge0$$\n\nNow $x^3+y^3+z^3-3xyz=(x+y+z)(x^2+y^2+z^2-xy-yz-zx)\\ge0$ for positive $x,y,z$.\n\nPut $x=a^{1/3}$, $y=b^{1/3}$, $z=c^{1/3}$: $a+b+c\\ge3(abc)^{1/3}$. Cubing gives $(a+b+c)^3\\ge27abc$."
+  },
+  {
+   "ref": "Q15(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "For positive real numbers $a,b,c$, $(a+b+c)^3\\ge27abc$. Hence or otherwise, if $abc=1$, prove that $a^5c^4+b^5a^4+c^5b^4\\ge3$.",
+   "answer": "Apply the inequality to $a^5c^4,\\ b^5a^4,\\ c^5b^4$:\n\n$$(a^5c^4+b^5a^4+c^5b^4)^3\\ge27\\,a^9b^9c^9=27(abc)^9=27$$\n\nTaking cube roots gives $a^5c^4+b^5a^4+c^5b^4\\ge3$."
+  },
+  {
+   "ref": "Q16(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "A particle moves in a straight line with displacement $x$ and velocity $v$ at time $t$. Find $x$ as a function of time given $\\ddot x=-2e^{-x}$, and when $t=0$, $x=0$ and $v=2$.",
+   "answer": "$$\\frac{d}{dx}\\left(\\tfrac12v^2\\right)=-2e^{-x}\\Rightarrow\\tfrac12v^2=2e^{-x}+C$$\n\nAt $x=0$, $v=2$: $C=0$, so $v^2=4e^{-x}$. Since $v>0$ initially and $v$ is never zero, $v=2e^{-x/2}$.\n\n$$\\frac{dx}{dt}=2e^{-x/2}\\Rightarrow\\int e^{x/2}dx=\\int2\\,dt\\Rightarrow2e^{x/2}=2t+K$$\n\nAt $t=0$, $x=0$: $K=2$. So $e^{x/2}=t+1$ and $x=2\\ln(t+1)$."
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "Show that $\\displaystyle\\int e^{-x}\\sin x\\,dx=-\\frac12e^{-x}(\\sin x+\\cos x)+C$.",
+   "answer": "Let $I=\\int e^{-x}\\sin x\\,dx$. By parts twice:\n\n$$I=-e^{-x}\\cos x-\\int e^{-x}\\cos x\\,dx=-e^{-x}\\cos x-\\left(e^{-x}\\sin x+I\\right)$$\n\nSo $2I=-e^{-x}(\\sin x+\\cos x)$, giving the result."
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.13"
+   ],
+   "question": "The diagram shows part of the curve $y=e^{-x}\\sin x$, $x\\ge0$. $A_1,A_2,\\dots$ are the successive areas above the $x$-axis bounded by the curve, with $A_n$ lying between $x=(2n-2)\\pi$ and $x=(2n-1)\\pi$.\n\nUsing $\\int e^{-x}\\sin x\\,dx=-\\frac12e^{-x}(\\sin x+\\cos x)+C$, show that $A_n=\\dfrac12\\left(e^{(1-2n)\\pi}+e^{(2-2n)\\pi}\\right)$.",
+   "answer": "$$A_n=-\\frac12\\Big[e^{-x}(\\sin x+\\cos x)\\Big]_{(2n-2)\\pi}^{(2n-1)\\pi}$$\n\nHere $\\cos(2n-1)\\pi=-1$, $\\cos(2n-2)\\pi=1$ and both sines are zero, so\n\n$$A_n=-\\frac12\\left(-e^{-(2n-1)\\pi}-e^{-(2n-2)\\pi}\\right)=\\frac12\\left(e^{(1-2n)\\pi}+e^{(2-2n)\\pi}\\right)$$",
+   "images": [
+    "assets/img/ext2-2024-normanhurst-boys/q16b.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.15"
+   ],
+   "question": "The diagram shows part of the curve $y=e^{-x}\\sin x$, $x\\ge0$. $A_1,A_2,\\dots$ are the successive areas above the $x$-axis bounded by the curve, with $A_n$ lying between $x=(2n-2)\\pi$ and $x=(2n-1)\\pi$. It is known that $A_n=\\dfrac12\\left(e^{(1-2n)\\pi}+e^{(2-2n)\\pi}\\right)$.\n\nShow that $A_1+A_2+A_3+\\cdots$ is a geometric series with limiting sum $\\dfrac{e^\\pi}{2(e^\\pi-1)}$.",
+   "answer": "$A_n=\\frac12(1+e^{-\\pi})e^{-(2n-2)\\pi}$, so $\\dfrac{A_{n+1}}{A_n}=e^{-2\\pi}$: a geometric series with $|r|<1$ and first term $a=\\frac12(1+e^{-\\pi})$.\n\n$$S=\\frac{1+e^{-\\pi}}{2(1-e^{-2\\pi})}=\\frac{1}{2(1-e^{-\\pi})}=\\frac{e^\\pi}{2(e^\\pi-1)}$$",
+   "images": [
+    "assets/img/ext2-2024-normanhurst-boys/q16b.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)(iv)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.15"
+   ],
+   "question": "The diagram shows part of the curve $y=e^{-x}\\sin x$, $x\\ge0$. The total of the areas between the curve and the $x$-axis that lie **above** the axis is $\\dfrac{e^\\pi}{2(e^\\pi-1)}$. Given that $\\displaystyle\\lim_{n\\to\\infty}\\int_0^ne^{-x}\\sin x\\,dx=\\frac12$, find the exact value of $\\displaystyle\\lim_{n\\to\\infty}\\int_0^n\\left|e^{-x}\\sin x\\right|dx$.",
+   "answer": "Let $X$ be the total area above the axis and $Y$ the total area below it. Then $X-Y=\\frac12$, so\n\n$$Y=\\frac{e^\\pi}{2(e^\\pi-1)}-\\frac12=\\frac{1}{2(e^\\pi-1)}$$\n\nThe required limit is $X+Y=\\dfrac{e^\\pi+1}{2(e^\\pi-1)}$.",
+   "images": [
+    "assets/img/ext2-2024-normanhurst-boys/q16b.png"
+   ]
+  }
+ ]
+}
