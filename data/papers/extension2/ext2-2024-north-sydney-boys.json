@@ -1,0 +1,697 @@
+{
+ "id": "ext2-2024-north-sydney-boys",
+ "course": "extension2",
+ "school": "North Sydney Boys",
+ "year": 2024,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5348",
+  "title": "North Sydney Boys 2024 w. sol"
+ },
+ "indexed": "2026-11-28",
+ "answers": "worked",
+ "dropped": [],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.5",
+    "12.1.1.8"
+   ],
+   "question": "Which of the following is **not** equivalent to 'If $n$ is even, then $n^2$ is a multiple of $4$'?",
+   "options": [
+    "$n$ is even $\\therefore$ $n^2$ is a multiple of $4$",
+    "$n^2$ is a multiple of $4$ if $n$ is even",
+    "$n^2$ is a multiple of $4$ $\\therefore$ $n$ is even",
+    "$n$ is even implies that $n^2$ is a multiple of $4$"
+   ],
+   "correct": "C",
+   "answer": "**C.** C states the converse (it argues from the conclusion to the hypothesis)."
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int x^ne^{ax}\\,dx$. Which of the following is the correct expression for $I_n$?",
+   "options": [
+    "$I_n=\\dfrac{x^ne^{ax}}{a}-nI_{n-1}$",
+    "$I_n=\\dfrac{x^ne^{ax}}{a}-\\dfrac naI_{n-1}$",
+    "$I_n=\\dfrac{x^ne^{ax}}{a}+nI_{n-1}$",
+    "$I_n=\\dfrac{x^ne^{ax}}{a}+\\dfrac naI_{n-1}$"
+   ],
+   "correct": "B",
+   "answer": "**B.** By parts with $u=x^n$, $dv=e^{ax}dx$."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "The acceleration of a particle moving in a straight line with velocity $v$ is given by $\\ddot x=v^2$. Initially $v=1$. What is $v$ as a function of $t$?",
+   "options": [
+    "$v=1-t$",
+    "$v=\\ln|1-t|$",
+    "$v=\\dfrac{t}{1-t}$",
+    "$v=\\dfrac{1}{1-t}$"
+   ],
+   "correct": "D",
+   "answer": "**D.** $\\dfrac{dv}{dt}=v^2\\Rightarrow t=1-\\dfrac1v$, so $v=\\dfrac1{1-t}$."
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.7",
+    "12.1.1.6"
+   ],
+   "question": "The negation of the statement $\\forall x\\in\\mathbb R,\\ \\exists y\\in\\mathbb R$ such that $2x+3y=12$ is:",
+   "options": [
+    "$\\forall x\\in\\mathbb R,\\ \\exists y\\in\\mathbb R$ such that $2x+3y\\ne12$",
+    "$\\exists x\\in\\mathbb R$ such that $\\forall y\\in\\mathbb R,\\ 2x+3y\\ne12$",
+    "$\\forall x\\in\\mathbb R,\\ \\forall y\\in\\mathbb R,\\ 2x+3y\\ne12$",
+    "$\\exists x\\in\\mathbb R,\\ \\exists y\\in\\mathbb R$ such that $2x+3y\\ne12$"
+   ],
+   "correct": "B",
+   "answer": "**B.** Negation swaps $\\forall$ and $\\exists$ and negates the final statement."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.1.14",
+    "12.2.1.12"
+   ],
+   "question": "The saddle-shaped curve shown on the left has two peaks at $t=\\dfrac\\pi4,\\dfrac{5\\pi}4$ and two troughs at $t=\\dfrac{3\\pi}4,\\dfrac{7\\pi}4$ (shown on the right). Which of the following parametric equations represent the curve?",
+   "options": [
+    "$x=\\sin t,\\ y=\\cos2t,\\ z=\\sin t$",
+    "$x=\\sin t,\\ y=\\cos t,\\ z=\\sin2t$",
+    "$x=\\sin2t,\\ y=\\cos t,\\ z=\\sin t$",
+    "$x=\\sin2t,\\ y=\\cos t,\\ z=\\sin2t$"
+   ],
+   "correct": "B",
+   "answer": "**B.** Only $z=\\sin2t$ with $(x,y)$ going once around a circle gives height $+1$ at $t=\\frac\\pi4,\\frac{5\\pi}4$ and $-1$ at $t=\\frac{3\\pi}4,\\frac{7\\pi}4$.",
+   "images": [
+    "assets/img/ext2-2024-north-sydney-boys/q5.png"
+   ]
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "Which of the following complex numbers equals $\\left(\\sqrt3+i\\right)^4$?",
+   "options": [
+    "$-2+\\dfrac{2}{\\sqrt3}i$",
+    "$-8+\\dfrac{8}{\\sqrt3}i$",
+    "$-2+2\\sqrt3i$",
+    "$-8+8\\sqrt3i$"
+   ],
+   "correct": "D",
+   "answer": "**D.** $\\left(2\\,\\text{cis}\\frac\\pi6\\right)^4=16\\,\\text{cis}\\frac{2\\pi}3=-8+8\\sqrt3i$."
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.10",
+    "12.2.1.11"
+   ],
+   "question": "The line $l_1$ has vector equation $\\mathbf r_1=\\mathbf i+\\lambda(\\mathbf j-\\mathbf k)$ and the line $l_2$ has vector equation $\\mathbf r_2=(3\\mathbf i+2\\mathbf j-\\mathbf k)+\\mu(2\\mathbf i+\\mathbf k)$. Which statement is correct?",
+   "options": [
+    "$l_1$ and $l_2$ are parallel",
+    "$l_1$ and $l_2$ are perpendicular",
+    "$l_1$ and $l_2$ intersect at a point",
+    "$l_1$ and $l_2$ are skew"
+   ],
+   "correct": "C",
+   "answer": "**C.** $\\mu=-1$, $\\lambda=2$ satisfies all three components, so they intersect at $(1,2,-2)$."
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.8"
+   ],
+   "question": "Which of the following is an expression for $\\displaystyle\\int\\frac{4x^2-5x-1}{(x-3)(x^2+1)}\\,dx$?",
+   "options": [
+    "$\\ln\\left|(x-3)(x^2+1)\\right|+C$",
+    "$\\ln\\left[(x-3)^2(x^2+1)\\right]+C$",
+    "$\\ln\\left|(x-3)(x^2+1)\\right|+\\tan^{-1}x+C$",
+    "$\\ln\\left[(x-3)^2(x^2+1)\\right]+\\tan^{-1}x+C$"
+   ],
+   "correct": "D",
+   "answer": "**D.** The integrand is $\\dfrac{2}{x-3}+\\dfrac{2x+1}{x^2+1}$."
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.8",
+    "12.3.1.10"
+   ],
+   "question": "What are the solutions of the equation $z^2=i\\bar z$, written as points $(x,y)$ where $z=x+iy$?",
+   "options": [
+    "$(0,0)$ and $(0,1)$",
+    "$(0,0)$ and $(0,-1)$",
+    "$(0,0),\\ (0,-1),\\ \\left(-\\dfrac{\\sqrt3}2,\\dfrac12\\right),\\ \\left(\\dfrac{\\sqrt3}2,\\dfrac12\\right)$",
+    "$(0,0),\\ (0,1),\\ \\left(-\\dfrac{\\sqrt3}2,\\dfrac12\\right),\\ \\left(\\dfrac{\\sqrt3}2,\\dfrac12\\right)$"
+   ],
+   "correct": "C",
+   "answer": "**C.** $x^2-y^2=y$ and $2xy=x$. Either $x=0$ ($y=0,-1$) or $y=\\frac12$ ($x=\\pm\\frac{\\sqrt3}2$)."
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.5.2",
+    "12.5.5.1"
+   ],
+   "question": "A particle of mass $m$ is projected vertically upwards with initial velocity $u\\ \\text{m s}^{-1}$ in a medium where the resistance is $mkv^2$. Its equation of motion is $\\ddot x=-(g+kv^2)$, where $g\\ \\text{m s}^{-2}$ is the acceleration due to gravity and $k=0.01g$.\n\nWhich of the following gives the correct expression for the time taken to reach velocity $v$?",
+   "options": [
+    "$t=\\dfrac{100}g\\left(\\tan^{-1}\\dfrac u{10}-\\tan^{-1}\\dfrac v{10}\\right)$",
+    "$t=\\dfrac{10}g\\left(\\tan^{-1}u-\\tan^{-1}v\\right)$",
+    "$t=\\dfrac{10}g\\left(\\tan^{-1}\\dfrac u{10}-\\tan^{-1}\\dfrac v{10}\\right)$",
+    "$t=\\dfrac{100}g\\left(\\tan^{-1}u-\\tan^{-1}v\\right)$"
+   ],
+   "correct": "C",
+   "answer": "**C.** $t=\\dfrac1g\\displaystyle\\int_v^u\\frac{dv}{1+(v/10)^2}=\\frac{10}g\\left(\\tan^{-1}\\frac u{10}-\\tan^{-1}\\frac v{10}\\right)$."
+  },
+  {
+   "ref": "Q11(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.2.2",
+    "12.1.1.6"
+   ],
+   "question": "State whether the statement is true or false, justifying your answer: $\\forall n\\in\\mathbb N,\\ n^2>n$.",
+   "answer": "**False.** Counterexample: $n=1$ gives $1^2=1$, which is not greater than $1$."
+  },
+  {
+   "ref": "Q11(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.1.6",
+    "12.1.2.2"
+   ],
+   "question": "State whether the statement is true or false, justifying your answer: $\\exists x\\in\\mathbb R$ such that $x^2+1=0$.",
+   "answer": "**False.** For all real $x$, $x^2\\ge0$, so $x^2+1\\ge1>0$."
+  },
+  {
+   "ref": "Q11(a)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.6",
+    "12.1.2.2"
+   ],
+   "question": "State whether the statement is true or false, justifying your answer: $\\forall x\\in\\mathbb R,\\ \\exists y\\in\\mathbb N$ such that $x+y=10$.",
+   "answer": "**False.** Counterexample: $x=\\frac12$ would need $y=9\\frac12\\notin\\mathbb N$."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.3.4"
+   ],
+   "question": "It is given that $f(z)=z^4+2\\sqrt2z^3+z^2+8\\sqrt2z-12$ and that one root of $f(z)=0$ is $2i$. By factorising $f(z)$ as a product of two quadratic factors, find the other roots.",
+   "answer": "The coefficients are real, so $-2i$ is also a root and $z^2+4$ is a factor:\n\n$$f(z)=(z^2+4)(z^2+2\\sqrt2z-3)$$\n\n$$z^2+2\\sqrt2z-3=0\\Rightarrow z=\\frac{-2\\sqrt2\\pm\\sqrt{20}}{2}=-\\sqrt2\\pm\\sqrt5$$\n\nThe other roots are $-2i,\\ -\\sqrt2+\\sqrt5,\\ -\\sqrt2-\\sqrt5$."
+  },
+  {
+   "ref": "Q11(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.6"
+   ],
+   "question": "Find $\\displaystyle\\int\\frac{e^{\\tan^{-1}x}+x\\ln(1+x^2)+1}{1+x^2}\\,dx$.",
+   "answer": "Split into three integrals. For the first let $u=\\tan^{-1}x$; for the second let $w=\\ln(1+x^2)$, $dw=\\dfrac{2x}{1+x^2}dx$.\n\n$$=e^{\\tan^{-1}x}+\\frac14\\left[\\ln(1+x^2)\\right]^2+\\tan^{-1}x+C$$"
+  },
+  {
+   "ref": "Q11(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.5"
+   ],
+   "question": "The displacement of a particle moving in a straight line, $s$ metres, at time $x$ seconds is $s=\\sin4x+2\\sin2x+2$. Show that the velocity at time $x$ is $v=\\dfrac{8}{(1+t^2)^2}\\left(1-3t^2\\right)\\ \\text{m s}^{-1}$, where $t=\\tan x$.",
+   "answer": "$v=4\\cos4x+4\\cos2x$. With $t=\\tan x$, $\\cos2x=\\dfrac{1-t^2}{1+t^2}$, $\\sin2x=\\dfrac{2t}{1+t^2}$ and $\\cos4x=\\cos^22x-\\sin^22x$.\n\n$$v=\\frac{4\\left[(1-t^2)^2-4t^2\\right]+4(1-t^2)(1+t^2)}{(1+t^2)^2}=\\frac{8-24t^2}{(1+t^2)^2}=\\frac{8(1-3t^2)}{(1+t^2)^2}$$"
+  },
+  {
+   "ref": "Q11(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "The displacement of a particle moving in a straight line, $s$ metres, at time $x$ seconds is $s=\\sin4x+2\\sin2x+2$. Its velocity is $v=\\dfrac{8(1-3\\tan^2x)}{(1+\\tan^2x)^2}$. Hence find the value of $x$, where $0\\le x\\le\\pi$, for which the displacement is a maximum.",
+   "answer": "$v=0$ when $\\tan x=\\pm\\dfrac1{\\sqrt3}$, i.e. $x=\\dfrac\\pi6,\\dfrac{5\\pi}6$. Also $v=4\\cos4x+4\\cos2x=0$ at $x=\\dfrac\\pi2$ (where $\\tan x$ is undefined).\n\n$s(0)=s(\\pi)=s(\\frac\\pi2)=2$, $s\\left(\\dfrac\\pi6\\right)=2+\\dfrac{3\\sqrt3}{2}$ and $s\\left(\\dfrac{5\\pi}6\\right)=2-\\dfrac{3\\sqrt3}2$.\n\nThe displacement is greatest at $x=\\dfrac\\pi6$.\n\n*Note: the school's solution does not mention the stationary point at $x=\\frac\\pi2$; it does not change the answer.*"
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.4.1.3",
+    "12.4.1.2"
+   ],
+   "question": "For $2\\le a\\le3$, find the solutions for $a$ of the equation $\\displaystyle\\int_0^a\\cos(x+a^2)\\,dx=\\sin a$.",
+   "answer": "$$\\sin(a+a^2)-\\sin a^2=\\sin a$$\n\nBy sums to products, the left side is $2\\cos\\left(a^2+\\dfrac a2\\right)\\sin\\dfrac a2$, and $\\sin a=2\\sin\\dfrac a2\\cos\\dfrac a2$. So\n\n$$2\\sin\\frac a2\\left[\\cos\\left(a^2+\\frac a2\\right)-\\cos\\frac a2\\right]=0\\ \\Rightarrow\\ \\sin\\frac a2\\,\\sin\\frac{a^2+a}{2}\\,\\sin\\frac{a^2}{2}=0$$\n\nFor $2\\le a\\le3$:\n\n- $\\sin\\dfrac a2\\ne0$.\n- $\\dfrac{a^2}{2}=m\\pi$ gives $a=\\sqrt{2\\pi}$ ($m=1$).\n- $\\dfrac{a^2+a}{2}=n\\pi$ gives $a=\\dfrac{-1+\\sqrt{1+8\\pi}}2$ ($n=1$).\n\nSo $a=\\sqrt{2\\pi}$ or $a=\\dfrac{-1+\\sqrt{1+8\\pi}}{2}$."
+  },
+  {
+   "ref": "Q12(a)(i)(α)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.8"
+   ],
+   "question": "A complex number is given by $z_1=a+(a-3)i$, where $a$ is a positive real constant, and $\\arg z_1=\\theta$ where $-\\dfrac\\pi2<\\theta<0$. Find $\\arg(-2z_1)$ in terms of $\\theta$.",
+   "answer": "$\\arg(-2z_1)=\\arg(-2)+\\arg z_1=\\pi+\\theta$."
+  },
+  {
+   "ref": "Q12(a)(i)(β)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.3",
+    "12.3.2.2"
+   ],
+   "question": "A complex number is given by $z_1=a+(a-3)i$, where $a$ is a positive real constant, and $\\arg z_1=\\theta$ where $-\\dfrac\\pi2<\\theta<0$. Find the principal argument of $z_1-2a$ in terms of $\\theta$.",
+   "answer": "$z_1-2a=-a+(a-3)i$ with $a-3<0$, so it lies in the third quadrant: it is the reflection of $z_1$ in the imaginary axis.\n\n$$\\arg(z_1-2a)=-\\pi-\\theta$$"
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.11",
+    "12.3.2.7"
+   ],
+   "question": "A complex number is given by $z_1=a+(a-3)i$, where $a$ is a positive real constant, and $\\arg z_1=\\theta$ where $-\\dfrac\\pi2<\\theta<0$. Another complex number is $z_2=1+3i$. Without using a calculator, find the range of values of $a$ such that $\\dfrac{|z_1z_2|^2}{\\operatorname{Im}(z_1z_2)}\\le10$.",
+   "answer": "$z_1z_2=(9-2a)+(4a-3)i$ and $|z_1z_2|^2=|z_1|^2|z_2|^2=10(2a^2-6a+9)$.\n\n$$\\frac{10(2a^2-6a+9)}{4a-3}\\le10\\iff\\frac{2a^2-10a+12}{4a-3}\\le0\\iff\\frac{2(a-2)(a-3)}{4a-3}\\le0$$\n\nso $a<\\frac34$ or $2\\le a\\le3$.\n\nAlso $a>0$ and $\\theta\\in\\left(-\\frac\\pi2,0\\right)$ requires $0<a<3$. Hence $0<a<\\dfrac34$ or $2\\le a<3$."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.2.3",
+    "12.1.1.10"
+   ],
+   "question": "Prove that a four-digit number is divisible by $11$ if and only if the difference between the sum of its digits in even positions and the sum of its digits in odd positions is a multiple of $11$ (including zero).\n\n*Hint:* divide $1001$ by $11$.",
+   "answer": "Let the number be $N$ with digits $a,b,c,d$:\n\n$$N=1000a+100b+10c+d=(1001a-a)+(99b+b)+(11c-c)+d$$\n\nSince $1001=11\\times91$:\n\n$$N=11(91a+9b+c)-\\big[(a+c)-(b+d)\\big]$$\n\nSo $N$ and $(a+c)-(b+d)$ differ in size by a multiple of $11$ (up to sign). Hence if $11\\mid N$ then $11\\mid(a+c)-(b+d)$, and conversely if $11\\mid(a+c)-(b+d)$ then $11\\mid N$."
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.11"
+   ],
+   "question": "Differentiate $\\cot^3x$.",
+   "answer": "$\\dfrac d{dx}\\cot^3x=-3\\cot^2x\\,\\text{cosec}^2x=-3\\cot^2x-3\\cot^4x$."
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.11"
+   ],
+   "question": "Differentiate $\\cot^5x$.",
+   "answer": "$\\dfrac d{dx}\\cot^5x=-5\\cot^4x\\,\\text{cosec}^2x=-5\\cot^4x-5\\cot^6x$."
+  },
+  {
+   "ref": "Q12(c)(iii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.15",
+    "12.4.1.11"
+   ],
+   "question": "Using the derivatives $\\dfrac d{dx}\\cot^3x=-3\\cot^2x-3\\cot^4x$ and $\\dfrac d{dx}\\cot^5x=-5\\cot^4x-5\\cot^6x$, find $\\displaystyle\\int_{\\frac\\pi4}^{\\frac\\pi2}\\cot^6x\\,dx$.",
+   "answer": "Let $J_n=\\int_{\\pi/4}^{\\pi/2}\\cot^nx\\,dx$.\n\n$$J_6=-\\tfrac15\\Big[\\cot^5x\\Big]-J_4=\\tfrac15-J_4,\\qquad J_4=-\\tfrac13\\Big[\\cot^3x\\Big]-J_2=\\tfrac13-J_2$$\n\n$$J_2=\\int_{\\pi/4}^{\\pi/2}(\\text{cosec}^2x-1)\\,dx=\\Big[-\\cot x-x\\Big]_{\\pi/4}^{\\pi/2}=1-\\frac\\pi4$$\n\nSo $J_4=\\dfrac\\pi4-\\dfrac23$ and $J_6=\\dfrac{13}{15}-\\dfrac\\pi4$."
+  },
+  {
+   "ref": "Q13(a)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.1.3.3"
+   ],
+   "question": "If $k$ is an integer with $k\\ge3$, and $(k-1)(k+1)<k^2$, show that $\\dfrac1{(k-1)k(k+1)}>\\dfrac1{k^3}$.",
+   "answer": "Multiplying $(k-1)(k+1)<k^2$ by $k>0$ gives $0<(k-1)k(k+1)<k^3$. Taking reciprocals reverses the inequality."
+  },
+  {
+   "ref": "Q13(a)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.4.1.7"
+   ],
+   "question": "Let $S_n=\\dfrac1{3^3}+\\dfrac1{4^3}+\\dfrac1{5^3}+\\dots+\\dfrac1{n^3}=\\displaystyle\\sum_{k=3}^n\\frac1{k^3}$. Using $\\dfrac1{k^3}<\\dfrac1{(k-1)k(k+1)}$ for $k\\ge3$ and partial fractions, or otherwise, prove that $S_n<\\dfrac1{12}$.",
+   "answer": "$$\\frac{1}{(k-1)k(k+1)}=\\frac12\\left[\\frac1{(k-1)k}-\\frac1{k(k+1)}\\right]$$\n\nThe sum telescopes:\n\n$$S_n<\\frac12\\sum_{k=3}^n\\left[\\frac1{(k-1)k}-\\frac1{k(k+1)}\\right]=\\frac12\\left[\\frac16-\\frac1{n(n+1)}\\right]<\\frac1{12}$$"
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.3.6",
+    "12.1.3.2"
+   ],
+   "question": "Let $p$ and $q$ be positive real numbers with $\\dfrac1p+\\dfrac1q=1$. Prove that $\\dfrac13\\le\\dfrac1{p(p+1)}+\\dfrac1{q(q+1)}\\le\\dfrac12$.",
+   "answer": "$p+q=pq=s$. Since $(p+q)^2\\ge4pq$, $s^2\\ge4s$, so $s\\ge4$.\n\n$$\\frac1{p(p+1)}+\\frac1{q(q+1)}=\\left(\\frac1p+\\frac1q\\right)-\\left(\\frac1{p+1}+\\frac1{q+1}\\right)=1-\\frac{s+2}{2s+1}=\\frac{s-1}{2s+1}$$\n\n- $\\dfrac{s-1}{2s+1}\\ge\\dfrac13\\iff3s-3\\ge2s+1\\iff s\\ge4$, which is true.\n- $\\dfrac{s-1}{2s+1}\\le\\dfrac12\\iff2s-2\\le2s+1$, which is true."
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.6"
+   ],
+   "question": "Let $p$ and $q$ be positive real numbers with $\\dfrac1p+\\dfrac1q=1$. Prove that $\\dfrac1{p(p-1)}+\\dfrac1{q(q-1)}\\ge1$.",
+   "answer": "$p+q=pq=s$, and $(p+q)^2\\ge4pq$ gives $s\\ge4$.\n\n$$\\frac1{p(p-1)}+\\frac1{q(q-1)}=\\frac1{p-1}+\\frac1{q-1}-\\left(\\frac1p+\\frac1q\\right)=\\frac{s-2}{pq-s+1}-1=s-3\\ge1$$"
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "An object moving on a horizontal plane, at position $x$ metres from the origin, has acceleration $\\ddot x=0.01\\left(x+\\dfrac{64}{x^3}\\right)\\ \\text{m s}^{-2}$. Initially it is $4$ metres to the left of the origin and moving to the left at $\\dfrac{\\sqrt3}5\\ \\text{m s}^{-1}$. If its velocity is $v\\ \\text{m s}^{-1}$, show that $v^2=0.01\\left(\\dfrac{x^4-64}{x^2}\\right)$.",
+   "answer": "$$\\frac d{dx}\\left(\\tfrac12v^2\\right)=0.01\\left(x+\\frac{64}{x^3}\\right)\\Rightarrow v^2=0.01\\left(x^2-\\frac{64}{x^2}\\right)+C$$\n\nAt $x=-4$, $v^2=\\frac3{25}=0.12$ and $0.01(16-4)=0.12$, so $C=0$ and $v^2=0.01\\left(\\dfrac{x^4-64}{x^2}\\right)$."
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.1.2"
+   ],
+   "question": "An object moving on a horizontal plane, at position $x$ metres from the origin, has acceleration $\\ddot x=0.01\\left(x+\\dfrac{64}{x^3}\\right)\\ \\text{m s}^{-2}$. Initially it is $4$ metres to the left of the origin and moving to the left at $\\dfrac{\\sqrt3}5\\ \\text{m s}^{-1}$. Given $v^2=0.01\\left(\\dfrac{x^4-64}{x^2}\\right)$, explain why the velocity at position $x$ is $v=\\dfrac{\\sqrt{x^4-64}}{10x}$.",
+   "answer": "Initially $v<0$ and $x<0$. For $x<0$ the acceleration is negative, so the object keeps speeding up to the left: $v$ is never zero and stays negative, with $x\\le-4$.\n\nSince $x<0$ throughout, the root with $v<0$ is $v=\\dfrac{\\sqrt{x^4-64}}{10x}$."
+  },
+  {
+   "ref": "Q13(c)(iii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.1.2",
+    "12.4.1.6"
+   ],
+   "question": "An object moving on a horizontal plane, at position $x$ metres from the origin, has acceleration $\\ddot x=0.01\\left(x+\\dfrac{64}{x^3}\\right)\\ \\text{m s}^{-2}$. Initially it is $4$ metres to the left of the origin and moving to the left at $\\dfrac{\\sqrt3}5\\ \\text{m s}^{-1}$. Its velocity is $v=\\dfrac{\\sqrt{x^4-64}}{10x}$. Find, correct to the nearest second, the time taken to reach a position $50$ metres to the left of the origin.",
+   "answer": "$$t=\\int_{-4}^{-50}\\frac{10x}{\\sqrt{x^4-64}}\\,dx$$\n\nLet $u=x^2$, $du=2x\\,dx$; limits $16$ to $2500$:\n\n$$t=\\int_{16}^{2500}\\frac{5\\,du}{\\sqrt{u^2-64}}=5\\Big[\\ln\\left(u+\\sqrt{u^2-64}\\right)\\Big]_{16}^{2500}\\approx25.6$$\n\nSo it takes about $26$ seconds."
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.3.5",
+    "12.1.3.6"
+   ],
+   "question": "Let $a_1,a_2,\\dots,a_n$ be positive real numbers with $a_1a_2\\cdots a_n=1$. Prove that $(a_1^2+a_1)(a_2^2+a_2)\\cdots(a_n^2+a_n)\\ge2^n$.",
+   "answer": "By AM–GM, $a_k^2+a_k\\ge2\\sqrt{a_k^3}=2a_k^{3/2}$ for each $k$. All sides are positive, so multiplying the $n$ inequalities:\n\n$$\\prod(a_k^2+a_k)\\ge2^n(a_1a_2\\cdots a_n)^{3/2}=2^n$$"
+  },
+  {
+   "ref": "Q14(b)(i)(α)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "A parachutist of mass $90$ kg jumps from an aeroplane. The acceleration due to gravity is $10\\ \\text{m s}^{-2}$. The initial velocity is $u\\ \\text{m s}^{-1}$, and $x$ is the distance fallen. Derive the velocity $v$ in terms of $x$ if there is **no** resistance force.",
+   "answer": "$v\\dfrac{dv}{dx}=10\\Rightarrow\\displaystyle\\int_u^vv\\,dv=\\int_0^x10\\,dx\\Rightarrow v^2=u^2+20x$.\n\nSo $v=\\sqrt{u^2+20x}$ (taking downwards as positive)."
+  },
+  {
+   "ref": "Q14(b)(i)(β)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.5.2"
+   ],
+   "question": "A parachutist of mass $90$ kg jumps from an aeroplane. The acceleration due to gravity is $10\\ \\text{m s}^{-2}$. The initial velocity is $u\\ \\text{m s}^{-1}$, and $x$ is the distance fallen. Derive the velocity $v$ in terms of $x$ if the parachute is open and there is a resistance force of $0.27v^2$ newtons.",
+   "answer": "$90\\ddot x=900-0.27v^2$, so $v\\dfrac{dv}{dx}=10-0.003v^2$.\n\n$$x=\\int_u^v\\frac{v\\,dv}{10-0.003v^2}=-\\frac1{0.006}\\ln\\left(\\frac{10-0.003v^2}{10-0.003u^2}\\right)$$\n\n$$10-0.003v^2=(10-0.003u^2)e^{-0.006x}$$\n\n$$v=\\sqrt{\\frac{10-(10-0.003u^2)e^{-0.006x}}{0.003}}$$"
+  },
+  {
+   "ref": "Q14(b)(ii)(α)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.1"
+   ],
+   "question": "A parachutist jumps from rest at a height of $100$ m and opens the parachute $60$ m above the ground. Take $g=10\\ \\text{m s}^{-2}$. Before the parachute opens there is no resistance, so $v^2=u^2+20x$. Find the vertical velocity when the parachute is opened.",
+   "answer": "The fall so far is $40$ m from rest: $v=\\sqrt{20\\times40}=20\\sqrt2\\approx28.3\\ \\text{m s}^{-1}$."
+  },
+  {
+   "ref": "Q14(b)(ii)(β)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.5.6"
+   ],
+   "question": "A parachutist jumps from rest at a height of $100$ m and opens the parachute $60$ m above the ground. Take $g=10\\ \\text{m s}^{-2}$. The parachute opens when the velocity is $20\\sqrt2\\ \\text{m s}^{-1}$, after which $v^2=\\dfrac{10-(10-0.003u^2)e^{-0.006x}}{0.003}$, where $u$ is the velocity at opening and $x$ the distance fallen since. Find the velocity on landing, to 1 decimal place.",
+   "answer": "$u^2=800$, $x=60$:\n\n$$v=\\sqrt{\\frac{10-(10-2.4)e^{-0.36}}{0.003}}\\approx39.6\\ \\text{m s}^{-1}$$"
+  },
+  {
+   "ref": "Q14(b)(ii)(γ)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.5.5"
+   ],
+   "question": "A parachutist's equation of motion with the parachute open is $\\ddot x=10-0.003v^2$, and the landing velocity is about $39.57\\ \\text{m s}^{-1}$. What percentage (to the nearest whole percent) of the terminal velocity is the landing velocity?",
+   "answer": "Terminal velocity: $\\ddot x=0\\Rightarrow v_T=\\sqrt{\\dfrac{10}{0.003}}\\approx57.74\\ \\text{m s}^{-1}$.\n\n$$\\frac{39.57}{57.74}\\times100\\%\\approx69\\%$$"
+  },
+  {
+   "ref": "Q14(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.1.2.1",
+    "12.1.2.3"
+   ],
+   "question": "Let $a,b,c$ be positive integers. Prove that it is impossible for all three numbers $a^2+b+c$, $b^2+a+c$, $c^2+a+b$ to be perfect squares.",
+   "answer": "Without loss of generality let $c$ be the largest, so $a\\le c$ and $b\\le c$. Then\n\n$$c^2<c^2+a+b\\le c^2+2c<(c+1)^2$$\n\nSo $c^2+a+b$ lies strictly between consecutive squares and is not a perfect square. Hence the three cannot all be squares."
+  },
+  {
+   "ref": "Q15(a)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.1.7",
+    "12.2.1.3"
+   ],
+   "question": "Consider the line $\\mathbf r=(2+\\lambda)\\mathbf i+(3-\\lambda)\\mathbf j+(4-2\\lambda)\\mathbf k$. Find the coordinates of the points where it cuts the coordinate planes: $A$ on the $xy$-plane, $B$ on the $xz$-plane and $C$ on the $yz$-plane.",
+   "answer": "- $z=0$: $\\lambda=2$, so $A(4,1,0)$.\n- $y=0$: $\\lambda=3$, so $B(5,0,-2)$.\n- $x=0$: $\\lambda=-2$, so $C(0,5,8)$."
+  },
+  {
+   "ref": "Q15(a)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "Given $A(4,1,0)$, $B(5,0,-2)$ and $C(0,5,8)$, find the vector projection of $\\overrightarrow{OC}$ onto $\\overrightarrow{AB}$.",
+   "answer": "$\\overrightarrow{AB}=(1,-1,-2)$.\n\n$$\\frac{\\overrightarrow{OC}\\cdot\\overrightarrow{AB}}{|\\overrightarrow{AB}|^2}\\overrightarrow{AB}=\\frac{-21}{6}\\begin{pmatrix}1\\\\-1\\\\-2\\end{pmatrix}=-\\frac72\\begin{pmatrix}1\\\\-1\\\\-2\\end{pmatrix}$$"
+  },
+  {
+   "ref": "Q15(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "Given $O$ the origin, $A(4,1,0)$ and $C(0,5,8)$, find the area of $\\triangle OAC$ correct to 3 significant figures.",
+   "answer": "$|\\overrightarrow{OA}|=\\sqrt{17}$, $|\\overrightarrow{OC}|=\\sqrt{89}$, $\\overrightarrow{OA}\\cdot\\overrightarrow{OC}=5$, so $\\cos\\angle AOC=\\dfrac5{\\sqrt{1513}}$ and $\\sin\\angle AOC=\\sqrt{\\dfrac{1488}{1513}}$.\n\n$$\\text{Area}=\\tfrac12\\sqrt{17}\\sqrt{89}\\sin\\angle AOC=\\tfrac12\\sqrt{1488}=2\\sqrt{93}\\approx19.3$$"
+  },
+  {
+   "ref": "Q15(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^{\\frac\\pi2}\\sin^nx\\,dx$, where $n\\ge0$ is an integer. Using integration by parts, show that for $n\\ge2$, $I_n=\\left(\\dfrac{n-1}n\\right)I_{n-2}$.",
+   "answer": "With $u=\\sin^{n-1}x$, $dv=\\sin x\\,dx$:\n\n$$I_n=\\Big[-\\sin^{n-1}x\\cos x\\Big]_0^{\\pi/2}+(n-1)\\int_0^{\\pi/2}\\sin^{n-2}x\\cos^2x\\,dx$$\n\n$$=0+(n-1)\\int_0^{\\pi/2}\\sin^{n-2}x(1-\\sin^2x)\\,dx=(n-1)I_{n-2}-(n-1)I_n$$\n\nSo $nI_n=(n-1)I_{n-2}$."
+  },
+  {
+   "ref": "Q15(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.4.1.14"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^{\\frac\\pi2}\\sin^nx\\,dx$, where $n\\ge0$ is an integer. Given $I_n=\\dfrac{n-1}nI_{n-2}$ for $n\\ge2$, deduce that\n\n$$I_{2n}=\\frac{2n-1}{2n}\\cdot\\frac{2n-3}{2n-2}\\cdots\\frac34\\cdot\\frac12\\cdot\\frac\\pi2\\quad\\text{and}\\quad I_{2n+1}=\\frac{2n}{2n+1}\\cdot\\frac{2n-2}{2n-1}\\cdots\\frac45\\cdot\\frac23\\cdot1$$",
+   "answer": "Applying the recurrence repeatedly:\n\n$$I_{2n}=\\frac{2n-1}{2n}\\cdot\\frac{2n-3}{2n-2}\\cdots\\frac12\\,I_0,\\qquad I_0=\\int_0^{\\pi/2}1\\,dx=\\frac\\pi2$$\n\n$$I_{2n+1}=\\frac{2n}{2n+1}\\cdot\\frac{2n-2}{2n-1}\\cdots\\frac23\\,I_1,\\qquad I_1=\\int_0^{\\pi/2}\\sin x\\,dx=1$$"
+  },
+  {
+   "ref": "Q15(b)(iii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.1.15",
+    "12.1.3.9"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^{\\frac\\pi2}\\sin^nx\\,dx$, where $n\\ge0$ is an integer. Explain why $I_k>I_{k+1}$.",
+   "answer": "For $0<x<\\frac\\pi2$, $0<\\sin x<1$, so $\\sin^{k+1}x<\\sin^kx$. Hence the area under $y=\\sin^{k+1}x$ is smaller than the area under $y=\\sin^kx$, i.e. $I_{k+1}<I_k$."
+  },
+  {
+   "ref": "Q15(b)(iv)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.4.1.15",
+    "12.1.3.6"
+   ],
+   "question": "Let $I_n=\\displaystyle\\int_0^{\\frac\\pi2}\\sin^nx\\,dx$, where $n\\ge0$ is an integer. It is known that $I_{2n}=\\dfrac{1\\cdot3\\cdots(2n-1)}{2\\cdot4\\cdots2n}\\cdot\\dfrac\\pi2$, $I_{2n+1}=\\dfrac{2\\cdot4\\cdots2n}{3\\cdot5\\cdots(2n+1)}$ and $I_{n}=\\dfrac{n-1}{n}I_{n-2}$. Using $I_{2n-1}>I_{2n}$ and $I_{2n}>I_{2n+1}$, show that\n\n$$\\frac\\pi2\\left(\\frac{2n}{2n+1}\\right)<\\frac{2^2\\cdot4^2\\cdots(2n)^2}{1\\cdot3^2\\cdot5^2\\cdots(2n-1)^2\\cdot(2n+1)}<\\frac\\pi2$$",
+   "answer": "Call the middle expression $W$. From the formulas, $\\dfrac{I_{2n+1}}{I_{2n}}=\\dfrac{W}{\\pi/2}$.\n\n- $I_{2n+1}<I_{2n}$ gives $\\dfrac{I_{2n+1}}{I_{2n}}<1$, so $W<\\dfrac\\pi2$.\n- $I_{2n+1}=\\dfrac{2n}{2n+1}I_{2n-1}$ and $I_{2n-1}>I_{2n}$, so $\\dfrac{I_{2n+1}}{I_{2n}}>\\dfrac{2n}{2n+1}$, giving $W>\\dfrac\\pi2\\cdot\\dfrac{2n}{2n+1}$."
+  },
+  {
+   "ref": "Q16(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.2.6"
+   ],
+   "question": "For a complex number $z$ with $\\arg z=\\dfrac\\pi n$ and $0<|z|<1$, where $n\\ge3$, the numbers $1,z,z^2,\\dots,z^n$ are represented by $P_0,P_1,\\dots,P_n$ on the Argand diagram. The polygon formed by these points is the *$(n+1)$-polygon generated by $z$*. A $(3+1)$-polygon is shown (not to scale). Let $z=\\frac14(1+\\sqrt3i)$. Express $z$ in modulus–argument form $r(\\cos\\theta+i\\sin\\theta)$, where $r>0$ and $0<\\theta\\le\\pi$.",
+   "answer": "$|z|=\\frac14\\times2=\\frac12$ and $\\arg z=\\frac\\pi3$, so $z=\\dfrac12\\left(\\cos\\dfrac\\pi3+i\\sin\\dfrac\\pi3\\right)$.",
+   "images": [
+    "assets/img/ext2-2024-north-sydney-boys/q16a.png"
+   ]
+  },
+  {
+   "ref": "Q16(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.4.3"
+   ],
+   "question": "For a complex number $z$ with $\\arg z=\\dfrac\\pi n$ and $0<|z|<1$, where $n\\ge3$, the numbers $1,z,z^2,\\dots,z^n$ are represented by $P_0,P_1,\\dots,P_n$ on the Argand diagram. The polygon formed by these points is the *$(n+1)$-polygon generated by $z$*. A $(3+1)$-polygon is shown (not to scale). Let $z=\\frac14(1+\\sqrt3i)$. Given $z=\\frac12\\left(\\cos\\frac\\pi3+i\\sin\\frac\\pi3\\right)$, write down $z^2$ and $z^3$ in similar form.",
+   "answer": "$$z^2=\\frac14\\left(\\cos\\frac{2\\pi}3+i\\sin\\frac{2\\pi}3\\right),\\qquad z^3=\\frac18(\\cos\\pi+i\\sin\\pi)$$",
+   "images": [
+    "assets/img/ext2-2024-north-sydney-boys/q16a.png"
+   ]
+  },
+  {
+   "ref": "Q16(a)(iii)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.4.10",
+    "12.3.2.5"
+   ],
+   "question": "For a complex number $z$ with $\\arg z=\\dfrac\\pi n$ and $0<|z|<1$, where $n\\ge3$, the numbers $1,z,z^2,\\dots,z^n$ are represented by $P_0,P_1,\\dots,P_n$ on the Argand diagram. The polygon formed by these points is the *$(n+1)$-polygon generated by $z$*. A $(3+1)$-polygon is shown (not to scale). Let $z=\\frac14(1+\\sqrt3i)$. Find the exact area of triangle $OP_0P_1$, where $O$ is the origin. Hence find the exact area of the $(3+1)$-polygon generated by $z$.",
+   "answer": "$[OP_0P_1]=\\frac12(1)\\left(\\frac12\\right)\\sin\\frac\\pi3=\\dfrac{\\sqrt3}8$.\n\nSimilarly $[OP_1P_2]=\\dfrac{\\sqrt3}{32}$ and $[OP_2P_3]=\\dfrac{\\sqrt3}{128}$.\n\n$$\\text{Area}=\\frac{\\sqrt3}8+\\frac{\\sqrt3}{32}+\\frac{\\sqrt3}{128}=\\frac{21\\sqrt3}{128}$$",
+   "images": [
+    "assets/img/ext2-2024-north-sydney-boys/q16a.png"
+   ]
+  },
+  {
+   "ref": "Q16(a)(iv)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.3.4.10",
+    "12.3.2.5"
+   ],
+   "question": "For a complex number $z$ with $\\arg z=\\dfrac\\pi n$ and $0<|z|<1$, where $n\\ge3$, the numbers $1,z,z^2,\\dots,z^n$ are represented by $P_0,P_1,\\dots,P_n$ on the Argand diagram. The polygon formed by these points is the *$(n+1)$-polygon generated by $z$*. A $(3+1)$-polygon is shown (not to scale). Now let $z=\\frac12\\left(\\cos\\frac\\pi n+i\\sin\\frac\\pi n\\right)$. Find the area of the $(n+1)$-polygon generated by $z$ in terms of $n$, in the form $a(1-b^n)\\sin\\dfrac\\pi n$, where $a$ and $b$ are real numbers to be determined.",
+   "answer": "Triangle $OP_kP_{k+1}$ has area $\\frac12\\left(\\frac12\\right)^k\\left(\\frac12\\right)^{k+1}\\sin\\frac\\pi n=\\frac14\\left(\\frac14\\right)^k\\sin\\frac\\pi n$.\n\n$$\\text{Area}=\\sum_{k=0}^{n-1}\\frac14\\left(\\frac14\\right)^k\\sin\\frac\\pi n=\\frac13\\left(1-\\left(\\frac14\\right)^n\\right)\\sin\\frac\\pi n$$\n\nSo $a=\\frac13$, $b=\\frac14$.\n\n*Note: the paper prints $z=\\frac12re^{i\\pi/n}$; the school's solution takes $|z|=\\frac12$, as here.*",
+   "images": [
+    "assets/img/ext2-2024-north-sydney-boys/q16a.png"
+   ]
+  },
+  {
+   "ref": "Q16(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.4"
+   ],
+   "question": "In triangle $ABC$, $\\overrightarrow{AB}=\\mathbf b$ and $\\overrightarrow{AC}=\\mathbf c$. Find a vector (in terms of $\\mathbf b$ and $\\mathbf c$) which bisects $\\angle CAB$.",
+   "answer": "The sum of the two unit vectors is the diagonal of a rhombus, which bisects the angle: $\\dfrac{\\mathbf b}{|\\mathbf b|}+\\dfrac{\\mathbf c}{|\\mathbf c|}$."
+  },
+  {
+   "ref": "Q16(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 5,
+   "dotpoints": [
+    "12.2.2.5"
+   ],
+   "question": "In triangle $ABC$, $D$ and $E$ are points on the sides $AC$ and $AB$ respectively, with $DE$ not parallel to $CB$. $F$ and $G$ are points on $BC$ and $ED$ respectively such that $BF:FC=EG:GD=BE:CD$. Show that $GF$ is parallel to the bisector of $\\angle CAB$ (the direction $\\dfrac{\\mathbf b}{|\\mathbf b|}+\\dfrac{\\mathbf c}{|\\mathbf c|}$, where $\\mathbf b=\\overrightarrow{AB}$, $\\mathbf c=\\overrightarrow{AC}$).",
+   "answer": "Take $A$ as origin and let $\\mathbf d,\\mathbf e,\\mathbf f,\\mathbf g$ be the position vectors of $D,E,F,G$. Let $BF:FC=EG:GD=BE:CD=t:1$.\n\n$$\\mathbf f=\\frac{\\mathbf b+t\\mathbf c}{1+t},\\qquad\\mathbf g=\\frac{\\mathbf e+t\\mathbf d}{1+t}$$\n\n$$\\overrightarrow{GF}=\\mathbf f-\\mathbf g=\\frac{(\\mathbf b-\\mathbf e)+t(\\mathbf c-\\mathbf d)}{1+t}$$\n\nLet $CD=m$, so $BE=tm$. Since $E$ lies on $AB$ and $D$ on $AC$:\n\n$$\\mathbf b-\\mathbf e=tm\\frac{\\mathbf b}{|\\mathbf b|},\\qquad\\mathbf c-\\mathbf d=m\\frac{\\mathbf c}{|\\mathbf c|}$$\n\n$$\\overrightarrow{GF}=\\frac{tm}{1+t}\\left(\\frac{\\mathbf b}{|\\mathbf b|}+\\frac{\\mathbf c}{|\\mathbf c|}\\right)$$\n\nSo $GF$ is a scalar multiple of the bisector direction, hence parallel to it."
+  }
+ ]
+}
