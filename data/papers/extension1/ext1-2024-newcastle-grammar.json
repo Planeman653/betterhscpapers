@@ -1,0 +1,501 @@
+{
+ "id": "ext1-2024-newcastle-grammar",
+ "course": "extension1",
+ "school": "Newcastle Grammar",
+ "year": 2024,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "Newcastle Grammar 2024 w. sol"
+ },
+ "indexed": "2026-11-28",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q2",
+   "reason": "Pigeonhole principle is not in the 2024 syllabus"
+  },
+  {
+   "ref": "Q14(c)",
+   "reason": "Normal approximation to sample proportion is not in the 2024 syllabus"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.2.10",
+    "12.3.1.2"
+   ],
+   "question": "Consider the function $f(x)=\\cos\\left(\\dfrac{2x-1}{3}\\right)$. Over which domain does an inverse function exist for $f$?",
+   "options": [
+    "$[0,\\pi]$",
+    "$\\left[0,\\frac{1+3\\pi}{2}\\right]$",
+    "$\\left[\\frac{1-3\\pi}{2},\\frac{1+3\\pi}{2}\\right]$",
+    "$\\left[\\frac12,\\frac{1+3\\pi}{2}\\right]$"
+   ],
+   "correct": "D",
+   "answer": "**D.** $f$ is one-to-one when $0\\le\\frac{2x-1}{3}\\le\\pi$, i.e. $\\frac12\\le x\\le\\frac{3\\pi+1}{2}$."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Which of the following is a correct expression for $\\displaystyle\\int\\cos^3x\\,dx$ using the substitution $u=\\sin x$?",
+   "options": [
+    "$\\sin x-\\frac{\\sin^3x}{3}+C$",
+    "$\\sin x-\\frac{\\cos^3x}{3}+C$",
+    "$\\cos x-\\frac{\\sin^3x}{3}+C$",
+    "$\\frac12\\left[\\sin x+\\sin^2x\\right]+C$"
+   ],
+   "correct": "A",
+   "answer": "**A.** $\\int(1-u^2)\\,du=u-\\frac{u^3}{3}+C$."
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.8"
+   ],
+   "question": "Let $X$ be a binomial random variable with $E(X)=7$ and $\\text{Var}(X)=6$. What is the probability of success, $p$?",
+   "options": [
+    "$\\frac{36}{49}$",
+    "$\\frac67$",
+    "$\\frac1{49}$",
+    "$\\frac17$"
+   ],
+   "correct": "D",
+   "answer": "**D.** $np=7$ and $np(1-p)=6$, so $1-p=\\frac67$ and $p=\\frac17$."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.9"
+   ],
+   "question": "Which of the following differential equations corresponds to the slope field shown?",
+   "options": [
+    "$\\frac{dy}{dx}=\\frac{-x}{y^2}$",
+    "$\\frac{dy}{dx}=\\frac{y^2}{x^2}$",
+    "$\\frac{dy}{dx}=\\frac{-x^2}{y^2}$",
+    "$\\frac{dy}{dx}=\\frac{-y^2}{x}$"
+   ],
+   "correct": "C",
+   "answer": "**C.** The slopes are never positive, are zero when $x=0$ and vertical when $y=0$. Only $-x^2/y^2$ fits.",
+   "images": [
+    "assets/img/ext1-2024-newcastle-grammar/q5.png"
+   ]
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.10"
+   ],
+   "question": "What is the vector projection of $\\underset{\\sim}{u}=\\underset{\\sim}{i}+4\\underset{\\sim}{j}$ onto $\\underset{\\sim}{v}=-4\\underset{\\sim}{i}+3\\underset{\\sim}{j}$?",
+   "options": [
+    "$-\\frac{32}{17}\\underset{\\sim}{i}+\\frac{24}{17}\\underset{\\sim}{j}$",
+    "$\\frac8{25}\\underset{\\sim}{i}+\\frac{32}{25}\\underset{\\sim}{j}$",
+    "$\\frac8{17}\\underset{\\sim}{i}+\\frac{32}{17}\\underset{\\sim}{j}$",
+    "$-\\frac{32}{25}\\underset{\\sim}{i}+\\frac{24}{25}\\underset{\\sim}{j}$"
+   ],
+   "correct": "D",
+   "answer": "**D.** $\\frac{u\\cdot v}{|v|^2}v=\\frac8{25}(-4\\underset{\\sim}{i}+3\\underset{\\sim}{j})$."
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "If $\\displaystyle\\int_0^k\\frac{dx}{\\sqrt{4-9x^2}}=\\frac\\pi6$, what is the value of $k$?",
+   "options": [
+    "$\\frac23$",
+    "$\\frac{\\sqrt3}{2}$",
+    "$\\frac12$",
+    "1"
+   ],
+   "correct": "A",
+   "answer": "**A.** $\\frac13\\sin^{-1}\\frac{3k}{2}=\\frac\\pi6$, so $\\frac{3k}2=1$ and $k=\\frac23$."
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.6"
+   ],
+   "question": "From a standard deck of cards, a card is drawn 30 times with replacement. What is the probability that a black card is drawn exactly 20 times?",
+   "options": [
+    "$\\dfrac{{}^{30}C_{20}}{(2!)^{20}}$",
+    "$\\dfrac{{}^{30}C_{20}}{2^{30}}$",
+    "${}^{30}C_{20}\\left(\\frac12\\right)^{-30}$",
+    "$\\dfrac{{}^{30}C_{20}}{2}$"
+   ],
+   "correct": "B",
+   "answer": "**B.** $X\\sim\\text{Bin}(30,\\frac12)$: $P(X=20)={}^{30}C_{20}\\left(\\frac12\\right)^{30}$."
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.17",
+    "11.4.1.3"
+   ],
+   "question": "Moving only right or up along the grid lines, how many different paths are there from point $A$ to point $B$?",
+   "options": [
+    "45",
+    "840",
+    "2002",
+    "$14!$"
+   ],
+   "correct": "B",
+   "answer": "**B.** All paths pass through the shared corner: ${}^8C_3\\times{}^6C_2=56\\times15=840$.",
+   "images": [
+    "assets/img/ext1-2024-newcastle-grammar/q9.png"
+   ]
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.6.2.9",
+    "12.6.2.6"
+   ],
+   "question": "Brody and Ben play a badminton match in which a player must win five games to win the match. Brody wins each game with probability 0.9 and Ben with probability 0.1. What is the approximate probability that Brody wins the match after exactly 7 games?",
+   "options": [
+    "8.9%",
+    "9.8%",
+    "47.8%",
+    "12.4%"
+   ],
+   "correct": "A",
+   "answer": "**A.** Brody wins exactly 4 of the first 6 games and then the 7th: ${}^6C_4(0.9)^4(0.1)^2\\times0.9\\approx0.0886$."
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.2",
+    "11.3.3.3"
+   ],
+   "question": "What is the range of $y=2\\sin x+\\cos x-1$? (First consider $2\\sin x+\\cos x=R\\sin(x+\\alpha)$.)",
+   "answer": "$y=\\sqrt5\\sin(x+\\alpha)-1$, so the range is $[-\\sqrt5-1,\\ \\sqrt5-1]$."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.1.6",
+    "11.3.2.4"
+   ],
+   "question": "Show that $\\cos\\left(2\\sin^{-1}\\dfrac38\\right)=\\dfrac{23}{32}$, including all working.",
+   "answer": "Let $\\alpha=\\sin^{-1}\\frac38$. $\\cos2\\alpha=1-2\\sin^2\\alpha=1-\\frac{18}{64}=\\frac{23}{32}$."
+  },
+  {
+   "ref": "Q11(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Consider $\\dfrac{x^2-6}{x}\\le1$. The first line of Xanthe's solution is $x^2-6\\le x$. Explain why this is incorrect.",
+   "answer": "She multiplied by $x$, whose sign is unknown. When $x<0$ the inequality sign must reverse."
+  },
+  {
+   "ref": "Q11(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.4.2",
+    "11.1.4.1"
+   ],
+   "question": "Solve $\\dfrac{x^2-6}{x}\\le1$.",
+   "answer": "$x\\ne0$. Multiply by $x^2$: $x(x^2-6)\\le x^2$, so $x(x-3)(x+2)\\le0$. Hence $x\\le-2$ or $0<x\\le3$."
+  },
+  {
+   "ref": "Q11(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.3.3"
+   ],
+   "question": "Find the Cartesian equation of the curve with parametric equations $x=\\dfrac{t}{1+t^2}$, $y=\\dfrac{1}{1+t^2}$.",
+   "answer": "$x^2+y^2=\\dfrac{t^2+1}{(1+t^2)^2}=\\dfrac1{1+t^2}=y$, so $x^2+\\left(y-\\frac12\\right)^2=\\frac14$, excluding the origin since $y>0$. (The school's solution does not mention the excluded point.)"
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_3^{18}\\frac{x}{\\sqrt{x-2}}\\,dx$ using the substitution $u=x-2$.",
+   "answer": "$\\displaystyle\\int_1^{16}\\left(u^{1/2}+2u^{-1/2}\\right)du=\\left[\\frac23u^{3/2}+4u^{1/2}\\right]_1^{16}=54$."
+  },
+  {
+   "ref": "Q11(f)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.2.2"
+   ],
+   "question": "Prove $\\sin x+\\sin2x+\\sin3x=\\sin2x(2\\cos x+1)$.",
+   "answer": "$\\sin3x+\\sin x=\\sin(2x+x)+\\sin(2x-x)=2\\sin2x\\cos x$. Adding $\\sin2x$ gives $\\sin2x(2\\cos x+1)$."
+  },
+  {
+   "ref": "Q12(a)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.6"
+   ],
+   "question": "Consider the vectors $\\underset{\\sim}{u}=\\begin{pmatrix}3\\\\7\\end{pmatrix}$ and $\\underset{\\sim}{v}=\\begin{pmatrix}5\\\\-6\\end{pmatrix}$. Find the angle between $\\underset{\\sim}{u}$ and $\\underset{\\sim}{v}$, to the nearest degree.",
+   "answer": "$\\cos\\theta=\\dfrac{15-42}{\\sqrt{58}\\sqrt{61}}=\\dfrac{-27}{\\sqrt{3538}}$, so $\\theta\\approx117^\\circ$."
+  },
+  {
+   "ref": "Q12(a)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.9",
+    "12.2.1.6"
+   ],
+   "question": "Consider the vectors $\\underset{\\sim}{u}=\\begin{pmatrix}3\\\\7\\end{pmatrix}$ and $\\underset{\\sim}{v}=\\begin{pmatrix}5\\\\-6\\end{pmatrix}$. Draw a diagram showing $\\underset{\\sim}{u}$ and $\\underset{\\sim}{v}$, then draw and label $\\text{proj}_{\\underset{\\sim}{u}}\\underset{\\sim}{v}$ on it.",
+   "answer": "The projection lies along the line of $\\underset{\\sim}{u}$ (opposite in direction, as the angle is obtuse), at the foot of the perpendicular from the head of $\\underset{\\sim}{v}$.",
+   "answer_images": [
+    "assets/img/ext1-2024-newcastle-grammar/q12a.png"
+   ]
+  },
+  {
+   "ref": "Q12(a)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.4.10"
+   ],
+   "question": "Consider the vectors $\\underset{\\sim}{u}=\\begin{pmatrix}3\\\\7\\end{pmatrix}$ and $\\underset{\\sim}{v}=\\begin{pmatrix}5\\\\-6\\end{pmatrix}$. Find $\\text{proj}_{\\underset{\\sim}{u}}\\underset{\\sim}{v}$.",
+   "answer": "$\\dfrac{\\underset{\\sim}{u}\\cdot\\underset{\\sim}{v}}{|\\underset{\\sim}{u}|^2}\\underset{\\sim}{u}=-\\dfrac{27}{58}\\begin{pmatrix}3\\\\7\\end{pmatrix}=-\\dfrac{81}{58}\\underset{\\sim}{i}-\\dfrac{189}{58}\\underset{\\sim}{j}$."
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.2.2.5",
+    "11.2.2.2"
+   ],
+   "question": "A polynomial $P(x)$ has remainder 4 when divided by $x+1$, and $P(2)=3$. Find the remainder when $P(x)$ is divided by $x^2-x-2$.",
+   "answer": "$P(x)=(x-2)(x+1)Q(x)+ax+b$. $P(-1)=-a+b=4$ and $P(2)=2a+b=3$, so $a=-\\frac13$, $b=\\frac{11}3$. Remainder $-\\frac13x+\\frac{11}3$."
+  },
+  {
+   "ref": "Q12(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.2.5"
+   ],
+   "question": "Newton's law of cooling is $\\dfrac{dT}{dt}=-k(T-A)$, where $T$ is a body's temperature and $A$ the surrounding air temperature. Show that $T=A+Be^{-kt}$, where $B$ is a constant, satisfies it.",
+   "answer": "$\\dfrac{dT}{dt}=-kBe^{-kt}=-k(A+Be^{-kt}-A)=-k(T-A)$."
+  },
+  {
+   "ref": "Q12(c)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.7"
+   ],
+   "question": "Newton's law of cooling is $\\dfrac{dT}{dt}=-k(T-A)$, where $T$ is a body's temperature and $A$ the surrounding air temperature. Its solutions are $T=A+Be^{-kt}$. A piece of hot metal is initially at $1350^\\circ$C. After 10 minutes in surroundings at $25^\\circ$C it has cooled to $720^\\circ$C. How long does it take to cool to $50^\\circ$C, to the nearest minute?",
+   "answer": "$B=1325$. $720=25+1325e^{-10k}$ gives $k=-\\frac1{10}\\ln\\frac{695}{1325}$. $50=25+1325e^{-kt}$ gives $t=\\dfrac{10\\ln(25/1325)}{\\ln(695/1325)}\\approx61.5$, i.e. 62 minutes."
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^{1/4}\\frac{-3}{\\sqrt{1-4x^2}}\\,dx$.",
+   "answer": "$-\\frac32\\left[\\sin^{-1}2x\\right]_0^{1/4}=-\\frac32\\cdot\\frac\\pi6=-\\frac\\pi4$."
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "The wind chill index $W$ ($^\\circ$C) for wind speed $v$ km/h is $W=19.5-7.4v^{0.17}$. Find the rate of change of $W$ when the wind speed is 10 km/h and increasing at 5 km/h per hour, to two decimal places.",
+   "answer": "$\\dfrac{dW}{dv}=-1.258v^{-0.83}$. $\\dfrac{dW}{dt}=\\dfrac{dW}{dv}\\dfrac{dv}{dt}=-1.258\\times10^{-0.83}\\times5\\approx-0.93$. $W$ is decreasing at $0.93^\\circ$C per hour."
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.6",
+    "12.6.2.7"
+   ],
+   "question": "Show that the function $f(x)=\\dfrac{8}{\\pi(1+4x^2)}$ for $0\\le x\\le\\frac12$, and $f(x)=0$ otherwise. is a probability density function.",
+   "answer": "$f(x)\\ge0$ for all $x$, and $\\displaystyle\\int_0^{1/2}\\frac{8\\,dx}{\\pi(1+4x^2)}=\\frac4\\pi\\left[\\tan^{-1}2x\\right]_0^{1/2}=\\frac4\\pi\\cdot\\frac\\pi4=1$.",
+   "course": "advanced"
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.8"
+   ],
+   "question": "A random variable has probability density function $f(x)=\\dfrac{8}{\\pi(1+4x^2)}$ for $0\\le x\\le\\frac12$, and $f(x)=0$ otherwise. Determine the mode.",
+   "answer": "$f$ is decreasing on $[0,\\frac12]$, so its maximum is at $x=0$. Mode $=0$.",
+   "course": "advanced"
+  },
+  {
+   "ref": "Q13(c)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.6"
+   ],
+   "question": "By considering $\\sin(\\sin^{-1}x+\\cos^{-1}x)$, prove that $\\sin^{-1}x+\\cos^{-1}x=\\dfrac\\pi2$.",
+   "answer": "Let $\\alpha=\\sin^{-1}x$, $\\beta=\\cos^{-1}x$. $\\sin(\\alpha+\\beta)=x\\cdot x+\\sqrt{1-x^2}\\sqrt{1-x^2}=1$.\n\nSince $\\alpha\\in[-\\frac\\pi2,\\frac\\pi2]$ and $\\beta\\in[0,\\pi]$, $\\alpha+\\beta\\in[-\\frac\\pi2,\\frac{3\\pi}2]$, where the only solution of $\\sin=1$ is $\\frac\\pi2$. So $\\alpha+\\beta=\\frac\\pi2$."
+  },
+  {
+   "ref": "Q13(c)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.3.2.11",
+    "12.3.1.6"
+   ],
+   "question": "Draw the graph of $y=\\sin^{-1}x+\\cos^{-1}x+\\tan^{-1}x-\\dfrac\\pi2$.",
+   "answer": "Since $\\sin^{-1}x+\\cos^{-1}x=\\frac\\pi2$ on $[-1,1]$, the curve is $y=\\tan^{-1}x$ for $-1\\le x\\le1$, with closed endpoints $(\\pm1,\\pm\\frac\\pi4)$.",
+   "answer_images": [
+    "assets/img/ext1-2024-newcastle-grammar/q13c.png"
+   ]
+  },
+  {
+   "ref": "Q13(c)(iii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.1.6",
+    "12.3.2.4"
+   ],
+   "question": "Using $\\sin^{-1}x+\\cos^{-1}x=\\frac\\pi2$, or otherwise, evaluate $\\displaystyle\\int_{-\\pi/4}^{\\pi/4}\\left(\\sin^{-1}x+\\cos^{-1}x+\\tan^{-1}x\\right)dx$.",
+   "answer": "The integrand is $\\frac\\pi2+\\tan^{-1}x$. $\\tan^{-1}x$ is odd so integrates to 0. The result is $\\frac\\pi2\\times\\frac\\pi2=\\dfrac{\\pi^2}4$."
+  },
+  {
+   "ref": "Q13(d)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.6.2.9"
+   ],
+   "question": "The diagram shows 8 buildings, $A$ to $H$, connected in a ring network. Each edge is a cable between two buildings, and each end of a cable plugs into an access point. Each such connection is defective with probability 1.4%, independently. The network is operational if every building can communicate with every other, directly or through other buildings. Show that the probability that the network is not operational is less than 2%.",
+   "answer": "There are 16 connections. The ring still works if at most one cable is out: no defects, one defect, or two defects at the two ends of the same cable.\n\n$P=1-\\left[(0.986)^{16}+{}^{16}C_1(0.014)(0.986)^{15}+{}^8C_1(0.014)^2(0.986)^{14}\\right]\\approx0.01935<0.02$.\n\n(The paper says \"$A$ to $G$\"; the diagram shows $A$ to $H$.)",
+   "images": [
+    "assets/img/ext1-2024-newcastle-grammar/q13d.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "Solve $\\dfrac{dy}{dx}=\\dfrac{\\cos^2y}{e^x}$ given $y(0)=\\dfrac\\pi4$. Express your answer in the form $y=f(x)$.",
+   "answer": "$\\int\\sec^2y\\,dy=\\int e^{-x}dx$, so $\\tan y=-e^{-x}+C$. $y(0)=\\frac\\pi4$ gives $C=2$. $y=\\tan^{-1}(2-e^{-x})$."
+  },
+  {
+   "ref": "Q14(b)(i)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Use mathematical induction to prove that $\\dfrac1{2^2-1}+\\dfrac1{3^2-1}+\\dfrac1{4^2-1}+\\dots+\\dfrac1{n^2-1}=\\dfrac{(n-1)(3n+2)}{4n(n+1)}$ for all integers $n\\ge2$.",
+   "answer": "$n=2$: LHS $=\\frac13$, RHS $=\\frac{1\\times8}{4\\times2\\times3}=\\frac13$.\n\nAssume true for $n=k$. Then LHS$_{k+1}=\\dfrac{(k-1)(3k+2)}{4k(k+1)}+\\dfrac1{k(k+2)}=\\dfrac{(3k^2-k-2)(k+2)+4(k+1)}{4k(k+1)(k+2)}=\\dfrac{k^2(3k+5)}{4k(k+1)(k+2)}=\\dfrac{k(3k+5)}{4(k+1)(k+2)}$, which is the RHS for $n=k+1$. So true by induction."
+  },
+  {
+   "ref": "Q14(b)(ii)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.1.1.2"
+   ],
+   "question": "Given $\\dfrac1{2^2-1}+\\dfrac1{3^2-1}+\\dfrac1{4^2-1}+\\dots+\\dfrac1{n^2-1}=\\dfrac{(n-1)(3n+2)}{4n(n+1)}$, evaluate $\\dfrac1{4^2-1}+\\dfrac1{5^2-1}+\\dots+\\dfrac1{50^2-1}$.",
+   "answer": "$\\dfrac{49\\times152}{4\\times50\\times51}-\\left(\\dfrac13+\\dfrac18\\right)=\\dfrac{2773}{10200}$."
+  },
+  {
+   "ref": "Q14(d)(i)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.4"
+   ],
+   "question": "Points $A,B,C$ have position vectors $\\underset{\\sim}{a},\\underset{\\sim}{b},\\underset{\\sim}{c}$, and $\\lambda,\\mu$ are non-zero numbers with $\\lambda\\underset{\\sim}{a}+\\mu\\underset{\\sim}{b}-\\underset{\\sim}{c}=\\underset{\\sim}{0}$ and $\\lambda+\\mu=1$. Show that $A,B,C$ are collinear.",
+   "answer": "$\\overrightarrow{BC}=\\lambda\\underset{\\sim}{a}+(\\mu-1)\\underset{\\sim}{b}=\\lambda(\\underset{\\sim}{a}-\\underset{\\sim}{b})=-\\lambda\\overrightarrow{AB}$. So $BC\\parallel AB$ with $B$ in common: collinear."
+  },
+  {
+   "ref": "Q14(d)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.3"
+   ],
+   "question": "Vectors $\\underset{\\sim}{a}=\\overrightarrow{OA}$ and $\\underset{\\sim}{b}=\\overrightarrow{OB}$ have $|\\underset{\\sim}{a}|=2$, the angle between them is acute, and triangle $OAB$ has area $k$ units$^2$. Show that $(\\underset{\\sim}{a}\\cdot\\underset{\\sim}{b})^2=4\\left(|\\underset{\\sim}{b}|^2-k^2\\right)$.",
+   "answer": "$k=\\frac12(2)|\\underset{\\sim}{b}|\\sin\\theta$, so $\\sin\\theta=\\frac{k}{|\\underset{\\sim}{b}|}$. $(\\underset{\\sim}{a}\\cdot\\underset{\\sim}{b})^2=4|\\underset{\\sim}{b}|^2\\cos^2\\theta=4|\\underset{\\sim}{b}|^2(1-\\sin^2\\theta)=4(|\\underset{\\sim}{b}|^2-k^2)$."
+  }
+ ]
+}
