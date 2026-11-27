@@ -1,0 +1,495 @@
+{
+ "id": "ext1-2024-killara",
+ "course": "extension1",
+ "school": "Killara",
+ "year": 2024,
+ "type": "Trial",
+ "thsc": {
+  "viewno": "5338",
+  "title": "Killara 2024 w. sol"
+ },
+ "indexed": "2026-11-28",
+ "answers": "worked",
+ "dropped": [
+  {
+   "ref": "Q13(d)",
+   "reason": "Not in 2024 syllabus: normal approximation to the binomial"
+  },
+  {
+   "ref": "Q14(c)(i)",
+   "reason": "Not in 2024 syllabus: sample proportions"
+  },
+  {
+   "ref": "Q14(c)(ii)",
+   "reason": "Not in 2024 syllabus: sample proportions"
+  }
+ ],
+ "questions": [
+  {
+   "ref": "Q1",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.3.1.3",
+    "12.3.1.6"
+   ],
+   "question": "It is given that $\\sin\\left(\\dfrac{11\\pi}{12}\\right)=\\dfrac{\\sqrt6-\\sqrt2}{4}$. Which of the following is the value of $\\sin^{-1}\\left(\\dfrac{\\sqrt6-\\sqrt2}{4}\\right)$?",
+   "options": [
+    "$\\dfrac{\\pi}{12}$",
+    "$\\dfrac{11\\pi}{12}$",
+    "$-\\dfrac{\\pi}{12}$",
+    "$-\\dfrac{11\\pi}{12}$"
+   ],
+   "correct": "A",
+   "answer": "**A.** $\\sin\\frac{11\\pi}{12}=\\sin\\frac{\\pi}{12}$ and $\\frac{\\pi}{12}$ lies in the range of $\\sin^{-1}$."
+  },
+  {
+   "ref": "Q2",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.2.2.6",
+    "11.2.2.7"
+   ],
+   "question": "Which of the following could be one of the factors of the polynomial $P(x)=x^3+x^2-5x-2$?",
+   "options": [
+    "$x-1$",
+    "$x+1$",
+    "$x-2$",
+    "$x+2$"
+   ],
+   "correct": "C",
+   "answer": "**C.** $P(2)=8+4-10-2=0$."
+  },
+  {
+   "ref": "Q3",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.1",
+    "11.1.1.3"
+   ],
+   "question": "The graph of $y=f(x)$ is shown. Which of the following is a graph of $y=-\\dfrac{1}{f(|x|)}$?",
+   "options": [
+    "![Graph A](assets/img/ext1-2024-killara/q3a.png)",
+    "![Graph B](assets/img/ext1-2024-killara/q3b.png)",
+    "![Graph C](assets/img/ext1-2024-killara/q3c.png)",
+    "![Graph D](assets/img/ext1-2024-killara/q3d.png)"
+   ],
+   "correct": "B",
+   "answer": "**B.** $f(|x|)<0$ for $|x|<2$, so the graph is positive there, with asymptotes $x=\\pm2$. Since $f(|x|)$ has a cusp at $x=0$ and minima at $x=\\pm\\frac12$, the middle branch has a small cusp at $x=0$.",
+   "images": [
+    "assets/img/ext1-2024-killara/q3.png"
+   ]
+  },
+  {
+   "ref": "Q4",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.5.1.7"
+   ],
+   "question": "Which of the following is the coefficient of the $x^3$ term in the expansion of $(2-x)^8$?",
+   "options": [
+    "$448$",
+    "$-448$",
+    "$1792$",
+    "$-1792$"
+   ],
+   "correct": "D",
+   "answer": "**D.** $\\binom83 2^5(-1)^3=-1792$."
+  },
+  {
+   "ref": "Q5",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.4.3",
+    "11.1.4.2"
+   ],
+   "question": "Which inequality below has the same solution set as the equation $|x+5|+|x-1|=6$?",
+   "options": [
+    "$\\dfrac{1}{x^2-4x-5}\\le0$",
+    "$x^2-4x-5<0$",
+    "$|x+2|\\le3$",
+    "$|x+2|\\ge3$"
+   ],
+   "correct": "C",
+   "answer": "**C.** The distances to $-5$ and $1$ sum to $6$ exactly when $-5\\le x\\le1$, which is $|x+2|\\le3$."
+  },
+  {
+   "ref": "Q6",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.18",
+    "11.4.1.17"
+   ],
+   "question": "A team of $r$ student representatives is chosen from a class of $n$ students, where $r<n$. The team must include a captain and a vice-captain. In how many ways can the team be selected?",
+   "options": [
+    "$n(n-1)\\dbinom nr$",
+    "$2!\\times\\dbinom nr$",
+    "$r(r-1)\\dbinom{n-2}{r}$",
+    "$n(n-1)\\dbinom{n-2}{r-2}$"
+   ],
+   "correct": "D",
+   "answer": "**D.** Choose captain and vice-captain ($n(n-1)$ ways), then the other $r-2$ members from the remaining $n-2$."
+  },
+  {
+   "ref": "Q7",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.1.1.4",
+    "11.1.1.6"
+   ],
+   "question": "The diagram shows the graph of $h(x)=\\dfrac{g(x)}{f(x)}$. Which of the following best represents the graphs of both $f(x)$ and $g(x)$?",
+   "options": [
+    "![Graph A](assets/img/ext1-2024-killara/q7a.png)",
+    "![Graph B](assets/img/ext1-2024-killara/q7b.png)",
+    "![Graph C](assets/img/ext1-2024-killara/q7c.png)",
+    "![Graph D](assets/img/ext1-2024-killara/q7d.png)"
+   ],
+   "correct": "A",
+   "answer": "**A.** Both sides of the vertical asymptote go to $+\\infty$, so $f$ touches the axis there (double zero) and $g$ is positive there. $h<0$ far to the left and $h>0$ to the right, so with $f\\ge0$, $g$ is an increasing line.",
+   "images": [
+    "assets/img/ext1-2024-killara/q7.png"
+   ]
+  },
+  {
+   "ref": "Q8",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.3.2.9",
+    "12.3.1.6"
+   ],
+   "question": "Which one of the following is $\\sin^{-1}(\\cos\\theta)$, given that $\\dfrac{3\\pi}{2}<\\theta<2\\pi$?",
+   "options": [
+    "$\\dfrac{\\pi}{2}-\\theta$",
+    "$\\dfrac{3\\pi}{2}-\\theta$",
+    "$-\\dfrac{3\\pi}{2}+\\theta$",
+    "$2\\pi-\\theta$"
+   ],
+   "correct": "C",
+   "answer": "**C.** $\\cos\\theta=\\sin\\left(\\theta-\\frac{3\\pi}{2}\\right)$ and $\\theta-\\frac{3\\pi}2\\in\\left(0,\\frac\\pi2\\right)$."
+  },
+  {
+   "ref": "Q9",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.6.2.6"
+   ],
+   "question": "The probability of it being sunny on three consecutive days is $0.512$. The probability that it is sunny on exactly two days during a period of $n$ days is $0.0512$. Assuming the probability of being sunny is the same every day and days are independent, what is the value of $n$?",
+   "options": [
+    "$4$",
+    "$5$",
+    "$6$",
+    "$7$"
+   ],
+   "correct": "B",
+   "answer": "**B.** $p=\\sqrt[3]{0.512}=0.8$ and $\\binom52(0.8)^2(0.2)^3=0.0512$."
+  },
+  {
+   "ref": "Q10",
+   "kind": "mc",
+   "marks": 1,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.4.5",
+    "12.2.3.6"
+   ],
+   "question": "In parallelogram $ABCD$ shown, $|\\overrightarrow{AB}|=8$, $|\\overrightarrow{AD}|=5$, $\\overrightarrow{CP}=3\\overrightarrow{PD}$ and $\\overrightarrow{AP}\\cdot\\overrightarrow{BP}=2$. What is the value of $\\overrightarrow{AB}\\cdot\\overrightarrow{AD}$?",
+   "options": [
+    "$17$",
+    "$19$",
+    "$22$",
+    "$24$"
+   ],
+   "correct": "C",
+   "answer": "**C.** $\\left(\\overrightarrow{AD}+\\tfrac14\\overrightarrow{AB}\\right)\\cdot\\left(\\overrightarrow{AD}-\\tfrac34\\overrightarrow{AB}\\right)=25-\\tfrac12\\overrightarrow{AB}\\cdot\\overrightarrow{AD}-12=2$.",
+   "images": [
+    "assets/img/ext1-2024-killara/q10.png"
+   ]
+  },
+  {
+   "ref": "Q11(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.4.2"
+   ],
+   "question": "Solve $\\dfrac{2x}{x+3}\\le1$.",
+   "answer": "$x\\ne-3$. Multiply by $(x+3)^2>0$:\n\n$$2x(x+3)\\le(x+3)^2\\Rightarrow(x+3)(x-3)\\le0$$\n\nSo $-3<x\\le3$."
+  },
+  {
+   "ref": "Q11(b)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.1.3.3"
+   ],
+   "question": "Find the Cartesian equation of the curve with parametric equations $x=2\\cos t$, $y=2\\sin t$, $0\\le t\\le\\pi$.",
+   "answer": "$\\left(\\dfrac x2\\right)^2+\\left(\\dfrac y2\\right)^2=1$, so $x^2+y^2=4$. Since $0\\le t\\le\\pi$, $y\\ge0$:\n\n$$y=\\sqrt{4-x^2},\\quad-2\\le x\\le2$$"
+  },
+  {
+   "ref": "Q11(c)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.4.1.10"
+   ],
+   "question": "Three men and three women are to sit at a round table. How many seating arrangements are possible if there are no restrictions?",
+   "answer": "$(6-1)!=120$."
+  },
+  {
+   "ref": "Q11(c)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.4.1.11"
+   ],
+   "question": "Three men and three women are to sit at a round table. How many seating arrangements are possible if two particular women must sit together?",
+   "answer": "Treat the pair as one unit: $5$ units around the table give $4!$ arrangements, and the pair can be ordered in $2!$ ways. Total $4!\\times2!=48$."
+  },
+  {
+   "ref": "Q11(d)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "11.3.3.2"
+   ],
+   "question": "Express $\\cos x-\\sqrt3\\sin x$ in the form $r\\cos(x+\\alpha)$.",
+   "answer": "$r\\cos\\alpha=1$, $r\\sin\\alpha=\\sqrt3$, so $r=2$, $\\alpha=\\frac\\pi3$: $\\cos x-\\sqrt3\\sin x=2\\cos\\left(x+\\dfrac\\pi3\\right)$."
+  },
+  {
+   "ref": "Q11(d)(ii)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "11.3.3.3"
+   ],
+   "question": "Using $\\cos x-\\sqrt3\\sin x=2\\cos\\left(x+\\frac\\pi3\\right)$, solve $\\cos x-\\sqrt3\\sin x=-\\sqrt3$ for $0\\le x\\le2\\pi$.",
+   "answer": "$\\cos\\left(x+\\dfrac\\pi3\\right)=-\\dfrac{\\sqrt3}{2}$, so $x+\\dfrac\\pi3=\\dfrac{5\\pi}6,\\dfrac{7\\pi}6$ and $x=\\dfrac\\pi2,\\ \\dfrac{5\\pi}6$."
+  },
+  {
+   "ref": "Q11(e)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.3.7",
+    "12.2.3.6"
+   ],
+   "question": "Vectors $\\mathbf u$ and $\\mathbf v$ are given by $\\mathbf u=\\begin{pmatrix}2\\\\3\\end{pmatrix}$ and $\\mathbf v=\\begin{pmatrix}-2\\\\4\\end{pmatrix}$. Find the magnitude and direction of $\\mathbf u-\\mathbf v$.",
+   "answer": "$\\mathbf u-\\mathbf v=\\begin{pmatrix}4\\\\-1\\end{pmatrix}$, so $|\\mathbf u-\\mathbf v|=\\sqrt{17}$.\n\nDirection: $\\tan^{-1}\\left(-\\frac14\\right)\\approx-14^\\circ2'$, i.e. about $14^\\circ$ below the positive $x$-axis (bearing $104^\\circ$)."
+  },
+  {
+   "ref": "Q11(f)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.1"
+   ],
+   "question": "Evaluate $\\displaystyle\\int_0^{\\frac13}\\frac{dx}{1+9x^2}$.",
+   "answer": "$$\\left[\\tfrac13\\tan^{-1}3x\\right]_0^{1/3}=\\tfrac13\\times\\tfrac\\pi4=\\frac\\pi{12}$$"
+  },
+  {
+   "ref": "Q12(a)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.4.1.7",
+    "12.4.1.6"
+   ],
+   "question": "Differentiate $y=3x\\sin^{-1}(2x)$.",
+   "answer": "$$\\frac{dy}{dx}=3\\sin^{-1}2x+\\frac{6x}{\\sqrt{1-4x^2}}$$"
+  },
+  {
+   "ref": "Q12(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.4.2.2"
+   ],
+   "question": "Using the substitution $x=\\cos\\theta$, find $\\displaystyle\\int_{-\\frac1{\\sqrt2}}^{\\frac12}\\frac{x}{\\sqrt{1-x^2}}\\,dx$ in exact form.",
+   "answer": "$dx=-\\sin\\theta\\,d\\theta$; $x=-\\dfrac1{\\sqrt2}\\to\\theta=\\dfrac{3\\pi}4$, $x=\\dfrac12\\to\\theta=\\dfrac\\pi3$.\n\n$$\\int_{3\\pi/4}^{\\pi/3}\\frac{\\cos\\theta}{\\sin\\theta}(-\\sin\\theta)\\,d\\theta=-\\Big[\\sin\\theta\\Big]_{3\\pi/4}^{\\pi/3}=\\frac{\\sqrt2-\\sqrt3}{2}$$"
+  },
+  {
+   "ref": "Q12(c)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 1,
+   "dotpoints": [
+    "12.5.4.8",
+    "12.5.4.4"
+   ],
+   "question": "A direction field is to be drawn for $\\dfrac{dy}{dx}=\\dfrac{x+2y}{2y}$. Find the slopes of the direction field at $Q(-2,1)$ and $R(-4,1)$, and describe the line segments to be drawn there.",
+   "answer": "At $Q(-2,1)$: $\\dfrac{dy}{dx}=\\dfrac{0}{2}=0$, a horizontal segment.\n\nAt $R(-4,1)$: $\\dfrac{dy}{dx}=\\dfrac{-2}{2}=-1$, a segment falling at $45^\\circ$."
+  },
+  {
+   "ref": "Q12(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "11.4.1.7",
+    "11.4.1.2"
+   ],
+   "question": "It is given that $\\dfrac{{}^nP_{r-1}}{a}=\\dfrac{{}^nP_r}{b}=\\dfrac{{}^nP_{r+1}}{c}$. Prove that $b^2=a(b+c)$.",
+   "answer": "$$\\frac ba=\\frac{{}^nP_r}{{}^nP_{r-1}}=\\frac{(n-r+1)!}{(n-r)!}=n-r+1,\\qquad\\frac cb=\\frac{{}^nP_{r+1}}{{}^nP_r}=n-r$$\n\nSo $\\dfrac ba=\\dfrac cb+1=\\dfrac{b+c}{b}$, giving $b^2=a(b+c)$."
+  },
+  {
+   "ref": "Q12(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.1.1.1",
+    "11.3.2.4"
+   ],
+   "question": "Use mathematical induction to prove that, for $n=1,2,3,\\dots$ and $\\sin2x\\ne0$,\n\n$$\\cos2x\\,\\cos2^2x\\cdots\\cos2^nx=\\frac{\\sin2^{n+1}x}{2^n\\sin2x}$$",
+   "answer": "**$n=1$:** RHS $=\\dfrac{\\sin4x}{2\\sin2x}=\\dfrac{2\\sin2x\\cos2x}{2\\sin2x}=\\cos2x=$ LHS.\n\n**Assume** true for $n=k$. For $n=k+1$:\n\n$$\\text{LHS}=\\frac{\\sin2^{k+1}x}{2^k\\sin2x}\\cos2^{k+1}x=\\frac{\\frac12\\sin2^{k+2}x}{2^k\\sin2x}=\\frac{\\sin2^{k+2}x}{2^{k+1}\\sin2x}=\\text{RHS}$$\n\nSo by induction the result holds for all integers $n\\ge1$."
+  },
+  {
+   "ref": "Q12(f)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.4.13"
+   ],
+   "question": "Find the particular solution of the differential equation $\\dfrac{dy}{dx}=\\dfrac{xy}{x+2}$ that passes through $(0,-1)$.",
+   "answer": "$$\\int\\frac{dy}{y}=\\int\\left(1-\\frac{2}{x+2}\\right)dx\\Rightarrow\\ln|y|=x-2\\ln|x+2|+C$$\n\nAt $(0,-1)$: $0=-2\\ln2+C$, so $C=\\ln4$. Since $y<0$ at the initial point:\n\n$$y=-\\frac{4e^x}{(x+2)^2}\\qquad(x>-2)$$"
+  },
+  {
+   "ref": "Q13(a)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.3.3",
+    "12.4.2.3"
+   ],
+   "question": "The region between the graph of $f(x)=\\sin x\\cos x$ and the $x$-axis over $x\\in\\left[0,\\frac\\pi2\\right]$ is rotated about the $x$-axis. Find the volume of the resulting solid.",
+   "answer": "$$V=\\pi\\int_0^{\\pi/2}\\sin^2x\\cos^2x\\,dx=\\frac\\pi4\\int_0^{\\pi/2}\\sin^22x\\,dx=\\frac\\pi8\\int_0^{\\pi/2}(1-\\cos4x)\\,dx=\\frac{\\pi^2}{16}\\ \\text{units}^3$$"
+  },
+  {
+   "ref": "Q13(b)(i)",
+   "kind": "written",
+   "marks": 1,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.2.2.8",
+    "12.2.3.5"
+   ],
+   "question": "The diagram shows two squares $OABC$ and $ODEF$ with $OA=1$, $OD=2$ and $\\angle AOF=\\theta$, where $0^\\circ<\\theta<90^\\circ$. Let $\\overrightarrow{OF}=2\\mathbf i$, $\\overrightarrow{OD}=-2\\mathbf j$ and $\\overrightarrow{OA}=\\cos\\theta\\,\\mathbf i+\\sin\\theta\\,\\mathbf j$. Explain why $\\overrightarrow{OC}=-\\sin\\theta\\,\\mathbf i+\\cos\\theta\\,\\mathbf j$.",
+   "answer": "$OC$ has length $1$ and makes angle $90^\\circ+\\theta$ with the positive $x$-axis, so $\\overrightarrow{OC}=\\cos(90^\\circ+\\theta)\\mathbf i+\\sin(90^\\circ+\\theta)\\mathbf j=-\\sin\\theta\\,\\mathbf i+\\cos\\theta\\,\\mathbf j$.",
+   "images": [
+    "assets/img/ext1-2024-killara/q13b.png"
+   ]
+  },
+  {
+   "ref": "Q13(b)(ii)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.2.3.4",
+    "12.2.3.6"
+   ],
+   "question": "The diagram shows two squares $OABC$ and $ODEF$ with $OA=1$, $OD=2$ and $\\angle AOF=\\theta$, where $0^\\circ<\\theta<90^\\circ$. Let $\\overrightarrow{OF}=2\\mathbf i$, $\\overrightarrow{OD}=-2\\mathbf j$ and $\\overrightarrow{OA}=\\cos\\theta\\,\\mathbf i+\\sin\\theta\\,\\mathbf j$. Given $\\overrightarrow{OC}=-\\sin\\theta\\,\\mathbf i+\\cos\\theta\\,\\mathbf j$, use vector methods to show that if the points $B$, $A$ and $E$ are collinear then $\\cos\\theta-\\sin\\theta=\\dfrac12$.",
+   "answer": "$\\overrightarrow{AB}=\\overrightarrow{OC}=(-\\sin\\theta,\\cos\\theta)$, $\\overrightarrow{OE}=(2,-2)$, so $\\overrightarrow{EA}=(\\cos\\theta-2,\\ \\sin\\theta+2)$.\n\nCollinearity gives $\\overrightarrow{EA}=k\\overrightarrow{AB}$ for a scalar $k$:\n\n$$\\cos\\theta-2=-k\\sin\\theta,\\qquad\\sin\\theta+2=k\\cos\\theta$$\n\nEliminating $k$:\n\n$$(\\cos\\theta-2)\\cos\\theta=-(\\sin\\theta+2)\\sin\\theta$$\n\n$$1-2\\cos\\theta+2\\sin\\theta=0\\Rightarrow\\cos\\theta-\\sin\\theta=\\tfrac12$$",
+   "images": [
+    "assets/img/ext1-2024-killara/q13b.png"
+   ]
+  },
+  {
+   "ref": "Q13(c)",
+   "kind": "written",
+   "marks": 2,
+   "difficulty": 2,
+   "dotpoints": [
+    "12.5.2.7",
+    "12.5.2.5"
+   ],
+   "question": "A bottle of soda at $25^\\circ$C is placed in a refrigerator with constant temperature $6^\\circ$C. Its temperature $T^\\circ$C after $t$ minutes satisfies $\\dfrac{dT}{dt}=k(T-6)$, where $k$ is a constant. The temperature drops to $16^\\circ$C after $30$ minutes. Prove that $k=\\dfrac1{30}\\ln\\left(\\dfrac{10}{19}\\right)$.",
+   "answer": "The solution is $T=6+Ae^{kt}$. At $t=0$, $T=25$ so $A=19$.\n\nAt $t=30$: $16=6+19e^{30k}$, so $e^{30k}=\\dfrac{10}{19}$ and $k=\\dfrac1{30}\\ln\\left(\\dfrac{10}{19}\\right)$."
+  },
+  {
+   "ref": "Q13(e)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 3,
+   "dotpoints": [
+    "12.5.2.2"
+   ],
+   "question": "A man walks along a straight path at $1.2\\ \\text{m s}^{-1}$. A searchlight on the ground $6$ m from the path is kept focused on him. At what rate is the searchlight rotating when the man is $8$ m from the point on the path closest to the searchlight?",
+   "answer": "$x=6\\tan\\theta$, so $\\dfrac{dx}{dt}=6\\sec^2\\theta\\,\\dfrac{d\\theta}{dt}$ and $\\dfrac{d\\theta}{dt}=\\dfrac{\\cos^2\\theta}{6}\\times1.2$.\n\nWhen $x=8$ the distance to the man is $10$, so $\\cos\\theta=\\frac35$:\n\n$$\\frac{d\\theta}{dt}=\\frac16\\times\\frac9{25}\\times1.2=0.072\\ \\text{rad s}^{-1}$$",
+   "images": [
+    "assets/img/ext1-2024-killara/q13e.png"
+   ]
+  },
+  {
+   "ref": "Q14(a)",
+   "kind": "written",
+   "marks": 4,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.5.4.15",
+    "12.5.4.16"
+   ],
+   "question": "The rate of sales of a new toy is proportional to the product of the number of toys sold and the number in the target audience who have not yet purchased it. The target audience is $4$ million. $950\\,000$ toys had been sold by 12 am on 1 October, and $3.5$ million by 12 am on 1 December.\n\nDetermine on what day the company sold to exactly half of its target audience.\n\nYou may use the result $\\dfrac{1}{x(a-x)}=\\dfrac{1}{ax}+\\dfrac{1}{a(a-x)}$.",
+   "answer": "Let $S$ be the sales in millions and $t$ the days after 1 October: $\\dfrac{dS}{dt}=kS(4-S)$.\n\n$$\\int_{0.95}^S\\left(\\frac1{4S}+\\frac1{4(4-S)}\\right)dS=kt\\ \\Rightarrow\\ \\frac14\\ln\\left(\\frac{S}{4-S}\\cdot\\frac{3.05}{0.95}\\right)=kt$$\n\ni.e. $\\dfrac14\\ln\\left(\\dfrac{61S}{19(4-S)}\\right)=kt$.\n\n1 December is $t=61$ with $S=3.5$: $k=\\dfrac{1}{244}\\ln\\dfrac{427}{19}\\approx0.012756$.\n\nWhen $S=2$: $t=\\dfrac{1}{4k}\\ln\\dfrac{61}{19}\\approx22.86$ days.\n\nSo half the audience was reached on **23 October**."
+  },
+  {
+   "ref": "Q14(b)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.4.7",
+    "12.2.4.5"
+   ],
+   "question": "Triangle $PQR$ is isosceles with $PQ=PR$. A circle with centre $O$ and diameter $PQ$ cuts $QR$ at $X$. Let $\\overrightarrow{OP}=\\mathbf a$. Prove, using vector methods, that $X$ is the midpoint of $QR$.",
+   "answer": "Let $\\overrightarrow{OX}=\\mathbf r$, where $|\\mathbf r|=|\\mathbf a|$, and $\\overrightarrow{OQ}=-\\mathbf a$.\n\n$$\\overrightarrow{PX}\\cdot\\overrightarrow{QX}=(\\mathbf r-\\mathbf a)\\cdot(\\mathbf r+\\mathbf a)=|\\mathbf r|^2-|\\mathbf a|^2=0$$\n\nSo $PX\\perp QR$. Then, since $\\overrightarrow{PQ}=\\overrightarrow{PX}+\\overrightarrow{XQ}$ and $\\overrightarrow{PR}=\\overrightarrow{PX}+\\overrightarrow{XR}$ with both cross terms zero:\n\n$$|\\overrightarrow{PQ}|^2=|\\overrightarrow{PX}|^2+|\\overrightarrow{XQ}|^2,\\qquad|\\overrightarrow{PR}|^2=|\\overrightarrow{PX}|^2+|\\overrightarrow{XR}|^2$$\n\nAs $PQ=PR$, $XQ=XR$. Since $X$ lies on $QR$, it is the midpoint.",
+   "images": [
+    "assets/img/ext1-2024-killara/q14b.png"
+   ]
+  },
+  {
+   "ref": "Q14(d)",
+   "kind": "written",
+   "marks": 3,
+   "difficulty": 4,
+   "dotpoints": [
+    "12.2.6.8",
+    "12.2.6.7"
+   ],
+   "question": "Particles $P$ and $Q$ are projected from the same point $A$ on horizontal ground. $P$ is projected at an acute angle $\\theta$ to the horizontal with speed $u\\ \\text{m s}^{-1}$, and $Q$ at an acute angle $2\\theta$ with speed $2u\\ \\text{m s}^{-1}$. Both land at the same point $B$. If $P$ takes $0.6$ seconds to travel from $A$ to $B$, find the time taken by $Q$.\n\nFor $P$ (do not prove): $\\mathbf r=\\begin{pmatrix}ut\\cos\\theta\\\\ -\\frac{gt^2}{2}+ut\\sin\\theta\\end{pmatrix}$.",
+   "answer": "Times of flight: $t_P=\\dfrac{2u\\sin\\theta}{g}=0.6$ and $t_Q=\\dfrac{4u\\sin2\\theta}{g}=\\dfrac{8u\\sin\\theta\\cos\\theta}{g}=4t_P\\cos\\theta=2.4\\cos\\theta$.\n\nEqual ranges: $u\\cos\\theta\\,t_P=2u\\cos2\\theta\\,t_Q=8u\\cos2\\theta\\cos\\theta\\,t_P$, so $\\cos2\\theta=\\dfrac18$.\n\nThen $\\cos^2\\theta=\\dfrac{1+\\cos2\\theta}{2}=\\dfrac9{16}$, so $\\cos\\theta=\\dfrac34$ and $t_Q=1.8$ seconds.",
+   "images": [
+    "assets/img/ext1-2024-killara/q14d.png"
+   ]
+  }
+ ]
+}
